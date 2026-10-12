@@ -1,0 +1,79 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#0f172a"/>
+  
+  <!-- Interior Room Background Elements -->
+  <!-- Walls & Floor -->
+  <path d="M0 0h240v170H0z" fill="#1e293b"/>
+  <path d="M0 170h240v70H0z" fill="#0f172a"/>
+  
+  <!-- Warm Lamp Light Cone -->
+  <path d="M180 0l60 170H120z" fill="#f59e0b" opacity="0.08"/>
+
+  <!-- Background Props: Window with Night Sky -->
+  <rect x="25" y="25" width="50" height="70" rx="4" fill="#090d16" stroke="#334155" stroke-width="2"/>
+  <path d="M50 25v70M25 60h50" stroke="#334155" stroke-width="2"/>
+  <circle cx="45" cy="40" r="1.5" fill="#f1f5f9" opacity="0.8"/>
+  <circle cx="60" cy="50" r="1" fill="#f1f5f9" opacity="0.6"/>
+  <circle cx="35" cy="75" r="1.5" fill="#f1f5f9" opacity="0.5"/>
+
+  <!-- Background Props: Toy Chest / Shelves -->
+  <rect x="15" y="120" width="55" height="50" rx="4" fill="#334155"/>
+  <rect x="20" y="130" width="45" height="15" rx="2" fill="#1e293b"/>
+  <rect x="20" y="150" width="45" height="15" rx="2" fill="#1e293b"/>
+  <circle cx="42" cy="137" r="2" fill="#64748b"/>
+  <circle cx="42" cy="157" r="2" fill="#64748b"/>
+
+  <!-- Scattered Toys (Signifying a long day of playing) -->
+  <!-- Toy Block 1 -->
+  <rect x="75" y="185" width="14" height="14" rx="2" fill="#ec4899" transform="rotate(15 82 192)"/>
+  <!-- Toy Block 2 -->
+  <rect x="150" y="200" width="12" height="12" rx="2" fill="#38bdf8" transform="rotate(-10 156 206)"/>
+  <!-- Little Teddy / Toy Bear dropped -->
+  <ellipse cx="65" cy="205" rx="8" ry="6" fill="#fb923c"/>
+  <circle cx="61" cy="198" r="4" fill="#fb923c"/>
+  <circle cx="69" cy="198" r="4" fill="#fb923c"/>
+
+  <!-- Cozy Bed / Mattress on the floor -->
+  <rect x="95" y="130" width="120" height="90" rx="12" fill="#334155"/>
+  <rect x="100" y="135" width="110" height="80" rx="8" fill="#cbd5e1"/>
+  <!-- Blanket messy -->
+  <path d="M130 150h80v65h-80z" fill="#38bdf8" rx="6"/>
+  <path d="M130 150h50c0 15 20 20 20 40v25h-70z" fill="#0ea5e9" rx="6"/>
+
+  <!-- Pillow -->
+  <rect x="108" y="145" width="30" height="25" rx="6" fill="#f8fafc"/>
+  <path d="M112 145v25M134 145v25" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- Main Character: Tired Child -->
+  <!-- Body curled up under blanket -->
+  <!-- Head sleeping on pillow -->
+  <g transform="translate(115, 145)">
+    <!-- Face / Head -->
+    <circle cx="16" cy="14" r="14" fill="#fed7aa"/>
+    
+    <!-- Messy hair -->
+    <path d="M3 10c2-7 10-8 16-9 5 0 10 3 13 8-3-2-7-3-11-2-5 1-8 3-18 3z" fill="#78350f"/>
+
+    <!-- Closed tired eyes (Arcs) -->
+    <path d="M9 14c2 2 4 2 6 0" stroke="#9a3412" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M19 14c2 2 4 2 6 0" stroke="#9a3412" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Exhaustion / Sleep Zzz cues -->
+    <path d="M25 -5l6-4-6-4h7" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+    <path d="M32 -13l4-3-4-3h5" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.4"/>
+
+    <!-- Rosy tired cheeks -->
+    <circle cx="8" cy="18" r="3" fill="#f43f5e" opacity="0.3"/>
+    <circle cx="24" cy="18" r="3" fill="#f43f5e" opacity="0.3"/>
+  </g>
+
+  <!-- Foreground / Ambient lighting & depth -->
+  <!-- Floor shadow under bed -->
+  <ellipse cx="155" cy="222" rx="65" ry="8" fill="#090d16" opacity="0.5"/>
+
+  <!-- Lamp hanging from top right -->
+  <path d="M210 0v35" stroke="#64748b" stroke-width="2"/>
+  <path d="M195 35h30l-7 15h-16z" fill="#f59e0b"/>
+  <ellipse cx="210" cy="50" rx="15" ry="4" fill="#fbbf24"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:21:39.686671",
-  "total_unique_words_with_illustrations": 4285,
-  "total_flat_svg_files": 4285,
+  "generated_at": "2026-10-12T22:22:33.719339",
+  "total_unique_words_with_illustrations": 4290,
+  "total_flat_svg_files": 4290,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1645,
-        "pct": "65.8%"
+        "with_svg": 1650,
+        "pct": "66.0%"
       }
     },
     "hsk_3_0": {
@@ -68,17 +68,17 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 787,
+        "with_svg": 792,
         "pct": "14.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 787,
+        "with_svg": 792,
         "pct": "14.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 787,
+        "with_svg": 792,
         "pct": "14.1%"
       }
     }
@@ -68814,6 +68814,116 @@
         "images/HSK_3.0/level7/批判.svg",
         "images/HSK_3.0/level8/批判.svg",
         "images/HSK_3.0/level9/批判.svg"
+      ]
+    },
+    "疲惫": {
+      "hanzi": "疲惫",
+      "pinyin": "píbèi",
+      "meaning": "mệt mỏi, rã rời",
+      "example_zh": "工作一天后，他感到非常<u>疲惫</u>。",
+      "example_vi": "Sau một ngày làm việc, anh ấy cảm thấy rất <u>mệt mỏi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "疲惫.svg",
+      "src": "images/HSK_2.0/level6/疲惫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/疲惫.svg",
+        "images/HSK_3.0/level8/疲惫.svg",
+        "images/HSK_3.0/level9/疲惫.svg"
+      ]
+    },
+    "疲倦": {
+      "hanzi": "疲倦",
+      "pinyin": "píjuàn",
+      "meaning": "mệt mỏi, buồn ngủ",
+      "example_zh": "孩子玩了一天，已经很<u>疲倦</u>了。",
+      "example_vi": "Đứa trẻ chơi cả ngày, đã rất <u>mệt mỏi</u> rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "疲倦.svg",
+      "src": "images/HSK_2.0/level6/疲倦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/疲倦.svg",
+        "images/HSK_3.0/level8/疲倦.svg",
+        "images/HSK_3.0/level9/疲倦.svg"
+      ]
+    },
+    "皮革": {
+      "hanzi": "皮革",
+      "pinyin": "pígé",
+      "meaning": "da thuộc",
+      "example_zh": "这双鞋是真<u>皮革</u>做的。",
+      "example_vi": "Cặp giày này được làm từ <u>da thuộc</u> thật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "皮革.svg",
+      "src": "images/HSK_2.0/level6/皮革.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/皮革.svg",
+        "images/HSK_3.0/level8/皮革.svg",
+        "images/HSK_3.0/level9/皮革.svg"
+      ]
+    },
+    "屁股": {
+      "hanzi": "屁股",
+      "pinyin": "pìgu",
+      "meaning": "mông, đít",
+      "example_zh": "他不小心摔在了<u>屁股</u>上。",
+      "example_vi": "Anh ấy lỡ ngã trên <u>mông</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "屁股.svg",
+      "src": "images/HSK_2.0/level6/屁股.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/屁股.svg",
+        "images/HSK_3.0/level8/屁股.svg",
+        "images/HSK_3.0/level9/屁股.svg"
+      ]
+    },
+    "譬如": {
+      "hanzi": "譬如",
+      "pinyin": "pìrú",
+      "meaning": "ví như, chẳng hạn như",
+      "example_zh": "很多动物，<u>譬如</u>猫和狗，都很聪明。",
+      "example_vi": "Nhiều loài động vật, <u>chẳng hạn như</u> mèo và chó, đều rất thông minh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "譬如.svg",
+      "src": "images/HSK_2.0/level6/譬如.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/譬如.svg",
+        "images/HSK_3.0/level8/譬如.svg",
+        "images/HSK_3.0/level9/譬如.svg"
       ]
     },
     "品质": {

@@ -18432,6 +18432,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/批判.svg",
     "caption": "phê phán"
   },
+  "疲惫": {
+    "file": "疲惫.svg",
+    "src": "images/HSK_2.0/level6/疲惫.svg",
+    "caption": "mệt mỏi, rã rời"
+  },
+  "疲倦": {
+    "file": "疲倦.svg",
+    "src": "images/HSK_2.0/level6/疲倦.svg",
+    "caption": "mệt mỏi, buồn ngủ"
+  },
+  "皮革": {
+    "file": "皮革.svg",
+    "src": "images/HSK_2.0/level6/皮革.svg",
+    "caption": "da thuộc"
+  },
+  "屁股": {
+    "file": "屁股.svg",
+    "src": "images/HSK_2.0/level6/屁股.svg",
+    "caption": "mông, đít"
+  },
+  "譬如": {
+    "file": "譬如.svg",
+    "src": "images/HSK_2.0/level6/譬如.svg",
+    "caption": "ví như, chẳng hạn như"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",
