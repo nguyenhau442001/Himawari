@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:52:07.404202",
-  "total_unique_words_with_illustrations": 3349,
-  "total_flat_svg_files": 3349,
+  "generated_at": "2026-10-12T10:55:18.068734",
+  "total_unique_words_with_illustrations": 3359,
+  "total_flat_svg_files": 3359,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 709,
-        "pct": "28.4%"
+        "with_svg": 719,
+        "pct": "28.8%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 270,
-        "pct": "15.0%"
+        "with_svg": 274,
+        "pct": "15.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 199,
+        "with_svg": 204,
         "pct": "3.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 199,
+        "with_svg": 204,
         "pct": "3.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 199,
+        "with_svg": 204,
         "pct": "3.6%"
       }
     }
@@ -48868,6 +48868,202 @@
       "src": "images/HSK_2.0/level6/拨打.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/拨打.svg"
+      ]
+    },
+    "波浪": {
+      "hanzi": "波浪",
+      "pinyin": "bōlàng",
+      "meaning": "sóng (nước)",
+      "example_zh": "海面上有<u>波浪</u>。",
+      "example_vi": "Trên mặt biển có <u>sóng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "波浪.svg",
+      "src": "images/HSK_2.0/level6/波浪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/波浪.svg",
+        "images/HSK_3.0/level8/波浪.svg",
+        "images/HSK_3.0/level9/波浪.svg"
+      ]
+    },
+    "波涛汹涌": {
+      "hanzi": "波涛汹涌",
+      "pinyin": "bō tāo xiōng yǒng",
+      "meaning": "sóng dữ cuồn cuộn",
+      "example_zh": "大海<u>波涛汹涌</u>。",
+      "example_vi": "Biển cả <u>sóng dữ cuồn cuộn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "波涛汹涌.svg",
+      "src": "images/HSK_2.0/level6/波涛汹涌.svg",
+      "alt_srcs": []
+    },
+    "剥削": {
+      "hanzi": "剥削",
+      "pinyin": "bōxuē",
+      "meaning": "bóc lột",
+      "example_zh": "工人不愿再被<u>剥削</u>。",
+      "example_vi": "Công nhân không muốn tiếp tục bị <u>bóc lột</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "剥削.svg",
+      "src": "images/HSK_2.0/level6/剥削.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/剥削.svg",
+        "images/HSK_3.0/level8/剥削.svg",
+        "images/HSK_3.0/level9/剥削.svg"
+      ]
+    },
+    "播种": {
+      "hanzi": "播种",
+      "pinyin": "bōzhòng",
+      "meaning": "gieo hạt",
+      "example_zh": "农民正在田里<u>播种</u>。",
+      "example_vi": "Nông dân đang <u>gieo hạt</u> trên đồng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "播种.svg",
+      "src": "images/HSK_2.0/level6/播种.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/播种.svg"
+      ]
+    },
+    "博大精深": {
+      "hanzi": "博大精深",
+      "pinyin": "bó dà jīng shēn",
+      "meaning": "rộng lớn và sâu sắc",
+      "example_zh": "中国文化<u>博大精深</u>。",
+      "example_vi": "Văn hóa Trung Hoa <u>rộng lớn và sâu sắc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "博大精深.svg",
+      "src": "images/HSK_2.0/level6/博大精深.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/博大精深.svg",
+        "images/HSK_3.0/level8/博大精深.svg",
+        "images/HSK_3.0/level9/博大精深.svg"
+      ]
+    },
+    "搏斗": {
+      "hanzi": "搏斗",
+      "pinyin": "bódòu",
+      "meaning": "vật lộn, chiến đấu",
+      "example_zh": "他和病魔<u>搏斗</u>了多年。",
+      "example_vi": "Anh ấy <u>chiến đấu</u> với bệnh tật nhiều năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "搏斗.svg",
+      "src": "images/HSK_2.0/level6/搏斗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/搏斗.svg",
+        "images/HSK_3.0/level8/搏斗.svg",
+        "images/HSK_3.0/level9/搏斗.svg"
+      ]
+    },
+    "博览会": {
+      "hanzi": "博览会",
+      "pinyin": "bólǎnhuì",
+      "meaning": "hội chợ, triển lãm",
+      "example_zh": "这次<u>博览会</u>吸引了很多游客。",
+      "example_vi": "<u>Hội chợ</u> lần này thu hút rất nhiều du khách.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "博览会.svg",
+      "src": "images/HSK_2.0/level6/博览会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/博览会.svg"
+      ]
+    },
+    "薄弱": {
+      "hanzi": "薄弱",
+      "pinyin": "bóruò",
+      "meaning": "yếu kém",
+      "example_zh": "他的基础比较<u>薄弱</u>。",
+      "example_vi": "Nền tảng của anh ấy khá <u>yếu kém</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "薄弱.svg",
+      "src": "images/HSK_2.0/level6/薄弱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/薄弱.svg"
+      ]
+    },
+    "补偿": {
+      "hanzi": "补偿",
+      "pinyin": "bǔcháng",
+      "meaning": "bồi thường, bù đắp",
+      "example_zh": "公司给了他一些<u>补偿</u>。",
+      "example_vi": "Công ty đã đưa cho anh ấy một khoản <u>bồi thường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "补偿.svg",
+      "src": "images/HSK_2.0/level6/补偿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/补偿.svg"
+      ]
+    },
+    "补救": {
+      "hanzi": "补救",
+      "pinyin": "bǔjiù",
+      "meaning": "khắc phục, cứu vớt",
+      "example_zh": "现在还能<u>补救</u>吗？",
+      "example_vi": "Bây giờ còn có thể <u>khắc phục</u> được không?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "补救.svg",
+      "src": "images/HSK_2.0/level6/补救.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/补救.svg",
+        "images/HSK_3.0/level8/补救.svg",
+        "images/HSK_3.0/level9/补救.svg"
       ]
     },
     "裁判": {

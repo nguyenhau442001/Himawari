@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Field Ground -->
+  <path d="M0 160 C 60 140, 180 140, 240 160 L 240 240 L 0 240 Z" fill="#064e3b"/>
+  <path d="M0 180 C 80 160, 160 160, 240 180 L 240 240 L 0 240 Z" fill="#065f46"/>
+  
+  <!-- Furrows -->
+  <path d="M20 180 Q 60 170 100 180 M120 185 Q 160 175 200 185" stroke="#064e3b" stroke-width="2" fill="none"/>
+  
+  <!-- Farmer -->
+  <g transform="translate(120, 140)">
+    <!-- Hat -->
+    <ellipse cx="0" cy="0" rx="25" ry="8" fill="#fbbf24"/>
+    <rect x="-10" y="-15" width="20" height="15" fill="#fbbf24"/>
+    <!-- Body -->
+    <path d="M-15 10 Q 0 5 15 10 L 10 40 L -10 40 Z" fill="#38bdf8"/>
+    <!-- Arms -->
+    <path d="M-15 15 L -35 30" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15 15 L 35 25" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hand with seeds -->
+    <circle cx="38" cy="25" r="3" fill="#fb923c"/>
+    <circle cx="42" cy="28" r="2" fill="#fb923c"/>
+  </g>
+
+  <!-- Flying Seeds -->
+  <circle cx="90" cy="150" r="2" fill="#fb923c"/>
+  <circle cx="85" cy="155" r="2" fill="#fb923c"/>
+  <circle cx="150" cy="160" r="2" fill="#fb923c"/>
+  
+  <!-- Sun/Glow -->
+  <circle cx="200" cy="40" r="25" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="200" cy="40" r="15" fill="#fbbf24"/>
+  
+  <!-- Decorative plants -->
+  <path d="M20 200 L 20 180 M25 200 L 25 185" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M220 210 L 220 190 M215 210 L 215 195" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+</svg>

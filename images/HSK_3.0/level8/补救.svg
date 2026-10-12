@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table -->
+  <rect x="20" y="150" width="200" height="15" rx="2" fill="#475569"/>
+  <rect x="40" y="165" width="10" height="60" rx="2" fill="#334155"/>
+  <rect x="190" y="165" width="10" height="60" rx="2" fill="#334155"/>
+  
+  <!-- Spilled Coffee/Document -->
+  <path d="M60 140 Q 100 130 140 145 L 130 150 L 70 150 Z" fill="#fb923c" opacity="0.6"/>
+  <rect x="70" y="100" width="80" height="50" rx="2" fill="#f1f5f9"/>
+  <path d="M80 110 h60 M80 120 h60 M80 130 h40" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character: Concerned Person -->
+  <g transform="translate(150, 80)">
+    <!-- Body -->
+    <path d="M0 60 C 0 40 40 40 40 60 L 40 120 L 0 120 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="20" cy="35" r="20" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M5 30 C 5 15 35 15 35 30 L 35 35 L 5 35 Z" fill="#475569"/>
+    <!-- Eyes (Concerned) -->
+    <line x1="10" y1="30" x2="15" y2="33" stroke="#1e293b" stroke-width="2"/>
+    <line x1="25" y1="30" x2="30" y2="33" stroke="#1e293b" stroke-width="2"/>
+    <!-- Mouth (Worried) -->
+    <path d="M12 42 Q 20 48 28 42" stroke="#1e293b" stroke-width="2" fill="none"/>
+    <!-- Hand reaching -->
+    <circle cx="45" cy="70" r="8" fill="#fde68a"/>
+  </g>
+  
+  <!-- Tools for remedy -->
+  <rect x="30" y="170" width="30" height="30" rx="5" fill="#10b981"/>
+  <path d="M40 180 l10 10 m0 -10 l-10 10" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Ambient glow -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.1"/>
+</svg>

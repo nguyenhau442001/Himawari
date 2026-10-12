@@ -13477,6 +13477,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拨打.svg",
     "caption": "bấm gọi (điện thoại)"
   },
+  "波浪": {
+    "file": "波浪.svg",
+    "src": "images/HSK_2.0/level6/波浪.svg",
+    "caption": "sóng (nước)"
+  },
+  "波涛汹涌": {
+    "file": "波涛汹涌.svg",
+    "src": "images/HSK_2.0/level6/波涛汹涌.svg",
+    "caption": "sóng dữ cuồn cuộn"
+  },
+  "剥削": {
+    "file": "剥削.svg",
+    "src": "images/HSK_2.0/level6/剥削.svg",
+    "caption": "bóc lột"
+  },
+  "播种": {
+    "file": "播种.svg",
+    "src": "images/HSK_2.0/level6/播种.svg",
+    "caption": "gieo hạt"
+  },
+  "博大精深": {
+    "file": "博大精深.svg",
+    "src": "images/HSK_2.0/level6/博大精深.svg",
+    "caption": "rộng lớn và sâu sắc"
+  },
+  "搏斗": {
+    "file": "搏斗.svg",
+    "src": "images/HSK_2.0/level6/搏斗.svg",
+    "caption": "vật lộn, chiến đấu"
+  },
+  "博览会": {
+    "file": "博览会.svg",
+    "src": "images/HSK_2.0/level6/博览会.svg",
+    "caption": "hội chợ, triển lãm"
+  },
+  "薄弱": {
+    "file": "薄弱.svg",
+    "src": "images/HSK_2.0/level6/薄弱.svg",
+    "caption": "yếu kém"
+  },
+  "补偿": {
+    "file": "补偿.svg",
+    "src": "images/HSK_2.0/level6/补偿.svg",
+    "caption": "bồi thường, bù đắp"
+  },
+  "补救": {
+    "file": "补救.svg",
+    "src": "images/HSK_2.0/level6/补救.svg",
+    "caption": "khắc phục, cứu vớt"
+  },
   "裁判": {
     "file": "裁判.svg",
     "src": "images/HSK_2.0/level6/裁判.svg",

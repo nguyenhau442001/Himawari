@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Elements: Library Shelves -->
+  <rect x="20" y="40" width="200" height="120" rx="4" fill="#334155" opacity="0.4"/>
+  <rect x="30" y="60" width="40" height="80" rx="2" fill="#475569"/>
+  <rect x="80" y="60" width="40" height="80" rx="2" fill="#475569"/>
+  <rect x="130" y="60" width="40" height="80" rx="2" fill="#475569"/>
+  <rect x="180" y="60" width="40" height="80" rx="2" fill="#475569"/>
+
+  <!-- Main Subject: Person studying -->
+  <path d="M120 180 C 120 160, 140 150, 160 150 C 180 150, 200 160, 200 180 L 200 220 L 120 220 Z" fill="#38bdf8"/>
+  <circle cx="160" cy="140" r="20" fill="#fde68a"/>
+  <path d="M150 135 L 155 140 L 150 145" stroke="#475569" stroke-width="2" fill="none"/>
+  <path d="M170 135 L 165 140 L 170 145" stroke="#475569" stroke-width="2" fill="none"/>
+  
+  <!-- Desk and Open Book -->
+  <rect x="40" y="180" width="160" height="10" rx="2" fill="#fb923c"/>
+  <path d="M70 170 L 130 170 L 140 180 L 60 180 Z" fill="#f59e0b"/>
+  <path d="M100 170 L 100 180" stroke="#78350f" stroke-width="1"/>
+  
+  <!-- Symbolic representation of "Depth and Breadth" -->
+  <path d="M30 100 Q 50 80 70 100 T 110 100" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M30 120 Q 50 100 70 120 T 110 120" stroke="#ec4899" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Floating light particles -->
+  <circle cx="180" cy="80" r="2" fill="#fbbf24"/>
+  <circle cx="190" cy="100" r="3" fill="#fbbf24"/>
+  <circle cx="200" cy="70" r="2" fill="#fbbf24"/>
+  <circle cx="50" cy="50" r="3" fill="#fbbf24"/>
+  <circle cx="40" cy="70" r="2" fill="#fbbf24"/>
+</svg>
