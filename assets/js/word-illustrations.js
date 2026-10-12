@@ -19057,6 +19057,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/清醒.svg",
     "caption": "tỉnh táo, sáng suốt"
   },
+  "清真": {
+    "file": "清真.svg",
+    "src": "images/HSK_2.0/level6/清真.svg",
+    "caption": "thanh chân (theo Hồi giáo)"
+  },
+  "倾听": {
+    "file": "倾听.svg",
+    "src": "images/HSK_2.0/level6/倾听.svg",
+    "caption": "lắng nghe (chăm chú)"
+  },
+  "倾向": {
+    "file": "倾向.svg",
+    "src": "images/HSK_2.0/level6/倾向.svg",
+    "caption": "khuynh hướng, xu hướng"
+  },
+  "倾斜": {
+    "file": "倾斜.svg",
+    "src": "images/HSK_2.0/level6/倾斜.svg",
+    "caption": "nghiêng, dốc"
+  },
+  "晴朗": {
+    "file": "晴朗.svg",
+    "src": "images/HSK_2.0/level6/晴朗.svg",
+    "caption": "quang đãng, trong sáng (thời tiết)"
+  },
   "请教": {
     "file": "请教.svg",
     "src": "images/HSK_2.0/level6/请教.svg",

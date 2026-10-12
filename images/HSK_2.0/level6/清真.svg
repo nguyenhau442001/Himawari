@@ -1,0 +1,116 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm Golden Light Gradient -->
+    <linearGradient id="warmGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Lantern Glow -->
+    <radialGradient id="lanternGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Window Light -->
+    <linearGradient id="windowLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Ambient background details: Restaurant Interior Elements -->
+  <!-- Back Wall / Wood Paneling Texture -->
+  <rect x="20" y="30" width="200" height="150" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Geometric Islamic-inspired Wall Tile Pattern (Abstract, decorative) -->
+  <g fill="none" stroke="#334155" stroke-width="1.5" opacity="0.4">
+    <path d="M60 50 L70 40 L80 50 L70 60 Z"/>
+    <path d="M120 50 L130 40 L140 50 L130 60 Z"/>
+    <path d="M180 50 L190 40 L200 50 L190 60 Z"/>
+    <path d="M60 110 L70 100 L80 110 L70 120 Z"/>
+    <path d="M120 110 L130 100 L140 110 L130 120 Z"/>
+    <path d="M180 110 L190 100 L200 110 L190 120 Z"/>
+  </g>
+
+  <!-- Arched Windows / Architectural Details -->
+  <path d="M35 80 A 15 15 0 0 1 65 80 L 65 130 L 35 130 Z" fill="url(#windowLight)" stroke="#475569" stroke-width="2"/>
+  <path d="M175 80 A 15 15 0 0 1 205 80 L 205 130 L 175 130 Z" fill="url(#windowLight)" stroke="#475569" stroke-width="2"/>
+
+  <!-- Hanging Decorative Lantern (Halal / Middle Eastern/Mughal aesthetic vibe) -->
+  <line x1="120" y1="20" x2="120" y2="45" stroke="#64748b" stroke-width="2"/>
+  <circle cx="120" cy="45" r="8" fill="#f59e0b"/>
+  <path d="M112 45 L128 45 L124 65 L116 65 Z" fill="#fbbf24"/>
+  <circle cx="120" cy="55" r="15" fill="url(#lanternGlow)"/>
+
+  <!-- Restaurant Table -->
+  <path d="M40 160 L200 160 L190 195 L50 195 Z" fill="#334155"/>
+  <rect x="45" y="155" width="150" height="8" rx="3" fill="#475569"/>
+
+  <!-- Dining Props on Table -->
+  <!-- Bowl of Beef Noodles / Halal Food -->
+  <ellipse cx="90" cy="165" rx="18" ry="8" fill="#64748b"/>
+  <ellipse cx="90" cy="163" rx="16" ry="6" fill="#0f172a"/>
+  <!-- Noodle / Broth highlights -->
+  <path d="M82 163 Q90 167 98 163" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="86" cy="162" r="2" fill="#10b981"/>
+  <circle cx="94" cy="164" r="2" fill="#ef4444"/>
+
+  <!-- Teapot -->
+  <path d="M150 150 Q145 140 155 135 L165 135 Q175 140 170 150 Z" fill="#cbd5e1"/>
+  <path d="M165 140 L180 135" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M148 142 Q140 142 145 150" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Tea Cups -->
+  <ellipse cx="130" cy="163" rx="8" ry="4" fill="#cbd5e1"/>
+  <ellipse cx="130" cy="161" rx="6" ry="3" fill="#0f172a"/>
+
+  <!-- Main Characters: Customer pointing happily at the food/setting -->
+  <!-- Character 1 (Left - Customer) -->
+  <!-- Body / Torso -->
+  <path d="M50 200 L55 145 Q65 135 75 145 L80 200 Z" fill="#38bdf8"/>
+  <!-- Head -->
+  <circle cx="65" cy="125" r="14" fill="#fbcfe8"/>
+  <!-- Hair (Styled dark hair) -->
+  <path d="M53 123 Q60 110 77 120 Q77 125 77 125 Q65 116 53 123 Z" fill="#1e293b"/>
+  <!-- Arm pointing towards the food / restaurant -->
+  <path d="M72 145 Q85 140 95 150" fill="none" stroke="#fbcfe8" stroke-width="6" stroke-linecap="round"/>
+  <!-- Friendly Happy Face -->
+  <circle cx="61" cy="125" r="1.5" fill="#1e293b"/>
+  <circle cx="70" cy="125" r="1.5" fill="#1e293b"/>
+  <path d="M64 130 Q66 133 68 130" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Rosy cheeks -->
+  <circle cx="59" cy="128" r="2" fill="#f43f5e" opacity="0.4"/>
+  <circle cx="72" cy="128" r="2" fill="#f43f5e" opacity="0.4"/>
+
+  <!-- Character 2 (Right - Waiter / Host in traditional modest attire welcoming) -->
+  <!-- Body / Torso (Wearing a neat uniform / white tunic with subtle pattern) -->
+  <path d="M150 200 L155 140 Q165 130 175 140 L180 200 Z" fill="#f8fafc"/>
+  <!-- Vest / Apron -->
+  <path d="M155 145 L175 145 L173 195 L157 195 Z" fill="#0f172a"/>
+  <!-- Head -->
+  <circle cx="165" cy="120" r="13" fill="#fed7aa"/>
+  <!-- Traditional White Taqiyah / Skullcap -->
+  <path d="M153 118 Q165 105 177 118 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Friendly Welcoming Hand Gesture (Palm open towards table) -->
+  <path d="M158 150 Q145 155 142 148" fill="none" stroke="#fed7aa" stroke-width="5" stroke-linecap="round"/>
+  <!-- Waiter Face -->
+  <circle cx="161" cy="121" r="1.5" fill="#1e293b"/>
+  <circle cx="170" cy="121" r="1.5" fill="#1e293b"/>
+  <path d="M163 126 Q165 128 168 126" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Foreground Ambient Warmth & Polish -->
+  <rect x="0" y="0" width="240" height="240" rx="24" fill="url(#warmGlow)" pointer-events="none"/>
+  
+  <!-- Subtle App UI Frame/Border Accent -->
+  <rect x="12" y="12" width="216" height="216" rx="16" fill="none" stroke="#475569" stroke-width="2" opacity="0.4"/>
+</svg>

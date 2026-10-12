@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:44:01.454796",
-  "total_unique_words_with_illustrations": 4405,
-  "total_flat_svg_files": 4405,
+  "generated_at": "2026-10-12T22:44:53.756268",
+  "total_unique_words_with_illustrations": 4410,
+  "total_flat_svg_files": 4410,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1765,
-        "pct": "70.6%"
+        "with_svg": 1770,
+        "pct": "70.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 591,
-        "pct": "32.8%"
+        "with_svg": 594,
+        "pct": "33.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 865,
-        "pct": "15.4%"
+        "with_svg": 866,
+        "pct": "15.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 865,
-        "pct": "15.4%"
+        "with_svg": 866,
+        "pct": "15.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 865,
-        "pct": "15.4%"
+        "with_svg": 866,
+        "pct": "15.5%"
       }
     }
   },
@@ -71360,6 +71360,96 @@
       "src": "images/HSK_2.0/level6/清醒.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/清醒.svg"
+      ]
+    },
+    "清真": {
+      "hanzi": "清真",
+      "pinyin": "qīngzhēn",
+      "meaning": "thanh chân (theo Hồi giáo)",
+      "example_zh": "这家是一家<u>清真</u>餐厅。",
+      "example_vi": "Đây là một nhà hàng <u>Hồi giáo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "清真.svg",
+      "src": "images/HSK_2.0/level6/清真.svg",
+      "alt_srcs": []
+    },
+    "倾听": {
+      "hanzi": "倾听",
+      "pinyin": "qīngtīng",
+      "meaning": "lắng nghe (chăm chú)",
+      "example_zh": "他认真<u>倾听</u>了大家的意见。",
+      "example_vi": "Anh ấy đã nghiêm túc <u>lắng nghe</u> ý kiến của mọi người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "倾听.svg",
+      "src": "images/HSK_2.0/level6/倾听.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/倾听.svg"
+      ]
+    },
+    "倾向": {
+      "hanzi": "倾向",
+      "pinyin": "qīngxiàng",
+      "meaning": "khuynh hướng, xu hướng",
+      "example_zh": "他有<u>倾向</u>把问题简单化。",
+      "example_vi": "Anh ấy có <u>khuynh hướng</u> đơn giản hóa vấn đề.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "倾向.svg",
+      "src": "images/HSK_2.0/level6/倾向.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/倾向.svg"
+      ]
+    },
+    "倾斜": {
+      "hanzi": "倾斜",
+      "pinyin": "qīngxié",
+      "meaning": "nghiêng, dốc",
+      "example_zh": "这栋楼有些<u>倾斜</u>。",
+      "example_vi": "Tòa nhà này có chút <u>nghiêng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "倾斜.svg",
+      "src": "images/HSK_2.0/level6/倾斜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/倾斜.svg",
+        "images/HSK_3.0/level8/倾斜.svg",
+        "images/HSK_3.0/level9/倾斜.svg"
+      ]
+    },
+    "晴朗": {
+      "hanzi": "晴朗",
+      "pinyin": "qínglǎng",
+      "meaning": "quang đãng, trong sáng (thời tiết)",
+      "example_zh": "今天天气十分<u>晴朗</u>。",
+      "example_vi": "Hôm nay trời rất <u>quang đãng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "晴朗.svg",
+      "src": "images/HSK_2.0/level6/晴朗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/晴朗.svg"
       ]
     },
     "请教": {
