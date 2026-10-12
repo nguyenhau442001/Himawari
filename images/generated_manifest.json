@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:06:18.248535",
-  "total_unique_words_with_illustrations": 4015,
-  "total_flat_svg_files": 4015,
+  "generated_at": "2026-10-12T20:08:31.614169",
+  "total_unique_words_with_illustrations": 4025,
+  "total_flat_svg_files": 4025,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1375,
-        "pct": "55.0%"
+        "with_svg": 1385,
+        "pct": "55.4%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 490,
-        "pct": "27.2%"
+        "with_svg": 495,
+        "pct": "27.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 591,
+        "with_svg": 596,
         "pct": "10.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 591,
+        "with_svg": 596,
         "pct": "10.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 591,
+        "with_svg": 596,
         "pct": "10.6%"
       }
     }
@@ -63043,6 +63043,202 @@
       "file": "锯.svg",
       "src": "images/HSK_2.0/level6/锯.svg",
       "alt_srcs": []
+    },
+    "聚精会神": {
+      "hanzi": "聚精会神",
+      "pinyin": "jù jīng huì shén",
+      "meaning": "chăm chú, tập trung",
+      "example_zh": "学生们<u>聚精会神</u>地听课。",
+      "example_vi": "Các học sinh <u>chăm chú</u> nghe giảng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "聚精会神.svg",
+      "src": "images/HSK_2.0/level6/聚精会神.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/聚精会神.svg",
+        "images/HSK_3.0/level8/聚精会神.svg",
+        "images/HSK_3.0/level9/聚精会神.svg"
+      ]
+    },
+    "卷": {
+      "hanzi": "卷",
+      "pinyin": "juǎn",
+      "meaning": "cuốn, cuộn lại",
+      "example_zh": "把地毯<u>卷</u>起来。",
+      "example_vi": "<u>Cuộn</u> tấm thảm lại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "卷.svg",
+      "src": "images/HSK_2.0/level6/卷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/卷.svg"
+      ]
+    },
+    "决策": {
+      "hanzi": "决策",
+      "pinyin": "juécè",
+      "meaning": "quyết sách, ra quyết định",
+      "example_zh": "领导层做出了重要<u>决策</u>。",
+      "example_vi": "Ban lãnh đạo đưa ra <u>quyết sách</u> quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "决策.svg",
+      "src": "images/HSK_2.0/level6/决策.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/决策.svg"
+      ]
+    },
+    "绝望": {
+      "hanzi": "绝望",
+      "pinyin": "juéwàng",
+      "meaning": "tuyệt vọng",
+      "example_zh": "别<u>绝望</u>，还有希望。",
+      "example_vi": "Đừng <u>tuyệt vọng</u>, vẫn còn hy vọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "绝望.svg",
+      "src": "images/HSK_2.0/level6/绝望.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/绝望.svg"
+      ]
+    },
+    "觉悟": {
+      "hanzi": "觉悟",
+      "pinyin": "juéwù",
+      "meaning": "giác ngộ, tỉnh ngộ",
+      "example_zh": "他终于有了<u>觉悟</u>。",
+      "example_vi": "Anh ấy cuối cùng đã <u>tỉnh ngộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "觉悟.svg",
+      "src": "images/HSK_2.0/level6/觉悟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/觉悟.svg",
+        "images/HSK_3.0/level8/觉悟.svg",
+        "images/HSK_3.0/level9/觉悟.svg"
+      ]
+    },
+    "军队": {
+      "hanzi": "军队",
+      "pinyin": "jūnduì",
+      "meaning": "quân đội",
+      "example_zh": "<u>军队</u>正在进行训练。",
+      "example_vi": "<u>Quân đội</u> đang tiến hành huấn luyện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "军队.svg",
+      "src": "images/HSK_2.0/level6/军队.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/军队.svg"
+      ]
+    },
+    "均衡": {
+      "hanzi": "均衡",
+      "pinyin": "jūnhéng",
+      "meaning": "cân bằng, đồng đều",
+      "example_zh": "营养要<u>均衡</u>。",
+      "example_vi": "Dinh dưỡng phải <u>cân bằng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "均衡.svg",
+      "src": "images/HSK_2.0/level6/均衡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/均衡.svg",
+        "images/HSK_3.0/level8/均衡.svg",
+        "images/HSK_3.0/level9/均衡.svg"
+      ]
+    },
+    "君子": {
+      "hanzi": "君子",
+      "pinyin": "jūnzi",
+      "meaning": "quân tử, người chính trực",
+      "example_zh": "他是一位真正的<u>君子</u>。",
+      "example_vi": "Anh ấy là một <u>quân tử</u> thực sự.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "君子.svg",
+      "src": "images/HSK_2.0/level6/君子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/君子.svg",
+        "images/HSK_3.0/level8/君子.svg",
+        "images/HSK_3.0/level9/君子.svg"
+      ]
+    },
+    "俊秀": {
+      "hanzi": "俊秀",
+      "pinyin": "jùnxiù",
+      "meaning": "tuấn tú, xinh đẹp",
+      "example_zh": "这个孩子长得很<u>俊秀</u>。",
+      "example_vi": "Đứa trẻ này lớn lên rất <u>tuấn tú</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "俊秀.svg",
+      "src": "images/HSK_2.0/level6/俊秀.svg",
+      "alt_srcs": []
+    },
+    "卡通": {
+      "hanzi": "卡通",
+      "pinyin": "kǎtōng",
+      "meaning": "hoạt hình",
+      "example_zh": "孩子们喜欢看<u>卡通</u>片。",
+      "example_vi": "Trẻ em thích xem phim <u>hoạt hình</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "卡通.svg",
+      "src": "images/HSK_2.0/level6/卡通.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/卡通.svg",
+        "images/HSK_3.0/level8/卡通.svg",
+        "images/HSK_3.0/level9/卡通.svg"
+      ]
     },
     "开展": {
       "hanzi": "开展",

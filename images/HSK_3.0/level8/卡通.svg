@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- TV Screen -->
+  <rect x="60" y="60" width="120" height="80" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="120" cy="100" r="20" fill="#fbbf24"/>
+  <path d="M110 90 L135 100 L110 110 Z" fill="#1e293b"/>
+  <circle cx="100" cy="80" r="4" fill="#ec4899"/>
+  <circle cx="140" cy="120" r="4" fill="#10b981"/>
+  
+  <!-- Sofa -->
+  <path d="M30 160 Q30 140 60 140 L180 140 Q210 140 210 160 L210 190 Q210 210 180 210 L60 210 Q30 210 30 190 Z" fill="#fb923c"/>
+  
+  <!-- Characters -->
+  <g transform="translate(70, 150)">
+    <circle cx="15" cy="10" r="12" fill="#fde68a"/>
+    <rect x="5" y="22" width="20" height="30" rx="4" fill="#38bdf8"/>
+  </g>
+  <g transform="translate(110, 145)">
+    <circle cx="15" cy="10" r="12" fill="#fde68a"/>
+    <rect x="5" y="22" width="20" height="35" rx="4" fill="#ec4899"/>
+  </g>
+  <g transform="translate(150, 150)">
+    <circle cx="15" cy="10" r="12" fill="#fde68a"/>
+    <rect x="5" y="22" width="20" height="30" rx="4" fill="#10b981"/>
+  </g>
+  
+  <!-- Floor/Rug -->
+  <rect x="20" y="210" width="200" height="10" rx="5" fill="#334155"/>
+</svg>

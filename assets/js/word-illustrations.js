@@ -17032,6 +17032,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/锯.svg",
     "caption": "cái cưa"
   },
+  "聚精会神": {
+    "file": "聚精会神.svg",
+    "src": "images/HSK_2.0/level6/聚精会神.svg",
+    "caption": "chăm chú, tập trung"
+  },
+  "卷": {
+    "file": "卷.svg",
+    "src": "images/HSK_2.0/level6/卷.svg",
+    "caption": "cuốn, cuộn lại"
+  },
+  "决策": {
+    "file": "决策.svg",
+    "src": "images/HSK_2.0/level6/决策.svg",
+    "caption": "quyết sách, ra quyết định"
+  },
+  "绝望": {
+    "file": "绝望.svg",
+    "src": "images/HSK_2.0/level6/绝望.svg",
+    "caption": "tuyệt vọng"
+  },
+  "觉悟": {
+    "file": "觉悟.svg",
+    "src": "images/HSK_2.0/level6/觉悟.svg",
+    "caption": "giác ngộ, tỉnh ngộ"
+  },
+  "军队": {
+    "file": "军队.svg",
+    "src": "images/HSK_2.0/level6/军队.svg",
+    "caption": "quân đội"
+  },
+  "均衡": {
+    "file": "均衡.svg",
+    "src": "images/HSK_2.0/level6/均衡.svg",
+    "caption": "cân bằng, đồng đều"
+  },
+  "君子": {
+    "file": "君子.svg",
+    "src": "images/HSK_2.0/level6/君子.svg",
+    "caption": "quân tử, người chính trực"
+  },
+  "俊秀": {
+    "file": "俊秀.svg",
+    "src": "images/HSK_2.0/level6/俊秀.svg",
+    "caption": "tuấn tú, xinh đẹp"
+  },
+  "卡通": {
+    "file": "卡通.svg",
+    "src": "images/HSK_2.0/level6/卡通.svg",
+    "caption": "hoạt hình"
+  },
   "开展": {
     "file": "开展.svg",
     "src": "images/HSK_2.0/level6/开展.svg",
