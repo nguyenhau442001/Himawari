@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:32:54.410297",
-  "total_unique_words_with_illustrations": 4345,
-  "total_flat_svg_files": 4345,
+  "generated_at": "2026-10-12T22:33:53.743725",
+  "total_unique_words_with_illustrations": 4350,
+  "total_flat_svg_files": 4350,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1705,
-        "pct": "68.2%"
+        "with_svg": 1710,
+        "pct": "68.4%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 572,
-        "pct": "31.8%"
+        "with_svg": 574,
+        "pct": "31.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 827,
+        "with_svg": 830,
         "pct": "14.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 827,
+        "with_svg": 830,
         "pct": "14.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 827,
+        "with_svg": 830,
         "pct": "14.8%"
       }
     }
@@ -70122,6 +70122,108 @@
       "src": "images/HSK_2.0/level6/起源.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/起源.svg"
+      ]
+    },
+    "启程": {
+      "hanzi": "启程",
+      "pinyin": "qǐchéng",
+      "meaning": "lên đường, khởi hành",
+      "example_zh": "我们明天早上<u>启程</u>。",
+      "example_vi": "Sáng mai chúng tôi <u>khởi hành</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "启程.svg",
+      "src": "images/HSK_2.0/level6/启程.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/启程.svg",
+        "images/HSK_3.0/level8/启程.svg",
+        "images/HSK_3.0/level9/启程.svg"
+      ]
+    },
+    "启示": {
+      "hanzi": "启示",
+      "pinyin": "qǐshì",
+      "meaning": "gợi mở, khải thị",
+      "example_zh": "这个故事给了我很大的<u>启示</u>。",
+      "example_vi": "Câu chuyện này đã đem lại cho tôi <u>sự gợi mở</u> rất lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "启示.svg",
+      "src": "images/HSK_2.0/level6/启示.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/启示.svg"
+      ]
+    },
+    "启事": {
+      "hanzi": "启事",
+      "pinyin": "qǐshì",
+      "meaning": "thông báo, cáo thị",
+      "example_zh": "他在报纸上发了一条寻人<u>启事</u>。",
+      "example_vi": "Anh ấy đã đăng một <u>thông báo</u> tìm người trên báo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "启事.svg",
+      "src": "images/HSK_2.0/level6/启事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/启事.svg"
+      ]
+    },
+    "启蒙": {
+      "hanzi": "启蒙",
+      "pinyin": "qǐméng",
+      "meaning": "khai sáng, vỡ lòng",
+      "example_zh": "她是我的<u>启蒙</u>老师。",
+      "example_vi": "Cô ấy là giáo viên <u>vỡ lòng</u> của tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "启蒙.svg",
+      "src": "images/HSK_2.0/level6/启蒙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/启蒙.svg",
+        "images/HSK_3.0/level8/启蒙.svg",
+        "images/HSK_3.0/level9/启蒙.svg"
+      ]
+    },
+    "乞丐": {
+      "hanzi": "乞丐",
+      "pinyin": "qǐgài",
+      "meaning": "người ăn xin",
+      "example_zh": "街角有一个<u>乞丐</u>在乞讨。",
+      "example_vi": "Ở góc phố có một <u>người ăn xin</u> đang xin tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "乞丐.svg",
+      "src": "images/HSK_2.0/level6/乞丐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/乞丐.svg",
+        "images/HSK_3.0/level8/乞丐.svg",
+        "images/HSK_3.0/level9/乞丐.svg"
       ]
     },
     "抢救": {

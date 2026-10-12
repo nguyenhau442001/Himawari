@@ -18752,6 +18752,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/起源.svg",
     "caption": "nguồn gốc, khởi nguồn"
   },
+  "启程": {
+    "file": "启程.svg",
+    "src": "images/HSK_2.0/level6/启程.svg",
+    "caption": "lên đường, khởi hành"
+  },
+  "启示": {
+    "file": "启示.svg",
+    "src": "images/HSK_2.0/level6/启示.svg",
+    "caption": "gợi mở, khải thị"
+  },
+  "启事": {
+    "file": "启事.svg",
+    "src": "images/HSK_2.0/level6/启事.svg",
+    "caption": "thông báo, cáo thị"
+  },
+  "启蒙": {
+    "file": "启蒙.svg",
+    "src": "images/HSK_2.0/level6/启蒙.svg",
+    "caption": "khai sáng, vỡ lòng"
+  },
+  "乞丐": {
+    "file": "乞丐.svg",
+    "src": "images/HSK_2.0/level6/乞丐.svg",
+    "caption": "người ăn xin"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
