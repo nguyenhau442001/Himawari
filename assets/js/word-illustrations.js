@@ -15137,10 +15137,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/对付.svg",
     "caption": "đối phó"
   },
+  "对抗": {
+    "file": "对抗.svg",
+    "src": "images/HSK_2.0/level6/对抗.svg",
+    "caption": "đối kháng"
+  },
+  "对立": {
+    "file": "对立.svg",
+    "src": "images/HSK_2.0/level6/对立.svg",
+    "caption": "đối lập"
+  },
+  "对联": {
+    "file": "对联.svg",
+    "src": "images/HSK_2.0/level6/对联.svg",
+    "caption": "câu đối"
+  },
   "队伍": {
     "file": "队伍.svg",
     "src": "images/HSK_2.0/level6/队伍.svg",
     "caption": "đội ngũ"
+  },
+  "兑现": {
+    "file": "兑现.svg",
+    "src": "images/HSK_2.0/level6/兑现.svg",
+    "caption": "thực hiện (lời hứa)"
+  },
+  "对应": {
+    "file": "对应.svg",
+    "src": "images/HSK_2.0/level6/对应.svg",
+    "caption": "tương ứng"
+  },
+  "对照": {
+    "file": "对照.svg",
+    "src": "images/HSK_2.0/level6/对照.svg",
+    "caption": "đối chiếu"
+  },
+  "顿时": {
+    "file": "顿时.svg",
+    "src": "images/HSK_2.0/level6/顿时.svg",
+    "caption": "lập tức, ngay lúc đó"
+  },
+  "哆嗦": {
+    "file": "哆嗦.svg",
+    "src": "images/HSK_2.0/level6/哆嗦.svg",
+    "caption": "run rẩy"
+  },
+  "多元化": {
+    "file": "多元化.svg",
+    "src": "images/HSK_2.0/level6/多元化.svg",
+    "caption": "đa dạng hóa"
+  },
+  "堕落": {
+    "file": "堕落.svg",
+    "src": "images/HSK_2.0/level6/堕落.svg",
+    "caption": "sa đọa, suy thoái"
   },
   "发布": {
     "file": "发布.svg",

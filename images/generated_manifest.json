@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:05:41.845180",
-  "total_unique_words_with_illustrations": 3659,
-  "total_flat_svg_files": 3659,
+  "generated_at": "2026-10-12T12:07:31.609287",
+  "total_unique_words_with_illustrations": 3669,
+  "total_flat_svg_files": 3669,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1019,
-        "pct": "40.8%"
+        "with_svg": 1029,
+        "pct": "41.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 371,
-        "pct": "20.6%"
+        "with_svg": 375,
+        "pct": "20.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 389,
-        "pct": "6.9%"
+        "with_svg": 394,
+        "pct": "7.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 389,
-        "pct": "6.9%"
+        "with_svg": 394,
+        "pct": "7.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 389,
-        "pct": "6.9%"
+        "with_svg": 394,
+        "pct": "7.0%"
       }
     }
   },
@@ -55534,6 +55534,64 @@
         "images/HSK_3.0/level9/对付.svg"
       ]
     },
+    "对抗": {
+      "hanzi": "对抗",
+      "pinyin": "duìkàng",
+      "meaning": "đối kháng",
+      "example_zh": "双方进行了激烈<u>对抗</u>。",
+      "example_vi": "Hai bên tiến hành <u>đối kháng</u> gay gắt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "对抗.svg",
+      "src": "images/HSK_2.0/level6/对抗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/对抗.svg"
+      ]
+    },
+    "对立": {
+      "hanzi": "对立",
+      "pinyin": "duìlì",
+      "meaning": "đối lập",
+      "example_zh": "这两种观点完全<u>对立</u>。",
+      "example_vi": "Hai quan điểm này hoàn toàn <u>đối lập</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "对立.svg",
+      "src": "images/HSK_2.0/level6/对立.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/对立.svg"
+      ]
+    },
+    "对联": {
+      "hanzi": "对联",
+      "pinyin": "duìlián",
+      "meaning": "câu đối",
+      "example_zh": "春节家家贴<u>对联</u>。",
+      "example_vi": "Tết Nguyên đán nhà nào cũng dán <u>câu đối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "对联.svg",
+      "src": "images/HSK_2.0/level6/对联.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/对联.svg",
+        "images/HSK_3.0/level8/对联.svg",
+        "images/HSK_3.0/level9/对联.svg"
+      ]
+    },
     "队伍": {
       "hanzi": "队伍",
       "pinyin": "duìwu",
@@ -55550,6 +55608,144 @@
       "src": "images/HSK_2.0/level6/队伍.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/队伍.svg"
+      ]
+    },
+    "兑现": {
+      "hanzi": "兑现",
+      "pinyin": "duìxiàn",
+      "meaning": "thực hiện (lời hứa)",
+      "example_zh": "他终于<u>兑现</u>了承诺。",
+      "example_vi": "Anh ấy cuối cùng đã <u>thực hiện</u> lời hứa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "兑现.svg",
+      "src": "images/HSK_2.0/level6/兑现.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/兑现.svg",
+        "images/HSK_3.0/level8/兑现.svg",
+        "images/HSK_3.0/level9/兑现.svg"
+      ]
+    },
+    "对应": {
+      "hanzi": "对应",
+      "pinyin": "duìyìng",
+      "meaning": "tương ứng",
+      "example_zh": "每个问题都有<u>对应</u>的答案。",
+      "example_vi": "Mỗi câu hỏi đều có đáp án <u>tương ứng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "对应.svg",
+      "src": "images/HSK_2.0/level6/对应.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/对应.svg"
+      ]
+    },
+    "对照": {
+      "hanzi": "对照",
+      "pinyin": "duìzhào",
+      "meaning": "đối chiếu",
+      "example_zh": "请<u>对照</u>原文检查翻译。",
+      "example_vi": "Xin hãy <u>đối chiếu</u> nguyên văn để kiểm tra bản dịch.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "对照.svg",
+      "src": "images/HSK_2.0/level6/对照.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/对照.svg",
+        "images/HSK_3.0/level8/对照.svg",
+        "images/HSK_3.0/level9/对照.svg"
+      ]
+    },
+    "顿时": {
+      "hanzi": "顿时",
+      "pinyin": "dùnshí",
+      "meaning": "lập tức, ngay lúc đó",
+      "example_zh": "听到消息，他<u>顿时</u>愣住了。",
+      "example_vi": "Nghe tin, anh ấy <u>lập tức</u> sững người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "顿时.svg",
+      "src": "images/HSK_2.0/level6/顿时.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/顿时.svg"
+      ]
+    },
+    "哆嗦": {
+      "hanzi": "哆嗦",
+      "pinyin": "duōsuo",
+      "meaning": "run rẩy",
+      "example_zh": "他冷得直<u>哆嗦</u>。",
+      "example_vi": "Anh ấy lạnh đến <u>run rẩy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "哆嗦.svg",
+      "src": "images/HSK_2.0/level6/哆嗦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/哆嗦.svg",
+        "images/HSK_3.0/level8/哆嗦.svg",
+        "images/HSK_3.0/level9/哆嗦.svg"
+      ]
+    },
+    "多元化": {
+      "hanzi": "多元化",
+      "pinyin": "duōyuánhuà",
+      "meaning": "đa dạng hóa",
+      "example_zh": "公司业务正在<u>多元化</u>。",
+      "example_vi": "Mảng kinh doanh công ty đang <u>đa dạng hóa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "多元化.svg",
+      "src": "images/HSK_2.0/level6/多元化.svg",
+      "alt_srcs": []
+    },
+    "堕落": {
+      "hanzi": "堕落",
+      "pinyin": "duòluò",
+      "meaning": "sa đọa, suy thoái",
+      "example_zh": "他渐渐<u>堕落</u>了。",
+      "example_vi": "Anh ấy dần dần <u>sa đọa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "堕落.svg",
+      "src": "images/HSK_2.0/level6/堕落.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/堕落.svg",
+        "images/HSK_3.0/level8/堕落.svg",
+        "images/HSK_3.0/level9/堕落.svg"
       ]
     },
     "发布": {
