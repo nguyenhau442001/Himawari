@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Warehouse Floor -->
+  <rect x="20" y="160" width="200" height="60" rx="4" fill="#334155"/>
+  
+  <!-- Counterfeit Goods (Boxes) -->
+  <rect x="40" y="140" width="40" height="40" rx="2" fill="#fb923c"/>
+  <rect x="45" y="145" width="30" height="30" rx="1" fill="#f59e0b"/>
+  <rect x="85" y="150" width="35" height="30" rx="2" fill="#fb923c"/>
+  <rect x="90" y="155" width="25" height="20" rx="1" fill="#f59e0b"/>
+  
+  <!-- Police Officer -->
+  <g transform="translate(140, 100)">
+    <circle cx="20" cy="20" r="15" fill="#e2e8f0"/> <!-- Head -->
+    <rect x="10" y="35" width="20" height="40" rx="4" fill="#38bdf8"/> <!-- Uniform -->
+    <rect x="12" y="35" width="6" height="30" rx="2" fill="#0ea5e9"/> <!-- Vest -->
+    <path d="M15 75 L10 110 M25 75 L30 110" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/> <!-- Legs -->
+    <circle cx="20" cy="15" r="3" fill="#1e293b"/> <!-- Eye -->
+    <rect x="10" y="10" width="20" height="5" fill="#1e293b"/> <!-- Hat brim -->
+  </g>
+  
+  <!-- Flashlight Beam -->
+  <path d="M150 110 L190 160 L160 170 Z" fill="#fef08a" opacity="0.3"/>
+  
+  <!-- Evidence Marker -->
+  <rect x="45" y="185" width="15" height="15" rx="2" fill="#ec4899"/>
+  <circle cx="52.5" cy="192.5" r="4" fill="#fff"/>
+  
+  <!-- Background Details -->
+  <rect x="20" y="60" width="200" height="2" fill="#475569"/>
+  <rect x="20" y="80" width="200" height="2" fill="#475569"/>
+  <rect x="20" y="100" width="200" height="2" fill="#475569"/>
+</svg>

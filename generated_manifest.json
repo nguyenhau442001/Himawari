@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:10:50.552638",
-  "total_unique_words_with_illustrations": 3409,
-  "total_flat_svg_files": 3409,
+  "generated_at": "2026-10-12T11:13:54.793639",
+  "total_unique_words_with_illustrations": 3419,
+  "total_flat_svg_files": 3419,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 769,
-        "pct": "30.8%"
+        "with_svg": 779,
+        "pct": "31.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 289,
-        "pct": "16.1%"
+        "with_svg": 293,
+        "pct": "16.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 234,
-        "pct": "4.2%"
+        "with_svg": 240,
+        "pct": "4.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 234,
-        "pct": "4.2%"
+        "with_svg": 240,
+        "pct": "4.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 234,
-        "pct": "4.2%"
+        "with_svg": 240,
+        "pct": "4.3%"
       }
     }
   },
@@ -50110,6 +50110,188 @@
         "images/HSK_3.0/level5/操作.svg"
       ]
     },
+    "嘈杂": {
+      "hanzi": "嘈杂",
+      "pinyin": "cáozá",
+      "meaning": "ồn ào, huyên náo",
+      "example_zh": "街上很<u>嘈杂</u>。",
+      "example_vi": "Ngoài đường rất <u>ồn ào</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "嘈杂.svg",
+      "src": "images/HSK_2.0/level6/嘈杂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/嘈杂.svg",
+        "images/HSK_3.0/level8/嘈杂.svg",
+        "images/HSK_3.0/level9/嘈杂.svg"
+      ]
+    },
+    "草案": {
+      "hanzi": "草案",
+      "pinyin": "cǎoàn",
+      "meaning": "dự thảo",
+      "example_zh": "委员会正在审议<u>草案</u>。",
+      "example_vi": "Ủy ban đang xét duyệt <u>dự thảo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "草案.svg",
+      "src": "images/HSK_2.0/level6/草案.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/草案.svg",
+        "images/HSK_3.0/level8/草案.svg",
+        "images/HSK_3.0/level9/草案.svg"
+      ]
+    },
+    "草率": {
+      "hanzi": "草率",
+      "pinyin": "cǎoshuài",
+      "meaning": "cẩu thả, qua loa",
+      "example_zh": "不能<u>草率</u>做决定。",
+      "example_vi": "Không thể <u>cẩu thả</u> đưa ra quyết định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "草率.svg",
+      "src": "images/HSK_2.0/level6/草率.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/草率.svg",
+        "images/HSK_3.0/level8/草率.svg",
+        "images/HSK_3.0/level9/草率.svg"
+      ]
+    },
+    "策划": {
+      "hanzi": "策划",
+      "pinyin": "cèhuà",
+      "meaning": "hoạch định, lên kế hoạch",
+      "example_zh": "这次活动是他<u>策划</u>的。",
+      "example_vi": "Hoạt động lần này do anh ấy <u>hoạch định</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "策划.svg",
+      "src": "images/HSK_2.0/level6/策划.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/策划.svg"
+      ]
+    },
+    "测量": {
+      "hanzi": "测量",
+      "pinyin": "cèliáng",
+      "meaning": "đo lường, khảo sát",
+      "example_zh": "工程师在<u>测量</u>土地。",
+      "example_vi": "Kỹ sư đang <u>đo lường</u> đất đai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "测量.svg",
+      "src": "images/HSK_2.0/level6/测量.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/测量.svg"
+      ]
+    },
+    "策略": {
+      "hanzi": "策略",
+      "pinyin": "cèlüè",
+      "meaning": "chiến lược, sách lược",
+      "example_zh": "我们需要新的<u>策略</u>。",
+      "example_vi": "Chúng ta cần <u>chiến lược</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "策略.svg",
+      "src": "images/HSK_2.0/level6/策略.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/策略.svg"
+      ]
+    },
+    "侧面": {
+      "hanzi": "侧面",
+      "pinyin": "cèmiàn",
+      "meaning": "mặt bên, khía cạnh",
+      "example_zh": "从<u>侧面</u>看这个问题。",
+      "example_vi": "Nhìn vấn đề này từ <u>khía cạnh</u> khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "侧面.svg",
+      "src": "images/HSK_2.0/level6/侧面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/侧面.svg",
+        "images/HSK_3.0/level8/侧面.svg",
+        "images/HSK_3.0/level9/侧面.svg"
+      ]
+    },
+    "层次": {
+      "hanzi": "层次",
+      "pinyin": "céngcì",
+      "meaning": "tầng bậc, cấp độ",
+      "example_zh": "这篇文章<u>层次</u>分明。",
+      "example_vi": "Bài viết này có <u>tầng bậc</u> rõ ràng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "层次.svg",
+      "src": "images/HSK_2.0/level6/层次.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/层次.svg"
+      ]
+    },
+    "层出不穷": {
+      "hanzi": "层出不穷",
+      "pinyin": "céng chū bù qióng",
+      "meaning": "xuất hiện liên tục không ngừng",
+      "example_zh": "新问题<u>层出不穷</u>。",
+      "example_vi": "Vấn đề mới <u>xuất hiện liên tục không ngừng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "层出不穷.svg",
+      "src": "images/HSK_2.0/level6/层出不穷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/层出不穷.svg",
+        "images/HSK_3.0/level8/层出不穷.svg",
+        "images/HSK_3.0/level9/层出不穷.svg"
+      ]
+    },
     "差别": {
       "hanzi": "差别",
       "pinyin": "chābié",
@@ -50126,6 +50308,28 @@
       "src": "images/HSK_2.0/level6/差别.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/差别.svg"
+      ]
+    },
+    "查获": {
+      "hanzi": "查获",
+      "pinyin": "cháhuò",
+      "meaning": "lục soát bắt giữ, phát hiện thu giữ",
+      "example_zh": "警方<u>查获</u>了一批假货。",
+      "example_vi": "Cảnh sát <u>thu giữ</u> một lô hàng giả.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "查获.svg",
+      "src": "images/HSK_2.0/level6/查获.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/查获.svg",
+        "images/HSK_3.0/level8/查获.svg",
+        "images/HSK_3.0/level9/查获.svg"
       ]
     },
     "产业": {

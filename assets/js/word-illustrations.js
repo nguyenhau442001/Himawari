@@ -13787,10 +13787,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/操作.svg",
     "caption": "vận hành, thao tác"
   },
+  "嘈杂": {
+    "file": "嘈杂.svg",
+    "src": "images/HSK_2.0/level6/嘈杂.svg",
+    "caption": "ồn ào, huyên náo"
+  },
+  "草案": {
+    "file": "草案.svg",
+    "src": "images/HSK_2.0/level6/草案.svg",
+    "caption": "dự thảo"
+  },
+  "草率": {
+    "file": "草率.svg",
+    "src": "images/HSK_2.0/level6/草率.svg",
+    "caption": "cẩu thả, qua loa"
+  },
+  "策划": {
+    "file": "策划.svg",
+    "src": "images/HSK_2.0/level6/策划.svg",
+    "caption": "hoạch định, lên kế hoạch"
+  },
+  "测量": {
+    "file": "测量.svg",
+    "src": "images/HSK_2.0/level6/测量.svg",
+    "caption": "đo lường, khảo sát"
+  },
+  "策略": {
+    "file": "策略.svg",
+    "src": "images/HSK_2.0/level6/策略.svg",
+    "caption": "chiến lược, sách lược"
+  },
+  "侧面": {
+    "file": "侧面.svg",
+    "src": "images/HSK_2.0/level6/侧面.svg",
+    "caption": "mặt bên, khía cạnh"
+  },
+  "层次": {
+    "file": "层次.svg",
+    "src": "images/HSK_2.0/level6/层次.svg",
+    "caption": "tầng bậc, cấp độ"
+  },
+  "层出不穷": {
+    "file": "层出不穷.svg",
+    "src": "images/HSK_2.0/level6/层出不穷.svg",
+    "caption": "xuất hiện liên tục không ngừng"
+  },
   "差别": {
     "file": "差别.svg",
     "src": "images/HSK_2.0/level6/差别.svg",
     "caption": "sự khác biệt"
+  },
+  "查获": {
+    "file": "查获.svg",
+    "src": "images/HSK_2.0/level6/查获.svg",
+    "caption": "lục soát bắt giữ, phát hiện thu giữ"
   },
   "产业": {
     "file": "产业.svg",

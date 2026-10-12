@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="140" width="180" height="15" rx="2" fill="#334155"/>
+  <rect x="40" y="155" width="10" height="85" fill="#334155"/>
+  <rect x="190" y="155" width="10" height="85" fill="#334155"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="80" r="25" fill="#fbbf24"/>
+  <path d="M105 75 Q110 70 115 75 M125 75 Q130 70 135 75" stroke="#0f172a" stroke-width="2" fill="none"/>
+  <path d="M110 90 Q120 98 130 90" stroke="#0f172a" stroke-width="2" fill="none"/>
+  <path d="M80 110 L160 110 L150 150 L90 150 Z" fill="#38bdf8"/>
+  
+  <!-- The "Rash Decision" elements -->
+  <!-- A crumpled paper ball in the air -->
+  <circle cx="180" cy="60" r="8" fill="#f1f5f9"/>
+  <path d="M175 58 L185 62 M178 55 L182 65" stroke="#94a3b8" stroke-width="1"/>
+  
+  <!-- A stamp hovering over a document -->
+  <rect x="60" y="115" width="40" height="25" rx="2" fill="#ec4899"/>
+  <rect x="70" y="105" width="20" height="10" fill="#fb923c"/>
+  
+  <!-- Warning sign (abstract shape, no text) -->
+  <path d="M200 30 L220 30 L210 47 Z" fill="#ef4444"/>
+  <circle cx="210" cy="35" r="2" fill="#fff"/>
+  <rect x="209" y="38" width="2" height="5" fill="#fff"/>
+  
+  <!-- Coffee mug -->
+  <circle cx="45" cy="130" r="10" fill="#fbbf24"/>
+  <path d="M55 125 Q65 125 65 135" stroke="#fbbf24" stroke-width="3" fill="none"/>
+  
+  <!-- Ambient light -->
+  <circle cx="120" cy="80" r="40" fill="#fbbf24" opacity="0.05"/>
+</svg>
