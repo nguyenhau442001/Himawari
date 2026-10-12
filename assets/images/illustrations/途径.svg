@@ -1,0 +1,13 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <!-- Path (途径 - way, means) as a physical object -->
+  <path d="M 60 200 C 60 100, 180 100, 180 70"
+        stroke="#CFD8DC" stroke-width="30" fill="none"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arrow head at the end of the path, indicating direction -->
+  <polygon points="180,40 160,70 200,70"
+           fill="#CFD8DC"/>
+  <!-- Target / Goal (representing the solution or destination) -->
+  <polygon points="175,5 185,5 185,15 195,15 195,25 185,25 185,35 175,35 175,25 165,25 165,15 175,15"
+           fill="#FFB300"/>
+</svg>

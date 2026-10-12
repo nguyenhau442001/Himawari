@@ -20702,10 +20702,110 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/通讯.svg",
     "caption": "thông tin liên lạc"
   },
+  "通用": {
+    "file": "通用.svg",
+    "src": "images/HSK_2.0/level6/通用.svg",
+    "caption": "thông dụng"
+  },
+  "通缉": {
+    "file": "通缉.svg",
+    "src": "images/HSK_2.0/level6/通缉.svg",
+    "caption": "truy nã"
+  },
+  "铜": {
+    "file": "铜.svg",
+    "src": "images/HSK_2.0/level6/铜.svg",
+    "caption": "đồng (kim loại)"
+  },
+  "同胞": {
+    "file": "同胞.svg",
+    "src": "images/HSK_2.0/level6/同胞.svg",
+    "caption": "đồng bào"
+  },
+  "同志": {
+    "file": "同志.svg",
+    "src": "images/HSK_2.0/level6/同志.svg",
+    "caption": "đồng chí"
+  },
+  "童话": {
+    "file": "童话.svg",
+    "src": "images/HSK_2.0/level6/童话.svg",
+    "caption": "truyện cổ tích"
+  },
+  "统筹兼顾": {
+    "file": "统筹兼顾.svg",
+    "src": "images/HSK_2.0/level6/统筹兼顾.svg",
+    "caption": "quy hoạch tổng thể, cân nhắc toàn diện"
+  },
   "统计": {
     "file": "统计.svg",
     "src": "images/HSK_2.0/level6/统计.svg",
     "caption": "thống kê"
+  },
+  "统统": {
+    "file": "统统.svg",
+    "src": "images/HSK_2.0/level6/统统.svg",
+    "caption": "tất cả, toàn bộ"
+  },
+  "统治": {
+    "file": "统治.svg",
+    "src": "images/HSK_2.0/level6/统治.svg",
+    "caption": "thống trị"
+  },
+  "投机": {
+    "file": "投机.svg",
+    "src": "images/HSK_2.0/level6/投机.svg",
+    "caption": "đầu cơ"
+  },
+  "投票": {
+    "file": "投票.svg",
+    "src": "images/HSK_2.0/level6/投票.svg",
+    "caption": "bỏ phiếu"
+  },
+  "投诉": {
+    "file": "投诉.svg",
+    "src": "images/HSK_2.0/level6/投诉.svg",
+    "caption": "khiếu nại, tố cáo"
+  },
+  "投降": {
+    "file": "投降.svg",
+    "src": "images/HSK_2.0/level6/投降.svg",
+    "caption": "đầu hàng"
+  },
+  "投掷": {
+    "file": "投掷.svg",
+    "src": "images/HSK_2.0/level6/投掷.svg",
+    "caption": "ném, phóng"
+  },
+  "透露": {
+    "file": "透露.svg",
+    "src": "images/HSK_2.0/level6/透露.svg",
+    "caption": "tiết lộ"
+  },
+  "秃": {
+    "file": "秃.svg",
+    "src": "images/HSK_2.0/level6/秃.svg",
+    "caption": "hói, trọc"
+  },
+  "突破": {
+    "file": "突破.svg",
+    "src": "images/HSK_2.0/level6/突破.svg",
+    "caption": "đột phá"
+  },
+  "图案": {
+    "file": "图案.svg",
+    "src": "images/HSK_2.0/level6/图案.svg",
+    "caption": "hoa văn, mẫu hình"
+  },
+  "徒弟": {
+    "file": "徒弟.svg",
+    "src": "images/HSK_2.0/level6/徒弟.svg",
+    "caption": "học trò, đệ tử"
+  },
+  "途径": {
+    "file": "途径.svg",
+    "src": "images/HSK_2.0/level6/途径.svg",
+    "caption": "con đường, biện pháp"
   },
   "维持": {
     "file": "维持.svg",

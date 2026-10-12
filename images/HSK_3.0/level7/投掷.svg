@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Motion / Action Lines (Background) -->
+  <path d="M70 110 Q90 95 110 90" stroke="#3A4256" stroke-width="2" stroke-dasharray="4 4" fill="none" stroke-linecap="round"/>
+  <path d="M60 130 Q90 110 120 100" stroke="#3A4256" stroke-width="2" stroke-dasharray="4 4" fill="none" stroke-linecap="round"/>
+
+  <!-- Dynamic Javelin Arc (Trajectory) -->
+  <path d="M125 95 Q160 55 200 70" stroke="#FF9F43" stroke-width="2" stroke-dasharray="6 6" fill="none" opacity="0.6"/>
+
+  <!-- Javelin (Being Thrown) -->
+  <g transform="rotate(-25 140 85)">
+    <!-- Shaft -->
+    <line x1="85" y1="85" x2="185" y2="85" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+    <!-- Metal Tip -->
+    <polygon points="185,82 200,85 185,88" fill="#FFC048"/>
+    <!-- Grip / Cord -->
+    <line x1="120" y1="83" x2="135" y2="87" stroke="#FF6B6B" stroke-width="4"/>
+  </g>
+
+  <!-- Human Character (Action Pose - Throwing) -->
+  <g>
+    <!-- Back Leg (Bracing) -->
+    <path d="M95 160 L75 200" stroke="#4A5568" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Torso (Twisted/Dynamic) -->
+    <path d="M95 120 L105 165 L85 165 Z" fill="#3B82F6"/>
+
+    <!-- Front Leg (Step Forward) -->
+    <path d="M105 165 L130 195" stroke="#4A5568" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Head -->
+    <circle cx="85" cy="100" r="12" fill="#E2E8F0"/>
+
+    <!-- Back Arm (Pulling back / aiming) -->
+    <path d="M90 125 L65 145" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Front Arm (Throwing forward / release point) -->
+    <path d="M100 125 L130 95" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Hand gripping javelin (accent highlight) -->
+    <circle cx="128" cy="97" r="4" fill="#FF9F43"/>
+  </g>
+
+  <!-- Floor / Ground Line -->
+  <line x1="40" y1="200" x2="200" y2="200" stroke="#2D3748" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Action Force Particles/Sparks -->
+  <circle cx="135" cy="195" r="2" fill="#FF9F43"/>
+  <circle cx="70" cy="202" r="1.5" fill="#FF9F43"/>
+</svg>

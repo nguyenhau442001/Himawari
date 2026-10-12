@@ -1,0 +1,31 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(40, 45)">
+    <!-- Abstract stock chart grid background -->
+    <line x1="10" y1="120" x2="150" y2="120" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+    <line x1="10" y1="20" x2="10" y2="130" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+    <line x1="10" y1="70" x2="150" y2="70" stroke="#2A2F3D" stroke-dasharray="3 3" stroke-width="1"/>
+    
+    <!-- Rising financial chart line (Speculation/Market) -->
+    <path d="M 10 110 Q 50 90, 80 60 T 150 25" fill="none" stroke="#FF9F0A" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Glowing data points -->
+    <circle cx="80" cy="60" r="4" fill="#1A1D24" stroke="#FF9F0A" stroke-width="3"/>
+    <circle cx="150" cy="25" r="5" fill="#FF9F0A"/>
+
+    <!-- Central iconic object: A glowing stylized golden coin / dice hybrid representing calculated risk/speculation -->
+    <g transform="translate(80, 75)">
+      <!-- Outer coin rim -->
+      <circle cx="0" cy="0" r="32" fill="#242B38" stroke="#F59E0B" stroke-width="3"/>
+      
+      <!-- Inner geometric facet indicating high volatility / speculation -->
+      <polygon points="0,-20 17,10 -17,10" fill="#F59E0B" opacity="0.9"/>
+      <polygon points="0,20 17,-10 -17,-10" fill="#F59E0B" opacity="0.6"/>
+      
+      <!-- Upward dart/arrow piercing through the center -->
+      <path d="M -12 12 L 12 -12" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 4 -12 L 12 -12 L 12 -4" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

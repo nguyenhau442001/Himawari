@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <defs>
+    <!-- Define a simple diamond shape for the pattern -->
+    <path id="diamond" d="M 0 5 L 5 0 L 10 5 L 5 10 Z"/>
+  </defs>
+
+  <!-- Main object: A stylized t-shirt -->
+  <path d="M 60 80 L 40 100 L 40 120 L 60 140 L 60 180 L 180 180 L 180 140 L 200 120 L 200 100 L 180 80 C 170 70 150 60 120 60 C 90 60 70 70 60 80 Z" fill="#4A505C"/>
+
+  <!-- Pattern elements on the t-shirt -->
+  <!-- Row 1 -->
+  <use href="#diamond" x="70" y="90" fill="#FFB74D"/>
+  <use href="#diamond" x="90" y="90" fill="#FFB74D"/>
+  <use href="#diamond" x="110" y="90" fill="#FFB74D"/>
+  <use href="#diamond" x="130" y="90" fill="#FFB74D"/>
+  <use href="#diamond" x="150" y="90" fill="#FFB74D"/>
+  
+  <!-- Row 2 -->
+  <use href="#diamond" x="70" y="110" fill="#FFB74D"/>
+  <use href="#diamond" x="90" y="110" fill="#FFB74D"/>
+  <use href="#diamond" x="110" y="110" fill="#FFB74D"/>
+  <use href="#diamond" x="130" y="110" fill="#FFB74D"/>
+  <use href="#diamond" x="150" y="110" fill="#FFB74D"/>
+
+  <!-- Row 3 -->
+  <use href="#diamond" x="70" y="130" fill="#FFB74D"/>
+  <use href="#diamond" x="90" y="130" fill="#FFB74D"/>
+  <use href="#diamond" x="110" y="130" fill="#FFB74D"/>
+  <use href="#diamond" x="130" y="130" fill="#FFB74D"/>
+  <use href="#diamond" x="150" y="130" fill="#FFB74D"/>
+
+  <!-- Row 4 -->
+  <use href="#diamond" x="70" y="150" fill="#FFB74D"/>
+  <use href="#diamond" x="90" y="150" fill="#FFB74D"/>
+  <use href="#diamond" x="110" y="150" fill="#FFB74D"/>
+  <use href="#diamond" x="130" y="150" fill="#FFB74D"/>
+  <use href="#diamond" x="150" y="150" fill="#FFB74D"/>
+</svg>

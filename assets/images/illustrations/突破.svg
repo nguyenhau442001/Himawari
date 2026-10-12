@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- The Wall (physical object) -->
+  <rect x="30" y="70" width="180" height="100" rx="12" fill="#606C7F"/>
+
+  <!-- The Breakthrough (central orange burst of energy/light) -->
+  <path d="M120 95 L140 105 L150 120 L140 135 L120 145 L100 135 L90 120 L100 105 Z" fill="#FF9900"/>
+
+  <!-- Cracks radiating from the breakthrough on the wall -->
+  <path d="M120 95 L120 70 M140 105 L160 95 M150 120 L180 120 M140 135 L160 145 M120 145 L120 170 M100 135 L80 145 M90 120 L60 120 M100 105 L80 95" stroke="#808C9F" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Small fragments flying outwards from the break -->
+  <rect x="185" y="100" width="8" height="4" rx="1" fill="#606C7F" transform="rotate(20 185 100)"/>
+  <rect x="50" y="140" width="8" height="4" rx="1" fill="#606C7F" transform="rotate(-30 50 140)"/>
+  <rect x="110" y="55" width="6" height="3" rx="1" fill="#606C7F" transform="rotate(10 110 55)"/>
+  <rect x="110" y="180" width="6" height="3" rx="1" fill="#606C7F" transform="rotate(-10 110 180)"/>
+</svg>

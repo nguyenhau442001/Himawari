@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle decorative ambient glow representing unity -->
+  <circle cx="120" cy="115" r="70" fill="#242B38" opacity="0.6"/>
+  <circle cx="120" cy="115" r="50" fill="#2A3444" opacity="0.4"/>
+
+  <!-- Graphic Elements: Two interconnected stylized human figures representing "đồng bào" (compatriots/same womb) -->
+  
+  <!-- Figure 1 (Left - Orange/Gold Accent for focus) -->
+  <g transform="translate(85, 80)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="16" fill="#FFB703"/>
+    <!-- Body/Shoulders overlapping silhouette -->
+    <path d="M-22,38 C-22,24 -11,20 0,20 C11,20 22,24 22,38 L22,48 L-22,48 Z" fill="#FFB703"/>
+  </g>
+
+  <!-- Figure 2 (Right - Complementary modern teal/cyan tone for contrast) -->
+  <g transform="translate(155, 80)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="16" fill="#00B4D8"/>
+    <!-- Body/Shoulders overlapping silhouette -->
+    <path d="M-22,38 C-22,24 -11,20 0,20 C11,20 22,24 22,38 L22,48 L-22,48 Z" fill="#00B4D8"/>
+  </g>
+
+  <!-- Central Bond / Heart Connection (Symbolizing shared origin / "đồng bào" = same womb) -->
+  <path d="M120,95 C110,80 90,85 90,105 C90,122 120,140 120,140 C120,140 150,122 150,105 C150,85 130,80 120,95 Z" fill="#FF6B6B" opacity="0.9"/>
+  
+  <!-- Glow effect inside heart -->
+  <path d="M120,102 C114,92 100,95 100,108 C100,118 120,130 120,130 C120,130 140,118 140,108 C140,95 126,92 120,102 Z" fill="#FF8787"/>
+
+  <!-- Ground reflection / Base platforming for sleek flat UI look -->
+  <ellipse cx="120" cy="170" rx="60" ry="6" fill="#2E3748"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Ambient Glow -->
+  <circle cx="120" cy="115" r="70" fill="#FF5722" opacity="0.08"/>
+
+  <!-- Central Visual Object: Official Complaint / Feedback Document & Megaphone concept -->
+  <g transform="translate(0, 0)">
+    <!-- Document Base / Clipboard -->
+    <rect x="76" y="52" width="88" height="116" rx="8" fill="#2A2F3D" stroke="#3A4255" stroke-width="2"/>
+    
+    <!-- Clipboard Clip -->
+    <path d="M96 52H144V60C144 63.3137 141.314 66 138 66H102C98.6863 66 96 63.3137 96 60V52Z" fill="#FFB74D"/>
+    <circle cx="120" cy="59" r="2" fill="#1A1D24"/>
+
+    <!-- Document Lines (Text representations) -->
+    <rect x="92" y="80" width="40" height="6" rx="3" fill="#4B5563"/>
+    <rect x="92" y="96" width="56" height="4" rx="2" fill="#3A4255"/>
+    <rect x="92" y="108" width="50" height="4" rx="2" fill="#3A4255"/>
+    <rect x="92" y="120" width="36" height="4" rx="2" fill="#3A4255"/>
+
+    <!-- Checkbox / Issue Marker -->
+    <circle cx="98" cy="142" r="6" fill="#EF4444" opacity="0.2"/>
+    <path d="M95 142L97 144L101 140" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="110" y="139" width="30" height="4" rx="2" fill="#EF4444" opacity="0.8"/>
+
+    <!-- Floating Accent: Warning / Alert Badge (Represents Grievance/Complaint) -->
+    <g transform="translate(135, 125)">
+      <circle cx="20" cy="20" r="24" fill="#1A1D24" stroke="#FF5722" stroke-width="3"/>
+      <!-- Exclamation Icon -->
+      <path d="M20 10V22" stroke="#FF5722" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="20" cy="29" r="2.5" fill="#FF5722"/>
+    </g>
+
+    <!-- Floating Accent: Speech / Voice Icon (Represents Claim/Report) -->
+    <g transform="translate(45, 80)">
+      <circle cx="18" cy="18" r="20" fill="#2A2F3D" stroke="#FFB74D" stroke-width="2"/>
+      <path d="M11 18H25M18 11V25" stroke="#FFB74D" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

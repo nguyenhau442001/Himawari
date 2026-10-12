@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Workbench/Table -->
+  <rect x="40" y="160" width="160" height="20" fill="#3C4043" rx="4"/>
+  <rect x="45" y="180" width="150" height="10" fill="#2E3136" rx="2"/>
+
+  <!-- Workpiece (e.g., wood block) -->
+  <rect x="110" y="140" width="20" height="20" fill="#8B572A" rx="2"/>
+
+  <!-- Apprentice (徒弟) - Right character -->
+  <!-- Body -->
+  <rect x="135" y="80" width="30" height="70" fill="#5F6368" rx="8"/>
+  <!-- Head -->
+  <circle cx="150" cy="65" r="14" fill="#D8D8D8"/>
+  <!-- Arm -->
+  <rect x="145" y="100" width="10" height="30" fill="#5F6368" rx="4"/>
+  <!-- Hand holding tool -->
+  <rect x="140" y="130" width="20" height="15" fill="#D8D8D8" rx="4"/>
+  <!-- Tool (chisel) -->
+  <rect x="148" y="120" width="4" height="25" fill="#F9AB00" rx="1"/>
+  <path d="M148 145 L152 145 L150 150 Z" fill="#F9AB00"/> <!-- Chisel tip -->
+
+  <!-- Master (师傅) - Left character -->
+  <!-- Body -->
+  <rect x="70" y="70" width="40" height="80" fill="#3C4043" rx="8"/>
+  <!-- Head -->
+  <circle cx="90" cy="55" r="18" fill="#E0E0E0"/>
+  <!-- Arm (vertical part) -->
+  <rect x="90" y="90" width="10" height="40" fill="#3C4043" rx="4"/>
+  <!-- Forearm (horizontal part, connecting to hand) -->
+  <rect x="100" y="120" width="40" height="10" fill="#3C4043" rx="4"/>
+  <!-- Hand guiding apprentice's hand -->
+  <rect x="138" y="125" width="24" height="18" fill="#E0E0E0" rx="4"/>
+
+  <!-- Motion lines around the workpiece -->
+  <path d="M150 155 Q155 150 160 155" stroke="#F9AB00" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M150 155 Q145 150 140 155" stroke="#F9AB00" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M150 155 Q150 160 150 165" stroke="#F9AB00" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

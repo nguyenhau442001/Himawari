@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/grid elements for modern flat UI feel -->
+  <circle cx="120" cy="120" r="75" fill="#232731" opacity="0.6"/>
+  <circle cx="120" cy="120" r="95" fill="none" stroke="#2D3341" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+  
+  <!-- Central Graphic: Two stylized figures shoulder-to-shoulder (Comrades / 同志) with shared direction -->
+  <g transform="translate(0, 5)">
+    <!-- Connection / Unity Arc below -->
+    <path d="M 80 155 Q 120 170 160 155" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    
+    <!-- Left Figure (Back) -->
+    <g transform="translate(-15, 0)">
+      <!-- Body/Shoulders -->
+      <path d="M 75 145 C 75 125 90 120 105 120 C 120 120 135 125 135 145 Z" fill="#3B82F6" opacity="0.7"/>
+      <!-- Head -->
+      <circle cx="105" cy="95" r="18" fill="#60A5FA"/>
+    </g>
+
+    <!-- Right Figure (Front / Focal) -->
+    <g transform="translate(15, 0)">
+      <!-- Body/Shoulders -->
+      <path d="M 75 145 C 75 120 95 112 120 112 C 145 112 165 120 165 145 Z" fill="#2563EB"/>
+      <!-- Head -->
+      <circle cx="120" cy="88" r="20" fill="#3B82F6"/>
+    </g>
+
+    <!-- Glowing Star/Idea Icon symbolizing shared ideal/purpose (同志) -->
+    <g transform="translate(120, 38)">
+      <polygon points="0,-12 3.5,-3.5 12,-3.5 5.5,2 8,10.5 0,5 -8,10.5 -5.5,2 -12,-3.5 -3.5,-3.5" fill="#F59E0B"/>
+      <!-- Glow effect -->
+      <polygon points="0,-12 3.5,-3.5 12,-3.5 5.5,2 8,10.5 0,5 -8,10.5 -5.5,2 -12,-3.5 -3.5,-3.5" fill="#FBBF24" filter="blur(2px)" opacity="0.6"/>
+    </g>
+
+    <!-- Forward-pointing abstract arrow overlay indicating alignment/direction -->
+    <path d="M 140 75 L 155 90 L 140 105" fill="none" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

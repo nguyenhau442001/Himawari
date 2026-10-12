@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Vector Illustration: Central physical object representing "统筹兼顾" (Comprehensive planning & balanced consideration) -->
+  <!-- We visualize a precision mechanical balancing device / celestial sphere / strategic nexus combining multiple interdependent pathways -->
+
+  <g transform="translate(120, 115)">
+    <!-- Outer Orbit Rings (Holistic planning & oversight) -->
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#2A3241" stroke-width="2" stroke-dasharray="4 4"/>
+    <ellipse cx="0" cy="0" rx="75" ry="32" fill="none" stroke="#3A465C" stroke-width="2" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="0" rx="75" ry="32" fill="none" stroke="#3A465C" stroke-width="2" transform="rotate(30)"/>
+
+    <!-- Central Core / Nexus (The overarching coordination) -->
+    <circle cx="0" cy="0" r="28" fill="#1A1D24" stroke="#F5A623" stroke-width="3"/>
+    <circle cx="0" cy="0" r="18" fill="#242B38"/>
+    
+    <!-- Core glowing inner node -->
+    <circle cx="0" cy="0" r="8" fill="#F5A623"/>
+
+    <!-- Balanced Satellite Nodes representing diverse interests (各方利益) -->
+    <!-- Node Top -->
+    <g transform="translate(0, -65)">
+      <circle cx="0" cy="0" r="12" fill="#242B38" stroke="#4A90E2" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="4" fill="#4A90E2"/>
+    </g>
+
+    <!-- Node Bottom-Right -->
+    <g transform="translate(56, 32)">
+      <circle cx="0" cy="0" r="12" fill="#242B38" stroke="#50E3C2" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="4" fill="#50E3C2"/>
+    </g>
+
+    <!-- Node Bottom-Left -->
+    <g transform="translate(-56, 32)">
+      <circle cx="0" cy="0" r="12" fill="#242B38" stroke="#E94F64" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="4" fill="#E94F64"/>
+    </g>
+
+    <!-- Connecting Linkages (Systemic integration / 统筹) -->
+    <line x1="0" y1="-53" x2="0" y2="-28" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/>
+    <line x1="48" y1="28" x2="24" y2="14" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-48" y1="28" x2="-24" y2="14" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Scale Beam balancing across the center -->
+    <path d="M -60 10 L 60 10" stroke="#8A9BA8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Fulcrum triangle -->
+    <polygon points="0,10 -8,24 8,24" fill="#F5A623"/>
+    
+    <!-- Balance indicators / weights -->
+    <circle cx="-60" cy="10" r="5" fill="#E94F64"/>
+    <circle cx="60" cy="10" r="5" fill="#50E3C2"/>
+  </g>
+</svg>

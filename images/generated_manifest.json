@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:25:38.348730",
-  "total_unique_words_with_illustrations": 4709,
-  "total_flat_svg_files": 4709,
+  "generated_at": "2026-10-12T23:29:10.865762",
+  "total_unique_words_with_illustrations": 4729,
+  "total_flat_svg_files": 4729,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2069,
-        "pct": "82.8%"
+        "with_svg": 2089,
+        "pct": "83.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 688,
-        "pct": "38.2%"
+        "with_svg": 698,
+        "pct": "38.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1060,
-        "pct": "18.9%"
+        "with_svg": 1069,
+        "pct": "19.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1060,
-        "pct": "18.9%"
+        "with_svg": 1069,
+        "pct": "19.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1060,
-        "pct": "18.9%"
+        "with_svg": 1069,
+        "pct": "19.1%"
       }
     }
   },
@@ -78024,6 +78024,140 @@
         "images/HSK_3.0/level6/通讯.svg"
       ]
     },
+    "通用": {
+      "hanzi": "通用",
+      "pinyin": "tōngyòng",
+      "meaning": "thông dụng",
+      "example_zh": "英语是国际<u>通用</u>语言之一。",
+      "example_vi": "Tiếng Anh là một trong những ngôn ngữ <u>thông dụng</u> quốc tế.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "通用.svg",
+      "src": "images/HSK_2.0/level6/通用.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/通用.svg"
+      ]
+    },
+    "通缉": {
+      "hanzi": "通缉",
+      "pinyin": "tōngjī",
+      "meaning": "truy nã",
+      "example_zh": "警方已经发出<u>通缉</u>令。",
+      "example_vi": "Cảnh sát đã phát lệnh <u>truy nã</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "通缉.svg",
+      "src": "images/HSK_2.0/level6/通缉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/通缉.svg",
+        "images/HSK_3.0/level8/通缉.svg",
+        "images/HSK_3.0/level9/通缉.svg"
+      ]
+    },
+    "铜": {
+      "hanzi": "铜",
+      "pinyin": "tóng",
+      "meaning": "đồng (kim loại)",
+      "example_zh": "这个雕像是用<u>铜</u>制成的。",
+      "example_vi": "Bức tượng này được làm bằng <u>đồng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "铜.svg",
+      "src": "images/HSK_2.0/level6/铜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/铜.svg"
+      ]
+    },
+    "同胞": {
+      "hanzi": "同胞",
+      "pinyin": "tóngbāo",
+      "meaning": "đồng bào",
+      "example_zh": "我们都是中华<u>同胞</u>。",
+      "example_vi": "Chúng ta đều là <u>đồng bào</u> của dân tộc Trung Hoa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "同胞.svg",
+      "src": "images/HSK_2.0/level6/同胞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/同胞.svg",
+        "images/HSK_3.0/level8/同胞.svg",
+        "images/HSK_3.0/level9/同胞.svg"
+      ]
+    },
+    "同志": {
+      "hanzi": "同志",
+      "pinyin": "tóngzhì",
+      "meaning": "đồng chí",
+      "example_zh": "各位<u>同志</u>，请安静。",
+      "example_vi": "Các <u>đồng chí</u>, xin hãy giữ trật tự.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "同志.svg",
+      "src": "images/HSK_2.0/level6/同志.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/同志.svg",
+        "images/HSK_3.0/level8/同志.svg",
+        "images/HSK_3.0/level9/同志.svg"
+      ]
+    },
+    "童话": {
+      "hanzi": "童话",
+      "pinyin": "tónghuà",
+      "meaning": "truyện cổ tích",
+      "example_zh": "妈妈经常给我讲<u>童话</u>故事。",
+      "example_vi": "Mẹ thường kể cho tôi nghe <u>truyện cổ tích</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "童话.svg",
+      "src": "images/HSK_2.0/level6/童话.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/童话.svg"
+      ]
+    },
+    "统筹兼顾": {
+      "hanzi": "统筹兼顾",
+      "pinyin": "tǒngchóujiāngù",
+      "meaning": "quy hoạch tổng thể, cân nhắc toàn diện",
+      "example_zh": "我们要<u>统筹兼顾</u>各方利益。",
+      "example_vi": "Chúng ta cần <u>cân nhắc toàn diện</u> lợi ích các bên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "统筹兼顾.svg",
+      "src": "images/HSK_2.0/level6/统筹兼顾.svg",
+      "alt_srcs": []
+    },
     "统计": {
       "hanzi": "统计",
       "pinyin": "tǒngjì",
@@ -78040,6 +78174,264 @@
       "src": "images/HSK_2.0/level6/统计.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/统计.svg"
+      ]
+    },
+    "统统": {
+      "hanzi": "统统",
+      "pinyin": "tǒngtǒng",
+      "meaning": "tất cả, toàn bộ",
+      "example_zh": "这些东西<u>统统</u>送给你了。",
+      "example_vi": "Những thứ này <u>tất cả</u> đều tặng cho bạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "统统.svg",
+      "src": "images/HSK_2.0/level6/统统.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/统统.svg",
+        "images/HSK_3.0/level8/统统.svg",
+        "images/HSK_3.0/level9/统统.svg"
+      ]
+    },
+    "统治": {
+      "hanzi": "统治",
+      "pinyin": "tǒngzhì",
+      "meaning": "thống trị",
+      "example_zh": "这个国家曾被殖民<u>统治</u>。",
+      "example_vi": "Quốc gia này từng bị <u>thống trị</u> thực dân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "统治.svg",
+      "src": "images/HSK_2.0/level6/统治.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/统治.svg",
+        "images/HSK_3.0/level8/统治.svg",
+        "images/HSK_3.0/level9/统治.svg"
+      ]
+    },
+    "投机": {
+      "hanzi": "投机",
+      "pinyin": "tóujī",
+      "meaning": "đầu cơ",
+      "example_zh": "他靠股市<u>投机</u>赚了不少钱。",
+      "example_vi": "Anh ấy <u>đầu cơ</u> trên thị trường chứng khoán kiếm được khá nhiều tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "投机.svg",
+      "src": "images/HSK_2.0/level6/投机.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/投机.svg",
+        "images/HSK_3.0/level8/投机.svg",
+        "images/HSK_3.0/level9/投机.svg"
+      ]
+    },
+    "投票": {
+      "hanzi": "投票",
+      "pinyin": "tóupiào",
+      "meaning": "bỏ phiếu",
+      "example_zh": "大家明天去<u>投票</u>选举。",
+      "example_vi": "Ngày mai mọi người đi <u>bỏ phiếu</u> bầu cử.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "投票.svg",
+      "src": "images/HSK_2.0/level6/投票.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/投票.svg"
+      ]
+    },
+    "投诉": {
+      "hanzi": "投诉",
+      "pinyin": "tóusù",
+      "meaning": "khiếu nại, tố cáo",
+      "example_zh": "顾客对服务质量提出<u>投诉</u>。",
+      "example_vi": "Khách hàng <u>khiếu nại</u> về chất lượng dịch vụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "投诉.svg",
+      "src": "images/HSK_2.0/level6/投诉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/投诉.svg"
+      ]
+    },
+    "投降": {
+      "hanzi": "投降",
+      "pinyin": "tóuxiáng",
+      "meaning": "đầu hàng",
+      "example_zh": "敌军最终选择了<u>投降</u>。",
+      "example_vi": "Quân địch cuối cùng đã chọn <u>đầu hàng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "投降.svg",
+      "src": "images/HSK_2.0/level6/投降.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/投降.svg",
+        "images/HSK_3.0/level8/投降.svg",
+        "images/HSK_3.0/level9/投降.svg"
+      ]
+    },
+    "投掷": {
+      "hanzi": "投掷",
+      "pinyin": "tóuzhì",
+      "meaning": "ném, phóng",
+      "example_zh": "他练习<u>投掷</u>标枪。",
+      "example_vi": "Anh ấy luyện tập <u>ném</u> lao.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "投掷.svg",
+      "src": "images/HSK_2.0/level6/投掷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/投掷.svg",
+        "images/HSK_3.0/level8/投掷.svg",
+        "images/HSK_3.0/level9/投掷.svg"
+      ]
+    },
+    "透露": {
+      "hanzi": "透露",
+      "pinyin": "tòulù",
+      "meaning": "tiết lộ",
+      "example_zh": "他不愿意<u>透露</u>任何消息。",
+      "example_vi": "Anh ấy không muốn <u>tiết lộ</u> bất kỳ thông tin nào.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "透露.svg",
+      "src": "images/HSK_2.0/level6/透露.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/透露.svg"
+      ]
+    },
+    "秃": {
+      "hanzi": "秃",
+      "pinyin": "tū",
+      "meaning": "hói, trọc",
+      "example_zh": "他的头已经<u>秃</u>了。",
+      "example_vi": "Đầu anh ấy đã <u>hói</u> rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "秃.svg",
+      "src": "images/HSK_2.0/level6/秃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/秃.svg",
+        "images/HSK_3.0/level8/秃.svg",
+        "images/HSK_3.0/level9/秃.svg"
+      ]
+    },
+    "突破": {
+      "hanzi": "突破",
+      "pinyin": "tūpò",
+      "meaning": "đột phá",
+      "example_zh": "科学家在这个领域取得了重大<u>突破</u>。",
+      "example_vi": "Các nhà khoa học đã đạt được <u>đột phá</u> lớn trong lĩnh vực này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "突破.svg",
+      "src": "images/HSK_2.0/level6/突破.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/突破.svg"
+      ]
+    },
+    "图案": {
+      "hanzi": "图案",
+      "pinyin": "tú'àn",
+      "meaning": "hoa văn, mẫu hình",
+      "example_zh": "这件衣服上有漂亮的<u>图案</u>。",
+      "example_vi": "Bộ áo này có <u>hoa văn</u> đẹp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "图案.svg",
+      "src": "images/HSK_2.0/level6/图案.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/图案.svg"
+      ]
+    },
+    "徒弟": {
+      "hanzi": "徒弟",
+      "pinyin": "túdì",
+      "meaning": "học trò, đệ tử",
+      "example_zh": "师傅正在教<u>徒弟</u>手艺。",
+      "example_vi": "Người thầy đang dạy <u>đệ tử</u> tay nghề.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "徒弟.svg",
+      "src": "images/HSK_2.0/level6/徒弟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/徒弟.svg"
+      ]
+    },
+    "途径": {
+      "hanzi": "途径",
+      "pinyin": "tújìng",
+      "meaning": "con đường, biện pháp",
+      "example_zh": "我们要找到解决问题的<u>途径</u>。",
+      "example_vi": "Chúng ta phải tìm ra <u>biện pháp</u> giải quyết vấn đề.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "途径.svg",
+      "src": "images/HSK_2.0/level6/途径.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/途径.svg"
       ]
     },
     "维持": {
