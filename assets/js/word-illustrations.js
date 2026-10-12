@@ -18957,6 +18957,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/抢救.svg",
     "caption": "cấp cứu, cứu chữa gấp"
   },
+  "强迫": {
+    "file": "强迫.svg",
+    "src": "images/HSK_2.0/level6/强迫.svg",
+    "caption": "cưỡng ép, bắt buộc"
+  },
+  "桥梁": {
+    "file": "桥梁.svg",
+    "src": "images/HSK_2.0/level6/桥梁.svg",
+    "caption": "cầu, cầu nối"
+  },
+  "翘": {
+    "file": "翘.svg",
+    "src": "images/HSK_2.0/level6/翘.svg",
+    "caption": "cong lên, vênh lên"
+  },
+  "窍门": {
+    "file": "窍门.svg",
+    "src": "images/HSK_2.0/level6/窍门.svg",
+    "caption": "mẹo, bí quyết"
+  },
+  "锲而不舍": {
+    "file": "锲而不舍.svg",
+    "src": "images/HSK_2.0/level6/锲而不舍.svg",
+    "caption": "kiên trì không bỏ cuộc"
+  },
   "请教": {
     "file": "请教.svg",
     "src": "images/HSK_2.0/level6/请教.svg",

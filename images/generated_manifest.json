@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:40:17.764947",
-  "total_unique_words_with_illustrations": 4385,
-  "total_flat_svg_files": 4385,
+  "generated_at": "2026-10-12T22:41:09.880397",
+  "total_unique_words_with_illustrations": 4390,
+  "total_flat_svg_files": 4390,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1745,
-        "pct": "69.8%"
+        "with_svg": 1750,
+        "pct": "70.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 581,
-        "pct": "32.3%"
+        "with_svg": 583,
+        "pct": "32.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 855,
+        "with_svg": 858,
         "pct": "15.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 855,
+        "with_svg": 858,
         "pct": "15.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 855,
+        "with_svg": 858,
         "pct": "15.3%"
       }
     }
@@ -70960,6 +70960,108 @@
       "src": "images/HSK_2.0/level6/抢救.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/抢救.svg"
+      ]
+    },
+    "强迫": {
+      "hanzi": "强迫",
+      "pinyin": "qiǎngpò",
+      "meaning": "cưỡng ép, bắt buộc",
+      "example_zh": "没有人能<u>强迫</u>你做不愿意的事。",
+      "example_vi": "Không ai có thể <u>cưỡng ép</u> bạn làm điều không muốn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "强迫.svg",
+      "src": "images/HSK_2.0/level6/强迫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/强迫.svg"
+      ]
+    },
+    "桥梁": {
+      "hanzi": "桥梁",
+      "pinyin": "qiáoliáng",
+      "meaning": "cầu, cầu nối",
+      "example_zh": "语言是沟通的<u>桥梁</u>。",
+      "example_vi": "Ngôn ngữ là <u>cầu nối</u> giao tiếp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "桥梁.svg",
+      "src": "images/HSK_2.0/level6/桥梁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/桥梁.svg"
+      ]
+    },
+    "翘": {
+      "hanzi": "翘",
+      "pinyin": "qiào",
+      "meaning": "cong lên, vênh lên",
+      "example_zh": "这块木板有点<u>翘</u>起来了。",
+      "example_vi": "Tấm gỗ này hơi <u>vênh lên</u> rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "翘.svg",
+      "src": "images/HSK_2.0/level6/翘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/翘.svg",
+        "images/HSK_3.0/level8/翘.svg",
+        "images/HSK_3.0/level9/翘.svg"
+      ]
+    },
+    "窍门": {
+      "hanzi": "窍门",
+      "pinyin": "qiàomén",
+      "meaning": "mẹo, bí quyết",
+      "example_zh": "他找到了解决问题的<u>窍门</u>。",
+      "example_vi": "Anh ấy đã tìm ra <u>bí quyết</u> giải quyết vấn đề.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "窍门.svg",
+      "src": "images/HSK_2.0/level6/窍门.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/窍门.svg",
+        "images/HSK_3.0/level8/窍门.svg",
+        "images/HSK_3.0/level9/窍门.svg"
+      ]
+    },
+    "锲而不舍": {
+      "hanzi": "锲而不舍",
+      "pinyin": "qiè'érbùshě",
+      "meaning": "kiên trì không bỏ cuộc",
+      "example_zh": "成功靠的是<u>锲而不舍</u>的精神。",
+      "example_vi": "Thành công nhờ vào tinh thần <u>kiên trì không bỏ cuộc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "锲而不舍.svg",
+      "src": "images/HSK_2.0/level6/锲而不舍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/锲而不舍.svg",
+        "images/HSK_3.0/level8/锲而不舍.svg",
+        "images/HSK_3.0/level9/锲而不舍.svg"
       ]
     },
     "请教": {
