@@ -16097,6 +16097,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/关照.svg",
     "caption": "chăm sóc, để mắt"
   },
+  "观光": {
+    "file": "观光.svg",
+    "src": "images/HSK_2.0/level6/观光.svg",
+    "caption": "tham quan, du ngoạn"
+  },
+  "官方": {
+    "file": "官方.svg",
+    "src": "images/HSK_2.0/level6/官方.svg",
+    "caption": "chính thức (của nhà nước)"
+  },
+  "归": {
+    "file": "归.svg",
+    "src": "images/HSK_2.0/level6/归.svg",
+    "caption": "trở về, thuộc về"
+  },
+  "规范": {
+    "file": "规范.svg",
+    "src": "images/HSK_2.0/level6/规范.svg",
+    "caption": "quy phạm, chuẩn mực"
+  },
+  "归宿": {
+    "file": "归宿.svg",
+    "src": "images/HSK_2.0/level6/归宿.svg",
+    "caption": "nơi quay về, kết cục"
+  },
+  "规章": {
+    "file": "规章.svg",
+    "src": "images/HSK_2.0/level6/规章.svg",
+    "caption": "quy chế, điều lệ"
+  },
+  "鬼": {
+    "file": "鬼.svg",
+    "src": "images/HSK_2.0/level6/鬼.svg",
+    "caption": "ma, quỷ"
+  },
+  "轨迹": {
+    "file": "轨迹.svg",
+    "src": "images/HSK_2.0/level6/轨迹.svg",
+    "caption": "quỹ đạo, dấu vết"
+  },
+  "轨道": {
+    "file": "轨道.svg",
+    "src": "images/HSK_2.0/level6/轨道.svg",
+    "caption": "đường ray, quỹ đạo"
+  },
+  "棍子": {
+    "file": "棍子.svg",
+    "src": "images/HSK_2.0/level6/棍子.svg",
+    "caption": "cái gậy"
+  },
   "过于": {
     "file": "过于.svg",
     "src": "images/HSK_2.0/level6/过于.svg",
