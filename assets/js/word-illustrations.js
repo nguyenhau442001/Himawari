@@ -12847,6 +12847,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/暗示.svg",
     "caption": "ngụ ý, ám chỉ"
   },
+  "案件": {
+    "file": "案件.svg",
+    "src": "images/HSK_2.0/level6/案件.svg",
+    "caption": "vụ án"
+  },
+  "案例": {
+    "file": "案例.svg",
+    "src": "images/HSK_2.0/level6/案例.svg",
+    "caption": "trường hợp điển hình, ví dụ thực tế"
+  },
+  "按摩": {
+    "file": "按摩.svg",
+    "src": "images/HSK_2.0/level6/按摩.svg",
+    "caption": "xoa bóp, massage"
+  },
+  "昂贵": {
+    "file": "昂贵.svg",
+    "src": "images/HSK_2.0/level6/昂贵.svg",
+    "caption": "đắt đỏ"
+  },
+  "凹凸": {
+    "file": "凹凸.svg",
+    "src": "images/HSK_2.0/level6/凹凸.svg",
+    "caption": "lồi lõm, gập ghềnh"
+  },
+  "熬": {
+    "file": "熬.svg",
+    "src": "images/HSK_2.0/level6/熬.svg",
+    "caption": "hầm, ninh lâu; chịu đựng"
+  },
+  "奥秘": {
+    "file": "奥秘.svg",
+    "src": "images/HSK_2.0/level6/奥秘.svg",
+    "caption": "điều bí ẩn, huyền bí"
+  },
+  "巴不得": {
+    "file": "巴不得.svg",
+    "src": "images/HSK_2.0/level6/巴不得.svg",
+    "caption": "mong mỏi, ước gì"
+  },
+  "巴结": {
+    "file": "巴结.svg",
+    "src": "images/HSK_2.0/level6/巴结.svg",
+    "caption": "bợ đỡ, lấy lòng"
+  },
+  "拔苗助长": {
+    "file": "拔苗助长.svg",
+    "src": "images/HSK_2.0/level6/拔苗助长.svg",
+    "caption": "nóng vội làm hỏng việc (nhổ mạ giúp lúa lớn nhanh)"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",

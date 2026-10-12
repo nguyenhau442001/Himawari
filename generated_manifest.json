@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:13:18.698703",
-  "total_unique_words_with_illustrations": 3229,
-  "total_flat_svg_files": 3229,
+  "generated_at": "2026-10-12T10:16:27.113566",
+  "total_unique_words_with_illustrations": 3239,
+  "total_flat_svg_files": 3239,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 589,
-        "pct": "23.6%"
+        "with_svg": 599,
+        "pct": "24.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 247,
-        "pct": "13.7%"
+        "with_svg": 250,
+        "pct": "13.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 114,
-        "pct": "2.0%"
+        "with_svg": 119,
+        "pct": "2.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 114,
-        "pct": "2.0%"
+        "with_svg": 119,
+        "pct": "2.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 114,
-        "pct": "2.0%"
+        "with_svg": 119,
+        "pct": "2.1%"
       }
     }
   },
@@ -46305,6 +46305,198 @@
       "alt_srcs": [
         "images/HSK_3.0/level6/暗示.svg"
       ]
+    },
+    "案件": {
+      "hanzi": "案件",
+      "pinyin": "ànjiàn",
+      "meaning": "vụ án",
+      "example_zh": "警方正在调查这起<u>案件</u>。",
+      "example_vi": "Cảnh sát đang điều tra <u>vụ án</u> này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "案件.svg",
+      "src": "images/HSK_2.0/level6/案件.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/案件.svg",
+        "images/HSK_3.0/level8/案件.svg",
+        "images/HSK_3.0/level9/案件.svg"
+      ]
+    },
+    "案例": {
+      "hanzi": "案例",
+      "pinyin": "ànlì",
+      "meaning": "trường hợp điển hình, ví dụ thực tế",
+      "example_zh": "这是一个很典型的<u>案例</u>。",
+      "example_vi": "Đây là một <u>trường hợp điển hình</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "案例.svg",
+      "src": "images/HSK_2.0/level6/案例.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/案例.svg"
+      ]
+    },
+    "按摩": {
+      "hanzi": "按摩",
+      "pinyin": "ànmó",
+      "meaning": "xoa bóp, massage",
+      "example_zh": "工作累了就去做个<u>按摩</u>。",
+      "example_vi": "Làm việc mệt thì đi <u>xoa bóp</u> một chút.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "按摩.svg",
+      "src": "images/HSK_2.0/level6/按摩.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/按摩.svg"
+      ]
+    },
+    "昂贵": {
+      "hanzi": "昂贵",
+      "pinyin": "ángguì",
+      "meaning": "đắt đỏ",
+      "example_zh": "这块手表价格十分<u>昂贵</u>。",
+      "example_vi": "Chiếc đồng hồ này giá rất <u>đắt đỏ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "昂贵.svg",
+      "src": "images/HSK_2.0/level6/昂贵.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/昂贵.svg"
+      ]
+    },
+    "凹凸": {
+      "hanzi": "凹凸",
+      "pinyin": "āotū",
+      "meaning": "lồi lõm, gập ghềnh",
+      "example_zh": "这条路<u>凹凸</u>不平。",
+      "example_vi": "Con đường này <u>lồi lõm</u> không bằng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "凹凸.svg",
+      "src": "images/HSK_2.0/level6/凹凸.svg",
+      "alt_srcs": []
+    },
+    "熬": {
+      "hanzi": "熬",
+      "pinyin": "áo",
+      "meaning": "hầm, ninh lâu; chịu đựng",
+      "example_zh": "妈妈给我<u>熬</u>了一碗粥。",
+      "example_vi": "Mẹ <u>hầm</u> cho tôi một tô cháo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "熬.svg",
+      "src": "images/HSK_2.0/level6/熬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/熬.svg",
+        "images/HSK_3.0/level8/熬.svg",
+        "images/HSK_3.0/level9/熬.svg"
+      ]
+    },
+    "奥秘": {
+      "hanzi": "奥秘",
+      "pinyin": "àomì",
+      "meaning": "điều bí ẩn, huyền bí",
+      "example_zh": "科学家在探索宇宙的<u>奥秘</u>。",
+      "example_vi": "Các nhà khoa học đang khám phá những <u>điều bí ẩn</u> của vũ trụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "奥秘.svg",
+      "src": "images/HSK_2.0/level6/奥秘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/奥秘.svg",
+        "images/HSK_3.0/level8/奥秘.svg",
+        "images/HSK_3.0/level9/奥秘.svg"
+      ]
+    },
+    "巴不得": {
+      "hanzi": "巴不得",
+      "pinyin": "bābudé",
+      "meaning": "mong mỏi, ước gì",
+      "example_zh": "他<u>巴不得</u>马上放假。",
+      "example_vi": "Anh ấy <u>mong mỏi</u> được nghỉ ngay lập tức.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "巴不得.svg",
+      "src": "images/HSK_2.0/level6/巴不得.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/巴不得.svg",
+        "images/HSK_3.0/level8/巴不得.svg",
+        "images/HSK_3.0/level9/巴不得.svg"
+      ]
+    },
+    "巴结": {
+      "hanzi": "巴结",
+      "pinyin": "bājie",
+      "meaning": "bợ đỡ, lấy lòng",
+      "example_zh": "他总是想办法<u>巴结</u>领导。",
+      "example_vi": "Anh ta luôn tìm cách <u>bợ đỡ</u> cấp trên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "巴结.svg",
+      "src": "images/HSK_2.0/level6/巴结.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/巴结.svg",
+        "images/HSK_3.0/level8/巴结.svg",
+        "images/HSK_3.0/level9/巴结.svg"
+      ]
+    },
+    "拔苗助长": {
+      "hanzi": "拔苗助长",
+      "pinyin": "bá miáo zhù zhǎng",
+      "meaning": "nóng vội làm hỏng việc (nhổ mạ giúp lúa lớn nhanh)",
+      "example_zh": "教育孩子不能<u>拔苗助长</u>。",
+      "example_vi": "Giáo dục trẻ con không thể <u>nóng vội phản tác dụng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "拔苗助长.svg",
+      "src": "images/HSK_2.0/level6/拔苗助长.svg",
+      "alt_srcs": []
     },
     "本人": {
       "hanzi": "本人",

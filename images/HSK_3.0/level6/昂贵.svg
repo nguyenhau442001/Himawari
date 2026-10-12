@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Display Case -->
+  <path d="M60 180 L180 180 L170 120 L70 120 Z" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <path d="M70 120 L170 120 L180 100 L60 100 Z" fill="#475569"/>
+  
+  <!-- The Watch -->
+  <circle cx="120" cy="145" r="18" fill="#f59e0b" stroke="#fbbf24" stroke-width="3"/>
+  <rect x="117" y="132" width="6" height="13" rx="1" fill="#0f172a"/>
+  <rect x="117" y="145" width="13" height="6" rx="1" fill="#0f172a"/>
+  
+  <!-- Character: Customer -->
+  <g transform="translate(40, 60)">
+    <circle cx="40" cy="40" r="15" fill="#cbd5e1"/>
+    <path d="M25 60 Q40 80 55 60" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 40 L35 45 M45 40 L50 45" stroke="#0f172a" stroke-width="2"/>
+    <path d="M35 52 Q40 55 45 52" stroke="#0f172a" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Character: Shop Assistant -->
+  <g transform="translate(130, 60)">
+    <circle cx="40" cy="40" r="15" fill="#94a3b8"/>
+    <path d="M25 60 Q40 80 55 60" fill="none" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 40 L35 45 M45 40 L50 45" stroke="#0f172a" stroke-width="2"/>
+    <path d="M35 52 Q40 55 45 52" stroke="#0f172a" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Price Tag Icon (Floating) -->
+  <g transform="translate(150, 110)">
+    <path d="M0 0 L20 0 L25 10 L20 20 L0 20 Z" fill="#ec4899"/>
+    <circle cx="5" cy="10" r="2" fill="#fff"/>
+  </g>
+  
+  <!-- Decorative Sparkles -->
+  <path d="M140 130 L145 120 L150 130 Z" fill="#fbbf24"/>
+  <path d="M100 130 L105 120 L110 130 Z" fill="#fbbf24"/>
+</svg>

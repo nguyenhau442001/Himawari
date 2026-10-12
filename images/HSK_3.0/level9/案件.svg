@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="140" width="180" height="15" rx="2" fill="#334155"/>
+  <rect x="40" y="155" width="10" height="60" fill="#334155"/>
+  <rect x="190" y="155" width="10" height="60" fill="#334155"/>
+  
+  <!-- Evidence Board / Paper -->
+  <rect x="60" y="60" width="120" height="80" rx="4" fill="#f1f5f9"/>
+  <circle cx="75" cy="75" r="4" fill="#ec4899"/>
+  <rect x="90" y="72" width="60" height="6" rx="2" fill="#cbd5e1"/>
+  <rect x="90" y="85" width="40" height="6" rx="2" fill="#cbd5e1"/>
+  <path d="M70 100 L170 100 M70 115 L170 115" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="160" cy="160" r="20" fill="none" stroke="#fbbf24" stroke-width="4"/>
+  <line x1="175" y1="175" x2="200" y2="200" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Detective Character -->
+  <g transform="translate(40, 100)">
+    <!-- Body -->
+    <path d="M20 120 L60 120 L55 80 L25 80 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="40" cy="65" r="15" fill="#fde68a"/>
+    <!-- Hat -->
+    <path d="M25 55 L55 55 L50 45 L30 45 Z" fill="#1e293b"/>
+    <!-- Eye -->
+    <circle cx="45" cy="63" r="2" fill="#0f172a"/>
+  </g>
+  
+  <!-- Spotlight Glow -->
+  <circle cx="120" cy="120" r="100" fill="url(#glow)" opacity="0.1"/>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>
