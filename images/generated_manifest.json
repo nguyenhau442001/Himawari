@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:47:26.943264",
-  "total_unique_words_with_illustrations": 4425,
-  "total_flat_svg_files": 4425,
+  "generated_at": "2026-10-12T22:48:23.255591",
+  "total_unique_words_with_illustrations": 4430,
+  "total_flat_svg_files": 4430,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1785,
-        "pct": "71.4%"
+        "with_svg": 1790,
+        "pct": "71.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 598,
-        "pct": "33.2%"
+        "with_svg": 599,
+        "pct": "33.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 876,
-        "pct": "15.6%"
+        "with_svg": 880,
+        "pct": "15.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 876,
-        "pct": "15.6%"
+        "with_svg": 880,
+        "pct": "15.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 876,
-        "pct": "15.6%"
+        "with_svg": 880,
+        "pct": "15.7%"
       }
     }
   },
@@ -71793,6 +71793,112 @@
       "file": "曲子.svg",
       "src": "images/HSK_2.0/level6/曲子.svg",
       "alt_srcs": []
+    },
+    "趣味": {
+      "hanzi": "趣味",
+      "pinyin": "qùwèi",
+      "meaning": "thú vị, hứng thú",
+      "example_zh": "这本书写得很有<u>趣味</u>。",
+      "example_vi": "Cuốn sách này được viết rất <u>thú vị</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "趣味.svg",
+      "src": "images/HSK_2.0/level6/趣味.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/趣味.svg"
+      ]
+    },
+    "圈套": {
+      "hanzi": "圈套",
+      "pinyin": "quāntào",
+      "meaning": "cái bẫy, mưu kế",
+      "example_zh": "他不小心掉进了别人的<u>圈套</u>。",
+      "example_vi": "Anh ấy lỡ rơi vào <u>cái bẫy</u> của người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "圈套.svg",
+      "src": "images/HSK_2.0/level6/圈套.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/圈套.svg",
+        "images/HSK_3.0/level8/圈套.svg",
+        "images/HSK_3.0/level9/圈套.svg"
+      ]
+    },
+    "全局": {
+      "hanzi": "全局",
+      "pinyin": "quánjú",
+      "meaning": "toàn cục, cục diện chung",
+      "example_zh": "他考虑问题总是从<u>全局</u>出发。",
+      "example_vi": "Anh ấy suy nghĩ vấn đề luôn xuất phát từ <u>toàn cục</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "全局.svg",
+      "src": "images/HSK_2.0/level6/全局.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/全局.svg",
+        "images/HSK_3.0/level8/全局.svg",
+        "images/HSK_3.0/level9/全局.svg"
+      ]
+    },
+    "全力以赴": {
+      "hanzi": "全力以赴",
+      "pinyin": "quánlìyǐfù",
+      "meaning": "dốc toàn lực",
+      "example_zh": "我们要<u>全力以赴</u>完成任务。",
+      "example_vi": "Chúng ta phải <u>dốc toàn lực</u> hoàn thành nhiệm vụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "全力以赴.svg",
+      "src": "images/HSK_2.0/level6/全力以赴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/全力以赴.svg",
+        "images/HSK_3.0/level8/全力以赴.svg",
+        "images/HSK_3.0/level9/全力以赴.svg"
+      ]
+    },
+    "权衡": {
+      "hanzi": "权衡",
+      "pinyin": "quánhéng",
+      "meaning": "cân nhắc, đắn đo",
+      "example_zh": "他在<u>权衡</u>利弊之后做出了决定。",
+      "example_vi": "Sau khi <u>cân nhắc</u> lợi hại, anh ấy đã đưa ra quyết định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "权衡.svg",
+      "src": "images/HSK_2.0/level6/权衡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/权衡.svg",
+        "images/HSK_3.0/level8/权衡.svg",
+        "images/HSK_3.0/level9/权衡.svg"
+      ]
     },
     "确保": {
       "hanzi": "确保",

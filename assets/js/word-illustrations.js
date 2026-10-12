@@ -19167,6 +19167,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/曲子.svg",
     "caption": "bản nhạc, điệu nhạc"
   },
+  "趣味": {
+    "file": "趣味.svg",
+    "src": "images/HSK_2.0/level6/趣味.svg",
+    "caption": "thú vị, hứng thú"
+  },
+  "圈套": {
+    "file": "圈套.svg",
+    "src": "images/HSK_2.0/level6/圈套.svg",
+    "caption": "cái bẫy, mưu kế"
+  },
+  "全局": {
+    "file": "全局.svg",
+    "src": "images/HSK_2.0/level6/全局.svg",
+    "caption": "toàn cục, cục diện chung"
+  },
+  "全力以赴": {
+    "file": "全力以赴.svg",
+    "src": "images/HSK_2.0/level6/全力以赴.svg",
+    "caption": "dốc toàn lực"
+  },
+  "权衡": {
+    "file": "权衡.svg",
+    "src": "images/HSK_2.0/level6/权衡.svg",
+    "caption": "cân nhắc, đắn đo"
+  },
   "确保": {
     "file": "确保.svg",
     "src": "images/HSK_2.0/level6/确保.svg",
