@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:12:41.592954",
-  "total_unique_words_with_illustrations": 4568,
-  "total_flat_svg_files": 4568,
+  "generated_at": "2026-10-12T23:13:13.373403",
+  "total_unique_words_with_illustrations": 4573,
+  "total_flat_svg_files": 4573,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1928,
-        "pct": "77.1%"
+        "with_svg": 1933,
+        "pct": "77.3%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 640,
-        "pct": "35.6%"
+        "with_svg": 642,
+        "pct": "35.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 970,
-        "pct": "17.3%"
+        "with_svg": 973,
+        "pct": "17.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 970,
-        "pct": "17.3%"
+        "with_svg": 973,
+        "pct": "17.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 970,
-        "pct": "17.3%"
+        "with_svg": 973,
+        "pct": "17.4%"
       }
     }
   },
@@ -75006,6 +75006,108 @@
       "src": "images/HSK_2.0/level6/势力.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/势力.svg"
+      ]
+    },
+    "世代": {
+      "hanzi": "世代",
+      "pinyin": "shìdài",
+      "meaning": "thế hệ, đời đời",
+      "example_zh": "他们家<u>世代</u>都是医生。",
+      "example_vi": "Gia đình họ <u>đời đời</u> đều là bác sĩ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "世代.svg",
+      "src": "images/HSK_2.0/level6/世代.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/世代.svg",
+        "images/HSK_3.0/level8/世代.svg",
+        "images/HSK_3.0/level9/世代.svg"
+      ]
+    },
+    "示范": {
+      "hanzi": "示范",
+      "pinyin": "shìfàn",
+      "meaning": "làm mẫu, mẫu mực",
+      "example_zh": "老师给学生<u>示范</u>了一遍。",
+      "example_vi": "Thầy giáo đã <u>làm mẫu</u> cho học sinh một lần.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "示范.svg",
+      "src": "images/HSK_2.0/level6/示范.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/示范.svg"
+      ]
+    },
+    "示威": {
+      "hanzi": "示威",
+      "pinyin": "shìwēi",
+      "meaning": "biểu tình, thị uy",
+      "example_zh": "市民走上街头<u>示威</u>。",
+      "example_vi": "Người dân xuống đường <u>biểu tình</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "示威.svg",
+      "src": "images/HSK_2.0/level6/示威.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/示威.svg",
+        "images/HSK_3.0/level8/示威.svg",
+        "images/HSK_3.0/level9/示威.svg"
+      ]
+    },
+    "示意": {
+      "hanzi": "示意",
+      "pinyin": "shìyì",
+      "meaning": "ra dấu hiệu, ngụ ý",
+      "example_zh": "他用眼神向我<u>示意</u>。",
+      "example_vi": "Anh ấy <u>ra dấu hiệu</u> với tôi bằng ánh mắt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "示意.svg",
+      "src": "images/HSK_2.0/level6/示意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/示意.svg",
+        "images/HSK_3.0/level8/示意.svg",
+        "images/HSK_3.0/level9/示意.svg"
+      ]
+    },
+    "释放": {
+      "hanzi": "释放",
+      "pinyin": "shìfàng",
+      "meaning": "phóng thích, thả ra",
+      "example_zh": "那名囚犯已被<u>释放</u>。",
+      "example_vi": "Tên tù nhân đó đã được <u>thả ra</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "释放.svg",
+      "src": "images/HSK_2.0/level6/释放.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/释放.svg"
       ]
     },
     "事故": {

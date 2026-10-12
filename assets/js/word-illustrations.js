@@ -19962,6 +19962,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/势力.svg",
     "caption": "thế lực"
   },
+  "世代": {
+    "file": "世代.svg",
+    "src": "images/HSK_2.0/level6/世代.svg",
+    "caption": "thế hệ, đời đời"
+  },
+  "示范": {
+    "file": "示范.svg",
+    "src": "images/HSK_2.0/level6/示范.svg",
+    "caption": "làm mẫu, mẫu mực"
+  },
+  "示威": {
+    "file": "示威.svg",
+    "src": "images/HSK_2.0/level6/示威.svg",
+    "caption": "biểu tình, thị uy"
+  },
+  "示意": {
+    "file": "示意.svg",
+    "src": "images/HSK_2.0/level6/示意.svg",
+    "caption": "ra dấu hiệu, ngụ ý"
+  },
+  "释放": {
+    "file": "释放.svg",
+    "src": "images/HSK_2.0/level6/释放.svg",
+    "caption": "phóng thích, thả ra"
+  },
   "事故": {
     "file": "事故.svg",
     "src": "images/HSK_2.0/level6/事故.svg",

@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle glow/elements -->
+  <circle cx="120" cy="110" r="70" fill="#222733" />
+  
+  <!-- Person A (Sender) - Silhouette -->
+  <path d="M 60 170 C 60 145 75 140 90 140 C 105 140 120 145 120 170 Z" fill="#4A5568"/>
+  <circle cx="90" cy="115" r="18" fill="#4A5568"/>
+
+  <!-- Person B (Receiver) - Silhouette -->
+  <path d="M 120 170 C 120 145 135 140 150 140 C 165 140 180 145 180 170 Z" fill="#2D3748"/>
+  <circle cx="150" cy="115" r="18" fill="#2D3748"/>
+
+  <!-- Eye & Gaze Focus / Cue (Nodding to "用眼神向我示意") -->
+  <!-- Glowing Eye / Signal Origin -->
+  <circle cx="97" cy="112" r="4" fill="#F59E0B"/>
+  
+  <!-- Directed Gaze Waves / Signal Beams -->
+  <path d="M 104 108 Q 120 100 136 108" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M 104 115 Q 120 107 136 115" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Target/Receiver Eye Recognition -->
+  <circle cx="143" cy="112" r="3" fill="#60A5FA"/>
+
+  <!-- Focal Accent Symbol: Glowing Spark / Indicator floating above to represent "Sign / Hint" -->
+  <g transform="translate(120, 60)">
+    <!-- Outer glow diamond -->
+    <path d="M 0 -16 L 5 -5 L 16 0 L 5 5 L 0 16 L -5 5 L -16 0 L -5 -5 Z" fill="#F59E0B" opacity="0.2"/>
+    <!-- Sharp center icon -->
+    <path d="M 0 -11 L 3.5 -3.5 L 11 0 L 3.5 3.5 L 0 11 L -3.5 3.5 L -11 0 L -3.5 -3.5 Z" fill="#F59E0B"/>
+    <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Connection Arc connecting Sender to the Concept -->
+  <path d="M 90 90 Q 105 60 120 60" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+</svg>

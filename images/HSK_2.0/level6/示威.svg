@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle radial glow -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.6"/>
+
+  <!-- Ground Line -->
+  <line x1="50" y1="180" x2="190" y2="180" stroke="#3A4252" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Protest Group / Crowd Illustration (Noun Representation) -->
+  <!-- Person 1 (Left) -->
+  <g transform="translate(75, 120)">
+    <!-- Body -->
+    <path d="M-10 60 L-5 30 L5 30 L10 60 Z" fill="#4F5D75"/>
+    <!-- Head -->
+    <circle cx="0" cy="18" r="8" fill="#E0E6ED"/>
+    <!-- Raised Arm holding banner/sign -->
+    <path d="M-2 32 L-12 10" stroke="#E0E6ED" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 2 (Center - Main Protester with Megaphone & Sign) -->
+  <g transform="translate(120, 105)">
+    <!-- Body -->
+    <path d="M-12 75 L-6 35 L6 35 L12 75 Z" fill="#F15BB5"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="9" fill="#FFF"/>
+    <!-- Raised Arm holding large banner pole -->
+    <path d="M4 35 L14 5" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+    <!-- Megaphone in other hand -->
+    <path d="M-6 40 L-18 35 L-18 45 Z" fill="#FFA500"/>
+    <rect x="-8" y="38" width="4" height="12" fill="#E0E6ED" rx="2"/>
+  </g>
+
+  <!-- Person 3 (Right) -->
+  <g transform="translate(165, 120)">
+    <!-- Body -->
+    <path d="M-10 60 L-5 30 L5 30 L10 60 Z" fill="#00BBF9"/>
+    <!-- Head -->
+    <circle cx="0" cy="18" r="8" fill="#E0E6ED"/>
+    <!-- Raised Arm -->
+    <path d="M2 32 L12 12" stroke="#E0E6ED" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Protest Sign / Banner (The focal point of demonstration) -->
+  <g transform="translate(120, 50)">
+    <!-- Pole -->
+    <line x1="14" y1="-15" x2="14" y2="45" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Banner Board -->
+    <rect x="-35" y="-25" width="55" height="30" rx="4" fill="#FFD166"/>
+    <!-- Abstract Protest Icon on Banner (Raised fist silhouette) -->
+    <path d="M-12 -12 L-12 -16 C-12 -18 -10 -18 -10 -16 L-10 -10 M-8 -12 L-8 -18 C-8 -20 -6 -20 -6 -18 L-6 -8 M-4 -12 L-4 -18 C-4 -20 -2 -20 -2 -18 L-2 -8 M-2 -6 L-12 -6 C-14 -6 -14 -4 -12 -2 L-2 -2 Z" fill="#1A1D24" transform="translate(4, 5) scale(0.9)"/>
+  </g>
+
+  <!-- Accent Visual Effect (Energy lines / Megaphone sound waves) -->
+  <path d="M92 135 C88 138 88 142 92 145" stroke="#FFA500" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M87 131 C81 136 81 144 87 149" stroke="#FFA500" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- High-contrast focal highlight ring -->
+  <circle cx="120" cy="120" r="75" stroke="#FFD166" stroke-width="1.5" stroke-dasharray="6 8" fill="none" opacity="0.4"/>
+</svg>
