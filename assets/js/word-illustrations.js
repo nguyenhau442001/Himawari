@@ -14402,6 +14402,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/锤.svg",
     "caption": "cái búa, đập (búa)"
   },
+  "垂直": {
+    "file": "垂直.svg",
+    "src": "images/HSK_2.0/level6/垂直.svg",
+    "caption": "thẳng đứng, vuông góc"
+  },
+  "纯粹": {
+    "file": "纯粹.svg",
+    "src": "images/HSK_2.0/level6/纯粹.svg",
+    "caption": "hoàn toàn, thuần túy"
+  },
+  "纯洁": {
+    "file": "纯洁.svg",
+    "src": "images/HSK_2.0/level6/纯洁.svg",
+    "caption": "trong sạch, thuần khiết"
+  },
+  "磁带": {
+    "file": "磁带.svg",
+    "src": "images/HSK_2.0/level6/磁带.svg",
+    "caption": "băng từ (cassette)"
+  },
+  "慈祥": {
+    "file": "慈祥.svg",
+    "src": "images/HSK_2.0/level6/慈祥.svg",
+    "caption": "hiền hậu, từ ái"
+  },
+  "刺": {
+    "file": "刺.svg",
+    "src": "images/HSK_2.0/level6/刺.svg",
+    "caption": "đâm, châm; gai"
+  },
+  "伺候": {
+    "file": "伺候.svg",
+    "src": "images/HSK_2.0/level6/伺候.svg",
+    "caption": "hầu hạ, phục vụ"
+  },
+  "次品": {
+    "file": "次品.svg",
+    "src": "images/HSK_2.0/level6/次品.svg",
+    "caption": "hàng kém chất lượng, hàng lỗi"
+  },
+  "次序": {
+    "file": "次序.svg",
+    "src": "images/HSK_2.0/level6/次序.svg",
+    "caption": "trình tự, thứ tự"
+  },
+  "从容不迫": {
+    "file": "从容不迫.svg",
+    "src": "images/HSK_2.0/level6/从容不迫.svg",
+    "caption": "bình tĩnh, thư thái không vội vã"
+  },
   "达成": {
     "file": "达成.svg",
     "src": "images/HSK_2.0/level6/达成.svg",

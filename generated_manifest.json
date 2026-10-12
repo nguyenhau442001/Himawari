@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:40:06.324854",
-  "total_unique_words_with_illustrations": 3519,
-  "total_flat_svg_files": 3519,
+  "generated_at": "2026-10-12T11:41:55.580798",
+  "total_unique_words_with_illustrations": 3529,
+  "total_flat_svg_files": 3529,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 879,
-        "pct": "35.2%"
+        "with_svg": 889,
+        "pct": "35.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 326,
-        "pct": "18.1%"
+        "with_svg": 328,
+        "pct": "18.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 300,
-        "pct": "5.4%"
+        "with_svg": 308,
+        "pct": "5.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 300,
-        "pct": "5.4%"
+        "with_svg": 308,
+        "pct": "5.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 300,
-        "pct": "5.4%"
+        "with_svg": 308,
+        "pct": "5.5%"
       }
     }
   },
@@ -52558,6 +52558,218 @@
         "images/HSK_3.0/level7/锤.svg",
         "images/HSK_3.0/level8/锤.svg",
         "images/HSK_3.0/level9/锤.svg"
+      ]
+    },
+    "垂直": {
+      "hanzi": "垂直",
+      "pinyin": "chuízhí",
+      "meaning": "thẳng đứng, vuông góc",
+      "example_zh": "这两条线是<u>垂直</u>的。",
+      "example_vi": "Hai đường thẳng này <u>vuông góc</u> với nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "垂直.svg",
+      "src": "images/HSK_2.0/level6/垂直.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/垂直.svg"
+      ]
+    },
+    "纯粹": {
+      "hanzi": "纯粹",
+      "pinyin": "chúncuì",
+      "meaning": "hoàn toàn, thuần túy",
+      "example_zh": "这<u>纯粹</u>是误会。",
+      "example_vi": "Đây <u>hoàn toàn</u> là sự hiểu lầm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "纯粹.svg",
+      "src": "images/HSK_2.0/level6/纯粹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/纯粹.svg",
+        "images/HSK_3.0/level8/纯粹.svg",
+        "images/HSK_3.0/level9/纯粹.svg"
+      ]
+    },
+    "纯洁": {
+      "hanzi": "纯洁",
+      "pinyin": "chúnjié",
+      "meaning": "trong sạch, thuần khiết",
+      "example_zh": "孩子的心是<u>纯洁</u>的。",
+      "example_vi": "Tâm hồn trẻ con rất <u>trong sạch</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "纯洁.svg",
+      "src": "images/HSK_2.0/level6/纯洁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/纯洁.svg",
+        "images/HSK_3.0/level8/纯洁.svg",
+        "images/HSK_3.0/level9/纯洁.svg"
+      ]
+    },
+    "磁带": {
+      "hanzi": "磁带",
+      "pinyin": "cídài",
+      "meaning": "băng từ (cassette)",
+      "example_zh": "这是一盘老<u>磁带</u>。",
+      "example_vi": "Đây là một cuộn <u>băng từ</u> cũ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "磁带.svg",
+      "src": "images/HSK_2.0/level6/磁带.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/磁带.svg",
+        "images/HSK_3.0/level8/磁带.svg",
+        "images/HSK_3.0/level9/磁带.svg"
+      ]
+    },
+    "慈祥": {
+      "hanzi": "慈祥",
+      "pinyin": "cíxiáng",
+      "meaning": "hiền hậu, từ ái",
+      "example_zh": "奶奶的笑容很<u>慈祥</u>。",
+      "example_vi": "Nụ cười của bà rất <u>hiền hậu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "慈祥.svg",
+      "src": "images/HSK_2.0/level6/慈祥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/慈祥.svg",
+        "images/HSK_3.0/level8/慈祥.svg",
+        "images/HSK_3.0/level9/慈祥.svg"
+      ]
+    },
+    "刺": {
+      "hanzi": "刺",
+      "pinyin": "cì",
+      "meaning": "đâm, châm; gai",
+      "example_zh": "他被玫瑰的<u>刺</u>扎了一下。",
+      "example_vi": "Anh ấy bị <u>gai</u> hoa hồng đâm vào.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "刺.svg",
+      "src": "images/HSK_2.0/level6/刺.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/刺.svg"
+      ]
+    },
+    "伺候": {
+      "hanzi": "伺候",
+      "pinyin": "cìhòu",
+      "meaning": "hầu hạ, phục vụ",
+      "example_zh": "她在医院<u>伺候</u>病人。",
+      "example_vi": "Cô ấy <u>hầu hạ</u> người bệnh trong bệnh viện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "伺候.svg",
+      "src": "images/HSK_2.0/level6/伺候.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/伺候.svg",
+        "images/HSK_3.0/level8/伺候.svg",
+        "images/HSK_3.0/level9/伺候.svg"
+      ]
+    },
+    "次品": {
+      "hanzi": "次品",
+      "pinyin": "cìpǐn",
+      "meaning": "hàng kém chất lượng, hàng lỗi",
+      "example_zh": "这批货里有不少<u>次品</u>。",
+      "example_vi": "Trong lô hàng này có không ít <u>hàng lỗi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "次品.svg",
+      "src": "images/HSK_2.0/level6/次品.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/次品.svg",
+        "images/HSK_3.0/level8/次品.svg",
+        "images/HSK_3.0/level9/次品.svg"
+      ]
+    },
+    "次序": {
+      "hanzi": "次序",
+      "pinyin": "cìxù",
+      "meaning": "trình tự, thứ tự",
+      "example_zh": "请按<u>次序</u>排队。",
+      "example_vi": "Xin xếp hàng theo <u>thứ tự</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "次序.svg",
+      "src": "images/HSK_2.0/level6/次序.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/次序.svg",
+        "images/HSK_3.0/level8/次序.svg",
+        "images/HSK_3.0/level9/次序.svg"
+      ]
+    },
+    "从容不迫": {
+      "hanzi": "从容不迫",
+      "pinyin": "cóng róng bù pò",
+      "meaning": "bình tĩnh, thư thái không vội vã",
+      "example_zh": "他面对困难<u>从容不迫</u>。",
+      "example_vi": "Anh ấy đối mặt với khó khăn một cách <u>bình tĩnh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "从容不迫.svg",
+      "src": "images/HSK_2.0/level6/从容不迫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/从容不迫.svg",
+        "images/HSK_3.0/level8/从容不迫.svg",
+        "images/HSK_3.0/level9/从容不迫.svg"
       ]
     },
     "达成": {
