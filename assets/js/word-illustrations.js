@@ -17187,6 +17187,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/克制.svg",
     "caption": "kiềm chế, khắc chế"
   },
+  "空白": {
+    "file": "空白.svg",
+    "src": "images/HSK_2.0/level6/空白.svg",
+    "caption": "khoảng trống"
+  },
+  "恐怖": {
+    "file": "恐怖.svg",
+    "src": "images/HSK_2.0/level6/恐怖.svg",
+    "caption": "khủng bố, đáng sợ"
+  },
+  "恐吓": {
+    "file": "恐吓.svg",
+    "src": "images/HSK_2.0/level6/恐吓.svg",
+    "caption": "đe dọa, hăm dọa"
+  },
+  "口气": {
+    "file": "口气.svg",
+    "src": "images/HSK_2.0/level6/口气.svg",
+    "caption": "giọng điệu, khẩu khí"
+  },
+  "口腔": {
+    "file": "口腔.svg",
+    "src": "images/HSK_2.0/level6/口腔.svg",
+    "caption": "khoang miệng"
+  },
+  "口头": {
+    "file": "口头.svg",
+    "src": "images/HSK_2.0/level6/口头.svg",
+    "caption": "bằng miệng, miệng"
+  },
+  "枯萎": {
+    "file": "枯萎.svg",
+    "src": "images/HSK_2.0/level6/枯萎.svg",
+    "caption": "khô héo"
+  },
+  "夸夸其谈": {
+    "file": "夸夸其谈.svg",
+    "src": "images/HSK_2.0/level6/夸夸其谈.svg",
+    "caption": "nói khoác, ba hoa"
+  },
+  "跨": {
+    "file": "跨.svg",
+    "src": "images/HSK_2.0/level6/跨.svg",
+    "caption": "vượt qua, bước qua"
+  },
+  "宽敞": {
+    "file": "宽敞.svg",
+    "src": "images/HSK_2.0/level6/宽敞.svg",
+    "caption": "rộng rãi"
+  },
   "亏": {
     "file": "亏.svg",
     "src": "images/HSK_2.0/level6/亏.svg",

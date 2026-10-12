@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:11:08.378051",
-  "total_unique_words_with_illustrations": 4045,
-  "total_flat_svg_files": 4045,
+  "generated_at": "2026-10-12T20:12:10.116697",
+  "total_unique_words_with_illustrations": 4055,
+  "total_flat_svg_files": 4055,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1405,
-        "pct": "56.2%"
+        "with_svg": 1415,
+        "pct": "56.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 501,
-        "pct": "27.8%"
+        "with_svg": 503,
+        "pct": "27.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 609,
-        "pct": "10.9%"
+        "with_svg": 617,
+        "pct": "11.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 609,
-        "pct": "10.9%"
+        "with_svg": 617,
+        "pct": "11.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 609,
-        "pct": "10.9%"
+        "with_svg": 617,
+        "pct": "11.0%"
       }
     }
   },
@@ -63668,6 +63668,218 @@
         "images/HSK_3.0/level7/克制.svg",
         "images/HSK_3.0/level8/克制.svg",
         "images/HSK_3.0/level9/克制.svg"
+      ]
+    },
+    "空白": {
+      "hanzi": "空白",
+      "pinyin": "kòngbái",
+      "meaning": "khoảng trống",
+      "example_zh": "请填写表格上的<u>空白</u>处。",
+      "example_vi": "Xin hãy điền vào các <u>khoảng trống</u> trên biểu mẫu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "空白.svg",
+      "src": "images/HSK_2.0/level6/空白.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/空白.svg",
+        "images/HSK_3.0/level8/空白.svg",
+        "images/HSK_3.0/level9/空白.svg"
+      ]
+    },
+    "恐怖": {
+      "hanzi": "恐怖",
+      "pinyin": "kǒngbù",
+      "meaning": "khủng bố, đáng sợ",
+      "example_zh": "这是一部<u>恐怖</u>电影。",
+      "example_vi": "Đây là một bộ phim <u>kinh dị</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "恐怖.svg",
+      "src": "images/HSK_2.0/level6/恐怖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/恐怖.svg",
+        "images/HSK_3.0/level8/恐怖.svg",
+        "images/HSK_3.0/level9/恐怖.svg"
+      ]
+    },
+    "恐吓": {
+      "hanzi": "恐吓",
+      "pinyin": "kǒnghè",
+      "meaning": "đe dọa, hăm dọa",
+      "example_zh": "他收到了<u>恐吓</u>信。",
+      "example_vi": "Anh ấy nhận được thư <u>đe dọa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "恐吓.svg",
+      "src": "images/HSK_2.0/level6/恐吓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/恐吓.svg",
+        "images/HSK_3.0/level8/恐吓.svg",
+        "images/HSK_3.0/level9/恐吓.svg"
+      ]
+    },
+    "口气": {
+      "hanzi": "口气",
+      "pinyin": "kǒuqì",
+      "meaning": "giọng điệu, khẩu khí",
+      "example_zh": "他说话的<u>口气</u>很严肃。",
+      "example_vi": "<u>Giọng điệu</u> nói chuyện của anh ấy rất nghiêm túc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "口气.svg",
+      "src": "images/HSK_2.0/level6/口气.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/口气.svg",
+        "images/HSK_3.0/level8/口气.svg",
+        "images/HSK_3.0/level9/口气.svg"
+      ]
+    },
+    "口腔": {
+      "hanzi": "口腔",
+      "pinyin": "kǒuqiāng",
+      "meaning": "khoang miệng",
+      "example_zh": "要注意<u>口腔</u>卫生。",
+      "example_vi": "Phải chú ý vệ sinh <u>khoang miệng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "口腔.svg",
+      "src": "images/HSK_2.0/level6/口腔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/口腔.svg"
+      ]
+    },
+    "口头": {
+      "hanzi": "口头",
+      "pinyin": "kǒutóu",
+      "meaning": "bằng miệng, miệng",
+      "example_zh": "这只是<u>口头</u>约定。",
+      "example_vi": "Đây chỉ là thỏa thuận <u>bằng miệng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "口头.svg",
+      "src": "images/HSK_2.0/level6/口头.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/口头.svg"
+      ]
+    },
+    "枯萎": {
+      "hanzi": "枯萎",
+      "pinyin": "kūwěi",
+      "meaning": "khô héo",
+      "example_zh": "没浇水，花都<u>枯萎</u>了。",
+      "example_vi": "Không tưới nước, hoa đều <u>khô héo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "枯萎.svg",
+      "src": "images/HSK_2.0/level6/枯萎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/枯萎.svg",
+        "images/HSK_3.0/level8/枯萎.svg",
+        "images/HSK_3.0/level9/枯萎.svg"
+      ]
+    },
+    "夸夸其谈": {
+      "hanzi": "夸夸其谈",
+      "pinyin": "kuā kuā qí tán",
+      "meaning": "nói khoác, ba hoa",
+      "example_zh": "他总是<u>夸夸其谈</u>。",
+      "example_vi": "Anh ấy luôn <u>ba hoa khoác lác</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "夸夸其谈.svg",
+      "src": "images/HSK_2.0/level6/夸夸其谈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/夸夸其谈.svg",
+        "images/HSK_3.0/level8/夸夸其谈.svg",
+        "images/HSK_3.0/level9/夸夸其谈.svg"
+      ]
+    },
+    "跨": {
+      "hanzi": "跨",
+      "pinyin": "kuà",
+      "meaning": "vượt qua, bước qua",
+      "example_zh": "他<u>跨</u>过了那条河。",
+      "example_vi": "Anh ấy <u>vượt qua</u> con sông đó.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "跨.svg",
+      "src": "images/HSK_2.0/level6/跨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/跨.svg",
+        "images/HSK_3.0/level8/跨.svg",
+        "images/HSK_3.0/level9/跨.svg"
+      ]
+    },
+    "宽敞": {
+      "hanzi": "宽敞",
+      "pinyin": "kuānchǎng",
+      "meaning": "rộng rãi",
+      "example_zh": "这个房间很<u>宽敞</u>。",
+      "example_vi": "Căn phòng này rất <u>rộng rãi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "宽敞.svg",
+      "src": "images/HSK_2.0/level6/宽敞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/宽敞.svg",
+        "images/HSK_3.0/level8/宽敞.svg",
+        "images/HSK_3.0/level9/宽敞.svg"
       ]
     },
     "亏": {

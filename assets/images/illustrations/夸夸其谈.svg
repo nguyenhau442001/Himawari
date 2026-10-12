@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Office Desk -->
+  <rect x="40" y="140" width="160" height="15" rx="2" fill="#334155"/>
+  <rect x="50" y="155" width="10" height="60" fill="#475569"/>
+  <rect x="180" y="155" width="10" height="60" fill="#475569"/>
+  
+  <!-- Subject: The Boaster -->
+  <g transform="translate(120, 100)">
+    <!-- Body -->
+    <path d="M-30 80 Q-30 40 0 40 T30 80 L20 120 L-20 120 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="25" fill="#fde68a"/>
+    <!-- Expressive Mouth (Talking) -->
+    <path d="M-10 30 Q0 40 10 30" stroke="#92400e" stroke-width="3" fill="none"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="15" r="3" fill="#0f172a"/>
+    <circle cx="8" cy="15" r="3" fill="#0f172a"/>
+    <!-- Hand Gesture -->
+    <path d="M25 50 L50 30" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="55" cy="25" r="8" fill="#fde68a"/>
+  </g>
+  
+  <!-- Audience: Bored Colleague -->
+  <g transform="translate(40, 130)">
+    <circle cx="0" cy="0" r="15" fill="#94a3b8"/>
+    <rect x="-15" y="15" width="30" height="40" rx="5" fill="#64748b"/>
+    <!-- Slumped posture -->
+    <path d="M-5 -5 L5 -5" stroke="#0f172a" stroke-width="2"/>
+  </g>
+  
+  <!-- Speech Bubbles (Abstract shapes representing empty talk) -->
+  <path d="M140 60 L170 40 L160 80 Z" fill="#fb923c" opacity="0.6"/>
+  <circle cx="180" cy="30" r="8" fill="#ec4899" opacity="0.6"/>
+  <path d="M150 20 L165 10 L160 30 Z" fill="#10b981" opacity="0.6"/>
+  
+  <!-- Coffee Cup -->
+  <rect x="160" y="125" width="20" height="25" rx="3" fill="#fbbf24"/>
+  <path d="M180 130 Q190 130 190 140" stroke="#fbbf24" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Desk -->
+    <rect x="0" y="120" width="200" height="15" rx="4" fill="#334155"/>
+    <rect x="20" y="135" width="10" height="40" fill="#475569"/>
+    <rect x="170" y="135" width="10" height="40" fill="#475569"/>
+    
+    <!-- Character 1 (Left) -->
+    <circle cx="50" cy="80" r="25" fill="#fb923c"/>
+    <path d="M35 95 Q50 110 65 95" stroke="#fff" stroke-width="3" fill="none"/>
+    <circle cx="42" cy="75" r="3" fill="#0f172a"/>
+    <circle cx="58" cy="75" r="3" fill="#0f172a"/>
+    
+    <!-- Character 2 (Right) -->
+    <circle cx="150" cy="80" r="25" fill="#38bdf8"/>
+    <path d="M135 95 Q150 110 165 95" stroke="#fff" stroke-width="3" fill="none"/>
+    <circle cx="142" cy="75" r="3" fill="#0f172a"/>
+    <circle cx="158" cy="75" r="3" fill="#0f172a"/>
+    
+    <!-- Speech Bubbles (Visualizing the 'Oral' aspect) -->
+    <path d="M75 60 Q90 40 110 50 T130 60" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="135" cy="60" r="6" fill="#f59e0b"/>
+    
+    <!-- Props: No paper, just hands gesturing -->
+    <path d="M60 100 L75 120" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M140 100 L125 120" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Ambient light/glow -->
+    <circle cx="100" cy="60" r="40" fill="#f59e0b" opacity="0.05"/>
+  </g>
+</svg>

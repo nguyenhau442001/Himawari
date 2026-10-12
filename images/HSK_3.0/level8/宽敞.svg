@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Room Structure -->
+  <rect x="20" y="40" width="200" height="160" rx="8" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <rect x="20" y="40" width="200" height="30" fill="#1e293b" opacity="0.5"/>
+  
+  <!-- Large Window -->
+  <rect x="40" y="60" width="160" height="80" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <line x1="120" y1="60" x2="120" y2="140" stroke="#38bdf8" stroke-width="2"/>
+  
+  <!-- Floor -->
+  <path d="M20 200 L220 200 L240 240 L0 240 Z" fill="#1e293b"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 150)">
+    <circle cx="0" cy="-30" r="12" fill="#fbbf24"/>
+    <path d="M-15 -15 L15 -15 L10 20 L-10 20 Z" fill="#ec4899"/>
+    <path d="M-10 20 L-12 45 M10 20 L12 45" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-5 20 L-5 45 M5 20 L5 45" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-20 -5 L-35 10 M20 -5 L35 10" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Furniture (Minimalist to emphasize spaciousness) -->
+  <rect x="30" y="170" width="40" height="20" rx="2" fill="#fb923c"/>
+  <rect x="170" y="175" width="30" height="15" rx="2" fill="#10b981"/>
+  
+  <!-- Light Rays -->
+  <path d="M40 60 L80 140 M160 60 L120 140" stroke="#fbbf24" stroke-width="1" opacity="0.3"/>
+</svg>
