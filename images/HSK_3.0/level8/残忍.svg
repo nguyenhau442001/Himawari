@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Environment: A street scene with a stray cat -->
+  <path d="M0 180h240v60H0z" fill="#334155"/>
+  <path d="M20 180l40-40h140l40 40" fill="#475569"/>
+  
+  <!-- The "Cruel" Act: A person walking away, ignoring a shivering kitten in the rain -->
+  <!-- Raindrops -->
+  <path d="M50 20l2 10 M80 10l2 10 M120 30l2 10 M160 20l2 10" stroke="#38bdf8" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- The Kitten -->
+  <g transform="translate(60, 160)">
+    <circle cx="10" cy="10" r="8" fill="#94a3b8"/>
+    <path d="M4 6l-4-6 M16 6l4-6" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="7" cy="8" r="1" fill="#0f172a"/>
+    <circle cx="13" cy="8" r="1" fill="#0f172a"/>
+  </g>
+  
+  <!-- The Person walking away (The "Cruel" subject) -->
+  <g transform="translate(140, 100)">
+    <rect x="0" y="0" width="20" height="80" rx="4" fill="#fb923c"/>
+    <circle cx="10" cy="-10" r="12" fill="#fb923c"/>
+    <!-- Back turned away -->
+    <path d="M10 20l-10 30 M10 20l10 30" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 80l-10 20 M20 80l10 20" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Expression of shock/disapproval from an observer -->
+  <g transform="translate(180, 140)">
+    <circle cx="0" cy="0" r="15" fill="#f59e0b"/>
+    <path d="M-5 -5h2 M5 -5h2 M-5 5q5 5 10 0" stroke="#0f172a" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Street lamp glow -->
+  <circle cx="210" cy="60" r="40" fill="#f59e0b" opacity="0.1"/>
+  <rect x="208" y="60" width="4" height="120" fill="#475569"/>
+</svg>

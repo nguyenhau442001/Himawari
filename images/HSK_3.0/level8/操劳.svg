@@ -1,0 +1,51 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="180" width="240" height="60" fill="#0f172a" opacity="0.5"/>
+  
+  <!-- Table -->
+  <path d="M40 190 L200 190 L190 220 L50 220 Z" fill="#475569"/>
+  <rect x="50" y="220" width="10" height="20" fill="#334155"/>
+  <rect x="180" y="220" width="10" height="20" fill="#334155"/>
+  
+  <!-- Mother Character -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-30 80 Q-30 40 0 40 Q30 40 30 80 L30 100 L-30 100 Z" fill="#64748b"/>
+    <!-- Arms -->
+    <path d="M-35 60 L-50 90" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M35 60 L50 85" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="30" r="25" fill="#fde68a"/>
+    <!-- Hair (Graying) -->
+    <path d="M-25 30 Q-25 5 0 5 Q25 5 25 30" fill="#94a3b8"/>
+    <!-- Face -->
+    <circle cx="-8" cy="25" r="2" fill="#1e293b"/>
+    <circle cx="8" cy="25" r="2" fill="#1e293b"/>
+    <path d="M-5 35 Q0 38 5 35" stroke="#1e293b" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Props: Basket of laundry/mending -->
+  <path d="M60 190 L100 190 L95 210 L65 210 Z" fill="#fbbf24"/>
+  <path d="M70 185 Q80 175 90 185" stroke="#fbbf24" stroke-width="3" fill="none"/>
+  
+  <!-- Props: Clock on wall -->
+  <circle cx="180" cy="50" r="20" fill="#334155"/>
+  <circle cx="180" cy="50" r="17" fill="#1e293b"/>
+  <line x1="180" y1="50" x2="180" y2="35" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  <line x1="180" y1="50" x2="192" y2="50" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Ambient light/glow -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#fb923c" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Mending/Work items -->
+  <rect x="140" y="185" width="30" height="5" fill="#ec4899" rx="2"/>
+  <path d="M155 185 L155 170" stroke="#ec4899" stroke-width="2"/>
+</svg>

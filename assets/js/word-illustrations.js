@@ -13732,6 +13732,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/残疾.svg",
     "caption": "tàn tật, khuyết tật"
   },
+  "残酷": {
+    "file": "残酷.svg",
+    "src": "images/HSK_2.0/level6/残酷.svg",
+    "caption": "tàn khốc, khốc liệt"
+  },
+  "残留": {
+    "file": "残留.svg",
+    "src": "images/HSK_2.0/level6/残留.svg",
+    "caption": "sót lại, tồn dư"
+  },
+  "残忍": {
+    "file": "残忍.svg",
+    "src": "images/HSK_2.0/level6/残忍.svg",
+    "caption": "tàn nhẫn"
+  },
+  "灿烂": {
+    "file": "灿烂.svg",
+    "src": "images/HSK_2.0/level6/灿烂.svg",
+    "caption": "rực rỡ, sáng chói"
+  },
+  "舱": {
+    "file": "舱.svg",
+    "src": "images/HSK_2.0/level6/舱.svg",
+    "caption": "ca-bin, khoang (tàu, máy bay)"
+  },
+  "仓促": {
+    "file": "仓促.svg",
+    "src": "images/HSK_2.0/level6/仓促.svg",
+    "caption": "vội vàng, gấp gáp"
+  },
+  "仓库": {
+    "file": "仓库.svg",
+    "src": "images/HSK_2.0/level6/仓库.svg",
+    "caption": "nhà kho"
+  },
+  "操劳": {
+    "file": "操劳.svg",
+    "src": "images/HSK_2.0/level6/操劳.svg",
+    "caption": "vất vả lo toan"
+  },
+  "操练": {
+    "file": "操练.svg",
+    "src": "images/HSK_2.0/level6/操练.svg",
+    "caption": "luyện tập, huấn luyện"
+  },
+  "操纵": {
+    "file": "操纵.svg",
+    "src": "images/HSK_2.0/level6/操纵.svg",
+    "caption": "điều khiển, giật dây"
+  },
   "操作": {
     "file": "操作.svg",
     "src": "images/HSK_2.0/level6/操作.svg",

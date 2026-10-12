@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:07:47.030675",
-  "total_unique_words_with_illustrations": 3399,
-  "total_flat_svg_files": 3399,
+  "generated_at": "2026-10-12T11:10:50.552638",
+  "total_unique_words_with_illustrations": 3409,
+  "total_flat_svg_files": 3409,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 759,
-        "pct": "30.4%"
+        "with_svg": 769,
+        "pct": "30.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 288,
-        "pct": "16.0%"
+        "with_svg": 289,
+        "pct": "16.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 225,
-        "pct": "4.0%"
+        "with_svg": 234,
+        "pct": "4.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 225,
-        "pct": "4.0%"
+        "with_svg": 234,
+        "pct": "4.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 225,
-        "pct": "4.0%"
+        "with_svg": 234,
+        "pct": "4.2%"
       }
     }
   },
@@ -49874,6 +49874,222 @@
       "src": "images/HSK_2.0/level6/残疾.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/残疾.svg"
+      ]
+    },
+    "残酷": {
+      "hanzi": "残酷",
+      "pinyin": "cánkù",
+      "meaning": "tàn khốc, khốc liệt",
+      "example_zh": "战争是<u>残酷</u>的。",
+      "example_vi": "Chiến tranh rất <u>tàn khốc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "残酷.svg",
+      "src": "images/HSK_2.0/level6/残酷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/残酷.svg",
+        "images/HSK_3.0/level8/残酷.svg",
+        "images/HSK_3.0/level9/残酷.svg"
+      ]
+    },
+    "残留": {
+      "hanzi": "残留",
+      "pinyin": "cánliú",
+      "meaning": "sót lại, tồn dư",
+      "example_zh": "食物上有农药<u>残留</u>。",
+      "example_vi": "Trên thực phẩm có dư lượng thuốc trừ sâu <u>tồn dư</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "残留.svg",
+      "src": "images/HSK_2.0/level6/残留.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/残留.svg",
+        "images/HSK_3.0/level8/残留.svg",
+        "images/HSK_3.0/level9/残留.svg"
+      ]
+    },
+    "残忍": {
+      "hanzi": "残忍",
+      "pinyin": "cánrěn",
+      "meaning": "tàn nhẫn",
+      "example_zh": "这种行为太<u>残忍</u>了。",
+      "example_vi": "Hành vi này quá <u>tàn nhẫn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "残忍.svg",
+      "src": "images/HSK_2.0/level6/残忍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/残忍.svg",
+        "images/HSK_3.0/level8/残忍.svg",
+        "images/HSK_3.0/level9/残忍.svg"
+      ]
+    },
+    "灿烂": {
+      "hanzi": "灿烂",
+      "pinyin": "cànlàn",
+      "meaning": "rực rỡ, sáng chói",
+      "example_zh": "今天阳光<u>灿烂</u>。",
+      "example_vi": "Hôm nay nắng <u>rực rỡ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "灿烂.svg",
+      "src": "images/HSK_2.0/level6/灿烂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/灿烂.svg",
+        "images/HSK_3.0/level8/灿烂.svg",
+        "images/HSK_3.0/level9/灿烂.svg"
+      ]
+    },
+    "舱": {
+      "hanzi": "舱",
+      "pinyin": "cāng",
+      "meaning": "ca-bin, khoang (tàu, máy bay)",
+      "example_zh": "飞机的<u>舱</u>内很安静。",
+      "example_vi": "Bên trong <u>khoang</u> máy bay rất yên tĩnh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "舱.svg",
+      "src": "images/HSK_2.0/level6/舱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/舱.svg",
+        "images/HSK_3.0/level8/舱.svg",
+        "images/HSK_3.0/level9/舱.svg"
+      ]
+    },
+    "仓促": {
+      "hanzi": "仓促",
+      "pinyin": "cāngcù",
+      "meaning": "vội vàng, gấp gáp",
+      "example_zh": "这次决定太<u>仓促</u>了。",
+      "example_vi": "Quyết định lần này quá <u>vội vàng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "仓促.svg",
+      "src": "images/HSK_2.0/level6/仓促.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/仓促.svg",
+        "images/HSK_3.0/level8/仓促.svg",
+        "images/HSK_3.0/level9/仓促.svg"
+      ]
+    },
+    "仓库": {
+      "hanzi": "仓库",
+      "pinyin": "cāngkù",
+      "meaning": "nhà kho",
+      "example_zh": "货物都存放在<u>仓库</u>里。",
+      "example_vi": "Hàng hóa đều được lưu trữ trong <u>nhà kho</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "仓库.svg",
+      "src": "images/HSK_2.0/level6/仓库.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/仓库.svg"
+      ]
+    },
+    "操劳": {
+      "hanzi": "操劳",
+      "pinyin": "cāoláo",
+      "meaning": "vất vả lo toan",
+      "example_zh": "母亲为家庭<u>操劳</u>了一生。",
+      "example_vi": "Mẹ <u>vất vả lo toan</u> cho gia đình cả đời.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "操劳.svg",
+      "src": "images/HSK_2.0/level6/操劳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/操劳.svg",
+        "images/HSK_3.0/level8/操劳.svg",
+        "images/HSK_3.0/level9/操劳.svg"
+      ]
+    },
+    "操练": {
+      "hanzi": "操练",
+      "pinyin": "cāoliàn",
+      "meaning": "luyện tập, huấn luyện",
+      "example_zh": "士兵每天<u>操练</u>。",
+      "example_vi": "Người lính <u>luyện tập</u> hàng ngày.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "操练.svg",
+      "src": "images/HSK_2.0/level6/操练.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/操练.svg",
+        "images/HSK_3.0/level8/操练.svg",
+        "images/HSK_3.0/level9/操练.svg"
+      ]
+    },
+    "操纵": {
+      "hanzi": "操纵",
+      "pinyin": "cāozòng",
+      "meaning": "điều khiển, giật dây",
+      "example_zh": "他在背后<u>操纵</u>一切。",
+      "example_vi": "Anh ta <u>điều khiển</u> mọi thứ từ sau lưng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "操纵.svg",
+      "src": "images/HSK_2.0/level6/操纵.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/操纵.svg",
+        "images/HSK_3.0/level8/操纵.svg",
+        "images/HSK_3.0/level9/操纵.svg"
       ]
     },
     "操作": {

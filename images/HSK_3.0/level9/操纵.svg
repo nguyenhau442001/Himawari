@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Shadowy Figure in Background -->
+  <g transform="translate(120, 80)">
+    <circle cx="0" cy="0" r="25" fill="#334155"/>
+    <path d="M-15 25 L-25 80 L25 80 L15 25 Z" fill="#334155"/>
+    <circle cx="-8" cy="-5" r="4" fill="#fb923c"/>
+    <circle cx="8" cy="-5" r="4" fill="#fb923c"/>
+  </g>
+
+  <!-- Puppet Strings -->
+  <path d="M105 105 L60 160" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 2"/>
+  <path d="M135 105 L180 160" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 2"/>
+
+  <!-- Foreground Puppet/Business Person -->
+  <g transform="translate(60, 160)">
+    <rect x="-10" y="0" width="20" height="40" rx="4" fill="#38bdf8"/>
+    <circle cx="0" cy="-10" r="12" fill="#cbd5e1"/>
+    <rect x="-15" y="5" width="30" height="6" rx="2" fill="#38bdf8"/>
+  </g>
+
+  <!-- Second Foreground Puppet/Business Person -->
+  <g transform="translate(180, 160)">
+    <rect x="-10" y="0" width="20" height="40" rx="4" fill="#ec4899"/>
+    <circle cx="0" cy="-10" r="12" fill="#cbd5e1"/>
+    <rect x="-15" y="5" width="30" height="6" rx="2" fill="#ec4899"/>
+  </g>
+
+  <!-- Desk/Environment -->
+  <rect x="20" y="200" width="200" height="20" rx="4" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="40" y="200" width="160" height="40" fill="#0f172a"/>
+  
+  <!-- Decorative light accents -->
+  <circle cx="30" cy="30" r="2" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="210" cy="50" r="3" fill="#fbbf24" opacity="0.3"/>
+</svg>
