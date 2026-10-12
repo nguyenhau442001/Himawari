@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Doorway/Entryway Frame -->
+  <path d="M40 40h160v160H40z" fill="#1e293b" stroke="#334155" stroke-width="4"/>
+  
+  <!-- Character: The man returning home -->
+  <g transform="translate(60, 80)">
+    <!-- Body -->
+    <path d="M30 140h40v-60h-40z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="50" cy="60" r="20" fill="#fde68a"/>
+    <!-- Arms holding bags -->
+    <path d="M20 90l-15 20M80 90l15 20" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The "Specialties" (Bags/Baskets) -->
+  <g transform="translate(40, 160)">
+    <rect x="0" y="0" width="40" height="40" rx="4" fill="#fb923c"/>
+    <path d="M10 10h20v5h-20zM10 20h20v5h-20z" fill="#9a3412"/>
+  </g>
+  <g transform="translate(160, 160)">
+    <rect x="-40" y="0" width="40" height="40" rx="4" fill="#fbbf24"/>
+    <circle cx="-20" cy="20" r="10" fill="#10b981"/>
+  </g>
+  
+  <!-- Interior Details (Home context) -->
+  <path d="M180 100l20-20M180 120l20-20" stroke="#475569" stroke-width="2"/>
+  <rect x="180" y="140" width="30" height="60" fill="#334155"/>
+  
+  <!-- Ambient light -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#fb923c" stroke-opacity="0.05" stroke-width="40"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Window Frame -->
+  <rect x="40" y="30" width="160" height="120" rx="8" fill="#334155" stroke="#475569" stroke-width="4"/>
+  
+  <!-- Distant Landscape (Memory) -->
+  <path d="M42 148 C 70 120, 100 130, 120 120 C 140 110, 170 125, 198 148 Z" fill="#1e3a8a"/>
+  <circle cx="160" cy="70" r="20" fill="#fbbf24"/>
+  <path d="M60 148 L80 110 L100 148 Z" fill="#334155"/>
+  <path d="M140 148 L160 100 L180 148 Z" fill="#334155"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 180)">
+    <!-- Body -->
+    <path d="M-40 60 C-40 20, -20 0, 0 0 C20 0, 40 20, 40 60" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="25" fill="#fde68a"/>
+    <!-- Expression (Nostalgic) -->
+    <path d="M-10 -25 L-5 -20 M5 -25 L10 -20" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-8 -10 Q0 -5 8 -10" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Hand pointing/gesturing -->
+    <path d="M40 20 L60 10" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Floating Memory Particles -->
+  <circle cx="180" cy="50" r="3" fill="#fb923c" opacity="0.6"/>
+  <circle cx="190" cy="80" r="2" fill="#fb923c" opacity="0.4"/>
+  <circle cx="170" cy="90" r="4" fill="#fb923c" opacity="0.8"/>
+  
+  <!-- Table/Surface -->
+  <rect x="0" y="210" width="240" height="30" fill="#0f172a"/>
+  <rect x="0" y="205" width="240" height="5" fill="#334155"/>
+</svg>

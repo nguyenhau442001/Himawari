@@ -15301,6 +15301,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "台灯.svg",
     "src": "images/HSK_3.0/level5/台灯.svg",
     "caption": "đèn bàn"
+  },
+  "谈话": {
+    "file": "谈话.svg",
+    "src": "images/HSK_3.0/level5/谈话.svg",
+    "caption": "nói chuyện, trò chuyện, đàm đạo"
+  },
+  "特产": {
+    "file": "特产.svg",
+    "src": "images/HSK_3.0/level5/特产.svg",
+    "caption": "đặc sản"
+  },
+  "特有": {
+    "file": "特有.svg",
+    "src": "images/HSK_3.0/level5/特有.svg",
+    "caption": "đặc hữu, riêng biệt, vốn có"
+  },
+  "疼痛": {
+    "file": "疼痛.svg",
+    "src": "images/HSK_3.0/level5/疼痛.svg",
+    "caption": "đau"
+  },
+  "提交": {
+    "file": "提交.svg",
+    "src": "images/HSK_3.0/level5/提交.svg",
+    "caption": "gửi"
+  },
+  "提起": {
+    "file": "提起.svg",
+    "src": "images/HSK_3.0/level5/提起.svg",
+    "caption": "nhắc đến, đề cập tới"
+  },
+  "提升": {
+    "file": "提升.svg",
+    "src": "images/HSK_3.0/level5/提升.svg",
+    "caption": "nâng cao, cải thiện, đề bạt"
+  },
+  "体力": {
+    "file": "体力.svg",
+    "src": "images/HSK_3.0/level5/体力.svg",
+    "caption": "sức mạnh thể chất"
+  },
+  "替": {
+    "file": "替.svg",
+    "src": "images/HSK_3.0/level5/替.svg",
+    "caption": "thay, hộ, giúp"
+  },
+  "天上": {
+    "file": "天上.svg",
+    "src": "images/HSK_3.0/level5/天上.svg",
+    "caption": "trên trời, bầu trời"
   }
 };
 

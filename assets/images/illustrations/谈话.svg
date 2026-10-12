@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Office Window -->
+  <rect x="160" y="30" width="50" height="70" rx="4" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <line x1="185" y1="30" x2="185" y2="100" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="140" width="160" height="15" fill="#334155" rx="2"/>
+  <rect x="50" y="155" width="10" height="60" fill="#475569"/>
+  <rect x="180" y="155" width="10" height="60" fill="#475569"/>
+  
+  <!-- Manager (Right side) -->
+  <circle cx="170" cy="110" r="15" fill="#fbbf24"/>
+  <path d="M155 125h30v40h-30z" fill="#fb923c"/>
+  <path d="M160 130l-10 20M180 130l10 20" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Employee (Left side) -->
+  <circle cx="70" cy="120" r="12" fill="#38bdf8"/>
+  <path d="M60 132h20v50h-20z" fill="#38bdf8"/>
+  <path d="M65 135l-10 15M75 135l10 15" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Props on desk -->
+  <rect x="60" y="130" width="20" height="10" fill="#ec4899" rx="2"/>
+  <circle cx="170" cy="135" r="5" fill="#10b981"/>
+  
+  <!-- Speech bubbles (abstract representation of conversation) -->
+  <path d="M145 90c-5-10 5-20 15-20s20 10 15 20-15 10-15 20" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M90 100c5-10 15-10 20 0s-5 15-15 15" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Floor shadow -->
+  <ellipse cx="120" cy="220" rx="100" ry="10" fill="#0f172a" opacity="0.5"/>
+</svg>

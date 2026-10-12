@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:02:41.232421",
-  "total_unique_words_with_illustrations": 3000,
-  "total_flat_svg_files": 3000,
+  "generated_at": "2026-10-12T09:05:21.832282",
+  "total_unique_words_with_illustrations": 3010,
+  "total_flat_svg_files": 3010,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1381,
-        "pct": "86.3%"
+        "with_svg": 1391,
+        "pct": "86.9%"
       },
       "level6": {
         "total": 1800,
@@ -53490,6 +53490,146 @@
       ],
       "file": "台灯.svg",
       "src": "images/HSK_3.0/level5/台灯.svg",
+      "alt_srcs": []
+    },
+    "谈话": {
+      "hanzi": "谈话",
+      "pinyin": "tánhuà",
+      "meaning": "nói chuyện, trò chuyện, đàm đạo",
+      "example_zh": "今天下午经理找我<u>谈话</u>。",
+      "example_vi": "Chiều nay giám đốc gọi tôi vào <u>nói chuyện</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "谈话.svg",
+      "src": "images/HSK_3.0/level5/谈话.svg",
+      "alt_srcs": []
+    },
+    "特产": {
+      "hanzi": "特产",
+      "pinyin": "tèchǎn",
+      "meaning": "đặc sản",
+      "example_zh": "每次回老家，他都会带很多当地<u>特产</u>回来。",
+      "example_vi": "Mỗi lần về quê, anh ấy đều mang rất nhiều <u>đặc sản</u> địa phương về.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "特产.svg",
+      "src": "images/HSK_3.0/level5/特产.svg",
+      "alt_srcs": []
+    },
+    "特有": {
+      "hanzi": "特有",
+      "pinyin": "tèyǒu",
+      "meaning": "đặc hữu, riêng biệt, vốn có",
+      "example_zh": "这是这个少数民族<u>特有</u>的传统节日。",
+      "example_vi": "Đây là ngày lễ truyền thống <u>riêng có</u> của dân tộc thiểu số này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "特有.svg",
+      "src": "images/HSK_3.0/level5/特有.svg",
+      "alt_srcs": []
+    },
+    "疼痛": {
+      "hanzi": "疼痛",
+      "pinyin": "téngtòng",
+      "meaning": "đau",
+      "example_zh": "请指出<u>疼痛</u>的部位",
+      "example_vi": "Xin hãy chỉ ra vị trí đau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "疼痛.svg",
+      "src": "images/HSK_3.0/level5/疼痛.svg",
+      "alt_srcs": []
+    },
+    "提交": {
+      "hanzi": "提交",
+      "pinyin": "tíjiāo",
+      "meaning": "gửi",
+      "example_zh": "请在期限内<u>提交</u>申请",
+      "example_vi": "Vui lòng nộp đơn trong thời hạn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "提交.svg",
+      "src": "images/HSK_3.0/level5/提交.svg",
+      "alt_srcs": []
+    },
+    "提起": {
+      "hanzi": "提起",
+      "pinyin": "tíqǐ",
+      "meaning": "nhắc đến, đề cập tới",
+      "example_zh": "一<u>提起</u>故乡，他的心里就充满思念。",
+      "example_vi": "Hễ <u>nhắc đến</u> quê hương, trong lòng anh ấy lại ngập tràn nỗi nhớ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "提起.svg",
+      "src": "images/HSK_3.0/level5/提起.svg",
+      "alt_srcs": []
+    },
+    "提升": {
+      "hanzi": "提升",
+      "pinyin": "tíshēng",
+      "meaning": "nâng cao, cải thiện, đề bạt",
+      "example_zh": "多读好书有助于<u>提升</u>个人的修养。",
+      "example_vi": "Đọc nhiều sách hay giúp <u>nâng cao</u> phẩm chất cá nhân.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "提升.svg",
+      "src": "images/HSK_3.0/level5/提升.svg",
+      "alt_srcs": []
+    },
+    "体力": {
+      "hanzi": "体力",
+      "pinyin": "tǐlì",
+      "meaning": "sức mạnh thể chất",
+      "example_zh": "他已经到了<u>体力</u>的极限",
+      "example_vi": "Anh ấy đã đến giới hạn thể lực.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "体力.svg",
+      "src": "images/HSK_3.0/level5/体力.svg",
+      "alt_srcs": []
+    },
+    "替": {
+      "hanzi": "替",
+      "pinyin": "tì",
+      "meaning": "thay, hộ, giúp",
+      "example_zh": "今天他身体不舒服，我<u>替</u>他去开会。",
+      "example_vi": "Hôm nay anh ấy không khỏe, tôi <u>thay</u> anh ấy đi họp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "替.svg",
+      "src": "images/HSK_3.0/level5/替.svg",
+      "alt_srcs": []
+    },
+    "天上": {
+      "hanzi": "天上",
+      "pinyin": "tiānshàng",
+      "meaning": "trên trời, bầu trời",
+      "example_zh": "夜空中，<u>天上</u>的星星闪闪发光。",
+      "example_vi": "Trong màn đêm, những ngôi sao <u>trên trời</u> lấp lánh tỏa sáng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "天上.svg",
+      "src": "images/HSK_3.0/level5/天上.svg",
       "alt_srcs": []
     }
   }
