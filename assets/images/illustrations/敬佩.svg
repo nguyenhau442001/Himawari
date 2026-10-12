@@ -1,0 +1,69 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a" />
+      <stop offset="100%" style="stop-color:#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed container with rounded corners -->
+  <rect width="240" height="240" rx="24" fill="url(#backgroundGradient)"/>
+
+  <!-- Stage / Floor -->
+  <path d="M0 160 C 60 150, 180 150, 240 160 L 240 240 L 0 240 Z" fill="#2d3a4b"/>
+
+  <!-- Podium -->
+  <rect x="100" y="120" width="40" height="50" rx="5" fill="#4a5568"/>
+  <rect x="95" y="115" width="50" height="10" rx="3" fill="#5a6578"/> <!-- Podium top -->
+  <circle cx="120" cy="110" r="4" fill="#a0aec0"/> <!-- Microphone head -->
+  <rect x="118" y="110" width="4" height="10" fill="#a0aec0"/> <!-- Microphone stand -->
+
+  <!-- Speaker (He) - Confident pose -->
+  <!-- Body -->
+  <rect x="105" y="100" width="30" height="45" rx="5" fill="#38bdf8"/> <!-- Shirt/Jacket -->
+  <rect x="105" y="145" width="30" height="30" fill="#1e293b"/> <!-- Trousers -->
+  <!-- Head -->
+  <circle cx="120" cy="90" r="15" fill="#fbd38d"/> <!-- Skin tone -->
+  <!-- Hair -->
+  <path d="M105 80 C105 70, 135 70, 135 80 C135 95, 120 105, 105 95 Z" fill="#2d3748"/>
+  <!-- Face features -->
+  <circle cx="115" cy="88" r="2" fill="#2d3748"/> <!-- Left eye -->
+  <circle cx="125" cy="88" r="2" fill="#2d3748"/> <!-- Right eye -->
+  <path d="M115 95 Q120 98, 125 95" stroke="#2d3748" stroke-width="1.5" fill="none"/> <!-- Confident smile -->
+  <path d="M118 92 L122 92" stroke="#2d3748" stroke-width="1" fill="none"/> <!-- Nose hint -->
+  <!-- Hands (gesturing) -->
+  <rect x="95" y="125" width="10" height="15" rx="3" fill="#fbd38d"/> <!-- Left hand -->
+  <rect x="135" y="125" width="10" height="15" rx="3" fill="#fbd38d"/> <!-- Right hand -->
+
+  <!-- Spotlight effect on speaker -->
+  <path d="M120 0 L 70 140 C 90 160, 150 160, 170 140 Z" fill="#fbbf24" opacity="0.15"/>
+  <circle cx="120" cy="100" r="30" fill="#fbbf24" opacity="0.15"/>
+
+  <!-- Observer (I) - Admiring pose -->
+  <!-- Chair -->
+  <rect x="20" y="180" width="40" height="10" rx="3" fill="#4a5568"/> <!-- Seat -->
+  <rect x="25" y="160" width="30" height="20" rx="3" fill="#4a5568"/> <!-- Backrest -->
+  <rect x="25" y="190" width="7" height="15" fill="#4a5568"/> <!-- Leg 1 -->
+  <rect x="48" y="190" width="7" height="15" fill="#4a5568"/> <!-- Leg 2 -->
+
+  <!-- Body -->
+  <rect x="28" y="155" width="25" height="35" rx="5" fill="#10b981"/> <!-- Shirt/Jacket -->
+  <rect x="28" y="180" width="25" height="20" fill="#1e293b"/> <!-- Trousers -->
+  <!-- Head -->
+  <circle cx="40" cy="145" r="12" fill="#fbd38d"/> <!-- Skin tone -->
+  <!-- Hair -->
+  <path d="M28 138 C25 130, 55 130, 52 138 C52 148, 40 155, 28 148 Z" fill="#2d3748"/>
+  <!-- Face features (admiring) -->
+  <circle cx="37" cy="143" r="1.5" fill="#2d3748"/> <!-- Left eye -->
+  <circle cx="43" cy="143" r="1.5" fill="#2d3748"/> <!-- Right eye -->
+  <path d="M37 148 Q40 150, 43 148" stroke="#2d3748" stroke-width="1" fill="none"/> <!-- Slight smile -->
+  <path d="M39 146 L41 146" stroke="#2d3748" stroke-width="0.7" fill="none"/> <!-- Nose hint -->
+  <!-- Hands (clasped, admiring) -->
+  <rect x="30" y="175" width="20" height="10" rx="5" fill="#fbd38d"/> <!-- Clasped hands -->
+
+  <!-- Subtle background audience chairs (to imply a larger audience) -->
+  <rect x="170" y="180" width="30" height="10" rx="3" fill="#3d4858" opacity="0.7"/>
+  <rect x="172" y="165" width="26" height="15" rx="3" fill="#3d4858" opacity="0.7"/>
+  <rect x="165" y="190" width="5" height="10" fill="#3d4858" opacity="0.7"/>
+  <rect x="190" y="190" width="5" height="10" fill="#3d4858" opacity="0.7"/>
+</svg>

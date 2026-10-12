@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T13:32:00.486944",
-  "total_unique_words_with_illustrations": 3989,
-  "total_flat_svg_files": 3989,
+  "generated_at": "2026-10-12T14:27:04.757354",
+  "total_unique_words_with_illustrations": 3995,
+  "total_flat_svg_files": 3995,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1349,
-        "pct": "54.0%"
+        "with_svg": 1355,
+        "pct": "54.2%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 479,
-        "pct": "26.6%"
+        "with_svg": 482,
+        "pct": "26.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 580,
+        "with_svg": 582,
         "pct": "10.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 580,
+        "with_svg": 582,
         "pct": "10.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 580,
+        "with_svg": 582,
         "pct": "10.4%"
       }
     }
@@ -62493,6 +62493,118 @@
       "file": "鲸鱼.svg",
       "src": "images/HSK_2.0/level6/鲸鱼.svg",
       "alt_srcs": []
+    },
+    "惊讶": {
+      "hanzi": "惊讶",
+      "pinyin": "jīngyà",
+      "meaning": "kinh ngạc, ngạc nhiên",
+      "example_zh": "听到这个消息，我感到很<u>惊讶</u>。",
+      "example_vi": "Nghe tin này, tôi cảm thấy rất <u>ngạc nhiên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "惊讶.svg",
+      "src": "images/HSK_2.0/level6/惊讶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/惊讶.svg"
+      ]
+    },
+    "颈": {
+      "hanzi": "颈",
+      "pinyin": "jǐng",
+      "meaning": "cổ, gáy",
+      "example_zh": "长颈鹿的<u>颈</u>很长。",
+      "example_vi": "<u>Cổ</u> của hươu cao cổ rất dài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "颈.svg",
+      "src": "images/HSK_2.0/level6/颈.svg",
+      "alt_srcs": []
+    },
+    "警告": {
+      "hanzi": "警告",
+      "pinyin": "jǐnggào",
+      "meaning": "cảnh báo",
+      "example_zh": "老师<u>警告</u>他不要再迟到。",
+      "example_vi": "Thầy giáo <u>cảnh báo</u> anh ấy không được đi muộn nữa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "警告.svg",
+      "src": "images/HSK_2.0/level6/警告.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/警告.svg"
+      ]
+    },
+    "竞赛": {
+      "hanzi": "竞赛",
+      "pinyin": "jìngsài",
+      "meaning": "cuộc thi đấu",
+      "example_zh": "学校举办了数学<u>竞赛</u>。",
+      "example_vi": "Trường tổ chức <u>cuộc thi</u> Toán.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "竞赛.svg",
+      "src": "images/HSK_2.0/level6/竞赛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/竞赛.svg"
+      ]
+    },
+    "敬佩": {
+      "hanzi": "敬佩",
+      "pinyin": "jìngpèi",
+      "meaning": "khâm phục, kính nể",
+      "example_zh": "我非常<u>敬佩</u>他的勇气。",
+      "example_vi": "Tôi rất <u>khâm phục</u> sự can đảm của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敬佩.svg",
+      "src": "images/HSK_2.0/level6/敬佩.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/敬佩.svg",
+        "images/HSK_3.0/level8/敬佩.svg",
+        "images/HSK_3.0/level9/敬佩.svg"
+      ]
+    },
+    "敬重": {
+      "hanzi": "敬重",
+      "pinyin": "jìngzhòng",
+      "meaning": "kính trọng",
+      "example_zh": "大家都很<u>敬重</u>这位老师。",
+      "example_vi": "Mọi người đều rất <u>kính trọng</u> thầy giáo này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敬重.svg",
+      "src": "images/HSK_2.0/level6/敬重.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/敬重.svg",
+        "images/HSK_3.0/level8/敬重.svg",
+        "images/HSK_3.0/level9/敬重.svg"
+      ]
     },
     "就业": {
       "hanzi": "就业",

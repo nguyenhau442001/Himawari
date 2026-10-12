@@ -16887,6 +16887,36 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/鲸鱼.svg",
     "caption": "cá voi"
   },
+  "惊讶": {
+    "file": "惊讶.svg",
+    "src": "images/HSK_2.0/level6/惊讶.svg",
+    "caption": "kinh ngạc, ngạc nhiên"
+  },
+  "颈": {
+    "file": "颈.svg",
+    "src": "images/HSK_2.0/level6/颈.svg",
+    "caption": "cổ, gáy"
+  },
+  "警告": {
+    "file": "警告.svg",
+    "src": "images/HSK_2.0/level6/警告.svg",
+    "caption": "cảnh báo"
+  },
+  "竞赛": {
+    "file": "竞赛.svg",
+    "src": "images/HSK_2.0/level6/竞赛.svg",
+    "caption": "cuộc thi đấu"
+  },
+  "敬佩": {
+    "file": "敬佩.svg",
+    "src": "images/HSK_2.0/level6/敬佩.svg",
+    "caption": "khâm phục, kính nể"
+  },
+  "敬重": {
+    "file": "敬重.svg",
+    "src": "images/HSK_2.0/level6/敬重.svg",
+    "caption": "kính trọng"
+  },
   "就业": {
     "file": "就业.svg",
     "src": "images/HSK_2.0/level6/就业.svg",
