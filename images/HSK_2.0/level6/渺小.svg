@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g id="stars">
+    <circle cx="30" cy="40" r="1" fill="#f8fafc"/>
+    <circle cx="180" cy="30" r="1.5" fill="#f8fafc"/>
+    <circle cx="210" cy="120" r="1" fill="#f8fafc"/>
+    <circle cx="50" cy="180" r="1.2" fill="#f8fafc"/>
+    <circle cx="120" cy="20" r="0.8" fill="#f8fafc"/>
+    <circle cx="200" cy="200" r="1.5" fill="#f8fafc"/>
+  </g>
+
+  <g id="galaxy">
+    <path d="M120 120 C 180 80, 220 150, 160 180 C 100 210, 40 150, 80 100 C 120 50, 180 60, 200 90" fill="none" stroke="#38bdf8" stroke-width="0.5" opacity="0.3"/>
+    <ellipse cx="140" cy="110" rx="40" ry="20" fill="#ec4899" opacity="0.15" transform="rotate(-20 140 110)"/>
+  </g>
+
+  <g id="telescope-setup">
+    <path d="M60 210 L80 160 L100 210 Z" fill="#334155"/>
+    <rect x="75" y="150" width="5" height="20" fill="#64748b" transform="rotate(20 77 160)"/>
+    <rect x="65" y="140" width="30" height="10" rx="2" fill="#94a3b8"/>
+    <circle cx="80" cy="145" r="4" fill="#fb923c"/>
+  </g>
+
+  <g id="human">
+    <circle cx="70" cy="200" r="8" fill="#fbbf24"/>
+    <path d="M70 208 L70 225 M70 215 L60 225 M70 215 L80 225" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <path d="M65 200 L75 200" stroke="#0f172a" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <g id="moon">
+    <circle cx="200" cy="60" r="25" fill="#f1f5f9"/>
+    <circle cx="190" cy="55" r="5" fill="#e2e8f0"/>
+    <circle cx="210" cy="70" r="3" fill="#e2e8f0"/>
+  </g>
+
+  <path d="M0 240 Q 120 200 240 240" fill="#0f172a" opacity="0.5"/>
+</svg>

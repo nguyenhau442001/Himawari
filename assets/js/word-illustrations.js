@@ -17962,6 +17962,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/面子.svg",
     "caption": "thể diện, mặt mũi"
   },
+  "描绘": {
+    "file": "描绘.svg",
+    "src": "images/HSK_2.0/level6/描绘.svg",
+    "caption": "miêu tả, mô tả"
+  },
+  "瞄准": {
+    "file": "瞄准.svg",
+    "src": "images/HSK_2.0/level6/瞄准.svg",
+    "caption": "ngắm bắn, nhằm vào"
+  },
+  "渺小": {
+    "file": "渺小.svg",
+    "src": "images/HSK_2.0/level6/渺小.svg",
+    "caption": "nhỏ bé, không đáng kể"
+  },
+  "藐视": {
+    "file": "藐视.svg",
+    "src": "images/HSK_2.0/level6/藐视.svg",
+    "caption": "khinh thường, coi rẻ"
+  },
+  "蔑视": {
+    "file": "蔑视.svg",
+    "src": "images/HSK_2.0/level6/蔑视.svg",
+    "caption": "khinh miệt, coi thường"
+  },
+  "灭亡": {
+    "file": "灭亡.svg",
+    "src": "images/HSK_2.0/level6/灭亡.svg",
+    "caption": "diệt vong, tiêu vong"
+  },
+  "民间": {
+    "file": "民间.svg",
+    "src": "images/HSK_2.0/level6/民间.svg",
+    "caption": "dân gian, trong dân chúng"
+  },
+  "民主": {
+    "file": "民主.svg",
+    "src": "images/HSK_2.0/level6/民主.svg",
+    "caption": "dân chủ"
+  },
+  "敏捷": {
+    "file": "敏捷.svg",
+    "src": "images/HSK_2.0/level6/敏捷.svg",
+    "caption": "nhanh nhẹn, mau lẹ"
+  },
+  "敏锐": {
+    "file": "敏锐.svg",
+    "src": "images/HSK_2.0/level6/敏锐.svg",
+    "caption": "nhạy bén, tinh nhuệ"
+  },
   "模式": {
     "file": "模式.svg",
     "src": "images/HSK_2.0/level6/模式.svg",

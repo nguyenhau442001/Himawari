@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:36:10.486016",
-  "total_unique_words_with_illustrations": 4195,
-  "total_flat_svg_files": 4195,
+  "generated_at": "2026-10-12T21:43:07.598792",
+  "total_unique_words_with_illustrations": 4205,
+  "total_flat_svg_files": 4205,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1555,
-        "pct": "62.2%"
+        "with_svg": 1565,
+        "pct": "62.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 530,
-        "pct": "29.4%"
+        "with_svg": 533,
+        "pct": "29.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 723,
-        "pct": "12.9%"
+        "with_svg": 730,
+        "pct": "13.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 723,
-        "pct": "12.9%"
+        "with_svg": 730,
+        "pct": "13.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 723,
-        "pct": "12.9%"
+        "with_svg": 730,
+        "pct": "13.0%"
       }
     }
   },
@@ -66886,6 +66886,214 @@
       "src": "images/HSK_2.0/level6/面子.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/面子.svg"
+      ]
+    },
+    "描绘": {
+      "hanzi": "描绘",
+      "pinyin": "miáohuì",
+      "meaning": "miêu tả, mô tả",
+      "example_zh": "作者生动地<u>描绘</u>了乡村生活。",
+      "example_vi": "Tác giả đã <u>miêu tả</u> sinh động cuộc sống ở nông thôn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "描绘.svg",
+      "src": "images/HSK_2.0/level6/描绘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/描绘.svg"
+      ]
+    },
+    "瞄准": {
+      "hanzi": "瞄准",
+      "pinyin": "miáozhǔn",
+      "meaning": "ngắm bắn, nhằm vào",
+      "example_zh": "猎人<u>瞄准</u>了猎物。",
+      "example_vi": "Người thợ săn <u>nhằm vào</u> con mồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "瞄准.svg",
+      "src": "images/HSK_2.0/level6/瞄准.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/瞄准.svg",
+        "images/HSK_3.0/level8/瞄准.svg",
+        "images/HSK_3.0/level9/瞄准.svg"
+      ]
+    },
+    "渺小": {
+      "hanzi": "渺小",
+      "pinyin": "miǎoxiǎo",
+      "meaning": "nhỏ bé, không đáng kể",
+      "example_zh": "在宇宙面前，人类显得十分<u>渺小</u>。",
+      "example_vi": "Trước vũ trụ, con người trở nên rất <u>nhỏ bé</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "渺小.svg",
+      "src": "images/HSK_2.0/level6/渺小.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/渺小.svg",
+        "images/HSK_3.0/level8/渺小.svg",
+        "images/HSK_3.0/level9/渺小.svg"
+      ]
+    },
+    "藐视": {
+      "hanzi": "藐视",
+      "pinyin": "miǎoshì",
+      "meaning": "khinh thường, coi rẻ",
+      "example_zh": "我们不能<u>藐视</u>任何对手。",
+      "example_vi": "Chúng ta không thể <u>khinh thường</u> bất kỳ đối thủ nào.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "藐视.svg",
+      "src": "images/HSK_2.0/level6/藐视.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/藐视.svg",
+        "images/HSK_3.0/level8/藐视.svg",
+        "images/HSK_3.0/level9/藐视.svg"
+      ]
+    },
+    "蔑视": {
+      "hanzi": "蔑视",
+      "pinyin": "mièshì",
+      "meaning": "khinh miệt, coi thường",
+      "example_zh": "他对这种行为表示<u>蔑视</u>。",
+      "example_vi": "Anh ấy thể hiện sự <u>khinh miệt</u> đối với hành vi này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "蔑视.svg",
+      "src": "images/HSK_2.0/level6/蔑视.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/蔑视.svg",
+        "images/HSK_3.0/level8/蔑视.svg",
+        "images/HSK_3.0/level9/蔑视.svg"
+      ]
+    },
+    "灭亡": {
+      "hanzi": "灭亡",
+      "pinyin": "mièwáng",
+      "meaning": "diệt vong, tiêu vong",
+      "example_zh": "这个王朝最终走向了<u>灭亡</u>。",
+      "example_vi": "Triều đại này cuối cùng đã đi đến <u>diệt vong</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "灭亡.svg",
+      "src": "images/HSK_2.0/level6/灭亡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/灭亡.svg",
+        "images/HSK_3.0/level8/灭亡.svg",
+        "images/HSK_3.0/level9/灭亡.svg"
+      ]
+    },
+    "民间": {
+      "hanzi": "民间",
+      "pinyin": "mínjiān",
+      "meaning": "dân gian, trong dân chúng",
+      "example_zh": "这是一个<u>民间</u>流传的故事。",
+      "example_vi": "Đây là một câu chuyện lưu truyền trong <u>dân gian</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "民间.svg",
+      "src": "images/HSK_2.0/level6/民间.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/民间.svg"
+      ]
+    },
+    "民主": {
+      "hanzi": "民主",
+      "pinyin": "mínzhǔ",
+      "meaning": "dân chủ",
+      "example_zh": "这个国家实行<u>民主</u>制度。",
+      "example_vi": "Quốc gia này thực hiện chế độ <u>dân chủ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "民主.svg",
+      "src": "images/HSK_2.0/level6/民主.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/民主.svg"
+      ]
+    },
+    "敏捷": {
+      "hanzi": "敏捷",
+      "pinyin": "mǐnjié",
+      "meaning": "nhanh nhẹn, mau lẹ",
+      "example_zh": "他的反应非常<u>敏捷</u>。",
+      "example_vi": "Phản ứng của anh ấy rất <u>nhanh nhẹn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敏捷.svg",
+      "src": "images/HSK_2.0/level6/敏捷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/敏捷.svg",
+        "images/HSK_3.0/level8/敏捷.svg",
+        "images/HSK_3.0/level9/敏捷.svg"
+      ]
+    },
+    "敏锐": {
+      "hanzi": "敏锐",
+      "pinyin": "mǐnruì",
+      "meaning": "nhạy bén, tinh nhuệ",
+      "example_zh": "她有着<u>敏锐</u>的观察力。",
+      "example_vi": "Cô ấy có khả năng quan sát rất <u>nhạy bén</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敏锐.svg",
+      "src": "images/HSK_2.0/level6/敏锐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/敏锐.svg",
+        "images/HSK_3.0/level8/敏锐.svg",
+        "images/HSK_3.0/level9/敏锐.svg"
       ]
     },
     "模式": {

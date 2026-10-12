@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Elements: Voting Booths -->
+  <rect x="30" y="100" width="40" height="90" rx="4" fill="#334155"/>
+  <rect x="170" y="100" width="40" height="90" rx="4" fill="#334155"/>
+  <path d="M40 110h20v10h-20z" fill="#1e293b"/>
+  <path d="M180 110h20v10h-20z" fill="#1e293b"/>
+  
+  <!-- Characters -->
+  <!-- Person 1 -->
+  <circle cx="60" cy="190" r="12" fill="#fb923c"/>
+  <path d="M50 200h20v30h-20z" fill="#fb923c"/>
+  <circle cx="100" cy="180" r="10" fill="#f59e0b"/>
+  <path d="M92 190h16v30h-16z" fill="#f59e0b"/>
+  
+  <!-- Person 2 -->
+  <circle cx="140" cy="190" r="12" fill="#38bdf8"/>
+  <path d="M130 200h20v30h-20z" fill="#38bdf8"/>
+  
+  <!-- Ballot Box -->
+  <rect x="100" y="140" width="40" height="40" rx="4" fill="#10b981"/>
+  <rect x="115" y="130" width="10" height="10" fill="#ec4899"/>
+  <path d="M105 145h30v2h-30z" fill="#065f46"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="50" r="3" fill="#fbbf24"/>
+  <circle cx="40" cy="40" r="2" fill="#fbbf24"/>
+  <circle cx="120" cy="60" r="4" fill="#fbbf24"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="220" width="240" height="20" fill="#0f172a"/>
+</svg>
