@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Studio Window -->
+  <rect x="20" y="20" width="200" height="120" rx="8" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <circle cx="180" cy="50" r="15" fill="#f59e0b"/>
+  
+  <!-- Easel and Canvas -->
+  <path d="M60 180 L80 120 L100 180 M50 180 L110 180" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+  <rect x="65" y="100" width="50" height="60" rx="2" fill="#ffffff"/>
+  <path d="M70 110 Q85 105 100 115 T90 130 T75 145" stroke="#ec4899" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M75 125 Q90 120 105 130 T95 145 T80 160" stroke="#38bdf8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Artist Character -->
+  <g transform="translate(140, 130)">
+    <!-- Body -->
+    <path d="M-10 80 L10 80 L15 40 L-15 40 Z" fill="#475569"/>
+    <!-- Head -->
+    <circle cx="0" cy="25" r="15" fill="#fde68a"/>
+    <!-- Arm reaching -->
+    <path d="M15 45 L35 30" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    <!-- Brush -->
+    <rect x="35" y="25" width="15" height="3" fill="#fb923c"/>
+  </g>
+  
+  <!-- Floating Sparkles/Aura -->
+  <circle cx="160" cy="110" r="2" fill="#fbbf24"/>
+  <circle cx="175" cy="125" r="3" fill="#fbbf24"/>
+  <circle cx="150" cy="100" r="2" fill="#fbbf24"/>
+  
+  <!-- Floor/Table -->
+  <rect x="0" y="200" width="240" height="40" fill="#0f172a"/>
+  <path d="M0 200 L240 200" stroke="#334155" stroke-width="2"/>
+</svg>

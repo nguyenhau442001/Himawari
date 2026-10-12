@@ -16877,6 +16877,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/精确.svg",
     "caption": "chính xác"
   },
+  "精通": {
+    "file": "精通.svg",
+    "src": "images/HSK_2.0/level6/精通.svg",
+    "caption": "thông thạo"
+  },
   "精益求精": {
     "file": "精益求精.svg",
     "src": "images/HSK_2.0/level6/精益求精.svg",
@@ -16917,10 +16922,55 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/敬重.svg",
     "caption": "kính trọng"
   },
+  "敬仰": {
+    "file": "敬仰.svg",
+    "src": "images/HSK_2.0/level6/敬仰.svg",
+    "caption": "tôn kính, ngưỡng mộ"
+  },
+  "境界": {
+    "file": "境界.svg",
+    "src": "images/HSK_2.0/level6/境界.svg",
+    "caption": "cảnh giới, mức độ"
+  },
+  "竞选": {
+    "file": "竞选.svg",
+    "src": "images/HSK_2.0/level6/竞选.svg",
+    "caption": "tranh cử"
+  },
+  "纠纷": {
+    "file": "纠纷.svg",
+    "src": "images/HSK_2.0/level6/纠纷.svg",
+    "caption": "tranh chấp"
+  },
+  "纠正": {
+    "file": "纠正.svg",
+    "src": "images/HSK_2.0/level6/纠正.svg",
+    "caption": "sửa chữa, chỉnh sửa"
+  },
+  "酒精": {
+    "file": "酒精.svg",
+    "src": "images/HSK_2.0/level6/酒精.svg",
+    "caption": "cồn, alcohol"
+  },
+  "救济": {
+    "file": "救济.svg",
+    "src": "images/HSK_2.0/level6/救济.svg",
+    "caption": "cứu trợ"
+  },
+  "救援": {
+    "file": "救援.svg",
+    "src": "images/HSK_2.0/level6/救援.svg",
+    "caption": "cứu hộ, ứng cứu"
+  },
   "就业": {
     "file": "就业.svg",
     "src": "images/HSK_2.0/level6/就业.svg",
     "caption": "việc làm, có công việc"
+  },
+  "就职": {
+    "file": "就职.svg",
+    "src": "images/HSK_2.0/level6/就职.svg",
+    "caption": "nhậm chức"
   },
   "居民": {
     "file": "居民.svg",

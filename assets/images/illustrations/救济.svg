@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Desk/Counter -->
+  <rect x="20" y="140" width="200" height="60" rx="8" fill="#334155"/>
+  <rect x="20" y="140" width="200" height="15" rx="4" fill="#475569"/>
+  
+  <!-- Government Official -->
+  <g transform="translate(140, 80)">
+    <circle cx="30" cy="30" r="15" fill="#fbbf24"/>
+    <path d="M15 60c0-10 5-20 15-20s15 10 15 20v40h-30z" fill="#38bdf8"/>
+    <rect x="20" y="45" width="20" height="10" fill="#fb923c"/>
+  </g>
+  
+  <!-- Recipient -->
+  <g transform="translate(40, 90)">
+    <circle cx="30" cy="30" r="15" fill="#fcd34d"/>
+    <path d="M15 60c0-10 5-20 15-20s15 10 15 20v40h-30z" fill="#94a3b8"/>
+  </g>
+  
+  <!-- Money/Envelope -->
+  <rect x="100" y="130" width="40" height="25" rx="2" fill="#10b981"/>
+  <path d="M100 130l20 12l20-12" stroke="#065f46" stroke-width="2" fill="none"/>
+  
+  <!-- Background Details -->
+  <rect x="40" y="50" width="60" height="40" rx="2" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <line x1="50" y1="65" x2="90" y2="65" stroke="#475569" stroke-width="4"/>
+  <line x1="50" y1="75" x2="80" y2="75" stroke="#475569" stroke-width="4"/>
+  
+  <!-- Decorative light -->
+  <circle cx="200" cy="40" r="30" fill="#f59e0b" opacity="0.1"/>
+</svg>

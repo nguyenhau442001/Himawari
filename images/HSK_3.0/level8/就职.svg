@@ -1,0 +1,50 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Office Window Background -->
+  <rect x="40" y="40" width="160" height="100" rx="8" fill="#334155" opacity="0.5"/>
+  <path d="M120 40 L120 140 M40 90 L200 90" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" fill="#475569" rx="2"/>
+  <rect x="40" y="175" width="10" height="60" fill="#334155"/>
+  <rect x="190" y="175" width="10" height="60" fill="#334155"/>
+  
+  <!-- Character: The Professional -->
+  <g transform="translate(120, 150)">
+    <!-- Body -->
+    <path d="M-30 80 Q-30 40 0 40 Q30 40 30 80 L30 90 L-30 90 Z" fill="#38bdf8"/>
+    <!-- Suit Jacket -->
+    <path d="M-30 40 L-10 40 L0 60 L10 40 L30 40 L30 80 L-30 80 Z" fill="#1e293b"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="20" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-18 15 Q-20 -5 0 -5 Q20 -5 18 15 Z" fill="#fb923c"/>
+    <!-- Eyes -->
+    <circle cx="-7" cy="15" r="2" fill="#0f172a"/>
+    <circle cx="7" cy="15" r="2" fill="#0f172a"/>
+  </g>
+  
+  <!-- Calendar Prop (Next Week) -->
+  <g transform="translate(40, 50)">
+    <rect width="40" height="45" rx="4" fill="#f1f5f9"/>
+    <rect width="40" height="10" rx="4" fill="#fb923c"/>
+    <rect x="5" y="15" width="30" height="4" rx="1" fill="#cbd5e1"/>
+    <rect x="5" y="25" width="30" height="4" rx="1" fill="#cbd5e1"/>
+    <rect x="5" y="35" width="15" height="4" rx="1" fill="#10b981"/>
+  </g>
+  
+  <!-- Briefcase -->
+  <rect x="160" y="180" width="30" height="20" rx="2" fill="#fb923c"/>
+  <rect x="168" y="175" width="14" height="5" rx="1" fill="#f59e0b"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="15" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="210" cy="30" r="5" fill="#fbbf24" opacity="0.3"/>
+</svg>

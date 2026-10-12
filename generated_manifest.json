@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T19:24:27.053500",
-  "total_unique_words_with_illustrations": 3995,
-  "total_flat_svg_files": 3995,
+  "generated_at": "2026-10-12T20:04:36.711923",
+  "total_unique_words_with_illustrations": 4005,
+  "total_flat_svg_files": 4005,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1355,
-        "pct": "54.2%"
+        "with_svg": 1365,
+        "pct": "54.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 482,
-        "pct": "26.8%"
+        "with_svg": 487,
+        "pct": "27.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 582,
-        "pct": "10.4%"
+        "with_svg": 586,
+        "pct": "10.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 582,
-        "pct": "10.4%"
+        "with_svg": 586,
+        "pct": "10.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 582,
-        "pct": "10.4%"
+        "with_svg": 586,
+        "pct": "10.5%"
       }
     }
   },
@@ -62458,6 +62458,24 @@
         "images/HSK_3.0/level6/精确.svg"
       ]
     },
+    "精通": {
+      "hanzi": "精通",
+      "pinyin": "jīngtōng",
+      "meaning": "thông thạo",
+      "example_zh": "他<u>精通</u>三种语言。",
+      "example_vi": "Anh ấy <u>thông thạo</u> ba ngôn ngữ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "精通.svg",
+      "src": "images/HSK_2.0/level6/精通.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/精通.svg"
+      ]
+    },
     "精益求精": {
       "hanzi": "精益求精",
       "pinyin": "jīng yì qiú jīng",
@@ -62606,6 +62624,158 @@
         "images/HSK_3.0/level9/敬重.svg"
       ]
     },
+    "敬仰": {
+      "hanzi": "敬仰",
+      "pinyin": "jìngyǎng",
+      "meaning": "tôn kính, ngưỡng mộ",
+      "example_zh": "人们对英雄十分<u>敬仰</u>。",
+      "example_vi": "Mọi người rất <u>tôn kính</u> các anh hùng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "敬仰.svg",
+      "src": "images/HSK_2.0/level6/敬仰.svg",
+      "alt_srcs": []
+    },
+    "境界": {
+      "hanzi": "境界",
+      "pinyin": "jìngjiè",
+      "meaning": "cảnh giới, mức độ",
+      "example_zh": "他的绘画已经达到很高的<u>境界</u>。",
+      "example_vi": "Tranh vẽ của anh ấy đã đạt đến <u>cảnh giới</u> rất cao.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "境界.svg",
+      "src": "images/HSK_2.0/level6/境界.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/境界.svg",
+        "images/HSK_3.0/level8/境界.svg",
+        "images/HSK_3.0/level9/境界.svg"
+      ]
+    },
+    "竞选": {
+      "hanzi": "竞选",
+      "pinyin": "jìngxuǎn",
+      "meaning": "tranh cử",
+      "example_zh": "他正在<u>竞选</u>总统。",
+      "example_vi": "Anh ấy đang <u>tranh cử</u> tổng thống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "竞选.svg",
+      "src": "images/HSK_2.0/level6/竞选.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/竞选.svg",
+        "images/HSK_3.0/level8/竞选.svg",
+        "images/HSK_3.0/level9/竞选.svg"
+      ]
+    },
+    "纠纷": {
+      "hanzi": "纠纷",
+      "pinyin": "jiūfēn",
+      "meaning": "tranh chấp",
+      "example_zh": "两家因为土地发生了<u>纠纷</u>。",
+      "example_vi": "Hai nhà <u>tranh chấp</u> vì đất đai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "纠纷.svg",
+      "src": "images/HSK_2.0/level6/纠纷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/纠纷.svg"
+      ]
+    },
+    "纠正": {
+      "hanzi": "纠正",
+      "pinyin": "jiūzhèng",
+      "meaning": "sửa chữa, chỉnh sửa",
+      "example_zh": "老师<u>纠正</u>了我的发音。",
+      "example_vi": "Thầy giáo <u>sửa chữa</u> cách phát âm của tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "纠正.svg",
+      "src": "images/HSK_2.0/level6/纠正.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/纠正.svg"
+      ]
+    },
+    "酒精": {
+      "hanzi": "酒精",
+      "pinyin": "jiǔjīng",
+      "meaning": "cồn, alcohol",
+      "example_zh": "用<u>酒精</u>消毒伤口。",
+      "example_vi": "Dùng <u>cồn</u> để khử trùng vết thương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "酒精.svg",
+      "src": "images/HSK_2.0/level6/酒精.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/酒精.svg"
+      ]
+    },
+    "救济": {
+      "hanzi": "救济",
+      "pinyin": "jiùjì",
+      "meaning": "cứu trợ",
+      "example_zh": "政府发放<u>救济</u>金。",
+      "example_vi": "Chính phủ phát tiền <u>cứu trợ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "救济.svg",
+      "src": "images/HSK_2.0/level6/救济.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/救济.svg",
+        "images/HSK_3.0/level8/救济.svg",
+        "images/HSK_3.0/level9/救济.svg"
+      ]
+    },
+    "救援": {
+      "hanzi": "救援",
+      "pinyin": "jiùyuán",
+      "meaning": "cứu hộ, ứng cứu",
+      "example_zh": "救援队赶到现场进行<u>救援</u>。",
+      "example_vi": "Đội cứu hộ đến hiện trường để <u>cứu hộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "救援.svg",
+      "src": "images/HSK_2.0/level6/救援.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/救援.svg"
+      ]
+    },
     "就业": {
       "hanzi": "就业",
       "pinyin": "jiùyè",
@@ -62622,6 +62792,28 @@
       "src": "images/HSK_2.0/level6/就业.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/就业.svg"
+      ]
+    },
+    "就职": {
+      "hanzi": "就职",
+      "pinyin": "jiùzhí",
+      "meaning": "nhậm chức",
+      "example_zh": "他将于下周<u>就职</u>。",
+      "example_vi": "Anh ấy sẽ <u>nhậm chức</u> vào tuần sau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "就职.svg",
+      "src": "images/HSK_2.0/level6/就职.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/就职.svg",
+        "images/HSK_3.0/level8/就职.svg",
+        "images/HSK_3.0/level9/就职.svg"
       ]
     },
     "居民": {

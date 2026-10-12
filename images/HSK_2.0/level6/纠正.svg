@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Teacher -->
+    <circle cx="160" cy="60" r="25" fill="#fde68a"/>
+    <path d="M145 85 L175 85 L185 150 L135 150 Z" fill="#38bdf8"/>
+    <path d="M150 90 L140 120" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M170 90 L185 110" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="152" cy="55" r="3" fill="#0f172a"/>
+    <circle cx="168" cy="55" r="3" fill="#0f172a"/>
+    <path d="M155 65 Q160 70 165 65" stroke="#0f172a" stroke-width="2" fill="none"/>
+    
+    <!-- Student -->
+    <circle cx="60" cy="80" r="20" fill="#fde68a"/>
+    <path d="M50 100 L70 100 L75 160 L45 160 Z" fill="#ec4899"/>
+    <circle cx="55" cy="75" r="2" fill="#0f172a"/>
+    <circle cx="65" cy="75" r="2" fill="#0f172a"/>
+    <path d="M55 85 Q60 90 65 85" stroke="#0f172a" stroke-width="2" fill="none"/>
+    
+    <!-- Interaction Props -->
+    <path d="M100 70 Q120 50 140 70" stroke="#fb923c" stroke-width="3" stroke-dasharray="4 4" fill="none"/>
+    <circle cx="140" cy="70" r="4" fill="#fb923c"/>
+    
+    <!-- Desk/Environment -->
+    <rect x="20" y="160" width="200" height="10" rx="2" fill="#475569"/>
+    <rect x="40" y="170" width="10" height="30" fill="#334155"/>
+    <rect x="180" y="170" width="10" height="30" fill="#334155"/>
+    
+    <!-- Books -->
+    <rect x="80" y="145" width="40" height="15" rx="2" fill="#10b981"/>
+    <rect x="85" y="140" width="35" height="5" rx="1" fill="#fbbf24"/>
+  </g>
+</svg>
