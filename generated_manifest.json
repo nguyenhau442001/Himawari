@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:54:43.616557",
-  "total_unique_words_with_illustrations": 4465,
-  "total_flat_svg_files": 4465,
+  "generated_at": "2026-10-12T22:55:43.163212",
+  "total_unique_words_with_illustrations": 4470,
+  "total_flat_svg_files": 4470,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1825,
-        "pct": "73.0%"
+        "with_svg": 1830,
+        "pct": "73.2%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 610,
-        "pct": "33.9%"
+        "with_svg": 613,
+        "pct": "34.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 902,
+        "with_svg": 904,
         "pct": "16.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 902,
+        "with_svg": 904,
         "pct": "16.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 902,
+        "with_svg": 904,
         "pct": "16.1%"
       }
     }
@@ -72644,6 +72644,104 @@
         "images/HSK_3.0/level7/任意.svg",
         "images/HSK_3.0/level8/任意.svg",
         "images/HSK_3.0/level9/任意.svg"
+      ]
+    },
+    "任重道远": {
+      "hanzi": "任重道远",
+      "pinyin": "rènzhòngdàoyuǎn",
+      "meaning": "gánh nặng đường xa, nhiệm vụ nặng nề lâu dài",
+      "example_zh": "我们的事业<u>任重道远</u>。",
+      "example_vi": "Sự nghiệp của chúng ta <u>nhiệm vụ nặng nề và lâu dài</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "任重道远.svg",
+      "src": "images/HSK_2.0/level6/任重道远.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/任重道远.svg",
+        "images/HSK_3.0/level8/任重道远.svg",
+        "images/HSK_3.0/level9/任重道远.svg"
+      ]
+    },
+    "仍旧": {
+      "hanzi": "仍旧",
+      "pinyin": "réngjiù",
+      "meaning": "vẫn như cũ",
+      "example_zh": "他<u>仍旧</u>住在那个小镇上。",
+      "example_vi": "Anh ấy <u>vẫn</u> sống ở thị trấn nhỏ đó.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "仍旧.svg",
+      "src": "images/HSK_2.0/level6/仍旧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/仍旧.svg"
+      ]
+    },
+    "日新月异": {
+      "hanzi": "日新月异",
+      "pinyin": "rìxīnyuèyì",
+      "meaning": "thay đổi nhanh chóng từng ngày",
+      "example_zh": "科技发展<u>日新月异</u>。",
+      "example_vi": "Khoa học công nghệ phát triển <u>thay đổi nhanh chóng từng ngày</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "日新月异.svg",
+      "src": "images/HSK_2.0/level6/日新月异.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/日新月异.svg",
+        "images/HSK_3.0/level8/日新月异.svg",
+        "images/HSK_3.0/level9/日新月异.svg"
+      ]
+    },
+    "日益": {
+      "hanzi": "日益",
+      "pinyin": "rìyì",
+      "meaning": "ngày càng",
+      "example_zh": "城市的环境<u>日益</u>改善。",
+      "example_vi": "Môi trường thành phố <u>ngày càng</u> được cải thiện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "日益.svg",
+      "src": "images/HSK_2.0/level6/日益.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/日益.svg"
+      ]
+    },
+    "融化": {
+      "hanzi": "融化",
+      "pinyin": "rónghuà",
+      "meaning": "tan chảy",
+      "example_zh": "冰雪开始<u>融化</u>了。",
+      "example_vi": "Băng tuyết đã bắt đầu <u>tan chảy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "融化.svg",
+      "src": "images/HSK_2.0/level6/融化.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/融化.svg"
       ]
     },
     "擅长": {

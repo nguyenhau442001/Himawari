@@ -19377,6 +19377,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/任意.svg",
     "caption": "tùy ý"
   },
+  "任重道远": {
+    "file": "任重道远.svg",
+    "src": "images/HSK_2.0/level6/任重道远.svg",
+    "caption": "gánh nặng đường xa, nhiệm vụ nặng nề lâu dài"
+  },
+  "仍旧": {
+    "file": "仍旧.svg",
+    "src": "images/HSK_2.0/level6/仍旧.svg",
+    "caption": "vẫn như cũ"
+  },
+  "日新月异": {
+    "file": "日新月异.svg",
+    "src": "images/HSK_2.0/level6/日新月异.svg",
+    "caption": "thay đổi nhanh chóng từng ngày"
+  },
+  "日益": {
+    "file": "日益.svg",
+    "src": "images/HSK_2.0/level6/日益.svg",
+    "caption": "ngày càng"
+  },
+  "融化": {
+    "file": "融化.svg",
+    "src": "images/HSK_2.0/level6/融化.svg",
+    "caption": "tan chảy"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",
