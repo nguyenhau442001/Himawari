@@ -2,179 +2,297 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="50%" stop-color="#0f172a"/>
       <stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
 
-    <!-- Stall Canopy Gradients -->
-    <linearGradient id="stripeRed" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#f43f5e"/>
-      <stop offset="100%" stop-color="#e11d48"/>
+    <!-- Event Archway / Gate Gradients -->
+    <linearGradient id="archGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
-    <linearGradient id="stripeWhite" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#f8fafc"/>
-      <stop offset="100%" stop-color="#e2e8f0"/>
-    </linearGradient>
-
-    <!-- Wooden Counter Gradient -->
-    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#b45309"/>
-      <stop offset="100%" stop-color="#78350f"/>
-    </linearGradient>
-    <linearGradient id="woodTop" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d97706"/>
-      <stop offset="50%" stop-color="#f59e0b"/>
-      <stop offset="100%" stop-color="#d97706"/>
-    </linearGradient>
-
-    <!-- Gift Box Gradients -->
-    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="counterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="100%" stop-color="#0284c7"/>
     </linearGradient>
-    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#facc15"/>
-      <stop offset="100%" stop-color="#eab308"/>
+
+    <!-- Human Skin Gradients -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffedd5"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+    <linearGradient id="skinShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fba66c"/>
     </linearGradient>
 
-    <!-- Glow Effect Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <!-- Hair Gradients -->
+    <linearGradient id="hairGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="hairGradBrown" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+
+    <!-- Clothes Gradients -->
+    <linearGradient id="visitorJacket" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="staffUniform" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="staffVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- Hero Ticket (Miǎnfèi Pass) Gradients -->
+    <linearGradient id="ticketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="zeroBadgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
-    
-    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.3"/>
+    <filter id="ticketGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
 
-  <!-- Full-bleed background -->
+  <!-- Container Full-bleed -->
   <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
 
-  <!-- Background Ambient Glow for the "Free" item -->
-  <circle cx="120" cy="115" r="70" fill="#f59e0b" opacity="0.1" filter="url(#glow)"/>
-  <circle cx="120" cy="115" r="45" fill="#38bdf8" opacity="0.15" filter="url(#glow)"/>
+  <!-- ==================== BACKGROUND: EVENT ARCHWAY & FESTIVAL ATMOSPHERE ==================== -->
+  <!-- Ambient event festival lights beam -->
+  <circle cx="120" cy="70" r="85" fill="#38bdf8" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="135" cy="130" r="50" fill="#f59e0b" opacity="0.12" filter="url(#glow)"/>
 
-  <!-- ENVIRONMENT: Community Event / Market Stall background elements -->
-  <g opacity="0.25">
-    <!-- Building silhouettes / string lights -->
-    <path d="M20 60 Q 60 40 100 60 T 180 60 T 220 50" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 4"/>
-    <circle cx="60" cy="53" r="3" fill="#f59e0b"/>
-    <circle cx="100" cy="60" r="3" fill="#38bdf8"/>
-    <circle cx="140" cy="57" r="3" fill="#f43f5e"/>
-    <circle cx="180" cy="58" r="3" fill="#10b981"/>
+  <!-- Event Entrance Portal Arch (Background) -->
+  <path d="M 18 240 L 18 68 Q 18 36 50 36 L 190 36 Q 222 36 222 68 L 222 240" fill="none" stroke="url(#archGrad)" stroke-width="12" opacity="0.45"/>
+  <path d="M 24 240 L 24 70 Q 24 42 52 42 L 188 42 Q 216 42 216 70 L 216 240" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Festive Pennant Bunting (Event celebration / 活动) -->
+  <path d="M 22 46 Q 70 60 120 48 Q 170 60 218 46" fill="none" stroke="#64748b" stroke-width="1.2" stroke-dasharray="3 2" opacity="0.6"/>
+  <!-- Flags -->
+  <polygon points="35,49 47,51 41,63" fill="#f43f5e"/>
+  <polygon points="55,53 67,54 61,66" fill="#facc15"/>
+  <polygon points="75,54 87,54 81,67" fill="#38bdf8"/>
+  <polygon points="95,53 107,51 101,65" fill="#10b981"/>
+  <polygon points="115,49 127,49 121,63" fill="#fb923c"/>
+  <polygon points="135,50 147,52 141,65" fill="#ec4899"/>
+  <polygon points="155,53 167,54 161,67" fill="#38bdf8"/>
+  <polygon points="175,54 187,53 181,66" fill="#facc15"/>
+  <polygon points="195,51 207,49 201,63" fill="#10b981"/>
+
+  <!-- Event String Lights -->
+  <circle cx="41" cy="50" r="2.5" fill="#fde047" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="81" cy="54" r="2.5" fill="#38bdf8" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="121" cy="49" r="2.5" fill="#fde047" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="161" cy="54" r="2.5" fill="#38bdf8" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="201" cy="50" r="2.5" fill="#fde047" opacity="0.9" filter="url(#glow)"/>
+
+  <!-- ==================== EVENT RECEPTION COUNTER / TURNSTILE (RIGHT) ==================== -->
+  <!-- Check-in Counter Desk -->
+  <path d="M 148 152 L 226 152 L 226 240 L 148 240 Z" fill="#1e293b" filter="url(#softShadow)"/>
+  <path d="M 142 147 L 230 147 L 226 154 L 148 154 Z" fill="url(#counterGrad)"/>
+  <!-- Front counter accent strip -->
+  <rect x="156" y="166" width="60" height="2" rx="1" fill="#38bdf8" opacity="0.5"/>
+  <rect x="156" y="174" width="40" height="2" rx="1" fill="#38bdf8" opacity="0.3"/>
+
+  <!-- Turnstile Entry Sensor with Green Open Gate Light -->
+  <rect x="138" y="180" width="8" height="50" rx="3" fill="#334155"/>
+  <circle cx="142" cy="188" r="4.5" fill="#10b981" filter="url(#glow)"/>
+  <!-- Green check / entry arrow symbol -->
+  <path d="M 140 188 L 141.5 190 L 144.5 186.5" fill="none" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- "ZERO COST / NO CHARGE" EMBLEM on Reception Counter Desk -->
+  <!-- Circular badge showing crossed-out coin / zero fee -->
+  <g transform="translate(186, 192)" filter="url(#softShadow)">
+    <circle cx="0" cy="0" r="14" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="11" fill="#1e293b"/>
+    <!-- Golden Coin -->
+    <circle cx="0" cy="0" r="8" fill="#f59e0b"/>
+    <circle cx="0" cy="0" r="6" fill="#fbbf24"/>
+    <!-- Currency bar center -->
+    <rect x="-3" y="-1" width="6" height="2" rx="0.5" fill="#b45309"/>
+    <!-- Diagonal Red Slash (Crossing out the fee / Không thu phí / Miễn phí) -->
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="9.5" fill="none" stroke="#ef4444" stroke-width="1.8"/>
   </g>
 
-  <!-- THE STALL STRUCTURE -->
-  <!-- Stall back wall / interior -->
-  <rect x="40" y="80" width="160" height="70" fill="#334155" rx="4"/>
-  
-  <!-- Stall Canopy Poles -->
-  <rect x="48" y="70" width="8" height="85" fill="#64748b" rx="2"/>
-  <rect x="184" y="70" width="8" height="85" fill="#64748b" rx="2"/>
+  <!-- ==================== CHARACTER 1: EVENT STAFF (RIGHT) ==================== -->
+  <g id="event-staff" filter="url(#softShadow)">
+    <!-- Staff Body / Torso -->
+    <path d="M 172 135 L 218 135 L 222 185 L 168 185 Z" fill="url(#staffUniform)"/>
+    <!-- Staff Green Vest -->
+    <path d="M 176 135 L 192 135 L 190 178 L 173 178 Z" fill="url(#staffVest)"/>
+    <path d="M 198 135 L 214 135 L 217 178 L 200 178 Z" fill="url(#staffVest)"/>
+    <!-- Staff ID Lanyard -->
+    <path d="M 188 135 L 195 152 L 202 135" fill="none" stroke="#facc15" stroke-width="1.5"/>
+    <rect x="191" y="152" width="8" height="11" rx="1.5" fill="#f8fafc"/>
+    <rect x="193" y="154" width="4" height="2" fill="#0284c7"/>
+    <rect x="193" y="158" width="4" height="3" fill="#94a3b8"/>
 
-  <!-- Striped Awning -->
-  <g filter="url(#softShadow)">
-    <path d="M30 70 L210 70 L195 45 L45 45 Z" fill="#334155"/>
-    <!-- Stripes -->
-    <polygon points="45,45 65,45 70,70 50,70" fill="url(#stripeRed)"/>
-    <polygon points="65,45 85,45 90,70 70,70" fill="url(#stripeWhite)"/>
-    <polygon points="85,45 105,45 110,70 90,70" fill="url(#stripeRed)"/>
-    <polygon points="105,45 125,45 130,70 110,70" fill="url(#stripeWhite)"/>
-    <polygon points="125,45 145,45 150,70 130,70" fill="url(#stripeRed)"/>
-    <polygon points="145,45 165,45 170,70 150,70" fill="url(#stripeWhite)"/>
-    <polygon points="165,45 185,45 190,70 170,70" fill="url(#stripeRed)"/>
-    <!-- Awning Scalloped Edge -->
-    <path d="M 45 70 Q 52.5 78 60 70 Q 67.5 78 75 70 Q 82.5 78 90 70 Q 97.5 78 105 70 Q 112.5 78 120 70 Q 127.5 78 135 70 Q 142.5 78 150 70 Q 157.5 78 165 70 Q 172.5 78 180 70 Q 187.5 78 195 70 Z" fill="url(#stripeWhite)"/>
+    <!-- Staff Head & Neck -->
+    <rect x="190" y="123" width="10" height="14" rx="3" fill="url(#skinShadow)"/>
+    <ellipse cx="195" cy="112" rx="13" ry="14" fill="url(#skinGrad)"/>
+    <!-- Staff Hair (Neat ponytail / modern cut) -->
+    <path d="M 183 110 C 182 98 193 94 204 96 C 209 98 211 104 209 112 C 205 106 200 104 194 104 C 188 104 184 107 183 110 Z" fill="url(#hairGradDark)"/>
+    <path d="M 207 105 C 213 103 218 108 217 114 C 216 118 212 120 208 118" fill="url(#hairGradDark)"/>
+    <!-- Staff Ear -->
+    <circle cx="184" cy="113" r="2.8" fill="#fba66c"/>
+
+    <!-- Staff Friendly Smiling Face -->
+    <path d="M 186 109 Q 189 107 192 109" fill="none" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 197 109 Q 200 107 203 109" fill="none" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 189 116 Q 195 122 201 116" fill="none" stroke="#991b1b" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Warm Blush -->
+    <circle cx="187" cy="114" r="2.2" fill="#f43f5e" opacity="0.3"/>
+    <circle cx="203" cy="114" r="2.2" fill="#f43f5e" opacity="0.3"/>
+
+    <!-- Staff Right Arm: Presenting the Free Pass Ticket forward -->
+    <!-- Arm extends from shoulder (174, 138) to hand at (140, 136) -->
+    <path d="M 174 138 Q 155 142 138 136" fill="none" stroke="url(#skinGrad)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 174 138 Q 166 140 160 141" fill="none" stroke="url(#staffUniform)" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- Staff Left Arm: Polite "No payment needed / Welcome!" Wave Gesture -->
+    <!-- Arm rises with open welcoming palm toward the visitor -->
+    <path d="M 194 142 Q 186 150 178 155" fill="none" stroke="url(#staffUniform)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 178 155 Q 168 157 158 154" fill="none" stroke="url(#skinGrad)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Open Palm facing outward gently (Polite declining of money / welcoming) -->
+    <ellipse cx="156" cy="153" rx="4.5" ry="5.5" fill="url(#skinGrad)"/>
+    <path d="M 154 149 L 151 146" stroke="url(#skinGrad)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 156 148 L 154 144" stroke="url(#skinGrad)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 158 149 L 157 145" stroke="url(#skinGrad)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 160 151 L 160 147" stroke="url(#skinGrad)" stroke-width="2" stroke-linecap="round"/>
   </g>
 
-  <!-- THE COUNTER -->
-  <!-- Counter base -->
-  <rect x="35" y="145" width="170" height="55" fill="url(#woodGrad)" filter="url(#softShadow)" rx="2"/>
-  <!-- Counter top shelf -->
-  <rect x="30" y="140" width="180" height="10" fill="url(#woodTop)" rx="2"/>
-  <!-- Counter panel detail -->
-  <rect x="45" y="155" width="45" height="35" fill="#78350f" opacity="0.3" rx="2"/>
-  <rect x="97" y="155" width="45" height="35" fill="#78350f" opacity="0.3" rx="2"/>
-  <rect x="150" y="155" width="45" height="35" fill="#78350f" opacity="0.3" rx="2"/>
+  <!-- ==================== HERO OBJECT: THE "0" ADMISSION PASS (FREE TICKET) ==================== -->
+  <!-- Centered prominently between the two characters -->
+  <g transform="translate(122, 126) rotate(-8)" filter="url(#ticketGlow)">
+    <!-- Ticket Shadow -->
+    <rect x="-24" y="-16" width="48" height="32" rx="5" fill="#0f172a" opacity="0.4"/>
+    <!-- Ticket Base Body (Vibrant Golden Gradient) -->
+    <rect x="-24" y="-16" width="48" height="32" rx="5" fill="url(#ticketGrad)"/>
+    <!-- Ticket decorative border -->
+    <rect x="-22" y="-14" width="44" height="28" rx="3.5" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
 
-  <!-- SIDE PROPS: VIBRANT CONTEXT ITEMS -->
-  <!-- Small potted plant on counter left -->
-  <path d="M 50 140 Q 48 125 55 125 Q 62 125 60 140 Z" fill="#10b981"/>
-  <path d="M 60 140 Q 65 120 72 122 Q 78 125 70 140 Z" fill="#059669"/>
-  <path d="M 45 140 L 65 140 L 62 148 L 48 148 Z" fill="#f43f5e" rx="1"/>
+    <!-- Left & Right Notch Cutouts (Classic admission ticket feel) -->
+    <circle cx="-24" cy="0" r="4.5" fill="#0f172a"/>
+    <circle cx="24" cy="0" r="4.5" fill="#0f172a"/>
 
-  <!-- Vouchers / Tickets stack on counter right -->
-  <g transform="translate(160, 125) rotate(10)">
-    <rect x="0" y="0" width="22" height="15" fill="#f8fafc" rx="2" filter="url(#softShadow)"/>
-    <circle cx="6" cy="7.5" r="2" fill="#cbd5e1"/>
-    <line x1="10" y1="6" x2="18" y2="6" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
-    <line x1="10" y1="10" x2="15" y2="10" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
-  </g>
-  <g transform="translate(155, 130) rotate(-5)">
-    <rect x="0" y="0" width="22" height="15" fill="#38bdf8" rx="2" filter="url(#softShadow)"/>
-    <circle cx="6" cy="7.5" r="2" fill="#bae6fd"/>
-    <line x1="10" y1="6" x2="18" y2="6" stroke="#bae6fd" stroke-width="2" stroke-linecap="round"/>
-  </g>
+    <!-- Perforation dashed line -->
+    <line x1="8" y1="-14" x2="8" y2="14" stroke="#d97706" stroke-width="1.2" stroke-dasharray="2.5 2"/>
 
-  <!-- MAIN SUBJECT: CENTRAL "FREE" GIFT BOX (Representing Miǎnfèi / Free) -->
-  <g filter="url(#softShadow)">
-    <!-- Gift Box Shadow on Counter -->
-    <ellipse cx="120" cy="143" rx="28" ry="8" fill="#0f172a" opacity="0.5"/>
+    <!-- THE "0" BADGE (Universal Visual of 0 Fee / Free / Miễn Phí) -->
+    <circle cx="-7" cy="0" r="10.5" fill="url(#zeroBadgeGrad)"/>
+    <circle cx="-7" cy="0" r="9" fill="#065f46"/>
+    <!-- Crisp bold white "0" -->
+    <ellipse cx="-7" cy="0" rx="4.8" ry="6.2" fill="none" stroke="#ffffff" stroke-width="2.4"/>
+    <ellipse cx="-7" cy="0" rx="2.4" ry="3.8" fill="#065f46"/>
 
-    <!-- Box Base -->
-    <path d="M 96 110 L 144 110 L 144 140 L 96 140 Z" fill="url(#boxGrad)"/>
-    <!-- Box Base Right Shading -->
-    <path d="M 120 110 L 144 110 L 144 140 L 120 140 Z" fill="#000000" opacity="0.15"/>
-
-    <!-- Vertical Ribbon -->
-    <path d="M 113 110 L 127 110 L 127 140 L 113 140 Z" fill="url(#ribbonGrad)"/>
-
-    <!-- Box Lid -->
-    <path d="M 92 100 L 148 100 L 148 110 L 92 110 Z" fill="#0284c7" rx="1"/>
-    <!-- Horizontal Ribbon on Lid -->
-    <path d="M 92 104 L 148 104 L 148 108 L 92 108 Z" fill="url(#ribbonGrad)"/>
-
-    <!-- Big Gorgeous Bow on Top -->
-    <!-- Left Loop -->
-    <path d="M 120 100 C 105 95 100 80 112 78 C 122 76 122 92 120 100 Z" fill="#facc15" stroke="#ca8a04" stroke-width="1.5"/>
-    <path d="M 120 100 C 108 96 104 84 113 82 C 120 80 121 92 120 100 Z" fill="#fde047" opacity="0.6"/>
-
-    <!-- Right Loop -->
-    <path d="M 120 100 C 135 95 140 80 128 78 C 118 76 118 92 120 100 Z" fill="#facc15" stroke="#ca8a04" stroke-width="1.5"/>
-    <path d="M 120 100 C 132 96 136 84 127 82 C 120 80 119 92 120 100 Z" fill="#fde047" opacity="0.6"/>
-
-    <!-- Center Knot -->
-    <circle cx="120" cy="99" r="5" fill="#eab308" stroke="#ca8a04" stroke-width="1"/>
-    
-    <!-- Ribbon Tails -->
-    <path d="M 116 108 C 110 115 105 118 102 122" fill="none" stroke="#facc15" stroke-width="4" stroke-linecap="round"/>
-    <path d="M 124 108 C 130 115 135 118 138 122" fill="none" stroke="#facc15" stroke-width="4" stroke-linecap="round"/>
+    <!-- Ticket Right Stub: Star & Barcode elements -->
+    <!-- Star icon -->
+    <path d="M 16 -5 L 17 -2 L 20 -2 L 18 0 L 19 3 L 16 1.5 L 13 3 L 14 0 L 12 -2 L 15 -2 Z" fill="#b45309"/>
+    <!-- Barcode strips -->
+    <line x1="12" y1="5" x2="12" y2="10" stroke="#78350f" stroke-width="1.2"/>
+    <line x1="14" y1="5" x2="14" y2="10" stroke="#78350f" stroke-width="0.8"/>
+    <line x1="16" y1="5" x2="16" y2="10" stroke="#78350f" stroke-width="1.5"/>
+    <line x1="18" y1="5" x2="18" y2="10" stroke="#78350f" stroke-width="0.8"/>
+    <line x1="20" y1="5" x2="20" y2="10" stroke="#78350f" stroke-width="1.2"/>
   </g>
 
-  <!-- CELEBRATORY ACTION ELEMENTS (Sparkles & Energy) -->
-  <g>
-    <!-- Top Sparkle 1 -->
-    <path d="M 80 85 Q 80 70 65 70 Q 80 70 80 55 Q 80 70 95 70 Q 80 70 80 85 Z" fill="#f59e0b" filter="url(#glow)"/>
-    <path d="M 80 80 Q 80 70 70 70 Q 80 70 80 60 Q 80 70 90 70 Q 80 70 80 80 Z" fill="#fef08a"/>
-
-    <!-- Top Sparkle 2 -->
-    <path d="M 165 95 Q 165 85 155 85 Q 165 85 165 75 Q 165 85 175 85 Q 165 85 165 95 Z" fill="#38bdf8" filter="url(#glow)"/>
-    <path d="M 165 92 Q 165 85 158 85 Q 165 85 165 78 Q 165 85 172 85 Q 165 85 165 92 Z" fill="#e0f2fe"/>
-
-    <!-- Small Confetti Dots -->
-    <circle cx="95" cy="85" r="2.5" fill="#ec4899"/>
-    <circle cx="145" cy="80" r="3" fill="#10b981"/>
-    <circle cx="155" cy="120" r="2" fill="#f59e0b"/>
-    <circle cx="85" cy="130" r="2.5" fill="#38bdf8"/>
-    <circle cx="105" cy="65" r="2" fill="#f43f5e"/>
-    <circle cx="135" cy="60" r="2.5" fill="#facc15"/>
+  <!-- Sparkles & Aura of Joy around the Free Pass -->
+  <g filter="url(#glow)">
+    <!-- Golden Sparkle 1 -->
+    <path d="M 112 102 Q 112 95 106 95 Q 112 95 112 88 Q 112 95 118 95 Q 112 95 112 102 Z" fill="#fbbf24"/>
+    <!-- Cyan Sparkle 2 -->
+    <path d="M 148 108 Q 148 103 144 103 Q 148 103 148 98 Q 148 103 152 103 Q 148 103 148 108 Z" fill="#38bdf8"/>
+    <!-- Emerald Sparkle 3 -->
+    <path d="M 98 138 Q 98 134 95 134 Q 98 134 98 130 Q 98 134 101 134 Q 98 134 98 138 Z" fill="#34d399"/>
+    <circle cx="140" cy="116" r="1.5" fill="#fde047"/>
+    <circle cx="106" cy="118" r="1.5" fill="#fde047"/>
   </g>
 
-  <!-- FOREGROUND VIGNETTE / ATMOSPHERE -->
-  <!-- Bottom soft lighting gradient -->
-  <rect x="0" y="210" width="240" height="30" fill="url(#bgGrad)" opacity="0.8" style="mix-blend-mode: multiply;"/>
-  
-  <!-- Friendly glowing rim light on bottom counter edge -->
-  <line x1="30" y1="140" x2="210" y2="140" stroke="#f59e0b" stroke-width="1.5" opacity="0.6"/>
+  <!-- ==================== CHARACTER 2: VISITOR / ATTENDEE (LEFT) ==================== -->
+  <g id="event-visitor" filter="url(#softShadow)">
+    <!-- Legs / Denim Jeans -->
+    <path d="M 46 195 L 44 240 L 58 240 L 59 198 Z" fill="#1e293b"/>
+    <path d="M 60 196 L 62 240 L 76 240 L 73 195 Z" fill="#0f172a"/>
+
+    <!-- Visitor Torso & Jacket -->
+    <path d="M 36 136 C 36 136 58 126 78 135 L 75 198 L 42 198 Z" fill="url(#visitorJacket)"/>
+    <!-- Inner T-shirt (teal) -->
+    <path d="M 52 132 L 62 132 L 64 165 L 50 165 Z" fill="#0284c7"/>
+    <!-- Jacket Lapels -->
+    <path d="M 44 134 L 52 166 L 40 186" fill="none" stroke="#c2410c" stroke-width="2"/>
+    <path d="M 70 134 L 62 166 L 73 186" fill="none" stroke="#c2410c" stroke-width="2"/>
+
+    <!-- Visitor Head & Neck -->
+    <rect x="52" y="119" width="10" height="15" rx="3" fill="url(#skinShadow)"/>
+    <ellipse cx="57" cy="108" rx="14" ry="15" fill="url(#skinGrad)"/>
+    <!-- Visitor Hair (Modern stylish wavy cut) -->
+    <path d="M 44 106 C 43 92 56 88 68 90 C 74 92 76 99 74 108 C 69 100 62 98 56 99 C 48 100 45 103 44 106 Z" fill="url(#hairGradBrown)"/>
+    <path d="M 43 106 C 41 110 43 114 45 116" fill="url(#hairGradBrown)"/>
+    <!-- Ear -->
+    <circle cx="70" cy="110" r="3" fill="#fba66c"/>
+
+    <!-- Visitor Pleasantly Surprised & Happy Expression (^ v ^) -->
+    <!-- Eyes curved in delightful smile upon learning it's FREE -->
+    <path d="M 50 106 Q 54 102 58 106" fill="none" stroke="#0f172a" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M 62 106 Q 66 102 70 106" fill="none" stroke="#0f172a" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Raised relaxed eyebrows -->
+    <path d="M 49 101 Q 53 98 57 101" fill="none" stroke="#451a03" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 62 101 Q 66 98 70 101" fill="none" stroke="#451a03" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Big joyful smile -->
+    <path d="M 54 113 Q 60 120 67 113" fill="none" stroke="#991b1b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Blush cheeks -->
+    <circle cx="48" cy="111" r="2.5" fill="#f43f5e" opacity="0.35"/>
+    <circle cx="69" cy="111" r="2.5" fill="#f43f5e" opacity="0.35"/>
+
+    <!-- Visitor Right Arm: Reaching excitedly to receive the 0-cost Free Pass -->
+    <path d="M 68 138 Q 84 140 102 135" fill="none" stroke="url(#skinGrad)" stroke-width="8.5" stroke-linecap="round"/>
+    <path d="M 68 138 Q 78 139 85 139" fill="none" stroke="url(#visitorJacket)" stroke-width="11" stroke-linecap="round"/>
+    <!-- Open accepting hand / fingers receiving ticket -->
+    <ellipse cx="104" cy="134" rx="4" ry="4.5" fill="url(#skinGrad)"/>
+    <path d="M 104 132 L 109 130" stroke="url(#skinGrad)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 105 134 L 111 133" stroke="url(#skinGrad)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 104 136 L 110 137" stroke="url(#skinGrad)" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Visitor Left Arm: Putting Wallet / Money Away (No need to pay!) -->
+    <!-- Arm holds a closed leather wallet safely by their hip/pocket -->
+    <path d="M 40 138 Q 32 152 36 168" fill="none" stroke="url(#visitorJacket)" stroke-width="9.5" stroke-linecap="round"/>
+    <path d="M 36 168 Q 38 174 44 176" fill="none" stroke="url(#skinGrad)" stroke-width="7" stroke-linecap="round"/>
+    <!-- Leather Wallet (Brown bi-fold wallet kept closed) -->
+    <g transform="translate(42, 175) rotate(15)">
+      <rect x="-6" y="-8" width="13" height="17" rx="2.5" fill="#78350f" stroke="#451a03" stroke-width="1"/>
+      <line x1="-5" y1="0" x2="6" y2="0" stroke="#92400e" stroke-width="1.2"/>
+      <!-- Metallic clasp -->
+      <circle cx="4" cy="0" r="1.5" fill="#facc15"/>
+    </g>
+  </g>
+
+  <!-- ==================== FOREGROUND VIGNETTE & AMBIENCE ==================== -->
+  <!-- Floor line reflection -->
+  <line x1="20" y1="236" x2="220" y2="236" stroke="#334155" stroke-width="1" opacity="0.4"/>
+  <!-- Gentle bottom fade -->
+  <rect x="0" y="222" width="240" height="18" fill="url(#bgGrad)" opacity="0.6"/>
 </svg>

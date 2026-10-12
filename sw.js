@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20261012-mobile-responsive1';
+const ASSET_VERSION = '20261013-free-illustration1';
 const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./index.html', self.registration.scope).href;

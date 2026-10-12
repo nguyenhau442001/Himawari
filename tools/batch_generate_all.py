@@ -423,6 +423,7 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
    - Dark-mode harmonious: Deep slate navy background (#0f172a, #1e293b), muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).
 5. STRICT NEGATIVE CONSTRAINTS:
    - ABSOLUTELY NO floating hearts (❤️), glowing heart icons, or romantic tropes UNLESS the word is explicitly about romantic love (e.g. 爱, 恋爱, 结婚, 谈恋爱) or literal anatomy (心脏). For gratitude (感谢, 谢谢), helping, politeness, kindness, teamwork, or friendship, DO NOT draw hearts! Depict realistic polite gestures (e.g. warm respectful smile, slight bow, handshake, supportive hand gesture) instead of romantic/dating clichés.
+   - For free-of-charge / zero-cost concepts (e.g. 免费, 免税, 赠送, 义诊), DO NOT draw generic wrapped birthday gift boxes or souvenir shops! A wrapped gift box conveys 'gift/present' (礼物), NOT 'free of charge'. Instead, depict authentic real-world transactions where fee/payment is waived (e.g. an event entrance/registration counter where attendees are welcomed with a 0-cost admission pass, staff warmly waving off payment with a friendly gesture, or an open gate with crossed-out coin/fee indicator).
    - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.
    - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.
 6. Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any commentary."""
