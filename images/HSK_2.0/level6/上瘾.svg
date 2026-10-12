@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Glow / Aura representing obsession/addiction -->
+  <circle cx="120" cy="120" r="70" fill="#FF8C00" opacity="0.12"/>
+  <circle cx="120" cy="120" r="50" fill="#FF8C00" opacity="0.2"/>
+
+  <!-- Smartphone representing mobile gaming context -->
+  <rect x="85" y="45" width="70" height="130" rx="12" fill="#2D323F" stroke="#3E4455" stroke-width="3"/>
+  <!-- Phone Screen -->
+  <rect x="93" y="57" width="54" height="106" rx="6" fill="#12151B"/>
+
+  <!-- Game UI / Action on Screen -->
+  <circle cx="120" cy="105" r="22" fill="#FF5722" opacity="0.3"/>
+  <polygon points="113,95 113,115 133,105" fill="#FF8C00"/>
+
+  <!-- Glowing Tether / Hook (Visualizing "Addiction" binding the user to the device) -->
+  <path d="M 120 175 Q 120 195 100 205 Q 80 215 65 200" fill="none" stroke="#FF8C00" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 120 175 Q 120 195 140 205 Q 160 215 175 200" fill="none" stroke="#FF5722" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Hook/Anchor element at the bottom symbolizing "Hooked / Shàngyǐn" -->
+  <path d="M 110,203 L 130,203 L 120,218 Z" fill="#FF8C00"/>
+  <circle cx="120" cy="198" r="4" fill="#FFE552"/>
+
+  <!-- Emanating energy/pulse rings -->
+  <path d="M 70 85 C 60 95 60 115 70 125" fill="none" stroke="#FF8C00" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 170 85 C 180 95 180 115 170 125" fill="none" stroke="#FF8C00" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Sparkles / Focus Accents -->
+  <path d="M 75 55 L 78 63 L 86 66 L 78 69 L 75 77 L 72 69 L 64 66 L 72 63 Z" fill="#FFE552" opacity="0.9"/>
+  <path d="M 165 140 L 167 145 L 172 147 L 167 149 L 165 154 L 163 149 L 158 147 L 163 145 Z" fill="#FFE552" opacity="0.7"/>
+  <path d="M 145 42 L 146 45 L 149 46 L 146 47 L 145 50 L 144 47 L 141 46 L 144 45 Z" fill="#FFE552" opacity="0.8"/>
+
+</svg>

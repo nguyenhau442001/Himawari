@@ -19532,6 +19532,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/擅长.svg",
     "caption": "giỏi về, sở trường"
   },
+  "擅自": {
+    "file": "擅自.svg",
+    "src": "images/HSK_2.0/level6/擅自.svg",
+    "caption": "tự tiện, tự ý"
+  },
+  "商标": {
+    "file": "商标.svg",
+    "src": "images/HSK_2.0/level6/商标.svg",
+    "caption": "thương hiệu, nhãn hiệu"
+  },
+  "伤脑筋": {
+    "file": "伤脑筋.svg",
+    "src": "images/HSK_2.0/level6/伤脑筋.svg",
+    "caption": "đau đầu, khó nghĩ"
+  },
+  "上级": {
+    "file": "上级.svg",
+    "src": "images/HSK_2.0/level6/上级.svg",
+    "caption": "cấp trên"
+  },
+  "上进": {
+    "file": "上进.svg",
+    "src": "images/HSK_2.0/level6/上进.svg",
+    "caption": "cầu tiến, tiến bộ"
+  },
+  "上任": {
+    "file": "上任.svg",
+    "src": "images/HSK_2.0/level6/上任.svg",
+    "caption": "nhận nhiệm sở, lên nắm quyền"
+  },
+  "上瘾": {
+    "file": "上瘾.svg",
+    "src": "images/HSK_2.0/level6/上瘾.svg",
+    "caption": "nghiện"
+  },
+  "上游": {
+    "file": "上游.svg",
+    "src": "images/HSK_2.0/level6/上游.svg",
+    "caption": "thượng nguồn"
+  },
   "设立": {
     "file": "设立.svg",
     "src": "images/HSK_2.0/level6/设立.svg",

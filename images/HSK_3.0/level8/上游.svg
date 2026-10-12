@@ -1,0 +1,29 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Mountain Silhouette & Environment -->
+  <path d="M40 180 L100 90 L160 180 Z" fill="#252A34"/>
+  <path d="M110 180 L160 100 L210 180 Z" fill="#2A303C"/>
+  
+  <!-- Snow Cap (Source/Upstream Indicator) -->
+  <path d="M100 90 L115 115 L108 120 L100 112 L92 120 L85 115 Z" fill="#E6EDF5"/>
+  <path d="M160 100 L172 120 L160 125 L148 120 Z" fill="#E6EDF5"/>
+
+  <!-- Water Spring / Upstream Stream Source -->
+  <circle cx="100" cy="125" r="4" fill="#38BDF8"/>
+  <path d="M100 128 C100 140 105 145 115 150 C125 155 130 160 135 180" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Glowing Focal Point (Highlighting "Upstream" / Thượng nguồn) -->
+  <circle cx="100" cy="125" r="16" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 2" opacity="0.8"/>
+  <circle cx="100" cy="125" r="24" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- River Flowing Down (Contextual curve, fading out to show direction) -->
+  <path d="M135 180 C140 200 155 210 180 220" fill="none" stroke="#0284C7" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Focus Arrow pointing precisely to the upstream source -->
+  <g transform="translate(130, 95)">
+    <circle cx="0" cy="0" r="14" fill="#F59E0B"/>
+    <path d="M-3 4 L4 -3 L-3 -10" fill="none" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

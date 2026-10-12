@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:00:18.030566",
-  "total_unique_words_with_illustrations": 4495,
-  "total_flat_svg_files": 4495,
+  "generated_at": "2026-10-12T23:05:37.455240",
+  "total_unique_words_with_illustrations": 4503,
+  "total_flat_svg_files": 4503,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1855,
-        "pct": "74.2%"
+        "with_svg": 1863,
+        "pct": "74.5%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 620,
-        "pct": "34.4%"
+        "with_svg": 623,
+        "pct": "34.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 920,
-        "pct": "16.4%"
+        "with_svg": 925,
+        "pct": "16.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 920,
-        "pct": "16.4%"
+        "with_svg": 925,
+        "pct": "16.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 920,
-        "pct": "16.4%"
+        "with_svg": 925,
+        "pct": "16.5%"
       }
     }
   },
@@ -73266,6 +73266,170 @@
       "src": "images/HSK_2.0/level6/擅长.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/擅长.svg"
+      ]
+    },
+    "擅自": {
+      "hanzi": "擅自",
+      "pinyin": "shànzì",
+      "meaning": "tự tiện, tự ý",
+      "example_zh": "他<u>擅自</u>做出了决定。",
+      "example_vi": "Anh ấy <u>tự ý</u> đưa ra quyết định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "擅自.svg",
+      "src": "images/HSK_2.0/level6/擅自.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/擅自.svg",
+        "images/HSK_3.0/level8/擅自.svg",
+        "images/HSK_3.0/level9/擅自.svg"
+      ]
+    },
+    "商标": {
+      "hanzi": "商标",
+      "pinyin": "shāngbiāo",
+      "meaning": "thương hiệu, nhãn hiệu",
+      "example_zh": "这是一个著名的<u>商标</u>。",
+      "example_vi": "Đây là một <u>nhãn hiệu</u> nổi tiếng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "商标.svg",
+      "src": "images/HSK_2.0/level6/商标.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/商标.svg"
+      ]
+    },
+    "伤脑筋": {
+      "hanzi": "伤脑筋",
+      "pinyin": "shāngnǎojīn",
+      "meaning": "đau đầu, khó nghĩ",
+      "example_zh": "这个问题真让人<u>伤脑筋</u>。",
+      "example_vi": "Vấn đề này thực sự làm người ta <u>đau đầu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "伤脑筋.svg",
+      "src": "images/HSK_2.0/level6/伤脑筋.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/伤脑筋.svg",
+        "images/HSK_3.0/level8/伤脑筋.svg",
+        "images/HSK_3.0/level9/伤脑筋.svg"
+      ]
+    },
+    "上级": {
+      "hanzi": "上级",
+      "pinyin": "shàngjí",
+      "meaning": "cấp trên",
+      "example_zh": "他向<u>上级</u>报告了这件事。",
+      "example_vi": "Anh ấy đã báo cáo việc này với <u>cấp trên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "上级.svg",
+      "src": "images/HSK_2.0/level6/上级.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/上级.svg"
+      ]
+    },
+    "上进": {
+      "hanzi": "上进",
+      "pinyin": "shàngjìn",
+      "meaning": "cầu tiến, tiến bộ",
+      "example_zh": "他是一个很<u>上进</u>的年轻人。",
+      "example_vi": "Anh ấy là một người trẻ rất <u>cầu tiến</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "上进.svg",
+      "src": "images/HSK_2.0/level6/上进.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/上进.svg"
+      ]
+    },
+    "上任": {
+      "hanzi": "上任",
+      "pinyin": "shàngrèn",
+      "meaning": "nhận nhiệm sở, lên nắm quyền",
+      "example_zh": "新经理已经<u>上任</u>了。",
+      "example_vi": "Giám đốc mới đã <u>nhận nhiệm sở</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "上任.svg",
+      "src": "images/HSK_2.0/level6/上任.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/上任.svg",
+        "images/HSK_3.0/level8/上任.svg",
+        "images/HSK_3.0/level9/上任.svg"
+      ]
+    },
+    "上瘾": {
+      "hanzi": "上瘾",
+      "pinyin": "shàngyǐn",
+      "meaning": "nghiện",
+      "example_zh": "他对手机游戏<u>上瘾</u>了。",
+      "example_vi": "Anh ấy đã <u>nghiện</u> chơi game trên điện thoại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "上瘾.svg",
+      "src": "images/HSK_2.0/level6/上瘾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/上瘾.svg",
+        "images/HSK_3.0/level8/上瘾.svg",
+        "images/HSK_3.0/level9/上瘾.svg"
+      ]
+    },
+    "上游": {
+      "hanzi": "上游",
+      "pinyin": "shàngyóu",
+      "meaning": "thượng nguồn",
+      "example_zh": "这条河的<u>上游</u>水质很好。",
+      "example_vi": "Chất lượng nước ở <u>thượng nguồn</u> con sông này rất tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "上游.svg",
+      "src": "images/HSK_2.0/level6/上游.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/上游.svg",
+        "images/HSK_3.0/level8/上游.svg",
+        "images/HSK_3.0/level9/上游.svg"
       ]
     },
     "设立": {
