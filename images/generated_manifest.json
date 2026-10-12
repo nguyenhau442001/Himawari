@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:49:19.026993",
-  "total_unique_words_with_illustrations": 3569,
-  "total_flat_svg_files": 3569,
+  "generated_at": "2026-10-12T11:51:12.646764",
+  "total_unique_words_with_illustrations": 3579,
+  "total_flat_svg_files": 3579,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 929,
-        "pct": "37.2%"
+        "with_svg": 939,
+        "pct": "37.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 346,
-        "pct": "19.2%"
+        "with_svg": 351,
+        "pct": "19.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 329,
-        "pct": "5.9%"
+        "with_svg": 334,
+        "pct": "6.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 329,
-        "pct": "5.9%"
+        "with_svg": 334,
+        "pct": "6.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 329,
-        "pct": "5.9%"
+        "with_svg": 334,
+        "pct": "6.0%"
       }
     }
   },
@@ -53600,6 +53600,24 @@
         "images/HSK_3.0/level6/当代.svg"
       ]
     },
+    "当面": {
+      "hanzi": "当面",
+      "pinyin": "dāngmiàn",
+      "meaning": "trực tiếp, đối mặt",
+      "example_zh": "有问题<u>当面</u>说清楚。",
+      "example_vi": "Có vấn đề thì nói rõ <u>trực tiếp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "当面.svg",
+      "src": "images/HSK_2.0/level6/当面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/当面.svg"
+      ]
+    },
     "当前": {
       "hanzi": "当前",
       "pinyin": "dāngqián",
@@ -53616,6 +53634,188 @@
       "src": "images/HSK_2.0/level6/当前.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/当前.svg"
+      ]
+    },
+    "当事人": {
+      "hanzi": "当事人",
+      "pinyin": "dāngshìrén",
+      "meaning": "người liên quan, bên đương sự",
+      "example_zh": "法院传唤了<u>当事人</u>。",
+      "example_vi": "Tòa án triệu tập <u>người liên quan</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "当事人.svg",
+      "src": "images/HSK_2.0/level6/当事人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/当事人.svg",
+        "images/HSK_3.0/level8/当事人.svg",
+        "images/HSK_3.0/level9/当事人.svg"
+      ]
+    },
+    "当务之急": {
+      "hanzi": "当务之急",
+      "pinyin": "dāng wù zhī jí",
+      "meaning": "việc cấp bách nhất hiện nay",
+      "example_zh": "解决资金问题是<u>当务之急</u>。",
+      "example_vi": "Giải quyết vấn đề vốn là <u>việc cấp bách nhất</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "当务之急.svg",
+      "src": "images/HSK_2.0/level6/当务之急.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/当务之急.svg",
+        "images/HSK_3.0/level8/当务之急.svg",
+        "images/HSK_3.0/level9/当务之急.svg"
+      ]
+    },
+    "当选": {
+      "hanzi": "当选",
+      "pinyin": "dāngxuǎn",
+      "meaning": "được bầu, đắc cử",
+      "example_zh": "他成功<u>当选</u>了班长。",
+      "example_vi": "Anh ấy <u>được bầu</u> làm lớp trưởng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "当选.svg",
+      "src": "images/HSK_2.0/level6/当选.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/当选.svg"
+      ]
+    },
+    "党": {
+      "hanzi": "党",
+      "pinyin": "dǎng",
+      "meaning": "đảng",
+      "example_zh": "他加入了那个<u>党</u>。",
+      "example_vi": "Anh ấy gia nhập <u>đảng</u> đó.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "党.svg",
+      "src": "images/HSK_2.0/level6/党.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/党.svg",
+        "images/HSK_3.0/level8/党.svg",
+        "images/HSK_3.0/level9/党.svg"
+      ]
+    },
+    "档案": {
+      "hanzi": "档案",
+      "pinyin": "dàngàn",
+      "meaning": "hồ sơ lưu trữ",
+      "example_zh": "这些<u>档案</u>需要保存十年。",
+      "example_vi": "Những <u>hồ sơ lưu trữ</u> này cần giữ trong mười năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "档案.svg",
+      "src": "images/HSK_2.0/level6/档案.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/档案.svg"
+      ]
+    },
+    "档次": {
+      "hanzi": "档次",
+      "pinyin": "dàngcì",
+      "meaning": "đẳng cấp, cấp độ chất lượng",
+      "example_zh": "这家酒店的<u>档次</u>很高。",
+      "example_vi": "<u>Đẳng cấp</u> của khách sạn này rất cao.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "档次.svg",
+      "src": "images/HSK_2.0/level6/档次.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/档次.svg",
+        "images/HSK_3.0/level8/档次.svg",
+        "images/HSK_3.0/level9/档次.svg"
+      ]
+    },
+    "岛": {
+      "hanzi": "岛",
+      "pinyin": "dǎo",
+      "meaning": "đảo",
+      "example_zh": "这是一个美丽的<u>岛</u>。",
+      "example_vi": "Đây là một <u>đảo</u> đẹp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "岛.svg",
+      "src": "images/HSK_2.0/level6/岛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/岛.svg"
+      ]
+    },
+    "倒闭": {
+      "hanzi": "倒闭",
+      "pinyin": "dǎobì",
+      "meaning": "phá sản, đóng cửa (kinh doanh)",
+      "example_zh": "这家公司已经<u>倒闭</u>了。",
+      "example_vi": "Công ty này đã <u>phá sản</u> rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "倒闭.svg",
+      "src": "images/HSK_2.0/level6/倒闭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/倒闭.svg"
+      ]
+    },
+    "导弹": {
+      "hanzi": "导弹",
+      "pinyin": "dǎodàn",
+      "meaning": "tên lửa dẫn đường",
+      "example_zh": "这是一种新型<u>导弹</u>。",
+      "example_vi": "Đây là một loại <u>tên lửa dẫn đường</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "导弹.svg",
+      "src": "images/HSK_2.0/level6/导弹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/导弹.svg",
+        "images/HSK_3.0/level8/导弹.svg",
+        "images/HSK_3.0/level9/导弹.svg"
       ]
     },
     "登录": {

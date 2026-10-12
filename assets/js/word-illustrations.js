@@ -14662,10 +14662,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/当代.svg",
     "caption": "thời đại hiện nay"
   },
+  "当面": {
+    "file": "当面.svg",
+    "src": "images/HSK_2.0/level6/当面.svg",
+    "caption": "trực tiếp, đối mặt"
+  },
   "当前": {
     "file": "当前.svg",
     "src": "images/HSK_2.0/level6/当前.svg",
     "caption": "hiện tại, trước mắt"
+  },
+  "当事人": {
+    "file": "当事人.svg",
+    "src": "images/HSK_2.0/level6/当事人.svg",
+    "caption": "người liên quan, bên đương sự"
+  },
+  "当务之急": {
+    "file": "当务之急.svg",
+    "src": "images/HSK_2.0/level6/当务之急.svg",
+    "caption": "việc cấp bách nhất hiện nay"
+  },
+  "当选": {
+    "file": "当选.svg",
+    "src": "images/HSK_2.0/level6/当选.svg",
+    "caption": "được bầu, đắc cử"
+  },
+  "党": {
+    "file": "党.svg",
+    "src": "images/HSK_2.0/level6/党.svg",
+    "caption": "đảng"
+  },
+  "档案": {
+    "file": "档案.svg",
+    "src": "images/HSK_2.0/level6/档案.svg",
+    "caption": "hồ sơ lưu trữ"
+  },
+  "档次": {
+    "file": "档次.svg",
+    "src": "images/HSK_2.0/level6/档次.svg",
+    "caption": "đẳng cấp, cấp độ chất lượng"
+  },
+  "岛": {
+    "file": "岛.svg",
+    "src": "images/HSK_2.0/level6/岛.svg",
+    "caption": "đảo"
+  },
+  "倒闭": {
+    "file": "倒闭.svg",
+    "src": "images/HSK_2.0/level6/倒闭.svg",
+    "caption": "phá sản, đóng cửa (kinh doanh)"
+  },
+  "导弹": {
+    "file": "导弹.svg",
+    "src": "images/HSK_2.0/level6/导弹.svg",
+    "caption": "tên lửa dẫn đường"
   },
   "登录": {
     "file": "登录.svg",
