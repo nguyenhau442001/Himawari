@@ -1,0 +1,140 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Warm Amber Glow for Spotlight -->
+    <radialGradient id="amberGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Handler Uniform Gradient -->
+    <linearGradient id="uniformGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+
+    <!-- Police Dog Fur Gradient -->
+    <linearGradient id="dogFur" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#92400e" />
+    </linearGradient>
+
+    <!-- Window Cityscape Lights Gradient -->
+    <linearGradient id="windowGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Ambient Lighting Glow -->
+  <circle cx="120" cy="110" r="110" fill="url(#amberGlow)" />
+
+  <!-- BACKGROUND ARCHITECTURE & PROPS -->
+  <!-- Station Window / Backdrop -->
+  <path d="M60 40 L180 40 L180 140 L60 140 Z" fill="url(#windowGlow)" stroke="#334155" stroke-width="2" rx="4" />
+  <line x1="120" y1="40" x2="120" y2="140" stroke="#334155" stroke-width="1.5" />
+  <line x1="60" y1="90" x2="180" y2="90" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Office/Station Props: Locker / Shelving on Left -->
+  <rect x="25" y="70" width="25" height="110" fill="#334155" rx="2" />
+  <line x1="25" y1="110" x2="50" y2="110" stroke="#1e293b" stroke-width="2" />
+  <circle cx="43" cy="110" r="1.5" fill="#94a3b8" />
+
+  <!-- Desk & Police Gear on Right -->
+  <rect x="175" y="130" width="45" height="50" fill="#334155" rx="2" />
+  <path d="M185 115 L210 115 L215 130 L180 130 Z" fill="#475569" />
+  <!-- Radio / Walkie-talkie on desk -->
+  <rect x="190" y="102" width="8" height="15" fill="#0f172a" rx="1" />
+  <line x1="194" y1="98" x2="194" y2="102" stroke="#94a3b8" stroke-width="1.5" />
+
+  <!-- Floor -->
+  <rect x="0" y="180" height="60" width="240" fill="#090d16" />
+  <line x1="0" y1="180" x2="240" y2="180" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="2" />
+
+  <!-- POLICE OFFICER (HANDLER) -->
+  <!-- Officer Body & Uniform -->
+  <path d="M75 160 C75 135 90 125 105 125 C120 125 135 135 135 160 L140 200 L70 200 Z" fill="url(#uniformGrad)" />
+  <!-- Uniform Badge / Details -->
+  <polygon points="105,135 110,145 100,145" fill="#fbbf24" />
+  <rect x="95" y="150" width="20" height="2" fill="#38bdf8" />
+  <rect x="95" y="156" width="20" height="2" fill="#38bdf8" />
+
+  <!-- Officer Neck & Head -->
+  <rect x="98" y="112" width="14" height="16" fill="#fcd34d" rx="4" />
+  <!-- Head / Face -->
+  <circle cx="105" cy="102" r="15" fill="#fcd34d" />
+  <!-- Hair (Short dark hair) -->
+  <path d="M90 100 C90 90 98 86 105 86 C112 86 120 90 120 100 C120 102 118 100 115 97 C110 93 100 93 95 97 C92 100 90 102 90 100 Z" fill="#0f172a" />
+  <!-- Friendly, proud expression -->
+  <path d="M102 104 Q105 108 108 104" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" fill="none" />
+  <circle cx="100" cy="99" r="1.5" fill="#1e293b" />
+  <circle cx="110" cy="99" r="1.5" fill="#1e293b" />
+
+  <!-- Officer Arms & Hand gesturing / holding leash -->
+  <path d="M80 135 Q70 150 90 165" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round" fill="none" />
+  <circle cx="92" cy="167" r="5" fill="#fcd34d" />
+  
+  <!-- Right arm resting on leg/hip -->
+  <path d="M130 135 Q140 150 125 165" stroke="#1e3a8a" stroke-width="10" stroke-linecap="round" fill="none" />
+
+  <!-- POLICE DOG (警犬 - QUĂN) -->
+  <!-- Dog Body (Loyal German Shepherd style silhouette & coloring) -->
+  <!-- Hind legs -->
+  <path d="M125 170 L120 205 L135 205 L140 180 Z" fill="#b45309" />
+  <ellipse cx="127" cy="205" rx="8" ry="3" fill="#78350f" />
+
+  <!-- Main Torso -->
+  <ellipse cx="148" cy="165" rx="22" ry="15" fill="url(#dogFur)" />
+  <path d="M130 155 L165 155 L160 195 L130 195 Z" fill="url(#dogFur)" />
+
+  <!-- Front legs -->
+  <path d="M140 175 L138 206 L148 206 L152 175 Z" fill="#d97706" />
+  <ellipse cx="143" cy="206" rx="5" ry="3" fill="#92400e" />
+  
+  <path d="M152 175 L154 206 L164 206 L160 175 Z" fill="#d97706" />
+  <ellipse cx="159" cy="206" rx="5" ry="3" fill="#92400e" />
+
+  <!-- Tail (Alert, curved up slightly) -->
+  <path d="M127 160 Q112 150 115 140" stroke="#92400e" stroke-width="5" stroke-linecap="round" fill="none" />
+
+  <!-- Dog Neck & Head -->
+  <path d="M158 152 L172 135 L178 148 L168 162 Z" fill="#d97706" />
+  <!-- Dog Head Base -->
+  <circle cx="178" cy="132" r="12" fill="url(#dogFur)" />
+  <!-- Muzzle -->
+  <path d="M178 128 L194 132 L192 140 L178 138 Z" fill="#b45309" />
+  <circle cx="193" cy="133" r="2.5" fill="#0f172a" /> <!-- Nose -->
+
+  <!-- Pointed Ears -->
+  <polygon points="170,122 174,102 184,120" fill="#92400e" />
+  <polygon points="180,122 188,105 192,122" fill="#b45309" />
+
+  <!-- Alert/Happy Eye -->
+  <circle cx="183" cy="128" r="2" fill="#0f172a" />
+  <path d="M181 125 Q183 123 186 125" stroke="#0f172a" stroke-width="1" fill="none" />
+
+  <!-- Tactical Police K9 Harness (Red/Blue/Yellow accent strap) -->
+  <path d="M138 155 L158 155 L162 170 L142 170 Z" fill="#dc2626" opacity="0.9" />
+  <rect x="146" y="160" width="10" height="5" fill="#fbbf24" rx="1" />
+
+  <!-- Leash connecting Handler to K9 Harness -->
+  <path d="M92 167 Q115 155 148 162" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  <!-- FOREGROUND ACCENTS & POLISHING -->
+  <!-- Floor Shadow / Contact Shadows -->
+  <ellipse cx="105" cy="202" rx="35" ry="6" fill="#020617" opacity="0.5" />
+  <ellipse cx="145" cy="207" rx="30" ry="5" fill="#020617" opacity="0.6" />
+
+  <!-- High-tech/Professional Particle Sparkles (Subtle ambient depth) -->
+  <circle cx="70" cy="70" r="1.5" fill="#38bdf8" opacity="0.6" />
+  <circle cx="160" cy="60" r="1" fill="#fbbf24" opacity="0.8" />
+  <circle cx="210" cy="90" r="2" fill="#38bdf8" opacity="0.4" />
+</svg>

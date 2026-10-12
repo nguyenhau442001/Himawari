@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:48:23.255591",
-  "total_unique_words_with_illustrations": 4430,
-  "total_flat_svg_files": 4430,
+  "generated_at": "2026-10-12T22:49:17.085229",
+  "total_unique_words_with_illustrations": 4435,
+  "total_flat_svg_files": 4435,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1790,
-        "pct": "71.6%"
+        "with_svg": 1795,
+        "pct": "71.8%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 880,
-        "pct": "15.7%"
+        "with_svg": 884,
+        "pct": "15.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 880,
-        "pct": "15.7%"
+        "with_svg": 884,
+        "pct": "15.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 880,
-        "pct": "15.7%"
+        "with_svg": 884,
+        "pct": "15.8%"
       }
     }
   },
@@ -71898,6 +71898,108 @@
         "images/HSK_3.0/level7/权衡.svg",
         "images/HSK_3.0/level8/权衡.svg",
         "images/HSK_3.0/level9/权衡.svg"
+      ]
+    },
+    "权威": {
+      "hanzi": "权威",
+      "pinyin": "quánwēi",
+      "meaning": "quyền uy, người có thẩm quyền",
+      "example_zh": "他是这个领域的<u>权威</u>专家。",
+      "example_vi": "Anh ấy là chuyên gia <u>quyền uy</u> trong lĩnh vực này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "权威.svg",
+      "src": "images/HSK_2.0/level6/权威.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/权威.svg",
+        "images/HSK_3.0/level8/权威.svg",
+        "images/HSK_3.0/level9/权威.svg"
+      ]
+    },
+    "拳头": {
+      "hanzi": "拳头",
+      "pinyin": "quántou",
+      "meaning": "nắm đấm",
+      "example_zh": "他紧握着<u>拳头</u>。",
+      "example_vi": "Anh ấy siết chặt <u>nắm đấm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "拳头.svg",
+      "src": "images/HSK_2.0/level6/拳头.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/拳头.svg",
+        "images/HSK_3.0/level8/拳头.svg",
+        "images/HSK_3.0/level9/拳头.svg"
+      ]
+    },
+    "犬": {
+      "hanzi": "犬",
+      "pinyin": "quǎn",
+      "meaning": "con chó (văn viết)",
+      "example_zh": "他养了一只警<u>犬</u>。",
+      "example_vi": "Anh ấy nuôi một con <u>chó</u> cảnh sát.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "犬.svg",
+      "src": "images/HSK_2.0/level6/犬.svg",
+      "alt_srcs": []
+    },
+    "缺口": {
+      "hanzi": "缺口",
+      "pinyin": "quēkǒu",
+      "meaning": "lỗ hổng, khoảng thiếu",
+      "example_zh": "公司的资金存在很大<u>缺口</u>。",
+      "example_vi": "Nguồn vốn của công ty tồn tại một <u>lỗ hổng</u> lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "缺口.svg",
+      "src": "images/HSK_2.0/level6/缺口.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/缺口.svg",
+        "images/HSK_3.0/level8/缺口.svg",
+        "images/HSK_3.0/level9/缺口.svg"
+      ]
+    },
+    "缺席": {
+      "hanzi": "缺席",
+      "pinyin": "quēxí",
+      "meaning": "vắng mặt",
+      "example_zh": "他因病<u>缺席</u>了会议。",
+      "example_vi": "Anh ấy <u>vắng mặt</u> trong cuộc họp vì bệnh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "缺席.svg",
+      "src": "images/HSK_2.0/level6/缺席.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/缺席.svg",
+        "images/HSK_3.0/level8/缺席.svg",
+        "images/HSK_3.0/level9/缺席.svg"
       ]
     },
     "确保": {

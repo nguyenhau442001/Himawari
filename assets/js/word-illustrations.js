@@ -19192,6 +19192,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/权衡.svg",
     "caption": "cân nhắc, đắn đo"
   },
+  "权威": {
+    "file": "权威.svg",
+    "src": "images/HSK_2.0/level6/权威.svg",
+    "caption": "quyền uy, người có thẩm quyền"
+  },
+  "拳头": {
+    "file": "拳头.svg",
+    "src": "images/HSK_2.0/level6/拳头.svg",
+    "caption": "nắm đấm"
+  },
+  "犬": {
+    "file": "犬.svg",
+    "src": "images/HSK_2.0/level6/犬.svg",
+    "caption": "con chó (văn viết)"
+  },
+  "缺口": {
+    "file": "缺口.svg",
+    "src": "images/HSK_2.0/level6/缺口.svg",
+    "caption": "lỗ hổng, khoảng thiếu"
+  },
+  "缺席": {
+    "file": "缺席.svg",
+    "src": "images/HSK_2.0/level6/缺席.svg",
+    "caption": "vắng mặt"
+  },
   "确保": {
     "file": "确保.svg",
     "src": "images/HSK_2.0/level6/确保.svg",
