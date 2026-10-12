@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:09:57.711753",
-  "total_unique_words_with_illustrations": 4155,
-  "total_flat_svg_files": 4155,
+  "generated_at": "2026-10-12T21:13:42.175439",
+  "total_unique_words_with_illustrations": 4165,
+  "total_flat_svg_files": 4165,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1515,
-        "pct": "60.6%"
+        "with_svg": 1525,
+        "pct": "61.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 519,
-        "pct": "28.8%"
+        "with_svg": 523,
+        "pct": "29.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 694,
-        "pct": "12.4%"
+        "with_svg": 700,
+        "pct": "12.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 694,
-        "pct": "12.4%"
+        "with_svg": 700,
+        "pct": "12.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 694,
-        "pct": "12.4%"
+        "with_svg": 700,
+        "pct": "12.5%"
       }
     }
   },
@@ -66032,6 +66032,210 @@
       "src": "images/HSK_2.0/level6/蚂蚁.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/蚂蚁.svg"
+      ]
+    },
+    "嘛": {
+      "hanzi": "嘛",
+      "pinyin": "ma",
+      "meaning": "thôi mà, mà (trợ từ nhấn mạnh lý do hiển nhiên)",
+      "example_zh": "有问题就问<u>嘛</u>，别不好意思。",
+      "example_vi": "Có vấn đề thì hỏi <u>thôi mà</u>, đừng ngại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "嘛.svg",
+      "src": "images/HSK_2.0/level6/嘛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/嘛.svg"
+      ]
+    },
+    "埋伏": {
+      "hanzi": "埋伏",
+      "pinyin": "máifú",
+      "meaning": "phục kích, mai phục",
+      "example_zh": "士兵们在山林中<u>埋伏</u>。",
+      "example_vi": "Các binh sĩ <u>mai phục</u> trong rừng núi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "埋伏.svg",
+      "src": "images/HSK_2.0/level6/埋伏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/埋伏.svg",
+        "images/HSK_3.0/level8/埋伏.svg",
+        "images/HSK_3.0/level9/埋伏.svg"
+      ]
+    },
+    "埋没": {
+      "hanzi": "埋没",
+      "pinyin": "máimò",
+      "meaning": "chôn lấp, mai một (tài năng)",
+      "example_zh": "他的才华不应该被<u>埋没</u>。",
+      "example_vi": "Tài năng của anh ấy không nên bị <u>mai một</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "埋没.svg",
+      "src": "images/HSK_2.0/level6/埋没.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/埋没.svg",
+        "images/HSK_3.0/level8/埋没.svg",
+        "images/HSK_3.0/level9/埋没.svg"
+      ]
+    },
+    "埋葬": {
+      "hanzi": "埋葬",
+      "pinyin": "máizàng",
+      "meaning": "chôn cất, mai táng",
+      "example_zh": "他们把死者<u>埋葬</u>在山坡上。",
+      "example_vi": "Họ <u>chôn cất</u> người đã khuất trên sườn núi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "埋葬.svg",
+      "src": "images/HSK_2.0/level6/埋葬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/埋葬.svg",
+        "images/HSK_3.0/level8/埋葬.svg",
+        "images/HSK_3.0/level9/埋葬.svg"
+      ]
+    },
+    "迈": {
+      "hanzi": "迈",
+      "pinyin": "mài",
+      "meaning": "bước, sải bước",
+      "example_zh": "他<u>迈</u>着大步走过来。",
+      "example_vi": "Anh ấy <u>sải bước</u> dài đi đến.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "迈.svg",
+      "src": "images/HSK_2.0/level6/迈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/迈.svg"
+      ]
+    },
+    "脉搏": {
+      "hanzi": "脉搏",
+      "pinyin": "màibó",
+      "meaning": "mạch đập, nhịp đập",
+      "example_zh": "医生检查了病人的<u>脉搏</u>。",
+      "example_vi": "Bác sĩ kiểm tra <u>mạch đập</u> của bệnh nhân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "脉搏.svg",
+      "src": "images/HSK_2.0/level6/脉搏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/脉搏.svg",
+        "images/HSK_3.0/level8/脉搏.svg",
+        "images/HSK_3.0/level9/脉搏.svg"
+      ]
+    },
+    "埋怨": {
+      "hanzi": "埋怨",
+      "pinyin": "mányuàn",
+      "meaning": "phàn nàn, oán trách",
+      "example_zh": "他总是<u>埋怨</u>工作太累。",
+      "example_vi": "Anh ấy luôn <u>phàn nàn</u> công việc quá mệt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "埋怨.svg",
+      "src": "images/HSK_2.0/level6/埋怨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/埋怨.svg",
+        "images/HSK_3.0/level8/埋怨.svg",
+        "images/HSK_3.0/level9/埋怨.svg"
+      ]
+    },
+    "慢性": {
+      "hanzi": "慢性",
+      "pinyin": "mànxìng",
+      "meaning": "mãn tính",
+      "example_zh": "他患有<u>慢性</u>胃炎。",
+      "example_vi": "Anh ấy bị viêm dạ dày <u>mãn tính</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "慢性.svg",
+      "src": "images/HSK_2.0/level6/慢性.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/慢性.svg",
+        "images/HSK_3.0/level8/慢性.svg",
+        "images/HSK_3.0/level9/慢性.svg"
+      ]
+    },
+    "漫长": {
+      "hanzi": "漫长",
+      "pinyin": "màncháng",
+      "meaning": "dài đằng đẵng, dài lâu",
+      "example_zh": "这是一段<u>漫长</u>而艰难的旅程。",
+      "example_vi": "Đây là một hành trình <u>dài đằng đẵng</u> và gian nan.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "漫长.svg",
+      "src": "images/HSK_2.0/level6/漫长.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/漫长.svg"
+      ]
+    },
+    "漫画": {
+      "hanzi": "漫画",
+      "pinyin": "mànhuà",
+      "meaning": "tranh biếm họa, truyện tranh",
+      "example_zh": "他从小就喜欢看<u>漫画</u>。",
+      "example_vi": "Anh ấy thích đọc <u>truyện tranh</u> từ nhỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "漫画.svg",
+      "src": "images/HSK_2.0/level6/漫画.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/漫画.svg"
       ]
     },
     "忙碌": {

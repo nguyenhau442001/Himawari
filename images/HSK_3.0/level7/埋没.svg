@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="20" y="150" width="200" height="10" rx="2" fill="#334155"/>
+  <rect x="100" y="160" width="40" height="80" rx="2" fill="#334155"/>
+  
+  <!-- The "Buried" Talent (Dusty box/papers) -->
+  <path d="M40 180 L80 180 L75 220 L45 220 Z" fill="#475569"/>
+  <rect x="45" y="185" width="30" height="5" fill="#64748b"/>
+  <rect x="45" y="195" width="30" height="5" fill="#64748b"/>
+  
+  <!-- The Character (Reaching out to save the talent) -->
+  <circle cx="160" cy="100" r="25" fill="#fde68a"/>
+  <path d="M140 130 Q160 120 180 130 L175 180 L145 180 Z" fill="#38bdf8"/>
+  <path d="M135 140 L120 170" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M185 140 L200 170" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- The "Talent" being revealed (Glowing light) -->
+  <circle cx="60" cy="190" r="15" fill="#fbbf24" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M60 175 L65 160 L70 175 Z" fill="#fb923c"/>
+  <path d="M50 175 L60 150 L70 175 Z" fill="#fb923c"/>
+  
+  <!-- Spotlight effect -->
+  <path d="M140 80 L180 80 L210 240 L110 240 Z" fill="#ffffff" opacity="0.05"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="3" fill="#10b981"/>
+  <circle cx="30" cy="50" r="4" fill="#ec4899"/>
+  <path d="M180 30 L185 20 L190 30 Z" fill="#fbbf24"/>
+</svg>

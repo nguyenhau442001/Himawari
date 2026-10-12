@@ -17757,6 +17757,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/蚂蚁.svg",
     "caption": "con kiến"
   },
+  "嘛": {
+    "file": "嘛.svg",
+    "src": "images/HSK_2.0/level6/嘛.svg",
+    "caption": "thôi mà, mà (trợ từ nhấn mạnh lý do hiển nhiên)"
+  },
+  "埋伏": {
+    "file": "埋伏.svg",
+    "src": "images/HSK_2.0/level6/埋伏.svg",
+    "caption": "phục kích, mai phục"
+  },
+  "埋没": {
+    "file": "埋没.svg",
+    "src": "images/HSK_2.0/level6/埋没.svg",
+    "caption": "chôn lấp, mai một (tài năng)"
+  },
+  "埋葬": {
+    "file": "埋葬.svg",
+    "src": "images/HSK_2.0/level6/埋葬.svg",
+    "caption": "chôn cất, mai táng"
+  },
+  "迈": {
+    "file": "迈.svg",
+    "src": "images/HSK_2.0/level6/迈.svg",
+    "caption": "bước, sải bước"
+  },
+  "脉搏": {
+    "file": "脉搏.svg",
+    "src": "images/HSK_2.0/level6/脉搏.svg",
+    "caption": "mạch đập, nhịp đập"
+  },
+  "埋怨": {
+    "file": "埋怨.svg",
+    "src": "images/HSK_2.0/level6/埋怨.svg",
+    "caption": "phàn nàn, oán trách"
+  },
+  "慢性": {
+    "file": "慢性.svg",
+    "src": "images/HSK_2.0/level6/慢性.svg",
+    "caption": "mãn tính"
+  },
+  "漫长": {
+    "file": "漫长.svg",
+    "src": "images/HSK_2.0/level6/漫长.svg",
+    "caption": "dài đằng đẵng, dài lâu"
+  },
+  "漫画": {
+    "file": "漫画.svg",
+    "src": "images/HSK_2.0/level6/漫画.svg",
+    "caption": "tranh biếm họa, truyện tranh"
+  },
   "忙碌": {
     "file": "忙碌.svg",
     "src": "images/HSK_2.0/level6/忙碌.svg",

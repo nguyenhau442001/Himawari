@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Mountain Slope -->
+  <path d="M0 160 C 80 120, 160 120, 240 180 L 240 240 L 0 240 Z" fill="#334155"/>
+  <path d="M0 180 C 60 150, 180 150, 240 200 L 240 240 L 0 240 Z" fill="#475569"/>
+  
+  <!-- Grave/Mound -->
+  <ellipse cx="120" cy="175" rx="30" ry="15" fill="#64748b"/>
+  <path d="M100 175 Q 120 160 140 175" fill="#475569"/>
+  
+  <!-- Characters -->
+  <!-- Person 1 -->
+  <g transform="translate(80, 160)">
+    <circle cx="0" cy="-25" r="8" fill="#fbbf24"/>
+    <path d="M-10 -15 L 10 -15 L 5 10 L -5 10 Z" fill="#38bdf8"/>
+    <path d="M-5 10 L -5 30 M 5 10 L 5 30" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2 -->
+  <g transform="translate(160, 165)">
+    <circle cx="0" cy="-25" r="8" fill="#fbbf24"/>
+    <path d="M-10 -15 L 10 -15 L 5 10 L -5 10 Z" fill="#ec4899"/>
+    <path d="M-5 10 L -5 30 M 5 10 L 5 30" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Shovel -->
+  <path d="M135 160 L 145 150 M 145 150 L 155 140" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M155 140 L 162 135 L 158 125 L 150 130 Z" fill="#94a3b8"/>
+  
+  <!-- Atmosphere -->
+  <circle cx="200" cy="50" r="15" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="200" cy="50" r="25" fill="#f59e0b" opacity="0.1"/>
+  
+  <!-- Trees -->
+  <path d="M20 160 L 20 120 M 20 120 L 10 140 M 20 120 L 30 140" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M220 170 L 220 130 M 220 130 L 210 150 M 220 130 L 230 150" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+</svg>

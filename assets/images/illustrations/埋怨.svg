@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="50" fill="#475569"/>
+  <rect x="190" y="175" width="10" height="50" fill="#475569"/>
+  
+  <!-- Computer Screen -->
+  <rect x="130" y="80" width="70" height="50" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="135" y="85" width="60" height="35" rx="2" fill="#0f172a"/>
+  <path d="M140 95h40M140 105h30" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character -->
+  <g transform="translate(40, 70)">
+    <!-- Body -->
+    <path d="M20 150c0-20 15-30 30-30s30 10 30 30v20H20z" fill="#fb923c"/>
+    <!-- Head -->
+    <circle cx="50" cy="90" r="25" fill="#fde68a"/>
+    <!-- Expression (Frustrated) -->
+    <path d="M40 85h5M60 85h5" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <path d="M42 105c5 5 15 5 20 0" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Hair -->
+    <path d="M30 80c0-15 15-20 20-20s20 5 20 20" fill="#1e293b"/>
+    <!-- Arms -->
+    <path d="M25 130l-15 20M75 130l15 20" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Cluttered Desk Items -->
+  <circle cx="60" cy="150" r="8" fill="#ec4899"/>
+  <rect x="80" y="145" width="20" height="10" rx="2" fill="#10b981"/>
+  
+  <!-- Speech Bubble (Visualizing the complaint) -->
+  <path d="M110 60c0-10 10-20 25-20h30c15 0 25 10 25 20v20c0 10-10 20-25 20h-10l-10 10-5-10h-10c-15 0-25-10-25-20z" fill="#fbbf24"/>
+  <circle cx="135" cy="65" r="4" fill="#1e293b"/>
+  <circle cx="150" cy="65" r="4" fill="#1e293b"/>
+  <circle cx="165" cy="65" r="4" fill="#1e293b"/>
+</svg>
