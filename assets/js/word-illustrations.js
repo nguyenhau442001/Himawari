@@ -19597,10 +19597,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/奢侈.svg",
     "caption": "xa xỉ"
   },
+  "舌头": {
+    "file": "舌头.svg",
+    "src": "images/HSK_2.0/level6/舌头.svg",
+    "caption": "cái lưỡi"
+  },
   "设立": {
     "file": "设立.svg",
     "src": "images/HSK_2.0/level6/设立.svg",
     "caption": "thiết lập, thành lập"
+  },
+  "设想": {
+    "file": "设想.svg",
+    "src": "images/HSK_2.0/level6/设想.svg",
+    "caption": "giả định, hình dung"
   },
   "设置": {
     "file": "设置.svg",
@@ -19611,6 +19621,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "社区.svg",
     "src": "images/HSK_2.0/level6/社区.svg",
     "caption": "khu dân cư, cộng đồng"
+  },
+  "涉及": {
+    "file": "涉及.svg",
+    "src": "images/HSK_2.0/level6/涉及.svg",
+    "caption": "liên quan đến, đề cập đến"
+  },
+  "摄氏度": {
+    "file": "摄氏度.svg",
+    "src": "images/HSK_2.0/level6/摄氏度.svg",
+    "caption": "độ C (nhiệt độ)"
+  },
+  "深奥": {
+    "file": "深奥.svg",
+    "src": "images/HSK_2.0/level6/深奥.svg",
+    "caption": "sâu xa, thâm sâu"
   },
   "生存": {
     "file": "生存.svg",

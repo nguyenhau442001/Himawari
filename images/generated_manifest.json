@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:06:11.923633",
-  "total_unique_words_with_illustrations": 4508,
-  "total_flat_svg_files": 4508,
+  "generated_at": "2026-10-12T23:06:44.699332",
+  "total_unique_words_with_illustrations": 4513,
+  "total_flat_svg_files": 4513,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1868,
-        "pct": "74.7%"
+        "with_svg": 1873,
+        "pct": "74.9%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 615,
-        "pct": "61.5%"
+        "with_svg": 616,
+        "pct": "61.6%"
       },
       "level5": {
         "total": 1600,
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 623,
-        "pct": "34.6%"
+        "with_svg": 626,
+        "pct": "34.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 929,
+        "with_svg": 930,
         "pct": "16.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 929,
+        "with_svg": 930,
         "pct": "16.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 929,
+        "with_svg": 930,
         "pct": "16.6%"
       }
     }
@@ -73534,6 +73534,24 @@
         "images/HSK_3.0/level9/奢侈.svg"
       ]
     },
+    "舌头": {
+      "hanzi": "舌头",
+      "pinyin": "shétou",
+      "meaning": "cái lưỡi",
+      "example_zh": "他不小心咬到了自己的<u>舌头</u>。",
+      "example_vi": "Anh ấy vô tình cắn vào <u>lưỡi</u> của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "舌头.svg",
+      "src": "images/HSK_2.0/level6/舌头.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/舌头.svg"
+      ]
+    },
     "设立": {
       "hanzi": "设立",
       "pinyin": "shèlì",
@@ -73550,6 +73568,24 @@
       "src": "images/HSK_2.0/level6/设立.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/设立.svg"
+      ]
+    },
+    "设想": {
+      "hanzi": "设想",
+      "pinyin": "shèxiǎng",
+      "meaning": "giả định, hình dung",
+      "example_zh": "我们应该多<u>设想</u>一下未来的情况。",
+      "example_vi": "Chúng ta nên <u>hình dung</u> nhiều hơn về tình huống tương lai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "设想.svg",
+      "src": "images/HSK_2.0/level6/设想.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/设想.svg"
       ]
     },
     "设置": {
@@ -73586,6 +73622,64 @@
       "src": "images/HSK_2.0/level6/社区.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/社区.svg"
+      ]
+    },
+    "涉及": {
+      "hanzi": "涉及",
+      "pinyin": "shèjí",
+      "meaning": "liên quan đến, đề cập đến",
+      "example_zh": "这个案件<u>涉及</u>多个国家。",
+      "example_vi": "Vụ án này <u>liên quan đến</u> nhiều quốc gia.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "涉及.svg",
+      "src": "images/HSK_2.0/level6/涉及.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/涉及.svg"
+      ]
+    },
+    "摄氏度": {
+      "hanzi": "摄氏度",
+      "pinyin": "shèshìdù",
+      "meaning": "độ C (nhiệt độ)",
+      "example_zh": "今天的气温是三十<u>摄氏度</u>。",
+      "example_vi": "Nhiệt độ hôm nay là ba mươi <u>độ C</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "摄氏度.svg",
+      "src": "images/HSK_2.0/level6/摄氏度.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/摄氏度.svg"
+      ]
+    },
+    "深奥": {
+      "hanzi": "深奥",
+      "pinyin": "shēn'ào",
+      "meaning": "sâu xa, thâm sâu",
+      "example_zh": "这个理论很<u>深奥</u>，不容易理解。",
+      "example_vi": "Lý thuyết này rất <u>sâu xa</u>, không dễ hiểu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "深奥.svg",
+      "src": "images/HSK_2.0/level6/深奥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/深奥.svg",
+        "images/HSK_3.0/level8/深奥.svg",
+        "images/HSK_3.0/level9/深奥.svg"
       ]
     },
     "生存": {

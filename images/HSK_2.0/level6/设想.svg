@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/grid elements representing future/planning concept -->
+  <circle cx="120" cy="120" r="70" fill="none" stroke="#2A2F3D" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="120" r="90" fill="none" stroke="#2A2F3D" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Central Physical Object representing "Hypothetical Scenario / Vision / Mental Projection" (Crystal Ball / Future Projection Sphere) -->
+  <!-- Outer glowing aura -->
+  <circle cx="120" cy="115" r="46" fill="#F59E0B" opacity="0.15"/>
+  <circle cx="120" cy="115" r="38" fill="#F59E0B" opacity="0.25"/>
+
+  <!-- Glass Sphere Base/Back -->
+  <circle cx="120" cy="115" r="32" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+
+  <!-- Holographic Future Landscape inside the sphere (representing 设想 / imagining future situations) -->
+  <clipPath id="sphereClip">
+    <circle cx="120" cy="115" r="31"/>
+  </clipPath>
+  
+  <g clip-path="url(#sphereClip)">
+    <!-- Sphere interior gradient background -->
+    <rect x="88" y="83" width="64" height="64" fill="#0F172A"/>
+    
+    <!-- Abstract futuristic cityscape/pathway inside (future scenario) -->
+    <path d="M100 130 L120 100 L140 130 Z" fill="#3B82F6" opacity="0.4"/>
+    <rect x="112" y="115" width="16" height="15" fill="#60A5FA" opacity="0.6"/>
+    
+    <!-- Floating nodes / future planning markers -->
+    <circle cx="105" cy="105" r="3" fill="#F59E0B"/>
+    <circle cx="135" cy="98" r="2" fill="#10B981"/>
+    <path d="M105 105 L120 100 L135 98" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.8"/>
+  </g>
+
+  <!-- Glass Specular Highlight (Glossy effect) -->
+  <path d="M 100 95 A 22 22 0 0 1 135 98 A 30 30 0 0 0 100 95 Z" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- Stand for the crystal ball/projection device -->
+  <path d="M 104 153 L 136 153 L 130 162 L 110 162 Z" fill="#475569"/>
+  <ellipse cx="120" cy="162" rx="22" ry="4" fill="#64748B"/>
+
+  <!-- Floating Conceptual Elements (Thought/Idea Sparks around the object) -->
+  <!-- Top Right Spark -->
+  <path d="M 165 75 Q 175 75 175 65 Q 175 75 185 75 Q 175 75 175 85 Q 175 75 165 75 Z" fill="#F59E0B"/>
+  
+  <!-- Top Left Small Spark -->
+  <path d="M 70 85 Q 76 85 76 79 Q 76 85 82 85 Q 76 85 76 91 Q 76 85 70 85 Z" fill="#60A5FA"/>
+
+  <!-- Floating Light Rings (orbiting focus) -->
+  <ellipse cx="120" cy="115" rx="52" ry="18" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 6" opacity="0.6" transform="rotate(-15 120 115)"/>
+</svg>
