@@ -206,9 +206,8 @@
   text-align: center;
 }
 .meaning.show { display: block; }
-.card-content.is-empty .word-main-block .hanzi,
-.card-content.is-empty .word-main-block .pinyin-row,
-.card-content.is-empty .hint { display: none; }
+.card-content.is-empty .word-main-block,
+.card-content.is-empty .hint { display: none !important; }
 .card-content.is-empty .meaning { margin-top: 0; }
 
 .example-box {

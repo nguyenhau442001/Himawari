@@ -38,6 +38,7 @@ function rateCurrentCard(rating) {
   const wIdx = filteredOrder[idx % filteredOrder.length];
   const word = WORDS[wIdx];
   if (!word) return;
+  const prevDeck = typeof computeDeckProgress === 'function' ? computeDeckProgress() : null;
   reviewSrsCard(currentLevel, word.id, rating, srsCards);
   const limitMessage = document.getElementById('dailyNewLimitMessage');
   if (limitMessage) limitMessage.textContent = '';
@@ -45,43 +46,321 @@ function rateCurrentCard(rating) {
   recordDailyStudy(word.id, currentLevel);
   updateStats();
   if (currentView === 'overview') renderOverview();
-  checkCelebration();
+  checkCelebration(prevDeck);
   if (currentFilter !== 'all') advanceAfterMark(wIdx); else nextCard();
 }
 function markKnown() { rateCurrentCard('good'); }
 function markUnknown() { rateCurrentCard('again'); }
-function checkCelebration() {
-  if (celebrationShown || WORDS.length === 0) return;
-  const known = Object.values(srsCards).filter(card => card.state === SRS.State.Review).length;
-  if (known === WORDS.length) {
-    celebrationShown = true;
-    showCelebration();
+
+function playCelebrationChime() {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+    const ctx = new AudioCtx();
+    if (ctx.state === 'suspended') {
+      ctx.resume().catch(() => {});
+    }
+    const now = ctx.currentTime;
+    const notes = [523.25, 659.25, 783.99, 1046.50];
+    notes.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(freq, now + i * 0.1);
+      gain.gain.setValueAtTime(0, now + i * 0.1);
+      gain.gain.linearRampToValueAtTime(0.2, now + i * 0.1 + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + i * 0.1 + 0.65);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now + i * 0.1);
+      osc.stop(now + i * 0.1 + 0.7);
+    });
+    const bell = ctx.createOscillator();
+    const bellGain = ctx.createGain();
+    bell.type = 'sine';
+    bell.frequency.setValueAtTime(2093.00, now + 0.35);
+    bellGain.gain.setValueAtTime(0, now + 0.35);
+    bellGain.gain.linearRampToValueAtTime(0.12, now + 0.37);
+    bellGain.gain.exponentialRampToValueAtTime(0.0001, now + 1.2);
+    bell.connect(bellGain);
+    bellGain.connect(ctx.destination);
+    bell.start(now + 0.35);
+    bell.stop(now + 1.25);
+  } catch (_) {}
+}
+
+let activeConfettiAnim = null;
+function launchConfettiFireworks() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const existingCanvas = document.getElementById('celebrationCanvas');
+  if (existingCanvas) existingCanvas.remove();
+  if (activeConfettiAnim) {
+    cancelAnimationFrame(activeConfettiAnim);
+    activeConfettiAnim = null;
+  }
+
+  const canvas = document.createElement('canvas');
+  canvas.id = 'celebrationCanvas';
+  canvas.className = 'celebration-canvas';
+  document.body.appendChild(canvas);
+
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+
+  const dpr = window.devicePixelRatio || 1;
+  const cssWidth = window.innerWidth;
+  const cssHeight = window.innerHeight;
+  canvas.width = cssWidth * dpr;
+  canvas.height = cssHeight * dpr;
+  ctx.scale(dpr, dpr);
+
+  const colors = ['#F59E0B', '#EF4444', '#10B981', '#3B82F6', '#8B5CF6', '#EC4899', '#FBBF24', '#60A5FA'];
+  const particleCount = 180;
+  const particles = [];
+
+  for (let i = 0; i < particleCount; i++) {
+    const isLeft = i % 2 === 0;
+    const originX = isLeft ? cssWidth * 0.12 : cssWidth * 0.88;
+    const originY = cssHeight * 0.95;
+    const angle = isLeft
+      ? (Math.PI / 180) * (45 + Math.random() * 40)
+      : (Math.PI / 180) * (95 + Math.random() * 40);
+    const speed = 15 + Math.random() * 16;
+    const shapeType = Math.random() < 0.6 ? 'ribbon' : Math.random() < 0.5 ? 'star' : 'circle';
+
+    particles.push({
+      x: originX,
+      y: originY,
+      vx: Math.cos(angle) * (isLeft ? speed : -speed),
+      vy: -Math.sin(angle) * speed,
+      size: 6 + Math.random() * 8,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      shape: shapeType,
+      rotation: Math.random() * 360,
+      rotationSpeed: (Math.random() - 0.5) * 12,
+      tilt: Math.random() * 10,
+      tiltSpeed: 0.08 + Math.random() * 0.08,
+      wobble: Math.random() * 10,
+      opacity: 1,
+      decay: 0.003 + Math.random() * 0.004,
+    });
+  }
+
+  const startTime = Date.now();
+
+  function drawStar(c, cx, cy, spikes, outerRadius, innerRadius) {
+    let rot = (Math.PI / 2) * 3;
+    let x = cx;
+    let y = cy;
+    const step = Math.PI / spikes;
+    c.beginPath();
+    c.moveTo(cx, cy - outerRadius);
+    for (let i = 0; i < spikes; i++) {
+      x = cx + Math.cos(rot) * outerRadius;
+      y = cy + Math.sin(rot) * outerRadius;
+      c.lineTo(x, y);
+      rot += step;
+      x = cx + Math.cos(rot) * innerRadius;
+      y = cy + Math.sin(rot) * innerRadius;
+      c.lineTo(x, y);
+      rot += step;
+    }
+    c.lineTo(cx, cy - outerRadius);
+    c.closePath();
+    c.fill();
+  }
+
+  function frame() {
+    ctx.clearRect(0, 0, cssWidth, cssHeight);
+    let alive = 0;
+    const elapsed = Date.now() - startTime;
+
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vx *= 0.985;
+      p.vy += 0.38;
+      p.rotation += p.rotationSpeed;
+      p.tilt += p.tiltSpeed;
+      p.wobble += 0.05;
+      p.x += Math.sin(p.wobble) * 1.2;
+
+      if (elapsed > 2500) {
+        p.opacity = Math.max(0, p.opacity - p.decay * 3);
+      }
+
+      if (p.opacity > 0 && p.y < cssHeight + 40) {
+        alive++;
+        ctx.save();
+        ctx.globalAlpha = p.opacity;
+        ctx.fillStyle = p.color;
+        ctx.translate(p.x, p.y);
+        ctx.rotate((p.rotation * Math.PI) / 180);
+
+        if (p.shape === 'ribbon') {
+          const ribbonWidth = p.size * Math.cos(p.tilt);
+          ctx.fillRect(-ribbonWidth / 2, -p.size / 2, ribbonWidth, p.size * 1.5);
+        } else if (p.shape === 'star') {
+          drawStar(ctx, 0, 0, 5, p.size * 0.8, p.size * 0.4);
+        } else {
+          ctx.beginPath();
+          ctx.arc(0, 0, p.size / 2, 0, Math.PI * 2);
+          ctx.fill();
+        }
+        ctx.restore();
+      }
+    });
+
+    if (alive > 0 && elapsed < 4800) {
+      activeConfettiAnim = requestAnimationFrame(frame);
+    } else {
+      if (canvas && canvas.parentNode) canvas.remove();
+      activeConfettiAnim = null;
+    }
+  }
+
+  activeConfettiAnim = requestAnimationFrame(frame);
+}
+
+function checkCelebration(prevDeck) {
+  if (!Array.isArray(WORDS) || WORDS.length === 0 || !currentLevel) return;
+  const deck = typeof computeDeckProgress === 'function' ? computeDeckProgress() : { learned: 0, total: WORDS.length, known: 0, unknown: 0 };
+
+  // Milestone 2: All words mastered (100% known)
+  const masterKey = 'hsk_' + currentLevel + '_milestone_mastered';
+  if (deck.known === deck.total && deck.total > 0) {
+    let already = false;
+    try { already = localStorage.getItem(masterKey) === 'true'; } catch (_) {}
+    if (!already || (prevDeck && prevDeck.known < prevDeck.total)) {
+      try { localStorage.setItem(masterKey, 'true'); } catch (_) {}
+      celebrationShown = true;
+      triggerAchievementCelebration('mastered');
+      return;
+    }
+  }
+
+  // Milestone 1: All words learned / 0 unlearned (100% learned)
+  const learnedKey = 'hsk_' + currentLevel + '_milestone_learned';
+  if (deck.learned === deck.total && deck.total > 0) {
+    let already = false;
+    try { already = localStorage.getItem(learnedKey) === 'true'; } catch (_) {}
+    if (!already || (prevDeck && prevDeck.learned < prevDeck.total)) {
+      try { localStorage.setItem(learnedKey, 'true'); } catch (_) {}
+      celebrationShown = true;
+      triggerAchievementCelebration('learned');
+      return;
+    }
   }
 }
-function showCelebration() {
+
+function closeCelebrationOverlay() {
+  const overlay = document.getElementById('celebrationOverlay');
+  if (overlay) overlay.remove();
+}
+
+function setFilterAndCloseCelebration(filterKey) {
+  closeCelebrationOverlay();
+  if (typeof setFilter === 'function') {
+    setFilter(filterKey);
+  }
+}
+
+function triggerAchievementCelebration(type, force) {
+  if (!force && celebrationShown && !type) return;
+  celebrationShown = true;
+
+  playCelebrationChime();
+  launchConfettiFireworks();
+
+  const deck = typeof computeDeckProgress === 'function' ? computeDeckProgress() : { learned: 0, total: WORDS.length, known: 0, unknown: 0 };
+  const levelLabel = (LEVELS[currentLevel] && LEVELS[currentLevel].label) || 'cấp độ này';
+  const isMastered = type === 'mastered' || (deck.known === deck.total && deck.total > 0);
+
+  closeCelebrationOverlay();
+
   const overlay = document.createElement('div');
   overlay.id = 'celebrationOverlay';
   overlay.className = 'celebration-overlay';
+
+  const badgeHtml = isMastered
+    ? '<div class="celebration-badge">👑 ĐẠI THÀNH TỰU · MASTERED</div>'
+    : '<div class="celebration-badge">✨ THÀNH TỰU MỞ KHÓA · LEVEL COMPLETED</div>';
+
+  const titleText = isMastered
+    ? `Tuyệt Đỉnh! Tinh Thông 100% Từ Vựng!`
+    : `Chúc Mừng! Bạn Đã Hoành Thành ${levelLabel}!`;
+
+  const msgText = isMastered
+    ? `Bạn đã nhớ xuất sắc toàn bộ <strong>${deck.total} / ${deck.total}</strong> từ vựng. Không còn từ nào chưa nhớ!`
+    : `Bạn đã học qua tất cả <strong>${deck.total} / ${deck.total}</strong> từ vựng của <strong>${levelLabel}</strong>. Cột mốc 100% cực kỳ ấn tượng!`;
+
+  const primaryBtnHtml = deck.unknown > 0
+    ? `<button type="button" class="celebration-btn celebration-btn--primary" onclick="setFilterAndCloseCelebration('unknown')">
+        🔁 Ôn tập ngay ${deck.unknown} từ chưa nhớ
+      </button>`
+    : `<button type="button" class="celebration-btn celebration-btn--primary" onclick="closeCelebrationOverlay()">
+        🎉 Tuyệt vời, tiếp tục phát huy!
+      </button>`;
+
+  const secondaryBtnHtml = `<button type="button" class="celebration-btn celebration-btn--secondary" onclick="setFilterAndCloseCelebration('all'); if (typeof shuffleDeck==='function') shuffleDeck();">
+    🔀 Xáo trộn & ôn tất cả từ
+  </button>`;
+
   overlay.innerHTML = `
-    <div class="celebration-box">
-      <div class="celebration-trophy">🏆</div>
-      <div class="celebration-title">Xuất sắc!</div>
-      <div class="celebration-msg">Bạn đã nhớ tất cả <strong>${WORDS.length}</strong> từ vựng <strong>${LEVELS[currentLevel].label}</strong>!</div>
-      <button class="celebration-btn" onclick="document.getElementById('celebrationOverlay').remove()">Tiếp tục ôn luyện</button>
+    <div class="celebration-box" role="dialog" aria-modal="true" aria-labelledby="celebrationTitle">
+      <button type="button" class="celebration-close-btn" onclick="closeCelebrationOverlay()" aria-label="Đóng">✕</button>
+      <div class="celebration-trophy-wrap">
+        <div class="celebration-trophy-halo"></div>
+        <span class="celebration-trophy">${isMastered ? '👑' : '🏆'}</span>
+        <span class="celebration-sparkle celebration-sparkle-1">✨</span>
+        <span class="celebration-sparkle celebration-sparkle-2">⭐</span>
+      </div>
+      ${badgeHtml}
+      <h2 class="celebration-title" id="celebrationTitle">${titleText}</h2>
+      <p class="celebration-msg">${msgText}</p>
+      <div class="celebration-stats-grid">
+        <div class="celebration-stat-pill">
+          <span class="celebration-stat-val">${deck.total}</span>
+          <span class="celebration-stat-name">Tổng từ</span>
+        </div>
+        <div class="celebration-stat-pill celebration-stat-pill--known">
+          <span class="celebration-stat-val">${deck.known}</span>
+          <span class="celebration-stat-name">Đã nhớ tốt</span>
+        </div>
+        <div class="celebration-stat-pill celebration-stat-pill--unknown">
+          <span class="celebration-stat-val">${deck.unknown}</span>
+          <span class="celebration-stat-name">Cần củng cố</span>
+        </div>
+      </div>
+      <div class="celebration-actions">
+        ${primaryBtnHtml}
+        ${secondaryBtnHtml}
+      </div>
     </div>`;
-  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
-  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    const colors = ['var(--accent)', 'var(--success-text)', 'var(--info-text)', 'var(--danger-text)'];
-    for (let i = 0; i < 28; i++) {
-      const p = document.createElement('div');
-      p.className = 'confetti-piece';
-      const size = 5 + Math.random() * 6;
-      p.style.cssText = `left:${3 + Math.random() * 94}%;width:${size}px;height:${size + Math.random() * 7}px;background:${colors[i % colors.length]};animation-delay:${(Math.random() * 0.5).toFixed(2)}s;animation-duration:${(1 + Math.random() * 0.7).toFixed(2)}s;border-radius:${Math.random() > 0.4 ? '50%' : '2px'};`;
-      overlay.appendChild(p);
+
+  overlay.addEventListener('click', e => {
+    if (e.target === overlay) closeCelebrationOverlay();
+  });
+
+  const onKeydown = e => {
+    if (e.key === 'Escape') {
+      closeCelebrationOverlay();
+      document.removeEventListener('keydown', onKeydown);
     }
-  }
+  };
+  document.addEventListener('keydown', onKeydown);
+
   document.body.appendChild(overlay);
 }
+
+function showCelebration(type, force) {
+  triggerAchievementCelebration(type || 'learned', typeof force === 'boolean' ? force : true);
+}
+
+window.showCelebration = showCelebration;
+window.triggerAchievementCelebration = triggerAchievementCelebration;
+window.closeCelebrationOverlay = closeCelebrationOverlay;
+window.setFilterAndCloseCelebration = setFilterAndCloseCelebration;
 function advanceAfterMark(prevWIdx) {
   const prevIdx = idx;
   if (currentFilter === 'unseen') filteredOrder = order.filter(i => !progress[WORDS[i].id]);

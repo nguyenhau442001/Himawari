@@ -93,6 +93,7 @@ function buildCardArea() {
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
         <div class="hint" id="hint">Nhấn vào thẻ hoặc phím Space để lật thẻ</div>
+        <div class="card-empty-state card-interactive" id="cardEmptyState" hidden></div>
       </div>
     </div>
 
@@ -297,7 +298,7 @@ function syncRevealControls() {
 }
 function computeDeckProgress() {
   if (!Array.isArray(WORDS) || WORDS.length === 0) {
-    return { learned: 0, total: 0, pct: 0, known: 0, unknown: 0 };
+    return { learned: 0, total: 0, pct: 0, known: 0, unknown: 0, unseen: 0 };
   }
   let known = 0, unknown = 0;
   WORDS.forEach(w => {
@@ -307,8 +308,9 @@ function computeDeckProgress() {
   });
   const learned = known + unknown;
   const total = WORDS.length;
+  const unseen = Math.max(0, total - learned);
   const pct = total === 0 ? 0 : Math.round((learned / total) * 100);
-  return { learned, total, pct, known, unknown };
+  return { learned, total, pct, known, unknown, unseen };
 }
 
 function updateProgress(current, total) {
@@ -318,7 +320,26 @@ function updateProgress(current, total) {
   const bar = document.getElementById('progressBar');
   if (bar) bar.style.width = deck.pct + '%';
   const pctEl = document.getElementById('progressPct');
-  if (pctEl) pctEl.textContent = deck.pct + '%';
+  if (pctEl) {
+    if (deck.pct === 100 && deck.total > 0) {
+      pctEl.textContent = '🏆 100%';
+      pctEl.classList.add('is-completed');
+      pctEl.title = 'Chúc mừng bạn đã hoàn thành 100% từ vựng! Nhấn để xem hiệu ứng thành tựu 🎉';
+      pctEl.style.cursor = 'pointer';
+      pctEl.onclick = e => {
+        e.stopPropagation();
+        if (typeof showCelebration === 'function') {
+          showCelebration(deck.known === deck.total ? 'mastered' : 'learned', true);
+        }
+      };
+    } else {
+      pctEl.textContent = deck.pct + '%';
+      pctEl.classList.remove('is-completed');
+      pctEl.title = '';
+      pctEl.style.cursor = '';
+      pctEl.onclick = null;
+    }
+  }
   const topbar = document.getElementById('studyTopbarProgress');
   if (topbar) {
     topbar.title = `Tiến độ học: ${deck.learned}/${deck.total} (${deck.pct}%) • Đã nhớ: ${deck.known}, Chưa nhớ: ${deck.unknown}`;
@@ -329,7 +350,13 @@ function updateCardPosition() {
   const badge = document.getElementById('cardPositionBadge');
   if (!badge) return;
   if (!filteredOrder || filteredOrder.length === 0) {
-    badge.textContent = '0 / 0';
+    const deck = computeDeckProgress();
+    if (currentFilter === 'unseen' && deck.unseen === 0 && deck.total > 0) {
+      badge.textContent = 'Hoàn thành';
+      badge.title = 'Đã học qua 100% từ vựng mới của cấp độ này';
+    } else {
+      badge.textContent = '0 / 0';
+    }
     return;
   }
   const current = (idx % filteredOrder.length) + 1;
@@ -558,26 +585,158 @@ function render(animate) {
   const content = document.getElementById('cardContent');
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  function renderEmptyCardState(container) {
+    if (!container) return;
+    const deck = typeof computeDeckProgress === 'function' ? computeDeckProgress() : { learned: 0, total: WORDS.length, known: 0, unknown: 0, unseen: 0 };
+    const levelLabel = (LEVELS[currentLevel] && LEVELS[currentLevel].label) || 'cấp độ này';
+
+    if (currentFilter === 'unseen' || (deck.unseen === 0 && deck.total > 0 && currentFilter !== 'unknown' && currentFilter !== 'known')) {
+      container.innerHTML = `
+        <div class="achievement-hero-card">
+          <div class="achievement-hero-trophy-wrap">
+            <span class="achievement-hero-trophy">🏆</span>
+            <span class="achievement-hero-sparkle-1">✨</span>
+            <span class="achievement-hero-sparkle-2">⭐</span>
+          </div>
+          <div class="achievement-hero-badge">ĐÃ HOÀN THÀNH 100% TỪ VỰNG</div>
+          <h2 class="achievement-hero-title">Bạn đã học hết từ vựng ${levelLabel}!</h2>
+          <p class="achievement-hero-desc">
+            Toàn bộ <strong>${deck.total}</strong> từ vựng đã được bạn học qua ít nhất một lần. Thành tựu thật tuyệt vời!
+          </p>
+          <div class="achievement-hero-stats">
+            <div class="hero-stat-card">
+              <span class="hero-stat-num">${deck.total}</span>
+              <span class="hero-stat-label">Tổng số từ</span>
+            </div>
+            <div class="hero-stat-card hero-stat-card--known">
+              <span class="hero-stat-num">${deck.known}</span>
+              <span class="hero-stat-label">Đã nhớ tốt</span>
+            </div>
+            <div class="hero-stat-card hero-stat-card--unknown">
+              <span class="hero-stat-num">${deck.unknown}</span>
+              <span class="hero-stat-label">Cần củng cố</span>
+            </div>
+          </div>
+          <div class="achievement-hero-actions">
+            ${deck.unknown > 0 ? `
+            <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('unknown')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+              Ôn tập ngay ${deck.unknown} từ chưa nhớ
+            </button>` : ''}
+            <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all'); if (typeof shuffleDeck==='function') shuffleDeck();">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.8-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/></svg>
+              Xáo trộn & ôn tất cả từ
+            </button>
+            <button type="button" class="empty-btn empty-btn--celebrate" onclick="if (typeof triggerAchievementCelebration==='function') triggerAchievementCelebration('learned', true)">
+              🎉 Bắn pháo hoa ăn mừng
+            </button>
+          </div>
+        </div>`;
+      return;
+    }
+
+    if (currentFilter === 'unknown') {
+      if (deck.known === deck.total && deck.total > 0) {
+        container.innerHTML = `
+          <div class="achievement-hero-card">
+            <div class="achievement-hero-trophy-wrap">
+              <span class="achievement-hero-trophy">👑</span>
+              <span class="achievement-hero-sparkle-1">✨</span>
+            </div>
+            <div class="achievement-hero-badge achievement-hero-badge--gold">ĐẠI THÀNH TỰU · MASTERED</div>
+            <h2 class="achievement-hero-title">Tuyệt Đỉnh Tinh Thông ${levelLabel}!</h2>
+            <p class="achievement-hero-desc">
+              Bạn đã nhớ hoàn toàn <strong>${deck.total} / ${deck.total}</strong> từ vựng. Không còn bất kỳ từ nào chưa nhớ!
+            </p>
+            <div class="achievement-hero-actions">
+              <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('all'); if (typeof shuffleDeck==='function') shuffleDeck();">
+                Ôn tập củng cố tất cả từ
+              </button>
+              <button type="button" class="empty-btn empty-btn--celebrate" onclick="if (typeof triggerAchievementCelebration==='function') triggerAchievementCelebration('mastered', true)">
+                🎉 Xem hiệu ứng ăn mừng
+              </button>
+            </div>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="achievement-hero-card">
+          <div class="achievement-hero-trophy-wrap">
+            <span class="achievement-hero-trophy">🎯</span>
+          </div>
+          <div class="achievement-hero-badge">ĐÃ HOÀN THÀNH ÔN TẬP</div>
+          <h2 class="achievement-hero-title">Không còn từ tồn đọng!</h2>
+          <p class="achievement-hero-desc">
+            Tuyệt vời, bạn đã nhớ hết các từ cần củng cố trong danh sách ôn tập hiện tại.
+          </p>
+          <div class="achievement-hero-actions">
+            ${deck.unseen > 0 ? `
+            <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('unseen')">
+              👉 Học tiếp ${deck.unseen} từ mới
+            </button>` : ''}
+            <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
+              Xem tất cả từ
+            </button>
+          </div>
+        </div>`;
+      return;
+    }
+
+    if (currentFilter === 'known') {
+      container.innerHTML = `
+        <div class="generic-empty-card">
+          <div class="generic-empty-icon">📖</div>
+          <h3 class="generic-empty-title">Chưa có từ nào đã nhớ</h3>
+          <p class="generic-empty-desc">Hãy bắt đầu ôn luyện các từ vựng để đánh dấu những từ bạn đã nhớ tốt.</p>
+          <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('all')">
+            Bắt đầu học ngay
+          </button>
+        </div>`;
+      return;
+    }
+
+    container.innerHTML = `
+      <div class="generic-empty-card">
+        <div class="generic-empty-icon">📭</div>
+        <h3 class="generic-empty-title">Không có từ trong bộ lọc này</h3>
+        <p class="generic-empty-desc">Chưa có thẻ từ vựng nào thỏa mãn điều kiện lọc đã chọn.</p>
+        <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
+          Quay về tất cả từ
+        </button>
+      </div>`;
+  }
+
   function applyContent() {
     if (content) content.className = 'card-content';
+    const wordMainBlock = document.getElementById('wordMainBlock');
+    const cardEmptyState = document.getElementById('cardEmptyState');
     const exBox = document.getElementById('exampleBox');
     if (exBox) exBox.classList.remove('show');
     const soundBtn = document.getElementById('soundBtn');
     if (soundBtn) soundBtn.classList.remove('show');
+    const hint = document.getElementById('hint');
     if (filteredOrder.length === 0) {
+      if (wordMainBlock) wordMainBlock.style.display = 'none';
+      if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
+      if (hint) hint.style.display = 'none';
       document.getElementById('hanzi').textContent = '';
       document.getElementById('pinyin').textContent = '';
       const emptyHv = document.getElementById('hanvietBadge');
       if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
       const emptyPos = document.getElementById('posBadge');
       if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
-      document.getElementById('meaning').textContent = 'Không có từ trong bộ lọc này';
-      document.getElementById('meaning').classList.add('show');
-      document.getElementById('hint').textContent = '';
+      const meaningEl = document.getElementById('meaning');
+      if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
       const emptySvg = document.getElementById('cardIllustrationSvg');
       const emptyImg = document.getElementById('cardIllustrationImg');
       if (emptySvg) emptySvg.innerHTML = '';
       if (emptyImg) { emptyImg.src = ''; emptyImg.hidden = true; }
+      if (cardEmptyState) {
+        cardEmptyState.hidden = false;
+        cardEmptyState.style.display = 'block';
+        renderEmptyCardState(cardEmptyState);
+      }
       if (content) content.classList.add('is-empty');
       updateProgress();
       updateCardPosition();
@@ -588,6 +747,12 @@ function render(animate) {
       if (typeof syncSpeechButtons === 'function') syncSpeechButtons();
       return;
     }
+    if (wordMainBlock) wordMainBlock.style.display = '';
+    if (cardEmptyState) {
+      cardEmptyState.hidden = true;
+      cardEmptyState.style.display = 'none';
+    }
+    if (hint) hint.style.display = '';
     if (content) content.classList.remove('is-empty');
     const wIdx = filteredOrder[idx % filteredOrder.length];
     const w = WORDS[wIdx];

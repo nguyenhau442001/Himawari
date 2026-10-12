@@ -669,6 +669,10 @@ function goBackToPicker() {
 
 async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false) {
   celebrationShown = false;
+  const overlay = document.getElementById('celebrationOverlay');
+  if (overlay) overlay.remove();
+  const celebCanvas = document.getElementById('celebrationCanvas');
+  if (celebCanvas) celebCanvas.remove();
   setActiveStudyWord(null);
   currentLevel = level;
   if (typeof SpaRouter !== 'undefined') {
