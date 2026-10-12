@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Elements: The Path of Life -->
+  <path d="M20 180 C 80 140, 160 220, 220 180" stroke="#334155" stroke-width="4" fill="none" stroke-dasharray="6 6"/>
+  
+  <!-- The Character: Representing the journey -->
+  <g transform="translate(110, 110)">
+    <!-- Body -->
+    <path d="M-15 40 Q-15 80 0 80 Q15 80 15 40" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="20" fill="#fde68a"/>
+    <!-- Expression: Reflective/Thoughtful -->
+    <path d="M-8 5 Q-6 8 -4 5 M4 5 Q6 8 8 5" stroke="#1e293b" stroke-width="2"/>
+    <path d="M-5 15 Q0 18 5 15" stroke="#1e293b" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Symbolic Props representing 酸甜苦辣 (Sour, Sweet, Bitter, Spicy) -->
+  <!-- Sweet: A glowing star/gift -->
+  <path d="M180 60 L185 75 L200 75 L188 85 L192 100 L180 90 L168 100 L172 85 L160 75 L175 75 Z" fill="#fbbf24"/>
+  
+  <!-- Bitter: A dark coffee cup -->
+  <rect x="40" y="160" width="20" height="25" rx="2" fill="#475569"/>
+  <path d="M60 165 Q65 165 65 175" stroke="#475569" stroke-width="3" fill="none"/>
+  
+  <!-- Sour: A lemon slice -->
+  <path d="M180 160 A 15 15 0 0 1 210 160 L 195 160 Z" fill="#10b981"/>
+  
+  <!-- Spicy: A chili pepper -->
+  <path d="M50 70 Q60 60 70 80 Q60 90 50 70" fill="#ec4899"/>
+
+  <!-- Atmospheric accents -->
+  <circle cx="30" cy="40" r="2" fill="#fb923c" opacity="0.6"/>
+  <circle cx="210" cy="50" r="3" fill="#38bdf8" opacity="0.4"/>
+  <circle cx="50" cy="200" r="2" fill="#ec4899" opacity="0.5"/>
+</svg>

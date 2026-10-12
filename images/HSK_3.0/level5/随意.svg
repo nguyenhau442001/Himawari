@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Living Room Interior -->
+  <path d="M20 180 L220 180 L220 220 L20 220 Z" fill="#334155"/>
+  <circle cx="180" cy="80" r="30" fill="#fbbf24" opacity="0.1"/>
+  
+  <!-- Furniture: Sofa and Chairs -->
+  <path d="M40 180 L120 180 L110 140 L50 140 Z" fill="#ec4899"/>
+  <path d="M140 180 L170 180 L165 150 L145 150 Z" fill="#38bdf8"/>
+  <path d="M180 180 L210 180 L205 150 L185 150 Z" fill="#10b981"/>
+  
+  <!-- Character 1: Relaxed on Sofa -->
+  <circle cx="60" cy="130" r="12" fill="#fde68a"/>
+  <path d="M50 140 L70 140 L65 160 L55 160 Z" fill="#fb923c"/>
+  
+  <!-- Character 2: Sitting on floor, casual -->
+  <circle cx="100" cy="170" r="10" fill="#fde68a"/>
+  <path d="M90 180 L110 180 L105 200 L95 200 Z" fill="#fb923c"/>
+  
+  <!-- Character 3: Sitting on small chair -->
+  <circle cx="155" cy="140" r="10" fill="#fde68a"/>
+  <path d="M145 150 L165 150 L160 170 L150 170 Z" fill="#38bdf8"/>
+  
+  <!-- Host Character: Welcoming gesture -->
+  <circle cx="195" cy="140" r="10" fill="#fde68a"/>
+  <path d="M185 150 L205 150 L200 170 L190 170 Z" fill="#10b981"/>
+  <path d="M205 140 L215 130" stroke="#fde68a" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Coffee Table -->
+  <rect x="80" y="190" width="60" height="15" rx="2" fill="#fb923c"/>
+  <circle cx="100" cy="195" r="3" fill="#f59e0b"/>
+  <circle cx="120" cy="195" r="3" fill="#f59e0b"/>
+  
+  <!-- Decor -->
+  <path d="M30 100 L50 100 L40 130 Z" fill="#10b981" opacity="0.6"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T10:44:41.999850",
-  "total_unique_words_with_illustrations": 2990,
-  "total_flat_svg_files": 2990,
+  "generated_at": "2026-10-12T09:02:41.232421",
+  "total_unique_words_with_illustrations": 3000,
+  "total_flat_svg_files": 3000,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 556,
-        "pct": "22.2%"
+        "with_svg": 557,
+        "pct": "22.3%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1371,
-        "pct": "85.7%"
+        "with_svg": 1381,
+        "pct": "86.3%"
       },
       "level6": {
         "total": 1800,
@@ -47718,6 +47718,24 @@
         "images/HSK_3.0/level5/思维.svg"
       ]
     },
+    "随意": {
+      "hanzi": "随意",
+      "pinyin": "suíyì",
+      "meaning": "tùy ý, tự nhiên",
+      "example_zh": "大家<u>随意</u>坐，不用客气。",
+      "example_vi": "Mọi người ngồi <u>tùy ý</u>, không cần khách sáo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "随意.svg",
+      "src": "images/HSK_2.0/level6/随意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/随意.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -53346,6 +53364,132 @@
       ],
       "file": "四周.svg",
       "src": "images/HSK_3.0/level5/四周.svg",
+      "alt_srcs": []
+    },
+    "搜": {
+      "hanzi": "搜",
+      "pinyin": "sōu",
+      "meaning": "tìm kiếm, tra cứu",
+      "example_zh": "你在网上<u>搜</u>一下就能找到答案。",
+      "example_vi": "Bạn lên mạng <u>tìm kiếm</u> một chút là có thể tìm thấy đáp án.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "搜.svg",
+      "src": "images/HSK_3.0/level5/搜.svg",
+      "alt_srcs": []
+    },
+    "酸甜苦辣": {
+      "hanzi": "酸甜苦辣",
+      "pinyin": "suān-tián-kǔ-là",
+      "meaning": "chua cay mặn ngọt, thăng trầm cuộc đời",
+      "example_zh": "人的一生总要经历许多<u>酸甜苦辣</u>。",
+      "example_vi": "Cuộc đời một con người luôn phải trải qua muôn vàn <u>thăng trầm đắng cay</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "酸甜苦辣.svg",
+      "src": "images/HSK_3.0/level5/酸甜苦辣.svg",
+      "alt_srcs": []
+    },
+    "随": {
+      "hanzi": "随",
+      "pinyin": "suí",
+      "meaning": "theo, tùy theo, đi theo",
+      "example_zh": "天气热了，大家<u>随</u>着季节换上了夏装。",
+      "example_vi": "Thời tiết ấm lên, mọi người thay quần áo mùa hè <u>theo</u> mùa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "随.svg",
+      "src": "images/HSK_3.0/level5/随.svg",
+      "alt_srcs": []
+    },
+    "随后": {
+      "hanzi": "随后",
+      "pinyin": "suíhòu",
+      "meaning": "sau đó, tiếp theo đó",
+      "example_zh": "他先发表了演讲，<u>随后</u>回答了大家的提问。",
+      "example_vi": "Anh ấy phát biểu bài diễn văn trước, <u>sau đó</u> trả lời câu hỏi của mọi người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "随后.svg",
+      "src": "images/HSK_3.0/level5/随后.svg",
+      "alt_srcs": []
+    },
+    "损害": {
+      "hanzi": "损害",
+      "pinyin": "sǔnhài",
+      "meaning": "làm hại, tổn hại, thiệt hại",
+      "example_zh": "吸烟会严重<u>损害</u>身体健康。",
+      "example_vi": "Hút thuốc lá sẽ <u>làm tổn hại</u> nghiêm trọng đến sức khỏe.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "损害.svg",
+      "src": "images/HSK_3.0/level5/损害.svg",
+      "alt_srcs": []
+    },
+    "缩小": {
+      "hanzi": "缩小",
+      "pinyin": "suōxiǎo",
+      "meaning": "thu hẹp, thu nhỏ",
+      "example_zh": "双方经过沟通，终于<u>缩小</u>了意见分歧。",
+      "example_vi": "Hai bên sau khi trao đổi cuối cùng đã <u>thu hẹp</u> được bất đồng ý kiến.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "缩小.svg",
+      "src": "images/HSK_3.0/level5/缩小.svg",
+      "alt_srcs": []
+    },
+    "所¹": {
+      "hanzi": "所¹",
+      "pinyin": "suǒ",
+      "meaning": "nơi, sở (lượng từ tổ chức)",
+      "example_zh": "这是一个研究<u>所</u>。",
+      "example_vi": "Đây là một <u>viện</u> nghiên cứu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "所¹.svg",
+      "src": "images/HSK_3.0/level5/所¹.svg",
+      "alt_srcs": []
+    },
+    "他人": {
+      "hanzi": "他人",
+      "pinyin": "tārén",
+      "meaning": "những người khác (đại từ)",
+      "example_zh": "他因殴打<u>他人</u>被警察带走了",
+      "example_vi": "Anh ta bị cảnh sát bắt đi vì hành hung người khác.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "他人.svg",
+      "src": "images/HSK_3.0/level5/他人.svg",
+      "alt_srcs": []
+    },
+    "台灯": {
+      "hanzi": "台灯",
+      "pinyin": "táidēng",
+      "meaning": "đèn bàn",
+      "example_zh": "写作业时请打开<u>台灯</u>保护眼睛。",
+      "example_vi": "Khi làm bài tập hãy bật <u>đèn bàn</u> để bảo vệ mắt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "台灯.svg",
+      "src": "images/HSK_3.0/level5/台灯.svg",
       "alt_srcs": []
     }
   }

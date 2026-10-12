@@ -13247,6 +13247,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/思维.svg",
     "caption": "tư duy"
   },
+  "随意": {
+    "file": "随意.svg",
+    "src": "images/HSK_2.0/level6/随意.svg",
+    "caption": "tùy ý, tự nhiên"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -15251,6 +15256,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "四周.svg",
     "src": "images/HSK_3.0/level5/四周.svg",
     "caption": "xung quanh, bốn bề"
+  },
+  "搜": {
+    "file": "搜.svg",
+    "src": "images/HSK_3.0/level5/搜.svg",
+    "caption": "tìm kiếm, tra cứu"
+  },
+  "酸甜苦辣": {
+    "file": "酸甜苦辣.svg",
+    "src": "images/HSK_3.0/level5/酸甜苦辣.svg",
+    "caption": "chua cay mặn ngọt, thăng trầm cuộc đời"
+  },
+  "随": {
+    "file": "随.svg",
+    "src": "images/HSK_3.0/level5/随.svg",
+    "caption": "theo, tùy theo, đi theo"
+  },
+  "随后": {
+    "file": "随后.svg",
+    "src": "images/HSK_3.0/level5/随后.svg",
+    "caption": "sau đó, tiếp theo đó"
+  },
+  "损害": {
+    "file": "损害.svg",
+    "src": "images/HSK_3.0/level5/损害.svg",
+    "caption": "làm hại, tổn hại, thiệt hại"
+  },
+  "缩小": {
+    "file": "缩小.svg",
+    "src": "images/HSK_3.0/level5/缩小.svg",
+    "caption": "thu hẹp, thu nhỏ"
+  },
+  "所¹": {
+    "file": "所¹.svg",
+    "src": "images/HSK_3.0/level5/所¹.svg",
+    "caption": "nơi, sở (lượng từ tổ chức)"
+  },
+  "他人": {
+    "file": "他人.svg",
+    "src": "images/HSK_3.0/level5/他人.svg",
+    "caption": "những người khác (đại từ)"
+  },
+  "台灯": {
+    "file": "台灯.svg",
+    "src": "images/HSK_3.0/level5/台灯.svg",
+    "caption": "đèn bàn"
   }
 };
 

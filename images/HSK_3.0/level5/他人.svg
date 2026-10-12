@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Street Environment -->
+  <path d="M0 180h240v60H0z" fill="#334155"/>
+  <path d="M20 180l30-40h140l30 40z" fill="#475569"/>
+  
+  <!-- Police Car Light -->
+  <circle cx="180" cy="140" r="12" fill="#ef4444" opacity="0.6"/>
+  <circle cx="180" cy="140" r="6" fill="#fef3c7"/>
+  
+  <!-- Victim (The "Others") -->
+  <g transform="translate(40, 150)">
+    <circle cx="10" cy="-30" r="10" fill="#fca5a5"/>
+    <path d="M10 -20v25m-10 10l10-10 10 10m-10-25l-10 15m20 0l-10-15" stroke="#fca5a5" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Aggressor being escorted -->
+  <g transform="translate(120, 140)">
+    <circle cx="10" cy="-30" r="10" fill="#fbbf24"/>
+    <path d="M10 -20v25m-10 10l10-10 10 10m-10-25l-10 15m20 0l-10-15" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Police Officer -->
+  <g transform="translate(160, 130)">
+    <circle cx="10" cy="-30" r="10" fill="#38bdf8"/>
+    <path d="M10 -20v25m-10 10l10-10 10 10m-10-25l-10 15m20 0l-10-15" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+    <rect x="0" y="-35" width="20" height="5" fill="#0ea5e9"/>
+  </g>
+  
+  <!-- Handcuff detail -->
+  <circle cx="135" cy="115" r="4" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  
+  <!-- Street Lamp glow -->
+  <circle cx="210" cy="60" r="40" fill="#f59e0b" opacity="0.05"/>
+  <path d="M210 60v120" stroke="#475569" stroke-width="4"/>
+  <path d="M200 60h20" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+</svg>

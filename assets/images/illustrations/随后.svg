@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Stage Background -->
+  <rect x="20" y="140" width="200" height="60" rx="4" fill="#334155"/>
+  <path d="M40 140 L60 80 L180 80 L200 140 Z" fill="#1e293b" opacity="0.5"/>
+  
+  <!-- Speaker (Action 1: Speech) -->
+  <g transform="translate(120, 110)">
+    <circle cx="0" cy="-20" r="12" fill="#fbbf24"/>
+    <path d="M-15 0 L15 0 L10 40 L-10 40 Z" fill="#fb923c"/>
+    <path d="M-5 10 L-15 30 M5 10 L15 30" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+    <!-- Microphone -->
+    <rect x="2" y="-10" width="2" height="20" fill="#94a3b8"/>
+    <circle cx="3" cy="-12" r="4" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Audience (Action 2: Q&A) -->
+  <g transform="translate(60, 180)">
+    <circle cx="0" cy="-10" r="8" fill="#38bdf8"/>
+    <path d="M-10 0 L10 0 L8 20 L-8 20 Z" fill="#0ea5e9"/>
+    <!-- Raised hand -->
+    <path d="M8 -5 L15 -20" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(180, 180)">
+    <circle cx="0" cy="-10" r="8" fill="#ec4899"/>
+    <path d="M-10 0 L10 0 L8 20 L-8 20 Z" fill="#be185d"/>
+  </g>
+
+  <!-- Spotlight effect -->
+  <path d="M80 80 L160 80 L220 240 L20 240 Z" fill="#f59e0b" opacity="0.05"/>
+  
+  <!-- Podium -->
+  <rect x="105" y="130" width="30" height="40" fill="#f59e0b" rx="2"/>
+  <rect x="110" y="135" width="20" height="5" fill="#1e293b"/>
+</svg>

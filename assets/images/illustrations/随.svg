@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Sun/Warmth Symbolism -->
+  <circle cx="190" cy="50" r="25" fill="#fbbf24" opacity="0.8"/>
+  <path d="M190 15 L190 5 M190 95 L190 85 M225 50 L235 50 M145 50 L155 50" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Character 1: Putting on Summer Shirt -->
+  <g transform="translate(40, 80)">
+    <circle cx="30" cy="30" r="15" fill="#fde68a"/>
+    <path d="M15 60 L10 120 M45 60 L50 120" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M10 60 L50 60 L45 90 L15 90 Z" fill="#ec4899"/>
+    <path d="M20 90 L20 120 M40 90 L40 120" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2: Holding Winter Coat Aside -->
+  <g transform="translate(130, 80)">
+    <circle cx="30" cy="30" r="15" fill="#fde68a"/>
+    <path d="M30 45 L30 80" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M10 60 L50 60 L45 120 L15 120 Z" fill="#10b981"/>
+    <!-- Winter coat being discarded -->
+    <path d="M60 40 L90 50 L80 100 L50 90 Z" fill="#475569" opacity="0.6"/>
+  </g>
+
+  <!-- Ground/Environment -->
+  <path d="M0 200 Q120 180 240 200 L240 240 L0 240 Z" fill="#334155"/>
+  
+  <!-- Seasonal transition leaves -->
+  <path d="M20 180 Q30 170 40 180" stroke="#fb923c" stroke-width="2" fill="none"/>
+  <path d="M200 190 Q210 180 220 190" stroke="#fb923c" stroke-width="2" fill="none"/>
+</svg>
