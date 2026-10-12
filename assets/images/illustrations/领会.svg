@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Classroom Background Elements -->
+  <rect x="30" y="50" width="180" height="100" rx="4" fill="#334155"/>
+  <rect x="40" y="60" width="160" height="80" rx="2" fill="#1e293b"/>
+  <path d="M60 80 L180 80 M60 100 L180 100 M60 120 L180 120" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Teacher Character -->
+  <g transform="translate(150, 110)">
+    <circle cx="0" cy="-60" r="12" fill="#fde68a"/>
+    <rect x="-15" y="-48" width="30" height="40" rx="5" fill="#38bdf8"/>
+    <path d="M-10 -20 L-20 0 M10 -20 L20 0" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-5 -40 L-15 -30 M5 -40 L15 -30" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Student Character -->
+  <g transform="translate(80, 130)">
+    <circle cx="0" cy="-60" r="14" fill="#fde68a"/>
+    <rect x="-18" y="-46" width="36" height="50" rx="6" fill="#fb923c"/>
+    <path d="M-12 -20 L-25 10 M12 -20 L25 10" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-8 -55 L-4 -55 M8 -55 L4 -55" stroke="#0f172a" stroke-width="2"/>
+    <circle cx="0" cy="-48" r="2" fill="#0f172a"/>
+  </g>
+  
+  <!-- The "Aha!" Moment / Insight Spark -->
+  <path d="M110 70 L125 50 L115 50 L130 30 L115 55 L125 55 Z" fill="#fbbf24"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="180" width="200" height="20" rx="2" fill="#475569"/>
+  <rect x="30" y="200" width="10" height="30" fill="#334155"/>
+  <rect x="200" y="200" width="10" height="30" fill="#334155"/>
+  
+  <!-- Props -->
+  <rect x="50" y="185" width="40" height="5" rx="1" fill="#e2e8f0"/>
+  <circle cx="160" cy="188" r="6" fill="#10b981"/>
+</svg>

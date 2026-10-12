@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table -->
+  <rect x="40" y="150" width="160" height="15" rx="2" fill="#475569"/>
+  <rect x="50" y="165" width="10" height="60" fill="#334155"/>
+  <rect x="180" y="165" width="10" height="60" fill="#334155"/>
+  
+  <!-- Character: The stingy man -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-30 80 Q-30 40 0 40 T30 80" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="25" fill="#fde68a"/>
+    <!-- Expression: Suspicious/Tight-lipped -->
+    <path d="M-10 25 Q0 20 10 25" stroke="#1e293b" stroke-width="2" fill="none"/>
+    <circle cx="-8" cy="15" r="2" fill="#1e293b"/>
+    <circle cx="8" cy="15" r="2" fill="#1e293b"/>
+    <!-- Hand clutching wallet -->
+    <rect x="15" y="50" width="20" height="30" rx="5" fill="#fb923c"/>
+    <path d="M25 55 L25 75" stroke="#1e293b" stroke-width="2"/>
+  </g>
+  
+  <!-- The Friend -->
+  <g transform="translate(60, 140)">
+    <circle cx="0" cy="0" r="20" fill="#94a3b8"/>
+    <path d="M-15 20 L15 20 L10 60 L-10 60 Z" fill="#64748b"/>
+    <!-- Hand reaching out -->
+    <path d="M15 10 L40 10" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Context: The bill on the table -->
+  <rect x="80" y="135" width="40" height="20" rx="2" fill="#f59e0b"/>
+  <path d="M85 140 L115 140 M85 145 L115 145" stroke="#b45309" stroke-width="2"/>
+  
+  <!-- Floating coins/symbolic wealth -->
+  <circle cx="160" cy="90" r="8" fill="#fbbf24"/>
+  <circle cx="175" cy="105" r="6" fill="#fbbf24"/>
+  <path d="M160 85 L160 95 M155 90 L165 90" stroke="#b45309" stroke-width="2"/>
+</svg>

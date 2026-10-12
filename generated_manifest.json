@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:44:11.918039",
-  "total_unique_words_with_illustrations": 4115,
-  "total_flat_svg_files": 4115,
+  "generated_at": "2026-10-12T20:49:00.873750",
+  "total_unique_words_with_illustrations": 4125,
+  "total_flat_svg_files": 4125,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1475,
-        "pct": "59.0%"
+        "with_svg": 1485,
+        "pct": "59.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 510,
-        "pct": "28.3%"
+        "with_svg": 511,
+        "pct": "28.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 664,
-        "pct": "11.9%"
+        "with_svg": 673,
+        "pct": "12.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 664,
-        "pct": "11.9%"
+        "with_svg": 673,
+        "pct": "12.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 664,
-        "pct": "11.9%"
+        "with_svg": 673,
+        "pct": "12.0%"
       }
     }
   },
@@ -65178,6 +65178,222 @@
         "images/HSK_3.0/level7/裂缝.svg",
         "images/HSK_3.0/level8/裂缝.svg",
         "images/HSK_3.0/level9/裂缝.svg"
+      ]
+    },
+    "临床": {
+      "hanzi": "临床",
+      "pinyin": "línchuáng",
+      "meaning": "lâm sàng",
+      "example_zh": "这是<u>临床</u>试验结果。",
+      "example_vi": "Đây là kết quả thử nghiệm <u>lâm sàng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "临床.svg",
+      "src": "images/HSK_2.0/level6/临床.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/临床.svg",
+        "images/HSK_3.0/level8/临床.svg",
+        "images/HSK_3.0/level9/临床.svg"
+      ]
+    },
+    "吝啬": {
+      "hanzi": "吝啬",
+      "pinyin": "lìnsè",
+      "meaning": "keo kiệt",
+      "example_zh": "他对钱很<u>吝啬</u>。",
+      "example_vi": "Anh ấy rất <u>keo kiệt</u> về tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吝啬.svg",
+      "src": "images/HSK_2.0/level6/吝啬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/吝啬.svg",
+        "images/HSK_3.0/level8/吝啬.svg",
+        "images/HSK_3.0/level9/吝啬.svg"
+      ]
+    },
+    "灵感": {
+      "hanzi": "灵感",
+      "pinyin": "línggǎn",
+      "meaning": "cảm hứng",
+      "example_zh": "这幅画给了我很多<u>灵感</u>。",
+      "example_vi": "Bức tranh này cho tôi rất nhiều <u>cảm hứng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "灵感.svg",
+      "src": "images/HSK_2.0/level6/灵感.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/灵感.svg",
+        "images/HSK_3.0/level8/灵感.svg",
+        "images/HSK_3.0/level9/灵感.svg"
+      ]
+    },
+    "灵魂": {
+      "hanzi": "灵魂",
+      "pinyin": "línghún",
+      "meaning": "linh hồn",
+      "example_zh": "教育是国家的<u>灵魂</u>。",
+      "example_vi": "Giáo dục là <u>linh hồn</u> của đất nước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "灵魂.svg",
+      "src": "images/HSK_2.0/level6/灵魂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/灵魂.svg",
+        "images/HSK_3.0/level8/灵魂.svg",
+        "images/HSK_3.0/level9/灵魂.svg"
+      ]
+    },
+    "凌晨": {
+      "hanzi": "凌晨",
+      "pinyin": "língchén",
+      "meaning": "rạng sáng",
+      "example_zh": "他<u>凌晨</u>三点才回家。",
+      "example_vi": "Anh ấy <u>rạng sáng</u> 3 giờ mới về nhà.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "凌晨.svg",
+      "src": "images/HSK_2.0/level6/凌晨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/凌晨.svg"
+      ]
+    },
+    "零星": {
+      "hanzi": "零星",
+      "pinyin": "língxīng",
+      "meaning": "lẻ tẻ, rải rác",
+      "example_zh": "偶尔有<u>零星</u>的小雨。",
+      "example_vi": "Đôi khi có vài đợt mưa nhỏ <u>lẻ tẻ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "零星.svg",
+      "src": "images/HSK_2.0/level6/零星.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/零星.svg",
+        "images/HSK_3.0/level8/零星.svg",
+        "images/HSK_3.0/level9/零星.svg"
+      ]
+    },
+    "领会": {
+      "hanzi": "领会",
+      "pinyin": "lǐnghuì",
+      "meaning": "hiểu thấu, lĩnh hội",
+      "example_zh": "他<u>领会</u>了老师的意图。",
+      "example_vi": "Anh ấy <u>hiểu thấu</u> ý đồ của thầy giáo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "领会.svg",
+      "src": "images/HSK_2.0/level6/领会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/领会.svg",
+        "images/HSK_3.0/level8/领会.svg",
+        "images/HSK_3.0/level9/领会.svg"
+      ]
+    },
+    "领事馆": {
+      "hanzi": "领事馆",
+      "pinyin": "lǐngshìguǎn",
+      "meaning": "lãnh sự quán",
+      "example_zh": "他去<u>领事馆</u>办理签证。",
+      "example_vi": "Anh ấy đến <u>lãnh sự quán</u> để làm visa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "领事馆.svg",
+      "src": "images/HSK_2.0/level6/领事馆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/领事馆.svg",
+        "images/HSK_3.0/level8/领事馆.svg",
+        "images/HSK_3.0/level9/领事馆.svg"
+      ]
+    },
+    "领土": {
+      "hanzi": "领土",
+      "pinyin": "lǐngtǔ",
+      "meaning": "lãnh thổ",
+      "example_zh": "国家<u>领土</u>完整不可侵犯。",
+      "example_vi": "<u>Lãnh thổ</u> quốc gia toàn vẹn không thể xâm phạm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "领土.svg",
+      "src": "images/HSK_2.0/level6/领土.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/领土.svg",
+        "images/HSK_3.0/level8/领土.svg",
+        "images/HSK_3.0/level9/领土.svg"
+      ]
+    },
+    "领悟": {
+      "hanzi": "领悟",
+      "pinyin": "lǐngwù",
+      "meaning": "lĩnh hội, hiểu ra",
+      "example_zh": "他逐渐<u>领悟</u>了人生的道理。",
+      "example_vi": "Anh ấy dần dần <u>lĩnh hội</u> được lẽ sống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "领悟.svg",
+      "src": "images/HSK_2.0/level6/领悟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/领悟.svg",
+        "images/HSK_3.0/level8/领悟.svg",
+        "images/HSK_3.0/level9/领悟.svg"
       ]
     },
     "领先": {

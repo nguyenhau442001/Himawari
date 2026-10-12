@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Night Sky/Window -->
+  <circle cx="190" cy="50" r="20" fill="#fef3c7" opacity="0.8"/>
+  <path d="M160 100 H220 V220 H160 Z" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <path d="M190 100 V220 M160 160 H220" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Clock on wall -->
+  <circle cx="50" cy="50" r="25" fill="#334155"/>
+  <circle cx="50" cy="50" r="20" fill="#1e293b"/>
+  <line x1="50" y1="50" x2="50" y2="35" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="50" x2="65" y2="50" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Doorway -->
+  <path d="M80 80 H140 V240 H80 Z" fill="#1e293b" stroke="#475569" stroke-width="3"/>
+  
+  <!-- Character -->
+  <g transform="translate(110, 120)">
+    <!-- Body -->
+    <path d="M-15 110 C-15 80, 15 80, 15 110 L10 120 H-10 Z" fill="#38bdf8"/>
+    <path d="M-20 40 H20 L15 90 H-15 Z" fill="#fb923c"/>
+    <!-- Head -->
+    <circle cx="0" cy="25" r="20" fill="#fcd34d"/>
+    <!-- Hair -->
+    <path d="M-18 20 C-18 5, 18 5, 18 20 C18 10, 0 5, -18 20" fill="#475569"/>
+    <!-- Tired eyes -->
+    <path d="M-8 22 H-2 M2 22 H8" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Bag -->
+    <path d="M20 60 H35 V90 H20 Z" fill="#ec4899"/>
+  </g>
+  
+  <!-- Floor light -->
+  <ellipse cx="110" cy="240" rx="40" ry="10" fill="#fbbf24" opacity="0.15"/>
+</svg>

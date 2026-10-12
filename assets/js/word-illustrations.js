@@ -17552,6 +17552,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/裂缝.svg",
     "caption": "vết nứt, khe nứt"
   },
+  "临床": {
+    "file": "临床.svg",
+    "src": "images/HSK_2.0/level6/临床.svg",
+    "caption": "lâm sàng"
+  },
+  "吝啬": {
+    "file": "吝啬.svg",
+    "src": "images/HSK_2.0/level6/吝啬.svg",
+    "caption": "keo kiệt"
+  },
+  "灵感": {
+    "file": "灵感.svg",
+    "src": "images/HSK_2.0/level6/灵感.svg",
+    "caption": "cảm hứng"
+  },
+  "灵魂": {
+    "file": "灵魂.svg",
+    "src": "images/HSK_2.0/level6/灵魂.svg",
+    "caption": "linh hồn"
+  },
+  "凌晨": {
+    "file": "凌晨.svg",
+    "src": "images/HSK_2.0/level6/凌晨.svg",
+    "caption": "rạng sáng"
+  },
+  "零星": {
+    "file": "零星.svg",
+    "src": "images/HSK_2.0/level6/零星.svg",
+    "caption": "lẻ tẻ, rải rác"
+  },
+  "领会": {
+    "file": "领会.svg",
+    "src": "images/HSK_2.0/level6/领会.svg",
+    "caption": "hiểu thấu, lĩnh hội"
+  },
+  "领事馆": {
+    "file": "领事馆.svg",
+    "src": "images/HSK_2.0/level6/领事馆.svg",
+    "caption": "lãnh sự quán"
+  },
+  "领土": {
+    "file": "领土.svg",
+    "src": "images/HSK_2.0/level6/领土.svg",
+    "caption": "lãnh thổ"
+  },
+  "领悟": {
+    "file": "领悟.svg",
+    "src": "images/HSK_2.0/level6/领悟.svg",
+    "caption": "lĩnh hội, hiểu ra"
+  },
   "领先": {
     "file": "领先.svg",
     "src": "images/HSK_2.0/level6/领先.svg",

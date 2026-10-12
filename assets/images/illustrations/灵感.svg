@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Wall/Background elements -->
+  <rect x="60" y="40" width="120" height="80" rx="4" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <path d="M75 55 L165 55 L155 105 L85 105 Z" fill="#fbbf24"/>
+  <path d="M90 65 L150 65 L145 95 L95 95 Z" fill="#f59e0b"/>
+  <circle cx="120" cy="80" r="10" fill="#0f172a" opacity="0.2"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="160" width="200" height="15" rx="2" fill="#475569"/>
+  <rect x="30" y="175" width="10" height="65" fill="#334155"/>
+  <rect x="200" y="175" width="10" height="65" fill="#334155"/>
+  
+  <!-- Character -->
+  <g transform="translate(130, 130)">
+    <path d="M0 0 C-10 -20 -10 -40 0 -50 C10 -40 10 -20 0 0" fill="#fb923c"/>
+    <circle cx="0" cy="-55" r="15" fill="#fde68a"/>
+    <path d="M-5 -55 L-2 -52 M5 -55 L2 -52" stroke="#0f172a" stroke-width="2"/>
+    <path d="M-5 -45 Q0 -42 5 -45" stroke="#0f172a" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Tools/Inspiration -->
+  <path d="M50 140 L80 140 L75 160 L55 160 Z" fill="#ec4899"/>
+  <circle cx="65" cy="135" r="8" fill="#38bdf8"/>
+  
+  <!-- Sparkles of inspiration -->
+  <path d="M140 100 L145 90 L150 100 L160 105 L150 110 L145 120 L140 110 L130 105 Z" fill="#fbbf24"/>
+  <path d="M170 80 L172 75 L174 80 L179 82 L174 84 L172 89 L170 84 L165 82 Z" fill="#fbbf24"/>
+  
+  <!-- Sketchbook -->
+  <rect x="80" y="170" width="80" height="60" rx="4" fill="#f1f5f9"/>
+  <path d="M85 175 L155 175 M85 185 L155 185 M85 195 L155 195" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M90 205 L140 220" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+</svg>
