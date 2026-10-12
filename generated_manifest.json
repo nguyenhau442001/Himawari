@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:38:56.238952",
-  "total_unique_words_with_illustrations": 3120,
-  "total_flat_svg_files": 3120,
+  "generated_at": "2026-10-12T09:42:01.991694",
+  "total_unique_words_with_illustrations": 3130,
+  "total_flat_svg_files": 3130,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 577,
-        "pct": "23.1%"
+        "with_svg": 579,
+        "pct": "23.2%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1501,
-        "pct": "93.8%"
+        "with_svg": 1511,
+        "pct": "94.4%"
       },
       "level6": {
         "total": 1800,
@@ -48096,6 +48096,42 @@
         "images/HSK_3.0/level5/饮食.svg"
       ]
     },
+    "拥有": {
+      "hanzi": "拥有",
+      "pinyin": "yōngyǒu",
+      "meaning": "sở hữu, có",
+      "example_zh": "他<u>拥有</u>一座大房子。",
+      "example_vi": "Anh ấy <u>sở hữu</u> một căn nhà lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "拥有.svg",
+      "src": "images/HSK_2.0/level6/拥有.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/拥有.svg"
+      ]
+    },
+    "用户": {
+      "hanzi": "用户",
+      "pinyin": "yònghù",
+      "meaning": "người dùng",
+      "example_zh": "这个软件有上百万<u>用户</u>。",
+      "example_vi": "Phần mềm này có hàng triệu <u>người dùng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "用户.svg",
+      "src": "images/HSK_2.0/level6/用户.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/用户.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -55260,6 +55296,118 @@
       ],
       "file": "引进.svg",
       "src": "images/HSK_3.0/level5/引进.svg",
+      "alt_srcs": []
+    },
+    "应当": {
+      "hanzi": "应当",
+      "pinyin": "yīngdāng",
+      "meaning": "nên, phải, cần phải",
+      "example_zh": "遵守社会公德是每个人都<u>应当</u>做到的。",
+      "example_vi": "Tuân thủ đạo đức xã hội là điều mỗi người đều <u>cần phải</u> làm được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "应当.svg",
+      "src": "images/HSK_3.0/level5/应当.svg",
+      "alt_srcs": []
+    },
+    "迎": {
+      "hanzi": "迎",
+      "pinyin": "yíng",
+      "meaning": "đón, nghênh đón; hướng về",
+      "example_zh": "主人微笑着站在门口<u>迎</u>接入门的客人。",
+      "example_vi": "Chủ nhà mỉm cười đứng ở cửa <u>đón</u> khách vào nhà.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "迎.svg",
+      "src": "images/HSK_3.0/level5/迎.svg",
+      "alt_srcs": []
+    },
+    "影片": {
+      "hanzi": "影片",
+      "pinyin": "yǐngpiàn",
+      "meaning": "bộ phim, phim điện ảnh",
+      "example_zh": "这部优秀的纪录<u>影片</u>给观众留下了深刻印象。",
+      "example_vi": "<u>Bộ phim</u> tài liệu xuất sắc này đã để lại ấn tượng sâu đậm cho khán giả.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "影片.svg",
+      "src": "images/HSK_3.0/level5/影片.svg",
+      "alt_srcs": []
+    },
+    "影视": {
+      "hanzi": "影视",
+      "pinyin": "yǐngshì",
+      "meaning": "điện ảnh và truyền hình, phim ảnh",
+      "example_zh": "他毕业于著名的<u>影视</u>艺术学院。",
+      "example_vi": "Anh ấy tốt nghiệp từ học viện nghệ thuật <u>phim ảnh</u> nổi tiếng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "影视.svg",
+      "src": "images/HSK_3.0/level5/影视.svg",
+      "alt_srcs": []
+    },
+    "应对": {
+      "hanzi": "应对",
+      "pinyin": "yìngduì",
+      "meaning": "ứng phó, đối phó, xử lý",
+      "example_zh": "面对突发情况，我们要沉着冷静地<u>应对</u>。",
+      "example_vi": "Đối mặt với tình huống bất ngờ, chúng ta cần bình tĩnh <u>ứng phó</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "应对.svg",
+      "src": "images/HSK_3.0/level5/应对.svg",
+      "alt_srcs": []
+    },
+    "用法": {
+      "hanzi": "用法",
+      "pinyin": "yòngfǎ",
+      "meaning": "cách dùng, cách sử dụng",
+      "example_zh": "购买药品后请仔细阅读说明书上的<u>用法</u>与用量。",
+      "example_vi": "Sau khi mua thuốc hãy đọc kỹ <u>cách dùng</u> và liều lượng trên tờ hướng dẫn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "用法.svg",
+      "src": "images/HSK_3.0/level5/用法.svg",
+      "alt_srcs": []
+    },
+    "用力": {
+      "hanzi": "用力",
+      "pinyin": "yònglì",
+      "meaning": "dùng sức",
+      "example_zh": "他<u>用力</u>蹬了一下自行车",
+      "example_vi": "Anh ấy đạp mạnh xe đạp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "用力.svg",
+      "src": "images/HSK_3.0/level5/用力.svg",
+      "alt_srcs": []
+    },
+    "用品": {
+      "hanzi": "用品",
+      "pinyin": "yòngpǐn",
+      "meaning": "đồ dùng, vật dụng",
+      "example_zh": "开学前妈妈带他去文具店买齐了学习<u>用品</u>。",
+      "example_vi": "Trước ngày tựu trường mẹ dẫn cậu ấy đến nhà sách mua đủ <u>đồ dùng</u> học tập.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "用品.svg",
+      "src": "images/HSK_3.0/level5/用品.svg",
       "alt_srcs": []
     }
   }

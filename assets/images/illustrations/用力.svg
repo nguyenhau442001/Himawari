@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Ground -->
+  <path d="M0 200 L240 200 L240 240 L0 240 Z" fill="#334155"/>
+  <line x1="0" y1="200" x2="240" y2="200" stroke="#475569" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Bicycle -->
+  <g transform="translate(60, 110)">
+    <!-- Wheels -->
+    <circle cx="20" cy="70" r="25" fill="none" stroke="#94a3b8" stroke-width="4"/>
+    <circle cx="110" cy="70" r="25" fill="none" stroke="#94a3b8" stroke-width="4"/>
+    <!-- Frame -->
+    <path d="M20 70 L55 70 L85 40 L110 70 M55 70 L85 40 L70 20 M85 40 L95 20" stroke="#fb923c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Pedal Action -->
+    <circle cx="65" cy="70" r="8" fill="#f59e0b"/>
+    <path d="M65 70 L55 95" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character -->
+  <g transform="translate(95, 60)">
+    <!-- Body -->
+    <path d="M20 30 L35 80 L20 100" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Arms -->
+    <path d="M20 30 L45 50" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Head -->
+    <circle cx="25" cy="20" r="12" fill="#fde68a"/>
+    <!-- Leg pushing -->
+    <path d="M35 80 L55 110" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <circle cx="55" cy="110" r="6" fill="#10b981"/>
+  </g>
+
+  <!-- Motion lines -->
+  <path d="M130 140 Q150 130 170 140" stroke="#ec4899" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M135 150 Q160 140 185 150" stroke="#ec4899" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Environment details -->
+  <circle cx="200" cy="50" r="20" fill="#fbbf24" opacity="0.2"/>
+  <path d="M10 190 L20 170 L30 190" fill="#10b981"/>
+  <path d="M210 195 L220 180 L230 195" fill="#10b981"/>
+</svg>

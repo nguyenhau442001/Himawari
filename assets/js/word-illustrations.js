@@ -13352,6 +13352,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/饮食.svg",
     "caption": "ăn uống"
   },
+  "拥有": {
+    "file": "拥有.svg",
+    "src": "images/HSK_2.0/level6/拥有.svg",
+    "caption": "sở hữu, có"
+  },
+  "用户": {
+    "file": "用户.svg",
+    "src": "images/HSK_2.0/level6/用户.svg",
+    "caption": "người dùng"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15901,6 +15911,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "引进.svg",
     "src": "images/HSK_3.0/level5/引进.svg",
     "caption": "du nhập, tiếp thu, nhập khẩu"
+  },
+  "应当": {
+    "file": "应当.svg",
+    "src": "images/HSK_3.0/level5/应当.svg",
+    "caption": "nên, phải, cần phải"
+  },
+  "迎": {
+    "file": "迎.svg",
+    "src": "images/HSK_3.0/level5/迎.svg",
+    "caption": "đón, nghênh đón; hướng về"
+  },
+  "影片": {
+    "file": "影片.svg",
+    "src": "images/HSK_3.0/level5/影片.svg",
+    "caption": "bộ phim, phim điện ảnh"
+  },
+  "影视": {
+    "file": "影视.svg",
+    "src": "images/HSK_3.0/level5/影视.svg",
+    "caption": "điện ảnh và truyền hình, phim ảnh"
+  },
+  "应对": {
+    "file": "应对.svg",
+    "src": "images/HSK_3.0/level5/应对.svg",
+    "caption": "ứng phó, đối phó, xử lý"
+  },
+  "用法": {
+    "file": "用法.svg",
+    "src": "images/HSK_3.0/level5/用法.svg",
+    "caption": "cách dùng, cách sử dụng"
+  },
+  "用力": {
+    "file": "用力.svg",
+    "src": "images/HSK_3.0/level5/用力.svg",
+    "caption": "dùng sức"
+  },
+  "用品": {
+    "file": "用品.svg",
+    "src": "images/HSK_3.0/level5/用品.svg",
+    "caption": "đồ dùng, vật dụng"
   }
 };
 
