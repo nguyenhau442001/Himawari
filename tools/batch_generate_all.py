@@ -27,11 +27,17 @@ import re
 import shutil
 import subprocess
 import sys
+import threading
 import time
 import urllib.request
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
+
+git_lock = threading.Lock()
+state_lock = threading.Lock()
+exhausted_lock = threading.Lock()
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 VOCAB_DIR = REPO_ROOT / "database" / "vocabs"
@@ -437,7 +443,7 @@ def update_word_illustrations_js(manifest_entries):
         except Exception:
             pass
 
-def call_gemini_svg_api(word_info, api_keys, max_retries=4):
+def call_gemini_svg_api(word_info, api_keys, max_retries=3, model_offset=0):
     if isinstance(api_keys, str):
         api_keys = [api_keys] if api_keys else []
     if not api_keys:
@@ -446,7 +452,7 @@ def call_gemini_svg_api(word_info, api_keys, max_retries=4):
     meaning = word_info.get("meaning", "").strip()
     pinyin = word_info.get("pinyin", "").strip()
 
-    pos_type, pos_label = classify_pos(meaning)
+    pos_type, pos_label = classify_pos(meaning, hanzi)
     word_info["pos"] = pos_label
 
     ex_vi = (word_info.get("example_vi") or "").replace("<u>", "").replace("</u>", "").strip()
@@ -493,12 +499,15 @@ GENERAL CONSTRAINTS:
         "generationConfig": {"temperature": 0.35}
     }
 
+    rotated_models = MODELS_TO_TRY[model_offset % len(MODELS_TO_TRY):] + MODELS_TO_TRY[:model_offset % len(MODELS_TO_TRY)]
+
     for attempt in range(max_retries):
         available_pairs = []
-        for model in MODELS_TO_TRY:
-            for k_idx, key in enumerate(api_keys):
-                if (k_idx, model) not in EXHAUSTED_KEY_MODELS:
-                    available_pairs.append((k_idx, key, model))
+        with exhausted_lock:
+            for model in rotated_models:
+                for k_idx, key in enumerate(api_keys):
+                    if (k_idx, model) not in EXHAUSTED_KEY_MODELS:
+                        available_pairs.append((k_idx, key, model))
 
         if not available_pairs:
             print("        [CRITICAL] All configured API keys and models have exhausted their quota! Pausing.", flush=True)
@@ -512,7 +521,7 @@ GENERAL CONSTRAINTS:
                     data=json.dumps(payload).encode("utf-8"),
                     headers={"Content-Type": "application/json"}
                 )
-                with urllib.request.urlopen(req, timeout=45) as resp:
+                with urllib.request.urlopen(req, timeout=18) as resp:
                     data = json.loads(resp.read().decode("utf-8"))
                     candidates = data.get("candidates", [])
                     if candidates:
@@ -524,14 +533,6 @@ GENERAL CONSTRAINTS:
                                 svg_str = m.group(0).strip()
                                 if len(svg_str) > 150:
                                     return svg_str
-                                else:
-                                    print(f"        [!] {model}: SVG too short ({len(svg_str)} bytes)", flush=True)
-                            else:
-                                print(f"        [!] {model}: No <svg> tag in output ({text[:60]}...)", flush=True)
-                        else:
-                            print(f"        [!] {model}: Empty parts in content", flush=True)
-                    else:
-                        print(f"        [!] {model}: No candidates in response", flush=True)
             except urllib.error.HTTPError as he:
                 err_body = he.read().decode("utf-8", errors="ignore")
                 try:
@@ -540,30 +541,25 @@ GENERAL CONSTRAINTS:
                 except Exception:
                     msg = err_body[:100]
 
-                # Check if quota exceeded (daily limit) -> Blacklist permanently for this session & immediately switch
                 if he.code == 429 and ("quota" in msg.lower() or "limit" in msg.lower() or "resource_exhausted" in err_body.lower()):
-                    EXHAUSTED_KEY_MODELS.add((k_idx, model))
-                    print(f"        [>>> SWITCH MODEL] Quota exceeded for Key #{k_idx+1} on {model}. Blacklisted for this run. Immediately switching...", flush=True)
-                    continue
-                elif he.code == 503:
-                    print(f"        [!] Key #{k_idx+1} {model} HTTP 503 (temporary high demand on Google servers). Waiting 10s...", flush=True)
-                    time.sleep(10)
+                    with exhausted_lock:
+                        EXHAUSTED_KEY_MODELS.add((k_idx, model))
+                    print(f"        [>>> SWITCH MODEL] Quota exceeded for Key #{k_idx+1} on {model}. Switching...", flush=True)
                     continue
                 elif he.code in (404, 400):
-                    EXHAUSTED_KEY_MODELS.add((k_idx, model))
-                    print(f"        [>>> SWITCH MODEL] {model} unavailable (HTTP {he.code}). Removed from rotation.", flush=True)
+                    with exhausted_lock:
+                        EXHAUSTED_KEY_MODELS.add((k_idx, model))
+                    continue
+                elif he.code == 503:
+                    time.sleep(1)
                     continue
                 else:
-                    print(f"        [!] Key #{k_idx+1} {model} HTTP {he.code}: {msg.strip()}", flush=True)
                     continue
-            except Exception as e:
-                print(f"        [!] Key #{k_idx+1} {model} Error: {e}", flush=True)
+            except Exception:
                 continue
 
         if attempt < max_retries - 1:
-            wait_sec = 15 * (attempt + 1)
-            print(f"        [!] All active pairs busy/throttling. Waiting {wait_sec}s before retry {attempt+2}/{max_retries}...", flush=True)
-            time.sleep(wait_sec)
+            time.sleep(2 * (attempt + 1))
 
     return None
 
@@ -582,7 +578,8 @@ def git_commit_and_push(batch_count, level_label):
 def main():
     parser = argparse.ArgumentParser(description="Master batch generator & organizer for all HSK 2.0 & HSK 3.0 levels")
     parser.add_argument("--api-key", default="", help="Google AI Studio API Key (comma-separated or set in .api_key)")
-    parser.add_argument("--delay", type=float, default=1.0, help="Delay between API calls in seconds (default: 1.0s)")
+    parser.add_argument("--concurrency", type=int, default=6, help="Concurrent worker threads (default: 6 for maximum speed)")
+    parser.add_argument("--delay", type=float, default=0.0, help="Delay between thread dispatches in seconds (default: 0.0s)")
     parser.add_argument("--batch-size", type=int, default=20, help="Commit and push every N generated items (default: 20)")
     parser.add_argument("--only-organize", action="store_true", help="Only reorganize existing SVGs, build manifest & README without generating new SVGs")
     parser.add_argument("--target-level", default="all", help="Target specific level (e.g., 'level3', 'level5', 'level6', 'all')")
@@ -593,7 +590,7 @@ def main():
         print("[!] No Google AI API key found! Please set GOOGLE_AI_KEY or add to .api_key", flush=True)
         return
 
-    print(f"[*] Loaded {len(api_keys)} API key(s) for generation rotation.", flush=True)
+    print(f"[*] Loaded {len(api_keys)} API key(s) for generation rotation. Concurrency: {args.concurrency} workers.", flush=True)
 
     # Step 1: Organization under images/
     manifest_data = build_manifest_and_organize()
@@ -630,9 +627,10 @@ def main():
     batch_new_count = 0
 
     print("\n==================================================================", flush=True)
-    print("  HSK Flashcards: Master Scene-Based Illustration Pipeline", flush=True)
+    print("  HSK Flashcards: Master Scene-Based Illustration Pipeline (HIGH SPEED)", flush=True)
     print(f"  Target: images/HSK_2.0/level1..6 -> images/HSK_3.0/level1..9", flush=True)
-    print(f"  Batch commit threshold: Every {args.batch_size} newly generated SVGs", flush=True)
+    print(f"  Concurrency: {args.concurrency} parallel workers", flush=True)
+    print(f"  Batch commit threshold: Every {args.batch_size} newly generated SVGs -> main", flush=True)
     print("==================================================================\n", flush=True)
 
     for level_label, lvl_code, schema_type, file_path in curriculum:
@@ -640,19 +638,15 @@ def main():
         if not words:
             continue
 
-        print(f"\n[*] Starting {level_label} ({len(words)} words) from {file_path.name}...", flush=True)
+        print(f"\n[*] Scanning {level_label} ({len(words)} words) from {file_path.name}...", flush=True)
         level_new = 0
         level_skipped = 0
 
+        missing_items = []
         for idx, item in enumerate(words, 1):
             hanzi = item.get("hanzi", "").strip()
             if not hanzi:
                 continue
-
-            meaning = item.get("meaning", "").strip()
-            pinyin = item.get("pinyin", "").strip()
-            pos_type, pos_label = classify_pos(meaning)
-            item["pos"] = pos_label
 
             out_filename = f"{hanzi}.svg"
             flat_path = FLAT_OUTPUT_DIR / out_filename
@@ -663,12 +657,30 @@ def main():
                 level_skipped += 1
                 if not images_dest.exists() and flat_path.exists():
                     shutil.copy2(flat_path, images_dest)
-                if idx % 50 == 0:
-                    print(f"    [{idx}/{len(words)}] Progress: {level_skipped} existing skipped, {level_new} newly generated.", flush=True)
                 continue
 
-            print(f"    [{idx}/{len(words)}] Generating '{hanzi}' ({pinyin} - {meaning})...", flush=True)
-            svg_code = call_gemini_svg_api(item, api_keys)
+            missing_items.append((idx, item))
+
+        print(f"[*] {level_label}: {len(missing_items)} missing words to generate ({level_skipped} already exist). Spawning {args.concurrency} parallel workers...", flush=True)
+
+        if not missing_items:
+            print(f"[*] {level_label} is already 100% complete! Skipping to next level.", flush=True)
+            continue
+
+        def process_word(task_info):
+            nonlocal batch_new_count, level_new, total_generated_session
+            orig_idx, item = task_info
+            hanzi = item.get("hanzi", "").strip()
+            meaning = item.get("meaning", "").strip()
+            pinyin = item.get("pinyin", "").strip()
+            pos_type, pos_label = classify_pos(meaning, hanzi)
+            item["pos"] = pos_label
+
+            out_filename = f"{hanzi}.svg"
+            flat_path = FLAT_OUTPUT_DIR / out_filename
+            images_dest = IMAGES_DIR / schema_type / lvl_code / out_filename
+
+            svg_code = call_gemini_svg_api(item, api_keys, model_offset=orig_idx)
             if svg_code:
                 # 1. Write flat SVG
                 flat_path.write_text(svg_code, encoding="utf-8")
@@ -684,28 +696,40 @@ def main():
                     except Exception:
                         pass
 
-                level_new += 1
-                batch_new_count += 1
-                total_generated_session += 1
-                print(f"        ✓ Saved scene SVG ({len(svg_code)} B) [Total this session: {total_generated_session}]", flush=True)
-            else:
-                print(f"        ✗ Failed to generate '{hanzi}'", flush=True)
+                should_commit = False
+                with state_lock:
+                    level_new += 1
+                    batch_new_count += 1
+                    total_generated_session += 1
+                    print(f"    ✓ [{orig_idx}/{len(words)}] Generated '{hanzi}' ({pinyin} - {meaning[:22]}) [{len(svg_code)} B] (Total session: {total_generated_session})", flush=True)
+                    if batch_new_count >= args.batch_size:
+                        batch_new_count = 0
+                        should_commit = True
 
-            # Periodically rebuild manifest and commit every batch_size (default: 10)
-            if batch_new_count >= args.batch_size:
-                build_manifest_and_organize()
+                if should_commit:
+                    with git_lock:
+                        build_manifest_and_organize()
+                        git_commit_and_push(args.batch_size, level_label)
+
+                return True
+            else:
+                print(f"    ✗ [{orig_idx}/{len(words)}] Failed to generate '{hanzi}'", flush=True)
+                return False
+
+        with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
+            futures = [executor.submit(process_word, task) for task in missing_items]
+            for fut in as_completed(futures):
+                try:
+                    fut.result()
+                except Exception as e:
+                    print(f"[!] Worker exception: {e}", flush=True)
+
+        # End of level commit
+        with git_lock:
+            build_manifest_and_organize()
+            if batch_new_count > 0:
                 git_commit_and_push(batch_new_count, level_label)
                 batch_new_count = 0
-
-            time.sleep(args.delay)
-
-        # End of level
-        if batch_new_count > 0:
-            build_manifest_and_organize()
-            git_commit_and_push(batch_new_count, level_label)
-            batch_new_count = 0
-        else:
-            build_manifest_and_organize()
 
         print(f"[*] Completed {level_label}: {level_new} newly generated, {level_skipped} skipped.", flush=True)
 
