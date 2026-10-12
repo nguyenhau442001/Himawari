@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:59:25.009519",
-  "total_unique_words_with_illustrations": 4490,
-  "total_flat_svg_files": 4490,
+  "generated_at": "2026-10-12T23:00:18.030566",
+  "total_unique_words_with_illustrations": 4495,
+  "total_flat_svg_files": 4495,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1850,
-        "pct": "74.0%"
+        "with_svg": 1855,
+        "pct": "74.2%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 618,
-        "pct": "34.3%"
+        "with_svg": 620,
+        "pct": "34.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 918,
+        "with_svg": 920,
         "pct": "16.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 918,
+        "with_svg": 920,
         "pct": "16.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 918,
+        "with_svg": 920,
         "pct": "16.4%"
       }
     }
@@ -73154,6 +73154,100 @@
         "images/HSK_3.0/level7/嫂子.svg",
         "images/HSK_3.0/level8/嫂子.svg",
         "images/HSK_3.0/level9/嫂子.svg"
+      ]
+    },
+    "刹车": {
+      "hanzi": "刹车",
+      "pinyin": "shāchē",
+      "meaning": "phanh xe, hãm xe",
+      "example_zh": "司机及时<u>刹车</u>，避免了事故。",
+      "example_vi": "Người lái xe kịp thời <u>phanh xe</u>, tránh được tai nạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "刹车.svg",
+      "src": "images/HSK_2.0/level6/刹车.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/刹车.svg"
+      ]
+    },
+    "啥": {
+      "hanzi": "啥",
+      "pinyin": "shá",
+      "meaning": "gì (khẩu ngữ)",
+      "example_zh": "你想吃<u>啥</u>？",
+      "example_vi": "Bạn muốn ăn <u>gì</u>?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "啥.svg",
+      "src": "images/HSK_2.0/level6/啥.svg",
+      "alt_srcs": []
+    },
+    "筛选": {
+      "hanzi": "筛选",
+      "pinyin": "shāixuǎn",
+      "meaning": "sàng lọc, chọn lọc",
+      "example_zh": "公司对求职者进行了<u>筛选</u>。",
+      "example_vi": "Công ty đã <u>sàng lọc</u> những người ứng tuyển.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "筛选.svg",
+      "src": "images/HSK_2.0/level6/筛选.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/筛选.svg"
+      ]
+    },
+    "山脉": {
+      "hanzi": "山脉",
+      "pinyin": "shānmài",
+      "meaning": "dãy núi",
+      "example_zh": "这条<u>山脉</u>绵延数百公里。",
+      "example_vi": "<u>Dãy núi</u> này kéo dài hàng trăm km.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "山脉.svg",
+      "src": "images/HSK_2.0/level6/山脉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/山脉.svg",
+        "images/HSK_3.0/level8/山脉.svg",
+        "images/HSK_3.0/level9/山脉.svg"
+      ]
+    },
+    "闪烁": {
+      "hanzi": "闪烁",
+      "pinyin": "shǎnshuò",
+      "meaning": "lấp lánh, nhấp nháy",
+      "example_zh": "夜空中星星<u>闪烁</u>。",
+      "example_vi": "Các vì sao <u>lấp lánh</u> trên bầu trời đêm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "闪烁.svg",
+      "src": "images/HSK_2.0/level6/闪烁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/闪烁.svg",
+        "images/HSK_3.0/level8/闪烁.svg",
+        "images/HSK_3.0/level9/闪烁.svg"
       ]
     },
     "擅长": {

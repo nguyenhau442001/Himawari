@@ -19502,6 +19502,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/嫂子.svg",
     "caption": "chị dâu"
   },
+  "刹车": {
+    "file": "刹车.svg",
+    "src": "images/HSK_2.0/level6/刹车.svg",
+    "caption": "phanh xe, hãm xe"
+  },
+  "啥": {
+    "file": "啥.svg",
+    "src": "images/HSK_2.0/level6/啥.svg",
+    "caption": "gì (khẩu ngữ)"
+  },
+  "筛选": {
+    "file": "筛选.svg",
+    "src": "images/HSK_2.0/level6/筛选.svg",
+    "caption": "sàng lọc, chọn lọc"
+  },
+  "山脉": {
+    "file": "山脉.svg",
+    "src": "images/HSK_2.0/level6/山脉.svg",
+    "caption": "dãy núi"
+  },
+  "闪烁": {
+    "file": "闪烁.svg",
+    "src": "images/HSK_2.0/level6/闪烁.svg",
+    "caption": "lấp lánh, nhấp nháy"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",
