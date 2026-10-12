@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:34:32.807864",
-  "total_unique_words_with_illustrations": 3489,
-  "total_flat_svg_files": 3489,
+  "generated_at": "2026-10-12T11:36:25.335280",
+  "total_unique_words_with_illustrations": 3499,
+  "total_flat_svg_files": 3499,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 849,
-        "pct": "34.0%"
+        "with_svg": 859,
+        "pct": "34.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 318,
-        "pct": "17.7%"
+        "with_svg": 320,
+        "pct": "17.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 281,
-        "pct": "5.0%"
+        "with_svg": 288,
+        "pct": "5.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 281,
-        "pct": "5.0%"
+        "with_svg": 288,
+        "pct": "5.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 281,
-        "pct": "5.0%"
+        "with_svg": 288,
+        "pct": "5.1%"
       }
     }
   },
@@ -51865,6 +51865,210 @@
       "file": "抽空.svg",
       "src": "images/HSK_2.0/level6/抽空.svg",
       "alt_srcs": []
+    },
+    "筹备": {
+      "hanzi": "筹备",
+      "pinyin": "chóubèi",
+      "meaning": "chuẩn bị (cho sự kiện)",
+      "example_zh": "我们在<u>筹备</u>婚礼。",
+      "example_vi": "Chúng tôi đang <u>chuẩn bị</u> cho đám cưới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "筹备.svg",
+      "src": "images/HSK_2.0/level6/筹备.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/筹备.svg"
+      ]
+    },
+    "踌躇": {
+      "hanzi": "踌躇",
+      "pinyin": "chóuchú",
+      "meaning": "do dự, lưỡng lự",
+      "example_zh": "他<u>踌躇</u>了很久才做决定。",
+      "example_vi": "Anh ấy <u>do dự</u> rất lâu mới đưa ra quyết định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "踌躇.svg",
+      "src": "images/HSK_2.0/level6/踌躇.svg",
+      "alt_srcs": []
+    },
+    "稠密": {
+      "hanzi": "稠密",
+      "pinyin": "chóumì",
+      "meaning": "dày đặc, đông đúc",
+      "example_zh": "这里人口非常<u>稠密</u>。",
+      "example_vi": "Dân số ở đây rất <u>dày đặc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "稠密.svg",
+      "src": "images/HSK_2.0/level6/稠密.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/稠密.svg",
+        "images/HSK_3.0/level8/稠密.svg",
+        "images/HSK_3.0/level9/稠密.svg"
+      ]
+    },
+    "丑恶": {
+      "hanzi": "丑恶",
+      "pinyin": "chǒuè",
+      "meaning": "xấu xa, đáng ghê tởm",
+      "example_zh": "这种行为非常<u>丑恶</u>。",
+      "example_vi": "Hành vi này rất <u>xấu xa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丑恶.svg",
+      "src": "images/HSK_2.0/level6/丑恶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/丑恶.svg",
+        "images/HSK_3.0/level8/丑恶.svg",
+        "images/HSK_3.0/level9/丑恶.svg"
+      ]
+    },
+    "初步": {
+      "hanzi": "初步",
+      "pinyin": "chūbù",
+      "meaning": "sơ bộ, ban đầu",
+      "example_zh": "我们已经达成<u>初步</u>协议。",
+      "example_vi": "Chúng tôi đã đạt được thỏa thuận <u>sơ bộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "初步.svg",
+      "src": "images/HSK_2.0/level6/初步.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/初步.svg"
+      ]
+    },
+    "出路": {
+      "hanzi": "出路",
+      "pinyin": "chūlù",
+      "meaning": "đường ra, hướng giải quyết",
+      "example_zh": "这件事还有<u>出路</u>。",
+      "example_vi": "Việc này vẫn còn <u>hướng giải quyết</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "出路.svg",
+      "src": "images/HSK_2.0/level6/出路.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/出路.svg",
+        "images/HSK_3.0/level8/出路.svg",
+        "images/HSK_3.0/level9/出路.svg"
+      ]
+    },
+    "出卖": {
+      "hanzi": "出卖",
+      "pinyin": "chūmài",
+      "meaning": "bán; bán rẻ (phản bội)",
+      "example_zh": "他<u>出卖</u>了自己的朋友。",
+      "example_vi": "Anh ta <u>bán rẻ</u> bạn của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "出卖.svg",
+      "src": "images/HSK_2.0/level6/出卖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/出卖.svg",
+        "images/HSK_3.0/level8/出卖.svg",
+        "images/HSK_3.0/level9/出卖.svg"
+      ]
+    },
+    "出身": {
+      "hanzi": "出身",
+      "pinyin": "chūshēn",
+      "meaning": "xuất thân",
+      "example_zh": "他<u>出身</u>于一个普通家庭。",
+      "example_vi": "Anh ấy <u>xuất thân</u> từ một gia đình bình thường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "出身.svg",
+      "src": "images/HSK_2.0/level6/出身.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/出身.svg",
+        "images/HSK_3.0/level8/出身.svg",
+        "images/HSK_3.0/level9/出身.svg"
+      ]
+    },
+    "出神": {
+      "hanzi": "出神",
+      "pinyin": "chūshén",
+      "meaning": "ngẩn ngơ, mê mải",
+      "example_zh": "她看着窗外，<u>出神</u>了。",
+      "example_vi": "Cô ấy nhìn ra ngoài cửa sổ, <u>ngẩn ngơ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "出神.svg",
+      "src": "images/HSK_2.0/level6/出神.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/出神.svg",
+        "images/HSK_3.0/level8/出神.svg",
+        "images/HSK_3.0/level9/出神.svg"
+      ]
+    },
+    "出息": {
+      "hanzi": "出息",
+      "pinyin": "chūxi",
+      "meaning": "tiền đồ, tương lai",
+      "example_zh": "这孩子将来一定有<u>出息</u>。",
+      "example_vi": "Đứa trẻ này tương lai chắc chắn sẽ có <u>tiền đồ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "出息.svg",
+      "src": "images/HSK_2.0/level6/出息.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/出息.svg",
+        "images/HSK_3.0/level8/出息.svg",
+        "images/HSK_3.0/level9/出息.svg"
+      ]
     },
     "传递": {
       "hanzi": "传递",

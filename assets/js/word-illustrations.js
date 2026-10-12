@@ -14227,6 +14227,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/抽空.svg",
     "caption": "tranh thủ thời gian"
   },
+  "筹备": {
+    "file": "筹备.svg",
+    "src": "images/HSK_2.0/level6/筹备.svg",
+    "caption": "chuẩn bị (cho sự kiện)"
+  },
+  "踌躇": {
+    "file": "踌躇.svg",
+    "src": "images/HSK_2.0/level6/踌躇.svg",
+    "caption": "do dự, lưỡng lự"
+  },
+  "稠密": {
+    "file": "稠密.svg",
+    "src": "images/HSK_2.0/level6/稠密.svg",
+    "caption": "dày đặc, đông đúc"
+  },
+  "丑恶": {
+    "file": "丑恶.svg",
+    "src": "images/HSK_2.0/level6/丑恶.svg",
+    "caption": "xấu xa, đáng ghê tởm"
+  },
+  "初步": {
+    "file": "初步.svg",
+    "src": "images/HSK_2.0/level6/初步.svg",
+    "caption": "sơ bộ, ban đầu"
+  },
+  "出路": {
+    "file": "出路.svg",
+    "src": "images/HSK_2.0/level6/出路.svg",
+    "caption": "đường ra, hướng giải quyết"
+  },
+  "出卖": {
+    "file": "出卖.svg",
+    "src": "images/HSK_2.0/level6/出卖.svg",
+    "caption": "bán; bán rẻ (phản bội)"
+  },
+  "出身": {
+    "file": "出身.svg",
+    "src": "images/HSK_2.0/level6/出身.svg",
+    "caption": "xuất thân"
+  },
+  "出神": {
+    "file": "出神.svg",
+    "src": "images/HSK_2.0/level6/出神.svg",
+    "caption": "ngẩn ngơ, mê mải"
+  },
+  "出息": {
+    "file": "出息.svg",
+    "src": "images/HSK_2.0/level6/出息.svg",
+    "caption": "tiền đồ, tương lai"
+  },
   "传递": {
     "file": "传递.svg",
     "src": "images/HSK_2.0/level6/传递.svg",
