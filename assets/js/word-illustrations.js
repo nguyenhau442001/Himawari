@@ -14827,6 +14827,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/地步.svg",
     "caption": "mức độ, tình trạng"
   },
+  "地势": {
+    "file": "地势.svg",
+    "src": "images/HSK_2.0/level6/地势.svg",
+    "caption": "địa hình"
+  },
+  "递增": {
+    "file": "递增.svg",
+    "src": "images/HSK_2.0/level6/递增.svg",
+    "caption": "tăng dần"
+  },
+  "地质": {
+    "file": "地质.svg",
+    "src": "images/HSK_2.0/level6/地质.svg",
+    "caption": "địa chất"
+  },
+  "颠簸": {
+    "file": "颠簸.svg",
+    "src": "images/HSK_2.0/level6/颠簸.svg",
+    "caption": "xóc nảy, lắc lư"
+  },
+  "颠倒": {
+    "file": "颠倒.svg",
+    "src": "images/HSK_2.0/level6/颠倒.svg",
+    "caption": "đảo ngược, lộn xộn"
+  },
+  "典礼": {
+    "file": "典礼.svg",
+    "src": "images/HSK_2.0/level6/典礼.svg",
+    "caption": "lễ, nghi thức"
+  },
+  "点头": {
+    "file": "点头.svg",
+    "src": "images/HSK_2.0/level6/点头.svg",
+    "caption": "gật đầu"
+  },
+  "典型": {
+    "file": "典型.svg",
+    "src": "images/HSK_2.0/level6/典型.svg",
+    "caption": "điển hình"
+  },
+  "点缀": {
+    "file": "点缀.svg",
+    "src": "images/HSK_2.0/level6/点缀.svg",
+    "caption": "tô điểm, trang trí"
+  },
+  "垫": {
+    "file": "垫.svg",
+    "src": "images/HSK_2.0/level6/垫.svg",
+    "caption": "đệm, lót"
+  },
   "定期": {
     "file": "定期.svg",
     "src": "images/HSK_2.0/level6/定期.svg",

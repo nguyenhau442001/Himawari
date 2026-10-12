@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:54:48.506610",
-  "total_unique_words_with_illustrations": 3599,
-  "total_flat_svg_files": 3599,
+  "generated_at": "2026-10-12T11:56:34.973342",
+  "total_unique_words_with_illustrations": 3609,
+  "total_flat_svg_files": 3609,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 959,
-        "pct": "38.4%"
+        "with_svg": 969,
+        "pct": "38.8%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 607,
-        "pct": "60.7%"
+        "with_svg": 608,
+        "pct": "60.8%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 355,
-        "pct": "19.7%"
+        "with_svg": 358,
+        "pct": "19.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 349,
-        "pct": "6.2%"
+        "with_svg": 355,
+        "pct": "6.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 349,
-        "pct": "6.2%"
+        "with_svg": 355,
+        "pct": "6.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 349,
-        "pct": "6.2%"
+        "with_svg": 355,
+        "pct": "6.3%"
       }
     }
   },
@@ -54268,6 +54268,210 @@
         "images/HSK_3.0/level7/地步.svg",
         "images/HSK_3.0/level8/地步.svg",
         "images/HSK_3.0/level9/地步.svg"
+      ]
+    },
+    "地势": {
+      "hanzi": "地势",
+      "pinyin": "dìshì",
+      "meaning": "địa hình",
+      "example_zh": "这里的<u>地势</u>比较平坦。",
+      "example_vi": "<u>Địa hình</u> ở đây khá bằng phẳng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "地势.svg",
+      "src": "images/HSK_2.0/level6/地势.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/地势.svg",
+        "images/HSK_3.0/level8/地势.svg",
+        "images/HSK_3.0/level9/地势.svg"
+      ]
+    },
+    "递增": {
+      "hanzi": "递增",
+      "pinyin": "dìzēng",
+      "meaning": "tăng dần",
+      "example_zh": "销量逐年<u>递增</u>。",
+      "example_vi": "Doanh số <u>tăng dần</u> theo từng năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "递增.svg",
+      "src": "images/HSK_2.0/level6/递增.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/递增.svg",
+        "images/HSK_3.0/level8/递增.svg",
+        "images/HSK_3.0/level9/递增.svg"
+      ]
+    },
+    "地质": {
+      "hanzi": "地质",
+      "pinyin": "dìzhì",
+      "meaning": "địa chất",
+      "example_zh": "他是研究<u>地质</u>的专家。",
+      "example_vi": "Anh ấy là chuyên gia nghiên cứu <u>địa chất</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "地质.svg",
+      "src": "images/HSK_2.0/level6/地质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/地质.svg"
+      ]
+    },
+    "颠簸": {
+      "hanzi": "颠簸",
+      "pinyin": "diānbǒ",
+      "meaning": "xóc nảy, lắc lư",
+      "example_zh": "车在山路上<u>颠簸</u>。",
+      "example_vi": "Xe <u>xóc nảy</u> trên đường núi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "颠簸.svg",
+      "src": "images/HSK_2.0/level6/颠簸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/颠簸.svg",
+        "images/HSK_3.0/level8/颠簸.svg",
+        "images/HSK_3.0/level9/颠簸.svg"
+      ]
+    },
+    "颠倒": {
+      "hanzi": "颠倒",
+      "pinyin": "diāndǎo",
+      "meaning": "đảo ngược, lộn xộn",
+      "example_zh": "这两句话顺序<u>颠倒</u>了。",
+      "example_vi": "Thứ tự hai câu này bị <u>đảo ngược</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "颠倒.svg",
+      "src": "images/HSK_2.0/level6/颠倒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/颠倒.svg",
+        "images/HSK_3.0/level8/颠倒.svg",
+        "images/HSK_3.0/level9/颠倒.svg"
+      ]
+    },
+    "典礼": {
+      "hanzi": "典礼",
+      "pinyin": "diǎnlǐ",
+      "meaning": "lễ, nghi thức",
+      "example_zh": "毕业<u>典礼</u>明天举行。",
+      "example_vi": "<u>Lễ</u> tốt nghiệp tổ chức vào ngày mai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "典礼.svg",
+      "src": "images/HSK_2.0/level6/典礼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/典礼.svg"
+      ]
+    },
+    "点头": {
+      "hanzi": "点头",
+      "pinyin": "diǎntóu",
+      "meaning": "gật đầu",
+      "example_zh": "他<u>点头</u>表示同意。",
+      "example_vi": "Anh ấy <u>gật đầu</u> thể hiện sự đồng ý.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "点头.svg",
+      "src": "images/HSK_2.0/level6/点头.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/点头.svg"
+      ]
+    },
+    "典型": {
+      "hanzi": "典型",
+      "pinyin": "diǎnxíng",
+      "meaning": "điển hình",
+      "example_zh": "这是一个<u>典型</u>的例子。",
+      "example_vi": "Đây là một ví dụ <u>điển hình</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "典型.svg",
+      "src": "images/HSK_2.0/level6/典型.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/典型.svg"
+      ]
+    },
+    "点缀": {
+      "hanzi": "点缀",
+      "pinyin": "diǎnzhuì",
+      "meaning": "tô điểm, trang trí",
+      "example_zh": "花朵<u>点缀</u>着花园。",
+      "example_vi": "Hoa <u>tô điểm</u> cho khu vườn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "点缀.svg",
+      "src": "images/HSK_2.0/level6/点缀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/点缀.svg",
+        "images/HSK_3.0/level8/点缀.svg",
+        "images/HSK_3.0/level9/点缀.svg"
+      ]
+    },
+    "垫": {
+      "hanzi": "垫",
+      "pinyin": "diàn",
+      "meaning": "đệm, lót",
+      "example_zh": "椅子上放了一个<u>垫</u>子。",
+      "example_vi": "Trên ghế có đặt một cái <u>đệm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "垫.svg",
+      "src": "images/HSK_2.0/level6/垫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/垫.svg",
+        "images/HSK_3.0/level8/垫.svg",
+        "images/HSK_3.0/level9/垫.svg"
       ]
     },
     "定期": {
