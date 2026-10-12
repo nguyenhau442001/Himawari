@@ -12947,6 +12947,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拜年.svg",
     "caption": "chúc Tết"
   },
+  "拜托": {
+    "file": "拜托.svg",
+    "src": "images/HSK_2.0/level6/拜托.svg",
+    "caption": "làm ơn, nhờ vả"
+  },
+  "颁布": {
+    "file": "颁布.svg",
+    "src": "images/HSK_2.0/level6/颁布.svg",
+    "caption": "ban hành (luật)"
+  },
+  "颁发": {
+    "file": "颁发.svg",
+    "src": "images/HSK_2.0/level6/颁发.svg",
+    "caption": "cấp phát, trao (giải, văn bản)"
+  },
+  "斑纹": {
+    "file": "斑纹.svg",
+    "src": "images/HSK_2.0/level6/斑纹.svg",
+    "caption": "vân, vết sọc"
+  },
+  "班主任": {
+    "file": "班主任.svg",
+    "src": "images/HSK_2.0/level6/班主任.svg",
+    "caption": "giáo viên chủ nhiệm"
+  },
+  "版本": {
+    "file": "版本.svg",
+    "src": "images/HSK_2.0/level6/版本.svg",
+    "caption": "phiên bản"
+  },
+  "半途而废": {
+    "file": "半途而废.svg",
+    "src": "images/HSK_2.0/level6/半途而废.svg",
+    "caption": "bỏ giữa đường, làm nửa chừng rồi bỏ"
+  },
+  "扮演": {
+    "file": "扮演.svg",
+    "src": "images/HSK_2.0/level6/扮演.svg",
+    "caption": "đóng vai, diễn vai"
+  },
+  "绑架": {
+    "file": "绑架.svg",
+    "src": "images/HSK_2.0/level6/绑架.svg",
+    "caption": "bắt cóc"
+  },
+  "榜样": {
+    "file": "榜样.svg",
+    "src": "images/HSK_2.0/level6/榜样.svg",
+    "caption": "tấm gương, hình mẫu"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",

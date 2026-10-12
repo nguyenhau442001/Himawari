@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:19:32.949971",
-  "total_unique_words_with_illustrations": 3249,
-  "total_flat_svg_files": 3249,
+  "generated_at": "2026-10-12T10:23:11.614179",
+  "total_unique_words_with_illustrations": 3259,
+  "total_flat_svg_files": 3259,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 609,
-        "pct": "24.4%"
+        "with_svg": 619,
+        "pct": "24.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 254,
-        "pct": "14.1%"
+        "with_svg": 257,
+        "pct": "14.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 124,
-        "pct": "2.2%"
+        "with_svg": 129,
+        "pct": "2.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 124,
-        "pct": "2.2%"
+        "with_svg": 129,
+        "pct": "2.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 124,
-        "pct": "2.2%"
+        "with_svg": 129,
+        "pct": "2.3%"
       }
     }
   },
@@ -46692,6 +46692,198 @@
       "src": "images/HSK_2.0/level6/拜年.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/拜年.svg"
+      ]
+    },
+    "拜托": {
+      "hanzi": "拜托",
+      "pinyin": "bàituō",
+      "meaning": "làm ơn, nhờ vả",
+      "example_zh": "<u>拜托</u>你帮我一个忙。",
+      "example_vi": "<u>Làm ơn</u> giúp tôi một việc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "拜托.svg",
+      "src": "images/HSK_2.0/level6/拜托.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/拜托.svg",
+        "images/HSK_3.0/level8/拜托.svg",
+        "images/HSK_3.0/level9/拜托.svg"
+      ]
+    },
+    "颁布": {
+      "hanzi": "颁布",
+      "pinyin": "bānbù",
+      "meaning": "ban hành (luật)",
+      "example_zh": "政府<u>颁布</u>了新法律。",
+      "example_vi": "Chính phủ <u>ban hành</u> luật mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "颁布.svg",
+      "src": "images/HSK_2.0/level6/颁布.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/颁布.svg",
+        "images/HSK_3.0/level8/颁布.svg",
+        "images/HSK_3.0/level9/颁布.svg"
+      ]
+    },
+    "颁发": {
+      "hanzi": "颁发",
+      "pinyin": "bānfā",
+      "meaning": "cấp phát, trao (giải, văn bản)",
+      "example_zh": "校长亲自<u>颁发</u>奖状。",
+      "example_vi": "Hiệu trưởng trực tiếp <u>trao</u> giấy khen.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "颁发.svg",
+      "src": "images/HSK_2.0/level6/颁发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/颁发.svg",
+        "images/HSK_3.0/level8/颁发.svg",
+        "images/HSK_3.0/level9/颁发.svg"
+      ]
+    },
+    "斑纹": {
+      "hanzi": "斑纹",
+      "pinyin": "bānwén",
+      "meaning": "vân, vết sọc",
+      "example_zh": "老虎身上有黑色<u>斑纹</u>。",
+      "example_vi": "Trên thân hổ có những <u>vết sọc</u> màu đen.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "斑纹.svg",
+      "src": "images/HSK_2.0/level6/斑纹.svg",
+      "alt_srcs": []
+    },
+    "班主任": {
+      "hanzi": "班主任",
+      "pinyin": "bānzhǔrèn",
+      "meaning": "giáo viên chủ nhiệm",
+      "example_zh": "我们的<u>班主任</u>姓王。",
+      "example_vi": "<u>Giáo viên chủ nhiệm</u> của chúng tôi họ Vương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "班主任.svg",
+      "src": "images/HSK_2.0/level6/班主任.svg",
+      "alt_srcs": []
+    },
+    "版本": {
+      "hanzi": "版本",
+      "pinyin": "bǎnběn",
+      "meaning": "phiên bản",
+      "example_zh": "这是软件的最新<u>版本</u>。",
+      "example_vi": "Đây là <u>phiên bản</u> mới nhất của phần mềm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "版本.svg",
+      "src": "images/HSK_2.0/level6/版本.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/版本.svg"
+      ]
+    },
+    "半途而废": {
+      "hanzi": "半途而废",
+      "pinyin": "bàn tú ér fèi",
+      "meaning": "bỏ giữa đường, làm nửa chừng rồi bỏ",
+      "example_zh": "做事不能<u>半途而废</u>。",
+      "example_vi": "Làm việc không thể <u>bỏ giữa đường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "半途而废.svg",
+      "src": "images/HSK_2.0/level6/半途而废.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/半途而废.svg",
+        "images/HSK_3.0/level8/半途而废.svg",
+        "images/HSK_3.0/level9/半途而废.svg"
+      ]
+    },
+    "扮演": {
+      "hanzi": "扮演",
+      "pinyin": "bànyǎn",
+      "meaning": "đóng vai, diễn vai",
+      "example_zh": "她在电影里<u>扮演</u>主角。",
+      "example_vi": "Cô ấy <u>đóng vai</u> chính trong bộ phim.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "扮演.svg",
+      "src": "images/HSK_2.0/level6/扮演.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/扮演.svg"
+      ]
+    },
+    "绑架": {
+      "hanzi": "绑架",
+      "pinyin": "bǎngjià",
+      "meaning": "bắt cóc",
+      "example_zh": "那个孩子被<u>绑架</u>了。",
+      "example_vi": "Đứa trẻ đó đã bị <u>bắt cóc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "绑架.svg",
+      "src": "images/HSK_2.0/level6/绑架.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/绑架.svg",
+        "images/HSK_3.0/level8/绑架.svg",
+        "images/HSK_3.0/level9/绑架.svg"
+      ]
+    },
+    "榜样": {
+      "hanzi": "榜样",
+      "pinyin": "bǎngyàng",
+      "meaning": "tấm gương, hình mẫu",
+      "example_zh": "他是我们学习的<u>榜样</u>。",
+      "example_vi": "Anh ấy là <u>tấm gương</u> để chúng ta học tập.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "榜样.svg",
+      "src": "images/HSK_2.0/level6/榜样.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/榜样.svg"
       ]
     },
     "本人": {

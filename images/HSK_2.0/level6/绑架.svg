@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Street Lamp -->
+  <path d="M200 240V80h-10v160z" fill="#334155"/>
+  <circle cx="195" cy="70" r="15" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="195" cy="70" r="8" fill="#fef3c7"/>
+  
+  <!-- Shadowy Figure -->
+  <g transform="translate(140, 100)">
+    <ellipse cx="20" cy="20" rx="12" ry="12" fill="#475569"/>
+    <path d="M20 32v40m-15-30l15 10l15-10m-15 40l-10 30m20 0l-10-30" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The Child -->
+  <g transform="translate(80, 120)">
+    <circle cx="20" cy="20" r="14" fill="#fde68a"/>
+    <path d="M12 20h16M15 15h2M25 15h2" stroke="#78350f" stroke-width="2"/>
+    <path d="M20 34v30m-10-20l10-10l10 10m-10 30l-10 20m20 0l-10-20" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 50l-5 20M30 50l5 20" stroke="#fde68a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Abandoned Toy -->
+  <path d="M60 190l10-10l10 10l-10 10z" fill="#ec4899"/>
+  
+  <!-- Atmospheric Elements -->
+  <path d="M0 200l40-20l40 20l40-20l40 20l40-20l40 20v40H0z" fill="#0f172a" opacity="0.5"/>
+  <circle cx="30" cy="50" r="2" fill="#cbd5e1"/>
+  <circle cx="50" cy="30" r="1" fill="#cbd5e1"/>
+  <circle cx="200" cy="40" r="2" fill="#cbd5e1"/>
+</svg>

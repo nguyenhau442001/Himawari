@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Environment: Zoo/Nature Setting -->
+  <path d="M0 180 Q 120 150 240 180 L 240 240 L 0 240 Z" fill="#0f172a" opacity="0.5"/>
+  <circle cx="200" cy="50" r="25" fill="#fbbf24" opacity="0.2"/>
+  
+  <!-- Tiger Body -->
+  <path d="M60 190 C 60 140 100 120 140 120 C 180 120 210 140 210 190 Z" fill="#f59e0b"/>
+  <path d="M140 120 C 160 120 180 130 180 150 L 190 140" fill="none" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Black Stripes (斑纹) -->
+  <path d="M80 140 Q 70 160 85 180" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M100 130 Q 90 150 105 170" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 125 Q 115 145 130 165" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M145 125 Q 140 145 155 165" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M170 135 Q 165 155 180 175" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M195 145 Q 190 165 205 185" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Child Character pointing at tiger -->
+  <g transform="translate(30, 130)">
+    <circle cx="20" cy="20" r="15" fill="#fb923c"/>
+    <path d="M20 35 L 20 70 M 20 45 L 5 60 M 20 45 L 35 60" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M35 40 L 55 30" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="58" cy="28" r="4" fill="#fb923c"/>
+  </g>
+  
+  <!-- Decorative foliage -->
+  <path d="M10 240 Q 20 200 40 210 T 70 240" fill="#10b981" opacity="0.6"/>
+  <path d="M200 240 Q 210 200 230 210 T 260 240" fill="#10b981" opacity="0.6"/>
+</svg>
