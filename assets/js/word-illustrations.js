@@ -13682,6 +13682,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/裁判.svg",
     "caption": "trọng tài; xét xử"
   },
+  "财务": {
+    "file": "财务.svg",
+    "src": "images/HSK_2.0/level6/财务.svg",
+    "caption": "tài vụ"
+  },
+  "裁员": {
+    "file": "裁员.svg",
+    "src": "images/HSK_2.0/level6/裁员.svg",
+    "caption": "sa thải, cắt giảm nhân sự"
+  },
+  "财政": {
+    "file": "财政.svg",
+    "src": "images/HSK_2.0/level6/财政.svg",
+    "caption": "tài chính (nhà nước)"
+  },
+  "采购": {
+    "file": "采购.svg",
+    "src": "images/HSK_2.0/level6/采购.svg",
+    "caption": "mua sắm, thu mua"
+  },
+  "采集": {
+    "file": "采集.svg",
+    "src": "images/HSK_2.0/level6/采集.svg",
+    "caption": "thu thập, hái lượm"
+  },
+  "采纳": {
+    "file": "采纳.svg",
+    "src": "images/HSK_2.0/level6/采纳.svg",
+    "caption": "tiếp thu, chấp nhận (ý kiến)"
+  },
+  "彩票": {
+    "file": "彩票.svg",
+    "src": "images/HSK_2.0/level6/彩票.svg",
+    "caption": "vé số"
+  },
+  "参谋": {
+    "file": "参谋.svg",
+    "src": "images/HSK_2.0/level6/参谋.svg",
+    "caption": "tham mưu; cố vấn"
+  },
+  "参照": {
+    "file": "参照.svg",
+    "src": "images/HSK_2.0/level6/参照.svg",
+    "caption": "tham khảo, đối chiếu"
+  },
+  "残疾": {
+    "file": "残疾.svg",
+    "src": "images/HSK_2.0/level6/残疾.svg",
+    "caption": "tàn tật, khuyết tật"
+  },
   "操作": {
     "file": "操作.svg",
     "src": "images/HSK_2.0/level6/操作.svg",

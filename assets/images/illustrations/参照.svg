@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Desk -->
+    <rect x="10" y="120" width="180" height="15" rx="4" fill="#334155"/>
+    <rect x="20" y="135" width="10" height="40" fill="#1e293b"/>
+    <rect x="170" y="135" width="10" height="40" fill="#1e293b"/>
+    
+    <!-- Reference Document (The Standard) -->
+    <rect x="30" y="80" width="60" height="40" rx="2" fill="#f8fafc"/>
+    <rect x="35" y="85" width="50" height="4" rx="1" fill="#cbd5e1"/>
+    <rect x="35" y="95" width="50" height="4" rx="1" fill="#cbd5e1"/>
+    <rect x="35" y="105" width="30" height="4" rx="1" fill="#cbd5e1"/>
+    <path d="M80 105 L85 110 L80 115" stroke="#10b981" stroke-width="2" fill="none"/>
+    
+    <!-- Character 1 (Mentor) -->
+    <circle cx="150" cy="60" r="25" fill="#fbbf24"/>
+    <path d="M135 90 Q150 110 165 90" fill="#fbbf24"/>
+    <rect x="130" y="100" width="40" height="60" rx="10" fill="#38bdf8"/>
+    
+    <!-- Character 2 (Student/Worker) -->
+    <circle cx="60" cy="140" r="20" fill="#fb923c"/>
+    <rect x="45" y="160" width="30" height="50" rx="8" fill="#ec4899"/>
+    
+    <!-- Interaction: Pointing gesture -->
+    <line x1="130" y1="110" x2="95" y2="100" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="95" cy="100" r="4" fill="#fbbf24"/>
+    
+    <!-- Work in progress -->
+    <rect x="100" y="120" width="50" height="30" rx="2" fill="#e2e8f0"/>
+    <path d="M110 130 L140 130 M110 140 L130 140" stroke="#334155" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Street Stall Counter -->
+  <path d="M40 180h160v40H40z" fill="#334155"/>
+  <path d="M50 180h140v10H50z" fill="#475569"/>
+  
+  <!-- Lottery Stall Signage (Abstract shapes, no text) -->
+  <circle cx="120" cy="150" r="20" fill="#f59e0b"/>
+  <path d="M110 145h20v10h-20z" fill="#0f172a"/>
+  
+  <!-- Character: The Buyer -->
+  <g transform="translate(140, 100)">
+    <circle cx="20" cy="20" r="15" fill="#fde68a"/>
+    <path d="M10 40h20l-5 60h-10z" fill="#38bdf8"/>
+    <path d="M5 50h30v10h-30z" fill="#38bdf8"/>
+    <path d="M15 100l-5 30h10l5-30" fill="#1e293b"/>
+    <path d="M25 100l5 30h-10l-5-30" fill="#1e293b"/>
+  </g>
+  
+  <!-- Character: The Seller -->
+  <g transform="translate(60, 110)">
+    <circle cx="20" cy="20" r="15" fill="#fde68a"/>
+    <path d="M5 40h30v70h-30z" fill="#ec4899"/>
+  </g>
+  
+  <!-- The Lottery Ticket (The focus) -->
+  <rect x="100" y="165" width="30" height="15" rx="2" fill="#f8fafc"/>
+  <rect x="105" y="168" width="20" height="2" fill="#1e293b"/>
+  <rect x="105" y="172" width="15" height="2" fill="#1e293b"/>
+  <circle cx="125" cy="175" r="2" fill="#fb923c"/>
+  
+  <!-- Hand reaching for ticket -->
+  <path d="M130 160l10 10" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="3" fill="#fbbf24"/>
+  <circle cx="210" cy="50" r="2" fill="#fbbf24"/>
+  <circle cx="30" cy="60" r="4" fill="#10b981"/>
+</svg>

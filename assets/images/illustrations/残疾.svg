@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Environment: Street/Sidewalk context -->
+  <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="#334155"/>
+  <rect x="0" y="175" width="240" height="5" fill="#475569"/>
+  
+  <!-- Fallen bicycle (The Accident Context) -->
+  <g transform="translate(40, 190) rotate(-15)">
+    <circle cx="10" cy="10" r="8" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="35" cy="10" r="8" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <path d="M10 10 L35 10 M22 10 L22 0 L30 0" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main Subject: Person in wheelchair -->
+  <!-- Wheelchair -->
+  <g transform="translate(120, 140)">
+    <circle cx="0" cy="30" r="20" fill="none" stroke="#38bdf8" stroke-width="4"/>
+    <rect x="-25" y="10" width="50" height="5" fill="#38bdf8"/>
+    <path d="M-15 30 L-15 0 L10 0 L15 30" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Character -->
+    <g transform="translate(0, -20)">
+      <circle cx="0" cy="-15" r="12" fill="#fde68a"/>
+      <path d="M-15 0 L15 0 L10 25 L-10 25 Z" fill="#ec4899"/>
+      <rect x="-12" y="25" width="8" height="15" fill="#ec4899"/>
+      <rect x="4" y="25" width="8" height="15" fill="#ec4899"/>
+      <!-- Arms -->
+      <path d="M-15 5 L-25 20" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+      <path d="M15 5 L25 20" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Decorative elements: Street light glow -->
+  <circle cx="200" cy="60" r="40" fill="#f59e0b" opacity="0.1"/>
+  <rect x="195" y="60" width="10" height="120" fill="#475569"/>
+  <circle cx="200" cy="60" r="8" fill="#fbbf24"/>
+</svg>

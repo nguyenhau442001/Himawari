@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:04:41.092452",
-  "total_unique_words_with_illustrations": 3389,
-  "total_flat_svg_files": 3389,
+  "generated_at": "2026-10-12T11:07:47.030675",
+  "total_unique_words_with_illustrations": 3399,
+  "total_flat_svg_files": 3399,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 749,
-        "pct": "30.0%"
+        "with_svg": 759,
+        "pct": "30.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 282,
-        "pct": "15.7%"
+        "with_svg": 288,
+        "pct": "16.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 221,
-        "pct": "3.9%"
+        "with_svg": 225,
+        "pct": "4.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 221,
-        "pct": "3.9%"
+        "with_svg": 225,
+        "pct": "4.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 221,
-        "pct": "3.9%"
+        "with_svg": 225,
+        "pct": "4.0%"
       }
     }
   },
@@ -49678,6 +49678,202 @@
       "src": "images/HSK_2.0/level6/裁判.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/裁判.svg"
+      ]
+    },
+    "财务": {
+      "hanzi": "财务",
+      "pinyin": "cáiwù",
+      "meaning": "tài vụ",
+      "example_zh": "她负责公司的<u>财务</u>工作。",
+      "example_vi": "Cô ấy chịu trách nhiệm công việc <u>tài vụ</u> của công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "财务.svg",
+      "src": "images/HSK_2.0/level6/财务.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/财务.svg"
+      ]
+    },
+    "裁员": {
+      "hanzi": "裁员",
+      "pinyin": "cáiyuán",
+      "meaning": "sa thải, cắt giảm nhân sự",
+      "example_zh": "公司决定<u>裁员</u>。",
+      "example_vi": "Công ty quyết định <u>sa thải nhân viên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "裁员.svg",
+      "src": "images/HSK_2.0/level6/裁员.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/裁员.svg",
+        "images/HSK_3.0/level8/裁员.svg",
+        "images/HSK_3.0/level9/裁员.svg"
+      ]
+    },
+    "财政": {
+      "hanzi": "财政",
+      "pinyin": "cáizhèng",
+      "meaning": "tài chính (nhà nước)",
+      "example_zh": "国家<u>财政</u>状况良好。",
+      "example_vi": "Tình hình <u>tài chính</u> quốc gia tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "财政.svg",
+      "src": "images/HSK_2.0/level6/财政.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/财政.svg",
+        "images/HSK_3.0/level8/财政.svg",
+        "images/HSK_3.0/level9/财政.svg"
+      ]
+    },
+    "采购": {
+      "hanzi": "采购",
+      "pinyin": "cǎigòu",
+      "meaning": "mua sắm, thu mua",
+      "example_zh": "公司派人去<u>采购</u>原材料。",
+      "example_vi": "Công ty cử người đi <u>thu mua</u> nguyên liệu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "采购.svg",
+      "src": "images/HSK_2.0/level6/采购.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/采购.svg"
+      ]
+    },
+    "采集": {
+      "hanzi": "采集",
+      "pinyin": "cǎijí",
+      "meaning": "thu thập, hái lượm",
+      "example_zh": "科学家在<u>采集</u>样本。",
+      "example_vi": "Nhà khoa học đang <u>thu thập</u> mẫu vật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "采集.svg",
+      "src": "images/HSK_2.0/level6/采集.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/采集.svg"
+      ]
+    },
+    "采纳": {
+      "hanzi": "采纳",
+      "pinyin": "cǎinà",
+      "meaning": "tiếp thu, chấp nhận (ý kiến)",
+      "example_zh": "领导<u>采纳</u>了他的建议。",
+      "example_vi": "Lãnh đạo đã <u>tiếp thu</u> đề nghị của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "采纳.svg",
+      "src": "images/HSK_2.0/level6/采纳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/采纳.svg"
+      ]
+    },
+    "彩票": {
+      "hanzi": "彩票",
+      "pinyin": "cǎipiào",
+      "meaning": "vé số",
+      "example_zh": "他买了一张<u>彩票</u>。",
+      "example_vi": "Anh ấy mua một tấm <u>vé số</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "彩票.svg",
+      "src": "images/HSK_2.0/level6/彩票.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/彩票.svg"
+      ]
+    },
+    "参谋": {
+      "hanzi": "参谋",
+      "pinyin": "cānmóu",
+      "meaning": "tham mưu; cố vấn",
+      "example_zh": "他是军队里的<u>参谋</u>。",
+      "example_vi": "Anh ấy là <u>tham mưu</u> trong quân đội.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "参谋.svg",
+      "src": "images/HSK_2.0/level6/参谋.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/参谋.svg",
+        "images/HSK_3.0/level8/参谋.svg",
+        "images/HSK_3.0/level9/参谋.svg"
+      ]
+    },
+    "参照": {
+      "hanzi": "参照",
+      "pinyin": "cānzhào",
+      "meaning": "tham khảo, đối chiếu",
+      "example_zh": "可以<u>参照</u>这个标准来做。",
+      "example_vi": "Có thể <u>tham khảo</u> tiêu chuẩn này để làm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "参照.svg",
+      "src": "images/HSK_2.0/level6/参照.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/参照.svg",
+        "images/HSK_3.0/level8/参照.svg",
+        "images/HSK_3.0/level9/参照.svg"
+      ]
+    },
+    "残疾": {
+      "hanzi": "残疾",
+      "pinyin": "cánjí",
+      "meaning": "tàn tật, khuyết tật",
+      "example_zh": "他因事故而<u>残疾</u>。",
+      "example_vi": "Anh ấy bị <u>khuyết tật</u> do tai nạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "残疾.svg",
+      "src": "images/HSK_2.0/level6/残疾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/残疾.svg"
       ]
     },
     "操作": {
