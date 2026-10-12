@@ -15942,6 +15942,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/公式.svg",
     "caption": "công thức"
   },
+  "公正": {
+    "file": "公正.svg",
+    "src": "images/HSK_2.0/level6/公正.svg",
+    "caption": "công chính, công bằng"
+  },
+  "攻击": {
+    "file": "攻击.svg",
+    "src": "images/HSK_2.0/level6/攻击.svg",
+    "caption": "tấn công"
+  },
+  "攻克": {
+    "file": "攻克.svg",
+    "src": "images/HSK_2.0/level6/攻克.svg",
+    "caption": "chiếm được, khắc phục"
+  },
+  "功劳": {
+    "file": "功劳.svg",
+    "src": "images/HSK_2.0/level6/功劳.svg",
+    "caption": "công lao"
+  },
+  "功效": {
+    "file": "功效.svg",
+    "src": "images/HSK_2.0/level6/功效.svg",
+    "caption": "công hiệu, hiệu quả"
+  },
+  "恭维": {
+    "file": "恭维.svg",
+    "src": "images/HSK_2.0/level6/恭维.svg",
+    "caption": "tán dương, nịnh"
+  },
+  "供给": {
+    "file": "供给.svg",
+    "src": "images/HSK_2.0/level6/供给.svg",
+    "caption": "cung cấp"
+  },
+  "供应": {
+    "file": "供应.svg",
+    "src": "images/HSK_2.0/level6/供应.svg",
+    "caption": "cung ứng"
+  },
+  "宫殿": {
+    "file": "宫殿.svg",
+    "src": "images/HSK_2.0/level6/宫殿.svg",
+    "caption": "cung điện"
+  },
+  "巩固": {
+    "file": "巩固.svg",
+    "src": "images/HSK_2.0/level6/巩固.svg",
+    "caption": "củng cố"
+  },
   "故乡": {
     "file": "故乡.svg",
     "src": "images/HSK_2.0/level6/故乡.svg",

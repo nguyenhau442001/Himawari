@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:36:44.722643",
-  "total_unique_words_with_illustrations": 3809,
-  "total_flat_svg_files": 3809,
+  "generated_at": "2026-10-12T12:38:22.519217",
+  "total_unique_words_with_illustrations": 3819,
+  "total_flat_svg_files": 3819,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1169,
-        "pct": "46.8%"
+        "with_svg": 1179,
+        "pct": "47.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 414,
-        "pct": "23.0%"
+        "with_svg": 420,
+        "pct": "23.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 483,
-        "pct": "8.6%"
+        "with_svg": 487,
+        "pct": "8.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 483,
-        "pct": "8.6%"
+        "with_svg": 487,
+        "pct": "8.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 483,
-        "pct": "8.6%"
+        "with_svg": 487,
+        "pct": "8.7%"
       }
     }
   },
@@ -58754,6 +58754,202 @@
         "images/HSK_3.0/level7/公式.svg",
         "images/HSK_3.0/level8/公式.svg",
         "images/HSK_3.0/level9/公式.svg"
+      ]
+    },
+    "公正": {
+      "hanzi": "公正",
+      "pinyin": "gōngzhèng",
+      "meaning": "công chính, công bằng",
+      "example_zh": "法官要做到<u>公正</u>。",
+      "example_vi": "Thẩm phán phải làm được điều <u>công chính</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "公正.svg",
+      "src": "images/HSK_2.0/level6/公正.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/公正.svg"
+      ]
+    },
+    "攻击": {
+      "hanzi": "攻击",
+      "pinyin": "gōngjī",
+      "meaning": "tấn công",
+      "example_zh": "敌军发起了<u>攻击</u>。",
+      "example_vi": "Quân địch phát động <u>tấn công</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "攻击.svg",
+      "src": "images/HSK_2.0/level6/攻击.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/攻击.svg"
+      ]
+    },
+    "攻克": {
+      "hanzi": "攻克",
+      "pinyin": "gōngkè",
+      "meaning": "chiếm được, khắc phục",
+      "example_zh": "科学家<u>攻克</u>了这个难题。",
+      "example_vi": "Các nhà khoa học đã <u>khắc phục</u> được bài toán khó này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "攻克.svg",
+      "src": "images/HSK_2.0/level6/攻克.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/攻克.svg",
+        "images/HSK_3.0/level8/攻克.svg",
+        "images/HSK_3.0/level9/攻克.svg"
+      ]
+    },
+    "功劳": {
+      "hanzi": "功劳",
+      "pinyin": "gōngláo",
+      "meaning": "công lao",
+      "example_zh": "这次成功有他的一份<u>功劳</u>。",
+      "example_vi": "Thành công lần này có một phần <u>công lao</u> của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "功劳.svg",
+      "src": "images/HSK_2.0/level6/功劳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/功劳.svg",
+        "images/HSK_3.0/level8/功劳.svg",
+        "images/HSK_3.0/level9/功劳.svg"
+      ]
+    },
+    "功效": {
+      "hanzi": "功效",
+      "pinyin": "gōngxiào",
+      "meaning": "công hiệu, hiệu quả",
+      "example_zh": "这种药<u>功效</u>很好。",
+      "example_vi": "Loại thuốc này có <u>công hiệu</u> rất tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "功效.svg",
+      "src": "images/HSK_2.0/level6/功效.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/功效.svg"
+      ]
+    },
+    "恭维": {
+      "hanzi": "恭维",
+      "pinyin": "gōngwei",
+      "meaning": "tán dương, nịnh",
+      "example_zh": "别只会<u>恭维</u>别人。",
+      "example_vi": "Đừng chỉ biết <u>tán dương</u> người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "恭维.svg",
+      "src": "images/HSK_2.0/level6/恭维.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/恭维.svg",
+        "images/HSK_3.0/level8/恭维.svg",
+        "images/HSK_3.0/level9/恭维.svg"
+      ]
+    },
+    "供给": {
+      "hanzi": "供给",
+      "pinyin": "gōngjǐ",
+      "meaning": "cung cấp",
+      "example_zh": "工厂<u>供给</u>原材料。",
+      "example_vi": "Nhà máy <u>cung cấp</u> nguyên liệu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "供给.svg",
+      "src": "images/HSK_2.0/level6/供给.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/供给.svg"
+      ]
+    },
+    "供应": {
+      "hanzi": "供应",
+      "pinyin": "gōngyìng",
+      "meaning": "cung ứng",
+      "example_zh": "市场<u>供应</u>充足。",
+      "example_vi": "<u>Cung ứng</u> thị trường đầy đủ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "供应.svg",
+      "src": "images/HSK_2.0/level6/供应.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/供应.svg"
+      ]
+    },
+    "宫殿": {
+      "hanzi": "宫殿",
+      "pinyin": "gōngdiàn",
+      "meaning": "cung điện",
+      "example_zh": "这座<u>宫殿</u>非常壮观。",
+      "example_vi": "<u>Cung điện</u> này rất hùng vĩ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "宫殿.svg",
+      "src": "images/HSK_2.0/level6/宫殿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/宫殿.svg",
+        "images/HSK_3.0/level8/宫殿.svg",
+        "images/HSK_3.0/level9/宫殿.svg"
+      ]
+    },
+    "巩固": {
+      "hanzi": "巩固",
+      "pinyin": "gǒnggù",
+      "meaning": "củng cố",
+      "example_zh": "我们要<u>巩固</u>已有的成果。",
+      "example_vi": "Chúng ta phải <u>củng cố</u> thành quả đã có.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "巩固.svg",
+      "src": "images/HSK_2.0/level6/巩固.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/巩固.svg"
       ]
     },
     "故乡": {
