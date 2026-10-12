@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:22:15.719687",
-  "total_unique_words_with_illustrations": 4669,
-  "total_flat_svg_files": 4669,
+  "generated_at": "2026-10-12T23:23:59.241274",
+  "total_unique_words_with_illustrations": 4689,
+  "total_flat_svg_files": 4689,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2029,
-        "pct": "81.2%"
+        "with_svg": 2049,
+        "pct": "82.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 678,
-        "pct": "37.7%"
+        "with_svg": 686,
+        "pct": "38.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1030,
-        "pct": "18.4%"
+        "with_svg": 1042,
+        "pct": "18.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1030,
-        "pct": "18.4%"
+        "with_svg": 1042,
+        "pct": "18.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1030,
-        "pct": "18.4%"
+        "with_svg": 1042,
+        "pct": "18.6%"
       }
     }
   },
@@ -77182,6 +77182,414 @@
       "src": "images/HSK_2.0/level6/特意.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/特意.svg"
+      ]
+    },
+    "提拔": {
+      "hanzi": "提拔",
+      "pinyin": "tíbá",
+      "meaning": "đề bạt, thăng chức",
+      "example_zh": "他被公司<u>提拔</u>为经理。",
+      "example_vi": "Anh ấy được công ty <u>đề bạt</u> làm giám đốc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "提拔.svg",
+      "src": "images/HSK_2.0/level6/提拔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/提拔.svg",
+        "images/HSK_3.0/level8/提拔.svg",
+        "images/HSK_3.0/level9/提拔.svg"
+      ]
+    },
+    "提炼": {
+      "hanzi": "提炼",
+      "pinyin": "tíliàn",
+      "meaning": "chiết xuất, tinh luyện",
+      "example_zh": "这种油是从植物中<u>提炼</u>出来的。",
+      "example_vi": "Loại dầu này được <u>chiết xuất</u> từ thực vật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "提炼.svg",
+      "src": "images/HSK_2.0/level6/提炼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/提炼.svg",
+        "images/HSK_3.0/level8/提炼.svg",
+        "images/HSK_3.0/level9/提炼.svg"
+      ]
+    },
+    "提示": {
+      "hanzi": "提示",
+      "pinyin": "tíshì",
+      "meaning": "gợi ý, nhắc nhở",
+      "example_zh": "老师给了我们一些<u>提示</u>。",
+      "example_vi": "Thầy giáo đã đưa cho chúng tôi một số <u>gợi ý</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "提示.svg",
+      "src": "images/HSK_2.0/level6/提示.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/提示.svg"
+      ]
+    },
+    "提议": {
+      "hanzi": "提议",
+      "pinyin": "tíyì",
+      "meaning": "đề nghị, kiến nghị",
+      "example_zh": "他<u>提议</u>大家去郊游。",
+      "example_vi": "Anh ấy <u>đề nghị</u> mọi người đi dã ngoại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "提议.svg",
+      "src": "images/HSK_2.0/level6/提议.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/提议.svg",
+        "images/HSK_3.0/level8/提议.svg",
+        "images/HSK_3.0/level9/提议.svg"
+      ]
+    },
+    "题材": {
+      "hanzi": "题材",
+      "pinyin": "tícái",
+      "meaning": "đề tài",
+      "example_zh": "这部小说的<u>题材</u>很新颖。",
+      "example_vi": "<u>Đề tài</u> của cuốn tiểu thuyết này rất mới lạ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "题材.svg",
+      "src": "images/HSK_2.0/level6/题材.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/题材.svg"
+      ]
+    },
+    "体裁": {
+      "hanzi": "体裁",
+      "pinyin": "tǐcái",
+      "meaning": "thể loại (văn học)",
+      "example_zh": "这首诗属于古典<u>体裁</u>。",
+      "example_vi": "Bài thơ này thuộc <u>thể loại</u> cổ điển.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "体裁.svg",
+      "src": "images/HSK_2.0/level6/体裁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/体裁.svg",
+        "images/HSK_3.0/level8/体裁.svg",
+        "images/HSK_3.0/level9/体裁.svg"
+      ]
+    },
+    "体积": {
+      "hanzi": "体积",
+      "pinyin": "tǐjī",
+      "meaning": "thể tích",
+      "example_zh": "这个箱子的<u>体积</u>不小。",
+      "example_vi": "<u>Thể tích</u> của cái hộp này không nhỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "体积.svg",
+      "src": "images/HSK_2.0/level6/体积.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/体积.svg"
+      ]
+    },
+    "体谅": {
+      "hanzi": "体谅",
+      "pinyin": "tǐliàng",
+      "meaning": "thông cảm, cảm thông",
+      "example_zh": "请<u>体谅</u>我的难处。",
+      "example_vi": "Xin hãy <u>thông cảm</u> cho khó khăn của tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "体谅.svg",
+      "src": "images/HSK_2.0/level6/体谅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/体谅.svg",
+        "images/HSK_3.0/level8/体谅.svg",
+        "images/HSK_3.0/level9/体谅.svg"
+      ]
+    },
+    "体面": {
+      "hanzi": "体面",
+      "pinyin": "tǐmiàn",
+      "meaning": "thể diện, đáng mặt",
+      "example_zh": "他活得很<u>体面</u>。",
+      "example_vi": "Anh ấy sống rất <u>đáng mặt</u>, có thể diện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "体面.svg",
+      "src": "images/HSK_2.0/level6/体面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/体面.svg",
+        "images/HSK_3.0/level8/体面.svg",
+        "images/HSK_3.0/level9/体面.svg"
+      ]
+    },
+    "体系": {
+      "hanzi": "体系",
+      "pinyin": "tǐxì",
+      "meaning": "hệ thống",
+      "example_zh": "公司建立了完善的管理<u>体系</u>。",
+      "example_vi": "Công ty đã xây dựng <u>hệ thống</u> quản lý hoàn thiện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "体系.svg",
+      "src": "images/HSK_2.0/level6/体系.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/体系.svg"
+      ]
+    },
+    "天才": {
+      "hanzi": "天才",
+      "pinyin": "tiāncái",
+      "meaning": "thiên tài",
+      "example_zh": "他是个音乐<u>天才</u>。",
+      "example_vi": "Anh ấy là một <u>thiên tài</u> âm nhạc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "天才.svg",
+      "src": "images/HSK_2.0/level6/天才.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/天才.svg"
+      ]
+    },
+    "天伦之乐": {
+      "hanzi": "天伦之乐",
+      "pinyin": "tiānlúnzhīlè",
+      "meaning": "hạnh phúc gia đình sum vầy",
+      "example_zh": "退休后他享受着<u>天伦之乐</u>。",
+      "example_vi": "Sau khi nghỉ hưu, ông ấy hưởng <u>hạnh phúc gia đình sum vầy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "天伦之乐.svg",
+      "src": "images/HSK_2.0/level6/天伦之乐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/天伦之乐.svg",
+        "images/HSK_3.0/level8/天伦之乐.svg",
+        "images/HSK_3.0/level9/天伦之乐.svg"
+      ]
+    },
+    "天然气": {
+      "hanzi": "天然气",
+      "pinyin": "tiānránqì",
+      "meaning": "khí tự nhiên",
+      "example_zh": "这个城市使用<u>天然气</u>供暖。",
+      "example_vi": "Thành phố này dùng <u>khí tự nhiên</u> để cung cấp nhiệt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "天然气.svg",
+      "src": "images/HSK_2.0/level6/天然气.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/天然气.svg"
+      ]
+    },
+    "天生": {
+      "hanzi": "天生",
+      "pinyin": "tiānshēng",
+      "meaning": "bẩm sinh, sinh ra đã có",
+      "example_zh": "她有一种<u>天生</u>的幽默感。",
+      "example_vi": "Cô ấy có khiếu hài hước <u>bẩm sinh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "天生.svg",
+      "src": "images/HSK_2.0/level6/天生.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/天生.svg",
+        "images/HSK_3.0/level8/天生.svg",
+        "images/HSK_3.0/level9/天生.svg"
+      ]
+    },
+    "天堂": {
+      "hanzi": "天堂",
+      "pinyin": "tiāntáng",
+      "meaning": "thiên đường",
+      "example_zh": "这里简直就是人间<u>天堂</u>。",
+      "example_vi": "Nơi đây đơn giản là <u>thiên đường</u> nơi trần gian.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "天堂.svg",
+      "src": "images/HSK_2.0/level6/天堂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/天堂.svg",
+        "images/HSK_3.0/level8/天堂.svg",
+        "images/HSK_3.0/level9/天堂.svg"
+      ]
+    },
+    "天赋": {
+      "hanzi": "天赋",
+      "pinyin": "tiānfù",
+      "meaning": "tài năng thiên bẩm",
+      "example_zh": "他在绘画方面很有<u>天赋</u>。",
+      "example_vi": "Anh ấy có <u>tài năng thiên bẩm</u> về vẽ tranh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "天赋.svg",
+      "src": "images/HSK_2.0/level6/天赋.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/天赋.svg",
+        "images/HSK_3.0/level8/天赋.svg",
+        "images/HSK_3.0/level9/天赋.svg"
+      ]
+    },
+    "天文": {
+      "hanzi": "天文",
+      "pinyin": "tiānwén",
+      "meaning": "thiên văn",
+      "example_zh": "他从小就对<u>天文</u>感兴趣。",
+      "example_vi": "Anh ấy quan tâm đến <u>thiên văn</u> từ nhỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "天文.svg",
+      "src": "images/HSK_2.0/level6/天文.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/天文.svg"
+      ]
+    },
+    "田径": {
+      "hanzi": "田径",
+      "pinyin": "tiánjìng",
+      "meaning": "điền kinh",
+      "example_zh": "她是一名<u>田径</u>运动员。",
+      "example_vi": "Cô ấy là một vận động viên <u>điền kinh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "田径.svg",
+      "src": "images/HSK_2.0/level6/田径.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/田径.svg"
+      ]
+    },
+    "田野": {
+      "hanzi": "田野",
+      "pinyin": "tiányě",
+      "meaning": "đồng ruộng, cánh đồng",
+      "example_zh": "<u>田野</u>里长满了金黄的稻子。",
+      "example_vi": "<u>Cánh đồng</u> mọc đầy lúa vàng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "田野.svg",
+      "src": "images/HSK_2.0/level6/田野.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/田野.svg",
+        "images/HSK_3.0/level8/田野.svg",
+        "images/HSK_3.0/level9/田野.svg"
+      ]
+    },
+    "舔": {
+      "hanzi": "舔",
+      "pinyin": "tiǎn",
+      "meaning": "liếm",
+      "example_zh": "小狗<u>舔</u>了舔主人的手。",
+      "example_vi": "Con chó nhỏ <u>liếm</u> tay chủ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "舔.svg",
+      "src": "images/HSK_2.0/level6/舔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/舔.svg",
+        "images/HSK_3.0/level8/舔.svg",
+        "images/HSK_3.0/level9/舔.svg"
       ]
     },
     "统计": {

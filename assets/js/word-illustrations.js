@@ -20502,6 +20502,106 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/特意.svg",
     "caption": "đặc biệt, cố ý (làm riêng cho)"
   },
+  "提拔": {
+    "file": "提拔.svg",
+    "src": "images/HSK_2.0/level6/提拔.svg",
+    "caption": "đề bạt, thăng chức"
+  },
+  "提炼": {
+    "file": "提炼.svg",
+    "src": "images/HSK_2.0/level6/提炼.svg",
+    "caption": "chiết xuất, tinh luyện"
+  },
+  "提示": {
+    "file": "提示.svg",
+    "src": "images/HSK_2.0/level6/提示.svg",
+    "caption": "gợi ý, nhắc nhở"
+  },
+  "提议": {
+    "file": "提议.svg",
+    "src": "images/HSK_2.0/level6/提议.svg",
+    "caption": "đề nghị, kiến nghị"
+  },
+  "题材": {
+    "file": "题材.svg",
+    "src": "images/HSK_2.0/level6/题材.svg",
+    "caption": "đề tài"
+  },
+  "体裁": {
+    "file": "体裁.svg",
+    "src": "images/HSK_2.0/level6/体裁.svg",
+    "caption": "thể loại (văn học)"
+  },
+  "体积": {
+    "file": "体积.svg",
+    "src": "images/HSK_2.0/level6/体积.svg",
+    "caption": "thể tích"
+  },
+  "体谅": {
+    "file": "体谅.svg",
+    "src": "images/HSK_2.0/level6/体谅.svg",
+    "caption": "thông cảm, cảm thông"
+  },
+  "体面": {
+    "file": "体面.svg",
+    "src": "images/HSK_2.0/level6/体面.svg",
+    "caption": "thể diện, đáng mặt"
+  },
+  "体系": {
+    "file": "体系.svg",
+    "src": "images/HSK_2.0/level6/体系.svg",
+    "caption": "hệ thống"
+  },
+  "天才": {
+    "file": "天才.svg",
+    "src": "images/HSK_2.0/level6/天才.svg",
+    "caption": "thiên tài"
+  },
+  "天伦之乐": {
+    "file": "天伦之乐.svg",
+    "src": "images/HSK_2.0/level6/天伦之乐.svg",
+    "caption": "hạnh phúc gia đình sum vầy"
+  },
+  "天然气": {
+    "file": "天然气.svg",
+    "src": "images/HSK_2.0/level6/天然气.svg",
+    "caption": "khí tự nhiên"
+  },
+  "天生": {
+    "file": "天生.svg",
+    "src": "images/HSK_2.0/level6/天生.svg",
+    "caption": "bẩm sinh, sinh ra đã có"
+  },
+  "天堂": {
+    "file": "天堂.svg",
+    "src": "images/HSK_2.0/level6/天堂.svg",
+    "caption": "thiên đường"
+  },
+  "天赋": {
+    "file": "天赋.svg",
+    "src": "images/HSK_2.0/level6/天赋.svg",
+    "caption": "tài năng thiên bẩm"
+  },
+  "天文": {
+    "file": "天文.svg",
+    "src": "images/HSK_2.0/level6/天文.svg",
+    "caption": "thiên văn"
+  },
+  "田径": {
+    "file": "田径.svg",
+    "src": "images/HSK_2.0/level6/田径.svg",
+    "caption": "điền kinh"
+  },
+  "田野": {
+    "file": "田野.svg",
+    "src": "images/HSK_2.0/level6/田野.svg",
+    "caption": "đồng ruộng, cánh đồng"
+  },
+  "舔": {
+    "file": "舔.svg",
+    "src": "images/HSK_2.0/level6/舔.svg",
+    "caption": "liếm"
+  },
   "统计": {
     "file": "统计.svg",
     "src": "images/HSK_2.0/level6/统计.svg",

@@ -1,0 +1,34 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Central Physical Object: A sleek, modern suggestion scroll/document with a glowing proposal star and path -->
+    
+    <!-- Glow effect behind the proposal icon -->
+    <circle cx="120" cy="115" r="45" fill="#FFB703" opacity="0.1" />
+
+    <!-- Document/Proposal Base -->
+    <rect x="85" y="75" width="70" height="90" rx="6" fill="#2D333B" stroke="#3A424D" stroke-width="2"/>
+    
+    <!-- Document Header Fold/Corner -->
+    <path d="M 140 75 L 155 90 L 140 90 Z" fill="#3A424D"/>
+    
+    <!-- Abstract Proposal Content Lines -->
+    <rect x="97" y="105" width="46" height="6" rx="3" fill="#6C7A89" opacity="0.5"/>
+    <rect x="97" y="120" width="36" height="6" rx="3" fill="#6C7A89" opacity="0.5"/>
+    <rect x="97" y="135" width="26" height="6" rx="3" fill="#6C7A89" opacity="0.5"/>
+
+    <!-- Focal Point: Glowing Orange/Gold Idea Bulb / Proposal Badge -->
+    <circle cx="120" cy="90" r="18" fill="#FFB703"/>
+    
+    <!-- Lightbulb/Idea Icon inside Badge -->
+    <path d="M 114 85 C 114 82 116 80 120 80 C 124 80 126 82 126 85 C 126 88 124 89 123 91 L 123 94 C 123 95 122 96 120 96 C 118 96 117 95 117 94 L 117 91 C 116 89 114 88 114 85 Z" fill="#1A1D24"/>
+    <rect x="117" y="97" width="6" height="2" fill="#1A1D24"/>
+
+    <!-- Path / Action symbol representing "outing/suggestion" stemming from the proposal -->
+    <path d="M 90 170 Q 120 185 150 170" fill="none" stroke="#FFB703" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+    
+    <!-- Destination Pin (representing the picnic/outing context) -->
+    <circle cx="120" cy="183" r="5" fill="#FFB703"/>
+  </g>
+</svg>

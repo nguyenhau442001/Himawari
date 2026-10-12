@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient glow background representing empathy/understanding -->
+  <circle cx="120" cy="120" r="70" fill="#FFB703" opacity="0.08"/>
+  <circle cx="120" cy="120" r="50" fill="#FFB703" opacity="0.12"/>
+
+  <!-- Left Person Silhouette -->
+  <g fill="#48CAE4">
+    <circle cx="75" cy="100" r="14"/>
+    <path d="M 53 145 C 53 125, 63 120, 75 120 C 87 120, 97 125, 97 145 Z"/>
+  </g>
+
+  <!-- Right Person Silhouette -->
+  <g fill="#90E0EF">
+    <circle cx="165" cy="100" r="14"/>
+    <path d="M 143 145 C 143 125, 153 120, 165 120 C 177 120, 187 125, 187 145 Z"/>
+  </g>
+
+  <!-- Central Empathy Bridge / Connecting Heart-Shield -->
+  <g transform="translate(120, 120)">
+    <!-- Outer Glow Shape -->
+    <path d="M 0 -22 C -20 -38, -35 -15, 0 18 C 35 -15, 20 -38, 0 -22 Z" fill="#FFB703" opacity="0.3"/>
+    <!-- Main Iconic Heart representing care and mutual understanding -->
+    <path d="M 0 -16 C -14 -28, -26 -10, 0 14 C 26 -10, 14 -28, 0 -16 Z" fill="#FFB703"/>
+  </g>
+
+  <!-- Supporting Aura / Connection Waves -->
+  <path d="M 95 80 C 105 70, 135 70, 145 80" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M 102 68 C 114 58, 126 58, 138 68" stroke="#FFB703" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+
+  <!-- Grounding Base Arc -->
+  <ellipse cx="120" cy="175" rx="75" ry="6" fill="#2D323E"/>
+</svg>

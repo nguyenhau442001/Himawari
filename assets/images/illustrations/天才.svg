@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for genius theme -->
+  <circle cx="120" cy="120" r="70" fill="#FFB800" opacity="0.08" />
+  
+  <g transform="translate(0, 5)">
+    <!-- Head silhouette / Brain container -->
+    <path d="M90 155 C70 150 60 130 65 105 C70 80 90 70 120 70 C150 70 170 80 175 105 C180 130 170 150 150 155 Z" fill="#2A2F3D" />
+    
+    <!-- Neck -->
+    <path d="M102 153 L138 153 L142 185 L98 185 Z" fill="#2A2F3D" />
+
+    <!-- Brain / Neural Network Art (Glowing Gold) -->
+    <!-- Synaptic paths -->
+    <path d="M100 115 Q110 95 120 115 Q130 95 140 115" stroke="#FFB800" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4" />
+    <path d="M95 130 Q120 110 145 130" stroke="#FFB800" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3" />
+    
+    <!-- Neural Nodes -->
+    <circle cx="120" cy="95" r="4" fill="#FFB800" />
+    <circle cx="100" cy="115" r="3.5" fill="#FFB800" />
+    <circle cx="140" cy="115" r="3.5" fill="#FFB800" />
+    <circle cx="120" cy="125" r="4" fill="#FFE58F" />
+    <circle cx="95" cy="135" r="3" fill="#FFB800" />
+    <circle cx="145" cy="135" r="3" fill="#FFB800" />
+
+    <!-- Musical Notes floating above (representing "音乐天才" context) -->
+    <!-- Note 1 (Left) -->
+    <g transform="translate(75, 45) scale(0.8)">
+      <ellipse cx="10" cy="20" rx="5" ry="4" fill="#38BDF8" />
+      <path d="M14 20 L14 6" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+      <path d="M14 6 C18 6 22 8 24 12" stroke="#38BDF8" stroke-width="2" fill="none" />
+    </g>
+
+    <!-- Note 2 (Right - Center high) -->
+    <g transform="translate(135, 30)">
+      <ellipse cx="10" cy="20" rx="5" ry="4" fill="#38BDF8" />
+      <ellipse cx="25" cy="17" rx="5" ry="4" fill="#38BDF8" />
+      <path d="M14 20 L14 6 L29 3 L29 17" stroke="#38BDF8" stroke-width="2" stroke-linejoin="round" fill="none" />
+    </g>
+
+    <!-- Central Genius Spark / Lightbulb element integrated into head -->
+    <!-- Glowing rays from crown of brain -->
+    <path d="M120 60 L120 48" stroke="#FFB800" stroke-width="3" stroke-linecap="round" />
+    <path d="M102 65 L94 55" stroke="#FFB800" stroke-width="3" stroke-linecap="round" />
+    <path d="M138 65 L146 55" stroke="#FFB800" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Center Bright Idea Core -->
+    <circle cx="120" cy="100" r="16" fill="#FFB800" opacity="0.2" />
+    <circle cx="120" cy="100" r="8" fill="#FFB800" />
+    <circle cx="120" cy="100" r="4" fill="#FFF" />
+  </g>
+</svg>

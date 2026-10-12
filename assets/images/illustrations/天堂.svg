@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Glowing heavenly gate / arch representing 'tiāntáng' (paradise/heaven) -->
+  <g transform="translate(0, 0)">
+    <!-- Background atmospheric glow -->
+    <circle cx="120" cy="115" r="70" fill="#FFC107" opacity="0.08"/>
+    <circle cx="120" cy="115" r="50" fill="#FFC107" opacity="0.15"/>
+
+    <!-- Radiant sun rays behind the gate -->
+    <g stroke="#FFC107" stroke-width="2" stroke-linecap="round" opacity="0.4">
+      <line x1="120" y1="45" x2="120" y2="25" />
+      <line x1="80" y1="65" x2="65" y2="50" />
+      <line x1="160" y1="65" x2="175" y2="50" />
+      <line x1="60" y1="110" x2="40" y2="105" />
+      <line x1="180" y1="110" x2="200" y2="105" />
+    </g>
+
+    <!-- Cloud base at the bottom -->
+    <path d="M70,165 C60,165 50,155 55,145 C60,135 75,135 85,140 C95,125 120,125 130,140 C145,130 165,140 170,150 C180,150 185,160 180,170 C175,180 65,180 70,165 Z" fill="#2E3440"/>
+    <path d="M85,175 C75,175 70,165 75,155 C85,150 110,150 120,160 C135,150 160,160 155,175 C140,185 90,185 85,175 Z" fill="#3B4252"/>
+
+    <!-- Golden Heavenly Arch / Gates -->
+    <path d="M85,155 L85,85 C85,65 100,50 120,50 C140,50 155,65 155,85 L155,155" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Inner arch details (golden glow structure) -->
+    <path d="M97,155 L97,90 C97,76 107,65 120,65 C133,65 143,76 143,90 L143,155" fill="none" stroke="#FFE082" stroke-width="2" opacity="0.7"/>
+
+    <!-- Floating mystical elements (stars/sparkles) inside the arch -->
+    <g fill="#FFD54F">
+      <!-- Star 1 -->
+      <path d="M120,75 L122,82 L129,84 L122,86 L120,93 L118,86 L111,84 L118,82 Z"/>
+      <!-- Star 2 -->
+      <path d="M95,110 L96.2,113.8 L100,115 L96.2,116.2 L95,120 L93.8,116.2 L90,115 L93.8,113.8 Z" transform="scale(0.8) translate(30, 20)"/>
+      <!-- Star 3 -->
+      <path d="M95,110 L96.2,113.8 L100,115 L96.2,116.2 L95,120 L93.8,116.2 L90,115 L93.8,113.8 Z" transform="scale(0.7) translate(70, -10)"/>
+    </g>
+
+    <!-- Glowing steps leading up -->
+    <ellipse cx="120" cy="165" rx="35" ry="6" fill="#FFC107" opacity="0.4"/>
+    <ellipse cx="120" cy="172" rx="45" ry="7" fill="#FFC107" opacity="0.2"/>
+  </g>
+</svg>

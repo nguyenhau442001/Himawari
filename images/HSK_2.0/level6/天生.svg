@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing innate quality/spark -->
+  <circle cx="120" cy="115" r="70" fill="#2D323E" opacity="0.6"/>
+  
+  <!-- Subtle core radiating design -->
+  <g opacity="0.25">
+    <line x1="120" y1="35" x2="120" y2="195" stroke="#FFA726" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <line x1="40" y1="115" x2="200" y2="115" stroke="#FFA726" stroke-width="1.5" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- Central Visual Metaphor: An iconic glowing seed/core embedded in a human silhouette (representing "bẩm sinh" / innate human traits) -->
+  <g transform="translate(0, 5)">
+    <!-- Human Bust / Character Outline (Noun representation: con người) -->
+    <path d="M120 75 C103.4 75 90 88.4 90 105 C90 115.5 95.5 124.8 103.8 130.2 C85.6 138.8 72 157.4 72 180 L168 180 C168 157.4 154.4 138.8 136.2 130.2 C144.5 124.8 150 115.5 150 105 C150 88.4 136.6 75 120 75 Z" fill="#252A34"/>
+    
+    <!-- Head and Shoulders clean crisp cut -->
+    <path d="M120 85 C108.9 85 100 93.9 100 105 C100 116.1 108.9 125 120 125 C131.1 125 140 116.1 140 105 C140 93.9 131.1 85 120 85 Z" fill="#2E3544"/>
+    
+    <!-- Innate Spark / Glowing Core (representing "born with it", embedded deep within) -->
+    <circle cx="120" cy="105" r="14" fill="#FFA726"/>
+    <circle cx="120" cy="105" r="8" fill="#FFF3E0"/>
+    
+    <!-- Radiating energy lines from the core -->
+    <path d="M120 79 V71" stroke="#FFA726" stroke-width="3" stroke-linecap="round"/>
+    <path d="M141 90 L147 84" stroke="#FFA726" stroke-width="3" stroke-linecap="round"/>
+    <path d="M99 90 L93 84" stroke="#FFA726" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Sparkles / Accent Icons (Focus on natural talent/humor/essence) -->
+  <g transform="translate(0, 5)">
+    <!-- Top right sparkle -->
+    <path d="M165 60 C165 70 172 75 180 75 C172 75 165 80 165 90 C165 80 158 75 150 75 C158 75 165 70 165 60 Z" fill="#FFB74D"/>
+    
+    <!-- Top left sparkle (smaller) -->
+    <path d="M75 75 C75 81 79 84 84 84 C79 84 75 87 75 93 C75 87 71 84 66 84 C71 84 75 81 75 75 Z" fill="#FFB74D" opacity="0.7"/>
+
+    <!-- Bottom floating energy dot -->
+    <circle cx="120" cy="195" r="3" fill="#FFA726"/>
+  </g>
+</svg>

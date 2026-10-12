@@ -1,0 +1,76 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background glow for dark mode contrast -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.6"/>
+
+  <!-- Stylized Icon: Farmland / 田野 (Golden rice fields in geometric flat style) -->
+  <g transform="translate(40, 50)">
+    <!-- Horizon / Sky backdrop arc -->
+    <path d="M0,70 Q80,50 160,70" fill="none" stroke="#2F3640" stroke-width="2" stroke-dasharray="4,4"/>
+
+    <!-- Field Terraces / Rows (Layered flat vectors) -->
+    <!-- Far background field -->
+    <path d="M20,70 L140,70 L150,90 L10,90 Z" fill="#2d3748"/>
+    
+    <!-- Midground field -->
+    <path d="M10,95 L150,95 L165,120 L-5,120 Z" fill="#3a4a5b"/>
+
+    <!-- Foreground main field (Rich dark soil base) -->
+    <path d="M-15,125 L175,125 L190,155 L-30,155 Z" fill="#1e293b"/>
+
+    <!-- Agricultural grid lines (Representing "田" - division of fields) -->
+    <line x1="80" y1="95" x2="70" y2="155" stroke="#1A1D24" stroke-width="3"/>
+    <line x1="30" y1="125" x2="20" y2="155" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="130" y1="125" x2="140" y2="155" stroke="#1A1D24" stroke-width="2"/>
+
+    <!-- Golden Rice Crops (Contextual reference: 金黄的稻子) -->
+    <!-- Background row stalks -->
+    <g fill="#d97706">
+      <ellipse cx="40" cy="78" rx="3" ry="8" transform="rotate(-10 40 78)"/>
+      <ellipse cx="60" cy="77" rx="3" ry="8" transform="rotate(5 60 77)"/>
+      <ellipse cx="80" cy="78" rx="3" ry="8" transform="rotate(-5 80 78)"/>
+      <ellipse cx="100" cy="77" rx="3" ry="8" transform="rotate(10 100 77)"/>
+      <ellipse cx="120" cy="78" rx="3" ry="8" transform="rotate(-2 120 78)"/>
+    </g>
+
+    <!-- Midground row stalks (Bright Gold) -->
+    <g fill="#f59e0b">
+      <ellipse cx="30" cy="106" rx="4" ry="11" transform="rotate(-15 30 106)"/>
+      <ellipse cx="55" cy="104" rx="4" ry="11" transform="rotate(8 55 104)"/>
+      <ellipse cx="80" cy="105" rx="4" ry="11" transform="rotate(-5 80 105)"/>
+      <ellipse cx="105" cy="104" rx="4" ry="11" transform="rotate(12 105 104)"/>
+      <ellipse cx="130" cy="106" rx="4" ry="11" transform="rotate(-8 130 106)"/>
+    </g>
+
+    <!-- Foreground row stalks (Vibrant Golden-Yellow Accent) -->
+    <g fill="#fbbf24">
+      <!-- Left cluster -->
+      <path d="M15,138 Q15,120 10,115 Q20,120 22,138 Z"/>
+      <path d="M30,136 Q32,118 28,112 Q38,120 38,136 Z"/>
+      <path d="M45,138 Q48,119 45,114 Q52,122 52,138 Z"/>
+      
+      <!-- Center cluster -->
+      <path d="M65,137 Q68,117 64,111 Q73,120 73,137 Z"/>
+      <path d="M80,136 Q81,116 78,110 Q88,119 87,136 Z"/>
+      <path d="M95,137 Q96,118 93,112 Q103,120 101,137 Z"/>
+
+      <!-- Right cluster -->
+      <path d="M115,138 Q118,119 115,113 Q122,121 121,138 Z"/>
+      <path d="M132,136 Q134,118 130,112 Q140,120 139,136 Z"/>
+      <path d="M148,138 Q151,120 148,115 Q156,122 154,138 Z"/>
+    </g>
+
+    <!-- Glowing Rice Grain Dots for extra texture -->
+    <g fill="#fef3c7">
+      <circle cx="28" cy="115" r="1.5"/>
+      <circle cx="45" cy="114" r="1.5"/>
+      <circle cx="64" cy="111" r="1.5"/>
+      <circle cx="78" cy="110" r="1.5"/>
+      <circle cx="93" cy="112" r="1.5"/>
+      <circle cx="115" cy="113" r="1.5"/>
+      <circle cx="130" cy="112" r="1.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/pedestal effect -->
+  <ellipse cx="120" cy="190" rx="60" ry="12" fill="#252A34" opacity="0.8"/>
+  <path d="M90 190 L150 190 L165 210 L75 210 Z" fill="#2D3340" opacity="0.5"/>
+
+  <!-- Upward promotion motion effect (Golden rays/trail) -->
+  <g opacity="0.4">
+    <line x1="120" y1="160" x2="120" y2="70" stroke="#F5A623" stroke-width="2" stroke-dasharray="4 6"/>
+    <path d="M105 100 L120 75 L135 100" fill="none" stroke="#F5A623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Person Being Promoted (Central Character elevated) -->
+  <g id="promoted-person">
+    <!-- Body/Suit -->
+    <path d="M100 160 L100 142 C100 135 106 130 113 130 L127 130 C134 130 140 135 140 142 L140 160 Z" fill="#3B82F6"/>
+    <!-- Suit lapels & Tie -->
+    <path d="M113 130 L120 148 L127 130 Z" fill="#1E293B"/>
+    <polygon points="118,142 122,142 120,165" fill="#F5A623"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="112" r="14" fill="#FDE047"/>
+    <!-- Hair -->
+    <path d="M106 112 C106 102 114 98 120 98 C126 98 134 102 134 112 Z" fill="#1E293B"/>
+
+    <!-- Manager/Promotion Badge on Lapel -->
+    <circle cx="128" cy="142" r="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Hand 1 (Left supporting) & Hand 2 (Right supporting) symbolizing "提拔" (lifting/promoting) -->
+  <g id="supporting-hands">
+    <!-- Left Hand -->
+    <path d="M75 160 C75 152 82 148 90 152 L98 156 C102 158 104 162 102 166 L95 180 C92 186 85 190 78 188 L70 185 C65 183 65 175 70 172 Z" fill="#60A5FA"/>
+    <path d="M78 158 L92 165" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Right Hand -->
+    <path d="M165 160 C165 152 158 148 150 152 L142 156 C138 158 136 162 138 166 L145 180 C148 186 155 190 162 188 L170 185 C175 183 175 175 170 172 Z" fill="#60A5FA"/>
+    <path d="M162 158 L148 165" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Promotion/Upward Arrow Accent (Top center) -->
+  <g transform="translate(0, -10)">
+    <circle cx="120" cy="55" r="18" fill="#F5A623" opacity="0.15"/>
+    <path d="M120 42 L120 68 M120 42 L110 52 M120 42 L130 52" stroke="#F5A623" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Floating Star/Achievement Sparks -->
+  <g fill="#F5A623">
+    <path d="M85 75 L87 81 L93 83 L87 85 L85 91 L83 85 L77 83 L83 81 Z" transform="scale(0.8) translate(20, 10)"/>
+    <path d="M155 75 L157 81 L163 83 L157 85 L155 91 L153 85 L147 83 L153 81 Z" transform="scale(0.6) translate(60, 20)"/>
+  </g>
+</svg>
