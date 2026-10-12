@@ -16301,6 +16301,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "种子.svg",
     "src": "images/HSK_3.0/level5/种子.svg",
     "caption": "hạt giống"
+  },
+  "众多": {
+    "file": "众多.svg",
+    "src": "images/HSK_3.0/level5/众多.svg",
+    "caption": "đông đảo, rất nhiều"
+  },
+  "种植": {
+    "file": "种植.svg",
+    "src": "images/HSK_3.0/level5/种植.svg",
+    "caption": "trồng trọt, gieo trồng"
+  },
+  "周年": {
+    "file": "周年.svg",
+    "src": "images/HSK_3.0/level5/周年.svg",
+    "caption": "tròn năm, kỷ niệm năm"
+  },
+  "主食": {
+    "file": "主食.svg",
+    "src": "images/HSK_3.0/level5/主食.svg",
+    "caption": "món chính, lương thực chính"
+  },
+  "住房": {
+    "file": "住房.svg",
+    "src": "images/HSK_3.0/level5/住房.svg",
+    "caption": "nhà ở"
+  },
+  "住宿": {
+    "file": "住宿.svg",
+    "src": "images/HSK_3.0/level5/住宿.svg",
+    "caption": "chỗ ở, lưu trú, trọ lại"
+  },
+  "住址": {
+    "file": "住址.svg",
+    "src": "images/HSK_3.0/level5/住址.svg",
+    "caption": "địa chỉ cư trú, nơi ở"
+  },
+  "注重": {
+    "file": "注重.svg",
+    "src": "images/HSK_3.0/level5/注重.svg",
+    "caption": "chú ý đến"
+  },
+  "子女": {
+    "file": "子女.svg",
+    "src": "images/HSK_3.0/level5/子女.svg",
+    "caption": "con cái"
+  },
+  "自身": {
+    "file": "自身.svg",
+    "src": "images/HSK_3.0/level5/自身.svg",
+    "caption": "bản thân, chính mình"
   }
 };
 

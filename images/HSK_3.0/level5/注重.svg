@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="140" width="200" height="15" rx="4" fill="#334155"/>
+  <rect x="30" y="155" width="10" height="60" fill="#475569"/>
+  <rect x="200" y="155" width="10" height="60" fill="#475569"/>
+  
+  <!-- Product (The Focus) -->
+  <rect x="100" y="90" width="40" height="50" rx="4" fill="#f59e0b"/>
+  <rect x="105" y="95" width="30" height="30" rx="2" fill="#0f172a" opacity="0.3"/>
+  <circle cx="120" cy="110" r="8" fill="#fbbf24"/>
+  
+  <!-- Inspector Character -->
+  <path d="M60 140 L90 140 L85 80 L65 80 Z" fill="#38bdf8"/>
+  <circle cx="75" cy="70" r="15" fill="#fde68a"/>
+  <path d="M70 65 L73 68 M80 65 L77 68" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M70 75 Q75 78 80 75" stroke="#0f172a" stroke-width="2" fill="none"/>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="110" cy="100" r="12" stroke="#ec4899" stroke-width="4" fill="none"/>
+  <rect x="118" y="108" width="20" height="4" rx="2" fill="#ec4899" transform="rotate(45 118 108)"/>
+  
+  <!-- Quality Check Icons -->
+  <path d="M180 60 L185 65 L195 55" stroke="#10b981" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="185" cy="60" r="15" stroke="#10b981" stroke-width="2" fill="none"/>
+  
+  <!-- Ambient Light -->
+  <ellipse cx="120" cy="115" rx="60" ry="20" fill="#fb923c" opacity="0.1"/>
+</svg>
