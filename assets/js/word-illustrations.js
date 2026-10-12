@@ -19247,6 +19247,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/确信.svg",
     "caption": "tin chắc, tin tưởng tuyệt đối"
   },
+  "群众": {
+    "file": "群众.svg",
+    "src": "images/HSK_2.0/level6/群众.svg",
+    "caption": "quần chúng"
+  },
+  "染": {
+    "file": "染.svg",
+    "src": "images/HSK_2.0/level6/染.svg",
+    "caption": "nhuộm"
+  },
+  "嚷": {
+    "file": "嚷.svg",
+    "src": "images/HSK_2.0/level6/嚷.svg",
+    "caption": "hét, la lớn"
+  },
+  "让步": {
+    "file": "让步.svg",
+    "src": "images/HSK_2.0/level6/让步.svg",
+    "caption": "nhượng bộ"
+  },
+  "饶恕": {
+    "file": "饶恕.svg",
+    "src": "images/HSK_2.0/level6/饶恕.svg",
+    "caption": "tha thứ, dung thứ"
+  },
   "人工": {
     "file": "人工.svg",
     "src": "images/HSK_2.0/level6/人工.svg",

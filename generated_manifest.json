@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:50:06.219813",
-  "total_unique_words_with_illustrations": 4440,
-  "total_flat_svg_files": 4440,
+  "generated_at": "2026-10-12T22:50:59.122445",
+  "total_unique_words_with_illustrations": 4445,
+  "total_flat_svg_files": 4445,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1800,
-        "pct": "72.0%"
+        "with_svg": 1805,
+        "pct": "72.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 601,
-        "pct": "33.4%"
+        "with_svg": 603,
+        "pct": "33.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 887,
-        "pct": "15.8%"
+        "with_svg": 890,
+        "pct": "15.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 887,
-        "pct": "15.8%"
+        "with_svg": 890,
+        "pct": "15.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 887,
-        "pct": "15.8%"
+        "with_svg": 890,
+        "pct": "15.9%"
       }
     }
   },
@@ -72120,6 +72120,108 @@
         "images/HSK_3.0/level7/确信.svg",
         "images/HSK_3.0/level8/确信.svg",
         "images/HSK_3.0/level9/确信.svg"
+      ]
+    },
+    "群众": {
+      "hanzi": "群众",
+      "pinyin": "qúnzhòng",
+      "meaning": "quần chúng",
+      "example_zh": "干部要密切联系<u>群众</u>。",
+      "example_vi": "Cán bộ cần liên hệ chặt chẽ với <u>quần chúng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "群众.svg",
+      "src": "images/HSK_2.0/level6/群众.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/群众.svg"
+      ]
+    },
+    "染": {
+      "hanzi": "染",
+      "pinyin": "rǎn",
+      "meaning": "nhuộm",
+      "example_zh": "她把头发<u>染</u>成了红色。",
+      "example_vi": "Cô ấy đã <u>nhuộm</u> tóc thành màu đỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "染.svg",
+      "src": "images/HSK_2.0/level6/染.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/染.svg"
+      ]
+    },
+    "嚷": {
+      "hanzi": "嚷",
+      "pinyin": "rǎng",
+      "meaning": "hét, la lớn",
+      "example_zh": "他在屋里大声<u>嚷</u>起来。",
+      "example_vi": "Anh ấy <u>hét</u> lớn lên trong phòng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "嚷.svg",
+      "src": "images/HSK_2.0/level6/嚷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/嚷.svg",
+        "images/HSK_3.0/level8/嚷.svg",
+        "images/HSK_3.0/level9/嚷.svg"
+      ]
+    },
+    "让步": {
+      "hanzi": "让步",
+      "pinyin": "ràngbù",
+      "meaning": "nhượng bộ",
+      "example_zh": "双方都不愿意<u>让步</u>。",
+      "example_vi": "Cả hai bên đều không muốn <u>nhượng bộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "让步.svg",
+      "src": "images/HSK_2.0/level6/让步.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/让步.svg",
+        "images/HSK_3.0/level8/让步.svg",
+        "images/HSK_3.0/level9/让步.svg"
+      ]
+    },
+    "饶恕": {
+      "hanzi": "饶恕",
+      "pinyin": "ráoshù",
+      "meaning": "tha thứ, dung thứ",
+      "example_zh": "请<u>饶恕</u>我的过错。",
+      "example_vi": "Xin <u>tha thứ</u> cho lỗi lầm của tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "饶恕.svg",
+      "src": "images/HSK_2.0/level6/饶恕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/饶恕.svg",
+        "images/HSK_3.0/level8/饶恕.svg",
+        "images/HSK_3.0/level9/饶恕.svg"
       ]
     },
     "人工": {
