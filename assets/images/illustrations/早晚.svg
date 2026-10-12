@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="30" y="150" width="180" height="10" rx="2" fill="#334155"/>
+  <rect x="40" y="160" width="10" height="80" fill="#334155"/>
+  <rect x="190" y="160" width="10" height="80" fill="#334155"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="90" r="25" fill="#fde68a"/>
+  <path d="M105 85 Q110 80 115 85 M125 85 Q130 80 135 85" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <path d="M110 100 Q120 105 130 100" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <path d="M95 120 L145 120 L140 160 L100 160 Z" fill="#38bdf8"/>
+  
+  <!-- Props: Books and Lamp -->
+  <rect x="50" y="135" width="40" height="15" rx="2" fill="#ec4899"/>
+  <rect x="55" y="125" width="35" height="10" rx="2" fill="#fb923c"/>
+  <circle cx="180" cy="120" r="20" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="180" cy="120" r="10" fill="#fbbf24"/>
+  <rect x="178" y="130" width="4" height="20" fill="#475569"/>
+  
+  <!-- Success Symbol: Trophy -->
+  <path d="M190 80 L210 80 L205 95 L195 95 Z" fill="#fbbf24"/>
+  <path d="M200 95 L200 105" stroke="#fbbf24" stroke-width="3"/>
+  <circle cx="200" cy="110" r="5" fill="#fbbf24"/>
+  
+  <!-- Time Indicator: Clock/Window Glow -->
+  <circle cx="40" cy="40" r="15" stroke="#334155" stroke-width="2" fill="none"/>
+  <line x1="40" y1="40" x2="40" y2="30" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="40" y1="40" x2="50" y2="40" stroke="#fbbf24" stroke-width="2"/>
+  
+  <!-- Floating particles of effort -->
+  <circle cx="150" cy="70" r="2" fill="#10b981"/>
+  <circle cx="160" cy="60" r="3" fill="#10b981"/>
+  <circle cx="170" cy="75" r="2" fill="#10b981"/>
+</svg>

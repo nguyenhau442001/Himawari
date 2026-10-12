@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:48:25.916623",
-  "total_unique_words_with_illustrations": 3150,
-  "total_flat_svg_files": 3150,
+  "generated_at": "2026-10-12T09:51:40.240587",
+  "total_unique_words_with_illustrations": 3160,
+  "total_flat_svg_files": 3160,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1531,
-        "pct": "95.7%"
+        "with_svg": 1541,
+        "pct": "96.3%"
       },
       "level6": {
         "total": 1800,
@@ -55688,6 +55688,146 @@
       ],
       "file": "愿.svg",
       "src": "images/HSK_3.0/level5/愿.svg",
+      "alt_srcs": []
+    },
+    "约定": {
+      "hanzi": "约定",
+      "pinyin": "yuēdìng",
+      "meaning": "thỏa thuận",
+      "example_zh": "这只是口头<u>约定</u>",
+      "example_vi": "Đây chỉ là thỏa thuận bằng miệng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "约定.svg",
+      "src": "images/HSK_3.0/level5/约定.svg",
+      "alt_srcs": []
+    },
+    "运": {
+      "hanzi": "运",
+      "pinyin": "yùn",
+      "meaning": "vận chuyển, chở; vận may",
+      "example_zh": "卡车装满了新鲜蔬菜，正准备<u>运</u>往各个超市。",
+      "example_vi": "Xe tải chất đầy rau tươi, đang chuẩn bị <u>vận chuyển</u> tới các siêu thị.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "运.svg",
+      "src": "images/HSK_3.0/level5/运.svg",
+      "alt_srcs": []
+    },
+    "运费": {
+      "hanzi": "运费",
+      "pinyin": "yùnfèi",
+      "meaning": "vận chuyển hàng hóa",
+      "example_zh": "这个价格包括<u>运费</u>",
+      "example_vi": "Giá này đã bao gồm phí vận chuyển.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "运费.svg",
+      "src": "images/HSK_3.0/level5/运费.svg",
+      "alt_srcs": []
+    },
+    "在场": {
+      "hanzi": "在场",
+      "pinyin": "zàichǎng",
+      "meaning": "có mặt, tại hiện trường",
+      "example_zh": "事故发生的时候，很多群众都<u>在场</u>。",
+      "example_vi": "Lúc tai nạn xảy ra, rất nhiều người dân đều <u>có mặt tại hiện trường</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "在场.svg",
+      "src": "images/HSK_3.0/level5/在场.svg",
+      "alt_srcs": []
+    },
+    "在内": {
+      "hanzi": "在内",
+      "pinyin": "zàinèi",
+      "meaning": "bao gồm cả, tính cả",
+      "example_zh": "包括他<u>在内</u>，今天一共有十个人参加会议。",
+      "example_vi": "<u>Bao gồm</u> cả anh ấy, hôm nay có tổng cộng mười người tham gia cuộc họp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "在内.svg",
+      "src": "images/HSK_3.0/level5/在内.svg",
+      "alt_srcs": []
+    },
+    "在线": {
+      "hanzi": "在线",
+      "pinyin": "zàixiàn",
+      "meaning": "trực tuyến",
+      "example_zh": "我们可以<u>在线</u>开会",
+      "example_vi": "Chúng ta có thể họp trực tuyến.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "在线.svg",
+      "src": "images/HSK_3.0/level5/在线.svg",
+      "alt_srcs": []
+    },
+    "糟": {
+      "hanzi": "糟",
+      "pinyin": "zāo",
+      "meaning": "hỏng bét, tồi tệ, gay go",
+      "example_zh": "<u>糟</u>糕，出门时我忘了带家门钥匙！",
+      "example_vi": "<u>Hỏng bét</u> rồi, lúc ra khỏi nhà tôi quên mang theo chìa khóa!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "糟.svg",
+      "src": "images/HSK_3.0/level5/糟.svg",
+      "alt_srcs": []
+    },
+    "早期": {
+      "hanzi": "早期",
+      "pinyin": "zǎoqī",
+      "meaning": "sớm",
+      "example_zh": "<u>早期</u>发现癌症很重要",
+      "example_vi": "Phát hiện bệnh ung thư sớm rất quan trọng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "早期.svg",
+      "src": "images/HSK_3.0/level5/早期.svg",
+      "alt_srcs": []
+    },
+    "早晚": {
+      "hanzi": "早晚",
+      "pinyin": "zǎowǎn",
+      "meaning": "sớm muộn; sáng tối",
+      "example_zh": "只要你坚持努力，<u>早晚</u>会取得成功的。",
+      "example_vi": "Chỉ cần bạn kiên trì nỗ lực, <u>sớm muộn</u> cũng sẽ gặt hái thành công.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "早晚.svg",
+      "src": "images/HSK_3.0/level5/早晚.svg",
+      "alt_srcs": []
+    },
+    "早已": {
+      "hanzi": "早已",
+      "pinyin": "zǎoyǐ",
+      "meaning": "đã từ lâu, sớm đã",
+      "example_zh": "这件事我们大家<u>早已</u>知道了。",
+      "example_vi": "Chuyện này mọi người chúng tôi <u>từ lâu đã</u> biết rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "早已.svg",
+      "src": "images/HSK_3.0/level5/早已.svg",
       "alt_srcs": []
     }
   }

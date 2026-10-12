@@ -16051,6 +16051,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "愿.svg",
     "src": "images/HSK_3.0/level5/愿.svg",
     "caption": "nguyện, mong muốn; chúc"
+  },
+  "约定": {
+    "file": "约定.svg",
+    "src": "images/HSK_3.0/level5/约定.svg",
+    "caption": "thỏa thuận"
+  },
+  "运": {
+    "file": "运.svg",
+    "src": "images/HSK_3.0/level5/运.svg",
+    "caption": "vận chuyển, chở; vận may"
+  },
+  "运费": {
+    "file": "运费.svg",
+    "src": "images/HSK_3.0/level5/运费.svg",
+    "caption": "vận chuyển hàng hóa"
+  },
+  "在场": {
+    "file": "在场.svg",
+    "src": "images/HSK_3.0/level5/在场.svg",
+    "caption": "có mặt, tại hiện trường"
+  },
+  "在内": {
+    "file": "在内.svg",
+    "src": "images/HSK_3.0/level5/在内.svg",
+    "caption": "bao gồm cả, tính cả"
+  },
+  "在线": {
+    "file": "在线.svg",
+    "src": "images/HSK_3.0/level5/在线.svg",
+    "caption": "trực tuyến"
+  },
+  "糟": {
+    "file": "糟.svg",
+    "src": "images/HSK_3.0/level5/糟.svg",
+    "caption": "hỏng bét, tồi tệ, gay go"
+  },
+  "早期": {
+    "file": "早期.svg",
+    "src": "images/HSK_3.0/level5/早期.svg",
+    "caption": "sớm"
+  },
+  "早晚": {
+    "file": "早晚.svg",
+    "src": "images/HSK_3.0/level5/早晚.svg",
+    "caption": "sớm muộn; sáng tối"
+  },
+  "早已": {
+    "file": "早已.svg",
+    "src": "images/HSK_3.0/level5/早已.svg",
+    "caption": "đã từ lâu, sớm đã"
   }
 };
 

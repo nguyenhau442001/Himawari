@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Meeting Table -->
+  <path d="M30 160 L210 160 L190 210 L50 210 Z" fill="#334155"/>
+  <ellipse cx="120" cy="160" rx="90" ry="20" fill="#475569"/>
+  
+  <!-- Characters (10 total: 9 seated, 1 standing/entering) -->
+  <!-- Back row -->
+  <circle cx="60" cy="130" r="12" fill="#38bdf8"/>
+  <circle cx="90" cy="130" r="12" fill="#fb923c"/>
+  <circle cx="120" cy="130" r="12" fill="#ec4899"/>
+  <circle cx="150" cy="130" r="12" fill="#10b981"/>
+  <circle cx="180" cy="130" r="12" fill="#fbbf24"/>
+  
+  <!-- Front row -->
+  <circle cx="45" cy="170" r="12" fill="#fbbf24"/>
+  <circle cx="85" cy="180" r="12" fill="#38bdf8"/>
+  <circle cx="155" cy="180" r="12" fill="#ec4899"/>
+  <circle cx="195" cy="170" r="12" fill="#10b981"/>
+  
+  <!-- The 10th person (The subject) standing at the head -->
+  <g transform="translate(120, 100)">
+    <circle cx="0" cy="0" r="14" fill="#f59e0b"/>
+    <path d="M-8 15 L8 15 L5 40 L-5 40 Z" fill="#f59e0b"/>
+    <path d="M-15 20 L-5 25 M15 20 L5 25" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ambient details -->
+  <rect x="40" y="40" width="160" height="2" fill="#334155"/>
+  <rect x="40" y="50" width="160" height="2" fill="#334155"/>
+  <circle cx="200" cy="30" r="8" fill="#fbbf24" opacity="0.3"/>
+  <path d="M20 200 L220 200" stroke="#475569" stroke-width="1" stroke-dasharray="4 4"/>
+</svg>

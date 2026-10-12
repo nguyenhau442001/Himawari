@@ -1,0 +1,50 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Office Table -->
+  <rect x="20" y="140" width="200" height="10" rx="2" fill="#334155"/>
+  <rect x="30" y="150" width="10" height="80" fill="#475569"/>
+  <rect x="200" y="150" width="10" height="80" fill="#475569"/>
+  
+  <!-- Characters -->
+  <!-- Person 1 (Center) -->
+  <circle cx="120" cy="90" r="25" fill="#fde68a"/>
+  <path d="M105 95 Q120 105 135 95" stroke="#475569" stroke-width="2" fill="none"/>
+  <circle cx="112" cy="85" r="3" fill="#1e293b"/>
+  <circle cx="128" cy="85" r="3" fill="#1e293b"/>
+  <path d="M90 120 L150 120 L140 180 L100 180 Z" fill="#38bdf8"/>
+  
+  <!-- Person 2 (Left) -->
+  <circle cx="60" cy="110" r="20" fill="#fde68a"/>
+  <path d="M50 115 Q60 122 70 115" stroke="#475569" stroke-width="2" fill="none"/>
+  <circle cx="55" cy="105" r="2" fill="#1e293b"/>
+  <circle cx="65" cy="105" r="2" fill="#1e293b"/>
+  <path d="M40 130 L80 130 L75 180 L45 180 Z" fill="#fb923c"/>
+  
+  <!-- Person 3 (Right) -->
+  <circle cx="180" cy="110" r="20" fill="#fde68a"/>
+  <path d="M170 115 Q180 122 190 115" stroke="#475569" stroke-width="2" fill="none"/>
+  <circle cx="175" cy="105" r="2" fill="#1e293b"/>
+  <circle cx="185" cy="105" r="2" fill="#1e293b"/>
+  <path d="M160 130 L200 130 L195 180 L165 180 Z" fill="#10b981"/>
+  
+  <!-- Context: The "News" (A folder/document on the table) -->
+  <rect x="95" y="145" width="50" height="60" rx="4" fill="#f1f5f9"/>
+  <rect x="100" y="155" width="40" height="5" rx="1" fill="#cbd5e1"/>
+  <rect x="100" y="165" width="40" height="5" rx="1" fill="#cbd5e1"/>
+  <rect x="100" y="175" width="25" height="5" rx="1" fill="#cbd5e1"/>
+  
+  <!-- Clock on wall indicating time passed -->
+  <circle cx="200" cy="40" r="15" fill="#334155" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="200" y1="40" x2="200" y2="30" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <line x1="200" y1="40" x2="210" y2="40" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Decorative elements to show "already known" -->
+  <path d="M30 50 L45 35 M30 35 L45 50" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+</svg>
