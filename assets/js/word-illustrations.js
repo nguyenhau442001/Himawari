@@ -15662,15 +15662,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/腐烂.svg",
     "caption": "thối rữa"
   },
+  "腐蚀": {
+    "file": "腐蚀.svg",
+    "src": "images/HSK_2.0/level6/腐蚀.svg",
+    "caption": "ăn mòn (hóa học)"
+  },
+  "抚摸": {
+    "file": "抚摸.svg",
+    "src": "images/HSK_2.0/level6/抚摸.svg",
+    "caption": "vuốt ve"
+  },
+  "俯": {
+    "file": "俯.svg",
+    "src": "images/HSK_2.0/level6/俯.svg",
+    "caption": "cúi (đầu, người)"
+  },
+  "抚养": {
+    "file": "抚养.svg",
+    "src": "images/HSK_2.0/level6/抚养.svg",
+    "caption": "nuôi dưỡng"
+  },
+  "辅助": {
+    "file": "辅助.svg",
+    "src": "images/HSK_2.0/level6/辅助.svg",
+    "caption": "hỗ trợ, phụ trợ"
+  },
+  "复活": {
+    "file": "复活.svg",
+    "src": "images/HSK_2.0/level6/复活.svg",
+    "caption": "hồi sinh, phục hồi sống lại"
+  },
+  "复仇": {
+    "file": "复仇.svg",
+    "src": "images/HSK_2.0/level6/复仇.svg",
+    "caption": "báo thù"
+  },
   "付出": {
     "file": "付出.svg",
     "src": "images/HSK_2.0/level6/付出.svg",
     "caption": "cống hiến, bỏ ra"
   },
+  "副": {
+    "file": "副.svg",
+    "src": "images/HSK_2.0/level6/副.svg",
+    "caption": "phó (chức vụ)"
+  },
+  "富裕": {
+    "file": "富裕.svg",
+    "src": "images/HSK_2.0/level6/富裕.svg",
+    "caption": "giàu có"
+  },
   "负担": {
     "file": "负担.svg",
     "src": "images/HSK_2.0/level6/负担.svg",
     "caption": "gánh nặng"
+  },
+  "附和": {
+    "file": "附和.svg",
+    "src": "images/HSK_2.0/level6/附和.svg",
+    "caption": "hùa theo, phụ họa"
   },
   "富有": {
     "file": "富有.svg",

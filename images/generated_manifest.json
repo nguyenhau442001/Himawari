@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:24:25.610406",
-  "total_unique_words_with_illustrations": 3759,
-  "total_flat_svg_files": 3759,
+  "generated_at": "2026-10-12T12:26:43.213835",
+  "total_unique_words_with_illustrations": 3769,
+  "total_flat_svg_files": 3769,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1119,
-        "pct": "44.8%"
+        "with_svg": 1129,
+        "pct": "45.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 396,
-        "pct": "22.0%"
+        "with_svg": 398,
+        "pct": "22.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 458,
-        "pct": "8.2%"
+        "with_svg": 463,
+        "pct": "8.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 458,
-        "pct": "8.2%"
+        "with_svg": 463,
+        "pct": "8.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 458,
-        "pct": "8.2%"
+        "with_svg": 463,
+        "pct": "8.3%"
       }
     }
   },
@@ -57676,6 +57676,140 @@
         "images/HSK_3.0/level9/腐烂.svg"
       ]
     },
+    "腐蚀": {
+      "hanzi": "腐蚀",
+      "pinyin": "fǔshí",
+      "meaning": "ăn mòn (hóa học)",
+      "example_zh": "金属被酸<u>腐蚀</u>了。",
+      "example_vi": "Kim loại bị axit <u>ăn mòn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "腐蚀.svg",
+      "src": "images/HSK_2.0/level6/腐蚀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/腐蚀.svg",
+        "images/HSK_3.0/level8/腐蚀.svg",
+        "images/HSK_3.0/level9/腐蚀.svg"
+      ]
+    },
+    "抚摸": {
+      "hanzi": "抚摸",
+      "pinyin": "fǔmō",
+      "meaning": "vuốt ve",
+      "example_zh": "她轻轻<u>抚摸</u>小猫。",
+      "example_vi": "Cô ấy nhẹ nhàng <u>vuốt ve</u> con mèo nhỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抚摸.svg",
+      "src": "images/HSK_2.0/level6/抚摸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/抚摸.svg",
+        "images/HSK_3.0/level8/抚摸.svg",
+        "images/HSK_3.0/level9/抚摸.svg"
+      ]
+    },
+    "俯": {
+      "hanzi": "俯",
+      "pinyin": "fǔ",
+      "meaning": "cúi (đầu, người)",
+      "example_zh": "他<u>俯</u>下身子捡东西。",
+      "example_vi": "Anh ấy <u>cúi</u> người xuống nhặt đồ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "俯.svg",
+      "src": "images/HSK_2.0/level6/俯.svg",
+      "alt_srcs": []
+    },
+    "抚养": {
+      "hanzi": "抚养",
+      "pinyin": "fǔyǎng",
+      "meaning": "nuôi dưỡng",
+      "example_zh": "她独自<u>抚养</u>两个孩子。",
+      "example_vi": "Cô ấy một mình <u>nuôi dưỡng</u> hai đứa con.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抚养.svg",
+      "src": "images/HSK_2.0/level6/抚养.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/抚养.svg",
+        "images/HSK_3.0/level8/抚养.svg",
+        "images/HSK_3.0/level9/抚养.svg"
+      ]
+    },
+    "辅助": {
+      "hanzi": "辅助",
+      "pinyin": "fǔzhù",
+      "meaning": "hỗ trợ, phụ trợ",
+      "example_zh": "这个工具能<u>辅助</u>你完成任务。",
+      "example_vi": "Công cụ này có thể <u>hỗ trợ</u> bạn hoàn thành nhiệm vụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "辅助.svg",
+      "src": "images/HSK_2.0/level6/辅助.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/辅助.svg"
+      ]
+    },
+    "复活": {
+      "hanzi": "复活",
+      "pinyin": "fùhuó",
+      "meaning": "hồi sinh, phục hồi sống lại",
+      "example_zh": "这个传统正在<u>复活</u>。",
+      "example_vi": "Truyền thống này đang được <u>hồi sinh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "复活.svg",
+      "src": "images/HSK_2.0/level6/复活.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/复活.svg",
+        "images/HSK_3.0/level8/复活.svg",
+        "images/HSK_3.0/level9/复活.svg"
+      ]
+    },
+    "复仇": {
+      "hanzi": "复仇",
+      "pinyin": "fùchóu",
+      "meaning": "báo thù",
+      "example_zh": "他一直想着<u>复仇</u>。",
+      "example_vi": "Anh ấy luôn nghĩ đến việc <u>báo thù</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "复仇.svg",
+      "src": "images/HSK_2.0/level6/复仇.svg",
+      "alt_srcs": []
+    },
     "付出": {
       "hanzi": "付出",
       "pinyin": "fùchū",
@@ -57694,6 +57828,38 @@
         "images/HSK_3.0/level5/付出.svg"
       ]
     },
+    "副": {
+      "hanzi": "副",
+      "pinyin": "fù",
+      "meaning": "phó (chức vụ)",
+      "example_zh": "他是<u>副</u>经理。",
+      "example_vi": "Anh ấy là <u>phó</u> giám đốc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "副.svg",
+      "src": "images/HSK_2.0/level6/副.svg",
+      "alt_srcs": []
+    },
+    "富裕": {
+      "hanzi": "富裕",
+      "pinyin": "fùyù",
+      "meaning": "giàu có",
+      "example_zh": "他们家很<u>富裕</u>。",
+      "example_vi": "Gia đình họ rất <u>giàu có</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "富裕.svg",
+      "src": "images/HSK_2.0/level6/富裕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/富裕.svg"
+      ]
+    },
     "负担": {
       "hanzi": "负担",
       "pinyin": "fùdān",
@@ -57710,6 +57876,28 @@
       "src": "images/HSK_2.0/level6/负担.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/负担.svg"
+      ]
+    },
+    "附和": {
+      "hanzi": "附和",
+      "pinyin": "fùhè",
+      "meaning": "hùa theo, phụ họa",
+      "example_zh": "他只会<u>附和</u>别人的意见。",
+      "example_vi": "Anh ấy chỉ biết <u>hùa theo</u> ý kiến người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "附和.svg",
+      "src": "images/HSK_2.0/level6/附和.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/附和.svg",
+        "images/HSK_3.0/level8/附和.svg",
+        "images/HSK_3.0/level9/附和.svg"
       ]
     },
     "富有": {

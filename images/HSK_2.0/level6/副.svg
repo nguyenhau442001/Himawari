@@ -1,0 +1,102 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="windowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Background Office Details -->
+  <!-- Window -->
+  <rect x="30" y="30" width="70" height="85" rx="6" fill="url(#windowGrad)" stroke="#475569" stroke-width="2"/>
+  <line x1="65" y1="30" x2="65" y2="115" stroke="#475569" stroke-width="2"/>
+  <line x1="30" y1="72" x2="100" y2="72" stroke="#475569" stroke-width="2"/>
+  <!-- Cityscape silhouette in window -->
+  <path d="M38 115 L38 90 L45 90 L45 115 L55 115 L55 80 L62 80 L62 115 L78 115 L78 85 L85 85 L85 115 Z" fill="#334155" opacity="0.6"/>
+
+  <!-- Bookshelf / Plants in background -->
+  <rect x="180" y="40" width="35" height="75" rx="4" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <line x1="180" y1="65" x2="215" y2="65" stroke="#334155" stroke-width="2"/>
+  <line x1="180" y1="90" x2="215" y2="90" stroke="#334155" stroke-width="2"/>
+  <!-- Plant on shelf -->
+  <path d="M197 65 C197 55 205 50 205 50 C205 50 213 55 213 65 Z" fill="#10b981"/>
+  <path d="M205 50 C202 45 195 42 195 42" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M205 50 C208 44 216 42 216 42" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Warm ambient office lighting glow -->
+  <circle cx="150" cy="110" r="70" fill="url(#accentGlow)" />
+
+  <!-- Main Office Desk -->
+  <path d="M15 165 L225 165 L210 210 L30 210 Z" fill="url(#deskGrad)" stroke="#475569" stroke-width="2"/>
+  <rect x="15" y="155" width="210" height="12" rx="3" fill="#475569" />
+
+  <!-- Desk Props -->
+  <!-- Laptop -->
+  <path d="M135 155 L185 155 L195 130 L125 130 Z" fill="#64748b" />
+  <rect x="130" y="155" width="60" height="4" rx="2" fill="#94a3b8" />
+  <rect x="138" y="133" width="44" height="20" rx="2" fill="#38bdf8" opacity="0.8"/>
+
+  <!-- Coffee Mug -->
+  <rect x="85" y="142" width="14" height="16" rx="2" fill="#f8fafc" />
+  <path d="M99 146 C103 146 103 154 99 154" fill="none" stroke="#f8fafc" stroke-width="2" />
+  
+  <!-- Document / Folder -->
+  <polygon points="50,157 75,148 80,158 55,167" fill="#fb923c" />
+  <line x1="56" y1="158" x2="70" y2="153" stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Character: Deputy Manager (副经理) -->
+  <!-- Body/Suit -->
+  <path d="M95 170 C95 145 145 145 145 170 L155 210 L85 210 Z" fill="#0f172a" />
+  <!-- Shirt & Tie -->
+  <polygon points="120,153 110,185 130,185" fill="#f8fafc" />
+  <polygon points="117,162 120,195 123,162" fill="#ec4899" />
+  <!-- Suit Lapels -->
+  <path d="M120,153 L105,185 L112,185 Z" fill="#1e293b" />
+  <path d="M120,153 L135,185 L128,185 Z" fill="#1e293b" />
+
+  <!-- Nameplate / Badge element on desk (Symbolizing Managerial role) -->
+  <path d="M100,163 L140,163 L145,172 L95,172 Z" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1" />
+  <rect x="105" y="166" width="30" height="3" rx="1" fill="#f59e0b" />
+
+  <!-- Neck -->
+  <rect x="114" y="138" width="12" height="18" fill="#f1c27d" />
+
+  <!-- Head & Face -->
+  <circle cx="120" cy="118" r="22" fill="#f1c27d" />
+  
+  <!-- Hair -->
+  <path d="M98 120 C98 102 110 96 120 96 C130 96 142 102 142 120 C142 123 140 120 138 114 C132 102 108 102 102 114 C100 120 98 123 98 120 Z" fill="#334155" />
+
+  <!-- Confident/Friendly Expression -->
+  <!-- Glasses -->
+  <rect x="106" y="110" width="12" height="9" rx="2" fill="none" stroke="#334155" stroke-width="2" />
+  <rect x="122" y="110" width="12" height="9" rx="2" fill="none" stroke="#334155" stroke-width="2" />
+  <line x1="118" y1="114" x2="122" y2="114" stroke="#334155" stroke-width="2" />
+  <!-- Eyes (Happy / Determined) -->
+  <circle cx="112" cy="114" r="1.5" fill="#0f172a" />
+  <circle cx="128" cy="114" r="1.5" fill="#0f172a" />
+  <!-- Smile -->
+  <path d="M114,126 Q120,131 126,126" fill="none" stroke="#9a3412" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Gesturing hand explaining or leading -->
+  <path d="M140,175 C150,170 160,180 155,190 C153,194 148,193 145,188" fill="#f1c27d" stroke="#d9a05b" stroke-width="1.5" />
+
+  <!-- Executive Chair back -->
+  <path d="M90,130 C80,100 160,100 150,130 L160,195 L145,195 L140,140 L100,140 L95,195 L80,195 Z" fill="#1e293b" />
+  <path d="M100,130 C95,110 145,110 140,130 Z" fill="#334155" />
+</svg>
