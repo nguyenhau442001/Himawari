@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Elements: Marathon/Running Track -->
+  <path d="M0 160 L240 160 M0 180 L240 180" stroke="#334155" stroke-width="2" stroke-dasharray="8 8"/>
+  <circle cx="200" cy="80" r="30" fill="#f59e0b" opacity="0.15"/>
+  
+  <!-- Runner Character -->
+  <g transform="translate(60, 80)">
+    <!-- Body -->
+    <path d="M20 40 L40 40 L35 90 L25 90 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="30" cy="30" r="12" fill="#fde68a"/>
+    <!-- Legs (Running motion) -->
+    <path d="M25 90 L15 120 M35 90 L45 120" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Arms -->
+    <path d="M20 50 L5 70 M40 50 L55 30" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+    <!-- Sweat/Effort -->
+    <path d="M45 25 Q50 20 55 25" stroke="#fb923c" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Finish Line Ribbon -->
+  <path d="M180 60 L180 140" stroke="#10b981" stroke-width="4" stroke-dasharray="4 4"/>
+  
+  <!-- Medal/Reward Icon (Abstracted as a glowing star) -->
+  <g transform="translate(190, 50)">
+    <path d="M0 -10 L2 -4 L8 -4 L3 0 L5 6 L0 2 L-5 6 L-3 0 L-8 -4 L-2 -4 Z" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Decorative Ground Elements -->
+  <path d="M0 190 Q120 220 240 190 L240 240 L0 240 Z" fill="#0f172a" opacity="0.5"/>
+  <circle cx="30" cy="210" r="2" fill="#fb923c"/>
+  <circle cx="120" cy="225" r="3" fill="#ec4899"/>
+  <circle cx="210" cy="215" r="2" fill="#38bdf8"/>
+</svg>

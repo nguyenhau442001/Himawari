@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Kitchen Counter -->
+  <rect x="20" y="160" width="200" height="80" rx="8" fill="#334155"/>
+  <rect x="20" y="160" width="200" height="15" fill="#475569"/>
+  
+  <!-- Stove/Pan -->
+  <circle cx="120" cy="175" r="35" fill="#1e293b" stroke="#64748b" stroke-width="4"/>
+  <path d="M95 160 Q120 130 145 160" fill="#fb923c" opacity="0.8"/>
+  <path d="M100 150 Q120 120 140 150" fill="#f59e0b"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 60)">
+    <!-- Body -->
+    <path d="M40 150 L80 150 L75 100 L45 100 Z" fill="#38bdf8"/>
+    <!-- Arms -->
+    <path d="M40 110 L20 130" stroke="#fca5a5" stroke-width="8" stroke-linecap="round"/>
+    <path d="M80 110 L100 130" stroke="#fca5a5" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="60" cy="80" r="25" fill="#fca5a5"/>
+    <!-- Hair -->
+    <path d="M40 75 Q60 40 80 75" fill="#78350f"/>
+    <!-- Eyes/Smile -->
+    <circle cx="50" cy="75" r="3" fill="#0f172a"/>
+    <circle cx="70" cy="75" r="3" fill="#0f172a"/>
+    <path d="M50 85 Q60 92 70 85" stroke="#0f172a" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Floating Ingredients/Props -->
+  <circle cx="180" cy="100" r="10" fill="#ec4899"/>
+  <circle cx="195" cy="120" r="8" fill="#10b981"/>
+  <path d="M170 140 L190 140 L185 155 L175 155 Z" fill="#fbbf24"/>
+  
+  <!-- Steam/Action -->
+  <path d="M120 130 Q110 110 120 90" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M125 125 Q135 105 125 85" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

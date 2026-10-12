@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="160" width="200" height="80" fill="#334155" rx="8"/>
+  
+  <!-- Character (The Man) -->
+  <g transform="translate(60, 80)">
+    <circle cx="40" cy="30" r="25" fill="#fbbf24"/>
+    <path d="M25 35 Q40 45 55 35" stroke="#0f172a" stroke-width="2" fill="none"/>
+    <circle cx="32" cy="25" r="3" fill="#0f172a"/>
+    <circle cx="48" cy="25" r="3" fill="#0f172a"/>
+    <path d="M10 60 L70 60 L65 120 L15 120 Z" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Speech Bubble Context (Abstracted as a thought/memory) -->
+  <path d="M140 60 L200 60 L200 100 L160 100 L150 110 L150 100 L140 100 Z" fill="#ec4899" opacity="0.8"/>
+  <circle cx="170" cy="80" r="12" fill="#fff" opacity="0.2"/>
+  
+  <!-- Props: Map/Globe/Book indicating language -->
+  <circle cx="180" cy="180" r="30" fill="#10b981"/>
+  <path d="M160 180 Q180 160 200 180 Q180 200 160 180" fill="#0f172a" opacity="0.3"/>
+  <path d="M180 150 L180 210" stroke="#0f172a" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Coffee Mug -->
+  <rect x="30" y="180" width="20" height="25" fill="#fb923c" rx="4"/>
+  <path d="M50 185 Q60 185 60 195" stroke="#fb923c" stroke-width="4" fill="none"/>
+  
+  <!-- Ambient glow -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.05"/>
+</svg>

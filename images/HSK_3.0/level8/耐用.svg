@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Workbench -->
+  <rect x="20" y="160" width="200" height="20" rx="4" fill="#334155"/>
+  <rect x="30" y="180" width="10" height="40" fill="#475569"/>
+  <rect x="200" y="180" width="10" height="40" fill="#475569"/>
+  
+  <!-- The Durable Material (Heavy Duty Fabric/Canvas) -->
+  <path d="M60 100 L180 100 L170 160 L50 160 Z" fill="#fb923c"/>
+  <path d="M60 100 L70 120 L190 120 L180 100 Z" fill="#f59e0b"/>
+  <path d="M180 100 L190 120 L180 160 L170 160 Z" fill="#d97706"/>
+  
+  <!-- Stitching details showing durability -->
+  <path d="M65 110 L175 110 M68 125 L178 125 M72 140 L182 140" stroke="#1e293b" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Character: Artisan/Worker -->
+  <circle cx="120" cy="60" r="25" fill="#cbd5e1"/>
+  <path d="M105 65 Q120 80 135 65" stroke="#334155" stroke-width="3" fill="none"/>
+  <circle cx="110" cy="55" r="3" fill="#1e293b"/>
+  <circle cx="130" cy="55" r="3" fill="#1e293b"/>
+  
+  <!-- Arms/Hands interacting with material -->
+  <path d="M95 80 L80 120" stroke="#cbd5e1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M145 80 L160 120" stroke="#cbd5e1" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Tools -->
+  <rect x="40" y="140" width="30" height="10" rx="2" fill="#94a3b8"/>
+  <circle cx="55" cy="145" r="5" fill="#38bdf8"/>
+  
+  <!-- Sparkle/Emphasis -->
+  <path d="M190 80 L195 70 L200 80 L210 85 L200 90 L195 100 L190 90 L180 85 Z" fill="#10b981"/>
+  <path d="M50 70 L55 60 L60 70 L70 75 L60 80 L55 90 L50 80 L40 75 Z" fill="#ec4899"/>
+</svg>

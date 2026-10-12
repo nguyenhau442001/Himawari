@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Street Environment -->
+  <path d="M0 180h240v60H0z" fill="#334155"/>
+  <rect x="0" y="185" width="240" height="5" fill="#475569"/>
+  <rect x="20" y="200" width="40" height="10" fill="#f8fafc" opacity="0.2"/>
+  <rect x="100" y="200" width="40" height="10" fill="#f8fafc" opacity="0.2"/>
+  <rect x="180" y="200" width="40" height="10" fill="#f8fafc" opacity="0.2"/>
+  
+  <!-- Accident Scene (Simplified) -->
+  <g transform="translate(130, 140)">
+    <rect x="0" y="0" width="60" height="30" rx="4" fill="#fb923c"/>
+    <circle cx="15" cy="30" r="8" fill="#1e293b"/>
+    <circle cx="45" cy="30" r="8" fill="#1e293b"/>
+    <path d="M5 5h50v10H5z" fill="#f1f5f9"/>
+    <path d="M60 10l15 -10l5 20z" fill="#ec4899" opacity="0.6"/>
+  </g>
+
+  <!-- Witness Character -->
+  <g transform="translate(40, 100)">
+    <!-- Body -->
+    <path d="M20 120h40v-50c0-15-20-15-20-15s-20 0-20 15v50z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="40" cy="45" r="20" fill="#fde68a"/>
+    <!-- Eyes (Wide/Shocked) -->
+    <circle cx="33" cy="42" r="3" fill="#0f172a"/>
+    <circle cx="47" cy="42" r="3" fill="#0f172a"/>
+    <!-- Mouth (Shocked) -->
+    <ellipse cx="40" cy="55" rx="4" ry="6" fill="#0f172a"/>
+    <!-- Hand pointing -->
+    <path d="M60 70l20-10" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Street Lamp -->
+  <rect x="210" y="40" width="6" height="140" fill="#64748b"/>
+  <circle cx="213" cy="40" r="12" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="213" cy="40" r="6" fill="#fef3c7"/>
+</svg>

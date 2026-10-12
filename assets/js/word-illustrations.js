@@ -18117,15 +18117,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/谋求.svg",
     "caption": "tìm kiếm, theo đuổi (giải pháp, lợi ích)"
   },
+  "模样": {
+    "file": "模样.svg",
+    "src": "images/HSK_2.0/level6/模样.svg",
+    "caption": "dáng vẻ, hình dạng"
+  },
+  "母语": {
+    "file": "母语.svg",
+    "src": "images/HSK_2.0/level6/母语.svg",
+    "caption": "tiếng mẹ đẻ"
+  },
+  "目睹": {
+    "file": "目睹.svg",
+    "src": "images/HSK_2.0/level6/目睹.svg",
+    "caption": "chứng kiến, mục kích"
+  },
   "目光": {
     "file": "目光.svg",
     "src": "images/HSK_2.0/level6/目光.svg",
     "caption": "tầm nhìn, ánh mắt"
   },
+  "沐浴": {
+    "file": "沐浴.svg",
+    "src": "images/HSK_2.0/level6/沐浴.svg",
+    "caption": "tắm gội, đắm mình (trong ánh sáng...)"
+  },
+  "拿手": {
+    "file": "拿手.svg",
+    "src": "images/HSK_2.0/level6/拿手.svg",
+    "caption": "thành thạo, sở trường"
+  },
+  "纳闷儿": {
+    "file": "纳闷儿.svg",
+    "src": "images/HSK_2.0/level6/纳闷儿.svg",
+    "caption": "khó hiểu, băn khoăn"
+  },
+  "耐用": {
+    "file": "耐用.svg",
+    "src": "images/HSK_2.0/level6/耐用.svg",
+    "caption": "bền, dùng lâu"
+  },
+  "南辕北辙": {
+    "file": "南辕北辙.svg",
+    "src": "images/HSK_2.0/level6/南辕北辙.svg",
+    "caption": "trống đánh xuôi kèn thổi ngược, hành động trái mục đích"
+  },
   "难得": {
     "file": "难得.svg",
     "src": "images/HSK_2.0/level6/难得.svg",
     "caption": "hiếm có, khó mà có được"
+  },
+  "难堪": {
+    "file": "难堪.svg",
+    "src": "images/HSK_2.0/level6/难堪.svg",
+    "caption": "khó xử, ngượng ngùng"
+  },
+  "难能可贵": {
+    "file": "难能可贵.svg",
+    "src": "images/HSK_2.0/level6/难能可贵.svg",
+    "caption": "đáng quý vì khó làm được, đáng khen ngợi"
   },
   "哦": {
     "file": "哦.svg",
