@@ -16042,10 +16042,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/古板.svg",
     "caption": "cứng nhắc, cổ hủ"
   },
+  "古怪": {
+    "file": "古怪.svg",
+    "src": "images/HSK_2.0/level6/古怪.svg",
+    "caption": "kỳ lạ, khác thường"
+  },
+  "古迹": {
+    "file": "古迹.svg",
+    "src": "images/HSK_2.0/level6/古迹.svg",
+    "caption": "di tích cổ"
+  },
+  "谷物": {
+    "file": "谷物.svg",
+    "src": "images/HSK_2.0/level6/谷物.svg",
+    "caption": "ngũ cốc"
+  },
+  "股东": {
+    "file": "股东.svg",
+    "src": "images/HSK_2.0/level6/股东.svg",
+    "caption": "cổ đông"
+  },
+  "骨干": {
+    "file": "骨干.svg",
+    "src": "images/HSK_2.0/level6/骨干.svg",
+    "caption": "cốt cán, lực lượng chủ lực"
+  },
+  "股份": {
+    "file": "股份.svg",
+    "src": "images/HSK_2.0/level6/股份.svg",
+    "caption": "cổ phần"
+  },
   "故乡": {
     "file": "故乡.svg",
     "src": "images/HSK_2.0/level6/故乡.svg",
     "caption": "quê hương"
+  },
+  "雇佣": {
+    "file": "雇佣.svg",
+    "src": "images/HSK_2.0/level6/雇佣.svg",
+    "caption": "thuê mướn (lao động)"
+  },
+  "故障": {
+    "file": "故障.svg",
+    "src": "images/HSK_2.0/level6/故障.svg",
+    "caption": "hỏng hóc, sự cố"
+  },
+  "关怀": {
+    "file": "关怀.svg",
+    "src": "images/HSK_2.0/level6/关怀.svg",
+    "caption": "quan tâm, chăm sóc"
+  },
+  "关照": {
+    "file": "关照.svg",
+    "src": "images/HSK_2.0/level6/关照.svg",
+    "caption": "chăm sóc, để mắt"
   },
   "过于": {
     "file": "过于.svg",

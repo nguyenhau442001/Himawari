@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:40:05.641268",
-  "total_unique_words_with_illustrations": 3829,
-  "total_flat_svg_files": 3829,
+  "generated_at": "2026-10-12T12:42:02.265040",
+  "total_unique_words_with_illustrations": 3839,
+  "total_flat_svg_files": 3839,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1189,
-        "pct": "47.6%"
+        "with_svg": 1199,
+        "pct": "48.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 423,
-        "pct": "23.5%"
+        "with_svg": 426,
+        "pct": "23.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 492,
-        "pct": "8.8%"
+        "with_svg": 499,
+        "pct": "8.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 492,
-        "pct": "8.8%"
+        "with_svg": 499,
+        "pct": "8.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 492,
-        "pct": "8.8%"
+        "with_svg": 499,
+        "pct": "8.9%"
       }
     }
   },
@@ -59144,6 +59144,134 @@
       "src": "images/HSK_2.0/level6/古板.svg",
       "alt_srcs": []
     },
+    "古怪": {
+      "hanzi": "古怪",
+      "pinyin": "gǔguài",
+      "meaning": "kỳ lạ, khác thường",
+      "example_zh": "他的行为很<u>古怪</u>。",
+      "example_vi": "Hành vi của anh ấy rất <u>kỳ lạ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "古怪.svg",
+      "src": "images/HSK_2.0/level6/古怪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/古怪.svg",
+        "images/HSK_3.0/level8/古怪.svg",
+        "images/HSK_3.0/level9/古怪.svg"
+      ]
+    },
+    "古迹": {
+      "hanzi": "古迹",
+      "pinyin": "gǔjì",
+      "meaning": "di tích cổ",
+      "example_zh": "这里有很多历史<u>古迹</u>。",
+      "example_vi": "Nơi đây có nhiều <u>di tích</u> lịch sử.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "古迹.svg",
+      "src": "images/HSK_2.0/level6/古迹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/古迹.svg"
+      ]
+    },
+    "谷物": {
+      "hanzi": "谷物",
+      "pinyin": "gǔwù",
+      "meaning": "ngũ cốc",
+      "example_zh": "这种<u>谷物</u>营养丰富。",
+      "example_vi": "Loại <u>ngũ cốc</u> này rất giàu dinh dưỡng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "谷物.svg",
+      "src": "images/HSK_2.0/level6/谷物.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/谷物.svg",
+        "images/HSK_3.0/level8/谷物.svg",
+        "images/HSK_3.0/level9/谷物.svg"
+      ]
+    },
+    "股东": {
+      "hanzi": "股东",
+      "pinyin": "gǔdōng",
+      "meaning": "cổ đông",
+      "example_zh": "公司召开了<u>股东</u>大会。",
+      "example_vi": "Công ty tổ chức đại hội <u>cổ đông</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "股东.svg",
+      "src": "images/HSK_2.0/level6/股东.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/股东.svg",
+        "images/HSK_3.0/level8/股东.svg",
+        "images/HSK_3.0/level9/股东.svg"
+      ]
+    },
+    "骨干": {
+      "hanzi": "骨干",
+      "pinyin": "gǔgàn",
+      "meaning": "cốt cán, lực lượng chủ lực",
+      "example_zh": "他是公司的<u>骨干</u>力量。",
+      "example_vi": "Anh ấy là lực lượng <u>cốt cán</u> của công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "骨干.svg",
+      "src": "images/HSK_2.0/level6/骨干.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/骨干.svg",
+        "images/HSK_3.0/level8/骨干.svg",
+        "images/HSK_3.0/level9/骨干.svg"
+      ]
+    },
+    "股份": {
+      "hanzi": "股份",
+      "pinyin": "gǔfèn",
+      "meaning": "cổ phần",
+      "example_zh": "他拥有公司部分<u>股份</u>。",
+      "example_vi": "Anh ấy nắm một phần <u>cổ phần</u> của công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "股份.svg",
+      "src": "images/HSK_2.0/level6/股份.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/股份.svg",
+        "images/HSK_3.0/level8/股份.svg",
+        "images/HSK_3.0/level9/股份.svg"
+      ]
+    },
     "故乡": {
       "hanzi": "故乡",
       "pinyin": "gùxiāng",
@@ -59160,6 +59288,86 @@
       "src": "images/HSK_2.0/level6/故乡.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/故乡.svg"
+      ]
+    },
+    "雇佣": {
+      "hanzi": "雇佣",
+      "pinyin": "gùyōng",
+      "meaning": "thuê mướn (lao động)",
+      "example_zh": "公司<u>雇佣</u>了新员工。",
+      "example_vi": "Công ty <u>thuê mướn</u> nhân viên mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "雇佣.svg",
+      "src": "images/HSK_2.0/level6/雇佣.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/雇佣.svg",
+        "images/HSK_3.0/level8/雇佣.svg",
+        "images/HSK_3.0/level9/雇佣.svg"
+      ]
+    },
+    "故障": {
+      "hanzi": "故障",
+      "pinyin": "gùzhàng",
+      "meaning": "hỏng hóc, sự cố",
+      "example_zh": "机器出现了<u>故障</u>。",
+      "example_vi": "Máy bị <u>hỏng hóc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "故障.svg",
+      "src": "images/HSK_2.0/level6/故障.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/故障.svg"
+      ]
+    },
+    "关怀": {
+      "hanzi": "关怀",
+      "pinyin": "guānhuái",
+      "meaning": "quan tâm, chăm sóc",
+      "example_zh": "老师对学生十分<u>关怀</u>。",
+      "example_vi": "Thầy giáo rất <u>quan tâm</u> đến học sinh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "关怀.svg",
+      "src": "images/HSK_2.0/level6/关怀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/关怀.svg"
+      ]
+    },
+    "关照": {
+      "hanzi": "关照",
+      "pinyin": "guānzhào",
+      "meaning": "chăm sóc, để mắt",
+      "example_zh": "请多多<u>关照</u>我的孩子。",
+      "example_vi": "Xin hãy <u>chăm sóc</u> giúp con tôi nhiều hơn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "关照.svg",
+      "src": "images/HSK_2.0/level6/关照.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/关照.svg",
+        "images/HSK_3.0/level8/关照.svg",
+        "images/HSK_3.0/level9/关照.svg"
       ]
     },
     "过于": {

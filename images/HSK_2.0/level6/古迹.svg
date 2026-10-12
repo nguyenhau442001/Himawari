@@ -1,0 +1,113 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for gradients and shadows -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="warmGlow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="240" height="240" rx="24" fill="url(#skyGrad)"/>
+  
+  <!-- Atmospheric Glow behind ruins -->
+  <circle cx="120" cy="140" r="90" fill="url(#warmGlow)"/>
+
+  <!-- Background Ancient Pagoda / Monument -->
+  <g id="pagoda" opacity="0.6">
+    <path d="M100 110 L140 110 L145 135 L95 135 Z" fill="#475569"/>
+    <path d="M90 135 L150 135 L155 160 L85 160 Z" fill="#475569"/>
+    <!-- Pagoda roofs -->
+    <path d="M90 110 Q120 102 150 110 L155 115 Q120 108 85 115 Z" fill="#f59e0b"/>
+    <path d="M80 135 Q120 127 160 135 L165 140 Q120 133 75 140 Z" fill="#f59e0b"/>
+  </g>
+
+  <!-- Foreground Ancient Arch / Gate Ruins (Historic Relic 1) -->
+  <g id="ruin-arch">
+    <!-- Left Pillar -->
+    <rect x="45" y="100" width="16" height="85" rx="3" fill="url(#stoneGrad)"/>
+    <rect x="42" y="95" width="22" height="8" rx="2" fill="#94a3b8"/>
+    <!-- Right Pillar -->
+    <rect x="179" y="100" width="16" height="85" rx="3" fill="url(#stoneGrad)"/>
+    <rect x="176" y="95" width="22" height="8" rx="2" fill="#94a3b8"/>
+    <!-- Broken Crossbeam / Arch top -->
+    <path d="M40 95 L120 80 L200 95 L195 88 L120 73 L45 88 Z" fill="#64748b"/>
+    <!-- Ivy / Foliage on Ruins -->
+    <path d="M45 115 Q52 120 48 130 Q55 140 45 150" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="48" cy="125" r="4" fill="#34d399"/>
+    <circle cx="45" cy="140" r="5" fill="#34d399"/>
+  </g>
+
+  <!-- Broken Stone Tablet / Stele (Historic Relic 2) -->
+  <g id="stone-tablet">
+    <path d="M75 160 L105 155 L108 195 L72 200 Z" fill="#64748b"/>
+    <!-- Crack on tablet -->
+    <path d="M90 157 L85 175 L95 185 L90 198" fill="none" stroke="#334155" stroke-width="2"/>
+    <!-- Mysterious ancient carvings (abstract lines, no real text) -->
+    <line x1="80" y1="168" x2="88" y2="167" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="82" y1="178" x2="92" y2="176" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="81" y1="188" x2="89" y2="186" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground Terrain -->
+  <path d="M0 185 Q60 175 120 185 Q180 195 240 185 L240 240 L0 240 Z" fill="#0f172a"/>
+  <path d="M0 190 Q90 180 240 195 L240 240 L0 240 Z" fill="#1e293b"/>
+
+  <!-- Traveling Tourists / Observers (Characters interacting with the scene) -->
+  <g id="characters">
+    <!-- Character 1 (Tourist pointing at ruins) -->
+    <g transform="translate(135, 145)">
+      <!-- Body / Jacket -->
+      <path d="M10 25 L22 25 L26 50 L6 50 Z" fill="#38bdf8"/>
+      <!-- Head -->
+      <circle cx="16" cy="15" r="7" fill="#fed7aa"/>
+      <!-- Hair -->
+      <path d="M9 14 Q16 7 23 14 Q20 9 16 9 Q12 9 9 14 Z" fill="#334155"/>
+      <!-- Arm pointing -->
+      <path d="M22 28 L35 22" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="11" y1="50" x2="11" y2="68" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+      <line x1="21" y1="50" x2="21" y2="68" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+      <!-- Camera strap -->
+      <path d="M10 25 L20 40" stroke="#f59e0b" stroke-width="2"/>
+    </g>
+
+    <!-- Character 2 (Tourist taking photo with phone) -->
+    <g transform="translate(95, 150)">
+      <!-- Body / Sweater -->
+      <path d="M8 22 L20 22 L24 48 L4 48 Z" fill="#ec4899"/>
+      <!-- Head -->
+      <circle cx="14" cy="13" r="7" fill="#fed7aa"/>
+      <!-- Hair/Hat -->
+      <circle cx="14" cy="10" r="7" fill="#fde047"/>
+      <!-- Arms holding phone -->
+      <path d="M18 26 L26 28" stroke="#fed7aa" stroke-width="4" stroke-linecap="round"/>
+      <!-- Tiny phone screen glow -->
+      <rect x="25" y="25" width="5" height="7" rx="1" fill="#38bdf8"/>
+      <!-- Legs -->
+      <line x1="9" y1="48" x2="9" y2="63" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+      <line x1="18" y1="48" x2="18" y2="63" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Atmospheric Lighting Elements / Fireflies / Dust particles -->
+  <circle cx="70" cy="120" r="2" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="160" cy="105" r="1.5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="130" cy="85" r="2" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="105" cy="130" r="1" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="185" cy="150" r="2.5" fill="#fbbf24" opacity="0.5"/>
+
+</svg>
