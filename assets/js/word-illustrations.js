@@ -19777,10 +19777,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/牲畜.svg",
     "caption": "gia súc"
   },
+  "声明": {
+    "file": "声明.svg",
+    "src": "images/HSK_2.0/level6/声明.svg",
+    "caption": "tuyên bố, thông cáo"
+  },
+  "声势": {
+    "file": "声势.svg",
+    "src": "images/HSK_2.0/level6/声势.svg",
+    "caption": "thanh thế, khí thế"
+  },
+  "声誉": {
+    "file": "声誉.svg",
+    "src": "images/HSK_2.0/level6/声誉.svg",
+    "caption": "danh tiếng, thanh danh"
+  },
   "省会": {
     "file": "省会.svg",
     "src": "images/HSK_2.0/level6/省会.svg",
     "caption": "tỉnh lị, thủ phủ tỉnh"
+  },
+  "盛产": {
+    "file": "盛产.svg",
+    "src": "images/HSK_2.0/level6/盛产.svg",
+    "caption": "sản xuất nhiều, nổi tiếng về"
+  },
+  "盛开": {
+    "file": "盛开.svg",
+    "src": "images/HSK_2.0/level6/盛开.svg",
+    "caption": "nở rộ"
   },
   "失误": {
     "file": "失误.svg",

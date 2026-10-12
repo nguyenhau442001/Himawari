@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:09:30.962278",
-  "total_unique_words_with_illustrations": 4538,
-  "total_flat_svg_files": 4538,
+  "generated_at": "2026-10-12T23:10:04.393633",
+  "total_unique_words_with_illustrations": 4543,
+  "total_flat_svg_files": 4543,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1898,
-        "pct": "75.9%"
+        "with_svg": 1903,
+        "pct": "76.1%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 950,
-        "pct": "17.0%"
+        "with_svg": 955,
+        "pct": "17.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 950,
-        "pct": "17.0%"
+        "with_svg": 955,
+        "pct": "17.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 950,
-        "pct": "17.0%"
+        "with_svg": 955,
+        "pct": "17.1%"
       }
     }
   },
@@ -74262,6 +74262,72 @@
         "images/HSK_3.0/level9/牲畜.svg"
       ]
     },
+    "声明": {
+      "hanzi": "声明",
+      "pinyin": "shēngmíng",
+      "meaning": "tuyên bố, thông cáo",
+      "example_zh": "公司发表了一份<u>声明</u>。",
+      "example_vi": "Công ty đã đưa ra một <u>tuyên bố</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "声明.svg",
+      "src": "images/HSK_2.0/level6/声明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/声明.svg",
+        "images/HSK_3.0/level8/声明.svg",
+        "images/HSK_3.0/level9/声明.svg"
+      ]
+    },
+    "声势": {
+      "hanzi": "声势",
+      "pinyin": "shēngshì",
+      "meaning": "thanh thế, khí thế",
+      "example_zh": "这次活动的<u>声势</u>很大。",
+      "example_vi": "<u>Khí thế</u> của hoạt động lần này rất lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "声势.svg",
+      "src": "images/HSK_2.0/level6/声势.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/声势.svg",
+        "images/HSK_3.0/level8/声势.svg",
+        "images/HSK_3.0/level9/声势.svg"
+      ]
+    },
+    "声誉": {
+      "hanzi": "声誉",
+      "pinyin": "shēngyù",
+      "meaning": "danh tiếng, thanh danh",
+      "example_zh": "这家公司有很好的<u>声誉</u>。",
+      "example_vi": "Công ty này có <u>danh tiếng</u> rất tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "声誉.svg",
+      "src": "images/HSK_2.0/level6/声誉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/声誉.svg",
+        "images/HSK_3.0/level8/声誉.svg",
+        "images/HSK_3.0/level9/声誉.svg"
+      ]
+    },
     "省会": {
       "hanzi": "省会",
       "pinyin": "shěnghuì",
@@ -74278,6 +74344,50 @@
       "src": "images/HSK_2.0/level6/省会.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/省会.svg"
+      ]
+    },
+    "盛产": {
+      "hanzi": "盛产",
+      "pinyin": "shèngchǎn",
+      "meaning": "sản xuất nhiều, nổi tiếng về",
+      "example_zh": "这个地方<u>盛产</u>水果。",
+      "example_vi": "Nơi này <u>sản xuất nhiều</u> trái cây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盛产.svg",
+      "src": "images/HSK_2.0/level6/盛产.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盛产.svg",
+        "images/HSK_3.0/level8/盛产.svg",
+        "images/HSK_3.0/level9/盛产.svg"
+      ]
+    },
+    "盛开": {
+      "hanzi": "盛开",
+      "pinyin": "shèngkāi",
+      "meaning": "nở rộ",
+      "example_zh": "公园里的花儿都<u>盛开</u>了。",
+      "example_vi": "Hoa trong công viên đều đã <u>nở rộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盛开.svg",
+      "src": "images/HSK_2.0/level6/盛开.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盛开.svg",
+        "images/HSK_3.0/level8/盛开.svg",
+        "images/HSK_3.0/level9/盛开.svg"
       ]
     },
     "失误": {

@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/accent representing official broadcast/statement -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+  
+  <!-- Decorative Sound Waves / Announcement Rays (Gold Accent) -->
+  <path d="M 68 88 Q 58 120 68 152" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 52 74 Q 38 120 52 166" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" opacity="0.2"/>
+  <path d="M 172 88 Q 182 120 172 152" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 188 74 Q 202 120 188 166" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Official Document Base (The "Statement" / Thông cáo) -->
+  <g transform="translate(75, 45)">
+    <!-- Document background shadow -->
+    <rect x="4" y="4" width="82" height="112" rx="6" fill="#0E1015" opacity="0.5"/>
+    <!-- Document body -->
+    <rect x="0" y="0" width="82" height="112" rx="6" fill="#FFFFFF"/>
+    
+    <!-- Document Header Seal/Badge (Gold) -->
+    <circle cx="41" cy="24" r="10" fill="#F5A623"/>
+    <circle cx="41" cy="24" r="6" fill="#FFFFFF" opacity="0.3"/>
+    
+    <!-- Text Lines Representation (Clean flat design) -->
+    <rect x="16" y="44" width="50" height="4" rx="2" fill="#252A34"/>
+    <rect x="16" y="56" width="50" height="4" rx="2" fill="#252A34" opacity="0.6"/>
+    <rect x="16" y="68" width="38" height="4" rx="2" fill="#252A34" opacity="0.6"/>
+    
+    <!-- Official Stamp / Signature block -->
+    <circle cx="58" cy="92" r="10" fill="#E74C3C" opacity="0.85"/>
+    <rect x="16" y="88" width="28" height="4" rx="2" fill="#252A34" opacity="0.4"/>
+    <rect x="16" y="98" width="20" height="4" rx="2" fill="#252A34" opacity="0.4"/>
+  </g>
+
+  <!-- Megaphone / Speaker overlay (Representing the spoken declaration "Shēng") -->
+  <g transform="translate(55, 95)">
+    <!-- Speaker handle -->
+    <path d="M 32 46 L 24 72 C 23 75, 25 78, 29 78 L 39 78 C 43 78, 45 75, 44 72 L 36 46 Z" fill="#3A4454"/>
+    
+    <!-- Speaker body cone -->
+    <path d="M 32 20 L 72 8 C 77 6, 82 10, 82 15 L 82 55 C 82 60, 77 64, 72 62 L 32 50 Z" fill="#F5A623"/>
+    
+    <!-- Speaker rim (darker contrast) -->
+    <path d="M 32 16 C 29 16, 27 18, 27 21 L 27 49 C 27 52, 29 54, 32 54 C 35 54, 37 52, 37 49 L 37 21 C 37 18, 35 16, 32 16 Z" fill="#D68910"/>
+    
+    <!-- Cone inner detail -->
+    <path d="M 55 16 L 70 21 L 70 49 L 55 54 Z" fill="#E67E22" opacity="0.4"/>
+  </g>
+</svg>
