@@ -1,0 +1,32 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/circle for focus -->
+  <circle cx="120" cy="115" r="70" fill="#222733"/>
+
+  <!-- Water Faucet (水龙头) Illustration -->
+  <g transform="translate(0, 5)">
+    <!-- Wall mount / Base plate -->
+    <path d="M95 70 L145 70 L145 85 L95 85 Z" fill="#4A5568" rx="4"/>
+    <path d="M112 85 L128 85 L128 100 L112 100 Z" fill="#718096"/>
+
+    <!-- Faucet Body / Main Pipe -->
+    <path d="M112 95 L140 95 C155 95, 168 108, 168 123 L168 135 L152 135 L152 123 C152 116, 147 111, 140 111 L112 111 Z" fill="#A0AEC0"/>
+    <path d="M112 95 L140 95 C155 95, 168 108, 168 123 L168 135 L152 135 L152 123 C152 116, 147 111, 140 111 L112 111 Z" fill="url(#metal-grad)" opacity="0.3"/>
+
+    <!-- Faucet Handle (Top) -->
+    <path d="M90 60 L150 60 C155 60, 158 55, 153 50 L145 42 L95 42 L87 50 C82 55, 85 60, 90 60 Z" fill="#E2E8F0"/>
+    <!-- Handle Accent (Gold/Orange focus) -->
+    <rect x="112" y="48" width="16" height="6" rx="2" fill="#F6AD55"/>
+
+    <!-- Spout / Nozzle -->
+    <path d="M152 135 L168 135 L165 145 L155 145 Z" fill="#718096"/>
+
+    <!-- Water Drops (Visualizing "Turn off the faucet" / water context) -->
+    <!-- Drop 1 -->
+    <path d="M160 158 C160 158, 155 165, 155 169 C155 172, 157.2 174, 160 174 C162.8 174, 165 172, 165 169 C165 165, 160 158, 160 158 Z" fill="#4FD1C5" opacity="0.9"/>
+    <!-- Drop 2 (falling lower) -->
+    <path d="M160 186 C160 186, 157 190, 157 193 C157 195, 158.3 196, 160 196 C161.7 196, 163 195, 163 193 C163 190, 160 186, 160 186 Z" fill="#4FD1C5" opacity="0.5"/>
+  </g>
+</svg>

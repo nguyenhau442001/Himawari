@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual illustration for "斯文" (Nho nhã, lịch sự - represented by elegant scholar/gentleman elements: glasses and an open book/collar) -->
+  <g transform="translate(0, 5)">
+    <!-- Suit collar / Refined gentleman attire base -->
+    <path d="M 85 145 L 120 170 L 155 145 L 155 130 L 135 130 L 120 145 L 105 130 L 85 130 Z" fill="#3A4454"/>
+    
+    <!-- Inner shirt -->
+    <path d="M 105 130 L 120 145 L 135 130 L 120 115 Z" fill="#E2E8F0"/>
+    
+    <!-- Elegant Tie -->
+    <polygon points="116,135 124,135 127,165 120,175 113,165" fill="#F59E0B"/>
+
+    <!-- Classic Scholarly Glasses (Symbolizing refinement, culture, "sīwen") -->
+    <!-- Left Lens -->
+    <rect x="73" y="90" width="38" height="26" rx="6" fill="none" stroke="#F59E0B" stroke-width="4"/>
+    <rect x="76" y="93" width="32" height="20" rx="4" fill="#38BDF8" fill-opacity="0.15"/>
+
+    <!-- Right Lens -->
+    <rect x="129" y="90" width="38" height="26" rx="6" fill="none" stroke="#F59E0B" stroke-width="4"/>
+    <rect x="132" y="93" width="32" height="20" rx="4" fill="#38BDF8" fill-opacity="0.15"/>
+
+    <!-- Bridge -->
+    <path d="M 111 96 C 115 93 125 93 129 96" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Temples (Sides) -->
+    <path d="M 73 95 L 60 90" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 167 95 L 180 90" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating accent sparkles indicating gentle refinement/intelligence -->
+  <g fill="#F59E0B">
+    <path d="M 60 70 Q 65 70 65 65 Q 65 70 70 70 Q 65 70 65 75 Q 65 70 60 70 Z" opacity="0.8"/>
+    <path d="M 175 130 Q 179 130 179 126 Q 179 130 183 130 Q 179 130 179 134 Q 179 130 175 130 Z" opacity="0.6"/>
+  </g>
+</svg>

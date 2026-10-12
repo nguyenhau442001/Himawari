@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/connection line representing twin bond -->
+  <path d="M70 140 C100 110, 140 110, 170 140" fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6"/>
+  
+  <!-- Left Twin -->
+  <g transform="translate(45, 60)">
+    <!-- Body/Outfit -->
+    <path d="M25 110 C15 110, 5 125, 5 140 L45 140 C45 125, 35 110, 25 110 Z" fill="#F6AD55"/>
+    <!-- Head -->
+    <circle cx="25" cy="75" r="22" fill="#E2E8F0"/>
+    <!-- Hair - Distinct shape 1 -->
+    <path d="M5 72 C5 50, 45 50, 45 72 C40 60, 10 60, 5 72 Z" fill="#4A5568"/>
+    <!-- Face details (modern flat minimalist) -->
+    <circle cx="18" cy="75" r="2.5" fill="#1A1D24"/>
+    <circle cx="32" cy="75" r="2.5" fill="#1A1D24"/>
+    <path d="M23 83 Q25 86 27 83" fill="none" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="15" cy="80" r="3" fill="#FEB2B2" opacity="0.6"/>
+    <circle cx="35" cy="80" r="3" fill="#FEB2B2" opacity="0.6"/>
+  </g>
+
+  <!-- Right Twin -->
+  <g transform="translate(145, 60)">
+    <!-- Body/Outfit (matching accent color scheme) -->
+    <path d="M25 110 C15 110, 5 125, 5 140 L45 140 C45 125, 35 110, 25 110 Z" fill="#ED8936"/>
+    <!-- Head -->
+    <circle cx="25" cy="75" r="22" fill="#E2E8F0"/>
+    <!-- Hair - Distinct shape 2 (symmetric/mirror aesthetic) -->
+    <path d="M5 72 C5 50, 45 50, 45 72 C40 60, 10 60, 5 72 Z" fill="#4A5568"/>
+    <!-- Face details -->
+    <circle cx="18" cy="75" r="2.5" fill="#1A1D24"/>
+    <circle cx="32" cy="75" r="2.5" fill="#1A1D24"/>
+    <path d="M23 83 Q25 86 27 83" fill="none" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="15" cy="80" r="3" fill="#FEB2B2" opacity="0.6"/>
+    <circle cx="35" cy="80" r="3" fill="#FEB2B2" opacity="0.6"/>
+  </g>
+
+  <!-- Central Focus Element (Golden glowing bond heart/star above) -->
+  <path d="M120 52 C120 52, 110 38, 98 42 C88 45, 88 58, 98 68 L120 88 L142 68 C152 58, 152 45, 142 42 C130 38, 120 52, 120 52 Z" fill="#ECC94B" transform="scale(0.6) translate(80, 10)" opacity="0.9"/>
+</svg>

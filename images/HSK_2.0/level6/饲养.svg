@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (Subtle farm/home fence outline) -->
+  <path d="M40 180H200" stroke="#2A2F3B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M70 180V140M120 180V130M170 180V140" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M60 155H180" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="120" cy="180" rx="55" ry="8" fill="#111318"/>
+
+  <!-- Wooden Feed Trough (Container for 'sìyǎng' - feeding/raising) -->
+  <path d="M90 160L100 180H140L150 160H90Z" fill="#8C5830"/>
+  <path d="M85 155H155V162H85V155Z" fill="#A76B3D" rx="1"/>
+  <!-- Feed inside trough -->
+  <path d="M95 158H145C145 158 140 162 120 162C100 162 95 158 95 158Z" fill="#E5A93B"/>
+
+  <!-- Cute Stylized Chicken 1 (Left - Pecking) -->
+  <g transform="translate(75, 125)">
+    <!-- Body -->
+    <ellipse cx="20" cy="25" rx="16" ry="13" fill="#E65F2B"/>
+    <!-- Head -->
+    <circle cx="32" cy="13" r="10" fill="#E65F2B"/>
+    <!-- Wing -->
+    <path d="M12 25C12 25 18 32 24 26C24 26 18 20 12 25Z" fill="#C84A1A"/>
+    <!-- Beak -->
+    <polygon points="40,11 47,13 40,16" fill="#F4D03F"/>
+    <!-- Comb -->
+    <path d="M30 4C30 2 32 1 33 3C34 1 36 2 36 4" fill="#E74C3C"/>
+    <!-- Eye -->
+    <circle cx="35" cy="11" r="1.5" fill="#1A1D24"/>
+    <!-- Legs -->
+    <path d="M16 38V48M24 38V48" stroke="#F4D03F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Cute Stylized Chicken 2 (Right - Standing/Looking Proud) -->
+  <g transform="translate(130, 110)">
+    <!-- Body -->
+    <ellipse cx="20" cy="30" rx="18" ry="15" fill="#F1C40F"/>
+    <!-- Head -->
+    <circle cx="22" cy="14" r="11" fill="#F1C40F"/>
+    <!-- Wing -->
+    <path d="M10 30C10 30 18 38 25 31C25 31 16 22 10 30Z" fill="#D4AC0D"/>
+    <!-- Beak -->
+    <polygon points="31,12 39,14 31,17" fill="#E67E22"/>
+    <!-- Comb -->
+    <path d="M19 4C19 2 21 1 22 3C23 1 25 2 25 4" fill="#E74C3C"/>
+    <!-- Eye -->
+    <circle cx="25" cy="12" r="1.5" fill="#1A1D24"/>
+    <!-- Legs -->
+    <path d="M14 45V55M26 45V55" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Small Grain/Feed Elements Floating (Highlighting care/feeding action) -->
+  <circle cx="105" cy="100" r="3" fill="#F4D03F"/>
+  <circle cx="135" cy="90" r="2.5" fill="#F4D03F"/>
+  <circle cx="120" cy="80" r="3.5" fill="#F4D03F"/>
+  <path d="M117 75L120 70L123 75Z" fill="#E5A93B"/>
+
+  <!-- Modern Accent Glow/Frame Indicator -->
+  <circle cx="120" cy="120" r="95" fill="none" stroke="#E5A93B" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="8 6"/>
+</svg>

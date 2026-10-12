@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Motion lines representing the upward shrug -->
+    <path d="M 75 75 L 75 60" stroke="#4A5568" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 3"/>
+    <path d="M 165 75 L 165 60" stroke="#4A5568" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 3"/>
+    
+    <path d="M 68 82 L 58 70" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 172 82 L 182 70" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Head and Face (neutral/helpless expression) -->
+    <circle cx="120" cy="85" r="28" fill="#2D3748"/>
+    <!-- Closed neutral mouth / slight frown -->
+    <path d="M 112 97 Q 120 94 128 97" stroke="#A0AEC0" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Eyes closed in resignation -->
+    <path d="M 107 80 L 115 83" stroke="#A0AEC0" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 125 83 L 133 80" stroke="#A0AEC0" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Body/Torso with hunched shoulders -->
+    <path d="M 85 113 Q 120 120 155 113 L 168 185 Q 120 195 72 185 Z" fill="#2D3748"/>
+    
+    <!-- Inner collar/shirt -->
+    <path d="M 105 113 L 120 135 L 135 113 Z" fill="#1A1D24"/>
+
+    <!-- Shrugged Shoulders (Elevated - highlighted in accent orange/gold) -->
+    <!-- Left Shoulder -->
+    <path d="M 85 113 C 65 113 58 85 75 80 C 85 77 95 90 102 105 Z" fill="#F59E0B"/>
+    
+    <!-- Right Shoulder -->
+    <path d="M 155 113 C 175 113 182 85 165 80 C 155 77 145 90 138 105 Z" fill="#F59E0B"/>
+  </g>
+</svg>

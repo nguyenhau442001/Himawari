@@ -1,0 +1,85 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Ambient Glow (representing distance/connection) -->
+  <circle cx="120" cy="110" r="70" fill="#242B38" opacity="0.6"/>
+
+  <!-- Holographic / Remote Projection Window (representing "far away parents" / 远方) -->
+  <g transform="translate(120, 52)">
+    <!-- Outer connection ring -->
+    <ellipse cx="0" cy="0" rx="42" ry="16" fill="none" stroke="#3A4454" stroke-width="1.5" stroke-dasharray="4 3"/>
+    
+    <!-- Parent silhouette representations inside the remote projection -->
+    <!-- Father -->
+    <circle cx="-12" cy="-6" r="6" fill="#6C7A9C"/>
+    <path d="M-22,10 C-22,2 -18,2 -12,2 C-6,2 -2,2 -2,10" fill="#6C7A9C"/>
+    <!-- Mother -->
+    <circle cx="12" cy="-6" r="6" fill="#6C7A9C"/>
+    <path d="M2,10 C2,2 6,2 12,2 C18,2 22,2 22,10" fill="#6C7A9C"/>
+
+    <!-- Light beam projecting down toward the main character -->
+    <path d="M-30,14 L-55,100 L55,100 L30,14 Z" fill="url(#beamGradient)" opacity="0.15"/>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="beamGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4FD1C5"/>
+      <stop offset="100%" stop-color="#1A1D24"/>
+    </linearGradient>
+    <linearGradient id="heartGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF758C"/>
+      <stop offset="100%" stop-color="#FF7EB3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dynamic Flow / Motion Lines representing "Longing / 思念" action -->
+  <g stroke="#F6AD55" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M 120,78 C 120,95 100,105 100,120" stroke-dasharray="3 3">
+      <animate attributeName="stroke-dashoffset" values="12;0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 120,78 C 120,95 140,105 140,120" stroke-dasharray="3 3">
+      <animate attributeName="stroke-dashoffset" values="12;0" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Floating Glowing Heart (Core Action / Emotion focus in Gold/Orange accent) -->
+  <g transform="translate(120, 115) scale(0.9)">
+    <path d="M0,-8 C-5,-16 -16,-14 -16,-4 C-16,6 0,14 0,16 C0,14 16,6 16,-4 C16,-14 5,-16 0,-8 Z" fill="#F6AD55">
+      <animate attributeName="transform" type="scale" values="0.9;1.1;0.9" dur="1.8s" repeatCount="indefinite" additive="sum"/>
+    </path>
+    <!-- Outer pulse ring -->
+    <path d="M0,-8 C-5,-16 -16,-14 -16,-4 C-16,6 0,14 0,16 C0,14 16,6 16,-4 C16,-14 5,-16 0,-8 Z" fill="none" stroke="#ED8936" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="transform" type="scale" values="1;1.6" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Main Human Character (Verb/Action: Reaching up toward the memory/parents) -->
+  <g transform="translate(120, 175)">
+    <!-- Character Body / Torso -->
+    <path d="M-18,35 C-18,15 -10,10 0,10 C10,10 18,15 18,35 Z" fill="#4A5568"/>
+
+    <!-- Head -->
+    <circle cx="0" cy="-2" r="11" fill="#CBD5E0"/>
+
+    <!-- Hair -->
+    <path d="M-11,-5 C-11,-12 -5,-14 0,-14 C6,-14 11,-12 11,-5 C8,-8 -8,-8 -11,-5 Z" fill="#2D3748"/>
+
+    <!-- Dynamic Reaching Arms (Action of yearning/missing) -->
+    <!-- Left arm reaching up -->
+    <path d="M-14,18 C-25,10 -30,0 -35,-12" fill="none" stroke="#4A5568" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-35" cy="-12" r="3.5" fill="#CBD5E0"/>
+
+    <!-- Right arm reaching up (towards heart) -->
+    <path d="M14,18 C22,10 24,0 20,-10" fill="none" stroke="#4A5568" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="20" cy="-10" r="3.5" fill="#CBD5E0"/>
+  </g>
+
+  <!-- Ambient Particles / Sparkles for emotional depth -->
+  <circle cx="75" cy="100" r="1.5" fill="#F6AD55" opacity="0.6"/>
+  <circle cx="165" cy="100" r="2" fill="#4FD1C5" opacity="0.6"/>
+  <circle cx="85" cy="145" r="1" fill="#F6AD55" opacity="0.8"/>
+  <circle cx="155" cy="145" r="1.5" fill="#F6AD55" opacity="0.4"/>
+</svg>

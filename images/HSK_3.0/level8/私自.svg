@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="120" r="70" fill="#2A2F3D" opacity="0.5"/>
+
+  <!-- Folder/Document (Company Asset) -->
+  <g transform="translate(65, 55)">
+    <!-- Folder Back -->
+    <path d="M10 15 H40 L55 35 H100 V115 H10 Z" fill="#3B4252"/>
+    <path d="M10 15 H40 L55 35 H100 V115 H10 Z" fill="#4C566A"/>
+    
+    <!-- Document inside -->
+    <rect x="25" y="45" width="60" height="75" rx="4" fill="#ECEFF4"/>
+    <rect x="37" y="60" width="36" height="6" rx="2" fill="#D8DEE9"/>
+    <rect x="37" y="74" width="24" height="6" rx="2" fill="#D8DEE9"/>
+    <rect x="37" y="88" width="30" height="6" rx="2" fill="#D8DEE9"/>
+
+    <!-- Folder Front Cover (Partially open) -->
+    <path d="M10 50 H100 V115 H10 Z" fill="#434C5E" opacity="0.9"/>
+  </g>
+
+  <!-- Unauthorized Action: Hand sneaking/taking the document secretly -->
+  <g transform="translate(10, 20)">
+    <!-- Dashed motion trail indicating unauthorized movement -->
+    <path d="M 50 120 Q 75 100 100 95" stroke="#EBCB8B" stroke-width="2.5" stroke-dasharray="4,4" fill="none" opacity="0.8"/>
+    
+    <!-- Sleeve -->
+    <path d="M0 160 L45 130 L60 145 L15 175 Z" fill="#5E81AC"/>
+    
+    <!-- Hand grasping the folder/document -->
+    <path d="M45 130 C 55 120, 65 110, 75 115 C 80 117, 82 122, 77 127 C 70 134, 60 140, 50 145 Z" fill="#ECEFF4"/>
+    <!-- Thumb -->
+    <path d="M55 133 C 62 130, 68 135, 66 140 C 64 142, 58 138, 55 133 Z" fill="#D8DEE9"/>
+  </g>
+
+  <!-- Accent Warning/Unauthorized Indicator (Subtle padlock/private symbol integrated neatly) -->
+  <circle cx="185" cy="65" r="18" fill="#BF616A"/>
+  <path d="M185 57 C 181.5 57 179 59.5 179 63 V 66 H 191 V 63 C 191 59.5 188.5 57 185 57 Z" fill="none" stroke="#ECEFF4" stroke-width="3" stroke-linecap="round"/>
+  <rect x="177" y="66" width="16" height="14" rx="3" fill="#ECEFF4"/>
+  <circle cx="185" cy="72" r="2" fill="#BF616A"/>
+</svg>

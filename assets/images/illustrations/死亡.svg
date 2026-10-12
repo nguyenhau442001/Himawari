@@ -1,0 +1,30 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow -->
+  <circle cx="120" cy="120" r="70" fill="#FF5722" opacity="0.08"/>
+  
+  <!-- Central Physical Object: Minimalist, sleek candle / flame motif representing life extinguished / memorial -->
+  <g transform="translate(0, 5)">
+    <!-- Candle Holder -->
+    <path d="M 95 165 L 145 165 L 140 180 L 100 180 Z" fill="#2D323F" />
+    <rect x="80" y="180" width="80" height="8" rx="4" fill="#3E4452" />
+    
+    <!-- Candle Body -->
+    <rect x="105" y="105" width="30" height="60" rx="4" fill="#E6EDF3" />
+    <rect x="110" y="115" width="20" height="40" fill="#CDD9E5" opacity="0.5"/>
+    
+    <!-- Wick -->
+    <line x1="120" y1="105" x2="120" y2="95" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Extinguished Smoke / Transition -->
+    <path d="M 120 90 C 120 75 110 70 110 55 C 110 45 125 40 120 25" fill="none" stroke="#626F84" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    
+    <!-- Faded / Floating Ember (Accent) -->
+    <circle cx="120" cy="20" r="3" fill="#FF5722" opacity="0.9"/>
+  </g>
+  
+  <!-- Contextual subtle framing elements -->
+  <circle cx="120" cy="120" r="88" fill="none" stroke="#2D323F" stroke-width="2" stroke-dasharray="6 6" opacity="0.5"/>
+</svg>

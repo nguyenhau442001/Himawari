@@ -20192,10 +20192,110 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/率领.svg",
     "caption": "dẫn đầu, chỉ huy"
   },
+  "涮火锅": {
+    "file": "涮火锅.svg",
+    "src": "images/HSK_2.0/level6/涮火锅.svg",
+    "caption": "ăn lẩu"
+  },
+  "双胞胎": {
+    "file": "双胞胎.svg",
+    "src": "images/HSK_2.0/level6/双胞胎.svg",
+    "caption": "cặp song sinh"
+  },
+  "爽快": {
+    "file": "爽快.svg",
+    "src": "images/HSK_2.0/level6/爽快.svg",
+    "caption": "sảng khoái, dứt khoát"
+  },
+  "水利": {
+    "file": "水利.svg",
+    "src": "images/HSK_2.0/level6/水利.svg",
+    "caption": "thủy lợi"
+  },
+  "水龙头": {
+    "file": "水龙头.svg",
+    "src": "images/HSK_2.0/level6/水龙头.svg",
+    "caption": "vòi nước"
+  },
+  "水泥": {
+    "file": "水泥.svg",
+    "src": "images/HSK_2.0/level6/水泥.svg",
+    "caption": "xi măng"
+  },
+  "瞬间": {
+    "file": "瞬间.svg",
+    "src": "images/HSK_2.0/level6/瞬间.svg",
+    "caption": "khoảnh khắc, trong tức khắc"
+  },
+  "司法": {
+    "file": "司法.svg",
+    "src": "images/HSK_2.0/level6/司法.svg",
+    "caption": "tư pháp"
+  },
+  "司令": {
+    "file": "司令.svg",
+    "src": "images/HSK_2.0/level6/司令.svg",
+    "caption": "tư lệnh"
+  },
+  "思念": {
+    "file": "思念.svg",
+    "src": "images/HSK_2.0/level6/思念.svg",
+    "caption": "nhớ nhung, tưởng nhớ"
+  },
+  "思索": {
+    "file": "思索.svg",
+    "src": "images/HSK_2.0/level6/思索.svg",
+    "caption": "suy nghĩ, suy ngẫm"
+  },
   "思维": {
     "file": "思维.svg",
     "src": "images/HSK_2.0/level6/思维.svg",
     "caption": "tư duy"
+  },
+  "私自": {
+    "file": "私自.svg",
+    "src": "images/HSK_2.0/level6/私自.svg",
+    "caption": "tự ý, riêng tư (không xin phép)"
+  },
+  "斯文": {
+    "file": "斯文.svg",
+    "src": "images/HSK_2.0/level6/斯文.svg",
+    "caption": "nho nhã, lịch sự"
+  },
+  "死亡": {
+    "file": "死亡.svg",
+    "src": "images/HSK_2.0/level6/死亡.svg",
+    "caption": "tử vong, chết"
+  },
+  "四肢": {
+    "file": "四肢.svg",
+    "src": "images/HSK_2.0/level6/四肢.svg",
+    "caption": "tứ chi"
+  },
+  "寺庙": {
+    "file": "寺庙.svg",
+    "src": "images/HSK_2.0/level6/寺庙.svg",
+    "caption": "chùa miếu"
+  },
+  "肆无忌惮": {
+    "file": "肆无忌惮.svg",
+    "src": "images/HSK_2.0/level6/肆无忌惮.svg",
+    "caption": "ngang ngược không kiêng dè"
+  },
+  "饲养": {
+    "file": "饲养.svg",
+    "src": "images/HSK_2.0/level6/饲养.svg",
+    "caption": "chăn nuôi"
+  },
+  "耸": {
+    "file": "耸.svg",
+    "src": "images/HSK_2.0/level6/耸.svg",
+    "caption": "nhún (vai), sừng sững"
+  },
+  "艘": {
+    "file": "艘.svg",
+    "src": "images/HSK_2.0/level6/艘.svg",
+    "caption": "(lượng từ) chiếc (tàu thuyền)"
   },
   "随意": {
     "file": "随意.svg",
