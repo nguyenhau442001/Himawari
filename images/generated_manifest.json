@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:53:03.230141",
-  "total_unique_words_with_illustrations": 3589,
-  "total_flat_svg_files": 3589,
+  "generated_at": "2026-10-12T11:54:48.506610",
+  "total_unique_words_with_illustrations": 3599,
+  "total_flat_svg_files": 3599,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 949,
-        "pct": "38.0%"
+        "with_svg": 959,
+        "pct": "38.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 352,
-        "pct": "19.6%"
+        "with_svg": 355,
+        "pct": "19.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 342,
-        "pct": "6.1%"
+        "with_svg": 349,
+        "pct": "6.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 342,
-        "pct": "6.1%"
+        "with_svg": 349,
+        "pct": "6.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 342,
-        "pct": "6.1%"
+        "with_svg": 349,
+        "pct": "6.2%"
       }
     }
   },
@@ -54026,6 +54026,50 @@
         "images/HSK_3.0/level6/灯笼.svg"
       ]
     },
+    "蹬": {
+      "hanzi": "蹬",
+      "pinyin": "dēng",
+      "meaning": "đạp (chân)",
+      "example_zh": "他用力<u>蹬</u>了一下自行车。",
+      "example_vi": "Anh ấy <u>đạp</u> mạnh xe đạp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "蹬.svg",
+      "src": "images/HSK_2.0/level6/蹬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/蹬.svg",
+        "images/HSK_3.0/level8/蹬.svg",
+        "images/HSK_3.0/level9/蹬.svg"
+      ]
+    },
+    "登陆": {
+      "hanzi": "登陆",
+      "pinyin": "dēnglù",
+      "meaning": "đổ bộ, lên bờ",
+      "example_zh": "台风将在明天<u>登陆</u>。",
+      "example_vi": "Bão sẽ <u>đổ bộ</u> vào ngày mai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "登陆.svg",
+      "src": "images/HSK_2.0/level6/登陆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/登陆.svg",
+        "images/HSK_3.0/level8/登陆.svg",
+        "images/HSK_3.0/level9/登陆.svg"
+      ]
+    },
     "登录": {
       "hanzi": "登录",
       "pinyin": "dēnglù",
@@ -54060,6 +54104,170 @@
       "src": "images/HSK_2.0/level6/等候.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/等候.svg"
+      ]
+    },
+    "等级": {
+      "hanzi": "等级",
+      "pinyin": "děngjí",
+      "meaning": "cấp bậc",
+      "example_zh": "产品分为不同的<u>等级</u>。",
+      "example_vi": "Sản phẩm được chia thành các <u>cấp bậc</u> khác nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "等级.svg",
+      "src": "images/HSK_2.0/level6/等级.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/等级.svg"
+      ]
+    },
+    "瞪": {
+      "hanzi": "瞪",
+      "pinyin": "dèng",
+      "meaning": "trừng (mắt)",
+      "example_zh": "他生气地<u>瞪</u>了我一眼。",
+      "example_vi": "Anh ấy tức giận <u>trừng mắt</u> nhìn tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "瞪.svg",
+      "src": "images/HSK_2.0/level6/瞪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/瞪.svg",
+        "images/HSK_3.0/level8/瞪.svg",
+        "images/HSK_3.0/level9/瞪.svg"
+      ]
+    },
+    "堤坝": {
+      "hanzi": "堤坝",
+      "pinyin": "dībà",
+      "meaning": "con đê, đập",
+      "example_zh": "洪水冲毁了<u>堤坝</u>。",
+      "example_vi": "Lũ lụt cuốn trôi <u>con đê</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "堤坝.svg",
+      "src": "images/HSK_2.0/level6/堤坝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/堤坝.svg",
+        "images/HSK_3.0/level8/堤坝.svg",
+        "images/HSK_3.0/level9/堤坝.svg"
+      ]
+    },
+    "敌视": {
+      "hanzi": "敌视",
+      "pinyin": "díshì",
+      "meaning": "thù địch, coi như kẻ thù",
+      "example_zh": "不要互相<u>敌视</u>。",
+      "example_vi": "Đừng <u>thù địch</u> lẫn nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敌视.svg",
+      "src": "images/HSK_2.0/level6/敌视.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/敌视.svg",
+        "images/HSK_3.0/level8/敌视.svg",
+        "images/HSK_3.0/level9/敌视.svg"
+      ]
+    },
+    "抵达": {
+      "hanzi": "抵达",
+      "pinyin": "dǐdá",
+      "meaning": "đến, tới",
+      "example_zh": "飞机已经<u>抵达</u>机场。",
+      "example_vi": "Máy bay đã <u>đến</u> sân bay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "抵达.svg",
+      "src": "images/HSK_2.0/level6/抵达.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/抵达.svg"
+      ]
+    },
+    "抵抗": {
+      "hanzi": "抵抗",
+      "pinyin": "dǐkàng",
+      "meaning": "chống lại, kháng cự",
+      "example_zh": "人民英勇<u>抵抗</u>侵略者。",
+      "example_vi": "Người dân anh dũng <u>chống lại</u> quân xâm lược.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "抵抗.svg",
+      "src": "images/HSK_2.0/level6/抵抗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/抵抗.svg"
+      ]
+    },
+    "抵制": {
+      "hanzi": "抵制",
+      "pinyin": "dǐzhì",
+      "meaning": "tẩy chay, kháng cự",
+      "example_zh": "消费者<u>抵制</u>这种产品。",
+      "example_vi": "Người tiêu dùng <u>tẩy chay</u> loại sản phẩm này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抵制.svg",
+      "src": "images/HSK_2.0/level6/抵制.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/抵制.svg",
+        "images/HSK_3.0/level8/抵制.svg",
+        "images/HSK_3.0/level9/抵制.svg"
+      ]
+    },
+    "地步": {
+      "hanzi": "地步",
+      "pinyin": "dìbù",
+      "meaning": "mức độ, tình trạng",
+      "example_zh": "事情发展到这种<u>地步</u>。",
+      "example_vi": "Việc đã phát triển đến <u>mức</u> này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "地步.svg",
+      "src": "images/HSK_2.0/level6/地步.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/地步.svg",
+        "images/HSK_3.0/level8/地步.svg",
+        "images/HSK_3.0/level9/地步.svg"
       ]
     },
     "定期": {

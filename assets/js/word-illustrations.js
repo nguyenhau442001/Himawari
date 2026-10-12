@@ -14767,6 +14767,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/灯笼.svg",
     "caption": "đèn lồng"
   },
+  "蹬": {
+    "file": "蹬.svg",
+    "src": "images/HSK_2.0/level6/蹬.svg",
+    "caption": "đạp (chân)"
+  },
+  "登陆": {
+    "file": "登陆.svg",
+    "src": "images/HSK_2.0/level6/登陆.svg",
+    "caption": "đổ bộ, lên bờ"
+  },
   "登录": {
     "file": "登录.svg",
     "src": "images/HSK_2.0/level6/登录.svg",
@@ -14776,6 +14786,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "等候.svg",
     "src": "images/HSK_2.0/level6/等候.svg",
     "caption": "chờ đợi"
+  },
+  "等级": {
+    "file": "等级.svg",
+    "src": "images/HSK_2.0/level6/等级.svg",
+    "caption": "cấp bậc"
+  },
+  "瞪": {
+    "file": "瞪.svg",
+    "src": "images/HSK_2.0/level6/瞪.svg",
+    "caption": "trừng (mắt)"
+  },
+  "堤坝": {
+    "file": "堤坝.svg",
+    "src": "images/HSK_2.0/level6/堤坝.svg",
+    "caption": "con đê, đập"
+  },
+  "敌视": {
+    "file": "敌视.svg",
+    "src": "images/HSK_2.0/level6/敌视.svg",
+    "caption": "thù địch, coi như kẻ thù"
+  },
+  "抵达": {
+    "file": "抵达.svg",
+    "src": "images/HSK_2.0/level6/抵达.svg",
+    "caption": "đến, tới"
+  },
+  "抵抗": {
+    "file": "抵抗.svg",
+    "src": "images/HSK_2.0/level6/抵抗.svg",
+    "caption": "chống lại, kháng cự"
+  },
+  "抵制": {
+    "file": "抵制.svg",
+    "src": "images/HSK_2.0/level6/抵制.svg",
+    "caption": "tẩy chay, kháng cự"
+  },
+  "地步": {
+    "file": "地步.svg",
+    "src": "images/HSK_2.0/level6/地步.svg",
+    "caption": "mức độ, tình trạng"
   },
   "定期": {
     "file": "定期.svg",
