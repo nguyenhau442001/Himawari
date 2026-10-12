@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/platform effect -->
+  <ellipse cx="120" cy="180" rx="60" ry="16" fill="#252A34"/>
+  <ellipse cx="120" cy="180" rx="35" ry="8" fill="#303746"/>
+
+  <!-- Radiating light rays representing talent/skills unfolding (phát huy) -->
+  <g opacity="0.15" stroke="#FFB703" stroke-width="2" stroke-linecap="round">
+    <line x1="120" y1="120" x2="120" y2="50" />
+    <line x1="120" y1="120" x2="70" y2="70" />
+    <line x1="120" y1="120" x2="50" y2="120" />
+    <line x1="120" y1="120" x2="70" y2="170" />
+    <line x1="120" y1="120" x2="170" y2="170" />
+    <line x1="120" y1="120" x2="190" y2="120" />
+    <line x1="120" y1="120" x2="170" y2="70" />
+  </g>
+
+  <!-- Central Character / Figure manifesting capability (thi triển tài năng) -->
+  <g>
+    <!-- Head -->
+    <circle cx="120" cy="85" r="14" fill="#E0E6ED"/>
+    <!-- Body / Torso -->
+    <path d="M98 145 C98 120 105 110 120 110 C135 110 142 120 142 145 Z" fill="#3A86FF"/>
+    <!-- Dynamic Arms (Outstretched/Showing capability) -->
+    <path d="M108 125 L75 105" stroke="#E0E6ED" stroke-width="7" stroke-linecap="round"/>
+    <path d="M132 125 L165 105" stroke="#E0E6ED" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Mastery / Achievement Elements (Sparkles & Gear/Energy) -->
+  <g fill="#FFB703">
+    <!-- Star top-left -->
+    <path d="M 75 60 L 77.5 68 L 85 70.5 L 77.5 73 L 75 81 L 72.5 73 L 65 70.5 L 72.5 68 Z"/>
+    <!-- Star top-right -->
+    <path d="M 165 65 L 167 71 L 173 73 L 167 75 L 165 81 L 163 75 L 157 73 L 163 71 Z" transform="scale(0.8) translate(40, 10)"/>
+    <!-- Glowing Orbs / Energy nodes -->
+    <circle cx="65" cy="110" r="4" fill="#FF006E"/>
+    <circle cx="175" cy="110" r="4" fill="#3A86FF"/>
+    <circle cx="95" cy="55" r="3" fill="#FFB703"/>
+    <circle cx="145" cy="55" r="3" fill="#4CC9F0"/>
+  </g>
+
+  <!-- Dynamic focal stage arc -->
+  <path d="M 80 165 Q 120 180 160 165" fill="none" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 95 172 Q 120 183 145 172" fill="none" stroke="#4CC9F0" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>

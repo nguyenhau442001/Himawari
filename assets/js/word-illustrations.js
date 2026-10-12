@@ -19837,6 +19837,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/失踪.svg",
     "caption": "mất tích"
   },
+  "师范": {
+    "file": "师范.svg",
+    "src": "images/HSK_2.0/level6/师范.svg",
+    "caption": "sư phạm"
+  },
+  "施加": {
+    "file": "施加.svg",
+    "src": "images/HSK_2.0/level6/施加.svg",
+    "caption": "gây ra, áp đặt (áp lực)"
+  },
+  "施展": {
+    "file": "施展.svg",
+    "src": "images/HSK_2.0/level6/施展.svg",
+    "caption": "phát huy, thi triển (tài năng)"
+  },
+  "尸体": {
+    "file": "尸体.svg",
+    "src": "images/HSK_2.0/level6/尸体.svg",
+    "caption": "xác chết, tử thi"
+  },
+  "拾": {
+    "file": "拾.svg",
+    "src": "images/HSK_2.0/level6/拾.svg",
+    "caption": "nhặt, thu lượm"
+  },
   "时常": {
     "file": "时常.svg",
     "src": "images/HSK_2.0/level6/时常.svg",

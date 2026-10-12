@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background glow/halo -->
+  <circle cx="120" cy="115" r="70" fill="#3B82F6" opacity="0.08"/>
+
+  <!-- Central Visual Representation for "师范" (Normal University / Teacher Education / Pedagogy):
+       Combines an open book (representing knowledge/education) with a graduation mortarboard and a radiating beacon/pedagogy symbol -->
+  
+  <g transform="translate(0, 5)">
+    <!-- Graduation Cap (Top) -->
+    <path d="M120 50 L185 75 L120 100 L55 75 Z" fill="#3B82F6" opacity="0.9"/>
+    <path d="M120 50 L185 75 L120 100 L55 75 Z" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Cap Band -->
+    <path d="M78 88 L78 106 C78 116 162 116 162 106 L162 88" fill="none" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Tassel -->
+    <path d="M165 77 L185 95 L182 108" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="182" cy="111" r="3" fill="#F59E0B"/>
+
+    <!-- Open Book (Base/Foundation of Education) -->
+    <path d="M120 125 C95 120 65 125 45 135 L45 175 C65 165 95 160 120 165 C145 160 175 165 195 175 L195 135 C175 125 145 120 120 125 Z" fill="#1E293B" stroke="#94A3B8" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Book Center Spine Divider -->
+    <path d="M120 125 L120 165" stroke="#64748B" stroke-width="3"/>
+
+    <!-- Pages / Knowledge Lines -->
+    <path d="M65 145 L95 140" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M65 155 L95 150" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <path d="M145 140 L175 145" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M145 150 L175 155" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Focal Accent: Glowing Star / Guidance Light rising from the book (Symbolizing Teacher/Role Model) -->
+    <path d="M120 105 L124 115 L134 117 L126 124 L128 134 L120 129 L112 134 L114 124 L106 117 L116 115 Z" fill="#F59E0B"/>
+    <circle cx="120" cy="119" r="1.5" fill="#FEF3C7"/>
+  </g>
+
+  <!-- Decorative baseline/pedestal -->
+  <ellipse cx="120" cy="195" rx="55" ry="6" fill="#0F172A"/>
+  <ellipse cx="120" cy="195" rx="35" ry="3" fill="#3B82F6" opacity="0.4"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:10:37.029581",
-  "total_unique_words_with_illustrations": 4548,
-  "total_flat_svg_files": 4548,
+  "generated_at": "2026-10-12T23:11:07.328319",
+  "total_unique_words_with_illustrations": 4553,
+  "total_flat_svg_files": 4553,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1908,
-        "pct": "76.3%"
+        "with_svg": 1913,
+        "pct": "76.5%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 630,
-        "pct": "35.0%"
+        "with_svg": 631,
+        "pct": "35.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 960,
-        "pct": "17.1%"
+        "with_svg": 964,
+        "pct": "17.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 960,
-        "pct": "17.1%"
+        "with_svg": 964,
+        "pct": "17.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 960,
-        "pct": "17.1%"
+        "with_svg": 964,
+        "pct": "17.2%"
       }
     }
   },
@@ -74516,6 +74516,112 @@
         "images/HSK_3.0/level7/失踪.svg",
         "images/HSK_3.0/level8/失踪.svg",
         "images/HSK_3.0/level9/失踪.svg"
+      ]
+    },
+    "师范": {
+      "hanzi": "师范",
+      "pinyin": "shīfàn",
+      "meaning": "sư phạm",
+      "example_zh": "她毕业于<u>师范</u>大学。",
+      "example_vi": "Cô ấy tốt nghiệp đại học <u>sư phạm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "师范.svg",
+      "src": "images/HSK_2.0/level6/师范.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/师范.svg",
+        "images/HSK_3.0/level8/师范.svg",
+        "images/HSK_3.0/level9/师范.svg"
+      ]
+    },
+    "施加": {
+      "hanzi": "施加",
+      "pinyin": "shījiā",
+      "meaning": "gây ra, áp đặt (áp lực)",
+      "example_zh": "父母不应该给孩子<u>施加</u>太大的压力。",
+      "example_vi": "Cha mẹ không nên <u>áp đặt</u> quá nhiều áp lực lên con cái.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "施加.svg",
+      "src": "images/HSK_2.0/level6/施加.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/施加.svg",
+        "images/HSK_3.0/level8/施加.svg",
+        "images/HSK_3.0/level9/施加.svg"
+      ]
+    },
+    "施展": {
+      "hanzi": "施展",
+      "pinyin": "shīzhǎn",
+      "meaning": "phát huy, thi triển (tài năng)",
+      "example_zh": "这个平台让他能充分<u>施展</u>才能。",
+      "example_vi": "Nền tảng này giúp anh ấy có thể <u>phát huy</u> đầy đủ tài năng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "施展.svg",
+      "src": "images/HSK_2.0/level6/施展.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/施展.svg",
+        "images/HSK_3.0/level8/施展.svg",
+        "images/HSK_3.0/level9/施展.svg"
+      ]
+    },
+    "尸体": {
+      "hanzi": "尸体",
+      "pinyin": "shītǐ",
+      "meaning": "xác chết, tử thi",
+      "example_zh": "警方在河边发现了一具<u>尸体</u>。",
+      "example_vi": "Cảnh sát đã phát hiện một <u>xác chết</u> bên sông.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "尸体.svg",
+      "src": "images/HSK_2.0/level6/尸体.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/尸体.svg",
+        "images/HSK_3.0/level8/尸体.svg",
+        "images/HSK_3.0/level9/尸体.svg"
+      ]
+    },
+    "拾": {
+      "hanzi": "拾",
+      "pinyin": "shí",
+      "meaning": "nhặt, thu lượm",
+      "example_zh": "他在路边<u>拾</u>到了一个钱包。",
+      "example_vi": "Anh ấy <u>nhặt</u> được một cái ví bên đường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "拾.svg",
+      "src": "images/HSK_2.0/level6/拾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/拾.svg"
       ]
     },
     "时常": {
