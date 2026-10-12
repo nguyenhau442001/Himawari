@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:17:18.769165",
-  "total_unique_words_with_illustrations": 4260,
-  "total_flat_svg_files": 4260,
+  "generated_at": "2026-10-12T22:18:14.049917",
+  "total_unique_words_with_illustrations": 4265,
+  "total_flat_svg_files": 4265,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1620,
-        "pct": "64.8%"
+        "with_svg": 1625,
+        "pct": "65.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 545,
-        "pct": "30.3%"
+        "with_svg": 548,
+        "pct": "30.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 771,
+        "with_svg": 773,
         "pct": "13.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 771,
+        "with_svg": 773,
         "pct": "13.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 771,
+        "with_svg": 773,
         "pct": "13.8%"
       }
     }
@@ -68304,6 +68304,104 @@
         "images/HSK_3.0/level7/呕吐.svg",
         "images/HSK_3.0/level8/呕吐.svg",
         "images/HSK_3.0/level9/呕吐.svg"
+      ]
+    },
+    "趴": {
+      "hanzi": "趴",
+      "pinyin": "pā",
+      "meaning": "nằm sấp, bò",
+      "example_zh": "孩子<u>趴</u>在床上看书。",
+      "example_vi": "Đứa trẻ <u>nằm sấp</u> trên giường đọc sách.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "趴.svg",
+      "src": "images/HSK_2.0/level6/趴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/趴.svg",
+        "images/HSK_3.0/level8/趴.svg",
+        "images/HSK_3.0/level9/趴.svg"
+      ]
+    },
+    "排斥": {
+      "hanzi": "排斥",
+      "pinyin": "páichì",
+      "meaning": "bài trừ, loại trừ",
+      "example_zh": "他在公司里被同事<u>排斥</u>。",
+      "example_vi": "Anh ấy bị đồng nghiệp <u>bài trừ</u> trong công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "排斥.svg",
+      "src": "images/HSK_2.0/level6/排斥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/排斥.svg",
+        "images/HSK_3.0/level8/排斥.svg",
+        "images/HSK_3.0/level9/排斥.svg"
+      ]
+    },
+    "排除": {
+      "hanzi": "排除",
+      "pinyin": "páichú",
+      "meaning": "loại bỏ, trừ bỏ",
+      "example_zh": "警方已经<u>排除</u>了他的嫌疑。",
+      "example_vi": "Cảnh sát đã <u>loại bỏ</u> nghi vấn đối với anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "排除.svg",
+      "src": "images/HSK_2.0/level6/排除.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/排除.svg"
+      ]
+    },
+    "排练": {
+      "hanzi": "排练",
+      "pinyin": "páiliàn",
+      "meaning": "diễn tập, tập dượt",
+      "example_zh": "演员们正在<u>排练</u>新戏。",
+      "example_vi": "Các diễn viên đang <u>diễn tập</u> vở mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "排练.svg",
+      "src": "images/HSK_2.0/level6/排练.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/排练.svg"
+      ]
+    },
+    "排放": {
+      "hanzi": "排放",
+      "pinyin": "páifàng",
+      "meaning": "thải ra, xả (chất thải)",
+      "example_zh": "工厂<u>排放</u>的废气污染了空气。",
+      "example_vi": "Khí thải <u>xả ra</u> từ nhà máy đã làm ô nhiễm không khí.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "排放.svg",
+      "src": "images/HSK_2.0/level6/排放.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/排放.svg"
       ]
     },
     "品质": {

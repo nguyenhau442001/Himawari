@@ -18307,6 +18307,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/呕吐.svg",
     "caption": "nôn, ói"
   },
+  "趴": {
+    "file": "趴.svg",
+    "src": "images/HSK_2.0/level6/趴.svg",
+    "caption": "nằm sấp, bò"
+  },
+  "排斥": {
+    "file": "排斥.svg",
+    "src": "images/HSK_2.0/level6/排斥.svg",
+    "caption": "bài trừ, loại trừ"
+  },
+  "排除": {
+    "file": "排除.svg",
+    "src": "images/HSK_2.0/level6/排除.svg",
+    "caption": "loại bỏ, trừ bỏ"
+  },
+  "排练": {
+    "file": "排练.svg",
+    "src": "images/HSK_2.0/level6/排练.svg",
+    "caption": "diễn tập, tập dượt"
+  },
+  "排放": {
+    "file": "排放.svg",
+    "src": "images/HSK_2.0/level6/排放.svg",
+    "caption": "thải ra, xả (chất thải)"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",
