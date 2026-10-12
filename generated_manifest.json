@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T00:33:01.460409",
-  "total_unique_words_with_illustrations": 4837,
-  "total_flat_svg_files": 4837,
+  "generated_at": "2026-10-13T00:33:32.734124",
+  "total_unique_words_with_illustrations": 4839,
+  "total_flat_svg_files": 4839,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2197,
-        "pct": "87.9%"
+        "with_svg": 2199,
+        "pct": "88.0%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1144,
-        "pct": "20.4%"
+        "with_svg": 1146,
+        "pct": "20.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1144,
-        "pct": "20.4%"
+        "with_svg": 1146,
+        "pct": "20.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1144,
-        "pct": "20.4%"
+        "with_svg": 1146,
+        "pct": "20.5%"
       }
     }
   },
@@ -80734,6 +80734,28 @@
         "images/HSK_3.0/level6/鲜明.svg"
       ]
     },
+    "衔接": {
+      "hanzi": "衔接",
+      "pinyin": "xiánjiē",
+      "meaning": "kết nối, nối tiếp",
+      "example_zh": "两段课程之间需要<u>衔接</u>好。",
+      "example_vi": "Hai phần khóa học cần được <u>kết nối</u> tốt với nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "衔接.svg",
+      "src": "images/HSK_2.0/level6/衔接.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/衔接.svg",
+        "images/HSK_3.0/level8/衔接.svg",
+        "images/HSK_3.0/level9/衔接.svg"
+      ]
+    },
     "现场": {
       "hanzi": "现场",
       "pinyin": "xiànchǎng",
@@ -80768,6 +80790,28 @@
       "src": "images/HSK_2.0/level6/现状.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/现状.svg"
+      ]
+    },
+    "响应": {
+      "hanzi": "响应",
+      "pinyin": "xiǎngyìng",
+      "meaning": "hưởng ứng",
+      "example_zh": "大家积极<u>响应</u>了这次活动。",
+      "example_vi": "Mọi người tích cực <u>hưởng ứng</u> hoạt động này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "响应.svg",
+      "src": "images/HSK_2.0/level6/响应.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/响应.svg",
+        "images/HSK_3.0/level8/响应.svg",
+        "images/HSK_3.0/level9/响应.svg"
       ]
     },
     "协议": {

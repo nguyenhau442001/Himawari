@@ -21367,6 +21367,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/鲜明.svg",
     "caption": "rõ rệt, rõ ràng"
   },
+  "衔接": {
+    "file": "衔接.svg",
+    "src": "images/HSK_2.0/level6/衔接.svg",
+    "caption": "kết nối, nối tiếp"
+  },
   "现场": {
     "file": "现场.svg",
     "src": "images/HSK_2.0/level6/现场.svg",
@@ -21376,6 +21381,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "现状.svg",
     "src": "images/HSK_2.0/level6/现状.svg",
     "caption": "hiện trạng"
+  },
+  "响应": {
+    "file": "响应.svg",
+    "src": "images/HSK_2.0/level6/响应.svg",
+    "caption": "hưởng ứng"
   },
   "协议": {
     "file": "协议.svg",
