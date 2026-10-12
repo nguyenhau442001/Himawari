@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:50:59.122445",
-  "total_unique_words_with_illustrations": 4445,
-  "total_flat_svg_files": 4445,
+  "generated_at": "2026-10-12T22:51:54.769550",
+  "total_unique_words_with_illustrations": 4450,
+  "total_flat_svg_files": 4450,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1805,
-        "pct": "72.2%"
+        "with_svg": 1810,
+        "pct": "72.4%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 603,
-        "pct": "33.5%"
+        "with_svg": 604,
+        "pct": "33.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 890,
+        "with_svg": 893,
         "pct": "15.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 890,
+        "with_svg": 893,
         "pct": "15.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 890,
+        "with_svg": 893,
         "pct": "15.9%"
       }
     }
@@ -72222,6 +72222,104 @@
         "images/HSK_3.0/level7/饶恕.svg",
         "images/HSK_3.0/level8/饶恕.svg",
         "images/HSK_3.0/level9/饶恕.svg"
+      ]
+    },
+    "扰乱": {
+      "hanzi": "扰乱",
+      "pinyin": "rǎoluàn",
+      "meaning": "quấy nhiễu, làm rối loạn",
+      "example_zh": "他的话<u>扰乱</u>了大家的思路。",
+      "example_vi": "Lời nói của anh ấy đã <u>làm rối loạn</u> suy nghĩ của mọi người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扰乱.svg",
+      "src": "images/HSK_2.0/level6/扰乱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/扰乱.svg",
+        "images/HSK_3.0/level8/扰乱.svg",
+        "images/HSK_3.0/level9/扰乱.svg"
+      ]
+    },
+    "惹祸": {
+      "hanzi": "惹祸",
+      "pinyin": "rěhuò",
+      "meaning": "gây họa, gây rắc rối",
+      "example_zh": "他总是因为冲动而<u>惹祸</u>。",
+      "example_vi": "Anh ấy luôn <u>gây rắc rối</u> vì hành động bộc phát.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "惹祸.svg",
+      "src": "images/HSK_2.0/level6/惹祸.svg",
+      "alt_srcs": []
+    },
+    "热泪盈眶": {
+      "hanzi": "热泪盈眶",
+      "pinyin": "rèlèiyíngkuàng",
+      "meaning": "nước mắt đầy tròng (cảm động)",
+      "example_zh": "听到这个消息，她<u>热泪盈眶</u>。",
+      "example_vi": "Nghe tin này, cô ấy <u>nước mắt đầy tròng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "热泪盈眶.svg",
+      "src": "images/HSK_2.0/level6/热泪盈眶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/热泪盈眶.svg",
+        "images/HSK_3.0/level8/热泪盈眶.svg",
+        "images/HSK_3.0/level9/热泪盈眶.svg"
+      ]
+    },
+    "热门": {
+      "hanzi": "热门",
+      "pinyin": "rèmén",
+      "meaning": "hot, được ưa chuộng",
+      "example_zh": "这是今年最<u>热门</u>的话题。",
+      "example_vi": "Đây là chủ đề <u>hot</u> nhất trong năm nay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "热门.svg",
+      "src": "images/HSK_2.0/level6/热门.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/热门.svg"
+      ]
+    },
+    "人道": {
+      "hanzi": "人道",
+      "pinyin": "réndào",
+      "meaning": "nhân đạo",
+      "example_zh": "我们要给予难民<u>人道</u>主义援助。",
+      "example_vi": "Chúng ta phải viện trợ <u>nhân đạo</u> cho người tị nạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "人道.svg",
+      "src": "images/HSK_2.0/level6/人道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/人道.svg",
+        "images/HSK_3.0/level8/人道.svg",
+        "images/HSK_3.0/level9/人道.svg"
       ]
     },
     "人工": {

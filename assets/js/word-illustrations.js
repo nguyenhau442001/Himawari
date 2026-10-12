@@ -19272,6 +19272,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/饶恕.svg",
     "caption": "tha thứ, dung thứ"
   },
+  "扰乱": {
+    "file": "扰乱.svg",
+    "src": "images/HSK_2.0/level6/扰乱.svg",
+    "caption": "quấy nhiễu, làm rối loạn"
+  },
+  "惹祸": {
+    "file": "惹祸.svg",
+    "src": "images/HSK_2.0/level6/惹祸.svg",
+    "caption": "gây họa, gây rắc rối"
+  },
+  "热泪盈眶": {
+    "file": "热泪盈眶.svg",
+    "src": "images/HSK_2.0/level6/热泪盈眶.svg",
+    "caption": "nước mắt đầy tròng (cảm động)"
+  },
+  "热门": {
+    "file": "热门.svg",
+    "src": "images/HSK_2.0/level6/热门.svg",
+    "caption": "hot, được ưa chuộng"
+  },
+  "人道": {
+    "file": "人道.svg",
+    "src": "images/HSK_2.0/level6/人道.svg",
+    "caption": "nhân đạo"
+  },
   "人工": {
     "file": "人工.svg",
     "src": "images/HSK_2.0/level6/人工.svg",
