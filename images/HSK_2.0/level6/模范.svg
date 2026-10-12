@@ -1,0 +1,50 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Classroom Background -->
+  <rect x="30" y="60" width="180" height="120" rx="4" fill="#334155"/>
+  <rect x="40" y="70" width="160" height="100" rx="2" fill="#1e293b"/>
+  <path d="M40 100 L200 100 M60 120 L180 120 M60 140 L180 140" stroke="#475569" stroke-width="2"/>
+  
+  <!-- The Teacher (Subject) -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-20 40 L20 40 L15 80 L-15 80 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="25" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-25 10 C-25 -10 -10 -20 0 -20 C10 -20 25 -10 25 10 Z" fill="#475569"/>
+    <!-- Glasses -->
+    <rect x="-12" y="5" width="8" height="6" rx="1" fill="#1e293b"/>
+    <rect x="4" y="5" width="8" height="6" rx="1" fill="#1e293b"/>
+    <line x1="-4" y1="8" x2="4" y2="8" stroke="#1e293b" stroke-width="1"/>
+  </g>
+  
+  <!-- Students (Audience) -->
+  <g transform="translate(60, 180)">
+    <circle cx="0" cy="0" r="12" fill="#fb923c"/>
+    <circle cx="0" cy="-15" r="8" fill="#fde68a"/>
+  </g>
+  <g transform="translate(180, 180)">
+    <circle cx="0" cy="0" r="12" fill="#10b981"/>
+    <circle cx="0" cy="-15" r="8" fill="#fde68a"/>
+  </g>
+  
+  <!-- Award/Recognition Element -->
+  <path d="M120 40 L135 60 L120 80 L105 60 Z" fill="#fbbf24"/>
+  <circle cx="120" cy="60" r="8" fill="#f59e0b"/>
+  
+  <!-- Decorative light rays -->
+  <path d="M120 60 L150 30" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M120 60 L90 30" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Podium -->
+  <rect x="90" y="180" width="60" height="60" fill="#475569"/>
+  <rect x="95" y="185" width="50" height="55" fill="#334155"/>
+</svg>

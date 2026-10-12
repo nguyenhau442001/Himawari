@@ -18062,10 +18062,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/摩擦.svg",
     "caption": "ma sát, xung đột nhỏ"
   },
+  "磨合": {
+    "file": "磨合.svg",
+    "src": "images/HSK_2.0/level6/磨合.svg",
+    "caption": "thích nghi dần với nhau, rà soát ăn ý"
+  },
+  "模范": {
+    "file": "模范.svg",
+    "src": "images/HSK_2.0/level6/模范.svg",
+    "caption": "mô phạm, kiểu mẫu"
+  },
   "模式": {
     "file": "模式.svg",
     "src": "images/HSK_2.0/level6/模式.svg",
     "caption": "mô hình, phương thức"
+  },
+  "模型": {
+    "file": "模型.svg",
+    "src": "images/HSK_2.0/level6/模型.svg",
+    "caption": "mô hình (vật mẫu, mô hình thu nhỏ)"
+  },
+  "魔鬼": {
+    "file": "魔鬼.svg",
+    "src": "images/HSK_2.0/level6/魔鬼.svg",
+    "caption": "con quỷ, ác ma"
+  },
+  "魔术": {
+    "file": "魔术.svg",
+    "src": "images/HSK_2.0/level6/魔术.svg",
+    "caption": "ma thuật, ảo thuật"
+  },
+  "抹杀": {
+    "file": "抹杀.svg",
+    "src": "images/HSK_2.0/level6/抹杀.svg",
+    "caption": "xóa bỏ, phủ nhận hoàn toàn"
+  },
+  "莫名其妙": {
+    "file": "莫名其妙.svg",
+    "src": "images/HSK_2.0/level6/莫名其妙.svg",
+    "caption": "khó hiểu, không hiểu nổi"
+  },
+  "默默": {
+    "file": "默默.svg",
+    "src": "images/HSK_2.0/level6/默默.svg",
+    "caption": "lặng lẽ, âm thầm"
+  },
+  "墨水儿": {
+    "file": "墨水儿.svg",
+    "src": "images/HSK_2.0/level6/墨水儿.svg",
+    "caption": "mực (cũng chỉ trình độ học vấn)"
+  },
+  "谋求": {
+    "file": "谋求.svg",
+    "src": "images/HSK_2.0/level6/谋求.svg",
+    "caption": "tìm kiếm, theo đuổi (giải pháp, lợi ích)"
   },
   "目光": {
     "file": "目光.svg",

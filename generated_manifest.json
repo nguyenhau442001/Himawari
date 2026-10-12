@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:47:48.448414",
-  "total_unique_words_with_illustrations": 4215,
-  "total_flat_svg_files": 4215,
+  "generated_at": "2026-10-12T21:50:10.478673",
+  "total_unique_words_with_illustrations": 4225,
+  "total_flat_svg_files": 4225,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1575,
-        "pct": "63.0%"
+        "with_svg": 1585,
+        "pct": "63.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 536,
-        "pct": "29.8%"
+        "with_svg": 538,
+        "pct": "29.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 737,
-        "pct": "13.2%"
+        "with_svg": 744,
+        "pct": "13.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 737,
-        "pct": "13.2%"
+        "with_svg": 744,
+        "pct": "13.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 737,
-        "pct": "13.2%"
+        "with_svg": 744,
+        "pct": "13.3%"
       }
     }
   },
@@ -67304,6 +67304,50 @@
         "images/HSK_3.0/level9/摩擦.svg"
       ]
     },
+    "磨合": {
+      "hanzi": "磨合",
+      "pinyin": "móhé",
+      "meaning": "thích nghi dần với nhau, rà soát ăn ý",
+      "example_zh": "新团队需要时间<u>磨合</u>。",
+      "example_vi": "Đội nhóm mới cần thời gian để <u>thích nghi dần với nhau</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "磨合.svg",
+      "src": "images/HSK_2.0/level6/磨合.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/磨合.svg",
+        "images/HSK_3.0/level8/磨合.svg",
+        "images/HSK_3.0/level9/磨合.svg"
+      ]
+    },
+    "模范": {
+      "hanzi": "模范",
+      "pinyin": "mófàn",
+      "meaning": "mô phạm, kiểu mẫu",
+      "example_zh": "他被评为<u>模范</u>教师。",
+      "example_vi": "Anh ấy được bình chọn là giáo viên <u>kiểu mẫu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "模范.svg",
+      "src": "images/HSK_2.0/level6/模范.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/模范.svg",
+        "images/HSK_3.0/level8/模范.svg",
+        "images/HSK_3.0/level9/模范.svg"
+      ]
+    },
     "模式": {
       "hanzi": "模式",
       "pinyin": "móshì",
@@ -67320,6 +67364,166 @@
       "src": "images/HSK_2.0/level6/模式.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/模式.svg"
+      ]
+    },
+    "模型": {
+      "hanzi": "模型",
+      "pinyin": "móxíng",
+      "meaning": "mô hình (vật mẫu, mô hình thu nhỏ)",
+      "example_zh": "他做了一个飞机<u>模型</u>。",
+      "example_vi": "Anh ấy đã làm một <u>mô hình</u> máy bay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "模型.svg",
+      "src": "images/HSK_2.0/level6/模型.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/模型.svg"
+      ]
+    },
+    "魔鬼": {
+      "hanzi": "魔鬼",
+      "pinyin": "móguǐ",
+      "meaning": "con quỷ, ác ma",
+      "example_zh": "电影里出现了一个可怕的<u>魔鬼</u>。",
+      "example_vi": "Trong phim xuất hiện một <u>con quỷ</u> đáng sợ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "魔鬼.svg",
+      "src": "images/HSK_2.0/level6/魔鬼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/魔鬼.svg",
+        "images/HSK_3.0/level8/魔鬼.svg",
+        "images/HSK_3.0/level9/魔鬼.svg"
+      ]
+    },
+    "魔术": {
+      "hanzi": "魔术",
+      "pinyin": "móshù",
+      "meaning": "ma thuật, ảo thuật",
+      "example_zh": "他在台上表演了精彩的<u>魔术</u>。",
+      "example_vi": "Anh ấy biểu diễn <u>ảo thuật</u> đặc sắc trên sân khấu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "魔术.svg",
+      "src": "images/HSK_2.0/level6/魔术.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/魔术.svg",
+        "images/HSK_3.0/level8/魔术.svg",
+        "images/HSK_3.0/level9/魔术.svg"
+      ]
+    },
+    "抹杀": {
+      "hanzi": "抹杀",
+      "pinyin": "mǒshā",
+      "meaning": "xóa bỏ, phủ nhận hoàn toàn",
+      "example_zh": "我们不能<u>抹杀</u>他的功劳。",
+      "example_vi": "Chúng ta không thể <u>phủ nhận</u> công lao của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抹杀.svg",
+      "src": "images/HSK_2.0/level6/抹杀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/抹杀.svg",
+        "images/HSK_3.0/level8/抹杀.svg",
+        "images/HSK_3.0/level9/抹杀.svg"
+      ]
+    },
+    "莫名其妙": {
+      "hanzi": "莫名其妙",
+      "pinyin": "mòmíngqímiào",
+      "meaning": "khó hiểu, không hiểu nổi",
+      "example_zh": "他突然生气，让人<u>莫名其妙</u>。",
+      "example_vi": "Anh ấy bất ngờ nổi giận, khiến người khác <u>khó hiểu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "莫名其妙.svg",
+      "src": "images/HSK_2.0/level6/莫名其妙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/莫名其妙.svg",
+        "images/HSK_3.0/level8/莫名其妙.svg",
+        "images/HSK_3.0/level9/莫名其妙.svg"
+      ]
+    },
+    "默默": {
+      "hanzi": "默默",
+      "pinyin": "mòmò",
+      "meaning": "lặng lẽ, âm thầm",
+      "example_zh": "她<u>默默</u>地为家人付出。",
+      "example_vi": "Cô ấy <u>âm thầm</u> cống hiến cho gia đình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "默默.svg",
+      "src": "images/HSK_2.0/level6/默默.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/默默.svg"
+      ]
+    },
+    "墨水儿": {
+      "hanzi": "墨水儿",
+      "pinyin": "mòshuǐr",
+      "meaning": "mực (cũng chỉ trình độ học vấn)",
+      "example_zh": "这瓶<u>墨水儿</u>快用完了。",
+      "example_vi": "Lọ <u>mực</u> này gần hết rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "墨水儿.svg",
+      "src": "images/HSK_2.0/level6/墨水儿.svg",
+      "alt_srcs": []
+    },
+    "谋求": {
+      "hanzi": "谋求",
+      "pinyin": "móuqiú",
+      "meaning": "tìm kiếm, theo đuổi (giải pháp, lợi ích)",
+      "example_zh": "双方都在<u>谋求</u>和平解决方案。",
+      "example_vi": "Hai bên đều đang <u>tìm kiếm</u> giải pháp hòa bình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "谋求.svg",
+      "src": "images/HSK_2.0/level6/谋求.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/谋求.svg",
+        "images/HSK_3.0/level8/谋求.svg",
+        "images/HSK_3.0/level9/谋求.svg"
       ]
     },
     "目光": {
