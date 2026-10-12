@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:39:25.075564",
-  "total_unique_words_with_illustrations": 4380,
-  "total_flat_svg_files": 4380,
+  "generated_at": "2026-10-12T22:40:17.764947",
+  "total_unique_words_with_illustrations": 4385,
+  "total_flat_svg_files": 4385,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1740,
-        "pct": "69.6%"
+        "with_svg": 1745,
+        "pct": "69.8%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 850,
-        "pct": "15.2%"
+        "with_svg": 855,
+        "pct": "15.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 850,
-        "pct": "15.2%"
+        "with_svg": 855,
+        "pct": "15.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 850,
-        "pct": "15.2%"
+        "with_svg": 855,
+        "pct": "15.3%"
       }
     }
   },
@@ -70832,6 +70832,116 @@
       "src": "images/HSK_2.0/level6/潜力.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/潜力.svg"
+      ]
+    },
+    "潜水": {
+      "hanzi": "潜水",
+      "pinyin": "qiánshuǐ",
+      "meaning": "lặn (dưới nước)",
+      "example_zh": "他喜欢去海边<u>潜水</u>。",
+      "example_vi": "Anh ấy thích ra biển <u>lặn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "潜水.svg",
+      "src": "images/HSK_2.0/level6/潜水.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/潜水.svg",
+        "images/HSK_3.0/level8/潜水.svg",
+        "images/HSK_3.0/level9/潜水.svg"
+      ]
+    },
+    "潜移默化": {
+      "hanzi": "潜移默化",
+      "pinyin": "qiányímòhuà",
+      "meaning": "ảnh hưởng âm thầm dần dần",
+      "example_zh": "环境对人的影响是<u>潜移默化</u>的。",
+      "example_vi": "Ảnh hưởng của môi trường đến con người là <u>âm thầm dần dần</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "潜移默化.svg",
+      "src": "images/HSK_2.0/level6/潜移默化.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/潜移默化.svg",
+        "images/HSK_3.0/level8/潜移默化.svg",
+        "images/HSK_3.0/level9/潜移默化.svg"
+      ]
+    },
+    "谴责": {
+      "hanzi": "谴责",
+      "pinyin": "qiǎnzé",
+      "meaning": "lên án, chỉ trích",
+      "example_zh": "这种行为遭到了社会的<u>谴责</u>。",
+      "example_vi": "Hành vi này bị xã hội <u>lên án</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "谴责.svg",
+      "src": "images/HSK_2.0/level6/谴责.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/谴责.svg",
+        "images/HSK_3.0/level8/谴责.svg",
+        "images/HSK_3.0/level9/谴责.svg"
+      ]
+    },
+    "强制": {
+      "hanzi": "强制",
+      "pinyin": "qiángzhì",
+      "meaning": "cưỡng chế, bắt buộc",
+      "example_zh": "这是法律<u>强制</u>规定的。",
+      "example_vi": "Đây là quy định <u>bắt buộc</u> của pháp luật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "强制.svg",
+      "src": "images/HSK_2.0/level6/强制.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/强制.svg",
+        "images/HSK_3.0/level8/强制.svg",
+        "images/HSK_3.0/level9/强制.svg"
+      ]
+    },
+    "抢劫": {
+      "hanzi": "抢劫",
+      "pinyin": "qiǎngjié",
+      "meaning": "cướp giật",
+      "example_zh": "他在路上遭到了<u>抢劫</u>。",
+      "example_vi": "Anh ấy bị <u>cướp giật</u> trên đường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抢劫.svg",
+      "src": "images/HSK_2.0/level6/抢劫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/抢劫.svg",
+        "images/HSK_3.0/level8/抢劫.svg",
+        "images/HSK_3.0/level9/抢劫.svg"
       ]
     },
     "抢救": {

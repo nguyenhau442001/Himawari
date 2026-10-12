@@ -18927,6 +18927,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/潜力.svg",
     "caption": "tiềm lực"
   },
+  "潜水": {
+    "file": "潜水.svg",
+    "src": "images/HSK_2.0/level6/潜水.svg",
+    "caption": "lặn (dưới nước)"
+  },
+  "潜移默化": {
+    "file": "潜移默化.svg",
+    "src": "images/HSK_2.0/level6/潜移默化.svg",
+    "caption": "ảnh hưởng âm thầm dần dần"
+  },
+  "谴责": {
+    "file": "谴责.svg",
+    "src": "images/HSK_2.0/level6/谴责.svg",
+    "caption": "lên án, chỉ trích"
+  },
+  "强制": {
+    "file": "强制.svg",
+    "src": "images/HSK_2.0/level6/强制.svg",
+    "caption": "cưỡng chế, bắt buộc"
+  },
+  "抢劫": {
+    "file": "抢劫.svg",
+    "src": "images/HSK_2.0/level6/抢劫.svg",
+    "caption": "cướp giật"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
