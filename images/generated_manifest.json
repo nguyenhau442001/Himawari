@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:20:49.163521",
-  "total_unique_words_with_illustrations": 4280,
-  "total_flat_svg_files": 4280,
+  "generated_at": "2026-10-12T22:21:39.686671",
+  "total_unique_words_with_illustrations": 4285,
+  "total_flat_svg_files": 4285,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1640,
-        "pct": "65.6%"
+        "with_svg": 1645,
+        "pct": "65.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 552,
+        "with_svg": 553,
         "pct": "30.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 783,
-        "pct": "14.0%"
+        "with_svg": 787,
+        "pct": "14.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 783,
-        "pct": "14.0%"
+        "with_svg": 787,
+        "pct": "14.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 783,
-        "pct": "14.0%"
+        "with_svg": 787,
+        "pct": "14.1%"
       }
     }
   },
@@ -68708,6 +68708,112 @@
         "images/HSK_3.0/level7/盆地.svg",
         "images/HSK_3.0/level8/盆地.svg",
         "images/HSK_3.0/level9/盆地.svg"
+      ]
+    },
+    "烹饪": {
+      "hanzi": "烹饪",
+      "pinyin": "pēngrèn",
+      "meaning": "nấu nướng, ẩm thực",
+      "example_zh": "她对<u>烹饪</u>很有研究。",
+      "example_vi": "Cô ấy rất am hiểu về <u>nấu nướng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "烹饪.svg",
+      "src": "images/HSK_2.0/level6/烹饪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/烹饪.svg",
+        "images/HSK_3.0/level8/烹饪.svg",
+        "images/HSK_3.0/level9/烹饪.svg"
+      ]
+    },
+    "捧": {
+      "hanzi": "捧",
+      "pinyin": "pěng",
+      "meaning": "nâng, bưng (bằng hai tay)",
+      "example_zh": "她双手<u>捧</u>着一杯热茶。",
+      "example_vi": "Cô ấy dùng hai tay <u>bưng</u> một cốc trà nóng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "捧.svg",
+      "src": "images/HSK_2.0/level6/捧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/捧.svg"
+      ]
+    },
+    "劈": {
+      "hanzi": "劈",
+      "pinyin": "pī",
+      "meaning": "chẻ, bửa",
+      "example_zh": "他用斧子<u>劈</u>木头。",
+      "example_vi": "Anh ấy dùng búa <u>bửa</u> gỗ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "劈.svg",
+      "src": "images/HSK_2.0/level6/劈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/劈.svg",
+        "images/HSK_3.0/level8/劈.svg",
+        "images/HSK_3.0/level9/劈.svg"
+      ]
+    },
+    "批发": {
+      "hanzi": "批发",
+      "pinyin": "pīfā",
+      "meaning": "bán sỉ, bán buôn",
+      "example_zh": "这是<u>批发</u>价格，比零售便宜。",
+      "example_vi": "Đây là giá <u>bán sỉ</u>, rẻ hơn so với bán lẻ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "批发.svg",
+      "src": "images/HSK_2.0/level6/批发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/批发.svg",
+        "images/HSK_3.0/level8/批发.svg",
+        "images/HSK_3.0/level9/批发.svg"
+      ]
+    },
+    "批判": {
+      "hanzi": "批判",
+      "pinyin": "pīpàn",
+      "meaning": "phê phán",
+      "example_zh": "老师<u>批判</u>了这种错误的观点。",
+      "example_vi": "Thầy giáo đã <u>phê phán</u> quan điểm sai lầm này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "批判.svg",
+      "src": "images/HSK_2.0/level6/批判.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/批判.svg",
+        "images/HSK_3.0/level8/批判.svg",
+        "images/HSK_3.0/level9/批判.svg"
       ]
     },
     "品质": {

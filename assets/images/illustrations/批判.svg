@@ -1,0 +1,109 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for gradients and shadows -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="boardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="warmLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Full-bleed container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Background Layer: Classroom Interior -->
+  <rect x="0" y="0" width="240" height="240" rx="24" fill="url(#spotlight)" />
+
+  <!-- Classroom Back Wall -->
+  <rect x="20" y="30" width="200" height="135" rx="4" fill="#162032" stroke="#334155" stroke-width="1.5" />
+  
+  <!-- Large Blackboard in Background -->
+  <rect x="35" y="42" width="170" height="95" rx="2" fill="url(#boardGrad)" stroke="#475569" stroke-width="1" />
+  
+  <!-- Abstract diagram on blackboard (representing 'views/concepts') -->
+  <path d="M 60 85 Q 75 60 90 85 T 120 85" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="55" y1="95" x2="125" y2="70" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Red 'X' mark over the incorrect concept (visualizing 批判/criticism of the view) -->
+  <path d="M 135 60 L 165 100 M 165 60 L 135 100" fill="none" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Ambient light from window/lamp -->
+  <path d="M 0 0 L 140 0 L 0 140 Z" fill="url(#warmLight)" />
+
+  <!-- Teacher's Desk / Podium -->
+  <path d="M 150 150 L 210 150 L 225 185 L 135 185 Z" fill="#334155" filter="url(#softShadow)" />
+  <rect x="142" y="145" width="76" height="8" rx="2" fill="#475569" />
+  <!-- Props on desk: open book, glasses -->
+  <rect x="160" y="140" width="24" height="6" rx="1" fill="#f8fafc" />
+  <circle cx="195" cy="143" r="5" fill="none" stroke="#fbbf24" stroke-width="1.5" />
+
+  <!-- Character: Teacher (Critiquing) -->
+  <g id="teacher" filter="url(#softShadow)">
+    <!-- Teacher Body/Suit -->
+    <path d="M 175 165 L 205 165 L 212 210 L 168 210 Z" fill="#0ea5e9" />
+    <path d="M 180 165 L 200 165 L 195 190 L 185 190 Z" fill="#f8fafc" /> <!-- Shirt collar/tie -->
+    <path d="M 188 175 L 192 175 L 193 195 L 187 195 Z" fill="#ef4444" /> <!-- Tie -->
+
+    <!-- Teacher Head & Face -->
+    <circle cx="190" cy="118" r="16" fill="#fed7aa" />
+    <!-- Hair -->
+    <path d="M 174 115 C 174 102 206 102 206 115 C 206 110 174 110 174 115 Z" fill="#334155" />
+    <!-- Glasses -->
+    <rect x="182" y="112" width="8" height="5" rx="1" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="192" y="112" width="8" height="5" rx="1" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <line x1="190" y1="114" x2="192" y2="114" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Teacher Gestures: Pointing firmly towards the concept/student -->
+    <!-- Back arm -->
+    <path d="M 175 150 L 160 165 L 170 170 Z" fill="#0284c7" />
+    <!-- Front arm pointing forward/authoritative -->
+    <path d="M 205 155 C 220 155 230 145 230 145 C 230 145 215 160 200 165 Z" fill="#0ea5e9" />
+    <!-- Pointing hand -->
+    <circle cx="231" cy="144" r="3.5" fill="#fed7aa" />
+  </g>
+
+  <!-- Character: Student (Listening attentively/absorbing criticism) -->
+  <g id="student" filter="url(#softShadow)">
+    <!-- Student Body -->
+    <path d="M 65 170 L 95 170 L 102 215 L 58 215 Z" fill="#6366f1" />
+    <path d="M 72 170 L 88 170 L 85 190 L 75 190 Z" fill="#f8fafc" />
+
+    <!-- Student Head & Face (Slightly lowered/reflective expression) -->
+    <circle cx="80" cy="125" r="15" fill="#fbcfe8" />
+    <!-- Student Hair -->
+    <path d="M 65 122 C 65 110 95 110 95 122 C 95 118 90 108 80 108 C 70 108 65 118 65 122 Z" fill="#475569" />
+    
+    <!-- Student Arms (Note-taking / holding pen) -->
+    <path d="M 68 175 L 85 175 L 80 190 Z" fill="#4f46e5" />
+    <!-- Notebook on desk -->
+    <polygon points="50,185 85,185 90,205 45,205" fill="#f8fafc" />
+    <line x1="55" y1="192" x2="75" y2="192" stroke="#cbd5e1" stroke-width="1.5" />
+    <line x1="55" y1="198" x2="70" y2="198" stroke="#cbd5e1" stroke-width="1.5" />
+  </g>
+
+  <!-- Foreground Floor & Details -->
+  <rect x="0" y="210" width="240" height="30" fill="#0f172a" />
+  <line x1="0" y1="210" x2="240" y2="210" stroke="#334155" stroke-width="2" />
+
+  <!-- Additional Context Props: School window with light beams -->
+  <g opacity="0.3">
+    <polygon points="15,40 45,40 45,90 15,90" fill="#38bdf8" />
+    <line x1="30" y1="40" x2="30" y2="90" stroke="#1e293b" stroke-width="2" />
+    <line x1="15" y1="65" x2="45" y2="65" stroke="#1e293b" stroke-width="2" />
+  </g>
+
+</svg>

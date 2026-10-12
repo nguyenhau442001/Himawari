@@ -18407,6 +18407,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/盆地.svg",
     "caption": "bồn địa, lưu vực"
   },
+  "烹饪": {
+    "file": "烹饪.svg",
+    "src": "images/HSK_2.0/level6/烹饪.svg",
+    "caption": "nấu nướng, ẩm thực"
+  },
+  "捧": {
+    "file": "捧.svg",
+    "src": "images/HSK_2.0/level6/捧.svg",
+    "caption": "nâng, bưng (bằng hai tay)"
+  },
+  "劈": {
+    "file": "劈.svg",
+    "src": "images/HSK_2.0/level6/劈.svg",
+    "caption": "chẻ, bửa"
+  },
+  "批发": {
+    "file": "批发.svg",
+    "src": "images/HSK_2.0/level6/批发.svg",
+    "caption": "bán sỉ, bán buôn"
+  },
+  "批判": {
+    "file": "批判.svg",
+    "src": "images/HSK_2.0/level6/批判.svg",
+    "caption": "phê phán"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",
