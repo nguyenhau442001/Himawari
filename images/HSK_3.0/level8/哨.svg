@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115) rotate(-35)">
+    <!-- Sound Waves / Whistle Blast Effect -->
+    <path d="M 55 -25 C 75 -20, 85 -5, 85 0 C 85 5, 75 20, 55 25" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9"/>
+    <path d="M 68 -40 C 95 -30, 110 -10, 110 0 C 110 10, 95 30, 68 40" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 80 -55 C 115 -42, 135 -15, 135 0 C 135 15, 115 42, 80 55" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+    
+    <!-- Lanyard / Cord -->
+    <path d="M -20 -70 C -60 -70, -80 -30, -50 0 C -35 15, -45 35, -45 50" stroke="#4A5568" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M -20 -70 C -60 -70, -80 -30, -50 0 C -35 15, -45 35, -45 50" stroke="#718096" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Whistle Body (Main) -->
+    <path d="M -50 0 L 35 -30 C 48 -35, 60 -25, 55 -12 L 25 15 C 10 25, -20 20, -50 0 Z" fill="#FFA502"/>
+    <path d="M -50 0 L 35 -30 C 48 -35, 60 -25, 55 -12 L 25 15 C 10 25, -20 20, -50 0 Z" fill="url(#whistle-grad)" opacity="0.2"/>
+
+    <!-- Whistle Sound Chamber (Circular part) -->
+    <circle cx="0" cy="-2" r="26" fill="#F7B731"/>
+    
+    <!-- Whistle Window / Opening -->
+    <path d="M 2 -18 L 16 -13 L 12 0 L -2 -5 Z" fill="#1A1D24"/>
+
+    <!-- Top Ring Connector -->
+    <path d="M -42 -12 L -58 -18 C -63 -20, -65 -15, -60 -10 L -46 -4 Z" fill="#E1B12C"/>
+    <circle cx="-52" cy="-11" r="5" fill="none" stroke="#2D3436" stroke-width="3"/>
+
+    <!-- Highlights for 3D/Flat Modern Gloss -->
+    <path d="M -30 -12 L 25 -28 C 35 -31, 42 -26, 40 -20 L 5 -5 Z" fill="#FFFFFF" opacity="0.25"/>
+    <circle cx="-2" cy="-2" r="18" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.25" stroke-dasharray="25 60"/>
+  </g>
+
+  <!-- Ambient light particles -->
+  <circle cx="60" cy="70" r="2" fill="#FFA502" opacity="0.4"/>
+  <circle cx="180" cy="80" r="1.5" fill="#FFA502" opacity="0.3"/>
+  <circle cx="190" cy="160" r="2" fill="#FFA502" opacity="0.5"/>
+  <circle cx="70" cy="175" r="1" fill="#FFA502" opacity="0.4"/>
+</svg>

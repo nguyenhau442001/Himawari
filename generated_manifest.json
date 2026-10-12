@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:05:37.455240",
-  "total_unique_words_with_illustrations": 4503,
-  "total_flat_svg_files": 4503,
+  "generated_at": "2026-10-12T23:06:11.923633",
+  "total_unique_words_with_illustrations": 4508,
+  "total_flat_svg_files": 4508,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1863,
-        "pct": "74.5%"
+        "with_svg": 1868,
+        "pct": "74.7%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 925,
-        "pct": "16.5%"
+        "with_svg": 929,
+        "pct": "16.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 925,
-        "pct": "16.5%"
+        "with_svg": 929,
+        "pct": "16.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 925,
-        "pct": "16.5%"
+        "with_svg": 929,
+        "pct": "16.6%"
       }
     }
   },
@@ -73430,6 +73430,108 @@
         "images/HSK_3.0/level7/上游.svg",
         "images/HSK_3.0/level8/上游.svg",
         "images/HSK_3.0/level9/上游.svg"
+      ]
+    },
+    "尚且": {
+      "hanzi": "尚且",
+      "pinyin": "shàngqiě",
+      "meaning": "hơn nữa, ngay cả... thì",
+      "example_zh": "大人<u>尚且</u>做不到，何况小孩。",
+      "example_vi": "Người lớn <u>còn</u> không làm được, huống hồ trẻ con.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "尚且.svg",
+      "src": "images/HSK_2.0/level6/尚且.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/尚且.svg",
+        "images/HSK_3.0/level8/尚且.svg",
+        "images/HSK_3.0/level9/尚且.svg"
+      ]
+    },
+    "捎": {
+      "hanzi": "捎",
+      "pinyin": "shāo",
+      "meaning": "mang theo, gửi giúp",
+      "example_zh": "你能帮我<u>捎</u>一封信吗？",
+      "example_vi": "Bạn có thể <u>gửi giúp</u> tôi một lá thư không?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "捎.svg",
+      "src": "images/HSK_2.0/level6/捎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/捎.svg",
+        "images/HSK_3.0/level8/捎.svg",
+        "images/HSK_3.0/level9/捎.svg"
+      ]
+    },
+    "梢": {
+      "hanzi": "梢",
+      "pinyin": "shāo",
+      "meaning": "đầu ngọn (cành cây)",
+      "example_zh": "鸟儿停在树<u>梢</u>上。",
+      "example_vi": "Con chim đậu trên <u>đầu ngọn</u> cây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "梢.svg",
+      "src": "images/HSK_2.0/level6/梢.svg",
+      "alt_srcs": []
+    },
+    "哨": {
+      "hanzi": "哨",
+      "pinyin": "shào",
+      "meaning": "tiếng huýt, cái còi",
+      "example_zh": "裁判吹响了<u>哨</u>声。",
+      "example_vi": "Trọng tài thổi <u>tiếng huýt</u> còi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "哨.svg",
+      "src": "images/HSK_2.0/level6/哨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/哨.svg",
+        "images/HSK_3.0/level8/哨.svg",
+        "images/HSK_3.0/level9/哨.svg"
+      ]
+    },
+    "奢侈": {
+      "hanzi": "奢侈",
+      "pinyin": "shēchǐ",
+      "meaning": "xa xỉ",
+      "example_zh": "她过着<u>奢侈</u>的生活。",
+      "example_vi": "Cô ấy sống một cuộc sống <u>xa xỉ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "奢侈.svg",
+      "src": "images/HSK_2.0/level6/奢侈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/奢侈.svg",
+        "images/HSK_3.0/level8/奢侈.svg",
+        "images/HSK_3.0/level9/奢侈.svg"
       ]
     },
     "设立": {

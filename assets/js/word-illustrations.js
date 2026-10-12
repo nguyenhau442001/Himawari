@@ -19572,6 +19572,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/上游.svg",
     "caption": "thượng nguồn"
   },
+  "尚且": {
+    "file": "尚且.svg",
+    "src": "images/HSK_2.0/level6/尚且.svg",
+    "caption": "hơn nữa, ngay cả... thì"
+  },
+  "捎": {
+    "file": "捎.svg",
+    "src": "images/HSK_2.0/level6/捎.svg",
+    "caption": "mang theo, gửi giúp"
+  },
+  "梢": {
+    "file": "梢.svg",
+    "src": "images/HSK_2.0/level6/梢.svg",
+    "caption": "đầu ngọn (cành cây)"
+  },
+  "哨": {
+    "file": "哨.svg",
+    "src": "images/HSK_2.0/level6/哨.svg",
+    "caption": "tiếng huýt, cái còi"
+  },
+  "奢侈": {
+    "file": "奢侈.svg",
+    "src": "images/HSK_2.0/level6/奢侈.svg",
+    "caption": "xa xỉ"
+  },
   "设立": {
     "file": "设立.svg",
     "src": "images/HSK_2.0/level6/设立.svg",

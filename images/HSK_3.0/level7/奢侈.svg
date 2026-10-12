@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow -->
+  <circle cx="120" cy="115" r="70" fill="#FFB703" opacity="0.08"/>
+  <circle cx="120" cy="115" r="45" fill="#FFB703" opacity="0.05"/>
+
+  <!-- Iconic Object: Luxury Handbag / Purse (Noun representation for "奢侈" - Extravagance/Luxury) -->
+  <g transform="translate(0, 5)">
+    <!-- Bag Shadow/Base -->
+    <ellipse cx="120" cy="180" rx="55" ry="8" fill="#0D0F12" opacity="0.6"/>
+
+    <!-- Handles -->
+    <path d="M 85 95 C 85 60, 155 60, 155 95" fill="none" stroke="#E5E7EB" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M 85 95 C 85 63, 155 63, 155 95" fill="none" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Main Bag Body (Trapezoid with rounded corners) -->
+    <path d="M 72 100 L 168 100 L 180 168 C 180 173, 175 178, 170 178 L 70 178 C 65 178, 60 173, 60 168 Z" fill="#1E2430" stroke="#FFB703" stroke-width="2.5"/>
+
+    <!-- Front Flap / Design Line -->
+    <path d="M 72 100 L 120 142 L 168 100" fill="none" stroke="#FFB703" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Golden Clasp / Lock (Centerpiece of luxury) -->
+    <rect x="108" y="128" width="24" height="20" rx="4" fill="#FFB703"/>
+    <rect x="114" y="132" width="12" height="12" rx="2" fill="#1E2430"/>
+    <circle cx="120" cy="138" r="2.5" fill="#FFB703"/>
+
+    <!-- Luxury Details / Accents -->
+    <line x1="60" y1="100" x2="180" y2="100" stroke="#FFB703" stroke-width="1.5" opacity="0.4"/>
+    
+    <!-- Sparkles / Diamonds (Signifying high value / luxury) -->
+    <!-- Top Right Sparkle -->
+    <path d="M 185 70 C 185 78, 178 80, 178 80 C 178 80, 185 82, 185 90 C 185 82, 192 80, 192 80 C 192 80, 185 78, 185 70 Z" fill="#FFB703"/>
+    
+    <!-- Top Left Small Sparkle -->
+    <path d="M 58 115 C 58 120, 53 121, 53 121 C 53 121, 58 123, 58 128 C 58 123, 63 121, 63 121 C 63 121, 58 120, 58 115 Z" fill="#FFB703" opacity="0.8"/>
+    
+    <!-- Bottom Right Sparkle -->
+    <path d="M 165 155 C 165 160, 160 161, 160 161 C 160 161, 165 163, 165 168 C 165 163, 170 161, 170 161 C 170 161, 165 160, 165 155 Z" fill="#FFB703" opacity="0.7"/>
+  </g>
+</svg>
