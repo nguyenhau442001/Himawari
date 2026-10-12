@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group of three people engaged in an enthusiastic discussion -->
+  <g transform="translate(40, 80)">
+    <!-- Person 1 (Left) -->
+    <g transform="translate(0, 0)">
+      <circle cx="25" cy="25" r="25" fill="#FFB84D"/>
+      <path d="M15 35 Q25 45 35 35" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="5" y="60" width="40" height="70" rx="10" fill="#4D94FF"/>
+      <path d="M5 60 L45 60 L40 130 L10 130 Z" fill="#3377CC"/>
+    </g>
+
+    <!-- Person 2 (Center - Speaker) -->
+    <g transform="translate(60, -20)">
+      <circle cx="25" cy="25" r="25" fill="#FFD699"/>
+      <path d="M15 25 Q25 35 35 25" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M10 15 L15 20 M40 15 L35 20" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+      <rect x="5" y="60" width="40" height="90" rx="10" fill="#FFB84D"/>
+      <path d="M10 70 L20 60 L30 70" fill="#1A1D24" opacity="0.2"/>
+    </g>
+
+    <!-- Person 3 (Right) -->
+    <g transform="translate(120, 0)">
+      <circle cx="25" cy="25" r="25" fill="#FFB84D"/>
+      <path d="M15 35 Q25 45 35 35" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="5" y="60" width="40" height="70" rx="10" fill="#4D94FF"/>
+      <path d="M5 60 L45 60 L40 130 L10 130 Z" fill="#3377CC"/>
+    </g>
+  </g>
+
+  <!-- Dynamic motion lines to represent excitement/energy -->
+  <path d="M100 60 Q120 40 140 60" stroke="#FFB84D" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M110 50 Q120 30 130 50" stroke="#FFB84D" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="160" cy="50" r="4" fill="#FFB84D"/>
+  <circle cx="170" cy="40" r="3" fill="#FFB84D"/>
+</svg>

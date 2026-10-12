@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Child character with injured knee -->
+  <g transform="translate(60, 140)">
+    <circle cx="20" cy="-10" r="12" fill="#FFD180"/>
+    <rect x="15" y="2" width="10" height="25" rx="2" fill="#FFD180"/>
+    <rect x="10" y="27" width="8" height="20" rx="2" fill="#FFD180"/>
+    <rect x="22" y="27" width="8" height="20" rx="2" fill="#FFD180"/>
+    <!-- Injury patch -->
+    <rect x="12" y="25" width="16" height="6" rx="1" fill="#E53935"/>
+  </g>
+
+  <!-- Mother character kneeling/leaning in with concerned expression -->
+  <g transform="translate(120, 100)">
+    <!-- Body -->
+    <path d="M20 20 L40 100 L0 100 Z" fill="#4FC3F7"/>
+    <!-- Head -->
+    <circle cx="20" cy="0" r="20" fill="#FFD180"/>
+    <!-- Concerned facial features -->
+    <path d="M10 -5 L15 -2 M25 -5 L30 -2" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M12 10 Q20 15 28 10" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Action: Hand reaching out to gently touch the child's knee -->
+    <path d="M-10 40 L-30 60" stroke="#FFD180" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-35" cy="65" r="8" fill="#FFD180"/>
+  </g>
+
+  <!-- Motion lines indicating gentle, concerned movement -->
+  <path d="M80 150 Q90 140 100 150" stroke="#FFD180" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M85 155 Q95 145 105 155" stroke="#FFD180" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+</svg>
