@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:33:04.048243",
-  "total_unique_words_with_illustrations": 3789,
-  "total_flat_svg_files": 3789,
+  "generated_at": "2026-10-12T12:34:56.684054",
+  "total_unique_words_with_illustrations": 3799,
+  "total_flat_svg_files": 3799,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1149,
-        "pct": "46.0%"
+        "with_svg": 1159,
+        "pct": "46.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 407,
-        "pct": "22.6%"
+        "with_svg": 409,
+        "pct": "22.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 472,
-        "pct": "8.4%"
+        "with_svg": 480,
+        "pct": "8.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 472,
-        "pct": "8.4%"
+        "with_svg": 480,
+        "pct": "8.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 472,
-        "pct": "8.4%"
+        "with_svg": 480,
+        "pct": "8.6%"
       }
     }
   },
@@ -58304,6 +58304,218 @@
       "src": "images/HSK_2.0/level6/高超.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/高超.svg"
+      ]
+    },
+    "高潮": {
+      "hanzi": "高潮",
+      "pinyin": "gāocháo",
+      "meaning": "cao trào",
+      "example_zh": "比赛进入了<u>高潮</u>。",
+      "example_vi": "Trận đấu đã vào <u>cao trào</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "高潮.svg",
+      "src": "images/HSK_2.0/level6/高潮.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/高潮.svg",
+        "images/HSK_3.0/level8/高潮.svg",
+        "images/HSK_3.0/level9/高潮.svg"
+      ]
+    },
+    "高峰": {
+      "hanzi": "高峰",
+      "pinyin": "gāofēng",
+      "meaning": "cao điểm, đỉnh cao",
+      "example_zh": "现在是交通<u>高峰</u>期。",
+      "example_vi": "Bây giờ là giờ <u>cao điểm</u> giao thông.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "高峰.svg",
+      "src": "images/HSK_2.0/level6/高峰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/高峰.svg"
+      ]
+    },
+    "高明": {
+      "hanzi": "高明",
+      "pinyin": "gāomíng",
+      "meaning": "khôn khéo, tài tình",
+      "example_zh": "这个办法很<u>高明</u>。",
+      "example_vi": "Cách này rất <u>khôn khéo, tài tình</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "高明.svg",
+      "src": "images/HSK_2.0/level6/高明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/高明.svg",
+        "images/HSK_3.0/level8/高明.svg",
+        "images/HSK_3.0/level9/高明.svg"
+      ]
+    },
+    "高尚": {
+      "hanzi": "高尚",
+      "pinyin": "gāoshàng",
+      "meaning": "cao thượng",
+      "example_zh": "他品格<u>高尚</u>。",
+      "example_vi": "Nhân cách của anh ấy rất <u>cao thượng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "高尚.svg",
+      "src": "images/HSK_2.0/level6/高尚.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/高尚.svg"
+      ]
+    },
+    "高涨": {
+      "hanzi": "高涨",
+      "pinyin": "gāozhǎng",
+      "meaning": "dâng cao (tinh thần, giá)",
+      "example_zh": "大家的热情很<u>高涨</u>。",
+      "example_vi": "Nhiệt huyết của mọi người rất <u>dâng cao</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "高涨.svg",
+      "src": "images/HSK_2.0/level6/高涨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/高涨.svg",
+        "images/HSK_3.0/level8/高涨.svg",
+        "images/HSK_3.0/level9/高涨.svg"
+      ]
+    },
+    "告辞": {
+      "hanzi": "告辞",
+      "pinyin": "gàocí",
+      "meaning": "xin phép cáo từ",
+      "example_zh": "时间不早了，我先<u>告辞</u>了。",
+      "example_vi": "Cũng muộn rồi, tôi <u>xin phép cáo từ</u> trước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "告辞.svg",
+      "src": "images/HSK_2.0/level6/告辞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/告辞.svg",
+        "images/HSK_3.0/level8/告辞.svg",
+        "images/HSK_3.0/level9/告辞.svg"
+      ]
+    },
+    "告诫": {
+      "hanzi": "告诫",
+      "pinyin": "gàojiè",
+      "meaning": "răn dạy, cảnh báo",
+      "example_zh": "老师<u>告诫</u>我们要努力学习。",
+      "example_vi": "Thầy giáo <u>răn dạy</u> chúng tôi phải học hành chăm chỉ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "告诫.svg",
+      "src": "images/HSK_2.0/level6/告诫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/告诫.svg",
+        "images/HSK_3.0/level8/告诫.svg",
+        "images/HSK_3.0/level9/告诫.svg"
+      ]
+    },
+    "隔阂": {
+      "hanzi": "隔阂",
+      "pinyin": "géhé",
+      "meaning": "khoảng cách, hiểu lầm",
+      "example_zh": "他们之间存在着<u>隔阂</u>。",
+      "example_vi": "Giữa họ tồn tại <u>khoảng cách, hiểu lầm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "隔阂.svg",
+      "src": "images/HSK_2.0/level6/隔阂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/隔阂.svg",
+        "images/HSK_3.0/level8/隔阂.svg",
+        "images/HSK_3.0/level9/隔阂.svg"
+      ]
+    },
+    "格局": {
+      "hanzi": "格局",
+      "pinyin": "géjú",
+      "meaning": "cục diện, cấu trúc tổng thể",
+      "example_zh": "这个市场的<u>格局</u>正在改变。",
+      "example_vi": "<u>Cục diện</u> thị trường này đang thay đổi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "格局.svg",
+      "src": "images/HSK_2.0/level6/格局.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/格局.svg",
+        "images/HSK_3.0/level8/格局.svg",
+        "images/HSK_3.0/level9/格局.svg"
+      ]
+    },
+    "隔离": {
+      "hanzi": "隔离",
+      "pinyin": "gélí",
+      "meaning": "cách ly",
+      "example_zh": "病人需要被<u>隔离</u>。",
+      "example_vi": "Bệnh nhân cần được <u>cách ly</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "隔离.svg",
+      "src": "images/HSK_2.0/level6/隔离.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/隔离.svg",
+        "images/HSK_3.0/level8/隔离.svg",
+        "images/HSK_3.0/level9/隔离.svg"
       ]
     },
     "更新": {

@@ -1,0 +1,120 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm Light Gradient (Left side) -->
+    <linearGradient id="warmLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Cool Light Gradient (Right side) -->
+    <linearGradient id="coolLight" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Floor Gradient -->
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#04060a"/>
+    </linearGradient>
+
+    <!-- Shadow Filter -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Glow Filter for the Gap -->
+    <filter id="gapGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Ambient Room Lighting -->
+  <rect width="240" height="240" rx="24" fill="url(#warmLight)"/>
+  <rect width="240" height="240" rx="24" fill="url(#coolLight)"/>
+
+  <!-- Background Architecture (Living Room / Office) -->
+  <!-- Wall panels & subtle interior lines -->
+  <line x1="120" y1="30" x2="120" y2="180" stroke="#1e293b" stroke-width="2" opacity="0.3"/>
+  <rect x="30" y="50" width="60" height="40" rx="4" fill="#1b253b" opacity="0.4"/> <!-- Left Window -->
+  <rect x="150" y="50" width="60" height="40" rx="4" fill="#1b253b" opacity="0.4"/> <!-- Right Window -->
+
+  <!-- Houseplant in background (adds life) -->
+  <circle cx="120" cy="115" r="8" fill="#10b981" opacity="0.4"/>
+  <path d="M120 123 L120 145" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Floor -->
+  <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="url(#floorGrad)"/>
+  <line x1="0" y1="180" x2="240" y2="180" stroke="#334155" stroke-width="2" opacity="0.5"/>
+
+  <!-- CENTRAL METAPHOR: The Gap / Partition (隔阂) -->
+  <g filter="url(#gapGlow)">
+    <!-- Crevasse / Light rift on the floor and rising up -->
+    <path d="M114 180 L120 130 L126 180 Z" fill="#0f172a"/>
+    <path d="M117 180 L120 140 L123 180 Z" fill="#38bdf8" opacity="0.2"/>
+    <line x1="120" y1="40" x2="120" y2="175" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 6" opacity="0.4"/>
+  </g>
+
+  <!-- LEFT CHARACTER & ENVIRONMENT (Warm/Orange theme) -->
+  <!-- Sofa / Furniture Left -->
+  <path d="M20 150 L85 150 L85 175 L20 175 Z" fill="#334155" rx="4"/>
+  <path d="M20 135 L85 135 L85 152 L20 152 Z" fill="#475569" rx="6"/>
+  <path d="M15 145 L22 145 L22 178 L15 178 Z" fill="#1e293b" rx="2"/>
+
+  <!-- Left Character (Person A - turned away, looking down/sad) -->
+  <g filter="url(#softShadow)">
+    <!-- Body -->
+    <path d="M45 135 C45 115 65 115 65 135 L70 165 C70 170 65 175 60 175 L35 175 C30 175 25 170 25 165 Z" fill="#f59e0b"/>
+    <!-- Head -->
+    <circle cx="55" cy="100" r="14" fill="#fed7aa"/>
+    <!-- Hair -->
+    <path d="M41 98 C41 85 69 85 69 98 C69 101 67 101 65 96 C62 89 48 89 45 96 C43 101 41 101 41 98 Z" fill="#78350f"/>
+    <!-- Arm crossed / posture -->
+    <path d="M45 130 Q55 140 62 135" stroke="#d97706" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Coffee Table Left with cup -->
+  <rect x="75" y="165" width="30" height="15" rx="2" fill="#64748b"/>
+  <path d="M85 157 Q88 153 91 157" stroke="#cbd5e1" stroke-width="2" fill="none"/> <!-- Cup -->
+
+  <!-- RIGHT CHARACTER & ENVIRONMENT (Cool/Blue theme) -->
+  <!-- Sofa / Furniture Right -->
+  <path d="M155 150 L220 150 L220 175 L155 175 Z" fill="#334155" rx="4"/>
+  <path d="M155 135 L220 135 L220 152 L155 152 Z" fill="#475569" rx="6"/>
+  <path d="M218 145 L225 145 L225 178 L218 178 Z" fill="#1e293b" rx="2"/>
+
+  <!-- Right Character (Person B - looking away in opposite direction) -->
+  <g filter="url(#softShadow)">
+    <!-- Body -->
+    <path d="M175 135 C175 115 195 115 195 135 L200 165 C200 170 195 175 190 175 L165 175 C160 175 155 170 155 165 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="185" cy="100" r="14" fill="#fed7aa"/>
+    <!-- Hair -->
+    <path d="M171 98 C171 85 199 85 199 98 C199 101 197 101 195 96 C192 89 178 89 175 96 C173 101 171 101 171 98 Z" fill="#1e1b4b"/>
+    <!-- Arm posture -->
+    <path d="M195 130 Q185 140 178 135" stroke="#0284c7" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Coffee Table Right with lamp/item -->
+  <rect x="135" y="165" width="30" height="15" rx="2" fill="#64748b"/>
+  <circle cx="145" cy="158" r="4" fill="#cbd5e1"/>
+
+  <!-- Atmospheric Floating Particle / Emotional Distance Indicators (Subtle, non-textual) -->
+  <g opacity="0.6">
+    <circle cx="105" cy="90" r="2" fill="#94a3b8"/>
+    <circle cx="112" cy="75" r="1.5" fill="#64748b"/>
+    <circle cx="130" cy="85" r="2.5" fill="#94a3b8"/>
+    <circle cx="138" cy="105" r="1.5" fill="#64748b"/>
+    <circle cx="125" cy="65" r="2" fill="#cbd5e1"/>
+  </g>
+</svg>

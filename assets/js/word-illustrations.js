@@ -15827,6 +15827,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/高超.svg",
     "caption": "cao siêu"
   },
+  "高潮": {
+    "file": "高潮.svg",
+    "src": "images/HSK_2.0/level6/高潮.svg",
+    "caption": "cao trào"
+  },
+  "高峰": {
+    "file": "高峰.svg",
+    "src": "images/HSK_2.0/level6/高峰.svg",
+    "caption": "cao điểm, đỉnh cao"
+  },
+  "高明": {
+    "file": "高明.svg",
+    "src": "images/HSK_2.0/level6/高明.svg",
+    "caption": "khôn khéo, tài tình"
+  },
+  "高尚": {
+    "file": "高尚.svg",
+    "src": "images/HSK_2.0/level6/高尚.svg",
+    "caption": "cao thượng"
+  },
+  "高涨": {
+    "file": "高涨.svg",
+    "src": "images/HSK_2.0/level6/高涨.svg",
+    "caption": "dâng cao (tinh thần, giá)"
+  },
+  "告辞": {
+    "file": "告辞.svg",
+    "src": "images/HSK_2.0/level6/告辞.svg",
+    "caption": "xin phép cáo từ"
+  },
+  "告诫": {
+    "file": "告诫.svg",
+    "src": "images/HSK_2.0/level6/告诫.svg",
+    "caption": "răn dạy, cảnh báo"
+  },
+  "隔阂": {
+    "file": "隔阂.svg",
+    "src": "images/HSK_2.0/level6/隔阂.svg",
+    "caption": "khoảng cách, hiểu lầm"
+  },
+  "格局": {
+    "file": "格局.svg",
+    "src": "images/HSK_2.0/level6/格局.svg",
+    "caption": "cục diện, cấu trúc tổng thể"
+  },
+  "隔离": {
+    "file": "隔离.svg",
+    "src": "images/HSK_2.0/level6/隔离.svg",
+    "caption": "cách ly"
+  },
   "更新": {
     "file": "更新.svg",
     "src": "images/HSK_2.0/level6/更新.svg",
