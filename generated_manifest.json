@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:11:39.084910",
-  "total_unique_words_with_illustrations": 4558,
-  "total_flat_svg_files": 4558,
+  "generated_at": "2026-10-12T23:12:09.889874",
+  "total_unique_words_with_illustrations": 4563,
+  "total_flat_svg_files": 4563,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1918,
-        "pct": "76.7%"
+        "with_svg": 1923,
+        "pct": "76.9%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 635,
-        "pct": "35.3%"
+        "with_svg": 638,
+        "pct": "35.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 965,
-        "pct": "17.2%"
+        "with_svg": 967,
+        "pct": "17.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 965,
-        "pct": "17.2%"
+        "with_svg": 967,
+        "pct": "17.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 965,
-        "pct": "17.2%"
+        "with_svg": 967,
+        "pct": "17.3%"
       }
     }
   },
@@ -74736,6 +74736,46 @@
         "images/HSK_3.0/level6/时机.svg"
       ]
     },
+    "时事": {
+      "hanzi": "时事",
+      "pinyin": "shíshì",
+      "meaning": "thời sự",
+      "example_zh": "他经常关注国内外<u>时事</u>。",
+      "example_vi": "Anh ấy thường quan tâm <u>thời sự</u> trong và ngoài nước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "时事.svg",
+      "src": "images/HSK_2.0/level6/时事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/时事.svg",
+        "images/HSK_3.0/level8/时事.svg",
+        "images/HSK_3.0/level9/时事.svg"
+      ]
+    },
+    "实惠": {
+      "hanzi": "实惠",
+      "pinyin": "shíhuì",
+      "meaning": "thực tế và có lợi, hời",
+      "example_zh": "这个价格非常<u>实惠</u>。",
+      "example_vi": "Mức giá này rất <u>hời</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "实惠.svg",
+      "src": "images/HSK_2.0/level6/实惠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/实惠.svg"
+      ]
+    },
     "实力": {
       "hanzi": "实力",
       "pinyin": "shílì",
@@ -74772,6 +74812,28 @@
         "images/HSK_3.0/level5/实施.svg"
       ]
     },
+    "实事求是": {
+      "hanzi": "实事求是",
+      "pinyin": "shíshìqiúshì",
+      "meaning": "thực sự cầu thị, tôn trọng sự thật",
+      "example_zh": "我们要<u>实事求是</u>地解决问题。",
+      "example_vi": "Chúng ta phải giải quyết vấn đề một cách <u>tôn trọng sự thật</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "实事求是.svg",
+      "src": "images/HSK_2.0/level6/实事求是.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/实事求是.svg",
+        "images/HSK_3.0/level8/实事求是.svg",
+        "images/HSK_3.0/level9/实事求是.svg"
+      ]
+    },
     "实行": {
       "hanzi": "实行",
       "pinyin": "shíxíng",
@@ -74788,6 +74850,42 @@
       "src": "images/HSK_2.0/level6/实行.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/实行.svg"
+      ]
+    },
+    "实质": {
+      "hanzi": "实质",
+      "pinyin": "shízhì",
+      "meaning": "thực chất, bản chất",
+      "example_zh": "我们要看清问题的<u>实质</u>。",
+      "example_vi": "Chúng ta cần nhìn rõ <u>bản chất</u> của vấn đề.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "实质.svg",
+      "src": "images/HSK_2.0/level6/实质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/实质.svg"
+      ]
+    },
+    "石油": {
+      "hanzi": "石油",
+      "pinyin": "shíyóu",
+      "meaning": "dầu mỏ",
+      "example_zh": "这个国家盛产<u>石油</u>。",
+      "example_vi": "Quốc gia này sản xuất nhiều <u>dầu mỏ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "石油.svg",
+      "src": "images/HSK_2.0/level6/石油.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/石油.svg"
       ]
     },
     "试验": {

@@ -19892,6 +19892,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/时机.svg",
     "caption": "thời cơ"
   },
+  "时事": {
+    "file": "时事.svg",
+    "src": "images/HSK_2.0/level6/时事.svg",
+    "caption": "thời sự"
+  },
+  "实惠": {
+    "file": "实惠.svg",
+    "src": "images/HSK_2.0/level6/实惠.svg",
+    "caption": "thực tế và có lợi, hời"
+  },
   "实力": {
     "file": "实力.svg",
     "src": "images/HSK_2.0/level6/实力.svg",
@@ -19902,10 +19912,25 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/实施.svg",
     "caption": "thi hành, thực thi"
   },
+  "实事求是": {
+    "file": "实事求是.svg",
+    "src": "images/HSK_2.0/level6/实事求是.svg",
+    "caption": "thực sự cầu thị, tôn trọng sự thật"
+  },
   "实行": {
     "file": "实行.svg",
     "src": "images/HSK_2.0/level6/实行.svg",
     "caption": "thực hiện"
+  },
+  "实质": {
+    "file": "实质.svg",
+    "src": "images/HSK_2.0/level6/实质.svg",
+    "caption": "thực chất, bản chất"
+  },
+  "石油": {
+    "file": "石油.svg",
+    "src": "images/HSK_2.0/level6/石油.svg",
+    "caption": "dầu mỏ"
   },
   "试验": {
     "file": "试验.svg",

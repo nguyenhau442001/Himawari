@@ -1,0 +1,20 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <circle cx="120" cy="120" r="80" fill="#222632" opacity="0.6"/>
+  <g transform="translate(120, 110)">
+    <!-- Document/Fact representation (Solid Base) -->
+    <rect x="-45" y="-35" width="90" height="70" rx="6" fill="#2A303C"/>
+    <rect x="-30" y="-15" width="60" height="6" rx="3" fill="#4B5563"/>
+    <rect x="-30" y="0" width="40" height="6" rx="3" fill="#4B5563"/>
+    
+    <!-- Magnifying glass symbolizing seeking/examining truth -->
+    <circle cx="5" cy="-5" r="32" fill="none" stroke="#F59E0B" stroke-width="7"/>
+    <!-- Glass reflection -->
+    <path d="M -13 -17 A 18 18 0 0 1 1 -23" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+    <!-- Handle -->
+    <line x1="26" y1="16" x2="52" y2="42" stroke="#F59E0B" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Glowing core/Truth spark inside lens -->
+    <circle cx="5" cy="-5" r="6" fill="#10B981"/>
+  </g>
+</svg>

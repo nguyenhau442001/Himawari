@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Elements for Modern Flat Dark Mode -->
+  <g opacity="0.3">
+    <!-- Grid/Tech lines representing industrial context -->
+    <line x1="40" y1="190" x2="200" y2="190" stroke="#2A303C" stroke-width="2" stroke-linecap="round"/>
+    <line x1="120" y1="50" x2="120" y2="190" stroke="#2A303C" stroke-dasharray="4 4" stroke-width="1.5"/>
+  </g>
+
+  <!-- Central Oil Derrick / Pump Jack Graphic (Representing "石油" - Petroleum / Crude Oil) -->
+  <g transform="translate(0, 5)">
+    <!-- Base / Foundation -->
+    <path d="M95 175H145V185H95Z" fill="#3A4454"/>
+    <rect x="105" y="150" width="30" height="25" fill="#2E3744"/>
+
+    <!-- Walking Beam & Counterweight System -->
+    <!-- Samson Post (Vertical support) -->
+    <rect x="115" y="90" width="10" height="60" fill="#4E5D73"/>
+    
+    <!-- Walking Beam (Tilting arm) -->
+    <polygon points="70,95 170,85 170,95 70,105" fill="#FFB703"/>
+
+    <!-- Counterweight at back -->
+    <path d="M155 85L175 85V110H155Z" fill="#E69500" rx="2"/>
+
+    <!-- Horsehead front curve -->
+    <path d="M70 95C60 95 55 100 55 110V115H75V95H70Z" fill="#FFB703"/>
+
+    <!-- Cable / Polished Rod -->
+    <line x1="60" y1="115" x2="60" y2="145" stroke="#8CA0BA" stroke-width="3"/>
+
+    <!-- Derrick / A-Frame Structure -->
+    <polygon points="120,45 90,165 150,165" fill="none" stroke="#6C7D93" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Internal truss lines of the derrick -->
+    <line x1="102" y1="100" x2="138" y2="100" stroke="#6C7D93" stroke-width="3"/>
+    <line x1="96" y1="130" x2="144" y2="130" stroke="#6C7D93" stroke-width="3"/>
+    <line x1="120" y1="45" x2="120" y2="165" stroke="#4E5D73" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Crude Oil Drops & Puddle (Focus on the physical material/liquid) -->
+  <g>
+    <!-- Oil Puddle at the bottom -->
+    <ellipse cx="120" cy="195" rx="75" ry="10" fill="#0D1117"/>
+    <ellipse cx="120" cy="195" rx="60" ry="6" fill="#1F3A28" opacity="0.6"/>
+    <ellipse cx="120" cy="195" rx="45" ry="3" fill="#2D6A4F" opacity="0.4"/>
+
+    <!-- Falling Oil Drops with High-Contrast Amber/Gold/Dark Glow -->
+    <!-- Drop 1 (Medium) -->
+    <path d="M85 130C85 130 75 145 75 152C75 157.5 79.5 162 85 162C90.5 162 95 157.5 95 152C95 145 85 130 85 130Z" fill="#FFB703"/>
+    <path d="M82 148C82 148 80 152 80 155C80 156.7 81.3 158 83 158" stroke="#FFE680" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Drop 2 (Small) -->
+    <path d="M165 145C165 145 159 154 159 159C159 162.3 161.7 165 165 165C168.3 165 171 162.3 171 159C171 154 165 145 165 145Z" fill="#F48C06"/>
+  </g>
+
+  <!-- Sleek UI Accent Frame (Corners) -->
+  <path d="M20 36V24C24 24 24 24 36 24" stroke="#4E5D73" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M220 36V24C216 24 216 24 204 24" stroke="#4E5D73" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M20 204V216C24 216 24 216 36 216" stroke="#4E5D73" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M220 204V216C216 216 216 216 204 216" stroke="#4E5D73" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>
