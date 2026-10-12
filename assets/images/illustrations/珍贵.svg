@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Background elements: Park bench and tree -->
+    <path d="M40 160 L160 160 L150 180 L30 180 Z" fill="#475569"/>
+    <path d="M50 180 L55 200 M140 180 L135 200" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="180" cy="60" r="40" fill="#10b981" opacity="0.3"/>
+    
+    <!-- Characters -->
+    <!-- Character 1 (Left) -->
+    <g transform="translate(40, 80)">
+      <circle cx="20" cy="20" r="15" fill="#fbbf24"/>
+      <path d="M5 35 Q20 50 35 35" stroke="#fbbf24" stroke-width="6" fill="none"/>
+      <path d="M10 55 L15 90 L5 110 M35 55 L30 90 L40 110" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+      <rect x="5" y="40" width="30" height="20" rx="5" fill="#ec4899"/>
+    </g>
+    
+    <!-- Character 2 (Right) -->
+    <g transform="translate(120, 80)">
+      <circle cx="20" cy="20" r="15" fill="#fb923c"/>
+      <path d="M5 35 Q20 50 35 35" stroke="#fb923c" stroke-width="6" fill="none"/>
+      <path d="M10 55 L15 90 L5 110 M35 55 L30 90 L40 110" stroke="#10b981" stroke-width="8" stroke-linecap="round"/>
+      <rect x="5" y="40" width="30" height="20" rx="5" fill="#38bdf8"/>
+    </g>
+    
+    <!-- The "Precious" object: A glowing heart-shaped locket held between them -->
+    <g transform="translate(95, 100)">
+      <path d="M10 0 C10 -10 20 -10 20 0 C20 10 10 15 0 10 C-10 15 -20 10 -20 0 C-20 -10 -10 -10 -10 0 Z" fill="#f59e0b"/>
+      <circle cx="0" cy="0" r="25" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+    </g>
+    
+    <!-- Decorative sparkles -->
+    <path d="M80 50 L85 45 L90 50 L85 55 Z" fill="#fbbf24"/>
+    <path d="M150 70 L153 67 L156 70 L153 73 Z" fill="#fbbf24"/>
+    <path d="M110 30 L114 26 L118 30 L114 34 Z" fill="#fbbf24"/>
+  </g>
+</svg>

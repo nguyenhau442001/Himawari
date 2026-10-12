@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Stage Floor -->
+  <rect x="0" y="180" width="240" height="60" fill="#0f172a" opacity="0.5"/>
+  
+  <!-- Speaker on Stage -->
+  <g transform="translate(120, 100)">
+    <circle cx="0" cy="-30" r="15" fill="#fcd34d"/>
+    <path d="M-20 0 L20 0 L15 60 L-15 60 Z" fill="#fb923c"/>
+    <path d="M-5 10 L-15 40 M5 10 L15 40" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Podium -->
+  <path d="M105 140 L135 140 L145 180 L95 180 Z" fill="#38bdf8"/>
+  
+  <!-- Audience (Hands clapping) -->
+  <g transform="translate(40, 190)">
+    <circle cx="0" cy="20" r="12" fill="#ec4899"/>
+    <path d="M-10 10 L-5 0 M5 10 L10 0" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(80, 200)">
+    <circle cx="0" cy="20" r="12" fill="#10b981"/>
+    <path d="M-10 10 L-5 0 M5 10 L10 0" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(160, 200)">
+    <circle cx="0" cy="20" r="12" fill="#ec4899"/>
+    <path d="M-10 10 L-5 0 M5 10 L10 0" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(200, 190)">
+    <circle cx="0" cy="20" r="12" fill="#10b981"/>
+    <path d="M-10 10 L-5 0 M5 10 L10 0" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sound/Clapping Effects -->
+  <circle cx="60" cy="160" r="4" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="180" cy="160" r="4" fill="#fbbf24" opacity="0.8"/>
+  <path d="M120 80 Q130 60 140 80" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M110 85 Q120 65 130 85" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>

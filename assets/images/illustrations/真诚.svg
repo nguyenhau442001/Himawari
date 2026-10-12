@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background elements -->
+  <circle cx="190" cy="50" r="30" fill="#fbbf24" opacity="0.1"/>
+  <rect x="20" y="150" width="200" height="60" rx="10" fill="#334155"/>
+  
+  <!-- Table -->
+  <path d="M30 160 L210 160 L200 180 L40 180 Z" fill="#475569"/>
+  
+  <!-- Character 1 (The Friend) -->
+  <g transform="translate(60, 100)">
+    <circle cx="20" cy="20" r="15" fill="#fde68a"/>
+    <path d="M10 35 Q20 50 30 35" stroke="#fb923c" stroke-width="2" fill="none"/>
+    <rect x="5" y="50" width="30" height="60" rx="5" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Character 2 (The Subject - Showing Sincerity) -->
+  <g transform="translate(130, 80)">
+    <circle cx="20" cy="20" r="18" fill="#fde68a"/>
+    <path d="M10 35 Q20 45 30 35" stroke="#ec4899" stroke-width="2" fill="none"/>
+    <rect x="5" y="55" width="30" height="70" rx="5" fill="#fb923c"/>
+    <!-- Hand gesture of sincerity/listening -->
+    <path d="M35 70 L50 60" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Props: Coffee mugs for shared moment -->
+  <rect x="80" y="140" width="15" height="20" rx="2" fill="#10b981"/>
+  <rect x="150" y="140" width="15" height="20" rx="2" fill="#10b981"/>
+  
+  <!-- Sincerity Glow/Heart Accent -->
+  <path d="M110 70 L115 60 L120 70 L110 80 L100 70 L105 60 Z" fill="#ec4899" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </path>
+</svg>

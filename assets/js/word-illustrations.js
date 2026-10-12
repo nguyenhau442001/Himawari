@@ -16151,6 +16151,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "展现.svg",
     "src": "images/HSK_3.0/level5/展现.svg",
     "caption": "hiển thị"
+  },
+  "站台": {
+    "file": "站台.svg",
+    "src": "images/HSK_3.0/level5/站台.svg",
+    "caption": "sân ga (ga tàu)"
+  },
+  "涨价": {
+    "file": "涨价.svg",
+    "src": "images/HSK_3.0/level5/涨价.svg",
+    "caption": "tăng giá, lên giá"
+  },
+  "掌声": {
+    "file": "掌声.svg",
+    "src": "images/HSK_3.0/level5/掌声.svg",
+    "caption": "tiếng vỗ tay, tràng pháo tay"
+  },
+  "账号": {
+    "file": "账号.svg",
+    "src": "images/HSK_3.0/level5/账号.svg",
+    "caption": "tài khoản"
+  },
+  "折扣": {
+    "file": "折扣.svg",
+    "src": "images/HSK_3.0/level5/折扣.svg",
+    "caption": "chiết khấu, giảm giá"
+  },
+  "真诚": {
+    "file": "真诚.svg",
+    "src": "images/HSK_3.0/level5/真诚.svg",
+    "caption": "chân thành"
+  },
+  "珍贵": {
+    "file": "珍贵.svg",
+    "src": "images/HSK_3.0/level5/珍贵.svg",
+    "caption": "quý giá"
+  },
+  "争": {
+    "file": "争.svg",
+    "src": "images/HSK_3.0/level5/争.svg",
+    "caption": "tranh, tranh giành, dốc sức giành lấy"
+  },
+  "整整": {
+    "file": "整整.svg",
+    "src": "images/HSK_3.0/level5/整整.svg",
+    "caption": "tròn, trọn vẹn, ròng rã"
+  },
+  "正如": {
+    "file": "正如.svg",
+    "src": "images/HSK_3.0/level5/正如.svg",
+    "caption": "đúng như, giống như"
   }
 };
 
