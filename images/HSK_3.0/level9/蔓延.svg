@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Mountain Slope -->
+  <path d="M0 240 L0 160 C 60 120, 180 120, 240 160 L 240 240 Z" fill="#334155"/>
+  <path d="M20 240 L 80 140 L 160 180 L 240 130 L 240 240 Z" fill="#1e293b" opacity="0.5"/>
+  
+  <!-- Fire Spreading (The "Manyan" action) -->
+  <g id="fire-group">
+    <path d="M140 160 C 150 130, 170 120, 190 140 C 210 120, 230 130, 240 160 Z" fill="#fb923c"/>
+    <path d="M150 165 C 160 140, 180 135, 195 150 C 210 140, 225 145, 235 165 Z" fill="#f59e0b"/>
+    <path d="M160 170 C 170 155, 185 150, 195 160 C 205 155, 215 155, 225 170 Z" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Secondary smaller flames spreading -->
+  <path d="M100 180 C 105 165, 115 160, 125 170 Z" fill="#fb923c" opacity="0.8"/>
+  <path d="M70 190 C 75 180, 80 175, 90 185 Z" fill="#fb923c" opacity="0.6"/>
+
+  <!-- Character: Hiker looking back in alarm -->
+  <g transform="translate(40, 160)">
+    <!-- Body -->
+    <path d="M10 40 L 30 40 L 25 70 L 15 70 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="20" cy="25" r="12" fill="#fde68a"/>
+    <!-- Backpack -->
+    <rect x="5" y="35" width="10" height="20" rx="2" fill="#ec4899"/>
+    <!-- Arm pointing -->
+    <path d="M25 45 L 45 35" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+    <!-- Eye -->
+    <circle cx="26" cy="22" r="2" fill="#0f172a"/>
+  </g>
+
+  <!-- Smoke -->
+  <circle cx="180" cy="100" r="15" fill="#475569" opacity="0.3"/>
+  <circle cx="200" cy="80" r="20" fill="#475569" opacity="0.2"/>
+  <circle cx="220" cy="110" r="10" fill="#475569" opacity="0.4"/>
+</svg>

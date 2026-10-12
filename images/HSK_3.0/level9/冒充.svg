@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="20" y="140" width="200" height="80" rx="8" fill="#334155"/>
+  <rect x="30" y="150" width="180" height="10" rx="2" fill="#1e293b"/>
+  
+  <!-- Victim (Elderly person) -->
+  <circle cx="60" cy="110" r="15" fill="#fde68a"/>
+  <path d="M45 125 Q60 140 75 125" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <rect x="45" y="125" width="30" height="40" rx="5" fill="#64748b"/>
+  
+  <!-- Imposter (Fake Police) -->
+  <g transform="translate(140, 80)">
+    <rect x="-10" y="0" width="40" height="60" rx="5" fill="#38bdf8"/>
+    <circle cx="10" cy="-15" r="15" fill="#fde68a"/>
+    <rect x="0" y="-35" width="20" height="10" rx="2" fill="#38bdf8"/>
+    <path d="M5 10 L35 10 L30 40 L10 40 Z" fill="#0ea5e9"/>
+    <circle cx="10" cy="15" r="4" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Props: Phone and Money -->
+  <rect x="90" y="155" width="30" height="50" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="105" cy="195" r="5" fill="#38bdf8"/>
+  
+  <path d="M160 160 L180 160 L185 180 L155 180 Z" fill="#10b981"/>
+  <path d="M165 165 L175 165 M165 170 L175 170" stroke="#064e3b" stroke-width="2"/>
+  
+  <!-- Warning Accent -->
+  <path d="M200 30 L215 30 L207.5 45 Z" fill="#ec4899"/>
+  <circle cx="207.5" cy="55" r="3" fill="#ec4899"/>
+  
+  <!-- Decorative Background Elements -->
+  <circle cx="30" cy="40" r="2" fill="#475569"/>
+  <circle cx="210" cy="100" r="3" fill="#475569"/>
+  <rect x="20" y="200" width="200" height="2" fill="#475569" opacity="0.3"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:13:42.175439",
-  "total_unique_words_with_illustrations": 4165,
-  "total_flat_svg_files": 4165,
+  "generated_at": "2026-10-12T21:20:17.718970",
+  "total_unique_words_with_illustrations": 4175,
+  "total_flat_svg_files": 4175,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1525,
-        "pct": "61.0%"
+        "with_svg": 1535,
+        "pct": "61.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 523,
+        "with_svg": 524,
         "pct": "29.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 700,
-        "pct": "12.5%"
+        "with_svg": 709,
+        "pct": "12.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 700,
-        "pct": "12.5%"
+        "with_svg": 709,
+        "pct": "12.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 700,
-        "pct": "12.5%"
+        "with_svg": 709,
+        "pct": "12.7%"
       }
     }
   },
@@ -66238,6 +66238,28 @@
         "images/HSK_3.0/level6/漫画.svg"
       ]
     },
+    "蔓延": {
+      "hanzi": "蔓延",
+      "pinyin": "mànyán",
+      "meaning": "lan rộng, lây lan",
+      "example_zh": "火势迅速<u>蔓延</u>到整个山坡。",
+      "example_vi": "Đám cháy nhanh chóng <u>lan rộng</u> ra cả sườn núi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "蔓延.svg",
+      "src": "images/HSK_2.0/level6/蔓延.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/蔓延.svg",
+        "images/HSK_3.0/level8/蔓延.svg",
+        "images/HSK_3.0/level9/蔓延.svg"
+      ]
+    },
     "忙碌": {
       "hanzi": "忙碌",
       "pinyin": "mánglù",
@@ -66254,6 +66276,200 @@
       "src": "images/HSK_2.0/level6/忙碌.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/忙碌.svg"
+      ]
+    },
+    "茫茫": {
+      "hanzi": "茫茫",
+      "pinyin": "mángmáng",
+      "meaning": "mênh mông, bao la",
+      "example_zh": "前面是一片<u>茫茫</u>大海。",
+      "example_vi": "Phía trước là cả một vùng biển <u>mênh mông</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "茫茫.svg",
+      "src": "images/HSK_2.0/level6/茫茫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/茫茫.svg",
+        "images/HSK_3.0/level8/茫茫.svg",
+        "images/HSK_3.0/level9/茫茫.svg"
+      ]
+    },
+    "茫然": {
+      "hanzi": "茫然",
+      "pinyin": "mángrán",
+      "meaning": "mơ hồ, mơ màng, không biết phải làm gì",
+      "example_zh": "听到这个消息，他显得很<u>茫然</u>。",
+      "example_vi": "Nghe tin này, anh ấy có vẻ rất <u>mơ hồ</u>, không biết phải làm gì.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "茫然.svg",
+      "src": "images/HSK_2.0/level6/茫然.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/茫然.svg",
+        "images/HSK_3.0/level8/茫然.svg",
+        "images/HSK_3.0/level9/茫然.svg"
+      ]
+    },
+    "盲目": {
+      "hanzi": "盲目",
+      "pinyin": "mángmù",
+      "meaning": "mù quáng",
+      "example_zh": "不要<u>盲目</u>跟从别人的意见。",
+      "example_vi": "Đừng <u>mù quáng</u> chạy theo ý kiến của người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盲目.svg",
+      "src": "images/HSK_2.0/level6/盲目.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盲目.svg",
+        "images/HSK_3.0/level8/盲目.svg",
+        "images/HSK_3.0/level9/盲目.svg"
+      ]
+    },
+    "冒充": {
+      "hanzi": "冒充",
+      "pinyin": "màochōng",
+      "meaning": "giả mạo, mạo danh",
+      "example_zh": "有人<u>冒充</u>警察进行诈骗。",
+      "example_vi": "Có người <u>mạo danh</u> công an để lừa đảo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冒充.svg",
+      "src": "images/HSK_2.0/level6/冒充.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/冒充.svg",
+        "images/HSK_3.0/level8/冒充.svg",
+        "images/HSK_3.0/level9/冒充.svg"
+      ]
+    },
+    "冒犯": {
+      "hanzi": "冒犯",
+      "pinyin": "màofàn",
+      "meaning": "xúc phạm, làm phật ý",
+      "example_zh": "我无意<u>冒犯</u>您，请原谅。",
+      "example_vi": "Tôi không có ý <u>xúc phạm</u> ngài, xin tha lỗi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冒犯.svg",
+      "src": "images/HSK_2.0/level6/冒犯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/冒犯.svg",
+        "images/HSK_3.0/level8/冒犯.svg",
+        "images/HSK_3.0/level9/冒犯.svg"
+      ]
+    },
+    "茂盛": {
+      "hanzi": "茂盛",
+      "pinyin": "màoshèng",
+      "meaning": "tươi tốt, sum suê",
+      "example_zh": "院子里的树长得很<u>茂盛</u>。",
+      "example_vi": "Cây trong vườn mọc rất <u>sum suê</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "茂盛.svg",
+      "src": "images/HSK_2.0/level6/茂盛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/茂盛.svg",
+        "images/HSK_3.0/level8/茂盛.svg",
+        "images/HSK_3.0/level9/茂盛.svg"
+      ]
+    },
+    "枚": {
+      "hanzi": "枚",
+      "pinyin": "méi",
+      "meaning": "(lượng từ) cái, đồng, viên",
+      "example_zh": "他收集了一<u>枚</u>古币。",
+      "example_vi": "Anh ấy sưu tập được một <u>đồng</u> tiền cổ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "枚.svg",
+      "src": "images/HSK_2.0/level6/枚.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/枚.svg",
+        "images/HSK_3.0/level8/枚.svg",
+        "images/HSK_3.0/level9/枚.svg"
+      ]
+    },
+    "媒介": {
+      "hanzi": "媒介",
+      "pinyin": "méijiè",
+      "meaning": "phương tiện trung gian, truyền thông",
+      "example_zh": "语言是人类交流的重要<u>媒介</u>。",
+      "example_vi": "Ngôn ngữ là <u>phương tiện</u> giao tiếp quan trọng của con người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "媒介.svg",
+      "src": "images/HSK_2.0/level6/媒介.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/媒介.svg",
+        "images/HSK_3.0/level8/媒介.svg",
+        "images/HSK_3.0/level9/媒介.svg"
+      ]
+    },
+    "美观": {
+      "hanzi": "美观",
+      "pinyin": "měiguān",
+      "meaning": "đẹp mắt, mỹ quan",
+      "example_zh": "这个设计既实用又<u>美观</u>。",
+      "example_vi": "Thiết kế này vừa thực dụng vừa <u>đẹp mắt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "美观.svg",
+      "src": "images/HSK_2.0/level6/美观.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/美观.svg"
       ]
     },
     "模式": {

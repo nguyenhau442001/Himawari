@@ -17807,10 +17807,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/漫画.svg",
     "caption": "tranh biếm họa, truyện tranh"
   },
+  "蔓延": {
+    "file": "蔓延.svg",
+    "src": "images/HSK_2.0/level6/蔓延.svg",
+    "caption": "lan rộng, lây lan"
+  },
   "忙碌": {
     "file": "忙碌.svg",
     "src": "images/HSK_2.0/level6/忙碌.svg",
     "caption": "bận rộn"
+  },
+  "茫茫": {
+    "file": "茫茫.svg",
+    "src": "images/HSK_2.0/level6/茫茫.svg",
+    "caption": "mênh mông, bao la"
+  },
+  "茫然": {
+    "file": "茫然.svg",
+    "src": "images/HSK_2.0/level6/茫然.svg",
+    "caption": "mơ hồ, mơ màng, không biết phải làm gì"
+  },
+  "盲目": {
+    "file": "盲目.svg",
+    "src": "images/HSK_2.0/level6/盲目.svg",
+    "caption": "mù quáng"
+  },
+  "冒充": {
+    "file": "冒充.svg",
+    "src": "images/HSK_2.0/level6/冒充.svg",
+    "caption": "giả mạo, mạo danh"
+  },
+  "冒犯": {
+    "file": "冒犯.svg",
+    "src": "images/HSK_2.0/level6/冒犯.svg",
+    "caption": "xúc phạm, làm phật ý"
+  },
+  "茂盛": {
+    "file": "茂盛.svg",
+    "src": "images/HSK_2.0/level6/茂盛.svg",
+    "caption": "tươi tốt, sum suê"
+  },
+  "枚": {
+    "file": "枚.svg",
+    "src": "images/HSK_2.0/level6/枚.svg",
+    "caption": "(lượng từ) cái, đồng, viên"
+  },
+  "媒介": {
+    "file": "媒介.svg",
+    "src": "images/HSK_2.0/level6/媒介.svg",
+    "caption": "phương tiện trung gian, truyền thông"
+  },
+  "美观": {
+    "file": "美观.svg",
+    "src": "images/HSK_2.0/level6/美观.svg",
+    "caption": "đẹp mắt, mỹ quan"
   },
   "模式": {
     "file": "模式.svg",
