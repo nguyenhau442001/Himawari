@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Shop Counter -->
+  <path d="M20 160h200v40c0 11-9 20-20 20H40c-11 0-20-9-20-20V160z" fill="#334155"/>
+  <rect x="30" y="170" width="180" height="10" fill="#475569"/>
+  
+  <!-- Products on counter -->
+  <rect x="50" y="130" width="30" height="30" rx="4" fill="#fbbf24"/>
+  <rect x="100" y="130" width="30" height="30" rx="4" fill="#fbbf24"/>
+  <rect x="150" y="130" width="30" height="30" rx="4" fill="#fbbf24"/>
+  
+  <!-- Customers (Representing high demand) -->
+  <!-- Customer 1 -->
+  <circle cx="65" cy="100" r="15" fill="#f8fafc"/>
+  <path d="M50 115h30v40c0 5-5 10-10 10h-10c-5 0-10-5-10-10V115z" fill="#38bdf8"/>
+  
+  <!-- Customer 2 -->
+  <circle cx="115" cy="90" r="15" fill="#f8fafc"/>
+  <path d="M100 105h30v50c0 5-5 10-10 10h-10c-5 0-10-5-10-10V105z" fill="#ec4899"/>
+  
+  <!-- Customer 3 -->
+  <circle cx="165" cy="100" r="15" fill="#f8fafc"/>
+  <path d="M150 115h30v40c0 5-5 10-10 10h-10c-5 0-10-5-10-10V115z" fill="#10b981"/>
+  
+  <!-- Shopkeeper -->
+  <circle cx="210" cy="180" r="12" fill="#f8fafc"/>
+  <rect x="200" y="192" width="20" height="40" fill="#fb923c"/>
+  
+  <!-- Demand Indicators (Arrows/Glow) -->
+  <path d="M70 70 L80 50 L90 70" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M120 60 L130 40 L140 60" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M170 70 L180 50 L190 70" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Background elements -->
+  <rect x="40" y="40" width="160" height="2" fill="#334155"/>
+  <rect x="40" y="50" width="160" height="2" fill="#334155"/>
+</svg>

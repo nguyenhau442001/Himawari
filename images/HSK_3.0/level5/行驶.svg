@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Tracks -->
+  <path d="M20 180 L220 180 M20 195 L220 195" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  <path d="M30 180 L20 195 M70 180 L60 195 M110 180 L100 195 M150 180 L140 195 M190 180 L180 195 M230 180 L220 195" stroke="#475569" stroke-width="3"/>
+
+  <!-- Train Body -->
+  <rect x="60" y="130" width="120" height="50" rx="8" fill="#38bdf8"/>
+  <rect x="70" y="138" width="30" height="25" rx="4" fill="#0f172a"/>
+  <rect x="110" y="138" width="30" height="25" rx="4" fill="#0f172a"/>
+  <rect x="150" y="138" width="20" height="25" rx="4" fill="#0f172a"/>
+  
+  <!-- Train Front -->
+  <path d="M180 130 L200 145 L180 180 Z" fill="#fb923c"/>
+  <circle cx="190" cy="155" r="8" fill="#f59e0b"/>
+  
+  <!-- Wheels -->
+  <circle cx="80" cy="190" r="10" fill="#94a3b8"/>
+  <circle cx="120" cy="190" r="10" fill="#94a3b8"/>
+  <circle cx="160" cy="190" r="10" fill="#94a3b8"/>
+  
+  <!-- Motion Lines -->
+  <path d="M20 120 Q40 110 60 120" stroke="#fbbf24" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M10 140 Q30 130 50 140" stroke="#fbbf24" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Background Elements -->
+  <circle cx="200" cy="60" r="25" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M30 100 L50 70 L70 100 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M180 110 L200 80 L220 110 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+</svg>

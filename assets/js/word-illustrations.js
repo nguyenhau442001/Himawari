@@ -13307,6 +13307,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/心态.svg",
     "caption": "tâm thế, trạng thái tâm lý"
   },
+  "修建": {
+    "file": "修建.svg",
+    "src": "images/HSK_2.0/level6/修建.svg",
+    "caption": "xây dựng"
+  },
+  "需求": {
+    "file": "需求.svg",
+    "src": "images/HSK_2.0/level6/需求.svg",
+    "caption": "nhu cầu"
+  },
+  "选手": {
+    "file": "选手.svg",
+    "src": "images/HSK_2.0/level6/选手.svg",
+    "caption": "tuyển thủ"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15701,6 +15716,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "新人.svg",
     "src": "images/HSK_3.0/level5/新人.svg",
     "caption": "người mới (trong công ty); cô dâu chú rể"
+  },
+  "新型": {
+    "file": "新型.svg",
+    "src": "images/HSK_3.0/level5/新型.svg",
+    "caption": "loại mới"
+  },
+  "信用": {
+    "file": "信用.svg",
+    "src": "images/HSK_3.0/level5/信用.svg",
+    "caption": "uy tín, chữ tín, tín dụng"
+  },
+  "行程": {
+    "file": "行程.svg",
+    "src": "images/HSK_3.0/level5/行程.svg",
+    "caption": "hành trình, lịch trình chuyến đi"
+  },
+  "行驶": {
+    "file": "行驶.svg",
+    "src": "images/HSK_3.0/level5/行驶.svg",
+    "caption": "du lịch"
+  },
+  "行走": {
+    "file": "行走.svg",
+    "src": "images/HSK_3.0/level5/行走.svg",
+    "caption": "đi bộ, bước đi"
+  },
+  "需": {
+    "file": "需.svg",
+    "src": "images/HSK_3.0/level5/需.svg",
+    "caption": "cần, nhu cầu"
+  },
+  "学分": {
+    "file": "学分.svg",
+    "src": "images/HSK_3.0/level5/学分.svg",
+    "caption": "tín chỉ (học tập)"
   }
 };
 

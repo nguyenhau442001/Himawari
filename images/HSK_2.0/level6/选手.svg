@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Stadium Background Elements -->
+  <path d="M0 160 L240 160 L240 240 L0 240 Z" fill="#1e293b" opacity="0.5"/>
+  <circle cx="120" cy="280" r="150" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Spotlight -->
+  <path d="M80 0 L160 0 L200 240 L40 240 Z" fill="#f59e0b" opacity="0.08"/>
+  
+  <!-- The Athlete (选手) -->
+  <!-- Body -->
+  <path d="M105 180 C105 160, 135 160, 135 180 L135 230 L105 230 Z" fill="#38bdf8"/>
+  <!-- Arms -->
+  <path d="M95 170 L110 190" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M145 170 L130 190" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+  <!-- Head -->
+  <circle cx="120" cy="155" r="18" fill="#fde68a"/>
+  <!-- Jersey Detail -->
+  <path d="M110 175 L130 175" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Medal/Accolade -->
+  <circle cx="120" cy="195" r="8" fill="#fbbf24"/>
+  <path d="M120 187 L120 175" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- National Flag Element (Abstract Stripe) -->
+  <rect x="110" y="160" width="20" height="5" fill="#ef4444" rx="1"/>
+  
+  <!-- Podium -->
+  <rect x="80" y="210" width="80" height="30" fill="#475569" rx="4"/>
+  <rect x="90" y="200" width="60" height="10" fill="#64748b" rx="2"/>
+  
+  <!-- Confetti/Atmosphere -->
+  <circle cx="50" cy="50" r="2" fill="#10b981"/>
+  <circle cx="190" cy="40" r="2" fill="#ec4899"/>
+  <circle cx="120" cy="30" r="3" fill="#fb923c"/>
+  <circle cx="40" cy="120" r="2" fill="#38bdf8"/>
+  <circle cx="200" cy="110" r="2" fill="#f59e0b"/>
+</svg>

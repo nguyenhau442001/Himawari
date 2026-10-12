@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:26:14.775694",
-  "total_unique_words_with_illustrations": 3080,
-  "total_flat_svg_files": 3080,
+  "generated_at": "2026-10-12T09:29:19.214023",
+  "total_unique_words_with_illustrations": 3090,
+  "total_flat_svg_files": 3090,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 568,
-        "pct": "22.7%"
+        "with_svg": 571,
+        "pct": "22.8%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1461,
-        "pct": "91.3%"
+        "with_svg": 1471,
+        "pct": "91.9%"
       },
       "level6": {
         "total": 1800,
@@ -47934,6 +47934,60 @@
         "images/HSK_3.0/level5/心态.svg"
       ]
     },
+    "修建": {
+      "hanzi": "修建",
+      "pinyin": "xiūjiàn",
+      "meaning": "xây dựng",
+      "example_zh": "这条路是新<u>修建</u>的。",
+      "example_vi": "Con đường này mới được <u>xây dựng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "修建.svg",
+      "src": "images/HSK_2.0/level6/修建.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/修建.svg"
+      ]
+    },
+    "需求": {
+      "hanzi": "需求",
+      "pinyin": "xūqiú",
+      "meaning": "nhu cầu",
+      "example_zh": "市场对这种产品的<u>需求</u>很大。",
+      "example_vi": "<u>Nhu cầu</u> thị trường đối với sản phẩm này rất lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "需求.svg",
+      "src": "images/HSK_2.0/level6/需求.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/需求.svg"
+      ]
+    },
+    "选手": {
+      "hanzi": "选手",
+      "pinyin": "xuǎnshǒu",
+      "meaning": "tuyển thủ",
+      "example_zh": "他是国家队的优秀<u>选手</u>。",
+      "example_vi": "Anh ấy là <u>tuyển thủ</u> xuất sắc của đội tuyển quốc gia.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "选手.svg",
+      "src": "images/HSK_2.0/level6/选手.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/选手.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -54664,6 +54718,104 @@
       ],
       "file": "新人.svg",
       "src": "images/HSK_3.0/level5/新人.svg",
+      "alt_srcs": []
+    },
+    "新型": {
+      "hanzi": "新型",
+      "pinyin": "xīnxíng",
+      "meaning": "loại mới",
+      "example_zh": "这是一种<u>新型</u>导弹",
+      "example_vi": "Đây là một loại tên lửa dẫn đường mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "新型.svg",
+      "src": "images/HSK_3.0/level5/新型.svg",
+      "alt_srcs": []
+    },
+    "信用": {
+      "hanzi": "信用",
+      "pinyin": "xìnyòng",
+      "meaning": "uy tín, chữ tín, tín dụng",
+      "example_zh": "做生意最关键的就是要讲<u>信用</u>。",
+      "example_vi": "Làm ăn kinh doanh điều mấu chốt nhất chính là phải giữ chữ <u>tín</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "信用.svg",
+      "src": "images/HSK_3.0/level5/信用.svg",
+      "alt_srcs": []
+    },
+    "行程": {
+      "hanzi": "行程",
+      "pinyin": "xíngchéng",
+      "meaning": "hành trình, lịch trình chuyến đi",
+      "example_zh": "我们这次旅游的<u>行程</u>安排得很满。",
+      "example_vi": "<u>Lịch trình</u> chuyến du lịch lần này của chúng tôi được sắp xếp rất kín.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "行程.svg",
+      "src": "images/HSK_3.0/level5/行程.svg",
+      "alt_srcs": []
+    },
+    "行驶": {
+      "hanzi": "行驶",
+      "pinyin": "xíngshǐ",
+      "meaning": "du lịch",
+      "example_zh": "火车在轨道上<u>行驶</u>",
+      "example_vi": "Tàu hỏa chạy trên đường ray.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "行驶.svg",
+      "src": "images/HSK_3.0/level5/行驶.svg",
+      "alt_srcs": []
+    },
+    "行走": {
+      "hanzi": "行走",
+      "pinyin": "xíngzǒu",
+      "meaning": "đi bộ, bước đi",
+      "example_zh": "老人独自在林荫道上缓慢<u>行走</u>。",
+      "example_vi": "Cụ già một mình <u>bước đi</u> chậm rãi trên con đường rợp bóng cây.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "行走.svg",
+      "src": "images/HSK_3.0/level5/行走.svg",
+      "alt_srcs": []
+    },
+    "需": {
+      "hanzi": "需",
+      "pinyin": "xū",
+      "meaning": "cần, nhu cầu",
+      "example_zh": "如<u>需</u>帮助，请随时联系前台人员。",
+      "example_vi": "Nếu <u>cần</u> sự giúp đỡ, xin hãy liên hệ nhân viên lễ tân bất cứ lúc nào.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "需.svg",
+      "src": "images/HSK_3.0/level5/需.svg",
+      "alt_srcs": []
+    },
+    "学分": {
+      "hanzi": "学分",
+      "pinyin": "xuéfēn",
+      "meaning": "tín chỉ (học tập)",
+      "example_zh": "大学生修满规定<u>学分</u>才能顺利毕业。",
+      "example_vi": "Sinh viên đại học phải tích lũy đủ <u>tín chỉ</u> theo quy định mới có thể tốt nghiệp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "学分.svg",
+      "src": "images/HSK_3.0/level5/学分.svg",
       "alt_srcs": []
     }
   }

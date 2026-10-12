@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Elements -->
+  <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="#334155"/>
+  <circle cx="200" cy="50" r="25" fill="#fbbf24" opacity="0.8"/>
+  
+  <!-- The New Road -->
+  <path d="M0 200 C 80 190, 160 210, 240 200 L 240 240 L 0 240 Z" fill="#475569"/>
+  <path d="M10 215 L40 215 M70 215 L100 215 M130 215 L160 215 M190 215 L220 215" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Construction Worker -->
+  <g transform="translate(140, 140)">
+    <rect x="-10" y="0" width="20" height="40" fill="#38bdf8" rx="4"/>
+    <circle cx="0" cy="-15" r="12" fill="#fde68a"/>
+    <rect x="-12" y="-28" width="24" height="6" fill="#fb923c" rx="2"/>
+    <path d="M-15 10 L-25 20 M15 10 L25 5" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Construction Equipment -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="30" height="20" fill="#ec4899" rx="2"/>
+    <circle cx="5" cy="20" r="6" fill="#10b981"/>
+    <circle cx="25" cy="20" r="6" fill="#10b981"/>
+    <path d="M5 -5 L25 -5 L20 -15 L10 -15 Z" fill="#fb923c"/>
+  </g>
+
+  <!-- Decorative elements -->
+  <path d="M30 150 L40 130 L50 150 Z" fill="#10b981" opacity="0.6"/>
+  <path d="M210 160 L220 145 L230 160 Z" fill="#10b981" opacity="0.4"/>
+</svg>
