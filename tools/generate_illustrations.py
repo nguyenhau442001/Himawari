@@ -145,7 +145,8 @@ def call_gemini_svg_api(word_info, api_key, max_retries=3):
    - Center a clear, iconic, and unmistakable physical object or character representing the word. Avoid abstract backgrounds."""
     elif pos_type == 'verb':
         type_rule = """2. IF VERB / ACTION (Động từ):
-   - Show a clear, dynamic human character action with motion lines or a direct interaction with an object to show cause and effect."""
+   - Show a clear, dynamic human character action with motion lines or a direct interaction with an object to show cause and effect.
+   - For protection, sheltering, and caring verbs (e.g. 保护, 照顾, 关照, 爱护): Show genuine, tender protective actions. For environmental/nature protection (like 保护环境), depict caring hands gently cupped around a vibrant delicate green sprout growing from fertile soil, or sheltering it under an open hand/umbrella from harsh weather. NEVER draw sci-fi forcefields, glowing energy bubbles, or video-game armor."""
     elif pos_type == 'adj':
         type_rule = """3. IF ADJECTIVE / DESCRIBING WORD (Tính từ / Trạng thái):
    - Use a distinct visual contrast, scale exaggeration, or clear emotional expression (e.g., contrasting small vs. large, calm vs. chaotic) to represent the quality."""
@@ -168,6 +169,7 @@ GENERAL CONSTRAINTS:
 - ABSOLUTELY NO abstract symbols, NO geometric badges, NO minimalist icons, NO generic emojis, NO sliders, NO meters, NO progress bars, NO gauge dials.
 - ABSOLUTELY NO floating hearts (❤️), glowing heart icons, or romantic tropes UNLESS the word is explicitly about romantic love (e.g. 爱, 恋爱, 结婚, 谈恋爱) or literal anatomy (心脏). For gratitude, helping, politeness, kindness, teamwork, or friendship, DO NOT draw hearts! Depict genuine respectful social interactions (e.g. slight bow, handshake, warm smile, polite hand gesture) instead of romantic tropes.
 - For free-of-charge / zero-cost concepts (e.g. 免费, 免税, 赠送, 义诊), DO NOT draw generic wrapped birthday gift boxes or souvenir shops! A wrapped gift box conveys 'gift/present' (礼物), NOT 'free of charge'. Instead, depict authentic real-world transactions where fee/payment is waived (e.g. an event entrance/registration counter where attendees are welcomed with a 0-cost admission pass, staff warmly waving off payment with a friendly gesture, or an open gate with crossed-out coin/fee indicator).
+- For protection, sheltering, or caring concepts (e.g. 保护, 照顾, 爱护, 保护环境): ABSOLUTELY NO sci-fi forcefield bubbles, NO glowing energy domes around a person, NO video-game shields or armor. Instead, depict genuine human sheltering actions (e.g. two caring hands gently cupped around a thriving green sprout or fragile life, protecting it from harsh wind/rain, or an adult sheltering a child).
 - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.
 - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.
 - Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any commentary."""
