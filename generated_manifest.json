@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:35:52.205576",
-  "total_unique_words_with_illustrations": 3299,
-  "total_flat_svg_files": 3299,
+  "generated_at": "2026-10-12T10:39:09.359109",
+  "total_unique_words_with_illustrations": 3309,
+  "total_flat_svg_files": 3309,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 659,
-        "pct": "26.4%"
+        "with_svg": 669,
+        "pct": "26.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 267,
-        "pct": "14.8%"
+        "with_svg": 269,
+        "pct": "14.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 159,
-        "pct": "2.8%"
+        "with_svg": 166,
+        "pct": "3.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 159,
-        "pct": "2.8%"
+        "with_svg": 166,
+        "pct": "3.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 159,
-        "pct": "2.8%"
+        "with_svg": 166,
+        "pct": "3.0%"
       }
     }
   },
@@ -47744,6 +47744,192 @@
         "images/HSK_3.0/level9/本事.svg"
       ]
     },
+    "本着": {
+      "hanzi": "本着",
+      "pinyin": "běnzhe",
+      "meaning": "dựa trên, theo nguyên tắc",
+      "example_zh": "我们<u>本着</u>诚实的原则做事。",
+      "example_vi": "Chúng tôi <u>dựa trên</u> nguyên tắc trung thực để làm việc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "本着.svg",
+      "src": "images/HSK_2.0/level6/本着.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/本着.svg",
+        "images/HSK_3.0/level8/本着.svg",
+        "images/HSK_3.0/level9/本着.svg"
+      ]
+    },
+    "笨拙": {
+      "hanzi": "笨拙",
+      "pinyin": "bènzhuō",
+      "meaning": "vụng về, ngốc nghếch",
+      "example_zh": "他的动作有点<u>笨拙</u>。",
+      "example_vi": "Động tác của anh ấy có chút <u>vụng về</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "笨拙.svg",
+      "src": "images/HSK_2.0/level6/笨拙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/笨拙.svg",
+        "images/HSK_3.0/level8/笨拙.svg",
+        "images/HSK_3.0/level9/笨拙.svg"
+      ]
+    },
+    "崩溃": {
+      "hanzi": "崩溃",
+      "pinyin": "bēngkuì",
+      "meaning": "sụp đổ, suy sụp",
+      "example_zh": "公司财务体系已经<u>崩溃</u>。",
+      "example_vi": "Hệ thống tài chính công ty đã <u>sụp đổ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "崩溃.svg",
+      "src": "images/HSK_2.0/level6/崩溃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/崩溃.svg",
+        "images/HSK_3.0/level8/崩溃.svg",
+        "images/HSK_3.0/level9/崩溃.svg"
+      ]
+    },
+    "甭": {
+      "hanzi": "甭",
+      "pinyin": "béng",
+      "meaning": "khỏi cần, không cần (phương ngữ)",
+      "example_zh": "你<u>甭</u>担心，我会处理好。",
+      "example_vi": "Bạn <u>khỏi</u> lo, tôi sẽ xử lý tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "甭.svg",
+      "src": "images/HSK_2.0/level6/甭.svg",
+      "alt_srcs": []
+    },
+    "蹦": {
+      "hanzi": "蹦",
+      "pinyin": "bèng",
+      "meaning": "nhảy, bật",
+      "example_zh": "小孩子高兴得<u>蹦</u>了起来。",
+      "example_vi": "Đứa trẻ vui đến mức <u>nhảy</u> lên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "蹦.svg",
+      "src": "images/HSK_2.0/level6/蹦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/蹦.svg",
+        "images/HSK_3.0/level8/蹦.svg",
+        "images/HSK_3.0/level9/蹦.svg"
+      ]
+    },
+    "迸发": {
+      "hanzi": "迸发",
+      "pinyin": "bèngfā",
+      "meaning": "bùng phát, tuôn ra",
+      "example_zh": "火花从电线中<u>迸发</u>出来。",
+      "example_vi": "Tia lửa <u>bùng phát</u> ra từ dây điện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迸发.svg",
+      "src": "images/HSK_2.0/level6/迸发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迸发.svg",
+        "images/HSK_3.0/level8/迸发.svg",
+        "images/HSK_3.0/level9/迸发.svg"
+      ]
+    },
+    "逼迫": {
+      "hanzi": "逼迫",
+      "pinyin": "bīpò",
+      "meaning": "ép buộc, cưỡng bức",
+      "example_zh": "他被<u>逼迫</u>签了合同。",
+      "example_vi": "Anh ấy bị <u>ép buộc</u> ký hợp đồng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逼迫.svg",
+      "src": "images/HSK_2.0/level6/逼迫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/逼迫.svg",
+        "images/HSK_3.0/level8/逼迫.svg",
+        "images/HSK_3.0/level9/逼迫.svg"
+      ]
+    },
+    "鼻涕": {
+      "hanzi": "鼻涕",
+      "pinyin": "bítì",
+      "meaning": "nước mũi",
+      "example_zh": "他感冒了，一直流<u>鼻涕</u>。",
+      "example_vi": "Anh ấy bị cảm, cứ chảy <u>nước mũi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "鼻涕.svg",
+      "src": "images/HSK_2.0/level6/鼻涕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/鼻涕.svg",
+        "images/HSK_3.0/level8/鼻涕.svg",
+        "images/HSK_3.0/level9/鼻涕.svg"
+      ]
+    },
+    "比方": {
+      "hanzi": "比方",
+      "pinyin": "bǐfang",
+      "meaning": "ví dụ, chẳng hạn",
+      "example_zh": "<u>比方</u>说，我们可以先做这一步。",
+      "example_vi": "<u>Chẳng hạn</u>, chúng ta có thể làm bước này trước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "比方.svg",
+      "src": "images/HSK_2.0/level6/比方.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/比方.svg"
+      ]
+    },
     "比喻": {
       "hanzi": "比喻",
       "pinyin": "bǐyù",
@@ -47760,6 +47946,24 @@
       "src": "images/HSK_2.0/level6/比喻.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/比喻.svg"
+      ]
+    },
+    "比重": {
+      "hanzi": "比重",
+      "pinyin": "bǐzhòng",
+      "meaning": "tỷ trọng",
+      "example_zh": "服务业占经济的<u>比重</u>越来越大。",
+      "example_vi": "<u>Tỷ trọng</u> ngành dịch vụ trong kinh tế ngày càng lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "比重.svg",
+      "src": "images/HSK_2.0/level6/比重.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/比重.svg"
       ]
     },
     "必需": {

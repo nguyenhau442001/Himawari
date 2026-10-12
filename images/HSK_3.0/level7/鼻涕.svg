@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk/Environment -->
+  <rect x="20" y="150" width="200" height="10" rx="2" fill="#334155"/>
+  <circle cx="180" cy="180" r="25" fill="#fb923c" opacity="0.2"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 60)">
+    <!-- Body -->
+    <path d="M40 160 C40 130, 80 120, 120 160 L120 180 L40 180 Z" fill="#38bdf8"/>
+    
+    <!-- Head -->
+    <circle cx="80" cy="100" r="35" fill="#fde68a"/>
+    
+    <!-- Face -->
+    <circle cx="65" cy="95" r="3" fill="#1e293b"/>
+    <circle cx="95" cy="95" r="3" fill="#1e293b"/>
+    <path d="M70 115 Q80 122 90 115" stroke="#1e293b" stroke-width="2" fill="none"/>
+    
+    <!-- The "Biti" (Nose drip) -->
+    <path d="M80 110 L80 135" stroke="#bae6fd" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="80" cy="138" r="3" fill="#bae6fd"/>
+    
+    <!-- Tissues -->
+    <path d="M110 140 L140 130 L150 160 L120 170 Z" fill="#f1f5f9"/>
+    <path d="M115 135 L145 125 L155 155 L125 165 Z" fill="#e2e8f0"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="30" cy="50" r="4" fill="#fbbf24"/>
+  <circle cx="210" cy="40" r="6" fill="#10b981"/>
+  <path d="M200 100 L210 90 L220 100 L210 110 Z" fill="#ec4899" opacity="0.6"/>
+</svg>

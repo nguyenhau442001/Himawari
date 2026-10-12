@@ -13202,10 +13202,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/本事.svg",
     "caption": "năng lực, tài cán"
   },
+  "本着": {
+    "file": "本着.svg",
+    "src": "images/HSK_2.0/level6/本着.svg",
+    "caption": "dựa trên, theo nguyên tắc"
+  },
+  "笨拙": {
+    "file": "笨拙.svg",
+    "src": "images/HSK_2.0/level6/笨拙.svg",
+    "caption": "vụng về, ngốc nghếch"
+  },
+  "崩溃": {
+    "file": "崩溃.svg",
+    "src": "images/HSK_2.0/level6/崩溃.svg",
+    "caption": "sụp đổ, suy sụp"
+  },
+  "甭": {
+    "file": "甭.svg",
+    "src": "images/HSK_2.0/level6/甭.svg",
+    "caption": "khỏi cần, không cần (phương ngữ)"
+  },
+  "蹦": {
+    "file": "蹦.svg",
+    "src": "images/HSK_2.0/level6/蹦.svg",
+    "caption": "nhảy, bật"
+  },
+  "迸发": {
+    "file": "迸发.svg",
+    "src": "images/HSK_2.0/level6/迸发.svg",
+    "caption": "bùng phát, tuôn ra"
+  },
+  "逼迫": {
+    "file": "逼迫.svg",
+    "src": "images/HSK_2.0/level6/逼迫.svg",
+    "caption": "ép buộc, cưỡng bức"
+  },
+  "鼻涕": {
+    "file": "鼻涕.svg",
+    "src": "images/HSK_2.0/level6/鼻涕.svg",
+    "caption": "nước mũi"
+  },
+  "比方": {
+    "file": "比方.svg",
+    "src": "images/HSK_2.0/level6/比方.svg",
+    "caption": "ví dụ, chẳng hạn"
+  },
   "比喻": {
     "file": "比喻.svg",
     "src": "images/HSK_2.0/level6/比喻.svg",
     "caption": "ví, so sánh ẩn dụ"
+  },
+  "比重": {
+    "file": "比重.svg",
+    "src": "images/HSK_2.0/level6/比重.svg",
+    "caption": "tỷ trọng"
   },
   "必需": {
     "file": "必需.svg",

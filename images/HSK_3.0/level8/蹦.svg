@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="190" width="240" height="50" fill="#334155"/>
+  
+  <!-- Background Elements (Living Room) -->
+  <circle cx="180" cy="80" r="30" fill="#fbbf24" opacity="0.2"/>
+  <rect x="40" y="120" width="60" height="70" rx="4" fill="#475569"/>
+  <rect x="50" y="130" width="40" height="20" rx="2" fill="#1e293b"/>
+  
+  <!-- The Child -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-15 40 Q-15 10 0 10 T15 40" fill="#38bdf8"/>
+    <!-- Arms (Jumping pose) -->
+    <path d="M-20 15 L-35 -5" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 15 L35 -5" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <!-- Legs (Jumping pose) -->
+    <path d="M-10 40 L-20 60" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M10 40 L20 60" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="20" fill="#fde68a"/>
+    <!-- Face -->
+    <circle cx="-7" cy="-15" r="2" fill="#1e293b"/>
+    <circle cx="7" cy="-15" r="2" fill="#1e293b"/>
+    <path d="M-8 -5 Q0 2 8 -5" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion/Joy Effects -->
+  <path d="M100 100 Q110 80 120 100" stroke="#fb923c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M140 100 Q150 80 160 100" stroke="#ec4899" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="180" cy="150" r="5" fill="#10b981"/>
+  <circle cx="60" cy="160" r="4" fill="#fbbf24"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="120" cy="200" rx="30" ry="5" fill="#0f172a" opacity="0.4"/>
+</svg>
