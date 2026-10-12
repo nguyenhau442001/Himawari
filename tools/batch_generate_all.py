@@ -75,6 +75,27 @@ MODELS_TO_TRY = [
 # Track exhausted (key_index, model) pairs dynamically for this session
 EXHAUSTED_KEY_MODELS = set()
 
+def load_hsk_pos_db():
+    """Loads exact part of speech dictionary from word-illustrations.js."""
+    if not WORD_ILLUSTRATIONS_JS.exists():
+        return {}
+    try:
+        content = WORD_ILLUSTRATIONS_JS.read_text(encoding="utf-8")
+        m = re.search(r"const HSK_POS_DB = (\{[\s\S]*?\});", content)
+        if m:
+            return json.loads(m.group(1))
+    except Exception as e:
+        print(f"[!] Warning loading HSK_POS_DB: {e}", flush=True)
+    return {}
+
+HSK_POS_DB = load_hsk_pos_db()
+
+def get_pos(hanzi, meaning=""):
+    """Accurately gets POS from HSK_POS_DB or falls back to heuristic classifier."""
+    if hanzi and hanzi in HSK_POS_DB:
+        return HSK_POS_DB[hanzi]
+    return guess_pos(meaning)
+
 def guess_pos(meaning):
     m = (meaning or "").lower()
     if re.search(r'^(đẹp|tốt|xấu|to|nhỏ|lớn|cao|thấp|nhanh|chậm|dài|ngắn|nóng|lạnh|mới|cũ|đắt|rẻ|khó|dễ|buồn|vui|sạch|bẩn|ngon|ngọt|đắng|cay|mặn|chua|mệt|đói|no|bận|rảnh|đúng|sai|tiện|phức tạp|đơn giản|quan trọng|an toàn|nguy hiểm|nghiêm túc|cẩn thận|nhiệt tình|tự tin|hạnh phúc|khỏe|yếu|trắng|đen|đỏ|vàng|xanh)\b', m) or 'tính từ' in m:
@@ -387,7 +408,7 @@ def call_gemini_svg_api(word_info, api_keys, max_retries=4):
         return None
     hanzi = word_info.get("hanzi", "").strip()
     meaning = word_info.get("meaning", "").strip()
-    pos = word_info.get("pos") or guess_pos(meaning)
+    pos = word_info.get("pos") or get_pos(hanzi, meaning)
     pinyin = word_info.get("pinyin", "").strip()
 
     ex_vi = (word_info.get("example_vi") or "").replace("<u>", "").replace("</u>", "").strip()
@@ -404,15 +425,31 @@ Create a clear, relatable real-world human situation depicting the story or acti
 Show the subject/characters actively in this specific setting with context props and environment matching this scenario.
 """
 
+    pos_specific_direction = ""
+    if pos == "adv":
+        pos_specific_direction = f"""
+SPECIAL ADVERB DIRECTION ('{meaning}'):
+- Ground the scene completely in the realistic human situation from the example sentence.
+- Show characters actively in this real-life moment with authentic body language and props.
+- ABSOLUTELY DO NOT draw meters, sliders, progress bars, dials, emoji faces, or floating icons!
+"""
+    elif pos == "conj":
+        pos_specific_direction = f"""
+SPECIAL CONJUNCTION DIRECTION ('{meaning}'):
+- Illustrate the connecting human story and setting described in the example sentence.
+- ABSOLUTELY DO NOT draw abstract bridge icons, arrows, or flowcharts!
+"""
+
     prompt = f"""You are an elite 2D vector illustrator and art director creating scene-based illustrations for an HSK language learning app.
 Target Vocabulary: {hanzi} ({pinyin}) - Meaning: '{meaning}' - Part of Speech: {pos}.
 {example_grounding}
+{pos_specific_direction}
 CRITICAL ART DIRECTION & COMPOSITION RULES:
 1. SCENE & SUBJECT:
    - Depict a RICH, CONCRETE, REAL-WORLD SCENARIO illustrating the target word and its example sentence.
    - Include stylized, expressive characters actively performing the action or experiencing the situation.
    - Include rich environmental details and props (e.g. room interior, workplace desk, tools, nature, urban street, stage lighting, window, etc.) establishing clear real-world context.
-   - ABSOLUTELY NO abstract symbols, NO geometric badges, NO minimalist icons, NO generic emojis.
+   - ABSOLUTELY NO abstract symbols, NO geometric badges, NO minimalist icons, NO generic emojis, NO sliders, NO meters, NO progress bars, NO gauge dials.
 2. STYLE:
    - Clean, friendly 2D flat cartoon / minimalist vector art with expressive contours and rich narrative depth.
 3. CANVAS & CONTAINER:
@@ -422,6 +459,7 @@ CRITICAL ART DIRECTION & COMPOSITION RULES:
 4. COLOR PALETTE:
    - Dark-mode harmonious: Deep slate navy background (#0f172a, #1e293b), muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).
 5. STRICT NEGATIVE CONSTRAINTS:
+   - ABSOLUTELY NO abstract symbols, NO geometric badges, NO minimalist icons, NO generic emojis, NO sliders, NO meters, NO progress bars, NO gauge dials.
    - ABSOLUTELY NO floating hearts (❤️), glowing heart icons, or romantic tropes UNLESS the word is explicitly about romantic love (e.g. 爱, 恋爱, 结婚, 谈恋爱) or literal anatomy (心脏). For gratitude (感谢, 谢谢), helping, politeness, kindness, teamwork, or friendship, DO NOT draw hearts! Depict realistic polite gestures (e.g. warm respectful smile, slight bow, handshake, supportive hand gesture) instead of romantic/dating clichés.
    - For free-of-charge / zero-cost concepts (e.g. 免费, 免税, 赠送, 义诊), DO NOT draw generic wrapped birthday gift boxes or souvenir shops! A wrapped gift box conveys 'gift/present' (礼物), NOT 'free of charge'. Instead, depict authentic real-world transactions where fee/payment is waived (e.g. an event entrance/registration counter where attendees are welcomed with a 0-cost admission pass, staff warmly waving off payment with a friendly gesture, or an open gate with crossed-out coin/fee indicator).
    - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.
@@ -591,7 +629,7 @@ def main():
 
             meaning = item.get("meaning", "").strip()
             pinyin = item.get("pinyin", "").strip()
-            pos = item.get("pos") or guess_pos(meaning)
+            pos = item.get("pos") or get_pos(hanzi, meaning)
             item["pos"] = pos
 
             out_filename = f"{hanzi}.svg"

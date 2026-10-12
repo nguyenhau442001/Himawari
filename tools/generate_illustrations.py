@@ -28,12 +28,33 @@ POS_NAMES = {
     'noun': 'noun / physical object or conceptual entity',
     'verb': 'verb / dynamic action, movement or execution',
     'adj': 'adjective / qualitative attribute, emotional or sensory state',
-    'adv': 'adverb / degree, manner, or frequency meter',
+    'adv': 'adverb / contextual manner, degree, timing or modal expression (scene-based story, DO NOT draw meters or gauges)',
     'measure': 'measure word / modular counting unit',
     'pron': 'pronoun / connection or reference',
     'prep': 'preposition / spatial or directional relation',
     'conj': 'conjunction / bridge connecting elements'
 }
+
+def load_hsk_pos_db():
+    """Loads exact part of speech dictionary from word-illustrations.js."""
+    if not WORD_ILLUSTRATIONS_JS.exists():
+        return {}
+    try:
+        content = WORD_ILLUSTRATIONS_JS.read_text(encoding="utf-8")
+        m = re.search(r"const HSK_POS_DB = (\{[\s\S]*?\});", content)
+        if m:
+            return json.loads(m.group(1))
+    except Exception as e:
+        print(f"[!] Warning loading HSK_POS_DB: {e}", flush=True)
+    return {}
+
+HSK_POS_DB = load_hsk_pos_db()
+
+def get_pos(hanzi, meaning=""):
+    """Accurately gets POS from HSK_POS_DB or falls back to heuristic classifier."""
+    if hanzi and hanzi in HSK_POS_DB:
+        return HSK_POS_DB[hanzi]
+    return guess_pos(meaning)
 
 def load_vocabulary():
     """Loads all HSK vocabularies indexed by hanzi."""
@@ -77,16 +98,14 @@ def call_gemini_svg_api(word_info, api_key, max_retries=3):
     """Calls Gemini API with model fallback to generate clean inline SVG vector."""
     hanzi = word_info.get("hanzi", "")
     meaning = word_info.get("meaning", "")
-    pos = word_info.get("pos", "noun")
+    pos = word_info.get("pos") or get_pos(hanzi, meaning)
     pinyin = word_info.get("pinyin", "")
 
     ex_vi = word_info.get("example_vi", "").replace("<u>", "").replace("</u>", "").strip()
     ex_zh = word_info.get("example_zh", "").replace("<u>", "").replace("</u>", "").strip()
     context_note = ""
-    if ex_vi:
-        context_note = f"\nContextual Example: '{ex_vi}'"
-    elif ex_zh:
-        context_note = f"\nContextual Example: '{ex_zh}'"
+    if ex_vi or ex_zh:
+        context_note = f"\nCRUCIAL CONTEXTUAL STORY TO ILLUSTRATE:\nGround the scene directly in this example: '{ex_vi}' (Chinese: '{ex_zh}').\nDepict an authentic, relatable human situation showing this story."
 
     if pos == "verb":
         action_guidance = (
@@ -107,6 +126,19 @@ def call_gemini_svg_api(word_info, api_key, max_retries=3):
             "Show dynamic facial expression, communicative body posture, and immersive atmospheric environment (e.g. dramatic lighting, weather, or room ambiance) "
             "that makes the feeling immediately intuitive. DO NOT draw abstract shapes or emojis."
         )
+    elif pos == "adv":
+        action_guidance = (
+            f"Depict a RELATABLE REAL-WORLD HUMAN SITUATION representing the context of '{meaning}'. "
+            "The scene MUST be grounded directly in the contextual example sentence. Show an expressive character actively "
+            "experiencing or acting out the scenario described in the example sentence, with props and environment. "
+            "ABSOLUTELY NO meters, NO sliders, NO progress bars, NO gauges, NO floating emojis, NO abstract symbols."
+        )
+    elif pos == "conj":
+        action_guidance = (
+            f"Depict a RELATABLE REAL-WORLD SCENARIO illustrating the connecting relationship of '{meaning}'. "
+            "Ground the scene directly in the contextual example sentence with active characters, props, and environment. "
+            "DO NOT draw abstract bridge icons, arrows, or flowcharts."
+        )
     else:
         action_guidance = (
             f"Depict an engaging, scene-based real-world scenario illustrating the communicative context of '{meaning}'. "
@@ -126,7 +158,7 @@ def call_gemini_svg_api(word_info, api_key, max_retries=3):
         "4. COLOR PALETTE:\n"
         "   - Dark-mode harmonious: Deep slate navy (#0f172a, #1e293b) background, muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).\n"
         "5. STRICT NEGATIVE CONSTRAINTS:\n"
-        f"   - ABSOLUTELY NO abstract symbols, logos, minimalist icons, or generic badges.\n"
+        f"   - ABSOLUTELY NO abstract symbols, logos, minimalist icons, generic badges, meters, sliders, progress bars, gauge dials, or floating emojis.\n"
         "   - ABSOLUTELY NO floating hearts (❤️), glowing heart icons, or romantic tropes UNLESS the word is explicitly about romantic love (e.g. 爱, 恋爱, 结婚, 谈恋爱) or literal anatomy (心脏). For gratitude (感谢, 谢谢), helping, politeness, kindness, teamwork, or friendship, DO NOT draw hearts! Depict genuine respectful social interactions (e.g. slight bow, handshake, warm smile, polite hand gesture) instead of romantic tropes.\n"
         "   - For free-of-charge / zero-cost concepts (e.g. 免费, 免税, 赠送, 义诊), DO NOT draw generic wrapped birthday gift boxes or souvenir shops! A wrapped gift box conveys 'gift/present' (礼物), NOT 'free of charge'. Instead, depict authentic real-world transactions where fee/payment is waived (e.g. an event entrance/registration counter where attendees are welcomed with a 0-cost admission pass, staff warmly waving off payment with a friendly gesture, or an open gate with crossed-out coin/fee indicator).\n"
         f"   - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.\n"
@@ -268,7 +300,7 @@ def main():
         hanzi = item.get("hanzi", "").strip()
         meaning = item.get("meaning", "").strip()
         pinyin = item.get("pinyin", "").strip()
-        pos = item.get("pos") or guess_pos(meaning)
+        pos = item.get("pos") or get_pos(hanzi, meaning)
         item["pos"] = pos
 
         out_filename = f"{hanzi}.svg"
