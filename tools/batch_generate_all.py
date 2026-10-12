@@ -569,14 +569,12 @@ GENERAL CONSTRAINTS:
 
 def git_commit_and_push(batch_count, level_label):
     try:
-        print(f"\n[>>> GIT] Committing and pushing batch of {batch_count} newly generated SVGs for {level_label}...", flush=True)
+        print(f"\n[>>> GIT] Committing and pushing batch of {batch_count} newly generated SVGs for {level_label} directly to main...", flush=True)
         subprocess.run(["git", "add", "images", "assets/images/illustrations", "generated_manifest.json", "README_ILLUSTRATIONS.md", "assets/js/word-illustrations.js"], cwd=REPO_ROOT, check=True)
         commit_msg = f"feat(illustrations): batch generate scene-based SVGs ({level_label}: +{batch_count} words)"
         res = subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_ROOT, capture_output=True, text=True)
         print(f"[>>> GIT] {res.stdout.strip()}", flush=True)
-        branch_res = subprocess.run(["git", "branch", "--show-current"], cwd=REPO_ROOT, capture_output=True, text=True)
-        branch_name = branch_res.stdout.strip() or "main"
-        push_res = subprocess.run(["git", "push", "origin", branch_name], cwd=REPO_ROOT, capture_output=True, text=True)
+        push_res = subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=REPO_ROOT, capture_output=True, text=True)
         print(f"[>>> GIT] Push result: {push_res.stdout.strip() or push_res.stderr.strip() or 'OK'}", flush=True)
     except Exception as e:
         print(f"[!] Warning git commit/push encountered error: {e}", flush=True)
