@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Left Side: The Past (Historical/Traditional) -->
+  <path d="M30 180 L80 180 L80 120 L55 100 L30 120 Z" fill="#475569"/>
+  <path d="M40 180 L40 140 L50 140 L50 180" fill="#94a3b8"/>
+  <circle cx="65" cy="150" r="8" fill="#fbbf24"/>
+  
+  <!-- Right Side: The Future (Modern/Urban) -->
+  <rect x="150" y="80" width="20" height="100" fill="#38bdf8" opacity="0.6"/>
+  <rect x="180" y="50" width="30" height="130" fill="#38bdf8"/>
+  <rect x="185" y="60" width="8" height="10" fill="#0f172a"/>
+  <rect x="197" y="60" width="8" height="10" fill="#0f172a"/>
+  
+  <!-- The Bridge/Transition (The Human Element) -->
+  <g transform="translate(100, 140)">
+    <path d="M10 40 C 10 20, 30 20, 30 40" fill="#fb923c"/>
+    <circle cx="20" cy="15" r="12" fill="#fde68a"/>
+    <path d="M15 12 L17 10 L23 10 L25 12" stroke="#0f172a" stroke-width="2" fill="none"/>
+    <path d="M10 25 L30 25" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Connecting Path/Time Flow -->
+  <path d="M60 170 Q 120 120 190 170" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="30" r="3" fill="#ec4899"/>
+  <circle cx="40" cy="50" r="2" fill="#10b981"/>
+  <path d="M120 80 L125 70 L130 80 Z" fill="#fbbf24"/>
+</svg>

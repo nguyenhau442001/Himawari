@@ -13312,10 +13312,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/边缘.svg",
     "caption": "bờ rìa, ranh giới, ngưỡng"
   },
+  "编织": {
+    "file": "编织.svg",
+    "src": "images/HSK_2.0/level6/编织.svg",
+    "caption": "đan, dệt"
+  },
+  "扁": {
+    "file": "扁.svg",
+    "src": "images/HSK_2.0/level6/扁.svg",
+    "caption": "dẹt, bẹt"
+  },
+  "贬低": {
+    "file": "贬低.svg",
+    "src": "images/HSK_2.0/level6/贬低.svg",
+    "caption": "hạ thấp, chê bai"
+  },
+  "贬义": {
+    "file": "贬义.svg",
+    "src": "images/HSK_2.0/level6/贬义.svg",
+    "caption": "nghĩa xấu, hàm ý tiêu cực"
+  },
+  "遍布": {
+    "file": "遍布.svg",
+    "src": "images/HSK_2.0/level6/遍布.svg",
+    "caption": "lan rộng khắp, có mặt mọi nơi"
+  },
+  "变故": {
+    "file": "变故.svg",
+    "src": "images/HSK_2.0/level6/变故.svg",
+    "caption": "sự việc bất ngờ, biến cố"
+  },
+  "辩护": {
+    "file": "辩护.svg",
+    "src": "images/HSK_2.0/level6/辩护.svg",
+    "caption": "bào chữa"
+  },
+  "辩解": {
+    "file": "辩解.svg",
+    "src": "images/HSK_2.0/level6/辩解.svg",
+    "caption": "giải thích, biện hộ"
+  },
   "便利": {
     "file": "便利.svg",
     "src": "images/HSK_2.0/level6/便利.svg",
     "caption": "thuận tiện"
+  },
+  "变迁": {
+    "file": "变迁.svg",
+    "src": "images/HSK_2.0/level6/变迁.svg",
+    "caption": "biến đổi, thay đổi theo thời gian"
+  },
+  "辨认": {
+    "file": "辨认.svg",
+    "src": "images/HSK_2.0/level6/辨认.svg",
+    "caption": "nhận diện, phân biệt"
   },
   "标题": {
     "file": "标题.svg",

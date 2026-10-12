@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:42:12.761574",
-  "total_unique_words_with_illustrations": 3319,
-  "total_flat_svg_files": 3319,
+  "generated_at": "2026-10-12T10:45:36.984621",
+  "total_unique_words_with_illustrations": 3329,
+  "total_flat_svg_files": 3329,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 679,
-        "pct": "27.2%"
+        "with_svg": 689,
+        "pct": "27.6%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 174,
-        "pct": "3.1%"
+        "with_svg": 183,
+        "pct": "3.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 174,
-        "pct": "3.1%"
+        "with_svg": 183,
+        "pct": "3.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 174,
-        "pct": "3.1%"
+        "with_svg": 183,
+        "pct": "3.3%"
       }
     }
   },
@@ -48188,6 +48188,174 @@
         "images/HSK_3.0/level9/边缘.svg"
       ]
     },
+    "编织": {
+      "hanzi": "编织",
+      "pinyin": "biānzhī",
+      "meaning": "đan, dệt",
+      "example_zh": "奶奶喜欢<u>编织</u>毛衣。",
+      "example_vi": "Bà thích <u>đan</u> áo len.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "编织.svg",
+      "src": "images/HSK_2.0/level6/编织.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/编织.svg",
+        "images/HSK_3.0/level8/编织.svg",
+        "images/HSK_3.0/level9/编织.svg"
+      ]
+    },
+    "扁": {
+      "hanzi": "扁",
+      "pinyin": "biǎn",
+      "meaning": "dẹt, bẹt",
+      "example_zh": "这个盒子是<u>扁</u>的。",
+      "example_vi": "Cái hộp này <u>dẹt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扁.svg",
+      "src": "images/HSK_2.0/level6/扁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/扁.svg",
+        "images/HSK_3.0/level8/扁.svg",
+        "images/HSK_3.0/level9/扁.svg"
+      ]
+    },
+    "贬低": {
+      "hanzi": "贬低",
+      "pinyin": "biǎndī",
+      "meaning": "hạ thấp, chê bai",
+      "example_zh": "不要随便<u>贬低</u>别人。",
+      "example_vi": "Đừng tùy tiện <u>hạ thấp</u> người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "贬低.svg",
+      "src": "images/HSK_2.0/level6/贬低.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/贬低.svg",
+        "images/HSK_3.0/level8/贬低.svg",
+        "images/HSK_3.0/level9/贬低.svg"
+      ]
+    },
+    "贬义": {
+      "hanzi": "贬义",
+      "pinyin": "biǎnyì",
+      "meaning": "nghĩa xấu, hàm ý tiêu cực",
+      "example_zh": "这个词带有<u>贬义</u>。",
+      "example_vi": "Từ này mang <u>hàm ý tiêu cực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "贬义.svg",
+      "src": "images/HSK_2.0/level6/贬义.svg",
+      "alt_srcs": []
+    },
+    "遍布": {
+      "hanzi": "遍布",
+      "pinyin": "biànbù",
+      "meaning": "lan rộng khắp, có mặt mọi nơi",
+      "example_zh": "分店<u>遍布</u>全国。",
+      "example_vi": "Chi nhánh <u>có mặt khắp nơi</u> trên toàn quốc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "遍布.svg",
+      "src": "images/HSK_2.0/level6/遍布.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/遍布.svg",
+        "images/HSK_3.0/level8/遍布.svg",
+        "images/HSK_3.0/level9/遍布.svg"
+      ]
+    },
+    "变故": {
+      "hanzi": "变故",
+      "pinyin": "biàngù",
+      "meaning": "sự việc bất ngờ, biến cố",
+      "example_zh": "家里突然发生了<u>变故</u>。",
+      "example_vi": "Gia đình đột nhiên xảy ra <u>biến cố</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "变故.svg",
+      "src": "images/HSK_2.0/level6/变故.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/变故.svg",
+        "images/HSK_3.0/level8/变故.svg",
+        "images/HSK_3.0/level9/变故.svg"
+      ]
+    },
+    "辩护": {
+      "hanzi": "辩护",
+      "pinyin": "biànhù",
+      "meaning": "bào chữa",
+      "example_zh": "律师为被告<u>辩护</u>。",
+      "example_vi": "Luật sư <u>bào chữa</u> cho bị cáo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辩护.svg",
+      "src": "images/HSK_2.0/level6/辩护.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辩护.svg",
+        "images/HSK_3.0/level8/辩护.svg",
+        "images/HSK_3.0/level9/辩护.svg"
+      ]
+    },
+    "辩解": {
+      "hanzi": "辩解",
+      "pinyin": "biànjiě",
+      "meaning": "giải thích, biện hộ",
+      "example_zh": "他不停地为自己<u>辩解</u>。",
+      "example_vi": "Anh ấy liên tục <u>biện hộ</u> cho mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辩解.svg",
+      "src": "images/HSK_2.0/level6/辩解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辩解.svg",
+        "images/HSK_3.0/level8/辩解.svg",
+        "images/HSK_3.0/level9/辩解.svg"
+      ]
+    },
     "便利": {
       "hanzi": "便利",
       "pinyin": "biànlì",
@@ -48204,6 +48372,50 @@
       "src": "images/HSK_2.0/level6/便利.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/便利.svg"
+      ]
+    },
+    "变迁": {
+      "hanzi": "变迁",
+      "pinyin": "biànqiān",
+      "meaning": "biến đổi, thay đổi theo thời gian",
+      "example_zh": "社会经历了巨大的<u>变迁</u>。",
+      "example_vi": "Xã hội đã trải qua những <u>biến đổi</u> to lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "变迁.svg",
+      "src": "images/HSK_2.0/level6/变迁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/变迁.svg",
+        "images/HSK_3.0/level8/变迁.svg",
+        "images/HSK_3.0/level9/变迁.svg"
+      ]
+    },
+    "辨认": {
+      "hanzi": "辨认",
+      "pinyin": "biànrèn",
+      "meaning": "nhận diện, phân biệt",
+      "example_zh": "警察在<u>辨认</u>嫌疑人。",
+      "example_vi": "Cảnh sát đang <u>nhận diện</u> nghi phạm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辨认.svg",
+      "src": "images/HSK_2.0/level6/辨认.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辨认.svg",
+        "images/HSK_3.0/level8/辨认.svg",
+        "images/HSK_3.0/level9/辨认.svg"
       ]
     },
     "标题": {

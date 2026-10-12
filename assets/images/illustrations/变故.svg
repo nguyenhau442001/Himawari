@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Living Room Setting -->
+  <path d="M20 180h200v40H20z" fill="#334155"/>
+  <rect x="40" y="100" width="160" height="80" rx="4" fill="#475569"/>
+  
+  <!-- Characters: A family (parent and child) looking shocked at a fallen item -->
+  <!-- Father -->
+  <g transform="translate(80, 120)">
+    <circle cx="20" cy="20" r="15" fill="#fcd34d"/>
+    <path d="M10 25h20M15 15h5M25 15h5" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M10 40l5 30M30 40l5 30" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Child -->
+  <g transform="translate(130, 130)">
+    <circle cx="15" cy="15" r="12" fill="#fcd34d"/>
+    <path d="M8 20h14M10 12h3M17 12h3" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M10 30l2 25M20 30l2 25" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The 'Incident' (Broken Vase) -->
+  <g transform="translate(170, 160)">
+    <path d="M-10 0l5-20 5 20z" fill="#ec4899"/>
+    <path d="M0 0l-5-15 10-5z" fill="#ec4899"/>
+    <circle cx="0" cy="-22" r="3" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Atmospheric details: Shock lines/dashes -->
+  <path d="M70 100l-10-20M200 100l10-20" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Window -->
+  <rect x="180" y="30" width="40" height="40" rx="4" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M200 30v40M180 50h40" stroke="#334155" stroke-width="2"/>
+</svg>

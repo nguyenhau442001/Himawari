@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="30" y="140" width="180" height="10" rx="2" fill="#334155"/>
+  <rect x="40" y="150" width="10" height="60" rx="2" fill="#475569"/>
+  <rect x="190" y="150" width="10" height="60" rx="2" fill="#475569"/>
+  
+  <!-- Character: The Speaker -->
+  <circle cx="70" cy="100" r="25" fill="#fde68a"/>
+  <path d="M60 95 Q65 90 70 95 T80 95" stroke="#475569" stroke-width="2" fill="none"/>
+  <circle cx="62" cy="95" r="2" fill="#1e293b"/>
+  <circle cx="78" cy="95" r="2" fill="#1e293b"/>
+  <path d="M65 110 Q70 105 75 110" stroke="#fb923c" stroke-width="2" fill="none"/>
+  <path d="M50 120 L90 120 L85 150 L55 150 Z" fill="#38bdf8"/>
+  
+  <!-- The Interaction: Pointing at a document -->
+  <rect x="110" y="80" width="80" height="60" rx="4" fill="#f1f5f9"/>
+  <line x1="120" y1="95" x2="170" y2="95" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="110" x2="170" y2="110" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="125" x2="150" y2="125" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Negative connotation indicator: Red X over a word area -->
+  <path d="M125 90 L135 100 M135 90 L125 100" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Character: The Listener -->
+  <circle cx="170" cy="100" r="20" fill="#fde68a"/>
+  <circle cx="165" cy="95" r="2" fill="#1e293b"/>
+  <circle cx="175" cy="95" r="2" fill="#1e293b"/>
+  <path d="M165 105 Q170 102 175 105" stroke="#475569" stroke-width="2" fill="none"/>
+  <path d="M155 120 L185 120 L180 150 L160 150 Z" fill="#fb923c"/>
+  
+  <!-- Hand pointing -->
+  <path d="M85 115 L105 105 L110 110" stroke="#fde68a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Ambient light -->
+  <circle cx="200" cy="40" r="30" fill="#f59e0b" opacity="0.1"/>
+</svg>
