@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:08:31.614169",
-  "total_unique_words_with_illustrations": 4025,
-  "total_flat_svg_files": 4025,
+  "generated_at": "2026-10-12T20:10:01.790655",
+  "total_unique_words_with_illustrations": 4035,
+  "total_flat_svg_files": 4035,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1385,
-        "pct": "55.4%"
+        "with_svg": 1395,
+        "pct": "55.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 495,
-        "pct": "27.5%"
+        "with_svg": 497,
+        "pct": "27.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 596,
-        "pct": "10.6%"
+        "with_svg": 604,
+        "pct": "10.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 596,
-        "pct": "10.6%"
+        "with_svg": 604,
+        "pct": "10.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 596,
-        "pct": "10.6%"
+        "with_svg": 604,
+        "pct": "10.8%"
       }
     }
   },
@@ -63240,6 +63240,116 @@
         "images/HSK_3.0/level9/卡通.svg"
       ]
     },
+    "开采": {
+      "hanzi": "开采",
+      "pinyin": "kāicǎi",
+      "meaning": "khai thác (mỏ)",
+      "example_zh": "这里正在<u>开采</u>石油。",
+      "example_vi": "Nơi đây đang <u>khai thác</u> dầu mỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "开采.svg",
+      "src": "images/HSK_2.0/level6/开采.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/开采.svg",
+        "images/HSK_3.0/level8/开采.svg",
+        "images/HSK_3.0/level9/开采.svg"
+      ]
+    },
+    "开除": {
+      "hanzi": "开除",
+      "pinyin": "kāichú",
+      "meaning": "đuổi (việc, học)",
+      "example_zh": "他因违纪被<u>开除</u>了。",
+      "example_vi": "Anh ta bị <u>đuổi</u> vì vi phạm nội quy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "开除.svg",
+      "src": "images/HSK_2.0/level6/开除.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/开除.svg",
+        "images/HSK_3.0/level8/开除.svg",
+        "images/HSK_3.0/level9/开除.svg"
+      ]
+    },
+    "开阔": {
+      "hanzi": "开阔",
+      "pinyin": "kāikuò",
+      "meaning": "rộng mở, khoáng đạt",
+      "example_zh": "这里视野很<u>开阔</u>。",
+      "example_vi": "Tầm nhìn ở đây rất <u>rộng mở</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "开阔.svg",
+      "src": "images/HSK_2.0/level6/开阔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/开阔.svg",
+        "images/HSK_3.0/level8/开阔.svg",
+        "images/HSK_3.0/level9/开阔.svg"
+      ]
+    },
+    "开朗": {
+      "hanzi": "开朗",
+      "pinyin": "kāilǎng",
+      "meaning": "cởi mở, vui vẻ (tính cách)",
+      "example_zh": "她性格很<u>开朗</u>。",
+      "example_vi": "Tính cách của cô ấy rất <u>cởi mở</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "开朗.svg",
+      "src": "images/HSK_2.0/level6/开朗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/开朗.svg",
+        "images/HSK_3.0/level8/开朗.svg",
+        "images/HSK_3.0/level9/开朗.svg"
+      ]
+    },
+    "开拓": {
+      "hanzi": "开拓",
+      "pinyin": "kāituò",
+      "meaning": "khai mở, mở rộng",
+      "example_zh": "我们要<u>开拓</u>新市场。",
+      "example_vi": "Chúng ta phải <u>khai mở</u> thị trường mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "开拓.svg",
+      "src": "images/HSK_2.0/level6/开拓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/开拓.svg",
+        "images/HSK_3.0/level8/开拓.svg",
+        "images/HSK_3.0/level9/开拓.svg"
+      ]
+    },
     "开展": {
       "hanzi": "开展",
       "pinyin": "kāizhǎn",
@@ -63256,6 +63366,108 @@
       "src": "images/HSK_2.0/level6/开展.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/开展.svg"
+      ]
+    },
+    "慷慨": {
+      "hanzi": "慷慨",
+      "pinyin": "kāngkǎi",
+      "meaning": "khoáng đạt, hào hiệp",
+      "example_zh": "他对朋友十分<u>慷慨</u>。",
+      "example_vi": "Anh ấy rất <u>hào hiệp</u> với bạn bè.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "慷慨.svg",
+      "src": "images/HSK_2.0/level6/慷慨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/慷慨.svg",
+        "images/HSK_3.0/level8/慷慨.svg",
+        "images/HSK_3.0/level9/慷慨.svg"
+      ]
+    },
+    "扛": {
+      "hanzi": "扛",
+      "pinyin": "káng",
+      "meaning": "vác, khiêng",
+      "example_zh": "他<u>扛</u>着一袋米。",
+      "example_vi": "Anh ấy <u>vác</u> một túi gạo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扛.svg",
+      "src": "images/HSK_2.0/level6/扛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/扛.svg",
+        "images/HSK_3.0/level8/扛.svg",
+        "images/HSK_3.0/level9/扛.svg"
+      ]
+    },
+    "抗议": {
+      "hanzi": "抗议",
+      "pinyin": "kàngyì",
+      "meaning": "phản đối, kháng nghị",
+      "example_zh": "民众举行<u>抗议</u>活动。",
+      "example_vi": "Người dân tổ chức hoạt động <u>phản đối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抗议.svg",
+      "src": "images/HSK_2.0/level6/抗议.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/抗议.svg",
+        "images/HSK_3.0/level8/抗议.svg",
+        "images/HSK_3.0/level9/抗议.svg"
+      ]
+    },
+    "考核": {
+      "hanzi": "考核",
+      "pinyin": "kǎohé",
+      "meaning": "khảo sát đánh giá",
+      "example_zh": "公司每年对员工进行<u>考核</u>。",
+      "example_vi": "Công ty hằng năm <u>đánh giá</u> nhân viên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "考核.svg",
+      "src": "images/HSK_2.0/level6/考核.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/考核.svg"
+      ]
+    },
+    "考察": {
+      "hanzi": "考察",
+      "pinyin": "kǎochá",
+      "meaning": "khảo sát, thực địa",
+      "example_zh": "专家来当地<u>考察</u>。",
+      "example_vi": "Chuyên gia đến địa phương <u>khảo sát</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "考察.svg",
+      "src": "images/HSK_2.0/level6/考察.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/考察.svg"
       ]
     },
     "亏": {

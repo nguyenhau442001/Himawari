@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Map/Chart Background -->
+    <path d="M20 20 L180 20 L180 140 L20 140 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <path d="M40 120 L80 80 L120 100 L160 40" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="160" cy="40" r="6" fill="#fb923c"/>
+    
+    <!-- Characters -->
+    <!-- Person 1 -->
+    <g transform="translate(30, 110)">
+      <circle cx="15" cy="-10" r="12" fill="#fde68a"/>
+      <path d="M5 5 L25 5 L22 40 L8 40 Z" fill="#38bdf8"/>
+      <path d="M15 5 L15 25" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Person 2 -->
+    <g transform="translate(70, 110)">
+      <circle cx="15" cy="-10" r="12" fill="#fde68a"/>
+      <path d="M5 5 L25 5 L22 40 L8 40 Z" fill="#10b981"/>
+      <path d="M15 5 L25 25" stroke="#10b981" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Pointer/Action -->
+    <path d="M100 100 L140 60 L145 65 L105 105 Z" fill="#fbbf24"/>
+    <circle cx="142" cy="62" r="4" fill="#ec4899"/>
+  </g>
+  
+  <!-- Desk Surface -->
+  <rect x="0" y="180" width="240" height="60" fill="#0f172a"/>
+  <rect x="20" y="190" width="200" height="10" rx="2" fill="#334155"/>
+  
+  <!-- Props -->
+  <rect x="180" y="160" width="30" height="40" rx="4" fill="#fb923c"/>
+  <circle cx="195" cy="170" r="5" fill="#fde68a"/>
+</svg>

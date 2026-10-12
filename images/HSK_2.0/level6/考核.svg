@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Office Desk -->
+  <rect x="40" y="140" width="160" height="10" rx="2" fill="#334155"/>
+  <rect x="50" y="150" width="10" height="60" rx="2" fill="#334155"/>
+  <rect x="180" y="150" width="10" height="60" rx="2" fill="#334155"/>
+  
+  <!-- Manager Character -->
+  <g transform="translate(140, 80)">
+    <circle cx="20" cy="20" r="15" fill="#fbbf24"/>
+    <path d="M5 35 Q20 50 35 35" stroke="#fbbf24" stroke-width="4" fill="none"/>
+    <rect x="5" y="40" width="30" height="50" rx="5" fill="#38bdf8"/>
+    <rect x="10" y="90" width="8" height="40" fill="#38bdf8"/>
+    <rect x="22" y="90" width="8" height="40" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Employee Character -->
+  <g transform="translate(60, 90)">
+    <circle cx="20" cy="20" r="15" fill="#fde68a"/>
+    <path d="M5 35 Q20 50 35 35" stroke="#fde68a" stroke-width="4" fill="none"/>
+    <rect x="5" y="40" width="30" height="50" rx="5" fill="#ec4899"/>
+    <rect x="10" y="90" width="8" height="40" fill="#ec4899"/>
+    <rect x="22" y="90" width="8" height="40" fill="#ec4899"/>
+  </g>
+  
+  <!-- Clipboard/Assessment -->
+  <rect x="110" y="100" width="40" height="50" rx="4" fill="#f1f5f9"/>
+  <line x1="115" y1="110" x2="145" y2="110" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="115" y1="120" x2="145" y2="120" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="115" y1="130" x2="135" y2="130" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="130" cy="140" r="4" fill="#10b981"/>
+  
+  <!-- Decorative elements -->
+  <rect x="170" y="40" width="30" height="30" rx="5" fill="#1e293b" stroke="#fb923c" stroke-width="2"/>
+  <circle cx="185" cy="55" r="8" fill="#fb923c"/>
+  <path d="M175 55 L182 62 L195 48" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

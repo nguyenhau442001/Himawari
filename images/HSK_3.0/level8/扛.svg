@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Ground -->
+  <path d="M0 200 L240 200 L240 240 L0 240 Z" fill="#334155"/>
+  
+  <!-- Character -->
+  <g transform="translate(80, 60)">
+    <!-- Legs -->
+    <path d="M40 140 L40 100 M60 140 L60 100" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <!-- Body -->
+    <path d="M50 100 L50 60" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+    <!-- Arms holding bag -->
+    <path d="M40 70 L20 90 M60 70 L80 90" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="50" cy="50" r="12" fill="#fb923c"/>
+    
+    <!-- Rice Bag -->
+    <path d="M30 30 L80 30 L90 70 L20 70 Z" fill="#f59e0b"/>
+    <path d="M35 35 L75 35 M35 45 L75 45 M35 55 L75 55" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Environment Props -->
+  <rect x="180" y="150" width="30" height="50" fill="#475569" rx="2"/>
+  <rect x="185" y="160" width="20" height="10" fill="#38bdf8" rx="1"/>
+  
+  <circle cx="200" cy="40" r="20" fill="#fbbf24" opacity="0.2"/>
+  <circle cx="200" cy="40" r="10" fill="#fbbf24" opacity="0.4"/>
+  
+  <path d="M10 180 L30 180 M15 170 L25 170" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+</svg>

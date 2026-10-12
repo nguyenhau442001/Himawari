@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Distant Mountains -->
+  <path d="M0 160 L40 120 L80 150 L120 110 L160 140 L200 100 L240 130 L240 240 L0 240 Z" fill="#334155"/>
+  <path d="M20 180 L60 140 L100 170 L140 130 L180 160 L220 120 L240 140 L240 240 L20 240 Z" fill="#1e293b" opacity="0.6"/>
+  
+  <!-- Sky/Horizon Glow -->
+  <circle cx="180" cy="80" r="30" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="180" cy="80" r="15" fill="#fbbf24"/>
+  
+  <!-- Viewing Platform/Balcony -->
+  <path d="M0 200 L240 200 L240 240 L0 240 Z" fill="#0f172a"/>
+  <rect x="0" y="195" width="240" height="5" fill="#38bdf8"/>
+  
+  <!-- Character -->
+  <g transform="translate(100, 140)">
+    <!-- Legs -->
+    <rect x="15" y="50" width="6" height="20" fill="#fb923c"/>
+    <rect x="30" y="50" width="6" height="20" fill="#fb923c"/>
+    <!-- Body -->
+    <rect x="10" y="20" width="30" height="35" rx="5" fill="#ec4899"/>
+    <!-- Head -->
+    <circle cx="25" cy="10" r="12" fill="#fde68a"/>
+    <!-- Arms (pointing out) -->
+    <path d="M10 30 L-10 20" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M40 30 L60 20" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Railing -->
+  <rect x="0" y="190" width="240" height="10" fill="#475569"/>
+  <rect x="20" y="190" width="5" height="50" fill="#64748b"/>
+  <rect x="120" y="190" width="5" height="50" fill="#64748b"/>
+  <rect x="220" y="190" width="5" height="50" fill="#64748b"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="30" cy="50" r="2" fill="#10b981"/>
+  <circle cx="200" cy="40" r="3" fill="#10b981"/>
+</svg>

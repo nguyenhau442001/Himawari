@@ -17082,10 +17082,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/卡通.svg",
     "caption": "hoạt hình"
   },
+  "开采": {
+    "file": "开采.svg",
+    "src": "images/HSK_2.0/level6/开采.svg",
+    "caption": "khai thác (mỏ)"
+  },
+  "开除": {
+    "file": "开除.svg",
+    "src": "images/HSK_2.0/level6/开除.svg",
+    "caption": "đuổi (việc, học)"
+  },
+  "开阔": {
+    "file": "开阔.svg",
+    "src": "images/HSK_2.0/level6/开阔.svg",
+    "caption": "rộng mở, khoáng đạt"
+  },
+  "开朗": {
+    "file": "开朗.svg",
+    "src": "images/HSK_2.0/level6/开朗.svg",
+    "caption": "cởi mở, vui vẻ (tính cách)"
+  },
+  "开拓": {
+    "file": "开拓.svg",
+    "src": "images/HSK_2.0/level6/开拓.svg",
+    "caption": "khai mở, mở rộng"
+  },
   "开展": {
     "file": "开展.svg",
     "src": "images/HSK_2.0/level6/开展.svg",
     "caption": "triển khai"
+  },
+  "慷慨": {
+    "file": "慷慨.svg",
+    "src": "images/HSK_2.0/level6/慷慨.svg",
+    "caption": "khoáng đạt, hào hiệp"
+  },
+  "扛": {
+    "file": "扛.svg",
+    "src": "images/HSK_2.0/level6/扛.svg",
+    "caption": "vác, khiêng"
+  },
+  "抗议": {
+    "file": "抗议.svg",
+    "src": "images/HSK_2.0/level6/抗议.svg",
+    "caption": "phản đối, kháng nghị"
+  },
+  "考核": {
+    "file": "考核.svg",
+    "src": "images/HSK_2.0/level6/考核.svg",
+    "caption": "khảo sát đánh giá"
+  },
+  "考察": {
+    "file": "考察.svg",
+    "src": "images/HSK_2.0/level6/考察.svg",
+    "caption": "khảo sát, thực địa"
   },
   "亏": {
     "file": "亏.svg",
