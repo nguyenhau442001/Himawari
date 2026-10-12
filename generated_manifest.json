@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:49:17.085229",
-  "total_unique_words_with_illustrations": 4435,
-  "total_flat_svg_files": 4435,
+  "generated_at": "2026-10-12T22:50:06.219813",
+  "total_unique_words_with_illustrations": 4440,
+  "total_flat_svg_files": 4440,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1795,
-        "pct": "71.8%"
+        "with_svg": 1800,
+        "pct": "72.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 599,
-        "pct": "33.3%"
+        "with_svg": 601,
+        "pct": "33.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 884,
+        "with_svg": 887,
         "pct": "15.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 884,
+        "with_svg": 887,
         "pct": "15.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 884,
+        "with_svg": 887,
         "pct": "15.8%"
       }
     }
@@ -72002,6 +72002,46 @@
         "images/HSK_3.0/level9/缺席.svg"
       ]
     },
+    "缺陷": {
+      "hanzi": "缺陷",
+      "pinyin": "quēxiàn",
+      "meaning": "khuyết điểm, thiếu sót",
+      "example_zh": "这个产品有一些设计上的<u>缺陷</u>。",
+      "example_vi": "Sản phẩm này có một số <u>khuyết điểm</u> trong thiết kế.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "缺陷.svg",
+      "src": "images/HSK_2.0/level6/缺陷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/缺陷.svg"
+      ]
+    },
+    "瘸": {
+      "hanzi": "瘸",
+      "pinyin": "qué",
+      "meaning": "khập khiễng, đi cà nhẵng",
+      "example_zh": "他摔伤了腿，走路一<u>瘸</u>一拐的。",
+      "example_vi": "Anh ấy bị ngã thương chân, đi <u>khập khiễng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "瘸.svg",
+      "src": "images/HSK_2.0/level6/瘸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/瘸.svg",
+        "images/HSK_3.0/level8/瘸.svg",
+        "images/HSK_3.0/level9/瘸.svg"
+      ]
+    },
     "确保": {
       "hanzi": "确保",
       "pinyin": "quèbǎo",
@@ -72018,6 +72058,68 @@
       "src": "images/HSK_2.0/level6/确保.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/确保.svg"
+      ]
+    },
+    "确立": {
+      "hanzi": "确立",
+      "pinyin": "quèlì",
+      "meaning": "xác lập",
+      "example_zh": "公司<u>确立</u>了新的发展方向。",
+      "example_vi": "Công ty đã <u>xác lập</u> hướng phát triển mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "确立.svg",
+      "src": "images/HSK_2.0/level6/确立.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/确立.svg"
+      ]
+    },
+    "确切": {
+      "hanzi": "确切",
+      "pinyin": "quèqiè",
+      "meaning": "xác đáng, chính xác",
+      "example_zh": "请给我一个<u>确切</u>的答案。",
+      "example_vi": "Xin hãy cho tôi một câu trả lời <u>chính xác</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "确切.svg",
+      "src": "images/HSK_2.0/level6/确切.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/确切.svg",
+        "images/HSK_3.0/level8/确切.svg",
+        "images/HSK_3.0/level9/确切.svg"
+      ]
+    },
+    "确信": {
+      "hanzi": "确信",
+      "pinyin": "quèxìn",
+      "meaning": "tin chắc, tin tưởng tuyệt đối",
+      "example_zh": "我<u>确信</u>他不会说谎。",
+      "example_vi": "Tôi <u>tin chắc</u> anh ấy không nói dối.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "确信.svg",
+      "src": "images/HSK_2.0/level6/确信.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/确信.svg",
+        "images/HSK_3.0/level8/确信.svg",
+        "images/HSK_3.0/level9/确信.svg"
       ]
     },
     "人工": {

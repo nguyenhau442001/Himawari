@@ -19217,10 +19217,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/缺席.svg",
     "caption": "vắng mặt"
   },
+  "缺陷": {
+    "file": "缺陷.svg",
+    "src": "images/HSK_2.0/level6/缺陷.svg",
+    "caption": "khuyết điểm, thiếu sót"
+  },
+  "瘸": {
+    "file": "瘸.svg",
+    "src": "images/HSK_2.0/level6/瘸.svg",
+    "caption": "khập khiễng, đi cà nhẵng"
+  },
   "确保": {
     "file": "确保.svg",
     "src": "images/HSK_2.0/level6/确保.svg",
     "caption": "đảm bảo chắc chắn"
+  },
+  "确立": {
+    "file": "确立.svg",
+    "src": "images/HSK_2.0/level6/确立.svg",
+    "caption": "xác lập"
+  },
+  "确切": {
+    "file": "确切.svg",
+    "src": "images/HSK_2.0/level6/确切.svg",
+    "caption": "xác đáng, chính xác"
+  },
+  "确信": {
+    "file": "确信.svg",
+    "src": "images/HSK_2.0/level6/确信.svg",
+    "caption": "tin chắc, tin tưởng tuyệt đối"
   },
   "人工": {
     "file": "人工.svg",
