@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 120)">
+    <!-- Radiating background waves (popularity/trend spreading) -->
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#2A3241" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#323D4E" stroke-width="2" opacity="0.8"/>
+    
+    <!-- Central Object representing "Shèng xíng" / Trend / Popularity: A sleek retro-modern boombox/radio or vintage television broadcasting soundwaves, or an iconic classic sneaker on a pedestal. Let's go with an iconic glowing retro microphone/trophy hybrid representing a reigning trend -->
+    
+    <!-- Pedestal / Base -->
+    <path d="M-30 65 L30 65 L22 80 L-22 80 Z" fill="#3B4758"/>
+    <ellipse cx="0" cy="65" rx="30" ry="6" fill="#4E5D73"/>
+    <rect x="-10" y="45" width="20" height="20" fill="#2A3241"/>
+
+    <!-- Glowing Trend / Popularity Core (The Object) -->
+    <path d="M-25 -20 C-25 -50 25 -50 25 -20 C25 5 25 15 20 25 L-20 25 C-25 15 -25 5 -25 -20 Z" fill="#1A1D24" stroke="#F59E0B" stroke-width="4"/>
+    
+    <!-- Microphone Grille Pattern -->
+    <path d="M-18 -25 C-18 -42 18 -42 18 -25" fill="none" stroke="#F59E0B" stroke-width="3"/>
+    <path d="M-22 -15 C-22 -35 22 -35 22 -15" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="-15" y1="-5" x2="15" y2="-5" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="-18" y1="5" x2="18" y2="5" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="-15" y1="15" x2="15" y2="15" stroke="#F59E0B" stroke-width="2"/>
+    
+    <!-- Outer U-bracket holder -->
+    <path d="M-30 -30 L-30 0 C-30 25 30 25 30 0 L30 -30" fill="none" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-30" cy="-30" r="4" fill="#F59E0B"/>
+    <circle cx="30" cy="-30" r="4" fill="#F59E0B"/>
+
+    <!-- Rising Trend Arrow / Sparkles (indicating "widespread/prevailing") -->
+    <path d="M50 -40 L70 -60 M70 -60 L58 -60 M70 -60 L70 -48" fill="none" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="65" cy="-20" r="3" fill="#F59E0B"/>
+    <circle cx="-65" cy="-45" r="4" fill="#10B981"/>
+    <circle cx="-55" cy="15" r="3" fill="#F59E0B"/>
+    
+    <!-- Sound waves / diffusion lines -->
+    <path d="M-55 -5 C-65 -15 -65 -35 -55 -45" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M55 -5 C65 -15 65 -35 55 -45" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

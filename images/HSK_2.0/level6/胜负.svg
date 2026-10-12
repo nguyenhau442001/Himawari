@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative grid / ambient light -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#2A2F3D" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Motion / Action dynamics for "胜负" (Winning vs Losing / Outcome Deciding) -->
+  <!-- Two opposing force vectors meeting in the center -->
+  
+  <!-- Left Side: Victory / Success (Orange/Gold theme) -->
+  <path d="M40 120 L80 120" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M60 100 L90 120 L60 140" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right Side: Defeat / Challenge (Muted / Slate theme) -->
+  <path d="M200 120 L160 120" stroke="#636E72" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M180 100 L150 120 L180 140" fill="none" stroke="#636E72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Central Dynamic Action: The pivotal moment of decision / clash -->
+  <!-- A glowing scale or fulcrum representing the undecided outcome ("还未确定") -->
+  
+  <!-- Central Pillar -->
+  <rect x="116" y="80" width="8" height="80" rx="4" fill="#2D3436"/>
+  <circle cx="120" cy="80" r="6" fill="#FFD700"/>
+
+  <!-- Tipping Beam (representing dynamic action/tension) -->
+  <g transform="rotate(-12 120 86)">
+    <rect x="70" y="83" width="100" height="6" rx="3" fill="#DFE6E9"/>
+    
+    <!-- Left pan (Rising / Winning potential) -->
+    <path d="M70 89 L60 120 L80 120 Z" fill="#FF9F43" opacity="0.8"/>
+    <circle cx="70" cy="122" r="10" fill="#FF9F43"/>
+    
+    <!-- Right pan (Falling) -->
+    <path d="M170 89 L160 125 L180 125 Z" fill="#636E72" opacity="0.8"/>
+    <circle cx="170" cy="127" r="10" fill="#636E72"/>
+  </g>
+
+  <!-- Action Motion Lines / Spark of uncertainty at the fulcrum -->
+  <path d="M105 60 C115 50, 125 50, 135 60" fill="none" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="50" r="2" fill="#FFD700"/>
+  <path d="M110 45 L130 45" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Abstract Character / Hand Interaction hinting at competition/action -->
+  <!-- Left active hand reaching in -->
+  <circle cx="50" cy="120" r="14" fill="#FF9F43"/>
+  <path d="M42 120 L52 110 M42 120 L52 130" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Right active hand reaching in -->
+  <circle cx="190" cy="120" r="14" fill="#B2BEC3"/>
+  <path d="M198 120 L188 110 M198 120 L188 130" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Floating question mark / uncertainty focal point -->
+  <path d="M114 165 C114 158, 126 158, 126 165 C126 172, 118 172, 118 180" fill="none" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="118" cy="190" r="2" fill="#FFD700"/>
+</svg>

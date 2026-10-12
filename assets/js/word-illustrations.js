@@ -19807,10 +19807,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/盛开.svg",
     "caption": "nở rộ"
   },
+  "盛情": {
+    "file": "盛情.svg",
+    "src": "images/HSK_2.0/level6/盛情.svg",
+    "caption": "lòng nhiệt thành, sự đón tiếp nồng hậu"
+  },
+  "盛行": {
+    "file": "盛行.svg",
+    "src": "images/HSK_2.0/level6/盛行.svg",
+    "caption": "thịnh hành, phổ biến"
+  },
+  "胜负": {
+    "file": "胜负.svg",
+    "src": "images/HSK_2.0/level6/胜负.svg",
+    "caption": "thắng bại"
+  },
+  "失事": {
+    "file": "失事.svg",
+    "src": "images/HSK_2.0/level6/失事.svg",
+    "caption": "gặp tai nạn (tàu, xe...)"
+  },
   "失误": {
     "file": "失误.svg",
     "src": "images/HSK_2.0/level6/失误.svg",
     "caption": "sai sót, sai lầm"
+  },
+  "失踪": {
+    "file": "失踪.svg",
+    "src": "images/HSK_2.0/level6/失踪.svg",
+    "caption": "mất tích"
   },
   "时常": {
     "file": "时常.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:10:04.393633",
-  "total_unique_words_with_illustrations": 4543,
-  "total_flat_svg_files": 4543,
+  "generated_at": "2026-10-12T23:10:37.029581",
+  "total_unique_words_with_illustrations": 4548,
+  "total_flat_svg_files": 4548,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1903,
-        "pct": "76.1%"
+        "with_svg": 1908,
+        "pct": "76.3%"
       }
     },
     "hsk_3_0": {
@@ -68,17 +68,17 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 955,
+        "with_svg": 960,
         "pct": "17.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 955,
+        "with_svg": 960,
         "pct": "17.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 955,
+        "with_svg": 960,
         "pct": "17.1%"
       }
     }
@@ -74390,6 +74390,94 @@
         "images/HSK_3.0/level9/盛开.svg"
       ]
     },
+    "盛情": {
+      "hanzi": "盛情",
+      "pinyin": "shèngqíng",
+      "meaning": "lòng nhiệt thành, sự đón tiếp nồng hậu",
+      "example_zh": "感谢您的<u>盛情</u>款待。",
+      "example_vi": "Cảm ơn sự đón tiếp <u>nồng hậu</u> của ngài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盛情.svg",
+      "src": "images/HSK_2.0/level6/盛情.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盛情.svg",
+        "images/HSK_3.0/level8/盛情.svg",
+        "images/HSK_3.0/level9/盛情.svg"
+      ]
+    },
+    "盛行": {
+      "hanzi": "盛行",
+      "pinyin": "shèngxíng",
+      "meaning": "thịnh hành, phổ biến",
+      "example_zh": "这种风格曾经十分<u>盛行</u>。",
+      "example_vi": "Phong cách này từng rất <u>thịnh hành</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盛行.svg",
+      "src": "images/HSK_2.0/level6/盛行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盛行.svg",
+        "images/HSK_3.0/level8/盛行.svg",
+        "images/HSK_3.0/level9/盛行.svg"
+      ]
+    },
+    "胜负": {
+      "hanzi": "胜负",
+      "pinyin": "shèngfù",
+      "meaning": "thắng bại",
+      "example_zh": "这场比赛的<u>胜负</u>还未确定。",
+      "example_vi": "<u>Thắng bại</u> của trận đấu này vẫn chưa được xác định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "胜负.svg",
+      "src": "images/HSK_2.0/level6/胜负.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/胜负.svg",
+        "images/HSK_3.0/level8/胜负.svg",
+        "images/HSK_3.0/level9/胜负.svg"
+      ]
+    },
+    "失事": {
+      "hanzi": "失事",
+      "pinyin": "shīshì",
+      "meaning": "gặp tai nạn (tàu, xe...)",
+      "example_zh": "一架飞机在空中<u>失事</u>了。",
+      "example_vi": "Một chiếc máy bay đã <u>gặp tai nạn</u> trên không.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "失事.svg",
+      "src": "images/HSK_2.0/level6/失事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/失事.svg",
+        "images/HSK_3.0/level8/失事.svg",
+        "images/HSK_3.0/level9/失事.svg"
+      ]
+    },
     "失误": {
       "hanzi": "失误",
       "pinyin": "shīwù",
@@ -74406,6 +74494,28 @@
       "src": "images/HSK_2.0/level6/失误.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/失误.svg"
+      ]
+    },
+    "失踪": {
+      "hanzi": "失踪",
+      "pinyin": "shīzōng",
+      "meaning": "mất tích",
+      "example_zh": "那个孩子已经<u>失踪</u>三天了。",
+      "example_vi": "Đứa trẻ đó đã <u>mất tích</u> ba ngày rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "失踪.svg",
+      "src": "images/HSK_2.0/level6/失踪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/失踪.svg",
+        "images/HSK_3.0/level8/失踪.svg",
+        "images/HSK_3.0/level9/失踪.svg"
       ]
     },
     "时常": {
