@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:14:55.010694",
-  "total_unique_words_with_illustrations": 3709,
-  "total_flat_svg_files": 3709,
+  "generated_at": "2026-10-12T12:16:45.813159",
+  "total_unique_words_with_illustrations": 3719,
+  "total_flat_svg_files": 3719,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1069,
-        "pct": "42.8%"
+        "with_svg": 1079,
+        "pct": "43.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 387,
-        "pct": "21.5%"
+        "with_svg": 390,
+        "pct": "21.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 419,
-        "pct": "7.5%"
+        "with_svg": 426,
+        "pct": "7.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 419,
-        "pct": "7.5%"
+        "with_svg": 426,
+        "pct": "7.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 419,
-        "pct": "7.5%"
+        "with_svg": 426,
+        "pct": "7.6%"
       }
     }
   },
@@ -56578,6 +56578,174 @@
         "images/HSK_3.0/level2/饭馆.svg"
       ]
     },
+    "泛滥": {
+      "hanzi": "泛滥",
+      "pinyin": "fànlàn",
+      "meaning": "tràn lan, lũ lụt",
+      "example_zh": "河水<u>泛滥</u>导致洪灾。",
+      "example_vi": "Nước sông <u>tràn lan</u> gây ra lũ lụt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "泛滥.svg",
+      "src": "images/HSK_2.0/level6/泛滥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/泛滥.svg",
+        "images/HSK_3.0/level8/泛滥.svg",
+        "images/HSK_3.0/level9/泛滥.svg"
+      ]
+    },
+    "贩卖": {
+      "hanzi": "贩卖",
+      "pinyin": "fànmài",
+      "meaning": "buôn bán",
+      "example_zh": "他们<u>贩卖</u>假冒商品。",
+      "example_vi": "Họ <u>buôn bán</u> hàng giả.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "贩卖.svg",
+      "src": "images/HSK_2.0/level6/贩卖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/贩卖.svg",
+        "images/HSK_3.0/level8/贩卖.svg",
+        "images/HSK_3.0/level9/贩卖.svg"
+      ]
+    },
+    "方位": {
+      "hanzi": "方位",
+      "pinyin": "fāngwèi",
+      "meaning": "vị trí, phương hướng",
+      "example_zh": "请确定一下你的<u>方位</u>。",
+      "example_vi": "Xin hãy xác định <u>vị trí phương hướng</u> của bạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "方位.svg",
+      "src": "images/HSK_2.0/level6/方位.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/方位.svg"
+      ]
+    },
+    "方言": {
+      "hanzi": "方言",
+      "pinyin": "fāngyán",
+      "meaning": "thổ ngữ, phương ngữ",
+      "example_zh": "每个地方都有自己的<u>方言</u>。",
+      "example_vi": "Mỗi địa phương đều có <u>thổ ngữ</u> riêng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "方言.svg",
+      "src": "images/HSK_2.0/level6/方言.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/方言.svg"
+      ]
+    },
+    "方针": {
+      "hanzi": "方针",
+      "pinyin": "fāngzhēn",
+      "meaning": "phương châm",
+      "example_zh": "公司制定了新的发展<u>方针</u>。",
+      "example_vi": "Công ty đề ra <u>phương châm</u> phát triển mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "方针.svg",
+      "src": "images/HSK_2.0/level6/方针.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/方针.svg",
+        "images/HSK_3.0/level8/方针.svg",
+        "images/HSK_3.0/level9/方针.svg"
+      ]
+    },
+    "防守": {
+      "hanzi": "防守",
+      "pinyin": "fángshǒu",
+      "meaning": "phòng thủ",
+      "example_zh": "这个队<u>防守</u>很出色。",
+      "example_vi": "Đội này <u>phòng thủ</u> rất xuất sắc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "防守.svg",
+      "src": "images/HSK_2.0/level6/防守.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/防守.svg",
+        "images/HSK_3.0/level8/防守.svg",
+        "images/HSK_3.0/level9/防守.svg"
+      ]
+    },
+    "防疫": {
+      "hanzi": "防疫",
+      "pinyin": "fángyì",
+      "meaning": "phòng dịch",
+      "example_zh": "各地都在加强<u>防疫</u>措施。",
+      "example_vi": "Các nơi đều tăng cường biện pháp <u>phòng dịch</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "防疫.svg",
+      "src": "images/HSK_2.0/level6/防疫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/防疫.svg",
+        "images/HSK_3.0/level8/防疫.svg",
+        "images/HSK_3.0/level9/防疫.svg"
+      ]
+    },
+    "防御": {
+      "hanzi": "防御",
+      "pinyin": "fángyù",
+      "meaning": "phòng thủ, phòng vệ",
+      "example_zh": "这座城堡有很强的<u>防御</u>能力。",
+      "example_vi": "Lâu đài này có khả năng <u>phòng thủ</u> rất mạnh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "防御.svg",
+      "src": "images/HSK_2.0/level6/防御.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/防御.svg",
+        "images/HSK_3.0/level8/防御.svg",
+        "images/HSK_3.0/level9/防御.svg"
+      ]
+    },
     "防止": {
       "hanzi": "防止",
       "pinyin": "fángzhǐ",
@@ -56596,6 +56764,24 @@
         "images/HSK_3.0/level5/防止.svg"
       ]
     },
+    "防治": {
+      "hanzi": "防治",
+      "pinyin": "fángzhì",
+      "meaning": "phòng và trị (bệnh)",
+      "example_zh": "这是<u>防治</u>疾病的好方法。",
+      "example_vi": "Đây là phương pháp tốt để <u>phòng và trị</u> bệnh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "防治.svg",
+      "src": "images/HSK_2.0/level6/防治.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/防治.svg"
+      ]
+    },
     "访问": {
       "hanzi": "访问",
       "pinyin": "fǎngwèn",
@@ -56612,6 +56798,28 @@
       "src": "images/HSK_2.0/level6/访问.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/访问.svg"
+      ]
+    },
+    "纺织": {
+      "hanzi": "纺织",
+      "pinyin": "fǎngzhī",
+      "meaning": "dệt vải",
+      "example_zh": "这是一家<u>纺织</u>厂。",
+      "example_vi": "Đây là một nhà máy <u>dệt vải</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "纺织.svg",
+      "src": "images/HSK_2.0/level6/纺织.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/纺织.svg",
+        "images/HSK_3.0/level8/纺织.svg",
+        "images/HSK_3.0/level9/纺织.svg"
       ]
     },
     "夫妇": {

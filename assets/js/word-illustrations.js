@@ -15397,15 +15397,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/饭馆.svg",
     "caption": "quán ăn, nhà hàng"
   },
+  "泛滥": {
+    "file": "泛滥.svg",
+    "src": "images/HSK_2.0/level6/泛滥.svg",
+    "caption": "tràn lan, lũ lụt"
+  },
+  "贩卖": {
+    "file": "贩卖.svg",
+    "src": "images/HSK_2.0/level6/贩卖.svg",
+    "caption": "buôn bán"
+  },
+  "方位": {
+    "file": "方位.svg",
+    "src": "images/HSK_2.0/level6/方位.svg",
+    "caption": "vị trí, phương hướng"
+  },
+  "方言": {
+    "file": "方言.svg",
+    "src": "images/HSK_2.0/level6/方言.svg",
+    "caption": "thổ ngữ, phương ngữ"
+  },
+  "方针": {
+    "file": "方针.svg",
+    "src": "images/HSK_2.0/level6/方针.svg",
+    "caption": "phương châm"
+  },
+  "防守": {
+    "file": "防守.svg",
+    "src": "images/HSK_2.0/level6/防守.svg",
+    "caption": "phòng thủ"
+  },
+  "防疫": {
+    "file": "防疫.svg",
+    "src": "images/HSK_2.0/level6/防疫.svg",
+    "caption": "phòng dịch"
+  },
+  "防御": {
+    "file": "防御.svg",
+    "src": "images/HSK_2.0/level6/防御.svg",
+    "caption": "phòng thủ, phòng vệ"
+  },
   "防止": {
     "file": "防止.svg",
     "src": "images/HSK_2.0/level6/防止.svg",
     "caption": "ngăn ngừa"
   },
+  "防治": {
+    "file": "防治.svg",
+    "src": "images/HSK_2.0/level6/防治.svg",
+    "caption": "phòng và trị (bệnh)"
+  },
   "访问": {
     "file": "访问.svg",
     "src": "images/HSK_2.0/level6/访问.svg",
     "caption": "thăm viếng, phỏng vấn"
+  },
+  "纺织": {
+    "file": "纺织.svg",
+    "src": "images/HSK_2.0/level6/纺织.svg",
+    "caption": "dệt vải"
   },
   "夫妇": {
     "file": "夫妇.svg",
