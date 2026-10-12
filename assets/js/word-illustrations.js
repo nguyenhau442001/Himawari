@@ -19402,6 +19402,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/融化.svg",
     "caption": "tan chảy"
   },
+  "融洽": {
+    "file": "融洽.svg",
+    "src": "images/HSK_2.0/level6/融洽.svg",
+    "caption": "hòa hợp, êm thấm"
+  },
+  "溶解": {
+    "file": "溶解.svg",
+    "src": "images/HSK_2.0/level6/溶解.svg",
+    "caption": "hòa tan"
+  },
+  "容貌": {
+    "file": "容貌.svg",
+    "src": "images/HSK_2.0/level6/容貌.svg",
+    "caption": "dung mạo, vẻ ngoài"
+  },
+  "容纳": {
+    "file": "容纳.svg",
+    "src": "images/HSK_2.0/level6/容纳.svg",
+    "caption": "chứa đựng, dung nạp"
+  },
+  "容器": {
+    "file": "容器.svg",
+    "src": "images/HSK_2.0/level6/容器.svg",
+    "caption": "vật chứa,容器"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:55:43.163212",
-  "total_unique_words_with_illustrations": 4470,
-  "total_flat_svg_files": 4470,
+  "generated_at": "2026-10-12T22:56:39.104217",
+  "total_unique_words_with_illustrations": 4475,
+  "total_flat_svg_files": 4475,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1830,
-        "pct": "73.2%"
+        "with_svg": 1835,
+        "pct": "73.4%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 904,
-        "pct": "16.1%"
+        "with_svg": 909,
+        "pct": "16.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 904,
-        "pct": "16.1%"
+        "with_svg": 909,
+        "pct": "16.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 904,
-        "pct": "16.1%"
+        "with_svg": 909,
+        "pct": "16.2%"
       }
     }
   },
@@ -72742,6 +72742,116 @@
       "src": "images/HSK_2.0/level6/融化.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/融化.svg"
+      ]
+    },
+    "融洽": {
+      "hanzi": "融洽",
+      "pinyin": "róngqià",
+      "meaning": "hòa hợp, êm thấm",
+      "example_zh": "他们之间的关系十分<u>融洽</u>。",
+      "example_vi": "Quan hệ giữa họ rất <u>hòa hợp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "融洽.svg",
+      "src": "images/HSK_2.0/level6/融洽.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/融洽.svg",
+        "images/HSK_3.0/level8/融洽.svg",
+        "images/HSK_3.0/level9/融洽.svg"
+      ]
+    },
+    "溶解": {
+      "hanzi": "溶解",
+      "pinyin": "róngjiě",
+      "meaning": "hòa tan",
+      "example_zh": "盐可以在水中<u>溶解</u>。",
+      "example_vi": "Muối có thể <u>hòa tan</u> trong nước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "溶解.svg",
+      "src": "images/HSK_2.0/level6/溶解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/溶解.svg",
+        "images/HSK_3.0/level8/溶解.svg",
+        "images/HSK_3.0/level9/溶解.svg"
+      ]
+    },
+    "容貌": {
+      "hanzi": "容貌",
+      "pinyin": "róngmào",
+      "meaning": "dung mạo, vẻ ngoài",
+      "example_zh": "她的<u>容貌</u>十分美丽。",
+      "example_vi": "<u>Dung mạo</u> của cô ấy rất xinh đẹp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "容貌.svg",
+      "src": "images/HSK_2.0/level6/容貌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/容貌.svg",
+        "images/HSK_3.0/level8/容貌.svg",
+        "images/HSK_3.0/level9/容貌.svg"
+      ]
+    },
+    "容纳": {
+      "hanzi": "容纳",
+      "pinyin": "róngnà",
+      "meaning": "chứa đựng, dung nạp",
+      "example_zh": "这个体育场能<u>容纳</u>五万人。",
+      "example_vi": "Sân vận động này có thể <u>chứa đựng</u> năm vạn người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "容纳.svg",
+      "src": "images/HSK_2.0/level6/容纳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/容纳.svg",
+        "images/HSK_3.0/level8/容纳.svg",
+        "images/HSK_3.0/level9/容纳.svg"
+      ]
+    },
+    "容器": {
+      "hanzi": "容器",
+      "pinyin": "róngqì",
+      "meaning": "vật chứa,容器",
+      "example_zh": "把水倒进这个<u>容器</u>里。",
+      "example_vi": "Đổ nước vào <u>vật chứa</u> này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "容器.svg",
+      "src": "images/HSK_2.0/level6/容器.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/容器.svg",
+        "images/HSK_3.0/level8/容器.svg",
+        "images/HSK_3.0/level9/容器.svg"
       ]
     },
     "擅长": {
