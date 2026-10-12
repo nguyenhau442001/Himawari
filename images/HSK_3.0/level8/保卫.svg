@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Distant Mountains -->
+  <path d="M0 180 L40 120 L80 160 L120 100 L160 150 L200 110 L240 170 L240 240 L0 240 Z" fill="#334155"/>
+  
+  <!-- Border Fence/Post -->
+  <rect x="180" y="140" width="8" height="80" fill="#64748b"/>
+  <rect x="170" y="140" width="28" height="6" fill="#94a3b8"/>
+  
+  <!-- Soldier -->
+  <g transform="translate(100, 150)">
+    <!-- Legs -->
+    <rect x="-10" y="30" width="8" height="20" fill="#10b981"/>
+    <rect x="2" y="30" width="8" height="20" fill="#10b981"/>
+    <!-- Body -->
+    <rect x="-12" y="0" width="24" height="30" rx="4" fill="#065f46"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="12" fill="#fde68a"/>
+    <!-- Hat -->
+    <rect x="-14" y="-28" width="28" height="6" rx="2" fill="#065f46"/>
+    <!-- Binoculars -->
+    <rect x="-5" y="-10" width="10" height="6" fill="#fb923c"/>
+    <circle cx="-3" cy="-7" r="3" fill="#334155"/>
+    <circle cx="3" cy="-7" r="3" fill="#334155"/>
+  </g>
+  
+  <!-- Decorative Elements (Stars/Sky) -->
+  <circle cx="30" cy="40" r="2" fill="#fbbf24"/>
+  <circle cx="50" cy="20" r="1.5" fill="#fbbf24"/>
+  <circle cx="200" cy="30" r="2" fill="#fbbf24"/>
+  
+  <!-- Horizon Glow -->
+  <path d="M0 240 L240 240 L240 200 Q120 180 0 200 Z" fill="url(#grad2)" opacity="0.2"/>
+  <defs>
+    <linearGradient id="grad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+</svg>

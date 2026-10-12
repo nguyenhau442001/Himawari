@@ -13047,6 +13047,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/保守.svg",
     "caption": "bảo thủ; giữ bí mật"
   },
+  "保卫": {
+    "file": "保卫.svg",
+    "src": "images/HSK_2.0/level6/保卫.svg",
+    "caption": "bảo vệ (an ninh, chủ quyền)"
+  },
+  "保养": {
+    "file": "保养.svg",
+    "src": "images/HSK_2.0/level6/保养.svg",
+    "caption": "bảo dưỡng, dưỡng sinh"
+  },
+  "保障": {
+    "file": "保障.svg",
+    "src": "images/HSK_2.0/level6/保障.svg",
+    "caption": "bảo đảm"
+  },
+  "保重": {
+    "file": "保重.svg",
+    "src": "images/HSK_2.0/level6/保重.svg",
+    "caption": "giữ gìn sức khỏe"
+  },
+  "报仇": {
+    "file": "报仇.svg",
+    "src": "images/HSK_2.0/level6/报仇.svg",
+    "caption": "báo thù, trả thù"
+  },
+  "报酬": {
+    "file": "报酬.svg",
+    "src": "images/HSK_2.0/level6/报酬.svg",
+    "caption": "tiền công, thù lao"
+  },
+  "报答": {
+    "file": "报答.svg",
+    "src": "images/HSK_2.0/level6/报答.svg",
+    "caption": "đền đáp"
+  },
+  "爆发": {
+    "file": "爆发.svg",
+    "src": "images/HSK_2.0/level6/爆发.svg",
+    "caption": "bùng nổ, nổ ra"
+  },
+  "报复": {
+    "file": "报复.svg",
+    "src": "images/HSK_2.0/level6/报复.svg",
+    "caption": "trả đũa, báo thù"
+  },
+  "抱负": {
+    "file": "抱负.svg",
+    "src": "images/HSK_2.0/level6/抱负.svg",
+    "caption": "hoài bão, khát vọng"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",

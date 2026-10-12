@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(40, 60)">
+    <path d="M120 140 C 140 140, 160 130, 160 100 L 160 60 C 160 30, 140 20, 120 20 C 100 20, 80 30, 80 60 L 80 100 C 80 130, 100 140, 120 140 Z" fill="#fb923c"/>
+    <circle cx="120" cy="30" r="25" fill="#fb923c"/>
+    <path d="M100 70 L 140 70 M105 85 L 135 85" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <path d="M20 180 L 220 180 L 210 220 L 30 220 Z" fill="#334155"/>
+  <rect x="70" y="140" width="100" height="40" rx="4" fill="#475569"/>
+  <rect x="80" y="150" width="80" height="20" rx="2" fill="#1e293b"/>
+  
+  <path d="M160 100 L 200 80 L 200 120 Z" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="205" cy="70" r="8" fill="#fbbf24"/>
+  <circle cx="215" cy="60" r="5" fill="#fbbf24"/>
+  
+  <g transform="translate(10, 20)">
+    <path d="M20 20 L 40 10 L 60 20 L 40 30 Z" fill="#38bdf8" opacity="0.6"/>
+    <path d="M180 30 L 200 20 L 220 30 L 200 40 Z" fill="#10b981" opacity="0.6"/>
+  </g>
+
+  <path d="M120 140 L 120 180" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 180 L 140 180" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  
+  <circle cx="120" cy="100" r="3" fill="#0f172a"/>
+</svg>
