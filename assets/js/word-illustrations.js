@@ -13337,6 +13337,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/依靠.svg",
     "caption": "dựa vào"
   },
+  "意识": {
+    "file": "意识.svg",
+    "src": "images/HSK_2.0/level6/意识.svg",
+    "caption": "ý thức"
+  },
+  "意味着": {
+    "file": "意味着.svg",
+    "src": "images/HSK_2.0/level6/意味着.svg",
+    "caption": "có nghĩa là, ngụ ý rằng"
+  },
+  "饮食": {
+    "file": "饮食.svg",
+    "src": "images/HSK_2.0/level6/饮食.svg",
+    "caption": "ăn uống"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15851,6 +15866,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "医学.svg",
     "src": "images/HSK_3.0/level5/医学.svg",
     "caption": "y học"
+  },
+  "移": {
+    "file": "移.svg",
+    "src": "images/HSK_3.0/level5/移.svg",
+    "caption": "dời, chuyển, dịch chuyển"
+  },
+  "一次性": {
+    "file": "一次性.svg",
+    "src": "images/HSK_3.0/level5/一次性.svg",
+    "caption": "dùng một lần"
+  },
+  "一代": {
+    "file": "一代.svg",
+    "src": "images/HSK_3.0/level5/一代.svg",
+    "caption": "một thế hệ"
+  },
+  "一路": {
+    "file": "一路.svg",
+    "src": "images/HSK_3.0/level5/一路.svg",
+    "caption": "suốt dọc đường, trên cả chặng đường"
+  },
+  "一路顺风": {
+    "file": "一路顺风.svg",
+    "src": "images/HSK_3.0/level5/一路顺风.svg",
+    "caption": "thượng lộ bình an, thuận buồm xuôi gió"
+  },
+  "音量": {
+    "file": "音量.svg",
+    "src": "images/HSK_3.0/level5/音量.svg",
+    "caption": "âm lượng, độ lớn âm thanh"
+  },
+  "引进": {
+    "file": "引进.svg",
+    "src": "images/HSK_3.0/level5/引进.svg",
+    "caption": "du nhập, tiếp thu, nhập khẩu"
   }
 };
 

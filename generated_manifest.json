@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:35:37.374955",
-  "total_unique_words_with_illustrations": 3110,
-  "total_flat_svg_files": 3110,
+  "generated_at": "2026-10-12T09:38:56.238952",
+  "total_unique_words_with_illustrations": 3120,
+  "total_flat_svg_files": 3120,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 574,
-        "pct": "23.0%"
+        "with_svg": 577,
+        "pct": "23.1%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1491,
-        "pct": "93.2%"
+        "with_svg": 1501,
+        "pct": "93.8%"
       },
       "level6": {
         "total": 1800,
@@ -48042,6 +48042,60 @@
         "images/HSK_3.0/level5/依靠.svg"
       ]
     },
+    "意识": {
+      "hanzi": "意识",
+      "pinyin": "yìshí",
+      "meaning": "ý thức",
+      "example_zh": "他逐渐<u>意识</u>到自己的错误。",
+      "example_vi": "Anh ấy dần <u>ý thức</u> được lỗi của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "意识.svg",
+      "src": "images/HSK_2.0/level6/意识.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/意识.svg"
+      ]
+    },
+    "意味着": {
+      "hanzi": "意味着",
+      "pinyin": "yìwèizhe",
+      "meaning": "có nghĩa là, ngụ ý rằng",
+      "example_zh": "这<u>意味着</u>我们要重新开始。",
+      "example_vi": "Điều này <u>có nghĩa là</u> chúng ta phải bắt đầu lại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "意味着.svg",
+      "src": "images/HSK_2.0/level6/意味着.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/意味着.svg"
+      ]
+    },
+    "饮食": {
+      "hanzi": "饮食",
+      "pinyin": "yǐnshí",
+      "meaning": "ăn uống",
+      "example_zh": "健康的<u>饮食</u>对身体很重要。",
+      "example_vi": "<u>Ăn uống</u> lành mạnh rất quan trọng đối với cơ thể.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "饮食.svg",
+      "src": "images/HSK_2.0/level6/饮食.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/饮食.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -55108,6 +55162,104 @@
       ],
       "file": "医学.svg",
       "src": "images/HSK_3.0/level5/医学.svg",
+      "alt_srcs": []
+    },
+    "移": {
+      "hanzi": "移",
+      "pinyin": "yí",
+      "meaning": "dời, chuyển, dịch chuyển",
+      "example_zh": "请大家帮我把这张桌子往右<u>移</u>一点儿。",
+      "example_vi": "Xin mọi người giúp tôi <u>dịch</u> chiếc bàn này sang bên phải một chút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "移.svg",
+      "src": "images/HSK_3.0/level5/移.svg",
+      "alt_srcs": []
+    },
+    "一次性": {
+      "hanzi": "一次性",
+      "pinyin": "yícìxìng",
+      "meaning": "dùng một lần",
+      "example_zh": "为了保护环境，请尽量减少使用<u>一次性</u>餐具。",
+      "example_vi": "Để bảo vệ môi trường, xin hãy giảm thiểu việc sử dụng đồ dùng <u>một lần</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "一次性.svg",
+      "src": "images/HSK_3.0/level5/一次性.svg",
+      "alt_srcs": []
+    },
+    "一代": {
+      "hanzi": "一代",
+      "pinyin": "yídài",
+      "meaning": "một thế hệ",
+      "example_zh": "年轻<u>一代</u>肩负着建设未来的重大责任。",
+      "example_vi": "<u>Thế hệ</u> trẻ gánh vác trách nhiệm to lớn trong việc xây dựng tương lai.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "一代.svg",
+      "src": "images/HSK_3.0/level5/一代.svg",
+      "alt_srcs": []
+    },
+    "一路": {
+      "hanzi": "一路",
+      "pinyin": "yílù",
+      "meaning": "suốt dọc đường, trên cả chặng đường",
+      "example_zh": "他们<u>一路</u>欢歌笑语，不知不觉就到了目的地。",
+      "example_vi": "Họ vừa đi <u>suốt dọc đường</u> vừa rôm rả cười nói, chẳng mấy chốc đã đến đích.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "一路.svg",
+      "src": "images/HSK_3.0/level5/一路.svg",
+      "alt_srcs": []
+    },
+    "一路顺风": {
+      "hanzi": "一路顺风",
+      "pinyin": "yílù-shùnfēng",
+      "meaning": "thượng lộ bình an, thuận buồm xuôi gió",
+      "example_zh": "祝你旅途愉快，<u>一路顺风</u>！",
+      "example_vi": "Chúc bạn chuyến đi vui vẻ, <u>thượng lộ bình an</u>!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "一路顺风.svg",
+      "src": "images/HSK_3.0/level5/一路顺风.svg",
+      "alt_srcs": []
+    },
+    "音量": {
+      "hanzi": "音量",
+      "pinyin": "yīnliàng",
+      "meaning": "âm lượng, độ lớn âm thanh",
+      "example_zh": "在公共场合请把手机<u>音量</u>调小。",
+      "example_vi": "Ở nơi công cộng xin hãy chỉnh nhỏ <u>âm lượng</u> điện thoại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "音量.svg",
+      "src": "images/HSK_3.0/level5/音量.svg",
+      "alt_srcs": []
+    },
+    "引进": {
+      "hanzi": "引进",
+      "pinyin": "yǐnjìn",
+      "meaning": "du nhập, tiếp thu, nhập khẩu",
+      "example_zh": "我们公司最新<u>引进</u>了一批国外先进设备。",
+      "example_vi": "Công ty chúng tôi vừa mới <u>nhập khẩu</u> một lô thiết bị tiên tiến từ nước ngoài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "引进.svg",
+      "src": "images/HSK_3.0/level5/引进.svg",
       "alt_srcs": []
     }
   }

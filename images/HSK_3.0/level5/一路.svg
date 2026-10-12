@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Road/Path -->
+  <path d="M0 180 C80 180 160 180 240 180 L240 240 L0 240 Z" fill="#334155"/>
+  <path d="M0 185 L240 185" stroke="#475569" stroke-width="2" stroke-dasharray="10 10"/>
+  
+  <!-- Scenery -->
+  <circle cx="200" cy="60" r="25" fill="#f59e0b"/>
+  <path d="M20 200 L40 140 L60 200 Z" fill="#10b981"/>
+  <path d="M50 190 L70 130 L90 190 Z" fill="#059669"/>
+  
+  <!-- Characters -->
+  <!-- Person 1 -->
+  <g transform="translate(70, 140)">
+    <circle cx="10" cy="10" r="12" fill="#fb923c"/>
+    <path d="M5 10 Q10 15 15 10" stroke="#fff" stroke-width="2" fill="none"/>
+    <rect x="5" y="22" width="10" height="25" rx="2" fill="#38bdf8"/>
+    <path d="M5 47 L2 65 M15 47 L18 65" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M5 30 L-5 45 M15 30 L25 40" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2 -->
+  <g transform="translate(120, 130)">
+    <circle cx="10" cy="10" r="12" fill="#ec4899"/>
+    <path d="M5 10 Q10 15 15 10" stroke="#fff" stroke-width="2" fill="none"/>
+    <rect x="5" y="22" width="10" height="25" rx="2" fill="#fbbf24"/>
+    <path d="M5 47 L2 65 M15 47 L18 65" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+    <path d="M5 30 L-5 40 M15 30 L25 45" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Destination Marker -->
+  <path d="M210 180 L225 140 L240 180 Z" fill="#f59e0b"/>
+  <rect x="222" y="180" width="6" height="20" fill="#94a3b8"/>
+  
+  <!-- Motion/Joy indicators -->
+  <circle cx="90" cy="120" r="3" fill="#fbbf24"/>
+  <circle cx="140" cy="110" r="2" fill="#fbbf24"/>
+  <path d="M100 130 Q110 120 120 130" stroke="#fbbf24" stroke-width="2" fill="none"/>
+</svg>

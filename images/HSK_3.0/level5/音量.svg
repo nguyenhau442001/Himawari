@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background: Subway/Public Transit Interior -->
+  <rect x="20" y="40" width="200" height="160" rx="10" fill="#334155" opacity="0.3"/>
+  <rect x="40" y="40" width="10" height="160" fill="#475569"/>
+  <rect x="190" y="40" width="10" height="160" fill="#475569"/>
+  
+  <!-- Character: Person adjusting phone -->
+  <g transform="translate(60, 80)">
+    <circle cx="60" cy="40" r="25" fill="#fde68a"/>
+    <path d="M45 55 Q60 70 75 55" stroke="#78350f" stroke-width="3" fill="none"/>
+    <rect x="50" y="35" width="20" height="10" fill="#78350f"/>
+    <path d="M55 40 L65 40" stroke="#fde68a" stroke-width="2"/>
+    
+    <!-- Phone -->
+    <rect x="80" y="60" width="30" height="50" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="85" y="70" width="20" height="30" rx="2" fill="#38bdf8"/>
+    
+    <!-- Hand adjusting -->
+    <circle cx="110" cy="85" r="8" fill="#fde68a"/>
+    <path d="M105 85 L95 85" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Sound waves being muted -->
+  <g stroke="#fb923c" stroke-width="3" stroke-linecap="round">
+    <path d="M120 70 Q130 60 140 70" fill="none" opacity="0.6"/>
+    <path d="M120 60 Q140 40 160 60" fill="none" opacity="0.3"/>
+    <path d="M130 80 L145 95" stroke="#ec4899" stroke-width="4"/>
+    <path d="M145 80 L130 95" stroke="#ec4899" stroke-width="4"/>
+  </g>
+  
+  <!-- Other passengers (silhouette) -->
+  <circle cx="180" cy="120" r="15" fill="#475569"/>
+  <rect x="165" y="135" width="30" height="60" rx="5" fill="#475569"/>
+  
+  <!-- Floor/Ground -->
+  <rect x="0" y="200" width="240" height="40" fill="#0f172a"/>
+</svg>

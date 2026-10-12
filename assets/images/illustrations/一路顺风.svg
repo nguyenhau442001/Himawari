@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Airport Terminal Window/Gate -->
+  <path d="M40 40h160v120H40z" fill="#334155" rx="10"/>
+  <circle cx="120" cy="100" r="40" fill="#f59e0b" opacity="0.2"/>
+  
+  <!-- Airplane Silhouette -->
+  <path d="M140 100l-20-10v5l15 5-15 5v5z" fill="#38bdf8"/>
+  
+  <!-- Characters -->
+  <!-- Person 1 (Traveler) -->
+  <g transform="translate(60, 140)">
+    <rect x="0" y="20" width="20" height="40" rx="5" fill="#fb923c"/>
+    <circle cx="10" cy="10" r="12" fill="#fde68a"/>
+    <rect x="5" y="60" width="8" height="20" rx="2" fill="#475569"/>
+    <rect x="15" y="60" width="8" height="20" rx="2" fill="#475569"/>
+    <rect x="25" y="25" width="15" height="25" rx="5" fill="#ec4899"/>
+  </g>
+  
+  <!-- Person 2 (Waving Goodbye) -->
+  <g transform="translate(150, 140)">
+    <rect x="0" y="20" width="20" height="40" rx="5" fill="#10b981"/>
+    <circle cx="10" cy="10" r="12" fill="#fde68a"/>
+    <rect x="5" y="60" width="8" height="20" rx="2" fill="#475569"/>
+    <rect x="15" y="60" width="8" height="20" rx="2" fill="#475569"/>
+    <path d="M20 25l10-15" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Floor -->
+  <rect x="0" y="200" width="240" height="40" fill="#0f172a"/>
+  <line x1="0" y1="200" x2="240" y2="200" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Luggage -->
+  <rect x="30" y="170" width="25" height="30" rx="3" fill="#fbbf24"/>
+  <rect x="35" y="165" width="15" height="5" rx="1" fill="#94a3b8"/>
+</svg>
