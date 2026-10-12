@@ -19082,6 +19082,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/晴朗.svg",
     "caption": "quang đãng, trong sáng (thời tiết)"
   },
+  "情报": {
+    "file": "情报.svg",
+    "src": "images/HSK_2.0/level6/情报.svg",
+    "caption": "tin tình báo"
+  },
+  "情节": {
+    "file": "情节.svg",
+    "src": "images/HSK_2.0/level6/情节.svg",
+    "caption": "tình tiết (câu chuyện)"
+  },
+  "情理": {
+    "file": "情理.svg",
+    "src": "images/HSK_2.0/level6/情理.svg",
+    "caption": "lẽ thường, lý lẽ và tình cảm"
+  },
+  "情形": {
+    "file": "情形.svg",
+    "src": "images/HSK_2.0/level6/情形.svg",
+    "caption": "tình hình, tình trạng"
+  },
+  "请柬": {
+    "file": "请柬.svg",
+    "src": "images/HSK_2.0/level6/请柬.svg",
+    "caption": "thiếp mời"
+  },
   "请教": {
     "file": "请教.svg",
     "src": "images/HSK_2.0/level6/请教.svg",

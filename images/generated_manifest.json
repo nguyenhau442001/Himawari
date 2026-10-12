@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:44:53.756268",
-  "total_unique_words_with_illustrations": 4410,
-  "total_flat_svg_files": 4410,
+  "generated_at": "2026-10-12T22:45:50.720454",
+  "total_unique_words_with_illustrations": 4415,
+  "total_flat_svg_files": 4415,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1770,
-        "pct": "70.8%"
+        "with_svg": 1775,
+        "pct": "71.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 594,
-        "pct": "33.0%"
+        "with_svg": 596,
+        "pct": "33.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 866,
+        "with_svg": 869,
         "pct": "15.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 866,
+        "with_svg": 869,
         "pct": "15.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 866,
+        "with_svg": 869,
         "pct": "15.5%"
       }
     }
@@ -71450,6 +71450,108 @@
       "src": "images/HSK_2.0/level6/晴朗.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/晴朗.svg"
+      ]
+    },
+    "情报": {
+      "hanzi": "情报",
+      "pinyin": "qíngbào",
+      "meaning": "tin tình báo",
+      "example_zh": "他负责收集军事<u>情报</u>。",
+      "example_vi": "Anh ấy phụ trách thu thập <u>tin tình báo</u> quân sự.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "情报.svg",
+      "src": "images/HSK_2.0/level6/情报.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/情报.svg",
+        "images/HSK_3.0/level8/情报.svg",
+        "images/HSK_3.0/level9/情报.svg"
+      ]
+    },
+    "情节": {
+      "hanzi": "情节",
+      "pinyin": "qíngjié",
+      "meaning": "tình tiết (câu chuyện)",
+      "example_zh": "这部电影的<u>情节</u>很感人。",
+      "example_vi": "<u>Tình tiết</u> của bộ phim này rất cảm động.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "情节.svg",
+      "src": "images/HSK_2.0/level6/情节.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/情节.svg"
+      ]
+    },
+    "情理": {
+      "hanzi": "情理",
+      "pinyin": "qínglǐ",
+      "meaning": "lẽ thường, lý lẽ và tình cảm",
+      "example_zh": "他的做法不合<u>情理</u>。",
+      "example_vi": "Cách làm của anh ấy không hợp <u>lẽ thường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "情理.svg",
+      "src": "images/HSK_2.0/level6/情理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/情理.svg",
+        "images/HSK_3.0/level8/情理.svg",
+        "images/HSK_3.0/level9/情理.svg"
+      ]
+    },
+    "情形": {
+      "hanzi": "情形",
+      "pinyin": "qíngxíng",
+      "meaning": "tình hình, tình trạng",
+      "example_zh": "目前的<u>情形</u>比较复杂。",
+      "example_vi": "<u>Tình hình</u> hiện tại khá phức tạp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "情形.svg",
+      "src": "images/HSK_2.0/level6/情形.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/情形.svg"
+      ]
+    },
+    "请柬": {
+      "hanzi": "请柬",
+      "pinyin": "qǐngjiǎn",
+      "meaning": "thiếp mời",
+      "example_zh": "他给我寄了一张婚礼<u>请柬</u>。",
+      "example_vi": "Anh ấy đã gửi cho tôi một tấm <u>thiếp mời</u> cưới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "请柬.svg",
+      "src": "images/HSK_2.0/level6/请柬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/请柬.svg",
+        "images/HSK_3.0/level8/请柬.svg",
+        "images/HSK_3.0/level9/请柬.svg"
       ]
     },
     "请教": {
