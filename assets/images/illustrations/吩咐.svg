@@ -1,0 +1,60 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#0f172a"/>
+  
+  <!-- Interior Room Wall & Floor -->
+  <rect x="15" y="25" width="210" height="150" rx="8" fill="#1e293b"/>
+  <path d="M15 175 L225 175 L235 220 L5 220 Z" fill="#334155"/>
+  <line x1="15" y1="175" x2="225" y2="175" stroke="#475569" stroke-width="2"/>
+
+  <!-- Background Props: Window & Plant -->
+  <rect x="25" y="45" width="45" height="55" rx="4" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+  <line x1="47" y1="45" x2="47" y2="100" stroke="#475569" stroke-width="1.5"/>
+  <line x1="25" y1="72" x2="70" y2="72" stroke="#475569" stroke-width="1.5"/>
+  <circle cx="195" cy="155" r="10" fill="#64748b"/>
+  <path d="M190 155 Q195 130 205 135 Q210 145 195 155" fill="#10b981"/>
+
+  <!-- Kitchen Counter / Table -->
+  <rect x="135" y="145" width="80" height="35" rx="4" fill="#475569"/>
+  <rect x="130" y="140" width="90" height="6" rx="2" fill="#cbd5e1"/>
+  <!-- Shopping bag & vegetables on counter -->
+  <path d="M145 125 L165 125 L170 142 L140 142 Z" fill="#f59e0b"/>
+  <path d="M152 125 L152 115 Q157 110 162 115 L162 125" fill="none" stroke="#d97706" stroke-width="2"/>
+  <path d="M150 115 Q155 105 160 112" fill="none" stroke="#10b981" stroke-width="3"/>
+
+  <!-- CHARACTER 1: Mom (Giving instructions / 吩咐) -->
+  <!-- Mom Body & Apron -->
+  <path d="M85 110 Q95 90 105 110 L115 175 L75 175 Z" fill="#3b82f6"/>
+  <path d="M85 120 L105 120 L110 170 L80 170 Z" fill="#f8fafc"/>
+  <circle cx="95" cy="80" r="14" fill="#fbcfe8"/>
+  <!-- Mom Hair -->
+  <path d="M81 72 Q95 62 109 72 Q112 85 105 90 Q95 85 85 90 Q78 82 81 72" fill="#334155"/>
+  <!-- Mom Pointing Gesture (Instructing) -->
+  <path d="M105 105 Q125 110 135 95" fill="none" stroke="#fbcfe8" stroke-width="5" stroke-linecap="round"/>
+  <!-- Mom Left Arm -->
+  <path d="M85 105 Q70 120 75 140" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- CHARACTER 2: Child / Me (Receiving instructions to buy veggies) -->
+  <!-- Child Body -->
+  <path d="M155 130 Q165 115 175 130 L185 190 L145 190 Z" fill="#ec4899"/>
+  <circle cx="165" cy="100" r="12" fill="#fbcfe8"/>
+  <!-- Child Hair -->
+  <path d="M153 95 Q165 85 177 95 Q175 105 165 102 Q155 105 153 95" fill="#1e293b"/>
+  <!-- Child Arms (Listening attentively, holding shopping basket handle) -->
+  <path d="M155 130 Q145 145 150 160" fill="none" stroke="#ec4899" stroke-width="5" stroke-linecap="round"/>
+  <path d="M175 130 Q185 145 180 160" fill="none" stroke="#ec4899" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Shopping Basket on floor -->
+  <rect x="135" y="180" width="30" height="20" rx="3" fill="#d97706"/>
+  <path d="M140 180 Q150 165 160 180" fill="none" stroke="#b45309" stroke-width="2"/>
+  <!-- Vegetables inside basket -->
+  <circle cx="145" cy="178" r="5" fill="#10b981"/>
+  <circle cx="155" cy="176" r="6" fill="#22c55e"/>
+  <path d="M158 175 Q163 170 165 178" fill="#ef4444"/>
+
+  <!-- Warm Accent Lighting / Speech Context Glow -->
+  <circle cx="115" cy="95" r="2" fill="#fbbf24"/>
+  <circle cx="123" cy="98" r="3.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="128" cy="90" r="2" fill="#fbbf24" opacity="0.6"/>
+
+</svg>

@@ -15507,6 +15507,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/匪徒.svg",
     "caption": "tên cướp, kẻ thổ phỉ"
   },
+  "肺": {
+    "file": "肺.svg",
+    "src": "images/HSK_2.0/level6/肺.svg",
+    "caption": "phổi"
+  },
+  "废除": {
+    "file": "废除.svg",
+    "src": "images/HSK_2.0/level6/废除.svg",
+    "caption": "bãi bỏ"
+  },
+  "沸腾": {
+    "file": "沸腾.svg",
+    "src": "images/HSK_2.0/level6/沸腾.svg",
+    "caption": "sôi, sôi sục"
+  },
+  "废墟": {
+    "file": "废墟.svg",
+    "src": "images/HSK_2.0/level6/废墟.svg",
+    "caption": "đống đổ nát"
+  },
+  "费用": {
+    "file": "费用.svg",
+    "src": "images/HSK_2.0/level6/费用.svg",
+    "caption": "chi phí"
+  },
+  "分辨": {
+    "file": "分辨.svg",
+    "src": "images/HSK_2.0/level6/分辨.svg",
+    "caption": "phân biệt"
+  },
+  "分寸": {
+    "file": "分寸.svg",
+    "src": "images/HSK_2.0/level6/分寸.svg",
+    "caption": "chừng mực, mức độ phù hợp"
+  },
+  "吩咐": {
+    "file": "吩咐.svg",
+    "src": "images/HSK_2.0/level6/吩咐.svg",
+    "caption": "sai khiến, dặn bảo"
+  },
+  "分红": {
+    "file": "分红.svg",
+    "src": "images/HSK_2.0/level6/分红.svg",
+    "caption": "chia lợi nhuận, chia cổ tức"
+  },
+  "分解": {
+    "file": "分解.svg",
+    "src": "images/HSK_2.0/level6/分解.svg",
+    "caption": "phân giải, phân tách"
+  },
   "夫妇": {
     "file": "夫妇.svg",
     "src": "images/HSK_2.0/level6/夫妇.svg",

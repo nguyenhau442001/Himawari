@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:18:37.386453",
-  "total_unique_words_with_illustrations": 3729,
-  "total_flat_svg_files": 3729,
+  "generated_at": "2026-10-12T12:20:29.864005",
+  "total_unique_words_with_illustrations": 3739,
+  "total_flat_svg_files": 3739,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1089,
-        "pct": "43.6%"
+        "with_svg": 1099,
+        "pct": "44.0%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 608,
-        "pct": "60.8%"
+        "with_svg": 609,
+        "pct": "60.9%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 392,
+        "with_svg": 393,
         "pct": "21.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 432,
-        "pct": "7.7%"
+        "with_svg": 440,
+        "pct": "7.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 432,
-        "pct": "7.7%"
+        "with_svg": 440,
+        "pct": "7.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 432,
-        "pct": "7.7%"
+        "with_svg": 440,
+        "pct": "7.9%"
       }
     }
   },
@@ -57017,6 +57017,218 @@
       "file": "匪徒.svg",
       "src": "images/HSK_2.0/level6/匪徒.svg",
       "alt_srcs": []
+    },
+    "肺": {
+      "hanzi": "肺",
+      "pinyin": "fèi",
+      "meaning": "phổi",
+      "example_zh": "吸烟会伤害<u>肺</u>。",
+      "example_vi": "Hút thuốc sẽ gây hại cho <u>phổi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "肺.svg",
+      "src": "images/HSK_2.0/level6/肺.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/肺.svg"
+      ]
+    },
+    "废除": {
+      "hanzi": "废除",
+      "pinyin": "fèichú",
+      "meaning": "bãi bỏ",
+      "example_zh": "这项法律已被<u>废除</u>。",
+      "example_vi": "Luật này đã bị <u>bãi bỏ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "废除.svg",
+      "src": "images/HSK_2.0/level6/废除.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/废除.svg",
+        "images/HSK_3.0/level8/废除.svg",
+        "images/HSK_3.0/level9/废除.svg"
+      ]
+    },
+    "沸腾": {
+      "hanzi": "沸腾",
+      "pinyin": "fèiténg",
+      "meaning": "sôi, sôi sục",
+      "example_zh": "水已经<u>沸腾</u>了。",
+      "example_vi": "Nước đã <u>sôi</u> rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沸腾.svg",
+      "src": "images/HSK_2.0/level6/沸腾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/沸腾.svg",
+        "images/HSK_3.0/level8/沸腾.svg",
+        "images/HSK_3.0/level9/沸腾.svg"
+      ]
+    },
+    "废墟": {
+      "hanzi": "废墟",
+      "pinyin": "fèixū",
+      "meaning": "đống đổ nát",
+      "example_zh": "这座城市变成了<u>废墟</u>。",
+      "example_vi": "Thành phố này biến thành <u>đống đổ nát</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "废墟.svg",
+      "src": "images/HSK_2.0/level6/废墟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/废墟.svg",
+        "images/HSK_3.0/level8/废墟.svg",
+        "images/HSK_3.0/level9/废墟.svg"
+      ]
+    },
+    "费用": {
+      "hanzi": "费用",
+      "pinyin": "fèiyòng",
+      "meaning": "chi phí",
+      "example_zh": "旅行<u>费用</u>不便宜。",
+      "example_vi": "<u>Chi phí</u> du lịch không rẻ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "费用.svg",
+      "src": "images/HSK_2.0/level6/费用.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/费用.svg"
+      ]
+    },
+    "分辨": {
+      "hanzi": "分辨",
+      "pinyin": "fēnbiàn",
+      "meaning": "phân biệt",
+      "example_zh": "我无法<u>分辨</u>真假。",
+      "example_vi": "Tôi không thể <u>phân biệt</u> thật giả.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分辨.svg",
+      "src": "images/HSK_2.0/level6/分辨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分辨.svg",
+        "images/HSK_3.0/level8/分辨.svg",
+        "images/HSK_3.0/level9/分辨.svg"
+      ]
+    },
+    "分寸": {
+      "hanzi": "分寸",
+      "pinyin": "fēncun",
+      "meaning": "chừng mực, mức độ phù hợp",
+      "example_zh": "说话要有<u>分寸</u>。",
+      "example_vi": "Nói chuyện phải có <u>chừng mực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分寸.svg",
+      "src": "images/HSK_2.0/level6/分寸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分寸.svg",
+        "images/HSK_3.0/level8/分寸.svg",
+        "images/HSK_3.0/level9/分寸.svg"
+      ]
+    },
+    "吩咐": {
+      "hanzi": "吩咐",
+      "pinyin": "fēnfù",
+      "meaning": "sai khiến, dặn bảo",
+      "example_zh": "妈妈<u>吩咐</u>我去买菜。",
+      "example_vi": "Mẹ <u>sai khiến</u> tôi đi mua rau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吩咐.svg",
+      "src": "images/HSK_2.0/level6/吩咐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/吩咐.svg",
+        "images/HSK_3.0/level8/吩咐.svg",
+        "images/HSK_3.0/level9/吩咐.svg"
+      ]
+    },
+    "分红": {
+      "hanzi": "分红",
+      "pinyin": "fēnhóng",
+      "meaning": "chia lợi nhuận, chia cổ tức",
+      "example_zh": "公司年底要<u>分红</u>。",
+      "example_vi": "Cuối năm công ty sẽ <u>chia lợi nhuận</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分红.svg",
+      "src": "images/HSK_2.0/level6/分红.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分红.svg",
+        "images/HSK_3.0/level8/分红.svg",
+        "images/HSK_3.0/level9/分红.svg"
+      ]
+    },
+    "分解": {
+      "hanzi": "分解",
+      "pinyin": "fēnjiě",
+      "meaning": "phân giải, phân tách",
+      "example_zh": "这个问题可以<u>分解</u>成几步。",
+      "example_vi": "Vấn đề này có thể <u>phân giải</u> thành vài bước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分解.svg",
+      "src": "images/HSK_2.0/level6/分解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分解.svg",
+        "images/HSK_3.0/level8/分解.svg",
+        "images/HSK_3.0/level9/分解.svg"
+      ]
     },
     "夫妇": {
       "hanzi": "夫妇",
