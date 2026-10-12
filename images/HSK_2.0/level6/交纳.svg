@@ -1,0 +1,121 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#0f172a"/>
+  
+  <!-- Ambient Glow & Interior Wall -->
+  <rect x="15" y="15" width="210" height="210" rx="16" fill="#1e293b"/>
+  <circle cx="160" cy="80" r="60" fill="#38bdf8" opacity="0.05"/>
+  <circle cx="80" cy="140" r="50" fill="#f59e0b" opacity="0.08"/>
+
+  <!-- Wall Clock (indicating "on time") -->
+  <g transform="translate(180, 50)">
+    <circle cx="0" cy="0" r="16" fill="#334155" stroke="#475569" stroke-width="2"/>
+    <circle cx="0" cy="0" r="13" fill="#0f172a"/>
+    <line x1="0" y1="0" x2="0" y2="-7" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="5" y2="3" stroke="#f8fafc" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Small clock ticks -->
+    <circle cx="0" cy="-10" r="1" fill="#94a3b8"/>
+    <circle cx="10" cy="0" r="1" fill="#94a3b8"/>
+    <circle cx="0" cy="10" r="1" fill="#94a3b8"/>
+    <circle cx="-10" cy="0" r="1" fill="#94a3b8"/>
+  </g>
+
+  <!-- Wooden Desk Surface -->
+  <path d="M 20 185 L 220 185 L 210 210 L 30 210 Z" fill="#334155"/>
+  <rect x="20" y="180" width="200" height="7" rx="3.5" fill="#475569"/>
+
+  <!-- Desk Lamp -->
+  <g transform="translate(195, 120)">
+    <path d="M -5 60 L 5 60 L 3 30 L -3 30 Z" fill="#64748b"/>
+    <path d="M -15 30 L 15 30 L 10 15 L -10 15 Z" fill="#38bdf8"/>
+    <path d="M -18 15 L 18 15 L 12 5 L -12 5 Z" fill="#0ea5e9"/>
+    <!-- Light cone -->
+    <path d="M -15 15 L -55 65 L 10 65 Z" fill="#38bdf8" opacity="0.12"/>
+  </g>
+
+  <!-- Laptop (Electric Bill portal display) -->
+  <g transform="translate(130, 140)">
+    <!-- Laptop Base -->
+    <path d="M -30 40 L 30 40 L 45 48 L -45 48 Z" fill="#64748b"/>
+    <rect x="-10" y="42" width="20" height="3" rx="1.5" fill="#475569"/>
+    <!-- Screen Frame -->
+    <rect x="-28" y="-5" width="56" height="46" rx="4" fill="#334155"/>
+    <!-- Screen Display (UI for electric bill payment) -->
+    <rect x="-24" y="-1" width="48" height="38" rx="2" fill="#0f172a"/>
+    <!-- UI elements: lightning bolt / electricity symbol & checkmark -->
+    <polygon points="2,-12 -4,2 2,2 -2,16 6,1 0,1" fill="#f59e0b"/>
+    <circle cx="12" cy="12" r="6" fill="#10b981"/>
+    <path d="M 9 12 L 11 14 L 16 9" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Electric Bill Paper / Utility Statement (Prop) -->
+  <g transform="translate(85, 155) rotate(-12)">
+    <rect x="-18" y="-25" width="36" height="48" rx="2" fill="#f8fafc"/>
+    <!-- Header stripe -->
+    <rect x="-14" y="-20" width="28" height="6" rx="1" fill="#f59e0b"/>
+    <!-- Content lines -->
+    <line x1="-12" y1="-9" x2="8" y2="-9" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-12" y1="-3" x2="12" y2="-3" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-12" y1="3" x2="4" y2="3" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <!-- Big lightning icon on bill -->
+    <path d="M 0 8 L -4 16 L 2 16 L -1 22 L 6 13 L 1 13 Z" fill="#e2e8f0"/>
+  </g>
+
+  <!-- Main Character: Person paying the bill -->
+  <g transform="translate(70, 95)">
+    <!-- Body / Torso (Warm Orange Hoodie / Sweater) -->
+    <path d="M -25 90 C -25 65 -15 55 0 55 C 15 55 25 65 25 90 Z" fill="#fb923c"/>
+    <path d="M 0 55 L 0 90" stroke="#ea580c" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Collar -->
+    <path d="M -8 55 C -4 60 4 60 8 55 C 4 52 -4 52 -8 55 Z" fill="#fdba74"/>
+
+    <!-- Neck -->
+    <rect x="-6" y="45" width="12" height="12" fill="#fcd34d"/>
+
+    <!-- Head -->
+    <circle cx="0" cy="28" r="18" fill="#fde68a"/>
+
+    <!-- Hair (Trendy dark neat cut) -->
+    <path d="M -18 25 C -18 12 -8 10 0 10 C 8 10 18 12 18 25 C 18 28 16 22 13 18 C 8 13 -8 13 -13 18 C -16 22 -18 25 -18 25 Z" fill="#1e293b"/>
+
+    <!-- Friendly facial expression (Concentrated / Satisfied) -->
+    <!-- Eyes (closed in a happy arc) -->
+    <path d="M -7 27 C -5 29 -3 27 -3 27" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 3 27 C 5 29 7 27 7 27" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Cheeks (Blush) -->
+    <circle cx="-10" cy="32" r="3" fill="#fb7185" opacity="0.6"/>
+    <circle cx="10" cy="32" r="3" fill="#fb7185" opacity="0.6"/>
+    <!-- Smile -->
+    <path d="M -3 34 C -1 37 1 37 3 34" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Arms & Hands interacting with money/card/laptop -->
+    <!-- Left arm holding paper -->
+    <path d="M -22 65 C -35 70 -35 85 -30 90" fill="none" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+    <!-- Right arm reaching forward to pay -->
+    <path d="M 20 65 C 32 70 38 78 35 85" fill="none" stroke="#fb923c" stroke-width="10" stroke-linecap="round"/>
+    <!-- Hand holding credit card or cash -->
+    <rect x="28" y="77" width="16" height="10" rx="2" transform="rotate(25 28 77)" fill="#38bdf8"/>
+    <rect x="30" y="80" width="12" height="3" rx="1" transform="rotate(25 30 80)" fill="#0f172a"/>
+  </g>
+
+  <!-- Floating Green Checkmark & Sparkles (Success / On-time payment concept) -->
+  <g transform="translate(125, 65)">
+    <circle cx="0" cy="0" r="12" fill="#10b981"/>
+    <path d="M -5 -1 L -1 3 L 6 -4" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Sparkle accents -->
+  <path d="M 150 45 L 153 52 L 160 55 L 153 58 L 150 65 L 147 58 L 140 55 L 147 52 Z" fill="#fbbf24" opacity="0.8"/>
+  <path d="M 50 75 L 52 80 L 57 82 L 52 84 L 50 89 L 48 84 L 43 82 L 48 80 Z" fill="#38bdf8" opacity="0.7"/>
+
+  <!-- Plant Decor on Desk (adds real-world coziness) -->
+  <g transform="translate(35, 160)">
+    <!-- Pot -->
+    <path d="M -10 20 L 10 20 L 7 5 L -7 5 Z" fill="#cbd5e1"/>
+    <!-- Leaves -->
+    <path d="M 0 5 C -15 -10 -15 -25 0 -25 C 15 -25 15 -10 0 5 Z" fill="#10b981"/>
+    <path d="M -3 5 C -22 -5 -25 -18 -15 -22 C -5 -25 0 -10 -3 5 Z" fill="#34d399"/>
+    <path d="M 3 5 C 22 -5 25 -18 15 -22 C 5 -25 0 -10 3 5 Z" fill="#059669"/>
+  </g>
+</svg>

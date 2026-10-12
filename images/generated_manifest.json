@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T13:03:33.349608",
-  "total_unique_words_with_illustrations": 3949,
-  "total_flat_svg_files": 3949,
+  "generated_at": "2026-10-12T13:07:36.733177",
+  "total_unique_words_with_illustrations": 3959,
+  "total_flat_svg_files": 3959,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1309,
-        "pct": "52.4%"
+        "with_svg": 1319,
+        "pct": "52.8%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 612,
-        "pct": "61.2%"
+        "with_svg": 613,
+        "pct": "61.3%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 466,
-        "pct": "25.9%"
+        "with_svg": 469,
+        "pct": "26.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 557,
-        "pct": "9.9%"
+        "with_svg": 563,
+        "pct": "10.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 557,
-        "pct": "9.9%"
+        "with_svg": 563,
+        "pct": "10.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 557,
-        "pct": "9.9%"
+        "with_svg": 563,
+        "pct": "10.1%"
       }
     }
   },
@@ -61672,6 +61672,46 @@
         "images/HSK_3.0/level9/鉴于.svg"
       ]
     },
+    "见证": {
+      "hanzi": "见证",
+      "pinyin": "jiànzhèng",
+      "meaning": "làm chứng, chứng kiến",
+      "example_zh": "这座桥<u>见证</u>了城市的发展。",
+      "example_vi": "Cây cầu này <u>chứng kiến</u> sự phát triển của thành phố.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "见证.svg",
+      "src": "images/HSK_2.0/level6/见证.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/见证.svg",
+        "images/HSK_3.0/level8/见证.svg",
+        "images/HSK_3.0/level9/见证.svg"
+      ]
+    },
+    "将军": {
+      "hanzi": "将军",
+      "pinyin": "jiāngjūn",
+      "meaning": "tướng quân",
+      "example_zh": "他是一位著名的<u>将军</u>。",
+      "example_vi": "Ông ấy là một <u>tướng quân</u> nổi tiếng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "将军.svg",
+      "src": "images/HSK_2.0/level6/将军.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/将军.svg"
+      ]
+    },
     "将近": {
       "hanzi": "将近",
       "pinyin": "jiāngjìn",
@@ -61688,6 +61728,170 @@
       "src": "images/HSK_2.0/level6/将近.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/将近.svg"
+      ]
+    },
+    "僵硬": {
+      "hanzi": "僵硬",
+      "pinyin": "jiāngyìng",
+      "meaning": "cứng đờ",
+      "example_zh": "他的脖子有点<u>僵硬</u>。",
+      "example_vi": "Cổ anh ấy có chút <u>cứng đờ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "僵硬.svg",
+      "src": "images/HSK_2.0/level6/僵硬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/僵硬.svg",
+        "images/HSK_3.0/level8/僵硬.svg",
+        "images/HSK_3.0/level9/僵硬.svg"
+      ]
+    },
+    "降温": {
+      "hanzi": "降温",
+      "pinyin": "jiàngwēn",
+      "meaning": "hạ nhiệt",
+      "example_zh": "明天会<u>降温</u>。",
+      "example_vi": "Ngày mai sẽ <u>hạ nhiệt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "降温.svg",
+      "src": "images/HSK_2.0/level6/降温.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/降温.svg"
+      ]
+    },
+    "交代": {
+      "hanzi": "交代",
+      "pinyin": "jiāodài",
+      "meaning": "giao phó, trình bày rõ",
+      "example_zh": "领导<u>交代</u>了任务。",
+      "example_vi": "Lãnh đạo <u>giao</u> nhiệm vụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "交代.svg",
+      "src": "images/HSK_2.0/level6/交代.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/交代.svg",
+        "images/HSK_3.0/level8/交代.svg",
+        "images/HSK_3.0/level9/交代.svg"
+      ]
+    },
+    "交纳": {
+      "hanzi": "交纳",
+      "pinyin": "jiāonà",
+      "meaning": "nộp (tiền, lệ phí)",
+      "example_zh": "请按时<u>交纳</u>电费。",
+      "example_vi": "Xin hãy <u>nộp</u> tiền điện đúng hạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "交纳.svg",
+      "src": "images/HSK_2.0/level6/交纳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/交纳.svg",
+        "images/HSK_3.0/level8/交纳.svg",
+        "images/HSK_3.0/level9/交纳.svg"
+      ]
+    },
+    "交替": {
+      "hanzi": "交替",
+      "pinyin": "jiāotì",
+      "meaning": "thay thế nhau, xen kẽ",
+      "example_zh": "两人<u>交替</u>开车。",
+      "example_vi": "Hai người <u>thay nhau</u> lái xe.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "交替.svg",
+      "src": "images/HSK_2.0/level6/交替.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/交替.svg",
+        "images/HSK_3.0/level8/交替.svg",
+        "images/HSK_3.0/level9/交替.svg"
+      ]
+    },
+    "焦虑": {
+      "hanzi": "焦虑",
+      "pinyin": "jiāolǜ",
+      "meaning": "lo lắng, lo âu",
+      "example_zh": "他感到非常<u>焦虑</u>。",
+      "example_vi": "Anh ấy cảm thấy rất <u>lo âu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "焦虑.svg",
+      "src": "images/HSK_2.0/level6/焦虑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/焦虑.svg"
+      ]
+    },
+    "焦点": {
+      "hanzi": "焦点",
+      "pinyin": "jiāodiǎn",
+      "meaning": "tiêu điểm, trọng tâm",
+      "example_zh": "这是大家关注的<u>焦点</u>。",
+      "example_vi": "Đây là <u>tiêu điểm</u> mọi người quan tâm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "焦点.svg",
+      "src": "images/HSK_2.0/level6/焦点.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/焦点.svg"
+      ]
+    },
+    "侥幸": {
+      "hanzi": "侥幸",
+      "pinyin": "jiǎoxìng",
+      "meaning": "may rủi, gặp may",
+      "example_zh": "他<u>侥幸</u>逃过一劫。",
+      "example_vi": "Anh ấy <u>may rủi</u> thoát khỏi tai nạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "侥幸.svg",
+      "src": "images/HSK_2.0/level6/侥幸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/侥幸.svg",
+        "images/HSK_3.0/level8/侥幸.svg",
+        "images/HSK_3.0/level9/侥幸.svg"
       ]
     },
     "就业": {

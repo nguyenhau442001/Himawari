@@ -16682,10 +16682,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/鉴于.svg",
     "caption": "xét thấy, căn cứ vào"
   },
+  "见证": {
+    "file": "见证.svg",
+    "src": "images/HSK_2.0/level6/见证.svg",
+    "caption": "làm chứng, chứng kiến"
+  },
+  "将军": {
+    "file": "将军.svg",
+    "src": "images/HSK_2.0/level6/将军.svg",
+    "caption": "tướng quân"
+  },
   "将近": {
     "file": "将近.svg",
     "src": "images/HSK_2.0/level6/将近.svg",
     "caption": "gần (số lượng, thời gian)"
+  },
+  "僵硬": {
+    "file": "僵硬.svg",
+    "src": "images/HSK_2.0/level6/僵硬.svg",
+    "caption": "cứng đờ"
+  },
+  "降温": {
+    "file": "降温.svg",
+    "src": "images/HSK_2.0/level6/降温.svg",
+    "caption": "hạ nhiệt"
+  },
+  "交代": {
+    "file": "交代.svg",
+    "src": "images/HSK_2.0/level6/交代.svg",
+    "caption": "giao phó, trình bày rõ"
+  },
+  "交纳": {
+    "file": "交纳.svg",
+    "src": "images/HSK_2.0/level6/交纳.svg",
+    "caption": "nộp (tiền, lệ phí)"
+  },
+  "交替": {
+    "file": "交替.svg",
+    "src": "images/HSK_2.0/level6/交替.svg",
+    "caption": "thay thế nhau, xen kẽ"
+  },
+  "焦虑": {
+    "file": "焦虑.svg",
+    "src": "images/HSK_2.0/level6/焦虑.svg",
+    "caption": "lo lắng, lo âu"
+  },
+  "焦点": {
+    "file": "焦点.svg",
+    "src": "images/HSK_2.0/level6/焦点.svg",
+    "caption": "tiêu điểm, trọng tâm"
+  },
+  "侥幸": {
+    "file": "侥幸.svg",
+    "src": "images/HSK_2.0/level6/侥幸.svg",
+    "caption": "may rủi, gặp may"
   },
   "就业": {
     "file": "就业.svg",
