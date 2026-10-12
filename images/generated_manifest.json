@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:11:07.328319",
-  "total_unique_words_with_illustrations": 4553,
-  "total_flat_svg_files": 4553,
+  "generated_at": "2026-10-12T23:11:39.084910",
+  "total_unique_words_with_illustrations": 4558,
+  "total_flat_svg_files": 4558,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1913,
-        "pct": "76.5%"
+        "with_svg": 1918,
+        "pct": "76.7%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 631,
-        "pct": "35.1%"
+        "with_svg": 635,
+        "pct": "35.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 964,
+        "with_svg": 965,
         "pct": "17.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 964,
+        "with_svg": 965,
         "pct": "17.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 964,
+        "with_svg": 965,
         "pct": "17.2%"
       }
     }
@@ -74624,6 +74624,42 @@
         "images/HSK_3.0/level6/拾.svg"
       ]
     },
+    "十足": {
+      "hanzi": "十足",
+      "pinyin": "shízú",
+      "meaning": "đầy đủ, trăm phần trăm",
+      "example_zh": "他对这次比赛信心<u>十足</u>。",
+      "example_vi": "Anh ấy có niềm tin <u>trăm phần trăm</u> vào trận đấu này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "十足.svg",
+      "src": "images/HSK_2.0/level6/十足.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/十足.svg"
+      ]
+    },
+    "识别": {
+      "hanzi": "识别",
+      "pinyin": "shíbié",
+      "meaning": "nhận biết, phân biệt",
+      "example_zh": "这台机器可以<u>识别</u>人脸。",
+      "example_vi": "Máy này có thể <u>nhận biết</u> khuôn mặt người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "识别.svg",
+      "src": "images/HSK_2.0/level6/识别.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/识别.svg"
+      ]
+    },
     "时常": {
       "hanzi": "时常",
       "pinyin": "shícháng",
@@ -74640,6 +74676,64 @@
       "src": "images/HSK_2.0/level6/时常.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/时常.svg"
+      ]
+    },
+    "时而": {
+      "hanzi": "时而",
+      "pinyin": "shí'ér",
+      "meaning": "lúc thì... lúc thì",
+      "example_zh": "天空<u>时而</u>晴朗，<u>时而</u>多云。",
+      "example_vi": "Bầu trời <u>lúc</u> quang đãng, <u>lúc</u> nhiều mây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "时而.svg",
+      "src": "images/HSK_2.0/level6/时而.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/时而.svg",
+        "images/HSK_3.0/level8/时而.svg",
+        "images/HSK_3.0/level9/时而.svg"
+      ]
+    },
+    "时光": {
+      "hanzi": "时光",
+      "pinyin": "shíguāng",
+      "meaning": "thời gian, năm tháng",
+      "example_zh": "美好的<u>时光</u>总是过得很快。",
+      "example_vi": "<u>Thời gian</u> tốt đẹp luôn trôi qua rất nhanh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "时光.svg",
+      "src": "images/HSK_2.0/level6/时光.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/时光.svg"
+      ]
+    },
+    "时机": {
+      "hanzi": "时机",
+      "pinyin": "shíjī",
+      "meaning": "thời cơ",
+      "example_zh": "现在是出手的最佳<u>时机</u>。",
+      "example_vi": "Bây giờ là <u>thời cơ</u> tốt nhất để hành động.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "时机.svg",
+      "src": "images/HSK_2.0/level6/时机.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/时机.svg"
       ]
     },
     "实力": {

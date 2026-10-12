@@ -19862,10 +19862,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拾.svg",
     "caption": "nhặt, thu lượm"
   },
+  "十足": {
+    "file": "十足.svg",
+    "src": "images/HSK_2.0/level6/十足.svg",
+    "caption": "đầy đủ, trăm phần trăm"
+  },
+  "识别": {
+    "file": "识别.svg",
+    "src": "images/HSK_2.0/level6/识别.svg",
+    "caption": "nhận biết, phân biệt"
+  },
   "时常": {
     "file": "时常.svg",
     "src": "images/HSK_2.0/level6/时常.svg",
     "caption": "thường, thường xuyên"
+  },
+  "时而": {
+    "file": "时而.svg",
+    "src": "images/HSK_2.0/level6/时而.svg",
+    "caption": "lúc thì... lúc thì"
+  },
+  "时光": {
+    "file": "时光.svg",
+    "src": "images/HSK_2.0/level6/时光.svg",
+    "caption": "thời gian, năm tháng"
+  },
+  "时机": {
+    "file": "时机.svg",
+    "src": "images/HSK_2.0/level6/时机.svg",
+    "caption": "thời cơ"
   },
   "实力": {
     "file": "实力.svg",
