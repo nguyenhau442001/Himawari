@@ -15087,6 +15087,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/端.svg",
     "caption": "bưng, mang (bằng hai tay)"
   },
+  "端午节": {
+    "file": "端午节.svg",
+    "src": "images/HSK_2.0/level6/端午节.svg",
+    "caption": "Tết Đoan Ngọ"
+  },
+  "端正": {
+    "file": "端正.svg",
+    "src": "images/HSK_2.0/level6/端正.svg",
+    "caption": "ngay ngắn, đúng đắn"
+  },
+  "短促": {
+    "file": "短促.svg",
+    "src": "images/HSK_2.0/level6/短促.svg",
+    "caption": "ngắn gấp, ngắn và dồn"
+  },
+  "断定": {
+    "file": "断定.svg",
+    "src": "images/HSK_2.0/level6/断定.svg",
+    "caption": "khẳng định, kết luận"
+  },
+  "断断续续": {
+    "file": "断断续续.svg",
+    "src": "images/HSK_2.0/level6/断断续续.svg",
+    "caption": "ngắt quãng, lúc có lúc không"
+  },
+  "断绝": {
+    "file": "断绝.svg",
+    "src": "images/HSK_2.0/level6/断绝.svg",
+    "caption": "cắt đứt (quan hệ)"
+  },
+  "堆积": {
+    "file": "堆积.svg",
+    "src": "images/HSK_2.0/level6/堆积.svg",
+    "caption": "chất đống, dồn lại"
+  },
+  "对策": {
+    "file": "对策.svg",
+    "src": "images/HSK_2.0/level6/对策.svg",
+    "caption": "biện pháp đối phó"
+  },
+  "对称": {
+    "file": "对称.svg",
+    "src": "images/HSK_2.0/level6/对称.svg",
+    "caption": "đối xứng"
+  },
+  "对付": {
+    "file": "对付.svg",
+    "src": "images/HSK_2.0/level6/对付.svg",
+    "caption": "đối phó"
+  },
   "队伍": {
     "file": "队伍.svg",
     "src": "images/HSK_2.0/level6/队伍.svg",

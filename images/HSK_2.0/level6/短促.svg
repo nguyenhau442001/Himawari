@@ -1,0 +1,113 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions -->
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Warm Amber Glow for exertion/running -->
+    <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Breath Puff Gradient -->
+    <linearGradient id="breathGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Card Clip Path -->
+    <clipPath id="cardClip">
+      <rect width="240" height="240" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main Canvas Container with Rounded Corners -->
+  <g clip-path="url(#cardClip)">
+    <!-- Background -->
+    <rect width="240" height="240" fill="url(#bgGrad)"/>
+
+    <!-- Subtle Park/Running Track Environment Elements -->
+    <!-- Night Park Background details -->
+    <circle cx="190" cy="80" r="25" fill="#334155" opacity="0.3"/>
+    <!-- Distant street lamp glow -->
+    <circle cx="50" cy="60" r="40" fill="#f59e0b" opacity="0.08"/>
+    <rect x="47" y="50" width="6" height="120" fill="#334155" opacity="0.5"/>
+    <path d="M 20 180 Q 120 160 240 190 L 240 240 L 0 240 Z" fill="#0f172a" opacity="0.9"/>
+    
+    <!-- Jogging Track Path Line -->
+    <path d="M -10 200 Q 80 175 250 210" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="6,4" opacity="0.6"/>
+
+    <!-- Ambient Exertion Glow around the character -->
+    <circle cx="130" cy="120" r="70" fill="url(#amberGlow)"/>
+
+    <!-- ENVIRONMENT PROPS: Park Bench & Water Bottle in background -->
+    <g opacity="0.7">
+      <!-- Bench -->
+      <rect x="175" y="150" width="45" height="4" fill="#64748b" rx="2"/>
+      <rect x="175" y="158" width="45" height="4" fill="#64748b" rx="2"/>
+      <rect x="182" y="140" width="4" height="25" fill="#475569"/>
+      <rect x="210" y="140" width="4" height="25" fill="#475569"/>
+      <!-- Bottle -->
+      <rect x="155" y="148" width="10" height="18" fill="#38bdf8" rx="3"/>
+      <path d="M 158 145 h 4 v 3 h -4 z" fill="#cbd5e1"/>
+    </g>
+
+    <!-- CHARACTER: Man stopping after a hard run, hunched over, breathing heavily -->
+    <g transform="translate(10, 10)">
+      
+      <!-- Legs (Dynamic bent stance showing fatigue) -->
+      <!-- Back Leg -->
+      <path d="M 115 150 Q 100 175 90 190" fill="none" stroke="#cbd5e1" stroke-width="10" stroke-linecap="round"/>
+      <ellipse cx="88" cy="193" rx="8" ry="4" fill="#0ea5e9"/>
+      
+      <!-- Front Leg -->
+      <path d="M 125 150 Q 135 175 145 190" fill="none" stroke="#e2e8f0" stroke-width="10" stroke-linecap="round"/>
+      <ellipse cx="148" cy="193" rx="8" ry="4" fill="#0ea5e9"/>
+
+      <!-- Torso (Hunched forward, active breathing pose) -->
+      <path d="M 105 110 C 105 130 115 140 130 145 C 145 140 150 120 145 105 Z" fill="#f43f5e"/>
+      <!-- Running Jacket Stripe detail -->
+      <path d="M 115 110 C 118 125 125 133 133 138" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+
+      <!-- Arms supporting the body (Hands on knees) -->
+      <!-- Back Arm -->
+      <path d="M 115 115 Q 100 130 95 145" fill="none" stroke="#f43f5e" stroke-width="8" stroke-linecap="round"/>
+      
+      <!-- Front Arm & Hand gripping knee -->
+      <path d="M 135 115 Q 145 135 152 145" fill="none" stroke="#f43f5e" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="153" cy="147" r="5" fill="#fed7aa"/> <!-- Hand -->
+
+      <!-- Head (Tilted downward, exhausted) -->
+      <circle cx="95" cy="95" r="16" fill="#fed7aa"/>
+      
+      <!-- Hair (Messy from running) -->
+      <path d="M 78 95 C 78 80 90 78 102 82 C 105 85 100 90 100 90 Z" fill="#334155"/>
+      <path d="M 85 80 Q 95 73 105 80" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- Facial Expression: Exhausted, eyes closed in concentration, open mouth panting -->
+      <path d="M 88 94 Q 92 97 96 94" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/> <!-- Closed tired eye -->
+      <circle cx="93" cy="101" r="3.5" fill="#f43f5e"/> <!-- Panting open mouth -->
+
+      <!-- DYNAMIC BREATHING ELEMENTS (SHORT, RAPID PUFFS - 短促) -->
+      <!-- Multiple consecutive overlapping short breath puffs escaping the mouth rapidly -->
+      <!-- Puff 1 (Closest to mouth) -->
+      <path d="M 88 100 Q 75 99 68 103 Q 75 107 88 104" fill="url(#breathGrad)" opacity="0.9"/>
+      <!-- Puff 2 (Mid distance, pulsating outward) -->
+      <path d="M 64 100 Q 50 97 42 103 Q 50 109 64 106" fill="url(#breathGrad)" opacity="0.6"/>
+      <!-- Puff 3 (Fading outer rapid puff) -->
+      <path d="M 38 98 Q 28 95 22 100 Q 28 105 38 102" fill="url(#breathGrad)" opacity="0.3"/>
+
+      <!-- Sweat drops indicating high exertion -->
+      <path d="M 105 88 Q 108 93 105 96 Q 102 93 105 88 Z" fill="#38bdf8" opacity="0.8"/>
+      <path d="M 82 88 Q 84 91 82 93 Q 80 91 82 88 Z" fill="#38bdf8" opacity="0.8"/>
+    </g>
+
+    <!-- UI Polish: Subtle top lighting vignette -->
+    <rect x="0" y="0" width="240" height="240" rx="24" fill="none" stroke="#334155" stroke-width="2" opacity="0.3"/>
+  </g>
+</svg>

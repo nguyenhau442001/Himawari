@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:03:55.438767",
-  "total_unique_words_with_illustrations": 3649,
-  "total_flat_svg_files": 3649,
+  "generated_at": "2026-10-12T12:05:41.845180",
+  "total_unique_words_with_illustrations": 3659,
+  "total_flat_svg_files": 3659,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1009,
-        "pct": "40.4%"
+        "with_svg": 1019,
+        "pct": "40.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 370,
+        "with_svg": 371,
         "pct": "20.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 382,
-        "pct": "6.8%"
+        "with_svg": 389,
+        "pct": "6.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 382,
-        "pct": "6.8%"
+        "with_svg": 389,
+        "pct": "6.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 382,
-        "pct": "6.8%"
+        "with_svg": 389,
+        "pct": "6.9%"
       }
     }
   },
@@ -55332,6 +55332,206 @@
       "src": "images/HSK_2.0/level6/端.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/端.svg"
+      ]
+    },
+    "端午节": {
+      "hanzi": "端午节",
+      "pinyin": "Duānwǔjié",
+      "meaning": "Tết Đoan Ngọ",
+      "example_zh": "<u>端午节</u>要吃粽子。",
+      "example_vi": "<u>Tết Đoan Ngọ</u> phải ăn bánh ú.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "端午节.svg",
+      "src": "images/HSK_2.0/level6/端午节.svg",
+      "alt_srcs": []
+    },
+    "端正": {
+      "hanzi": "端正",
+      "pinyin": "duānzhèng",
+      "meaning": "ngay ngắn, đúng đắn",
+      "example_zh": "他坐姿很<u>端正</u>。",
+      "example_vi": "Tư thế ngồi của anh ấy rất <u>ngay ngắn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "端正.svg",
+      "src": "images/HSK_2.0/level6/端正.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/端正.svg",
+        "images/HSK_3.0/level8/端正.svg",
+        "images/HSK_3.0/level9/端正.svg"
+      ]
+    },
+    "短促": {
+      "hanzi": "短促",
+      "pinyin": "duǎncù",
+      "meaning": "ngắn gấp, ngắn và dồn",
+      "example_zh": "他呼吸<u>短促</u>。",
+      "example_vi": "Anh ấy thở <u>ngắn gấp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "短促.svg",
+      "src": "images/HSK_2.0/level6/短促.svg",
+      "alt_srcs": []
+    },
+    "断定": {
+      "hanzi": "断定",
+      "pinyin": "duàndìng",
+      "meaning": "khẳng định, kết luận",
+      "example_zh": "我不能<u>断定</u>这是真的。",
+      "example_vi": "Tôi không thể <u>khẳng định</u> đây là sự thật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "断定.svg",
+      "src": "images/HSK_2.0/level6/断定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/断定.svg",
+        "images/HSK_3.0/level8/断定.svg",
+        "images/HSK_3.0/level9/断定.svg"
+      ]
+    },
+    "断断续续": {
+      "hanzi": "断断续续",
+      "pinyin": "duàn duàn xù xù",
+      "meaning": "ngắt quãng, lúc có lúc không",
+      "example_zh": "他<u>断断续续</u>地说了一些话。",
+      "example_vi": "Anh ấy nói vài lời <u>ngắt quãng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "断断续续.svg",
+      "src": "images/HSK_2.0/level6/断断续续.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/断断续续.svg",
+        "images/HSK_3.0/level8/断断续续.svg",
+        "images/HSK_3.0/level9/断断续续.svg"
+      ]
+    },
+    "断绝": {
+      "hanzi": "断绝",
+      "pinyin": "duànjué",
+      "meaning": "cắt đứt (quan hệ)",
+      "example_zh": "他们已经<u>断绝</u>了关系。",
+      "example_vi": "Họ đã <u>cắt đứt</u> quan hệ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "断绝.svg",
+      "src": "images/HSK_2.0/level6/断绝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/断绝.svg",
+        "images/HSK_3.0/level8/断绝.svg",
+        "images/HSK_3.0/level9/断绝.svg"
+      ]
+    },
+    "堆积": {
+      "hanzi": "堆积",
+      "pinyin": "duījī",
+      "meaning": "chất đống, dồn lại",
+      "example_zh": "垃圾<u>堆积</u>如山。",
+      "example_vi": "Rác <u>chất đống</u> như núi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "堆积.svg",
+      "src": "images/HSK_2.0/level6/堆积.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/堆积.svg",
+        "images/HSK_3.0/level8/堆积.svg",
+        "images/HSK_3.0/level9/堆积.svg"
+      ]
+    },
+    "对策": {
+      "hanzi": "对策",
+      "pinyin": "duìcè",
+      "meaning": "biện pháp đối phó",
+      "example_zh": "我们需要想出<u>对策</u>。",
+      "example_vi": "Chúng ta cần nghĩ ra <u>biện pháp đối phó</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "对策.svg",
+      "src": "images/HSK_2.0/level6/对策.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/对策.svg",
+        "images/HSK_3.0/level8/对策.svg",
+        "images/HSK_3.0/level9/对策.svg"
+      ]
+    },
+    "对称": {
+      "hanzi": "对称",
+      "pinyin": "duìchèn",
+      "meaning": "đối xứng",
+      "example_zh": "这个图形很<u>对称</u>。",
+      "example_vi": "Hình này rất <u>đối xứng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "对称.svg",
+      "src": "images/HSK_2.0/level6/对称.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/对称.svg"
+      ]
+    },
+    "对付": {
+      "hanzi": "对付",
+      "pinyin": "duìfu",
+      "meaning": "đối phó",
+      "example_zh": "这个问题很难<u>对付</u>。",
+      "example_vi": "Vấn đề này rất khó <u>đối phó</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "对付.svg",
+      "src": "images/HSK_2.0/level6/对付.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/对付.svg",
+        "images/HSK_3.0/level8/对付.svg",
+        "images/HSK_3.0/level9/对付.svg"
       ]
     },
     "队伍": {
