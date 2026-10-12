@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:35:39.527805",
-  "total_unique_words_with_illustrations": 4360,
-  "total_flat_svg_files": 4360,
+  "generated_at": "2026-10-12T22:36:34.594583",
+  "total_unique_words_with_illustrations": 4365,
+  "total_flat_svg_files": 4365,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1720,
-        "pct": "68.8%"
+        "with_svg": 1725,
+        "pct": "69.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 575,
-        "pct": "31.9%"
+        "with_svg": 576,
+        "pct": "32.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 837,
-        "pct": "14.9%"
+        "with_svg": 840,
+        "pct": "15.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 837,
-        "pct": "14.9%"
+        "with_svg": 840,
+        "pct": "15.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 837,
-        "pct": "14.9%"
+        "with_svg": 840,
+        "pct": "15.0%"
       }
     }
   },
@@ -70424,6 +70424,104 @@
       "src": "images/HSK_2.0/level6/气味.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/气味.svg"
+      ]
+    },
+    "气象": {
+      "hanzi": "气象",
+      "pinyin": "qìxiàng",
+      "meaning": "khí tượng",
+      "example_zh": "<u>气象</u>预报说明天有雨。",
+      "example_vi": "Dự báo <u>khí tượng</u> cho biết ngày mai có mưa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "气象.svg",
+      "src": "images/HSK_2.0/level6/气象.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/气象.svg",
+        "images/HSK_3.0/level8/气象.svg",
+        "images/HSK_3.0/level9/气象.svg"
+      ]
+    },
+    "气压": {
+      "hanzi": "气压",
+      "pinyin": "qìyā",
+      "meaning": "áp suất khí quyển",
+      "example_zh": "高山地区<u>气压</u>较低。",
+      "example_vi": "Vùng núi cao có <u>áp suất khí quyển</u> thấp hơn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "气压.svg",
+      "src": "images/HSK_2.0/level6/气压.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/气压.svg",
+        "images/HSK_3.0/level8/气压.svg",
+        "images/HSK_3.0/level9/气压.svg"
+      ]
+    },
+    "气质": {
+      "hanzi": "气质",
+      "pinyin": "qìzhì",
+      "meaning": "khí chất, phong thái",
+      "example_zh": "她举止优雅，很有<u>气质</u>。",
+      "example_vi": "Cử chỉ của cô ấy thanh lịch, rất có <u>khí chất</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "气质.svg",
+      "src": "images/HSK_2.0/level6/气质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/气质.svg"
+      ]
+    },
+    "迄今为止": {
+      "hanzi": "迄今为止",
+      "pinyin": "qìjīnwéizhǐ",
+      "meaning": "cho đến nay",
+      "example_zh": "<u>迄今为止</u>，这个问题还没有解决。",
+      "example_vi": "<u>Cho đến nay</u>, vấn đề này vẫn chưa được giải quyết.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "迄今为止.svg",
+      "src": "images/HSK_2.0/level6/迄今为止.svg",
+      "alt_srcs": []
+    },
+    "掐": {
+      "hanzi": "掐",
+      "pinyin": "qiā",
+      "meaning": "bấm, ngắt (bằng ngón tay)",
+      "example_zh": "她<u>掐</u>了一段花枝插在花瓶里。",
+      "example_vi": "Cô ấy <u>ngắt</u> một đoạn cành hoa cắm vào bình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "掐.svg",
+      "src": "images/HSK_2.0/level6/掐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/掐.svg",
+        "images/HSK_3.0/level8/掐.svg",
+        "images/HSK_3.0/level9/掐.svg"
       ]
     },
     "抢救": {

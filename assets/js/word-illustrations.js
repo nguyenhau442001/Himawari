@@ -18827,6 +18827,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/气味.svg",
     "caption": "mùi vị, khí vị"
   },
+  "气象": {
+    "file": "气象.svg",
+    "src": "images/HSK_2.0/level6/气象.svg",
+    "caption": "khí tượng"
+  },
+  "气压": {
+    "file": "气压.svg",
+    "src": "images/HSK_2.0/level6/气压.svg",
+    "caption": "áp suất khí quyển"
+  },
+  "气质": {
+    "file": "气质.svg",
+    "src": "images/HSK_2.0/level6/气质.svg",
+    "caption": "khí chất, phong thái"
+  },
+  "迄今为止": {
+    "file": "迄今为止.svg",
+    "src": "images/HSK_2.0/level6/迄今为止.svg",
+    "caption": "cho đến nay"
+  },
+  "掐": {
+    "file": "掐.svg",
+    "src": "images/HSK_2.0/level6/掐.svg",
+    "caption": "bấm, ngắt (bằng ngón tay)"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
