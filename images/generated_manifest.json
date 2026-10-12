@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:04:36.711923",
-  "total_unique_words_with_illustrations": 4005,
-  "total_flat_svg_files": 4005,
+  "generated_at": "2026-10-12T20:06:18.248535",
+  "total_unique_words_with_illustrations": 4015,
+  "total_flat_svg_files": 4015,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1365,
-        "pct": "54.6%"
+        "with_svg": 1375,
+        "pct": "55.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 487,
-        "pct": "27.1%"
+        "with_svg": 490,
+        "pct": "27.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 586,
-        "pct": "10.5%"
+        "with_svg": 591,
+        "pct": "10.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 586,
-        "pct": "10.5%"
+        "with_svg": 591,
+        "pct": "10.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 586,
-        "pct": "10.5%"
+        "with_svg": 591,
+        "pct": "10.6%"
       }
     }
   },
@@ -62816,6 +62816,28 @@
         "images/HSK_3.0/level9/就职.svg"
       ]
     },
+    "拘留": {
+      "hanzi": "拘留",
+      "pinyin": "jūliú",
+      "meaning": "tạm giữ, giam giữ",
+      "example_zh": "他被警方<u>拘留</u>了。",
+      "example_vi": "Anh ta bị cảnh sát <u>tạm giữ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "拘留.svg",
+      "src": "images/HSK_2.0/level6/拘留.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/拘留.svg",
+        "images/HSK_3.0/level8/拘留.svg",
+        "images/HSK_3.0/level9/拘留.svg"
+      ]
+    },
     "居民": {
       "hanzi": "居民",
       "pinyin": "jūmín",
@@ -62851,6 +62873,176 @@
       "alt_srcs": [
         "images/HSK_3.0/level5/居住.svg"
       ]
+    },
+    "局部": {
+      "hanzi": "局部",
+      "pinyin": "júbù",
+      "meaning": "cục bộ, một phần",
+      "example_zh": "这只是<u>局部</u>问题。",
+      "example_vi": "Đây chỉ là vấn đề <u>cục bộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "局部.svg",
+      "src": "images/HSK_2.0/level6/局部.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/局部.svg",
+        "images/HSK_3.0/level8/局部.svg",
+        "images/HSK_3.0/level9/局部.svg"
+      ]
+    },
+    "局面": {
+      "hanzi": "局面",
+      "pinyin": "júmiàn",
+      "meaning": "cục diện, tình hình",
+      "example_zh": "目前的<u>局面</u>很复杂。",
+      "example_vi": "<u>Cục diện</u> hiện tại rất phức tạp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "局面.svg",
+      "src": "images/HSK_2.0/level6/局面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/局面.svg"
+      ]
+    },
+    "局势": {
+      "hanzi": "局势",
+      "pinyin": "júshì",
+      "meaning": "tình hình, thời cuộc",
+      "example_zh": "国际<u>局势</u>正在发生变化。",
+      "example_vi": "<u>Tình hình</u> quốc tế đang thay đổi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "局势.svg",
+      "src": "images/HSK_2.0/level6/局势.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/局势.svg",
+        "images/HSK_3.0/level8/局势.svg",
+        "images/HSK_3.0/level9/局势.svg"
+      ]
+    },
+    "局限": {
+      "hanzi": "局限",
+      "pinyin": "júxiàn",
+      "meaning": "hạn chế, bó hẹp trong",
+      "example_zh": "不要把眼光<u>局限</u>在一个地方。",
+      "example_vi": "Đừng <u>hạn chế</u> tầm nhìn ở một nơi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "局限.svg",
+      "src": "images/HSK_2.0/level6/局限.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/局限.svg"
+      ]
+    },
+    "沮丧": {
+      "hanzi": "沮丧",
+      "pinyin": "jǔsàng",
+      "meaning": "chán nản, sa sút",
+      "example_zh": "他失败后很<u>沮丧</u>。",
+      "example_vi": "Anh ấy thất bại nên rất <u>chán nản</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沮丧.svg",
+      "src": "images/HSK_2.0/level6/沮丧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/沮丧.svg",
+        "images/HSK_3.0/level8/沮丧.svg",
+        "images/HSK_3.0/level9/沮丧.svg"
+      ]
+    },
+    "举动": {
+      "hanzi": "举动",
+      "pinyin": "jǔdòng",
+      "meaning": "hành động, cử chỉ",
+      "example_zh": "他的<u>举动</u>让人怀疑。",
+      "example_vi": "<u>Hành động</u> của anh ấy khiến người ta nghi ngờ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "举动.svg",
+      "src": "images/HSK_2.0/level6/举动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/举动.svg"
+      ]
+    },
+    "举世闻名": {
+      "hanzi": "举世闻名",
+      "pinyin": "jǔ shì wén míng",
+      "meaning": "nổi danh khắp thế giới",
+      "example_zh": "长城是<u>举世闻名</u>的建筑。",
+      "example_vi": "Trường Thành là công trình <u>nổi danh khắp thế giới</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "举世闻名.svg",
+      "src": "images/HSK_2.0/level6/举世闻名.svg",
+      "alt_srcs": []
+    },
+    "据悉": {
+      "hanzi": "据悉",
+      "pinyin": "jùxī",
+      "meaning": "được biết",
+      "example_zh": "<u>据悉</u>，新政策将在下月实施。",
+      "example_vi": "<u>Được biết</u>, chính sách mới sẽ thực hiện vào tháng sau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "据悉.svg",
+      "src": "images/HSK_2.0/level6/据悉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/据悉.svg",
+        "images/HSK_3.0/level8/据悉.svg",
+        "images/HSK_3.0/level9/据悉.svg"
+      ]
+    },
+    "锯": {
+      "hanzi": "锯",
+      "pinyin": "jù",
+      "meaning": "cái cưa",
+      "example_zh": "他用<u>锯</u>切木头。",
+      "example_vi": "Anh ấy dùng <u>cưa</u> để cắt gỗ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "锯.svg",
+      "src": "images/HSK_2.0/level6/锯.svg",
+      "alt_srcs": []
     },
     "开展": {
       "hanzi": "开展",

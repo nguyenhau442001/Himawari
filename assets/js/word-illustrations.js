@@ -16972,6 +16972,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/就职.svg",
     "caption": "nhậm chức"
   },
+  "拘留": {
+    "file": "拘留.svg",
+    "src": "images/HSK_2.0/level6/拘留.svg",
+    "caption": "tạm giữ, giam giữ"
+  },
   "居民": {
     "file": "居民.svg",
     "src": "images/HSK_2.0/level6/居民.svg",
@@ -16981,6 +16986,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "居住.svg",
     "src": "images/HSK_2.0/level6/居住.svg",
     "caption": "cư trú, sinh sống"
+  },
+  "局部": {
+    "file": "局部.svg",
+    "src": "images/HSK_2.0/level6/局部.svg",
+    "caption": "cục bộ, một phần"
+  },
+  "局面": {
+    "file": "局面.svg",
+    "src": "images/HSK_2.0/level6/局面.svg",
+    "caption": "cục diện, tình hình"
+  },
+  "局势": {
+    "file": "局势.svg",
+    "src": "images/HSK_2.0/level6/局势.svg",
+    "caption": "tình hình, thời cuộc"
+  },
+  "局限": {
+    "file": "局限.svg",
+    "src": "images/HSK_2.0/level6/局限.svg",
+    "caption": "hạn chế, bó hẹp trong"
+  },
+  "沮丧": {
+    "file": "沮丧.svg",
+    "src": "images/HSK_2.0/level6/沮丧.svg",
+    "caption": "chán nản, sa sút"
+  },
+  "举动": {
+    "file": "举动.svg",
+    "src": "images/HSK_2.0/level6/举动.svg",
+    "caption": "hành động, cử chỉ"
+  },
+  "举世闻名": {
+    "file": "举世闻名.svg",
+    "src": "images/HSK_2.0/level6/举世闻名.svg",
+    "caption": "nổi danh khắp thế giới"
+  },
+  "据悉": {
+    "file": "据悉.svg",
+    "src": "images/HSK_2.0/level6/据悉.svg",
+    "caption": "được biết"
+  },
+  "锯": {
+    "file": "锯.svg",
+    "src": "images/HSK_2.0/level6/锯.svg",
+    "caption": "cái cưa"
   },
   "开展": {
     "file": "开展.svg",

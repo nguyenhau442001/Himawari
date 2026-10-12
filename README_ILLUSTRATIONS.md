@@ -1,6 +1,6 @@
 # 🎨 Kho Lưu Trữ Hình Minh Họa Ngữ Cảnh HSK (Scene-Based Vector Illustrations)
 
-*Báo cáo cập nhật tự động lúc: `2026-10-12 20:04:36`*
+*Báo cáo cập nhật tự động lúc: `2026-10-12 20:06:18`*
 
 Kho hình ảnh vector minh họa trực quan (Scene-Based Visual Mnemonics) cho toàn bộ từ vựng tiếng Trung thuộc hai hệ thống giáo trình **HSK 2.0 (Level 1 - 6)** và **HSK 3.0 (Level 1 - 9)**.
 
@@ -55,8 +55,8 @@ images/
 | **HSK 2.0 Level 3** | `300/300` | **100.0%** | `██████████` | ✅ Hoàn thành |
 | **HSK 2.0 Level 4** | `600/600` | **100.0%** | `██████████` | ✅ Hoàn thành |
 | **HSK 2.0 Level 5** | `1300/1300` | **100.0%** | `██████████` | ✅ Hoàn thành |
-| **HSK 2.0 Level 6** | `1365/2500` | **54.6%** | `█████░░░░░` | ⏳ Đang tạo |
-| **TỔNG CỘNG HSK 2.0** | **`3865/5000`** | **`77.3%`** | `███████░░░` | ⏳ Đang hoàn thiện |
+| **HSK 2.0 Level 6** | `1375/2500` | **55.0%** | `█████░░░░░` | ⏳ Đang tạo |
+| **TỔNG CỘNG HSK 2.0** | **`3875/5000`** | **`77.5%`** | `███████░░░` | ⏳ Đang hoàn thiện |
 
 ---
 
@@ -69,14 +69,14 @@ images/
 | **HSK 3.0 Level 3** | `296/500` | **59.2%** | `█████░░░░░` | ⏳ Đang tạo |
 | **HSK 3.0 Level 4** | `614/1000` | **61.4%** | `██████░░░░` | ⏳ Đang tạo |
 | **HSK 3.0 Level 5** | `1600/1600` | **100.0%** | `██████████` | ✅ Hoàn thành |
-| **HSK 3.0 Level 6** | `487/1800` | **27.1%** | `██░░░░░░░░` | ⏳ Đang tạo |
-| **HSK 3.0 Level 7** | `586/5600` | **10.5%** | `█░░░░░░░░░` | ⏳ Đang tạo |
-| **HSK 3.0 Level 8** | `586/5600` | **10.5%** | `█░░░░░░░░░` | ⏳ Đang tạo |
-| **HSK 3.0 Level 9** | `586/5600` | **10.5%** | `█░░░░░░░░░` | ⏳ Đang tạo |
-| **TỔNG CỘNG HSK 3.0** | **`5071/22200`** | **`22.8%`** | `██░░░░░░░░` | ⏳ Đang hoàn thiện |
+| **HSK 3.0 Level 6** | `490/1800` | **27.2%** | `██░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Level 7** | `591/5600` | **10.6%** | `█░░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Level 8** | `591/5600` | **10.6%** | `█░░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Level 9** | `591/5600` | **10.6%** | `█░░░░░░░░░` | ⏳ Đang tạo |
+| **TỔNG CỘNG HSK 3.0** | **`5089/22200`** | **`22.9%`** | `██░░░░░░░░` | ⏳ Đang hoàn thiện |
 
 ---
 
 ## 💡 Tổng kết tài nguyên hiện tại
-- **Tổng số từ vựng duy nhất đã có minh họa vector**: **`4005`** từ.
+- **Tổng số từ vựng duy nhất đã có minh họa vector**: **`4015`** từ.
 - **Manifest tích hợp ứng dụng**: File [`assets/js/word-illustrations.js`](file:///assets/js/word-illustrations.js) và [`images/generated_manifest.json`](file:///images/generated_manifest.json) tự động đồng bộ đường dẫn để flashcard tải trực tiếp hình ảnh theo cấp độ tương ứng.

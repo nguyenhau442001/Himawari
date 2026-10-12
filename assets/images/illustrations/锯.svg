@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Workbench -->
+  <rect x="30" y="140" width="180" height="15" rx="2" fill="#92400e"/>
+  <rect x="40" y="155" width="10" height="60" fill="#78350f"/>
+  <rect x="190" y="155" width="10" height="60" fill="#78350f"/>
+  
+  <!-- Wood Block -->
+  <rect x="80" y="120" width="100" height="20" rx="2" fill="#d97706"/>
+  <rect x="80" y="120" width="100" height="5" fill="#f59e0b"/>
+  
+  <!-- Saw -->
+  <path d="M50 100 L140 130 L135 140 L45 110 Z" fill="#94a3b8"/>
+  <path d="M45 110 L135 140 L130 145 L40 115 Z" fill="#64748b"/>
+  <path d="M40 115 L130 145 L125 150 L35 120 Z" fill="#475569"/>
+  <path d="M35 120 L125 150 L120 155 L30 125 Z" fill="#334155"/>
+  <path d="M30 125 L120 155 L115 160 L25 130 Z" fill="#1e293b"/>
+  <path d="M25 130 L115 160 L110 165 L20 135 Z" fill="#0f172a"/>
+  
+  <!-- Character -->
+  <circle cx="160" cy="80" r="25" fill="#fbbf24"/>
+  <path d="M140 100 Q160 130 180 100" fill="#fbbf24"/>
+  <rect x="145" y="105" width="30" height="50" rx="5" fill="#38bdf8"/>
+  <rect x="135" y="110" width="20" height="10" rx="2" fill="#38bdf8"/>
+  <rect x="175" y="110" width="20" height="10" rx="2" fill="#38bdf8"/>
+  
+  <!-- Saw Handle -->
+  <path d="M50 100 L40 90 L30 100 L40 110 Z" fill="#ec4899"/>
+  
+  <!-- Sawdust -->
+  <circle cx="130" cy="120" r="2" fill="#fcd34d"/>
+  <circle cx="135" cy="125" r="1.5" fill="#fcd34d"/>
+  <circle cx="125" cy="128" r="2" fill="#fcd34d"/>
+  
+  <!-- Background Details -->
+  <rect x="20" y="40" width="40" height="5" rx="2" fill="#334155"/>
+  <rect x="20" y="55" width="30" height="5" rx="2" fill="#334155"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="160" width="160" height="15" rx="4" fill="#334155"/>
+  <rect x="50" y="175" width="10" height="50" rx="2" fill="#475569"/>
+  <rect x="180" y="175" width="10" height="50" rx="2" fill="#475569"/>
+  
+  <!-- Failed Exam Paper -->
+  <rect x="70" y="145" width="60" height="80" rx="2" fill="#f1f5f9" transform="rotate(-10 100 185)"/>
+  <path d="M80 155h40M80 165h40M80 175h20" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" transform="rotate(-10 100 185)"/>
+  <path d="M100 190l15 15M115 190l-15 15" stroke="#ec4899" stroke-width="4" stroke-linecap="round" transform="rotate(-10 100 185)"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 120)">
+    <!-- Shoulders/Body -->
+    <path d="M-50 40 C-50 20, 50 20, 50 40 L40 80 L-40 80 Z" fill="#38bdf8"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="35" fill="#fde68a"/>
+    
+    <!-- Hair -->
+    <path d="M-30 -20 C-30 -45, 30 -45, 30 -20 L25 -10 L-25 -10 Z" fill="#475569"/>
+    
+    <!-- Sad Face -->
+    <path d="M-15 -5 Q-10 -10, -5 -5" stroke="#475569" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M15 -5 Q10 -10, 5 -5" stroke="#475569" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-10 15 Q0 5, 10 15" stroke="#475569" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Arms slumped -->
+    <path d="M-50 45 L-70 70" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M50 45 L70 70" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Ambient glow -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#fb923c" stroke-width="1" stroke-dasharray="4 8" opacity="0.2"/>
+</svg>
