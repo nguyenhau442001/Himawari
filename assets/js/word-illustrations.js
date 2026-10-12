@@ -19352,6 +19352,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/忍受.svg",
     "caption": "chịu đựng"
   },
+  "认定": {
+    "file": "认定.svg",
+    "src": "images/HSK_2.0/level6/认定.svg",
+    "caption": "xác định, cho rằng (chắc chắn)"
+  },
+  "认可": {
+    "file": "认可.svg",
+    "src": "images/HSK_2.0/level6/认可.svg",
+    "caption": "công nhận, chấp thuận"
+  },
+  "任命": {
+    "file": "任命.svg",
+    "src": "images/HSK_2.0/level6/任命.svg",
+    "caption": "bổ nhiệm"
+  },
+  "任性": {
+    "file": "任性.svg",
+    "src": "images/HSK_2.0/level6/任性.svg",
+    "caption": "bướng bỉnh, tùy tiện theo ý mình"
+  },
+  "任意": {
+    "file": "任意.svg",
+    "src": "images/HSK_2.0/level6/任意.svg",
+    "caption": "tùy ý"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",

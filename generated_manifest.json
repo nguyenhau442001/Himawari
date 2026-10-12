@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:53:49.761615",
-  "total_unique_words_with_illustrations": 4460,
-  "total_flat_svg_files": 4460,
+  "generated_at": "2026-10-12T22:54:43.616557",
+  "total_unique_words_with_illustrations": 4465,
+  "total_flat_svg_files": 4465,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1820,
-        "pct": "72.8%"
+        "with_svg": 1825,
+        "pct": "73.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 608,
-        "pct": "33.8%"
+        "with_svg": 610,
+        "pct": "33.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 899,
+        "with_svg": 902,
         "pct": "16.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 899,
+        "with_svg": 902,
         "pct": "16.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 899,
+        "with_svg": 902,
         "pct": "16.1%"
       }
     }
@@ -72542,6 +72542,108 @@
       "src": "images/HSK_2.0/level6/忍受.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/忍受.svg"
+      ]
+    },
+    "认定": {
+      "hanzi": "认定",
+      "pinyin": "rèndìng",
+      "meaning": "xác định, cho rằng (chắc chắn)",
+      "example_zh": "警方<u>认定</u>他是案件的嫌疑人。",
+      "example_vi": "Cảnh sát <u>xác định</u> anh ấy là nghi phạm của vụ án.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "认定.svg",
+      "src": "images/HSK_2.0/level6/认定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/认定.svg"
+      ]
+    },
+    "认可": {
+      "hanzi": "认可",
+      "pinyin": "rènkě",
+      "meaning": "công nhận, chấp thuận",
+      "example_zh": "他的能力得到了大家的<u>认可</u>。",
+      "example_vi": "Năng lực của anh ấy đã được mọi người <u>công nhận</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "认可.svg",
+      "src": "images/HSK_2.0/level6/认可.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/认可.svg"
+      ]
+    },
+    "任命": {
+      "hanzi": "任命",
+      "pinyin": "rènmìng",
+      "meaning": "bổ nhiệm",
+      "example_zh": "他被<u>任命</u>为新的部门经理。",
+      "example_vi": "Anh ấy được <u>bổ nhiệm</u> làm trưởng phòng mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "任命.svg",
+      "src": "images/HSK_2.0/level6/任命.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/任命.svg",
+        "images/HSK_3.0/level8/任命.svg",
+        "images/HSK_3.0/level9/任命.svg"
+      ]
+    },
+    "任性": {
+      "hanzi": "任性",
+      "pinyin": "rènxìng",
+      "meaning": "bướng bỉnh, tùy tiện theo ý mình",
+      "example_zh": "她从小就很<u>任性</u>。",
+      "example_vi": "Cô ấy từ nhỏ đã rất <u>bướng bỉnh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "任性.svg",
+      "src": "images/HSK_2.0/level6/任性.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/任性.svg",
+        "images/HSK_3.0/level8/任性.svg",
+        "images/HSK_3.0/level9/任性.svg"
+      ]
+    },
+    "任意": {
+      "hanzi": "任意",
+      "pinyin": "rènyì",
+      "meaning": "tùy ý",
+      "example_zh": "不能<u>任意</u>更改规则。",
+      "example_vi": "Không thể <u>tùy ý</u> thay đổi quy tắc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "任意.svg",
+      "src": "images/HSK_2.0/level6/任意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/任意.svg",
+        "images/HSK_3.0/level8/任意.svg",
+        "images/HSK_3.0/level9/任意.svg"
       ]
     },
     "擅长": {
