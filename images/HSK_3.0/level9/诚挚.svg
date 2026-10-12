@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="160" width="200" height="80" rx="10" fill="#334155"/>
+  
+  <!-- Character 1 (The Giver) -->
+  <g transform="translate(40, 80)">
+    <circle cx="30" cy="30" r="25" fill="#fbbf24"/>
+    <path d="M15 45 Q30 55 45 45" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="20" cy="25" r="3" fill="#0f172a"/>
+    <circle cx="40" cy="25" r="3" fill="#0f172a"/>
+    <path d="M10 80 L20 120 L40 120 L50 80" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Character 2 (The Receiver) -->
+  <g transform="translate(140, 80)">
+    <circle cx="30" cy="30" r="25" fill="#f8fafc"/>
+    <path d="M15 45 Q30 55 45 45" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="20" cy="25" r="3" fill="#0f172a"/>
+    <circle cx="40" cy="25" r="3" fill="#0f172a"/>
+    <path d="M10 80 L20 120 L40 120 L50 80" fill="#ec4899"/>
+  </g>
+  
+  <!-- Gift/Handover Action -->
+  <rect x="95" y="130" width="50" height="40" rx="5" fill="#fb923c"/>
+  <path d="M95 130 L120 110 L145 130" fill="#fb923c"/>
+  <path d="M120 110 L120 130" stroke="#f59e0b" stroke-width="4"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="180" cy="50" r="15" fill="#10b981" opacity="0.3"/>
+  <circle cx="60" cy="50" r="10" fill="#38bdf8" opacity="0.3"/>
+  
+  <!-- Heart Symbolizing Sincerity -->
+  <path d="M120 70 C110 60, 100 70, 120 90 C140 70, 130 60, 120 70" fill="#ec4899"/>
+</svg>

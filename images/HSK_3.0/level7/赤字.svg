@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="140" width="180" height="15" rx="2" fill="#334155"/>
+  <rect x="40" y="155" width="10" height="60" fill="#334155"/>
+  <rect x="190" y="155" width="10" height="60" fill="#334155"/>
+  
+  <!-- Government Official Character -->
+  <circle cx="120" cy="90" r="25" fill="#f1f5f9"/>
+  <path d="M105 95 Q120 105 135 95" stroke="#475569" stroke-width="2" fill="none"/>
+  <rect x="90" y="115" width="60" height="40" rx="5" fill="#38bdf8"/>
+  <rect x="105" y="115" width="30" height="40" fill="#0ea5e9"/>
+  
+  <!-- Financial Document -->
+  <rect x="60" y="100" width="50" height="60" rx="2" fill="#ffffff"/>
+  <line x1="70" y1="115" x2="100" y2="115" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+  <line x1="70" y1="130" x2="90" y2="130" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="145" r="5" fill="#ef4444"/>
+  
+  <!-- Chart showing downward trend -->
+  <path d="M150 140 L170 120 L190 150" stroke="#f59e0b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="145" y="110" width="50" height="50" rx="4" fill="none" stroke="#64748b" stroke-width="1"/>
+  
+  <!-- Ambient Lighting -->
+  <circle cx="200" cy="40" r="60" fill="#f59e0b" opacity="0.05"/>
+  <circle cx="40" cy="200" r="40" fill="#38bdf8" opacity="0.05"/>
+  
+  <!-- Decorative elements -->
+  <rect x="160" y="150" width="20" height="5" rx="1" fill="#fb923c"/>
+  <rect x="160" y="160" width="15" height="5" rx="1" fill="#fb923c"/>
+</svg>

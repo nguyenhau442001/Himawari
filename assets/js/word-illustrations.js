@@ -14122,6 +14122,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/成员.svg",
     "caption": "thành viên"
   },
+  "诚挚": {
+    "file": "诚挚.svg",
+    "src": "images/HSK_2.0/level6/诚挚.svg",
+    "caption": "chân thành, thành khẩn"
+  },
+  "秤": {
+    "file": "秤.svg",
+    "src": "images/HSK_2.0/level6/秤.svg",
+    "caption": "cái cân"
+  },
+  "吃苦": {
+    "file": "吃苦.svg",
+    "src": "images/HSK_2.0/level6/吃苦.svg",
+    "caption": "chịu khổ"
+  },
+  "吃力": {
+    "file": "吃力.svg",
+    "src": "images/HSK_2.0/level6/吃力.svg",
+    "caption": "vất vả, tốn sức"
+  },
+  "迟缓": {
+    "file": "迟缓.svg",
+    "src": "images/HSK_2.0/level6/迟缓.svg",
+    "caption": "chậm chạp, trì trệ"
+  },
+  "持久": {
+    "file": "持久.svg",
+    "src": "images/HSK_2.0/level6/持久.svg",
+    "caption": "lâu dài, bền lâu"
+  },
+  "迟疑": {
+    "file": "迟疑.svg",
+    "src": "images/HSK_2.0/level6/迟疑.svg",
+    "caption": "lưỡng lự, do dự"
+  },
+  "赤道": {
+    "file": "赤道.svg",
+    "src": "images/HSK_2.0/level6/赤道.svg",
+    "caption": "đường xích đạo"
+  },
+  "赤字": {
+    "file": "赤字.svg",
+    "src": "images/HSK_2.0/level6/赤字.svg",
+    "caption": "thâm hụt (tài chính)"
+  },
+  "充当": {
+    "file": "充当.svg",
+    "src": "images/HSK_2.0/level6/充当.svg",
+    "caption": "đóng vai, làm"
+  },
   "充足": {
     "file": "充足.svg",
     "src": "images/HSK_2.0/level6/充足.svg",

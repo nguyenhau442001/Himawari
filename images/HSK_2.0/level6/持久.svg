@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Elements -->
+  <circle cx="180" cy="60" r="30" fill="#334155" opacity="0.5"/>
+  <path d="M40 180 L200 180" stroke="#334155" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Fragrance Bottle -->
+  <rect x="160" y="120" width="30" height="50" rx="4" fill="#fbbf24"/>
+  <rect x="168" y="110" width="14" height="10" rx="2" fill="#94a3b8"/>
+  
+  <!-- Scent Waves -->
+  <path d="M175 105 Q190 80 175 50" stroke="#f59e0b" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M175 105 Q210 70 190 30" stroke="#f59e0b" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Character -->
+  <g transform="translate(40, 60)">
+    <!-- Body -->
+    <path d="M20 160 C20 120, 80 120, 80 160 L80 180 L20 180 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="50" cy="100" r="30" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M25 95 C25 60, 75 60, 75 95 L75 100 C75 80, 25 80, 25 100 Z" fill="#fb923c"/>
+    <!-- Eyes -->
+    <circle cx="40" cy="95" r="3" fill="#1e293b"/>
+    <circle cx="60" cy="95" r="3" fill="#1e293b"/>
+    <!-- Smile -->
+    <path d="M40 110 Q50 118 60 110" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Arm reaching -->
+    <path d="M80 140 L110 130" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Sparkles -->
+  <circle cx="150" cy="70" r="2" fill="#fbbf24"/>
+  <circle cx="190" cy="50" r="3" fill="#fbbf24"/>
+  <circle cx="160" cy="40" r="2" fill="#fbbf24"/>
+</svg>

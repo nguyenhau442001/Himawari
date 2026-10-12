@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Environment: Construction/Renovation site -->
+  <path d="M20 240 L20 160 L220 160 L220 240 Z" fill="#334155"/>
+  <rect x="30" y="180" width="40" height="60" fill="#475569"/>
+  <rect x="170" y="190" width="40" height="50" fill="#475569"/>
+  
+  <!-- Tools -->
+  <path d="M80 220 L100 220 L95 240 L85 240 Z" fill="#94a3b8"/>
+  <rect x="88" y="200" width="4" height="20" fill="#fb923c"/>
+  
+  <!-- Young Person Character -->
+  <!-- Legs -->
+  <rect x="110" y="160" width="10" height="40" fill="#38bdf8" rx="2"/>
+  <rect x="125" y="160" width="10" height="40" fill="#38bdf8" rx="2"/>
+  
+  <!-- Torso -->
+  <path d="M105 120 L140 120 L135 165 L110 165 Z" fill="#fb923c"/>
+  
+  <!-- Arms carrying heavy load -->
+  <path d="M105 130 L90 150 L95 155 L110 135 Z" fill="#fb923c"/>
+  <path d="M140 130 L155 150 L150 155 L135 135 Z" fill="#fb923c"/>
+  
+  <!-- Heavy Load (Box) -->
+  <rect x="95" y="90" width="50" height="40" fill="#f59e0b" rx="4"/>
+  <path d="M95 90 L120 110 L145 90" stroke="#fbbf24" stroke-width="2" fill="none"/>
+  
+  <!-- Head -->
+  <circle cx="122.5" cy="100" r="15" fill="#fde68a"/>
+  <path d="M115 95 L118 98 M127 95 L130 98" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M118 105 Q122.5 108 127 105" stroke="#ec4899" stroke-width="2" fill="none"/>
+  
+  <!-- Sweat drop -->
+  <path d="M135 90 Q138 95 135 98 Q132 95 135 90" fill="#38bdf8"/>
+  
+  <!-- Lighting/Atmosphere -->
+  <circle cx="200" cy="40" r="30" fill="#fbbf24" opacity="0.1"/>
+  <circle cx="200" cy="40" r="15" fill="#fbbf24" opacity="0.2"/>
+</svg>

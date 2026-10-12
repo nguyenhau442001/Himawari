@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:28:52.160030",
-  "total_unique_words_with_illustrations": 3469,
-  "total_flat_svg_files": 3469,
+  "generated_at": "2026-10-12T11:31:51.309077",
+  "total_unique_words_with_illustrations": 3479,
+  "total_flat_svg_files": 3479,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 829,
-        "pct": "33.2%"
+        "with_svg": 839,
+        "pct": "33.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 312,
-        "pct": "17.3%"
+        "with_svg": 313,
+        "pct": "17.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 268,
-        "pct": "4.8%"
+        "with_svg": 277,
+        "pct": "4.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 268,
-        "pct": "4.8%"
+        "with_svg": 277,
+        "pct": "4.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 268,
-        "pct": "4.8%"
+        "with_svg": 277,
+        "pct": "4.9%"
       }
     }
   },
@@ -51438,6 +51438,222 @@
       "src": "images/HSK_2.0/level6/成员.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/成员.svg"
+      ]
+    },
+    "诚挚": {
+      "hanzi": "诚挚",
+      "pinyin": "chéngzhì",
+      "meaning": "chân thành, thành khẩn",
+      "example_zh": "我向您表示<u>诚挚</u>的感谢。",
+      "example_vi": "Tôi xin gửi lời cảm ơn <u>chân thành</u> đến bạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "诚挚.svg",
+      "src": "images/HSK_2.0/level6/诚挚.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/诚挚.svg",
+        "images/HSK_3.0/level8/诚挚.svg",
+        "images/HSK_3.0/level9/诚挚.svg"
+      ]
+    },
+    "秤": {
+      "hanzi": "秤",
+      "pinyin": "chèng",
+      "meaning": "cái cân",
+      "example_zh": "用<u>秤</u>称一下重量。",
+      "example_vi": "Dùng <u>cái cân</u> để cân trọng lượng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "秤.svg",
+      "src": "images/HSK_2.0/level6/秤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/秤.svg",
+        "images/HSK_3.0/level8/秤.svg",
+        "images/HSK_3.0/level9/秤.svg"
+      ]
+    },
+    "吃苦": {
+      "hanzi": "吃苦",
+      "pinyin": "chīkǔ",
+      "meaning": "chịu khổ",
+      "example_zh": "年轻人要能<u>吃苦</u>。",
+      "example_vi": "Người trẻ phải có khả năng <u>chịu khổ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吃苦.svg",
+      "src": "images/HSK_2.0/level6/吃苦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/吃苦.svg",
+        "images/HSK_3.0/level8/吃苦.svg",
+        "images/HSK_3.0/level9/吃苦.svg"
+      ]
+    },
+    "吃力": {
+      "hanzi": "吃力",
+      "pinyin": "chīlì",
+      "meaning": "vất vả, tốn sức",
+      "example_zh": "爬这座山有点<u>吃力</u>。",
+      "example_vi": "Leo núi này có chút <u>vất vả</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吃力.svg",
+      "src": "images/HSK_2.0/level6/吃力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/吃力.svg",
+        "images/HSK_3.0/level8/吃力.svg",
+        "images/HSK_3.0/level9/吃力.svg"
+      ]
+    },
+    "迟缓": {
+      "hanzi": "迟缓",
+      "pinyin": "chíhuǎn",
+      "meaning": "chậm chạp, trì trệ",
+      "example_zh": "经济增长有些<u>迟缓</u>。",
+      "example_vi": "Tăng trưởng kinh tế có phần <u>chậm chạp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迟缓.svg",
+      "src": "images/HSK_2.0/level6/迟缓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迟缓.svg",
+        "images/HSK_3.0/level8/迟缓.svg",
+        "images/HSK_3.0/level9/迟缓.svg"
+      ]
+    },
+    "持久": {
+      "hanzi": "持久",
+      "pinyin": "chíjiǔ",
+      "meaning": "lâu dài, bền lâu",
+      "example_zh": "这种香味很<u>持久</u>。",
+      "example_vi": "Loại mùi hương này rất <u>bền lâu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "持久.svg",
+      "src": "images/HSK_2.0/level6/持久.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/持久.svg"
+      ]
+    },
+    "迟疑": {
+      "hanzi": "迟疑",
+      "pinyin": "chíyí",
+      "meaning": "lưỡng lự, do dự",
+      "example_zh": "他犹豫<u>迟疑</u>了一会儿。",
+      "example_vi": "Anh ấy <u>lưỡng lự</u> một lúc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迟疑.svg",
+      "src": "images/HSK_2.0/level6/迟疑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迟疑.svg",
+        "images/HSK_3.0/level8/迟疑.svg",
+        "images/HSK_3.0/level9/迟疑.svg"
+      ]
+    },
+    "赤道": {
+      "hanzi": "赤道",
+      "pinyin": "chìdào",
+      "meaning": "đường xích đạo",
+      "example_zh": "这个国家位于<u>赤道</u>附近。",
+      "example_vi": "Quốc gia này nằm gần <u>đường xích đạo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "赤道.svg",
+      "src": "images/HSK_2.0/level6/赤道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/赤道.svg",
+        "images/HSK_3.0/level8/赤道.svg",
+        "images/HSK_3.0/level9/赤道.svg"
+      ]
+    },
+    "赤字": {
+      "hanzi": "赤字",
+      "pinyin": "chìzì",
+      "meaning": "thâm hụt (tài chính)",
+      "example_zh": "政府预算出现<u>赤字</u>。",
+      "example_vi": "Ngân sách chính phủ xuất hiện <u>thâm hụt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "赤字.svg",
+      "src": "images/HSK_2.0/level6/赤字.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/赤字.svg",
+        "images/HSK_3.0/level8/赤字.svg",
+        "images/HSK_3.0/level9/赤字.svg"
+      ]
+    },
+    "充当": {
+      "hanzi": "充当",
+      "pinyin": "chōngdāng",
+      "meaning": "đóng vai, làm",
+      "example_zh": "他在这里<u>充当</u>翻译。",
+      "example_vi": "Anh ấy <u>đóng vai</u> phiên dịch ở đây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "充当.svg",
+      "src": "images/HSK_2.0/level6/充当.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/充当.svg",
+        "images/HSK_3.0/level8/充当.svg",
+        "images/HSK_3.0/level9/充当.svg"
       ]
     },
     "充足": {
