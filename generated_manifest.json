@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:54:49.046857",
-  "total_unique_words_with_illustrations": 3909,
-  "total_flat_svg_files": 3909,
+  "generated_at": "2026-10-12T12:56:39.948930",
+  "total_unique_words_with_illustrations": 3919,
+  "total_flat_svg_files": 3919,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1269,
-        "pct": "50.8%"
+        "with_svg": 1279,
+        "pct": "51.2%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 450,
-        "pct": "25.0%"
+        "with_svg": 456,
+        "pct": "25.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 536,
+        "with_svg": 540,
         "pct": "9.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 536,
+        "with_svg": 540,
         "pct": "9.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 536,
+        "with_svg": 540,
         "pct": "9.6%"
       }
     }
@@ -60820,6 +60820,202 @@
         "images/HSK_3.0/level7/基层.svg",
         "images/HSK_3.0/level8/基层.svg",
         "images/HSK_3.0/level9/基层.svg"
+      ]
+    },
+    "基地": {
+      "hanzi": "基地",
+      "pinyin": "jīdì",
+      "meaning": "căn cứ, cơ sở",
+      "example_zh": "这是军事训练<u>基地</u>。",
+      "example_vi": "Đây là <u>căn cứ</u> huấn luyện quân sự.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "基地.svg",
+      "src": "images/HSK_2.0/level6/基地.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/基地.svg"
+      ]
+    },
+    "机动": {
+      "hanzi": "机动",
+      "pinyin": "jīdòng",
+      "meaning": "cơ động, linh động",
+      "example_zh": "计划要留有<u>机动</u>余地。",
+      "example_vi": "Kế hoạch phải có khoảng trống <u>linh động</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "机动.svg",
+      "src": "images/HSK_2.0/level6/机动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/机动.svg",
+        "images/HSK_3.0/level8/机动.svg",
+        "images/HSK_3.0/level9/机动.svg"
+      ]
+    },
+    "饥饿": {
+      "hanzi": "饥饿",
+      "pinyin": "jīè",
+      "meaning": "đói khát",
+      "example_zh": "许多人正忍受<u>饥饿</u>。",
+      "example_vi": "Nhiều người đang chịu đựng <u>đói khát</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "饥饿.svg",
+      "src": "images/HSK_2.0/level6/饥饿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/饥饿.svg"
+      ]
+    },
+    "激发": {
+      "hanzi": "激发",
+      "pinyin": "jīfā",
+      "meaning": "khơi gợi, kích phát",
+      "example_zh": "老师<u>激发</u>了学生的兴趣。",
+      "example_vi": "Thầy giáo <u>khơi gợi</u> hứng thú của học sinh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "激发.svg",
+      "src": "images/HSK_2.0/level6/激发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/激发.svg"
+      ]
+    },
+    "机关": {
+      "hanzi": "机关",
+      "pinyin": "jīguān",
+      "meaning": "cơ quan; cơ cấu máy",
+      "example_zh": "他在政府<u>机关</u>工作。",
+      "example_vi": "Anh ấy làm việc trong <u>cơ quan</u> chính phủ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "机关.svg",
+      "src": "images/HSK_2.0/level6/机关.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/机关.svg",
+        "images/HSK_3.0/level8/机关.svg",
+        "images/HSK_3.0/level9/机关.svg"
+      ]
+    },
+    "基金": {
+      "hanzi": "基金",
+      "pinyin": "jījīn",
+      "meaning": "quỹ",
+      "example_zh": "他投资了一个教育<u>基金</u>。",
+      "example_vi": "Anh ấy đầu tư vào một <u>quỹ</u> giáo dục.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "基金.svg",
+      "src": "images/HSK_2.0/level6/基金.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/基金.svg"
+      ]
+    },
+    "机密": {
+      "hanzi": "机密",
+      "pinyin": "jīmì",
+      "meaning": "cơ mật, bí mật",
+      "example_zh": "这是国家<u>机密</u>。",
+      "example_vi": "Đây là <u>bí mật</u> quốc gia.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "机密.svg",
+      "src": "images/HSK_2.0/level6/机密.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/机密.svg",
+        "images/HSK_3.0/level8/机密.svg",
+        "images/HSK_3.0/level9/机密.svg"
+      ]
+    },
+    "激素": {
+      "hanzi": "激素",
+      "pinyin": "jīsù",
+      "meaning": "hormone",
+      "example_zh": "这种水果含有<u>激素</u>。",
+      "example_vi": "Loại trái cây này chứa <u>hormone</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "激素.svg",
+      "src": "images/HSK_2.0/level6/激素.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/激素.svg",
+        "images/HSK_3.0/level8/激素.svg",
+        "images/HSK_3.0/level9/激素.svg"
+      ]
+    },
+    "集团": {
+      "hanzi": "集团",
+      "pinyin": "jítuán",
+      "meaning": "tập đoàn",
+      "example_zh": "这是一家国际<u>集团</u>公司。",
+      "example_vi": "Đây là một công ty <u>tập đoàn</u> quốc tế.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "集团.svg",
+      "src": "images/HSK_2.0/level6/集团.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/集团.svg"
+      ]
+    },
+    "机械": {
+      "hanzi": "机械",
+      "pinyin": "jīxiè",
+      "meaning": "máy móc, cơ khí",
+      "example_zh": "这台<u>机械</u>设备很先进。",
+      "example_vi": "Thiết bị <u>cơ khí</u> này rất tiên tiến.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "机械.svg",
+      "src": "images/HSK_2.0/level6/机械.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/机械.svg"
       ]
     },
     "记载": {

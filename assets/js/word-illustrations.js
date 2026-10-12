@@ -16467,6 +16467,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/基层.svg",
     "caption": "cơ sở, cấp dưới"
   },
+  "基地": {
+    "file": "基地.svg",
+    "src": "images/HSK_2.0/level6/基地.svg",
+    "caption": "căn cứ, cơ sở"
+  },
+  "机动": {
+    "file": "机动.svg",
+    "src": "images/HSK_2.0/level6/机动.svg",
+    "caption": "cơ động, linh động"
+  },
+  "饥饿": {
+    "file": "饥饿.svg",
+    "src": "images/HSK_2.0/level6/饥饿.svg",
+    "caption": "đói khát"
+  },
+  "激发": {
+    "file": "激发.svg",
+    "src": "images/HSK_2.0/level6/激发.svg",
+    "caption": "khơi gợi, kích phát"
+  },
+  "机关": {
+    "file": "机关.svg",
+    "src": "images/HSK_2.0/level6/机关.svg",
+    "caption": "cơ quan; cơ cấu máy"
+  },
+  "基金": {
+    "file": "基金.svg",
+    "src": "images/HSK_2.0/level6/基金.svg",
+    "caption": "quỹ"
+  },
+  "机密": {
+    "file": "机密.svg",
+    "src": "images/HSK_2.0/level6/机密.svg",
+    "caption": "cơ mật, bí mật"
+  },
+  "激素": {
+    "file": "激素.svg",
+    "src": "images/HSK_2.0/level6/激素.svg",
+    "caption": "hormone"
+  },
+  "集团": {
+    "file": "集团.svg",
+    "src": "images/HSK_2.0/level6/集团.svg",
+    "caption": "tập đoàn"
+  },
+  "机械": {
+    "file": "机械.svg",
+    "src": "images/HSK_2.0/level6/机械.svg",
+    "caption": "máy móc, cơ khí"
+  },
   "记载": {
     "file": "记载.svg",
     "src": "images/HSK_2.0/level6/记载.svg",
