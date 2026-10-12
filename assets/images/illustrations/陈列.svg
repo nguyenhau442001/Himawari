@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Shelving Unit -->
+  <rect x="40" y="60" width="160" height="120" rx="4" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <line x1="40" y1="100" x2="200" y2="100" stroke="#475569" stroke-width="2"/>
+  <line x1="40" y1="140" x2="200" y2="140" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Products (陈列) -->
+  <rect x="55" y="70" width="20" height="25" rx="2" fill="#fbbf24"/>
+  <rect x="85" y="70" width="20" height="25" rx="2" fill="#fbbf24"/>
+  <rect x="115" y="70" width="20" height="25" rx="2" fill="#fbbf24"/>
+  <rect x="145" y="70" width="20" height="25" rx="2" fill="#fbbf24"/>
+  <rect x="175" y="70" width="20" height="25" rx="2" fill="#fbbf24"/>
+  
+  <rect x="55" y="110" width="20" height="25" rx="2" fill="#38bdf8"/>
+  <rect x="85" y="110" width="20" height="25" rx="2" fill="#38bdf8"/>
+  <rect x="115" y="110" width="20" height="25" rx="2" fill="#38bdf8"/>
+  <rect x="145" y="110" width="20" height="25" rx="2" fill="#38bdf8"/>
+  <rect x="175" y="110" width="20" height="25" rx="2" fill="#38bdf8"/>
+  
+  <rect x="55" y="150" width="20" height="25" rx="2" fill="#10b981"/>
+  <rect x="85" y="150" width="20" height="25" rx="2" fill="#10b981"/>
+  <rect x="115" y="150" width="20" height="25" rx="2" fill="#10b981"/>
+  <rect x="145" y="150" width="20" height="25" rx="2" fill="#10b981"/>
+  <rect x="175" y="150" width="20" height="25" rx="2" fill="#10b981"/>
+
+  <!-- Character -->
+  <g transform="translate(180, 170)">
+    <circle cx="0" cy="0" r="12" fill="#fca5a5"/>
+    <path d="M-8 10 Q 0 20 8 10" stroke="#fca5a5" stroke-width="3" fill="none"/>
+    <rect x="-15" y="12" width="30" height="40" rx="5" fill="#ec4899"/>
+    <rect x="-18" y="15" width="6" height="25" rx="2" fill="#ec4899"/>
+    <rect x="12" y="15" width="6" height="25" rx="2" fill="#ec4899"/>
+  </g>
+  
+  <!-- Ambient Light -->
+  <circle cx="120" cy="120" r="150" fill="url(#grad)" opacity="0.05"/>
+</svg>

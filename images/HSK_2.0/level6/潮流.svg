@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Street Scene Background -->
+  <path d="M0 160h240v80H0z" fill="#334155"/>
+  <path d="M40 160l20-80h40l20 80z" fill="#475569"/>
+  <path d="M140 160l20-60h40l20 60z" fill="#475569"/>
+  
+  <!-- Main Character (The Trendsetter) -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-20 20h40v60h-40z" fill="#fb923c"/>
+    <path d="M-25 25h50v10h-50z" fill="#ec4899"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="25" fill="#fde68a"/>
+    <!-- Trendy Glasses -->
+    <path d="M-15 -15h10v10h-10zM5 -15h10v10h-10z" fill="#0f172a"/>
+    <!-- Hair -->
+    <path d="M-25 -20c0-20 50-20 50 0c0 10-10 10-25 10c-15 0-25 0-25-10z" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Observing Characters (The Crowd) -->
+  <g transform="translate(40, 150)">
+    <circle cx="0" cy="0" r="15" fill="#10b981"/>
+    <rect x="-10" y="15" width="20" height="40" fill="#fbbf24"/>
+  </g>
+  
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="15" fill="#fbbf24"/>
+    <rect x="-10" y="15" width="20" height="40" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Decorative Sparkles/Trend Indicators -->
+  <path d="M180 50l5 10l10 5l-10 5l-5 10l-5-10l-10-5l10-5z" fill="#fbbf24"/>
+  <path d="M60 70l3 6l6 3l-6 3l-3 6l-3-6l-6-3l6-3z" fill="#10b981"/>
+  <path d="M150 30l4 8l8 4l-8 4l-4 8l-4-8l-8-4l8-4z" fill="#ec4899"/>
+  
+  <!-- Ground Detail -->
+  <rect x="0" y="230" width="240" height="10" fill="#0f172a"/>
+</svg>

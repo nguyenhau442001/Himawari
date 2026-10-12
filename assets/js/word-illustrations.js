@@ -13957,6 +13957,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/倡议.svg",
     "caption": "đề nghị, kiến nghị"
   },
+  "钞票": {
+    "file": "钞票.svg",
+    "src": "images/HSK_2.0/level6/钞票.svg",
+    "caption": "tiền giấy"
+  },
+  "超越": {
+    "file": "超越.svg",
+    "src": "images/HSK_2.0/level6/超越.svg",
+    "caption": "vượt qua, siêu việt"
+  },
+  "朝代": {
+    "file": "朝代.svg",
+    "src": "images/HSK_2.0/level6/朝代.svg",
+    "caption": "triều đại"
+  },
+  "潮流": {
+    "file": "潮流.svg",
+    "src": "images/HSK_2.0/level6/潮流.svg",
+    "caption": "trào lưu, xu hướng"
+  },
+  "嘲笑": {
+    "file": "嘲笑.svg",
+    "src": "images/HSK_2.0/level6/嘲笑.svg",
+    "caption": "chê cười, nhạo báng"
+  },
+  "撤退": {
+    "file": "撤退.svg",
+    "src": "images/HSK_2.0/level6/撤退.svg",
+    "caption": "rút lui"
+  },
+  "撤销": {
+    "file": "撤销.svg",
+    "src": "images/HSK_2.0/level6/撤销.svg",
+    "caption": "hủy bỏ, thu hồi"
+  },
+  "沉淀": {
+    "file": "沉淀.svg",
+    "src": "images/HSK_2.0/level6/沉淀.svg",
+    "caption": "lắng đọng, kết tủa"
+  },
+  "陈旧": {
+    "file": "陈旧.svg",
+    "src": "images/HSK_2.0/level6/陈旧.svg",
+    "caption": "cũ kỹ, lạc hậu"
+  },
+  "陈列": {
+    "file": "陈列.svg",
+    "src": "images/HSK_2.0/level6/陈列.svg",
+    "caption": "trưng bày"
+  },
   "成本": {
     "file": "成本.svg",
     "src": "images/HSK_2.0/level6/成本.svg",

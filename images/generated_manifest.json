@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:19:57.878436",
-  "total_unique_words_with_illustrations": 3439,
-  "total_flat_svg_files": 3439,
+  "generated_at": "2026-10-12T11:23:04.374779",
+  "total_unique_words_with_illustrations": 3449,
+  "total_flat_svg_files": 3449,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 799,
-        "pct": "32.0%"
+        "with_svg": 809,
+        "pct": "32.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 298,
-        "pct": "16.6%"
+        "with_svg": 303,
+        "pct": "16.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 254,
-        "pct": "4.5%"
+        "with_svg": 259,
+        "pct": "4.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 254,
-        "pct": "4.5%"
+        "with_svg": 259,
+        "pct": "4.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 254,
-        "pct": "4.5%"
+        "with_svg": 259,
+        "pct": "4.6%"
       }
     }
   },
@@ -50796,6 +50796,206 @@
         "images/HSK_3.0/level7/倡议.svg",
         "images/HSK_3.0/level8/倡议.svg",
         "images/HSK_3.0/level9/倡议.svg"
+      ]
+    },
+    "钞票": {
+      "hanzi": "钞票",
+      "pinyin": "chāopiào",
+      "meaning": "tiền giấy",
+      "example_zh": "他的钱包里有很多<u>钞票</u>。",
+      "example_vi": "Trong ví của anh ấy có nhiều <u>tiền giấy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "钞票.svg",
+      "src": "images/HSK_2.0/level6/钞票.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/钞票.svg",
+        "images/HSK_3.0/level8/钞票.svg",
+        "images/HSK_3.0/level9/钞票.svg"
+      ]
+    },
+    "超越": {
+      "hanzi": "超越",
+      "pinyin": "chāoyuè",
+      "meaning": "vượt qua, siêu việt",
+      "example_zh": "他<u>超越</u>了自己的极限。",
+      "example_vi": "Anh ấy <u>vượt qua</u> giới hạn của bản thân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "超越.svg",
+      "src": "images/HSK_2.0/level6/超越.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/超越.svg"
+      ]
+    },
+    "朝代": {
+      "hanzi": "朝代",
+      "pinyin": "cháodài",
+      "meaning": "triều đại",
+      "example_zh": "唐朝是一个繁荣的<u>朝代</u>。",
+      "example_vi": "Nhà Đường là một <u>triều đại</u> thịnh vượng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "朝代.svg",
+      "src": "images/HSK_2.0/level6/朝代.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/朝代.svg"
+      ]
+    },
+    "潮流": {
+      "hanzi": "潮流",
+      "pinyin": "cháoliú",
+      "meaning": "trào lưu, xu hướng",
+      "example_zh": "这种风格成了新<u>潮流</u>。",
+      "example_vi": "Phong cách này trở thành <u>trào lưu</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "潮流.svg",
+      "src": "images/HSK_2.0/level6/潮流.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/潮流.svg"
+      ]
+    },
+    "嘲笑": {
+      "hanzi": "嘲笑",
+      "pinyin": "cháoxiào",
+      "meaning": "chê cười, nhạo báng",
+      "example_zh": "别<u>嘲笑</u>别人的缺点。",
+      "example_vi": "Đừng <u>chê cười</u> khuyết điểm của người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "嘲笑.svg",
+      "src": "images/HSK_2.0/level6/嘲笑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/嘲笑.svg"
+      ]
+    },
+    "撤退": {
+      "hanzi": "撤退",
+      "pinyin": "chètuì",
+      "meaning": "rút lui",
+      "example_zh": "军队下令<u>撤退</u>。",
+      "example_vi": "Quân đội ra lệnh <u>rút lui</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "撤退.svg",
+      "src": "images/HSK_2.0/level6/撤退.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/撤退.svg",
+        "images/HSK_3.0/level8/撤退.svg",
+        "images/HSK_3.0/level9/撤退.svg"
+      ]
+    },
+    "撤销": {
+      "hanzi": "撤销",
+      "pinyin": "chèxiāo",
+      "meaning": "hủy bỏ, thu hồi",
+      "example_zh": "这项决定已被<u>撤销</u>。",
+      "example_vi": "Quyết định này đã bị <u>hủy bỏ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "撤销.svg",
+      "src": "images/HSK_2.0/level6/撤销.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/撤销.svg"
+      ]
+    },
+    "沉淀": {
+      "hanzi": "沉淀",
+      "pinyin": "chéndiàn",
+      "meaning": "lắng đọng, kết tủa",
+      "example_zh": "杂质<u>沉淀</u>在杯底。",
+      "example_vi": "Tạp chất <u>lắng đọng</u> ở đáy cốc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉淀.svg",
+      "src": "images/HSK_2.0/level6/沉淀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/沉淀.svg",
+        "images/HSK_3.0/level8/沉淀.svg",
+        "images/HSK_3.0/level9/沉淀.svg"
+      ]
+    },
+    "陈旧": {
+      "hanzi": "陈旧",
+      "pinyin": "chénjiù",
+      "meaning": "cũ kỹ, lạc hậu",
+      "example_zh": "这种观念太<u>陈旧</u>了。",
+      "example_vi": "Quan niệm này quá <u>cũ kỹ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "陈旧.svg",
+      "src": "images/HSK_2.0/level6/陈旧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/陈旧.svg",
+        "images/HSK_3.0/level8/陈旧.svg",
+        "images/HSK_3.0/level9/陈旧.svg"
+      ]
+    },
+    "陈列": {
+      "hanzi": "陈列",
+      "pinyin": "chénliè",
+      "meaning": "trưng bày",
+      "example_zh": "商品整齐地<u>陈列</u>着。",
+      "example_vi": "Hàng hóa được <u>trưng bày</u> ngăn ngắn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "陈列.svg",
+      "src": "images/HSK_2.0/level6/陈列.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/陈列.svg",
+        "images/HSK_3.0/level8/陈列.svg",
+        "images/HSK_3.0/level9/陈列.svg"
       ]
     },
     "成本": {
