@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:22:25.073464",
-  "total_unique_words_with_illustrations": 3749,
-  "total_flat_svg_files": 3749,
+  "generated_at": "2026-10-12T12:24:25.610406",
+  "total_unique_words_with_illustrations": 3759,
+  "total_flat_svg_files": 3759,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1109,
-        "pct": "44.4%"
+        "with_svg": 1119,
+        "pct": "44.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 395,
-        "pct": "21.9%"
+        "with_svg": 396,
+        "pct": "22.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 448,
-        "pct": "8.0%"
+        "with_svg": 458,
+        "pct": "8.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 448,
-        "pct": "8.0%"
+        "with_svg": 458,
+        "pct": "8.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 448,
-        "pct": "8.0%"
+        "with_svg": 458,
+        "pct": "8.2%"
       }
     }
   },
@@ -57442,6 +57442,156 @@
         "images/HSK_3.0/level9/风貌.svg"
       ]
     },
+    "风气": {
+      "hanzi": "风气",
+      "pinyin": "fēngqì",
+      "meaning": "phong tục xã hội, nếp sống",
+      "example_zh": "社会<u>风气</u>正在改善。",
+      "example_vi": "<u>Phong tục xã hội</u> đang được cải thiện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "风气.svg",
+      "src": "images/HSK_2.0/level6/风气.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/风气.svg",
+        "images/HSK_3.0/level8/风气.svg",
+        "images/HSK_3.0/level9/风气.svg"
+      ]
+    },
+    "风味": {
+      "hanzi": "风味",
+      "pinyin": "fēngwèi",
+      "meaning": "phong vị, hương vị đặc trưng",
+      "example_zh": "这道菜很有地方<u>风味</u>。",
+      "example_vi": "Món ăn này có <u>phong vị</u> địa phương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "风味.svg",
+      "src": "images/HSK_2.0/level6/风味.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/风味.svg",
+        "images/HSK_3.0/level8/风味.svg",
+        "images/HSK_3.0/level9/风味.svg"
+      ]
+    },
+    "风筝": {
+      "hanzi": "风筝",
+      "pinyin": "fēngzheng",
+      "meaning": "diều",
+      "example_zh": "孩子们在放<u>风筝</u>。",
+      "example_vi": "Những đứa trẻ đang thả <u>diều</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "风筝.svg",
+      "src": "images/HSK_2.0/level6/风筝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/风筝.svg",
+        "images/HSK_3.0/level8/风筝.svg",
+        "images/HSK_3.0/level9/风筝.svg"
+      ]
+    },
+    "缝": {
+      "hanzi": "缝",
+      "pinyin": "féng",
+      "meaning": "khâu, may",
+      "example_zh": "妈妈在<u>缝</u>衣服。",
+      "example_vi": "Mẹ đang <u>khâu</u> quần áo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "缝.svg",
+      "src": "images/HSK_2.0/level6/缝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/缝.svg",
+        "images/HSK_3.0/level8/缝.svg",
+        "images/HSK_3.0/level9/缝.svg"
+      ]
+    },
+    "逢": {
+      "hanzi": "逢",
+      "pinyin": "féng",
+      "meaning": "gặp, vào lúc",
+      "example_zh": "每<u>逢</u>节假日，他都回家。",
+      "example_vi": "Cứ mỗi <u>khi gặp</u> ngày lễ, anh ấy đều về nhà.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逢.svg",
+      "src": "images/HSK_2.0/level6/逢.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/逢.svg",
+        "images/HSK_3.0/level8/逢.svg",
+        "images/HSK_3.0/level9/逢.svg"
+      ]
+    },
+    "奉献": {
+      "hanzi": "奉献",
+      "pinyin": "fèngxiàn",
+      "meaning": "cống hiến",
+      "example_zh": "他为教育事业<u>奉献</u>了一生。",
+      "example_vi": "Anh ấy <u>cống hiến</u> cả đời cho sự nghiệp giáo dục.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "奉献.svg",
+      "src": "images/HSK_2.0/level6/奉献.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/奉献.svg"
+      ]
+    },
+    "佛": {
+      "hanzi": "佛",
+      "pinyin": "fó",
+      "meaning": "Phật",
+      "example_zh": "寺庙里供着<u>佛</u>像。",
+      "example_vi": "Trong chùa có thờ tượng <u>Phật</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "佛.svg",
+      "src": "images/HSK_2.0/level6/佛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/佛.svg",
+        "images/HSK_3.0/level8/佛.svg",
+        "images/HSK_3.0/level9/佛.svg"
+      ]
+    },
     "夫妇": {
       "hanzi": "夫妇",
       "pinyin": "fūfù",
@@ -57458,6 +57608,72 @@
       "src": "images/HSK_2.0/level6/夫妇.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/夫妇.svg"
+      ]
+    },
+    "肤浅": {
+      "hanzi": "肤浅",
+      "pinyin": "fūqiǎn",
+      "meaning": "hời hợt, nông cạn",
+      "example_zh": "他的理解比较<u>肤浅</u>。",
+      "example_vi": "Sự hiểu biết của anh ấy khá <u>hời hợt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "肤浅.svg",
+      "src": "images/HSK_2.0/level6/肤浅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/肤浅.svg",
+        "images/HSK_3.0/level8/肤浅.svg",
+        "images/HSK_3.0/level9/肤浅.svg"
+      ]
+    },
+    "俯视": {
+      "hanzi": "俯视",
+      "pinyin": "fǔshì",
+      "meaning": "nhìn xuống, nhìn từ trên cao",
+      "example_zh": "从山顶可以<u>俯视</u>全城。",
+      "example_vi": "Từ đỉnh núi có thể <u>nhìn xuống</u> toàn thành phố.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "俯视.svg",
+      "src": "images/HSK_2.0/level6/俯视.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/俯视.svg",
+        "images/HSK_3.0/level8/俯视.svg",
+        "images/HSK_3.0/level9/俯视.svg"
+      ]
+    },
+    "腐烂": {
+      "hanzi": "腐烂",
+      "pinyin": "fǔlàn",
+      "meaning": "thối rữa",
+      "example_zh": "水果已经<u>腐烂</u>了。",
+      "example_vi": "Trái cây đã <u>thối rữa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "腐烂.svg",
+      "src": "images/HSK_2.0/level6/腐烂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/腐烂.svg",
+        "images/HSK_3.0/level8/腐烂.svg",
+        "images/HSK_3.0/level9/腐烂.svg"
       ]
     },
     "付出": {

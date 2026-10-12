@@ -15607,10 +15607,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/风貌.svg",
     "caption": "diện mạo, phong thái"
   },
+  "风气": {
+    "file": "风气.svg",
+    "src": "images/HSK_2.0/level6/风气.svg",
+    "caption": "phong tục xã hội, nếp sống"
+  },
+  "风味": {
+    "file": "风味.svg",
+    "src": "images/HSK_2.0/level6/风味.svg",
+    "caption": "phong vị, hương vị đặc trưng"
+  },
+  "风筝": {
+    "file": "风筝.svg",
+    "src": "images/HSK_2.0/level6/风筝.svg",
+    "caption": "diều"
+  },
+  "缝": {
+    "file": "缝.svg",
+    "src": "images/HSK_2.0/level6/缝.svg",
+    "caption": "khâu, may"
+  },
+  "逢": {
+    "file": "逢.svg",
+    "src": "images/HSK_2.0/level6/逢.svg",
+    "caption": "gặp, vào lúc"
+  },
+  "奉献": {
+    "file": "奉献.svg",
+    "src": "images/HSK_2.0/level6/奉献.svg",
+    "caption": "cống hiến"
+  },
+  "佛": {
+    "file": "佛.svg",
+    "src": "images/HSK_2.0/level6/佛.svg",
+    "caption": "Phật"
+  },
   "夫妇": {
     "file": "夫妇.svg",
     "src": "images/HSK_2.0/level6/夫妇.svg",
     "caption": "vợ chồng"
+  },
+  "肤浅": {
+    "file": "肤浅.svg",
+    "src": "images/HSK_2.0/level6/肤浅.svg",
+    "caption": "hời hợt, nông cạn"
+  },
+  "俯视": {
+    "file": "俯视.svg",
+    "src": "images/HSK_2.0/level6/俯视.svg",
+    "caption": "nhìn xuống, nhìn từ trên cao"
+  },
+  "腐烂": {
+    "file": "腐烂.svg",
+    "src": "images/HSK_2.0/level6/腐烂.svg",
+    "caption": "thối rữa"
   },
   "付出": {
     "file": "付出.svg",
