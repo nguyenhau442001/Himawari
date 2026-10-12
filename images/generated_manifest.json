@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T13:17:19.317075",
-  "total_unique_words_with_illustrations": 3969,
-  "total_flat_svg_files": 3969,
+  "generated_at": "2026-10-12T13:20:35.548303",
+  "total_unique_words_with_illustrations": 3979,
+  "total_flat_svg_files": 3979,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1329,
-        "pct": "53.2%"
+        "with_svg": 1339,
+        "pct": "53.6%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 613,
-        "pct": "61.3%"
+        "with_svg": 614,
+        "pct": "61.4%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 473,
-        "pct": "26.3%"
+        "with_svg": 478,
+        "pct": "26.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 568,
-        "pct": "10.1%"
+        "with_svg": 572,
+        "pct": "10.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 568,
-        "pct": "10.1%"
+        "with_svg": 572,
+        "pct": "10.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 568,
-        "pct": "10.1%"
+        "with_svg": 572,
+        "pct": "10.2%"
       }
     }
   },
@@ -62088,6 +62088,202 @@
         "images/HSK_3.0/level7/解体.svg",
         "images/HSK_3.0/level8/解体.svg",
         "images/HSK_3.0/level9/解体.svg"
+      ]
+    },
+    "解脱": {
+      "hanzi": "解脱",
+      "pinyin": "jiětuō",
+      "meaning": "thoát khỏi, giải thoát",
+      "example_zh": "他终于从压力中<u>解脱</u>出来。",
+      "example_vi": "Anh ấy cuối cùng <u>thoát khỏi</u> áp lực.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "解脱.svg",
+      "src": "images/HSK_2.0/level6/解脱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/解脱.svg",
+        "images/HSK_3.0/level8/解脱.svg",
+        "images/HSK_3.0/level9/解脱.svg"
+      ]
+    },
+    "戒备": {
+      "hanzi": "戒备",
+      "pinyin": "jièbèi",
+      "meaning": "đề phòng, canh phòng",
+      "example_zh": "警方加强了<u>戒备</u>。",
+      "example_vi": "Cảnh sát tăng cường <u>đề phòng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "戒备.svg",
+      "src": "images/HSK_2.0/level6/戒备.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/戒备.svg",
+        "images/HSK_3.0/level8/戒备.svg",
+        "images/HSK_3.0/level9/戒备.svg"
+      ]
+    },
+    "界限": {
+      "hanzi": "界限",
+      "pinyin": "jièxiàn",
+      "meaning": "giới hạn, ranh giới",
+      "example_zh": "要分清是非的<u>界限</u>。",
+      "example_vi": "Phải phân định rõ <u>giới hạn</u> đúng sai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "界限.svg",
+      "src": "images/HSK_2.0/level6/界限.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/界限.svg",
+        "images/HSK_3.0/level8/界限.svg",
+        "images/HSK_3.0/level9/界限.svg"
+      ]
+    },
+    "借鉴": {
+      "hanzi": "借鉴",
+      "pinyin": "jièjiàn",
+      "meaning": "học hỏi, tham khảo (kinh nghiệm)",
+      "example_zh": "我们可以<u>借鉴</u>别人的经验。",
+      "example_vi": "Chúng ta có thể <u>học hỏi</u> kinh nghiệm người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "借鉴.svg",
+      "src": "images/HSK_2.0/level6/借鉴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/借鉴.svg"
+      ]
+    },
+    "借助": {
+      "hanzi": "借助",
+      "pinyin": "jièzhù",
+      "meaning": "nhờ vào, dựa vào",
+      "example_zh": "他<u>借助</u>翻译软件完成了作业。",
+      "example_vi": "Anh ấy <u>nhờ vào</u> phần mềm dịch để hoàn thành bài tập.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "借助.svg",
+      "src": "images/HSK_2.0/level6/借助.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/借助.svg"
+      ]
+    },
+    "金融": {
+      "hanzi": "金融",
+      "pinyin": "jīnróng",
+      "meaning": "tài chính, tiền tệ",
+      "example_zh": "他在<u>金融</u>行业工作。",
+      "example_vi": "Anh ấy làm việc trong ngành <u>tài chính</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "金融.svg",
+      "src": "images/HSK_2.0/level6/金融.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/金融.svg"
+      ]
+    },
+    "仅仅": {
+      "hanzi": "仅仅",
+      "pinyin": "jǐnjǐn",
+      "meaning": "chỉ, chỉ mỗi",
+      "example_zh": "这<u>仅仅</u>是开始。",
+      "example_vi": "Đây <u>chỉ</u> là bắt đầu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "仅仅.svg",
+      "src": "images/HSK_2.0/level6/仅仅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/仅仅.svg"
+      ]
+    },
+    "进展": {
+      "hanzi": "进展",
+      "pinyin": "jìnzhǎn",
+      "meaning": "tiến triển",
+      "example_zh": "项目<u>进展</u>顺利。",
+      "example_vi": "Dự án <u>tiến triển</u> thuận lợi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "进展.svg",
+      "src": "images/HSK_2.0/level6/进展.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/进展.svg"
+      ]
+    },
+    "近来": {
+      "hanzi": "近来",
+      "pinyin": "jìnlái",
+      "meaning": "gần đây",
+      "example_zh": "<u>近来</u>他工作很忙。",
+      "example_vi": "<u>Gần đây</u> anh ấy làm việc rất bận.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "近来.svg",
+      "src": "images/HSK_2.0/level6/近来.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/近来.svg"
+      ]
+    },
+    "浸泡": {
+      "hanzi": "浸泡",
+      "pinyin": "jìnpào",
+      "meaning": "ngâm, ngâm ngấm",
+      "example_zh": "把豆子<u>浸泡</u>一晚。",
+      "example_vi": "<u>Ngâm</u> đậu một đêm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "浸泡.svg",
+      "src": "images/HSK_2.0/level6/浸泡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/浸泡.svg",
+        "images/HSK_3.0/level8/浸泡.svg",
+        "images/HSK_3.0/level9/浸泡.svg"
       ]
     },
     "就业": {

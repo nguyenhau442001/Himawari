@@ -16787,6 +16787,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/解体.svg",
     "caption": "tan rã, giải thể"
   },
+  "解脱": {
+    "file": "解脱.svg",
+    "src": "images/HSK_2.0/level6/解脱.svg",
+    "caption": "thoát khỏi, giải thoát"
+  },
+  "戒备": {
+    "file": "戒备.svg",
+    "src": "images/HSK_2.0/level6/戒备.svg",
+    "caption": "đề phòng, canh phòng"
+  },
+  "界限": {
+    "file": "界限.svg",
+    "src": "images/HSK_2.0/level6/界限.svg",
+    "caption": "giới hạn, ranh giới"
+  },
+  "借鉴": {
+    "file": "借鉴.svg",
+    "src": "images/HSK_2.0/level6/借鉴.svg",
+    "caption": "học hỏi, tham khảo (kinh nghiệm)"
+  },
+  "借助": {
+    "file": "借助.svg",
+    "src": "images/HSK_2.0/level6/借助.svg",
+    "caption": "nhờ vào, dựa vào"
+  },
+  "金融": {
+    "file": "金融.svg",
+    "src": "images/HSK_2.0/level6/金融.svg",
+    "caption": "tài chính, tiền tệ"
+  },
+  "仅仅": {
+    "file": "仅仅.svg",
+    "src": "images/HSK_2.0/level6/仅仅.svg",
+    "caption": "chỉ, chỉ mỗi"
+  },
+  "进展": {
+    "file": "进展.svg",
+    "src": "images/HSK_2.0/level6/进展.svg",
+    "caption": "tiến triển"
+  },
+  "近来": {
+    "file": "近来.svg",
+    "src": "images/HSK_2.0/level6/近来.svg",
+    "caption": "gần đây"
+  },
+  "浸泡": {
+    "file": "浸泡.svg",
+    "src": "images/HSK_2.0/level6/浸泡.svg",
+    "caption": "ngâm, ngâm ngấm"
+  },
   "就业": {
     "file": "就业.svg",
     "src": "images/HSK_2.0/level6/就业.svg",
