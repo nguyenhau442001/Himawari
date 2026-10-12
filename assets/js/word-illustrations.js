@@ -18982,6 +18982,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/锲而不舍.svg",
     "caption": "kiên trì không bỏ cuộc"
   },
+  "切实": {
+    "file": "切实.svg",
+    "src": "images/HSK_2.0/level6/切实.svg",
+    "caption": "thực tế, thiết thực"
+  },
+  "亲密": {
+    "file": "亲密.svg",
+    "src": "images/HSK_2.0/level6/亲密.svg",
+    "caption": "thân thiết, gần gũi"
+  },
+  "亲热": {
+    "file": "亲热.svg",
+    "src": "images/HSK_2.0/level6/亲热.svg",
+    "caption": "thân mật, nồng nhiệt"
+  },
+  "侵犯": {
+    "file": "侵犯.svg",
+    "src": "images/HSK_2.0/level6/侵犯.svg",
+    "caption": "xâm phạm"
+  },
+  "侵略": {
+    "file": "侵略.svg",
+    "src": "images/HSK_2.0/level6/侵略.svg",
+    "caption": "xâm lược"
+  },
   "请教": {
     "file": "请教.svg",
     "src": "images/HSK_2.0/level6/请教.svg",

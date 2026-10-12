@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:41:09.880397",
-  "total_unique_words_with_illustrations": 4390,
-  "total_flat_svg_files": 4390,
+  "generated_at": "2026-10-12T22:42:07.657884",
+  "total_unique_words_with_illustrations": 4395,
+  "total_flat_svg_files": 4395,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1750,
-        "pct": "70.0%"
+        "with_svg": 1755,
+        "pct": "70.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 583,
-        "pct": "32.4%"
+        "with_svg": 585,
+        "pct": "32.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 858,
-        "pct": "15.3%"
+        "with_svg": 861,
+        "pct": "15.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 858,
-        "pct": "15.3%"
+        "with_svg": 861,
+        "pct": "15.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 858,
-        "pct": "15.3%"
+        "with_svg": 861,
+        "pct": "15.4%"
       }
     }
   },
@@ -71062,6 +71062,108 @@
         "images/HSK_3.0/level7/锲而不舍.svg",
         "images/HSK_3.0/level8/锲而不舍.svg",
         "images/HSK_3.0/level9/锲而不舍.svg"
+      ]
+    },
+    "切实": {
+      "hanzi": "切实",
+      "pinyin": "qièshí",
+      "meaning": "thực tế, thiết thực",
+      "example_zh": "我们要<u>切实</u>解决这个问题。",
+      "example_vi": "Chúng ta phải giải quyết vấn đề này một cách <u>thiết thực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "切实.svg",
+      "src": "images/HSK_2.0/level6/切实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/切实.svg"
+      ]
+    },
+    "亲密": {
+      "hanzi": "亲密",
+      "pinyin": "qīnmì",
+      "meaning": "thân thiết, gần gũi",
+      "example_zh": "他们是非常<u>亲密</u>的朋友。",
+      "example_vi": "Họ là những người bạn rất <u>thân thiết</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "亲密.svg",
+      "src": "images/HSK_2.0/level6/亲密.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/亲密.svg"
+      ]
+    },
+    "亲热": {
+      "hanzi": "亲热",
+      "pinyin": "qīnrè",
+      "meaning": "thân mật, nồng nhiệt",
+      "example_zh": "她对每个人都很<u>亲热</u>。",
+      "example_vi": "Cô ấy đối với mọi người đều rất <u>thân mật</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "亲热.svg",
+      "src": "images/HSK_2.0/level6/亲热.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/亲热.svg",
+        "images/HSK_3.0/level8/亲热.svg",
+        "images/HSK_3.0/level9/亲热.svg"
+      ]
+    },
+    "侵犯": {
+      "hanzi": "侵犯",
+      "pinyin": "qīnfàn",
+      "meaning": "xâm phạm",
+      "example_zh": "任何人都不能<u>侵犯</u>他人的权利。",
+      "example_vi": "Bất kỳ ai cũng không thể <u>xâm phạm</u> quyền lợi của người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "侵犯.svg",
+      "src": "images/HSK_2.0/level6/侵犯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/侵犯.svg",
+        "images/HSK_3.0/level8/侵犯.svg",
+        "images/HSK_3.0/level9/侵犯.svg"
+      ]
+    },
+    "侵略": {
+      "hanzi": "侵略",
+      "pinyin": "qīnlüè",
+      "meaning": "xâm lược",
+      "example_zh": "历史上发生过多次<u>侵略</u>战争。",
+      "example_vi": "Trong lịch sử đã xảy ra nhiều cuộc chiến <u>xâm lược</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "侵略.svg",
+      "src": "images/HSK_2.0/level6/侵略.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/侵略.svg",
+        "images/HSK_3.0/level8/侵略.svg",
+        "images/HSK_3.0/level9/侵略.svg"
       ]
     },
     "请教": {
