@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:58:30.082110",
-  "total_unique_words_with_illustrations": 3369,
-  "total_flat_svg_files": 3369,
+  "generated_at": "2026-10-12T11:01:26.098177",
+  "total_unique_words_with_illustrations": 3379,
+  "total_flat_svg_files": 3379,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 729,
-        "pct": "29.2%"
+        "with_svg": 739,
+        "pct": "29.6%"
       }
     },
     "hsk_3_0": {
@@ -43,8 +43,8 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 104,
-        "pct": "52.0%"
+        "with_svg": 105,
+        "pct": "52.5%"
       },
       "level3": {
         "total": 500,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 276,
-        "pct": "15.3%"
+        "with_svg": 279,
+        "pct": "15.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 210,
-        "pct": "3.8%"
+        "with_svg": 216,
+        "pct": "3.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 210,
-        "pct": "3.8%"
+        "with_svg": 216,
+        "pct": "3.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 210,
-        "pct": "3.8%"
+        "with_svg": 216,
+        "pct": "3.9%"
       }
     }
   },
@@ -49264,6 +49264,210 @@
       "src": "images/HSK_2.0/level6/不顾.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/不顾.svg"
+      ]
+    },
+    "不好意思": {
+      "hanzi": "不好意思",
+      "pinyin": "bù hǎo yì si",
+      "meaning": "ngại ngùng, xin lỗi",
+      "example_zh": "<u>不好意思</u>，打扰你一下。",
+      "example_vi": "<u>Xin lỗi</u>, làm phiền bạn một chút.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "不好意思.svg",
+      "src": "images/HSK_2.0/level6/不好意思.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/不好意思.svg"
+      ]
+    },
+    "不禁": {
+      "hanzi": "不禁",
+      "pinyin": "bùjīn",
+      "meaning": "không kìm được, bất giác",
+      "example_zh": "看到这个场景，她<u>不禁</u>笑了。",
+      "example_vi": "Nhìn thấy cảnh này, cô ấy <u>không kìm được</u> đã bật cười.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "不禁.svg",
+      "src": "images/HSK_2.0/level6/不禁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/不禁.svg"
+      ]
+    },
+    "布局": {
+      "hanzi": "布局",
+      "pinyin": "bùjú",
+      "meaning": "bố cục, cách bố trí",
+      "example_zh": "这套房子的<u>布局</u>很合理。",
+      "example_vi": "<u>Bố cục</u> của căn nhà này rất hợp lý.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "布局.svg",
+      "src": "images/HSK_2.0/level6/布局.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/布局.svg",
+        "images/HSK_3.0/level8/布局.svg",
+        "images/HSK_3.0/level9/布局.svg"
+      ]
+    },
+    "不堪": {
+      "hanzi": "不堪",
+      "pinyin": "bùkān",
+      "meaning": "không chịu đựng được, đến mức",
+      "example_zh": "他疲惫<u>不堪</u>。",
+      "example_vi": "Anh ấy mệt mỏi <u>đến cùng cực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不堪.svg",
+      "src": "images/HSK_2.0/level6/不堪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不堪.svg",
+        "images/HSK_3.0/level8/不堪.svg",
+        "images/HSK_3.0/level9/不堪.svg"
+      ]
+    },
+    "不可思议": {
+      "hanzi": "不可思议",
+      "pinyin": "bù kě sī yì",
+      "meaning": "không thể tưởng tượng được",
+      "example_zh": "这个结果真是<u>不可思议</u>。",
+      "example_vi": "Kết quả này thật <u>không thể tưởng tượng được</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不可思议.svg",
+      "src": "images/HSK_2.0/level6/不可思议.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不可思议.svg",
+        "images/HSK_3.0/level8/不可思议.svg",
+        "images/HSK_3.0/level9/不可思议.svg"
+      ]
+    },
+    "不愧": {
+      "hanzi": "不愧",
+      "pinyin": "bùkuì",
+      "meaning": "đáng được gọi là, xứng đáng",
+      "example_zh": "他<u>不愧</u>是一位优秀的老师。",
+      "example_vi": "Anh ấy <u>xứng đáng</u> là một thầy giáo xuất sắc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不愧.svg",
+      "src": "images/HSK_2.0/level6/不愧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不愧.svg",
+        "images/HSK_3.0/level8/不愧.svg",
+        "images/HSK_3.0/level9/不愧.svg"
+      ]
+    },
+    "不料": {
+      "hanzi": "不料",
+      "pinyin": "bùliào",
+      "meaning": "không ngờ",
+      "example_zh": "<u>不料</u>半路下起了大雨。",
+      "example_vi": "<u>Không ngờ</u> giữa đường lại đổ mưa to.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "不料.svg",
+      "src": "images/HSK_2.0/level6/不料.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/不料.svg"
+      ]
+    },
+    "部位": {
+      "hanzi": "部位",
+      "pinyin": "bùwèi",
+      "meaning": "vị trí, vùng (trên cơ thể)",
+      "example_zh": "请指出疼痛的<u>部位</u>。",
+      "example_vi": "Xin hãy chỉ ra <u>vị trí</u> đau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "部位.svg",
+      "src": "images/HSK_2.0/level6/部位.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/部位.svg"
+      ]
+    },
+    "不惜": {
+      "hanzi": "不惜",
+      "pinyin": "bùxī",
+      "meaning": "không ngại, không tiếc (công sức, tiền của)",
+      "example_zh": "他<u>不惜</u>一切代价帮助朋友。",
+      "example_vi": "Anh ấy <u>không tiếc</u> bất cứ giá nào để giúp bạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不惜.svg",
+      "src": "images/HSK_2.0/level6/不惜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不惜.svg",
+        "images/HSK_3.0/level8/不惜.svg",
+        "images/HSK_3.0/level9/不惜.svg"
+      ]
+    },
+    "不相上下": {
+      "hanzi": "不相上下",
+      "pinyin": "bù xiāng shàng xià",
+      "meaning": "ngang ngửa, không phân biệt hơn kém",
+      "example_zh": "两人的水平<u>不相上下</u>。",
+      "example_vi": "Trình độ của hai người <u>ngang ngửa</u> nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不相上下.svg",
+      "src": "images/HSK_2.0/level6/不相上下.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不相上下.svg",
+        "images/HSK_3.0/level8/不相上下.svg",
+        "images/HSK_3.0/level9/不相上下.svg"
       ]
     },
     "裁判": {

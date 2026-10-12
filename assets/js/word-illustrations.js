@@ -13577,6 +13577,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/不顾.svg",
     "caption": "không màng tới, bất kể"
   },
+  "不好意思": {
+    "file": "不好意思.svg",
+    "src": "images/HSK_2.0/level6/不好意思.svg",
+    "caption": "ngại ngùng, xin lỗi"
+  },
+  "不禁": {
+    "file": "不禁.svg",
+    "src": "images/HSK_2.0/level6/不禁.svg",
+    "caption": "không kìm được, bất giác"
+  },
+  "布局": {
+    "file": "布局.svg",
+    "src": "images/HSK_2.0/level6/布局.svg",
+    "caption": "bố cục, cách bố trí"
+  },
+  "不堪": {
+    "file": "不堪.svg",
+    "src": "images/HSK_2.0/level6/不堪.svg",
+    "caption": "không chịu đựng được, đến mức"
+  },
+  "不可思议": {
+    "file": "不可思议.svg",
+    "src": "images/HSK_2.0/level6/不可思议.svg",
+    "caption": "không thể tưởng tượng được"
+  },
+  "不愧": {
+    "file": "不愧.svg",
+    "src": "images/HSK_2.0/level6/不愧.svg",
+    "caption": "đáng được gọi là, xứng đáng"
+  },
+  "不料": {
+    "file": "不料.svg",
+    "src": "images/HSK_2.0/level6/不料.svg",
+    "caption": "không ngờ"
+  },
+  "部位": {
+    "file": "部位.svg",
+    "src": "images/HSK_2.0/level6/部位.svg",
+    "caption": "vị trí, vùng (trên cơ thể)"
+  },
+  "不惜": {
+    "file": "不惜.svg",
+    "src": "images/HSK_2.0/level6/不惜.svg",
+    "caption": "không ngại, không tiếc (công sức, tiền của)"
+  },
+  "不相上下": {
+    "file": "不相上下.svg",
+    "src": "images/HSK_2.0/level6/不相上下.svg",
+    "caption": "ngang ngửa, không phân biệt hơn kém"
+  },
   "裁判": {
     "file": "裁判.svg",
     "src": "images/HSK_2.0/level6/裁判.svg",

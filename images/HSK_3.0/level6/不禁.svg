@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Living Room Context -->
+  <path d="M20 180h200v40H20z" fill="#334155"/>
+  <circle cx="180" cy="100" r="40" fill="#f59e0b" opacity="0.1"/>
+  
+  <!-- The "Scene" (A clumsy cat on a rug) -->
+  <g transform="translate(140, 160)">
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#94a3b8"/>
+    <circle cx="-15" cy="-10" r="10" fill="#94a3b8"/>
+    <path d="M-20 -15 l-5 -10 M-10 -15 l5 -10" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="15" cy="0" r="5" fill="#fbbf24"/>
+  </g>
+
+  <!-- The Character (She) -->
+  <g transform="translate(80, 120)">
+    <!-- Body -->
+    <path d="M-20 80 Q0 40 20 80 L20 100 L-20 100 Z" fill="#38bdf8"/>
+    <!-- Arms -->
+    <path d="M-25 50 L-40 70 M25 50 L40 70" stroke="#f1f5f9" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="25" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-25 20 Q-25 -10 0 -10 Q25 -10 25 20" fill="#78350f"/>
+    <!-- Expression: Laughing -->
+    <path d="M-10 25 Q0 35 10 25" stroke="#475569" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-8" cy="15" rx="2" ry="3" fill="#475569"/>
+    <ellipse cx="8" cy="15" rx="2" ry="3" fill="#475569"/>
+    <!-- Blush -->
+    <circle cx="-15" cy="25" r="3" fill="#ec4899" opacity="0.5"/>
+    <circle cx="15" cy="25" r="3" fill="#ec4899" opacity="0.5"/>
+  </g>
+
+  <!-- Decorative elements -->
+  <path d="M30 50 L50 30 M40 60 L60 40" stroke="#fb923c" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="200" cy="40" r="5" fill="#10b981"/>
+</svg>

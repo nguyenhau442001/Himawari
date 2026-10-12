@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Floor -->
+  <path d="M0 180 L240 180 L220 240 L20 240 Z" fill="#334155"/>
+  
+  <!-- Walls -->
+  <rect x="20" y="40" width="200" height="140" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Window -->
+  <rect x="160" y="60" width="40" height="60" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <line x1="180" y1="60" x2="180" y2="120" stroke="#38bdf8" stroke-width="2"/>
+  
+  <!-- Furniture: Sofa -->
+  <path d="M40 140 L120 140 L125 170 L35 170 Z" fill="#fb923c"/>
+  <rect x="40" y="120" width="80" height="20" rx="5" fill="#f59e0b"/>
+  
+  <!-- Furniture: Bookshelf -->
+  <rect x="140" y="80" width="30" height="90" fill="#fbbf24" rx="2"/>
+  <line x1="140" y1="110" x2="170" y2="110" stroke="#1e293b" stroke-width="2"/>
+  <line x1="140" y1="140" x2="170" y2="140" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Character -->
+  <circle cx="80" cy="100" r="15" fill="#fde68a"/>
+  <path d="M65 115 Q80 130 95 115" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <path d="M70 120 L60 150 L75 150 L80 120" fill="#38bdf8"/>
+  <path d="M90 120 L100 150 L85 150 L80 120" fill="#38bdf8"/>
+  <circle cx="75" cy="95" r="2" fill="#1e293b"/>
+  <circle cx="85" cy="95" r="2" fill="#1e293b"/>
+  
+  <!-- Decor: Plant -->
+  <path d="M190 170 L200 170 L195 140 Z" fill="#10b981"/>
+  <rect x="192" y="170" width="6" height="10" fill="#ec4899"/>
+  
+  <!-- Rug -->
+  <ellipse cx="80" cy="185" rx="40" ry="10" fill="#ec4899" opacity="0.6"/>
+</svg>

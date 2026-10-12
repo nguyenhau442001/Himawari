@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Classroom Background Elements -->
+  <rect x="30" y="50" width="180" height="100" rx="4" fill="#334155"/>
+  <rect x="40" y="60" width="160" height="80" rx="2" fill="#0f172a"/>
+  <path d="M50 80 L190 80 M50 100 L190 100 M50 120 L190 120" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Teacher Character -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-20 80 C-20 50, 20 50, 20 80 L25 100 L-25 100 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="30" r="20" fill="#fbbf24"/>
+    <!-- Hair -->
+    <path d="M-20 30 C-20 10, 20 10, 20 30 L15 25 L0 10 L-15 25 Z" fill="#1e293b"/>
+    <!-- Arm pointing at board -->
+    <path d="M20 50 L50 30" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="50" cy="30" r="4" fill="#fb923c"/>
+  </g>
+  
+  <!-- Student Characters -->
+  <g transform="translate(60, 180)">
+    <circle cx="0" cy="0" r="12" fill="#10b981"/>
+    <circle cx="0" cy="-15" r="8" fill="#fbbf24"/>
+  </g>
+  <g transform="translate(180, 180)">
+    <circle cx="0" cy="0" r="12" fill="#ec4899"/>
+    <circle cx="0" cy="-15" r="8" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Desk -->
+  <rect x="20" y="190" width="200" height="20" rx="4" fill="#475569"/>
+  
+  <!-- Star/Achievement Sparkles -->
+  <path d="M150 40 L155 55 L170 60 L155 65 L150 80 L145 65 L130 60 L145 55 Z" fill="#fbbf24"/>
+  <path d="M180 70 L183 80 L193 83 L183 86 L180 96 L177 86 L167 83 L177 80 Z" fill="#fbbf24" opacity="0.6"/>
+</svg>

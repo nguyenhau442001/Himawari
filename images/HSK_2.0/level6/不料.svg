@@ -1,0 +1,112 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Rain Gradient -->
+    <linearGradient id="rainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Puddle Gradient -->
+    <radialGradient id="puddleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Background Environment: Park / Street Path -->
+  <!-- Distant trees / bushes -->
+  <path d="M0 160 Q20 140 50 150 T100 145 T160 155 T240 140 L240 240 L0 240 Z" fill="#1e3a5f" opacity="0.6" />
+  <path d="M0 175 Q40 160 80 170 T150 165 T200 175 T240 165 L240 240 L0 240 Z" fill="#0f2942" />
+
+  <!-- Stone Path / Road -->
+  <path d="M80 240 Q100 190 125 185 T180 240 Z" fill="#334155" />
+
+  <!-- Puddles forming -->
+  <ellipse cx="120" cy="210" rx="25" ry="8" fill="url(#puddleGrad)" />
+  <ellipse cx="90" cy="225" rx="15" ry="5" fill="url(#puddleGrad)" />
+
+  <!-- Heavy Rain Streaks (The "大雨" part) -->
+  <g opacity="0.7">
+    <line x1="30" y1="20" x2="10" y2="90" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="60" y1="10" x2="40" y2="80" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="90" y1="30" x2="70" y2="100" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+    <line x1="120" y1="15" x2="100" y2="85" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="150" y1="25" x2="130" y2="95" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+    <line x1="180" y1="10" x2="160" y2="80" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="210" y1="20" x2="190" y2="90" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+    <line x1="235" y1="35" x2="215" y2="105" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+
+    <line x1="15" y1="90" x2="-5" y2="160" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="45" y1="80" x2="25" y2="150" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+    <line x1="75" y1="100" x2="55" y2="170" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="105" y1="85" x2="85" y2="155" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+    <line x1="135" y1="95" x2="115" y2="165" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="165" y1="80" x2="145" y2="150" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+    <line x1="195" y1="90" x2="175" y2="160" stroke="url(#rainGrad)" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="225" y1="105" x2="205" y2="175" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Context Props: Shopping bags / Travelling items (Mid-journey feel) -->
+  <!-- Dropped/carried items showing "半路" (halfway) -->
+  <rect x="70" y="195" width="14" height="18" rx="3" fill="#fb923c" transform="rotate(-15 70 195)" />
+  <path d="M73 195 C73 190 81 190 81 195" fill="none" stroke="#fdba74" stroke-width="2" />
+
+  <!-- Main Subject: Surprised Character caught in rain without umbrella -->
+  <g transform="translate(110, 110)">
+    <!-- Shadow -->
+    <ellipse cx="10" cy="115" rx="18" ry="6" fill="#020617" opacity="0.6" />
+
+    <!-- Body / Torso (Windblown jacket) -->
+    <path d="M -2 40 Q 15 45 22 75 L -4 80 Z" fill="#3b82f6" />
+    <!-- Arms reacting / shielding head -->
+    <!-- Back arm reaching up -->
+    <path d="M 0 45 Q -15 25 -25 35" fill="none" stroke="#cbd5e1" stroke-width="8" stroke-linecap="round" />
+    <!-- Front arm up in shock -->
+    <path d="M 15 45 Q 30 30 20 15" fill="none" stroke="#cbd5e1" stroke-width="8" stroke-linecap="round" />
+    <circle cx="18" cy="12" r="4" fill="#fcd34d" /> <!-- Hand -->
+
+    <!-- Legs running / stumbling -->
+    <path d="M 0 78 L -10 110" fill="none" stroke="#1e293b" stroke-width="8" stroke-linecap="round" />
+    <path d="M 12 78 L 22 105" fill="none" stroke="#1e293b" stroke-width="8" stroke-linecap="round" />
+    <!-- Shoes -->
+    <ellipse cx="-12" cy="112" rx="5" ry="3" fill="#64748b" />
+    <ellipse cx="25" cy="107" rx="6" ry="3" fill="#64748b" />
+
+    <!-- Head & Hair (Windblown, shocked expression) -->
+    <circle cx="5" cy="22" r="14" fill="#fcd34d" />
+    <!-- Hair blowing back -->
+    <path d="M -5 12 Q -15 10 -10 22 Q -18 20 -12 30" fill="#b45309" />
+    <!-- Surprised facial features -->
+    <!-- Eyes wide open -->
+    <circle cx="9" cy="20" r="2" fill="#0f172a" />
+    <!-- Open mouth (shocked "O" shape) -->
+    <ellipse cx="14" cy="26" rx="2.5" ry="3.5" fill="#0f172a" />
+    <!-- Sweat drop / Rain drop on face -->
+    <circle cx="2" cy="18" r="1.5" fill="#38bdf8" />
+  </g>
+
+  <!-- Foreground Rain Splashes and Heavy Drops -->
+  <g opacity="0.9">
+    <!-- Splashes on ground -->
+    <path d="M 115 215 Q 120 210 125 215" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 85 228 Q 90 223 95 228" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 145 220 Q 150 215 155 220" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Huge unexpected rain streaks in foreground -->
+    <line x1="30" y1="140" x2="0" y2="240" stroke="url(#rainGrad)" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="95" y1="120" x2="65" y2="220" stroke="url(#rainGrad)" stroke-width="3" stroke-linecap="round" />
+    <line x1="200" y1="130" x2="170" y2="230" stroke="url(#rainGrad)" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Accent glow spots for dramatic lighting (Dark mode mood) -->
+  <circle cx="120" cy="60" r="40" fill="#38bdf8" opacity="0.05" filter="blur(20px)" />
+</svg>
