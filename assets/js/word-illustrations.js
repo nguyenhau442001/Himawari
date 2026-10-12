@@ -13842,10 +13842,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/查获.svg",
     "caption": "lục soát bắt giữ, phát hiện thu giữ"
   },
+  "岔": {
+    "file": "岔.svg",
+    "src": "images/HSK_2.0/level6/岔.svg",
+    "caption": "rẽ, ngã (đường), lạc đề"
+  },
+  "刹那": {
+    "file": "刹那.svg",
+    "src": "images/HSK_2.0/level6/刹那.svg",
+    "caption": "trong khoảnh khắc, tức thời"
+  },
+  "诧异": {
+    "file": "诧异.svg",
+    "src": "images/HSK_2.0/level6/诧异.svg",
+    "caption": "ngạc nhiên, sửng sốt"
+  },
+  "柴油": {
+    "file": "柴油.svg",
+    "src": "images/HSK_2.0/level6/柴油.svg",
+    "caption": "dầu diesel"
+  },
+  "搀": {
+    "file": "搀.svg",
+    "src": "images/HSK_2.0/level6/搀.svg",
+    "caption": "đỡ, dắt (người)"
+  },
+  "缠绕": {
+    "file": "缠绕.svg",
+    "src": "images/HSK_2.0/level6/缠绕.svg",
+    "caption": "quấn quanh, vướng vít"
+  },
+  "阐述": {
+    "file": "阐述.svg",
+    "src": "images/HSK_2.0/level6/阐述.svg",
+    "caption": "trình bày rõ, luận giải"
+  },
   "产业": {
     "file": "产业.svg",
     "src": "images/HSK_2.0/level6/产业.svg",
     "caption": "ngành công nghiệp, sản nghiệp"
+  },
+  "颤抖": {
+    "file": "颤抖.svg",
+    "src": "images/HSK_2.0/level6/颤抖.svg",
+    "caption": "rung, run rẩy"
+  },
+  "猖狂": {
+    "file": "猖狂.svg",
+    "src": "images/HSK_2.0/level6/猖狂.svg",
+    "caption": "hung hăng, ngông cuồng"
+  },
+  "昌盛": {
+    "file": "昌盛.svg",
+    "src": "images/HSK_2.0/level6/昌盛.svg",
+    "caption": "thịnh vượng"
   },
   "尝试": {
     "file": "尝试.svg",

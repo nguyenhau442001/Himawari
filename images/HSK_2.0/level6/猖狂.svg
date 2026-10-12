@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Street Environment -->
+  <path d="M0 180h240v60H0z" fill="#334155"/>
+  <rect x="20" y="190" width="200" height="5" fill="#475569"/>
+  
+  <!-- The Criminal Character -->
+  <g transform="translate(120, 100)">
+    <!-- Body -->
+    <path d="M-20 80h40l-5-40h-30z" fill="#334155"/>
+    <path d="M-25 40h50l-5 30h-40z" fill="#1e293b"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#fde68a"/>
+    <!-- Expression: Arrogant/Hung-hang -->
+    <path d="M-10 -5h5M5 -5h5" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-8 10c4 4 12 4 16 0" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+    <!-- Hat -->
+    <path d="M-30 -15h60l-10-15h-40z" fill="#ec4899"/>
+  </g>
+  
+  <!-- Action: Smashing a shop window -->
+  <g transform="translate(180, 120)">
+    <rect x="-10" y="-40" width="20" height="60" fill="#fb923c"/>
+    <path d="M0 -40l10-20M0 -40l-10-20M0 -40l20-10" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Shattered Glass/Debris -->
+  <path d="M160 80l10-10M170 70l10 10M150 90l20-5" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Background Elements: Urban Night -->
+  <rect x="20" y="50" width="40" height="130" fill="#1e293b" stroke="#334155"/>
+  <rect x="30" y="60" width="20" height="20" fill="#f59e0b" opacity="0.3"/>
+  <rect x="30" y="90" width="20" height="20" fill="#f59e0b" opacity="0.3"/>
+  
+  <!-- Arrogant Posture -->
+  <path d="M100 140l-20 20" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M140 140l20 20" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+</svg>

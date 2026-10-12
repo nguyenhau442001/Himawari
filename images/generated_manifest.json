@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:13:54.793639",
-  "total_unique_words_with_illustrations": 3419,
-  "total_flat_svg_files": 3419,
+  "generated_at": "2026-10-12T11:16:48.544884",
+  "total_unique_words_with_illustrations": 3429,
+  "total_flat_svg_files": 3429,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 779,
-        "pct": "31.2%"
+        "with_svg": 789,
+        "pct": "31.6%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 240,
-        "pct": "4.3%"
+        "with_svg": 250,
+        "pct": "4.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 240,
-        "pct": "4.3%"
+        "with_svg": 250,
+        "pct": "4.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 240,
-        "pct": "4.3%"
+        "with_svg": 250,
+        "pct": "4.5%"
       }
     }
   },
@@ -50332,6 +50332,160 @@
         "images/HSK_3.0/level9/查获.svg"
       ]
     },
+    "岔": {
+      "hanzi": "岔",
+      "pinyin": "chà",
+      "meaning": "rẽ, ngã (đường), lạc đề",
+      "example_zh": "路在前面分了<u>岔</u>。",
+      "example_vi": "Đường ở phía trước <u>rẽ ngã</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "岔.svg",
+      "src": "images/HSK_2.0/level6/岔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/岔.svg",
+        "images/HSK_3.0/level8/岔.svg",
+        "images/HSK_3.0/level9/岔.svg"
+      ]
+    },
+    "刹那": {
+      "hanzi": "刹那",
+      "pinyin": "chànà",
+      "meaning": "trong khoảnh khắc, tức thời",
+      "example_zh": "一切都在<u>刹那</u>间发生。",
+      "example_vi": "Mọi thứ xảy ra trong <u>khoảnh khắc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "刹那.svg",
+      "src": "images/HSK_2.0/level6/刹那.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/刹那.svg",
+        "images/HSK_3.0/level8/刹那.svg",
+        "images/HSK_3.0/level9/刹那.svg"
+      ]
+    },
+    "诧异": {
+      "hanzi": "诧异",
+      "pinyin": "chàyì",
+      "meaning": "ngạc nhiên, sửng sốt",
+      "example_zh": "大家都感到十分<u>诧异</u>。",
+      "example_vi": "Mọi người đều cảm thấy rất <u>ngạc nhiên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "诧异.svg",
+      "src": "images/HSK_2.0/level6/诧异.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/诧异.svg",
+        "images/HSK_3.0/level8/诧异.svg",
+        "images/HSK_3.0/level9/诧异.svg"
+      ]
+    },
+    "柴油": {
+      "hanzi": "柴油",
+      "pinyin": "cháiyóu",
+      "meaning": "dầu diesel",
+      "example_zh": "这辆车用<u>柴油</u>。",
+      "example_vi": "Chiếc xe này dùng <u>dầu diesel</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "柴油.svg",
+      "src": "images/HSK_2.0/level6/柴油.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/柴油.svg",
+        "images/HSK_3.0/level8/柴油.svg",
+        "images/HSK_3.0/level9/柴油.svg"
+      ]
+    },
+    "搀": {
+      "hanzi": "搀",
+      "pinyin": "chān",
+      "meaning": "đỡ, dắt (người)",
+      "example_zh": "他<u>搀</u>着老人过马路。",
+      "example_vi": "Anh ấy <u>đỡ</u> ông lão qua đường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "搀.svg",
+      "src": "images/HSK_2.0/level6/搀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/搀.svg",
+        "images/HSK_3.0/level8/搀.svg",
+        "images/HSK_3.0/level9/搀.svg"
+      ]
+    },
+    "缠绕": {
+      "hanzi": "缠绕",
+      "pinyin": "chánrǎo",
+      "meaning": "quấn quanh, vướng vít",
+      "example_zh": "藤蔓<u>缠绕</u>在树上。",
+      "example_vi": "Dây leo <u>quấn quanh</u> trên cây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "缠绕.svg",
+      "src": "images/HSK_2.0/level6/缠绕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/缠绕.svg",
+        "images/HSK_3.0/level8/缠绕.svg",
+        "images/HSK_3.0/level9/缠绕.svg"
+      ]
+    },
+    "阐述": {
+      "hanzi": "阐述",
+      "pinyin": "chǎnshù",
+      "meaning": "trình bày rõ, luận giải",
+      "example_zh": "他详细<u>阐述</u>了自己的观点。",
+      "example_vi": "Anh ấy <u>trình bày rõ</u> quan điểm của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "阐述.svg",
+      "src": "images/HSK_2.0/level6/阐述.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/阐述.svg",
+        "images/HSK_3.0/level8/阐述.svg",
+        "images/HSK_3.0/level9/阐述.svg"
+      ]
+    },
     "产业": {
       "hanzi": "产业",
       "pinyin": "chǎnyè",
@@ -50348,6 +50502,72 @@
       "src": "images/HSK_2.0/level6/产业.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/产业.svg"
+      ]
+    },
+    "颤抖": {
+      "hanzi": "颤抖",
+      "pinyin": "chàndǒu",
+      "meaning": "rung, run rẩy",
+      "example_zh": "他的双手在<u>颤抖</u>。",
+      "example_vi": "Hai tay anh ấy đang <u>run rẩy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "颤抖.svg",
+      "src": "images/HSK_2.0/level6/颤抖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/颤抖.svg",
+        "images/HSK_3.0/level8/颤抖.svg",
+        "images/HSK_3.0/level9/颤抖.svg"
+      ]
+    },
+    "猖狂": {
+      "hanzi": "猖狂",
+      "pinyin": "chāngkuáng",
+      "meaning": "hung hăng, ngông cuồng",
+      "example_zh": "犯罪分子十分<u>猖狂</u>。",
+      "example_vi": "Phần tử phạm pháp rất <u>hung hăng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "猖狂.svg",
+      "src": "images/HSK_2.0/level6/猖狂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/猖狂.svg",
+        "images/HSK_3.0/level8/猖狂.svg",
+        "images/HSK_3.0/level9/猖狂.svg"
+      ]
+    },
+    "昌盛": {
+      "hanzi": "昌盛",
+      "pinyin": "chāngshèng",
+      "meaning": "thịnh vượng",
+      "example_zh": "国家日益<u>昌盛</u>。",
+      "example_vi": "Đất nước ngày càng <u>thịnh vượng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "昌盛.svg",
+      "src": "images/HSK_2.0/level6/昌盛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/昌盛.svg",
+        "images/HSK_3.0/level8/昌盛.svg",
+        "images/HSK_3.0/level9/昌盛.svg"
       ]
     },
     "尝试": {

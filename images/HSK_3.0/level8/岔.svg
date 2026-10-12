@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Road Structure -->
+  <path d="M120 120 L40 240 M120 120 L200 240" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 0 L120 120" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Ground/Grass -->
+  <path d="M0 240 L240 240 L240 200 Q120 220 0 200 Z" fill="#1e3a8a" opacity="0.3"/>
+  
+  <!-- Character -->
+  <g transform="translate(105, 80)">
+    <circle cx="15" cy="15" r="12" fill="#fbbf24"/>
+    <path d="M5 25 L25 25 L20 50 L10 50 Z" fill="#38bdf8"/>
+    <path d="M10 30 L5 45" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 30 L25 45" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M10 50 L8 70" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 50 L22 70" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Signpost -->
+  <g transform="translate(140, 90)">
+    <rect x="0" y="0" width="4" height="40" fill="#64748b"/>
+    <path d="M-10 -10 L10 -10 L15 -5 L10 0 L-10 0 Z" fill="#ec4899"/>
+    <path d="M-10 5 L10 5 L15 10 L10 15 L-10 15 Z" fill="#10b981"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="30" cy="40" r="2" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="200" cy="30" r="3" fill="#fbbf24" opacity="0.4"/>
+  <path d="M180 150 Q190 140 200 150" stroke="#fb923c" stroke-width="2" fill="none"/>
+</svg>
