@@ -17452,6 +17452,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/立足.svg",
     "caption": "đứng vững, tồn tại"
   },
+  "利率": {
+    "file": "利率.svg",
+    "src": "images/HSK_2.0/level6/利率.svg",
+    "caption": "lãi suất"
+  },
+  "利落": {
+    "file": "利落.svg",
+    "src": "images/HSK_2.0/level6/利落.svg",
+    "caption": "gọn gàng, nhanh nhẹn"
+  },
+  "例外": {
+    "file": "例外.svg",
+    "src": "images/HSK_2.0/level6/例外.svg",
+    "caption": "ngoại lệ"
+  },
+  "隶属": {
+    "file": "隶属.svg",
+    "src": "images/HSK_2.0/level6/隶属.svg",
+    "caption": "thuộc về, lệ thuộc"
+  },
+  "联欢": {
+    "file": "联欢.svg",
+    "src": "images/HSK_2.0/level6/联欢.svg",
+    "caption": "liên hoan, vui chung"
+  },
+  "联络": {
+    "file": "联络.svg",
+    "src": "images/HSK_2.0/level6/联络.svg",
+    "caption": "liên lạc"
+  },
+  "联盟": {
+    "file": "联盟.svg",
+    "src": "images/HSK_2.0/level6/联盟.svg",
+    "caption": "liên minh"
+  },
+  "联想": {
+    "file": "联想.svg",
+    "src": "images/HSK_2.0/level6/联想.svg",
+    "caption": "liên tưởng"
+  },
+  "连年": {
+    "file": "连年.svg",
+    "src": "images/HSK_2.0/level6/连年.svg",
+    "caption": "liên tiếp nhiều năm"
+  },
+  "连锁": {
+    "file": "连锁.svg",
+    "src": "images/HSK_2.0/level6/连锁.svg",
+    "caption": "chuỗi, liên hoàn"
+  },
   "领先": {
     "file": "领先.svg",
     "src": "images/HSK_2.0/level6/领先.svg",

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Storefront Structure -->
+  <rect x="30" y="60" width="180" height="130" rx="8" fill="#334155"/>
+  <rect x="40" y="70" width="160" height="110" rx="4" fill="#f8fafc"/>
+  
+  <!-- Chain Store Visual Indicators (Identical storefronts in background) -->
+  <rect x="45" y="75" width="45" height="30" fill="#e2e8f0"/>
+  <rect x="95" y="75" width="45" height="30" fill="#e2e8f0"/>
+  <rect x="145" y="75" width="45" height="30" fill="#e2e8f0"/>
+  
+  <!-- Store Interior Details -->
+  <rect x="50" y="120" width="30" height="40" fill="#cbd5e1"/>
+  <rect x="100" y="120" width="30" height="40" fill="#cbd5e1"/>
+  <rect x="150" y="120" width="30" height="40" fill="#cbd5e1"/>
+  
+  <!-- Character: Customer -->
+  <circle cx="120" cy="190" r="12" fill="#fbbf24"/>
+  <path d="M110 202h20v25h-20z" fill="#38bdf8"/>
+  <path d="M105 202h10v10h-10z" fill="#38bdf8"/>
+  <path d="M130 202h10v10h-10z" fill="#38bdf8"/>
+  
+  <!-- Shopping Cart -->
+  <path d="M140 210h25l-5 10h-20z" fill="#ec4899"/>
+  <circle cx="145" cy="225" r="4" fill="#94a3b8"/>
+  <circle cx="160" cy="225" r="4" fill="#94a3b8"/>
+  
+  <!-- Chain Link Symbolism (Stylized repeating arches) -->
+  <path d="M40 60 Q 60 40 80 60" stroke="#fb923c" stroke-width="3" fill="none"/>
+  <path d="M100 60 Q 120 40 140 60" stroke="#fb923c" stroke-width="3" fill="none"/>
+  <path d="M160 60 Q 180 40 200 60" stroke="#fb923c" stroke-width="3" fill="none"/>
+  
+  <!-- Accents -->
+  <circle cx="200" cy="40" r="3" fill="#10b981"/>
+  <circle cx="40" cy="40" r="3" fill="#10b981"/>
+</svg>

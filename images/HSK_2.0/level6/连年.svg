@@ -1,0 +1,55 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Ground -->
+  <path d="M0 190 C 80 170, 160 170, 240 190 L 240 240 L 0 240 Z" fill="#1e293b" opacity="0.5"/>
+  <rect x="0" y="190" width="240" height="50" fill="#0f172a"/>
+
+  <!-- Wheat Stacks (Representing consecutive harvests) -->
+  <g transform="translate(40, 160)">
+    <path d="M0 0 L 10 0 L 5 -60 Z" fill="#f59e0b"/>
+    <path d="M15 0 L 25 0 L 20 -50 Z" fill="#fbbf24"/>
+    <path d="M30 0 L 40 0 L 35 -40 Z" fill="#f59e0b"/>
+  </g>
+
+  <g transform="translate(100, 170)">
+    <path d="M0 0 L 12 0 L 6 -70 Z" fill="#f59e0b"/>
+    <path d="M18 0 L 30 0 L 24 -60 Z" fill="#fbbf24"/>
+  </g>
+
+  <g transform="translate(160, 160)">
+    <path d="M0 0 L 10 0 L 5 -65 Z" fill="#f59e0b"/>
+    <path d="M15 0 L 25 0 L 20 -55 Z" fill="#fbbf24"/>
+    <path d="M30 0 L 40 0 L 35 -45 Z" fill="#f59e0b"/>
+  </g>
+
+  <!-- Farmer Character -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-15 20 L 15 20 L 10 60 L -10 60 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="20" fill="#fb923c"/>
+    <!-- Hat -->
+    <path d="M-30 0 L 30 0 L 0 -25 Z" fill="#fbbf24"/>
+    <!-- Arms -->
+    <path d="M-15 25 L -35 45" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M15 25 L 35 45" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <circle cx="-7" cy="-5" r="2" fill="#0f172a"/>
+    <circle cx="7" cy="-5" r="2" fill="#0f172a"/>
+  </g>
+
+  <!-- Sun/Glow -->
+  <circle cx="200" cy="40" r="25" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="200" cy="40" r="15" fill="#fbbf24"/>
+
+  <!-- Decorative elements -->
+  <path d="M20 50 Q 40 30 60 50 T 100 50" stroke="#10b981" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M140 80 Q 160 60 180 80 T 220 80" stroke="#ec4899" stroke-width="2" fill="none" opacity="0.4"/>
+</svg>

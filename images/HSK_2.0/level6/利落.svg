@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="160" width="200" height="10" rx="2" fill="#334155"/>
+  
+  <!-- Character: The Person working -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-30 80 L30 80 L25 20 L-25 20 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-25 -5 C-25 -20 -10 -30 0 -30 C10 -30 25 -20 25 -5 Z" fill="#475569"/>
+    <!-- Arm in motion -->
+    <path d="M25 30 L60 50 L55 60 L20 40" fill="#fde68a"/>
+    <!-- Hand holding a tool -->
+    <rect x="55" y="45" width="15" height="5" rx="2" fill="#fb923c"/>
+  </g>
+  
+  <!-- Organized Tools/Papers -->
+  <rect x="40" y="145" width="40" height="15" rx="2" fill="#fbbf24"/>
+  <rect x="45" y="130" width="30" height="15" rx="2" fill="#fbbf24"/>
+  <rect x="160" y="140" width="30" height="20" rx="2" fill="#10b981"/>
+  
+  <!-- Motion Lines indicating speed/efficiency -->
+  <path d="M180 120 L200 110" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+  <path d="M190 100 L210 90" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Background elements -->
+  <circle cx="200" cy="40" r="30" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M180 40 L220 40 M200 20 L200 60" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+</svg>

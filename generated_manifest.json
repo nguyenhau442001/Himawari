@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:28:08.777691",
-  "total_unique_words_with_illustrations": 4095,
-  "total_flat_svg_files": 4095,
+  "generated_at": "2026-10-12T20:36:38.316072",
+  "total_unique_words_with_illustrations": 4105,
+  "total_flat_svg_files": 4105,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1455,
-        "pct": "58.2%"
+        "with_svg": 1465,
+        "pct": "58.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 507,
-        "pct": "28.2%"
+        "with_svg": 509,
+        "pct": "28.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 650,
-        "pct": "11.6%"
+        "with_svg": 656,
+        "pct": "11.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 650,
-        "pct": "11.6%"
+        "with_svg": 656,
+        "pct": "11.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 650,
-        "pct": "11.6%"
+        "with_svg": 656,
+        "pct": "11.7%"
       }
     }
   },
@@ -64774,6 +64774,202 @@
         "images/HSK_3.0/level7/立足.svg",
         "images/HSK_3.0/level8/立足.svg",
         "images/HSK_3.0/level9/立足.svg"
+      ]
+    },
+    "利率": {
+      "hanzi": "利率",
+      "pinyin": "lìlǜ",
+      "meaning": "lãi suất",
+      "example_zh": "银行<u>利率</u>下调了。",
+      "example_vi": "<u>Lãi suất</u> ngân hàng đã giảm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "利率.svg",
+      "src": "images/HSK_2.0/level6/利率.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/利率.svg",
+        "images/HSK_3.0/level8/利率.svg",
+        "images/HSK_3.0/level9/利率.svg"
+      ]
+    },
+    "利落": {
+      "hanzi": "利落",
+      "pinyin": "lìluo",
+      "meaning": "gọn gàng, nhanh nhẹn",
+      "example_zh": "他做事很<u>利落</u>。",
+      "example_vi": "Anh ấy làm việc rất <u>gọn gàng nhanh nhẹn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "利落.svg",
+      "src": "images/HSK_2.0/level6/利落.svg",
+      "alt_srcs": []
+    },
+    "例外": {
+      "hanzi": "例外",
+      "pinyin": "lìwài",
+      "meaning": "ngoại lệ",
+      "example_zh": "没有人是<u>例外</u>。",
+      "example_vi": "Không ai là <u>ngoại lệ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "例外.svg",
+      "src": "images/HSK_2.0/level6/例外.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/例外.svg"
+      ]
+    },
+    "隶属": {
+      "hanzi": "隶属",
+      "pinyin": "lìshǔ",
+      "meaning": "thuộc về, lệ thuộc",
+      "example_zh": "这个部门<u>隶属</u>于总公司。",
+      "example_vi": "Bộ phận này <u>thuộc về</u> tổng công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "隶属.svg",
+      "src": "images/HSK_2.0/level6/隶属.svg",
+      "alt_srcs": []
+    },
+    "联欢": {
+      "hanzi": "联欢",
+      "pinyin": "liánhuān",
+      "meaning": "liên hoan, vui chung",
+      "example_zh": "元旦那天大家一起<u>联欢</u>。",
+      "example_vi": "Ngày Tết dương lịch mọi người cùng <u>liên hoan</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "联欢.svg",
+      "src": "images/HSK_2.0/level6/联欢.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/联欢.svg",
+        "images/HSK_3.0/level8/联欢.svg",
+        "images/HSK_3.0/level9/联欢.svg"
+      ]
+    },
+    "联络": {
+      "hanzi": "联络",
+      "pinyin": "liánluò",
+      "meaning": "liên lạc",
+      "example_zh": "请保持<u>联络</u>。",
+      "example_vi": "Xin hãy giữ <u>liên lạc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "联络.svg",
+      "src": "images/HSK_2.0/level6/联络.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/联络.svg",
+        "images/HSK_3.0/level8/联络.svg",
+        "images/HSK_3.0/level9/联络.svg"
+      ]
+    },
+    "联盟": {
+      "hanzi": "联盟",
+      "pinyin": "liánméng",
+      "meaning": "liên minh",
+      "example_zh": "两国结成了<u>联盟</u>。",
+      "example_vi": "Hai nước đã thành lập <u>liên minh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "联盟.svg",
+      "src": "images/HSK_2.0/level6/联盟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/联盟.svg",
+        "images/HSK_3.0/level8/联盟.svg",
+        "images/HSK_3.0/level9/联盟.svg"
+      ]
+    },
+    "联想": {
+      "hanzi": "联想",
+      "pinyin": "liánxiǎng",
+      "meaning": "liên tưởng",
+      "example_zh": "这首歌让我<u>联想</u>到童年。",
+      "example_vi": "Bài hát này khiến tôi <u>liên tưởng</u> đến tuổi thơ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "联想.svg",
+      "src": "images/HSK_2.0/level6/联想.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/联想.svg"
+      ]
+    },
+    "连年": {
+      "hanzi": "连年",
+      "pinyin": "liánnián",
+      "meaning": "liên tiếp nhiều năm",
+      "example_zh": "<u>连年</u>丰收。",
+      "example_vi": "Được mùa <u>liên tục nhiều năm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "连年.svg",
+      "src": "images/HSK_2.0/level6/连年.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/连年.svg",
+        "images/HSK_3.0/level8/连年.svg",
+        "images/HSK_3.0/level9/连年.svg"
+      ]
+    },
+    "连锁": {
+      "hanzi": "连锁",
+      "pinyin": "liánsuǒ",
+      "meaning": "chuỗi, liên hoàn",
+      "example_zh": "这是一家<u>连锁</u>超市。",
+      "example_vi": "Đây là một siêu thị <u>chuỗi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "连锁.svg",
+      "src": "images/HSK_2.0/level6/连锁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/连锁.svg",
+        "images/HSK_3.0/level8/连锁.svg",
+        "images/HSK_3.0/level9/连锁.svg"
       ]
     },
     "领先": {

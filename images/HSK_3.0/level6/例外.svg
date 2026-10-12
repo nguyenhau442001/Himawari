@@ -1,0 +1,48 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Security checkpoint scene -->
+  <g transform="translate(20, 60)">
+    <!-- Metal detector frame -->
+    <rect x="60" y="20" width="80" height="120" rx="10" fill="none" stroke="#38bdf8" stroke-width="6"/>
+    <rect x="50" y="140" width="100" height="10" rx="2" fill="#475569"/>
+    
+    <!-- Characters in line -->
+    <!-- Person 1 (walking through) -->
+    <g transform="translate(85, 40)">
+      <circle cx="15" cy="15" r="12" fill="#fbbf24"/>
+      <rect x="5" y="30" width="20" height="40" rx="4" fill="#fb923c"/>
+      <rect x="5" y="70" width="8" height="20" rx="2" fill="#fb923c"/>
+      <rect x="17" y="70" width="8" height="20" rx="2" fill="#fb923c"/>
+    </g>
+    
+    <!-- Person 2 (waiting) -->
+    <g transform="translate(30, 60)">
+      <circle cx="15" cy="15" r="12" fill="#38bdf8"/>
+      <rect x="5" y="30" width="20" height="40" rx="4" fill="#ec4899"/>
+      <rect x="5" y="70" width="8" height="20" rx="2" fill="#ec4899"/>
+      <rect x="17" y="70" width="8" height="20" rx="2" fill="#ec4899"/>
+    </g>
+    
+    <!-- Person 3 (waiting) -->
+    <g transform="translate(150, 60)">
+      <circle cx="15" cy="15" r="12" fill="#10b981"/>
+      <rect x="5" y="30" width="20" height="40" rx="4" fill="#fbbf24"/>
+      <rect x="5" y="70" width="8" height="20" rx="2" fill="#fbbf24"/>
+      <rect x="17" y="70" width="8" height="20" rx="2" fill="#fbbf24"/>
+    </g>
+  </g>
+  
+  <!-- Floor line -->
+  <line x1="20" y1="200" x2="220" y2="200" stroke="#334155" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Alert light on top -->
+  <circle cx="140" cy="80" r="6" fill="#ef4444"/>
+  <circle cx="140" cy="80" r="3" fill="#fecaca"/>
+</svg>
