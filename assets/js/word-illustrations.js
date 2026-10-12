@@ -20297,10 +20297,110 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/艘.svg",
     "caption": "(lượng từ) chiếc (tàu thuyền)"
   },
+  "苏醒": {
+    "file": "苏醒.svg",
+    "src": "images/HSK_2.0/level6/苏醒.svg",
+    "caption": "tỉnh lại, hồi tỉnh"
+  },
+  "俗话": {
+    "file": "俗话.svg",
+    "src": "images/HSK_2.0/level6/俗话.svg",
+    "caption": "tục ngữ, lời nói thường ngày"
+  },
+  "塑造": {
+    "file": "塑造.svg",
+    "src": "images/HSK_2.0/level6/塑造.svg",
+    "caption": "tạo hình, xây dựng (hình tượng)"
+  },
+  "素食": {
+    "file": "素食.svg",
+    "src": "images/HSK_2.0/level6/素食.svg",
+    "caption": "ăn chay"
+  },
+  "素质": {
+    "file": "素质.svg",
+    "src": "images/HSK_2.0/level6/素质.svg",
+    "caption": "tố chất, phẩm chất"
+  },
+  "诉讼": {
+    "file": "诉讼.svg",
+    "src": "images/HSK_2.0/level6/诉讼.svg",
+    "caption": "tố tụng, kiện tụng"
+  },
+  "算数": {
+    "file": "算数.svg",
+    "src": "images/HSK_2.0/level6/算数.svg",
+    "caption": "tính là (giữ lời, có giá trị)"
+  },
+  "随即": {
+    "file": "随即.svg",
+    "src": "images/HSK_2.0/level6/随即.svg",
+    "caption": "ngay sau đó, liền sau đó"
+  },
   "随意": {
     "file": "随意.svg",
     "src": "images/HSK_2.0/level6/随意.svg",
     "caption": "tùy ý, tự nhiên"
+  },
+  "岁月": {
+    "file": "岁月.svg",
+    "src": "images/HSK_2.0/level6/岁月.svg",
+    "caption": "năm tháng"
+  },
+  "隧道": {
+    "file": "隧道.svg",
+    "src": "images/HSK_2.0/level6/隧道.svg",
+    "caption": "đường hầm"
+  },
+  "损坏": {
+    "file": "损坏.svg",
+    "src": "images/HSK_2.0/level6/损坏.svg",
+    "caption": "làm hỏng, hư hại"
+  },
+  "索性": {
+    "file": "索性.svg",
+    "src": "images/HSK_2.0/level6/索性.svg",
+    "caption": "thẳng luôn, dứt khoát luôn"
+  },
+  "索取": {
+    "file": "索取.svg",
+    "src": "images/HSK_2.0/level6/索取.svg",
+    "caption": "yêu cầu, đòi lấy"
+  },
+  "塌": {
+    "file": "塌.svg",
+    "src": "images/HSK_2.0/level6/塌.svg",
+    "caption": "sụp đổ, lún sập"
+  },
+  "踏实": {
+    "file": "踏实.svg",
+    "src": "images/HSK_2.0/level6/踏实.svg",
+    "caption": "chắc chắn, yên tâm (làm việc cẩn trọng)"
+  },
+  "塔": {
+    "file": "塔.svg",
+    "src": "images/HSK_2.0/level6/塔.svg",
+    "caption": "tháp"
+  },
+  "台风": {
+    "file": "台风.svg",
+    "src": "images/HSK_2.0/level6/台风.svg",
+    "caption": "bão (typhoon)"
+  },
+  "太空": {
+    "file": "太空.svg",
+    "src": "images/HSK_2.0/level6/太空.svg",
+    "caption": "không gian vũ trụ"
+  },
+  "泰斗": {
+    "file": "泰斗.svg",
+    "src": "images/HSK_2.0/level6/泰斗.svg",
+    "caption": "cây đại thụ, người đứng đầu lĩnh vực"
+  },
+  "瘫痪": {
+    "file": "瘫痪.svg",
+    "src": "images/HSK_2.0/level6/瘫痪.svg",
+    "caption": "bại liệt, tê liệt (hệ thống)"
   },
   "统计": {
     "file": "统计.svg",

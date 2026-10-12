@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Grid/Glow for Modern Dark Theme -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.5"/>
+  
+  <!-- Sculptor's Stand / Base -->
+  <path d="M80 185 L160 185 L150 195 L90 195 Z" fill="#3A4252"/>
+  <rect x="108" y="155" width="24" height="30" fill="#2E3440"/>
+  <ellipse cx="120" cy="155" rx="25" ry="6" fill="#4C566A"/>
+
+  <!-- Bust / Character Silhouette being shaped (representing "tạo hình, xây dựng hình tượng") -->
+  <!-- Torso & Shoulders -->
+  <path d="M85 160 C85 140 100 135 120 135 C140 135 155 140 155 160 Z" fill="#E5C07B" opacity="0.3"/>
+  
+  <!-- Main Head/Bust Vector -->
+  <path d="M95 125 C95 95 105 80 120 80 C135 80 145 95 145 125 C145 145 138 150 120 150 C102 150 95 145 95 125 Z" fill="#E5C07B"/>
+  
+  <!-- Dynamic Shaping Lines (Action Effect) -->
+  <path d="M82 105 C75 115 75 130 82 140" stroke="#61AFEF" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M158 105 C165 115 165 130 158 140" stroke="#61AFEF" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Sculpting Tool / Chisel / Pencil crafting the character shape -->
+  <g transform="rotate(-35 170 70)">
+    <!-- Tool Handle -->
+    <rect x="165" y="30" width="10" height="60" rx="3" fill="#D19A66"/>
+    <!-- Tool Metal Ferrule -->
+    <rect x="165" y="90" width="10" height="10" fill="#ABB2BF"/>
+    <!-- Tool Tip -->
+    <polygon points="165,100 175,100 170,115" fill="#E06C75"/>
+  </g>
+
+  <!-- Sparkle/Creation Effect Highlights (Focus on precision and creation) -->
+  <path d="M120 55 L123 63 L131 66 L123 69 L120 77 L117 69 L109 66 L117 63 Z" fill="#E5C07B"/>
+  <path d="M70 75 L71.5 79 L75.5 80.5 L71.5 82 L70 86 L68.5 82 L64.5 80.5 L68.5 79 Z" fill="#61AFEF" opacity="0.8"/>
+  <path d="M175 135 L176.5 139 L180.5 140.5 L176.5 142 L175 146 L173.5 142 L169.5 140.5 L173.5 139 Z" fill="#61AFEF" opacity="0.8"/>
+</svg>

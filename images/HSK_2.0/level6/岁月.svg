@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing passage of time -->
+  <circle cx="120" cy="120" r="70" fill="#FFB703" opacity="0.05"/>
+  
+  <!-- Central Physical Object: Vintage Pocket Watch / Hourglass concept symbolizing "Years / Suìyuè" -->
+  <!-- Pocket Watch Outer Ring -->
+  <circle cx="120" cy="128" r="54" fill="none" stroke="#E2E8F0" stroke-width="6"/>
+  <circle cx="120" cy="128" r="48" fill="#111318"/>
+  
+  <!-- Watch Crown & Ring (Top) -->
+  <rect x="114" y="60" width="12" height="8" rx="2" fill="#E2E8F0"/>
+  <circle cx="120" cy="52" r="8" fill="none" stroke="#E2E8F0" stroke-width="4"/>
+  
+  <!-- Watch Face / Time Markers -->
+  <line x1="120" y1="84" x2="120" y2="89" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="120" y1="167" x2="120" y2="172" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="76" y1="128" x2="81" y2="128" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="159" y1="128" x2="164" y2="128" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Central Pin -->
+  <circle cx="120" cy="128" r="5" fill="#FFB703"/>
+  
+  <!-- Clock Hands (Pointing to past/memories - subtle golden accent) -->
+  <line x1="120" y1="128" x2="98" y2="110" stroke="#FFB703" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="128" x2="145" y2="112" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Overlapping Abstract Layers representing sediment of years (歲月) -->
+  <path d="M72 165 C90 178 150 178 168 165" fill="none" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M84 177 C96 186 144 186 156 177" fill="none" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+  
+  <!-- Floating Memory Particles (representing unforgettable moments from the sentence context) -->
+  <circle cx="64" cy="92" r="3" fill="#FFB703" opacity="0.8"/>
+  <circle cx="178" cy="100" r="2" fill="#FFB703" opacity="0.6"/>
+  <circle cx="168" cy="156" r="3.5" fill="#FFB703" opacity="0.9"/>
+  <circle cx="78" cy="148" r="2" fill="#E2E8F0" opacity="0.5"/>
+  
+  <!-- Glowing Trail / Sparkle -->
+  <path d="M152 78 L154 84 L160 86 L154 88 L152 94 L150 88 L144 86 L150 84 Z" fill="#FFB703" opacity="0.9"/>
+  <path d="M84 102 L85 105 L88 106 L85 107 L84 110 L83 107 L80 106 L83 105 Z" fill="#FFB703" opacity="0.5"/>
+</svg>

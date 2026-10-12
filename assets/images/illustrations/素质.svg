@@ -1,0 +1,34 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing background orb to signify inner essence/quality -->
+  <circle cx="120" cy="120" r="70" fill="#2A3241" opacity="0.5"/>
+  
+  <!-- Stylized Human Silhouette representing a person (Con người - Tố chất cá nhân) -->
+  <g id="person-character">
+    <!-- Shoulders/Body -->
+    <path d="M 75 185 C 75 155 95 145 120 145 C 145 145 165 155 165 185" fill="#384356"/>
+    <!-- Head -->
+    <circle cx="120" cy="115" r="22" fill="#384356"/>
+  </g>
+
+  <!-- Glowing Core / Gem inside the chest representing "Tố chất" (Inherent quality / Inner caliber) -->
+  <g id="inner-quality-gem">
+    <!-- Outer glow ring -->
+    <circle cx="120" cy="148" r="24" fill="none" stroke="#FFB020" stroke-width="2" opacity="0.4"/>
+    <!-- Diamond/Star shape representing high personal caliber -->
+    <path d="M 120 128 L 133 148 L 120 168 L 107 148 Z" fill="#FFB020"/>
+    <path d="M 110 148 L 120 128 L 130 148 L 120 168 Z" fill="#FFD060" opacity="0.8"/>
+  </g>
+
+  <!-- Upward radiating quality/achievement bars (representing "很高" - high level of quality) -->
+  <g id="excellence-indicators">
+    <!-- Left small bar -->
+    <rect x="85" y="80" width="6" height="22" rx="3" fill="#4ECCA3" opacity="0.6"/>
+    <!-- Center tall bar -->
+    <rect x="117" y="65" width="6" height="37" rx="3" fill="#4ECCA3"/>
+    <!-- Right medium bar -->
+    <rect x="149" y="73" width="6" height="29" rx="3" fill="#4ECCA3" opacity="0.8"/>
+  </g>
+</svg>

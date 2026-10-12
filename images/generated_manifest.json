@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:18:58.847122",
-  "total_unique_words_with_illustrations": 4629,
-  "total_flat_svg_files": 4629,
+  "generated_at": "2026-10-12T23:20:33.340883",
+  "total_unique_words_with_illustrations": 4649,
+  "total_flat_svg_files": 4649,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1989,
-        "pct": "79.6%"
+        "with_svg": 2009,
+        "pct": "80.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 662,
-        "pct": "36.8%"
+        "with_svg": 670,
+        "pct": "37.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1006,
-        "pct": "18.0%"
+        "with_svg": 1018,
+        "pct": "18.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1006,
-        "pct": "18.0%"
+        "with_svg": 1018,
+        "pct": "18.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1006,
-        "pct": "18.0%"
+        "with_svg": 1018,
+        "pct": "18.2%"
       }
     }
   },
@@ -76350,6 +76350,174 @@
         "images/HSK_3.0/level6/艘.svg"
       ]
     },
+    "苏醒": {
+      "hanzi": "苏醒",
+      "pinyin": "sūxǐng",
+      "meaning": "tỉnh lại, hồi tỉnh",
+      "example_zh": "病人终于<u>苏醒</u>了过来。",
+      "example_vi": "Bệnh nhân cuối cùng đã <u>tỉnh lại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "苏醒.svg",
+      "src": "images/HSK_2.0/level6/苏醒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/苏醒.svg",
+        "images/HSK_3.0/level8/苏醒.svg",
+        "images/HSK_3.0/level9/苏醒.svg"
+      ]
+    },
+    "俗话": {
+      "hanzi": "俗话",
+      "pinyin": "súhuà",
+      "meaning": "tục ngữ, lời nói thường ngày",
+      "example_zh": "<u>俗话</u>说，熟能生巧。",
+      "example_vi": "<u>Tục ngữ</u> nói, có công mài sắt có ngày nên kim.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "俗话.svg",
+      "src": "images/HSK_2.0/level6/俗话.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/俗话.svg",
+        "images/HSK_3.0/level8/俗话.svg",
+        "images/HSK_3.0/level9/俗话.svg"
+      ]
+    },
+    "塑造": {
+      "hanzi": "塑造",
+      "pinyin": "sùzào",
+      "meaning": "tạo hình, xây dựng (hình tượng)",
+      "example_zh": "这部小说<u>塑造</u>了一个生动的人物形象。",
+      "example_vi": "Cuốn tiểu thuyết này <u>xây dựng</u> nên một hình tượng nhân vật sống động.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "塑造.svg",
+      "src": "images/HSK_2.0/level6/塑造.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/塑造.svg"
+      ]
+    },
+    "素食": {
+      "hanzi": "素食",
+      "pinyin": "sùshí",
+      "meaning": "ăn chay",
+      "example_zh": "她最近开始吃<u>素食</u>了。",
+      "example_vi": "Gần đây cô ấy bắt đầu <u>ăn chay</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "素食.svg",
+      "src": "images/HSK_2.0/level6/素食.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/素食.svg",
+        "images/HSK_3.0/level8/素食.svg",
+        "images/HSK_3.0/level9/素食.svg"
+      ]
+    },
+    "素质": {
+      "hanzi": "素质",
+      "pinyin": "sùzhì",
+      "meaning": "tố chất, phẩm chất",
+      "example_zh": "他的个人<u>素质</u>很高。",
+      "example_vi": "<u>Tố chất</u> cá nhân của anh ấy rất cao.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "素质.svg",
+      "src": "images/HSK_2.0/level6/素质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/素质.svg"
+      ]
+    },
+    "诉讼": {
+      "hanzi": "诉讼",
+      "pinyin": "sùsòng",
+      "meaning": "tố tụng, kiện tụng",
+      "example_zh": "这起<u>诉讼</u>已经持续了两年。",
+      "example_vi": "Vụ <u>kiện tụng</u> này đã kéo dài hai năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "诉讼.svg",
+      "src": "images/HSK_2.0/level6/诉讼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/诉讼.svg",
+        "images/HSK_3.0/level8/诉讼.svg",
+        "images/HSK_3.0/level9/诉讼.svg"
+      ]
+    },
+    "算数": {
+      "hanzi": "算数",
+      "pinyin": "suànshù",
+      "meaning": "tính là (giữ lời, có giá trị)",
+      "example_zh": "说出去的话就要<u>算数</u>。",
+      "example_vi": "Lời nói ra phải <u>giữ lời</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "算数.svg",
+      "src": "images/HSK_2.0/level6/算数.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/算数.svg",
+        "images/HSK_3.0/level8/算数.svg",
+        "images/HSK_3.0/level9/算数.svg"
+      ]
+    },
+    "随即": {
+      "hanzi": "随即",
+      "pinyin": "suíjí",
+      "meaning": "ngay sau đó, liền sau đó",
+      "example_zh": "他接到电话后<u>随即</u>出门了。",
+      "example_vi": "Sau khi nhận điện thoại, anh ấy <u>liền sau đó</u> ra ngoài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "随即.svg",
+      "src": "images/HSK_2.0/level6/随即.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/随即.svg",
+        "images/HSK_3.0/level8/随即.svg",
+        "images/HSK_3.0/level9/随即.svg"
+      ]
+    },
     "随意": {
       "hanzi": "随意",
       "pinyin": "suíyì",
@@ -76366,6 +76534,246 @@
       "src": "images/HSK_2.0/level6/随意.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/随意.svg"
+      ]
+    },
+    "岁月": {
+      "hanzi": "岁月",
+      "pinyin": "suìyuè",
+      "meaning": "năm tháng",
+      "example_zh": "那段<u>岁月</u>令人难忘。",
+      "example_vi": "Khoảng <u>năm tháng</u> đó khiến người ta khó quên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "岁月.svg",
+      "src": "images/HSK_2.0/level6/岁月.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/岁月.svg"
+      ]
+    },
+    "隧道": {
+      "hanzi": "隧道",
+      "pinyin": "suìdào",
+      "meaning": "đường hầm",
+      "example_zh": "这条<u>隧道</u>穿过整座山。",
+      "example_vi": "<u>Đường hầm</u> này xuyên qua cả quả núi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "隧道.svg",
+      "src": "images/HSK_2.0/level6/隧道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/隧道.svg",
+        "images/HSK_3.0/level8/隧道.svg",
+        "images/HSK_3.0/level9/隧道.svg"
+      ]
+    },
+    "损坏": {
+      "hanzi": "损坏",
+      "pinyin": "sǔnhuài",
+      "meaning": "làm hỏng, hư hại",
+      "example_zh": "这台机器已经<u>损坏</u>了。",
+      "example_vi": "Cái máy này đã bị <u>hư hại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "损坏.svg",
+      "src": "images/HSK_2.0/level6/损坏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/损坏.svg"
+      ]
+    },
+    "索性": {
+      "hanzi": "索性",
+      "pinyin": "suǒxìng",
+      "meaning": "thẳng luôn, dứt khoát luôn",
+      "example_zh": "既然已经迟了，<u>索性</u>慢慢走吧。",
+      "example_vi": "Đã muộn rồi, <u>thì cứ</u> đi từ từ vậy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "索性.svg",
+      "src": "images/HSK_2.0/level6/索性.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/索性.svg",
+        "images/HSK_3.0/level8/索性.svg",
+        "images/HSK_3.0/level9/索性.svg"
+      ]
+    },
+    "索取": {
+      "hanzi": "索取",
+      "pinyin": "suǒqǔ",
+      "meaning": "yêu cầu, đòi lấy",
+      "example_zh": "他向公司<u>索取</u>了赔偿。",
+      "example_vi": "Anh ấy đã <u>đòi</u> công ty bồi thường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "索取.svg",
+      "src": "images/HSK_2.0/level6/索取.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/索取.svg",
+        "images/HSK_3.0/level8/索取.svg",
+        "images/HSK_3.0/level9/索取.svg"
+      ]
+    },
+    "塌": {
+      "hanzi": "塌",
+      "pinyin": "tā",
+      "meaning": "sụp đổ, lún sập",
+      "example_zh": "那座旧房子已经<u>塌</u>了。",
+      "example_vi": "Ngôi nhà cũ đó đã <u>sụp đổ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "塌.svg",
+      "src": "images/HSK_2.0/level6/塌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/塌.svg",
+        "images/HSK_3.0/level8/塌.svg",
+        "images/HSK_3.0/level9/塌.svg"
+      ]
+    },
+    "踏实": {
+      "hanzi": "踏实",
+      "pinyin": "tāshi",
+      "meaning": "chắc chắn, yên tâm (làm việc cẩn trọng)",
+      "example_zh": "他做事一向很<u>踏实</u>。",
+      "example_vi": "Anh ấy làm việc luôn rất <u>chắc chắn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "踏实.svg",
+      "src": "images/HSK_2.0/level6/踏实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/踏实.svg"
+      ]
+    },
+    "塔": {
+      "hanzi": "塔",
+      "pinyin": "tǎ",
+      "meaning": "tháp",
+      "example_zh": "这座古老的<u>塔</u>已有千年历史。",
+      "example_vi": "<u>Tháp</u> cổ này đã có lịch sử nghìn năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "塔.svg",
+      "src": "images/HSK_2.0/level6/塔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/塔.svg"
+      ]
+    },
+    "台风": {
+      "hanzi": "台风",
+      "pinyin": "táifēng",
+      "meaning": "bão (typhoon)",
+      "example_zh": "<u>台风</u>即将登陆这座城市。",
+      "example_vi": "<u>Bão</u> sắp đổ bộ vào thành phố này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "台风.svg",
+      "src": "images/HSK_2.0/level6/台风.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/台风.svg"
+      ]
+    },
+    "太空": {
+      "hanzi": "太空",
+      "pinyin": "tàikōng",
+      "meaning": "không gian vũ trụ",
+      "example_zh": "宇航员将前往<u>太空</u>执行任务。",
+      "example_vi": "Nhà du hành sẽ đi vào <u>không gian vũ trụ</u> thực hiện nhiệm vụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "太空.svg",
+      "src": "images/HSK_2.0/level6/太空.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/太空.svg"
+      ]
+    },
+    "泰斗": {
+      "hanzi": "泰斗",
+      "pinyin": "tàidǒu",
+      "meaning": "cây đại thụ, người đứng đầu lĩnh vực",
+      "example_zh": "他是医学界的<u>泰斗</u>。",
+      "example_vi": "Ông ấy là <u>cây đại thụ</u> của giới y học.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "泰斗.svg",
+      "src": "images/HSK_2.0/level6/泰斗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/泰斗.svg",
+        "images/HSK_3.0/level8/泰斗.svg",
+        "images/HSK_3.0/level9/泰斗.svg"
+      ]
+    },
+    "瘫痪": {
+      "hanzi": "瘫痪",
+      "pinyin": "tānhuàn",
+      "meaning": "bại liệt, tê liệt (hệ thống)",
+      "example_zh": "交通因大雪而陷入<u>瘫痪</u>。",
+      "example_vi": "Giao thông <u>tê liệt</u> vì tuyết lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "瘫痪.svg",
+      "src": "images/HSK_2.0/level6/瘫痪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/瘫痪.svg",
+        "images/HSK_3.0/level8/瘫痪.svg",
+        "images/HSK_3.0/level9/瘫痪.svg"
       ]
     },
     "统计": {

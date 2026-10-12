@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Grid pattern / structural lines for modern abstract aesthetic -->
+  <line x1="30" y1="180" x2="210" y2="180" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="130" x2="210" y2="130" stroke="#2A2F3D" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="30" y1="80" x2="210" y2="80" stroke="#2A2F3D" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Visual Metaphor of Progression / Escalation & Steadfastness (Stepped Foundation leading to a solid anchor/peak) -->
+  <!-- Step 1 -->
+  <path d="M45 180 L75 180 L75 155 L45 155 Z" fill="#252A37" rx="2"/>
+  <rect x="45" y="152" width="30" height="3" fill="#3A4255" rx="1.5"/>
+
+  <!-- Step 2 -->
+  <path d="M75 180 L105 180 L105 130 L75 130 Z" fill="#2D3446"/>
+  <rect x="75" y="127" width="30" height="3" fill="#4B556B" rx="1.5"/>
+
+  <!-- Step 3 -->
+  <path d="M105 180 L135 180 L105 105 Z" fill="#343E56" opacity="0.4"/> <!-- Background depth -->
+  <path d="M105 180 L135 180 L135 105 L105 105 Z" fill="#343E56"/>
+  <rect x="105" y="102" width="30" height="3" fill="#60A5FA" opacity="0.6" rx="1.5"/>
+
+  <!-- Step 4 (Peak / Solid Foundation - Representing "踏实" - grounded, secure, reliable progression) -->
+  <path d="M135 180 L175 180 L175 70 L135 70 Z" fill="#1E2533"/>
+  <!-- Glowing/accent top block showing secure completion/stability -->
+  <rect x="130" y="65" width="50" height="8" rx="4" fill="#F59E0B"/>
+  
+  <!-- Progression Arrow / Causal Escalation curve rising steadily and firmly -->
+  <path d="M 50 160 Q 95 140, 130 100 T 155 70" fill="none" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+  
+  <!-- Glowing anchor node at the peak (Symbolizing absolute certainty and grounded focus) -->
+  <circle cx="155" cy="70" r="6" fill="#1A1D24" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="155" cy="70" r="2.5" fill="#F59E0B"/>
+
+  <!-- Pulsing ripple effect for stability/focus -->
+  <circle cx="155" cy="70" r="12" fill="none" stroke="#F59E0B" stroke-width="1" opacity="0.4">
+    <animate attributeName="r" values="8;16;8" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Base stability indicator (Checkmark abstract integrated into structure) -->
+  <path d="M147 70 L153 76 L165 62" fill="none" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Floating particles representing steady incremental progress -->
+  <circle cx="65" cy="140" r="2" fill="#60A5FA" opacity="0.8"/>
+  <circle cx="95" cy="115" r="2.5" fill="#60A5FA"/>
+  <circle cx="120" cy="90" r="3" fill="#F59E0B" opacity="0.9"/>
+</svg>
