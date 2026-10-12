@@ -17862,6 +17862,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/美观.svg",
     "caption": "đẹp mắt, mỹ quan"
   },
+  "美满": {
+    "file": "美满.svg",
+    "src": "images/HSK_2.0/level6/美满.svg",
+    "caption": "hạnh phúc viên mãn"
+  },
+  "美妙": {
+    "file": "美妙.svg",
+    "src": "images/HSK_2.0/level6/美妙.svg",
+    "caption": "tuyệt diệu, kỳ diệu"
+  },
+  "萌芽": {
+    "file": "萌芽.svg",
+    "src": "images/HSK_2.0/level6/萌芽.svg",
+    "caption": "nảy mầm, manh nha"
+  },
+  "猛烈": {
+    "file": "猛烈.svg",
+    "src": "images/HSK_2.0/level6/猛烈.svg",
+    "caption": "mãnh liệt, dữ dội"
+  },
+  "眯": {
+    "file": "眯.svg",
+    "src": "images/HSK_2.0/level6/眯.svg",
+    "caption": "nhắm hờ, chợp mắt"
+  },
+  "弥补": {
+    "file": "弥补.svg",
+    "src": "images/HSK_2.0/level6/弥补.svg",
+    "caption": "bù đắp, khắc phục"
+  },
+  "弥漫": {
+    "file": "弥漫.svg",
+    "src": "images/HSK_2.0/level6/弥漫.svg",
+    "caption": "lan tỏa, bao trùm (khói, sương)"
+  },
+  "迷惑": {
+    "file": "迷惑.svg",
+    "src": "images/HSK_2.0/level6/迷惑.svg",
+    "caption": "mê hoặc, làm hoang mang"
+  },
+  "迷人": {
+    "file": "迷人.svg",
+    "src": "images/HSK_2.0/level6/迷人.svg",
+    "caption": "quyến rũ, mê hồn"
+  },
+  "迷信": {
+    "file": "迷信.svg",
+    "src": "images/HSK_2.0/level6/迷信.svg",
+    "caption": "mê tín"
+  },
   "模式": {
     "file": "模式.svg",
     "src": "images/HSK_2.0/level6/模式.svg",

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Window Frame -->
+  <rect x="40" y="40" width="160" height="160" rx="8" fill="#334155" stroke="#475569" stroke-width="4"/>
+  <line x1="120" y1="40" x2="120" y2="200" stroke="#475569" stroke-width="4"/>
+  
+  <!-- Interior Elements -->
+  <path d="M40 180 L80 200 L40 200 Z" fill="#1e293b" opacity="0.5"/>
+  
+  <!-- The Wind/Storm Effect -->
+  <path d="M50 60 Q80 50 110 70 T170 60" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M60 100 Q100 80 140 110 T200 90" stroke="#f8fafc" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M50 150 Q120 130 190 160" stroke="#f8fafc" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  
+  <!-- Character (Inside looking out) -->
+  <circle cx="160" cy="160" r="25" fill="#fbbf24"/>
+  <path d="M145 160 Q160 180 175 160" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="152" cy="155" r="3" fill="#0f172a"/>
+  <circle cx="168" cy="155" r="3" fill="#0f172a"/>
+  
+  <!-- Tree outside bending violently -->
+  <path d="M70 200 Q70 140 50 100" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M50 100 Q30 80 40 60" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M50 100 Q70 80 60 50" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="40" cy="60" r="10" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="60" cy="50" r="12" fill="#38bdf8" opacity="0.7"/>
+  
+  <!-- Debris/Leaves -->
+  <ellipse cx="100" cy="90" rx="4" ry="2" fill="#fb923c" transform="rotate(30 100 90)"/>
+  <ellipse cx="130" cy="120" rx="4" ry="2" fill="#fb923c" transform="rotate(-20 130 120)"/>
+  <ellipse cx="180" cy="80" rx="4" ry="2" fill="#fb923c" transform="rotate(10 180 80)"/>
+</svg>

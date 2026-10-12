@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table -->
+  <rect x="40" y="150" width="160" height="15" rx="2" fill="#475569"/>
+  <rect x="50" y="165" width="10" height="60" fill="#334155"/>
+  <rect x="180" y="165" width="10" height="60" fill="#334155"/>
+  
+  <!-- Elderly Character -->
+  <g transform="translate(60, 80)">
+    <circle cx="40" cy="30" r="25" fill="#fde68a"/>
+    <path d="M25 35 Q40 45 55 35" stroke="#78350f" stroke-width="2" fill="none"/>
+    <rect x="25" y="20" width="8" height="5" rx="1" fill="#78350f"/>
+    <rect x="47" y="20" width="8" height="5" rx="1" fill="#78350f"/>
+    <path d="M30 60 L50 60 L45 100 L35 100 Z" fill="#3b82f6"/>
+    <rect x="20" y="60" width="15" height="40" rx="2" fill="#3b82f6"/>
+    <rect x="45" y="60" width="15" height="40" rx="2" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Ritual Props -->
+  <g transform="translate(140, 110)">
+    <rect x="0" y="0" width="30" height="40" rx="2" fill="#fbbf24"/>
+    <path d="M5 10 L25 10 M5 20 L25 20 M5 30 L25 30" stroke="#92400e" stroke-width="2"/>
+    <circle cx="15" cy="-15" r="8" fill="#ec4899"/>
+    <path d="M15 -23 L15 -35 M12 -28 L18 -28" stroke="#ec4899" stroke-width="2"/>
+  </g>
+  
+  <!-- Incense Smoke -->
+  <path d="M155 70 Q165 50 155 30 Q145 10 155 -10" stroke="#94a3b8" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Background Decor -->
+  <rect x="20" y="20" width="200" height="200" rx="10" stroke="#334155" stroke-width="2" fill="none"/>
+  <circle cx="120" cy="120" r="100" stroke="#1e293b" stroke-width="40" fill="none" opacity="0.3"/>
+</svg>

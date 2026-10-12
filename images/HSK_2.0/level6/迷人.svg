@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Distant Mountains -->
+  <path d="M0 160 L40 100 L80 140 L120 90 L160 130 L200 80 L240 120 L240 240 L0 240 Z" fill="#334155"/>
+  <path d="M20 180 L60 120 L100 160 L140 110 L180 150 L220 100 L240 130 L240 240 L20 240 Z" fill="#1e293b" opacity="0.6"/>
+  
+  <!-- Sunset Glow -->
+  <circle cx="180" cy="70" r="25" fill="#fbbf24"/>
+  <circle cx="180" cy="70" r="35" fill="#f59e0b" opacity="0.2"/>
+  
+  <!-- Foreground Hill -->
+  <path d="M0 240 C 60 180, 180 180, 240 240 Z" fill="#0f172a"/>
+  
+  <!-- Character: Person looking at view -->
+  <g transform="translate(100, 160)">
+    <path d="M20 60 L20 40 C20 30, 30 20, 40 20 C50 20, 60 30, 60 40 L60 60" fill="#38bdf8"/>
+    <circle cx="40" cy="15" r="12" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M30 10 C30 0, 50 0, 50 10" fill="#fb923c"/>
+    <!-- Arm pointing -->
+    <path d="M60 35 L80 25" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative elements (stars/twinkle) -->
+  <circle cx="30" cy="40" r="1.5" fill="#ffffff"/>
+  <circle cx="50" cy="30" r="1" fill="#ffffff"/>
+  <circle cx="200" cy="50" r="2" fill="#ffffff"/>
+  
+  <!-- Reflection/Light on ground -->
+  <ellipse cx="120" cy="230" rx="80" ry="10" fill="#fbbf24" opacity="0.05"/>
+</svg>

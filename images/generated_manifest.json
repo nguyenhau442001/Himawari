@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:20:17.718970",
-  "total_unique_words_with_illustrations": 4175,
-  "total_flat_svg_files": 4175,
+  "generated_at": "2026-10-12T21:28:36.665190",
+  "total_unique_words_with_illustrations": 4185,
+  "total_flat_svg_files": 4185,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1535,
-        "pct": "61.4%"
+        "with_svg": 1545,
+        "pct": "61.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 524,
-        "pct": "29.1%"
+        "with_svg": 526,
+        "pct": "29.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 709,
-        "pct": "12.7%"
+        "with_svg": 717,
+        "pct": "12.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 709,
-        "pct": "12.7%"
+        "with_svg": 717,
+        "pct": "12.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 709,
-        "pct": "12.7%"
+        "with_svg": 717,
+        "pct": "12.8%"
       }
     }
   },
@@ -66470,6 +66470,218 @@
       "src": "images/HSK_2.0/level6/美观.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/美观.svg"
+      ]
+    },
+    "美满": {
+      "hanzi": "美满",
+      "pinyin": "měimǎn",
+      "meaning": "hạnh phúc viên mãn",
+      "example_zh": "祝你们婚姻幸福<u>美满</u>。",
+      "example_vi": "Chúc các bạn hôn nhân hạnh phúc <u>viên mãn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "美满.svg",
+      "src": "images/HSK_2.0/level6/美满.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/美满.svg",
+        "images/HSK_3.0/level8/美满.svg",
+        "images/HSK_3.0/level9/美满.svg"
+      ]
+    },
+    "美妙": {
+      "hanzi": "美妙",
+      "pinyin": "měimiào",
+      "meaning": "tuyệt diệu, kỳ diệu",
+      "example_zh": "她唱出了<u>美妙</u>的歌声。",
+      "example_vi": "Cô ấy hát lên những giọng ca <u>tuyệt diệu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "美妙.svg",
+      "src": "images/HSK_2.0/level6/美妙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/美妙.svg",
+        "images/HSK_3.0/level8/美妙.svg",
+        "images/HSK_3.0/level9/美妙.svg"
+      ]
+    },
+    "萌芽": {
+      "hanzi": "萌芽",
+      "pinyin": "méngyá",
+      "meaning": "nảy mầm, manh nha",
+      "example_zh": "春天到了，草木开始<u>萌芽</u>。",
+      "example_vi": "Mùa xuân đến, cây cỏ bắt đầu <u>nảy mầm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "萌芽.svg",
+      "src": "images/HSK_2.0/level6/萌芽.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/萌芽.svg",
+        "images/HSK_3.0/level8/萌芽.svg",
+        "images/HSK_3.0/level9/萌芽.svg"
+      ]
+    },
+    "猛烈": {
+      "hanzi": "猛烈",
+      "pinyin": "měngliè",
+      "meaning": "mãnh liệt, dữ dội",
+      "example_zh": "外面刮着<u>猛烈</u>的大风。",
+      "example_vi": "Bên ngoài đang thổi cơn gió <u>dữ dội</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "猛烈.svg",
+      "src": "images/HSK_2.0/level6/猛烈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/猛烈.svg",
+        "images/HSK_3.0/level8/猛烈.svg",
+        "images/HSK_3.0/level9/猛烈.svg"
+      ]
+    },
+    "眯": {
+      "hanzi": "眯",
+      "pinyin": "mī",
+      "meaning": "nhắm hờ, chợp mắt",
+      "example_zh": "阳光太强，她<u>眯</u>起了眼睛。",
+      "example_vi": "Nắng quá mạnh, cô ấy <u>nhắm hờ</u> mắt lại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "眯.svg",
+      "src": "images/HSK_2.0/level6/眯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/眯.svg",
+        "images/HSK_3.0/level8/眯.svg",
+        "images/HSK_3.0/level9/眯.svg"
+      ]
+    },
+    "弥补": {
+      "hanzi": "弥补",
+      "pinyin": "míbǔ",
+      "meaning": "bù đắp, khắc phục",
+      "example_zh": "他想办法<u>弥补</u>自己的过错。",
+      "example_vi": "Anh ấy tìm cách <u>bù đắp</u> lỗi lầm của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "弥补.svg",
+      "src": "images/HSK_2.0/level6/弥补.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/弥补.svg"
+      ]
+    },
+    "弥漫": {
+      "hanzi": "弥漫",
+      "pinyin": "mímàn",
+      "meaning": "lan tỏa, bao trùm (khói, sương)",
+      "example_zh": "山谷里<u>弥漫</u>着大雾。",
+      "example_vi": "Trong thung lũng, sương mù dày đặc <u>lan tỏa</u> khắp nơi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "弥漫.svg",
+      "src": "images/HSK_2.0/level6/弥漫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/弥漫.svg",
+        "images/HSK_3.0/level8/弥漫.svg",
+        "images/HSK_3.0/level9/弥漫.svg"
+      ]
+    },
+    "迷惑": {
+      "hanzi": "迷惑",
+      "pinyin": "míhuò",
+      "meaning": "mê hoặc, làm hoang mang",
+      "example_zh": "这些假象<u>迷惑</u>了很多人。",
+      "example_vi": "Những hiện tượng giả này đã <u>làm hoang mang</u> rất nhiều người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迷惑.svg",
+      "src": "images/HSK_2.0/level6/迷惑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迷惑.svg",
+        "images/HSK_3.0/level8/迷惑.svg",
+        "images/HSK_3.0/level9/迷惑.svg"
+      ]
+    },
+    "迷人": {
+      "hanzi": "迷人",
+      "pinyin": "mírén",
+      "meaning": "quyến rũ, mê hồn",
+      "example_zh": "这里的风景十分<u>迷人</u>。",
+      "example_vi": "Cảnh sắc nơi đây vô cùng <u>quyến rũ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "迷人.svg",
+      "src": "images/HSK_2.0/level6/迷人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/迷人.svg"
+      ]
+    },
+    "迷信": {
+      "hanzi": "迷信",
+      "pinyin": "míxìn",
+      "meaning": "mê tín",
+      "example_zh": "老一辈人有些还很<u>迷信</u>。",
+      "example_vi": "Một số người thuộc thế hệ trước vẫn còn rất <u>mê tín</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迷信.svg",
+      "src": "images/HSK_2.0/level6/迷信.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迷信.svg",
+        "images/HSK_3.0/level8/迷信.svg",
+        "images/HSK_3.0/level9/迷信.svg"
       ]
     },
     "模式": {
