@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="150" width="160" height="10" rx="2" fill="#475569"/>
+  <rect x="50" y="160" width="10" height="60" rx="2" fill="#334155"/>
+  <rect x="180" y="160" width="10" height="60" rx="2" fill="#334155"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="90" r="25" fill="#fde68a"/>
+  <path d="M95 115 Q120 140 145 115" stroke="#fde68a" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M105 85 Q110 80 115 85" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <path d="M125 85 Q130 80 135 85" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <path d="M110 100 Q120 105 130 100" stroke="#fb923c" stroke-width="2" fill="none"/>
+  
+  <!-- Action: Handing over money/paper -->
+  <rect x="130" y="120" width="40" height="30" rx="2" fill="#10b981"/>
+  <path d="M140 120 L140 110" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M150 120 L150 110" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Debt document (being pushed away) -->
+  <rect x="70" y="125" width="40" height="20" rx="2" fill="#94a3b8"/>
+  <path d="M75 130 L105 130" stroke="#334155" stroke-width="2"/>
+  <path d="M75 137 L105 137" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Background elements -->
+  <circle cx="200" cy="50" r="15" fill="#fbbf24" opacity="0.3"/>
+  <path d="M30 180 L210 180" stroke="#334155" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Success glow -->
+  <circle cx="120" cy="90" r="40" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 6" opacity="0.5"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Bookstore Shelf Background -->
+  <rect x="20" y="40" width="200" height="120" rx="4" fill="#334155"/>
+  <rect x="20" y="80" width="200" height="8" fill="#1e293b"/>
+  <rect x="20" y="120" width="200" height="8" fill="#1e293b"/>
+  
+  <!-- Books on shelves -->
+  <rect x="30" y="50" width="15" height="30" fill="#fbbf24"/>
+  <rect x="50" y="50" width="15" height="30" fill="#ec4899"/>
+  <rect x="70" y="50" width="15" height="30" fill="#38bdf8"/>
+  <rect x="150" y="90" width="15" height="30" fill="#10b981"/>
+  <rect x="170" y="90" width="15" height="30" fill="#fb923c"/>
+  
+  <!-- The "Best Seller" Book Displayed in Front -->
+  <rect x="85" y="130" width="70" height="90" rx="4" fill="#f59e0b" stroke="#fbbf24" stroke-width="2"/>
+  <path d="M95 145h50M95 160h50M95 175h30" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Character: Excited Customer -->
+  <circle cx="190" cy="180" r="20" fill="#f8fafc"/>
+  <path d="M180 200h20v30h-20z" fill="#38bdf8"/>
+  <path d="M175 200l-10 20M205 200l10 20" stroke="#f8fafc" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Sales Indicator (Sparkles) -->
+  <path d="M150 120l5-10 5 10 10 5-10 5-5 10-5-10-10-5z" fill="#fbbf24"/>
+  <path d="M80 140l3-6 3 6 6 3-6 3-3 6-3-6-6-3z" fill="#fbbf24"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="220" width="240" height="20" fill="#0f172a"/>
+</svg>

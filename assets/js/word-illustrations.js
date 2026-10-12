@@ -13897,15 +13897,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/昌盛.svg",
     "caption": "thịnh vượng"
   },
+  "偿还": {
+    "file": "偿还.svg",
+    "src": "images/HSK_2.0/level6/偿还.svg",
+    "caption": "hoàn trả, trả nợ"
+  },
+  "常年": {
+    "file": "常年.svg",
+    "src": "images/HSK_2.0/level6/常年.svg",
+    "caption": "quanh năm, hằng năm"
+  },
   "尝试": {
     "file": "尝试.svg",
     "src": "images/HSK_2.0/level6/尝试.svg",
     "caption": "thử nghiệm"
   },
+  "常务": {
+    "file": "常务.svg",
+    "src": "images/HSK_2.0/level6/常务.svg",
+    "caption": "thường vụ, công việc thường ngày"
+  },
+  "场合": {
+    "file": "场合.svg",
+    "src": "images/HSK_2.0/level6/场合.svg",
+    "caption": "hoàn cảnh, dịp"
+  },
+  "敞开": {
+    "file": "敞开.svg",
+    "src": "images/HSK_2.0/level6/敞开.svg",
+    "caption": "mở rộng, mở toang"
+  },
+  "场面": {
+    "file": "场面.svg",
+    "src": "images/HSK_2.0/level6/场面.svg",
+    "caption": "cảnh tượng, quy mô"
+  },
   "场所": {
     "file": "场所.svg",
     "src": "images/HSK_2.0/level6/场所.svg",
     "caption": "nơi, địa điểm"
+  },
+  "倡导": {
+    "file": "倡导.svg",
+    "src": "images/HSK_2.0/level6/倡导.svg",
+    "caption": "khởi xướng, đề xướng"
+  },
+  "畅通": {
+    "file": "畅通.svg",
+    "src": "images/HSK_2.0/level6/畅通.svg",
+    "caption": "thông suốt, không bị cản trở"
+  },
+  "畅销": {
+    "file": "畅销.svg",
+    "src": "images/HSK_2.0/level6/畅销.svg",
+    "caption": "bán chạy, ăn khách"
+  },
+  "倡议": {
+    "file": "倡议.svg",
+    "src": "images/HSK_2.0/level6/倡议.svg",
+    "caption": "đề nghị, kiến nghị"
   },
   "成本": {
     "file": "成本.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:16:48.544884",
-  "total_unique_words_with_illustrations": 3429,
-  "total_flat_svg_files": 3429,
+  "generated_at": "2026-10-12T11:19:57.878436",
+  "total_unique_words_with_illustrations": 3439,
+  "total_flat_svg_files": 3439,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 789,
-        "pct": "31.6%"
+        "with_svg": 799,
+        "pct": "32.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 293,
-        "pct": "16.3%"
+        "with_svg": 298,
+        "pct": "16.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 250,
+        "with_svg": 254,
         "pct": "4.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 250,
+        "with_svg": 254,
         "pct": "4.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 250,
+        "with_svg": 254,
         "pct": "4.5%"
       }
     }
@@ -50570,6 +50570,46 @@
         "images/HSK_3.0/level9/昌盛.svg"
       ]
     },
+    "偿还": {
+      "hanzi": "偿还",
+      "pinyin": "chánghuán",
+      "meaning": "hoàn trả, trả nợ",
+      "example_zh": "他终于<u>偿还</u>了债务。",
+      "example_vi": "Anh ấy cuối cùng đã <u>hoàn trả</u> nợ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "偿还.svg",
+      "src": "images/HSK_2.0/level6/偿还.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/偿还.svg",
+        "images/HSK_3.0/level8/偿还.svg",
+        "images/HSK_3.0/level9/偿还.svg"
+      ]
+    },
+    "常年": {
+      "hanzi": "常年",
+      "pinyin": "chángnián",
+      "meaning": "quanh năm, hằng năm",
+      "example_zh": "他<u>常年</u>在外工作。",
+      "example_vi": "Anh ấy làm việc xa nhà <u>quanh năm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "常年.svg",
+      "src": "images/HSK_2.0/level6/常年.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/常年.svg"
+      ]
+    },
     "尝试": {
       "hanzi": "尝试",
       "pinyin": "chángshì",
@@ -50588,6 +50628,78 @@
         "images/HSK_3.0/level5/尝试.svg"
       ]
     },
+    "常务": {
+      "hanzi": "常务",
+      "pinyin": "chángwù",
+      "meaning": "thường vụ, công việc thường ngày",
+      "example_zh": "他是公司的<u>常务</u>副经理。",
+      "example_vi": "Anh ấy là phó giám đốc <u>thường vụ</u> của công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "常务.svg",
+      "src": "images/HSK_2.0/level6/常务.svg",
+      "alt_srcs": []
+    },
+    "场合": {
+      "hanzi": "场合",
+      "pinyin": "chǎnghé",
+      "meaning": "hoàn cảnh, dịp",
+      "example_zh": "要注意不同的<u>场合</u>。",
+      "example_vi": "Phải chú ý các <u>hoàn cảnh</u> khác nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "场合.svg",
+      "src": "images/HSK_2.0/level6/场合.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/场合.svg"
+      ]
+    },
+    "敞开": {
+      "hanzi": "敞开",
+      "pinyin": "chǎngkāi",
+      "meaning": "mở rộng, mở toang",
+      "example_zh": "大门<u>敞开</u>着。",
+      "example_vi": "Cổng lớn đang <u>mở toang</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敞开.svg",
+      "src": "images/HSK_2.0/level6/敞开.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/敞开.svg",
+        "images/HSK_3.0/level8/敞开.svg",
+        "images/HSK_3.0/level9/敞开.svg"
+      ]
+    },
+    "场面": {
+      "hanzi": "场面",
+      "pinyin": "chǎngmiàn",
+      "meaning": "cảnh tượng, quy mô",
+      "example_zh": "婚礼的<u>场面</u>很热闹。",
+      "example_vi": "<u>Cảnh tượng</u> đám cưới rất náo nhiệt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "场面.svg",
+      "src": "images/HSK_2.0/level6/场面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/场面.svg"
+      ]
+    },
     "场所": {
       "hanzi": "场所",
       "pinyin": "chǎngsuǒ",
@@ -50604,6 +50716,86 @@
       "src": "images/HSK_2.0/level6/场所.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/场所.svg"
+      ]
+    },
+    "倡导": {
+      "hanzi": "倡导",
+      "pinyin": "chàngdǎo",
+      "meaning": "khởi xướng, đề xướng",
+      "example_zh": "政府<u>倡导</u>低碳生活。",
+      "example_vi": "Chính phủ <u>khởi xướng</u> cuộc sống ít carbon.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "倡导.svg",
+      "src": "images/HSK_2.0/level6/倡导.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/倡导.svg",
+        "images/HSK_3.0/level8/倡导.svg",
+        "images/HSK_3.0/level9/倡导.svg"
+      ]
+    },
+    "畅通": {
+      "hanzi": "畅通",
+      "pinyin": "chàngtōng",
+      "meaning": "thông suốt, không bị cản trở",
+      "example_zh": "道路十分<u>畅通</u>。",
+      "example_vi": "Con đường rất <u>thông suốt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "畅通.svg",
+      "src": "images/HSK_2.0/level6/畅通.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/畅通.svg"
+      ]
+    },
+    "畅销": {
+      "hanzi": "畅销",
+      "pinyin": "chàngxiāo",
+      "meaning": "bán chạy, ăn khách",
+      "example_zh": "这本书很<u>畅销</u>。",
+      "example_vi": "Cuốn sách này rất <u>bán chạy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "畅销.svg",
+      "src": "images/HSK_2.0/level6/畅销.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/畅销.svg"
+      ]
+    },
+    "倡议": {
+      "hanzi": "倡议",
+      "pinyin": "chàngyì",
+      "meaning": "đề nghị, kiến nghị",
+      "example_zh": "他提出了一个<u>倡议</u>。",
+      "example_vi": "Anh ấy đưa ra một <u>kiến nghị</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "倡议.svg",
+      "src": "images/HSK_2.0/level6/倡议.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/倡议.svg",
+        "images/HSK_3.0/level8/倡议.svg",
+        "images/HSK_3.0/level9/倡议.svg"
       ]
     },
     "成本": {

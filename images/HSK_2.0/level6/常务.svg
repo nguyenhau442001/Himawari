@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Office Window Background -->
+  <rect x="30" y="30" width="180" height="100" rx="4" fill="#334155" opacity="0.3"/>
+  <circle cx="180" cy="60" r="15" fill="#fbbf24"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="150" width="200" height="15" rx="2" fill="#475569"/>
+  <rect x="40" y="165" width="10" height="60" rx="2" fill="#334155"/>
+  <rect x="190" y="165" width="10" height="60" rx="2" fill="#334155"/>
+  
+  <!-- Character: The Executive -->
+  <g transform="translate(120, 110)">
+    <!-- Body -->
+    <path d="M-30 30 Q0 20 30 30 L25 90 L-25 90 Z" fill="#38bdf8"/>
+    <!-- Tie -->
+    <path d="M-5 30 L5 30 L0 60 Z" fill="#ec4899"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-20 -10 Q0 -30 20 -10 Q20 -25 0 -30 Q-20 -25 -20 -10" fill="#1e293b"/>
+    <!-- Glasses -->
+    <rect x="-15" y="-5" width="12" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <rect x="3" y="-5" width="12" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="2"/>
+  </g>
+  
+  <!-- Props: Documents and Tablet -->
+  <rect x="50" y="135" width="40" height="10" rx="2" fill="#f1f5f9"/>
+  <rect x="55" y="138" width="30" height="2" rx="1" fill="#94a3b8"/>
+  <rect x="150" y="125" width="45" height="25" rx="3" fill="#fb923c"/>
+  <rect x="155" y="130" width="35" height="15" rx="1" fill="#1e293b"/>
+  
+  <!-- Decorative Accent -->
+  <circle cx="200" cy="200" r="30" fill="#10b981" opacity="0.1"/>
+</svg>

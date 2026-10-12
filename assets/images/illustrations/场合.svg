@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Left side: Formal Business Setting -->
+  <rect x="20" y="60" width="90" height="120" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <circle cx="65" cy="95" r="20" fill="#fbbf24"/>
+  <path d="M45 150 Q65 130 85 150 L85 170 L45 170 Z" fill="#38bdf8"/>
+  <rect x="55" y="115" width="20" height="35" fill="#f8fafc"/>
+  
+  <!-- Right side: Casual Party Setting -->
+  <rect x="130" y="60" width="90" height="120" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <circle cx="175" cy="95" r="20" fill="#ec4899"/>
+  <path d="M155 130 L195 130 L185 170 L165 170 Z" fill="#fb923c"/>
+  <circle cx="175" cy="150" r="8" fill="#10b981"/>
+  
+  <!-- Divider/Contrast -->
+  <line x1="120" y1="40" x2="120" y2="200" stroke="#334155" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Central Character (The Observer) -->
+  <g transform="translate(120, 180)">
+    <circle cx="0" cy="0" r="15" fill="#f8fafc"/>
+    <path d="M-5 -5 L-2 -5 M2 -5 L5 -5" stroke="#0f172a" stroke-width="2"/>
+    <path d="M-3 5 Q0 8 3 5" stroke="#0f172a" stroke-width="2" fill="none"/>
+    <path d="M-10 15 L10 15 L5 30 L-5 30 Z" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Contextual elements -->
+  <circle cx="30" cy="70" r="4" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="210" cy="70" r="4" fill="#ec4899" opacity="0.6"/>
+  <path d="M110 30 L130 30 L120 40 Z" fill="#334155"/>
+</svg>
