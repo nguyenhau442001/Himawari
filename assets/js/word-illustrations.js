@@ -19452,6 +19452,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/柔和.svg",
     "caption": "mềm mại, dịu dàng"
   },
+  "儒家": {
+    "file": "儒家.svg",
+    "src": "images/HSK_2.0/level6/儒家.svg",
+    "caption": "Nho gia"
+  },
+  "弱点": {
+    "file": "弱点.svg",
+    "src": "images/HSK_2.0/level6/弱点.svg",
+    "caption": "điểm yếu"
+  },
+  "若干": {
+    "file": "若干.svg",
+    "src": "images/HSK_2.0/level6/若干.svg",
+    "caption": "một số, vài"
+  },
+  "撒谎": {
+    "file": "撒谎.svg",
+    "src": "images/HSK_2.0/level6/撒谎.svg",
+    "caption": "nói dối"
+  },
+  "散文": {
+    "file": "散文.svg",
+    "src": "images/HSK_2.0/level6/散文.svg",
+    "caption": "tản văn"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",

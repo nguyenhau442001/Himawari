@@ -1,0 +1,156 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm Study Lamp Glow -->
+    <radialGradient id="lamp-glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Window Moonlight Gradient -->
+    <linearGradient id="moonlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Drop Shadow for Depth -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Full-bleed Background Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)"/>
+
+  <!-- ENVIRONMENT: Study Room Interior -->
+  <!-- Back Wall Details & Bookshelf -->
+  <rect x="25" y="30" width="190" height="130" rx="4" fill="#1e293b" opacity="0.6"/>
+  <!-- Bookshelf Shelves -->
+  <rect x="35" y="60" width="85" height="4" fill="#334155" rx="2"/>
+  <rect x="35" y="95" width="85" height="4" fill="#334155" rx="2"/>
+
+  <!-- Books on Shelf (Abstract colorful spines) -->
+  <rect x="42" y="42" width="6" height="18" rx="1" fill="#f43f5e"/>
+  <rect x="50" y="40" width="8" height="20" rx="1" fill="#38bdf8"/>
+  <rect x="60" y="45" width="5" height="15" rx="1" fill="#fbbf24"/>
+  <rect x="68" y="38" width="10" height="22" rx="1" fill="#10b981"/>
+  <rect x="81" y="44" width="6" height="16" rx="1" fill="#a855f7"/>
+
+  <rect x="42" y="75" width="8" height="20" rx="1" fill="#fb923c"/>
+  <rect x="52" y="78" width="5" height="17" rx="1" fill="#38bdf8"/>
+  <rect x="60" y="72" width="12" height="23" rx="1" fill="#f43f5e"/>
+
+  <!-- Traditional Scroll Hanging on Wall -->
+  <rect x="180" y="40" width="22" height="65" rx="2" fill="#334155"/>
+  <rect x="183" y="43" width="16" height="57" rx="1" fill="#e2e8f0" opacity="0.9"/>
+  <!-- Abstract brush strokes on scroll -->
+  <line x1="191" y1="48" x2="191" y2="70" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="187" y1="75" x2="195" y2="75" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <rect x="178" y="38" width="26" height="4" rx="1" fill="#b45309"/>
+  <rect x="178" y="103" width="26" height="4" rx="1" fill="#b45309"/>
+
+  <!-- Round Window showing Night Sky & Bamboo outside -->
+  <circle cx="145" cy="65" r="28" fill="#0f172a" stroke="#334155" stroke-width="3"/>
+  <circle cx="145" cy="65" r="27" fill="url(#moonlight)"/>
+  <!-- Bamboo silhouette outside window -->
+  <line x1="135" y1="45" x2="135" y2="85" stroke="#10b981" stroke-width="2" opacity="0.4"/>
+  <line x1="155" y1="45" x2="155" y2="85" stroke="#10b981" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 135 55 Q 128 50 125 48" stroke="#10b981" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M 155 70 Q 162 65 165 63" stroke="#10b981" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Ambient Light Layer -->
+  <rect width="240" height="240" fill="url(#lamp-glow)" pointer-events="none"/>
+
+  <!-- STUDY DESK & PROPS -->
+  <!-- Wooden Desk Surface -->
+  <rect x="20" y="160" width="200" height="12" rx="3" fill="#b45309" filter="url(#shadow)"/>
+  <rect x="15" y="172" width="210" height="6" rx="2" fill="#92400e"/>
+  <!-- Desk Legs -->
+  <rect x="35" y="178" width="10" height="45" fill="#78350f"/>
+  <rect x="195" y="178" width="10" height="45" fill="#78350f"/>
+
+  <!-- Desk Lamp -->
+  <path d="M 195 160 L 195 125 L 180 115" stroke="#64748b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 170 105 L 190 105 L 198 118 L 162 118 Z" fill="#fbbf24"/>
+  <!-- Lamp Beam Overlay -->
+  <polygon points="180,118 120,200 200,200" fill="#f59e0b" opacity="0.12" pointer-events="none"/>
+
+  <!-- Stack of Classical Ancient Bound Books (Traditional Thread-bound style) on Desk -->
+  <g filter="url(#shadow)">
+    <!-- Book 3 (Bottom) -->
+    <path d="M 110 152 L 155 142 L 168 153 L 123 163 Z" fill="#475569"/>
+    <path d="M 110 152 L 155 142 L 155 146 L 110 156 Z" fill="#cbd5e1"/>
+    <!-- Book 2 (Middle) -->
+    <path d="M 108 144 L 152 135 L 164 145 L 120 154 Z" fill="#334155"/>
+    <path d="M 108 144 L 152 135 L 152 139 L 108 148 Z" fill="#94a3b8"/>
+    <!-- Book 1 (Top - Open or Annotated) -->
+    <path d="M 105 135 L 148 126 L 160 136 L 117 145 Z" fill="#f8fafc"/>
+    <!-- Binding threads -->
+    <line x1="112" y1="140" x2="115" y2="142" stroke="#e2e8f0" stroke-width="1.5"/>
+    <line x1="116" y1="139" x2="119" y2="141" stroke="#e2e8f0" stroke-width="1.5"/>
+  </g>
+
+  <!-- Research Notebook & Brush Holder -->
+  <rect x="45" y="142" width="45" height="20" rx="2" fill="#38bdf8" transform="rotate(-5 45 142)" filter="url(#shadow)"/>
+  <line x1="52" y1="148" x2="80" y2="145" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="52" y1="154" x2="75" y2="151" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Ceramic Brush Pot -->
+  <rect x="78" y="132" width="14" height="24" rx="3" fill="#e2e8f0" filter="url(#shadow)"/>
+  <ellipse cx="85" cy="132" rx="7" ry="2" fill="#cbd5e1"/>
+  <!-- Brushes sticking out -->
+  <line x1="83" y1="132" x2="79" y2="114" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 79 114 Q 78 111 81 110 Q 84 111 83 114 Z" fill="#0f172a"/>
+  <line x1="87" y1="132" x2="90" y2="112" stroke="#334155" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- MAIN CHARACTER: Researcher / Scholar (Focused, studying for years) -->
+  <g id="researcher" filter="url(#shadow)">
+    <!-- Chair Back -->
+    <path d="M 75 90 L 95 90 L 98 165 L 72 165 Z" fill="#475569" rx="4"/>
+    
+    <!-- Character Torso & Arms -->
+    <!-- Sleeves/Body leaning forward -->
+    <path d="M 72 135 C 72 115, 95 110, 110 125 L 115 160 L 72 160 Z" fill="#1e40af"/> <!-- Deep Blue Academic Jacket/Shirt -->
+    
+    <!-- Head & Hair (Thoughtful expression, slightly mature with neat short hair) -->
+    <circle cx="95" cy="102" r="14" fill="#fcd34d"/> <!-- Warm Skin Tone -->
+    <!-- Hair -->
+    <path d="M 81 100 C 81 90, 90 86, 103 89 C 111 91, 110 99, 108 103 L 95 99 Z" fill="#0f172a"/>
+    
+    <!-- Face Profile / Details (Engaged, looking down at ancient texts) -->
+    <!-- Eyebrow (Concentrated) -->
+    <line x1="97" y1="99" x2="105" y2="101" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Glasses -->
+    <circle cx="102" cy="104" r="4.5" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    
+    <!-- Arms reaching out to the desk -->
+    <path d="M 88 128 C 95 125, 105 130, 115 142 L 110 150 C 100 138, 92 135, 85 138 Z" fill="#1d4ed8"/>
+    <!-- Hand holding a traditional brush / pen -->
+    <circle cx="115" cy="143" r="3.5" fill="#fcd34d"/>
+    <line x1="115" y1="143" x2="125" y2="132" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- FOREGROUND / ATMOSPHERIC DETAILS -->
+  <!-- Floating Knowledge Sparkles / Warm Ambient Dust Motes -->
+  <circle cx="135" cy="115" r="1.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="155" cy="130" r="1" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="120" cy="95" r="2" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="165" cy="100" r="1.5" fill="#f59e0b" opacity="0.7"/>
+
+  <!-- Coffee Mug / Tea Cup on Desk for long study hours -->
+  <g filter="url(#shadow)">
+    <rect x="175" y="145" width="12" height="15" rx="2" fill="#f1f5f9"/>
+    <path d="M 187 148 C 192 148, 192 156, 187 156" stroke="#f1f5f9" stroke-width="2" fill="none"/>
+    <!-- Steam wisps -->
+    <path d="M 179 140 Q 181 135, 178 130" stroke="#cbd5e1" stroke-width="1.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 183 141 Q 185 136, 182 131" stroke="#cbd5e1" stroke-width="1.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Outer Border Frame/Stroke for clean vector polish -->
+  <rect width="240" height="240" rx="24" fill="none" stroke="#334155" stroke-width="2" opacity="0.5"/>
+</svg>

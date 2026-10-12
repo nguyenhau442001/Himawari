@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:57:36.055333",
-  "total_unique_words_with_illustrations": 4480,
-  "total_flat_svg_files": 4480,
+  "generated_at": "2026-10-12T22:58:32.803862",
+  "total_unique_words_with_illustrations": 4485,
+  "total_flat_svg_files": 4485,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1840,
-        "pct": "73.6%"
+        "with_svg": 1845,
+        "pct": "73.8%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 614,
-        "pct": "34.1%"
+        "with_svg": 616,
+        "pct": "34.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 913,
+        "with_svg": 915,
         "pct": "16.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 913,
+        "with_svg": 915,
         "pct": "16.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 913,
+        "with_svg": 915,
         "pct": "16.3%"
       }
     }
@@ -72958,6 +72958,100 @@
         "images/HSK_3.0/level7/柔和.svg",
         "images/HSK_3.0/level8/柔和.svg",
         "images/HSK_3.0/level9/柔和.svg"
+      ]
+    },
+    "儒家": {
+      "hanzi": "儒家",
+      "pinyin": "rújiā",
+      "meaning": "Nho gia",
+      "example_zh": "他研究<u>儒家</u>思想多年。",
+      "example_vi": "Anh ấy đã nghiên cứu tư tưởng <u>Nho gia</u> nhiều năm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "儒家.svg",
+      "src": "images/HSK_2.0/level6/儒家.svg",
+      "alt_srcs": []
+    },
+    "弱点": {
+      "hanzi": "弱点",
+      "pinyin": "ruòdiǎn",
+      "meaning": "điểm yếu",
+      "example_zh": "每个人都有自己的<u>弱点</u>。",
+      "example_vi": "Mỗi người đều có <u>điểm yếu</u> của riêng mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "弱点.svg",
+      "src": "images/HSK_2.0/level6/弱点.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/弱点.svg"
+      ]
+    },
+    "若干": {
+      "hanzi": "若干",
+      "pinyin": "ruògān",
+      "meaning": "một số, vài",
+      "example_zh": "会上提出了<u>若干</u>建议。",
+      "example_vi": "Trong cuộc họp đã đưa ra <u>một số</u> kiến nghị.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "若干.svg",
+      "src": "images/HSK_2.0/level6/若干.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/若干.svg",
+        "images/HSK_3.0/level8/若干.svg",
+        "images/HSK_3.0/level9/若干.svg"
+      ]
+    },
+    "撒谎": {
+      "hanzi": "撒谎",
+      "pinyin": "sāhuǎng",
+      "meaning": "nói dối",
+      "example_zh": "他从不<u>撒谎</u>。",
+      "example_vi": "Anh ấy không bao giờ <u>nói dối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "撒谎.svg",
+      "src": "images/HSK_2.0/level6/撒谎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/撒谎.svg",
+        "images/HSK_3.0/level8/撒谎.svg",
+        "images/HSK_3.0/level9/撒谎.svg"
+      ]
+    },
+    "散文": {
+      "hanzi": "散文",
+      "pinyin": "sǎnwén",
+      "meaning": "tản văn",
+      "example_zh": "她写了一篇很优美的<u>散文</u>。",
+      "example_vi": "Cô ấy đã viết một bài <u>tản văn</u> rất hay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "散文.svg",
+      "src": "images/HSK_2.0/level6/散文.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/散文.svg"
       ]
     },
     "擅长": {
