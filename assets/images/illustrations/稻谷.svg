@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="60%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <!-- Warm Golden Sun/Glow -->
+    <radialGradient id="sunGlow" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Rice Paddy Gradients -->
+    <linearGradient id="paddyMud" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#451a03" />
+      <stop offset="100%" stop-color="#291102" />
+    </linearGradient>
+
+    <!-- Rice Grain/Stalk Gradient -->
+    <linearGradient id="riceGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    
+    <linearGradient id="riceStem" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bef264" />
+      <stop offset="100%" stop-color="#65a30d" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#skyGrad)" />
+  <rect width="240" height="240" rx="24" fill="url(#sunGlow)" />
+
+  <!-- Distant Mountains/Hills -->
+  <path d="M0 150 Q 60 120, 120 145 T 240 135 L 240 180 L 0 180 Z" fill="#334155" opacity="0.6" />
+  <path d="M0 160 Q 90 135, 160 155 T 240 150 L 240 180 L 0 180 Z" fill="#475569" opacity="0.8" />
+
+  <!-- Rice Paddy Background Field -->
+  <path d="M0 170 Q 120 155, 240 170 L 240 240 L 0 240 Z" fill="url(#paddyMud)" />
+
+  <!-- Background Rice Stalks (Dense) -->
+  <g stroke="url(#riceStem)" stroke-width="1.5" stroke-linecap="round">
+    <line x1="20" y1="180" x2="15" y2="140" />
+    <line x1="30" y1="185" x2="28" y2="145" />
+    <line x1="45" y1="178" x2="48" y2="138" />
+    <line x1="60" y1="182" x2="58" y2="142" />
+    <line x1="180" y1="180" x2="175" y2="140" />
+    <line x1="195" y1="185" x2="198" y2="145" />
+    <line x1="210" y1="178" x2="208" y2="138" />
+    <line x1="225" y1="182" x2="230" y2="142" />
+  </g>
+  <!-- Background Grain heads -->
+  <g fill="url(#riceGold)">
+    <ellipse cx="15" cy="140" rx="3" ry="5" transform="rotate(-15 15 140)" />
+    <ellipse cx="28" cy="145" rx="3" ry="5" transform="rotate(10 28 145)" />
+    <ellipse cx="48" cy="138" rx="3" ry="5" transform="rotate(-5 48 138)" />
+    <ellipse cx="58" cy="142" rx="3" ry="5" transform="rotate(15 58 142)" />
+    <ellipse cx="175" cy="140" rx="3" ry="5" transform="rotate(15 175 140)" />
+    <ellipse cx="198" cy="145" rx="3" ry="5" transform="rotate(-10 198 145)" />
+    <ellipse cx="208" cy="138" rx="3" ry="5" transform="rotate(5 208 138)" />
+    <ellipse cx="230" cy="142" rx="3" ry="5" transform="rotate(-15 230 142)" />
+  </g>
+
+  <!-- Foreground / Midground Context: Farmer Harvesting Rice (dàogǔ) -->
+  <!-- Farmer Character -->
+  <g id="farmer" transform="translate(100, 115)">
+    <!-- Bamboo Hat (Non La) -->
+    <ellipse cx="12" cy="-22" rx="22" ry="7" fill="#d97706" />
+    <ellipse cx="12" cy="-23" rx="22" ry="6" fill="#fbbf24" />
+    <path d="M-10 -22 L 12 -34 L 34 -22 Z" fill="#b45309" />
+
+    <!-- Head & Face (Smiling, focused) -->
+    <circle cx="12" cy="-12" r="8" fill="#fcd34d" />
+    <path d="M14 -10 Q 17 -8, 20 -10" stroke="#78350f" stroke-width="1.5" stroke-linecap="round" fill="none" /> <!-- Smile -->
+    <circle cx="16" cy="-13" r="1" fill="#78350f" /> <!-- Eye -->
+
+    <!-- Torso (Blue farmer shirt, leaning forward for harvesting action) -->
+    <path d="M-2 -3 C 0 -8, 18 -10, 24 -2 L 18 22 C 10 25, -2 22, -8 15 Z" fill="#38bdf8" />
+    <path d="M12 2 C 15 8, 14 15, 10 20" stroke="#0284c7" stroke-width="2" fill="none" /> <!-- Shirt fold -->
+
+    <!-- Back Arm holding sickle -->
+    <path d="M 12 -4 L 30 10 L 42 2" stroke="#fcd34d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Sickle (Harvesting tool) cutting through rice -->
+    <path d="M 38 -2 C 48 -10, 52 5, 42 12 C 46 8, 46 2, 38 -2 Z" fill="#94a3b8" />
+    <path d="M 42 2 L 52 16" stroke="#b45309" stroke-width="3" stroke-linecap="round" /> <!-- Wooden handle -->
+
+    <!-- Front Arm -->
+    <path d="M 4 -2 L 16 12 L 24 20" stroke="#fcd34d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Legs (Pants tucked) -->
+    <path d="M -2 20 L -8 45 L -2 46 L 2 30 Z" fill="#1e293b" />
+    <path d="M 12 21 L 22 42 L 28 41 L 18 25 Z" fill="#1e293b" />
+  </g>
+
+  <!-- Foreground Rich Clump of Mature 稻谷 (Dàogǔ - Rice Crops Being Harvested) -->
+  <g id="foreground-rice">
+    <!-- Base stems bending from the sickle action -->
+    <path d="M 70 210 Q 80 160, 110 135" stroke="url(#riceStem)" stroke-width="3" fill="none" />
+    <path d="M 80 215 Q 95 165, 125 140" stroke="url(#riceStem)" stroke-width="3" fill="none" />
+    <path d="M 90 220 Q 110 170, 140 145" stroke="url(#riceStem)" stroke-width="3" fill="none" />
+    <path d="M 60 205 Q 70 155, 95 130" stroke="url(#riceStem)" stroke-width="2.5" fill="none" />
+
+    <!-- Heavy golden rice grains (dàogǔ heads) - drooping gracefully under weight -->
+    <!-- Cluster 1 -->
+    <g fill="url(#riceGold)">
+      <ellipse cx="110" cy="135" rx="4" ry="7" transform="rotate(35 110 135)" />
+      <ellipse cx="118" cy="138" rx="4" ry="7" transform="rotate(45 118 138)" />
+      <ellipse cx="106" cy="142" rx="3.5" ry="6" transform="rotate(25 106 142)" />
+      <ellipse cx="115" cy="146" rx="3.5" ry="6" transform="rotate(50 115 146)" />
+      <ellipse cx="122" cy="144" rx="3" ry="5" transform="rotate(60 122 144)" />
+    </g>
+
+    <!-- Cluster 2 (Being cut / falling) -->
+    <g fill="url(#riceGold)" opacity="0.95">
+      <ellipse cx="125" cy="140" rx="4" ry="7" transform="rotate(15 125 140)" />
+      <ellipse cx="132" cy="145" rx="4" ry="7" transform="rotate(30 132 145)" />
+      <ellipse cx="122" cy="149" rx="3.5" ry="6" transform="rotate(10 122 149)" />
+      <ellipse cx="130" cy="153" rx="3.5" ry="6" transform="rotate(40 130 153)" />
+    </g>
+
+    <!-- Cluster 3 -->
+    <g fill="url(#riceGold)">
+      <ellipse cx="140" cy="145" rx="4" ry="7" transform="rotate(-5 140 145)" />
+      <ellipse cx="148" cy="150" rx="4" ry="7" transform="rotate(15 148 150)" />
+      <ellipse cx="138" cy="155" rx="3.5" ry="6" transform="rotate(-15 138 155)" />
+      <ellipse cx="146" cy="160" rx="3.5" ry="6" transform="rotate(20 146 160)" />
+    </g>
+
+    <!-- More lush stalks filling bottom corners -->
+    <path d="M 20 230 Q 30 190, 50 160" stroke="url(#riceStem)" stroke-width="4" fill="none" />
+    <path d="M 35 235 Q 45 195, 65 165" stroke="url(#riceStem)" stroke-width="4" fill="none" />
+    <g fill="url(#riceGold)">
+      <ellipse cx="50" cy="160" rx="5" ry="8" transform="rotate(20 50 160)" />
+      <ellipse cx="58" cy="165" rx="4.5" ry="7.5" transform="rotate(40 58 165)" />
+      <ellipse cx="45" cy="170" rx="4" ry="7" transform="rotate(10 45 170)" />
+      <ellipse cx="65" cy="165" rx="5" ry="8" transform="rotate(30 65 165)" />
+      <ellipse cx="73" cy="170" rx="4.5" ry="7" transform="rotate(50 73 170)" />
+    </g>
+
+    <!-- Right side harvested bundles / basket context -->
+    <path d="M 190 240 Q 185 190, 175 160" stroke="url(#riceStem)" stroke-width="3" fill="none" />
+    <path d="M 205 240 Q 195 195, 185 165" stroke="url(#riceStem)" stroke-width="3" fill="none" />
+    <g fill="url(#riceGold)">
+      <ellipse cx="175" cy="160" rx="4" ry="7" transform="rotate(-20 175 160)" />
+      <ellipse cx="185" cy="165" rx="4" ry="7" transform="rotate(-10 185 165)" />
+      <ellipse cx="180" cy="172" rx="4" ry="7" transform="rotate(-30 180 172)" />
+    </g>
+  </g>
+
+  <!-- Bamboo Basket (Conical Basket for gathered 稻谷) on the right -->
+  <g transform="translate(170, 180)">
+    <!-- Basket Body -->
+    <path d="M 0 10 L 10 45 L 40 45 L 50 10 Z" fill="#b45309" />
+    <path d="M -3 10 L 53 10 L 48 3 L 2 3 Z" fill="#d97706" />
+    <!-- Weave texture lines -->
+    <path d="M 5 20 L 45 20 M 8 30 L 42 30 M 10 40 L 40 40" stroke="#78350f" stroke-width="1.5" opacity="0.6" fill="none" />
+    <path d="M 12 10 L 16 45 M 24 10 L 28 45 M 36 10 L 40 45" stroke="#78350f" stroke-width="1" opacity="0.4" fill="none" />
+    
+    <!-- Overflowing harvested rice inside basket -->
+    <ellipse cx="25" cy="10" rx="28" ry="8" fill="url(#riceGold)" />
+    <!-- Individual grain details on top of basket -->
+    <ellipse cx="15" cy="8" rx="3" ry="5" fill="#fef08a" transform="rotate(-20 15 8)" />
+    <ellipse cx="25" cy="6" rx="3" ry="5" fill="#fef08a" transform="rotate(5 25 6)" />
+    <ellipse cx="35" cy="9" rx="3" ry="5" fill="#fef08a" transform="rotate(25 35 9)" />
+  </g>
+
+  <!-- Floating particles/golden pollen/dust catching the warm light -->
+  <g fill="#fde047" opacity="0.7">
+    <circle cx="85" cy="120" r="1.5" />
+    <circle cx="95" cy="105" r="2" />
+    <circle cx="120" cy="110" r="1" />
+    <circle cx="135" cy="125" r="2.5" />
+    <circle cx="150" cy="115" r="1.5" />
+    <circle cx="110" cy="95" r="2" />
+  </g>
+
+  <!-- Atmospheric Lighting Overlay / Vignette -->
+  <rect width="240" height="240" rx="24" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.2" />
+</svg>

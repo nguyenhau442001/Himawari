@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:51:12.646764",
-  "total_unique_words_with_illustrations": 3579,
-  "total_flat_svg_files": 3579,
+  "generated_at": "2026-10-12T11:53:03.230141",
+  "total_unique_words_with_illustrations": 3589,
+  "total_flat_svg_files": 3589,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 939,
-        "pct": "37.6%"
+        "with_svg": 949,
+        "pct": "38.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 351,
-        "pct": "19.5%"
+        "with_svg": 352,
+        "pct": "19.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 334,
-        "pct": "6.0%"
+        "with_svg": 342,
+        "pct": "6.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 334,
-        "pct": "6.0%"
+        "with_svg": 342,
+        "pct": "6.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 334,
-        "pct": "6.0%"
+        "with_svg": 342,
+        "pct": "6.1%"
       }
     }
   },
@@ -53816,6 +53816,214 @@
         "images/HSK_3.0/level7/导弹.svg",
         "images/HSK_3.0/level8/导弹.svg",
         "images/HSK_3.0/level9/导弹.svg"
+      ]
+    },
+    "导航": {
+      "hanzi": "导航",
+      "pinyin": "dǎoháng",
+      "meaning": "định vị dẫn đường",
+      "example_zh": "手机上的<u>导航</u>很准确。",
+      "example_vi": "<u>Định vị dẫn đường</u> trên điện thoại rất chính xác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "导航.svg",
+      "src": "images/HSK_2.0/level6/导航.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/导航.svg",
+        "images/HSK_3.0/level8/导航.svg",
+        "images/HSK_3.0/level9/导航.svg"
+      ]
+    },
+    "捣乱": {
+      "hanzi": "捣乱",
+      "pinyin": "dǎoluàn",
+      "meaning": "gây rối",
+      "example_zh": "别在这里<u>捣乱</u>。",
+      "example_vi": "Đừng <u>gây rối</u> ở đây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "捣乱.svg",
+      "src": "images/HSK_2.0/level6/捣乱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/捣乱.svg",
+        "images/HSK_3.0/level8/捣乱.svg",
+        "images/HSK_3.0/level9/捣乱.svg"
+      ]
+    },
+    "导向": {
+      "hanzi": "导向",
+      "pinyin": "dǎoxiàng",
+      "meaning": "định hướng",
+      "example_zh": "政策对市场有<u>导向</u>作用。",
+      "example_vi": "Chính sách có vai trò <u>định hướng</u> đối với thị trường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "导向.svg",
+      "src": "images/HSK_2.0/level6/导向.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/导向.svg",
+        "images/HSK_3.0/level8/导向.svg",
+        "images/HSK_3.0/level9/导向.svg"
+      ]
+    },
+    "稻谷": {
+      "hanzi": "稻谷",
+      "pinyin": "dàogǔ",
+      "meaning": "lúa",
+      "example_zh": "农民正在收割<u>稻谷</u>。",
+      "example_vi": "Nông dân đang gặt <u>lúa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "稻谷.svg",
+      "src": "images/HSK_2.0/level6/稻谷.svg",
+      "alt_srcs": []
+    },
+    "盗窃": {
+      "hanzi": "盗窃",
+      "pinyin": "dàoqiè",
+      "meaning": "trộm cắp",
+      "example_zh": "他因<u>盗窃</u>被捕。",
+      "example_vi": "Anh ta bị bắt vì <u>trộm cắp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盗窃.svg",
+      "src": "images/HSK_2.0/level6/盗窃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盗窃.svg",
+        "images/HSK_3.0/level8/盗窃.svg",
+        "images/HSK_3.0/level9/盗窃.svg"
+      ]
+    },
+    "得不偿失": {
+      "hanzi": "得不偿失",
+      "pinyin": "dé bù cháng shī",
+      "meaning": "lợi không bằng hại, được ít mất nhiều",
+      "example_zh": "这样做<u>得不偿失</u>。",
+      "example_vi": "Làm như thế <u>lợi không bằng hại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "得不偿失.svg",
+      "src": "images/HSK_2.0/level6/得不偿失.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/得不偿失.svg",
+        "images/HSK_3.0/level8/得不偿失.svg",
+        "images/HSK_3.0/level9/得不偿失.svg"
+      ]
+    },
+    "得力": {
+      "hanzi": "得力",
+      "pinyin": "délì",
+      "meaning": "đắc lực",
+      "example_zh": "他是公司的<u>得力</u>助手。",
+      "example_vi": "Anh ấy là trợ lý <u>đắc lực</u> của công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "得力.svg",
+      "src": "images/HSK_2.0/level6/得力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/得力.svg",
+        "images/HSK_3.0/level8/得力.svg",
+        "images/HSK_3.0/level9/得力.svg"
+      ]
+    },
+    "得天独厚": {
+      "hanzi": "得天独厚",
+      "pinyin": "dé tiān dú hòu",
+      "meaning": "vô cùng ưu đãi, được thiên nhiên ban tặng",
+      "example_zh": "这里的自然条件<u>得天独厚</u>。",
+      "example_vi": "Điều kiện tự nhiên ở đây <u>vô cùng ưu đãi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "得天独厚.svg",
+      "src": "images/HSK_2.0/level6/得天独厚.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/得天独厚.svg",
+        "images/HSK_3.0/level8/得天独厚.svg",
+        "images/HSK_3.0/level9/得天独厚.svg"
+      ]
+    },
+    "得罪": {
+      "hanzi": "得罪",
+      "pinyin": "dézuì",
+      "meaning": "làm phật ý, xúc phạm",
+      "example_zh": "他不想<u>得罪</u>任何人。",
+      "example_vi": "Anh ấy không muốn <u>làm phật ý</u> ai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "得罪.svg",
+      "src": "images/HSK_2.0/level6/得罪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/得罪.svg",
+        "images/HSK_3.0/level8/得罪.svg",
+        "images/HSK_3.0/level9/得罪.svg"
+      ]
+    },
+    "灯笼": {
+      "hanzi": "灯笼",
+      "pinyin": "dēnglóng",
+      "meaning": "đèn lồng",
+      "example_zh": "过年时家家挂<u>灯笼</u>。",
+      "example_vi": "Vào dịp Tết nhà nào cũng treo <u>đèn lồng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "灯笼.svg",
+      "src": "images/HSK_2.0/level6/灯笼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/灯笼.svg"
       ]
     },
     "登录": {

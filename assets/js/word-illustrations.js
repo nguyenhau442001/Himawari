@@ -14717,6 +14717,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/导弹.svg",
     "caption": "tên lửa dẫn đường"
   },
+  "导航": {
+    "file": "导航.svg",
+    "src": "images/HSK_2.0/level6/导航.svg",
+    "caption": "định vị dẫn đường"
+  },
+  "捣乱": {
+    "file": "捣乱.svg",
+    "src": "images/HSK_2.0/level6/捣乱.svg",
+    "caption": "gây rối"
+  },
+  "导向": {
+    "file": "导向.svg",
+    "src": "images/HSK_2.0/level6/导向.svg",
+    "caption": "định hướng"
+  },
+  "稻谷": {
+    "file": "稻谷.svg",
+    "src": "images/HSK_2.0/level6/稻谷.svg",
+    "caption": "lúa"
+  },
+  "盗窃": {
+    "file": "盗窃.svg",
+    "src": "images/HSK_2.0/level6/盗窃.svg",
+    "caption": "trộm cắp"
+  },
+  "得不偿失": {
+    "file": "得不偿失.svg",
+    "src": "images/HSK_2.0/level6/得不偿失.svg",
+    "caption": "lợi không bằng hại, được ít mất nhiều"
+  },
+  "得力": {
+    "file": "得力.svg",
+    "src": "images/HSK_2.0/level6/得力.svg",
+    "caption": "đắc lực"
+  },
+  "得天独厚": {
+    "file": "得天独厚.svg",
+    "src": "images/HSK_2.0/level6/得天独厚.svg",
+    "caption": "vô cùng ưu đãi, được thiên nhiên ban tặng"
+  },
+  "得罪": {
+    "file": "得罪.svg",
+    "src": "images/HSK_2.0/level6/得罪.svg",
+    "caption": "làm phật ý, xúc phạm"
+  },
+  "灯笼": {
+    "file": "灯笼.svg",
+    "src": "images/HSK_2.0/level6/灯笼.svg",
+    "caption": "đèn lồng"
+  },
   "登录": {
     "file": "登录.svg",
     "src": "images/HSK_2.0/level6/登录.svg",
