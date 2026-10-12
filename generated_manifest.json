@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:26:14.411544",
-  "total_unique_words_with_illustrations": 4310,
-  "total_flat_svg_files": 4310,
+  "generated_at": "2026-10-12T22:27:12.205067",
+  "total_unique_words_with_illustrations": 4315,
+  "total_flat_svg_files": 4315,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1670,
-        "pct": "66.8%"
+        "with_svg": 1675,
+        "pct": "67.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 559,
-        "pct": "31.1%"
+        "with_svg": 561,
+        "pct": "31.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 805,
+        "with_svg": 808,
         "pct": "14.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 805,
+        "with_svg": 808,
         "pct": "14.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 805,
+        "with_svg": 808,
         "pct": "14.4%"
       }
     }
@@ -69368,6 +69368,108 @@
         "images/HSK_3.0/level7/平坦.svg",
         "images/HSK_3.0/level8/平坦.svg",
         "images/HSK_3.0/level9/平坦.svg"
+      ]
+    },
+    "平行": {
+      "hanzi": "平行",
+      "pinyin": "píngxíng",
+      "meaning": "song song",
+      "example_zh": "这两条直线是<u>平行</u>的。",
+      "example_vi": "Hai đường thẳng này <u>song song</u> với nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "平行.svg",
+      "src": "images/HSK_2.0/level6/平行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/平行.svg",
+        "images/HSK_3.0/level8/平行.svg",
+        "images/HSK_3.0/level9/平行.svg"
+      ]
+    },
+    "平原": {
+      "hanzi": "平原",
+      "pinyin": "píngyuán",
+      "meaning": "đồng bằng",
+      "example_zh": "华北<u>平原</u>是重要的农业区。",
+      "example_vi": "<u>Đồng bằng</u> Hoa Bắc là vùng nông nghiệp quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "平原.svg",
+      "src": "images/HSK_2.0/level6/平原.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/平原.svg",
+        "images/HSK_3.0/level8/平原.svg",
+        "images/HSK_3.0/level9/平原.svg"
+      ]
+    },
+    "平庸": {
+      "hanzi": "平庸",
+      "pinyin": "píngyōng",
+      "meaning": "tầm thường, bình thường (năng lực)",
+      "example_zh": "他不甘心过<u>平庸</u>的生活。",
+      "example_vi": "Anh ấy không cam tâm sống một cuộc đời <u>tầm thường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "平庸.svg",
+      "src": "images/HSK_2.0/level6/平庸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/平庸.svg",
+        "images/HSK_3.0/level8/平庸.svg",
+        "images/HSK_3.0/level9/平庸.svg"
+      ]
+    },
+    "评估": {
+      "hanzi": "评估",
+      "pinyin": "pínggū",
+      "meaning": "đánh giá, thẩm định",
+      "example_zh": "专家对项目进行了<u>评估</u>。",
+      "example_vi": "Chuyên gia đã <u>đánh giá</u> dự án.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "评估.svg",
+      "src": "images/HSK_2.0/level6/评估.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/评估.svg"
+      ]
+    },
+    "评论": {
+      "hanzi": "评论",
+      "pinyin": "pínglùn",
+      "meaning": "bình luận",
+      "example_zh": "这篇文章引起了很多<u>评论</u>。",
+      "example_vi": "Bài viết này đã gây ra nhiều <u>bình luận</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "评论.svg",
+      "src": "images/HSK_2.0/level6/评论.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/评论.svg"
       ]
     },
     "屏幕": {

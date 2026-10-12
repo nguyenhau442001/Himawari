@@ -18567,6 +18567,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/平坦.svg",
     "caption": "bằng phẳng"
   },
+  "平行": {
+    "file": "平行.svg",
+    "src": "images/HSK_2.0/level6/平行.svg",
+    "caption": "song song"
+  },
+  "平原": {
+    "file": "平原.svg",
+    "src": "images/HSK_2.0/level6/平原.svg",
+    "caption": "đồng bằng"
+  },
+  "平庸": {
+    "file": "平庸.svg",
+    "src": "images/HSK_2.0/level6/平庸.svg",
+    "caption": "tầm thường, bình thường (năng lực)"
+  },
+  "评估": {
+    "file": "评估.svg",
+    "src": "images/HSK_2.0/level6/评估.svg",
+    "caption": "đánh giá, thẩm định"
+  },
+  "评论": {
+    "file": "评论.svg",
+    "src": "images/HSK_2.0/level6/评论.svg",
+    "caption": "bình luận"
+  },
   "屏幕": {
     "file": "屏幕.svg",
     "src": "images/HSK_2.0/level6/屏幕.svg",
