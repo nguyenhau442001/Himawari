@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:38:22.519217",
-  "total_unique_words_with_illustrations": 3819,
-  "total_flat_svg_files": 3819,
+  "generated_at": "2026-10-12T12:40:05.641268",
+  "total_unique_words_with_illustrations": 3829,
+  "total_flat_svg_files": 3829,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1179,
-        "pct": "47.2%"
+        "with_svg": 1189,
+        "pct": "47.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 420,
-        "pct": "23.3%"
+        "with_svg": 423,
+        "pct": "23.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 487,
-        "pct": "8.7%"
+        "with_svg": 492,
+        "pct": "8.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 487,
-        "pct": "8.7%"
+        "with_svg": 492,
+        "pct": "8.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 487,
-        "pct": "8.7%"
+        "with_svg": 492,
+        "pct": "8.8%"
       }
     }
   },
@@ -58951,6 +58951,198 @@
       "alt_srcs": [
         "images/HSK_3.0/level6/巩固.svg"
       ]
+    },
+    "共和国": {
+      "hanzi": "共和国",
+      "pinyin": "gònghéguó",
+      "meaning": "nước cộng hòa",
+      "example_zh": "越南是社会主义<u>共和国</u>。",
+      "example_vi": "Việt Nam là <u>nước cộng hòa</u> xã hội chủ nghĩa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "共和国.svg",
+      "src": "images/HSK_2.0/level6/共和国.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/共和国.svg",
+        "images/HSK_3.0/level8/共和国.svg",
+        "images/HSK_3.0/level9/共和国.svg"
+      ]
+    },
+    "共计": {
+      "hanzi": "共计",
+      "pinyin": "gòngjì",
+      "meaning": "tổng cộng",
+      "example_zh": "费用<u>共计</u>一千元。",
+      "example_vi": "Chi phí <u>tổng cộng</u> một nghìn tệ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "共计.svg",
+      "src": "images/HSK_2.0/level6/共计.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/共计.svg"
+      ]
+    },
+    "勾结": {
+      "hanzi": "勾结",
+      "pinyin": "gōujié",
+      "meaning": "thông đồng",
+      "example_zh": "他们<u>勾结</u>起来骗钱。",
+      "example_vi": "Họ <u>thông đồng</u> với nhau để lừa tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "勾结.svg",
+      "src": "images/HSK_2.0/level6/勾结.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/勾结.svg",
+        "images/HSK_3.0/level8/勾结.svg",
+        "images/HSK_3.0/level9/勾结.svg"
+      ]
+    },
+    "钩子": {
+      "hanzi": "钩子",
+      "pinyin": "gōuzi",
+      "meaning": "cái móc",
+      "example_zh": "把衣服挂在<u>钩子</u>上。",
+      "example_vi": "Treo áo lên <u>cái móc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "钩子.svg",
+      "src": "images/HSK_2.0/level6/钩子.svg",
+      "alt_srcs": []
+    },
+    "构思": {
+      "hanzi": "构思",
+      "pinyin": "gòusī",
+      "meaning": "dàn dựng ý tưởng",
+      "example_zh": "他在<u>构思</u>一部新小说。",
+      "example_vi": "Anh ấy đang <u>dàn dựng ý tưởng</u> cho một cuốn tiểu thuyết mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "构思.svg",
+      "src": "images/HSK_2.0/level6/构思.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/构思.svg",
+        "images/HSK_3.0/level8/构思.svg",
+        "images/HSK_3.0/level9/构思.svg"
+      ]
+    },
+    "构造": {
+      "hanzi": "构造",
+      "pinyin": "gòuzào",
+      "meaning": "cấu tạo",
+      "example_zh": "这台机器的<u>构造</u>很复杂。",
+      "example_vi": "<u>Cấu tạo</u> của cái máy này rất phức tạp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "构造.svg",
+      "src": "images/HSK_2.0/level6/构造.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/构造.svg"
+      ]
+    },
+    "孤独": {
+      "hanzi": "孤独",
+      "pinyin": "gūdú",
+      "meaning": "cô độc",
+      "example_zh": "她感到非常<u>孤独</u>。",
+      "example_vi": "Cô ấy cảm thấy rất <u>cô độc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "孤独.svg",
+      "src": "images/HSK_2.0/level6/孤独.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/孤独.svg"
+      ]
+    },
+    "孤立": {
+      "hanzi": "孤立",
+      "pinyin": "gūlì",
+      "meaning": "cô lập",
+      "example_zh": "别让他感到被<u>孤立</u>。",
+      "example_vi": "Đừng để anh ấy cảm thấy bị <u>cô lập</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "孤立.svg",
+      "src": "images/HSK_2.0/level6/孤立.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/孤立.svg",
+        "images/HSK_3.0/level8/孤立.svg",
+        "images/HSK_3.0/level9/孤立.svg"
+      ]
+    },
+    "辜负": {
+      "hanzi": "辜负",
+      "pinyin": "gūfù",
+      "meaning": "phụ lòng, làm uổng công",
+      "example_zh": "我不想<u>辜负</u>父母的期望。",
+      "example_vi": "Tôi không muốn <u>phụ lòng</u> kỳ vọng của cha mẹ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辜负.svg",
+      "src": "images/HSK_2.0/level6/辜负.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辜负.svg",
+        "images/HSK_3.0/level8/辜负.svg",
+        "images/HSK_3.0/level9/辜负.svg"
+      ]
+    },
+    "古板": {
+      "hanzi": "古板",
+      "pinyin": "gǔbǎn",
+      "meaning": "cứng nhắc, cổ hủ",
+      "example_zh": "他的思想很<u>古板</u>。",
+      "example_vi": "Suy nghĩ của anh ấy rất <u>cổ hủ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "古板.svg",
+      "src": "images/HSK_2.0/level6/古板.svg",
+      "alt_srcs": []
     },
     "故乡": {
       "hanzi": "故乡",

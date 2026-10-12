@@ -15992,6 +15992,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/巩固.svg",
     "caption": "củng cố"
   },
+  "共和国": {
+    "file": "共和国.svg",
+    "src": "images/HSK_2.0/level6/共和国.svg",
+    "caption": "nước cộng hòa"
+  },
+  "共计": {
+    "file": "共计.svg",
+    "src": "images/HSK_2.0/level6/共计.svg",
+    "caption": "tổng cộng"
+  },
+  "勾结": {
+    "file": "勾结.svg",
+    "src": "images/HSK_2.0/level6/勾结.svg",
+    "caption": "thông đồng"
+  },
+  "钩子": {
+    "file": "钩子.svg",
+    "src": "images/HSK_2.0/level6/钩子.svg",
+    "caption": "cái móc"
+  },
+  "构思": {
+    "file": "构思.svg",
+    "src": "images/HSK_2.0/level6/构思.svg",
+    "caption": "dàn dựng ý tưởng"
+  },
+  "构造": {
+    "file": "构造.svg",
+    "src": "images/HSK_2.0/level6/构造.svg",
+    "caption": "cấu tạo"
+  },
+  "孤独": {
+    "file": "孤独.svg",
+    "src": "images/HSK_2.0/level6/孤独.svg",
+    "caption": "cô độc"
+  },
+  "孤立": {
+    "file": "孤立.svg",
+    "src": "images/HSK_2.0/level6/孤立.svg",
+    "caption": "cô lập"
+  },
+  "辜负": {
+    "file": "辜负.svg",
+    "src": "images/HSK_2.0/level6/辜负.svg",
+    "caption": "phụ lòng, làm uổng công"
+  },
+  "古板": {
+    "file": "古板.svg",
+    "src": "images/HSK_2.0/level6/古板.svg",
+    "caption": "cứng nhắc, cổ hủ"
+  },
   "故乡": {
     "file": "故乡.svg",
     "src": "images/HSK_2.0/level6/故乡.svg",

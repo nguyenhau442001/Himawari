@@ -1,0 +1,106 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <!-- Desk Wood Gradient -->
+    <linearGradient id="desk-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Warm Lamp Light -->
+    <radialGradient id="lamp-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)" />
+
+  <!-- Background Room Elements -->
+  <!-- Old-fashioned Bookshelf / Wall Panel -->
+  <rect x="25" y="30" width="190" height="120" rx="4" fill="#1b263b" stroke="#334155" stroke-width="2" />
+  <!-- Bookshelf Horizontal Shelves -->
+  <line x1="25" y1="75" x2="215" y2="75" stroke="#334155" stroke-width="2" />
+  <line x1="25" y1="120" x2="215" y2="120" stroke="#334155" stroke-width="2" />
+
+  <!-- Old Books on Shelf -->
+  <rect x="35" y="50" width="12" height="25" rx="1" fill="#475569" />
+  <rect x="50" y="47" width="10" height="28" rx="1" fill="#64748b" />
+  <rect x="63" y="52" width="14" height="23" rx="1" fill="#334155" />
+  <!-- Retro Clock (Rigid, Old-fashioned) -->
+  <circle cx="120" cy="52" r="16" fill="#0f172a" stroke="#cbd5e1" stroke-width="2" />
+  <line x1="120" y1="52" x2="120" y2="42" stroke="#cbd5e1" stroke-width="2" />
+  <line x1="120" y1="52" x2="128" y2="52" stroke="#cbd5e1" stroke-width="2" />
+  <!-- More Books -->
+  <rect x="175" y="48" width="16" height="27" rx="1" fill="#475569" />
+  <rect x="194" y="50" width="12" height="25" rx="1" fill="#64748b" />
+
+  <!-- Hanging Retro Lamp -->
+  <path d="M120 0 L120 35" stroke="#64748b" stroke-width="2" />
+  <path d="M100 35 L140 35 L130 45 L110 45 Z" fill="#64748b" />
+  <circle cx="120" cy="45" r="50" fill="url(#lamp-glow)" />
+
+  <!-- Office Desk Surface -->
+  <rect x="15" y="155" width="210" height="70" rx="4" fill="url(#desk-grad)" stroke="#475569" stroke-width="2" />
+
+  <!-- Props on Desk: Abacus (Symbol of rigid tradition) -->
+  <rect x="155" y="175" width="45" height="25" rx="2" fill="#78350f" stroke="#b45309" stroke-width="1.5" />
+  <line x1="165" y1="175" x2="165" y2="200" stroke="#fde68a" stroke-width="1" />
+  <line x1="177" y1="175" x2="177" y2="200" stroke="#fde68a" stroke-width="1" />
+  <line x1="190" y1="175" x2="190" y2="200" stroke="#fde68a" stroke-width="1" />
+  <!-- Abacus beads -->
+  <circle cx="165" cy="182" r="3" fill="#fbbf24" />
+  <circle cx="165" cy="192" r="3" fill="#fbbf24" />
+  <circle cx="177" cy="180" r="3" fill="#fbbf24" />
+  <circle cx="177" cy="195" r="3" fill="#fbbf24" />
+  <circle cx="190" cy="185" r="3" fill="#fbbf24" />
+
+  <!-- Stack of Old Paper Documents -->
+  <rect x="35" y="185" width="40" height="15" rx="1" fill="#f1f5f9" />
+  <rect x="37" y="182" width="40" height="15" rx="1" fill="#cbd5e1" />
+  <rect x="33" y="179" width="40" height="15" rx="1" fill="#e2e8f0" />
+  <!-- Fountain pen resting on papers -->
+  <path d="M45 175 L75 190" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Main Character: The Stubborn/Rigid Man (严肃、古板的男人) -->
+  <!-- Torso & Retro Suit -->
+  <path d="M85 200 L95 140 L145 140 L155 200 Z" fill="#1e3a8a" />
+  <!-- Crisp White Shirt Collar & Red Tie -->
+  <polygon points="120,145 110,165 130,165" fill="#f8fafc" />
+  <polygon points="118,160 120,200 122,160" fill="#dc2626" />
+  <!-- Suit Lapels -->
+  <path d="M95 140 L115 175 L120 145 Z" fill="#172554" />
+  <path d="M145 140 L125 175 L120 145 Z" fill="#172554" />
+
+  <!-- Head & Neck -->
+  <rect x="112" y="120" width="16" height="25" fill="#cbd5e1" />
+  <circle cx="120" cy="105" r="22" fill="#e2e8f0" />
+
+  <!-- Retro Hair (Slicked back, formal, rigid) -->
+  <path d="M98 105 C98 90, 110 83, 122 83 C138 83, 142 95, 142 105 C142 102, 138 90, 122 90 C108 90, 100 98, 98 105 Z" fill="#334155" />
+
+  <!-- Facial Features (Strict, unsmiling expression) -->
+  <!-- Strict Rectangular/Square Glasses -->
+  <rect x="106" y="96" width="12" height="8" rx="1" fill="none" stroke="#0f172a" stroke-width="1.5" />
+  <rect x="122" y="96" width="12" height="8" rx="1" fill="none" stroke="#0f172a" stroke-width="1.5" />
+  <line x1="118" y1="100" x2="122" y2="100" stroke="#0f172a" stroke-width="1.5" />
+  <!-- Heavy Frowning Eyebrows (Emphasizing rigidity) -->
+  <path d="M105 92 L117 95" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+  <path d="M135 92 L123 95" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+  <!-- Stern, Flat Mouth (No smile) -->
+  <line x1="113" y1="118" x2="127" y2="118" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Rigid Posture Arms Folded (Crossed Arms - Classic stubborn pose) -->
+  <path d="M95 150 L120 170 L145 150" fill="none" stroke="#1e3a8a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M102 165 L120 177 L138 165" fill="none" stroke="#334155" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Subtle Accent Lighting Highlights -->
+  <path d="M25 30 L215 30" stroke="#475569" stroke-width="1" opacity="0.5" />
+  <circle cx="120" cy="105" r="22" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.3" />
+</svg>
