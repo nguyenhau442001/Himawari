@@ -1,0 +1,66 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient background glow for warmth and focus -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.6"/>
+
+  <!-- Home Interior Environment Elements -->
+  <!-- Warm window showing evening/weekend light -->
+  <path d="M165 50 H205 V105 H165 Z" fill="#2E3646" rx="4"/>
+  <path d="M170 55 H200 V100 H170 Z" fill="#FFA726" opacity="0.15"/>
+  <path d="M185 55 V100 M170 77 H200" stroke="#2E3646" stroke-width="2"/>
+
+  <!-- Cozy Floor Lamp -->
+  <path d="M45 190 L55 90 H65 L75 190 Z" fill="#FFA726" opacity="0.15"/>
+  <path d="M55 90 H65 L68 100 H52 Z" fill="#FFB74D"/>
+  <path d="M60 100 V190" stroke="#718096" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sofa / Armchair -->
+  <path d="M85 130 C85 115 95 110 115 110 H145 C165 110 175 115 175 130 V180 C175 185 170 190 165 190 H95 C90 190 85 185 85 180 Z" fill="#3B82F6" opacity="0.2"/>
+  <path d="M90 135 H170 V175 H90 Z" fill="#3B82F6" opacity="0.3"/>
+
+  <!-- Grandma character (sitting, smiling, welcoming gesture) -->
+  <!-- Grandma Body -->
+  <path d="M110 175 V145 C110 135 120 130 130 130 C140 130 150 135 150 145 V175 Z" fill="#9333EA"/>
+  <!-- Grandma Head -->
+  <circle cx="130" cy="115" r="14" fill="#FBCFE8"/>
+  <!-- Grandma Hair (Silver bun) -->
+  <path d="M118 115 C118 105 142 105 142 115 C145 115 148 110 144 105 C138 98 122 98 116 105 C112 110 115 115 118 115 Z" fill="#E2E8F0"/>
+  <!-- Grandma Smiling Face profile/dots -->
+  <circle cx="135" cy="114" r="1.5" fill="#4A5568"/>
+  <path d="M136 118 Q138 120 140 118" stroke="#4A5568" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Visiting Character (Dynamic Action: Bringing gift, leaning in to visit) -->
+  <!-- Visitor Body -->
+  <path d="M65 185 C65 160 80 145 95 145 C100 145 105 147 108 150 L115 185 Z" fill="#10B981"/>
+  <!-- Visitor Head -->
+  <path d="M85 110 C85 100 95 95 105 100 C110 102 112 108 110 115 C108 122 90 125 85 110 Z" fill="#FBCFE8"/>
+  <path d="M85 106 C85 98 100 95 108 102 C104 105 95 102 88 108 Z" fill="#374151"/>
+
+  <!-- Visitor Arm Reaching Out (Interaction/Action) -->
+  <path d="M90 155 Q110 140 122 145" stroke="#10B981" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Gift Box (Representing the act of visiting/bringing care) -->
+  <g transform="translate(118, 135)">
+    <rect x="0" y="5" width="20" height="20" rx="3" fill="#F59E0B"/>
+    <rect x="-2" y="2" width="24" height="6" rx="2" fill="#D97706"/>
+    <path d="M10 5 V25" stroke="#FEF3C7" stroke-width="3"/>
+    <path d="M0 15 H20" stroke="#FEF3C7" stroke-width="3"/>
+    <!-- Bow -->
+    <path d="M7 2 C5 -1 2 2 6 4" fill="none" stroke="#FEF3C7" stroke-width="2" stroke-linecap="round"/>
+    <path d="M13 2 C15 -1 18 2 14 4" fill="none" stroke="#FEF3C7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Motion / Interaction Lines (Highlighting the verb action of going over to see someone) -->
+  <path d="M50 140 Q60 130 75 135" stroke="#FFA726" stroke-width="2.5" stroke-dasharray="4 4" stroke-linecap="round" fill="none"/>
+  <path d="M42 150 Q55 138 70 145" stroke="#FFA726" stroke-width="2.5" stroke-dasharray="4 4" stroke-linecap="round" fill="none"/>
+
+  <!-- Floating Heart / Warm Connection Symbol -->
+  <path d="M130 85 C130 80 137 75 142 80 C147 75 154 80 154 85 C154 92 142 100 142 100 C142 100 130 92 130 85 Z" fill="#EF4444" opacity="0.9"/>
+  
+  <!-- Sparkles / Warm Atmosphere -->
+  <circle cx="155" cy="65" r="2" fill="#FBBF24"/>
+  <circle cx="110" cy="60" r="1.5" fill="#FBBF24" opacity="0.7"/>
+  <circle cx="95" cy="80" r="2" fill="#FBBF24" opacity="0.5"/>
+</svg>

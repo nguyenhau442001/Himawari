@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow to emphasize the central object -->
+  <circle cx="120" cy="120" r="70" fill="#FFB703" opacity="0.08"/>
+
+  <!-- Conceptual Illustration: A meticulously prepared, bespoke gift box with a glowing accent (representing "特意" - specially / on purpose for someone) -->
+  <g transform="translate(0, 5)">
+    <!-- Floating magical sparkles indicating deliberate, special effort -->
+    <path d="M70,85 L73,92 L80,95 L73,98 L70,105 L67,98 L60,95 L67,92 Z" fill="#FFB703" opacity="0.8"/>
+    <path d="M175,70 L177,75 L182,77 L177,79 L175,84 L173,79 L168,77 L173,75 Z" fill="#FFB703" opacity="0.6"/>
+    <circle cx="155" cy="115" r="3" fill="#FFB703" opacity="0.5"/>
+    <circle cx="85" cy="130" r="2" fill="#FFB703" opacity="0.7"/>
+
+    <!-- Gift Box Bottom/Body -->
+    <path d="M75,120 L165,120 L165,175 C165,180.5 160.5,185 155,185 L85,185 C79.5,185 75,180.5 75,175 Z" fill="#2B303C"/>
+    
+    <!-- Gift Box Front Panel (Slightly lighter for depth) -->
+    <path d="M75,135 L165,135 L165,175 C165,180.5 160.5,185 155,185 L85,185 C79.5,185 75,180.5 75,175 Z" fill="#323846"/>
+
+    <!-- Vertical Ribbon -->
+    <rect x="110" y="120" width="20" height="65" fill="#FFB703"/>
+
+    <!-- Gift Box Lid -->
+    <path d="M70,105 L170,105 C173.3,105 176,107.7 176,111 L176,119 C176,122.3 173.3,125 170,125 L70,125 C66.7,125 64,122.3 64,119 L64,111 C64,107.7 66.7,105 70,105 Z" fill="#3D4455"/>
+
+    <!-- Lid Vertical Ribbon -->
+    <rect x="110" y="105" width="20" height="20" fill="#E5A302"/>
+
+    <!-- Fancy Gift Bow -->
+    <!-- Left Loop -->
+    <path d="M120,105 C105,105 92,92 95,78 C98,66 115,75 120,95 Z" fill="#FFB703"/>
+    <!-- Right Loop -->
+    <path d="M120,105 C135,105 148,92 145,78 C142,66 125,75 120,95 Z" fill="#FFB703"/>
+    <!-- Center Knot -->
+    <circle cx="120" cy="101" r="7" fill="#FFA100"/>
+    
+    <!-- Focus ring/heart tag representing "specially for you" -->
+    <path d="M120,62 C120,62 108,48 97,55 C88,61 90,75 103,85 L120,100 L137,85 C150,75 152,61 143,55 C132,48 120,62 120,62 Z" fill="#FF5722" transform="translate(0, -10) scale(0.65)" transform-origin="120 70"/>
+  </g>
+</svg>

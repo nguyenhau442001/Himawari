@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Background subtle glow -->
+    <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+    <!-- Boss/Superior Character (Right) -->
+    <g transform="translate(145, 80)">
+      <!-- Torso / Suit -->
+      <path d="M -15 65 L 25 65 L 35 110 L -25 110 Z" fill="#2D3748"/>
+      <path d="M 0 65 L 15 90 L 30 65" fill="#E2E8F0"/> <!-- Shirt V -->
+      <polygon points="5,72 15,95 25,72" fill="#E53E3E"/> <!-- Tie -->
+      <!-- Head -->
+      <circle cx="5" cy="35" r="22" fill="#CBD5E0"/>
+      <!-- Hair -->
+      <path d="M -15 30 C -15 15, 25 15, 25 35 C 20 30, 0 25, -15 30 Z" fill="#1A202C"/>
+      <!-- Elevated arm / holding posture -->
+      <path d="M -15 60 C -25 50, -35 45, -45 55" stroke="#2D3748" stroke-width="8" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Flatterer Character (Left) - Bending / Offering gesture -->
+    <g transform="translate(75, 75)">
+      <!-- Torso bowed -->
+      <path d="M -25 70 L 15 75 L 25 115 L -15 115 Z" fill="#3182CE"/>
+      <!-- Head lowered -->
+      <circle cx="-15" cy="48" r="20" fill="#FEEBC8"/>
+      <!-- Hair -->
+      <path d="M -30 40 C -30 30, 0 35, -5 55 C -15 55, -25 48, -30 40 Z" fill="#2D3748"/>
+      <!-- Bowed posture body line / arm offering gift -->
+      <path d="M 5 70 C 25 65, 40 55, 55 50" stroke="#3182CE" stroke-width="8" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- The Gift / Offering (Symbolizing "Lấy lòng" / Pleasing action) -->
+    <g transform="translate(112, 108)">
+      <!-- Box -->
+      <rect x="-14" y="-2" width="28" height="26" rx="3" fill="#D69E2E"/>
+      <rect x="-16" y="-8" width="32" height="8" rx="2" fill="#ECC94B"/>
+      <!-- Ribbon Vertical -->
+      <rect x="-4" y="-8" width="8" height="32" fill="#E53E3E"/>
+      <!-- Ribbon Bow -->
+      <path d="M -8 -14 C -12 -22, 0 -22, -2 -8 Z" fill="#E53E3E"/>
+      <path d="M 8 -14 C 12 -22, 0 -22, 2 -8 Z" fill="#E53E3E"/>
+      <circle cx="0" cy="-8" r="3" fill="#FFF5F5"/>
+    </g>
+
+    <!-- Floating Sparkles / Flattery indicators -->
+    <g fill="#ECC94B">
+      <path d="M 125 65 L 128 72 L 135 75 L 128 78 L 125 85 L 122 78 L 115 75 L 122 72 Z" transform="scale(0.6) translate(50, 20)"/>
+      <path d="M 125 65 L 128 72 L 135 75 L 128 78 L 125 85 L 122 78 L 115 75 L 122 72 Z" transform="scale(0.4) translate(140, 90)" fill="#ED8936"/>
+      <path d="M 125 65 L 128 72 L 135 75 L 128 78 L 125 85 L 122 78 L 115 75 L 122 72 Z" transform="scale(0.5) translate(80, 130)" fill="#F6AD55"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background grid/glow for depth -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Conceptual illustration: "Tham ô" (Embezzlement/Corruption)
+       Represented as a government document/briefcase with currency leaking out through a dark shadow,
+       symbolizing illicit extraction of public/official funds. -->
+
+  <g transform="translate(0, 5)">
+    <!-- Official Document / Folder (Base) -->
+    <rect x="70" y="55" width="100" height="130" rx="6" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    
+    <!-- Folder Tab -->
+    <path d="M 70 55 L 70 45 L 110 45 L 120 55 Z" fill="#4A5568"/>
+
+    <!-- Document Lines (Official/Bureaucratic) -->
+    <rect x="85" y="75" width="50" height="6" rx="3" fill="#718096"/>
+    <line x1="85" y1="95" x2="155" y2="95" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+    <line x1="85" y1="110" x2="135" y2="110" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Official Seal (Red stamp of authority) -->
+    <circle cx="135" cy="150" r="14" fill="#E53E3E" opacity="0.85"/>
+    <circle cx="135" cy="150" r="10" fill="none" stroke="#FFF" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+    <!-- The Illicit Act: Currency/Gold spilling out downwards into darkness (Orange/Gold accent) -->
+    <!-- Shadow/Trapdoor effect at the bottom -->
+    <path d="M 65 170 L 175 170 L 185 200 L 55 200 Z" fill="#1A1D24" opacity="0.9"/>
+    
+    <!-- Falling/Hidden Money Stacks -->
+    <!-- Coin 1 -->
+    <ellipse cx="100" cy="180" rx="14" ry="6" fill="#D69E2E"/>
+    <path d="M 86 180 v 6 c 0 3.3 6.3 6 14 6 s 14 -2.7 14 -6 v -6" fill="#B7791F"/>
+    
+    <!-- Coin 2 (Main Focus/Accent) -->
+    <ellipse cx="140" cy="175" rx="16" ry="7" fill="#ECC94B"/>
+    <path d="M 124 175 v 8 c 0 3.9 7.2 7 16 7 s 16 -3.1 16 -7 v -8" fill="#D69E2E"/>
+    <ellipse cx="140" cy="175" rx="10" ry="4" fill="none" stroke="#B7791F" stroke-width="1.5"/>
+
+    <!-- Cash Bills slipping out of the folder sideways -->
+    <g transform="translate(10, 10) rotate(-15 60 130)">
+      <rect x="40" y="120" width="40" height="24" rx="2" fill="#48BB78"/>
+      <circle cx="60" cy="132" r="6" fill="#2F855A"/>
+    </g>
+    
+    <g transform="translate(140, 20) rotate(25 40 120)">
+      <rect x="25" y="115" width="40" height="24" rx="2" fill="#48BB78"/>
+      <circle cx="45" cy="127" r="6" fill="#2F855A"/>
+    </g>
+
+    <!-- Hand silhouette emerging from shadow to take the money -->
+    <path d="M 80 205 C 95 195, 110 195, 125 205 C 130 208, 135 205, 138 200 C 140 195, 135 190, 125 188 C 105 183, 95 185, 75 192 Z" fill="#2D3748"/>
+  </g>
+</svg>

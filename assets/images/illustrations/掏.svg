@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle radial glow for focus -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.6"/>
+
+  <g transform="translate(0, 5)">
+    <!-- Pocket Layer (Back wall of the pocket) -->
+    <path d="M 70 110 L 85 170 C 86 174, 90 177, 94 177 L 146 177 C 150 177, 154 174, 155 170 L 170 110 Z" fill="#2D3748"/>
+
+    <!-- The Emerging Photograph (Partially pulled out) -->
+    <g transform="rotate(-12, 120, 100)">
+      <!-- Photo Drop Shadow -->
+      <rect x="85" y="62" width="70" height="85" rx="4" fill="#000000" opacity="0.3"/>
+      <!-- Photo Border -->
+      <rect x="82" y="58" width="70" height="85" rx="4" fill="#FFFFFF"/>
+      <!-- Photo Inner Image Area -->
+      <rect x="90" y="66" width="54" height="60" rx="2" fill="#4A5568"/>
+      <!-- Stylized Landscape inside Photo (Sun & Mountains) -->
+      <circle cx="104" cy="84" r="7" fill="#F6AD55"/>
+      <path d="M 90 116 L 108 98 L 122 112 L 134 100 L 144 116 Z" fill="#68D391"/>
+    </g>
+
+    <!-- Pocket Front Layer & Outline -->
+    <path d="M 70 110 L 85 170 C 86 174, 90 177, 94 177 L 146 177 C 150 177, 154 174, 155 170 L 170 110 Z" fill="#3B4252" stroke="#4C566A" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Pocket Top Rim/Opening shadow -->
+    <path d="M 67 110 C 67 107, 72 105, 80 105 L 160 105 C 168 105, 173 107, 173 110 C 173 113, 168 115, 160 115 L 80 115 C 72 115, 67 113, 67 110 Z" fill="#1F242D"/>
+    <!-- Pocket Stitching Detail -->
+    <path d="M 75 118 L 88 169" stroke="#4C566A" stroke-width="2" stroke-dasharray="3 3" fill="none" opacity="0.6"/>
+    <path d="M 165 118 L 152 169" stroke="#4C566A" stroke-width="2" stroke-dasharray="3 3" fill="none" opacity="0.6"/>
+    <path d="M 94 172 L 146 172" stroke="#4C566A" stroke-width="2" stroke-dasharray="3 3" fill="none" opacity="0.6"/>
+
+    <!-- Dynamic Action Hand reaching into/pulling from pocket -->
+    <g>
+      <!-- Arm/Cuff -->
+      <path d="M 140 160 L 175 195" stroke="#E2E8F0" stroke-width="26" stroke-linecap="round"/>
+      <path d="M 158 171 L 180 193" stroke="#CBD5E0" stroke-width="22" stroke-linecap="round"/>
+      <!-- Hand Palm and Fingers gripping the photo -->
+      <path d="M 125 125 C 130 120, 142 128, 148 136 C 154 144, 150 152, 142 155 C 134 158, 122 145, 125 125 Z" fill="#F6AD55"/>
+      <!-- Thumb -->
+      <path d="M 118 128 C 114 122, 122 116, 128 120 C 134 124, 131 133, 124 135 Z" fill="#ED8936"/>
+    </g>
+
+    <!-- Motion/Action Sparkles (Focusing on the 'taking out' motion) -->
+    <g transform="translate(0, -5)">
+      <path d="M 75 45 L 78 55 L 88 58 L 78 61 L 75 71 L 72 61 L 62 58 L 72 55 Z" fill="#F6AD55" opacity="0.8"/>
+      <path d="M 165 75 L 167 81 L 173 83 L 167 85 L 165 91 L 163 85 L 157 83 L 163 81 Z" fill="#F6AD55" opacity="0.6"/>
+      <circle cx="155" cy="50" r="3" fill="#ECC94B" opacity="0.9"/>
+      <circle cx="70" cy="85" r="2" fill="#ECC94B" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

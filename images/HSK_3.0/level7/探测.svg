@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Radar / Grid Elements -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#2A2F3D" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="120" r="55" fill="none" stroke="#2A2F3D" stroke-width="1.5"/>
+  <circle cx="120" cy="120" r="30" fill="none" stroke="#2A2F3D" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <line x1="120" y1="35" x2="120" y2="205" stroke="#2A2F3D" stroke-width="1"/>
+  <line x1="35" y1="120" x2="205" y2="120" stroke="#2A2F3D" stroke-width="1"/>
+
+  <!-- Scanning Sweep Effect -->
+  <path d="M120 120 L165 75 A64 64 0 0 0 120 56 Z" fill="#F59E0B" opacity="0.15"/>
+
+  <!-- Central Satellite (The physical object representing "tàncè" / probe/satellite) -->
+  <g transform="translate(120, 120)">
+    <!-- Solar Panels Left -->
+    <rect x="-55" y="-14" width="36" height="28" rx="3" fill="#3B82F6"/>
+    <line x1="-43" y1="-14" x2="-43" y2="14" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="-31" y1="-14" x2="-31" y2="14" stroke="#1A1D24" stroke-width="2"/>
+
+    <!-- Solar Panels Right -->
+    <rect x="19" y="-14" width="36" height="28" rx="3" fill="#3B82F6"/>
+    <line x1="31" y1="-14" x2="31" y2="14" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="43" y1="-14" x2="43" y2="14" stroke="#1A1D24" stroke-width="2"/>
+
+    <!-- Satellite Body -->
+    <rect x="-19" y="-16" width="38" height="32" rx="6" fill="#E2E8F0"/>
+    <rect x="-13" y="-10" width="26" height="20" rx="3" fill="#0F172A"/>
+
+    <!-- Dish / Scanner Antenna -->
+    <path d="M-10 16 C-10 26 10 26 10 16 Z" fill="#F59E0B"/>
+    <circle cx="0" cy="19" r="2.5" fill="#1A1D24"/>
+    <line x1="0" y1="16" x2="0" y2="11" stroke="#E2E8F0" stroke-width="2"/>
+  </g>
+
+  <!-- Emission Waves (Detection / Scanning pulse) -->
+  <path d="M 85 85 Q 120 60 155 85" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 70 70 Q 120 40 170 70" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 55 55 Q 120 20 185 55" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Target Indicator (Ground / Seismic activity being detected below) -->
+  <circle cx="120" cy="190" r="6" fill="#EF4444"/>
+  <circle cx="120" cy="190" r="14" fill="none" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M100 202 L110 195 L120 205 L130 195 L140 202" fill="none" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

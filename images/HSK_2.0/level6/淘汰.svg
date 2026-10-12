@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing background gradient for focus -->
+  <circle cx="120" cy="120" r="80" fill="#222732" opacity="0.6"/>
+
+  <!-- Sifter / Filtering Mechanism (Representing 淘汰 - Screening/Elimination) -->
+  <g transform="translate(0, 0)">
+    <!-- Funnel / Sifter Body -->
+    <path d="M 60 70 L 180 70 L 140 140 L 100 140 Z" fill="#2E3646" stroke="#4A5568" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Filter Mesh Lines -->
+    <line x1="85" y1="105" x2="155" y2="105" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    <line x1="95" y1="125" x2="145" y2="125" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Spout -->
+    <rect x="108" y="140" width="24" height="20" fill="#2E3646" stroke="#4A5568" stroke-width="3"/>
+  </g>
+
+  <!-- Retained Elements (Successful / Staying Above) -->
+  <g transform="translate(0, 0)">
+    <!-- Shield / Badge (Kept/Qualified) -->
+    <path d="M 120 40 L 142 52 L 142 78 C 142 92 120 102 120 102 C 120 102 98 92 98 78 L 98 52 Z" fill="#3B82F6" stroke="#60A5FA" stroke-width="2"/>
+    <path d="M 110 70 L 117 77 L 131 63" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Eliminated Element (Falling Through / Filtered Out) -->
+  <g transform="translate(0, 0)">
+    <!-- Target Object being eliminated (Red X mark / Cross-out symbol falling down) -->
+    <circle cx="120" cy="185" r="18" fill="#EF4444" opacity="0.9"/>
+    <path d="M 111 176 L 129 194 M 129 176 L 111 194" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Motion / Falling Dashes -->
+    <line x1="120" y1="162" x2="120" y2="167" stroke="#EF4444" stroke-width="2" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Accent Glow for Focus (Orange/Gold for key semantic action) -->
+  <circle cx="120" cy="185" r="24" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Subtle side indicator lights for modern UI/dashboard feel -->
+  <circle cx="36" cy="36" r="4" fill="#3B82F6"/>
+  <circle cx="204" cy="36" r="4" fill="#EF4444"/>
+</svg>

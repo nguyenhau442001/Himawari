@@ -1,0 +1,37 @@
+<svg width="240" height="240" rx="24" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle glow/backdrop for the central object -->
+  <circle cx="120" cy="120" r="70" fill="#242933" />
+
+  <!-- Central Noun Object: An open confession file/document with a truth badge, symbolizing "坦白" (honest confession / truth) -->
+  <g transform="translate(120, 120)">
+    <!-- Document drop shadow -->
+    <path d="M-45,-65 L35,-65 L55,-45 L55,65 L-45,65 Z" fill="#111317" opacity="0.6"/>
+
+    <!-- Main Folder/File Base -->
+    <path d="M-48,-68 L32,-68 L52,-48 L52,62 L-48,62 Z" fill="#2E3646"/>
+    <!-- Inner Paper -->
+    <path d="M-40,-58 L24,-58 L44,-38 L44,52 L-40,52 Z" fill="#FFFFFF"/>
+
+    <!-- Document Header Lines (representing written confession) -->
+    <rect x="-28" y="-42" width="45" height="5" rx="2.5" fill="#E2E8F0"/>
+    <rect x="-28" y="-28" width="56" height="4" rx="2" fill="#CBD5E1"/>
+    <rect x="-28" y="-18" width="50" height="4" rx="2" fill="#CBD5E1"/>
+    <rect x="-28" y="-8" width="35" height="4" rx="2" fill="#CBD5E1"/>
+
+    <!-- Checkmark Badge / Wax Seal accentuating truth/honesty -->
+    <circle cx="18" cy="26" r="18" fill="#F59E0B"/>
+    <circle cx="18" cy="26" r="14" fill="#D97706"/>
+    <!-- Checkmark inside badge -->
+    <path d="M11,26 L15,30 L25,20" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Fingerprint motif on the document (symbolizing personal statement/police context) -->
+    <g transform="translate(-18, 16) scale(0.65)" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M0,15 C-12,15 -18,5 -18,-5 C-18,-15 -10,-22 0,-22 C8,-22 15,-17 15,-10" />
+      <path d="M-6,10 C-10,10 -13,3 -13,-4 C-13,-11 -7,-16 0,-16 C6,-16 10,-11 10,-5" />
+      <path d="M-1,5 C-4,5 -7,0 -7,-5 C-7,-9 -4,-11 0,-11 C3,-11 5,-9 5,-5 C5,0 2,3 0,5" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Glow / Aura representing immersion/bliss -->
+  <circle cx="120" cy="115" r="55" fill="#FFB703" opacity="0.15"/>
+  <circle cx="120" cy="115" r="40" fill="#FFB703" opacity="0.25"/>
+
+  <!-- Musical Soundwaves / Immersion ripples -->
+  <path d="M70 115 C70 95 90 85 120 85 C150 85 170 95 170 115" stroke="#FFB703" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M55 115 C55 85 85 70 120 70 C155 70 185 85 185 115" stroke="#FFB703" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.2"/>
+  
+  <!-- Floating musical notes representing "音乐" (music) -->
+  <g fill="#FFB703" opacity="0.8">
+    <!-- Note 1 -->
+    <path d="M72 85 L72 70 L85 66 L85 81 Z"/>
+    <circle cx="68" cy="85" r="5"/>
+    <circle cx="81" cy="81" r="5"/>
+    
+    <!-- Note 2 -->
+    <path d="M162 90 L162 78 L172 75 L172 87 Z"/>
+    <circle cx="158" cy="90" r="4"/>
+    <circle cx="168" cy="87" r="4"/>
+  </g>
+
+  <!-- Central Character (Woman immersed/lost in music) -->
+  <!-- Head & Hair -->
+  <circle cx="120" cy="100" r="24" fill="#2D323E"/>
+  <path d="M96 100 C96 85 106 74 120 74 C134 74 144 85 144 100 C144 115 138 125 138 135 L126 135 L126 112 L114 112 L114 135 L102 135 C102 125 96 115 96 100 Z" fill="#FFB703"/>
+
+  <!-- Face profile/expression (serene, eyes closed - blissful state of "陶醉") -->
+  <path d="M112 96 C112 98 114 100 116 100" stroke="#8B95A5" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M124 96 C124 98 126 100 128 100" stroke="#8B95A5" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M118 106 C119 108 121 108 122 106" stroke="#8B95A5" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Headphones (Modern, sleek design indicating music context) -->
+  <!-- Headband -->
+  <path d="M98 96 C98 78 142 78 142 96" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Ear cups -->
+  <rect x="92" y="92" width="8" height="18" rx="4" fill="#FFB703"/>
+  <rect x="140" y="92" width="8" height="18" rx="4" fill="#FFB703"/>
+
+  <!-- Shoulders / Torso -->
+  <path d="M85 150 C85 130 155 130 155 150 L165 175 L75 175 Z" fill="#3B82F6"/>
+
+  <!-- Sparkles of bliss/euphoria -->
+  <path d="M60 145 L63 150 L68 153 L63 156 L60 161 L57 156 L52 153 L57 150 Z" fill="#FFB703" opacity="0.9"/>
+  <path d="M180 135 L182 138 L185 140 L182 142 L180 145 L178 142 L175 140 L178 138 Z" fill="#FFB703" opacity="0.9"/>
+  <path d="M145 60 L146.5 63 L149 64.5 L146.5 66 L145 69 L143.5 66 L141 64.5 L143.5 63 Z" fill="#FFB703" opacity="0.7"/>
+</svg>

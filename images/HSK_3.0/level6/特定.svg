@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Outer dashed rotating/conditional ring -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#2D3748" stroke-width="2" stroke-dasharray="6 4"/>
+    
+    <!-- Outer solid focused track -->
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#4A5568" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Precision Crosshairs / Target system -->
+    <path d="M-75 0 H-45 M45 0 H75 M0 -75 V-45 M0 45 V75" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    
+    <!-- Central specific object: A highly defined digital/futuristic security key / specific identifier token -->
+    <!-- Token Body -->
+    <rect x="-24" y="-36" width="48" height="72" rx="8" fill="#2B6CB0" stroke="#63B3ED" stroke-width="2"/>
+    
+    <!-- Screen / Window inside token showing precise focus -->
+    <rect x="-16" y="-26" width="32" height="28" rx="4" fill="#1A202C"/>
+    
+    <!-- Exact target point/marker inside screen (representing "Specific" object/location) -->
+    <circle cx="0" cy="-12" r="8" fill="#ED8936"/>
+    <circle cx="0" cy="-12" r="3" fill="#FFF"/>
+    
+    <!-- Geometric connector nodes representing "Specific Condition" -->
+    <line x1="0" y1="2" x2="0" y2="18" stroke="#63B3ED" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="22" r="3" fill="#F6AD55"/>
+    
+    <!-- Accent Corner Brackets (Framing the "Specific" entity) -->
+    <!-- Top-Left -->
+    <path d="M-85 -75 H-65 V-65" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Top-Right -->
+    <path d="M85 -75 H65 V-65" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Bottom-Left -->
+    <path d="M-85 75 H-65 V65" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Bottom-Right -->
+    <path d="M85 75 H65 V65" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Floating particle/indicator for condition met -->
+    <circle cx="50" cy="-45" r="4" fill="#F6AD55"/>
+    <circle cx="-55" cy="40" r="3" fill="#63B3ED"/>
+  </g>
+</svg>

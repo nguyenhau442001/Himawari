@@ -1,0 +1,40 @@
+<svg width="240" height="240" rx="24" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+    <!-- Container Background -->
+    <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+    <!-- Subtle background atmosphere/glow for modern dark theme -->
+    <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.5"/>
+
+    <!-- Exhausted Character Profile (Physical Representation of "叹气" - Sighing Person) -->
+    <!-- Head / Neck -->
+    <path d="M95,140 C95,120 110,105 130,105 C150,105 165,120 165,140 L165,155 L95,155 Z" fill="#2D3748"/>
+    
+    <!-- Face Profile (Facing Left) -->
+    <path d="M120,95 C136.568,95 150,108.431 150,125 C150,141.569 136.568,155 120,155 C103.431,155 90,141.569 90,125 C90,108.431 103.431,95 120,95 Z" fill="#E2E8F0"/>
+    
+    <!-- Closed droopy eye (sign of helplessness/tiredness) -->
+    <path d="M110,122 Q115,126 120,122" fill="none" stroke="#4A5568" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Slouched posture lines / Shoulders -->
+    <path d="M70,175 C85,155 110,150 145,155 C175,160 190,185 190,195 L50,195 C50,190 55,180 70,175 Z" fill="#3182CE"/>
+
+    <!-- Hand resting on forehead (Classic gesture of helplessness/sighing) -->
+    <path d="M100,115 C105,100 120,95 135,100 C140,102 142,105 140,110 C135,115 115,120 100,115 Z" fill="#E2E8F0"/>
+    <circle cx="135" cy="103" r="8" fill="#CBD5E0"/>
+
+    <!-- Sigh / Breath Visual Element (Curved flowing air current from mouth) -->
+    <!-- Mouth open slightly -->
+    <ellipse cx="103" cy="135" rx="3" ry="5" fill="#4A5568"/>
+
+    <!-- Flowing sigh animation paths (Orange/Gold accent for focus) -->
+    <path d="M95,133 C75,130 65,115 55,95 C45,75 55,60 70,55 C85,50 90,65 80,75 C70,85 55,80 45,65" 
+          fill="none" stroke="#F6AD55" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
+          
+    <path d="M93,138 C80,140 72,130 65,115" 
+          fill="none" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Floating stylized air/wind puffs -->
+    <circle cx="50" cy="90" r="3" fill="#F6AD55" opacity="0.5"/>
+    <circle cx="65" cy="65" r="4" fill="#F6AD55" opacity="0.7"/>
+    <circle cx="40" cy="75" r="2" fill="#F6AD55" opacity="0.4"/>
+</svg>

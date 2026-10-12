@@ -20402,6 +20402,106 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/瘫痪.svg",
     "caption": "bại liệt, tê liệt (hệ thống)"
   },
+  "贪婪": {
+    "file": "贪婪.svg",
+    "src": "images/HSK_2.0/level6/贪婪.svg",
+    "caption": "tham lam"
+  },
+  "贪污": {
+    "file": "贪污.svg",
+    "src": "images/HSK_2.0/level6/贪污.svg",
+    "caption": "tham ô"
+  },
+  "摊": {
+    "file": "摊.svg",
+    "src": "images/HSK_2.0/level6/摊.svg",
+    "caption": "quầy hàng, bày ra"
+  },
+  "弹性": {
+    "file": "弹性.svg",
+    "src": "images/HSK_2.0/level6/弹性.svg",
+    "caption": "tính co giãn, đàn hồi"
+  },
+  "坦白": {
+    "file": "坦白.svg",
+    "src": "images/HSK_2.0/level6/坦白.svg",
+    "caption": "thành thật khai báo, thẳng thắn"
+  },
+  "探测": {
+    "file": "探测.svg",
+    "src": "images/HSK_2.0/level6/探测.svg",
+    "caption": "dò tìm, thăm dò"
+  },
+  "探索": {
+    "file": "探索.svg",
+    "src": "images/HSK_2.0/level6/探索.svg",
+    "caption": "thám hiểm, tìm hiểu"
+  },
+  "探讨": {
+    "file": "探讨.svg",
+    "src": "images/HSK_2.0/level6/探讨.svg",
+    "caption": "bàn luận, nghiên cứu thảo luận"
+  },
+  "探望": {
+    "file": "探望.svg",
+    "src": "images/HSK_2.0/level6/探望.svg",
+    "caption": "thăm hỏi, thăm viếng"
+  },
+  "叹气": {
+    "file": "叹气.svg",
+    "src": "images/HSK_2.0/level6/叹气.svg",
+    "caption": "thở dài"
+  },
+  "倘若": {
+    "file": "倘若.svg",
+    "src": "images/HSK_2.0/level6/倘若.svg",
+    "caption": "nếu như, giả như"
+  },
+  "掏": {
+    "file": "掏.svg",
+    "src": "images/HSK_2.0/level6/掏.svg",
+    "caption": "lấy ra, móc ra (từ túi)"
+  },
+  "滔滔不绝": {
+    "file": "滔滔不绝.svg",
+    "src": "images/HSK_2.0/level6/滔滔不绝.svg",
+    "caption": "nói liên tục không ngừng"
+  },
+  "陶瓷": {
+    "file": "陶瓷.svg",
+    "src": "images/HSK_2.0/level6/陶瓷.svg",
+    "caption": "đồ gốm sứ"
+  },
+  "陶醉": {
+    "file": "陶醉.svg",
+    "src": "images/HSK_2.0/level6/陶醉.svg",
+    "caption": "say mê, ngây ngất"
+  },
+  "淘汰": {
+    "file": "淘汰.svg",
+    "src": "images/HSK_2.0/level6/淘汰.svg",
+    "caption": "loại bỏ, sa thải (qua sàng lọc)"
+  },
+  "讨好": {
+    "file": "讨好.svg",
+    "src": "images/HSK_2.0/level6/讨好.svg",
+    "caption": "lấy lòng, làm vui lòng người khác"
+  },
+  "特长": {
+    "file": "特长.svg",
+    "src": "images/HSK_2.0/level6/特长.svg",
+    "caption": "sở trường, năng khiếu đặc biệt"
+  },
+  "特定": {
+    "file": "特定.svg",
+    "src": "images/HSK_2.0/level6/特定.svg",
+    "caption": "đặc định, nhất định"
+  },
+  "特意": {
+    "file": "特意.svg",
+    "src": "images/HSK_2.0/level6/特意.svg",
+    "caption": "đặc biệt, cố ý (làm riêng cho)"
+  },
   "统计": {
     "file": "统计.svg",
     "src": "images/HSK_2.0/level6/统计.svg",
