@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow to highlight the central object -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual Object: The Puppet/String-Pulling Mechanism (Physical Object representing "挑拨" - instigation/agitator) -->
+  <g transform="translate(120, 120)">
+    <!-- Central Control Cross (Marionette controller representing the instigator) -->
+    <!-- Vertical bar -->
+    <rect x="-6" y="-60" width="12" height="120" rx="6" fill="#4F5D75"/>
+    <!-- Horizontal bar -->
+    <rect x="-50" y="-12" width="100" height="12" rx="6" fill="#4F5D75"/>
+    
+    <!-- Central pivot glow (Orange accent for focus) -->
+    <circle cx="0" cy="0" r="10" fill="#FF9F1C"/>
+
+    <!-- Tension Strings radiating outwards and downwards (representing manipulation between two parties) -->
+    <path d="M -50 -6 Q -70 20 -80 70" fill="none" stroke="#E71D36" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+    <path d="M 50 -6 Q 70 20 80 70" fill="none" stroke="#E71D36" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+    
+    <!-- Left Silhouetted Figure (Person A) -->
+    <g transform="translate(-85, 80)">
+      <circle cx="0" cy="-12" r="12" fill="#A0AAB2"/>
+      <path d="M -16 24 C -16 4 16 4 16 24 Z" fill="#A0AAB2"/>
+      <!-- Disconnected/Repelling indicator -->
+      <path d="M 5 -15 L 25 -25" stroke="#FF9F1C" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Right Silhouetted Figure (Person B) -->
+    <g transform="translate(85, 80)">
+      <circle cx="0" cy="-12" r="12" fill="#A0AAB2"/>
+      <path d="M -16 24 C -16 4 16 4 16 24 Z" fill="#A0AAB2"/>
+      <!-- Disconnected/Repelling indicator -->
+      <path d="M -5 -15 L -25 -25" stroke="#FF9F1C" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Floating tension sparks / wedge in the middle -->
+    <polygon points="0,-35 -12,-15 12,-15" fill="#FF9F1C"/>
+  </g>
+</svg>

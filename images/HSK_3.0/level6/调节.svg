@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing the AC environment -->
+  <circle cx="120" cy="115" r="75" fill="#252A34" opacity="0.6"/>
+
+  <!-- Air Conditioner Unit (Upper) -->
+  <g transform="translate(65, 45)">
+    <!-- AC Body -->
+    <rect x="0" y="0" width="110" height="36" rx="8" fill="#2D3343"/>
+    <!-- LED Indicator -->
+    <circle cx="92" cy="18" r="3" fill="#38BDF8"/>
+    <!-- Vent -->
+    <rect x="15" y="26" width="80" height="4" rx="2" fill="#1A1D24"/>
+    <!-- Cool Air Waves flowing down -->
+    <path d="M70 34 C70 42, 75 42, 75 50" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <path d="M55 34 C55 42, 60 42, 60 50" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M40 34 C40 42, 45 42, 45 50" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Modern Smart Remote Controller (Center Physical Object representing 调节) -->
+  <g transform="translate(85, 80)">
+    <!-- Remote Body -->
+    <rect x="0" y="0" width="70" height="115" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+    
+    <!-- Screen Display -->
+    <rect x="10" y="12" width="50" height="30" rx="6" fill="#1E293B"/>
+    <!-- Screen Content: Temperature -->
+    <text x="35" y="32" font-family="system-ui, sans-serif" font-weight="700" font-size="16" fill="#F59E0B" text-anchor="middle">24°</text>
+    
+    <!-- Adjustment Buttons Group (The Core Action: 调节) -->
+    <!-- Up/Increase Button -->
+    <circle cx="35" cy="58" r="9" fill="#E2E8F0"/>
+    <path d="M32 59 L35 55 L38 59" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Down/Decrease Button (Highlighted with Orange Accent to show active adjustment) -->
+    <circle cx="35" cy="82" r="13" fill="#F59E0B"/>
+    <path d="M31 80 L35 84 L39 80" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Additional dummy buttons -->
+    <rect x="18" y="100" width="34" height="4" rx="2" fill="#CBD5E1"/>
+  </g>
+
+  <!-- Adjustment Wave / Feedback Icon (Right) -->
+  <g transform="translate(168, 115)">
+    <path d="M0 0 C10 10, 10 30, 0 40" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M6 -6 C20 8, 20 32, 6 46" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.4" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Audio wave / speech flow representing "说话" (speaking) transitioning into a pause -->
+    <!-- Left active waves -->
+    <path d="M-75 -15 L-75 15 M-60 -25 L-60 25 M-45 -10 L-45 10 M-30 -35 L-30 35 M-15 -20 L-15 20" stroke="#6C7A89" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- The central pause indicator (Noun representation of a physical pause/interruption in speech) -->
+    <g transform="translate(15, 0)">
+      <!-- Outer glowing circle representing the exact moment of suspension -->
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#FFA726" stroke-width="2" stroke-dasharray="6 4" opacity="0.4"/>
+      <circle cx="0" cy="0" r="36" fill="#252A34"/>
+      
+      <!-- Pause bars (Object symbolizing the physical halt) -->
+      <rect x="-10" y="-18" width="8" height="36" rx="3" fill="#FFB74D"/>
+      <rect x="4" y="-18" width="8" height="36" rx="3" fill="#FFB74D"/>
+    </g>
+    
+    <!-- Right trailing muted wave (representing speech temporarily stopped) -->
+    <path d="M75 -8 L75 8 M90 -5 L90 5" stroke="#3A4454" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Minimal decorative grounding arc -->
+  <path d="M70 175 Q120 185 170 175" fill="none" stroke="#2A303C" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -20602,6 +20602,106 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/舔.svg",
     "caption": "liếm"
   },
+  "挑剔": {
+    "file": "挑剔.svg",
+    "src": "images/HSK_2.0/level6/挑剔.svg",
+    "caption": "khó tính, kén chọn"
+  },
+  "条款": {
+    "file": "条款.svg",
+    "src": "images/HSK_2.0/level6/条款.svg",
+    "caption": "điều khoản"
+  },
+  "条理": {
+    "file": "条理.svg",
+    "src": "images/HSK_2.0/level6/条理.svg",
+    "caption": "mạch lạc, có thứ tự"
+  },
+  "条约": {
+    "file": "条约.svg",
+    "src": "images/HSK_2.0/level6/条约.svg",
+    "caption": "điều ước, hiệp ước"
+  },
+  "调和": {
+    "file": "调和.svg",
+    "src": "images/HSK_2.0/level6/调和.svg",
+    "caption": "điều hòa, dung hòa"
+  },
+  "调剂": {
+    "file": "调剂.svg",
+    "src": "images/HSK_2.0/level6/调剂.svg",
+    "caption": "điều chỉnh, điều tiết"
+  },
+  "调节": {
+    "file": "调节.svg",
+    "src": "images/HSK_2.0/level6/调节.svg",
+    "caption": "điều chỉnh"
+  },
+  "调解": {
+    "file": "调解.svg",
+    "src": "images/HSK_2.0/level6/调解.svg",
+    "caption": "hòa giải"
+  },
+  "调料": {
+    "file": "调料.svg",
+    "src": "images/HSK_2.0/level6/调料.svg",
+    "caption": "gia vị"
+  },
+  "挑拨": {
+    "file": "挑拨.svg",
+    "src": "images/HSK_2.0/level6/挑拨.svg",
+    "caption": "kích động, xúi bẩy"
+  },
+  "挑衅": {
+    "file": "挑衅.svg",
+    "src": "images/HSK_2.0/level6/挑衅.svg",
+    "caption": "khiêu khích"
+  },
+  "跳跃": {
+    "file": "跳跃.svg",
+    "src": "images/HSK_2.0/level6/跳跃.svg",
+    "caption": "nhảy, nhảy vọt"
+  },
+  "停泊": {
+    "file": "停泊.svg",
+    "src": "images/HSK_2.0/level6/停泊.svg",
+    "caption": "đậu (tàu), neo đậu"
+  },
+  "停顿": {
+    "file": "停顿.svg",
+    "src": "images/HSK_2.0/level6/停顿.svg",
+    "caption": "ngừng lại, dừng (lời nói)"
+  },
+  "停滞": {
+    "file": "停滞.svg",
+    "src": "images/HSK_2.0/level6/停滞.svg",
+    "caption": "trì trệ, đình trệ"
+  },
+  "亭子": {
+    "file": "亭子.svg",
+    "src": "images/HSK_2.0/level6/亭子.svg",
+    "caption": "cái đình, vọng gác"
+  },
+  "挺拔": {
+    "file": "挺拔.svg",
+    "src": "images/HSK_2.0/level6/挺拔.svg",
+    "caption": "cao thẳng, hiên ngang"
+  },
+  "通货膨胀": {
+    "file": "通货膨胀.svg",
+    "src": "images/HSK_2.0/level6/通货膨胀.svg",
+    "caption": "lạm phát"
+  },
+  "通俗": {
+    "file": "通俗.svg",
+    "src": "images/HSK_2.0/level6/通俗.svg",
+    "caption": "phổ thông, dễ hiểu"
+  },
+  "通讯": {
+    "file": "通讯.svg",
+    "src": "images/HSK_2.0/level6/通讯.svg",
+    "caption": "thông tin liên lạc"
+  },
   "统计": {
     "file": "统计.svg",
     "src": "images/HSK_2.0/level6/统计.svg",

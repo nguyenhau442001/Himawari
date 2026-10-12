@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:23:59.241274",
-  "total_unique_words_with_illustrations": 4689,
-  "total_flat_svg_files": 4689,
+  "generated_at": "2026-10-12T23:25:38.348730",
+  "total_unique_words_with_illustrations": 4709,
+  "total_flat_svg_files": 4709,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2049,
-        "pct": "82.0%"
+        "with_svg": 2069,
+        "pct": "82.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 686,
-        "pct": "38.1%"
+        "with_svg": 688,
+        "pct": "38.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1042,
-        "pct": "18.6%"
+        "with_svg": 1060,
+        "pct": "18.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1042,
-        "pct": "18.6%"
+        "with_svg": 1060,
+        "pct": "18.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1042,
-        "pct": "18.6%"
+        "with_svg": 1060,
+        "pct": "18.9%"
       }
     }
   },
@@ -77590,6 +77590,438 @@
         "images/HSK_3.0/level7/舔.svg",
         "images/HSK_3.0/level8/舔.svg",
         "images/HSK_3.0/level9/舔.svg"
+      ]
+    },
+    "挑剔": {
+      "hanzi": "挑剔",
+      "pinyin": "tiāoti",
+      "meaning": "khó tính, kén chọn",
+      "example_zh": "她对食物非常<u>挑剔</u>。",
+      "example_vi": "Cô ấy rất <u>khó tính</u> về thức ăn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挑剔.svg",
+      "src": "images/HSK_2.0/level6/挑剔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挑剔.svg",
+        "images/HSK_3.0/level8/挑剔.svg",
+        "images/HSK_3.0/level9/挑剔.svg"
+      ]
+    },
+    "条款": {
+      "hanzi": "条款",
+      "pinyin": "tiáokuǎn",
+      "meaning": "điều khoản",
+      "example_zh": "请仔细阅读合同<u>条款</u>。",
+      "example_vi": "Xin đọc kỹ các <u>điều khoản</u> hợp đồng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "条款.svg",
+      "src": "images/HSK_2.0/level6/条款.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/条款.svg",
+        "images/HSK_3.0/level8/条款.svg",
+        "images/HSK_3.0/level9/条款.svg"
+      ]
+    },
+    "条理": {
+      "hanzi": "条理",
+      "pinyin": "tiáolǐ",
+      "meaning": "mạch lạc, có thứ tự",
+      "example_zh": "他做事很有<u>条理</u>。",
+      "example_vi": "Anh ấy làm việc rất <u>mạch lạc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "条理.svg",
+      "src": "images/HSK_2.0/level6/条理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/条理.svg",
+        "images/HSK_3.0/level8/条理.svg",
+        "images/HSK_3.0/level9/条理.svg"
+      ]
+    },
+    "条约": {
+      "hanzi": "条约",
+      "pinyin": "tiáoyuē",
+      "meaning": "điều ước, hiệp ước",
+      "example_zh": "两国签订了一项贸易<u>条约</u>。",
+      "example_vi": "Hai nước đã ký một <u>hiệp ước</u> thương mại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "条约.svg",
+      "src": "images/HSK_2.0/level6/条约.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/条约.svg",
+        "images/HSK_3.0/level8/条约.svg",
+        "images/HSK_3.0/level9/条约.svg"
+      ]
+    },
+    "调和": {
+      "hanzi": "调和",
+      "pinyin": "tiáohé",
+      "meaning": "điều hòa, dung hòa",
+      "example_zh": "他试图<u>调和</u>双方的矛盾。",
+      "example_vi": "Anh ấy cố gắng <u>dung hòa</u> mâu thuẫn giữa hai bên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "调和.svg",
+      "src": "images/HSK_2.0/level6/调和.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/调和.svg",
+        "images/HSK_3.0/level8/调和.svg",
+        "images/HSK_3.0/level9/调和.svg"
+      ]
+    },
+    "调剂": {
+      "hanzi": "调剂",
+      "pinyin": "tiáojì",
+      "meaning": "điều chỉnh, điều tiết",
+      "example_zh": "工作之余要适当<u>调剂</u>生活。",
+      "example_vi": "Ngoài công việc cần <u>điều chỉnh</u> cuộc sống hợp lý.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "调剂.svg",
+      "src": "images/HSK_2.0/level6/调剂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/调剂.svg",
+        "images/HSK_3.0/level8/调剂.svg",
+        "images/HSK_3.0/level9/调剂.svg"
+      ]
+    },
+    "调节": {
+      "hanzi": "调节",
+      "pinyin": "tiáojié",
+      "meaning": "điều chỉnh",
+      "example_zh": "请<u>调节</u>一下空调的温度。",
+      "example_vi": "Xin <u>điều chỉnh</u> nhiệt độ máy điều hòa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "调节.svg",
+      "src": "images/HSK_2.0/level6/调节.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/调节.svg"
+      ]
+    },
+    "调解": {
+      "hanzi": "调解",
+      "pinyin": "tiáojiě",
+      "meaning": "hòa giải",
+      "example_zh": "法院帮助双方进行<u>调解</u>。",
+      "example_vi": "Tòa án giúp hai bên <u>hòa giải</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "调解.svg",
+      "src": "images/HSK_2.0/level6/调解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/调解.svg",
+        "images/HSK_3.0/level8/调解.svg",
+        "images/HSK_3.0/level9/调解.svg"
+      ]
+    },
+    "调料": {
+      "hanzi": "调料",
+      "pinyin": "tiáoliào",
+      "meaning": "gia vị",
+      "example_zh": "做菜要放一些<u>调料</u>。",
+      "example_vi": "Nấu ăn cần cho thêm một ít <u>gia vị</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "调料.svg",
+      "src": "images/HSK_2.0/level6/调料.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/调料.svg",
+        "images/HSK_3.0/level8/调料.svg",
+        "images/HSK_3.0/level9/调料.svg"
+      ]
+    },
+    "挑拨": {
+      "hanzi": "挑拨",
+      "pinyin": "tiǎobō",
+      "meaning": "kích động, xúi bẩy",
+      "example_zh": "有人故意<u>挑拨</u>他们的关系。",
+      "example_vi": "Có người cố ý <u>kích động</u> quan hệ của họ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挑拨.svg",
+      "src": "images/HSK_2.0/level6/挑拨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挑拨.svg",
+        "images/HSK_3.0/level8/挑拨.svg",
+        "images/HSK_3.0/level9/挑拨.svg"
+      ]
+    },
+    "挑衅": {
+      "hanzi": "挑衅",
+      "pinyin": "tiǎoxìn",
+      "meaning": "khiêu khích",
+      "example_zh": "他的话带有明显的<u>挑衅</u>意味。",
+      "example_vi": "Lời nói của anh ấy mang rõ ý <u>khiêu khích</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挑衅.svg",
+      "src": "images/HSK_2.0/level6/挑衅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挑衅.svg",
+        "images/HSK_3.0/level8/挑衅.svg",
+        "images/HSK_3.0/level9/挑衅.svg"
+      ]
+    },
+    "跳跃": {
+      "hanzi": "跳跃",
+      "pinyin": "tiàoyuè",
+      "meaning": "nhảy, nhảy vọt",
+      "example_zh": "运动员在场上<u>跳跃</u>训练。",
+      "example_vi": "Vận động viên <u>nhảy</u> tập luyện trên sân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "跳跃.svg",
+      "src": "images/HSK_2.0/level6/跳跃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/跳跃.svg",
+        "images/HSK_3.0/level8/跳跃.svg",
+        "images/HSK_3.0/level9/跳跃.svg"
+      ]
+    },
+    "停泊": {
+      "hanzi": "停泊",
+      "pinyin": "tíngbó",
+      "meaning": "đậu (tàu), neo đậu",
+      "example_zh": "几艘渔船<u>停泊</u>在码头边。",
+      "example_vi": "Vài chiếc tàu cá <u>neo đậu</u> bên bến cảng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "停泊.svg",
+      "src": "images/HSK_2.0/level6/停泊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/停泊.svg",
+        "images/HSK_3.0/level8/停泊.svg",
+        "images/HSK_3.0/level9/停泊.svg"
+      ]
+    },
+    "停顿": {
+      "hanzi": "停顿",
+      "pinyin": "tíngdùn",
+      "meaning": "ngừng lại, dừng (lời nói)",
+      "example_zh": "他说话突然<u>停顿</u>了一下。",
+      "example_vi": "Anh ấy đang nói thì bất ngờ <u>dừng lại</u> một chút.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "停顿.svg",
+      "src": "images/HSK_2.0/level6/停顿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/停顿.svg",
+        "images/HSK_3.0/level8/停顿.svg",
+        "images/HSK_3.0/level9/停顿.svg"
+      ]
+    },
+    "停滞": {
+      "hanzi": "停滞",
+      "pinyin": "tíngzhì",
+      "meaning": "trì trệ, đình trệ",
+      "example_zh": "经济发展出现了<u>停滞</u>。",
+      "example_vi": "Phát triển kinh tế xuất hiện sự <u>trì trệ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "停滞.svg",
+      "src": "images/HSK_2.0/level6/停滞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/停滞.svg",
+        "images/HSK_3.0/level8/停滞.svg",
+        "images/HSK_3.0/level9/停滞.svg"
+      ]
+    },
+    "亭子": {
+      "hanzi": "亭子",
+      "pinyin": "tíngzi",
+      "meaning": "cái đình, vọng gác",
+      "example_zh": "公园里有一座古老的<u>亭子</u>。",
+      "example_vi": "Trong công viên có một cái <u>đình</u> cổ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "亭子.svg",
+      "src": "images/HSK_2.0/level6/亭子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/亭子.svg",
+        "images/HSK_3.0/level8/亭子.svg",
+        "images/HSK_3.0/level9/亭子.svg"
+      ]
+    },
+    "挺拔": {
+      "hanzi": "挺拔",
+      "pinyin": "tǐngbá",
+      "meaning": "cao thẳng, hiên ngang",
+      "example_zh": "院子里的松树<u>挺拔</u>高大。",
+      "example_vi": "Cây thông trong vườn <u>cao thẳng</u> và to lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挺拔.svg",
+      "src": "images/HSK_2.0/level6/挺拔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挺拔.svg",
+        "images/HSK_3.0/level8/挺拔.svg",
+        "images/HSK_3.0/level9/挺拔.svg"
+      ]
+    },
+    "通货膨胀": {
+      "hanzi": "通货膨胀",
+      "pinyin": "tōnghuòpéngzhàng",
+      "meaning": "lạm phát",
+      "example_zh": "今年<u>通货膨胀</u>率有所上升。",
+      "example_vi": "Tỷ lệ <u>lạm phát</u> năm nay có tăng lên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "通货膨胀.svg",
+      "src": "images/HSK_2.0/level6/通货膨胀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/通货膨胀.svg",
+        "images/HSK_3.0/level8/通货膨胀.svg",
+        "images/HSK_3.0/level9/通货膨胀.svg"
+      ]
+    },
+    "通俗": {
+      "hanzi": "通俗",
+      "pinyin": "tōngsú",
+      "meaning": "phổ thông, dễ hiểu",
+      "example_zh": "这本书的语言很<u>通俗</u>。",
+      "example_vi": "Ngôn ngữ trong cuốn sách này rất <u>dễ hiểu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "通俗.svg",
+      "src": "images/HSK_2.0/level6/通俗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/通俗.svg",
+        "images/HSK_3.0/level8/通俗.svg",
+        "images/HSK_3.0/level9/通俗.svg"
+      ]
+    },
+    "通讯": {
+      "hanzi": "通讯",
+      "pinyin": "tōngxùn",
+      "meaning": "thông tin liên lạc",
+      "example_zh": "现代<u>通讯</u>技术发展迅速。",
+      "example_vi": "Công nghệ <u>thông tin liên lạc</u> hiện đại phát triển nhanh chóng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "通讯.svg",
+      "src": "images/HSK_2.0/level6/通讯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/通讯.svg"
       ]
     },
     "统计": {

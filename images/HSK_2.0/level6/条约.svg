@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Glow/Background Accent -->
+  <circle cx="120" cy="120" r="70" fill="#252D3D" opacity="0.6"/>
+
+  <!-- Treaty / Scroll Icon Group -->
+  <g transform="translate(0, 5)">
+    <!-- Hanging Wax Seal Ribbons -->
+    <path d="M120 152 L108 178 L120 172 L132 178 Z" fill="#E05638"/>
+    
+    <!-- Main Scroll Body (Parchment) -->
+    <path d="M70 80 Q120 70 170 80 L170 150 Q120 160 70 150 Z" fill="#2A3245"/>
+    <path d="M72 82 Q120 72 168 82 L168 148 Q120 158 72 148 Z" fill="#E8EDF2"/>
+    
+    <!-- Text Lines on Scroll -->
+    <line x1="90" y1="98" x2="150" y2="102" stroke="#BAC4D0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="90" y1="112" x2="140" y2="116" stroke="#BAC4D0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="90" y1="126" x2="130" y2="130" stroke="#BAC4D0" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Scroll Left Rod -->
+    <ellipse cx="70" cy="115" rx="7" ry="35" fill="#3E4A61"/>
+    <ellipse cx="70" cy="115" rx="4" ry="30" fill="#2A3245"/>
+
+    <!-- Scroll Right Rod -->
+    <ellipse cx="170" cy="115" rx="7" ry="35" fill="#3E4A61"/>
+    <ellipse cx="170" cy="115" rx="4" ry="30" fill="#2A3245"/>
+
+    <!-- Red Wax Seal (Focus Element) -->
+    <circle cx="120" cy="150" r="14" fill="#FF6B4A"/>
+    <circle cx="120" cy="150" r="10" fill="#E05638"/>
+    <path d="M115 150 L118 153 L125 146" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Pen / Quill / Diplomatic Signifier -->
+  <g transform="translate(10, 10)">
+    <path d="M150 50 L180 80 L174 86 L144 56 Z" fill="#F59E0B"/>
+    <path d="M144 56 L138 72 L154 56 Z" fill="#D97706"/>
+    <path d="M180 80 L188 84 L184 76 Z" fill="#F59E0B"/>
+  </g>
+</svg>

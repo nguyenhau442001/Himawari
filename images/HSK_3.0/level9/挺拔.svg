@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (grid lines for architectural/modern flat precision) -->
+  <g opacity="0.15" stroke="#64748B" stroke-width="0.5" stroke-dasharray="2 4">
+    <line x1="40" y1="20" x2="40" y2="220" />
+    <line x1="120" y1="20" x2="120" y2="220" />
+    <line x1="200" y1="20" x2="200" y2="220" />
+    <line x1="20" y1="180" x2="220" y2="180" />
+  </g>
+
+  <!-- Ground plane -->
+  <rect x="30" y="180" width="180" height="4" rx="2" fill="#334155" />
+  <rect x="70" y="186" width="100" height="3" rx="1.5" fill="#1E293B" />
+
+  <!-- Scale/Contrast Visual Elements (Adjective Rule: scale exaggeration & contrast) -->
+  <!-- Small wilted/bent reference shrub (Background contrast, muted color) -->
+  <g opacity="0.4">
+    <path d="M 65 180 Q 60 170 50 168" stroke="#64748B" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <circle cx="48" cy="165" r="8" fill="#475569" />
+  </g>
+
+  <!-- Main Subject: "挺拔" (Tǐngbá - Tall, upright, towering pine tree) -->
+  <g id="majestic-pine">
+    <!-- Trunk (Straight, strong, tapered upwards) -->
+    <path d="M 115 180 L 117 90 L 123 90 L 125 180 Z" fill="#3B82F6" opacity="0.2"/>
+    <path d="M 117 180 C 117 140 118 110 119 85 C 120 110 121 140 123 180 Z" fill="#0EA5E9" />
+    <path d="M 118 180 L 122 180 L 121 85 L 119 85 Z" fill="#38BDF8" opacity="0.6"/>
+
+    <!-- Geometric Pine Layers (Upward, proud, structured flat design) -->
+    <!-- Bottom Tier -->
+    <polygon points="120,70 85,130 155,130" fill="#0F766E" />
+    <polygon points="120,70 120,130 155,130" fill="#14B8A6" opacity="0.8"/>
+
+    <!-- Middle Tier -->
+    <polygon points="120,45 92,95 148,95" fill="#14B8A6" />
+    <polygon points="120,45 120,95 148,95" fill="#2DD4BF" opacity="0.8"/>
+
+    <!-- Top Tier -->
+    <polygon points="120,20 100,65 140,65" fill="#2DD4BF" />
+    <polygon points="120,20 120,65 140,65" fill="#5eead4" opacity="0.8"/>
+  </g>
+
+  <!-- Visual Accent: Upward dynamic energy (Gold/Orange accent per prompt instructions) -->
+  <g>
+    <!-- Upward directional arrows highlighting 'tall and straight' -->
+    <path d="M 175 140 L 175 70 M 170 75 L 175 65 L 180 75" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Height dimension indicator markers -->
+    <line x1="168" y1="180" x2="182" y2="180" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <line x1="168" y1="20" x2="182" y2="20" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Glowing focal point at the peak -->
+  <circle cx="120" cy="20" r="3" fill="#FDE047" />
+  <circle cx="120" cy="20" r="6" fill="#F59E0B" opacity="0.4" />
+</svg>
