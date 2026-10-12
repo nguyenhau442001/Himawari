@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:41:55.580798",
-  "total_unique_words_with_illustrations": 3529,
-  "total_flat_svg_files": 3529,
+  "generated_at": "2026-10-12T11:43:45.958935",
+  "total_unique_words_with_illustrations": 3539,
+  "total_flat_svg_files": 3539,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 889,
-        "pct": "35.6%"
+        "with_svg": 899,
+        "pct": "36.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 328,
-        "pct": "18.2%"
+        "with_svg": 331,
+        "pct": "18.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 308,
-        "pct": "5.5%"
+        "with_svg": 314,
+        "pct": "5.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 308,
-        "pct": "5.5%"
+        "with_svg": 314,
+        "pct": "5.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 308,
-        "pct": "5.5%"
+        "with_svg": 314,
+        "pct": "5.6%"
       }
     }
   },
@@ -52770,6 +52770,206 @@
         "images/HSK_3.0/level7/从容不迫.svg",
         "images/HSK_3.0/level8/从容不迫.svg",
         "images/HSK_3.0/level9/从容不迫.svg"
+      ]
+    },
+    "凑合": {
+      "hanzi": "凑合",
+      "pinyin": "còuhe",
+      "meaning": "tạm tạm, gộp lại cho đủ",
+      "example_zh": "这个方案<u>凑合</u>用吧。",
+      "example_vi": "Phương án này <u>tạm tạm</u> dùng được rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "凑合.svg",
+      "src": "images/HSK_2.0/level6/凑合.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/凑合.svg",
+        "images/HSK_3.0/level8/凑合.svg",
+        "images/HSK_3.0/level9/凑合.svg"
+      ]
+    },
+    "粗鲁": {
+      "hanzi": "粗鲁",
+      "pinyin": "cūlǔ",
+      "meaning": "thô lỗ, cộc cằn",
+      "example_zh": "他说话很<u>粗鲁</u>。",
+      "example_vi": "Anh ta nói chuyện rất <u>thô lỗ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "粗鲁.svg",
+      "src": "images/HSK_2.0/level6/粗鲁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/粗鲁.svg",
+        "images/HSK_3.0/level8/粗鲁.svg",
+        "images/HSK_3.0/level9/粗鲁.svg"
+      ]
+    },
+    "篡改": {
+      "hanzi": "篡改",
+      "pinyin": "cuàngǎi",
+      "meaning": "xuyên tạc, sửa đổi trái phép",
+      "example_zh": "有人<u>篡改</u>了历史资料。",
+      "example_vi": "Có người <u>xuyên tạc</u> tài liệu lịch sử.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "篡改.svg",
+      "src": "images/HSK_2.0/level6/篡改.svg",
+      "alt_srcs": []
+    },
+    "摧残": {
+      "hanzi": "摧残",
+      "pinyin": "cuīcán",
+      "meaning": "tàn phá, hủy hoại",
+      "example_zh": "战争<u>摧残</u>了这座城市。",
+      "example_vi": "Chiến tranh <u>tàn phá</u> thành phố này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "摧残.svg",
+      "src": "images/HSK_2.0/level6/摧残.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/摧残.svg",
+        "images/HSK_3.0/level8/摧残.svg",
+        "images/HSK_3.0/level9/摧残.svg"
+      ]
+    },
+    "脆弱": {
+      "hanzi": "脆弱",
+      "pinyin": "cuìruò",
+      "meaning": "yếu đuối, mong manh",
+      "example_zh": "她的内心很<u>脆弱</u>。",
+      "example_vi": "Nội tâm của cô ấy rất <u>yếu đuối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "脆弱.svg",
+      "src": "images/HSK_2.0/level6/脆弱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/脆弱.svg"
+      ]
+    },
+    "搓": {
+      "hanzi": "搓",
+      "pinyin": "cuō",
+      "meaning": "vò, xát, xoa",
+      "example_zh": "他<u>搓</u>了搓手取暖。",
+      "example_vi": "Anh ấy <u>xoa</u> tay để giữ ấm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "搓.svg",
+      "src": "images/HSK_2.0/level6/搓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/搓.svg",
+        "images/HSK_3.0/level8/搓.svg",
+        "images/HSK_3.0/level9/搓.svg"
+      ]
+    },
+    "磋商": {
+      "hanzi": "磋商",
+      "pinyin": "cuōshāng",
+      "meaning": "thương lượng, hội đàm",
+      "example_zh": "双方正在<u>磋商</u>合作细节。",
+      "example_vi": "Hai bên đang <u>thương lượng</u> chi tiết hợp tác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "磋商.svg",
+      "src": "images/HSK_2.0/level6/磋商.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/磋商.svg",
+        "images/HSK_3.0/level8/磋商.svg",
+        "images/HSK_3.0/level9/磋商.svg"
+      ]
+    },
+    "挫折": {
+      "hanzi": "挫折",
+      "pinyin": "cuòzhé",
+      "meaning": "thất bại, trắc trở",
+      "example_zh": "人生难免遇到<u>挫折</u>。",
+      "example_vi": "Cuộc đời khó tránh khỏi gặp <u>trắc trở</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "挫折.svg",
+      "src": "images/HSK_2.0/level6/挫折.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/挫折.svg"
+      ]
+    },
+    "搭": {
+      "hanzi": "搭",
+      "pinyin": "dā",
+      "meaning": "lắp, ghép, bắt (cầu)",
+      "example_zh": "他们正在<u>搭</u>帐篷。",
+      "example_vi": "Họ đang <u>dựng</u> lều.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "搭.svg",
+      "src": "images/HSK_2.0/level6/搭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/搭.svg"
+      ]
+    },
+    "搭档": {
+      "hanzi": "搭档",
+      "pinyin": "dādàng",
+      "meaning": "cộng tác, hợp tác (làm việc)",
+      "example_zh": "我们俩是好<u>搭档</u>。",
+      "example_vi": "Hai chúng tôi là <u>cộng sự</u> tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "搭档.svg",
+      "src": "images/HSK_2.0/level6/搭档.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/搭档.svg",
+        "images/HSK_3.0/level8/搭档.svg",
+        "images/HSK_3.0/level9/搭档.svg"
       ]
     },
     "达成": {

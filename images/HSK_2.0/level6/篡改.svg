@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Definitions -->
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Warm Desk Lamp Light Cone -->
+    <linearGradient id="lampLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Shadow Filter for Depth -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Background Environment / Study Room -->
+  <!-- Bookshelf Background -->
+  <rect x="25" y="30" width="70" height="95" rx="4" fill="#334155" />
+  <rect x="30" y="35" width="20" height="25" fill="#475569" />
+  <rect x="52" y="38" width="16" height="22" fill="#64748b" />
+  <rect x="70" y="35" width="20" height="25" fill="#3b82f6" opacity="0.6" />
+  <rect x="30" y="70" width="18" height="22" fill="#10b981" opacity="0.6" />
+  <rect x="50" y="68" width="22" height="24" fill="#f59e0b" opacity="0.6" />
+  <rect x="74" y="72" width="16" height="20" fill="#ef4444" opacity="0.6" />
+  <!-- Shelf Dividers -->
+  <rect x="23" y="62" width="74" height="4" fill="#1e293b" />
+  <rect x="23" y="97" width="74" height="4" fill="#1e293b" />
+
+  <!-- Window with Night City View -->
+  <rect x="150" y="25" width="65" height="75" rx="4" fill="#0f172a" stroke="#334155" stroke-width="3" />
+  <path d="M182.5 25 V100 M150 62.5 H215" stroke="#334155" stroke-width="2" />
+  <!-- City Skyline through Window -->
+  <rect x="155" y="60" width="10" height="40" fill="#1e293b" />
+  <rect x="168" y="45" width="12" height="55" fill="#1e293b" />
+  <rect x="188" y="52" width="14" height="48" fill="#1e293b" />
+  <rect x="204" y="70" width="8" height="30" fill="#1e293b" />
+  <circle cx="174" cy="50" r="1" fill="#f59e0b" />
+  <circle cx="195" cy="58" r="1" fill="#38bdf8" />
+
+  <!-- Desk Surface -->
+  <path d="M10 165 C10 160, 15 155, 20 155 H220 C225 155, 230 160, 230 165 V215 C230 220, 225 225, 220 225 H20 C15 225, 10 220, 10 215 Z" fill="#334155" filter="url(#shadow)" />
+  <rect x="10" y="155" width="220" height="8" fill="#475569" rx="2" />
+
+  <!-- Lamp Cone Light -->
+  <polygon points="120,40 60,180 180,180" fill="url(#lampLight)" />
+  <!-- Desk Lamp Fixture -->
+  <path d="M120,40 L115,20 H125 Z" fill="#64748b" />
+  <path d="M120,20 C100,20 90,40 85,55" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" />
+  <circle cx="120" cy="40" r="8" fill="#475569" />
+
+  <!-- Central Evidence: Historical Scroll / Document -->
+  <g transform="translate(75, 135)">
+    <!-- Document Base -->
+    <rect x="0" y="0" width="90" height="60" rx="3" fill="#fef08a" stroke="#ca8a04" stroke-width="1.5" filter="url(#shadow)" />
+    <!-- Fake Ancient Text Lines -->
+    <line x1="10" y1="12" x2="50" y2="12" stroke="#a16207" stroke-width="3" stroke-linecap="round" />
+    <line x1="10" y1="22" x2="60" y2="22" stroke="#a16207" stroke-width="3" stroke-linecap="round" />
+    <line x1="10" y1="32" x2="40" y2="32" stroke="#a16207" stroke-width="3" stroke-linecap="round" />
+    <line x1="10" y1="42" x2="55" y2="42" stroke="#a16207" stroke-width="3" stroke-linecap="round" />
+    <!-- Red Official Seal (Being Tampered) -->
+    <circle cx="72" cy="42" r="10" fill="#dc2626" opacity="0.8" />
+    
+    <!-- Tampering Action Overlay (Marker / Correction Fluid Effect) -->
+    <path d="M25,18 Q45,28 65,15" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" opacity="0.85" />
+    <path d="M15,38 Q35,48 50,35" fill="none" stroke="#ef4444" stroke-width="5" stroke-linecap="round" opacity="0.85" />
+  </g>
+
+  <!-- Tampering Tool (Red Pen / Marker in Hand) -->
+  <g transform="translate(130, 115) rotate(-25)">
+    <rect x="0" y="0" width="28" height="6" rx="3" fill="#ef4444" />
+    <polygon points="28,0 35,3 28,6" fill="#1e293b" />
+    <!-- Glowing editing trail tip -->
+    <circle cx="35" cy="3" r="3" fill="#38bdf8" />
+  </g>
+
+  <!-- Main Character (The Tamperer) -->
+  <!-- Character Body / Torso (Hoodie/Sweater) -->
+  <path d="M85,225 C85,190 95,170 120,170 C145,170 155,190 155,225 Z" fill="#2563eb" />
+  <!-- Hoodie Collar/Strings -->
+  <path d="M110,170 L115,190 L120,170 L125,190" fill="none" stroke="#93c5fd" stroke-width="2" />
+  
+  <!-- Character Neck -->
+  <rect x="112" y="155" width="16" height="20" fill="#fbcfe8" />
+
+  <!-- Character Head -->
+  <circle cx="120" cy="135" r="22" fill="#fbcfe8" />
+
+  <!-- Character Hair (Messy, Sneaky Style) -->
+  <path d="M98,130 C98,110 115,108 130,112 C145,112 144,128 144,128 C144,128 138,118 126,118 C114,118 102,124 98,130 Z" fill="#1e293b" />
+
+  <!-- Sneaky Eyes & Expression (Focused, Shifty) -->
+  <!-- Eyebrows slanted in concentration/mischief -->
+  <line x1="110" y1="130" x2="122" y2="133" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="126" y1="133" x2="138" y2="130" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Eyes -->
+  <circle cx="116" cy="138" r="2.5" fill="#1e293b" />
+  <circle cx="132" cy="138" r="2.5" fill="#1e293b" />
+  <!-- Smirk / Grin -->
+  <path d="M120,146 Q126,151 132,145" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Character Arms / Hands -->
+  <!-- Left Arm (Resting on Desk) -->
+  <path d="M90,190 L105,175 L115,195" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="115" cy="195" r="6" fill="#fbcfe8" />
+
+  <!-- Right Arm (Active Writing / Tampering) -->
+  <path d="M150,190 L135,175 L130,125" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Right Hand holding the tool -->
+  <circle cx="130" cy="125" r="6" fill="#fbcfe8" />
+
+  <!-- Foreground Props: Magnifying glass and extra files for richness -->
+  <g transform="translate(35, 160)">
+    <!-- Magnifying Glass -->
+    <line x1="0" y1="0" x2="25" y2="25" stroke="#64748b" stroke-width="4" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#64748b" stroke-width="4" />
+    <circle cx="0" cy="0" r="12" fill="#38bdf8" opacity="0.2" />
+  </g>
+
+  <!-- Secondary Stack of Documents -->
+  <g transform="translate(180, 175)">
+    <rect x="0" y="5" width="35" height="25" rx="2" fill="#e2e8f0" transform="rotate(-10)" />
+    <rect x="0" y="0" width="35" height="25" rx="2" fill="#f8fafc" transform="rotate(5)" />
+    <line x1="5" y1="8" x2="25" y2="12" stroke="#94a3b8" stroke-width="2" transform="rotate(5)" />
+    <line x1="5" y1="14" x2="20" y2="18" stroke="#94a3b8" stroke-width="2" transform="rotate(5)" />
+  </g>
+</svg>

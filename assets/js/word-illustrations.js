@@ -14452,6 +14452,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/从容不迫.svg",
     "caption": "bình tĩnh, thư thái không vội vã"
   },
+  "凑合": {
+    "file": "凑合.svg",
+    "src": "images/HSK_2.0/level6/凑合.svg",
+    "caption": "tạm tạm, gộp lại cho đủ"
+  },
+  "粗鲁": {
+    "file": "粗鲁.svg",
+    "src": "images/HSK_2.0/level6/粗鲁.svg",
+    "caption": "thô lỗ, cộc cằn"
+  },
+  "篡改": {
+    "file": "篡改.svg",
+    "src": "images/HSK_2.0/level6/篡改.svg",
+    "caption": "xuyên tạc, sửa đổi trái phép"
+  },
+  "摧残": {
+    "file": "摧残.svg",
+    "src": "images/HSK_2.0/level6/摧残.svg",
+    "caption": "tàn phá, hủy hoại"
+  },
+  "脆弱": {
+    "file": "脆弱.svg",
+    "src": "images/HSK_2.0/level6/脆弱.svg",
+    "caption": "yếu đuối, mong manh"
+  },
+  "搓": {
+    "file": "搓.svg",
+    "src": "images/HSK_2.0/level6/搓.svg",
+    "caption": "vò, xát, xoa"
+  },
+  "磋商": {
+    "file": "磋商.svg",
+    "src": "images/HSK_2.0/level6/磋商.svg",
+    "caption": "thương lượng, hội đàm"
+  },
+  "挫折": {
+    "file": "挫折.svg",
+    "src": "images/HSK_2.0/level6/挫折.svg",
+    "caption": "thất bại, trắc trở"
+  },
+  "搭": {
+    "file": "搭.svg",
+    "src": "images/HSK_2.0/level6/搭.svg",
+    "caption": "lắp, ghép, bắt (cầu)"
+  },
+  "搭档": {
+    "file": "搭档.svg",
+    "src": "images/HSK_2.0/level6/搭档.svg",
+    "caption": "cộng tác, hợp tác (làm việc)"
+  },
   "达成": {
     "file": "达成.svg",
     "src": "images/HSK_2.0/level6/达成.svg",
