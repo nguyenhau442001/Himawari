@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/pedestal effect -->
+  <circle cx="120" cy="130" r="60" fill="#252A34" opacity="0.6"/>
+
+  <!-- Central Physical Object: The Scales of Justice (representing 审判 / trial / judgment) -->
+  <g transform="translate(0, 5)">
+    <!-- Base / Stand -->
+    <path d="M95 180 L145 180 L140 170 L100 170 Z" fill="#718096" />
+    <rect x="114" y="80" width="12" height="95" rx="2" fill="#E2E8F0" />
+    
+    <!-- Scale Top Finial / Ring -->
+    <circle cx="120" cy="72" r="8" fill="none" stroke="#F6AD55" stroke-width="4"/>
+
+    <!-- Balance Beam -->
+    <path d="M70 85 L170 85 L165 93 L75 93 Z" fill="#F6AD55" />
+    <circle cx="120" cy="88" r="5" fill="#DD6B20" />
+
+    <!-- Left Chain & Pan -->
+    <path d="M73 93 L73 130" stroke="#CBD5E0" stroke-width="2"/>
+    <path d="M95 93 L90 130" stroke="#CBD5E0" stroke-width="2"/>
+    <!-- Left Bowl -->
+    <path d="M60 130 Q84 150 108 130 Z" fill="#CBD5E0" />
+    <path d="M58 130 C58 126 110 126 110 130 C110 134 58 134 58 130 Z" fill="#E2E8F0" />
+
+    <!-- Right Chain & Pan (Tilted slightly to show judgment/weight) -->
+    <g transform="translate(0, 12)">
+      <path d="M145 93 L150 130" stroke="#CBD5E0" stroke-width="2"/>
+      <path d="M167 93 L167 130" stroke="#CBD5E0" stroke-width="2"/>
+      <!-- Right Bowl -->
+      <path d="M132 130 Q156 150 180 130 Z" fill="#CBD5E0" />
+      <path d="M130 130 C130 126 182 126 182 130 C182 134 130 134 130 130 Z" fill="#E2E8F0" />
+    </g>
+  </g>
+
+  <!-- Accent Focus: Gavel behind or integrated cleanly -->
+  <g transform="translate(120, 135) rotate(-35)">
+    <!-- Handle -->
+    <rect x="-4" y="15" width="8" height="55" rx="3" fill="#D69E2E" />
+    <!-- Head -->
+    <rect x="-24" y="-5" width="48" height="20" rx="4" fill="#ED8936" />
+    <!-- Gold Ring Accents on Gavel -->
+    <rect x="-20" y="-5" width="4" height="20" fill="#FEEBC8" />
+    <rect x="16" y="-5" width="4" height="20" fill="#FEEBC8" />
+  </g>
+
+</svg>

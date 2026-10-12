@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:07:55.291710",
-  "total_unique_words_with_illustrations": 4523,
-  "total_flat_svg_files": 4523,
+  "generated_at": "2026-10-12T23:08:27.624105",
+  "total_unique_words_with_illustrations": 4528,
+  "total_flat_svg_files": 4528,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1883,
-        "pct": "75.3%"
+        "with_svg": 1888,
+        "pct": "75.5%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 628,
+        "with_svg": 629,
         "pct": "34.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 938,
+        "with_svg": 942,
         "pct": "16.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 938,
+        "with_svg": 942,
         "pct": "16.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 938,
+        "with_svg": 942,
         "pct": "16.8%"
       }
     }
@@ -73892,6 +73892,112 @@
         "images/HSK_3.0/level7/神态.svg",
         "images/HSK_3.0/level8/神态.svg",
         "images/HSK_3.0/level9/神态.svg"
+      ]
+    },
+    "神仙": {
+      "hanzi": "神仙",
+      "pinyin": "shénxiān",
+      "meaning": "thần tiên",
+      "example_zh": "这个故事讲的是<u>神仙</u>下凡的传说。",
+      "example_vi": "Câu chuyện này kể về truyền thuyết <u>thần tiên</u> giáng trần.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "神仙.svg",
+      "src": "images/HSK_2.0/level6/神仙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/神仙.svg",
+        "images/HSK_3.0/level8/神仙.svg",
+        "images/HSK_3.0/level9/神仙.svg"
+      ]
+    },
+    "审查": {
+      "hanzi": "审查",
+      "pinyin": "shěnchá",
+      "meaning": "thẩm tra, kiểm tra",
+      "example_zh": "这份文件还需要<u>审查</u>。",
+      "example_vi": "Bộ hồ sơ này còn cần phải <u>thẩm tra</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "审查.svg",
+      "src": "images/HSK_2.0/level6/审查.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/审查.svg",
+        "images/HSK_3.0/level8/审查.svg",
+        "images/HSK_3.0/level9/审查.svg"
+      ]
+    },
+    "审理": {
+      "hanzi": "审理",
+      "pinyin": "shěnlǐ",
+      "meaning": "xét xử, thụ lý",
+      "example_zh": "法院正在<u>审理</u>这个案子。",
+      "example_vi": "Tòa án đang <u>xét xử</u> vụ án này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "审理.svg",
+      "src": "images/HSK_2.0/level6/审理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/审理.svg",
+        "images/HSK_3.0/level8/审理.svg",
+        "images/HSK_3.0/level9/审理.svg"
+      ]
+    },
+    "审美": {
+      "hanzi": "审美",
+      "pinyin": "shěnměi",
+      "meaning": "thẩm mỹ",
+      "example_zh": "每个人的<u>审美</u>都不一样。",
+      "example_vi": "<u>Thẩm mỹ</u> của mỗi người đều khác nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "审美.svg",
+      "src": "images/HSK_2.0/level6/审美.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/审美.svg"
+      ]
+    },
+    "审判": {
+      "hanzi": "审判",
+      "pinyin": "shěnpàn",
+      "meaning": "xét xử, xử án",
+      "example_zh": "他将在下个月接受<u>审判</u>。",
+      "example_vi": "Anh ta sẽ bị <u>xét xử</u> vào tháng tới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "审判.svg",
+      "src": "images/HSK_2.0/level6/审判.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/审判.svg",
+        "images/HSK_3.0/level8/审判.svg",
+        "images/HSK_3.0/level9/审判.svg"
       ]
     },
     "生存": {

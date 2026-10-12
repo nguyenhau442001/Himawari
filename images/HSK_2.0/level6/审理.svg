@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Grid/Glow -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+  <path d="M70 170 L170 170" stroke="#303642" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Scales of Justice (Central Physical Object representing legal trial / 审理) -->
+  <g transform="translate(0, 5)">
+    <!-- Base -->
+    <path d="M100 170 L140 170 L148 178 L92 178 Z" fill="#E2B714"/>
+    <rect x="114" y="90" width="12" height="82" rx="3" fill="#E2B714"/>
+    
+    <!-- Top Ring / Finial -->
+    <circle cx="120" cy="85" r="7" fill="none" stroke="#E2B714" stroke-width="4"/>
+    
+    <!-- Beam -->
+    <path d="M75 92 L165 92 L160 84 L80 84 Z" fill="#F3C623"/>
+    <circle cx="120" cy="88" r="5" fill="#1A1D24"/>
+    
+    <!-- Left Chain & Pan -->
+    <path d="M78 92 L60 135" stroke="#E2B714" stroke-width="3" stroke-linecap="round"/>
+    <path d="M78 92 L85 135" stroke="#E2B714" stroke-width="3" stroke-linecap="round"/>
+    <path d="M45 135 C45 130 95 130 95 135 C95 145 45 145 45 135 Z" fill="#38BDF8" opacity="0.9"/>
+    <path d="M45 135 Q70 152 95 135" fill="none" stroke="#E2B714" stroke-width="3"/>
+    
+    <!-- Right Chain & Pan -->
+    <path d="M162 92 L155 135" stroke="#E2B714" stroke-width="3" stroke-linecap="round"/>
+    <path d="M162 92 L180 135" stroke="#E2B714" stroke-width="3" stroke-linecap="round"/>
+    <path d="M145 135 C145 130 195 130 195 135 C195 145 145 145 145 135 Z" fill="#38BDF8" opacity="0.9"/>
+    <path d="M145 135 Q170 152 195 135" fill="none" stroke="#E2B714" stroke-width="3"/>
+    
+    <!-- Glowing Accent Node (Focus) -->
+    <circle cx="120" cy="88" r="3" fill="#FF5722"/>
+  </g>
+</svg>

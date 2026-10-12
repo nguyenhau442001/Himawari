@@ -19687,6 +19687,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/神态.svg",
     "caption": "thần thái, vẻ mặt"
   },
+  "神仙": {
+    "file": "神仙.svg",
+    "src": "images/HSK_2.0/level6/神仙.svg",
+    "caption": "thần tiên"
+  },
+  "审查": {
+    "file": "审查.svg",
+    "src": "images/HSK_2.0/level6/审查.svg",
+    "caption": "thẩm tra, kiểm tra"
+  },
+  "审理": {
+    "file": "审理.svg",
+    "src": "images/HSK_2.0/level6/审理.svg",
+    "caption": "xét xử, thụ lý"
+  },
+  "审美": {
+    "file": "审美.svg",
+    "src": "images/HSK_2.0/level6/审美.svg",
+    "caption": "thẩm mỹ"
+  },
+  "审判": {
+    "file": "审判.svg",
+    "src": "images/HSK_2.0/level6/审判.svg",
+    "caption": "xét xử, xử án"
+  },
   "生存": {
     "file": "生存.svg",
     "src": "images/HSK_2.0/level6/生存.svg",

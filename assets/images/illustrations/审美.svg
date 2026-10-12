@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background decoration / grid representing perspective/perception -->
+  <circle cx="120" cy="120" r="70" fill="none" stroke="#252A34" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="120" r="50" fill="none" stroke="#252A34" stroke-width="1.5"/>
+
+  <!-- Main Object: Aesthetic Appreciation / Art & Vision (Sculptural Profile + Framing + Beauty Sparkle) -->
+  
+  <!-- Artistic Profile/Bust (representing the observer/human perception) -->
+  <path d="M95 155 C 95 130, 105 115, 120 115 C 135 115, 145 130, 145 155 Z" fill="#2E3648"/>
+  <path d="M85 175 C 85 150, 100 140, 120 140 C 140 140, 155 150, 155 175 Z" fill="#3B4459"/>
+
+  <!-- The Frame (representing "Appreciation" / Focus on Beauty) -->
+  <rect x="75" y="65" width="90" height="90" rx="12" fill="none" stroke="#E5C158" stroke-width="3" stroke-dasharray="6 3"/>
+
+  <!-- Aesthetic Elements: Eye / Vision & Beauty -->
+  <!-- Stylized Eye shape integrating beauty/art -->
+  <path d="M 85 110 Q 120 85 155 110 Q 120 135 85 110 Z" fill="#1A1D24" stroke="#4FD1C5" stroke-width="3"/>
+  <circle cx="120" cy="110" r="14" fill="#4FD1C5"/>
+  <circle cx="120" cy="110" r="6" fill="#1A1D24"/>
+  <circle cx="124" cy="106" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Golden Ratio / Beauty Sparkles (Accents) -->
+  <!-- Top Right Sparkle -->
+  <path d="M 175 60 C 175 68, 172 71, 164 71 C 172 71, 175 74, 175 82 C 175 74, 178 71, 186 71 C 178 71, 175 68, 175 60 Z" fill="#E5C158"/>
+  
+  <!-- Bottom Left Sparkle -->
+  <path d="M 65 160 C 65 165, 63 167, 58 167 C 63 167, 65 169, 65 174 C 65 169, 67 167, 72 167 C 67 167, 65 165, 65 160 Z" fill="#E5C158"/>
+
+  <!-- Floating abstract aesthetic design elements (golden spiral hint / harmony) -->
+  <path d="M 145 75 Q 160 85 155 100" fill="none" stroke="#E5C158" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 95 145 Q 80 135 85 120" fill="none" stroke="#4FD1C5" stroke-width="2" stroke-linecap="round"/>
+
+</svg>
