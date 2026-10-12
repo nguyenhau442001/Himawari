@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:19:56.259332",
-  "total_unique_words_with_illustrations": 4275,
-  "total_flat_svg_files": 4275,
+  "generated_at": "2026-10-12T22:20:49.163521",
+  "total_unique_words_with_illustrations": 4280,
+  "total_flat_svg_files": 4280,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1635,
-        "pct": "65.4%"
+        "with_svg": 1640,
+        "pct": "65.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 549,
-        "pct": "30.5%"
+        "with_svg": 552,
+        "pct": "30.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 781,
-        "pct": "13.9%"
+        "with_svg": 783,
+        "pct": "14.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 781,
-        "pct": "13.9%"
+        "with_svg": 783,
+        "pct": "14.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 781,
-        "pct": "13.9%"
+        "with_svg": 783,
+        "pct": "14.0%"
       }
     }
   },
@@ -68610,6 +68610,104 @@
         "images/HSK_3.0/level7/泡沫.svg",
         "images/HSK_3.0/level8/泡沫.svg",
         "images/HSK_3.0/level9/泡沫.svg"
+      ]
+    },
+    "培育": {
+      "hanzi": "培育",
+      "pinyin": "péiyù",
+      "meaning": "bồi dưỡng, nuôi dưỡng",
+      "example_zh": "学校致力于<u>培育</u>优秀人才。",
+      "example_vi": "Trường học chú trọng <u>bồi dưỡng</u> nhân tài xuất sắc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "培育.svg",
+      "src": "images/HSK_2.0/level6/培育.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/培育.svg"
+      ]
+    },
+    "配备": {
+      "hanzi": "配备",
+      "pinyin": "pèibèi",
+      "meaning": "trang bị",
+      "example_zh": "每个教室都<u>配备</u>了电脑。",
+      "example_vi": "Mỗi phòng học đều được <u>trang bị</u> máy vi tính.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "配备.svg",
+      "src": "images/HSK_2.0/level6/配备.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/配备.svg"
+      ]
+    },
+    "配偶": {
+      "hanzi": "配偶",
+      "pinyin": "pèi'ǒu",
+      "meaning": "vợ/chồng, người phối ngẫu",
+      "example_zh": "申请表上需要填写<u>配偶</u>姓名。",
+      "example_vi": "Trên đơn xin cần điền tên <u>người phối ngẫu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "配偶.svg",
+      "src": "images/HSK_2.0/level6/配偶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/配偶.svg",
+        "images/HSK_3.0/level8/配偶.svg",
+        "images/HSK_3.0/level9/配偶.svg"
+      ]
+    },
+    "配套": {
+      "hanzi": "配套",
+      "pinyin": "pèitào",
+      "meaning": "đồng bộ, thành bộ",
+      "example_zh": "这套家具是<u>配套</u>购买的。",
+      "example_vi": "Bộ đồ nội thất này được mua <u>đồng bộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "配套.svg",
+      "src": "images/HSK_2.0/level6/配套.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/配套.svg"
+      ]
+    },
+    "盆地": {
+      "hanzi": "盆地",
+      "pinyin": "péndì",
+      "meaning": "bồn địa, lưu vực",
+      "example_zh": "四川<u>盆地</u>气候湿润。",
+      "example_vi": "Khí hậu của <u>bồn địa</u> Tứ Xuyên ẩm ướt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盆地.svg",
+      "src": "images/HSK_2.0/level6/盆地.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盆地.svg",
+        "images/HSK_3.0/level8/盆地.svg",
+        "images/HSK_3.0/level9/盆地.svg"
       ]
     },
     "品质": {

@@ -18382,6 +18382,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/泡沫.svg",
     "caption": "bong bóng, bọt"
   },
+  "培育": {
+    "file": "培育.svg",
+    "src": "images/HSK_2.0/level6/培育.svg",
+    "caption": "bồi dưỡng, nuôi dưỡng"
+  },
+  "配备": {
+    "file": "配备.svg",
+    "src": "images/HSK_2.0/level6/配备.svg",
+    "caption": "trang bị"
+  },
+  "配偶": {
+    "file": "配偶.svg",
+    "src": "images/HSK_2.0/level6/配偶.svg",
+    "caption": "vợ/chồng, người phối ngẫu"
+  },
+  "配套": {
+    "file": "配套.svg",
+    "src": "images/HSK_2.0/level6/配套.svg",
+    "caption": "đồng bộ, thành bộ"
+  },
+  "盆地": {
+    "file": "盆地.svg",
+    "src": "images/HSK_2.0/level6/盆地.svg",
+    "caption": "bồn địa, lưu vực"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",
