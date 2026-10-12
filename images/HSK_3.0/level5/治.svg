@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Bed/Environment -->
+  <rect x="40" y="140" width="160" height="80" rx="10" fill="#334155"/>
+  <path d="M50 140 L190 140 L200 160 L40 160 Z" fill="#475569"/>
+  <circle cx="70" cy="120" r="25" fill="#f1f5f9"/>
+  
+  <!-- Character -->
+  <path d="M60 130 C 60 100, 80 90, 95 90 C 110 90, 130 100, 130 130" fill="#fde68a"/>
+  <circle cx="80" cy="105" r="4" fill="#1e293b"/>
+  <circle cx="110" cy="105" r="4" fill="#1e293b"/>
+  <path d="M85 120 Q 95 125 105 120" stroke="#1e293b" stroke-width="2" fill="none"/>
+  
+  <!-- Medicine Action -->
+  <rect x="140" y="110" width="20" height="30" rx="4" fill="#fb923c"/>
+  <rect x="144" y="105" width="12" height="5" rx="1" fill="#f59e0b"/>
+  <path d="M150 110 L150 90 L160 85" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="160" cy="85" r="6" fill="#10b981"/>
+  
+  <!-- Details -->
+  <rect x="170" y="170" width="30" height="20" rx="2" fill="#38bdf8"/>
+  <rect x="175" y="175" width="20" height="2" fill="#e2e8f0"/>
+  <rect x="175" y="180" width="20" height="2" fill="#e2e8f0"/>
+  
+  <!-- Clock -->
+  <circle cx="40" cy="40" r="20" fill="#334155" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="25" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="40" y1="40" x2="52" y2="40" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Decorative Sparkles -->
+  <path d="M200 50 L205 45 L210 50 L205 55 Z" fill="#fbbf24"/>
+  <path d="M190 70 L193 67 L196 70 L193 73 Z" fill="#38bdf8"/>
+</svg>

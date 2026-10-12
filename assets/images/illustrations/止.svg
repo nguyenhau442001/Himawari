@@ -1,0 +1,50 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Stage Floor -->
+  <path d="M0 190 L240 190 L220 240 L20 240 Z" fill="#334155"/>
+  
+  <!-- Speaker/Host Character -->
+  <g transform="translate(120, 100)">
+    <!-- Body -->
+    <path d="M-20 40 C-20 20, 20 20, 20 40 L25 90 L-25 90 Z" fill="#fb923c"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="25" fill="#fde68a"/>
+    <!-- Gesture: Hands raised in 'stop/finish' motion -->
+    <path d="M-35 20 L-50 10 M35 20 L50 10" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    <!-- Face -->
+    <circle cx="-8" cy="5" r="3" fill="#1e293b"/>
+    <circle cx="8" cy="5" r="3" fill="#1e293b"/>
+    <path d="M-8 18 Q0 22 8 18" stroke="#1e293b" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Audience/Participants -->
+  <g transform="translate(40, 160)">
+    <circle cx="0" cy="0" r="12" fill="#38bdf8"/>
+    <rect x="-15" y="12" width="30" height="40" rx="5" fill="#38bdf8"/>
+  </g>
+  <g transform="translate(200, 160)">
+    <circle cx="0" cy="0" r="12" fill="#10b981"/>
+    <rect x="-15" y="12" width="30" height="40" rx="5" fill="#10b981"/>
+  </g>
+  <g transform="translate(120, 180)">
+    <circle cx="0" cy="0" r="12" fill="#ec4899"/>
+    <rect x="-15" y="12" width="30" height="40" rx="5" fill="#ec4899"/>
+  </g>
+  
+  <!-- Decorative Stage Lights -->
+  <circle cx="40" cy="40" r="15" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="200" cy="40" r="15" fill="#fbbf24" opacity="0.3"/>
+  
+  <!-- Confetti/Atmosphere -->
+  <circle cx="60" cy="80" r="2" fill="#fb923c"/>
+  <circle cx="180" cy="80" r="2" fill="#38bdf8"/>
+  <circle cx="100" cy="60" r="2" fill="#10b981"/>
+  <circle cx="140" cy="60" r="2" fill="#ec4899"/>
+</svg>

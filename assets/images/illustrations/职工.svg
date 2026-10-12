@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Medical Station Desk -->
+  <path d="M40 160h160v10H40z" fill="#334155"/>
+  <path d="M50 170h140v40H50z" fill="#475569"/>
+  
+  <!-- Medical Equipment -->
+  <circle cx="70" cy="150" r="12" fill="#38bdf8"/>
+  <rect x="65" y="145" width="10" height="10" fill="#f1f5f9"/>
+  <path d="M160 140l10-20 10 20" stroke="#fb923c" stroke-width="3" fill="none"/>
+  
+  <!-- Doctor Character -->
+  <g transform="translate(150, 120)">
+    <circle cx="10" cy="10" r="12" fill="#fde68a"/>
+    <rect x="0" y="25" width="20" height="40" rx="4" fill="#10b981"/>
+    <path d="M5 30h10v5H5z" fill="#ffffff"/>
+  </g>
+  
+  <!-- Employee Character -->
+  <g transform="translate(60, 110)">
+    <circle cx="15" cy="15" r="15" fill="#fde68a"/>
+    <rect x="5" y="35" width="20" height="60" rx="5" fill="#38bdf8"/>
+    <path d="M5 40h20v5H5z" fill="#ffffff"/>
+    <!-- Stethoscope -->
+    <path d="M20 30c0 10-10 10-10 20" stroke="#ec4899" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Clipboard/Report -->
+  <rect x="110" y="140" width="30" height="40" rx="2" fill="#f1f5f9"/>
+  <path d="M115 145h20M115 155h20M115 165h10" stroke="#334155" stroke-width="2" fill="none"/>
+  
+  <!-- Background Elements -->
+  <rect x="30" y="80" width="180" height="2" fill="#334155"/>
+  <circle cx="200" cy="60" r="15" fill="#fbbf24" opacity="0.2"/>
+</svg>

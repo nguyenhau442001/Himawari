@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Tree Trunk -->
+  <path d="M80 240 C 80 180, 90 150, 110 120 C 120 100, 130 90, 140 80 C 160 70, 180 80, 190 90" fill="none" stroke="#78350f" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Branches -->
+  <path d="M110 120 L 90 100 M110 120 L 130 110" stroke="#78350f" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Flower Stems (The "Zhi" focus) -->
+  <path d="M140 80 L 135 50" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 75 L 155 45" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  <path d="M135 85 L 125 60" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Flowers -->
+  <circle cx="135" cy="50" r="8" fill="#ec4899"/>
+  <circle cx="155" cy="45" r="8" fill="#f59e0b"/>
+  <circle cx="125" cy="60" r="8" fill="#38bdf8"/>
+  
+  <!-- Character: Child pointing -->
+  <g transform="translate(40, 160)">
+    <circle cx="20" cy="20" r="15" fill="#fbbf24"/>
+    <path d="M20 35 L 20 80" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 50 L 50 40" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+    <path d="M50 40 L 65 30" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 80 L 10 110" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 80 L 30 110" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="2" fill="#fb923c"/>
+  <circle cx="180" cy="30" r="3" fill="#fb923c"/>
+  <circle cx="210" cy="70" r="2" fill="#fb923c"/>
+</svg>

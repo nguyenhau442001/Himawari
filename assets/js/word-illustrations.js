@@ -16201,6 +16201,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "正如.svg",
     "src": "images/HSK_3.0/level5/正如.svg",
     "caption": "đúng như, giống như"
+  },
+  "证书": {
+    "file": "证书.svg",
+    "src": "images/HSK_3.0/level5/证书.svg",
+    "caption": "giấy chứng nhận, văn bằng, chứng chỉ"
+  },
+  "支¹": {
+    "file": "支¹.svg",
+    "src": "images/HSK_3.0/level5/支¹.svg",
+    "caption": "nhánh, cây (lượng từ)"
+  },
+  "知名": {
+    "file": "知名.svg",
+    "src": "images/HSK_3.0/level5/知名.svg",
+    "caption": "nổi tiếng, có tiếng tăm"
+  },
+  "直播": {
+    "file": "直播.svg",
+    "src": "images/HSK_3.0/level5/直播.svg",
+    "caption": "phát sóng trực tiếp, livestream"
+  },
+  "职场": {
+    "file": "职场.svg",
+    "src": "images/HSK_3.0/level5/职场.svg",
+    "caption": "chốn công sở, môi trường làm việc"
+  },
+  "职工": {
+    "file": "职工.svg",
+    "src": "images/HSK_3.0/level5/职工.svg",
+    "caption": "cán bộ công nhân viên, người lao động"
+  },
+  "执行": {
+    "file": "执行.svg",
+    "src": "images/HSK_3.0/level5/执行.svg",
+    "caption": "thực hiện"
+  },
+  "止": {
+    "file": "止.svg",
+    "src": "images/HSK_3.0/level5/止.svg",
+    "caption": "dừng lại, chấm dứt, ngưng"
+  },
+  "至": {
+    "file": "至.svg",
+    "src": "images/HSK_3.0/level5/至.svg",
+    "caption": "đến"
+  },
+  "治": {
+    "file": "治.svg",
+    "src": "images/HSK_3.0/level5/治.svg",
+    "caption": "chữa trị (bệnh); trị an, quản lý"
   }
 };
 
