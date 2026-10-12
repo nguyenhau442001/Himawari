@@ -12997,6 +12997,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/榜样.svg",
     "caption": "tấm gương, hình mẫu"
   },
+  "磅": {
+    "file": "磅.svg",
+    "src": "images/HSK_2.0/level6/磅.svg",
+    "caption": "cân Anh (pound)"
+  },
+  "包庇": {
+    "file": "包庇.svg",
+    "src": "images/HSK_2.0/level6/包庇.svg",
+    "caption": "che chở, bao che việc xấu"
+  },
+  "包袱": {
+    "file": "包袱.svg",
+    "src": "images/HSK_2.0/level6/包袱.svg",
+    "caption": "cái bọc; gánh nặng (nghĩa bóng)"
+  },
+  "包围": {
+    "file": "包围.svg",
+    "src": "images/HSK_2.0/level6/包围.svg",
+    "caption": "bao vây"
+  },
+  "保管": {
+    "file": "保管.svg",
+    "src": "images/HSK_2.0/level6/保管.svg",
+    "caption": "bảo quản, trông giữ; chắc chắn"
+  },
+  "饱和": {
+    "file": "饱和.svg",
+    "src": "images/HSK_2.0/level6/饱和.svg",
+    "caption": "bão hòa"
+  },
+  "饱经沧桑": {
+    "file": "饱经沧桑.svg",
+    "src": "images/HSK_2.0/level6/饱经沧桑.svg",
+    "caption": "đã trải qua nhiều biến cố, thăng trầm"
+  },
+  "保密": {
+    "file": "保密.svg",
+    "src": "images/HSK_2.0/level6/保密.svg",
+    "caption": "giữ bí mật"
+  },
+  "保姆": {
+    "file": "保姆.svg",
+    "src": "images/HSK_2.0/level6/保姆.svg",
+    "caption": "người giúp việc, bảo mẫu"
+  },
+  "保守": {
+    "file": "保守.svg",
+    "src": "images/HSK_2.0/level6/保守.svg",
+    "caption": "bảo thủ; giữ bí mật"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",

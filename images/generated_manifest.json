@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:23:11.614179",
-  "total_unique_words_with_illustrations": 3259,
-  "total_flat_svg_files": 3259,
+  "generated_at": "2026-10-12T10:26:25.645518",
+  "total_unique_words_with_illustrations": 3269,
+  "total_flat_svg_files": 3269,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 619,
-        "pct": "24.8%"
+        "with_svg": 629,
+        "pct": "25.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 257,
+        "with_svg": 258,
         "pct": "14.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 129,
-        "pct": "2.3%"
+        "with_svg": 138,
+        "pct": "2.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 129,
-        "pct": "2.3%"
+        "with_svg": 138,
+        "pct": "2.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 129,
-        "pct": "2.3%"
+        "with_svg": 138,
+        "pct": "2.5%"
       }
     }
   },
@@ -46884,6 +46884,222 @@
       "src": "images/HSK_2.0/level6/榜样.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/榜样.svg"
+      ]
+    },
+    "磅": {
+      "hanzi": "磅",
+      "pinyin": "bàng",
+      "meaning": "cân Anh (pound)",
+      "example_zh": "这个箱子重五十<u>磅</u>。",
+      "example_vi": "Cái hộp này nặng năm mươi <u>pound</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "磅.svg",
+      "src": "images/HSK_2.0/level6/磅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/磅.svg",
+        "images/HSK_3.0/level8/磅.svg",
+        "images/HSK_3.0/level9/磅.svg"
+      ]
+    },
+    "包庇": {
+      "hanzi": "包庇",
+      "pinyin": "bāobì",
+      "meaning": "che chở, bao che việc xấu",
+      "example_zh": "不能<u>包庇</u>犯罪分子。",
+      "example_vi": "Không thể <u>bao che</u> cho phần tử phạm pháp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "包庇.svg",
+      "src": "images/HSK_2.0/level6/包庇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/包庇.svg",
+        "images/HSK_3.0/level8/包庇.svg",
+        "images/HSK_3.0/level9/包庇.svg"
+      ]
+    },
+    "包袱": {
+      "hanzi": "包袱",
+      "pinyin": "bāofu",
+      "meaning": "cái bọc; gánh nặng (nghĩa bóng)",
+      "example_zh": "这件事成了他的思想<u>包袱</u>。",
+      "example_vi": "Việc này trở thành <u>gánh nặng</u> tâm lý của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "包袱.svg",
+      "src": "images/HSK_2.0/level6/包袱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/包袱.svg",
+        "images/HSK_3.0/level8/包袱.svg",
+        "images/HSK_3.0/level9/包袱.svg"
+      ]
+    },
+    "包围": {
+      "hanzi": "包围",
+      "pinyin": "bāowéi",
+      "meaning": "bao vây",
+      "example_zh": "敌军被我们<u>包围</u>了。",
+      "example_vi": "Quân địch đã bị chúng ta <u>bao vây</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "包围.svg",
+      "src": "images/HSK_2.0/level6/包围.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/包围.svg",
+        "images/HSK_3.0/level8/包围.svg",
+        "images/HSK_3.0/level9/包围.svg"
+      ]
+    },
+    "保管": {
+      "hanzi": "保管",
+      "pinyin": "bǎoguǎn",
+      "meaning": "bảo quản, trông giữ; chắc chắn",
+      "example_zh": "请帮我<u>保管</u>这个箱子。",
+      "example_vi": "Xin hãy giúp tôi <u>bảo quản</u> cái hộp này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "保管.svg",
+      "src": "images/HSK_2.0/level6/保管.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/保管.svg"
+      ]
+    },
+    "饱和": {
+      "hanzi": "饱和",
+      "pinyin": "bǎohé",
+      "meaning": "bão hòa",
+      "example_zh": "市场已经<u>饱和</u>了。",
+      "example_vi": "Thị trường đã <u>bão hòa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "饱和.svg",
+      "src": "images/HSK_2.0/level6/饱和.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/饱和.svg",
+        "images/HSK_3.0/level8/饱和.svg",
+        "images/HSK_3.0/level9/饱和.svg"
+      ]
+    },
+    "饱经沧桑": {
+      "hanzi": "饱经沧桑",
+      "pinyin": "bǎo jīng cāng sāng",
+      "meaning": "đã trải qua nhiều biến cố, thăng trầm",
+      "example_zh": "老人的脸上写满了<u>饱经沧桑</u>。",
+      "example_vi": "Gương mặt ông lão thể hiện rõ sự <u>trải qua nhiều thăng trầm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "饱经沧桑.svg",
+      "src": "images/HSK_2.0/level6/饱经沧桑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/饱经沧桑.svg",
+        "images/HSK_3.0/level8/饱经沧桑.svg",
+        "images/HSK_3.0/level9/饱经沧桑.svg"
+      ]
+    },
+    "保密": {
+      "hanzi": "保密",
+      "pinyin": "bǎomì",
+      "meaning": "giữ bí mật",
+      "example_zh": "这份文件需要<u>保密</u>。",
+      "example_vi": "Tài liệu này cần phải <u>giữ bí mật</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "保密.svg",
+      "src": "images/HSK_2.0/level6/保密.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/保密.svg",
+        "images/HSK_3.0/level8/保密.svg",
+        "images/HSK_3.0/level9/保密.svg"
+      ]
+    },
+    "保姆": {
+      "hanzi": "保姆",
+      "pinyin": "bǎomǔ",
+      "meaning": "người giúp việc, bảo mẫu",
+      "example_zh": "他们家请了一位<u>保姆</u>。",
+      "example_vi": "Gia đình họ thuê một <u>người giúp việc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "保姆.svg",
+      "src": "images/HSK_2.0/level6/保姆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/保姆.svg",
+        "images/HSK_3.0/level8/保姆.svg",
+        "images/HSK_3.0/level9/保姆.svg"
+      ]
+    },
+    "保守": {
+      "hanzi": "保守",
+      "pinyin": "bǎoshǒu",
+      "meaning": "bảo thủ; giữ bí mật",
+      "example_zh": "他的想法比较<u>保守</u>。",
+      "example_vi": "Suy nghĩ của anh ấy khá <u>bảo thủ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "保守.svg",
+      "src": "images/HSK_2.0/level6/保守.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/保守.svg",
+        "images/HSK_3.0/level8/保守.svg",
+        "images/HSK_3.0/level9/保守.svg"
       ]
     },
     "本人": {

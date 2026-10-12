@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Environment: A tactical map table with glowing markers -->
+  <rect x="40" y="140" width="160" height="60" rx="4" fill="#334155"/>
+  <path d="M40 140 L60 120 H180 L200 140 Z" fill="#475569"/>
+  
+  <!-- The "Enemy" (a small group of red-accented figures in the center) -->
+  <circle cx="120" cy="155" r="12" fill="#fb923c" opacity="0.8"/>
+  <circle cx="115" cy="150" r="4" fill="#ef4444"/>
+  <circle cx="125" cy="150" r="4" fill="#ef4444"/>
+  
+  <!-- The "We" (surrounding figures in blue) -->
+  <g fill="#38bdf8">
+    <circle cx="80" cy="155" r="8"/>
+    <circle cx="160" cy="155" r="8"/>
+    <circle cx="120" cy="125" r="8"/>
+    <circle cx="120" cy="185" r="8"/>
+    <circle cx="95" cy="135" r="8"/>
+    <circle cx="145" cy="135" r="8"/>
+  </g>
+  
+  <!-- Tactical lines connecting the surrounding figures -->
+  <path d="M80 155 L110 155 M160 155 L130 155 M120 125 L120 145 M120 185 L120 165" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Decorative ambient light -->
+  <circle cx="120" cy="155" r="40" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2 4" opacity="0.4"/>
+  
+  <!-- Foreground elements -->
+  <path d="M20 220 L220 220" stroke="#64748b" stroke-width="2"/>
+  <rect x="180" y="200" width="20" height="20" rx="2" fill="#10b981"/>
+  <rect x="40" y="200" width="20" height="20" rx="2" fill="#ec4899"/>
+</svg>

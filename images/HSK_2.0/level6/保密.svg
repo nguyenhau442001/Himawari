@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="50" fill="#475569"/>
+  <rect x="190" y="175" width="10" height="50" fill="#475569"/>
+
+  <!-- Document with Confidential Stamp/Seal visual -->
+  <path d="M90 110h60v70H90z" fill="#f1f5f9"/>
+  <path d="M100 125h40v5H100zM100 135h40v5H100zM100 145h25v5H100z" fill="#94a3b8"/>
+  <circle cx="120" cy="160" r="12" fill="none" stroke="#ec4899" stroke-width="2" stroke-dasharray="4 2"/>
+  <path d="M112 160l5 5 10-10" stroke="#ec4899" stroke-width="2" fill="none"/>
+
+  <!-- Character (Upper body) -->
+  <g transform="translate(60, 60)">
+    <!-- Body -->
+    <path d="M20 120c0-30 20-50 60-50s60 20 60 50v40H20z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="80" cy="50" r="25" fill="#fde68a"/>
+    <!-- Eyes -->
+    <ellipse cx="70" cy="45" rx="3" ry="4" fill="#1e293b"/>
+    <ellipse cx="90" cy="45" rx="3" ry="4" fill="#1e293b"/>
+    <!-- Mouth (Serious expression) -->
+    <path d="M72 58h16" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Hand covering document -->
+    <path d="M130 100c5-10 15-15 25-10l10 10-20 30z" fill="#fde68a"/>
+  </g>
+
+  <!-- Ambient Light/Glow -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#fb923c" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Lock Icon (Abstract representation of security) -->
+  <path d="M180 40h20v20h-20z" fill="#10b981"/>
+  <path d="M185 40v-5a5 5 0 0 1 10 0v5" fill="none" stroke="#10b981" stroke-width="3"/>
+</svg>
