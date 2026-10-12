@@ -18777,6 +18777,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/乞丐.svg",
     "caption": "người ăn xin"
   },
+  "企图": {
+    "file": "企图.svg",
+    "src": "images/HSK_2.0/level6/企图.svg",
+    "caption": "âm mưu, ý đồ"
+  },
+  "岂有此理": {
+    "file": "岂有此理.svg",
+    "src": "images/HSK_2.0/level6/岂有此理.svg",
+    "caption": "vô lý hết sức"
+  },
+  "器材": {
+    "file": "器材.svg",
+    "src": "images/HSK_2.0/level6/器材.svg",
+    "caption": "thiết bị, dụng cụ"
+  },
+  "器官": {
+    "file": "器官.svg",
+    "src": "images/HSK_2.0/level6/器官.svg",
+    "caption": "cơ quan (trong cơ thể)"
+  },
+  "气概": {
+    "file": "气概.svg",
+    "src": "images/HSK_2.0/level6/气概.svg",
+    "caption": "khí phách"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",

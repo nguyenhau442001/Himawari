@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background Container -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="heroGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  <rect width="240" height="240" fill="url(#spotlight)"/>
+
+  <!-- Environmental Context: Ancient-modern heroic stage / dramatic cliff top with flying banners & wind -->
+  <!-- Dramatic backdrop elements -->
+  <path d="M0 200 L80 170 L160 185 L240 160 L240 240 L0 240 Z" fill="#090d16"/>
+  
+  <!-- Flying Red Cape / Banner elements representing "Khí phách" (Heroic spirit/aura) -->
+  <path d="M120 70 C 150 70, 190 90, 210 130 C 180 140, 150 110, 120 100 Z" fill="#ef4444" opacity="0.9"/>
+  <path d="M110 80 C 140 90, 175 120, 195 160 C 165 160, 145 130, 110 110 Z" fill="#b91c1c" opacity="0.8"/>
+
+  <!-- Golden heroic aura/light burst behind the hero -->
+  <circle cx="120" cy="110" r="50" fill="url(#heroGlow)"/>
+
+  <!-- Main Hero Character -->
+  <!-- Stance: Confident, heroic, chest out, firm footing -->
+  
+  <!-- Right Leg -->
+  <path d="M125 170 L145 205 L130 210 L115 175 Z" fill="#1e293b"/>
+  <!-- Left Leg -->
+  <path d="M115 170 L95 205 L110 210 L120 175 Z" fill="#334155"/>
+  <!-- Boots -->
+  <path d="M130 207 L148 212 L145 218 L125 215 Z" fill="#0f172a"/>
+  <path d="M95 207 L112 212 L115 218 L92 215 Z" fill="#0f172a"/>
+
+  <!-- Torso & Heroic Outfit -->
+  <path d="M95 115 L145 115 L155 175 L85 175 Z" fill="#1e293b"/>
+  <!-- Chest plate / Tunic detail in warm amber/gold -->
+  <path d="M100 120 L140 120 L145 165 L95 165 Z" fill="#d97706"/>
+  <path d="M120 120 L140 145 L120 170 L100 145 Z" fill="#f59e0b"/>
+  
+  <!-- Belt -->
+  <rect x="90" y="165" width="60" height="8" rx="2" fill="#0f172a"/>
+  <rect x="114" y="164" width="12" height="10" rx="1" fill="#fbbf24"/>
+
+  <!-- Left Arm (bent, fist on hip or holding a stance) -->
+  <path d="M88 120 L65 140 L75 155 L92 135 Z" fill="#d97706"/>
+  <!-- Right Arm (raised or strong gesture) -->
+  <path d="M152 120 L175 100 L185 112 L162 135 Z" fill="#d97706"/>
+
+  <!-- Hands/Fists -->
+  <circle cx="70" cy="158" r="6" fill="#fcd34d"/>
+  <circle cx="180" cy="108" r="6" fill="#fcd34d"/>
+
+  <!-- Neck -->
+  <rect x="112" y="100" width="16" height="18" rx="4" fill="#fcd34d"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="85" r="18" fill="#fcd34d"/>
+
+  <!-- Determined Facial Expression -->
+  <!-- Eyebrows (strong, angled down) -->
+  <path d="M108 78 L116 82" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M124 82 L132 78" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="113" cy="86" r="2" fill="#1e293b"/>
+  <circle cx="127" cy="86" r="2" fill="#1e293b"/>
+  <!-- Confident Mouth -->
+  <path d="M116 95 C 118 97, 122 97, 124 95" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Heroic Hair / Headband -->
+  <path d="M101 80 C 105 65, 135 65, 139 80 C 135 75, 105 75, 101 80 Z" fill="#0f172a"/>
+  <!-- Headband fluttering in wind -->
+  <path d="M135 78 C 155 75, 185 85, 200 95 C 180 90, 155 82, 135 84 Z" fill="#ef4444"/>
+
+  <!-- Floating particles / wind dust for dynamic atmosphere -->
+  <circle cx="50" cy="100" r="2" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="65" cy="80" r="1.5" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="190" cy="140" r="2" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="160" cy="190" r="1.5" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="80" cy="195" r="2" fill="#fbbf24" opacity="0.8"/>
+
+  <!-- Foreground Silhouettes / Environmental Framing -->
+  <path d="M0 240 L0 220 L30 230 L70 240 Z" fill="#05080f"/>
+  <path d="M180 240 L210 225 L240 235 L240 240 Z" fill="#05080f"/>
+</svg>
