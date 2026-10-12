@@ -18277,10 +18277,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/奴隶.svg",
     "caption": "nô lệ"
   },
+  "挪": {
+    "file": "挪.svg",
+    "src": "images/HSK_2.0/level6/挪.svg",
+    "caption": "di chuyển, dịch chỗ"
+  },
+  "虐待": {
+    "file": "虐待.svg",
+    "src": "images/HSK_2.0/level6/虐待.svg",
+    "caption": "ngược đãi"
+  },
   "哦": {
     "file": "哦.svg",
     "src": "images/HSK_2.0/level6/哦.svg",
     "caption": "ồ, à (thán từ tỏ ra hiểu hoặc bất ngờ)"
+  },
+  "殴打": {
+    "file": "殴打.svg",
+    "src": "images/HSK_2.0/level6/殴打.svg",
+    "caption": "đánh đập, hành hung"
+  },
+  "偶像": {
+    "file": "偶像.svg",
+    "src": "images/HSK_2.0/level6/偶像.svg",
+    "caption": "thần tượng"
+  },
+  "呕吐": {
+    "file": "呕吐.svg",
+    "src": "images/HSK_2.0/level6/呕吐.svg",
+    "caption": "nôn, ói"
   },
   "品质": {
     "file": "品质.svg",

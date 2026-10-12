@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:59:22.374691",
-  "total_unique_words_with_illustrations": 4255,
-  "total_flat_svg_files": 4255,
+  "generated_at": "2026-10-12T22:17:18.769165",
+  "total_unique_words_with_illustrations": 4260,
+  "total_flat_svg_files": 4260,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1615,
-        "pct": "64.6%"
+        "with_svg": 1620,
+        "pct": "64.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 544,
-        "pct": "30.2%"
+        "with_svg": 545,
+        "pct": "30.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 767,
-        "pct": "13.7%"
+        "with_svg": 771,
+        "pct": "13.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 767,
-        "pct": "13.7%"
+        "with_svg": 771,
+        "pct": "13.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 767,
-        "pct": "13.7%"
+        "with_svg": 771,
+        "pct": "13.8%"
       }
     }
   },
@@ -68182,6 +68182,50 @@
         "images/HSK_3.0/level9/奴隶.svg"
       ]
     },
+    "挪": {
+      "hanzi": "挪",
+      "pinyin": "nuó",
+      "meaning": "di chuyển, dịch chỗ",
+      "example_zh": "请把椅子<u>挪</u>一下位置。",
+      "example_vi": "Xin hãy <u>dịch chỗ</u> cái ghế một chút.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挪.svg",
+      "src": "images/HSK_2.0/level6/挪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挪.svg",
+        "images/HSK_3.0/level8/挪.svg",
+        "images/HSK_3.0/level9/挪.svg"
+      ]
+    },
+    "虐待": {
+      "hanzi": "虐待",
+      "pinyin": "nüèdài",
+      "meaning": "ngược đãi",
+      "example_zh": "我们不能<u>虐待</u>动物。",
+      "example_vi": "Chúng ta không thể <u>ngược đãi</u> động vật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "虐待.svg",
+      "src": "images/HSK_2.0/level6/虐待.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/虐待.svg",
+        "images/HSK_3.0/level8/虐待.svg",
+        "images/HSK_3.0/level9/虐待.svg"
+      ]
+    },
     "哦": {
       "hanzi": "哦",
       "pinyin": "ò",
@@ -68198,6 +68242,68 @@
       "src": "images/HSK_2.0/level6/哦.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/哦.svg"
+      ]
+    },
+    "殴打": {
+      "hanzi": "殴打",
+      "pinyin": "ōudǎ",
+      "meaning": "đánh đập, hành hung",
+      "example_zh": "他因<u>殴打</u>他人被警察带走了。",
+      "example_vi": "Anh ta bị cảnh sát bắt đi vì <u>hành hung</u> người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "殴打.svg",
+      "src": "images/HSK_2.0/level6/殴打.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/殴打.svg",
+        "images/HSK_3.0/level8/殴打.svg",
+        "images/HSK_3.0/level9/殴打.svg"
+      ]
+    },
+    "偶像": {
+      "hanzi": "偶像",
+      "pinyin": "ǒuxiàng",
+      "meaning": "thần tượng",
+      "example_zh": "他是很多年轻人的<u>偶像</u>。",
+      "example_vi": "Anh ấy là <u>thần tượng</u> của nhiều người trẻ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "偶像.svg",
+      "src": "images/HSK_2.0/level6/偶像.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/偶像.svg"
+      ]
+    },
+    "呕吐": {
+      "hanzi": "呕吐",
+      "pinyin": "ǒutù",
+      "meaning": "nôn, ói",
+      "example_zh": "他晕车，一直在<u>呕吐</u>。",
+      "example_vi": "Anh ấy bị say xe, cứ <u>nôn</u> mãi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "呕吐.svg",
+      "src": "images/HSK_2.0/level6/呕吐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/呕吐.svg",
+        "images/HSK_3.0/level8/呕吐.svg",
+        "images/HSK_3.0/level9/呕吐.svg"
       ]
     },
     "品质": {
