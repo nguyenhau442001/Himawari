@@ -1,0 +1,51 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table -->
+  <rect x="30" y="160" width="180" height="20" rx="4" fill="#334155"/>
+  <rect x="40" y="180" width="10" height="40" fill="#475569"/>
+  <rect x="190" y="180" width="10" height="40" fill="#475569"/>
+  
+  <!-- Document/Proposal on table -->
+  <rect x="80" y="145" width="80" height="15" rx="2" fill="#e2e8f0"/>
+  <rect x="85" y="148" width="70" height="2" rx="1" fill="#94a3b8"/>
+  <rect x="85" y="153" width="40" height="2" rx="1" fill="#94a3b8"/>
+  
+  <!-- Character 1 (Left) -->
+  <circle cx="70" cy="110" r="15" fill="#fde68a"/>
+  <path d="M55 125 Q70 140 85 125" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <rect x="55" y="125" width="30" height="40" rx="5" fill="#38bdf8"/>
+  <circle cx="65" cy="108" r="2" fill="#1e293b"/>
+  <circle cx="75" cy="108" r="2" fill="#1e293b"/>
+  <path d="M65 140 L60 160" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Character 2 (Center) -->
+  <circle cx="120" cy="90" r="18" fill="#fde68a"/>
+  <rect x="105" y="108" width="30" height="50" rx="5" fill="#ec4899"/>
+  <circle cx="115" cy="88" r="2" fill="#1e293b"/>
+  <circle cx="125" cy="88" r="2" fill="#1e293b"/>
+  <path d="M110 130 L100 150" stroke="#ec4899" stroke-width="6" stroke-linecap="round"/>
+  <path d="M130 130 L140 150" stroke="#ec4899" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Character 3 (Right) -->
+  <circle cx="170" cy="110" r="15" fill="#fde68a"/>
+  <rect x="155" y="125" width="30" height="40" rx="5" fill="#10b981"/>
+  <circle cx="165" cy="108" r="2" fill="#1e293b"/>
+  <circle cx="175" cy="108" r="2" fill="#1e293b"/>
+  <path d="M170 140 L175 160" stroke="#10b981" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Voting Hands -->
+  <circle cx="70" cy="130" r="6" fill="#fb923c"/>
+  <circle cx="120" cy="110" r="6" fill="#fb923c"/>
+  <circle cx="170" cy="130" r="6" fill="#fb923c"/>
+  
+  <!-- Background elements -->
+  <rect x="40" y="40" width="160" height="2" fill="#334155"/>
+  <rect x="40" y="50" width="120" height="2" fill="#334155"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:45:36.984621",
-  "total_unique_words_with_illustrations": 3329,
-  "total_flat_svg_files": 3329,
+  "generated_at": "2026-10-12T10:48:59.912174",
+  "total_unique_words_with_illustrations": 3339,
+  "total_flat_svg_files": 3339,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 689,
-        "pct": "27.6%"
+        "with_svg": 699,
+        "pct": "28.0%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 605,
-        "pct": "60.5%"
+        "with_svg": 606,
+        "pct": "60.6%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 269,
-        "pct": "14.9%"
+        "with_svg": 270,
+        "pct": "15.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 183,
-        "pct": "3.3%"
+        "with_svg": 190,
+        "pct": "3.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 183,
-        "pct": "3.3%"
+        "with_svg": 190,
+        "pct": "3.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 183,
-        "pct": "3.3%"
+        "with_svg": 190,
+        "pct": "3.4%"
       }
     }
   },
@@ -48418,6 +48418,166 @@
         "images/HSK_3.0/level9/辨认.svg"
       ]
     },
+    "便条": {
+      "hanzi": "便条",
+      "pinyin": "biàntiáo",
+      "meaning": "giấy nhắn",
+      "example_zh": "她留了一张<u>便条</u>给我。",
+      "example_vi": "Cô ấy để lại một <u>giấy nhắn</u> cho tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "便条.svg",
+      "src": "images/HSK_2.0/level6/便条.svg",
+      "alt_srcs": []
+    },
+    "便于": {
+      "hanzi": "便于",
+      "pinyin": "biànyú",
+      "meaning": "thuận tiện cho, dễ",
+      "example_zh": "这样安排<u>便于</u>管理。",
+      "example_vi": "Bố trí như thế <u>dễ</u> quản lý hơn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "便于.svg",
+      "src": "images/HSK_2.0/level6/便于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/便于.svg"
+      ]
+    },
+    "辩证": {
+      "hanzi": "辩证",
+      "pinyin": "biànzhèng",
+      "meaning": "biện chứng",
+      "example_zh": "要用<u>辩证</u>的眼光看问题。",
+      "example_vi": "Phải nhìn vấn đề bằng quan điểm <u>biện chứng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辩证.svg",
+      "src": "images/HSK_2.0/level6/辩证.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辩证.svg",
+        "images/HSK_3.0/level8/辩证.svg",
+        "images/HSK_3.0/level9/辩证.svg"
+      ]
+    },
+    "变质": {
+      "hanzi": "变质",
+      "pinyin": "biànzhì",
+      "meaning": "biến chất, hư hỏng",
+      "example_zh": "食物已经<u>变质</u>了。",
+      "example_vi": "Thực phẩm đã bị <u>biến chất</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "变质.svg",
+      "src": "images/HSK_2.0/level6/变质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/变质.svg"
+      ]
+    },
+    "辫子": {
+      "hanzi": "辫子",
+      "pinyin": "biànzi",
+      "meaning": "bím tóc",
+      "example_zh": "她梳着两条<u>辫子</u>。",
+      "example_vi": "Cô ấy tết hai <u>bím tóc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辫子.svg",
+      "src": "images/HSK_2.0/level6/辫子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辫子.svg",
+        "images/HSK_3.0/level8/辫子.svg",
+        "images/HSK_3.0/level9/辫子.svg"
+      ]
+    },
+    "标本": {
+      "hanzi": "标本",
+      "pinyin": "biāoběn",
+      "meaning": "mẫu vật, tiêu bản",
+      "example_zh": "实验室里有很多<u>标本</u>。",
+      "example_vi": "Trong phòng thí nghiệm có nhiều <u>mẫu vật</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "标本.svg",
+      "src": "images/HSK_2.0/level6/标本.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/标本.svg",
+        "images/HSK_3.0/level8/标本.svg",
+        "images/HSK_3.0/level9/标本.svg"
+      ]
+    },
+    "标记": {
+      "hanzi": "标记",
+      "pinyin": "biāojì",
+      "meaning": "dấu hiệu, ký hiệu",
+      "example_zh": "在地图上做个<u>标记</u>。",
+      "example_vi": "Đánh một <u>dấu hiệu</u> trên bản đồ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "标记.svg",
+      "src": "images/HSK_2.0/level6/标记.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/标记.svg",
+        "images/HSK_3.0/level8/标记.svg",
+        "images/HSK_3.0/level9/标记.svg"
+      ]
+    },
+    "飙升": {
+      "hanzi": "飙升",
+      "pinyin": "biāoshēng",
+      "meaning": "tăng vọt",
+      "example_zh": "房价最近<u>飙升</u>。",
+      "example_vi": "Giá nhà gần đây <u>tăng vọt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "飙升.svg",
+      "src": "images/HSK_2.0/level6/飙升.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/飙升.svg",
+        "images/HSK_3.0/level8/飙升.svg",
+        "images/HSK_3.0/level9/飙升.svg"
+      ]
+    },
     "标题": {
       "hanzi": "标题",
       "pinyin": "biāotí",
@@ -48434,6 +48594,50 @@
       "src": "images/HSK_2.0/level6/标题.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/标题.svg"
+      ]
+    },
+    "表决": {
+      "hanzi": "表决",
+      "pinyin": "biǎojué",
+      "meaning": "bỏ phiếu quyết định",
+      "example_zh": "大会对方案进行<u>表决</u>。",
+      "example_vi": "Đại hội tiến hành <u>bỏ phiếu</u> đối với phương án.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "表决.svg",
+      "src": "images/HSK_2.0/level6/表决.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/表决.svg",
+        "images/HSK_3.0/level8/表决.svg",
+        "images/HSK_3.0/level9/表决.svg"
+      ]
+    },
+    "表态": {
+      "hanzi": "表态",
+      "pinyin": "biǎotài",
+      "meaning": "tỏ rõ lập trường, lên tiếng",
+      "example_zh": "领导还没有<u>表态</u>。",
+      "example_vi": "Lãnh đạo vẫn chưa <u>lên tiếng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "表态.svg",
+      "src": "images/HSK_2.0/level6/表态.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/表态.svg",
+        "images/HSK_3.0/level8/表态.svg",
+        "images/HSK_3.0/level9/表态.svg"
       ]
     },
     "拨打": {

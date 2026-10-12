@@ -13367,10 +13367,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/辨认.svg",
     "caption": "nhận diện, phân biệt"
   },
+  "便条": {
+    "file": "便条.svg",
+    "src": "images/HSK_2.0/level6/便条.svg",
+    "caption": "giấy nhắn"
+  },
+  "便于": {
+    "file": "便于.svg",
+    "src": "images/HSK_2.0/level6/便于.svg",
+    "caption": "thuận tiện cho, dễ"
+  },
+  "辩证": {
+    "file": "辩证.svg",
+    "src": "images/HSK_2.0/level6/辩证.svg",
+    "caption": "biện chứng"
+  },
+  "变质": {
+    "file": "变质.svg",
+    "src": "images/HSK_2.0/level6/变质.svg",
+    "caption": "biến chất, hư hỏng"
+  },
+  "辫子": {
+    "file": "辫子.svg",
+    "src": "images/HSK_2.0/level6/辫子.svg",
+    "caption": "bím tóc"
+  },
+  "标本": {
+    "file": "标本.svg",
+    "src": "images/HSK_2.0/level6/标本.svg",
+    "caption": "mẫu vật, tiêu bản"
+  },
+  "标记": {
+    "file": "标记.svg",
+    "src": "images/HSK_2.0/level6/标记.svg",
+    "caption": "dấu hiệu, ký hiệu"
+  },
+  "飙升": {
+    "file": "飙升.svg",
+    "src": "images/HSK_2.0/level6/飙升.svg",
+    "caption": "tăng vọt"
+  },
   "标题": {
     "file": "标题.svg",
     "src": "images/HSK_2.0/level6/标题.svg",
     "caption": "đề mục, tiêu đề"
+  },
+  "表决": {
+    "file": "表决.svg",
+    "src": "images/HSK_2.0/level6/表决.svg",
+    "caption": "bỏ phiếu quyết định"
+  },
+  "表态": {
+    "file": "表态.svg",
+    "src": "images/HSK_2.0/level6/表态.svg",
+    "caption": "tỏ rõ lập trường, lên tiếng"
   },
   "拨打": {
     "file": "拨打.svg",
