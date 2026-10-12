@@ -14927,10 +14927,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/丁.svg",
     "caption": "miếng vuông nhỏ (thực phẩm)"
   },
+  "盯": {
+    "file": "盯.svg",
+    "src": "images/HSK_2.0/level6/盯.svg",
+    "caption": "nhìn chăm chú, theo dõi"
+  },
+  "叮嘱": {
+    "file": "叮嘱.svg",
+    "src": "images/HSK_2.0/level6/叮嘱.svg",
+    "caption": "dặn dò"
+  },
   "定期": {
     "file": "定期.svg",
     "src": "images/HSK_2.0/level6/定期.svg",
     "caption": "định kỳ"
+  },
+  "定义": {
+    "file": "定义.svg",
+    "src": "images/HSK_2.0/level6/定义.svg",
+    "caption": "định nghĩa"
+  },
+  "丢人": {
+    "file": "丢人.svg",
+    "src": "images/HSK_2.0/level6/丢人.svg",
+    "caption": "mất mặt"
+  },
+  "丢三落四": {
+    "file": "丢三落四.svg",
+    "src": "images/HSK_2.0/level6/丢三落四.svg",
+    "caption": "hay quên, đãng trí"
+  },
+  "东道主": {
+    "file": "东道主.svg",
+    "src": "images/HSK_2.0/level6/东道主.svg",
+    "caption": "chủ nhà (bên tổ chức)"
+  },
+  "东张西望": {
+    "file": "东张西望.svg",
+    "src": "images/HSK_2.0/level6/东张西望.svg",
+    "caption": "nhìn ngó lung tung"
+  },
+  "董事长": {
+    "file": "董事长.svg",
+    "src": "images/HSK_2.0/level6/董事长.svg",
+    "caption": "chủ tịch hội đồng quản trị"
+  },
+  "栋": {
+    "file": "栋.svg",
+    "src": "images/HSK_2.0/level6/栋.svg",
+    "caption": "(lượng từ) tòa, căn nhà"
+  },
+  "动荡": {
+    "file": "动荡.svg",
+    "src": "images/HSK_2.0/level6/动荡.svg",
+    "caption": "bất ổn, biến động"
   },
   "动手": {
     "file": "动手.svg",

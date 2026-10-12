@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:58:22.637169",
-  "total_unique_words_with_illustrations": 3619,
-  "total_flat_svg_files": 3619,
+  "generated_at": "2026-10-12T12:00:17.950968",
+  "total_unique_words_with_illustrations": 3629,
+  "total_flat_svg_files": 3629,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 979,
-        "pct": "39.2%"
+        "with_svg": 989,
+        "pct": "39.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 362,
-        "pct": "20.1%"
+        "with_svg": 364,
+        "pct": "20.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 361,
-        "pct": "6.4%"
+        "with_svg": 369,
+        "pct": "6.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 361,
-        "pct": "6.4%"
+        "with_svg": 369,
+        "pct": "6.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 361,
-        "pct": "6.4%"
+        "with_svg": 369,
+        "pct": "6.6%"
       }
     }
   },
@@ -54678,6 +54678,50 @@
         "images/HSK_3.0/level9/丁.svg"
       ]
     },
+    "盯": {
+      "hanzi": "盯",
+      "pinyin": "dīng",
+      "meaning": "nhìn chăm chú, theo dõi",
+      "example_zh": "他一直<u>盯</u>着电脑屏幕。",
+      "example_vi": "Anh ấy <u>nhìn chăm chú</u> vào màn hình máy tính.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盯.svg",
+      "src": "images/HSK_2.0/level6/盯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盯.svg",
+        "images/HSK_3.0/level8/盯.svg",
+        "images/HSK_3.0/level9/盯.svg"
+      ]
+    },
+    "叮嘱": {
+      "hanzi": "叮嘱",
+      "pinyin": "dīngzhǔ",
+      "meaning": "dặn dò",
+      "example_zh": "妈妈<u>叮嘱</u>我路上小心。",
+      "example_vi": "Mẹ <u>dặn dò</u> tôi cẩn thận trên đường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "叮嘱.svg",
+      "src": "images/HSK_2.0/level6/叮嘱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/叮嘱.svg",
+        "images/HSK_3.0/level8/叮嘱.svg",
+        "images/HSK_3.0/level9/叮嘱.svg"
+      ]
+    },
     "定期": {
       "hanzi": "定期",
       "pinyin": "dìngqī",
@@ -54694,6 +54738,174 @@
       "src": "images/HSK_2.0/level6/定期.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/定期.svg"
+      ]
+    },
+    "定义": {
+      "hanzi": "定义",
+      "pinyin": "dìngyì",
+      "meaning": "định nghĩa",
+      "example_zh": "请给这个词下个<u>定义</u>。",
+      "example_vi": "Xin hãy đưa ra <u>định nghĩa</u> cho từ này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "定义.svg",
+      "src": "images/HSK_2.0/level6/定义.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/定义.svg"
+      ]
+    },
+    "丢人": {
+      "hanzi": "丢人",
+      "pinyin": "diūrén",
+      "meaning": "mất mặt",
+      "example_zh": "这样做太<u>丢人</u>了。",
+      "example_vi": "Làm như vậy thật <u>mất mặt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丢人.svg",
+      "src": "images/HSK_2.0/level6/丢人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/丢人.svg",
+        "images/HSK_3.0/level8/丢人.svg",
+        "images/HSK_3.0/level9/丢人.svg"
+      ]
+    },
+    "丢三落四": {
+      "hanzi": "丢三落四",
+      "pinyin": "diū sān là sì",
+      "meaning": "hay quên, đãng trí",
+      "example_zh": "他做事总是<u>丢三落四</u>。",
+      "example_vi": "Anh ấy làm việc luôn <u>hay quên đãng trí</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丢三落四.svg",
+      "src": "images/HSK_2.0/level6/丢三落四.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/丢三落四.svg",
+        "images/HSK_3.0/level8/丢三落四.svg",
+        "images/HSK_3.0/level9/丢三落四.svg"
+      ]
+    },
+    "东道主": {
+      "hanzi": "东道主",
+      "pinyin": "dōngdàozhǔ",
+      "meaning": "chủ nhà (bên tổ chức)",
+      "example_zh": "这次比赛的<u>东道主</u>是北京。",
+      "example_vi": "<u>Chủ nhà</u> của giải đấu lần này là Bắc Kinh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "东道主.svg",
+      "src": "images/HSK_2.0/level6/东道主.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/东道主.svg",
+        "images/HSK_3.0/level8/东道主.svg",
+        "images/HSK_3.0/level9/东道主.svg"
+      ]
+    },
+    "东张西望": {
+      "hanzi": "东张西望",
+      "pinyin": "dōng zhāng xī wàng",
+      "meaning": "nhìn ngó lung tung",
+      "example_zh": "他<u>东张西望</u>，好像在找人。",
+      "example_vi": "Anh ấy <u>nhìn ngó lung tung</u>, có vẻ như đang tìm ai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "东张西望.svg",
+      "src": "images/HSK_2.0/level6/东张西望.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/东张西望.svg",
+        "images/HSK_3.0/level8/东张西望.svg",
+        "images/HSK_3.0/level9/东张西望.svg"
+      ]
+    },
+    "董事长": {
+      "hanzi": "董事长",
+      "pinyin": "dǒngshìzhǎng",
+      "meaning": "chủ tịch hội đồng quản trị",
+      "example_zh": "他是公司的<u>董事长</u>。",
+      "example_vi": "Anh ấy là <u>chủ tịch hội đồng quản trị</u> công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "董事长.svg",
+      "src": "images/HSK_2.0/level6/董事长.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/董事长.svg",
+        "images/HSK_3.0/level8/董事长.svg",
+        "images/HSK_3.0/level9/董事长.svg"
+      ]
+    },
+    "栋": {
+      "hanzi": "栋",
+      "pinyin": "dòng",
+      "meaning": "(lượng từ) tòa, căn nhà",
+      "example_zh": "这<u>栋</u>楼有十层。",
+      "example_vi": "<u>Tòa</u> nhà này có mười tầng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "栋.svg",
+      "src": "images/HSK_2.0/level6/栋.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/栋.svg"
+      ]
+    },
+    "动荡": {
+      "hanzi": "动荡",
+      "pinyin": "dòngdàng",
+      "meaning": "bất ổn, biến động",
+      "example_zh": "那个时期社会很<u>动荡</u>。",
+      "example_vi": "Thời kỳ đó xã hội rất <u>bất ổn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动荡.svg",
+      "src": "images/HSK_2.0/level6/动荡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/动荡.svg",
+        "images/HSK_3.0/level8/动荡.svg",
+        "images/HSK_3.0/level9/动荡.svg"
       ]
     },
     "动手": {
