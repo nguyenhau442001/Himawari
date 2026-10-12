@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Broken Heart/Trust Symbol -->
+    <path d="M-40 -20 C-60 -40 -80 -20 -80 0 C-80 30 -40 60 0 80 C40 60 80 30 80 0 C80 -20 60 -40 40 -20 L0 20 Z" fill="#3D4451" stroke="#FFB84D" stroke-width="6" stroke-linejoin="round"/>
+    
+    <!-- Golden Repair/Stitching -->
+    <path d="M-5 -10 L-5 10 M5 -10 L5 10 M-15 -5 L15 -5 M-15 5 L15 5" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Hands reaching to mend -->
+    <path d="M-70 -60 C-80 -70 -90 -60 -80 -50 L-40 -10" stroke="#FFB84D" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M70 -60 C80 -70 90 -60 80 -50 L40 -10" stroke="#FFB84D" stroke-width="8" stroke-linecap="round" fill="none"/>
+    
+    <!-- Sparkle/Restoration effect -->
+    <circle cx="0" cy="-40" r="4" fill="#FFB84D"/>
+    <circle cx="-30" cy="-60" r="3" fill="#FFB84D"/>
+    <circle cx="30" cy="-60" r="3" fill="#FFB84D"/>
+  </g>
+</svg>

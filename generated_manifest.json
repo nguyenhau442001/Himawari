@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:43:32.923834",
-  "total_unique_words_with_illustrations": 4749,
-  "total_flat_svg_files": 4749,
+  "generated_at": "2026-10-12T23:57:15.070771",
+  "total_unique_words_with_illustrations": 4769,
+  "total_flat_svg_files": 4769,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2109,
-        "pct": "84.4%"
+        "with_svg": 2129,
+        "pct": "85.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 706,
-        "pct": "39.2%"
+        "with_svg": 711,
+        "pct": "39.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1080,
-        "pct": "19.3%"
+        "with_svg": 1095,
+        "pct": "19.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1080,
-        "pct": "19.3%"
+        "with_svg": 1095,
+        "pct": "19.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1080,
-        "pct": "19.3%"
+        "with_svg": 1095,
+        "pct": "19.6%"
       }
     }
   },
@@ -78832,6 +78832,426 @@
         "images/HSK_3.0/level7/挖掘.svg",
         "images/HSK_3.0/level8/挖掘.svg",
         "images/HSK_3.0/level9/挖掘.svg"
+      ]
+    },
+    "娃娃": {
+      "hanzi": "娃娃",
+      "pinyin": "wáwa",
+      "meaning": "búp bê, em bé",
+      "example_zh": "她送给女儿一个布<u>娃娃</u>。",
+      "example_vi": "Cô ấy tặng con gái một con <u>búp bê</u> nhồi bông.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "娃娃.svg",
+      "src": "images/HSK_2.0/level6/娃娃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/娃娃.svg"
+      ]
+    },
+    "瓦解": {
+      "hanzi": "瓦解",
+      "pinyin": "wǎjiě",
+      "meaning": "tan rã, sụp đổ",
+      "example_zh": "他们的计划已经<u>瓦解</u>了。",
+      "example_vi": "Kế hoạch của họ đã <u>tan rã</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "瓦解.svg",
+      "src": "images/HSK_2.0/level6/瓦解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/瓦解.svg",
+        "images/HSK_3.0/level8/瓦解.svg",
+        "images/HSK_3.0/level9/瓦解.svg"
+      ]
+    },
+    "哇": {
+      "hanzi": "哇",
+      "pinyin": "wa",
+      "meaning": "oa (thán từ)",
+      "example_zh": "<u>哇</u>，这风景太美了！",
+      "example_vi": "<u>Oa</u>, cảnh đẹp quá!",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "哇.svg",
+      "src": "images/HSK_2.0/level6/哇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/哇.svg"
+      ]
+    },
+    "歪曲": {
+      "hanzi": "歪曲",
+      "pinyin": "wāiqū",
+      "meaning": "xuyên tạc, bóp méo",
+      "example_zh": "请不要<u>歪曲</u>事实。",
+      "example_vi": "Xin đừng <u>bóp méo</u> sự thật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "歪曲.svg",
+      "src": "images/HSK_2.0/level6/歪曲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/歪曲.svg",
+        "images/HSK_3.0/level8/歪曲.svg",
+        "images/HSK_3.0/level9/歪曲.svg"
+      ]
+    },
+    "外表": {
+      "hanzi": "外表",
+      "pinyin": "wàibiǎo",
+      "meaning": "vẻ ngoài",
+      "example_zh": "不要只看一个人的<u>外表</u>。",
+      "example_vi": "Đừng chỉ nhìn <u>vẻ ngoài</u> của một người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "外表.svg",
+      "src": "images/HSK_2.0/level6/外表.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/外表.svg"
+      ]
+    },
+    "外行": {
+      "hanzi": "外行",
+      "pinyin": "wàiháng",
+      "meaning": "người ngoài nghề, không chuyên",
+      "example_zh": "在这个领域我完全是<u>外行</u>。",
+      "example_vi": "Trong lĩnh vực này tôi hoàn toàn là <u>người không chuyên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "外行.svg",
+      "src": "images/HSK_2.0/level6/外行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/外行.svg",
+        "images/HSK_3.0/level8/外行.svg",
+        "images/HSK_3.0/level9/外行.svg"
+      ]
+    },
+    "外界": {
+      "hanzi": "外界",
+      "pinyin": "wàijiè",
+      "meaning": "thế giới bên ngoài",
+      "example_zh": "他很少关心<u>外界</u>的事情。",
+      "example_vi": "Anh ấy ít quan tâm đến những việc <u>bên ngoài</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "外界.svg",
+      "src": "images/HSK_2.0/level6/外界.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/外界.svg"
+      ]
+    },
+    "外向": {
+      "hanzi": "外向",
+      "pinyin": "wàixiàng",
+      "meaning": "hướng ngoại",
+      "example_zh": "她的性格很<u>外向</u>。",
+      "example_vi": "Tính cách của cô ấy rất <u>hướng ngoại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "外向.svg",
+      "src": "images/HSK_2.0/level6/外向.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/外向.svg",
+        "images/HSK_3.0/level8/外向.svg",
+        "images/HSK_3.0/level9/外向.svg"
+      ]
+    },
+    "丸": {
+      "hanzi": "丸",
+      "pinyin": "wán",
+      "meaning": "viên (thuốc)",
+      "example_zh": "每天吃一<u>丸</u>药。",
+      "example_vi": "Mỗi ngày uống một <u>viên</u> thuốc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丸.svg",
+      "src": "images/HSK_2.0/level6/丸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/丸.svg",
+        "images/HSK_3.0/level8/丸.svg",
+        "images/HSK_3.0/level9/丸.svg"
+      ]
+    },
+    "完备": {
+      "hanzi": "完备",
+      "pinyin": "wánbèi",
+      "meaning": "hoàn chỉnh, đầy đủ",
+      "example_zh": "这套设备非常<u>完备</u>。",
+      "example_vi": "Bộ thiết bị này rất <u>hoàn chỉnh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "完备.svg",
+      "src": "images/HSK_2.0/level6/完备.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/完备.svg",
+        "images/HSK_3.0/level8/完备.svg",
+        "images/HSK_3.0/level9/完备.svg"
+      ]
+    },
+    "完毕": {
+      "hanzi": "完毕",
+      "pinyin": "wánbì",
+      "meaning": "hoàn tất, xong",
+      "example_zh": "工作已经全部<u>完毕</u>。",
+      "example_vi": "Công việc đã <u>hoàn tất</u> toàn bộ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "完毕.svg",
+      "src": "images/HSK_2.0/level6/完毕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/完毕.svg",
+        "images/HSK_3.0/level8/完毕.svg",
+        "images/HSK_3.0/level9/完毕.svg"
+      ]
+    },
+    "玩弄": {
+      "hanzi": "玩弄",
+      "pinyin": "wánnòng",
+      "meaning": "chơi đùa, lợi dụng",
+      "example_zh": "他不该<u>玩弄</u>别人的感情。",
+      "example_vi": "Anh ấy không nên <u>lợi dụng</u> cảm xúc của người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "玩弄.svg",
+      "src": "images/HSK_2.0/level6/玩弄.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/玩弄.svg",
+        "images/HSK_3.0/level8/玩弄.svg",
+        "images/HSK_3.0/level9/玩弄.svg"
+      ]
+    },
+    "玩意儿": {
+      "hanzi": "玩意儿",
+      "pinyin": "wányìr",
+      "meaning": "đồ chơi, vật dụng",
+      "example_zh": "这是个什么<u>玩意儿</u>？",
+      "example_vi": "Đây là <u>cái vật dụng</u> gì vậy?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "玩意儿.svg",
+      "src": "images/HSK_2.0/level6/玩意儿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/玩意儿.svg",
+        "images/HSK_3.0/level8/玩意儿.svg",
+        "images/HSK_3.0/level9/玩意儿.svg"
+      ]
+    },
+    "顽固": {
+      "hanzi": "顽固",
+      "pinyin": "wángù",
+      "meaning": "cố chấp, ngoan cố",
+      "example_zh": "他的思想非常<u>顽固</u>。",
+      "example_vi": "Tư tưởng của anh ấy rất <u>cố chấp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "顽固.svg",
+      "src": "images/HSK_2.0/level6/顽固.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/顽固.svg",
+        "images/HSK_3.0/level8/顽固.svg",
+        "images/HSK_3.0/level9/顽固.svg"
+      ]
+    },
+    "顽强": {
+      "hanzi": "顽强",
+      "pinyin": "wánqiáng",
+      "meaning": "kiên cường",
+      "example_zh": "他以<u>顽强</u>的意志战胜了病魔。",
+      "example_vi": "Anh ấy đã chiến thắng bệnh tật bằng ý chí <u>kiên cường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "顽强.svg",
+      "src": "images/HSK_2.0/level6/顽强.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/顽强.svg"
+      ]
+    },
+    "挽回": {
+      "hanzi": "挽回",
+      "pinyin": "wǎnhuí",
+      "meaning": "cứu vãn, vớt vát lại",
+      "example_zh": "他想<u>挽回</u>失去的信任。",
+      "example_vi": "Anh ấy muốn <u>cứu vãn</u> lại niềm tin đã mất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挽回.svg",
+      "src": "images/HSK_2.0/level6/挽回.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挽回.svg",
+        "images/HSK_3.0/level8/挽回.svg",
+        "images/HSK_3.0/level9/挽回.svg"
+      ]
+    },
+    "挽救": {
+      "hanzi": "挽救",
+      "pinyin": "wǎnjiù",
+      "meaning": "cứu vớt, cứu nguy",
+      "example_zh": "医生及时<u>挽救</u>了他的生命。",
+      "example_vi": "Bác sĩ đã kịp thời <u>cứu vớt</u> mạng sống của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挽救.svg",
+      "src": "images/HSK_2.0/level6/挽救.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挽救.svg",
+        "images/HSK_3.0/level8/挽救.svg",
+        "images/HSK_3.0/level9/挽救.svg"
+      ]
+    },
+    "惋惜": {
+      "hanzi": "惋惜",
+      "pinyin": "wǎnxī",
+      "meaning": "tiếc nuối, đáng tiếc",
+      "example_zh": "大家都为他的离开感到<u>惋惜</u>。",
+      "example_vi": "Mọi người đều cảm thấy <u>tiếc nuối</u> vì anh ấy ra đi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "惋惜.svg",
+      "src": "images/HSK_2.0/level6/惋惜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/惋惜.svg",
+        "images/HSK_3.0/level8/惋惜.svg",
+        "images/HSK_3.0/level9/惋惜.svg"
+      ]
+    },
+    "万分": {
+      "hanzi": "万分",
+      "pinyin": "wànfēn",
+      "meaning": "vô cùng, hết sức",
+      "example_zh": "听到这个消息，他<u>万分</u>高兴。",
+      "example_vi": "Nghe tin này, anh ấy <u>vô cùng</u> vui mừng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "万分.svg",
+      "src": "images/HSK_2.0/level6/万分.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/万分.svg",
+        "images/HSK_3.0/level8/万分.svg",
+        "images/HSK_3.0/level9/万分.svg"
+      ]
+    },
+    "往常": {
+      "hanzi": "往常",
+      "pinyin": "wǎngcháng",
+      "meaning": "thường ngày, như mọi khi",
+      "example_zh": "他比<u>往常</u>早起了一个小时。",
+      "example_vi": "Anh ấy dậy sớm hơn <u>thường ngày</u> một giờ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "往常.svg",
+      "src": "images/HSK_2.0/level6/往常.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/往常.svg",
+        "images/HSK_3.0/level8/往常.svg",
+        "images/HSK_3.0/level9/往常.svg"
       ]
     },
     "维持": {

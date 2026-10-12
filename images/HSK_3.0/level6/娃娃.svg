@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 50)">
+    <!-- Doll Body -->
+    <path d="M60 140 C60 120, 40 100, 60 80 C80 60, 100 60, 120 80 C140 100, 120 120, 120 140 L110 160 L70 160 Z" fill="#FFB74D"/>
+    <!-- Head -->
+    <circle cx="90" cy="70" r="35" fill="#FFCC80"/>
+    <!-- Eyes -->
+    <circle cx="75" cy="65" r="4" fill="#1A1D24"/>
+    <circle cx="105" cy="65" r="4" fill="#1A1D24"/>
+    <!-- Mouth -->
+    <path d="M80 80 Q90 88 100 80" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="70" cy="75" r="3" fill="#FF8A65" opacity="0.6"/>
+    <circle cx="110" cy="75" r="3" fill="#FF8A65" opacity="0.6"/>
+    <!-- Arms -->
+    <path d="M55 90 L30 110" stroke="#FFB74D" stroke-width="12" stroke-linecap="round"/>
+    <path d="M125 90 L150 110" stroke="#FFB74D" stroke-width="12" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M75 160 L70 190" stroke="#FFB74D" stroke-width="12" stroke-linecap="round"/>
+    <path d="M105 160 L110 190" stroke="#FFB74D" stroke-width="12" stroke-linecap="round"/>
+    <!-- Hair -->
+    <path d="M65 50 Q90 30 115 50 Q120 40 110 35 Q90 25 70 35 Z" fill="#8D6E63"/>
+  </g>
+</svg>

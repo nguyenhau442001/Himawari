@@ -20907,6 +20907,106 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/挖掘.svg",
     "caption": "khai quật, khám phá"
   },
+  "娃娃": {
+    "file": "娃娃.svg",
+    "src": "images/HSK_2.0/level6/娃娃.svg",
+    "caption": "búp bê, em bé"
+  },
+  "瓦解": {
+    "file": "瓦解.svg",
+    "src": "images/HSK_2.0/level6/瓦解.svg",
+    "caption": "tan rã, sụp đổ"
+  },
+  "哇": {
+    "file": "哇.svg",
+    "src": "images/HSK_2.0/level6/哇.svg",
+    "caption": "oa (thán từ)"
+  },
+  "歪曲": {
+    "file": "歪曲.svg",
+    "src": "images/HSK_2.0/level6/歪曲.svg",
+    "caption": "xuyên tạc, bóp méo"
+  },
+  "外表": {
+    "file": "外表.svg",
+    "src": "images/HSK_2.0/level6/外表.svg",
+    "caption": "vẻ ngoài"
+  },
+  "外行": {
+    "file": "外行.svg",
+    "src": "images/HSK_2.0/level6/外行.svg",
+    "caption": "người ngoài nghề, không chuyên"
+  },
+  "外界": {
+    "file": "外界.svg",
+    "src": "images/HSK_2.0/level6/外界.svg",
+    "caption": "thế giới bên ngoài"
+  },
+  "外向": {
+    "file": "外向.svg",
+    "src": "images/HSK_2.0/level6/外向.svg",
+    "caption": "hướng ngoại"
+  },
+  "丸": {
+    "file": "丸.svg",
+    "src": "images/HSK_2.0/level6/丸.svg",
+    "caption": "viên (thuốc)"
+  },
+  "完备": {
+    "file": "完备.svg",
+    "src": "images/HSK_2.0/level6/完备.svg",
+    "caption": "hoàn chỉnh, đầy đủ"
+  },
+  "完毕": {
+    "file": "完毕.svg",
+    "src": "images/HSK_2.0/level6/完毕.svg",
+    "caption": "hoàn tất, xong"
+  },
+  "玩弄": {
+    "file": "玩弄.svg",
+    "src": "images/HSK_2.0/level6/玩弄.svg",
+    "caption": "chơi đùa, lợi dụng"
+  },
+  "玩意儿": {
+    "file": "玩意儿.svg",
+    "src": "images/HSK_2.0/level6/玩意儿.svg",
+    "caption": "đồ chơi, vật dụng"
+  },
+  "顽固": {
+    "file": "顽固.svg",
+    "src": "images/HSK_2.0/level6/顽固.svg",
+    "caption": "cố chấp, ngoan cố"
+  },
+  "顽强": {
+    "file": "顽强.svg",
+    "src": "images/HSK_2.0/level6/顽强.svg",
+    "caption": "kiên cường"
+  },
+  "挽回": {
+    "file": "挽回.svg",
+    "src": "images/HSK_2.0/level6/挽回.svg",
+    "caption": "cứu vãn, vớt vát lại"
+  },
+  "挽救": {
+    "file": "挽救.svg",
+    "src": "images/HSK_2.0/level6/挽救.svg",
+    "caption": "cứu vớt, cứu nguy"
+  },
+  "惋惜": {
+    "file": "惋惜.svg",
+    "src": "images/HSK_2.0/level6/惋惜.svg",
+    "caption": "tiếc nuối, đáng tiếc"
+  },
+  "万分": {
+    "file": "万分.svg",
+    "src": "images/HSK_2.0/level6/万分.svg",
+    "caption": "vô cùng, hết sức"
+  },
+  "往常": {
+    "file": "往常.svg",
+    "src": "images/HSK_2.0/level6/往常.svg",
+    "caption": "thường ngày, như mọi khi"
+  },
   "维持": {
     "file": "维持.svg",
     "src": "images/HSK_2.0/level6/维持.svg",

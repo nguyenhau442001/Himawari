@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Heart Shape (The Object of Manipulation) -->
+  <path d="M120 175C120 175 80 150 80 120C80 102 95 95 105 105L120 115L135 105C145 95 160 102 160 120C160 150 120 175 120 175Z" fill="#FF4D4D" opacity="0.9">
+    <animateTransform attributeName="transform" type="rotate" from="-5 120 140" to="5 120 140" dur="2s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Puppet Strings -->
+  <path d="M100 65 L95 110" stroke="#FFB800" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M140 65 L145 110" stroke="#FFB800" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M120 55 L120 115" stroke="#FFB800" stroke-width="1.5" stroke-dasharray="4 2"/>
+
+  <!-- Manipulating Hand (The Actor) -->
+  <g fill="#E0E0E0">
+    <!-- Palm/Back of hand -->
+    <path d="M90 45 Q120 35 150 45 L155 65 Q120 75 85 65 Z" />
+    <!-- Fingers -->
+    <rect x="88" y="55" width="8" height="15" rx="4" />
+    <rect x="108" y="58" width="8" height="18" rx="4" />
+    <rect x="128" y="58" width="8" height="18" rx="4" />
+    <rect x="148" y="55" width="8" height="15" rx="4" />
+  </g>
+
+  <!-- Motion Lines (Indicating jerking/toying action) -->
+  <g stroke="#FFB800" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M70 110 Q60 120 70 130" opacity="0.6" />
+    <path d="M170 110 Q180 120 170 130" opacity="0.6" />
+    <path d="M110 190 Q120 200 130 190" opacity="0.4" />
+  </g>
+
+  <!-- Focus Glow -->
+  <circle cx="120" cy="130" r="50" fill="url(#glowGradient)" opacity="0.15" />
+  
+  <defs>
+    <radialGradient id="glowGradient">
+      <stop offset="0%" stop-color="#FFB800" />
+      <stop offset="100%" stop-color="#1A1D24" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>

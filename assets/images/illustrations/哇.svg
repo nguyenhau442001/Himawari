@@ -1,0 +1,117 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E131F" />
+      <stop offset="55%" stop-color="#1E1B4B" />
+      <stop offset="100%" stop-color="#31103F" />
+    </linearGradient>
+
+    <!-- Sun / Glow Gradient -->
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF3B0" />
+      <stop offset="35%" stop-color="#FF9F43" />
+      <stop offset="70%" stop-color="#FF5252" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF5252" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Wonder Shockwave Gradient -->
+    <linearGradient id="burstGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD166" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#FF6B6B" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#48CAE4" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Mountain Gradient Back -->
+    <linearGradient id="mountBack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#432C7A" />
+      <stop offset="100%" stop-color="#1A1635" />
+    </linearGradient>
+
+    <!-- Mountain Gradient Mid -->
+    <linearGradient id="mountMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2B3A67" />
+      <stop offset="100%" stop-color="#131B2E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24" />
+
+  <!-- Landscape Viewport Frame -->
+  <g transform="translate(12, 12)">
+    <rect width="216" height="216" rx="16" fill="url(#skyGrad)" />
+
+    <!-- Radiant Majestic Sun rising in horizon -->
+    <circle cx="154" cy="116" r="64" fill="url(#sunGlow)" />
+    <circle cx="154" cy="116" r="22" fill="#FFFBEA" />
+
+    <!-- Distant Mountain Peaks -->
+    <path d="M70,150 L115,102 L148,135 L190,88 L216,118 L216,180 L70,180 Z" fill="url(#mountBack)" />
+    <path d="M115,102 L124,112 L110,122 Z" fill="#FF8E53" opacity="0.6" />
+    <path d="M190,88 L198,98 L182,108 Z" fill="#FF8E53" opacity="0.7" />
+
+    <!-- Midground Dramatic Mountain Ranges -->
+    <path d="M90,165 L142,118 L184,152 L216,130 L216,216 L90,216 Z" fill="url(#mountMid)" />
+    
+    <!-- Glowing Horizon Rim -->
+    <path d="M70,165 Q130,140 216,145" stroke="#FF9F43" stroke-width="1.5" stroke-dasharray="2 3" fill="none" opacity="0.7" />
+
+    <!-- Foreground Cliff (Viewer's vantage point) -->
+    <path d="M0,130 Q45,148 68,174 L78,216 L0,216 Z" fill="#0C0F17" />
+    <path d="M0,132 Q44,149 67,173" stroke="#384259" stroke-width="2" fill="none" />
+
+    <!-- The Character in Awe (Silhouette with dynamic wonder pose) -->
+    <!-- Body & Coat billowed by wind -->
+    <path d="M38,154 C35,147 38,138 42,136 C45,135 48,138 47,152 L49,165 L36,165 Z" fill="#FFD166" />
+    <!-- Back leg -->
+    <path d="M37,163 L34,175 L38,176 L42,165 Z" fill="#E5B942" />
+    <!-- Front leg on precipice edge -->
+    <path d="M44,163 L49,173 L54,173 L48,162 Z" fill="#FFEAA7" />
+    <!-- Arm raised forward pointing/reaching into vastness in admiration -->
+    <path d="M44,139 Q55,134 65,127" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" fill="none" />
+    <!-- Head tilted slightly upward in amazement -->
+    <circle cx="43" cy="127" r="5.5" fill="#FFEAA7" />
+    <!-- Backpack/Gear showing traveler discovering beauty -->
+    <path d="M35,139 C33,141 33,147 36,150 Z" fill="#D69E2E" />
+
+    <!-- Visual Metaphor for "哇!" (Exclamation of overwhelming awe) -->
+    <!-- Expanding Conical Soundwave / Wonder Shockwave originating from viewer -->
+    <path d="M50,128 L190,48" stroke="url(#burstGrad)" stroke-width="1.5" stroke-dasharray="3 4" />
+    <path d="M52,132 L205,92" stroke="url(#burstGrad)" stroke-width="1.5" stroke-dasharray="3 4" />
+    <path d="M50,135 L175,138" stroke="url(#burstGrad)" stroke-width="1.2" stroke-dasharray="2 4" />
+
+    <!-- Expanding Dynamic Arcs of Exclamation (Sound / Perception Wave) -->
+    <path d="M68,118 C74,124 76,133 73,141" stroke="#FFD166" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M84,107 C93,117 96,131 90,144" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9" />
+    <path d="M104,95 C117,109 120,129 111,148" stroke="#FF5252" stroke-width="2" stroke-dasharray="4 3" stroke-linecap="round" fill="none" opacity="0.8" />
+    <path d="M128,82 C146,101 149,127 137,153" stroke="#48CAE4" stroke-width="1.5" stroke-dasharray="2 4" stroke-linecap="round" fill="none" opacity="0.6" />
+
+    <!-- Dazzling Wonder Stars & Sparkles (Peak aesthetic impact) -->
+    <!-- Major Starburst 1 -->
+    <g transform="translate(135, 62)">
+      <path d="M0,-8 Q0,0 8,0 Q0,0 0,8 Q0,0 -8,0 Q0,0 0,-8 Z" fill="#FFFBEA" />
+      <circle cx="0" cy="0" r="1.5" fill="#FF9F43" />
+    </g>
+    <!-- Major Starburst 2 -->
+    <g transform="translate(182, 42)">
+      <path d="M0,-11 Q0,0 11,0 Q0,0 0,11 Q0,0 -11,0 Q0,0 0,-11 Z" fill="#FFD166" />
+      <circle cx="0" cy="0" r="2" fill="#FFFFFF" />
+    </g>
+    <!-- Medium Starburst 3 -->
+    <g transform="translate(100, 48)">
+      <path d="M0,-6 Q0,0 6,0 Q0,0 0,6 Q0,0 -6,0 Q0,0 0,-6 Z" fill="#FFEAA7" />
+    </g>
+    <!-- Accent Sparkles -->
+    <circle cx="75" cy="98" r="2" fill="#FFFBEA" />
+    <circle cx="160" cy="40" r="1.5" fill="#FFD166" />
+    <circle cx="120" cy="74" r="1.5" fill="#FFFFFF" />
+    <circle cx="198" cy="70" r="2.2" fill="#FF9F43" />
+    <circle cx="62" cy="112" r="1.2" fill="#FFD166" />
+    <circle cx="145" cy="96" r="1.8" fill="#FFF" opacity="0.8" />
+
+    <!-- Floating birds ascending towards the light in freedom/wonder -->
+    <path d="M106,78 Q110,75 114,78 Q118,75 122,78 Q114,80 106,78 Z" fill="#FFEAA7" opacity="0.8" />
+    <path d="M125,68 Q128,66 131,68 Q134,66 137,68 Q131,70 125,68 Z" fill="#FFD166" opacity="0.7" />
+  </g>
+</svg>
