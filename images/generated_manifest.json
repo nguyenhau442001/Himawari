@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:47:35.595823",
-  "total_unique_words_with_illustrations": 3869,
-  "total_flat_svg_files": 3869,
+  "generated_at": "2026-10-12T12:49:26.347413",
+  "total_unique_words_with_illustrations": 3879,
+  "total_flat_svg_files": 3879,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1229,
-        "pct": "49.2%"
+        "with_svg": 1239,
+        "pct": "49.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 440,
-        "pct": "24.4%"
+        "with_svg": 443,
+        "pct": "24.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 513,
-        "pct": "9.2%"
+        "with_svg": 519,
+        "pct": "9.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 513,
-        "pct": "9.2%"
+        "with_svg": 519,
+        "pct": "9.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 513,
-        "pct": "9.2%"
+        "with_svg": 519,
+        "pct": "9.3%"
       }
     }
   },
@@ -59992,6 +59992,206 @@
         "images/HSK_3.0/level7/轰动.svg",
         "images/HSK_3.0/level8/轰动.svg",
         "images/HSK_3.0/level9/轰动.svg"
+      ]
+    },
+    "轰炸": {
+      "hanzi": "轰炸",
+      "pinyin": "hōngzhà",
+      "meaning": "oanh tạc, bắn bom",
+      "example_zh": "城市遭到了<u>轰炸</u>。",
+      "example_vi": "Thành phố bị <u>oanh tạc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "轰炸.svg",
+      "src": "images/HSK_2.0/level6/轰炸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/轰炸.svg",
+        "images/HSK_3.0/level8/轰炸.svg",
+        "images/HSK_3.0/level9/轰炸.svg"
+      ]
+    },
+    "宏伟": {
+      "hanzi": "宏伟",
+      "pinyin": "hóngwěi",
+      "meaning": "hùng vĩ",
+      "example_zh": "这座建筑非常<u>宏伟</u>。",
+      "example_vi": "Công trình này rất <u>hùng vĩ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "宏伟.svg",
+      "src": "images/HSK_2.0/level6/宏伟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/宏伟.svg",
+        "images/HSK_3.0/level8/宏伟.svg",
+        "images/HSK_3.0/level9/宏伟.svg"
+      ]
+    },
+    "洪水": {
+      "hanzi": "洪水",
+      "pinyin": "hóngshuǐ",
+      "meaning": "lũ lụt",
+      "example_zh": "<u>洪水</u>淹没了村庄。",
+      "example_vi": "<u>Lũ lụt</u> nhấn chìm làng quê.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "洪水.svg",
+      "src": "images/HSK_2.0/level6/洪水.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/洪水.svg"
+      ]
+    },
+    "哄": {
+      "hanzi": "哄",
+      "pinyin": "hǒng",
+      "meaning": "dỗ dành, lừa gạt",
+      "example_zh": "妈妈<u>哄</u>孩子睡觉。",
+      "example_vi": "Mẹ <u>dỗ dành</u> con đi ngủ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "哄.svg",
+      "src": "images/HSK_2.0/level6/哄.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/哄.svg",
+        "images/HSK_3.0/level8/哄.svg",
+        "images/HSK_3.0/level9/哄.svg"
+      ]
+    },
+    "喉咙": {
+      "hanzi": "喉咙",
+      "pinyin": "hóulóng",
+      "meaning": "cổ họng",
+      "example_zh": "我<u>喉咙</u>疼。",
+      "example_vi": "<u>Cổ họng</u> tôi đau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "喉咙.svg",
+      "src": "images/HSK_2.0/level6/喉咙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/喉咙.svg",
+        "images/HSK_3.0/level8/喉咙.svg",
+        "images/HSK_3.0/level9/喉咙.svg"
+      ]
+    },
+    "后辈": {
+      "hanzi": "后辈",
+      "pinyin": "hòubèi",
+      "meaning": "thế hệ sau",
+      "example_zh": "我们要为<u>后辈</u>留下宝贵的遗产。",
+      "example_vi": "Chúng ta phải để lại di sản quý giá cho <u>thế hệ sau</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "后辈.svg",
+      "src": "images/HSK_2.0/level6/后辈.svg",
+      "alt_srcs": []
+    },
+    "后代": {
+      "hanzi": "后代",
+      "pinyin": "hòudài",
+      "meaning": "thế hệ sau, con cháu",
+      "example_zh": "这些古迹将留给<u>后代</u>。",
+      "example_vi": "Những di tích này sẽ được lưu lại cho <u>con cháu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "后代.svg",
+      "src": "images/HSK_2.0/level6/后代.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/后代.svg"
+      ]
+    },
+    "后退": {
+      "hanzi": "后退",
+      "pinyin": "hòutuì",
+      "meaning": "lùi lại",
+      "example_zh": "部队开始<u>后退</u>。",
+      "example_vi": "Quân đội bắt đầu <u>lùi lại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "后退.svg",
+      "src": "images/HSK_2.0/level6/后退.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/后退.svg"
+      ]
+    },
+    "糊": {
+      "hanzi": "糊",
+      "pinyin": "hú",
+      "meaning": "dán, hồ (bột); cháy khô",
+      "example_zh": "用浆<u>糊</u>把纸粘起来。",
+      "example_vi": "Dùng <u>hồ</u> dán giấy lại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "糊.svg",
+      "src": "images/HSK_2.0/level6/糊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/糊.svg",
+        "images/HSK_3.0/level8/糊.svg",
+        "images/HSK_3.0/level9/糊.svg"
+      ]
+    },
+    "狐狸": {
+      "hanzi": "狐狸",
+      "pinyin": "húli",
+      "meaning": "con cáo",
+      "example_zh": "<u>狐狸</u>非常聪明。",
+      "example_vi": "<u>Con cáo</u> rất khôn ngoan.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "狐狸.svg",
+      "src": "images/HSK_2.0/level6/狐狸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/狐狸.svg",
+        "images/HSK_3.0/level8/狐狸.svg",
+        "images/HSK_3.0/level9/狐狸.svg"
       ]
     },
     "花费": {

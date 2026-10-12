@@ -16257,6 +16257,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/轰动.svg",
     "caption": "gây chấn động"
   },
+  "轰炸": {
+    "file": "轰炸.svg",
+    "src": "images/HSK_2.0/level6/轰炸.svg",
+    "caption": "oanh tạc, bắn bom"
+  },
+  "宏伟": {
+    "file": "宏伟.svg",
+    "src": "images/HSK_2.0/level6/宏伟.svg",
+    "caption": "hùng vĩ"
+  },
+  "洪水": {
+    "file": "洪水.svg",
+    "src": "images/HSK_2.0/level6/洪水.svg",
+    "caption": "lũ lụt"
+  },
+  "哄": {
+    "file": "哄.svg",
+    "src": "images/HSK_2.0/level6/哄.svg",
+    "caption": "dỗ dành, lừa gạt"
+  },
+  "喉咙": {
+    "file": "喉咙.svg",
+    "src": "images/HSK_2.0/level6/喉咙.svg",
+    "caption": "cổ họng"
+  },
+  "后辈": {
+    "file": "后辈.svg",
+    "src": "images/HSK_2.0/level6/后辈.svg",
+    "caption": "thế hệ sau"
+  },
+  "后代": {
+    "file": "后代.svg",
+    "src": "images/HSK_2.0/level6/后代.svg",
+    "caption": "thế hệ sau, con cháu"
+  },
+  "后退": {
+    "file": "后退.svg",
+    "src": "images/HSK_2.0/level6/后退.svg",
+    "caption": "lùi lại"
+  },
+  "糊": {
+    "file": "糊.svg",
+    "src": "images/HSK_2.0/level6/糊.svg",
+    "caption": "dán, hồ (bột); cháy khô"
+  },
+  "狐狸": {
+    "file": "狐狸.svg",
+    "src": "images/HSK_2.0/level6/狐狸.svg",
+    "caption": "con cáo"
+  },
   "花费": {
     "file": "花费.svg",
     "src": "images/HSK_2.0/level6/花费.svg",
