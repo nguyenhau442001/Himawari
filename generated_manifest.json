@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:25:55.774747",
-  "total_unique_words_with_illustrations": 3459,
-  "total_flat_svg_files": 3459,
+  "generated_at": "2026-10-12T11:28:52.160030",
+  "total_unique_words_with_illustrations": 3469,
+  "total_flat_svg_files": 3469,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 819,
-        "pct": "32.8%"
+        "with_svg": 829,
+        "pct": "33.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 307,
-        "pct": "17.1%"
+        "with_svg": 312,
+        "pct": "17.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 264,
-        "pct": "4.7%"
+        "with_svg": 268,
+        "pct": "4.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 264,
-        "pct": "4.7%"
+        "with_svg": 268,
+        "pct": "4.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 264,
-        "pct": "4.7%"
+        "with_svg": 268,
+        "pct": "4.8%"
       }
     }
   },
@@ -51194,6 +51194,42 @@
         "images/HSK_3.0/level6/承办.svg"
       ]
     },
+    "承包": {
+      "hanzi": "承包",
+      "pinyin": "chéngbāo",
+      "meaning": "nhận thầu, khoán",
+      "example_zh": "他<u>承包</u>了这项工程。",
+      "example_vi": "Anh ấy <u>nhận thầu</u> công trình này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "承包.svg",
+      "src": "images/HSK_2.0/level6/承包.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/承包.svg",
+        "images/HSK_3.0/level8/承包.svg",
+        "images/HSK_3.0/level9/承包.svg"
+      ]
+    },
+    "城堡": {
+      "hanzi": "城堡",
+      "pinyin": "chéngbǎo",
+      "meaning": "lâu đài, thành lũy",
+      "example_zh": "山顶上有一座古老的<u>城堡</u>。",
+      "example_vi": "Trên đỉnh núi có một <u>lâu đài</u> cổ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "城堡.svg",
+      "src": "images/HSK_2.0/level6/城堡.svg",
+      "alt_srcs": []
+    },
     "成本": {
       "hanzi": "成本",
       "pinyin": "chéngběn",
@@ -51212,6 +51248,104 @@
         "images/HSK_3.0/level5/成本.svg"
       ]
     },
+    "惩罚": {
+      "hanzi": "惩罚",
+      "pinyin": "chéngfá",
+      "meaning": "trừng phạt",
+      "example_zh": "犯错就要受到<u>惩罚</u>。",
+      "example_vi": "Mắc lỗi thì phải chịu <u>trừng phạt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "惩罚.svg",
+      "src": "images/HSK_2.0/level6/惩罚.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/惩罚.svg"
+      ]
+    },
+    "成交": {
+      "hanzi": "成交",
+      "pinyin": "chéngjiāo",
+      "meaning": "giao dịch thành công",
+      "example_zh": "这笔生意终于<u>成交</u>了。",
+      "example_vi": "Vụ kinh doanh này cuối cùng đã <u>giao dịch thành công</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "成交.svg",
+      "src": "images/HSK_2.0/level6/成交.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/成交.svg"
+      ]
+    },
+    "承诺": {
+      "hanzi": "承诺",
+      "pinyin": "chéngnuò",
+      "meaning": "hứa hẹn, cam kết",
+      "example_zh": "他遵守了自己的<u>承诺</u>。",
+      "example_vi": "Anh ấy đã giữ <u>lời hứa</u> của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "承诺.svg",
+      "src": "images/HSK_2.0/level6/承诺.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/承诺.svg"
+      ]
+    },
+    "澄清": {
+      "hanzi": "澄清",
+      "pinyin": "chéngqīng",
+      "meaning": "làm sáng tỏ, thanh lọc",
+      "example_zh": "这件事需要<u>澄清</u>一下。",
+      "example_vi": "Việc này cần phải <u>làm sáng tỏ</u> một chút.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "澄清.svg",
+      "src": "images/HSK_2.0/level6/澄清.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/澄清.svg",
+        "images/HSK_3.0/level8/澄清.svg",
+        "images/HSK_3.0/level9/澄清.svg"
+      ]
+    },
+    "成天": {
+      "hanzi": "成天",
+      "pinyin": "chéngtiān",
+      "meaning": "suốt ngày",
+      "example_zh": "他<u>成天</u>待在家里。",
+      "example_vi": "Anh ấy ở nhà <u>suốt ngày</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成天.svg",
+      "src": "images/HSK_2.0/level6/成天.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/成天.svg",
+        "images/HSK_3.0/level8/成天.svg",
+        "images/HSK_3.0/level9/成天.svg"
+      ]
+    },
     "乘务员": {
       "hanzi": "乘务员",
       "pinyin": "chéngwùyuán",
@@ -51228,6 +51362,64 @@
       "src": "images/HSK_2.0/level6/乘务员.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/乘务员.svg"
+      ]
+    },
+    "呈现": {
+      "hanzi": "呈现",
+      "pinyin": "chéngxiàn",
+      "meaning": "hiện ra, biểu hiện",
+      "example_zh": "城市<u>呈现</u>出新的面貌。",
+      "example_vi": "Thành phố <u>hiện ra</u> với bộ mặt mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "呈现.svg",
+      "src": "images/HSK_2.0/level6/呈现.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/呈现.svg"
+      ]
+    },
+    "成效": {
+      "hanzi": "成效",
+      "pinyin": "chéngxiào",
+      "meaning": "hiệu quả",
+      "example_zh": "这种方法很有<u>成效</u>。",
+      "example_vi": "Phương pháp này rất có <u>hiệu quả</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "成效.svg",
+      "src": "images/HSK_2.0/level6/成效.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/成效.svg"
+      ]
+    },
+    "成心": {
+      "hanzi": "成心",
+      "pinyin": "chéngxīn",
+      "meaning": "cố ý, có chủ đích",
+      "example_zh": "你是不是<u>成心</u>气我？",
+      "example_vi": "Bạn có phải <u>cố ý</u> chọc tôi tức không?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成心.svg",
+      "src": "images/HSK_2.0/level6/成心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/成心.svg",
+        "images/HSK_3.0/level8/成心.svg",
+        "images/HSK_3.0/level9/成心.svg"
       ]
     },
     "成员": {

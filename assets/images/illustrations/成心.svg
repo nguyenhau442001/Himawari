@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Table -->
+  <rect x="20" y="160" width="200" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="65" fill="#334155"/>
+  <rect x="190" y="175" width="10" height="65" fill="#334155"/>
+
+  <!-- Character A (The one being annoyed) -->
+  <g transform="translate(40, 80)">
+    <circle cx="40" cy="40" r="30" fill="#fde68a"/>
+    <path d="M25 35 Q30 30 35 35 M45 35 Q50 30 55 35" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M30 55 Q40 60 50 55" stroke="#ec4899" stroke-width="2" fill="none"/>
+    <rect x="10" y="70" width="60" height="90" rx="10" fill="#38bdf8"/>
+    <circle cx="40" cy="100" r="15" fill="#fde68a" opacity="0.3"/>
+  </g>
+
+  <!-- Character B (The one doing it on purpose) -->
+  <g transform="translate(130, 80)">
+    <circle cx="40" cy="40" r="30" fill="#fde68a"/>
+    <path d="M25 35 Q30 40 35 35 M45 35 Q50 40 55 35" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M30 50 Q40 45 50 50" stroke="#ec4899" stroke-width="2" fill="none"/>
+    <path d="M35 55 L45 55" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+    <rect x="10" y="70" width="60" height="90" rx="10" fill="#fb923c"/>
+    <!-- The spilled coffee/mess -->
+    <circle cx="20" cy="170" r="10" fill="#fbbf24"/>
+    <circle cx="35" cy="175" r="8" fill="#fbbf24"/>
+  </g>
+
+  <!-- Props: Spilled cup -->
+  <path d="M110 160 L130 160 L125 140 L115 140 Z" fill="#94a3b8"/>
+  <path d="M120 150 L120 130" stroke="#94a3b8" stroke-width="3"/>
+  
+  <!-- Steam/Vibe lines -->
+  <path d="M60 70 Q70 60 80 70" stroke="#f59e0b" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M160 70 Q170 60 180 70" stroke="#f59e0b" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+</svg>

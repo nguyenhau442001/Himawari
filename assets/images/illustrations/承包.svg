@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Construction Site -->
+  <path d="M40 180 L200 180 L190 120 L50 120 Z" fill="#334155"/>
+  <rect x="60" y="130" width="20" height="50" fill="#475569"/>
+  <rect x="160" y="130" width="20" height="50" fill="#475569"/>
+  
+  <!-- Crane silhouette -->
+  <path d="M180 120 L180 60 L220 80 M180 70 L140 90" stroke="#94a3b8" stroke-width="4" fill="none"/>
+  
+  <!-- Main Character -->
+  <g transform="translate(80, 100)">
+    <!-- Body -->
+    <path d="M20 120 L60 120 L55 70 L25 70 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="40" cy="50" r="15" fill="#fde68a"/>
+    <!-- Hard Hat -->
+    <path d="M25 45 A15 15 0 0 1 55 45 L58 50 L22 50 Z" fill="#fb923c"/>
+    <!-- Arms -->
+    <path d="M20 80 L5 100" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M60 80 L80 100" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Blueprint/Contract -->
+  <rect x="130" y="150" width="40" height="30" rx="2" fill="#f1f5f9"/>
+  <path d="M135 155 H165 M135 162 H165 M135 169 H150" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Decorative Accents -->
+  <circle cx="200" cy="40" r="3" fill="#fbbf24"/>
+  <circle cx="210" cy="30" r="2" fill="#fbbf24"/>
+  <path d="M30 190 L210 190" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Foreground Ground -->
+  <path d="M0 240 L240 240 L240 180 Q120 200 0 180 Z" fill="#0f172a" opacity="0.5"/>
+</svg>

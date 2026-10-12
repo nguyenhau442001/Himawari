@@ -14057,15 +14057,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/承办.svg",
     "caption": "đảm nhận, đứng ra tổ chức"
   },
+  "承包": {
+    "file": "承包.svg",
+    "src": "images/HSK_2.0/level6/承包.svg",
+    "caption": "nhận thầu, khoán"
+  },
+  "城堡": {
+    "file": "城堡.svg",
+    "src": "images/HSK_2.0/level6/城堡.svg",
+    "caption": "lâu đài, thành lũy"
+  },
   "成本": {
     "file": "成本.svg",
     "src": "images/HSK_2.0/level6/成本.svg",
     "caption": "chi phí, giá thành"
   },
+  "惩罚": {
+    "file": "惩罚.svg",
+    "src": "images/HSK_2.0/level6/惩罚.svg",
+    "caption": "trừng phạt"
+  },
+  "成交": {
+    "file": "成交.svg",
+    "src": "images/HSK_2.0/level6/成交.svg",
+    "caption": "giao dịch thành công"
+  },
+  "承诺": {
+    "file": "承诺.svg",
+    "src": "images/HSK_2.0/level6/承诺.svg",
+    "caption": "hứa hẹn, cam kết"
+  },
+  "澄清": {
+    "file": "澄清.svg",
+    "src": "images/HSK_2.0/level6/澄清.svg",
+    "caption": "làm sáng tỏ, thanh lọc"
+  },
+  "成天": {
+    "file": "成天.svg",
+    "src": "images/HSK_2.0/level6/成天.svg",
+    "caption": "suốt ngày"
+  },
   "乘务员": {
     "file": "乘务员.svg",
     "src": "images/HSK_2.0/level6/乘务员.svg",
     "caption": "nhân viên phục vụ (tàu, máy bay)"
+  },
+  "呈现": {
+    "file": "呈现.svg",
+    "src": "images/HSK_2.0/level6/呈现.svg",
+    "caption": "hiện ra, biểu hiện"
+  },
+  "成效": {
+    "file": "成效.svg",
+    "src": "images/HSK_2.0/level6/成效.svg",
+    "caption": "hiệu quả"
+  },
+  "成心": {
+    "file": "成心.svg",
+    "src": "images/HSK_2.0/level6/成心.svg",
+    "caption": "cố ý, có chủ đích"
   },
   "成员": {
     "file": "成员.svg",
