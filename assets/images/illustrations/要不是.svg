@@ -1,0 +1,52 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="140" width="200" height="15" rx="4" fill="#334155"/>
+  <rect x="30" y="155" width="10" height="60" fill="#475569"/>
+  <rect x="200" y="155" width="10" height="60" fill="#475569"/>
+  
+  <!-- Laptop -->
+  <path d="M70 140 L170 140 L185 100 L55 100 Z" fill="#64748b"/>
+  <path d="M75 135 L165 135 L175 105 L65 105 Z" fill="#cbd5e1"/>
+  <rect x="85" y="110" width="70" height="20" rx="2" fill="#0f172a"/>
+  
+  <!-- Character 1 (The one who forgot) -->
+  <circle cx="160" cy="90" r="18" fill="#fde68a"/>
+  <path d="M150 95 Q160 105 170 95" stroke="#92400e" stroke-width="2" fill="none"/>
+  <circle cx="155" cy="85" r="2" fill="#92400e"/>
+  <circle cx="165" cy="85" r="2" fill="#92400e"/>
+  <path d="M145 110 L175 110 L170 140 L150 140 Z" fill="#fb923c"/>
+  
+  <!-- Character 2 (The one reminding) -->
+  <circle cx="90" cy="90" r="18" fill="#bae6fd"/>
+  <path d="M80 95 Q90 105 100 95" stroke="#0369a1" stroke-width="2" fill="none"/>
+  <circle cx="85" cy="85" r="2" fill="#0369a1"/>
+  <circle cx="95" cy="85" r="2" fill="#0369a1"/>
+  <path d="M75 110 L105 110 L100 140 L80 140 Z" fill="#38bdf8"/>
+  
+  <!-- Action Indicator (Reminder) -->
+  <path d="M115 80 L135 60" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="140" cy="55" r="6" fill="#fbbf24"/>
+  <path d="M138 52 L142 58" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- Clock on wall -->
+  <circle cx="200" cy="40" r="15" fill="#334155" stroke="#fb923c" stroke-width="2"/>
+  <line x1="200" y1="40" x2="200" y2="30" stroke="#f8fafc" stroke-width="2"/>
+  <line x1="200" y1="40" x2="210" y2="40" stroke="#f8fafc" stroke-width="2"/>
+  
+  <!-- Paperwork -->
+  <rect x="40" y="160" width="40" height="50" rx="2" fill="#f1f5f9"/>
+  <rect x="45" y="165" width="30" height="5" rx="1" fill="#cbd5e1"/>
+  <rect x="45" y="175" width="30" height="5" rx="1" fill="#cbd5e1"/>
+  
+  <!-- Coffee Mug -->
+  <rect x="180" y="115" width="20" height="25" rx="3" fill="#ec4899"/>
+  <path d="M200 120 Q210 120 210 130 Q210 140 200 140" stroke="#ec4899" stroke-width="4" fill="none"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:32:29.263102",
-  "total_unique_words_with_illustrations": 3100,
-  "total_flat_svg_files": 3100,
+  "generated_at": "2026-10-12T09:35:37.374955",
+  "total_unique_words_with_illustrations": 3110,
+  "total_flat_svg_files": 3110,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 572,
-        "pct": "22.9%"
+        "with_svg": 574,
+        "pct": "23.0%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1481,
-        "pct": "92.6%"
+        "with_svg": 1491,
+        "pct": "93.2%"
       },
       "level6": {
         "total": 1800,
@@ -48006,6 +48006,42 @@
         "images/HSK_3.0/level5/压岁钱.svg"
       ]
     },
+    "依据": {
+      "hanzi": "依据",
+      "pinyin": "yījù",
+      "meaning": "dựa theo, căn cứ",
+      "example_zh": "我们要<u>依据</u>事实做出判断。",
+      "example_vi": "Chúng ta phải <u>căn cứ</u> vào sự thật để đưa ra phán đoán.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "依据.svg",
+      "src": "images/HSK_2.0/level6/依据.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/依据.svg"
+      ]
+    },
+    "依靠": {
+      "hanzi": "依靠",
+      "pinyin": "yīkào",
+      "meaning": "dựa vào",
+      "example_zh": "孩子不能总是<u>依靠</u>父母。",
+      "example_vi": "Con cái không thể luôn <u>dựa vào</u> cha mẹ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "依靠.svg",
+      "src": "images/HSK_2.0/level6/依靠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/依靠.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -54960,6 +54996,118 @@
       ],
       "file": "眼.svg",
       "src": "images/HSK_3.0/level5/眼.svg",
+      "alt_srcs": []
+    },
+    "眼泪": {
+      "hanzi": "眼泪",
+      "pinyin": "yǎnlèi",
+      "meaning": "nước mắt, giọt lệ",
+      "example_zh": "感动之余，她的<u>眼泪</u>忍不住流了下来。",
+      "example_vi": "Quá đỗi xúc động, <u>nước mắt</u> cô ấy không kìm được mà rơi xuống.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "眼泪.svg",
+      "src": "images/HSK_3.0/level5/眼泪.svg",
+      "alt_srcs": []
+    },
+    "要不是": {
+      "hanzi": "要不是",
+      "pinyin": "yàobúshì",
+      "meaning": "nếu không phải vì, nếu không nhờ",
+      "example_zh": "<u>要不是</u>你及时提醒，我就差点儿误了大事。",
+      "example_vi": "<u>Nếu không nhờ</u> bạn nhắc nhở kịp thời, tôi đã suýt làm hỏng việc lớn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "要不是.svg",
+      "src": "images/HSK_3.0/level5/要不是.svg",
+      "alt_srcs": []
+    },
+    "药品": {
+      "hanzi": "药品",
+      "pinyin": "yàopǐn",
+      "meaning": "thuốc men, dược phẩm",
+      "example_zh": "请将<u>药品</u>放置在儿童接触不到的地方。",
+      "example_vi": "Xin hãy để <u>thuốc men</u> ở nơi trẻ em không với tới được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "药品.svg",
+      "src": "images/HSK_3.0/level5/药品.svg",
+      "alt_srcs": []
+    },
+    "药物": {
+      "hanzi": "药物",
+      "pinyin": "yàowù",
+      "meaning": "thuốc, dược chất",
+      "example_zh": "生病时一定要按医生指导合理使用<u>药物</u>。",
+      "example_vi": "Khi ốm nhất định phải dùng <u>thuốc</u> hợp lý theo chỉ dẫn của bác sĩ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "药物.svg",
+      "src": "images/HSK_3.0/level5/药物.svg",
+      "alt_srcs": []
+    },
+    "夜间": {
+      "hanzi": "夜间",
+      "pinyin": "yèjiān",
+      "meaning": "ban đêm, đêm",
+      "example_zh": "<u>夜间</u>行车视线较差，请注意减速慢行。",
+      "example_vi": "Lái xe <u>ban đêm</u> tầm nhìn kém, xin hãy chú ý giảm tốc đi chậm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "夜间.svg",
+      "src": "images/HSK_3.0/level5/夜间.svg",
+      "alt_srcs": []
+    },
+    "夜市": {
+      "hanzi": "夜市",
+      "pinyin": "yèshì",
+      "meaning": "chợ đêm",
+      "example_zh": "这条小街的<u>夜市</u>上有各种美味的地道小吃。",
+      "example_vi": "Khu <u>chợ đêm</u> trên con phố nhỏ này có đủ các món ăn vặt thơm ngon chuẩn vị.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "夜市.svg",
+      "src": "images/HSK_3.0/level5/夜市.svg",
+      "alt_srcs": []
+    },
+    "医疗": {
+      "hanzi": "医疗",
+      "pinyin": "yīliáo",
+      "meaning": "y tế, khám chữa bệnh",
+      "example_zh": "近年来国家不断加大对基层<u>医疗</u>的投入。",
+      "example_vi": "Những năm gần đây nhà nước không ngừng đẩy mạnh đầu tư cho <u>y tế</u> cơ sở.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "医疗.svg",
+      "src": "images/HSK_3.0/level5/医疗.svg",
+      "alt_srcs": []
+    },
+    "医学": {
+      "hanzi": "医学",
+      "pinyin": "yīxué",
+      "meaning": "y học",
+      "example_zh": "他在<u>医学</u>领域很有名",
+      "example_vi": "Anh ấy rất nổi tiếng trong lĩnh vực y học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "医学.svg",
+      "src": "images/HSK_3.0/level5/医学.svg",
       "alt_srcs": []
     }
   }

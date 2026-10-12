@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g id="road-environment">
+    <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="#334155"/>
+    <path d="M0 180 L240 180" stroke="#475569" stroke-width="2" stroke-dasharray="10 10"/>
+    <path d="M20 210 L60 210 M100 210 L140 210 M180 210 L220 210" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g id="car">
+    <path d="M60 140 L180 140 L170 175 L70 175 Z" fill="#38bdf8"/>
+    <rect x="75" y="145" width="35" height="20" rx="2" fill="#0f172a"/>
+    <rect x="125" y="145" width="35" height="20" rx="2" fill="#0f172a"/>
+    <circle cx="85" cy="180" r="12" fill="#1e293b" stroke="#64748b" stroke-width="4"/>
+    <circle cx="155" cy="180" r="12" fill="#1e293b" stroke="#64748b" stroke-width="4"/>
+    
+    <path d="M175 145 L210 130 L210 160 L175 160 Z" fill="#fbbf24" opacity="0.6"/>
+    <path d="M175 145 L230 120 L230 170 L175 160 Z" fill="#fbbf24" opacity="0.3"/>
+  </g>
+
+  <g id="scenery">
+    <path d="M0 140 L30 80 L60 140 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <path d="M180 140 L210 90 L240 140 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <circle cx="200" cy="50" r="20" fill="#f8fafc" opacity="0.8"/>
+    <circle cx="205" cy="45" r="20" fill="#0f172a"/>
+  </g>
+
+  <g id="warning-sign">
+    <path d="M30 60 L50 20 L70 60 Z" fill="#ec4899"/>
+    <path d="M50 35 L50 48" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="50" cy="54" r="2" fill="#fff"/>
+  </g>
+</svg>

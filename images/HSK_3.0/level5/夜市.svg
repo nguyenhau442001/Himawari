@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Street Ground -->
+  <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="#334155"/>
+  
+  <!-- Stall 1 -->
+  <rect x="20" y="120" width="70" height="60" rx="4" fill="#fb923c"/>
+  <rect x="25" y="125" width="60" height="20" fill="#f59e0b"/>
+  <circle cx="40" cy="150" r="8" fill="#ec4899"/>
+  <circle cx="70" cy="150" r="8" fill="#ec4899"/>
+  
+  <!-- Stall 2 -->
+  <rect x="140" y="110" width="80" height="70" rx="4" fill="#10b981"/>
+  <rect x="145" y="115" width="70" height="20" fill="#34d399"/>
+  <rect x="155" y="145" width="15" height="20" fill="#f59e0b"/>
+  <rect x="180" y="145" width="15" height="20" fill="#f59e0b"/>
+  
+  <!-- Characters -->
+  <g transform="translate(100, 140)">
+    <circle cx="10" cy="10" r="12" fill="#fde68a"/>
+    <path d="M2 25 L18 25 L15 50 L5 50 Z" fill="#38bdf8"/>
+    <path d="M5 50 L5 70 M15 50 L15 70" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <g transform="translate(130, 150)">
+    <circle cx="10" cy="10" r="12" fill="#fde68a"/>
+    <path d="M2 25 L18 25 L15 50 L5 50 Z" fill="#ec4899"/>
+    <path d="M5 50 L5 70 M15 50 L15 70" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Hanging Lanterns -->
+  <circle cx="50" cy="40" r="10" fill="#fbbf24"/>
+  <circle cx="120" cy="30" r="12" fill="#fbbf24"/>
+  <circle cx="190" cy="40" r="10" fill="#fbbf24"/>
+  
+  <!-- Steam/Atmosphere -->
+  <path d="M30 120 Q40 100 30 80" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M160 110 Q170 90 160 70" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

@@ -13327,6 +13327,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/压岁钱.svg",
     "caption": "tiền lì xì"
   },
+  "依据": {
+    "file": "依据.svg",
+    "src": "images/HSK_2.0/level6/依据.svg",
+    "caption": "dựa theo, căn cứ"
+  },
+  "依靠": {
+    "file": "依靠.svg",
+    "src": "images/HSK_2.0/level6/依靠.svg",
+    "caption": "dựa vào"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15801,6 +15811,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "眼.svg",
     "src": "images/HSK_3.0/level5/眼.svg",
     "caption": "mắt; cái nhìn"
+  },
+  "眼泪": {
+    "file": "眼泪.svg",
+    "src": "images/HSK_3.0/level5/眼泪.svg",
+    "caption": "nước mắt, giọt lệ"
+  },
+  "要不是": {
+    "file": "要不是.svg",
+    "src": "images/HSK_3.0/level5/要不是.svg",
+    "caption": "nếu không phải vì, nếu không nhờ"
+  },
+  "药品": {
+    "file": "药品.svg",
+    "src": "images/HSK_3.0/level5/药品.svg",
+    "caption": "thuốc men, dược phẩm"
+  },
+  "药物": {
+    "file": "药物.svg",
+    "src": "images/HSK_3.0/level5/药物.svg",
+    "caption": "thuốc, dược chất"
+  },
+  "夜间": {
+    "file": "夜间.svg",
+    "src": "images/HSK_3.0/level5/夜间.svg",
+    "caption": "ban đêm, đêm"
+  },
+  "夜市": {
+    "file": "夜市.svg",
+    "src": "images/HSK_3.0/level5/夜市.svg",
+    "caption": "chợ đêm"
+  },
+  "医疗": {
+    "file": "医疗.svg",
+    "src": "images/HSK_3.0/level5/医疗.svg",
+    "caption": "y tế, khám chữa bệnh"
+  },
+  "医学": {
+    "file": "医学.svg",
+    "src": "images/HSK_3.0/level5/医学.svg",
+    "caption": "y học"
   }
 };
 
