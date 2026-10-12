@@ -1,0 +1,77 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Room Context: Window and Desk -->
+  <rect x="160" y="40" width="40" height="60" rx="4" fill="#334155" opacity="0.5"/>
+  <rect x="20" y="160" width="60" height="40" rx="4" fill="#334155" opacity="0.3"/>
+  
+  <!-- Character: Energetic Dancer -->
+  <g transform="translate(120, 130)">
+    <!-- Motion Blur/Speed Lines -->
+    <path d="M-50,-20 Q-60,-10 -55,5" stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M50,-30 Q65,-20 60,0" stroke="#ec4899" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M-30,60 Q-40,75 -20,80" stroke="#fb923c" stroke-width="2" fill="none" opacity="0.6"/>
+
+    <!-- Body -->
+    <path d="M-10,0 L10,0 L15,50 L-15,50 Z" fill="#38bdf8"/> <!-- Shirt -->
+    <path d="M-15,50 L-25,85 L-5,85 L0,65 L5,85 L25,85 L15,50 Z" fill="#1e293b" stroke="#475569" stroke-width="1"/> <!-- Pants -->
+    
+    <!-- Arms in motion -->
+    <path d="M-10,10 L-45,-15" stroke="#ffdbac" stroke-width="8" stroke-linecap="round"/> <!-- Left arm up -->
+    <path d="M10,10 L40,30" stroke="#ffdbac" stroke-width="8" stroke-linecap="round"/> <!-- Right arm out -->
+    
+    <!-- Head and Hair -->
+    <g transform="rotate(-10, 0, -20)">
+      <circle cx="0" cy="-25" r="18" fill="#ffdbac"/> <!-- Face -->
+      <path d="M-20,-35 Q-25,-55 10,-50 Q25,-45 20,-20 L-18,-20 Z" fill="#4b2c20"/> <!-- Hair flying -->
+      <path d="M-6,-28 Q0,-25 6,-28" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/> <!-- Smile -->
+      <path d="M-10,-32 L-6,-32 M6,-32 L10,-32" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/> <!-- Eyes closed -->
+      
+      <!-- Headphones -->
+      <path d="M-20,-25 A20,20 0 0 1 20,-25" fill="none" stroke="#fbbf24" stroke-width="4"/>
+      <rect x="-24" y="-30" width="8" height="14" rx="3" fill="#fbbf24"/>
+      <rect x="16" y="-30" width="8" height="14" rx="3" fill="#fbbf24"/>
+    </g>
+  </g>
+
+  <!-- Fast Rhythm Visualizers -->
+  <g filter="url(#glow)">
+    <!-- Jagged high-frequency sound waves -->
+    <path d="M30,120 L35,100 L40,130 L45,90 L50,140 L55,110 L60,125" stroke="#10b981" stroke-width="2" fill="none"/>
+    <path d="M180,150 L185,130 L190,160 L195,120 L200,170 L205,140 L210,155" stroke="#ec4899" stroke-width="2" fill="none"/>
+    
+    <!-- Floating Musical Notes (Tilted for speed) -->
+    <g transform="translate(50, 60) rotate(-20)">
+      <circle cx="0" cy="0" r="4" fill="#fb923c"/>
+      <path d="M4,0 L4,-12 L12,-8" stroke="#fb923c" stroke-width="2" fill="none"/>
+    </g>
+    <g transform="translate(190, 80) rotate(15)">
+      <circle cx="0" cy="0" r="4" fill="#38bdf8"/>
+      <path d="M4,0 L4,-12 L12,-8" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    </g>
+    <g transform="translate(40, 180) rotate(-10)">
+      <circle cx="0" cy="0" r="3" fill="#fbbf24"/>
+      <path d="M3,0 L3,-10 L8,-7" stroke="#fbbf24" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Speed/Vibration Accents -->
+  <line x1="110" y1="50" x2="115" y2="40" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+  <line x1="130" y1="45" x2="135" y2="35" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+  <line x1="80" y1="100" x2="70" y2="95" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+</svg>

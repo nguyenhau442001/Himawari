@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T13:07:36.733177",
-  "total_unique_words_with_illustrations": 3959,
-  "total_flat_svg_files": 3959,
+  "generated_at": "2026-10-12T13:17:19.317075",
+  "total_unique_words_with_illustrations": 3969,
+  "total_flat_svg_files": 3969,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1319,
-        "pct": "52.8%"
+        "with_svg": 1329,
+        "pct": "53.2%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 469,
-        "pct": "26.1%"
+        "with_svg": 473,
+        "pct": "26.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 563,
+        "with_svg": 568,
         "pct": "10.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 563,
+        "with_svg": 568,
         "pct": "10.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 563,
+        "with_svg": 568,
         "pct": "10.1%"
       }
     }
@@ -61892,6 +61892,202 @@
         "images/HSK_3.0/level7/侥幸.svg",
         "images/HSK_3.0/level8/侥幸.svg",
         "images/HSK_3.0/level9/侥幸.svg"
+      ]
+    },
+    "狡诈": {
+      "hanzi": "狡诈",
+      "pinyin": "jiǎozhà",
+      "meaning": "xảo trá, gian xảo",
+      "example_zh": "他的手段十分<u>狡诈</u>。",
+      "example_vi": "Thủ đoạn của anh ta rất <u>xảo trá</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "狡诈.svg",
+      "src": "images/HSK_2.0/level6/狡诈.svg",
+      "alt_srcs": []
+    },
+    "教养": {
+      "hanzi": "教养",
+      "pinyin": "jiàoyǎng",
+      "meaning": "giáo dưỡng, sự dạy dỗ",
+      "example_zh": "他很有<u>教养</u>。",
+      "example_vi": "Anh ấy rất có <u>giáo dưỡng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "教养.svg",
+      "src": "images/HSK_2.0/level6/教养.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/教养.svg",
+        "images/HSK_3.0/level8/教养.svg",
+        "images/HSK_3.0/level9/教养.svg"
+      ]
+    },
+    "接见": {
+      "hanzi": "接见",
+      "pinyin": "jiējiàn",
+      "meaning": "tiếp kiến",
+      "example_zh": "总统<u>接见</u>了外国代表团。",
+      "example_vi": "Tổng thống <u>tiếp kiến</u> đoàn đại biểu nước ngoài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "接见.svg",
+      "src": "images/HSK_2.0/level6/接见.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/接见.svg",
+        "images/HSK_3.0/level8/接见.svg",
+        "images/HSK_3.0/level9/接见.svg"
+      ]
+    },
+    "接连": {
+      "hanzi": "接连",
+      "pinyin": "jiēlián",
+      "meaning": "liên tiếp",
+      "example_zh": "他<u>接连</u>三次获胜。",
+      "example_vi": "Anh ấy <u>liên tiếp</u> chiến thắng ba lần.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "接连.svg",
+      "src": "images/HSK_2.0/level6/接连.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/接连.svg"
+      ]
+    },
+    "杰出": {
+      "hanzi": "杰出",
+      "pinyin": "jiéchū",
+      "meaning": "xuất sắc, kiệt xuất",
+      "example_zh": "他是一位<u>杰出</u>的科学家。",
+      "example_vi": "Anh ấy là một nhà khoa học <u>xuất sắc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "杰出.svg",
+      "src": "images/HSK_2.0/level6/杰出.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/杰出.svg"
+      ]
+    },
+    "结局": {
+      "hanzi": "结局",
+      "pinyin": "jiéjú",
+      "meaning": "kết thúc, kết cục",
+      "example_zh": "这部电影的<u>结局</u>很感人。",
+      "example_vi": "<u>Kết cục</u> của bộ phim này rất cảm động.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "结局.svg",
+      "src": "images/HSK_2.0/level6/结局.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/结局.svg",
+        "images/HSK_3.0/level8/结局.svg",
+        "images/HSK_3.0/level9/结局.svg"
+      ]
+    },
+    "竭力": {
+      "hanzi": "竭力",
+      "pinyin": "jiélì",
+      "meaning": "hết sức, gắng hết",
+      "example_zh": "他<u>竭力</u>完成了任务。",
+      "example_vi": "Anh ấy <u>hết sức</u> hoàn thành nhiệm vụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "竭力.svg",
+      "src": "images/HSK_2.0/level6/竭力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/竭力.svg",
+        "images/HSK_3.0/level8/竭力.svg",
+        "images/HSK_3.0/level9/竭力.svg"
+      ]
+    },
+    "截止": {
+      "hanzi": "截止",
+      "pinyin": "jiézhǐ",
+      "meaning": "hết hạn, kết thúc (thời hạn)",
+      "example_zh": "报名<u>截止</u>到本周五。",
+      "example_vi": "Đăng ký <u>hết hạn</u> vào thứ Sáu tuần này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "截止.svg",
+      "src": "images/HSK_2.0/level6/截止.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/截止.svg"
+      ]
+    },
+    "节奏": {
+      "hanzi": "节奏",
+      "pinyin": "jiézòu",
+      "meaning": "nhịp điệu, tiết tấu",
+      "example_zh": "这首歌的<u>节奏</u>很快。",
+      "example_vi": "<u>Nhịp điệu</u> bài hát này rất nhanh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "节奏.svg",
+      "src": "images/HSK_2.0/level6/节奏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/节奏.svg"
+      ]
+    },
+    "解体": {
+      "hanzi": "解体",
+      "pinyin": "jiětǐ",
+      "meaning": "tan rã, giải thể",
+      "example_zh": "苏联在1991年<u>解体</u>。",
+      "example_vi": "Liên Xô <u>tan rã</u> vào năm 1991.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "解体.svg",
+      "src": "images/HSK_2.0/level6/解体.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/解体.svg",
+        "images/HSK_3.0/level8/解体.svg",
+        "images/HSK_3.0/level9/解体.svg"
       ]
     },
     "就业": {

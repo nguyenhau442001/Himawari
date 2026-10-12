@@ -1,0 +1,82 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bg_grad)"/>
+  
+  <!-- Wall Calendar -->
+  <rect x="40" y="40" width="100" height="80" rx="4" fill="#334155"/>
+  <rect x="40" y="40" width="100" height="15" rx="4" fill="#f43f5e"/>
+  
+  <!-- Calendar Grid -->
+  <g fill="#94a3b8">
+    <rect x="48" y="65" width="8" height="8" rx="1"/>
+    <rect x="62" y="65" width="8" height="8" rx="1"/>
+    <rect x="76" y="65" width="8" height="8" rx="1"/>
+    <rect x="90" y="65" width="8" height="8" rx="1"/>
+    <rect x="104" y="65" width="8" height="8" rx="1"/>
+    <rect x="118" y="65" width="8" height="8" rx="1"/>
+    
+    <rect x="48" y="78" width="8" height="8" rx="1"/>
+    <rect x="62" y="78" width="8" height="8" rx="1"/>
+    <rect x="76" y="78" width="8" height="7" rx="1"/>
+    <rect x="90" y="78" width="8" height="8" rx="1"/>
+    <rect x="104" y="78" width="8" height="8" rx="1"/>
+    <rect x="118" y="78" width="8" height="8" rx="1"/>
+
+    <rect x="48" y="91" width="8" height="8" rx="1"/>
+    <rect x="62" y="91" width="8" height="8" rx="1"/>
+    <rect x="76" y="91" width="8" height="8" rx="1"/>
+    <rect x="90" y="91" width="8" height="8" rx="1"/>
+    <!-- The Deadline Day (Friday) -->
+    <rect x="104" y="91" width="8" height="8" rx="1" fill="#fbbf24" filter="url(#glow)"/>
+    <rect x="118" y="91" width="8" height="8" rx="1"/>
+  </g>
+
+  <!-- Wall Clock -->
+  <circle cx="180" cy="60" r="18" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <line x1="180" y1="60" x2="180" y2="50" stroke="#f8fafc" stroke-width="2" stroke-linecap="round"/>
+  <line x1="180" y1="60" x2="190" y2="60" stroke="#f8fafc" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Character (Student/Applicant) -->
+  <!-- Body -->
+  <path d="M140,240 Q140,160 180,150 L210,150 Q230,160 230,240" fill="#38bdf8"/>
+  <!-- Head -->
+  <circle cx="195" cy="125" r="22" fill="#fde68a"/>
+  <!-- Hair -->
+  <path d="M173,125 Q173,100 195,100 Q217,100 217,125 L217,115 Q210,105 195,105 Q180,105 173,115 Z" fill="#475569"/>
+  <!-- Arm reaching out -->
+  <path d="M165,175 Q130,160 115,105" fill="none" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  <!-- Hand pointing to the deadline -->
+  <circle cx="112" cy="100" r="5" fill="#fde68a"/>
+
+  <!-- Desk and Registration Form -->
+  <rect x="20" y="190" width="120" height="50" rx="4" fill="#475569"/>
+  <rect x="40" y="170" width="50" height="60" rx="2" fill="#f8fafc" transform="rotate(-5, 40, 170)"/>
+  <!-- Form lines -->
+  <g stroke="#cbd5e1" stroke-width="2" stroke-linecap="round">
+    <line x1="48" y1="185" x2="82" y2="182"/>
+    <line x1="48" y1="195" x2="82" y2="192"/>
+    <line x1="48" y1="205" x2="70" y2="203"/>
+  </g>
+  <!-- Pen -->
+  <line x1="95" y1="175" x2="110" y2="195" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Environment Details -->
+  <rect x="0" y="230" width="240" height="10" fill="#0f172a"/>
+  <!-- Plant -->
+  <path d="M20,230 Q10,200 25,180 Q40,200 30,230" fill="#10b981" opacity="0.6"/>
+  <path d="M10,230 Q0,210 10,195 Q20,210 15,230" fill="#059669" opacity="0.6"/>
+  
+  <!-- Highlight Glow on the Friday -->
+  <circle cx="108" cy="95" r="12" fill="#fbbf24" opacity="0.2" filter="url(#glow)"/>
+</svg>

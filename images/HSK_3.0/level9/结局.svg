@@ -1,0 +1,70 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#0f172a"/>
+  <defs>
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Room Environment -->
+  <rect x="20" y="190" width="200" height="4" rx="2" fill="#1e293b"/> <!-- Floor line -->
+  
+  <!-- TV Stand and TV -->
+  <rect x="25" y="145" width="50" height="5" rx="2" fill="#334155"/> <!-- Stand -->
+  <rect x="15" y="75" width="75" height="70" rx="4" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Movie Screen Content (The Ending Scene) -->
+  <rect x="20" y="80" width="65" height="50" rx="2" fill="#0f172a"/>
+  <!-- Sunset on screen -->
+  <path d="M20 115 Q52 100 85 115 L85 130 L20 130 Z" fill="#fb923c" opacity="0.6"/>
+  <circle cx="52" cy="105" r="8" fill="#f59e0b" opacity="0.8"/>
+  <!-- Silhouettes on screen -->
+  <path d="M45 125 Q45 115 48 115 Q51 115 51 125" fill="#000"/>
+  <path d="M54 125 Q54 115 57 115 Q60 115 60 125" fill="#000"/>
+  
+  <!-- Light Beam from TV -->
+  <path d="M90 80 L160 60 L160 180 L90 150 Z" fill="url(#screenGlow)"/>
+
+  <!-- Sofa -->
+  <path d="M120 185 L225 185 C230 185 235 180 235 170 L235 150 Q235 140 225 140 L135 140 Q120 140 120 155 Z" fill="#334155"/>
+  <rect x="125" y="165" width="105" height="20" rx="5" fill="#1e293b"/>
+
+  <!-- Character (Watching and Emotional) -->
+  <!-- Body -->
+  <path d="M165 170 Q155 170 150 145 Q145 120 160 105 Q175 90 190 105 Q200 120 195 145 Q190 170 180 170 Z" fill="#ec4899"/>
+  <!-- Head -->
+  <circle cx="175" cy="95" r="15" fill="#fde68a"/>
+  <!-- Hair -->
+  <path d="M160 95 Q160 75 175 75 Q190 75 190 95 Q190 105 185 105 L165 105 Q160 105 160 95" fill="#1e293b"/>
+  <!-- Face details (Moved/Crying) -->
+  <path d="M168 95 Q170 97 172 95" fill="none" stroke="#1e293b" stroke-width="1"/> <!-- Eye -->
+  <path d="M178 95 Q180 97 182 95" fill="none" stroke="#1e293b" stroke-width="1"/> <!-- Eye -->
+  <path d="M173 102 Q175 104 177 102" fill="none" stroke="#1e293b" stroke-width="1"/> <!-- Small sad/moved smile -->
+  <circle cx="170" cy="98" r="1.5" fill="#38bdf8" opacity="0.6"/> <!-- Tear -->
+
+  <!-- Arms and Tissue -->
+  <path d="M160 135 Q150 135 152 115" fill="none" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/> <!-- Arm up -->
+  <path d="M152 115 Q148 110 155 110" fill="#f8fafc"/> <!-- Tissue in hand -->
+  <path d="M190 135 Q200 145 195 160" fill="none" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/> <!-- Arm on lap -->
+
+  <!-- Props -->
+  <!-- Tissue Box on side table -->
+  <rect x="205" y="130" width="20" height="12" rx="2" fill="#94a3b8"/>
+  <path d="M210 130 Q215 120 220 130" fill="#f8fafc" opacity="0.8"/>
+  
+  <!-- Popcorn Bowl -->
+  <path d="M140 165 Q140 175 155 175 Q170 175 170 165 Z" fill="#fb923c"/>
+  <circle cx="145" cy="163" r="2" fill="#fef3c7"/>
+  <circle cx="152" cy="161" r="2" fill="#fef3c7"/>
+  <circle cx="160" cy="163" r="2" fill="#fef3c7"/>
+
+  <!-- Warm Lamp Glow (Top Right) -->
+  <circle cx="220" cy="40" r="40" fill="url(#lampGlow)"/>
+  <path d="M210 10 L230 10 L235 30 L205 30 Z" fill="#f59e0b" opacity="0.4"/>
+</svg>

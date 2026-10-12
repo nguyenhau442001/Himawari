@@ -16737,6 +16737,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/侥幸.svg",
     "caption": "may rủi, gặp may"
   },
+  "狡诈": {
+    "file": "狡诈.svg",
+    "src": "images/HSK_2.0/level6/狡诈.svg",
+    "caption": "xảo trá, gian xảo"
+  },
+  "教养": {
+    "file": "教养.svg",
+    "src": "images/HSK_2.0/level6/教养.svg",
+    "caption": "giáo dưỡng, sự dạy dỗ"
+  },
+  "接见": {
+    "file": "接见.svg",
+    "src": "images/HSK_2.0/level6/接见.svg",
+    "caption": "tiếp kiến"
+  },
+  "接连": {
+    "file": "接连.svg",
+    "src": "images/HSK_2.0/level6/接连.svg",
+    "caption": "liên tiếp"
+  },
+  "杰出": {
+    "file": "杰出.svg",
+    "src": "images/HSK_2.0/level6/杰出.svg",
+    "caption": "xuất sắc, kiệt xuất"
+  },
+  "结局": {
+    "file": "结局.svg",
+    "src": "images/HSK_2.0/level6/结局.svg",
+    "caption": "kết thúc, kết cục"
+  },
+  "竭力": {
+    "file": "竭力.svg",
+    "src": "images/HSK_2.0/level6/竭力.svg",
+    "caption": "hết sức, gắng hết"
+  },
+  "截止": {
+    "file": "截止.svg",
+    "src": "images/HSK_2.0/level6/截止.svg",
+    "caption": "hết hạn, kết thúc (thời hạn)"
+  },
+  "节奏": {
+    "file": "节奏.svg",
+    "src": "images/HSK_2.0/level6/节奏.svg",
+    "caption": "nhịp điệu, tiết tấu"
+  },
+  "解体": {
+    "file": "解体.svg",
+    "src": "images/HSK_2.0/level6/解体.svg",
+    "caption": "tan rã, giải thể"
+  },
   "就业": {
     "file": "就业.svg",
     "src": "images/HSK_2.0/level6/就业.svg",
