@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Room Environment -->
+  <rect x="20" y="150" width="200" height="5" fill="#334155"/>
+  <circle cx="180" cy="80" r="30" fill="#fbbf24" opacity="0.1"/>
+  
+  <!-- Character 1 (The one being forgiven) -->
+  <g transform="translate(60, 120)">
+    <path d="M20 80 L60 80 L50 40 L30 40 Z" fill="#ec4899"/>
+    <circle cx="40" cy="30" r="15" fill="#fde68a"/>
+    <path d="M35 25 L38 28 M42 25 L45 28" stroke="#475569" stroke-width="2"/>
+    <path d="M35 35 Q40 38 45 35" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M25 45 L10 60 M55 45 L70 60" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Character 2 (The one showing tolerance) -->
+  <g transform="translate(130, 100)">
+    <path d="M10 100 L50 100 L45 50 L15 50 Z" fill="#38bdf8"/>
+    <circle cx="30" cy="40" r="18" fill="#fde68a"/>
+    <path d="M22 35 L26 39 M34 35 L38 39" stroke="#475569" stroke-width="2"/>
+    <path d="M25 45 Q30 48 35 45" stroke="#475569" stroke-width="2" fill="none"/>
+    <!-- Hand gesture of forgiveness/acceptance -->
+    <path d="M45 60 L65 50" stroke="#fde68a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Symbolic element: Spilled coffee/accident on floor -->
+  <ellipse cx="80" cy="190" rx="20" ry="8" fill="#fb923c" opacity="0.6"/>
+  
+  <!-- Warm glow of understanding -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="4 8" opacity="0.3"/>
+</svg>

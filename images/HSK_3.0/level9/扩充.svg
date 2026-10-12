@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Office Desk -->
+    <rect x="0" y="100" width="200" height="10" rx="2" fill="#334155"/>
+    <rect x="20" y="110" width="10" height="50" fill="#475569"/>
+    <rect x="170" y="110" width="10" height="50" fill="#475569"/>
+    
+    <!-- Manager Character -->
+    <circle cx="50" cy="70" r="15" fill="#fbbf24"/>
+    <path d="M35 85 Q50 100 65 85" stroke="#fbbf24" stroke-width="4" fill="none"/>
+    <rect x="35" y="85" width="30" height="40" rx="5" fill="#38bdf8"/>
+    
+    <!-- New Hires/Candidates -->
+    <circle cx="110" cy="80" r="12" fill="#fb923c"/>
+    <rect x="100" y="92" width="20" height="30" rx="3" fill="#ec4899"/>
+    
+    <circle cx="150" cy="80" r="12" fill="#fb923c"/>
+    <rect x="140" y="92" width="20" height="30" rx="3" fill="#10b981"/>
+    
+    <!-- Expansion Visuals: Adding chairs/space -->
+    <rect x="80" y="130" width="25" height="20" rx="2" fill="#475569"/>
+    <rect x="120" y="130" width="25" height="20" rx="2" fill="#475569"/>
+    
+    <!-- Chart/Plan on wall -->
+    <rect x="160" y="10" width="40" height="50" rx="4" fill="#334155"/>
+    <line x1="170" y1="25" x2="190" y2="25" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+    <line x1="170" y1="35" x2="185" y2="35" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="170" y1="45" x2="180" y2="45" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Decorative elements -->
+    <circle cx="10" cy="20" r="3" fill="#fbbf24"/>
+    <circle cx="190" cy="180" r="4" fill="#38bdf8"/>
+  </g>
+</svg>

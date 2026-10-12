@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:12:10.116697",
-  "total_unique_words_with_illustrations": 4055,
-  "total_flat_svg_files": 4055,
+  "generated_at": "2026-10-12T20:14:19.001669",
+  "total_unique_words_with_illustrations": 4065,
+  "total_flat_svg_files": 4065,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1415,
-        "pct": "56.6%"
+        "with_svg": 1425,
+        "pct": "57.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 503,
-        "pct": "27.9%"
+        "with_svg": 504,
+        "pct": "28.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 617,
-        "pct": "11.0%"
+        "with_svg": 624,
+        "pct": "11.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 617,
-        "pct": "11.0%"
+        "with_svg": 624,
+        "pct": "11.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 617,
-        "pct": "11.0%"
+        "with_svg": 624,
+        "pct": "11.1%"
       }
     }
   },
@@ -63882,6 +63882,56 @@
         "images/HSK_3.0/level9/宽敞.svg"
       ]
     },
+    "宽容": {
+      "hanzi": "宽容",
+      "pinyin": "kuānróng",
+      "meaning": "khoan dung",
+      "example_zh": "我们要学会<u>宽容</u>别人。",
+      "example_vi": "Chúng ta phải học cách <u>khoan dung</u> với người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "宽容.svg",
+      "src": "images/HSK_2.0/level6/宽容.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/宽容.svg",
+        "images/HSK_3.0/level8/宽容.svg",
+        "images/HSK_3.0/level9/宽容.svg"
+      ]
+    },
+    "矿物": {
+      "hanzi": "矿物",
+      "pinyin": "kuàngwù",
+      "meaning": "khoáng vật",
+      "example_zh": "这种<u>矿物</u>非常稀有。",
+      "example_vi": "Loại <u>khoáng vật</u> này rất hiếm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "矿物.svg",
+      "src": "images/HSK_2.0/level6/矿物.svg",
+      "alt_srcs": []
+    },
+    "矿石": {
+      "hanzi": "矿石",
+      "pinyin": "kuàngshí",
+      "meaning": "quặng",
+      "example_zh": "这里出产铁<u>矿石</u>。",
+      "example_vi": "Nơi đây sản xuất <u>quặng</u> sắt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "矿石.svg",
+      "src": "images/HSK_2.0/level6/矿石.svg",
+      "alt_srcs": []
+    },
     "亏": {
       "hanzi": "亏",
       "pinyin": "kuī",
@@ -63898,6 +63948,156 @@
       "src": "images/HSK_2.0/level6/亏.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/亏.svg"
+      ]
+    },
+    "亏损": {
+      "hanzi": "亏损",
+      "pinyin": "kuīsǔn",
+      "meaning": "thua lỗ",
+      "example_zh": "公司今年出现<u>亏损</u>。",
+      "example_vi": "Công ty năm nay bị <u>thua lỗ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "亏损.svg",
+      "src": "images/HSK_2.0/level6/亏损.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/亏损.svg"
+      ]
+    },
+    "捆": {
+      "hanzi": "捆",
+      "pinyin": "kǔn",
+      "meaning": "bó, buộc",
+      "example_zh": "把柴<u>捆</u>起来。",
+      "example_vi": "<u>Buộc</u> củi lại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "捆.svg",
+      "src": "images/HSK_2.0/level6/捆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/捆.svg",
+        "images/HSK_3.0/level8/捆.svg",
+        "images/HSK_3.0/level9/捆.svg"
+      ]
+    },
+    "困惑": {
+      "hanzi": "困惑",
+      "pinyin": "kùnhuò",
+      "meaning": "bối rối, khó hiểu",
+      "example_zh": "这个问题让我很<u>困惑</u>。",
+      "example_vi": "Vấn đề này khiến tôi rất <u>bối rối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "困惑.svg",
+      "src": "images/HSK_2.0/level6/困惑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/困惑.svg",
+        "images/HSK_3.0/level8/困惑.svg",
+        "images/HSK_3.0/level9/困惑.svg"
+      ]
+    },
+    "扩充": {
+      "hanzi": "扩充",
+      "pinyin": "kuòchōng",
+      "meaning": "mở rộng, bổ sung",
+      "example_zh": "公司打算<u>扩充</u>团队。",
+      "example_vi": "Công ty dự định <u>mở rộng</u> đội ngũ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扩充.svg",
+      "src": "images/HSK_2.0/level6/扩充.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/扩充.svg",
+        "images/HSK_3.0/level8/扩充.svg",
+        "images/HSK_3.0/level9/扩充.svg"
+      ]
+    },
+    "扩散": {
+      "hanzi": "扩散",
+      "pinyin": "kuòsàn",
+      "meaning": "lan tỏa, khuếch tán",
+      "example_zh": "病毒在<u>扩散</u>。",
+      "example_vi": "Virus đang <u>lan tỏa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扩散.svg",
+      "src": "images/HSK_2.0/level6/扩散.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/扩散.svg",
+        "images/HSK_3.0/level8/扩散.svg",
+        "images/HSK_3.0/level9/扩散.svg"
+      ]
+    },
+    "扩张": {
+      "hanzi": "扩张",
+      "pinyin": "kuòzhāng",
+      "meaning": "mở rộng, bành trướng",
+      "example_zh": "公司正在<u>扩张</u>业务。",
+      "example_vi": "Công ty đang <u>mở rộng</u> kinh doanh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扩张.svg",
+      "src": "images/HSK_2.0/level6/扩张.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/扩张.svg",
+        "images/HSK_3.0/level8/扩张.svg",
+        "images/HSK_3.0/level9/扩张.svg"
+      ]
+    },
+    "喇叭": {
+      "hanzi": "喇叭",
+      "pinyin": "lǎba",
+      "meaning": "loa, kèn",
+      "example_zh": "街上传来<u>喇叭</u>声。",
+      "example_vi": "Trên đường vang lên tiếng <u>loa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "喇叭.svg",
+      "src": "images/HSK_2.0/level6/喇叭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/喇叭.svg",
+        "images/HSK_3.0/level8/喇叭.svg",
+        "images/HSK_3.0/level9/喇叭.svg"
       ]
     },
     "来源": {

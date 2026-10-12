@@ -17237,10 +17237,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/宽敞.svg",
     "caption": "rộng rãi"
   },
+  "宽容": {
+    "file": "宽容.svg",
+    "src": "images/HSK_2.0/level6/宽容.svg",
+    "caption": "khoan dung"
+  },
+  "矿物": {
+    "file": "矿物.svg",
+    "src": "images/HSK_2.0/level6/矿物.svg",
+    "caption": "khoáng vật"
+  },
+  "矿石": {
+    "file": "矿石.svg",
+    "src": "images/HSK_2.0/level6/矿石.svg",
+    "caption": "quặng"
+  },
   "亏": {
     "file": "亏.svg",
     "src": "images/HSK_2.0/level6/亏.svg",
     "caption": "thua, lỗ"
+  },
+  "亏损": {
+    "file": "亏损.svg",
+    "src": "images/HSK_2.0/level6/亏损.svg",
+    "caption": "thua lỗ"
+  },
+  "捆": {
+    "file": "捆.svg",
+    "src": "images/HSK_2.0/level6/捆.svg",
+    "caption": "bó, buộc"
+  },
+  "困惑": {
+    "file": "困惑.svg",
+    "src": "images/HSK_2.0/level6/困惑.svg",
+    "caption": "bối rối, khó hiểu"
+  },
+  "扩充": {
+    "file": "扩充.svg",
+    "src": "images/HSK_2.0/level6/扩充.svg",
+    "caption": "mở rộng, bổ sung"
+  },
+  "扩散": {
+    "file": "扩散.svg",
+    "src": "images/HSK_2.0/level6/扩散.svg",
+    "caption": "lan tỏa, khuếch tán"
+  },
+  "扩张": {
+    "file": "扩张.svg",
+    "src": "images/HSK_2.0/level6/扩张.svg",
+    "caption": "mở rộng, bành trướng"
+  },
+  "喇叭": {
+    "file": "喇叭.svg",
+    "src": "images/HSK_2.0/level6/喇叭.svg",
+    "caption": "loa, kèn"
   },
   "来源": {
     "file": "来源.svg",

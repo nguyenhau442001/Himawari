@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <g transform="translate(20, 40)">
+    <rect x="0" y="80" width="200" height="80" rx="8" fill="#334155"/>
+    <rect x="10" y="90" width="180" height="60" rx="4" fill="#1e293b"/>
+    
+    <path d="M40 150 L60 110 L80 150 Z" fill="#38bdf8" opacity="0.8"/>
+    <path d="M70 150 L90 90 L110 150 Z" fill="#10b981" opacity="0.8"/>
+    <path d="M100 150 L120 70 L140 150 Z" fill="#fb923c" opacity="0.8"/>
+    <path d="M130 150 L150 100 L170 150 Z" fill="#ec4899" opacity="0.8"/>
+    
+    <circle cx="170" cy="70" r="15" fill="#f59e0b"/>
+    <circle cx="170" cy="70" r="10" fill="#fbbf24"/>
+  </g>
+  
+  <g transform="translate(40, 160)">
+    <path d="M20 50 C 20 30, 40 20, 60 20 C 80 20, 100 30, 100 50 L 100 60 L 20 60 Z" fill="#f8fafc"/>
+    <circle cx="60" cy="20" r="15" fill="#f8fafc"/>
+    <rect x="55" y="55" width="10" height="10" fill="#f8fafc"/>
+    
+    <path d="M120 50 C 120 30, 140 20, 160 20 C 180 20, 200 30, 200 50 L 200 60 L 120 60 Z" fill="#cbd5e1"/>
+    <circle cx="160" cy="20" r="15" fill="#cbd5e1"/>
+    <rect x="155" y="55" width="10" height="10" fill="#cbd5e1"/>
+    
+    <path d="M70 30 L90 10 M150 30 L130 10" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <path d="M10 170 L230 170" stroke="#334155" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>
