@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:29:00.283151",
-  "total_unique_words_with_illustrations": 4325,
-  "total_flat_svg_files": 4325,
+  "generated_at": "2026-10-12T22:29:58.825126",
+  "total_unique_words_with_illustrations": 4330,
+  "total_flat_svg_files": 4330,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1685,
-        "pct": "67.4%"
+        "with_svg": 1690,
+        "pct": "67.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 565,
-        "pct": "31.4%"
+        "with_svg": 568,
+        "pct": "31.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 814,
-        "pct": "14.5%"
+        "with_svg": 816,
+        "pct": "14.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 814,
-        "pct": "14.5%"
+        "with_svg": 816,
+        "pct": "14.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 814,
-        "pct": "14.5%"
+        "with_svg": 816,
+        "pct": "14.6%"
       }
     }
   },
@@ -69710,6 +69710,104 @@
       "src": "images/HSK_2.0/level6/普及.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/普及.svg"
+      ]
+    },
+    "朴实": {
+      "hanzi": "朴实",
+      "pinyin": "pǔshí",
+      "meaning": "chất phác, giản dị",
+      "example_zh": "他的话语<u>朴实</u>而真诚。",
+      "example_vi": "Lời nói của anh ấy <u>chất phác</u> mà chân thành.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "朴实.svg",
+      "src": "images/HSK_2.0/level6/朴实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/朴实.svg",
+        "images/HSK_3.0/level8/朴实.svg",
+        "images/HSK_3.0/level9/朴实.svg"
+      ]
+    },
+    "朴素": {
+      "hanzi": "朴素",
+      "pinyin": "pǔsù",
+      "meaning": "giản dị, mộc mạc",
+      "example_zh": "她穿着十分<u>朴素</u>。",
+      "example_vi": "Cô ấy ăn mặc rất <u>giản dị</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "朴素.svg",
+      "src": "images/HSK_2.0/level6/朴素.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/朴素.svg"
+      ]
+    },
+    "瀑布": {
+      "hanzi": "瀑布",
+      "pinyin": "pùbù",
+      "meaning": "thác nước",
+      "example_zh": "这座<u>瀑布</u>非常壮观。",
+      "example_vi": "<u>Thác nước</u> này rất hùng vĩ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "瀑布.svg",
+      "src": "images/HSK_2.0/level6/瀑布.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/瀑布.svg",
+        "images/HSK_3.0/level8/瀑布.svg",
+        "images/HSK_3.0/level9/瀑布.svg"
+      ]
+    },
+    "期望": {
+      "hanzi": "期望",
+      "pinyin": "qīwàng",
+      "meaning": "kỳ vọng, mong đợi",
+      "example_zh": "父母对孩子有很高的<u>期望</u>。",
+      "example_vi": "Cha mẹ có <u>kỳ vọng</u> rất cao đối với con cái.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "期望.svg",
+      "src": "images/HSK_2.0/level6/期望.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/期望.svg"
+      ]
+    },
+    "期限": {
+      "hanzi": "期限",
+      "pinyin": "qīxiàn",
+      "meaning": "kỳ hạn, thời hạn",
+      "example_zh": "请在<u>期限</u>内提交申请。",
+      "example_vi": "Vui lòng nộp đơn trong <u>thời hạn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "期限.svg",
+      "src": "images/HSK_2.0/level6/期限.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/期限.svg"
       ]
     },
     "抢救": {

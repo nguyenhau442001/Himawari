@@ -18652,6 +18652,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/普及.svg",
     "caption": "phổ cập, phổ biến"
   },
+  "朴实": {
+    "file": "朴实.svg",
+    "src": "images/HSK_2.0/level6/朴实.svg",
+    "caption": "chất phác, giản dị"
+  },
+  "朴素": {
+    "file": "朴素.svg",
+    "src": "images/HSK_2.0/level6/朴素.svg",
+    "caption": "giản dị, mộc mạc"
+  },
+  "瀑布": {
+    "file": "瀑布.svg",
+    "src": "images/HSK_2.0/level6/瀑布.svg",
+    "caption": "thác nước"
+  },
+  "期望": {
+    "file": "期望.svg",
+    "src": "images/HSK_2.0/level6/期望.svg",
+    "caption": "kỳ vọng, mong đợi"
+  },
+  "期限": {
+    "file": "期限.svg",
+    "src": "images/HSK_2.0/level6/期限.svg",
+    "caption": "kỳ hạn, thời hạn"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
