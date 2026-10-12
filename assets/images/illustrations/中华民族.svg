@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Elements: Ancient Architecture Silhouette -->
+  <path d="M40 180 L40 120 L60 100 L80 120 L80 180 Z" fill="#334155"/>
+  <path d="M160 180 L160 110 L180 90 L200 110 L200 180 Z" fill="#334155"/>
+  <path d="M90 180 L90 130 L120 100 L150 130 L150 180 Z" fill="#475569"/>
+  
+  <!-- Main Subject: Grandfather and Grandchild interacting with a scroll -->
+  <!-- Grandfather -->
+  <circle cx="80" cy="150" r="15" fill="#fbbf24"/>
+  <path d="M65 165 Q80 180 95 165 L90 220 L70 220 Z" fill="#fb923c"/>
+  <path d="M70 170 L60 190 L50 180" stroke="#fb923c" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Grandchild -->
+  <circle cx="150" cy="160" r="12" fill="#fbbf24"/>
+  <path d="M140 172 Q150 185 160 172 L155 220 L145 220 Z" fill="#38bdf8"/>
+  
+  <!-- The Scroll (The "History and Culture") -->
+  <rect x="90" y="170" width="60" height="10" rx="2" fill="#fef3c7"/>
+  <path d="M95 165 L145 165 L145 190 L95 190 Z" fill="#fef3c7"/>
+  <path d="M100 170 L140 170 M100 175 L140 175 M100 180 L140 180" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 2"/>
+  
+  <!-- Decorative Cultural Elements -->
+  <circle cx="40" cy="60" r="20" fill="#ec4899" opacity="0.3"/>
+  <path d="M200 50 L210 30 L220 50 Z" fill="#fbbf24"/>
+  <circle cx="210" cy="70" r="5" fill="#10b981"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="220" width="240" height="20" fill="#0f172a"/>
+</svg>

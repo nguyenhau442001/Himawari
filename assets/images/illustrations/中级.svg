@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="65" fill="#1e293b"/>
+  <rect x="190" y="175" width="10" height="65" fill="#1e293b"/>
+  
+  <!-- Bookshelf/Background -->
+  <rect x="50" y="40" width="140" height="100" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="60" y="50" width="30" height="80" rx="2" fill="#fb923c"/>
+  <rect x="100" y="50" width="30" height="80" rx="2" fill="#38bdf8"/>
+  <rect x="140" y="50" width="30" height="80" rx="2" fill="#10b981"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="90" r="25" fill="#fde68a"/>
+  <path d="M105 85 Q110 80 115 85 M125 85 Q130 80 135 85" stroke="#0f172a" stroke-width="2" fill="none"/>
+  <path d="M110 100 Q120 105 130 100" stroke="#0f172a" stroke-width="2" fill="none"/>
+  <rect x="95" y="115" width="50" height="60" rx="10" fill="#ec4899"/>
+  
+  <!-- Laptop -->
+  <rect x="70" y="145" width="100" height="70" rx="4" fill="#64748b"/>
+  <rect x="75" y="150" width="90" height="50" rx="2" fill="#0f172a"/>
+  <rect x="85" y="155" width="70" height="40" rx="1" fill="#38bdf8" opacity="0.3"/>
+  
+  <!-- Coffee Mug -->
+  <rect x="180" y="135" width="25" height="25" rx="4" fill="#fbbf24"/>
+  <path d="M205 140 Q215 140 215 150 Q215 160 205 160" stroke="#fbbf24" stroke-width="4" fill="none"/>
+  
+  <!-- Decorative light -->
+  <circle cx="200" cy="40" r="10" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="200" cy="40" r="20" fill="#fbbf24" opacity="0.1"/>
+</svg>

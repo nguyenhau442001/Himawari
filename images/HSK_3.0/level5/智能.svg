@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="160" width="200" height="80" rx="10" fill="#334155"/>
+  
+  <!-- Character (Upper Body) -->
+  <g transform="translate(40, 60)">
+    <circle cx="40" cy="30" r="25" fill="#fde68a"/>
+    <path d="M25 35 Q40 45 55 35" stroke="#475569" stroke-width="2" fill="none"/>
+    <circle cx="30" cy="25" r="3" fill="#475569"/>
+    <circle cx="50" cy="25" r="3" fill="#475569"/>
+    <rect x="10" y="60" width="60" height="80" rx="10" fill="#64748b"/>
+  </g>
+  
+  <!-- Smartphone (The Focus) -->
+  <g transform="translate(130, 80)">
+    <rect width="70" height="130" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="5" y="10" width="60" height="110" rx="6" fill="#1e293b"/>
+    <!-- Screen UI Elements (Abstracted) -->
+    <circle cx="35" cy="30" r="15" fill="#ec4899" opacity="0.8"/>
+    <rect x="15" y="60" width="40" height="8" rx="2" fill="#10b981"/>
+    <rect x="15" y="75" width="30" height="8" rx="2" fill="#fb923c"/>
+    <rect x="15" y="90" width="40" height="8" rx="2" fill="#38bdf8"/>
+    <!-- Glow effect -->
+    <circle cx="35" cy="65" r="40" fill="#38bdf8" opacity="0.1" filter="blur(10px)"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="40" r="5" fill="#fbbf24"/>
+  <circle cx="180" cy="30" r="3" fill="#f59e0b"/>
+  <path d="M30 180 L50 160 M60 190 L80 170" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+</svg>

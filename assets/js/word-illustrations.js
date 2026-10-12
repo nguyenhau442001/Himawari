@@ -16251,6 +16251,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "治.svg",
     "src": "images/HSK_3.0/level5/治.svg",
     "caption": "chữa trị (bệnh); trị an, quản lý"
+  },
+  "制订": {
+    "file": "制订.svg",
+    "src": "images/HSK_3.0/level5/制订.svg",
+    "caption": "xây dựng, lập ra, hoạch định (kế hoạch)"
+  },
+  "智能": {
+    "file": "智能.svg",
+    "src": "images/HSK_3.0/level5/智能.svg",
+    "caption": "thông minh (smart, AI)"
+  },
+  "中华": {
+    "file": "中华.svg",
+    "src": "images/HSK_3.0/level5/中华.svg",
+    "caption": "trung Quốc"
+  },
+  "中华民族": {
+    "file": "中华民族.svg",
+    "src": "images/HSK_3.0/level5/中华民族.svg",
+    "caption": "dân tộc Trung Hoa"
+  },
+  "中级": {
+    "file": "中级.svg",
+    "src": "images/HSK_3.0/level5/中级.svg",
+    "caption": "trung cấp"
+  },
+  "中期": {
+    "file": "中期.svg",
+    "src": "images/HSK_3.0/level5/中期.svg",
+    "caption": "giai đoạn giữa, trung kỳ"
+  },
+  "中外": {
+    "file": "中外.svg",
+    "src": "images/HSK_3.0/level5/中外.svg",
+    "caption": "trong và ngoài nước, Trung Quốc và nước ngoài"
+  },
+  "中药": {
+    "file": "中药.svg",
+    "src": "images/HSK_3.0/level5/中药.svg",
+    "caption": "thuốc đông y, thuốc bắc"
+  },
+  "中医": {
+    "file": "中医.svg",
+    "src": "images/HSK_3.0/level5/中医.svg",
+    "caption": "đông y, y học cổ truyền Trung Quốc"
+  },
+  "种子": {
+    "file": "种子.svg",
+    "src": "images/HSK_3.0/level5/种子.svg",
+    "caption": "hạt giống"
   }
 };
 
