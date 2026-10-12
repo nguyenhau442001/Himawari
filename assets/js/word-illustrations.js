@@ -19007,6 +19007,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/侵略.svg",
     "caption": "xâm lược"
   },
+  "钦佩": {
+    "file": "钦佩.svg",
+    "src": "images/HSK_2.0/level6/钦佩.svg",
+    "caption": "khâm phục, kính nể"
+  },
+  "勤俭": {
+    "file": "勤俭.svg",
+    "src": "images/HSK_2.0/level6/勤俭.svg",
+    "caption": "cần kiệm"
+  },
+  "勤劳": {
+    "file": "勤劳.svg",
+    "src": "images/HSK_2.0/level6/勤劳.svg",
+    "caption": "chăm chỉ, cần cù"
+  },
+  "清澈": {
+    "file": "清澈.svg",
+    "src": "images/HSK_2.0/level6/清澈.svg",
+    "caption": "trong suốt, trong sạch (nước)"
+  },
+  "清晨": {
+    "file": "清晨.svg",
+    "src": "images/HSK_2.0/level6/清晨.svg",
+    "caption": "sáng sớm"
+  },
   "请教": {
     "file": "请教.svg",
     "src": "images/HSK_2.0/level6/请教.svg",
