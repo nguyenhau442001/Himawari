@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:47:26.945379",
-  "total_unique_words_with_illustrations": 3559,
-  "total_flat_svg_files": 3559,
+  "generated_at": "2026-10-12T11:49:19.026993",
+  "total_unique_words_with_illustrations": 3569,
+  "total_flat_svg_files": 3569,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 919,
-        "pct": "36.8%"
+        "with_svg": 929,
+        "pct": "37.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 341,
-        "pct": "18.9%"
+        "with_svg": 346,
+        "pct": "19.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 324,
-        "pct": "5.8%"
+        "with_svg": 329,
+        "pct": "5.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 324,
-        "pct": "5.8%"
+        "with_svg": 329,
+        "pct": "5.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 324,
-        "pct": "5.8%"
+        "with_svg": 329,
+        "pct": "5.9%"
       }
     }
   },
@@ -53398,6 +53398,206 @@
       "src": "images/HSK_2.0/level6/带领.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/带领.svg"
+      ]
+    },
+    "怠慢": {
+      "hanzi": "怠慢",
+      "pinyin": "dàimàn",
+      "meaning": "lạnh nhạt, thờ ơ (với khách)",
+      "example_zh": "招待客人不能<u>怠慢</u>。",
+      "example_vi": "Tiếp đãi khách không thể <u>lạnh nhạt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "怠慢.svg",
+      "src": "images/HSK_2.0/level6/怠慢.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/怠慢.svg",
+        "images/HSK_3.0/level8/怠慢.svg",
+        "images/HSK_3.0/level9/怠慢.svg"
+      ]
+    },
+    "担保": {
+      "hanzi": "担保",
+      "pinyin": "dānbǎo",
+      "meaning": "bảo đảm, đảm bảo",
+      "example_zh": "谁能为他<u>担保</u>？",
+      "example_vi": "Ai có thể <u>bảo đảm</u> cho anh ấy?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "担保.svg",
+      "src": "images/HSK_2.0/level6/担保.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/担保.svg",
+        "images/HSK_3.0/level8/担保.svg",
+        "images/HSK_3.0/level9/担保.svg"
+      ]
+    },
+    "胆怯": {
+      "hanzi": "胆怯",
+      "pinyin": "dǎnqiè",
+      "meaning": "nhút nhát, sợ sệt",
+      "example_zh": "他在台上显得有点<u>胆怯</u>。",
+      "example_vi": "Anh ấy trên sân khấu có vẻ <u>nhút nhát</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "胆怯.svg",
+      "src": "images/HSK_2.0/level6/胆怯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/胆怯.svg",
+        "images/HSK_3.0/level8/胆怯.svg",
+        "images/HSK_3.0/level9/胆怯.svg"
+      ]
+    },
+    "蛋白质": {
+      "hanzi": "蛋白质",
+      "pinyin": "dànbáizhì",
+      "meaning": "protein",
+      "example_zh": "鸡蛋含有丰富的<u>蛋白质</u>。",
+      "example_vi": "Trứng có chứa nhiều <u>protein</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "蛋白质.svg",
+      "src": "images/HSK_2.0/level6/蛋白质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/蛋白质.svg"
+      ]
+    },
+    "诞辰": {
+      "hanzi": "诞辰",
+      "pinyin": "dànchén",
+      "meaning": "ngày sinh (trang trọng)",
+      "example_zh": "今天是他的<u>诞辰</u>纪念日。",
+      "example_vi": "Hôm nay là ngày kỷ niệm <u>sinh nhật</u> của ông ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "诞辰.svg",
+      "src": "images/HSK_2.0/level6/诞辰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/诞辰.svg",
+        "images/HSK_3.0/level8/诞辰.svg",
+        "images/HSK_3.0/level9/诞辰.svg"
+      ]
+    },
+    "淡季": {
+      "hanzi": "淡季",
+      "pinyin": "dànjì",
+      "meaning": "mùa thấp điểm",
+      "example_zh": "现在是旅游<u>淡季</u>。",
+      "example_vi": "Bây giờ là <u>mùa thấp điểm</u> du lịch.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "淡季.svg",
+      "src": "images/HSK_2.0/level6/淡季.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/淡季.svg",
+        "images/HSK_3.0/level8/淡季.svg",
+        "images/HSK_3.0/level9/淡季.svg"
+      ]
+    },
+    "诞生": {
+      "hanzi": "诞生",
+      "pinyin": "dànshēng",
+      "meaning": "ra đời, sinh ra",
+      "example_zh": "一个新的理论<u>诞生</u>了。",
+      "example_vi": "Một lý thuyết mới đã <u>ra đời</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "诞生.svg",
+      "src": "images/HSK_2.0/level6/诞生.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/诞生.svg"
+      ]
+    },
+    "当场": {
+      "hanzi": "当场",
+      "pinyin": "dāngchǎng",
+      "meaning": "ngay tại chỗ",
+      "example_zh": "他<u>当场</u>被抓住了。",
+      "example_vi": "Anh ta bị bắt <u>ngay tại chỗ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "当场.svg",
+      "src": "images/HSK_2.0/level6/当场.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/当场.svg"
+      ]
+    },
+    "当初": {
+      "hanzi": "当初",
+      "pinyin": "dāngchū",
+      "meaning": "lúc đầu, hồi đó",
+      "example_zh": "<u>当初</u>我们并不认识。",
+      "example_vi": "<u>Lúc đầu</u> chúng tôi không biết nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "当初.svg",
+      "src": "images/HSK_2.0/level6/当初.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/当初.svg"
+      ]
+    },
+    "当代": {
+      "hanzi": "当代",
+      "pinyin": "dāngdài",
+      "meaning": "thời đại hiện nay",
+      "example_zh": "他是<u>当代</u>著名作家。",
+      "example_vi": "Anh ấy là nhà văn nổi tiếng <u>đương đại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "当代.svg",
+      "src": "images/HSK_2.0/level6/当代.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/当代.svg"
       ]
     },
     "当前": {

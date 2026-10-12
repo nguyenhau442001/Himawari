@@ -14612,6 +14612,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/带领.svg",
     "caption": "dẫn dắt, dẫn đầu"
   },
+  "怠慢": {
+    "file": "怠慢.svg",
+    "src": "images/HSK_2.0/level6/怠慢.svg",
+    "caption": "lạnh nhạt, thờ ơ (với khách)"
+  },
+  "担保": {
+    "file": "担保.svg",
+    "src": "images/HSK_2.0/level6/担保.svg",
+    "caption": "bảo đảm, đảm bảo"
+  },
+  "胆怯": {
+    "file": "胆怯.svg",
+    "src": "images/HSK_2.0/level6/胆怯.svg",
+    "caption": "nhút nhát, sợ sệt"
+  },
+  "蛋白质": {
+    "file": "蛋白质.svg",
+    "src": "images/HSK_2.0/level6/蛋白质.svg",
+    "caption": "protein"
+  },
+  "诞辰": {
+    "file": "诞辰.svg",
+    "src": "images/HSK_2.0/level6/诞辰.svg",
+    "caption": "ngày sinh (trang trọng)"
+  },
+  "淡季": {
+    "file": "淡季.svg",
+    "src": "images/HSK_2.0/level6/淡季.svg",
+    "caption": "mùa thấp điểm"
+  },
+  "诞生": {
+    "file": "诞生.svg",
+    "src": "images/HSK_2.0/level6/诞生.svg",
+    "caption": "ra đời, sinh ra"
+  },
+  "当场": {
+    "file": "当场.svg",
+    "src": "images/HSK_2.0/level6/当场.svg",
+    "caption": "ngay tại chỗ"
+  },
+  "当初": {
+    "file": "当初.svg",
+    "src": "images/HSK_2.0/level6/当初.svg",
+    "caption": "lúc đầu, hồi đó"
+  },
+  "当代": {
+    "file": "当代.svg",
+    "src": "images/HSK_2.0/level6/当代.svg",
+    "caption": "thời đại hiện nay"
+  },
   "当前": {
     "file": "当前.svg",
     "src": "images/HSK_2.0/level6/当前.svg",

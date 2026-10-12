@@ -1,0 +1,120 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm Office Glow -->
+    <radialGradient id="deskGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Window Light Beam -->
+    <linearGradient id="windowLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- ENVIRONMENT & INTERIOR -->
+  <!-- Back Wall Texture Line -->
+  <line x1="0" y1="160" x2="240" y2="160" stroke="#334155" stroke-width="2"/>
+  <rect x="0" y="160" width="240" height="80" fill="#090d16" opacity="0.4"/>
+
+  <!-- Window Frame in Background -->
+  <g opacity="0.6">
+    <rect x="25" y="30" width="45" height="70" rx="4" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+    <rect x="29" y="34" width="17" height="30" fill="url(#windowLight)"/>
+    <rect x="49" y="34" width="17" height="30" fill="url(#windowLight)"/>
+    <rect x="29" y="67" width="17" height="30" fill="url(#windowLight)"/>
+    <rect x="49" y="67" width="17" height="30" fill="url(#windowLight)"/>
+    <!-- City silhouette outside window -->
+    <path d="M30 90 L30 75 L35 75 L35 90 Z M38 90 L38 60 L43 60 L43 90 Z M46 90 L46 70 L52 70 L52 90 Z M55 90 L55 65 L65 65 L65 90 Z" fill="#334155"/>
+  </g>
+
+  <!-- Hanging Wall Lamp / Warm Glow -->
+  <circle cx="120" cy="20" r="40" fill="url(#deskGlow)"/>
+  <path d="M115 15 L125 15 L128 25 L112 25 Z" fill="#64748b"/>
+  <line x1="120" y1="0" x2="120" y2="15" stroke="#64748b" stroke-width="2"/>
+
+  <!-- Wooden Desk Surface -->
+  <path d="M20 170 L220 170 L210 205 L30 205 Z" fill="#334155"/>
+  <path d="M20 165 L220 165 L220 170 L20 170 Z" fill="#475569"/>
+
+  <!-- Desk Props (Contract, Pen, Stamp/Seal representing Guaranty/Surety context) -->
+  <g transform="translate(100, 172)">
+    <!-- Document/Contract -->
+    <polygon points="10,0 45,5 40,30 5,25" fill="#f8fafc"/>
+    <line x1="14" y1="8" x2="35" y2="10" stroke="#cbd5e1" stroke-width="1.5"/>
+    <line x1="14" y1="13" x2="30" y2="15" stroke="#cbd5e1" stroke-width="1.5"/>
+    <line x1="14" y1="18" x2="25" y2="20" stroke="#cbd5e1" stroke-width="1.5"/>
+    <!-- Red Official Seal (Guaranty Stamp) -->
+    <circle cx="33" cy="21" r="5" fill="#ef4444" opacity="0.85"/>
+    <!-- Pen -->
+    <path d="M-10,12 L3,25 L6,22 L-7,9 Z" fill="#64748b"/>
+    <path d="M-10,12 L-13,9 L-7,9 Z" fill="#f59e0b"/>
+  </g>
+
+  <!-- CHARACTER 1: The Applicant (Standing / Slightly Anxious, leaning forward) -->
+  <g transform="translate(45, 80)">
+    <!-- Body / Torso -->
+    <path d="M15 50 Q15 35 30 35 Q45 35 45 50 L42 85 L18 85 Z" fill="#3b82f6"/>
+    <!-- Arms -->
+    <path d="M18 42 L3 60 L10 65 L22 50" fill="#2563eb"/>
+    <!-- Head & Hair -->
+    <circle cx="30" cy="22" r="12" fill="#fbcfe8"/>
+    <path d="M18 20 Q30 5 42 20 Q40 28 30 28 Q20 28 18 20 Z" fill="#1e293b"/>
+    <!-- Face Expression (Worried/Praising help) -->
+    <circle cx="26" cy="22" r="1.5" fill="#1e293b"/>
+    <circle cx="34" cy="22" r="1.5" fill="#1e293b"/>
+    <path d="M28 27 Q30 25 32 27" stroke="#1e293b" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- Legs -->
+    <rect x="21" y="85" width="7" height="35" fill="#1e293b"/>
+    <rect x="32" y="85" width="7" height="35" fill="#1e293b"/>
+  </g>
+
+  <!-- CHARACTER 2: The Guarantor / Authority Figure (Seated, Pondering/Assessing) -->
+  <g transform="translate(130, 70)">
+    <!-- Office Chair Back -->
+    <rect x="35" y="10" width="28" height="85" rx="6" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+    
+    <!-- Torso (Seated) -->
+    <path d="M25 45 Q25 35 45 35 Q65 35 65 45 L60 90 L30 90 Z" fill="#059669"/>
+    <path d="M45 35 L45 90" stroke="#047857" stroke-width="2"/>
+    
+    <!-- Arm (Raised in thoughtful gesture/questioning: "Who can vouch?") -->
+    <path d="M28 42 L12 25 L20 20 L35 45" fill="#10b981"/>
+    <circle cx="10" cy="23" r="5" fill="#fdedd4"/>
+
+    <!-- Head & Hair -->
+    <circle cx="45" cy="20" r="13" fill="#fdedd4"/>
+    <path d="M32 18 Q45 2 58 18 Q55 24 45 22 Q35 24 32 18 Z" fill="#334155"/>
+    
+    <!-- Face Expression (Contemplative, looking towards applicant) -->
+    <circle cx="41" cy="20" r="1.5" fill="#1e293b"/>
+    <circle cx="49" cy="20" r="1.5" fill="#1e293b"/>
+    <path d="M43 25 Q45 27 47 25" stroke="#1e293b" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Legs (Seated) -->
+    <rect x="33" y="90" width="10" height="30" fill="#334155"/>
+    <rect x="49" y="90" width="10" height="30" fill="#334155"/>
+  </g>
+
+  <!-- INTERACTION / NARRATIVE ELEMENTS -->
+  <!-- Glowing Question Bubble representing the dilemma "Who can vouch for him?" -->
+  <g transform="translate(125, 15)" opacity="0.95">
+    <path d="M 0 15 A 16 16 0 0 1 25 3 L 45 3 A 16 16 0 0 1 70 15 A 16 16 0 0 1 45 27 L 30 27 L 18 37 L 20 27 A 16 16 0 0 1 0 15 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Stylized Question Mark inside bubble -->
+    <path d="M 30 8 C 30 5, 38 5, 38 10 C 38 14, 34 15, 34 19" fill="none" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="34" cy="23" r="1.8" fill="#f59e0b"/>
+  </g>
+
+  <!-- Accent lighting overlay for depth -->
+  <circle cx="70" cy="110" r="50" fill="url(#windowLight)" pointer-events="none"/>
+</svg>
