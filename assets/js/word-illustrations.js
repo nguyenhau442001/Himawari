@@ -16207,6 +16207,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/毫米.svg",
     "caption": "milimét"
   },
+  "耗费": {
+    "file": "耗费.svg",
+    "src": "images/HSK_2.0/level6/耗费.svg",
+    "caption": "tiêu hao, tốn"
+  },
+  "喝彩": {
+    "file": "喝彩.svg",
+    "src": "images/HSK_2.0/level6/喝彩.svg",
+    "caption": "hoan hô, vỗ tay tán thưởng"
+  },
+  "和谐": {
+    "file": "和谐.svg",
+    "src": "images/HSK_2.0/level6/和谐.svg",
+    "caption": "hài hòa"
+  },
+  "合资": {
+    "file": "合资.svg",
+    "src": "images/HSK_2.0/level6/合资.svg",
+    "caption": "hợp tác đầu tư, liên doanh"
+  },
+  "和睦": {
+    "file": "和睦.svg",
+    "src": "images/HSK_2.0/level6/和睦.svg",
+    "caption": "hòa thuận"
+  },
+  "黑暗": {
+    "file": "黑暗.svg",
+    "src": "images/HSK_2.0/level6/黑暗.svg",
+    "caption": "đen tối"
+  },
+  "痕迹": {
+    "file": "痕迹.svg",
+    "src": "images/HSK_2.0/level6/痕迹.svg",
+    "caption": "vết tích, dấu vết"
+  },
+  "恒心": {
+    "file": "恒心.svg",
+    "src": "images/HSK_2.0/level6/恒心.svg",
+    "caption": "lòng kiên định"
+  },
+  "衡量": {
+    "file": "衡量.svg",
+    "src": "images/HSK_2.0/level6/衡量.svg",
+    "caption": "đo lường, cân nhắc"
+  },
+  "轰动": {
+    "file": "轰动.svg",
+    "src": "images/HSK_2.0/level6/轰动.svg",
+    "caption": "gây chấn động"
+  },
   "花费": {
     "file": "花费.svg",
     "src": "images/HSK_2.0/level6/花费.svg",

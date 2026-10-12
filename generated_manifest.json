@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:45:39.706119",
-  "total_unique_words_with_illustrations": 3859,
-  "total_flat_svg_files": 3859,
+  "generated_at": "2026-10-12T12:47:35.595823",
+  "total_unique_words_with_illustrations": 3869,
+  "total_flat_svg_files": 3869,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1219,
-        "pct": "48.8%"
+        "with_svg": 1229,
+        "pct": "49.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 436,
-        "pct": "24.2%"
+        "with_svg": 440,
+        "pct": "24.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 508,
-        "pct": "9.1%"
+        "with_svg": 513,
+        "pct": "9.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 508,
-        "pct": "9.1%"
+        "with_svg": 513,
+        "pct": "9.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 508,
-        "pct": "9.1%"
+        "with_svg": 513,
+        "pct": "9.2%"
       }
     }
   },
@@ -59796,6 +59796,202 @@
       "src": "images/HSK_2.0/level6/毫米.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/毫米.svg"
+      ]
+    },
+    "耗费": {
+      "hanzi": "耗费",
+      "pinyin": "hàofèi",
+      "meaning": "tiêu hao, tốn",
+      "example_zh": "这个项目<u>耗费</u>了大量资金。",
+      "example_vi": "Dự án này <u>tiêu hao</u> rất nhiều vốn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "耗费.svg",
+      "src": "images/HSK_2.0/level6/耗费.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/耗费.svg",
+        "images/HSK_3.0/level8/耗费.svg",
+        "images/HSK_3.0/level9/耗费.svg"
+      ]
+    },
+    "喝彩": {
+      "hanzi": "喝彩",
+      "pinyin": "hècǎi",
+      "meaning": "hoan hô, vỗ tay tán thưởng",
+      "example_zh": "观众为表演<u>喝彩</u>。",
+      "example_vi": "Khán giả <u>hoan hô</u> tán thưởng buổi diễn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "喝彩.svg",
+      "src": "images/HSK_2.0/level6/喝彩.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/喝彩.svg",
+        "images/HSK_3.0/level8/喝彩.svg",
+        "images/HSK_3.0/level9/喝彩.svg"
+      ]
+    },
+    "和谐": {
+      "hanzi": "和谐",
+      "pinyin": "héxié",
+      "meaning": "hài hòa",
+      "example_zh": "邻居之间要<u>和谐</u>相处。",
+      "example_vi": "Hàng xóm với nhau nên sống <u>hài hòa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "和谐.svg",
+      "src": "images/HSK_2.0/level6/和谐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/和谐.svg"
+      ]
+    },
+    "合资": {
+      "hanzi": "合资",
+      "pinyin": "hézī",
+      "meaning": "hợp tác đầu tư, liên doanh",
+      "example_zh": "这是一家中外<u>合资</u>企业。",
+      "example_vi": "Đây là một doanh nghiệp <u>liên doanh</u> Trung-nước ngoài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "合资.svg",
+      "src": "images/HSK_2.0/level6/合资.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/合资.svg",
+        "images/HSK_3.0/level8/合资.svg",
+        "images/HSK_3.0/level9/合资.svg"
+      ]
+    },
+    "和睦": {
+      "hanzi": "和睦",
+      "pinyin": "hémù",
+      "meaning": "hòa thuận",
+      "example_zh": "一家人相处很<u>和睦</u>。",
+      "example_vi": "Cả nhà sống với nhau rất <u>hòa thuận</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "和睦.svg",
+      "src": "images/HSK_2.0/level6/和睦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/和睦.svg",
+        "images/HSK_3.0/level8/和睦.svg",
+        "images/HSK_3.0/level9/和睦.svg"
+      ]
+    },
+    "黑暗": {
+      "hanzi": "黑暗",
+      "pinyin": "hēiàn",
+      "meaning": "đen tối",
+      "example_zh": "房间里一片<u>黑暗</u>。",
+      "example_vi": "Trong phòng một màu <u>đen tối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "黑暗.svg",
+      "src": "images/HSK_2.0/level6/黑暗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/黑暗.svg"
+      ]
+    },
+    "痕迹": {
+      "hanzi": "痕迹",
+      "pinyin": "hénjì",
+      "meaning": "vết tích, dấu vết",
+      "example_zh": "墙上留下了火烧的<u>痕迹</u>。",
+      "example_vi": "Trên tường còn lại <u>vết tích</u> cháy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "痕迹.svg",
+      "src": "images/HSK_2.0/level6/痕迹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/痕迹.svg"
+      ]
+    },
+    "恒心": {
+      "hanzi": "恒心",
+      "pinyin": "héngxīn",
+      "meaning": "lòng kiên định",
+      "example_zh": "学习外语需要<u>恒心</u>。",
+      "example_vi": "Học ngoại ngữ cần có <u>lòng kiên định</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "恒心.svg",
+      "src": "images/HSK_2.0/level6/恒心.svg",
+      "alt_srcs": []
+    },
+    "衡量": {
+      "hanzi": "衡量",
+      "pinyin": "héngliáng",
+      "meaning": "đo lường, cân nhắc",
+      "example_zh": "要<u>衡量</u>得失再做决定。",
+      "example_vi": "Phải <u>cân nhắc</u> được mất rồi mới quyết định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "衡量.svg",
+      "src": "images/HSK_2.0/level6/衡量.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/衡量.svg"
+      ]
+    },
+    "轰动": {
+      "hanzi": "轰动",
+      "pinyin": "hōngdòng",
+      "meaning": "gây chấn động",
+      "example_zh": "这条新闻引起了<u>轰动</u>。",
+      "example_vi": "Bản tin này gây <u>chấn động</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "轰动.svg",
+      "src": "images/HSK_2.0/level6/轰动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/轰动.svg",
+        "images/HSK_3.0/level8/轰动.svg",
+        "images/HSK_3.0/level9/轰动.svg"
       ]
     },
     "花费": {
