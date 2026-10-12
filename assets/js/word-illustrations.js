@@ -15347,6 +15347,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/反动.svg",
     "caption": "phản động"
   },
+  "反感": {
+    "file": "反感.svg",
+    "src": "images/HSK_2.0/level6/反感.svg",
+    "caption": "khó chịu, phản cảm"
+  },
+  "反抗": {
+    "file": "反抗.svg",
+    "src": "images/HSK_2.0/level6/反抗.svg",
+    "caption": "chống lại, kháng cự"
+  },
+  "反馈": {
+    "file": "反馈.svg",
+    "src": "images/HSK_2.0/level6/反馈.svg",
+    "caption": "phản hồi"
+  },
+  "反面": {
+    "file": "反面.svg",
+    "src": "images/HSK_2.0/level6/反面.svg",
+    "caption": "mặt trái, mặt sau"
+  },
+  "反射": {
+    "file": "反射.svg",
+    "src": "images/HSK_2.0/level6/反射.svg",
+    "caption": "phản chiếu, phản xạ"
+  },
+  "反思": {
+    "file": "反思.svg",
+    "src": "images/HSK_2.0/level6/反思.svg",
+    "caption": "suy ngẫm lại"
+  },
+  "反问": {
+    "file": "反问.svg",
+    "src": "images/HSK_2.0/level6/反问.svg",
+    "caption": "hỏi lại, vấn lại"
+  },
+  "反之": {
+    "file": "反之.svg",
+    "src": "images/HSK_2.0/level6/反之.svg",
+    "caption": "ngược lại"
+  },
+  "范畴": {
+    "file": "范畴.svg",
+    "src": "images/HSK_2.0/level6/范畴.svg",
+    "caption": "phạm trù"
+  },
+  "饭馆": {
+    "file": "饭馆.svg",
+    "src": "images/HSK_2.0/level6/饭馆.svg",
+    "caption": "quán ăn, nhà hàng"
+  },
   "防止": {
     "file": "防止.svg",
     "src": "images/HSK_2.0/level6/防止.svg",

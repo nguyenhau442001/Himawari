@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:13:08.607044",
-  "total_unique_words_with_illustrations": 3699,
-  "total_flat_svg_files": 3699,
+  "generated_at": "2026-10-12T12:14:55.010694",
+  "total_unique_words_with_illustrations": 3709,
+  "total_flat_svg_files": 3709,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1059,
-        "pct": "42.4%"
+        "with_svg": 1069,
+        "pct": "42.8%"
       }
     },
     "hsk_3_0": {
@@ -43,8 +43,8 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 105,
-        "pct": "52.5%"
+        "with_svg": 106,
+        "pct": "53.0%"
       },
       "level3": {
         "total": 500,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 385,
-        "pct": "21.4%"
+        "with_svg": 387,
+        "pct": "21.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 412,
-        "pct": "7.4%"
+        "with_svg": 419,
+        "pct": "7.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 412,
-        "pct": "7.4%"
+        "with_svg": 419,
+        "pct": "7.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 412,
-        "pct": "7.4%"
+        "with_svg": 419,
+        "pct": "7.5%"
       }
     }
   },
@@ -56369,6 +56369,214 @@
       "file": "反动.svg",
       "src": "images/HSK_2.0/level6/反动.svg",
       "alt_srcs": []
+    },
+    "反感": {
+      "hanzi": "反感",
+      "pinyin": "fǎngǎn",
+      "meaning": "khó chịu, phản cảm",
+      "example_zh": "我对这种行为很<u>反感</u>。",
+      "example_vi": "Tôi rất <u>khó chịu, phản cảm</u> với hành vi này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反感.svg",
+      "src": "images/HSK_2.0/level6/反感.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反感.svg",
+        "images/HSK_3.0/level8/反感.svg",
+        "images/HSK_3.0/level9/反感.svg"
+      ]
+    },
+    "反抗": {
+      "hanzi": "反抗",
+      "pinyin": "fǎnkàng",
+      "meaning": "chống lại, kháng cự",
+      "example_zh": "他勇敢地<u>反抗</u>压迫。",
+      "example_vi": "Anh ấy can đảm <u>chống lại</u> sự áp bức.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反抗.svg",
+      "src": "images/HSK_2.0/level6/反抗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反抗.svg",
+        "images/HSK_3.0/level8/反抗.svg",
+        "images/HSK_3.0/level9/反抗.svg"
+      ]
+    },
+    "反馈": {
+      "hanzi": "反馈",
+      "pinyin": "fǎnkuì",
+      "meaning": "phản hồi",
+      "example_zh": "请给我们一些<u>反馈</u>。",
+      "example_vi": "Xin hãy cho chúng tôi vài <u>phản hồi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "反馈.svg",
+      "src": "images/HSK_2.0/level6/反馈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/反馈.svg"
+      ]
+    },
+    "反面": {
+      "hanzi": "反面",
+      "pinyin": "fǎnmiàn",
+      "meaning": "mặt trái, mặt sau",
+      "example_zh": "这是问题的<u>反面</u>。",
+      "example_vi": "Đây là <u>mặt trái</u> của vấn đề.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反面.svg",
+      "src": "images/HSK_2.0/level6/反面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反面.svg",
+        "images/HSK_3.0/level8/反面.svg",
+        "images/HSK_3.0/level9/反面.svg"
+      ]
+    },
+    "反射": {
+      "hanzi": "反射",
+      "pinyin": "fǎnshè",
+      "meaning": "phản chiếu, phản xạ",
+      "example_zh": "镜子能<u>反射</u>光线。",
+      "example_vi": "Gương có thể <u>phản chiếu</u> ánh sáng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反射.svg",
+      "src": "images/HSK_2.0/level6/反射.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反射.svg",
+        "images/HSK_3.0/level8/反射.svg",
+        "images/HSK_3.0/level9/反射.svg"
+      ]
+    },
+    "反思": {
+      "hanzi": "反思",
+      "pinyin": "fǎnsī",
+      "meaning": "suy ngẫm lại",
+      "example_zh": "我们应该<u>反思</u>自己的行为。",
+      "example_vi": "Chúng ta nên <u>suy ngẫm lại</u> hành vi của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "反思.svg",
+      "src": "images/HSK_2.0/level6/反思.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/反思.svg"
+      ]
+    },
+    "反问": {
+      "hanzi": "反问",
+      "pinyin": "fǎnwèn",
+      "meaning": "hỏi lại, vấn lại",
+      "example_zh": "他用<u>反问</u>的方式回答了我。",
+      "example_vi": "Anh ấy trả lời tôi bằng cách <u>hỏi lại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反问.svg",
+      "src": "images/HSK_2.0/level6/反问.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反问.svg",
+        "images/HSK_3.0/level8/反问.svg",
+        "images/HSK_3.0/level9/反问.svg"
+      ]
+    },
+    "反之": {
+      "hanzi": "反之",
+      "pinyin": "fǎnzhī",
+      "meaning": "ngược lại",
+      "example_zh": "<u>反之</u>，如果失败了呢？",
+      "example_vi": "<u>Ngược lại</u>, nếu thất bại thì sao?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反之.svg",
+      "src": "images/HSK_2.0/level6/反之.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反之.svg",
+        "images/HSK_3.0/level8/反之.svg",
+        "images/HSK_3.0/level9/反之.svg"
+      ]
+    },
+    "范畴": {
+      "hanzi": "范畴",
+      "pinyin": "fànchóu",
+      "meaning": "phạm trù",
+      "example_zh": "这超出了我的研究<u>范畴</u>。",
+      "example_vi": "Việc này vượt ra ngoài <u>phạm trù</u> nghiên cứu của tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "范畴.svg",
+      "src": "images/HSK_2.0/level6/范畴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/范畴.svg",
+        "images/HSK_3.0/level8/范畴.svg",
+        "images/HSK_3.0/level9/范畴.svg"
+      ]
+    },
+    "饭馆": {
+      "hanzi": "饭馆",
+      "pinyin": "fànguǎn",
+      "meaning": "quán ăn, nhà hàng",
+      "example_zh": "我们去那家<u>饭馆</u>吃饭。",
+      "example_vi": "Chúng tôi đi ăn ở <u>quán ăn</u> đó.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "饭馆.svg",
+      "src": "images/HSK_2.0/level6/饭馆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level2/饭馆.svg"
+      ]
     },
     "防止": {
       "hanzi": "防止",
