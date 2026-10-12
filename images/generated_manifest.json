@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:29:58.825126",
-  "total_unique_words_with_illustrations": 4330,
-  "total_flat_svg_files": 4330,
+  "generated_at": "2026-10-12T22:30:59.007824",
+  "total_unique_words_with_illustrations": 4335,
+  "total_flat_svg_files": 4335,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1690,
-        "pct": "67.6%"
+        "with_svg": 1695,
+        "pct": "67.8%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 568,
+        "with_svg": 569,
         "pct": "31.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 816,
+        "with_svg": 820,
         "pct": "14.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 816,
+        "with_svg": 820,
         "pct": "14.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 816,
+        "with_svg": 820,
         "pct": "14.6%"
       }
     }
@@ -69808,6 +69808,112 @@
       "src": "images/HSK_2.0/level6/期限.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/期限.svg"
+      ]
+    },
+    "欺负": {
+      "hanzi": "欺负",
+      "pinyin": "qīfu",
+      "meaning": "bắt nạt",
+      "example_zh": "他在学校经常被同学<u>欺负</u>。",
+      "example_vi": "Anh ấy thường bị bạn học <u>bắt nạt</u> ở trường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "欺负.svg",
+      "src": "images/HSK_2.0/level6/欺负.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/欺负.svg",
+        "images/HSK_3.0/level8/欺负.svg",
+        "images/HSK_3.0/level9/欺负.svg"
+      ]
+    },
+    "欺骗": {
+      "hanzi": "欺骗",
+      "pinyin": "qīpiàn",
+      "meaning": "lừa gạt, lừa dối",
+      "example_zh": "他被骗子<u>欺骗</u>了。",
+      "example_vi": "Anh ấy bị kẻ lừa đảo <u>lừa gạt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "欺骗.svg",
+      "src": "images/HSK_2.0/level6/欺骗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/欺骗.svg"
+      ]
+    },
+    "凄凉": {
+      "hanzi": "凄凉",
+      "pinyin": "qīliáng",
+      "meaning": "thê lương, hoang vắng",
+      "example_zh": "废弃的村庄显得十分<u>凄凉</u>。",
+      "example_vi": "Ngôi làng bị bỏ hoang trông rất <u>thê lương</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "凄凉.svg",
+      "src": "images/HSK_2.0/level6/凄凉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/凄凉.svg",
+        "images/HSK_3.0/level8/凄凉.svg",
+        "images/HSK_3.0/level9/凄凉.svg"
+      ]
+    },
+    "奇妙": {
+      "hanzi": "奇妙",
+      "pinyin": "qímiào",
+      "meaning": "kỳ diệu, kỳ lạ",
+      "example_zh": "大自然真是<u>奇妙</u>无比。",
+      "example_vi": "Thiên nhiên thật <u>kỳ diệu</u> vô cùng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "奇妙.svg",
+      "src": "images/HSK_2.0/level6/奇妙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/奇妙.svg",
+        "images/HSK_3.0/level8/奇妙.svg",
+        "images/HSK_3.0/level9/奇妙.svg"
+      ]
+    },
+    "旗袍": {
+      "hanzi": "旗袍",
+      "pinyin": "qípáo",
+      "meaning": "áo sườn xám",
+      "example_zh": "她穿着一件漂亮的<u>旗袍</u>。",
+      "example_vi": "Cô ấy mặc một chiếc <u>áo sườn xám</u> đẹp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "旗袍.svg",
+      "src": "images/HSK_2.0/level6/旗袍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/旗袍.svg",
+        "images/HSK_3.0/level8/旗袍.svg",
+        "images/HSK_3.0/level9/旗袍.svg"
       ]
     },
     "抢救": {

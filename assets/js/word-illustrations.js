@@ -18677,6 +18677,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/期限.svg",
     "caption": "kỳ hạn, thời hạn"
   },
+  "欺负": {
+    "file": "欺负.svg",
+    "src": "images/HSK_2.0/level6/欺负.svg",
+    "caption": "bắt nạt"
+  },
+  "欺骗": {
+    "file": "欺骗.svg",
+    "src": "images/HSK_2.0/level6/欺骗.svg",
+    "caption": "lừa gạt, lừa dối"
+  },
+  "凄凉": {
+    "file": "凄凉.svg",
+    "src": "images/HSK_2.0/level6/凄凉.svg",
+    "caption": "thê lương, hoang vắng"
+  },
+  "奇妙": {
+    "file": "奇妙.svg",
+    "src": "images/HSK_2.0/level6/奇妙.svg",
+    "caption": "kỳ diệu, kỳ lạ"
+  },
+  "旗袍": {
+    "file": "旗袍.svg",
+    "src": "images/HSK_2.0/level6/旗袍.svg",
+    "caption": "áo sườn xám"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
