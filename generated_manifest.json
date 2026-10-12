@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:07:18.604182",
-  "total_unique_words_with_illustrations": 4518,
-  "total_flat_svg_files": 4518,
+  "generated_at": "2026-10-12T23:07:55.291710",
+  "total_unique_words_with_illustrations": 4523,
+  "total_flat_svg_files": 4523,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1878,
-        "pct": "75.1%"
+        "with_svg": 1883,
+        "pct": "75.3%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 626,
-        "pct": "34.8%"
+        "with_svg": 628,
+        "pct": "34.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 935,
-        "pct": "16.7%"
+        "with_svg": 938,
+        "pct": "16.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 935,
-        "pct": "16.7%"
+        "with_svg": 938,
+        "pct": "16.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 935,
-        "pct": "16.7%"
+        "with_svg": 938,
+        "pct": "16.8%"
       }
     }
   },
@@ -73790,6 +73790,108 @@
         "images/HSK_3.0/level7/呻吟.svg",
         "images/HSK_3.0/level8/呻吟.svg",
         "images/HSK_3.0/level9/呻吟.svg"
+      ]
+    },
+    "神经": {
+      "hanzi": "神经",
+      "pinyin": "shénjīng",
+      "meaning": "thần kinh",
+      "example_zh": "他的<u>神经</u>受到了损伤。",
+      "example_vi": "<u>Thần kinh</u> của anh ấy đã bị tổn thương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "神经.svg",
+      "src": "images/HSK_2.0/level6/神经.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/神经.svg"
+      ]
+    },
+    "神奇": {
+      "hanzi": "神奇",
+      "pinyin": "shénqí",
+      "meaning": "thần kỳ, kỳ diệu",
+      "example_zh": "这种药效果十分<u>神奇</u>。",
+      "example_vi": "Loại thuốc này có hiệu quả rất <u>thần kỳ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "神奇.svg",
+      "src": "images/HSK_2.0/level6/神奇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/神奇.svg"
+      ]
+    },
+    "神气": {
+      "hanzi": "神气",
+      "pinyin": "shénqì",
+      "meaning": "vẻ oai, dáng vẻ tự đắc",
+      "example_zh": "他穿上新衣服显得很<u>神气</u>。",
+      "example_vi": "Anh ấy mặc bộ đồ mới trông rất <u>oai vệ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "神气.svg",
+      "src": "images/HSK_2.0/level6/神气.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/神气.svg",
+        "images/HSK_3.0/level8/神气.svg",
+        "images/HSK_3.0/level9/神气.svg"
+      ]
+    },
+    "神圣": {
+      "hanzi": "神圣",
+      "pinyin": "shénshèng",
+      "meaning": "thần thánh, linh thiêng",
+      "example_zh": "保护国家是每个公民<u>神圣</u>的责任。",
+      "example_vi": "Bảo vệ tổ quốc là trách nhiệm <u>thần thánh</u> của mỗi công dân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "神圣.svg",
+      "src": "images/HSK_2.0/level6/神圣.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/神圣.svg",
+        "images/HSK_3.0/level8/神圣.svg",
+        "images/HSK_3.0/level9/神圣.svg"
+      ]
+    },
+    "神态": {
+      "hanzi": "神态",
+      "pinyin": "shéntài",
+      "meaning": "thần thái, vẻ mặt",
+      "example_zh": "他的<u>神态</u>显得十分轻松。",
+      "example_vi": "<u>Thần thái</u> của anh ấy có vẻ rất thoải mái.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "神态.svg",
+      "src": "images/HSK_2.0/level6/神态.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/神态.svg",
+        "images/HSK_3.0/level8/神态.svg",
+        "images/HSK_3.0/level9/神态.svg"
       ]
     },
     "生存": {

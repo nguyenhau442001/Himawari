@@ -19662,6 +19662,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/呻吟.svg",
     "caption": "rên rỉ"
   },
+  "神经": {
+    "file": "神经.svg",
+    "src": "images/HSK_2.0/level6/神经.svg",
+    "caption": "thần kinh"
+  },
+  "神奇": {
+    "file": "神奇.svg",
+    "src": "images/HSK_2.0/level6/神奇.svg",
+    "caption": "thần kỳ, kỳ diệu"
+  },
+  "神气": {
+    "file": "神气.svg",
+    "src": "images/HSK_2.0/level6/神气.svg",
+    "caption": "vẻ oai, dáng vẻ tự đắc"
+  },
+  "神圣": {
+    "file": "神圣.svg",
+    "src": "images/HSK_2.0/level6/神圣.svg",
+    "caption": "thần thánh, linh thiêng"
+  },
+  "神态": {
+    "file": "神态.svg",
+    "src": "images/HSK_2.0/level6/神态.svg",
+    "caption": "thần thái, vẻ mặt"
+  },
   "生存": {
     "file": "生存.svg",
     "src": "images/HSK_2.0/level6/生存.svg",
