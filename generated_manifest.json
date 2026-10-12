@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:28:04.994684",
-  "total_unique_words_with_illustrations": 4320,
-  "total_flat_svg_files": 4320,
+  "generated_at": "2026-10-12T22:29:00.283151",
+  "total_unique_words_with_illustrations": 4325,
+  "total_flat_svg_files": 4325,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1680,
-        "pct": "67.2%"
+        "with_svg": 1685,
+        "pct": "67.4%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 563,
-        "pct": "31.3%"
+        "with_svg": 565,
+        "pct": "31.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 811,
+        "with_svg": 814,
         "pct": "14.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 811,
+        "with_svg": 814,
         "pct": "14.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 811,
+        "with_svg": 814,
         "pct": "14.5%"
       }
     }
@@ -69590,6 +69590,108 @@
         "images/HSK_3.0/level7/破例.svg",
         "images/HSK_3.0/level8/破例.svg",
         "images/HSK_3.0/level9/破例.svg"
+      ]
+    },
+    "迫不及待": {
+      "hanzi": "迫不及待",
+      "pinyin": "pòbùjídài",
+      "meaning": "nóng lòng, không thể chờ thêm",
+      "example_zh": "孩子们<u>迫不及待</u>地打开了礼物。",
+      "example_vi": "Các bé <u>nóng lòng</u> mở quà ngay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迫不及待.svg",
+      "src": "images/HSK_2.0/level6/迫不及待.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迫不及待.svg",
+        "images/HSK_3.0/level8/迫不及待.svg",
+        "images/HSK_3.0/level9/迫不及待.svg"
+      ]
+    },
+    "迫害": {
+      "hanzi": "迫害",
+      "pinyin": "pòhài",
+      "meaning": "bức hại, ngược đãi",
+      "example_zh": "他曾经遭受过政治<u>迫害</u>。",
+      "example_vi": "Anh ấy đã từng chịu <u>bức hại</u> về chính trị.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迫害.svg",
+      "src": "images/HSK_2.0/level6/迫害.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迫害.svg",
+        "images/HSK_3.0/level8/迫害.svg",
+        "images/HSK_3.0/level9/迫害.svg"
+      ]
+    },
+    "魄力": {
+      "hanzi": "魄力",
+      "pinyin": "pòlì",
+      "meaning": "sự quyết đoán, khí phách",
+      "example_zh": "他做事很有<u>魄力</u>。",
+      "example_vi": "Anh ấy làm việc rất <u>quyết đoán</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "魄力.svg",
+      "src": "images/HSK_2.0/level6/魄力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/魄力.svg",
+        "images/HSK_3.0/level8/魄力.svg",
+        "images/HSK_3.0/level9/魄力.svg"
+      ]
+    },
+    "扑": {
+      "hanzi": "扑",
+      "pinyin": "pū",
+      "meaning": "xông vào, vồ lấy",
+      "example_zh": "猫一下子<u>扑</u>向了老鼠。",
+      "example_vi": "Con mèo lập tức <u>vồ lấy</u> con chuột.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "扑.svg",
+      "src": "images/HSK_2.0/level6/扑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/扑.svg"
+      ]
+    },
+    "铺": {
+      "hanzi": "铺",
+      "pinyin": "pū",
+      "meaning": "trải, lát",
+      "example_zh": "她在床上<u>铺</u>了一条新床单。",
+      "example_vi": "Cô ấy <u>trải</u> lên giường một tấm ga mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "铺.svg",
+      "src": "images/HSK_2.0/level6/铺.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/铺.svg"
       ]
     },
     "普及": {

@@ -18622,6 +18622,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/破例.svg",
     "caption": "phá lệ, ngoại lệ"
   },
+  "迫不及待": {
+    "file": "迫不及待.svg",
+    "src": "images/HSK_2.0/level6/迫不及待.svg",
+    "caption": "nóng lòng, không thể chờ thêm"
+  },
+  "迫害": {
+    "file": "迫害.svg",
+    "src": "images/HSK_2.0/level6/迫害.svg",
+    "caption": "bức hại, ngược đãi"
+  },
+  "魄力": {
+    "file": "魄力.svg",
+    "src": "images/HSK_2.0/level6/魄力.svg",
+    "caption": "sự quyết đoán, khí phách"
+  },
+  "扑": {
+    "file": "扑.svg",
+    "src": "images/HSK_2.0/level6/扑.svg",
+    "caption": "xông vào, vồ lấy"
+  },
+  "铺": {
+    "file": "铺.svg",
+    "src": "images/HSK_2.0/level6/铺.svg",
+    "caption": "trải, lát"
+  },
   "普及": {
     "file": "普及.svg",
     "src": "images/HSK_2.0/level6/普及.svg",
