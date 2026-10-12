@@ -13147,10 +13147,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/被动.svg",
     "caption": "bị động"
   },
+  "备份": {
+    "file": "备份.svg",
+    "src": "images/HSK_2.0/level6/备份.svg",
+    "caption": "sao lưu (dữ liệu)"
+  },
+  "被告": {
+    "file": "被告.svg",
+    "src": "images/HSK_2.0/level6/被告.svg",
+    "caption": "bị cáo"
+  },
+  "背叛": {
+    "file": "背叛.svg",
+    "src": "images/HSK_2.0/level6/背叛.svg",
+    "caption": "phản bội"
+  },
+  "背诵": {
+    "file": "背诵.svg",
+    "src": "images/HSK_2.0/level6/背诵.svg",
+    "caption": "đọc thuộc lòng, ngâm thuộc"
+  },
+  "奔波": {
+    "file": "奔波.svg",
+    "src": "images/HSK_2.0/level6/奔波.svg",
+    "caption": "bôn ba, vất vả ngược xuôi"
+  },
+  "奔驰": {
+    "file": "奔驰.svg",
+    "src": "images/HSK_2.0/level6/奔驰.svg",
+    "caption": "phi nhanh, chạy nhanh"
+  },
+  "本能": {
+    "file": "本能.svg",
+    "src": "images/HSK_2.0/level6/本能.svg",
+    "caption": "bản năng"
+  },
+  "本钱": {
+    "file": "本钱.svg",
+    "src": "images/HSK_2.0/level6/本钱.svg",
+    "caption": "vốn (tiền)"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",
     "caption": "bản thân, chính người đó"
+  },
+  "本身": {
+    "file": "本身.svg",
+    "src": "images/HSK_2.0/level6/本身.svg",
+    "caption": "bản thân, chính nó"
+  },
+  "本事": {
+    "file": "本事.svg",
+    "src": "images/HSK_2.0/level6/本事.svg",
+    "caption": "năng lực, tài cán"
   },
   "比喻": {
     "file": "比喻.svg",

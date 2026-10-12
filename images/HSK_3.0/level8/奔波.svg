@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Cityscape Background -->
+  <path d="M20 180 L80 140 L140 170 L220 130 V240 H20 Z" fill="#334155"/>
+  <rect x="30" y="150" width="15" height="40" fill="#475569"/>
+  <rect x="60" y="160" width="20" height="30" fill="#475569"/>
+  <rect x="160" y="140" width="25" height="50" fill="#475569"/>
+  
+  <!-- Main Character -->
+  <g transform="translate(100, 100)">
+    <!-- Suitcase -->
+    <rect x="-40" y="40" width="30" height="20" rx="2" fill="#fb923c"/>
+    <rect x="-35" y="35" width="20" height="5" rx="1" fill="#fb923c"/>
+    
+    <!-- Body -->
+    <path d="M0 0 C 10 -10, 20 -10, 30 0 L 25 60 L -5 60 Z" fill="#38bdf8"/>
+    
+    <!-- Legs (Running/Walking) -->
+    <path d="M5 60 L15 90 M20 60 L35 85" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Arms -->
+    <path d="M0 20 L-20 40" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M25 20 L40 10" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Head -->
+    <circle cx="15" cy="-10" r="15" fill="#fde68a"/>
+    <path d="M5 -15 L10 -10 M20 -15 L25 -10" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <path d="M8 -5 Q15 0 22 -5" stroke="#1e293b" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Motion Lines -->
+  <path d="M40 80 L60 70 M30 100 L50 90" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Street Lamp -->
+  <rect x="200" y="60" width="4" height="180" fill="#64748b"/>
+  <circle cx="202" cy="60" r="10" fill="#fbbf24"/>
+  <path d="M180 70 L224 70 L215 120 L189 120 Z" fill="#f59e0b" opacity="0.3"/>
+</svg>

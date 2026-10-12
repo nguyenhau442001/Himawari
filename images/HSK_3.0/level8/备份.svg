@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="150" width="200" height="60" rx="8" fill="#334155"/>
+  
+  <!-- Laptop -->
+  <rect x="50" y="90" width="100" height="70" rx="4" fill="#64748b"/>
+  <rect x="55" y="95" width="90" height="50" rx="2" fill="#bae6fd"/>
+  <circle cx="100" cy="120" r="10" fill="#38bdf8" opacity="0.5"/>
+  <path d="M90 120 L110 120 M100 110 L100 130" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- External Drive -->
+  <rect x="170" y="130" width="30" height="20" rx="3" fill="#fb923c"/>
+  <rect x="175" y="135" width="20" height="10" rx="1" fill="#fff"/>
+  <path d="M160 140 L170 140" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Character (Upper Body) -->
+  <g transform="translate(140, 80)">
+    <circle cx="40" cy="40" r="25" fill="#fde68a"/>
+    <path d="M25 40 Q40 55 55 40" stroke="#475569" stroke-width="2" fill="none"/>
+    <circle cx="32" cy="35" r="3" fill="#475569"/>
+    <circle cx="48" cy="35" r="3" fill="#475569"/>
+    <path d="M20 65 L60 65 L55 120 L25 120 Z" fill="#ec4899"/>
+    <rect x="25" y="60" width="30" height="10" fill="#ec4899" rx="2"/>
+  </g>
+  
+  <!-- Floating Icons (Data Transfer) -->
+  <g fill="#10b981">
+    <circle cx="150" cy="110" r="4"/>
+    <circle cx="160" cy="100" r="3"/>
+    <circle cx="170" cy="90" r="2"/>
+  </g>
+  
+  <!-- Lamp -->
+  <path d="M30 150 L30 80 L50 80" stroke="#f59e0b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="30" cy="80" r="8" fill="#f59e0b"/>
+</svg>
