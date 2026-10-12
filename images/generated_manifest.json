@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:52:53.553634",
-  "total_unique_words_with_illustrations": 4455,
-  "total_flat_svg_files": 4455,
+  "generated_at": "2026-10-12T22:53:49.761615",
+  "total_unique_words_with_illustrations": 4460,
+  "total_flat_svg_files": 4460,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1815,
-        "pct": "72.6%"
+        "with_svg": 1820,
+        "pct": "72.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 607,
-        "pct": "33.7%"
+        "with_svg": 608,
+        "pct": "33.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 895,
-        "pct": "16.0%"
+        "with_svg": 899,
+        "pct": "16.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 895,
-        "pct": "16.0%"
+        "with_svg": 899,
+        "pct": "16.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 895,
-        "pct": "16.0%"
+        "with_svg": 899,
+        "pct": "16.1%"
       }
     }
   },
@@ -72436,6 +72436,112 @@
       "src": "images/HSK_2.0/level6/人为.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/人为.svg"
+      ]
+    },
+    "人性": {
+      "hanzi": "人性",
+      "pinyin": "rénxìng",
+      "meaning": "nhân tính, bản chất con người",
+      "example_zh": "这部小说深刻地探讨了<u>人性</u>。",
+      "example_vi": "Cuốn tiểu thuyết này đã khám phá sâu sắc về <u>nhân tính</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "人性.svg",
+      "src": "images/HSK_2.0/level6/人性.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/人性.svg",
+        "images/HSK_3.0/level8/人性.svg",
+        "images/HSK_3.0/level9/人性.svg"
+      ]
+    },
+    "人质": {
+      "hanzi": "人质",
+      "pinyin": "rénzhì",
+      "meaning": "con tin",
+      "example_zh": "歹徒劫持了几名<u>人质</u>。",
+      "example_vi": "Tên cướp đã bắt giữ vài <u>con tin</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "人质.svg",
+      "src": "images/HSK_2.0/level6/人质.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/人质.svg",
+        "images/HSK_3.0/level8/人质.svg",
+        "images/HSK_3.0/level9/人质.svg"
+      ]
+    },
+    "仁慈": {
+      "hanzi": "仁慈",
+      "pinyin": "réncí",
+      "meaning": "nhân từ",
+      "example_zh": "她是一个<u>仁慈</u>的人。",
+      "example_vi": "Cô ấy là một người <u>nhân từ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "仁慈.svg",
+      "src": "images/HSK_2.0/level6/仁慈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/仁慈.svg",
+        "images/HSK_3.0/level8/仁慈.svg",
+        "images/HSK_3.0/level9/仁慈.svg"
+      ]
+    },
+    "忍耐": {
+      "hanzi": "忍耐",
+      "pinyin": "rěnnài",
+      "meaning": "nhẫn nhịn, kiên nhẫn",
+      "example_zh": "面对挫折，他学会了<u>忍耐</u>。",
+      "example_vi": "Đối diện với thất bại, anh ấy đã học được sự <u>nhẫn nhịn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "忍耐.svg",
+      "src": "images/HSK_2.0/level6/忍耐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/忍耐.svg",
+        "images/HSK_3.0/level8/忍耐.svg",
+        "images/HSK_3.0/level9/忍耐.svg"
+      ]
+    },
+    "忍受": {
+      "hanzi": "忍受",
+      "pinyin": "rěnshòu",
+      "meaning": "chịu đựng",
+      "example_zh": "他无法<u>忍受</u>这种痛苦。",
+      "example_vi": "Anh ấy không thể <u>chịu đựng</u> nỗi đau này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "忍受.svg",
+      "src": "images/HSK_2.0/level6/忍受.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/忍受.svg"
       ]
     },
     "擅长": {

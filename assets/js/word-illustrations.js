@@ -19327,6 +19327,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/人为.svg",
     "caption": "do con người, nhân tạo"
   },
+  "人性": {
+    "file": "人性.svg",
+    "src": "images/HSK_2.0/level6/人性.svg",
+    "caption": "nhân tính, bản chất con người"
+  },
+  "人质": {
+    "file": "人质.svg",
+    "src": "images/HSK_2.0/level6/人质.svg",
+    "caption": "con tin"
+  },
+  "仁慈": {
+    "file": "仁慈.svg",
+    "src": "images/HSK_2.0/level6/仁慈.svg",
+    "caption": "nhân từ"
+  },
+  "忍耐": {
+    "file": "忍耐.svg",
+    "src": "images/HSK_2.0/level6/忍耐.svg",
+    "caption": "nhẫn nhịn, kiên nhẫn"
+  },
+  "忍受": {
+    "file": "忍受.svg",
+    "src": "images/HSK_2.0/level6/忍受.svg",
+    "caption": "chịu đựng"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",
