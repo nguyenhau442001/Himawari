@@ -15297,6 +15297,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/法人.svg",
     "caption": "pháp nhân"
   },
+  "番": {
+    "file": "番.svg",
+    "src": "images/HSK_2.0/level6/番.svg",
+    "caption": "phen, lượt (lượng từ)"
+  },
+  "繁华": {
+    "file": "繁华.svg",
+    "src": "images/HSK_2.0/level6/繁华.svg",
+    "caption": "phồn hoa, sầm uất"
+  },
+  "繁忙": {
+    "file": "繁忙.svg",
+    "src": "images/HSK_2.0/level6/繁忙.svg",
+    "caption": "bận rộn"
+  },
+  "凡是": {
+    "file": "凡是.svg",
+    "src": "images/HSK_2.0/level6/凡是.svg",
+    "caption": "hễ, bất cứ điều gì"
+  },
+  "繁体字": {
+    "file": "繁体字.svg",
+    "src": "images/HSK_2.0/level6/繁体字.svg",
+    "caption": "chữ Hán phồn thể"
+  },
+  "繁殖": {
+    "file": "繁殖.svg",
+    "src": "images/HSK_2.0/level6/繁殖.svg",
+    "caption": "sinh sản"
+  },
+  "反驳": {
+    "file": "反驳.svg",
+    "src": "images/HSK_2.0/level6/反驳.svg",
+    "caption": "bác bỏ, phản bác"
+  },
+  "反常": {
+    "file": "反常.svg",
+    "src": "images/HSK_2.0/level6/反常.svg",
+    "caption": "bất thường"
+  },
+  "反倒": {
+    "file": "反倒.svg",
+    "src": "images/HSK_2.0/level6/反倒.svg",
+    "caption": "trái lại, ngược lại"
+  },
+  "反动": {
+    "file": "反动.svg",
+    "src": "images/HSK_2.0/level6/反动.svg",
+    "caption": "phản động"
+  },
   "防止": {
     "file": "防止.svg",
     "src": "images/HSK_2.0/level6/防止.svg",

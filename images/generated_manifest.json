@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:11:18.640035",
-  "total_unique_words_with_illustrations": 3689,
-  "total_flat_svg_files": 3689,
+  "generated_at": "2026-10-12T12:13:08.607044",
+  "total_unique_words_with_illustrations": 3699,
+  "total_flat_svg_files": 3699,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1049,
-        "pct": "42.0%"
+        "with_svg": 1059,
+        "pct": "42.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 381,
-        "pct": "21.2%"
+        "with_svg": 385,
+        "pct": "21.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 407,
-        "pct": "7.3%"
+        "with_svg": 412,
+        "pct": "7.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 407,
-        "pct": "7.3%"
+        "with_svg": 412,
+        "pct": "7.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 407,
-        "pct": "7.3%"
+        "with_svg": 412,
+        "pct": "7.4%"
       }
     }
   },
@@ -56173,6 +56173,202 @@
         "images/HSK_3.0/level8/法人.svg",
         "images/HSK_3.0/level9/法人.svg"
       ]
+    },
+    "番": {
+      "hanzi": "番",
+      "pinyin": "fān",
+      "meaning": "phen, lượt (lượng từ)",
+      "example_zh": "他经历了一<u>番</u>磨练。",
+      "example_vi": "Anh ấy trải qua một <u>phen</u> rèn luyện gian khổ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "番.svg",
+      "src": "images/HSK_2.0/level6/番.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/番.svg"
+      ]
+    },
+    "繁华": {
+      "hanzi": "繁华",
+      "pinyin": "fánhuá",
+      "meaning": "phồn hoa, sầm uất",
+      "example_zh": "上海是一个<u>繁华</u>的城市。",
+      "example_vi": "Thượng Hải là một thành phố <u>phồn hoa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "繁华.svg",
+      "src": "images/HSK_2.0/level6/繁华.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/繁华.svg",
+        "images/HSK_3.0/level8/繁华.svg",
+        "images/HSK_3.0/level9/繁华.svg"
+      ]
+    },
+    "繁忙": {
+      "hanzi": "繁忙",
+      "pinyin": "fánmáng",
+      "meaning": "bận rộn",
+      "example_zh": "他工作十分<u>繁忙</u>。",
+      "example_vi": "Anh ấy làm việc rất <u>bận rộn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "繁忙.svg",
+      "src": "images/HSK_2.0/level6/繁忙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/繁忙.svg"
+      ]
+    },
+    "凡是": {
+      "hanzi": "凡是",
+      "pinyin": "fánshì",
+      "meaning": "hễ, bất cứ điều gì",
+      "example_zh": "<u>凡是</u>违反规定的都要受罚。",
+      "example_vi": "<u>Hễ</u> ai vi phạm quy định đều phải bị phạt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "凡是.svg",
+      "src": "images/HSK_2.0/level6/凡是.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/凡是.svg"
+      ]
+    },
+    "繁体字": {
+      "hanzi": "繁体字",
+      "pinyin": "fántǐzì",
+      "meaning": "chữ Hán phồn thể",
+      "example_zh": "他认得很多<u>繁体字</u>。",
+      "example_vi": "Anh ấy nhận biết được nhiều <u>chữ Hán phồn thể</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "繁体字.svg",
+      "src": "images/HSK_2.0/level6/繁体字.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/繁体字.svg",
+        "images/HSK_3.0/level8/繁体字.svg",
+        "images/HSK_3.0/level9/繁体字.svg"
+      ]
+    },
+    "繁殖": {
+      "hanzi": "繁殖",
+      "pinyin": "fánzhí",
+      "meaning": "sinh sản",
+      "example_zh": "这种动物<u>繁殖</u>得很快。",
+      "example_vi": "Loài động vật này <u>sinh sản</u> rất nhanh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "繁殖.svg",
+      "src": "images/HSK_2.0/level6/繁殖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/繁殖.svg"
+      ]
+    },
+    "反驳": {
+      "hanzi": "反驳",
+      "pinyin": "fǎnbó",
+      "meaning": "bác bỏ, phản bác",
+      "example_zh": "他立刻<u>反驳</u>了对方的观点。",
+      "example_vi": "Anh ấy <u>bác bỏ</u> ngay quan điểm của đối phương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反驳.svg",
+      "src": "images/HSK_2.0/level6/反驳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反驳.svg",
+        "images/HSK_3.0/level8/反驳.svg",
+        "images/HSK_3.0/level9/反驳.svg"
+      ]
+    },
+    "反常": {
+      "hanzi": "反常",
+      "pinyin": "fǎncháng",
+      "meaning": "bất thường",
+      "example_zh": "他今天的行为很<u>反常</u>。",
+      "example_vi": "Hành vi của anh ấy hôm nay rất <u>bất thường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反常.svg",
+      "src": "images/HSK_2.0/level6/反常.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反常.svg",
+        "images/HSK_3.0/level8/反常.svg",
+        "images/HSK_3.0/level9/反常.svg"
+      ]
+    },
+    "反倒": {
+      "hanzi": "反倒",
+      "pinyin": "fǎndào",
+      "meaning": "trái lại, ngược lại",
+      "example_zh": "我帮了他，他<u>反倒</u>生气了。",
+      "example_vi": "Tôi giúp anh ấy, ngược lại anh ấy <u>lại</u> nổi giận.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "反倒.svg",
+      "src": "images/HSK_2.0/level6/反倒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/反倒.svg",
+        "images/HSK_3.0/level8/反倒.svg",
+        "images/HSK_3.0/level9/反倒.svg"
+      ]
+    },
+    "反动": {
+      "hanzi": "反动",
+      "pinyin": "fǎndòng",
+      "meaning": "phản động",
+      "example_zh": "这是一种<u>反动</u>思想。",
+      "example_vi": "Đây là một loại tư tưởng <u>phản động</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "反动.svg",
+      "src": "images/HSK_2.0/level6/反动.svg",
+      "alt_srcs": []
     },
     "防止": {
       "hanzi": "防止",

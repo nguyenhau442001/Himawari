@@ -1,0 +1,149 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Glowing Light from Desk Lamp -->
+    <radialGradient id="lampGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Idea Bubble Gradient (Representing "Thought/Idea" Concept) -->
+    <linearGradient id="thoughtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7f1d1d" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Clip Path for Window -->
+    <clipPath id="windowClip">
+      <rect x="150" y="25" width="60" height="70" rx="4"/>
+    </clipPath>
+  </defs>
+
+  <!-- Canvas Container Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- ENVIRONMENT / ROOM INTERIOR -->
+  <!-- Back Wall -->
+  <rect x="0" y="0" width="240" height="155" fill="#1e293b"/>
+  <!-- Floor -->
+  <rect x="0" y="155" width="240" height="85" fill="#0f172a"/>
+  <!-- Floor line/board -->
+  <line x1="0" y1="155" x2="240" y2="155" stroke="#334155" stroke-width="2"/>
+
+  <!-- Wallpaper accent lines -->
+  <line x1="30" y1="0" x2="30" y2="155" stroke="#2563eb" stroke-opacity="0.05" stroke-width="20"/>
+  <line x1="110" y1="0" x2="110" y2="155" stroke="#2563eb" stroke-opacity="0.05" stroke-width="20"/>
+
+  <!-- Window with Night Cityscape -->
+  <rect x="150" y="25" width="60" height="70" rx="4" fill="#090d16" stroke="#475569" stroke-width="3"/>
+  <g clip-path="url(#windowClip)">
+    <!-- Building silhouettes outside -->
+    <rect x="155" y="60" width="12" height="40" fill="#1e293b"/>
+    <rect x="170" y="45" width="15" height="55" fill="#1e293b"/>
+    <rect x="190" y="55" width="15" height="45" fill="#1e293b"/>
+    <!-- Window pane crossbars -->
+    <line x1="180" y1="25" x2="180" y2="95" stroke="#475569" stroke-width="2"/>
+    <line x1="150" y1="60" x2="210" y2="60" stroke="#475569" stroke-width="2"/>
+  </g>
+
+  <!-- Bookshelf Background Prop -->
+  <rect x="15" y="30" width="45" height="80" rx="2" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <line x1="15" y1="55" x2="60" y2="55" stroke="#334155" stroke-width="2"/>
+  <line x1="15" y1="80" x2="60" y2="80" stroke="#334155" stroke-width="2"/>
+  <!-- Books on shelf -->
+  <rect x="20" y="38" width="6" height="17" fill="#ef4444" rx="1"/>
+  <rect x="28" y="35" width="8" height="20" fill="#3b82f6" rx="1"/>
+  <rect x="38" y="40" width="5" height="15" fill="#10b981" rx="1"/>
+  <rect x="20" y="63" width="9" height="17" fill="#f59e0b" rx="1"/>
+  <rect x="31" y="60" width="7" height="20" fill="#8b5cf6" rx="1"/>
+
+  <!-- DESK & PROPS -->
+  <!-- Desk Surface -->
+  <path d="M 60 145 L 210 145 L 225 170 L 45 170 Z" fill="#334155"/>
+  <rect x="40" y="165" width="190" height="8" rx="2" fill="#475569"/>
+
+  <!-- Desk Lamp -->
+  <path d="M 85 145 L 85 110 L 95 100" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 80 100 L 105 100 L 100 85 L 85 85 Z" fill="#f59e0b"/>
+  <!-- Lamp Light Cone / Glow -->
+  <ellipse cx="115" cy="145" rx="35" ry="15" fill="url(#lampGlow)" pointer-events="none"/>
+
+  <!-- Open Document / Manuscript on Desk -->
+  <polygon points="105,150 145,148 148,162 103,164" fill="#f8fafc"/>
+  <line x1="110" y1="153" x2="135" y2="152" stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="110" y1="157" x2="140" y2="156" stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="110" y1="161" x2="130" y2="160" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- MAIN CHARACTER (Seated, pondering/developing a thought) -->
+  <!-- Chair Back -->
+  <rect x="75" y="105" width="22" height="55" rx="6" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+
+  <!-- Character Body / Torso (Wearing a neat dark sweater/shirt) -->
+  <path d="M 65 140 C 65 125, 95 125, 95 140 L 100 175 L 60 175 Z" fill="#3b82f6"/>
+  
+  <!-- Character Head & Face -->
+  <circle cx="80" cy="105" r="16" fill="#fbcfe8"/> <!-- Skin tone -->
+  <!-- Hair (Neat dark hair) -->
+  <path d="M 66 103 C 66 90, 94 90, 94 103 C 94 97, 90 92, 80 92 C 70 92, 66 97, 66 103 Z" fill="#1e293b"/>
+
+  <!-- Expressive Facial Features (Pondering / Skeptical / Serious Expression) -->
+  <!-- Eyebrows (slanted for serious/contemplative look) -->
+  <line x1="72" y1="100" x2="78" y2="102" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="82" y1="102" x2="88" y2="100" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="75" cy="106" r="1.5" fill="#1e293b"/>
+  <circle cx="85" cy="106" r="1.5" fill="#1e293b"/>
+  <!-- Serious closed mouth line -->
+  <path d="M 78 114 Q 80 112 82 114" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Arm resting on chin / thinking pose -->
+  <path d="M 70 135 L 78 118 L 84 125" fill="none" stroke="#3b82f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="78" cy="118" r="4" fill="#fbcfe8"/> <!-- Hand on chin -->
+
+  <!-- VISUAL CONCEPTIZATION OF "THOUGHT" (Representing "反动思想" - Reactionary/Rebellious/Upending Idea) -->
+  <!-- Large Thought Bubble containing dynamic visual metaphors for a disruptive/counter-current idea -->
+  <g transform="translate(115, 20)">
+    <!-- Connecting bubbles -->
+    <circle cx="-10" cy="45" r="5" fill="#334155" opacity="0.8"/>
+    <circle cx="-2" cy="30" r="8" fill="#334155" opacity="0.8"/>
+    
+    <!-- Main Thought Cloud Body -->
+    <path d="M 10 20 
+             C 0 10, -10 25, -15 35 
+             C -25 35, -30 45, -25 55 
+             C -30 65, -15 75, -5 70 
+             C 5 80, 25 75, 30 65 
+             C 45 65, 50 50, 40 40 
+             C 45 25, 30 15, 15 20 Z" 
+          fill="url(#thoughtGrad)" stroke="#ef4444" stroke-width="2" stroke-opacity="0.6"/>
+
+    <!-- INSIDE THE THOUGHT BUBBLE: Visualizing "Reactionary Ideology" (Upending gears, counter-current arrows, systemic critique) -->
+    <!-- Broken/Inverted Cogs representing disruptive system of thought -->
+    <g transform="translate(10, 42) scale(0.8)">
+      <!-- Gear 1 (Upending/Turning backward) -->
+      <path d="M -10,-5 L -6,-6 L -5,-10 L -2,-10 L -1,-6 L 3,-5 L 6,-8 L 8,-6 L 6,-3 L 7,1 L 11,2 L 11,5 L 7,6 L 6,10 L 3,8 L -1,9 L -2,12 L -5,12 L -6,8 L -10,7 L -11,4 L -7,3 L -8,-1 L -12,-2 L -12,-5 Z" 
+            fill="#ef4444" opacity="0.8" />
+      <circle cx="-2" cy="1" r="3" fill="#0f172a"/>
+    </g>
+
+    <!-- Upward/Backward Red Arrow (Symbolizing contrary, radical, or reactionary flow against standard order) -->
+    <path d="M -5 50 L 25 30 M 25 30 L 18 30 M 25 30 L 25 37" 
+          fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Warning/Exclamation mark subtle accent inside thought -->
+    <path d="M 22 55 L 24 55 L 23 45 Z" fill="#fbbf24"/>
+    <circle cx="23" cy="58" r="1" fill="#fbbf24"/>
+  </g>
+
+  <!-- Foreground details for depth -->
+  <!-- Coffee mug on desk -->
+  <rect x="180" y="135" width="14" height="16" rx="2" fill="#cbd5e1"/>
+  <path d="M 194 139 C 198 139, 198 147, 194 147" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+  <!-- Steam from mug -->
+  <path d="M 184 130 Q 186 125, 184 120" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+</svg>
