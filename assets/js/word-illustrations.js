@@ -17707,6 +17707,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/落成.svg",
     "caption": "hoàn thành (công trình xây dựng)"
   },
+  "落实": {
+    "file": "落实.svg",
+    "src": "images/HSK_2.0/level6/落实.svg",
+    "caption": "thực hiện, triển khai cụ thể"
+  },
+  "络绎不绝": {
+    "file": "络绎不绝.svg",
+    "src": "images/HSK_2.0/level6/络绎不绝.svg",
+    "caption": "nối tiếp không ngừng, đông đúc liên tục"
+  },
+  "屡次": {
+    "file": "屡次.svg",
+    "src": "images/HSK_2.0/level6/屡次.svg",
+    "caption": "nhiều lần, lặp đi lặp lại"
+  },
+  "履行": {
+    "file": "履行.svg",
+    "src": "images/HSK_2.0/level6/履行.svg",
+    "caption": "thực hiện, thi hành (nghĩa vụ, hợp đồng)"
+  },
+  "掠夺": {
+    "file": "掠夺.svg",
+    "src": "images/HSK_2.0/level6/掠夺.svg",
+    "caption": "cướp bóc, chiếm đoạt"
+  },
+  "麻痹": {
+    "file": "麻痹.svg",
+    "src": "images/HSK_2.0/level6/麻痹.svg",
+    "caption": "tê liệt, mất cảnh giác"
+  },
+  "麻木": {
+    "file": "麻木.svg",
+    "src": "images/HSK_2.0/level6/麻木.svg",
+    "caption": "tê, vô cảm"
+  },
+  "麻醉": {
+    "file": "麻醉.svg",
+    "src": "images/HSK_2.0/level6/麻醉.svg",
+    "caption": "gây mê, gây tê"
+  },
+  "码头": {
+    "file": "码头.svg",
+    "src": "images/HSK_2.0/level6/码头.svg",
+    "caption": "bến cảng, cầu tàu"
+  },
+  "蚂蚁": {
+    "file": "蚂蚁.svg",
+    "src": "images/HSK_2.0/level6/蚂蚁.svg",
+    "caption": "con kiến"
+  },
   "忙碌": {
     "file": "忙碌.svg",
     "src": "images/HSK_2.0/level6/忙碌.svg",

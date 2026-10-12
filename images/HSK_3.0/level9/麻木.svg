@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Environment -->
+  <rect x="30" y="140" width="180" height="10" rx="2" fill="#334155"/>
+  <rect x="40" y="150" width="10" height="80" fill="#475569"/>
+  <rect x="190" y="150" width="10" height="80" fill="#475569"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 130)">
+    <!-- Legs -->
+    <path d="M-20 0 L-25 70 L-10 70 L-5 10 Z" fill="#fb923c"/>
+    <path d="M10 0 L20 70 L35 70 L25 10 Z" fill="#fb923c"/>
+    
+    <!-- Torso -->
+    <rect x="-30" y="-80" width="60" height="80" rx="10" fill="#38bdf8"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-110" r="30" fill="#fde68a"/>
+    <path d="M-10 -115 A 5 5 0 1 0 -10 -105 A 5 5 0 1 0 -10 -115" fill="#1e293b"/>
+    <path d="M10 -115 A 5 5 0 1 0 10 -105 A 5 5 0 1 0 10 -115" fill="#1e293b"/>
+    <path d="M-10 -95 Q 0 -90 10 -95" stroke="#1e293b" stroke-width="2" fill="none"/>
+    
+    <!-- Expression of numbness (hand rubbing leg) -->
+    <circle cx="-35" cy="40" r="15" fill="#f59e0b" opacity="0.6"/>
+    <path d="M-40 35 L-30 45 M-30 35 L-40 45" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Props -->
+  <rect x="50" y="180" width="140" height="5" rx="2" fill="#fbbf24"/>
+  <circle cx="120" cy="200" r="15" fill="#10b981" opacity="0.3"/>
+  <path d="M110 200 L120 210 L135 190" stroke="#10b981" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
