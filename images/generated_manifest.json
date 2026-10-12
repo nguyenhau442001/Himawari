@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:56:39.948930",
-  "total_unique_words_with_illustrations": 3919,
-  "total_flat_svg_files": 3919,
+  "generated_at": "2026-10-12T12:58:48.875973",
+  "total_unique_words_with_illustrations": 3929,
+  "total_flat_svg_files": 3929,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1279,
-        "pct": "51.2%"
+        "with_svg": 1289,
+        "pct": "51.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 456,
-        "pct": "25.3%"
+        "with_svg": 460,
+        "pct": "25.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 540,
-        "pct": "9.6%"
+        "with_svg": 546,
+        "pct": "9.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 540,
-        "pct": "9.6%"
+        "with_svg": 546,
+        "pct": "9.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 540,
-        "pct": "9.6%"
+        "with_svg": 546,
+        "pct": "9.8%"
       }
     }
   },
@@ -61016,6 +61016,210 @@
       "src": "images/HSK_2.0/level6/机械.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/机械.svg"
+      ]
+    },
+    "基因": {
+      "hanzi": "基因",
+      "pinyin": "jīyīn",
+      "meaning": "gene",
+      "example_zh": "这种特征是<u>基因</u>决定的。",
+      "example_vi": "Đặc điểm này do <u>gene</u> quyết định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "基因.svg",
+      "src": "images/HSK_2.0/level6/基因.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/基因.svg"
+      ]
+    },
+    "基于": {
+      "hanzi": "基于",
+      "pinyin": "jīyú",
+      "meaning": "dựa trên",
+      "example_zh": "<u>基于</u>以上原因，我决定辞职。",
+      "example_vi": "<u>Dựa trên</u> những nguyên nhân trên, tôi quyết định từ chức.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "基于.svg",
+      "src": "images/HSK_2.0/level6/基于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/基于.svg",
+        "images/HSK_3.0/level8/基于.svg",
+        "images/HSK_3.0/level9/基于.svg"
+      ]
+    },
+    "机制": {
+      "hanzi": "机制",
+      "pinyin": "jīzhì",
+      "meaning": "cơ chế",
+      "example_zh": "我们需要建立新的<u>机制</u>。",
+      "example_vi": "Chúng ta cần xây dựng <u>cơ chế</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "机制.svg",
+      "src": "images/HSK_2.0/level6/机制.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/机制.svg"
+      ]
+    },
+    "级别": {
+      "hanzi": "级别",
+      "pinyin": "jíbié",
+      "meaning": "cấp bậc",
+      "example_zh": "他的<u>级别</u>比我高。",
+      "example_vi": "<u>Cấp bậc</u> của anh ấy cao hơn tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "级别.svg",
+      "src": "images/HSK_2.0/level6/级别.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/级别.svg",
+        "images/HSK_3.0/level8/级别.svg",
+        "images/HSK_3.0/level9/级别.svg"
+      ]
+    },
+    "极端": {
+      "hanzi": "极端",
+      "pinyin": "jíduān",
+      "meaning": "cực đoan",
+      "example_zh": "不要采取<u>极端</u>的方式。",
+      "example_vi": "Không nên áp dụng cách <u>cực đoan</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "极端.svg",
+      "src": "images/HSK_2.0/level6/极端.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/极端.svg"
+      ]
+    },
+    "急切": {
+      "hanzi": "急切",
+      "pinyin": "jíqiè",
+      "meaning": "bức thiết, gấp gáp",
+      "example_zh": "他<u>急切</u>地想知道结果。",
+      "example_vi": "Anh ấy <u>nóng lòng</u> muốn biết kết quả.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "急切.svg",
+      "src": "images/HSK_2.0/level6/急切.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/急切.svg"
+      ]
+    },
+    "极限": {
+      "hanzi": "极限",
+      "pinyin": "jíxiàn",
+      "meaning": "giới hạn tối đa",
+      "example_zh": "他已经到了体力的<u>极限</u>。",
+      "example_vi": "Anh ấy đã đến <u>giới hạn</u> thể lực.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "极限.svg",
+      "src": "images/HSK_2.0/level6/极限.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/极限.svg",
+        "images/HSK_3.0/level8/极限.svg",
+        "images/HSK_3.0/level9/极限.svg"
+      ]
+    },
+    "急性": {
+      "hanzi": "急性",
+      "pinyin": "jíxìng",
+      "meaning": "cấp tính",
+      "example_zh": "他患有<u>急性</u>肠胃炎。",
+      "example_vi": "Anh ấy bị viêm dạ dày <u>cấp tính</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "急性.svg",
+      "src": "images/HSK_2.0/level6/急性.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/急性.svg",
+        "images/HSK_3.0/level8/急性.svg",
+        "images/HSK_3.0/level9/急性.svg"
+      ]
+    },
+    "急于": {
+      "hanzi": "急于",
+      "pinyin": "jíyú",
+      "meaning": "vội vàng (muốn làm gì)",
+      "example_zh": "他<u>急于</u>表现自己。",
+      "example_vi": "Anh ấy <u>vội vàng</u> muốn thể hiện mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "急于.svg",
+      "src": "images/HSK_2.0/level6/急于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/急于.svg",
+        "images/HSK_3.0/level8/急于.svg",
+        "images/HSK_3.0/level9/急于.svg"
+      ]
+    },
+    "脊梁": {
+      "hanzi": "脊梁",
+      "pinyin": "jǐliang",
+      "meaning": "cột sống, lưng",
+      "example_zh": "他直起<u>脊梁</u>站好。",
+      "example_vi": "Anh ấy đứng thẳng <u>cột sống</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "脊梁.svg",
+      "src": "images/HSK_2.0/level6/脊梁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/脊梁.svg",
+        "images/HSK_3.0/level8/脊梁.svg",
+        "images/HSK_3.0/level9/脊梁.svg"
       ]
     },
     "记载": {

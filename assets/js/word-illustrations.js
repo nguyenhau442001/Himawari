@@ -16517,6 +16517,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/机械.svg",
     "caption": "máy móc, cơ khí"
   },
+  "基因": {
+    "file": "基因.svg",
+    "src": "images/HSK_2.0/level6/基因.svg",
+    "caption": "gene"
+  },
+  "基于": {
+    "file": "基于.svg",
+    "src": "images/HSK_2.0/level6/基于.svg",
+    "caption": "dựa trên"
+  },
+  "机制": {
+    "file": "机制.svg",
+    "src": "images/HSK_2.0/level6/机制.svg",
+    "caption": "cơ chế"
+  },
+  "级别": {
+    "file": "级别.svg",
+    "src": "images/HSK_2.0/level6/级别.svg",
+    "caption": "cấp bậc"
+  },
+  "极端": {
+    "file": "极端.svg",
+    "src": "images/HSK_2.0/level6/极端.svg",
+    "caption": "cực đoan"
+  },
+  "急切": {
+    "file": "急切.svg",
+    "src": "images/HSK_2.0/level6/急切.svg",
+    "caption": "bức thiết, gấp gáp"
+  },
+  "极限": {
+    "file": "极限.svg",
+    "src": "images/HSK_2.0/level6/极限.svg",
+    "caption": "giới hạn tối đa"
+  },
+  "急性": {
+    "file": "急性.svg",
+    "src": "images/HSK_2.0/level6/急性.svg",
+    "caption": "cấp tính"
+  },
+  "急于": {
+    "file": "急于.svg",
+    "src": "images/HSK_2.0/level6/急于.svg",
+    "caption": "vội vàng (muốn làm gì)"
+  },
+  "脊梁": {
+    "file": "脊梁.svg",
+    "src": "images/HSK_2.0/level6/脊梁.svg",
+    "caption": "cột sống, lưng"
+  },
   "记载": {
     "file": "记载.svg",
     "src": "images/HSK_2.0/level6/记载.svg",
