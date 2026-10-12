@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Ground / Meadow curve -->
+    <path d="M 30 190 Q 120 160 210 190 L 210 210 L 30 210 Z" fill="#252A34"/>
+    
+    <!-- Child character (Representing "人" - person living carefree) -->
+    <!-- Head -->
+    <circle cx="120" cy="95" r="22" fill="#FFC857"/>
+    <!-- Smiling face elements -->
+    <!-- Closed happy eyes (arcs) -->
+    <path d="M 111 92 Q 115 97 119 92" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M 121 92 Q 125 97 129 92" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Big joyful open smile -->
+    <path d="M 113 102 Q 120 110 127 102" fill="#1A1D24"/>
+    
+    <!-- Body / Torso (Relaxed posture, arms spread joyfully) -->
+    <path d="M 100 135 L 105 118 L 135 118 L 140 135 Z" fill="#4E8CFF"/>
+    
+    <!-- Arms raised in carefree joy -->
+    <path d="M 105 122 L 85 105" stroke="#FFC857" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 135 122 L 155 105" stroke="#FFC857" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Legs in playful skip/relaxed pose -->
+    <path d="M 110 135 L 98 165" stroke="#4E8CFF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 130 135 L 142 160" stroke="#4E8CFF" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Floating carefree elements (paper airplane / gentle breeze symbols, NO hearts) -->
+    <!-- Paper airplane 1 -->
+    <g transform="translate(65, 75) rotate(-15)">
+      <polygon points="0,0 15,5 5,10" fill="#E4E6EB" opacity="0.9"/>
+      <polygon points="0,0 5,10 3,6" fill="#A6ACB8" opacity="0.9"/>
+    </g>
+    
+    <!-- Paper airplane 2 -->
+    <g transform="translate(160, 65) rotate(25) scale(0.8)">
+      <polygon points="0,0 15,5 5,10" fill="#E4E6EB" opacity="0.9"/>
+      <polygon points="0,0 5,10 3,6" fill="#A6ACB8" opacity="0.9"/>
+    </g>
+    
+    <!-- Gentle wind / motion arcs indicating peace and lightheartedness -->
+    <path d="M 45 115 Q 52 110 60 115" stroke="#FFC857" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 180 100 Q 187 95 195 100" stroke="#FFC857" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+</svg>

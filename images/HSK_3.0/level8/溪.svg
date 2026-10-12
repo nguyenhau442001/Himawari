@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Mountain silhouette -->
+  <path d="M40 240 L120 80 L200 240 Z" fill="#2D343E"/>
+  <path d="M0 240 L80 120 L160 240 Z" fill="#3A4351"/>
+  
+  <!-- The Stream (溪) -->
+  <path d="M100 240 C 100 180, 160 180, 140 120 C 120 60, 180 40, 180 0" stroke="#4FC3F7" stroke-width="12" stroke-linecap="round" fill="none"/>
+  
+  <!-- Rocks in the stream -->
+  <circle cx="110" cy="190" r="8" fill="#78909C"/>
+  <circle cx="145" cy="150" r="6" fill="#78909C"/>
+  <circle cx="165" cy="80" r="5" fill="#78909C"/>
+  
+  <!-- Water ripples/highlights -->
+  <path d="M105 210 Q 115 205 125 210" stroke="#B3E5FC" stroke-width="2" fill="none"/>
+  <path d="M140 160 Q 150 155 160 160" stroke="#B3E5FC" stroke-width="2" fill="none"/>
+  
+  <!-- Accent highlight -->
+  <circle cx="180" cy="40" r="15" fill="#FFB300" opacity="0.2"/>
+  <circle cx="180" cy="40" r="8" fill="#FFB300"/>
+</svg>

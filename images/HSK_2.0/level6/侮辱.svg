@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Aggressor Character -->
+  <g transform="translate(140, 80)">
+    <circle cx="20" cy="20" r="20" fill="#FF9F1C"/>
+    <path d="M5 45 L35 45 L30 100 L10 100 Z" fill="#FF9F1C"/>
+    <!-- Pointing finger gesture -->
+    <path d="M35 30 L60 20" stroke="#FF9F1C" stroke-width="6" stroke-linecap="round"/>
+    <path d="M60 20 L75 15" stroke="#FF9F1C" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Victim Character -->
+  <g transform="translate(40, 100)">
+    <circle cx="20" cy="20" r="20" fill="#5D6D7E"/>
+    <path d="M5 45 L35 45 L30 100 L10 100 Z" fill="#5D6D7E"/>
+    <!-- Head bowed down -->
+    <circle cx="20" cy="20" r="20" fill="#5D6D7E"/>
+    <path d="M10 15 L15 20 M25 15 L30 20" stroke="#1A1D24" stroke-width="2"/>
+  </g>
+
+  <!-- Motion/Impact lines indicating the verbal attack -->
+  <path d="M70 30 Q100 20 130 30" stroke="#FF4757" stroke-width="3" stroke-dasharray="6 4" fill="none"/>
+  <path d="M75 40 Q105 30 135 40" stroke="#FF4757" stroke-width="3" stroke-dasharray="6 4" fill="none"/>
+  
+  <!-- Visual representation of the 'insult' effect -->
+  <path d="M60 80 L70 70 M70 80 L60 70" stroke="#FF4757" stroke-width="4" stroke-linecap="round"/>
+</svg>

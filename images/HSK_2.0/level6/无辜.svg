@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Accusatory Silhouettes (The "Guilt" or "Accusation" context) -->
+  <path d="M10,60 L50,75 L45,85 L10,75 Z" fill="#2C313C" />
+  <path d="M20,160 L60,145 L65,155 L20,170 Z" fill="#2C313C" />
+  <path d="M230,50 L190,70 L195,80 L230,60 Z" fill="#2C313C" />
+  <path d="M220,180 L180,160 L185,150 L220,170 Z" fill="#2C313C" />
+  
+  <!-- Pointing Hand Silhouettes -->
+  <g fill="#2C313C">
+    <!-- Top Left Hand -->
+    <path d="M40,50 Q55,65 75,70 L72,78 Q50,70 35,55 Z" />
+    <!-- Bottom Left Hand -->
+    <path d="M40,190 Q55,175 75,170 L72,162 Q50,170 35,185 Z" />
+    <!-- Top Right Hand -->
+    <path d="M200,50 Q185,65 165,70 L168,78 Q190,70 205,55 Z" />
+    <!-- Bottom Right Hand -->
+    <path d="M200,190 Q185,175 165,170 L168,162 Q190,170 205,185 Z" />
+  </g>
+
+  <!-- Central Glow of Innocence -->
+  <circle cx="120" cy="120" r="65" fill="#FFB74D" fill-opacity="0.1"/>
+  <circle cx="120" cy="120" r="45" fill="#FFB74D" fill-opacity="0.05"/>
+
+  <!-- The Innocent Figure -->
+  <g transform="translate(120, 125)">
+    <!-- Body -->
+    <path d="M-18,35 L18,35 L14,-5 Q14,-15 0,-15 Q-14,-15 -14,-5 Z" fill="#FFFFFF"/>
+    <!-- Head -->
+    <circle cx="0" cy="-28" r="11" fill="#FFFFFF"/>
+    <!-- Arms in an open, honest gesture (palms visible/nothing to hide) -->
+    <path d="M-14,-2 L-32,15 Q-35,20 -30,23 L-12,8 Z" fill="#FFFFFF"/>
+    <path d="M14,-2 L32,15 Q35,20 30,23 L12,8 Z" fill="#FFFFFF"/>
+    
+    <!-- Gold Accent Rim Light/Aura -->
+    <path d="M-14,-5 Q-14,-15 0,-15 Q14,-15 14,-5" fill="none" stroke="#FFB74D" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="0" cy="-28" r="13" fill="none" stroke="#FFB74D" stroke-width="2" stroke-dasharray="4 8" opacity="0.6"/>
+  </g>
+
+  <!-- Ground/Stability -->
+  <ellipse cx="120" cy="165" rx="30" ry="4" fill="#FFB74D" fill-opacity="0.3"/>
+</svg>

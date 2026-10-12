@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Outer Star Field for Depth -->
+  <circle cx="40" cy="60" r="1" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="190" cy="45" r="1.5" fill="#FFB347" opacity="0.5"/>
+  <circle cx="210" cy="180" r="1" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="50" cy="200" r="1.2" fill="#4A90E2" opacity="0.6"/>
+  <circle cx="100" cy="30" r="1" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="220" cy="100" r="1" fill="#FFB347" opacity="0.4"/>
+  
+  <!-- Spiral Galaxy - Representing the Infinite Universe -->
+  <g transform="translate(120, 120) rotate(-15)">
+    <!-- Spiral Arm 1 -->
+    <path d="M 0,0 C 20,-10 40,0 50,20 C 65,50 40,85 0,95 C -50,105 -100,70 -110,20 C -120,-30 -80,-80 -30,-95" 
+          fill="none" stroke="#4A90E2" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+    <path d="M 0,0 C 15,-8 30,0 38,15 C 50,40 30,65 0,75 C -40,85 -80,55 -85,15" 
+          fill="none" stroke="#4A90E2" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+    
+    <!-- Spiral Arm 2 (Opposite) -->
+    <path d="M 0,0 C -20,10 -40,0 -50,-20 C -65,-50 -40,-85 0,-95 C 50,-105 100,-70 110,-20 C 120,30 80,80 30,95" 
+          fill="none" stroke="#FFB347" stroke-width="6" stroke-linecap="round" opacity="0.2"/>
+    <path d="M 0,0 C -15,8 -30,0 -38,-15 C -50,-40 -30,-65 0,-75 C 40,-85 80,-55 85,-15" 
+          fill="none" stroke="#FFB347" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Concentric Star Clusters along arms -->
+    <circle cx="35" cy="25" r="2.5" fill="#FFB347"/>
+    <circle cx="-35" cy="-25" r="2.5" fill="#4A90E2"/>
+    <circle cx="60" cy="-10" r="1.5" fill="#FFFFFF"/>
+    <circle cx="-60" cy="10" r="1.5" fill="#FFFFFF"/>
+    <circle cx="10" cy="55" r="2" fill="#4A90E2"/>
+    <circle cx="-10" cy="-55" r="2" fill="#FFB347"/>
+    
+    <!-- Core Glow -->
+    <circle cx="0" cy="0" r="22" fill="#FFB347" opacity="0.15"/>
+    <circle cx="0" cy="0" r="14" fill="#FFB347" opacity="0.3"/>
+    <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Foreground Floating Celestial Elements -->
+  <circle cx="170" cy="160" r="4" fill="#4A90E2" opacity="0.8"/>
+  <path d="M 166 160 Q 170 164 174 160 Q 170 156 166 160" fill="#FFFFFF" opacity="0.4"/>
+  
+  <circle cx="65" cy="85" r="3" fill="#FFB347" opacity="0.7"/>
+</svg>

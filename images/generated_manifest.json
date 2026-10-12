@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T00:22:41.037795",
-  "total_unique_words_with_illustrations": 4808,
-  "total_flat_svg_files": 4808,
+  "generated_at": "2026-10-13T00:33:01.460409",
+  "total_unique_words_with_illustrations": 4837,
+  "total_flat_svg_files": 4837,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2168,
-        "pct": "86.7%"
+        "with_svg": 2197,
+        "pct": "87.9%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 721,
-        "pct": "40.1%"
+        "with_svg": 727,
+        "pct": "40.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1123,
-        "pct": "20.1%"
+        "with_svg": 1144,
+        "pct": "20.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1123,
-        "pct": "20.1%"
+        "with_svg": 1144,
+        "pct": "20.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1123,
-        "pct": "20.1%"
+        "with_svg": 1144,
+        "pct": "20.4%"
       }
     }
   },
@@ -80082,6 +80082,210 @@
         "images/HSK_3.0/level9/无动于衷.svg"
       ]
     },
+    "无非": {
+      "hanzi": "无非",
+      "pinyin": "wúfēi",
+      "meaning": "chẳng qua, chỉ là",
+      "example_zh": "他这样做<u>无非</u>是想得到关注。",
+      "example_vi": "Anh ấy làm vậy <u>chẳng qua</u> là muốn được chú ý.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无非.svg",
+      "src": "images/HSK_2.0/level6/无非.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无非.svg",
+        "images/HSK_3.0/level8/无非.svg",
+        "images/HSK_3.0/level9/无非.svg"
+      ]
+    },
+    "无精打采": {
+      "hanzi": "无精打采",
+      "pinyin": "wújīngdǎcǎi",
+      "meaning": "ủ rũ, mất hết tinh thần",
+      "example_zh": "他今天看起来<u>无精打采</u>的。",
+      "example_vi": "Hôm nay anh ấy trông <u>ủ rũ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无精打采.svg",
+      "src": "images/HSK_2.0/level6/无精打采.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无精打采.svg",
+        "images/HSK_3.0/level8/无精打采.svg",
+        "images/HSK_3.0/level9/无精打采.svg"
+      ]
+    },
+    "无赖": {
+      "hanzi": "无赖",
+      "pinyin": "wúlài",
+      "meaning": "lưu manh, vô lại",
+      "example_zh": "他是个不讲道理的<u>无赖</u>。",
+      "example_vi": "Anh ta là một tay <u>lưu manh</u> không biết lý lẽ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无赖.svg",
+      "src": "images/HSK_2.0/level6/无赖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无赖.svg",
+        "images/HSK_3.0/level8/无赖.svg",
+        "images/HSK_3.0/level9/无赖.svg"
+      ]
+    },
+    "无理取闹": {
+      "hanzi": "无理取闹",
+      "pinyin": "wúlǐqǔnào",
+      "meaning": "gây rối vô lý",
+      "example_zh": "他经常<u>无理取闹</u>，让人头疼。",
+      "example_vi": "Anh ấy thường <u>gây rối vô lý</u>, khiến người khác đau đầu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "无理取闹.svg",
+      "src": "images/HSK_2.0/level6/无理取闹.svg",
+      "alt_srcs": []
+    },
+    "无能为力": {
+      "hanzi": "无能为力",
+      "pinyin": "wúnéngwéilì",
+      "meaning": "bất lực, không thể làm gì",
+      "example_zh": "面对这种情况，我也<u>无能为力</u>。",
+      "example_vi": "Đối diện tình huống này, tôi cũng <u>bất lực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无能为力.svg",
+      "src": "images/HSK_2.0/level6/无能为力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无能为力.svg",
+        "images/HSK_3.0/level8/无能为力.svg",
+        "images/HSK_3.0/level9/无能为力.svg"
+      ]
+    },
+    "无辜": {
+      "hanzi": "无辜",
+      "pinyin": "wúgū",
+      "meaning": "vô tội",
+      "example_zh": "他是完全<u>无辜</u>的。",
+      "example_vi": "Anh ấy hoàn toàn <u>vô tội</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无辜.svg",
+      "src": "images/HSK_2.0/level6/无辜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无辜.svg",
+        "images/HSK_3.0/level8/无辜.svg",
+        "images/HSK_3.0/level9/无辜.svg"
+      ]
+    },
+    "无穷无尽": {
+      "hanzi": "无穷无尽",
+      "pinyin": "wúqióngwújìn",
+      "meaning": "vô tận, không có giới hạn",
+      "example_zh": "宇宙的奥秘<u>无穷无尽</u>。",
+      "example_vi": "Những bí ẩn của vũ trụ là <u>vô tận</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "无穷无尽.svg",
+      "src": "images/HSK_2.0/level6/无穷无尽.svg",
+      "alt_srcs": []
+    },
+    "无微不至": {
+      "hanzi": "无微不至",
+      "pinyin": "wúwēibúzhì",
+      "meaning": "chu đáo tận tình từng chút",
+      "example_zh": "她对父母照顾得<u>无微不至</u>。",
+      "example_vi": "Cô ấy chăm sóc cha mẹ <u>chu đáo tận tình</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无微不至.svg",
+      "src": "images/HSK_2.0/level6/无微不至.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无微不至.svg",
+        "images/HSK_3.0/level8/无微不至.svg",
+        "images/HSK_3.0/level9/无微不至.svg"
+      ]
+    },
+    "无忧无虑": {
+      "hanzi": "无忧无虑",
+      "pinyin": "wúyōuwúlǜ",
+      "meaning": "vô lo vô nghĩ",
+      "example_zh": "孩子们过着<u>无忧无虑</u>的生活。",
+      "example_vi": "Những đứa trẻ sống cuộc sống <u>vô lo vô nghĩ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无忧无虑.svg",
+      "src": "images/HSK_2.0/level6/无忧无虑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无忧无虑.svg",
+        "images/HSK_3.0/level8/无忧无虑.svg",
+        "images/HSK_3.0/level9/无忧无虑.svg"
+      ]
+    },
+    "无知": {
+      "hanzi": "无知",
+      "pinyin": "wúzhī",
+      "meaning": "ngu dốt, không hiểu biết",
+      "example_zh": "不要因为<u>无知</u>而做出错误的判断。",
+      "example_vi": "Đừng vì <u>không hiểu biết</u> mà đưa ra phán đoán sai lầm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无知.svg",
+      "src": "images/HSK_2.0/level6/无知.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无知.svg",
+        "images/HSK_3.0/level8/无知.svg",
+        "images/HSK_3.0/level9/无知.svg"
+      ]
+    },
     "舞蹈": {
       "hanzi": "舞蹈",
       "pinyin": "wǔdǎo",
@@ -80098,6 +80302,130 @@
       "src": "images/HSK_2.0/level6/舞蹈.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/舞蹈.svg"
+      ]
+    },
+    "武器": {
+      "hanzi": "武器",
+      "pinyin": "wǔqì",
+      "meaning": "vũ khí",
+      "example_zh": "知识是最强大的<u>武器</u>。",
+      "example_vi": "Tri thức là <u>vũ khí</u> mạnh nhất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "武器.svg",
+      "src": "images/HSK_2.0/level6/武器.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/武器.svg"
+      ]
+    },
+    "武侠": {
+      "hanzi": "武侠",
+      "pinyin": "wǔxiá",
+      "meaning": "kiếm hiệp",
+      "example_zh": "他喜欢看<u>武侠</u>小说。",
+      "example_vi": "Anh ấy thích đọc tiểu thuyết <u>kiếm hiệp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "武侠.svg",
+      "src": "images/HSK_2.0/level6/武侠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/武侠.svg",
+        "images/HSK_3.0/level8/武侠.svg",
+        "images/HSK_3.0/level9/武侠.svg"
+      ]
+    },
+    "武装": {
+      "hanzi": "武装",
+      "pinyin": "wǔzhuāng",
+      "meaning": "vũ trang",
+      "example_zh": "这些是<u>武装</u>部队。",
+      "example_vi": "Đây là lực lượng <u>vũ trang</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "武装.svg",
+      "src": "images/HSK_2.0/level6/武装.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/武装.svg",
+        "images/HSK_3.0/level8/武装.svg",
+        "images/HSK_3.0/level9/武装.svg"
+      ]
+    },
+    "侮辱": {
+      "hanzi": "侮辱",
+      "pinyin": "wǔrǔ",
+      "meaning": "sỉ nhục",
+      "example_zh": "他不能容忍被人<u>侮辱</u>。",
+      "example_vi": "Anh ấy không thể chịu đựng bị <u>sỉ nhục</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "侮辱.svg",
+      "src": "images/HSK_2.0/level6/侮辱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/侮辱.svg",
+        "images/HSK_3.0/level8/侮辱.svg",
+        "images/HSK_3.0/level9/侮辱.svg"
+      ]
+    },
+    "误差": {
+      "hanzi": "误差",
+      "pinyin": "wùchā",
+      "meaning": "sai số",
+      "example_zh": "这个测量结果存在<u>误差</u>。",
+      "example_vi": "Kết quả đo này có <u>sai số</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "误差.svg",
+      "src": "images/HSK_2.0/level6/误差.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/误差.svg",
+        "images/HSK_3.0/level8/误差.svg",
+        "images/HSK_3.0/level9/误差.svg"
+      ]
+    },
+    "误解": {
+      "hanzi": "误解",
+      "pinyin": "wùjiě",
+      "meaning": "hiểu nhầm",
+      "example_zh": "请别<u>误解</u>我的意思。",
+      "example_vi": "Xin đừng <u>hiểu nhầm</u> ý của tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "误解.svg",
+      "src": "images/HSK_2.0/level6/误解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/误解.svg"
       ]
     },
     "物业": {
@@ -80118,6 +80446,258 @@
         "images/HSK_3.0/level5/物业.svg"
       ]
     },
+    "物美价廉": {
+      "hanzi": "物美价廉",
+      "pinyin": "wùměijiàlián",
+      "meaning": "hàng tốt giá rẻ",
+      "example_zh": "这家店的商品<u>物美价廉</u>。",
+      "example_vi": "Hàng hóa của cửa hàng này <u>tốt và rẻ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "物美价廉.svg",
+      "src": "images/HSK_2.0/level6/物美价廉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/物美价廉.svg",
+        "images/HSK_3.0/level8/物美价廉.svg",
+        "images/HSK_3.0/level9/物美价廉.svg"
+      ]
+    },
+    "物资": {
+      "hanzi": "物资",
+      "pinyin": "wùzī",
+      "meaning": "vật tư",
+      "example_zh": "救灾<u>物资</u>已经送到了。",
+      "example_vi": "<u>Vật tư</u> cứu trợ đã được gửi đến.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "物资.svg",
+      "src": "images/HSK_2.0/level6/物资.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/物资.svg",
+        "images/HSK_3.0/level8/物资.svg",
+        "images/HSK_3.0/level9/物资.svg"
+      ]
+    },
+    "溪": {
+      "hanzi": "溪",
+      "pinyin": "xī",
+      "meaning": "suối, khe",
+      "example_zh": "山间有一条小<u>溪</u>。",
+      "example_vi": "Giữa núi có một con <u>suối</u> nhỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "溪.svg",
+      "src": "images/HSK_2.0/level6/溪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/溪.svg",
+        "images/HSK_3.0/level8/溪.svg",
+        "images/HSK_3.0/level9/溪.svg"
+      ]
+    },
+    "膝盖": {
+      "hanzi": "膝盖",
+      "pinyin": "xīgài",
+      "meaning": "đầu gối",
+      "example_zh": "他不小心摔伤了<u>膝盖</u>。",
+      "example_vi": "Anh ấy lỡ ngã làm đau <u>đầu gối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "膝盖.svg",
+      "src": "images/HSK_2.0/level6/膝盖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/膝盖.svg",
+        "images/HSK_3.0/level8/膝盖.svg",
+        "images/HSK_3.0/level9/膝盖.svg"
+      ]
+    },
+    "熄灭": {
+      "hanzi": "熄灭",
+      "pinyin": "xīmiè",
+      "meaning": "tắt (lửa, đèn)",
+      "example_zh": "火灾已经被<u>熄灭</u>了。",
+      "example_vi": "Đám cháy đã được <u>dập tắt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "熄灭.svg",
+      "src": "images/HSK_2.0/level6/熄灭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/熄灭.svg",
+        "images/HSK_3.0/level8/熄灭.svg",
+        "images/HSK_3.0/level9/熄灭.svg"
+      ]
+    },
+    "昔日": {
+      "hanzi": "昔日",
+      "pinyin": "xīrì",
+      "meaning": "ngày xưa",
+      "example_zh": "这里已经不是<u>昔日</u>的样子了。",
+      "example_vi": "Nơi đây không còn giống <u>ngày xưa</u> nữa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "昔日.svg",
+      "src": "images/HSK_2.0/level6/昔日.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/昔日.svg",
+        "images/HSK_3.0/level8/昔日.svg",
+        "images/HSK_3.0/level9/昔日.svg"
+      ]
+    },
+    "牺牲": {
+      "hanzi": "牺牲",
+      "pinyin": "xīshēng",
+      "meaning": "hy sinh",
+      "example_zh": "他为了家人<u>牺牲</u>了很多。",
+      "example_vi": "Anh ấy đã <u>hy sinh</u> nhiều thứ vì gia đình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "牺牲.svg",
+      "src": "images/HSK_2.0/level6/牺牲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/牺牲.svg",
+        "images/HSK_3.0/level8/牺牲.svg",
+        "images/HSK_3.0/level9/牺牲.svg"
+      ]
+    },
+    "媳妇": {
+      "hanzi": "媳妇",
+      "pinyin": "xífu",
+      "meaning": "con dâu",
+      "example_zh": "她是我们家的<u>媳妇</u>。",
+      "example_vi": "Cô ấy là <u>con dâu</u> nhà chúng tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "媳妇.svg",
+      "src": "images/HSK_2.0/level6/媳妇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/媳妇.svg"
+      ]
+    },
+    "喜闻乐见": {
+      "hanzi": "喜闻乐见",
+      "pinyin": "xǐwénlèjiàn",
+      "meaning": "được yêu thích, ưa nghe ưa thấy",
+      "example_zh": "这是大家都<u>喜闻乐见</u>的节目。",
+      "example_vi": "Đây là chương trình mà mọi người đều <u>ưa thích</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "喜闻乐见.svg",
+      "src": "images/HSK_2.0/level6/喜闻乐见.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/喜闻乐见.svg",
+        "images/HSK_3.0/level8/喜闻乐见.svg",
+        "images/HSK_3.0/level9/喜闻乐见.svg"
+      ]
+    },
+    "细胞": {
+      "hanzi": "细胞",
+      "pinyin": "xìbāo",
+      "meaning": "tế bào",
+      "example_zh": "人体由许多<u>细胞</u>组成。",
+      "example_vi": "Cơ thể con người được tạo thành từ nhiều <u>tế bào</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "细胞.svg",
+      "src": "images/HSK_2.0/level6/细胞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/细胞.svg"
+      ]
+    },
+    "细致": {
+      "hanzi": "细致",
+      "pinyin": "xìzhì",
+      "meaning": "tỉ mỉ, kỹ lưỡng",
+      "example_zh": "他的工作做得非常<u>细致</u>。",
+      "example_vi": "Công việc của anh ấy được làm rất <u>tỉ mỉ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "细致.svg",
+      "src": "images/HSK_2.0/level6/细致.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/细致.svg"
+      ]
+    },
+    "峡谷": {
+      "hanzi": "峡谷",
+      "pinyin": "xiágǔ",
+      "meaning": "hẻm núi",
+      "example_zh": "这个<u>峡谷</u>风景壮观。",
+      "example_vi": "Cảnh sắc của <u>hẻm núi</u> này rất hùng vĩ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "峡谷.svg",
+      "src": "images/HSK_2.0/level6/峡谷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/峡谷.svg",
+        "images/HSK_3.0/level8/峡谷.svg",
+        "images/HSK_3.0/level9/峡谷.svg"
+      ]
+    },
     "先进": {
       "hanzi": "先进",
       "pinyin": "xiānjìn",
@@ -80134,6 +80714,24 @@
       "src": "images/HSK_2.0/level6/先进.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/先进.svg"
+      ]
+    },
+    "鲜明": {
+      "hanzi": "鲜明",
+      "pinyin": "xiānmíng",
+      "meaning": "rõ rệt, rõ ràng",
+      "example_zh": "这两个人的性格<u>鲜明</u>不同。",
+      "example_vi": "Tính cách của hai người này <u>rõ rệt</u> khác nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "鲜明.svg",
+      "src": "images/HSK_2.0/level6/鲜明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/鲜明.svg"
       ]
     },
     "现场": {

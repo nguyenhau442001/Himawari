@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Flowing Cape/Robes -->
+  <path d="M120 90 L170 190 H70 L120 90" fill="#2C313C"/>
+  <path d="M120 90 C140 90 175 130 185 185 L160 190 L120 110 Z" fill="#3D4451"/>
+  <path d="M120 90 C100 90 65 130 55 185 L80 190 L120 110 Z" fill="#3D4451"/>
+  
+  <!-- The Sword (Jian) - Iconic Martial Element -->
+  <g transform="rotate(-15 120 120)">
+    <!-- Blade -->
+    <path d="M117 60 L123 60 L124 160 L116 160 Z" fill="#E0E0E0"/>
+    <path d="M120 55 L123 60 L117 60 Z" fill="#E0E0E0"/>
+    <!-- Guard -->
+    <rect x="110" y="160" width="20" height="5" rx="2" fill="#F39C12"/>
+    <!-- Hilt -->
+    <rect x="117" y="165" width="6" height="20" rx="1" fill="#A04000"/>
+    <!-- Pommel/Tassel -->
+    <circle cx="120" cy="187" r="3" fill="#F39C12"/>
+    <path d="M120 190 Q125 200 120 210" stroke="#F39C12" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- The Conical Hat (Douli) - Iconic Hero Element -->
+  <path d="M55 115 L120 80 L185 115 Z" fill="#F39C12"/>
+  <path d="M55 115 L120 110 L185 115 L120 120 Z" fill="#D35400" opacity="0.8"/>
+  
+  <!-- Character Head (Shadowed under hat) -->
+  <circle cx="120" cy="115" r="12" fill="#1A1D24"/>
+  
+  <!-- Subtle Ground/Shadow -->
+  <ellipse cx="120" cy="200" rx="60" ry="8" fill="#000000" opacity="0.3"/>
+</svg>

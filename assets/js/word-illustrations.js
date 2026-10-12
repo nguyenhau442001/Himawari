@@ -21207,20 +21207,165 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/无动于衷.svg",
     "caption": "dửng dưng, vô cảm hoàn toàn"
   },
+  "无非": {
+    "file": "无非.svg",
+    "src": "images/HSK_2.0/level6/无非.svg",
+    "caption": "chẳng qua, chỉ là"
+  },
+  "无精打采": {
+    "file": "无精打采.svg",
+    "src": "images/HSK_2.0/level6/无精打采.svg",
+    "caption": "ủ rũ, mất hết tinh thần"
+  },
+  "无赖": {
+    "file": "无赖.svg",
+    "src": "images/HSK_2.0/level6/无赖.svg",
+    "caption": "lưu manh, vô lại"
+  },
+  "无理取闹": {
+    "file": "无理取闹.svg",
+    "src": "images/HSK_2.0/level6/无理取闹.svg",
+    "caption": "gây rối vô lý"
+  },
+  "无能为力": {
+    "file": "无能为力.svg",
+    "src": "images/HSK_2.0/level6/无能为力.svg",
+    "caption": "bất lực, không thể làm gì"
+  },
+  "无辜": {
+    "file": "无辜.svg",
+    "src": "images/HSK_2.0/level6/无辜.svg",
+    "caption": "vô tội"
+  },
+  "无穷无尽": {
+    "file": "无穷无尽.svg",
+    "src": "images/HSK_2.0/level6/无穷无尽.svg",
+    "caption": "vô tận, không có giới hạn"
+  },
+  "无微不至": {
+    "file": "无微不至.svg",
+    "src": "images/HSK_2.0/level6/无微不至.svg",
+    "caption": "chu đáo tận tình từng chút"
+  },
+  "无忧无虑": {
+    "file": "无忧无虑.svg",
+    "src": "images/HSK_2.0/level6/无忧无虑.svg",
+    "caption": "vô lo vô nghĩ"
+  },
+  "无知": {
+    "file": "无知.svg",
+    "src": "images/HSK_2.0/level6/无知.svg",
+    "caption": "ngu dốt, không hiểu biết"
+  },
   "舞蹈": {
     "file": "舞蹈.svg",
     "src": "images/HSK_2.0/level6/舞蹈.svg",
     "caption": "múa, vũ điệu"
+  },
+  "武器": {
+    "file": "武器.svg",
+    "src": "images/HSK_2.0/level6/武器.svg",
+    "caption": "vũ khí"
+  },
+  "武侠": {
+    "file": "武侠.svg",
+    "src": "images/HSK_2.0/level6/武侠.svg",
+    "caption": "kiếm hiệp"
+  },
+  "武装": {
+    "file": "武装.svg",
+    "src": "images/HSK_2.0/level6/武装.svg",
+    "caption": "vũ trang"
+  },
+  "侮辱": {
+    "file": "侮辱.svg",
+    "src": "images/HSK_2.0/level6/侮辱.svg",
+    "caption": "sỉ nhục"
+  },
+  "误差": {
+    "file": "误差.svg",
+    "src": "images/HSK_2.0/level6/误差.svg",
+    "caption": "sai số"
+  },
+  "误解": {
+    "file": "误解.svg",
+    "src": "images/HSK_2.0/level6/误解.svg",
+    "caption": "hiểu nhầm"
   },
   "物业": {
     "file": "物业.svg",
     "src": "images/HSK_2.0/level6/物业.svg",
     "caption": "bất động sản, quản lý nhà"
   },
+  "物美价廉": {
+    "file": "物美价廉.svg",
+    "src": "images/HSK_2.0/level6/物美价廉.svg",
+    "caption": "hàng tốt giá rẻ"
+  },
+  "物资": {
+    "file": "物资.svg",
+    "src": "images/HSK_2.0/level6/物资.svg",
+    "caption": "vật tư"
+  },
+  "溪": {
+    "file": "溪.svg",
+    "src": "images/HSK_2.0/level6/溪.svg",
+    "caption": "suối, khe"
+  },
+  "膝盖": {
+    "file": "膝盖.svg",
+    "src": "images/HSK_2.0/level6/膝盖.svg",
+    "caption": "đầu gối"
+  },
+  "熄灭": {
+    "file": "熄灭.svg",
+    "src": "images/HSK_2.0/level6/熄灭.svg",
+    "caption": "tắt (lửa, đèn)"
+  },
+  "昔日": {
+    "file": "昔日.svg",
+    "src": "images/HSK_2.0/level6/昔日.svg",
+    "caption": "ngày xưa"
+  },
+  "牺牲": {
+    "file": "牺牲.svg",
+    "src": "images/HSK_2.0/level6/牺牲.svg",
+    "caption": "hy sinh"
+  },
+  "媳妇": {
+    "file": "媳妇.svg",
+    "src": "images/HSK_2.0/level6/媳妇.svg",
+    "caption": "con dâu"
+  },
+  "喜闻乐见": {
+    "file": "喜闻乐见.svg",
+    "src": "images/HSK_2.0/level6/喜闻乐见.svg",
+    "caption": "được yêu thích, ưa nghe ưa thấy"
+  },
+  "细胞": {
+    "file": "细胞.svg",
+    "src": "images/HSK_2.0/level6/细胞.svg",
+    "caption": "tế bào"
+  },
+  "细致": {
+    "file": "细致.svg",
+    "src": "images/HSK_2.0/level6/细致.svg",
+    "caption": "tỉ mỉ, kỹ lưỡng"
+  },
+  "峡谷": {
+    "file": "峡谷.svg",
+    "src": "images/HSK_2.0/level6/峡谷.svg",
+    "caption": "hẻm núi"
+  },
   "先进": {
     "file": "先进.svg",
     "src": "images/HSK_2.0/level6/先进.svg",
     "caption": "tiên tiến"
+  },
+  "鲜明": {
+    "file": "鲜明.svg",
+    "src": "images/HSK_2.0/level6/鲜明.svg",
+    "caption": "rõ rệt, rõ ràng"
   },
   "现场": {
     "file": "现场.svg",

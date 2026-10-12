@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 40)">
+    <!-- Character Body -->
+    <path d="M60 160 C60 130, 40 110, 40 90 C40 60, 60 40, 80 40 C100 40, 120 60, 120 90 C120 110, 100 130, 100 160 Z" fill="#E0E0E0"/>
+    <!-- Head -->
+    <circle cx="80" cy="40" r="25" fill="#E0E0E0"/>
+    <!-- Smirking Mouth -->
+    <path d="M70 50 Q80 55, 90 50" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <!-- Shifty Eyes -->
+    <circle cx="72" cy="35" r="3" fill="#1A1D24"/>
+    <circle cx="88" cy="35" r="3" fill="#1A1D24"/>
+    <!-- Slouching Posture/Arms folded -->
+    <path d="M50 80 L70 90 L50 100" stroke="#A0A0A0" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M110 80 L90 90 L110 100" stroke="#A0A0A0" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Disheveled Hat -->
+    <path d="M55 25 L105 25 L100 15 L60 15 Z" fill="#FFB347"/>
+  </g>
+  <!-- Disrespectful Gesture: Crossed arms and tilted head -->
+  <path d="M40 180 L200 180" stroke="#FFB347" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

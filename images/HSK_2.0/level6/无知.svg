@@ -1,0 +1,56 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements representing confusion/lack of knowledge -->
+  <g opacity="0.15" stroke="#8892B0" stroke-width="1.5" stroke-dasharray="3 3" fill="none">
+    <circle cx="120" cy="120" r="85"/>
+    <circle cx="120" cy="120" r="60"/>
+  </g>
+
+  <!-- Central Visual Metaphor: Adjective contrast (Scale exaggeration & internal void vs awareness) -->
+  <!-- Left/Lower side: The "Unaware/Ignorant" state represented by a stylized silhouette with a blank/void interior and question marks -->
+  <g transform="translate(0, 0)">
+    <!-- Person figure looking at a giant erroneous/misleading path or obstacle -->
+    <!-- Misleading large judgment path (orange/gold accent for the warning context) -->
+    <path d="M 60 170 L 140 170 L 190 110" fill="none" stroke="#FF5722" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    
+    <!-- X mark representing the wrong judgment -->
+    <g transform="translate(190, 110)" stroke="#FF5722" stroke-width="4" stroke-linecap="round">
+      <line x1="-8" y1="-8" x2="8" y2="8"/>
+      <line x1="8" y1="-8" x2="-8" y2="8"/>
+    </g>
+
+    <!-- Small person silhouette (scale exaggeration showing limitation/lack of insight) -->
+    <g transform="translate(85, 135)">
+      <!-- Head -->
+      <circle cx="0" cy="5" r="10" fill="#8892B0"/>
+      <!-- Body -->
+      <path d="M -8 35 C -8 20, 8 20, 8 35 L 12 55 L -12 55 Z" fill="#8892B0"/>
+      <!-- Blank/Void indicator: subtle gap or neutral face -->
+      <circle cx="3" cy="3" r="1.5" fill="#1A1D24"/>
+    </g>
+
+    <!-- Floating question marks symbolizing lack of knowledge (无知) -->
+    <g fill="#F39C12" opacity="0.9">
+      <!-- Large Q-mark -->
+      <path d="M 125 75 C 125 64, 137 60, 142 68 C 146 74, 139 79, 139 85 L 139 91" fill="none" stroke="#F39C12" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="139" cy="100" r="2.5"/>
+
+      <!-- Small Q-mark -->
+      <path d="M 105 92 C 105 87, 111 85, 114 89 C 117 92, 113 95, 113 98 L 113 101" fill="none" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="113" cy="106" r="2"/>
+    </g>
+  </g>
+
+  <!-- Contrast element: Insight / Correct perception glowing faintly above to highlight the absence of it -->
+  <g transform="translate(0, -10)">
+    <!-- Radiating light beams blocked or unfocused -->
+    <path d="M 120 45 L 120 30" stroke="#CCD6F6" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+    <path d="M 95 50 L 85 38" stroke="#CCD6F6" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+    <path d="M 145 50 L 155 38" stroke="#CCD6F6" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Ground line -->
+  <line x1="40" y1="190" x2="200" y2="190" stroke="#333F58" stroke-width="3" stroke-linecap="round"/>
+</svg>
