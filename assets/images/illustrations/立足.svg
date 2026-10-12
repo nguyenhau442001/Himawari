@@ -1,0 +1,49 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Market Floor/Platform -->
+  <path d="M20 190 L220 190 L210 210 L30 210 Z" fill="#334155"/>
+  <rect x="30" y="210" width="180" height="5" fill="#475569"/>
+  
+  <!-- Company Building Silhouette in background -->
+  <rect x="160" y="80" width="50" height="110" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="170" y="90" width="10" height="15" fill="#38bdf8" opacity="0.6"/>
+  <rect x="190" y="90" width="10" height="15" fill="#38bdf8" opacity="0.6"/>
+  
+  <!-- Main Character (The Business Person) -->
+  <g transform="translate(100, 100)">
+    <!-- Legs -->
+    <rect x="-15" y="40" width="10" height="50" fill="#fb923c"/>
+    <rect x="5" y="40" width="10" height="50" fill="#fb923c"/>
+    <!-- Torso -->
+    <rect x="-20" y="-10" width="40" height="50" rx="5" fill="#f59e0b"/>
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="20" fill="#fde68a"/>
+    <!-- Tie -->
+    <path d="M-5 -5 L0 10 L5 -5 Z" fill="#ec4899"/>
+  </g>
+  
+  <!-- Competitive Elements (Arrows/Graphs) -->
+  <path d="M30 150 L60 120 L80 140 L110 100" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="110" cy="100" r="6" fill="#10b981"/>
+  
+  <!-- Stability Props (Foundation blocks) -->
+  <rect x="40" y="180" width="30" height="10" fill="#fbbf24"/>
+  <rect x="80" y="170" width="30" height="20" fill="#fbbf24"/>
+  <rect x="120" y="160" width="30" height="30" fill="#fbbf24"/>
+  
+  <!-- Ambient Glow -->
+  <circle cx="120" cy="120" r="80" fill="url(#glow)" opacity="0.1"/>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

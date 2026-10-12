@@ -17402,6 +17402,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/理直气壮.svg",
     "caption": "có lý nên hùng hồn, đường hoàng"
   },
+  "理智": {
+    "file": "理智.svg",
+    "src": "images/HSK_2.0/level6/理智.svg",
+    "caption": "lý trí"
+  },
+  "力求": {
+    "file": "力求.svg",
+    "src": "images/HSK_2.0/level6/力求.svg",
+    "caption": "cố gắng đạt được"
+  },
+  "力图": {
+    "file": "力图.svg",
+    "src": "images/HSK_2.0/level6/力图.svg",
+    "caption": "cố gắng, mưu cầu"
+  },
+  "历代": {
+    "file": "历代.svg",
+    "src": "images/HSK_2.0/level6/历代.svg",
+    "caption": "các đời, qua các thời đại"
+  },
+  "历来": {
+    "file": "历来.svg",
+    "src": "images/HSK_2.0/level6/历来.svg",
+    "caption": "từ trước đến nay"
+  },
+  "利害": {
+    "file": "利害.svg",
+    "src": "images/HSK_2.0/level6/利害.svg",
+    "caption": "lợi hại, được mất"
+  },
+  "立场": {
+    "file": "立场.svg",
+    "src": "images/HSK_2.0/level6/立场.svg",
+    "caption": "lập trường"
+  },
+  "立交桥": {
+    "file": "立交桥.svg",
+    "src": "images/HSK_2.0/level6/立交桥.svg",
+    "caption": "cầu vượt"
+  },
+  "立体": {
+    "file": "立体.svg",
+    "src": "images/HSK_2.0/level6/立体.svg",
+    "caption": "ba chiều, lập thể"
+  },
+  "立足": {
+    "file": "立足.svg",
+    "src": "images/HSK_2.0/level6/立足.svg",
+    "caption": "đứng vững, tồn tại"
+  },
   "领先": {
     "file": "领先.svg",
     "src": "images/HSK_2.0/level6/领先.svg",

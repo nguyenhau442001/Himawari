@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table Surface -->
+  <rect x="20" y="150" width="200" height="10" rx="2" fill="#334155"/>
+  
+  <!-- The 3D Map (立体地图) -->
+  <g transform="translate(120, 130)">
+    <path d="M-60 0 L0 -30 L60 0 L0 30 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <path d="M-60 0 L-60 15 L0 45 L60 15 L60 0 Z" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <path d="M0 30 L0 45 L60 15" fill="#334155" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Mountain peaks on map -->
+    <path d="M-20 -10 L-10 -25 L0 -10 Z" fill="#fb923c"/>
+    <path d="M10 5 L20 -10 L30 5 Z" fill="#fb923c"/>
+  </g>
+
+  <!-- Character: Student pointing at the map -->
+  <g transform="translate(60, 160)">
+    <circle cx="0" cy="-40" r="15" fill="#fde68a"/>
+    <path d="M-15 -30 Q-20 -10 0 -5 L0 20" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15 -30 Q20 -10 0 -5" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M5 -45 L15 -55" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character: Teacher pointing -->
+  <g transform="translate(180, 160)">
+    <circle cx="0" cy="-40" r="15" fill="#ec4899"/>
+    <path d="M-15 -30 Q-20 -10 0 -5 L0 20" stroke="#ec4899" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15 -30 Q20 -10 0 -5 L-10 -15" stroke="#ec4899" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="-45" r="3" fill="#fff"/>
+  </g>
+
+  <!-- Ambient details -->
+  <circle cx="40" cy="50" r="3" fill="#10b981" opacity="0.6"/>
+  <circle cx="200" cy="40" r="2" fill="#38bdf8" opacity="0.4"/>
+  <path d="M180 80 L190 70" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+</svg>

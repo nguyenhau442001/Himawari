@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="140" width="160" height="10" rx="2" fill="#475569"/>
+  <rect x="50" y="150" width="10" height="80" rx="2" fill="#334155"/>
+  <rect x="180" y="150" width="10" height="80" rx="2" fill="#334155"/>
+  
+  <!-- Old Status (Cluttered/Messy) -->
+  <path d="M60 130 L90 130 L85 100 L65 100 Z" fill="#64748b"/>
+  <circle cx="75" cy="115" r="8" fill="#94a3b8"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 100)">
+    <circle cx="0" cy="0" r="20" fill="#fde68a"/>
+    <path d="M-8 -5 h4 M4 -5 h4 M-2 5 q2 2 4 0" stroke="#0f172a" stroke-width="2" fill="none"/>
+    <path d="M-20 20 L-30 60 M20 20 L30 60" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The "Change" Action: Pushing/Organizing -->
+  <rect x="110" y="110" width="40" height="30" rx="4" fill="#fb923c"/>
+  <path d="M130 125 L145 125 M137 118 L137 132" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- New Status (Orderly/Growth) -->
+  <rect x="150" y="100" width="30" height="40" rx="4" fill="#10b981"/>
+  <circle cx="165" cy="120" r="6" fill="#fff"/>
+  
+  <!-- Decorative Light/Focus -->
+  <circle cx="120" cy="100" r="50" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+  
+  <!-- Ambient glow -->
+  <ellipse cx="120" cy="140" rx="60" ry="10" fill="#38bdf8" opacity="0.1"/>
+</svg>

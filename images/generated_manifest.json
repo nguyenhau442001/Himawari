@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:23:21.215998",
-  "total_unique_words_with_illustrations": 4085,
-  "total_flat_svg_files": 4085,
+  "generated_at": "2026-10-12T20:28:08.777691",
+  "total_unique_words_with_illustrations": 4095,
+  "total_flat_svg_files": 4095,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1445,
-        "pct": "57.8%"
+        "with_svg": 1455,
+        "pct": "58.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 506,
-        "pct": "28.1%"
+        "with_svg": 507,
+        "pct": "28.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 642,
-        "pct": "11.5%"
+        "with_svg": 650,
+        "pct": "11.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 642,
-        "pct": "11.5%"
+        "with_svg": 650,
+        "pct": "11.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 642,
-        "pct": "11.5%"
+        "with_svg": 650,
+        "pct": "11.6%"
       }
     }
   },
@@ -64566,6 +64566,214 @@
         "images/HSK_3.0/level7/理直气壮.svg",
         "images/HSK_3.0/level8/理直气壮.svg",
         "images/HSK_3.0/level9/理直气壮.svg"
+      ]
+    },
+    "理智": {
+      "hanzi": "理智",
+      "pinyin": "lǐzhì",
+      "meaning": "lý trí",
+      "example_zh": "要保持<u>理智</u>。",
+      "example_vi": "Phải giữ <u>lý trí</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "理智.svg",
+      "src": "images/HSK_2.0/level6/理智.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/理智.svg",
+        "images/HSK_3.0/level8/理智.svg",
+        "images/HSK_3.0/level9/理智.svg"
+      ]
+    },
+    "力求": {
+      "hanzi": "力求",
+      "pinyin": "lìqiú",
+      "meaning": "cố gắng đạt được",
+      "example_zh": "我们<u>力求</u>完美。",
+      "example_vi": "Chúng tôi <u>cố gắng</u> đạt sự hoàn hảo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "力求.svg",
+      "src": "images/HSK_2.0/level6/力求.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/力求.svg",
+        "images/HSK_3.0/level8/力求.svg",
+        "images/HSK_3.0/level9/力求.svg"
+      ]
+    },
+    "力图": {
+      "hanzi": "力图",
+      "pinyin": "lìtú",
+      "meaning": "cố gắng, mưu cầu",
+      "example_zh": "他<u>力图</u>改变现状。",
+      "example_vi": "Anh ấy <u>cố gắng</u> thay đổi tình trạng hiện tại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "力图.svg",
+      "src": "images/HSK_2.0/level6/力图.svg",
+      "alt_srcs": []
+    },
+    "历代": {
+      "hanzi": "历代",
+      "pinyin": "lìdài",
+      "meaning": "các đời, qua các thời đại",
+      "example_zh": "<u>历代</u>皇帝都很重视农业。",
+      "example_vi": "Hoàng đế <u>qua các thời đại</u> đều rất coi trọng nông nghiệp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "历代.svg",
+      "src": "images/HSK_2.0/level6/历代.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/历代.svg",
+        "images/HSK_3.0/level8/历代.svg",
+        "images/HSK_3.0/level9/历代.svg"
+      ]
+    },
+    "历来": {
+      "hanzi": "历来",
+      "pinyin": "lìlái",
+      "meaning": "từ trước đến nay",
+      "example_zh": "这里<u>历来</u>都是商业中心。",
+      "example_vi": "Nơi đây <u>từ trước đến nay</u> đều là trung tâm thương mại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "历来.svg",
+      "src": "images/HSK_2.0/level6/历来.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/历来.svg",
+        "images/HSK_3.0/level8/历来.svg",
+        "images/HSK_3.0/level9/历来.svg"
+      ]
+    },
+    "利害": {
+      "hanzi": "利害",
+      "pinyin": "lìhài",
+      "meaning": "lợi hại, được mất",
+      "example_zh": "要分析清楚<u>利害</u>关系。",
+      "example_vi": "Phải phân tích rõ quan hệ <u>lợi hại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "利害.svg",
+      "src": "images/HSK_2.0/level6/利害.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/利害.svg",
+        "images/HSK_3.0/level8/利害.svg",
+        "images/HSK_3.0/level9/利害.svg"
+      ]
+    },
+    "立场": {
+      "hanzi": "立场",
+      "pinyin": "lìchǎng",
+      "meaning": "lập trường",
+      "example_zh": "他坚持自己的<u>立场</u>。",
+      "example_vi": "Anh ấy giữ vững <u>lập trường</u> của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "立场.svg",
+      "src": "images/HSK_2.0/level6/立场.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/立场.svg"
+      ]
+    },
+    "立交桥": {
+      "hanzi": "立交桥",
+      "pinyin": "lìjiāoqiáo",
+      "meaning": "cầu vượt",
+      "example_zh": "前面有一座<u>立交桥</u>。",
+      "example_vi": "Phía trước có một <u>cầu vượt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "立交桥.svg",
+      "src": "images/HSK_2.0/level6/立交桥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/立交桥.svg",
+        "images/HSK_3.0/level8/立交桥.svg",
+        "images/HSK_3.0/level9/立交桥.svg"
+      ]
+    },
+    "立体": {
+      "hanzi": "立体",
+      "pinyin": "lìtǐ",
+      "meaning": "ba chiều, lập thể",
+      "example_zh": "这是一张<u>立体</u>地图。",
+      "example_vi": "Đây là một bản đồ <u>ba chiều</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "立体.svg",
+      "src": "images/HSK_2.0/level6/立体.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/立体.svg",
+        "images/HSK_3.0/level8/立体.svg",
+        "images/HSK_3.0/level9/立体.svg"
+      ]
+    },
+    "立足": {
+      "hanzi": "立足",
+      "pinyin": "lìzú",
+      "meaning": "đứng vững, tồn tại",
+      "example_zh": "公司要在市场上<u>立足</u>。",
+      "example_vi": "Công ty phải <u>đứng vững</u> trên thị trường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "立足.svg",
+      "src": "images/HSK_2.0/level6/立足.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/立足.svg",
+        "images/HSK_3.0/level8/立足.svg",
+        "images/HSK_3.0/level9/立足.svg"
       ]
     },
     "领先": {

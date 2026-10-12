@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="40" fill="#475569"/>
+  <rect x="190" y="175" width="10" height="40" fill="#475569"/>
+  
+  <!-- Architect/Designer Character -->
+  <g transform="translate(120, 140)">
+    <circle cx="0" cy="-30" r="15" fill="#fde68a"/>
+    <path d="M-5 -25 Q0 -20 5 -25" stroke="#475569" stroke-width="2" fill="none"/>
+    <rect x="-20" y="-15" width="40" height="30" rx="5" fill="#38bdf8"/>
+    <rect x="-25" y="-15" width="50" height="10" rx="2" fill="#0ea5e9"/>
+  </g>
+  
+  <!-- Blueprint/Project -->
+  <path d="M70 150 L170 150 L160 100 L80 100 Z" fill="#f1f5f9"/>
+  <path d="M85 115 L155 115 M85 125 L155 125 M85 135 L120 135" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Precision Tools -->
+  <circle cx="150" cy="140" r="8" fill="none" stroke="#fb923c" stroke-width="3"/>
+  <line x1="145" y1="135" x2="155" y2="145" stroke="#fb923c" stroke-width="3"/>
+  
+  <!-- Ambient Light/Focus -->
+  <ellipse cx="120" cy="120" rx="60" ry="40" fill="#f59e0b" opacity="0.1"/>
+  
+  <!-- Perfection Details -->
+  <circle cx="170" cy="90" r="4" fill="#10b981"/>
+  <circle cx="180" cy="85" r="3" fill="#10b981"/>
+  <path d="M175 95 L178 98 L185 90" stroke="#10b981" stroke-width="2" fill="none"/>
+  
+  <!-- Coffee Mug -->
+  <rect x="50" y="135" width="20" height="25" rx="3" fill="#ec4899"/>
+  <path d="M70 140 Q75 140 75 145 Q75 150 70 150" stroke="#ec4899" stroke-width="3" fill="none"/>
+</svg>

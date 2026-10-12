@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Elements: Ancient Palace Pillars and Farmland -->
+  <path d="M20 180 L220 180 L220 240 L20 240 Z" fill="#064e3b" opacity="0.6"/>
+  <path d="M40 180 L40 60 L60 60 L60 180 Z" fill="#475569"/>
+  <path d="M180 180 L180 60 L200 60 L200 180 Z" fill="#475569"/>
+  
+  <!-- The Emperor (Representing 'Lidai' - multiple layers of history) -->
+  <!-- Layer 1: Ancient Emperor (Ghostly/Historical) -->
+  <g opacity="0.3">
+    <path d="M80 100 C80 80 100 70 120 70 C140 70 160 80 160 100 L150 160 L90 160 Z" fill="#f59e0b"/>
+    <circle cx="120" cy="80" r="15" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Layer 2: Present/Main Emperor -->
+  <g transform="translate(10, 10)">
+    <path d="M100 100 C100 80 120 70 140 70 C160 70 180 80 180 100 L170 160 L110 160 Z" fill="#fbbf24"/>
+    <circle cx="140" cy="80" r="15" fill="#fbbf24"/>
+    <path d="M130 70 L135 60 L145 60 L150 70" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  </g>
+  
+  <!-- The Agricultural Focus (The 'Nongye') -->
+  <!-- Wheat stalks -->
+  <g fill="#fb923c">
+    <path d="M50 220 L50 180 M60 220 L60 170 M70 220 L70 180" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="50" cy="175" r="3"/>
+    <circle cx="60" cy="165" r="3"/>
+    <circle cx="70" cy="175" r="3"/>
+  </g>
+  
+  <!-- Emperor gesturing towards the field -->
+  <path d="M130 120 L100 140" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Decorative accents -->
+  <circle cx="200" cy="40" r="2" fill="#38bdf8"/>
+  <circle cx="30" cy="50" r="3" fill="#10b981"/>
+  <circle cx="210" cy="150" r="2" fill="#ec4899"/>
+</svg>
