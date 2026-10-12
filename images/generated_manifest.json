@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:08:27.624105",
-  "total_unique_words_with_illustrations": 4528,
-  "total_flat_svg_files": 4528,
+  "generated_at": "2026-10-12T23:08:59.263441",
+  "total_unique_words_with_illustrations": 4533,
+  "total_flat_svg_files": 4533,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1888,
-        "pct": "75.5%"
+        "with_svg": 1893,
+        "pct": "75.7%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 942,
-        "pct": "16.8%"
+        "with_svg": 947,
+        "pct": "16.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 942,
-        "pct": "16.8%"
+        "with_svg": 947,
+        "pct": "16.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 942,
-        "pct": "16.8%"
+        "with_svg": 947,
+        "pct": "16.9%"
       }
     }
   },
@@ -74000,6 +74000,50 @@
         "images/HSK_3.0/level9/审判.svg"
       ]
     },
+    "渗透": {
+      "hanzi": "渗透",
+      "pinyin": "shèntòu",
+      "meaning": "thẩm thấu, thâm nhập",
+      "example_zh": "雨水<u>渗透</u>到了土壤深处。",
+      "example_vi": "Nước mưa <u>thẩm thấu</u> sâu vào trong đất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "渗透.svg",
+      "src": "images/HSK_2.0/level6/渗透.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/渗透.svg",
+        "images/HSK_3.0/level8/渗透.svg",
+        "images/HSK_3.0/level9/渗透.svg"
+      ]
+    },
+    "慎重": {
+      "hanzi": "慎重",
+      "pinyin": "shènzhòng",
+      "meaning": "cẩn trọng, thận trọng",
+      "example_zh": "做出决定之前要<u>慎重</u>考虑。",
+      "example_vi": "Trước khi đưa ra quyết định cần phải xem xét <u>thận trọng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "慎重.svg",
+      "src": "images/HSK_2.0/level6/慎重.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/慎重.svg",
+        "images/HSK_3.0/level8/慎重.svg",
+        "images/HSK_3.0/level9/慎重.svg"
+      ]
+    },
     "生存": {
       "hanzi": "生存",
       "pinyin": "shēngcún",
@@ -74016,6 +74060,72 @@
       "src": "images/HSK_2.0/level6/生存.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/生存.svg"
+      ]
+    },
+    "生机": {
+      "hanzi": "生机",
+      "pinyin": "shēngjī",
+      "meaning": "sức sống, sinh khí",
+      "example_zh": "春天的田野充满<u>生机</u>。",
+      "example_vi": "Cánh đồng mùa xuân đầy <u>sức sống</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "生机.svg",
+      "src": "images/HSK_2.0/level6/生机.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/生机.svg",
+        "images/HSK_3.0/level8/生机.svg",
+        "images/HSK_3.0/level9/生机.svg"
+      ]
+    },
+    "生理": {
+      "hanzi": "生理",
+      "pinyin": "shēnglǐ",
+      "meaning": "sinh lý",
+      "example_zh": "这是正常的<u>生理</u>现象。",
+      "example_vi": "Đây là hiện tượng <u>sinh lý</u> bình thường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "生理.svg",
+      "src": "images/HSK_2.0/level6/生理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/生理.svg",
+        "images/HSK_3.0/level8/生理.svg",
+        "images/HSK_3.0/level9/生理.svg"
+      ]
+    },
+    "生疏": {
+      "hanzi": "生疏",
+      "pinyin": "shēngshū",
+      "meaning": "xa lạ, không thành thục (lâu không dùng)",
+      "example_zh": "他很久没说英语了，有点<u>生疏</u>。",
+      "example_vi": "Anh ấy lâu không nói tiếng Anh, có chút <u>không thành thục</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "生疏.svg",
+      "src": "images/HSK_2.0/level6/生疏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/生疏.svg",
+        "images/HSK_3.0/level8/生疏.svg",
+        "images/HSK_3.0/level9/生疏.svg"
       ]
     },
     "生物": {

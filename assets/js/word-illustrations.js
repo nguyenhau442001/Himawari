@@ -19712,10 +19712,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/审判.svg",
     "caption": "xét xử, xử án"
   },
+  "渗透": {
+    "file": "渗透.svg",
+    "src": "images/HSK_2.0/level6/渗透.svg",
+    "caption": "thẩm thấu, thâm nhập"
+  },
+  "慎重": {
+    "file": "慎重.svg",
+    "src": "images/HSK_2.0/level6/慎重.svg",
+    "caption": "cẩn trọng, thận trọng"
+  },
   "生存": {
     "file": "生存.svg",
     "src": "images/HSK_2.0/level6/生存.svg",
     "caption": "sinh tồn"
+  },
+  "生机": {
+    "file": "生机.svg",
+    "src": "images/HSK_2.0/level6/生机.svg",
+    "caption": "sức sống, sinh khí"
+  },
+  "生理": {
+    "file": "生理.svg",
+    "src": "images/HSK_2.0/level6/生理.svg",
+    "caption": "sinh lý"
+  },
+  "生疏": {
+    "file": "生疏.svg",
+    "src": "images/HSK_2.0/level6/生疏.svg",
+    "caption": "xa lạ, không thành thục (lâu không dùng)"
   },
   "生物": {
     "file": "生物.svg",
