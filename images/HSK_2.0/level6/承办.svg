@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Conference Table -->
+  <path d="M40 160 L200 160 L210 190 L30 190 Z" fill="#334155"/>
+  <path d="M40 160 L200 160 L190 170 L50 170 Z" fill="#475569"/>
+  
+  <!-- Character 1 (Organizer) -->
+  <circle cx="80" cy="120" r="15" fill="#fde68a"/>
+  <path d="M65 135 Q80 150 95 135 L90 170 L70 170 Z" fill="#38bdf8"/>
+  <rect x="75" y="135" width="10" height="35" rx="2" fill="#38bdf8"/>
+  
+  <!-- Character 2 (Assistant) -->
+  <circle cx="160" cy="125" r="15" fill="#fde68a"/>
+  <path d="M145 140 Q160 155 175 140 L170 175 L150 175 Z" fill="#fb923c"/>
+  
+  <!-- Props: Laptop and Badge -->
+  <rect x="95" y="165" width="30" height="20" rx="2" fill="#94a3b8"/>
+  <rect x="100" y="168" width="20" height="12" rx="1" fill="#0f172a"/>
+  <circle cx="140" cy="160" r="6" fill="#ec4899"/>
+  
+  <!-- Background Elements: Presentation Screen -->
+  <rect x="60" y="40" width="120" height="70" rx="4" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M70 60 L100 60 M70 75 L130 75 M70 90 L110 90" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Decorative Lighting -->
+  <circle cx="30" cy="30" r="4" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="210" cy="50" r="3" fill="#fbbf24" opacity="0.4"/>
+  <path d="M180 30 L190 40 L180 50 L170 40 Z" fill="#10b981" opacity="0.3"/>
+  
+  <!-- Floor/Shadow -->
+  <ellipse cx="120" cy="200" rx="90" ry="10" fill="#0f172a" opacity="0.5"/>
+</svg>

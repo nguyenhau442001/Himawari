@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:23:04.374779",
-  "total_unique_words_with_illustrations": 3449,
-  "total_flat_svg_files": 3449,
+  "generated_at": "2026-10-12T11:25:55.774747",
+  "total_unique_words_with_illustrations": 3459,
+  "total_flat_svg_files": 3459,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 809,
-        "pct": "32.4%"
+        "with_svg": 819,
+        "pct": "32.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 303,
-        "pct": "16.8%"
+        "with_svg": 307,
+        "pct": "17.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 259,
-        "pct": "4.6%"
+        "with_svg": 264,
+        "pct": "4.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 259,
-        "pct": "4.6%"
+        "with_svg": 264,
+        "pct": "4.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 259,
-        "pct": "4.6%"
+        "with_svg": 264,
+        "pct": "4.7%"
       }
     }
   },
@@ -50996,6 +50996,202 @@
         "images/HSK_3.0/level7/陈列.svg",
         "images/HSK_3.0/level8/陈列.svg",
         "images/HSK_3.0/level9/陈列.svg"
+      ]
+    },
+    "沉闷": {
+      "hanzi": "沉闷",
+      "pinyin": "chénmèn",
+      "meaning": "nặng nề, ngột ngạt (tâm trạng/thời tiết)",
+      "example_zh": "房间里的气氛很<u>沉闷</u>。",
+      "example_vi": "Không khí trong phòng rất <u>nặng nề</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉闷.svg",
+      "src": "images/HSK_2.0/level6/沉闷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/沉闷.svg",
+        "images/HSK_3.0/level8/沉闷.svg",
+        "images/HSK_3.0/level9/沉闷.svg"
+      ]
+    },
+    "陈述": {
+      "hanzi": "陈述",
+      "pinyin": "chénshù",
+      "meaning": "trình bày, tường thuật",
+      "example_zh": "请<u>陈述</u>事情的经过。",
+      "example_vi": "Xin hãy <u>trình bày</u> diễn biến sự việc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "陈述.svg",
+      "src": "images/HSK_2.0/level6/陈述.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/陈述.svg",
+        "images/HSK_3.0/level8/陈述.svg",
+        "images/HSK_3.0/level9/陈述.svg"
+      ]
+    },
+    "沉思": {
+      "hanzi": "沉思",
+      "pinyin": "chénsī",
+      "meaning": "suy ngẫm, trầm tư",
+      "example_zh": "他陷入了<u>沉思</u>。",
+      "example_vi": "Anh ấy chìm vào <u>suy ngẫm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉思.svg",
+      "src": "images/HSK_2.0/level6/沉思.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/沉思.svg",
+        "images/HSK_3.0/level8/沉思.svg",
+        "images/HSK_3.0/level9/沉思.svg"
+      ]
+    },
+    "沉重": {
+      "hanzi": "沉重",
+      "pinyin": "chénzhòng",
+      "meaning": "nặng nề, nghiêm trọng",
+      "example_zh": "他心情很<u>沉重</u>。",
+      "example_vi": "Tâm trạng anh ấy rất <u>nặng nề</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "沉重.svg",
+      "src": "images/HSK_2.0/level6/沉重.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/沉重.svg"
+      ]
+    },
+    "沉着": {
+      "hanzi": "沉着",
+      "pinyin": "chénzhuó",
+      "meaning": "bình tĩnh, điềm đạm",
+      "example_zh": "遇到危险要保持<u>沉着</u>。",
+      "example_vi": "Gặp nguy hiểm phải giữ <u>bình tĩnh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉着.svg",
+      "src": "images/HSK_2.0/level6/沉着.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/沉着.svg",
+        "images/HSK_3.0/level8/沉着.svg",
+        "images/HSK_3.0/level9/沉着.svg"
+      ]
+    },
+    "称心如意": {
+      "hanzi": "称心如意",
+      "pinyin": "chèn xīn rú yì",
+      "meaning": "vừa lòng, như ý",
+      "example_zh": "这份工作让他<u>称心如意</u>。",
+      "example_vi": "Công việc này khiến anh ấy <u>vừa lòng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "称心如意.svg",
+      "src": "images/HSK_2.0/level6/称心如意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/称心如意.svg",
+        "images/HSK_3.0/level8/称心如意.svg",
+        "images/HSK_3.0/level9/称心如意.svg"
+      ]
+    },
+    "称号": {
+      "hanzi": "称号",
+      "pinyin": "chēnghào",
+      "meaning": "danh hiệu",
+      "example_zh": "他获得了\"劳动模范\"的<u>称号</u>。",
+      "example_vi": "Anh ấy nhận được <u>danh hiệu</u> \"Lao động gương mẫu\".",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "称号.svg",
+      "src": "images/HSK_2.0/level6/称号.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/称号.svg"
+      ]
+    },
+    "橙": {
+      "hanzi": "橙",
+      "pinyin": "chéng",
+      "meaning": "quả cam, màu cam",
+      "example_zh": "这种<u>橙</u>很甜。",
+      "example_vi": "Loại <u>cam</u> này rất ngọt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "橙.svg",
+      "src": "images/HSK_2.0/level6/橙.svg",
+      "alt_srcs": []
+    },
+    "盛": {
+      "hanzi": "盛",
+      "pinyin": "chéng",
+      "meaning": "đựng, chứa (múc)",
+      "example_zh": "用碗<u>盛</u>一点汤。",
+      "example_vi": "Dùng bát <u>đựng</u> một ít canh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "盛.svg",
+      "src": "images/HSK_2.0/level6/盛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/盛.svg"
+      ]
+    },
+    "承办": {
+      "hanzi": "承办",
+      "pinyin": "chéngbàn",
+      "meaning": "đảm nhận, đứng ra tổ chức",
+      "example_zh": "这次会议由我们公司<u>承办</u>。",
+      "example_vi": "Hội nghị lần này do công ty chúng tôi <u>đứng ra tổ chức</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "承办.svg",
+      "src": "images/HSK_2.0/level6/承办.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/承办.svg"
       ]
     },
     "成本": {

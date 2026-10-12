@@ -14007,6 +14007,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/陈列.svg",
     "caption": "trưng bày"
   },
+  "沉闷": {
+    "file": "沉闷.svg",
+    "src": "images/HSK_2.0/level6/沉闷.svg",
+    "caption": "nặng nề, ngột ngạt (tâm trạng/thời tiết)"
+  },
+  "陈述": {
+    "file": "陈述.svg",
+    "src": "images/HSK_2.0/level6/陈述.svg",
+    "caption": "trình bày, tường thuật"
+  },
+  "沉思": {
+    "file": "沉思.svg",
+    "src": "images/HSK_2.0/level6/沉思.svg",
+    "caption": "suy ngẫm, trầm tư"
+  },
+  "沉重": {
+    "file": "沉重.svg",
+    "src": "images/HSK_2.0/level6/沉重.svg",
+    "caption": "nặng nề, nghiêm trọng"
+  },
+  "沉着": {
+    "file": "沉着.svg",
+    "src": "images/HSK_2.0/level6/沉着.svg",
+    "caption": "bình tĩnh, điềm đạm"
+  },
+  "称心如意": {
+    "file": "称心如意.svg",
+    "src": "images/HSK_2.0/level6/称心如意.svg",
+    "caption": "vừa lòng, như ý"
+  },
+  "称号": {
+    "file": "称号.svg",
+    "src": "images/HSK_2.0/level6/称号.svg",
+    "caption": "danh hiệu"
+  },
+  "橙": {
+    "file": "橙.svg",
+    "src": "images/HSK_2.0/level6/橙.svg",
+    "caption": "quả cam, màu cam"
+  },
+  "盛": {
+    "file": "盛.svg",
+    "src": "images/HSK_2.0/level6/盛.svg",
+    "caption": "đựng, chứa (múc)"
+  },
+  "承办": {
+    "file": "承办.svg",
+    "src": "images/HSK_2.0/level6/承办.svg",
+    "caption": "đảm nhận, đứng ra tổ chức"
+  },
   "成本": {
     "file": "成本.svg",
     "src": "images/HSK_2.0/level6/成本.svg",

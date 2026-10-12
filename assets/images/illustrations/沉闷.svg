@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Room Interior -->
+  <rect x="20" y="40" width="200" height="160" rx="8" fill="#334155" opacity="0.3"/>
+  <path d="M20 40h200v10H20z" fill="#475569"/>
+  
+  <!-- Window with heavy atmosphere -->
+  <rect x="160" y="60" width="40" height="40" rx="4" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+  <path d="M180 60v40M160 80h40" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Character 1: Sitting at desk, head in hands -->
+  <g transform="translate(60, 120)">
+    <circle cx="20" cy="10" r="12" fill="#cbd5e1"/>
+    <path d="M10 25h20l-2 30h-16z" fill="#94a3b8"/>
+    <path d="M15 35l-10 10M25 35l10 10" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Character 2: Standing, arms crossed, looking away -->
+  <g transform="translate(140, 110)">
+    <circle cx="20" cy="10" r="12" fill="#94a3b8"/>
+    <path d="M10 25h20l5 40h-30z" fill="#64748b"/>
+    <path d="M12 40h16" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Desk -->
+  <rect x="40" y="160" width="80" height="10" rx="2" fill="#475569"/>
+  <rect x="45" y="170" width="5" height="20" fill="#475569"/>
+  <rect x="110" y="170" width="5" height="20" fill="#475569"/>
+  
+  <!-- Subtle heavy air effect -->
+  <ellipse cx="120" cy="120" rx="80" ry="40" fill="none" stroke="#fb923c" stroke-width="1" stroke-dasharray="4 8" opacity="0.2"/>
+  
+  <!-- Lamp light (muted) -->
+  <circle cx="60" cy="150" r="5" fill="#fbbf24" opacity="0.4"/>
+</svg>

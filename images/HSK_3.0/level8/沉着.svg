@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Smoke/Hazard Effect -->
+  <path d="M0 180 Q 60 140, 120 170 T 240 150 L 240 240 L 0 240 Z" fill="#334155" opacity="0.6"/>
+  <circle cx="180" cy="190" r="15" fill="#fb923c" opacity="0.3"/>
+  <circle cx="200" cy="210" r="25" fill="#fb923c" opacity="0.2"/>
+
+  <!-- Character: The Person staying calm -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-30 80 L 30 80 L 25 20 L -25 20 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="25" fill="#fde68a"/>
+    <!-- Calm Face -->
+    <line x1="-8" y1="-15" x2="-2" y2="-15" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="-15" x2="2" y2="-15" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-5 -5 Q 0 -2 5 -5" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Hands holding a flashlight -->
+    <rect x="-10" y="30" width="20" height="40" rx="5" fill="#fde68a"/>
+    <rect x="-5" y="60" width="10" height="30" fill="#94a3b8"/>
+    <circle cx="0" cy="95" r="8" fill="#fbbf24"/>
+  </g>
+
+  <!-- Flashlight Beam -->
+  <path d="M120 190 L 150 240 L 90 240 Z" fill="#fbbf24" opacity="0.4"/>
+
+  <!-- Environmental Details: Debris/Wall -->
+  <path d="M0 100 L 40 80 L 80 110 L 0 130 Z" fill="#475569"/>
+  <path d="M200 60 L 240 40 L 240 100 L 180 120 Z" fill="#475569"/>
+  
+  <!-- Accent Sparks -->
+  <circle cx="160" cy="170" r="2" fill="#10b981"/>
+  <circle cx="70" cy="190" r="3" fill="#ec4899"/>
+</svg>
