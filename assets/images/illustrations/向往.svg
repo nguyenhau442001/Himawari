@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Distant Horizon / Goal -->
+  <circle cx="180" cy="80" r="25" fill="#FFB84D" opacity="0.8"/>
+  <path d="M150 180 L210 180 L180 120 Z" fill="#3A404D"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 140)">
+    <!-- Body -->
+    <path d="M20 60 L20 30 C20 15 40 15 40 30 L40 60 Z" fill="#E0E0E0"/>
+    <!-- Head -->
+    <circle cx="30" cy="15" r="15" fill="#E0E0E0"/>
+    <!-- Reaching Arm -->
+    <path d="M40 35 L70 10" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round"/>
+    <!-- Motion Lines -->
+    <path d="M80 5 L95 0 M85 15 L100 10" stroke="#FFB84D" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  
+  <!-- Ground Line -->
+  <line x1="0" y1="200" x2="240" y2="200" stroke="#3A404D" stroke-width="2"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Base -->
+  <path d="M40 180 L200 180" stroke="#3A404D" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Growing Plant/Tree Symbolizing Prosperity (欣欣向荣) -->
+  <!-- Main Trunk -->
+  <path d="M120 180 L120 120" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Branches -->
+  <path d="M120 140 L90 110" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 140 L150 110" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 120 L100 90" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 120 L140 90" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Leaves (Representing flourishing growth) -->
+  <ellipse cx="90" cy="110" rx="12" ry="8" fill="#FFD180" transform="rotate(-45 90 110)"/>
+  <ellipse cx="150" cy="110" rx="12" ry="8" fill="#FFD180" transform="rotate(45 150 110)"/>
+  <ellipse cx="100" cy="90" rx="12" ry="8" fill="#FFD180" transform="rotate(-30 100 90)"/>
+  <ellipse cx="140" cy="90" rx="12" ry="8" fill="#FFD180" transform="rotate(30 140 90)"/>
+  <ellipse cx="120" cy="75" rx="14" ry="10" fill="#FFD180"/>
+  
+  <!-- Small sprouting buds at base -->
+  <circle cx="105" cy="180" r="4" fill="#FFB84D"/>
+  <circle cx="135" cy="180" r="4" fill="#FFB84D"/>
+</svg>

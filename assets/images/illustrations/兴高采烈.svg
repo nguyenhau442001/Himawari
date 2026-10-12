@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Child 1: Jumping with joy -->
+  <g transform="translate(70, 100)">
+    <circle cx="20" cy="20" r="15" fill="#FFD700"/>
+    <path d="M10 25 Q20 35 30 25" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M10 15 L14 18 M26 15 L30 18" stroke="#1A1D24" stroke-width="2"/>
+    <path d="M20 35 L20 70" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 50 L5 80 M20 50 L35 80" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 70 L10 100 M20 70 L30 100" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Child 2: Running with arms up -->
+  <g transform="translate(140, 80)">
+    <circle cx="20" cy="20" r="15" fill="#FFD700"/>
+    <path d="M10 25 Q20 35 30 25" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M10 15 L14 18 M26 15 L30 18" stroke="#1A1D24" stroke-width="2"/>
+    <path d="M20 35 L20 70" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 40 L5 20 M20 40 L35 20" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 70 L10 100 M20 70 L30 100" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground line -->
+  <path d="M40 190 L200 190" stroke="#374151" stroke-width="4" stroke-linecap="round"/>
+</svg>

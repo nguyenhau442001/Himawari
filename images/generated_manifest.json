@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T00:33:32.734124",
-  "total_unique_words_with_illustrations": 4839,
-  "total_flat_svg_files": 4839,
+  "generated_at": "2026-10-13T00:37:31.297967",
+  "total_unique_words_with_illustrations": 4856,
+  "total_flat_svg_files": 4856,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2199,
-        "pct": "88.0%"
+        "with_svg": 2216,
+        "pct": "88.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 727,
-        "pct": "40.4%"
+        "with_svg": 731,
+        "pct": "40.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1146,
-        "pct": "20.5%"
+        "with_svg": 1158,
+        "pct": "20.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1146,
-        "pct": "20.5%"
+        "with_svg": 1158,
+        "pct": "20.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1146,
-        "pct": "20.5%"
+        "with_svg": 1158,
+        "pct": "20.7%"
       }
     }
   },
@@ -80792,6 +80792,50 @@
         "images/HSK_3.0/level5/现状.svg"
       ]
     },
+    "想方设法": {
+      "hanzi": "想方设法",
+      "pinyin": "xiǎngfāngshèfǎ",
+      "meaning": "tìm mọi cách",
+      "example_zh": "他<u>想方设法</u>解决了这个难题。",
+      "example_vi": "Anh ấy <u>tìm mọi cách</u> giải quyết vấn đề khó này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "想方设法.svg",
+      "src": "images/HSK_2.0/level6/想方设法.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/想方设法.svg",
+        "images/HSK_3.0/level8/想方设法.svg",
+        "images/HSK_3.0/level9/想方设法.svg"
+      ]
+    },
+    "响亮": {
+      "hanzi": "响亮",
+      "pinyin": "xiǎngliàng",
+      "meaning": "to rõ, vang dội",
+      "example_zh": "他的声音十分<u>响亮</u>。",
+      "example_vi": "Giọng nói của anh ấy rất <u>to rõ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "响亮.svg",
+      "src": "images/HSK_2.0/level6/响亮.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/响亮.svg",
+        "images/HSK_3.0/level8/响亮.svg",
+        "images/HSK_3.0/level9/响亮.svg"
+      ]
+    },
     "响应": {
       "hanzi": "响应",
       "pinyin": "xiǎngyìng",
@@ -80812,6 +80856,108 @@
         "images/HSK_3.0/level7/响应.svg",
         "images/HSK_3.0/level8/响应.svg",
         "images/HSK_3.0/level9/响应.svg"
+      ]
+    },
+    "巷": {
+      "hanzi": "巷",
+      "pinyin": "xiàng",
+      "meaning": "hẻm, ngõ",
+      "example_zh": "他住在一条小<u>巷</u>里。",
+      "example_vi": "Anh ấy sống trong một con <u>hẻm</u> nhỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "巷.svg",
+      "src": "images/HSK_2.0/level6/巷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/巷.svg",
+        "images/HSK_3.0/level8/巷.svg",
+        "images/HSK_3.0/level9/巷.svg"
+      ]
+    },
+    "向导": {
+      "hanzi": "向导",
+      "pinyin": "xiàngdǎo",
+      "meaning": "người hướng dẫn",
+      "example_zh": "我们请了一位本地<u>向导</u>。",
+      "example_vi": "Chúng tôi đã thuê một <u>người hướng dẫn</u> địa phương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "向导.svg",
+      "src": "images/HSK_2.0/level6/向导.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/向导.svg",
+        "images/HSK_3.0/level8/向导.svg",
+        "images/HSK_3.0/level9/向导.svg"
+      ]
+    },
+    "向来": {
+      "hanzi": "向来",
+      "pinyin": "xiànglái",
+      "meaning": "từ trước đến nay",
+      "example_zh": "他<u>向来</u>都很守时。",
+      "example_vi": "Anh ấy <u>từ trước đến nay</u> luôn đúng giờ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "向来.svg",
+      "src": "images/HSK_2.0/level6/向来.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/向来.svg",
+        "images/HSK_3.0/level8/向来.svg",
+        "images/HSK_3.0/level9/向来.svg"
+      ]
+    },
+    "向往": {
+      "hanzi": "向往",
+      "pinyin": "xiàngwǎng",
+      "meaning": "khát khao, mong mỏi",
+      "example_zh": "她一直<u>向往</u>自由的生活。",
+      "example_vi": "Cô ấy luôn <u>khát khao</u> cuộc sống tự do.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "向往.svg",
+      "src": "images/HSK_2.0/level6/向往.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/向往.svg"
+      ]
+    },
+    "相声": {
+      "hanzi": "相声",
+      "pinyin": "xiàngsheng",
+      "meaning": "tương thanh (hài kịch song ca)",
+      "example_zh": "他擅长表演<u>相声</u>。",
+      "example_vi": "Anh ấy biểu diễn <u>hài kịch song ca</u> rất giỏi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "相声.svg",
+      "src": "images/HSK_2.0/level6/相声.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/相声.svg"
       ]
     },
     "协议": {
@@ -80884,6 +81030,210 @@
       "src": "images/HSK_2.0/level6/心态.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/心态.svg"
+      ]
+    },
+    "心疼": {
+      "hanzi": "心疼",
+      "pinyin": "xīnténg",
+      "meaning": "xót lòng, thương xót",
+      "example_zh": "看到孩子受伤，妈妈很<u>心疼</u>。",
+      "example_vi": "Thấy con bị thương, mẹ rất <u>xót lòng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "心疼.svg",
+      "src": "images/HSK_2.0/level6/心疼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/心疼.svg"
+      ]
+    },
+    "欣慰": {
+      "hanzi": "欣慰",
+      "pinyin": "xīnwèi",
+      "meaning": "mãn nguyện, an lòng",
+      "example_zh": "看到孩子成长，父母感到很<u>欣慰</u>。",
+      "example_vi": "Thấy con cái lớn lên, cha mẹ cảm thấy rất <u>an lòng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "欣慰.svg",
+      "src": "images/HSK_2.0/level6/欣慰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/欣慰.svg",
+        "images/HSK_3.0/level8/欣慰.svg",
+        "images/HSK_3.0/level9/欣慰.svg"
+      ]
+    },
+    "欣欣向荣": {
+      "hanzi": "欣欣向荣",
+      "pinyin": "xīnxīnxiàngróng",
+      "meaning": "phát triển phơi phới",
+      "example_zh": "国家经济呈现<u>欣欣向荣</u>的景象。",
+      "example_vi": "Kinh tế quốc gia hiện ra cảnh tượng <u>phát triển phơi phới</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "欣欣向荣.svg",
+      "src": "images/HSK_2.0/level6/欣欣向荣.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/欣欣向荣.svg",
+        "images/HSK_3.0/level8/欣欣向荣.svg",
+        "images/HSK_3.0/level9/欣欣向荣.svg"
+      ]
+    },
+    "信赖": {
+      "hanzi": "信赖",
+      "pinyin": "xìnlài",
+      "meaning": "tín nhiệm",
+      "example_zh": "顾客对这个品牌很<u>信赖</u>。",
+      "example_vi": "Khách hàng rất <u>tín nhiệm</u> thương hiệu này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "信赖.svg",
+      "src": "images/HSK_2.0/level6/信赖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/信赖.svg"
+      ]
+    },
+    "兴高采烈": {
+      "hanzi": "兴高采烈",
+      "pinyin": "xìnggāocǎiliè",
+      "meaning": "hớn hở, phấn khởi",
+      "example_zh": "孩子们<u>兴高采烈</u>地去公园玩。",
+      "example_vi": "Những đứa trẻ <u>hớn hở</u> đi công viên chơi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "兴高采烈.svg",
+      "src": "images/HSK_2.0/level6/兴高采烈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/兴高采烈.svg",
+        "images/HSK_3.0/level8/兴高采烈.svg",
+        "images/HSK_3.0/level9/兴高采烈.svg"
+      ]
+    },
+    "兴致勃勃": {
+      "hanzi": "兴致勃勃",
+      "pinyin": "xìngzhìbóbó",
+      "meaning": "hào hứng, sôi nổi",
+      "example_zh": "大家<u>兴致勃勃</u>地讨论着计划。",
+      "example_vi": "Mọi người <u>hào hứng</u> thảo luận về kế hoạch.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "兴致勃勃.svg",
+      "src": "images/HSK_2.0/level6/兴致勃勃.svg",
+      "alt_srcs": []
+    },
+    "汹涌": {
+      "hanzi": "汹涌",
+      "pinyin": "xiōngyǒng",
+      "meaning": "cuồn cuộn, dữ dội",
+      "example_zh": "大海波涛<u>汹涌</u>。",
+      "example_vi": "Sóng biển <u>cuồn cuộn</u> dữ dội.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "汹涌.svg",
+      "src": "images/HSK_2.0/level6/汹涌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/汹涌.svg",
+        "images/HSK_3.0/level8/汹涌.svg",
+        "images/HSK_3.0/level9/汹涌.svg"
+      ]
+    },
+    "凶恶": {
+      "hanzi": "凶恶",
+      "pinyin": "xiōng'è",
+      "meaning": "hung ác",
+      "example_zh": "那只狼看起来很<u>凶恶</u>。",
+      "example_vi": "Con sói đó trông rất <u>hung ác</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "凶恶.svg",
+      "src": "images/HSK_2.0/level6/凶恶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/凶恶.svg",
+        "images/HSK_3.0/level8/凶恶.svg",
+        "images/HSK_3.0/level9/凶恶.svg"
+      ]
+    },
+    "凶手": {
+      "hanzi": "凶手",
+      "pinyin": "xiōngshǒu",
+      "meaning": "hung thủ",
+      "example_zh": "警察正在追捕<u>凶手</u>。",
+      "example_vi": "Cảnh sát đang truy bắt <u>hung thủ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "凶手.svg",
+      "src": "images/HSK_2.0/level6/凶手.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/凶手.svg",
+        "images/HSK_3.0/level8/凶手.svg",
+        "images/HSK_3.0/level9/凶手.svg"
+      ]
+    },
+    "雄伟": {
+      "hanzi": "雄伟",
+      "pinyin": "xióngwěi",
+      "meaning": "hùng vĩ",
+      "example_zh": "长城十分<u>雄伟</u>壮观。",
+      "example_vi": "Trường Thành rất <u>hùng vĩ</u> tráng lệ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "雄伟.svg",
+      "src": "images/HSK_2.0/level6/雄伟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/雄伟.svg",
+        "images/HSK_3.0/level8/雄伟.svg",
+        "images/HSK_3.0/level9/雄伟.svg"
       ]
     },
     "修建": {

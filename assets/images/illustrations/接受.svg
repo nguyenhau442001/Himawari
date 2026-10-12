@@ -1,134 +1,217 @@
-<svg width="100%" height="100%" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
 
-    <!-- Warm Glow for Acceptance/Opportunity -->
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    <!-- Warm Golden/Emerald Glow for Acceptance -->
+    <radialGradient id="glow-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Envelope/Offer Gradient -->
-    <linearGradient id="envelope-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#f1f5f9"/>
-    </linearGradient>
-    
-    <linearGradient id="envelope-flap" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#e2e8f0"/>
-      <stop offset="100%" stop-color="#cbd5e1"/>
+    <!-- Offer Document Gradient -->
+    <linearGradient id="doc-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
     </linearGradient>
 
-    <!-- Character Outfit Gradients -->
-    <linearGradient id="shirt-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#0284c7"/>
+    <!-- Folder/Cover Gradient -->
+    <linearGradient id="folder-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
     </linearGradient>
 
+    <!-- Badge / Seal Gradient -->
+    <linearGradient id="seal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Desk Surface Gradient -->
     <linearGradient id="desk-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#334155"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
   </defs>
 
-  <!-- Canvas Background -->
-  <rect width="240" height="240" rx="24" fill="url(#bg-grad)"/>
+  <!-- Full-bleed Container Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)" />
 
-  <!-- Ambient Light / Focus Glow -->
-  <circle cx="120" cy="110" r="90" fill="url(#glow)"/>
+  <!-- Ambient Acceptance Glow -->
+  <circle cx="120" cy="115" r="95" fill="url(#glow-grad)" />
 
-  <!-- SCENE ENVIRONMENT & PROPS -->
-  <!-- Window / Background Office Vibe -->
-  <g opacity="0.15">
-    <rect x="40" y="45" width="50" height="70" rx="4" fill="none" stroke="#94a3b8" stroke-width="2"/>
-    <line x1="65" y1="45" x2="65" y2="115" stroke="#94a3b8" stroke-width="2"/>
-    <line x1="40" y1="80" x2="90" y2="80" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Background Environment: Professional Office Setting -->
+  <!-- Office window with subtle city/blinds grid -->
+  <g opacity="0.2">
+    <rect x="24" y="32" width="60" height="75" rx="4" fill="none" stroke="#94a3b8" stroke-width="2" />
+    <line x1="54" y1="32" x2="54" y2="107" stroke="#94a3b8" stroke-width="2" />
+    <line x1="24" y1="70" x2="84" y2="70" stroke="#94a3b8" stroke-width="2" />
+    <!-- Distant skyscraper silhouette outside window -->
+    <rect x="32" y="55" width="14" height="40" fill="#64748b" opacity="0.4" />
+    <rect x="58" y="45" width="18" height="50" fill="#64748b" opacity="0.4" />
   </g>
 
-  <!-- Bookshelf / Plant props in background -->
-  <rect x="180" y="50" width="20" height="65" rx="2" fill="#334155" opacity="0.6"/>
-  <rect x="185" y="60" width="10" height="4" fill="#64748b"/>
-  <rect x="183" y="70" width="14" height="4" fill="#38bdf8"/>
-  <rect x="185" y="80" width="10" height="4" fill="#fb923c"/>
-  
-  <!-- Desk Surface -->
-  <path d="M 20 185 L 220 185 L 205 215 L 35 215 Z" fill="url(#desk-grad)"/>
-  <path d="M 20 185 L 220 185" stroke="#475569" stroke-width="2"/>
-
-  <!-- Laptop on Desk -->
-  <path d="M 160 160 L 200 165 L 195 188 L 150 183 Z" fill="#475569"/>
-  <path d="M 145 185 L 205 185 L 215 190 L 135 190 Z" fill="#64748b"/>
-  <!-- Coffee Mug -->
-  <rect x="195" y="155" width="14" height="18" rx="2" fill="#cbd5e1"/>
-  <path d="M 209 160 C 214 160 214 170 209 170" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- MAIN CHARACTER: Upper Body Receiving Offer -->
-  <!-- Torso & Shoulders -->
-  <path d="M 85 190 C 85 155 100 145 120 145 C 140 145 155 155 155 190 Z" fill="url(#shirt-grad)"/>
-  <!-- Collar -->
-  <path d="M 105 145 L 120 162 L 135 145 Z" fill="#f8fafc"/>
-
-  <!-- Neck & Head -->
-  <rect x="112" y="125" width="16" height="25" fill="#fbcfe8" rx="4"/>
-  <!-- Head Base -->
-  <circle cx="120" cy="105" r="26" fill="#fbcfe8"/>
-  
-  <!-- Hair (Neat Modern Style) -->
-  <path d="M 95 105 C 95 85 110 80 120 80 C 135 80 145 90 146 108 C 143 102 138 92 120 92 C 103 92 97 100 95 105 Z" fill="#334155"/>
-
-  <!-- Friendly Facial Expression (Accepting/Happy) -->
-  <!-- Closed Happy Eyes -->
-  <path d="M 108 102 Q 112 108 116 102" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 124 102 Q 128 108 132 102" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
-  <!-- Cheeks (Blush) -->
-  <circle cx="107" cy="110" r="4" fill="#fb7185" opacity="0.4"/>
-  <circle cx="133" cy="110" r="4" fill="#fb7185" opacity="0.4"/>
-  <!-- Smile -->
-  <path d="M 113 113 Q 120 120 127 113" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- HANDS & ACTION: Grasping/Accepting the Offer -->
-  <!-- Left Arm & Hand reaching out/up proudly -->
-  <path d="M 90 160 C 75 150 70 130 85 120" fill="none" stroke="#0284c7" stroke-width="14" stroke-linecap="round"/>
-  <!-- Left Hand holding envelope -->
-  <circle cx="85" cy="118" r="8" fill="#fbcfe8"/>
-
-  <!-- Right Arm & Hand -->
-  <path d="M 150 160 C 165 155 170 140 160 125" fill="none" stroke="#0284c7" stroke-width="14" stroke-linecap="round"/>
-  <circle cx="160" cy="122" r="8" fill="#fbcfe8"/>
-
-  <!-- THE OFFER / CONTRACT (The core object being accepted) -->
-  <g transform="translate(95, 75) rotate(-12)">
-    <!-- Envelope Shadow -->
-    <rect x="2" y="2" width="50" height="36" rx="4" fill="#0f172a" opacity="0.3"/>
-    <!-- Envelope Base -->
-    <rect width="50" height="36" rx="4" fill="url(#envelope-grad)" stroke="#cbd5e1" stroke-width="1"/>
-    <!-- Envelope Flap -->
-    <path d="M 0 0 L 25 20 L 50 0 Z" fill="url(#envelope-flap)"/>
-    <!-- Document Peek (Golden/Success accent) -->
-    <rect x="10" y="-8" width="30" height="15" rx="2" fill="#fbbf24"/>
-    <rect x="15" y="-4" width="20" height="2" rx="1" fill="#d97706"/>
-    <!-- Checkmark on Document/Offer indicating acceptance -->
-    <path d="M 22 0 L 25 3 L 31 -3" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Subtle bookshelf on the right background -->
+  <g opacity="0.25">
+    <rect x="186" y="38" width="30" height="68" rx="3" fill="#334155" />
+    <rect x="190" y="48" width="8" height="20" fill="#60a5fa" rx="1" />
+    <rect x="200" y="44" width="7" height="24" fill="#fbbf24" rx="1" />
+    <rect x="190" y="78" width="22" height="4" fill="#475569" />
   </g>
 
-  <!-- ACTION & SPARKLES (Visual feedback for successful acceptance) -->
-  <g fill="#fbbf24">
-    <!-- Star 1 -->
-    <path d="M 155 55 L 157 62 L 164 64 L 157 66 L 155 73 L 153 66 L 146 64 L 153 62 Z" transform="scale(0.8) translate(40, 10)"/>
-    <!-- Star 2 -->
-    <path d="M 75 80 L 76.5 84 L 80.5 85 L 76.5 86 L 75 90 L 73.5 86 L 69.5 85 L 73.5 84 Z"/>
-    <!-- Sparkle dot -->
-    <circle cx="130" cy="50" r="3" opacity="0.8"/>
-    <circle cx="85" cy="140" r="2" opacity="0.6"/>
+  <!-- Office Desk Surface -->
+  <path d="M 0 172 L 240 172 L 240 240 L 0 240 Z" fill="url(#desk-grad)" />
+  <line x1="0" y1="172" x2="240" y2="172" stroke="#475569" stroke-width="2.5" />
+
+  <!-- Desk Props: Subtle laptop & mug in corner -->
+  <g transform="translate(14, 154)" opacity="0.5">
+    <rect x="0" y="8" width="14" height="16" rx="2" fill="#cbd5e1" />
+    <path d="M 14 12 C 18 12 18 20 14 20" fill="none" stroke="#cbd5e1" stroke-width="1.8" />
   </g>
 
-  <g fill="#38bdf8">
-    <circle cx="170" cy="95" r="2.5" opacity="0.7"/>
-    <circle cx="65" cy="115" r="3" opacity="0.9"/>
+  <!-- ======================================================== -->
+  <!-- ACTOR 1 (LEFT): The Giver / Employer offering opportunity -->
+  <!-- ======================================================== -->
+  <g transform="translate(10, 72)">
+    <!-- Body / Dark Formal Suit Jacket -->
+    <path d="M 5 98 C 5 72 24 64 42 64 C 55 64 68 70 72 98 Z" fill="#334155" filter="url(#shadow)" />
+    <!-- White shirt collar & silk tie -->
+    <polygon points="38,64 46,64 42,75" fill="#f8fafc" />
+    <polygon points="41,72 43,72 44,92 40,92" fill="#0284c7" />
+
+    <!-- Neck & Head (turned toward the candidate) -->
+    <rect x="34" y="46" width="16" height="20" fill="#fbcfe8" rx="2" />
+    <circle cx="42" cy="34" r="18" fill="#fbcfe8" filter="url(#shadow)" />
+    <!-- Hair (Neat Executive cut) -->
+    <path d="M 25 34 C 25 18 40 16 52 18 C 60 20 60 32 60 36 C 54 28 36 28 25 34 Z" fill="#1e293b" />
+    <!-- Confident welcoming eyes and approving smile -->
+    <circle cx="49" cy="33" r="2.2" fill="#1e293b" />
+    <path d="M 45 40 Q 50 44 54 40" fill="none" stroke="#1e293b" stroke-width="1.6" stroke-linecap="round" />
+
+    <!-- Giver's Arm: Extending forward from left, handing the offer -->
+    <!-- Upper arm -->
+    <path d="M 30 75 Q 48 74 65 78" fill="none" stroke="#334155" stroke-width="13" stroke-linecap="round" />
+    <!-- Forearm reaching right -->
+    <path d="M 62 78 L 92 84" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round" />
+    <!-- Hand holding left edge of offer document -->
+    <circle cx="94" cy="85" r="7" fill="#fbcfe8" filter="url(#shadow)" />
+    <!-- Thumb holding document -->
+    <path d="M 91 81 Q 95 78 98 83" fill="none" stroke="#fbcfe8" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- THE ITEM BEING TRANSFERRED: Job Offer / Acceptance Card   -->
+  <!-- ======================================================== -->
+  <g transform="translate(90, 102)" filter="url(#shadow)">
+    <!-- Blue Presentation Folder Base (Angled slightly) -->
+    <rect x="-4" y="-3" width="56" height="42" rx="4" fill="url(#folder-grad)" transform="rotate(-6)" />
+    
+    <!-- Crisp White Document inside (Job Offer / Agreement) -->
+    <rect x="2" y="2" width="50" height="36" rx="3" fill="url(#doc-grad)" transform="rotate(-6)" stroke="#cbd5e1" stroke-width="0.8" />
+    
+    <!-- Document Abstract Content Lines -->
+    <g transform="rotate(-6)">
+      <line x1="8" y1="9" x2="28" y2="9" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" />
+      <line x1="8" y1="15" x2="38" y2="15" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+      <line x1="8" y1="21" x2="32" y2="21" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+      
+      <!-- Signature Line & Gold Acceptance Star / Stamp -->
+      <line x1="8" y1="28" x2="22" y2="28" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+
+    <!-- Green Approved / Accepted Badge on Document -->
+    <g transform="translate(36, 12)" filter="url(#softGlow)">
+      <circle cx="0" cy="0" r="10" fill="url(#seal-grad)" stroke="#ffffff" stroke-width="1.5" />
+      <!-- Bold White Checkmark indicating Acceptance -->
+      <path d="M -4 0 L -1 3 L 5 -3" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- DYNAMIC ACTION CUES: Transfer Motion / Acceptance Energy  -->
+  <!-- ======================================================== -->
+  <!-- Handover flow arrows & motion arcs showing transfer into receiver's hands -->
+  <g opacity="0.85">
+    <!-- Motion streak 1 -->
+    <path d="M 86 136 C 98 144, 114 145, 126 142" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3" />
+    <!-- Motion streak 2 (top) -->
+    <path d="M 94 92 C 108 86, 124 88, 134 94" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 2" />
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- ACTOR 2 (RIGHT): The Receiver - Eagerly Accepting with Both Hands -->
+  <!-- ======================================================== -->
+  <g transform="translate(138, 66)">
+    <!-- Body / Modern Professional Cyan-Blue Shirt -->
+    <path d="M 18 104 C 18 78 35 70 54 70 C 74 70 90 78 90 104 Z" fill="#0284c7" filter="url(#shadow)" />
+    <!-- White shirt inner collar -->
+    <polygon points="48,70 56,70 52,82" fill="#f8fafc" />
+
+    <!-- Neck & Head (Leaning forward with gratitude and joy) -->
+    <rect x="44" y="52" width="16" height="20" fill="#fbcfe8" rx="2" />
+    <!-- Head tilted slightly down toward the gift/offer (accepting gesture) -->
+    <circle cx="52" cy="38" r="18" fill="#fbcfe8" filter="url(#shadow)" />
+    
+    <!-- Hair (Youthful modern style) -->
+    <path d="M 35 36 C 35 20 48 18 60 18 C 72 18 72 32 72 38 C 65 30 46 30 35 36 Z" fill="#334155" />
+    
+    <!-- Expressive Happy Face: Eyes closed with genuine joy & broad smile -->
+    <!-- Left Happy Eye Arc -->
+    <path d="M 42 35 Q 46 31 50 35" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+    <!-- Right Happy Eye Arc -->
+    <path d="M 54 35 Q 58 31 62 35" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+    <!-- Cheerful rosy cheeks -->
+    <circle cx="43" cy="41" r="3.5" fill="#fb7185" opacity="0.5" />
+    <circle cx="63" cy="41" r="3.5" fill="#fb7185" opacity="0.5" />
+    <!-- Big warm appreciative smile -->
+    <path d="M 47 43 Q 52 50 57 43" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+
+    <!-- RECEIVING HANDS & ARMS: Reaching out with BOTH hands to accept -->
+    <!-- Back Arm (Underneath support) -->
+    <path d="M 40 82 Q 18 90 2 108" fill="none" stroke="#0369a1" stroke-width="12" stroke-linecap="round" />
+    <!-- Back Hand cupping the underside of document -->
+    <circle cx="1" cy="110" r="7.5" fill="#fbcfe8" filter="url(#shadow)" />
+
+    <!-- Front Arm (Reaching forward eagerly to take the offer) -->
+    <path d="M 46 86 Q 22 96 -6 88" fill="none" stroke="#0284c7" stroke-width="12" stroke-linecap="round" />
+    <!-- Front Hand clasping the right side/top of document -->
+    <circle cx="-8" cy="86" r="7.5" fill="#fbcfe8" filter="url(#shadow)" />
+    <!-- Fingers wrapped gently around the accepted offer -->
+    <path d="M -13 83 Q -9 79 -4 84" fill="none" stroke="#fbcfe8" stroke-width="3.2" stroke-linecap="round" />
+    <path d="M -12 88 Q -7 85 -2 89" fill="none" stroke="#fbcfe8" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- CELEBRATORY ACCEPTANCE SPARKLES & STARS                  -->
+  <!-- ======================================================== -->
+  <g fill="#fbbf24" filter="url(#softGlow)">
+    <!-- Main Sparkling Star above the handover -->
+    <path d="M 124 64 L 126 71 L 133 73 L 126 75 L 124 82 L 122 75 L 115 73 L 122 71 Z" />
+    <!-- Secondary Star top right -->
+    <path d="M 166 48 L 167.5 53 L 172 54.5 L 167.5 56 L 166 61 L 164.5 56 L 160 54.5 L 164.5 53 Z" transform="scale(0.85) translate(25, 2)" />
+    <!-- Small star near giver's hand -->
+    <path d="M 80 114 L 81 117 L 84 118 L 81 119 L 80 122 L 79 119 L 76 118 L 79 117 Z" opacity="0.8" />
+  </g>
+
+  <!-- Emerald success dots around acceptance zone -->
+  <g fill="#34d399">
+    <circle cx="145" cy="80" r="2.5" opacity="0.9" />
+    <circle cx="106" cy="74" r="2" opacity="0.8" />
+    <circle cx="132" cy="148" r="2.2" opacity="0.7" />
   </g>
 
 </svg>

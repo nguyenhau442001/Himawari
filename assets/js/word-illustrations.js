@@ -21382,10 +21382,45 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/现状.svg",
     "caption": "hiện trạng"
   },
+  "想方设法": {
+    "file": "想方设法.svg",
+    "src": "images/HSK_2.0/level6/想方设法.svg",
+    "caption": "tìm mọi cách"
+  },
+  "响亮": {
+    "file": "响亮.svg",
+    "src": "images/HSK_2.0/level6/响亮.svg",
+    "caption": "to rõ, vang dội"
+  },
   "响应": {
     "file": "响应.svg",
     "src": "images/HSK_2.0/level6/响应.svg",
     "caption": "hưởng ứng"
+  },
+  "巷": {
+    "file": "巷.svg",
+    "src": "images/HSK_2.0/level6/巷.svg",
+    "caption": "hẻm, ngõ"
+  },
+  "向导": {
+    "file": "向导.svg",
+    "src": "images/HSK_2.0/level6/向导.svg",
+    "caption": "người hướng dẫn"
+  },
+  "向来": {
+    "file": "向来.svg",
+    "src": "images/HSK_2.0/level6/向来.svg",
+    "caption": "từ trước đến nay"
+  },
+  "向往": {
+    "file": "向往.svg",
+    "src": "images/HSK_2.0/level6/向往.svg",
+    "caption": "khát khao, mong mỏi"
+  },
+  "相声": {
+    "file": "相声.svg",
+    "src": "images/HSK_2.0/level6/相声.svg",
+    "caption": "tương thanh (hài kịch song ca)"
   },
   "协议": {
     "file": "协议.svg",
@@ -21406,6 +21441,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "心态.svg",
     "src": "images/HSK_2.0/level6/心态.svg",
     "caption": "tâm thế, trạng thái tâm lý"
+  },
+  "心疼": {
+    "file": "心疼.svg",
+    "src": "images/HSK_2.0/level6/心疼.svg",
+    "caption": "xót lòng, thương xót"
+  },
+  "欣慰": {
+    "file": "欣慰.svg",
+    "src": "images/HSK_2.0/level6/欣慰.svg",
+    "caption": "mãn nguyện, an lòng"
+  },
+  "欣欣向荣": {
+    "file": "欣欣向荣.svg",
+    "src": "images/HSK_2.0/level6/欣欣向荣.svg",
+    "caption": "phát triển phơi phới"
+  },
+  "信赖": {
+    "file": "信赖.svg",
+    "src": "images/HSK_2.0/level6/信赖.svg",
+    "caption": "tín nhiệm"
+  },
+  "兴高采烈": {
+    "file": "兴高采烈.svg",
+    "src": "images/HSK_2.0/level6/兴高采烈.svg",
+    "caption": "hớn hở, phấn khởi"
+  },
+  "兴致勃勃": {
+    "file": "兴致勃勃.svg",
+    "src": "images/HSK_2.0/level6/兴致勃勃.svg",
+    "caption": "hào hứng, sôi nổi"
+  },
+  "汹涌": {
+    "file": "汹涌.svg",
+    "src": "images/HSK_2.0/level6/汹涌.svg",
+    "caption": "cuồn cuộn, dữ dội"
+  },
+  "凶恶": {
+    "file": "凶恶.svg",
+    "src": "images/HSK_2.0/level6/凶恶.svg",
+    "caption": "hung ác"
+  },
+  "凶手": {
+    "file": "凶手.svg",
+    "src": "images/HSK_2.0/level6/凶手.svg",
+    "caption": "hung thủ"
+  },
+  "雄伟": {
+    "file": "雄伟.svg",
+    "src": "images/HSK_2.0/level6/雄伟.svg",
+    "caption": "hùng vĩ"
   },
   "修建": {
     "file": "修建.svg",

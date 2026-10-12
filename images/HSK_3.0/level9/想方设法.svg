@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character representing the person solving the problem -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-30 80 C-30 50, -10 40, 0 40 C10 40, 30 50, 30 80 L30 100 L-30 100 Z" fill="#4A90E2"/>
+    <!-- Head -->
+    <circle cx="0" cy="25" r="20" fill="#FFD700"/>
+    <!-- Arms in active thinking/searching pose -->
+    <path d="M-30 50 L-50 70 M30 50 L50 70" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- The "Problem" represented by a complex, locked mechanical gear/puzzle piece -->
+  <g transform="translate(180, 60)">
+    <path d="M-20 -20 L20 -20 L20 20 L-20 20 Z" fill="#E67E22"/>
+    <circle cx="0" cy="0" r="10" fill="#1A1D24"/>
+    <path d="M-5 -5 L5 5 M-5 5 L5 -5" stroke="#E67E22" stroke-width="4"/>
+  </g>
+
+  <!-- Tools representing "finding ways" (a magnifying glass and a key) -->
+  <g transform="translate(60, 180)">
+    <circle cx="-20" cy="-20" r="15" fill="none" stroke="#FFD700" stroke-width="4"/>
+    <path d="M-10 -10 L0 0" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 0 L40 -20 L50 -10 L30 10 Z" fill="#FFD700"/>
+    <path d="M40 -10 L45 -5" stroke="#1A1D24" stroke-width="2"/>
+  </g>
+
+  <!-- Path/Trajectory lines showing multiple attempts -->
+  <path d="M80 120 Q120 80 160 120" fill="none" stroke="#4A90E2" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M80 140 Q120 100 160 140" fill="none" stroke="#4A90E2" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>
