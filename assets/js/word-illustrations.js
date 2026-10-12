@@ -16632,6 +16632,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/艰难.svg",
     "caption": "khó khăn gian nan"
   },
+  "尖锐": {
+    "file": "尖锐.svg",
+    "src": "images/HSK_2.0/level6/尖锐.svg",
+    "caption": "sắc bén, gay gắt"
+  },
+  "监视": {
+    "file": "监视.svg",
+    "src": "images/HSK_2.0/level6/监视.svg",
+    "caption": "giám sát, theo dõi"
+  },
+  "监狱": {
+    "file": "监狱.svg",
+    "src": "images/HSK_2.0/level6/监狱.svg",
+    "caption": "nhà tù"
+  },
+  "减弱": {
+    "file": "减弱.svg",
+    "src": "images/HSK_2.0/level6/减弱.svg",
+    "caption": "suy yếu, giảm bớt"
+  },
+  "简体字": {
+    "file": "简体字.svg",
+    "src": "images/HSK_2.0/level6/简体字.svg",
+    "caption": "chữ Hán giản thể"
+  },
+  "检讨": {
+    "file": "检讨.svg",
+    "src": "images/HSK_2.0/level6/检讨.svg",
+    "caption": "kiểm điểm"
+  },
+  "健全": {
+    "file": "健全.svg",
+    "src": "images/HSK_2.0/level6/健全.svg",
+    "caption": "hoàn thiện, kiện toàn"
+  },
+  "见识": {
+    "file": "见识.svg",
+    "src": "images/HSK_2.0/level6/见识.svg",
+    "caption": "sự hiểu biết, kinh nghiệm"
+  },
+  "见效": {
+    "file": "见效.svg",
+    "src": "images/HSK_2.0/level6/见效.svg",
+    "caption": "có hiệu quả"
+  },
+  "鉴于": {
+    "file": "鉴于.svg",
+    "src": "images/HSK_2.0/level6/鉴于.svg",
+    "caption": "xét thấy, căn cứ vào"
+  },
   "将近": {
     "file": "将近.svg",
     "src": "images/HSK_2.0/level6/将近.svg",

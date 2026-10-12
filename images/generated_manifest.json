@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T13:00:38.347544",
-  "total_unique_words_with_illustrations": 3939,
-  "total_flat_svg_files": 3939,
+  "generated_at": "2026-10-12T13:03:33.349608",
+  "total_unique_words_with_illustrations": 3949,
+  "total_flat_svg_files": 3949,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1299,
-        "pct": "52.0%"
+        "with_svg": 1309,
+        "pct": "52.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 464,
-        "pct": "25.8%"
+        "with_svg": 466,
+        "pct": "25.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 549,
-        "pct": "9.8%"
+        "with_svg": 557,
+        "pct": "9.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 549,
-        "pct": "9.8%"
+        "with_svg": 557,
+        "pct": "9.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 549,
-        "pct": "9.8%"
+        "with_svg": 557,
+        "pct": "9.9%"
       }
     }
   },
@@ -61458,6 +61458,218 @@
       "src": "images/HSK_2.0/level6/艰难.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/艰难.svg"
+      ]
+    },
+    "尖锐": {
+      "hanzi": "尖锐",
+      "pinyin": "jiānruì",
+      "meaning": "sắc bén, gay gắt",
+      "example_zh": "他提出了<u>尖锐</u>的批评。",
+      "example_vi": "Anh ấy đưa ra lời phê bình <u>sắc bén</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "尖锐.svg",
+      "src": "images/HSK_2.0/level6/尖锐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/尖锐.svg",
+        "images/HSK_3.0/level8/尖锐.svg",
+        "images/HSK_3.0/level9/尖锐.svg"
+      ]
+    },
+    "监视": {
+      "hanzi": "监视",
+      "pinyin": "jiānshì",
+      "meaning": "giám sát, theo dõi",
+      "example_zh": "警方在<u>监视</u>嫌疑人。",
+      "example_vi": "Cảnh sát đang <u>theo dõi</u> nghi phạm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "监视.svg",
+      "src": "images/HSK_2.0/level6/监视.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/监视.svg",
+        "images/HSK_3.0/level8/监视.svg",
+        "images/HSK_3.0/level9/监视.svg"
+      ]
+    },
+    "监狱": {
+      "hanzi": "监狱",
+      "pinyin": "jiānyù",
+      "meaning": "nhà tù",
+      "example_zh": "他被关进了<u>监狱</u>。",
+      "example_vi": "Anh ta bị nhốt vào <u>nhà tù</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "监狱.svg",
+      "src": "images/HSK_2.0/level6/监狱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/监狱.svg",
+        "images/HSK_3.0/level8/监狱.svg",
+        "images/HSK_3.0/level9/监狱.svg"
+      ]
+    },
+    "减弱": {
+      "hanzi": "减弱",
+      "pinyin": "jiǎnruò",
+      "meaning": "suy yếu, giảm bớt",
+      "example_zh": "台风强度正在<u>减弱</u>。",
+      "example_vi": "Cường độ bão đang <u>suy yếu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "减弱.svg",
+      "src": "images/HSK_2.0/level6/减弱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/减弱.svg"
+      ]
+    },
+    "简体字": {
+      "hanzi": "简体字",
+      "pinyin": "jiǎntǐzì",
+      "meaning": "chữ Hán giản thể",
+      "example_zh": "中国大陆使用<u>简体字</u>。",
+      "example_vi": "Trung Quốc đại lục dùng <u>chữ Hán giản thể</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "简体字.svg",
+      "src": "images/HSK_2.0/level6/简体字.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/简体字.svg",
+        "images/HSK_3.0/level8/简体字.svg",
+        "images/HSK_3.0/level9/简体字.svg"
+      ]
+    },
+    "检讨": {
+      "hanzi": "检讨",
+      "pinyin": "jiǎntǎo",
+      "meaning": "kiểm điểm",
+      "example_zh": "他写了一份<u>检讨</u>。",
+      "example_vi": "Anh ấy viết một bản <u>kiểm điểm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "检讨.svg",
+      "src": "images/HSK_2.0/level6/检讨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/检讨.svg",
+        "images/HSK_3.0/level8/检讨.svg",
+        "images/HSK_3.0/level9/检讨.svg"
+      ]
+    },
+    "健全": {
+      "hanzi": "健全",
+      "pinyin": "jiànquán",
+      "meaning": "hoàn thiện, kiện toàn",
+      "example_zh": "我们要<u>健全</u>管理制度。",
+      "example_vi": "Chúng ta phải <u>hoàn thiện</u> chế độ quản lý.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "健全.svg",
+      "src": "images/HSK_2.0/level6/健全.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/健全.svg"
+      ]
+    },
+    "见识": {
+      "hanzi": "见识",
+      "pinyin": "jiànshí",
+      "meaning": "sự hiểu biết, kinh nghiệm",
+      "example_zh": "旅行能增长<u>见识</u>。",
+      "example_vi": "Du lịch có thể tăng thêm <u>sự hiểu biết</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "见识.svg",
+      "src": "images/HSK_2.0/level6/见识.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/见识.svg",
+        "images/HSK_3.0/level8/见识.svg",
+        "images/HSK_3.0/level9/见识.svg"
+      ]
+    },
+    "见效": {
+      "hanzi": "见效",
+      "pinyin": "jiànxiào",
+      "meaning": "có hiệu quả",
+      "example_zh": "这种药很快就<u>见效</u>了。",
+      "example_vi": "Loại thuốc này <u>có hiệu quả</u> rất nhanh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "见效.svg",
+      "src": "images/HSK_2.0/level6/见效.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/见效.svg",
+        "images/HSK_3.0/level8/见效.svg",
+        "images/HSK_3.0/level9/见效.svg"
+      ]
+    },
+    "鉴于": {
+      "hanzi": "鉴于",
+      "pinyin": "jiànyú",
+      "meaning": "xét thấy, căn cứ vào",
+      "example_zh": "<u>鉴于</u>目前的情况，我们决定推迟会议。",
+      "example_vi": "<u>Xét thấy</u> tình hình hiện tại, chúng tôi quyết định trì hoãn cuộc họp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "鉴于.svg",
+      "src": "images/HSK_2.0/level6/鉴于.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/鉴于.svg",
+        "images/HSK_3.0/level8/鉴于.svg",
+        "images/HSK_3.0/level9/鉴于.svg"
       ]
     },
     "将近": {
