@@ -1,0 +1,9 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <!-- Ground plane, slightly lighter than the background -->
+  <rect x="0" y="190" width="240" height="50" fill="#2A2D34"/>
+  <!-- The iconic physical object: a large, solid block in the process of toppling -->
+  <!-- The block is rendered in a high-contrast gold accent color to signify focus and importance. -->
+  <!-- Its tilted position with one side lifted off the ground clearly visualizes "overthrow" or "topple". -->
+  <path d="M 175 190 L 85 150 L 65 50 L 155 90 Z" fill="#FFD700"/>
+</svg>

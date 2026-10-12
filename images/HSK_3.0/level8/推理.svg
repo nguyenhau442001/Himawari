@@ -1,0 +1,13 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120 120) rotate(-20) translate(-120 -120)">
+    <!-- Magnifying glass frame -->
+    <circle cx="120" cy="100" r="70" fill="#F0C419"/>
+    <!-- Magnifying glass lens (outer part) -->
+    <circle cx="120" cy="100" r="60" fill="#A0B0C0"/>
+    <!-- Magnifying glass lens (inner highlight/effect) -->
+    <circle cx="110" cy="90" r="25" fill="#FFFFFF" opacity="0.3"/>
+    <!-- Magnifying glass handle -->
+    <rect x="145" y="130" width="35" height="90" rx="17.5" fill="#F0C419"/>
+  </g>
+</svg>

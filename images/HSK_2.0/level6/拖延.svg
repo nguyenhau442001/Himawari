@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Clock face -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#FFB84D" stroke-width="6"/>
+    <circle cx="60" cy="60" r="5" fill="#FFB84D"/>
+    <!-- Hour hand -->
+    <rect x="58" y="30" width="4" height="35" rx="2" fill="#E0E0E0" transform="rotate(30 60 60)"/>
+    <!-- Minute hand (drooping/stretching) -->
+    <path d="M60 60 L95 85" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    <!-- The "Delay" effect: A trailing shadow/ghosting of the clock -->
+    <circle cx="70" cy="70" r="50" fill="none" stroke="#2C313C" stroke-width="4" stroke-dasharray="8 8"/>
+    <!-- Hour markers -->
+    <rect x="58" y="15" width="4" height="10" fill="#2C313C"/>
+    <rect x="105" y="58" width="10" height="4" fill="#2C313C"/>
+    <rect x="58" y="95" width="4" height="10" fill="#2C313C"/>
+    <rect x="15" y="58" width="10" height="4" fill="#2C313C"/>
+  </g>
+</svg>

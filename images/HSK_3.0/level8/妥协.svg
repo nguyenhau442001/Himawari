@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Left side: Blue geometric shape -->
+  <path d="M60 120 L100 80 L100 160 Z" fill="#4A90E2"/>
+  
+  <!-- Right side: Orange geometric shape -->
+  <path d="M180 120 L140 80 L140 160 Z" fill="#F5A623"/>
+  
+  <!-- Central meeting point: The Compromise -->
+  <rect x="100" y="110" width="40" height="20" rx="4" fill="#FFFFFF"/>
+  
+  <!-- Connecting lines indicating movement towards center -->
+  <path d="M100 120 L120 120" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M140 120 L120 120" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

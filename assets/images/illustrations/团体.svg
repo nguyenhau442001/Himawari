@@ -1,0 +1,14 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g fill="#FF9900">
+    <!-- Left figure -->
+    <circle cx="85" cy="95" r="20"/>
+    <rect x="70" y="115" width="30" height="70" rx="10" ry="10"/>
+    <!-- Center figure (slightly larger and more prominent) -->
+    <circle cx="120" cy="80" r="25"/>
+    <rect x="100" y="105" width="40" height="90" rx="12" ry="12"/>
+    <!-- Right figure -->
+    <circle cx="155" cy="95" r="20"/>
+    <rect x="140" y="115" width="30" height="70" rx="10" ry="10"/>
+  </g>
+</svg>

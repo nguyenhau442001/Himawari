@@ -1,0 +1,34 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground Line -->
+  <line x1="40" y1="190" x2="200" y2="190" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character (The Promoter) -->
+  <path d="M105,185 L105,155 Q105,140 120,140 Q135,140 135,155 L135,185" fill="#CBD5E0"/>
+  <circle cx="120" cy="125" r="12" fill="#CBD5E0"/>
+  
+  <!-- Left Arm (Holding Megaphone) -->
+  <path d="M105,150 L85,145" stroke="#CBD5E0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M85,145 L70,135 L70,155 Z" fill="#F6AD55"/> <!-- Megaphone body -->
+  <rect x="78" y="145" width="8" height="4" fill="#DD6B20" transform="rotate(-15 78 145)"/> <!-- Megaphone handle -->
+  
+  <!-- Right Arm (Presenting Product) -->
+  <path d="M135,150 L155,140" stroke="#CBD5E0" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- The Product (Box/Package) -->
+  <rect x="150" y="115" width="30" height="30" rx="4" fill="#ECC94B"/>
+  <path d="M150,130 L180,130" stroke="#D69E2E" stroke-width="2"/>
+  <path d="M165,115 L165,145" stroke="#D69E2E" stroke-width="2"/>
+  
+  <!-- Promotion Cues (Sound waves/Sparkles) -->
+  <path d="M60,135 Q50,145 60,155" fill="none" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M52,130 Q38,145 52,160" fill="none" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  
+  <path d="M185,105 L190,110 M195,115 L200,120" stroke="#ECC94B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M190,100 L185,105" stroke="#ECC94B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Upward Trend/Sales Push Arrow -->
+  <path d="M110,80 L130,60 L130,70 M130,60 L120,60" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M90,100 Q100,90 130,60" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+</svg>

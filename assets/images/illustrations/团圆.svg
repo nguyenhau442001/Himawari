@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Central glow representing warmth and togetherness of reunion -->
+  <circle cx="120" cy="120" r="35" fill="#FF9800" opacity="0.2"/>
+  <circle cx="120" cy="120" r="25" fill="#FFB74D" opacity="0.4"/>
+  <circle cx="120" cy="120" r="15" fill="#FFD580" opacity="0.6"/>
+
+  <!-- Group for figures, translated to center for easier rotation -->
+  <g transform="translate(120, 120)">
+    <!-- Figure 1 (Top) -->
+    <g transform="translate(0, -55)">
+      <circle cx="0" cy="-15" r="15" fill="#90A4AE"/>
+      <rect x="-15" y="0" width="30" height="40" rx="8" ry="8" fill="#90A4AE"/>
+    </g>
+
+    <!-- Figure 2 (Right) -->
+    <g transform="rotate(90) translate(0, -55)">
+      <circle cx="0" cy="-15" r="15" fill="#90A4AE"/>
+      <rect x="-15" y="0" width="30" height="40" rx="8" ry="8" fill="#90A4AE"/>
+    </g>
+
+    <!-- Figure 3 (Bottom) -->
+    <g transform="rotate(180) translate(0, -55)">
+      <circle cx="0" cy="-15" r="15" fill="#90A4AE"/>
+      <rect x="-15" y="0" width="30" height="40" rx="8" ry="8" fill="#90A4AE"/>
+    </g>
+
+    <!-- Figure 4 (Left) -->
+    <g transform="rotate(270) translate(0, -55)">
+      <circle cx="0" cy="-15" r="15" fill="#90A4AE"/>
+      <rect x="-15" y="0" width="30" height="40" rx="8" ry="8" fill="#90A4AE"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Scattered elements (below and around the lens, partially visible, representing disparate data) -->
+  <circle cx="80" cy="140" r="5" fill="#E0E0E0"/>
+  <circle cx="100" cy="155" r="5" fill="#E0E0E0"/>
+  <circle cx="140" cy="145" r="5" fill="#E0E0E0"/>
+
+  <!-- Magnifying Glass Frame -->
+  <circle cx="120" cy="100" r="50" fill="#B0B0B0"/>
+
+  <!-- Magnifying Glass Lens (translucent effect) -->
+  <circle cx="120" cy="100" r="42" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Resolved element (inside the lens, representing the clear inference/conclusion) -->
+  <path d="M 120 70 L 140 100 L 120 130 L 100 100 Z" fill="#FF9900"/>
+
+  <!-- Magnifying Glass Handle -->
+  <path d="M 120 142 L 135 200 L 125 205 L 110 147 Z" fill="#B0B0B0"/>
+</svg>

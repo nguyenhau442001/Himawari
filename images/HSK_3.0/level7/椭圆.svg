@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table Legs (Back) -->
+  <rect x="85" y="115" width="6" height="45" rx="3" fill="#475569"/>
+  <rect x="149" y="115" width="6" height="45" rx="3" fill="#475569"/>
+  
+  <!-- Table Legs (Front) -->
+  <rect x="65" y="130" width="8" height="55" rx="4" fill="#64748B"/>
+  <rect x="167" y="130" width="8" height="55" rx="4" fill="#64748B"/>
+  
+  <!-- Table Top Thickness/Side -->
+  <ellipse cx="120" cy="118" rx="85" ry="45" fill="#D97706"/>
+  
+  <!-- Table Top Surface -->
+  <ellipse cx="120" cy="110" rx="85" ry="45" fill="#F59E0B"/>
+  
+  <!-- Subtle Highlight on Surface -->
+  <path d="M50 100 Q 120 75 190 100" stroke="#FBBF24" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+</svg>

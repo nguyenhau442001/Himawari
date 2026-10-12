@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Stylized head representing a person (character) -->
+  <circle cx="120" cy="155" r="45" fill="#B0B7C6"/>
+
+  <!-- Thought bubble (cloud shape) -->
+  <path d="M120 30 C130 20, 150 20, 160 35 C170 50, 170 70, 160 85 C150 100, 130 100, 120 90 C110 100, 90 100, 80 85 C70 70, 70 50, 80 35 C90 20, 110 20, 120 30 Z" fill="#FF9900"/>
+
+  <!-- Thought bubble tail connecting to the head -->
+  <circle cx="115" cy="98" r="8" fill="#FF9900"/>
+  <circle cx="108" cy="110" r="6" fill="#FF9900"/>
+  <circle cx="103" cy="120" r="4" fill="#FF9900"/>
+
+  <!-- Question mark inside the thought bubble -->
+  <path d="M120 30 C130 30, 138 38, 138 50 C138 58, 130 62, 125 68 V75 H115 V68 C118 62, 120 58, 120 50 C120 38, 110 30, 120 30 Z M115 80 H125 V90 H115 Z" fill="#FFFFFF"/>
+</svg>

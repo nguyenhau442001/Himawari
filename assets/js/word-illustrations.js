@@ -20807,6 +20807,106 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/途径.svg",
     "caption": "con đường, biện pháp"
   },
+  "涂抹": {
+    "file": "涂抹.svg",
+    "src": "images/HSK_2.0/level6/涂抹.svg",
+    "caption": "bôi, quết"
+  },
+  "土壤": {
+    "file": "土壤.svg",
+    "src": "images/HSK_2.0/level6/土壤.svg",
+    "caption": "đất, thổ nhưỡng"
+  },
+  "吞吞吐吐": {
+    "file": "吞吞吐吐.svg",
+    "src": "images/HSK_2.0/level6/吞吞吐吐.svg",
+    "caption": "nói lúng búng, ấp úng"
+  },
+  "团结": {
+    "file": "团结.svg",
+    "src": "images/HSK_2.0/level6/团结.svg",
+    "caption": "đoàn kết"
+  },
+  "团体": {
+    "file": "团体.svg",
+    "src": "images/HSK_2.0/level6/团体.svg",
+    "caption": "tập thể, đoàn thể"
+  },
+  "团圆": {
+    "file": "团圆.svg",
+    "src": "images/HSK_2.0/level6/团圆.svg",
+    "caption": "đoàn viên, sum họp"
+  },
+  "推测": {
+    "file": "推测.svg",
+    "src": "images/HSK_2.0/level6/推测.svg",
+    "caption": "suy đoán"
+  },
+  "推翻": {
+    "file": "推翻.svg",
+    "src": "images/HSK_2.0/level6/推翻.svg",
+    "caption": "lật đổ"
+  },
+  "推理": {
+    "file": "推理.svg",
+    "src": "images/HSK_2.0/level6/推理.svg",
+    "caption": "suy luận"
+  },
+  "推论": {
+    "file": "推论.svg",
+    "src": "images/HSK_2.0/level6/推论.svg",
+    "caption": "suy luận, kết luận suy ra"
+  },
+  "推销": {
+    "file": "推销.svg",
+    "src": "images/HSK_2.0/level6/推销.svg",
+    "caption": "tiếp thị, đẩy mạnh tiêu thụ"
+  },
+  "脱离": {
+    "file": "脱离.svg",
+    "src": "images/HSK_2.0/level6/脱离.svg",
+    "caption": "thoát khỏi, tách khỏi"
+  },
+  "拖延": {
+    "file": "拖延.svg",
+    "src": "images/HSK_2.0/level6/拖延.svg",
+    "caption": "trì hoãn, kéo dài"
+  },
+  "托运": {
+    "file": "托运.svg",
+    "src": "images/HSK_2.0/level6/托运.svg",
+    "caption": "gửi vận chuyển (hàng hóa)"
+  },
+  "妥当": {
+    "file": "妥当.svg",
+    "src": "images/HSK_2.0/level6/妥当.svg",
+    "caption": "thích đáng, ổn"
+  },
+  "妥善": {
+    "file": "妥善.svg",
+    "src": "images/HSK_2.0/level6/妥善.svg",
+    "caption": "thỏa đáng, chu đáo"
+  },
+  "妥协": {
+    "file": "妥协.svg",
+    "src": "images/HSK_2.0/level6/妥协.svg",
+    "caption": "thỏa hiệp"
+  },
+  "椭圆": {
+    "file": "椭圆.svg",
+    "src": "images/HSK_2.0/level6/椭圆.svg",
+    "caption": "hình elip"
+  },
+  "唾弃": {
+    "file": "唾弃.svg",
+    "src": "images/HSK_2.0/level6/唾弃.svg",
+    "caption": "khinh bỉ, vứt bỏ"
+  },
+  "挖掘": {
+    "file": "挖掘.svg",
+    "src": "images/HSK_2.0/level6/挖掘.svg",
+    "caption": "khai quật, khám phá"
+  },
   "维持": {
     "file": "维持.svg",
     "src": "images/HSK_2.0/level6/维持.svg",

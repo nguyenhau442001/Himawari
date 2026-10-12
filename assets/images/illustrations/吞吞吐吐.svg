@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character Body -->
+  <circle cx="120" cy="100" r="30" fill="#E0E0E0"/>
+  <path d="M90 130h60v80h-60z" fill="#4A90E2"/>
+  
+  <!-- Mouth / Speech Area -->
+  <path d="M115 105h10v5h-10z" fill="#FFB347"/>
+  
+  <!-- Motion Lines / Hesitation Effect -->
+  <path d="M135 100l15 -10 M135 110l15 10" stroke="#FFB347" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Bubbles representing "swallowing" (tūn) and "spitting" (tǔ) -->
+  <circle cx="160" cy="90" r="8" fill="#FFB347" opacity="0.6"/>
+  <circle cx="175" cy="85" r="5" fill="#FFB347" opacity="0.4"/>
+  
+  <!-- Speech fragments floating -->
+  <path d="M145 115c5 -5 10 -5 15 0" stroke="#FFB347" stroke-width="2" fill="none"/>
+  <path d="M165 120c5 5 10 5 15 0" stroke="#FFB347" stroke-width="2" fill="none"/>
+  
+  <!-- Dynamic Action Lines -->
+  <path d="M110 90c-5 -5 -10 -5 -15 0" stroke="#E0E0E0" stroke-width="2" fill="none"/>
+  <path d="M100 85c-5 5 -10 5 -15 0" stroke="#E0E0E0" stroke-width="2" fill="none"/>
+</svg>

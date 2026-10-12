@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Arm/Hand representation -->
+  <path d="M40 180 C 60 140, 80 120, 120 120 L 180 160" fill="none" stroke="#E0E0E0" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="180" cy="160" r="15" fill="#FFB74D"/>
+  
+  <!-- Wound/Skin area -->
+  <path d="M140 140 C 160 130, 190 130, 210 145" fill="none" stroke="#CF6679" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Ointment smear -->
+  <path d="M145 145 C 165 135, 195 135, 205 150" fill="none" stroke="#FFB74D" stroke-width="8" stroke-linecap="round" stroke-dasharray="40 10"/>
+  
+  <!-- Ointment tube -->
+  <path d="M60 190 L 90 170 L 100 180 L 70 200 Z" fill="#B0BEC5"/>
+  <rect x="55" y="195" width="10" height="10" fill="#90A4AE"/>
+</svg>

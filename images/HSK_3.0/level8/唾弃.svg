@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Central Object: A discarded, broken, or rejected item (symbolizing 'tuòqì') -->
+  <!-- Represented as a stylized, crumpled paper ball or rejected icon being pushed away -->
+  
+  <!-- The 'rejected' object -->
+  <g transform="translate(120, 120)">
+    <circle cx="0" cy="0" r="45" fill="#2C313C" stroke="#FF9F1C" stroke-width="4"/>
+    <path d="M-20 -20 L20 20 M20 -20 L-20 20" stroke="#FF9F1C" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Visual motion lines indicating rejection/casting away -->
+  <path d="M170 120 L210 120 M185 105 L200 120 L185 135" stroke="#FF9F1C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Stylized hands pushing it away -->
+  <path d="M80 100 L60 100 L60 140 L80 140" fill="none" stroke="#5D677A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70 100 L70 140" stroke="#5D677A" stroke-width="6" stroke-linecap="round"/>
+</svg>
