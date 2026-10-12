@@ -18507,6 +18507,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拼搏.svg",
     "caption": "nỗ lực hết mình, gắng sức"
   },
+  "拼命": {
+    "file": "拼命.svg",
+    "src": "images/HSK_2.0/level6/拼命.svg",
+    "caption": "liều mạng, ra sức"
+  },
+  "频繁": {
+    "file": "频繁.svg",
+    "src": "images/HSK_2.0/level6/频繁.svg",
+    "caption": "thường xuyên, liên tục"
+  },
+  "频率": {
+    "file": "频率.svg",
+    "src": "images/HSK_2.0/level6/频率.svg",
+    "caption": "tần suất, tần số"
+  },
+  "贫乏": {
+    "file": "贫乏.svg",
+    "src": "images/HSK_2.0/level6/贫乏.svg",
+    "caption": "nghèo nàn, thiếu thốn"
+  },
+  "贫困": {
+    "file": "贫困.svg",
+    "src": "images/HSK_2.0/level6/贫困.svg",
+    "caption": "nghèo khó"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",

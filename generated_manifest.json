@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:24:22.193595",
-  "total_unique_words_with_illustrations": 4300,
-  "total_flat_svg_files": 4300,
+  "generated_at": "2026-10-12T22:25:18.993150",
+  "total_unique_words_with_illustrations": 4305,
+  "total_flat_svg_files": 4305,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1660,
-        "pct": "66.4%"
+        "with_svg": 1665,
+        "pct": "66.6%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 554,
-        "pct": "30.8%"
+        "with_svg": 557,
+        "pct": "30.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 800,
+        "with_svg": 802,
         "pct": "14.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 800,
+        "with_svg": 802,
         "pct": "14.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 800,
+        "with_svg": 802,
         "pct": "14.3%"
       }
     }
@@ -69132,6 +69132,104 @@
         "images/HSK_3.0/level7/拼搏.svg",
         "images/HSK_3.0/level8/拼搏.svg",
         "images/HSK_3.0/level9/拼搏.svg"
+      ]
+    },
+    "拼命": {
+      "hanzi": "拼命",
+      "pinyin": "pīnmìng",
+      "meaning": "liều mạng, ra sức",
+      "example_zh": "他<u>拼命</u>地工作，想多赚点钱。",
+      "example_vi": "Anh ấy <u>ra sức</u> làm việc để kiếm thêm tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "拼命.svg",
+      "src": "images/HSK_2.0/level6/拼命.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/拼命.svg",
+        "images/HSK_3.0/level8/拼命.svg",
+        "images/HSK_3.0/level9/拼命.svg"
+      ]
+    },
+    "频繁": {
+      "hanzi": "频繁",
+      "pinyin": "pínfán",
+      "meaning": "thường xuyên, liên tục",
+      "example_zh": "最近他出差非常<u>频繁</u>。",
+      "example_vi": "Gần đây anh ấy đi công tác rất <u>thường xuyên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "频繁.svg",
+      "src": "images/HSK_2.0/level6/频繁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/频繁.svg"
+      ]
+    },
+    "频率": {
+      "hanzi": "频率",
+      "pinyin": "pínlǜ",
+      "meaning": "tần suất, tần số",
+      "example_zh": "我们见面的<u>频率</u>越来越低了。",
+      "example_vi": "<u>Tần suất</u> chúng tôi gặp nhau ngày càng ít.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "频率.svg",
+      "src": "images/HSK_2.0/level6/频率.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/频率.svg"
+      ]
+    },
+    "贫乏": {
+      "hanzi": "贫乏",
+      "pinyin": "pínfá",
+      "meaning": "nghèo nàn, thiếu thốn",
+      "example_zh": "他的知识相当<u>贫乏</u>。",
+      "example_vi": "Kiến thức của anh ấy khá <u>nghèo nàn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "贫乏.svg",
+      "src": "images/HSK_2.0/level6/贫乏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/贫乏.svg",
+        "images/HSK_3.0/level8/贫乏.svg",
+        "images/HSK_3.0/level9/贫乏.svg"
+      ]
+    },
+    "贫困": {
+      "hanzi": "贫困",
+      "pinyin": "pínkùn",
+      "meaning": "nghèo khó",
+      "example_zh": "政府正在帮助<u>贫困</u>地区脱贫。",
+      "example_vi": "Chính phủ đang giúp các vùng <u>nghèo khó</u> thoát nghèo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "贫困.svg",
+      "src": "images/HSK_2.0/level6/贫困.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/贫困.svg"
       ]
     },
     "品质": {
