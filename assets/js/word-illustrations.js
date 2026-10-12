@@ -16351,6 +16351,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "自身.svg",
     "src": "images/HSK_3.0/level5/自身.svg",
     "caption": "bản thân, chính mình"
+  },
+  "总部": {
+    "file": "总部.svg",
+    "src": "images/HSK_3.0/level5/总部.svg",
+    "caption": "trụ sở chính, tổng bộ"
+  },
+  "总数": {
+    "file": "总数.svg",
+    "src": "images/HSK_3.0/level5/总数.svg",
+    "caption": "tổng số"
+  },
+  "总体": {
+    "file": "总体.svg",
+    "src": "images/HSK_3.0/level5/总体.svg",
+    "caption": "tổng thể, nhìn chung"
+  },
+  "租金": {
+    "file": "租金.svg",
+    "src": "images/HSK_3.0/level5/租金.svg",
+    "caption": "tiền thuê (nhà, phòng)"
+  },
+  "族": {
+    "file": "族.svg",
+    "src": "images/HSK_3.0/level5/族.svg",
+    "caption": "giới, nhóm người (như 上班族, 月光族); dân tộc"
+  },
+  "足够": {
+    "file": "足够.svg",
+    "src": "images/HSK_3.0/level5/足够.svg",
+    "caption": "đủ"
+  },
+  "嘴巴": {
+    "file": "嘴巴.svg",
+    "src": "images/HSK_3.0/level5/嘴巴.svg",
+    "caption": "miệng, mồm"
+  },
+  "最佳": {
+    "file": "最佳.svg",
+    "src": "images/HSK_3.0/level5/最佳.svg",
+    "caption": "tốt nhất, tối ưu, xuất sắc nhất"
+  },
+  "作出": {
+    "file": "作出.svg",
+    "src": "images/HSK_3.0/level5/作出.svg",
+    "caption": "đưa ra, tạo ra, cống hiến"
   }
 };
 
