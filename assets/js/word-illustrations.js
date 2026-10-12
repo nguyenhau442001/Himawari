@@ -13422,6 +13422,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/表态.svg",
     "caption": "tỏ rõ lập trường, lên tiếng"
   },
+  "表彰": {
+    "file": "表彰.svg",
+    "src": "images/HSK_2.0/level6/表彰.svg",
+    "caption": "tuyên dương, khen thưởng"
+  },
+  "憋": {
+    "file": "憋.svg",
+    "src": "images/HSK_2.0/level6/憋.svg",
+    "caption": "nén lại, kìm nén"
+  },
+  "别墅": {
+    "file": "别墅.svg",
+    "src": "images/HSK_2.0/level6/别墅.svg",
+    "caption": "biệt thự"
+  },
+  "别致": {
+    "file": "别致.svg",
+    "src": "images/HSK_2.0/level6/别致.svg",
+    "caption": "độc đáo, lạ mắt"
+  },
+  "别扭": {
+    "file": "别扭.svg",
+    "src": "images/HSK_2.0/level6/别扭.svg",
+    "caption": "khó chịu, gượng gạo"
+  },
+  "濒临": {
+    "file": "濒临.svg",
+    "src": "images/HSK_2.0/level6/濒临.svg",
+    "caption": "cận kề, sắp"
+  },
+  "冰雹": {
+    "file": "冰雹.svg",
+    "src": "images/HSK_2.0/level6/冰雹.svg",
+    "caption": "mưa đá"
+  },
+  "并存": {
+    "file": "并存.svg",
+    "src": "images/HSK_2.0/level6/并存.svg",
+    "caption": "cùng tồn tại"
+  },
+  "并非": {
+    "file": "并非.svg",
+    "src": "images/HSK_2.0/level6/并非.svg",
+    "caption": "thực ra không phải"
+  },
+  "并列": {
+    "file": "并列.svg",
+    "src": "images/HSK_2.0/level6/并列.svg",
+    "caption": "đứng song song, ngang hàng"
+  },
   "拨打": {
     "file": "拨打.svg",
     "src": "images/HSK_2.0/level6/拨打.svg",

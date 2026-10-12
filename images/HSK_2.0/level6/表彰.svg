@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Stage Background -->
+  <rect x="20" y="140" width="200" height="60" fill="#334155" rx="4"/>
+  <circle cx="120" cy="80" r="40" fill="#fbbf24" opacity="0.15"/>
+  
+  <!-- Principal Character -->
+  <g transform="translate(40, 100)">
+    <path d="M20 40h40v50H20z" fill="#38bdf8"/>
+    <circle cx="40" cy="25" r="15" fill="#fde68a"/>
+    <path d="M30 20h20v5h-20z" fill="#1e293b"/>
+  </g>
+  
+  <!-- Student Characters -->
+  <g transform="translate(120, 110)">
+    <path d="M10 30h30v60H10z" fill="#ec4899"/>
+    <circle cx="25" cy="20" r="12" fill="#fde68a"/>
+    <path d="M20 50h10v5h-10z" fill="#fff"/>
+  </g>
+  
+  <g transform="translate(160, 115)">
+    <path d="M10 25h30v55H10z" fill="#10b981"/>
+    <circle cx="25" cy="15" r="12" fill="#fde68a"/>
+    <path d="M20 45h10v5h-10z" fill="#fff"/>
+  </g>
+
+  <!-- Award Object -->
+  <path d="M75 110l15-10 15 10v20h-30z" fill="#f59e0b"/>
+  <circle cx="90" cy="105" r="5" fill="#fb923c"/>
+  
+  <!-- Decorative Stage Elements -->
+  <path d="M20 200h200v10H20z" fill="#475569"/>
+  <path d="M100 140l20-30 20 30" stroke="#fbbf24" stroke-width="2" fill="none"/>
+  <path d="M110 140l20-20 20 20" stroke="#fbbf24" stroke-width="2" fill="none"/>
+</svg>

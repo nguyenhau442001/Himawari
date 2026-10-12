@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Window Frame -->
+  <rect x="40" y="40" width="160" height="160" rx="8" fill="#334155" stroke="#475569" stroke-width="4"/>
+  <line x1="120" y1="40" x2="120" y2="200" stroke="#475569" stroke-width="4"/>
+  <line x1="40" y1="120" x2="200" y2="120" stroke="#475569" stroke-width="4"/>
+
+  <!-- Outside Scene -->
+  <rect x="42" y="42" width="156" height="156" fill="#1e293b"/>
+  
+  <!-- Hailstones -->
+  <circle cx="60" cy="70" r="4" fill="#e2e8f0"/>
+  <circle cx="90" cy="110" r="5" fill="#f1f5f9"/>
+  <circle cx="140" cy="60" r="6" fill="#e2e8f0"/>
+  <circle cx="170" cy="150" r="4" fill="#f8fafc"/>
+  <circle cx="110" cy="180" r="5" fill="#e2e8f0"/>
+  <circle cx="180" cy="90" r="3" fill="#f1f5f9"/>
+  <circle cx="70" cy="140" r="4" fill="#e2e8f0"/>
+  
+  <!-- Character Inside -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-30 60 Q0 40 30 60 L30 100 L-30 100 Z" fill="#fb923c"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="25" fill="#fde68a"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="15" r="3" fill="#0f172a"/>
+    <circle cx="8" cy="15" r="3" fill="#0f172a"/>
+    <!-- Mouth (Surprised) -->
+    <ellipse cx="0" cy="28" rx="4" ry="3" fill="#0f172a"/>
+    <!-- Hand pointing at window -->
+    <path d="M25 40 L45 20" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Interior Details -->
+  <rect x="0" y="200" width="240" height="40" fill="#0f172a"/>
+  <path d="M20 200 L40 160 L200 160 L220 200 Z" fill="#334155"/>
+</svg>

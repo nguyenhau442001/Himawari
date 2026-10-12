@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Villa Structure -->
+  <path d="M40 180 L40 100 L120 60 L200 100 L200 180 Z" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <rect x="60" y="120" width="40" height="60" fill="#1e293b" stroke="#fb923c" stroke-width="2"/>
+  <rect x="140" y="120" width="40" height="60" fill="#1e293b" stroke="#fb923c" stroke-width="2"/>
+  <rect x="100" y="150" width="40" height="30" fill="#fb923c" rx="4"/>
+  
+  <!-- Garden/Landscape -->
+  <circle cx="210" cy="190" r="15" fill="#10b981"/>
+  <circle cx="30" cy="195" r="20" fill="#10b981"/>
+  <path d="M0 200 Q120 180 240 200 L240 240 L0 240 Z" fill="#064e3b"/>
+  
+  <!-- Characters -->
+  <g transform="translate(80, 190)">
+    <circle cx="0" cy="-10" r="8" fill="#fde68a"/>
+    <path d="M-8 0 L8 0 L5 15 L-5 15 Z" fill="#38bdf8"/>
+  </g>
+  
+  <g transform="translate(160, 190)">
+    <circle cx="0" cy="-10" r="8" fill="#fde68a"/>
+    <path d="M-8 0 L8 0 L5 15 L-5 15 Z" fill="#ec4899"/>
+  </g>
+  
+  <!-- Key/Action Prop -->
+  <path d="M120 165 C 130 155, 140 155, 145 160" stroke="#fbbf24" stroke-width="3" fill="none"/>
+  <circle cx="145" cy="160" r="3" fill="#fbbf24"/>
+  
+  <!-- Decorative Lights -->
+  <circle cx="50" cy="80" r="2" fill="#fbbf24"/>
+  <circle cx="190" cy="80" r="2" fill="#fbbf24"/>
+</svg>
