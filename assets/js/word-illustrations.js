@@ -16417,6 +16417,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/皇后.svg",
     "caption": "hoàng hậu"
   },
+  "皇帝": {
+    "file": "皇帝.svg",
+    "src": "images/HSK_2.0/level6/皇帝.svg",
+    "caption": "hoàng đế"
+  },
+  "辉煌": {
+    "file": "辉煌.svg",
+    "src": "images/HSK_2.0/level6/辉煌.svg",
+    "caption": "huy hoàng, rực rỡ"
+  },
+  "汇报": {
+    "file": "汇报.svg",
+    "src": "images/HSK_2.0/level6/汇报.svg",
+    "caption": "báo cáo (tổng hợp)"
+  },
+  "汇集": {
+    "file": "汇集.svg",
+    "src": "images/HSK_2.0/level6/汇集.svg",
+    "caption": "tập hợp, hội tụ"
+  },
+  "汇款": {
+    "file": "汇款.svg",
+    "src": "images/HSK_2.0/level6/汇款.svg",
+    "caption": "chuyển tiền"
+  },
+  "贿赂": {
+    "file": "贿赂.svg",
+    "src": "images/HSK_2.0/level6/贿赂.svg",
+    "caption": "hối lộ"
+  },
+  "昏迷": {
+    "file": "昏迷.svg",
+    "src": "images/HSK_2.0/level6/昏迷.svg",
+    "caption": "hôn mê"
+  },
+  "货币": {
+    "file": "货币.svg",
+    "src": "images/HSK_2.0/level6/货币.svg",
+    "caption": "tiền tệ"
+  },
+  "获取": {
+    "file": "获取.svg",
+    "src": "images/HSK_2.0/level6/获取.svg",
+    "caption": "thu được, đạt được"
+  },
+  "基层": {
+    "file": "基层.svg",
+    "src": "images/HSK_2.0/level6/基层.svg",
+    "caption": "cơ sở, cấp dưới"
+  },
   "记载": {
     "file": "记载.svg",
     "src": "images/HSK_2.0/level6/记载.svg",

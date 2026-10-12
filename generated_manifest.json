@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:52:53.455894",
-  "total_unique_words_with_illustrations": 3899,
-  "total_flat_svg_files": 3899,
+  "generated_at": "2026-10-12T12:54:49.046857",
+  "total_unique_words_with_illustrations": 3909,
+  "total_flat_svg_files": 3909,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1259,
-        "pct": "50.4%"
+        "with_svg": 1269,
+        "pct": "50.8%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 610,
-        "pct": "61.0%"
+        "with_svg": 611,
+        "pct": "61.1%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 446,
-        "pct": "24.8%"
+        "with_svg": 450,
+        "pct": "25.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 531,
-        "pct": "9.5%"
+        "with_svg": 536,
+        "pct": "9.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 531,
-        "pct": "9.5%"
+        "with_svg": 536,
+        "pct": "9.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 531,
-        "pct": "9.5%"
+        "with_svg": 536,
+        "pct": "9.6%"
       }
     }
   },
@@ -60620,6 +60620,206 @@
         "images/HSK_3.0/level7/皇后.svg",
         "images/HSK_3.0/level8/皇后.svg",
         "images/HSK_3.0/level9/皇后.svg"
+      ]
+    },
+    "皇帝": {
+      "hanzi": "皇帝",
+      "pinyin": "huángdì",
+      "meaning": "hoàng đế",
+      "example_zh": "古代<u>皇帝</u>拥有至高权力。",
+      "example_vi": "<u>Hoàng đế</u> thời xưa có quyền lực tối cao.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "皇帝.svg",
+      "src": "images/HSK_2.0/level6/皇帝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/皇帝.svg"
+      ]
+    },
+    "辉煌": {
+      "hanzi": "辉煌",
+      "pinyin": "huīhuáng",
+      "meaning": "huy hoàng, rực rỡ",
+      "example_zh": "他取得了<u>辉煌</u>的成就。",
+      "example_vi": "Anh ấy đạt được thành tựu <u>huy hoàng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辉煌.svg",
+      "src": "images/HSK_2.0/level6/辉煌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辉煌.svg",
+        "images/HSK_3.0/level8/辉煌.svg",
+        "images/HSK_3.0/level9/辉煌.svg"
+      ]
+    },
+    "汇报": {
+      "hanzi": "汇报",
+      "pinyin": "huìbào",
+      "meaning": "báo cáo (tổng hợp)",
+      "example_zh": "他向领导<u>汇报</u>了工作进展。",
+      "example_vi": "Anh ấy <u>báo cáo</u> tiến độ công việc cho lãnh đạo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "汇报.svg",
+      "src": "images/HSK_2.0/level6/汇报.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/汇报.svg"
+      ]
+    },
+    "汇集": {
+      "hanzi": "汇集",
+      "pinyin": "huìjí",
+      "meaning": "tập hợp, hội tụ",
+      "example_zh": "这本书<u>汇集</u>了许多名家的作品。",
+      "example_vi": "Cuốn sách này <u>tập hợp</u> nhiều tác phẩm của các danh gia.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "汇集.svg",
+      "src": "images/HSK_2.0/level6/汇集.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/汇集.svg",
+        "images/HSK_3.0/level8/汇集.svg",
+        "images/HSK_3.0/level9/汇集.svg"
+      ]
+    },
+    "汇款": {
+      "hanzi": "汇款",
+      "pinyin": "huìkuǎn",
+      "meaning": "chuyển tiền",
+      "example_zh": "我给家人<u>汇款</u>了。",
+      "example_vi": "Tôi đã <u>chuyển tiền</u> cho gia đình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "汇款.svg",
+      "src": "images/HSK_2.0/level6/汇款.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/汇款.svg"
+      ]
+    },
+    "贿赂": {
+      "hanzi": "贿赂",
+      "pinyin": "huìlù",
+      "meaning": "hối lộ",
+      "example_zh": "他因<u>贿赂</u>官员被判刑。",
+      "example_vi": "Anh ta bị kết án vì <u>hối lộ</u> quan chức.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "贿赂.svg",
+      "src": "images/HSK_2.0/level6/贿赂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/贿赂.svg",
+        "images/HSK_3.0/level8/贿赂.svg",
+        "images/HSK_3.0/level9/贿赂.svg"
+      ]
+    },
+    "昏迷": {
+      "hanzi": "昏迷",
+      "pinyin": "hūnmí",
+      "meaning": "hôn mê",
+      "example_zh": "他在事故中<u>昏迷</u>了。",
+      "example_vi": "Anh ấy bị <u>hôn mê</u> trong vụ tai nạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "昏迷.svg",
+      "src": "images/HSK_2.0/level6/昏迷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/昏迷.svg",
+        "images/HSK_3.0/level8/昏迷.svg",
+        "images/HSK_3.0/level9/昏迷.svg"
+      ]
+    },
+    "货币": {
+      "hanzi": "货币",
+      "pinyin": "huòbì",
+      "meaning": "tiền tệ",
+      "example_zh": "人民币是中国的<u>货币</u>。",
+      "example_vi": "Nhân dân tệ là <u>tiền tệ</u> của Trung Quốc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "货币.svg",
+      "src": "images/HSK_2.0/level6/货币.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/货币.svg"
+      ]
+    },
+    "获取": {
+      "hanzi": "获取",
+      "pinyin": "huòqǔ",
+      "meaning": "thu được, đạt được",
+      "example_zh": "他通过努力<u>获取</u>了成功。",
+      "example_vi": "Anh ấy <u>đạt được</u> thành công qua nỗ lực.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "获取.svg",
+      "src": "images/HSK_2.0/level6/获取.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/获取.svg"
+      ]
+    },
+    "基层": {
+      "hanzi": "基层",
+      "pinyin": "jīcéng",
+      "meaning": "cơ sở, cấp dưới",
+      "example_zh": "他长期在<u>基层</u>工作。",
+      "example_vi": "Anh ấy làm việc lâu năm ở <u>cơ sở</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "基层.svg",
+      "src": "images/HSK_2.0/level6/基层.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/基层.svg",
+        "images/HSK_3.0/level8/基层.svg",
+        "images/HSK_3.0/level9/基层.svg"
       ]
     },
     "记载": {
