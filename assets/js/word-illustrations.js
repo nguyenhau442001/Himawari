@@ -15351,6 +15351,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "天上.svg",
     "src": "images/HSK_3.0/level5/天上.svg",
     "caption": "trên trời, bầu trời"
+  },
+  "填": {
+    "file": "填.svg",
+    "src": "images/HSK_3.0/level5/填.svg",
+    "caption": "điền vào, lấp"
+  },
+  "甜品": {
+    "file": "甜品.svg",
+    "src": "images/HSK_3.0/level5/甜品.svg",
+    "caption": "món tráng miệng, đồ ngọt"
+  },
+  "挑": {
+    "file": "挑.svg",
+    "src": "images/HSK_3.0/level5/挑.svg",
+    "caption": "chọn, lựa chọn"
+  },
+  "挑选": {
+    "file": "挑选.svg",
+    "src": "images/HSK_3.0/level5/挑选.svg",
+    "caption": "lựa chọn, tuyển chọn"
+  },
+  "调": {
+    "file": "调.svg",
+    "src": "images/HSK_3.0/level5/调.svg",
+    "caption": "điều chỉnh, nêm nếm, phối trộn"
+  },
+  "跳高": {
+    "file": "跳高.svg",
+    "src": "images/HSK_3.0/level5/跳高.svg",
+    "caption": "nhảy cao (môn điền kinh)"
+  },
+  "跳远": {
+    "file": "跳远.svg",
+    "src": "images/HSK_3.0/level5/跳远.svg",
+    "caption": "nhảy xa (môn điền kinh)"
+  },
+  "贴": {
+    "file": "贴.svg",
+    "src": "images/HSK_3.0/level5/贴.svg",
+    "caption": "cây gậy"
+  },
+  "铁路": {
+    "file": "铁路.svg",
+    "src": "images/HSK_3.0/level5/铁路.svg",
+    "caption": "đường sắt"
+  },
+  "停留": {
+    "file": "停留.svg",
+    "src": "images/HSK_3.0/level5/停留.svg",
+    "caption": "dừng lại, lưu lại"
   }
 };
 

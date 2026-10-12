@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:05:21.832282",
-  "total_unique_words_with_illustrations": 3010,
-  "total_flat_svg_files": 3010,
+  "generated_at": "2026-10-12T09:08:22.130291",
+  "total_unique_words_with_illustrations": 3020,
+  "total_flat_svg_files": 3020,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1391,
-        "pct": "86.9%"
+        "with_svg": 1401,
+        "pct": "87.6%"
       },
       "level6": {
         "total": 1800,
@@ -68,17 +68,17 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 104,
+        "with_svg": 105,
         "pct": "1.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 104,
+        "with_svg": 105,
         "pct": "1.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 104,
+        "with_svg": 105,
         "pct": "1.9%"
       }
     }
@@ -53630,6 +53630,153 @@
       ],
       "file": "天上.svg",
       "src": "images/HSK_3.0/level5/天上.svg",
+      "alt_srcs": []
+    },
+    "填": {
+      "hanzi": "填",
+      "pinyin": "tián",
+      "meaning": "điền vào, lấp",
+      "example_zh": "请在这张申请表上<u>填</u>写你的个人信息。",
+      "example_vi": "Xin hãy <u>điền</u> thông tin cá nhân của bạn vào đơn đăng ký này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "填.svg",
+      "src": "images/HSK_3.0/level5/填.svg",
+      "alt_srcs": []
+    },
+    "甜品": {
+      "hanzi": "甜品",
+      "pinyin": "tiánpǐn",
+      "meaning": "món tráng miệng, đồ ngọt",
+      "example_zh": "吃完正餐后，再来一份<u>甜品</u>真是太幸福了。",
+      "example_vi": "Sau khi ăn bữa chính, được thưởng thức thêm một phần <u>đồ ngọt</u> thật là hạnh phúc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "甜品.svg",
+      "src": "images/HSK_3.0/level5/甜品.svg",
+      "alt_srcs": []
+    },
+    "挑": {
+      "hanzi": "挑",
+      "pinyin": "tiāo",
+      "meaning": "chọn, lựa chọn",
+      "example_zh": "买水果的时候要仔细<u>挑</u>一<u>挑</u>。",
+      "example_vi": "Khi mua hoa quả thì phải cẩn thận <u>chọn lựa</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5",
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挑.svg",
+      "src": "images/HSK_3.0/level5/挑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挑.svg",
+        "images/HSK_3.0/level8/挑.svg",
+        "images/HSK_3.0/level9/挑.svg"
+      ]
+    },
+    "挑选": {
+      "hanzi": "挑选",
+      "pinyin": "tiāoxuǎn",
+      "meaning": "lựa chọn, tuyển chọn",
+      "example_zh": "她在商场里精心地<u>挑选</u>给妈妈的礼物。",
+      "example_vi": "Cô ấy ở trung tâm thương mại cẩn thận <u>chọn lựa</u> quà cho mẹ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "挑选.svg",
+      "src": "images/HSK_3.0/level5/挑选.svg",
+      "alt_srcs": []
+    },
+    "调": {
+      "hanzi": "调",
+      "pinyin": "tiáo",
+      "meaning": "điều chỉnh, nêm nếm, phối trộn",
+      "example_zh": "空调温度太低了，请<u>调</u>高一点儿。",
+      "example_vi": "Nhiệt độ điều hòa thấp quá, xin hãy <u>điều chỉnh</u> cao lên một chút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "调.svg",
+      "src": "images/HSK_3.0/level5/调.svg",
+      "alt_srcs": []
+    },
+    "跳高": {
+      "hanzi": "跳高",
+      "pinyin": "tiàogāo",
+      "meaning": "nhảy cao (môn điền kinh)",
+      "example_zh": "他在这次校运会的<u>跳高</u>比赛中得了第一名。",
+      "example_vi": "Anh ấy đã đạt giải nhất môn <u>nhảy cao</u> trong đại hội thể thao trường lần này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "跳高.svg",
+      "src": "images/HSK_3.0/level5/跳高.svg",
+      "alt_srcs": []
+    },
+    "跳远": {
+      "hanzi": "跳远",
+      "pinyin": "tiàoyuǎn",
+      "meaning": "nhảy xa (môn điền kinh)",
+      "example_zh": "妹妹体育课上的<u>跳远</u>成绩非常优秀。",
+      "example_vi": "Thành tích <u>nhảy xa</u> trong giờ thể dục của em gái rất xuất sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "跳远.svg",
+      "src": "images/HSK_3.0/level5/跳远.svg",
+      "alt_srcs": []
+    },
+    "贴": {
+      "hanzi": "贴",
+      "pinyin": "tiē",
+      "meaning": "cây gậy",
+      "example_zh": "春节家家<u>贴</u>对联",
+      "example_vi": "Tết Nguyên đán nhà nào cũng dán câu đối.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "贴.svg",
+      "src": "images/HSK_3.0/level5/贴.svg",
+      "alt_srcs": []
+    },
+    "铁路": {
+      "hanzi": "铁路",
+      "pinyin": "tiělù",
+      "meaning": "đường sắt",
+      "example_zh": "这条高速<u>铁路</u>极大地方便了两地居民的出行。",
+      "example_vi": "Tuyến <u>đường sắt</u> cao tốc này giúp việc đi lại của người dân hai nơi thuận tiện hơn rất nhiều.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "铁路.svg",
+      "src": "images/HSK_3.0/level5/铁路.svg",
+      "alt_srcs": []
+    },
+    "停留": {
+      "hanzi": "停留",
+      "pinyin": "tíngliú",
+      "meaning": "dừng lại, lưu lại",
+      "example_zh": "列车在这座车站只<u>停留</u>两分钟。",
+      "example_vi": "Đoàn tàu chỉ <u>dừng lại</u> ở nhà ga này hai phút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "停留.svg",
+      "src": "images/HSK_3.0/level5/停留.svg",
       "alt_srcs": []
     }
   }

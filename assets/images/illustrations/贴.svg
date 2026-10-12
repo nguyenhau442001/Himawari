@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(40, 40)">
+    <rect x="20" y="20" width="60" height="140" rx="4" fill="#ef4444" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="85" y="20" width="60" height="140" rx="4" fill="#ef4444" stroke="#f59e0b" stroke-width="2"/>
+    
+    <path d="M40 40h20v100h-20z" fill="#f59e0b"/>
+    <path d="M105 40h20v100h-20z" fill="#f59e0b"/>
+    
+    <path d="M50 30l-5 10m10-10l-5 10m10-10l-5 10" stroke="#f59e0b" stroke-width="2"/>
+    <path d="M115 30l-5 10m10-10l-5 10m10-10l-5 10" stroke="#f59e0b" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(120, 100)">
+    <circle cx="0" cy="0" r="25" fill="#fbbf24"/>
+    <path d="M-10 -5h20M-10 5h20" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-5 -15l5 5l5 -5" fill="none" stroke="#0f172a" stroke-width="2"/>
+    
+    <path d="M-15 30l-10 20m25 -20l10 20" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-5 30h10v20h-10z" fill="#38bdf8"/>
+    <path d="M-20 60h40v10h-40z" fill="#10b981"/>
+  </g>
+
+  <g transform="translate(180, 150)">
+    <rect x="-10" y="-10" width="20" height="20" rx="2" fill="#ec4899"/>
+    <path d="M-5 -5l10 10M5 -5l-10 10" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Track Field Ground -->
+  <path d="M0 190 L240 190 L240 240 L0 240 Z" fill="#334155"/>
+  <rect x="0" y="190" width="240" height="5" fill="#475569"/>
+  
+  <!-- High Jump Stand -->
+  <rect x="180" y="80" width="4" height="110" fill="#94a3b8"/>
+  <rect x="175" y="80" width="14" height="6" fill="#cbd5e1"/>
+  
+  <!-- The Bar -->
+  <rect x="40" y="100" width="140" height="3" fill="#fbbf24"/>
+  
+  <!-- The Athlete (Mid-air) -->
+  <g transform="translate(110, 80) rotate(15)">
+    <!-- Body -->
+    <path d="M0 20 C20 10, 50 10, 70 20 L60 40 L-10 40 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="12" fill="#fde68a"/>
+    <!-- Legs -->
+    <path d="M60 35 L80 15 M55 40 L70 55" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <!-- Arms -->
+    <path d="M10 25 L30 5 M20 30 L40 15" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Landing Mat -->
+  <path d="M30 190 L150 190 L140 210 L20 210 Z" fill="#ec4899" opacity="0.8"/>
+  
+  <!-- Celebration/Medal Element -->
+  <circle cx="200" cy="40" r="15" fill="#f59e0b" stroke="#fbbf24" stroke-width="3"/>
+  <path d="M195 40 L200 45 L208 35" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Ambient Sparkles -->
+  <circle cx="50" cy="60" r="2" fill="#10b981"/>
+  <circle cx="210" cy="120" r="2" fill="#10b981"/>
+  <circle cx="150" cy="150" r="3" fill="#fb923c"/>
+</svg>

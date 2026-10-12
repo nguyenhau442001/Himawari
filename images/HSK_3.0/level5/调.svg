@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Wall AC Unit -->
+  <rect x="60" y="40" width="120" height="30" rx="4" fill="#334155"/>
+  <rect x="65" y="60" width="110" height="5" rx="1" fill="#1e293b"/>
+  <path d="M70 70 L170 70 L175 80 L65 80 Z" fill="#38bdf8" opacity="0.6"/>
+  
+  <!-- Cold Air Effect -->
+  <path d="M75 85 Q90 95 105 85 T135 85" stroke="#38bdf8" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Character shivering -->
+  <g transform="translate(120, 150)">
+    <circle cx="0" cy="-40" r="20" fill="#fde68a"/>
+    <path d="M-10 -35 Q0 -25 10 -35" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M-5 -45 L-2 -42 L1 -45" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M5 -45 L8 -42 L11 -45" stroke="#475569" stroke-width="2" fill="none"/>
+    <rect x="-30" y="-20" width="60" height="40" rx="10" fill="#fb923c"/>
+    <path d="M-35 -10 L-45 -5 M35 -10 L45 -5" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Remote Control -->
+  <g transform="translate(160, 180)">
+    <rect x="0" y="0" width="20" height="45" rx="3" fill="#94a3b8"/>
+    <rect x="4" y="5" width="12" height="8" rx="1" fill="#1e293b"/>
+    <circle cx="10" cy="25" r="4" fill="#f59e0b"/>
+    <path d="M10 20 L10 18 M10 22 L10 20" stroke="#f59e0b" stroke-width="2"/>
+  </g>
+  
+  <!-- Interaction indicator -->
+  <path d="M150 170 L165 150" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <circle cx="165" cy="150" r="4" fill="#fbbf24"/>
+</svg>
