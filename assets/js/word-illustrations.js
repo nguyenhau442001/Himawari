@@ -13527,6 +13527,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/补救.svg",
     "caption": "khắc phục, cứu vớt"
   },
+  "哺乳": {
+    "file": "哺乳.svg",
+    "src": "images/HSK_2.0/level6/哺乳.svg",
+    "caption": "cho con bú"
+  },
+  "补贴": {
+    "file": "补贴.svg",
+    "src": "images/HSK_2.0/level6/补贴.svg",
+    "caption": "trợ cấp"
+  },
+  "捕捉": {
+    "file": "捕捉.svg",
+    "src": "images/HSK_2.0/level6/捕捉.svg",
+    "caption": "bắt, tóm"
+  },
+  "不必": {
+    "file": "不必.svg",
+    "src": "images/HSK_2.0/level6/不必.svg",
+    "caption": "không cần"
+  },
+  "不得已": {
+    "file": "不得已.svg",
+    "src": "images/HSK_2.0/level6/不得已.svg",
+    "caption": "bất đắc dĩ, không có lựa chọn khác"
+  },
+  "步伐": {
+    "file": "步伐.svg",
+    "src": "images/HSK_2.0/level6/步伐.svg",
+    "caption": "bước chân, nhịp bước"
+  },
+  "不妨": {
+    "file": "不妨.svg",
+    "src": "images/HSK_2.0/level6/不妨.svg",
+    "caption": "không ngại, cứ"
+  },
+  "不敢当": {
+    "file": "不敢当.svg",
+    "src": "images/HSK_2.0/level6/不敢当.svg",
+    "caption": "tôi không xứng đáng (khiêm tốn)"
+  },
+  "布告": {
+    "file": "布告.svg",
+    "src": "images/HSK_2.0/level6/布告.svg",
+    "caption": "thông báo, bảng tin"
+  },
+  "不顾": {
+    "file": "不顾.svg",
+    "src": "images/HSK_2.0/level6/不顾.svg",
+    "caption": "không màng tới, bất kể"
+  },
   "裁判": {
     "file": "裁判.svg",
     "src": "images/HSK_2.0/level6/裁判.svg",

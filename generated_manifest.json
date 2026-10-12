@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:55:18.068734",
-  "total_unique_words_with_illustrations": 3359,
-  "total_flat_svg_files": 3359,
+  "generated_at": "2026-10-12T10:58:30.082110",
+  "total_unique_words_with_illustrations": 3369,
+  "total_flat_svg_files": 3369,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 719,
-        "pct": "28.8%"
+        "with_svg": 729,
+        "pct": "29.2%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 606,
-        "pct": "60.6%"
+        "with_svg": 607,
+        "pct": "60.7%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 274,
-        "pct": "15.2%"
+        "with_svg": 276,
+        "pct": "15.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 204,
-        "pct": "3.6%"
+        "with_svg": 210,
+        "pct": "3.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 204,
-        "pct": "3.6%"
+        "with_svg": 210,
+        "pct": "3.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 204,
-        "pct": "3.6%"
+        "with_svg": 210,
+        "pct": "3.8%"
       }
     }
   },
@@ -49064,6 +49064,206 @@
         "images/HSK_3.0/level7/补救.svg",
         "images/HSK_3.0/level8/补救.svg",
         "images/HSK_3.0/level9/补救.svg"
+      ]
+    },
+    "哺乳": {
+      "hanzi": "哺乳",
+      "pinyin": "bǔrǔ",
+      "meaning": "cho con bú",
+      "example_zh": "这是<u>哺乳</u>动物的特征。",
+      "example_vi": "Đây là đặc điểm của động vật <u>có vú</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "哺乳.svg",
+      "src": "images/HSK_2.0/level6/哺乳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/哺乳.svg",
+        "images/HSK_3.0/level8/哺乳.svg",
+        "images/HSK_3.0/level9/哺乳.svg"
+      ]
+    },
+    "补贴": {
+      "hanzi": "补贴",
+      "pinyin": "bǔtiē",
+      "meaning": "trợ cấp",
+      "example_zh": "政府给农民发<u>补贴</u>。",
+      "example_vi": "Chính phủ cấp <u>trợ cấp</u> cho nông dân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "补贴.svg",
+      "src": "images/HSK_2.0/level6/补贴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/补贴.svg"
+      ]
+    },
+    "捕捉": {
+      "hanzi": "捕捉",
+      "pinyin": "bǔzhuō",
+      "meaning": "bắt, tóm",
+      "example_zh": "摄影师<u>捕捉</u>到了精彩的瞬间。",
+      "example_vi": "Nhiếp ảnh gia đã <u>bắt</u> được khoảnh khắc tuyệt vời.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "捕捉.svg",
+      "src": "images/HSK_2.0/level6/捕捉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/捕捉.svg",
+        "images/HSK_3.0/level8/捕捉.svg",
+        "images/HSK_3.0/level9/捕捉.svg"
+      ]
+    },
+    "不必": {
+      "hanzi": "不必",
+      "pinyin": "bùbì",
+      "meaning": "không cần",
+      "example_zh": "你<u>不必</u>太担心。",
+      "example_vi": "Bạn <u>không cần</u> quá lo lắng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "不必.svg",
+      "src": "images/HSK_2.0/level6/不必.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/不必.svg"
+      ]
+    },
+    "不得已": {
+      "hanzi": "不得已",
+      "pinyin": "bùdéyǐ",
+      "meaning": "bất đắc dĩ, không có lựa chọn khác",
+      "example_zh": "我也是<u>不得已</u>才这么做的。",
+      "example_vi": "Tôi cũng <u>bất đắc dĩ</u> mới làm như vậy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不得已.svg",
+      "src": "images/HSK_2.0/level6/不得已.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不得已.svg",
+        "images/HSK_3.0/level8/不得已.svg",
+        "images/HSK_3.0/level9/不得已.svg"
+      ]
+    },
+    "步伐": {
+      "hanzi": "步伐",
+      "pinyin": "bùfá",
+      "meaning": "bước chân, nhịp bước",
+      "example_zh": "他的<u>步伐</u>很稳。",
+      "example_vi": "<u>Bước chân</u> của anh ấy rất vững.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "步伐.svg",
+      "src": "images/HSK_2.0/level6/步伐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/步伐.svg",
+        "images/HSK_3.0/level8/步伐.svg",
+        "images/HSK_3.0/level9/步伐.svg"
+      ]
+    },
+    "不妨": {
+      "hanzi": "不妨",
+      "pinyin": "bùfáng",
+      "meaning": "không ngại, cứ",
+      "example_zh": "你<u>不妨</u>试一试。",
+      "example_vi": "Bạn <u>cứ</u> thử xem.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不妨.svg",
+      "src": "images/HSK_2.0/level6/不妨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不妨.svg",
+        "images/HSK_3.0/level8/不妨.svg",
+        "images/HSK_3.0/level9/不妨.svg"
+      ]
+    },
+    "不敢当": {
+      "hanzi": "不敢当",
+      "pinyin": "bùgǎndāng",
+      "meaning": "tôi không xứng đáng (khiêm tốn)",
+      "example_zh": "您这样夸我，我真<u>不敢当</u>。",
+      "example_vi": "Anh khen tôi như vậy, tôi thực <u>không xứng đáng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不敢当.svg",
+      "src": "images/HSK_2.0/level6/不敢当.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不敢当.svg",
+        "images/HSK_3.0/level8/不敢当.svg",
+        "images/HSK_3.0/level9/不敢当.svg"
+      ]
+    },
+    "布告": {
+      "hanzi": "布告",
+      "pinyin": "bùgào",
+      "meaning": "thông báo, bảng tin",
+      "example_zh": "学校贴出了一张<u>布告</u>。",
+      "example_vi": "Nhà trường dán một <u>thông báo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "布告.svg",
+      "src": "images/HSK_2.0/level6/布告.svg",
+      "alt_srcs": []
+    },
+    "不顾": {
+      "hanzi": "不顾",
+      "pinyin": "bùgù",
+      "meaning": "không màng tới, bất kể",
+      "example_zh": "他<u>不顾</u>危险冲进了火场。",
+      "example_vi": "Anh ấy <u>không màng</u> nguy hiểm xông vào hiện trường cháy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "不顾.svg",
+      "src": "images/HSK_2.0/level6/不顾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/不顾.svg"
       ]
     },
     "裁判": {

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Environment: Nature/Park Setting -->
+  <circle cx="180" cy="60" r="30" fill="#fbbf24" opacity="0.2"/>
+  <path d="M0 180 Q 60 150 120 180 T 240 180 V 240 H 0 Z" fill="#10b981" opacity="0.3"/>
+  <path d="M20 240 V 190 Q 40 170 60 190 V 240 Z" fill="#334155"/>
+  <path d="M180 240 V 170 Q 200 150 220 170 V 240 Z" fill="#334155"/>
+
+  <!-- Main Subject: Mother Deer and Fawn (Mammal context) -->
+  <!-- Body of Mother Deer -->
+  <ellipse cx="100" cy="160" rx="45" ry="30" fill="#fb923c"/>
+  <!-- Neck and Head -->
+  <path d="M130 140 L 145 100 L 165 105 L 150 150 Z" fill="#fb923c"/>
+  <ellipse cx="160" cy="105" rx="12" ry="10" fill="#fb923c"/>
+  <!-- Ears -->
+  <path d="M155 95 L 150 80 L 160 95 Z" fill="#fb923c"/>
+  <!-- Fawn (Nursing) -->
+  <ellipse cx="80" cy="180" rx="25" ry="18" fill="#f59e0b"/>
+  <path d="M95 175 L 110 170 L 105 185 Z" fill="#f59e0b"/>
+  <circle cx="100" cy="172" r="6" fill="#f59e0b"/>
+  
+  <!-- Detail: Nursing interaction point -->
+  <circle cx="105" cy="182" r="3" fill="#ec4899" opacity="0.8"/>
+  
+  <!-- Decorative elements: Nature -->
+  <circle cx="30" cy="200" r="8" fill="#38bdf8"/>
+  <circle cx="210" cy="210" r="6" fill="#38bdf8"/>
+  <path d="M40 220 L 50 200 L 60 220 Z" fill="#10b981"/>
+</svg>
