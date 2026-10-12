@@ -1,0 +1,60 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Grid/Elements representing distance/horizon -->
+  <line x1="40" y1="160" x2="200" y2="160" stroke="#2A303C" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="110" r="70" fill="#222733" opacity="0.5"/>
+
+  <!-- Field of Vision / Telescope / Horizon Physical Object representing "Tầm nhìn / Thị giới" -->
+  <!-- Outer Binoculars / Optical Instrument Body -->
+  <g transform="translate(0, 5)">
+    <!-- Connecting bridge -->
+    <rect x="106" y="90" width="28" height="12" rx="4" fill="#3A4454"/>
+    
+    <!-- Left Barrel -->
+    <g>
+      <!-- Main tube -->
+      <path d="M 68 75 L 84 135 L 100 135 L 92 75 Z" fill="#2E3748"/>
+      <rect x="64" y="65" width="28" height="14" rx="4" fill="#FFB020"/>
+      <rect x="80" y="130" width="24" height="12" rx="3" fill="#E59A10"/>
+      <!-- Lens glow (Left) -->
+      <ellipse cx="78" cy="72" rx="10" ry="4" fill="#4DF0FF" opacity="0.8"/>
+    </g>
+
+    <!-- Right Barrel -->
+    <g>
+      <!-- Main tube -->
+      <path d="M 172 75 L 156 135 L 140 135 L 148 75 Z" fill="#2E3748"/>
+      <rect x="148" y="65" width="28" height="14" rx="4" fill="#FFB020"/>
+      <rect x="136" y="130" width="24" height="12" rx="3" fill="#E59A10"/>
+      <!-- Lens glow (Right) -->
+      <ellipse cx="162" cy="72" rx="10" ry="4" fill="#4DF0FF" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- Expanding Field of View Cones (Vivid horizon scenery framed inside/through) -->
+  <g opacity="0.9">
+    <!-- Left view cone -->
+    <path d="M 78 76 L 30 35 L 55 30 Z" fill="#FFB020" opacity="0.2"/>
+    <!-- Right view cone -->
+    <path d="M 162 76 L 210 35 L 185 30 Z" fill="#FFB020" opacity="0.2"/>
+    
+    <!-- Horizon Landscape elements emerging from the focus -->
+    <!-- Sun / Focal point -->
+    <circle cx="120" cy="50" r="14" fill="#FFB020"/>
+    
+    <!-- Mountain ranges (Broad horizon / 视野) -->
+    <path d="M 60 135 L 90 95 L 120 120 L 150 90 L 180 135 Z" fill="#2A3548"/>
+    <path d="M 40 135 L 75 105 L 105 135 Z" fill="#222B38"/>
+    <path d="M 135 135 L 165 105 L 200 135 Z" fill="#222B38"/>
+  </g>
+
+  <!-- Accent Focus / Horizon Arc -->
+  <path d="M 50 150 C 80 140, 160 140, 190 150" stroke="#4DF0FF" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Little glowing nodes representing broadened horizons -->
+  <circle cx="50" cy="150" r="3" fill="#4DF0FF"/>
+  <circle cx="190" cy="150" r="3" fill="#4DF0FF"/>
+  <circle cx="120" cy="143" r="4" fill="#FFB020"/>
+</svg>

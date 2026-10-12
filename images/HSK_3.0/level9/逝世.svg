@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.5"/>
+  <path d="M120 45 L120 185" stroke="#2F3640" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round"/>
+
+  <!-- Central Physical Object: Traditional Memorial Lantern / Incense / Passing representation -->
+  <g transform="translate(0, 0)">
+    <!-- Base / Stand -->
+    <path d="M90 175 L150 175 C155 175, 155 183, 150 183 L90 183 C85 183, 85 175, 90 175 Z" fill="#4B5563"/>
+    <rect x="114" y="155" width="12" height="20" fill="#374151"/>
+
+    <!-- Main Vessel / Urn / Lantern Body -->
+    <path d="M92 105 C92 90, 148 90, 148 105 L155 145 C155 153, 148 155, 140 155 L100 155 C92 155, 85 153, 92 145 Z" fill="#374151"/>
+    
+    <!-- Golden Accent Band -->
+    <path d="M93 115 L147 115 L145 125 L95 125 Z" fill="#F59E0B" opacity="0.8"/>
+
+    <!-- Top Lid -->
+    <path d="M100 90 L140 90 L135 80 L105 80 Z" fill="#4B5563"/>
+    <circle cx="120" cy="74" r="6" fill="#F59E0B"/>
+
+    <!-- Gentle rising light / soul representation (Abstract glowing flame/particle) -->
+    <g>
+      <!-- Glow -->
+      <circle cx="120" cy="50" r="18" fill="#F59E0B" opacity="0.15"/>
+      <circle cx="120" cy="40" r="12" fill="#F59E0B" opacity="0.25"/>
+      
+      <!-- Flame / Spirit Spark -->
+      <path d="M120 22 C120 22, 108 40, 108 50 C108 57, 113 62, 120 62 C127 62, 132 57, 132 50 C132 40, 120 22, 120 22 Z" fill="#F59E0B"/>
+      <path d="M120 32 C120 32, 114 43, 114 50 C114 54, 117 57, 120 57 C123 57, 126 54, 126 50 C126 43, 120 32, 120 32 Z" fill="#FDE68A"/>
+    </g>
+
+    <!-- Floating ethereal particles (ascending transition) -->
+    <circle cx="95" cy="75" r="2" fill="#F59E0B" opacity="0.6"/>
+    <circle cx="148" cy="65" r="3" fill="#F59E0B" opacity="0.4"/>
+    <circle cx="102" cy="45" r="1.5" fill="#FDE68A" opacity="0.7"/>
+    <circle cx="138" cy="35" r="2.5" fill="#FDE68A" opacity="0.5"/>
+  </g>
+</svg>

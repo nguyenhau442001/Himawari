@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:13:45.674029",
-  "total_unique_words_with_illustrations": 4578,
-  "total_flat_svg_files": 4578,
+  "generated_at": "2026-10-12T23:14:15.791589",
+  "total_unique_words_with_illustrations": 4583,
+  "total_flat_svg_files": 4583,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1938,
-        "pct": "77.5%"
+        "with_svg": 1943,
+        "pct": "77.7%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 616,
-        "pct": "61.6%"
+        "with_svg": 617,
+        "pct": "61.7%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 645,
-        "pct": "35.8%"
+        "with_svg": 646,
+        "pct": "35.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 975,
-        "pct": "17.4%"
+        "with_svg": 978,
+        "pct": "17.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 975,
-        "pct": "17.4%"
+        "with_svg": 978,
+        "pct": "17.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 975,
-        "pct": "17.4%"
+        "with_svg": 978,
+        "pct": "17.5%"
       }
     }
   },
@@ -75260,6 +75260,108 @@
       "src": "images/HSK_2.0/level6/适宜.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/适宜.svg"
+      ]
+    },
+    "视力": {
+      "hanzi": "视力",
+      "pinyin": "shìlì",
+      "meaning": "thị lực",
+      "example_zh": "他的<u>视力</u>越来越差了。",
+      "example_vi": "<u>Thị lực</u> của anh ấy ngày càng kém.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "视力.svg",
+      "src": "images/HSK_2.0/level6/视力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/视力.svg"
+      ]
+    },
+    "视频": {
+      "hanzi": "视频",
+      "pinyin": "shìpín",
+      "meaning": "video",
+      "example_zh": "他拍了一段有趣的<u>视频</u>。",
+      "example_vi": "Anh ấy đã quay một đoạn <u>video</u> thú vị.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "视频.svg",
+      "src": "images/HSK_2.0/level6/视频.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/视频.svg"
+      ]
+    },
+    "视线": {
+      "hanzi": "视线",
+      "pinyin": "shìxiàn",
+      "meaning": "tầm nhìn, ánh nhìn",
+      "example_zh": "浓雾遮住了大家的<u>视线</u>。",
+      "example_vi": "Sương dày che mất <u>tầm nhìn</u> của mọi người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "视线.svg",
+      "src": "images/HSK_2.0/level6/视线.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/视线.svg",
+        "images/HSK_3.0/level8/视线.svg",
+        "images/HSK_3.0/level9/视线.svg"
+      ]
+    },
+    "视野": {
+      "hanzi": "视野",
+      "pinyin": "shìyě",
+      "meaning": "tầm nhìn, thị giới",
+      "example_zh": "旅行可以拓宽我们的<u>视野</u>。",
+      "example_vi": "Du lịch có thể mở rộng <u>tầm nhìn</u> của chúng ta.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "视野.svg",
+      "src": "images/HSK_2.0/level6/视野.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/视野.svg",
+        "images/HSK_3.0/level8/视野.svg",
+        "images/HSK_3.0/level9/视野.svg"
+      ]
+    },
+    "逝世": {
+      "hanzi": "逝世",
+      "pinyin": "shìshì",
+      "meaning": "qua đời, mất",
+      "example_zh": "这位老人不久前<u>逝世</u>了。",
+      "example_vi": "Cụ già này đã <u>qua đời</u> không lâu trước đây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逝世.svg",
+      "src": "images/HSK_2.0/level6/逝世.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/逝世.svg",
+        "images/HSK_3.0/level8/逝世.svg",
+        "images/HSK_3.0/level9/逝世.svg"
       ]
     },
     "书法": {

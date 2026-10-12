@@ -20027,6 +20027,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/适宜.svg",
     "caption": "thích hợp, phù hợp"
   },
+  "视力": {
+    "file": "视力.svg",
+    "src": "images/HSK_2.0/level6/视力.svg",
+    "caption": "thị lực"
+  },
+  "视频": {
+    "file": "视频.svg",
+    "src": "images/HSK_2.0/level6/视频.svg",
+    "caption": "video"
+  },
+  "视线": {
+    "file": "视线.svg",
+    "src": "images/HSK_2.0/level6/视线.svg",
+    "caption": "tầm nhìn, ánh nhìn"
+  },
+  "视野": {
+    "file": "视野.svg",
+    "src": "images/HSK_2.0/level6/视野.svg",
+    "caption": "tầm nhìn, thị giới"
+  },
+  "逝世": {
+    "file": "逝世.svg",
+    "src": "images/HSK_2.0/level6/逝世.svg",
+    "caption": "qua đời, mất"
+  },
   "书法": {
     "file": "书法.svg",
     "src": "images/HSK_2.0/level6/书法.svg",
