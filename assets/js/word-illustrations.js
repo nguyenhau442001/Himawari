@@ -13252,6 +13252,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/随意.svg",
     "caption": "tùy ý, tự nhiên"
   },
+  "统计": {
+    "file": "统计.svg",
+    "src": "images/HSK_2.0/level6/统计.svg",
+    "caption": "thống kê"
+  },
+  "头": {
+    "file": "头.svg",
+    "src": "images/HSK_3.0/level2/头.svg",
+    "caption": "đầu (danh từ, số lượng, tính từ)"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
@@ -15401,6 +15411,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "停留.svg",
     "src": "images/HSK_3.0/level5/停留.svg",
     "caption": "dừng lại, lưu lại"
+  },
+  "通行": {
+    "file": "通行.svg",
+    "src": "images/HSK_3.0/level5/通行.svg",
+    "caption": "thông hành, lưu thông, đi lại"
+  },
+  "同": {
+    "file": "同.svg",
+    "src": "images/HSK_3.0/level5/同.svg",
+    "caption": "cùng, cùng với; giống nhau"
+  },
+  "同一": {
+    "file": "同一.svg",
+    "src": "images/HSK_3.0/level5/同一.svg",
+    "caption": "cùng một"
+  },
+  "投": {
+    "file": "投.svg",
+    "src": "images/HSK_3.0/level5/投.svg",
+    "caption": "ném; bỏ (phiếu); đầu tư"
+  },
+  "图画": {
+    "file": "图画.svg",
+    "src": "images/HSK_3.0/level5/图画.svg",
+    "caption": "bức tranh, tranh vẽ"
+  },
+  "图书": {
+    "file": "图书.svg",
+    "src": "images/HSK_3.0/level5/图书.svg",
+    "caption": "sách, sách báo tư liệu"
+  },
+  "团队": {
+    "file": "团队.svg",
+    "src": "images/HSK_3.0/level5/团队.svg",
+    "caption": "đội"
+  },
+  "推动": {
+    "file": "推动.svg",
+    "src": "images/HSK_3.0/level5/推动.svg",
+    "caption": "thúc đẩy, đẩy mạnh"
   }
 };
 

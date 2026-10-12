@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="30" y="140" width="180" height="8" rx="2" fill="#475569"/>
+  <path d="M40 148 L50 200 M200 148 L190 200" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Laptop showing growth chart -->
+  <rect x="60" y="90" width="120" height="50" rx="4" fill="#334155"/>
+  <rect x="65" y="95" width="110" height="40" fill="#0f172a"/>
+  <path d="M75 125 L95 110 L115 115 L140 85 L165 95" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="70" r="15" fill="#fcd34d"/>
+  <path d="M100 100 Q120 80 140 100 L135 140 L105 140 Z" fill="#38bdf8"/>
+  <path d="M105 110 L90 130" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M135 110 L150 130" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- The "Pushing" Mechanism (Symbolizing Innovation driving economy) -->
+  <circle cx="180" cy="160" r="25" fill="#fb923c" opacity="0.2"/>
+  <path d="M180 145 L180 175 M165 160 L195 160" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Floating Tech Elements -->
+  <circle cx="50" cy="60" r="4" fill="#ec4899"/>
+  <circle cx="200" cy="50" r="6" fill="#38bdf8"/>
+  <path d="M190 100 L200 90 L210 100 L200 110 Z" fill="#f59e0b"/>
+  
+  <!-- Growth Arrow -->
+  <path d="M20 180 Q120 180 220 180" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M210 170 L220 180 L210 190" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

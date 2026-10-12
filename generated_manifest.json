@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:08:22.130291",
-  "total_unique_words_with_illustrations": 3020,
-  "total_flat_svg_files": 3020,
+  "generated_at": "2026-10-12T09:11:13.453560",
+  "total_unique_words_with_illustrations": 3030,
+  "total_flat_svg_files": 3030,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 557,
+        "with_svg": 558,
         "pct": "22.3%"
       }
     },
@@ -43,8 +43,8 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 103,
-        "pct": "51.5%"
+        "with_svg": 104,
+        "pct": "52.0%"
       },
       "level3": {
         "total": 500,
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1401,
-        "pct": "87.6%"
+        "with_svg": 1411,
+        "pct": "88.2%"
       },
       "level6": {
         "total": 1800,
@@ -47736,6 +47736,41 @@
         "images/HSK_3.0/level5/随意.svg"
       ]
     },
+    "统计": {
+      "hanzi": "统计",
+      "pinyin": "tǒngjì",
+      "meaning": "thống kê",
+      "example_zh": "据<u>统计</u>，今年游客增加了很多。",
+      "example_vi": "Theo <u>thống kê</u>, du khách năm nay tăng lên rất nhiều.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "统计.svg",
+      "src": "images/HSK_2.0/level6/统计.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/统计.svg"
+      ]
+    },
+    "头": {
+      "hanzi": "头",
+      "pinyin": "tóu",
+      "meaning": "đầu (danh từ, số lượng, tính từ)",
+      "example_zh": "我的<u>头</u>很疼",
+      "example_vi": "Đầu tôi rất đau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2",
+        "level5"
+      ],
+      "file": "头.svg",
+      "src": "images/HSK_3.0/level2/头.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/头.svg"
+      ]
+    },
     "量": {
       "hanzi": "量",
       "pinyin": "liáng",
@@ -53777,6 +53812,118 @@
       ],
       "file": "停留.svg",
       "src": "images/HSK_3.0/level5/停留.svg",
+      "alt_srcs": []
+    },
+    "通行": {
+      "hanzi": "通行",
+      "pinyin": "tōngxíng",
+      "meaning": "thông hành, lưu thông, đi lại",
+      "example_zh": "因大雪封路，前方道路暂时无法<u>通行</u>。",
+      "example_vi": "Vì tuyết lớn chặn đường nên đoạn đường phía trước tạm thời không thể <u>lưu thông</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "通行.svg",
+      "src": "images/HSK_3.0/level5/通行.svg",
+      "alt_srcs": []
+    },
+    "同": {
+      "hanzi": "同",
+      "pinyin": "tóng",
+      "meaning": "cùng, cùng với; giống nhau",
+      "example_zh": "我们要<u>同</u>困难做斗争。",
+      "example_vi": "Chúng ta phải <u>cùng</u> đấu tranh chống lại khó khăn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "同.svg",
+      "src": "images/HSK_3.0/level5/同.svg",
+      "alt_srcs": []
+    },
+    "同一": {
+      "hanzi": "同一",
+      "pinyin": "tóngyī",
+      "meaning": "cùng một",
+      "example_zh": "他们毕业于<u>同一</u>所大学。",
+      "example_vi": "Họ tốt nghiệp từ <u>cùng một</u> trường đại học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "同一.svg",
+      "src": "images/HSK_3.0/level5/同一.svg",
+      "alt_srcs": []
+    },
+    "投": {
+      "hanzi": "投",
+      "pinyin": "tóu",
+      "meaning": "ném; bỏ (phiếu); đầu tư",
+      "example_zh": "他把手中的废纸<u>投</u>进了垃圾桶。",
+      "example_vi": "Anh ấy <u>ném</u> mảnh giấy vụn trên tay vào thùng rác.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "投.svg",
+      "src": "images/HSK_3.0/level5/投.svg",
+      "alt_srcs": []
+    },
+    "图画": {
+      "hanzi": "图画",
+      "pinyin": "túhuà",
+      "meaning": "bức tranh, tranh vẽ",
+      "example_zh": "墙上挂着几幅美丽的<u>图画</u>。",
+      "example_vi": "Trên tường treo vài bức <u>tranh vẽ</u> rất đẹp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "图画.svg",
+      "src": "images/HSK_3.0/level5/图画.svg",
+      "alt_srcs": []
+    },
+    "图书": {
+      "hanzi": "图书",
+      "pinyin": "túshū",
+      "meaning": "sách, sách báo tư liệu",
+      "example_zh": "这间图书馆拥有丰富的<u>图书</u>资源。",
+      "example_vi": "Thư viện này sở hữu nguồn tài nguyên <u>sách báo</u> phong phú.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "图书.svg",
+      "src": "images/HSK_3.0/level5/图书.svg",
+      "alt_srcs": []
+    },
+    "团队": {
+      "hanzi": "团队",
+      "pinyin": "tuánduì",
+      "meaning": "đội",
+      "example_zh": "这个<u>团队</u>由五个人组成",
+      "example_vi": "Nhóm này được tạo thành từ năm người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "团队.svg",
+      "src": "images/HSK_3.0/level5/团队.svg",
+      "alt_srcs": []
+    },
+    "推动": {
+      "hanzi": "推动",
+      "pinyin": "tuīdòng",
+      "meaning": "thúc đẩy, đẩy mạnh",
+      "example_zh": "科技创新有力地<u>推动</u>了经济的发展。",
+      "example_vi": "Đổi mới công nghệ đã <u>thúc đẩy</u> mạnh mẽ sự phát triển của kinh tế.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "推动.svg",
+      "src": "images/HSK_3.0/level5/推动.svg",
       "alt_srcs": []
     }
   }

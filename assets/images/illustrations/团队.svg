@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="160" width="200" height="10" rx="2" fill="#334155"/>
+  <rect x="30" y="170" width="180" height="50" fill="#1e293b"/>
+  
+  <!-- Team Members (5 people) -->
+  <!-- Person 1 -->
+  <circle cx="45" cy="130" r="12" fill="#fb923c"/>
+  <path d="M35 145h20l-2 30h-16z" fill="#fb923c"/>
+  
+  <!-- Person 2 -->
+  <circle cx="85" cy="120" r="12" fill="#38bdf8"/>
+  <path d="M75 135h20l-2 35h-16z" fill="#38bdf8"/>
+  
+  <!-- Person 3 (Center/Leader) -->
+  <circle cx="120" cy="110" r="14" fill="#fbbf24"/>
+  <path d="M108 125h24l-3 40h-18z" fill="#fbbf24"/>
+  
+  <!-- Person 4 -->
+  <circle cx="155" cy="120" r="12" fill="#10b981"/>
+  <path d="M145 135h20l-2 35h-16z" fill="#10b981"/>
+  
+  <!-- Person 5 -->
+  <circle cx="195" cy="130" r="12" fill="#ec4899"/>
+  <path d="M185 145h20l-2 30h-16z" fill="#ec4899"/>
+  
+  <!-- Context Props: Project Board/Screen -->
+  <rect x="60" y="40" width="120" height="60" rx="4" fill="#334155"/>
+  <rect x="70" y="50" width="100" height="40" rx="2" fill="#0f172a"/>
+  <circle cx="85" cy="65" r="5" fill="#fb923c"/>
+  <circle cx="105" cy="65" r="5" fill="#38bdf8"/>
+  <circle cx="125" cy="65" r="5" fill="#fbbf24"/>
+  <circle cx="145" cy="65" r="5" fill="#10b981"/>
+  <circle cx="165" cy="65" r="5" fill="#ec4899"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="40" cy="50" r="2" fill="#38bdf8" opacity="0.6"/>
+</svg>
