@@ -1,0 +1,51 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="50" fill="#334155"/>
+  <rect x="190" y="175" width="10" height="50" fill="#334155"/>
+  
+  <!-- Laptop -->
+  <rect x="70" y="130" width="100" height="30" rx="2" fill="#475569"/>
+  <rect x="75" y="80" width="90" height="50" rx="4" fill="#cbd5e1"/>
+  <rect x="80" y="85" width="80" height="40" fill="#1e293b"/>
+  <circle cx="120" cy="105" r="5" fill="#38bdf8" opacity="0.6"/>
+  
+  <!-- Coffee Mug -->
+  <path d="M180 135h20a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5h-20z" fill="#fb923c"/>
+  <path d="M205 140h5a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3h-5" fill="none" stroke="#fb923c" stroke-width="3"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 100)">
+    <!-- Head -->
+    <ellipse cx="0" cy="-20" rx="25" ry="28" fill="#fde68a"/>
+    <!-- Tired Eyes -->
+    <path d="M-15 -25 q5 -5 10 0" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M5 -25 q5 -5 10 0" stroke="#475569" stroke-width="2" fill="none"/>
+    <!-- Mouth -->
+    <path d="M-10 -5 q10 5 20 0" stroke="#475569" stroke-width="2" fill="none"/>
+    <!-- Hair -->
+    <path d="M-25 -35 c0 -20 50 -20 50 0" fill="#78350f"/>
+    <!-- Shoulders/Body -->
+    <path d="M-40 20 c0 -20 80 -20 80 0 l-10 60 h-60 z" fill="#38bdf8"/>
+    <!-- Slumped Posture -->
+    <path d="M-30 30 l-20 20" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M30 30 l20 20" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Ambient Light -->
+  <circle cx="120" cy="100" r="120" fill="url(#glow)" opacity="0.1"/>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+</svg>

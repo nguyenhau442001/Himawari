@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Ferris Wheel -->
+  <circle cx="180" cy="90" r="45" fill="none" stroke="#38bdf8" stroke-width="4" stroke-dasharray="6 6"/>
+  <circle cx="180" cy="90" r="10" fill="#fbbf24"/>
+  <line x1="180" y1="90" x2="180" y2="45" stroke="#38bdf8" stroke-width="3"/>
+  <line x1="180" y1="90" x2="225" y2="90" stroke="#38bdf8" stroke-width="3"/>
+  <rect x="175" y="40" width="10" height="10" rx="2" fill="#ec4899"/>
+  <rect x="220" y="85" width="10" height="10" rx="2" fill="#ec4899"/>
+  
+  <!-- Ground -->
+  <path d="M0 200 Q 120 180 240 200 L 240 240 L 0 240 Z" fill="#1e3a8a" opacity="0.5"/>
+  
+  <!-- Carousel Horse -->
+  <path d="M40 180 Q 50 140 70 140 Q 90 140 100 160 L 105 155" fill="none" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="95" cy="145" r="8" fill="#fb923c"/>
+  
+  <!-- Characters -->
+  <!-- Child 1 -->
+  <g transform="translate(60, 160)">
+    <circle cx="0" cy="-20" r="10" fill="#fde68a"/>
+    <path d="M-5 -15 L 5 -15 M-2 -10 L 2 -10" stroke="#0f172a" stroke-width="1"/>
+    <rect x="-8" y="-10" width="16" height="20" rx="4" fill="#10b981"/>
+    <path d="M-8 10 L -12 25 M8 10 L 12 25" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Child 2 -->
+  <g transform="translate(140, 170)">
+    <circle cx="0" cy="-20" r="10" fill="#fde68a"/>
+    <rect x="-8" y="-10" width="16" height="20" rx="4" fill="#ec4899"/>
+    <path d="M-8 10 L -15 20 M8 10 L 15 20" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0 -30 L -5 -40 M0 -30 L 5 -40" stroke="#fde68a" stroke-width="2"/>
+  </g>
+
+  <!-- Decorative Stars -->
+  <circle cx="30" cy="50" r="2" fill="#fbbf24"/>
+  <circle cx="200" cy="30" r="3" fill="#fbbf24"/>
+  <circle cx="120" cy="80" r="2" fill="#fbbf24"/>
+</svg>

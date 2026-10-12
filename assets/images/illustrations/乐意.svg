@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="140" width="200" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="155" width="10" height="85" rx="2" fill="#475569"/>
+  <rect x="190" y="155" width="10" height="85" rx="2" fill="#475569"/>
+
+  <!-- Character 1 (The Helper) -->
+  <circle cx="160" cy="110" r="25" fill="#fde68a"/>
+  <path d="M145 105 Q150 115 155 105 M165 105 Q170 115 175 105" stroke="#475569" stroke-width="2" fill="none"/>
+  <path d="M150 120 Q160 128 170 120" stroke="#ec4899" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M135 135 L150 180 L185 140" fill="#38bdf8"/>
+  <path d="M170 140 L195 120 L205 135" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Character 2 (The One Being Helped) -->
+  <circle cx="80" cy="120" r="20" fill="#cbd5e1"/>
+  <path d="M70 115 Q75 120 80 115 M85 115 Q90 120 95 115" stroke="#475569" stroke-width="2" fill="none"/>
+  <path d="M75 125 Q80 130 85 125" stroke="#475569" stroke-width="2" fill="none"/>
+  <path d="M60 140 L80 190 L100 140" fill="#fb923c"/>
+
+  <!-- Props: Books and Laptop -->
+  <rect x="30" y="125" width="40" height="15" rx="2" fill="#10b981"/>
+  <rect x="35" y="115" width="40" height="10" rx="2" fill="#fbbf24"/>
+  <rect x="100" y="120" width="50" height="20" rx="2" fill="#94a3b8"/>
+  <rect x="105" y="125" width="40" height="10" rx="1" fill="#0f172a"/>
+
+  <!-- Decorative Sparkles -->
+  <circle cx="180" cy="80" r="3" fill="#fbbf24"/>
+  <circle cx="195" cy="95" r="2" fill="#fbbf24"/>
+  <circle cx="170" cy="70" r="2" fill="#fbbf24"/>
+</svg>

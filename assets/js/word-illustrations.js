@@ -17292,10 +17292,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/喇叭.svg",
     "caption": "loa, kèn"
   },
+  "来回": {
+    "file": "来回.svg",
+    "src": "images/HSK_2.0/level6/来回.svg",
+    "caption": "đi lại, qua lại"
+  },
+  "来历": {
+    "file": "来历.svg",
+    "src": "images/HSK_2.0/level6/来历.svg",
+    "caption": "lai lịch, nguồn gốc"
+  },
+  "来往": {
+    "file": "来往.svg",
+    "src": "images/HSK_2.0/level6/来往.svg",
+    "caption": "đi lại, giao thiệp"
+  },
   "来源": {
     "file": "来源.svg",
     "src": "images/HSK_2.0/level6/来源.svg",
     "caption": "nguồn gốc"
+  },
+  "懒惰": {
+    "file": "懒惰.svg",
+    "src": "images/HSK_2.0/level6/懒惰.svg",
+    "caption": "lười biếng"
+  },
+  "滥用": {
+    "file": "滥用.svg",
+    "src": "images/HSK_2.0/level6/滥用.svg",
+    "caption": "lạm dụng"
+  },
+  "捞": {
+    "file": "捞.svg",
+    "src": "images/HSK_2.0/level6/捞.svg",
+    "caption": "vớt, mò"
+  },
+  "劳累": {
+    "file": "劳累.svg",
+    "src": "images/HSK_2.0/level6/劳累.svg",
+    "caption": "mệt mỏi vì làm việc"
+  },
+  "劳务": {
+    "file": "劳务.svg",
+    "src": "images/HSK_2.0/level6/劳务.svg",
+    "caption": "lao vụ, dịch vụ lao động"
+  },
+  "乐意": {
+    "file": "乐意.svg",
+    "src": "images/HSK_2.0/level6/乐意.svg",
+    "caption": "vui lòng, sẵn lòng"
+  },
+  "乐园": {
+    "file": "乐园.svg",
+    "src": "images/HSK_2.0/level6/乐园.svg",
+    "caption": "công viên giải trí"
   },
   "类似": {
     "file": "类似.svg",

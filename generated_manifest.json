@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:14:19.001669",
-  "total_unique_words_with_illustrations": 4065,
-  "total_flat_svg_files": 4065,
+  "generated_at": "2026-10-12T20:18:56.867322",
+  "total_unique_words_with_illustrations": 4075,
+  "total_flat_svg_files": 4075,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1425,
-        "pct": "57.0%"
+        "with_svg": 1435,
+        "pct": "57.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 504,
-        "pct": "28.0%"
+        "with_svg": 505,
+        "pct": "28.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 624,
-        "pct": "11.1%"
+        "with_svg": 633,
+        "pct": "11.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 624,
-        "pct": "11.1%"
+        "with_svg": 633,
+        "pct": "11.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 624,
-        "pct": "11.1%"
+        "with_svg": 633,
+        "pct": "11.3%"
       }
     }
   },
@@ -64100,6 +64100,68 @@
         "images/HSK_3.0/level9/喇叭.svg"
       ]
     },
+    "来回": {
+      "hanzi": "来回",
+      "pinyin": "láihuí",
+      "meaning": "đi lại, qua lại",
+      "example_zh": "他每天<u>来回</u>奔波。",
+      "example_vi": "Anh ấy hàng ngày <u>đi lại</u> vất vả.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "来回.svg",
+      "src": "images/HSK_2.0/level6/来回.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/来回.svg",
+        "images/HSK_3.0/level8/来回.svg",
+        "images/HSK_3.0/level9/来回.svg"
+      ]
+    },
+    "来历": {
+      "hanzi": "来历",
+      "pinyin": "láilì",
+      "meaning": "lai lịch, nguồn gốc",
+      "example_zh": "这件古董的<u>来历</u>不明。",
+      "example_vi": "<u>Lai lịch</u> của món đồ cổ này không rõ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "来历.svg",
+      "src": "images/HSK_2.0/level6/来历.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/来历.svg",
+        "images/HSK_3.0/level8/来历.svg",
+        "images/HSK_3.0/level9/来历.svg"
+      ]
+    },
+    "来往": {
+      "hanzi": "来往",
+      "pinyin": "láiwǎng",
+      "meaning": "đi lại, giao thiệp",
+      "example_zh": "他们两家经常<u>来往</u>。",
+      "example_vi": "Hai gia đình họ thường <u>qua lại</u> với nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "来往.svg",
+      "src": "images/HSK_2.0/level6/来往.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/来往.svg"
+      ]
+    },
     "来源": {
       "hanzi": "来源",
       "pinyin": "láiyuán",
@@ -64116,6 +64178,160 @@
       "src": "images/HSK_2.0/level6/来源.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/来源.svg"
+      ]
+    },
+    "懒惰": {
+      "hanzi": "懒惰",
+      "pinyin": "lǎnduò",
+      "meaning": "lười biếng",
+      "example_zh": "他工作很<u>懒惰</u>。",
+      "example_vi": "Anh ấy làm việc rất <u>lười biếng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "懒惰.svg",
+      "src": "images/HSK_2.0/level6/懒惰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/懒惰.svg",
+        "images/HSK_3.0/level8/懒惰.svg",
+        "images/HSK_3.0/level9/懒惰.svg"
+      ]
+    },
+    "滥用": {
+      "hanzi": "滥用",
+      "pinyin": "lànyòng",
+      "meaning": "lạm dụng",
+      "example_zh": "不要<u>滥用</u>权力。",
+      "example_vi": "Không nên <u>lạm dụng</u> quyền lực.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "滥用.svg",
+      "src": "images/HSK_2.0/level6/滥用.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/滥用.svg",
+        "images/HSK_3.0/level8/滥用.svg",
+        "images/HSK_3.0/level9/滥用.svg"
+      ]
+    },
+    "捞": {
+      "hanzi": "捞",
+      "pinyin": "lāo",
+      "meaning": "vớt, mò",
+      "example_zh": "他从水里<u>捞</u>起一条鱼。",
+      "example_vi": "Anh ấy <u>vớt</u> được một con cá từ trong nước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "捞.svg",
+      "src": "images/HSK_2.0/level6/捞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/捞.svg",
+        "images/HSK_3.0/level8/捞.svg",
+        "images/HSK_3.0/level9/捞.svg"
+      ]
+    },
+    "劳累": {
+      "hanzi": "劳累",
+      "pinyin": "láolèi",
+      "meaning": "mệt mỏi vì làm việc",
+      "example_zh": "他工作太<u>劳累</u>了。",
+      "example_vi": "Anh ấy làm việc quá <u>mệt mỏi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "劳累.svg",
+      "src": "images/HSK_2.0/level6/劳累.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/劳累.svg",
+        "images/HSK_3.0/level8/劳累.svg",
+        "images/HSK_3.0/level9/劳累.svg"
+      ]
+    },
+    "劳务": {
+      "hanzi": "劳务",
+      "pinyin": "láowù",
+      "meaning": "lao vụ, dịch vụ lao động",
+      "example_zh": "这是<u>劳务</u>合同。",
+      "example_vi": "Đây là hợp đồng <u>lao vụ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "劳务.svg",
+      "src": "images/HSK_2.0/level6/劳务.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/劳务.svg",
+        "images/HSK_3.0/level8/劳务.svg",
+        "images/HSK_3.0/level9/劳务.svg"
+      ]
+    },
+    "乐意": {
+      "hanzi": "乐意",
+      "pinyin": "lèyì",
+      "meaning": "vui lòng, sẵn lòng",
+      "example_zh": "我很<u>乐意</u>帮助你。",
+      "example_vi": "Tôi rất <u>vui lòng</u> giúp bạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "乐意.svg",
+      "src": "images/HSK_2.0/level6/乐意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/乐意.svg",
+        "images/HSK_3.0/level8/乐意.svg",
+        "images/HSK_3.0/level9/乐意.svg"
+      ]
+    },
+    "乐园": {
+      "hanzi": "乐园",
+      "pinyin": "lèyuán",
+      "meaning": "công viên giải trí",
+      "example_zh": "孩子们喜欢去<u>乐园</u>玩。",
+      "example_vi": "Trẻ em thích đến <u>công viên giải trí</u> chơi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "乐园.svg",
+      "src": "images/HSK_2.0/level6/乐园.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/乐园.svg",
+        "images/HSK_3.0/level8/乐园.svg",
+        "images/HSK_3.0/level9/乐园.svg"
       ]
     },
     "类似": {
