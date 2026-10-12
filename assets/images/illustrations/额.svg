@@ -1,0 +1,127 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Window Light Gradient -->
+    <linearGradient id="lightBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Desk & Interior Warm Light -->
+    <linearGradient id="warmGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- ENVIRONMENT / BACKGROUND -->
+  <!-- Cozy Study Room Interior -->
+  <g id="environment">
+    <!-- Bookshelf background -->
+    <rect x="25" y="40" width="60" height="95" rx="4" fill="#334155" opacity="0.6"/>
+    <rect x="30" y="65" width="50" height="6" fill="#475569"/>
+    <rect x="30" y="95" width="50" height="6" fill="#475569"/>
+    <!-- Books on shelf -->
+    <path d="M35 50 h8 v15 h-8 z" fill="#f43f5e"/>
+    <path d="M45 47 h6 v18 h-6 z" fill="#3b82f6"/>
+    <path d="M53 52 h10 v13 h-10 z" fill="#10b981"/>
+    <path d="M35 80 h12 v15 h-12 z" fill="#f59e0b"/>
+
+    <!-- Window frame on right -->
+    <rect x="165" y="35" width="45" height="70" rx="6" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <path d="M165 70 h45 M187 35 v70" stroke="#334155" stroke-width="2"/>
+    <!-- Light beam from window -->
+    <polygon points="165,35 120,200 210,200" fill="url(#lightBeam)"/>
+
+    <!-- Houseplant on side table -->
+    <path d="M195 145 c5 0 8 5 8 10 h-16 c0-5 3-10 8-10 z" fill="#475569"/>
+    <path d="M195 145 v-8" stroke="#64748b" stroke-width="2"/>
+    <circle cx="190" cy="130" r="8" fill="#10b981"/>
+    <circle cx="202" cy="132" r="7" fill="#059669"/>
+    <circle cx="196" cy="120" r="9" fill="#34d399"/>
+
+    <!-- Desk surface -->
+    <path d="M15 195 L225 195 L235 220 L5 220 Z" fill="#0f172a"/>
+    <rect x="15" y="190" width="210" height="6" rx="3" fill="#475569"/>
+
+    <!-- Desk Props: Laptop & Lamp -->
+    <rect x="135" y="175" width="40" height="15" rx="2" fill="#64748b"/>
+    <path d="M130 190 h50 l5 5 h-60 z" fill="#94a3b8"/>
+    <!-- Desk lamp -->
+    <path d="M40 190 v-30 h15" stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M47 150 l-10 15 h20 z" fill="#f59e0b"/>
+  </g>
+
+  <!-- MAIN CHARACTER -->
+  <g id="character">
+    <!-- Body & Torso (Sitting behind desk) -->
+    <path d="M85 155 c-5 10 -15 20 -25 35 h110 c-10-15-20-25-25-35 z" fill="#3b82f6"/>
+    <!-- Collar / Shirt -->
+    <path d="M100 155 l20 15 l20 -15 l-10 -10 l-10 5 l-10 -5 z" fill="#ffffff"/>
+
+    <!-- Head and Face (Emphasizing the wide forehead) -->
+    <g id="head-group">
+      <!-- Neck -->
+      <path d="M105 135 c0 10 5 25 15 25 c10 0 15-15 15-25 z" fill="#fed7aa"/>
+
+      <!-- Ears -->
+      <circle cx="88" cy="118" r="6" fill="#fed7aa"/>
+      <circle cx="152" cy="118" r="6" fill="#fed7aa"/>
+
+      <!-- Head Base (Wide, smooth skull structure) -->
+      <!-- Using an expansive arch to clearly convey 'wide forehead / 额头很宽' -->
+      <path d="M 88 115 
+               C 85 85, 155 85, 152 115 
+               C 152 135, 140 145, 120 145 
+               C 100 145, 88 135, 88 115 Z" fill="#fed7aa"/>
+
+      <!-- Expressive Haircut (Slept-back or neatly parted, leaving the wide forehead fully exposed and prominent) -->
+      <path d="M 90 110 
+               C 88 95, 95 82, 120 80 
+               C 145 82, 152 95, 150 110
+               C 145 92, 95 92, 90 110 Z" fill="#1e293b"/>
+      <!-- Hair strands / fringe swept aside -->
+      <path d="M92 108 c-5 5 -4 12 -2 15 c-2-5 0-10 2-15 z" fill="#1e293b"/>
+      <path d="M148 108 c5 5 4 12 2 15 c2-5 0-10 -2-15 z" fill="#1e293b"/>
+
+      <!-- Facial Features -->
+      <!-- Eyebrows (thoughtful, relaxed) -->
+      <path d="M100 112 q10 -5 20 0" stroke="#334155" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M130 112 q10 -5 20 0" stroke="#334155" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+      <!-- Friendly, intelligent eyes -->
+      <circle cx="110" cy="120" r="3.5" fill="#1e293b"/>
+      <circle cx="140" cy="120" r="3.5" fill="#1e293b"/>
+      <circle cx="111.5" cy="119" r="1" fill="#ffffff"/>
+      <circle cx="141.5" cy="119" r="1" fill="#ffffff"/>
+
+      <!-- Gentle nose & confident, smart smile -->
+      <path d="M120 123 l-2 10 h5" stroke="#f97316" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M110 138 q10 7 20 0" stroke="#1e293b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+      <!-- Subtle rosy cheeks -->
+      <circle cx="102" cy="128" r="6" fill="#f43f5e" opacity="0.2"/>
+      <circle cx="148" cy="128" r="6" fill="#f43f5e" opacity="0.2"/>
+    </g>
+
+    <!-- Hands resting on desk -->
+    <path d="M95 185 c0 -5 10 -10 15 -5 c5 5 5 10 0 15 z" fill="#fed7aa"/>
+    <path d="M130 195 c-5 -5 -5 -10 0 -15 c5 -5 15 0 15 5 z" fill="#fed7aa"/>
+  </g>
+
+  <!-- FOREGROUND / EMPHASIS ELEMENTS -->
+  <!-- Subtle UI-free visual framing to guide the eye directly to the forehead area (the focus of the sentence) -->
+  <g id="focus-accents" opacity="0.7">
+    <!-- Soft glowing indicator or framing brackets near the temples to highlight width -->
+    <path d="M 82 95 L 88 95 L 88 115" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <path d="M 158 95 L 152 95 L 152 115" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  </g>
+</svg>

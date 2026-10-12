@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:07:31.609287",
-  "total_unique_words_with_illustrations": 3669,
-  "total_flat_svg_files": 3669,
+  "generated_at": "2026-10-12T12:09:22.527990",
+  "total_unique_words_with_illustrations": 3679,
+  "total_flat_svg_files": 3679,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1029,
-        "pct": "41.2%"
+        "with_svg": 1039,
+        "pct": "41.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 375,
-        "pct": "20.8%"
+        "with_svg": 377,
+        "pct": "20.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 394,
-        "pct": "7.0%"
+        "with_svg": 401,
+        "pct": "7.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 394,
-        "pct": "7.0%"
+        "with_svg": 401,
+        "pct": "7.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 394,
-        "pct": "7.0%"
+        "with_svg": 401,
+        "pct": "7.2%"
       }
     }
   },
@@ -55748,6 +55748,166 @@
         "images/HSK_3.0/level9/堕落.svg"
       ]
     },
+    "额": {
+      "hanzi": "额",
+      "pinyin": "é",
+      "meaning": "trán; hạn mức",
+      "example_zh": "他的<u>额</u>头很宽。",
+      "example_vi": "<u>Trán</u> của anh ấy rất rộng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "额.svg",
+      "src": "images/HSK_2.0/level6/额.svg",
+      "alt_srcs": []
+    },
+    "额外": {
+      "hanzi": "额外",
+      "pinyin": "éwài",
+      "meaning": "thêm, ngoài định mức",
+      "example_zh": "公司给了他<u>额外</u>的奖金。",
+      "example_vi": "Công ty cho anh ấy một khoản thưởng <u>thêm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "额外.svg",
+      "src": "images/HSK_2.0/level6/额外.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/额外.svg",
+        "images/HSK_3.0/level8/额外.svg",
+        "images/HSK_3.0/level9/额外.svg"
+      ]
+    },
+    "恶心": {
+      "hanzi": "恶心",
+      "pinyin": "ěxin",
+      "meaning": "buồn nôn, ghê tởm",
+      "example_zh": "闻到这个味道我感到<u>恶心</u>。",
+      "example_vi": "Ngửi thấy mùi này tôi cảm thấy <u>buồn nôn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "恶心.svg",
+      "src": "images/HSK_2.0/level6/恶心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/恶心.svg"
+      ]
+    },
+    "恶化": {
+      "hanzi": "恶化",
+      "pinyin": "èhuà",
+      "meaning": "xấu đi, xấu hóa",
+      "example_zh": "病情正在<u>恶化</u>。",
+      "example_vi": "Tình trạng bệnh đang <u>xấu đi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "恶化.svg",
+      "src": "images/HSK_2.0/level6/恶化.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/恶化.svg",
+        "images/HSK_3.0/level8/恶化.svg",
+        "images/HSK_3.0/level9/恶化.svg"
+      ]
+    },
+    "遏制": {
+      "hanzi": "遏制",
+      "pinyin": "èzhì",
+      "meaning": "kiềm chế, ngăn chặn",
+      "example_zh": "政府努力<u>遏制</u>通货膨胀。",
+      "example_vi": "Chính phủ cố gắng <u>kiềm chế</u> lạm phát.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "遏制.svg",
+      "src": "images/HSK_2.0/level6/遏制.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/遏制.svg",
+        "images/HSK_3.0/level8/遏制.svg",
+        "images/HSK_3.0/level9/遏制.svg"
+      ]
+    },
+    "恩怨": {
+      "hanzi": "恩怨",
+      "pinyin": "ēnyuàn",
+      "meaning": "oán hận, mối ân oán",
+      "example_zh": "他们之间没有任何<u>恩怨</u>。",
+      "example_vi": "Giữa họ không có chút <u>oán hận</u> nào.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "恩怨.svg",
+      "src": "images/HSK_2.0/level6/恩怨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/恩怨.svg",
+        "images/HSK_3.0/level8/恩怨.svg",
+        "images/HSK_3.0/level9/恩怨.svg"
+      ]
+    },
+    "而已": {
+      "hanzi": "而已",
+      "pinyin": "éryǐ",
+      "meaning": "mà thôi, chỉ là",
+      "example_zh": "这只是开始<u>而已</u>。",
+      "example_vi": "Đây chỉ mới là bắt đầu <u>mà thôi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "而已.svg",
+      "src": "images/HSK_2.0/level6/而已.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/而已.svg",
+        "images/HSK_3.0/level8/而已.svg",
+        "images/HSK_3.0/level9/而已.svg"
+      ]
+    },
+    "二氧化碳": {
+      "hanzi": "二氧化碳",
+      "pinyin": "èryǎnghuàtàn",
+      "meaning": "khí CO2",
+      "example_zh": "植物吸收<u>二氧化碳</u>。",
+      "example_vi": "Thực vật hấp thụ <u>khí CO2</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "二氧化碳.svg",
+      "src": "images/HSK_2.0/level6/二氧化碳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/二氧化碳.svg"
+      ]
+    },
     "发布": {
       "hanzi": "发布",
       "pinyin": "fābù",
@@ -55764,6 +55924,50 @@
       "src": "images/HSK_2.0/level6/发布.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/发布.svg"
+      ]
+    },
+    "发财": {
+      "hanzi": "发财",
+      "pinyin": "fācái",
+      "meaning": "làm giàu, phát tài",
+      "example_zh": "他做生意<u>发财</u>了。",
+      "example_vi": "Anh ấy kinh doanh và <u>làm giàu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "发财.svg",
+      "src": "images/HSK_2.0/level6/发财.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/发财.svg",
+        "images/HSK_3.0/level8/发财.svg",
+        "images/HSK_3.0/level9/发财.svg"
+      ]
+    },
+    "发呆": {
+      "hanzi": "发呆",
+      "pinyin": "fādāi",
+      "meaning": "ngẩn ngơ, đờ đẫn",
+      "example_zh": "她坐在窗边<u>发呆</u>。",
+      "example_vi": "Cô ấy ngồi bên cửa sổ <u>ngẩn ngơ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "发呆.svg",
+      "src": "images/HSK_2.0/level6/发呆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/发呆.svg",
+        "images/HSK_3.0/level8/发呆.svg",
+        "images/HSK_3.0/level9/发呆.svg"
       ]
     },
     "防止": {

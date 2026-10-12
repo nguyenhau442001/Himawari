@@ -15192,10 +15192,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/堕落.svg",
     "caption": "sa đọa, suy thoái"
   },
+  "额": {
+    "file": "额.svg",
+    "src": "images/HSK_2.0/level6/额.svg",
+    "caption": "trán; hạn mức"
+  },
+  "额外": {
+    "file": "额外.svg",
+    "src": "images/HSK_2.0/level6/额外.svg",
+    "caption": "thêm, ngoài định mức"
+  },
+  "恶心": {
+    "file": "恶心.svg",
+    "src": "images/HSK_2.0/level6/恶心.svg",
+    "caption": "buồn nôn, ghê tởm"
+  },
+  "恶化": {
+    "file": "恶化.svg",
+    "src": "images/HSK_2.0/level6/恶化.svg",
+    "caption": "xấu đi, xấu hóa"
+  },
+  "遏制": {
+    "file": "遏制.svg",
+    "src": "images/HSK_2.0/level6/遏制.svg",
+    "caption": "kiềm chế, ngăn chặn"
+  },
+  "恩怨": {
+    "file": "恩怨.svg",
+    "src": "images/HSK_2.0/level6/恩怨.svg",
+    "caption": "oán hận, mối ân oán"
+  },
+  "而已": {
+    "file": "而已.svg",
+    "src": "images/HSK_2.0/level6/而已.svg",
+    "caption": "mà thôi, chỉ là"
+  },
+  "二氧化碳": {
+    "file": "二氧化碳.svg",
+    "src": "images/HSK_2.0/level6/二氧化碳.svg",
+    "caption": "khí CO2"
+  },
   "发布": {
     "file": "发布.svg",
     "src": "images/HSK_2.0/level6/发布.svg",
     "caption": "công bố, phát hành"
+  },
+  "发财": {
+    "file": "发财.svg",
+    "src": "images/HSK_2.0/level6/发财.svg",
+    "caption": "làm giàu, phát tài"
+  },
+  "发呆": {
+    "file": "发呆.svg",
+    "src": "images/HSK_2.0/level6/发呆.svg",
+    "caption": "ngẩn ngơ, đờ đẫn"
   },
   "防止": {
     "file": "防止.svg",
