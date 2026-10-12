@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:38:28.490421",
-  "total_unique_words_with_illustrations": 4375,
-  "total_flat_svg_files": 4375,
+  "generated_at": "2026-10-12T22:39:25.075564",
+  "total_unique_words_with_illustrations": 4380,
+  "total_flat_svg_files": 4380,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1735,
-        "pct": "69.4%"
+        "with_svg": 1740,
+        "pct": "69.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 578,
-        "pct": "32.1%"
+        "with_svg": 581,
+        "pct": "32.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 848,
-        "pct": "15.1%"
+        "with_svg": 850,
+        "pct": "15.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 848,
-        "pct": "15.1%"
+        "with_svg": 850,
+        "pct": "15.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 848,
-        "pct": "15.1%"
+        "with_svg": 850,
+        "pct": "15.2%"
       }
     }
   },
@@ -70734,6 +70734,104 @@
         "images/HSK_3.0/level7/迁就.svg",
         "images/HSK_3.0/level8/迁就.svg",
         "images/HSK_3.0/level9/迁就.svg"
+      ]
+    },
+    "迁徙": {
+      "hanzi": "迁徙",
+      "pinyin": "qiānxǐ",
+      "meaning": "di cư, dời chuyển",
+      "example_zh": "候鸟每年都要<u>迁徙</u>。",
+      "example_vi": "Chim di trú mỗi năm đều phải <u>di cư</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迁徙.svg",
+      "src": "images/HSK_2.0/level6/迁徙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迁徙.svg",
+        "images/HSK_3.0/level8/迁徙.svg",
+        "images/HSK_3.0/level9/迁徙.svg"
+      ]
+    },
+    "谦逊": {
+      "hanzi": "谦逊",
+      "pinyin": "qiānxùn",
+      "meaning": "khiêm tốn",
+      "example_zh": "他对待成绩一直很<u>谦逊</u>。",
+      "example_vi": "Anh ấy luôn rất <u>khiêm tốn</u> về thành tích của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "谦逊.svg",
+      "src": "images/HSK_2.0/level6/谦逊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/谦逊.svg",
+        "images/HSK_3.0/level8/谦逊.svg",
+        "images/HSK_3.0/level9/谦逊.svg"
+      ]
+    },
+    "前景": {
+      "hanzi": "前景",
+      "pinyin": "qiánjǐng",
+      "meaning": "tiền cảnh, tương lai phía trước",
+      "example_zh": "这个行业的发展<u>前景</u>很好。",
+      "example_vi": "<u>Tương lai</u> phát triển của ngành này rất tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "前景.svg",
+      "src": "images/HSK_2.0/level6/前景.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/前景.svg"
+      ]
+    },
+    "前提": {
+      "hanzi": "前提",
+      "pinyin": "qiántí",
+      "meaning": "tiền đề, điều kiện trước",
+      "example_zh": "诚实是合作的<u>前提</u>。",
+      "example_vi": "Trung thực là <u>tiền đề</u> của hợp tác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "前提.svg",
+      "src": "images/HSK_2.0/level6/前提.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/前提.svg"
+      ]
+    },
+    "潜力": {
+      "hanzi": "潜力",
+      "pinyin": "qiánlì",
+      "meaning": "tiềm lực",
+      "example_zh": "这个孩子有很大的<u>潜力</u>。",
+      "example_vi": "Đứa trẻ này có <u>tiềm lực</u> rất lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "潜力.svg",
+      "src": "images/HSK_2.0/level6/潜力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/潜力.svg"
       ]
     },
     "抢救": {

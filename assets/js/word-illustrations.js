@@ -18902,6 +18902,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/迁就.svg",
     "caption": "nhường nhịn, thỏa hiệp"
   },
+  "迁徙": {
+    "file": "迁徙.svg",
+    "src": "images/HSK_2.0/level6/迁徙.svg",
+    "caption": "di cư, dời chuyển"
+  },
+  "谦逊": {
+    "file": "谦逊.svg",
+    "src": "images/HSK_2.0/level6/谦逊.svg",
+    "caption": "khiêm tốn"
+  },
+  "前景": {
+    "file": "前景.svg",
+    "src": "images/HSK_2.0/level6/前景.svg",
+    "caption": "tiền cảnh, tương lai phía trước"
+  },
+  "前提": {
+    "file": "前提.svg",
+    "src": "images/HSK_2.0/level6/前提.svg",
+    "caption": "tiền đề, điều kiện trước"
+  },
+  "潜力": {
+    "file": "潜力.svg",
+    "src": "images/HSK_2.0/level6/潜力.svg",
+    "caption": "tiềm lực"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
