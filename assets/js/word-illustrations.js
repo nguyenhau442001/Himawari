@@ -19142,6 +19142,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/屈服.svg",
     "caption": "khuất phục, chịu thua"
   },
+  "曲折": {
+    "file": "曲折.svg",
+    "src": "images/HSK_2.0/level6/曲折.svg",
+    "caption": "quanh co, khúc mắc"
+  },
+  "驱逐": {
+    "file": "驱逐.svg",
+    "src": "images/HSK_2.0/level6/驱逐.svg",
+    "caption": "đuổi đi, trục xuất"
+  },
+  "渠道": {
+    "file": "渠道.svg",
+    "src": "images/HSK_2.0/level6/渠道.svg",
+    "caption": "kênh, con đường (thông tin, tiêu thụ)"
+  },
+  "取缔": {
+    "file": "取缔.svg",
+    "src": "images/HSK_2.0/level6/取缔.svg",
+    "caption": "cấm, đình chỉ (hoạt động bất hợp pháp)"
+  },
+  "曲子": {
+    "file": "曲子.svg",
+    "src": "images/HSK_2.0/level6/曲子.svg",
+    "caption": "bản nhạc, điệu nhạc"
+  },
   "确保": {
     "file": "确保.svg",
     "src": "images/HSK_2.0/level6/确保.svg",

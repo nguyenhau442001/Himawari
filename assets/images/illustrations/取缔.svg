@@ -1,0 +1,102 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background & Environment -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+
+  <!-- Urban Night Background Details (Buildings & Street Light) -->
+  <rect x="20" y="70" width="40" height="110" fill="#1e293b" opacity="0.6"/>
+  <rect x="70" y="50" width="50" height="130" fill="#1e293b" opacity="0.8"/>
+  <rect x="180" y="90" width="45" height="90" fill="#1e293b" opacity="0.5"/>
+  <!-- Windows -->
+  <rect x="30" y="85" width="8" height="12" fill="#334155"/>
+  <rect x="45" y="85" width="8" height="12" fill="#334155"/>
+  <rect x="30" y="110" width="8" height="12" fill="#334155"/>
+  <rect x="85" y="70" width="10" height="15" fill="#334155"/>
+  <rect x="100" y="70" width="10" height="15" fill="#334155"/>
+  <rect x="85" y="95" width="10" height="15" fill="#334155"/>
+
+  <!-- Street Ground -->
+  <rect x="0" y="175" width="240" height="65" fill="url(#ground)"/>
+  <line x1="0" y1="175" x2="240" y2="175" stroke="#475569" stroke-width="2"/>
+
+  <!-- Street Light Glow -->
+  <circle cx="200" cy="50" r="70" fill="url(#glow)"/>
+  <rect x="197" y="30" width="6" height="145" fill="#475569"/>
+  <path d="M180 30 Q200 10 220 30 Z" fill="#64748b"/>
+
+  <!-- Illegal Street Cart (摊位) - Being Interrupted/Packed up -->
+  <g transform="translate(40, 110)">
+    <!-- Cart Base -->
+    <rect x="0" y="30" width="75" height="35" rx="4" fill="#fb923c"/>
+    <rect x="5" y="35" width="65" height="8" rx="2" fill="#ea580c"/>
+    <!-- Wheels -->
+    <circle cx="18" cy="70" r="10" fill="#334155" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="57" cy="70" r="10" fill="#334155" stroke="#94a3b8" stroke-width="3"/>
+    <!-- Canopy / Umbrella -->
+    <path d="M-10 15 L37 -15 L85 15 Z" fill="#ef4444"/>
+    <rect x="35" y="-15" width="4" height="45" fill="#cbd5e1"/>
+    <!-- Goods on Cart (Fruits/Items spilling or packed quickly) -->
+    <circle cx="20" cy="22" r="7" fill="#facc15"/>
+    <circle cx="35" cy="20" r="8" fill="#f87171"/>
+    <circle cx="50" cy="23" r="7" fill="#4ade80"/>
+    <circle cx="10" cy="25" r="6" fill="#fb923c"/>
+  </g>
+
+  <!-- Vendor Character (Panicked / Packing up) -->
+  <g transform="translate(75, 120)">
+    <!-- Body -->
+    <path d="M15 25 L30 50 L10 55 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="22" cy="12" r="9" fill="#fcd34d"/>
+    <!-- Cap -->
+    <path d="M11 8 C11 4 33 4 33 8 Z" fill="#ef4444"/>
+    <rect x="25" y="7" width="12" height="3" fill="#ef4444"/>
+    <!-- Arms reaching to grab goods -->
+    <path d="M22 25 L-2 20" stroke="#fcd34d" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Government Official / Inspector Character (Enforcing ban / 取缔) -->
+  <g transform="translate(130, 100)">
+    <!-- Legs -->
+    <rect x="15" y="45" width="7" height="35" fill="#1e293b"/>
+    <rect x="28" y="45" width="7" height="35" fill="#1e293b"/>
+    <!-- Torso (Uniform) -->
+    <path d="M12 20 L38 20 L40 50 L10 50 Z" fill="#1e3a8a"/>
+    <!-- Belt -->
+    <rect x="10" y="45" width="30" height="5" fill="#0f172a"/>
+    <!-- Head -->
+    <circle cx="25" cy="9" r="9" fill="#fcd34d"/>
+    <!-- Official Cap -->
+    <path d="M16 3 C16 1 34 1 34 3 L36 6 C36 6 14 6 16 3 Z" fill="#1e3a8a"/>
+    <rect x="18" y="5" width="14" height="2" fill="#fbbf24"/>
+    <!-- Authoritative Gesture (Pointing / Directing stop) -->
+    <path d="M35 25 L55 20" stroke="#fcd34d" stroke-width="5" stroke-linecap="round"/>
+    <!-- Clipboard / Official Notice in hand -->
+    <rect x="42" y="22" width="16" height="20" rx="2" fill="#f8fafc" transform="rotate(15 50 30)"/>
+    <line x1="46" y1="27" x2="54" y2="27" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="46" y1="32" x2="52" y2="32" stroke="#cbd5e1" stroke-width="2"/>
+  </g>
+
+  <!-- Notice / Official Barrier Tape Accent (Subtle policy/ban vibe without text) -->
+  <g transform="translate(100, 85) rotate(-10)">
+    <rect x="0" y="0" width="70" height="10" fill="#facc15"/>
+    <polygon points="10,0 20,0 15,10 5,10" fill="#1e293b"/>
+    <polygon points="30,0 40,0 35,10 25,10" fill="#1e293b"/>
+    <polygon points="50,0 60,0 55,10 45,10" fill="#1e293b"/>
+  </g>
+
+</svg>

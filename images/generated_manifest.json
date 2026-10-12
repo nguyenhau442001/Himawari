@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:46:39.875697",
-  "total_unique_words_with_illustrations": 4420,
-  "total_flat_svg_files": 4420,
+  "generated_at": "2026-10-12T22:47:26.943264",
+  "total_unique_words_with_illustrations": 4425,
+  "total_flat_svg_files": 4425,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1780,
-        "pct": "71.2%"
+        "with_svg": 1785,
+        "pct": "71.4%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 597,
+        "with_svg": 598,
         "pct": "33.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 873,
+        "with_svg": 876,
         "pct": "15.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 873,
+        "with_svg": 876,
         "pct": "15.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 873,
+        "with_svg": 876,
         "pct": "15.6%"
       }
     }
@@ -71695,6 +71695,104 @@
         "images/HSK_3.0/level8/屈服.svg",
         "images/HSK_3.0/level9/屈服.svg"
       ]
+    },
+    "曲折": {
+      "hanzi": "曲折",
+      "pinyin": "qūzhé",
+      "meaning": "quanh co, khúc mắc",
+      "example_zh": "这条小路十分<u>曲折</u>。",
+      "example_vi": "Con đường nhỏ này rất <u>quanh co</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "曲折.svg",
+      "src": "images/HSK_2.0/level6/曲折.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/曲折.svg",
+        "images/HSK_3.0/level8/曲折.svg",
+        "images/HSK_3.0/level9/曲折.svg"
+      ]
+    },
+    "驱逐": {
+      "hanzi": "驱逐",
+      "pinyin": "qūzhú",
+      "meaning": "đuổi đi, trục xuất",
+      "example_zh": "他被<u>驱逐</u>出了这个国家。",
+      "example_vi": "Anh ấy bị <u>trục xuất</u> khỏi quốc gia này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "驱逐.svg",
+      "src": "images/HSK_2.0/level6/驱逐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/驱逐.svg",
+        "images/HSK_3.0/level8/驱逐.svg",
+        "images/HSK_3.0/level9/驱逐.svg"
+      ]
+    },
+    "渠道": {
+      "hanzi": "渠道",
+      "pinyin": "qúdào",
+      "meaning": "kênh, con đường (thông tin, tiêu thụ)",
+      "example_zh": "我们要拓宽销售<u>渠道</u>。",
+      "example_vi": "Chúng ta phải mở rộng <u>kênh</u> tiêu thụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "渠道.svg",
+      "src": "images/HSK_2.0/level6/渠道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/渠道.svg"
+      ]
+    },
+    "取缔": {
+      "hanzi": "取缔",
+      "pinyin": "qǔdì",
+      "meaning": "cấm, đình chỉ (hoạt động bất hợp pháp)",
+      "example_zh": "政府<u>取缔</u>了非法摆摊。",
+      "example_vi": "Chính phủ đã <u>đình chỉ</u> việc bán hàng rong bất hợp pháp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "取缔.svg",
+      "src": "images/HSK_2.0/level6/取缔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/取缔.svg",
+        "images/HSK_3.0/level8/取缔.svg",
+        "images/HSK_3.0/level9/取缔.svg"
+      ]
+    },
+    "曲子": {
+      "hanzi": "曲子",
+      "pinyin": "qǔzi",
+      "meaning": "bản nhạc, điệu nhạc",
+      "example_zh": "她弹了一首好听的<u>曲子</u>。",
+      "example_vi": "Cô ấy đã chơi một <u>bản nhạc</u> hay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "曲子.svg",
+      "src": "images/HSK_2.0/level6/曲子.svg",
+      "alt_srcs": []
     },
     "确保": {
       "hanzi": "确保",

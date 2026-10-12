@@ -1,0 +1,107 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="pianoBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Background Environment / Window & Warm Ambiance -->
+  <path d="M140 20 H210 V140 H140 Z" fill="#1e293b" opacity="0.6"/>
+  <!-- Window Grid -->
+  <path d="M140 50 H210 M140 90 H210 M175 20 V140" stroke="#334155" stroke-width="1.5"/>
+  <!-- Cozy Window Light -->
+  <path d="M145 25 L205 25 L195 135 L155 135 Z" fill="#38bdf8" opacity="0.05"/>
+  <circle cx="185" cy="50" r="12" fill="#fbbf24" opacity="0.1" filter="url(#glow)"/>
+
+  <!-- House Plant on Shelf -->
+  <path d="M195 125 C190 120 185 120 180 125 L175 140 H200 Z" fill="#64748b"/>
+  <path d="M187 120 C187 110 195 105 195 95 C195 105 203 110 203 120 Z" fill="#10b981"/>
+  <path d="M180 125 C175 115 180 105 185 100 C185 110 180 115 180 125 Z" fill="#34d399"/>
+
+  <!-- Floating Musical Notes (Visualizing '曲子' / The Tune) -->
+  <g filter="url(#glow)">
+    <!-- Note 1 -->
+    <path d="M75 55 L75 35 C75 32 82 30 85 33 L85 50" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="71" cy="52" rx="5" ry="3.5" fill="#fbbf24" transform="rotate(-20 71 52)"/>
+    <ellipse cx="81" cy="48" rx="5" ry="3.5" fill="#fbbf24" transform="rotate(-20 81 48)"/>
+
+    <!-- Note 2 -->
+    <path d="M125 40 L125 22" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M125 22 C132 20 137 25 135 30" stroke="#38bdf8" stroke-width="2.5" fill="none"/>
+    <ellipse cx="121" cy="38" rx="4" ry="3" fill="#38bdf8" transform="rotate(-15 121 38)"/>
+
+    <!-- Note 3 -->
+    <ellipse cx="105" cy="28" rx="3.5" ry="2.5" fill="#ec4899" transform="rotate(-15 105 28)"/>
+    <path d="M108 27 L108 14" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Ambient sparkle dots -->
+    <circle cx="95" cy="45" r="1.5" fill="#fff" opacity="0.8"/>
+    <circle cx="115" cy="55" r="1" fill="#fbbf24" opacity="0.9"/>
+    <circle cx="65" cy="35" r="1.5" fill="#38bdf8" opacity="0.7"/>
+  </g>
+
+  <!-- Piano Body -->
+  <rect x="30" y="140" width="180" height="75" rx="4" fill="url(#pianoBody)" stroke="#475569" stroke-width="2"/>
+  <!-- Music Stand -->
+  <path d="M85 140 L95 105 H145 L155 140 Z" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <!-- Open Sheet Music -->
+  <path d="M98 112 H142 V136 H98 Z" fill="#f8fafc"/>
+  <path d="M103 118 H137 M103 123 H137 M103 128 H130" stroke="#94a3b8" stroke-width="1"/>
+  <!-- Piano Keyboard Area -->
+  <rect x="35" y="140" width="170" height="15" fill="#0f172a"/>
+  <!-- Piano Keys (Pattern hint) -->
+  <path d="M40 140 V152 M46 140 V152 M52 140 V152 M58 140 V152 M64 140 V152 M70 140 V152 M76 140 V152 M82 140 V152 M88 140 V152 M94 140 V152 M100 140 V152 M106 140 V152 M112 140 V152 M118 140 V152 M124 140 V152 M130 140 V152 M136 140 V152 M142 140 V152 M148 140 V152 M154 140 V152 M160 140 V152 M166 140 V152 M172 140 V152 M178 140 V152 M184 140 V152 M190 140 V152 M196 140 V152 M202 140 V152" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Character: Woman Playing Piano (Cô ấy) -->
+  <!-- Chair / Stool -->
+  <rect x="90" y="185" width="60" height="10" rx="3" fill="#334155"/>
+  <path d="M105 195 L100 220 M135 195 L140 220" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Torso & Dress (Warm, expressive tones) -->
+  <path d="M95 130 C95 110 145 110 145 130 L150 185 H90 Z" fill="#ec4899"/>
+  <path d="M100 115 C110 108 130 108 140 115 C135 125 105 125 100 115 Z" fill="#f472b6"/>
+
+  <!-- Head & Hair -->
+  <circle cx="120" cy="85" r="18" fill="#fde68a"/>
+  <!-- Stylized Hair Bun -->
+  <circle cx="120" cy="62" r="8" fill="#334155"/>
+  <path d="M102 85 C102 70 138 70 138 85 C138 95 125 95 120 95 C115 95 102 95 102 85 Z" fill="#334155"/>
+  <!-- Gentle Peaceful Expression (Eyes closed in enjoyment of the music) -->
+  <path d="M113 83 Q116 86 119 83" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M123 83 Q126 86 129 83" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Cheeks (Blush) -->
+  <circle cx="113" cy="88" r="3" fill="#fb7185" opacity="0.6"/>
+  <circle cx="129" cy="88" r="3" fill="#fb7185" opacity="0.6"/>
+  <!-- Smile -->
+  <path d="M118 91 Q121 94 124 91" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Arms / Hands Playing -->
+  <!-- Left Arm -->
+  <path d="M100 125 C85 135 75 142 85 145" stroke="#ec4899" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Right Arm -->
+  <path d="M140 125 C155 135 165 142 155 145" stroke="#ec4899" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Hands -->
+  <circle cx="85" cy="145" r="4" fill="#fde68a"/>
+  <circle cx="155" cy="145" r="4" fill="#fde68a"/>
+
+  <!-- Foreground Floor & Warm Lighting Vignette -->
+  <rect x="0" y="220" width="240" height="20" fill="#0f172a"/>
+  <ellipse cx="120" cy="225" rx="90" ry="8" fill="#38bdf8" opacity="0.08" filter="url(#glow)"/>
+</svg>
