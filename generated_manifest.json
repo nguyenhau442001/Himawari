@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:27:12.205067",
-  "total_unique_words_with_illustrations": 4315,
-  "total_flat_svg_files": 4315,
+  "generated_at": "2026-10-12T22:28:04.994684",
+  "total_unique_words_with_illustrations": 4320,
+  "total_flat_svg_files": 4320,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1675,
-        "pct": "67.0%"
+        "with_svg": 1680,
+        "pct": "67.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 561,
-        "pct": "31.2%"
+        "with_svg": 563,
+        "pct": "31.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 808,
-        "pct": "14.4%"
+        "with_svg": 811,
+        "pct": "14.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 808,
-        "pct": "14.4%"
+        "with_svg": 811,
+        "pct": "14.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 808,
-        "pct": "14.4%"
+        "with_svg": 811,
+        "pct": "14.5%"
       }
     }
   },
@@ -69472,6 +69472,28 @@
         "images/HSK_3.0/level6/评论.svg"
       ]
     },
+    "屏障": {
+      "hanzi": "屏障",
+      "pinyin": "píngzhàng",
+      "meaning": "bức tường chắn, lá chắn",
+      "example_zh": "这座山是天然的<u>屏障</u>。",
+      "example_vi": "Ngọn núi này là <u>lá chắn</u> thiên nhiên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "屏障.svg",
+      "src": "images/HSK_2.0/level6/屏障.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/屏障.svg",
+        "images/HSK_3.0/level8/屏障.svg",
+        "images/HSK_3.0/level9/屏障.svg"
+      ]
+    },
     "屏幕": {
       "hanzi": "屏幕",
       "pinyin": "píngmù",
@@ -69488,6 +69510,86 @@
       "src": "images/HSK_2.0/level6/屏幕.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/屏幕.svg"
+      ]
+    },
+    "坡": {
+      "hanzi": "坡",
+      "pinyin": "pō",
+      "meaning": "dốc, sườn đồi",
+      "example_zh": "这条<u>坡</u>很陡，骑车要小心。",
+      "example_vi": "Con <u>dốc</u> này rất gắt, đi xe phải cẩn thận.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "坡.svg",
+      "src": "images/HSK_2.0/level6/坡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/坡.svg"
+      ]
+    },
+    "泼": {
+      "hanzi": "泼",
+      "pinyin": "pō",
+      "meaning": "hắt, té (nước)",
+      "example_zh": "他不小心把水<u>泼</u>到了地上。",
+      "example_vi": "Anh ấy lỡ <u>hắt</u> nước xuống đất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "泼.svg",
+      "src": "images/HSK_2.0/level6/泼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/泼.svg"
+      ]
+    },
+    "颇": {
+      "hanzi": "颇",
+      "pinyin": "pō",
+      "meaning": "khá, tương đối",
+      "example_zh": "这件事<u>颇</u>为复杂。",
+      "example_vi": "Việc này <u>khá</u> phức tạp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "颇.svg",
+      "src": "images/HSK_2.0/level6/颇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/颇.svg",
+        "images/HSK_3.0/level8/颇.svg",
+        "images/HSK_3.0/level9/颇.svg"
+      ]
+    },
+    "破例": {
+      "hanzi": "破例",
+      "pinyin": "pòlì",
+      "meaning": "phá lệ, ngoại lệ",
+      "example_zh": "老师<u>破例</u>让他迟交作业。",
+      "example_vi": "Thầy giáo <u>phá lệ</u> cho phép anh ấy nộp bài muộn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "破例.svg",
+      "src": "images/HSK_2.0/level6/破例.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/破例.svg",
+        "images/HSK_3.0/level8/破例.svg",
+        "images/HSK_3.0/level9/破例.svg"
       ]
     },
     "普及": {

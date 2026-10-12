@@ -18592,10 +18592,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/评论.svg",
     "caption": "bình luận"
   },
+  "屏障": {
+    "file": "屏障.svg",
+    "src": "images/HSK_2.0/level6/屏障.svg",
+    "caption": "bức tường chắn, lá chắn"
+  },
   "屏幕": {
     "file": "屏幕.svg",
     "src": "images/HSK_2.0/level6/屏幕.svg",
     "caption": "màn hình"
+  },
+  "坡": {
+    "file": "坡.svg",
+    "src": "images/HSK_2.0/level6/坡.svg",
+    "caption": "dốc, sườn đồi"
+  },
+  "泼": {
+    "file": "泼.svg",
+    "src": "images/HSK_2.0/level6/泼.svg",
+    "caption": "hắt, té (nước)"
+  },
+  "颇": {
+    "file": "颇.svg",
+    "src": "images/HSK_2.0/level6/颇.svg",
+    "caption": "khá, tương đối"
+  },
+  "破例": {
+    "file": "破例.svg",
+    "src": "images/HSK_2.0/level6/破例.svg",
+    "caption": "phá lệ, ngoại lệ"
   },
   "普及": {
     "file": "普及.svg",

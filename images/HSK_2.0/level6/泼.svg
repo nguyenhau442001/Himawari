@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm Interior Light Gradient -->
+    <radialGradient id="roomGlow" cx="50%" cy="40%" r="70%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Floor Gradient -->
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Water Splash Gradient -->
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Shadow Filter for Depth -->
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Full Bleed Background Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Interior Room Backdrop -->
+  <rect x="0" y="0" width="240" height="170" fill="url(#roomGlow)"/>
+  
+  <!-- Wooden Baseboard / Wall Trim -->
+  <rect x="0" y="165" width="240" height="5" fill="#475569" opacity="0.6"/>
+
+  <!-- Floor Surface -->
+  <rect x="0" y="170" width="240" height="70" fill="url(#floorGrad)"/>
+  
+  <!-- Floor Planks / Perspective lines -->
+  <line x1="0" y1="185" x2="240" y2="185" stroke="#1f2937" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="205" x2="240" y2="205" stroke="#1f2937" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="225" x2="240" y2="225" stroke="#1f2937" stroke-width="1" opacity="0.5"/>
+
+  <!-- Background Environment Props: Bookshelf & Plant -->
+  <!-- Small Bookshelf / Cabinet -->
+  <rect x="180" y="90" width="45" height="75" rx="2" fill="#334155" opacity="0.7"/>
+  <rect x="185" y="110" width="35" height="3" fill="#1e293b" opacity="0.8"/>
+  <rect x="185" y="135" width="35" height="3" fill="#1e293b" opacity="0.8"/>
+  
+  <!-- Potted Plant on Floor -->
+  <path d="M 25 155 L 35 170 L 15 170 Z" fill="#64748b"/>
+  <ellipse cx="25" cy="155" rx="10" ry="3" fill="#94a3b8"/>
+  <path d="M 25 155 C 25 135, 10 130, 10 120 C 10 115, 20 115, 25 125 C 30 115, 40 115, 40 120 C 40 130, 25 135, 25 155 Z" fill="#10b981" opacity="0.85"/>
+
+  <!-- SCENE ELEMENTS: THE SPLASH (泼 - Water action) -->
+  <!-- Wet patch on floor -->
+  <ellipse cx="120" cy="195" rx="45" ry="12" fill="#0284c7" opacity="0.4" filter="url(#softShadow)"/>
+  <ellipse cx="115" cy="194" rx="30" ry="7" fill="#38bdf8" opacity="0.6"/>
+
+  <!-- Dynamic Water Splashes & Droplets -->
+  <path d="M 95 190 Q 105 175 115 185 Q 125 165 140 188" stroke="#38bdf8" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <!-- Flying droplets -->
+  <circle cx="80" cy="175" r="3" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="95" cy="162" r="2" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="130" cy="168" r="3.5" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="148" cy="178" r="2.5" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="160" cy="188" r="1.5" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="110" cy="158" r="1.5" fill="#e0f2fe" opacity="0.9"/>
+
+  <!-- Fallen Cup / Mug -->
+  <g transform="translate(145, 182) rotate(35)">
+    <rect x="-6" y="-10" width="12" height="15" rx="2" fill="#f43f5e" filter="url(#softShadow)"/>
+    <ellipse cx="0" cy="-10" rx="6" ry="2" fill="#fda4af"/>
+    <!-- Cup handle -->
+    <path d="M -6 -5 C -10 -5, -10 0, -6 2" stroke="#f43f5e" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- MAIN CHARACTER: Surprised Man -->
+  <g id="character" filter="url(#softShadow)">
+    <!-- Character Shadow on Floor -->
+    <ellipse cx="85" cy="195" rx="22" ry="6" fill="#020617" opacity="0.6"/>
+
+    <!-- Legs (Pants) -->
+    <path d="M 75 145 L 70 192 L 82 192 L 86 155 Z" fill="#334155"/>
+    <path d="M 90 145 L 98 192 L 108 190 L 100 155 Z" fill="#334155"/>
+    <!-- Shoes -->
+    <ellipse cx="76" cy="193" rx="8" ry="3" fill="#0f172a"/>
+    <ellipse cx="103" cy="191" rx="8" ry="3" fill="#0f172a"/>
+
+    <!-- Torso (Casual Hoodie/Sweater - warm amber/gold) -->
+    <path d="M 68 100 L 112 100 L 118 148 L 62 148 Z" fill="#f59e0b" rx="4"/>
+    <!-- Hoodie Pocket / Details -->
+    <path d="M 75 125 L 105 125 L 102 145 L 78 145 Z" fill="#d97706" opacity="0.4"/>
+
+    <!-- Arms in startled motion -->
+    <!-- Left Arm (recoiling back) -->
+    <path d="M 68 105 C 50 110, 42 125, 48 135" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Left Hand (open palm in shock) -->
+    <circle cx="48" cy="137" r="5" fill="#fbcfe8"/>
+
+    <!-- Right Arm (thrown forward/up in surprise) -->
+    <path d="M 112 105 C 128 105, 140 115, 135 125" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Right Hand -->
+    <circle cx="136" cy="127" r="5" fill="#fbcfe8"/>
+
+    <!-- Neck -->
+    <rect x="83" y="90" width="14" height="14" fill="#fbcfe8"/>
+
+    <!-- Head -->
+    <circle cx="90" cy="78" r="18" fill="#fbcfe8"/>
+
+    <!-- Hair (Dark stylish cut) -->
+    <path d="M 72 75 C 72 60, 95 58, 108 70 C 108 70, 105 78, 108 82 C 95 73, 80 75, 72 75 Z" fill="#1e293b"/>
+
+    <!-- Facial Expression: Shock / Oops moment -->
+    <!-- Eyebrows raised high -->
+    <path d="M 80 69 Q 86 65 91 69" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M 96 69 Q 101 65 106 69" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Wide Eyes (Shocked dots with highlight) -->
+    <circle cx="85" cy="75" r="2.5" fill="#1e293b"/>
+    <circle cx="101" cy="75" r="2.5" fill="#1e293b"/>
+    <circle cx="86" cy="74" r="0.8" fill="#ffffff"/>
+    <circle cx="102" cy="74" r="0.8" fill="#ffffff"/>
+
+    <!-- Open 'O' Mouth (Oh no!) -->
+    <ellipse cx="93" cy="86" rx="4" ry="5" fill="#1e293b"/>
+
+    <!-- Blushing cheeks of embarrassment -->
+    <ellipse cx="79" cy="80" rx="3" ry="1.5" fill="#f43f5e" opacity="0.4"/>
+    <ellipse cx="107" cy="80" rx="3" ry="1.5" fill="#f43f5e" opacity="0.4"/>
+  </g>
+
+  <!-- Ambient Lighting / Accent Highlights -->
+  <!-- Top-left app accent glow -->
+  <circle cx="30" cy="30" r="40" fill="#38bdf8" opacity="0.08" filter="url(#softShadow)"/>
+</svg>
