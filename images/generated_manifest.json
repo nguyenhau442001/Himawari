@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:53:06.814259",
-  "total_unique_words_with_illustrations": 4235,
-  "total_flat_svg_files": 4235,
+  "generated_at": "2026-10-12T21:56:08.505069",
+  "total_unique_words_with_illustrations": 4245,
+  "total_flat_svg_files": 4245,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1595,
-        "pct": "63.8%"
+        "with_svg": 1605,
+        "pct": "64.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 540,
-        "pct": "30.0%"
+        "with_svg": 543,
+        "pct": "30.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 752,
-        "pct": "13.4%"
+        "with_svg": 760,
+        "pct": "13.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 752,
-        "pct": "13.4%"
+        "with_svg": 760,
+        "pct": "13.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 752,
-        "pct": "13.4%"
+        "with_svg": 760,
+        "pct": "13.6%"
       }
     }
   },
@@ -67772,6 +67772,214 @@
         "images/HSK_3.0/level7/难能可贵.svg",
         "images/HSK_3.0/level8/难能可贵.svg",
         "images/HSK_3.0/level9/难能可贵.svg"
+      ]
+    },
+    "恼火": {
+      "hanzi": "恼火",
+      "pinyin": "nǎohuǒ",
+      "meaning": "bực bội, tức giận",
+      "example_zh": "他的态度让大家很<u>恼火</u>。",
+      "example_vi": "Thái độ của anh ấy khiến mọi người rất <u>bực bội</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "恼火.svg",
+      "src": "images/HSK_2.0/level6/恼火.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/恼火.svg",
+        "images/HSK_3.0/level8/恼火.svg",
+        "images/HSK_3.0/level9/恼火.svg"
+      ]
+    },
+    "内涵": {
+      "hanzi": "内涵",
+      "pinyin": "nèihán",
+      "meaning": "nội hàm, hàm ý sâu xa",
+      "example_zh": "这首诗的<u>内涵</u>十分丰富。",
+      "example_vi": "<u>Nội hàm</u> của bài thơ này rất phong phú.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "内涵.svg",
+      "src": "images/HSK_2.0/level6/内涵.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/内涵.svg"
+      ]
+    },
+    "内幕": {
+      "hanzi": "内幕",
+      "pinyin": "nèimù",
+      "meaning": "sự thật bên trong, hậu trường",
+      "example_zh": "记者揭露了事件的<u>内幕</u>。",
+      "example_vi": "Nhà báo đã tiết lộ <u>sự thật bên trong</u> của vụ việc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "内幕.svg",
+      "src": "images/HSK_2.0/level6/内幕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/内幕.svg",
+        "images/HSK_3.0/level8/内幕.svg",
+        "images/HSK_3.0/level9/内幕.svg"
+      ]
+    },
+    "内在": {
+      "hanzi": "内在",
+      "pinyin": "nèizài",
+      "meaning": "bên trong, nội tại",
+      "example_zh": "我们要发现事物的<u>内在</u>规律。",
+      "example_vi": "Chúng ta phải tìm ra quy luật <u>nội tại</u> của sự vật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "内在.svg",
+      "src": "images/HSK_2.0/level6/内在.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/内在.svg",
+        "images/HSK_3.0/level8/内在.svg",
+        "images/HSK_3.0/level9/内在.svg"
+      ]
+    },
+    "能量": {
+      "hanzi": "能量",
+      "pinyin": "néngliàng",
+      "meaning": "năng lượng",
+      "example_zh": "太阳能是一种清洁<u>能量</u>。",
+      "example_vi": "Năng lượng mặt trời là một loại <u>năng lượng</u> sạch.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "能量.svg",
+      "src": "images/HSK_2.0/level6/能量.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/能量.svg"
+      ]
+    },
+    "拟定": {
+      "hanzi": "拟定",
+      "pinyin": "nǐdìng",
+      "meaning": "dự thảo, soạn ra",
+      "example_zh": "公司<u>拟定</u>了新的发展计划。",
+      "example_vi": "Công ty đã <u>dự thảo</u> kế hoạch phát triển mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "拟定.svg",
+      "src": "images/HSK_2.0/level6/拟定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/拟定.svg",
+        "images/HSK_3.0/level8/拟定.svg",
+        "images/HSK_3.0/level9/拟定.svg"
+      ]
+    },
+    "逆行": {
+      "hanzi": "逆行",
+      "pinyin": "nìxíng",
+      "meaning": "đi ngược chiều",
+      "example_zh": "禁止车辆<u>逆行</u>。",
+      "example_vi": "Cấm xe cộ <u>đi ngược chiều</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逆行.svg",
+      "src": "images/HSK_2.0/level6/逆行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/逆行.svg",
+        "images/HSK_3.0/level8/逆行.svg",
+        "images/HSK_3.0/level9/逆行.svg"
+      ]
+    },
+    "年度": {
+      "hanzi": "年度",
+      "pinyin": "niándù",
+      "meaning": "niên độ, năm (tài chính, công tác)",
+      "example_zh": "这是公司的<u>年度</u>总结报告。",
+      "example_vi": "Đây là báo cáo tổng kết <u>năm</u> của công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "年度.svg",
+      "src": "images/HSK_2.0/level6/年度.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/年度.svg"
+      ]
+    },
+    "捏": {
+      "hanzi": "捏",
+      "pinyin": "niē",
+      "meaning": "nặn, bóp, vê",
+      "example_zh": "她用手<u>捏</u>了一个泥人。",
+      "example_vi": "Cô ấy dùng tay <u>nặn</u> ra một con búp bê đất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "捏.svg",
+      "src": "images/HSK_2.0/level6/捏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/捏.svg",
+        "images/HSK_3.0/level8/捏.svg",
+        "images/HSK_3.0/level9/捏.svg"
+      ]
+    },
+    "拧": {
+      "hanzi": "拧",
+      "pinyin": "níng",
+      "meaning": "vặn, xoắn",
+      "example_zh": "请把水龙头<u>拧</u>紧。",
+      "example_vi": "Hãy <u>vặn</u> chặt vòi nước lại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "拧.svg",
+      "src": "images/HSK_2.0/level6/拧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/拧.svg",
+        "images/HSK_3.0/level8/拧.svg",
+        "images/HSK_3.0/level9/拧.svg"
       ]
     },
     "哦": {

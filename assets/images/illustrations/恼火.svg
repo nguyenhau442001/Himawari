@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Office Desk -->
+  <rect x="20" y="140" width="200" height="15" rx="2" fill="#334155"/>
+  <rect x="30" y="155" width="10" height="60" fill="#475569"/>
+  <rect x="200" y="155" width="10" height="60" fill="#475569"/>
+  
+  <!-- The "Attitude" Guy (Center) -->
+  <circle cx="120" cy="80" r="25" fill="#fde68a"/>
+  <path d="M105 75 Q110 70 115 75 M125 75 Q130 70 135 75" stroke="#475569" stroke-width="2" fill="none"/>
+  <path d="M110 95 Q120 105 130 95" stroke="#ec4899" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <rect x="90" y="110" width="60" height="40" rx="5" fill="#fb923c"/>
+  
+  <!-- Annoyed Colleague 1 (Left) -->
+  <circle cx="50" cy="100" r="20" fill="#cbd5e1"/>
+  <path d="M40 95 L45 98 M55 95 L60 98" stroke="#1e293b" stroke-width="2"/>
+  <path d="M42 110 Q50 105 58 110" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <rect x="30" y="120" width="40" height="30" rx="5" fill="#38bdf8"/>
+  <path d="M45 130 L55 140 M55 130 L45 140" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Annoyed Colleague 2 (Right) -->
+  <circle cx="190" cy="100" r="20" fill="#cbd5e1"/>
+  <path d="M180 95 L185 98 M195 95 L200 98" stroke="#1e293b" stroke-width="2"/>
+  <path d="M182 110 Q190 105 198 110" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <rect x="170" y="120" width="40" height="30" rx="5" fill="#10b981"/>
+  <circle cx="190" cy="135" r="5" fill="#1e293b"/>
+  
+  <!-- Props -->
+  <rect x="140" y="130" width="20" height="5" rx="1" fill="#94a3b8"/>
+  <rect x="145" y="125" width="10" height="5" rx="1" fill="#94a3b8"/>
+  <circle cx="70" cy="135" r="8" fill="#fbbf24"/>
+  
+  <!-- Expression of frustration -->
+  <path d="M140 60 L150 50 M150 60 L160 50" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M80 60 L70 50 M70 60 L60 50" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+</svg>

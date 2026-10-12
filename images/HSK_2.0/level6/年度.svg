@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="150" width="160" height="15" rx="2" fill="#334155"/>
+  <rect x="50" y="165" width="10" height="60" fill="#475569"/>
+  <rect x="180" y="165" width="10" height="60" fill="#475569"/>
+  
+  <!-- Laptop -->
+  <path d="M70 150 L170 150 L160 100 L80 100 Z" fill="#64748b"/>
+  <path d="M85 105 L155 105 L150 145 L90 145 Z" fill="#0f172a"/>
+  
+  <!-- Chart on screen -->
+  <path d="M100 115 L115 115 L115 135 L100 135 Z" fill="#fb923c"/>
+  <path d="M120 110 L135 110 L135 135 L120 135 Z" fill="#38bdf8"/>
+  <path d="M140 120 L155 120 L155 135 L140 135 Z" fill="#10b981"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="70" r="20" fill="#fde68a"/>
+  <path d="M105 85 Q120 100 135 85" stroke="#92400e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="113" cy="65" r="2" fill="#92400e"/>
+  <circle cx="127" cy="65" r="2" fill="#92400e"/>
+  
+  <!-- Document/Report -->
+  <rect x="165" y="120" width="40" height="50" rx="3" fill="#f1f5f9"/>
+  <line x1="175" y1="130" x2="195" y2="130" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="175" y1="140" x2="195" y2="140" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="175" y1="150" x2="185" y2="150" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Coffee Mug -->
+  <rect x="45" y="130" width="20" height="20" rx="2" fill="#ec4899"/>
+  <path d="M65 135 Q75 135 75 145" stroke="#ec4899" stroke-width="3" fill="none"/>
+  
+  <!-- Ambient light -->
+  <circle cx="120" cy="120" r="80" fill="#f59e0b" opacity="0.05"/>
+</svg>

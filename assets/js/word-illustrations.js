@@ -18177,6 +18177,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/难能可贵.svg",
     "caption": "đáng quý vì khó làm được, đáng khen ngợi"
   },
+  "恼火": {
+    "file": "恼火.svg",
+    "src": "images/HSK_2.0/level6/恼火.svg",
+    "caption": "bực bội, tức giận"
+  },
+  "内涵": {
+    "file": "内涵.svg",
+    "src": "images/HSK_2.0/level6/内涵.svg",
+    "caption": "nội hàm, hàm ý sâu xa"
+  },
+  "内幕": {
+    "file": "内幕.svg",
+    "src": "images/HSK_2.0/level6/内幕.svg",
+    "caption": "sự thật bên trong, hậu trường"
+  },
+  "内在": {
+    "file": "内在.svg",
+    "src": "images/HSK_2.0/level6/内在.svg",
+    "caption": "bên trong, nội tại"
+  },
+  "能量": {
+    "file": "能量.svg",
+    "src": "images/HSK_2.0/level6/能量.svg",
+    "caption": "năng lượng"
+  },
+  "拟定": {
+    "file": "拟定.svg",
+    "src": "images/HSK_2.0/level6/拟定.svg",
+    "caption": "dự thảo, soạn ra"
+  },
+  "逆行": {
+    "file": "逆行.svg",
+    "src": "images/HSK_2.0/level6/逆行.svg",
+    "caption": "đi ngược chiều"
+  },
+  "年度": {
+    "file": "年度.svg",
+    "src": "images/HSK_2.0/level6/年度.svg",
+    "caption": "niên độ, năm (tài chính, công tác)"
+  },
+  "捏": {
+    "file": "捏.svg",
+    "src": "images/HSK_2.0/level6/捏.svg",
+    "caption": "nặn, bóp, vê"
+  },
+  "拧": {
+    "file": "拧.svg",
+    "src": "images/HSK_2.0/level6/拧.svg",
+    "caption": "vặn, xoắn"
+  },
   "哦": {
     "file": "哦.svg",
     "src": "images/HSK_2.0/level6/哦.svg",
