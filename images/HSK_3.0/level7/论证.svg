@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="40" fill="#334155"/>
+  <rect x="190" y="175" width="10" height="40" fill="#334155"/>
+
+  <!-- Laptop -->
+  <path d="M70 160 L170 160 L185 130 L55 130 Z" fill="#475569"/>
+  <rect x="65" y="135" width="110" height="20" rx="2" fill="#94a3b8"/>
+  
+  <!-- Data Visualization (The "Proof") -->
+  <path d="M190 80 L220 80 L220 120 L190 120 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="195" y="105" width="6" height="10" fill="#fb923c"/>
+  <rect x="204" y="90" width="6" height="25" fill="#10b981"/>
+  <rect x="213" y="98" width="6" height="17" fill="#ec4899"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="90" r="25" fill="#fde68a"/>
+  <path d="M105 95 Q120 105 135 95" stroke="#78350f" stroke-width="2" fill="none"/>
+  <circle cx="112" cy="85" r="3" fill="#78350f"/>
+  <circle cx="128" cy="85" r="3" fill="#78350f"/>
+  
+  <!-- Arm gesturing to data -->
+  <path d="M140 100 L180 90" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Floating data nodes -->
+  <circle cx="180" cy="70" r="4" fill="#38bdf8"/>
+  <circle cx="200" cy="60" r="3" fill="#fb923c"/>
+  <circle cx="220" cy="70" r="2" fill="#10b981"/>
+  
+  <!-- Paperwork -->
+  <rect x="40" y="145" width="20" height="25" rx="1" fill="#cbd5e1"/>
+  <rect x="42" y="148" width="16" height="2" fill="#94a3b8"/>
+  <rect x="42" y="153" width="16" height="2" fill="#94a3b8"/>
+  <rect x="42" y="158" width="10" height="2" fill="#94a3b8"/>
+</svg>

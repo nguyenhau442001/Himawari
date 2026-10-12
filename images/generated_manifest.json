@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:55:46.043961",
-  "total_unique_words_with_illustrations": 4135,
-  "total_flat_svg_files": 4135,
+  "generated_at": "2026-10-12T21:02:04.535079",
+  "total_unique_words_with_illustrations": 4145,
+  "total_flat_svg_files": 4145,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1495,
-        "pct": "59.8%"
+        "with_svg": 1505,
+        "pct": "60.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 513,
-        "pct": "28.5%"
+        "with_svg": 516,
+        "pct": "28.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 681,
-        "pct": "12.2%"
+        "with_svg": 687,
+        "pct": "12.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 681,
-        "pct": "12.2%"
+        "with_svg": 687,
+        "pct": "12.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 681,
-        "pct": "12.2%"
+        "with_svg": 687,
+        "pct": "12.3%"
       }
     }
   },
@@ -65624,6 +65624,206 @@
       "src": "images/HSK_2.0/level6/漏洞.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/漏洞.svg"
+      ]
+    },
+    "露面": {
+      "hanzi": "露面",
+      "pinyin": "lòumiàn",
+      "meaning": "xuất hiện, lộ mặt",
+      "example_zh": "他很少在公开场合<u>露面</u>。",
+      "example_vi": "Anh ấy ít khi <u>xuất hiện</u> nơi công cộng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "露面.svg",
+      "src": "images/HSK_2.0/level6/露面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/露面.svg",
+        "images/HSK_3.0/level8/露面.svg",
+        "images/HSK_3.0/level9/露面.svg"
+      ]
+    },
+    "炉灶": {
+      "hanzi": "炉灶",
+      "pinyin": "lúzào",
+      "meaning": "bếp lò",
+      "example_zh": "厨房里有一个<u>炉灶</u>。",
+      "example_vi": "Trong nhà bếp có một cái <u>bếp lò</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "炉灶.svg",
+      "src": "images/HSK_2.0/level6/炉灶.svg",
+      "alt_srcs": []
+    },
+    "录用": {
+      "hanzi": "录用",
+      "pinyin": "lùyòng",
+      "meaning": "tuyển dụng",
+      "example_zh": "公司决定<u>录用</u>他。",
+      "example_vi": "Công ty quyết định <u>tuyển dụng</u> anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "录用.svg",
+      "src": "images/HSK_2.0/level6/录用.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/录用.svg"
+      ]
+    },
+    "轮船": {
+      "hanzi": "轮船",
+      "pinyin": "lúnchuán",
+      "meaning": "tàu thủy",
+      "example_zh": "我们乘<u>轮船</u>去了那个岛。",
+      "example_vi": "Chúng tôi đi <u>tàu thủy</u> đến đảo đó.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "轮船.svg",
+      "src": "images/HSK_2.0/level6/轮船.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/轮船.svg"
+      ]
+    },
+    "轮廓": {
+      "hanzi": "轮廓",
+      "pinyin": "lúnkuò",
+      "meaning": "đường viền, nét phác họa",
+      "example_zh": "远处山的<u>轮廓</u>渐渐清晰起来。",
+      "example_vi": "<u>Đường viền</u> của ngọn núi xa dần trở nên rõ ràng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "轮廓.svg",
+      "src": "images/HSK_2.0/level6/轮廓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/轮廓.svg",
+        "images/HSK_3.0/level8/轮廓.svg",
+        "images/HSK_3.0/level9/轮廓.svg"
+      ]
+    },
+    "轮胎": {
+      "hanzi": "轮胎",
+      "pinyin": "lúntāi",
+      "meaning": "lốp xe, vỏ xe",
+      "example_zh": "这辆车的<u>轮胎</u>需要更换了。",
+      "example_vi": "<u>Lốp xe</u> của chiếc xe này cần phải thay rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "轮胎.svg",
+      "src": "images/HSK_2.0/level6/轮胎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/轮胎.svg",
+        "images/HSK_3.0/level8/轮胎.svg",
+        "images/HSK_3.0/level9/轮胎.svg"
+      ]
+    },
+    "论坛": {
+      "hanzi": "论坛",
+      "pinyin": "lùntán",
+      "meaning": "diễn đàn",
+      "example_zh": "他经常在网络<u>论坛</u>上发表意见。",
+      "example_vi": "Anh ấy thường đăng ý kiến trên <u>diễn đàn</u> mạng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "论坛.svg",
+      "src": "images/HSK_2.0/level6/论坛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/论坛.svg"
+      ]
+    },
+    "论证": {
+      "hanzi": "论证",
+      "pinyin": "lùnzhèng",
+      "meaning": "luận chứng, chứng minh",
+      "example_zh": "他用大量数据<u>论证</u>了自己的观点。",
+      "example_vi": "Anh ấy dùng nhiều số liệu để <u>luận chứng</u> cho quan điểm của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "论证.svg",
+      "src": "images/HSK_2.0/level6/论证.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/论证.svg",
+        "images/HSK_3.0/level8/论证.svg",
+        "images/HSK_3.0/level9/论证.svg"
+      ]
+    },
+    "啰唆": {
+      "hanzi": "啰唆",
+      "pinyin": "luōsuo",
+      "meaning": "dài dòng, lắm lời",
+      "example_zh": "别这么<u>啰唆</u>，直接说重点。",
+      "example_vi": "Đừng <u>dài dòng</u> như vậy, nói thẳng vào trọng tâm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "啰唆.svg",
+      "src": "images/HSK_2.0/level6/啰唆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/啰唆.svg",
+        "images/HSK_3.0/level8/啰唆.svg",
+        "images/HSK_3.0/level9/啰唆.svg"
+      ]
+    },
+    "落成": {
+      "hanzi": "落成",
+      "pinyin": "luòchéng",
+      "meaning": "hoàn thành (công trình xây dựng)",
+      "example_zh": "新图书馆已经<u>落成</u>了。",
+      "example_vi": "Thư viện mới đã được <u>hoàn thành</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "落成.svg",
+      "src": "images/HSK_2.0/level6/落成.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/落成.svg",
+        "images/HSK_3.0/level8/落成.svg",
+        "images/HSK_3.0/level9/落成.svg"
       ]
     },
     "忙碌": {

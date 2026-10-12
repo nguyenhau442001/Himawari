@@ -17657,6 +17657,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/漏洞.svg",
     "caption": "lỗ hổng, kẽ hở"
   },
+  "露面": {
+    "file": "露面.svg",
+    "src": "images/HSK_2.0/level6/露面.svg",
+    "caption": "xuất hiện, lộ mặt"
+  },
+  "炉灶": {
+    "file": "炉灶.svg",
+    "src": "images/HSK_2.0/level6/炉灶.svg",
+    "caption": "bếp lò"
+  },
+  "录用": {
+    "file": "录用.svg",
+    "src": "images/HSK_2.0/level6/录用.svg",
+    "caption": "tuyển dụng"
+  },
+  "轮船": {
+    "file": "轮船.svg",
+    "src": "images/HSK_2.0/level6/轮船.svg",
+    "caption": "tàu thủy"
+  },
+  "轮廓": {
+    "file": "轮廓.svg",
+    "src": "images/HSK_2.0/level6/轮廓.svg",
+    "caption": "đường viền, nét phác họa"
+  },
+  "轮胎": {
+    "file": "轮胎.svg",
+    "src": "images/HSK_2.0/level6/轮胎.svg",
+    "caption": "lốp xe, vỏ xe"
+  },
+  "论坛": {
+    "file": "论坛.svg",
+    "src": "images/HSK_2.0/level6/论坛.svg",
+    "caption": "diễn đàn"
+  },
+  "论证": {
+    "file": "论证.svg",
+    "src": "images/HSK_2.0/level6/论证.svg",
+    "caption": "luận chứng, chứng minh"
+  },
+  "啰唆": {
+    "file": "啰唆.svg",
+    "src": "images/HSK_2.0/level6/啰唆.svg",
+    "caption": "dài dòng, lắm lời"
+  },
+  "落成": {
+    "file": "落成.svg",
+    "src": "images/HSK_2.0/level6/落成.svg",
+    "caption": "hoàn thành (công trình xây dựng)"
+  },
   "忙碌": {
     "file": "忙碌.svg",
     "src": "images/HSK_2.0/level6/忙碌.svg",

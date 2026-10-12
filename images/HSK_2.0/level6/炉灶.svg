@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Kitchen Wall & Window -->
+  <rect x="20" y="30" width="200" height="120" rx="4" fill="#334155"/>
+  <rect x="150" y="45" width="50" height="40" rx="2" fill="#1e293b"/>
+  <circle cx="175" cy="65" r="15" fill="#38bdf8" opacity="0.2"/>
+  
+  <!-- The Stove (炉灶) -->
+  <rect x="60" y="150" width="120" height="60" rx="4" fill="#475569"/>
+  <rect x="70" y="160" width="40" height="40" rx="2" fill="#1e293b"/>
+  <rect x="130" y="160" width="40" height="40" rx="2" fill="#1e293b"/>
+  
+  <!-- Stove Burner Rings -->
+  <circle cx="90" cy="180" r="12" stroke="#fb923c" stroke-width="3" fill="none"/>
+  <circle cx="150" cy="180" r="12" stroke="#fb923c" stroke-width="3" fill="none"/>
+  
+  <!-- Cooking Pot -->
+  <path d="M75 140 Q75 120 90 120 L105 120 Q120 120 120 140 Z" fill="#ec4899"/>
+  <rect x="80" y="115" width="30" height="5" rx="1" fill="#94a3b8"/>
+  
+  <!-- Steam/Heat Effect -->
+  <path d="M90 115 Q95 100 90 85" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M100 115 Q105 100 100 85" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Character (Chef/Person) -->
+  <circle cx="180" cy="180" r="25" fill="#fcd34d"/>
+  <rect x="165" y="205" width="30" height="35" rx="5" fill="#38bdf8"/>
+  <circle cx="172" cy="175" r="3" fill="#0f172a"/>
+  <circle cx="188" cy="175" r="3" fill="#0f172a"/>
+  <path d="M175 188 Q180 192 185 188" stroke="#0f172a" stroke-width="2" fill="none"/>
+  
+  <!-- Kitchen Counter Details -->
+  <rect x="0" y="210" width="240" height="30" fill="#1e293b"/>
+  <rect x="20" y="215" width="200" height="5" rx="2" fill="#475569"/>
+</svg>

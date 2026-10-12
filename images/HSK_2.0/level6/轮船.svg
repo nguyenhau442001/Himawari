@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Ocean waves -->
+  <path d="M0 180 Q 60 160, 120 180 T 240 180 V 240 H 0 Z" fill="#1e3a8a" opacity="0.6"/>
+  <path d="M0 195 Q 60 175, 120 195 T 240 195 V 240 H 0 Z" fill="#1e40af"/>
+
+  <!-- Distant Island -->
+  <path d="M180 160 L 210 140 L 240 160 Z" fill="#10b981"/>
+  <circle cx="225" cy="145" r="5" fill="#fbbf24"/>
+
+  <!-- The Ship (轮船) -->
+  <g transform="translate(40, 140)">
+    <!-- Hull -->
+    <path d="M10 40 L 110 40 L 100 65 L 20 65 Z" fill="#fb923c"/>
+    <!-- Cabin -->
+    <rect x="30" y="15" width="50" height="25" rx="2" fill="#38bdf8"/>
+    <!-- Smokestack -->
+    <rect x="40" y="5" width="10" height="15" fill="#ec4899"/>
+    <!-- Window -->
+    <circle cx="55" cy="27" r="4" fill="#0f172a"/>
+  </g>
+
+  <!-- Characters on deck -->
+  <g transform="translate(65, 145)">
+    <circle cx="10" cy="5" r="6" fill="#fde68a"/>
+    <path d="M10 11 L 10 25 M 10 15 L 5 20 M 10 15 L 15 20" stroke="#fde68a" stroke-width="2" stroke-linecap="round"/>
+    
+    <circle cx="35" cy="5" r="6" fill="#fde68a"/>
+    <path d="M35 11 L 35 25 M 35 15 L 30 20 M 35 15 L 40 20" stroke="#fde68a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="15" fill="#fbbf24" opacity="0.8"/>
+  <path d="M30 30 L 40 20 M 20 20 L 30 30" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+</svg>

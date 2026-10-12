@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Office Desk -->
+  <rect x="40" y="140" width="160" height="10" rx="2" fill="#334155"/>
+  <rect x="50" y="150" width="10" height="90" fill="#334155"/>
+  <rect x="180" y="150" width="10" height="90" fill="#334155"/>
+  
+  <!-- HR Manager -->
+  <circle cx="170" cy="100" r="25" fill="#fbbf24"/>
+  <path d="M150 130 Q170 160 190 130" fill="#fbbf24"/>
+  <rect x="155" y="130" width="30" height="60" rx="5" fill="#38bdf8"/>
+  
+  <!-- Candidate -->
+  <circle cx="70" cy="110" r="20" fill="#fde68a"/>
+  <rect x="55" y="130" width="30" height="70" rx="5" fill="#ec4899"/>
+  
+  <!-- Interaction: The Offer Letter -->
+  <rect x="95" y="115" width="50" height="40" rx="2" fill="#f8fafc"/>
+  <path d="M100 125h40M100 135h40M100 145h20" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="15" fill="#fb923c" opacity="0.3"/>
+  <path d="M30 50 L50 30" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <path d="M210 180 L225 165" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Handshake/Offer Gesture -->
+  <path d="M145 135 L155 135" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+</svg>
