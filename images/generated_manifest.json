@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:06:44.699332",
-  "total_unique_words_with_illustrations": 4513,
-  "total_flat_svg_files": 4513,
+  "generated_at": "2026-10-12T23:07:18.604182",
+  "total_unique_words_with_illustrations": 4518,
+  "total_flat_svg_files": 4518,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1873,
-        "pct": "74.9%"
+        "with_svg": 1878,
+        "pct": "75.1%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 930,
-        "pct": "16.6%"
+        "with_svg": 935,
+        "pct": "16.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 930,
-        "pct": "16.6%"
+        "with_svg": 935,
+        "pct": "16.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 930,
-        "pct": "16.6%"
+        "with_svg": 935,
+        "pct": "16.7%"
       }
     }
   },
@@ -73680,6 +73680,116 @@
         "images/HSK_3.0/level7/深奥.svg",
         "images/HSK_3.0/level8/深奥.svg",
         "images/HSK_3.0/level9/深奥.svg"
+      ]
+    },
+    "深沉": {
+      "hanzi": "深沉",
+      "pinyin": "shēnchén",
+      "meaning": "trầm tĩnh, sâu sắc",
+      "example_zh": "他是一个性格<u>深沉</u>的人。",
+      "example_vi": "Anh ấy là người có tính cách <u>trầm tĩnh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "深沉.svg",
+      "src": "images/HSK_2.0/level6/深沉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/深沉.svg",
+        "images/HSK_3.0/level8/深沉.svg",
+        "images/HSK_3.0/level9/深沉.svg"
+      ]
+    },
+    "深情厚谊": {
+      "hanzi": "深情厚谊",
+      "pinyin": "shēnqínghòuyì",
+      "meaning": "tình cảm sâu nặng",
+      "example_zh": "他们之间有着<u>深情厚谊</u>。",
+      "example_vi": "Giữa họ có một <u>tình cảm sâu nặng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "深情厚谊.svg",
+      "src": "images/HSK_2.0/level6/深情厚谊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/深情厚谊.svg",
+        "images/HSK_3.0/level8/深情厚谊.svg",
+        "images/HSK_3.0/level9/深情厚谊.svg"
+      ]
+    },
+    "申报": {
+      "hanzi": "申报",
+      "pinyin": "shēnbào",
+      "meaning": "khai báo, đăng ký",
+      "example_zh": "出入境时需要<u>申报</u>物品。",
+      "example_vi": "Khi xuất nhập cảnh cần <u>khai báo</u> hàng hóa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "申报.svg",
+      "src": "images/HSK_2.0/level6/申报.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/申报.svg",
+        "images/HSK_3.0/level8/申报.svg",
+        "images/HSK_3.0/level9/申报.svg"
+      ]
+    },
+    "绅士": {
+      "hanzi": "绅士",
+      "pinyin": "shēnshì",
+      "meaning": "quý ông, người lịch thiệp",
+      "example_zh": "他举止文雅，像个<u>绅士</u>。",
+      "example_vi": "Cử chỉ của anh ấy nho nhã, giống một <u>quý ông</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "绅士.svg",
+      "src": "images/HSK_2.0/level6/绅士.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/绅士.svg",
+        "images/HSK_3.0/level8/绅士.svg",
+        "images/HSK_3.0/level9/绅士.svg"
+      ]
+    },
+    "呻吟": {
+      "hanzi": "呻吟",
+      "pinyin": "shēnyín",
+      "meaning": "rên rỉ",
+      "example_zh": "病人痛苦地<u>呻吟</u>着。",
+      "example_vi": "Bệnh nhân <u>rên rỉ</u> trong đau đớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "呻吟.svg",
+      "src": "images/HSK_2.0/level6/呻吟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/呻吟.svg",
+        "images/HSK_3.0/level8/呻吟.svg",
+        "images/HSK_3.0/level9/呻吟.svg"
       ]
     },
     "生存": {

@@ -1,0 +1,47 @@
+<svg width="240" height="240" rx="24" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle glow / ambient background element -->
+  <circle cx="120" cy="120" r="80" fill="#2D2235" opacity="0.6"/>
+
+  <g transform="translate(0, 0)">
+    <!-- Intertwined / Connected Hearts (Representing deep emotional bond / tình cảm sâu nặng) -->
+    
+    <!-- Outer/Background Heart (Deep connection) -->
+    <path d="M120 185 C120 185 168 142 168 105 C168 83 151 66 129 66 C117 66 106 72 99 82 C92 72 81 66 69 66 C47 66 30 83 30 105 C30 142 78 185 78 185 Z" 
+          fill="#3B2E46" 
+          stroke="#5C426D" 
+          stroke-width="3" 
+          stroke-linejoin="round"/>
+
+    <!-- Left Heart (Person A) -->
+    <path d="M102 165 C102 165 142 128 142 98 C142 81 129 68 112 68 C103 68 94 72 88 80 C82 72 73 68 64 68 C47 68 34 81 34 98 C34 128 74 165 74 165 Z" 
+          fill="#E63946" 
+          opacity="0.85"/>
+
+    <!-- Right Heart (Person B - Interlocking) -->
+    <path d="M138 165 C138 165 178 128 178 98 C178 81 165 68 148 68 C139 68 130 72 124 80 C118 72 109 68 100 68 C83 68 70 81 70 98 C70 128 110 165 110 165 Z" 
+          fill="#FFB703" 
+          opacity="0.85"/>
+
+    <!-- Central Fusion / Handshake or Anchor representing 'Thừ/Hậu' (Deep, solid bond) -->
+    <circle cx="120" cy="110" r="28" fill="#1A1D24" stroke="#FFB703" stroke-width="4"/>
+    
+    <!-- Stylized Infinity / Handshake icon inside center -->
+    <path d="M108 110 C108 103 114 98 120 98 C126 98 132 103 132 110 C132 117 126 122 120 122 C114 122 108 117 108 110 Z" 
+          fill="none" 
+          stroke="#E63946" 
+          stroke-width="4" 
+          stroke-linecap="round"/>
+
+    <!-- Radiating connection nodes / sparkle accents -->
+    <circle cx="120" cy="45" r="3" fill="#FFB703"/>
+    <circle cx="75" cy="40" r="2" fill="#E63946"/>
+    <circle cx="165" cy="40" r="2" fill="#FFB703"/>
+    <path d="M120 35 L120 40 M120 50 L120 55" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Base platform / grounding shadow -->
+    <ellipse cx="120" cy="195" r="45" ry="6" fill="#111317"/>
+  </g>
+</svg>

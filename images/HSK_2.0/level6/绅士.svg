@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Shoulders and suit jacket -->
+    <path d="M 68 180 L 90 135 L 120 155 L 150 135 L 172 180 Z" fill="#2D3748"/>
+    
+    <!-- White shirt inner -->
+    <path d="M 98 135 L 120 168 L 142 135 L 130 135 L 120 150 L 110 135 Z" fill="#EDF2F7"/>
+    
+    <!-- Golden Bowtie -->
+    <g transform="translate(120, 133)">
+      <polygon points="0,0 -16,-8 -16,8" fill="#F6AD55"/>
+      <polygon points="0,0 16,-8 16,8" fill="#F6AD55"/>
+      <circle cx="0" cy="0" r="5" fill="#DD6B20"/>
+    </g>
+
+    <!-- Lapels -->
+    <path d="M 90 135 L 105 175 L 115 175 L 100 135 Z" fill="#4A5568"/>
+    <path d="M 150 135 L 135 175 L 125 175 L 140 135 Z" fill="#4A5568"/>
+
+    <!-- Neck -->
+    <rect x="110" y="115" width="20" height="25" fill="#CBD5E0"/>
+
+    <!-- Head / Face silhouette -->
+    <ellipse cx="120" cy="92" rx="24" ry="28" fill="#CBD5E0"/>
+
+    <!-- Hair -->
+    <path d="M 96 90 C 96 72 105 66 120 66 C 135 66 144 72 144 90 C 144 94 142 98 142 98 C 142 98 136 78 120 78 C 104 78 98 98 98 98 C 98 98 96 94 96 90 Z" fill="#2D3748"/>
+
+    <!-- Eyeglasses (Monocle/Frames) -->
+    <circle cx="111" cy="90" r="8" fill="none" stroke="#F6AD55" stroke-width="2.5"/>
+    <path d="M 119 90 L 128 92" stroke="#F6AD55" stroke-width="2"/>
+
+    <!-- Mustache -->
+    <path d="M 111 103 C 111 103 115 107 120 105 C 125 107 129 103 129 103 C 129 103 124 100 120 101 C 116 100 111 103 111 103 Z" fill="#2D3748"/>
+
+    <!-- Top Hat -->
+    <g transform="translate(120, 52)">
+      <!-- Brim -->
+      <ellipse cx="0" cy="0" rx="36" ry="6" fill="#2D3748"/>
+      <!-- Crown -->
+      <path d="M -22 -3 C -22 -3 -20 -32 0 -32 C 20 -32 22 -3 22 -3 Z" fill="#2D3748"/>
+      <!-- Hat Band (Gold Accent) -->
+      <path d="M -21 -5 C -10 -7 10 -7 21 -5 L 21.5 -2 C 10 -4 -10 -4 -21.5 -2 Z" fill="#F6AD55"/>
+    </g>
+  </g>
+</svg>

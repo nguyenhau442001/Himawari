@@ -19637,6 +19637,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/深奥.svg",
     "caption": "sâu xa, thâm sâu"
   },
+  "深沉": {
+    "file": "深沉.svg",
+    "src": "images/HSK_2.0/level6/深沉.svg",
+    "caption": "trầm tĩnh, sâu sắc"
+  },
+  "深情厚谊": {
+    "file": "深情厚谊.svg",
+    "src": "images/HSK_2.0/level6/深情厚谊.svg",
+    "caption": "tình cảm sâu nặng"
+  },
+  "申报": {
+    "file": "申报.svg",
+    "src": "images/HSK_2.0/level6/申报.svg",
+    "caption": "khai báo, đăng ký"
+  },
+  "绅士": {
+    "file": "绅士.svg",
+    "src": "images/HSK_2.0/level6/绅士.svg",
+    "caption": "quý ông, người lịch thiệp"
+  },
+  "呻吟": {
+    "file": "呻吟.svg",
+    "src": "images/HSK_2.0/level6/呻吟.svg",
+    "caption": "rên rỉ"
+  },
   "生存": {
     "file": "生存.svg",
     "src": "images/HSK_2.0/level6/生存.svg",
