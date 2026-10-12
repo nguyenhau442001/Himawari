@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table -->
+  <rect x="40" y="160" width="160" height="15" rx="2" fill="#374151"/>
+  
+  <!-- Document being forged -->
+  <rect x="80" y="110" width="80" height="50" rx="4" fill="#E5E7EB"/>
+  <rect x="90" y="120" width="60" height="5" rx="1" fill="#9CA3AF"/>
+  <rect x="90" y="135" width="40" height="5" rx="1" fill="#9CA3AF"/>
+  
+  <!-- Hand holding a pen/tool -->
+  <path d="M120 130 L150 100 L160 110 L130 140 Z" fill="#F59E0B"/>
+  <circle cx="155" cy="105" r="8" fill="#FBBF24"/>
+  
+  <!-- Motion lines indicating action -->
+  <path d="M165 95 L175 85" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M170 100 L180 90" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Stamp/Seal icon overlaying to imply forgery -->
+  <circle cx="130" cy="140" r="12" fill="none" stroke="#EF4444" stroke-width="4" stroke-dasharray="4 4"/>
+  <path d="M122 140 L128 146 L138 134" stroke="#EF4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

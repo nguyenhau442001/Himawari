@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Shield representing protection/dignity -->
+  <path d="M120 40C120 40 180 50 180 90C180 140 120 190 120 190C120 190 60 140 60 90C60 50 120 40 120 40Z" fill="#FFB84D" fill-opacity="0.2"/>
+  <path d="M120 50C120 50 165 58 165 90C165 130 120 170 120 170C120 170 75 130 75 90C75 58 120 50 120 50Z" fill="#FFB84D"/>
+  
+  <!-- Character interacting with the shield -->
+  <g transform="translate(120, 120)">
+    <!-- Arm -->
+    <path d="M-10 -20 L-40 -50" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hand -->
+    <circle cx="-45" cy="-55" r="8" fill="#FFFFFF"/>
+    <!-- Motion lines -->
+    <path d="M-55 -65 L-65 -75" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-60 -55 L-75 -55" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Abstract representation of dignity/value (star) -->
+  <path d="M120 80 L125 95 L140 95 L128 105 L133 120 L120 110 L107 120 L112 105 L100 95 L115 95 Z" fill="#1A1D24"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Shadow/Ground -->
+    <ellipse cx="0" cy="60" rx="50" ry="10" fill="#2D343E"/>
+    
+    <!-- Character Body -->
+    <path d="M-25 50 L-25 10 Q-25 -30 0 -30 Q25 -30 25 10 L25 50 Z" fill="#F39C12"/>
+    
+    <!-- Trembling/Shaking lines -->
+    <path d="M-40 -10 L-30 -20 M-40 10 L-30 20" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Eyes (Wide/Fearful) -->
+    <circle cx="-10" cy="-10" r="5" fill="#1A1D24"/>
+    <circle cx="10" cy="-10" r="5" fill="#1A1D24"/>
+    
+    <!-- Mouth (Trembling/Small) -->
+    <path d="M-8 5 Q0 10 8 5" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    
+    <!-- Obstacle/Difficulty (The source of fear) -->
+    <path d="M50 -20 L80 -20 L65 10 Z" fill="#E74C3C"/>
+    <path d="M55 -15 L75 -15 L65 5 Z" fill="#C0392B"/>
+  </g>
+</svg>

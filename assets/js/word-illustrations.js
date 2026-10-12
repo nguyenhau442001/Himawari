@@ -21007,10 +21007,110 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/往常.svg",
     "caption": "thường ngày, như mọi khi"
   },
+  "往事": {
+    "file": "往事.svg",
+    "src": "images/HSK_2.0/level6/往事.svg",
+    "caption": "chuyện cũ, việc đã qua"
+  },
+  "妄想": {
+    "file": "妄想.svg",
+    "src": "images/HSK_2.0/level6/妄想.svg",
+    "caption": "vọng tưởng, mơ tưởng hão huyền"
+  },
+  "微不足道": {
+    "file": "微不足道.svg",
+    "src": "images/HSK_2.0/level6/微不足道.svg",
+    "caption": "nhỏ nhặt không đáng kể"
+  },
+  "微观": {
+    "file": "微观.svg",
+    "src": "images/HSK_2.0/level6/微观.svg",
+    "caption": "vi mô"
+  },
+  "威风": {
+    "file": "威风.svg",
+    "src": "images/HSK_2.0/level6/威风.svg",
+    "caption": "oai phong, uy nghi"
+  },
+  "威力": {
+    "file": "威力.svg",
+    "src": "images/HSK_2.0/level6/威力.svg",
+    "caption": "uy lực"
+  },
+  "威望": {
+    "file": "威望.svg",
+    "src": "images/HSK_2.0/level6/威望.svg",
+    "caption": "uy tín, danh vọng"
+  },
+  "威信": {
+    "file": "威信.svg",
+    "src": "images/HSK_2.0/level6/威信.svg",
+    "caption": "uy tín"
+  },
+  "危机": {
+    "file": "危机.svg",
+    "src": "images/HSK_2.0/level6/危机.svg",
+    "caption": "khủng hoảng"
+  },
+  "违背": {
+    "file": "违背.svg",
+    "src": "images/HSK_2.0/level6/违背.svg",
+    "caption": "vi phạm, làm trái"
+  },
   "维持": {
     "file": "维持.svg",
     "src": "images/HSK_2.0/level6/维持.svg",
     "caption": "duy trì"
+  },
+  "维护": {
+    "file": "维护.svg",
+    "src": "images/HSK_2.0/level6/维护.svg",
+    "caption": "bảo vệ, gìn giữ"
+  },
+  "维生素": {
+    "file": "维生素.svg",
+    "src": "images/HSK_2.0/level6/维生素.svg",
+    "caption": "vitamin"
+  },
+  "唯独": {
+    "file": "唯独.svg",
+    "src": "images/HSK_2.0/level6/唯独.svg",
+    "caption": "chỉ riêng, duy chỉ có"
+  },
+  "为难": {
+    "file": "为难.svg",
+    "src": "images/HSK_2.0/level6/为难.svg",
+    "caption": "khó xử, làm khó"
+  },
+  "为期": {
+    "file": "为期.svg",
+    "src": "images/HSK_2.0/level6/为期.svg",
+    "caption": "trong thời hạn, kéo dài (thời gian)"
+  },
+  "委托": {
+    "file": "委托.svg",
+    "src": "images/HSK_2.0/level6/委托.svg",
+    "caption": "ủy thác, giao phó"
+  },
+  "委员": {
+    "file": "委员.svg",
+    "src": "images/HSK_2.0/level6/委员.svg",
+    "caption": "ủy viên"
+  },
+  "伪造": {
+    "file": "伪造.svg",
+    "src": "images/HSK_2.0/level6/伪造.svg",
+    "caption": "làm giả"
+  },
+  "未免": {
+    "file": "未免.svg",
+    "src": "images/HSK_2.0/level6/未免.svg",
+    "caption": "không tránh khỏi, có phần"
+  },
+  "畏惧": {
+    "file": "畏惧.svg",
+    "src": "images/HSK_2.0/level6/畏惧.svg",
+    "caption": "sợ hãi, khiếp sợ"
   },
   "舞蹈": {
     "file": "舞蹈.svg",

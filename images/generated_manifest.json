@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:57:15.070771",
-  "total_unique_words_with_illustrations": 4769,
-  "total_flat_svg_files": 4769,
+  "generated_at": "2026-10-13T00:10:01.438206",
+  "total_unique_words_with_illustrations": 4789,
+  "total_flat_svg_files": 4789,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2129,
-        "pct": "85.2%"
+        "with_svg": 2149,
+        "pct": "86.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 711,
-        "pct": "39.5%"
+        "with_svg": 717,
+        "pct": "39.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1095,
-        "pct": "19.6%"
+        "with_svg": 1109,
+        "pct": "19.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1095,
-        "pct": "19.6%"
+        "with_svg": 1109,
+        "pct": "19.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1095,
-        "pct": "19.6%"
+        "with_svg": 1109,
+        "pct": "19.8%"
       }
     }
   },
@@ -79254,6 +79254,222 @@
         "images/HSK_3.0/level9/往常.svg"
       ]
     },
+    "往事": {
+      "hanzi": "往事",
+      "pinyin": "wǎngshì",
+      "meaning": "chuyện cũ, việc đã qua",
+      "example_zh": "他常常回忆起童年的<u>往事</u>。",
+      "example_vi": "Anh ấy thường nhớ lại những <u>chuyện cũ</u> thời thơ ấu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "往事.svg",
+      "src": "images/HSK_2.0/level6/往事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/往事.svg",
+        "images/HSK_3.0/level8/往事.svg",
+        "images/HSK_3.0/level9/往事.svg"
+      ]
+    },
+    "妄想": {
+      "hanzi": "妄想",
+      "pinyin": "wàngxiǎng",
+      "meaning": "vọng tưởng, mơ tưởng hão huyền",
+      "example_zh": "他<u>妄想</u>一夜之间成为富翁。",
+      "example_vi": "Anh ấy <u>mơ tưởng hão huyền</u> trở thành triệu phú trong một đêm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "妄想.svg",
+      "src": "images/HSK_2.0/level6/妄想.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/妄想.svg",
+        "images/HSK_3.0/level8/妄想.svg",
+        "images/HSK_3.0/level9/妄想.svg"
+      ]
+    },
+    "微不足道": {
+      "hanzi": "微不足道",
+      "pinyin": "wēibùzúdào",
+      "meaning": "nhỏ nhặt không đáng kể",
+      "example_zh": "这点困难是<u>微不足道</u>的。",
+      "example_vi": "Khó khăn này thật <u>nhỏ nhặt không đáng kể</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "微不足道.svg",
+      "src": "images/HSK_2.0/level6/微不足道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/微不足道.svg",
+        "images/HSK_3.0/level8/微不足道.svg",
+        "images/HSK_3.0/level9/微不足道.svg"
+      ]
+    },
+    "微观": {
+      "hanzi": "微观",
+      "pinyin": "wēiguān",
+      "meaning": "vi mô",
+      "example_zh": "这是从<u>微观</u>角度进行的研究。",
+      "example_vi": "Đây là nghiên cứu được thực hiện từ góc độ <u>vi mô</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "微观.svg",
+      "src": "images/HSK_2.0/level6/微观.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/微观.svg",
+        "images/HSK_3.0/level8/微观.svg",
+        "images/HSK_3.0/level9/微观.svg"
+      ]
+    },
+    "威风": {
+      "hanzi": "威风",
+      "pinyin": "wēifēng",
+      "meaning": "oai phong, uy nghi",
+      "example_zh": "他骑着马，显得很<u>威风</u>。",
+      "example_vi": "Anh ấy cưỡi ngựa, trông rất <u>oai phong</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "威风.svg",
+      "src": "images/HSK_2.0/level6/威风.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/威风.svg",
+        "images/HSK_3.0/level8/威风.svg",
+        "images/HSK_3.0/level9/威风.svg"
+      ]
+    },
+    "威力": {
+      "hanzi": "威力",
+      "pinyin": "wēilì",
+      "meaning": "uy lực",
+      "example_zh": "这种武器的<u>威力</u>很大。",
+      "example_vi": "<u>Uy lực</u> của loại vũ khí này rất lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "威力.svg",
+      "src": "images/HSK_2.0/level6/威力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/威力.svg",
+        "images/HSK_3.0/level8/威力.svg",
+        "images/HSK_3.0/level9/威力.svg"
+      ]
+    },
+    "威望": {
+      "hanzi": "威望",
+      "pinyin": "wēiwàng",
+      "meaning": "uy tín, danh vọng",
+      "example_zh": "他在公司里有很高的<u>威望</u>。",
+      "example_vi": "Anh ấy có <u>uy tín</u> rất cao trong công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "威望.svg",
+      "src": "images/HSK_2.0/level6/威望.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/威望.svg",
+        "images/HSK_3.0/level8/威望.svg",
+        "images/HSK_3.0/level9/威望.svg"
+      ]
+    },
+    "威信": {
+      "hanzi": "威信",
+      "pinyin": "wēixìn",
+      "meaning": "uy tín",
+      "example_zh": "领导应该树立自己的<u>威信</u>。",
+      "example_vi": "Lãnh đạo nên xây dựng <u>uy tín</u> cho mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "威信.svg",
+      "src": "images/HSK_2.0/level6/威信.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/威信.svg",
+        "images/HSK_3.0/level8/威信.svg",
+        "images/HSK_3.0/level9/威信.svg"
+      ]
+    },
+    "危机": {
+      "hanzi": "危机",
+      "pinyin": "wēijī",
+      "meaning": "khủng hoảng",
+      "example_zh": "公司正面临财务<u>危机</u>。",
+      "example_vi": "Công ty đang đối mặt với <u>khủng hoảng</u> tài chính.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "危机.svg",
+      "src": "images/HSK_2.0/level6/危机.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/危机.svg"
+      ]
+    },
+    "违背": {
+      "hanzi": "违背",
+      "pinyin": "wéibèi",
+      "meaning": "vi phạm, làm trái",
+      "example_zh": "他的做法<u>违背</u>了公司规定。",
+      "example_vi": "Cách làm của anh ấy <u>vi phạm</u> quy định công ty.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "违背.svg",
+      "src": "images/HSK_2.0/level6/违背.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/违背.svg",
+        "images/HSK_3.0/level8/违背.svg",
+        "images/HSK_3.0/level9/违背.svg"
+      ]
+    },
     "维持": {
       "hanzi": "维持",
       "pinyin": "wéichí",
@@ -79270,6 +79486,206 @@
       "src": "images/HSK_2.0/level6/维持.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/维持.svg"
+      ]
+    },
+    "维护": {
+      "hanzi": "维护",
+      "pinyin": "wéihù",
+      "meaning": "bảo vệ, gìn giữ",
+      "example_zh": "我们要<u>维护</u>国家的尊严。",
+      "example_vi": "Chúng ta phải <u>bảo vệ</u> phẩm giá của đất nước.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "维护.svg",
+      "src": "images/HSK_2.0/level6/维护.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/维护.svg"
+      ]
+    },
+    "维生素": {
+      "hanzi": "维生素",
+      "pinyin": "wéishēngsù",
+      "meaning": "vitamin",
+      "example_zh": "水果含有丰富的<u>维生素</u>。",
+      "example_vi": "Trái cây chứa nhiều <u>vitamin</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "维生素.svg",
+      "src": "images/HSK_2.0/level6/维生素.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/维生素.svg"
+      ]
+    },
+    "唯独": {
+      "hanzi": "唯独",
+      "pinyin": "wéidú",
+      "meaning": "chỉ riêng, duy chỉ có",
+      "example_zh": "大家都到了，<u>唯独</u>他没来。",
+      "example_vi": "Mọi người đều đến, <u>chỉ riêng</u> anh ấy không đến.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "唯独.svg",
+      "src": "images/HSK_2.0/level6/唯独.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/唯独.svg",
+        "images/HSK_3.0/level8/唯独.svg",
+        "images/HSK_3.0/level9/唯独.svg"
+      ]
+    },
+    "为难": {
+      "hanzi": "为难",
+      "pinyin": "wéinán",
+      "meaning": "khó xử, làm khó",
+      "example_zh": "这个问题让他很<u>为难</u>。",
+      "example_vi": "Vấn đề này khiến anh ấy rất <u>khó xử</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "为难.svg",
+      "src": "images/HSK_2.0/level6/为难.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/为难.svg"
+      ]
+    },
+    "为期": {
+      "hanzi": "为期",
+      "pinyin": "wéiqī",
+      "meaning": "trong thời hạn, kéo dài (thời gian)",
+      "example_zh": "这次培训<u>为期</u>一个月。",
+      "example_vi": "Lần đào tạo này kéo dài <u>trong thời hạn</u> một tháng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "为期.svg",
+      "src": "images/HSK_2.0/level6/为期.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/为期.svg"
+      ]
+    },
+    "委托": {
+      "hanzi": "委托",
+      "pinyin": "wěituō",
+      "meaning": "ủy thác, giao phó",
+      "example_zh": "他<u>委托</u>朋友照看房子。",
+      "example_vi": "Anh ấy <u>ủy thác</u> cho bạn trông nhà.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "委托.svg",
+      "src": "images/HSK_2.0/level6/委托.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/委托.svg"
+      ]
+    },
+    "委员": {
+      "hanzi": "委员",
+      "pinyin": "wěiyuán",
+      "meaning": "ủy viên",
+      "example_zh": "他是这个组织的<u>委员</u>。",
+      "example_vi": "Anh ấy là <u>ủy viên</u> của tổ chức này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "委员.svg",
+      "src": "images/HSK_2.0/level6/委员.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/委员.svg",
+        "images/HSK_3.0/level8/委员.svg",
+        "images/HSK_3.0/level9/委员.svg"
+      ]
+    },
+    "伪造": {
+      "hanzi": "伪造",
+      "pinyin": "wěizào",
+      "meaning": "làm giả",
+      "example_zh": "他因<u>伪造</u>证件被逮捕。",
+      "example_vi": "Anh ta bị bắt vì <u>làm giả</u> giấy tờ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "伪造.svg",
+      "src": "images/HSK_2.0/level6/伪造.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/伪造.svg",
+        "images/HSK_3.0/level8/伪造.svg",
+        "images/HSK_3.0/level9/伪造.svg"
+      ]
+    },
+    "未免": {
+      "hanzi": "未免",
+      "pinyin": "wèimiǎn",
+      "meaning": "không tránh khỏi, có phần",
+      "example_zh": "你这样说<u>未免</u>太武断了。",
+      "example_vi": "Bạn nói như vậy <u>có phần</u> quá võ đoán.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "未免.svg",
+      "src": "images/HSK_2.0/level6/未免.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/未免.svg",
+        "images/HSK_3.0/level8/未免.svg",
+        "images/HSK_3.0/level9/未免.svg"
+      ]
+    },
+    "畏惧": {
+      "hanzi": "畏惧",
+      "pinyin": "wèijù",
+      "meaning": "sợ hãi, khiếp sợ",
+      "example_zh": "他从不<u>畏惧</u>困难。",
+      "example_vi": "Anh ấy không bao giờ <u>sợ hãi</u> khó khăn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "畏惧.svg",
+      "src": "images/HSK_2.0/level6/畏惧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/畏惧.svg",
+        "images/HSK_3.0/level8/畏惧.svg",
+        "images/HSK_3.0/level9/畏惧.svg"
       ]
     },
     "舞蹈": {

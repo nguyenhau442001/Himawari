@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle House Silhouette in Background -->
+  <path d="M120 65 L175 110 V170 H65 V110 Z" fill="#2D3748" opacity="0.6"/>
+  <rect x="105" y="140" width="30" height="30" fill="#1A1D24" opacity="0.4"/>
+  
+  <!-- Left Hand (The Entrustor) -->
+  <path d="M30 155 C 60 155, 75 145, 95 145" stroke="#CBD5E0" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M95 145 L110 135" stroke="#CBD5E0" stroke-width="14" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right Hand (The Trustee) -->
+  <path d="M210 155 C 180 155, 165 145, 145 145" stroke="#CBD5E0" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M145 145 L130 135" stroke="#CBD5E0" stroke-width="14" stroke-linecap="round" fill="none"/>
+  
+  <!-- The Key (The Object of Entrustment) -->
+  <g transform="translate(120, 115) rotate(-45)">
+    <circle cx="0" cy="0" r="10" stroke="#F6AD55" stroke-width="4" fill="none"/>
+    <rect x="-2" y="10" width="4" height="25" fill="#F6AD55"/>
+    <rect x="2" y="22" width="6" height="3" rx="1" fill="#F6AD55"/>
+    <rect x="2" y="28" width="6" height="3" rx="1" fill="#F6AD55"/>
+  </g>
+  
+  <!-- Focus Glow -->
+  <circle cx="120" cy="120" r="40" fill="#F6AD55" opacity="0.1"/>
+</svg>

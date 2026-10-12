@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow -->
+  <circle cx="120" cy="115" r="50" fill="#F6AD55" fill-opacity="0.1"/>
+  
+  <!-- Laurel Wreath (Symbol of Prestige/Honor) -->
+  <g fill="#F6AD55">
+    <!-- Left Side -->
+    <path d="M 85,165 Q 65,145 75,105" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="72" cy="158" rx="6" ry="3" transform="rotate(-30 72 158)"/>
+    <ellipse cx="68" cy="142" rx="6" ry="3" transform="rotate(-20 68 142)"/>
+    <ellipse cx="68" cy="125" rx="6" ry="3" transform="rotate(-10 68 125)"/>
+    <ellipse cx="73" cy="110" rx="6" ry="3" transform="rotate(5 73 110)"/>
+    
+    <!-- Right Side -->
+    <path d="M 155,165 Q 175,145 165,105" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="168" cy="158" rx="6" ry="3" transform="rotate(30 168 158)"/>
+    <ellipse cx="172" cy="142" rx="6" ry="3" transform="rotate(20 172 142)"/>
+    <ellipse cx="172" cy="125" rx="6" ry="3" transform="rotate(10 172 125)"/>
+    <ellipse cx="167" cy="110" rx="6" ry="3" transform="rotate(-5 167 110)"/>
+  </g>
+
+  <!-- Central Figure (The Person of Authority) -->
+  <path d="M 85,185 Q 120,165 155,185 L 155,200 L 85,200 Z" fill="#E2E8F0"/>
+  <circle cx="120" cy="135" r="28" fill="#E2E8F0"/>
+  
+  <!-- Star Emblem (Reputation/Status) -->
+  <path d="M 120,110 L 123,118 L 131,118 L 125,123 L 127,131 L 120,126 L 113,131 L 115,123 L 109,118 L 117,118 Z" fill="#F6AD55"/>
+  
+  <!-- Grounding Base -->
+  <rect x="90" y="200" width="60" height="6" rx="3" fill="#4A5568"/>
+</svg>
