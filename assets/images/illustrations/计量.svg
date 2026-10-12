@@ -1,0 +1,142 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <!-- Table Gradient -->
+    <linearGradient id="table-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Gold Plaque Gradient -->
+    <linearGradient id="plaque-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Laser Beam Glow -->
+    <linearGradient id="laser-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)"/>
+
+  <!-- Background Laboratory / Metrology Institute Interior -->
+  <g id="environment">
+    <!-- Back wall grid pattern representing precision -->
+    <path d="M 0,40 H 240 M 0,80 H 240 M 0,120 H 240 M 40,0 V 160 M 80,0 V 160 M 120,0 V 160 M 160,0 V 160 M 200,0 V 160" stroke="#334155" stroke-width="0.5" stroke-dasharray="2,4" opacity="0.4"/>
+    
+    <!-- Wall panel / Light accent -->
+    <rect x="20" y="20" width="80" height="6" rx="3" fill="#38bdf8" opacity="0.3"/>
+    
+    <!-- Official National Seal Plaque on Wall -->
+    <g transform="translate(180, 25)" filter="url(#shadow)">
+      <rect x="0" y="0" width="36" height="28" rx="3" fill="url(#plaque-grad)" stroke="#fef3c7" stroke-width="1"/>
+      <!-- Inner geometric detail representing state standard -->
+      <circle cx="18" cy="14" r="8" fill="none" stroke="#78350f" stroke-width="1.5"/>
+      <path d="M 14,14 L 18,10 L 22,14" fill="none" stroke="#78350f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="18" y1="10" x2="18" y2="18" stroke="#78350f" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Workbench / Table Surface -->
+  <g id="workbench">
+    <rect x="0" y="160" width="240" height="80" fill="url(#table-grad)" />
+    <!-- Table top highlight edge -->
+    <rect x="0" y="160" width="240" height="4" fill="#64748b" />
+  </g>
+
+  <!-- Precision Instruments & Equipment -->
+  <g id="props">
+    <!-- Electronic Scale / Measurement Platform (Right) -->
+    <g transform="translate(140, 125)">
+      <!-- Base -->
+      <rect x="0" y="25" width="60" height="10" rx="2" fill="#475569" filter="url(#shadow)" />
+      <!-- Platform Plate -->
+      <rect x="5" y="18" width="50" height="7" rx="1" fill="#cbd5e1" />
+      <!-- Digital Display Screen -->
+      <rect x="18" y="8" width="24" height="12" rx="2" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+      <!-- Glowing Display Digits (Abstracted bars) -->
+      <rect x="21" y="12" width="4" height="4" rx="1" fill="#38bdf8" />
+      <rect x="27" y="12" width="4" height="4" rx="1" fill="#38bdf8" />
+      <rect x="33" y="12" width="4" height="4" rx="1" fill="#38bdf8" />
+
+      <!-- Standard Calibration Weight on Scale -->
+      <path d="M 20,18 L 22,10 L 38,10 L 40,18 Z" fill="#fbbf24" stroke="#d97706" stroke-width="1" filter="url(#shadow)" />
+      <circle cx="30" cy="10" r="2" fill="#d97706" />
+    </g>
+
+    <!-- Laser Metrology Device (Left) -->
+    <g transform="translate(30, 100)" filter="url(#shadow)">
+      <rect x="0" y="15" width="35" height="30" rx="4" fill="#475569" />
+      <rect x="25" y="20" width="15" height="20" rx="2" fill="#334155" />
+      <circle cx="32" cy="30" r="5" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+      <circle cx="32" cy="30" r="2" fill="#38bdf8" />
+      <!-- Laser Beam targeting measurement object -->
+      <polygon points="32,30 115,48 115,52 32,34" fill="url(#laser-glow)" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Character: Certified Metrologist / Quality Inspector -->
+  <g id="character" filter="url(#shadow)">
+    <!-- Lab Coat Body -->
+    <path d="M 90,140 C 90,120 110,115 125,115 C 140,115 160,120 160,140 L 165,200 L 85,200 Z" fill="#f8fafc" />
+    <!-- Lab Coat Lapel & Buttons -->
+    <path d="M 125,115 L 110,150 L 140,150 Z" fill="#e2e8f0" />
+    <line x1="125" y1="150" x2="125" y2="195" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4" />
+    <circle cx="125" cy="160" r="1.5" fill="#94a3b8" />
+    <circle cx="125" cy="175" r="1.5" fill="#94a3b8" />
+
+    <!-- Head & Face -->
+    <circle cx="125" cy="90" r="18" fill="#fbcfe8" />
+    <path d="M 107,85 C 107,75 143,75 143,85 C 143,90 140,92 135,92 L 115,92 C 110,92 107,90 107,85 Z" fill="#334155" /> <!-- Neat Hair -->
+    
+    <!-- Focused Expressive Eyes & Smile -->
+    <circle cx="119" cy="90" r="1.5" fill="#1e293b" />
+    <circle cx="131" cy="90" r="1.5" fill="#1e293b" />
+    <path d="M 123,95 Q 125,97 127,95" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Professional Glasses -->
+    <rect x="115" y="85" width="10" height="6" rx="1" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="127" y="85" width="10" height="6" rx="1" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <line x1="125" y1="88" x2="127" y2="88" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Arms & Interaction -->
+    <!-- Left Arm holding clipboard / measuring log -->
+    <path d="M 95,130 L 80,155 L 95,165" fill="none" stroke="#f8fafc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Clipboard prop -->
+    <g transform="translate(70, 145) rotate(-15)">
+      <rect x="0" y="0" width="22" height="28" rx="2" fill="#94a3b8" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="3" y="4" width="16" height="20" fill="#ffffff" />
+      <!-- Data lines on clipboard -->
+      <line x1="5" y1="8" x2="15" y2="8" stroke="#64748b" stroke-width="1"/>
+      <line x1="5" y1="12" x2="13" y2="12" stroke="#64748b" stroke-width="1"/>
+      <line x1="5" y1="16" x2="16" y2="16" stroke="#64748b" stroke-width="1"/>
+      <circle cx="11" cy="2" r="2" fill="#475569" />
+    </g>
+
+    <!-- Right Arm pointing towards the scale/measurement -->
+    <path d="M 155,130 L 175,140 L 165,148" fill="none" stroke="#f8fafc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Hand -->
+    <circle cx="165" cy="148" r="4" fill="#fbcfe8" />
+  </g>
+
+  <!-- Foreground Atmospheric Elements / Glowing Accents -->
+  <g id="accents">
+    <!-- Precision Checkmark Badge representing standard/certification -->
+    <circle cx="210" cy="70" r="14" fill="#10b981" filter="url(#shadow)" />
+    <path d="M 203,70 L 208,75 L 218,63" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

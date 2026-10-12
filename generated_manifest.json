@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:58:48.875973",
-  "total_unique_words_with_illustrations": 3929,
-  "total_flat_svg_files": 3929,
+  "generated_at": "2026-10-12T13:00:38.347544",
+  "total_unique_words_with_illustrations": 3939,
+  "total_flat_svg_files": 3939,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1289,
-        "pct": "51.6%"
+        "with_svg": 1299,
+        "pct": "52.0%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 611,
-        "pct": "61.1%"
+        "with_svg": 612,
+        "pct": "61.2%"
       },
       "level5": {
         "total": 1600,
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 460,
-        "pct": "25.6%"
+        "with_svg": 464,
+        "pct": "25.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 546,
+        "with_svg": 549,
         "pct": "9.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 546,
+        "with_svg": 549,
         "pct": "9.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 546,
+        "with_svg": 549,
         "pct": "9.8%"
       }
     }
@@ -61222,6 +61222,42 @@
         "images/HSK_3.0/level9/脊梁.svg"
       ]
     },
+    "计量": {
+      "hanzi": "计量",
+      "pinyin": "jìliàng",
+      "meaning": "đo lường, định lượng",
+      "example_zh": "这是国家标准<u>计量</u>单位。",
+      "example_vi": "Đây là đơn vị <u>đo lường</u> chuẩn quốc gia.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "计量.svg",
+      "src": "images/HSK_2.0/level6/计量.svg",
+      "alt_srcs": []
+    },
+    "记性": {
+      "hanzi": "记性",
+      "pinyin": "jìxing",
+      "meaning": "khả năng nhớ, trí nhớ",
+      "example_zh": "我<u>记性</u>不太好。",
+      "example_vi": "<u>Trí nhớ</u> của tôi không tốt lắm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "记性.svg",
+      "src": "images/HSK_2.0/level6/记性.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/记性.svg",
+        "images/HSK_3.0/level8/记性.svg",
+        "images/HSK_3.0/level9/记性.svg"
+      ]
+    },
     "记载": {
       "hanzi": "记载",
       "pinyin": "jìzǎi",
@@ -61238,6 +61274,50 @@
       "src": "images/HSK_2.0/level6/记载.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/记载.svg"
+      ]
+    },
+    "寄托": {
+      "hanzi": "寄托",
+      "pinyin": "jìtuō",
+      "meaning": "gửi gắm, ký thác",
+      "example_zh": "这首诗<u>寄托</u>了诗人的情感。",
+      "example_vi": "Bài thơ này <u>gửi gắm</u> tình cảm của nhà thơ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "寄托.svg",
+      "src": "images/HSK_2.0/level6/寄托.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/寄托.svg",
+        "images/HSK_3.0/level8/寄托.svg",
+        "images/HSK_3.0/level9/寄托.svg"
+      ]
+    },
+    "忌讳": {
+      "hanzi": "忌讳",
+      "pinyin": "jìhuì",
+      "meaning": "kiêng kỵ",
+      "example_zh": "在这里说这个话题是<u>忌讳</u>的。",
+      "example_vi": "Nói đề tài này ở đây là điều <u>kiêng kỵ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "忌讳.svg",
+      "src": "images/HSK_2.0/level6/忌讳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/忌讳.svg",
+        "images/HSK_3.0/level8/忌讳.svg",
+        "images/HSK_3.0/level9/忌讳.svg"
       ]
     },
     "季度": {
@@ -61258,6 +61338,24 @@
         "images/HSK_3.0/level5/季度.svg"
       ]
     },
+    "继承": {
+      "hanzi": "继承",
+      "pinyin": "jìchéng",
+      "meaning": "kế thừa",
+      "example_zh": "他<u>继承</u>了父亲的事业。",
+      "example_vi": "Anh ấy <u>kế thừa</u> sự nghiệp của cha.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "继承.svg",
+      "src": "images/HSK_2.0/level6/继承.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/继承.svg"
+      ]
+    },
     "加工": {
       "hanzi": "加工",
       "pinyin": "jiāgōng",
@@ -61274,6 +61372,92 @@
       "src": "images/HSK_2.0/level6/加工.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/加工.svg"
+      ]
+    },
+    "加快": {
+      "hanzi": "加快",
+      "pinyin": "jiākuài",
+      "meaning": "tăng tốc, làm nhanh hơn",
+      "example_zh": "我们要<u>加快</u>进度。",
+      "example_vi": "Chúng ta phải <u>tăng tốc</u> tiến độ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "加快.svg",
+      "src": "images/HSK_2.0/level6/加快.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/加快.svg"
+      ]
+    },
+    "假若": {
+      "hanzi": "假若",
+      "pinyin": "jiǎruò",
+      "meaning": "nếu như",
+      "example_zh": "<u>假若</u>明天下雨，我们就不去了。",
+      "example_vi": "<u>Nếu như</u> ngày mai mưa, chúng tôi sẽ không đi nữa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "假若.svg",
+      "src": "images/HSK_2.0/level6/假若.svg",
+      "alt_srcs": []
+    },
+    "监测": {
+      "hanzi": "监测",
+      "pinyin": "jiāncè",
+      "meaning": "giám sát, theo dõi",
+      "example_zh": "环保部门<u>监测</u>空气质量。",
+      "example_vi": "Cơ quan môi trường <u>giám sát</u> chất lượng không khí.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "监测.svg",
+      "src": "images/HSK_2.0/level6/监测.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/监测.svg"
+      ]
+    },
+    "监督": {
+      "hanzi": "监督",
+      "pinyin": "jiāndū",
+      "meaning": "giám sát",
+      "example_zh": "公众有权<u>监督</u>政府。",
+      "example_vi": "Công chúng có quyền <u>giám sát</u> chính phủ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "监督.svg",
+      "src": "images/HSK_2.0/level6/监督.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/监督.svg"
+      ]
+    },
+    "艰难": {
+      "hanzi": "艰难",
+      "pinyin": "jiānnán",
+      "meaning": "khó khăn gian nan",
+      "example_zh": "公司正处于<u>艰难</u>时期。",
+      "example_vi": "Công ty đang ở thời kỳ <u>khó khăn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "艰难.svg",
+      "src": "images/HSK_2.0/level6/艰难.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/艰难.svg"
       ]
     },
     "将近": {

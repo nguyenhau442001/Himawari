@@ -16567,20 +16567,70 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/脊梁.svg",
     "caption": "cột sống, lưng"
   },
+  "计量": {
+    "file": "计量.svg",
+    "src": "images/HSK_2.0/level6/计量.svg",
+    "caption": "đo lường, định lượng"
+  },
+  "记性": {
+    "file": "记性.svg",
+    "src": "images/HSK_2.0/level6/记性.svg",
+    "caption": "khả năng nhớ, trí nhớ"
+  },
   "记载": {
     "file": "记载.svg",
     "src": "images/HSK_2.0/level6/记载.svg",
     "caption": "ghi chép, ghi lại"
+  },
+  "寄托": {
+    "file": "寄托.svg",
+    "src": "images/HSK_2.0/level6/寄托.svg",
+    "caption": "gửi gắm, ký thác"
+  },
+  "忌讳": {
+    "file": "忌讳.svg",
+    "src": "images/HSK_2.0/level6/忌讳.svg",
+    "caption": "kiêng kỵ"
   },
   "季度": {
     "file": "季度.svg",
     "src": "images/HSK_2.0/level6/季度.svg",
     "caption": "quý (3 tháng)"
   },
+  "继承": {
+    "file": "继承.svg",
+    "src": "images/HSK_2.0/level6/继承.svg",
+    "caption": "kế thừa"
+  },
   "加工": {
     "file": "加工.svg",
     "src": "images/HSK_2.0/level6/加工.svg",
     "caption": "gia công, chế biến"
+  },
+  "加快": {
+    "file": "加快.svg",
+    "src": "images/HSK_2.0/level6/加快.svg",
+    "caption": "tăng tốc, làm nhanh hơn"
+  },
+  "假若": {
+    "file": "假若.svg",
+    "src": "images/HSK_2.0/level6/假若.svg",
+    "caption": "nếu như"
+  },
+  "监测": {
+    "file": "监测.svg",
+    "src": "images/HSK_2.0/level6/监测.svg",
+    "caption": "giám sát, theo dõi"
+  },
+  "监督": {
+    "file": "监督.svg",
+    "src": "images/HSK_2.0/level6/监督.svg",
+    "caption": "giám sát"
+  },
+  "艰难": {
+    "file": "艰难.svg",
+    "src": "images/HSK_2.0/level6/艰难.svg",
+    "caption": "khó khăn gian nan"
   },
   "将近": {
     "file": "将近.svg",

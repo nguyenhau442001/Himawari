@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Definitions & Gradients -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <linearGradient id="warmLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="blueprintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGradient)" />
+
+  <!-- Background Environment / Workshop Interior -->
+  <!-- Back Wall -->
+  <rect x="20" y="20" width="200" height="130" rx="4" fill="#1b263b" />
+  
+  <!-- Warm Ambient Glow representing legacy/passing the torch -->
+  <circle cx="120" cy="80" r="70" fill="url(#warmLight)" />
+
+  <!-- Workshop Windows / Architectural details in background -->
+  <rect x="35" y="35" width="45" height="60" rx="2" fill="#0f172a" opacity="0.6" />
+  <line x1="57" y1="35" x2="57" y2="95" stroke="#334155" stroke-width="1.5" />
+  <line x1="35" y1="65" x2="80" y2="65" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Framed Portrait on Wall (The Father / The Founder) -->
+  <rect x="155" y="35" width="40" height="50" rx="2" fill="#334155" />
+  <rect x="159" y="39" width="32" height="42" fill="#1e293b" />
+  <!-- Silhouette of Father -->
+  <circle cx="175" cy="55" r="9" fill="#64748b" />
+  <path d="M163 75 C163 67, 187 67, 187 75" fill="#64748b" />
+
+  <!-- Shelves with blueprints, tools, and models -->
+  <rect x="90" y="30" width="55" height="4" rx="1" fill="#475569" />
+  <!-- Architectural model on shelf -->
+  <polygon points="105,30 115,18 125,30" fill="#fbbf24" opacity="0.8" />
+  <rect x="128" y="20" width="8" height="10" fill="#38bdf8" opacity="0.8" />
+  <rect x="97" y="22" width="6" height="8" fill="#10b981" opacity="0.8" />
+
+  <!-- Large Workbench / Desk -->
+  <rect x="15" y="145" width="210" height="15" rx="3" fill="url(#deskGrad)" filter="url(#shadow)" />
+  <rect x="25" y="160" width="14" height="65" fill="#0f172a" />
+  <rect x="201" y="160" width="14" height="65" fill="#0f172a" />
+
+  <!-- Foreground Props on Desk -->
+  <!-- Architect's Compass & Drafting Tools -->
+  <path d="M45 145 L50 120 L55 145 Z" fill="#94a3b8" />
+  <line x1="42" y1="148" x2="60" y2="135" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Desk Lamp -->
+  <path d="M190 145 L180 110 L185 110 L193 145 Z" fill="#64748b" />
+  <path d="M170 100 C170 90, 195 90, 195 100 Z" fill="#fbbf24" />
+  <ellipse cx="182" cy="140" rx="25" ry="8" fill="#f59e0b" opacity="0.15" />
+
+  <!-- Central Focus: Architectural Blueprint (The Business/Enterprise) -->
+  <g transform="translate(75, 110) rotate(-5)">
+    <rect x="0" y="0" width="65" height="45" rx="2" fill="url(#blueprintGrad)" stroke="#38bdf8" stroke-width="1" />
+    <!-- Blueprint Lines -->
+    <line x1="8" y1="10" x2="35" y2="10" stroke="#38bdf8" stroke-width="1.5" opacity="0.8" />
+    <line x1="8" y1="18" x2="50" y2="18" stroke="#38bdf8" stroke-width="1.5" opacity="0.8" />
+    <line x1="8" y1="26" x2="25" y2="26" stroke="#38bdf8" stroke-width="1.5" opacity="0.8" />
+    <polyline points="35,38 45,28 55,38" fill="none" stroke="#fbbf24" stroke-width="1.5" />
+    <circle cx="50" cy="14" r="4" fill="none" stroke="#10b981" stroke-width="1" />
+  </g>
+
+  <!-- Main Character: The Son taking over the enterprise/business -->
+  <g id="character">
+    <!-- Body / Torso (Modern Business-Casual Blazer) -->
+    <path d="M95 200 C95 170, 110 160, 120 160 C130 160, 145 170, 145 200 Z" fill="#2563eb" />
+    <!-- Inner Shirt / Collar -->
+    <path d="M112 160 L120 178 L128 160 Z" fill="#f8fafc" />
+    <!-- Tie -->
+    <polygon points="118,172 122,172 121,195 119,195" fill="#f59e0b" />
+
+    <!-- Neck -->
+    <rect x="113" y="150" width="14" height="14" fill="#fbcfe8" rx="4" />
+
+    <!-- Head -->
+    <circle cx="120" cy="132" r="16" fill="#fbcfe8" />
+
+    <!-- Hair (Stylish modern cut) -->
+    <path d="M104 132 C104 118, 136 118, 136 132 C136 124, 130 115, 120 115 C110 115, 104 124, 104 132 Z" fill="#334155" />
+    <path d="M104 130 C106 122, 114 117, 122 116 L124 120 C116 121, 108 125, 104 130 Z" fill="#475569" />
+
+    <!-- Facial features (Determined, confident expression) -->
+    <!-- Eyes -->
+    <circle cx="114" cy="132" r="2" fill="#1e293b" />
+    <circle cx="126" cy="132" r="2" fill="#1e293b" />
+    <!-- Eyebrows (confident slant) -->
+    <line x1="111" y1="128" x2="117" y2="129" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="123" y1="129" x2="129" y2="128" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Warm confident smile -->
+    <path d="M116 139 C118 142, 122 142, 124 139" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Arms / Hands interacting with the blueprint -->
+    <!-- Left Arm -->
+    <path d="M98 175 C85 175, 80 150, 95 140" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round" />
+    <circle cx="95" cy="140" r="5" fill="#fbcfe8" />
+
+    <!-- Right Arm (Pointing / taking charge) -->
+    <path d="M142 175 C155 175, 155 150, 140 138" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round" />
+    <circle cx="140" cy="138" r="5" fill="#fbcfe8" />
+  </g>
+
+  <!-- Symbolic "Torch / Passing of the business baton" Effect (Golden glowing particles floating upwards) -->
+  <g fill="#fbbf24">
+    <circle cx="105" cy="110" r="2.5" opacity="0.9" />
+    <circle cx="135" cy="95" r="3.5" opacity="0.8" />
+    <circle cx="120" cy="100" r="1.5" opacity="0.7" />
+    <circle cx="150" cy="115" r="2" opacity="0.6" />
+    <path d="M130 105 L133 100 L136 105 Z" opacity="0.5" />
+  </g>
+
+</svg>
