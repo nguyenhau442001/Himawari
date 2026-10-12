@@ -18357,6 +18357,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/盘旋.svg",
     "caption": "bay lượn, quanh co"
   },
+  "畔": {
+    "file": "畔.svg",
+    "src": "images/HSK_2.0/level6/畔.svg",
+    "caption": "bờ, bên cạnh (sông, hồ)"
+  },
+  "判决": {
+    "file": "判决.svg",
+    "src": "images/HSK_2.0/level6/判决.svg",
+    "caption": "phán quyết, tuyên án"
+  },
+  "庞大": {
+    "file": "庞大.svg",
+    "src": "images/HSK_2.0/level6/庞大.svg",
+    "caption": "to lớn, khổng lồ"
+  },
+  "抛弃": {
+    "file": "抛弃.svg",
+    "src": "images/HSK_2.0/level6/抛弃.svg",
+    "caption": "vứt bỏ, từ bỏ"
+  },
+  "泡沫": {
+    "file": "泡沫.svg",
+    "src": "images/HSK_2.0/level6/泡沫.svg",
+    "caption": "bong bóng, bọt"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",

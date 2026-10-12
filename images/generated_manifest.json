@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:19:02.767974",
-  "total_unique_words_with_illustrations": 4270,
-  "total_flat_svg_files": 4270,
+  "generated_at": "2026-10-12T22:19:56.259332",
+  "total_unique_words_with_illustrations": 4275,
+  "total_flat_svg_files": 4275,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1630,
-        "pct": "65.2%"
+        "with_svg": 1635,
+        "pct": "65.4%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 548,
-        "pct": "30.4%"
+        "with_svg": 549,
+        "pct": "30.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 778,
+        "with_svg": 781,
         "pct": "13.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 778,
+        "with_svg": 781,
         "pct": "13.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 778,
+        "with_svg": 781,
         "pct": "13.9%"
       }
     }
@@ -68512,6 +68512,104 @@
         "images/HSK_3.0/level7/盘旋.svg",
         "images/HSK_3.0/level8/盘旋.svg",
         "images/HSK_3.0/level9/盘旋.svg"
+      ]
+    },
+    "畔": {
+      "hanzi": "畔",
+      "pinyin": "pàn",
+      "meaning": "bờ, bên cạnh (sông, hồ)",
+      "example_zh": "他们坐在湖<u>畔</u>聊天。",
+      "example_vi": "Họ ngồi <u>bên bờ</u> hồ trò chuyện.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "畔.svg",
+      "src": "images/HSK_2.0/level6/畔.svg",
+      "alt_srcs": []
+    },
+    "判决": {
+      "hanzi": "判决",
+      "pinyin": "pànjué",
+      "meaning": "phán quyết, tuyên án",
+      "example_zh": "法院做出了最终的<u>判决</u>。",
+      "example_vi": "Tòa án đã đưa ra <u>phán quyết</u> cuối cùng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "判决.svg",
+      "src": "images/HSK_2.0/level6/判决.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/判决.svg",
+        "images/HSK_3.0/level8/判决.svg",
+        "images/HSK_3.0/level9/判决.svg"
+      ]
+    },
+    "庞大": {
+      "hanzi": "庞大",
+      "pinyin": "pángdà",
+      "meaning": "to lớn, khổng lồ",
+      "example_zh": "这是一个<u>庞大</u>的工程项目。",
+      "example_vi": "Đây là một dự án công trình <u>khổng lồ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "庞大.svg",
+      "src": "images/HSK_2.0/level6/庞大.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/庞大.svg"
+      ]
+    },
+    "抛弃": {
+      "hanzi": "抛弃",
+      "pinyin": "pāoqì",
+      "meaning": "vứt bỏ, từ bỏ",
+      "example_zh": "他<u>抛弃</u>了原来的想法。",
+      "example_vi": "Anh ấy đã <u>từ bỏ</u> ý nghĩ ban đầu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抛弃.svg",
+      "src": "images/HSK_2.0/level6/抛弃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/抛弃.svg",
+        "images/HSK_3.0/level8/抛弃.svg",
+        "images/HSK_3.0/level9/抛弃.svg"
+      ]
+    },
+    "泡沫": {
+      "hanzi": "泡沫",
+      "pinyin": "pàomò",
+      "meaning": "bong bóng, bọt",
+      "example_zh": "海浪打来，留下一片白色的<u>泡沫</u>。",
+      "example_vi": "Sóng biển vỗ vào, để lại một lớp <u>bọt</u> trắng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "泡沫.svg",
+      "src": "images/HSK_2.0/level6/泡沫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/泡沫.svg",
+        "images/HSK_3.0/level8/泡沫.svg",
+        "images/HSK_3.0/level9/泡沫.svg"
       ]
     },
     "品质": {

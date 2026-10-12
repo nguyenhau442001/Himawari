@@ -1,0 +1,175 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Lake Water Gradient -->
+    <linearGradient id="lake-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <!-- Bank/Shore Gradient (畔) -->
+    <linearGradient id="shore-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46"/>
+      <stop offset="40%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+
+    <!-- Lantern Glow -->
+    <radialGradient id="lantern-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)"/>
+
+  <!-- Starry Night Sky Elements -->
+  <g fill="#94a3b8" opacity="0.6">
+    <circle cx="35" cy="30" r="1" />
+    <circle cx="75" cy="20" r="1.5" />
+    <circle cx="125" cy="45" r="1" />
+    <circle cx="180" cy="25" r="2" />
+    <circle cx="215" cy="55" r="1" />
+  </g>
+
+  <!-- Warm Glowing Moon -->
+  <circle cx="195" cy="55" r="18" fill="#fef3c7" opacity="0.9"/>
+  <circle cx="195" cy="55" r="24" fill="#fbbf24" opacity="0.2"/>
+
+  <!-- Distant Hills / Far Shore -->
+  <path d="M 0 100 Q 60 85 120 95 Q 180 105 240 90 L 240 120 L 0 120 Z" fill="#0f172a" opacity="0.7"/>
+
+  <!-- Lake Surface (The Water) -->
+  <path d="M 0 115 Q 80 105 140 115 Q 200 125 240 115 L 240 160 L 0 160 Z" fill="url(#lake-grad)"/>
+  
+  <!-- Gentle Water Ripples -->
+  <path d="M 30 130 Q 50 128 70 130" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M 120 138 Q 145 135 170 138" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M 80 148 Q 110 145 140 148" stroke="#38bdf8" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.3"/>
+
+  <!-- Moon Reflection in Water -->
+  <ellipse cx="195" cy="135" rx="8" ry="2" fill="#fef3c7" opacity="0.3"/>
+  <ellipse cx="190" cy="144" rx="14" ry="2" fill="#fef3c7" opacity="0.2"/>
+
+  <!-- The Shore / Embankment (湖畔 - pàn) -->
+  <path d="M 0 145 C 70 135, 150 155, 240 140 L 240 240 L 0 240 Z" fill="url(#shore-grad)"/>
+
+  <!-- Embankment Texture (Grass & Weeds) -->
+  <g fill="#047857">
+    <path d="M 15 152 L 18 140 L 21 152 Z"/>
+    <path d="M 28 150 L 32 137 L 35 150 Z"/>
+    <path d="M 75 160 L 78 147 L 82 160 Z"/>
+    <path d="M 130 165 L 134 152 L 138 165 Z"/>
+    <path d="M 190 158 L 193 145 L 197 158 Z"/>
+    <path d="M 220 155 L 223 142 L 227 155 Z"/>
+  </g>
+  <g fill="#059669">
+    <path d="M 8 155 L 11 144 L 14 155 Z"/>
+    <path d="M 82 162 L 86 149 L 89 162 Z"/>
+    <path d="M 185 160 L 188 148 L 192 160 Z"/>
+    <path d="M 228 158 L 232 147 L 235 158 Z"/>
+  </g>
+
+  <!-- Reeds / Cattails at the Water's Edge -->
+  <g stroke="#065f46" stroke-width="2" stroke-linecap="round">
+    <line x1="45" y1="150" x2="43" y2="125"/>
+    <line x1="50" y1="152" x2="52" y2="122"/>
+    <line x1="205" y1="155" x2="203" y2="130"/>
+  </g>
+  <ellipse cx="52" cy="123" rx="2" ry="6" fill="#78350f"/>
+  <ellipse cx="43" cy="126" rx="2" ry="5" fill="#78350f"/>
+
+  <!-- Hanging Willow Tree Branch (Framing the Scene) -->
+  <path d="M 0 0 Q 30 35 60 20 Q 80 10 95 0" fill="none" stroke="#064e3b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 45 27 Q 35 55 30 80" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 65 20 Q 75 45 78 70" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+  <!-- Willow Leaves -->
+  <path d="M 32 50 C 26 50, 26 58, 32 58 C 38 58, 38 50, 32 50 Z" fill="#10b981" opacity="0.8"/>
+  <path d="M 28 70 C 22 70, 22 78, 28 78 C 34 78, 34 70, 28 70 Z" fill="#34d399" opacity="0.8"/>
+  <path d="M 74 40 C 68 40, 68 48, 74 48 C 80 48, 80 40, 74 40 Z" fill="#10b981" opacity="0.8"/>
+  <path d="M 76 62 C 70 62, 70 70, 76 70 C 82 70, 82 62, 76 62 Z" fill="#34d399" opacity="0.8"/>
+
+  <!-- Warm Amber Lantern Hanging from Tree -->
+  <circle cx="55" cy="55" r="22" fill="url(#lantern-glow)"/>
+  <path d="M 52 35 L 58 35 L 60 45 L 50 45 Z" fill="#334155"/>
+  <ellipse cx="55" cy="51" rx="10" ry="12" fill="#fbbf24"/>
+  <ellipse cx="55" cy="51" rx="6" ry="8" fill="#fef3c7"/>
+  <path d="M 52 57 L 58 57 L 57 62 L 53 62 Z" fill="#334155"/>
+  <line x1="55" y1="20" x2="55" y2="35" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- SCENE SUBJECT: TWO CHARACTERS SITTING AND CHATTING ON THE SHORE -->
+
+  <!-- Character 1 (Left: Wearing warm orange/coral jacket) -->
+  <g transform="translate(85, 148)">
+    <!-- Legs (sitting on grass) -->
+    <rect x="5" y="24" width="16" height="8" rx="4" fill="#3b82f6"/>
+    <!-- Shoes -->
+    <ellipse cx="23" cy="30" rx="5" ry="3" fill="#1e293b"/>
+
+    <!-- Torso -->
+    <path d="M 0 5 C 0 0, 15 0, 18 10 L 16 26 C 16 26, 0 28, -4 20 Z" fill="#f97316"/>
+    
+    <!-- Head & Hair -->
+    <circle cx="4" cy="-8" r="9" fill="#fed7aa"/>
+    <!-- Hair (Dark Bob) -->
+    <path d="M -5 -11 C -5 -17, 13 -17, 13 -11 C 13 -6, 8 -3, 4 -2 C -1 -3, -5 -6, -5 -11 Z" fill="#1e293b"/>
+
+    <!-- Gesturing Arm (Talking/Chatting pose) -->
+    <path d="M 12 8 Q 20 2, 23 8" fill="none" stroke="#f97316" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="23" cy="9" r="3" fill="#fed7aa"/>
+
+    <!-- Facial Expression (Happy/Engaged) -->
+    <path d="M 5 -6 Q 8 -5 10 -7" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/> <!-- Eyebrow -->
+    <path d="M 7 -4 Q 9 -2 11 -4" fill="none" stroke="#e11d48" stroke-width="1.5" stroke-linecap="round"/> <!-- Smiling mouth -->
+  </g>
+
+  <!-- Character 2 (Right: Wearing Teal/Blue sweater, listening & smiling) -->
+  <g transform="translate(135, 145)">
+    <!-- Legs (sitting crossed/relaxed) -->
+    <rect x="-12" y="27" width="18" height="8" rx="4" fill="#334155"/>
+    <!-- Shoes -->
+    <ellipse cx="-14" cy="33" rx="5" ry="3" fill="#0f172a"/>
+
+    <!-- Torso -->
+    <path d="M -2 4 C -2 -1, 14 2, 16 10 L 10 27 C 10 27, -4 27, -8 20 Z" fill="#0ea5e9"/>
+
+    <!-- Head & Hair -->
+    <circle cx="2" cy="-9" r="9" fill="#ffedd5"/>
+    <!-- Hair (Short styled dark) -->
+    <path d="M -7 -12 C -6 -18, 10 -17, 11 -12 C 11 -9, 7 -5, 2 -4 C -3 -5, -6 -7, -7 -12 Z" fill="#334155"/>
+
+    <!-- Resting Arm -->
+    <path d="M 6 8 Q 12 18, 5 24" fill="none" stroke="#0ea5e9" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="4" cy="25" r="3" fill="#ffedd5"/>
+
+    <!-- Facial Expression (Attentive/Smiling) -->
+    <path d="M -1 -7 Q 1 -8 3 -7" fill="none" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/> <!-- Eyebrow -->
+    <path d="M -1 -3 Q 1 -1 3 -3" fill="none" stroke="#e11d48" stroke-width="1.5" stroke-linecap="round"/> <!-- Smiling mouth -->
+  </g>
+
+  <!-- Dialogue/Chat Symbol Bubbles (Abstract representation of chatting, highly stylized vector dots, NO TEXT) -->
+  <g opacity="0.85">
+    <!-- Small Bubble -->
+    <circle cx="98" cy="115" r="4" fill="#ffffff" opacity="0.9"/>
+    <circle cx="98" cy="115" r="2" fill="#0ea5e9"/>
+    <!-- Medium Bubble -->
+    <circle cx="110" cy="103" r="7" fill="#ffffff" opacity="0.9"/>
+    <!-- Sound/Speech dots inside bubble -->
+    <circle cx="107" cy="103" r="1" fill="#f97316"/>
+    <circle cx="110" cy="103" r="1" fill="#f97316"/>
+    <circle cx="113" cy="103" r="1" fill="#f97316"/>
+  </g>
+
+  <!-- Small Cute Details: Picnic Basket or Thermos on the ground near them -->
+  <rect x="115" y="162" width="12" height="10" rx="3" fill="#d97706"/>
+  <path d="M 117 162 C 117 157, 125 157, 125 162" fill="none" stroke="#b45309" stroke-width="1.5"/>
+</svg>
