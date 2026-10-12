@@ -1,0 +1,59 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed dark mode container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative subtle background aura/glow for "influence/power" -->
+  <circle cx="120" cy="120" r="70" fill="#2A2F3D" opacity="0.6"/>
+  <circle cx="120" cy="120" r="50" fill="#363C4E" opacity="0.4"/>
+
+  <!-- Central Object: Classic Equalizer / Balance Scale merged with a strong Pillar/Network (Representing "势力" - power, influence, organized strength) -->
+  <g transform="translate(120, 115)">
+    <!-- Base Platform -->
+    <path d="M-35,50 L35,50 L25,65 L-25,65 Z" fill="#4F5D75"/>
+    <rect x="-12" y="35" width="24" height="15" fill="#6B7A99"/>
+
+    <!-- Central Pillar -->
+    <rect x="-6" y="-35" width="12" height="70" fill="#E0E6ED"/>
+
+    <!-- Crown / Top Finial -->
+    <circle cx="0" cy="-42" r="8" fill="#F39C12"/>
+
+    <!-- The Beam -->
+    <path d="M-65,-25 L65,-25 L55,-35 L-55,-35 Z" fill="#F39C12"/>
+
+    <!-- Left Chain & Weight (Influence nodes) -->
+    <line x1="-50" y1="-30" x2="-50" y2="10" stroke="#94A3B8" stroke-width="3" stroke-dasharray="3,3"/>
+    <circle cx="-50" cy="20" r="14" fill="#1E293B" stroke="#F39C12" stroke-width="3"/>
+    <circle cx="-50" cy="20" r="6" fill="#F39C12"/>
+
+    <!-- Right Chain & Weight -->
+    <line x1="50" y1="-30" x2="50" y2="10" stroke="#94A3B8" stroke-width="3" stroke-dasharray="3,3"/>
+    <circle cx="50" cy="20" r="14" fill="#1E293B" stroke="#F39C12" stroke-width="3"/>
+    <circle cx="50" cy="20" r="6" fill="#F39C12"/>
+
+    <!-- Central Shield Emblem (Representing Organization/Entity) -->
+    <path d="M0,-15 C15,-15 20,-5 20,10 C20,25 0,38 0,38 C0,38 -20,25 -20,10 C-20,-5 -15,-15 0,-15 Z" fill="#F39C12" opacity="0.9"/>
+    <path d="M0,-10 C12,-10 16,-3 16,8 C16,20 0,31 0,31 C0,31 -16,20 -16,8 C-16,-3 -12,-10 0,-10 Z" fill="#1A1D24"/>
+    <!-- Check / Star inside shield representing authority/strength -->
+    <polygon points="0,0 3,6 9,7 4,11 6,17 0,14 -6,17 -4,11 -9,7 -3,6" fill="#F39C12" transform="scale(0.8) translate(0, 1)"/>
+  </g>
+
+  <!-- Surrounding accent nodes representing local reach/network (Tổ chức có thế lực) -->
+  <g fill="#F39C12">
+    <!-- Top-left node -->
+    <circle cx="75" cy="55" r="5" opacity="0.8"/>
+    <line x1="75" y1="55" x2="95" y2="75" stroke="#F39C12" stroke-width="2" opacity="0.4"/>
+
+    <!-- Top-right node -->
+    <circle cx="165" cy="55" r="5" opacity="0.8"/>
+    <line x1="165" y1="55" x2="145" y2="75" stroke="#F39C12" stroke-width="2" opacity="0.4"/>
+
+    <!-- Far-left node -->
+    <circle cx="45" cy="130" r="7" opacity="0.9"/>
+    <path d="M52,130 L80,130" stroke="#F39C12" stroke-width="2" stroke-dasharray="2,2" opacity="0.4"/>
+
+    <!-- Far-right node -->
+    <circle cx="195" cy="130" r="7" opacity="0.9"/>
+    <path d="M188,130 L160,130" stroke="#F39C12" stroke-width="2" stroke-dasharray="2,2" opacity="0.4"/>
+  </g>
+</svg>

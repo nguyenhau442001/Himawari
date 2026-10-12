@@ -1,0 +1,31 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (subtle grid/nodes to represent the effort/attempt context) -->
+  <circle cx="120" cy="120" r="70" fill="none" stroke="#2A2F3D" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+  <circle cx="120" cy="120" r="45" fill="none" stroke="#2A2F3D" stroke-width="1" opacity="0.4"/>
+
+  <!-- Central Iconic Object representing "试图" (An intentional mechanism / effort / compass-target concept) -->
+  <!-- Outer target ring (Golden/Orange accent for focus) -->
+  <circle cx="120" cy="120" r="40" fill="none" stroke="#F59E0B" stroke-width="3" stroke-dasharray="251.2" stroke-dashoffset="60" stroke-linecap="round"/>
+  
+  <!-- Central Pillar / Intent Core -->
+  <circle cx="120" cy="120" r="22" fill="#1E293B" stroke="#38BDF8" stroke-width="3"/>
+
+  <!-- Directional / Action Arrows pointing towards the core (representing "trying" or "attempting") -->
+  <!-- Top arrow -->
+  <path d="M120 62 L120 78 M120 62 L114 70 M120 62 L126 70" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right arrow -->
+  <path d="M178 120 L162 120 M178 120 L170 114 M178 120 L170 126" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bottom arrow -->
+  <path d="M120 178 L120 162 M120 178 L114 170 M120 178 L126 170" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Left arrow -->
+  <path d="M62 120 L78 120 M62 120 L70 114 M62 120 L70 126" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Core Intent Point (The focal objective) -->
+  <circle cx="120" cy="120" r="8" fill="#F59E0B"/>
+</svg>

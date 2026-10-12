@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:12:09.889874",
-  "total_unique_words_with_illustrations": 4563,
-  "total_flat_svg_files": 4563,
+  "generated_at": "2026-10-12T23:12:41.592954",
+  "total_unique_words_with_illustrations": 4568,
+  "total_flat_svg_files": 4568,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1923,
-        "pct": "76.9%"
+        "with_svg": 1928,
+        "pct": "77.1%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 638,
-        "pct": "35.4%"
+        "with_svg": 640,
+        "pct": "35.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 967,
+        "with_svg": 970,
         "pct": "17.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 967,
+        "with_svg": 970,
         "pct": "17.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 967,
+        "with_svg": 970,
         "pct": "17.3%"
       }
     }
@@ -74888,6 +74888,68 @@
         "images/HSK_3.0/level6/石油.svg"
       ]
     },
+    "使命": {
+      "hanzi": "使命",
+      "pinyin": "shǐmìng",
+      "meaning": "sứ mệnh",
+      "example_zh": "教育肩负着重要的<u>使命</u>。",
+      "example_vi": "Giáo dục mang trên mình <u>sứ mệnh</u> quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "使命.svg",
+      "src": "images/HSK_2.0/level6/使命.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/使命.svg",
+        "images/HSK_3.0/level8/使命.svg",
+        "images/HSK_3.0/level9/使命.svg"
+      ]
+    },
+    "是非": {
+      "hanzi": "是非",
+      "pinyin": "shìfēi",
+      "meaning": "đúng sai, phải trái",
+      "example_zh": "我们要分清<u>是非</u>。",
+      "example_vi": "Chúng ta phải phân biệt rõ <u>đúng sai</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "是非.svg",
+      "src": "images/HSK_2.0/level6/是非.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/是非.svg",
+        "images/HSK_3.0/level8/是非.svg",
+        "images/HSK_3.0/level9/是非.svg"
+      ]
+    },
+    "试图": {
+      "hanzi": "试图",
+      "pinyin": "shìtú",
+      "meaning": "thử, có ý định",
+      "example_zh": "他<u>试图</u>说服大家接受这个方案。",
+      "example_vi": "Anh ấy <u>cố gắng</u> thuyết phục mọi người chấp nhận phương án này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "试图.svg",
+      "src": "images/HSK_2.0/level6/试图.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/试图.svg"
+      ]
+    },
     "试验": {
       "hanzi": "试验",
       "pinyin": "shìyàn",
@@ -74904,6 +74966,46 @@
       "src": "images/HSK_2.0/level6/试验.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/试验.svg"
+      ]
+    },
+    "势必": {
+      "hanzi": "势必",
+      "pinyin": "shìbì",
+      "meaning": "chắc chắn sẽ, tất sẽ",
+      "example_zh": "这种做法<u>势必</u>引起争议。",
+      "example_vi": "Cách làm này <u>chắc chắn sẽ</u> gây ra tranh cãi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "势必.svg",
+      "src": "images/HSK_2.0/level6/势必.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/势必.svg",
+        "images/HSK_3.0/level8/势必.svg",
+        "images/HSK_3.0/level9/势必.svg"
+      ]
+    },
+    "势力": {
+      "hanzi": "势力",
+      "pinyin": "shìlì",
+      "meaning": "thế lực",
+      "example_zh": "这个组织在当地很有<u>势力</u>。",
+      "example_vi": "Tổ chức này có <u>thế lực</u> lớn tại địa phương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "势力.svg",
+      "src": "images/HSK_2.0/level6/势力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/势力.svg"
       ]
     },
     "事故": {

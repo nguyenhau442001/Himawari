@@ -19932,10 +19932,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/石油.svg",
     "caption": "dầu mỏ"
   },
+  "使命": {
+    "file": "使命.svg",
+    "src": "images/HSK_2.0/level6/使命.svg",
+    "caption": "sứ mệnh"
+  },
+  "是非": {
+    "file": "是非.svg",
+    "src": "images/HSK_2.0/level6/是非.svg",
+    "caption": "đúng sai, phải trái"
+  },
+  "试图": {
+    "file": "试图.svg",
+    "src": "images/HSK_2.0/level6/试图.svg",
+    "caption": "thử, có ý định"
+  },
   "试验": {
     "file": "试验.svg",
     "src": "images/HSK_2.0/level6/试验.svg",
     "caption": "thử nghiệm"
+  },
+  "势必": {
+    "file": "势必.svg",
+    "src": "images/HSK_2.0/level6/势必.svg",
+    "caption": "chắc chắn sẽ, tất sẽ"
+  },
+  "势力": {
+    "file": "势力.svg",
+    "src": "images/HSK_2.0/level6/势力.svg",
+    "caption": "thế lực"
   },
   "事故": {
     "file": "事故.svg",
