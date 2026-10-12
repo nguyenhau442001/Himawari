@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:51:54.769550",
-  "total_unique_words_with_illustrations": 4450,
-  "total_flat_svg_files": 4450,
+  "generated_at": "2026-10-12T22:52:53.553634",
+  "total_unique_words_with_illustrations": 4455,
+  "total_flat_svg_files": 4455,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1810,
-        "pct": "72.4%"
+        "with_svg": 1815,
+        "pct": "72.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 604,
-        "pct": "33.6%"
+        "with_svg": 607,
+        "pct": "33.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 893,
-        "pct": "15.9%"
+        "with_svg": 895,
+        "pct": "16.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 893,
-        "pct": "15.9%"
+        "with_svg": 895,
+        "pct": "16.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 893,
-        "pct": "15.9%"
+        "with_svg": 895,
+        "pct": "16.0%"
       }
     }
   },
@@ -72322,6 +72322,28 @@
         "images/HSK_3.0/level9/人道.svg"
       ]
     },
+    "人格": {
+      "hanzi": "人格",
+      "pinyin": "réngé",
+      "meaning": "nhân cách",
+      "example_zh": "他的<u>人格</u>令人敬佩。",
+      "example_vi": "<u>Nhân cách</u> của anh ấy khiến người ta kính nể.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "人格.svg",
+      "src": "images/HSK_2.0/level6/人格.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/人格.svg",
+        "images/HSK_3.0/level8/人格.svg",
+        "images/HSK_3.0/level9/人格.svg"
+      ]
+    },
     "人工": {
       "hanzi": "人工",
       "pinyin": "réngōng",
@@ -72338,6 +72360,82 @@
       "src": "images/HSK_2.0/level6/人工.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/人工.svg"
+      ]
+    },
+    "人家": {
+      "hanzi": "人家",
+      "pinyin": "rénjiā",
+      "meaning": "người ta, nhà người khác",
+      "example_zh": "<u>人家</u>都已经做完了，你怎么还没开始？",
+      "example_vi": "<u>Người ta</u> đều đã làm xong rồi, sao bạn vẫn chưa bắt đầu?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "人家.svg",
+      "src": "images/HSK_2.0/level6/人家.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/人家.svg"
+      ]
+    },
+    "人间": {
+      "hanzi": "人间",
+      "pinyin": "rénjiān",
+      "meaning": "nhân gian, trần gian",
+      "example_zh": "这里简直就是<u>人间</u>天堂。",
+      "example_vi": "Nơi đây đơn giản là thiên đường nơi <u>trần gian</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "人间.svg",
+      "src": "images/HSK_2.0/level6/人间.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/人间.svg",
+        "images/HSK_3.0/level8/人间.svg",
+        "images/HSK_3.0/level9/人间.svg"
+      ]
+    },
+    "人士": {
+      "hanzi": "人士",
+      "pinyin": "rénshì",
+      "meaning": "nhân sĩ, người (lịch sự)",
+      "example_zh": "很多社会<u>人士</u>参加了这次活动。",
+      "example_vi": "Nhiều <u>nhân sĩ</u> trong xã hội đã tham gia hoạt động này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "人士.svg",
+      "src": "images/HSK_2.0/level6/人士.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/人士.svg"
+      ]
+    },
+    "人为": {
+      "hanzi": "人为",
+      "pinyin": "rénwéi",
+      "meaning": "do con người, nhân tạo",
+      "example_zh": "这场灾难是<u>人为</u>造成的。",
+      "example_vi": "Thảm họa này là <u>do con người</u> gây ra.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "人为.svg",
+      "src": "images/HSK_2.0/level6/人为.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/人为.svg"
       ]
     },
     "擅长": {

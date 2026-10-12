@@ -19297,10 +19297,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/人道.svg",
     "caption": "nhân đạo"
   },
+  "人格": {
+    "file": "人格.svg",
+    "src": "images/HSK_2.0/level6/人格.svg",
+    "caption": "nhân cách"
+  },
   "人工": {
     "file": "人工.svg",
     "src": "images/HSK_2.0/level6/人工.svg",
     "caption": "nhân công, nhân tạo"
+  },
+  "人家": {
+    "file": "人家.svg",
+    "src": "images/HSK_2.0/level6/人家.svg",
+    "caption": "người ta, nhà người khác"
+  },
+  "人间": {
+    "file": "人间.svg",
+    "src": "images/HSK_2.0/level6/人间.svg",
+    "caption": "nhân gian, trần gian"
+  },
+  "人士": {
+    "file": "人士.svg",
+    "src": "images/HSK_2.0/level6/人士.svg",
+    "caption": "nhân sĩ, người (lịch sự)"
+  },
+  "人为": {
+    "file": "人为.svg",
+    "src": "images/HSK_2.0/level6/人为.svg",
+    "caption": "do con người, nhân tạo"
   },
   "擅长": {
     "file": "擅长.svg",

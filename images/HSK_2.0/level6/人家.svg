@@ -1,0 +1,119 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background & Environment -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="desk-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+
+  <!-- Room interior backdrop -->
+  <!-- Window with night city glow -->
+  <rect x="150" y="20" width="70" height="90" rx="4" fill="#090d16" stroke="#334155" stroke-width="2"/>
+  <path d="M150 55 L220 55 M185 20 L185 110" stroke="#334155" stroke-width="1.5"/>
+  <!-- City lights outside -->
+  <circle cx="165" cy="40" r="2" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="205" cy="45" r="1.5" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="190" cy="85" r="2" fill="#ec4899" opacity="0.5"/>
+  <circle cx="160" cy="95" r="1.5" fill="#fbbf24" opacity="0.8"/>
+
+  <!-- Bookshelf / Plants in background -->
+  <rect x="20" y="30" width="50" height="8" rx="2" fill="#475569"/>
+  <rect x="30" y="15" width="30" height="15" rx="2" fill="#3b82f6"/>
+  <rect x="35" y="38" width="8" height="25" rx="1" fill="#10b981"/>
+  <rect x="47" y="40" width="12" height="23" rx="1" fill="#f59e0b"/>
+
+  <!-- Shared Desk surface -->
+  <path d="M10 170 L230 170 L220 220 L20 220 Z" fill="url(#desk-grad)"/>
+  <path d="M10 170 L230 170" stroke="#475569" stroke-width="3"/>
+
+  <!-- CHARACTER 1: "Người ta" (Done with work, relaxed, glowing success) -->
+  <g transform="translate(145, 85)">
+    <!-- Ambient success glow -->
+    <ellipse cx="25" cy="45" r="35" fill="url(#glow)"/>
+    
+    <!-- Chair back -->
+    <path d="M 5 80 L 15 10 L 35 10 L 45 80 Z" fill="#475569" opacity="0.8"/>
+
+    <!-- Body / Torso -->
+    <path d="M 10 90 Q 25 60 40 90 Z" fill="#3b82f6"/>
+    <!-- Head -->
+    <circle cx="25" cy="42" r="14" fill="#fed7aa"/>
+    <!-- Hair -->
+    <path d="M 12 40 Q 25 20 38 40 Q 30 28 20 32 Z" fill="#1e293b"/>
+    <!-- Face (Smiling, relaxed) -->
+    <path d="M 29 44 Q 31 47 33 44" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Laptop showing completed green check / charts -->
+    <rect x="-10" y="65" width="30" height="20" rx="2" fill="#94a3b8"/>
+    <polygon points="-5,80 15,80 20,70 -10,70" fill="#cbd5e1"/>
+    <!-- Screen content: success green graph -->
+    <path d="M -5 60 L 0 53 L 5 57 L 13 48" stroke="#10b981" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="13" cy="48" r="3" fill="#10b981"/>
+
+    <!-- Relaxed posture / Hand up casually -->
+    <path d="M 35 70 Q 45 60 38 50" stroke="#fed7aa" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Coffee mug (done) -->
+    <rect x="-22" y="70" width="8" height="10" rx="1" fill="#f8fafc"/>
+    <path d="M -22 73 C -26 73 -26 78 -22 78" stroke="#f8fafc" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- CHARACTER 2: "Bạn" (Stressed, haven't started, blank screen/papers) -->
+  <g transform="translate(45, 75)">
+    <!-- Body / Torso (tense, leaning forward) -->
+    <path d="M 10 105 Q 25 70 45 95 Z" fill="#ef4444"/>
+    
+    <!-- Head (Hand on head in panic/frustration) -->
+    <circle cx="28" cy="48" r="14" fill="#fed7aa"/>
+    <!-- Messy Hair -->
+    <path d="M 13 45 Q 22 25 35 40 Q 42 32 40 45 Z" fill="#0f172a"/>
+    
+    <!-- Face (Worried/Sweating) -->
+    <!-- Sweat drop -->
+    <path d="M 39 42 Q 41 46 39 48 Q 37 46 39 42 Z" fill="#38bdf8"/>
+    <!-- Wide eyes & worried mouth -->
+    <circle cx="23" cy="49" r="1.5" fill="#1e293b"/>
+    <circle cx="31" cy="49" r="1.5" fill="#1e293b"/>
+    <path d="M 25 57 Q 27 54 29 57" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Hand on head pose -->
+    <path d="M 20 40 Q 15 30 25 35" stroke="#fed7aa" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+    <!-- Empty/Blank Laptop (Not started) -->
+    <rect x="-15" y="80" width="36" height="24" rx="2" fill="#64748b"/>
+    <path d="M -22 104 L 27 104 L 32 95 L -17 95 Z" fill="#94a3b8"/>
+    <!-- Completely dark/blank screen -->
+    <rect x="-12" y="83" width="30" height="15" rx="1" fill="#0f172a"/>
+    
+    <!-- Scattered blank papers / sticky notes -->
+    <rect x="-35" y="90" width="14" height="18" rx="1" fill="#fef08a" transform="rotate(-15 -35 90)"/>
+    <rect x="25" y="88" width="16" height="14" rx="1" fill="#e2e8f0" transform="rotate(10 25 88)"/>
+  </g>
+
+  <!-- Foreground details on desk -->
+  <!-- Desk lamp casting downward beam -->
+  <path d="M 95 30 L 115 30 L 125 170 L 95 170 Z" fill="#38bdf8" opacity="0.05"/>
+  <path d="M 100 25 L 110 25 L 105 40 Z" fill="#64748b"/>
+  <path d="M 90 20 L 120 20 L 115 25 L 95 25 Z" fill="#475569"/>
+  <path d="M 105 40 Q 105 80 110 170" stroke="#334155" stroke-width="3" fill="none"/>
+
+  <!-- Alarm clock showing late time on desk -->
+  <circle cx="85" cy="160" r="10" fill="#e2e8f0"/>
+  <circle cx="85" cy="160" r="8" fill="#1e293b"/>
+  <!-- Clock hands (late night) -->
+  <path d="M 85 160 L 89 155 M 85 160 L 81 157" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <!-- Clock legs -->
+  <path d="M 79 168 L 76 172 M 91 168 L 94 172" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+
+</svg>
