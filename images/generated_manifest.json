@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:45:50.720454",
-  "total_unique_words_with_illustrations": 4415,
-  "total_flat_svg_files": 4415,
+  "generated_at": "2026-10-12T22:46:39.875697",
+  "total_unique_words_with_illustrations": 4420,
+  "total_flat_svg_files": 4420,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1775,
-        "pct": "71.0%"
+        "with_svg": 1780,
+        "pct": "71.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 596,
-        "pct": "33.1%"
+        "with_svg": 597,
+        "pct": "33.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 869,
-        "pct": "15.5%"
+        "with_svg": 873,
+        "pct": "15.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 869,
-        "pct": "15.5%"
+        "with_svg": 873,
+        "pct": "15.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 869,
-        "pct": "15.5%"
+        "with_svg": 873,
+        "pct": "15.6%"
       }
     }
   },
@@ -71572,6 +71572,90 @@
         "images/HSK_3.0/level5/请教.svg"
       ]
     },
+    "请示": {
+      "hanzi": "请示",
+      "pinyin": "qǐngshì",
+      "meaning": "xin chỉ thị, xin ý kiến cấp trên",
+      "example_zh": "这件事需要<u>请示</u>领导。",
+      "example_vi": "Việc này cần phải <u>xin chỉ thị</u> của cấp trên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "请示.svg",
+      "src": "images/HSK_2.0/level6/请示.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/请示.svg",
+        "images/HSK_3.0/level8/请示.svg",
+        "images/HSK_3.0/level9/请示.svg"
+      ]
+    },
+    "请帖": {
+      "hanzi": "请帖",
+      "pinyin": "qǐngtiě",
+      "meaning": "thiệp mời",
+      "example_zh": "他亲手写了<u>请帖</u>。",
+      "example_vi": "Anh ấy tự tay viết <u>thiệp mời</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "请帖.svg",
+      "src": "images/HSK_2.0/level6/请帖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/请帖.svg",
+        "images/HSK_3.0/level8/请帖.svg",
+        "images/HSK_3.0/level9/请帖.svg"
+      ]
+    },
+    "丘陵": {
+      "hanzi": "丘陵",
+      "pinyin": "qiūlíng",
+      "meaning": "đồi núi, gò đồi",
+      "example_zh": "这个地区多<u>丘陵</u>地带。",
+      "example_vi": "Khu vực này có nhiều vùng <u>đồi núi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丘陵.svg",
+      "src": "images/HSK_2.0/level6/丘陵.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/丘陵.svg",
+        "images/HSK_3.0/level8/丘陵.svg",
+        "images/HSK_3.0/level9/丘陵.svg"
+      ]
+    },
+    "区分": {
+      "hanzi": "区分",
+      "pinyin": "qūfēn",
+      "meaning": "phân biệt, phân chia",
+      "example_zh": "我们要<u>区分</u>这两种情况。",
+      "example_vi": "Chúng ta cần <u>phân biệt</u> hai trường hợp này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "区分.svg",
+      "src": "images/HSK_2.0/level6/区分.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/区分.svg"
+      ]
+    },
     "区域": {
       "hanzi": "区域",
       "pinyin": "qūyù",
@@ -71588,6 +71672,28 @@
       "src": "images/HSK_2.0/level6/区域.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/区域.svg"
+      ]
+    },
+    "屈服": {
+      "hanzi": "屈服",
+      "pinyin": "qūfú",
+      "meaning": "khuất phục, chịu thua",
+      "example_zh": "我们绝不会向困难<u>屈服</u>。",
+      "example_vi": "Chúng ta tuyệt đối không <u>khuất phục</u> trước khó khăn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "屈服.svg",
+      "src": "images/HSK_2.0/level6/屈服.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/屈服.svg",
+        "images/HSK_3.0/level8/屈服.svg",
+        "images/HSK_3.0/level9/屈服.svg"
       ]
     },
     "确保": {

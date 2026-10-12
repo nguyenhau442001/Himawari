@@ -19112,10 +19112,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/请教.svg",
     "caption": "thỉnh giáo, hỏi ý kiến"
   },
+  "请示": {
+    "file": "请示.svg",
+    "src": "images/HSK_2.0/level6/请示.svg",
+    "caption": "xin chỉ thị, xin ý kiến cấp trên"
+  },
+  "请帖": {
+    "file": "请帖.svg",
+    "src": "images/HSK_2.0/level6/请帖.svg",
+    "caption": "thiệp mời"
+  },
+  "丘陵": {
+    "file": "丘陵.svg",
+    "src": "images/HSK_2.0/level6/丘陵.svg",
+    "caption": "đồi núi, gò đồi"
+  },
+  "区分": {
+    "file": "区分.svg",
+    "src": "images/HSK_2.0/level6/区分.svg",
+    "caption": "phân biệt, phân chia"
+  },
   "区域": {
     "file": "区域.svg",
     "src": "images/HSK_2.0/level6/区域.svg",
     "caption": "khu vực, vùng"
+  },
+  "屈服": {
+    "file": "屈服.svg",
+    "src": "images/HSK_2.0/level6/屈服.svg",
+    "caption": "khuất phục, chịu thua"
   },
   "确保": {
     "file": "确保.svg",
