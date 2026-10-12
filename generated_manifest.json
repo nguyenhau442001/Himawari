@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:30:59.007824",
-  "total_unique_words_with_illustrations": 4335,
-  "total_flat_svg_files": 4335,
+  "generated_at": "2026-10-12T22:32:02.707111",
+  "total_unique_words_with_illustrations": 4340,
+  "total_flat_svg_files": 4340,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1695,
-        "pct": "67.8%"
+        "with_svg": 1700,
+        "pct": "68.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 569,
-        "pct": "31.6%"
+        "with_svg": 570,
+        "pct": "31.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 820,
-        "pct": "14.6%"
+        "with_svg": 824,
+        "pct": "14.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 820,
-        "pct": "14.6%"
+        "with_svg": 824,
+        "pct": "14.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 820,
-        "pct": "14.6%"
+        "with_svg": 824,
+        "pct": "14.7%"
       }
     }
   },
@@ -69914,6 +69914,112 @@
         "images/HSK_3.0/level7/旗袍.svg",
         "images/HSK_3.0/level8/旗袍.svg",
         "images/HSK_3.0/level9/旗袍.svg"
+      ]
+    },
+    "旗帜": {
+      "hanzi": "旗帜",
+      "pinyin": "qízhì",
+      "meaning": "cờ, ngọn cờ (cũng nghĩa biểu tượng)",
+      "example_zh": "他高举着胜利的<u>旗帜</u>。",
+      "example_vi": "Anh ấy giương cao <u>ngọn cờ</u> chiến thắng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "旗帜.svg",
+      "src": "images/HSK_2.0/level6/旗帜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/旗帜.svg",
+        "images/HSK_3.0/level8/旗帜.svg",
+        "images/HSK_3.0/level9/旗帜.svg"
+      ]
+    },
+    "齐全": {
+      "hanzi": "齐全",
+      "pinyin": "qíquán",
+      "meaning": "đầy đủ, đủ bộ",
+      "example_zh": "这家商店的商品种类很<u>齐全</u>。",
+      "example_vi": "Các loại hàng hóa của cửa hàng này rất <u>đầy đủ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "齐全.svg",
+      "src": "images/HSK_2.0/level6/齐全.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/齐全.svg"
+      ]
+    },
+    "齐心协力": {
+      "hanzi": "齐心协力",
+      "pinyin": "qíxīnxiélì",
+      "meaning": "đồng lòng hợp sức",
+      "example_zh": "大家<u>齐心协力</u>，终于完成了任务。",
+      "example_vi": "Mọi người <u>đồng lòng hợp sức</u>, cuối cùng hoàn thành nhiệm vụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "齐心协力.svg",
+      "src": "images/HSK_2.0/level6/齐心协力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/齐心协力.svg",
+        "images/HSK_3.0/level8/齐心协力.svg",
+        "images/HSK_3.0/level9/齐心协力.svg"
+      ]
+    },
+    "歧视": {
+      "hanzi": "歧视",
+      "pinyin": "qíshì",
+      "meaning": "phân biệt, kỳ thị",
+      "example_zh": "社会上仍存在性别<u>歧视</u>。",
+      "example_vi": "Trong xã hội vẫn còn tồn tại <u>kỳ thị</u> giới tính.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "歧视.svg",
+      "src": "images/HSK_2.0/level6/歧视.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/歧视.svg",
+        "images/HSK_3.0/level8/歧视.svg",
+        "images/HSK_3.0/level9/歧视.svg"
+      ]
+    },
+    "起草": {
+      "hanzi": "起草",
+      "pinyin": "qǐcǎo",
+      "meaning": "soạn thảo, dự thảo",
+      "example_zh": "律师正在<u>起草</u>合同。",
+      "example_vi": "Luật sư đang <u>soạn thảo</u> hợp đồng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "起草.svg",
+      "src": "images/HSK_2.0/level6/起草.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/起草.svg",
+        "images/HSK_3.0/level8/起草.svg",
+        "images/HSK_3.0/level9/起草.svg"
       ]
     },
     "抢救": {

@@ -18702,6 +18702,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/旗袍.svg",
     "caption": "áo sườn xám"
   },
+  "旗帜": {
+    "file": "旗帜.svg",
+    "src": "images/HSK_2.0/level6/旗帜.svg",
+    "caption": "cờ, ngọn cờ (cũng nghĩa biểu tượng)"
+  },
+  "齐全": {
+    "file": "齐全.svg",
+    "src": "images/HSK_2.0/level6/齐全.svg",
+    "caption": "đầy đủ, đủ bộ"
+  },
+  "齐心协力": {
+    "file": "齐心协力.svg",
+    "src": "images/HSK_2.0/level6/齐心协力.svg",
+    "caption": "đồng lòng hợp sức"
+  },
+  "歧视": {
+    "file": "歧视.svg",
+    "src": "images/HSK_2.0/level6/歧视.svg",
+    "caption": "phân biệt, kỳ thị"
+  },
+  "起草": {
+    "file": "起草.svg",
+    "src": "images/HSK_2.0/level6/起草.svg",
+    "caption": "soạn thảo, dự thảo"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
