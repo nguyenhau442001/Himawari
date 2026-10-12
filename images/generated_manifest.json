@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:25:18.993150",
-  "total_unique_words_with_illustrations": 4305,
-  "total_flat_svg_files": 4305,
+  "generated_at": "2026-10-12T22:26:14.411544",
+  "total_unique_words_with_illustrations": 4310,
+  "total_flat_svg_files": 4310,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1665,
-        "pct": "66.6%"
+        "with_svg": 1670,
+        "pct": "66.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 557,
-        "pct": "30.9%"
+        "with_svg": 559,
+        "pct": "31.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 802,
-        "pct": "14.3%"
+        "with_svg": 805,
+        "pct": "14.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 802,
-        "pct": "14.3%"
+        "with_svg": 805,
+        "pct": "14.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 802,
-        "pct": "14.3%"
+        "with_svg": 805,
+        "pct": "14.4%"
       }
     }
   },
@@ -69232,6 +69232,46 @@
         "images/HSK_3.0/level6/贫困.svg"
       ]
     },
+    "品尝": {
+      "hanzi": "品尝",
+      "pinyin": "pǐncháng",
+      "meaning": "nếm, thử (vị)",
+      "example_zh": "欢迎大家来<u>品尝</u>我们的新产品。",
+      "example_vi": "Mời mọi người đến <u>thử</u> sản phẩm mới của chúng tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "品尝.svg",
+      "src": "images/HSK_2.0/level6/品尝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/品尝.svg"
+      ]
+    },
+    "品德": {
+      "hanzi": "品德",
+      "pinyin": "pǐndé",
+      "meaning": "đạo đức, nhân cách",
+      "example_zh": "他是一个<u>品德</u>高尚的人。",
+      "example_vi": "Anh ấy là người có <u>nhân cách</u> cao thượng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "品德.svg",
+      "src": "images/HSK_2.0/level6/品德.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/品德.svg",
+        "images/HSK_3.0/level8/品德.svg",
+        "images/HSK_3.0/level9/品德.svg"
+      ]
+    },
     "品质": {
       "hanzi": "品质",
       "pinyin": "pǐnzhì",
@@ -69266,6 +69306,68 @@
       "src": "images/HSK_2.0/level6/品种.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/品种.svg"
+      ]
+    },
+    "平凡": {
+      "hanzi": "平凡",
+      "pinyin": "píngfán",
+      "meaning": "bình thường, tầm thường",
+      "example_zh": "他过着<u>平凡</u>而幸福的生活。",
+      "example_vi": "Anh ấy sống một cuộc sống <u>bình thường</u> mà hạnh phúc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "平凡.svg",
+      "src": "images/HSK_2.0/level6/平凡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/平凡.svg"
+      ]
+    },
+    "平面": {
+      "hanzi": "平面",
+      "pinyin": "píngmiàn",
+      "meaning": "mặt phẳng",
+      "example_zh": "这是一张<u>平面</u>设计图。",
+      "example_vi": "Đây là một bản thiết kế <u>mặt phẳng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "平面.svg",
+      "src": "images/HSK_2.0/level6/平面.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/平面.svg",
+        "images/HSK_3.0/level8/平面.svg",
+        "images/HSK_3.0/level9/平面.svg"
+      ]
+    },
+    "平坦": {
+      "hanzi": "平坦",
+      "pinyin": "píngtǎn",
+      "meaning": "bằng phẳng",
+      "example_zh": "这条路修得很<u>平坦</u>。",
+      "example_vi": "Con đường này được xây rất <u>bằng phẳng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "平坦.svg",
+      "src": "images/HSK_2.0/level6/平坦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/平坦.svg",
+        "images/HSK_3.0/level8/平坦.svg",
+        "images/HSK_3.0/level9/平坦.svg"
       ]
     },
     "屏幕": {

@@ -18532,6 +18532,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/贫困.svg",
     "caption": "nghèo khó"
   },
+  "品尝": {
+    "file": "品尝.svg",
+    "src": "images/HSK_2.0/level6/品尝.svg",
+    "caption": "nếm, thử (vị)"
+  },
+  "品德": {
+    "file": "品德.svg",
+    "src": "images/HSK_2.0/level6/品德.svg",
+    "caption": "đạo đức, nhân cách"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",
@@ -18541,6 +18551,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "品种.svg",
     "src": "images/HSK_2.0/level6/品种.svg",
     "caption": "chủng loại, giống loài"
+  },
+  "平凡": {
+    "file": "平凡.svg",
+    "src": "images/HSK_2.0/level6/平凡.svg",
+    "caption": "bình thường, tầm thường"
+  },
+  "平面": {
+    "file": "平面.svg",
+    "src": "images/HSK_2.0/level6/平面.svg",
+    "caption": "mặt phẳng"
+  },
+  "平坦": {
+    "file": "平坦.svg",
+    "src": "images/HSK_2.0/level6/平坦.svg",
+    "caption": "bằng phẳng"
   },
   "屏幕": {
     "file": "屏幕.svg",
