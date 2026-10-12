@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#0f172a"/>
+
+  <!-- Interior Room Setting -->
+  <path d="M20 200 L220 200 L220 215 L20 215 Z" fill="#334155" />
+  <path d="M20 30 L220 30 L220 200 L20 200 Z" fill="#1e293b" />
+  
+  <!-- Warm window light ray casting from upper left -->
+  <path d="M20 30 L110 30 L180 200 L20 200 Z" fill="#3b82f6" opacity="0.08" />
+
+  <!-- Wall surface texture/lines -->
+  <line x1="20" y1="90" x2="220" y2="90" stroke="#0f172a" stroke-width="2" opacity="0.4" />
+  <line x1="20" y1="150" x2="220" y2="150" stroke="#0f172a" stroke-width="2" opacity="0.4" />
+
+  <!-- The Wall & Dust Clumps (附着 - Adhering/Clinging to the wall) -->
+  <!-- Clustered dust particles sticking to the wall surface -->
+  <g fill="#94a3b8" opacity="0.75">
+    <!-- Dust cluster 1 (Upper right) -->
+    <circle cx="160" cy="70" r="4" />
+    <circle cx="166" cy="67" r="2.5" />
+    <circle cx="155" cy="75" r="3" />
+    <circle cx="163" cy="74" r="2" />
+    
+    <!-- Dust cluster 2 (Center-left, focus area) -->
+    <path d="M80,110 q3,-5 6,-2 q3,3 1,6 q-3,4 -6,1 z" />
+    <circle cx="75" cy="118" r="3" />
+    <circle cx="85" cy="122" r="2.5" />
+    <circle cx="90" cy="115" r="2" />
+    
+    <!-- Dust cluster 3 (Lower center) -->
+    <circle cx="130" cy="165" r="3.5" />
+    <circle cx="137" cy="168" r="2" />
+    <circle cx="125" cy="172" r="2.5" />
+    <circle cx="134" cy="175" r="1.5" />
+  </g>
+
+  <!-- Floating dust specs caught in light -->
+  <g fill="#fbbf24" opacity="0.6">
+    <circle cx="50" cy="60" r="1.5" />
+    <circle cx="70" cy="45" r="1" />
+    <circle cx="95" cy="85" r="2" />
+    <circle cx="115" cy="65" r="1" />
+    <circle cx="140" cy="50" r="1.5" />
+  </g>
+
+  <!-- Character: Curious Person inspecting the wall / dust -->
+  <!-- Character Body / Torso -->
+  <path d="M160 215 C155 180 135 160 110 160 C90 160 75 175 65 215 Z" fill="#0ea5e9" />
+  <path d="M110 160 C135 160 155 180 160 215 L200 215 L200 200 C185 175 160 150 130 145 Z" fill="#0284c7" opacity="0.5" />
+
+  <!-- Character Neck & Head -->
+  <path d="M100 135 C100 125 105 120 110 120 C115 120 120 125 120 135 Z" fill="#fcd34d" />
+  <circle cx="112" cy="105" r="18" fill="#fcd34d" />
+
+  <!-- Character Hair -->
+  <path d="M94 100 C94 88 105 85 112 85 C122 85 130 92 130 105 C130 110 128 115 128 115 C128 115 125 102 115 100 C105 98 98 105 94 100 Z" fill="#475569" />
+
+  <!-- Character Expression & Pose (Pointing at the wall dust) -->
+  <!-- Pointing Arm & Hand -->
+  <path d="M120 170 C140 170 160 150 175 135" fill="none" stroke="#0ea5e9" stroke-width="8" stroke-linecap="round" />
+  <circle cx="178" cy="132" r="4" fill="#fcd34d" /> <!-- Hand pointing -->
+
+  <!-- Face profile looking left towards wall -->
+  <circle cx="104" cy="104" r="2" fill="#334155" /> <!-- Eye -->
+  <path d="M98 112 Q103 117 108 112" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round" /> <!-- Curious mouth -->
+
+  <!-- Foreground props: Cleaning tool (Duster / Feather duster resting nearby) -->
+  <g transform="translate(35, 140) rotate(-25)">
+    <!-- Handle -->
+    <line x1="0" y1="0" x2="0" y2="70" stroke="#b45309" stroke-width="4" stroke-linecap="round" />
+    <!-- Feather head -->
+    <path d="M-10 -15 C-15 -35 0 -45 0 -55 C0 -45 15 -35 10 -15 Z" fill="#ec4899" />
+    <path d="M-6 -10 C-10 -25 0 -35 0 -45 C0 -35 10 -25 6 -10 Z" fill="#f43f5e" />
+  </g>
+
+</svg>

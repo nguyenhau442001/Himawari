@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:26:43.213835",
-  "total_unique_words_with_illustrations": 3769,
-  "total_flat_svg_files": 3769,
+  "generated_at": "2026-10-12T12:29:55.426719",
+  "total_unique_words_with_illustrations": 3779,
+  "total_flat_svg_files": 3779,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1129,
-        "pct": "45.2%"
+        "with_svg": 1139,
+        "pct": "45.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 398,
-        "pct": "22.1%"
+        "with_svg": 401,
+        "pct": "22.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 463,
-        "pct": "8.3%"
+        "with_svg": 468,
+        "pct": "8.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 463,
-        "pct": "8.3%"
+        "with_svg": 468,
+        "pct": "8.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 463,
-        "pct": "8.3%"
+        "with_svg": 468,
+        "pct": "8.4%"
       }
     }
   },
@@ -57900,6 +57900,126 @@
         "images/HSK_3.0/level9/附和.svg"
       ]
     },
+    "复合": {
+      "hanzi": "复合",
+      "pinyin": "fùhé",
+      "meaning": "tổng hợp, phức hợp",
+      "example_zh": "这是一种<u>复合</u>材料。",
+      "example_vi": "Đây là một loại vật liệu <u>tổng hợp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "复合.svg",
+      "src": "images/HSK_2.0/level6/复合.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/复合.svg",
+        "images/HSK_3.0/level8/复合.svg",
+        "images/HSK_3.0/level9/复合.svg"
+      ]
+    },
+    "附件": {
+      "hanzi": "附件",
+      "pinyin": "fùjiàn",
+      "meaning": "tệp đính kèm, phụ kiện",
+      "example_zh": "请查看邮件<u>附件</u>。",
+      "example_vi": "Xin hãy kiểm tra <u>tệp đính kèm</u> trong email.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "附件.svg",
+      "src": "images/HSK_2.0/level6/附件.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/附件.svg"
+      ]
+    },
+    "复述": {
+      "hanzi": "复述",
+      "pinyin": "fùshù",
+      "meaning": "kể lại, nhắc lại",
+      "example_zh": "请<u>复述</u>一下刚才的内容。",
+      "example_vi": "Xin hãy <u>kể lại</u> nội dung vừa rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "复述.svg",
+      "src": "images/HSK_2.0/level6/复述.svg",
+      "alt_srcs": []
+    },
+    "附属": {
+      "hanzi": "附属",
+      "pinyin": "fùshǔ",
+      "meaning": "trực thuộc, phụ thuộc",
+      "example_zh": "这是大学的<u>附属</u>医院。",
+      "example_vi": "Đây là bệnh viện <u>trực thuộc</u> trường đại học.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "附属.svg",
+      "src": "images/HSK_2.0/level6/附属.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/附属.svg",
+        "images/HSK_3.0/level8/附属.svg",
+        "images/HSK_3.0/level9/附属.svg"
+      ]
+    },
+    "富翁": {
+      "hanzi": "富翁",
+      "pinyin": "fùwēng",
+      "meaning": "người giàu, triệu phú",
+      "example_zh": "他是当地有名的<u>富翁</u>。",
+      "example_vi": "Anh ấy là <u>người giàu</u> nổi tiếng ở địa phương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "富翁.svg",
+      "src": "images/HSK_2.0/level6/富翁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/富翁.svg",
+        "images/HSK_3.0/level8/富翁.svg",
+        "images/HSK_3.0/level9/富翁.svg"
+      ]
+    },
+    "复兴": {
+      "hanzi": "复兴",
+      "pinyin": "fùxīng",
+      "meaning": "phục hưng",
+      "example_zh": "文化<u>复兴</u>运动开始了。",
+      "example_vi": "Phong trào <u>phục hưng</u> văn hóa đã bắt đầu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "复兴.svg",
+      "src": "images/HSK_2.0/level6/复兴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/复兴.svg",
+        "images/HSK_3.0/level8/复兴.svg",
+        "images/HSK_3.0/level9/复兴.svg"
+      ]
+    },
     "富有": {
       "hanzi": "富有",
       "pinyin": "fùyǒu",
@@ -57916,6 +58036,78 @@
       "src": "images/HSK_2.0/level6/富有.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/富有.svg"
+      ]
+    },
+    "附着": {
+      "hanzi": "附着",
+      "pinyin": "fùzhuó",
+      "meaning": "bám, dính vào",
+      "example_zh": "灰尘<u>附着</u>在墙上。",
+      "example_vi": "Bụi <u>bám</u> trên tường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "附着.svg",
+      "src": "images/HSK_2.0/level6/附着.svg",
+      "alt_srcs": []
+    },
+    "改良": {
+      "hanzi": "改良",
+      "pinyin": "gǎiliáng",
+      "meaning": "cải tạo, cải tiến",
+      "example_zh": "农民正在<u>改良</u>土壤。",
+      "example_vi": "Nông dân đang <u>cải tạo</u> đất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "改良.svg",
+      "src": "images/HSK_2.0/level6/改良.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/改良.svg",
+        "images/HSK_3.0/level8/改良.svg",
+        "images/HSK_3.0/level9/改良.svg"
+      ]
+    },
+    "概率": {
+      "hanzi": "概率",
+      "pinyin": "gàilǜ",
+      "meaning": "xác suất",
+      "example_zh": "中奖<u>概率</u>很低。",
+      "example_vi": "<u>Xác suất</u> trúng thưởng rất thấp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "概率.svg",
+      "src": "images/HSK_2.0/level6/概率.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/概率.svg"
+      ]
+    },
+    "干旱": {
+      "hanzi": "干旱",
+      "pinyin": "gānhàn",
+      "meaning": "hạn hán",
+      "example_zh": "今年发生了严重<u>干旱</u>。",
+      "example_vi": "Năm nay xảy ra <u>hạn hán</u> nghiêm trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "干旱.svg",
+      "src": "images/HSK_2.0/level6/干旱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/干旱.svg"
       ]
     },
     "更新": {

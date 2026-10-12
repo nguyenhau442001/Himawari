@@ -15722,10 +15722,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/附和.svg",
     "caption": "hùa theo, phụ họa"
   },
+  "复合": {
+    "file": "复合.svg",
+    "src": "images/HSK_2.0/level6/复合.svg",
+    "caption": "tổng hợp, phức hợp"
+  },
+  "附件": {
+    "file": "附件.svg",
+    "src": "images/HSK_2.0/level6/附件.svg",
+    "caption": "tệp đính kèm, phụ kiện"
+  },
+  "复述": {
+    "file": "复述.svg",
+    "src": "images/HSK_2.0/level6/复述.svg",
+    "caption": "kể lại, nhắc lại"
+  },
+  "附属": {
+    "file": "附属.svg",
+    "src": "images/HSK_2.0/level6/附属.svg",
+    "caption": "trực thuộc, phụ thuộc"
+  },
+  "富翁": {
+    "file": "富翁.svg",
+    "src": "images/HSK_2.0/level6/富翁.svg",
+    "caption": "người giàu, triệu phú"
+  },
+  "复兴": {
+    "file": "复兴.svg",
+    "src": "images/HSK_2.0/level6/复兴.svg",
+    "caption": "phục hưng"
+  },
   "富有": {
     "file": "富有.svg",
     "src": "images/HSK_2.0/level6/富有.svg",
     "caption": "giàu có"
+  },
+  "附着": {
+    "file": "附着.svg",
+    "src": "images/HSK_2.0/level6/附着.svg",
+    "caption": "bám, dính vào"
+  },
+  "改良": {
+    "file": "改良.svg",
+    "src": "images/HSK_2.0/level6/改良.svg",
+    "caption": "cải tạo, cải tiến"
+  },
+  "概率": {
+    "file": "概率.svg",
+    "src": "images/HSK_2.0/level6/概率.svg",
+    "caption": "xác suất"
+  },
+  "干旱": {
+    "file": "干旱.svg",
+    "src": "images/HSK_2.0/level6/干旱.svg",
+    "caption": "hạn hán"
   },
   "更新": {
     "file": "更新.svg",
