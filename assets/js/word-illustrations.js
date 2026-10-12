@@ -18852,6 +18852,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/掐.svg",
     "caption": "bấm, ngắt (bằng ngón tay)"
   },
+  "恰当": {
+    "file": "恰当.svg",
+    "src": "images/HSK_2.0/level6/恰当.svg",
+    "caption": "thích đáng, phù hợp"
+  },
+  "恰到好处": {
+    "file": "恰到好处.svg",
+    "src": "images/HSK_2.0/level6/恰到好处.svg",
+    "caption": "vừa đúng mức, vừa khéo"
+  },
+  "恰巧": {
+    "file": "恰巧.svg",
+    "src": "images/HSK_2.0/level6/恰巧.svg",
+    "caption": "vừa đúng lúc, tình cờ"
+  },
+  "洽谈": {
+    "file": "洽谈.svg",
+    "src": "images/HSK_2.0/level6/洽谈.svg",
+    "caption": "đàm phán, thương lượng"
+  },
+  "牵": {
+    "file": "牵.svg",
+    "src": "images/HSK_2.0/level6/牵.svg",
+    "caption": "kéo, dắt"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
