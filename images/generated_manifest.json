@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:56:34.973342",
-  "total_unique_words_with_illustrations": 3609,
-  "total_flat_svg_files": 3609,
+  "generated_at": "2026-10-12T11:58:22.637169",
+  "total_unique_words_with_illustrations": 3619,
+  "total_flat_svg_files": 3619,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 969,
-        "pct": "38.8%"
+        "with_svg": 979,
+        "pct": "39.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 358,
-        "pct": "19.9%"
+        "with_svg": 362,
+        "pct": "20.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 355,
-        "pct": "6.3%"
+        "with_svg": 361,
+        "pct": "6.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 355,
-        "pct": "6.3%"
+        "with_svg": 361,
+        "pct": "6.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 355,
-        "pct": "6.3%"
+        "with_svg": 361,
+        "pct": "6.4%"
       }
     }
   },
@@ -54472,6 +54472,210 @@
         "images/HSK_3.0/level7/垫.svg",
         "images/HSK_3.0/level8/垫.svg",
         "images/HSK_3.0/level9/垫.svg"
+      ]
+    },
+    "奠定": {
+      "hanzi": "奠定",
+      "pinyin": "diàndìng",
+      "meaning": "đặt nền tảng, xác lập",
+      "example_zh": "这次合作<u>奠定</u>了良好的基础。",
+      "example_vi": "Hợp tác lần này <u>đặt nền tảng</u> tốt đẹp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "奠定.svg",
+      "src": "images/HSK_2.0/level6/奠定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/奠定.svg",
+        "images/HSK_3.0/level8/奠定.svg",
+        "images/HSK_3.0/level9/奠定.svg"
+      ]
+    },
+    "惦记": {
+      "hanzi": "惦记",
+      "pinyin": "diànjì",
+      "meaning": "nhớ và lo lắng (về ai/việc gì)",
+      "example_zh": "妈妈一直<u>惦记</u>着孩子。",
+      "example_vi": "Mẹ luôn <u>nhớ và lo</u> cho con.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "惦记.svg",
+      "src": "images/HSK_2.0/level6/惦记.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/惦记.svg",
+        "images/HSK_3.0/level8/惦记.svg",
+        "images/HSK_3.0/level9/惦记.svg"
+      ]
+    },
+    "电源": {
+      "hanzi": "电源",
+      "pinyin": "diànyuán",
+      "meaning": "nguồn điện",
+      "example_zh": "请关闭<u>电源</u>。",
+      "example_vi": "Xin hãy tắt <u>nguồn điện</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "电源.svg",
+      "src": "images/HSK_2.0/level6/电源.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/电源.svg"
+      ]
+    },
+    "叼": {
+      "hanzi": "叼",
+      "pinyin": "diāo",
+      "meaning": "ngậm (bằng miệng)",
+      "example_zh": "狗嘴里<u>叼</u>着一根骨头。",
+      "example_vi": "Con chó <u>ngậm</u> một cái xương trong miệng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "叼.svg",
+      "src": "images/HSK_2.0/level6/叼.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/叼.svg",
+        "images/HSK_3.0/level8/叼.svg",
+        "images/HSK_3.0/level9/叼.svg"
+      ]
+    },
+    "雕刻": {
+      "hanzi": "雕刻",
+      "pinyin": "diāokè",
+      "meaning": "khắc, chạm",
+      "example_zh": "这是手工<u>雕刻</u>的木雕。",
+      "example_vi": "Đây là bức tượng gỗ <u>chạm khắc</u> thủ công.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "雕刻.svg",
+      "src": "images/HSK_2.0/level6/雕刻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/雕刻.svg",
+        "images/HSK_3.0/level8/雕刻.svg",
+        "images/HSK_3.0/level9/雕刻.svg"
+      ]
+    },
+    "雕塑": {
+      "hanzi": "雕塑",
+      "pinyin": "diāosù",
+      "meaning": "tượng điêu khắc",
+      "example_zh": "广场中央有一座<u>雕塑</u>。",
+      "example_vi": "Giữa quảng trường có một <u>bức tượng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "雕塑.svg",
+      "src": "images/HSK_2.0/level6/雕塑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/雕塑.svg",
+        "images/HSK_3.0/level8/雕塑.svg",
+        "images/HSK_3.0/level9/雕塑.svg"
+      ]
+    },
+    "吊": {
+      "hanzi": "吊",
+      "pinyin": "diào",
+      "meaning": "treo, móc",
+      "example_zh": "灯<u>吊</u>在天花板上。",
+      "example_vi": "Đèn <u>treo</u> trên trần nhà.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "吊.svg",
+      "src": "images/HSK_2.0/level6/吊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/吊.svg"
+      ]
+    },
+    "调动": {
+      "hanzi": "调动",
+      "pinyin": "diàodòng",
+      "meaning": "điều động, điều chuyển",
+      "example_zh": "公司决定<u>调动</u>他到另一个部门。",
+      "example_vi": "Công ty quyết định <u>điều chuyển</u> anh ấy sang phòng khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "调动.svg",
+      "src": "images/HSK_2.0/level6/调动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/调动.svg"
+      ]
+    },
+    "跌": {
+      "hanzi": "跌",
+      "pinyin": "diē",
+      "meaning": "ngã, rơi (giá)",
+      "example_zh": "股价突然<u>跌</u>了很多。",
+      "example_vi": "Giá cổ phiếu đột nhiên <u>rớt</u> nhiều.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "跌.svg",
+      "src": "images/HSK_2.0/level6/跌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/跌.svg"
+      ]
+    },
+    "丁": {
+      "hanzi": "丁",
+      "pinyin": "dīng",
+      "meaning": "miếng vuông nhỏ (thực phẩm)",
+      "example_zh": "把肉切成<u>丁</u>。",
+      "example_vi": "Cắt thịt thành những miếng <u>vuông nhỏ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丁.svg",
+      "src": "images/HSK_2.0/level6/丁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/丁.svg",
+        "images/HSK_3.0/level8/丁.svg",
+        "images/HSK_3.0/level9/丁.svg"
       ]
     },
     "定期": {

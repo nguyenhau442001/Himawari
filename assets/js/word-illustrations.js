@@ -14877,6 +14877,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/垫.svg",
     "caption": "đệm, lót"
   },
+  "奠定": {
+    "file": "奠定.svg",
+    "src": "images/HSK_2.0/level6/奠定.svg",
+    "caption": "đặt nền tảng, xác lập"
+  },
+  "惦记": {
+    "file": "惦记.svg",
+    "src": "images/HSK_2.0/level6/惦记.svg",
+    "caption": "nhớ và lo lắng (về ai/việc gì)"
+  },
+  "电源": {
+    "file": "电源.svg",
+    "src": "images/HSK_2.0/level6/电源.svg",
+    "caption": "nguồn điện"
+  },
+  "叼": {
+    "file": "叼.svg",
+    "src": "images/HSK_2.0/level6/叼.svg",
+    "caption": "ngậm (bằng miệng)"
+  },
+  "雕刻": {
+    "file": "雕刻.svg",
+    "src": "images/HSK_2.0/level6/雕刻.svg",
+    "caption": "khắc, chạm"
+  },
+  "雕塑": {
+    "file": "雕塑.svg",
+    "src": "images/HSK_2.0/level6/雕塑.svg",
+    "caption": "tượng điêu khắc"
+  },
+  "吊": {
+    "file": "吊.svg",
+    "src": "images/HSK_2.0/level6/吊.svg",
+    "caption": "treo, móc"
+  },
+  "调动": {
+    "file": "调动.svg",
+    "src": "images/HSK_2.0/level6/调动.svg",
+    "caption": "điều động, điều chuyển"
+  },
+  "跌": {
+    "file": "跌.svg",
+    "src": "images/HSK_2.0/level6/跌.svg",
+    "caption": "ngã, rơi (giá)"
+  },
+  "丁": {
+    "file": "丁.svg",
+    "src": "images/HSK_2.0/level6/丁.svg",
+    "caption": "miếng vuông nhỏ (thực phẩm)"
+  },
   "定期": {
     "file": "定期.svg",
     "src": "images/HSK_2.0/level6/定期.svg",
