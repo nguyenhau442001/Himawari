@@ -17502,6 +17502,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/连锁.svg",
     "caption": "chuỗi, liên hoàn"
   },
+  "连同": {
+    "file": "连同.svg",
+    "src": "images/HSK_2.0/level6/连同.svg",
+    "caption": "cùng với"
+  },
+  "廉洁": {
+    "file": "廉洁.svg",
+    "src": "images/HSK_2.0/level6/廉洁.svg",
+    "caption": "trong sạch, liêm khiết"
+  },
+  "帘子": {
+    "file": "帘子.svg",
+    "src": "images/HSK_2.0/level6/帘子.svg",
+    "caption": "màn, mành"
+  },
+  "怜悯": {
+    "file": "怜悯.svg",
+    "src": "images/HSK_2.0/level6/怜悯.svg",
+    "caption": "thương xót, đáng thương"
+  },
+  "良心": {
+    "file": "良心.svg",
+    "src": "images/HSK_2.0/level6/良心.svg",
+    "caption": "lương tâm"
+  },
+  "晾": {
+    "file": "晾.svg",
+    "src": "images/HSK_2.0/level6/晾.svg",
+    "caption": "phơi"
+  },
+  "谅解": {
+    "file": "谅解.svg",
+    "src": "images/HSK_2.0/level6/谅解.svg",
+    "caption": "thông cảm, lượng thứ"
+  },
+  "辽阔": {
+    "file": "辽阔.svg",
+    "src": "images/HSK_2.0/level6/辽阔.svg",
+    "caption": "rộng lớn (vùng đất, trời)"
+  },
+  "列举": {
+    "file": "列举.svg",
+    "src": "images/HSK_2.0/level6/列举.svg",
+    "caption": "liệt kê"
+  },
+  "裂缝": {
+    "file": "裂缝.svg",
+    "src": "images/HSK_2.0/level6/裂缝.svg",
+    "caption": "vết nứt, khe nứt"
+  },
   "领先": {
     "file": "领先.svg",
     "src": "images/HSK_2.0/level6/领先.svg",

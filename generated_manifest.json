@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:36:38.316072",
-  "total_unique_words_with_illustrations": 4105,
-  "total_flat_svg_files": 4105,
+  "generated_at": "2026-10-12T20:44:11.918039",
+  "total_unique_words_with_illustrations": 4115,
+  "total_flat_svg_files": 4115,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1465,
-        "pct": "58.6%"
+        "with_svg": 1475,
+        "pct": "59.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 509,
+        "with_svg": 510,
         "pct": "28.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 656,
-        "pct": "11.7%"
+        "with_svg": 664,
+        "pct": "11.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 656,
-        "pct": "11.7%"
+        "with_svg": 664,
+        "pct": "11.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 656,
-        "pct": "11.7%"
+        "with_svg": 664,
+        "pct": "11.9%"
       }
     }
   },
@@ -64970,6 +64970,214 @@
         "images/HSK_3.0/level7/连锁.svg",
         "images/HSK_3.0/level8/连锁.svg",
         "images/HSK_3.0/level9/连锁.svg"
+      ]
+    },
+    "连同": {
+      "hanzi": "连同",
+      "pinyin": "liántóng",
+      "meaning": "cùng với",
+      "example_zh": "工资<u>连同</u>奖金一共发了五千元。",
+      "example_vi": "Lương <u>cùng với</u> tiền thưởng tổng cộng phát năm nghìn tệ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "连同.svg",
+      "src": "images/HSK_2.0/level6/连同.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/连同.svg",
+        "images/HSK_3.0/level8/连同.svg",
+        "images/HSK_3.0/level9/连同.svg"
+      ]
+    },
+    "廉洁": {
+      "hanzi": "廉洁",
+      "pinyin": "liánjié",
+      "meaning": "trong sạch, liêm khiết",
+      "example_zh": "官员应该<u>廉洁</u>奉公。",
+      "example_vi": "Quan chức nên <u>liêm khiết</u> tận tâm với việc công.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "廉洁.svg",
+      "src": "images/HSK_2.0/level6/廉洁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/廉洁.svg",
+        "images/HSK_3.0/level8/廉洁.svg",
+        "images/HSK_3.0/level9/廉洁.svg"
+      ]
+    },
+    "帘子": {
+      "hanzi": "帘子",
+      "pinyin": "liánzi",
+      "meaning": "màn, mành",
+      "example_zh": "把<u>帘子</u>放下来。",
+      "example_vi": "Hãy kéo <u>màn</u> xuống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "帘子.svg",
+      "src": "images/HSK_2.0/level6/帘子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/帘子.svg",
+        "images/HSK_3.0/level8/帘子.svg",
+        "images/HSK_3.0/level9/帘子.svg"
+      ]
+    },
+    "怜悯": {
+      "hanzi": "怜悯",
+      "pinyin": "liánmǐn",
+      "meaning": "thương xót, đáng thương",
+      "example_zh": "他对流浪儿童充满<u>怜悯</u>。",
+      "example_vi": "Anh ấy đầy <u>thương xót</u> với trẻ em lang thang.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "怜悯.svg",
+      "src": "images/HSK_2.0/level6/怜悯.svg",
+      "alt_srcs": []
+    },
+    "良心": {
+      "hanzi": "良心",
+      "pinyin": "liángxīn",
+      "meaning": "lương tâm",
+      "example_zh": "做事要凭<u>良心</u>。",
+      "example_vi": "Làm việc phải theo <u>lương tâm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "良心.svg",
+      "src": "images/HSK_2.0/level6/良心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/良心.svg",
+        "images/HSK_3.0/level8/良心.svg",
+        "images/HSK_3.0/level9/良心.svg"
+      ]
+    },
+    "晾": {
+      "hanzi": "晾",
+      "pinyin": "liàng",
+      "meaning": "phơi",
+      "example_zh": "把衣服<u>晾</u>在外面。",
+      "example_vi": "<u>Phơi</u> quần áo ở ngoài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "晾.svg",
+      "src": "images/HSK_2.0/level6/晾.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/晾.svg"
+      ]
+    },
+    "谅解": {
+      "hanzi": "谅解",
+      "pinyin": "liàngjiě",
+      "meaning": "thông cảm, lượng thứ",
+      "example_zh": "希望你能<u>谅解</u>我。",
+      "example_vi": "Mong bạn có thể <u>thông cảm</u> cho tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "谅解.svg",
+      "src": "images/HSK_2.0/level6/谅解.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/谅解.svg",
+        "images/HSK_3.0/level8/谅解.svg",
+        "images/HSK_3.0/level9/谅解.svg"
+      ]
+    },
+    "辽阔": {
+      "hanzi": "辽阔",
+      "pinyin": "liáokuò",
+      "meaning": "rộng lớn (vùng đất, trời)",
+      "example_zh": "草原一片<u>辽阔</u>。",
+      "example_vi": "Đồng cỏ một dải <u>rộng lớn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辽阔.svg",
+      "src": "images/HSK_2.0/level6/辽阔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/辽阔.svg",
+        "images/HSK_3.0/level8/辽阔.svg",
+        "images/HSK_3.0/level9/辽阔.svg"
+      ]
+    },
+    "列举": {
+      "hanzi": "列举",
+      "pinyin": "lièjǔ",
+      "meaning": "liệt kê",
+      "example_zh": "请<u>列举</u>几个例子。",
+      "example_vi": "Xin hãy <u>liệt kê</u> vài ví dụ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "列举.svg",
+      "src": "images/HSK_2.0/level6/列举.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/列举.svg",
+        "images/HSK_3.0/level8/列举.svg",
+        "images/HSK_3.0/level9/列举.svg"
+      ]
+    },
+    "裂缝": {
+      "hanzi": "裂缝",
+      "pinyin": "lièfèng",
+      "meaning": "vết nứt, khe nứt",
+      "example_zh": "墙上有一道<u>裂缝</u>。",
+      "example_vi": "Trên tường có một <u>vết nứt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "裂缝.svg",
+      "src": "images/HSK_2.0/level6/裂缝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/裂缝.svg",
+        "images/HSK_3.0/level8/裂缝.svg",
+        "images/HSK_3.0/level9/裂缝.svg"
       ]
     },
     "领先": {

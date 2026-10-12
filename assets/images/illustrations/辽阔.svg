@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Sky -->
+  <path d="M0 0h240v120H0z" fill="#1e293b"/>
+  <circle cx="180" cy="50" r="25" fill="#fbbf24" opacity="0.8"/>
+  
+  <!-- Rolling Grasslands -->
+  <path d="M0 240V120c40-20 80-20 120 0s80 20 120 0v120H0z" fill="#10b981"/>
+  <path d="M0 240V150c60-30 120-30 180 0s60 30 60 30v60H0z" fill="#059669"/>
+  
+  <!-- Character -->
+  <g transform="translate(100, 140)">
+    <circle cx="10" cy="10" r="8" fill="#f59e0b"/>
+    <path d="M10 18v15m-5 5l5-5 5 5m-5-15l-8 10m16-10l-8 10" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M2 35l16 5" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Distant elements to emphasize vastness -->
+  <ellipse cx="40" cy="130" rx="15" ry="5" fill="#065f46" opacity="0.3"/>
+  <ellipse cx="200" cy="145" rx="20" ry="6" fill="#065f46" opacity="0.3"/>
+  
+  <!-- Horizon glow -->
+  <path d="M0 120h240v2H0z" fill="#38bdf8" opacity="0.2"/>
+</svg>

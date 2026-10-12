@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Warm Golden Glow for Compassion -->
+    <radialGradient id="compassionGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Streetlamp Light Cone -->
+    <linearGradient id="lightCone" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Soft Shadows -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- ENVIRONMENT / URBAN STREET BACKGROUND -->
+  <!-- Brick Wall Texture / Buildings -->
+  <path d="M0 160 L240 160 L240 240 L0 240 Z" fill="#111827"/>
+  <!-- Building 1 -->
+  <rect x="15" y="60" width="75" height="100" rx="4" fill="#1f2937"/>
+  <!-- Windows Building 1 -->
+  <rect x="25" y="75" width="20" height="25" rx="2" fill="#374151"/>
+  <rect x="58" y="75" width="20" height="25" rx="2" fill="#374151"/>
+  <rect x="25" y="115" width="20" height="25" rx="2" fill="#374151"/>
+  <rect x="58" y="115" width="20" height="25" rx="2" fill="#374151"/>
+
+  <!-- Building 2 (Shop / Bakery with warm light) -->
+  <path d="M110 50 L225 50 L225 160 L110 160 Z" fill="#1e293b"/>
+  <!-- Shop Window -->
+  <rect x="125" y="80" width="85" height="80" rx="2" fill="#334155"/>
+  <rect x="132" y="88" width="32" height="60" rx="1" fill="#fbbf24" fill-opacity="0.15"/>
+  <rect x="176" y="88" width="32" height="60" rx="1" fill="#fbbf24" fill-opacity="0.15"/>
+  <!-- Awning -->
+  <path d="M115 70 L220 70 L210 52 L125 52 Z" fill="#ef4444"/>
+  <path d="M115 70 L130 52 L125 52 L110 70 Z" fill="#b91c1c"/>
+  <path d="M140 70 L155 52 L150 52 L135 70 Z" fill="#b91c1c"/>
+  <path d="M165 70 L180 52 L175 52 L160 70 Z" fill="#b91c1c"/>
+  <path d="M190 70 L205 52 L200 52 L185 70 Z" fill="#b91c1c"/>
+
+  <!-- Street Pavement & Curb -->
+  <path d="M0 190 L240 190 L240 240 L0 240 Z" fill="#0b0f19"/>
+  <path d="M0 190 L240 190 L240 195 L0 195 Z" fill="#334155"/>
+
+  <!-- Streetlamp Pole and Light -->
+  <rect x="200" y="40" width="5" height="150" fill="#475569"/>
+  <path d="M195 40 L210 40 L207 30 L198 30 Z" fill="#334155"/>
+  <!-- Light Cone projection -->
+  <polygon points="202,45 140,240 240,240" fill="url(#lightCone)" style="mix-blend-mode: screen;"/>
+  <circle cx="202" cy="45" r="4" fill="#fef08a"/>
+
+  <!-- BACKDROP COMPASSION AURA -->
+  <circle cx="115" cy="140" r="60" fill="url(#compassionGlow)"/>
+
+  <!-- CHARACTERS GROUP -->
+  <!-- 1. HOMELESS CHILD (Sitting on the curb, humble, wearing slightly worn clothing) -->
+  <g id="homeless-child" filter="url(#softShadow)">
+    <!-- Child Shadow -->
+    <ellipse cx="80" cy="198" rx="18" ry="4" fill="#000" fill-opacity="0.4"/>
+    
+    <!-- Legs folded / sitting -->
+    <path d="M70 185 L90 185 L85 195 L65 195 Z" fill="#475569"/>
+    
+    <!-- Torso (Worn hoodie) -->
+    <path d="M68 155 Q80 150 92 155 L90 188 L70 188 Z" fill="#38bdf8"/>
+    <!-- Hoodie Pocket / Patch -->
+    <rect x="75" y="170" width="10" height="10" rx="2" fill="#0ea5e9"/>
+    <line x1="77" y1="175" x2="83" y2="175" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Head & Face -->
+    <circle cx="80" cy="138" r="14" fill="#fbcfe8"/>
+    <!-- Messy Hair -->
+    <path d="M67 135 Q70 123 83 126 Q92 125 94 135 Q90 131 82 131 Q72 131 67 135 Z" fill="#78350f"/>
+    <!-- Sad / Humble Expression -->
+    <circle cx="76" cy="138" r="1.5" fill="#1e293b"/>
+    <circle cx="84" cy="138" r="1.5" fill="#1e293b"/>
+    <!-- Soft sad mouth -->
+    <path d="M78 145 Q80 143 82 145" stroke="#1e293b" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- Rosy shy cheeks -->
+    <circle cx="74" cy="141" r="2" fill="#fda4af" opacity="0.6"/>
+    <circle cx="86" cy="141" r="2" fill="#fda4af" opacity="0.6"/>
+
+    <!-- Arms hugging knees -->
+    <path d="M72 160 Q80 165 85 175" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" fill="none"/>
+    
+    <!-- Small Cardboard Box prop (signifying situation) -->
+    <path d="M50 180 L68 180 L68 195 L50 195 Z" fill="#a16207"/>
+    <path d="M54 180 L64 180 L62 186 L56 186 Z" fill="#ca8a04"/>
+  </g>
+
+  <!-- 2. ADULT / MAN SHOWING COMPASSION (Standing/Crouching slightly, extending warmth and care) -->
+  <g id="caring-man" filter="url(#softShadow)">
+    <!-- Man Shadow -->
+    <ellipse cx="140" cy="198" rx="22" ry="5" fill="#000" fill-opacity="0.4"/>
+
+    <!-- Legs -->
+    <path d="M128 170 L134 196 L144 196 L138 170 Z" fill="#1e3a8a"/>
+    <path d="M142 170 L148 196 L158 196 L152 170 Z" fill="#1e3a8a"/>
+
+    <!-- Torso (Warm coat / jacket) -->
+    <path d="M125 125 Q140 120 155 125 L158 172 L122 172 Z" fill="#d97706"/>
+    <!-- Jacket lapel & shirt -->
+    <path d="M140 125 L135 150 L145 150 Z" fill="#fef3c7"/>
+    <path d="M132 125 L140 150 L148 125 Z" fill="#b45309"/>
+
+    <!-- Head & Face (Warm, sympathetic expression, smiling gently with empathetic eyes) -->
+    <circle cx="140" cy="105" r="15" fill="#fde047"/>
+    <circle cx="140" cy="105" r="14" fill="#ffd700" fill-opacity="0.2"/>
+    <!-- Neat Hair -->
+    <path d="M126 102 Q130 92 142 93 Q154 92 154 103 Q150 97 140 97 Q130 97 126 102 Z" fill="#451a03"/>
+    
+    <!-- Empathetic Eyes (gentle curves showing care) -->
+    <path d="M133 103 Q136 101 139 103" stroke="#451a03" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M141 103 Q144 101 147 103" stroke="#451a03" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Gentle compassionate smile -->
+    <path d="M136 111 Q140 115 144 111" stroke="#451a03" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Warm scarf around neck -->
+    <path d="M128 118 Q140 126 152 118 L154 125 Q140 133 126 125 Z" fill="#10b981"/>
+    <path d="M145 124 L152 145 L142 148 L138 130 Z" fill="#059669"/>
+
+    <!-- Right Arm Reaching Out Compassionately -->
+    <path d="M125 130 Q105 135 95 142" stroke="#d97706" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <!-- Hand gently offering a warm drink / pastry or touching softly -->
+    <circle cx="93" cy="143" r="5" fill="#fde047"/>
+
+    <!-- Left Arm holding a paper bag / bakery item or warm drink -->
+    <path d="M155 130 Q165 140 158 155" stroke="#d97706" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <circle cx="157" cy="157" r="5" fill="#fde047"/>
+  </g>
+
+  <!-- 3. PROPS: WARM DRINK / PASTRY BAG HELD OUT -->
+  <!-- A little bakery box or hot drink cup being offered with care -->
+  <g id="gift-cup" filter="url(#softShadow)">
+    <rect x="85" y="145" width="12" height="16" rx="2" fill="#fff"/>
+    <path d="M85 150 L97 150" stroke="#f43f5e" stroke-width="2"/>
+    <!-- Steam wisps representing warmth and kindness -->
+    <path d="M89 141 Q92 137 89 133" stroke="#fef08a" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M93 143 Q96 139 93 135" stroke="#fef08a" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- FOREGROUND ATMOSPHERIC DETAILS (Floating gentle warm particles / glowing hearts or warmth) -->
+  <g fill="#fbbf24" opacity="0.6">
+    <circle cx="105" cy="115" r="2" />
+    <circle cx="118" cy="100" r="1.5" />
+    <circle cx="95" cy="125" r="1" />
+    <circle cx="125" cy="130" r="2.5" />
+    <circle cx="110" cy="145" r="1.5" />
+  </g>
+
+  <!-- Vignette / Border frame matching style guidelines -->
+  <rect x="0" y="0" width="240" height="240" rx="24" fill="none" stroke="#334155" stroke-width="2" opacity="0.5"/>
+</svg>
