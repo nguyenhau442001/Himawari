@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:43:45.958935",
-  "total_unique_words_with_illustrations": 3539,
-  "total_flat_svg_files": 3539,
+  "generated_at": "2026-10-12T11:45:30.110816",
+  "total_unique_words_with_illustrations": 3549,
+  "total_flat_svg_files": 3549,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 899,
-        "pct": "36.0%"
+        "with_svg": 909,
+        "pct": "36.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 331,
-        "pct": "18.4%"
+        "with_svg": 336,
+        "pct": "18.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 314,
-        "pct": "5.6%"
+        "with_svg": 318,
+        "pct": "5.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 314,
-        "pct": "5.6%"
+        "with_svg": 318,
+        "pct": "5.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 314,
-        "pct": "5.6%"
+        "with_svg": 318,
+        "pct": "5.7%"
       }
     }
   },
@@ -52972,6 +52972,46 @@
         "images/HSK_3.0/level9/搭档.svg"
       ]
     },
+    "搭配": {
+      "hanzi": "搭配",
+      "pinyin": "dāpèi",
+      "meaning": "kết hợp, phối hợp",
+      "example_zh": "这件衣服跟那条裤子很<u>搭配</u>。",
+      "example_vi": "Bộ quần áo này <u>phối hợp</u> rất hợp với cái quần đó.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "搭配.svg",
+      "src": "images/HSK_2.0/level6/搭配.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/搭配.svg"
+      ]
+    },
+    "答辩": {
+      "hanzi": "答辩",
+      "pinyin": "dábiàn",
+      "meaning": "bảo vệ (luận văn), trả lời chất vấn",
+      "example_zh": "他下周要做论文<u>答辩</u>。",
+      "example_vi": "Tuần sau anh ấy phải <u>bảo vệ</u> luận văn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "答辩.svg",
+      "src": "images/HSK_2.0/level6/答辩.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/答辩.svg",
+        "images/HSK_3.0/level8/答辩.svg",
+        "images/HSK_3.0/level9/答辩.svg"
+      ]
+    },
     "达成": {
       "hanzi": "达成",
       "pinyin": "dáchéng",
@@ -52990,6 +53030,24 @@
         "images/HSK_3.0/level5/达成.svg"
       ]
     },
+    "答复": {
+      "hanzi": "答复",
+      "pinyin": "dáfù",
+      "meaning": "trả lời, hồi đáp",
+      "example_zh": "请尽快给我<u>答复</u>。",
+      "example_vi": "Xin hãy <u>trả lời</u> tôi sớm nhất có thể.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "答复.svg",
+      "src": "images/HSK_2.0/level6/答复.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/答复.svg"
+      ]
+    },
     "打包": {
       "hanzi": "打包",
       "pinyin": "dǎbāo",
@@ -53006,6 +53064,140 @@
       "src": "images/HSK_2.0/level6/打包.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/打包.svg"
+      ]
+    },
+    "打官司": {
+      "hanzi": "打官司",
+      "pinyin": "dǎ guānsi",
+      "meaning": "đi kiện, kiện tụng",
+      "example_zh": "他们为这件事<u>打官司</u>。",
+      "example_vi": "Họ <u>đi kiện</u> vì việc này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "打官司.svg",
+      "src": "images/HSK_2.0/level6/打官司.svg",
+      "alt_srcs": []
+    },
+    "打击": {
+      "hanzi": "打击",
+      "pinyin": "dǎjī",
+      "meaning": "đánh, tấn công; giáng đòn",
+      "example_zh": "这次失败对他<u>打击</u>很大。",
+      "example_vi": "Lần thất bại này <u>giáng đòn</u> nặng vào anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "打击.svg",
+      "src": "images/HSK_2.0/level6/打击.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/打击.svg"
+      ]
+    },
+    "打架": {
+      "hanzi": "打架",
+      "pinyin": "dǎjià",
+      "meaning": "đánh nhau",
+      "example_zh": "两个孩子在学校<u>打架</u>了。",
+      "example_vi": "Hai đứa trẻ <u>đánh nhau</u> ở trường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "打架.svg",
+      "src": "images/HSK_2.0/level6/打架.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/打架.svg"
+      ]
+    },
+    "打量": {
+      "hanzi": "打量",
+      "pinyin": "dǎliang",
+      "meaning": "ngắm nghía, đánh giá (bằng mắt)",
+      "example_zh": "他上下<u>打量</u>了一番。",
+      "example_vi": "Anh ấy <u>ngắm nghía</u> từ trên xuống dưới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "打量.svg",
+      "src": "images/HSK_2.0/level6/打量.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/打量.svg",
+        "images/HSK_3.0/level8/打量.svg",
+        "images/HSK_3.0/level9/打量.svg"
+      ]
+    },
+    "打猎": {
+      "hanzi": "打猎",
+      "pinyin": "dǎliè",
+      "meaning": "đi săn",
+      "example_zh": "古时候人们靠<u>打猎</u>为生。",
+      "example_vi": "Thời xưa con người sống nhờ <u>đi săn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "打猎.svg",
+      "src": "images/HSK_2.0/level6/打猎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/打猎.svg",
+        "images/HSK_3.0/level8/打猎.svg",
+        "images/HSK_3.0/level9/打猎.svg"
+      ]
+    },
+    "打仗": {
+      "hanzi": "打仗",
+      "pinyin": "dǎzhàng",
+      "meaning": "đánh trận, đánh nhau (chiến tranh)",
+      "example_zh": "两国曾经<u>打仗</u>。",
+      "example_vi": "Hai nước từng <u>đánh nhau</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "打仗.svg",
+      "src": "images/HSK_2.0/level6/打仗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/打仗.svg"
+      ]
+    },
+    "大不了": {
+      "hanzi": "大不了",
+      "pinyin": "dà bù liǎo",
+      "meaning": "cùng cực, lắm là (cũng không sao)",
+      "example_zh": "<u>大不了</u>重新再做一次。",
+      "example_vi": "<u>Cùng cực</u> thì làm lại lần nữa thôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "大不了.svg",
+      "src": "images/HSK_2.0/level6/大不了.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/大不了.svg",
+        "images/HSK_3.0/level8/大不了.svg",
+        "images/HSK_3.0/level9/大不了.svg"
       ]
     },
     "当前": {

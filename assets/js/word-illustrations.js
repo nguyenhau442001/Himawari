@@ -14502,15 +14502,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/搭档.svg",
     "caption": "cộng tác, hợp tác (làm việc)"
   },
+  "搭配": {
+    "file": "搭配.svg",
+    "src": "images/HSK_2.0/level6/搭配.svg",
+    "caption": "kết hợp, phối hợp"
+  },
+  "答辩": {
+    "file": "答辩.svg",
+    "src": "images/HSK_2.0/level6/答辩.svg",
+    "caption": "bảo vệ (luận văn), trả lời chất vấn"
+  },
   "达成": {
     "file": "达成.svg",
     "src": "images/HSK_2.0/level6/达成.svg",
     "caption": "đạt được (thỏa thuận)"
   },
+  "答复": {
+    "file": "答复.svg",
+    "src": "images/HSK_2.0/level6/答复.svg",
+    "caption": "trả lời, hồi đáp"
+  },
   "打包": {
     "file": "打包.svg",
     "src": "images/HSK_2.0/level6/打包.svg",
     "caption": "đóng gói, gói lại"
+  },
+  "打官司": {
+    "file": "打官司.svg",
+    "src": "images/HSK_2.0/level6/打官司.svg",
+    "caption": "đi kiện, kiện tụng"
+  },
+  "打击": {
+    "file": "打击.svg",
+    "src": "images/HSK_2.0/level6/打击.svg",
+    "caption": "đánh, tấn công; giáng đòn"
+  },
+  "打架": {
+    "file": "打架.svg",
+    "src": "images/HSK_2.0/level6/打架.svg",
+    "caption": "đánh nhau"
+  },
+  "打量": {
+    "file": "打量.svg",
+    "src": "images/HSK_2.0/level6/打量.svg",
+    "caption": "ngắm nghía, đánh giá (bằng mắt)"
+  },
+  "打猎": {
+    "file": "打猎.svg",
+    "src": "images/HSK_2.0/level6/打猎.svg",
+    "caption": "đi săn"
+  },
+  "打仗": {
+    "file": "打仗.svg",
+    "src": "images/HSK_2.0/level6/打仗.svg",
+    "caption": "đánh trận, đánh nhau (chiến tranh)"
+  },
+  "大不了": {
+    "file": "大不了.svg",
+    "src": "images/HSK_2.0/level6/大不了.svg",
+    "caption": "cùng cực, lắm là (cũng không sao)"
   },
   "当前": {
     "file": "当前.svg",
