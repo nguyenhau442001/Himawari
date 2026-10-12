@@ -1,0 +1,119 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c1017"/>
+      <stop offset="60%" stop-color="#162032"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    
+    <!-- Sky Glow Gradient -->
+    <radialGradient id="skyGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Warm Flashlight Cone -->
+    <linearGradient id="lightCone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#fde047" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#fde047" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Atmospheric Glow & Stars -->
+  <rect width="240" height="240" rx="24" fill="url(#skyGlow)"/>
+  <circle cx="45" cy="40" r="1" fill="#94a3b8" opacity="0.6"/>
+  <circle cx="85" cy="25" r="1.5" fill="#f8fafc" opacity="0.8"/>
+  <circle cx="165" cy="35" r="1.2" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="205" cy="55" r="1" fill="#f8fafc" opacity="0.7"/>
+  <circle cx="120" cy="20" r="1" fill="#cbd5e1" opacity="0.6"/>
+
+  <!-- Distant Mountains (Back Layer) -->
+  <path d="M-10 160 L40 115 L95 150 L160 100 L210 135 L250 110 L250 180 L-10 180 Z" fill="#1b2a4a" opacity="0.7"/>
+
+  <!-- Mid-ground Wilderness (Hills & Dead Trees/Bushes) -->
+  <path d="M-10 170 C40 150, 90 155, 140 165 C180 172, 210 160, 250 168 L250 200 L-10 200 Z" fill="#243456"/>
+
+  <!-- Spooky/Wasteland Dead Trees & Rocks -->
+  <!-- Left dead tree -->
+  <path d="M35 165 L32 135 L22 120 M32 135 L42 125 M27 150 L18 142" stroke="#162238" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right thorny brush -->
+  <path d="M195 172 L202 155 M198 172 L190 158 M201 163 L212 158" stroke="#162238" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Boulder -->
+  <path d="M175 168 C172 162, 185 158, 192 164 C198 170, 182 178, 175 168 Z" fill="#2a3d60"/>
+
+  <!-- Foreground Ground (Wasteland Terrain) -->
+  <path d="M-10 185 C50 175, 130 180, 250 182 L250 240 L-10 240 Z" fill="#0f172a"/>
+  
+  <!-- Terrain details (cracks/grass tufts) -->
+  <path d="M60 195 L68 193 M63 198 L65 195" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M140 205 L145 200 M143 206 L148 203" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M190 192 C195 188, 205 188, 210 193" stroke="#1e293b" stroke-width="2" fill="none"/>
+
+  <!-- FLASHLIGHT BEAM (Projecting from characters) -->
+  <polygon points="110,145 220,110 235,175" fill="url(#lightCone)"/>
+  
+  <!-- Ground illumination from flashlight -->
+  <ellipse cx="190" cy="185" rx="35" ry="8" fill="#fde047" opacity="0.25"/>
+
+  <!-- LOST CHARACTERS (Two travelers in the wilderness) -->
+  
+  <!-- Character 1: Leader holding map & flashlight (Left) -->
+  <g transform="translate(95, 120)">
+    <!-- Backpack -->
+    <rect x="-6" y="10" width="12" height="18" rx="3" fill="#0284c7"/>
+    <!-- Body/Jacket -->
+    <path d="M-5 12 L5 12 L7 28 L-7 28 Z" fill="#0284c7"/>
+    <path d="M-5 12 L0 25 L5 12" fill="#0369a1"/>
+    <!-- Head -->
+    <circle cx="0" cy="4" r="7" fill="#fed7aa"/>
+    <!-- Hair / Cap -->
+    <path d="M-7 2 C-7 -1, 7 -1, 7 4 L-7 4 Z" fill="#0f172a"/>
+    <rect x="0" y="0" width="8" height="3" rx="1" fill="#0f172a"/>
+    <!-- Arm & Flashlight -->
+    <path d="M5 14 L18 20" stroke="#0284c7" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="19" cy="20.5" r="3" fill="#fef08a"/>
+    <!-- Other arm holding map -->
+    <path d="M-5 14 L-12 22" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Map prop (paper sheet) -->
+    <polygon points="-16,20 -10,18 -6,24 -12,26" fill="#fef3c7" stroke="#d97706" stroke-width="0.7"/>
+    <!-- Legs -->
+    <path d="M-3 28 L-4 44 M3 28 L4 42" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+    <!-- Shoes -->
+    <ellipse cx="-5" cy="45" rx="3" ry="1.5" fill="#1e293b"/>
+    <ellipse cx="5" cy="43" rx="3" ry="1.5" fill="#1e293b"/>
+  </g>
+
+  <!-- Character 2: Worried companion looking around (Right) -->
+  <g transform="translate(130, 123)">
+    <!-- Backpack -->
+    <rect x="2" y="9" width="11" height="17" rx="3" fill="#db2777"/>
+    <!-- Body/Jacket -->
+    <path d="M-4 11 L6 11 L4 27 L-6 27 Z" fill="#e11d48"/>
+    <!-- Head -->
+    <circle cx="-1" cy="3" r="6.5" fill="#fed7aa"/>
+    <!-- Hair (Ponytail/Bun) -->
+    <circle cx="4" cy="1" r="3" fill="#451a03"/>
+    <path d="M-7 1 C-5 -3, 3 -3, 6 2 L-7 2 Z" fill="#451a03"/>
+    <!-- Concerned Arms (hands near face) -->
+    <path d="M-4 13 L-10 19 L-6 21" stroke="#e11d48" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Legs -->
+    <path d="M-3 27 L-2 43 M3 27 L5 42" stroke="#334155" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Shoes -->
+    <ellipse cx="-3" cy="44" rx="2.5" ry="1.5" fill="#1e293b"/>
+    <ellipse cx="6" cy="43" rx="2.5" ry="1.5" fill="#1e293b"/>
+  </g>
+
+  <!-- Question mark / confusion icon floating subtly near them -->
+  <g transform="translate(142, 105)" opacity="0.85">
+    <path d="M0 6 C0 2, 6 2, 6 -2 C6 -6, 0 -6, -2 -3" stroke="#f43f5e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <circle cx="-2" cy="3" r="1.2" fill="#f43f5e"/>
+  </g>
+
+  <!-- Vignette / Border frame subtle overlay for Polish -->
+  <rect width="240" height="240" rx="24" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.15"/>
+</svg>

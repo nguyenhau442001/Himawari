@@ -16367,6 +16367,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/环节.svg",
     "caption": "khâu, mắt xích"
   },
+  "环绕": {
+    "file": "环绕.svg",
+    "src": "images/HSK_2.0/level6/环绕.svg",
+    "caption": "bao quanh"
+  },
+  "环保": {
+    "file": "环保.svg",
+    "src": "images/HSK_2.0/level6/环保.svg",
+    "caption": "bảo vệ môi trường"
+  },
+  "缓和": {
+    "file": "缓和.svg",
+    "src": "images/HSK_2.0/level6/缓和.svg",
+    "caption": "hòa hoãn, dịu lại"
+  },
+  "幻觉": {
+    "file": "幻觉.svg",
+    "src": "images/HSK_2.0/level6/幻觉.svg",
+    "caption": "ảo giác"
+  },
+  "慌忙": {
+    "file": "慌忙.svg",
+    "src": "images/HSK_2.0/level6/慌忙.svg",
+    "caption": "vội vàng hoảng hốt"
+  },
+  "荒诞": {
+    "file": "荒诞.svg",
+    "src": "images/HSK_2.0/level6/荒诞.svg",
+    "caption": "hoang đường, vô lý"
+  },
+  "荒凉": {
+    "file": "荒凉.svg",
+    "src": "images/HSK_2.0/level6/荒凉.svg",
+    "caption": "hoang vắng"
+  },
+  "荒谬": {
+    "file": "荒谬.svg",
+    "src": "images/HSK_2.0/level6/荒谬.svg",
+    "caption": "phi lý, vô lý"
+  },
+  "荒野": {
+    "file": "荒野.svg",
+    "src": "images/HSK_2.0/level6/荒野.svg",
+    "caption": "hoang dã, đồng hoang"
+  },
+  "皇后": {
+    "file": "皇后.svg",
+    "src": "images/HSK_2.0/level6/皇后.svg",
+    "caption": "hoàng hậu"
+  },
   "记载": {
     "file": "记载.svg",
     "src": "images/HSK_2.0/level6/记载.svg",

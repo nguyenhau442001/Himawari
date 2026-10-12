@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:51:06.747790",
-  "total_unique_words_with_illustrations": 3889,
-  "total_flat_svg_files": 3889,
+  "generated_at": "2026-10-12T12:52:53.455894",
+  "total_unique_words_with_illustrations": 3899,
+  "total_flat_svg_files": 3899,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1249,
-        "pct": "50.0%"
+        "with_svg": 1259,
+        "pct": "50.4%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 609,
-        "pct": "60.9%"
+        "with_svg": 610,
+        "pct": "61.0%"
       },
       "level5": {
         "total": 1600,
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 523,
-        "pct": "9.3%"
+        "with_svg": 531,
+        "pct": "9.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 523,
-        "pct": "9.3%"
+        "with_svg": 531,
+        "pct": "9.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 523,
-        "pct": "9.3%"
+        "with_svg": 531,
+        "pct": "9.5%"
       }
     }
   },
@@ -60412,6 +60412,214 @@
       "src": "images/HSK_2.0/level6/环节.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/环节.svg"
+      ]
+    },
+    "环绕": {
+      "hanzi": "环绕",
+      "pinyin": "huánrào",
+      "meaning": "bao quanh",
+      "example_zh": "群山<u>环绕</u>着这个小镇。",
+      "example_vi": "Núi non <u>bao quanh</u> thị trấn nhỏ này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "环绕.svg",
+      "src": "images/HSK_2.0/level6/环绕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/环绕.svg",
+        "images/HSK_3.0/level8/环绕.svg",
+        "images/HSK_3.0/level9/环绕.svg"
+      ]
+    },
+    "环保": {
+      "hanzi": "环保",
+      "pinyin": "huánbǎo",
+      "meaning": "bảo vệ môi trường",
+      "example_zh": "这是一种<u>环保</u>材料。",
+      "example_vi": "Đây là một loại vật liệu <u>bảo vệ môi trường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "环保.svg",
+      "src": "images/HSK_2.0/level6/环保.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/环保.svg"
+      ]
+    },
+    "缓和": {
+      "hanzi": "缓和",
+      "pinyin": "huǎnhé",
+      "meaning": "hòa hoãn, dịu lại",
+      "example_zh": "两国关系有所<u>缓和</u>。",
+      "example_vi": "Quan hệ hai nước có phần <u>dịu lại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "缓和.svg",
+      "src": "images/HSK_2.0/level6/缓和.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/缓和.svg",
+        "images/HSK_3.0/level8/缓和.svg",
+        "images/HSK_3.0/level9/缓和.svg"
+      ]
+    },
+    "幻觉": {
+      "hanzi": "幻觉",
+      "pinyin": "huànjué",
+      "meaning": "ảo giác",
+      "example_zh": "他出现了<u>幻觉</u>。",
+      "example_vi": "Anh ấy xuất hiện <u>ảo giác</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "幻觉.svg",
+      "src": "images/HSK_2.0/level6/幻觉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/幻觉.svg",
+        "images/HSK_3.0/level8/幻觉.svg",
+        "images/HSK_3.0/level9/幻觉.svg"
+      ]
+    },
+    "慌忙": {
+      "hanzi": "慌忙",
+      "pinyin": "huāngmáng",
+      "meaning": "vội vàng hoảng hốt",
+      "example_zh": "他<u>慌忙</u>跑出去了。",
+      "example_vi": "Anh ấy <u>vội vàng hoảng hốt</u> chạy ra ngoài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "慌忙.svg",
+      "src": "images/HSK_2.0/level6/慌忙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/慌忙.svg",
+        "images/HSK_3.0/level8/慌忙.svg",
+        "images/HSK_3.0/level9/慌忙.svg"
+      ]
+    },
+    "荒诞": {
+      "hanzi": "荒诞",
+      "pinyin": "huāngdàn",
+      "meaning": "hoang đường, vô lý",
+      "example_zh": "这个故事太<u>荒诞</u>了。",
+      "example_vi": "Câu chuyện này quá <u>hoang đường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "荒诞.svg",
+      "src": "images/HSK_2.0/level6/荒诞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/荒诞.svg",
+        "images/HSK_3.0/level8/荒诞.svg",
+        "images/HSK_3.0/level9/荒诞.svg"
+      ]
+    },
+    "荒凉": {
+      "hanzi": "荒凉",
+      "pinyin": "huāngliáng",
+      "meaning": "hoang vắng",
+      "example_zh": "这片土地非常<u>荒凉</u>。",
+      "example_vi": "Vùng đất này rất <u>hoang vắng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "荒凉.svg",
+      "src": "images/HSK_2.0/level6/荒凉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/荒凉.svg",
+        "images/HSK_3.0/level8/荒凉.svg",
+        "images/HSK_3.0/level9/荒凉.svg"
+      ]
+    },
+    "荒谬": {
+      "hanzi": "荒谬",
+      "pinyin": "huāngmiù",
+      "meaning": "phi lý, vô lý",
+      "example_zh": "这种说法十分<u>荒谬</u>。",
+      "example_vi": "Cách nói này hết sức <u>phi lý</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "荒谬.svg",
+      "src": "images/HSK_2.0/level6/荒谬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/荒谬.svg",
+        "images/HSK_3.0/level8/荒谬.svg",
+        "images/HSK_3.0/level9/荒谬.svg"
+      ]
+    },
+    "荒野": {
+      "hanzi": "荒野",
+      "pinyin": "huāngyě",
+      "meaning": "hoang dã, đồng hoang",
+      "example_zh": "他们在<u>荒野</u>中迷路了。",
+      "example_vi": "Họ bị lạc trong <u>đồng hoang</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "荒野.svg",
+      "src": "images/HSK_2.0/level6/荒野.svg",
+      "alt_srcs": []
+    },
+    "皇后": {
+      "hanzi": "皇后",
+      "pinyin": "huánghòu",
+      "meaning": "hoàng hậu",
+      "example_zh": "<u>皇后</u>住在皇宫里。",
+      "example_vi": "<u>Hoàng hậu</u> sống trong hoàng cung.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "皇后.svg",
+      "src": "images/HSK_2.0/level6/皇后.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/皇后.svg",
+        "images/HSK_3.0/level8/皇后.svg",
+        "images/HSK_3.0/level9/皇后.svg"
       ]
     },
     "记载": {

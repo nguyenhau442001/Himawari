@@ -1,0 +1,119 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="boardClip">
+      <rect x="70" y="55" width="100" height="65" rx="4" />
+    </clipPath>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+  <rect width="240" height="240" fill="url(#lampGlow)" />
+
+  <!-- Office Interior Environment -->
+  <!-- Wallpaper / Back Wall -->
+  <rect x="20" y="30" width="200" height="130" rx="6" fill="#334155" opacity="0.3" />
+  
+  <!-- Window showing night city/stars -->
+  <rect x="180" y="45" width="40" height="70" rx="4" fill="#0f172a" />
+  <circle cx="195" cy="65" r="1" fill="#f8fafc" opacity="0.8" />
+  <circle cx="210" cy="85" r="1.5" fill="#f8fafc" opacity="0.9" />
+  <circle cx="190" cy="100" r="1" fill="#f8fafc" opacity="0.7" />
+  <path d="M180 80 H220 M200 45 V115" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Presentation Whiteboard -->
+  <rect x="65" y="50" width="110" height="75" rx="6" fill="#f8fafc" />
+  <rect x="70" y="55" width="100" height="65" rx="4" fill="#ffffff" />
+  <!-- Stand for whiteboard -->
+  <path d="M100 125 L90 160 M140 125 L150 160" stroke="#64748b" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Absurd drawing on whiteboard representing "荒谬" (Fish flying with umbrella & rocket shoes) -->
+  <g clip-path="url(#boardClip)">
+    <!-- Sky & absurd elements -->
+    <path d="M120 75 Q135 60 150 75" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" />
+    <!-- Flying Fish -->
+    <ellipse cx="120" cy="85" rx="14" ry="8" fill="#fb923c" />
+    <path d="M106 85 L98 78 L98 92 Z" fill="#fb923c" />
+    <circle cx="127" cy="83" r="2" fill="#0f172a" />
+    <!-- Umbrella over fish -->
+    <path d="M105 72 Q120 62 135 72 Z" fill="#ec4899" />
+    <path d="M120 72 V80" stroke="#475569" stroke-width="1.5" />
+    <!-- Rocket boots on fish -->
+    <rect x="112" y="93" width="4" height="6" rx="1" fill="#64748b" />
+    <path d="M114 99 L114 104" stroke="#ef4444" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Meeting Table -->
+  <path d="M40 165 H200 L185 195 H55 Z" fill="#475569" />
+  <path d="M45 165 H195 V170 H45 Z" fill="#64748b" />
+  <!-- Table props: Laptop, Coffee Mug, Documents -->
+  <rect x="145" y="155" width="24" height="14" rx="2" fill="#cbd5e1" />
+  <path d="M140 169 H174" stroke="#94a3b8" stroke-width="1.5" />
+  <circle cx="65" cy="162" r="5" fill="#f43f5e" /> <!-- Coffee mug -->
+  <rect x="75" y="158" width="16" height="12" rx="1" fill="#f1f5f9" /> <!-- Papers -->
+
+  <!-- Character 1: Skeptical/Disbelieving Colleague (Left) -->
+  <g transform="translate(15, 110)">
+    <!-- Body / Torso -->
+    <path d="M25 60 C25 45 45 45 45 60 V80 H25 Z" fill="#3b82f6" />
+    <!-- Head -->
+    <circle cx="35" cy="30" rx="14" ry="15" fill="#fcd34d" />
+    <!-- Hair -->
+    <path d="M21 28 C21 18 49 18 49 28 C45 22 25 22 21 28 Z" fill="#1e293b" />
+    <!-- Face expression: Skeptical, hand on chin -->
+    <path d="M39 33 Q42 35 41 37" stroke="#b45309" stroke-width="1.5" fill="none" stroke-linecap="round" /> <!-- eyebrow raised -->
+    <circle cx="31" cy="31" r="1.5" fill="#1e293b" />
+    <circle cx="41" cy="31" r="1.5" fill="#1e293b" />
+    <path d="M35 40 Q37 42 39 40" stroke="#b45309" stroke-width="1.5" fill="none" stroke-linecap="round" /> <!-- skeptical mouth -->
+    <!-- Arm resting & hand on chin -->
+    <path d="M25 55 L15 70 L30 75" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="32" cy="70" r="5" fill="#fcd34d" />
+  </g>
+
+  <!-- Character 2: Presenter / Speaker looking perplexed/defensive (Right) -->
+  <g transform="translate(160, 100)">
+    <!-- Body / Torso -->
+    <path d="M25 70 C25 55 45 55 45 70 V90 H25 Z" fill="#10b981" />
+    <!-- Head -->
+    <circle cx="35" cy="40" rx="14" ry="15" fill="#ffedd5" />
+    <!-- Hair -->
+    <path d="M21 38 C23 25 47 25 49 38 C45 32 25 32 21 38 Z" fill="#b45309" />
+    <!-- Face expression: Wide eyes, open mouth explaining -->
+    <circle cx="29" cy="40" r="2" fill="#1e293b" />
+    <circle cx="41" cy="40" r="2" fill="#1e293b" />
+    <ellipse cx="35" cy="49" rx="3" ry="4" fill="#b45309" /> <!-- open mouth -->
+    <!-- Arms gesturing defensively/explaining -->
+    <path d="M25 65 L8 55" stroke="#10b981" stroke-width="7" stroke-linecap="round" />
+    <circle cx="6" cy="53" r="4" fill="#ffedd5" />
+    
+    <path d="M45 65 L55 55" stroke="#10b981" stroke-width="7" stroke-linecap="round" />
+    <circle cx="57" cy="53" r="4" fill="#ffedd5" />
+  </g>
+
+  <!-- Character 3: Center foreground seated colleague reacting with disbelief (Facepalm/Face-rub) -->
+  <g transform="translate(90, 115)">
+    <!-- Torso -->
+    <path d="M25 60 C25 45 55 45 55 60 V85 H25 Z" fill="#8b5cf6" />
+    <!-- Head -->
+    <circle cx="40" cy="32" rx="15" ry="16" fill="#fbcfe8" />
+    <!-- Hair -->
+    <path d="M25 30 C25 18 55 18 55 30 C50 22 30 22 25 30 Z" fill="#475569" />
+    <!-- Face & Handpalm gesture (Absurdity reaction) -->
+    <!-- Hand covering forehead/eyes -->
+    <path d="M30 35 C30 25 50 25 50 35 L45 42 L35 42 Z" fill="#fbcfe8" />
+    <path d="M32 30 H48" stroke="#db2777" stroke-width="1.5" stroke-linecap="round" /> <!-- fingers line -->
+    <!-- Mouth grimacing in disbelief -->
+    <path d="M37 45 Q40 43 43 45" stroke="#9d174d" stroke-width="1.5" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Ambient highlights & lighting -->
+  <circle cx="120" cy="20" r="4" fill="#fbbf24" opacity="0.6" />
+  <path d="M120 24 V50" stroke="#fbbf24" stroke-width="1" stroke-dasharray="2 2" opacity="0.4" />
+</svg>
