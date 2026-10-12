@@ -62,22 +62,16 @@ def get_api_keys(cli_arg=""):
     return keys
 
 MODELS_TO_TRY = [
-    "gemini-3.5-flash",
-    "gemini-3.6-flash",
     "gemini-3.1-flash-lite",
     "gemini-3.5-flash-lite",
+    "gemini-3.5-flash",
+    "gemini-3.6-flash",
     "gemini-3-flash-preview",
     "gemini-2.5-flash",
 ]
 
-# Track exhausted (key_index, model) pairs for this session
-EXHAUSTED_KEY_MODELS = {
-    (0, "gemini-3.6-flash"),
-    (0, "gemini-3.1-flash-lite"),
-    (0, "gemini-3.5-flash-lite"),
-    (0, "gemini-3-flash-preview"),
-    (0, "gemini-2.5-flash"),
-}
+# Track exhausted (key_index, model) pairs dynamically for this session
+EXHAUSTED_KEY_MODELS = set()
 
 def guess_pos(meaning):
     m = (meaning or "").lower()
