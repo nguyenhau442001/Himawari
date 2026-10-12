@@ -8,8 +8,8 @@
 
     <!-- Glowing Screen Gradient -->
     <linearGradient id="screenGlow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.05" />
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
     </linearGradient>
 
     <!-- Warm Desk Light -->
@@ -41,8 +41,6 @@
     <path d="M 10 -3 C 11 -7, 15 -7, 16 -3" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
   </g>
 
-  <!-- MAIN SUBJECT: Translation Setup (Tablet/Device + Physical Documents) -->
-  
   <!-- Stack of Source Documents / Reference Books (Bottom Layer) -->
   <g transform="translate(45, 135) rotate(-6)" filter="url(#dropShadow)">
     <rect x="0" y="0" width="90" height="40" rx="3" fill="#e2e8f0" />
@@ -59,75 +57,136 @@
     <line x1="12" y1="30" x2="55" y2="32" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" />
   </g>
 
-  <!-- Central Tablet/Translator Device -->
-  <g transform="translate(52, 55)" filter="url(#dropShadow)">
-    <!-- Device Body (Dark Modern Frame) -->
-    <rect x="0" y="0" width="136" height="96" rx="10" fill="#334155" />
-    <rect x="4" y="4" width="128" height="88" rx="7" fill="#0f172a" />
+  <!-- Central Computer Monitor (Translator Device) -->
+  <g transform="translate(50, 54)" filter="url(#dropShadow)">
+    <!-- Monitor Outer Body Frame -->
+    <rect x="0" y="0" width="140" height="98" rx="8" fill="#334155" />
+    <rect x="3" y="3" width="134" height="92" rx="6" fill="#0f172a" />
     
-    <!-- Screen Content / Active Translation Interface -->
-    <rect x="8" y="8" width="120" height="80" rx="5" fill="url(#screenGlow)" />
+    <!-- Screen Display Area -->
+    <rect x="6" y="6" width="128" height="86" rx="4" fill="#090d16" />
+    <rect x="6" y="6" width="128" height="86" rx="4" fill="url(#screenGlow)" />
 
-    <!-- Split Screen UI representing translation (Source left, Target right) -->
-    <line x1="68" y1="12" x2="68" y2="84" stroke="#334155" stroke-dasharray="3 3" stroke-width="2" />
+    <!-- Application Window Titlebar / Navigation Header -->
+    <rect x="6" y="6" width="128" height="16" rx="4" fill="#1e293b" />
+    <line x1="6" y1="22" x2="134" y2="22" stroke="#334155" stroke-width="0.8" />
 
-    <!-- Source Language Side (Left) -->
-    <g transform="translate(16, 20)">
-      <!-- Waveform / Audio symbol -->
-      <rect x="0" y="5" width="4" height="12" rx="2" fill="#38bdf8" />
-      <rect x="7" y="2" width="4" height="18" rx="2" fill="#38bdf8" />
-      <rect x="14" y="8" width="4" height="6" rx="2" fill="#38bdf8" />
-      <!-- Text Blocks (Abstracted lines) -->
-      <rect x="0" y="32" width="38" height="5" rx="2.5" fill="#e2e8f0" />
-      <rect x="0" y="42" width="26" height="5" rx="2.5" fill="#94a3b8" />
+    <!-- Mac-style Window Controls -->
+    <circle cx="13" cy="14" r="2" fill="#ef4444" />
+    <circle cx="19" cy="14" r="2" fill="#f59e0b" />
+    <circle cx="25" cy="14" r="2" fill="#10b981" />
+
+    <!-- Language Selector Bar (VI -> CN) -->
+    <!-- Source Language Tab: VI -->
+    <rect x="38" y="9.5" width="27" height="9.5" rx="3" fill="#0f172a" stroke="#dc2626" stroke-width="0.8" />
+    <!-- Vietnamese Flag Icon: Red field with yellow star -->
+    <rect x="40.5" y="11.5" width="6.5" height="5.5" rx="0.8" fill="#dc2626" />
+    <polygon points="43.75,12.2 44.15,13.2 45.15,13.2 44.35,13.8 44.65,14.8 43.75,14.2 42.85,14.8 43.15,13.8 42.35,13.2 43.35,13.2" fill="#facc15" />
+    <text x="49" y="16.5" font-family="system-ui, -apple-system, sans-serif" font-size="5.5" font-weight="bold" fill="#f8fafc">VI</text>
+
+    <!-- Exchange / Translate Arrows in Header -->
+    <g transform="translate(69, 14.2)">
+      <path d="M -3 -1.5 L 3 -1.5 M 1.5 -3 L 3 -1.5 L 1.5 0" fill="none" stroke="#38bdf8" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 3 1.5 L -3 1.5 M -1.5 0 L -3 1.5 L -1.5 3" fill="none" stroke="#fbbf24" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 
-    <!-- Target Language Side (Right) -->
-    <g transform="translate(78, 20)">
-      <!-- Glowing Target Indicator -->
-      <circle cx="8" cy="11" r="8" fill="#10b981" opacity="0.2" />
-      <circle cx="8" cy="11" r="4" fill="#10b981" />
-      <!-- Text Blocks (Abstracted lines) -->
-      <rect x="0" y="32" width="42" height="5" rx="2.5" fill="#34d399" />
-      <rect x="0" y="42" width="30" height="5" rx="2.5" fill="#6ee7b7" />
+    <!-- Target Language Tab: CN -->
+    <rect x="75" y="9.5" width="27" height="9.5" rx="3" fill="#0f172a" stroke="#eab308" stroke-width="0.8" />
+    <!-- Chinese Flag Icon: Red field with gold star -->
+    <rect x="77.5" y="11.5" width="6.5" height="5.5" rx="0.8" fill="#dc2626" />
+    <polygon points="79.7,12.3 80,13.1 80.8,13.1 80.1,13.5 80.4,14.3 79.7,13.8 79,14.3 79.3,13.5 78.6,13.1 79.4,13.1" fill="#facc15" />
+    <text x="86" y="16.5" font-family="system-ui, -apple-system, sans-serif" font-size="5.5" font-weight="bold" fill="#f8fafc">CN</text>
+
+    <!-- SPLIT TRANSLATION PANES -->
+    <!-- Left Pane: Source (Tiếng Việt) -->
+    <rect x="10" y="26" width="57" height="61" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
+    <!-- Header inside pane -->
+    <text x="15" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="4.5" font-weight="600" fill="#94a3b8">Tiếng Việt</text>
+    
+    <!-- Source Text content -->
+    <text x="15" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#f8fafc">Xin chào</text>
+    <rect x="15" y="50" width="46" height="2.5" rx="1.25" fill="#475569" opacity="0.5" />
+    <rect x="15" y="55" width="32" height="2.5" rx="1.25" fill="#475569" opacity="0.35" />
+
+    <!-- Waveform / Microphone input indicator -->
+    <g transform="translate(15, 63)">
+      <rect x="0" y="2" width="1.6" height="6" rx="0.8" fill="#38bdf8" />
+      <rect x="3.5" y="0" width="1.6" height="10" rx="0.8" fill="#38bdf8" />
+      <rect x="7" y="3" width="1.6" height="4" rx="0.8" fill="#38bdf8" />
+      <rect x="10.5" y="1" width="1.6" height="8" rx="0.8" fill="#38bdf8" />
+      <rect x="14" y="3" width="1.6" height="4" rx="0.8" fill="#38bdf8" />
     </g>
 
-    <!-- Connecting Dynamic Flow Arrow across languages -->
-    <path d="M 52 48 C 58 42, 62 42, 68 48" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" />
-    <polygon points="68,45 74,48 68,51" fill="#f59e0b" />
+    <!-- Audio speaker button on bottom-left -->
+    <g transform="translate(15, 79)">
+      <path d="M 0 1.5 L 2 1.5 L 4.5 0 L 4.5 5 L 2 3.5 L 0 3.5 Z" fill="#94a3b8" />
+      <path d="M 6 1 C 7.2 1.8, 7.2 3.2, 6 4" fill="none" stroke="#94a3b8" stroke-width="0.7" stroke-linecap="round" />
+    </g>
 
-    <!-- Tablet Stand -->
-    <path d="M 50 96 L 86 96 L 94 104 L 42 104 Z" fill="#1e293b" />
+    <!-- Right Pane: Target (中文 - Chinese) -->
+    <rect x="73" y="26" width="57" height="61" rx="4" fill="#0f172a" stroke="#0284c7" stroke-width="0.9" />
+    <!-- Header inside target pane -->
+    <text x="78" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="4.5" font-weight="600" fill="#38bdf8">中文</text>
+
+    <!-- Target Translated Text -->
+    <text x="78" y="46" font-family="'PingFang SC', 'Microsoft YaHei', 'SimHei', system-ui, sans-serif" font-size="9" font-weight="bold" fill="#38bdf8">你好</text>
+    <text x="78" y="54" font-family="system-ui, -apple-system, sans-serif" font-size="5" font-weight="600" fill="#34d399">nǐ hǎo</text>
+    
+    <!-- Translation subtext lines -->
+    <rect x="78" y="58" width="46" height="2.5" rx="1.25" fill="#0ea5e9" opacity="0.4" />
+    <rect x="78" y="63" width="30" height="2.5" rx="1.25" fill="#0ea5e9" opacity="0.25" />
+
+    <!-- Speaker / Sound icon on bottom-right -->
+    <g transform="translate(78, 79)">
+      <path d="M 0 1.5 L 2 1.5 L 4.5 0 L 4.5 5 L 2 3.5 L 0 3.5 Z" fill="#38bdf8" />
+      <path d="M 6 0.8 C 7.2 1.8, 7.2 3.2, 6 4.2" fill="none" stroke="#38bdf8" stroke-width="0.7" stroke-linecap="round" />
+    </g>
+    <!-- Copy icon on bottom-right -->
+    <g transform="translate(120, 78)">
+      <rect x="0" y="1" width="4" height="4.5" rx="0.7" fill="none" stroke="#38bdf8" stroke-width="0.7" />
+      <path d="M 1.5 1 L 1.5 0 L 5 0 L 5 3.5 L 4 3.5" fill="none" stroke="#38bdf8" stroke-width="0.7" stroke-linejoin="round" />
+    </g>
+
+    <!-- Central Interactive Translate Badge between panels -->
+    <g transform="translate(70, 54)">
+      <circle cx="0" cy="0" r="5" fill="#1e293b" stroke="#f59e0b" stroke-width="0.9" />
+      <path d="M -2 -1.5 L 2 -1.5 M 0.5 -3 L 2 -1.5 L 0.5 0" fill="none" stroke="#f59e0b" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 2 1.5 L -2 1.5 M -0.5 0 L -2 1.5 L -0.5 3" fill="none" stroke="#38bdf8" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Monitor Stand -->
+    <path d="M 56 98 L 84 98 L 92 107 L 48 107 Z" fill="#1e293b" />
+    <path d="M 64 98 L 76 98 L 76 101 L 64 101 Z" fill="#334155" />
   </g>
 
-  <!-- ACTION/INTERACTION ELEMENTS (Floating translation symbols & sparks) -->
-  <!-- Floating Translation Nodes -->
+  <!-- ACTION / FLOATING HIGHLIGHT ELEMENTS -->
+  <!-- Left Floating Exchange Badge -->
   <g transform="translate(35, 60)" filter="url(#dropShadow)">
     <circle cx="0" cy="0" r="12" fill="#fb923c" opacity="0.9" />
-    <!-- Stylized exchange arrows inside node -->
     <path d="M -4 -3 L 4 -3 L 1 -6 M 4 -3 L 1 0" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M 4 3 L -4 3 L -1 6 M -4 3 L -1 0" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
+  <!-- Right Floating Speech Bubble -->
   <g transform="translate(205, 75)" filter="url(#dropShadow)">
     <circle cx="0" cy="0" r="14" fill="#38bdf8" opacity="0.9" />
-    <!-- Stylized speech bubble icon -->
     <path d="M -5 -3 C -5 -6, 5 -6, 5 -3 C 5 0, 2 2, 0 5 L -3 3 L -5 3 Z" fill="#fff" />
   </g>
 
+  <!-- Top Right Checkmark Badge -->
   <g transform="translate(190, 35)">
     <circle cx="0" cy="0" r="8" fill="#10b981" opacity="0.8" />
     <path d="M -3 0 L -1 2 L 4 -3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
-  <!-- Magical / Tech Sparkles -->
+  <!-- Ambient Sparkles (positioned outside monitor area) -->
   <g fill="#fbbf24">
-    <!-- Star 1 -->
-    <path d="M 30 35 C 30 35, 30 42, 33 42 C 36 42, 36 35, 36 35 C 36 35, 42 35, 42 32 C 42 29, 36 29, 36 29 C 36 29, 30 29, 30 32 C 30 35, 30 35, 30 35 Z" transform="scale(0.6) translate(10, 10)" />
-    <!-- Star 2 -->
-    <path d="M 200 120 C 200 120, 200 126, 203 126 C 206 126, 206 120, 206 120 C 206 120, 212 120, 212 117 C 212 114, 206 114, 206 114 C 206 114, 200 114, 200 117 C 200 120, 200 120, 200 120 Z" transform="scale(0.8) translate(5, 5)" />
+    <!-- Top-left sparkle -->
+    <path d="M 26 26 C 26 26, 26 31, 28 31 C 30 31, 30 26, 30 26 C 30 26, 35 26, 35 24 C 35 22, 30 22, 30 22 C 30 22, 30 17, 28 17 C 26 17, 26 22, 26 22 C 26 22, 21 22, 21 24 C 21 26, 26 26, 26 26 Z" />
+    <!-- Bottom-right ambient sparkle -->
+    <path d="M 215 125 C 215 125, 215 130, 217 130 C 219 130, 219 125, 219 125 C 219 125, 224 125, 224 123 C 224 121, 219 121, 219 121 C 219 121, 219 116, 217 116 C 215 116, 215 121, 215 121 C 215 121, 210 121, 210 123 C 210 125, 215 125, 215 125 Z" />
   </g>
 
-  <!-- Accent Lighting / Rim Glow on Tablet -->
-  <rect x="56" y="59" width="128" height="2" fill="#38bdf8" opacity="0.4" rx="1" />
+  <!-- Accent Rim Lighting on Top Edge of Monitor -->
+  <rect x="54" y="56" width="132" height="1.5" fill="#38bdf8" opacity="0.5" rx="0.75" />
 </svg>
