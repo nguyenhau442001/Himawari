@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:23:20.701221",
-  "total_unique_words_with_illustrations": 3070,
-  "total_flat_svg_files": 3070,
+  "generated_at": "2026-10-12T09:26:14.775694",
+  "total_unique_words_with_illustrations": 3080,
+  "total_flat_svg_files": 3080,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 564,
-        "pct": "22.6%"
+        "with_svg": 568,
+        "pct": "22.7%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1451,
-        "pct": "90.7%"
+        "with_svg": 1461,
+        "pct": "91.3%"
       },
       "level6": {
         "total": 1800,
@@ -47862,6 +47862,78 @@
         "images/HSK_3.0/level5/现状.svg"
       ]
     },
+    "协议": {
+      "hanzi": "协议",
+      "pinyin": "xiéyì",
+      "meaning": "thỏa thuận, hiệp định",
+      "example_zh": "双方签订了合作<u>协议</u>。",
+      "example_vi": "Hai bên đã ký <u>thỏa thuận</u> hợp tác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "协议.svg",
+      "src": "images/HSK_2.0/level6/协议.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/协议.svg"
+      ]
+    },
+    "新郎": {
+      "hanzi": "新郎",
+      "pinyin": "xīnláng",
+      "meaning": "chú rể",
+      "example_zh": "<u>新郎</u>正在等待新娘。",
+      "example_vi": "<u>Chú rể</u> đang đợi cô dâu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "新郎.svg",
+      "src": "images/HSK_2.0/level6/新郎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/新郎.svg"
+      ]
+    },
+    "新娘": {
+      "hanzi": "新娘",
+      "pinyin": "xīnniáng",
+      "meaning": "cô dâu",
+      "example_zh": "<u>新娘</u>穿着一身白色婚纱。",
+      "example_vi": "<u>Cô dâu</u> mặc một bộ váy cưới màu trắng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "新娘.svg",
+      "src": "images/HSK_2.0/level6/新娘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/新娘.svg"
+      ]
+    },
+    "心态": {
+      "hanzi": "心态",
+      "pinyin": "xīntài",
+      "meaning": "tâm thế, trạng thái tâm lý",
+      "example_zh": "保持良好的<u>心态</u>很重要。",
+      "example_vi": "Giữ <u>tâm thế</u> tốt là rất quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "心态.svg",
+      "src": "images/HSK_2.0/level6/心态.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/心态.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -54508,6 +54580,90 @@
       ],
       "file": "相册.svg",
       "src": "images/HSK_3.0/level5/相册.svg",
+      "alt_srcs": []
+    },
+    "向上": {
+      "hanzi": "向上",
+      "pinyin": "xiàngshàng",
+      "meaning": "hướng lên trên, vươn lên",
+      "example_zh": "青少年应当树立积极<u>向上</u>的人生态度。",
+      "example_vi": "Thanh thiếu niên cần xây dựng thái độ sống tích cực <u>vươn lên</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "向上.svg",
+      "src": "images/HSK_3.0/level5/向上.svg",
+      "alt_srcs": []
+    },
+    "消费者": {
+      "hanzi": "消费者",
+      "pinyin": "xiāofèizhě",
+      "meaning": "người tiêu dùng",
+      "example_zh": "<u>消费者</u>抵制这种产品",
+      "example_vi": "Người tiêu dùng tẩy chay loại sản phẩm này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "消费者.svg",
+      "src": "images/HSK_3.0/level5/消费者.svg",
+      "alt_srcs": []
+    },
+    "销量": {
+      "hanzi": "销量",
+      "pinyin": "xiāoliàng",
+      "meaning": "doanh số bán hàng",
+      "example_zh": "<u>销量</u>逐年递增",
+      "example_vi": "Doanh số tăng dần theo từng năm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "销量.svg",
+      "src": "images/HSK_3.0/level5/销量.svg",
+      "alt_srcs": []
+    },
+    "小型": {
+      "hanzi": "小型",
+      "pinyin": "xiǎoxíng",
+      "meaning": "cỡ nhỏ, loại nhỏ, mini",
+      "example_zh": "他们举办了一场<u>小型</u>的家庭聚会。",
+      "example_vi": "Họ đã tổ chức một buổi tụ họp gia đình <u>quy mô nhỏ</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "小型.svg",
+      "src": "images/HSK_3.0/level5/小型.svg",
+      "alt_srcs": []
+    },
+    "小于": {
+      "hanzi": "小于",
+      "pinyin": "xiǎoyú",
+      "meaning": "nhỏ hơn, bé hơn (<)",
+      "example_zh": "十<u>小于</u>二十是基础数学常识。",
+      "example_vi": "Mười <u>nhỏ hơn</u> hai mươi là kiến thức toán học cơ bản.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "小于.svg",
+      "src": "images/HSK_3.0/level5/小于.svg",
+      "alt_srcs": []
+    },
+    "新人": {
+      "hanzi": "新人",
+      "pinyin": "xīnrén",
+      "meaning": "người mới (trong công ty); cô dâu chú rể",
+      "example_zh": "作为职场<u>新人</u>，要多向有经验的同事请教。",
+      "example_vi": "Là một <u>người mới</u> đi làm, cần học hỏi nhiều từ các đồng nghiệp có kinh nghiệm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "新人.svg",
+      "src": "images/HSK_3.0/level5/新人.svg",
       "alt_srcs": []
     }
   }

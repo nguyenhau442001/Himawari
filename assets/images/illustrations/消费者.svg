@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Store Shelf -->
+  <rect x="30" y="60" width="180" height="10" fill="#334155"/>
+  <rect x="40" y="70" width="30" height="40" fill="#fb923c"/>
+  <rect x="105" y="70" width="30" height="40" fill="#fb923c"/>
+  <rect x="170" y="70" width="30" height="40" fill="#fb923c"/>
+  
+  <!-- Consumer Character -->
+  <g transform="translate(60, 120)">
+    <!-- Body -->
+    <path d="M20 100 L80 100 L70 40 L30 40 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="50" cy="30" r="20" fill="#fde68a"/>
+    <!-- Arm reaching out -->
+    <path d="M75 50 L110 70" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hand gesture: Stop/Reject -->
+    <circle cx="120" cy="75" r="10" fill="#ec4899"/>
+  </g>
+  
+  <!-- Reject Symbol (Stylized X) -->
+  <g stroke="#ef4444" stroke-width="6" stroke-linecap="round">
+    <line x1="110" y1="65" x2="130" y2="85"/>
+    <line x1="130" y1="65" x2="110" y2="85"/>
+  </g>
+  
+  <!-- Floor -->
+  <rect x="0" y="210" width="240" height="30" fill="#0f172a"/>
+  <line x1="0" y1="210" x2="240" y2="210" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Ambient lighting -->
+  <circle cx="180" cy="40" r="60" fill="#fbbf24" opacity="0.05"/>
+</svg>

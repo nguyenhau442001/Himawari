@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Office Desk -->
+  <path d="M30 160h180v10H30z" fill="#334155"/>
+  <path d="M40 170l-10 50h200l-10-50z" fill="#475569"/>
+  
+  <!-- Laptop -->
+  <rect x="70" y="130" width="60" height="40" rx="2" fill="#94a3b8"/>
+  <rect x="75" y="135" width="50" height="30" fill="#0f172a"/>
+  <rect x="70" y="170" width="60" height="5" rx="1" fill="#64748b"/>
+  
+  <!-- Experienced Colleague (Standing) -->
+  <g transform="translate(160, 80)">
+    <circle cx="20" cy="20" r="15" fill="#fbbf24"/>
+    <path d="M5 40h30v60h-30z" fill="#38bdf8"/>
+    <path d="M10 50h20v5h-20zM10 60h20v5h-20z" fill="#0f172a" opacity="0.2"/>
+    <path d="M15 100l-5 40M25 100l5 40" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- New Employee (Sitting) -->
+  <g transform="translate(60, 110)">
+    <circle cx="20" cy="20" r="15" fill="#ec4899"/>
+    <path d="M5 40h30v50h-30z" fill="#fb923c"/>
+    <path d="M15 50h10v5h-10z" fill="#0f172a" opacity="0.2"/>
+    <path d="M10 90l-5 30M30 90l5 30" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Interaction Element (Note/Paper) -->
+  <rect x="110" y="110" width="30" height="35" rx="2" fill="#f1f5f9"/>
+  <path d="M115 120h20M115 130h20M115 140h10" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Decorative Office Elements -->
+  <circle cx="200" cy="40" r="15" fill="#10b981" opacity="0.3"/>
+  <rect x="195" y="55" width="10" height="20" fill="#10b981" opacity="0.3"/>
+  <path d="M200 40l-5-10M200 40l5-10" stroke="#10b981" stroke-width="2" opacity="0.3"/>
+</svg>

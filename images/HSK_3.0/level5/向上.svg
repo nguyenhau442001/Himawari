@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Elements: Window and Cityscape -->
+  <rect x="30" y="30" width="180" height="120" rx="8" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M40 140 L80 90 L120 130 L160 80 L200 140 Z" fill="#334155"/>
+  <circle cx="180" cy="60" r="15" fill="#fbbf24"/>
+  
+  <!-- The Character: Youthful, looking upward/forward -->
+  <g transform="translate(120, 180)">
+    <!-- Body -->
+    <path d="M-20 40 C-20 20, 20 20, 20 40 L15 55 L-15 55 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="20" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-20 -15 C-20 -30, 20 -30, 20 -15 L15 -5 L0 -25 L-15 -5 Z" fill="#475569"/>
+    <!-- Upward Gaze/Gesture -->
+    <path d="M15 -5 L35 -25" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="38" cy="-28" r="4" fill="#fb923c"/>
+  </g>
+  
+  <!-- Symbolic "Growth" Elements -->
+  <path d="M40 200 Q60 160 80 200" stroke="#10b981" stroke-width="3" fill="none"/>
+  <path d="M50 190 L60 170 L70 190" fill="#10b981"/>
+  
+  <!-- Desk/Table surface -->
+  <rect x="0" y="200" width="240" height="40" fill="#0f172a"/>
+  <rect x="0" y="200" width="240" height="4" fill="#38bdf8"/>
+  
+  <!-- Books/Tools -->
+  <rect x="180" y="210" width="20" height="25" rx="2" fill="#ec4899"/>
+  <rect x="175" y="205" width="20" height="25" rx="2" fill="#f472b6"/>
+</svg>

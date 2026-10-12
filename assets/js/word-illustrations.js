@@ -13287,6 +13287,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/现状.svg",
     "caption": "hiện trạng"
   },
+  "协议": {
+    "file": "协议.svg",
+    "src": "images/HSK_2.0/level6/协议.svg",
+    "caption": "thỏa thuận, hiệp định"
+  },
+  "新郎": {
+    "file": "新郎.svg",
+    "src": "images/HSK_2.0/level6/新郎.svg",
+    "caption": "chú rể"
+  },
+  "新娘": {
+    "file": "新娘.svg",
+    "src": "images/HSK_2.0/level6/新娘.svg",
+    "caption": "cô dâu"
+  },
+  "心态": {
+    "file": "心态.svg",
+    "src": "images/HSK_2.0/level6/心态.svg",
+    "caption": "tâm thế, trạng thái tâm lý"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15651,6 +15671,36 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "相册.svg",
     "src": "images/HSK_3.0/level5/相册.svg",
     "caption": "cuốn album ảnh"
+  },
+  "向上": {
+    "file": "向上.svg",
+    "src": "images/HSK_3.0/level5/向上.svg",
+    "caption": "hướng lên trên, vươn lên"
+  },
+  "消费者": {
+    "file": "消费者.svg",
+    "src": "images/HSK_3.0/level5/消费者.svg",
+    "caption": "người tiêu dùng"
+  },
+  "销量": {
+    "file": "销量.svg",
+    "src": "images/HSK_3.0/level5/销量.svg",
+    "caption": "doanh số bán hàng"
+  },
+  "小型": {
+    "file": "小型.svg",
+    "src": "images/HSK_3.0/level5/小型.svg",
+    "caption": "cỡ nhỏ, loại nhỏ, mini"
+  },
+  "小于": {
+    "file": "小于.svg",
+    "src": "images/HSK_3.0/level5/小于.svg",
+    "caption": "nhỏ hơn, bé hơn (<)"
+  },
+  "新人": {
+    "file": "新人.svg",
+    "src": "images/HSK_3.0/level5/新人.svg",
+    "caption": "người mới (trong công ty); cô dâu chú rể"
   }
 };
 

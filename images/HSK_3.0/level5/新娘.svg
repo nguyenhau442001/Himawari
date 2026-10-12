@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Decor -->
+  <circle cx="120" cy="120" r="80" fill="#1e293b" stroke="#334155" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M60 200 Q120 160 180 200" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Bride -->
+  <g transform="translate(120, 130)">
+    <!-- Dress -->
+    <path d="M-40 0 L40 0 L60 80 L-60 80 Z" fill="#f8fafc"/>
+    <path d="M-40 0 C-40 -30, -20 -40, 0 -40 C20 -40, 40 -30, 40 0" fill="#f8fafc"/>
+    
+    <!-- Body/Arms -->
+    <circle cx="0" cy="-50" r="25" fill="#fde68a"/>
+    <path d="M-20 -30 L-35 10 M20 -30 L35 10" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Face -->
+    <circle cx="-8" cy="-55" r="2" fill="#1e293b"/>
+    <circle cx="8" cy="-55" r="2" fill="#1e293b"/>
+    <path d="M-5 -45 Q0 -42 5 -45" stroke="#ec4899" stroke-width="1" fill="none"/>
+    
+    <!-- Hair -->
+    <path d="M-25 -55 C-30 -80, 30 -80, 25 -55" fill="#fb923c"/>
+    <rect x="-20" y="-70" width="40" height="10" rx="2" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Accents -->
+  <circle cx="50" cy="50" r="4" fill="#38bdf8"/>
+  <circle cx="190" cy="70" r="3" fill="#10b981"/>
+  <circle cx="170" cy="180" r="5" fill="#ec4899"/>
+</svg>
