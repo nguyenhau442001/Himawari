@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:37:31.716572",
-  "total_unique_words_with_illustrations": 4370,
-  "total_flat_svg_files": 4370,
+  "generated_at": "2026-10-12T22:38:28.490421",
+  "total_unique_words_with_illustrations": 4375,
+  "total_flat_svg_files": 4375,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1730,
-        "pct": "69.2%"
+        "with_svg": 1735,
+        "pct": "69.4%"
       }
     },
     "hsk_3_0": {
@@ -68,17 +68,17 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 843,
+        "with_svg": 848,
         "pct": "15.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 843,
+        "with_svg": 848,
         "pct": "15.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 843,
+        "with_svg": 848,
         "pct": "15.1%"
       }
     }
@@ -70624,6 +70624,116 @@
       "src": "images/HSK_2.0/level6/牵.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/牵.svg"
+      ]
+    },
+    "牵扯": {
+      "hanzi": "牵扯",
+      "pinyin": "qiānchě",
+      "meaning": "liên quan, lôi kéo vào",
+      "example_zh": "这件事<u>牵扯</u>到很多人。",
+      "example_vi": "Việc này <u>liên quan</u> đến rất nhiều người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "牵扯.svg",
+      "src": "images/HSK_2.0/level6/牵扯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/牵扯.svg",
+        "images/HSK_3.0/level8/牵扯.svg",
+        "images/HSK_3.0/level9/牵扯.svg"
+      ]
+    },
+    "牵制": {
+      "hanzi": "牵制",
+      "pinyin": "qiānzhì",
+      "meaning": "kìm chế, kiềm chế",
+      "example_zh": "敌军被我们成功<u>牵制</u>住了。",
+      "example_vi": "Quân địch đã bị chúng ta <u>kìm chế</u> thành công.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "牵制.svg",
+      "src": "images/HSK_2.0/level6/牵制.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/牵制.svg",
+        "images/HSK_3.0/level8/牵制.svg",
+        "images/HSK_3.0/level9/牵制.svg"
+      ]
+    },
+    "千方百计": {
+      "hanzi": "千方百计",
+      "pinyin": "qiānfāngbǎijì",
+      "meaning": "trăm phương ngàn kế",
+      "example_zh": "他<u>千方百计</u>想解决这个问题。",
+      "example_vi": "Anh ấy <u>trăm phương ngàn kế</u> để giải quyết vấn đề này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "千方百计.svg",
+      "src": "images/HSK_2.0/level6/千方百计.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/千方百计.svg",
+        "images/HSK_3.0/level8/千方百计.svg",
+        "images/HSK_3.0/level9/千方百计.svg"
+      ]
+    },
+    "签署": {
+      "hanzi": "签署",
+      "pinyin": "qiānshǔ",
+      "meaning": "ký kết, ký tên",
+      "example_zh": "双方正式<u>签署</u>了协议。",
+      "example_vi": "Hai bên đã chính thức <u>ký kết</u> thỏa thuận.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "签署.svg",
+      "src": "images/HSK_2.0/level6/签署.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/签署.svg",
+        "images/HSK_3.0/level8/签署.svg",
+        "images/HSK_3.0/level9/签署.svg"
+      ]
+    },
+    "迁就": {
+      "hanzi": "迁就",
+      "pinyin": "qiānjiù",
+      "meaning": "nhường nhịn, thỏa hiệp",
+      "example_zh": "在原则问题上不能<u>迁就</u>。",
+      "example_vi": "Trong các vấn đề nguyên tắc không thể <u>thỏa hiệp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迁就.svg",
+      "src": "images/HSK_2.0/level6/迁就.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/迁就.svg",
+        "images/HSK_3.0/level8/迁就.svg",
+        "images/HSK_3.0/level9/迁就.svg"
       ]
     },
     "抢救": {

@@ -18877,6 +18877,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/牵.svg",
     "caption": "kéo, dắt"
   },
+  "牵扯": {
+    "file": "牵扯.svg",
+    "src": "images/HSK_2.0/level6/牵扯.svg",
+    "caption": "liên quan, lôi kéo vào"
+  },
+  "牵制": {
+    "file": "牵制.svg",
+    "src": "images/HSK_2.0/level6/牵制.svg",
+    "caption": "kìm chế, kiềm chế"
+  },
+  "千方百计": {
+    "file": "千方百计.svg",
+    "src": "images/HSK_2.0/level6/千方百计.svg",
+    "caption": "trăm phương ngàn kế"
+  },
+  "签署": {
+    "file": "签署.svg",
+    "src": "images/HSK_2.0/level6/签署.svg",
+    "caption": "ký kết, ký tên"
+  },
+  "迁就": {
+    "file": "迁就.svg",
+    "src": "images/HSK_2.0/level6/迁就.svg",
+    "caption": "nhường nhịn, thỏa hiệp"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
