@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T13:20:35.548303",
-  "total_unique_words_with_illustrations": 3979,
-  "total_flat_svg_files": 3979,
+  "generated_at": "2026-10-12T13:32:00.486944",
+  "total_unique_words_with_illustrations": 3989,
+  "total_flat_svg_files": 3989,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1339,
-        "pct": "53.6%"
+        "with_svg": 1349,
+        "pct": "54.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 478,
+        "with_svg": 479,
         "pct": "26.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 572,
-        "pct": "10.2%"
+        "with_svg": 580,
+        "pct": "10.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 572,
-        "pct": "10.2%"
+        "with_svg": 580,
+        "pct": "10.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 572,
-        "pct": "10.2%"
+        "with_svg": 580,
+        "pct": "10.4%"
       }
     }
   },
@@ -62285,6 +62285,214 @@
         "images/HSK_3.0/level8/浸泡.svg",
         "images/HSK_3.0/level9/浸泡.svg"
       ]
+    },
+    "茎": {
+      "hanzi": "茎",
+      "pinyin": "jīng",
+      "meaning": "thân (cây)",
+      "example_zh": "这种植物的<u>茎</u>很粗壮。",
+      "example_vi": "<u>Thân</u> của loài cây này rất to khỏe.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "茎.svg",
+      "src": "images/HSK_2.0/level6/茎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/茎.svg",
+        "images/HSK_3.0/level8/茎.svg",
+        "images/HSK_3.0/level9/茎.svg"
+      ]
+    },
+    "经费": {
+      "hanzi": "经费",
+      "pinyin": "jīngfèi",
+      "meaning": "kinh phí",
+      "example_zh": "这项研究需要更多<u>经费</u>。",
+      "example_vi": "Nghiên cứu này cần thêm <u>kinh phí</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "经费.svg",
+      "src": "images/HSK_2.0/level6/经费.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/经费.svg",
+        "images/HSK_3.0/level8/经费.svg",
+        "images/HSK_3.0/level9/经费.svg"
+      ]
+    },
+    "惊奇": {
+      "hanzi": "惊奇",
+      "pinyin": "jīngqí",
+      "meaning": "kinh ngạc, ngạc nhiên",
+      "example_zh": "大家都感到十分<u>惊奇</u>。",
+      "example_vi": "Mọi người đều cảm thấy rất <u>kinh ngạc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "惊奇.svg",
+      "src": "images/HSK_2.0/level6/惊奇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/惊奇.svg",
+        "images/HSK_3.0/level8/惊奇.svg",
+        "images/HSK_3.0/level9/惊奇.svg"
+      ]
+    },
+    "精打细算": {
+      "hanzi": "精打细算",
+      "pinyin": "jīng dǎ xì suàn",
+      "meaning": "tính toán chi li",
+      "example_zh": "她生活上很<u>精打细算</u>。",
+      "example_vi": "Cô ấy trong cuộc sống rất <u>tính toán chi li</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "精打细算.svg",
+      "src": "images/HSK_2.0/level6/精打细算.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/精打细算.svg",
+        "images/HSK_3.0/level8/精打细算.svg",
+        "images/HSK_3.0/level9/精打细算.svg"
+      ]
+    },
+    "精华": {
+      "hanzi": "精华",
+      "pinyin": "jīnghuá",
+      "meaning": "tinh hoa",
+      "example_zh": "这本书是他思想的<u>精华</u>。",
+      "example_vi": "Cuốn sách này là <u>tinh hoa</u> tư tưởng của ông ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "精华.svg",
+      "src": "images/HSK_2.0/level6/精华.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/精华.svg",
+        "images/HSK_3.0/level8/精华.svg",
+        "images/HSK_3.0/level9/精华.svg"
+      ]
+    },
+    "精简": {
+      "hanzi": "精简",
+      "pinyin": "jīngjiǎn",
+      "meaning": "tinh giản",
+      "example_zh": "公司决定<u>精简</u>人员。",
+      "example_vi": "Công ty quyết định <u>tinh giản</u> nhân sự.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "精简.svg",
+      "src": "images/HSK_2.0/level6/精简.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/精简.svg",
+        "images/HSK_3.0/level8/精简.svg",
+        "images/HSK_3.0/level9/精简.svg"
+      ]
+    },
+    "精密": {
+      "hanzi": "精密",
+      "pinyin": "jīngmì",
+      "meaning": "chính xác, tinh vi",
+      "example_zh": "这是一台<u>精密</u>仪器。",
+      "example_vi": "Đây là một thiết bị <u>tinh vi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "精密.svg",
+      "src": "images/HSK_2.0/level6/精密.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/精密.svg",
+        "images/HSK_3.0/level8/精密.svg",
+        "images/HSK_3.0/level9/精密.svg"
+      ]
+    },
+    "精确": {
+      "hanzi": "精确",
+      "pinyin": "jīngquè",
+      "meaning": "chính xác",
+      "example_zh": "数据非常<u>精确</u>。",
+      "example_vi": "Số liệu rất <u>chính xác</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "精确.svg",
+      "src": "images/HSK_2.0/level6/精确.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/精确.svg"
+      ]
+    },
+    "精益求精": {
+      "hanzi": "精益求精",
+      "pinyin": "jīng yì qiú jīng",
+      "meaning": "không ngừng hoàn thiện",
+      "example_zh": "他对工作<u>精益求精</u>。",
+      "example_vi": "Anh ấy <u>không ngừng hoàn thiện</u> trong công việc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "精益求精.svg",
+      "src": "images/HSK_2.0/level6/精益求精.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/精益求精.svg",
+        "images/HSK_3.0/level8/精益求精.svg",
+        "images/HSK_3.0/level9/精益求精.svg"
+      ]
+    },
+    "鲸鱼": {
+      "hanzi": "鲸鱼",
+      "pinyin": "jīngyú",
+      "meaning": "cá voi",
+      "example_zh": "<u>鲸鱼</u>是海洋中最大的动物。",
+      "example_vi": "<u>Cá voi</u> là động vật lớn nhất trong đại dương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "鲸鱼.svg",
+      "src": "images/HSK_2.0/level6/鲸鱼.svg",
+      "alt_srcs": []
     },
     "就业": {
       "hanzi": "就业",

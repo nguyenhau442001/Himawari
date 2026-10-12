@@ -1,0 +1,68 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1e293b"/>
+
+  <!-- Floor -->
+  <rect x="0" y="180" width="240" height="60" fill="#2d3a4e"/>
+
+  <!-- Wall details - subtle baseboard -->
+  <rect x="0" y="175" width="240" height="5" fill="#3a475c"/>
+
+  <!-- Large Screen/Display on the wall -->
+  <rect x="40" y="30" width="160" height="120" rx="8" fill="#0f172a"/>
+  <!-- Screen content - Ocean background gradient -->
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="44" y="34" width="152" height="112" rx="6" fill="url(#oceanGradient)"/>
+
+  <!-- The Whale - largest animal in the ocean, prominent on screen -->
+  <path d="M50 90 C60 70, 100 60, 150 70 C190 80, 200 95, 200 110 C200 125, 190 140, 150 130 C100 120, 60 105, 50 90 Z" fill="#94a3b8" stroke="#64748b" stroke-width="2"/>
+  <!-- Whale fluke (tail) -->
+  <path d="M195 100 C205 95, 210 105, 205 115 C195 120, 185 110, 195 100 Z" fill="#94a3b8" stroke="#64748b" stroke-width="2"/>
+  <!-- Whale pectoral fin -->
+  <path d="M120 130 C115 140, 125 145, 130 135 L120 130 Z" fill="#94a3b8" stroke="#64748b" stroke-width="1"/>
+  <!-- Whale eye -->
+  <circle cx="65" cy="85" r="2" fill="#0f172a"/>
+
+  <!-- Small fish for scale, emphasizing whale's size -->
+  <circle cx="70" cy="120" r="2" fill="#f59e0b"/>
+  <path d="M72 120 L75 119 L75 121 Z" fill="#f59e0b"/>
+  <circle cx="150" cy="80" r="2" fill="#f59e0b"/>
+  <path d="M152 80 L155 79 L155 81 Z" fill="#f59e0b"/>
+
+  <!-- Character (child) -->
+  <!-- Body -->
+  <rect x="100" y="130" width="40" height="50" rx="10" fill="#38bdf8"/>
+  <!-- Head -->
+  <circle cx="120" cy="115" r="20" fill="#fbbf24"/>
+  <!-- Hair -->
+  <path d="M105 100 C100 90, 110 85, 120 85 C130 85, 140 90, 135 100 Z" fill="#f59e0b"/>
+  <!-- Eyes -->
+  <circle cx="112" cy="110" r="2" fill="#0f172a"/>
+  <circle cx="128" cy="110" r="2" fill="#0f172a"/>
+  <!-- Mouth (slight smile of wonder) -->
+  <path d="M115 120 Q120 123, 125 120" stroke="#0f172a" stroke-width="1.5" fill="none"/>
+
+  <!-- Arm pointing at the whale -->
+  <rect x="130" y="120" width="10" height="30" rx="5" fill="#fbbf24" transform="rotate(-30 130 120)"/>
+  <circle cx="145" cy="115" r="5" fill="#fbbf24"/> <!-- Hand/finger tip -->
+
+  <!-- Desk/Table -->
+  <rect x="20" y="170" width="80" height="10" rx="4" fill="#64748b"/>
+  <rect x="25" y="180" width="70" height="5" fill="#475569"/> <!-- Desk surface shadow -->
+  <!-- Desk legs -->
+  <rect x="30" y="180" width="5" height="20" fill="#64748b"/>
+  <rect x="85" y="180" width="5" height="20" fill="#64748b"/>
+
+  <!-- Book on desk -->
+  <rect x="40" y="160" width="30" height="10" rx="2" fill="#10b981"/>
+  <rect x="40" y="160" width="30" height="5" rx="2" fill="#14b8a6"/> <!-- Book cover highlight -->
+
+  <!-- Potted plant on desk -->
+  <rect x="170" y="170" width="20" height="10" rx="3" fill="#fb923c"/> <!-- Pot -->
+  <path d="M180 170 C175 160, 170 150, 180 155 C190 150, 185 160, 180 170 Z M185 170 C190 160, 195 150, 185 155 C175 150, 180 160, 185 170 Z" fill="#10b981"/> <!-- Leaves -->
+
+</svg>

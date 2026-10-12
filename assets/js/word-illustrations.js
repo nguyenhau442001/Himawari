@@ -16837,6 +16837,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/浸泡.svg",
     "caption": "ngâm, ngâm ngấm"
   },
+  "茎": {
+    "file": "茎.svg",
+    "src": "images/HSK_2.0/level6/茎.svg",
+    "caption": "thân (cây)"
+  },
+  "经费": {
+    "file": "经费.svg",
+    "src": "images/HSK_2.0/level6/经费.svg",
+    "caption": "kinh phí"
+  },
+  "惊奇": {
+    "file": "惊奇.svg",
+    "src": "images/HSK_2.0/level6/惊奇.svg",
+    "caption": "kinh ngạc, ngạc nhiên"
+  },
+  "精打细算": {
+    "file": "精打细算.svg",
+    "src": "images/HSK_2.0/level6/精打细算.svg",
+    "caption": "tính toán chi li"
+  },
+  "精华": {
+    "file": "精华.svg",
+    "src": "images/HSK_2.0/level6/精华.svg",
+    "caption": "tinh hoa"
+  },
+  "精简": {
+    "file": "精简.svg",
+    "src": "images/HSK_2.0/level6/精简.svg",
+    "caption": "tinh giản"
+  },
+  "精密": {
+    "file": "精密.svg",
+    "src": "images/HSK_2.0/level6/精密.svg",
+    "caption": "chính xác, tinh vi"
+  },
+  "精确": {
+    "file": "精确.svg",
+    "src": "images/HSK_2.0/level6/精确.svg",
+    "caption": "chính xác"
+  },
+  "精益求精": {
+    "file": "精益求精.svg",
+    "src": "images/HSK_2.0/level6/精益求精.svg",
+    "caption": "không ngừng hoàn thiện"
+  },
+  "鲸鱼": {
+    "file": "鲸鱼.svg",
+    "src": "images/HSK_2.0/level6/鲸鱼.svg",
+    "caption": "cá voi"
+  },
   "就业": {
     "file": "就业.svg",
     "src": "images/HSK_2.0/level6/就业.svg",
