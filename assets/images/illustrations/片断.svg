@@ -1,0 +1,164 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm nostalgic glow for childhood memories -->
+    <radialGradient id="nostalgiaGlow" cx="120" cy="90" r="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#f59e0b" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Photo/Fragment Glow -->
+    <linearGradient id="fragGrad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0284c7" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="fragGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#059669" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="fragGrad3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f472b6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#db2777" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Nostalgic ambient lighting -->
+  <circle cx="120" cy="100" r="100" fill="url(#nostalgiaGlow)"/>
+
+  <!-- Background Room Elements (Desk, Lamp, Bookshelf silhouette) -->
+  <path d="M0 190 L240 190 L240 240 L0 240 Z" fill="#090d16"/>
+  <rect x="20" y="140" width="40" height="50" rx="4" fill="#1b2a4a" opacity="0.6"/>
+  <rect x="180" y="130" width="40" height="60" rx="4" fill="#1b2a4a" opacity="0.6"/>
+  
+  <!-- Desk Surface -->
+  <path d="M10 185 L230 185 L240 195 L0 195 Z" fill="#334155"/>
+
+  <!-- Floating Memory Fragments (片断 - scattered pieces of childhood) -->
+  <!-- Fragment 1: Kite / Flying high -->
+  <g filter="url(#shadow)" transform="translate(45, 55) rotate(-12)">
+    <polygon points="20,0 35,20 20,40 5,20" fill="url(#fragGrad1)"/>
+    <path d="M20,40 Q25,55 15,65" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.7"/>
+    <rect x="0" y="0" width="40" height="45" rx="4" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+
+  <!-- Fragment 2: Wooden Toy Horse / Carousel -->
+  <g filter="url(#shadow)" transform="translate(155, 45) rotate(15)">
+    <rect x="0" y="0" width="45" height="38" rx="4" fill="url(#fragGrad2)"/>
+    <!-- Simple icon inside fragment: tiny stylized horse/tree -->
+    <path d="M15,25 Q18,15 25,12 Q30,15 32,25" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="22" cy="10" r="3" fill="#ffffff"/>
+    <rect x="0" y="0" width="45" height="38" rx="4" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+
+  <!-- Fragment 3: Small Paper Boat (Center-left, fading out) -->
+  <g filter="url(#shadow)" transform="translate(85, 25) rotate(-6)">
+    <polygon points="10,25 35,25 28,10" fill="url(#fragGrad3)"/>
+    <polygon points="10,25 35,25 20,32" fill="#ec4899"/>
+    <rect x="0" y="5" width="42" height="32" rx="4" fill="none" stroke="#f472b6" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+
+  <!-- Fragment 4: A glowing star / puzzle piece merging into the mind -->
+  <g filter="url(#glow)" transform="translate(130, 75) rotate(8)">
+    <circle cx="15" cy="15" r="14" fill="#fbbf24" opacity="0.9"/>
+    <path d="M15,5 L17,11 L23,13 L17,15 L15,21 L13,15 L7,13 L13,11 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- Dotted lines indicating memory retrieval / disjointed nature -->
+  <path d="M65,80 Q90,60 120,85" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4,4" opacity="0.6"/>
+  <path d="M175,70 Q160,85 135,90" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4,4" opacity="0.6"/>
+
+  <!-- Main Character: Adult male sitting at desk, resting chin on hand, thoughtfully recalling -->
+  <g id="character" filter="url(#shadow)">
+    <!-- Chair back -->
+    <rect x="95" y="110" width="50" height="75" rx="8" fill="#475569"/>
+    <rect x="103" y="118" width="34" height="55" rx="4" fill="#334155"/>
+
+    <!-- Character Body / Torso -->
+    <path d="M85 190 C85 155 100 145 120 145 C140 145 155 155 155 190 Z" fill="#2563eb"/>
+    <!-- Collar / Shirt -->
+    <path d="M108 145 L120 160 L132 145 Z" fill="#f8fafc"/>
+
+    <!-- Left Arm (resting on desk) -->
+    <path d="M90 165 L60 185 L130 185 Z" fill="#1d4ed8"/>
+
+    <!-- Head and Neck -->
+    <path d="M112 130 L128 130 L128 147 L112 147 Z" fill="#fbcfe8" opacity="0.8"/> <!-- Neck shadow -->
+    <path d="M100 90 C100 72 110 65 120 65 C130 65 140 72 140 90 C140 108 132 120 120 120 C108 120 100 108 100 90 Z" fill="#fecdd3"/>
+
+    <!-- Hair (Thoughtful, slightly messy modern adult hair) -->
+    <path d="M98 90 C98 70 108 58 123 58 C138 58 143 72 143 85 C143 85 140 72 130 68 C120 64 105 72 100 88 Z" fill="#1e293b"/>
+    <path d="M100 88 C98 80 105 70 115 67 C112 72 110 80 102 92 Z" fill="#1e293b"/>
+
+    <!-- Facial features (Pensive expression, closed/dreamy eyes, slight subtle smile) -->
+    <!-- Closed thoughtful eye -->
+    <path d="M110 90 Q115 95 120 90" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <path d="M125 90 Q130 95 135 90" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <!-- Eyebrows relaxed -->
+    <path d="M108 84 Q115 82 121 85" fill="none" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M124 85 Q130 82 137 84" fill="none" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Gentle nose -->
+    <path d="M122 92 Q125 100 121 103" fill="none" stroke="#f43f5e" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+    <!-- Calm mouth -->
+    <path d="M116 110 Q121 113 126 110" fill="none" stroke="#e11d48" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Right Hand supporting chin -->
+    <path d="M125 112 C135 110 142 118 138 126 C134 134 122 124 125 112 Z" fill="#fecdd3"/>
+  </g>
+
+  <!-- Foreground Desk Props (Notebook, pen, warm coffee mug) -->
+  <!-- Open Notebook with blank/faded lines -->
+  <g transform="translate(35, 175)">
+    <polygon points="0,15 45,5 90,15 90,40 45,50 0,40" fill="#f8fafc"/>
+    <polygon points="45,5 90,15 90,40 45,50" fill="#e2e8f0"/>
+    <!-- Faded/dotted lines representing scattered thoughts or unfinished notes -->
+    <line x1="10" y1="22" x2="35" y2="17" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="28" x2="30" y2="24" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="55" y1="22" x2="80" y2="27" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-dasharray="2,2"/>
+    <line x1="55" y1="29" x2="75" y2="33" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round"/>
+    <!-- Binding crease -->
+    <line x1="45" y1="5" x2="45" y2="50" stroke="#94a3b8" stroke-width="1.5"/>
+  </g>
+
+  <!-- Warm Coffee Mug -->
+  <g transform="translate(170, 160)" filter="url(#shadow)">
+    <rect x="0" y="5" width="22" height="25" rx="3" fill="#f43f5e"/>
+    <path d="M22 10 C27 10 27 22 22 24" fill="none" stroke="#f43f5e" stroke-width="3" stroke-linecap="round"/>
+    <!-- Steam swirls (representing calm atmosphere) -->
+    <path d="M7 0 Q5 -5 10 -10 Q15 -15 12 -20" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+    <path d="M15 2 Q13 -3 17 -8 Q21 -13 19 -18" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Ambient light particles floating in the air -->
+  <circle cx="70" cy="130" r="1.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="165" cy="120" r="2" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="105" cy="50" r="1.5" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="145" cy="40" r="2" fill="#34d399" opacity="0.7"/>
+  <circle cx="45" cy="115" r="2" fill="#f472b6" opacity="0.6"/>
+
+  <!-- Outer Frame / Border for Clean Vector Presentation -->
+  <rect x="0" y="0" width="240" height="240" rx="24" fill="none" stroke="#334155" stroke-width="2" opacity="0.5"/>
+</svg>

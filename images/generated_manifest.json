@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:22:33.719339",
-  "total_unique_words_with_illustrations": 4290,
-  "total_flat_svg_files": 4290,
+  "generated_at": "2026-10-12T22:23:29.437338",
+  "total_unique_words_with_illustrations": 4295,
+  "total_flat_svg_files": 4295,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1650,
-        "pct": "66.0%"
+        "with_svg": 1655,
+        "pct": "66.2%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 792,
-        "pct": "14.1%"
+        "with_svg": 796,
+        "pct": "14.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 792,
-        "pct": "14.1%"
+        "with_svg": 796,
+        "pct": "14.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 792,
-        "pct": "14.1%"
+        "with_svg": 796,
+        "pct": "14.2%"
       }
     }
   },
@@ -68925,6 +68925,108 @@
         "images/HSK_3.0/level8/譬如.svg",
         "images/HSK_3.0/level9/譬如.svg"
       ]
+    },
+    "偏差": {
+      "hanzi": "偏差",
+      "pinyin": "piānchā",
+      "meaning": "sai lệch, độ lệch",
+      "example_zh": "这个数据存在一定的<u>偏差</u>。",
+      "example_vi": "Số liệu này có một <u>độ lệch</u> nhất định.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "偏差.svg",
+      "src": "images/HSK_2.0/level6/偏差.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/偏差.svg",
+        "images/HSK_3.0/level8/偏差.svg",
+        "images/HSK_3.0/level9/偏差.svg"
+      ]
+    },
+    "偏见": {
+      "hanzi": "偏见",
+      "pinyin": "piānjiàn",
+      "meaning": "thiên kiến, định kiến",
+      "example_zh": "我们应该消除对他人的<u>偏见</u>。",
+      "example_vi": "Chúng ta nên xóa bỏ <u>định kiến</u> đối với người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "偏见.svg",
+      "src": "images/HSK_2.0/level6/偏见.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/偏见.svg",
+        "images/HSK_3.0/level8/偏见.svg",
+        "images/HSK_3.0/level9/偏见.svg"
+      ]
+    },
+    "偏僻": {
+      "hanzi": "偏僻",
+      "pinyin": "piānpì",
+      "meaning": "hẻo lánh, xa xôi",
+      "example_zh": "他住在一个<u>偏僻</u>的山村。",
+      "example_vi": "Anh ấy sống ở một làng quê <u>hẻo lánh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "偏僻.svg",
+      "src": "images/HSK_2.0/level6/偏僻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/偏僻.svg",
+        "images/HSK_3.0/level8/偏僻.svg",
+        "images/HSK_3.0/level9/偏僻.svg"
+      ]
+    },
+    "偏偏": {
+      "hanzi": "偏偏",
+      "pinyin": "piānpiān",
+      "meaning": "lại cứ, đúng là (trái ý)",
+      "example_zh": "我正要出门，<u>偏偏</u>下起了雨。",
+      "example_vi": "Tôi đang muốn ra ngoài thì <u>lại cứ</u> đổ mưa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "偏偏.svg",
+      "src": "images/HSK_2.0/level6/偏偏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/偏偏.svg",
+        "images/HSK_3.0/level8/偏偏.svg",
+        "images/HSK_3.0/level9/偏偏.svg"
+      ]
+    },
+    "片断": {
+      "hanzi": "片断",
+      "pinyin": "piànduàn",
+      "meaning": "đoạn, mẩu rời rạc",
+      "example_zh": "他只记得童年的一些<u>片断</u>。",
+      "example_vi": "Anh ấy chỉ nhớ một số <u>đoạn</u> tuổi thơ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "片断.svg",
+      "src": "images/HSK_2.0/level6/片断.svg",
+      "alt_srcs": []
     },
     "品质": {
       "hanzi": "品质",

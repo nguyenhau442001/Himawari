@@ -18457,6 +18457,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/譬如.svg",
     "caption": "ví như, chẳng hạn như"
   },
+  "偏差": {
+    "file": "偏差.svg",
+    "src": "images/HSK_2.0/level6/偏差.svg",
+    "caption": "sai lệch, độ lệch"
+  },
+  "偏见": {
+    "file": "偏见.svg",
+    "src": "images/HSK_2.0/level6/偏见.svg",
+    "caption": "thiên kiến, định kiến"
+  },
+  "偏僻": {
+    "file": "偏僻.svg",
+    "src": "images/HSK_2.0/level6/偏僻.svg",
+    "caption": "hẻo lánh, xa xôi"
+  },
+  "偏偏": {
+    "file": "偏偏.svg",
+    "src": "images/HSK_2.0/level6/偏偏.svg",
+    "caption": "lại cứ, đúng là (trái ý)"
+  },
+  "片断": {
+    "file": "片断.svg",
+    "src": "images/HSK_2.0/level6/片断.svg",
+    "caption": "đoạn, mẩu rời rạc"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",
