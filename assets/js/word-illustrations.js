@@ -19427,6 +19427,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/容器.svg",
     "caption": "vật chứa,容器"
   },
+  "容忍": {
+    "file": "容忍.svg",
+    "src": "images/HSK_2.0/level6/容忍.svg",
+    "caption": "dung thứ, chịu đựng"
+  },
+  "荣幸": {
+    "file": "荣幸.svg",
+    "src": "images/HSK_2.0/level6/荣幸.svg",
+    "caption": "vinh hạnh, hân hạnh"
+  },
+  "荣誉": {
+    "file": "荣誉.svg",
+    "src": "images/HSK_2.0/level6/荣誉.svg",
+    "caption": "danh dự, vinh dự"
+  },
+  "揉": {
+    "file": "揉.svg",
+    "src": "images/HSK_2.0/level6/揉.svg",
+    "caption": "vò, xoa, nhào"
+  },
+  "柔和": {
+    "file": "柔和.svg",
+    "src": "images/HSK_2.0/level6/柔和.svg",
+    "caption": "mềm mại, dịu dàng"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",

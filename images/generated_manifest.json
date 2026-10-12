@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:56:39.104217",
-  "total_unique_words_with_illustrations": 4475,
-  "total_flat_svg_files": 4475,
+  "generated_at": "2026-10-12T22:57:36.055333",
+  "total_unique_words_with_illustrations": 4480,
+  "total_flat_svg_files": 4480,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1835,
-        "pct": "73.4%"
+        "with_svg": 1840,
+        "pct": "73.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 613,
+        "with_svg": 614,
         "pct": "34.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 909,
-        "pct": "16.2%"
+        "with_svg": 913,
+        "pct": "16.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 909,
-        "pct": "16.2%"
+        "with_svg": 913,
+        "pct": "16.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 909,
-        "pct": "16.2%"
+        "with_svg": 913,
+        "pct": "16.3%"
       }
     }
   },
@@ -72852,6 +72852,112 @@
         "images/HSK_3.0/level7/容器.svg",
         "images/HSK_3.0/level8/容器.svg",
         "images/HSK_3.0/level9/容器.svg"
+      ]
+    },
+    "容忍": {
+      "hanzi": "容忍",
+      "pinyin": "róngrěn",
+      "meaning": "dung thứ, chịu đựng",
+      "example_zh": "我们不能<u>容忍</u>这种行为。",
+      "example_vi": "Chúng ta không thể <u>dung thứ</u> hành vi này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "容忍.svg",
+      "src": "images/HSK_2.0/level6/容忍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/容忍.svg",
+        "images/HSK_3.0/level8/容忍.svg",
+        "images/HSK_3.0/level9/容忍.svg"
+      ]
+    },
+    "荣幸": {
+      "hanzi": "荣幸",
+      "pinyin": "róngxìng",
+      "meaning": "vinh hạnh, hân hạnh",
+      "example_zh": "认识您，我感到非常<u>荣幸</u>。",
+      "example_vi": "Được biết ngài, tôi cảm thấy rất <u>vinh hạnh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "荣幸.svg",
+      "src": "images/HSK_2.0/level6/荣幸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/荣幸.svg",
+        "images/HSK_3.0/level8/荣幸.svg",
+        "images/HSK_3.0/level9/荣幸.svg"
+      ]
+    },
+    "荣誉": {
+      "hanzi": "荣誉",
+      "pinyin": "róngyù",
+      "meaning": "danh dự, vinh dự",
+      "example_zh": "他为国家赢得了<u>荣誉</u>。",
+      "example_vi": "Anh ấy đã giành <u>vinh dự</u> cho quốc gia.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "荣誉.svg",
+      "src": "images/HSK_2.0/level6/荣誉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/荣誉.svg"
+      ]
+    },
+    "揉": {
+      "hanzi": "揉",
+      "pinyin": "róu",
+      "meaning": "vò, xoa, nhào",
+      "example_zh": "她<u>揉</u>了揉眼睛。",
+      "example_vi": "Cô ấy <u>xoa</u> nhẹ mắt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "揉.svg",
+      "src": "images/HSK_2.0/level6/揉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/揉.svg",
+        "images/HSK_3.0/level8/揉.svg",
+        "images/HSK_3.0/level9/揉.svg"
+      ]
+    },
+    "柔和": {
+      "hanzi": "柔和",
+      "pinyin": "róuhé",
+      "meaning": "mềm mại, dịu dàng",
+      "example_zh": "她的声音很<u>柔和</u>。",
+      "example_vi": "Giọng nói của cô ấy rất <u>dịu dàng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "柔和.svg",
+      "src": "images/HSK_2.0/level6/柔和.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/柔和.svg",
+        "images/HSK_3.0/level8/柔和.svg",
+        "images/HSK_3.0/level9/柔和.svg"
       ]
     },
     "擅长": {
