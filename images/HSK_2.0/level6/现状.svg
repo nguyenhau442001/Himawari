@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="40" fill="#475569"/>
+  <rect x="190" y="175" width="10" height="40" fill="#475569"/>
+  
+  <!-- Disorganized mess (The "现状") -->
+  <path d="M50 150 L80 150 L85 130 L45 130 Z" fill="#fb923c" opacity="0.6"/>
+  <rect x="55" y="135" width="20" height="10" fill="#f1f5f9"/>
+  <rect x="90" y="140" width="30" height="20" rx="2" fill="#ec4899"/>
+  
+  <!-- Characters -->
+  <!-- Character 1 (Pointing/Directing) -->
+  <circle cx="160" cy="100" r="15" fill="#fde68a"/>
+  <path d="M160 115 L160 150 M160 125 L180 110" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M180 110 L195 100" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Character 2 (Taking Action/Cleaning) -->
+  <circle cx="80" cy="100" r="15" fill="#38bdf8"/>
+  <path d="M80 115 L80 150 M80 125 L60 140" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 130 L100 130" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Action Element (The Change) -->
+  <path d="M120 80 L140 60 L160 80 L140 100 Z" fill="#10b981"/>
+  <circle cx="140" cy="80" r="8" fill="#f59e0b"/>
+  
+  <!-- Ambient Light/Focus -->
+  <ellipse cx="120" cy="100" rx="80" ry="40" fill="#f59e0b" opacity="0.05"/>
+</svg>

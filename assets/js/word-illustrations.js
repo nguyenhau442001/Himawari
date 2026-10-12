@@ -13272,6 +13272,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/物业.svg",
     "caption": "bất động sản, quản lý nhà"
   },
+  "先进": {
+    "file": "先进.svg",
+    "src": "images/HSK_2.0/level6/先进.svg",
+    "caption": "tiên tiến"
+  },
+  "现场": {
+    "file": "现场.svg",
+    "src": "images/HSK_2.0/level6/现场.svg",
+    "caption": "hiện trường"
+  },
+  "现状": {
+    "file": "现状.svg",
+    "src": "images/HSK_2.0/level6/现状.svg",
+    "caption": "hiện trạng"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15601,6 +15616,41 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "先后.svg",
     "src": "images/HSK_3.0/level5/先后.svg",
     "caption": "lần lượt, trước sau; liên tiếp"
+  },
+  "闲": {
+    "file": "闲.svg",
+    "src": "images/HSK_3.0/level5/闲.svg",
+    "caption": "rảnh rỗi, nhàn hạ"
+  },
+  "现代化": {
+    "file": "现代化.svg",
+    "src": "images/HSK_3.0/level5/现代化.svg",
+    "caption": "hiện đại hóa"
+  },
+  "线路": {
+    "file": "线路.svg",
+    "src": "images/HSK_3.0/level5/线路.svg",
+    "caption": "tuyến đường; mạch điện"
+  },
+  "乡": {
+    "file": "乡.svg",
+    "src": "images/HSK_3.0/level5/乡.svg",
+    "caption": "thị trấn"
+  },
+  "乡村": {
+    "file": "乡村.svg",
+    "src": "images/HSK_3.0/level5/乡村.svg",
+    "caption": "nông thôn"
+  },
+  "响声": {
+    "file": "响声.svg",
+    "src": "images/HSK_3.0/level5/响声.svg",
+    "caption": "tiếng vang, âm thanh, tiếng động"
+  },
+  "相册": {
+    "file": "相册.svg",
+    "src": "images/HSK_3.0/level5/相册.svg",
+    "caption": "cuốn album ảnh"
   }
 };
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:20:07.256070",
-  "total_unique_words_with_illustrations": 3060,
-  "total_flat_svg_files": 3060,
+  "generated_at": "2026-10-12T09:23:20.701221",
+  "total_unique_words_with_illustrations": 3070,
+  "total_flat_svg_files": 3070,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 561,
-        "pct": "22.4%"
+        "with_svg": 564,
+        "pct": "22.6%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1441,
-        "pct": "90.1%"
+        "with_svg": 1451,
+        "pct": "90.7%"
       },
       "level6": {
         "total": 1800,
@@ -47808,6 +47808,60 @@
         "images/HSK_3.0/level5/物业.svg"
       ]
     },
+    "先进": {
+      "hanzi": "先进",
+      "pinyin": "xiānjìn",
+      "meaning": "tiên tiến",
+      "example_zh": "这是一种<u>先进</u>的技术。",
+      "example_vi": "Đây là một công nghệ <u>tiên tiến</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "先进.svg",
+      "src": "images/HSK_2.0/level6/先进.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/先进.svg"
+      ]
+    },
+    "现场": {
+      "hanzi": "现场",
+      "pinyin": "xiànchǎng",
+      "meaning": "hiện trường",
+      "example_zh": "警察迅速赶到了<u>现场</u>。",
+      "example_vi": "Cảnh sát nhanh chóng đến <u>hiện trường</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "现场.svg",
+      "src": "images/HSK_2.0/level6/现场.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/现场.svg"
+      ]
+    },
+    "现状": {
+      "hanzi": "现状",
+      "pinyin": "xiànzhuàng",
+      "meaning": "hiện trạng",
+      "example_zh": "我们要改变这种<u>现状</u>。",
+      "example_vi": "Chúng ta phải thay đổi <u>hiện trạng</u> này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "现状.svg",
+      "src": "images/HSK_2.0/level6/现状.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/现状.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -54356,6 +54410,104 @@
       ],
       "file": "先后.svg",
       "src": "images/HSK_3.0/level5/先后.svg",
+      "alt_srcs": []
+    },
+    "闲": {
+      "hanzi": "闲",
+      "pinyin": "xián",
+      "meaning": "rảnh rỗi, nhàn hạ",
+      "example_zh": "等我<u>闲</u>下来的时候再去拜访你。",
+      "example_vi": "Đợi lúc nào tôi <u>rảnh rỗi</u> sẽ qua thăm bạn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "闲.svg",
+      "src": "images/HSK_3.0/level5/闲.svg",
+      "alt_srcs": []
+    },
+    "现代化": {
+      "hanzi": "现代化",
+      "pinyin": "xiàndàihuà",
+      "meaning": "hiện đại hóa",
+      "example_zh": "这所医院配备了非常先进的<u>现代化</u>设施。",
+      "example_vi": "Bệnh viện này được trang bị các cơ sở vật chất <u>hiện đại hóa</u> vô cùng tân tiến.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "现代化.svg",
+      "src": "images/HSK_3.0/level5/现代化.svg",
+      "alt_srcs": []
+    },
+    "线路": {
+      "hanzi": "线路",
+      "pinyin": "xiànlù",
+      "meaning": "tuyến đường; mạch điện",
+      "example_zh": "工人正在抓紧检修电力<u>线路</u>。",
+      "example_vi": "Công nhân đang khẩn trương kiểm tra sửa chữa <u>đường dây</u> điện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "线路.svg",
+      "src": "images/HSK_3.0/level5/线路.svg",
+      "alt_srcs": []
+    },
+    "乡": {
+      "hanzi": "乡",
+      "pinyin": "xiāng",
+      "meaning": "thị trấn",
+      "example_zh": "我很想回家<u>乡</u>看看",
+      "example_vi": "Tôi rất muốn về quê nhà xem thử.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "乡.svg",
+      "src": "images/HSK_3.0/level5/乡.svg",
+      "alt_srcs": []
+    },
+    "乡村": {
+      "hanzi": "乡村",
+      "pinyin": "xiāngcūn",
+      "meaning": "nông thôn",
+      "example_zh": "作者生动地描绘了<u>乡村</u>生活",
+      "example_vi": "Tác giả đã miêu tả sinh động cuộc sống ở nông thôn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "乡村.svg",
+      "src": "images/HSK_3.0/level5/乡村.svg",
+      "alt_srcs": []
+    },
+    "响声": {
+      "hanzi": "响声",
+      "pinyin": "xiǎngshēng",
+      "meaning": "tiếng vang, âm thanh, tiếng động",
+      "example_zh": "隔壁房间突然传来一阵奇怪的<u>响声</u>。",
+      "example_vi": "Phòng bên cạnh đột nhiên phát ra một tràng <u>tiếng động</u> kỳ lạ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "响声.svg",
+      "src": "images/HSK_3.0/level5/响声.svg",
+      "alt_srcs": []
+    },
+    "相册": {
+      "hanzi": "相册",
+      "pinyin": "xiàngcè",
+      "meaning": "cuốn album ảnh",
+      "example_zh": "翻开旧<u>相册</u>，许多美好的回忆涌上心头。",
+      "example_vi": "Mở cuốn <u>album ảnh</u> cũ, biết bao ký ức tươi đẹp lại ùa về.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "相册.svg",
+      "src": "images/HSK_3.0/level5/相册.svg",
       "alt_srcs": []
     }
   }

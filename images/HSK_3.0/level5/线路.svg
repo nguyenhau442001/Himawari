@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Utility Pole Structure -->
+  <rect x="180" y="20" width="12" height="220" rx="4" fill="#475569"/>
+  <rect x="160" y="50" width="52" height="8" rx="2" fill="#64748b"/>
+  <rect x="160" y="90" width="52" height="8" rx="2" fill="#64748b"/>
+  
+  <!-- Electrical Lines -->
+  <path d="M 0 60 Q 90 50 180 60" stroke="#f59e0b" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+  <path d="M 0 100 Q 90 90 180 100" stroke="#f59e0b" stroke-width="3" fill="none"/>
+  
+  <!-- Worker Character -->
+  <g transform="translate(60, 110)">
+    <!-- Safety Helmet -->
+    <path d="M 10 -10 A 20 20 0 0 1 50 -10 L 50 0 L 10 0 Z" fill="#fb923c"/>
+    <!-- Body -->
+    <rect x="20" y="0" width="20" height="40" rx="4" fill="#38bdf8"/>
+    <!-- Arms -->
+    <rect x="5" y="10" width="15" height="6" rx="2" fill="#38bdf8" transform="rotate(-20 20 10)"/>
+    <rect x="35" y="10" width="15" height="6" rx="2" fill="#38bdf8" transform="rotate(20 40 10)"/>
+    <!-- Legs -->
+    <rect x="22" y="40" width="6" height="30" rx="2" fill="#475569"/>
+    <rect x="32" y="40" width="6" height="30" rx="2" fill="#475569"/>
+  </g>
+  
+  <!-- Tools and Sparks -->
+  <circle cx="95" cy="100" r="4" fill="#fbbf24"/>
+  <path d="M 95 95 L 98 85 M 95 95 L 92 85 M 95 95 L 105 92" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Ladder -->
+  <rect x="130" y="120" width="4" height="120" rx="2" fill="#94a3b8"/>
+  <rect x="150" y="120" width="4" height="120" rx="2" fill="#94a3b8"/>
+  <rect x="130" y="140" width="24" height="4" rx="1" fill="#94a3b8"/>
+  <rect x="130" y="170" width="24" height="4" rx="1" fill="#94a3b8"/>
+  <rect x="130" y="200" width="24" height="4" rx="1" fill="#94a3b8"/>
+  
+  <!-- Background City Silhouette -->
+  <rect x="10" y="180" width="30" height="60" fill="#1e293b" stroke="#334155"/>
+  <rect x="45" y="200" width="40" height="40" fill="#1e293b" stroke="#334155"/>
+</svg>
