@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:18:56.867322",
-  "total_unique_words_with_illustrations": 4075,
-  "total_flat_svg_files": 4075,
+  "generated_at": "2026-10-12T20:23:21.215998",
+  "total_unique_words_with_illustrations": 4085,
+  "total_flat_svg_files": 4085,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1435,
-        "pct": "57.4%"
+        "with_svg": 1445,
+        "pct": "57.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 505,
+        "with_svg": 506,
         "pct": "28.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 633,
-        "pct": "11.3%"
+        "with_svg": 642,
+        "pct": "11.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 633,
-        "pct": "11.3%"
+        "with_svg": 642,
+        "pct": "11.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 633,
-        "pct": "11.3%"
+        "with_svg": 642,
+        "pct": "11.5%"
       }
     }
   },
@@ -64334,6 +64334,46 @@
         "images/HSK_3.0/level9/乐园.svg"
       ]
     },
+    "雷达": {
+      "hanzi": "雷达",
+      "pinyin": "léidá",
+      "meaning": "radar",
+      "example_zh": "飞机依靠<u>雷达</u>导航。",
+      "example_vi": "Máy bay nhờ <u>radar</u> để dẫn đường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "雷达.svg",
+      "src": "images/HSK_2.0/level6/雷达.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/雷达.svg",
+        "images/HSK_3.0/level8/雷达.svg",
+        "images/HSK_3.0/level9/雷达.svg"
+      ]
+    },
+    "类别": {
+      "hanzi": "类别",
+      "pinyin": "lèibié",
+      "meaning": "loại, phân loại",
+      "example_zh": "请按<u>类别</u>整理资料。",
+      "example_vi": "Xin hãy sắp xếp tài liệu theo <u>loại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "类别.svg",
+      "src": "images/HSK_2.0/level6/类别.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/类别.svg"
+      ]
+    },
     "类似": {
       "hanzi": "类似",
       "pinyin": "lèisì",
@@ -64350,6 +64390,182 @@
       "src": "images/HSK_2.0/level6/类似.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/类似.svg"
+      ]
+    },
+    "冷却": {
+      "hanzi": "冷却",
+      "pinyin": "lěngquè",
+      "meaning": "làm lạnh, hạ nhiệt",
+      "example_zh": "机器需要<u>冷却</u>。",
+      "example_vi": "Máy cần được <u>làm lạnh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冷却.svg",
+      "src": "images/HSK_2.0/level6/冷却.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/冷却.svg",
+        "images/HSK_3.0/level8/冷却.svg",
+        "images/HSK_3.0/level9/冷却.svg"
+      ]
+    },
+    "黎明": {
+      "hanzi": "黎明",
+      "pinyin": "límíng",
+      "meaning": "lúc rạng đông",
+      "example_zh": "我们在<u>黎明</u>时分出发。",
+      "example_vi": "Chúng tôi xuất phát vào lúc <u>rạng đông</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "黎明.svg",
+      "src": "images/HSK_2.0/level6/黎明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/黎明.svg",
+        "images/HSK_3.0/level8/黎明.svg",
+        "images/HSK_3.0/level9/黎明.svg"
+      ]
+    },
+    "离奇": {
+      "hanzi": "离奇",
+      "pinyin": "líqí",
+      "meaning": "kỳ lạ, ly kỳ",
+      "example_zh": "这个故事很<u>离奇</u>。",
+      "example_vi": "Câu chuyện này rất <u>kỳ lạ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "离奇.svg",
+      "src": "images/HSK_2.0/level6/离奇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/离奇.svg",
+        "images/HSK_3.0/level8/离奇.svg",
+        "images/HSK_3.0/level9/离奇.svg"
+      ]
+    },
+    "理睬": {
+      "hanzi": "理睬",
+      "pinyin": "lǐcǎi",
+      "meaning": "đoái hoài, để ý đến",
+      "example_zh": "他不<u>理睬</u>我说的话。",
+      "example_vi": "Anh ấy không <u>để ý</u> đến lời tôi nói.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "理睬.svg",
+      "src": "images/HSK_2.0/level6/理睬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/理睬.svg",
+        "images/HSK_3.0/level8/理睬.svg",
+        "images/HSK_3.0/level9/理睬.svg"
+      ]
+    },
+    "理会": {
+      "hanzi": "理会",
+      "pinyin": "lǐhuì",
+      "meaning": "hiểu, để ý",
+      "example_zh": "他根本不<u>理会</u>这件事。",
+      "example_vi": "Anh ấy hoàn toàn không <u>để ý</u> đến việc này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "理会.svg",
+      "src": "images/HSK_2.0/level6/理会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/理会.svg",
+        "images/HSK_3.0/level8/理会.svg",
+        "images/HSK_3.0/level9/理会.svg"
+      ]
+    },
+    "理事": {
+      "hanzi": "理事",
+      "pinyin": "lǐshì",
+      "meaning": "ủy viên hội đồng",
+      "example_zh": "他是协会的<u>理事</u>。",
+      "example_vi": "Anh ấy là <u>ủy viên</u> hội đồng hiệp hội.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "理事.svg",
+      "src": "images/HSK_2.0/level6/理事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/理事.svg",
+        "images/HSK_3.0/level8/理事.svg",
+        "images/HSK_3.0/level9/理事.svg"
+      ]
+    },
+    "理所当然": {
+      "hanzi": "理所当然",
+      "pinyin": "lǐ suǒ dāng rán",
+      "meaning": "hiển nhiên, lẽ tất nhiên",
+      "example_zh": "帮助朋友是<u>理所当然</u>的。",
+      "example_vi": "Giúp đỡ bạn bè là điều <u>lẽ tất nhiên</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "理所当然.svg",
+      "src": "images/HSK_2.0/level6/理所当然.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/理所当然.svg",
+        "images/HSK_3.0/level8/理所当然.svg",
+        "images/HSK_3.0/level9/理所当然.svg"
+      ]
+    },
+    "理直气壮": {
+      "hanzi": "理直气壮",
+      "pinyin": "lǐ zhí qì zhuàng",
+      "meaning": "có lý nên hùng hồn, đường hoàng",
+      "example_zh": "他<u>理直气壮</u>地反驳了对方。",
+      "example_vi": "Anh ấy <u>đường hoàng hùng hồn</u> phản bác đối phương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "理直气壮.svg",
+      "src": "images/HSK_2.0/level6/理直气壮.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/理直气壮.svg",
+        "images/HSK_3.0/level8/理直气壮.svg",
+        "images/HSK_3.0/level9/理直气壮.svg"
       ]
     },
     "领先": {

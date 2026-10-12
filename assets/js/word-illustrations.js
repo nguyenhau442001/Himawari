@@ -17347,10 +17347,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/乐园.svg",
     "caption": "công viên giải trí"
   },
+  "雷达": {
+    "file": "雷达.svg",
+    "src": "images/HSK_2.0/level6/雷达.svg",
+    "caption": "radar"
+  },
+  "类别": {
+    "file": "类别.svg",
+    "src": "images/HSK_2.0/level6/类别.svg",
+    "caption": "loại, phân loại"
+  },
   "类似": {
     "file": "类似.svg",
     "src": "images/HSK_2.0/level6/类似.svg",
     "caption": "tương tự"
+  },
+  "冷却": {
+    "file": "冷却.svg",
+    "src": "images/HSK_2.0/level6/冷却.svg",
+    "caption": "làm lạnh, hạ nhiệt"
+  },
+  "黎明": {
+    "file": "黎明.svg",
+    "src": "images/HSK_2.0/level6/黎明.svg",
+    "caption": "lúc rạng đông"
+  },
+  "离奇": {
+    "file": "离奇.svg",
+    "src": "images/HSK_2.0/level6/离奇.svg",
+    "caption": "kỳ lạ, ly kỳ"
+  },
+  "理睬": {
+    "file": "理睬.svg",
+    "src": "images/HSK_2.0/level6/理睬.svg",
+    "caption": "đoái hoài, để ý đến"
+  },
+  "理会": {
+    "file": "理会.svg",
+    "src": "images/HSK_2.0/level6/理会.svg",
+    "caption": "hiểu, để ý"
+  },
+  "理事": {
+    "file": "理事.svg",
+    "src": "images/HSK_2.0/level6/理事.svg",
+    "caption": "ủy viên hội đồng"
+  },
+  "理所当然": {
+    "file": "理所当然.svg",
+    "src": "images/HSK_2.0/level6/理所当然.svg",
+    "caption": "hiển nhiên, lẽ tất nhiên"
+  },
+  "理直气壮": {
+    "file": "理直气壮.svg",
+    "src": "images/HSK_2.0/level6/理直气壮.svg",
+    "caption": "có lý nên hùng hồn, đường hoàng"
   },
   "领先": {
     "file": "领先.svg",

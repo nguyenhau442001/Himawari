@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="20" y="140" width="200" height="10" rx="2" fill="#334155"/>
+  <rect x="40" y="150" width="10" height="80" fill="#475569"/>
+  <rect x="190" y="150" width="10" height="80" fill="#475569"/>
+  
+  <!-- Opponent (Deflated/Confused) -->
+  <g transform="translate(40, 80)">
+    <circle cx="30" cy="40" r="15" fill="#94a3b8"/>
+    <path d="M15 60 Q30 80 45 60" stroke="#94a3b8" stroke-width="4" fill="none"/>
+    <rect x="25" y="65" width="10" height="40" fill="#94a3b8"/>
+    <circle cx="25" cy="38" r="2" fill="#0f172a"/>
+    <circle cx="35" cy="38" r="2" fill="#0f172a"/>
+  </g>
+  
+  <!-- Protagonist (Confident/Rebutting) -->
+  <g transform="translate(130, 60)">
+    <!-- Body -->
+    <path d="M40 120 L80 120 L75 160 L45 160 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="60" cy="90" r="20" fill="#fde68a"/>
+    <!-- Arm gesturing -->
+    <path d="M80 100 L110 80" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+    <!-- Face -->
+    <path d="M52 85 Q56 82 60 85" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M64 85 Q68 82 72 85" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M55 95 Q60 100 65 95" stroke="#ec4899" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Speech/Action Effect -->
+  <path d="M110 70 L130 60 L110 50 Z" fill="#fbbf24"/>
+  <circle cx="140" cy="50" r="4" fill="#fbbf24"/>
+  <circle cx="150" cy="40" r="6" fill="#fbbf24"/>
+  
+  <!-- Desk Props -->
+  <rect x="150" y="135" width="30" height="5" rx="1" fill="#fb923c"/>
+  <circle cx="60" cy="135" r="8" fill="#10b981"/>
+</svg>

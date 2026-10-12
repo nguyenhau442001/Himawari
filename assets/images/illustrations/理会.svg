@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="20" y="140" width="200" height="10" rx="2" fill="#334155"/>
+  <rect x="180" y="150" width="10" height="80" rx="2" fill="#334155"/>
+  
+  <!-- The "Distraction" (The thing being ignored) -->
+  <g transform="translate(40, 80)">
+    <rect x="0" y="0" width="50" height="60" rx="4" fill="#fb923c"/>
+    <rect x="10" y="15" width="30" height="5" rx="2" fill="#0f172a" opacity="0.2"/>
+    <rect x="10" y="30" width="30" height="5" rx="2" fill="#0f172a" opacity="0.2"/>
+    <rect x="10" y="45" width="20" height="5" rx="2" fill="#0f172a" opacity="0.2"/>
+  </g>
+
+  <!-- The Subject (Ignoring the distraction) -->
+  <g transform="translate(110, 60)">
+    <!-- Body -->
+    <path d="M40 160 C40 120, 100 120, 100 160 L100 180 L40 180 Z" fill="#64748b"/>
+    <!-- Head -->
+    <circle cx="70" cy="100" r="30" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M45 95 C45 70, 95 70, 95 95 L90 100 L50 100 Z" fill="#334155"/>
+    <!-- Eyes (Looking away) -->
+    <circle cx="55" cy="100" r="3" fill="#1e293b"/>
+    <circle cx="65" cy="100" r="3" fill="#1e293b"/>
+    <!-- Mouth (Neutral/Dismissive) -->
+    <path d="M55 115 Q60 112 65 115" stroke="#1e293b" stroke-width="2" fill="none"/>
+    
+    <!-- Arm (Focused on coffee/work) -->
+    <path d="M95 130 L120 140" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="125" cy="145" r="15" fill="#fbbf24"/>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="20" fill="#1e293b" stroke="#38bdf8" stroke-width="2" opacity="0.5"/>
+  <path d="M180 200 L220 200" stroke="#10b981" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+</svg>
