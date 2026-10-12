@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:34:46.128490",
-  "total_unique_words_with_illustrations": 4355,
-  "total_flat_svg_files": 4355,
+  "generated_at": "2026-10-12T22:35:39.527805",
+  "total_unique_words_with_illustrations": 4360,
+  "total_flat_svg_files": 4360,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1715,
-        "pct": "68.6%"
+        "with_svg": 1720,
+        "pct": "68.8%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 574,
+        "with_svg": 575,
         "pct": "31.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 834,
+        "with_svg": 837,
         "pct": "14.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 834,
+        "with_svg": 837,
         "pct": "14.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 834,
+        "with_svg": 837,
         "pct": "14.9%"
       }
     }
@@ -70327,6 +70327,104 @@
       "file": "气概.svg",
       "src": "images/HSK_2.0/level6/气概.svg",
       "alt_srcs": []
+    },
+    "气功": {
+      "hanzi": "气功",
+      "pinyin": "qìgōng",
+      "meaning": "khí công",
+      "example_zh": "他每天早上练习<u>气功</u>。",
+      "example_vi": "Mỗi buổi sáng anh ấy luyện <u>khí công</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "气功.svg",
+      "src": "images/HSK_2.0/level6/气功.svg",
+      "alt_srcs": []
+    },
+    "气魄": {
+      "hanzi": "气魄",
+      "pinyin": "qìpò",
+      "meaning": "khí phách, dũng khí",
+      "example_zh": "这部作品展现出宏大的<u>气魄</u>。",
+      "example_vi": "Tác phẩm này thể hiện <u>khí phách</u> hùng vĩ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "气魄.svg",
+      "src": "images/HSK_2.0/level6/气魄.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/气魄.svg",
+        "images/HSK_3.0/level8/气魄.svg",
+        "images/HSK_3.0/level9/气魄.svg"
+      ]
+    },
+    "气色": {
+      "hanzi": "气色",
+      "pinyin": "qìsè",
+      "meaning": "khí sắc, vẻ mặt",
+      "example_zh": "你今天<u>气色</u>不错。",
+      "example_vi": "Hôm nay <u>khí sắc</u> của bạn rất tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "气色.svg",
+      "src": "images/HSK_2.0/level6/气色.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/气色.svg",
+        "images/HSK_3.0/level8/气色.svg",
+        "images/HSK_3.0/level9/气色.svg"
+      ]
+    },
+    "气势": {
+      "hanzi": "气势",
+      "pinyin": "qìshì",
+      "meaning": "khí thế",
+      "example_zh": "这座大楼<u>气势</u>雄伟。",
+      "example_vi": "Tòa nhà này có <u>khí thế</u> hùng vĩ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "气势.svg",
+      "src": "images/HSK_2.0/level6/气势.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/气势.svg",
+        "images/HSK_3.0/level8/气势.svg",
+        "images/HSK_3.0/level9/气势.svg"
+      ]
+    },
+    "气味": {
+      "hanzi": "气味",
+      "pinyin": "qìwèi",
+      "meaning": "mùi vị, khí vị",
+      "example_zh": "厨房里飘出阵阵香的<u>气味</u>。",
+      "example_vi": "Trong nhà bếp tỏa ra <u>mùi</u> thơm thoang thoảng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "气味.svg",
+      "src": "images/HSK_2.0/level6/气味.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/气味.svg"
+      ]
     },
     "抢救": {
       "hanzi": "抢救",

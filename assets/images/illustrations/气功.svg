@@ -1,0 +1,128 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1a2e3b"/>
+    </linearGradient>
+
+    <!-- Morning Sun / Aura Glow Gradient -->
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Qi Energy Orb Gradient -->
+    <radialGradient id="qiOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bamboo Leaf Gradient -->
+    <linearGradient id="bambooGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+
+    <!-- Ground Gradient -->
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Background Environment: Morning Park / Sunrise -->
+  <!-- Rising Sun -->
+  <circle cx="120" cy="95" r="50" fill="url(#sunGlow)"/>
+  <circle cx="120" cy="95" r="30" fill="#fef08a" opacity="0.9"/>
+
+  <!-- Distant Mountains/Hills -->
+  <path d="M0 160 Q 60 130, 130 155 T 240 145 L 240 240 L 0 240 Z" fill="#132238" opacity="0.8"/>
+  <path d="M0 175 Q 90 140, 180 170 T 240 165 L 240 240 L 0 240 Z" fill="#172b43"/>
+
+  <!-- Bamboo Stalks in Background -->
+  <!-- Bamboo Left 1 -->
+  <rect x="25" y="60" width="6" height="150" rx="3" fill="url(#bambooGrad)" opacity="0.6"/>
+  <ellipse cx="28" cy="90" rx="12" ry="3" fill="#047857" opacity="0.6"/>
+  <ellipse cx="28" cy="130" rx="12" ry="3" fill="#047857" opacity="0.6"/>
+  <!-- Bamboo Left 2 -->
+  <rect x="15" y="80" width="4" height="130" rx="2" fill="url(#bambooGrad)" opacity="0.4"/>
+  <!-- Bamboo Right 1 -->
+  <rect x="210" y="50" width="7" height="160" rx="3" fill="url(#bambooGrad)" opacity="0.6"/>
+  <ellipse cx="213" cy="100" rx="14" ry="3.5" fill="#047857" opacity="0.6"/>
+  <ellipse cx="213" cy="150" rx="14" ry="3.5" fill="#047857" opacity="0.6"/>
+
+  <!-- Hanging Willow / Leaf Accents (Foreground framing) -->
+  <path d="M 0 0 Q 30 40, 20 70" stroke="#059669" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 240 10 Q 200 50, 215 90" stroke="#059669" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- Ground / Stone Platform -->
+  <ellipse cx="120" cy="185" rx="75" ry="22" fill="url(#groundGrad)" stroke="#334155" stroke-width="2"/>
+  <ellipse cx="120" cy="188" rx="60" ry="15" fill="#0b1320" opacity="0.8"/>
+
+  <!-- Qi Flow / Energy Aura Visualizing Qigong -->
+  <circle cx="120" cy="135" r="38" fill="url(#qiOrb)"/>
+  <path d="M 95 135 Q 120 115, 145 135" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 100 143 Q 120 123, 140 143" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Floating Energy Particles -->
+  <circle cx="90" cy="115" r="2" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="155" cy="125" r="2.5" fill="#10b981" opacity="0.9"/>
+  <circle cx="105" cy="165" r="1.5" fill="#fef08a" opacity="0.8"/>
+  <circle cx="138" cy="110" r="1.5" fill="#38bdf8" opacity="0.8"/>
+
+  <!-- Subject: Person practicing Qigong (Calm, focused stance) -->
+  <!-- Shadow on Ground -->
+  <ellipse cx="120" cy="190" rx="30" ry="8" fill="#070d17" opacity="0.6"/>
+
+  <!-- Body & Clothing (Traditional relaxed morning wear / tai chi tunic) -->
+  <!-- Legs in stance -->
+  <path d="M 100 160 L 90 188 L 105 190 L 115 165 Z" fill="#334155"/>
+  <path d="M 140 160 L 150 188 L 135 190 L 125 165 Z" fill="#334155"/>
+  <!-- Shoes -->
+  <ellipse cx="94" cy="189" rx="8" ry="4" fill="#0f172a"/>
+  <ellipse cx="146" cy="189" rx="8" ry="4" fill="#0f172a"/>
+
+  <!-- Torso / Robe -->
+  <path d="M 98 125 L 142 125 L 148 168 L 92 168 Z" fill="#e2e8f0"/>
+  <!-- Tunic overlap line -->
+  <path d="M 120 125 L 108 168" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- Sash / Belt -->
+  <rect x="94" y="155" width="52" height="6" rx="3" fill="#0d9488"/>
+
+  <!-- Head & Face (Calm expression, closed peaceful eyes) -->
+  <circle cx="120" cy="102" r="14" fill="#fbcfe8"/>
+  <!-- Hair -->
+  <path d="M 106 100 Q 120 86, 134 100 L 135 95 Q 120 80, 105 95 Z" fill="#0f172a"/>
+  <!-- Peaceful Closed Eyes (curved lines) -->
+  <path d="M 113 103 Q 116 106, 119 103" stroke="#475569" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M 121 103 Q 124 106, 127 103" stroke="#475569" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Gentle Smile -->
+  <path d="M 117 111 Q 120 113, 123 111" stroke="#475569" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+  <!-- Rosy Cheeks -->
+  <circle cx="112" cy="108" r="2.5" fill="#f43f5e" opacity="0.3"/>
+  <circle cx="128" cy="108" r="2.5" fill="#f43f5e" opacity="0.3"/>
+
+  <!-- Neck -->
+  <rect x="116" y="114" width="8" height="12" fill="#fbcfe8"/>
+
+  <!-- Arms in Qigong holding posture (holding the energy ball) -->
+  <!-- Left Arm -->
+  <path d="M 100 130 C 85 135, 85 145, 102 152" stroke="#e2e8f0" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <circle cx="102" cy="152" r="5" fill="#fbcfe8"/>
+  <!-- Right Arm -->
+  <path d="M 140 130 C 155 135, 155 145, 138 152" stroke="#e2e8f0" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <circle cx="138" cy="152" r="5" fill="#fbcfe8"/>
+
+  <!-- Morning Atmosphere Details -->
+  <!-- Floating leaf drifting down -->
+  <path d="M 175 75 Q 180 80, 178 85 Q 172 82, 175 75 Z" fill="#10b981" opacity="0.8" transform="rotate(25 175 75)"/>
+  <path d="M 65 110 Q 60 115, 63 120 Q 69 117, 65 110 Z" fill="#059669" opacity="0.7" transform="rotate(-15 65 110)"/>
+
+</svg>

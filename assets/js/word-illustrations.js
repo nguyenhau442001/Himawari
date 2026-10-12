@@ -18802,6 +18802,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/气概.svg",
     "caption": "khí phách"
   },
+  "气功": {
+    "file": "气功.svg",
+    "src": "images/HSK_2.0/level6/气功.svg",
+    "caption": "khí công"
+  },
+  "气魄": {
+    "file": "气魄.svg",
+    "src": "images/HSK_2.0/level6/气魄.svg",
+    "caption": "khí phách, dũng khí"
+  },
+  "气色": {
+    "file": "气色.svg",
+    "src": "images/HSK_2.0/level6/气色.svg",
+    "caption": "khí sắc, vẻ mặt"
+  },
+  "气势": {
+    "file": "气势.svg",
+    "src": "images/HSK_2.0/level6/气势.svg",
+    "caption": "khí thế"
+  },
+  "气味": {
+    "file": "气味.svg",
+    "src": "images/HSK_2.0/level6/气味.svg",
+    "caption": "mùi vị, khí vị"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
