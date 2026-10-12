@@ -1,7 +1,7 @@
 /* CSS entry point — component styles live in assets/css/. */
 @import url("css/base.css?v=20261010-smooth-theme1");
 @import url("css/level-picker.css?v=20261007-goal-fix2");
-@import url("css/flashcard.css?v=20261010-smooth-theme1");
+@import url("css/flashcard.css?v=20261012-accessibility-redesign");
 @import url("css/footer.css");
 @import url("css/feedback.css");
 @import url("css/vocabulary-overview.css");

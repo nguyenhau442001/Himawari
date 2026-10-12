@@ -77,7 +77,22 @@ MODELS_TO_TRY = [
 # Track exhausted (key_index, model) pairs dynamically for this session
 EXHAUSTED_KEY_MODELS = set()
 
-def classify_pos(meaning):
+def load_hsk_pos_db():
+    """Loads exact part of speech dictionary from word-illustrations.js."""
+    if not WORD_ILLUSTRATIONS_JS.exists():
+        return {}
+    try:
+        content = WORD_ILLUSTRATIONS_JS.read_text(encoding="utf-8")
+        m = re.search(r"const HSK_POS_DB = (\{[\s\S]*?\});", content)
+        if m:
+            return json.loads(m.group(1))
+    except Exception as e:
+        pass
+    return {}
+
+HSK_POS_DB = load_hsk_pos_db()
+
+def classify_pos(meaning, hanzi=""):
     """
     Classifies word into one of 4 categories matching user rules:
     - 'noun': NOUN (Danh từ - vật thể, con người, địa điểm)
@@ -85,6 +100,17 @@ def classify_pos(meaning):
     - 'adj': ADJECTIVE / DESCRIBING WORD (Tính từ / Trạng thái)
     - 'abstract': ABSTRACT / GRAMMAR / ADVERB / CONJUNCTION (Từ trừu tượng, phó từ, liên từ...)
     """
+    if hanzi and hanzi in HSK_POS_DB:
+        raw_pos = HSK_POS_DB[hanzi]
+        if raw_pos in ('adv', 'conj', 'prep', 'pron', 'measure'):
+            return 'abstract', 'Abstract / Grammar / Adverb / Conjunction (Từ trừu tượng, phó từ, liên từ)'
+        elif raw_pos == 'adj':
+            return 'adj', 'Adjective / Describing Word (Tính từ / Trạng thái)'
+        elif raw_pos == 'verb':
+            return 'verb', 'Verb / Action (Động từ)'
+        elif raw_pos == 'noun':
+            return 'noun', 'Noun (Danh từ - vật thể, con người, địa điểm)'
+
     m = (meaning or "").lower().strip()
 
     # 0. Check explicit tag in meaning
@@ -113,7 +139,6 @@ def classify_pos(meaning):
 
     # 4. Default: Noun
     return 'noun', 'Noun (Danh từ - vật thể, con người, địa điểm)'
-
 
 def load_level_data(file_path):
     if not file_path.exists():
@@ -456,6 +481,9 @@ GENERAL CONSTRAINTS:
 - Canvas & Format: Valid SVG with viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg".
 - Container: Full-bleed container: <rect width="240" height="240" rx="24" fill="#1A1D24"/>
 - No random gibberish text inside the image. Keep it clean, focused, and instantly comprehensible at a glance (flashcard optimization).
+- ABSOLUTELY NO abstract symbols, NO geometric badges, NO minimalist icons, NO generic emojis, NO sliders, NO meters, NO progress bars, NO gauge dials.
+- ABSOLUTELY NO floating hearts (❤️), glowing heart icons, or romantic tropes UNLESS the word is explicitly about romantic love (e.g. 爱, 恋爱, 结婚, 谈恋爱) or literal anatomy (心脏). For gratitude, helping, politeness, kindness, teamwork, or friendship, DO NOT draw hearts! Depict genuine respectful social interactions (e.g. slight bow, handshake, warm smile, polite hand gesture) instead of romantic tropes.
+- For free-of-charge / zero-cost concepts (e.g. 免费, 免税, 赠送, 义诊), DO NOT draw generic wrapped birthday gift boxes or souvenir shops! A wrapped gift box conveys 'gift/present' (礼物), NOT 'free of charge'. Instead, depict authentic real-world transactions where fee/payment is waived (e.g. an event entrance/registration counter where attendees are welcomed with a 0-cost admission pass, staff warmly waving off payment with a friendly gesture, or an open gate with crossed-out coin/fee indicator).
 - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.
 - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.
 - Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any commentary."""

@@ -110,17 +110,18 @@
       <circle cx="0" cy="2" r="2.5" fill="#d97706"/>
     </g>
 
-    <!-- Floating Heart Symbol (Appreciation / Thanks) -->
+    <!-- Warm Golden Gratitude Star / Sparkle of Appreciation (Polite & friendly) -->
     <g transform="translate(120, 75)" filter="url(#softShadow)">
       <animateTransform attributeName="transform" type="translate" values="120,78; 120,70; 120,78" dur="3s" repeatCount="indefinite"/>
-      <path d="M0 10 C-12 -2 -22 -12 -12 -22 C-4 -30 0 -20 0 -20 C0 -20 4 -30 12 -22 C22 -12 12 -2 0 10 Z" fill="#ef4444"/>
-      <!-- Heart Shine -->
-      <path d="M-6 -14 C-10 -18 -4 -20 -6 -14 Z" fill="#ffffff" opacity="0.6"/>
+      <!-- Radiant golden star sparkle -->
+      <path d="M0 -15 C1 -4 4 -1 15 0 C4 1 1 4 0 15 C-1 4 -4 1 -15 0 C-4 -1 -1 -4 0 -15 Z" fill="#fbbf24"/>
+      <circle cx="0" cy="0" r="3.5" fill="#f59e0b"/>
+      <circle cx="0" cy="0" r="1.5" fill="#ffffff" opacity="0.9"/>
     </g>
 
   </g>
 
-  <!-- Sparkles around the heart -->
+  <!-- Sparkles around the gratitude glow -->
   <g fill="#38bdf8">
     <circle cx="95" cy="70" r="2">
       <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>

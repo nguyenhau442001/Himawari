@@ -28,12 +28,33 @@ POS_NAMES = {
     'noun': 'noun / physical object or conceptual entity',
     'verb': 'verb / dynamic action, movement or execution',
     'adj': 'adjective / qualitative attribute, emotional or sensory state',
-    'adv': 'adverb / degree, manner, or frequency meter',
+    'adv': 'adverb / contextual manner, degree, timing or modal expression (scene-based story, DO NOT draw meters or gauges)',
     'measure': 'measure word / modular counting unit',
     'pron': 'pronoun / connection or reference',
     'prep': 'preposition / spatial or directional relation',
     'conj': 'conjunction / bridge connecting elements'
 }
+
+def load_hsk_pos_db():
+    """Loads exact part of speech dictionary from word-illustrations.js."""
+    if not WORD_ILLUSTRATIONS_JS.exists():
+        return {}
+    try:
+        content = WORD_ILLUSTRATIONS_JS.read_text(encoding="utf-8")
+        m = re.search(r"const HSK_POS_DB = (\{[\s\S]*?\});", content)
+        if m:
+            return json.loads(m.group(1))
+    except Exception as e:
+        print(f"[!] Warning loading HSK_POS_DB: {e}", flush=True)
+    return {}
+
+HSK_POS_DB = load_hsk_pos_db()
+
+def get_pos(hanzi, meaning=""):
+    """Accurately gets POS from HSK_POS_DB or falls back to heuristic classifier."""
+    if hanzi and hanzi in HSK_POS_DB:
+        return HSK_POS_DB[hanzi]
+    return guess_pos(meaning)
 
 def load_vocabulary():
     """Loads all HSK vocabularies indexed by hanzi."""
@@ -144,10 +165,12 @@ GENERAL CONSTRAINTS:
 - Canvas & Format: Valid SVG with viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg".
 - Container: Full-bleed container: <rect width="240" height="240" rx="24" fill="#1A1D24"/>
 - No random gibberish text inside the image. Keep it clean, focused, and instantly comprehensible at a glance (flashcard optimization).
+- ABSOLUTELY NO abstract symbols, NO geometric badges, NO minimalist icons, NO generic emojis, NO sliders, NO meters, NO progress bars, NO gauge dials.
+- ABSOLUTELY NO floating hearts (❤️), glowing heart icons, or romantic tropes UNLESS the word is explicitly about romantic love (e.g. 爱, 恋爱, 结婚, 谈恋爱) or literal anatomy (心脏). For gratitude, helping, politeness, kindness, teamwork, or friendship, DO NOT draw hearts! Depict genuine respectful social interactions (e.g. slight bow, handshake, warm smile, polite hand gesture) instead of romantic tropes.
+- For free-of-charge / zero-cost concepts (e.g. 免费, 免税, 赠送, 义诊), DO NOT draw generic wrapped birthday gift boxes or souvenir shops! A wrapped gift box conveys 'gift/present' (礼物), NOT 'free of charge'. Instead, depict authentic real-world transactions where fee/payment is waived (e.g. an event entrance/registration counter where attendees are welcomed with a 0-cost admission pass, staff warmly waving off payment with a friendly gesture, or an open gate with crossed-out coin/fee indicator).
 - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.
 - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.
 - Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any commentary."""
-
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.35}

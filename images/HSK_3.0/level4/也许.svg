@@ -1,33 +1,140 @@
-<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 240 240" width="240" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
-      <stop offset="0%" stop-color="#0f172a"/>
+    <!-- Background Gradient (Atmospheric Office Interior) -->
+    <linearGradient id="officeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="60%" stop-color="#0f172a"/>
       <stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
+
+    <!-- Twilight Window Gradient (Dusk Sky - Going Home Theme) -->
+    <linearGradient id="duskSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="80%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+
+    <!-- Desk Surface Gradient -->
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <!-- Soft Drop Shadow Filter -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
   </defs>
-  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
-  
-  <!-- Window Frame -->
-  <path d="M40 40h160v160H40z" fill="#334155" stroke="#475569" stroke-width="4"/>
-  <path d="M120 40v160M40 120h160" stroke="#475569" stroke-width="4"/>
-  
-  <!-- Rain/Atmosphere -->
-  <line x1="60" y1="50" x2="50" y2="80" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
-  <line x1="100" y1="60" x2="90" y2="90" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
-  <line x1="180" y1="70" x2="170" y2="100" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
-  
-  <!-- The Subject: A person looking out the window, uncertain/contemplative -->
-  <circle cx="150" cy="150" r="30" fill="#fbbf24"/>
-  <path d="M135 140c0-10 7-15 15-15s15 5 15 15" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
-  <path d="M142 145h2" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
-  <path d="M156 145h2" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
-  <path d="M145 155c5 5 10 5 15 0" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
-  
-  <!-- Thought Bubble/Uncertainty Indicator -->
-  <path d="M180 100c0-15-20-20-30-10-10-10-30-5-30 10 0 10 10 15 20 10l-5 10 10-5" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  
-  <!-- Interior Desk Detail -->
-  <rect x="0" y="190" width="240" height="50" fill="#1e293b"/>
-  <rect x="20" y="200" width="60" height="10" rx="2" fill="#fb923c"/>
-  <circle cx="100" cy="205" r="8" fill="#10b981"/>
+
+  <!-- Container Base -->
+  <rect width="240" height="240" rx="24" fill="url(#officeBg)"/>
+
+  <!-- Office Wall / Window to Evening Outside -->
+  <g id="window-view">
+    <!-- Window Frame Aperture -->
+    <rect x="95" y="24" width="125" height="100" rx="8" fill="url(#duskSky)"/>
+    
+    <!-- Distant City Skyline & Cozy Little House (Home/回家 motif) -->
+    <path d="M100 124 L100 102 L115 102 L115 124 Z" fill="#1e1b4b" opacity="0.8"/>
+    <path d="M120 124 L120 95 L140 95 L140 124 Z" fill="#0f172a" opacity="0.9"/>
+    
+    <!-- Warm Little House Silhouette with Glowing Window in the Distance -->
+    <polygon points="175,98 190,86 205,98" fill="#18181b"/>
+    <rect x="178" y="98" width="24" height="26" fill="#18181b"/>
+    <!-- Cozy glowing home window -->
+    <rect x="185" y="104" width="10" height="10" rx="1" fill="#fbbf24" opacity="0.95"/>
+    <line x1="190" y1="104" x2="190" y2="114" stroke="#78350f" stroke-width="1"/>
+    <line x1="185" y1="109" x2="195" y2="109" stroke="#78350f" stroke-width="1"/>
+
+    <!-- Evening Crescent Moon -->
+    <path d="M152 42 A 9 9 0 0 0 160 56 A 11 11 0 1 1 152 42 Z" fill="#fef08a" opacity="0.85"/>
+
+    <!-- Window Glass Bars -->
+    <rect x="93" y="22" width="129" height="104" rx="8" fill="none" stroke="#334155" stroke-width="4"/>
+    <line x1="155" y1="24" x2="155" y2="124" stroke="#334155" stroke-width="3"/>
+    <line x1="95" y1="75" x2="220" y2="75" stroke="#334155" stroke-width="3"/>
+  </g>
+
+  <!-- Office Floor Line -->
+  <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="#0b101b"/>
+  <line x1="0" y1="180" x2="240" y2="180" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Empty Desk Environment (Colleague has left for home) -->
+  <g id="empty-desk" filter="url(#softShadow)">
+    <!-- Empty Office Chair Backrest -->
+    <ellipse cx="160" cy="120" rx="18" ry="24" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <rect x="157" y="142" width="6" height="14" fill="#334155"/>
+
+    <!-- Desk Surface Top -->
+    <polygon points="90,150 230,150 220,165 80,165" fill="url(#deskGrad)"/>
+    <!-- Desk Front Edge -->
+    <polygon points="80,165 220,165 220,172 80,172" fill="#1e293b"/>
+    <!-- Desk Legs -->
+    <rect x="90" y="172" width="5" height="42" fill="#334155"/>
+    <rect x="210" y="172" width="5" height="42" fill="#334155"/>
+
+    <!-- Powered-off Computer Monitor (Black screen, colleague left) -->
+    <rect x="135" y="105" width="45" height="32" rx="3" fill="#090d16" stroke="#475569" stroke-width="2"/>
+    <line x1="157" y1="137" x2="157" y2="148" stroke="#64748b" stroke-width="4"/>
+    <ellipse cx="157" cy="149" rx="10" ry="2.5" fill="#475569"/>
+
+    <!-- Tidy Empty Desk Props: Notebook & Coffee Mug -->
+    <rect x="102" y="153" width="18" height="9" rx="1" fill="#cbd5e1"/>
+    <!-- Finished / Cold Mug -->
+    <rect x="194" y="146" width="9" height="12" rx="2" fill="#f97316"/>
+    <path d="M203 149 C206 149 206 155 203 155" fill="none" stroke="#f97316" stroke-width="2"/>
+  </g>
+
+  <!-- Pondering Colleague (Wondering: "也许已经回家了..." / "Perhaps he went home...") -->
+  <g id="character-pondering">
+    <!-- Character Shadow -->
+    <ellipse cx="56" cy="222" rx="24" ry="7" fill="#020617" opacity="0.6"/>
+
+    <!-- Legs & Slacks -->
+    <path d="M44 175 L42 220 L51 220 L53 175 Z" fill="#1e293b"/>
+    <path d="M57 175 L59 220 L68 220 L66 175 Z" fill="#1e293b"/>
+    <!-- Shoes -->
+    <path d="M38 220 C38 217 52 217 52 222 L38 222 Z" fill="#0f172a"/>
+    <path d="M56 220 C56 217 71 217 71 222 L56 222 Z" fill="#0f172a"/>
+
+    <!-- Torso / Smart Casual Sweater -->
+    <path d="M36 122 C42 118 68 118 74 122 L70 178 C60 180 48 180 40 178 Z" fill="#38bdf8"/>
+    <!-- Collar Detail -->
+    <polygon points="50,120 55,129 60,120" fill="#0284c7"/>
+
+    <!-- Left Arm (Resting thoughtful at hip) -->
+    <path d="M38 124 C30 135 32 152 42 158" fill="none" stroke="#38bdf8" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="43" cy="158" rx="4" ry="4" fill="#fcd34d"/>
+
+    <!-- Head & Neck -->
+    <rect x="51" y="105" width="8" height="14" fill="#fcd34d"/>
+    <!-- Head Base -->
+    <circle cx="55" cy="94" r="16" fill="#fcd34d"/>
+    <!-- Hair -->
+    <path d="M39 92 C38 78 52 74 67 76 C73 77 74 85 73 90 C69 84 62 82 53 84 C46 86 42 88 39 92 Z" fill="#0f172a"/>
+
+    <!-- Expressive Pondering Face (Tilted slightly toward empty desk) -->
+    <!-- Contemplative eyebrow (slanted in thought) -->
+    <path d="M53 87 Q59 85 64 88" fill="none" stroke="#78350f" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Thoughtful glancing eye -->
+    <circle cx="61" cy="93" r="2.2" fill="#0f172a"/>
+    <circle cx="62" cy="92.5" r="0.8" fill="#ffffff"/>
+    <!-- Thoughtful / wondering gentle mouth -->
+    <path d="M57 101 Q61 100 64 102" fill="none" stroke="#78350f" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Right Arm (Hand on chin / cheek - Iconic "Thinking / Perhaps" Pose) -->
+    <path d="M68 126 C78 138 76 150 70 156" fill="none" stroke="#38bdf8" stroke-width="9" stroke-linecap="round"/>
+    <!-- Forearm reaching up to chin -->
+    <path d="M70 155 L65 110" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hand gently cradling the chin in deep thought -->
+    <circle cx="64" cy="103" rx="4" ry="4" fill="#fcd34d"/>
+    <path d="M62 101 Q65 99 67 104" fill="none" stroke="#eab308" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Thought / Speculation Trail towards the cozy home in the window -->
+  <!-- Tiny subtle glowing dust motes illustrating reflection -->
+  <circle cx="92" cy="78" r="2" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="118" cy="62" r="3" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="145" cy="50" r="2.5" fill="#fcd34d" opacity="0.7"/>
 </svg>

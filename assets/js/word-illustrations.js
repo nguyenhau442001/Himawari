@@ -24524,7 +24524,10 @@ function buildContextualPrompt(word) {
       actionScene = `A rich real-world scenario featuring an expressive character vividly embodying the state or emotion of '${meaning}'. Depict expressive facial emotion, dynamic body posture, and immersive atmospheric ambiance (e.g., dramatic lighting, weather, or room setting) making the concept immediately intuitive.`;
       break;
     case 'adv':
-      actionScene = `An engaging storytelling visual scene depicting the manner, degree, or timing of '${meaning}' in a relatable everyday context with active characters and environmental props.`;
+      actionScene = `An authentic, scene-based human story grounded directly in the example sentence depicting the situation or moment of '${meaning}' with relatable characters, expressive body posture, and environmental props. Absolutely NO abstract sliders, gauges, meters, emojis, or progress bars.`;
+      break;
+    case 'conj':
+      actionScene = `A relatable real-world human scenario demonstrating the connecting context of '${meaning}' grounded in the example sentence, with expressive characters and environment props. Absolutely NO abstract bridge icons, arrows, or flowcharts.`;
       break;
     case 'measure':
       actionScene = `A modular grouping of everyday tangible items demonstrating the counting unit concept of '${meaning}', stacked or arranged neatly in an authentic real-world scene.`;
@@ -24545,7 +24548,7 @@ function buildContextualPrompt(word) {
   const visualStyle = 'Clean, friendly 2D flat cartoon or minimalist vector illustration with expressive contours, rich narrative depth, and full-bleed composition filling the container space. Dark-mode friendly color palette with deep slate navy background (#0f172a, #1e293b), muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).';
 
   // Strict negative constraints
-  const negativeConstraints = 'STRICT NEGATIVE CONSTRAINTS: Absolutely NO abstract symbols, NO logos, NO minimalist icons, NO geometric badges. Absolutely NO text, NO letters, NO words, NO subtitles, NO typography, NO Chinese characters, NO Hanzi, NO English words, NO pinyin, NO brand logos, NO Gemini logos, NO watermarks, NO 3D photorealistic rendering.';
+  const negativeConstraints = 'STRICT NEGATIVE CONSTRAINTS: Absolutely NO abstract symbols, NO logos, NO minimalist icons, NO geometric badges, NO sliders, NO progress bars, NO gauges, NO meter dials, NO floating emojis. Absolutely NO text, NO letters, NO words, NO subtitles, NO typography, NO Chinese characters, NO Hanzi, NO English words, NO pinyin, NO brand logos, NO Gemini logos, NO watermarks, NO 3D photorealistic rendering.';
 
   const fullPrompt = `${visualStyle} Subject: ${actionScene}${contextClue} Designed for language flashcard memory anchoring. ${negativeConstraints}`;
 
