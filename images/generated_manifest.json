@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:43:50.613061",
-  "total_unique_words_with_illustrations": 3849,
-  "total_flat_svg_files": 3849,
+  "generated_at": "2026-10-12T12:45:39.706119",
+  "total_unique_words_with_illustrations": 3859,
+  "total_flat_svg_files": 3859,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1209,
-        "pct": "48.4%"
+        "with_svg": 1219,
+        "pct": "48.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 431,
-        "pct": "23.9%"
+        "with_svg": 436,
+        "pct": "24.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 503,
-        "pct": "9.0%"
+        "with_svg": 508,
+        "pct": "9.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 503,
-        "pct": "9.0%"
+        "with_svg": 508,
+        "pct": "9.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 503,
-        "pct": "9.0%"
+        "with_svg": 508,
+        "pct": "9.1%"
       }
     }
   },
@@ -59562,6 +59562,50 @@
       "src": "images/HSK_2.0/level6/棍子.svg",
       "alt_srcs": []
     },
+    "国民": {
+      "hanzi": "国民",
+      "pinyin": "guómín",
+      "meaning": "quốc dân, công dân",
+      "example_zh": "<u>国民</u>经济持续增长。",
+      "example_vi": "Kinh tế <u>quốc dân</u> tiếp tục tăng trưởng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "国民.svg",
+      "src": "images/HSK_2.0/level6/国民.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/国民.svg",
+        "images/HSK_3.0/level8/国民.svg",
+        "images/HSK_3.0/level9/国民.svg"
+      ]
+    },
+    "过滤": {
+      "hanzi": "过滤",
+      "pinyin": "guòlǜ",
+      "meaning": "lọc",
+      "example_zh": "水需要<u>过滤</u>才能喝。",
+      "example_vi": "Nước cần được <u>lọc</u> mới uống được.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "过滤.svg",
+      "src": "images/HSK_2.0/level6/过滤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/过滤.svg",
+        "images/HSK_3.0/level8/过滤.svg",
+        "images/HSK_3.0/level9/过滤.svg"
+      ]
+    },
     "过于": {
       "hanzi": "过于",
       "pinyin": "guòyú",
@@ -59580,6 +59624,24 @@
         "images/HSK_3.0/level5/过于.svg"
       ]
     },
+    "海岸": {
+      "hanzi": "海岸",
+      "pinyin": "hǎiàn",
+      "meaning": "bờ biển",
+      "example_zh": "他们沿着<u>海岸</u>散步。",
+      "example_vi": "Họ đi dạo dọc <u>bờ biển</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "海岸.svg",
+      "src": "images/HSK_2.0/level6/海岸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/海岸.svg"
+      ]
+    },
     "海外": {
       "hanzi": "海外",
       "pinyin": "hǎiwài",
@@ -59596,6 +59658,144 @@
       "src": "images/HSK_2.0/level6/海外.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/海外.svg"
+      ]
+    },
+    "含蓄": {
+      "hanzi": "含蓄",
+      "pinyin": "hánxù",
+      "meaning": "hàm súc, kín đáo",
+      "example_zh": "她说话很<u>含蓄</u>。",
+      "example_vi": "Cô ấy nói chuyện rất <u>kín đáo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "含蓄.svg",
+      "src": "images/HSK_2.0/level6/含蓄.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/含蓄.svg",
+        "images/HSK_3.0/level8/含蓄.svg",
+        "images/HSK_3.0/level9/含蓄.svg"
+      ]
+    },
+    "含义": {
+      "hanzi": "含义",
+      "pinyin": "hányì",
+      "meaning": "hàm nghĩa",
+      "example_zh": "这句话有深刻的<u>含义</u>。",
+      "example_vi": "Câu này có <u>hàm nghĩa</u> sâu sắc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "含义.svg",
+      "src": "images/HSK_2.0/level6/含义.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/含义.svg"
+      ]
+    },
+    "含糊": {
+      "hanzi": "含糊",
+      "pinyin": "hánhu",
+      "meaning": "mơ hồ, lờ mờ",
+      "example_zh": "他的回答很<u>含糊</u>。",
+      "example_vi": "Câu trả lời của anh ấy rất <u>mơ hồ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "含糊.svg",
+      "src": "images/HSK_2.0/level6/含糊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/含糊.svg",
+        "images/HSK_3.0/level8/含糊.svg",
+        "images/HSK_3.0/level9/含糊.svg"
+      ]
+    },
+    "罕见": {
+      "hanzi": "罕见",
+      "pinyin": "hǎnjiàn",
+      "meaning": "hiếm thấy",
+      "example_zh": "这是一种非常<u>罕见</u>的疾病。",
+      "example_vi": "Đây là một loại bệnh rất <u>hiếm thấy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "罕见.svg",
+      "src": "images/HSK_2.0/level6/罕见.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/罕见.svg"
+      ]
+    },
+    "行列": {
+      "hanzi": "行列",
+      "pinyin": "hángliè",
+      "meaning": "hàng ngũ",
+      "example_zh": "他加入了志愿者的<u>行列</u>。",
+      "example_vi": "Anh ấy gia nhập <u>hàng ngũ</u> tình nguyện viên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "行列.svg",
+      "src": "images/HSK_2.0/level6/行列.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/行列.svg",
+        "images/HSK_3.0/level8/行列.svg",
+        "images/HSK_3.0/level9/行列.svg"
+      ]
+    },
+    "毫不": {
+      "hanzi": "毫不",
+      "pinyin": "háobù",
+      "meaning": "tuyệt không, không hề",
+      "example_zh": "他<u>毫不</u>犹豫地答应了。",
+      "example_vi": "Anh ấy <u>không hề</u> chần chừ mà đồng ý ngay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "毫不.svg",
+      "src": "images/HSK_2.0/level6/毫不.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/毫不.svg"
+      ]
+    },
+    "毫米": {
+      "hanzi": "毫米",
+      "pinyin": "háomǐ",
+      "meaning": "milimét",
+      "example_zh": "这块布厚两<u>毫米</u>。",
+      "example_vi": "Tấm vải này dày hai <u>milimét</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "毫米.svg",
+      "src": "images/HSK_2.0/level6/毫米.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/毫米.svg"
       ]
     },
     "花费": {

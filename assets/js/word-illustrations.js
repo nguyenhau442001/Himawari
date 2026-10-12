@@ -16147,15 +16147,65 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/棍子.svg",
     "caption": "cái gậy"
   },
+  "国民": {
+    "file": "国民.svg",
+    "src": "images/HSK_2.0/level6/国民.svg",
+    "caption": "quốc dân, công dân"
+  },
+  "过滤": {
+    "file": "过滤.svg",
+    "src": "images/HSK_2.0/level6/过滤.svg",
+    "caption": "lọc"
+  },
   "过于": {
     "file": "过于.svg",
     "src": "images/HSK_2.0/level6/过于.svg",
     "caption": "quá mức"
   },
+  "海岸": {
+    "file": "海岸.svg",
+    "src": "images/HSK_2.0/level6/海岸.svg",
+    "caption": "bờ biển"
+  },
   "海外": {
     "file": "海外.svg",
     "src": "images/HSK_2.0/level6/海外.svg",
     "caption": "hải ngoại, nước ngoài"
+  },
+  "含蓄": {
+    "file": "含蓄.svg",
+    "src": "images/HSK_2.0/level6/含蓄.svg",
+    "caption": "hàm súc, kín đáo"
+  },
+  "含义": {
+    "file": "含义.svg",
+    "src": "images/HSK_2.0/level6/含义.svg",
+    "caption": "hàm nghĩa"
+  },
+  "含糊": {
+    "file": "含糊.svg",
+    "src": "images/HSK_2.0/level6/含糊.svg",
+    "caption": "mơ hồ, lờ mờ"
+  },
+  "罕见": {
+    "file": "罕见.svg",
+    "src": "images/HSK_2.0/level6/罕见.svg",
+    "caption": "hiếm thấy"
+  },
+  "行列": {
+    "file": "行列.svg",
+    "src": "images/HSK_2.0/level6/行列.svg",
+    "caption": "hàng ngũ"
+  },
+  "毫不": {
+    "file": "毫不.svg",
+    "src": "images/HSK_2.0/level6/毫不.svg",
+    "caption": "tuyệt không, không hề"
+  },
+  "毫米": {
+    "file": "毫米.svg",
+    "src": "images/HSK_2.0/level6/毫米.svg",
+    "caption": "milimét"
   },
   "花费": {
     "file": "花费.svg",
