@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:28:36.665190",
-  "total_unique_words_with_illustrations": 4185,
-  "total_flat_svg_files": 4185,
+  "generated_at": "2026-10-12T21:36:10.486016",
+  "total_unique_words_with_illustrations": 4195,
+  "total_flat_svg_files": 4195,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1545,
-        "pct": "61.8%"
+        "with_svg": 1555,
+        "pct": "62.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 526,
-        "pct": "29.2%"
+        "with_svg": 530,
+        "pct": "29.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 717,
-        "pct": "12.8%"
+        "with_svg": 723,
+        "pct": "12.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 717,
-        "pct": "12.8%"
+        "with_svg": 723,
+        "pct": "12.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 717,
-        "pct": "12.8%"
+        "with_svg": 723,
+        "pct": "12.9%"
       }
     }
   },
@@ -66682,6 +66682,210 @@
         "images/HSK_3.0/level7/迷信.svg",
         "images/HSK_3.0/level8/迷信.svg",
         "images/HSK_3.0/level9/迷信.svg"
+      ]
+    },
+    "谜语": {
+      "hanzi": "谜语",
+      "pinyin": "míyǔ",
+      "meaning": "câu đố",
+      "example_zh": "孩子们喜欢猜<u>谜语</u>。",
+      "example_vi": "Trẻ em thích đoán <u>câu đố</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "谜语.svg",
+      "src": "images/HSK_2.0/level6/谜语.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/谜语.svg",
+        "images/HSK_3.0/level8/谜语.svg",
+        "images/HSK_3.0/level9/谜语.svg"
+      ]
+    },
+    "密度": {
+      "hanzi": "密度",
+      "pinyin": "mìdù",
+      "meaning": "mật độ",
+      "example_zh": "这座城市的人口<u>密度</u>很高。",
+      "example_vi": "<u>Mật độ</u> dân số của thành phố này rất cao.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "密度.svg",
+      "src": "images/HSK_2.0/level6/密度.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/密度.svg"
+      ]
+    },
+    "密封": {
+      "hanzi": "密封",
+      "pinyin": "mìfēng",
+      "meaning": "đóng kín, bịt kín",
+      "example_zh": "这种食品需要<u>密封</u>保存。",
+      "example_vi": "Loại thực phẩm này cần được bảo quản <u>đóng kín</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "密封.svg",
+      "src": "images/HSK_2.0/level6/密封.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/密封.svg",
+        "images/HSK_3.0/level8/密封.svg",
+        "images/HSK_3.0/level9/密封.svg"
+      ]
+    },
+    "棉花": {
+      "hanzi": "棉花",
+      "pinyin": "miánhua",
+      "meaning": "bông (cây bông, sợi bông)",
+      "example_zh": "农民正在地里采摘<u>棉花</u>。",
+      "example_vi": "Nông dân đang hái <u>bông</u> ngoài đồng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "棉花.svg",
+      "src": "images/HSK_2.0/level6/棉花.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/棉花.svg",
+        "images/HSK_3.0/level8/棉花.svg",
+        "images/HSK_3.0/level9/棉花.svg"
+      ]
+    },
+    "免得": {
+      "hanzi": "免得",
+      "pinyin": "miǎndé",
+      "meaning": "để khỏi, kẻo",
+      "example_zh": "早点出发，<u>免得</u>迟到。",
+      "example_vi": "Xuất phát sớm hơn, <u>để khỏi</u> bị muộn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "免得.svg",
+      "src": "images/HSK_2.0/level6/免得.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/免得.svg",
+        "images/HSK_3.0/level8/免得.svg",
+        "images/HSK_3.0/level9/免得.svg"
+      ]
+    },
+    "免疫": {
+      "hanzi": "免疫",
+      "pinyin": "miǎnyì",
+      "meaning": "miễn dịch",
+      "example_zh": "接种疫苗可以增强<u>免疫</u>力。",
+      "example_vi": "Tiêm vắc-xin có thể tăng cường khả năng <u>miễn dịch</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "免疫.svg",
+      "src": "images/HSK_2.0/level6/免疫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/免疫.svg"
+      ]
+    },
+    "勉励": {
+      "hanzi": "勉励",
+      "pinyin": "miǎnlì",
+      "meaning": "khuyến khích, động viên",
+      "example_zh": "老师<u>勉励</u>学生们努力学习。",
+      "example_vi": "Thầy giáo <u>động viên</u> các học sinh chăm chỉ học tập.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "勉励.svg",
+      "src": "images/HSK_2.0/level6/勉励.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/勉励.svg",
+        "images/HSK_3.0/level8/勉励.svg",
+        "images/HSK_3.0/level9/勉励.svg"
+      ]
+    },
+    "勉强": {
+      "hanzi": "勉强",
+      "pinyin": "miǎnqiǎng",
+      "meaning": "gượng ép, miễn cưỡng",
+      "example_zh": "他<u>勉强</u>答应了我的请求。",
+      "example_vi": "Anh ấy <u>miễn cưỡng</u> đồng ý với yêu cầu của tôi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "勉强.svg",
+      "src": "images/HSK_2.0/level6/勉强.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/勉强.svg"
+      ]
+    },
+    "面貌": {
+      "hanzi": "面貌",
+      "pinyin": "miànmào",
+      "meaning": "diện mạo, bộ mặt",
+      "example_zh": "这座城市的<u>面貌</u>焕然一新。",
+      "example_vi": "<u>Diện mạo</u> của thành phố này đã hoàn toàn đổi mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "面貌.svg",
+      "src": "images/HSK_2.0/level6/面貌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/面貌.svg",
+        "images/HSK_3.0/level8/面貌.svg",
+        "images/HSK_3.0/level9/面貌.svg"
+      ]
+    },
+    "面子": {
+      "hanzi": "面子",
+      "pinyin": "miànzi",
+      "meaning": "thể diện, mặt mũi",
+      "example_zh": "他很在乎自己的<u>面子</u>。",
+      "example_vi": "Anh ấy rất quan tâm đến <u>thể diện</u> của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "面子.svg",
+      "src": "images/HSK_2.0/level6/面子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/面子.svg"
       ]
     },
     "模式": {

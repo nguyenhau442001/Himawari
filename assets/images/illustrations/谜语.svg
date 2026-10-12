@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="180" width="240" height="60" fill="#0f172a" opacity="0.3"/>
+  
+  <!-- Table -->
+  <path d="M40 190 L200 190 L190 220 L50 220 Z" fill="#475569"/>
+  <path d="M50 220 L60 235 L180 235 L190 220 Z" fill="#334155"/>
+  
+  <!-- Characters -->
+  <!-- Child 1 -->
+  <circle cx="80" cy="130" r="25" fill="#fde68a"/>
+  <path d="M65 130 Q80 150 95 130" stroke="#78350f" stroke-width="2" fill="none"/>
+  <circle cx="72" cy="125" r="3" fill="#78350f"/>
+  <circle cx="88" cy="125" r="3" fill="#78350f"/>
+  <path d="M60 155 L75 190 L65 210" stroke="#ec4899" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Child 2 -->
+  <circle cx="160" cy="130" r="25" fill="#fde68a"/>
+  <path d="M145 130 Q160 150 175 130" stroke="#78350f" stroke-width="2" fill="none"/>
+  <circle cx="152" cy="125" r="3" fill="#78350f"/>
+  <circle cx="168" cy="125" r="3" fill="#78350f"/>
+  <path d="M175 155 L160 190 L170 210" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Props: Riddle Cards -->
+  <rect x="100" y="160" width="40" height="50" rx="4" fill="#fbbf24"/>
+  <path d="M110 170 L130 170 M110 180 L130 180 M110 190 L120 190" stroke="#78350f" stroke-width="3" stroke-linecap="round"/>
+  
+  <rect x="90" y="150" width="40" height="50" rx="4" fill="#f59e0b" transform="rotate(-15 110 175)"/>
+  <circle cx="110" cy="175" r="8" fill="#fff" opacity="0.2"/>
+  
+  <!-- Floating Elements -->
+  <path d="M180 80 Q190 60 200 80 T220 80" stroke="#10b981" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="40" cy="70" r="6" fill="#fb923c"/>
+  <path d="M40 50 L40 60 M30 55 L50 55" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Decorative Background -->
+  <circle cx="200" cy="40" r="20" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+</svg>

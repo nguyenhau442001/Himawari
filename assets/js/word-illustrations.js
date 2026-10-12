@@ -17912,6 +17912,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/迷信.svg",
     "caption": "mê tín"
   },
+  "谜语": {
+    "file": "谜语.svg",
+    "src": "images/HSK_2.0/level6/谜语.svg",
+    "caption": "câu đố"
+  },
+  "密度": {
+    "file": "密度.svg",
+    "src": "images/HSK_2.0/level6/密度.svg",
+    "caption": "mật độ"
+  },
+  "密封": {
+    "file": "密封.svg",
+    "src": "images/HSK_2.0/level6/密封.svg",
+    "caption": "đóng kín, bịt kín"
+  },
+  "棉花": {
+    "file": "棉花.svg",
+    "src": "images/HSK_2.0/level6/棉花.svg",
+    "caption": "bông (cây bông, sợi bông)"
+  },
+  "免得": {
+    "file": "免得.svg",
+    "src": "images/HSK_2.0/level6/免得.svg",
+    "caption": "để khỏi, kẻo"
+  },
+  "免疫": {
+    "file": "免疫.svg",
+    "src": "images/HSK_2.0/level6/免疫.svg",
+    "caption": "miễn dịch"
+  },
+  "勉励": {
+    "file": "勉励.svg",
+    "src": "images/HSK_2.0/level6/勉励.svg",
+    "caption": "khuyến khích, động viên"
+  },
+  "勉强": {
+    "file": "勉强.svg",
+    "src": "images/HSK_2.0/level6/勉强.svg",
+    "caption": "gượng ép, miễn cưỡng"
+  },
+  "面貌": {
+    "file": "面貌.svg",
+    "src": "images/HSK_2.0/level6/面貌.svg",
+    "caption": "diện mạo, bộ mặt"
+  },
+  "面子": {
+    "file": "面子.svg",
+    "src": "images/HSK_2.0/level6/面子.svg",
+    "caption": "thể diện, mặt mũi"
+  },
   "模式": {
     "file": "模式.svg",
     "src": "images/HSK_2.0/level6/模式.svg",

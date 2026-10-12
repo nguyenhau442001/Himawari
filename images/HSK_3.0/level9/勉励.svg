@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <rect x="20" y="140" width="200" height="80" rx="8" fill="#334155"/>
+  <rect x="30" y="150" width="180" height="60" rx="4" fill="#1e293b"/>
+  
+  <path d="M120 120 C 140 120 150 130 150 150 L 150 220 L 90 220 L 90 150 C 90 130 100 120 120 120 Z" fill="#fb923c"/>
+  <circle cx="120" cy="100" r="20" fill="#fde68a"/>
+  <path d="M110 95 L 115 100 L 110 105 M 130 95 L 125 100 L 130 105" stroke="#92400e" stroke-width="2" fill="none"/>
+  
+  <path d="M60 160 L 80 160 L 85 220 L 55 220 Z" fill="#38bdf8"/>
+  <circle cx="70" cy="145" r="15" fill="#fde68a"/>
+  <path d="M65 142 L 68 145 L 65 148 M 75 142 L 72 145 L 75 148" stroke="#92400e" stroke-width="2" fill="none"/>
+  
+  <path d="M170 160 L 190 160 L 195 220 L 165 220 Z" fill="#ec4899"/>
+  <circle cx="180" cy="145" r="15" fill="#fde68a"/>
+  <path d="M175 142 L 178 145 L 175 148 M 185 142 L 182 145 L 185 148" stroke="#92400e" stroke-width="2" fill="none"/>
+  
+  <path d="M120 130 L 135 145 L 120 160" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M120 130 L 105 145 L 120 160" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <rect x="40" y="170" width="20" height="5" rx="2" fill="#fbbf24"/>
+  <rect x="170" y="170" width="20" height="5" rx="2" fill="#fbbf24"/>
+  
+  <circle cx="200" cy="40" r="30" fill="#f59e0b" opacity="0.1"/>
+  <circle cx="200" cy="40" r="15" fill="#f59e0b" opacity="0.2"/>
+</svg>
