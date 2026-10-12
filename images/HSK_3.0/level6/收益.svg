@@ -1,0 +1,30 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Glow Effect Background for Coin/Growth -->
+    <circle cx="0" cy="5" r="55" fill="#4B3B1F" opacity="0.3"/>
+    
+    <!-- Upward Trend Line / Arrow (representing profit/growth) -->
+    <path d="M-65 35 L-25 -5 L5 15 L55 -35" stroke="#374151" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M-65 35 L-25 -5 L5 15 L55 -35 V-20 M55 -35 H40" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Sparkles / Success Indicators -->
+    <path d="M45 -55 L48 -47 L56 -44 L48 -41 L45 -33 L42 -41 L34 -44 L42 -47 Z" fill="#FBBF24"/>
+    <path d="M-45 -35 L-43 -30 L-38 -28 L-43 -26 L-45 -21 L-47 -26 L-52 -28 L-47 -30 Z" fill="#FBBF24" opacity="0.7"/>
+
+    <!-- Main Physical Object: Golden Coin (Noun representation for revenue/profit) -->
+    <!-- Coin Outer Rim -->
+    <circle cx="0" cy="0" r="42" fill="#D97706"/>
+    <!-- Coin Inner -->
+    <circle cx="0" cy="0" r="34" fill="#F59E0B"/>
+    <!-- Coin Inner Ring Detail -->
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#D97706" stroke-width="1.5" stroke-dasharray="4 2"/>
+    
+    <!-- Currency Symbol / Center Motif -->
+    <path d="M-6 -14 H6 M-6 -6 H6 M-8 -14 C-8 -14 -8 -6 0 -6 C8 -6 8 2 8 2 C8 2 8 10 0 10 C-8 10 -8 2 -8 2 M0 -18 V18" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Highlight on Coin -->
+    <path d="M-24 -24 C-15 -32 15 -32 24 -24 C18 -20 6 -22 0 -22 C-6 -22 -18 -20 -24 -24 Z" fill="#FDE68A" opacity="0.6"/>
+  </g>
+</svg>

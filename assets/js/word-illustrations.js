@@ -20052,6 +20052,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/逝世.svg",
     "caption": "qua đời, mất"
   },
+  "收藏": {
+    "file": "收藏.svg",
+    "src": "images/HSK_2.0/level6/收藏.svg",
+    "caption": "sưu tầm, cất giữ"
+  },
+  "收缩": {
+    "file": "收缩.svg",
+    "src": "images/HSK_2.0/level6/收缩.svg",
+    "caption": "co lại, thu hẹp"
+  },
+  "收益": {
+    "file": "收益.svg",
+    "src": "images/HSK_2.0/level6/收益.svg",
+    "caption": "thu nhập, lợi nhuận"
+  },
+  "收音机": {
+    "file": "收音机.svg",
+    "src": "images/HSK_2.0/level6/收音机.svg",
+    "caption": "radio"
+  },
+  "手法": {
+    "file": "手法.svg",
+    "src": "images/HSK_2.0/level6/手法.svg",
+    "caption": "kỹ xảo, thủ pháp"
+  },
   "书法": {
     "file": "书法.svg",
     "src": "images/HSK_2.0/level6/书法.svg",

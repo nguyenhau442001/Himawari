@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:14:15.791589",
-  "total_unique_words_with_illustrations": 4583,
-  "total_flat_svg_files": 4583,
+  "generated_at": "2026-10-12T23:14:47.190131",
+  "total_unique_words_with_illustrations": 4588,
+  "total_flat_svg_files": 4588,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1943,
-        "pct": "77.7%"
+        "with_svg": 1948,
+        "pct": "77.9%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 646,
-        "pct": "35.9%"
+        "with_svg": 649,
+        "pct": "36.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 978,
+        "with_svg": 980,
         "pct": "17.5%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 978,
+        "with_svg": 980,
         "pct": "17.5%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 978,
+        "with_svg": 980,
         "pct": "17.5%"
       }
     }
@@ -75362,6 +75362,104 @@
         "images/HSK_3.0/level7/逝世.svg",
         "images/HSK_3.0/level8/逝世.svg",
         "images/HSK_3.0/level9/逝世.svg"
+      ]
+    },
+    "收藏": {
+      "hanzi": "收藏",
+      "pinyin": "shōucáng",
+      "meaning": "sưu tầm, cất giữ",
+      "example_zh": "他喜欢<u>收藏</u>古董。",
+      "example_vi": "Anh ấy thích <u>sưu tầm</u> đồ cổ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "收藏.svg",
+      "src": "images/HSK_2.0/level6/收藏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/收藏.svg"
+      ]
+    },
+    "收缩": {
+      "hanzi": "收缩",
+      "pinyin": "shōusuō",
+      "meaning": "co lại, thu hẹp",
+      "example_zh": "天冷会使金属<u>收缩</u>。",
+      "example_vi": "Trời lạnh sẽ làm kim loại <u>co lại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "收缩.svg",
+      "src": "images/HSK_2.0/level6/收缩.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/收缩.svg",
+        "images/HSK_3.0/level8/收缩.svg",
+        "images/HSK_3.0/level9/收缩.svg"
+      ]
+    },
+    "收益": {
+      "hanzi": "收益",
+      "pinyin": "shōuyì",
+      "meaning": "thu nhập, lợi nhuận",
+      "example_zh": "这笔投资的<u>收益</u>不错。",
+      "example_vi": "<u>Lợi nhuận</u> của khoản đầu tư này khá tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "收益.svg",
+      "src": "images/HSK_2.0/level6/收益.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/收益.svg"
+      ]
+    },
+    "收音机": {
+      "hanzi": "收音机",
+      "pinyin": "shōuyīnjī",
+      "meaning": "radio",
+      "example_zh": "爷爷每天都听<u>收音机</u>。",
+      "example_vi": "Ông tôi mỗi ngày đều nghe <u>radio</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "收音机.svg",
+      "src": "images/HSK_2.0/level6/收音机.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/收音机.svg",
+        "images/HSK_3.0/level8/收音机.svg",
+        "images/HSK_3.0/level9/收音机.svg"
+      ]
+    },
+    "手法": {
+      "hanzi": "手法",
+      "pinyin": "shǒufǎ",
+      "meaning": "kỹ xảo, thủ pháp",
+      "example_zh": "这部电影的拍摄<u>手法</u>很独特。",
+      "example_vi": "<u>Thủ pháp</u> quay phim của bộ phim này rất độc đáo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "手法.svg",
+      "src": "images/HSK_2.0/level6/手法.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/手法.svg"
       ]
     },
     "书法": {

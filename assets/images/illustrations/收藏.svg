@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/pedestal -->
+  <circle cx="120" cy="130" r="50" fill="#242833" opacity="0.8"/>
+  
+  <!-- Floating Treasure Chest / Collection Box (Physical Object) -->
+  <g transform="translate(0, 5)">
+    <!-- Back shadow / interior depth -->
+    <path d="M 75 110 L 165 110 L 165 155 Q 165 165 155 165 L 85 165 Q 75 165 75 155 Z" fill="#2A303C"/>
+    
+    <!-- Chest Body (Lower part) -->
+    <path d="M 70 120 L 170 120 L 175 160 Q 175 170 165 170 L 75 170 Q 65 170 65 160 Z" fill="#3B4252"/>
+    <path d="M 70 120 L 170 120 L 172 132 L 68 132 Z" fill="#4C566A"/>
+    
+    <!-- Chest Lid (Opened upward) -->
+    <g transform="translate(0, -10)">
+      <path d="M 68 120 Q 120 75 172 120 Z" fill="#434C5E"/>
+      <path d="M 72 118 Q 120 80 168 118 Z" fill="#4C566A"/>
+      <!-- Metallic trim on lid -->
+      <path d="M 68 120 Q 120 75 172 120 L 172 124 Q 120 81 68 124 Z" fill="#EBCB8B" opacity="0.3"/>
+    </g>
+
+    <!-- Metallic Straps & Lock (Gold/Orange accents for focus) -->
+    <!-- Vertical straps -->
+    <rect x="95" y="120" width="8" height="50" fill="#D08770" rx="1"/>
+    <rect x="137" y="120" width="8" height="50" fill="#D08770" rx="1"/>
+    
+    <!-- Horizontal rim straps -->
+    <rect x="66" y="142" width="108" height="6" fill="#D08770" rx="1"/>
+    
+    <!-- Center Lock Plate -->
+    <circle cx="120" cy="145" r="9" fill="#EBCB8B"/>
+    <circle cx="120" cy="145" r="4" fill="#2E3440"/>
+
+    <!-- Collected Treasures inside (Antique Vases, Gems, Scrolls) -->
+    <!-- Gold Coin Stack 1 -->
+    <ellipse cx="98" cy="115" rx="10" ry="4" fill="#EBCB8B"/>
+    <rect x="88" y="112" width="20" height="4" fill="#D08770"/>
+    <ellipse cx="98" cy="112" rx="10" ry="4" fill="#EBCB8B"/>
+    
+    <!-- Gem / Antique Artifact (Glowing Blue Crystal) -->
+    <path d="M 120 98 L 130 110 L 120 122 L 110 110 Z" fill="#88C0D0"/>
+    <path d="M 120 98 L 125 110 L 120 122 L 115 110 Z" fill="#81A1C1"/>
+
+    <!-- Scroll / Antique Document -->
+    <rect x="132" y="105" width="22" height="12" rx="3" fill="#ECEFF4"/>
+    <circle cx="132" cy="111" r="3" fill="#D8DEE9"/>
+    <circle cx="154" cy="111" r="3" fill="#D8DEE9"/>
+
+    <!-- Floating Sparkles / Value Indicators -->
+    <path d="M 155 85 L 158 92 L 165 95 L 158 98 L 155 105 L 152 98 L 145 95 L 152 92 Z" fill="#EBCB8B"/>
+    <path d="M 85 92 L 87 96 L 91 98 L 87 100 L 85 104 L 83 100 L 79 98 L 83 96 Z" fill="#EBCB8B" transform="scale(0.7) translate(40, -10)"/>
+  </g>
+</svg>
