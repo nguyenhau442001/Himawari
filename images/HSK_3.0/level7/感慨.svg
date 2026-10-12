@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#0f172a"/>
+  
+  <!-- Atmospheric Window Glow / Warm Ambient Light -->
+  <circle cx="120" cy="110" r="90" fill="#1e293b" opacity="0.6"/>
+  <circle cx="70" cy="90" r="50" fill="#f59e0b" opacity="0.1" filter="blur(20px)"/>
+  
+  <!-- Interior Room Details (Warm, Cozy Nostalgic Study/Living Room) -->
+  <!-- Wallpaper / Wall Line -->
+  <line x1="0" y1="160" x2="240" y2="160" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Bookshelf Background -->
+  <rect x="180" y="70" width="45" height="90" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <line x1="180" y1="105" x2="225" y2="105" stroke="#334155" stroke-width="1.5"/>
+  <line x1="180" y1="140" x2="225" y2="140" stroke="#334155" stroke-width="1.5"/>
+  <!-- Books on shelf -->
+  <rect x="188" y="85" width="8" height="20" rx="1" fill="#3b82f6" opacity="0.7"/>
+  <rect x="198" y="82" width="6" height="23" rx="1" fill="#ef4444" opacity="0.7"/>
+  <rect x="206" y="88" width="12" height="17" rx="1" fill="#10b981" opacity="0.7"/>
+  
+  <!-- Desk / Wooden Surface -->
+  <path d="M 20 185 L 220 185 L 230 210 L 10 210 Z" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <rect x="15" y="180" width="210" height="7" rx="2" fill="#334155"/>
+
+  <!-- Lamp providing warm glow on the photo -->
+  <path d="M 40 40 L 55 40 L 60 70 L 35 70 Z" fill="#475569"/>
+  <path d="M 47 70 L 47 180" stroke="#334155" stroke-width="3"/>
+  <ellipse cx="47" cy="70" rx="12" ry="4" fill="#f59e0b" opacity="0.8"/>
+  <!-- Light beam cone -->
+  <polygon points="47,72 5,190 95,190" fill="#f59e0b" opacity="0.06"/>
+
+  <!-- Old Photograph (The central focus prop) -->
+  <g transform="translate(95, 150) rotate(-6)">
+    <!-- Photo Frame/Paper -->
+    <rect x="-35" y="-30" width="70" height="55" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Photo Inner Image Area -->
+    <rect x="-30" y="-25" width="60" height="40" fill="#e2e8f0"/>
+    <!-- Abstract nostalgic illustration inside photo: tiny sun and hills -->
+    <circle cx="-10" cy="-10" r="6" fill="#fbbf24"/>
+    <path d="M -30 10 Q -15 -5 0 10 Q 15 0 30 10 L 30 15 L -30 15 Z" fill="#94a3b8"/>
+    <!-- Person silhouette in photo -->
+    <circle cx="5" cy="-2" r="3" fill="#64748b"/>
+    <path d="M 2 1 L 8 1 L 9 10 L 1 10 Z" fill="#64748b"/>
+    <!-- Sepia vintage tint overlay -->
+    <rect x="-30" y="-25" width="60" height="40" fill="#d97706" opacity="0.15"/>
+  </g>
+
+  <!-- Secondary Prop: Open wooden memory box -->
+  <g transform="translate(155, 175)">
+    <path d="M -20 10 L -15 -5 L 15 -5 L 20 10 Z" fill="#334155"/>
+    <path d="M -23 10 L 23 10 L 18 18 L -18 18 Z" fill="#1e293b"/>
+    <!-- Small folded letters/ribbon inside box -->
+    <rect x="-10" y="2" width="12" height="6" rx="1" fill="#f43f5e" opacity="0.8" transform="rotate(-15)"/>
+  </g>
+
+  <!-- Main Character (Man looking at photo with deep emotional expression/感慨) -->
+  <!-- Character Body / Torso -->
+  <path d="M 85 210 C 85 175 95 160 115 160 C 135 160 145 175 145 210 Z" fill="#3b82f6"/>
+  <!-- Collar / Shirt Detail -->
+  <path d="M 105 160 L 115 173 L 125 160 Z" fill="#f8fafc"/>
+  <path d="M 115 173 L 115 210" stroke="#1d4ed8" stroke-width="2"/>
+
+  <!-- Character Neck -->
+  <rect x="107" y="145" width="16" height="20" rx="6" fill="#fbcfe8"/>
+
+  <!-- Character Head -->
+  <circle cx="115" cy="125" r="24" fill="#fbcfe8"/>
+
+  <!-- Hair Style (Stylized neat professional dark hair) -->
+  <path d="M 91 125 C 91 105 103 100 115 100 C 129 100 139 107 140 125 C 137 115 125 109 115 109 C 103 109 95 115 91 125 Z" fill="#1e293b"/>
+  <path d="M 92 122 C 95 112 104 107 115 107 C 123 107 133 111 138 120 C 130 112 115 112 105 116 C 98 119 94 121 92 122 Z" fill="#334155"/>
+
+  <!-- Facial Features expressing '感慨' (nostalgic, wistful, eyes slightly watery/tender, gentle reflective smile) -->
+  <!-- Eyebrows (slightly arched upwards in middle, showing emotional touch) -->
+  <path d="M 101 118 Q 106 114 111 117" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 119 117 Q 124 114 129 118" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes (Soft, closed or half-closed in nostalgic reflection) -->
+  <path d="M 102 124 Q 106 128 111 124" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 119 124 Q 123 128 128 124" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Subtle emotional sparkle / tear of emotion -->
+  <circle cx="111" cy="127" r="1.5" fill="#38bdf8"/>
+  <circle cx="119" cy="127" r="1.5" fill="#38bdf8"/>
+
+  <!-- Gentle warm smile / emotional lips -->
+  <path d="M 110 137 Q 115 141 120 137" stroke="#e11d48" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Rosy cheeks of emotion -->
+  <circle cx="99" cy="132" r="4" fill="#fb7185" opacity="0.4"/>
+  <circle cx="131" cy="132" r="4" fill="#fb7185" opacity="0.4"/>
+
+  <!-- Arms reaching out gently towards the photo -->
+  <!-- Right Arm (holding/resting near photo) -->
+  <path d="M 135 175 Q 150 175 140 160" fill="none" stroke="#3b82f6" stroke-width="12" stroke-linecap="round"/>
+  <!-- Hand -->
+  <circle cx="137" cy="155" r="6" fill="#fbcfe8"/>
+
+  <!-- Left Arm -->
+  <path d="M 95 175 Q 80 180 90 195" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="92" cy="198" r="6" fill="#fbcfe8"/>
+
+  <!-- Floating Nostalgic Memory Particles / Heartfelt Glows (Representing 'Gǎnkǎi' / emotional waves) -->
+  <g fill="#fbbf24" opacity="0.8">
+    <circle cx="135" cy="95" r="3" />
+    <circle cx="150" cy="115" r="2" />
+    <circle cx="80" cy="100" r="2.5" />
+    <circle cx="70" cy="130" r="1.5" />
+  </g>
+  <g fill="#ec4899" opacity="0.7">
+    <circle cx="145" cy="80" r="2" />
+    <circle cx="85" cy="85" r="3" />
+  </g>
+
+  <!-- Soft vignette framing -->
+  <rect width="240" height="240" rx="24" fill="none" stroke="#334155" stroke-width="2" opacity="0.5"/>
+</svg>

@@ -15777,6 +15777,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/干旱.svg",
     "caption": "hạn hán"
   },
+  "干扰": {
+    "file": "干扰.svg",
+    "src": "images/HSK_2.0/level6/干扰.svg",
+    "caption": "gây nhiễu, làm rối"
+  },
+  "干涉": {
+    "file": "干涉.svg",
+    "src": "images/HSK_2.0/level6/干涉.svg",
+    "caption": "can thiệp"
+  },
+  "尴尬": {
+    "file": "尴尬.svg",
+    "src": "images/HSK_2.0/level6/尴尬.svg",
+    "caption": "khó xử, lúng túng"
+  },
+  "感慨": {
+    "file": "感慨.svg",
+    "src": "images/HSK_2.0/level6/感慨.svg",
+    "caption": "xúc động cảm thán"
+  },
+  "感染": {
+    "file": "感染.svg",
+    "src": "images/HSK_2.0/level6/感染.svg",
+    "caption": "nhiễm trùng, lây nhiễm"
+  },
+  "干劲": {
+    "file": "干劲.svg",
+    "src": "images/HSK_2.0/level6/干劲.svg",
+    "caption": "nhiệt huyết làm việc"
+  },
+  "纲领": {
+    "file": "纲领.svg",
+    "src": "images/HSK_2.0/level6/纲领.svg",
+    "caption": "cương lĩnh"
+  },
+  "岗位": {
+    "file": "岗位.svg",
+    "src": "images/HSK_2.0/level6/岗位.svg",
+    "caption": "vị trí công tác"
+  },
+  "港口": {
+    "file": "港口.svg",
+    "src": "images/HSK_2.0/level6/港口.svg",
+    "caption": "bến cảng"
+  },
+  "高超": {
+    "file": "高超.svg",
+    "src": "images/HSK_2.0/level6/高超.svg",
+    "caption": "cao siêu"
+  },
   "更新": {
     "file": "更新.svg",
     "src": "images/HSK_2.0/level6/更新.svg",

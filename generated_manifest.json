@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:29:55.426719",
-  "total_unique_words_with_illustrations": 3779,
-  "total_flat_svg_files": 3779,
+  "generated_at": "2026-10-12T12:33:04.048243",
+  "total_unique_words_with_illustrations": 3789,
+  "total_flat_svg_files": 3789,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1139,
-        "pct": "45.6%"
+        "with_svg": 1149,
+        "pct": "46.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 401,
-        "pct": "22.3%"
+        "with_svg": 407,
+        "pct": "22.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 468,
+        "with_svg": 472,
         "pct": "8.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 468,
+        "with_svg": 472,
         "pct": "8.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 468,
+        "with_svg": 472,
         "pct": "8.4%"
       }
     }
@@ -58108,6 +58108,202 @@
       "src": "images/HSK_2.0/level6/干旱.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/干旱.svg"
+      ]
+    },
+    "干扰": {
+      "hanzi": "干扰",
+      "pinyin": "gānrǎo",
+      "meaning": "gây nhiễu, làm rối",
+      "example_zh": "信号受到了<u>干扰</u>。",
+      "example_vi": "Tín hiệu bị <u>gây nhiễu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "干扰.svg",
+      "src": "images/HSK_2.0/level6/干扰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/干扰.svg"
+      ]
+    },
+    "干涉": {
+      "hanzi": "干涉",
+      "pinyin": "gānshè",
+      "meaning": "can thiệp",
+      "example_zh": "不要<u>干涉</u>别人的私事。",
+      "example_vi": "Đừng <u>can thiệp</u> vào việc riêng của người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "干涉.svg",
+      "src": "images/HSK_2.0/level6/干涉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/干涉.svg",
+        "images/HSK_3.0/level8/干涉.svg",
+        "images/HSK_3.0/level9/干涉.svg"
+      ]
+    },
+    "尴尬": {
+      "hanzi": "尴尬",
+      "pinyin": "gāngà",
+      "meaning": "khó xử, lúng túng",
+      "example_zh": "这个场面很<u>尴尬</u>。",
+      "example_vi": "Tình huống này rất <u>khó xử</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "尴尬.svg",
+      "src": "images/HSK_2.0/level6/尴尬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/尴尬.svg"
+      ]
+    },
+    "感慨": {
+      "hanzi": "感慨",
+      "pinyin": "gǎnkǎi",
+      "meaning": "xúc động cảm thán",
+      "example_zh": "看到老照片，他十分<u>感慨</u>。",
+      "example_vi": "Nhìn thấy ảnh cũ, anh ấy rất <u>xúc động cảm thán</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "感慨.svg",
+      "src": "images/HSK_2.0/level6/感慨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/感慨.svg",
+        "images/HSK_3.0/level8/感慨.svg",
+        "images/HSK_3.0/level9/感慨.svg"
+      ]
+    },
+    "感染": {
+      "hanzi": "感染",
+      "pinyin": "gǎnrǎn",
+      "meaning": "nhiễm trùng, lây nhiễm",
+      "example_zh": "伤口被<u>感染</u>了。",
+      "example_vi": "Vết thương bị <u>nhiễm trùng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "感染.svg",
+      "src": "images/HSK_2.0/level6/感染.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/感染.svg"
+      ]
+    },
+    "干劲": {
+      "hanzi": "干劲",
+      "pinyin": "gànjìn",
+      "meaning": "nhiệt huyết làm việc",
+      "example_zh": "大家工作都很有<u>干劲</u>。",
+      "example_vi": "Mọi người làm việc đều rất <u>nhiệt huyết</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "干劲.svg",
+      "src": "images/HSK_2.0/level6/干劲.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/干劲.svg",
+        "images/HSK_3.0/level8/干劲.svg",
+        "images/HSK_3.0/level9/干劲.svg"
+      ]
+    },
+    "纲领": {
+      "hanzi": "纲领",
+      "pinyin": "gānglǐng",
+      "meaning": "cương lĩnh",
+      "example_zh": "这是党的行动<u>纲领</u>。",
+      "example_vi": "Đây là <u>cương lĩnh</u> hành động của đảng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "纲领.svg",
+      "src": "images/HSK_2.0/level6/纲领.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/纲领.svg",
+        "images/HSK_3.0/level8/纲领.svg",
+        "images/HSK_3.0/level9/纲领.svg"
+      ]
+    },
+    "岗位": {
+      "hanzi": "岗位",
+      "pinyin": "gǎngwèi",
+      "meaning": "vị trí công tác",
+      "example_zh": "他坚守在自己的<u>岗位</u>上。",
+      "example_vi": "Anh ấy luôn giữ vững <u>vị trí công tác</u> của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "岗位.svg",
+      "src": "images/HSK_2.0/level6/岗位.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/岗位.svg"
+      ]
+    },
+    "港口": {
+      "hanzi": "港口",
+      "pinyin": "gǎngkǒu",
+      "meaning": "bến cảng",
+      "example_zh": "这是一个重要的<u>港口</u>。",
+      "example_vi": "Đây là một <u>bến cảng</u> quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "港口.svg",
+      "src": "images/HSK_2.0/level6/港口.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/港口.svg"
+      ]
+    },
+    "高超": {
+      "hanzi": "高超",
+      "pinyin": "gāochāo",
+      "meaning": "cao siêu",
+      "example_zh": "他的技术非常<u>高超</u>。",
+      "example_vi": "Kỹ thuật của anh ấy rất <u>cao siêu</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "高超.svg",
+      "src": "images/HSK_2.0/level6/高超.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/高超.svg"
       ]
     },
     "更新": {
