@@ -540,18 +540,19 @@ def main():
 
     # Step 2: Curriculum roadmap
     curriculum = [
-        # Phase 1: Complete HSK 2.0 Level 3 (around 126 remaining)
+        # Phase 1: Complete HSK 2.0 Level 3 (100% complete)
         ("HSK 2.0 Level 3", "level3", "HSK_2.0", VOCAB_DIR / "hsk3_vocabularies.json"),
-        # Phase 2: Complete HSK 2.0 Level 5 (406 remaining)
+        # Phase 2: Complete HSK 2.0 Level 5 (100% complete)
         ("HSK 2.0 Level 5", "level5", "HSK_2.0", VOCAB_DIR / "hsk5_vocabularies.json"),
-        # Phase 3: Complete HSK 2.0 Level 6 (2072 remaining)
+        # Phase 3: Complete HSK 3.0 Level 5 (already at ~1084/1600 words)
+        ("HSK 3.0 Level 5", "level5", "HSK_3.0", HSK3_DIR / "level5_vocabularies.json"),
+        # Phase 4: Complete HSK 2.0 Level 6
         ("HSK 2.0 Level 6", "level6", "HSK_2.0", VOCAB_DIR / "hsk6_vocabularies.json"),
-        # Phase 4: HSK 3.0 Levels 1..9
+        # Phase 5: HSK 3.0 Levels 1..9
         ("HSK 3.0 Level 1", "level1", "HSK_3.0", HSK3_DIR / "level1_vocabularies.json"),
         ("HSK 3.0 Level 2", "level2", "HSK_3.0", HSK3_DIR / "level2_vocabularies.json"),
         ("HSK 3.0 Level 3", "level3", "HSK_3.0", HSK3_DIR / "level3_vocabularies.json"),
         ("HSK 3.0 Level 4", "level4", "HSK_3.0", HSK3_DIR / "level4_vocabularies.json"),
-        ("HSK 3.0 Level 5", "level5", "HSK_3.0", HSK3_DIR / "level5_vocabularies.json"),
         ("HSK 3.0 Level 6", "level6", "HSK_3.0", HSK3_DIR / "level6_vocabularies.json"),
         ("HSK 3.0 Level 7", "level7", "HSK_3.0", HSK3_DIR / "level7_vocabularies.json"),
         ("HSK 3.0 Level 8", "level8", "HSK_3.0", HSK3_DIR / "level8_vocabularies.json"),
