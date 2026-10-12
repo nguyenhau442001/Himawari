@@ -15877,20 +15877,70 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/隔离.svg",
     "caption": "cách ly"
   },
+  "革命": {
+    "file": "革命.svg",
+    "src": "images/HSK_2.0/level6/革命.svg",
+    "caption": "cách mạng"
+  },
+  "跟前": {
+    "file": "跟前.svg",
+    "src": "images/HSK_2.0/level6/跟前.svg",
+    "caption": "trước mặt, bên cạnh"
+  },
   "更新": {
     "file": "更新.svg",
     "src": "images/HSK_2.0/level6/更新.svg",
     "caption": "cập nhật, đổi mới"
+  },
+  "耕地": {
+    "file": "耕地.svg",
+    "src": "images/HSK_2.0/level6/耕地.svg",
+    "caption": "đất canh tác; cày ruộng"
   },
   "工程": {
     "file": "工程.svg",
     "src": "images/HSK_2.0/level6/工程.svg",
     "caption": "công trình, kỹ thuật"
   },
+  "工夫": {
+    "file": "工夫.svg",
+    "src": "images/HSK_2.0/level6/工夫.svg",
+    "caption": "công sức, thời gian"
+  },
   "工艺": {
     "file": "工艺.svg",
     "src": "images/HSK_2.0/level6/工艺.svg",
     "caption": "công nghệ, kỹ thuật chế tác"
+  },
+  "公安局": {
+    "file": "公安局.svg",
+    "src": "images/HSK_2.0/level6/公安局.svg",
+    "caption": "cục công an"
+  },
+  "公道": {
+    "file": "公道.svg",
+    "src": "images/HSK_2.0/level6/公道.svg",
+    "caption": "công bằng, hợp lý"
+  },
+  "公积金": {
+    "file": "公积金.svg",
+    "src": "images/HSK_2.0/level6/公积金.svg",
+    "caption": "quỹ tích lũy nhà ở"
+  },
+  "公民": {
+    "file": "公民.svg",
+    "src": "images/HSK_2.0/level6/公民.svg",
+    "caption": "công dân"
+  },
+  "公认": {
+    "file": "公认.svg",
+    "src": "images/HSK_2.0/level6/公认.svg",
+    "caption": "được công nhận chung"
+  },
+  "公式": {
+    "file": "公式.svg",
+    "src": "images/HSK_2.0/level6/公式.svg",
+    "caption": "công thức"
   },
   "故乡": {
     "file": "故乡.svg",

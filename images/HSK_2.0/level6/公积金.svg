@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Window City Glow Gradient -->
+    <linearGradient id="window-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Warm Desk Lamp Glow -->
+    <radialGradient id="lamp-glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Screen Glow -->
+    <linearGradient id="screen-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- House Building Icon Gradient (Housing Fund Symbolism) -->
+    <linearGradient id="house-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)" />
+
+  <!-- Ambient Lamp Glow Background -->
+  <circle cx="160" cy="80" r="90" fill="url(#lamp-glow)" />
+
+  <!-- OFFICE ENVIRONMENT BACKGROUND -->
+  <!-- Window overlooking night city -->
+  <path d="M 140 30 L 210 30 L 210 110 L 140 110 Z" fill="url(#window-grad)" stroke="#334155" stroke-width="2" rx="4" />
+  <!-- City Skyline through window -->
+  <path d="M 145 110 L 145 80 L 152 80 L 152 110 L 160 110 L 160 65 L 170 65 L 170 110 L 180 110 L 180 50 L 192 50 L 192 110 L 202 110 L 202 75 L 207 75 L 207 110 Z" fill="#1e1b4b" opacity="0.8" />
+  <!-- Window grid lines -->
+  <line x1="175" y1="30" x2="175" y2="110" stroke="#334155" stroke-width="1.5" />
+  <line x1="140" y1="70" x2="210" y2="70" stroke="#334155" stroke-width="1.5" />
+  <!-- Tiny City Lights -->
+  <circle cx="156" cy="85" r="0.7" fill="#fbbf24" />
+  <circle cx="165" cy="72" r="0.7" fill="#38bdf8" />
+  <circle cx="186" cy="60" r="0.7" fill="#fbbf24" />
+  <circle cx="197" cy="85" r="0.7" fill="#38bdf8" />
+
+  <!-- Wall Shelf with Plant -->
+  <path d="M 25 55 L 75 55" stroke="#475569" stroke-width="3" stroke-linecap="round" />
+  <!-- Pot -->
+  <path d="M 42 55 L 58 55 L 55 46 L 45 46 Z" fill="#cbd5e1" />
+  <!-- Plant Leaves -->
+  <path d="M 50 46 C 45 40 40 42 38 38 C 43 38 48 42 50 46 Z" fill="#10b981" />
+  <path d="M 50 46 C 52 38 58 40 62 36 C 58 42 52 44 50 46 Z" fill="#34d399" />
+  <path d="M 50 46 C 50 36 50 36 50 32 C 48 38 48 42 50 46 Z" fill="#10b981" />
+
+  <!-- Cork Board with Sticky Notes -->
+  <rect x="25" y="70" width="35" height="30" rx="2" fill="#334155" stroke="#475569" stroke-width="1" />
+  <rect x="30" y="75" width="10" height="8" rx="1" fill="#fbbf24" transform="rotate(-5 35 79)" />
+  <rect x="45" y="82" width="10" height="10" rx="1" fill="#f43f5e" transform="rotate(8 50 87)" />
+
+  <!-- Office Desk -->
+  <path d="M 10 170 L 230 170 L 220 210 L 20 210 Z" fill="#334155" />
+  <path d="M 10 170 L 230 170 L 230 176 L 10 176 Z" fill="#475569" />
+  <!-- Desk leg left -->
+  <path d="M 30 210 L 40 235 L 50 235 L 45 210 Z" fill="#1e293b" />
+  <!-- Desk leg right -->
+  <path d="M 190 210 L 195 235 L 205 235 L 210 210 Z" fill="#1e293b" />
+
+  <!-- COMPUTER & MONITOR SETUP -->
+  <!-- Monitor Stand -->
+  <path d="M 115 150 L 125 150 L 128 170 L 112 170 Z" fill="#64748b" />
+  <ellipse cx="120" cy="170" rx="18" ry="3" fill="#475569" />
+  <!-- Monitor Body -->
+  <rect x="80" y="100" width="80" height="52" rx="4" fill="#0f172a" stroke="#475569" stroke-width="2" filter="url(#shadow)" />
+  <!-- Screen Area -->
+  <rect x="84" y="104" width="72" height="44" rx="2" fill="#1e293b" />
+  <rect x="84" y="104" width="72" height="44" rx="2" fill="url(#screen-glow)" />
+
+  <!-- UI Graphics on Screen: Monthly Accumulation / Housing Fund Dashboard -->
+  <!-- Mini House Icon in UI -->
+  <path d="M 105 118 L 120 108 L 135 118 L 135 132 L 105 132 Z" fill="url(#house-grad)" />
+  <rect x="115" y="123" width="10" height="9" fill="#0f172a" />
+  <!-- Progress/Growth Bars simulating regular monthly deposits -->
+  <rect x="90" y="136" width="6" height="8" rx="1" fill="#38bdf8" />
+  <rect x="100" y="134" width="6" height="10" rx="1" fill="#38bdf8" />
+  <rect x="110" y="132" width="6" height="12" rx="1" fill="#38bdf8" />
+  <rect x="120" y="130" width="6" height="14" rx="1" fill="#38bdf8" />
+  <rect x="130" y="127" width="6" height="17" rx="1" fill="#10b981" />
+  <rect x="140" y="124" width="6" height="20" rx="1" fill="#10b981" />
+
+  <!-- Desk Lamp -->
+  <path d="M 180 170 L 190 170 L 185 120 Z" fill="#64748b" />
+  <path d="M 185 120 L 165 95 L 172 90 L 192 115 Z" fill="#475569" />
+  <path d="M 160 85 C 150 70 170 60 180 80 Z" fill="#fbbf24" filter="url(#shadow)" opacity="0.9" />
+
+  <!-- Coffee Mug -->
+  <path d="M 60 155 L 75 155 L 73 170 L 62 170 Z" fill="#f8fafc" />
+  <path d="M 75 158 C 80 158 80 166 75 166" stroke="#f8fafc" stroke-width="2" fill="none" />
+  <!-- Steam from coffee -->
+  <path d="M 64 150 C 62 145 68 142 66 138" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6" />
+  <path d="M 70 151 C 72 146 66 143 68 139" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6" />
+
+  <!-- MAIN CHARACTER (HR / Finance Professional managing company payroll/benefits) -->
+  <!-- Chair Backrest -->
+  <path d="M 45 105 C 45 90 75 90 75 105 L 72 165 C 72 170 48 170 48 165 Z" fill="#334155" filter="url(#shadow)" />
+
+  <!-- Character Body & Outfit -->
+  <!-- Shoulders / Blazer -->
+  <path d="M 30 175 C 30 145 90 145 90 175 L 85 210 L 35 210 Z" fill="#3b82f6" filter="url(#shadow)" />
+  <!-- Shirt Collar / Inner -->
+  <path d="M 52 148 L 60 162 L 68 148 L 60 142 Z" fill="#f8fafc" />
+  <!-- Tie -->
+  <path d="M 58 162 L 62 162 L 61 185 L 59 185 Z" fill="#ef4444" />
+
+  <!-- Neck -->
+  <rect x="54" y="135" width="12" height="16" fill="#fbcfe8" rx="3" />
+
+  <!-- Head -->
+  <path d="M 46 115 C 46 98 74 98 74 115 L 72 138 C 72 144 48 144 48 138 Z" fill="#fbcfe8" filter="url(#shadow)" />
+
+  <!-- Hair (Neat Professional Style) -->
+  <path d="M 46 118 C 44 95 76 95 74 118 C 70 106 50 106 46 118 Z" fill="#0f172a" />
+  <path d="M 70 110 C 76 112 78 122 73 126 C 72 122 71 115 70 110 Z" fill="#0f172a" />
+
+  <!-- Facial Expression (Friendly, Confident Smile) -->
+  <!-- Eyes (Happy arcs) -->
+  <path d="M 52 122 Q 56 118 60 122" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none" />
+  <path d="M 64 122 Q 68 118 72 122" stroke="#1e293b" stroke-width="2" stroke-linecap="round" fill="none" />
+  <!-- Smile -->
+  <path d="M 58 131 Q 62 135 66 131" stroke="#e11d48" stroke-width="2" stroke-linecap="round" fill="none" />
+  <!-- Rosy Cheeks -->
+  <circle cx="51" cy="127" r="3" fill="#fda4af" opacity="0.6" />
+  <circle cx="73" cy="127" r="3" fill="#fda4af" opacity="0.6" />
+
+  <!-- Arms & Hands in Action (Processing corporate contributions) -->
+  <!-- Left Arm (resting on desk) -->
+  <path d="M 35 165 L 55 175 L 50 185 Z" fill="#3b82f6" />
+  <circle cx="48" cy="184" r="5" fill="#fbcfe8" />
+
+  <!-- Right Arm (Active, hovering over keyboard/mouse or holding official paperwork) -->
+  <path d="M 85 165 C 95 165 95 185 85 190" stroke="#3b82f6" stroke-width="14" stroke-linecap="round" fill="none" />
+  <!-- Hand interacting -->
+  <circle cx="82" cy="192" r="5" fill="#fbcfe8" />
+
+  <!-- FOREGROUND PROPS: COMPANY FINANCIAL DOCUMENT & HOUSING FUND TOKENS -->
+  <!-- Official Payroll/Contribution Form on Desk -->
+  <path d="M 95 170 L 155 160 L 165 195 L 105 205 Z" fill="#f8fafc" filter="url(#shadow)" />
+  <!-- Document Header -->
+  <path d="M 105 175 L 130 171 L 132 177 L 107 181 Z" fill="#cbd5e1" />
+  <!-- Document Lines (Simulating rows of employee data) -->
+  <line x1="103" y1="187" x2="140" y2="181" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+  <line x1="101" y1="194" x2="138" y2="188" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+  <line x1="99" y1="201" x2="136" y2="195" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" />
+  <!-- Checkmark Stamp on Document (Approved/Paid) -->
+  <circle cx="150" cy="182" r="8" fill="#10b981" />
+  <path d="M 146 182 L 149 185 L 155 178" stroke="#f8fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+  <!-- Floating Conceptual Symbol: Housing Fund (House inside secure Shield / Coin representing monthly contribution) -->
+  <g transform="translate(195, 115)" filter="url(#shadow)">
+    <!-- Outer Ring / Coin base -->
+    <circle cx="0" cy="0" r="18" fill="#fbbf24" />
+    <circle cx="0" cy="0" r="15" fill="#f59e0b" />
+    <!-- House Symbol inside -->
+    <path d="M -6 2 L 0 -5 L 6 2 L 6 8 L -6 8 Z" fill="#ffffff" />
+    <rect x="-2" y="3" width="4" height="5" fill="#f59e0b" />
+  </g>
+
+  <!-- Sparkles / Success Indicators (Monthly recurring action) -->
+  <path d="M 175 100 L 178 106 L 184 109 L 178 112 L 175 118 L 172 112 L 166 109 L 172 106 Z" fill="#38bdf8" opacity="0.8" />
+  <path d="M 215 90 L 217 94 L 221 96 L 217 98 L 215 102 L 213 98 L 209 96 L 213 94 Z" fill="#10b981" opacity="0.9" />
+
+  <!-- Keyboard on Desk -->
+  <rect x="75" y="190" width="45" height="15" rx="2" fill="#cbd5e1" />
+  <line x1="80" y1="194" x2="115" y2="194" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2" />
+  <line x1="80" y1="199" x2="115" y2="199" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2,2" />
+
+</svg>

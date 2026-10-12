@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Definitions & Gradients -->
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Warm interior lighting gradient -->
+    <radialGradient id="deskLamp" cx="70%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Window Light Glow -->
+    <linearGradient id="windowLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+  <rect width="240" height="240" rx="24" fill="url(#deskLamp)" />
+
+  <!-- ENVIRONMENT: Interior of Public Security Bureau (Reception / Reporting Desk) -->
+  <!-- Wall Background -->
+  <rect x="20" y="20" width="200" height="130" rx="6" fill="#1e293b" />
+  
+  <!-- Large Window showing night/evening city atmosphere -->
+  <path d="M 145,35 L 205,35 L 205,100 L 145,100 Z" fill="#090d16" stroke="#334155" stroke-width="2" />
+  <path d="M 145,35 L 205,35 L 205,100 L 145,100 Z" fill="url(#windowLight)" />
+  <!-- City buildings silhouette outside window -->
+  <path d="M 150,100 L 150,75 L 158,75 L 158,100 L 165,100 L 165,60 L 175,60 L 175,100 L 183,100 L 183,80 L 192,80 L 192,100 L 200,100 L 200,68 L 205,68 L 205,100 Z" fill="#1e293b" opacity="0.8" />
+  <!-- Window Grid lines -->
+  <line x1="175" y1="35" x2="175" y2="100" stroke="#334155" stroke-width="1.5" />
+  <line x1="145" y1="67" x2="205" y2="67" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Wall Decor: Official Emblem Motif (Abstract geometric star/shield representation) -->
+  <g transform="translate(80, 50)" filter="url(#shadow)">
+    <!-- Shield Base -->
+    <path d="M 15,2 L 28,8 L 28,20 C 28,28 22,35 15,39 C 8,35 2,28 2,20 L 2,8 Z" fill="#f59e0b" />
+    <path d="M 15,5 L 25,10 L 25,19 C 25,25 20,31 15,34 C 10,31 5,25 5,19 L 5,10 Z" fill="#d97706" />
+    <!-- Star Shape Inside -->
+    <polygon points="15,11 17,16 22,16 18,19 19,24 15,21 11,24 12,19 8,16 13,16" fill="#fef08a" />
+  </g>
+
+  <!-- Partition / Desk / Counter -->
+  <!-- Back Partition Wall -->
+  <rect x="20" y="110" width="200" height="15" fill="#334155" />
+  <rect x="20" y="125" width="200" height="5" fill="#0f172a" />
+
+  <!-- Officer (Behind Desk) -->
+  <g transform="translate(130, 95)">
+    <!-- Officer Body/Uniform -->
+    <path d="M 20,35 L 50,35 L 60,75 L 10,75 Z" fill="#1e3a8a" />
+    <!-- Officer Shirt Collar & Tie -->
+    <path d="M 30,35 L 35,48 L 40,35 Z" fill="#f8fafc" />
+    <polygon points="35,42 37,55 35,58 33,55" fill="#0f172a" />
+    <!-- Officer Shoulders & Epaulets -->
+    <rect x="18" y="36" width="8" height="4" rx="1" fill="#f59e0b" />
+    <rect x="44" y="36" width="8" height="4" rx="1" fill="#f59e0b" />
+    <!-- Officer Head -->
+    <circle cx="35" cy="22" r="12" fill="#fed7aa" />
+    <!-- Officer Cap -->
+    <path d="M 21,17 C 21,11 49,11 49,17 Z" fill="#1e3a8a" />
+    <path d="M 19,16 L 51,16 L 47,19 L 23,19 Z" fill="#0f172a" />
+    <path d="M 25,14 Q 35,11 45,14" stroke="#f59e0b" stroke-width="1.5" fill="none" />
+    <!-- Officer Face Expression (Calm, Professional) -->
+    <circle cx="31" cy="21" r="1.5" fill="#1e293b" />
+    <circle cx="39" cy="21" r="1.5" fill="#1e293b" />
+    <path d="M 33,26 Q 35,28 37,26" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Front Counter Desk -->
+  <path d="M 15,140 L 225,140 L 210,215 L 30,215 Z" fill="#475569" filter="url(#shadow)" />
+  <path d="M 15,140 L 225,140 L 225,148 L 15,148 Z" fill="#64748b" />
+  <!-- Counter front panel highlight -->
+  <path d="M 30,160 L 210,160 L 205,205 L 35,205 Z" fill="#334155" />
+
+  <!-- Props on Counter: Computer, Document/Form, Pen -->
+  <!-- Computer Monitor -->
+  <rect x="145" y="112" width="35" height="26" rx="3" fill="#0f172a" stroke="#64748b" stroke-width="2" />
+  <rect x="150" y="116" width="25" height="16" fill="#38bdf8" opacity="0.3" />
+  <rect x="160" y="138" width="5" height="4" fill="#64748b" />
+  <rect x="153" y="142" width="19" height="2" rx="1" fill="#64748b" />
+
+  <!-- Citizen / Visitor (Reporting Person - Foreground Left/Center) -->
+  <g transform="translate(45, 95)" filter="url(#shadow)">
+    <!-- Citizen Torso (Leaning forward slightly to report) -->
+    <path d="M 15,45 L 60,45 L 75,120 L 20,120 Z" fill="#0284c7" />
+    <!-- Jacket collar / shirt -->
+    <path d="M 32,45 L 37,60 L 45,45 Z" fill="#f8fafc" />
+    <!-- Citizen Head -->
+    <circle cx="38" cy="27" r="13" fill="#fbcfe8" />
+    <path d="M 38,27" fill="#fbcfe8" />
+    <!-- Hair (Stylized modern neat hair) -->
+    <path d="M 25,25 C 25,15 35,13 45,17 C 50,19 51,27 50,30 C 45,24 35,22 28,28 Z" fill="#334155" />
+    
+    <!-- Face Expression (Expressive, serious, explaining situation) -->
+    <circle cx="34" cy="26" r="1.5" fill="#1e293b" />
+    <circle cx="43" cy="26" r="1.5" fill="#1e293b" />
+    <!-- Eyebrows showing concern/earnestness -->
+    <path d="M 32,23 L 36,24" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" />
+    <path d="M 41,24 L 45,23" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" />
+    <!-- Mouth speaking / explaining -->
+    <path d="M 37,32 Q 39,35 41,32" stroke="#1e293b" stroke-width="1.2" stroke-linecap="round" fill="#e11d48" />
+
+    <!-- Arms & Hands performing the action: Presenting report document -->
+    <!-- Back arm -->
+    <path d="M 25,55 L 10,75 L 25,85" fill="none" stroke="#0284c7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Front arm reaching to desk with report paper -->
+    <path d="M 55,55 L 75,75 L 95,75" fill="none" stroke="#0284c7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Hand holding paper -->
+    <circle cx="95" cy="75" r="5" fill="#fbcfe8" />
+  </g>
+
+  <!-- Report Document / Form on Desk being handed over -->
+  <g transform="translate(115, 155) rotate(-15)" filter="url(#shadow)">
+    <rect x="0" y="0" width="36" height="46" rx="2" fill="#f8fafc" />
+    <!-- Abstract text lines on report form -->
+    <line x1="6" y1="8" x2="24" y2="8" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+    <line x1="6" y1="15" x2="30" y2="15" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+    <line x1="6" y1="22" x2="20" y2="22" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+    <line x1="6" y1="29" x2="28" y2="29" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+    <!-- Red Official Stamp / Seal (Crucial detail for police station report) -->
+    <circle cx="24" cy="35" r="6" fill="none" stroke="#dc2626" stroke-width="1.5" />
+    <circle cx="24" cy="35" r="4" fill="#dc2626" opacity="0.3" />
+  </g>
+
+  <!-- Foreground details: Desk Lamp illuminating the reporting scene -->
+  <g transform="translate(195, 120)">
+    <!-- Lamp Base -->
+    <ellipse cx="0" cy="20" rx="10" ry="4" fill="#64748b" />
+    <!-- Lamp Arm -->
+    <path d="M 0,20 L -10,-5 L -25,-15" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Lamp Shade -->
+    <path d="M -30,-22 L -18,-12 L -32,-8 Z" fill="#38bdf8" />
+  </g>
+
+  <!-- Ambient lighting highlights -->
+  <circle cx="150" cy="165" r="30" fill="#38bdf8" opacity="0.08" />
+
+</svg>

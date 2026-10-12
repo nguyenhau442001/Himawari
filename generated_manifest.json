@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:34:56.684054",
-  "total_unique_words_with_illustrations": 3799,
-  "total_flat_svg_files": 3799,
+  "generated_at": "2026-10-12T12:36:44.722643",
+  "total_unique_words_with_illustrations": 3809,
+  "total_flat_svg_files": 3809,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1159,
-        "pct": "46.4%"
+        "with_svg": 1169,
+        "pct": "46.8%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 409,
-        "pct": "22.7%"
+        "with_svg": 414,
+        "pct": "23.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 480,
+        "with_svg": 483,
         "pct": "8.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 480,
+        "with_svg": 483,
         "pct": "8.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 480,
+        "with_svg": 483,
         "pct": "8.6%"
       }
     }
@@ -58518,6 +58518,42 @@
         "images/HSK_3.0/level9/隔离.svg"
       ]
     },
+    "革命": {
+      "hanzi": "革命",
+      "pinyin": "gémìng",
+      "meaning": "cách mạng",
+      "example_zh": "这是一场伟大的<u>革命</u>。",
+      "example_vi": "Đây là một cuộc <u>cách mạng</u> vĩ đại.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "革命.svg",
+      "src": "images/HSK_2.0/level6/革命.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/革命.svg"
+      ]
+    },
+    "跟前": {
+      "hanzi": "跟前",
+      "pinyin": "gēnqián",
+      "meaning": "trước mặt, bên cạnh",
+      "example_zh": "孩子在妈妈<u>跟前</u>玩耍。",
+      "example_vi": "Đứa trẻ chơi đùa <u>trước mặt</u> mẹ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "跟前.svg",
+      "src": "images/HSK_2.0/level6/跟前.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/跟前.svg"
+      ]
+    },
     "更新": {
       "hanzi": "更新",
       "pinyin": "gēngxīn",
@@ -58534,6 +58570,28 @@
       "src": "images/HSK_2.0/level6/更新.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/更新.svg"
+      ]
+    },
+    "耕地": {
+      "hanzi": "耕地",
+      "pinyin": "gēngdì",
+      "meaning": "đất canh tác; cày ruộng",
+      "example_zh": "这片<u>耕地</u>很肥沃。",
+      "example_vi": "Vùng <u>đất canh tác</u> này rất màu mỡ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "耕地.svg",
+      "src": "images/HSK_2.0/level6/耕地.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/耕地.svg",
+        "images/HSK_3.0/level8/耕地.svg",
+        "images/HSK_3.0/level9/耕地.svg"
       ]
     },
     "工程": {
@@ -58554,6 +58612,24 @@
         "images/HSK_3.0/level5/工程.svg"
       ]
     },
+    "工夫": {
+      "hanzi": "工夫",
+      "pinyin": "gōngfu",
+      "meaning": "công sức, thời gian",
+      "example_zh": "学好一门外语要花很多<u>工夫</u>。",
+      "example_vi": "Học tốt một ngoại ngữ cần tốn nhiều <u>công sức</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "工夫.svg",
+      "src": "images/HSK_2.0/level6/工夫.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/工夫.svg"
+      ]
+    },
     "工艺": {
       "hanzi": "工艺",
       "pinyin": "gōngyì",
@@ -58570,6 +58646,114 @@
       "src": "images/HSK_2.0/level6/工艺.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/工艺.svg"
+      ]
+    },
+    "公安局": {
+      "hanzi": "公安局",
+      "pinyin": "gōngānjú",
+      "meaning": "cục công an",
+      "example_zh": "他去<u>公安局</u>报案了。",
+      "example_vi": "Anh ấy đến <u>cục công an</u> trình báo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "公安局.svg",
+      "src": "images/HSK_2.0/level6/公安局.svg",
+      "alt_srcs": []
+    },
+    "公道": {
+      "hanzi": "公道",
+      "pinyin": "gōngdao",
+      "meaning": "công bằng, hợp lý",
+      "example_zh": "这个价格很<u>公道</u>。",
+      "example_vi": "Mức giá này rất <u>hợp lý</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "公道.svg",
+      "src": "images/HSK_2.0/level6/公道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/公道.svg",
+        "images/HSK_3.0/level8/公道.svg",
+        "images/HSK_3.0/level9/公道.svg"
+      ]
+    },
+    "公积金": {
+      "hanzi": "公积金",
+      "pinyin": "gōngjījīn",
+      "meaning": "quỹ tích lũy nhà ở",
+      "example_zh": "公司每月给员工交<u>公积金</u>。",
+      "example_vi": "Công ty đóng <u>quỹ tích lũy nhà ở</u> cho nhân viên mỗi tháng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "公积金.svg",
+      "src": "images/HSK_2.0/level6/公积金.svg",
+      "alt_srcs": []
+    },
+    "公民": {
+      "hanzi": "公民",
+      "pinyin": "gōngmín",
+      "meaning": "công dân",
+      "example_zh": "每个<u>公民</u>都有选举权。",
+      "example_vi": "Mỗi <u>công dân</u> đều có quyền bầu cử.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "公民.svg",
+      "src": "images/HSK_2.0/level6/公民.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/公民.svg"
+      ]
+    },
+    "公认": {
+      "hanzi": "公认",
+      "pinyin": "gōngrèn",
+      "meaning": "được công nhận chung",
+      "example_zh": "他是<u>公认</u>的天才。",
+      "example_vi": "Anh ấy là thiên tài <u>được công nhận chung</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "公认.svg",
+      "src": "images/HSK_2.0/level6/公认.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/公认.svg"
+      ]
+    },
+    "公式": {
+      "hanzi": "公式",
+      "pinyin": "gōngshì",
+      "meaning": "công thức",
+      "example_zh": "请记住这个<u>公式</u>。",
+      "example_vi": "Xin hãy nhớ <u>công thức</u> này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "公式.svg",
+      "src": "images/HSK_2.0/level6/公式.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/公式.svg",
+        "images/HSK_3.0/level8/公式.svg",
+        "images/HSK_3.0/level9/公式.svg"
       ]
     },
     "故乡": {
