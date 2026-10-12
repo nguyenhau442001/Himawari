@@ -1,0 +1,118 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Podium Spotlight Gradient -->
+    <radialGradient id="spotlight" cx="120" cy="50" r="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Leader Jacket Gradient -->
+    <linearGradient id="leaderJacket" x1="100" y1="120" x2="140" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Emblems/Banners Color Gradients -->
+    <linearGradient id="bannerRed" x1="0" y1="0" x2="0" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Atmosphere Spotlight -->
+  <circle cx="120" cy="80" r="90" fill="url(#spotlight)"/>
+
+  <!-- Background Architecture: Grand Hall / Authority Setting -->
+  <!-- Pillars Left & Right -->
+  <rect x="25" y="40" width="16" height="150" fill="#1e293b" rx="2"/>
+  <rect x="20" y="35" width="26" height="10" fill="#334155" rx="2"/>
+  <rect x="20" y="185" width="26" height="10" fill="#334155" rx="2"/>
+
+  <rect x="199" y="40" width="16" height="150" fill="#1e293b" rx="2"/>
+  <rect x="194" y="35" width="26" height="10" fill="#334155" rx="2"/>
+  <rect x="194" y="185" width="26" height="10" fill="#334155" rx="2"/>
+
+  <!-- Imposing Wall Banners (Dictatorial Aesthetic) -->
+  <path d="M 65 30 L 95 30 L 90 170 L 60 170 Z" fill="url(#bannerRed)"/>
+  <path d="M 145 30 L 175 30 L 180 170 L 150 170 Z" fill="url(#bannerRed)"/>
+
+  <!-- Golden Emblem Elements on Banners (Abstract stylized geometric shapes, NO TEXT) -->
+  <circle cx="77" cy="65" r="8" fill="#fbbf24"/>
+  <polygon points="77,53 79,59 85,59 80,63 82,69 77,65 72,69 74,63 69,59 75,59" fill="#fbbf24" transform="translate(0, 5) scale(0.6)"/>
+
+  <circle cx="163" cy="65" r="8" fill="#fbbf24"/>
+  <polygon points="163,53 165,59 171,59 166,63 168,69 163,65 158,69 160,63 155,59 161,59" fill="#fbbf24" transform="translate(86, 5) scale(0.6)"/>
+
+  <!-- Elevated Podium Structure -->
+  <path d="M 90 170 L 150 170 L 160 195 L 80 195 Z" fill="#334155"/>
+  <rect x="85" y="195" width="70" height="8" fill="#475569" rx="1"/>
+  <!-- Decorative Golden Trim on Podium -->
+  <polygon points="100,174 140,174 142,180 98,180" fill="#fbbf24"/>
+
+  <!-- Central Dictatorial Leader Character -->
+  <!-- Shoulders & Suit/Military-style Jacket -->
+  <path d="M 92 165 L 148 165 L 142 125 L 130 115 L 110 115 L 98 125 Z" fill="url(#leaderJacket)"/>
+  <!-- Jacket Collar & Tie -->
+  <polygon points="115,115 125,115 120,135" fill="#f8fafc"/>
+  <polygon points="118,125 122,125 123,145 117,145" fill="#ef4444"/>
+  <!-- Gold Buttons / Medals -->
+  <circle cx="120" cy="130" r="2" fill="#fbbf24"/>
+  <circle cx="120" cy="140" r="2" fill="#fbbf24"/>
+  <rect x="104" y="125" width="8" height="4" fill="#ef4444" rx="1"/>
+  <rect x="128" y="125" width="8" height="4" fill="#38bdf8" rx="1"/>
+
+  <!-- Neck & Head -->
+  <rect x="113" y="102" width="14" height="15" fill="#cbd5e1" rx="4"/>
+  <ellipse cx="120" cy="92" rx="14" ry="17" fill="#e2e8f0"/>
+
+  <!-- Stern Hair Style -->
+  <path d="M 106 88 C 106 76, 134 76, 134 88 L 134 94 L 106 94 Z" fill="#1e293b"/>
+
+  <!-- Stern Facial Expressions: Strict Eyes, Frowning Brow -->
+  <path d="M 111 89 L 116 91" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 129 89 L 124 91" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="113" cy="93" r="1.5" fill="#0f172a"/>
+  <circle cx="127" cy="93" r="1.5" fill="#0f172a"/>
+  <!-- Severe Mouth Line -->
+  <line x1="115" y1="102" x2="125" y2="102" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Raised Authoritative Arm / Pointing Gesture -->
+  <!-- Arm reaching up and out -->
+  <path d="M 138 130 C 150 120, 165 110, 172 105" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 138 130 C 150 120, 165 110, 172 105" stroke="#e2e8f0" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Pointing Hand -->
+  <circle cx="174" cy="103" r="4" fill="#cbd5e1"/>
+  <path d="M 174 101 L 182 98 L 176 105 Z" fill="#cbd5e1"/>
+
+  <!-- Foreground Microphones on Podium (Classic authoritarian broadcast setup) -->
+  <!-- Mic Stand 1 -->
+  <line x1="108" y1="170" x2="108" y2="145" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Mic Head 1 -->
+  <rect x="104" y="137" width="8" height="10" fill="#64748b" rx="4"/>
+  <line x1="104" y1="140" x2="112" y2="140" fill="none" stroke="#475569" stroke-width="1"/>
+  <line x1="104" y1="143" x2="112" y2="143" fill="none" stroke="#475569" stroke-width="1"/>
+
+  <!-- Mic Stand 2 -->
+  <line x1="128" y1="170" x2="128" y2="140" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Mic Head 2 -->
+  <rect x="124" y="132" width="8" height="10" fill="#64748b" rx="4"/>
+  <line x1="124" y1="135" x2="132" y2="135" fill="none" stroke="#475569" stroke-width="1"/>
+  <line x1="124" y1="138" x2="132" y2="138" fill="none" stroke="#475569" stroke-width="1"/>
+
+  <!-- Atmospheric Floor / Base Line -->
+  <rect x="0" y="200" width="240" height="40" fill="#090d16"/>
+  <line x1="0" y1="200" x2="240" y2="200" stroke="#334155" stroke-width="2"/>
+
+  <!-- Optional subtle dramatic lighting highlight on floor -->
+  <ellipse cx="120" cy="200" rx="60" ry="6" fill="#f59e0b" opacity="0.15"/>
+</svg>

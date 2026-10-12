@@ -15037,6 +15037,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/兜.svg",
     "caption": "túi, bọc, đựng"
   },
+  "陡峭": {
+    "file": "陡峭.svg",
+    "src": "images/HSK_2.0/level6/陡峭.svg",
+    "caption": "dốc đứng"
+  },
+  "斗争": {
+    "file": "斗争.svg",
+    "src": "images/HSK_2.0/level6/斗争.svg",
+    "caption": "đấu tranh"
+  },
+  "督促": {
+    "file": "督促.svg",
+    "src": "images/HSK_2.0/level6/督促.svg",
+    "caption": "đôn đốc, thúc giục"
+  },
+  "都市": {
+    "file": "都市.svg",
+    "src": "images/HSK_2.0/level6/都市.svg",
+    "caption": "đô thị, thành phố lớn"
+  },
+  "独裁": {
+    "file": "独裁.svg",
+    "src": "images/HSK_2.0/level6/独裁.svg",
+    "caption": "độc tài"
+  },
+  "毒品": {
+    "file": "毒品.svg",
+    "src": "images/HSK_2.0/level6/毒品.svg",
+    "caption": "ma túy"
+  },
+  "赌博": {
+    "file": "赌博.svg",
+    "src": "images/HSK_2.0/level6/赌博.svg",
+    "caption": "đánh bạc"
+  },
+  "堵塞": {
+    "file": "堵塞.svg",
+    "src": "images/HSK_2.0/level6/堵塞.svg",
+    "caption": "tắc nghẽn"
+  },
+  "杜绝": {
+    "file": "杜绝.svg",
+    "src": "images/HSK_2.0/level6/杜绝.svg",
+    "caption": "chấm dứt, ngăn chặn triệt để"
+  },
+  "端": {
+    "file": "端.svg",
+    "src": "images/HSK_2.0/level6/端.svg",
+    "caption": "bưng, mang (bằng hai tay)"
+  },
   "队伍": {
     "file": "队伍.svg",
     "src": "images/HSK_2.0/level6/队伍.svg",

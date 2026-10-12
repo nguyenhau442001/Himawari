@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:02:07.192530",
-  "total_unique_words_with_illustrations": 3639,
-  "total_flat_svg_files": 3639,
+  "generated_at": "2026-10-12T12:03:55.438767",
+  "total_unique_words_with_illustrations": 3649,
+  "total_flat_svg_files": 3649,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 999,
-        "pct": "40.0%"
+        "with_svg": 1009,
+        "pct": "40.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 367,
-        "pct": "20.4%"
+        "with_svg": 370,
+        "pct": "20.6%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 376,
-        "pct": "6.7%"
+        "with_svg": 382,
+        "pct": "6.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 376,
-        "pct": "6.7%"
+        "with_svg": 382,
+        "pct": "6.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 376,
-        "pct": "6.7%"
+        "with_svg": 382,
+        "pct": "6.8%"
       }
     }
   },
@@ -55132,6 +55132,206 @@
         "images/HSK_3.0/level7/兜.svg",
         "images/HSK_3.0/level8/兜.svg",
         "images/HSK_3.0/level9/兜.svg"
+      ]
+    },
+    "陡峭": {
+      "hanzi": "陡峭",
+      "pinyin": "dǒuqiào",
+      "meaning": "dốc đứng",
+      "example_zh": "这座山非常<u>陡峭</u>。",
+      "example_vi": "Quả núi này rất <u>dốc đứng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "陡峭.svg",
+      "src": "images/HSK_2.0/level6/陡峭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/陡峭.svg",
+        "images/HSK_3.0/level8/陡峭.svg",
+        "images/HSK_3.0/level9/陡峭.svg"
+      ]
+    },
+    "斗争": {
+      "hanzi": "斗争",
+      "pinyin": "dòuzhēng",
+      "meaning": "đấu tranh",
+      "example_zh": "他与病魔进行了长期<u>斗争</u>。",
+      "example_vi": "Anh ấy <u>đấu tranh</u> lâu dài với bệnh tật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "斗争.svg",
+      "src": "images/HSK_2.0/level6/斗争.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/斗争.svg"
+      ]
+    },
+    "督促": {
+      "hanzi": "督促",
+      "pinyin": "dūcù",
+      "meaning": "đôn đốc, thúc giục",
+      "example_zh": "老师<u>督促</u>学生完成作业。",
+      "example_vi": "Thầy giáo <u>đôn đốc</u> học sinh hoàn thành bài tập.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "督促.svg",
+      "src": "images/HSK_2.0/level6/督促.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/督促.svg",
+        "images/HSK_3.0/level8/督促.svg",
+        "images/HSK_3.0/level9/督促.svg"
+      ]
+    },
+    "都市": {
+      "hanzi": "都市",
+      "pinyin": "dūshì",
+      "meaning": "đô thị, thành phố lớn",
+      "example_zh": "上海是一个国际<u>都市</u>。",
+      "example_vi": "Thượng Hải là một <u>đô thị</u> quốc tế.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "都市.svg",
+      "src": "images/HSK_2.0/level6/都市.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/都市.svg"
+      ]
+    },
+    "独裁": {
+      "hanzi": "独裁",
+      "pinyin": "dúcái",
+      "meaning": "độc tài",
+      "example_zh": "那是一个<u>独裁</u>政权。",
+      "example_vi": "Đó là một chính quyền <u>độc tài</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "独裁.svg",
+      "src": "images/HSK_2.0/level6/独裁.svg",
+      "alt_srcs": []
+    },
+    "毒品": {
+      "hanzi": "毒品",
+      "pinyin": "dúpǐn",
+      "meaning": "ma túy",
+      "example_zh": "政府严厉打击<u>毒品</u>交易。",
+      "example_vi": "Chính phủ trấn áp nghiêm khắc việc mua bán <u>ma túy</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "毒品.svg",
+      "src": "images/HSK_2.0/level6/毒品.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/毒品.svg",
+        "images/HSK_3.0/level8/毒品.svg",
+        "images/HSK_3.0/level9/毒品.svg"
+      ]
+    },
+    "赌博": {
+      "hanzi": "赌博",
+      "pinyin": "dǔbó",
+      "meaning": "đánh bạc",
+      "example_zh": "<u>赌博</u>会让人上瘾。",
+      "example_vi": "<u>Đánh bạc</u> có thể gây nghiện cho con người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "赌博.svg",
+      "src": "images/HSK_2.0/level6/赌博.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/赌博.svg",
+        "images/HSK_3.0/level8/赌博.svg",
+        "images/HSK_3.0/level9/赌博.svg"
+      ]
+    },
+    "堵塞": {
+      "hanzi": "堵塞",
+      "pinyin": "dǔsè",
+      "meaning": "tắc nghẽn",
+      "example_zh": "这条路被<u>堵塞</u>了。",
+      "example_vi": "Con đường này bị <u>tắc nghẽn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "堵塞.svg",
+      "src": "images/HSK_2.0/level6/堵塞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/堵塞.svg",
+        "images/HSK_3.0/level8/堵塞.svg",
+        "images/HSK_3.0/level9/堵塞.svg"
+      ]
+    },
+    "杜绝": {
+      "hanzi": "杜绝",
+      "pinyin": "dùjué",
+      "meaning": "chấm dứt, ngăn chặn triệt để",
+      "example_zh": "我们要<u>杜绝</u>这种现象。",
+      "example_vi": "Chúng ta phải <u>chấm dứt</u> hiện tượng này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "杜绝.svg",
+      "src": "images/HSK_2.0/level6/杜绝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/杜绝.svg",
+        "images/HSK_3.0/level8/杜绝.svg",
+        "images/HSK_3.0/level9/杜绝.svg"
+      ]
+    },
+    "端": {
+      "hanzi": "端",
+      "pinyin": "duān",
+      "meaning": "bưng, mang (bằng hai tay)",
+      "example_zh": "她<u>端</u>着一盘水果走过来。",
+      "example_vi": "Cô ấy <u>bưng</u> một đĩa trái cây đi qua.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "端.svg",
+      "src": "images/HSK_2.0/level6/端.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/端.svg"
       ]
     },
     "队伍": {

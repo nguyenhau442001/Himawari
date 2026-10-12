@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm Teacher Lamp Glow -->
+    <radialGradient id="lamp-glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Character 1 Skin Gradient -->
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    
+    <!-- Accent Gradients -->
+    <linearGradient id="shirt-teacher" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <linearGradient id="shirt-student" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full Canvas Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)"/>
+
+  <!-- Ambient Light from Desk Lamp -->
+  <circle cx="160" cy="90" r="110" fill="url(#lamp-glow)"/>
+
+  <!-- Environment & Room Details -->
+  <!-- Bookshelf in Background -->
+  <g opacity="0.6">
+    <rect x="15" y="45" width="45" height="110" fill="#334155" rx="3"/>
+    <rect x="20" y="70" width="35" height="4" fill="#475569"/>
+    <rect x="20" y="100" width="35" height="4" fill="#475569"/>
+    <rect x="20" y="130" width="35" height="4" fill="#475569"/>
+    <!-- Books -->
+    <path d="M22 69 L22 55 L28 55 L28 69 Z" fill="#f43f5e"/>
+    <path d="M30 69 L30 57 L36 57 L36 69 Z" fill="#10b981"/>
+    <path d="M38 69 L38 53 L45 53 L45 69 Z" fill="#8b5cf6"/>
+    <path d="M22 99 L22 83 L30 83 L30 99 Z" fill="#fbbf24"/>
+    <path d="M32 99 L32 85 L42 85 L42 99 Z" fill="#ec4899"/>
+  </g>
+
+  <!-- Window with Night City Silhouette -->
+  <g opacity="0.5">
+    <rect x="75" y="30" width="45" height="65" rx="4" fill="#090d16" stroke="#475569" stroke-width="2"/>
+    <line x1="97" y1="30" x2="97" y2="95" stroke="#475569" stroke-width="2"/>
+    <line x1="75" y1="62" x2="120" y2="62" stroke="#475569" stroke-width="2"/>
+    <!-- Tiny window lights -->
+    <rect x="80" y="40" width="5" height="6" fill="#fbbf24" opacity="0.8"/>
+    <rect x="105" y="50" width="5" height="8" fill="#38bdf8" opacity="0.6"/>
+    <rect x="85" y="75" width="6" height="5" fill="#fbbf24" opacity="0.9"/>
+  </g>
+
+  <!-- Main Wooden Study Desk -->
+  <rect x="40" y="155" width="165" height="12" fill="#64748b" rx="2"/>
+  <rect x="55" y="167" width="12" height="60" fill="#475569"/>
+  <rect x="175" y="167" width="12" height="60" fill="#475569"/>
+
+  <!-- Desk Props (Notebooks, Pen Holder, Lamp Base) -->
+  <!-- Desk Lamp -->
+  <path d="M155 155 L155 125 L170 110" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M165 103 L178 118 L152 118 Z" fill="#f59e0b"/>
+  <!-- Open Homework Notebook on Desk -->
+  <path d="M90 145 L140 145 L145 170 L95 170 Z" fill="#f8fafc"/>
+  <path d="M117 145 L117 170" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- Scribble lines on notebook (Homework) -->
+  <line x1="98" y1="152" x2="112" y2="152" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="98" y1="158" x2="110" y2="158" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="122" y1="152" x2="138" y2="152" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="122" y1="158" x2="135" y2="158" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="122" y1="164" x2="132" y2="164" stroke="#f43f5e" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- STUDENT (Sitting on the right side, working hard) -->
+  <g id="student">
+    <!-- Chair back -->
+    <path d="M170 120 L190 120 L195 170 L175 170 Z" fill="#334155" rx="3"/>
+    <!-- Student Body -->
+    <path d="M115 170 C115 150 135 140 150 140 C165 140 175 155 175 170 Z" fill="url(#shirt-student)"/>
+    <!-- Student Head -->
+    <circle cx="145" cy="115" r="18" fill="url(#skin)"/>
+    <!-- Student Hair (Messy, stressed/focused) -->
+    <path d="M128 115 C128 100 140 95 152 98 C160 100 163 112 163 115 C158 110 150 108 142 110 C135 112 130 115 128 115 Z" fill="#0f172a"/>
+    <!-- Focused Face Expression -->
+    <!-- Eyebrows furrowed slightly -->
+    <line x1="138" y1="112" x2="145" y2="114" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+    <line x1="150" y1="114" x2="157" y2="112" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+    <!-- Focused Eyes -->
+    <circle cx="141" cy="118" r="1.5" fill="#1e293b"/>
+    <circle cx="153" cy="118" r="1.5" fill="#1e293b"/>
+    <!-- Determined Mouth -->
+    <path d="M145 124 Q148 126 151 124" fill="none" stroke="#9a3412" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Student Arm writing -->
+    <path d="M130 150 L142 162" fill="none" stroke="url(#shirt-student)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="142" cy="162" r="4" fill="url(#skin)"/>
+  </g>
+
+  <!-- TEACHER (Standing beside, pointing/encouraging - "督促" Action) -->
+  <g id="teacher">
+    <!-- Teacher Body -->
+    <path d="M60 210 L70 135 C70 135 85 130 95 135 L105 210 Z" fill="url(#shirt-teacher)"/>
+    <!-- Teacher Pants -->
+    <path d="M72 210 L78 240 L88 240 L92 210 Z" fill="#0f172a"/>
+    <path d="M92 210 L96 240 L106 240 L108 210 Z" fill="#0f172a"/>
+    
+    <!-- Teacher Head & Hair -->
+    <circle cx="85" cy="105" r="17" fill="url(#skin)"/>
+    <!-- Neat teacher hair -->
+    <path d="M70 105 C70 93 80 88 95 90 C100 91 102 98 102 105 C98 100 90 98 82 100 C76 102 72 104 70 105 Z" fill="#334155"/>
+    
+    <!-- Friendly, encouraging face -->
+    <circle cx="80" cy="107" r="1.5" fill="#1e293b"/>
+    <circle cx="91" cy="107" r="1.5" fill="#1e293b"/>
+    <!-- Smile -->
+    <path d="M83 113 Q86 116 89 113" fill="none" stroke="#0369a1" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Encouraging Gesturing Arm (Pointing at homework to urge completion) -->
+    <path d="M78 140 L100 150" fill="none" stroke="url(#shirt-teacher)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Forearm and Pointing Index Finger -->
+    <path d="M100 150 L115 152" fill="none" stroke="url(#skin)" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="117" cy="152" r="3.5" fill="url(#skin)"/>
+    <!-- Pointing index finger detail -->
+    <path d="M117 152 L124 150" stroke="url(#skin)" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Other Arm on Hip -->
+    <path d="M90 145 C75 155 70 170 75 185" fill="none" stroke="url(#shirt-teacher)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="75" cy="185" r="4" fill="url(#skin)"/>
+  </g>
+
+  <!-- Action Emphasis / Guidance Sparkles (Visual cue for "督促" / urging & guiding) -->
+  <g id="sparkles" opacity="0.9">
+    <!-- Star 1 -->
+    <path d="M125 130 L127 136 L133 138 L127 140 L125 146 L123 140 L117 138 L123 136 Z" fill="#fbbf24"/>
+    <!-- Star 2 (Smaller) -->
+    <path d="M105 120 L106 123 L109 124 L106 125 L105 128 L104 125 L101 124 L104 123 Z" fill="#38bdf8"/>
+    <!-- Motion / Focus lines near book -->
+    <path d="M130 135 Q135 130 140 132" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
