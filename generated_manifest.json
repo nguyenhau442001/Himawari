@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:29:34.778819",
-  "total_unique_words_with_illustrations": 3279,
-  "total_flat_svg_files": 3279,
+  "generated_at": "2026-10-12T10:32:52.416907",
+  "total_unique_words_with_illustrations": 3289,
+  "total_flat_svg_files": 3289,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 639,
-        "pct": "25.6%"
+        "with_svg": 649,
+        "pct": "26.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 260,
-        "pct": "14.4%"
+        "with_svg": 265,
+        "pct": "14.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 146,
-        "pct": "2.6%"
+        "with_svg": 151,
+        "pct": "2.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 146,
-        "pct": "2.6%"
+        "with_svg": 151,
+        "pct": "2.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 146,
-        "pct": "2.6%"
+        "with_svg": 151,
+        "pct": "2.7%"
       }
     }
   },
@@ -47312,6 +47312,206 @@
         "images/HSK_3.0/level7/抱负.svg",
         "images/HSK_3.0/level8/抱负.svg",
         "images/HSK_3.0/level9/抱负.svg"
+      ]
+    },
+    "曝光": {
+      "hanzi": "曝光",
+      "pinyin": "bàoguāng",
+      "meaning": "phơi sáng; phơi bày (sự việc)",
+      "example_zh": "这件丑闻终于被<u>曝光</u>了。",
+      "example_vi": "Vụ bê bối này cuối cùng đã bị <u>phơi bày</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "曝光.svg",
+      "src": "images/HSK_2.0/level6/曝光.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/曝光.svg",
+        "images/HSK_3.0/level8/曝光.svg",
+        "images/HSK_3.0/level9/曝光.svg"
+      ]
+    },
+    "暴力": {
+      "hanzi": "暴力",
+      "pinyin": "bàolì",
+      "meaning": "vũ lực, bạo lực",
+      "example_zh": "电影里有太多<u>暴力</u>镜头。",
+      "example_vi": "Trong phim có quá nhiều cảnh <u>bạo lực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "暴力.svg",
+      "src": "images/HSK_2.0/level6/暴力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/暴力.svg"
+      ]
+    },
+    "暴露": {
+      "hanzi": "暴露",
+      "pinyin": "bàolù",
+      "meaning": "phơi bày, để lộ",
+      "example_zh": "他的弱点被<u>暴露</u>出来了。",
+      "example_vi": "Điểm yếu của anh ấy đã bị <u>phơi bày</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "暴露.svg",
+      "src": "images/HSK_2.0/level6/暴露.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/暴露.svg"
+      ]
+    },
+    "报销": {
+      "hanzi": "报销",
+      "pinyin": "bàoxiāo",
+      "meaning": "thanh toán chi phí (hoàn ứng)",
+      "example_zh": "出差的费用可以<u>报销</u>。",
+      "example_vi": "Chi phí công tác có thể <u>thanh toán hoàn ứng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "报销.svg",
+      "src": "images/HSK_2.0/level6/报销.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/报销.svg",
+        "images/HSK_3.0/level8/报销.svg",
+        "images/HSK_3.0/level9/报销.svg"
+      ]
+    },
+    "爆炸": {
+      "hanzi": "爆炸",
+      "pinyin": "bàozhà",
+      "meaning": "nổ, vụ nổ",
+      "example_zh": "工厂发生了<u>爆炸</u>。",
+      "example_vi": "Nhà máy đã xảy ra <u>vụ nổ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "爆炸.svg",
+      "src": "images/HSK_2.0/level6/爆炸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/爆炸.svg"
+      ]
+    },
+    "悲哀": {
+      "hanzi": "悲哀",
+      "pinyin": "bēiāi",
+      "meaning": "đau buồn, bi thương",
+      "example_zh": "失去亲人让她感到无比<u>悲哀</u>。",
+      "example_vi": "Mất người thân khiến cô ấy cảm thấy vô cùng <u>đau buồn</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "悲哀.svg",
+      "src": "images/HSK_2.0/level6/悲哀.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/悲哀.svg",
+        "images/HSK_3.0/level8/悲哀.svg",
+        "images/HSK_3.0/level9/悲哀.svg"
+      ]
+    },
+    "卑鄙": {
+      "hanzi": "卑鄙",
+      "pinyin": "bēibǐ",
+      "meaning": "đê tiện, hèn hạ",
+      "example_zh": "他的手段太<u>卑鄙</u>了。",
+      "example_vi": "Thủ đoạn của anh ta quá <u>đê tiện</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "卑鄙.svg",
+      "src": "images/HSK_2.0/level6/卑鄙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/卑鄙.svg",
+        "images/HSK_3.0/level8/卑鄙.svg",
+        "images/HSK_3.0/level9/卑鄙.svg"
+      ]
+    },
+    "悲惨": {
+      "hanzi": "悲惨",
+      "pinyin": "bēicǎn",
+      "meaning": "bi thảm, thảm thương",
+      "example_zh": "这是一个<u>悲惨</u>的故事。",
+      "example_vi": "Đây là một câu chuyện <u>bi thảm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "悲惨.svg",
+      "src": "images/HSK_2.0/level6/悲惨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/悲惨.svg",
+        "images/HSK_3.0/level8/悲惨.svg",
+        "images/HSK_3.0/level9/悲惨.svg"
+      ]
+    },
+    "北极": {
+      "hanzi": "北极",
+      "pinyin": "Běijí",
+      "meaning": "Bắc Cực",
+      "example_zh": "北极熊生活在<u>北极</u>。",
+      "example_vi": "Gấu trắng sống ở <u>Bắc Cực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "北极.svg",
+      "src": "images/HSK_2.0/level6/北极.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/北极.svg"
+      ]
+    },
+    "被动": {
+      "hanzi": "被动",
+      "pinyin": "bèidòng",
+      "meaning": "bị động",
+      "example_zh": "在这件事上我很<u>被动</u>。",
+      "example_vi": "Trong việc này tôi rất <u>bị động</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "被动.svg",
+      "src": "images/HSK_2.0/level6/被动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/被动.svg"
       ]
     },
     "本人": {

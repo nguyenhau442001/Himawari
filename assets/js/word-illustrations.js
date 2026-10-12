@@ -13097,6 +13097,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/抱负.svg",
     "caption": "hoài bão, khát vọng"
   },
+  "曝光": {
+    "file": "曝光.svg",
+    "src": "images/HSK_2.0/level6/曝光.svg",
+    "caption": "phơi sáng; phơi bày (sự việc)"
+  },
+  "暴力": {
+    "file": "暴力.svg",
+    "src": "images/HSK_2.0/level6/暴力.svg",
+    "caption": "vũ lực, bạo lực"
+  },
+  "暴露": {
+    "file": "暴露.svg",
+    "src": "images/HSK_2.0/level6/暴露.svg",
+    "caption": "phơi bày, để lộ"
+  },
+  "报销": {
+    "file": "报销.svg",
+    "src": "images/HSK_2.0/level6/报销.svg",
+    "caption": "thanh toán chi phí (hoàn ứng)"
+  },
+  "爆炸": {
+    "file": "爆炸.svg",
+    "src": "images/HSK_2.0/level6/爆炸.svg",
+    "caption": "nổ, vụ nổ"
+  },
+  "悲哀": {
+    "file": "悲哀.svg",
+    "src": "images/HSK_2.0/level6/悲哀.svg",
+    "caption": "đau buồn, bi thương"
+  },
+  "卑鄙": {
+    "file": "卑鄙.svg",
+    "src": "images/HSK_2.0/level6/卑鄙.svg",
+    "caption": "đê tiện, hèn hạ"
+  },
+  "悲惨": {
+    "file": "悲惨.svg",
+    "src": "images/HSK_2.0/level6/悲惨.svg",
+    "caption": "bi thảm, thảm thương"
+  },
+  "北极": {
+    "file": "北极.svg",
+    "src": "images/HSK_2.0/level6/北极.svg",
+    "caption": "Bắc Cực"
+  },
+  "被动": {
+    "file": "被动.svg",
+    "src": "images/HSK_2.0/level6/被动.svg",
+    "caption": "bị động"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="30" y="160" width="180" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="175" width="10" height="50" fill="#334155"/>
+  <rect x="190" y="175" width="10" height="50" fill="#334155"/>
+  
+  <!-- Laptop -->
+  <path d="M70 160 L170 160 L185 130 L55 130 Z" fill="#475569"/>
+  <path d="M60 135 L180 135 L180 155 L60 155 Z" fill="#94a3b8"/>
+  <rect x="75" y="140" width="90" height="10" fill="#1e293b"/>
+  
+  <!-- Character (Upper body) -->
+  <circle cx="120" cy="90" r="25" fill="#fde68a"/>
+  <path d="M95 110 C95 140, 145 140, 145 110 L140 100 L100 100 Z" fill="#38bdf8"/>
+  <circle cx="112" cy="85" r="3" fill="#1e293b"/>
+  <circle cx="128" cy="85" r="3" fill="#1e293b"/>
+  <path d="M112 95 Q120 100 128 95" stroke="#1e293b" stroke-width="2" fill="none"/>
+  
+  <!-- Documents/Receipts -->
+  <rect x="150" y="145" width="30" height="40" rx="2" fill="#f1f5f9"/>
+  <rect x="155" y="150" width="20" height="2" fill="#cbd5e1"/>
+  <rect x="155" y="155" width="20" height="2" fill="#cbd5e1"/>
+  <rect x="155" y="160" width="15" height="2" fill="#cbd5e1"/>
+  
+  <!-- Floating Icons -->
+  <circle cx="190" cy="80" r="15" fill="#10b981" opacity="0.8"/>
+  <path d="M185 80 L188 83 L195 76" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <rect x="40" y="70" width="20" height="20" rx="4" fill="#fb923c" opacity="0.8"/>
+  <path d="M45 75 L55 75 M45 80 L55 80 M45 85 L50 85" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Coffee Mug -->
+  <rect x="50" y="145" width="15" height="15" rx="2" fill="#ec4899"/>
+  <rect x="65" y="148" width="5" height="8" rx="1" fill="#ec4899"/>
+</svg>

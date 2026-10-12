@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Window and Moonlight -->
+  <path d="M160 40 L210 40 L210 120 L160 120 Z" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <path d="M185 40 L185 120" stroke="#475569" stroke-width="2"/>
+  <path d="M160 80 L210 80" stroke="#475569" stroke-width="2"/>
+  <circle cx="185" cy="70" r="15" fill="#fef3c7" opacity="0.3"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 110)">
+    <!-- Chair -->
+    <path d="M-10 80 L50 80 L40 40 L0 40 Z" fill="#475569"/>
+    <!-- Body -->
+    <path d="M10 40 C10 20, 30 10, 40 10 C50 10, 70 20, 70 40 L70 90 L10 90 Z" fill="#64748b"/>
+    <!-- Head -->
+    <circle cx="40" cy="20" r="18" fill="#cbd5e1"/>
+    <!-- Hair -->
+    <path d="M25 15 C25 5, 55 5, 55 15 L55 25 L25 25 Z" fill="#334155"/>
+    <!-- Sad face details -->
+    <path d="M32 18 L36 22 M44 18 L48 22" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <path d="M35 30 Q40 35 45 30" stroke="#1e293b" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Photo Frame on Table -->
+  <rect x="130" y="140" width="40" height="50" fill="#f1f5f9" rx="2"/>
+  <rect x="135" y="145" width="30" height="30" fill="#94a3b8"/>
+  <circle cx="150" cy="160" r="8" fill="#cbd5e1"/>
+  <path d="M135 180 L165 180" stroke="#fb923c" stroke-width="2"/>
+  
+  <!-- Table -->
+  <path d="M100 190 L220 190 L210 210 L110 210 Z" fill="#334155"/>
+  
+  <!-- Ambient glow -->
+  <ellipse cx="120" cy="150" rx="80" ry="40" fill="#fb923c" opacity="0.05"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Window Frame -->
+  <rect x="40" y="40" width="160" height="120" rx="4" fill="#0f172a" stroke="#334155" stroke-width="4"/>
+  <path d="M120 40 L120 160" stroke="#334155" stroke-width="4"/>
+  
+  <!-- Rain/Atmosphere -->
+  <line x1="60" y1="50" x2="55" y2="80" stroke="#94a3b8" stroke-width="1" opacity="0.4"/>
+  <line x1="100" y1="60" x2="95" y2="90" stroke="#94a3b8" stroke-width="1" opacity="0.4"/>
+  <line x1="150" y1="55" x2="145" y2="85" stroke="#94a3b8" stroke-width="1" opacity="0.4"/>
+  <line x1="190" y1="70" x2="185" y2="100" stroke="#94a3b8" stroke-width="1" opacity="0.4"/>
+
+  <!-- Character: Person sitting by window -->
+  <g transform="translate(120, 180)">
+    <!-- Chair -->
+    <path d="M-40 0 L40 0 L35 40 L-35 40 Z" fill="#334155"/>
+    <!-- Body -->
+    <path d="M-20 -10 L20 -10 L15 -60 L-15 -60 Z" fill="#475569"/>
+    <!-- Head -->
+    <circle cx="0" cy="-85" r="25" fill="#f8fafc"/>
+    <!-- Sad Expression -->
+    <path d="M-10 -90 Q-5 -95 0 -90 T10 -90" stroke="#1e293b" stroke-width="2" fill="none"/>
+    <path d="M-8 -75 Q0 -82 8 -75" stroke="#1e293b" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Book/Story Prop -->
+  <path d="M160 140 L210 140 L200 170 L150 170 Z" fill="#fbbf24"/>
+  <path d="M162 145 L208 145" stroke="#1e293b" stroke-width="2"/>
+  <path d="M162 152 L208 152" stroke="#1e293b" stroke-width="2"/>
+  <path d="M162 159 L190 159" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Ambient Glow -->
+  <circle cx="180" cy="150" r="40" fill="#f59e0b" opacity="0.05"/>
+</svg>
