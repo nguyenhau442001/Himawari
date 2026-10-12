@@ -17137,6 +17137,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/考察.svg",
     "caption": "khảo sát, thực địa"
   },
+  "考古": {
+    "file": "考古.svg",
+    "src": "images/HSK_2.0/level6/考古.svg",
+    "caption": "khảo cổ"
+  },
+  "烤": {
+    "file": "烤.svg",
+    "src": "images/HSK_2.0/level6/烤.svg",
+    "caption": "nướng"
+  },
+  "靠拢": {
+    "file": "靠拢.svg",
+    "src": "images/HSK_2.0/level6/靠拢.svg",
+    "caption": "xích lại gần"
+  },
+  "坑": {
+    "file": "坑.svg",
+    "src": "images/HSK_2.0/level6/坑.svg",
+    "caption": "cái hố, hầm"
+  },
+  "科目": {
+    "file": "科目.svg",
+    "src": "images/HSK_2.0/level6/科目.svg",
+    "caption": "môn học, khoa mục"
+  },
+  "可观": {
+    "file": "可观.svg",
+    "src": "images/HSK_2.0/level6/可观.svg",
+    "caption": "đáng kể, khá lớn"
+  },
+  "可恶": {
+    "file": "可恶.svg",
+    "src": "images/HSK_2.0/level6/可恶.svg",
+    "caption": "đáng ghét"
+  },
+  "可行": {
+    "file": "可行.svg",
+    "src": "images/HSK_2.0/level6/可行.svg",
+    "caption": "khả thi"
+  },
+  "渴望": {
+    "file": "渴望.svg",
+    "src": "images/HSK_2.0/level6/渴望.svg",
+    "caption": "khát khao, mong mỏi"
+  },
+  "克制": {
+    "file": "克制.svg",
+    "src": "images/HSK_2.0/level6/克制.svg",
+    "caption": "kiềm chế, khắc chế"
+  },
   "亏": {
     "file": "亏.svg",
     "src": "images/HSK_2.0/level6/亏.svg",

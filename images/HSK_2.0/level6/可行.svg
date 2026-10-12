@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="140" width="160" height="10" rx="2" fill="#475569"/>
+  <rect x="50" y="150" width="10" height="60" rx="2" fill="#334155"/>
+  <rect x="180" y="150" width="10" height="60" rx="2" fill="#334155"/>
+  
+  <!-- Blueprint/Plan -->
+  <path d="M70 90 L170 90 L160 130 L60 130 Z" fill="#f8fafc"/>
+  <path d="M80 100 H150 M80 110 H130 M80 120 H140" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="155" cy="105" r="6" fill="#fbbf24"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 110)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#fde68a"/>
+    <!-- Glasses -->
+    <rect x="-15" y="-5" width="12" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <rect x="3" y="-5" width="12" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <!-- Smile -->
+    <path d="M-10 10 Q0 18 10 10" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Body -->
+    <path d="M-30 25 C-30 50, 30 50, 30 25 L20 80 L-20 80 Z" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Checkmark/Approval element -->
+  <circle cx="190" cy="60" r="20" fill="#10b981"/>
+  <path d="M180 60 L187 67 L202 52" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="4" fill="#fb923c"/>
+  <circle cx="200" cy="180" r="3" fill="#ec4899"/>
+  <path d="M30 180 L50 160" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

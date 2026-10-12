@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Ground/Dirt Layer -->
+  <path d="M0 180 C 60 160, 180 160, 240 180 L 240 240 L 0 240 Z" fill="#334155"/>
+  
+  <!-- Excavated Pit -->
+  <path d="M60 190 L 180 190 L 170 230 L 70 230 Z" fill="#0f172a"/>
+  
+  <!-- Artifact (Pottery fragment) -->
+  <path d="M110 210 C 105 200, 125 200, 120 210 Z" fill="#fbbf24"/>
+  
+  <!-- Archeologist Character -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-20 10 L 20 10 L 15 60 L -15 60 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="20" fill="#fde68a"/>
+    <!-- Hat -->
+    <path d="M-25 -25 L 25 -25 L 20 -35 L -20 -35 Z" fill="#fb923c"/>
+    <path d="M-10 -35 L 10 -35 L 5 -45 L -5 -45 Z" fill="#fb923c"/>
+    <!-- Arm holding brush -->
+    <path d="M-20 20 L -40 40" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-40 40 L -45 35" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Tools -->
+  <rect x="180" y="150" width="10" height="40" rx="2" fill="#94a3b8"/>
+  <path d="M185 140 L 175 150 L 195 150 Z" fill="#fbbf24"/>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="60" cy="140" r="15" fill="none" stroke="#fbbf24" stroke-width="4"/>
+  <path d="M70 150 L 85 165" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Ambient dust/particles -->
+  <circle cx="40" cy="80" r="2" fill="#ffffff" opacity="0.3"/>
+  <circle cx="200" cy="60" r="3" fill="#ffffff" opacity="0.2"/>
+  <circle cx="150" cy="100" r="2" fill="#ffffff" opacity="0.4"/>
+</svg>

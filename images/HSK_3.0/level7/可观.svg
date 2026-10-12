@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <rect x="40" y="120" width="160" height="80" rx="8" fill="#334155"/>
+  <rect x="45" y="125" width="150" height="70" rx="4" fill="#1e293b"/>
+  
+  <path d="M70 160 L110 160 L110 190 L70 190 Z" fill="#f59e0b" opacity="0.8"/>
+  <path d="M80 150 L120 150 L120 190 L80 190 Z" fill="#fbbf24"/>
+  <path d="M90 140 L130 140 L130 190 L90 190 Z" fill="#f59e0b"/>
+  
+  <circle cx="160" cy="165" r="25" fill="#10b981"/>
+  <path d="M150 165 L157 172 L172 158" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <path d="M140 100 C 140 80, 160 70, 180 80 S 200 110, 180 120 S 140 120, 140 100" fill="#fb923c"/>
+  <path d="M150 110 C 150 100, 160 95, 170 100 S 180 115, 170 120 S 150 120, 150 110" fill="#f59e0b"/>
+  
+  <path d="M60 110 Q 80 80 100 110" stroke="#38bdf8" stroke-width="3" fill="none" stroke-dasharray="4 4"/>
+  
+  <g transform="translate(20, 40)">
+    <circle cx="40" cy="60" r="15" fill="#cbd5e1"/>
+    <path d="M25 80 Q 40 110 55 80" fill="#cbd5e1"/>
+    <path d="M30 85 L20 120 M50 85 L60 120" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+    <path d="M35 55 L45 55" stroke="#1e293b" stroke-width="2"/>
+  </g>
+  
+  <rect x="150" y="40" width="60" height="30" rx="4" fill="#38bdf8" opacity="0.2"/>
+  <circle cx="165" cy="55" r="8" fill="#38bdf8"/>
+  <circle cx="185" cy="55" r="8" fill="#38bdf8"/>
+  <circle cx="205" cy="55" r="8" fill="#38bdf8"/>
+</svg>

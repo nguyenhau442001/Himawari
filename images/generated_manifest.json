@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:10:01.790655",
-  "total_unique_words_with_illustrations": 4035,
-  "total_flat_svg_files": 4035,
+  "generated_at": "2026-10-12T20:11:08.378051",
+  "total_unique_words_with_illustrations": 4045,
+  "total_flat_svg_files": 4045,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1395,
-        "pct": "55.8%"
+        "with_svg": 1405,
+        "pct": "56.2%"
       }
     },
     "hsk_3_0": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 614,
-        "pct": "61.4%"
+        "with_svg": 615,
+        "pct": "61.5%"
       },
       "level5": {
         "total": 1600,
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 497,
-        "pct": "27.6%"
+        "with_svg": 501,
+        "pct": "27.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 604,
-        "pct": "10.8%"
+        "with_svg": 609,
+        "pct": "10.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 604,
-        "pct": "10.8%"
+        "with_svg": 609,
+        "pct": "10.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 604,
-        "pct": "10.8%"
+        "with_svg": 609,
+        "pct": "10.9%"
       }
     }
   },
@@ -63468,6 +63468,206 @@
       "src": "images/HSK_2.0/level6/考察.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/考察.svg"
+      ]
+    },
+    "考古": {
+      "hanzi": "考古",
+      "pinyin": "kǎogǔ",
+      "meaning": "khảo cổ",
+      "example_zh": "他是<u>考古</u>专家。",
+      "example_vi": "Anh ấy là chuyên gia <u>khảo cổ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "考古.svg",
+      "src": "images/HSK_2.0/level6/考古.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/考古.svg"
+      ]
+    },
+    "烤": {
+      "hanzi": "烤",
+      "pinyin": "kǎo",
+      "meaning": "nướng",
+      "example_zh": "我们一起<u>烤</u>肉。",
+      "example_vi": "Chúng ta cùng <u>nướng</u> thịt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "烤.svg",
+      "src": "images/HSK_2.0/level6/烤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level4/烤.svg"
+      ]
+    },
+    "靠拢": {
+      "hanzi": "靠拢",
+      "pinyin": "kàolǒng",
+      "meaning": "xích lại gần",
+      "example_zh": "大家往中间<u>靠拢</u>一点。",
+      "example_vi": "Mọi người <u>xích lại</u> gần giữa hơn một chút.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "靠拢.svg",
+      "src": "images/HSK_2.0/level6/靠拢.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/靠拢.svg",
+        "images/HSK_3.0/level8/靠拢.svg",
+        "images/HSK_3.0/level9/靠拢.svg"
+      ]
+    },
+    "坑": {
+      "hanzi": "坑",
+      "pinyin": "kēng",
+      "meaning": "cái hố, hầm",
+      "example_zh": "路上有一个<u>坑</u>。",
+      "example_vi": "Trên đường có một cái <u>hố</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "坑.svg",
+      "src": "images/HSK_2.0/level6/坑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/坑.svg",
+        "images/HSK_3.0/level8/坑.svg",
+        "images/HSK_3.0/level9/坑.svg"
+      ]
+    },
+    "科目": {
+      "hanzi": "科目",
+      "pinyin": "kēmù",
+      "meaning": "môn học, khoa mục",
+      "example_zh": "这学期有六门<u>科目</u>。",
+      "example_vi": "Học kỳ này có sáu <u>môn học</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "科目.svg",
+      "src": "images/HSK_2.0/level6/科目.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/科目.svg"
+      ]
+    },
+    "可观": {
+      "hanzi": "可观",
+      "pinyin": "kěguān",
+      "meaning": "đáng kể, khá lớn",
+      "example_zh": "这笔收入相当<u>可观</u>。",
+      "example_vi": "Khoản thu nhập này khá <u>đáng kể</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "可观.svg",
+      "src": "images/HSK_2.0/level6/可观.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/可观.svg",
+        "images/HSK_3.0/level8/可观.svg",
+        "images/HSK_3.0/level9/可观.svg"
+      ]
+    },
+    "可恶": {
+      "hanzi": "可恶",
+      "pinyin": "kěwù",
+      "meaning": "đáng ghét",
+      "example_zh": "这种行为真<u>可恶</u>。",
+      "example_vi": "Hành vi này thật <u>đáng ghét</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "可恶.svg",
+      "src": "images/HSK_2.0/level6/可恶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/可恶.svg",
+        "images/HSK_3.0/level8/可恶.svg",
+        "images/HSK_3.0/level9/可恶.svg"
+      ]
+    },
+    "可行": {
+      "hanzi": "可行",
+      "pinyin": "kěxíng",
+      "meaning": "khả thi",
+      "example_zh": "这个方案是<u>可行</u>的。",
+      "example_vi": "Phương án này là <u>khả thi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "可行.svg",
+      "src": "images/HSK_2.0/level6/可行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/可行.svg"
+      ]
+    },
+    "渴望": {
+      "hanzi": "渴望",
+      "pinyin": "kěwàng",
+      "meaning": "khát khao, mong mỏi",
+      "example_zh": "他<u>渴望</u>成功。",
+      "example_vi": "Anh ấy <u>khát khao</u> thành công.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "渴望.svg",
+      "src": "images/HSK_2.0/level6/渴望.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/渴望.svg"
+      ]
+    },
+    "克制": {
+      "hanzi": "克制",
+      "pinyin": "kèzhì",
+      "meaning": "kiềm chế, khắc chế",
+      "example_zh": "他努力<u>克制</u>自己的情绪。",
+      "example_vi": "Anh ấy cố gắng <u>kiềm chế</u> cảm xúc của mình.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "克制.svg",
+      "src": "images/HSK_2.0/level6/克制.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/克制.svg",
+        "images/HSK_3.0/level8/克制.svg",
+        "images/HSK_3.0/level9/克制.svg"
       ]
     },
     "亏": {

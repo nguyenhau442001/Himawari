@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="160" width="200" height="60" rx="8" fill="#334155"/>
+  
+  <!-- The "Offending" Act: A spilled coffee mug on a laptop -->
+  <rect x="60" y="130" width="100" height="70" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <path d="M70 140h80v40h-80z" fill="#0f172a"/>
+  <path d="M165 140l20 -20" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="175" cy="120" r="12" fill="#fb923c"/>
+  <path d="M175 135l-10 20" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Character: Frustrated person -->
+  <g transform="translate(160, 80)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#fde68a"/>
+    <!-- Angry Eyes -->
+    <path d="M-12 -5 l8 8 M-4 3 l8 -8" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M12 -5 l-8 8 M4 3 l-8 -8" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+    <!-- Frown -->
+    <path d="M-10 12 q10 5 20 0" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Hair -->
+    <path d="M-20 -15 c-5 -20 40 -20 35 0" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Hand pointing at the mess -->
+  <path d="M140 100 l30 30" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="170" cy="130" r="6" fill="#fde68a"/>
+  
+  <!-- Decorative background elements -->
+  <circle cx="40" cy="50" r="3" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="200" cy="40" r="5" fill="#ec4899" opacity="0.3"/>
+  <path d="M30 180 l10 -20 l10 20" fill="#10b981" opacity="0.4"/>
+</svg>
