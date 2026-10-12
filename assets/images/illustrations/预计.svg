@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Construction Site Background -->
+  <path d="M40 180 L200 180 L190 100 L50 100 Z" fill="#334155"/>
+  <path d="M60 100 L60 60 L80 60 L80 100" fill="#475569"/>
+  <path d="M160 100 L160 50 L180 50 L180 100" fill="#475569"/>
+  
+  <!-- Crane -->
+  <path d="M180 50 L220 70 L180 70 Z" fill="#fb923c"/>
+  <path d="M180 70 L180 180" stroke="#94a3b8" stroke-width="4"/>
+  
+  <!-- Characters -->
+  <!-- Architect -->
+  <circle cx="90" cy="150" r="12" fill="#fde68a"/>
+  <path d="M80 160 L100 160 L95 190 L85 190 Z" fill="#38bdf8"/>
+  <path d="M85 165 L75 180" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M95 165 L105 180" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Foreman -->
+  <circle cx="140" cy="155" r="12" fill="#fde68a"/>
+  <path d="M130 165 L150 165 L145 195 L135 195 Z" fill="#ec4899"/>
+  <path d="M135 170 L125 185" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+  <path d="M145 170 L155 185" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Blueprint/Tablet -->
+  <rect x="100" y="140" width="30" height="20" rx="2" fill="#f8fafc"/>
+  <path d="M105 145 L125 145 M105 150 L120 150" stroke="#1e293b" stroke-width="1"/>
+  
+  <!-- Calendar/Deadline Indicator -->
+  <rect x="180" y="10" width="40" height="40" rx="4" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <path d="M185 20 L215 20 M185 30 L215 30 M185 40 L215 40" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="200" cy="35" r="3" fill="#10b981"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="190" width="240" height="50" fill="#0f172a"/>
+  <path d="M0 190 L240 190" stroke="#334155" stroke-width="2"/>
+</svg>

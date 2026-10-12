@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:45:16.341174",
-  "total_unique_words_with_illustrations": 3140,
-  "total_flat_svg_files": 3140,
+  "generated_at": "2026-10-12T09:48:25.916623",
+  "total_unique_words_with_illustrations": 3150,
+  "total_flat_svg_files": 3150,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1521,
-        "pct": "95.1%"
+        "with_svg": 1531,
+        "pct": "95.7%"
       },
       "level6": {
         "total": 1800,
@@ -55548,6 +55548,146 @@
       ],
       "file": "有益.svg",
       "src": "images/HSK_3.0/level5/有益.svg",
+      "alt_srcs": []
+    },
+    "有助于": {
+      "hanzi": "有助于",
+      "pinyin": "yǒuzhùyú",
+      "meaning": "có lợi cho, giúp ích cho, góp phần",
+      "example_zh": "多和当地人交流<u>有助于</u>迅速提高口语水平。",
+      "example_vi": "Giao tiếp nhiều với người bản xứ <u>giúp ích cho</u> việc nâng cao nhanh chóng trình độ khẩu ngữ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "有助于.svg",
+      "src": "images/HSK_3.0/level5/有助于.svg",
+      "alt_srcs": []
+    },
+    "雨水": {
+      "hanzi": "雨水",
+      "pinyin": "yǔshuǐ",
+      "meaning": "mưa",
+      "example_zh": "<u>雨水</u>渗透到了土壤深处",
+      "example_vi": "Nước mưa thẩm thấu sâu vào trong đất.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "雨水.svg",
+      "src": "images/HSK_3.0/level5/雨水.svg",
+      "alt_srcs": []
+    },
+    "语文": {
+      "hanzi": "语文",
+      "pinyin": "yǔwén",
+      "meaning": "ngữ văn (môn học)",
+      "example_zh": "在所有的科目中，她最喜欢的课是<u>语文</u>课。",
+      "example_vi": "Trong tất cả các môn học, tiết học cô ấy thích nhất là môn <u>ngữ văn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "语文.svg",
+      "src": "images/HSK_3.0/level5/语文.svg",
+      "alt_srcs": []
+    },
+    "语音": {
+      "hanzi": "语音",
+      "pinyin": "yǔyīn",
+      "meaning": "ngữ âm; tin nhắn thoại, cuộc gọi thoại",
+      "example_zh": "他经常给我发微信<u>语音</u>留言。",
+      "example_vi": "Anh ấy thường xuyên gửi tin nhắn <u>thoại</u> WeChat cho tôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "语音.svg",
+      "src": "images/HSK_3.0/level5/语音.svg",
+      "alt_srcs": []
+    },
+    "预测": {
+      "hanzi": "预测",
+      "pinyin": "yùcè",
+      "meaning": "dự đoán, dự báo",
+      "example_zh": "未来的天气变化往往难以准确<u>预测</u>。",
+      "example_vi": "Sự biến đổi của thời tiết tương lai thường khó mà <u>dự báo</u> chuẩn xác được.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "预测.svg",
+      "src": "images/HSK_3.0/level5/预测.svg",
+      "alt_srcs": []
+    },
+    "预计": {
+      "hanzi": "预计",
+      "pinyin": "yùjì",
+      "meaning": "dự tính, ước tính",
+      "example_zh": "工程<u>预计</u>将于今年年底前全部竣工。",
+      "example_vi": "Công trình <u>dự tính</u> sẽ hoàn tất thi công trước cuối năm nay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "预计.svg",
+      "src": "images/HSK_3.0/level5/预计.svg",
+      "alt_srcs": []
+    },
+    "预约": {
+      "hanzi": "预约",
+      "pinyin": "yùyuē",
+      "meaning": "đặt lịch hẹn trước, hẹn trước",
+      "example_zh": "去这家热门餐厅就餐需要提前电话<u>预约</u>。",
+      "example_vi": "Đến nhà hàng đông khách này dùng bữa cần phải gọi điện <u>đặt trước</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "预约.svg",
+      "src": "images/HSK_3.0/level5/预约.svg",
+      "alt_srcs": []
+    },
+    "原": {
+      "hanzi": "原",
+      "pinyin": "yuán",
+      "meaning": "ban đầu, nguyên bản; gốc",
+      "example_zh": "这本小说被改编成了电影，但还是<u>原</u>著更精彩。",
+      "example_vi": "Cuốn tiểu thuyết này đã được chuyển thể thành phim, nhưng tác phẩm <u>nguyên tác</u> vẫn đặc sắc hơn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "原.svg",
+      "src": "images/HSK_3.0/level5/原.svg",
+      "alt_srcs": []
+    },
+    "原有": {
+      "hanzi": "原有",
+      "pinyin": "yuán yǒu",
+      "meaning": "vốn có, sẵn có từ trước",
+      "example_zh": "我们在<u>原有</u>的基础上进行了全面的创新与改进。",
+      "example_vi": "Chúng tôi đã tiến hành đổi mới và cải tiến toàn diện trên cơ sở <u>sẵn có</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "原有.svg",
+      "src": "images/HSK_3.0/level5/原有.svg",
+      "alt_srcs": []
+    },
+    "愿": {
+      "hanzi": "愿",
+      "pinyin": "yuàn",
+      "meaning": "nguyện, mong muốn; chúc",
+      "example_zh": "<u>愿</u>我们的友谊地久天长！",
+      "example_vi": "<u>Chúc cho</u> tình bạn của chúng ta mãi mãi bền lâu!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "愿.svg",
+      "src": "images/HSK_3.0/level5/愿.svg",
       "alt_srcs": []
     }
   }

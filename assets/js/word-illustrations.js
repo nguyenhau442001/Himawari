@@ -16001,6 +16001,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "有益.svg",
     "src": "images/HSK_3.0/level5/有益.svg",
     "caption": "có ích, có lợi"
+  },
+  "有助于": {
+    "file": "有助于.svg",
+    "src": "images/HSK_3.0/level5/有助于.svg",
+    "caption": "có lợi cho, giúp ích cho, góp phần"
+  },
+  "雨水": {
+    "file": "雨水.svg",
+    "src": "images/HSK_3.0/level5/雨水.svg",
+    "caption": "mưa"
+  },
+  "语文": {
+    "file": "语文.svg",
+    "src": "images/HSK_3.0/level5/语文.svg",
+    "caption": "ngữ văn (môn học)"
+  },
+  "语音": {
+    "file": "语音.svg",
+    "src": "images/HSK_3.0/level5/语音.svg",
+    "caption": "ngữ âm; tin nhắn thoại, cuộc gọi thoại"
+  },
+  "预测": {
+    "file": "预测.svg",
+    "src": "images/HSK_3.0/level5/预测.svg",
+    "caption": "dự đoán, dự báo"
+  },
+  "预计": {
+    "file": "预计.svg",
+    "src": "images/HSK_3.0/level5/预计.svg",
+    "caption": "dự tính, ước tính"
+  },
+  "预约": {
+    "file": "预约.svg",
+    "src": "images/HSK_3.0/level5/预约.svg",
+    "caption": "đặt lịch hẹn trước, hẹn trước"
+  },
+  "原": {
+    "file": "原.svg",
+    "src": "images/HSK_3.0/level5/原.svg",
+    "caption": "ban đầu, nguyên bản; gốc"
+  },
+  "原有": {
+    "file": "原有.svg",
+    "src": "images/HSK_3.0/level5/原有.svg",
+    "caption": "vốn có, sẵn có từ trước"
+  },
+  "愿": {
+    "file": "愿.svg",
+    "src": "images/HSK_3.0/level5/愿.svg",
+    "caption": "nguyện, mong muốn; chúc"
   }
 };
 
