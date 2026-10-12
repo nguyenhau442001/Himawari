@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:39:09.359109",
-  "total_unique_words_with_illustrations": 3309,
-  "total_flat_svg_files": 3309,
+  "generated_at": "2026-10-12T10:42:12.761574",
+  "total_unique_words_with_illustrations": 3319,
+  "total_flat_svg_files": 3319,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 669,
-        "pct": "26.8%"
+        "with_svg": 679,
+        "pct": "27.2%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 166,
-        "pct": "3.0%"
+        "with_svg": 174,
+        "pct": "3.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 166,
-        "pct": "3.0%"
+        "with_svg": 174,
+        "pct": "3.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 166,
-        "pct": "3.0%"
+        "with_svg": 174,
+        "pct": "3.1%"
       }
     }
   },
@@ -47966,6 +47966,100 @@
         "images/HSK_3.0/level6/比重.svg"
       ]
     },
+    "臂": {
+      "hanzi": "臂",
+      "pinyin": "bì",
+      "meaning": "cánh tay",
+      "example_zh": "他<u>臂</u>上有一道伤痕。",
+      "example_vi": "Trên <u>cánh tay</u> anh ấy có một vết sẹo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "臂.svg",
+      "src": "images/HSK_2.0/level6/臂.svg",
+      "alt_srcs": []
+    },
+    "弊病": {
+      "hanzi": "弊病",
+      "pinyin": "bìbìng",
+      "meaning": "tệ nạn, khuyết điểm",
+      "example_zh": "这种制度存在不少<u>弊病</u>。",
+      "example_vi": "Chế độ này tồn tại không ít <u>khuyết điểm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "弊病.svg",
+      "src": "images/HSK_2.0/level6/弊病.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/弊病.svg",
+        "images/HSK_3.0/level8/弊病.svg",
+        "images/HSK_3.0/level9/弊病.svg"
+      ]
+    },
+    "必定": {
+      "hanzi": "必定",
+      "pinyin": "bìdìng",
+      "meaning": "chắc chắn, nhất định",
+      "example_zh": "努力<u>必定</u>会有收获。",
+      "example_vi": "Nỗ lực <u>chắc chắn</u> sẽ có thành quả.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "必定.svg",
+      "src": "images/HSK_2.0/level6/必定.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/必定.svg",
+        "images/HSK_3.0/level8/必定.svg",
+        "images/HSK_3.0/level9/必定.svg"
+      ]
+    },
+    "弊端": {
+      "hanzi": "弊端",
+      "pinyin": "bìduān",
+      "meaning": "tệ đoan, sai sót lạm dụng",
+      "example_zh": "要纠正管理上的<u>弊端</u>。",
+      "example_vi": "Phải sửa chữa những <u>tệ đoan</u> trong quản lý.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "弊端.svg",
+      "src": "images/HSK_2.0/level6/弊端.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/弊端.svg",
+        "images/HSK_3.0/level8/弊端.svg",
+        "images/HSK_3.0/level9/弊端.svg"
+      ]
+    },
+    "闭塞": {
+      "hanzi": "闭塞",
+      "pinyin": "bìsè",
+      "meaning": "khép kín, lạc hậu, khó tiếp cận",
+      "example_zh": "这个山村非常<u>闭塞</u>。",
+      "example_vi": "Ngôi làng trên núi này rất <u>khép kín, hẻo lánh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "闭塞.svg",
+      "src": "images/HSK_2.0/level6/闭塞.svg",
+      "alt_srcs": []
+    },
     "必需": {
       "hanzi": "必需",
       "pinyin": "bìxū",
@@ -47982,6 +48076,116 @@
       "src": "images/HSK_2.0/level6/必需.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/必需.svg"
+      ]
+    },
+    "鞭策": {
+      "hanzi": "鞭策",
+      "pinyin": "biāncè",
+      "meaning": "thúc đẩy, khuyến khích",
+      "example_zh": "老师的话<u>鞭策</u>着我前进。",
+      "example_vi": "Lời thầy giáo <u>thúc đẩy</u> tôi tiến lên.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "鞭策.svg",
+      "src": "images/HSK_2.0/level6/鞭策.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/鞭策.svg",
+        "images/HSK_3.0/level8/鞭策.svg",
+        "images/HSK_3.0/level9/鞭策.svg"
+      ]
+    },
+    "边疆": {
+      "hanzi": "边疆",
+      "pinyin": "biānjiāng",
+      "meaning": "biên cương",
+      "example_zh": "士兵驻守在<u>边疆</u>。",
+      "example_vi": "Người lính đóng quân ở <u>biên cương</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "边疆.svg",
+      "src": "images/HSK_2.0/level6/边疆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/边疆.svg",
+        "images/HSK_3.0/level8/边疆.svg",
+        "images/HSK_3.0/level9/边疆.svg"
+      ]
+    },
+    "边界": {
+      "hanzi": "边界",
+      "pinyin": "biānjiè",
+      "meaning": "ranh giới, biên giới",
+      "example_zh": "两国的<u>边界</u>线很长。",
+      "example_vi": "<u>Đường biên giới</u> giữa hai nước rất dài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "边界.svg",
+      "src": "images/HSK_2.0/level6/边界.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/边界.svg",
+        "images/HSK_3.0/level8/边界.svg",
+        "images/HSK_3.0/level9/边界.svg"
+      ]
+    },
+    "边境": {
+      "hanzi": "边境",
+      "pinyin": "biānjìng",
+      "meaning": "vùng biên giới",
+      "example_zh": "他在<u>边境</u>地区工作。",
+      "example_vi": "Anh ấy làm việc ở khu vực <u>biên giới</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "边境.svg",
+      "src": "images/HSK_2.0/level6/边境.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/边境.svg",
+        "images/HSK_3.0/level8/边境.svg",
+        "images/HSK_3.0/level9/边境.svg"
+      ]
+    },
+    "边缘": {
+      "hanzi": "边缘",
+      "pinyin": "biānyuán",
+      "meaning": "bờ rìa, ranh giới, ngưỡng",
+      "example_zh": "他正处于崩溃的<u>边缘</u>。",
+      "example_vi": "Anh ấy đang ở <u>ngưỡng</u> sụp đổ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "边缘.svg",
+      "src": "images/HSK_2.0/level6/边缘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/边缘.svg",
+        "images/HSK_3.0/level8/边缘.svg",
+        "images/HSK_3.0/level9/边缘.svg"
       ]
     },
     "便利": {

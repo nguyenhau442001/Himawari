@@ -13257,10 +13257,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/比重.svg",
     "caption": "tỷ trọng"
   },
+  "臂": {
+    "file": "臂.svg",
+    "src": "images/HSK_2.0/level6/臂.svg",
+    "caption": "cánh tay"
+  },
+  "弊病": {
+    "file": "弊病.svg",
+    "src": "images/HSK_2.0/level6/弊病.svg",
+    "caption": "tệ nạn, khuyết điểm"
+  },
+  "必定": {
+    "file": "必定.svg",
+    "src": "images/HSK_2.0/level6/必定.svg",
+    "caption": "chắc chắn, nhất định"
+  },
+  "弊端": {
+    "file": "弊端.svg",
+    "src": "images/HSK_2.0/level6/弊端.svg",
+    "caption": "tệ đoan, sai sót lạm dụng"
+  },
+  "闭塞": {
+    "file": "闭塞.svg",
+    "src": "images/HSK_2.0/level6/闭塞.svg",
+    "caption": "khép kín, lạc hậu, khó tiếp cận"
+  },
   "必需": {
     "file": "必需.svg",
     "src": "images/HSK_2.0/level6/必需.svg",
     "caption": "cần thiết, thiết yếu"
+  },
+  "鞭策": {
+    "file": "鞭策.svg",
+    "src": "images/HSK_2.0/level6/鞭策.svg",
+    "caption": "thúc đẩy, khuyến khích"
+  },
+  "边疆": {
+    "file": "边疆.svg",
+    "src": "images/HSK_2.0/level6/边疆.svg",
+    "caption": "biên cương"
+  },
+  "边界": {
+    "file": "边界.svg",
+    "src": "images/HSK_2.0/level6/边界.svg",
+    "caption": "ranh giới, biên giới"
+  },
+  "边境": {
+    "file": "边境.svg",
+    "src": "images/HSK_2.0/level6/边境.svg",
+    "caption": "vùng biên giới"
+  },
+  "边缘": {
+    "file": "边缘.svg",
+    "src": "images/HSK_2.0/level6/边缘.svg",
+    "caption": "bờ rìa, ranh giới, ngưỡng"
   },
   "便利": {
     "file": "便利.svg",

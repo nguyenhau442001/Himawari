@@ -1,0 +1,34 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Context: Workshop/Garage -->
+  <path d="M40 180 L200 180 L200 240 L40 240 Z" fill="#334155"/>
+  <circle cx="180" cy="60" r="25" fill="#fbbf24" opacity="0.1"/>
+  
+  <!-- Character Arm -->
+  <g transform="translate(60, 80)">
+    <!-- Sleeve -->
+    <path d="M0 20 L80 20 L85 80 L5 80 Z" fill="#38bdf8"/>
+    <!-- Skin -->
+    <path d="M85 80 L140 100 L150 90 L100 60 Z" fill="#fcd34d"/>
+    <path d="M85 80 L140 100 L135 115 L80 95 Z" fill="#fb923c"/>
+    
+    <!-- The Scar (The focus) -->
+    <path d="M110 85 L125 95" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+    <path d="M112 88 L122 92" stroke="#fbcfe8" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Props: Workbench items -->
+  <rect x="40" y="190" width="30" height="10" rx="2" fill="#94a3b8"/>
+  <circle cx="180" cy="200" r="12" fill="#64748b"/>
+  <path d="M175 195 L185 205 M185 195 L175 205" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Ambient Lighting -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#334155" stroke-width="1" opacity="0.3"/>
+</svg>
