@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table -->
+  <path d="M20 180 L220 180 L210 220 L30 220 Z" fill="#475569"/>
+  <rect x="15" y="170" width="210" height="15" rx="2" fill="#64748b"/>
+  
+  <!-- Plates and Food -->
+  <circle cx="80" cy="190" r="25" fill="#f8fafc"/>
+  <path d="M65 190 Q80 175 95 190" fill="#fb923c"/>
+  <circle cx="160" cy="190" r="25" fill="#f8fafc"/>
+  <rect x="150" y="185" width="20" height="10" rx="2" fill="#ec4899"/>
+  
+  <!-- Cutlery -->
+  <rect x="50" y="175" width="4" height="20" rx="1" fill="#cbd5e1"/>
+  <rect x="185" y="175" width="4" height="20" rx="1" fill="#cbd5e1"/>
+  
+  <!-- Characters -->
+  <!-- Person 1 -->
+  <circle cx="70" cy="120" r="25" fill="#fde68a"/>
+  <path d="M50 140 Q70 170 90 140" fill="#38bdf8"/>
+  <circle cx="62" cy="115" r="3" fill="#1e293b"/>
+  <circle cx="78" cy="115" r="3" fill="#1e293b"/>
+  <path d="M65 125 Q70 128 75 125" stroke="#1e293b" stroke-width="2" fill="none"/>
+  
+  <!-- Person 2 -->
+  <circle cx="170" cy="120" r="25" fill="#fde68a"/>
+  <path d="M150 140 Q170 170 190 140" fill="#10b981"/>
+  <circle cx="162" cy="115" r="3" fill="#1e293b"/>
+  <circle cx="178" cy="115" r="3" fill="#1e293b"/>
+  <path d="M165 125 Q170 128 175 125" stroke="#1e293b" stroke-width="2" fill="none"/>
+  
+  <!-- Ambience -->
+  <circle cx="120" cy="60" r="40" fill="#fbbf24" opacity="0.1"/>
+  <circle cx="120" cy="60" r="20" fill="#fbbf24" opacity="0.2"/>
+  <rect x="118" y="20" width="4" height="40" rx="2" fill="#fbbf24"/>
+</svg>

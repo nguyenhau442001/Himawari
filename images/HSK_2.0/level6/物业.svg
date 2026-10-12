@@ -1,0 +1,49 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Residential Building Background -->
+  <rect x="40" y="60" width="160" height="140" rx="8" fill="#334155"/>
+  <rect x="55" y="80" width="30" height="30" rx="4" fill="#fbbf24"/>
+  <rect x="105" y="80" width="30" height="30" rx="4" fill="#fbbf24"/>
+  <rect x="155" y="80" width="30" height="30" rx="4" fill="#fbbf24"/>
+  <rect x="55" y="130" width="30" height="30" rx="4" fill="#fbbf24"/>
+  <rect x="105" y="130" width="30" height="30" rx="4" fill="#fbbf24"/>
+  <rect x="155" y="130" width="30" height="30" rx="4" fill="#fbbf24"/>
+  
+  <!-- Landscaped Garden Area -->
+  <path d="M40 200 Q120 180 200 200 L200 240 L40 240 Z" fill="#10b981" opacity="0.6"/>
+  <circle cx="70" cy="210" r="8" fill="#ec4899"/>
+  <circle cx="170" cy="215" r="6" fill="#ec4899"/>
+  
+  <!-- Property Manager Character -->
+  <g transform="translate(120, 150)">
+    <circle cx="0" cy="-20" r="12" fill="#fde68a"/>
+    <path d="M-10 -15 L10 -15 L8 0 L-8 0 Z" fill="#38bdf8"/>
+    <rect x="-12" y="0" width="24" height="35" rx="4" fill="#38bdf8"/>
+    <rect x="-14" y="5" width="6" height="20" rx="2" fill="#38bdf8"/>
+    <rect x="8" y="5" width="6" height="20" rx="2" fill="#38bdf8"/>
+    <!-- Holding a clipboard -->
+    <rect x="15" y="-10" width="20" height="25" rx="2" fill="#f1f5f9"/>
+    <line x1="18" y1="-5" x2="30" y2="-5" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="18" y1="0" x2="30" y2="0" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+  
+  <!-- Resident Character -->
+  <g transform="translate(60, 160)">
+    <circle cx="0" cy="-20" r="12" fill="#fde68a"/>
+    <rect x="-10" y="-8" width="20" height="30" rx="4" fill="#fb923c"/>
+    <circle cx="0" cy="30" r="5" fill="#fb923c"/>
+    <circle cx="0" cy="40" r="5" fill="#fb923c"/>
+    <!-- Thumbs up gesture -->
+    <circle cx="12" cy="0" r="4" fill="#fde68a"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="20" fill="#fbbf24" opacity="0.2"/>
+</svg>

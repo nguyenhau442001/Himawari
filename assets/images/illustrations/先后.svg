@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Doorway/Frame -->
+  <path d="M60 40 L60 200 L180 200 L180 40 Z" fill="#334155" stroke="#475569" stroke-width="4"/>
+  <rect x="70" y="50" width="100" height="150" fill="#0f172a"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="180" width="240" height="60" fill="#1e293b" opacity="0.5"/>
+  
+  <!-- Character 1 (Entering) -->
+  <g transform="translate(140, 100)">
+    <circle cx="0" cy="-20" r="12" fill="#fbbf24"/>
+    <path d="M-15 0 L15 0 L10 50 L-10 50 Z" fill="#38bdf8"/>
+    <rect x="-12" y="50" width="8" height="30" fill="#fb923c"/>
+    <rect x="4" y="50" width="8" height="30" fill="#fb923c"/>
+  </g>
+  
+  <!-- Character 2 (Waiting/Entering) -->
+  <g transform="translate(100, 120)" opacity="0.7">
+    <circle cx="0" cy="-20" r="12" fill="#fbbf24"/>
+    <path d="M-15 0 L15 0 L10 50 L-10 50 Z" fill="#10b981"/>
+    <rect x="-12" y="50" width="8" height="30" fill="#ec4899"/>
+    <rect x="4" y="50" width="8" height="30" fill="#ec4899"/>
+  </g>
+  
+  <!-- Character 3 (Further back) -->
+  <g transform="translate(60, 140)" opacity="0.4">
+    <circle cx="0" cy="-20" r="12" fill="#fbbf24"/>
+    <path d="M-15 0 L15 0 L10 50 L-10 50 Z" fill="#fb923c"/>
+    <rect x="-12" y="50" width="8" height="30" fill="#38bdf8"/>
+    <rect x="4" y="50" width="8" height="30" fill="#38bdf8"/>
+  </g>
+
+  <!-- Motion lines -->
+  <path d="M160 80 L180 70" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M165 90 L185 80" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>

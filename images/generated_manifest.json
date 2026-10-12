@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:17:00.385759",
-  "total_unique_words_with_illustrations": 3050,
-  "total_flat_svg_files": 3050,
+  "generated_at": "2026-10-12T09:20:07.256070",
+  "total_unique_words_with_illustrations": 3060,
+  "total_flat_svg_files": 3060,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,7 +31,7 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 560,
+        "with_svg": 561,
         "pct": "22.4%"
       }
     },
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1431,
-        "pct": "89.4%"
+        "with_svg": 1441,
+        "pct": "90.1%"
       },
       "level6": {
         "total": 1800,
@@ -47790,6 +47790,24 @@
         "images/HSK_3.0/level5/舞蹈.svg"
       ]
     },
+    "物业": {
+      "hanzi": "物业",
+      "pinyin": "wùyè",
+      "meaning": "bất động sản, quản lý nhà",
+      "example_zh": "这个小区的<u>物业</u>管理得很好。",
+      "example_vi": "<u>Quản lý nhà</u> của khu dân cư này rất tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "物业.svg",
+      "src": "images/HSK_2.0/level6/物业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/物业.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -54212,6 +54230,132 @@
       ],
       "file": "无效.svg",
       "src": "images/HSK_3.0/level5/无效.svg",
+      "alt_srcs": []
+    },
+    "舞台": {
+      "hanzi": "舞台",
+      "pinyin": "wǔtái",
+      "meaning": "sân khấu",
+      "example_zh": "演员们在绚丽的<u>舞台</u>上尽情表演。",
+      "example_vi": "Các diễn viên biểu diễn hết mình trên <u>sân khấu</u> lộng lẫy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "舞台.svg",
+      "src": "images/HSK_3.0/level5/舞台.svg",
+      "alt_srcs": []
+    },
+    "五颜六色": {
+      "hanzi": "五颜六色",
+      "pinyin": "wǔyán-liùsè",
+      "meaning": "đủ màu đủ sắc, rực rỡ sắc màu",
+      "example_zh": "花园里盛开着<u>五颜六色</u>的鲜花。",
+      "example_vi": "Trong vườn nở rộ muôn vàn đóa hoa tươi <u>đủ màu đủ sắc</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "五颜六色.svg",
+      "src": "images/HSK_3.0/level5/五颜六色.svg",
+      "alt_srcs": []
+    },
+    "物价": {
+      "hanzi": "物价",
+      "pinyin": "wùjià",
+      "meaning": "giá",
+      "example_zh": "<u>物价</u>涨了很多",
+      "example_vi": "Giá cả đã tăng lên nhiều.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "物价.svg",
+      "src": "images/HSK_3.0/level5/物价.svg",
+      "alt_srcs": []
+    },
+    "物品": {
+      "hanzi": "物品",
+      "pinyin": "wùpǐn",
+      "meaning": "mục",
+      "example_zh": "出入境时需要申报<u>物品</u>",
+      "example_vi": "Khi xuất nhập cảnh cần khai báo hàng hóa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "物品.svg",
+      "src": "images/HSK_3.0/level5/物品.svg",
+      "alt_srcs": []
+    },
+    "西餐": {
+      "hanzi": "西餐",
+      "pinyin": "xīcān",
+      "meaning": "món tây, đồ ăn phương Tây",
+      "example_zh": "今晚我们去尝尝正宗的<u>西餐</u>吧。",
+      "example_vi": "Tối nay chúng ta đi thưởng thức món <u>đồ ăn phương Tây</u> chính hiệu nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "西餐.svg",
+      "src": "images/HSK_3.0/level5/西餐.svg",
+      "alt_srcs": []
+    },
+    "吸管": {
+      "hanzi": "吸管",
+      "pinyin": "xīguǎn",
+      "meaning": "ống hút",
+      "example_zh": "喝奶茶的时候需要用大<u>吸管</u>。",
+      "example_vi": "Khi uống trà sữa cần dùng <u>ống hút</u> to.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "吸管.svg",
+      "src": "images/HSK_3.0/level5/吸管.svg",
+      "alt_srcs": []
+    },
+    "西装": {
+      "hanzi": "西装",
+      "pinyin": "xīzhuāng",
+      "meaning": "bộ vest, comple, âu phục",
+      "example_zh": "他穿上了一身帅气的黑<u>西装</u>去参加婚礼。",
+      "example_vi": "Anh ấy mặc một bộ <u>âu phục</u> màu đen lịch lãm đi dự đám cưới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "西装.svg",
+      "src": "images/HSK_3.0/level5/西装.svg",
+      "alt_srcs": []
+    },
+    "戏": {
+      "hanzi": "戏",
+      "pinyin": "xì",
+      "meaning": "vở kịch, tuồng; kịch",
+      "example_zh": "爷爷最喜欢坐在收音机旁听京<u>戏</u>。",
+      "example_vi": "Ông nội thích nhất là ngồi bên đài nghe <u>kinh kịch</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "戏.svg",
+      "src": "images/HSK_3.0/level5/戏.svg",
+      "alt_srcs": []
+    },
+    "先后": {
+      "hanzi": "先后",
+      "pinyin": "xiānhòu",
+      "meaning": "lần lượt, trước sau; liên tiếp",
+      "example_zh": "代表们<u>先后</u>走进了会议室。",
+      "example_vi": "Các đại biểu <u>lần lượt</u> bước vào phòng họp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "先后.svg",
+      "src": "images/HSK_3.0/level5/先后.svg",
       "alt_srcs": []
     }
   }

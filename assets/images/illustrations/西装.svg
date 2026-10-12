@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Elements: Wedding Decor -->
+  <circle cx="180" cy="60" r="30" fill="#fbbf24" opacity="0.15"/>
+  <path d="M120 120 L150 180 L90 180 Z" fill="#fb923c" opacity="0.2"/>
+  <ellipse cx="120" cy="180" rx="60" ry="15" fill="#334155" opacity="0.4"/>
+  
+  <!-- Character: The Man in the Suit -->
+  <!-- Legs -->
+  <rect x="100" y="140" width="15" height="70" fill="#0f172a" rx="4"/>
+  <rect x="125" y="140" width="15" height="70" fill="#0f172a" rx="4"/>
+  
+  <!-- Suit Jacket -->
+  <path d="M90 80 L150 80 L155 145 L85 145 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M120 80 L135 120 L120 145 L105 120 Z" fill="#0f172a"/>
+  
+  <!-- Shirt & Tie -->
+  <path d="M110 80 L130 80 L125 110 L115 110 Z" fill="#f8fafc"/>
+  <path d="M118 80 L122 80 L120 105 Z" fill="#ec4899"/>
+  
+  <!-- Arms -->
+  <path d="M90 90 L70 130" stroke="#1e293b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M150 90 L170 120" stroke="#1e293b" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="65" r="20" fill="#fcd34d"/>
+  <path d="M110 60 A 5 5 0 0 1 120 60" fill="none" stroke="#0f172a" stroke-width="2"/>
+  <path d="M130 60 A 5 5 0 0 1 140 60" fill="none" stroke="#0f172a" stroke-width="2"/>
+  <path d="M115 75 Q 120 80 125 75" stroke="#0f172a" stroke-width="2" fill="none"/>
+  
+  <!-- Hair -->
+  <path d="M100 60 Q 120 30 140 60 Q 120 45 100 60" fill="#0f172a"/>
+  
+  <!-- Wedding Props -->
+  <circle cx="60" cy="180" r="15" fill="#ec4899" opacity="0.6"/>
+  <circle cx="180" cy="190" r="10" fill="#10b981" opacity="0.6"/>
+  <path d="M40 50 L50 40 L60 50 L50 60 Z" fill="#fbbf24"/>
+</svg>

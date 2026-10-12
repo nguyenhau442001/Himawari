@@ -13267,6 +13267,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/舞蹈.svg",
     "caption": "múa, vũ điệu"
   },
+  "物业": {
+    "file": "物业.svg",
+    "src": "images/HSK_2.0/level6/物业.svg",
+    "caption": "bất động sản, quản lý nhà"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15551,6 +15556,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "无效.svg",
     "src": "images/HSK_3.0/level5/无效.svg",
     "caption": "vô hiệu, không có hiệu lực"
+  },
+  "舞台": {
+    "file": "舞台.svg",
+    "src": "images/HSK_3.0/level5/舞台.svg",
+    "caption": "sân khấu"
+  },
+  "五颜六色": {
+    "file": "五颜六色.svg",
+    "src": "images/HSK_3.0/level5/五颜六色.svg",
+    "caption": "đủ màu đủ sắc, rực rỡ sắc màu"
+  },
+  "物价": {
+    "file": "物价.svg",
+    "src": "images/HSK_3.0/level5/物价.svg",
+    "caption": "giá"
+  },
+  "物品": {
+    "file": "物品.svg",
+    "src": "images/HSK_3.0/level5/物品.svg",
+    "caption": "mục"
+  },
+  "西餐": {
+    "file": "西餐.svg",
+    "src": "images/HSK_3.0/level5/西餐.svg",
+    "caption": "món tây, đồ ăn phương Tây"
+  },
+  "吸管": {
+    "file": "吸管.svg",
+    "src": "images/HSK_3.0/level5/吸管.svg",
+    "caption": "ống hút"
+  },
+  "西装": {
+    "file": "西装.svg",
+    "src": "images/HSK_3.0/level5/西装.svg",
+    "caption": "bộ vest, comple, âu phục"
+  },
+  "戏": {
+    "file": "戏.svg",
+    "src": "images/HSK_3.0/level5/戏.svg",
+    "caption": "vở kịch, tuồng; kịch"
+  },
+  "先后": {
+    "file": "先后.svg",
+    "src": "images/HSK_3.0/level5/先后.svg",
+    "caption": "lần lượt, trước sau; liên tiếp"
   }
 };
 
