@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="#0f172a"/>
+  
+  <circle cx="120" cy="120" r="80" fill="#1e293b" opacity="0.5"/>
+  
+  <circle cx="120" cy="120" r="25" fill="#78350f"/>
+  <circle cx="120" cy="120" r="20" fill="#f59e0b"/>
+  <circle cx="120" cy="120" r="35" fill="url(#glow)"/>
+  
+  <g transform="translate(120, 120)">
+    <g transform="rotate(0)">
+      <circle cx="0" cy="-60" r="12" fill="#38bdf8"/>
+      <path d="M-8 -60 L8 -60 L0 -85 Z" fill="#38bdf8"/>
+    </g>
+    <g transform="rotate(72)">
+      <circle cx="0" cy="-60" r="12" fill="#10b981"/>
+      <path d="M-8 -60 L8 -60 L0 -85 Z" fill="#10b981"/>
+    </g>
+    <g transform="rotate(144)">
+      <circle cx="0" cy="-60" r="12" fill="#ec4899"/>
+      <path d="M-8 -60 L8 -60 L0 -85 Z" fill="#ec4899"/>
+    </g>
+    <g transform="rotate(216)">
+      <circle cx="0" cy="-60" r="12" fill="#fb923c"/>
+      <path d="M-8 -60 L8 -60 L0 -85 Z" fill="#fb923c"/>
+    </g>
+    <g transform="rotate(288)">
+      <circle cx="0" cy="-60" r="12" fill="#818cf8"/>
+      <path d="M-8 -60 L8 -60 L0 -85 Z" fill="#818cf8"/>
+    </g>
+  </g>
+  
+  <path d="M105 120 L135 120 L140 140 L100 140 Z" fill="#475569"/>
+  <rect x="110" y="140" width="20" height="10" fill="#334155"/>
+</svg>

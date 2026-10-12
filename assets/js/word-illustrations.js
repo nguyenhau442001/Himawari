@@ -15451,6 +15451,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "推动.svg",
     "src": "images/HSK_3.0/level5/推动.svg",
     "caption": "thúc đẩy, đẩy mạnh"
+  },
+  "推进": {
+    "file": "推进.svg",
+    "src": "images/HSK_3.0/level5/推进.svg",
+    "caption": "đẩy mạnh tiến độ, xúc tiến"
+  },
+  "退出": {
+    "file": "退出.svg",
+    "src": "images/HSK_3.0/level5/退出.svg",
+    "caption": "rút lui, thoát ra"
+  },
+  "退还": {
+    "file": "退还.svg",
+    "src": "images/HSK_3.0/level5/退还.svg",
+    "caption": "trả lại, hoàn lại"
+  },
+  "拖鞋": {
+    "file": "拖鞋.svg",
+    "src": "images/HSK_3.0/level5/拖鞋.svg",
+    "caption": "dép lê, dép đi trong nhà"
+  },
+  "外部": {
+    "file": "外部.svg",
+    "src": "images/HSK_3.0/level5/外部.svg",
+    "caption": "bên ngoài, phía ngoài"
+  },
+  "外观": {
+    "file": "外观.svg",
+    "src": "images/HSK_3.0/level5/外观.svg",
+    "caption": "diện mạo bên ngoài, ngoại quan"
+  },
+  "外婆": {
+    "file": "外婆.svg",
+    "src": "images/HSK_3.0/level5/外婆.svg",
+    "caption": "bà ngoại"
+  },
+  "外形": {
+    "file": "外形.svg",
+    "src": "images/HSK_3.0/level5/外形.svg",
+    "caption": "hình dáng bên ngoài, ngoại hình"
+  },
+  "弯": {
+    "file": "弯.svg",
+    "src": "images/HSK_3.0/level5/弯.svg",
+    "caption": "cong; cúi (người); khúc cua"
+  },
+  "围": {
+    "file": "围.svg",
+    "src": "images/HSK_3.0/level5/围.svg",
+    "caption": "vây quanh, bao quanh"
   }
 };
 

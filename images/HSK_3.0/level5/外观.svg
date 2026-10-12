@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="160" width="240" height="80" fill="#334155"/>
+  
+  <!-- Car Body -->
+  <path d="M40 170 L200 170 L195 130 L150 110 L90 110 L45 130 Z" fill="#38bdf8"/>
+  <path d="M45 130 L90 110 L90 135 L45 135 Z" fill="#fb923c"/>
+  
+  <!-- Wheels -->
+  <circle cx="70" cy="170" r="15" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="170" cy="170" r="15" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+  
+  <!-- Characters -->
+  <g transform="translate(100, 80)">
+    <!-- Person 1 -->
+    <circle cx="0" cy="0" r="12" fill="#fde68a"/>
+    <path d="M-5 15 L5 15 L2 40 L-2 40 Z" fill="#ec4899"/>
+    <path d="M-15 20 L-5 35" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+    <path d="M5 20 L15 35" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Person 2 -->
+    <circle cx="40" cy="10" r="12" fill="#fde68a"/>
+    <path d="M35 25 L45 25 L42 50 L38 50 Z" fill="#10b981"/>
+    <path d="M25 30 L35 45" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+    <path d="M45 30 L55 45" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="40" r="20" fill="#fbbf24" opacity="0.3"/>
+  <path d="M20 50 L30 40 M25 55 L35 45" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+</svg>
