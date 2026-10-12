@@ -19992,15 +19992,40 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/事故.svg",
     "caption": "sự cố, tai nạn"
   },
+  "事迹": {
+    "file": "事迹.svg",
+    "src": "images/HSK_2.0/level6/事迹.svg",
+    "caption": "sự tích, thành tích"
+  },
   "事件": {
     "file": "事件.svg",
     "src": "images/HSK_2.0/level6/事件.svg",
     "caption": "sự kiện"
   },
+  "事态": {
+    "file": "事态.svg",
+    "src": "images/HSK_2.0/level6/事态.svg",
+    "caption": "tình hình sự việc"
+  },
+  "事务": {
+    "file": "事务.svg",
+    "src": "images/HSK_2.0/level6/事务.svg",
+    "caption": "sự vụ, công việc"
+  },
+  "事项": {
+    "file": "事项.svg",
+    "src": "images/HSK_2.0/level6/事项.svg",
+    "caption": "hạng mục, điều khoản cần lưu ý"
+  },
   "事业": {
     "file": "事业.svg",
     "src": "images/HSK_2.0/level6/事业.svg",
     "caption": "sự nghiệp"
+  },
+  "适宜": {
+    "file": "适宜.svg",
+    "src": "images/HSK_2.0/level6/适宜.svg",
+    "caption": "thích hợp, phù hợp"
   },
   "书法": {
     "file": "书法.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:13:13.373403",
-  "total_unique_words_with_illustrations": 4573,
-  "total_flat_svg_files": 4573,
+  "generated_at": "2026-10-12T23:13:45.674029",
+  "total_unique_words_with_illustrations": 4578,
+  "total_flat_svg_files": 4578,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1933,
-        "pct": "77.3%"
+        "with_svg": 1938,
+        "pct": "77.5%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 642,
-        "pct": "35.7%"
+        "with_svg": 645,
+        "pct": "35.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 973,
+        "with_svg": 975,
         "pct": "17.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 973,
+        "with_svg": 975,
         "pct": "17.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 973,
+        "with_svg": 975,
         "pct": "17.4%"
       }
     }
@@ -75128,6 +75128,28 @@
         "images/HSK_3.0/level5/事故.svg"
       ]
     },
+    "事迹": {
+      "hanzi": "事迹",
+      "pinyin": "shìjì",
+      "meaning": "sự tích, thành tích",
+      "example_zh": "他的英雄<u>事迹</u>被广泛传播。",
+      "example_vi": "<u>Sự tích</u> anh hùng của anh ấy được lan truyền rộng rãi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "事迹.svg",
+      "src": "images/HSK_2.0/level6/事迹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/事迹.svg",
+        "images/HSK_3.0/level8/事迹.svg",
+        "images/HSK_3.0/level9/事迹.svg"
+      ]
+    },
     "事件": {
       "hanzi": "事件",
       "pinyin": "shìjiàn",
@@ -75146,6 +75168,64 @@
         "images/HSK_3.0/level5/事件.svg"
       ]
     },
+    "事态": {
+      "hanzi": "事态",
+      "pinyin": "shìtài",
+      "meaning": "tình hình sự việc",
+      "example_zh": "<u>事态</u>正在朝好的方向发展。",
+      "example_vi": "<u>Tình hình</u> đang phát triển theo hướng tốt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "事态.svg",
+      "src": "images/HSK_2.0/level6/事态.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/事态.svg",
+        "images/HSK_3.0/level8/事态.svg",
+        "images/HSK_3.0/level9/事态.svg"
+      ]
+    },
+    "事务": {
+      "hanzi": "事务",
+      "pinyin": "shìwù",
+      "meaning": "sự vụ, công việc",
+      "example_zh": "他每天要处理很多行政<u>事务</u>。",
+      "example_vi": "Mỗi ngày anh ấy phải xử lý nhiều <u>công việc</u> hành chính.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "事务.svg",
+      "src": "images/HSK_2.0/level6/事务.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/事务.svg"
+      ]
+    },
+    "事项": {
+      "hanzi": "事项",
+      "pinyin": "shìxiàng",
+      "meaning": "hạng mục, điều khoản cần lưu ý",
+      "example_zh": "请注意以下<u>事项</u>。",
+      "example_vi": "Xin lưu ý các <u>điều khoản</u> sau đây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "事项.svg",
+      "src": "images/HSK_2.0/level6/事项.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/事项.svg"
+      ]
+    },
     "事业": {
       "hanzi": "事业",
       "pinyin": "shìyè",
@@ -75162,6 +75242,24 @@
       "src": "images/HSK_2.0/level6/事业.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/事业.svg"
+      ]
+    },
+    "适宜": {
+      "hanzi": "适宜",
+      "pinyin": "shìyí",
+      "meaning": "thích hợp, phù hợp",
+      "example_zh": "这里的气候很<u>适宜</u>居住。",
+      "example_vi": "Khí hậu nơi đây rất <u>thích hợp</u> để sinh sống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "适宜.svg",
+      "src": "images/HSK_2.0/level6/适宜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/适宜.svg"
       ]
     },
     "书法": {

@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background glowing aura representing "suitable environment" -->
+  <circle cx="120" cy="120" r="70" fill="#2E384D" opacity="0.5"/>
+  <circle cx="120" cy="120" r="50" fill="#3B4863" opacity="0.4"/>
+
+  <!-- House / Habitat icon representing "居住" (Living) -->
+  <g transform="translate(95, 75)">
+    <!-- Roof -->
+    <path d="M25 10 L50 35 L0 35 Z" fill="#F59E0B"/>
+    <!-- House body -->
+    <rect x="8" y="35" width="34" height="30" fill="#E2E8F0" rx="2"/>
+    <!-- Door -->
+    <rect x="18" y="45" width="14" height="20" fill="#1A1D24"/>
+    <!-- Warm window light -->
+    <rect x="12" y="38" width="8" height="8" fill="#FBBF24" rx="1"/>
+  </g>
+
+  <!-- Nature elements: Sun, leaf, breeze (Climate / 气候) -->
+  <!-- Sun -->
+  <circle cx="65" cy="70" r="10" fill="#FBBF24"/>
+  <path d="M65 52 L65 56 M65 84 L65 88 M47 70 L51 70 M79 70 L83 70" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Leaf (Eco/Comfort) -->
+  <path d="M165 95 C175 80, 195 85, 190 105 C185 125, 160 120, 165 95 Z" fill="#10B981"/>
+  <path d="M168 112 Q178 105 186 98" stroke="#065F46" stroke-width="1.5" fill="none"/>
+
+  <!-- Dynamic Motion / Fit action: Interlocking checkmark & adjusting hands -->
+  <g transform="translate(0, 15)">
+    <!-- Shield / Balance background for "fit" -->
+    <path d="M120 135 C100 135 85 125 85 110 L85 85 C85 85 120 70 120 70 C120 70 155 85 155 85 L155 110 C155 125 140 135 120 135 Z" fill="#3B82F6" opacity="0.2"/>
+    
+    <!-- Action/Motion lines indicating harmonious adaptation -->
+    <path d="M60 145 Q80 130 100 140" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+    <path d="M180 145 Q160 130 140 140" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+    
+    <!-- Large prominent Checkmark (Perfect Fit / 适宜) -->
+    <circle cx="120" cy="140" r="24" fill="#10B981"/>
+    <path d="M108 140 L116 148 L134 128" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Temperature / Climate wave indicators -->
+  <path d="M50 175 Q60 165 70 175 T90 175" stroke="#38BDF8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M150 175 Q160 165 170 175 T190 175" stroke="#38BDF8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Subtle decorative dots -->
+  <circle cx="75" cy="120" r="2.5" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="165" cy="130" r="2.5" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="105" cy="65" r="2" fill="#10B981" opacity="0.7"/>
+</svg>

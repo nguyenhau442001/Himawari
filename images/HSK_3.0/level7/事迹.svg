@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Glow & Details -->
+  <circle cx="120" cy="115" r="70" fill="#FFB703" opacity="0.05"/>
+  <path d="M120 40 L125 55 L140 55 L128 65 L132 80 L120 70 L108 80 L112 65 L100 55 L115 55 Z" fill="#FFB703" opacity="0.1" transform="scale(0.8) translate(30, 20)"/>
+
+  <!-- Central Icon Group: "事迹" (Heroic Deed / Achievement Scroll & Star/Medal) -->
+  <g transform="translate(0, 5)">
+    <!-- Scroll Base (The Record / Deed) -->
+    <path d="M 80,75 C 80,68 85,63 92,63 L 148,63 C 155,63 160,68 160,75 L 160,155 C 160,162 155,167 148,167 L 92,167 C 85,167 80,162 80,155 Z" fill="#2D323E"/>
+    
+    <!-- Scroll Inner Paper -->
+    <rect x="88" y="71" width="64" height="88" rx="3" fill="#EAEAEA"/>
+    
+    <!-- Text Lines on Scroll (Abstract) -->
+    <rect x="100" y="87" width="40" height="5" rx="2" fill="#CFD3DC"/>
+    <rect x="100" y="103" width="40" height="5" rx="2" fill="#CFD3DC"/>
+    <rect x="100" y="119" width="28" height="5" rx="2" fill="#CFD3DC"/>
+
+    <!-- Scroll Rollers (Top & Bottom) -->
+    <rect x="74" y="60" width="92" height="10" rx="5" fill="#FFB703"/>
+    <rect x="74" y="163" width="92" height="10" rx="5" fill="#FFB703"/>
+
+    <!-- Focal Achievement Badge / Star (Representing the Heroic Nature) -->
+    <circle cx="120" cy="138" r="22" fill="#1A1D24"/>
+    <circle cx="120" cy="138" r="18" fill="#FF9F0A"/>
+    
+    <!-- Star Icon -->
+    <path d="M 120,125 L 123.5,133.5 L 133,134 L 125.5,140 L 128,149 L 120,144 L 112,149 L 114.5,140 L 107,134 L 116.5,133.5 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Radiating Achievement Sparks / Sparkles -->
+  <g fill="#FFB703">
+    <circle cx="65" cy="95" r="3" opacity="0.8"/>
+    <circle cx="178" cy="105" r="2" opacity="0.6"/>
+    <circle cx="165" cy="55" r="2.5" opacity="0.9"/>
+    <circle cx="78" cy="140" r="2" opacity="0.7"/>
+  </g>
+</svg>
