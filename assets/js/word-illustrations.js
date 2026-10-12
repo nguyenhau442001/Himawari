@@ -19742,6 +19742,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/生疏.svg",
     "caption": "xa lạ, không thành thục (lâu không dùng)"
   },
+  "生态": {
+    "file": "生态.svg",
+    "src": "images/HSK_2.0/level6/生态.svg",
+    "caption": "sinh thái"
+  },
   "生物": {
     "file": "生物.svg",
     "src": "images/HSK_2.0/level6/生物.svg",
@@ -19751,6 +19756,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "生肖.svg",
     "src": "images/HSK_2.0/level6/生肖.svg",
     "caption": "con giáp"
+  },
+  "生效": {
+    "file": "生效.svg",
+    "src": "images/HSK_2.0/level6/生效.svg",
+    "caption": "có hiệu lực"
+  },
+  "生锈": {
+    "file": "生锈.svg",
+    "src": "images/HSK_2.0/level6/生锈.svg",
+    "caption": "bị gỉ, hoen rỉ"
+  },
+  "生育": {
+    "file": "生育.svg",
+    "src": "images/HSK_2.0/level6/生育.svg",
+    "caption": "sinh đẻ, sinh sản"
+  },
+  "牲畜": {
+    "file": "牲畜.svg",
+    "src": "images/HSK_2.0/level6/牲畜.svg",
+    "caption": "gia súc"
   },
   "省会": {
     "file": "省会.svg",

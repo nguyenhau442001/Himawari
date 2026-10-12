@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/circle for focus -->
+  <circle cx="120" cy="120" r="85" fill="#222733"/>
+  
+  <!-- Central Focus: Livestock (Cow silhouette/flat icon representation for 'shēngchù' / gia súc) -->
+  <g transform="translate(48, 55)">
+    <!-- Cow Body -->
+    <path d="M25 60 C25 45, 45 40, 75 40 C105 40, 120 45, 125 60 C130 75, 125 95, 120 105 C115 112, 105 110, 105 100 L105 75 C105 70, 45 70, 45 75 L45 102 C45 110, 35 112, 30 105 C25 95, 20 75, 25 60 Z" fill="#F1F5F9"/>
+    
+    <!-- Cow Head -->
+    <path d="M15 45 C10 40, 5 50, 10 65 C15 75, 25 70, 30 60 C35 50, 20 48, 15 45 Z" fill="#F1F5F9"/>
+    
+    <!-- Horns -->
+    <path d="M12 43 L8 34 C15 36, 18 40, 19 44 Z" fill="#E2E8F0"/>
+    <path d="M22 43 L24 34 C20 37, 18 41, 18 45 Z" fill="#E2E8F0"/>
+
+    <!-- Ears -->
+    <ellipse cx="14" cy="52" rx="4" ry="2" transform="rotate(-20 14 52)" fill="#CBD5E1"/>
+
+    <!-- Cow Patches (Accent Color - Orange/Gold for focus) -->
+    <path d="M60 40 C75 40, 85 50, 80 65 C70 70, 55 60, 60 40 Z" fill="#F59E0B"/>
+    <path d="M30 65 C35 60, 45 65, 40 85 C30 85, 25 75, 30 65 Z" fill="#F59E0B"/>
+
+    <!-- Udder -->
+    <path d="M70 100 C70 105, 80 105, 80 100 Z" fill="#E2E8F0"/>
+
+    <!-- Legs -->
+    <rect x="42" y="98" width="8" height="22" rx="4" fill="#F1F5F9"/>
+    <rect x="58" y="98" width="8" height="22" rx="4" fill="#E2E8F0"/>
+    <rect x="92" y="98" width="8" height="22" rx="4" fill="#F1F5F9"/>
+    <rect x="108" y="98" width="8" height="22" rx="4" fill="#E2E8F0"/>
+
+    <!-- Tail -->
+    <path d="M125 55 C135 60, 140 75, 138 85" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M138 80 C140 85, 142 88, 140 90 C138 88, 137 85, 138 80 Z" fill="#F1F5F9"/>
+  </g>
+
+  <!-- Ground Line -->
+  <path d="M50 175 L190 175" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Minimalist Grass Tuft (Accent detail) -->
+  <path d="M70 175 L70 165 M66 175 L68 167 M74 175 L72 166" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M170 175 L170 163 M166 175 L168 166 M174 175 L172 164" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="rotate(-30 120 120)">
+    <!-- Knife Blade -->
+    <path d="M60,120 L160,80 L180,95 L70,140 Z" fill="#718096"/>
+    <path d="M70,128 L150,94 L165,102 L80,138 Z" fill="#A0AEC0"/>
+    
+    <!-- Rust Patches on Blade (Orange/Gold Accent) -->
+    <path d="M120,95 Q135,90 145,98 L130,105 Z" fill="#DD6B20"/>
+    <path d="M140,88 Q150,85 158,92 L145,97 Z" fill="#ED8936"/>
+    <path d="M90,115 Q105,108 115,114 L100,122 Z" fill="#DD6B20"/>
+    <circle cx="155" cy="90" r="3" fill="#C05621"/>
+    <circle cx="110" cy="112" r="2" fill="#DD6B20"/>
+    
+    <!-- Knife Guard/Bolster -->
+    <rect x="65" y="132" width="8" height="15" rx="2" fill="#4A5568"/>
+    
+    <!-- Knife Handle -->
+    <path d="M35,140 L65,132 L68,147 L38,155 Z" fill="#2D3748"/>
+    <circle cx="48" cy="143" r="1.5" fill="#718096"/>
+    <circle cx="58" cy="140" r="1.5" fill="#718096"/>
+  </g>
+</svg>

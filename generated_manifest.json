@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:08:59.263441",
-  "total_unique_words_with_illustrations": 4533,
-  "total_flat_svg_files": 4533,
+  "generated_at": "2026-10-12T23:09:30.962278",
+  "total_unique_words_with_illustrations": 4538,
+  "total_flat_svg_files": 4538,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1893,
-        "pct": "75.7%"
+        "with_svg": 1898,
+        "pct": "75.9%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 629,
-        "pct": "34.9%"
+        "with_svg": 630,
+        "pct": "35.0%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 947,
-        "pct": "16.9%"
+        "with_svg": 950,
+        "pct": "17.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 947,
-        "pct": "16.9%"
+        "with_svg": 950,
+        "pct": "17.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 947,
-        "pct": "16.9%"
+        "with_svg": 950,
+        "pct": "17.0%"
       }
     }
   },
@@ -74128,6 +74128,24 @@
         "images/HSK_3.0/level9/生疏.svg"
       ]
     },
+    "生态": {
+      "hanzi": "生态",
+      "pinyin": "shēngtài",
+      "meaning": "sinh thái",
+      "example_zh": "我们要保护<u>生态</u>环境。",
+      "example_vi": "Chúng ta phải bảo vệ môi trường <u>sinh thái</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "生态.svg",
+      "src": "images/HSK_2.0/level6/生态.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/生态.svg"
+      ]
+    },
     "生物": {
       "hanzi": "生物",
       "pinyin": "shēngwù",
@@ -74162,6 +74180,86 @@
       "src": "images/HSK_2.0/level6/生肖.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/生肖.svg"
+      ]
+    },
+    "生效": {
+      "hanzi": "生效",
+      "pinyin": "shēngxiào",
+      "meaning": "có hiệu lực",
+      "example_zh": "这项法律将于明年<u>生效</u>。",
+      "example_vi": "Luật này sẽ <u>có hiệu lực</u> vào năm sau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "生效.svg",
+      "src": "images/HSK_2.0/level6/生效.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/生效.svg",
+        "images/HSK_3.0/level8/生效.svg",
+        "images/HSK_3.0/level9/生效.svg"
+      ]
+    },
+    "生锈": {
+      "hanzi": "生锈",
+      "pinyin": "shēngxiù",
+      "meaning": "bị gỉ, hoen rỉ",
+      "example_zh": "这把刀已经<u>生锈</u>了。",
+      "example_vi": "Con dao này đã <u>bị gỉ</u> rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "生锈.svg",
+      "src": "images/HSK_2.0/level6/生锈.svg",
+      "alt_srcs": []
+    },
+    "生育": {
+      "hanzi": "生育",
+      "pinyin": "shēngyù",
+      "meaning": "sinh đẻ, sinh sản",
+      "example_zh": "国家出台了新的<u>生育</u>政策。",
+      "example_vi": "Nhà nước đã ban hành chính sách <u>sinh đẻ</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "生育.svg",
+      "src": "images/HSK_2.0/level6/生育.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/生育.svg",
+        "images/HSK_3.0/level8/生育.svg",
+        "images/HSK_3.0/level9/生育.svg"
+      ]
+    },
+    "牲畜": {
+      "hanzi": "牲畜",
+      "pinyin": "shēngchù",
+      "meaning": "gia súc",
+      "example_zh": "农民在饲养各种<u>牲畜</u>。",
+      "example_vi": "Nông dân đang chăn nuôi các loại <u>gia súc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "牲畜.svg",
+      "src": "images/HSK_2.0/level6/牲畜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/牲畜.svg",
+        "images/HSK_3.0/level8/牲畜.svg",
+        "images/HSK_3.0/level9/牲畜.svg"
       ]
     },
     "省会": {

@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Legal Document / Contract (Physical Object representing the Law) -->
+  <g transform="translate(70, 50)">
+    <!-- Document Base -->
+    <path d="M0 12C0 5.37258 5.37258 0 12 0H88C94.6274 0 100 5.37258 100 12V128C100 134.627 94.6274 140 88 120H12C5.37258 140 0 134.627 0 128V12Z" fill="#E2E8F0"/>
+    
+    <!-- Document Header Accent -->
+    <path d="M0 12C0 5.37258 5.37258 0 12 0H88C94.6274 0 100 5.37258 100 12V32H0V12Z" fill="#CBD5E1"/>
+
+    <!-- Document Lines (Text representations) -->
+    <rect x="20" y="48" width="50" height="6" rx="3" fill="#94A3B8"/>
+    <rect x="20" y="66" width="60" height="6" rx="3" fill="#94A3B8"/>
+    <rect x="20" y="84" width="40" height="6" rx="3" fill="#94A3B8"/>
+
+    <!-- Gold Seal / Wax Stamp (Symbol of official validity) -->
+    <circle cx="72" cy="105" r="16" fill="#F59E0B"/>
+    <circle cx="72" cy="105" r="11" fill="#D97706"/>
+    <!-- Star icon inside seal -->
+    <path d="M72 97L73.8 101.5H78.5L74.7 104.3L76.1 108.8L72 106L67.9 108.8L69.3 104.3L65.5 101.5H70.2L72 97Z" fill="#FEF3C7"/>
+  </g>
+
+  <!-- Glowing Checkmark / Activation Symbol (Visualizing "Taking Effect" / "生效") -->
+  <g transform="translate(110, 110)">
+    <!-- Outer Glow Circle -->
+    <circle cx="30" cy="30" r="32" fill="#1A1D24"/>
+    <circle cx="30" cy="30" r="28" fill="#10B981" opacity="0.2"/>
+    
+    <!-- Main Badge Circle -->
+    <circle cx="30" cy="30" r="22" fill="#10B981"/>
+    
+    <!-- Checkmark Path -->
+    <path d="M20 30L26 36L41 21" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Dynamic Sparkles / Action Accents indicating activation -->
+  <g fill="#F59E0B">
+    <!-- Top Right Sparkle -->
+    <path d="M195 65C195 71 190 73 185 73C190 73 195 75 195 81C195 75 200 73 205 73C200 73 195 71 195 65Z"/>
+    <!-- Lower Left Sparkle -->
+    <path d="M45 165C45 169 42 170 39 170C42 170 45 171 45 175C45 171 48 170 51 170C48 170 45 169 45 165Z"/>
+  </g>
+</svg>
