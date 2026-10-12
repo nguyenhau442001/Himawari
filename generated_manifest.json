@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:32:02.707111",
-  "total_unique_words_with_illustrations": 4340,
-  "total_flat_svg_files": 4340,
+  "generated_at": "2026-10-12T22:32:54.410297",
+  "total_unique_words_with_illustrations": 4345,
+  "total_flat_svg_files": 4345,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1700,
-        "pct": "68.0%"
+        "with_svg": 1705,
+        "pct": "68.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 570,
-        "pct": "31.7%"
+        "with_svg": 572,
+        "pct": "31.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 824,
-        "pct": "14.7%"
+        "with_svg": 827,
+        "pct": "14.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 824,
-        "pct": "14.7%"
+        "with_svg": 827,
+        "pct": "14.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 824,
-        "pct": "14.7%"
+        "with_svg": 827,
+        "pct": "14.8%"
       }
     }
   },
@@ -70020,6 +70020,108 @@
         "images/HSK_3.0/level7/起草.svg",
         "images/HSK_3.0/level8/起草.svg",
         "images/HSK_3.0/level9/起草.svg"
+      ]
+    },
+    "起初": {
+      "hanzi": "起初",
+      "pinyin": "qǐchū",
+      "meaning": "ban đầu, lúc đầu",
+      "example_zh": "<u>起初</u>大家都不相信他的话。",
+      "example_vi": "<u>Lúc đầu</u> mọi người đều không tin lời anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "起初.svg",
+      "src": "images/HSK_2.0/level6/起初.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/起初.svg"
+      ]
+    },
+    "起伏": {
+      "hanzi": "起伏",
+      "pinyin": "qǐfú",
+      "meaning": "lên xuống, nhấp nhô",
+      "example_zh": "他的情绪<u>起伏</u>很大。",
+      "example_vi": "Tâm trạng của anh ấy <u>lên xuống</u> rất lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "起伏.svg",
+      "src": "images/HSK_2.0/level6/起伏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/起伏.svg",
+        "images/HSK_3.0/level8/起伏.svg",
+        "images/HSK_3.0/level9/起伏.svg"
+      ]
+    },
+    "起哄": {
+      "hanzi": "起哄",
+      "pinyin": "qǐhòng",
+      "meaning": "gây náo loạn, hùa theo trêu chọc",
+      "example_zh": "别再<u>起哄</u>了，安静一下。",
+      "example_vi": "Đừng <u>hùa theo trêu chọc</u> nữa, hãy yên lặng một chút.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "起哄.svg",
+      "src": "images/HSK_2.0/level6/起哄.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/起哄.svg",
+        "images/HSK_3.0/level8/起哄.svg",
+        "images/HSK_3.0/level9/起哄.svg"
+      ]
+    },
+    "起码": {
+      "hanzi": "起码",
+      "pinyin": "qǐmǎ",
+      "meaning": "ít nhất, tối thiểu",
+      "example_zh": "你<u>起码</u>应该跟他说一声。",
+      "example_vi": "<u>Ít nhất</u> bạn cũng nên nói với anh ấy một tiếng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "起码.svg",
+      "src": "images/HSK_2.0/level6/起码.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/起码.svg",
+        "images/HSK_3.0/level8/起码.svg",
+        "images/HSK_3.0/level9/起码.svg"
+      ]
+    },
+    "起源": {
+      "hanzi": "起源",
+      "pinyin": "qǐyuán",
+      "meaning": "nguồn gốc, khởi nguồn",
+      "example_zh": "这种习俗的<u>起源</u>已经无法考证。",
+      "example_vi": "<u>Nguồn gốc</u> của tập tục này đã không thể xác minh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "起源.svg",
+      "src": "images/HSK_2.0/level6/起源.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/起源.svg"
       ]
     },
     "抢救": {

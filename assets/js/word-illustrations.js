@@ -18727,6 +18727,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/起草.svg",
     "caption": "soạn thảo, dự thảo"
   },
+  "起初": {
+    "file": "起初.svg",
+    "src": "images/HSK_2.0/level6/起初.svg",
+    "caption": "ban đầu, lúc đầu"
+  },
+  "起伏": {
+    "file": "起伏.svg",
+    "src": "images/HSK_2.0/level6/起伏.svg",
+    "caption": "lên xuống, nhấp nhô"
+  },
+  "起哄": {
+    "file": "起哄.svg",
+    "src": "images/HSK_2.0/level6/起哄.svg",
+    "caption": "gây náo loạn, hùa theo trêu chọc"
+  },
+  "起码": {
+    "file": "起码.svg",
+    "src": "images/HSK_2.0/level6/起码.svg",
+    "caption": "ít nhất, tối thiểu"
+  },
+  "起源": {
+    "file": "起源.svg",
+    "src": "images/HSK_2.0/level6/起源.svg",
+    "caption": "nguồn gốc, khởi nguồn"
+  },
   "抢救": {
     "file": "抢救.svg",
     "src": "images/HSK_2.0/level6/抢救.svg",
