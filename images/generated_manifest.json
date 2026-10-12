@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:20:29.864005",
-  "total_unique_words_with_illustrations": 3739,
-  "total_flat_svg_files": 3739,
+  "generated_at": "2026-10-12T12:22:25.073464",
+  "total_unique_words_with_illustrations": 3749,
+  "total_flat_svg_files": 3749,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1099,
-        "pct": "44.0%"
+        "with_svg": 1109,
+        "pct": "44.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 393,
-        "pct": "21.8%"
+        "with_svg": 395,
+        "pct": "21.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 440,
-        "pct": "7.9%"
+        "with_svg": 448,
+        "pct": "8.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 440,
-        "pct": "7.9%"
+        "with_svg": 448,
+        "pct": "8.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 440,
-        "pct": "7.9%"
+        "with_svg": 448,
+        "pct": "8.0%"
       }
     }
   },
@@ -57228,6 +57228,218 @@
         "images/HSK_3.0/level7/分解.svg",
         "images/HSK_3.0/level8/分解.svg",
         "images/HSK_3.0/level9/分解.svg"
+      ]
+    },
+    "分裂": {
+      "hanzi": "分裂",
+      "pinyin": "fēnliè",
+      "meaning": "chia rẽ, phân liệt",
+      "example_zh": "国家不能<u>分裂</u>。",
+      "example_vi": "Quốc gia không thể bị <u>chia rẽ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分裂.svg",
+      "src": "images/HSK_2.0/level6/分裂.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分裂.svg",
+        "images/HSK_3.0/level8/分裂.svg",
+        "images/HSK_3.0/level9/分裂.svg"
+      ]
+    },
+    "分泌": {
+      "hanzi": "分泌",
+      "pinyin": "fēnmì",
+      "meaning": "tiết ra (hormone, dịch)",
+      "example_zh": "这种激素由腺体<u>分泌</u>。",
+      "example_vi": "Loại hormone này được tuyến nội tiết <u>tiết ra</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分泌.svg",
+      "src": "images/HSK_2.0/level6/分泌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分泌.svg",
+        "images/HSK_3.0/level8/分泌.svg",
+        "images/HSK_3.0/level9/分泌.svg"
+      ]
+    },
+    "分明": {
+      "hanzi": "分明",
+      "pinyin": "fēnmíng",
+      "meaning": "rõ ràng, rành rọt",
+      "example_zh": "黑白<u>分明</u>。",
+      "example_vi": "Đen trắng <u>rõ ràng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分明.svg",
+      "src": "images/HSK_2.0/level6/分明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分明.svg",
+        "images/HSK_3.0/level8/分明.svg",
+        "images/HSK_3.0/level9/分明.svg"
+      ]
+    },
+    "分歧": {
+      "hanzi": "分歧",
+      "pinyin": "fēnqí",
+      "meaning": "sự khác biệt (ý kiến)",
+      "example_zh": "双方意见有<u>分歧</u>。",
+      "example_vi": "Hai bên có <u>sự khác biệt</u> ý kiến.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "分歧.svg",
+      "src": "images/HSK_2.0/level6/分歧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/分歧.svg",
+        "images/HSK_3.0/level8/分歧.svg",
+        "images/HSK_3.0/level9/分歧.svg"
+      ]
+    },
+    "分散": {
+      "hanzi": "分散",
+      "pinyin": "fēnsàn",
+      "meaning": "phân tán",
+      "example_zh": "注意力不要<u>分散</u>。",
+      "example_vi": "Đừng để sự chú ý bị <u>phân tán</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "分散.svg",
+      "src": "images/HSK_2.0/level6/分散.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/分散.svg"
+      ]
+    },
+    "坟墓": {
+      "hanzi": "坟墓",
+      "pinyin": "fénmù",
+      "meaning": "mộ, mồ",
+      "example_zh": "他来到祖父的<u>坟墓</u>前。",
+      "example_vi": "Anh ấy đến trước <u>mộ</u> của ông nội.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "坟墓.svg",
+      "src": "images/HSK_2.0/level6/坟墓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/坟墓.svg",
+        "images/HSK_3.0/level8/坟墓.svg",
+        "images/HSK_3.0/level9/坟墓.svg"
+      ]
+    },
+    "粉末": {
+      "hanzi": "粉末",
+      "pinyin": "fěnmò",
+      "meaning": "bột, vụn mịn",
+      "example_zh": "这是一种白色<u>粉末</u>。",
+      "example_vi": "Đây là một loại <u>bột</u> màu trắng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "粉末.svg",
+      "src": "images/HSK_2.0/level6/粉末.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/粉末.svg",
+        "images/HSK_3.0/level8/粉末.svg",
+        "images/HSK_3.0/level9/粉末.svg"
+      ]
+    },
+    "愤怒": {
+      "hanzi": "愤怒",
+      "pinyin": "fènnù",
+      "meaning": "phẫn nộ",
+      "example_zh": "他十分<u>愤怒</u>。",
+      "example_vi": "Anh ấy rất <u>phẫn nộ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "愤怒.svg",
+      "src": "images/HSK_2.0/level6/愤怒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/愤怒.svg"
+      ]
+    },
+    "风暴": {
+      "hanzi": "风暴",
+      "pinyin": "fēngbào",
+      "meaning": "cơn bão, bão tố",
+      "example_zh": "一场<u>风暴</u>即将来临。",
+      "example_vi": "Một <u>cơn bão</u> sắp đến.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "风暴.svg",
+      "src": "images/HSK_2.0/level6/风暴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/风暴.svg",
+        "images/HSK_3.0/level8/风暴.svg",
+        "images/HSK_3.0/level9/风暴.svg"
+      ]
+    },
+    "风貌": {
+      "hanzi": "风貌",
+      "pinyin": "fēngmào",
+      "meaning": "diện mạo, phong thái",
+      "example_zh": "这座城市展现出新的<u>风貌</u>。",
+      "example_vi": "Thành phố này thể hiện <u>diện mạo</u> mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "风貌.svg",
+      "src": "images/HSK_2.0/level6/风貌.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/风貌.svg",
+        "images/HSK_3.0/level8/风貌.svg",
+        "images/HSK_3.0/level9/风貌.svg"
       ]
     },
     "夫妇": {

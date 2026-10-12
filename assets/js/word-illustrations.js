@@ -15557,6 +15557,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/分解.svg",
     "caption": "phân giải, phân tách"
   },
+  "分裂": {
+    "file": "分裂.svg",
+    "src": "images/HSK_2.0/level6/分裂.svg",
+    "caption": "chia rẽ, phân liệt"
+  },
+  "分泌": {
+    "file": "分泌.svg",
+    "src": "images/HSK_2.0/level6/分泌.svg",
+    "caption": "tiết ra (hormone, dịch)"
+  },
+  "分明": {
+    "file": "分明.svg",
+    "src": "images/HSK_2.0/level6/分明.svg",
+    "caption": "rõ ràng, rành rọt"
+  },
+  "分歧": {
+    "file": "分歧.svg",
+    "src": "images/HSK_2.0/level6/分歧.svg",
+    "caption": "sự khác biệt (ý kiến)"
+  },
+  "分散": {
+    "file": "分散.svg",
+    "src": "images/HSK_2.0/level6/分散.svg",
+    "caption": "phân tán"
+  },
+  "坟墓": {
+    "file": "坟墓.svg",
+    "src": "images/HSK_2.0/level6/坟墓.svg",
+    "caption": "mộ, mồ"
+  },
+  "粉末": {
+    "file": "粉末.svg",
+    "src": "images/HSK_2.0/level6/粉末.svg",
+    "caption": "bột, vụn mịn"
+  },
+  "愤怒": {
+    "file": "愤怒.svg",
+    "src": "images/HSK_2.0/level6/愤怒.svg",
+    "caption": "phẫn nộ"
+  },
+  "风暴": {
+    "file": "风暴.svg",
+    "src": "images/HSK_2.0/level6/风暴.svg",
+    "caption": "cơn bão, bão tố"
+  },
+  "风貌": {
+    "file": "风貌.svg",
+    "src": "images/HSK_2.0/level6/风貌.svg",
+    "caption": "diện mạo, phong thái"
+  },
   "夫妇": {
     "file": "夫妇.svg",
     "src": "images/HSK_2.0/level6/夫妇.svg",
