@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T20:49:00.873750",
-  "total_unique_words_with_illustrations": 4125,
-  "total_flat_svg_files": 4125,
+  "generated_at": "2026-10-12T20:55:46.043961",
+  "total_unique_words_with_illustrations": 4135,
+  "total_flat_svg_files": 4135,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1485,
-        "pct": "59.4%"
+        "with_svg": 1495,
+        "pct": "59.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 511,
-        "pct": "28.4%"
+        "with_svg": 513,
+        "pct": "28.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 673,
-        "pct": "12.0%"
+        "with_svg": 681,
+        "pct": "12.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 673,
-        "pct": "12.0%"
+        "with_svg": 681,
+        "pct": "12.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 673,
-        "pct": "12.0%"
+        "with_svg": 681,
+        "pct": "12.2%"
       }
     }
   },
@@ -65412,6 +65412,218 @@
       "src": "images/HSK_2.0/level6/领先.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/领先.svg"
+      ]
+    },
+    "领袖": {
+      "hanzi": "领袖",
+      "pinyin": "lǐngxiù",
+      "meaning": "lãnh tụ, người đứng đầu",
+      "example_zh": "他是国家的<u>领袖</u>。",
+      "example_vi": "Ông ấy là <u>lãnh tụ</u> quốc gia.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "领袖.svg",
+      "src": "images/HSK_2.0/level6/领袖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/领袖.svg",
+        "images/HSK_3.0/level8/领袖.svg",
+        "images/HSK_3.0/level9/领袖.svg"
+      ]
+    },
+    "溜": {
+      "hanzi": "溜",
+      "pinyin": "liū",
+      "meaning": "trượt, lẻn đi",
+      "example_zh": "他偷偷<u>溜</u>走了。",
+      "example_vi": "Anh ấy lén <u>lẻn</u> đi mất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "溜.svg",
+      "src": "images/HSK_2.0/level6/溜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/溜.svg",
+        "images/HSK_3.0/level8/溜.svg",
+        "images/HSK_3.0/level9/溜.svg"
+      ]
+    },
+    "流浪": {
+      "hanzi": "流浪",
+      "pinyin": "liúlàng",
+      "meaning": "lang thang",
+      "example_zh": "他过着<u>流浪</u>的生活。",
+      "example_vi": "Anh ấy sống cuộc đời <u>lang thang</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "流浪.svg",
+      "src": "images/HSK_2.0/level6/流浪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/流浪.svg",
+        "images/HSK_3.0/level8/流浪.svg",
+        "images/HSK_3.0/level9/流浪.svg"
+      ]
+    },
+    "流露": {
+      "hanzi": "流露",
+      "pinyin": "liúlù",
+      "meaning": "bộc lộ, lộ ra",
+      "example_zh": "她脸上<u>流露</u>出喜悦。",
+      "example_vi": "Trên mặt cô ấy <u>bộc lộ</u> niềm vui.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "流露.svg",
+      "src": "images/HSK_2.0/level6/流露.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/流露.svg",
+        "images/HSK_3.0/level8/流露.svg",
+        "images/HSK_3.0/level9/流露.svg"
+      ]
+    },
+    "流氓": {
+      "hanzi": "流氓",
+      "pinyin": "liúmáng",
+      "meaning": "lưu manh, du đãng",
+      "example_zh": "他被当成<u>流氓</u>抓走了。",
+      "example_vi": "Anh ta bị coi là <u>lưu manh</u> và bị bắt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "流氓.svg",
+      "src": "images/HSK_2.0/level6/流氓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/流氓.svg",
+        "images/HSK_3.0/level8/流氓.svg",
+        "images/HSK_3.0/level9/流氓.svg"
+      ]
+    },
+    "流通": {
+      "hanzi": "流通",
+      "pinyin": "liútōng",
+      "meaning": "lưu thông",
+      "example_zh": "这种货币在市场上<u>流通</u>。",
+      "example_vi": "Loại tiền này <u>lưu thông</u> trên thị trường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "流通.svg",
+      "src": "images/HSK_2.0/level6/流通.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/流通.svg"
+      ]
+    },
+    "留念": {
+      "hanzi": "留念",
+      "pinyin": "liúniàn",
+      "meaning": "lưu niệm",
+      "example_zh": "我们拍照<u>留念</u>。",
+      "example_vi": "Chúng tôi chụp ảnh <u>lưu niệm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "留念.svg",
+      "src": "images/HSK_2.0/level6/留念.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/留念.svg",
+        "images/HSK_3.0/level8/留念.svg",
+        "images/HSK_3.0/level9/留念.svg"
+      ]
+    },
+    "留神": {
+      "hanzi": "留神",
+      "pinyin": "liúshén",
+      "meaning": "cẩn thận, để ý",
+      "example_zh": "过马路要<u>留神</u>。",
+      "example_vi": "Qua đường phải <u>cẩn thận</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "留神.svg",
+      "src": "images/HSK_2.0/level6/留神.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/留神.svg",
+        "images/HSK_3.0/level8/留神.svg",
+        "images/HSK_3.0/level9/留神.svg"
+      ]
+    },
+    "流域": {
+      "hanzi": "流域",
+      "pinyin": "liúyù",
+      "meaning": "lưu vực",
+      "example_zh": "长江<u>流域</u>人口众多。",
+      "example_vi": "<u>Lưu vực</u> sông Trường Giang có dân số đông.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "流域.svg",
+      "src": "images/HSK_2.0/level6/流域.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/流域.svg",
+        "images/HSK_3.0/level8/流域.svg",
+        "images/HSK_3.0/level9/流域.svg"
+      ]
+    },
+    "漏洞": {
+      "hanzi": "漏洞",
+      "pinyin": "lòudòng",
+      "meaning": "lỗ hổng, kẽ hở",
+      "example_zh": "这个计划有<u>漏洞</u>。",
+      "example_vi": "Kế hoạch này có <u>lỗ hổng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "漏洞.svg",
+      "src": "images/HSK_2.0/level6/漏洞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/漏洞.svg"
       ]
     },
     "忙碌": {

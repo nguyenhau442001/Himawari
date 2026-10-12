@@ -17607,6 +17607,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/领先.svg",
     "caption": "dẫn đầu"
   },
+  "领袖": {
+    "file": "领袖.svg",
+    "src": "images/HSK_2.0/level6/领袖.svg",
+    "caption": "lãnh tụ, người đứng đầu"
+  },
+  "溜": {
+    "file": "溜.svg",
+    "src": "images/HSK_2.0/level6/溜.svg",
+    "caption": "trượt, lẻn đi"
+  },
+  "流浪": {
+    "file": "流浪.svg",
+    "src": "images/HSK_2.0/level6/流浪.svg",
+    "caption": "lang thang"
+  },
+  "流露": {
+    "file": "流露.svg",
+    "src": "images/HSK_2.0/level6/流露.svg",
+    "caption": "bộc lộ, lộ ra"
+  },
+  "流氓": {
+    "file": "流氓.svg",
+    "src": "images/HSK_2.0/level6/流氓.svg",
+    "caption": "lưu manh, du đãng"
+  },
+  "流通": {
+    "file": "流通.svg",
+    "src": "images/HSK_2.0/level6/流通.svg",
+    "caption": "lưu thông"
+  },
+  "留念": {
+    "file": "留念.svg",
+    "src": "images/HSK_2.0/level6/留念.svg",
+    "caption": "lưu niệm"
+  },
+  "留神": {
+    "file": "留神.svg",
+    "src": "images/HSK_2.0/level6/留神.svg",
+    "caption": "cẩn thận, để ý"
+  },
+  "流域": {
+    "file": "流域.svg",
+    "src": "images/HSK_2.0/level6/流域.svg",
+    "caption": "lưu vực"
+  },
+  "漏洞": {
+    "file": "漏洞.svg",
+    "src": "images/HSK_2.0/level6/漏洞.svg",
+    "caption": "lỗ hổng, kẽ hở"
+  },
   "忙碌": {
     "file": "忙碌.svg",
     "src": "images/HSK_2.0/level6/忙碌.svg",

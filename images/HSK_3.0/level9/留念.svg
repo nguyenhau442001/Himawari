@@ -1,0 +1,49 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Landmark (Stylized Silhouette) -->
+  <path d="M40 180 L40 100 L70 70 L100 100 L100 180 Z" fill="#334155"/>
+  <path d="M140 180 L140 80 L170 50 L200 80 L200 180 Z" fill="#475569"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="180" width="240" height="60" fill="#1e293b"/>
+  
+  <!-- Characters -->
+  <!-- Person 1 -->
+  <g transform="translate(80, 130)">
+    <circle cx="20" cy="20" r="15" fill="#fbbf24"/>
+    <path d="M10 40 L15 80 L35 80 L40 40" fill="#38bdf8"/>
+    <rect x="15" y="80" width="10" height="20" fill="#38bdf8"/>
+    <rect x="35" y="80" width="10" height="20" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Person 2 -->
+  <g transform="translate(130, 130)">
+    <circle cx="20" cy="20" r="15" fill="#fb923c"/>
+    <path d="M10 40 L15 80 L35 80 L40 40" fill="#ec4899"/>
+    <rect x="15" y="80" width="10" height="20" fill="#ec4899"/>
+    <rect x="35" y="80" width="10" height="20" fill="#ec4899"/>
+  </g>
+  
+  <!-- Camera/Action Prop -->
+  <g transform="translate(110, 140)">
+    <rect x="0" y="0" width="30" height="20" rx="4" fill="#f1f5f9"/>
+    <circle cx="15" cy="10" r="6" fill="#0f172a"/>
+    <rect x="12" y="-5" width="6" height="5" fill="#f1f5f9"/>
+  </g>
+  
+  <!-- Flash Effect -->
+  <circle cx="125" cy="150" r="40" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="125" cy="150" r="20" fill="#fef3c7" opacity="0.4"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="30" cy="40" r="3" fill="#fbbf24"/>
+  <circle cx="200" cy="30" r="4" fill="#10b981"/>
+  <path d="M180 150 L190 140 L200 150 L190 160 Z" fill="#38bdf8" opacity="0.5"/>
+</svg>
