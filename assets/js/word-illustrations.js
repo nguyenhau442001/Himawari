@@ -21112,6 +21112,101 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/畏惧.svg",
     "caption": "sợ hãi, khiếp sợ"
   },
+  "卫星": {
+    "file": "卫星.svg",
+    "src": "images/HSK_2.0/level6/卫星.svg",
+    "caption": "vệ tinh"
+  },
+  "慰问": {
+    "file": "慰问.svg",
+    "src": "images/HSK_2.0/level6/慰问.svg",
+    "caption": "thăm hỏi, an ủi"
+  },
+  "蔚蓝": {
+    "file": "蔚蓝.svg",
+    "src": "images/HSK_2.0/level6/蔚蓝.svg",
+    "caption": "xanh thẫm (màu trời/biển)"
+  },
+  "温带": {
+    "file": "温带.svg",
+    "src": "images/HSK_2.0/level6/温带.svg",
+    "caption": "vùng ôn đới"
+  },
+  "温和": {
+    "file": "温和.svg",
+    "src": "images/HSK_2.0/level6/温和.svg",
+    "caption": "ôn hòa, dịu dàng"
+  },
+  "文凭": {
+    "file": "文凭.svg",
+    "src": "images/HSK_2.0/level6/文凭.svg",
+    "caption": "văn bằng, bằng cấp"
+  },
+  "文物": {
+    "file": "文物.svg",
+    "src": "images/HSK_2.0/level6/文物.svg",
+    "caption": "văn vật, di vật văn hóa"
+  },
+  "文献": {
+    "file": "文献.svg",
+    "src": "images/HSK_2.0/level6/文献.svg",
+    "caption": "văn hiến, tài liệu"
+  },
+  "文雅": {
+    "file": "文雅.svg",
+    "src": "images/HSK_2.0/level6/文雅.svg",
+    "caption": "văn nhã, thanh tao"
+  },
+  "文艺": {
+    "file": "文艺.svg",
+    "src": "images/HSK_2.0/level6/文艺.svg",
+    "caption": "văn nghệ"
+  },
+  "问世": {
+    "file": "问世.svg",
+    "src": "images/HSK_2.0/level6/问世.svg",
+    "caption": "ra mắt, ra đời"
+  },
+  "窝": {
+    "file": "窝.svg",
+    "src": "images/HSK_2.0/level6/窝.svg",
+    "caption": "cái ổ, hang"
+  },
+  "乌黑": {
+    "file": "乌黑.svg",
+    "src": "images/HSK_2.0/level6/乌黑.svg",
+    "caption": "đen nhánh"
+  },
+  "污蔑": {
+    "file": "污蔑.svg",
+    "src": "images/HSK_2.0/level6/污蔑.svg",
+    "caption": "bôi nhọ, vu khống"
+  },
+  "诬陷": {
+    "file": "诬陷.svg",
+    "src": "images/HSK_2.0/level6/诬陷.svg",
+    "caption": "vu cáo, gài bẫy"
+  },
+  "无比": {
+    "file": "无比.svg",
+    "src": "images/HSK_2.0/level6/无比.svg",
+    "caption": "vô cùng, không gì sánh được"
+  },
+  "无偿": {
+    "file": "无偿.svg",
+    "src": "images/HSK_2.0/level6/无偿.svg",
+    "caption": "miễn phí, không bồi thường"
+  },
+  "无耻": {
+    "file": "无耻.svg",
+    "src": "images/HSK_2.0/level6/无耻.svg",
+    "caption": "vô sỉ, trơ trẽn"
+  },
+  "无动于衷": {
+    "file": "无动于衷.svg",
+    "src": "images/HSK_2.0/level6/无动于衷.svg",
+    "caption": "dửng dưng, vô cảm hoàn toàn"
+  },
   "舞蹈": {
     "file": "舞蹈.svg",
     "src": "images/HSK_2.0/level6/舞蹈.svg",

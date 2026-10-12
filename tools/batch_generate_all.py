@@ -62,26 +62,58 @@ def get_api_keys(cli_arg=""):
     return keys
 
 MODELS_TO_TRY = [
-    "gemini-3.1-flash-lite",
-    "gemini-3.1-flash-lite-preview",
+    "gemini-3.5-flash-lite",
     "gemini-flash-lite-latest",
     "gemini-2.5-flash",
-    "gemini-3-flash-preview",
-    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite-preview",
+    "gemini-flash-latest",
     "gemini-3.5-flash",
-    "gemini-3.6-flash",
+    "gemini-3.8-flash",
+    "gemini-3-flash-preview",
+    "gemini-3.1-flash-lite",
 ]
+
 
 # Track exhausted (key_index, model) pairs dynamically for this session
 EXHAUSTED_KEY_MODELS = set()
 
-def guess_pos(meaning):
-    m = (meaning or "").lower()
-    if re.search(r'^(đẹp|tốt|xấu|to|nhỏ|lớn|cao|thấp|nhanh|chậm|dài|ngắn|nóng|lạnh|mới|cũ|đắt|rẻ|khó|dễ|buồn|vui|sạch|bẩn|ngon|ngọt|đắng|cay|mặn|chua|mệt|đói|no|bận|rảnh|đúng|sai|tiện|phức tạp|đơn giản|quan trọng|an toàn|nguy hiểm|nghiêm túc|cẩn thận|nhiệt tình|tự tin|hạnh phúc|khỏe|yếu|trắng|đen|đỏ|vàng|xanh)\b', m) or 'tính từ' in m:
-        return 'adj'
-    if re.search(r'^(làm|đi|nói|ăn|uống|xem|mua|bán|học|chạy|bay|đến|rời|giúp|tổ chức|chuẩn bị|phát hiện|tham gia|quyết định|giải quyết|sử dụng|cung cấp|tìm|gặp|nhớ|hiểu|yêu|ghét|thích|lo|nghĩ|biết|mặc|đeo|viết|đọc|nghe|sắp xếp|bố trí|ôm|xin lỗi|đăng ký|tốt nghiệp|biểu thị|thể hiện|biểu diễn|khen ngợi|bảo vệ|đảm bảo|thực hiện|hoàn thành|phát triển|mở rộng|thay đổi|tổng kết|du lịch|trao đổi|kết hôn|kinh doanh|nghiên cứu|chiến đấu|chúc mừng|cảm ơn|kính trọng|mời|chờ|đợi|hy vọng|ước|tin|nghi ngờ|chú ý|quan tâm|giảng|dạy|vẽ|hát|múa|bơi|chơi|sửa|chữa|chọn|chọn lựa)\b', m) or 'động từ' in m:
-        return 'verb'
-    return 'noun'
+def classify_pos(meaning):
+    """
+    Classifies word into one of 4 categories matching user rules:
+    - 'noun': NOUN (Danh từ - vật thể, con người, địa điểm)
+    - 'verb': VERB / ACTION (Động từ)
+    - 'adj': ADJECTIVE / DESCRIBING WORD (Tính từ / Trạng thái)
+    - 'abstract': ABSTRACT / GRAMMAR / ADVERB / CONJUNCTION (Từ trừu tượng, phó từ, liên từ...)
+    """
+    m = (meaning or "").lower().strip()
+
+    # 0. Check explicit tag in meaning
+    if re.search(r'\b(tính từ)\b', m):
+        return 'adj', 'Adjective / Describing Word (Tính từ / Trạng thái)'
+    if re.search(r'\b(động từ)\b', m):
+        return 'verb', 'Verb / Action (Động từ)'
+    if re.search(r'\b(danh từ)\b', m):
+        return 'noun', 'Noun (Danh từ - vật thể, con người, địa điểm)'
+    if re.search(r'\b(phó từ|liên từ|trợ từ|thán từ|giới từ|lượng từ|đại từ)\b', m):
+        return 'abstract', 'Abstract / Grammar / Adverb / Conjunction (Từ trừu tượng, phó từ, liên từ)'
+
+    clean_m = re.sub(r'^(rất|quá|vô cùng|hết sức|cực kỳ|tương đối|đặc biệt)\s+', '', m)
+
+    # 1. Adjective check
+    if re.search(r'^(đẹp|tốt|xấu|to|nhỏ|lớn|cao|thấp|nhanh|chậm|dài|ngắn|nóng|lạnh|mới|cũ|đắt|rẻ|khó|dễ|buồn|vui|sạch|bẩn|ngon|ngọt|đắng|cay|mặn|chua|mệt|đói|no|bận|rảnh|đúng|sai|tiện|phức tạp|đơn giản|quan trọng|an toàn|nguy hiểm|nghiêm túc|cẩn thận|nhiệt tình|tự tin|hạnh phúc|khỏe|yếu|trắng|đen|đỏ|vàng|xanh|gầy|béo|sáng|tối|ấm|mát|sâu|nông|rộng|hẹp|yên tĩnh|ồn ào|tươi|héo|cứng|mềm|khô|ướt|giàu|nghèo|thông minh|ngốc|lười|chăm chỉ|thân thiện|lịch sự|độc ác|hiền lành|dũng cảm|nhút nhát|tuyệt vời|hoàn hảo|kỳ lạ|bình thường|phi thường|ổn định|rõ ràng|mơ hồ)\b', clean_m):
+        return 'adj', 'Adjective / Describing Word (Tính từ / Trạng thái)'
+
+    # 2. Verb check
+    if re.search(r'^(làm|đi|nói|ăn|uống|xem|mua|bán|học|chạy|bay|đến|rời|giúp|tổ chức|chuẩn bị|phát hiện|tham gia|quyết định|giải quyết|sử dụng|cung cấp|tìm|gặp|nhớ|hiểu|yêu|ghét|thích|lo|nghĩ|biết|mặc|đeo|viết|đọc|nghe|sắp xếp|bố trí|ôm|xin lỗi|đăng ký|tốt nghiệp|biểu thị|thể hiện|biểu diễn|khen ngợi|bảo vệ|đảm bảo|thực hiện|hoàn thành|phát triển|mở rộng|thay đổi|tổng kết|du lịch|trao đổi|kết hôn|kinh doanh|nghiên cứu|chiến đấu|chúc mừng|cảm ơn|kính trọng|mời|chờ|đợi|hy vọng|ước|tin|nghi ngờ|chú ý|quan tâm|giảng|dạy|vẽ|hát|múa|bơi|chơi|sửa|chữa|chọn|chọn lựa|ném|bắt|kéo|đẩy|cắt|rửa|nấu|xây|phá|mở|đóng|tắt|bật|gửi|nhận|trả lời|hỏi|dừng|bắt đầu|kết thúc|thắng|thua|trèo|leo|vứt|bỏ|rơi|đổ|ngã|cười|khóc|la|hét|gọi|thăm|gặp gỡ|chia sẻ|trao|tặng|nhận được|chịu|chịu đựng|trải qua|kinh qua)\b', m):
+        return 'verb', 'Verb / Action (Động từ)'
+
+    # 3. Abstract / Grammar check
+    if re.search(r'^(thậm chí|đột nhiên|bỗng nhiên|vốn dĩ|hầu như|suýt nữa|không ngờ|chẳng qua|tất nhiên|dường như|hình như|tuy nhiên|tuy rằng|mặc dù|bởi vì|cho nên|do đó|vì vậy|ngay cả|vừa\.\.\. vừa|liệu|chẳng lẽ|hoặc|hay là|nếu|nếu như|giả sử|thực ra|kỳ thực|ngược lại|ngay lập tức|lập tức|luôn luôn|thường xuyên|thỉnh thoảng|chưa bao giờ|đã|đang|sẽ|hơn nữa|vả lại|đồng thời|ngoài ra|tóm lại|nói chung|dù sao|rốt cuộc|cuối cùng|từ từ|dần dần|càng|vẫn|còn|chỉ|cũng|đều|vốn|tự nhiên|nhất định|chắc chắn|vô tình|cố ý|hèn gì|thảo nào|hóa ra|thay vì|miễn là|chỉ cần|bất kể|bất luận|cho dù|càng ngày càng|dần|thế nhưng|nhưng|tuy|bởi)\b', m):
+        return 'abstract', 'Abstract / Grammar / Adverb / Conjunction (Từ trừu tượng, phó từ, liên từ)'
+
+    # 4. Default: Noun
+    return 'noun', 'Noun (Danh từ - vật thể, con người, địa điểm)'
+
 
 def load_level_data(file_path):
     if not file_path.exists():
@@ -387,44 +419,46 @@ def call_gemini_svg_api(word_info, api_keys, max_retries=4):
         return None
     hanzi = word_info.get("hanzi", "").strip()
     meaning = word_info.get("meaning", "").strip()
-    pos = word_info.get("pos") or guess_pos(meaning)
     pinyin = word_info.get("pinyin", "").strip()
+
+    pos_type, pos_label = classify_pos(meaning)
+    word_info["pos"] = pos_label
 
     ex_vi = (word_info.get("example_vi") or "").replace("<u>", "").replace("</u>", "").strip()
     ex_zh = (word_info.get("example_zh") or word_info.get("example") or "").replace("<u>", "").replace("</u>", "").strip()
 
-    example_grounding = ""
+    context_note = ""
     if ex_zh or ex_vi:
-        example_grounding = f"""
-EXACT SCENARIO TO ILLUSTRATE (CRUCIAL):
-The scene MUST be grounded directly in this example sentence:
-- Chinese sentence: "{ex_zh}"
-- Vietnamese meaning: "{ex_vi}"
-Create a clear, relatable real-world human situation depicting the story or action described in this sentence.
-Show the subject/characters actively in this specific setting with context props and environment matching this scenario.
-"""
+        context_note = f"\n- Contextual reference: \"{ex_zh}\" ({ex_vi})"
 
-    prompt = f"""You are an elite 2D vector illustrator and art director creating scene-based illustrations for an HSK language learning app.
-Target Vocabulary: {hanzi} ({pinyin}) - Meaning: '{meaning}' - Part of Speech: {pos}.
-{example_grounding}
-CRITICAL ART DIRECTION & COMPOSITION RULES:
-1. SCENE & SUBJECT:
-   - Depict a RICH, CONCRETE, REAL-WORLD SCENARIO illustrating the target word and its example sentence.
-   - Include stylized, expressive characters actively performing the action or experiencing the situation.
-   - Include rich environmental details and props (e.g. room interior, workplace desk, tools, nature, urban street, stage lighting, window, etc.) establishing clear real-world context.
-   - ABSOLUTELY NO abstract symbols, NO geometric badges, NO minimalist icons, NO generic emojis.
-2. STYLE:
-   - Clean, friendly 2D flat cartoon / minimalist vector art with expressive contours and rich narrative depth.
-3. CANVAS & CONTAINER:
-   - Valid SVG with viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg".
-   - Full-bleed container: <rect width="240" height="240" rx="24" fill="#1e293b"/> (or gradient from #0f172a to #1e293b).
-   - Fill the canvas harmoniously with the main subject and context surroundings.
-4. COLOR PALETTE:
-   - Dark-mode harmonious: Deep slate navy background (#0f172a, #1e293b), muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).
-5. STRICT NEGATIVE CONSTRAINTS:
-   - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.
-   - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.
-6. Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any commentary."""
+    if pos_type == 'noun':
+        type_rule = """1. IF NOUN (Danh từ - vật thể, con người, địa điểm):
+   - Center a clear, iconic, and unmistakable physical object or character representing the word. Avoid abstract backgrounds."""
+    elif pos_type == 'verb':
+        type_rule = """2. IF VERB / ACTION (Động từ):
+   - Show a clear, dynamic human character action with motion lines or a direct interaction with an object to show cause and effect."""
+    elif pos_type == 'adj':
+        type_rule = """3. IF ADJECTIVE / DESCRIBING WORD (Tính từ / Trạng thái):
+   - Use a distinct visual contrast, scale exaggeration, or clear emotional expression (e.g., contrasting small vs. large, calm vs. chaotic) to represent the quality."""
+    else:  # abstract / grammar / adverb / conjunction
+        type_rule = """4. IF ABSTRACT / GRAMMAR / ADVERB / CONJUNCTION (Từ trừu tượng, phó từ, liên từ như "thậm chí", "đột nhiên", "vốn dĩ", "hầu như"):
+   - DO NOT draw a generic office worker or random desk scene. 
+   - MUST use visual metaphors of "Escalation", "Progression", "Causality", or "Contrast" (e.g., a multi-step staircase, a scale tipping, a domino effect, a magnifying glass zooming into a detail, or a timeline showing a sharp peak).
+   - For words expressing extreme degree, escalation, or unexpectedness (like 甚至): Illustrate a clear progression starting from a normal baseline level and sharply breaking past the limit into an extreme, exaggerated final outcome (e.g., working late at night with towering stacks of paper, a character sweating under an overwhelmingly heavy but clear load of tasks)."""
+
+    prompt = f"""A conceptual educational vector illustration in a sleek, modern flat design style with a dark mode theme, visualizing the exact semantic meaning of the Chinese word "{hanzi}" ({pinyin}, {pos_label}, {meaning}).{context_note}
+
+STRICT VISUAL RULES BASED ON WORD TYPE:
+{type_rule}
+
+GENERAL CONSTRAINTS:
+- Style: Consistent flat vector art, clean lines, dark blue/slate background (#1A1D24 or similar dark theme to match the app interface), professional color palette with high-contrast accent colors (orange/gold for focus).
+- Canvas & Format: Valid SVG with viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg".
+- Container: Full-bleed container: <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+- No random gibberish text inside the image. Keep it clean, focused, and instantly comprehensible at a glance (flashcard optimization).
+- ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.
+- ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.
+- Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any commentary."""
 
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -512,16 +546,18 @@ def git_commit_and_push(batch_count, level_label):
         commit_msg = f"feat(illustrations): batch generate scene-based SVGs ({level_label}: +{batch_count} words)"
         res = subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_ROOT, capture_output=True, text=True)
         print(f"[>>> GIT] {res.stdout.strip()}", flush=True)
-        push_res = subprocess.run(["git", "push", "origin", "main"], cwd=REPO_ROOT, capture_output=True, text=True)
-        print(f"[>>> GIT] Push result: {push_res.stdout.strip() or 'OK'}", flush=True)
+        branch_res = subprocess.run(["git", "branch", "--show-current"], cwd=REPO_ROOT, capture_output=True, text=True)
+        branch_name = branch_res.stdout.strip() or "main"
+        push_res = subprocess.run(["git", "push", "origin", branch_name], cwd=REPO_ROOT, capture_output=True, text=True)
+        print(f"[>>> GIT] Push result: {push_res.stdout.strip() or push_res.stderr.strip() or 'OK'}", flush=True)
     except Exception as e:
         print(f"[!] Warning git commit/push encountered error: {e}", flush=True)
 
 def main():
     parser = argparse.ArgumentParser(description="Master batch generator & organizer for all HSK 2.0 & HSK 3.0 levels")
     parser.add_argument("--api-key", default="", help="Google AI Studio API Key (comma-separated or set in .api_key)")
-    parser.add_argument("--delay", type=float, default=4.0, help="Delay between API calls in seconds (default: 4.0s)")
-    parser.add_argument("--batch-size", type=int, default=10, help="Commit and push every N generated items (default: 10)")
+    parser.add_argument("--delay", type=float, default=1.0, help="Delay between API calls in seconds (default: 1.0s)")
+    parser.add_argument("--batch-size", type=int, default=20, help="Commit and push every N generated items (default: 20)")
     parser.add_argument("--only-organize", action="store_true", help="Only reorganize existing SVGs, build manifest & README without generating new SVGs")
     parser.add_argument("--target-level", default="all", help="Target specific level (e.g., 'level3', 'level5', 'level6', 'all')")
     args = parser.parse_args()
@@ -589,8 +625,8 @@ def main():
 
             meaning = item.get("meaning", "").strip()
             pinyin = item.get("pinyin", "").strip()
-            pos = item.get("pos") or guess_pos(meaning)
-            item["pos"] = pos
+            pos_type, pos_label = classify_pos(meaning)
+            item["pos"] = pos_label
 
             out_filename = f"{hanzi}.svg"
             flat_path = FLAT_OUTPUT_DIR / out_filename

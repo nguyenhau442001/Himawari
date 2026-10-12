@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Deep Blue Horizon Concept -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#0055AA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Large Scale Exaggeration: Vast Sky -->
+  <rect x="0" y="0" width="240" height="180" fill="url(#skyGradient)"/>
+  
+  <!-- Contrast: Small Horizon Line -->
+  <path d="M0 180 L240 180" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Calm/Deep Sea representation -->
+  <path d="M0 180 C 60 160, 180 200, 240 180 L 240 240 L 0 240 Z" fill="#001F3F"/>
+  
+  <!-- Focus Element: Gold Accent for "Quality" -->
+  <circle cx="120" cy="90" r="20" fill="none" stroke="#FFD700" stroke-width="3" stroke-dasharray="6 6"/>
+  <circle cx="120" cy="90" r="8" fill="#FFD700"/>
+</svg>

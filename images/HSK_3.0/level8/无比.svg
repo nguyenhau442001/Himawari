@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Radiance/Glow representing "Incomparable" -->
+  <circle cx="120" cy="110" r="65" fill="#FF9F1C" fill-opacity="0.15"/>
+  <circle cx="120" cy="110" r="50" fill="#FF9F1C" fill-opacity="0.25"/>
+  
+  <!-- Large Heart Symbolizing Happiness -->
+  <path d="M120 155 C120 155 70 125 70 95 C70 75 85 65 100 65 C110 65 115 72 120 78 C125 72 130 65 140 65 C155 65 170 75 170 95 C170 125 120 155 120 155Z" fill="#FF9F1C"/>
+  
+  <!-- Character representing "She" (她) -->
+  <g transform="translate(0, 10)">
+    <!-- Head -->
+    <circle cx="120" cy="115" r="18" fill="#F3E5AB"/>
+    <!-- Joyful Expression -->
+    <path d="M112 115 Q112 118 115 118" stroke="#1A1D24" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M128 115 Q128 118 125 118" stroke="#1A1D24" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M115 124 Q120 128 125 124" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Body/Torso -->
+    <path d="M100 180 Q120 175 140 180 L145 210 L95 210 Z" fill="#E0E0E0"/>
+    
+    <!-- Arms raised in joy -->
+    <path d="M102 145 Q80 120 70 110" stroke="#F3E5AB" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M138 145 Q160 120 170 110" stroke="#F3E5AB" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Accent Sparkles for "Incomparable" quality -->
+  <path d="M185 75 L185 65 M180 70 L190 70" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+  <path d="M55 85 L55 75 M50 80 L60 80" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 45 L120 35 M115 40 L125 40" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+</svg>

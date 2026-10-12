@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T00:10:01.438206",
-  "total_unique_words_with_illustrations": 4789,
-  "total_flat_svg_files": 4789,
+  "generated_at": "2026-10-13T00:19:26.878741",
+  "total_unique_words_with_illustrations": 4808,
+  "total_flat_svg_files": 4808,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2149,
-        "pct": "86.0%"
+        "with_svg": 2168,
+        "pct": "86.7%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 717,
-        "pct": "39.8%"
+        "with_svg": 721,
+        "pct": "40.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1109,
-        "pct": "19.8%"
+        "with_svg": 1123,
+        "pct": "20.1%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1109,
-        "pct": "19.8%"
+        "with_svg": 1123,
+        "pct": "20.1%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1109,
-        "pct": "19.8%"
+        "with_svg": 1123,
+        "pct": "20.1%"
       }
     }
   },
@@ -79686,6 +79686,400 @@
         "images/HSK_3.0/level7/畏惧.svg",
         "images/HSK_3.0/level8/畏惧.svg",
         "images/HSK_3.0/level9/畏惧.svg"
+      ]
+    },
+    "卫星": {
+      "hanzi": "卫星",
+      "pinyin": "wèixīng",
+      "meaning": "vệ tinh",
+      "example_zh": "这颗<u>卫星</u>用于通讯。",
+      "example_vi": "<u>Vệ tinh</u> này dùng cho thông tin liên lạc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "卫星.svg",
+      "src": "images/HSK_2.0/level6/卫星.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/卫星.svg",
+        "images/HSK_3.0/level8/卫星.svg",
+        "images/HSK_3.0/level9/卫星.svg"
+      ]
+    },
+    "慰问": {
+      "hanzi": "慰问",
+      "pinyin": "wèiwèn",
+      "meaning": "thăm hỏi, an ủi",
+      "example_zh": "领导去医院<u>慰问</u>了伤员。",
+      "example_vi": "Lãnh đạo đến bệnh viện <u>thăm hỏi</u> người bị thương.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "慰问.svg",
+      "src": "images/HSK_2.0/level6/慰问.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/慰问.svg",
+        "images/HSK_3.0/level8/慰问.svg",
+        "images/HSK_3.0/level9/慰问.svg"
+      ]
+    },
+    "蔚蓝": {
+      "hanzi": "蔚蓝",
+      "pinyin": "wèilán",
+      "meaning": "xanh thẫm (màu trời/biển)",
+      "example_zh": "天空一片<u>蔚蓝</u>。",
+      "example_vi": "Bầu trời một màu <u>xanh thẫm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "蔚蓝.svg",
+      "src": "images/HSK_2.0/level6/蔚蓝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/蔚蓝.svg",
+        "images/HSK_3.0/level8/蔚蓝.svg",
+        "images/HSK_3.0/level9/蔚蓝.svg"
+      ]
+    },
+    "温带": {
+      "hanzi": "温带",
+      "pinyin": "wēndài",
+      "meaning": "vùng ôn đới",
+      "example_zh": "这个地区属于<u>温带</u>气候。",
+      "example_vi": "Khu vực này thuộc khí hậu <u>ôn đới</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "温带.svg",
+      "src": "images/HSK_2.0/level6/温带.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/温带.svg",
+        "images/HSK_3.0/level8/温带.svg",
+        "images/HSK_3.0/level9/温带.svg"
+      ]
+    },
+    "温和": {
+      "hanzi": "温和",
+      "pinyin": "wēnhé",
+      "meaning": "ôn hòa, dịu dàng",
+      "example_zh": "她说话总是很<u>温和</u>。",
+      "example_vi": "Cô ấy nói chuyện luôn rất <u>ôn hòa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "温和.svg",
+      "src": "images/HSK_2.0/level6/温和.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/温和.svg"
+      ]
+    },
+    "文凭": {
+      "hanzi": "文凭",
+      "pinyin": "wénpíng",
+      "meaning": "văn bằng, bằng cấp",
+      "example_zh": "他拿到了大学<u>文凭</u>。",
+      "example_vi": "Anh ấy đã nhận được <u>văn bằng</u> đại học.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "文凭.svg",
+      "src": "images/HSK_2.0/level6/文凭.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/文凭.svg",
+        "images/HSK_3.0/level8/文凭.svg",
+        "images/HSK_3.0/level9/文凭.svg"
+      ]
+    },
+    "文物": {
+      "hanzi": "文物",
+      "pinyin": "wénwù",
+      "meaning": "văn vật, di vật văn hóa",
+      "example_zh": "博物馆里展示了许多珍贵<u>文物</u>。",
+      "example_vi": "Bảo tàng trưng bày nhiều <u>di vật văn hóa</u> quý.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "文物.svg",
+      "src": "images/HSK_2.0/level6/文物.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/文物.svg"
+      ]
+    },
+    "文献": {
+      "hanzi": "文献",
+      "pinyin": "wénxiàn",
+      "meaning": "văn hiến, tài liệu",
+      "example_zh": "他查阅了大量历史<u>文献</u>。",
+      "example_vi": "Anh ấy đã tra cứu rất nhiều <u>tài liệu</u> lịch sử.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "文献.svg",
+      "src": "images/HSK_2.0/level6/文献.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/文献.svg"
+      ]
+    },
+    "文雅": {
+      "hanzi": "文雅",
+      "pinyin": "wényǎ",
+      "meaning": "văn nhã, thanh tao",
+      "example_zh": "她的举止十分<u>文雅</u>。",
+      "example_vi": "Cử chỉ của cô ấy rất <u>thanh tao</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "文雅.svg",
+      "src": "images/HSK_2.0/level6/文雅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/文雅.svg",
+        "images/HSK_3.0/level8/文雅.svg",
+        "images/HSK_3.0/level9/文雅.svg"
+      ]
+    },
+    "文艺": {
+      "hanzi": "文艺",
+      "pinyin": "wényì",
+      "meaning": "văn nghệ",
+      "example_zh": "学校举办了一场<u>文艺</u>晚会。",
+      "example_vi": "Nhà trường tổ chức một buổi dạ hội <u>văn nghệ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "文艺.svg",
+      "src": "images/HSK_2.0/level6/文艺.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/文艺.svg"
+      ]
+    },
+    "问世": {
+      "hanzi": "问世",
+      "pinyin": "wènshì",
+      "meaning": "ra mắt, ra đời",
+      "example_zh": "这款新产品即将<u>问世</u>。",
+      "example_vi": "Sản phẩm mới này sẽ sớm <u>ra mắt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "问世.svg",
+      "src": "images/HSK_2.0/level6/问世.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/问世.svg",
+        "images/HSK_3.0/level8/问世.svg",
+        "images/HSK_3.0/level9/问世.svg"
+      ]
+    },
+    "窝": {
+      "hanzi": "窝",
+      "pinyin": "wō",
+      "meaning": "cái ổ, hang",
+      "example_zh": "鸟儿在树上筑了一个<u>窝</u>。",
+      "example_vi": "Con chim xây một <u>cái ổ</u> trên cây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "窝.svg",
+      "src": "images/HSK_2.0/level6/窝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/窝.svg",
+        "images/HSK_3.0/level8/窝.svg",
+        "images/HSK_3.0/level9/窝.svg"
+      ]
+    },
+    "乌黑": {
+      "hanzi": "乌黑",
+      "pinyin": "wūhēi",
+      "meaning": "đen nhánh",
+      "example_zh": "她有一头<u>乌黑</u>的长发。",
+      "example_vi": "Cô ấy có một bộ tóc dài <u>đen nhánh</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "乌黑.svg",
+      "src": "images/HSK_2.0/level6/乌黑.svg",
+      "alt_srcs": []
+    },
+    "污蔑": {
+      "hanzi": "污蔑",
+      "pinyin": "wūmiè",
+      "meaning": "bôi nhọ, vu khống",
+      "example_zh": "他被人<u>污蔑</u>了名誉。",
+      "example_vi": "Anh ấy bị người khác <u>bôi nhọ</u> danh dự.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "污蔑.svg",
+      "src": "images/HSK_2.0/level6/污蔑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/污蔑.svg",
+        "images/HSK_3.0/level8/污蔑.svg",
+        "images/HSK_3.0/level9/污蔑.svg"
+      ]
+    },
+    "诬陷": {
+      "hanzi": "诬陷",
+      "pinyin": "wūxiàn",
+      "meaning": "vu cáo, gài bẫy",
+      "example_zh": "他被同事<u>诬陷</u>偷东西。",
+      "example_vi": "Anh ấy bị đồng nghiệp <u>vu cáo</u> trộm đồ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "诬陷.svg",
+      "src": "images/HSK_2.0/level6/诬陷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/诬陷.svg",
+        "images/HSK_3.0/level8/诬陷.svg",
+        "images/HSK_3.0/level9/诬陷.svg"
+      ]
+    },
+    "无比": {
+      "hanzi": "无比",
+      "pinyin": "wúbǐ",
+      "meaning": "vô cùng, không gì sánh được",
+      "example_zh": "她感到<u>无比</u>幸福。",
+      "example_vi": "Cô ấy cảm thấy <u>vô cùng</u> hạnh phúc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无比.svg",
+      "src": "images/HSK_2.0/level6/无比.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无比.svg",
+        "images/HSK_3.0/level8/无比.svg",
+        "images/HSK_3.0/level9/无比.svg"
+      ]
+    },
+    "无偿": {
+      "hanzi": "无偿",
+      "pinyin": "wúcháng",
+      "meaning": "miễn phí, không bồi thường",
+      "example_zh": "他<u>无偿</u>地帮助了很多人。",
+      "example_vi": "Anh ấy đã giúp đỡ nhiều người một cách <u>miễn phí</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无偿.svg",
+      "src": "images/HSK_2.0/level6/无偿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无偿.svg",
+        "images/HSK_3.0/level8/无偿.svg",
+        "images/HSK_3.0/level9/无偿.svg"
+      ]
+    },
+    "无耻": {
+      "hanzi": "无耻",
+      "pinyin": "wúchǐ",
+      "meaning": "vô sỉ, trơ trẽn",
+      "example_zh": "这种<u>无耻</u>的行为令人愤怒。",
+      "example_vi": "Hành vi <u>trơ trẽn</u> này khiến người ta tức giận.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无耻.svg",
+      "src": "images/HSK_2.0/level6/无耻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无耻.svg",
+        "images/HSK_3.0/level8/无耻.svg",
+        "images/HSK_3.0/level9/无耻.svg"
+      ]
+    },
+    "无动于衷": {
+      "hanzi": "无动于衷",
+      "pinyin": "wúdòngyúzhōng",
+      "meaning": "dửng dưng, vô cảm hoàn toàn",
+      "example_zh": "面对批评，他依然<u>无动于衷</u>。",
+      "example_vi": "Đối diện với lời chỉ trích, anh ấy vẫn <u>dửng dưng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "无动于衷.svg",
+      "src": "images/HSK_2.0/level6/无动于衷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/无动于衷.svg",
+        "images/HSK_3.0/level8/无动于衷.svg",
+        "images/HSK_3.0/level9/无动于衷.svg"
       ]
     },
     "舞蹈": {
