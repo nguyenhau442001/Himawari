@@ -14327,15 +14327,50 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/川流不息.svg",
     "caption": "dòng người/xe cộ không ngớt"
   },
+  "船舶": {
+    "file": "船舶.svg",
+    "src": "images/HSK_2.0/level6/船舶.svg",
+    "caption": "tàu thuyền"
+  },
+  "传达": {
+    "file": "传达.svg",
+    "src": "images/HSK_2.0/level6/传达.svg",
+    "caption": "truyền đạt"
+  },
+  "传单": {
+    "file": "传单.svg",
+    "src": "images/HSK_2.0/level6/传单.svg",
+    "caption": "tờ rơi"
+  },
   "传递": {
     "file": "传递.svg",
     "src": "images/HSK_2.0/level6/传递.svg",
     "caption": "truyền, chuyển (tin tức, vật)"
   },
+  "传授": {
+    "file": "传授.svg",
+    "src": "images/HSK_2.0/level6/传授.svg",
+    "caption": "truyền dạy, truyền thụ"
+  },
+  "喘气": {
+    "file": "喘气.svg",
+    "src": "images/HSK_2.0/level6/喘气.svg",
+    "caption": "thở hổn hển, thở dốc"
+  },
+  "串": {
+    "file": "串.svg",
+    "src": "images/HSK_2.0/level6/串.svg",
+    "caption": "xâu, xiên (vật); câu kết"
+  },
   "床单": {
     "file": "床单.svg",
     "src": "images/HSK_2.0/level6/床单.svg",
     "caption": "ga trải giường"
+  },
+  "创立": {
+    "file": "创立.svg",
+    "src": "images/HSK_2.0/level6/创立.svg",
+    "caption": "sáng lập"
   },
   "创新": {
     "file": "创新.svg",
@@ -14351,6 +14386,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "创作.svg",
     "src": "images/HSK_2.0/level6/创作.svg",
     "caption": "sáng tác"
+  },
+  "吹牛": {
+    "file": "吹牛.svg",
+    "src": "images/HSK_2.0/level6/吹牛.svg",
+    "caption": "khoác lác, nói khoác"
+  },
+  "吹捧": {
+    "file": "吹捧.svg",
+    "src": "images/HSK_2.0/level6/吹捧.svg",
+    "caption": "tán tụng, bốc thơm"
+  },
+  "锤": {
+    "file": "锤.svg",
+    "src": "images/HSK_2.0/level6/锤.svg",
+    "caption": "cái búa, đập (búa)"
   },
   "达成": {
     "file": "达成.svg",

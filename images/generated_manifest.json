@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:38:12.353116",
-  "total_unique_words_with_illustrations": 3509,
-  "total_flat_svg_files": 3509,
+  "generated_at": "2026-10-12T11:40:06.324854",
+  "total_unique_words_with_illustrations": 3519,
+  "total_flat_svg_files": 3519,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 869,
-        "pct": "34.8%"
+        "with_svg": 879,
+        "pct": "35.2%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 322,
-        "pct": "17.9%"
+        "with_svg": 326,
+        "pct": "18.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 295,
-        "pct": "5.3%"
+        "with_svg": 300,
+        "pct": "5.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 295,
-        "pct": "5.3%"
+        "with_svg": 300,
+        "pct": "5.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 295,
-        "pct": "5.3%"
+        "with_svg": 300,
+        "pct": "5.4%"
       }
     }
   },
@@ -52274,6 +52274,68 @@
         "images/HSK_3.0/level9/川流不息.svg"
       ]
     },
+    "船舶": {
+      "hanzi": "船舶",
+      "pinyin": "chuánbó",
+      "meaning": "tàu thuyền",
+      "example_zh": "港口停泊着许多<u>船舶</u>。",
+      "example_vi": "Tại bến cảng đậu nhiều <u>tàu thuyền</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "船舶.svg",
+      "src": "images/HSK_2.0/level6/船舶.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/船舶.svg",
+        "images/HSK_3.0/level8/船舶.svg",
+        "images/HSK_3.0/level9/船舶.svg"
+      ]
+    },
+    "传达": {
+      "hanzi": "传达",
+      "pinyin": "chuándá",
+      "meaning": "truyền đạt",
+      "example_zh": "请把这个消息<u>传达</u>给大家。",
+      "example_vi": "Xin hãy <u>truyền đạt</u> tin này cho mọi người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "传达.svg",
+      "src": "images/HSK_2.0/level6/传达.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/传达.svg"
+      ]
+    },
+    "传单": {
+      "hanzi": "传单",
+      "pinyin": "chuándān",
+      "meaning": "tờ rơi",
+      "example_zh": "街上有人在发<u>传单</u>。",
+      "example_vi": "Trên đường có người phát <u>tờ rơi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "传单.svg",
+      "src": "images/HSK_2.0/level6/传单.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/传单.svg",
+        "images/HSK_3.0/level8/传单.svg",
+        "images/HSK_3.0/level9/传单.svg"
+      ]
+    },
     "传递": {
       "hanzi": "传递",
       "pinyin": "chuándì",
@@ -52292,6 +52354,56 @@
         "images/HSK_3.0/level5/传递.svg"
       ]
     },
+    "传授": {
+      "hanzi": "传授",
+      "pinyin": "chuánshòu",
+      "meaning": "truyền dạy, truyền thụ",
+      "example_zh": "师傅把手艺<u>传授</u>给徒弟。",
+      "example_vi": "Người thầy <u>truyền dạy</u> nghề cho học trò.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "传授.svg",
+      "src": "images/HSK_2.0/level6/传授.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/传授.svg"
+      ]
+    },
+    "喘气": {
+      "hanzi": "喘气",
+      "pinyin": "chuǎnqì",
+      "meaning": "thở hổn hển, thở dốc",
+      "example_zh": "跑完步他大口<u>喘气</u>。",
+      "example_vi": "Chạy xong anh ấy <u>thở hổn hển</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "喘气.svg",
+      "src": "images/HSK_2.0/level6/喘气.svg",
+      "alt_srcs": []
+    },
+    "串": {
+      "hanzi": "串",
+      "pinyin": "chuàn",
+      "meaning": "xâu, xiên (vật); câu kết",
+      "example_zh": "她买了一<u>串</u>葡萄。",
+      "example_vi": "Cô ấy mua một <u>xâu</u> nho.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "串.svg",
+      "src": "images/HSK_2.0/level6/串.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/串.svg"
+      ]
+    },
     "床单": {
       "hanzi": "床单",
       "pinyin": "chuángdān",
@@ -52308,6 +52420,24 @@
       "src": "images/HSK_2.0/level6/床单.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/床单.svg"
+      ]
+    },
+    "创立": {
+      "hanzi": "创立",
+      "pinyin": "chuànglì",
+      "meaning": "sáng lập",
+      "example_zh": "这家公司是他<u>创立</u>的。",
+      "example_vi": "Công ty này do anh ấy <u>sáng lập</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "创立.svg",
+      "src": "images/HSK_2.0/level6/创立.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/创立.svg"
       ]
     },
     "创新": {
@@ -52362,6 +52492,72 @@
       "src": "images/HSK_2.0/level6/创作.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/创作.svg"
+      ]
+    },
+    "吹牛": {
+      "hanzi": "吹牛",
+      "pinyin": "chuīniú",
+      "meaning": "khoác lác, nói khoác",
+      "example_zh": "他喜欢<u>吹牛</u>。",
+      "example_vi": "Anh ấy thích <u>khoác lác</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吹牛.svg",
+      "src": "images/HSK_2.0/level6/吹牛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/吹牛.svg",
+        "images/HSK_3.0/level8/吹牛.svg",
+        "images/HSK_3.0/level9/吹牛.svg"
+      ]
+    },
+    "吹捧": {
+      "hanzi": "吹捧",
+      "pinyin": "chuīpěng",
+      "meaning": "tán tụng, bốc thơm",
+      "example_zh": "别互相<u>吹捧</u>了。",
+      "example_vi": "Đừng <u>tán tụng</u> nhau nữa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吹捧.svg",
+      "src": "images/HSK_2.0/level6/吹捧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/吹捧.svg",
+        "images/HSK_3.0/level8/吹捧.svg",
+        "images/HSK_3.0/level9/吹捧.svg"
+      ]
+    },
+    "锤": {
+      "hanzi": "锤",
+      "pinyin": "chuí",
+      "meaning": "cái búa, đập (búa)",
+      "example_zh": "他用<u>锤</u>砸开了石头。",
+      "example_vi": "Anh ấy dùng <u>búa</u> đập vỡ tảng đá.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "锤.svg",
+      "src": "images/HSK_2.0/level6/锤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/锤.svg",
+        "images/HSK_3.0/level8/锤.svg",
+        "images/HSK_3.0/level9/锤.svg"
       ]
     },
     "达成": {

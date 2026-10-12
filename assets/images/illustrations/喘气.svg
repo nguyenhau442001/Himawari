@@ -1,0 +1,156 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <!-- Sunset / Park Glow Gradient -->
+    <radialGradient id="sunset-glow" cx="50%" cy="40%" r="60%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#f97316" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sweat Drop Gradient -->
+    <linearGradient id="sweat-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Character Outfit Gradient -->
+    <linearGradient id="shirt-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#be185d" />
+    </linearGradient>
+
+    <!-- Pant Gradient -->
+    <linearGradient id="pant-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Motion lines filter -->
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Full Canvas Background -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)" />
+  <rect width="240" height="240" rx="24" fill="url(#sunset-glow)" />
+
+  <!-- Environmental Context: Park Path & Background Elements -->
+  <!-- Distant trees / park background -->
+  <path d="M0,180 Q30,150 60,180 T120,175 T180,180 T240,170 L240,240 L0,240 Z" fill="#1b2a4a" opacity="0.6" />
+  <circle cx="40" cy="140" r="18" fill="#1b2a4a" opacity="0.4" />
+  <circle cx="55" cy="130" r="22" fill="#1b2a4a" opacity="0.4" />
+  <circle cx="200" cy="150" r="25" fill="#1b2a4a" opacity="0.4" />
+  
+  <!-- Running Path -->
+  <path d="M-20,240 Q60,190 260,210 L260,240 Z" fill="#334155" opacity="0.5" />
+  <path d="M0,225 Q80,195 240,205" stroke="#64748b" stroke-width="2" stroke-dasharray="6,6" fill="none" opacity="0.4" />
+
+  <!-- Motion lines / Speed lines indicating the run just finished -->
+  <path d="M30,100 L60,105" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.4" />
+  <path d="M20,120 L50,123" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+  <path d="M40,140 L70,142" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.5" />
+
+  <!-- Bench to sit on after running -->
+  <!-- Bench legs -->
+  <rect x="155" y="180" width="6" height="35" rx="2" fill="#475569" />
+  <rect x="195" y="180" width="6" height="35" rx="2" fill="#475569" />
+  <!-- Bench seat -->
+  <rect x="140" y="175" width="75" height="8" rx="3" fill="#94a3b8" />
+  <rect x="145" y="165" width="65" height="7" rx="3" fill="#cbd5e1" />
+  <!-- Bench backrest supports -->
+  <rect x="150" y="145" width="4" height="25" rx="2" fill="#475569" />
+  <rect x="200" y="145" width="4" height="25" rx="2" fill="#475569" />
+
+  <!-- MAIN CHARACTER: Young man, bent over, hands on knees, breathing heavily ("喘气") -->
+  <g transform="translate(10, 5)">
+    <!-- Left Leg (Planting back) -->
+    <path d="M100,165 L90,210 L102,215" fill="none" stroke="url(#pant-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Right Leg (Slightly forward) -->
+    <path d="M115,165 L125,210 L138,212" fill="none" stroke="url(#pant-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Sneakers -->
+    <ellipse cx="96" cy="216" rx="9" ry="5" fill="#f8fafc" />
+    <path d="M90,214 L102,214" stroke="#fb923c" stroke-width="2" />
+    <ellipse cx="134" cy="213" rx="9" ry="5" fill="#f8fafc" />
+    <path d="M128,211 L140,211" stroke="#fb923c" stroke-width="2" />
+
+    <!-- Torso (Bent forward heavily, crucial for showing panting/tiredness) -->
+    <path d="M85,120 Q110,120 120,155 L105,170 Q80,150 85,120 Z" fill="url(#shirt-grad)" />
+
+    <!-- Arms resting on knees (Classic exhaustion pose) -->
+    <!-- Upper arms -->
+    <path d="M90,125 L65,150" fill="none" stroke="url(#shirt-grad)" stroke-width="11" stroke-linecap="round" />
+    <path d="M115,130 L135,155" fill="none" stroke="url(#shirt-grad)" stroke-width="11" stroke-linecap="round" />
+    <!-- Forearms and hands gripping knees -->
+    <path d="M65,150 L55,170" fill="none" stroke="#fbcfe8" stroke-width="9" stroke-linecap="round" />
+    <path d="M135,155 L145,175" fill="none" stroke="#fbcfe8" stroke-width="9" stroke-linecap="round" />
+    <!-- Hands / Fingers wrapped around knees -->
+    <circle cx="53" cy="172" r="5" fill="#fbcfe8" />
+    <circle cx="147" cy="177" r="5" fill="#fbcfe8" />
+
+    <!-- Knees (Visual anchor for hands) -->
+    <circle cx="58" cy="170" r="7" fill="#334155" />
+    <circle cx="140" cy="175" r="7" fill="#334155" />
+
+    <!-- Head & Face (Tilted down, eyes closed/strained, mouth wide open exhaling) -->
+    <g transform="translate(5, -2)">
+      <!-- Neck -->
+      <path d="M72,108 L78,122" stroke="#fbcfe8" stroke-width="10" stroke-linecap="round" />
+
+      <!-- Head shape -->
+      <circle cx="65" cy="98" r="18" fill="#fbcfe8" />
+
+      <!-- Spiked dynamic sporty hair -->
+      <path d="M48,96 Q45,80 62,82 Q75,75 80,90 Q85,95 82,105 L50,105 Z" fill="#0f172a" />
+      <path d="M58,82 Q68,72 78,85 Z" fill="#0f172a" />
+
+      <!-- Exhausted Facial Expression -->
+      <!-- Closed/Strained curved eyes (Arching down in fatigue) -->
+      <path d="M58,96 Q63,101 68,96" fill="none" stroke="#334155" stroke-width="2.5" stroke-linecap="round" />
+      
+      <!-- Rosy tired cheeks -->
+      <ellipse cx="58" cy="103" rx="4" ry="2.5" fill="#fb7185" opacity="0.6" />
+
+      <!-- Panting Mouth: Wide open "O" or panting shape -->
+      <ellipse cx="68" cy="104" rx="4.5" ry="6" fill="#881337" />
+      <ellipse cx="69" cy="104" rx="2.5" ry="4" fill="#4c0519" />
+      <!-- Tongue hint -->
+      <path d="M66,108 Q69,105 72,108" fill="#fb7185" />
+
+      <!-- Heavy sweat drops flying off (Indicating intense cardio & heavy breathing) -->
+      <path d="M50,85 Q47,80 44,85 Q47,90 50,85 Z" fill="url(#sweat-grad)" />
+      <path d="M82,90 Q85,85 88,90 Q85,95 82,90 Z" fill="url(#sweat-grad)" />
+      <path d="M75,70 Q77,65 79,70 Q77,75 75,70 Z" fill="url(#sweat-grad)" />
+    </g>
+  </g>
+
+  <!-- Visual Exhalation / Panting Puffs (Showing the heavy breath "喘气") -->
+  <g transform="translate(50, 85)" filter="url(#soft-glow)">
+    <!-- Wavy expanding breath plumes escaping from mouth -->
+    <path d="M10,15 Q3,13 0,8 Q-3,3 2,-2" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+    <path d="M12,22 Q5,18 2,12 Q-1,6 5,0" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" opacity="0.4" />
+    
+    <!-- Warm condensation puff / air wave -->
+    <circle cx="2" cy="5" r="5" fill="#38bdf8" opacity="0.2" />
+    <circle cx="10" cy="10" r="8" fill="#38bdf8" opacity="0.15" />
+    <circle cx="20" cy="14" r="12" fill="#38bdf8" opacity="0.1" />
+  </g>
+
+  <!-- Foreground decorative elements for depth (Park foliage / glowing firefly/lamp hints) -->
+  <!-- Small glowing lamp in background -->
+  <circle cx="215" cy="100" r="4" fill="#f59e0b" filter="url(#soft-glow)" />
+  <path d="M215,104 L215,140" stroke="#475569" stroke-width="2" />
+
+  <!-- Little leafy bush at bottom corner -->
+  <path d="M-10,240 Q10,215 30,240 Z" fill="#1e293b" />
+  <path d="M15,240 Q35,210 55,240 Z" fill="#0f172a" />
+</svg>
