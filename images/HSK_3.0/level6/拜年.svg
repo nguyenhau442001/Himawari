@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Interior Context -->
+  <path d="M20 180h200v40H20z" fill="#0f172a" opacity="0.5"/>
+  <circle cx="180" cy="60" r="30" fill="#f59e0b" opacity="0.1"/>
+  
+  <!-- Characters: Family visiting -->
+  <!-- Elder figure -->
+  <g transform="translate(140, 100)">
+    <circle cx="20" cy="20" r="15" fill="#fbbf24"/>
+    <path d="M10 40h20v60h-20z" fill="#ec4899"/>
+    <path d="M5 45h30v10h-30z" fill="#fb923c"/>
+  </g>
+  
+  <!-- Younger visitor figure (bowing/greeting) -->
+  <g transform="translate(60, 110)">
+    <path d="M0 40l40-20l20 30l-40 20z" fill="#38bdf8"/>
+    <circle cx="50" cy="30" r="12" fill="#fbbf24"/>
+    <path d="M20 60l20 10" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Props: Red envelopes and decorations -->
+  <rect x="150" y="150" width="20" height="12" rx="2" fill="#ef4444"/>
+  <rect x="155" y="155" width="10" height="2" fill="#f59e0b"/>
+  
+  <path d="M40 80l10-20l10 20z" fill="#ef4444"/>
+  <path d="M45 80v20" stroke="#ef4444" stroke-width="2"/>
+  
+  <!-- Ambient glow -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#f59e0b" stroke-width="0.5" opacity="0.2"/>
+</svg>

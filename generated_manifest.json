@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:16:27.113566",
-  "total_unique_words_with_illustrations": 3239,
-  "total_flat_svg_files": 3239,
+  "generated_at": "2026-10-12T10:19:32.949971",
+  "total_unique_words_with_illustrations": 3249,
+  "total_flat_svg_files": 3249,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 599,
-        "pct": "24.0%"
+        "with_svg": 609,
+        "pct": "24.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 250,
-        "pct": "13.9%"
+        "with_svg": 254,
+        "pct": "14.1%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 119,
-        "pct": "2.1%"
+        "with_svg": 124,
+        "pct": "2.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 119,
-        "pct": "2.1%"
+        "with_svg": 124,
+        "pct": "2.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 119,
-        "pct": "2.1%"
+        "with_svg": 124,
+        "pct": "2.2%"
       }
     }
   },
@@ -46497,6 +46497,202 @@
       "file": "拔苗助长.svg",
       "src": "images/HSK_2.0/level6/拔苗助长.svg",
       "alt_srcs": []
+    },
+    "把关": {
+      "hanzi": "把关",
+      "pinyin": "bǎguān",
+      "meaning": "kiểm soát chặt chẽ, gác cổng",
+      "example_zh": "质量必须严格<u>把关</u>。",
+      "example_vi": "Chất lượng phải được <u>kiểm soát chặt chẽ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "把关.svg",
+      "src": "images/HSK_2.0/level6/把关.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/把关.svg",
+        "images/HSK_3.0/level8/把关.svg",
+        "images/HSK_3.0/level9/把关.svg"
+      ]
+    },
+    "把戏": {
+      "hanzi": "把戏",
+      "pinyin": "bǎxì",
+      "meaning": "mánh lới, trò bịp",
+      "example_zh": "别再耍这种<u>把戏</u>了。",
+      "example_vi": "Đừng diễn <u>mánh lới</u> này nữa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "把戏.svg",
+      "src": "images/HSK_2.0/level6/把戏.svg",
+      "alt_srcs": []
+    },
+    "霸道": {
+      "hanzi": "霸道",
+      "pinyin": "bàdào",
+      "meaning": "hống hách, ngang ngược",
+      "example_zh": "他做事太<u>霸道</u>了。",
+      "example_vi": "Anh ta làm việc quá <u>hống hách</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "霸道.svg",
+      "src": "images/HSK_2.0/level6/霸道.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/霸道.svg",
+        "images/HSK_3.0/level8/霸道.svg",
+        "images/HSK_3.0/level9/霸道.svg"
+      ]
+    },
+    "罢工": {
+      "hanzi": "罢工",
+      "pinyin": "bàgōng",
+      "meaning": "đình công",
+      "example_zh": "工人们决定明天<u>罢工</u>。",
+      "example_vi": "Công nhân quyết định <u>đình công</u> vào ngày mai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "罢工.svg",
+      "src": "images/HSK_2.0/level6/罢工.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/罢工.svg",
+        "images/HSK_3.0/level8/罢工.svg",
+        "images/HSK_3.0/level9/罢工.svg"
+      ]
+    },
+    "掰": {
+      "hanzi": "掰",
+      "pinyin": "bāi",
+      "meaning": "bẻ bằng hai tay",
+      "example_zh": "他把面包<u>掰</u>成两半。",
+      "example_vi": "Anh ấy <u>bẻ</u> bánh mì thành hai nửa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "掰.svg",
+      "src": "images/HSK_2.0/level6/掰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/掰.svg",
+        "images/HSK_3.0/level8/掰.svg",
+        "images/HSK_3.0/level9/掰.svg"
+      ]
+    },
+    "百分点": {
+      "hanzi": "百分点",
+      "pinyin": "bǎifēndiǎn",
+      "meaning": "điểm phần trăm",
+      "example_zh": "增长率提高了五个<u>百分点</u>。",
+      "example_vi": "Tỷ lệ tăng trưởng tăng thêm năm <u>điểm phần trăm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "百分点.svg",
+      "src": "images/HSK_2.0/level6/百分点.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/百分点.svg"
+      ]
+    },
+    "摆脱": {
+      "hanzi": "摆脱",
+      "pinyin": "bǎituō",
+      "meaning": "thoát khỏi, giải thoát",
+      "example_zh": "他终于<u>摆脱</u>了困境。",
+      "example_vi": "Anh ấy cuối cùng đã <u>thoát khỏi</u> hoàn cảnh khó khăn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "摆脱.svg",
+      "src": "images/HSK_2.0/level6/摆脱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/摆脱.svg"
+      ]
+    },
+    "拜访": {
+      "hanzi": "拜访",
+      "pinyin": "bàifǎng",
+      "meaning": "đến thăm (trang trọng)",
+      "example_zh": "我们去<u>拜访</u>老师。",
+      "example_vi": "Chúng tôi đi <u>thăm</u> thầy giáo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "拜访.svg",
+      "src": "images/HSK_2.0/level6/拜访.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/拜访.svg"
+      ]
+    },
+    "败坏": {
+      "hanzi": "败坏",
+      "pinyin": "bàihuài",
+      "meaning": "làm hư hỏng, hủy hoại",
+      "example_zh": "这种行为<u>败坏</u>了社会风气。",
+      "example_vi": "Hành vi này <u>làm hư hỏng</u> phong tục xã hội.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "败坏.svg",
+      "src": "images/HSK_2.0/level6/败坏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/败坏.svg",
+        "images/HSK_3.0/level8/败坏.svg",
+        "images/HSK_3.0/level9/败坏.svg"
+      ]
+    },
+    "拜年": {
+      "hanzi": "拜年",
+      "pinyin": "bàinián",
+      "meaning": "chúc Tết",
+      "example_zh": "春节我们去亲戚家<u>拜年</u>。",
+      "example_vi": "Tết Nguyên đán chúng tôi đến nhà người thân để <u>chúc Tết</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "拜年.svg",
+      "src": "images/HSK_2.0/level6/拜年.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/拜年.svg"
+      ]
     },
     "本人": {
       "hanzi": "本人",

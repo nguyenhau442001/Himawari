@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table -->
+  <path d="M20 180 L220 180 L210 210 L30 210 Z" fill="#334155"/>
+  <path d="M30 210 L210 210 L200 230 L40 230 Z" fill="#1e293b"/>
+  
+  <!-- Magician/Trickster Character -->
+  <g transform="translate(60, 100)">
+    <circle cx="20" cy="20" r="15" fill="#fb923c"/>
+    <path d="M10 35 L30 35 L35 70 L5 70 Z" fill="#38bdf8"/>
+    <path d="M5 40 L-10 60" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M35 40 L50 55" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="20" cy="15" rx="4" ry="6" fill="#0f172a"/>
+  </g>
+  
+  <!-- The "Trick" Prop (Floating Cards) -->
+  <rect x="90" y="120" width="20" height="30" rx="2" fill="#ec4899" transform="rotate(15 100 135)"/>
+  <rect x="100" y="110" width="20" height="30" rx="2" fill="#f59e0b" transform="rotate(-10 110 125)"/>
+  
+  <!-- Skeptical Character -->
+  <g transform="translate(140, 90)">
+    <circle cx="20" cy="20" r="18" fill="#cbd5e1"/>
+    <path d="M10 38 L30 38 L35 80 L5 80 Z" fill="#10b981"/>
+    <path d="M15 45 L5 70" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+    <path d="M25 45 L40 60" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+    <!-- Crossed arms gesture -->
+    <path d="M5 50 L35 50" stroke="#10b981" stroke-width="6" stroke-linecap="round"/>
+    <!-- Stern eyes -->
+    <line x1="12" y1="18" x2="18" y2="22" stroke="#0f172a" stroke-width="2"/>
+    <line x1="22" y1="22" x2="28" y2="18" stroke="#0f172a" stroke-width="2"/>
+  </g>
+  
+  <!-- Stop gesture / Warning -->
+  <circle cx="150" cy="70" r="12" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <line x1="142" y1="70" x2="158" y2="70" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+</svg>

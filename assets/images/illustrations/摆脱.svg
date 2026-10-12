@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Environment: The "Difficult Situation" (Dark, tangled ropes/shadows) -->
+  <path d="M40 180 C 60 140, 100 140, 120 180 S 180 220, 200 180" stroke="#475569" stroke-width="8" stroke-linecap="round" fill="none" stroke-dasharray="10 10"/>
+  <path d="M50 200 C 80 160, 140 160, 190 200" stroke="#334155" stroke-width="6" fill="none"/>
+  
+  <!-- The Subject: Breaking free -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-15 40 L-10 10 L10 10 L15 40 Z" fill="#fb923c"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="20" fill="#fde68a"/>
+    <!-- Arms reaching up -->
+    <path d="M-15 0 L-35 -30" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M15 0 L35 -30" stroke="#fb923c" stroke-width="8" stroke-linecap="round"/>
+    <!-- Expression -->
+    <path d="M-8 -15 L-2 -10 M8 -15 L2 -10" stroke="#0f172a" stroke-width="2"/>
+    <path d="M-5 0 L5 0" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Light of freedom/success -->
+  <circle cx="120" cy="60" r="30" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="120" cy="60" r="15" fill="#fbbf24"/>
+  
+  <!-- Embellishments of breaking free -->
+  <circle cx="80" cy="80" r="4" fill="#38bdf8"/>
+  <circle cx="160" cy="90" r="3" fill="#10b981"/>
+  <circle cx="100" cy="50" r="5" fill="#ec4899"/>
+  
+  <!-- Grounding elements -->
+  <rect x="0" y="210" width="240" height="30" fill="#0f172a"/>
+</svg>

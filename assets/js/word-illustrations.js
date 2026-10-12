@@ -12897,6 +12897,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拔苗助长.svg",
     "caption": "nóng vội làm hỏng việc (nhổ mạ giúp lúa lớn nhanh)"
   },
+  "把关": {
+    "file": "把关.svg",
+    "src": "images/HSK_2.0/level6/把关.svg",
+    "caption": "kiểm soát chặt chẽ, gác cổng"
+  },
+  "把戏": {
+    "file": "把戏.svg",
+    "src": "images/HSK_2.0/level6/把戏.svg",
+    "caption": "mánh lới, trò bịp"
+  },
+  "霸道": {
+    "file": "霸道.svg",
+    "src": "images/HSK_2.0/level6/霸道.svg",
+    "caption": "hống hách, ngang ngược"
+  },
+  "罢工": {
+    "file": "罢工.svg",
+    "src": "images/HSK_2.0/level6/罢工.svg",
+    "caption": "đình công"
+  },
+  "掰": {
+    "file": "掰.svg",
+    "src": "images/HSK_2.0/level6/掰.svg",
+    "caption": "bẻ bằng hai tay"
+  },
+  "百分点": {
+    "file": "百分点.svg",
+    "src": "images/HSK_2.0/level6/百分点.svg",
+    "caption": "điểm phần trăm"
+  },
+  "摆脱": {
+    "file": "摆脱.svg",
+    "src": "images/HSK_2.0/level6/摆脱.svg",
+    "caption": "thoát khỏi, giải thoát"
+  },
+  "拜访": {
+    "file": "拜访.svg",
+    "src": "images/HSK_2.0/level6/拜访.svg",
+    "caption": "đến thăm (trang trọng)"
+  },
+  "败坏": {
+    "file": "败坏.svg",
+    "src": "images/HSK_2.0/level6/败坏.svg",
+    "caption": "làm hư hỏng, hủy hoại"
+  },
+  "拜年": {
+    "file": "拜年.svg",
+    "src": "images/HSK_2.0/level6/拜年.svg",
+    "caption": "chúc Tết"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",
