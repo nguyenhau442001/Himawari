@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:29:19.214023",
-  "total_unique_words_with_illustrations": 3090,
-  "total_flat_svg_files": 3090,
+  "generated_at": "2026-10-12T09:32:29.263102",
+  "total_unique_words_with_illustrations": 3100,
+  "total_flat_svg_files": 3100,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 571,
-        "pct": "22.8%"
+        "with_svg": 572,
+        "pct": "22.9%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1471,
-        "pct": "91.9%"
+        "with_svg": 1481,
+        "pct": "92.6%"
       },
       "level6": {
         "total": 1800,
@@ -47988,6 +47988,24 @@
         "images/HSK_3.0/level5/选手.svg"
       ]
     },
+    "压岁钱": {
+      "hanzi": "压岁钱",
+      "pinyin": "yāsuìqián",
+      "meaning": "tiền lì xì",
+      "example_zh": "过年长辈会给孩子<u>压岁钱</u>。",
+      "example_vi": "Ngày Tết, người lớn sẽ tặng trẻ em <u>tiền lì xì</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "压岁钱.svg",
+      "src": "images/HSK_2.0/level6/压岁钱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/压岁钱.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -54816,6 +54834,132 @@
       ],
       "file": "学分.svg",
       "src": "images/HSK_3.0/level5/学分.svg",
+      "alt_srcs": []
+    },
+    "学科": {
+      "hanzi": "学科",
+      "pinyin": "xuékē",
+      "meaning": "môn học, ngành học, chuyên ngành",
+      "example_zh": "语言学是一门非常有意思的<u>学科</u>。",
+      "example_vi": "Ngôn ngữ học là một <u>ngành học</u> rất thú vị.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "学科.svg",
+      "src": "images/HSK_3.0/level5/学科.svg",
+      "alt_srcs": []
+    },
+    "学年": {
+      "hanzi": "学年",
+      "pinyin": "xuénián",
+      "meaning": "năm học, niên khóa",
+      "example_zh": "新<u>学年</u>开始了，同学们精神饱满地返回校园。",
+      "example_vi": "<u>Năm học</u> mới bắt đầu, các bạn học sinh hăng hái quay trở lại trường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "学年.svg",
+      "src": "images/HSK_3.0/level5/学年.svg",
+      "alt_srcs": []
+    },
+    "学者": {
+      "hanzi": "学者",
+      "pinyin": "xuézhě",
+      "meaning": "học giả, nhà nghiên cứu",
+      "example_zh": "许多著名<u>学者</u>出席了本次学术论坛。",
+      "example_vi": "Rất nhiều <u>học giả</u> nổi tiếng đã tham dự diễn đàn học thuật lần này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "学者.svg",
+      "src": "images/HSK_3.0/level5/学者.svg",
+      "alt_srcs": []
+    },
+    "雪糕": {
+      "hanzi": "雪糕",
+      "pinyin": "xuěgāo",
+      "meaning": "kem que, kem",
+      "example_zh": "夏天吃上一支冰凉的<u>雪糕</u>真舒服。",
+      "example_vi": "Mùa hè được ăn một que <u>kem</u> mát lạnh thật là dễ chịu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "雪糕.svg",
+      "src": "images/HSK_3.0/level5/雪糕.svg",
+      "alt_srcs": []
+    },
+    "鸭子": {
+      "hanzi": "鸭子",
+      "pinyin": "yāzi",
+      "meaning": "con vịt",
+      "example_zh": "一群小<u>鸭子</u>正在水塘里欢快地游泳。",
+      "example_vi": "Một đàn <u>vịt</u> con đang tung tăng bơi lội trong hồ nước.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "鸭子.svg",
+      "src": "images/HSK_3.0/level5/鸭子.svg",
+      "alt_srcs": []
+    },
+    "沿": {
+      "hanzi": "沿",
+      "pinyin": "yán",
+      "meaning": "men theo, dọc theo; mép, bờ",
+      "example_zh": "我们<u>沿</u>着河边散步，欣赏美丽的夕阳。",
+      "example_vi": "Chúng tôi đi dạo <u>men theo</u> bờ sông, ngắm hoàng hôn tuyệt đẹp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "沿.svg",
+      "src": "images/HSK_3.0/level5/沿.svg",
+      "alt_srcs": []
+    },
+    "研发": {
+      "hanzi": "研发",
+      "pinyin": "yánfā",
+      "meaning": "nghiên cứu và phát triển (R&D)",
+      "example_zh": "这家高科技企业非常注重产品的自主<u>研发</u>。",
+      "example_vi": "Doanh nghiệp công nghệ cao này rất chú trọng việc tự chủ <u>nghiên cứu và phát triển</u> sản phẩm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "研发.svg",
+      "src": "images/HSK_3.0/level5/研发.svg",
+      "alt_srcs": []
+    },
+    "研制": {
+      "hanzi": "研制",
+      "pinyin": "yánzhì",
+      "meaning": "nghiên cứu chế tạo, phát triển",
+      "example_zh": "科学家们成功<u>研制</u>出了新型疫苗。",
+      "example_vi": "Các nhà khoa học đã <u>nghiên cứu chế tạo</u> thành công loại vắc-xin kiểu mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "研制.svg",
+      "src": "images/HSK_3.0/level5/研制.svg",
+      "alt_srcs": []
+    },
+    "眼": {
+      "hanzi": "眼",
+      "pinyin": "yǎn",
+      "meaning": "mắt; cái nhìn",
+      "example_zh": "他抬头看了我一<u>眼</u>，便继续埋头工作。",
+      "example_vi": "Anh ấy ngẩng đầu nhìn tôi một <u>cái</u>, rồi lại tiếp tục vùi đầu làm việc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "眼.svg",
+      "src": "images/HSK_3.0/level5/眼.svg",
       "alt_srcs": []
     }
   }

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Desk -->
+    <rect x="10" y="120" width="180" height="15" rx="4" fill="#475569"/>
+    <rect x="25" y="135" width="10" height="40" rx="2" fill="#334155"/>
+    <rect x="165" y="135" width="10" height="40" rx="2" fill="#334155"/>
+    
+    <!-- Open Book with Linguistic Symbols -->
+    <path d="M40 115 L160 115 L150 70 L50 70 Z" fill="#f8fafc"/>
+    <path d="M55 85 L85 85 M55 95 L85 95 M105 85 L135 85 M105 95 L135 95" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="70" cy="105" r="3" fill="#ec4899"/>
+    <circle cx="120" cy="105" r="3" fill="#38bdf8"/>
+    
+    <!-- Character Head -->
+    <circle cx="120" cy="45" r="25" fill="#fde68a"/>
+    <path d="M105 40 Q110 35 115 40 M125 40 Q130 35 135 40" stroke="#475569" stroke-width="2" fill="none"/>
+    <path d="M110 55 Q120 62 130 55" stroke="#fb923c" stroke-width="2" fill="none"/>
+    
+    <!-- Hair -->
+    <path d="M98 45 Q95 20 120 20 Q145 20 142 45 Z" fill="#fbbf24"/>
+    
+    <!-- Floating Icons representing "Interesting" -->
+    <path d="M170 30 L175 20 L180 30 Z" fill="#fbbf24"/>
+    <circle cx="190" cy="50" r="5" fill="#10b981"/>
+    <path d="M160 60 L165 50 L170 60 Z" fill="#38bdf8" transform="rotate(20 165 55)"/>
+  </g>
+  
+  <!-- Ambient glow -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#334155" stroke-width="1" opacity="0.2"/>
+</svg>

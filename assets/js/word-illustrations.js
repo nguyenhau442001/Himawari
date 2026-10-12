@@ -13322,6 +13322,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/选手.svg",
     "caption": "tuyển thủ"
   },
+  "压岁钱": {
+    "file": "压岁钱.svg",
+    "src": "images/HSK_2.0/level6/压岁钱.svg",
+    "caption": "tiền lì xì"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15751,6 +15756,51 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "学分.svg",
     "src": "images/HSK_3.0/level5/学分.svg",
     "caption": "tín chỉ (học tập)"
+  },
+  "学科": {
+    "file": "学科.svg",
+    "src": "images/HSK_3.0/level5/学科.svg",
+    "caption": "môn học, ngành học, chuyên ngành"
+  },
+  "学年": {
+    "file": "学年.svg",
+    "src": "images/HSK_3.0/level5/学年.svg",
+    "caption": "năm học, niên khóa"
+  },
+  "学者": {
+    "file": "学者.svg",
+    "src": "images/HSK_3.0/level5/学者.svg",
+    "caption": "học giả, nhà nghiên cứu"
+  },
+  "雪糕": {
+    "file": "雪糕.svg",
+    "src": "images/HSK_3.0/level5/雪糕.svg",
+    "caption": "kem que, kem"
+  },
+  "鸭子": {
+    "file": "鸭子.svg",
+    "src": "images/HSK_3.0/level5/鸭子.svg",
+    "caption": "con vịt"
+  },
+  "沿": {
+    "file": "沿.svg",
+    "src": "images/HSK_3.0/level5/沿.svg",
+    "caption": "men theo, dọc theo; mép, bờ"
+  },
+  "研发": {
+    "file": "研发.svg",
+    "src": "images/HSK_3.0/level5/研发.svg",
+    "caption": "nghiên cứu và phát triển (R&D)"
+  },
+  "研制": {
+    "file": "研制.svg",
+    "src": "images/HSK_3.0/level5/研制.svg",
+    "caption": "nghiên cứu chế tạo, phát triển"
+  },
+  "眼": {
+    "file": "眼.svg",
+    "src": "images/HSK_3.0/level5/眼.svg",
+    "caption": "mắt; cái nhìn"
   }
 };
 
