@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Background Elements: Cityscape Outline -->
+  <path d="M20 180 L80 140 L140 180 Z" fill="#334155"/>
+  <path d="M160 190 L220 150 L220 240 L160 240 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  
+  <!-- The Government Official (Representative) -->
+  <g transform="translate(40, 100)">
+    <circle cx="20" cy="20" r="12" fill="#fbbf24"/>
+    <path d="M10 40 L30 40 L35 90 L5 90 Z" fill="#38bdf8"/>
+    <rect x="15" y="90" width="10" height="30" fill="#38bdf8"/>
+    <path d="M20 40 L20 80" stroke="#1e293b" stroke-width="2"/>
+  </g>
+
+  <!-- The Family (The People) -->
+  <g transform="translate(120, 120)">
+    <!-- House structure -->
+    <path d="M0 0 L60 0 L60 80 L0 80 Z" fill="#475569" rx="5"/>
+    <rect x="15" y="20" width="30" height="30" fill="#fb923c" rx="2"/>
+    <rect x="25" y="60" width="10" height="20" fill="#94a3b8"/>
+    
+    <!-- Happy Figures -->
+    <circle cx="10" cy="100" r="8" fill="#f59e0b"/>
+    <circle cx="30" cy="100" r="8" fill="#f59e0b"/>
+    <circle cx="50" cy="100" r="8" fill="#f59e0b"/>
+  </g>
+
+  <!-- Symbolic "Stability/Prosperity" Glow -->
+  <circle cx="150" cy="160" r="40" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="3" fill="#10b981"/>
+  <circle cx="180" cy="60" r="2" fill="#ec4899"/>
+  <path d="M10 200 Q 120 150 230 200" stroke="#334155" stroke-width="2" fill="none"/>
+</svg>

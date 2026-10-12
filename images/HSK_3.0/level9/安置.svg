@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Elements: New Housing Structure -->
+  <rect x="30" y="80" width="180" height="110" rx="8" fill="#334155"/>
+  <rect x="45" y="100" width="40" height="60" rx="4" fill="#475569"/>
+  <rect x="100" y="100" width="40" height="60" rx="4" fill="#475569"/>
+  <rect x="155" y="100" width="40" height="60" rx="4" fill="#475569"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="190" width="240" height="50" fill="#0f172a"/>
+  
+  <!-- Characters -->
+  <!-- Official Figure -->
+  <g transform="translate(160, 130)">
+    <circle cx="10" cy="10" r="10" fill="#f59e0b"/>
+    <rect x="2" y="22" width="16" height="30" rx="2" fill="#38bdf8"/>
+    <path d="M2 30 L-10 40 M18 30 L30 40" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Family Figure -->
+  <g transform="translate(60, 130)">
+    <circle cx="10" cy="10" r="10" fill="#fb923c"/>
+    <rect x="2" y="22" width="16" height="30" rx="2" fill="#ec4899"/>
+    <circle cx="35" cy="20" r="8" fill="#fb923c"/>
+    <rect x="30" y="30" width="10" height="22" rx="2" fill="#10b981"/>
+  </g>
+  
+  <!-- Symbolic Key/Gift -->
+  <path d="M120 140 L140 140 L130 130 Z" fill="#fbbf24"/>
+  
+  <!-- Decorative Accents -->
+  <circle cx="200" cy="40" r="3" fill="#fbbf24"/>
+  <circle cx="210" cy="30" r="2" fill="#fbbf24"/>
+  <path d="M40 190 L50 180 L60 190" stroke="#10b981" stroke-width="2" fill="none"/>
+</svg>

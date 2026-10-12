@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Classroom Background Elements -->
+  <rect x="30" y="50" width="180" height="100" rx="4" fill="#334155"/>
+  <rect x="40" y="60" width="160" height="80" rx="2" fill="#1e293b"/>
+  <path d="M60 80 L100 80 L80 120 Z" fill="#475569"/>
+  
+  <!-- Teacher (The Subject) -->
+  <circle cx="120" cy="140" r="15" fill="#fbbf24"/>
+  <rect x="110" y="155" width="20" height="40" rx="4" fill="#38bdf8"/>
+  <rect x="105" y="155" width="10" height="30" rx="2" fill="#38bdf8" transform="rotate(-15 110 155)"/>
+  <rect x="125" y="155" width="10" height="30" rx="2" fill="#38bdf8" transform="rotate(15 130 155)"/>
+  
+  <!-- Students (The Admirers) -->
+  <!-- Student 1 -->
+  <circle cx="60" cy="180" r="12" fill="#ec4899"/>
+  <path d="M55 190 L65 190 L60 215 Z" fill="#fb923c"/>
+  <!-- Student 2 -->
+  <circle cx="120" cy="200" r="12" fill="#10b981"/>
+  <path d="M115 210 L125 210 L120 235 Z" fill="#fb923c"/>
+  <!-- Student 3 -->
+  <circle cx="180" cy="180" r="12" fill="#f59e0b"/>
+  <path d="M175 190 L185 190 L180 215 Z" fill="#fb923c"/>
+  
+  <!-- Interaction: Hearts/Gifts -->
+  <path d="M75 160 C75 155, 80 150, 85 155 C90 150, 95 155, 95 160 C95 165, 85 170, 85 170 C85 170, 75 165, 75 160 Z" fill="#ec4899"/>
+  <path d="M155 160 C155 155, 160 150, 165 155 C170 150, 175 155, 175 160 C175 165, 165 170, 165 170 C165 170, 155 165, 155 160 Z" fill="#ec4899"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="190" width="200" height="50" rx="10" fill="#475569"/>
+  <rect x="30" y="200" width="180" height="10" rx="2" fill="#334155"/>
+</svg>

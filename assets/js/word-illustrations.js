@@ -12797,6 +12797,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level5/作为.svg",
     "caption": "là, với danh nghĩa"
   },
+  "挨": {
+    "file": "挨.svg",
+    "src": "images/HSK_2.0/level6/挨.svg",
+    "caption": "chịu đựng; lần lượt theo thứ tự"
+  },
+  "癌症": {
+    "file": "癌症.svg",
+    "src": "images/HSK_2.0/level6/癌症.svg",
+    "caption": "bệnh ung thư"
+  },
+  "爱不释手": {
+    "file": "爱不释手.svg",
+    "src": "images/HSK_2.0/level6/爱不释手.svg",
+    "caption": "yêu thích đến mức không muốn rời tay"
+  },
+  "爱戴": {
+    "file": "爱戴.svg",
+    "src": "images/HSK_2.0/level6/爱戴.svg",
+    "caption": "yêu mến và kính trọng"
+  },
+  "暧昧": {
+    "file": "暧昧.svg",
+    "src": "images/HSK_2.0/level6/暧昧.svg",
+    "caption": "mơ hồ, không rõ ràng, ám muội"
+  },
+  "安居乐业": {
+    "file": "安居乐业.svg",
+    "src": "images/HSK_2.0/level6/安居乐业.svg",
+    "caption": "an cư lạc nghiệp"
+  },
+  "安宁": {
+    "file": "安宁.svg",
+    "src": "images/HSK_2.0/level6/安宁.svg",
+    "caption": "yên bình, thanh bình"
+  },
+  "安详": {
+    "file": "安详.svg",
+    "src": "images/HSK_2.0/level6/安详.svg",
+    "caption": "điềm tĩnh, thư thái"
+  },
+  "安置": {
+    "file": "安置.svg",
+    "src": "images/HSK_2.0/level6/安置.svg",
+    "caption": "bố trí, sắp xếp chỗ ở hoặc việc làm"
+  },
+  "暗示": {
+    "file": "暗示.svg",
+    "src": "images/HSK_2.0/level6/暗示.svg",
+    "caption": "ngụ ý, ám chỉ"
+  },
   "本人": {
     "file": "本人.svg",
     "src": "images/HSK_2.0/level6/本人.svg",

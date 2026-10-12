@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T10:10:13.307424",
-  "total_unique_words_with_illustrations": 3219,
-  "total_flat_svg_files": 3219,
+  "generated_at": "2026-10-12T10:13:18.698703",
+  "total_unique_words_with_illustrations": 3229,
+  "total_flat_svg_files": 3229,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 579,
-        "pct": "23.2%"
+        "with_svg": 589,
+        "pct": "23.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 246,
+        "with_svg": 247,
         "pct": "13.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 105,
-        "pct": "1.9%"
+        "with_svg": 114,
+        "pct": "2.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 105,
-        "pct": "1.9%"
+        "with_svg": 114,
+        "pct": "2.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 105,
-        "pct": "1.9%"
+        "with_svg": 114,
+        "pct": "2.0%"
       }
     }
   },
@@ -46097,6 +46097,214 @@
       "file": "作为.svg",
       "src": "images/HSK_2.0/level5/作为.svg",
       "alt_srcs": []
+    },
+    "挨": {
+      "hanzi": "挨",
+      "pinyin": "ái",
+      "meaning": "chịu đựng; lần lượt theo thứ tự",
+      "example_zh": "他从小<u>挨</u>了不少苦。",
+      "example_vi": "Anh ấy từ nhỏ đã <u>chịu đựng</u> không ít khổ cực.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "挨.svg",
+      "src": "images/HSK_2.0/level6/挨.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/挨.svg",
+        "images/HSK_3.0/level8/挨.svg",
+        "images/HSK_3.0/level9/挨.svg"
+      ]
+    },
+    "癌症": {
+      "hanzi": "癌症",
+      "pinyin": "áizhèng",
+      "meaning": "bệnh ung thư",
+      "example_zh": "早期发现<u>癌症</u>很重要。",
+      "example_vi": "Phát hiện <u>bệnh ung thư</u> sớm rất quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "癌症.svg",
+      "src": "images/HSK_2.0/level6/癌症.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/癌症.svg",
+        "images/HSK_3.0/level8/癌症.svg",
+        "images/HSK_3.0/level9/癌症.svg"
+      ]
+    },
+    "爱不释手": {
+      "hanzi": "爱不释手",
+      "pinyin": "ài bù shì shǒu",
+      "meaning": "yêu thích đến mức không muốn rời tay",
+      "example_zh": "这本小说让她<u>爱不释手</u>。",
+      "example_vi": "Cuốn tiểu thuyết này khiến cô ấy <u>thích đến mức không rời tay</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "爱不释手.svg",
+      "src": "images/HSK_2.0/level6/爱不释手.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/爱不释手.svg",
+        "images/HSK_3.0/level8/爱不释手.svg",
+        "images/HSK_3.0/level9/爱不释手.svg"
+      ]
+    },
+    "爱戴": {
+      "hanzi": "爱戴",
+      "pinyin": "àidài",
+      "meaning": "yêu mến và kính trọng",
+      "example_zh": "这位老师深受学生<u>爱戴</u>。",
+      "example_vi": "Thầy giáo này rất được học sinh <u>yêu mến và kính trọng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "爱戴.svg",
+      "src": "images/HSK_2.0/level6/爱戴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/爱戴.svg",
+        "images/HSK_3.0/level8/爱戴.svg",
+        "images/HSK_3.0/level9/爱戴.svg"
+      ]
+    },
+    "暧昧": {
+      "hanzi": "暧昧",
+      "pinyin": "àimèi",
+      "meaning": "mơ hồ, không rõ ràng, ám muội",
+      "example_zh": "他的态度有点<u>暧昧</u>。",
+      "example_vi": "Thái độ của anh ta có chút <u>mơ hồ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "暧昧.svg",
+      "src": "images/HSK_2.0/level6/暧昧.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/暧昧.svg",
+        "images/HSK_3.0/level8/暧昧.svg",
+        "images/HSK_3.0/level9/暧昧.svg"
+      ]
+    },
+    "安居乐业": {
+      "hanzi": "安居乐业",
+      "pinyin": "ān jū lè yè",
+      "meaning": "an cư lạc nghiệp",
+      "example_zh": "政府希望让百姓<u>安居乐业</u>。",
+      "example_vi": "Chính phủ mong muốn người dân <u>an cư lạc nghiệp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "安居乐业.svg",
+      "src": "images/HSK_2.0/level6/安居乐业.svg",
+      "alt_srcs": []
+    },
+    "安宁": {
+      "hanzi": "安宁",
+      "pinyin": "ānníng",
+      "meaning": "yên bình, thanh bình",
+      "example_zh": "小镇的生活十分<u>安宁</u>。",
+      "example_vi": "Cuộc sống ở thị trấn nhỏ rất <u>yên bình</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "安宁.svg",
+      "src": "images/HSK_2.0/level6/安宁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/安宁.svg",
+        "images/HSK_3.0/level8/安宁.svg",
+        "images/HSK_3.0/level9/安宁.svg"
+      ]
+    },
+    "安详": {
+      "hanzi": "安详",
+      "pinyin": "ānxiáng",
+      "meaning": "điềm tĩnh, thư thái",
+      "example_zh": "老人脸上露出<u>安详</u>的笑容。",
+      "example_vi": "Trên mặt ông lão hiện lên nụ cười <u>thư thái</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "安详.svg",
+      "src": "images/HSK_2.0/level6/安详.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/安详.svg",
+        "images/HSK_3.0/level8/安详.svg",
+        "images/HSK_3.0/level9/安详.svg"
+      ]
+    },
+    "安置": {
+      "hanzi": "安置",
+      "pinyin": "ānzhì",
+      "meaning": "bố trí, sắp xếp chỗ ở hoặc việc làm",
+      "example_zh": "政府帮灾民<u>安置</u>了新住所。",
+      "example_vi": "Chính phủ giúp người dân vùng thiên tai <u>bố trí</u> nơi ở mới.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "安置.svg",
+      "src": "images/HSK_2.0/level6/安置.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/安置.svg",
+        "images/HSK_3.0/level8/安置.svg",
+        "images/HSK_3.0/level9/安置.svg"
+      ]
+    },
+    "暗示": {
+      "hanzi": "暗示",
+      "pinyin": "ànshì",
+      "meaning": "ngụ ý, ám chỉ",
+      "example_zh": "他用眼神<u>暗示</u>我别说话。",
+      "example_vi": "Anh ấy dùng ánh mắt <u>ám chỉ</u> tôi đừng nói.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "暗示.svg",
+      "src": "images/HSK_2.0/level6/暗示.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/暗示.svg"
+      ]
     },
     "本人": {
       "hanzi": "本人",
