@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:58:32.803862",
-  "total_unique_words_with_illustrations": 4485,
-  "total_flat_svg_files": 4485,
+  "generated_at": "2026-10-12T22:59:25.009519",
+  "total_unique_words_with_illustrations": 4490,
+  "total_flat_svg_files": 4490,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1845,
-        "pct": "73.8%"
+        "with_svg": 1850,
+        "pct": "74.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 616,
-        "pct": "34.2%"
+        "with_svg": 618,
+        "pct": "34.3%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 915,
-        "pct": "16.3%"
+        "with_svg": 918,
+        "pct": "16.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 915,
-        "pct": "16.3%"
+        "with_svg": 918,
+        "pct": "16.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 915,
-        "pct": "16.3%"
+        "with_svg": 918,
+        "pct": "16.4%"
       }
     }
   },
@@ -73052,6 +73052,108 @@
       "src": "images/HSK_2.0/level6/散文.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/散文.svg"
+      ]
+    },
+    "散布": {
+      "hanzi": "散布",
+      "pinyin": "sànbù",
+      "meaning": "rải rác, truyền bá (tin đồn)",
+      "example_zh": "有人在网上<u>散布</u>谣言。",
+      "example_vi": "Có người <u>truyền bá</u> tin đồn trên mạng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "散布.svg",
+      "src": "images/HSK_2.0/level6/散布.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/散布.svg",
+        "images/HSK_3.0/level8/散布.svg",
+        "images/HSK_3.0/level9/散布.svg"
+      ]
+    },
+    "散发": {
+      "hanzi": "散发",
+      "pinyin": "sànfā",
+      "meaning": "phát ra, tỏa ra",
+      "example_zh": "花朵<u>散发</u>出阵阵香气。",
+      "example_vi": "Hoa <u>tỏa ra</u> mùi thơm ngào ngạt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "散发.svg",
+      "src": "images/HSK_2.0/level6/散发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/散发.svg"
+      ]
+    },
+    "丧失": {
+      "hanzi": "丧失",
+      "pinyin": "sàngshī",
+      "meaning": "mất đi, đánh mất",
+      "example_zh": "他<u>丧失</u>了对生活的信心。",
+      "example_vi": "Anh ấy đã <u>đánh mất</u> niềm tin vào cuộc sống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "丧失.svg",
+      "src": "images/HSK_2.0/level6/丧失.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/丧失.svg"
+      ]
+    },
+    "骚扰": {
+      "hanzi": "骚扰",
+      "pinyin": "sāorǎo",
+      "meaning": "quấy rối",
+      "example_zh": "她报警说自己被人<u>骚扰</u>。",
+      "example_vi": "Cô ấy báo cảnh sát rằng mình bị <u>quấy rối</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "骚扰.svg",
+      "src": "images/HSK_2.0/level6/骚扰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/骚扰.svg",
+        "images/HSK_3.0/level8/骚扰.svg",
+        "images/HSK_3.0/level9/骚扰.svg"
+      ]
+    },
+    "嫂子": {
+      "hanzi": "嫂子",
+      "pinyin": "sǎozi",
+      "meaning": "chị dâu",
+      "example_zh": "我<u>嫂子</u>是一名医生。",
+      "example_vi": "<u>Chị dâu</u> của tôi là một bác sĩ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "嫂子.svg",
+      "src": "images/HSK_2.0/level6/嫂子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/嫂子.svg",
+        "images/HSK_3.0/level8/嫂子.svg",
+        "images/HSK_3.0/level9/嫂子.svg"
       ]
     },
     "擅长": {

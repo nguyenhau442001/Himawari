@@ -19477,6 +19477,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/散文.svg",
     "caption": "tản văn"
   },
+  "散布": {
+    "file": "散布.svg",
+    "src": "images/HSK_2.0/level6/散布.svg",
+    "caption": "rải rác, truyền bá (tin đồn)"
+  },
+  "散发": {
+    "file": "散发.svg",
+    "src": "images/HSK_2.0/level6/散发.svg",
+    "caption": "phát ra, tỏa ra"
+  },
+  "丧失": {
+    "file": "丧失.svg",
+    "src": "images/HSK_2.0/level6/丧失.svg",
+    "caption": "mất đi, đánh mất"
+  },
+  "骚扰": {
+    "file": "骚扰.svg",
+    "src": "images/HSK_2.0/level6/骚扰.svg",
+    "caption": "quấy rối"
+  },
+  "嫂子": {
+    "file": "嫂子.svg",
+    "src": "images/HSK_2.0/level6/嫂子.svg",
+    "caption": "chị dâu"
+  },
   "擅长": {
     "file": "擅长.svg",
     "src": "images/HSK_2.0/level6/擅长.svg",
