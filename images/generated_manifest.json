@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:16:45.813159",
-  "total_unique_words_with_illustrations": 3719,
-  "total_flat_svg_files": 3719,
+  "generated_at": "2026-10-12T12:18:37.386453",
+  "total_unique_words_with_illustrations": 3729,
+  "total_flat_svg_files": 3729,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1079,
-        "pct": "43.2%"
+        "with_svg": 1089,
+        "pct": "43.6%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 390,
-        "pct": "21.7%"
+        "with_svg": 392,
+        "pct": "21.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 426,
-        "pct": "7.6%"
+        "with_svg": 432,
+        "pct": "7.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 426,
-        "pct": "7.6%"
+        "with_svg": 432,
+        "pct": "7.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 426,
-        "pct": "7.6%"
+        "with_svg": 432,
+        "pct": "7.7%"
       }
     }
   },
@@ -56821,6 +56821,202 @@
         "images/HSK_3.0/level8/纺织.svg",
         "images/HSK_3.0/level9/纺织.svg"
       ]
+    },
+    "放大": {
+      "hanzi": "放大",
+      "pinyin": "fàngdà",
+      "meaning": "phóng to",
+      "example_zh": "请把这张照片<u>放大</u>。",
+      "example_vi": "Xin hãy <u>phóng to</u> tấm ảnh này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "放大.svg",
+      "src": "images/HSK_2.0/level6/放大.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/放大.svg"
+      ]
+    },
+    "放射": {
+      "hanzi": "放射",
+      "pinyin": "fàngshè",
+      "meaning": "phát xạ, phóng xạ",
+      "example_zh": "这种物质会<u>放射</u>能量。",
+      "example_vi": "Loại vật chất này sẽ <u>phát xạ</u> năng lượng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "放射.svg",
+      "src": "images/HSK_2.0/level6/放射.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/放射.svg",
+        "images/HSK_3.0/level8/放射.svg",
+        "images/HSK_3.0/level9/放射.svg"
+      ]
+    },
+    "放手": {
+      "hanzi": "放手",
+      "pinyin": "fàngshǒu",
+      "meaning": "buông tay",
+      "example_zh": "父母要学会<u>放手</u>。",
+      "example_vi": "Cha mẹ phải học cách <u>buông tay</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "放手.svg",
+      "src": "images/HSK_2.0/level6/放手.svg",
+      "alt_srcs": []
+    },
+    "非法": {
+      "hanzi": "非法",
+      "pinyin": "fēifǎ",
+      "meaning": "bất hợp pháp",
+      "example_zh": "这是<u>非法</u>交易。",
+      "example_vi": "Đây là giao dịch <u>bất hợp pháp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "非法.svg",
+      "src": "images/HSK_2.0/level6/非法.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/非法.svg",
+        "images/HSK_3.0/level8/非法.svg",
+        "images/HSK_3.0/level9/非法.svg"
+      ]
+    },
+    "飞禽走兽": {
+      "hanzi": "飞禽走兽",
+      "pinyin": "fēi qín zǒu shòu",
+      "meaning": "chim muông thú vật (nói chung)",
+      "example_zh": "森林里有各种<u>飞禽走兽</u>。",
+      "example_vi": "Trong rừng có đủ các loại <u>chim muông thú vật</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "飞禽走兽.svg",
+      "src": "images/HSK_2.0/level6/飞禽走兽.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/飞禽走兽.svg",
+        "images/HSK_3.0/level8/飞禽走兽.svg",
+        "images/HSK_3.0/level9/飞禽走兽.svg"
+      ]
+    },
+    "飞翔": {
+      "hanzi": "飞翔",
+      "pinyin": "fēixiáng",
+      "meaning": "bay lượn",
+      "example_zh": "老鹰在天空中<u>飞翔</u>。",
+      "example_vi": "Đại bàng <u>bay lượn</u> trên trời.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "飞翔.svg",
+      "src": "images/HSK_2.0/level6/飞翔.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/飞翔.svg",
+        "images/HSK_3.0/level8/飞翔.svg",
+        "images/HSK_3.0/level9/飞翔.svg"
+      ]
+    },
+    "飞跃": {
+      "hanzi": "飞跃",
+      "pinyin": "fēiyuè",
+      "meaning": "nhảy vọt",
+      "example_zh": "经济实现了<u>飞跃</u>发展。",
+      "example_vi": "Kinh tế đạt được sự phát triển <u>nhảy vọt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "飞跃.svg",
+      "src": "images/HSK_2.0/level6/飞跃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/飞跃.svg",
+        "images/HSK_3.0/level8/飞跃.svg",
+        "images/HSK_3.0/level9/飞跃.svg"
+      ]
+    },
+    "肥沃": {
+      "hanzi": "肥沃",
+      "pinyin": "féiwò",
+      "meaning": "màu mỡ (đất)",
+      "example_zh": "这片土地非常<u>肥沃</u>。",
+      "example_vi": "Vùng đất này rất <u>màu mỡ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "肥沃.svg",
+      "src": "images/HSK_2.0/level6/肥沃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/肥沃.svg"
+      ]
+    },
+    "诽谤": {
+      "hanzi": "诽谤",
+      "pinyin": "fěibàng",
+      "meaning": "vu khống, bôi nhọ",
+      "example_zh": "他被人<u>诽谤</u>了。",
+      "example_vi": "Anh ấy bị người khác <u>vu khống</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "诽谤.svg",
+      "src": "images/HSK_2.0/level6/诽谤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/诽谤.svg",
+        "images/HSK_3.0/level8/诽谤.svg",
+        "images/HSK_3.0/level9/诽谤.svg"
+      ]
+    },
+    "匪徒": {
+      "hanzi": "匪徒",
+      "pinyin": "fěitú",
+      "meaning": "tên cướp, kẻ thổ phỉ",
+      "example_zh": "警察追捕<u>匪徒</u>。",
+      "example_vi": "Cảnh sát truy bắt <u>tên cướp</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "匪徒.svg",
+      "src": "images/HSK_2.0/level6/匪徒.svg",
+      "alt_srcs": []
     },
     "夫妇": {
       "hanzi": "夫妇",

@@ -15457,6 +15457,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/纺织.svg",
     "caption": "dệt vải"
   },
+  "放大": {
+    "file": "放大.svg",
+    "src": "images/HSK_2.0/level6/放大.svg",
+    "caption": "phóng to"
+  },
+  "放射": {
+    "file": "放射.svg",
+    "src": "images/HSK_2.0/level6/放射.svg",
+    "caption": "phát xạ, phóng xạ"
+  },
+  "放手": {
+    "file": "放手.svg",
+    "src": "images/HSK_2.0/level6/放手.svg",
+    "caption": "buông tay"
+  },
+  "非法": {
+    "file": "非法.svg",
+    "src": "images/HSK_2.0/level6/非法.svg",
+    "caption": "bất hợp pháp"
+  },
+  "飞禽走兽": {
+    "file": "飞禽走兽.svg",
+    "src": "images/HSK_2.0/level6/飞禽走兽.svg",
+    "caption": "chim muông thú vật (nói chung)"
+  },
+  "飞翔": {
+    "file": "飞翔.svg",
+    "src": "images/HSK_2.0/level6/飞翔.svg",
+    "caption": "bay lượn"
+  },
+  "飞跃": {
+    "file": "飞跃.svg",
+    "src": "images/HSK_2.0/level6/飞跃.svg",
+    "caption": "nhảy vọt"
+  },
+  "肥沃": {
+    "file": "肥沃.svg",
+    "src": "images/HSK_2.0/level6/肥沃.svg",
+    "caption": "màu mỡ (đất)"
+  },
+  "诽谤": {
+    "file": "诽谤.svg",
+    "src": "images/HSK_2.0/level6/诽谤.svg",
+    "caption": "vu khống, bôi nhọ"
+  },
+  "匪徒": {
+    "file": "匪徒.svg",
+    "src": "images/HSK_2.0/level6/匪徒.svg",
+    "caption": "tên cướp, kẻ thổ phỉ"
+  },
   "夫妇": {
     "file": "夫妇.svg",
     "src": "images/HSK_2.0/level6/夫妇.svg",

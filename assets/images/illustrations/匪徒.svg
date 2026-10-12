@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Definitions for gradients and shadows -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="40%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+
+    <!-- Dynamic police light glow -->
+    <radialGradient id="sirenRed" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#ef4444" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="sirenBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Spotlights from alley -->
+    <linearGradient id="lightBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Urban Alley Background Environment -->
+  <!-- Distant skyline & buildings -->
+  <rect x="10" y="40" width="55" height="130" fill="#131c2e" />
+  <rect x="75" y="25" width="90" height="145" fill="#0f172a" />
+  <polygon points="120,5 165,25 75,25" fill="#1b263b" />
+  <rect x="175" y="55" width="55" height="115" fill="#131c2e" />
+
+  <!-- Building Windows with warm interior light -->
+  <g fill="#334155" opacity="0.6">
+    <rect x="20" y="55" width="10" height="14" />
+    <rect x="35" y="55" width="10" height="14" />
+    <rect x="20" y="80" width="10" height="14" fill="#fbbf24" opacity="0.5" />
+    <rect x="35" y="80" width="10" height="14" />
+    <rect x="20" y="105" width="10" height="14" />
+    <rect x="35" y="105" width="10" height="14" fill="#fbbf24" opacity="0.4" />
+
+    <rect x="90" y="45" width="12" height="18" fill="#fbbf24" opacity="0.7" />
+    <rect x="110" y="45" width="12" height="18" />
+    <rect x="130" y="45" width="12" height="18" fill="#fbbf24" opacity="0.4" />
+    <rect x="90" y="75" width="12" height="18" />
+    <rect x="110" y="75" width="12" height="18" fill="#fbbf24" opacity="0.5" />
+    <rect x="130" y="75" width="12" height="18" />
+    <rect x="90" y="105" width="12" height="18" fill="#fbbf24" opacity="0.8" />
+    <rect x="110" y="105" width="12" height="18" />
+    <rect x="130" y="105" width="12" height="18" fill="#fbbf24" opacity="0.3" />
+
+    <rect x="188" y="70" width="10" height="14" fill="#fbbf24" opacity="0.6" />
+    <rect x="203" y="70" width="10" height="14" />
+    <rect x="188" y="95" width="10" height="14" />
+    <rect x="203" y="95" width="10" height="14" fill="#fbbf24" opacity="0.5" />
+  </g>
+
+  <!-- Fire Escape Stairs / Details -->
+  <path d="M165,65 L175,65 L175,135 L165,135" stroke="#334155" stroke-width="2" fill="none" />
+  <line x1="165" y1="85" x2="175" y2="85" stroke="#334155" stroke-width="2" />
+  <line x1="165" y1="105" x2="175" y2="105" stroke="#334155" stroke-width="2" />
+
+  <!-- Alleyway Ground / Pavement -->
+  <path d="M0,170 C60,165 140,168 240,162 L240,240 L0,240 Z" fill="url(#groundGrad)" />
+  <!-- Pavement lines / perspective -->
+  <path d="M100,170 L40,240" stroke="#334155" stroke-width="1.5" opacity="0.4" />
+  <path d="M130,170 L140,240" stroke="#334155" stroke-width="1.5" opacity="0.4" />
+  <path d="M150,170 L200,240" stroke="#334155" stroke-width="1.5" opacity="0.4" />
+
+  <!-- Dynamic Police Flashing Lights Glow across scene -->
+  <circle cx="210" cy="30" r="100" fill="url(#sirenRed)" style="mix-blend-mode: screen;" />
+  <circle cx="30" cy="50" r="80" fill="url(#sirenBlue)" style="mix-blend-mode: screen;" />
+
+  <!-- ==================== THE THIEF / FÈITÚ (匪徒) ==================== -->
+  <!-- Fleeing character running dynamically to the left -->
+  <g transform="translate(75, 125)">
+    <!-- Motion lines / speed trails -->
+    <line x1="30" y1="15" x2="55" y2="12" stroke="#fb923c" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <line x1="20" y1="35" x2="45" y2="30" stroke="#fb923c" stroke-width="1.5" stroke-linecap="round" opacity="0.5" />
+    <line x1="35" y1="55" x2="60" y2="50" stroke="#fb923c" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Shadow -->
+    <ellipse cx="0" cy="48" rx="20" ry="6" fill="#000000" opacity="0.5" />
+
+    <!-- Back Leg (extended backward) -->
+    <path d="M -2,22 L -22,40 L -30,35" fill="none" stroke="#b45309" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Back Foot -->
+    <path d="M -30,35 L -38,38" fill="none" stroke="#78350f" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Body (Hoodie / Dark jacket - classic bandit/thief look) -->
+    <path d="M -12,5 L 12,2 L 15,32 L -8,35 Z" fill="#334155" />
+    <!-- Stolen loot bag over shoulder -->
+    <circle cx="12" cy="10" r="11" fill="#d97706" />
+    <path d="M 12, -1 L 18, 5" stroke="#78350f" stroke-width="3" stroke-linecap="round" />
+    <path d="M 8,-1 L 2,6" stroke="#b45309" stroke-width="2" />
+    <!-- Dollar sign / loot mark stylized (abstract shape, no text) -->
+    <path d="M 12,6 L 12,14 M 9,9 L 15,9 M 9,12 L 15,12" stroke="#fef08a" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+
+    <!-- Front Leg (striding forward) -->
+    <path d="M 5,28 L 22,38 L 32,30" fill="none" stroke="#d97706" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Front Foot -->
+    <path d="M 22,38 L 32,44" fill="none" stroke="#78350f" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Back Arm (swinging back) -->
+    <path d="M -8,10 L -22,22" fill="none" stroke="#b45309" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Front Arm (reaching forward in escape) -->
+    <path d="M 8,10 L 25,18" fill="none" stroke="#d97706" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Head with Hood -->
+    <path d="M -2,-8 C -2,-18 8,-18 10,-8 C 12,-3 6,5 2,5 Z" fill="#1e293b" />
+    <!-- Face profile looking back in panic -->
+    <circle cx="6" cy="-6" r="4" fill="#fde047" />
+    <!-- Mask / Eye band for bandit persona -->
+    <path d="M 3,-8 L 9,-7" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- ==================== THE POLICE OFFICER (警察) ==================== -->
+  <!-- Police officer pursuing aggressively from the right -->
+  <g transform="translate(160, 115)">
+    <!-- Motion Lines for officer -->
+    <line x1="-20" y1="10" x2="-45" y2="8" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <line x1="-15" y1="40" x2="-40" y2="35" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" opacity="0.5" />
+
+    <!-- Shadow -->
+    <ellipse cx="0" cy="58" rx="22" ry="7" fill="#000000" opacity="0.5" />
+
+    <!-- Back Leg (pushing off ground) -->
+    <path d="M 5,32 L -15,50 L -25,48" fill="none" stroke="#1d4ed8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -25,48 L -33,52" fill="none" stroke="#1e293b" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Police Uniform Torso (Dark blue tactical uniform) -->
+    <path d="M -12,0 L 14,3 L 10,38 L -15,35 Z" fill="#1e3a8a" />
+    <!-- Police Badge / Vest strap -->
+    <path d="M -2,10 L 6,18" stroke="#facc15" stroke-width="3" stroke-linecap="round" />
+    <rect x="2" y="16" width="6" height="5" rx="1" fill="#facc15" />
+
+    <!-- Front Leg (lunging forward to chase) -->
+    <path d="M -5,30 L 18,42 L 30,35" fill="none" stroke="#1e40af" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 18,42 L 28,50" fill="none" stroke="#1e293b" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Back Arm (swinging back) -->
+    <path d="M -8,8 L -25,22" fill="none" stroke="#1d4ed8" stroke-width="7" stroke-linecap="round" />
+
+    <!-- Front Arm (pointing/commanding authoritatively or reaching out to catch) -->
+    <path d="M 10,12 L 32,15" fill="none" stroke="#1d4ed8" stroke-width="7" stroke-linecap="round" />
+    <!-- Hand -->
+    <circle cx="34" cy="15" r="3.5" fill="#fde047" />
+
+    <!-- Head with Police Cap -->
+    <!-- Cap Visor & Crown -->
+    <path d="M -15,-10 L 8,-12 L 12,-3 L -10,-1 Z" fill="#1e293b" />
+    <path d="M -16,-10 L 10,-10 L 6,-16 L -12,-16 Z" fill="#172554" />
+    <!-- Gold Cap Badge -->
+    <ellipse cx="-2" cy="-13" rx="3" ry="2" fill="#facc15" />
+
+    <!-- Face profile determined/shouting -->
+    <circle cx="-2" cy="-5" r="5" fill="#fde047" />
+    <path d="M -5,-3 L 1,-3" stroke="#b45309" stroke-width="1.5" stroke-linecap="round" />
+    <!-- Determined brow -->
+    <path d="M -5,-8 L 1,-6" stroke="#1e293b" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- ==================== POLICE CAR & SIREN LIGHTS ==================== -->
+  <!-- Parked / Approaching Police Cruiser in background -->
+  <g transform="translate(160, 140)">
+    <!-- Cruiser Body -->
+    <path d="M -45,15 L 45,15 L 40,-5 L 20,-18 L -20,-18 L -40,-5 Z" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+    <!-- White door panel typical of police cars -->
+    <path d="M -15,15 L 15,15 L 12,-10 L -12,-10 Z" fill="#f8fafc" />
+    <!-- Star / Police emblem placeholder (abstract geometric star shape) -->
+    <polygon points="0,-1 2,3 6,3 3,6 4,10 0,8 -4,10 -3,6 -6,3 -2,3" fill="#1e3a8a" />
+    <!-- Wheels -->
+    <circle cx="-25" cy="15" r="9" fill="#020617" stroke="#64748b" stroke-width="3" />
+    <circle cx="25" cy="15" r="9" fill="#020617" stroke="#64748b" stroke-width="3" />
+    <!-- Headlights (amber glow) -->
+    <path d="M -45,0 L -42,3 L -45,6 Z" fill="#fef08a" />
+
+    <!-- Police Light Bar on Roof -->
+    <rect x="-8" y="-24" width="16" height="4" rx="2" fill="#334155" />
+    <rect x="-7" y="-27" width="7" height="4" rx="1.5" fill="#ef4444" />
+    <rect x="0" y="-27" width="7" height="4" rx="1.5" fill="#3b82f6" />
+    <!-- Light Beams / Flashes projecting upward -->
+    <polygon points="-4,-27 -15,-60 5,-60" fill="url(#sirenRed)" opacity="0.6" style="mix-blend-mode: screen;" />
+    <polygon points="4,-27 -5,-60 20,-60" fill="url(#sirenBlue)" opacity="0.6" style="mix-blend-mode: screen;" />
+  </g>
+
+  <!-- Foreground details: Trash can & street clutter for authentic alley realism -->
+  <g transform="translate(30, 175)">
+    <!-- Metal dumpster / bin -->
+    <rect x="0" y="5" width="22" height="28" rx="2" fill="#475569" stroke="#334155" stroke-width="1.5" />
+    <line x1="0" y1="12" x2="22" y2="12" stroke="#334155" stroke-width="1.5" />
+    <path d="M -2,3 L 24,3 L 20,0 L 2,0 Z" fill="#64748b" />
+    <!-- Shadow -->
+    <ellipse cx="11" cy="35" rx="13" ry="4" fill="#000000" opacity="0.4" />
+  </g>
+
+  <!-- Atmospheric debris / dust floating in the pursuit beam -->
+  <g fill="#fef08a" opacity="0.6">
+    <circle cx="100" cy="90" r="1.5" />
+    <circle cx="115" cy="75" r="1" />
+    <circle cx="130" cy="110" r="2" />
+    <circle cx="85" cy="100" r="1.5" />
+    <circle cx="145" cy="85" r="1" />
+    <circle cx="65" cy="115" r="1.5" />
+  </g>
+
+  <!-- Dramatic top vignette / border to enhance HSK illustration focus -->
+  <rect x="0" y="0" width="240" height="240" rx="24" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.15" />
+</svg>

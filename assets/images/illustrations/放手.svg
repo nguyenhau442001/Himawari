@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Warm indoor light glow -->
+    <radialGradient id="roomGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Character 1 (Dad) Gradient -->
+    <linearGradient id="dadShirt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <!-- Character 2 (Child) Gradient -->
+    <linearGradient id="childShirt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+
+    <!-- Kite Gradient -->
+    <linearGradient id="kiteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <!-- Window Light -->
+    <linearGradient id="windowLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" />
+  <rect width="240" height="240" rx="24" fill="url(#roomGlow)" />
+
+  <!-- ENVIRONMENT / BACKGROUND -->
+  <!-- Wooden Floor & Baseboard -->
+  <rect x="0" y="200" width="240" height="40" fill="#090d16" />
+  <line x1="0" y1="200" x2="240" y2="200" stroke="#334155" stroke-width="2" />
+
+  <!-- Wall Window (showing a hint of outdoor sky/park where letting go happens) -->
+  <rect x="140" y="35" width="70" height="90" rx="8" fill="#111827" stroke="#334155" stroke-width="3" />
+  <rect x="145" y="40" width="60" height="80" rx="4" fill="url(#windowLight)" />
+  <!-- Window Panes -->
+  <line x1="175" y1="40" x2="175" y2="120" stroke="#334155" stroke-width="2" />
+  <line x1="145" y1="80" x2="205" y2="80" stroke="#334155" stroke-width="2" />
+  <!-- Outdoor tree silhouette outside window -->
+  <path d="M 160 110 Q 165 95 160 85 Q 170 85 175 90 Q 185 80 190 95 Q 200 95 195 110 Z" fill="#1e293b" opacity="0.6"/>
+
+  <!-- Warm Wall Decor / Bookshelf hint -->
+  <rect x="25" y="45" width="40" height="6" rx="2" fill="#334155" />
+  <rect x="35" y="51" width="6" height="15" rx="1" fill="#f59e0b" opacity="0.6" />
+  <rect x="43" y="48" width="5" height="18" rx="1" fill="#38bdf8" opacity="0.6" />
+  
+  <circle cx="95" cy="55" r="14" fill="#334155" opacity="0.4" />
+  <path d="M 85 70 Q 95 62 105 70 Z" fill="#334155" opacity="0.4" />
+
+  <!-- MAIN SCENE: FATHER AND CHILD (Depicting "放手" - letting go of the hand to let the child step forward independently) -->
+  
+  <!-- Shadow on floor -->
+  <ellipse cx="115" cy="202" rx="45" ry="6" fill="#020617" opacity="0.5" />
+
+  <!-- DAD (Left side, stepping back slightly, opening hand) -->
+  <g id="father">
+    <!-- Dad Legs -->
+    <path d="M 95 150 L 90 200 L 102 200 L 105 160" fill="#1e293b" stroke="#0f172a" stroke-width="1.5" />
+    <path d="M 110 150 L 125 195 L 137 195 L 122 155" fill="#334155" />
+    <!-- Dad Body -->
+    <path d="M 85 110 Q 80 130 92 155 L 115 150 Q 120 130 115 110 Z" fill="url(#dadShirt)" />
+    <!-- Dad Head & Hair -->
+    <circle cx="100" cy="85" r="15" fill="#fbcfe8" /> <!-- Skin base hint -->
+    <path d="M 88 82 Q 98 70 110 82 Q 105 75 95 75 Z" fill="#475569" />
+    <circle cx="100" cy="85" r="15" fill="#fed7aa" />
+    <!-- Dad Facial expression: Gentle, encouraging, slightly letting go -->
+    <circle cx="105" cy="83" r="1.5" fill="#1e293b" />
+    <path d="M 107 89 Q 110 91 113 89" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    
+    <!-- Dad Back/Resting Arm -->
+    <path d="M 90 115 L 75 135 L 82 140 L 95 125" fill="#0284c7" />
+
+    <!-- Dad's OPEN RIGHT HAND (Crucial visual metaphor for 放手 - open, releasing grip) -->
+    <path d="M 112 130 Q 122 135 125 130 Q 128 125 124 122" fill="#fed7aa" stroke="#f97316" stroke-width="1" />
+    <!-- Fingers outstretched, uncurled -->
+    <path d="M 125 130 Q 131 128 132 125" stroke="#fed7aa" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 124 132 Q 130 132 131 129" stroke="#fed7aa" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path d="M 122 135 Q 126 137 128 135" stroke="#fed7aa" stroke-width="2" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- CHILD (Right side, stepping forward independently, holding a kite string or toy, representing growth) -->
+  <g id="child">
+    <!-- Child Legs (Stepping forward) -->
+    <path d="M 135 155 L 140 198 L 152 198 L 148 160" fill="#c2410c" />
+    <path d="M 125 155 L 120 195 L 132 195 L 135 160" fill="#ea580c" />
+    
+    <!-- Child Body -->
+    <path d="M 125 115 Q 120 135 130 158 L 152 152 Q 155 135 148 115 Z" fill="url(#childShirt)" />
+    
+    <!-- Child Head -->
+    <circle cx="138" cy="92" r="13" fill="#fed7aa" />
+    <!-- Child Hair (Bouncy/Playful) -->
+    <path d="M 125 90 Q 138 75 150 88 Q 145 80 135 80 Z" fill="#334155" />
+    <circle cx="138" cy="92" r="13" fill="none" />
+    
+    <!-- Child Face (Confident, happy smile looking forward) -->
+    <circle cx="143" cy="90" r="1.5" fill="#1e293b" />
+    <path d="M 144 95 Q 147 98 150 94" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    <circle cx="149" cy="93" r="2" fill="#f43f5e" opacity="0.4" /> <!-- Rosy cheek -->
+
+    <!-- Child Arm reaching forward independently -->
+    <path d="M 148 125 Q 162 128 168 122" stroke="#fb923c" stroke-width="6" stroke-linecap="round" fill="none" />
+    <!-- Child Hand open/holding -->
+    <circle cx="170" cy="120" r="4" fill="#fed7aa" />
+  </g>
+
+  <!-- THE PROP: A soaring mini-kite floating away on a string, symbolizing independence & letting go -->
+  <g id="kite-prop">
+    <!-- Dotted / Curved string from child's hand connecting to the flying kite -->
+    <path d="M 172 118 Q 185 95 195 70" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="3,3" fill="none" opacity="0.7" />
+    
+    <!-- Flying Kite -->
+    <g transform="translate(195, 60) rotate(15)">
+      <polygon points="0,-12 10,0 0,15 -10,0" fill="url(#kiteGrad)" />
+      <polygon points="0,-12 10,0 0,0" fill="#fff" opacity="0.3" />
+      <!-- Kite tail -->
+      <path d="M 0 15 Q 5 25 -2 35 Q 3 45 0 55" stroke="#ec4899" stroke-width="2" fill="none" />
+      <circle cx="0" cy="23" r="2" fill="#38bdf8" />
+      <circle cx="-1" cy="37" r="2" fill="#fbbf24" />
+    </g>
+  </g>
+
+  <!-- Foreground Atmospheric Elements / Cozy interior details -->
+  <!-- Small potted plant on the floor adding life to the scene -->
+  <path d="M 45 190 L 52 205 L 68 205 L 75 190 Z" fill="#64748b" />
+  <ellipse cx="60" cy="190" rx="11" ry="3" fill="#475569" />
+  <!-- Plant leaves (sprouting upward independently) -->
+  <path d="M 57 190 Q 50 170 42 165" stroke="#10b981" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M 61 190 Q 63 165 72 160" stroke="#34d399" stroke-width="3.5" stroke-linecap="round" fill="none" />
+  <path d="M 60 190 Q 60 172 58 158" stroke="#059669" stroke-width="3" stroke-linecap="round" fill="none" />
+
+  <!-- Soft rim lighting / highlights on characters -->
+  <path d="M 85 110 Q 80 130 92 155" stroke="#7dd3fc" stroke-width="1.5" fill="none" opacity="0.6" />
+  <path d="M 125 115 Q 120 135 130 158" stroke="#fed7aa" stroke-width="1" fill="none" opacity="0.6" />
+
+</svg>
