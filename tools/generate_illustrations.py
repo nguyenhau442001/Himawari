@@ -127,6 +127,7 @@ def call_gemini_svg_api(word_info, api_key, max_retries=3):
         "   - Dark-mode harmonious: Deep slate navy (#0f172a, #1e293b) background, muted blues, warm golden/amber glows (#f59e0b, #fbbf24), and energetic modern accents (#38bdf8, #10b981, #ec4899, #fb923c).\n"
         "5. STRICT NEGATIVE CONSTRAINTS:\n"
         f"   - ABSOLUTELY NO abstract symbols, logos, minimalist icons, or generic badges.\n"
+        "   - ABSOLUTELY NO floating hearts (❤️), glowing heart icons, or romantic tropes UNLESS the word is explicitly about romantic love (e.g. 爱, 恋爱, 结婚, 谈恋爱) or literal anatomy (心脏). For gratitude (感谢, 谢谢), helping, politeness, kindness, teamwork, or friendship, DO NOT draw hearts! Depict genuine respectful social interactions (e.g. slight bow, handshake, warm smile, polite hand gesture) instead of romantic tropes.\n"
         f"   - ABSOLUTELY NO text, NO letters, NO words, NO subtitles, NO Chinese characters (NO {hanzi}), NO English words, NO pinyin.\n"
         "   - ABSOLUTELY NO Gemini logo, NO brand logos, NO watermarks.\n"
         "6. Return ONLY the raw <svg>...</svg> code, without markdown backticks, without any explanation."
