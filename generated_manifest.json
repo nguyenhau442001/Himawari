@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:31:51.309077",
-  "total_unique_words_with_illustrations": 3479,
-  "total_flat_svg_files": 3479,
+  "generated_at": "2026-10-12T11:34:32.807864",
+  "total_unique_words_with_illustrations": 3489,
+  "total_flat_svg_files": 3489,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 839,
-        "pct": "33.6%"
+        "with_svg": 849,
+        "pct": "34.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 313,
-        "pct": "17.4%"
+        "with_svg": 318,
+        "pct": "17.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 277,
-        "pct": "4.9%"
+        "with_svg": 281,
+        "pct": "5.0%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 277,
-        "pct": "4.9%"
+        "with_svg": 281,
+        "pct": "5.0%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 277,
-        "pct": "4.9%"
+        "with_svg": 281,
+        "pct": "5.0%"
       }
     }
   },
@@ -51656,6 +51656,100 @@
         "images/HSK_3.0/level9/充当.svg"
       ]
     },
+    "冲动": {
+      "hanzi": "冲动",
+      "pinyin": "chōngdòng",
+      "meaning": "bốc đồng, xung động",
+      "example_zh": "别太<u>冲动</u>，先冷静一下。",
+      "example_vi": "Đừng quá <u>bốc đồng</u>, hãy bình tĩnh lại đã.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "冲动.svg",
+      "src": "images/HSK_2.0/level6/冲动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/冲动.svg"
+      ]
+    },
+    "冲击": {
+      "hanzi": "冲击",
+      "pinyin": "chōngjī",
+      "meaning": "xung kích, va đập, tác động mạnh",
+      "example_zh": "金融危机对经济造成了<u>冲击</u>。",
+      "example_vi": "Khủng hoảng tài chính gây ra <u>tác động mạnh</u> đến kinh tế.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "冲击.svg",
+      "src": "images/HSK_2.0/level6/冲击.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/冲击.svg"
+      ]
+    },
+    "充沛": {
+      "hanzi": "充沛",
+      "pinyin": "chōngpèi",
+      "meaning": "sung mãn, dồi dào",
+      "example_zh": "他精力很<u>充沛</u>。",
+      "example_vi": "Anh ấy rất <u>sung mãn</u> về tinh thần.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "充沛.svg",
+      "src": "images/HSK_2.0/level6/充沛.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/充沛.svg",
+        "images/HSK_3.0/level8/充沛.svg",
+        "images/HSK_3.0/level9/充沛.svg"
+      ]
+    },
+    "充实": {
+      "hanzi": "充实",
+      "pinyin": "chōngshí",
+      "meaning": "sung túc, đầy đủ phong phú",
+      "example_zh": "这门课的内容很<u>充实</u>。",
+      "example_vi": "Nội dung môn học này rất <u>phong phú</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "充实.svg",
+      "src": "images/HSK_2.0/level6/充实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/充实.svg"
+      ]
+    },
+    "冲突": {
+      "hanzi": "冲突",
+      "pinyin": "chōngtū",
+      "meaning": "xung đột",
+      "example_zh": "两国之间发生了<u>冲突</u>。",
+      "example_vi": "Giữa hai nước đã xảy ra <u>xung đột</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "冲突.svg",
+      "src": "images/HSK_2.0/level6/冲突.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/冲突.svg"
+      ]
+    },
     "充足": {
       "hanzi": "充足",
       "pinyin": "chōngzú",
@@ -51673,6 +51767,104 @@
       "alt_srcs": [
         "images/HSK_3.0/level5/充足.svg"
       ]
+    },
+    "崇拜": {
+      "hanzi": "崇拜",
+      "pinyin": "chóngbài",
+      "meaning": "tôn sùng, thờ phụng",
+      "example_zh": "很多孩子<u>崇拜</u>体育明星。",
+      "example_vi": "Nhiều trẻ em <u>tôn sùng</u> các vận động viên nổi tiếng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "崇拜.svg",
+      "src": "images/HSK_2.0/level6/崇拜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/崇拜.svg"
+      ]
+    },
+    "重叠": {
+      "hanzi": "重叠",
+      "pinyin": "chóngdié",
+      "meaning": "trùng lặp, chồng lên",
+      "example_zh": "两份计划时间上有<u>重叠</u>。",
+      "example_vi": "Hai bản kế hoạch <u>trùng lặp</u> về thời gian.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "重叠.svg",
+      "src": "images/HSK_2.0/level6/重叠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/重叠.svg",
+        "images/HSK_3.0/level8/重叠.svg",
+        "images/HSK_3.0/level9/重叠.svg"
+      ]
+    },
+    "崇高": {
+      "hanzi": "崇高",
+      "pinyin": "chónggāo",
+      "meaning": "cao cả",
+      "example_zh": "他有着<u>崇高</u>的理想。",
+      "example_vi": "Anh ấy có lý tưởng <u>cao cả</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "崇高.svg",
+      "src": "images/HSK_2.0/level6/崇高.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/崇高.svg",
+        "images/HSK_3.0/level8/崇高.svg",
+        "images/HSK_3.0/level9/崇高.svg"
+      ]
+    },
+    "崇敬": {
+      "hanzi": "崇敬",
+      "pinyin": "chóngjìng",
+      "meaning": "kính trọng, tôn kính",
+      "example_zh": "大家都对他十分<u>崇敬</u>。",
+      "example_vi": "Mọi người đều rất <u>kính trọng</u> anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "崇敬.svg",
+      "src": "images/HSK_2.0/level6/崇敬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/崇敬.svg",
+        "images/HSK_3.0/level8/崇敬.svg",
+        "images/HSK_3.0/level9/崇敬.svg"
+      ]
+    },
+    "抽空": {
+      "hanzi": "抽空",
+      "pinyin": "chōukòng",
+      "meaning": "tranh thủ thời gian",
+      "example_zh": "请<u>抽空</u>来参加聚会。",
+      "example_vi": "Xin hãy <u>tranh thủ thời gian</u> đến tham gia buổi họp mặt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "抽空.svg",
+      "src": "images/HSK_2.0/level6/抽空.svg",
+      "alt_srcs": []
     },
     "传递": {
       "hanzi": "传递",

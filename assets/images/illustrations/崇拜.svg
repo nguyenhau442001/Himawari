@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Poster on wall -->
+  <rect x="140" y="40" width="60" height="80" rx="4" fill="#334155"/>
+  <circle cx="170" cy="70" r="20" fill="#fbbf24"/>
+  <path d="M155 100 L185 100 L180 115 L160 115 Z" fill="#ec4899"/>
+  
+  <!-- Child 1 -->
+  <circle cx="60" cy="160" r="12" fill="#fde68a"/>
+  <path d="M50 170 L70 170 L65 210 L55 210 Z" fill="#38bdf8"/>
+  <path d="M55 180 L40 195" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M65 180 L80 195" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Child 2 -->
+  <circle cx="110" cy="170" r="12" fill="#fde68a"/>
+  <path d="M100 180 L120 180 L115 220 L105 220 Z" fill="#fb923c"/>
+  <path d="M105 190 L90 205" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M115 190 L130 205" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Child 3 -->
+  <circle cx="160" cy="160" r="12" fill="#fde68a"/>
+  <path d="M150 170 L170 170 L165 210 L155 210 Z" fill="#10b981"/>
+  <path d="M155 180 L140 195" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <path d="M165 180 L180 195" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Hearts -->
+  <path d="M75 140 C75 135 80 130 85 135 C90 130 95 135 95 140 C95 145 85 150 85 150 C85 150 75 145 75 140" fill="#ec4899"/>
+  <path d="M135 140 C135 135 140 130 145 135 C150 130 155 135 155 140 C155 145 145 150 145 150 C145 150 135 145 135 140" fill="#ec4899"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="220" width="240" height="20" fill="#0f172a"/>
+</svg>

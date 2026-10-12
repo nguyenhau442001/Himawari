@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background Container -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="warmLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="partyGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1"/>
+    </linearGradient>
+    <clipPath id="windowClip">
+      <path d="M 140 30 Q 190 30 190 80 L 190 170 L 140 170 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- ENVIRONMENT: Party / Event context visible through large window -->
+  <path d="M 135 25 L 195 25 L 195 175 L 135 175 Z" fill="#090d16" stroke="#334155" stroke-width="3" rx="4"/>
+  
+  <!-- Outdoor Party Scene (Warm & Festive) -->
+  <g clip-path="url(#windowClip)">
+    <rect x="135" y="25" width="60" height="150" fill="url(#partyGlow)"/>
+    <!-- String lights outdoors -->
+    <path d="M 140 45 Q 165 60 190 45" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="3,3"/>
+    <circle cx="150" cy="50" r="2" fill="#fef08a"/>
+    <circle cx="165" cy="54" r="2" fill="#f43f5e"/>
+    <circle cx="180" cy="50" r="2" fill="#38bdf8"/>
+    
+    <!-- Party silhouettes & balloons -->
+    <circle cx="155" cy="120" r="12" fill="#fb7185" opacity="0.8"/>
+    <path d="M 155 132 L 155 160" stroke="#fb7185" stroke-width="1" opacity="0.5"/>
+    <circle cx="175" cy="110" r="10" fill="#38bdf8" opacity="0.8"/>
+    <path d="M 175 120 L 175 160" stroke="#38bdf8" stroke-width="1" opacity="0.5"/>
+    
+    <!-- People silhouettes -->
+    <path d="M 145 150 C 145 140 155 140 155 150 L 160 175 L 140 175 Z" fill="#334155"/>
+    <path d="M 170 145 C 170 135 180 135 180 145 L 185 175 L 165 175 Z" fill="#475569"/>
+    
+    <!-- Window frame grid -->
+    <path d="M 165 25 L 165 175" stroke="#1e293b" stroke-width="2"/>
+    <path d="M 135 100 L 195 100" stroke="#1e293b" stroke-width="2"/>
+  </g>
+
+  <!-- Window Frame Outer Sill -->
+  <rect x="132" y="170" width="66" height="8" rx="2" fill="#475569"/>
+
+  <!-- INDOOR ENVIRONMENT: Office / Desk Workspace (Busy context for "Finding time / 抽空") -->
+  <!-- Bookshelf/Wall details -->
+  <rect x="20" y="40" width="95" height="130" fill="none"/>
+  
+  <!-- Desk -->
+  <path d="M 10 175 L 130 175 L 140 210 L 0 210 Z" fill="#334155"/>
+  <rect x="0" y="170" width="140" height="8" rx="2" fill="#475569"/>
+
+  <!-- Office Props: Laptop showing busy schedule/charts -->
+  <path d="M 45 140 L 85 140 L 90 172 L 40 172 Z" fill="#cbd5e1"/>
+  <path d="M 38 172 L 92 172 L 96 176 L 34 176 Z" fill="#94a3b8"/>
+  <rect x="50" y="145" width="30" height="20" rx="2" fill="#0f172a"/>
+  <!-- Busy charts on screen -->
+  <polyline points="53,160 58,155 64,158 70,150 77,153" fill="none" stroke="#ef4444" stroke-width="1.5"/>
+
+  <!-- Coffee Mug with steam (working late/hard) -->
+  <path d="M 105 155 Q 105 150 110 150 L 118 150 Q 123 150 123 155 L 121 172 L 107 172 Z" fill="#f8fafc"/>
+  <path d="M 123 157 Q 128 157 128 162 Q 128 167 123 167" fill="none" stroke="#f8fafc" stroke-width="1.5"/>
+  <!-- Steam lines -->
+  <path d="M 111 142 Q 114 138 111 134" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 117 144 Q 119 140 117 136" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Desk Lamp casting warm light -->
+  <path d="M 25 170 L 25 115 L 28 115 L 28 170 Z" fill="#64748b"/>
+  <path d="M 12 115 L 41 115 L 34 95 L 19 95 Z" fill="#f59e0b"/>
+  <path d="M 15 115 Q 26 125 38 115" fill="#d97706"/>
+  
+  <!-- Desk Lamp Light Cone -->
+  <polygon points="26,115 5,210 95,210" fill="url(#warmLight)" style="mix-blend-mode: screen;"/>
+
+  <!-- MAIN CHARACTER: Busy professional taking a moment / glancing at the party -->
+  <g id="character">
+    <!-- Body / Torso (Wearing neat smart-casual shirt) -->
+    <path d="M 45 150 Q 60 145 75 150 L 82 195 L 38 195 Z" fill="#38bdf8"/>
+    <!-- Collar -->
+    <path d="M 55 145 L 60 155 L 65 145 Z" fill="#f8fafc"/>
+    <path d="M 50 145 L 60 153 L 70 145" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+
+    <!-- Head & Face (Turning head back toward the party with a warm, inviting smile) -->
+    <circle cx="62" cy="118" r="18" fill="#ffedd5"/>
+    
+    <!-- Hair (Stylish neat dark hair) -->
+    <path d="M 46 115 C 46 100 60 98 76 105 C 80 108 80 118 78 122 C 75 115 70 105 55 105 C 48 105 46 110 46 115 Z" fill="#1e293b"/>
+
+    <!-- Facial features: Expressive friendly eyes looking towards party -->
+    <circle cx="68" cy="116" r="2" fill="#1e293b"/>
+    <circle cx="58" cy="116" r="2" fill="#1e293b"/>
+    <!-- Eyebrows raised slightly in welcoming/inviting expression -->
+    <path d="M 56 111 Q 59 109 61 111" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 66 111 Q 69 109 71 111" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Gentle Smile (Showing willingness to take a break / join) -->
+    <path d="M 61 125 Q 65 129 69 125" fill="none" stroke="#c2410c" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Rosy cheek -->
+    <circle cx="54" cy="122" r="3" fill="#fca5a5" opacity="0.6"/>
+
+    <!-- Arms & Hands: One hand resting on desk, one raised invitingly ("Please make time / come") -->
+    <!-- Back arm (resting) -->
+    <path d="M 46 155 L 35 170 L 45 175" fill="none" stroke="#0284c7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Front arm gesturing forward/invitingly -->
+    <path d="M 72 152 Q 85 160 88 150" fill="none" stroke="#0284c7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="89" cy="146" r="4.5" fill="#ffedd5"/>
+  </g>
+
+  <!-- ACTION VIBE / INVITATION ELEMENTS: Floating subtle sparkle / musical notes implying the gathering -->
+  <g transform="translate(110, 85)" opacity="0.8">
+    <path d="M 0 10 Q 5 0 12 5 T 20 2" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="15" cy="12" r="2.5" fill="#fbbf24"/>
+  </g>
+  <g transform="translate(100, 55)" opacity="0.9">
+    <path d="M 5 15 Q 10 5 18 8" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="8" cy="10" r="2" fill="#ec4899"/>
+  </g>
+
+  <!-- Foreground Atmospheric Elements (Framing the scene nicely) -->
+  <circle cx="215" cy="205" r="3" fill="#334155"/>
+  <circle cx="225" cy="195" r="2" fill="#475569"/>
+  <circle cx="15" cy="25" r="2" fill="#334155"/>
+</svg>

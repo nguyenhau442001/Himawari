@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="160" width="200" height="10" rx="2" fill="#334155"/>
+  
+  <!-- Books and Learning Materials -->
+  <rect x="40" y="120" width="30" height="40" rx="2" fill="#f59e0b"/>
+  <rect x="45" y="125" width="20" height="30" fill="#fbbf24"/>
+  <rect x="75" y="135" width="40" height="25" rx="2" fill="#ec4899"/>
+  <rect x="120" y="110" width="35" height="50" rx="2" fill="#38bdf8"/>
+  
+  <!-- Laptop -->
+  <path d="M160 160 L210 160 L200 130 L170 130 Z" fill="#94a3b8"/>
+  <rect x="175" y="135" width="20" height="20" fill="#0f172a"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="80" r="25" fill="#fde68a"/>
+  <path d="M100 100 Q120 120 140 100" stroke="#fde68a" stroke-width="4" fill="none"/>
+  <rect x="95" y="105" width="50" height="60" rx="10" fill="#fb923c"/>
+  
+  <!-- Floating Knowledge Elements -->
+  <circle cx="180" cy="70" r="8" fill="#10b981"/>
+  <path d="M180 65 L180 75 M175 70 L185 70" stroke="#fff" stroke-width="2"/>
+  <circle cx="60" cy="70" r="6" fill="#38bdf8"/>
+  <rect x="57" y="67" width="6" height="6" fill="#fff" transform="rotate(45 60 70)"/>
+  
+  <!-- Light Glow -->
+  <circle cx="120" cy="80" r="40" fill="#f59e0b" opacity="0.1"/>
+</svg>

@@ -14172,10 +14172,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/充当.svg",
     "caption": "đóng vai, làm"
   },
+  "冲动": {
+    "file": "冲动.svg",
+    "src": "images/HSK_2.0/level6/冲动.svg",
+    "caption": "bốc đồng, xung động"
+  },
+  "冲击": {
+    "file": "冲击.svg",
+    "src": "images/HSK_2.0/level6/冲击.svg",
+    "caption": "xung kích, va đập, tác động mạnh"
+  },
+  "充沛": {
+    "file": "充沛.svg",
+    "src": "images/HSK_2.0/level6/充沛.svg",
+    "caption": "sung mãn, dồi dào"
+  },
+  "充实": {
+    "file": "充实.svg",
+    "src": "images/HSK_2.0/level6/充实.svg",
+    "caption": "sung túc, đầy đủ phong phú"
+  },
+  "冲突": {
+    "file": "冲突.svg",
+    "src": "images/HSK_2.0/level6/冲突.svg",
+    "caption": "xung đột"
+  },
   "充足": {
     "file": "充足.svg",
     "src": "images/HSK_2.0/level6/充足.svg",
     "caption": "đầy đủ, dồi dào"
+  },
+  "崇拜": {
+    "file": "崇拜.svg",
+    "src": "images/HSK_2.0/level6/崇拜.svg",
+    "caption": "tôn sùng, thờ phụng"
+  },
+  "重叠": {
+    "file": "重叠.svg",
+    "src": "images/HSK_2.0/level6/重叠.svg",
+    "caption": "trùng lặp, chồng lên"
+  },
+  "崇高": {
+    "file": "崇高.svg",
+    "src": "images/HSK_2.0/level6/崇高.svg",
+    "caption": "cao cả"
+  },
+  "崇敬": {
+    "file": "崇敬.svg",
+    "src": "images/HSK_2.0/level6/崇敬.svg",
+    "caption": "kính trọng, tôn kính"
+  },
+  "抽空": {
+    "file": "抽空.svg",
+    "src": "images/HSK_2.0/level6/抽空.svg",
+    "caption": "tranh thủ thời gian"
   },
   "传递": {
     "file": "传递.svg",
