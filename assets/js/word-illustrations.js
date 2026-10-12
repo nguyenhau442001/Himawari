@@ -18227,6 +18227,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拧.svg",
     "caption": "vặn, xoắn"
   },
+  "凝固": {
+    "file": "凝固.svg",
+    "src": "images/HSK_2.0/level6/凝固.svg",
+    "caption": "đông cứng, ngưng kết"
+  },
+  "凝聚": {
+    "file": "凝聚.svg",
+    "src": "images/HSK_2.0/level6/凝聚.svg",
+    "caption": "tụ lại, kết tụ"
+  },
+  "凝视": {
+    "file": "凝视.svg",
+    "src": "images/HSK_2.0/level6/凝视.svg",
+    "caption": "nhìn chăm chú, đăm đăm nhìn"
+  },
+  "宁肯": {
+    "file": "宁肯.svg",
+    "src": "images/HSK_2.0/level6/宁肯.svg",
+    "caption": "thà rằng, chấp nhận thà... còn hơn"
+  },
+  "宁愿": {
+    "file": "宁愿.svg",
+    "src": "images/HSK_2.0/level6/宁愿.svg",
+    "caption": "thà rằng"
+  },
+  "纽扣儿": {
+    "file": "纽扣儿.svg",
+    "src": "images/HSK_2.0/level6/纽扣儿.svg",
+    "caption": "cái nút áo"
+  },
+  "扭转": {
+    "file": "扭转.svg",
+    "src": "images/HSK_2.0/level6/扭转.svg",
+    "caption": "xoay chuyển, đảo ngược (tình huống)"
+  },
+  "浓厚": {
+    "file": "浓厚.svg",
+    "src": "images/HSK_2.0/level6/浓厚.svg",
+    "caption": "đậm đặc, sâu đậm (hứng thú, không khí)"
+  },
+  "农历": {
+    "file": "农历.svg",
+    "src": "images/HSK_2.0/level6/农历.svg",
+    "caption": "âm lịch"
+  },
+  "奴隶": {
+    "file": "奴隶.svg",
+    "src": "images/HSK_2.0/level6/奴隶.svg",
+    "caption": "nô lệ"
+  },
   "哦": {
     "file": "哦.svg",
     "src": "images/HSK_2.0/level6/哦.svg",

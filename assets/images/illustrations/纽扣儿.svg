@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 80)">
+    <circle cx="60" cy="30" r="25" fill="#fde68a"/>
+    <path d="M45 60 Q60 100 75 60" fill="#fde68a"/>
+    <rect x="35" y="60" width="50" height="90" rx="10" fill="#38bdf8"/>
+    <circle cx="60" cy="80" r="6" fill="#fbbf24"/>
+    <circle cx="60" cy="110" r="6" fill="#fbbf24"/>
+    <circle cx="60" cy="140" r="6" fill="#fbbf24"/>
+    <path d="M60 95 L60 105 M60 125 L60 135" stroke="#0f172a" stroke-width="2"/>
+    <path d="M45 30 L35 20 M75 30 L85 20" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- The missing button on the floor -->
+  <g transform="translate(140, 180)">
+    <circle cx="0" cy="0" r="8" fill="#fb923c"/>
+    <circle cx="0" cy="0" r="3" fill="#0f172a"/>
+    <path d="M-4 0 L4 0 M0 -4 L0 4" stroke="#0f172a" stroke-width="1"/>
+  </g>
+
+  <!-- Expression of realization -->
+  <path d="M130 90 Q145 70 160 90" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="135" cy="80" r="2" fill="#fbbf24"/>
+  <circle cx="155" cy="80" r="2" fill="#fbbf24"/>
+
+  <!-- Context: Floor line -->
+  <line x1="0" y1="220" x2="240" y2="220" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Decorative light accent -->
+  <circle cx="200" cy="40" r="30" fill="#fbbf24" opacity="0.05"/>
+</svg>

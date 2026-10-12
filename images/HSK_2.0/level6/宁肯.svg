@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(20, 40)">
+    <!-- Desk -->
+    <rect x="10" y="120" width="180" height="15" rx="2" fill="#334155"/>
+    <rect x="20" y="135" width="10" height="40" fill="#334155"/>
+    <rect x="170" y="135" width="10" height="40" fill="#334155"/>
+    
+    <!-- Character -->
+    <circle cx="100" cy="60" r="25" fill="#fbbf24"/>
+    <path d="M85 65 Q100 75 115 65" stroke="#0f172a" stroke-width="2" fill="none"/>
+    <circle cx="92" cy="55" r="3" fill="#0f172a"/>
+    <circle cx="108" cy="55" r="3" fill="#0f172a"/>
+    
+    <!-- Arms working -->
+    <path d="M80 90 L60 120 M120 90 L140 120" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Detailed Project (The "Work") -->
+    <rect x="60" y="100" width="80" height="20" rx="4" fill="#10b981"/>
+    <rect x="65" y="105" width="70" height="2" rx="1" fill="#ffffff" opacity="0.3"/>
+    <rect x="65" y="110" width="50" height="2" rx="1" fill="#ffffff" opacity="0.3"/>
+    
+    <!-- Clock indicating time passing -->
+    <circle cx="180" cy="30" r="20" fill="#334155" stroke="#fb923c" stroke-width="2"/>
+    <line x1="180" y1="30" x2="180" y2="15" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+    <line x1="180" y1="30" x2="195" y2="30" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Tools -->
+    <rect x="150" y="110" width="10" height="10" fill="#ec4899" rx="2"/>
+    <circle cx="40" cy="115" r="5" fill="#38bdf8"/>
+    
+    <!-- Ambient light -->
+    <ellipse cx="100" cy="120" rx="60" ry="10" fill="#fbbf24" opacity="0.1"/>
+  </g>
+</svg>

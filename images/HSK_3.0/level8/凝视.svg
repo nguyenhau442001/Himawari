@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Distant Horizon/Cityscape -->
+  <path d="M0 160 L60 130 L120 150 L180 120 L240 140 L240 240 L0 240 Z" fill="#334155"/>
+  <rect x="20" y="140" width="10" height="20" fill="#475569"/>
+  <rect x="50" y="120" width="15" height="40" fill="#475569"/>
+  <rect x="140" y="130" width="20" height="30" fill="#475569"/>
+  <circle cx="190" cy="80" r="25" fill="#f59e0b" opacity="0.8"/>
+  
+  <!-- Window Frame -->
+  <rect x="10" y="10" width="220" height="220" rx="10" stroke="#475569" stroke-width="8" fill="none"/>
+  <line x1="120" y1="10" x2="120" y2="230" stroke="#475569" stroke-width="4"/>
+  
+  <!-- Character: The Man -->
+  <g transform="translate(40, 80)">
+    <!-- Body -->
+    <path d="M20 160 C20 130, 40 120, 60 120 C80 120, 100 130, 100 160 L100 240 L20 240 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="60" cy="100" r="25" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M40 95 C40 70, 80 70, 80 95 C80 85, 70 80, 60 80 C50 80, 40 85, 40 95" fill="#1e293b"/>
+    <!-- Eyes (Focusing) -->
+    <line x1="65" y1="98" x2="80" y2="98" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="65" y1="102" x2="80" y2="102" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Mouth (Closed) -->
+    <line x1="68" y1="112" x2="75" y2="112" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Atmosphere/Glow -->
+  <circle cx="190" cy="80" r="40" fill="#fbbf24" opacity="0.1"/>
+  <path d="M0 180 Q120 170 240 180" stroke="#fb923c" stroke-width="1" opacity="0.3" fill="none"/>
+</svg>

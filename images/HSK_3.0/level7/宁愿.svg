@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Room Interior -->
+  <path d="M20 180 L220 180 L200 220 L40 220 Z" fill="#334155"/>
+  <rect x="20" y="80" width="200" height="100" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Window with warm light -->
+  <rect x="140" y="40" width="60" height="80" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+  <rect x="170" y="40" width="2" height="80" fill="#fbbf24"/>
+  <rect x="140" y="80" width="60" height="2" fill="#fbbf24"/>
+  <circle cx="170" cy="60" r="15" fill="#fbbf24" opacity="0.2"/>
+
+  <!-- Character: Woman sitting alone reading -->
+  <g transform="translate(60, 110)">
+    <!-- Chair -->
+    <path d="M0 60 L60 60 L55 20 L5 20 Z" fill="#475569"/>
+    <!-- Body -->
+    <path d="M15 50 C15 30, 45 30, 45 50 L40 60 L20 60 Z" fill="#ec4899"/>
+    <!-- Head -->
+    <circle cx="30" cy="25" r="15" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M15 25 Q15 5 30 5 Q45 5 45 25 L40 25 L30 10 L20 25 Z" fill="#fb923c"/>
+    <!-- Book -->
+    <rect x="45" y="40" width="30" height="20" rx="2" fill="#f8fafc"/>
+    <path d="M45 42 L75 42 M45 46 L75 46 M45 50 L75 50" stroke="#1e293b" stroke-width="1"/>
+  </g>
+
+  <!-- Potted Plant -->
+  <rect x="180" y="160" width="20" height="20" fill="#fb923c"/>
+  <path d="M190 160 Q210 130 190 120 Q170 130 190 160" fill="#10b981"/>
+  
+  <!-- Lamp -->
+  <path d="M30 180 L30 120 L50 120 L50 180" fill="#334155"/>
+  <path d="M20 120 L60 120 L50 100 L30 100 Z" fill="#fbbf24"/>
+  
+  <!-- Atmosphere -->
+  <circle cx="170" cy="60" r="3" fill="#fbbf24"/>
+  <circle cx="185" cy="50" r="2" fill="#fbbf24"/>
+  <circle cx="150" cy="55" r="2" fill="#fbbf24"/>
+</svg>

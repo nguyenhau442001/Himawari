@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Ancient Architecture Context -->
+  <path d="M40 180 L40 100 L70 70 L100 100 L100 180 Z" fill="#334155"/>
+  <path d="M140 180 L140 100 L170 70 L200 100 L200 180 Z" fill="#334155"/>
+  <rect x="30" y="180" width="180" height="10" fill="#475569"/>
+  
+  <!-- The Slave Figure (Subject) -->
+  <g transform="translate(70, 120)">
+    <circle cx="10" cy="10" r="8" fill="#fbbf24"/>
+    <path d="M10 18 L10 40 M10 25 L0 35 M10 25 L20 35 M5 60 L5 80 M15 60 L15 80" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="10" cy="50" rx="12" ry="15" fill="#fbbf24"/>
+    <!-- Shackle -->
+    <circle cx="10" cy="70" r="6" fill="none" stroke="#94a3b8" stroke-width="3"/>
+  </g>
+  
+  <!-- Overseer Figure -->
+  <g transform="translate(160, 110)">
+    <circle cx="10" cy="10" r="8" fill="#38bdf8"/>
+    <path d="M10 18 L10 45 L0 60 M10 45 L20 60 M10 25 L25 35" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M25 35 L35 30" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Environmental Details -->
+  <path d="M20 200 Q120 180 220 200" stroke="#10b981" stroke-width="2" fill="none" opacity="0.5"/>
+  <circle cx="200" cy="40" r="20" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="200" cy="40" r="10" fill="#f59e0b" opacity="0.4"/>
+  
+  <!-- Chains/Constraint visual -->
+  <path d="M20 140 L65 140" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>
