@@ -18012,6 +18012,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/敏锐.svg",
     "caption": "nhạy bén, tinh nhuệ"
   },
+  "明明": {
+    "file": "明明.svg",
+    "src": "images/HSK_2.0/level6/明明.svg",
+    "caption": "rõ ràng là, hiển nhiên là"
+  },
+  "明智": {
+    "file": "明智.svg",
+    "src": "images/HSK_2.0/level6/明智.svg",
+    "caption": "sáng suốt, khôn ngoan"
+  },
+  "名次": {
+    "file": "名次.svg",
+    "src": "images/HSK_2.0/level6/名次.svg",
+    "caption": "thứ hạng, vị trí xếp hạng"
+  },
+  "名额": {
+    "file": "名额.svg",
+    "src": "images/HSK_2.0/level6/名额.svg",
+    "caption": "số lượng người được phép, chỉ tiêu"
+  },
+  "名副其实": {
+    "file": "名副其实.svg",
+    "src": "images/HSK_2.0/level6/名副其实.svg",
+    "caption": "danh xứng với thực, đúng như tên gọi"
+  },
+  "名誉": {
+    "file": "名誉.svg",
+    "src": "images/HSK_2.0/level6/名誉.svg",
+    "caption": "danh dự, danh tiếng"
+  },
+  "命名": {
+    "file": "命名.svg",
+    "src": "images/HSK_2.0/level6/命名.svg",
+    "caption": "đặt tên"
+  },
+  "摸索": {
+    "file": "摸索.svg",
+    "src": "images/HSK_2.0/level6/摸索.svg",
+    "caption": "mò mẫm, dò dẫm tìm hiểu"
+  },
+  "膜": {
+    "file": "膜.svg",
+    "src": "images/HSK_2.0/level6/膜.svg",
+    "caption": "màng (mỏng)"
+  },
+  "摩擦": {
+    "file": "摩擦.svg",
+    "src": "images/HSK_2.0/level6/摩擦.svg",
+    "caption": "ma sát, xung đột nhỏ"
+  },
   "模式": {
     "file": "模式.svg",
     "src": "images/HSK_2.0/level6/模式.svg",

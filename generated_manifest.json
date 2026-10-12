@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T21:43:07.598792",
-  "total_unique_words_with_illustrations": 4205,
-  "total_flat_svg_files": 4205,
+  "generated_at": "2026-10-12T21:47:48.448414",
+  "total_unique_words_with_illustrations": 4215,
+  "total_flat_svg_files": 4215,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1565,
-        "pct": "62.6%"
+        "with_svg": 1575,
+        "pct": "63.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 533,
-        "pct": "29.6%"
+        "with_svg": 536,
+        "pct": "29.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 730,
-        "pct": "13.0%"
+        "with_svg": 737,
+        "pct": "13.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 730,
-        "pct": "13.0%"
+        "with_svg": 737,
+        "pct": "13.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 730,
-        "pct": "13.0%"
+        "with_svg": 737,
+        "pct": "13.2%"
       }
     }
   },
@@ -67094,6 +67094,214 @@
         "images/HSK_3.0/level7/敏锐.svg",
         "images/HSK_3.0/level8/敏锐.svg",
         "images/HSK_3.0/level9/敏锐.svg"
+      ]
+    },
+    "明明": {
+      "hanzi": "明明",
+      "pinyin": "míngmíng",
+      "meaning": "rõ ràng là, hiển nhiên là",
+      "example_zh": "<u>明明</u>是他的错，他却不承认。",
+      "example_vi": "<u>Rõ ràng là</u> lỗi của anh ấy, nhưng anh ấy lại không nhận.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "明明.svg",
+      "src": "images/HSK_2.0/level6/明明.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/明明.svg"
+      ]
+    },
+    "明智": {
+      "hanzi": "明智",
+      "pinyin": "míngzhì",
+      "meaning": "sáng suốt, khôn ngoan",
+      "example_zh": "这是一个<u>明智</u>的决定。",
+      "example_vi": "Đây là một quyết định <u>sáng suốt</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "明智.svg",
+      "src": "images/HSK_2.0/level6/明智.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/明智.svg",
+        "images/HSK_3.0/level8/明智.svg",
+        "images/HSK_3.0/level9/明智.svg"
+      ]
+    },
+    "名次": {
+      "hanzi": "名次",
+      "pinyin": "míngcì",
+      "meaning": "thứ hạng, vị trí xếp hạng",
+      "example_zh": "他在比赛中取得了好<u>名次</u>。",
+      "example_vi": "Anh ấy đã đạt <u>thứ hạng</u> tốt trong cuộc thi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "名次.svg",
+      "src": "images/HSK_2.0/level6/名次.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/名次.svg",
+        "images/HSK_3.0/level8/名次.svg",
+        "images/HSK_3.0/level9/名次.svg"
+      ]
+    },
+    "名额": {
+      "hanzi": "名额",
+      "pinyin": "míng'é",
+      "meaning": "số lượng người được phép, chỉ tiêu",
+      "example_zh": "今年招生<u>名额</u>有限。",
+      "example_vi": "<u>Chỉ tiêu</u> tuyển sinh năm nay có hạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "名额.svg",
+      "src": "images/HSK_2.0/level6/名额.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/名额.svg"
+      ]
+    },
+    "名副其实": {
+      "hanzi": "名副其实",
+      "pinyin": "míngfùqíshí",
+      "meaning": "danh xứng với thực, đúng như tên gọi",
+      "example_zh": "他是<u>名副其实</u>的专家。",
+      "example_vi": "Anh ấy là chuyên gia <u>danh xứng với thực</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "名副其实.svg",
+      "src": "images/HSK_2.0/level6/名副其实.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/名副其实.svg",
+        "images/HSK_3.0/level8/名副其实.svg",
+        "images/HSK_3.0/level9/名副其实.svg"
+      ]
+    },
+    "名誉": {
+      "hanzi": "名誉",
+      "pinyin": "míngyù",
+      "meaning": "danh dự, danh tiếng",
+      "example_zh": "他非常重视自己的<u>名誉</u>。",
+      "example_vi": "Anh ấy rất coi trọng <u>danh dự</u> của bản thân.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "名誉.svg",
+      "src": "images/HSK_2.0/level6/名誉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/名誉.svg",
+        "images/HSK_3.0/level8/名誉.svg",
+        "images/HSK_3.0/level9/名誉.svg"
+      ]
+    },
+    "命名": {
+      "hanzi": "命名",
+      "pinyin": "mìngmíng",
+      "meaning": "đặt tên",
+      "example_zh": "这条街以一位英雄的名字<u>命名</u>。",
+      "example_vi": "Con đường này được <u>đặt tên</u> theo một vị anh hùng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "命名.svg",
+      "src": "images/HSK_2.0/level6/命名.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/命名.svg"
+      ]
+    },
+    "摸索": {
+      "hanzi": "摸索",
+      "pinyin": "mōsuǒ",
+      "meaning": "mò mẫm, dò dẫm tìm hiểu",
+      "example_zh": "他在黑暗中<u>摸索</u>着前进。",
+      "example_vi": "Anh ấy <u>mò mẫm</u> tiến lên trong bóng tối.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "摸索.svg",
+      "src": "images/HSK_2.0/level6/摸索.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/摸索.svg",
+        "images/HSK_3.0/level8/摸索.svg",
+        "images/HSK_3.0/level9/摸索.svg"
+      ]
+    },
+    "膜": {
+      "hanzi": "膜",
+      "pinyin": "mó",
+      "meaning": "màng (mỏng)",
+      "example_zh": "鸡蛋壳里面有一层<u>膜</u>。",
+      "example_vi": "Bên trong vỏ trứng có một lớp <u>màng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "膜.svg",
+      "src": "images/HSK_2.0/level6/膜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/膜.svg",
+        "images/HSK_3.0/level8/膜.svg",
+        "images/HSK_3.0/level9/膜.svg"
+      ]
+    },
+    "摩擦": {
+      "hanzi": "摩擦",
+      "pinyin": "mócā",
+      "meaning": "ma sát, xung đột nhỏ",
+      "example_zh": "两国之间存在一些<u>摩擦</u>。",
+      "example_vi": "Giữa hai nước tồn tại một số <u>xung đột</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "摩擦.svg",
+      "src": "images/HSK_2.0/level6/摩擦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/摩擦.svg",
+        "images/HSK_3.0/level8/摩擦.svg",
+        "images/HSK_3.0/level9/摩擦.svg"
       ]
     },
     "模式": {

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="30" y="140" width="180" height="10" rx="2" fill="#334155"/>
+  <rect x="40" y="150" width="10" height="80" fill="#475569"/>
+  <rect x="190" y="150" width="10" height="80" fill="#475569"/>
+  
+  <!-- Character (The Decision Maker) -->
+  <circle cx="120" cy="80" r="25" fill="#fde68a"/>
+  <path d="M105 75 Q110 70 115 75 M125 75 Q130 70 135 75" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <path d="M110 90 Q120 95 130 90" stroke="#1e293b" stroke-width="2" fill="none"/>
+  <path d="M90 110 L150 110 L140 160 L100 160 Z" fill="#38bdf8"/>
+  
+  <!-- The "Wise Decision" Symbolism: A glowing lightbulb and a checkmark -->
+  <g transform="translate(160, 50)">
+    <circle cx="0" cy="0" r="15" fill="#fbbf24"/>
+    <path d="M-5 -5 L0 5 L5 -5" stroke="#0f172a" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Props on Desk -->
+  <rect x="50" y="130" width="40" height="10" rx="2" fill="#fb923c"/>
+  <circle cx="170" cy="135" r="8" fill="#10b981"/>
+  
+  <!-- Window/Background Detail -->
+  <rect x="60" y="20" width="120" height="40" rx="5" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <circle cx="180" cy="30" r="10" fill="#fbbf24"/>
+  
+  <!-- Decorative elements -->
+  <path d="M20 180 Q60 160 100 180 T180 180" stroke="#334155" stroke-width="2" fill="none"/>
+</svg>

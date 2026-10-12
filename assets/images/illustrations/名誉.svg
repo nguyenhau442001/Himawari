@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="30" y="140" width="180" height="10" fill="#334155" rx="2"/>
+  <rect x="40" y="150" width="10" height="80" fill="#475569"/>
+  <rect x="190" y="150" width="10" height="80" fill="#475569"/>
+  
+  <!-- Character: Upper body, professional, serious expression -->
+  <circle cx="120" cy="80" r="35" fill="#fde68a"/>
+  <path d="M95 80 Q120 100 145 80" stroke="#475569" stroke-width="3" fill="none"/>
+  <circle cx="108" cy="75" r="3" fill="#1e293b"/>
+  <circle cx="132" cy="75" r="3" fill="#1e293b"/>
+  
+  <!-- Suit/Professional Attire -->
+  <path d="M85 110 L155 110 L165 160 L75 160 Z" fill="#38bdf8"/>
+  <path d="M100 110 L120 140 L140 110" fill="#1e293b" opacity="0.3"/>
+  
+  <!-- The "Honor" Symbolism: A polished gold medal/frame on the desk -->
+  <circle cx="120" cy="125" r="15" fill="#fbbf24"/>
+  <circle cx="120" cy="125" r="10" fill="#f59e0b"/>
+  <path d="M115 120 L125 130 M125 120 L115 130" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Props: Documents/Files -->
+  <rect x="40" y="120" width="30" height="40" fill="#e2e8f0" rx="2"/>
+  <rect x="170" y="120" width="30" height="40" fill="#e2e8f0" rx="2"/>
+  
+  <!-- Hand gesture: Protecting/Valuing the object -->
+  <path d="M100 130 C90 130 85 140 90 150" stroke="#fde68a" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M140 130 C150 130 155 140 150 150" stroke="#fde68a" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Ambient glow -->
+  <circle cx="120" cy="125" r="40" fill="#fbbf24" opacity="0.1"/>
+</svg>
