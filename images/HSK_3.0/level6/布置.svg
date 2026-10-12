@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Room Interior -->
+  <rect x="20" y="40" width="200" height="160" rx="10" fill="#334155" opacity="0.3"/>
+  
+  <!-- Window with warm light -->
+  <rect x="40" y="60" width="60" height="80" rx="4" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <rect x="42" y="62" width="27" height="37" fill="#fbbf24" opacity="0.2"/>
+  <rect x="71" y="62" width="27" height="37" fill="#fbbf24" opacity="0.2"/>
+  <rect x="42" y="101" width="27" height="37" fill="#fbbf24" opacity="0.2"/>
+  <rect x="71" y="101" width="27" height="37" fill="#fbbf24" opacity="0.2"/>
+  
+  <!-- Hanging lights -->
+  <circle cx="160" cy="50" r="8" fill="#f59e0b"/>
+  <path d="M160 58 L160 80" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="190" cy="60" r="6" fill="#f59e0b"/>
+  <path d="M190 66 L190 90" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 140)">
+    <circle cx="0" cy="-30" r="15" fill="#fde68a"/> <!-- Head -->
+    <path d="M-15 -30 Q-20 -45 0 -45 T15 -30" fill="#ec4899"/> <!-- Hair -->
+    <path d="M-10 0 L-20 40 L20 40 L10 0 Z" fill="#38bdf8"/> <!-- Body -->
+    <path d="M-15 10 L-30 25" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/> <!-- Arm -->
+    <path d="M15 10 L30 25" stroke="#fde68a" stroke-width="6" stroke-linecap="round"/> <!-- Arm -->
+  </g>
+  
+  <!-- Decor elements -->
+  <rect x="140" y="160" width="60" height="40" rx="5" fill="#fb923c"/> <!-- Sofa/Cushion -->
+  <circle cx="170" cy="180" r="10" fill="#10b981"/> <!-- Plant -->
+  <path d="M170 170 L170 160 M170 170 L180 165 M170 170 L160 165" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Floor rug -->
+  <rect x="40" y="200" width="160" height="10" rx="2" fill="#ec4899" opacity="0.6"/>
+</svg>

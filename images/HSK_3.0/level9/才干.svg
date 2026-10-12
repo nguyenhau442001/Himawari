@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Architectural drafting table -->
+  <path d="M40 180 L200 180 L190 210 L50 210 Z" fill="#334155"/>
+  <path d="M50 210 L60 230 L180 230 L190 210 Z" fill="#1e293b"/>
+  
+  <!-- Blueprint paper -->
+  <rect x="60" y="140" width="120" height="80" fill="#e2e8f0" rx="2"/>
+  <path d="M70 150 L170 150 M70 165 L170 165 M70 180 L130 180" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="150" cy="190" r="15" fill="none" stroke="#fb923c" stroke-width="3"/>
+  <path d="M145 185 L155 195 M155 185 L145 195" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Character: The Architect -->
+  <g transform="translate(120, 100)">
+    <!-- Body -->
+    <path d="M-30 80 C-30 40, 30 40, 30 80 L20 120 L-20 120 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="25" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-25 20 C-25 -5, 25 -5, 25 20 C25 10, 15 5, 0 5 C-15 5, -25 10, -25 20" fill="#475569"/>
+    <!-- Glasses -->
+    <rect x="-15" y="15" width="10" height="6" fill="#0f172a" rx="1"/>
+    <rect x="5" y="15" width="10" height="6" fill="#0f172a" rx="1"/>
+    <!-- Arm reaching out -->
+    <path d="M25 50 L50 70" stroke="#fde68a" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Spotlight effect -->
+  <ellipse cx="120" cy="160" rx="80" ry="40" fill="#fbbf24" opacity="0.1"/>
+  
+  <!-- Floating geometric icons representing talent/ideas -->
+  <circle cx="180" cy="60" r="8" fill="#10b981"/>
+  <path d="M170 90 L190 90 L180 110 Z" fill="#ec4899"/>
+  <rect x="40" y="50" width="12" height="12" fill="#fb923c" transform="rotate(20 46 56)"/>
+</svg>

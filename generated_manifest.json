@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:01:26.098177",
-  "total_unique_words_with_illustrations": 3379,
-  "total_flat_svg_files": 3379,
+  "generated_at": "2026-10-12T11:04:41.092452",
+  "total_unique_words_with_illustrations": 3389,
+  "total_flat_svg_files": 3389,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 739,
-        "pct": "29.6%"
+        "with_svg": 749,
+        "pct": "30.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 279,
-        "pct": "15.5%"
+        "with_svg": 282,
+        "pct": "15.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 216,
+        "with_svg": 221,
         "pct": "3.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 216,
+        "with_svg": 221,
         "pct": "3.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 216,
+        "with_svg": 221,
         "pct": "3.9%"
       }
     }
@@ -49468,6 +49468,198 @@
         "images/HSK_3.0/level7/不相上下.svg",
         "images/HSK_3.0/level8/不相上下.svg",
         "images/HSK_3.0/level9/不相上下.svg"
+      ]
+    },
+    "不像话": {
+      "hanzi": "不像话",
+      "pinyin": "bù xiàng huà",
+      "meaning": "vô lý, quá đáng",
+      "example_zh": "你这样做太<u>不像话</u>了。",
+      "example_vi": "Bạn làm như vậy thật <u>quá đáng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不像话.svg",
+      "src": "images/HSK_2.0/level6/不像话.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不像话.svg",
+        "images/HSK_3.0/level8/不像话.svg",
+        "images/HSK_3.0/level9/不像话.svg"
+      ]
+    },
+    "不屑一顾": {
+      "hanzi": "不屑一顾",
+      "pinyin": "bù xiè yī gù",
+      "meaning": "coi thường, không đáng để ý",
+      "example_zh": "他对这个提议<u>不屑一顾</u>。",
+      "example_vi": "Anh ấy <u>coi thường, không để ý</u> đến đề nghị này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "不屑一顾.svg",
+      "src": "images/HSK_2.0/level6/不屑一顾.svg",
+      "alt_srcs": []
+    },
+    "不言而喻": {
+      "hanzi": "不言而喻",
+      "pinyin": "bù yán ér yù",
+      "meaning": "hiển nhiên, không cần nói cũng biết",
+      "example_zh": "这个道理<u>不言而喻</u>。",
+      "example_vi": "Lẽ này <u>hiển nhiên không cần nói</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不言而喻.svg",
+      "src": "images/HSK_2.0/level6/不言而喻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不言而喻.svg",
+        "images/HSK_3.0/level8/不言而喻.svg",
+        "images/HSK_3.0/level9/不言而喻.svg"
+      ]
+    },
+    "不由得": {
+      "hanzi": "不由得",
+      "pinyin": "bùyóude",
+      "meaning": "không kìm được, tự nhiên",
+      "example_zh": "听到这个消息，他<u>不由得</u>哭了。",
+      "example_vi": "Nghe tin này, anh ấy <u>tự nhiên</u> bật khóc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "不由得.svg",
+      "src": "images/HSK_2.0/level6/不由得.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/不由得.svg",
+        "images/HSK_3.0/level8/不由得.svg",
+        "images/HSK_3.0/level9/不由得.svg"
+      ]
+    },
+    "不择手段": {
+      "hanzi": "不择手段",
+      "pinyin": "bù zé shǒu duàn",
+      "meaning": "bất chấp mọi thủ đoạn",
+      "example_zh": "他为了成功<u>不择手段</u>。",
+      "example_vi": "Anh ta <u>bất chấp mọi thủ đoạn</u> để thành công.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "不择手段.svg",
+      "src": "images/HSK_2.0/level6/不择手段.svg",
+      "alt_srcs": []
+    },
+    "不止": {
+      "hanzi": "不止",
+      "pinyin": "bùzhǐ",
+      "meaning": "không chỉ, hơn (số lượng)",
+      "example_zh": "受伤的<u>不止</u>一个人。",
+      "example_vi": "Người bị thương <u>không chỉ</u> một người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "不止.svg",
+      "src": "images/HSK_2.0/level6/不止.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/不止.svg"
+      ]
+    },
+    "布置": {
+      "hanzi": "布置",
+      "pinyin": "bùzhì",
+      "meaning": "bố trí, trang trí",
+      "example_zh": "她把房间<u>布置</u>得很温馨。",
+      "example_vi": "Cô ấy <u>bố trí</u> căn phòng rất ấm cúng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "布置.svg",
+      "src": "images/HSK_2.0/level6/布置.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/布置.svg"
+      ]
+    },
+    "裁缝": {
+      "hanzi": "裁缝",
+      "pinyin": "cáifeng",
+      "meaning": "thợ may",
+      "example_zh": "这件衣服是<u>裁缝</u>做的。",
+      "example_vi": "Bộ quần áo này do <u>thợ may</u> làm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "裁缝.svg",
+      "src": "images/HSK_2.0/level6/裁缝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/裁缝.svg",
+        "images/HSK_3.0/level8/裁缝.svg",
+        "images/HSK_3.0/level9/裁缝.svg"
+      ]
+    },
+    "财富": {
+      "hanzi": "财富",
+      "pinyin": "cáifù",
+      "meaning": "của cải, tài sản",
+      "example_zh": "健康比<u>财富</u>更重要。",
+      "example_vi": "Sức khỏe quan trọng hơn <u>của cải</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "财富.svg",
+      "src": "images/HSK_2.0/level6/财富.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/财富.svg"
+      ]
+    },
+    "才干": {
+      "hanzi": "才干",
+      "pinyin": "cáigàn",
+      "meaning": "tài năng, năng lực",
+      "example_zh": "他展现出非凡的<u>才干</u>。",
+      "example_vi": "Anh ấy thể hiện <u>tài năng</u> phi thường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "才干.svg",
+      "src": "images/HSK_2.0/level6/才干.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/才干.svg",
+        "images/HSK_3.0/level8/才干.svg",
+        "images/HSK_3.0/level9/才干.svg"
       ]
     },
     "裁判": {

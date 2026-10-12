@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="20" y="140" width="200" height="10" rx="2" fill="#334155"/>
+  <rect x="180" y="150" width="10" height="90" fill="#475569"/>
+  <rect x="50" y="150" width="10" height="90" fill="#475569"/>
+  
+  <!-- Phone/Letter Prop -->
+  <rect x="80" y="110" width="60" height="40" rx="4" fill="#f8fafc"/>
+  <path d="M85 120h50M85 130h50M85 140h30" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-40 120c0-30 20-50 40-50s40 20 40 50" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="0" cy="40" r="25" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M-25 40c0-15 10-25 25-25s25 10 25 25" fill="#475569"/>
+    <!-- Eyes (Closed in tears) -->
+    <path d="M-12 40l8-4M-12 44l8-4M4 40l8-4M4 44l8-4" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+    <!-- Tears -->
+    <circle cx="-8" cy="50" r="3" fill="#38bdf8"/>
+    <circle cx="8" cy="50" r="3" fill="#38bdf8"/>
+    <path d="M-8 53v10M8 53v10" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+    <!-- Mouth (Sad) -->
+    <path d="M-10 60c5 5 15 5 20 0" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Ambient Glow -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.1"/>
+</svg>

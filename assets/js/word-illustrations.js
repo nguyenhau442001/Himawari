@@ -13627,6 +13627,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/不相上下.svg",
     "caption": "ngang ngửa, không phân biệt hơn kém"
   },
+  "不像话": {
+    "file": "不像话.svg",
+    "src": "images/HSK_2.0/level6/不像话.svg",
+    "caption": "vô lý, quá đáng"
+  },
+  "不屑一顾": {
+    "file": "不屑一顾.svg",
+    "src": "images/HSK_2.0/level6/不屑一顾.svg",
+    "caption": "coi thường, không đáng để ý"
+  },
+  "不言而喻": {
+    "file": "不言而喻.svg",
+    "src": "images/HSK_2.0/level6/不言而喻.svg",
+    "caption": "hiển nhiên, không cần nói cũng biết"
+  },
+  "不由得": {
+    "file": "不由得.svg",
+    "src": "images/HSK_2.0/level6/不由得.svg",
+    "caption": "không kìm được, tự nhiên"
+  },
+  "不择手段": {
+    "file": "不择手段.svg",
+    "src": "images/HSK_2.0/level6/不择手段.svg",
+    "caption": "bất chấp mọi thủ đoạn"
+  },
+  "不止": {
+    "file": "不止.svg",
+    "src": "images/HSK_2.0/level6/不止.svg",
+    "caption": "không chỉ, hơn (số lượng)"
+  },
+  "布置": {
+    "file": "布置.svg",
+    "src": "images/HSK_2.0/level6/布置.svg",
+    "caption": "bố trí, trang trí"
+  },
+  "裁缝": {
+    "file": "裁缝.svg",
+    "src": "images/HSK_2.0/level6/裁缝.svg",
+    "caption": "thợ may"
+  },
+  "财富": {
+    "file": "财富.svg",
+    "src": "images/HSK_2.0/level6/财富.svg",
+    "caption": "của cải, tài sản"
+  },
+  "才干": {
+    "file": "才干.svg",
+    "src": "images/HSK_2.0/level6/才干.svg",
+    "caption": "tài năng, năng lực"
+  },
   "裁判": {
     "file": "裁判.svg",
     "src": "images/HSK_2.0/level6/裁判.svg",
