@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk -->
+  <rect x="20" y="140" width="200" height="15" rx="4" fill="#334155"/>
+  <rect x="40" y="155" width="10" height="85" rx="2" fill="#475569"/>
+  <rect x="190" y="155" width="10" height="85" rx="2" fill="#475569"/>
+  
+  <!-- Clipboard/Questionnaire -->
+  <path d="M80 80h80v110h-80z" fill="#f1f5f9" rx="5"/>
+  <path d="M90 95h60v10h-60z" fill="#cbd5e1"/>
+  <path d="M90 115h60v5h-60z" fill="#e2e8f0"/>
+  <path d="M90 130h40v5h-40z" fill="#e2e8f0"/>
+  <path d="M90 145h50v5h-50z" fill="#e2e8f0"/>
+  <circle cx="145" cy="165" r="8" fill="#fb923c"/>
+  
+  <!-- Character 1 (Holding pen) -->
+  <g transform="translate(160, 100)">
+    <circle cx="20" cy="20" r="15" fill="#fde68a"/>
+    <path d="M10 40h20v40h-20z" fill="#38bdf8"/>
+    <path d="M30 50l15 10" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M45 60l5 15" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Character 2 (Pointing) -->
+  <g transform="translate(30, 90)">
+    <circle cx="20" cy="20" r="15" fill="#fde68a"/>
+    <path d="M10 40h20v40h-20z" fill="#10b981"/>
+    <path d="M10 50l-15 10" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-5 60l-10 5" stroke="#fde68a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="3" fill="#fbbf24"/>
+  <circle cx="30" cy="30" r="2" fill="#38bdf8"/>
+  <path d="M210 180l10-10" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+</svg>

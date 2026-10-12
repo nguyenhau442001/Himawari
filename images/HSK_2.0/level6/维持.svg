@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table -->
+  <rect x="30" y="150" width="180" height="15" rx="4" fill="#475569"/>
+  <rect x="40" y="165" width="10" height="60" rx="2" fill="#334155"/>
+  <rect x="190" y="165" width="10" height="60" rx="2" fill="#334155"/>
+  
+  <!-- Character -->
+  <circle cx="120" cy="90" r="35" fill="#fde68a"/>
+  <path d="M95 100 Q120 125 145 100" stroke="#78350f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="108" cy="85" r="4" fill="#78350f"/>
+  <circle cx="132" cy="85" r="4" fill="#78350f"/>
+  <rect x="85" y="125" width="70" height="80" rx="10" fill="#38bdf8"/>
+  
+  <!-- Props: Laptop -->
+  <rect x="70" y="135" width="100" height="60" rx="5" fill="#94a3b8"/>
+  <rect x="75" y="140" width="90" height="45" rx="2" fill="#0f172a"/>
+  <rect x="85" y="145" width="70" height="35" rx="1" fill="#10b981"/>
+  
+  <!-- Props: Coffee -->
+  <rect x="180" y="130" width="25" height="20" rx="3" fill="#fb923c"/>
+  <path d="M205 135 Q215 135 215 145" stroke="#fb923c" stroke-width="4" fill="none"/>
+  
+  <!-- Environment: Window -->
+  <rect x="40" y="30" width="50" height="50" rx="5" stroke="#475569" stroke-width="2" fill="none"/>
+  <circle cx="65" cy="55" r="10" fill="#fbbf24"/>
+  
+  <!-- Floating coins/earnings -->
+  <circle cx="190" cy="80" r="8" fill="#f59e0b"/>
+  <circle cx="205" cy="60" r="6" fill="#f59e0b"/>
+  <circle cx="170" cy="50" r="5" fill="#f59e0b"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bg)"/>
+  
+  <!-- Street Environment -->
+  <path d="M0 180h240v60H0z" fill="#334155"/>
+  <path d="M0 180h240v4H0z" fill="#475569"/>
+  <path d="M20 200h40v4H20zM100 200h40v4H100zM180 200h40v4H180z" fill="#fbbf24"/>
+  
+  <!-- Police Car Light (The "Serious" indicator) -->
+  <circle cx="120" cy="80" r="15" fill="#ec4899" opacity="0.3"/>
+  <circle cx="120" cy="80" r="8" fill="#ec4899"/>
+  <rect x="110" y="70" width="20" height="5" fill="#fff" rx="2"/>
+  
+  <!-- Car -->
+  <path d="M60 160h120l10 20H50z" fill="#38bdf8"/>
+  <path d="M70 130h60l10 30H60z" fill="#38bdf8"/>
+  <circle cx="85" cy="180" r="12" fill="#0f172a"/>
+  <circle cx="155" cy="180" r="12" fill="#0f172a"/>
+  
+  <!-- Driver Character (Drunk/Dizzy) -->
+  <g transform="translate(100, 135)">
+    <ellipse cx="10" cy="0" rx="12" ry="14" fill="#fcd34d"/>
+    <path d="M5 -5h2M13 -5h2M8 5q2 2 4 0" stroke="#0f172a" stroke-width="2" fill="none"/>
+    <path d="M0 10h20v20H0z" fill="#fb923c"/>
+  </g>
+  
+  <!-- Alcohol Bottle (Context) -->
+  <path d="M160 150h10v20h-10z" fill="#fbbf24"/>
+  <path d="M162 145h6v5h-6z" fill="#fbbf24"/>
+  
+  <!-- Warning Sign (Abstract shape, no text) -->
+  <path d="M200 40l-20 35h40z" fill="#fb923c"/>
+  <path d="M200 50v10M200 65v2" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+</svg>

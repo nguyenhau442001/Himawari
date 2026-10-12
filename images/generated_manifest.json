@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:13:58.525792",
-  "total_unique_words_with_illustrations": 3040,
-  "total_flat_svg_files": 3040,
+  "generated_at": "2026-10-12T09:17:00.385759",
+  "total_unique_words_with_illustrations": 3050,
+  "total_flat_svg_files": 3050,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 558,
-        "pct": "22.3%"
+        "with_svg": 560,
+        "pct": "22.4%"
       }
     },
     "hsk_3_0": {
@@ -58,8 +58,8 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1421,
-        "pct": "88.8%"
+        "with_svg": 1431,
+        "pct": "89.4%"
       },
       "level6": {
         "total": 1800,
@@ -47754,6 +47754,42 @@
         "images/HSK_3.0/level5/统计.svg"
       ]
     },
+    "维持": {
+      "hanzi": "维持",
+      "pinyin": "wéichí",
+      "meaning": "duy trì",
+      "example_zh": "他靠打工<u>维持</u>生活。",
+      "example_vi": "Anh ấy <u>duy trì</u> cuộc sống bằng việc làm thêm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "维持.svg",
+      "src": "images/HSK_2.0/level6/维持.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/维持.svg"
+      ]
+    },
+    "舞蹈": {
+      "hanzi": "舞蹈",
+      "pinyin": "wǔdǎo",
+      "meaning": "múa, vũ điệu",
+      "example_zh": "她从小学习<u>舞蹈</u>。",
+      "example_vi": "Cô ấy học <u>múa</u> từ nhỏ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "舞蹈.svg",
+      "src": "images/HSK_2.0/level6/舞蹈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level5/舞蹈.svg"
+      ]
+    },
     "头": {
       "hanzi": "头",
       "pinyin": "tóu",
@@ -54064,6 +54100,118 @@
       ],
       "file": "围.svg",
       "src": "images/HSK_3.0/level5/围.svg",
+      "alt_srcs": []
+    },
+    "为²": {
+      "hanzi": "为²",
+      "pinyin": "wéi",
+      "meaning": "bị, do (cấu trúc bị động 为...所...)",
+      "example_zh": "他的感人事迹深<u>为</u>大家所敬佩。",
+      "example_vi": "Tấm gương cảm động của anh ấy rất <u>được</u> mọi người khâm phục.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "为².svg",
+      "src": "images/HSK_3.0/level5/为².svg",
+      "alt_srcs": []
+    },
+    "违法": {
+      "hanzi": "违法",
+      "pinyin": "wéifǎ",
+      "meaning": "vi phạm pháp luật, phạm pháp",
+      "example_zh": "酒后驾驶机动车属于严重的<u>违法</u>行为。",
+      "example_vi": "Lái xe cơ giới sau khi uống rượu thuộc hành vi <u>vi phạm pháp luật</u> nghiêm trọng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "违法.svg",
+      "src": "images/HSK_3.0/level5/违法.svg",
+      "alt_srcs": []
+    },
+    "喂²": {
+      "hanzi": "喂²",
+      "pinyin": "wèi",
+      "meaning": "alô (chào điện thoại)",
+      "example_zh": "<u>喂</u>，你好！",
+      "example_vi": "<u>Alô</u>, xin chào!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "喂².svg",
+      "src": "images/HSK_3.0/level5/喂².svg",
+      "alt_srcs": []
+    },
+    "问卷": {
+      "hanzi": "问卷",
+      "pinyin": "wènjuàn",
+      "meaning": "bảng câu hỏi khảo sát",
+      "example_zh": "请大家帮忙填写一份调查<u>问卷</u>。",
+      "example_vi": "Xin mọi người giúp đỡ điền vào một phiếu <u>bảng hỏi khảo sát</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "问卷.svg",
+      "src": "images/HSK_3.0/level5/问卷.svg",
+      "alt_srcs": []
+    },
+    "握": {
+      "hanzi": "握",
+      "pinyin": "wò",
+      "meaning": "nắm, cầm (tay)",
+      "example_zh": "双方在签约仪式上友好地<u>握</u>手。",
+      "example_vi": "Hai bên <u>bắt</u> tay hữu nghị trong lễ ký kết.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "握.svg",
+      "src": "images/HSK_3.0/level5/握.svg",
+      "alt_srcs": []
+    },
+    "无关": {
+      "hanzi": "无关",
+      "pinyin": "wúguān",
+      "meaning": "không liên quan, không can dự",
+      "example_zh": "这件事情与他<u>无关</u>。",
+      "example_vi": "Chuyện này <u>không liên quan</u> đến anh ấy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "无关.svg",
+      "src": "images/HSK_3.0/level5/无关.svg",
+      "alt_srcs": []
+    },
+    "无限": {
+      "hanzi": "无限",
+      "pinyin": "wúxiàn",
+      "meaning": "vô hạn, vô tận, không biên giới",
+      "example_zh": "探索宇宙能带给人类<u>无限</u>的遐想。",
+      "example_vi": "Khám phá vũ trụ mang đến cho con người trí tưởng tượng <u>vô hạn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "无限.svg",
+      "src": "images/HSK_3.0/level5/无限.svg",
+      "alt_srcs": []
+    },
+    "无效": {
+      "hanzi": "无效",
+      "pinyin": "wúxiào",
+      "meaning": "vô hiệu, không có hiệu lực",
+      "example_zh": "过期的优惠券已经<u>无效</u>了。",
+      "example_vi": "Phiếu giảm giá hết hạn đã <u>vô hiệu</u> rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "无效.svg",
+      "src": "images/HSK_3.0/level5/无效.svg",
       "alt_srcs": []
     }
   }

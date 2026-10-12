@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Podium/Stage -->
+  <path d="M40 190 L200 190 L190 210 L50 210 Z" fill="#334155"/>
+  <path d="M40 190 L50 210 L50 220 L40 200 Z" fill="#1e293b"/>
+  
+  <!-- Hero Figure -->
+  <circle cx="120" cy="110" r="25" fill="#fcd34d"/>
+  <path d="M100 135 Q120 160 140 135 L135 190 L105 190 Z" fill="#fb923c"/>
+  <path d="M110 140 L100 170 M130 140 L140 170" stroke="#fb923c" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Audience/Admirers -->
+  <g fill="#38bdf8">
+    <circle cx="40" cy="200" r="12"/>
+    <circle cx="70" cy="205" r="12"/>
+    <circle cx="170" cy="205" r="12"/>
+    <circle cx="200" cy="200" r="12"/>
+  </g>
+  
+  <!-- Hearts of Admiration -->
+  <path d="M60 160 Q55 150 65 150 Q75 150 70 160 L60 170 L50 160 Q45 150 55 150 Q65 150 60 160" fill="#ec4899"/>
+  <path d="M180 160 Q175 150 185 150 Q195 150 190 160 L180 170 L170 160 Q165 150 175 150 Q185 150 180 160" fill="#ec4899"/>
+  
+  <!-- Spotlight Glow -->
+  <path d="M120 30 L80 240 L160 240 Z" fill="#f59e0b" opacity="0.15"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="20" cy="40" r="3" fill="#fbbf24"/>
+  <circle cx="220" cy="60" r="2" fill="#fbbf24"/>
+  <circle cx="180" cy="30" r="4" fill="#fbbf24"/>
+</svg>

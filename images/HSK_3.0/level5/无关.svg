@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Office Desk -->
+  <rect x="20" y="140" width="200" height="15" rx="2" fill="#334155"/>
+  <rect x="180" y="155" width="10" height="60" fill="#475569"/>
+  <rect x="50" y="155" width="10" height="60" fill="#475569"/>
+  
+  <!-- Person A (The one involved) -->
+  <g transform="translate(40, 60)">
+    <circle cx="30" cy="30" r="25" fill="#fb923c"/>
+    <path d="M15 60 Q30 80 45 60" stroke="#fb923c" stroke-width="8" fill="none"/>
+    <rect x="15" y="80" width="30" height="60" rx="5" fill="#fb923c"/>
+    <rect x="10" y="80" width="10" height="40" fill="#f1f5f9" transform="rotate(-10 15 80)"/>
+    <rect x="40" y="80" width="10" height="40" fill="#f1f5f9" transform="rotate(10 45 80)"/>
+    <circle cx="22" cy="25" r="4" fill="#0f172a"/>
+    <circle cx="38" cy="25" r="4" fill="#0f172a"/>
+  </g>
+  
+  <!-- Person B (The one unrelated - looking away) -->
+  <g transform="translate(140, 80)">
+    <circle cx="30" cy="30" r="25" fill="#38bdf8"/>
+    <path d="M50 30 L70 20" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <rect x="15" y="80" width="30" height="60" rx="5" fill="#38bdf8"/>
+    <circle cx="22" cy="25" r="4" fill="#0f172a"/>
+    <circle cx="38" cy="25" r="4" fill="#0f172a"/>
+    <!-- Gesture: Hand waving away -->
+    <circle cx="75" cy="20" r="8" fill="#38bdf8"/>
+  </g>
+  
+  <!-- Clutter/Files (The "Matter") -->
+  <rect x="60" y="120" width="40" height="20" rx="2" fill="#ec4899"/>
+  <rect x="70" y="110" width="40" height="20" rx="2" fill="#ec4899"/>
+  
+  <!-- Divider/Visual separation -->
+  <path d="M120 70 L120 180" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Ambient light -->
+  <circle cx="200" cy="40" r="30" fill="#f59e0b" opacity="0.1"/>
+</svg>

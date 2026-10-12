@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk/Environment -->
+  <rect x="20" y="160" width="200" height="10" rx="2" fill="#334155"/>
+  <rect x="180" y="170" width="20" height="70" fill="#475569"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 80)">
+    <!-- Body -->
+    <path d="M20 160 Q60 160 80 160 L90 100 Q50 90 10 100 Z" fill="#38bdf8"/>
+    <!-- Head -->
+    <circle cx="50" cy="60" r="30" fill="#fde68a"/>
+    <!-- Hair -->
+    <path d="M25 55 Q20 20 50 20 Q80 20 75 55 Z" fill="#475569"/>
+    <!-- Eye -->
+    <circle cx="40" cy="55" r="3" fill="#0f172a"/>
+    <circle cx="60" cy="55" r="3" fill="#0f172a"/>
+    <!-- Mouth (Smiling) -->
+    <path d="M45 70 Q50 75 55 70" stroke="#0f172a" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Phone -->
+  <g transform="translate(130, 110)">
+    <rect width="40" height="70" rx="8" fill="#fb923c"/>
+    <rect x="5" y="10" width="30" height="50" rx="4" fill="#fef3c7"/>
+    <circle cx="20" cy="60" r="3" fill="#fb923c"/>
+  </g>
+  
+  <!-- Sound Waves/Action -->
+  <path d="M175 120 Q190 110 190 130 Q190 150 175 140" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M185 110 Q210 90 210 130 Q210 170 185 150" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="40" r="4" fill="#10b981"/>
+  <circle cx="30" cy="30" r="6" fill="#ec4899"/>
+  <path d="M210 180 L220 170 L230 180" stroke="#38bdf8" stroke-width="2" fill="none"/>
+</svg>

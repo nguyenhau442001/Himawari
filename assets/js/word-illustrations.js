@@ -13257,6 +13257,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/统计.svg",
     "caption": "thống kê"
   },
+  "维持": {
+    "file": "维持.svg",
+    "src": "images/HSK_2.0/level6/维持.svg",
+    "caption": "duy trì"
+  },
+  "舞蹈": {
+    "file": "舞蹈.svg",
+    "src": "images/HSK_2.0/level6/舞蹈.svg",
+    "caption": "múa, vũ điệu"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
@@ -15501,6 +15511,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "围.svg",
     "src": "images/HSK_3.0/level5/围.svg",
     "caption": "vây quanh, bao quanh"
+  },
+  "为²": {
+    "file": "为².svg",
+    "src": "images/HSK_3.0/level5/为².svg",
+    "caption": "bị, do (cấu trúc bị động 为...所...)"
+  },
+  "违法": {
+    "file": "违法.svg",
+    "src": "images/HSK_3.0/level5/违法.svg",
+    "caption": "vi phạm pháp luật, phạm pháp"
+  },
+  "喂²": {
+    "file": "喂².svg",
+    "src": "images/HSK_3.0/level5/喂².svg",
+    "caption": "alô (chào điện thoại)"
+  },
+  "问卷": {
+    "file": "问卷.svg",
+    "src": "images/HSK_3.0/level5/问卷.svg",
+    "caption": "bảng câu hỏi khảo sát"
+  },
+  "握": {
+    "file": "握.svg",
+    "src": "images/HSK_3.0/level5/握.svg",
+    "caption": "nắm, cầm (tay)"
+  },
+  "无关": {
+    "file": "无关.svg",
+    "src": "images/HSK_3.0/level5/无关.svg",
+    "caption": "không liên quan, không can dự"
+  },
+  "无限": {
+    "file": "无限.svg",
+    "src": "images/HSK_3.0/level5/无限.svg",
+    "caption": "vô hạn, vô tận, không biên giới"
+  },
+  "无效": {
+    "file": "无效.svg",
+    "src": "images/HSK_3.0/level5/无效.svg",
+    "caption": "vô hiệu, không có hiệu lực"
   }
 };
 
