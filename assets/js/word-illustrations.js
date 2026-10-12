@@ -15247,6 +15247,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/发呆.svg",
     "caption": "ngẩn ngơ, đờ đẫn"
   },
+  "发动": {
+    "file": "发动.svg",
+    "src": "images/HSK_2.0/level6/发动.svg",
+    "caption": "khởi động, phát động"
+  },
+  "发火": {
+    "file": "发火.svg",
+    "src": "images/HSK_2.0/level6/发火.svg",
+    "caption": "nổi giận"
+  },
+  "发掘": {
+    "file": "发掘.svg",
+    "src": "images/HSK_2.0/level6/发掘.svg",
+    "caption": "khai quật, phát hiện"
+  },
+  "发射": {
+    "file": "发射.svg",
+    "src": "images/HSK_2.0/level6/发射.svg",
+    "caption": "phóng, bắn"
+  },
+  "发誓": {
+    "file": "发誓.svg",
+    "src": "images/HSK_2.0/level6/发誓.svg",
+    "caption": "thề"
+  },
+  "发行": {
+    "file": "发行.svg",
+    "src": "images/HSK_2.0/level6/发行.svg",
+    "caption": "phát hành"
+  },
+  "发炎": {
+    "file": "发炎.svg",
+    "src": "images/HSK_2.0/level6/发炎.svg",
+    "caption": "viêm, sưng tấy"
+  },
+  "发扬": {
+    "file": "发扬.svg",
+    "src": "images/HSK_2.0/level6/发扬.svg",
+    "caption": "phát huy (truyền thống)"
+  },
+  "发育": {
+    "file": "发育.svg",
+    "src": "images/HSK_2.0/level6/发育.svg",
+    "caption": "phát triển (thể chất)"
+  },
+  "法人": {
+    "file": "法人.svg",
+    "src": "images/HSK_2.0/level6/法人.svg",
+    "caption": "pháp nhân"
+  },
   "防止": {
     "file": "防止.svg",
     "src": "images/HSK_2.0/level6/防止.svg",

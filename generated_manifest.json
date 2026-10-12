@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:09:22.527990",
-  "total_unique_words_with_illustrations": 3679,
-  "total_flat_svg_files": 3679,
+  "generated_at": "2026-10-12T12:11:18.640035",
+  "total_unique_words_with_illustrations": 3689,
+  "total_flat_svg_files": 3689,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1039,
-        "pct": "41.6%"
+        "with_svg": 1049,
+        "pct": "42.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 377,
-        "pct": "20.9%"
+        "with_svg": 381,
+        "pct": "21.2%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 401,
-        "pct": "7.2%"
+        "with_svg": 407,
+        "pct": "7.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 401,
-        "pct": "7.2%"
+        "with_svg": 407,
+        "pct": "7.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 401,
-        "pct": "7.2%"
+        "with_svg": 407,
+        "pct": "7.3%"
       }
     }
   },
@@ -55968,6 +55968,210 @@
         "images/HSK_3.0/level7/发呆.svg",
         "images/HSK_3.0/level8/发呆.svg",
         "images/HSK_3.0/level9/发呆.svg"
+      ]
+    },
+    "发动": {
+      "hanzi": "发动",
+      "pinyin": "fādòng",
+      "meaning": "khởi động, phát động",
+      "example_zh": "他启动了<u>发动</u>机。",
+      "example_vi": "Anh ấy khởi động <u>động cơ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "发动.svg",
+      "src": "images/HSK_2.0/level6/发动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/发动.svg"
+      ]
+    },
+    "发火": {
+      "hanzi": "发火",
+      "pinyin": "fāhuǒ",
+      "meaning": "nổi giận",
+      "example_zh": "别随便<u>发火</u>。",
+      "example_vi": "Đừng tùy tiện <u>nổi giận</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "发火.svg",
+      "src": "images/HSK_2.0/level6/发火.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/发火.svg",
+        "images/HSK_3.0/level8/发火.svg",
+        "images/HSK_3.0/level9/发火.svg"
+      ]
+    },
+    "发掘": {
+      "hanzi": "发掘",
+      "pinyin": "fājué",
+      "meaning": "khai quật, phát hiện",
+      "example_zh": "考古学家在<u>发掘</u>古墓。",
+      "example_vi": "Nhà khảo cổ đang <u>khai quật</u> mộ cổ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "发掘.svg",
+      "src": "images/HSK_2.0/level6/发掘.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/发掘.svg",
+        "images/HSK_3.0/level8/发掘.svg",
+        "images/HSK_3.0/level9/发掘.svg"
+      ]
+    },
+    "发射": {
+      "hanzi": "发射",
+      "pinyin": "fāshè",
+      "meaning": "phóng, bắn",
+      "example_zh": "火箭成功<u>发射</u>了。",
+      "example_vi": "Tên lửa <u>phóng</u> thành công.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "发射.svg",
+      "src": "images/HSK_2.0/level6/发射.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/发射.svg",
+        "images/HSK_3.0/level8/发射.svg",
+        "images/HSK_3.0/level9/发射.svg"
+      ]
+    },
+    "发誓": {
+      "hanzi": "发誓",
+      "pinyin": "fāshì",
+      "meaning": "thề",
+      "example_zh": "他<u>发誓</u>要改正错误。",
+      "example_vi": "Anh ấy <u>thề</u> sẽ sửa lỗi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "发誓.svg",
+      "src": "images/HSK_2.0/level6/发誓.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/发誓.svg",
+        "images/HSK_3.0/level8/发誓.svg",
+        "images/HSK_3.0/level9/发誓.svg"
+      ]
+    },
+    "发行": {
+      "hanzi": "发行",
+      "pinyin": "fāxíng",
+      "meaning": "phát hành",
+      "example_zh": "这本书即将<u>发行</u>。",
+      "example_vi": "Cuốn sách này sắp được <u>phát hành</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "发行.svg",
+      "src": "images/HSK_2.0/level6/发行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/发行.svg"
+      ]
+    },
+    "发炎": {
+      "hanzi": "发炎",
+      "pinyin": "fāyán",
+      "meaning": "viêm, sưng tấy",
+      "example_zh": "他的伤口<u>发炎</u>了。",
+      "example_vi": "Vết thương của anh ấy bị <u>viêm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "发炎.svg",
+      "src": "images/HSK_2.0/level6/发炎.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/发炎.svg"
+      ]
+    },
+    "发扬": {
+      "hanzi": "发扬",
+      "pinyin": "fāyáng",
+      "meaning": "phát huy (truyền thống)",
+      "example_zh": "我们要<u>发扬</u>传统精神。",
+      "example_vi": "Chúng ta phải <u>phát huy</u> tinh thần truyền thống.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "发扬.svg",
+      "src": "images/HSK_2.0/level6/发扬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/发扬.svg",
+        "images/HSK_3.0/level8/发扬.svg",
+        "images/HSK_3.0/level9/发扬.svg"
+      ]
+    },
+    "发育": {
+      "hanzi": "发育",
+      "pinyin": "fāyù",
+      "meaning": "phát triển (thể chất)",
+      "example_zh": "孩子正处于<u>发育</u>阶段。",
+      "example_vi": "Đứa trẻ đang ở giai đoạn <u>phát triển</u> thể chất.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "发育.svg",
+      "src": "images/HSK_2.0/level6/发育.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/发育.svg"
+      ]
+    },
+    "法人": {
+      "hanzi": "法人",
+      "pinyin": "fǎrén",
+      "meaning": "pháp nhân",
+      "example_zh": "这家企业是独立<u>法人</u>。",
+      "example_vi": "Doanh nghiệp này là <u>pháp nhân</u> độc lập.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "法人.svg",
+      "src": "images/HSK_2.0/level6/法人.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/法人.svg",
+        "images/HSK_3.0/level8/法人.svg",
+        "images/HSK_3.0/level9/法人.svg"
       ]
     },
     "防止": {
