@@ -1,0 +1,105 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Warm accent glow for showroom wall -->
+    <radialGradient id="wall-glow" cx="120" cy="80" r="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Screen glow -->
+    <linearGradient id="screen-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#0284c7" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full Bleed Container -->
+  <rect width="240" height="240" rx="24" fill="url(#bg-grad)"/>
+
+  <!-- Background Environment & Showroom Props -->
+  <!-- Ambient Wall Glow -->
+  <circle cx="120" cy="80" r="100" fill="url(#wall-glow)"/>
+
+  <!-- Wall shelf / display structure -->
+  <path d="M40 70 L200 70 L190 62 L50 62 Z" fill="#334155"/>
+  <rect x="70" y="45" width="100" height="18" rx="2" fill="#475569" opacity="0.4"/>
+  <circle cx="120" cy="54" r="7" fill="#f59e0b"/>
+
+  <!-- Brand Display Board (Abstract product display representing "brand/agency") -->
+  <rect x="75" y="75" width="90" height="55" rx="6" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="83" y="83" width="74" height="39" rx="4" fill="url(#screen-glow)"/>
+  
+  <!-- Stylized Brand Logo Graphic on Display (Abstract modern shape, no text) -->
+  <path d="M120 90 L132 106 L108 106 Z" fill="#38bdf8"/>
+  <circle cx="120" cy="99" r="3" fill="#ffffff"/>
+  <path d="M96 112 C104 107 136 107 144 112" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Exhibition / Office Desk -->
+  <path d="M20 185 L220 185 L210 215 L30 215 Z" fill="#334155"/>
+  <rect x="25" y="175" width="190" height="12" rx="3" fill="#475569"/>
+
+  <!-- Desk Props: Laptop & Contract/Deal Folder -->
+  <!-- Laptop Base -->
+  <path d="M135 180 L185 180 L195 188 L125 188 Z" fill="#64748b"/>
+  <!-- Laptop Screen -->
+  <path d="M140 145 L180 145 L185 180 L135 180 Z" fill="#475569"/>
+  <path d="M143 148 L177 148 L181 177 L139 177 Z" fill="#0f172a"/>
+  <!-- UI charts on laptop screen -->
+  <polyline points="146,170 153,163 162,166 173,153" stroke="#10b981" stroke-width="2" fill="none"/>
+
+  <!-- Contract / Folder representing agency agreement -->
+  <rect x="55" y="176" width="35" height="10" rx="1.5" fill="#f8fafc" transform="rotate(-8 55 176)"/>
+  <rect x="62" y="170" width="30" height="8" rx="1" fill="#cbd5e1" transform="rotate(-8 62 170)"/>
+  <circle cx="68" cy="174" r="2" fill="#ef4444" transform="rotate(-8 68 174)"/>
+
+  <!-- Main Character: The Agent / Representative (代理商) -->
+  <!-- Torso & Business Suit -->
+  <path d="M75 160 C75 135 105 135 115 135 C125 135 155 135 155 160 L165 210 L65 210 Z" fill="#1e293b"/>
+  <!-- Shirt Collar & Tie -->
+  <path d="M100 135 L115 155 L130 135 Z" fill="#f8fafc"/>
+  <polygon points="112,150 118,150 116,185 114,185" fill="#f59e0b"/>
+  <!-- Suit Jacket Lapels -->
+  <path d="M100 135 L95 170 L110 160 Z" fill="#0f172a"/>
+  <path d="M130 135 L135 170 L120 160 Z" fill="#0f172a"/>
+
+  <!-- Neck & Head -->
+  <rect x="106" y="118" width="18" height="22" rx="6" fill="#fbcfe8"/>
+  <!-- Head Base -->
+  <circle cx="115" cy="105" r="22" fill="#fbcfe8"/>
+
+  <!-- Hair (Professional styled dark hair) -->
+  <path d="M93 105 C93 88 137 88 137 105 C137 100 132 90 115 90 C98 90 93 100 93 105 Z" fill="#0f172a"/>
+  <path d="M94 102 C95 95 102 91 115 91 C128 91 135 95 136 102 Z" fill="#334155"/>
+
+  <!-- Confident Facial Expression -->
+  <!-- Friendly smiling eyes -->
+  <path d="M105 104 Q109 100 113 104" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M117 104 Q121 100 125 104" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Smile -->
+  <path d="M110 113 Q115 118 120 113" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Rosy Cheeks -->
+  <circle cx="103" cy="111" r="3" fill="#fb7185" opacity="0.4"/>
+  <circle cx="127" cy="111" r="3" fill="#fb7185" opacity="0.4"/>
+
+  <!-- Gesturing Arms (Presenting/Representing the brand) -->
+  <!-- Right Arm (pointing towards display proudly) -->
+  <path d="M145 145 Q165 135 175 145" stroke="#1e293b" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Right Hand -->
+  <circle cx="177" cy="147" r="7" fill="#fbcfe8"/>
+
+  <!-- Left Arm (resting confidently near torso/folder) -->
+  <path d="M85 145 Q70 160 80 180" stroke="#1e293b" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Left Hand -->
+  <circle cx="78" cy="183" r="7" fill="#fbcfe8"/>
+
+  <!-- Foreground decorative elements for depth (Ambient lighting/particles) -->
+  <circle cx="45" cy="120" r="3" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="195" cy="100" r="2" fill="#f59e0b" opacity="0.7"/>
+  <circle cx="190" cy="130" r="4" fill="#10b981" opacity="0.5"/>
+</svg>

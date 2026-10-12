@@ -14562,6 +14562,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/大不了.svg",
     "caption": "cùng cực, lắm là (cũng không sao)"
   },
+  "大臣": {
+    "file": "大臣.svg",
+    "src": "images/HSK_2.0/level6/大臣.svg",
+    "caption": "đại thần, quan lớn"
+  },
+  "大肆": {
+    "file": "大肆.svg",
+    "src": "images/HSK_2.0/level6/大肆.svg",
+    "caption": "bừa bãi, vô tội vạ"
+  },
+  "大体": {
+    "file": "大体.svg",
+    "src": "images/HSK_2.0/level6/大体.svg",
+    "caption": "đại thể, nói chung"
+  },
+  "大意": {
+    "file": "大意.svg",
+    "src": "images/HSK_2.0/level6/大意.svg",
+    "caption": "đại ý, ý chính; lơ là"
+  },
+  "大致": {
+    "file": "大致.svg",
+    "src": "images/HSK_2.0/level6/大致.svg",
+    "caption": "đại khái, sơ bộ"
+  },
+  "歹徒": {
+    "file": "歹徒.svg",
+    "src": "images/HSK_2.0/level6/歹徒.svg",
+    "caption": "kẻ xấu, tên cướp"
+  },
+  "逮捕": {
+    "file": "逮捕.svg",
+    "src": "images/HSK_2.0/level6/逮捕.svg",
+    "caption": "bắt giữ"
+  },
+  "代价": {
+    "file": "代价.svg",
+    "src": "images/HSK_2.0/level6/代价.svg",
+    "caption": "giá phải trả"
+  },
+  "代理": {
+    "file": "代理.svg",
+    "src": "images/HSK_2.0/level6/代理.svg",
+    "caption": "đại diện, đại lý"
+  },
+  "带领": {
+    "file": "带领.svg",
+    "src": "images/HSK_2.0/level6/带领.svg",
+    "caption": "dẫn dắt, dẫn đầu"
+  },
   "当前": {
     "file": "当前.svg",
     "src": "images/HSK_2.0/level6/当前.svg",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:45:30.110816",
-  "total_unique_words_with_illustrations": 3549,
-  "total_flat_svg_files": 3549,
+  "generated_at": "2026-10-12T11:47:26.945379",
+  "total_unique_words_with_illustrations": 3559,
+  "total_flat_svg_files": 3559,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 909,
-        "pct": "36.4%"
+        "with_svg": 919,
+        "pct": "36.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 336,
-        "pct": "18.7%"
+        "with_svg": 341,
+        "pct": "18.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 318,
-        "pct": "5.7%"
+        "with_svg": 324,
+        "pct": "5.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 318,
-        "pct": "5.7%"
+        "with_svg": 324,
+        "pct": "5.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 318,
-        "pct": "5.7%"
+        "with_svg": 324,
+        "pct": "5.8%"
       }
     }
   },
@@ -53198,6 +53198,206 @@
         "images/HSK_3.0/level7/大不了.svg",
         "images/HSK_3.0/level8/大不了.svg",
         "images/HSK_3.0/level9/大不了.svg"
+      ]
+    },
+    "大臣": {
+      "hanzi": "大臣",
+      "pinyin": "dàchén",
+      "meaning": "đại thần, quan lớn",
+      "example_zh": "古代皇帝身边有许多<u>大臣</u>。",
+      "example_vi": "Bên cạnh hoàng đế thời xưa có nhiều <u>đại thần</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "大臣.svg",
+      "src": "images/HSK_2.0/level6/大臣.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/大臣.svg"
+      ]
+    },
+    "大肆": {
+      "hanzi": "大肆",
+      "pinyin": "dàsì",
+      "meaning": "bừa bãi, vô tội vạ",
+      "example_zh": "他在网上<u>大肆</u>宣传自己的产品。",
+      "example_vi": "Anh ấy <u>bừa bãi</u> quảng cáo sản phẩm của mình trên mạng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "大肆.svg",
+      "src": "images/HSK_2.0/level6/大肆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/大肆.svg",
+        "images/HSK_3.0/level8/大肆.svg",
+        "images/HSK_3.0/level9/大肆.svg"
+      ]
+    },
+    "大体": {
+      "hanzi": "大体",
+      "pinyin": "dàtǐ",
+      "meaning": "đại thể, nói chung",
+      "example_zh": "我<u>大体</u>了解了这件事。",
+      "example_vi": "Tôi <u>nói chung</u> đã hiểu việc này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "大体.svg",
+      "src": "images/HSK_2.0/level6/大体.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/大体.svg",
+        "images/HSK_3.0/level8/大体.svg",
+        "images/HSK_3.0/level9/大体.svg"
+      ]
+    },
+    "大意": {
+      "hanzi": "大意",
+      "pinyin": "dàyì",
+      "meaning": "đại ý, ý chính; lơ là",
+      "example_zh": "文章的<u>大意</u>是什么？",
+      "example_vi": "<u>Ý chính</u> của bài viết là gì?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "大意.svg",
+      "src": "images/HSK_2.0/level6/大意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/大意.svg",
+        "images/HSK_3.0/level8/大意.svg",
+        "images/HSK_3.0/level9/大意.svg"
+      ]
+    },
+    "大致": {
+      "hanzi": "大致",
+      "pinyin": "dàzhì",
+      "meaning": "đại khái, sơ bộ",
+      "example_zh": "我<u>大致</u>明白了你的意思。",
+      "example_vi": "Tôi <u>đại khái</u> đã hiểu ý của bạn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "大致.svg",
+      "src": "images/HSK_2.0/level6/大致.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/大致.svg"
+      ]
+    },
+    "歹徒": {
+      "hanzi": "歹徒",
+      "pinyin": "dǎitú",
+      "meaning": "kẻ xấu, tên cướp",
+      "example_zh": "警察抓住了那个<u>歹徒</u>。",
+      "example_vi": "Cảnh sát bắt được <u>kẻ xấu</u> đó.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "歹徒.svg",
+      "src": "images/HSK_2.0/level6/歹徒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/歹徒.svg",
+        "images/HSK_3.0/level8/歹徒.svg",
+        "images/HSK_3.0/level9/歹徒.svg"
+      ]
+    },
+    "逮捕": {
+      "hanzi": "逮捕",
+      "pinyin": "dàibǔ",
+      "meaning": "bắt giữ",
+      "example_zh": "警方<u>逮捕</u>了嫌疑人。",
+      "example_vi": "Cảnh sát <u>bắt giữ</u> nghi phạm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逮捕.svg",
+      "src": "images/HSK_2.0/level6/逮捕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/逮捕.svg",
+        "images/HSK_3.0/level8/逮捕.svg",
+        "images/HSK_3.0/level9/逮捕.svg"
+      ]
+    },
+    "代价": {
+      "hanzi": "代价",
+      "pinyin": "dàijià",
+      "meaning": "giá phải trả",
+      "example_zh": "他为此付出了很大<u>代价</u>。",
+      "example_vi": "Anh ấy đã trả <u>giá</u> rất lớn cho việc này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "代价.svg",
+      "src": "images/HSK_2.0/level6/代价.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/代价.svg"
+      ]
+    },
+    "代理": {
+      "hanzi": "代理",
+      "pinyin": "dàilǐ",
+      "meaning": "đại diện, đại lý",
+      "example_zh": "他是这个品牌的<u>代理</u>商。",
+      "example_vi": "Anh ấy là <u>đại lý</u> của nhãn hàng này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "代理.svg",
+      "src": "images/HSK_2.0/level6/代理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/代理.svg"
+      ]
+    },
+    "带领": {
+      "hanzi": "带领",
+      "pinyin": "dàilǐng",
+      "meaning": "dẫn dắt, dẫn đầu",
+      "example_zh": "老师<u>带领</u>学生参观博物馆。",
+      "example_vi": "Thầy giáo <u>dẫn dắt</u> học sinh tham quan bảo tàng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "带领.svg",
+      "src": "images/HSK_2.0/level6/带领.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/带领.svg"
       ]
     },
     "当前": {
