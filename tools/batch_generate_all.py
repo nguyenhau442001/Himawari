@@ -80,8 +80,24 @@ MODELS_TO_TRY = [
 ]
 
 
-# Track exhausted (key_index, model) pairs dynamically for this session
-EXHAUSTED_KEY_MODELS = set()
+MODEL_COOLDOWNS = {}      # (k_idx, model) -> float timestamp when cooldown expires
+PERMANENT_EXHAUSTED = set() # (k_idx, model) -> only for daily quota or 404/400
+
+def is_model_available(k_idx, model):
+    with exhausted_lock:
+        if (k_idx, model) in PERMANENT_EXHAUSTED:
+            return False
+        cooldown = MODEL_COOLDOWNS.get((k_idx, model), 0)
+        return time.time() >= cooldown
+
+def mark_model_throttled(k_idx, model, is_daily=False, seconds=6):
+    with exhausted_lock:
+        if is_daily:
+            PERMANENT_EXHAUSTED.add((k_idx, model))
+            print(f"        [>>> PERMANENT DAILY LIMIT] Key #{k_idx+1} on {model} reached daily quota.", flush=True)
+        else:
+            MODEL_COOLDOWNS[(k_idx, model)] = time.time() + seconds
+            print(f"        [>>> RPM PAUSE] Key #{k_idx+1} on {model} rate-limited. Cooling down for {seconds}s...", flush=True)
 
 def load_hsk_pos_db():
     """Loads exact part of speech dictionary from word-illustrations.js."""
@@ -503,15 +519,14 @@ GENERAL CONSTRAINTS:
 
     for attempt in range(max_retries):
         available_pairs = []
-        with exhausted_lock:
-            for model in rotated_models:
-                for k_idx, key in enumerate(api_keys):
-                    if (k_idx, model) not in EXHAUSTED_KEY_MODELS:
-                        available_pairs.append((k_idx, key, model))
+        for model in rotated_models:
+            for k_idx, key in enumerate(api_keys):
+                if is_model_available(k_idx, model):
+                    available_pairs.append((k_idx, key, model))
 
         if not available_pairs:
-            print("        [CRITICAL] All configured API keys and models have exhausted their quota! Pausing.", flush=True)
-            return None
+            time.sleep(2)
+            continue
 
         for k_idx, key, model in available_pairs:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
@@ -535,23 +550,15 @@ GENERAL CONSTRAINTS:
                                     return svg_str
             except urllib.error.HTTPError as he:
                 err_body = he.read().decode("utf-8", errors="ignore")
-                try:
-                    err_json = json.loads(err_body)
-                    msg = err_json.get("error", {}).get("message", err_body[:100])
-                except Exception:
-                    msg = err_body[:100]
-
-                if he.code == 429 and ("quota" in msg.lower() or "limit" in msg.lower() or "resource_exhausted" in err_body.lower()):
-                    with exhausted_lock:
-                        EXHAUSTED_KEY_MODELS.add((k_idx, model))
-                    print(f"        [>>> SWITCH MODEL] Quota exceeded for Key #{k_idx+1} on {model}. Switching...", flush=True)
+                if he.code == 429:
+                    is_daily = "per day" in err_body.lower() or "perday" in err_body.lower() or "daily" in err_body.lower()
+                    mark_model_throttled(k_idx, model, is_daily=is_daily, seconds=6)
                     continue
                 elif he.code in (404, 400):
-                    with exhausted_lock:
-                        EXHAUSTED_KEY_MODELS.add((k_idx, model))
+                    mark_model_throttled(k_idx, model, is_daily=True)
                     continue
                 elif he.code == 503:
-                    time.sleep(1)
+                    mark_model_throttled(k_idx, model, is_daily=False, seconds=3)
                     continue
                 else:
                     continue
@@ -559,7 +566,7 @@ GENERAL CONSTRAINTS:
                 continue
 
         if attempt < max_retries - 1:
-            time.sleep(2 * (attempt + 1))
+            time.sleep(1)
 
     return None
 
