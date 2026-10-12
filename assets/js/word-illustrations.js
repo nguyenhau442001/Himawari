@@ -18482,6 +18482,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/片断.svg",
     "caption": "đoạn, mẩu rời rạc"
   },
+  "片刻": {
+    "file": "片刻.svg",
+    "src": "images/HSK_2.0/level6/片刻.svg",
+    "caption": "một khoảnh khắc, một lúc"
+  },
+  "飘扬": {
+    "file": "飘扬.svg",
+    "src": "images/HSK_2.0/level6/飘扬.svg",
+    "caption": "bay phất phơ, tung bay"
+  },
+  "漂浮": {
+    "file": "漂浮.svg",
+    "src": "images/HSK_2.0/level6/漂浮.svg",
+    "caption": "trôi nổi, lững lờ"
+  },
+  "撇": {
+    "file": "撇.svg",
+    "src": "images/HSK_2.0/level6/撇.svg",
+    "caption": "vứt bỏ, bỏ qua"
+  },
+  "拼搏": {
+    "file": "拼搏.svg",
+    "src": "images/HSK_2.0/level6/拼搏.svg",
+    "caption": "nỗ lực hết mình, gắng sức"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",

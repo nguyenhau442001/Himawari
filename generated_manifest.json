@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:23:29.437338",
-  "total_unique_words_with_illustrations": 4295,
-  "total_flat_svg_files": 4295,
+  "generated_at": "2026-10-12T22:24:22.193595",
+  "total_unique_words_with_illustrations": 4300,
+  "total_flat_svg_files": 4300,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1655,
-        "pct": "66.2%"
+        "with_svg": 1660,
+        "pct": "66.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 553,
-        "pct": "30.7%"
+        "with_svg": 554,
+        "pct": "30.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 796,
-        "pct": "14.2%"
+        "with_svg": 800,
+        "pct": "14.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 796,
-        "pct": "14.2%"
+        "with_svg": 800,
+        "pct": "14.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 796,
-        "pct": "14.2%"
+        "with_svg": 800,
+        "pct": "14.3%"
       }
     }
   },
@@ -69027,6 +69027,112 @@
       "file": "片断.svg",
       "src": "images/HSK_2.0/level6/片断.svg",
       "alt_srcs": []
+    },
+    "片刻": {
+      "hanzi": "片刻",
+      "pinyin": "piànkè",
+      "meaning": "một khoảnh khắc, một lúc",
+      "example_zh": "请等我<u>片刻</u>，我马上回来。",
+      "example_vi": "Xin chờ tôi <u>một lúc</u>, tôi sẽ về ngay.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "片刻.svg",
+      "src": "images/HSK_2.0/level6/片刻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/片刻.svg"
+      ]
+    },
+    "飘扬": {
+      "hanzi": "飘扬",
+      "pinyin": "piāoyáng",
+      "meaning": "bay phất phơ, tung bay",
+      "example_zh": "国旗在风中<u>飘扬</u>。",
+      "example_vi": "Quốc kỳ <u>tung bay</u> trong gió.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "飘扬.svg",
+      "src": "images/HSK_2.0/level6/飘扬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/飘扬.svg",
+        "images/HSK_3.0/level8/飘扬.svg",
+        "images/HSK_3.0/level9/飘扬.svg"
+      ]
+    },
+    "漂浮": {
+      "hanzi": "漂浮",
+      "pinyin": "piāofú",
+      "meaning": "trôi nổi, lững lờ",
+      "example_zh": "水面上<u>漂浮</u>着一些落叶。",
+      "example_vi": "Trên mặt nước có vài lá rụng <u>trôi nổi</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "漂浮.svg",
+      "src": "images/HSK_2.0/level6/漂浮.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/漂浮.svg",
+        "images/HSK_3.0/level8/漂浮.svg",
+        "images/HSK_3.0/level9/漂浮.svg"
+      ]
+    },
+    "撇": {
+      "hanzi": "撇",
+      "pinyin": "piē",
+      "meaning": "vứt bỏ, bỏ qua",
+      "example_zh": "他<u>撇</u>下了所有烦恼，专心工作。",
+      "example_vi": "Anh ấy <u>bỏ qua</u> mọi lo lắng, chuyên tâm làm việc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "撇.svg",
+      "src": "images/HSK_2.0/level6/撇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/撇.svg",
+        "images/HSK_3.0/level8/撇.svg",
+        "images/HSK_3.0/level9/撇.svg"
+      ]
+    },
+    "拼搏": {
+      "hanzi": "拼搏",
+      "pinyin": "pīnbó",
+      "meaning": "nỗ lực hết mình, gắng sức",
+      "example_zh": "运动员们在赛场上努力<u>拼搏</u>。",
+      "example_vi": "Các vận động viên <u>nỗ lực hết mình</u> trên sân thi đấu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "拼搏.svg",
+      "src": "images/HSK_2.0/level6/拼搏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/拼搏.svg",
+        "images/HSK_3.0/level8/拼搏.svg",
+        "images/HSK_3.0/level9/拼搏.svg"
+      ]
     },
     "品质": {
       "hanzi": "品质",
