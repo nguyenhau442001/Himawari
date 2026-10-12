@@ -14982,10 +14982,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/动荡.svg",
     "caption": "bất ổn, biến động"
   },
+  "动机": {
+    "file": "动机.svg",
+    "src": "images/HSK_2.0/level6/动机.svg",
+    "caption": "động cơ, mục đích"
+  },
+  "冻结": {
+    "file": "冻结.svg",
+    "src": "images/HSK_2.0/level6/冻结.svg",
+    "caption": "đóng băng (tài khoản, lương)"
+  },
+  "动静": {
+    "file": "动静.svg",
+    "src": "images/HSK_2.0/level6/动静.svg",
+    "caption": "động tĩnh, tiếng động"
+  },
+  "动力": {
+    "file": "动力.svg",
+    "src": "images/HSK_2.0/level6/动力.svg",
+    "caption": "động lực, sức kéo"
+  },
+  "动脉": {
+    "file": "动脉.svg",
+    "src": "images/HSK_2.0/level6/动脉.svg",
+    "caption": "động mạch"
+  },
+  "动身": {
+    "file": "动身.svg",
+    "src": "images/HSK_2.0/level6/动身.svg",
+    "caption": "lên đường, khởi hành"
+  },
   "动手": {
     "file": "动手.svg",
     "src": "images/HSK_2.0/level6/动手.svg",
     "caption": "ra tay, bắt tay vào làm"
+  },
+  "动态": {
+    "file": "动态.svg",
+    "src": "images/HSK_2.0/level6/动态.svg",
+    "caption": "động thái, diễn biến"
+  },
+  "洞穴": {
+    "file": "洞穴.svg",
+    "src": "images/HSK_2.0/level6/洞穴.svg",
+    "caption": "hang động"
+  },
+  "动员": {
+    "file": "动员.svg",
+    "src": "images/HSK_2.0/level6/动员.svg",
+    "caption": "động viên, huy động"
+  },
+  "兜": {
+    "file": "兜.svg",
+    "src": "images/HSK_2.0/level6/兜.svg",
+    "caption": "túi, bọc, đựng"
   },
   "队伍": {
     "file": "队伍.svg",

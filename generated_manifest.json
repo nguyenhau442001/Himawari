@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:00:17.950968",
-  "total_unique_words_with_illustrations": 3629,
-  "total_flat_svg_files": 3629,
+  "generated_at": "2026-10-12T12:02:07.192530",
+  "total_unique_words_with_illustrations": 3639,
+  "total_flat_svg_files": 3639,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 989,
-        "pct": "39.6%"
+        "with_svg": 999,
+        "pct": "40.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 364,
-        "pct": "20.2%"
+        "with_svg": 367,
+        "pct": "20.4%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 369,
-        "pct": "6.6%"
+        "with_svg": 376,
+        "pct": "6.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 369,
-        "pct": "6.6%"
+        "with_svg": 376,
+        "pct": "6.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 369,
-        "pct": "6.6%"
+        "with_svg": 376,
+        "pct": "6.7%"
       }
     }
   },
@@ -54908,6 +54908,130 @@
         "images/HSK_3.0/level9/动荡.svg"
       ]
     },
+    "动机": {
+      "hanzi": "动机",
+      "pinyin": "dòngjī",
+      "meaning": "động cơ, mục đích",
+      "example_zh": "他这样做的<u>动机</u>是什么？",
+      "example_vi": "<u>Động cơ</u> anh ấy làm như vậy là gì?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "动机.svg",
+      "src": "images/HSK_2.0/level6/动机.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/动机.svg"
+      ]
+    },
+    "冻结": {
+      "hanzi": "冻结",
+      "pinyin": "dòngjié",
+      "meaning": "đóng băng (tài khoản, lương)",
+      "example_zh": "银行<u>冻结</u>了他的账户。",
+      "example_vi": "Ngân hàng <u>đóng băng</u> tài khoản của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冻结.svg",
+      "src": "images/HSK_2.0/level6/冻结.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/冻结.svg",
+        "images/HSK_3.0/level8/冻结.svg",
+        "images/HSK_3.0/level9/冻结.svg"
+      ]
+    },
+    "动静": {
+      "hanzi": "动静",
+      "pinyin": "dòngjìng",
+      "meaning": "động tĩnh, tiếng động",
+      "example_zh": "屋里没有任何<u>动静</u>。",
+      "example_vi": "Trong nhà không có chút <u>động tĩnh</u> nào.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动静.svg",
+      "src": "images/HSK_2.0/level6/动静.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/动静.svg",
+        "images/HSK_3.0/level8/动静.svg",
+        "images/HSK_3.0/level9/动静.svg"
+      ]
+    },
+    "动力": {
+      "hanzi": "动力",
+      "pinyin": "dònglì",
+      "meaning": "động lực, sức kéo",
+      "example_zh": "工资是工作的<u>动力</u>之一。",
+      "example_vi": "Lương là một trong những <u>động lực</u> của công việc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "动力.svg",
+      "src": "images/HSK_2.0/level6/动力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/动力.svg"
+      ]
+    },
+    "动脉": {
+      "hanzi": "动脉",
+      "pinyin": "dòngmài",
+      "meaning": "động mạch",
+      "example_zh": "这条<u>动脉</u>很重要。",
+      "example_vi": "<u>Động mạch</u> này rất quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动脉.svg",
+      "src": "images/HSK_2.0/level6/动脉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/动脉.svg",
+        "images/HSK_3.0/level8/动脉.svg",
+        "images/HSK_3.0/level9/动脉.svg"
+      ]
+    },
+    "动身": {
+      "hanzi": "动身",
+      "pinyin": "dòngshēn",
+      "meaning": "lên đường, khởi hành",
+      "example_zh": "我们明天一早<u>动身</u>。",
+      "example_vi": "Chúng tôi <u>lên đường</u> sớm ngày mai.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动身.svg",
+      "src": "images/HSK_2.0/level6/动身.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/动身.svg",
+        "images/HSK_3.0/level8/动身.svg",
+        "images/HSK_3.0/level9/动身.svg"
+      ]
+    },
     "动手": {
       "hanzi": "动手",
       "pinyin": "dòngshǒu",
@@ -54924,6 +55048,90 @@
       "src": "images/HSK_2.0/level6/动手.svg",
       "alt_srcs": [
         "images/HSK_3.0/level5/动手.svg"
+      ]
+    },
+    "动态": {
+      "hanzi": "动态",
+      "pinyin": "dòngtài",
+      "meaning": "động thái, diễn biến",
+      "example_zh": "关注市场<u>动态</u>很重要。",
+      "example_vi": "Theo sát <u>động thái</u> thị trường rất quan trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "动态.svg",
+      "src": "images/HSK_2.0/level6/动态.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/动态.svg"
+      ]
+    },
+    "洞穴": {
+      "hanzi": "洞穴",
+      "pinyin": "dòngxué",
+      "meaning": "hang động",
+      "example_zh": "探险者发现了一个<u>洞穴</u>。",
+      "example_vi": "Nhà thám hiểm phát hiện một <u>hang động</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "洞穴.svg",
+      "src": "images/HSK_2.0/level6/洞穴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/洞穴.svg",
+        "images/HSK_3.0/level8/洞穴.svg",
+        "images/HSK_3.0/level9/洞穴.svg"
+      ]
+    },
+    "动员": {
+      "hanzi": "动员",
+      "pinyin": "dòngyuán",
+      "meaning": "động viên, huy động",
+      "example_zh": "政府<u>动员</u>民众参与救灾。",
+      "example_vi": "Chính phủ <u>huy động</u> người dân tham gia cứu trợ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动员.svg",
+      "src": "images/HSK_2.0/level6/动员.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/动员.svg",
+        "images/HSK_3.0/level8/动员.svg",
+        "images/HSK_3.0/level9/动员.svg"
+      ]
+    },
+    "兜": {
+      "hanzi": "兜",
+      "pinyin": "dōu",
+      "meaning": "túi, bọc, đựng",
+      "example_zh": "他口袋里<u>兜</u>着一些零钱。",
+      "example_vi": "Trong túi anh ấy <u>đựng</u> một ít tiền lẻ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "兜.svg",
+      "src": "images/HSK_2.0/level6/兜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/兜.svg",
+        "images/HSK_3.0/level8/兜.svg",
+        "images/HSK_3.0/level9/兜.svg"
       ]
     },
     "队伍": {
