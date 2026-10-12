@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T11:36:25.335280",
-  "total_unique_words_with_illustrations": 3499,
-  "total_flat_svg_files": 3499,
+  "generated_at": "2026-10-12T11:38:12.353116",
+  "total_unique_words_with_illustrations": 3509,
+  "total_flat_svg_files": 3509,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 859,
-        "pct": "34.4%"
+        "with_svg": 869,
+        "pct": "34.8%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 320,
-        "pct": "17.8%"
+        "with_svg": 322,
+        "pct": "17.9%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 288,
-        "pct": "5.1%"
+        "with_svg": 295,
+        "pct": "5.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 288,
-        "pct": "5.1%"
+        "with_svg": 295,
+        "pct": "5.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 288,
-        "pct": "5.1%"
+        "with_svg": 295,
+        "pct": "5.3%"
       }
     }
   },
@@ -52068,6 +52068,210 @@
         "images/HSK_3.0/level7/出息.svg",
         "images/HSK_3.0/level8/出息.svg",
         "images/HSK_3.0/level9/出息.svg"
+      ]
+    },
+    "出洋相": {
+      "hanzi": "出洋相",
+      "pinyin": "chū yáng xiàng",
+      "meaning": "làm trò cười, bị bẽ mặt",
+      "example_zh": "他在大家面前<u>出洋相</u>了。",
+      "example_vi": "Anh ấy <u>bị bẽ mặt</u> trước mặt mọi người.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "出洋相.svg",
+      "src": "images/HSK_2.0/level6/出洋相.svg",
+      "alt_srcs": []
+    },
+    "储备": {
+      "hanzi": "储备",
+      "pinyin": "chǔbèi",
+      "meaning": "dự trữ",
+      "example_zh": "国家有充足的粮食<u>储备</u>。",
+      "example_vi": "Quốc gia có đủ <u>dự trữ</u> lương thực.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "储备.svg",
+      "src": "images/HSK_2.0/level6/储备.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/储备.svg",
+        "images/HSK_3.0/level8/储备.svg",
+        "images/HSK_3.0/level9/储备.svg"
+      ]
+    },
+    "储存": {
+      "hanzi": "储存",
+      "pinyin": "chǔcún",
+      "meaning": "lưu trữ, tích trữ",
+      "example_zh": "这些数据被<u>储存</u>在云端。",
+      "example_vi": "Những dữ liệu này được <u>lưu trữ</u> trên đám mây.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "储存.svg",
+      "src": "images/HSK_2.0/level6/储存.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/储存.svg"
+      ]
+    },
+    "处分": {
+      "hanzi": "处分",
+      "pinyin": "chǔfèn",
+      "meaning": "xử phạt, kỷ luật",
+      "example_zh": "他受到了严重<u>处分</u>。",
+      "example_vi": "Anh ấy bị <u>kỷ luật</u> nghiêm khắc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "处分.svg",
+      "src": "images/HSK_2.0/level6/处分.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/处分.svg",
+        "images/HSK_3.0/level8/处分.svg",
+        "images/HSK_3.0/level9/处分.svg"
+      ]
+    },
+    "处境": {
+      "hanzi": "处境",
+      "pinyin": "chǔjìng",
+      "meaning": "tình cảnh, hoàn cảnh",
+      "example_zh": "他现在的<u>处境</u>很困难。",
+      "example_vi": "<u>Tình cảnh</u> hiện tại của anh ấy rất khó khăn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "处境.svg",
+      "src": "images/HSK_2.0/level6/处境.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/处境.svg",
+        "images/HSK_3.0/level8/处境.svg",
+        "images/HSK_3.0/level9/处境.svg"
+      ]
+    },
+    "储蓄": {
+      "hanzi": "储蓄",
+      "pinyin": "chǔxù",
+      "meaning": "tiết kiệm, gửi tiền",
+      "example_zh": "他每月都有<u>储蓄</u>的习惯。",
+      "example_vi": "Anh ấy có thói quen <u>tiết kiệm</u> mỗi tháng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "储蓄.svg",
+      "src": "images/HSK_2.0/level6/储蓄.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/储蓄.svg"
+      ]
+    },
+    "处置": {
+      "hanzi": "处置",
+      "pinyin": "chǔzhì",
+      "meaning": "xử trí, xử lý",
+      "example_zh": "这件事该如何<u>处置</u>？",
+      "example_vi": "Việc này nên <u>xử trí</u> như thế nào?",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "处置.svg",
+      "src": "images/HSK_2.0/level6/处置.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/处置.svg",
+        "images/HSK_3.0/level8/处置.svg",
+        "images/HSK_3.0/level9/处置.svg"
+      ]
+    },
+    "触犯": {
+      "hanzi": "触犯",
+      "pinyin": "chùfàn",
+      "meaning": "xúc phạm, vi phạm",
+      "example_zh": "他<u>触犯</u>了法律。",
+      "example_vi": "Anh ta <u>vi phạm</u> pháp luật.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "触犯.svg",
+      "src": "images/HSK_2.0/level6/触犯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/触犯.svg",
+        "images/HSK_3.0/level8/触犯.svg",
+        "images/HSK_3.0/level9/触犯.svg"
+      ]
+    },
+    "穿越": {
+      "hanzi": "穿越",
+      "pinyin": "chuānyuè",
+      "meaning": "vượt qua, băng qua",
+      "example_zh": "这部电影讲述<u>穿越</u>时空的故事。",
+      "example_vi": "Bộ phim này kể câu chuyện <u>vượt qua</u> không gian thời gian.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "穿越.svg",
+      "src": "images/HSK_2.0/level6/穿越.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/穿越.svg",
+        "images/HSK_3.0/level8/穿越.svg",
+        "images/HSK_3.0/level9/穿越.svg"
+      ]
+    },
+    "川流不息": {
+      "hanzi": "川流不息",
+      "pinyin": "chuān liú bù xī",
+      "meaning": "dòng người/xe cộ không ngớt",
+      "example_zh": "大街上车辆<u>川流不息</u>。",
+      "example_vi": "Trên đường lớn xe cộ <u>không ngớt qua lại</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "川流不息.svg",
+      "src": "images/HSK_2.0/level6/川流不息.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/川流不息.svg",
+        "images/HSK_3.0/level8/川流不息.svg",
+        "images/HSK_3.0/level9/川流不息.svg"
       ]
     },
     "传递": {

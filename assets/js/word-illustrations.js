@@ -14277,6 +14277,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/出息.svg",
     "caption": "tiền đồ, tương lai"
   },
+  "出洋相": {
+    "file": "出洋相.svg",
+    "src": "images/HSK_2.0/level6/出洋相.svg",
+    "caption": "làm trò cười, bị bẽ mặt"
+  },
+  "储备": {
+    "file": "储备.svg",
+    "src": "images/HSK_2.0/level6/储备.svg",
+    "caption": "dự trữ"
+  },
+  "储存": {
+    "file": "储存.svg",
+    "src": "images/HSK_2.0/level6/储存.svg",
+    "caption": "lưu trữ, tích trữ"
+  },
+  "处分": {
+    "file": "处分.svg",
+    "src": "images/HSK_2.0/level6/处分.svg",
+    "caption": "xử phạt, kỷ luật"
+  },
+  "处境": {
+    "file": "处境.svg",
+    "src": "images/HSK_2.0/level6/处境.svg",
+    "caption": "tình cảnh, hoàn cảnh"
+  },
+  "储蓄": {
+    "file": "储蓄.svg",
+    "src": "images/HSK_2.0/level6/储蓄.svg",
+    "caption": "tiết kiệm, gửi tiền"
+  },
+  "处置": {
+    "file": "处置.svg",
+    "src": "images/HSK_2.0/level6/处置.svg",
+    "caption": "xử trí, xử lý"
+  },
+  "触犯": {
+    "file": "触犯.svg",
+    "src": "images/HSK_2.0/level6/触犯.svg",
+    "caption": "xúc phạm, vi phạm"
+  },
+  "穿越": {
+    "file": "穿越.svg",
+    "src": "images/HSK_2.0/level6/穿越.svg",
+    "caption": "vượt qua, băng qua"
+  },
+  "川流不息": {
+    "file": "川流不息.svg",
+    "src": "images/HSK_2.0/level6/川流不息.svg",
+    "caption": "dòng người/xe cộ không ngớt"
+  },
   "传递": {
     "file": "传递.svg",
     "src": "images/HSK_2.0/level6/传递.svg",
