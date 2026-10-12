@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:49:26.347413",
-  "total_unique_words_with_illustrations": 3879,
-  "total_flat_svg_files": 3879,
+  "generated_at": "2026-10-12T12:51:06.747790",
+  "total_unique_words_with_illustrations": 3889,
+  "total_flat_svg_files": 3889,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1239,
-        "pct": "49.6%"
+        "with_svg": 1249,
+        "pct": "50.0%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 443,
-        "pct": "24.6%"
+        "with_svg": 446,
+        "pct": "24.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 519,
+        "with_svg": 523,
         "pct": "9.3%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 519,
+        "with_svg": 523,
         "pct": "9.3%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 519,
+        "with_svg": 523,
         "pct": "9.3%"
       }
     }
@@ -60194,6 +60194,60 @@
         "images/HSK_3.0/level9/狐狸.svg"
       ]
     },
+    "胡乱": {
+      "hanzi": "胡乱",
+      "pinyin": "húluàn",
+      "meaning": "bừa bãi, tùy tiện",
+      "example_zh": "别<u>胡乱</u>猜测。",
+      "example_vi": "Đừng <u>tùy tiện</u> đoán mò.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "胡乱.svg",
+      "src": "images/HSK_2.0/level6/胡乱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/胡乱.svg",
+        "images/HSK_3.0/level8/胡乱.svg",
+        "images/HSK_3.0/level9/胡乱.svg"
+      ]
+    },
+    "互助": {
+      "hanzi": "互助",
+      "pinyin": "hùzhù",
+      "meaning": "giúp đỡ lẫn nhau",
+      "example_zh": "同学之间应该<u>互助</u>。",
+      "example_vi": "Các bạn học nên <u>giúp đỡ lẫn nhau</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "互助.svg",
+      "src": "images/HSK_2.0/level6/互助.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/互助.svg"
+      ]
+    },
+    "花白": {
+      "hanzi": "花白",
+      "pinyin": "huābái",
+      "meaning": "hoa râm (tóc)",
+      "example_zh": "他的头发已经<u>花白</u>了。",
+      "example_vi": "Tóc của ông ấy đã <u>hoa râm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "花白.svg",
+      "src": "images/HSK_2.0/level6/花白.svg",
+      "alt_srcs": []
+    },
     "花费": {
       "hanzi": "花费",
       "pinyin": "huāfèi",
@@ -60211,6 +60265,136 @@
       "alt_srcs": [
         "images/HSK_3.0/level5/花费.svg"
       ]
+    },
+    "花样": {
+      "hanzi": "花样",
+      "pinyin": "huāyàng",
+      "meaning": "kiểu cách, hoa văn",
+      "example_zh": "这件衣服的<u>花样</u>很好看。",
+      "example_vi": "<u>Hoa văn</u> trên bộ quần áo này rất đẹp.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "花样.svg",
+      "src": "images/HSK_2.0/level6/花样.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/花样.svg",
+        "images/HSK_3.0/level8/花样.svg",
+        "images/HSK_3.0/level9/花样.svg"
+      ]
+    },
+    "滑翔": {
+      "hanzi": "滑翔",
+      "pinyin": "huáxiáng",
+      "meaning": "lượn bay (tàu lượn)",
+      "example_zh": "他在练习<u>滑翔</u>。",
+      "example_vi": "Anh ấy đang luyện tập <u>lượn bay</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "滑翔.svg",
+      "src": "images/HSK_2.0/level6/滑翔.svg",
+      "alt_srcs": []
+    },
+    "化妆": {
+      "hanzi": "化妆",
+      "pinyin": "huàzhuāng",
+      "meaning": "trang điểm",
+      "example_zh": "她每天都要<u>化妆</u>。",
+      "example_vi": "Cô ấy ngày nào cũng phải <u>trang điểm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "化妆.svg",
+      "src": "images/HSK_2.0/level6/化妆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/化妆.svg"
+      ]
+    },
+    "化肥": {
+      "hanzi": "化肥",
+      "pinyin": "huàféi",
+      "meaning": "phân hóa học",
+      "example_zh": "农民使用<u>化肥</u>种地。",
+      "example_vi": "Nông dân dùng <u>phân hóa học</u> để trồng trọt.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "化肥.svg",
+      "src": "images/HSK_2.0/level6/化肥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/化肥.svg",
+        "images/HSK_3.0/level8/化肥.svg",
+        "images/HSK_3.0/level9/化肥.svg"
+      ]
+    },
+    "化石": {
+      "hanzi": "化石",
+      "pinyin": "huàshí",
+      "meaning": "hóa thạch",
+      "example_zh": "科学家发现了恐龙<u>化石</u>。",
+      "example_vi": "Nhà khoa học phát hiện <u>hóa thạch</u> khủng long.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "化石.svg",
+      "src": "images/HSK_2.0/level6/化石.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/化石.svg"
+      ]
+    },
+    "化验": {
+      "hanzi": "化验",
+      "pinyin": "huàyàn",
+      "meaning": "xét nghiệm",
+      "example_zh": "医生让我去<u>化验</u>血液。",
+      "example_vi": "Bác sĩ yêu cầu tôi đi <u>xét nghiệm</u> máu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "化验.svg",
+      "src": "images/HSK_2.0/level6/化验.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/化验.svg",
+        "images/HSK_3.0/level8/化验.svg",
+        "images/HSK_3.0/level9/化验.svg"
+      ]
+    },
+    "化妆品": {
+      "hanzi": "化妆品",
+      "pinyin": "huàzhuāngpǐn",
+      "meaning": "mỹ phẩm",
+      "example_zh": "她买了很多<u>化妆品</u>。",
+      "example_vi": "Cô ấy mua rất nhiều <u>mỹ phẩm</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "化妆品.svg",
+      "src": "images/HSK_2.0/level6/化妆品.svg",
+      "alt_srcs": []
     },
     "环节": {
       "hanzi": "环节",

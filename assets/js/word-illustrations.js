@@ -16307,10 +16307,60 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/狐狸.svg",
     "caption": "con cáo"
   },
+  "胡乱": {
+    "file": "胡乱.svg",
+    "src": "images/HSK_2.0/level6/胡乱.svg",
+    "caption": "bừa bãi, tùy tiện"
+  },
+  "互助": {
+    "file": "互助.svg",
+    "src": "images/HSK_2.0/level6/互助.svg",
+    "caption": "giúp đỡ lẫn nhau"
+  },
+  "花白": {
+    "file": "花白.svg",
+    "src": "images/HSK_2.0/level6/花白.svg",
+    "caption": "hoa râm (tóc)"
+  },
   "花费": {
     "file": "花费.svg",
     "src": "images/HSK_2.0/level6/花费.svg",
     "caption": "tốn, chi tiêu"
+  },
+  "花样": {
+    "file": "花样.svg",
+    "src": "images/HSK_2.0/level6/花样.svg",
+    "caption": "kiểu cách, hoa văn"
+  },
+  "滑翔": {
+    "file": "滑翔.svg",
+    "src": "images/HSK_2.0/level6/滑翔.svg",
+    "caption": "lượn bay (tàu lượn)"
+  },
+  "化妆": {
+    "file": "化妆.svg",
+    "src": "images/HSK_2.0/level6/化妆.svg",
+    "caption": "trang điểm"
+  },
+  "化肥": {
+    "file": "化肥.svg",
+    "src": "images/HSK_2.0/level6/化肥.svg",
+    "caption": "phân hóa học"
+  },
+  "化石": {
+    "file": "化石.svg",
+    "src": "images/HSK_2.0/level6/化石.svg",
+    "caption": "hóa thạch"
+  },
+  "化验": {
+    "file": "化验.svg",
+    "src": "images/HSK_2.0/level6/化验.svg",
+    "caption": "xét nghiệm"
+  },
+  "化妆品": {
+    "file": "化妆品.svg",
+    "src": "images/HSK_2.0/level6/化妆品.svg",
+    "caption": "mỹ phẩm"
   },
   "环节": {
     "file": "环节.svg",

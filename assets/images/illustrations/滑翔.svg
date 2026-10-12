@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient representing open sky at dusk/high altitude -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="40%" stop-color="#0f172a" />
+      <stop offset="80%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <!-- Wing gradient for the glider -->
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+
+    <!-- Warm sun/horizon glow -->
+    <radialGradient id="sunGlow" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#f97316" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="url(#skyGrad)" />
+  <rect width="240" height="240" rx="24" fill="url(#sunGlow)" />
+
+  <!-- Distant mountain ranges providing scale and depth -->
+  <path d="M-10 200 L30 160 L70 190 L120 140 L170 185 L220 150 L260 210 L260 240 L-10 240 Z" fill="#0f172a" opacity="0.7" />
+  <path d="M-10 210 L40 180 L90 205 L150 165 L205 195 L250 175 L250 240 L-10 240 Z" fill="#0b0f19" />
+
+  <!-- Motion wind stream lines showing gliding action -->
+  <g fill="none" stroke-linecap="round" opacity="0.4">
+    <path d="M20 70 Q70 60 110 80" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 6" />
+    <path d="M10 100 Q60 85 95 110" stroke="#94a3b8" stroke-width="1" />
+    <path d="M160 50 Q190 70 220 65" stroke="#f59e0b" stroke-width="1.5" opacity="0.6" />
+    <path d="M150 140 Q180 155 210 145" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4 8" />
+  </g>
+
+  <!-- Paraglider / Hang Glider & Pilot Composition (Main Subject) -->
+  <g transform="translate(10, -5)">
+    <!-- Suspension lines -->
+    <line x1="85" y1="85" x2="100" y2="120" stroke="#cbd5e1" stroke-width="0.8" />
+    <line x1="105" y1="85" x2="105" y2="120" stroke="#cbd5e1" stroke-width="0.8" />
+    <line x1="135" y1="85" x2="110" y2="120" stroke="#cbd5e1" stroke-width="0.8" />
+    <line x1="155" y1="85" x2="115" y2="120" stroke="#cbd5e1" stroke-width="0.8" />
+
+    <!-- Pilot Body & Harness (Dynamic posture showing practice/control) -->
+    <!-- Helmet -->
+    <circle cx="108" cy="116" r="6" fill="#f43f5e" />
+    <!-- Visor -->
+    <path d="M105 115 Q111 114 113 117" fill="none" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" />
+    
+    <!-- Torso in harness -->
+    <path d="M100 120 Q105 140 120 135 L115 122 Z" fill="#3b82f6" />
+    <path d="M102 124 L92 135" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" /> <!-- Arm controlling -->
+    <path d="M108 126 L125 130" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" /> <!-- Arm holding toggle -->
+    
+    <!-- Legs in streamlined posture -->
+    <path d="M120 135 Q135 140 145 138" fill="none" stroke="#1e293b" stroke-width="5" stroke-linecap="round" />
+
+    <!-- Paraglider Wing (Sleek, colorful airfoil shape) -->
+    <path d="M 60 90 Q 120 60 180 90 Q 140 105 120 103 Q 100 105 60 90 Z" fill="url(#wingGrad)" />
+    <!-- Wing segment lines -->
+    <path d="M85 82 Q120 67 155 82" fill="none" stroke="#0284c7" stroke-width="1" opacity="0.5" />
+    <line x1="100" y1="74" x2="100" y2="95" stroke="#0284c7" stroke-width="0.8" opacity="0.6" />
+    <line x1="120" y1="70" x2="120" y2="103" stroke="#0284c7" stroke-width="0.8" opacity="0.6" />
+    <line x1="140" y1="74" x2="140" y2="95" stroke="#0284c7" stroke-width="0.8" opacity="0.6" />
+
+    <!-- Accent color patches on wing for visual richness -->
+    <path d="M60 90 Q75 80 90 84 Q75 95 60 90 Z" fill="#fbbf24" />
+    <path d="M150 84 Q165 80 180 90 Q165 95 150 84 Z" fill="#fb923c" />
+  </g>
+
+  <!-- Foreground atmospheric elements (birds / distant clouds for depth) -->
+  <g fill="#64748b" opacity="0.5">
+    <path d="M 40 150 Q 45 145 50 150 Q 55 145 60 150 Q 55 153 50 149 Q 45 153 40 150 Z" />
+    <path d="M 180 100 Q 184 96 188 100 Q 192 96 196 100 Q 192 102 188 99 Q 184 102 180 100 Z" />
+  </g>
+
+  <!-- Soft vignette border framing the illustration nicely -->
+  <rect width="240" height="240" rx="24" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.25" />
+</svg>
