@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing path/chevron background to indicate leading and direction -->
+  <g opacity="0.15">
+    <path d="M70 140 L120 100 L170 140" stroke="#00E5FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M90 110 L120 85 L150 110" stroke="#00E5FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Central Character (Leader / Captain representing "率领") -->
+  <g transform="translate(0, 5)">
+    <!-- Trail / Direction Indicator (Gold/Orange accent for leadership and command) -->
+    <path d="M120 65 L120 35" stroke="#FFB300" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M110 45 L120 33 L130 45" stroke="#FFB300" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Leader Body / Torso -->
+    <path d="M96 150 C96 132 106 122 120 122 C134 122 144 132 144 150 L148 180 C148 185 144 188 139 188 L101 188 C96 188 92 185 92 180 Z" fill="#29B6F6"/>
+    
+    <!-- Leader Shoulders / Jacket Lapel -->
+    <path d="M96 135 L120 155 L144 135 L152 165 L120 180 L88 165 Z" fill="#0288D1"/>
+
+    <!-- Leader Head -->
+    <circle cx="120" cy="98" r="18" fill="#FFCCBC"/>
+    
+    <!-- Leader Hair -->
+    <path d="M102 96 C102 84 110 80 120 80 C130 80 138 84 138 96 C138 98 136 99 135 99 C105 99 102 98 102 96 Z" fill="#37474F"/>
+
+    <!-- Leader Command Cap / Hat (Symbolizing Authority/Captain) -->
+    <path d="M100 86 C100 74 110 72 120 72 C130 72 140 74 140 86 Z" fill="#FFB300"/>
+    <path d="M98 84 L142 84 L146 89 L94 89 Z" fill="#FFA000"/>
+    <ellipse cx="120" cy="85" rx="3" ry="1.5" fill="#FFE082"/>
+
+    <!-- Pointing Arm (Guiding/Commanding Action) -->
+    <path d="M144 135 Q168 135 178 120 Q182 114 176 110 C172 108 168 114 164 120 Q156 128 144 132 Z" fill="#FFCCBC"/>
+    <!-- Sleeve cuff -->
+    <path d="M144 133 L154 133 L152 142 L144 140 Z" fill="#0288D1"/>
+  </g>
+
+  <!-- Team Members (Followers behind in flat dark teal/slate to emphasize the leader) -->
+  <g opacity="0.6" transform="translate(0, 10)">
+    <!-- Left Follower -->
+    <circle cx="75" cy="115" r="12" fill="#B0BEC5"/>
+    <path d="M60 155 C60 142 66 135 75 135 C84 135 90 142 90 155 L93 180 L57 180 Z" fill="#78909C"/>
+
+    <!-- Right Follower -->
+    <circle cx="165" cy="115" r="12" fill="#B0BEC5"/>
+    <path d="M150 155 C150 142 156 135 165 135 C174 135 180 142 180 155 L183 180 L147 180 Z" fill="#78909C"/>
+  </g>
+
+  <!-- Ground Line / Stage Indicator -->
+  <path d="M40 195 L200 195" stroke="#37474F" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Success / Completion Star Accent -->
+  <path d="M195 70 L198 77 L205 78 L200 83 L201 90 L195 87 L189 90 L190 83 L185 78 L192 77 Z" fill="#FFD700" opacity="0.9"/>
+</svg>

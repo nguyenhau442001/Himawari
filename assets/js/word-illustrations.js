@@ -20077,15 +20077,120 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/手法.svg",
     "caption": "kỹ xảo, thủ pháp"
   },
+  "手势": {
+    "file": "手势.svg",
+    "src": "images/HSK_2.0/level6/手势.svg",
+    "caption": "cử chỉ tay, ra dấu"
+  },
+  "手艺": {
+    "file": "手艺.svg",
+    "src": "images/HSK_2.0/level6/手艺.svg",
+    "caption": "tay nghề"
+  },
+  "首要": {
+    "file": "首要.svg",
+    "src": "images/HSK_2.0/level6/首要.svg",
+    "caption": "quan trọng hàng đầu, chủ yếu"
+  },
+  "首饰": {
+    "file": "首饰.svg",
+    "src": "images/HSK_2.0/level6/首饰.svg",
+    "caption": "trang sức"
+  },
+  "守护": {
+    "file": "守护.svg",
+    "src": "images/HSK_2.0/level6/守护.svg",
+    "caption": "bảo vệ, gìn giữ"
+  },
+  "受罪": {
+    "file": "受罪.svg",
+    "src": "images/HSK_2.0/level6/受罪.svg",
+    "caption": "chịu khổ"
+  },
+  "授予": {
+    "file": "授予.svg",
+    "src": "images/HSK_2.0/level6/授予.svg",
+    "caption": "trao tặng, phong tặng"
+  },
   "书法": {
     "file": "书法.svg",
     "src": "images/HSK_2.0/level6/书法.svg",
     "caption": "thư pháp"
   },
+  "书籍": {
+    "file": "书籍.svg",
+    "src": "images/HSK_2.0/level6/书籍.svg",
+    "caption": "sách vở"
+  },
+  "书记": {
+    "file": "书记.svg",
+    "src": "images/HSK_2.0/level6/书记.svg",
+    "caption": "bí thư, thư ký"
+  },
+  "书面": {
+    "file": "书面.svg",
+    "src": "images/HSK_2.0/level6/书面.svg",
+    "caption": "bằng văn bản"
+  },
+  "舒畅": {
+    "file": "舒畅.svg",
+    "src": "images/HSK_2.0/level6/舒畅.svg",
+    "caption": "thoải mái, sảng khoái"
+  },
+  "疏忽": {
+    "file": "疏忽.svg",
+    "src": "images/HSK_2.0/level6/疏忽.svg",
+    "caption": "lơ là, sơ suất"
+  },
+  "疏远": {
+    "file": "疏远.svg",
+    "src": "images/HSK_2.0/level6/疏远.svg",
+    "caption": "xa cách, lạnh nhạt"
+  },
+  "竖": {
+    "file": "竖.svg",
+    "src": "images/HSK_2.0/level6/竖.svg",
+    "caption": "dựng đứng, theo chiều thẳng"
+  },
   "束": {
     "file": "束.svg",
     "src": "images/HSK_2.0/level6/束.svg",
     "caption": "bó, chùm"
+  },
+  "束缚": {
+    "file": "束缚.svg",
+    "src": "images/HSK_2.0/level6/束缚.svg",
+    "caption": "ràng buộc, trói buộc"
+  },
+  "树立": {
+    "file": "树立.svg",
+    "src": "images/HSK_2.0/level6/树立.svg",
+    "caption": "thiết lập, xây dựng (uy tín, hình ảnh)"
+  },
+  "数额": {
+    "file": "数额.svg",
+    "src": "images/HSK_2.0/level6/数额.svg",
+    "caption": "số lượng, định mức"
+  },
+  "耍": {
+    "file": "耍.svg",
+    "src": "images/HSK_2.0/level6/耍.svg",
+    "caption": "chơi đùa, giở (trò)"
+  },
+  "衰老": {
+    "file": "衰老.svg",
+    "src": "images/HSK_2.0/level6/衰老.svg",
+    "caption": "già yếu, suy nhược"
+  },
+  "衰退": {
+    "file": "衰退.svg",
+    "src": "images/HSK_2.0/level6/衰退.svg",
+    "caption": "suy thoái, suy giảm"
+  },
+  "率领": {
+    "file": "率领.svg",
+    "src": "images/HSK_2.0/level6/率领.svg",
+    "caption": "dẫn đầu, chỉ huy"
   },
   "思维": {
     "file": "思维.svg",

@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background/Environment Elements (Border & Territory) -->
+  <!-- Ground line representing the border -->
+  <path d="M 40 180 L 200 180" stroke="#2C323D" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Border marker/stone -->
+  <rect x="110" y="160" width="20" height="20" rx="3" fill="#3A4250"/>
+  <path d="M 115 160 L 125 160 L 125 180 L 115 180 Z" fill="#FFB703" opacity="0.3"/>
+
+  <!-- Protective Energy Shield / Dynamic Action Effect -->
+  <path d="M 70 120 C 70 85, 95 65, 120 60 C 145 65, 170 85, 170 120 C 170 145, 150 170, 120 175 C 90 170, 70 145, 70 120 Z" fill="none" stroke="#FFB703" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.8"/>
+  <path d="M 85 125 C 85 95, 105 78, 120 75 C 135 78, 155 95, 155 125 C 155 145, 140 160, 120 165 C 100 160, 85 145, 85 125 Z" fill="#FFB703" opacity="0.1"/>
+
+  <!-- Protected Zone / Object (A glowing peaceful community/home inside) -->
+  <g transform="translate(108, 135)">
+    <!-- House base -->
+    <path d="M 4 15 L 4 30 L 20 30 L 20 15 Z" fill="#219EBC"/>
+    <!-- Roof -->
+    <path d="M 2 15 L 12 5 L 22 15 Z" fill="#8ECAE6"/>
+    <!-- Window/Light -->
+    <rect x="10" y="18" width="4" height="6" rx="1" fill="#FFB703"/>
+  </g>
+
+  <!-- Central Human Character (Defender / Soldier taking action) -->
+  <g id="defender">
+    <!-- Body / Torso (Armor/Uniform in slate blue) -->
+    <path d="M 105 130 L 135 130 L 140 165 L 100 165 Z" fill="#3B82F6"/>
+    
+    <!-- Head with helmet -->
+    <circle cx="120" cy="95" r="12" fill="#E2E8F0"/>
+    <!-- Helmet -->
+    <path d="M 106 94 C 106 82, 134 82, 134 94 L 136 98 L 104 98 Z" fill="#1E3A8A"/>
+    <path d="M 102 96 L 138 96 L 134 92 L 106 92 Z" fill="#3B82F6"/>
+
+    <!-- Dynamic Arms shielding / blocking (Action lines & pose) -->
+    <!-- Left arm bracing -->
+    <path d="M 105 125 L 85 135 L 90 145 L 110 135 Z" fill="#3B82F6"/>
+    <!-- Right arm holding shield/barrier -->
+    <path d="M 135 125 L 155 130 L 150 142 L 130 135 Z" fill="#3B82F6"/>
+
+    <!-- Shield / Defensive stance element -->
+    <path d="M 95 110 C 95 105, 145 105, 145 110 L 140 155 C 140 165, 100 165, 100 155 Z" fill="none"/>
+  </g>
+
+  <!-- Motion / Action Lines emphasizing protection and vigilance -->
+  <path d="M 60 100 L 75 110" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 180 100 L 165 110" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 55 130 L 70 135" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 185 130 L 170 135" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Focus / Accent Glow (Golden highlights representing security and care) -->
+  <circle cx="120" cy="60" r="3" fill="#FFB703"/>
+  <circle cx="75" cy="80" r="2" fill="#FFB703" opacity="0.6"/>
+  <circle cx="165" cy="80" r="2" fill="#FFB703" opacity="0.6"/>
+</svg>

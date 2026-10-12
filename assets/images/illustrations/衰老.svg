@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing background aura representing time/aging -->
+  <circle cx="120" cy="120" r="70" fill="#2D2218" opacity="0.6"/>
+  
+  <!-- Hourglass / Time passage motif representing aging -->
+  <g transform="translate(120, 115)">
+    <!-- Top chamber (empty/fading) -->
+    <path d="M-30,-50 L30,-50 L15,-15 L-15,-15 Z" fill="#3E3832"/>
+    <!-- Bottom chamber (accumulated sand / weight of age) -->
+    <path d="M-15,15 L15,15 L30,50 L-30,50 Z" fill="#F39C12" opacity="0.4"/>
+    <!-- Neck -->
+    <rect x="-4" y="-15" width="8" height="30" fill="#5A4E42"/>
+    <!-- Hourglass frame -->
+    <path d="M-35,-55 H35 M-35,55 H35 M-25,-55 V-50 M25,-55 V-50 M-25,55 V50 M25,55 V50" stroke="#8C7A6B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central Character Silhouette representing human aging / decline (Physical object/character) -->
+  <g transform="translate(120, 125)">
+    <!-- Head / Profile silhouette -->
+    <path d="M-12,-15 C-12,-30 -2,-38 10,-30 C20,-24 25,-10 20,5 C18,12 12,20 5,25 L-2,45 C-5,50 -10,52 -15,50 C-18,48 -17,42 -15,38 L-8,25 C-13,20 -15,10 -15,0 Z" fill="#F39C12"/>
+    
+    <!-- Walking cane / support (symbolizing physical decline/weakness) -->
+    <path d="M22,-10 C26,-15 32,-15 35,-10 L35,55" stroke="#E67E22" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="33.5" cy="-12" r="3" fill="#E67E22"/>
+
+    <!-- Slouched posture indicator / arc of aging -->
+    <path d="M-18,-22 C-5,-35 15,-25 10,-5" stroke="#1A1D24" stroke-width="3" fill="none" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+
+  <!-- Subtle accent particles (fading vitality) -->
+  <circle cx="85" cy="75" r="2.5" fill="#F39C12" opacity="0.8"/>
+  <circle cx="155" cy="85" r="1.5" fill="#F39C12" opacity="0.5"/>
+  <circle cx="145" cy="165" r="2" fill="#F39C12" opacity="0.3"/>
+  <circle cx="95" cy="155" r="1.5" fill="#F39C12" opacity="0.6"/>
+
+</svg>

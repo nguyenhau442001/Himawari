@@ -1,0 +1,32 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 120)">
+    <!-- Subtle background glow / aura of constraint -->
+    <circle r="75" fill="#252A34" opacity="0.6"/>
+    
+    <!-- Central Abstract Human Figure (representing traditional thoughts/person) -->
+    <circle cx="0" cy="-35" r="16" fill="#F1F5F9"/>
+    <path d="M-22 -10 Q 0 -18 22 -10 L 25 45 Q 0 52 -25 45 Z" fill="#F1F5F9" opacity="0.9"/>
+    
+    <!-- Heavy Chains / Binding Bands (representing 束缚 - bonds/constraints) -->
+    <!-- Vertical constraint loop -->
+    <ellipse cx="0" cy="5" rx="32" ry="52" fill="none" stroke="#334155" stroke-width="4" stroke-dasharray="8 4"/>
+    
+    <!-- Horizontal glowing binding straps (Orange/Gold accent for focus) -->
+    <rect x="-42" y="-15" width="84" height="10" rx="5" fill="#F59E0B" stroke="#1A1D24" stroke-width="2"/>
+    <rect x="-48" y="15" width="96" height="10" rx="5" fill="#F59E0B" stroke="#1A1D24" stroke-width="2"/>
+    
+    <!-- Heavy metallic lock / clasp in the center -->
+    <rect x="-14" y="-3" width="28" height="34" rx="6" fill="#E2E8F0" stroke="#0F172A" stroke-width="2.5"/>
+    <path d="M-8 -3 V-10 A8 8 0 0 1 8 -10 V-3" fill="none" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="12" r="3.5" fill="#0F172A"/>
+    <path d="M0 15 V20" stroke="#0F172A" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Dynamic tension nodes (showing pressure/binding) -->
+    <path d="M-42 10 L-50 15" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M42 10 L50 15" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-48 -10 L-56 -5" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M48 -10 L56 -5" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

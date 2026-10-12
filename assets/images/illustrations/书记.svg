@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Person / Official Silhouette representing the "Bí thư" (Party/Company Secretary) -->
+    <!-- Shoulders and Suit Jacket -->
+    <path d="M75 185 C75 160 95 145 120 145 C145 145 165 160 165 185 Z" fill="#2E384D"/>
+    
+    <!-- Shirt collar -->
+    <path d="M100 145 L120 168 L140 145 Z" fill="#F0F4F8"/>
+    
+    <!-- Red Tie (Symbolizing leadership/Party Secretary role context) -->
+    <polygon points="116,160 124,160 128,195 120,205 112,195" fill="#E63946"/>
+    
+    <!-- Head and Neck -->
+    <rect x="113" y="125" width="14" height="25" fill="#E2B399"/>
+    <circle cx="120" cy="105" r="22" fill="#E2B399"/>
+    
+    <!-- Hair -->
+    <path d="M98 102 C98 90 106 82 120 82 C134 82 142 90 142 102 C142 105 140 105 140 102 C140 92 132 85 120 85 C108 85 100 92 100 102 C100 105 98 105 98 102 Z" fill="#3E2723"/>
+
+    <!-- Leadership badge/star on lapel -->
+    <polygon points="98,157 100,163 106,163 101,167 103,173 98,169 93,173 95,167 90,163 96,163" fill="#FFB703" transform="scale(0.5) translate(150, 240)"/>
+
+    <!-- Document / Secretary / Dossier Icon overlapping in front to represent "Thư ký" / Administrative Record -->
+    <g transform="translate(130, 95)">
+      <!-- Folder/Document Back -->
+      <rect x="0" y="0" width="60" height="75" rx="6" fill="#457B9D"/>
+      <!-- Document Paper -->
+      <rect x="8" y="10" width="44" height="55" rx="2" fill="#F1FAEE"/>
+      <!-- Text lines on document -->
+      <line x1="14" y1="20" x2="46" y2="20" stroke="#A8DADC" stroke-width="3" stroke-linecap="round"/>
+      <line x1="14" y1="30" x2="40" y2="30" stroke="#A8DADC" stroke-width="3" stroke-linecap="round"/>
+      <line x1="14" y1="40" x2="44" y2="40" stroke="#A8DADC" stroke-width="3" stroke-linecap="round"/>
+      <line x1="14" y1="50" x2="30" y2="50" stroke="#A8DADC" stroke-width="3" stroke-linecap="round"/>
+      <!-- Gold Stamp/Seal indicating official position -->
+      <circle cx="40" cy="53" r="8" fill="#FFB703"/>
+    </g>
+  </g>
+</svg>

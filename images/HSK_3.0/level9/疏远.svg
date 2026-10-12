@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle depth elements -->
+  <g opacity="0.3">
+    <!-- Dashed separation line indicating distance -->
+    <line x1="120" y1="50" x2="120" y2="190" stroke="#4A5568" stroke-width="2" stroke-dasharray="6,6"/>
+  </g>
+
+  <!-- Left Figure (Person A) -->
+  <g transform="translate(65, 120)">
+    <!-- Body/Shoulders -->
+    <path d="M-25,50 C-25,30 -15,20 0,20 C15,20 25,30 25,50 Z" fill="#64748B"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="14" fill="#94A3B8"/>
+    <!-- Facing right (towards center/away) -->
+    <circle cx="3" cy="-5" r="2" fill="#1A1D24"/>
+    <!-- Slight backward lean/posture -->
+    <path d="M-5,18 L-15,35" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Figure (Person B) -->
+  <g transform="translate(175, 120)">
+    <!-- Body/Shoulders -->
+    <path d="M-25,50 C-25,30 -15,20 0,20 C15,20 25,30 25,50 Z" fill="#64748B"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="14" fill="#94A3B8"/>
+    <!-- Facing left (towards center/away) -->
+    <circle cx="-3" cy="-5" r="2" fill="#1A1D24"/>
+    <!-- Slight backward lean/posture -->
+    <path d="M5,18 L15,35" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central Gap Indicator (Distance/Coldness symbol) -->
+  <g transform="translate(120, 110)">
+    <!-- Glowing cold gap accent -->
+    <circle cx="0" cy="0" r="18" fill="#F59E0B" opacity="0.1"/>
+    <!-- Split directional arrows showing moving apart -->
+    <path d="M-12,-4 L-22,-4 L-22,-10 L-30,0 L-22,10 L-22,4 L-12,4 Z" fill="#F59E0B"/>
+    <path d="M12,-4 L22,-4 L22,-10 L30,0 L22,10 L22,4 L12,4 Z" fill="#F59E0B"/>
+  </g>
+</svg>

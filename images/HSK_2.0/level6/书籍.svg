@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/accent for central object -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Books Stack / Object (Noun representation) -->
+  <!-- Bottom Book (Teal accent) -->
+  <g transform="translate(65, 145)">
+    <!-- Pages side -->
+    <path d="M10,0 L100,0 C105,0 110,5 110,10 L100,10 L0,10 C0,5 5,0 10,0 Z" fill="#E2E8F0"/>
+    <!-- Cover -->
+    <path d="M0,10 L100,10 C105,10 110,15 110,25 L110,30 C110,35 105,40 100,40 L0,40 C-5,40 -10,35 -10,30 L-10,25 C-10,15 -5,10 0,10 Z" fill="#0EA5E9"/>
+    <!-- Spine detail -->
+    <rect x="-6" y="14" width="4" height="22" rx="2" fill="#0284C7"/>
+  </g>
+
+  <!-- Middle Book (Purple accent) -->
+  <g transform="translate(55, 115)">
+    <!-- Pages side -->
+    <path d="M10,0 L115,0 C120,0 125,5 125,10 L115,10 L0,10 C0,5 5,0 10,0 Z" fill="#E2E8F0"/>
+    <!-- Cover -->
+    <path d="M0,10 L115,10 C120,10 125,15 125,25 L125,30 C125,35 120,40 115,40 L0,40 C-5,40 -10,35 -10,30 L-10,25 C-10,15 -5,10 0,10 Z" fill="#8B5CF6"/>
+    <!-- Spine detail -->
+    <rect x="-6" y="14" width="4" height="22" rx="2" fill="#7C3AED"/>
+  </g>
+
+  <!-- Top Book (Primary Gold/Orange accent for focus) -->
+  <g transform="translate(60, 80)">
+    <!-- Pages side -->
+    <path d="M10,0 L105,0 C110,0 115,5 115,10 L105,10 L0,10 C0,5 5,0 10,0 Z" fill="#F1F5F9"/>
+    <!-- Cover -->
+    <path d="M0,10 L105,10 C110,10 115,15 115,25 L115,30 C115,35 110,40 105,40 L0,40 C-5,40 -10,35 -10,30 L-10,25 C-10,15 -5,10 0,10 Z" fill="#F59E0B"/>
+    <!-- Bookmark ribbon hanging down -->
+    <path d="M75,40 L75,65 L82.5,58 L90,65 L90,40 Z" fill="#EF4444"/>
+    <!-- Spine detail -->
+    <rect x="-6" y="14" width="4" height="22" rx="2" fill="#D97706"/>
+    <!-- Cover design line -->
+    <line x1="20" y1="25" x2="80" y2="25" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating knowledge spark elements -->
+  <circle cx="175" cy="70" r="3" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="55" cy="75" r="2" fill="#0EA5E9" opacity="0.8"/>
+  <circle cx="160" cy="140" r="2.5" fill="#8B5CF6" opacity="0.8"/>
+</svg>

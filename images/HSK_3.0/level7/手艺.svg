@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Glow Effect / Accent Backdrop -->
+  <circle cx="120" cy="120" r="70" fill="#FFB703" opacity="0.08"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Woodblock Base -->
+    <path d="M 60 160 L 180 160 L 170 185 L 70 185 Z" fill="#2B2D31" stroke="#3A3F47" stroke-width="2"/>
+    <rect x="85" y="145" width="70" height="15" rx="3" fill="#D4A373" />
+    <!-- Wood grain lines -->
+    <line x1="95" y1="150" x2="115" y2="150" stroke="#BC6C25" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="125" y1="155" x2="145" y2="155" stroke="#BC6C25" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Wood Shavings / Craft Detail -->
+    <path d="M 50 170 C 60 160, 65 180, 80 170" fill="none" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 160 172 C 170 165, 175 180, 185 170" fill="none" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Stylized Hands (Craftsmanship / Shǒuyì) -->
+    <!-- Left Hand (Supporting) -->
+    <path d="M 75 135 C 75 125, 90 120, 100 130 L 105 145 C 95 145, 80 145, 75 135 Z" fill="#E0A96D"/>
+    
+    <!-- Right Hand (Holding Chisel/Tool actively carving) -->
+    <path d="M 165 95 C 160 90, 145 95, 140 105 L 130 125 C 135 130, 145 135, 155 125 L 165 105 Z" fill="#E0A96D"/>
+    
+    <!-- Fingers wrapping around tool -->
+    <path d="M 133 115 C 138 113, 142 118, 140 122" fill="none" stroke="#C68B59" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 139 108 C 144 106, 148 111, 146 115" fill="none" stroke="#C68B59" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Chiseling Tool (Woodworking Craft) -->
+    <g transform="rotate(-35, 135, 105)">
+      <!-- Handle -->
+      <rect x="120" y="45" width="16" height="50" rx="4" fill="#DDA15E"/>
+      <rect x="123" y="45" width="10" height="50" fill="#FAEDCD" opacity="0.3"/>
+      <!-- Ferrule -->
+      <rect x="119" y="93" width="18" height="6" fill="#8D99AE"/>
+      <!-- Blade -->
+      <polygon points="124,99 132,99 130,135 126,135" fill="#EAEAEA"/>
+      <!-- Cutting Edge Highlight -->
+      <polygon points="126,135 130,135 128,140" fill="#FFB703"/>
+    </g>
+
+    <!-- Wood Chips / Sparks of Craft -->
+    <circle cx="115" cy="125" r="3" fill="#FFB703"/>
+    <circle cx="125" cy="138" r="2" fill="#E9C46A"/>
+    <path d="M 105 115 L 112 112" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

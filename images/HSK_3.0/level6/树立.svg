@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (subtle grid/glow) -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+  <path d="M60 180 L180 180" stroke="#303642" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Conceptual Representation for "树立" (Establishing a solid reputation/pillar/monument) -->
+  <!-- Base pedestal / Foundation -->
+  <path d="M80 180 L160 180 L150 165 L90 165 Z" fill="#3A4454"/>
+  <rect x="95" y="150" width="50" height="15" fill="#4E5D78" rx="2"/>
+
+  <!-- Central Pillar / Upright Structure representing "Establishing" -->
+  <rect x="110" y="70" width="20" height="85" fill="url(#pillarGrad)" rx="3"/>
+
+  <!-- Star / Shield Symbol on top representing "Good Image / Reputation" (形象 / 良好) -->
+  <g transform="translate(120, 55)">
+    <!-- Outer Glow / Accent Circle -->
+    <circle cx="0" cy="0" r="26" fill="#1A1D24" stroke="#FFB800" stroke-width="3"/>
+    
+    <!-- Shield / Badge shape -->
+    <path d="M 0 -16 C 8 -16, 15 -12, 15 -3 C 15 8, 5 15, 0 19 C -5 15, -15 8, -15 -3 C -15 -12, -8 -16, 0 -16 Z" fill="#FFB800"/>
+    
+    <!-- Checkmark inside shield for "Established / Success" -->
+    <path d="M-5 1 L-2 4 L6 -4" fill="none" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Upward construction energy / rising particles -->
+  <circle cx="95" cy="100" r="3" fill="#FFB800" opacity="0.8"/>
+  <circle cx="145" cy="120" r="2" fill="#FFB800" opacity="0.6"/>
+  <circle cx="100" cy="135" r="2" fill="#FFB800" opacity="0.4"/>
+  
+  <path d="M115 110 L125 100 L125 105" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <path d="M115 90 L125 80 L125 85" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="pillarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A4454"/>
+      <stop offset="50%" stop-color="#5C6F8E"/>
+      <stop offset="100%" stop-color="#3A4454"/>
+    </linearGradient>
+  </defs>
+</svg>
