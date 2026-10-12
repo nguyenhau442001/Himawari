@@ -1,0 +1,49 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Table Surface -->
+  <rect x="20" y="160" width="200" height="80" fill="#334155" rx="4"/>
+  
+  <!-- Microscope -->
+  <path d="M70 160 L90 160 L85 100 L75 100 Z" fill="#94a3b8"/>
+  <circle cx="80" cy="90" r="15" fill="#cbd5e1" stroke="#38bdf8" stroke-width="3"/>
+  
+  <!-- Petri Dish with Bacteria -->
+  <ellipse cx="150" cy="170" rx="30" ry="10" fill="#1e293b" stroke="#fb923c" stroke-width="2"/>
+  <circle cx="140" cy="170" r="4" fill="#ec4899"/>
+  <circle cx="155" cy="168" r="5" fill="#ec4899"/>
+  <circle cx="162" cy="172" r="3" fill="#ec4899"/>
+  
+  <!-- Scientist Character -->
+  <g transform="translate(160, 80)">
+    <!-- Body -->
+    <path d="M-20 100 L20 100 L15 60 L-15 60 Z" fill="#f1f5f9"/>
+    <!-- Head -->
+    <circle cx="0" cy="40" r="20" fill="#fde68a"/>
+    <!-- Eyes -->
+    <circle cx="-7" cy="35" r="2" fill="#1e293b"/>
+    <circle cx="7" cy="35" r="2" fill="#1e293b"/>
+    <!-- Mouth (Concerned) -->
+    <path d="M-5 45 Q0 42 5 45" stroke="#1e293b" stroke-width="2" fill="none"/>
+    <!-- Lab Coat Detail -->
+    <rect x="-20" y="60" width="40" height="5" fill="#e2e8f0"/>
+  </g>
+  
+  <!-- Warning Symbol (Abstracted as glow/spark) -->
+  <path d="M150 140 L155 125 L160 140 Z" fill="#fb923c"/>
+  <circle cx="155" cy="120" r="2" fill="#fb923c"/>
+  
+  <!-- Floating Bacteria Particles -->
+  <circle cx="180" cy="140" r="3" fill="#ec4899"/>
+  <circle cx="190" cy="150" r="2" fill="#ec4899"/>
+  <circle cx="175" cy="155" r="4" fill="#ec4899"/>
+  
+  <!-- Background Glow -->
+  <circle cx="120" cy="120" r="80" fill="#38bdf8" opacity="0.05"/>
+</svg>

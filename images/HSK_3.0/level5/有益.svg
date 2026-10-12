@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Park Path -->
+  <path d="M0 180 C 80 170, 160 190, 240 180 L 240 240 L 0 240 Z" fill="#334155"/>
+  
+  <!-- Trees -->
+  <path d="M30 180 L30 100 L45 130 L60 100 L60 180 Z" fill="#10b981" opacity="0.6"/>
+  <path d="M190 180 L190 90 L210 120 L230 90 L230 180 Z" fill="#10b981" opacity="0.4"/>
+  
+  <!-- Sun/Glow -->
+  <circle cx="200" cy="50" r="25" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="200" cy="50" r="15" fill="#fbbf24"/>
+  
+  <!-- Character: Person walking -->
+  <g transform="translate(80, 130)">
+    <!-- Body -->
+    <path d="M20 20 L20 60" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M20 60 L10 90" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 60 L35 85" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Arms -->
+    <path d="M20 30 L5 50" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 35 L35 55" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="20" cy="15" r="12" fill="#fb923c"/>
+    <!-- Smile -->
+    <path d="M15 18 Q20 22 25 18" stroke="#0f172a" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Health/Heart Symbolism (Abstracted as floating light) -->
+  <path d="M150 80 C150 70, 160 70, 160 80 C160 90, 150 95, 150 100 C150 95, 140 90, 140 80 C140 70, 150 70, 150 80" fill="#ec4899"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="40" cy="60" r="2" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="120" cy="40" r="3" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="210" cy="140" r="2" fill="#fbbf24" opacity="0.4"/>
+</svg>

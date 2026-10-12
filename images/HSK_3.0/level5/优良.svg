@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Background Elements: Traditional Window Frame -->
+  <path d="M40 60h160v120H40z" fill="none" stroke="#334155" stroke-width="4"/>
+  <path d="M120 60v120M40 120h160" stroke="#334155" stroke-width="4"/>
+  
+  <!-- Table -->
+  <rect x="50" y="150" width="140" height="10" rx="2" fill="#475569"/>
+  <rect x="60" y="160" width="10" height="30" fill="#334155"/>
+  <rect x="170" y="160" width="10" height="30" fill="#334155"/>
+  
+  <!-- Characters: Grandparent and Child -->
+  <!-- Grandparent -->
+  <circle cx="80" cy="110" r="15" fill="#fde68a"/>
+  <path d="M70 125h20v40h-20z" fill="#fb923c"/>
+  <path d="M75 130l-10 20M85 130l10 20" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Child -->
+  <circle cx="140" cy="120" r="12" fill="#fde68a"/>
+  <path d="M132 132h16v35h-16z" fill="#38bdf8"/>
+  <path d="M137 137l-8 15M143 137l8 15" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Props: Simple Bowl and Mended Clothing -->
+  <path d="M70 155c0 5 5 8 10 8s10-3 10-8" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M140 150l15-10" stroke="#ec4899" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Decorative warm light glow -->
+  <circle cx="120" cy="120" r="80" fill="#f59e0b" fill-opacity="0.05"/>
+</svg>

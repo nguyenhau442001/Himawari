@@ -15951,6 +15951,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "用品.svg",
     "src": "images/HSK_3.0/level5/用品.svg",
     "caption": "đồ dùng, vật dụng"
+  },
+  "优良": {
+    "file": "优良.svg",
+    "src": "images/HSK_3.0/level5/优良.svg",
+    "caption": "ưu lương, xuất sắc, tốt đẹp"
+  },
+  "优质": {
+    "file": "优质.svg",
+    "src": "images/HSK_3.0/level5/优质.svg",
+    "caption": "chất lượng cao, hảo hạng"
+  },
+  "由此": {
+    "file": "由此.svg",
+    "src": "images/HSK_3.0/level5/由此.svg",
+    "caption": "từ đây, từ đó, do đó"
+  },
+  "邮寄": {
+    "file": "邮寄.svg",
+    "src": "images/HSK_3.0/level5/邮寄.svg",
+    "caption": "gửi bưu điện, gửi bưu phẩm"
+  },
+  "邮票": {
+    "file": "邮票.svg",
+    "src": "images/HSK_3.0/level5/邮票.svg",
+    "caption": "con tem, tem thư"
+  },
+  "油条": {
+    "file": "油条.svg",
+    "src": "images/HSK_3.0/level5/油条.svg",
+    "caption": "quẩy, bánh quẩy"
+  },
+  "有害": {
+    "file": "有害.svg",
+    "src": "images/HSK_3.0/level5/有害.svg",
+    "caption": "có hại"
+  },
+  "有力": {
+    "file": "有力.svg",
+    "src": "images/HSK_3.0/level5/有力.svg",
+    "caption": "mạnh mẽ, đắc lực, có lực"
+  },
+  "有限": {
+    "file": "有限.svg",
+    "src": "images/HSK_3.0/level5/有限.svg",
+    "caption": "có hạn, hữu hạn"
+  },
+  "有益": {
+    "file": "有益.svg",
+    "src": "images/HSK_3.0/level5/有益.svg",
+    "caption": "có ích, có lợi"
   }
 };
 

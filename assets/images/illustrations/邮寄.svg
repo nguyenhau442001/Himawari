@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Desk Surface -->
+  <rect x="20" y="150" width="200" height="10" rx="2" fill="#334155"/>
+  
+  <!-- Character (Upper Body) -->
+  <circle cx="120" cy="110" r="25" fill="#fde68a"/>
+  <path d="M95 135 Q120 160 145 135 L140 240 L100 240 Z" fill="#38bdf8"/>
+  
+  <!-- Important Documents -->
+  <rect x="70" y="130" width="40" height="50" rx="2" fill="#f8fafc"/>
+  <rect x="75" y="135" width="30" height="5" rx="1" fill="#cbd5e1"/>
+  <rect x="75" y="145" width="30" height="5" rx="1" fill="#cbd5e1"/>
+  
+  <!-- Express Mail Package (Being sent) -->
+  <rect x="130" y="120" width="50" height="40" rx="4" fill="#fb923c"/>
+  <rect x="135" y="125" width="40" height="30" rx="2" fill="#ea580c"/>
+  <path d="M130 120 L155 100 L180 120" fill="#fb923c"/>
+  
+  <!-- Express Speed Lines/Action -->
+  <path d="M180 110 L210 90" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  <path d="M190 100 L220 80" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Office Lamp/Lighting -->
+  <circle cx="40" cy="60" r="15" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="40" cy="60" r="8" fill="#f59e0b"/>
+  
+  <!-- Window/Background Detail -->
+  <rect x="180" y="30" width="40" height="40" rx="4" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <circle cx="200" cy="50" r="5" fill="#fef3c7"/>
+</svg>
