@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T09:51:40.240587",
-  "total_unique_words_with_illustrations": 3160,
-  "total_flat_svg_files": 3160,
+  "generated_at": "2026-10-12T09:54:46.613984",
+  "total_unique_words_with_illustrations": 3170,
+  "total_flat_svg_files": 3170,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -58,13 +58,13 @@
       },
       "level5": {
         "total": 1600,
-        "with_svg": 1541,
-        "pct": "96.3%"
+        "with_svg": 1551,
+        "pct": "96.9%"
       },
       "level6": {
         "total": 1800,
-        "with_svg": 245,
-        "pct": "13.6%"
+        "with_svg": 246,
+        "pct": "13.7%"
       },
       "level7": {
         "total": 5600,
@@ -55828,6 +55828,149 @@
       ],
       "file": "早已.svg",
       "src": "images/HSK_3.0/level5/早已.svg",
+      "alt_srcs": []
+    },
+    "造": {
+      "hanzi": "造",
+      "pinyin": "zào",
+      "meaning": "làm, chế tạo, tạo dựng",
+      "example_zh": "请用这几个生词<u>造</u>一个完整的句子。",
+      "example_vi": "Xin hãy dùng những từ mới này để <u>đặt</u> một câu hoàn chỉnh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "造.svg",
+      "src": "images/HSK_3.0/level5/造.svg",
+      "alt_srcs": []
+    },
+    "增": {
+      "hanzi": "增",
+      "pinyin": "zēng",
+      "meaning": "tăng, tăng thêm",
+      "example_zh": "随着业务扩大，公司又<u>增</u>添了许多新设备。",
+      "example_vi": "Theo đà mở rộng kinh doanh, công ty lại <u>tăng</u> thêm nhiều thiết bị mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "增.svg",
+      "src": "images/HSK_3.0/level5/增.svg",
+      "alt_srcs": []
+    },
+    "增进": {
+      "hanzi": "增进",
+      "pinyin": "zēngjìn",
+      "meaning": "tăng cường, nâng cao, làm sâu sắc thêm",
+      "example_zh": "多沟通能够有效地<u>增进</u>人与人之间的理解。",
+      "example_vi": "Giao tiếp nhiều có thể <u>tăng cường</u> sự thấu hiểu giữa người với người một cách hiệu quả.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "增进.svg",
+      "src": "images/HSK_3.0/level5/增进.svg",
+      "alt_srcs": []
+    },
+    "增强": {
+      "hanzi": "增强",
+      "pinyin": "zēngqiáng",
+      "meaning": "tăng cường",
+      "example_zh": "接种疫苗可以<u>增强</u>免疫力",
+      "example_vi": "Tiêm vắc-xin có thể tăng cường khả năng miễn dịch.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "增强.svg",
+      "src": "images/HSK_3.0/level5/增强.svg",
+      "alt_srcs": []
+    },
+    "赠": {
+      "hanzi": "赠",
+      "pinyin": "zèng",
+      "meaning": "tặng, biếu",
+      "example_zh": "买一瓶大饮料，免费<u>赠</u>送一小瓶。",
+      "example_vi": "Mua một chai nước ngọt to, <u>tặng</u> kèm miễn phí một chai nhỏ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "赠.svg",
+      "src": "images/HSK_3.0/level5/赠.svg",
+      "alt_srcs": []
+    },
+    "赠送": {
+      "hanzi": "赠送",
+      "pinyin": "zèngsòng",
+      "meaning": "tặng, biếu tặng",
+      "example_zh": "书店今天向每一位购书者<u>赠送</u>了一份精美书签。",
+      "example_vi": "Hiệu sách hôm nay đã <u>tặng</u> cho mỗi người mua sách một chiếc kẹp sách tinh xảo.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "赠送.svg",
+      "src": "images/HSK_3.0/level5/赠送.svg",
+      "alt_srcs": []
+    },
+    "炸": {
+      "hanzi": "炸",
+      "pinyin": "zhá",
+      "meaning": "rán, chiên (ngập dầu)",
+      "example_zh": "孩子们最喜欢吃香脆的<u>炸</u>鸡翅。",
+      "example_vi": "Bọn trẻ thích ăn nhất là cánh gà <u>chiên</u> giòn thơm phức.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5",
+        "level6"
+      ],
+      "file": "炸.svg",
+      "src": "images/HSK_3.0/level5/炸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/炸.svg"
+      ]
+    },
+    "展出": {
+      "hanzi": "展出",
+      "pinyin": "zhǎnchū",
+      "meaning": "trưng bày, triển lãm",
+      "example_zh": "美术馆正在<u>展出</u>许多当代著名画家的作品。",
+      "example_vi": "Bảo tàng mỹ thuật đang <u>trưng bày</u> nhiều tác phẩm của các họa sĩ đương đại nổi tiếng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "展出.svg",
+      "src": "images/HSK_3.0/level5/展出.svg",
+      "alt_srcs": []
+    },
+    "展示": {
+      "hanzi": "展示",
+      "pinyin": "zhǎnshì",
+      "meaning": "hiển thị",
+      "example_zh": "博物馆里<u>展示</u>了许多珍贵文物",
+      "example_vi": "Bảo tàng trưng bày nhiều di vật văn hóa quý.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "展示.svg",
+      "src": "images/HSK_3.0/level5/展示.svg",
+      "alt_srcs": []
+    },
+    "展现": {
+      "hanzi": "展现",
+      "pinyin": "zhǎnxiàn",
+      "meaning": "hiển thị",
+      "example_zh": "这座城市<u>展现</u>出新的风貌",
+      "example_vi": "Thành phố này thể hiện diện mạo mới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level5"
+      ],
+      "file": "展现.svg",
+      "src": "images/HSK_3.0/level5/展现.svg",
       "alt_srcs": []
     }
   }

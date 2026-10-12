@@ -16101,6 +16101,56 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "早已.svg",
     "src": "images/HSK_3.0/level5/早已.svg",
     "caption": "đã từ lâu, sớm đã"
+  },
+  "造": {
+    "file": "造.svg",
+    "src": "images/HSK_3.0/level5/造.svg",
+    "caption": "làm, chế tạo, tạo dựng"
+  },
+  "增": {
+    "file": "增.svg",
+    "src": "images/HSK_3.0/level5/增.svg",
+    "caption": "tăng, tăng thêm"
+  },
+  "增进": {
+    "file": "增进.svg",
+    "src": "images/HSK_3.0/level5/增进.svg",
+    "caption": "tăng cường, nâng cao, làm sâu sắc thêm"
+  },
+  "增强": {
+    "file": "增强.svg",
+    "src": "images/HSK_3.0/level5/增强.svg",
+    "caption": "tăng cường"
+  },
+  "赠": {
+    "file": "赠.svg",
+    "src": "images/HSK_3.0/level5/赠.svg",
+    "caption": "tặng, biếu"
+  },
+  "赠送": {
+    "file": "赠送.svg",
+    "src": "images/HSK_3.0/level5/赠送.svg",
+    "caption": "tặng, biếu tặng"
+  },
+  "炸": {
+    "file": "炸.svg",
+    "src": "images/HSK_3.0/level5/炸.svg",
+    "caption": "rán, chiên (ngập dầu)"
+  },
+  "展出": {
+    "file": "展出.svg",
+    "src": "images/HSK_3.0/level5/展出.svg",
+    "caption": "trưng bày, triển lãm"
+  },
+  "展示": {
+    "file": "展示.svg",
+    "src": "images/HSK_3.0/level5/展示.svg",
+    "caption": "hiển thị"
+  },
+  "展现": {
+    "file": "展现.svg",
+    "src": "images/HSK_3.0/level5/展现.svg",
+    "caption": "hiển thị"
   }
 };
 
