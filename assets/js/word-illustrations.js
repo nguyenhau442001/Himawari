@@ -19032,6 +19032,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/清晨.svg",
     "caption": "sáng sớm"
   },
+  "清除": {
+    "file": "清除.svg",
+    "src": "images/HSK_2.0/level6/清除.svg",
+    "caption": "dọn sạch, loại bỏ"
+  },
+  "清洁": {
+    "file": "清洁.svg",
+    "src": "images/HSK_2.0/level6/清洁.svg",
+    "caption": "sạch sẽ"
+  },
+  "清理": {
+    "file": "清理.svg",
+    "src": "images/HSK_2.0/level6/清理.svg",
+    "caption": "dọn dẹp, thanh lý"
+  },
+  "清晰": {
+    "file": "清晰.svg",
+    "src": "images/HSK_2.0/level6/清晰.svg",
+    "caption": "rõ ràng, rành mạch"
+  },
+  "清醒": {
+    "file": "清醒.svg",
+    "src": "images/HSK_2.0/level6/清醒.svg",
+    "caption": "tỉnh táo, sáng suốt"
+  },
   "请教": {
     "file": "请教.svg",
     "src": "images/HSK_2.0/level6/请教.svg",

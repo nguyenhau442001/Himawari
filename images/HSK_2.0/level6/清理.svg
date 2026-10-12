@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background Container -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <clipPath id="roomClip">
+      <rect width="240" height="240" rx="24" />
+    </clipPath>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="url(#bgGrad)" clip-path="url(#roomClip)" />
+
+  <!-- Room Environment -->
+  <!-- Wallpaper / Back Wall -->
+  <rect x="20" y="20" width="200" height="150" fill="#334155" rx="4" opacity="0.4" />
+  
+  <!-- Window with warm light -->
+  <rect x="35" y="35" width="45" height="60" rx="4" fill="#0f172a" />
+  <rect x="39" y="39" width="37" height="52" fill="#fbbf24" opacity="0.2" />
+  <path d="M57.5 35 V95 M35 65 H80" stroke="#1e293b" stroke-width="3" />
+  
+  <!-- Wall Shelf with scattered items -->
+  <rect x="110" y="55" width="90" height="6" rx="2" fill="#475569" />
+  <!-- Books on shelf -->
+  <rect x="120" y="35" width="10" height="20" fill="#38bdf8" rx="1" />
+  <rect x="131" y="38" width="8" height="17" fill="#ec4899" rx="1" />
+  <rect x="140" y="33" width="14" height="22" fill="#10b981" rx="1" />
+  <!-- Rolling storage box on shelf -->
+  <rect x="165" y="38" width="25" height="17" fill="#fb923c" rx="2" />
+
+  <!-- Floor -->
+  <path d="M0 165 L240 165 L240 240 L0 240 Z" fill="url(#floorGrad)" />
+  <!-- Floorboards perspective lines -->
+  <path d="M0 185 L240 185 M0 205 L240 205 M0 225 L240 225" stroke="#1e293b" stroke-width="1.5" opacity="0.6" />
+
+  <!-- Clutter / Mess on Floor (To be cleaned) -->
+  <!-- Crumpled papers -->
+  <circle cx="85" cy="180" r="5" fill="#f8fafc" opacity="0.9" />
+  <path d="M82 178 Q85 175 88 179 T84 183" stroke="#cbd5e1" stroke-width="1" fill="none" />
+  <circle cx="125" cy="205" r="4" fill="#f8fafc" opacity="0.8" />
+  <!-- Misplaced toy block -->
+  <rect x="150" y="190" width="12" height="12" rx="2" transform="rotate(15 150 190)" fill="#f43f5e" />
+  <!-- Stray sock -->
+  <path d="M60 210 C58 205 65 202 68 208 C70 212 65 218 60 214 Z" fill="#38bdf8" />
+
+  <!-- Main Open Cardboard Box for "Clean Up" / 清理 -->
+  <g transform="translate(100, 155)">
+    <!-- Back inner wall of box -->
+    <rect x="0" y="10" width="50" height="30" fill="#92400e" />
+    <!-- Box sides -->
+    <polygon points="0,10 10,0 10,40 0,40" fill="#b45309" />
+    <polygon points="50,10 40,0 40,40 50,40" fill="#d97706" />
+    <!-- Front face of box -->
+    <rect x="10" y="10" width="30" height="40" fill="url(#boxGrad)" rx="2" />
+    <!-- Box flaps open outward -->
+    <path d="M0,10 L-12,-5 L3,2 Z" fill="#b45309" />
+    <path d="M50,10 L62,-5 L47,2 Z" fill="#f59e0b" />
+    <!-- Items already inside box -->
+    <rect x="16" y="15" width="8" height="18" fill="#a855f7" rx="1" transform="rotate(-10 16 15)" />
+    <rect x="26" y="12" width="14" height="15" fill="#06b6d4" rx="2" />
+  </g>
+
+  <!-- Character 1: Woman bending down holding clutter (Left) -->
+  <g transform="translate(35, 120)">
+    <!-- Shadow -->
+    <ellipse cx="25" cy="52" rx="18" ry="5" fill="#0f172a" opacity="0.5" />
+    
+    <!-- Body bent forward -->
+    <g transform="translate(15, 20) rotate(25) translate(-15, -20)">
+      <!-- Torso (Pink sweater) -->
+      <path d="M10 15 Q25 12 30 28 L25 42 Q10 40 10 25 Z" fill="#f43f5e" />
+      <!-- Head & Hair -->
+      <circle cx="35" cy="12" r="9" fill="#fbcfe8" />
+      <!-- Hair bun -->
+      <circle cx="42" cy="8" r="4" fill="#334155" />
+      <path d="M28 10 C32 4 40 6 42 12" fill="#334155" />
+      
+      <!-- Arms reaching down to floor -->
+      <path d="M25 22 Q40 30 48 40" stroke="#fbcfe8" stroke-width="5" stroke-linecap="round" fill="none" />
+      <!-- Holding a book -->
+      <rect x="42" y="35" width="12" height="10" rx="1" fill="#3b82f6" transform="rotate(20 42 35)" />
+    </g>
+
+    <!-- Legs crouching -->
+    <path d="M12 45 Q5 50 12 55" stroke="#334155" stroke-width="6" stroke-linecap="round" fill="none" />
+    <path d="M22 45 Q28 50 25 55" stroke="#334155" stroke-width="6" stroke-linecap="round" fill="none" />
+    <!-- Shoes -->
+    <ellipse cx="10" cy="56" rx="5" ry="3" fill="#cbd5e1" />
+    <ellipse cx="26" cy="56" rx="5" ry="3" fill="#cbd5e1" />
+  </g>
+
+  <!-- Character 2: Man standing holding items, pointing/organizing (Right) -->
+  <g transform="translate(160, 95)">
+    <!-- Shadow -->
+    <ellipse cx="18" cy="78" rx="14" ry="4" fill="#0f172a" opacity="0.5" />
+
+    <!-- Legs -->
+    <path d="M12 55 L10 78" stroke="#1e293b" stroke-width="6" stroke-linecap="round" />
+    <path d="M24 55 L26 78" stroke="#1e293b" stroke-width="6" stroke-linecap="round" />
+    <!-- Shoes -->
+    <ellipse cx="8" cy="79" rx="5" ry="2.5" fill="#475569" />
+    <ellipse cx="28" cy="79" rx="5" ry="2.5" fill="#475569" />
+
+    <!-- Torso (Teal shirt) -->
+    <path d="M8 28 H28 L32 55 H4 L8 28 Z" fill="#0d9488" rx="3" />
+
+    <!-- Head & Face -->
+    <circle cx="18" cy="15" r="10" fill="#fde047" />
+    <!-- Friendly happy expression (eyes closed curved, smiling) -->
+    <path d="M14 14 Q16 17 18 14" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <path d="M20 14 Q22 17 24 14" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <path d="M16 19 Q18 21 20 19" stroke="#e11d48" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <!-- Hair -->
+    <path d="M10 12 C10 6 26 6 26 12 C24 10 12 10 10 12 Z" fill="#1e293b" />
+
+    <!-- Arms -->
+    <!-- Left arm holding up box flap / gesturing -->
+    <path d="M8 30 Q-5 25 -2 38" stroke="#0d9488" stroke-width="6" stroke-linecap="round" fill="none" />
+    <!-- Right arm reaching toward center box -->
+    <path d="M28 32 Q42 35 38 45" stroke="#0d9488" stroke-width="6" stroke-linecap="round" fill="none" />
+    <!-- Hand placing object -->
+    <circle cx="38" cy="46" r="3.5" fill="#fde047" />
+  </g>
+
+  <!-- Sparkles / Action effect of cleaning and fresh energy -->
+  <g transform="translate(100, 90)" fill="#fbbf24">
+    <path d="M0 0 L2 6 L8 8 L2 10 L0 16 L-2 10 L-8 8 L-2 6 Z" opacity="0.8" />
+  </g>
+  <g transform="translate(65, 70)" fill="#38bdf8" transform="scale(0.7)">
+    <path d="M0 0 L2 6 L8 8 L2 10 L0 16 L-2 10 L-8 8 L-2 6 Z" opacity="0.7" />
+  </g>
+  <g transform="translate(150, 130)" fill="#10b981" transform="scale(0.8)">
+    <path d="M0 0 L2 6 L8 8 L2 10 L0 16 L-2 10 L-8 8 L-2 6 Z" opacity="0.9" />
+  </g>
+
+</svg>

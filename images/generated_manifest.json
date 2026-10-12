@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:43:05.626686",
-  "total_unique_words_with_illustrations": 4400,
-  "total_flat_svg_files": 4400,
+  "generated_at": "2026-10-12T22:44:01.454796",
+  "total_unique_words_with_illustrations": 4405,
+  "total_flat_svg_files": 4405,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1760,
-        "pct": "70.4%"
+        "with_svg": 1765,
+        "pct": "70.6%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 587,
-        "pct": "32.6%"
+        "with_svg": 591,
+        "pct": "32.8%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 864,
+        "with_svg": 865,
         "pct": "15.4%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 864,
+        "with_svg": 865,
         "pct": "15.4%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 864,
+        "with_svg": 865,
         "pct": "15.4%"
       }
     }
@@ -71266,6 +71266,100 @@
       "src": "images/HSK_2.0/level6/清晨.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/清晨.svg"
+      ]
+    },
+    "清除": {
+      "hanzi": "清除",
+      "pinyin": "qīngchú",
+      "meaning": "dọn sạch, loại bỏ",
+      "example_zh": "工人正在<u>清除</u>路上的积雪。",
+      "example_vi": "Công nhân đang <u>dọn sạch</u> tuyết đọng trên đường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "清除.svg",
+      "src": "images/HSK_2.0/level6/清除.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/清除.svg",
+        "images/HSK_3.0/level8/清除.svg",
+        "images/HSK_3.0/level9/清除.svg"
+      ]
+    },
+    "清洁": {
+      "hanzi": "清洁",
+      "pinyin": "qīngjié",
+      "meaning": "sạch sẽ",
+      "example_zh": "请保持环境<u>清洁</u>。",
+      "example_vi": "Xin giữ môi trường <u>sạch sẽ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "清洁.svg",
+      "src": "images/HSK_2.0/level6/清洁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/清洁.svg"
+      ]
+    },
+    "清理": {
+      "hanzi": "清理",
+      "pinyin": "qīnglǐ",
+      "meaning": "dọn dẹp, thanh lý",
+      "example_zh": "我们应该<u>清理</u>一下房间了。",
+      "example_vi": "Chúng ta nên <u>dọn dẹp</u> phòng một chút rồi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "清理.svg",
+      "src": "images/HSK_2.0/level6/清理.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/清理.svg"
+      ]
+    },
+    "清晰": {
+      "hanzi": "清晰",
+      "pinyin": "qīngxī",
+      "meaning": "rõ ràng, rành mạch",
+      "example_zh": "他的思路非常<u>清晰</u>。",
+      "example_vi": "Tư duy của anh ấy rất <u>rõ ràng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "清晰.svg",
+      "src": "images/HSK_2.0/level6/清晰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/清晰.svg"
+      ]
+    },
+    "清醒": {
+      "hanzi": "清醒",
+      "pinyin": "qīngxǐng",
+      "meaning": "tỉnh táo, sáng suốt",
+      "example_zh": "遇到困难时要保持<u>清醒</u>的头脑。",
+      "example_vi": "Khi gặp khó khăn cần giữ đầu óc <u>tỉnh táo</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "清醒.svg",
+      "src": "images/HSK_2.0/level6/清醒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/清醒.svg"
       ]
     },
     "请教": {
