@@ -18332,6 +18332,31 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/排放.svg",
     "caption": "thải ra, xả (chất thải)"
   },
+  "徘徊": {
+    "file": "徘徊.svg",
+    "src": "images/HSK_2.0/level6/徘徊.svg",
+    "caption": "lưỡng lự, đi lại quanh quẩn"
+  },
+  "派别": {
+    "file": "派别.svg",
+    "src": "images/HSK_2.0/level6/派别.svg",
+    "caption": "phe phái"
+  },
+  "派遣": {
+    "file": "派遣.svg",
+    "src": "images/HSK_2.0/level6/派遣.svg",
+    "caption": "cử đi, điều đi"
+  },
+  "攀登": {
+    "file": "攀登.svg",
+    "src": "images/HSK_2.0/level6/攀登.svg",
+    "caption": "leo lên, chinh phục (núi)"
+  },
+  "盘旋": {
+    "file": "盘旋.svg",
+    "src": "images/HSK_2.0/level6/盘旋.svg",
+    "caption": "bay lượn, quanh co"
+  },
   "品质": {
     "file": "品质.svg",
     "src": "images/HSK_2.0/level6/品质.svg",

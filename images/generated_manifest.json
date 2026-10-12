@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T22:18:14.049917",
-  "total_unique_words_with_illustrations": 4265,
-  "total_flat_svg_files": 4265,
+  "generated_at": "2026-10-12T22:19:02.767974",
+  "total_unique_words_with_illustrations": 4270,
+  "total_flat_svg_files": 4270,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 1625,
-        "pct": "65.0%"
+        "with_svg": 1630,
+        "pct": "65.2%"
       }
     },
     "hsk_3_0": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 773,
-        "pct": "13.8%"
+        "with_svg": 778,
+        "pct": "13.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 773,
-        "pct": "13.8%"
+        "with_svg": 778,
+        "pct": "13.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 773,
-        "pct": "13.8%"
+        "with_svg": 778,
+        "pct": "13.9%"
       }
     }
   },
@@ -68402,6 +68402,116 @@
       "src": "images/HSK_2.0/level6/排放.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/排放.svg"
+      ]
+    },
+    "徘徊": {
+      "hanzi": "徘徊",
+      "pinyin": "páihuái",
+      "meaning": "lưỡng lự, đi lại quanh quẩn",
+      "example_zh": "他在十字路口<u>徘徊</u>了很久。",
+      "example_vi": "Anh ấy <u>đi lại quanh quẩn</u> ở ngã tư rất lâu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "徘徊.svg",
+      "src": "images/HSK_2.0/level6/徘徊.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/徘徊.svg",
+        "images/HSK_3.0/level8/徘徊.svg",
+        "images/HSK_3.0/level9/徘徊.svg"
+      ]
+    },
+    "派别": {
+      "hanzi": "派别",
+      "pinyin": "pàibié",
+      "meaning": "phe phái",
+      "example_zh": "党内存在不同的<u>派别</u>。",
+      "example_vi": "Trong đảng tồn tại các <u>phe phái</u> khác nhau.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "派别.svg",
+      "src": "images/HSK_2.0/level6/派别.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/派别.svg",
+        "images/HSK_3.0/level8/派别.svg",
+        "images/HSK_3.0/level9/派别.svg"
+      ]
+    },
+    "派遣": {
+      "hanzi": "派遣",
+      "pinyin": "pàiqiǎn",
+      "meaning": "cử đi, điều đi",
+      "example_zh": "公司<u>派遣</u>他去国外学习。",
+      "example_vi": "Công ty <u>cử</u> anh ấy đi học ở nước ngoài.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "派遣.svg",
+      "src": "images/HSK_2.0/level6/派遣.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/派遣.svg",
+        "images/HSK_3.0/level8/派遣.svg",
+        "images/HSK_3.0/level9/派遣.svg"
+      ]
+    },
+    "攀登": {
+      "hanzi": "攀登",
+      "pinyin": "pāndēng",
+      "meaning": "leo lên, chinh phục (núi)",
+      "example_zh": "他们成功<u>攀登</u>了珠穆朗玛峰。",
+      "example_vi": "Họ đã <u>chinh phục</u> thành công đỉnh Everest.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "攀登.svg",
+      "src": "images/HSK_2.0/level6/攀登.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/攀登.svg",
+        "images/HSK_3.0/level8/攀登.svg",
+        "images/HSK_3.0/level9/攀登.svg"
+      ]
+    },
+    "盘旋": {
+      "hanzi": "盘旋",
+      "pinyin": "pánxuán",
+      "meaning": "bay lượn, quanh co",
+      "example_zh": "老鹰在天空中<u>盘旋</u>。",
+      "example_vi": "Con chim ưng <u>bay lượn</u> trên không.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "盘旋.svg",
+      "src": "images/HSK_2.0/level6/盘旋.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/盘旋.svg",
+        "images/HSK_3.0/level8/盘旋.svg",
+        "images/HSK_3.0/level9/盘旋.svg"
       ]
     },
     "品质": {
