@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative ocean waves and sunrise glow -->
+  <circle cx="120" cy="130" r="80" fill="#222b38" opacity="0.5"/>
+  <path d="M 30 180 Q 75 170 120 180 T 210 180" fill="none" stroke="#2a3649" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 20 200 Q 65 190 110 200 T 200 200" fill="none" stroke="#252f3f" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Fishing Boat Hull -->
+  <path d="M 75 155 L 165 155 Q 180 155 175 168 Q 170 178 150 178 L 90 178 Q 70 178 65 168 Q 60 155 75 155 Z" fill="#3B4252"/>
+  <rect x="105" y="138" width="30" height="20" rx="2" fill="#4C566A"/>
+  
+  <!-- Fishing Rod / Motion lines -->
+  <path d="M 120 138 L 85 80" fill="none" stroke="#D8DEE9" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 85 80 Q 70 70 60 90" fill="none" stroke="#EBCB8B" stroke-width="1.5" stroke-dasharray="3,2" stroke-linecap="round"/>
+
+  <!-- Fisher Character (Dynamic Action) -->
+  <!-- Body/Torso -->
+  <path d="M 105 150 L 135 150 L 130 130 L 110 130 Z" fill="#5E81AC"/>
+  <!-- Head -->
+  <circle cx="120" cy="118" r="9" fill="#ECEFF4"/>
+  <!-- Hat -->
+  <path d="M 108 113 Q 120 106 132 113 Z" fill="#D08770"/>
+  <!-- Arms pulling the net/catch -->
+  <path d="M 120 135 L 95 115" fill="none" stroke="#5E81AC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 120 135 L 140 125" fill="none" stroke="#5E81AC" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Net and Catch (Action Result) -->
+  <!-- Net mesh arc -->
+  <path d="M 45 100 Q 30 120 50 140 Q 70 130 65 110 Z" fill="none" stroke="#D8DEE9" stroke-width="1.5" stroke-dasharray="2,2"/>
+  
+  <!-- Dynamic Motion Lines indicating pulling action -->
+  <path d="M 68 115 Q 80 125 90 120" fill="none" stroke="#EBCB8B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 72 105 Q 85 115 95 110" fill="none" stroke="#EBCB8B" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Caught Fish jumping out of water -->
+  <g transform="translate(48, 95) rotate(-25)">
+    <!-- Fish body -->
+    <ellipse cx="12" cy="8" rx="12" ry="7" fill="#EBCB8B"/>
+    <!-- Fish tail -->
+    <polygon points="0,8 -6,3 -6,13" fill="#EBCB8B"/>
+    <!-- Fish eye -->
+    <circle cx="18" cy="6" r="1.5" fill="#2E3440"/>
+  </g>
+
+  <!-- Secondary smaller fish splashing -->
+  <ellipse cx="78" cy="148" rx="6" ry="3" fill="#EBCB8B" transform="rotate(40 78 148)"/>
+  <path d="M 74 154 Q 78 148 84 154" fill="none" stroke="#88C0D0" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Water splash droplets -->
+  <circle cx="58" cy="138" r="2" fill="#88C0D0"/>
+  <circle cx="68" cy="132" r="1.5" fill="#88C0D0"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient lighting -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Prohibitory Sign / Symbol representing "不许" (Forbidden / Not Allowed) -->
+  <g transform="translate(120, 120)">
+    <!-- Outer Red Ring -->
+    <circle cx="0" cy="0" r="64" fill="none" stroke="#FF5252" stroke-width="14"/>
+    
+    <!-- Diagonal Red Slash -->
+    <line x1="-45" y1="45" x2="45" y2="-45" stroke="#FF5252" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- Contextual Icon inside: Stack of books and a sound wave crossed out, representing library rule "不许大声喧哗" -->
+    <g transform="translate(0, 5)">
+      <!-- Books base -->
+      <rect x="-24" y="16" width="48" height="8" rx="2" fill="#4B6584"/>
+      <rect x="-28" y="24" width="56" height="8" rx="2" fill="#E74C3C"/>
+      <rect x="-22" y="32" width="44" height="8" rx="2" fill="#F1C40F"/>
+
+      <!-- Megaphone / Sound icon being forbidden -->
+      <path d="M-8 -12 L-2 -6 L-2 -18 Z" fill="#A4B0BE"/>
+      <rect x="-14" y="-6" width="6" height="12" rx="1" fill="#A4B0BE"/>
+      <path d="M4 -14 C8 -10 8 -2 4 2" fill="none" stroke="#A4B0BE" stroke-width="3" stroke-linecap="round"/>
+      <path d="M8 -18 C14 -12 14 -2 8 6" fill="none" stroke="#A4B0BE" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Highlighting focus ring (Orange/Gold accent as per instructions) -->
+  <circle cx="120" cy="120" r="76" fill="none" stroke="#FFB142" stroke-width="2" opacity="0.3"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle medical cross pattern / accent glow -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Visual contrast / Adjective state representation (Unwell / 不适) -->
+  <!-- We show a silhouette/character experiencing physical discomfort (holding head/stomach area) -->
+  
+  <!-- Outer pulse waves indicating unease/pain -->
+  <path d="M 85 80 Q 70 95 85 110" fill="none" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 155 80 Q 170 95 155 110" fill="none" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Body/Shoulders -->
+  <path d="M 80 180 C 80 145 95 135 120 135 C 145 135 160 145 160 180 Z" fill="#2D3748"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="100" r="24" fill="#E2E8F0"/>
+
+  <!-- Closed, uncomfortable eyes (horizontal slashes) -->
+  <line x1="110" y1="96" x2="116" y2="98" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <line x1="124" y1="98" x2="130" y2="96" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Frown / uncomfortable mouth -->
+  <path d="M 113 112 Q 120 108 127 112" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hand touching forehead (classic gesture of physical discomfort/fever/dizziness) -->
+  <path d="M 100 105 C 105 90 120 85 130 92 C 135 96 138 102 135 106" fill="#CBD5E0"/>
+  <circle cx="132" cy="95" r="5" fill="#CBD5E0"/>
+
+  <!-- Focal Accent: Glowing warning/discomfort indicator floating above -->
+  <g transform="translate(120, 45)">
+    <circle cx="0" cy="0" r="14" fill="#ED8936" opacity="0.2"/>
+    <circle cx="0" cy="0" r="9" fill="#ED8936"/>
+    <!-- Exclamation mark / pain indicator -->
+    <rect x="-1" y="-5" width="2" height="6" rx="1" fill="#1A1D24"/>
+    <circle cx="0" cy="4" r="1.2" fill="#1A1D24"/>
+  </g>
+
+  <!-- Medical cross subtle accent in lower corner -->
+  <g transform="translate(45, 175) scale(0.6)">
+    <rect x="-3" y="-12" width="6" height="24" rx="2" fill="#4A5568" opacity="0.4"/>
+    <rect x="-12" y="-3" width="24" height="6" rx="2" fill="#4A5568" opacity="0.4"/>
+  </g>
+</svg>

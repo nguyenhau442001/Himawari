@@ -1,0 +1,65 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background accent/glow -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.6"/>
+
+  <!-- Warmth rays/ambient heat lines behind the jacket -->
+  <g opacity="0.5" stroke="#FF9F43" stroke-width="3" stroke-linecap="round">
+    <line x1="50" y1="80" x2="35" y2="70" />
+    <line x1="45" y1="120" x2="25" y2="120" />
+    <line x1="50" y1="160" x2="35" y2="170" />
+    <line x1="190" y1="80" x2="205" y2="70" />
+    <line x1="195" y1="120" x2="215" y2="120" />
+    <line x1="190" y1="160" x2="205" y2="170" />
+  </g>
+
+  <!-- Puffer Jacket (羽绒服 - Physical Object for 保暖) -->
+  <g transform="translate(0, 5)">
+    <!-- Jacket Body / Main Puffer Shape -->
+    <path d="M90 55 C90 50, 100 45, 120 45 C140 45, 150 50, 150 55 L165 75 L185 85 L160 115 L155 195 L85 195 L80 115 L55 85 L75 75 Z" fill="#2E86DE"/>
+    
+    <!-- Inner Collar -->
+    <path d="M100 50 C100 65, 140 65, 140 50 L130 48 C130 55, 110 55, 110 48 Z" fill="#54a0ff"/>
+
+    <!-- Left Sleeve (Puffer Segments) -->
+    <g fill="#2269af">
+      <path d="M75 75 L55 85 L68 112 L83 95 Z"/>
+      <path d="M68 112 L83 95 L90 105 L77 125 Z"/>
+      <path d="M77 125 L90 105 L96 118 L85 138 Z"/>
+    </g>
+
+    <!-- Right Sleeve (Puffer Segments) -->
+    <g fill="#2269af">
+      <path d="M165 75 L185 85 L172 112 L157 95 Z"/>
+      <path d="M172 112 L157 95 L150 105 L163 125 Z"/>
+      <path d="M163 125 L150 105 L144 118 L155 138 Z"/>
+    </g>
+
+    <!-- Main Torso Puffer Baffles / Horizontal Quilted Lines -->
+    <g stroke="#1b4d8e" stroke-width="4" stroke-linecap="round" fill="none">
+      <!-- Upper chest -->
+      <path d="M85 85 Q120 95 155 85"/>
+      <!-- Mid upper -->
+      <path d="M82 110 Q120 122 158 110"/>
+      <!-- Center -->
+      <path d="M81 138 Q120 150 159 138"/>
+      <!-- Lower mid -->
+      <path d="M82 166 Q120 178 158 166"/>
+    </g>
+    
+    <!-- Jacket Zipper Line -->
+    <line x1="120" y1="55" x2="120" y2="195" stroke="#E5EAEE" stroke-width="3" stroke-dasharray="6,4"/>
+
+    <!-- Zipper Puller -->
+    <circle cx="120" cy="75" r="4" fill="#FF9F43"/>
+  </g>
+
+  <!-- Heat/Thermal Glow Icon Accent (Floating Gentle Flame/Heat Wave Symbol) -->
+  <g transform="translate(120, 25) scale(0.8)">
+    <path d="M0 -10 C6 -2, 10 4, 10 9 C10 15, 6 18, 0 18 C-6 18, -10 15, -10 9 C-10 4, -6 -2, 0 -10 Z" fill="#FF9F43"/>
+    <path d="M0 -3 C3 2, 5 5, 5 8 C5 11, 3 13, 0 13 C-3 13, -5 11, -5 8 C-5 5, -3 2, 0 -3 Z" fill="#Feca57"/>
+  </g>
+
+</svg>

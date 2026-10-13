@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Background subtle dynamic squeeze indicator lines -->
+    <path d="M 60 70 L 95 105" stroke="#2A2F3D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 60 170 L 95 135" stroke="#2A2F3D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 180 70 L 145 105" stroke="#2A2F3D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 180 170 L 145 135" stroke="#2A2F3D" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Left Pushing Wall / Barrier -->
+    <rect x="50" y="80" width="16" height="80" rx="4" fill="#3A4255"/>
+    <!-- Left Force Arrows -->
+    <path d="M 72 105 L 92 105 M 84 99 L 92 105 L 84 111" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 72 135 L 92 135 M 84 129 L 92 135 L 84 141" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Right Pushing Wall / Barrier -->
+    <rect x="174" y="80" width="16" height="80" rx="4" fill="#3A4255"/>
+    <!-- Right Force Arrows -->
+    <path d="M 168 105 L 148 105 M 156 99 L 148 105 L 156 111" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 168 135 L 148 135 M 156 129 L 148 135 L 156 141" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Central Character representing physical constraint / being cornered -->
+    <!-- Head -->
+    <circle cx="120" cy="100" r="16" fill="#E2E8F0"/>
+    
+    <!-- Body compressed / huddled -->
+    <path d="M 104 135 C 104 118 110 115 120 115 C 130 115 136 118 136 135 L 138 160 C 138 164 134 168 130 168 L 110 168 C 106 168 102 164 102 160 Z" fill="#3B82F6"/>
+
+    <!-- Arms hugging knees (tight squeeze posture) -->
+    <path d="M 108 126 C 112 125 124 125 128 126 C 133 127 135 132 131 138 C 127 144 117 145 113 138 Z" fill="#60A5FA"/>
+
+    <!-- Accent Focus Glow / Focal Point -->
+    <circle cx="120" cy="120" r="44" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 6" opacity="0.6"/>
+  </g>
+</svg>

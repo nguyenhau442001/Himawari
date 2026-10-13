@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Scene Elements (Hometown River & Distant Home representation) -->
+  <!-- Night Sky -->
+  <rect x="20" y="20" width="200" height="200" rx="16" fill="#15181F"/>
+  
+  <!-- Distant Mountains / Horizon -->
+  <path d="M20 140 L80 100 L140 130 L220 95 L220 160 L20 160 Z" fill="#222733"/>
+  
+  <!-- The Clear River (清澈的小河) flowing from background to foreground -->
+  <path d="M120 130 Q130 160 100 190 L140 220 Q180 180 150 130 Z" fill="#2E4A62" opacity="0.6"/>
+  <path d="M125 133 C130 155 110 175 108 188" stroke="#4DA6FF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M138 140 C143 160 125 178 120 195" stroke="#4DA6FF" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Character (Traveler looking back, remembering) -->
+  <!-- Body/Coat -->
+  <path d="M80 170 C80 155 90 145 105 145 L135 145 C150 145 160 155 160 170 L165 205 C165 210 160 215 155 215 L85 215 C80 215 75 210 75 205 Z" fill="#2A3B4C"/>
+  
+  <!-- Head & Hair -->
+  <circle cx="120" cy="120" r="16" fill="#D4AF37"/> <!-- Golden warm highlight for memory/focus -->
+  <path d="M104 120 C104 110 112 102 120 102 C128 102 136 110 136 120 C136 123 135 125 134 127 C130 124 125 122 120 122 C115 122 110 124 106 127 C105 125 104 123 104 120 Z" fill="#1A1D24"/>
+
+  <!-- Focal Point: The enduring memory of the river, highlighted with a glowing golden connection -->
+  <!-- Glowing Memory Path / Thread linking past and present -->
+  <path d="M120 102 C120 70 80 70 80 110 C80 130 100 150 120 160" stroke="#F39C12" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round" fill="none" opacity="0.9"/>
+  
+  <!-- Vivid Glowing Node on the River (Representing the unforgettable creek) -->
+  <circle cx="120" cy="165" r="8" fill="#F39C12"/>
+  <circle cx="120" cy="165" r="14" stroke="#F39C12" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- Accent overlay for sleek modern flat look -->
+  <rect x="20" y="20" width="200" height="200" rx="16" stroke="#2A3142" stroke-width="2" fill="none"/>
+</svg>

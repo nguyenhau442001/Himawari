@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements representing external pressure/forced circumstance -->
+  <g opacity="0.3">
+    <!-- Directional force arrows pushing from top-left -->
+    <path d="M40 70 L70 70 M55 55 L70 70 L55 85" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M60 40 L90 40 M75 25 L90 40 L75 55" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Main physical object representing 被迫 (An airplane being blocked/halted by a heavy barrier, embodying "forced cancellation") -->
+  <g transform="translate(15, 10)">
+    <!-- Runway ground -->
+    <rect x="25" y="160" grx="0" width="160" height="8" rx="4" fill="#334155"/>
+    <line x1="45" y1="164" x2="75" y2="164" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4"/>
+    <line x1="95" y1="164" x2="125" y2="164" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4"/>
+    <line x1="145" y1="164" x2="175" y2="164" stroke="#64748B" stroke-width="2" stroke-dasharray="4,4"/>
+
+    <!-- The Airplane (Grounded/Forced to stop) -->
+    <g transform="translate(40, 75)">
+      <!-- Fuselage -->
+      <path d="M10 40 C10 30 30 25 70 25 C110 25 125 32 135 40 C125 48 110 55 70 55 C30 55 10 50 10 40 Z" fill="#94A3B8"/>
+      <!-- Cockpit Window -->
+      <path d="M115 35 C120 35 125 37 128 40 C125 43 120 45 115 45 Z" fill="#38BDF8"/>
+      <!-- Wing -->
+      <path d="M60 40 L80 15 L95 18 L75 40 Z" fill="#CBD5E1"/>
+      <!-- Tail fin -->
+      <path d="M15 40 L5 20 L20 23 L25 40 Z" fill="#CBD5E1"/>
+      <!-- Engine -->
+      <rect x="70" y="42" width="16" height="10" rx="3" fill="#64748B"/>
+    </g>
+
+    <!-- Heavy Red Barrier / Stop Gate representing the external forced action -->
+    <g transform="translate(130, 90)">
+      <!-- Barrier post -->
+      <rect x="0" y="0" width="10" height="70" rx="2" fill="#475569"/>
+      <circle cx="5" cy="5" r="6" fill="#64748B"/>
+      
+      <!-- Striped boom arm (Blocking the path) -->
+      <rect x="-40" y="10" width="55" height="12" rx="3" fill="#EF4444"/>
+      <!-- Warning stripes -->
+      <path d="M-30 10 L-24 22 L-18 22 L-24 10 Z" fill="#F8FAFC"/>
+      <path d="M-10 10 L-4 22 L2 22 L-4 10 Z" fill="#F8FAFC"/>
+    </g>
+
+    <!-- Weather condition symbol (Wind/Cloud pushing from above) -->
+    <g transform="translate(60, 25)">
+      <path d="M10 15 C10 10 16 5 24 5 C30 5 35 9 37 14 C42 13 48 17 48 23 C48 29 42 32 37 32 L12 32 C6 32 2 28 2 23 C2 18 6 15 10 15 Z" fill="#475569" opacity="0.8"/>
+      <!-- Lightning / Storm indicator -->
+      <path d="M26 35 L20 48 L28 48 L22 60" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+
+    <!-- Focus / Action Indicator (Red X mark denoting forced cancellation/stop) -->
+    <g transform="translate(110, 60)">
+      <circle cx="12" cy="12" r="14" fill="#1A1D24" stroke="#EF4444" stroke-width="3"/>
+      <path d="M6 6 L18 18 M18 6 L6 18" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

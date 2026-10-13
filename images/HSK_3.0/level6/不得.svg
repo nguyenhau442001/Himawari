@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Architectural doorway / Entrance threshold (Physical Location context) -->
+  <!-- Outer frame -->
+  <path d="M70,40 L170,40 L170,200 L70,200 Z" fill="#222730" stroke="#323846" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Inner dark doorway -->
+  <path d="M82,56 L158,56 L158,200 L82,200 Z" fill="#121418"/>
+  
+  <!-- Floor threshold -->
+  <rect x="62" y="200" width="116" height="8" rx="2" fill="#3E4556"/>
+
+  <!-- Prohibition Sign / Barrier: The physical manifestation of "不得" (Forbidden entry) -->
+  <!-- Glow effect -->
+  <circle cx="120" cy="115" r="42" fill="#FF5252" opacity="0.15"/>
+  
+  <!-- Red ban circle -->
+  <circle cx="120" cy="115" r="36" fill="#121418" stroke="#FF5252" stroke-width="8"/>
+  
+  <!-- Diagonal slash -->
+  <line x1="94" y1="89" x2="146" y2="141" stroke="#FF5252" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Silhouette of a person being blocked / stopped -->
+  <circle cx="120" cy="98" r="9" fill="#8C95A7"/>
+  <path d="M106,128 C106,116 112,112 120,112 C128,112 134,116 134,128 L134,142 L106,142 Z" fill="#8C95A7"/>
+
+  <!-- Accent visual indicator (Golden badge for policy/rule context) -->
+  <circle cx="195" cy="55" r="14" fill="#E5A93B" opacity="0.2"/>
+  <circle cx="195" cy="55" r="10" fill="#E5A93B"/>
+  <path d="M192,52 L198,52 L198,60 L192,60 Z" fill="#1A1D24"/>
+  <circle cx="195" cy="49" r="1.5" fill="#1A1D24"/>
+</svg>

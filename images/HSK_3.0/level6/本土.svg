@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative map grid lines (representing homeland/local region) -->
+  <g opacity="0.15" stroke="#4A5568" stroke-width="1.5" stroke-dasharray="3 3" fill="none">
+    <path d="M40 80 H200" />
+    <path d="M40 120 H200" />
+    <path d="M40 160 H200" />
+    <path d="M80 50 V190" />
+    <path d="M120 50 V190" />
+    <path d="M160 50 V190" />
+  </g>
+
+  <!-- Central Visual: Stylized Homeland/Local Terrain & Map Pin (Noun: 本土 - Native land, local territory) -->
+  <g transform="translate(0, 5)">
+    <!-- Terrain base layers -->
+    <!-- Distant hills -->
+    <path d="M50 140 Q80 110 120 125 T190 135 V165 H50 Z" fill="#2D3748" />
+    
+    <!-- Foreground landmass / native soil -->
+    <path d="M40 150 Q75 125 120 135 T200 145 V175 C200 183.284 193.284 190 185 190 H55 C46.7157 190 40 183.284 40 175 Z" fill="#3182CE" opacity="0.2" />
+    <path d="M45 155 Q80 130 125 140 T195 150 V175 C195 180.523 190.523 185 185 185 H55 C49.4772 185 45 180.523 45 175 Z" fill="#2B6CB0" />
+
+    <!-- Green local foliage/ecosystem on the native land -->
+    <path d="M60 155 L75 135 L90 155 Z" fill="#38A169" />
+    <path d="M75 158 L90 138 L105 158 Z" fill="#48BB78" />
+    <path d="M140 160 L155 135 L170 160 Z" fill="#38A169" />
+    <path d="M155 163 L170 142 L185 163 Z" fill="#48BB78" />
+
+    <!-- Native Architecture / Local Hub (representing domestic business/local market base) -->
+    <!-- Building body -->
+    <rect x="105" y="125" width="30" height="40" fill="#E2E8F0" rx="2" />
+    <!-- Roof -->
+    <polygon points="100,125 120,110 140,125" fill="#CBD5E0" />
+    <!-- Windows -->
+    <rect x="111" y="132" width="6" height="8" fill="#2B6CB0" rx="1" />
+    <rect x="123" y="132" width="6" height="8" fill="#2B6CB0" rx="1" />
+    <rect x="111" y="147" width="6" height="8" fill="#2B6CB0" rx="1" />
+    <rect x="123" y="147" width="6" height="8" fill="#2B6CB0" rx="1" />
+
+    <!-- Prominent Golden Location Pin (Focusing on 'This Place' / Local / 本土) -->
+    <g transform="translate(0, -5)">
+      <!-- Pin shadow -->
+      <ellipse cx="120" cy="115" rx="8" ry="3" fill="#1A202C" opacity="0.4" />
+      
+      <!-- Pin body -->
+      <path d="M120 70 C108.954 70 100 78.9543 100 90 C100 105 120 120 120 120 C120 120 140 105 140 90 C140 78.9543 131.046 70 120 70 Z" fill="#D69E2E" />
+      
+      <!-- Inner core of the pin -->
+      <circle cx="120" cy="90" r="5" fill="#1A1D24" />
+    </g>
+    
+    <!-- Connection arc / Local radius waves -->
+    <path d="M85 105 A 45 45 0 0 1 155 105" stroke="#D69E2E" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M70 95 A 60 60 0 0 1 170 95" stroke="#D69E2E" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.4" />
+  </g>
+</svg>

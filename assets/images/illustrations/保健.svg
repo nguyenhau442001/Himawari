@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person: Elderly figure -->
+  <g transform="translate(120, 150)">
+    <!-- Body -->
+    <path d="M-30 80 L30 80 L25 30 L-25 30 Z" fill="#4A5568"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M-25 0 A25 25 0 0 1 25 0 L25 -10 A25 25 0 0 0 -25 -10 Z" fill="#A0AEC0"/>
+  </g>
+
+  <!-- Caring Hands (Protection/Health Maintenance) -->
+  <g transform="translate(120, 110)">
+    <!-- Left Hand -->
+    <path d="M-40 20 C-60 20 -70 0 -60 -20 L-40 -10 Z" fill="#F6AD55"/>
+    <!-- Right Hand -->
+    <path d="M40 20 C60 20 70 0 60 -20 L40 -10 Z" fill="#F6AD55"/>
+  </g>
+
+  <!-- Health Symbol: Simple, non-abstract, clear representation of a nourishing element (e.g., a bowl of herbal tea/nutrients) -->
+  <g transform="translate(120, 90)">
+    <path d="M-20 0 L20 0 L15 20 L-15 20 Z" fill="#ED8936"/>
+    <path d="M-25 0 L25 0" stroke="#FBD38D" stroke-width="4" stroke-linecap="round"/>
+    <!-- Steam/Warmth -->
+    <path d="M-10 -5 C-10 -15 0 -15 0 -5" fill="none" stroke="#FBD38D" stroke-width="2" stroke-linecap="round"/>
+    <path d="M10 -5 C10 -15 20 -15 20 -5" fill="none" stroke="#FBD38D" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

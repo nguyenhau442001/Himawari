@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Floor Surface -->
+  <rect x="40" y="180" width="160" height="4" fill="#343A46" rx="2"/>
+  
+  <!-- Pot 1 -->
+  <path d="M60 180 L80 180 L76 150 L64 150 Z" fill="#E67E22"/>
+  <path d="M70 150 C 70 130, 85 130, 85 140 C 85 150, 70 150, 70 150" fill="#2ECC71"/>
+  <path d="M70 150 C 70 130, 55 130, 55 140 C 55 150, 70 150, 70 150" fill="#2ECC71"/>
+  
+  <!-- Pot 2 -->
+  <path d="M110 180 L130 180 L126 150 L114 150 Z" fill="#E67E22"/>
+  <ellipse cx="120" cy="140" rx="15" ry="15" fill="#2ECC71"/>
+  <path d="M120 140 L125 120 M120 140 L115 120 M120 140 L135 135" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Pot 3 -->
+  <path d="M160 180 L180 180 L176 150 L164 150 Z" fill="#E67E22"/>
+  <path d="M170 150 L160 120 L170 110 L180 120 Z" fill="#2ECC71"/>
+  <path d="M170 150 L170 110" stroke="#2ECC71" stroke-width="2"/>
+</svg>

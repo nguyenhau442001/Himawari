@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Abstract structural board/grid representing 'The Whole' (全局) -->
+  <g opacity="0.3">
+    <line x1="40" y1="60" x2="200" y2="60" stroke="#64748B" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="40" y1="120" x2="200" y2="120" stroke="#64748B" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="40" y1="180" x2="200" y2="180" stroke="#64748B" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="80" y1="40" x2="80" y2="200" stroke="#64748B" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="160" y1="40" x2="160" y2="200" stroke="#64748B" stroke-width="2" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Central architectural / structural model representing a stable system or project -->
+  <!-- Main pillars / structure -->
+  <rect x="75" y="80" width="20" height="100" rx="4" fill="#334155"/>
+  <rect x="145" y="80" width="20" height="100" rx="4" fill="#334155"/>
+  <!-- Connecting roof / beam -->
+  <path d="M 65 80 L 120 45 L 175 80 Z" fill="#475569"/>
+  <rect x="65" y="75" width="110" height="10" rx="3" fill="#64748B"/>
+
+  <!-- The "Small Error / Flaw" (小失误) located at one minor structural node, safely isolated -->
+  <!-- Glowing warning node -->
+  <circle cx="85" cy="110" r="10" fill="#EF4444" opacity="0.2"/>
+  <circle cx="85" cy="110" r="6" fill="#EF4444"/>
+  <circle cx="85" cy="110" r="3" fill="#FCA5A5"/>
+
+  <!-- Dynamic barrier / structural buffer line preventing the flaw from spreading (体现 "不至于") -->
+  <path d="M 105 100 Q 115 110 105 120" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Main stable core (全局完好) - Highlighted with warm orange/gold accent -->
+  <rect x="95" y="90" width="50" height="80" rx="6" fill="#1E293B" stroke="#F59E0B" stroke-width="2.5"/>
+  <circle cx="120" cy="130" r="12" fill="#F59E0B"/>
+  <path d="M 114 130 L 118 134 L 127 125" fill="none" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Floor/base ground line -->
+  <rect x="50" y="185" width="140" height="6" rx="3" fill="#64748B"/>
+</svg>

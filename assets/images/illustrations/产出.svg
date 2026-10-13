@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Grid/glow to anchor the physical agricultural output theme -->
+  <circle cx="120" cy="130" r="70" fill="#252A34" opacity="0.5"/>
+  <path d="M 60 175 Q 120 160 180 175" stroke="#2E3646" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Farm Plot / Soil Base (Physical Object/Location representing output origin) -->
+  <path d="M 70 165 C 70 155, 170 155, 170 165 C 170 185, 70 185, 70 165 Z" fill="#3A4454"/>
+  <ellipse cx="120" cy="165" rx="50" ry="12" fill="#4E5D73"/>
+
+  <!-- Fresh Grain Stalks / Crops (Physical Object representing "产出" - grain yield/harvest) -->
+  <!-- Left stalk -->
+  <path d="M 105 165 Q 95 130 85 105" stroke="#4ADE80" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="82" cy="102" rx="6" ry="10" fill="#FBBF24" transform="rotate(-20 82 102)"/>
+  <ellipse cx="90" cy="120" rx="5" ry="9" fill="#FBBF24" transform="rotate(-15 90 120)"/>
+  <ellipse cx="98" cy="140" rx="5" ry="8" fill="#FBBF24" transform="rotate(-10 98 140)"/>
+
+  <!-- Center tall prominent stalk (Focus) -->
+  <path d="M 120 168 Q 120 120 120 80" stroke="#4ADE80" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <ellipse cx="120" cy="74" rx="7" ry="12" fill="#F59E0B"/>
+  <ellipse cx="111" cy="92" rx="6" ry="10" fill="#FBBF24" transform="rotate(-30 111 92)"/>
+  <ellipse cx="129" cy="92" rx="6" ry="10" fill="#FBBF24" transform="rotate(30 129 92)"/>
+  <ellipse cx="111" cy="116" rx="6" ry="10" fill="#FBBF24" transform="rotate(-25 111 116)"/>
+  <ellipse cx="129" cy="116" rx="6" ry="10" fill="#FBBF24" transform="rotate(25 129 116)"/>
+  <ellipse cx="113" cy="140" rx="5" ry="9" fill="#FBBF24" transform="rotate(-15 113 140)"/>
+  <ellipse cx="127" cy="140" rx="5" ry="9" fill="#FBBF24" transform="rotate(15 127 140)"/>
+
+  <!-- Right stalk -->
+  <path d="M 135 165 Q 145 130 155 105" stroke="#4ADE80" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="158" cy="102" rx="6" ry="10" fill="#FBBF24" transform="rotate(20 158 102)"/>
+  <ellipse cx="150" cy="120" rx="5" ry="9" fill="#FBBF24" transform="rotate(15 150 120)"/>
+  <ellipse cx="142" cy="140" rx="5" ry="8" fill="#FBBF24" transform="rotate(10 142 140)"/>
+
+  <!-- Dynamic Accent Elements representing upward growth and high yield output -->
+  <!-- Upward Arrows subtly integrated using vector cleanliness -->
+  <g stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85">
+    <!-- Left upward trajectory -->
+    <path d="M 60 110 L 60 85 M 52 93 L 60 85 L 68 93"/>
+    <!-- Right upward trajectory -->
+    <path d="M 180 110 L 180 85 M 172 93 L 180 85 L 188 93"/>
+  </g>
+
+</svg>

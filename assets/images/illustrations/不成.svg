@@ -1,0 +1,55 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptual Illustration for "bùchéng" (Rhertorical question / disbelief / failure to achieve standard) -->
+  <!-- We visualize a rhetorical debate/question scene: a person with a thoughtful/frustrated expression listening to an emphatic speaker, highlighting the dramatic "Could it be that...?" disbelief context. -->
+
+  <!-- Background decorative elements (Clean modern flat style) -->
+  <circle cx="120" cy="120" r="88" fill="none" stroke="#262B35" stroke-width="2" stroke-dasharray="4 8"/>
+
+  <!-- Speaker / Questioner Silhouette / Character representing disbelief -->
+  <g transform="translate(0, 5)">
+    <!-- Body / Shoulders -->
+    <path d="M 80 170 C 80 150 95 135 120 135 C 145 135 160 150 160 170 Z" fill="#2E3646"/>
+    
+    <!-- Neck -->
+    <rect x="110" y="125" width="20" height="20" fill="#E5B299"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="100" r="28" fill="#F4C2A7"/>
+
+    <!-- Hair (Modern dark styling) -->
+    <path d="M 92 100 C 92 80 105 72 120 72 C 135 72 148 80 148 100 C 148 94 142 84 120 84 C 98 84 92 94 92 100 Z" fill="#3D4451"/>
+
+    <!-- Facial expression: Skeptical / Disbelieving / Rhetorical questioning -->
+    <!-- Eyebrows (raised/furrowed in disbelief) -->
+    <path d="M 104 92 L 114 90" stroke="#2E3646" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 126 90 L 136 92" stroke="#2E3646" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Eyes (focused, intense) -->
+    <circle cx="109" cy="98" r="2.5" fill="#2E3646"/>
+    <circle cx="131" cy="98" r="2.5" fill="#2E3646"/>
+
+    <!-- Mouth (slight open disbelief / rhetorical questioning shape) -->
+    <path d="M 115 112 Q 120 117 125 112" fill="none" stroke="#2E3646" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Hand gesturing in disbelief (chin scratch or palm up) -->
+    <!-- Arm and hand near chin -->
+    <path d="M 140 150 C 130 140 128 125 125 115" fill="none" stroke="#E5B299" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="123" cy="113" r="6" fill="#E5B299"/>
+  </g>
+
+  <!-- Dramatic Accent Symbolizing Rhetorical Question / Interrogation of Logic (Gold/Orange focus color) -->
+  <g transform="translate(0, 0)">
+    <!-- Glowing/Highlighted Question Mark motif integrated cleanly as a sleek vector graphic -->
+    <path d="M 165 75 C 165 64 156 55 145 55 C 134 55 125 64 125 75 C 125 83 133 88 140 93 C 147 98 150 102 150 110 L 150 118" 
+          fill="none" stroke="#FFA726" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="150" cy="138" r="4" fill="#FFA726"/>
+  </g>
+
+  <!-- Secondary subtle contrast element: broken logic / puzzle piece or dashed thought line -->
+  <path d="M 75 80 L 90 65" fill="none" stroke="#4F5D73" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 65 105 L 85 105" fill="none" stroke="#4F5D73" stroke-width="3" stroke-linecap="round"/>
+
+</svg>

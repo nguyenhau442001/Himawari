@@ -1,0 +1,71 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle depth elements -->
+  <path d="M 0 170 L 240 170" stroke="#2A2F3D" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 0 140 L 240 140" stroke="#252A37" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Retraction / Backward Movement Directional Indicators (Leftward arrows behind the troop) -->
+  <g transform="translate(0, 0)" opacity="0.8">
+    <!-- Arrow 1 -->
+    <path d="M 68 85 L 50 95 L 68 105" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 85 85 L 67 95 L 85 105" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+    
+    <!-- Arrow 2 (lower) -->
+    <path d="M 78 125 L 60 135 L 78 145" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 95 125 L 77 135 L 95 145" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  </g>
+
+  <!-- Troop / Military Unit (Soldiers marching/stepping backward in formation) -->
+  <!-- Soldier 3 (Back/Right) -->
+  <g transform="translate(35, 12)">
+    <!-- Helmet & Head -->
+    <path d="M 125 64 C 125 58 130 54 136 54 C 142 54 147 58 147 64 L 148 68 L 124 68 Z" fill="#3B82F6"/>
+    <circle cx="136" cy="72" r="6" fill="#D1D5DB"/>
+    <!-- Uniform/Torso -->
+    <path d="M 124 78 L 148 78 L 152 110 L 120 110 Z" fill="#2563EB"/>
+    <!-- Gear/Pack -->
+    <rect x="131" y="80" width="10" height="16" rx="3" fill="#1D4ED8"/>
+    <!-- Legs in motion -->
+    <line x1="130" y1="110" x2="118" y2="136" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+    <line x1="142" y1="110" x2="152" y2="132" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+    <!-- Rifle angled back -->
+    <line x1="146" y1="74" x2="168" y2="96" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Soldier 2 (Middle) -->
+  <g transform="translate(15, 6)">
+    <!-- Helmet & Head -->
+    <path d="M 125 64 C 125 58 130 54 136 54 C 142 54 147 58 147 64 L 148 68 L 124 68 Z" fill="#3B82F6"/>
+    <circle cx="136" cy="72" r="6" fill="#D1D5DB"/>
+    <!-- Uniform/Torso -->
+    <path d="M 124 78 L 148 78 L 152 110 L 120 110 Z" fill="#2563EB"/>
+    <!-- Gear/Pack -->
+    <rect x="131" y="80" width="10" height="16" rx="3" fill="#1D4ED8"/>
+    <!-- Legs in motion -->
+    <line x1="130" y1="110" x2="120" y2="138" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+    <line x1="142" y1="110" x2="154" y2="134" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+    <!-- Rifle angled back -->
+    <line x1="146" y1="74" x2="168" y2="96" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Soldier 1 (Front/Left - Lead) -->
+  <g transform="translate(-5, 0)">
+    <!-- Helmet & Head -->
+    <path d="M 125 64 C 125 58 130 54 136 54 C 142 54 147 58 147 64 L 148 68 L 124 68 Z" fill="#3B82F6"/>
+    <circle cx="136" cy="72" r="6" fill="#D1D5DB"/>
+    <!-- Uniform/Torso -->
+    <path d="M 124 78 L 148 78 L 152 110 L 120 110 Z" fill="#2563EB"/>
+    <!-- Gear/Pack -->
+    <rect x="131" y="80" width="10" height="16" rx="3" fill="#1D4ED8"/>
+    <!-- Legs in motion (stepping back) -->
+    <line x1="130" y1="110" x2="118" y2="140" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+    <line x1="142" y1="110" x2="156" y2="136" stroke="#1E3A8A" stroke-width="5" stroke-linecap="round"/>
+    <!-- Rifle angled back -->
+    <line x1="146" y1="74" x2="168" y2="96" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground Line -->
+  <path d="M 30 170 L 210 170" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+</svg>

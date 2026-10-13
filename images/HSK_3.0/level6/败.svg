@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <path d="M60 120 L100 120 L100 80 L60 80 Z" fill="#FFC107" opacity="0.6"/>
+    <path d="M40 100 L120 100" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <path d="M80 100 L80 140" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <path d="M60 140 L100 140" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <path d="M70 140 L60 150" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <path d="M90 140 L100 150" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="80" cy="50" r="25" fill="#FFC107"/>
+    <path d="M70 45 L75 50 L70 55" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <path d="M90 45 L85 50 L90 55" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <path d="M70 65 Q80 70 90 65" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M40 100 L20 80" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 100 L140 80" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

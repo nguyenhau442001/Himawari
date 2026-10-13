@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 120)">
+    <!-- Motion lines for dynamic feel -->
+    <path d="M -75 -65 L -55 -45" stroke="#3A4454" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 65 55 L 85 75" stroke="#3A4454" stroke-width="4" stroke-linecap="round"/>
+    <path d="M -80 15 L -55 15" stroke="#3A4454" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Crossed Baseball Bat and Softball/Baseball Bat -->
+    <!-- Bat 1 (Dark grey / wooden tone) -->
+    <g transform="rotate(-35)">
+      <rect x="-10" y="-85" width="20" height="150" rx="6" fill="#D9822B"/>
+      <!-- Bat handle -->
+      <path d="M -8 35 L 8 35 L 7 60 L -7 60 Z" fill="#C6701B"/>
+      <!-- Bat knob -->
+      <rect x="-11" y="58" width="22" height="6" rx="3" fill="#A85710"/>
+      <!-- Grip wrap lines -->
+      <line x1="-8" y1="40" x2="8" y2="44" stroke="#B56114" stroke-width="2"/>
+      <line x1="-8" y1="48" x2="8" y2="52" stroke="#B56114" stroke-width="2"/>
+      <line x1="-8" y1="56" x2="8" y2="60" stroke="#B56114" stroke-width="2"/>
+    </g>
+
+    <!-- Bat 2 (Accent lighter wood crossing behind) -->
+    <g transform="rotate(35)">
+      <rect x="-9" y="-80" width="18" height="140" rx="6" fill="#ECA245"/>
+      <!-- Bat handle -->
+      <path d="M -7 30 L 7 30 L 6 55 L -6 55 Z" fill="#D9822B"/>
+      <!-- Bat knob -->
+      <rect x="-10" y="53" width="20" height="6" rx="3" fill="#C6701B"/>
+    </g>
+
+    <!-- Central Baseball (Foreground element) -->
+    <g>
+      <!-- Ball base -->
+      <circle cx="0" cy="0" r="42" fill="#F4F5F7"/>
+      <!-- Subtle shadow on ball for volume -->
+      <circle cx="5" cy="5" r="42" fill="#000000" opacity="0.1"/>
+      <path d="M -42 0 A 42 42 0 0 0 42 0 A 45 42 0 0 1 -42 0 Z" fill="#E4E6EB" opacity="0.6"/>
+
+      <!-- Red Seams / Stitches -->
+      <!-- Left seam -->
+      <path d="M -22 -36 C -10 -20 -10 20 -22 36" fill="none" stroke="#D1493B" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round"/>
+      <!-- Right seam -->
+      <path d="M 22 -36 C 10 -20 10 20 22 36" fill="none" stroke="#D1493B" stroke-width="3" stroke-dasharray="3,3" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Focus highlight glow effect -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#ECA245" stroke-width="1.5" opacity="0.3" stroke-dasharray="8 8"/>
+  </g>
+</svg>

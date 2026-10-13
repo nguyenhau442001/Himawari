@@ -29361,6 +29361,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "作出.svg",
     "src": "images/HSK_3.0/level5/作出.svg",
     "caption": "đưa ra, tạo ra, cống hiến"
+  },
+  "白白": {
+    "file": "白白.svg",
+    "src": "images/HSK_3.0/level6/白白.svg",
+    "caption": "uổng công, vô ích, lãng phí"
+  },
+  "白领": {
+    "file": "白领.svg",
+    "src": "images/HSK_3.0/level6/白领.svg",
+    "caption": "nhân viên văn phòng, giới cổ cồn trắng"
+  },
+  "摆放": {
+    "file": "摆放.svg",
+    "src": "images/HSK_3.0/level6/摆放.svg",
+    "caption": "bày biện, sắp đặt, bài trí"
+  },
+  "百货": {
+    "file": "百货.svg",
+    "src": "images/HSK_3.0/level6/百货.svg",
+    "caption": "bách hóa, hàng bách hóa"
+  },
+  "败": {
+    "file": "败.svg",
+    "src": "images/HSK_3.0/level6/败.svg",
+    "caption": "thất bại, bại, thua; đánh bại"
+  },
+  "版": {
+    "file": "版.svg",
+    "src": "images/HSK_3.0/level6/版.svg",
+    "caption": "bản in, phiên bản; trang báo"
+  },
+  "伴随": {
+    "file": "伴随.svg",
+    "src": "images/HSK_3.0/level6/伴随.svg",
+    "caption": "đi kèm, kèm theo, đồng hành cùng"
+  },
+  "棒球": {
+    "file": "棒球.svg",
+    "src": "images/HSK_3.0/level6/棒球.svg",
+    "caption": "bóng chày"
+  },
+  "保健": {
+    "file": "保健.svg",
+    "src": "images/HSK_3.0/level6/保健.svg",
+    "caption": "chăm sóc sức khỏe, bảo vệ sức khỏe"
+  },
+  "保暖": {
+    "file": "保暖.svg",
+    "src": "images/HSK_3.0/level6/保暖.svg",
+    "caption": "giữ ấm, giữ nhiệt"
+  },
+  "保修": {
+    "file": "保修.svg",
+    "src": "images/HSK_3.0/level6/保修.svg",
+    "caption": "bảo hành"
+  },
+  "爆": {
+    "file": "爆.svg",
+    "src": "images/HSK_3.0/level6/爆.svg",
+    "caption": "nổ tung, bùng nổ; xào nhanh nhiệt độ cao"
+  },
+  "报刊": {
+    "file": "报刊.svg",
+    "src": "images/HSK_3.0/level6/报刊.svg",
+    "caption": "báo chí, báo và tạp chí"
+  },
+  "悲剧": {
+    "file": "悲剧.svg",
+    "src": "images/HSK_3.0/level6/悲剧.svg",
+    "caption": "bi kịch"
+  },
+  "悲伤": {
+    "file": "悲伤.svg",
+    "src": "images/HSK_3.0/level6/悲伤.svg",
+    "caption": "đau buồn, bi thương"
+  },
+  "北美洲": {
+    "file": "北美洲.svg",
+    "src": "images/HSK_3.0/level6/北美洲.svg",
+    "caption": "bắc Mỹ"
+  },
+  "被迫": {
+    "file": "被迫.svg",
+    "src": "images/HSK_3.0/level6/被迫.svg",
+    "caption": "bị ép buộc, buộc phải"
+  },
+  "背心": {
+    "file": "背心.svg",
+    "src": "images/HSK_3.0/level6/背心.svg",
+    "caption": "áo may ô, áo ba lỗ, áo gile"
+  },
+  "备用": {
+    "file": "备用.svg",
+    "src": "images/HSK_3.0/level6/备用.svg",
+    "caption": "dự phòng, để dùng khi cần"
+  },
+  "倍增": {
+    "file": "倍增.svg",
+    "src": "images/HSK_3.0/level6/倍增.svg",
+    "caption": "tăng gấp bội, tăng lên nhiều lần"
+  },
+  "奔跑": {
+    "file": "奔跑.svg",
+    "src": "images/HSK_3.0/level6/奔跑.svg",
+    "caption": "chạy nhanh, phi nước đại"
+  },
+  "本土": {
+    "file": "本土.svg",
+    "src": "images/HSK_3.0/level6/本土.svg",
+    "caption": "bản xứ, bản địa, trong nước"
+  },
+  "逼": {
+    "file": "逼.svg",
+    "src": "images/HSK_3.0/level6/逼.svg",
+    "caption": "bức bách, ép buộc, dồn ép"
+  },
+  "必修": {
+    "file": "必修.svg",
+    "src": "images/HSK_3.0/level6/必修.svg",
+    "caption": "bắt buộc (môn học)"
+  },
+  "兵": {
+    "file": "兵.svg",
+    "src": "images/HSK_3.0/level6/兵.svg",
+    "caption": "người lính, binh sĩ"
+  },
+  "播": {
+    "file": "播.svg",
+    "src": "images/HSK_3.0/level6/播.svg",
+    "caption": "phát sóng; gieo hạt, gieo rắc"
+  },
+  "不适": {
+    "file": "不适.svg",
+    "src": "images/HSK_3.0/level6/不适.svg",
+    "caption": "khó chịu, không khỏe"
+  },
+  "不至于": {
+    "file": "不至于.svg",
+    "src": "images/HSK_3.0/level6/不至于.svg",
+    "caption": "không đến mức, chưa đến nỗi"
+  },
+  "补": {
+    "file": "补.svg",
+    "src": "images/HSK_3.0/level6/补.svg",
+    "caption": "bổ sung, bù đắp; vá lại"
+  },
+  "捕": {
+    "file": "捕.svg",
+    "src": "images/HSK_3.0/level6/捕.svg",
+    "caption": "bắt, đánh bắt (cá, chim thú)"
+  },
+  "补课": {
+    "file": "补课.svg",
+    "src": "images/HSK_3.0/level6/补课.svg",
+    "caption": "học bù, dạy bù"
+  },
+  "补习": {
+    "file": "补习.svg",
+    "src": "images/HSK_3.0/level6/补习.svg",
+    "caption": "học thêm, bổ túc kiến thức"
+  },
+  "不曾": {
+    "file": "不曾.svg",
+    "src": "images/HSK_3.0/level6/不曾.svg",
+    "caption": "chưa từng, chưa hề"
+  },
+  "不成": {
+    "file": "不成.svg",
+    "src": "images/HSK_3.0/level6/不成.svg",
+    "caption": "không được; chẳng lẽ... hay sao"
+  },
+  "不得": {
+    "file": "不得.svg",
+    "src": "images/HSK_3.0/level6/不得.svg",
+    "caption": "không được"
+  },
+  "部队": {
+    "file": "部队.svg",
+    "src": "images/HSK_3.0/level6/部队.svg",
+    "caption": "đội quân"
+  },
+  "不时": {
+    "file": "不时.svg",
+    "src": "images/HSK_3.0/level6/不时.svg",
+    "caption": "thỉnh thoảng, chốc chốc, luôn"
+  },
+  "不许": {
+    "file": "不许.svg",
+    "src": "images/HSK_3.0/level6/不许.svg",
+    "caption": "không được, cấm không cho"
+  },
+  "不宜": {
+    "file": "不宜.svg",
+    "src": "images/HSK_3.0/level6/不宜.svg",
+    "caption": "không nên, không thích hợp"
+  },
+  "不已": {
+    "file": "不已.svg",
+    "src": "images/HSK_3.0/level6/不已.svg",
+    "caption": "không thôi, không dứt (mãi không ngừng)"
+  },
+  "才能": {
+    "file": "才能.svg",
+    "src": "images/HSK_3.0/level6/才能.svg",
+    "caption": "tài năng"
+  },
+  "财物": {
+    "file": "财物.svg",
+    "src": "images/HSK_3.0/level6/财物.svg",
+    "caption": "tài sản, tiền của"
+  },
+  "插座": {
+    "file": "插座.svg",
+    "src": "images/HSK_3.0/level6/插座.svg",
+    "caption": "ổ cắm điện"
+  },
+  "查询": {
+    "file": "查询.svg",
+    "src": "images/HSK_3.0/level6/查询.svg",
+    "caption": "tra cứu, truy vấn, tìm kiếm thông tin"
+  },
+  "拆除": {
+    "file": "拆除.svg",
+    "src": "images/HSK_3.0/level6/拆除.svg",
+    "caption": "tháo dỡ, dỡ bỏ (nhà, công trình)"
+  },
+  "产出": {
+    "file": "产出.svg",
+    "src": "images/HSK_3.0/level6/产出.svg",
+    "caption": "sản lượng, sản xuất ra, đầu ra"
+  },
+  "产地": {
+    "file": "产地.svg",
+    "src": "images/HSK_3.0/level6/产地.svg",
+    "caption": "nơi xuất xứ, nơi sản xuất"
+  },
+  "肠": {
+    "file": "肠.svg",
+    "src": "images/HSK_3.0/level6/肠.svg",
+    "caption": "ruột, lòng; xúc xích"
+  },
+  "长短": {
+    "file": "长短.svg",
+    "src": "images/HSK_3.0/level6/长短.svg",
+    "caption": "dài ngắn; kích cỡ"
+  },
+  "常规": {
+    "file": "常规.svg",
+    "src": "images/HSK_3.0/level6/常规.svg",
+    "caption": "thông thường, thường quy, thông lệ"
   }
 };
 

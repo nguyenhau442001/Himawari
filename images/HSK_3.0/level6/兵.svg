@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Glow Effect for Focus -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+  
+  <!-- Soldier Iconography Group -->
+  <g transform="translate(0, 5)">
+    <!-- Helmet / Headgear -->
+    <path d="M 85 95 C 85 68, 95 58, 120 58 C 145 58, 155 68, 155 95 L 158 102 C 160 106, 156 110, 150 110 L 90 110 C 84 110, 80 106, 82 102 Z" fill="#3B4859"/>
+    <!-- Helmet Brim Highlight / Detail -->
+    <path d="M 82 102 Q 120 108 158 102 L 155 107 Q 120 113 85 107 Z" fill="#4E5D6C"/>
+    
+    <!-- Face / Skin -->
+    <path d="M 98 110 L 142 110 C 142 125, 138 135, 120 135 C 102 135, 98 125, 98 110 Z" fill="#DDB79D"/>
+    
+    <!-- Uniform Collar & Shoulders (Modern Tactial Vest / Uniform) -->
+    <!-- Base Uniform Dark Tone -->
+    <path d="M 70 195 L 85 135 L 155 135 L 170 195 Z" fill="#2C3540"/>
+    
+    <!-- Tactical Vest / Straps (Accent Color: Warm Amber/Gold for focus) -->
+    <path d="M 85 135 L 110 195 L 95 195 L 75 150 Z" fill="#E59C38" opacity="0.9"/>
+    <path d="M 155 135 L 130 195 L 145 195 L 165 150 Z" fill="#E59C38" opacity="0.9"/>
+    
+    <!-- Central Chest Plate / Uniform Main Body -->
+    <path d="M 95 135 L 145 135 L 155 195 L 85 195 Z" fill="#333E4D"/>
+    
+    <!-- Collar Details -->
+    <path d="M 105 135 L 120 148 L 135 135 Z" fill="#242B35"/>
+    <rect x="114" y="137" width="12" height="6" rx="2" fill="#E59C38"/>
+  </g>
+</svg>

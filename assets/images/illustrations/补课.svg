@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing extra study session / late hours -->
+  <circle cx="120" cy="110" r="70" fill="#242B38" opacity="0.6"/>
+  
+  <!-- Desk surface -->
+  <path d="M40 180 L200 180 L210 195 L30 195 Z" fill="#2E3846"/>
+  <rect x="50" y="195" width="140" height="6" rx="2" fill="#1E2530"/>
+
+  <!-- Open Textbook / Notebook being studied -->
+  <path d="M75 160 L120 145 L165 160 L165 180 L120 168 L75 180 Z" fill="#3B82F6"/>
+  <path d="M120 145 L120 168" stroke="#1A1D24" stroke-width="2"/>
+  <!-- Book pages lines -->
+  <line x1="85" y1="163" x2="110" y2="155" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+  <line x1="85" y1="170" x2="105" y2="162" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+  <line x1="130" y1="155" x2="155" y2="163" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+  <line x1="135" y1="162" x2="155" y2="170" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Desk Lamp (representing weekend/extra time study) -->
+  <path d="M185 180 L185 130" stroke="#4B5563" stroke-width="4" stroke-linecap="round"/>
+  <path d="M185 130 L165 115" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+  <path d="M155 105 L180 115 L170 130 Z" fill="#F59E0B"/>
+  <!-- Light beam cone -->
+  <polygon points="160,117 70,180 165,180" fill="#F59E0B" opacity="0.12"/>
+
+  <!-- Teacher Character (Standing / Explaining) -->
+  <!-- Teacher Body -->
+  <path d="M70 140 C70 125 85 120 95 120 C105 120 115 125 115 140 L115 180 L70 180 Z" fill="#4F46E5"/>
+  <!-- Teacher Head -->
+  <circle cx="92.5" cy="95" r="14" fill="#FBBF24"/>
+  <!-- Teacher Hair -->
+  <path d="M78 92 C78 82 107 82 107 92 C103 86 82 86 78 92 Z" fill="#1F2937"/>
+  <!-- Teacher Arm gesturing towards board/notes -->
+  <path d="M105 130 L135 140" stroke="#4F46E5" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Student Character (Sitting / Receiving makeup lesson) -->
+  <!-- Student Body -->
+  <path d="M135 150 C135 138 145 130 155 130 C165 130 175 138 175 150 L175 180 L135 180 Z" fill="#10B981"/>
+  <!-- Student Head -->
+  <circle cx="155" cy="105" r="13" fill="#FEE2E2"/>
+  <!-- Student Hair -->
+  <path d="M142 102 C142 93 168 93 168 102 C164 96 146 96 142 102 Z" fill="#374151"/>
+  <!-- Student Arm (taking notes) -->
+  <path d="M145 145 L135 165" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Motion / Action Lines (Visualizing the active teaching/catching up process) -->
+  <path d="M110 110 Q120 100 130 105" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="3 3"/>
+  <path d="M105 100 Q118 90 128 95" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Calendar / Weekend indicator badge (top left) to show "weekend makeup class" context -->
+  <rect x="25" y="25" width="40" height="42" rx="8" fill="#374151"/>
+  <rect x="25" y="25" width="40" height="14" rx="8" fill="#EF4444"/>
+  <rect x="31" y="47" width="8" height="8" rx="2" fill="#60A5FA"/>
+  <rect x="43" y="47" width="8" height="8" rx="2" fill="#60A5FA"/>
+  <rect x="55" y="47" width="8" height="8" rx="2" fill="#F59E0B"/>
+  <rect x="31" y="58" width="8" height="8" rx="2" fill="#60A5FA"/>
+
+</svg>

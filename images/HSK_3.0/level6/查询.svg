@@ -1,0 +1,57 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(20, 20)">
+    <!-- Smartphone Frame (representing the app context from the sentence) -->
+    <rect x="50" y="10" width="100" height="180" rx="16" fill="#2A2F3D" stroke="#3E4556" stroke-width="3"/>
+    
+    <!-- Screen Area -->
+    <rect x="58" y="24" width="84" height="152" rx="8" fill="#14171F"/>
+    
+    <!-- App UI Mockup: Train Schedule Rows -->
+    <!-- Row 1 -->
+    <rect x="66" y="36" width="36" height="6" rx="3" fill="#4E596D"/>
+    <rect x="110" y="36" width="24" height="6" rx="3" fill="#F59E0B"/>
+    <rect x="66" y="48" width="68" height="4" rx="2" fill="#2A2F3D"/>
+
+    <!-- Row 2 -->
+    <rect x="66" y="64" width="36" height="6" rx="3" fill="#4E596D"/>
+    <rect x="110" y="64" width="24" height="6" rx="3" fill="#F59E0B"/>
+    <rect x="66" y="76" width="68" height="4" rx="2" fill="#2A2F3D"/>
+
+    <!-- Row 3 -->
+    <rect x="66" y="92" width="36" height="6" rx="3" fill="#4E596D"/>
+    <rect x="110" y="92" width="24" height="6" rx="3" fill="#F59E0B"/>
+    <rect x="66" y="104" width="68" height="4" rx="2" fill="#2A2F3D"/>
+
+    <!-- Prominent Magnifying Glass / Query Interface Overlay (Representing 查询 - Tra cứu / Truy vấn) -->
+    <circle cx="100" cy="115" r="42" fill="none"/>
+    
+    <!-- Glow/Highlight backdrop for clarity -->
+    <circle cx="100" cy="115" r="38" fill="#1A1D24" fill-opacity="0.85"/>
+    
+    <!-- Lens Glass Background Tint -->
+    <circle cx="100" cy="115" r="38" fill="#F59E0B" fill-opacity="0.12"/>
+    
+    <!-- Magnifying Glass Rim -->
+    <circle cx="95" cy="110" r="28" fill="none" stroke="#F59E0B" stroke-width="5"/>
+    
+    <!-- Magnifying Glass Handle -->
+    <rect x="111" y="131" width="8" height="24" rx="4" transform="rotate(45 111 131)" fill="#F59E0B"/>
+    
+    <!-- Targeted Train Icon inside the Lens -->
+    <g transform="translate(85, 100) scale(0.65)">
+      <!-- Train Body -->
+      <rect x="5" y="5" width="26" height="20" rx="6" fill="#38BDF8"/>
+      <!-- Train Window -->
+      <rect x="8" y="9" width="20" height="8" rx="3" fill="#14171F"/>
+      <!-- Train Lights -->
+      <circle cx="10" cy="21" r="2" fill="#FDE047"/>
+      <circle cx="26" cy="21" r="2" fill="#FDE047"/>
+      <!-- Wheels -->
+      <circle cx="11" cy="28" r="3" fill="#94A3B8"/>
+      <circle cx="25" cy="28" r="3" fill="#94A3B8"/>
+    </g>
+  </g>
+</svg>
