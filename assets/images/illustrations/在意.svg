@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character representing the person "letting go" of opinions -->
+  <g transform="translate(60, 120)">
+    <path d="M20 80 L20 40 Q20 20 40 20 L60 20 Q80 20 80 40 L80 80" fill="#4A90E2" opacity="0.6"/>
+    <circle cx="50" cy="15" r="15" fill="#E0E0E0"/>
+  </g>
+
+  <!-- Representing "Others' opinions" as floating speech bubbles being released -->
+  <g transform="translate(140, 60)">
+    <path d="M0 0 L40 0 L40 30 L10 30 L0 40 Z" fill="#F39C12"/>
+    <path d="M5 5 L35 5 M5 15 L35 15 M5 25 L25 25" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Motion lines indicating the action of letting go/not holding onto -->
+  <path d="M130 70 L160 40" stroke="#F39C12" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+  <path d="M135 85 L170 60" stroke="#F39C12" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+
+  <!-- Character's hand gesture: open palm facing away, indicating "not taking it in" -->
+  <path d="M90 60 L110 60 L115 80 L95 80 Z" fill="#E0E0E0"/>
+  <path d="M115 70 L130 70" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+</svg>

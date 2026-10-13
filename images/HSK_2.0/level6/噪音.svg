@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Construction Site Elements -->
+  <g transform="translate(120, 120)">
+    <!-- Crane structure -->
+    <path d="M-60 40 L-60 -60 L20 -60 L20 -40 L-40 -40 L-40 40 Z" fill="#4A5568"/>
+    <path d="M-80 -60 L40 -60 L40 -50 L-80 -50 Z" fill="#F6AD55"/>
+    
+    <!-- Sound Waves representing Noise -->
+    <g stroke="#F6AD55" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M30 -40 Q50 -20 30 0" opacity="0.8"/>
+      <path d="M40 -50 Q70 -20 40 10" opacity="0.6"/>
+      <path d="M50 -60 Q90 -20 50 20" opacity="0.4"/>
+      <path d="M60 -70 Q110 -20 60 30" opacity="0.2"/>
+    </g>
+    
+    <!-- Jackhammer / Drill -->
+    <path d="M-20 40 L-20 10 L-10 10 L-10 40 Z" fill="#A0AEC0"/>
+    <path d="M-30 10 L0 10 L-15 -10 Z" fill="#718096"/>
+    <path d="M-25 40 L5 40 L-10 60 Z" fill="#ED8936"/>
+  </g>
+</svg>

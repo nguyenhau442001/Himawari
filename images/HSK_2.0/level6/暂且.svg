@@ -1,0 +1,55 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient glow / pause mood -->
+  <circle cx="120" cy="110" r="70" fill="#242B38" opacity="0.6"/>
+
+  <!-- Visual Metaphor for "暂且" (Temporarily setting something aside for later):
+       A layered document/task workflow where the top active task is gently paused/lifted aside, 
+       signifying "let's put this aside for now" (暂且放一放). -->
+
+  <!-- Base Stack / Future Timeline (Lower layer) -->
+  <g transform="translate(60, 130)">
+    <!-- Document background card -->
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#2C3544" opacity="0.5"/>
+    <rect x="16" y="16" width="50" height="8" rx="4" fill="#48556A" opacity="0.7"/>
+    <rect x="16" y="34" width="80" height="6" rx="3" fill="#3A4454" opacity="0.7"/>
+  </g>
+
+  <!-- Middle/Main Layer (The paused task being set aside) -->
+  <g transform="translate(50, 95)">
+    <!-- Document shadow -->
+    <rect x="0" y="4" width="140" height="64" rx="8" fill="#111318" opacity="0.4"/>
+    
+    <!-- Document main body -->
+    <rect x="0" y="0" width="140" height="64" rx="8" fill="#2D3748"/>
+    
+    <!-- Accent indicator strip (Warm gold for focus/attention) -->
+    <path d="M 8 0 A 8 8 0 0 0 0 8 L 0 56 A 8 8 0 0 0 8 64 L 12 64 L 12 0 Z" fill="#F59E0B"/>
+    
+    <!-- Content lines on document -->
+    <rect x="28" y="18" width="60" height="8" rx="4" fill="#E2E8F0"/>
+    <rect x="28" y="38" width="84" height="6" rx="3" fill="#A0AEC0"/>
+    
+    <!-- Pause / Temporary hold visual cue (Floating motion lines indicating "setting aside") -->
+    <path d="M 125 15 L 135 10" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 128 32 L 140 27" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- Minimalist Hand / Interaction gesturing "Hold on / Let's pause" -->
+  <g transform="translate(100, 45)">
+    <!-- Cuff / Sleeve -->
+    <path d="M 20 60 L 50 60 L 55 80 L 15 80 Z" fill="#3B82F6"/>
+    <!-- Gentle resting hand / pause gesture -->
+    <path d="M 35 60 C 35 45 42 30 55 25 C 65 21 72 28 70 38 C 68 45 65 52 65 60 Z" fill="#FBBF24"/>
+    <path d="M 45 58 C 45 48 50 38 60 35 C 68 32 72 38 70 45 C 69 50 68 55 68 60 Z" fill="#F59E0B"/>
+  </g>
+
+  <!-- Progression / Interruption Indicator (Two subtle pause bars floating cleanly) -->
+  <g transform="translate(108, 18)" opacity="0.9">
+    <rect x="0" y="0" width="6" height="20" rx="3" fill="#38BDF8"/>
+    <rect x="14" y="0" width="6" height="20" rx="3" fill="#38BDF8"/>
+  </g>
+
+</svg>

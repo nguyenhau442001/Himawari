@@ -1,0 +1,68 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative Background Glow -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Piggy Bank / Savings Pot (Central Object) -->
+  <g transform="translate(0, 5)">
+    <!-- Pot Body -->
+    <path d="M 80 110 C 80 85, 160 85, 160 110 C 160 145, 150 160, 120 160 C 90 160, 80 145, 80 110 Z" fill="#3A4252"/>
+    
+    <!-- Pot Belly Highlight / Inner Depth -->
+    <path d="M 90 110 C 90 92, 150 92, 150 110 C 150 138, 142 150, 120 150 C 98 150, 90 138, 90 110 Z" fill="#2E3440"/>
+
+    <!-- Pot Base/Feet -->
+    <rect x="95" y="155" width="20" height="10" rx="5" fill="#252A34"/>
+    <rect x="125" y="155" width="20" height="10" rx="5" fill="#252A34"/>
+
+    <!-- Coin Slot on Top -->
+    <rect x="110" y="77" width="20" height="4" rx="2" fill="#1A1D24"/>
+
+    <!-- Shiny Gold Accent on Pot -->
+    <path d="M 95 100 Q 120 90 145 100" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  </g>
+
+  <!-- Dynamic Action: Coins Dropping In (Motion Lines & Coins) -->
+  <g>
+    <!-- Motion Lines -->
+    <line x1="120" y1="40" x2="120" y2="55" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+    <line x1="105" y1="45" x2="112" y2="58" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Falling Coin 1 (Tilted) -->
+    <ellipse cx="120" cy="65" rx="10" ry="5" fill="#ED8936"/>
+    <ellipse cx="120" cy="65" rx="7" ry="3" fill="#F6AD55"/>
+
+    <!-- Stacked Coins Inside/Emerging -->
+    <ellipse cx="120" cy="95" rx="25" ry="7" fill="#DD6B20"/>
+    <ellipse cx="120" cy="93" rx="25" ry="7" fill="#F6AD55"/>
+    <path d="M 95 93 L 95 97 C 95 101, 145 101, 145 97 L 145 93 Z" fill="#DD6B20"/>
+    
+    <!-- Second Stack Layer -->
+    <ellipse cx="120" cy="85" rx="20" ry="6" fill="#ED8936"/>
+    <ellipse cx="120" cy="83" rx="20" ry="6" fill="#FEEBC8"/>
+  </g>
+
+  <!-- Human Hand Inserting Coin (Action Detail) -->
+  <g transform="translate(15, -10)">
+    <!-- Arm/Hand Shape -->
+    <path d="M 155 75 C 160 70, 175 65, 190 70 C 195 72, 198 78, 192 84 C 185 90, 170 88, 155 85 Z" fill="#E2E8F0"/>
+    
+    <!-- Thumb holding coin -->
+    <path d="M 135 68 C 140 64, 148 68, 145 74 C 143 78, 137 78, 133 74 Z" fill="#CBD5E0"/>
+
+    <!-- Coin in Hand -->
+    <g transform="rotate(-15 130 65)">
+      <ellipse cx="130" cy="65" rx="9" ry="4.5" fill="#DD6B20"/>
+      <ellipse cx="130" cy="65" rx="6" ry="3" fill="#F6AD55"/>
+    </g>
+  </g>
+
+  <!-- Ambient Sparkles / Success Indicators (Minimal, clean flat accents) -->
+  <g fill="#F6AD55">
+    <circle cx="75" cy="75" r="2.5" opacity="0.9"/>
+    <circle cx="165" cy="115" r="2" opacity="0.7"/>
+    <circle cx="95" cy="140" r="1.5" opacity="0.5"/>
+  </g>
+</svg>

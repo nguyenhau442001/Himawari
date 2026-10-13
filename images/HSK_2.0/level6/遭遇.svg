@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Path representing the journey -->
+  <path d="M40 180 C 80 180, 120 140, 200 140" stroke="#4A5568" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 130)">
+    <circle cx="10" cy="-10" r="8" fill="#FBD38D"/>
+    <path d="M2 5 L18 5 L15 30 L5 30 Z" fill="#63B3ED"/>
+    <path d="M5 30 L5 50 M15 30 L15 50" stroke="#63B3ED" stroke-width="4" stroke-linecap="round"/>
+    <path d="M2 15 L-10 25 M18 15 L30 25" stroke="#63B3ED" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Obstacles (The "difficulties" encountered) -->
+  <g fill="#FC8181">
+    <path d="M140 160 L155 130 L170 160 Z"/>
+    <path d="M175 170 L185 150 L195 170 Z"/>
+  </g>
+  
+  <!-- Motion lines indicating movement into the obstacles -->
+  <path d="M85 140 L130 140" stroke="#A0AEC0" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Impact/Interaction visual cue -->
+  <g stroke="#F6AD55" stroke-width="3" fill="none">
+    <path d="M145 135 L155 125"/>
+    <path d="M155 135 L145 125"/>
+  </g>
+</svg>

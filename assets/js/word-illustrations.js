@@ -22792,10 +22792,25 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/运算.svg",
     "caption": "tính toán"
   },
+  "运行": {
+    "file": "运行.svg",
+    "src": "images/HSK_2.0/level6/运行.svg",
+    "caption": "vận hành"
+  },
+  "酝酿": {
+    "file": "酝酿.svg",
+    "src": "images/HSK_2.0/level6/酝酿.svg",
+    "caption": "ủ men, chuẩn bị dần (ý tưởng, kế hoạch)"
+  },
   "孕育": {
     "file": "孕育.svg",
     "src": "images/HSK_2.0/level6/孕育.svg",
     "caption": "thai nghén, nuôi dưỡng (hình thành)"
+  },
+  "砸": {
+    "file": "砸.svg",
+    "src": "images/HSK_2.0/level6/砸.svg",
+    "caption": "đập, làm hỏng"
   },
   "咋": {
     "file": "咋.svg",
@@ -22806,6 +22821,81 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "栽培.svg",
     "src": "images/HSK_2.0/level6/栽培.svg",
     "caption": "trồng, vun trồng (cũng nghĩa bồi dưỡng nhân tài)"
+  },
+  "灾难": {
+    "file": "灾难.svg",
+    "src": "images/HSK_2.0/level6/灾难.svg",
+    "caption": "tai nạn, thiên tai"
+  },
+  "宰": {
+    "file": "宰.svg",
+    "src": "images/HSK_2.0/level6/宰.svg",
+    "caption": "mổ, giết (gia súc)"
+  },
+  "再接再厉": {
+    "file": "再接再厉.svg",
+    "src": "images/HSK_2.0/level6/再接再厉.svg",
+    "caption": "tiếp tục nỗ lực hơn nữa"
+  },
+  "在意": {
+    "file": "在意.svg",
+    "src": "images/HSK_2.0/level6/在意.svg",
+    "caption": "để tâm, chú ý"
+  },
+  "攒": {
+    "file": "攒.svg",
+    "src": "images/HSK_2.0/level6/攒.svg",
+    "caption": "tích lũy, dành dụm"
+  },
+  "暂且": {
+    "file": "暂且.svg",
+    "src": "images/HSK_2.0/level6/暂且.svg",
+    "caption": "tạm thời, hãy cứ"
+  },
+  "赞叹": {
+    "file": "赞叹.svg",
+    "src": "images/HSK_2.0/level6/赞叹.svg",
+    "caption": "tán thán, khen ngợi"
+  },
+  "赞助": {
+    "file": "赞助.svg",
+    "src": "images/HSK_2.0/level6/赞助.svg",
+    "caption": "tài trợ"
+  },
+  "糟蹋": {
+    "file": "糟蹋.svg",
+    "src": "images/HSK_2.0/level6/糟蹋.svg",
+    "caption": "phá hoại, làm hỏng (lãng phí)"
+  },
+  "遭受": {
+    "file": "遭受.svg",
+    "src": "images/HSK_2.0/level6/遭受.svg",
+    "caption": "chịu đựng, gặp phải (điều xấu)"
+  },
+  "遭殃": {
+    "file": "遭殃.svg",
+    "src": "images/HSK_2.0/level6/遭殃.svg",
+    "caption": "gặp tai vạ"
+  },
+  "遭遇": {
+    "file": "遭遇.svg",
+    "src": "images/HSK_2.0/level6/遭遇.svg",
+    "caption": "gặp phải, trải qua"
+  },
+  "噪音": {
+    "file": "噪音.svg",
+    "src": "images/HSK_2.0/level6/噪音.svg",
+    "caption": "tiếng ồn"
+  },
+  "造型": {
+    "file": "造型.svg",
+    "src": "images/HSK_2.0/level6/造型.svg",
+    "caption": "tạo hình, kiểu dáng"
+  },
+  "责怪": {
+    "file": "责怪.svg",
+    "src": "images/HSK_2.0/level6/责怪.svg",
+    "caption": "trách cứ, đổ lỗi"
   },
   "头": {
     "file": "头.svg",

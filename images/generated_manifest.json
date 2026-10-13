@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T14:10:56.997333",
-  "total_unique_words_with_illustrations": 5108,
-  "total_flat_svg_files": 5108,
+  "generated_at": "2026-10-13T14:11:11.754578",
+  "total_unique_words_with_illustrations": 5126,
+  "total_flat_svg_files": 5126,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2468,
-        "pct": "98.7%"
+        "with_svg": 2486,
+        "pct": "99.4%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 813,
-        "pct": "45.2%"
+        "with_svg": 819,
+        "pct": "45.5%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1317,
-        "pct": "23.5%"
+        "with_svg": 1328,
+        "pct": "23.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1317,
-        "pct": "23.5%"
+        "with_svg": 1328,
+        "pct": "23.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1317,
-        "pct": "23.5%"
+        "with_svg": 1328,
+        "pct": "23.7%"
       }
     }
   },
@@ -86504,6 +86504,46 @@
         "images/HSK_3.0/level9/运算.svg"
       ]
     },
+    "运行": {
+      "hanzi": "运行",
+      "pinyin": "yùnxíng",
+      "meaning": "vận hành",
+      "example_zh": "这台机器<u>运行</u>正常。",
+      "example_vi": "Máy này <u>vận hành</u> bình thường.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "运行.svg",
+      "src": "images/HSK_2.0/level6/运行.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/运行.svg"
+      ]
+    },
+    "酝酿": {
+      "hanzi": "酝酿",
+      "pinyin": "yùnniàng",
+      "meaning": "ủ men, chuẩn bị dần (ý tưởng, kế hoạch)",
+      "example_zh": "这个计划已经<u>酝酿</u>了很久。",
+      "example_vi": "Kế hoạch này đã được <u>chuẩn bị dần</u> từ lâu.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "酝酿.svg",
+      "src": "images/HSK_2.0/level6/酝酿.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/酝酿.svg",
+        "images/HSK_3.0/level8/酝酿.svg",
+        "images/HSK_3.0/level9/酝酿.svg"
+      ]
+    },
     "孕育": {
       "hanzi": "孕育",
       "pinyin": "yùnyù",
@@ -86524,6 +86564,28 @@
         "images/HSK_3.0/level7/孕育.svg",
         "images/HSK_3.0/level8/孕育.svg",
         "images/HSK_3.0/level9/孕育.svg"
+      ]
+    },
+    "砸": {
+      "hanzi": "砸",
+      "pinyin": "zá",
+      "meaning": "đập, làm hỏng",
+      "example_zh": "他不小心<u>砸</u>坏了花瓶。",
+      "example_vi": "Anh ấy lỡ <u>đập</u> vỡ chiếc bình hoa.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "砸.svg",
+      "src": "images/HSK_2.0/level6/砸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/砸.svg",
+        "images/HSK_3.0/level8/砸.svg",
+        "images/HSK_3.0/level9/砸.svg"
       ]
     },
     "咋": {
@@ -86560,6 +86622,308 @@
         "images/HSK_3.0/level7/栽培.svg",
         "images/HSK_3.0/level8/栽培.svg",
         "images/HSK_3.0/level9/栽培.svg"
+      ]
+    },
+    "灾难": {
+      "hanzi": "灾难",
+      "pinyin": "zāinàn",
+      "meaning": "tai nạn, thiên tai",
+      "example_zh": "这场<u>灾难</u>造成了巨大损失。",
+      "example_vi": "<u>Thiên tai</u> này gây ra tổn thất to lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "灾难.svg",
+      "src": "images/HSK_2.0/level6/灾难.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/灾难.svg"
+      ]
+    },
+    "宰": {
+      "hanzi": "宰",
+      "pinyin": "zǎi",
+      "meaning": "mổ, giết (gia súc)",
+      "example_zh": "他们<u>宰</u>了一只羊过节。",
+      "example_vi": "Họ <u>mổ</u> một con dê để ăn mừng lễ.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "宰.svg",
+      "src": "images/HSK_2.0/level6/宰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/宰.svg",
+        "images/HSK_3.0/level8/宰.svg",
+        "images/HSK_3.0/level9/宰.svg"
+      ]
+    },
+    "再接再厉": {
+      "hanzi": "再接再厉",
+      "pinyin": "zàijiēzàilì",
+      "meaning": "tiếp tục nỗ lực hơn nữa",
+      "example_zh": "这次失败了，希望大家<u>再接再厉</u>。",
+      "example_vi": "Lần này thất bại, hy vọng mọi người <u>tiếp tục nỗ lực hơn nữa</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "再接再厉.svg",
+      "src": "images/HSK_2.0/level6/再接再厉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/再接再厉.svg",
+        "images/HSK_3.0/level8/再接再厉.svg",
+        "images/HSK_3.0/level9/再接再厉.svg"
+      ]
+    },
+    "在意": {
+      "hanzi": "在意",
+      "pinyin": "zàiyì",
+      "meaning": "để tâm, chú ý",
+      "example_zh": "别太<u>在意</u>别人的看法。",
+      "example_vi": "Đừng quá <u>để tâm</u> đến ý kiến của người khác.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "在意.svg",
+      "src": "images/HSK_2.0/level6/在意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/在意.svg"
+      ]
+    },
+    "攒": {
+      "hanzi": "攒",
+      "pinyin": "zǎn",
+      "meaning": "tích lũy, dành dụm",
+      "example_zh": "她每月都会<u>攒</u>一些钱。",
+      "example_vi": "Mỗi tháng cô ấy đều <u>dành dụm</u> một ít tiền.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "攒.svg",
+      "src": "images/HSK_2.0/level6/攒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/攒.svg",
+        "images/HSK_3.0/level8/攒.svg",
+        "images/HSK_3.0/level9/攒.svg"
+      ]
+    },
+    "暂且": {
+      "hanzi": "暂且",
+      "pinyin": "zànqiě",
+      "meaning": "tạm thời, hãy cứ",
+      "example_zh": "这件事<u>暂且</u>放一放吧。",
+      "example_vi": "Việc này <u>tạm thời</u> để đó đã.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "暂且.svg",
+      "src": "images/HSK_2.0/level6/暂且.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/暂且.svg",
+        "images/HSK_3.0/level8/暂且.svg",
+        "images/HSK_3.0/level9/暂且.svg"
+      ]
+    },
+    "赞叹": {
+      "hanzi": "赞叹",
+      "pinyin": "zàntàn",
+      "meaning": "tán thán, khen ngợi",
+      "example_zh": "大家对他的表演<u>赞叹</u>不已。",
+      "example_vi": "Mọi người không ngừng <u>khen ngợi</u> phần trình diễn của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "赞叹.svg",
+      "src": "images/HSK_2.0/level6/赞叹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/赞叹.svg",
+        "images/HSK_3.0/level8/赞叹.svg",
+        "images/HSK_3.0/level9/赞叹.svg"
+      ]
+    },
+    "赞助": {
+      "hanzi": "赞助",
+      "pinyin": "zànzhù",
+      "meaning": "tài trợ",
+      "example_zh": "这家公司<u>赞助</u>了这次比赛。",
+      "example_vi": "Công ty này đã <u>tài trợ</u> cho cuộc thi này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "赞助.svg",
+      "src": "images/HSK_2.0/level6/赞助.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/赞助.svg",
+        "images/HSK_3.0/level8/赞助.svg",
+        "images/HSK_3.0/level9/赞助.svg"
+      ]
+    },
+    "糟蹋": {
+      "hanzi": "糟蹋",
+      "pinyin": "zāotà",
+      "meaning": "phá hoại, làm hỏng (lãng phí)",
+      "example_zh": "不要<u>糟蹋</u>食物。",
+      "example_vi": "Đừng <u>lãng phí</u> thực phẩm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "糟蹋.svg",
+      "src": "images/HSK_2.0/level6/糟蹋.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/糟蹋.svg",
+        "images/HSK_3.0/level8/糟蹋.svg",
+        "images/HSK_3.0/level9/糟蹋.svg"
+      ]
+    },
+    "遭受": {
+      "hanzi": "遭受",
+      "pinyin": "zāoshòu",
+      "meaning": "chịu đựng, gặp phải (điều xấu)",
+      "example_zh": "这个地区<u>遭受</u>了严重的洪灾。",
+      "example_vi": "Khu vực này đã <u>chịu</u> trận lũ lụt nghiêm trọng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "遭受.svg",
+      "src": "images/HSK_2.0/level6/遭受.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/遭受.svg"
+      ]
+    },
+    "遭殃": {
+      "hanzi": "遭殃",
+      "pinyin": "zāoyāng",
+      "meaning": "gặp tai vạ",
+      "example_zh": "这场战争让无数百姓<u>遭殃</u>。",
+      "example_vi": "Cuộc chiến này làm vô số người dân <u>gặp tai vạ</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "遭殃.svg",
+      "src": "images/HSK_2.0/level6/遭殃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/遭殃.svg",
+        "images/HSK_3.0/level8/遭殃.svg",
+        "images/HSK_3.0/level9/遭殃.svg"
+      ]
+    },
+    "遭遇": {
+      "hanzi": "遭遇",
+      "pinyin": "zāoyù",
+      "meaning": "gặp phải, trải qua",
+      "example_zh": "他在旅途中<u>遭遇</u>了不少困难。",
+      "example_vi": "Anh ấy <u>gặp phải</u> không ít khó khăn trong chuyến đi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "遭遇.svg",
+      "src": "images/HSK_2.0/level6/遭遇.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/遭遇.svg"
+      ]
+    },
+    "噪音": {
+      "hanzi": "噪音",
+      "pinyin": "zàoyīn",
+      "meaning": "tiếng ồn",
+      "example_zh": "工地的<u>噪音</u>太大了。",
+      "example_vi": "<u>Tiếng ồn</u> từ công trường quá lớn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "噪音.svg",
+      "src": "images/HSK_2.0/level6/噪音.svg",
+      "alt_srcs": []
+    },
+    "造型": {
+      "hanzi": "造型",
+      "pinyin": "zàoxíng",
+      "meaning": "tạo hình, kiểu dáng",
+      "example_zh": "这个雕塑的<u>造型</u>很独特。",
+      "example_vi": "<u>Kiểu dáng</u> của tác phẩm điêu khắc này rất độc đáo.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "造型.svg",
+      "src": "images/HSK_2.0/level6/造型.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/造型.svg"
+      ]
+    },
+    "责怪": {
+      "hanzi": "责怪",
+      "pinyin": "zéguài",
+      "meaning": "trách cứ, đổ lỗi",
+      "example_zh": "请不要<u>责怪</u>他了，这不是他的错。",
+      "example_vi": "Xin đừng <u>trách cứ</u> anh ấy nữa, đây không phải lỗi của anh ấy.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "责怪.svg",
+      "src": "images/HSK_2.0/level6/责怪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/责怪.svg",
+        "images/HSK_3.0/level8/责怪.svg",
+        "images/HSK_3.0/level9/责怪.svg"
       ]
     },
     "头": {

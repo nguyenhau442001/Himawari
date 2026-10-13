@@ -1,0 +1,59 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative light rays (idea brewing/radiating) -->
+  <path d="M120 120 L80 50" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+  <path d="M120 120 L160 50" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+  <path d="M120 120 L50 90" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+  <path d="M120 120 L190 90" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Desk Surface -->
+  <path d="M40 190 L200 190" stroke="#333A4D" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Human Character (Thoughtful Action / Preparing an idea) -->
+  <!-- Head & Hair -->
+  <circle cx="120" cy="95" r="22" fill="#E0A96D"/>
+  <path d="M98 90 C100 70, 140 70, 142 90 C142 95, 140 90, 135 85 C125 75, 115 75, 105 85 C100 90, 98 95, 98 90 Z" fill="#2B303C"/>
+
+  <!-- Body / Torso (Leaning forward, active thinking) -->
+  <path d="M95 130 L105 190 L135 190 L145 130 C130 115, 110 115, 95 130 Z" fill="#3B82F6"/>
+
+  <!-- Arm resting / supporting chin (classic '酝酿' / brooding over a plan pose) -->
+  <path d="M105 130 L115 110 L125 102" stroke="#3B82F6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="123" cy="100" r="7" fill="#E0A96D"/> <!-- Hand on chin -->
+
+  <!-- Other arm resting on desk -->
+  <path d="M135 130 L155 160 L180 175" stroke="#2563EB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="183" cy="177" r="6" fill="#E0A96D"/>
+
+  <!-- Central Idea Element (Glowing lightbulb representing the plan being brewed/developed) -->
+  <!-- Floating above head / merging with thought process -->
+  <g transform="translate(120, 48)">
+    <!-- Glow aura -->
+    <circle cx="0" cy="0" r="22" fill="#FFB703" opacity="0.15"/>
+    <circle cx="0" cy="0" r="15" fill="#FFB703" opacity="0.3"/>
+    
+    <!-- Bulb body -->
+    <path d="M-8 2 C-8 -7, 8 -7, 8 2 C8 7, 4 10, 4 13 L-4 13 C-4 10, -8 7, -8 2 Z" fill="#FFB703"/>
+    <!-- Bulb base -->
+    <rect x="-3" y="13" width="6" height="4" fill="#94A3B8"/>
+    <!-- Motion/Brewing swirls rising into the idea -->
+    <path d="M-15 25 C-10 20, -10 15, -5 10" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M15 25 C10 20, 10 15, 5 10" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Document/Plan papers on desk (showing the tangible result of 'yùnniàng' / preparation) -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="30" height="25" rx="2" fill="#F8FAFC" transform="rotate(-10 15 12.5)"/>
+    <line x1="5" y1="8" x2="20" y2="5" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="5" y1="14" x2="25" y2="11" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="5" y1="20" x2="15" y2="17" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Dynamic thought bubbles / brewing process particles -->
+  <circle cx="95" cy="65" r="3" fill="#FFB703" opacity="0.8"/>
+  <circle cx="85" cy="80" r="2" fill="#FFB703" opacity="0.6"/>
+  <circle cx="145" cy="65" r="3" fill="#FFB703" opacity="0.8"/>
+  <circle cx="155" cy="80" r="2" fill="#FFB703" opacity="0.6"/>
+
+</svg>

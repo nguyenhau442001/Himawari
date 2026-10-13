@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table Surface -->
+  <rect x="40" y="170" width="160" height="10" fill="#343A46" rx="2"/>
+  
+  <!-- Food Object (The victim of the action) -->
+  <circle cx="120" cy="155" r="25" fill="#FFD54F"/>
+  <path d="M105 145 Q120 135 135 145" stroke="#F57C00" stroke-width="3" fill="none"/>
+  <path d="M105 165 Q120 175 135 165" stroke="#F57C00" stroke-width="3" fill="none"/>
+  
+  <!-- Human Character Action (The "糟蹋" action: sweeping food off the table) -->
+  <g transform="translate(160, 120)">
+    <!-- Arm -->
+    <path d="M0 0 L-60 20" stroke="#FF8A65" stroke-width="12" stroke-linecap="round"/>
+    <!-- Hand -->
+    <circle cx="-65" cy="22" r="10" fill="#FF8A65"/>
+  </g>
+  
+  <!-- Motion Lines -->
+  <path d="M80 140 L50 110" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+  <path d="M70 150 L40 120" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+  
+  <!-- Falling Food Pieces -->
+  <circle cx="60" cy="180" r="8" fill="#FFD54F"/>
+  <circle cx="45" cy="200" r="6" fill="#FFD54F"/>
+  
+  <!-- Character Head -->
+  <circle cx="180" cy="80" r="20" fill="#FF8A65"/>
+  <path d="M172 75 L176 79 L180 75" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  <path d="M184 75 L188 79 L192 75" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  <path d="M175 90 Q182 95 189 90" stroke="#1A1D24" stroke-width="2" fill="none"/>
+</svg>
