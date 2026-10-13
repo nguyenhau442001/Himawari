@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle ambient lighting / glow for the clock/time context -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.5"/>
+
+  <!-- Wall Clock (representing waiting / time passing) -->
+  <g transform="translate(120, 85)">
+    <!-- Clock Outer Ring -->
+    <circle cx="0" cy="0" r="42" fill="#2D3340" stroke="#F5A623" stroke-width="3"/>
+    <!-- Clock Face -->
+    <circle cx="0" cy="0" r="37" fill="#1A1D24"/>
+    
+    <!-- Clock Ticks -->
+    <line x1="0" y1="-32" x2="0" y2="-28" stroke="#8C9BAE" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="32" y1="0" x2="28" y2="0" stroke="#8C9BAE" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="32" x2="0" y2="28" stroke="#8C9BAE" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-32" y1="0" x2="-28" y2="0" stroke="#8C9BAE" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Clock Hands (showing time passing) -->
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="14" y2="8" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3.5" fill="#F5A623"/>
+  </g>
+
+  <!-- Motion lines indicating patient waiting / pausing -->
+  <g stroke="#F5A623" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <path d="M 65 75 Q 60 85 65 95" fill="none"/>
+    <path d="M 175 75 Q 180 85 175 95" fill="none"/>
+  </g>
+
+  <!-- Character (Waiting patiently, seated or standing casually) -->
+  <g transform="translate(0, 15)">
+    <!-- Shadow/Floor line -->
+    <ellipse cx="120" cy="195" rx="55" ry="6" fill="#111317"/>
+
+    <!-- Body / Torso -->
+    <path d="M 95 155 L 145 155 L 140 185 L 100 185 Z" fill="#3B82F6"/>
+
+    <!-- Head & Hair -->
+    <circle cx="120" cy="130" r="14" fill="#FBBF24"/>
+    <path d="M 106 128 C 106 118, 134 118, 134 128 Z" fill="#4B5563"/>
+
+    <!-- Arms crossed / patient posture -->
+    <path d="M 100 158 Q 120 170 140 158" fill="none" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Hands tucked waiting -->
+    <circle cx="112" cy="166" r="4" fill="#FBBF24"/>
+    <circle cx="128" cy="166" r="4" fill="#FBBF24"/>
+
+    <!-- Legs sitting/standing -->
+    <rect x="106" y="185" width="10" height="12" rx="3" fill="#1E293B"/>
+    <rect x="124" y="185" width="10" height="12" rx="3" fill="#1E293B"/>
+  </g>
+
+  <!-- Accent Focus Element: Small glowing waiting indicator dot -->
+  <circle cx="120" cy="214" r="3" fill="#F5A623"/>
+</svg>

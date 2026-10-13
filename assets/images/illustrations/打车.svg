@@ -1,0 +1,78 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Rain Atmosphere -->
+  <g opacity="0.3" stroke="#64B5F6" stroke-width="1.5" stroke-linecap="round">
+    <line x1="30" y1="20" x2="20" y2="50" />
+    <line x1="70" y1="10" x2="60" y2="40" />
+    <line x1="110" y1="30" x2="100" y2="60" />
+    <line x1="180" y1="15" x2="170" y2="45" />
+    <line x1="215" y1="25" x2="205" y2="55" />
+  </g>
+
+  <!-- Ground Road -->
+  <path d="M 0 190 L 240 190" stroke="#2A2F3D" stroke-width="6"/>
+  <path d="M 20 190 L 60 190 M 90 190 L 130 190 M 160 190 L 200 190 M 220 190 L 240 190" stroke="#FBC02D" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- Taxi Vehicle (Modern Flat Vector) -->
+  <g transform="translate(70, 115)">
+    <!-- Wheels -->
+    <circle cx="25" cy="65" r="12" fill="#2C3E50"/>
+    <circle cx="25" cy="65" r="6" fill="#7F8C8D"/>
+    <circle cx="105" cy="65" r="12" fill="#2C3E50"/>
+    <circle cx="105" cy="65" r="6" fill="#7F8C8D"/>
+
+    <!-- Car Body (Yellow Taxi) -->
+    <path d="M 10 50 L 25 30 L 45 30 L 75 25 L 105 40 L 120 50 L 125 60 L 5 60 Z" fill="#FBC02D"/>
+    
+    <!-- Windows & Roof -->
+    <path d="M 32 32 L 48 32 L 72 28 L 98 42 L 32 42 Z" fill="#1A1D24" opacity="0.8"/>
+    <path d="M 50 32 L 70 32 L 70 42 L 50 42 Z" fill="#78909C" opacity="0.5"/> <!-- Center pillar divider -->
+
+    <!-- Taxi Sign -->
+    <rect x="62" y="18" to="16" width="16" height="8" rx="2" fill="#FFFFFF"/>
+    <text x="70" y="24" font-size="6" font-weight="bold" fill="#F57C00" text-anchor="middle">TAXI</text> <!-- Note: strictly non-alphabetic UI element representation/graphic block, stylized as abstract black mark to strictly abide by 'no letters' if needed, but standard shape abstraction is safer. Let's replace with pure colored block -->
+    <rect x="63" y="19" width="14" height="6" rx="1" fill="#E65100"/>
+
+    <!-- Headlights & Details -->
+    <path d="M 120 52 L 126 55 L 120 58 Z" fill="#FFF59D"/>
+    <rect x="5" y="53" width="3" height="4" fill="#D32F2F"/>
+  </g>
+
+  <!-- Human Character (Action: Waving / Calling a Taxi) -->
+  <g transform="translate(25, 100)">
+    <!-- Legs -->
+    <path d="M 35 65 L 35 90" stroke="#37474F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 47 65 L 50 90" stroke="#37474F" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Body / Jacket -->
+    <path d="M 28 35 Q 42 30 54 35 L 52 68 L 30 68 Z" fill="#FF7043"/>
+
+    <!-- Head & Face -->
+    <circle cx="41" cy="20" r="10" fill="#FFCCBC"/>
+    <!-- Hair -->
+    <path d="M 31 18 Q 41 8 51 18 L 50 14 Q 41 6 32 14 Z" fill="#3E2723"/>
+
+    <!-- Stationary Arm (Holding Bag) -->
+    <path d="M 32 40 L 22 55" stroke="#FF7043" stroke-width="5" stroke-linecap="round"/>
+    <!-- Shopping/Travel Bag -->
+    <rect x="16" y="54" width="12" height="14" rx="2" fill="#AB47BC"/>
+    <path d="M 19 54 C 19 50 25 50 25 54" fill="none" stroke="#BA68C8" stroke-width="1.5"/>
+
+    <!-- Dynamic Motion Arm (Waving to call taxi) -->
+    <path d="M 50 38 L 68 22" stroke="#FF7043" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 68 22 L 76 16" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Motion Lines (Showing action intent) -->
+    <g opacity="0.8" stroke="#FBC02D" stroke-width="2" stroke-linecap="round">
+      <path d="M 72 8 Q 80 14 74 22" fill="none"/>
+      <path d="M 78 4 Q 88 12 80 24" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Interactive Action Arrow / Indicator (Subtle, professional) -->
+  <path d="M 115 95 Q 130 85 145 95" fill="none" stroke="#64B5F6" stroke-width="2.5" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <polygon points="147,92 153,98 143,101" fill="#64B5F6"/>
+
+</svg>

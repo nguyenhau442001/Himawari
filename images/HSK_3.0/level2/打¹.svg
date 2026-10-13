@@ -1,0 +1,29 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(20, 20)">
+    <!-- Basketball Hoop & Backboard Background element -->
+    <path d="M120 20 L180 20 L180 70 L120 70 Z" fill="#2A2F3D" rx="4"/>
+    <path d="M135 70 L165 70 L170 100 L130 100 Z" fill="none" stroke="#FF9F43" stroke-width="4"/>
+    <line x1="150" y1="20" x2="150" y2="70" stroke="#FF9F43" stroke-width="2" opacity="0.5"/>
+    <line x1="120" y1="45" x2="180" y2="45" stroke="#FF9F43" stroke-width="2" opacity="0.5"/>
+
+    <!-- Motion lines representing "打" (action/playing) -->
+    <path d="M40 140 C 50 120, 70 110, 95 115" fill="none" stroke="#48DBFB" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6"/>
+    <path d="M60 165 C 75 150, 95 145, 115 150" fill="none" stroke="#48DBFB" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Basketball (The core physical object/character contextually tied to "打篮球") -->
+    <circle cx="100" cy="130" r="45" fill="#FF6B6B"/>
+    
+    <!-- Basketball Seams -->
+    <path d="M55 130 C 55 105, 100 85, 145 130" fill="none" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55 130 C 55 155, 100 175, 145 130" fill="none" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <path d="M100 85 C 80 110, 80 150, 100 175" fill="none" stroke="#1A1D24" stroke-width="3"/>
+    <path d="M80 94 C 95 115, 95 145, 80 166" fill="none" stroke="#1A1D24" stroke-width="2" opacity="0.7"/>
+    <path d="M120 94 C 105 115, 105 145, 120 166" fill="none" stroke="#1A1D24" stroke-width="2" opacity="0.7"/>
+
+    <!-- Action Hand striking/bouncing the ball -->
+    <path d="M130 165 L155 175 C162 178, 168 174, 166 167 C164 160, 155 150, 145 145 Z" fill="#FF9F43"/>
+    <circle cx="160" cy="170" r="8" fill="#FF9F43"/>
+  </g>
+</svg>

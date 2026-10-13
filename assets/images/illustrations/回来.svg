@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle floor shadow/line to ground the character -->
+  <ellipse cx="120" cy="195" rx="55" ry="6" fill="#111318"/>
+
+  <!-- Motion Path (Curved arrow representing "return/coming back") -->
+  <path d="M 65 145 C 50 100, 95 65, 140 75 C 165 80, 180 105, 170 125 C 165 135, 150 145, 135 140" 
+        fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6" opacity="0.6"/>
+  <!-- Arrowhead pointing down/left (completing the return journey) -->
+  <path d="M 130 130 L 138 143 L 149 135" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Character: Person walking back / arriving -->
+  <g transform="translate(15, 0)">
+    <!-- Back leg (stepping forward) -->
+    <path d="M 105 155 L 95 185 L 110 188" fill="none" stroke="#687182" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Front leg -->
+    <path d="M 105 155 L 118 182 L 130 180" fill="none" stroke="#8A95A5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Torso -->
+    <path d="M 92 110 L 118 115 L 110 160 L 95 155 Z" fill="#3B82F6"/>
+    
+    <!-- Back arm (swinging) -->
+    <path d="M 98 118 L 80 135 L 75 145" fill="none" stroke="#687182" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Front arm -->
+    <path d="M 112 122 L 128 140 L 135 135" fill="none" stroke="#8A95A5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Neck -->
+    <rect x="101" y="98" width="8" height="15" fill="#E5E7EB" rx="3"/>
+    
+    <!-- Head -->
+    <circle cx="105" cy="85" r="16" fill="#E5E7EB"/>
+    
+    <!-- Hair -->
+    <path d="M 89 85 C 89 72, 100 68, 115 74 C 119 76, 121 82, 121 85 Z" fill="#1F2937"/>
+  </g>
+
+  <!-- Doorway/Home Frame representing the destination ("home/origin") -->
+  <g transform="translate(0, 0)">
+    <!-- Door frame exterior -->
+    <rect x="160" y="55" width="45" height="135" rx="4" fill="#2D3748" stroke="#4A5568" stroke-width="3"/>
+    <!-- Warm glowing interior light (symbolizing home) -->
+    <rect x="166" y="61" width="33" height="129" fill="#FFB84D" opacity="0.2"/>
+    <!-- Door panel open inward -->
+    <path d="M 160 55 L 145 68 L 145 180 L 160 190 Z" fill="#252D3D" stroke="#4A5568" stroke-width="2"/>
+    <!-- Welcome mat -->
+    <ellipse cx="140" cy="191" rx="18" ry="4" fill="#FF9F43" opacity="0.8"/>
+  </g>
+</svg>

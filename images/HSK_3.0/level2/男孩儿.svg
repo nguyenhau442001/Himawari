@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Central Character: A cute, smart little boy wearing glasses (representing "那个戴眼镜的小男孩儿") -->
+  <g transform="translate(0, 5)">
+    <!-- Body / Torso (Modern jacket) -->
+    <path d="M 85 165 C 85 145 100 135 120 135 C 140 135 155 145 155 165 L 175 210 C 175 215 170 220 165 220 L 75 220 C 70 220 65 215 65 210 Z" fill="#3B82F6"/>
+    <!-- Collar / Shirt Detail -->
+    <path d="M 105 135 L 120 150 L 135 135 Z" fill="#F3F4F6"/>
+
+    <!-- Neck -->
+    <rect x="110" y="120" width="20" height="20" rx="4" fill="#FCD34D"/>
+
+    <!-- Head / Face -->
+    <circle cx="120" cy="95" r="32" fill="#FCD34D"/>
+
+    <!-- Hair (Stylized modern neat cut) -->
+    <path d="M 88 90 C 88 70 100 60 120 60 C 140 60 152 70 152 90 C 152 95 150 98 150 98 C 145 80 135 70 120 70 C 105 70 95 80 90 98 C 90 98 88 95 88 90 Z" fill="#1F2937"/>
+
+    <!-- Facial Features: Smiling Eyes -->
+    <path d="M 102 92 Q 107 87 112 92" stroke="#1F2937" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 128 92 Q 133 87 138 92" stroke="#1F2937" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- Cheeks (Smart/cute look) -->
+    <circle cx="98" cy="100" r="4" fill="#F87171" opacity="0.6"/>
+    <circle cx="142" cy="100" r="4" fill="#F87171" opacity="0.6"/>
+
+    <!-- Smile -->
+    <path d="M 112 103 Q 120 110 128 103" stroke="#1F2937" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Glasses (Highlighting "戴眼镜") -->
+    <rect x="94" y="82" width="22" height="18" rx="4" fill="none" stroke="#60A5FA" stroke-width="3"/>
+    <rect x="124" y="82" width="22" height="18" rx="4" fill="none" stroke="#60A5FA" stroke-width="3"/>
+    <line x1="116" y1="90" x2="124" y2="90" stroke="#60A5FA" stroke-width="3"/>
+  </g>
+</svg>

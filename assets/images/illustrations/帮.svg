@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle lighting effects -->
+  <circle cx="120" cy="120" r="90" fill="#222733" opacity="0.5"/>
+
+  <!-- Character 1 (Helper / Standing strong and reaching out) -->
+  <g id="helper-character">
+    <!-- Body/Torso -->
+    <path d="M75 145 C75 130 85 120 100 120 C115 120 125 130 125 145 L125 185 L75 185 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="100" cy="98" r="16" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M84 96 C84 85 92 82 100 82 C108 82 116 85 116 96 C116 98 114 92 100 90 C86 92 84 98 84 96 Z" fill="#1E293B"/>
+    <!-- Reaching Arm (Dynamic action line) -->
+    <path d="M115 130 Q135 125 148 128" stroke="#3B82F6" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="151" cy="129" r="6" fill="#FBBF24"/>
+  </g>
+
+  <!-- Character 2 (Person being helped / Reaching back to connect) -->
+  <g id="helped-character">
+    <!-- Body/Torso (slight lean) -->
+    <path d="M145 150 C145 138 153 128 165 128 C177 128 185 138 185 150 L185 185 L145 185 Z" fill="#EC4899"/>
+    <!-- Head -->
+    <circle cx="165" cy="106" r="15" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M150 104 C150 94 158 90 165 90 C172 90 180 94 180 104 C175 99 155 99 150 104 Z" fill="#475569"/>
+    <!-- Extending Arm to receive help -->
+    <path d="M152 138 Q140 133 131 131" stroke="#EC4899" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <circle cx="127" cy="130" r="5" fill="#FBBF24"/>
+  </g>
+
+  <!-- Interactive/Support Connection Visual (Cause and Effect / Dynamic Motion) -->
+  <g id="action-grip-and-support">
+    <!-- Hands clasping / mutual support focal point -->
+    <circle cx="139" cy="130" r="8" fill="#F59E0B"/>
+    
+    <!-- Dynamic motion/uplifting energy lines (Clean vector style, NO sci-fi bubbles) -->
+    <path d="M139 110 Q142 100 135 92" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M147 116 Q153 108 149 98" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M131 116 Q125 108 129 98" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Ground Line / Base Foundation -->
+  <path d="M50 185 L190 185" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+</svg>

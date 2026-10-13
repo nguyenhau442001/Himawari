@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Grid / Baseline Structure representing the contrast/escalation ("so" / "to that extent") -->
+  <g transform="translate(0, 0)">
+    <!-- Baseline faint grid lines for modern UI/data context -->
+    <line x1="40" y1="180" x2="200" y2="180" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+    <line x1="40" y1="140" x2="200" y2="140" stroke="#2A2F3D" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="40" y1="100" x2="200" y2="100" stroke="#2A2F3D" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Left side: Normal baseline level (Simple/Surface perception) -->
+    <g transform="translate(60, 130)">
+      <rect x="0" y="20" width="36" height="30" rx="4" fill="#2E364F" opacity="0.6"/>
+      <rect x="8" y="10" width="20" height="12" rx="2" fill="#4B556B"/>
+      <!-- Simple dot indicator -->
+      <circle cx="18" cy="35" r="4" fill="#60A5FA"/>
+    </g>
+
+    <!-- Transition Arrow showing Escalation / Depth ("那么" - to such an unexpected degree) -->
+    <path d="M 104 140 C 115 140, 125 100, 136 100" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="132,94 144,97 137,106" fill="#F59E0B"/>
+
+    <!-- Right side: Amplified / Complex reality revealed (Focus on the depth of the issue) -->
+    <g transform="translate(144, 75)">
+      <!-- Magnifying glass framing the deeper, complex mechanism -->
+      <circle cx="40" cy="45" r="32" fill="#1E2533" stroke="#F59E0B" stroke-width="3.5"/>
+      <line x1="62" y1="67" x2="85" y2="90" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+      
+      <!-- Complex layered elements inside the lens (Visualizing "并非那么简单" - It's not *that* simple) -->
+      <g clip-path="url(#lensClip)">
+        <clipPath id="lensClip">
+          <circle cx="40" cy="45" r="30"/>
+        </clipPath>
+        <!-- Background inside lens -->
+        <circle cx="40" cy="45" r="30" fill="#131720"/>
+        
+        <!-- Interlocking intricate gear mechanism representing complexity -->
+        <g transform="translate(40, 45) rotate(15)">
+          <circle cx="0" cy="0" r="14" fill="none" stroke="#38BDF8" stroke-width="4" stroke-dasharray="6 3"/>
+          <circle cx="0" cy="0" r="6" fill="#F59E0B"/>
+          <!-- Connected nodes -->
+          <line x1="0" y1="0" x2="-14" y2="-14" stroke="#38BDF8" stroke-width="2"/>
+          <circle cx="-14" cy="-14" r="3" fill="#38BDF8"/>
+          <line x1="0" y1="0" x2="16" y2="8" stroke="#38BDF8" stroke-width="2"/>
+          <circle cx="16" cy="8" r="3" fill="#F59E0B"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

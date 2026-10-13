@@ -23312,6 +23312,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level1/做饭.svg",
     "caption": "nấu ăn"
   },
+  "白色": {
+    "file": "白色.svg",
+    "src": "images/HSK_3.0/level2/白色.svg",
+    "caption": "trắng"
+  },
+  "帮": {
+    "file": "帮.svg",
+    "src": "images/HSK_3.0/level2/帮.svg",
+    "caption": "giúp đỡ"
+  },
+  "本子": {
+    "file": "本子.svg",
+    "src": "images/HSK_3.0/level2/本子.svg",
+    "caption": "quyển vở, cuốn sổ"
+  },
+  "笔": {
+    "file": "笔.svg",
+    "src": "images/HSK_3.0/level2/笔.svg",
+    "caption": "bút (danh từ, số lượng)"
+  },
+  "别¹": {
+    "file": "别¹.svg",
+    "src": "images/HSK_3.0/level2/别¹.svg",
+    "caption": "đừng"
+  },
+  "不错": {
+    "file": "不错.svg",
+    "src": "images/HSK_3.0/level2/不错.svg",
+    "caption": "không tệ, khá tốt"
+  },
+  "车站": {
+    "file": "车站.svg",
+    "src": "images/HSK_3.0/level2/车站.svg",
+    "caption": "bến xe, nhà ga, trạm dừng"
+  },
+  "出国": {
+    "file": "出国.svg",
+    "src": "images/HSK_3.0/level2/出国.svg",
+    "caption": "đi nước ngoài"
+  },
+  "床": {
+    "file": "床.svg",
+    "src": "images/HSK_3.0/level2/床.svg",
+    "caption": "cái giường"
+  },
+  "词": {
+    "file": "词.svg",
+    "src": "images/HSK_3.0/level2/词.svg",
+    "caption": "từ"
+  },
+  "从小": {
+    "file": "从小.svg",
+    "src": "images/HSK_3.0/level2/从小.svg",
+    "caption": "từ khi còn nhỏ"
+  },
+  "打¹": {
+    "file": "打¹.svg",
+    "src": "images/HSK_3.0/level2/打¹.svg",
+    "caption": "đánh"
+  },
+  "打车": {
+    "file": "打车.svg",
+    "src": "images/HSK_3.0/level2/打车.svg",
+    "caption": "bắt taxi, gọi taxi"
+  },
+  "打开": {
+    "file": "打开.svg",
+    "src": "images/HSK_3.0/level2/打开.svg",
+    "caption": "mở"
+  },
+  "但": {
+    "file": "但.svg",
+    "src": "images/HSK_3.0/level2/但.svg",
+    "caption": "nhưng, nhưng mà"
+  },
+  "但是": {
+    "file": "但是.svg",
+    "src": "images/HSK_3.0/level2/但是.svg",
+    "caption": "nhưng"
+  },
+  "等¹": {
+    "file": "等¹.svg",
+    "src": "images/HSK_3.0/level2/等¹.svg",
+    "caption": "đợi, chờ"
+  },
+  "点²": {
+    "file": "点².svg",
+    "src": "images/HSK_3.0/level2/点².svg",
+    "caption": "giờ, điểm"
+  },
+  "动": {
+    "file": "动.svg",
+    "src": "images/HSK_3.0/level2/动.svg",
+    "caption": "di chuyển"
+  },
+  "飞": {
+    "file": "飞.svg",
+    "src": "images/HSK_3.0/level2/飞.svg",
+    "caption": "bay"
+  },
+  "高中": {
+    "file": "高中.svg",
+    "src": "images/HSK_3.0/level2/高中.svg",
+    "caption": "trường THPT, cấp 3"
+  },
+  "公交车": {
+    "file": "公交车.svg",
+    "src": "images/HSK_3.0/level2/公交车.svg",
+    "caption": "xe buýt"
+  },
+  "过来": {
+    "file": "过来.svg",
+    "src": "images/HSK_3.0/level2/过来.svg",
+    "caption": "đến"
+  },
+  "过年": {
+    "file": "过年.svg",
+    "src": "images/HSK_3.0/level2/过年.svg",
+    "caption": "năm mới"
+  },
+  "过去¹": {
+    "file": "过去¹.svg",
+    "src": "images/HSK_3.0/level2/过去¹.svg",
+    "caption": "quá khứ"
+  },
+  "黑色": {
+    "file": "黑色.svg",
+    "src": "images/HSK_3.0/level2/黑色.svg",
+    "caption": "màu đen"
+  },
+  "红茶": {
+    "file": "红茶.svg",
+    "src": "images/HSK_3.0/level2/红茶.svg",
+    "caption": "hồng trà, trà đen"
+  },
+  "红色": {
+    "file": "红色.svg",
+    "src": "images/HSK_3.0/level2/红色.svg",
+    "caption": "màu đỏ"
+  },
+  "花¹": {
+    "file": "花¹.svg",
+    "src": "images/HSK_3.0/level2/花¹.svg",
+    "caption": "hoa"
+  },
+  "花²": {
+    "file": "花².svg",
+    "src": "images/HSK_3.0/level2/花².svg",
+    "caption": "hoa"
+  },
+  "回来": {
+    "file": "回来.svg",
+    "src": "images/HSK_3.0/level2/回来.svg",
+    "caption": "trở lại"
+  },
+  "回去": {
+    "file": "回去.svg",
+    "src": "images/HSK_3.0/level2/回去.svg",
+    "caption": "quay về, đi về"
+  },
+  "机票": {
+    "file": "机票.svg",
+    "src": "images/HSK_3.0/level2/机票.svg",
+    "caption": "vé máy bay"
+  },
+  "间": {
+    "file": "间.svg",
+    "src": "images/HSK_3.0/level2/间.svg",
+    "caption": "gian, phòng (lượng từ); giữa"
+  },
+  "进来": {
+    "file": "进来.svg",
+    "src": "images/HSK_3.0/level2/进来.svg",
+    "caption": "đi vào"
+  },
+  "进去": {
+    "file": "进去.svg",
+    "src": "images/HSK_3.0/level2/进去.svg",
+    "caption": "đi vào, bước vào"
+  },
+  "酒店": {
+    "file": "酒店.svg",
+    "src": "images/HSK_3.0/level2/酒店.svg",
+    "caption": "khách sạn"
+  },
+  "开学": {
+    "file": "开学.svg",
+    "src": "images/HSK_3.0/level2/开学.svg",
+    "caption": "khai giảng, tựu trường"
+  },
+  "考": {
+    "file": "考.svg",
+    "src": "images/HSK_3.0/level2/考.svg",
+    "caption": "thi, kiểm tra"
+  },
+  "快要": {
+    "file": "快要.svg",
+    "src": "images/HSK_3.0/level2/快要.svg",
+    "caption": "sắp, sắp sửa"
+  },
+  "篮球": {
+    "file": "篮球.svg",
+    "src": "images/HSK_3.0/level2/篮球.svg",
+    "caption": "bóng rổ"
+  },
+  "里面": {
+    "file": "里面.svg",
+    "src": "images/HSK_3.0/level2/里面.svg",
+    "caption": "bên trong"
+  },
+  "绿茶": {
+    "file": "绿茶.svg",
+    "src": "images/HSK_3.0/level2/绿茶.svg",
+    "caption": "trà xanh"
+  },
+  "面¹": {
+    "file": "面¹.svg",
+    "src": "images/HSK_3.0/level2/面¹.svg",
+    "caption": "mì, mì sợi"
+  },
+  "名": {
+    "file": "名.svg",
+    "src": "images/HSK_3.0/level2/名.svg",
+    "caption": "người, vị (lượng từ: 一名医生); tên"
+  },
+  "那么": {
+    "file": "那么.svg",
+    "src": "images/HSK_3.0/level2/那么.svg",
+    "caption": "sau đó (đại từ, liên từ)"
+  },
+  "那样": {
+    "file": "那样.svg",
+    "src": "images/HSK_3.0/level2/那样.svg",
+    "caption": "như thế, như vậy"
+  },
+  "奶茶": {
+    "file": "奶茶.svg",
+    "src": "images/HSK_3.0/level2/奶茶.svg",
+    "caption": "trà sữa"
+  },
+  "男孩儿": {
+    "file": "男孩儿.svg",
+    "src": "images/HSK_3.0/level2/男孩儿.svg",
+    "caption": "cậu bé, bé trai"
+  },
+  "球": {
+    "file": "球.svg",
+    "src": "images/HSK_3.0/level2/球.svg",
+    "caption": "quả bóng"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",

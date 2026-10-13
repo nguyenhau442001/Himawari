@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Light Rays / Glow Effect (Illumination) -->
+  <path d="M120 78 L95 38 L145 38 Z" fill="#FFE58F" opacity="0.15"/>
+  <path d="M120 78 L72 52 L95 38 Z" fill="#FFE58F" opacity="0.1"/>
+  <path d="M120 78 L168 52 L145 38 Z" fill="#FFE58F" opacity="0.1"/>
+
+  <!-- Wall & Ceiling Base -->
+  <path d="M70 78 L170 78" stroke="#363C4E" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Pendant Lamp Fixture -->
+  <line x1="120" y1="20" x2="120" y2="55" stroke="#8C95A7" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="20" r="4" fill="#8C95A7"/>
+  
+  <!-- Lamp Shade -->
+  <path d="M95 55 L145 55 L155 78 L85 78 Z" fill="#475569"/>
+  
+  <!-- Light Bulb (Active / On) -->
+  <circle cx="120" cy="78" r="14" fill="#FFD43B"/>
+  <circle cx="120" cy="78" r="18" fill="#FFD43B" opacity="0.3"/>
+  <circle cx="120" cy="78" r="24" fill="#FFD43B" opacity="0.15"/>
+
+  <!-- Human Character (Action: Reaching up to turn on/open light) -->
+  <!-- Body/Torso -->
+  <path d="M100 200 C100 160 140 160 140 200 Z" fill="#3B82F6"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="140" r="14" fill="#FDE047"/>
+  
+  <!-- Neck -->
+  <rect x="116" y="152" width="8" height="10" fill="#FDE047"/>
+
+  <!-- Right Arm (Reaching Up dynamically) -->
+  <path d="M135 165 Q155 130 135 90" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" fill="none"/>
+  
+  <!-- Hand interacting with pull cord / switch -->
+  <circle cx="132" cy="85" r="5" fill="#FDE047"/>
+
+  <!-- Motion Lines indicating action (dǎkāi) -->
+  <path d="M148 70 C154 75 154 85 148 90" stroke="#FFD43B" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M156 64 C165 72 165 88 156 96" stroke="#FFD43B" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3" fill="none"/>
+</svg>

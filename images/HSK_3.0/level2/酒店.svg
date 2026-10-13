@@ -1,0 +1,57 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle architectural background glow/elements -->
+  <path d="M70 200V80L120 50L170 80V200" fill="#222733" opacity="0.6"/>
+  
+  <!-- Hotel Building Structure -->
+  <rect x="75" y="70" width="90" height="130" rx="4" fill="#2A303C"/>
+  <rect x="85" y="55" width="70" height="20" rx="2" fill="#323946"/>
+  
+  <!-- Roof structure / Accent element -->
+  <polygon points="120,32 155,55 85,55" fill="#E5A93B"/>
+  
+  <!-- Windows Grid (Hotel rooms) - Warm gold lit windows for high-end luxury feel -->
+  <!-- Row 1 -->
+  <rect x="93" y="65" width="14" height="18" rx="2" fill="#E5A93B"/>
+  <rect x="113" y="65" width="14" height="18" rx="2" fill="#E5A93B"/>
+  <rect x="133" y="65" width="14" height="18" rx="2" fill="#3B4455"/>
+  
+  <!-- Row 2 -->
+  <rect x="93" y="90" width="14" height="18" rx="2" fill="#E5A93B"/>
+  <rect x="113" y="90" width="14" height="18" rx="2" fill="#3B4455"/>
+  <rect x="133" y="90" width="14" height="18" rx="2" fill="#E5A93B"/>
+
+  <!-- Row 3 -->
+  <rect x="93" y="115" width="14" height="18" rx="2" fill="#3B4455"/>
+  <rect x="113" y="115" width="14" height="18" rx="2" fill="#E5A93B"/>
+  <rect x="133" y="115" width="14" height="18" rx="2" fill="#E5A93B"/>
+
+  <!-- Row 4 -->
+  <rect x="93" y="140" width="14" height="18" rx="2" fill="#E5A93B"/>
+  <rect x="113" y="140" width="14" height="18" rx="2" fill="#E5A93B"/>
+  <rect x="133" y="140" width="14" height="18" rx="2" fill="#E5A93B"/>
+
+  <!-- Grand Entrance Canopy / Awning -->
+  <path d="M60 178H180V188C180 193.5 175.5 198 170 198H70C64.5 198 60 193.5 60 188V178Z" fill="#E5A93B"/>
+  <rect x="105" y="172" width="30" height="26" fill="#1A1D24"/>
+  <path d="M112 178H128V198H112V178Z" fill="#3B4455"/>
+
+  <!-- 5-Star Rating Indicator (representing 高級酒店) -->
+  <g transform="translate(120, 26) scale(0.65)">
+    <!-- Star 1 -->
+    <polygon points="0,-12 3.5,-3.5 12,-3.5 5.5,1.5 8,10 0,5 -8,10 -5.5,1.5 -12,-3.5 -3.5,-3.5" fill="#E5A93B" transform="translate(-40, 0)"/>
+    <!-- Star 2 -->
+    <polygon points="0,-12 3.5,-3.5 12,-3.5 5.5,1.5 8,10 0,5 -8,10 -5.5,1.5 -12,-3.5 -3.5,-3.5" fill="#E5A93B" transform="translate(-20, 0)"/>
+    <!-- Star 3 -->
+    <polygon points="0,-12 3.5,-3.5 12,-3.5 5.5,1.5 8,10 0,5 -8,10 -5.5,1.5 -12,-3.5 -3.5,-3.5" fill="#E5A93B" transform="translate(0, 0)"/>
+    <!-- Star 4 -->
+    <polygon points="0,-12 3.5,-3.5 12,-3.5 5.5,1.5 8,10 0,5 -8,10 -5.5,1.5 -12,-3.5 -3.5,-3.5" fill="#E5A93B" transform="translate(20, 0)"/>
+    <!-- Star 5 -->
+    <polygon points="0,-12 3.5,-3.5 12,-3.5 5.5,1.5 8,10 0,5 -8,10 -5.5,1.5 -12,-3.5 -3.5,-3.5" fill="#E5A93B" transform="translate(40, 0)"/>
+  </g>
+
+  <!-- Ground Line -->
+  <rect x="40" y="200" width="160" height="4" rx="2" fill="#E5A93B"/>
+</svg>

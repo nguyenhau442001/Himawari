@@ -1,0 +1,26 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual illustration for "别" (Noun context: a distinct entity, separation, difference, pin/brooch - using a distinct iconic physical object: a classic safety pin / decorative brooch representing separation/pinning/distinct entity) -->
+  <g transform="translate(120, 120)">
+    <!-- Outer metallic glow -->
+    <path d="M-45,-25 C-45,-50 0,-50 25,-25 C50,0 25,45 0,45 C-25,45 -45,10 -45,-15" 
+          fill="none" stroke="#FFA116" stroke-width="12" stroke-linecap="round" opacity="0.2"/>
+          
+    <!-- Main Brooch / Pin Body -->
+    <!-- Clasp head -->
+    <circle cx="-35" cy="-25" r="12" fill="#E2E8F0"/>
+    <circle cx="-35" cy="-25" r="6" fill="#FFA116"/>
+
+    <!-- Pin curve and body -->
+    <path d="M-35,-19 C-35,15 -10,35 15,35 C35,35 45,20 45,0 C45,-20 30,-35 10,-35 C-5,-35 -25,-20 -30,-10" 
+          fill="none" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Inner distinct element representing 'different/separate' (别) -->
+    <circle cx="10" cy="0" r="14" fill="#FFA116"/>
+    <path d="M4,0 L16,0 M10,-6 L10,6" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

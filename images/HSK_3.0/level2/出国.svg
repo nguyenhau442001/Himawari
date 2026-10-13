@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Motion lines indicating movement -->
+  <path d="M110 120 L80 120 M100 100 L80 100 M100 140 L80 140" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  
+  <!-- Passport icon -->
+  <rect x="130" y="105" width="30" height="40" rx="2" fill="#3A404D" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="135" y="110" width="20" height="5" rx="1" fill="#FFB84D"/>
+  <rect x="135" y="120" width="20" height="2" rx="1" fill="#5D677A"/>
+  <rect x="135" y="127" width="20" height="2" rx="1" fill="#5D677A"/>
+  
+  <!-- Human character (Simplified side profile) -->
+  <g fill="#E0E6ED">
+    <circle cx="100" cy="100" r="12"/>
+    <path d="M100 112 L100 150 M100 120 L85 135 M100 120 L115 135 M100 150 L90 175 M100 150 L110 175" stroke="#E0E6ED" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Border/Ground reference -->
+  <path d="M180 80 L180 160" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M180 80 L200 100" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M180 160 L200 140" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+</svg>

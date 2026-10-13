@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (subtle ground line) -->
+  <line x1="40" y1="185" x2="200" y2="185" stroke="#2A2F3A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Growth progression representing "从小" (From childhood onwards) -->
+  <!-- Younger/Smaller self (Left) -->
+  <g transform="translate(75, 135)">
+    <!-- Body/Outfit -->
+    <path d="M-10,25 C-10,15 0,10 0,5 C0,10 10,15 10,25 L12,45 C12,48 8,50 5,50 L-5,50 C-8,50 -12,48 -12,45 Z" fill="#FFB74D"/>
+    <!-- Head -->
+    <circle cx="0" cy="-4" r="10" fill="#FFD180"/>
+    <!-- Hair -->
+    <path d="M-9,-8 C-9,-13 9,-13 9,-8 C5,-11 -5,-11 -9,-8 Z" fill="#4E342E"/>
+    <!-- Smiling face/eyes -->
+    <circle cx="-3.5" cy="-5" r="1" fill="#3E2723"/>
+    <circle cx="3.5" cy="-5" r="1" fill="#3E2723"/>
+    <path d="M-2, -1 C-2,1 2,1 2,-1" stroke="#3E2723" stroke-width="1" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Growing arrow / Bridge curve connecting past to present -->
+  <path d="M 95 130 Q 120 90 145 130" fill="none" stroke="#FFA726" stroke-width="2.5" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <polygon points="146,126 150,134 142,133" fill="#FFA726"/>
+
+  <!-- Older/Taller self (Right) -->
+  <g transform="translate(165, 115)">
+    <!-- Body/Outfit -->
+    <path d="M-14,35 C-14,20 0,15 0,8 C0,15 14,20 14,35 L17,70 C17,74 12,77 8,77 L-8,77 C-12,77 -17,74 -17,70 Z" fill="#42A5F5"/>
+    <!-- Head -->
+    <circle cx="0" cy="-4" r="12" fill="#FFD180"/>
+    <!-- Hair -->
+    <path d="M-11,-9 C-11,-16 11,-16 11,-9 C6,-13 -6,-13 -11,-9 Z" fill="#37474F"/>
+    <!-- Smiling face -->
+    <circle cx="-4" cy="-5" r="1.2" fill="#263238"/>
+    <circle cx="4" cy="-5" r="1.2" fill="#263238"/>
+    <path d="M-2.5, -1 C-2.5,2 2.5,2 2.5,-1" stroke="#263238" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

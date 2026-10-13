@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Platform/Ground -->
+  <rect x="20" y="180" width="200" height="10" fill="#374151"/>
+  
+  <!-- Train Carriage -->
+  <rect x="50" y="100" width="140" height="80" rx="4" fill="#4B5563"/>
+  <rect x="65" y="115" width="30" height="40" rx="2" fill="#1A1D24"/>
+  <rect x="105" y="115" width="30" height="40" rx="2" fill="#1A1D24"/>
+  <rect x="145" y="115" width="30" height="40" rx="2" fill="#1A1D24"/>
+  
+  <!-- Station Sign Post -->
+  <rect x="30" y="60" width="4" height="120" fill="#9CA3AF"/>
+  <rect x="15" y="40" width="34" height="20" rx="2" fill="#F59E0B"/>
+  
+  <!-- Clock/Indicator -->
+  <circle cx="200" cy="50" r="20" fill="#374151"/>
+  <line x1="200" y1="50" x2="200" y2="35" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <line x1="200" y1="50" x2="215" y2="50" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Decorative elements for station feel -->
+  <rect x="50" y="180" width="10" height="20" fill="#F59E0B"/>
+  <rect x="180" y="180" width="10" height="20" fill="#F59E0B"/>
+</svg>

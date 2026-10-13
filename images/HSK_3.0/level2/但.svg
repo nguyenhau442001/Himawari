@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Visual Metaphor for "但" (Contrast / Pivot / Turning Point):
+       We use a path splitting or a dual-tone contrasting trajectory. 
+       Left side: A dim/heavy path showing difficulty ("not easy").
+       Right side: A bright, ascending path breaking through ("never gave up").
+       A clear pivot point in the center representing the conjunction "but". -->
+
+  <!-- Background decorative grid lines representing structure/grammar -->
+  <line x1="30" y1="120" x2="210" y2="120" stroke="#2A2F3A" stroke-width="2" stroke-dasharray="4 4" />
+  <line x1="120" y1="30" x2="120" y2="210" stroke="#2A2F3A" stroke-width="1" />
+
+  <!-- First clause path (Dim, descending/heavy challenge) -->
+  <path d="M 40 150 Q 80 150 110 120" fill="none" stroke="#4A5568" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- The pivot / contrasting point (Bright orange marker for "但") -->
+  <circle cx="120" cy="120" r="10" fill="#FF9F0A" />
+  <circle cx="120" cy="120" r="18" fill="none" stroke="#FF9F0A" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+
+  <!-- Second clause path (Bright, ascending resolution, glowing gold/orange) -->
+  <path d="M 130 120 Q 160 90 200 70" fill="none" stroke="#FF9F0A" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Abstract ascending nodes / success steps on the right -->
+  <circle cx="165" cy="95" r="4" fill="#E2E8F0" />
+  <circle cx="200" cy="70" r="6" fill="#34D399" />
+
+  <!-- Obstacle symbol on the left (heavy burden / challenge) -->
+  <rect x="65" y="130" width="16" height="16" rx="3" fill="#4A5568" transform="rotate(45 73 138)" />
+
+  <!-- Breakthrough symbol on the right (star/spark of persistence) -->
+  <path d="M 200 45 L 203 55 L 213 58 L 203 61 L 200 71 L 197 61 L 187 58 L 197 55 Z" fill="#34D399" transform="scale(0.6) translate(145, 15)" />
+
+  <!-- Directional arrow emphasizing the contrast/pivot transition -->
+  <path d="M 112 110 L 126 120 L 112 130" fill="none" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+</svg>

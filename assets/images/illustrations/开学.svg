@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative academic elements (subtle) -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.5"/>
+
+  <!-- Central Object: Open Textbook combined with Academic Graduation Cap (Symbolizing "开学" - School Opening / Semester Start) -->
+  
+  <!-- Textbook Base Pages (Left Side) -->
+  <path d="M60 125 C75 120 95 125 110 135 L110 175 C95 165 75 160 60 165 Z" fill="#2E364F"/>
+  <path d="M63 133 C76 129 93 133 107 141 L107 171 C93 163 76 159 63 163 Z" fill="#F0F3F8"/>
+  
+  <!-- Textbook Base Pages (Right Side) -->
+  <path d="M180 125 C165 120 145 125 130 135 L130 175 C145 165 165 160 180 165 Z" fill="#2E364F"/>
+  <path d="M177 133 C164 129 147 133 133 141 L133 171 C147 163 164 159 177 163 Z" fill="#F0F3F8"/>
+
+  <!-- Book Spine -->
+  <path d="M110 135 L120 130 L130 135 L130 175 L120 170 L110 175 Z" fill="#E67E22"/>
+
+  <!-- Text lines on pages (abstract vector lines) -->
+  <rect x="72" y="142" width="24" height="3" rx="1.5" fill="#C5D0DE"/>
+  <rect x="72" y="150" width="18" height="3" rx="1.5" fill="#C5D0DE"/>
+  
+  <rect x="144" y="142" width="24" height="3" rx="1.5" fill="#C5D0DE"/>
+  <rect x="144" y="150" width="20" height="3" rx="1.5" fill="#C5D0DE"/>
+
+  <!-- Academic Graduation Cap (Mortarboard) floating upward out of the book, representing starting school / new academic term -->
+  <!-- Cap Diamond Top -->
+  <polygon points="120,65 175,85 120,105 65,85" fill="#3B82F6"/>
+  <polygon points="120,68 170,85 120,102 70,85" fill="#2563EB"/>
+
+  <!-- Cap Skull Cap (Underneath) -->
+  <path d="M95 95 L95 112 C95 122 145 122 145 112 L145 95 Z" fill="#1E40AF"/>
+
+  <!-- Tassel -->
+  <path d="M120,85 L148,93 L152,115" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="152" cy="117" r="3" fill="#F59E0B"/>
+
+  <!-- Sparkles / Accent details representing fresh start and enthusiasm -->
+  <path d="M75 60 L78 68 L86 71 L78 74 L75 82 L72 74 L64 71 L72 68 Z" fill="#F59E0B" opacity="0.8"/>
+  <path d="M165 50 L167 55 L172 57 L167 59 L165 64 L163 59 L158 57 L163 55 Z" fill="#F59E0B" opacity="0.9"/>
+  <circle cx="100" cy="50" r="2.5" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="145" cy="55" r="2" fill="#F59E0B" opacity="0.7"/>
+
+</svg>

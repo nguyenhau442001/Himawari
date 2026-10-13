@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background contrast element: A dark charcoal shape to define the silhouette -->
+  <path d="M60 60h120v120H60z" fill="#2C313C" rx="12"/>
+  
+  <!-- The Subject: A person wearing a bright white garment -->
+  <!-- Representing the "Adjective" quality through high-contrast purity against the dark background -->
+  <g transform="translate(70, 50)">
+    <!-- Head -->
+    <circle cx="50" cy="40" r="20" fill="#E0E6ED"/>
+    <!-- Torso/Clothing: Pure white, high-contrast flat shape -->
+    <path d="M20 80c0-20 15-30 30-30s30 10 30 30v60H20V80z" fill="#FFFFFF"/>
+    <!-- Sleeves -->
+    <path d="M10 90l15-10 10 20-15 10z" fill="#FFFFFF"/>
+    <path d="M90 90l-15-10-10 20 15 10z" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Visual contrast indicator: A small dark grey swatch vs a large white swatch -->
+  <!-- This emphasizes the quality of 'whiteness' as a distinct state -->
+  <rect x="180" y="160" width="30" height="30" fill="#3D4451" rx="4"/>
+  <rect x="180" y="120" width="30" height="30" fill="#FFFFFF" rx="4"/>
+  
+  <!-- Connecting line to show comparison -->
+  <path d="M195 155v-25" stroke="#5D677A" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "那样" (that way/like that) by showing a person observing and emulating a positive action -->
+  <!-- The "model" person (the one being emulated) -->
+  <g transform="translate(60, 80)">
+    <circle cx="30" cy="25" r="15" fill="#FFB84D"/>
+    <path d="M15 45c0-10 7-15 15-15s15 5 15 15v30H15V45z" fill="#FFB84D"/>
+    <path d="M20 75h20v40H20z" fill="#4D88FF"/>
+    <!-- Helping gesture: extending a hand to help someone up -->
+    <path d="M45 60l15-5" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- The "observer" person (emulating the action) -->
+  <g transform="translate(130, 80)">
+    <circle cx="30" cy="25" r="15" fill="#A0AEC0"/>
+    <path d="M15 45c0-10 7-15 15-15s15 5 15 15v30H15V45z" fill="#A0AEC0"/>
+    <path d="M20 75h20v40H20z" fill="#4D88FF"/>
+    <!-- Emulating the same helping gesture -->
+    <path d="M45 60l15-5" stroke="#A0AEC0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Visual indicator of "likeness/same way" -->
+  <path d="M100 150c20-15 40-15 60 0" stroke="#FFB84D" stroke-width="3" fill="none" stroke-dasharray="6 6"/>
+  <path d="M160 150l-5-5M160 150l-5 5" stroke="#FFB84D" stroke-width="3" fill="none"/>
+</svg>
