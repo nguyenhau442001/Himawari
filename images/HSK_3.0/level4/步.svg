@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Leg 1 (Back) -->
+    <path d="M80 120 L80 80 Q80 60 100 60 L110 60" fill="none" stroke="#4A5568" stroke-width="12" stroke-linecap="round"/>
+    <path d="M100 120 L110 120" fill="none" stroke="#4A5568" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Leg 2 (Front - The Step) -->
+    <path d="M40 120 L40 80 Q40 60 60 60 L70 60" fill="none" stroke="#F6AD55" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="60" cy="120" rx="15" ry="6" fill="#F6AD55"/>
+    
+    <!-- Ground Line -->
+    <path d="M20 126 L140 126" stroke="#2D3748" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Motion indicator -->
+    <path d="M110 50 L125 50 M118 43 L125 50 L118 57" fill="none" stroke="#F6AD55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

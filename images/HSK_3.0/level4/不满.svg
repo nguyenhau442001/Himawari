@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Counter Desk -->
+  <rect x="40" y="160" width="160" height="40" fill="#2D343E" rx="4"/>
+  
+  <!-- Customer Character (The source of dissatisfaction) -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-30 80 L-30 40 Q-30 20 -10 20 L10 20 Q30 20 30 40 L30 80" fill="#E0E0E0"/>
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#FFD1A9"/>
+    <!-- Frowning Mouth -->
+    <path d="M-10 10 Q0 5 10 10" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Eyes (Narrowed/Annoyed) -->
+    <line x1="-12" y1="-5" x2="-4" y2="-2" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+    <line x1="4" y1="-2" x2="12" y2="-5" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+    <!-- Crossed arms gesture -->
+    <path d="M-25 35 L-5 45 L-25 55" stroke="#E0E0E0" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M25 35 L5 45 L25 55" stroke="#E0E0E0" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Service Item (A cold, untouched meal/tray) -->
+  <rect x="50" y="170" width="40" height="10" fill="#FF9F1C" rx="2"/>
+  <circle cx="70" cy="160" r="10" fill="#FFD1A9"/>
+  
+  <!-- Accent highlight for dissatisfaction -->
+  <path d="M150 70 L160 50 L170 70 Z" fill="#FF4D4D"/>
+</svg>

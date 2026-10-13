@@ -24632,6 +24632,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/总.svg",
     "caption": "luôn, lúc nào cũng; tổng"
   },
+  "安检": {
+    "file": "安检.svg",
+    "src": "images/HSK_3.0/level4/安检.svg",
+    "caption": "kiểm tra an ninh"
+  },
+  "按": {
+    "file": "按.svg",
+    "src": "images/HSK_3.0/level4/按.svg",
+    "caption": "ấn, bấm; theo, dựa theo"
+  },
+  "白酒": {
+    "file": "白酒.svg",
+    "src": "images/HSK_3.0/level4/白酒.svg",
+    "caption": "rượu trắng (rượu mạnh Trung Quốc)"
+  },
+  "办公": {
+    "file": "办公.svg",
+    "src": "images/HSK_3.0/level4/办公.svg",
+    "caption": "làm việc (văn phòng)"
+  },
+  "办事": {
+    "file": "办事.svg",
+    "src": "images/HSK_3.0/level4/办事.svg",
+    "caption": "làm việc, lo công việc"
+  },
+  "报考": {
+    "file": "报考.svg",
+    "src": "images/HSK_3.0/level4/报考.svg",
+    "caption": "đăng ký dự thi"
+  },
+  "背包": {
+    "file": "背包.svg",
+    "src": "images/HSK_3.0/level4/背包.svg",
+    "caption": "ba lô"
+  },
+  "北部": {
+    "file": "北部.svg",
+    "src": "images/HSK_3.0/level4/北部.svg",
+    "caption": "phía bắc, miền bắc"
+  },
+  "笔试": {
+    "file": "笔试.svg",
+    "src": "images/HSK_3.0/level4/笔试.svg",
+    "caption": "thi viết"
+  },
+  "毕业生": {
+    "file": "毕业生.svg",
+    "src": "images/HSK_3.0/level4/毕业生.svg",
+    "caption": "sinh viên tốt nghiệp"
+  },
+  "表": {
+    "file": "表.svg",
+    "src": "images/HSK_3.0/level4/表.svg",
+    "caption": "bảng, biểu mẫu; đồng hồ đeo tay"
+  },
+  "并": {
+    "file": "并.svg",
+    "src": "images/HSK_3.0/level4/并.svg",
+    "caption": "và, đồng thời; hoàn toàn (không)"
+  },
+  "不便": {
+    "file": "不便.svg",
+    "src": "images/HSK_3.0/level4/不便.svg",
+    "caption": "bất tiện"
+  },
+  "不够": {
+    "file": "不够.svg",
+    "src": "images/HSK_3.0/level4/不够.svg",
+    "caption": "không đủ"
+  },
+  "不论": {
+    "file": "不论.svg",
+    "src": "images/HSK_3.0/level4/不论.svg",
+    "caption": "bất kể, dù"
+  },
+  "步": {
+    "file": "步.svg",
+    "src": "images/HSK_3.0/level4/步.svg",
+    "caption": "bước"
+  },
+  "部": {
+    "file": "部.svg",
+    "src": "images/HSK_3.0/level4/部.svg",
+    "caption": "bộ phận, phòng ban; bộ (phim, máy)"
+  },
+  "不光": {
+    "file": "不光.svg",
+    "src": "images/HSK_3.0/level4/不光.svg",
+    "caption": "không chỉ, không những"
+  },
+  "不满": {
+    "file": "不满.svg",
+    "src": "images/HSK_3.0/level4/不满.svg",
+    "caption": "bất mãn, không hài lòng"
+  },
+  "参赛": {
+    "file": "参赛.svg",
+    "src": "images/HSK_3.0/level4/参赛.svg",
+    "caption": "tham gia thi đấu"
+  },
+  "查看": {
+    "file": "查看.svg",
+    "src": "images/HSK_3.0/level4/查看.svg",
+    "caption": "xem xét, kiểm tra"
+  },
+  "茶叶": {
+    "file": "茶叶.svg",
+    "src": "images/HSK_3.0/level4/茶叶.svg",
+    "caption": "lá trà, chè"
+  },
+  "查找": {
+    "file": "查找.svg",
+    "src": "images/HSK_3.0/level4/查找.svg",
+    "caption": "tìm, tra tìm"
+  },
+  "差点儿": {
+    "file": "差点儿.svg",
+    "src": "images/HSK_3.0/level4/差点儿.svg",
+    "caption": "suýt nữa, xém chút"
+  },
+  "厂": {
+    "file": "厂.svg",
+    "src": "images/HSK_3.0/level4/厂.svg",
+    "caption": "nhà máy, xưởng"
+  },
+  "车速": {
+    "file": "车速.svg",
+    "src": "images/HSK_3.0/level4/车速.svg",
+    "caption": "tốc độ xe"
+  },
+  "车位": {
+    "file": "车位.svg",
+    "src": "images/HSK_3.0/level4/车位.svg",
+    "caption": "chỗ đỗ xe"
+  },
+  "城": {
+    "file": "城.svg",
+    "src": "images/HSK_3.0/level4/城.svg",
+    "caption": "thành phố; thành (tường thành)"
+  },
+  "乘¹": {
+    "file": "乘¹.svg",
+    "src": "images/HSK_3.0/level4/乘¹.svg",
+    "caption": "đi (tàu, xe, máy bay)"
+  },
+  "乘客": {
+    "file": "乘客.svg",
+    "src": "images/HSK_3.0/level4/乘客.svg",
+    "caption": "hành khách"
+  },
+  "迟": {
+    "file": "迟.svg",
+    "src": "images/HSK_3.0/level4/迟.svg",
+    "caption": "muộn, chậm"
+  },
+  "出行": {
+    "file": "出行.svg",
+    "src": "images/HSK_3.0/level4/出行.svg",
+    "caption": "đi ra ngoài, đi xa"
+  },
+  "出租": {
+    "file": "出租.svg",
+    "src": "images/HSK_3.0/level4/出租.svg",
+    "caption": "cho thuê"
+  },
+  "厨师": {
+    "file": "厨师.svg",
+    "src": "images/HSK_3.0/level4/厨师.svg",
+    "caption": "đầu bếp"
+  },
+  "窗": {
+    "file": "窗.svg",
+    "src": "images/HSK_3.0/level4/窗.svg",
+    "caption": "cửa sổ"
+  },
+  "此": {
+    "file": "此.svg",
+    "src": "images/HSK_3.0/level4/此.svg",
+    "caption": "này, đây"
+  },
+  "此次": {
+    "file": "此次.svg",
+    "src": "images/HSK_3.0/level4/此次.svg",
+    "caption": "lần này"
+  },
+  "从中": {
+    "file": "从中.svg",
+    "src": "images/HSK_3.0/level4/从中.svg",
+    "caption": "từ trong đó, qua đó"
+  },
+  "错过": {
+    "file": "错过.svg",
+    "src": "images/HSK_3.0/level4/错过.svg",
+    "caption": "bỏ lỡ, lỡ"
+  },
+  "答": {
+    "file": "答.svg",
+    "src": "images/HSK_3.0/level4/答.svg",
+    "caption": "trả lời, đáp"
+  },
+  "打败": {
+    "file": "打败.svg",
+    "src": "images/HSK_3.0/level4/打败.svg",
+    "caption": "đánh bại"
+  },
+  "打印机": {
+    "file": "打印机.svg",
+    "src": "images/HSK_3.0/level4/打印机.svg",
+    "caption": "máy in"
+  },
+  "大巴": {
+    "file": "大巴.svg",
+    "src": "images/HSK_3.0/level4/大巴.svg",
+    "caption": "xe khách, xe buýt lớn"
+  },
+  "大大": {
+    "file": "大大.svg",
+    "src": "images/HSK_3.0/level4/大大.svg",
+    "caption": "rất nhiều, đáng kể"
+  },
+  "大量": {
+    "file": "大量.svg",
+    "src": "images/HSK_3.0/level4/大量.svg",
+    "caption": "lượng lớn, nhiều"
+  },
+  "大赛": {
+    "file": "大赛.svg",
+    "src": "images/HSK_3.0/level4/大赛.svg",
+    "caption": "cuộc thi lớn"
+  },
+  "大厅": {
+    "file": "大厅.svg",
+    "src": "images/HSK_3.0/level4/大厅.svg",
+    "caption": "sảnh, đại sảnh"
+  },
+  "大自然": {
+    "file": "大自然.svg",
+    "src": "images/HSK_3.0/level4/大自然.svg",
+    "caption": "thiên nhiên"
+  },
+  "待": {
+    "file": "待.svg",
+    "src": "images/HSK_3.0/level4/待.svg",
+    "caption": "ở lại, nán lại"
+  },
+  "袋子": {
+    "file": "袋子.svg",
+    "src": "images/HSK_3.0/level4/袋子.svg",
+    "caption": "túi"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",

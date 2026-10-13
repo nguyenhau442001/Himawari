@@ -1,0 +1,62 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Desk Surface / Background Element -->
+  <path d="M 40 180 L 200 180 L 210 196 L 30 196 Z" fill="#242833" opacity="0.8"/>
+
+  <!-- Exam Paper (Document) -->
+  <g transform="translate(60, 42)">
+    <!-- Paper Shadow / Base -->
+    <rect x="0" y="0" width="120" height="150" rx="6" fill="#2E3440"/>
+    <rect x="6" y="6" width="108" height="138" rx="4" fill="#F8FAFC"/>
+    
+    <!-- Paper Header Lines -->
+    <rect x="20" y="20" width="40" height="6" rx="3" fill="#94A3B8"/>
+    <rect x="70" y="20" width="30" height="6" rx="3" fill="#CBD5E1"/>
+    
+    <!-- Question Lines & Checkboxes -->
+    <!-- Q1 -->
+    <rect x="20" y="44" width="8" height="8" rx="2" fill="none" stroke="#64748B" stroke-width="2"/>
+    <rect x="36" y="45" width="55" height="5" rx="2" fill="#CBD5E1"/>
+    <!-- Q2 -->
+    <rect x="20" y="64" width="8" height="8" rx="2" fill="none" stroke="#64748B" stroke-width="2"/>
+    <rect x="36" y="65" width="65" height="5" rx="2" fill="#CBD5E1"/>
+    <!-- Q3 -->
+    <rect x="20" y="84" width="8" height="8" rx="2" fill="none" stroke="#64748B" stroke-width="2"/>
+    <rect x="36" y="85" width="45" height="5" rx="2" fill="#CBD5E1"/>
+    <!-- Q4 -->
+    <rect x="20" y="104" width="8" height="8" rx="2" fill="none" stroke="#64748B" stroke-width="2"/>
+    <rect x="36" y="105" width="60" height="5" rx="2" fill="#CBD5E1"/>
+    
+    <!-- Red Grade Stamp (checkmark / tick) -->
+    <circle cx="92" cy="118" r="14" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+    <path d="M 85 118 L 90 123 L 100 112" fill="none" stroke="#EF4444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Writing Instrument (Pen) positioned diagonally over the test paper -->
+  <g transform="translate(0, 0) rotate(-25 130 110)">
+    <!-- Pen Shadow -->
+    <path d="M 100 118 L 178 40 L 190 52 L 112 130 Z" fill="#0F172A" opacity="0.4"/>
+    
+    <!-- Main Pen Body (Sleek Modern Design with Accent Color) -->
+    <path d="M 105 110 L 175 40 L 185 50 L 115 120 Z" fill="#3B82F6"/>
+    <path d="M 115 120 L 175 40 L 180 45 L 120 125 Z" fill="#60A5FA"/> <!-- Highlight reflection -->
+    
+    <!-- Gold Clip -->
+    <rect x="162" y="51" width="3" height="25" rx="1.5" transform="rotate(45 162 51)" fill="#F59E0B"/>
+    
+    <!-- Pen Grip / Lower Barrel -->
+    <path d="M 96 119 L 105 110 L 115 120 L 106 129 Z" fill="#1E293B"/>
+    
+    <!-- Metallic Tip -->
+    <path d="M 88 127 L 96 119 L 106 129 L 98 137 Z" fill="#94A3B8"/>
+    
+    <!-- Ultra-fine Nib -->
+    <path d="M 82 133 L 88 127 L 98 137 Z" fill="#F8FAFC"/>
+  </g>
+
+  <!-- Focus / Accent Sparkles -->
+  <circle cx="155" cy="45" r="3" fill="#FBBF24"/>
+  <circle cx="45" cy="135" r="2" fill="#FBBF24"/>
+</svg>

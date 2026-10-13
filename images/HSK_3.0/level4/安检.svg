@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Luggage Scanner Belt Station (Anjian / Security Check) -->
+  <g transform="translate(20, 45)">
+    <!-- Scanner Arch / Hood (Dark Slate with Orange Accent) -->
+    <path d="M 60 20 L 140 20 C 151 20, 160 29, 160 40 L 160 115 L 40 115 L 40 40 C 40 29, 49 20, 60 20 Z" fill="#2A303C" stroke="#3A4256" stroke-width="3"/>
+    
+    <!-- Scanner Interior Glow / Scanning Zone -->
+    <path d="M 52 45 L 148 45 L 148 105 L 52 105 Z" fill="#15181E"/>
+    <path d="M 52 72 L 148 72" stroke="#FF9F0A" stroke-width="2" stroke-dasharray="6,4" opacity="0.8"/>
+    <circle cx="100" cy="72" r="16" fill="#FF9F0A" opacity="0.15"/>
+    <circle cx="100" cy="72" r="6" fill="#FF9F0A" opacity="0.3"/>
+
+    <!-- Arch Status Indicator / Light -->
+    <rect x="90" y="28" width="20" height="6" rx="3" fill="#34C759"/>
+
+    <!-- Conveyor Belt Table & Rollers -->
+    <rect x="10" y="115" width="180" height="14" rx="3" fill="#3A4256"/>
+    <rect x="0" y="129" width="200" height="10" rx="2" fill="#242B35"/>
+    
+    <!-- Roller Lines -->
+    <line x1="30" y1="129" x2="30" y2="139" stroke="#15181E" stroke-width="3"/>
+    <line x1="60" y1="129" x2="60" y2="139" stroke="#15181E" stroke-width="3"/>
+    <line x1="90" y1="129" x2="90" y2="139" stroke="#15181E" stroke-width="3"/>
+    <line x1="120" y1="129" x2="120" y2="139" stroke="#15181E" stroke-width="3"/>
+    <line x1="150" y1="129" x2="150" y2="139" stroke="#15181E" stroke-width="3"/>
+    <line x1="180" y1="129" x2="180" y2="139" stroke="#15181E" stroke-width="3"/>
+
+    <!-- Suitcase passing through scanner -->
+    <g transform="translate(75, 78)">
+      <!-- Luggage Body -->
+      <rect x="0" y="0" width="44" height="37" rx="6" fill="#FF9F0A"/>
+      <!-- Handle -->
+      <path d="M 14 0 L 14 -5 C 14 -7, 16 -9, 18 -9 L 26 -9 C 28 -9, 30 -7, 30 -5 L 30 0" fill="none" stroke="#D08000" stroke-width="3" stroke-linecap="round"/>
+      <!-- Wheel / Detail lines -->
+      <line x1="6" y1="12" x2="38" y2="12" stroke="#D08000" stroke-width="3" opacity="0.4"/>
+      <rect x="18" y="18" width="8" height="12" rx="2" fill="#D08000" opacity="0.4"/>
+    </g>
+
+    <!-- Support Legs -->
+    <rect x="44" y="139" width="12" height="18" rx="2" fill="#242B35"/>
+    <rect x="144" y="139" width="12" height="18" rx="2" fill="#242B35"/>
+  </g>
+</svg>

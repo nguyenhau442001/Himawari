@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing the source/origin -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+  <circle cx="120" cy="120" r="45" fill="#2E3646" opacity="0.4"/>
+
+  <!-- Outer Source Object (The "当中" / "From within") -->
+  <!-- Sleek open chest/box container representing the origin source -->
+  <path d="M 70 90 L 120 70 L 170 90 L 170 160 C 170 170, 160 175, 150 175 L 90 175 C 80 175, 70 170, 70 160 Z" fill="#2A3241" stroke="#3E495E" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Front flap of the source container -->
+  <path d="M 70 120 L 120 140 L 170 120 L 170 160 C 170 170, 160 175, 150 175 L 90 175 C 80 175, 70 170, 70 160 Z" fill="#242B38" stroke="#3E495E" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Flow / Emergence lines (Indicating "从" - coming out from inside) -->
+  <path d="M 120 120 L 120 70" stroke="#FFB703" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M 105 125 L 90 85" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M 135 125 L 150 85" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+
+  <!-- The Core Object (The physical item gained/extracted "从中") -->
+  <!-- A glowing knowledge/insight artifact emerging right from the center -->
+  <g transform="translate(0, -5)">
+    <!-- Main diamond/gem body -->
+    <path d="M 120 72 L 140 95 L 120 125 L 100 95 Z" fill="#FF9F0A"/>
+    <!-- Facet highlights for modern flat look -->
+    <path d="M 120 72 L 140 95 L 120 125 Z" fill="#FFB703"/>
+    <path d="M 120 72 L 120 125 L 100 95 Z" fill="#F77F00"/>
+    
+    <!-- Floating glowing sparkles around the core object -->
+    <circle cx="120" cy="55" r="3" fill="#FFB703"/>
+    <circle cx="92" cy="75" r="2" fill="#FFB703" opacity="0.8"/>
+    <circle cx="148" cy="75" r="2" fill="#FFB703" opacity="0.8"/>
+  </g>
+
+  <!-- Focus ring accent -->
+  <ellipse cx="120" cy="175" rx="35" ry="6" fill="#111418" opacity="0.6"/>
+</svg>

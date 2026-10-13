@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Grid/Axis indicating a timeline or threshold -->
+  <line x1="40" y1="180" x2="200" y2="180" stroke="#2D333B" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="160" y1="60" x2="160" y2="190" stroke="#FF5C5C" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Threshold Line Label / Accent Top Indicator -->
+  <path d="M156 50 L160 42 L164 50 Z" fill="#FF5C5C"/>
+
+  <!-- Progression Track (Escalation / Timeline) -->
+  <path d="M 50 150 Q 105 150 145 150" stroke="#3A414B" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- The "Almost" moment: Figure sliding in just short of the red threshold line -->
+  <!-- Motion blur / trailing effects -->
+  <circle cx="120" cy="130" r="12" fill="#4C6EF5" opacity="0.2"/>
+  <circle cx="130" cy="130" r="12" fill="#4C6EF5" opacity="0.4"/>
+
+  <!-- Main Character (Stylized flat vector runner stopping just in time) -->
+  <g transform="translate(136, 110)">
+    <!-- Body / Torso leaning back slightly to brake -->
+    <path d="M 0 15 L 8 40 L -4 40 Z" fill="#4C6EF5"/>
+    <!-- Head -->
+    <circle cx="4" cy="5" r="7" fill="#FFD166"/>
+    <!-- Briefcase / Element representing context (work/schedule) -->
+    <rect x="12" y="25" width="10" height="8" rx="2" fill="#F1A542"/>
+    <!-- Legs in motion/stopping stance -->
+    <path d="M 4 40 L 12 58" stroke="#4C6EF5" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 4 40 L -4 56" stroke="#4C6EF5" stroke-width="4" stroke-linecap="round"/>
+    <!-- Arm swinging back -->
+    <path d="M 4 20 L -8 30" stroke="#4C6EF5" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground dust cloud showing abrupt stop -->
+  <circle cx="130" cy="170" r="4" fill="#6C757D" opacity="0.8"/>
+  <circle cx="122" cy="172" r="3" fill="#6C757D" opacity="0.6"/>
+  <circle cx="138" cy="174" r="2" fill="#6C757D" opacity="0.5"/>
+
+  <!-- Visual Metaphor of the "Narrow Miss" (Gap indicator between runner and boundary) -->
+  <g transform="translate(142, 85)">
+    <!-- Double-ended arrow showing the tiny margin -->
+    <line x1="0" y1="10" x2="16" y2="10" stroke="#FFD166" stroke-width="2"/>
+    <path d="M 3 6 L 0 10 L 3 14" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 13 6 L 16 10 L 13 14" fill="none" stroke="#FFD166" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Target Marker (The limit/deadline boundary) -->
+  <rect x="156" y="95" width="8" height="75" rx="3" fill="#FF5C5C"/>
+  <circle cx="160" cy="85" r="6" fill="#FF5C5C"/>
+
+</svg>

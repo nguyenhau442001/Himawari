@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group representing "Not only... but also" (Addition/Inclusion) -->
+  <!-- Central figure (The "Me" in the context) -->
+  <circle cx="80" cy="140" r="25" fill="#FFB86C"/>
+  <path d="M60 180c0-20 10-30 20-30s20 10 20 30" fill="#FFB86C"/>
+  
+  <!-- Additional figures (The "Everyone else") -->
+  <circle cx="160" cy="120" r="20" fill="#8BE9FD"/>
+  <path d="M145 150c0-15 7-25 15-25s15 10 15 25" fill="#8BE9FD"/>
+  
+  <circle cx="120" cy="160" r="18" fill="#50FA7B"/>
+  <path d="M106 185c0-12 6-20 14-20s14 8 14 20" fill="#50FA7B"/>
+  
+  <!-- Visual indicator of inclusion/grouping -->
+  <path d="M70 190 Q 120 210 170 190" stroke="#F8F8F2" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M70 190 L 65 185 M70 190 L 75 185" stroke="#F8F8F2" stroke-width="3" stroke-linecap="round"/>
+  <path d="M170 190 L 165 185 M170 190 L 175 185" stroke="#F8F8F2" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Focus highlight on the collective -->
+  <circle cx="120" cy="140" r="90" stroke="#44475A" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+</svg>

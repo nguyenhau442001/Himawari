@@ -1,0 +1,66 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative flight path / motion arcs -->
+  <path d="M40 180 Q100 120 200 60" fill="none" stroke="#2A2F3B" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M60 195 C120 150 160 110 215 75" fill="none" stroke="#3A4252" stroke-width="1.5"/>
+
+  <!-- Airplane body (sleek, modern flat design) -->
+  <g transform="translate(110, 85) rotate(-25)">
+    <!-- Main fuselage -->
+    <path d="M-40 -6 C-20 -8, 20 -8, 50 -3 C55 -1, 55 1, 50 3 C20 8, -20 8, -40 6 C-48 4, -48 -4, -40 -6 Z" fill="#E2E8F0"/>
+    
+    <!-- Nose cone highlight -->
+    <path d="M40 -3 C46 -2, 50 -1, 50 0 C50 1, 46 2, 40 3 Z" fill="#F8FAFC"/>
+
+    <!-- Cockpit window -->
+    <path d="M30 -4 C35 -4, 38 -3, 39 -1 C35 -1, 32 -2, 30 -4 Z" fill="#3B82F6"/>
+
+    <!-- Wings (swept back) -->
+    <!-- Left wing (drawn as perspective) -->
+    <path d="M-5 -2 L15 -25 C17 -26, 20 -25, 18 -22 L0 3 Z" fill="#CBD5E1"/>
+    <!-- Right wing (main visible) -->
+    <path d="M-10 2 L10 28 C12 30, 16 30, 15 26 L0 -2 Z" fill="#94A3B8"/>
+
+    <!-- Tail fin / stabilizer -->
+    <path d="M-30 -5 L-45 -22 C-46 -24, -43 -24, -41 -21 L-32 -3 Z" fill="#3B82F6"/>
+  </g>
+
+  <!-- Motion lines / speed trails -->
+  <g stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="45" y1="135" x2="65" y2="123"/>
+    <line x1="30" y1="150" x2="55" y2="135"/>
+    <line x1="60" y1="165" x2="80" y2="153"/>
+  </g>
+
+  <!-- Human Character inside/boarding/experiencing the ride (Dynamic flat style) -->
+  <g transform="translate(85, 130)">
+    <!-- Passenger seat back -->
+    <path d="M-15 -20 C-15 -35, 15 -35, 15 -20 L12 25 C12 28, 8 30, 5 30 L-5 30 C-8 30, -12 28, -12 25 Z" fill="#2E3646"/>
+    
+    <!-- Passenger body & shoulders -->
+    <path d="M-18 20 C-18 8, -10 5, 0 5 C10 5, 18 8, 18 20 L22 35 C22 38, 18 40, 15 40 L-15 40 C-18 40, -22 38, -22 35 Z" fill="#3B82F6"/>
+
+    <!-- Passenger neck & head -->
+    <rect x="-4" y="-3" width="8" height="10" fill="#F1C27D"/>
+    <circle cx="0" cy="-12" r="10" fill="#F1C27D"/>
+
+    <!-- Hair -->
+    <path d="M-10 -14 C-10 -22, 10 -22, 10 -14 C10 -10, 8 -8, 6 -12 C2 -16, -2 -16, -6 -12 C-8 -8, -10 -10, -10 -14 Z" fill="#334155"/>
+
+    <!-- Happy/Engaged facial expression (profile/semi-profile hint with smile) -->
+    <path d="M2 -9 C3 -9, 4 -8, 3 -7" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Raised arm showing active participation/riding action -->
+    <path d="M14 12 C22 8, 25 2, 22 -5" fill="none" stroke="#3B82F6" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="22" cy="-5" r="4" fill="#F1C27D"/>
+
+    <!-- Seatbelt / Safety harness across chest -->
+    <path d="M-12 12 L10 32" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent highlight flashcard frame elements -->
+  <circle cx="205" cy="35" r="3" fill="#F59E0B"/>
+  <circle cx="35" cy="205" r="2" fill="#38BDF8"/>
+</svg>

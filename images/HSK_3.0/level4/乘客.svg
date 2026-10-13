@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle seat outline representing vehicle interior -->
+  <path d="M70 140 C70 110, 80 80, 120 80 C160 80, 170 110, 170 140 L170 185 C170 190, 165 195, 160 195 L80 195 C75 195, 70 190, 70 185 Z" fill="#242832"/>
+  <path d="M85 75 C85 55, 95 45, 120 45 C145 45, 155 55, 155 75 L155 130 C155 135, 150 140, 145 140 L95 140 C90 140, 85 135, 85 130 Z" fill="#2A2F3D"/>
+
+  <!-- Passenger Character (Head and Torso) -->
+  <circle cx="120" cy="95" r="22" fill="#E0AF68"/>
+  <path d="M98 90 C98 75, 142 75, 142 90 C142 98, 120 95, 120 95 C120 95, 98 98, 98 90 Z" fill="#3B4252"/>
+  
+  <!-- Torso & Clothing -->
+  <path d="M85 130 C85 115, 155 115, 155 130 L175 195 L65 195 Z" fill="#414868"/>
+
+  <!-- Seatbelt (crossing diagonally over passenger) - high contrast accent -->
+  <path d="M95 65 L145 195" stroke="#1A1D24" stroke-width="12" stroke-linecap="round"/>
+  <path d="M95 65 L145 195" stroke="#FF9E64" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Seatbelt Buckle -->
+  <circle cx="125" cy="135" r="8" fill="#1A1D24"/>
+  <circle cx="125" cy="135" r="4" fill="#FF9E64"/>
+</svg>

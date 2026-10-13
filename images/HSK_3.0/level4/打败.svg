@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 120)">
+    <!-- Defeated opponent trophy/banner falling or broken -->
+    <path d="M-40,30 L-20,-30 L20,-30 L40,30 Z" fill="#2E3440" opacity="0.8"/>
+    <path d="M-25,10 L0,-45 L25,10 Z" fill="#4C566A"/>
+    <rect x="-30" y="30" width="60" height="12" rx="3" fill="#3B4252"/>
+    
+    <!-- Broken/defeated element: downward cracked shield/flag -->
+    <path d="M-60,-10 L-40,-50 L-20,-10 Z" fill="#4C566A"/>
+    <path d="M20,-10 L40,-50 L60,-10 Z" fill="#4C566A"/>
+    
+    <!-- Victorious Trophy (The "Object" representing 打败 - Victory/Champion trophy) -->
+    <g transform="translate(0, 0)">
+      <!-- Trophy Base -->
+      <rect x="-18" y="45" width="36" height="10" rx="3" fill="#E5C07B"/>
+      <rect x="-12" y="35" width="24" height="12" fill="#D19A66"/>
+      
+      <!-- Trophy Cup -->
+      <path d="M-25,-20 C-25,25 25,25 25,-20 Z" fill="#E5C07B"/>
+      
+      <!-- Trophy Handles -->
+      <path d="M-25,-15 C-45,-15 -45,10 -22,5" stroke="#E5C07B" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M25,-15 C45,-15 45,10 22,5" stroke="#E5C07B" stroke-width="5" fill="none" stroke-linecap="round"/>
+      
+      <!-- Trophy Inner Shadow/Rim -->
+      <ellipse cx="0" cy="-20" rx="25" ry="6" fill="#F0C674"/>
+      <ellipse cx="0" cy="-20" rx="20" ry="4" fill="#D19A66"/>
+      
+      <!-- Star on Trophy -->
+      <path d="M0,-5 L3,2 L10,2 L4,7 L6,14 L0,10 L-6,14 L-4,7 L-10,2 L-3,2 Z" fill="#1A1D24"/>
+    </g>
+    
+    <!-- Dynamic Victory / Triumph Sparkles -->
+    <path d="M-55,-40 L-50,-55 L-35,-50 L-50,-45 Z" fill="#61AFEF"/>
+    <path d="M55,-40 L50,-55 L35,-50 L50,-45 Z" fill="#61AFEF"/>
+    <circle cx="-52" cy="-25" r="3" fill="#98C379"/>
+    <circle cx="52" cy="-25" r="3" fill="#98C379"/>
+    
+    <!-- Ground Line -->
+    <line x1="-80" y1="55" x2="80" y2="55" stroke="#3B4252" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

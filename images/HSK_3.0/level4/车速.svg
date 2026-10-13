@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Road Surface -->
+  <path d="M0 180 L240 180 L240 240 L0 240 Z" fill="#2D3436"/>
+  <rect x="0" y="195" width="40" height="4" fill="#4A5568"/>
+  <rect x="80" y="195" width="40" height="4" fill="#4A5568"/>
+  <rect x="160" y="195" width="40" height="4" fill="#4A5568"/>
+  
+  <!-- Car Body -->
+  <path d="M60 170 L180 170 L175 140 L130 140 L110 120 L70 120 L60 140 Z" fill="#F6AD55"/>
+  
+  <!-- Windows -->
+  <path d="M75 125 L105 125 L105 140 L75 140 Z" fill="#1A1D24"/>
+  <path d="M115 125 L145 125 L145 140 L115 140 Z" fill="#1A1D24"/>
+  
+  <!-- Wheels -->
+  <circle cx="85" cy="180" r="15" fill="#2D3436" stroke="#F6AD55" stroke-width="4"/>
+  <circle cx="155" cy="180" r="15" fill="#2D3436" stroke="#F6AD55" stroke-width="4"/>
+  
+  <!-- Motion Lines (Representing speed) -->
+  <path d="M30 130 L50 130" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  <path d="M20 145 L45 145" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 160 L50 160" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+</svg>

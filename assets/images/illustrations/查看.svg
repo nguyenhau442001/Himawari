@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Envelope -->
+  <path d="M60 80h120v90H60z" fill="#343A46" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M60 80l60 45 60-45" fill="none" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Character Hand -->
+  <path d="M130 150c0-10 10-20 25-20s25 10 25 20v30c0 10-10 15-25 15s-25-5-25-15z" fill="#FFD1A9"/>
+  <path d="M140 140l-15-20m20 5l-10-25m30 5l10-25m20 15l15-10" fill="none" stroke="#FFD1A9" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Motion Lines -->
+  <path d="M155 110c5-10 15-15 25-15" fill="none" stroke="#FFB84D" stroke-width="3" stroke-dasharray="6 6"/>
+  <path d="M170 100c5-5 10-8 15-8" fill="none" stroke="#FFB84D" stroke-width="3" stroke-dasharray="6 6"/>
+  
+  <!-- Focus Indicator (Magnifying glass effect) -->
+  <circle cx="155" cy="115" r="12" fill="none" stroke="#FFB84D" stroke-width="3"/>
+  <path d="M165 125l15 15" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+</svg>

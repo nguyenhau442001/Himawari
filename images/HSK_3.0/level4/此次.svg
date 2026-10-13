@@ -1,0 +1,53 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/spotlight for central focus -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual illustration for "此次" (This instance / This time):
+       Represented as a distinct, highlighted physical timeline point/marker 
+       focusing on a specific instance among other occurrences, perfectly aligning 
+       with the context of an event happening "this time". -->
+       
+  <!-- Timeline base track -->
+  <line x1="50" y1="120" x2="190" y2="120" stroke="#3A4150" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 8"/>
+
+  <!-- Past occurrence nodes (dimmed) -->
+  <circle cx="70" cy="120" r="6" fill="#3A4150"/>
+  <circle cx="95" cy="120" r="6" fill="#3A4150"/>
+
+  <!-- Future occurrence nodes (dimmed) -->
+  <circle cx="145" cy="120" r="6" fill="#3A4150"/>
+  <circle cx="170" cy="120" r="6" fill="#3A4150"/>
+
+  <!-- "此次" (THIS instance) - Central focal physical object/marker -->
+  <!-- Outer pulse ring -->
+  <circle cx="120" cy="120" r="26" fill="none" stroke="#F5A623" stroke-width="2" opacity="0.4">
+    <animate attributeName="r" values="22;30;22" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main glowing target pin / node representing the specific "instance/time" -->
+  <circle cx="120" cy="120" r="18" fill="#F5A623"/>
+  <circle cx="120" cy="120" r="10" fill="#1A1D24"/>
+  <circle cx="120" cy="120" r="5" fill="#F5A623"/>
+
+  <!-- Focus bracket indicator framing "this particular one" -->
+  <path d="M 104 95 L 100 95 L 100 105" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 136 95 L 140 95 L 140 105" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 104 145 L 100 145 L 100 135" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 136 145 L 140 145 L 140 135" fill="none" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Floating indicator icon above: representing the event/activity context -->
+  <g transform="translate(120, 62)">
+    <!-- Event badge / physical pass card -->
+    <rect x="-16" y="-12" width="32" height="24" rx="4" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    <!-- Card detail lines -->
+    <line x1="-10" y1="-4" x2="6" y2="-4" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-10" y1="3" x2="2" y2="3" stroke="#A0AEC0" stroke-width="2" stroke-linecap="round"/>
+    <!-- Pointer stem connecting badge to the main node -->
+    <line x1="0" y1="12" x2="0" y2="28" stroke="#F5A623" stroke-width="2" stroke-dasharray="2 2"/>
+  </g>
+
+</svg>

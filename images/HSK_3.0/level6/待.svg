@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow/shadow representing a place/stay -->
+  <ellipse cx="120" cy="180" rx="60" ry="12" fill="#2A313C" opacity="0.6"/>
+  
+  <!-- Stylized iconic hotel/lodging building representing "staying in a place" (Beijing context) -->
+  <g transform="translate(0, 10)">
+    <!-- Main Building Structure -->
+    <rect x="80" y="55" width="80" height="120" rx="6" fill="#242B38"/>
+    
+    <!-- Modern Roof Accent / Pinnacle -->
+    <path d="M75 55 L120 30 L165 55 Z" fill="#E5A93B"/>
+    
+    <!-- Entrance / Lobby Canopy -->
+    <path d="M100 175 L140 175 L145 185 L95 185 Z" fill="#E5A93B"/>
+    <rect x="112" y="165" width="16" height="20" rx="2" fill="#1A1D24"/>
+
+    <!-- Grid Windows (Rows and Columns) representing a stay/hotel/location -->
+    <!-- Row 1 -->
+    <rect x="95" y="70" width="14" height="20" rx="3" fill="#3A4454"/>
+    <rect x="131" y="70" width="14" height="20" rx="3" fill="#3A4454"/>
+    
+    <!-- Row 2 -->
+    <rect x="95" y="100" width="14" height="20" rx="3" fill="#E5A93B" opacity="0.85"/>
+    <rect x="131" y="100" width="14" height="20" rx="3" fill="#3A4454"/>
+    
+    <!-- Row 3 -->
+    <rect x="95" y="130" width="14" height="20" rx="3" fill="#3A4454"/>
+    <rect x="131" y="130" width="14" height="20" rx="3" fill="#E5A93B" opacity="0.85"/>
+  </g>
+
+  <!-- Location Pin / Anchor overlay accent denoting "staying/remaining at a specific place" -->
+  <g transform="translate(0, -5)">
+    <path d="M120 40 C108.95 40 100 48.95 100 60 C100 75 120 95 120 95 C120 95 140 75 140 60 C140 48.95 131.05 40 120 40 Z" fill="none"/>
+  </g>
+
+  <!-- Calendar/Time Indicator subtly integrated (representing 3 days: 三天) -->
+  <g transform="translate(35, 120)">
+    <rect x="0" y="0" width="36" height="42" rx="6" fill="#2A313C" stroke="#E5A93B" stroke-width="2"/>
+    <path d="M0 12 H36" stroke="#E5A93B" stroke-width="2"/>
+    <circle cx="11" cy="6" r="2" fill="#E5A93B"/>
+    <circle cx="25" cy="6" r="2" fill="#E5A93B"/>
+    <!-- Day indicator dots -->
+    <circle cx="11" cy="22" r="3" fill="#E5A93B"/>
+    <circle cx="18" cy="22" r="3" fill="#E5A93B"/>
+    <circle cx="25" cy="22" r="3" fill="#E5A93B"/>
+    <path d="M10 32 L15 36 L26 28" fill="none" stroke="#4CD3C2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

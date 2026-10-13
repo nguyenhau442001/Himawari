@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle elements -->
+  <circle cx="120" cy="120" r="85" fill="none" stroke="#2A2F3D" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <circle cx="120" cy="120" r="65" fill="#222733"/>
+
+  <!-- Graduate Character Illustration -->
+  <g transform="translate(0, 10)">
+    <!-- Graduation Cap (Mortarboard) -->
+    <path d="M120 70 L168 88 L120 106 L72 88 Z" fill="#F59E0B"/>
+    <path d="M120 70 L168 88 L120 106 L72 88 Z" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Cap Skullcap -->
+    <path d="M96 97 C96 112 144 112 144 97" fill="none" stroke="#D97706" stroke-width="3"/>
+    
+    <!-- Tassel -->
+    <path d="M142 96 Q155 105 152 125" fill="none" stroke="#FCD34D" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="152" cy="127" r="3" fill="#F59E0B"/>
+
+    <!-- Neck -->
+    <rect x="110" y="125" width="20" height="15" fill="#E2E8F0"/>
+
+    <!-- Academic Robe Collar / V-neck -->
+    <path d="M95 135 L120 160 L145 135" fill="none" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Robe Shoulders -->
+    <path d="M78 175 C78 145 95 138 120 138 C145 138 162 145 162 175 Z" fill="#1E3A8A"/>
+
+    <!-- Degree Scroll (Diploma) in foreground / hand -->
+    <g transform="translate(0, 5)">
+      <!-- Scroll body -->
+      <rect x="90" y="155" width="60" height="20" rx="4" fill="#F8FAFC" transform="rotate(-15 120 165)"/>
+      <!-- Ribbon -->
+      <rect x="115" y="152" width="10" height="26" rx="2" fill="#EF4444" transform="rotate(-15 120 165)"/>
+      <!-- Scroll end circles (depth) -->
+      <ellipse cx="89" cy="163" rx="3" ry="10" fill="#CBD5E1" transform="rotate(-15 89 163)"/>
+      <ellipse cx="151" cy="146" rx="3" ry="10" fill="#CBD5E1" transform="rotate(-15 151 146)"/>
+    </g>
+  </g>
+
+  <!-- Accent Focus Glow / Highlights -->
+  <circle cx="120" cy="120" r="95" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.4"/>
+</svg>

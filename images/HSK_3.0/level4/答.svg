@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Question Mark Object -->
+  <path d="M120 70C108 70 98 80 98 92V105C98 111 103 116 109 116H131C137 116 142 111 142 105V98C142 86 132 76 120 76V76" stroke="#FFB84D" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <circle cx="120" cy="135" r="6" fill="#FFB84D"/>
+
+  <!-- Character -->
+  <g transform="translate(0, 20)">
+    <!-- Body -->
+    <path d="M160 180C160 165 175 155 190 155C205 155 220 165 220 180V210H160V180Z" fill="#E0E0E0"/>
+    <!-- Head -->
+    <circle cx="190" cy="140" r="15" fill="#E0E0E0"/>
+    <!-- Arm reaching up -->
+    <path d="M175 160L150 130" stroke="#E0E0E0" stroke-width="10" stroke-linecap="round"/>
+    <!-- Speech Bubble/Action Indicator -->
+    <path d="M140 120L110 100" stroke="#FFB84D" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6"/>
+  </g>
+
+  <!-- Answer/Response Icon -->
+  <g transform="translate(60, 160)">
+    <path d="M20 20L35 35L60 10" stroke="#4DFFB8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

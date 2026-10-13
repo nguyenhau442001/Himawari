@@ -1,0 +1,51 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle glow representing a professional kitchen environment -->
+  <circle cx="120" cy="120" r="75" fill="#242933"/>
+
+  <!-- Chef Character Illustration -->
+  <g id="chef-chushi">
+    <!-- Torso / Chef Jacket -->
+    <path d="M 85 190 L 85 155 C 85 142, 95 135, 120 135 C 145 135, 155 142, 155 155 L 155 190 Z" fill="#E6EDF3"/>
+    
+    <!-- Double-breasted jacket buttons (Chef's classic knot buttons) -->
+    <circle cx="112" cy="150" r="3.5" fill="#F0883E"/>
+    <circle cx="128" cy="150" r="3.5" fill="#F0883E"/>
+    <circle cx="112" cy="168" r="3.5" fill="#F0883E"/>
+    <circle cx="128" cy="168" r="3.5" fill="#F0883E"/>
+    <circle cx="112" cy="186" r="3.5" fill="#F0883E"/>
+    <circle cx="128" cy="186" r="3.5" fill="#F0883E"/>
+    
+    <!-- Neck -->
+    <rect x="110" y="125" width="20" height="15" fill="#E8B89D"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="108" r="22" fill="#E8B89D"/>
+    
+    <!-- Face details: Friendly Smile -->
+    <path d="M 112 113 Q 120 120 128 113" fill="none" stroke="#242933" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <circle cx="111" cy="105" r="2.5" fill="#242933"/>
+    <circle cx="129" cy="105" r="2.5" fill="#242933"/>
+    
+    <!-- Chef Hat (Toque Blanche) -->
+    <path d="M 102 88 C 92 88, 88 72, 96 62 C 92 48, 106 36, 120 44 C 134 36, 148 48, 144 62 C 152 72, 148 88, 138 88 Z" fill="#FFFFFF"/>
+    <!-- Hat band -->
+    <rect x="98" y="84" width="44" height="10" rx="2" fill="#E6EDF3"/>
+
+    <!-- Frying Pan held by the chef or floating in action -->
+    <g transform="translate(145, 125)">
+      <!-- Pan handle -->
+      <rect x="15" y="8" width="35" height="6" rx="3" fill="#8B949E"/>
+      <!-- Pan body -->
+      <ellipse cx="0" cy="11" rx="22" ry="10" fill="#30363D"/>
+      <ellipse cx="0" cy="9" rx="20" ry="8" fill="#484F58"/>
+    </g>
+
+    <!-- Delicious food / flame accent (Golden/Orange accent matching app theme) -->
+    <path d="M 133 120 C 130 108, 138 98, 145 92 C 152 98, 160 108, 157 120 Z" fill="#F0883E"/>
+    <path d="M 138 122 C 136 114, 142 107, 145 103 C 148 107, 154 114, 152 122 Z" fill="#FFA657"/>
+  </g>
+</svg>
