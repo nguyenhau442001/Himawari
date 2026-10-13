@@ -72,6 +72,7 @@ MODELS_TO_TRY = [
     "gemini-flash-lite-latest",
     "gemini-2.5-flash",
     "gemini-3.1-flash-lite-preview",
+    "gemini-3.6-flash",
     "gemini-flash-latest",
     "gemini-3.5-flash",
     "gemini-3.8-flash",
@@ -519,7 +520,7 @@ GENERAL CONSTRAINTS:
 
     rotated_models = MODELS_TO_TRY[model_offset % len(MODELS_TO_TRY):] + MODELS_TO_TRY[:model_offset % len(MODELS_TO_TRY)]
 
-    for attempt in range(max_retries):
+    for attempt in range(6):
         available_pairs = []
         for model in rotated_models:
             for k_idx, key in enumerate(api_keys):
@@ -527,7 +528,7 @@ GENERAL CONSTRAINTS:
                     available_pairs.append((k_idx, key, model))
 
         if not available_pairs:
-            time.sleep(2)
+            time.sleep(4)
             continue
 
         for k_idx, key, model in available_pairs:
@@ -567,8 +568,8 @@ GENERAL CONSTRAINTS:
             except Exception:
                 continue
 
-        if attempt < max_retries - 1:
-            time.sleep(1)
+        if attempt < 5:
+            time.sleep(2)
 
     return None
 
@@ -580,6 +581,9 @@ def git_commit_and_push(batch_count, level_label):
         res = subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_ROOT, capture_output=True, text=True)
         print(f"[>>> GIT] {res.stdout.strip()}", flush=True)
         push_res = subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=REPO_ROOT, capture_output=True, text=True)
+        if push_res.returncode != 0:
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=REPO_ROOT, capture_output=True, text=True)
+            push_res = subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=REPO_ROOT, capture_output=True, text=True)
         print(f"[>>> GIT] Push result: {push_res.stdout.strip() or push_res.stderr.strip() or 'OK'}", flush=True)
     except Exception as e:
         print(f"[!] Warning git commit/push encountered error: {e}", flush=True)
@@ -588,8 +592,8 @@ def main():
     parser = argparse.ArgumentParser(description="Master batch generator & organizer for all HSK 2.0 & HSK 3.0 levels")
     parser.add_argument("--api-key", default="", help="Google AI Studio API Key (comma-separated or set in .api_key)")
     parser.add_argument("--concurrency", type=int, default=6, help="Concurrent worker threads (default: 6 for maximum speed)")
-    parser.add_argument("--delay", type=float, default=0.0, help="Delay between thread dispatches in seconds (default: 0.0s)")
-    parser.add_argument("--batch-size", type=int, default=20, help="Commit and push every N generated items (default: 20)")
+    parser.add_argument("--delay", type=float, default=1.0, help="Delay between requests in seconds (default: 1.0s)")
+    parser.add_argument("--batch-size", type=int, default=50, help="Commit and push every N generated items (default: 50)")
     parser.add_argument("--only-organize", action="store_true", help="Only reorganize existing SVGs, build manifest & README without generating new SVGs")
     parser.add_argument("--target-level", default="all", help="Target specific level (e.g., 'level3', 'level5', 'level6', 'all')")
     args = parser.parse_args()
@@ -599,7 +603,7 @@ def main():
         print("[!] No Google AI API key found! Please set GOOGLE_AI_KEY or add to .api_key", flush=True)
         return
 
-    print(f"[*] Loaded {len(api_keys)} API key(s) for generation rotation. Concurrency: {args.concurrency} workers.", flush=True)
+    print(f"[*] Loaded {len(api_keys)} API key(s) for generation rotation. Concurrency: {args.concurrency} workers, Delay: {args.delay}s.", flush=True)
 
     # Step 1: Organization under images/
     manifest_data = build_manifest_and_organize()
@@ -638,7 +642,7 @@ def main():
     print("\n==================================================================", flush=True)
     print("  HSK Flashcards: Master Scene-Based Illustration Pipeline (HIGH SPEED)", flush=True)
     print(f"  Target: images/HSK_2.0/level1..6 -> images/HSK_3.0/level1..9", flush=True)
-    print(f"  Concurrency: {args.concurrency} parallel workers", flush=True)
+    print(f"  Concurrency: {args.concurrency} parallel workers | Delay: {args.delay}s", flush=True)
     print(f"  Batch commit threshold: Every {args.batch_size} newly generated SVGs -> main", flush=True)
     print("==================================================================\n", flush=True)
 
@@ -690,6 +694,8 @@ def main():
             images_dest = IMAGES_DIR / schema_type / lvl_code / out_filename
 
             svg_code = call_gemini_svg_api(item, api_keys, model_offset=orig_idx)
+            if args.delay > 0:
+                time.sleep(args.delay)
             if svg_code:
                 # 1. Write flat SVG
                 flat_path.write_text(svg_code, encoding="utf-8")
