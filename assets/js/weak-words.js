@@ -16,14 +16,50 @@ function isWeakWord(hanzi) {
   return loadWeakWords().some(w => w.hanzi === hanzi);
 }
 
-function toggleWeakWord(hanzi, level) {
+function escapeWeakWordHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  }[c]));
+}
+
+function formatWeakWordLevel(levelKey) {
+  if (!levelKey) return '';
+  if (typeof homeShortLevelLabel === 'function') {
+    return homeShortLevelLabel(levelKey);
+  }
+  const match30 = String(levelKey).match(/^hsk30_([1-9])$/);
+  if (match30) return '3.0 L' + match30[1];
+  const match20 = String(levelKey).match(/^hsk([1-6])$/i);
+  if (match20) return 'HSK' + match20[1];
+  return String(levelKey).toUpperCase();
+}
+
+function toggleWeakWord(hanziOrWord, level) {
+  if (!hanziOrWord) return false;
+  const hanzi = typeof hanziOrWord === 'object' ? hanziOrWord.hanzi : hanziOrWord;
   if (!hanzi) return false;
+
   const list = loadWeakWords();
   const existingIndex = list.findIndex(w => w.hanzi === hanzi);
   if (existingIndex >= 0) {
     list.splice(existingIndex, 1);
   } else {
-    list.push({ hanzi, level: level || currentLevel || '' });
+    let wordObj = typeof hanziOrWord === 'object' ? { ...hanziOrWord } : {};
+    if (typeof activeStudyWord !== 'undefined' && activeStudyWord && activeStudyWord.hanzi === hanzi) {
+      wordObj = { ...activeStudyWord, ...wordObj };
+    }
+    const resolvedLevel = level || wordObj.level || (typeof currentLevel !== 'undefined' ? currentLevel : '') || '';
+    list.unshift({
+      hanzi,
+      pinyin: wordObj.pinyin || '',
+      meaning: wordObj.meaning || '',
+      level: resolvedLevel,
+      id: wordObj.id != null ? wordObj.id : '',
+    });
   }
   saveWeakWords(list);
   renderWeakWordsList();
@@ -48,25 +84,128 @@ function updateWeakWordToggleButton() {
   btn.classList.toggle('active', starred);
 }
 
+let isEnrichingWeakWords = false;
+async function enrichMissingWeakWordMetadata(list) {
+  if (isEnrichingWeakWords || !list.length) return;
+  const needsEnrichment = list.some(w => !w.pinyin || !w.meaning);
+  if (!needsEnrichment) return;
+
+  isEnrichingWeakWords = true;
+  try {
+    let updated = false;
+    for (const w of list) {
+      if (w.pinyin && w.meaning) continue;
+
+      if (typeof activeStudyWord !== 'undefined' && activeStudyWord && activeStudyWord.hanzi === w.hanzi) {
+        w.pinyin = w.pinyin || activeStudyWord.pinyin || '';
+        w.meaning = w.meaning || activeStudyWord.meaning || '';
+        w.level = w.level || activeStudyWord.level || '';
+        w.id = w.id || activeStudyWord.id || '';
+        updated = true;
+        continue;
+      }
+
+      if (typeof WORDS !== 'undefined' && Array.isArray(WORDS)) {
+        const found = WORDS.find(item => item.hanzi === w.hanzi);
+        if (found) {
+          w.pinyin = w.pinyin || found.pinyin || '';
+          w.meaning = w.meaning || found.meaning || '';
+          w.level = w.level || (typeof currentLevel !== 'undefined' ? currentLevel : '');
+          w.id = w.id || found.id || '';
+          updated = true;
+          continue;
+        }
+      }
+
+      const levelKey = w.level || (typeof currentLevel !== 'undefined' ? currentLevel : 'hsk4');
+      const cfg = typeof LEVELS !== 'undefined' ? LEVELS[levelKey] : null;
+      if (cfg && cfg.dataUrl) {
+        try {
+          const res = await fetch(cfg.dataUrl);
+          const data = await res.json();
+          const match = data.find(item => item.hanzi === w.hanzi);
+          if (match) {
+            w.pinyin = w.pinyin || match.pinyin || '';
+            w.meaning = w.meaning || match.meaning || '';
+            w.level = w.level || levelKey;
+            w.id = w.id || match.id || '';
+            updated = true;
+            continue;
+          }
+        } catch (e) {}
+      }
+
+      if (!w.pinyin && typeof buildSidebarSearchIndex === 'function') {
+        try {
+          const idx = await buildSidebarSearchIndex();
+          const match = idx.find(item => item.hanzi === w.hanzi);
+          if (match) {
+            w.pinyin = w.pinyin || match.pinyin || '';
+            w.meaning = w.meaning || match.meaning || '';
+            w.level = w.level || match.levelKey || '';
+            w.id = w.id || match.id || '';
+            updated = true;
+          }
+        } catch (e) {}
+      }
+    }
+
+    if (updated) {
+      saveWeakWords(list);
+      renderWeakWordsList();
+    }
+  } finally {
+    isEnrichingWeakWords = false;
+  }
+}
+
 function renderWeakWordsList() {
   const container = document.getElementById('weakWordsList');
   if (!container) return;
   const list = loadWeakWords();
+  const panel = container.closest('.weak-words-panel');
+
   if (!list.length) {
-    const panel = container.closest('.weak-words-panel');
     if (panel) panel.hidden = true;
     container.innerHTML = '';
     return;
   }
-  const panel = container.closest('.weak-words-panel');
   if (panel) panel.hidden = false;
-  container.innerHTML = list.map(w => `
-    <li class="sidebar-search-result weak-word-item" data-hanzi="${w.hanzi}">
-      <span class="ssr-hanzi">${w.hanzi}</span>
-      <span class="ssr-level">${w.level}</span>
-      <button type="button" class="weak-word-remove" data-remove="${w.hanzi}" aria-label="Bỏ đánh dấu ${w.hanzi}">✕</button>
-    </li>
-  `).join('');
+
+  const countEl = document.getElementById('weakWordsCount');
+  if (countEl) {
+    countEl.textContent = `${list.length} từ`;
+  }
+
+  container.innerHTML = list.map(w => {
+    const hanziSafe = escapeWeakWordHtml(w.hanzi);
+    const pinyinSafe = escapeWeakWordHtml(w.pinyin || '');
+    const meaningSafe = escapeWeakWordHtml(w.meaning || '');
+    const levelPill = w.level ? formatWeakWordLevel(w.level) : '';
+    const levelSafe = escapeWeakWordHtml(w.level || '');
+    const idSafe = escapeWeakWordHtml(w.id != null ? w.id : '');
+
+    return `
+      <li class="weak-word-row weak-word-item" data-hanzi="${hanziSafe}" data-level="${levelSafe}" data-id="${idSafe}">
+        <button type="button" class="weak-word-open" aria-label="Học từ ${hanziSafe}${meaningSafe ? ': ' + meaningSafe : ''}">
+          <span class="weak-word-hanzi" lang="zh-CN">${hanziSafe}</span>
+          <span class="weak-word-text">
+            <span class="weak-word-pinyin">${pinyinSafe}</span>
+            <span class="weak-word-meaning" title="${meaningSafe}">${meaningSafe}</span>
+          </span>
+          ${levelPill ? `<span class="weak-word-level-pill">${escapeWeakWordHtml(levelPill)}</span>` : ''}
+        </button>
+        <button type="button" class="weak-word-remove" data-remove="${hanziSafe}" aria-label="Bỏ đánh dấu ${hanziSafe}" title="Bỏ đánh dấu từ khó">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </li>
+    `;
+  }).join('');
+
+  enrichMissingWeakWordMetadata(list);
 }
 
 function initWeakWordsPanel() {
@@ -74,12 +213,16 @@ function initWeakWordsPanel() {
     ? document.getElementById('workstationLeft')
     : document.getElementById('mobileDockDialogBody');
   if (!mount) return;
-  const wrap = document.createElement('div');
-  wrap.className = 'weak-words-panel';
+
+  const wrap = document.createElement('section');
+  wrap.className = 'dashboard-sidebar-card weak-words-panel';
   wrap.id = 'weakWordsPanel';
   wrap.innerHTML = `
-    <div class="sidebar-panel-title">Từ khó (đã đánh dấu)</div>
-    <ul class="sidebar-search-results weak-words-list" id="weakWordsList"></ul>
+    <div class="sidebar-card-heading">
+      <h2>Từ khó (đã đánh dấu)</h2>
+      <span class="weak-words-count" id="weakWordsCount">0 từ</span>
+    </div>
+    <ul class="weak-words-list" id="weakWordsList"></ul>
   `;
   mount.appendChild(wrap);
   renderWeakWordsList();
@@ -87,14 +230,33 @@ function initWeakWordsPanel() {
   wrap.addEventListener('click', e => {
     const removeBtn = e.target.closest('[data-remove]');
     if (removeBtn) {
+      e.stopPropagation();
       const list = loadWeakWords().filter(w => w.hanzi !== removeBtn.dataset.remove);
       saveWeakWords(list);
       renderWeakWordsList();
       updateWeakWordToggleButton();
       return;
     }
-    const item = e.target.closest('.weak-word-item');
-    if (item) setActiveStudyWord({ hanzi: item.dataset.hanzi, pinyin: '', meaning: '' });
+
+    const row = e.target.closest('.weak-word-row');
+    if (row) {
+      const hanzi = row.dataset.hanzi;
+      const level = row.dataset.level || (typeof currentLevel !== 'undefined' ? currentLevel : '');
+      const id = row.dataset.id;
+      const list = loadWeakWords();
+      const word = list.find(w => w.hanzi === hanzi);
+
+      const mobileDialog = document.getElementById('mobileDockDialog');
+      if (mobileDialog && typeof mobileDialog.close === 'function' && mobileDialog.open) {
+        mobileDialog.close();
+      }
+
+      if (typeof openWordInLevel === 'function' && level) {
+        openWordInLevel(level, id || hanzi, true);
+      } else if (typeof setActiveStudyWord === 'function') {
+        setActiveStudyWord(word || { hanzi, pinyin: '', meaning: '' });
+      }
+    }
   });
 
   onActiveWordChange(updateWeakWordToggleButton);
