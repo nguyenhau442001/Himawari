@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Visual Metaphor for "将" (Future action / Progression / Timeline transition):
+       A sleek dark-mode timeline shifting from a completed/present state into a bright, 
+       glowing future marker representing "will do / shall happen" (e.g., meeting starting soon). -->
+
+  <!-- Subtle background grid/glow to emphasize modern UI/educational theme -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.5"/>
+
+  <!-- Timeline Track (Horizontal progression line) -->
+  <line x1="45" y1="120" x2="195" y2="120" stroke="#2C3440" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Past / Present Segment (Muted Slate) -->
+  <line x1="45" y1="120" x2="100" y2="120" stroke="#4B5563" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Future Segment / Transition (Vibrant Orange/Gold Accent representing '将' / 'Will') -->
+  <line x1="100" y1="120" x2="195" y2="120" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-dasharray="4 6"/>
+
+  <!-- Past / Present Node -->
+  <circle cx="70" cy="120" r="7" fill="#6B7280"/>
+
+  <!-- Pivot / Action Point (Present Moment) -->
+  <circle cx="100" cy="120" r="9" fill="#1A1D24" stroke="#F59E0B" stroke-width="4"/>
+
+  <!-- Future Action Target Node (Escalation / Upcoming Event Peak) -->
+  <g transform="translate(170, 120)">
+    <!-- Outer pulse ring -->
+    <circle cx="0" cy="0" r="18" fill="#F59E0B" opacity="0.2"/>
+    <!-- Inner glowing marker -->
+    <circle cx="0" cy="0" r="10" fill="#F59E0B"/>
+    <!-- Upward arrow indicator symbolizing upcoming event starting/escalating -->
+    <path d="M-3 2 L0 -2 L3 2" stroke="#1A1D24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Abstract Clock / Schedule Metaphor (Representing 会议 - Meeting time context) -->
+  <g transform="translate(120, 65)">
+    <!-- Clock face background -->
+    <circle cx="0" cy="0" r="22" fill="#252A34" stroke="#374151" stroke-width="2"/>
+    <!-- Clock hands pointing to upcoming scheduled time -->
+    <line x1="0" y1="0" x2="0" y2="-10" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="8" y2="4" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+    <!-- Center pin -->
+    <circle cx="0" cy="0" r="2" fill="#F59E0B"/>
+  </g>
+
+  <!-- Forward-pointing arrow beam / Causality indicator -->
+  <path d="M115 155 L135 155 L130 150 M135 155 L130 160" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

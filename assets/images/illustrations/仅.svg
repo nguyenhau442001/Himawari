@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background atmosphere: A large, expansive, dimly lit space to emphasize the "few" -->
+  <circle cx="120" cy="120" r="80" fill="#252A33"/>
+  
+  <!-- The "Contrast" metaphor: A large, wide group area vs a tiny, highlighted focal point -->
+  <!-- Representing the "only a few" concept -->
+  
+  <!-- Group of silhouettes (The "Many" - muted) -->
+  <g opacity="0.2">
+    <circle cx="60" cy="80" r="8" fill="#5D6D7E"/>
+    <circle cx="180" cy="80" r="8" fill="#5D6D7E"/>
+    <circle cx="70" cy="160" r="8" fill="#5D6D7E"/>
+    <circle cx="170" cy="160" r="8" fill="#5D6D7E"/>
+    <circle cx="120" cy="190" r="8" fill="#5D6D7E"/>
+  </g>
+  
+  <!-- The "Few" (The focal point - highlighted with gold/orange) -->
+  <!-- Three distinct figures standing out in the center, representing "only a few" -->
+  <g>
+    <circle cx="105" cy="120" r="10" fill="#FFB347"/>
+    <circle cx="120" cy="105" r="10" fill="#FFB347"/>
+    <circle cx="135" cy="120" r="10" fill="#FFB347"/>
+  </g>
+  
+  <!-- Connecting lines to show the contrast/limitation -->
+  <path d="M 80 120 L 100 120" stroke="#FFB347" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 140 120 L 160 120" stroke="#FFB347" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- A frame or boundary line to emphasize the "limitation" (only these, not beyond) -->
+  <path d="M 90 90 L 150 90 L 150 150 L 90 150 Z" stroke="#FFB347" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

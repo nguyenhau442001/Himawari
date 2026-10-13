@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for subtraction based on "十减三等于七" (10 - 3 = 7) -->
+  <!-- We visualize physical objects: 10 glowing blocks arranged in rows, with 3 clearly crossed out or fading away, leaving 7 active blocks. -->
+  
+  <g transform="translate(24, 45)">
+    <!-- Row 1: 5 blocks (All active/remaining: 5) -->
+    <rect x="0" y="0" width="28" height="28" rx="6" fill="#F59E0B" />
+    <rect x="38" y="0" width="28" height="28" rx="6" fill="#F59E0B" />
+    <rect x="76" y="0" width="28" height="28" rx="6" fill="#F59E0B" />
+    <rect x="114" y="0" width="28" height="28" rx="6" fill="#F59E0B" />
+    <rect x="152" y="0" width="28" height="28" rx="6" fill="#F59E0B" />
+
+    <!-- Row 2: 5 blocks (2 active, 3 subtracted/removed) -->
+    <!-- Active remaining (2) -->
+    <rect x="0" y="44" width="28" height="28" rx="6" fill="#F59E0B" />
+    <rect x="38" y="44" width="28" height="28" rx="6" fill="#F59E0B" />
+
+    <!-- Subtracted blocks (3) with muted color, dashed stroke, and distinct 'minus' or 'removal' indicator -->
+    <g opacity="0.35">
+      <rect x="76" y="44" width="28" height="28" rx="6" fill="#64748B" stroke="#94A3B8" stroke-dasharray="4 2" stroke-width="2"/>
+      <line x1="84" y1="52" x2="96" y2="64" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+      <line x1="96" y1="52" x2="84" y2="64" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+
+      <rect x="114" y="44" width="28" height="28" rx="6" fill="#64748B" stroke="#94A3B8" stroke-dasharray="4 2" stroke-width="2"/>
+      <line x1="122" y1="52" x2="134" y2="64" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+      <line x1="134" y1="52" x2="122" y2="64" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+
+      <rect x="152" y="44" width="28" height="28" rx="6" fill="#64748B" stroke="#94A3B8" stroke-dasharray="4 2" stroke-width="2"/>
+      <line x1="160" y1="52" x2="172" y2="64" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+      <line x1="172" y1="52" x2="160" y2="64" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Mathematical action indicator bar at the bottom showing subtraction context cleanly -->
+  <g transform="translate(70, 155)">
+    <!-- Background pill -->
+    <rect x="0" y="0" width="100" height="36" rx="18" fill="#2D3748" />
+    
+    <!-- Minus sign visual icon inside the pill -->
+    <rect x="42" y="16" width="16" height="4" rx="2" fill="#EF4444" />
+  </g>
+</svg>

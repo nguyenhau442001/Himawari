@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/arch representing the interior of a gym -->
+  <path d="M60 190 L60 110 C60 75 87 48 120 48 C153 48 180 75 180 110 L180 190 Z" fill="#242933"/>
+  <rect x="50" y="190" width="140" height="12" rx="4" fill="#2F3642"/>
+
+  <!-- Dumbbell Rack & Dumbbells (Central Iconic Object for Gym) -->
+  <!-- Rack Structure -->
+  <path d="M90 130 L150 130 L155 190 L85 190 Z" fill="#3B4252" opacity="0.5"/>
+  <rect x="75" y="185" width="90" height="6" rx="2" fill="#4C566A"/>
+  <rect x="85" y="145" width="70" height="6" rx="2" fill="#4C566A"/>
+
+  <!-- Dumbbell 1 (Lower shelf / prominent) -->
+  <!-- Bar -->
+  <rect x="95" y="162" width="50" height="6" rx="3" fill="#D8DEE9"/>
+  <!-- Weights Left -->
+  <rect x="88" y="152" width="10" height="26" rx="3" fill="#F39C12"/>
+  <rect x="82" y="156" width="6" height="18" rx="2" fill="#E67E22"/>
+  <!-- Weights Right -->
+  <rect x="142" y="152" width="10" height="26" rx="3" fill="#F39C12"/>
+  <rect x="152" y="156" width="6" height="18" rx="2" fill="#E67E22"/>
+
+  <!-- Dumbbell 2 (Upper shelf) -->
+  <!-- Bar -->
+  <rect x="100" y="122" width="40" height="5" rx="2.5" fill="#D8DEE9"/>
+  <!-- Weights Left -->
+  <rect x="94" y="114" width="8" height="21" rx="2.5" fill="#3498DB"/>
+  <rect x="90" y="117" width="4" height="15" rx="1.5" fill="#2980B9"/>
+  <!-- Weights Right -->
+  <rect x="138" y="114" width="8" height="21" rx="2.5" fill="#3498DB"/>
+  <rect x="146" y="117" width="4" height="15" rx="1.5" fill="#2980B9"/>
+
+  <!-- Wall-mounted fitness element (Pull-up bar / rings silhouette in background) -->
+  <path d="M90 75 L150 75" stroke="#4C566A" stroke-width="4" stroke-linecap="round"/>
+  <line x1="105" y1="75" x2="105" y2="95" stroke="#4C566A" stroke-width="3"/>
+  <circle cx="105" cy="99" r="6" fill="none" stroke="#4C566A" stroke-width="3"/>
+  <line x1="135" y1="75" x2="135" y2="95" stroke="#4C566A" stroke-width="3"/>
+  <circle cx="135" cy="99" r="6" fill="none" stroke="#4C566A" stroke-width="3"/>
+
+  <!-- Accent lighting highlight -->
+  <circle cx="120" cy="48" r="2" fill="#F39C12" opacity="0.8"/>
+</svg>

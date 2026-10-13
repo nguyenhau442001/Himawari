@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Shadow for hanging tag -->
+    <path d="M 120 50 L 175 105 L 145 195 L 95 195 L 65 105 Z" fill="#000000" opacity="0.25" transform="translate(0, 8)" />
+    
+    <!-- Price Tag Base -->
+    <path d="M 120 42 L 180 102 L 148 190 L 92 190 L 60 102 Z" fill="#FF5722"/>
+    <path d="M 120 42 L 180 102 L 148 190 L 92 190 L 60 102 Z" fill="url(#tagGradient)" opacity="0.3"/>
+    
+    <!-- Tag String -->
+    <path d="M 120 20 C 120 20 135 32 120 42" stroke="#B0BEC5" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Tag Eyelet Ring -->
+    <circle cx="120" cy="56" r="10" fill="#1A1D24"/>
+    <circle cx="120" cy="56" r="6" fill="#FFA726"/>
+
+    <!-- Currencies / Value Icons on the tag -->
+    <!-- Central Dollar/Value Symbol stylized in flat modern vectors -->
+    <path d="M 120 85 L 120 155" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Curved 'S' or value lines representing price amount -->
+    <path d="M 136 96 C 136 86 104 86 104 102 C 104 118 136 120 136 136 C 136 152 104 152 104 142" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+    
+    <!-- Decorative highlight lines representing sleekness -->
+    <path d="M 75 110 L 95 110" stroke="#FF8A65" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 70 125 L 85 125" stroke="#FF8A65" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="tagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0B2" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#B71C1C" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+</svg>

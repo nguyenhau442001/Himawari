@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Path representing the future journey -->
+  <path d="M40 180 C 100 180, 120 120, 200 60" stroke="#FFB84D" stroke-width="6" stroke-linecap="round" fill="none" stroke-dasharray="8 8"/>
+  
+  <!-- Person figure looking forward -->
+  <g transform="translate(40, 140)">
+    <circle cx="20" cy="20" r="12" fill="#E0E0E0"/>
+    <path d="M20 32 L20 60 M20 40 L5 55 M20 40 L35 55 M20 60 L10 85 M20 60 L30 85" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Signpost indicating the path ahead -->
+  <g transform="translate(180, 60)">
+    <rect x="-2" y="0" width="4" height="60" fill="#78909C"/>
+    <path d="M-20 -10 L20 -10 L30 0 L20 10 L-20 10 Z" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Sun rising on the horizon -->
+  <circle cx="200" cy="180" r="25" fill="#FFB84D" opacity="0.3"/>
+  <circle cx="200" cy="180" r="15" fill="#FFB84D"/>
+</svg>

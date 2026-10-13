@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Intersection Context Lines (Street layout) -->
+  <path d="M120 130 L120 220" stroke="#2A2F3D" stroke-width="24" stroke-linecap="round"/>
+  <path d="M30 150 L210 150" stroke="#2A2F3D" stroke-width="24" stroke-linecap="round"/>
+  <!-- Zebra Crossing detail -->
+  <rect x="108" y="180" width="24" height="6" fill="#1A1D24"/>
+  <rect x="108" y="195" width="24" height="6" fill="#1A1D24"/>
+
+  <!-- Traffic Light / Command Context (Background accent) -->
+  <rect x="70" y="55" width="16" height="42" rx="4" fill="#2E3646"/>
+  <circle cx="78" cy="65" r="3" fill="#FF4D4D"/>
+  <circle cx="78" cy="76" r="3" fill="#2A2F3D"/>
+  <circle cx="78" cy="87" r="3" fill="#2A2F3D"/>
+  
+  <!-- Traffic Officer Character (交警) -->
+  <!-- Legs -->
+  <rect x="105" y="150" width="12" height="45" rx="4" fill="#2C3E50"/>
+  <rect x="123" y="150" width="12" height="45" rx="4" fill="#2C3E50"/>
+  <!-- Shoes -->
+  <path d="M98 193 C98 191 102 190 107 190 L118 190 C120 190 120 195 120 197 L98 197 Z" fill="#111"/>
+  <path d="M122 193 C122 191 126 190 131 190 L142 190 C144 190 144 195 144 197 L122 197 Z" fill="#111"/>
+
+  <!-- Body / Uniform (White/Blue police shirt & high-vis accents) -->
+  <path d="M95 105 L145 105 L155 152 L85 152 Z" fill="#2C4875"/>
+  <path d="M102 105 L138 105 L142 152 L98 152 Z" fill="#EAEFF8"/>
+  
+  <!-- High-Vis Vest Straps (Yellow/Orange) -->
+  <polygon points="110,105 130,105 138,152 124,152" fill="#FFA500" opacity="0.9"/>
+  <polygon points="130,105 110,105 102,152 116,152" fill="#FFA500" opacity="0.9"/>
+  <rect x="92" y="125" width="56" height="6" fill="#FFA500"/>
+  
+  <!-- Belt -->
+  <rect x="86" y="146" width="68" height="6" fill="#111"/>
+  <rect x="114" y="146" width="12" height="6" fill="#FFD700"/>
+
+  <!-- Head & Face -->
+  <circle cx="120" cy="82" r="18" fill="#FCE5CD"/>
+  
+  <!-- Police Cap (White top with dark brim and gold badge) -->
+  <path d="M100 70 C100 55 140 55 140 70 Z" fill="#EAEFF8"/>
+  <ellipse cx="120" cy="72" rx="22" ry="6" fill="#1F2937"/>
+  <circle cx="120" cy="67" r="4" fill="#FFD700"/>
+
+  <!-- Left Arm (Raised to direct / stop traffic) -->
+  <path d="M100 112 L70 95 L65 105 L92 125 Z" fill="#2C4875"/>
+  <!-- White Glove / Hand signaling stop -->
+  <circle cx="63" cy="107" r="8" fill="#FFFFFF"/>
+  <rect x="58" y="103" width="10" height="8" rx="2" fill="#FFFFFF"/>
+
+  <!-- Right Arm (At side/slightly bent) -->
+  <path d="M140 112 L162 135 L155 145 L133 122 Z" fill="#2C4875"/>
+  <circle cx="165" cy="138" r="7" fill="#FFFFFF"/>
+
+  <!-- Traffic Baton (Gleaming white & red accent) -->
+  <g transform="rotate(-30 63 107)">
+    <rect x="42" y="104" width="22" height="6" rx="3" fill="#FF3B30"/>
+    <rect x="22" y="104" width="22" height="6" rx="3" fill="#FFFFFF"/>
+  </g>
+
+</svg>

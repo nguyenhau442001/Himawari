@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Doorway frame -->
+  <path d="M80 60 H160 V180 H80 Z" fill="none" stroke="#4A5568" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 60 V180" stroke="#4A5568" stroke-width="4" stroke-dasharray="8 8"/>
+  
+  <!-- Motion lines -->
+  <path d="M60 120 L90 120 M50 100 L75 100 M50 140 L75 140" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Character -->
+  <g transform="translate(100, 120)">
+    <!-- Body -->
+    <path d="M0 0 C-10 0 -15 20 -15 40 L15 40 C15 20 10 0 0 0" fill="#63B3ED"/>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="15" fill="#63B3ED"/>
+    <!-- Leg in motion -->
+    <path d="M-5 40 L-15 70" stroke="#63B3ED" stroke-width="8" stroke-linecap="round"/>
+    <path d="M5 40 L15 60" stroke="#63B3ED" stroke-width="8" stroke-linecap="round"/>
+    <!-- Arm in motion -->
+    <path d="M-15 10 L-30 30" stroke="#63B3ED" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15 10 L25 25" stroke="#63B3ED" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

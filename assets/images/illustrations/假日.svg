@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 假日 (Holiday/Day off): 
+       A stylized park scene with a sunny park bench, leisure elements, 
+       representing a relaxing holiday in a park ("假日里公园的人特别多"). -->
+
+  <!-- Soft background park glow / sun -->
+  <circle cx="120" cy="120" r="85" fill="#252A34" opacity="0.6"/>
+  <circle cx="160" cy="80" r="24" fill="#FFC107" opacity="0.15"/>
+
+  <!-- Grass hill / Ground -->
+  <path d="M30 180 C 80 165, 160 165, 210 180 L 210 200 C 160 215, 80 215, 30 200 Z" fill="#2D3748" opacity="0.4"/>
+  <path d="M20 185 C 90 170, 150 170, 220 185 L 220 215 C 150 230, 90 230, 20 215 Z" fill="#319795" opacity="0.2"/>
+
+  <!-- Park Bench (Centerpiece for holiday leisure) -->
+  <!-- Bench Legs -->
+  <rect x="75" y="145" width="6" height="25" rx="3" fill="#A0AEC0"/>
+  <rect x="159" y="145" width="6" height="25" rx="3" fill="#A0AEC0"/>
+
+  <!-- Bench Seat -->
+  <rect x="65" y="135" width="110" height="12" rx="4" fill="#D69E2E"/>
+  
+  <!-- Bench Backrest -->
+  <rect x="68" y="105" width="104" height="10" rx="3" fill="#D69E2E"/>
+  <rect x="68" y="119" width="104" height="10" rx="3" fill="#D69E2E"/>
+
+  <!-- Bench Supports -->
+  <rect x="85" y="115" width="8" height="25" rx="2" fill="#B7791F"/>
+  <rect x="147" y="115" width="8" height="25" rx="2" fill="#B7791F"/>
+
+  <!-- Leisure / Holiday items on the bench: A sun hat and a travel book/drink -->
+  <!-- Sun Hat -->
+  <ellipse cx="95" cy="130" rx="16" ry="6" fill="#ED8936"/>
+  <path d="M 87 130 C 87 122, 103 122, 103 130 Z" fill="#DD6B20"/>
+
+  <!-- Travel Drink / Coffee Cup -->
+  <rect x="138" y="116" width="12" height="19" rx="2" fill="#E2E8F0"/>
+  <path d="M 136 116 L 152 116 L 150 114 L 138 114 Z" fill="#CBD5E0"/>
+  <path d="M 144 114 C 144 110, 146 110, 146 108" stroke="#CBD5E0" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Stylized tree/nature element on the side representing the park -->
+  <path d="M 45 150 L 45 100 C 45 85, 55 75, 70 75 C 85 75, 95 85, 95 100 L 95 150 Z" fill="#2C5282" opacity="0.3"/>
+  <circle cx="70" cy="75" r="22" fill="#38A169" opacity="0.8"/>
+  <circle cx="58" cy="65" r="16" fill="#48BB78" opacity="0.8"/>
+  <circle cx="82" cy="68" r="18" fill="#48BB78" opacity="0.8"/>
+
+  <!-- Floating leisure icons: Sun / Relax symbols -->
+  <!-- Sun icon top right -->
+  <circle cx="185" cy="65" r="14" fill="#ED8936"/>
+  <path d="M 185 43 L 185 47 M 185 83 L 185 87 M 163 65 L 167 65 M 203 65 L 207 65 M 169 49 L 172 52 M 198 78 L 201 81 M 169 81 L 172 78 M 198 52 L 201 49" stroke="#ED8936" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Little floating music note / relaxation indicator -->
+  <path d="M 155 90 C 155 86, 159 84, 162 86 L 162 95" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <circle cx="152" cy="95" r="3" fill="#F6AD55"/>
+
+</svg>

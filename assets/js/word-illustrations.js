@@ -25137,6 +25137,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/功课.svg",
     "caption": "bài tập, bài vở"
   },
+  "公路": {
+    "file": "公路.svg",
+    "src": "images/HSK_3.0/level4/公路.svg",
+    "caption": "đường quốc lộ, đường cái"
+  },
+  "共": {
+    "file": "共.svg",
+    "src": "images/HSK_3.0/level4/共.svg",
+    "caption": "tổng cộng; cùng"
+  },
+  "购买": {
+    "file": "购买.svg",
+    "src": "images/HSK_3.0/level4/购买.svg",
+    "caption": "mua, mua sắm"
+  },
+  "观看": {
+    "file": "观看.svg",
+    "src": "images/HSK_3.0/level4/观看.svg",
+    "caption": "xem, quan sát"
+  },
+  "管": {
+    "file": "管.svg",
+    "src": "images/HSK_3.0/level4/管.svg",
+    "caption": "quản lý, trông nom; ống"
+  },
+  "寒冷": {
+    "file": "寒冷.svg",
+    "src": "images/HSK_3.0/level4/寒冷.svg",
+    "caption": "giá lạnh, rét"
+  },
+  "好好": {
+    "file": "好好.svg",
+    "src": "images/HSK_3.0/level4/好好.svg",
+    "caption": "cẩn thận, chăm chỉ; tử tế"
+  },
+  "好笑": {
+    "file": "好笑.svg",
+    "src": "images/HSK_3.0/level4/好笑.svg",
+    "caption": "buồn cười"
+  },
+  "红包": {
+    "file": "红包.svg",
+    "src": "images/HSK_3.0/level4/红包.svg",
+    "caption": "bao lì xì"
+  },
+  "话剧": {
+    "file": "话剧.svg",
+    "src": "images/HSK_3.0/level4/话剧.svg",
+    "caption": "kịch nói"
+  },
+  "坏处": {
+    "file": "坏处.svg",
+    "src": "images/HSK_3.0/level4/坏处.svg",
+    "caption": "chỗ hại, mặt xấu"
+  },
+  "换乘": {
+    "file": "换乘.svg",
+    "src": "images/HSK_3.0/level4/换乘.svg",
+    "caption": "đổi tuyến, chuyển xe"
+  },
+  "回复": {
+    "file": "回复.svg",
+    "src": "images/HSK_3.0/level4/回复.svg",
+    "caption": "trả lời, hồi âm"
+  },
+  "回信": {
+    "file": "回信.svg",
+    "src": "images/HSK_3.0/level4/回信.svg",
+    "caption": "hồi âm, thư trả lời"
+  },
+  "会员": {
+    "file": "会员.svg",
+    "src": "images/HSK_3.0/level4/会员.svg",
+    "caption": "hội viên, thành viên"
+  },
+  "活": {
+    "file": "活.svg",
+    "src": "images/HSK_3.0/level4/活.svg",
+    "caption": "sống; sinh động; công việc"
+  },
+  "既": {
+    "file": "既.svg",
+    "src": "images/HSK_3.0/level4/既.svg",
+    "caption": "vừa… vừa; đã (… thì)"
+  },
+  "加油": {
+    "file": "加油.svg",
+    "src": "images/HSK_3.0/level4/加油.svg",
+    "caption": "cố lên; đổ xăng"
+  },
+  "价钱": {
+    "file": "价钱.svg",
+    "src": "images/HSK_3.0/level4/价钱.svg",
+    "caption": "giá, giá tiền"
+  },
+  "假日": {
+    "file": "假日.svg",
+    "src": "images/HSK_3.0/level4/假日.svg",
+    "caption": "ngày nghỉ"
+  },
+  "减": {
+    "file": "减.svg",
+    "src": "images/HSK_3.0/level4/减.svg",
+    "caption": "trừ, giảm"
+  },
+  "减轻": {
+    "file": "减轻.svg",
+    "src": "images/HSK_3.0/level4/减轻.svg",
+    "caption": "giảm nhẹ, giảm bớt"
+  },
+  "健身房": {
+    "file": "健身房.svg",
+    "src": "images/HSK_3.0/level4/健身房.svg",
+    "caption": "phòng tập gym"
+  },
+  "江": {
+    "file": "江.svg",
+    "src": "images/HSK_3.0/level4/江.svg",
+    "caption": "sông (lớn)"
+  },
+  "将": {
+    "file": "将.svg",
+    "src": "images/HSK_3.0/level4/将.svg",
+    "caption": "sẽ; đem, lấy (như 把)"
+  },
+  "将要": {
+    "file": "将要.svg",
+    "src": "images/HSK_3.0/level4/将要.svg",
+    "caption": "sắp, sẽ"
+  },
+  "奖": {
+    "file": "奖.svg",
+    "src": "images/HSK_3.0/level4/奖.svg",
+    "caption": "giải thưởng; thưởng"
+  },
+  "奖学金": {
+    "file": "奖学金.svg",
+    "src": "images/HSK_3.0/level4/奖学金.svg",
+    "caption": "học bổng"
+  },
+  "降": {
+    "file": "降.svg",
+    "src": "images/HSK_3.0/level4/降.svg",
+    "caption": "hạ xuống, giảm xuống"
+  },
+  "降价": {
+    "file": "降价.svg",
+    "src": "images/HSK_3.0/level4/降价.svg",
+    "caption": "giảm giá, hạ giá"
+  },
+  "交警": {
+    "file": "交警.svg",
+    "src": "images/HSK_3.0/level4/交警.svg",
+    "caption": "cảnh sát giao thông"
+  },
+  "教师": {
+    "file": "教师.svg",
+    "src": "images/HSK_3.0/level4/教师.svg",
+    "caption": "giáo viên, nhà giáo"
+  },
+  "教学": {
+    "file": "教学.svg",
+    "src": "images/HSK_3.0/level4/教学.svg",
+    "caption": "giảng dạy, dạy học"
+  },
+  "叫作": {
+    "file": "叫作.svg",
+    "src": "images/HSK_3.0/level4/叫作.svg",
+    "caption": "gọi là"
+  },
+  "节假日": {
+    "file": "节假日.svg",
+    "src": "images/HSK_3.0/level4/节假日.svg",
+    "caption": "ngày lễ và ngày nghỉ"
+  },
+  "今后": {
+    "file": "今后.svg",
+    "src": "images/HSK_3.0/level4/今后.svg",
+    "caption": "từ nay về sau, sau này"
+  },
+  "仅": {
+    "file": "仅.svg",
+    "src": "images/HSK_3.0/level4/仅.svg",
+    "caption": "chỉ"
+  },
+  "进入": {
+    "file": "进入.svg",
+    "src": "images/HSK_3.0/level4/进入.svg",
+    "caption": "đi vào, bước vào"
+  },
+  "景点": {
+    "file": "景点.svg",
+    "src": "images/HSK_3.0/level4/景点.svg",
+    "caption": "điểm tham quan"
+  },
+  "景区": {
+    "file": "景区.svg",
+    "src": "images/HSK_3.0/level4/景区.svg",
+    "caption": "khu du lịch, khu thắng cảnh"
+  },
+  "就是": {
+    "file": "就是.svg",
+    "src": "images/HSK_3.0/level4/就是.svg",
+    "caption": "chính là; dù… cũng"
+  },
+  "举例": {
+    "file": "举例.svg",
+    "src": "images/HSK_3.0/level4/举例.svg",
+    "caption": "nêu ví dụ"
+  },
+  "聚": {
+    "file": "聚.svg",
+    "src": "images/HSK_3.0/level4/聚.svg",
+    "caption": "tụ họp, tập trung"
+  },
+  "聚餐": {
+    "file": "聚餐.svg",
+    "src": "images/HSK_3.0/level4/聚餐.svg",
+    "caption": "liên hoan, ăn uống tập thể"
+  },
+  "剧院": {
+    "file": "剧院.svg",
+    "src": "images/HSK_3.0/level4/剧院.svg",
+    "caption": "nhà hát"
+  },
+  "考生": {
+    "file": "考生.svg",
+    "src": "images/HSK_3.0/level4/考生.svg",
+    "caption": "thí sinh"
+  },
+  "科技": {
+    "file": "科技.svg",
+    "src": "images/HSK_3.0/level4/科技.svg",
+    "caption": "khoa học kỹ thuật, công nghệ"
+  },
+  "咳": {
+    "file": "咳.svg",
+    "src": "images/HSK_3.0/level4/咳.svg",
+    "caption": "ho"
+  },
+  "课堂": {
+    "file": "课堂.svg",
+    "src": "images/HSK_3.0/level4/课堂.svg",
+    "caption": "lớp học, giờ học"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",

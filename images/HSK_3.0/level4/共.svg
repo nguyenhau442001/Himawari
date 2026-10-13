@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(40, 60)">
+    <circle cx="20" cy="20" r="12" fill="#FFB84C"/>
+    <circle cx="60" cy="20" r="12" fill="#FFB84C"/>
+    <circle cx="100" cy="20" r="12" fill="#FFB84C"/>
+    <circle cx="140" cy="20" r="12" fill="#FFB84C"/>
+    <circle cx="180" cy="20" r="12" fill="#FFB84C"/>
+    
+    <circle cx="20" cy="60" r="12" fill="#FFB84C"/>
+    <circle cx="60" cy="60" r="12" fill="#FFB84C"/>
+    <circle cx="100" cy="60" r="12" fill="#FFB84C"/>
+    <circle cx="140" cy="60" r="12" fill="#FFB84C"/>
+    <circle cx="180" cy="60" r="12" fill="#FFB84C"/>
+    
+    <circle cx="20" cy="100" r="12" fill="#FFB84C"/>
+    <circle cx="60" cy="100" r="12" fill="#FFB84C"/>
+    <circle cx="100" cy="100" r="12" fill="#FFB84C"/>
+    <circle cx="140" cy="100" r="12" fill="#FFB84C"/>
+    <circle cx="180" cy="100" r="12" fill="#FFB84C"/>
+  </g>
+  
+  <path d="M120 180 L120 210 M105 195 L135 195" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <text x="150" y="200" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">=</text>
+  <circle cx="185" cy="195" r="15" fill="#FFB84C"/>
+  <text x="178" y="203" font-family="Arial" font-size="16" fill="#1A1D24" font-weight="bold">40</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Map Pin Marker -->
+  <path d="M120 40c-26.5 0-48 21.5-48 48 0 36 48 112 48 112s48-76 48-112c0-26.5-21.5-48-48-48z" fill="#FFB800"/>
+  <circle cx="120" cy="88" r="16" fill="#1A1D24"/>
+  
+  <!-- Landmark Silhouette (Pagoda) -->
+  <g fill="#FFFFFF">
+    <rect x="108" y="104" width="24" height="4" rx="1"/>
+    <rect x="112" y="108" width="16" height="2" rx="0.5"/>
+    <rect x="104" y="110" width="32" height="4" rx="1"/>
+    <rect x="112" y="114" width="16" height="2" rx="0.5"/>
+    <rect x="100" y="116" width="40" height="4" rx="1"/>
+    <rect x="110" y="120" width="20" height="12" rx="1"/>
+  </g>
+  
+  <!-- Decorative Ground/Base -->
+  <path d="M80 145h80v4h-80z" fill="#FFB800" opacity="0.3"/>
+</svg>

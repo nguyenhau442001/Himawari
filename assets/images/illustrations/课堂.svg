@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk -->
+  <path d="M60 160h120v15H60z" fill="#3D4451"/>
+  <path d="M65 175l-10 30h130l-10-30z" fill="#2D333E"/>
+  
+  <!-- Chair -->
+  <path d="M170 170h20v40h-20z" fill="#2D333E"/>
+  <path d="M170 170h20v10h-20z" fill="#4A5568"/>
+  
+  <!-- Book on desk -->
+  <rect x="80" y="145" width="60" height="15" rx="2" fill="#FFB347"/>
+  <rect x="85" y="148" width="50" height="2" rx="1" fill="#1A1D24"/>
+  <rect x="85" y="152" width="50" height="2" rx="1" fill="#1A1D24"/>
+  
+  <!-- Teacher figure (standing) -->
+  <circle cx="190" cy="110" r="12" fill="#E2E8F0"/>
+  <path d="M180 122h20l-5 40h-10z" fill="#4A5568"/>
+  <path d="M185 130l15 10" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Chalkboard -->
+  <rect x="40" y="50" width="160" height="80" rx="4" fill="#2D333E" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Chalkboard content (abstract lines) -->
+  <path d="M60 70h120M60 90h120M60 110h80" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Student figure (seated) -->
+  <circle cx="100" cy="130" r="10" fill="#FFB347"/>
+  <path d="M90 140h20l-5 20h-10z" fill="#E2E8F0"/>
+</svg>

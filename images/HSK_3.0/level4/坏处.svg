@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (subtle hazard grid/glow) -->
+  <circle cx="120" cy="120" r="80" fill="#FF5252" opacity="0.05"/>
+  <circle cx="120" cy="120" r="50" fill="#FF5252" opacity="0.08"/>
+
+  <!-- Iconic Physical Object representing "坏处" (Harm/Negative impact - Smoking/Toxic hazard context) -->
+  <g transform="translate(0, 5)">
+    <!-- Glowing Toxic Hazard aura -->
+    <path d="M120 40 L160 110 L80 110 Z" fill="#FF5252" opacity="0.15" filter="blur(4px)"/>
+
+    <!-- Cigarette / Toxic element -->
+    <!-- Cigarette body -->
+    <rect x="85" y="110" width="70" height="22" rx="4" fill="#E0E0E0" transform="rotate(-30 120 121)"/>
+    <!-- Filter -->
+    <rect x="135" y="81.1" width="25" height="22" rx="4" fill="#E68A5C" transform="rotate(-30 120 121)"/>
+    <!-- Burning tip / Danger red/orange ash -->
+    <path d="M 75 148 L 85 142 L 88 147 Z" fill="#FF5252"/>
+    <circle cx="79" cy="144" r="3" fill="#FFD54F"/>
+
+    <!-- Smoke curling upward, turning into dark/toxic warning tendrils -->
+    <path d="M 75 140 Q 60 120 70 100 T 60 60" fill="none" stroke="#FF5252" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 95 105 Q 110 85 100 65 T 115 35" fill="none" stroke="#90A4AE" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Warning X / Negative indicator centered cleanly -->
+    <g transform="translate(120, 120)">
+      <!-- Red warning badge circle -->
+      <circle cx="0" cy="0" r="32" fill="#1A1D24" stroke="#FF5252" stroke-width="6"/>
+      <!-- Bold X mark -->
+      <path d="M -12 -12 L 12 12 M 12 -12 L -12 12" stroke="#FF5252" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

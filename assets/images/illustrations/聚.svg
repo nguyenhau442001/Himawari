@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group of three stylized figures representing old classmates gathering -->
+  <!-- Figure 1 (Left) -->
+  <circle cx="80" cy="120" r="15" fill="#FFB84D"/>
+  <path d="M65 140h30v40c0 10-10 10-15 10s-15 0-15-10z" fill="#FFB84D"/>
+  
+  <!-- Figure 2 (Center) -->
+  <circle cx="120" cy="100" r="18" fill="#4DA6FF"/>
+  <path d="M102 120h36v50c0 10-12 10-18 10s-18 0-18-10z" fill="#4DA6FF"/>
+  
+  <!-- Figure 3 (Right) -->
+  <circle cx="160" cy="120" r="15" fill="#FF6B6B"/>
+  <path d="M145 140h30v40c0 10-10 10-15 10s-15 0-15-10z" fill="#FF6B6B"/>
+  
+  <!-- Subtle ground shadow to ground the figures -->
+  <ellipse cx="120" cy="195" rx="70" ry="8" fill="#000" fill-opacity="0.3"/>
+  
+  <!-- Converging lines indicating the act of coming together -->
+  <path d="M40 180 L120 140 L200 180" stroke="#3E4451" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+</svg>

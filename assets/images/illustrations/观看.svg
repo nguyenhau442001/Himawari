@@ -1,0 +1,48 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container & Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient background glow for atmosphere (stadium/match lighting) -->
+  <circle cx="120" cy="110" r="80" fill="#242B38" opacity="0.6"/>
+
+  <!-- Stadium/Match context: Simplified abstract field/goal or arena lines -->
+  <path d="M60 160 L120 135 L180 160" fill="none" stroke="#2D3748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="120" y1="90" x2="120" y2="135" stroke="#2D3748" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- The Action Object: A soccer ball/match element in motion -->
+  <circle cx="120" cy="118" r="10" fill="#E2E8F0"/>
+  <!-- Ball pattern details -->
+  <path d="M117 113 L123 113 L125 119 L120 123 L115 119 Z" fill="#1A1D24"/>
+  <!-- Motion lines indicating the match action -->
+  <path d="M95 110 Q107 105 115 112" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 4"/>
+
+  <!-- Spectator Character (Dynamic flat vector design, leaning forward in observation) -->
+  <!-- Head -->
+  <circle cx="120" cy="65" r="16" fill="#F6AD55"/>
+  <!-- Hair -->
+  <path d="M104 62 C104 50, 136 50, 136 62 C136 62, 132 55, 120 55 C108 55, 104 62, 104 62 Z" fill="#DD6B20"/>
+
+  <!-- Torso & Body leaning forward over stadium railing -->
+  <path d="M95 105 C95 85, 145 85, 145 105 L155 145 L85 145 Z" fill="#3182CE"/>
+
+  <!-- Arms resting on/gripping the observation rail (showing active looking/leaning) -->
+  <path d="M95 98 L75 115" fill="none" stroke="#3182CE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M145 98 L165 115" fill="none" stroke="#3182CE" stroke-width="8" stroke-linecap="round"/>
+  <!-- Hands gripping the rail -->
+  <circle cx="73" cy="117" r="5" fill="#F6AD55"/>
+  <circle cx="167" cy="117" r="5" fill="#F6AD55"/>
+
+  <!-- Stadium Railing -->
+  <rect x="60" y="122" width="120" height="6" rx="3" fill="#4A5568"/>
+  <rect x="75" y="128" width="6" height="25" fill="#2D3748"/>
+  <rect x="159" y="128" width="6" height="25" fill="#2D3748"/>
+
+  <!-- Sightlines / Focus Rays (Visualizing the semantic action of "guānkàn" - looking/watching intently) -->
+  <path d="M120 81 L120 108" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <!-- Subtle eye gaze indicator rays extending to the match -->
+  <line x1="112" y1="83" x2="105" y2="100" stroke="#F59E0B" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
+  <line x1="128" y1="83" x2="135" y2="100" stroke="#F59E0B" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- Focus / Attention Accent (Gold flash indicating focused observation) -->
+  <path d="M120 40 L123 48 L131 51 L123 54 L120 62 L117 54 L109 51 L117 48 Z" fill="#F59E0B" opacity="0.8"/>
+</svg>

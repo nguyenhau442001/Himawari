@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle classroom blackboard background element -->
+  <rect x="30" y="35" width="180" height="110" rx="6" fill="#222730" stroke="#2F3642" stroke-width="2"/>
+  
+  <!-- Blackboard educational graphics (geometric diagram) -->
+  <path d="M60 85 L85 105 L60 105 Z" fill="none" stroke="#3A4454" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="120" cy="95" r="15" fill="none" stroke="#3A4454" stroke-width="2"/>
+  <line x1="150" y1="80" x2="180" y2="110" stroke="#3A4454" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Teacher Character (Noun: 教师) -->
+  <!-- Body / Torso (Professional blazer) -->
+  <path d="M95 190 L95 155 C95 145, 105 140, 120 140 C135 140, 145 145, 145 155 L145 190 Z" fill="#2E4057"/>
+  <!-- Inner shirt / Collar -->
+  <path d="M108 140 L120 155 L132 140 Z" fill="#EDF2F7"/>
+  <polygon points="117,150 123,150 120,165" fill="#E67E22"/>
+
+  <!-- Head & Neck -->
+  <rect x="114" y="124" width="12" height="18" fill="#FAD0C4"/>
+  <circle cx="120" cy="110" r="18" fill="#FAD0C4"/>
+  
+  <!-- Hair (Modern sleek style) -->
+  <path d="M102 108 C102 96, 110 90, 120 90 C130 90, 138 96, 138 108 C138 112, 136 110, 136 102 C136 96, 130 93, 120 93 C110 93, 104 96, 104 102 C104 110, 102 112, 102 108 Z" fill="#3E2723"/>
+
+  <!-- Glasses -->
+  <circle cx="113" cy="108" r="5" fill="none" stroke="#E67E22" stroke-width="1.5"/>
+  <circle cx="127" cy="108" r="5" fill="none" stroke="#E67E22" stroke-width="1.5"/>
+  <line x1="118" y1="108" x2="122" y2="108" stroke="#E67E22" stroke-width="1.5"/>
+
+  <!-- Left arm holding pointer / gesturing -->
+  <path d="M95 155 L75 170 L70 165" fill="none" stroke="#2E4057" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="68" cy="163" r="4" fill="#FAD0C4"/>
+
+  <!-- Right arm raised pointing at board -->
+  <path d="M145 155 L165 130 L185 115" fill="none" stroke="#2E4057" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="187" cy="113" r="4" fill="#FAD0C4"/>
+  
+  <!-- Pointer stick -->
+  <line x1="187" y1="113" x2="205" y2="95" stroke="#E67E22" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Desk / Podium -->
+  <rect x="70" y="185" width="100" height="25" rx="4" fill="#3B4252"/>
+  <rect x="65" y="180" width="110" height="7" rx="2" fill="#4C566A"/>
+  
+  <!-- Educational icon prop on desk (Open book) -->
+  <path d="M110 183 C110 181, 115 180, 120 182 C125 180, 130 181, 130 183 L130 193 C130 191, 125 190, 120 192 C115 190, 110 191, 110 193 Z" fill="#E5E9F0"/>
+  <line x1="120" y1="182" x2="120" y2="192" stroke="#D8DEE9" stroke-width="1"/>
+</svg>
