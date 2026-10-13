@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/ambience behind the piano -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Piano Body / Cabinet -->
+  <path d="M 60,90 L 180,90 L 195,150 L 195,185 L 45,185 L 45,150 Z" fill="#2C3240"/>
+  
+  <!-- Fallboard (Keyboard lid, closed/angled back) -->
+  <path d="M 60,90 L 180,90 L 180,125 L 60,125 Z" fill="#222630"/>
+  
+  <!-- Music Desk / Score Holder -->
+  <rect x="85" y="55" width="70" height="40" rx="3" fill="#363C4E"/>
+  <!-- Stylized musical score lines on desk -->
+  <line x1="95" y1="68" x2="145" y2="68" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  <line x1="95" y1="78" x2="135" y2="78" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="115" cy="73" r="3" fill="#1A1D24"/>
+  <circle cx="130" cy="83" r="3" fill="#1A1D24"/>
+
+  <!-- Keybed Area -->
+  <rect x="50" y="125" width="140" height="22" rx="2" fill="#15181F"/>
+  
+  <!-- Piano Keys (Detailed pattern) -->
+  <!-- White keys base -->
+  <rect x="55" y="127" width="130" height="18" fill="#F4F5F7" rx="1"/>
+  <!-- Individual white key dividers -->
+  <line x1="65" y1="127" x2="65" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="75" y1="127" x2="75" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="85" y1="127" x2="85" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="95" y1="127" x2="95" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="105" y1="127" x2="105" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="115" y1="127" x2="115" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="125" y1="127" x2="125" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="135" y1="127" x2="135" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="145" y1="127" x2="145" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="155" y1="127" x2="155" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="165" y1="127" x2="165" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="175" y1="127" x2="175" y2="145" stroke="#D1D5DB" stroke-width="1"/>
+
+  <!-- Black keys -->
+  <rect x="62" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="73" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="93" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="103" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="113" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="133" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="143" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="163" y="127" width="6" height="11" fill="#111318" rx="1"/>
+  <rect x="173" y="127" width="6" height="11" fill="#111318" rx="1"/>
+
+  <!-- Lower Panel with Classic Aesthetic Grooves -->
+  <rect x="70" y="152" width="100" height="26" rx="2" fill="#222630"/>
+  <line x1="120" y1="152" x2="120" y2="178" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Pedals Board & Pedals -->
+  <path d="M 105,185 L 135,185 L 140,195 L 100,195 Z" fill="#222630"/>
+  <rect x="113" y="193" width="4" height="5" rx="1" fill="#E5C158"/>
+  <rect x="123" y="193" width="4" height="5" rx="1" fill="#E5C158"/>
+
+  <!-- Front Piano Legs -->
+  <rect x="52" y="185" width="8" height="25" rx="2" fill="#222630"/>
+  <rect x="180" y="185" width="8" height="25" rx="2" fill="#222630"/>
+
+  <!-- Floating Musical Notes / Accents (Orange/Gold focus highlights) -->
+  <path d="M 165,55 Q 170,45 160,35 Q 175,40 170,55 Z" fill="#E5C158"/>
+  <circle cx="157" cy="53" r="4" fill="#E5C158"/>
+  <circle cx="177" cy="45" r="4" fill="#E5C158"/>
+  <path d="M 157,53 L 157,35 L 177,27 L 177,45" fill="none" stroke="#E5C158" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

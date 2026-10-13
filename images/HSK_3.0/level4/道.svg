@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Progression / Sequence Concept (Measure word / Sequential ordering for dishes/questions) -->
+    <!-- Step 1: Base Tier / Foundation (Slate block) -->
+    <path d="M40 180 L120 160 L200 180 L200 195 L120 215 L40 195 Z" fill="#2A313C" />
+    <path d="M40 180 L120 160 L120 215 L40 195 Z" fill="#323B49" />
+    <path d="M120 160 L200 180 L200 215 L120 215 Z" fill="#252B35" />
+
+    <!-- Step 2: Intermediate Tier (Progression/Ordering) -->
+    <path d="M55 140 L120 123 L185 140 L185 152 L120 169 L55 152 Z" fill="#323B49" />
+    <path d="M55 140 L120 123 L120 169 L55 152 Z" fill="#3E495B" />
+    <path d="M120 123 L185 140 L185 152 L120 169 Z" fill="#2A313C" />
+
+    <!-- Step 3: Apex Tier (The specific item/dish "这道菜" highlighted with gold accent) -->
+    <path d="M70 100 L120 86 L170 100 L170 110 L120 124 L70 110 Z" fill="#4B586D" />
+    <path d="M70 100 L120 86 L120 124 L70 110 Z" fill="#5A6982" />
+    <path d="M120 86 L170 100 L170 110 L120 124 Z" fill="#3E495B" />
+
+    <!-- Abstract Culinary / Categorical Focus Element (Representing "一道菜" - a dish/course in a sequence) -->
+    <!-- Cloche / Serving Dome atop the progression apex -->
+    <ellipse cx="120" cy="72" rx="28" ry="8" fill="#F59E0B" />
+    <path d="M92 72 C92 50 148 50 148 72 Z" fill="#F59E0B" />
+    <circle cx="120" cy="48" r="5" fill="#FBBF24" />
+
+    <!-- Progression trajectory lines / Sequential flow -->
+    <path d="M120 160 L120 124" stroke="#F59E0B" stroke-width="3" stroke-dasharray="3,3" opacity="0.8"/>
+    <path d="M120 120 L120 80" stroke="#F59E0B" stroke-width="3" stroke-dasharray="3,3" opacity="0.8"/>
+
+    <!-- Focal highlight sparkles indicating distinct categorical items in a sequence -->
+    <path d="M155 70 L158 78 L166 81 L158 84 L155 92 L152 84 L144 81 L152 78 Z" fill="#FBBF24" opacity="0.9" transform="scale(0.6) translate(140, 20)"/>
+    <path d="M85 110 L87 115 L92 117 L87 119 L85 124 L83 119 L78 117 L83 115 Z" fill="#FBBF24" opacity="0.6" transform="scale(0.5) translate(80, 70)"/>
+  </g>
+</svg>

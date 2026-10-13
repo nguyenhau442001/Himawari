@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Teacher figure -->
+  <g transform="translate(60, 60)">
+    <circle cx="30" cy="25" r="12" fill="#FFB74D"/>
+    <path d="M18 45h24l-4 30h-16z" fill="#4FC3F7"/>
+    <path d="M22 75h16v40h-16z" fill="#4FC3F7"/>
+    <path d="M10 80l12 10M50 80l-12 10" stroke="#FFB74D" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Clipboard -->
+  <rect x="130" y="70" width="50" height="70" rx="4" fill="#CFD8DC"/>
+  <rect x="135" y="75" width="40" height="8" rx="2" fill="#90A4AE"/>
+  <rect x="140" y="95" width="30" height="4" rx="1" fill="#546E7A"/>
+  <rect x="140" y="105" width="30" height="4" rx="1" fill="#546E7A"/>
+  <rect x="140" y="115" width="30" height="4" rx="1" fill="#546E7A"/>
+  <rect x="140" y="125" width="20" height="4" rx="1" fill="#546E7A"/>
+  
+  <!-- Checkmark on clipboard -->
+  <path d="M150 95l5 5 10-10" stroke="#FF9800" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Student figure -->
+  <g transform="translate(140, 140)">
+    <circle cx="20" cy="20" r="10" fill="#FFF176"/>
+    <path d="M10 35h20l-2 20h-16z" fill="#81C784"/>
+    <path d="M14 55h12v30h-12z" fill="#81C784"/>
+    <path d="M10 60l-10 10M30 60l10 10" stroke="#FFF176" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

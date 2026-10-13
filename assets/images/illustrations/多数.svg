@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 15)">
+    <!-- Central Group of People representing "majority" (多数 - people) -->
+    <!-- Background Crowd (The "Many" in blue/teal tones) -->
+    <!-- Person left back -->
+    <circle cx="70" cy="95" r="14" fill="#3B82F6" opacity="0.6"/>
+    <path d="M50 135 C50 118 60 115 70 115 C80 115 90 118 90 135 Z" fill="#3B82F6" opacity="0.6"/>
+
+    <!-- Person right back -->
+    <circle cx="170" cy="95" r="14" fill="#3B82F6" opacity="0.6"/>
+    <path d="M150 135 C150 118 160 115 170 115 C180 115 190 118 190 135 Z" fill="#3B82F6" opacity="0.6"/>
+
+    <!-- Person mid-left -->
+    <circle cx="95" cy="80" r="16" fill="#60A5FA" opacity="0.8"/>
+    <path d="M72 130 C72 108 83 105 95 105 C107 105 118 108 118 130 Z" fill="#60A5FA" opacity="0.8"/>
+
+    <!-- Person mid-right -->
+    <circle cx="145" cy="80" r="16" fill="#60A5FA" opacity="0.8"/>
+    <path d="M122 130 C122 108 133 105 145 105 C157 105 168 108 168 130 Z" fill="#60A5FA" opacity="0.8"/>
+
+    <!-- Foreground Central Hero Character (The focal point of the majority) -->
+    <!-- Body/Shoulders -->
+    <path d="M90 155 C90 130 105 125 120 125 C135 125 150 130 150 155 Z" fill="#F59E0B"/>
+    <!-- Head -->
+    <circle cx="120" cy="95" r="20" fill="#FBBF24"/>
+    
+    <!-- Agreement/Consensus element: Upward raised hands or subtle check indicator above the crowd -->
+    <!-- Central highlight ray / focus indicating consensus -->
+    <path d="M120 45 L125 60 L115 60 Z" fill="#F59E0B"/>
+    <circle cx="120" cy="40" r="3" fill="#F59E0B"/>
+  </g>
+</svg>

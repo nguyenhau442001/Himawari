@@ -1,0 +1,30 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle elements -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#262B36" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="120" cy="120" r="60" fill="none" stroke="#262B36" stroke-width="1.5"/>
+
+  <!-- Conceptual Representation of "责任感" (Sense of Responsibility/Duty - Human & Shield/Core Emblem) -->
+  <g transform="translate(0, 5)">
+    <!-- Shield / Core Base representing responsibility and standing firm -->
+    <path d="M120 45 C120 45, 155 55, 155 90 C155 125, 120 155, 120 155 C120 155, 85 125, 85 90 C85 55, 120 45, 120 45 Z" fill="#222836" stroke="#3A4454" stroke-width="3"/>
+    
+    <!-- Inner glowing focus accent -->
+    <path d="M120 56 C120 56, 145 64, 145 90 C145 118, 120 142, 120 142 C120 142, 95 118, 95 90 C95 64, 120 56, 120 56 Z" fill="#1E2430"/>
+
+    <!-- Person silhouette (standing strong/reliable - embodying "感" as an inner human state/character trait) -->
+    <!-- Shoulders & Body -->
+    <path d="M92 148 C92 130, 104 120, 120 120 C136 120, 148 130, 148 148 L148 160 L92 160 Z" fill="#F59E0B"/>
+    <!-- Head -->
+    <circle cx="120" cy="98" r="16" fill="#F59E0B"/>
+
+    <!-- Focus checkmark / solidity badge (Orange/Gold accent representing strong moral/sense attribute) -->
+    <circle cx="120" cy="90" r="32" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-dasharray="140" stroke-dashoffset="35"/>
+    
+    <!-- Supporting pillar / Base foundation -->
+    <rect x="100" y="166" width="40" height="8" rx="4" fill="#3A4454"/>
+    <rect x="85" y="178" width="70" height="6" rx="3" fill="#2A3241"/>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/circle for focus -->
+  <circle cx="120" cy="120" r="70" fill="#222733"/>
+
+  <!-- Father & Daughter Illustration -->
+  <g id="father-and-daughter">
+    <!-- Father (Left side, taller, warm orange/gold theme accent for focus) -->
+    <!-- Father Body / Torso -->
+    <path d="M70,185 C70,155 85,145 98,145 L110,145 C123,145 138,155 138,185 L138,205 L70,205 Z" fill="#2E6BFF"/>
+    
+    <!-- Father Collar/Shirt detail -->
+    <path d="M98,145 L104,162 L110,145 Z" fill="#E2E8F0"/>
+
+    <!-- Father Neck -->
+    <rect x="94" y="128" width="20" height="22" fill="#E5A97D"/>
+
+    <!-- Father Head -->
+    <circle cx="104" cy="108" r="22" fill="#E5A97D"/>
+    
+    <!-- Father Hair -->
+    <path d="M82,108 C82,92 92,86 104,86 C116,86 126,92 126,104 C126,108 125,110 125,110 C125,110 120,98 104,98 C88,98 83,108 82,108 Z" fill="#334155"/>
+
+    <!-- Father Glasses (Friendly modern look) -->
+    <rect x="93" y="100" width="10" height="7" rx="2" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="105" y="100" width="10" height="7" rx="2" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="103" y1="103" x2="105" y2="103" stroke="#F59E0B" stroke-width="2"/>
+
+    <!-- Father Smile -->
+    <path d="M99,118 Q104,122 109,118" fill="none" stroke="#9A3412" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Father Arm holding daughter's hand -->
+    <path d="M110,155 Q135,160 135,175" fill="none" stroke="#2E6BFF" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="135" cy="175" r="5" fill="#E5A97D"/>
+
+
+    <!-- Daughter (Right side, smaller, cheerful pose) -->
+    <!-- Daughter Body / Torso -->
+    <path d="M125,185 C125,165 135,155 145,155 L155,155 C165,155 175,165 175,185 L175,205 L125,205 Z" fill="#F59E0B"/>
+
+    <!-- Daughter Neck -->
+    <rect x="146" y="136" width="14" height="20" fill="#E5A97D"/>
+
+    <!-- Daughter Head -->
+    <circle cx="153" cy="118" r="18" fill="#E5A97D"/>
+
+    <!-- Daughter Hair (Pigtails) -->
+    <circle cx="153" cy="116" r="19" fill="#27272A"/>
+    <!-- Left Pigtail -->
+    <circle cx="134" cy="120" r="7" fill="#27272A"/>
+    <!-- Right Pigtail -->
+    <circle cx="172" cy="120" r="7" fill="#27272A"/>
+
+    <!-- Daughter Smile -->
+    <path d="M149,125 Q153,129 157,125" fill="none" stroke="#9A3412" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Daughter Arm holding father's hand -->
+    <path d="M145,165 Q135,170 135,175" fill="none" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="135" cy="175" r="4" fill="#E5A97D"/>
+    
+    <!-- Connection / Warmth indicator (Clean minimal golden sparkle between them, strictly NO hearts) -->
+    <g transform="translate(120, 135)">
+      <path d="M0,-8 L2,-2 L8,0 L2,2 L0,8 L-2,2 L-8,0 L-2,-2 Z" fill="#F59E0B" opacity="0.8"/>
+    </g>
+  </g>
+</svg>

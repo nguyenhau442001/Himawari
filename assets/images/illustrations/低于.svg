@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Horizontal Reference Line (Zero Point) -->
+  <line x1="40" y1="120" x2="200" y2="120" stroke="#4A5568" stroke-width="2" stroke-dasharray="6 4"/>
+  
+  <!-- The Subject (Thermometer-like representation of temperature) -->
+  <!-- Main body of the column -->
+  <rect x="105" y="60" width="30" height="120" rx="4" fill="#2D3748"/>
+  
+  <!-- The "Below" Level (The liquid/value) -->
+  <rect x="105" y="120" width="30" height="40" rx="0" fill="#F6AD55"/>
+  
+  <!-- The Bulb at the bottom -->
+  <circle cx="120" cy="160" r="15" fill="#F6AD55"/>
+  
+  <!-- Visual emphasis on the gap between the zero line and the value -->
+  <path d="M150 120 L150 160" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M145 125 L150 120 L155 125" stroke="#F6AD55" stroke-width="2" fill="none"/>
+  <path d="M145 155 L150 160 L155 155" stroke="#F6AD55" stroke-width="2" fill="none"/>
+  
+  <!-- Decorative elements to reinforce the "low" state -->
+  <circle cx="120" cy="160" r="5" fill="#1A1D24"/>
+</svg>

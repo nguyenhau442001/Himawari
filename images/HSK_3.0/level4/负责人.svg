@@ -1,0 +1,57 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Desk / Counter Surface -->
+    <path d="M 40 185 L 200 185 L 210 200 L 30 200 Z" fill="#2A303C"/>
+    <rect x="35" y="180" width="170" height="7" rx="3.5" fill="#3A4454"/>
+    
+    <!-- Character (Person in Charge / Professional Leader) -->
+    <!-- Torso & Suit -->
+    <path d="M 95 185 L 95 145 C 95 130 145 130 145 145 L 145 185 Z" fill="#243B55"/>
+    <!-- Shirt -->
+    <polygon points="120,145 110,165 130,165" fill="#FFFFFF"/>
+    <!-- Tie -->
+    <polygon points="120,150 117,175 120,185 123,175" fill="#F59E0B"/>
+    
+    <!-- Shoulders / Suit Lapels -->
+    <path d="M 95 145 L 80 185 L 100 185 Z" fill="#1E293B"/>
+    <path d="M 145 145 L 160 185 L 140 185 Z" fill="#1E293B"/>
+
+    <!-- Neck -->
+    <rect x="113" y="130" width="14" height="20" fill="#E2B896"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="105" r="22" fill="#E2B896"/>
+    
+    <!-- Hair -->
+    <path d="M 98 105 C 98 88 142 88 142 105 C 142 108 140 112 138 112 C 135 95 105 95 102 112 C 100 112 98 108 98 105 Z" fill="#334155"/>
+
+    <!-- Face details / Confident expression -->
+    <!-- Glasses -->
+    <rect x="107" y="98" width="11" height="8" rx="2" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+    <rect x="122" y="98" width="11" height="8" rx="2" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+    <line x1="118" y1="102" x2="122" y2="102" stroke="#F59E0B" stroke-width="1.5"/>
+    
+    <!-- Smile -->
+    <path d="M 113 116 Q 120 121 127 116" fill="none" stroke="#A16207" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Raising Hand / Pointing (Gesture of authority, taking charge, or welcoming) -->
+    <path d="M 145 155 Q 165 140 160 120 C 158 112 165 110 168 118 C 173 130 170 150 150 165 Z" fill="#E2B896"/>
+    <path d="M 152 121 C 156 115 163 115 166 120 C 168 124 163 128 158 127 Z" fill="#E2B896"/>
+
+    <!-- Name Badge / Authority Symbol (Golden shield/star on lapel) -->
+    <polygon points="135,153 140,158 135,163 130,158" fill="#F59E0B"/>
+    
+    <!-- Subtle Modern Desk Accessories -->
+    <!-- Laptop / Tablet showing management dashboard -->
+    <rect x="65" y="165" width="30" height="18" rx="2" fill="#475569"/>
+    <rect x="68" y="168" width="24" height="10" rx="1" fill="#0F172A"/>
+    <line x1="71" y1="171" x2="77" y2="171" stroke="#38BDF8" stroke-width="1.5"/>
+    <line x1="71" y1="174" x2="82" y2="174" stroke="#F59E0B" stroke-width="1.5"/>
+    
+    <!-- Coffee Mug -->
+    <rect x="155" y="167" width="12" height="15" rx="2" fill="#E2E8F0"/>
+    <path d="M 167 170 C 171 170 171 178 167 178" fill="none" stroke="#E2E8F0" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person reading -->
+  <g transform="translate(60, 60)">
+    <!-- Body -->
+    <path d="M40 120 C40 100, 80 100, 80 120 L80 150 L40 150 Z" fill="#4A5568"/>
+    <!-- Head -->
+    <circle cx="60" cy="80" r="25" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M40 80 C40 55, 80 55, 80 80 Z" fill="#2D3748"/>
+    
+    <!-- Book -->
+    <rect x="70" y="110" width="60" height="40" rx="4" fill="#F6AD55"/>
+    <path d="M70 115 L130 115 M70 125 L130 125 M70 135 L130 135" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Arms holding book -->
+    <path d="M50 120 L75 125" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative accent lines for focus -->
+  <path d="M160 100 L180 80" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 110 L190 90" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+</svg>

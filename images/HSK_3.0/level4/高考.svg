@@ -1,0 +1,57 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Exam Desk Base -->
+  <path d="M70 170 L170 170 L180 195 L60 195 Z" fill="#2D3748"/>
+  <rect x="65" y="165" width="110" height="8" rx="2" fill="#4A5568"/>
+
+  <!-- Test Paper / Exam Sheet -->
+  <g transform="translate(80, 85) rotate(-3)">
+    <!-- Paper background -->
+    <rect width="80" height="95" rx="3" fill="#F7FAFC"/>
+    <!-- Red Header / Seal -->
+    <rect x="15" y="10" width="50" height="6" rx="1.5" fill="#E53E3E" opacity="0.8"/>
+    <!-- Mock Text Lines -->
+    <rect x="15" y="24" width="35" height="3" rx="1" fill="#CBD5E0"/>
+    <rect x="15" y="33" width="50" height="3" rx="1" fill="#E2E8F0"/>
+    <rect x="15" y="42" width="45" height="3" rx="1" fill="#E2E8F0"/>
+    <rect x="15" y="51" width="50" height="3" rx="1" fill="#E2E8F0"/>
+    
+    <!-- Multiple Choice Bubbles -->
+    <g transform="translate(15, 62)">
+      <circle cx="5" cy="5" r="3" fill="none" stroke="#A0AEC0" stroke-width="1.5"/>
+      <circle cx="17" cy="5" r="3" fill="#3182CE"/>
+      <circle cx="29" cy="5" r="3" fill="none" stroke="#A0AEC0" stroke-width="1.5"/>
+      <circle cx="41" cy="5" r="3" fill="none" stroke="#A0AEC0" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(15, 76)">
+      <circle cx="5" cy="5" r="3" fill="none" stroke="#A0AEC0" stroke-width="1.5"/>
+      <circle cx="17" cy="5" r="3" fill="none" stroke="#A0AEC0" stroke-width="1.5"/>
+      <circle cx="29" cy="5" r="3" fill="#3182CE"/>
+      <circle cx="41" cy="5" r="3" fill="none" stroke="#A0AEC0" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Professional Examination Pen / Fountain Pen writing -->
+  <g transform="translate(130, 95) rotate(-35)">
+    <!-- Pen Body -->
+    <path d="M-4 -30 L4 -30 L6 15 L0 30 L-6 15 Z" fill="#D69E2E"/>
+    <!-- Pen Grip -->
+    <rect x="-5" y="-5" width="10" height="15" fill="#B7791F"/>
+    <!-- Gold Nib -->
+    <path d="M-4 30 L0 42 L4 30 Z" fill="#ECC94B"/>
+    <!-- Nib slit -->
+    <line x1="0" y1="32" x2="0" y2="39" stroke="#744210" stroke-width="1"/>
+  </g>
+
+  <!-- Academic Graduation Tassel / Honor Element -->
+  <path d="M 180 50 C 190 70, 190 90, 180 110" fill="none" stroke="#D69E2E" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+  
+  <!-- Focus accent / Glowing star or check mark badge subtly placed -->
+  <circle cx="175" cy="70" r="14" fill="#ED8936"/>
+  <path d="M168 70 L173 75 L183 63" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

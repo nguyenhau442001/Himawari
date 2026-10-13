@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Park Bench representing a public space -->
+  <g transform="translate(60, 120)">
+    <rect x="0" y="0" width="120" height="15" rx="2" fill="#FFB84D"/>
+    <rect x="5" y="15" width="110" height="10" rx="2" fill="#FFB84D"/>
+    <rect x="15" y="25" width="10" height="30" fill="#7D8590"/>
+    <rect x="95" y="25" width="10" height="30" fill="#7D8590"/>
+  </g>
+  
+  <!-- Street Lamp representing public infrastructure -->
+  <g transform="translate(180, 60)">
+    <rect x="-2" y="0" width="4" height="120" fill="#7D8590"/>
+    <rect x="-15" y="0" width="30" height="10" rx="2" fill="#FFB84D"/>
+    <circle cx="0" cy="15" r="12" fill="#FFB84D" opacity="0.3"/>
+    <circle cx="0" cy="15" r="6" fill="#FFF"/>
+  </g>
+  
+  <!-- Silhouettes of people representing the public -->
+  <g transform="translate(40, 180)">
+    <circle cx="20" cy="-30" r="10" fill="#A0A9B5"/>
+    <path d="M5,0 C5,-10 35,-10 35,0 L30,40 L10,40 Z" fill="#A0A9B5"/>
+  </g>
+  
+  <g transform="translate(80, 180)">
+    <circle cx="20" cy="-30" r="10" fill="#A0A9B5"/>
+    <path d="M5,0 C5,-10 35,-10 35,0 L30,40 L10,40 Z" fill="#A0A9B5"/>
+  </g>
+  
+  <g transform="translate(120, 180)">
+    <circle cx="20" cy="-30" r="10" fill="#A0A9B5"/>
+    <path d="M5,0 C5,-10 35,-10 35,0 L30,40 L10,40 Z" fill="#A0A9B5"/>
+  </g>
+</svg>

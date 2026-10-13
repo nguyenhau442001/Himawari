@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Apple -->
+  <circle cx="60" cy="120" r="22" fill="#FF5252"/>
+  <path d="M60 98 C 65 92, 70 92, 70 98" stroke="#8BC34A" stroke-width="3" fill="none"/>
+  <path d="M60 98 L 60 92" stroke="#8BC34A" stroke-width="3" fill="none"/>
+  
+  <!-- Banana -->
+  <path d="M100 110 C 100 135, 130 135, 130 110" stroke="#FFD740" stroke-width="12" stroke-linecap="round" fill="none"/>
+  
+  <!-- Grapes -->
+  <circle cx="160" cy="100" r="10" fill="#7E57C2"/>
+  <circle cx="175" cy="100" r="10" fill="#7E57C2"/>
+  <circle cx="167" cy="115" r="10" fill="#7E57C2"/>
+  <path d="M167 90 L 167 80" stroke="#8BC34A" stroke-width="2" fill="none"/>
+  
+  <!-- Orange -->
+  <circle cx="120" cy="170" r="20" fill="#FF9800"/>
+  <path d="M120 150 L 125 145" stroke="#8BC34A" stroke-width="3" fill="none"/>
+  
+  <!-- Pear -->
+  <path d="M180 160 C 180 185, 205 185, 205 160 C 205 140, 192 140, 192 150" fill="#C6FF00"/>
+  <path d="M192 140 L 192 132" stroke="#8BC34A" stroke-width="3" fill="none"/>
+  
+  <!-- Strawberry -->
+  <path d="M70 170 C 70 190, 90 190, 90 170 C 90 160, 80 155, 70 170" fill="#E91E63"/>
+  <path d="M70 160 L 75 155 M80 160 L 75 155" stroke="#8BC34A" stroke-width="3" fill="none"/>
+</svg>

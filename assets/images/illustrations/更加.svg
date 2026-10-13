@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background atmosphere: Rain streaks -->
+  <g stroke="#4A5568" stroke-width="1" stroke-linecap="round" opacity="0.3">
+    <line x1="40" y1="0" x2="40" y2="240"/>
+    <line x1="120" y1="0" x2="120" y2="240"/>
+    <line x1="200" y1="0" x2="200" y2="240"/>
+  </g>
+
+  <!-- Escalation Metaphor: A thermometer-like structure showing progression of cold -->
+  <!-- Base level: Blue rectangle -->
+  <rect x="95" y="180" width="50" height="30" rx="4" fill="#2C3E50"/>
+  
+  <!-- Escalation: Sharp, taller peak representing "gengjia" (further/more) -->
+  <path d="M80 180 L160 180 L140 80 L100 80 Z" fill="#3498DB"/>
+  
+  <!-- The "More" element: A sharp, icy crystalline spike extending from the top -->
+  <path d="M120 80 L135 40 L120 60 L105 40 Z" fill="#E0F7FA"/>
+  
+  <!-- Temperature drop indicator: Icicles hanging from the top -->
+  <path d="M90 80 L95 100 L100 80 Z" fill="#3498DB"/>
+  <path d="M140 80 L145 105 L150 80 Z" fill="#3498DB"/>
+  
+  <!-- Visualizing the "After rain" context: Subtle puddle reflection at the bottom -->
+  <ellipse cx="120" cy="215" rx="60" ry="10" fill="#2C3E50" opacity="0.5"/>
+</svg>

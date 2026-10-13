@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(40, 40)">
+    <!-- Sun rising on the right side of a stylized landscape -->
+    <path d="M120 160 C 140 160, 160 140, 160 120 C 160 100, 140 80, 120 80 L 120 160 Z" fill="#FFB347"/>
+    <circle cx="120" cy="120" r="25" fill="#FFD700"/>
+    
+    <!-- Stylized Eastern Coastline/Region -->
+    <path d="M20 160 L 120 160 L 120 80 C 100 80, 80 100, 80 120 L 20 120 Z" fill="#4A90E2"/>
+    
+    <!-- Compass needle pointing East -->
+    <path d="M180 120 L 150 110 L 150 130 Z" fill="#FFB347"/>
+    <circle cx="150" cy="120" r="5" fill="#FFB347"/>
+    
+    <!-- Decorative horizon line -->
+    <line x1="20" y1="160" x2="160" y2="160" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

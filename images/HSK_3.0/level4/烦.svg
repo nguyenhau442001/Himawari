@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person representing "烦" (bored/agitated/annoyed state) -->
+  <g transform="translate(120, 130)">
+    <!-- Shoulders/Body -->
+    <path d="M-50,80 C-50,40 -20,30 0,30 C20,30 50,40 50,80 L-50,80 Z" fill="#3B4252"/>
+    
+    <!-- Neck -->
+    <rect x="-10" y="10" width="20" height="20" fill="#E5E9F0"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="40" fill="#E5E9F0"/>
+    
+    <!-- Hair (messy/disheveled to show annoyance) -->
+    <path d="M-35,-35 C-40,-60 -10,-70 0,-70 C10,-70 40,-60 35,-35" fill="#4C566A"/>
+    
+    <!-- Eyes (closed/frowning) -->
+    <path d="M-20,-25 L-10,-20 M-20,-20 L-10,-25" stroke="#2E3440" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10,-25 L20,-20 M10,-20 L20,-25" stroke="#2E3440" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Mouth (frowning/agitated) -->
+    <path d="M-15,10 C-5,5 5,5 15,10" stroke="#2E3440" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- Hand on head (gesture of frustration) -->
+    <path d="M25,-30 L45,-10 C55,-5 60,10 50,15 L35,5" fill="#E5E9F0"/>
+    <path d="M45,-10 L55,-20" stroke="#E5E9F0" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Abstract "noise" lines representing the feeling of being bothered -->
+  <path d="M180,60 L200,40 M190,70 L210,50 M180,80 L200,60" stroke="#D08770" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60,60 L40,40 M50,70 L30,50 M60,80 L40,60" stroke="#D08770" stroke-width="3" stroke-linecap="round"/>
+</svg>

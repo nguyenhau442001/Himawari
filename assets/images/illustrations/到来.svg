@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground line -->
+  <path d="M40 190 L200 190" stroke="#3A3F4B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Motion lines indicating arrival/movement -->
+  <g stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" opacity="0.6">
+    <path d="M20 150 Q60 120 100 150"/>
+    <path d="M10 170 Q50 140 90 170"/>
+  </g>
+
+  <!-- Character representing the arrival -->
+  <g transform="translate(110, 120)">
+    <!-- Body -->
+    <path d="M20 70 L20 40 Q20 20 40 20 L50 20 Q70 20 70 40 L70 70" fill="#FFB84D"/>
+    <!-- Head -->
+    <circle cx="45" cy="15" r="15" fill="#FFB84D"/>
+    <!-- Legs -->
+    <path d="M30 70 L30 85 M60 70 L60 85" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    <!-- Arm reaching forward -->
+    <path d="M70 40 L95 55" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Destination/Goal marker (The New Year/Event) -->
+  <g transform="translate(160, 140)">
+    <path d="M0 0 L20 0 L15 40 L5 40 Z" fill="#4D94FF"/>
+    <circle cx="10" cy="-10" r="8" fill="#FFB84D"/>
+  </g>
+</svg>
