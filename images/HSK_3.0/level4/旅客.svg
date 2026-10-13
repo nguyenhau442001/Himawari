@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Suitcase -->
+  <path d="M85 110h70v65c0 5.5-4.5 10-10 10H95c-5.5 0-10-4.5-10-10V110z" fill="#FFB84D"/>
+  <rect x="105" y="95" width="30" height="15" rx="3" fill="#FFB84D"/>
+  <path d="M95 142h50M95 155h50" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Traveler Character (Upper body) -->
+  <circle cx="120" cy="75" r="20" fill="#E0E0E0"/>
+  <path d="M100 95h40l-5 35H105l-5-35z" fill="#4A90E2"/>
+  
+  <!-- Hat -->
+  <path d="M100 60h40l-5-10H105l-5 10z" fill="#FFB84D"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="120" cy="195" rx="50" ry="8" fill="#000" opacity="0.2"/>
+</svg>

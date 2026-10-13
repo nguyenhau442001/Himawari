@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle inner ambient glow representing "nèi" (interior) -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Outer Silhouette (representing the person/body context for "nèixīn") -->
+  <path d="M120 45C95 45 80 65 80 90C80 115 90 135 100 150C105 157 110 170 110 190H130C130 170 135 157 140 150C150 135 160 115 160 90C160 65 145 45 120 45Z" fill="#2D3342" opacity="0.4"/>
+
+  <!-- Core / Inner Self (Physical object representation: a glowing, radiant inner core/crystal heart-shape or stylized emotional center) -->
+  <g transform="translate(120, 108)">
+    <!-- Soft background aura -->
+    <circle cx="0" cy="0" r="32" fill="#FFB703" opacity="0.15"/>
+    <circle cx="0" cy="0" r="22" fill="#FFB703" opacity="0.25"/>
+
+    <!-- Inner center object (faceted crystal/core symbolizing "内心" - inner feelings/depths) -->
+    <path d="M0 -18C-12 -28 -28 -12 -16 4L0 20L16 4C28 -12 12 -28 0 -18Z" fill="#F77F00"/>
+    <path d="M0 -18C-8 -24 -18 -10 -10 2L0 16L0 -18Z" fill="#FCBF49"/>
+    <path d="M0 -18C8 -24 18 -10 10 2L0 16L0 -18Z" fill="#F77F00"/>
+    
+    <!-- Focus highlight -->
+    <path d="M0 -10C-4 -14 -10 -6 -6 1L0 8L0 -10Z" fill="#FFF" opacity="0.3"/>
+  </g>
+
+  <!-- Radiating inner sincerity/depth lines (subtle, non-abstract structural details) -->
+  <path d="M120 72V80" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M96 96H104" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M136 96H144" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Anchor point/Focus ring to highlight the physical center object -->
+  <circle cx="120" cy="108" r="42" fill="none" stroke="#FFB703" stroke-width="2" stroke-dasharray="6 6" opacity="0.4"/>
+</svg>

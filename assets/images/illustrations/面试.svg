@@ -1,0 +1,57 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background office elements (subtle) -->
+  <rect x="30" y="30" width="180" height="130" rx="8" fill="#222630" />
+  <path d="M70 160 L170 160 L180 185 L60 185 Z" fill="#2A2F3D" />
+
+  <!-- Interview desk -->
+  <rect x="50" y="130" width="140" height="12" rx="3" fill="#3B4252" />
+  <rect x="75" y="142" width="12" height="40" fill="#2E3440" />
+  <rect x="153" y="142" width="12" height="40" fill="#2E3440" />
+
+  <!-- Interviewer (Left side, professional) -->
+  <!-- Chair back -->
+  <rect x="38" y="70" width="22" height="70" rx="6" fill="#4C566A" />
+  <!-- Body/Suit -->
+  <path d="M35 125 C35 110 50 110 55 125 L55 150 L35 150 Z" fill="#5E81AC" />
+  <path d="M45 118 L55 125 L45 145 Z" fill="#ECEFF4" /> <!-- Shirt/tie -->
+  <!-- Head -->
+  <circle cx="45" cy="98" r="14" fill="#D8DEE9" />
+  <!-- Hair -->
+  <path d="M33 98 C33 88 57 88 57 98 C57 93 33 93 33 98 Z" fill="#434C5E" />
+  <!-- Gesture (Listening/Note taking) -->
+  <path d="M50 132 L65 138 L60 145 Z" fill="#D8DEE9" />
+
+  <!-- Candidate (Right side, facing interviewer) -->
+  <!-- Chair back -->
+  <rect x="180" y="70" width="22" height="70" rx="6" fill="#4C566A" />
+  <!-- Body/Suit -->
+  <path d="M185 125 C185 110 205 110 205 125 L205 150 L185 150 Z" fill="#88C0D0" />
+  <path d="M195 118 L185 125 L195 145 Z" fill="#ECEFF4" /> <!-- Shirt -->
+  <!-- Head -->
+  <circle cx="195" cy="98" r="14" fill="#E5E9F0" />
+  <!-- Hair -->
+  <path d="M183 95 C183 85 207 85 207 95 C207 90 183 90 183 95 Z" fill="#3B4252" />
+  <!-- Confident posture / hands on desk -->
+  <path d="M175 135 L190 135 L190 142 L175 142 Z" fill="#E5E9F0" />
+
+  <!-- Interview Props on Desk -->
+  <!-- Resume / Folder -->
+  <rect x="95" y="125" width="28" height="8" rx="1" fill="#ECEFF4" transform="rotate(-5 95 125)" />
+  <rect x="110" y="123" width="26" height="8" rx="1" fill="#D08770" transform="rotate(3 110 123)" />
+
+  <!-- Coffee mug -->
+  <rect x="62" y="122" width="10" height="10" rx="2" fill="#EBCB8B" />
+  <path d="M72 124 C75 124 75 128 72 128" stroke="#EBCB8B" stroke-width="2" fill="none" />
+
+  <!-- Focus/Accent Element representing face-to-face interaction (Interview concept) -->
+  <circle cx="120" cy="100" r="38" fill="none" stroke="#D08770" stroke-width="2.5" stroke-dasharray="6 6" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" from="0 120 100" to="360 120 100" dur="25s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Speech bubbles indicating dialogue/interview communication -->
+  <path d="M68 85 C68 78 78 78 78 85 C78 92 68 92 68 85 Z" fill="#88C0D0" opacity="0.8"/>
+  <path d="M162 85 C162 78 172 78 172 85 C172 92 162 92 162 85 Z" fill="#EBCB8B" opacity="0.8"/>
+</svg>

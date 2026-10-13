@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background elements: street and cafe building -->
+  <!-- Sidewalk -->
+  <path d="M0 170 L240 170 L240 210 L0 210 Z" fill="#222631"/>
+  <!-- Street -->
+  <path d="M0 210 L240 210 L240 240 L0 240 Z" fill="#14161C"/>
+  <!-- Street curb line -->
+  <line x1="0" y1="170" x2="240" y2="170" stroke="#323846" stroke-width="2"/>
+
+  <!-- Cafe storefront background on the right -->
+  <rect x="140" y="70" width="80" height="100" fill="#202530" rx="4"/>
+  <!-- Cafe awning (orange/gold accent) -->
+  <path d="M130 70 L230 70 L220 90 L140 90 Z" fill="#F39C12"/>
+  <path d="M130 70 L140 90 L150 70 L160 90 L170 70 L180 90 L190 70 L200 90 L210 70 L220 90" fill="#E67E22"/>
+  <!-- Cafe window -->
+  <rect x="155" y="105" width="50" height="65" fill="#2E3648" rx="2"/>
+  <!-- Coffee cup sign in window -->
+  <circle cx="180" cy="130" r="10" fill="#F39C12" opacity="0.8"/>
+
+  <!-- Motion lines indicating walking past -->
+  <path d="M50 145 C65 145, 75 145, 90 145" stroke="#3A4254" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M40 155 C55 155, 65 155, 80 155" stroke="#3A4254" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round"/>
+
+  <!-- Walking Character (Dynamic Action: passing by) -->
+  <g transform="translate(90, 95)">
+    <!-- Back leg (stepping forward) -->
+    <path d="M15 50 L8 72 L16 75" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Front leg -->
+    <path d="M15 50 L24 70 L30 67" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Torso (wearing high-contrast jacket) -->
+    <path d="M8 25 L22 25 L18 52 L10 52 Z" fill="#F39C12"/>
+    <!-- Backpack -->
+    <rect x="2" y="28" width="8" height="18" rx="3" fill="#3B82F6"/>
+    <!-- Back arm (swinging back) -->
+    <path d="M18 28 L10 42" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+    <!-- Front arm (swinging forward) -->
+    <path d="M10 28 L20 40" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+    <!-- Neck -->
+    <rect x="13" y="19" width="4" height="4" fill="#F1C27D"/>
+    <!-- Head -->
+    <circle cx="15" cy="13" r="6" fill="#F1C27D"/>
+    <!-- Hair -->
+    <path d="M9 13 C9 9, 13 8, 18 10 C20 11, 20 14, 18 15 C13 15, 10 14, 9 13 Z" fill="#334155"/>
+  </g>
+
+  <!-- Directional arrow subtly showing trajectory "passing by" -->
+  <path d="M60 185 L140 185" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 6"/>
+  <path d="M134 181 L142 185 L134 189" fill="none" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

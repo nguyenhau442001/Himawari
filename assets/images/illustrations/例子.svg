@@ -1,0 +1,65 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle decorative background glow representing educational focus -->
+  <circle cx="120" cy="115" r="70" fill="#2D3748" opacity="0.3"/>
+
+  <!-- Conceptual Object: Open Textbook / Notebook representing "Example" (Ví dụ / Lìzi) -->
+  <g transform="translate(0, 5)">
+    <!-- Book Back Shadow/Cover -->
+    <path d="M50 85 L120 70 L190 85 L190 160 L120 145 L50 160 Z" fill="#2b3b55"/>
+    
+    <!-- Left Page -->
+    <path d="M54 88 L116 75 L116 150 L54 162 Z" fill="#F7FAFC"/>
+    <!-- Right Page (The spotlight page showing an example) -->
+    <path d="M124 75 L186 88 L186 162 L124 150 Z" fill="#FFFFFF"/>
+    
+    <!-- Book binding crease -->
+    <line x1="120" y1="73" x2="120" y2="152" stroke="#CBD5E0" stroke-width="2"/>
+
+    <!-- Left page content (regular text lines) -->
+    <line x1="68" y1="102" x2="102" y2="97" stroke="#CBD5E0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="68" y1="116" x2="98" y2="111" stroke="#CBD5E0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="68" y1="130" x2="90" y2="125" stroke="#CBD5E0" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Right page content (Highlighted "Example" clause with high contrast gold/orange accent) -->
+    <!-- Highlight marker background band -->
+    <path d="M132 94 L178 90 L178 110 L132 114 Z" fill="#FEEBC8" opacity="0.8"/>
+    
+    <!-- Main highlighted text line (The core concept) -->
+    <line x1="138" y1="103" x2="174" y2="100" stroke="#DD6B20" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Standard text lines below the example -->
+    <line x1="138" y1="124" x2="172" y2="121" stroke="#CBD5E0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="138" y1="138" x2="160" y2="135" stroke="#CBD5E0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Magnifying Glass overlaying the example page (Focus / Demonstration concept) -->
+  <g transform="translate(135, 115)">
+    <!-- Glass Shadow -->
+    <circle cx="0" cy="0" r="32" fill="#1A1D24" opacity="0.4"/>
+    
+    <!-- Lens Outer Rim -->
+    <circle cx="0" cy="0" r="30" fill="#4A5568"/>
+    
+    <!-- Lens Inner Reflection/Background -->
+    <circle cx="0" cy="0" r="24" fill="#EDF2F7"/>
+    
+    <!-- Magnified Target Icon on the page (A clear star/core point representing a distinct case) -->
+    <path d="M0 -10 L3 -2 L11 -2 L5 3 L7 11 L0 7 L-7 11 L-5 3 L-11 -2 L-3 -2 Z" fill="#ED8936"/>
+
+    <!-- Glass Reflection Highlight -->
+    <path d="M-15 -12 A 18 18 0 0 1 5 -20 A 20 20 0 0 0 -15 -12 Z" fill="#FFFFFF" opacity="0.6"/>
+
+    <!-- Handle -->
+    <path d="M21 21 L42 42" stroke="#2D3748" stroke-width="9" stroke-linecap="round"/>
+    <path d="M21 21 L42 42" stroke="#4A5568" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Sparkles / Clarity Indicators -->
+  <g fill="#F6AD55">
+    <path d="M35 75 Q35 85 25 85 Q35 85 35 95 Q35 85 45 85 Q35 85 35 75 Z"/>
+    <path d="M200 130 Q200 137 193 137 Q200 137 200 144 Q200 137 207 137 Q200 137 200 130 Z" transform="scale(0.8) translate(60, 20)"/>
+  </g>
+</svg>

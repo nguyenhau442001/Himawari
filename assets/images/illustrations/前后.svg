@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Semantic Meaning: "前后" (around/approximate time span, before and after) visualized as a timeline/clock transition -->
+  <!-- Subtle ambient background elements representing temporal span -->
+  <g opacity="0.15" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 4" fill="none">
+    <circle cx="120" cy="115" r="75"/>
+  </g>
+
+  <!-- Central Clock / Temporal Object representing duration/period around an event -->
+  <!-- Clock Body -->
+  <circle cx="120" cy="115" r="54" fill="#252A34" stroke="#343B48" stroke-width="4"/>
+
+  <!-- Clock Face Inner -->
+  <circle cx="120" cy="115" r="44" fill="#1E232D"/>
+
+  <!-- Highlight arc representing "Around" (前後 span) -->
+  <path d="M 120 71 A 44 44 0 0 1 164 115" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 76 115 A 44 44 0 0 1 120 71" fill="none" stroke="#3B82F6" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Clock hands pointing to 'Before' and 'After' -->
+  <line x1="120" y1="115" x2="100" y2="95" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="115" x2="145" y2="115" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="115" r="5" fill="#FFFFFF"/>
+
+  <!-- Directional indicators / markers representing 'Before' (Left/Blue) and 'After' (Right/Gold) -->
+  <!-- 'Before' marker (Left) -->
+  <g transform="translate(45, 115)">
+    <circle cx="0" cy="0" r="14" fill="#1E232D" stroke="#3B82F6" stroke-width="3"/>
+    <path d="M 4 -3 L -2 0 L 4 3" fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 'After' marker (Right) -->
+  <g transform="translate(195, 115)">
+    <circle cx="0" cy="0" r="14" fill="#1E232D" stroke="#F59E0B" stroke-width="3"/>
+    <path d="M -4 -3 L 2 0 L -4 3" fill="none" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Central event anchor (lantern/festive node hinting at context like 春节) -->
+  <g transform="translate(120, 32)">
+    <path d="M -6 0 L 6 0 L 4 8 L -4 8 Z" fill="#F59E0B"/>
+    <circle cx="0" cy="16" r="10" fill="#EF4444" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="0" y1="6" x2="0" y2="10" stroke="#F59E0B" stroke-width="2"/>
+  </g>
+</svg>

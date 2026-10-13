@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing cooling temperature -->
+  <circle cx="120" cy="120" r="90" fill="#222B38" opacity="0.6"/>
+
+  <!-- Contextual setting: A modern dining table surface -->
+  <path d="M40 170 L200 170 L215 190 L25 190 Z" fill="#2B313D"/>
+  
+  <!-- Bowl representing "饭菜" (Rice/Food) -->
+  <path d="M80 135 C80 165 160 165 160 135 Z" fill="#E2E8F0"/>
+  <!-- Bowl rim / inner depth -->
+  <ellipse cx="120" cy="135" rx="40" ry="10" fill="#CBD5E1"/>
+  <!-- Rice heap inside -->
+  <ellipse cx="120" cy="133" rx="34" ry="7" fill="#F8FAFC"/>
+
+  <!-- Visualizing "凉" (Cold/Cool/Nguội): 
+       Using contrast/exaggeration rule for adjectives: 
+       Curved, gentle, rising steam wisps (fading/absent) contrasted with 
+       clear, distinct blue cooling wavelets/frost lines around the bowl. -->
+       
+  <!-- Faded, dissipating warm steam (showing it's NO longer hot) -->
+  <path d="M105 115 C100 105 110 95 105 85" stroke="#64748B" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.3"/>
+  <path d="M135 112 C140 102 130 92 135 82" stroke="#64748B" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.3"/>
+
+  <!-- Distinct cooling indicators (crisp blue stylized vapor/chill lines floating off the food) -->
+  <path d="M92 120 C85 110 95 100 90 90" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M148 118 C155 108 145 98 150 88" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M120 122 C118 112 122 102 120 92" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Frost / Cool temperature accent glow beneath the bowl -->
+  <ellipse cx="120" cy="172" rx="48" ry="6" fill="#38BDF8" opacity="0.2"/>
+
+  <!-- Chopsticks resting on the side -->
+  <rect x="145" y="150" width="70" height="3" rx="1.5" fill="#D97706" transform="rotate(-15 145 150)"/>
+  <rect x="150" y="158" width="70" height="3" rx="1.5" fill="#D97706" transform="rotate(-15 150 158)"/>
+
+</svg>

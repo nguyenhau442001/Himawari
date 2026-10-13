@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Wallet -->
+  <path d="M70 80h100a10 10 0 0 1 10 10v80a10 10 0 0 1-10 10H70a10 10 0 0 1-10-10V90a10 10 0 0 1 10-10z" fill="#3D4451"/>
+  <path d="M60 110h120v20H60z" fill="#2A2F3A"/>
+  
+  <!-- Banknotes sticking out -->
+  <rect x="80" y="60" width="80" height="40" rx="4" fill="#FFC107"/>
+  <rect x="85" y="65" width="70" height="30" rx="2" fill="#FFD54F"/>
+  <circle cx="120" cy="80" r="8" fill="#FFC107" stroke="#FFB300" stroke-width="2"/>
+  
+  <!-- Coins scattered -->
+  <circle cx="150" cy="160" r="12" fill="#FFC107"/>
+  <circle cx="150" cy="160" r="8" fill="#FFD54F"/>
+  
+  <circle cx="90" cy="170" r="10" fill="#FFC107"/>
+  <circle cx="90" cy="170" r="6" fill="#FFD54F"/>
+  
+  <circle cx="110" cy="180" r="8" fill="#FFC107"/>
+  <circle cx="110" cy="180" r="4" fill="#FFD54F"/>
+</svg>

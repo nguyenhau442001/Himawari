@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Map of Vietnam silhouette positioned to highlight the southern region -->
+  <path d="M100 60 L115 60 L125 80 L120 110 L135 130 L130 160 L145 180 L130 190 L115 170 L105 180 Z" fill="#3E4451"/>
+  
+  <!-- Southern region highlight -->
+  <path d="M130 160 L145 180 L130 190 L115 170 L120 165 Z" fill="#FFB84D"/>
+  
+  <!-- Compass needle pointing South -->
+  <g transform="translate(180, 180)">
+    <circle cx="0" cy="0" r="25" fill="#2A2F3A" stroke="#3E4451" stroke-width="2"/>
+    <path d="M0 -15 L5 0 L0 15 L-5 0 Z" fill="#3E4451"/>
+    <path d="M0 15 L-5 0 L0 -15 L5 0 Z" fill="#FFB84D"/>
+    <circle cx="0" cy="0" r="4" fill="#1A1D24"/>
+  </g>
+  
+  <!-- Sun icon representing the hot weather context of the South -->
+  <g transform="translate(60, 60)">
+    <circle cx="0" cy="0" r="12" fill="#FFB84D"/>
+    <line x1="0" y1="-20" x2="0" y2="-16" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="20" x2="0" y2="16" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-20" y1="0" x2="-16" y2="0" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="0" x2="16" y2="0" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

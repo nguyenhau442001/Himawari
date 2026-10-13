@@ -1,0 +1,32 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Base podium / grounding element representing stability and strength -->
+    <path d="M-50,60 L50,60 L40,80 L-40,80 Z" fill="#2D3748"/>
+    <ellipse cx="0" cy="60" rx="50" ry="8" fill="#4A5568"/>
+
+    <!-- Pillar / Column representing strong person / character (强 - physical/structural strength) -->
+    <!-- Column base -->
+    <rect x="-35" y="40" width="70" height="20" rx="2" fill="#E2E8F0"/>
+    <rect x="-30" y="20" width="60" height="20" fill="#CBD5E0"/>
+    
+    <!-- Main column body with strong architectural fluting -->
+    <rect x="-25" y="-30" width="50" height="50" fill="#EDF2F7"/>
+    <path d="M-15,-30 L-15,20 M-5,-30 L-5,20 M5,-30 L5,20 M15,-30 L15,20" stroke="#CBD5E0" stroke-width="2"/>
+    
+    <!-- Column capital -->
+    <rect x="-30" y="-50" width="60" height="20" fill="#CBD5E0"/>
+    <rect x="-35" y="-60" width="70" height="10" rx="2" fill="#E2E8F0"/>
+
+    <!-- Golden accent crown / shield emblem denoting "qiáng" (excellence, capability, strength) -->
+    <path d="M0,-85 L22,-65 L0,-45 L-22,-65 Z" fill="#F6AD55"/>
+    <path d="M0,-77 L14,-65 L0,-53 L-14,-65 Z" fill="#DD6B20"/>
+
+    <!-- Subtle energy / strength aura beams -->
+    <path d="M-55,-20 L-70,-25" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-55,5 L-75,10" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55,-20 L70,-25" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55,5 L75,10" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

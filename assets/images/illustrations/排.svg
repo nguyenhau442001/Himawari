@@ -1,0 +1,62 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle floor line for grounding the figures -->
+  <line x1="40" y1="180" x2="200" y2="180" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Person 4 (Back of the queue) -->
+  <g transform="translate(45, 0)">
+    <!-- Body/Outfit -->
+    <path d="M25 140 L35 180 L15 180 Z" fill="#3B4252"/>
+    <circle cx="25" cy="115" r="12" fill="#E5E9F0"/>
+    <path d="M15 130 C15 122 35 122 35 130 Z" fill="#81A1C1"/>
+    <!-- Head -->
+    <circle cx="25" cy="95" r="10" fill="#D8DEE9"/>
+    <!-- Hair -->
+    <path d="M15 93 C15 85 35 85 35 93 C32 90 18 90 15 93 Z" fill="#4C566A"/>
+  </g>
+
+  <!-- Person 3 -->
+  <g transform="translate(80, 0)">
+    <!-- Body/Outfit -->
+    <path d="M25 135 L35 180 L15 180 Z" fill="#434C5E"/>
+    <circle cx="25" cy="110" r="12" fill="#E5E9F0"/>
+    <path d="M15 125 C15 117 35 117 35 125 Z" fill="#88C0D0"/>
+    <!-- Head -->
+    <circle cx="25" cy="90" r="10" fill="#D8DEE9"/>
+    <!-- Hair -->
+    <path d="M15 88 C15 80 35 80 35 88 C32 85 18 85 15 88 Z" fill="#3B4252"/>
+  </g>
+
+  <!-- Person 2 -->
+  <g transform="translate(115, 0)">
+    <!-- Body/Outfit -->
+    <path d="M25 130 L35 180 L15 180 Z" fill="#4C566A"/>
+    <circle cx="25" cy="105" r="12" fill="#E5E9F0"/>
+    <path d="M15 120 C15 112 35 112 35 120 Z" fill="#81A1C1"/>
+    <!-- Head -->
+    <circle cx="25" cy="85" r="10" fill="#D8DEE9"/>
+    <!-- Hair -->
+    <path d="M15 83 C15 75 35 75 35 83 Z" fill="#2E3440"/>
+  </g>
+
+  <!-- Person 1 (Front of the queue, focal point with accent color) -->
+  <g transform="translate(150, 0)">
+    <!-- Body/Outfit -->
+    <path d="M25 125 L36 180 L14 180 Z" fill="#D08770"/>
+    <circle cx="25" cy="100" r="12" fill="#E5E9F0"/>
+    <path d="M13 115 C13 107 37 107 37 115 Z" fill="#EBCB8B"/>
+    <!-- Head -->
+    <circle cx="25" cy="80" r="10" fill="#D8DEE9"/>
+    <!-- Hair -->
+    <path d="M15 78 C15 70 35 70 35 78 Z" fill="#3B4252"/>
+    <!-- Forward pointing hand gesture indicating waiting in line -->
+    <circle cx="38" cy="120" r="3" fill="#D8DEE9"/>
+  </g>
+
+  <!-- Queue indicator markers (order/line visual cues) -->
+  <path d="M48 190 L182 190" stroke="#EBCB8B" stroke-width="3" stroke-dasharray="6,6" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Arrow indicating direction of the queue -->
+  <polygon points="190,190 182,185 182,195" fill="#EBCB8B"/>
+</svg>

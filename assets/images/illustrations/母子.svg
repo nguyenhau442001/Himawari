@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Mother figure -->
+    <path d="M60 120 C60 90 75 70 90 70 C105 70 120 90 120 120 L120 180 L60 180 Z" fill="#FFB84D"/>
+    <circle cx="90" cy="55" r="20" fill="#FFD699"/>
+    <path d="M82 50 Q85 45 88 50 M92 50 Q95 45 98 50" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M85 60 Q90 65 95 60" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    
+    <!-- Child figure -->
+    <path d="M20 140 C20 125 30 115 40 115 C50 115 60 125 60 140 L60 180 L20 180 Z" fill="#4DA6FF"/>
+    <circle cx="40" cy="105" r="15" fill="#99CCFF"/>
+    <path d="M35 100 Q37 97 39 100 M41 100 Q43 97 45 100" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M35 108 Q40 112 45 108" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    
+    <!-- Interaction: Mother's hand on child's shoulder -->
+    <path d="M60 125 L75 130 L70 140 L55 135 Z" fill="#FFD699"/>
+  </g>
+</svg>

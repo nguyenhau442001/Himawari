@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 60)">
+    <!-- Plate -->
+    <ellipse cx="80" cy="100" rx="70" ry="20" fill="#3D4451"/>
+    <ellipse cx="80" cy="95" rx="65" ry="18" fill="#2A2F3A"/>
+    
+    <!-- Dumpling 1 -->
+    <path d="M40 85 C 40 50, 70 40, 80 40 C 90 40, 120 50, 120 85 Z" fill="#F4F4F4"/>
+    <path d="M55 45 L 60 35 L 65 45 Z" fill="#E0E0E0"/>
+    <path d="M75 42 L 80 32 L 85 42 Z" fill="#E0E0E0"/>
+    <path d="M95 45 L 100 35 L 105 45 Z" fill="#E0E0E0"/>
+    
+    <!-- Dumpling 2 -->
+    <path d="M80 85 C 80 50, 110 40, 120 40 C 130 40, 160 50, 160 85 Z" fill="#FFB347"/>
+    <path d="M95 45 L 100 35 L 105 45 Z" fill="#E69138"/>
+    <path d="M115 42 L 120 32 L 125 42 Z" fill="#E69138"/>
+    <path d="M135 45 L 140 35 L 145 45 Z" fill="#E69138"/>
+    
+    <!-- Chopsticks -->
+    <rect x="10" y="120" width="140" height="6" rx="3" fill="#D4AF37" transform="rotate(-15 80 120)"/>
+    <rect x="10" y="135" width="140" height="6" rx="3" fill="#FFD700" transform="rotate(-10 80 135)"/>
+  </g>
+</svg>

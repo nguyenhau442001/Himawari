@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle grid / atmosphere -->
+  <g opacity="0.15">
+    <circle cx="120" cy="120" r="85" fill="none" stroke="#60A5FA" stroke-width="1" stroke-dasharray="4 4"/>
+    <circle cx="120" cy="120" r="60" fill="none" stroke="#60A5FA" stroke-width="1"/>
+  </g>
+
+  <!-- Semantic Illustration for "巧" (Coincidence / Meeting unexpectedly) -->
+  <!-- Two stylized figures meeting face-to-face unexpectedly with surprise gesture (hands near face) -->
+  
+  <g transform="translate(0, 5)">
+    <!-- Person Left -->
+    <g transform="translate(75, 120)">
+      <!-- Body / Torso -->
+      <path d="M-25,50 C-25,30 -15,20 0,20 C15,20 25,30 25,50 Z" fill="#38BDF8"/>
+      <!-- Head -->
+      <circle cx="0" cy="-5" r="16" fill="#FBBF24"/>
+      <!-- Hair -->
+      <path d="M-15,-10 C-15,-20 15,-20 15,-10 C10,-14 -10,-14 -15,-10 Z" fill="#1E293B"/>
+      <!-- Arm gesturing surprise (hand near mouth) -->
+      <path d="M-15,30 C-25,25 -20,5 -10,0" fill="none" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="-10" cy="0" r="5" fill="#FBBF24"/>
+    </g>
+
+    <!-- Person Right -->
+    <g transform="translate(165, 120)" transform-matrix="-1 0 0 1 240 0">
+      <!-- Body / Torso -->
+      <path d="M-25,50 C-25,30 -15,20 0,20 C15,20 25,30 25,50 Z" fill="#FB7185"/>
+      <!-- Head -->
+      <circle cx="0" cy="-5" r="16" fill="#FBBF24"/>
+      <!-- Hair -->
+      <path d="M-16,-8 C-10,-22 10,-22 16,-8 C10,-15 -10,-15 -16,-8 Z" fill="#1E293B"/>
+      <!-- Arm gesturing surprise -->
+      <path d="M-15,30 C-25,25 -20,5 -10,0" fill="none" stroke="#FB7185" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="-10" cy="0" r="5" fill="#FBBF24"/>
+    </g>
+
+    <!-- Spark / Coincidence Indicator (Golden accent between them) -->
+    <g transform="translate(120, 85)">
+      <path d="M0,-12 L3,-3 L12,0 L3,3 L0,12 L-3,3 L-12,0 L-3,-3 Z" fill="#F59E0B"/>
+      <circle cx="12" cy="-12" r="2" fill="#FBBF24" opacity="0.8"/>
+      <circle cx="-12" cy="10" r="1.5" fill="#FBBF24" opacity="0.8"/>
+    </g>
+
+    <!-- Ground shadow -->
+    <ellipse cx="120" cy="175" rx="55" ry="6" fill="#0F172A" opacity="0.6"/>
+  </g>
+</svg>

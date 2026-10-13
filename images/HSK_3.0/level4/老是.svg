@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Escalation/Repetition (The "Always" pattern) -->
+  <!-- A series of identical doors representing the repeated action of forgetting keys -->
+  
+  <!-- Door 1 -->
+  <rect x="30" y="140" width="40" height="70" rx="4" fill="#374151"/>
+  <circle cx="60" cy="175" r="3" fill="#F59E0B"/>
+  
+  <!-- Door 2 -->
+  <rect x="100" y="110" width="40" height="70" rx="4" fill="#374151"/>
+  <circle cx="130" cy="145" r="3" fill="#F59E0B"/>
+  
+  <!-- Door 3 (The final, exaggerated state) -->
+  <rect x="170" y="80" width="40" height="70" rx="4" fill="#374151"/>
+  <circle cx="200" cy="115" r="3" fill="#F59E0B"/>
+  
+  <!-- The "Forgot" element: A key falling, repeated in a trajectory -->
+  <path d="M50 130 L50 110 M45 110 L55 110 M50 110 L50 100" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 100 L120 80 M115 80 L125 80 M120 80 L120 70" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+  <path d="M190 70 L190 50 M185 50 L195 50 M190 50 L190 40" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Escalation Line -->
+  <path d="M40 215 L200 150" stroke="#4B5563" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T14:24:12.941352",
-  "total_unique_words_with_illustrations": 5622,
-  "total_flat_svg_files": 5622,
+  "generated_at": "2026-10-13T14:25:51.684847",
+  "total_unique_words_with_illustrations": 5672,
+  "total_flat_svg_files": 5672,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -53,8 +53,8 @@
       },
       "level4": {
         "total": 1000,
-        "with_svg": 767,
-        "pct": "76.7%"
+        "with_svg": 817,
+        "pct": "81.7%"
       },
       "level5": {
         "total": 1600,
@@ -63,8 +63,8 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 821,
-        "pct": "45.6%"
+        "with_svg": 822,
+        "pct": "45.7%"
       },
       "level7": {
         "total": 5600,
@@ -93889,6 +93889,20 @@
       "src": "images/HSK_3.0/level4/咳.svg",
       "alt_srcs": []
     },
+    "客气": {
+      "hanzi": "客气",
+      "pinyin": "kèqi",
+      "meaning": "khách sáo, lịch sự",
+      "example_zh": "别<u>客气</u>，就像在自己家一样。",
+      "example_vi": "Đừng <u>khách sáo</u>, cứ như ở nhà mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "客气.svg",
+      "src": "images/HSK_3.0/level4/客气.svg",
+      "alt_srcs": []
+    },
     "课堂": {
       "hanzi": "课堂",
       "pinyin": "kètáng",
@@ -93901,6 +93915,90 @@
       ],
       "file": "课堂.svg",
       "src": "images/HSK_3.0/level4/课堂.svg",
+      "alt_srcs": []
+    },
+    "口语": {
+      "hanzi": "口语",
+      "pinyin": "kǒuyǔ",
+      "meaning": "khẩu ngữ, nói",
+      "example_zh": "我的汉语<u>口语</u>还不太好。",
+      "example_vi": "<u>Khẩu ngữ</u> tiếng Trung của tôi vẫn chưa tốt lắm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "口语.svg",
+      "src": "images/HSK_3.0/level4/口语.svg",
+      "alt_srcs": []
+    },
+    "快餐": {
+      "hanzi": "快餐",
+      "pinyin": "kuàicān",
+      "meaning": "đồ ăn nhanh",
+      "example_zh": "<u>快餐</u>方便，但是不太健康。",
+      "example_vi": "<u>Đồ ăn nhanh</u> tiện lợi nhưng không tốt cho sức khỏe lắm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "快餐.svg",
+      "src": "images/HSK_3.0/level4/快餐.svg",
+      "alt_srcs": []
+    },
+    "快递": {
+      "hanzi": "快递",
+      "pinyin": "kuàidì",
+      "meaning": "chuyển phát nhanh; bưu kiện",
+      "example_zh": "我的<u>快递</u>到了。",
+      "example_vi": "<u>Bưu kiện</u> của tôi đến rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "快递.svg",
+      "src": "images/HSK_3.0/level4/快递.svg",
+      "alt_srcs": []
+    },
+    "老是": {
+      "hanzi": "老是",
+      "pinyin": "lǎoshì",
+      "meaning": "luôn luôn, cứ (thường mang ý phàn nàn)",
+      "example_zh": "他<u>老是</u>忘带钥匙。",
+      "example_vi": "Anh ấy <u>cứ</u> quên mang chìa khóa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "老是.svg",
+      "src": "images/HSK_3.0/level4/老是.svg",
+      "alt_srcs": []
+    },
+    "例子": {
+      "hanzi": "例子",
+      "pinyin": "lìzi",
+      "meaning": "ví dụ",
+      "example_zh": "老师给我们举了一个<u>例子</u>。",
+      "example_vi": "Thầy giáo đưa cho chúng tôi một <u>ví dụ</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "例子.svg",
+      "src": "images/HSK_3.0/level4/例子.svg",
+      "alt_srcs": []
+    },
+    "凉": {
+      "hanzi": "凉",
+      "pinyin": "liáng",
+      "meaning": "mát, lạnh, nguội",
+      "example_zh": "饭菜都<u>凉</u>了，快吃吧。",
+      "example_vi": "Cơm canh <u>nguội</u> cả rồi, ăn mau đi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "凉.svg",
+      "src": "images/HSK_3.0/level4/凉.svg",
       "alt_srcs": []
     },
     "量": {
@@ -93919,6 +94017,611 @@
       "alt_srcs": [
         "images/HSK_3.0/level5/量.svg"
       ]
+    },
+    "两²": {
+      "hanzi": "两²",
+      "pinyin": "liǎng",
+      "meaning": "hai (số lượng)",
+      "example_zh": "我有<u>两</u>本书。",
+      "example_vi": "Tôi có <u>hai</u> cuốn sách.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "两².svg",
+      "src": "images/HSK_3.0/level4/两².svg",
+      "alt_srcs": []
+    },
+    "列": {
+      "hanzi": "列",
+      "pinyin": "liè",
+      "meaning": "xếp hàng, liệt kê; đoàn (tàu)",
+      "example_zh": "一<u>列</u>火车开过来了。",
+      "example_vi": "Một <u>đoàn</u> tàu đang chạy tới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "列.svg",
+      "src": "images/HSK_3.0/level4/列.svg",
+      "alt_srcs": []
+    },
+    "零下": {
+      "hanzi": "零下",
+      "pinyin": "líng xià",
+      "meaning": "dưới không độ, âm",
+      "example_zh": "今天气温<u>零下</u>五度。",
+      "example_vi": "Hôm nay nhiệt độ <u>âm</u> năm độ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "零下.svg",
+      "src": "images/HSK_3.0/level4/零下.svg",
+      "alt_srcs": []
+    },
+    "零花钱": {
+      "hanzi": "零花钱",
+      "pinyin": "línghuāqián",
+      "meaning": "tiền tiêu vặt",
+      "example_zh": "妈妈每个星期给我五十块<u>零花钱</u>。",
+      "example_vi": "Mỗi tuần mẹ cho tôi năm mươi tệ <u>tiền tiêu vặt</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "零花钱.svg",
+      "src": "images/HSK_3.0/level4/零花钱.svg",
+      "alt_srcs": []
+    },
+    "另": {
+      "hanzi": "另",
+      "pinyin": "lìng",
+      "meaning": "khác; ngoài ra",
+      "example_zh": "我们<u>另</u>找时间再谈吧。",
+      "example_vi": "Chúng ta tìm thời gian <u>khác</u> rồi bàn tiếp nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "另.svg",
+      "src": "images/HSK_3.0/level4/另.svg",
+      "alt_srcs": []
+    },
+    "流": {
+      "hanzi": "流",
+      "pinyin": "liú",
+      "meaning": "chảy",
+      "example_zh": "她感动得<u>流</u>下了眼泪。",
+      "example_vi": "Cô ấy cảm động đến <u>rơi</u> nước mắt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "流.svg",
+      "src": "images/HSK_3.0/level4/流.svg",
+      "alt_srcs": []
+    },
+    "留下": {
+      "hanzi": "留下",
+      "pinyin": "liúxia",
+      "meaning": "để lại; ở lại",
+      "example_zh": "这次旅行给我<u>留下</u>了很深的印象。",
+      "example_vi": "Chuyến đi này đã <u>để lại</u> cho tôi ấn tượng rất sâu sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "留下.svg",
+      "src": "images/HSK_3.0/level4/留下.svg",
+      "alt_srcs": []
+    },
+    "路过": {
+      "hanzi": "路过",
+      "pinyin": "lùguò",
+      "meaning": "đi ngang qua",
+      "example_zh": "我每天上班都<u>路过</u>这家咖啡店。",
+      "example_vi": "Ngày nào đi làm tôi cũng <u>đi ngang qua</u> quán cà phê này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "路过.svg",
+      "src": "images/HSK_3.0/level4/路过.svg",
+      "alt_srcs": []
+    },
+    "旅馆": {
+      "hanzi": "旅馆",
+      "pinyin": "lǚguǎn",
+      "meaning": "nhà nghỉ, khách sạn nhỏ",
+      "example_zh": "我们在一家小<u>旅馆</u>住了一晚。",
+      "example_vi": "Chúng tôi ở một đêm tại một <u>nhà nghỉ</u> nhỏ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "旅馆.svg",
+      "src": "images/HSK_3.0/level4/旅馆.svg",
+      "alt_srcs": []
+    },
+    "旅客": {
+      "hanzi": "旅客",
+      "pinyin": "lǚkè",
+      "meaning": "hành khách, lữ khách",
+      "example_zh": "火车站里有很多<u>旅客</u>。",
+      "example_vi": "Trong ga tàu có rất nhiều <u>hành khách</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "旅客.svg",
+      "src": "images/HSK_3.0/level4/旅客.svg",
+      "alt_srcs": []
+    },
+    "落": {
+      "hanzi": "落",
+      "pinyin": "luò",
+      "meaning": "rơi, rụng; lặn",
+      "example_zh": "秋天到了，树叶都<u>落</u>了。",
+      "example_vi": "Mùa thu đến rồi, lá cây đều <u>rụng</u> cả.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4",
+        "level6"
+      ],
+      "file": "落.svg",
+      "src": "images/HSK_3.0/level4/落.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/落.svg"
+      ]
+    },
+    "毛衣": {
+      "hanzi": "毛衣",
+      "pinyin": "máoyī",
+      "meaning": "áo len",
+      "example_zh": "天冷了，我穿了一件<u>毛衣</u>。",
+      "example_vi": "Trời lạnh rồi, tôi mặc một chiếc <u>áo len</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "毛衣.svg",
+      "src": "images/HSK_3.0/level4/毛衣.svg",
+      "alt_srcs": []
+    },
+    "美": {
+      "hanzi": "美",
+      "pinyin": "měi",
+      "meaning": "đẹp",
+      "example_zh": "这里的风景真<u>美</u>。",
+      "example_vi": "Phong cảnh ở đây thật <u>đẹp</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "美.svg",
+      "src": "images/HSK_3.0/level4/美.svg",
+      "alt_srcs": []
+    },
+    "美好": {
+      "hanzi": "美好",
+      "pinyin": "měihǎo",
+      "meaning": "tốt đẹp",
+      "example_zh": "祝你有一个<u>美好</u>的未来。",
+      "example_vi": "Chúc bạn có một tương lai <u>tốt đẹp</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "美好.svg",
+      "src": "images/HSK_3.0/level4/美好.svg",
+      "alt_srcs": []
+    },
+    "美景": {
+      "hanzi": "美景",
+      "pinyin": "měijǐng",
+      "meaning": "cảnh đẹp",
+      "example_zh": "山上的<u>美景</u>让人难忘。",
+      "example_vi": "<u>Cảnh đẹp</u> trên núi khiến người ta khó quên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "美景.svg",
+      "src": "images/HSK_3.0/level4/美景.svg",
+      "alt_srcs": []
+    },
+    "美食": {
+      "hanzi": "美食",
+      "pinyin": "měishí",
+      "meaning": "món ngon, ẩm thực",
+      "example_zh": "这条街上有很多<u>美食</u>。",
+      "example_vi": "Trên con phố này có rất nhiều <u>món ngon</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "美食.svg",
+      "src": "images/HSK_3.0/level4/美食.svg",
+      "alt_srcs": []
+    },
+    "面试": {
+      "hanzi": "面试",
+      "pinyin": "miànshì",
+      "meaning": "phỏng vấn",
+      "example_zh": "明天我要去一家公司<u>面试</u>。",
+      "example_vi": "Ngày mai tôi phải đến một công ty <u>phỏng vấn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "面试.svg",
+      "src": "images/HSK_3.0/level4/面试.svg",
+      "alt_srcs": []
+    },
+    "末": {
+      "hanzi": "末",
+      "pinyin": "mò",
+      "meaning": "cuối",
+      "example_zh": "这个月<u>末</u>我要去出差。",
+      "example_vi": "<u>Cuối</u> tháng này tôi phải đi công tác.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "末.svg",
+      "src": "images/HSK_3.0/level4/末.svg",
+      "alt_srcs": []
+    },
+    "母女": {
+      "hanzi": "母女",
+      "pinyin": "mǔnǚ",
+      "meaning": "mẹ con (mẹ và con gái)",
+      "example_zh": "她们<u>母女</u>俩一起去买东西了。",
+      "example_vi": "Hai <u>mẹ con</u> cô ấy cùng đi mua đồ rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "母女.svg",
+      "src": "images/HSK_3.0/level4/母女.svg",
+      "alt_srcs": []
+    },
+    "母子": {
+      "hanzi": "母子",
+      "pinyin": "mǔzǐ",
+      "meaning": "mẹ con (mẹ và con trai)",
+      "example_zh": "这对<u>母子</u>感情很好。",
+      "example_vi": "Hai <u>mẹ con</u> này tình cảm rất tốt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "母子.svg",
+      "src": "images/HSK_3.0/level4/母子.svg",
+      "alt_srcs": []
+    },
+    "目的地": {
+      "hanzi": "目的地",
+      "pinyin": "mùdìdì",
+      "meaning": "điểm đến, nơi đến",
+      "example_zh": "我们终于到达了<u>目的地</u>。",
+      "example_vi": "Cuối cùng chúng tôi cũng đến được <u>điểm đến</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "目的地.svg",
+      "src": "images/HSK_3.0/level4/目的地.svg",
+      "alt_srcs": []
+    },
+    "南部": {
+      "hanzi": "南部",
+      "pinyin": "nánbù",
+      "meaning": "phía nam, miền nam",
+      "example_zh": "越南<u>南部</u>的天气一年四季都很热。",
+      "example_vi": "Thời tiết <u>miền nam</u> Việt Nam quanh năm đều nóng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "南部.svg",
+      "src": "images/HSK_3.0/level4/南部.svg",
+      "alt_srcs": []
+    },
+    "男士": {
+      "hanzi": "男士",
+      "pinyin": "nánshì",
+      "meaning": "quý ông, nam giới",
+      "example_zh": "这是<u>男士</u>用的香水。",
+      "example_vi": "Đây là nước hoa dành cho <u>nam giới</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "男士.svg",
+      "src": "images/HSK_3.0/level4/男士.svg",
+      "alt_srcs": []
+    },
+    "难忘": {
+      "hanzi": "难忘",
+      "pinyin": "nánwàng",
+      "meaning": "khó quên",
+      "example_zh": "那是我最<u>难忘</u>的一天。",
+      "example_vi": "Đó là ngày <u>khó quên</u> nhất của tôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "难忘.svg",
+      "src": "images/HSK_3.0/level4/难忘.svg",
+      "alt_srcs": []
+    },
+    "男性": {
+      "hanzi": "男性",
+      "pinyin": "nánxìng",
+      "meaning": "nam giới, giới nam",
+      "example_zh": "这个工作需要一名<u>男性</u>。",
+      "example_vi": "Công việc này cần một người <u>nam</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "男性.svg",
+      "src": "images/HSK_3.0/level4/男性.svg",
+      "alt_srcs": []
+    },
+    "内心": {
+      "hanzi": "内心",
+      "pinyin": "nèixīn",
+      "meaning": "nội tâm, trong lòng",
+      "example_zh": "我<u>内心</u>非常感谢你。",
+      "example_vi": "<u>Trong lòng</u> tôi vô cùng cảm ơn bạn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "内心.svg",
+      "src": "images/HSK_3.0/level4/内心.svg",
+      "alt_srcs": []
+    },
+    "能否": {
+      "hanzi": "能否",
+      "pinyin": "néng fǒu",
+      "meaning": "có thể hay không",
+      "example_zh": "不知道你<u>能否</u>帮我一个忙？",
+      "example_vi": "Không biết bạn <u>có thể</u> giúp tôi một việc <u>không</u>?",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "能否.svg",
+      "src": "images/HSK_3.0/level4/能否.svg",
+      "alt_srcs": []
+    },
+    "能够": {
+      "hanzi": "能够",
+      "pinyin": "nénggòu",
+      "meaning": "có thể",
+      "example_zh": "我相信你<u>能够</u>成功。",
+      "example_vi": "Tôi tin bạn <u>có thể</u> thành công.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "能够.svg",
+      "src": "images/HSK_3.0/level4/能够.svg",
+      "alt_srcs": []
+    },
+    "年底": {
+      "hanzi": "年底",
+      "pinyin": "niándǐ",
+      "meaning": "cuối năm",
+      "example_zh": "<u>年底</u>公司特别忙。",
+      "example_vi": "<u>Cuối năm</u> công ty đặc biệt bận.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "年底.svg",
+      "src": "images/HSK_3.0/level4/年底.svg",
+      "alt_srcs": []
+    },
+    "女性": {
+      "hanzi": "女性",
+      "pinyin": "nǚxìng",
+      "meaning": "nữ giới, phụ nữ",
+      "example_zh": "越来越多的<u>女性</u>开始自己创业。",
+      "example_vi": "Ngày càng nhiều <u>phụ nữ</u> bắt đầu tự khởi nghiệp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "女性.svg",
+      "src": "images/HSK_3.0/level4/女性.svg",
+      "alt_srcs": []
+    },
+    "排": {
+      "hanzi": "排",
+      "pinyin": "pái",
+      "meaning": "xếp (hàng); hàng",
+      "example_zh": "我们<u>排</u>了半个小时的队。",
+      "example_vi": "Chúng tôi đã <u>xếp</u> hàng nửa tiếng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "排.svg",
+      "src": "images/HSK_3.0/level4/排.svg",
+      "alt_srcs": []
+    },
+    "牌": {
+      "hanzi": "牌",
+      "pinyin": "pái",
+      "meaning": "biển, bảng; nhãn hiệu; bài (chơi)",
+      "example_zh": "门口有一个<u>牌</u>，上面写着禁止吸烟。",
+      "example_vi": "Ở cửa có một tấm <u>biển</u> ghi cấm hút thuốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "牌.svg",
+      "src": "images/HSK_3.0/level4/牌.svg",
+      "alt_srcs": []
+    },
+    "排球": {
+      "hanzi": "排球",
+      "pinyin": "páiqiú",
+      "meaning": "bóng chuyền",
+      "example_zh": "我们下午去打<u>排球</u>吧。",
+      "example_vi": "Chiều nay chúng ta đi chơi <u>bóng chuyền</u> nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "排球.svg",
+      "src": "images/HSK_3.0/level4/排球.svg",
+      "alt_srcs": []
+    },
+    "牌子": {
+      "hanzi": "牌子",
+      "pinyin": "páizi",
+      "meaning": "nhãn hiệu, thương hiệu; tấm biển",
+      "example_zh": "你的手机是什么<u>牌子</u>的？",
+      "example_vi": "Điện thoại của bạn là <u>hãng</u> gì?",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "牌子.svg",
+      "src": "images/HSK_3.0/level4/牌子.svg",
+      "alt_srcs": []
+    },
+    "普通": {
+      "hanzi": "普通",
+      "pinyin": "pǔtōng",
+      "meaning": "bình thường, phổ thông",
+      "example_zh": "我只是一个<u>普通</u>的学生。",
+      "example_vi": "Tôi chỉ là một học sinh <u>bình thường</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "普通.svg",
+      "src": "images/HSK_3.0/level4/普通.svg",
+      "alt_srcs": []
+    },
+    "期末": {
+      "hanzi": "期末",
+      "pinyin": "qīmò",
+      "meaning": "cuối kỳ",
+      "example_zh": "下个星期就是<u>期末</u>考试了。",
+      "example_vi": "Tuần sau là thi <u>cuối kỳ</u> rồi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "期末.svg",
+      "src": "images/HSK_3.0/level4/期末.svg",
+      "alt_srcs": []
+    },
+    "气": {
+      "hanzi": "气",
+      "pinyin": "qì",
+      "meaning": "khí, hơi; tức giận; làm tức",
+      "example_zh": "你别<u>气</u>我了！",
+      "example_vi": "Bạn đừng làm tôi <u>tức</u> nữa!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "气.svg",
+      "src": "images/HSK_3.0/level4/气.svg",
+      "alt_srcs": []
+    },
+    "汽水": {
+      "hanzi": "汽水",
+      "pinyin": "qìshuǐ",
+      "meaning": "nước ngọt có ga",
+      "example_zh": "天太热了，我想喝一瓶<u>汽水</u>。",
+      "example_vi": "Trời nóng quá, tôi muốn uống một chai <u>nước ngọt</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "汽水.svg",
+      "src": "images/HSK_3.0/level4/汽水.svg",
+      "alt_srcs": []
+    },
+    "气温": {
+      "hanzi": "气温",
+      "pinyin": "qìwēn",
+      "meaning": "nhiệt độ (không khí)",
+      "example_zh": "今天的<u>气温</u>比昨天高。",
+      "example_vi": "<u>Nhiệt độ</u> hôm nay cao hơn hôm qua.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "气温.svg",
+      "src": "images/HSK_3.0/level4/气温.svg",
+      "alt_srcs": []
+    },
+    "千克": {
+      "hanzi": "千克",
+      "pinyin": "qiānkè",
+      "meaning": "kilôgam",
+      "example_zh": "这个西瓜有五<u>千克</u>。",
+      "example_vi": "Quả dưa hấu này nặng năm <u>kilôgam</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "千克.svg",
+      "src": "images/HSK_3.0/level4/千克.svg",
+      "alt_srcs": []
+    },
+    "前后": {
+      "hanzi": "前后",
+      "pinyin": "qiánhòu",
+      "meaning": "trước sau; khoảng (thời gian)",
+      "example_zh": "春节<u>前后</u>，商店里的人特别多。",
+      "example_vi": "<u>Khoảng</u> Tết, trong cửa hàng đặc biệt đông người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "前后.svg",
+      "src": "images/HSK_3.0/level4/前后.svg",
+      "alt_srcs": []
+    },
+    "强": {
+      "hanzi": "强",
+      "pinyin": "qiáng",
+      "meaning": "mạnh, giỏi",
+      "example_zh": "他的学习能力很<u>强</u>。",
+      "example_vi": "Khả năng học tập của anh ấy rất <u>mạnh</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "强.svg",
+      "src": "images/HSK_3.0/level4/强.svg",
+      "alt_srcs": []
+    },
+    "巧": {
+      "hanzi": "巧",
+      "pinyin": "qiǎo",
+      "meaning": "khéo; vừa khéo, trùng hợp",
+      "example_zh": "真<u>巧</u>，我们又见面了！",
+      "example_vi": "Thật <u>trùng hợp</u>, chúng ta lại gặp nhau rồi!",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level4"
+      ],
+      "file": "巧.svg",
+      "src": "images/HSK_3.0/level4/巧.svg",
+      "alt_srcs": []
     },
     "哎呀": {
       "hanzi": "哎呀",

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (Dark mode subtle glow) -->
+  <circle cx="120" cy="110" r="70" fill="#252A34" opacity="0.5"/>
+
+  <!-- Contrast scale for Adjective: Gloomy/Rough (left) vs Radiant/Bright future (right) -->
+  
+  <!-- Left side: The rough/ordinary starting point (smaller, muted) -->
+  <g transform="translate(50, 115) scale(0.6)">
+    <!-- Small angled ground -->
+    <path d="M-30 60 L50 60" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+    <!-- Small simple plant/sprout -->
+    <path d="M10 60 L10 20" stroke="#718096" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 35 C0 30 -5 15 5 10 C15 15 10 30 10 35 Z" fill="#718096"/>
+    <!-- Faded small star -->
+    <path d="M-15 -10 L-10 -5 L-15 0 L-20 -5 Z" fill="#4A5568"/>
+  </g>
+
+  <!-- Transition Arrow representing progression/future -->
+  <path d="M85 110 L105 110 M98 102 L106 110 L98 118" stroke="#4F5D75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right side: The '美好' (bright, magnificent, beautiful future) - Exaggerated scale, warm glowing gold/orange palette -->
+  <g transform="translate(145, 110)">
+    <!-- Radiant background rays -->
+    <g opacity="0.3">
+      <line x1="0" y1="0" x2="-25" y2="-55" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="15" y2="-65" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="50" y2="-40" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="60" y2="0" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Ground / Horizon for the bright future -->
+    <path d="M-40 60 L50 60" stroke="#CBD5E0" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Majestic thriving tree / blossom representing a wonderful future (měihǎo) -->
+    <!-- Tree Trunk -->
+    <path d="M5 60 L5 20" stroke="#ED8936" stroke-width="6" stroke-linecap="round"/>
+    <path d="M5 35 L-15 15" stroke="#ED8936" stroke-width="4" stroke-linecap="round"/>
+    <path d="M5 30 L25 10" stroke="#ED8936" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Vibrant Canopy / Blossoms (Gold / Orange / Bright accents) -->
+    <circle cx="5" cy="-5" r="24" fill="#F6AD55"/>
+    <circle cx="-18" cy="10" r="16" fill="#ED8936"/>
+    <circle cx="28" cy="2" r="18" fill="#FBD38D"/>
+    <circle cx="12" cy="-25" r="14" fill="#F6AD55"/>
+
+    <!-- Glowing stars/sparkles overhead -->
+    <g transform="translate(-10, -50)">
+      <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="#FEEBC8"/>
+    </g>
+    <g transform="translate(35, -25) scale(0.6)">
+      <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="#FEEBC8"/>
+    </g>
+    <g transform="translate(-35, 30) scale(0.5)">
+      <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="#FBD38D"/>
+    </g>
+  </g>
+
+  <!-- Base UI grounding line -->
+  <line x1="40" y1="190" x2="200" y2="190" stroke="#2D3748" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -25377,15 +25377,265 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/咳.svg",
     "caption": "ho"
   },
+  "客气": {
+    "file": "客气.svg",
+    "src": "images/HSK_3.0/level4/客气.svg",
+    "caption": "khách sáo, lịch sự"
+  },
   "课堂": {
     "file": "课堂.svg",
     "src": "images/HSK_3.0/level4/课堂.svg",
     "caption": "lớp học, giờ học"
   },
+  "口语": {
+    "file": "口语.svg",
+    "src": "images/HSK_3.0/level4/口语.svg",
+    "caption": "khẩu ngữ, nói"
+  },
+  "快餐": {
+    "file": "快餐.svg",
+    "src": "images/HSK_3.0/level4/快餐.svg",
+    "caption": "đồ ăn nhanh"
+  },
+  "快递": {
+    "file": "快递.svg",
+    "src": "images/HSK_3.0/level4/快递.svg",
+    "caption": "chuyển phát nhanh; bưu kiện"
+  },
+  "老是": {
+    "file": "老是.svg",
+    "src": "images/HSK_3.0/level4/老是.svg",
+    "caption": "luôn luôn, cứ (thường mang ý phàn nàn)"
+  },
+  "例子": {
+    "file": "例子.svg",
+    "src": "images/HSK_3.0/level4/例子.svg",
+    "caption": "ví dụ"
+  },
+  "凉": {
+    "file": "凉.svg",
+    "src": "images/HSK_3.0/level4/凉.svg",
+    "caption": "mát, lạnh, nguội"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
     "caption": "đo"
+  },
+  "两²": {
+    "file": "两².svg",
+    "src": "images/HSK_3.0/level4/两².svg",
+    "caption": "hai (số lượng)"
+  },
+  "列": {
+    "file": "列.svg",
+    "src": "images/HSK_3.0/level4/列.svg",
+    "caption": "xếp hàng, liệt kê; đoàn (tàu)"
+  },
+  "零下": {
+    "file": "零下.svg",
+    "src": "images/HSK_3.0/level4/零下.svg",
+    "caption": "dưới không độ, âm"
+  },
+  "零花钱": {
+    "file": "零花钱.svg",
+    "src": "images/HSK_3.0/level4/零花钱.svg",
+    "caption": "tiền tiêu vặt"
+  },
+  "另": {
+    "file": "另.svg",
+    "src": "images/HSK_3.0/level4/另.svg",
+    "caption": "khác; ngoài ra"
+  },
+  "流": {
+    "file": "流.svg",
+    "src": "images/HSK_3.0/level4/流.svg",
+    "caption": "chảy"
+  },
+  "留下": {
+    "file": "留下.svg",
+    "src": "images/HSK_3.0/level4/留下.svg",
+    "caption": "để lại; ở lại"
+  },
+  "路过": {
+    "file": "路过.svg",
+    "src": "images/HSK_3.0/level4/路过.svg",
+    "caption": "đi ngang qua"
+  },
+  "旅馆": {
+    "file": "旅馆.svg",
+    "src": "images/HSK_3.0/level4/旅馆.svg",
+    "caption": "nhà nghỉ, khách sạn nhỏ"
+  },
+  "旅客": {
+    "file": "旅客.svg",
+    "src": "images/HSK_3.0/level4/旅客.svg",
+    "caption": "hành khách, lữ khách"
+  },
+  "落": {
+    "file": "落.svg",
+    "src": "images/HSK_3.0/level4/落.svg",
+    "caption": "rơi, rụng; lặn"
+  },
+  "毛衣": {
+    "file": "毛衣.svg",
+    "src": "images/HSK_3.0/level4/毛衣.svg",
+    "caption": "áo len"
+  },
+  "美": {
+    "file": "美.svg",
+    "src": "images/HSK_3.0/level4/美.svg",
+    "caption": "đẹp"
+  },
+  "美好": {
+    "file": "美好.svg",
+    "src": "images/HSK_3.0/level4/美好.svg",
+    "caption": "tốt đẹp"
+  },
+  "美景": {
+    "file": "美景.svg",
+    "src": "images/HSK_3.0/level4/美景.svg",
+    "caption": "cảnh đẹp"
+  },
+  "美食": {
+    "file": "美食.svg",
+    "src": "images/HSK_3.0/level4/美食.svg",
+    "caption": "món ngon, ẩm thực"
+  },
+  "面试": {
+    "file": "面试.svg",
+    "src": "images/HSK_3.0/level4/面试.svg",
+    "caption": "phỏng vấn"
+  },
+  "末": {
+    "file": "末.svg",
+    "src": "images/HSK_3.0/level4/末.svg",
+    "caption": "cuối"
+  },
+  "母女": {
+    "file": "母女.svg",
+    "src": "images/HSK_3.0/level4/母女.svg",
+    "caption": "mẹ con (mẹ và con gái)"
+  },
+  "母子": {
+    "file": "母子.svg",
+    "src": "images/HSK_3.0/level4/母子.svg",
+    "caption": "mẹ con (mẹ và con trai)"
+  },
+  "目的地": {
+    "file": "目的地.svg",
+    "src": "images/HSK_3.0/level4/目的地.svg",
+    "caption": "điểm đến, nơi đến"
+  },
+  "南部": {
+    "file": "南部.svg",
+    "src": "images/HSK_3.0/level4/南部.svg",
+    "caption": "phía nam, miền nam"
+  },
+  "男士": {
+    "file": "男士.svg",
+    "src": "images/HSK_3.0/level4/男士.svg",
+    "caption": "quý ông, nam giới"
+  },
+  "难忘": {
+    "file": "难忘.svg",
+    "src": "images/HSK_3.0/level4/难忘.svg",
+    "caption": "khó quên"
+  },
+  "男性": {
+    "file": "男性.svg",
+    "src": "images/HSK_3.0/level4/男性.svg",
+    "caption": "nam giới, giới nam"
+  },
+  "内心": {
+    "file": "内心.svg",
+    "src": "images/HSK_3.0/level4/内心.svg",
+    "caption": "nội tâm, trong lòng"
+  },
+  "能否": {
+    "file": "能否.svg",
+    "src": "images/HSK_3.0/level4/能否.svg",
+    "caption": "có thể hay không"
+  },
+  "能够": {
+    "file": "能够.svg",
+    "src": "images/HSK_3.0/level4/能够.svg",
+    "caption": "có thể"
+  },
+  "年底": {
+    "file": "年底.svg",
+    "src": "images/HSK_3.0/level4/年底.svg",
+    "caption": "cuối năm"
+  },
+  "女性": {
+    "file": "女性.svg",
+    "src": "images/HSK_3.0/level4/女性.svg",
+    "caption": "nữ giới, phụ nữ"
+  },
+  "排": {
+    "file": "排.svg",
+    "src": "images/HSK_3.0/level4/排.svg",
+    "caption": "xếp (hàng); hàng"
+  },
+  "牌": {
+    "file": "牌.svg",
+    "src": "images/HSK_3.0/level4/牌.svg",
+    "caption": "biển, bảng; nhãn hiệu; bài (chơi)"
+  },
+  "排球": {
+    "file": "排球.svg",
+    "src": "images/HSK_3.0/level4/排球.svg",
+    "caption": "bóng chuyền"
+  },
+  "牌子": {
+    "file": "牌子.svg",
+    "src": "images/HSK_3.0/level4/牌子.svg",
+    "caption": "nhãn hiệu, thương hiệu; tấm biển"
+  },
+  "普通": {
+    "file": "普通.svg",
+    "src": "images/HSK_3.0/level4/普通.svg",
+    "caption": "bình thường, phổ thông"
+  },
+  "期末": {
+    "file": "期末.svg",
+    "src": "images/HSK_3.0/level4/期末.svg",
+    "caption": "cuối kỳ"
+  },
+  "气": {
+    "file": "气.svg",
+    "src": "images/HSK_3.0/level4/气.svg",
+    "caption": "khí, hơi; tức giận; làm tức"
+  },
+  "汽水": {
+    "file": "汽水.svg",
+    "src": "images/HSK_3.0/level4/汽水.svg",
+    "caption": "nước ngọt có ga"
+  },
+  "气温": {
+    "file": "气温.svg",
+    "src": "images/HSK_3.0/level4/气温.svg",
+    "caption": "nhiệt độ (không khí)"
+  },
+  "千克": {
+    "file": "千克.svg",
+    "src": "images/HSK_3.0/level4/千克.svg",
+    "caption": "kilôgam"
+  },
+  "前后": {
+    "file": "前后.svg",
+    "src": "images/HSK_3.0/level4/前后.svg",
+    "caption": "trước sau; khoảng (thời gian)"
+  },
+  "强": {
+    "file": "强.svg",
+    "src": "images/HSK_3.0/level4/强.svg",
+    "caption": "mạnh, giỏi"
+  },
+  "巧": {
+    "file": "巧.svg",
+    "src": "images/HSK_3.0/level4/巧.svg",
+    "caption": "khéo; vừa khéo, trùng hợp"
   },
   "哎呀": {
     "file": "哎呀.svg",

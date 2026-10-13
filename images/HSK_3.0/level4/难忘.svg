@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background atmosphere: Faded, distant silhouettes representing the past -->
+  <g opacity="0.3">
+    <path d="M60 120 L100 80 L140 120 Z" fill="#4A5568"/>
+    <circle cx="160" cy="90" r="20" fill="#4A5568"/>
+  </g>
+
+  <!-- Foreground: The "Unforgettable" moment - A vibrant, high-contrast memory -->
+  <!-- Represented by a person holding a glowing, golden frame of a significant event -->
+  <g transform="translate(60, 60)">
+    <!-- The Memory Frame (Gold accent) -->
+    <rect x="20" y="20" width="80" height="80" rx="8" stroke="#FFB800" stroke-width="4" fill="none"/>
+    
+    <!-- The Person (Focusing on the emotional expression of looking back) -->
+    <path d="M40 160 C40 130 60 110 80 110 C100 110 120 130 120 160" fill="#E2E8F0"/>
+    <circle cx="80" cy="95" r="15" fill="#E2E8F0"/>
+    
+    <!-- The gaze: Looking at the memory -->
+    <path d="M70 95 L75 95 M85 95 L90 95" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- The "Highlight" effect: A golden star/sparkle on the memory frame -->
+    <path d="M100 20 L105 10 L110 20 L120 25 L110 30 L105 40 L100 30 L90 25 Z" fill="#FFB800"/>
+  </g>
+
+  <!-- Visual contrast: The past (faded) vs the vivid memory (bright) -->
+  <path d="M30 180 L210 180" stroke="#2D3748" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

@@ -1,0 +1,73 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Ambient Glow for Contrast -->
+  <circle cx="120" cy="120" r="80" fill="#222732" opacity="0.5"/>
+
+  <!-- Visual Metaphor for "普通" (Ordinary/Average/Standard) -->
+  <!-- We contrast an array of identical, uniform, standard elements vs something standout, 
+       representing the concept of being "one among many" (ordinary student context). -->
+
+  <!-- Subtle horizontal ground line -->
+  <line x1="40" y1="170" x2="200" y2="170" stroke="#2F3642" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Uniform Background Elements (The "Ordinary" crowd / standard items) -->
+  <!-- Silhouette 1 (Left background) -->
+  <g transform="translate(65, 110)">
+    <circle cx="0" cy="15" r="12" fill="#3A4252"/>
+    <path d="M-14 50 C-14 32, 14 32, 14 50 Z" fill="#3A4252"/>
+  </g>
+
+  <!-- Silhouette 2 (Right background) -->
+  <g transform="translate(175, 110)">
+    <circle cx="0" cy="15" r="12" fill="#3A4252"/>
+    <path d="M-14 50 C-14 32, 14 32, 14 50 Z" fill="#3A4252"/>
+  </g>
+
+  <!-- Silhouette 3 (Mid-Left background) -->
+  <g transform="translate(90, 100)">
+    <circle cx="0" cy="15" r="14" fill="#475266"/>
+    <path d="M-16 55 C-16 35, 16 35, 16 55 Z" fill="#475266"/>
+  </g>
+
+  <!-- Silhouette 4 (Mid-Right background) -->
+  <g transform="translate(150, 100)">
+    <circle cx="0" cy="15" r="14" fill="#475266"/>
+    <path d="M-16 55 C-16 35, 16 35, 16 55 Z" fill="#475266"/>
+  </g>
+
+  <!-- Central Focal Subject: The "Ordinary Student" (平凡而标准的学生形象) -->
+  <!-- Representing "我只是一个普通的学生" with clean, balanced, neutral flat design -->
+  <g transform="translate(120, 95)">
+    <!-- Student Backpack top handle -->
+    <path d="M-8 -5 C-8 -12, 8 -12, 8 -5" fill="none" stroke="#D1D5DB" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Backpack body behind -->
+    <rect x="-18" y="-4" width="36" height="42" rx="8" fill="#4B5563"/>
+
+    <!-- Head -->
+    <circle cx="0" cy="-22" r="16" fill="#F3F4F6"/>
+
+    <!-- Hair (Simple neat student haircut) -->
+    <path d="M-16 -24 C-16 -35, 16 -35, 16 -24 C16 -20, 12 -28, 0 -30 C-12 -28, -16 -20, -16 -24 Z" fill="#2D3748"/>
+
+    <!-- Torso / Uniform (Simple Jacket / Shirt) -->
+    <path d="M-22 60 L-22 24 C-22 14, -14 10, 0 10 C14 10, 22 14, 22 24 L22 60 Z" fill="#E5E7EB"/>
+    
+    <!-- Jacket opening / Collar -->
+    <path d="M0 10 L-8 30 L0 36 L8 30 Z" fill="#D1D5DB"/>
+    <line x1="0" y1="36" x2="0" y2="60" stroke="#9CA3AF" stroke-width="2"/>
+
+    <!-- Arms resting naturally -->
+    <path d="M-22 26 C-28 30, -30 45, -26 52" fill="none" stroke="#E5E7EB" stroke-width="7" stroke-linecap="round"/>
+    <path d="M22 26 C28 30, 30 45, 26 52" fill="none" stroke="#E5E7EB" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Scale/Standard Indicator (Subtle frame/brackets showing conformity to the norm) -->
+  <path d="M 60 70 L 50 70 L 50 170 L 60 170" fill="none" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.4" stroke-linecap="round"/>
+  <path d="M 180 70 L 190 70 L 190 170 L 180 170" fill="none" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Center baseline marker (Equilibrium / Standard level) -->
+  <circle cx="120" cy="170" r="3" fill="#F59E0B"/>
+</svg>
