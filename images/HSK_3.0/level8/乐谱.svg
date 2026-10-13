@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Music Stand -->
+  <path d="M70 200 L170 200 L160 215 L80 215 Z" fill="#4A5568"/>
+  <rect x="115" y="120" width="10" height="80" fill="#718096"/>
+  
+  <!-- Sheet Music Paper -->
+  <rect x="60" y="40" width="120" height="150" rx="4" fill="#E2E8F0"/>
+  
+  <!-- Staff Lines -->
+  <g stroke="#2D3748" stroke-width="1.5">
+    <line x1="75" y1="70" x2="165" y2="70"/>
+    <line x1="75" y1="85" x2="165" y2="85"/>
+    <line x1="75" y1="100" x2="165" y2="100"/>
+    <line x1="75" y1="115" x2="165" y2="115"/>
+    <line x1="75" y1="130" x2="165" y2="130"/>
+  </g>
+  
+  <!-- Musical Notes (Gold Accent) -->
+  <circle cx="95" cy="115" r="6" fill="#ECC94B"/>
+  <rect x="101" y="85" width="3" height="30" fill="#ECC94B"/>
+  <path d="M104 85 Q115 80 115 95" stroke="#ECC94B" stroke-width="3" fill="none"/>
+  
+  <circle cx="135" cy="130" r="6" fill="#ECC94B"/>
+  <rect x="141" y="100" width="3" height="30" fill="#ECC94B"/>
+  <path d="M144 100 Q155 95 155 110" stroke="#ECC94B" stroke-width="3" fill="none"/>
+  
+  <!-- Treble Clef -->
+  <path d="M85 150 C80 140 80 130 90 130 C100 130 100 145 90 155 L85 175 C85 185 95 185 95 175 L95 60" stroke="#2D3748" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "咋" (How? Why? Colloquial expression of inquiry/surprise) -->
+  <g transform="translate(0, 0)">
+    <!-- Speech bubble representing conversation/dialogue context ("你咋不早说呢？") -->
+    <path d="M 60 70 Q 60 45 120 45 Q 180 45 180 70 Q 180 95 120 95 L 105 115 L 95 95 Q 60 95 60 70 Z" fill="#252A34" stroke="#3A4254" stroke-width="2"/>
+    
+    <!-- Question mark forming the core iconic physical/semantic inquiry symbol -->
+    <path d="M 102 63 Q 102 53 120 53 Q 138 53 138 65 Q 138 76 120 81 L 120 89" fill="none" stroke="#F6AD55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="120" cy="103" r="4.5" fill="#F6AD55"/>
+
+    <!-- Expressive questioning character silhouette/head leaning forward with outstretched hands in wonder/inquiry -->
+    <path d="M 120 128 C 90 128 70 148 70 178 L 170 178 C 170 148 150 128 120 128 Z" fill="#2D3748"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="115" r="18" fill="#F6AD55"/>
+    
+    <!-- Surprised/Curious facial expression elements -->
+    <circle cx="113" cy="113" r="2" fill="#1A1D24"/>
+    <circle cx="127" cy="113" r="2" fill="#1A1D24"/>
+    <ellipse cx="120" cy="122" rx="3" ry="4.5" fill="#1A1D24"/>
+
+    <!-- Shrugging / Gesturing arms asking "how/why" -->
+    <path d="M 72 155 Q 55 145 45 130" fill="none" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="43" cy="126" r="4" fill="#F6AD55"/>
+
+    <path d="M 168 155 Q 185 145 195 130" fill="none" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="197" cy="126" r="4" fill="#F6AD55"/>
+  </g>
+</svg>

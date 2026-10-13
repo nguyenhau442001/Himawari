@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Glow / Atmosphere -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.5"/>
+
+  <!-- Ironing Board -->
+  <!-- Board legs -->
+  <path d="M70 170 L95 210" stroke="#4A5568" stroke-width="6" stroke-linecap="round"/>
+  <path d="M170 170 L145 210" stroke="#4A5568" stroke-width="6" stroke-linecap="round"/>
+  <line x1="80" y1="190" x2="160" y2="190" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Board top (angled perspective) -->
+  <path d="M40 155 L200 145 L180 165 L50 175 Z" fill="#2D3748"/>
+  <ellipse cx="120" cy="155" rx="80" ry="12" fill="#E2E8F0"/>
+
+  <!-- Garment being ironed -->
+  <path d="M90 153 L150 149 L155 160 L85 163 Z" fill="#F6AD55"/>
+  <!-- Steam lines rising from the garment -->
+  <path d="M110 140 Q113 130 110 120" stroke="#CBD5E0" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M130 142 Q127 132 130 122" stroke="#CBD5E0" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Modern Steam Iron (Action / Verb Focus) -->
+  <!-- Iron body -->
+  <path d="M100 115 L155 115 C165 115 168 128 158 135 L105 142 C95 143 90 135 95 125 Z" fill="#FF8C42"/>
+  <!-- Iron soleplate (bright accent) -->
+  <path d="M96 142 L158 135 L162 142 L100 147 Z" fill="#ED8936"/>
+  <!-- Iron handle -->
+  <path d="M110 115 C110 100 145 100 145 115" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Motion Lines (showing dynamic ironing action) -->
+  <path d="M75 135 L90 138" stroke="#FFD166" stroke-width="3" stroke-linecap="round"/>
+  <path d="M70 143 L85 145" stroke="#FFD166" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Character Hands interacting with the iron -->
+  <!-- Left hand holding iron handle -->
+  <circle cx="127" cy="107" r="8" fill="#F6AD55"/>
+  <!-- Right hand guiding or near -->
+</svg>

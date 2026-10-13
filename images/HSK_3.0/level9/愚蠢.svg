@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptualizing "愚蠢" (Foolish/Stupid decision): 
+       A person standing at a crossroads, choosing the path that leads directly into a wall/dead-end 
+       while ignoring the open, clear path. -->
+       
+  <!-- The Wall/Dead End -->
+  <rect x="160" y="80" width="40" height="100" rx="4" fill="#FF5722"/>
+  
+  <!-- The Path -->
+  <path d="M40 180 L120 180 L160 120" stroke="#4A5568" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- The Person (Flat Vector Style) -->
+  <g transform="translate(80, 140)">
+    <!-- Body -->
+    <path d="M0 0 L20 0 L15 40 L5 40 Z" fill="#E2E8F0"/>
+    <!-- Head -->
+    <circle cx="10" cy="-15" r="15" fill="#E2E8F0"/>
+    <!-- Confused Expression (Simple lines) -->
+    <line x1="5" y1="-20" x2="8" y2="-17" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="12" y1="-20" x2="15" y2="-17" stroke="#1A1D24" stroke-width="2"/>
+    <path d="M5 -10 Q10 -7 15 -10" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- The "Foolish" Choice Indicator (Pointing to the wall) -->
+  <path d="M140 100 L160 80" stroke="#F6E05E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150 80 L160 80 L160 90" stroke="#F6E05E" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- The "Smart" Path (Ignored) -->
+  <path d="M120 180 L200 180" stroke="#4A5568" stroke-width="8" stroke-dasharray="8 8" fill="none"/>
+</svg>

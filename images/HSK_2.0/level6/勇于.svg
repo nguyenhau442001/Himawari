@@ -1,0 +1,34 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Path -->
+  <path d="M40 180 L200 180" stroke="#3A3F4B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Challenge Obstacle (A jagged, steep rock formation) -->
+  <path d="M140 180 L170 120 L200 180 Z" fill="#4A5160"/>
+  <path d="M155 150 L165 140 L175 160" stroke="#2D323D" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Human Character (Dynamic posture: leaning forward, one foot stepping up) -->
+  <g transform="translate(60, 180)">
+    <!-- Legs -->
+    <path d="M0 0 L10 -40" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 0 L35 -30" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Body -->
+    <path d="M15 -40 L15 -90" stroke="#FFB84D" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- Arms (Reaching forward towards the obstacle) -->
+    <path d="M15 -80 L45 -70" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15 -80 L30 -50" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Head -->
+    <circle cx="15" cy="-105" r="15" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Motion Lines (Indicating forward momentum) -->
+  <path d="M90 100 L110 90" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M95 120 L115 110" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  
+  <!-- Focus Accent (Gold glow effect behind the character) -->
+  <circle cx="75" cy="100" r="40" fill="#FFB84D" opacity="0.05"/>
+</svg>

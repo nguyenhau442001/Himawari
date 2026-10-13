@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk Surface -->
+  <path d="M 32 184 L 208 184 L 216 196 L 24 196 Z" fill="#252A34"/>
+  <line x1="32" y1="184" x2="208" y2="184" stroke="#3A4256" stroke-width="2"/>
+
+  <!-- Organized Stack of Files/Folders representing "有条不紊" (Methodical, orderly) -->
+  <!-- Document 3 (Bottom) -->
+  <rect x="56" y="152" width="128" height="20" rx="4" fill="#2D3748" stroke="#4A5568" stroke-width="1.5"/>
+  <rect x="68" y="158" width="40" height="8" rx="2" fill="#4A5568"/>
+
+  <!-- Document 2 (Middle) -->
+  <rect x="52" y="128" width="136" height="20" rx="4" fill="#323F4B" stroke="#627D98" stroke-width="1.5"/>
+  <rect x="64" y="134" width="56" height="8" rx="2" fill="#627D98"/>
+
+  <!-- Document 1 (Top) -->
+  <rect x="48" y="104" width="144" height="20" rx="4" fill="#243B53" stroke="#9FB3C8" stroke-width="1.5"/>
+  <rect x="60" y="110" width="72" height="8" rx="2" fill="#9FB3C8"/>
+
+  <!-- Main Focus Element: Sleek modern laptop aligned perfectly on top -->
+  <rect x="72" y="68" width="96" height="32" rx="4" fill="#3E4C59" stroke="#E2E8F0" stroke-width="1.5"/>
+  <!-- Laptop Screen Active Area -->
+  <rect x="78" y="74" width="84" height="20" rx="2" fill="#0F172A"/>
+  <!-- Organized UI bars on screen -->
+  <rect x="84" y="79" width="32" height="4" rx="1" fill="#38EF7D"/>
+  <rect x="84" y="87" width="56" height="3" rx="1" fill="#64748B"/>
+
+  <!-- Laptop Base / Keyboard deck -->
+  <path d="M 64 100 L 176 100 L 184 106 L 56 106 Z" fill="#94A3B8"/>
+  <line x1="112" y1="100" x2="128" y2="100" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Accent / Focus Elements: Neat alignment marker / checkmark badge floating gracefully -->
+  <circle cx="188" cy="64" r="16" fill="#F59E0B" opacity="0.9"/>
+  <path d="M 180 64 L 185 69 L 197 57" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Secondary Accent: Precise alignment indicators (subtle grid/ruler accents) -->
+  <line x1="36" y1="68" x2="36" y2="184" stroke="#334155" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <circle cx="36" cy="68" r="3" fill="#38EF7D"/>
+  <circle cx="36" cy="114" r="3" fill="#38EF7D"/>
+  <circle cx="36" cy="138" r="3" fill="#38EF7D"/>
+  <circle cx="36" cy="162" r="3" fill="#38EF7D"/>
+  <circle cx="36" cy="184" r="3" fill="#38EF7D"/>
+</svg>

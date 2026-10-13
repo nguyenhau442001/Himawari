@@ -1,0 +1,59 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle warm ambient lighting -->
+  <circle cx="120" cy="115" r="75" fill="#252A34" opacity="0.6"/>
+
+  <!-- Character 1: Mother-in-law (岳母) - Elegant middle-aged woman -->
+  <g transform="translate(68, 48)">
+    <!-- Body/Outfit (Warm, welcoming blazer/cardigan over blouse) -->
+    <path d="M 22 105 C 10 105 0 115 0 128 L 0 142 L 52 142 L 52 128 C 52 115 42 105 30 105 Z" fill="#3E5C76"/>
+    <path d="M 16 114 L 36 114 L 26 134 Z" fill="#E0FBFC"/> <!-- Blouse collar -->
+
+    <!-- Neck -->
+    <rect x="20" y="90" width="12" height="18" fill="#F4D0AF" rx="4"/>
+
+    <!-- Head & Hair -->
+    <circle cx="26" cy="72" r="18" fill="#F4D0AF"/>
+    <!-- Neat short styled hair (slate grey/brown indicating maturity) -->
+    <path d="M 10 72 C 10 58 18 52 26 52 C 34 52 42 58 42 72 C 42 76 41 80 39 84 C 37 84 35 80 35 75 C 35 64 30 58 26 58 C 22 58 17 64 17 75 C 17 80 15 84 13 84 C 11 80 10 76 10 72 Z" fill="#4A5568"/>
+    
+    <!-- Facial features (Warm, polite smile, respectful interaction) -->
+    <circle cx="20" cy="70" r="1.5" fill="#2D3748"/>
+    <circle cx="32" cy="70" r="1.5" fill="#2D3748"/>
+    <path d="M 23 78 Q 26 81 29 78" stroke="#2D3748" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Friendly greeting gesture: Raising one hand slightly in a welcoming/warm manner -->
+    <path d="M 44 115 C 50 115 54 110 52 104 C 51 101 47 101 45 104" fill="#F4D0AF" stroke="#D9B391" stroke-width="1"/>
+  </g>
+
+  <!-- Character 2: Son-in-law (Representing the context "他和岳母关系很好" - respectful & harmonious posture) -->
+  <g transform="translate(120, 48)">
+    <!-- Body/Outfit (Modern jacket) -->
+    <path d="M 12 105 C 4 105 0 112 0 122 L 0 142 L 36 142 L 36 122 C 36 112 32 105 24 105 Z" fill="#2D3748"/>
+    <path d="M 12 110 L 24 110 L 18 128 Z" fill="#E2E8F0"/> <!-- Inner shirt -->
+
+    <!-- Neck -->
+    <rect x="12" y="90" width="12" height="18" fill="#F4D0AF" rx="4"/>
+
+    <!-- Head & Hair -->
+    <circle cx="18" cy="72" r="17" fill="#F4D0AF"/>
+    <!-- Modern short dark hair -->
+    <path d="M 3 72 C 3 58 10 53 18 53 C 26 53 33 58 33 72 C 33 74 32 76 31 76 C 29 72 25 59 18 59 C 11 59 7 72 5 76 C 4 76 3 74 3 72 Z" fill="#1A202C"/>
+
+    <!-- Facial features (Friendly, respectful expression facing mother-in-law) -->
+    <circle cx="12" cy="70" r="1.5" fill="#2D3748"/>
+    <circle cx="23" cy="70" r="1.5" fill="#2D3748"/>
+    <path d="M 15 78 Q 18 81 21 78" stroke="#2D3748" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Gesture: Slight polite bow / friendly leaning posture towards the left -->
+  </g>
+
+  <!-- Central Warm Connection Element (Subtle golden glow representing good harmonious relationship) -->
+  <path d="M 108 85 Q 120 70 132 85" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <circle cx="120" cy="74" r="3" fill="#F6AD55"/>
+
+  <!-- Base grounding floor line -->
+  <line x1="50" y1="190" x2="190" y2="190" stroke="#2D3748" stroke-width="3" stroke-linecap="round"/>
+</svg>

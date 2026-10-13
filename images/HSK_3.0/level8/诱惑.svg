@@ -1,0 +1,77 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (subtle glowing rays representing temptation/allure) -->
+  <g opacity="0.15">
+    <path d="M120 120 L60 40" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 4"/>
+    <path d="M120 120 L180 40" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 4"/>
+    <path d="M120 120 L70 80" stroke="#F59E0B" stroke-width="1.5"/>
+    <path d="M120 120 L170 80" stroke="#F59E0B" stroke-width="1.5"/>
+  </g>
+
+  <!-- Glowing focal point (the temptation source) -->
+  <circle cx="120" cy="85" r="32" fill="#F59E0B" opacity="0.12"/>
+  <circle cx="120" cy="85" r="22" fill="#F59E0B" opacity="0.2"/>
+
+  <!-- Stack of Gold Coins (representing 金钱 - money/temptation) -->
+  <g transform="translate(120, 75)">
+    <!-- Bottom Coin -->
+    <ellipse cx="0" cy="18" rx="20" ry="8" fill="#D97706"/>
+    <path d="M-20 18 v6 c0 4.4 9 8 20 8 s20 -3.6 20 -8 v-6 c0 4.4 -9 8 -20 8 s-20 -3.6 -20 -8z" fill="#B45309"/>
+    
+    <!-- Middle Coin -->
+    <ellipse cx="0" cy="9" rx="20" ry="8" fill="#F59E0B"/>
+    <path d="M-20 9 v6 c0 4.4 9 8 20 8 s20 -3.6 20 -8 v-6 c0 4.4 -9 8 -20 8 s-20 -3.6 -20 -8z" fill="#D97706"/>
+    
+    <!-- Top Coin -->
+    <ellipse cx="0" cy="0" rx="20" ry="8" fill="#FBBF24"/>
+    <path d="M-20 0 v6 c0 4.4 9 8 20 8 s20 -3.6 20 -8 v-6 c0 4.4 -9 8 -20 8 s-20 -3.6 -20 -8z" fill="#D97706"/>
+    <ellipse cx="0" cy="0" rx="10" ry="4" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+  </g>
+
+  <!-- Sparkles around the treasure -->
+  <g fill="#FBBF24">
+    <path d="M92 65 L94 70 L99 72 L94 74 L92 79 L90 74 L85 72 L90 70 Z"/>
+    <path d="M148 60 L149 63 L152 64 L149 65 L148 68 L147 65 L144 64 L147 63 Z"/>
+    <path d="M140 92 L141 95 L144 96 L141 97 L140 100 L139 97 L136 96 L139 95 Z"/>
+  </g>
+
+  <!-- Human Character resisting / pulling back (Verb action: 抵制/诱惑) -->
+  <g transform="translate(0, 15)">
+    <!-- Character Body / Torso angled backward -->
+    <path d="M95 140 C100 130 105 115 110 105 L125 112 C120 125 112 142 105 155 Z" fill="#3B82F6"/>
+
+    <!-- Head -->
+    <circle cx="85" cy="95" r="14" fill="#FDE68A"/>
+    <!-- Hair -->
+    <path d="M72 95 C72 85 80 80 90 82 C95 83 98 88 98 88 C98 88 90 84 83 87 C77 90 73 93 72 95 Z" fill="#1E293B"/>
+
+    <!-- Back Arm (Holding/blocking gesture, leaning away) -->
+    <path d="M102 112 L130 100 L135 108 L112 122 Z" fill="#2563EB"/>
+    <!-- Hand pushing away / resisting -->
+    <circle cx="134" cy="105" r="5" fill="#FDE68A"/>
+
+    <!-- Front Arm -->
+    <path d="M100 135 L75 125 L72 133 L98 144 Z" fill="#2563EB"/>
+    <circle cx="70" cy="130" r="4.5" fill="#FDE68A"/>
+
+    <!-- Legs planted firmly, showing resistance -->
+    <!-- Back Leg -->
+    <path d="M105 152 L125 185 L140 183 L118 148 Z" fill="#1D4ED8"/>
+    <!-- Front Leg -->
+    <path d="M100 152 L80 185 L65 183 L92 148 Z" fill="#2563EB"/>
+    <!-- Shoes -->
+    <path d="M125 185 L145 187 L145 192 L120 192 Z" fill="#0F172A"/>
+    <path d="M78 185 L60 189 L60 194 L82 194 Z" fill="#0F172A"/>
+  </g>
+
+  <!-- Action/Motion lines indicating pulling force vs resistance -->
+  <g stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" opacity="0.8">
+    <path d="M108 98 C102 93 96 88 90 83" />
+    <path d="M112 103 C107 98 101 93 95 88" />
+  </g>
+
+  <!-- Shield / Force barrier effect symbolizing resistance (抵制) -->
+  <path d="M140 90 C145 100 145 120 140 135 C135 120 135 100 140 90 Z" fill="none" stroke="#38BDF8" stroke-width="3" stroke-dasharray="3 3" opacity="0.8"/>
+</svg>

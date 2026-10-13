@@ -1,0 +1,31 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle mountain and path representing the pursuit of success -->
+  <path d="M40 180 L120 90 L200 180 Z" fill="#222733"/>
+  <path d="M120 90 L120 180" stroke="#2B3142" stroke-width="3" stroke-dasharray="4 4"/>
+
+  <!-- Glowing summit marker / goal representing "success" (成功) -->
+  <circle cx="120" cy="90" r="16" fill="#F59E0B" opacity="0.2"/>
+  <circle cx="120" cy="90" r="8" fill="#F59E0B"/>
+  <polygon points="120,74 123,83 132,83 125,88 128,97 120,92 112,97 115,88 108,83 117,83" fill="#FBBF24"/>
+
+  <!-- Central Physical Object (Noun: 欲望 / Ambition & Drive): A glowing directional compass / guiding needle combined with an upward-pointing flame/star motif -->
+  <!-- Outer metallic rim -->
+  <circle cx="120" cy="140" r="42" fill="#282E3D" stroke="#3A4256" stroke-width="4"/>
+  <circle cx="120" cy="140" r="34" fill="#1E232F"/>
+
+  <!-- Compass cardinal points -->
+  <polygon points="120,102 122,110 120,108 118,110" fill="#64748B"/>
+  <polygon points="120,178 122,170 120,172 118,170" fill="#64748B"/>
+  <polygon points="82,140 90,142 88,140 90,138" fill="#64748B"/>
+  <polygon points="158,140 150,142 152,140 150,138" fill="#64748B"/>
+
+  <!-- Dynamic upward arrow/flame core (Desire/Drive reaching upward) -->
+  <path d="M120 110 C125 125, 134 135, 134 145 C134 153, 128 160, 120 165 C112 160, 106 153, 106 145 C106 135, 115 125, 120 110 Z" fill="#F59E0B"/>
+  <path d="M120 122 C122.5 131, 126 137, 126 143 C126 147, 123 151, 120 155 C117 151, 114 147, 114 143 C114 137, 117.5 131, 120 122 Z" fill="#FEF3C7"/>
+
+  <!-- Focus rays / Energy accent rings -->
+  <circle cx="120" cy="140" r="50" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.4"/>
+</svg>

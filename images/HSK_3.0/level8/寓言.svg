@@ -1,0 +1,82 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing background effect for focal point -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Open Book representing "story / literature" -->
+  <g>
+    <!-- Book Shadow -->
+    <path d="M60 155 L120 170 L180 155 L180 165 L120 180 L60 165 Z" fill="#111318" opacity="0.5"/>
+    
+    <!-- Left Page -->
+    <path d="M60 100 C80 95, 110 100, 120 105 L120 165 C110 160, 80 155, 60 160 Z" fill="#E2E8F0"/>
+    
+    <!-- Right Page -->
+    <path d="M180 100 C160 95, 130 100, 120 105 L120 165 C130 160, 160 155, 180 160 Z" fill="#CBD5E1"/>
+    
+    <!-- Book Spine / Center Crease -->
+    <line x1="120" y1="105" x2="120" y2="165" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Abstract text lines on pages -->
+    <line x1="72" y1="118" x2="105" y2="114" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="72" y1="130" x2="100" y2="126" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="72" y1="142" x2="95" y2="138" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    
+    <line x1="135" y1="118" x2="168" y2="114" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="135" y1="130" x2="160" y2="126" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="135" y1="142" x2="165" y2="138" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Fox and Grapes emerging from the book (Classic Fable Imagery: The Fox and the Grapes) -->
+  <g>
+    <!-- Clever Fox Head / Silhouette popping out from the book -->
+    <!-- Fox Ears -->
+    <polygon points="85,82 72,50 95,68" fill="#F97316"/>
+    <polygon points="110,75 122,45 118,70" fill="#F97316"/>
+    <polygon points="87,76 78,56 93,68" fill="#FDBA74"/>
+    <polygon points="108,72 117,52 115,68" fill="#FDBA74"/>
+
+    <!-- Fox Head Base -->
+    <path d="M75 80 C75 75, 120 75, 125 80 C130 85, 105 115, 100 115 C95 115, 70 85, 75 80 Z" fill="#F97316"/>
+    
+    <!-- Fox White Muzzle & Cheeks -->
+    <path d="M82 92 C82 92, 100 115, 100 115 C100 115, 118 92, 118 92 C118 92, 100 98, 100 98 C100 98, 82 92, 82 92 Z" fill="#F8FAFC"/>
+    
+    <!-- Fox Nose -->
+    <ellipse cx="100" cy="103" rx="4" ry="3" fill="#0F172A"/>
+
+    <!-- Fox Eyes (Clever, squinting upward) -->
+    <path d="M87 84 Q91 88 95 84" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M105 84 Q109 88 113 84" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Bunch of Grapes (The moral/object of desire) -->
+    <g transform="translate(38, -10)">
+      <!-- Vine / Stem -->
+      <path d="M142 55 Q145 42 155 40" stroke="#16A34A" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M152 43 Q162 38 160 30" stroke="#16A34A" stroke-width="2" fill="none" stroke-linecap="round"/>
+      
+      <!-- Grapes (Purple/Violet stylized cluster) -->
+      <circle cx="155" cy="50" r="7" fill="#8B5CF6"/>
+      <circle cx="145" cy="56" r="7" fill="#A78BFA"/>
+      <circle cx="163" cy="58" r="7" fill="#7C3AED"/>
+      <circle cx="153" cy="62" r="7" fill="#8B5CF6"/>
+      <circle cx="143" cy="67" r="7" fill="#7C3AED"/>
+      <circle cx="160" cy="69" r="7" fill="#A78BFA"/>
+      <circle cx="151" cy="74" r="6" fill="#8B5CF6"/>
+      
+      <!-- Highlight gleam on grapes -->
+      <circle cx="153" cy="48" r="2" fill="#DDD6FE"/>
+      <circle cx="143" cy="54" r="2" fill="#DDD6FE"/>
+      <circle cx="161" cy="56" r="2" fill="#DDD6FE"/>
+    </g>
+  </g>
+
+  <!-- Magical / Story Sparkles (Accent Gold) -->
+  <g fill="#FBBF24">
+    <path d="M55 75 L57 82 L64 84 L57 86 L55 93 L53 86 L46 84 L53 82 Z"/>
+    <path d="M185 95 L186.5 100 L191.5 101.5 L186.5 103 L185 108 L183.5 103 L178.5 101.5 L183.5 100 Z"/>
+    <path d="M145 35 L146 38 L149 39 L146 40 L145 43 L144 40 L141 39 L144 38 Z"/>
+  </g>
+</svg>

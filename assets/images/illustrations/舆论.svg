@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Central Concept: Public Opinion (舆论) visualized as a group of diverse stylized speech bubbles converging -->
+  <!-- Representing the collective voice/discussion of the public -->
+  
+  <g transform="translate(120, 120)">
+    <!-- Central focus point representing the subject of discussion -->
+    <circle cx="0" cy="0" r="25" fill="#FFB84D"/>
+    
+    <!-- Surrounding speech bubbles representing public discourse -->
+    <path d="M-40 -40 L-60 -60 L-30 -50 Z" fill="#5DADE2"/>
+    <path d="M40 -40 L60 -60 L30 -50 Z" fill="#5DADE2"/>
+    <path d="M-50 0 L-80 0 L-50 20 Z" fill="#5DADE2"/>
+    <path d="M50 0 L80 0 L50 20 Z" fill="#5DADE2"/>
+    <path d="M-30 40 L-40 70 L-10 50 Z" fill="#5DADE2"/>
+    <path d="M30 40 L40 70 L10 50 Z" fill="#5DADE2"/>
+    
+    <!-- Connecting lines to show convergence -->
+    <line x1="-25" y1="-25" x2="-45" y2="-45" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+    <line x1="25" y1="-25" x2="45" y2="-45" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-25" y1="0" x2="-60" y2="0" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+    <line x1="25" y1="0" x2="60" y2="0" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-15" y1="20" x2="-25" y2="50" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+    <line x1="15" y1="20" x2="25" y2="50" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

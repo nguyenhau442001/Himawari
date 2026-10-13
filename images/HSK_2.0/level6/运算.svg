@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient glow behind laptop -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Laptop Base & Screen (Context: 电脑 / Computer) -->
+  <g transform="translate(0, 5)">
+    <!-- Laptop Screen Outer -->
+    <rect x="55" y="45" width="130" height="85" rx="8" fill="#2D3340"/>
+    <!-- Laptop Screen Inner -->
+    <rect x="61" y="51" width="118" height="73" rx="4" fill="#111317"/>
+    
+    <!-- Dynamic Computation Visuals on Screen (Action: 运算 / Calculating) -->
+    <!-- Flowing data streams / code lines -->
+    <path d="M 75 70 L 100 70" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 110 70 L 145 70" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 75 90 L 125 90" stroke="#34D399" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 75 110 L 90 110" stroke="#F43F5E" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 100 110 L 135 110" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    
+    <!-- Floating mathematical symbols (Action indicator) -->
+    <text x="145" y="115" font-family="monospace" font-size="16" font-weight="bold" fill="#F59E0B">∑</text>
+    <text x="150" y="80" font-family="monospace" font-size="14" font-weight="bold" fill="#38BDF8">π</text>
+
+    <!-- Laptop Base -->
+    <path d="M 40 136 L 200 136 C 204 136, 207 139, 206 143 L 198 152 C 197 153, 195 154, 193 154 L 47 154 C 45 154, 43 153, 42 152 L 34 143 C 33 139, 36 136, 40 136 Z" fill="#4B5563"/>
+    <!-- Laptop Notch -->
+    <rect x="105" y="136" width="30" height="3" rx="1.5" fill="#9CA3AF"/>
+  </g>
+
+  <!-- Dynamic Human Character Action (Verb: 运算 / Active processing & interaction) -->
+  <g transform="translate(0, 5)">
+    <!-- Character Head -->
+    <circle cx="120" cy="165" r="14" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M 106 163 C 106 153, 114 150, 120 150 C 127 150, 134 154, 134 163 Z" fill="#334155"/>
+
+    <!-- Character Body / Shoulders -->
+    <path d="M 90 195 C 90 180, 104 175, 120 175 C 136 175, 150 180, 150 195 Z" fill="#F59E0B"/>
+
+    <!-- Active Hands interacting with keyboard / computation flow -->
+    <!-- Left Arm & Hand -->
+    <path d="M 95 182 L 105 142 L 115 142" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="117" cy="142" r="4" fill="#E2E8F0"/>
+
+    <!-- Right Arm & Hand (Dynamic gesture showing high-speed action) -->
+    <path d="M 145 182 L 135 142 L 125 142" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="123" cy="142" r="4" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Motion lines emphasizing rapid calculation/action -->
+  <g stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <line x1="80" y1="35" x2="88" y2="25"/>
+    <line x1="160" y1="35" x2="152" y2="25"/>
+    <path d="M 105 20 Q 120 10 135 20" fill="none"/>
+  </g>
+</svg>

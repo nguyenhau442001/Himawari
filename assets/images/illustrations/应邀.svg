@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle motion lines for the action of arriving -->
+  <path d="M180 120 L140 120 M170 100 L140 100 M170 140 L140 140" stroke="#333A45" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- The Invitation Card (Object) -->
+  <rect x="60" y="105" width="40" height="30" rx="2" fill="#FFB84D"/>
+  <rect x="65" y="112" width="30" height="3" rx="1" fill="#1A1D24"/>
+  <rect x="65" y="118" width="20" height="3" rx="1" fill="#1A1D24"/>
+  
+  <!-- Character Hand reaching out to accept -->
+  <path d="M95 120 C105 120 110 115 115 115 L130 115" stroke="#FFD699" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Character Body (Simplified) -->
+  <path d="M140 100 L160 100 L155 180 L145 180 Z" fill="#FFD699"/>
+  <circle cx="150" cy="85" r="15" fill="#FFD699"/>
+  
+  <!-- Suit/Attire for the formal event -->
+  <path d="M140 100 L160 100 L158 130 L142 130 Z" fill="#4A90E2"/>
+  
+  <!-- Motion indicator of accepting/moving forward -->
+  <path d="M120 130 L135 145" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120 145 L135 130" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+</svg>

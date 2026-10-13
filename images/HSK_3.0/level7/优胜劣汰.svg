@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background grid/accent elements for context -->
+  <path d="M40 180 L200 180" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Scales of Natural Selection / Market Competition Metaphor -->
+  <!-- Base / Stand -->
+  <path d="M120 180 L120 85" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  <path d="M95 180 L145 180" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="85" r="5" fill="#718096"/>
+
+  <!-- Beam -->
+  <g transform="rotate(-12, 120, 85)">
+    <line x1="70" y1="85" x2="170" y2="85" stroke="#A0AEC0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="70" cy="85" r="3" fill="#E2E8F0"/>
+    <circle cx="170" cy="85" r="3" fill="#E2E8F0"/>
+
+    <!-- Left Side: Weak / Descending (劣) -->
+    <path d="M70 85 L50 145" stroke="#718096" stroke-width="2"/>
+    <path d="M70 85 L90 145" stroke="#718096" stroke-width="2"/>
+    <!-- Weak entity basket (dropping down) -->
+    <path d="M45 145 C45 160 95 160 95 145 Z" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    <!-- Faded/Wilted Plant (Weak) -->
+    <path d="M70 145 L70 125" stroke="#E53E3E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M70 132 C60 130 55 120 58 115" fill="none" stroke="#E53E3E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M70 138 C80 136 85 126 82 121" fill="none" stroke="#E53E3E" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Right Side: Strong / Ascending (优) -->
+    <path d="M170 85 L150 55" stroke="#718096" stroke-width="2"/>
+    <path d="M170 85 L190 55" stroke="#718096" stroke-width="2"/>
+    <!-- Strong entity basket (raised up) -->
+    <path d="M145 55 C145 70 195 70 195 55 Z" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    <!-- Vibrant/Thriving Plant (Strong) with Gold/Orange Accent -->
+    <path d="M170 55 L170 30" stroke="#319795" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Glowing leaves (Success/Victory) -->
+    <path d="M170 42 C155 38 152 25 162 20 C170 25 170 35 170 42 Z" fill="#D69E2E"/>
+    <path d="M170 35 C185 31 188 18 178 13 C170 18 170 28 170 35 Z" fill="#ECC94B"/>
+  </g>
+
+  <!-- Directional Motion Indicators (Showing the shift/selection) -->
+  <path d="M55 165 L55 175 M55 175 L50 170 M55 175 L60 170" stroke="#E53E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M185 35 L185 25 M185 25 L180 30 M185 25 L190 30" stroke="#ECC94B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

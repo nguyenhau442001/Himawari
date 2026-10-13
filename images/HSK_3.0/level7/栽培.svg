@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Soil Mound -->
+  <path d="M40 180 C40 160, 200 160, 200 180 L200 210 L40 210 Z" fill="#3E4451"/>
+  
+  <!-- Plant Sprout -->
+  <path d="M120 180 L120 120 M120 140 L100 120 M120 140 L140 120" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="100" cy="120" rx="8" ry="12" fill="#FFB84D" transform="rotate(-30 100 120)"/>
+  <ellipse cx="140" cy="120" rx="8" ry="12" fill="#FFB84D" transform="rotate(30 140 120)"/>
+  
+  <!-- Caring Hands -->
+  <g fill="#FFB84D" opacity="0.9">
+    <!-- Left Hand -->
+    <path d="M70 190 C60 190, 50 170, 60 150 L75 145 L85 155 Z"/>
+    <!-- Right Hand -->
+    <path d="M170 190 C180 190, 190 170, 180 150 L165 145 L155 155 Z"/>
+  </g>
+  
+  <!-- Motion/Growth Lines -->
+  <path d="M120 110 L120 90 M130 100 L145 90 M110 100 L95 90" stroke="#5D677A" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+</svg>

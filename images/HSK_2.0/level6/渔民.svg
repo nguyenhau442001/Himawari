@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 40)">
+    <path d="M120 160C120 160 160 160 160 150L150 120L90 120L80 150C80 150 120 160 120 160Z" fill="#E67E22"/>
+    <path d="M100 120L100 90L140 90L140 120" fill="#E67E22"/>
+    <circle cx="120" cy="70" r="20" fill="#F39C12"/>
+    <path d="M110 75L130 75L120 85Z" fill="#D35400"/>
+    <path d="M120 120L120 60" stroke="#F39C12" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 60L140 40" stroke="#F39C12" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140 40L160 50" stroke="#F39C12" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140 40L150 30" stroke="#F39C12" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 100L160 100" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <path d="M160 100L165 95" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <path d="M160 100L165 105" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <path d="M40 160L200 160" stroke="#3498DB" stroke-width="6" stroke-linecap="round"/>
+    <path d="M50 170L190 170" stroke="#2980B9" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Atmosphere / Visual Contrast: Heavy downward blue waves representing melancholy state -->
+  <path d="M40 160 Q 120 180, 200 160" stroke="#2C3548" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M40 180 Q 120 200, 200 180" stroke="#2C3548" stroke-width="1.5" fill="none" opacity="0.3"/>
+
+  <!-- Falling rain / gloomy atmosphere lines -->
+  <line x1="70" y1="60" x2="65" y2="80" stroke="#3A4A6B" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="170" y1="80" x2="165" y2="100" stroke="#3A4A6B" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="185" y1="50" x2="180" y2="70" stroke="#3A4A6B" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Adjective Rule: Scale exaggeration / Visual Contrast (Small slumped figure against expansive, heavy void) -->
+  
+  <!-- Subtle window/frame element providing depth and framing the melancholy -->
+  <rect x="50" y="40" width="140" height="150" rx="12" fill="#212630" stroke="#2D3648" stroke-width="1.5"/>
+
+  <!-- Soft moody light gradient glow from top corner (Amber/Gold accent contrasting cold slate) -->
+  <circle cx="80" cy="40" r="50" fill="#E5A93B" opacity="0.08" filter="blur(10px)"/>
+
+  <!-- Character representing "他" (He) - Posed in a melancholic, slumped, contemplative state -->
+  <g transform="translate(0, 10)">
+    <!-- Body/Torso hunched over -->
+    <path d="M 105 130 C 100 115, 110 100, 125 100 C 140 100, 145 115, 140 135 L 145 160 C 145 165, 135 165, 135 160 L 132 140 L 115 140 L 112 160 C 112 165, 102 165, 102 160 Z" fill="#2D4356"/>
+
+    <!-- Head tilted downward -->
+    <circle cx="120" cy="85" r="14" fill="#E0E6ED"/>
+    <!-- Hair -->
+    <path d="M 106 82 C 106 73, 114 70, 122 71 C 130 72, 134 78, 134 85 C 131 83, 128 80, 120 80 C 112 80, 108 81, 106 82 Z" fill="#1E293B"/>
+
+    <!-- Slumped arms resting on knees/table edge -->
+    <!-- Left arm -->
+    <path d="M 112 110 Q 95 115, 90 130" stroke="#2D4356" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Right arm -->
+    <path d="M 135 110 Q 148 118, 142 135" stroke="#2D4356" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+    <!-- Subtle drooping posture indicator (Accent line showing weight/heaviness) -->
+    <path d="M 95 135 Q 120 145, 145 135" stroke="#E5A93B" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Desk / surface element -->
+  <rect x="70" y="150" width="100" height="6" rx="3" fill="#3B4758"/>
+
+  <!-- Single warm minimalist accent: A small glowing cup of tea/coffee on the desk, barely touched -->
+  <rect x="145" y="138" width="12" height="13" rx="2" fill="#E5A93B" opacity="0.9"/>
+  <!-- Steam rising faintly -->
+  <path d="M 151 133 C 149 128, 153 125, 151 120" stroke="#E5A93B" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

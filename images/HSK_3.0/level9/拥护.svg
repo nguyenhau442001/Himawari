@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(40, 60)">
+<path d="M80 120 L80 80 C80 60 100 40 120 40 C140 40 160 60 160 80 L160 120" fill="none" stroke="#FFB84D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100 120 L100 90 C100 75 110 65 120 65 C130 65 140 75 140 90 L140 120" fill="#FFB84D" opacity="0.3"/>
+<path d="M40 120 L120 120" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+<path d="M120 120 L200 120" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+<circle cx="120" cy="30" r="15" fill="#FFB84D"/>
+<path d="M60 120 L80 120 L80 160 L60 160 Z" fill="#FFB84D" opacity="0.6"/>
+<path d="M160 120 L180 120 L180 160 L160 160 Z" fill="#FFB84D" opacity="0.6"/>
+<path d="M100 120 L100 150" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+<path d="M140 120 L140 150" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+<path d="M90 150 L110 150" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+<path d="M130 150 L150 150" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g transform="translate(120, 180)">
+<path d="M-60 -20 L-40 -60 L-20 -20 Z" fill="#4D94FF" opacity="0.8"/>
+<path d="M20 -20 L40 -60 L60 -20 Z" fill="#4D94FF" opacity="0.8"/>
+<path d="M-20 -20 L0 -50 L20 -20 Z" fill="#4D94FF" opacity="0.8"/>
+</g>
+</svg>

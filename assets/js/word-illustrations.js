@@ -22547,15 +22547,265 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/迎面.svg",
     "caption": "đối diện, chính diện"
   },
+  "盈利": {
+    "file": "盈利.svg",
+    "src": "images/HSK_2.0/level6/盈利.svg",
+    "caption": "lợi nhuận"
+  },
+  "应酬": {
+    "file": "应酬.svg",
+    "src": "images/HSK_2.0/level6/应酬.svg",
+    "caption": "giao tiếp xã giao"
+  },
+  "应邀": {
+    "file": "应邀.svg",
+    "src": "images/HSK_2.0/level6/应邀.svg",
+    "caption": "nhận lời mời"
+  },
+  "拥护": {
+    "file": "拥护.svg",
+    "src": "images/HSK_2.0/level6/拥护.svg",
+    "caption": "ủng hộ"
+  },
   "拥有": {
     "file": "拥有.svg",
     "src": "images/HSK_2.0/level6/拥有.svg",
     "caption": "sở hữu, có"
   },
+  "勇于": {
+    "file": "勇于.svg",
+    "src": "images/HSK_2.0/level6/勇于.svg",
+    "caption": "dũng cảm (làm gì)"
+  },
+  "涌现": {
+    "file": "涌现.svg",
+    "src": "images/HSK_2.0/level6/涌现.svg",
+    "caption": "xuất hiện hàng loạt, nổi lên"
+  },
   "用户": {
     "file": "用户.svg",
     "src": "images/HSK_2.0/level6/用户.svg",
     "caption": "người dùng"
+  },
+  "优胜劣汰": {
+    "file": "优胜劣汰.svg",
+    "src": "images/HSK_2.0/level6/优胜劣汰.svg",
+    "caption": "chọn lọc tự nhiên, mạnh thắng yếu thua"
+  },
+  "优越": {
+    "file": "优越.svg",
+    "src": "images/HSK_2.0/level6/优越.svg",
+    "caption": "ưu việt"
+  },
+  "忧郁": {
+    "file": "忧郁.svg",
+    "src": "images/HSK_2.0/level6/忧郁.svg",
+    "caption": "u sầu, trầm uất"
+  },
+  "油腻": {
+    "file": "油腻.svg",
+    "src": "images/HSK_2.0/level6/油腻.svg",
+    "caption": "nhiều dầu mỡ"
+  },
+  "油漆": {
+    "file": "油漆.svg",
+    "src": "images/HSK_2.0/level6/油漆.svg",
+    "caption": "sơn (vật liệu)"
+  },
+  "犹如": {
+    "file": "犹如.svg",
+    "src": "images/HSK_2.0/level6/犹如.svg",
+    "caption": "giống như"
+  },
+  "有条不紊": {
+    "file": "有条不紊.svg",
+    "src": "images/HSK_2.0/level6/有条不紊.svg",
+    "caption": "có thứ tự, mạch lạc, ngăn nắp"
+  },
+  "幼稚": {
+    "file": "幼稚.svg",
+    "src": "images/HSK_2.0/level6/幼稚.svg",
+    "caption": "non nớt, ngây thơ"
+  },
+  "诱惑": {
+    "file": "诱惑.svg",
+    "src": "images/HSK_2.0/level6/诱惑.svg",
+    "caption": "cám dỗ"
+  },
+  "愚蠢": {
+    "file": "愚蠢.svg",
+    "src": "images/HSK_2.0/level6/愚蠢.svg",
+    "caption": "ngu ngốc"
+  },
+  "愚昧": {
+    "file": "愚昧.svg",
+    "src": "images/HSK_2.0/level6/愚昧.svg",
+    "caption": "ngu muội"
+  },
+  "舆论": {
+    "file": "舆论.svg",
+    "src": "images/HSK_2.0/level6/舆论.svg",
+    "caption": "dư luận"
+  },
+  "渔民": {
+    "file": "渔民.svg",
+    "src": "images/HSK_2.0/level6/渔民.svg",
+    "caption": "ngư dân"
+  },
+  "与日俱增": {
+    "file": "与日俱增.svg",
+    "src": "images/HSK_2.0/level6/与日俱增.svg",
+    "caption": "tăng theo từng ngày"
+  },
+  "羽绒服": {
+    "file": "羽绒服.svg",
+    "src": "images/HSK_2.0/level6/羽绒服.svg",
+    "caption": "áo lông vũ (áo phao)"
+  },
+  "宇宙": {
+    "file": "宇宙.svg",
+    "src": "images/HSK_2.0/level6/宇宙.svg",
+    "caption": "vũ trụ"
+  },
+  "愈": {
+    "file": "愈.svg",
+    "src": "images/HSK_2.0/level6/愈.svg",
+    "caption": "càng (...thì càng)"
+  },
+  "预料": {
+    "file": "预料.svg",
+    "src": "images/HSK_2.0/level6/预料.svg",
+    "caption": "dự đoán"
+  },
+  "预期": {
+    "file": "预期.svg",
+    "src": "images/HSK_2.0/level6/预期.svg",
+    "caption": "dự kiến"
+  },
+  "预算": {
+    "file": "预算.svg",
+    "src": "images/HSK_2.0/level6/预算.svg",
+    "caption": "dự toán, ngân sách"
+  },
+  "预先": {
+    "file": "预先.svg",
+    "src": "images/HSK_2.0/level6/预先.svg",
+    "caption": "trước, từ trước"
+  },
+  "预言": {
+    "file": "预言.svg",
+    "src": "images/HSK_2.0/level6/预言.svg",
+    "caption": "dự đoán, lời tiên đoán"
+  },
+  "预兆": {
+    "file": "预兆.svg",
+    "src": "images/HSK_2.0/level6/预兆.svg",
+    "caption": "điềm báo"
+  },
+  "玉": {
+    "file": "玉.svg",
+    "src": "images/HSK_2.0/level6/玉.svg",
+    "caption": "ngọc"
+  },
+  "欲望": {
+    "file": "欲望.svg",
+    "src": "images/HSK_2.0/level6/欲望.svg",
+    "caption": "dục vọng, mong muốn"
+  },
+  "寓言": {
+    "file": "寓言.svg",
+    "src": "images/HSK_2.0/level6/寓言.svg",
+    "caption": "truyện ngụ ngôn"
+  },
+  "冤枉": {
+    "file": "冤枉.svg",
+    "src": "images/HSK_2.0/level6/冤枉.svg",
+    "caption": "oan, bị oan"
+  },
+  "元首": {
+    "file": "元首.svg",
+    "src": "images/HSK_2.0/level6/元首.svg",
+    "caption": "nguyên thủ quốc gia"
+  },
+  "元素": {
+    "file": "元素.svg",
+    "src": "images/HSK_2.0/level6/元素.svg",
+    "caption": "nguyên tố, yếu tố"
+  },
+  "元宵节": {
+    "file": "元宵节.svg",
+    "src": "images/HSK_2.0/level6/元宵节.svg",
+    "caption": "Tết Nguyên Tiêu"
+  },
+  "圆满": {
+    "file": "圆满.svg",
+    "src": "images/HSK_2.0/level6/圆满.svg",
+    "caption": "viên mãn, trọn vẹn"
+  },
+  "原告": {
+    "file": "原告.svg",
+    "src": "images/HSK_2.0/level6/原告.svg",
+    "caption": "nguyên cáo, bên khởi tố"
+  },
+  "原理": {
+    "file": "原理.svg",
+    "src": "images/HSK_2.0/level6/原理.svg",
+    "caption": "nguyên lý"
+  },
+  "原始": {
+    "file": "原始.svg",
+    "src": "images/HSK_2.0/level6/原始.svg",
+    "caption": "nguyên thủy"
+  },
+  "原先": {
+    "file": "原先.svg",
+    "src": "images/HSK_2.0/level6/原先.svg",
+    "caption": "ban đầu, trước kia"
+  },
+  "园林": {
+    "file": "园林.svg",
+    "src": "images/HSK_2.0/level6/园林.svg",
+    "caption": "vườn cảnh"
+  },
+  "约束": {
+    "file": "约束.svg",
+    "src": "images/HSK_2.0/level6/约束.svg",
+    "caption": "ràng buộc, hạn chế"
+  },
+  "乐谱": {
+    "file": "乐谱.svg",
+    "src": "images/HSK_2.0/level6/乐谱.svg",
+    "caption": "bản nhạc, khuông nhạc"
+  },
+  "岳母": {
+    "file": "岳母.svg",
+    "src": "images/HSK_2.0/level6/岳母.svg",
+    "caption": "mẹ vợ"
+  },
+  "熨": {
+    "file": "熨.svg",
+    "src": "images/HSK_2.0/level6/熨.svg",
+    "caption": "là (ủi quần áo)"
+  },
+  "运算": {
+    "file": "运算.svg",
+    "src": "images/HSK_2.0/level6/运算.svg",
+    "caption": "tính toán"
+  },
+  "孕育": {
+    "file": "孕育.svg",
+    "src": "images/HSK_2.0/level6/孕育.svg",
+    "caption": "thai nghén, nuôi dưỡng (hình thành)"
+  },
+  "咋": {
+    "file": "咋.svg",
+    "src": "images/HSK_2.0/level6/咋.svg",
+    "caption": "sao, thế nào (khẩu ngữ)"
+  },
+  "栽培": {
+    "file": "栽培.svg",
+    "src": "images/HSK_2.0/level6/栽培.svg",
+    "caption": "trồng, vun trồng (cũng nghĩa bồi dưỡng nhân tài)"
   },
   "头": {
     "file": "头.svg",

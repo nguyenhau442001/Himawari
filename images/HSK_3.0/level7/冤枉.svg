@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background shadow/mood -->
+  <circle cx="120" cy="120" r="80" fill="#252932" opacity="0.5"/>
+  
+  <!-- The Accused Person (Center, feeling small/oppressed) -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-20 40 L-20 80 L20 80 L20 40 Z" fill="#7D8597"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="25" fill="#A0A8BD"/>
+    <!-- Expression of being wronged: Downcast eyes, small mouth -->
+    <path d="M-8 5 L-4 5 M4 5 L8 5" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-6 18 Q0 22 6 18" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The Accusation (Large, heavy, looming) -->
+  <g transform="translate(120, 120)">
+    <!-- Large heavy finger pointing down from above -->
+    <path d="M-10 -100 L10 -100 L10 -40 L25 -40 L0 -10 L-25 -40 L-10 -40 Z" fill="#FFB84D"/>
+    <!-- Shadow of the finger -->
+    <path d="M-10 -40 L10 -40 L10 -35 L-10 -35 Z" fill="#D99630"/>
+  </g>
+  
+  <!-- Contrast: The truth (Small, bright, hidden behind) -->
+  <g transform="translate(60, 180)">
+    <circle cx="0" cy="0" r="15" fill="#4DFFB8" opacity="0.8"/>
+    <path d="M-6 -2 L-2 2 L6 -6" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Visual indicator of "not me" (Hand gesture) -->
+  <g transform="translate(180, 180)">
+    <path d="M-10 10 L10 10 L5 -10 L-5 -10 Z" fill="#A0A8BD"/>
+    <path d="M-15 10 L15 10" stroke="#FF5C5C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

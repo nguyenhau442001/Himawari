@@ -1,0 +1,34 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative glowing elements (abstract civilization/nature growth aura) -->
+  <circle cx="120" cy="130" r="70" fill="#252A34" opacity="0.6"/>
+  <path d="M 60 180 Q 120 150 180 180" stroke="#313846" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Soil / Earth layer representing "这片土地" (The land / fertile ground) -->
+  <path d="M 60 170 C 80 160, 160 160, 180 170 L 195 195 C 195 200, 190 205, 185 205 L 55 205 C 50 205, 45 200, 45 195 Z" fill="#2E3544"/>
+  <path d="M 70 175 C 90 168, 150 168, 170 175 L 180 185 C 180 188, 177 190, 174 190 L 66 190 C 63 190, 60 188, 60 185 Z" fill="#3E475A"/>
+
+  <!-- Caring/Nurturing Hands cupped around the sprout (Verb: 孕育 / nurturing action) -->
+  <!-- Left hand -->
+  <path d="M 75 145 C 75 145, 85 175, 105 180 C 115 182, 120 175, 115 168 C 110 160, 95 140, 75 145 Z" fill="#E5A96E"/>
+  <path d="M 78 147 C 88 158, 100 172, 104 176" stroke="#C98B4B" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Right hand -->
+  <path d="M 165 145 C 165 145, 155 175, 135 180 C 125 182, 120 175, 125 168 C 130 160, 145 140, 165 145 Z" fill="#E5A96E"/>
+  <path d="M 162 147 C 152 158, 140 172, 136 176" stroke="#C98B4B" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Vibrant Sprout / Emerging Civilization Symbol (Gold/Orange accent for focus, representing brilliant civilization) -->
+  <path d="M 120 175 L 120 115" stroke="#4ADE80" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Glowing leaves unfurling / civilization blossoming -->
+  <path d="M 120 135 C 100 135, 90 115, 105 100 C 115 90, 120 110, 120 135 Z" fill="#F59E0B"/>
+  <path d="M 120 120 C 140 115, 155 95, 140 85 C 130 75, 120 95, 120 120 Z" fill="#FBBF24"/>
+  <path d="M 120 100 C 110 80, 120 60, 130 75 C 138 85, 130 95, 120 100 Z" fill="#10B981"/>
+
+  <!-- Motion / Energy radiance lines indicating nurturing process -->
+  <path d="M 95 95 C 90 90, 85 85, 80 80" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 145 95 C 150 90, 155 85, 160 80" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 120 65 C 120 58, 120 52, 120 45" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

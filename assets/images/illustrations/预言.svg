@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character: The person making the prediction -->
+  <g transform="translate(60, 80)">
+    <!-- Arm/Hand gesturing forward -->
+    <path d="M40 60 L80 40 L90 50" stroke="#FFB84D" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Body -->
+    <circle cx="40" cy="40" r="20" fill="#E0E0E0"/>
+    <path d="M20 60 Q40 100 60 60" fill="#E0E0E0"/>
+  </g>
+
+  <!-- The "Vision" or "Prediction" manifesting -->
+  <g transform="translate(140, 60)">
+    <!-- Motion lines indicating the emergence of the future -->
+    <path d="M-10 20 L-30 10" stroke="#5DADE2" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-10 40 L-30 50" stroke="#5DADE2" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- The manifestation: A solid, realized object (a house/structure) -->
+    <path d="M0 60 L40 60 L40 30 L20 10 L0 30 Z" fill="#FFB84D"/>
+    <rect x="10" y="35" width="20" height="25" fill="#1A1D24"/>
+  </g>
+
+  <!-- Ground line -->
+  <path d="M30 160 L210 160" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+</svg>

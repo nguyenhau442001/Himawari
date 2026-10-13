@@ -1,0 +1,57 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Visual Contrast Representation for Adjective (优越 - superior/advantageous) -->
+  <!-- Left Side: Standard/Basic condition (muted, smaller scale, flat landscape) -->
+  <g transform="translate(25, 110)">
+    <!-- Flat ground -->
+    <path d="M0 65 L70 65" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    <!-- Basic terrain hill -->
+    <path d="M10 65 Q35 35 60 65" fill="#2A3441"/>
+    <!-- Basic single cottage -->
+    <rect x="25" y="45" width="20" height="20" fill="#3A4454"/>
+    <polygon points="20,45 35,30 50,45" fill="#4A5568"/>
+    <!-- Weak signal/sun -->
+    <circle cx="35" cy="15" r="6" fill="#4A5568"/>
+  </g>
+
+  <!-- Divider indicating contrast/elevation -->
+  <line x1="105" y1="50" x2="105" y2="190" stroke="#2D3748" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Right Side: Superior/Advantageous condition (优越 - elevated, thriving, vibrant gold accent) -->
+  <g transform="translate(125, 75)">
+    <!-- Elevated tiered platform / geographic advantage -->
+    <!-- Lower tier -->
+    <path d="M10 115 L90 115 L100 100 L0 100 Z" fill="#253245"/>
+    <!-- Upper tier (Higher, better position) -->
+    <path d="M20 100 L80 100 L90 75 L10 75 Z" fill="#2E3F59"/>
+    
+    <!-- Thriving Modern Architecture (Superior Condition) -->
+    <!-- Modern high-rise building representing prime location/conditions -->
+    <rect x="35" y="25" width="30" height="50" rx="3" fill="#3B5275"/>
+    <!-- Glowing windows (grid) -->
+    <rect x="41" y="32" width="6" height="8" rx="1" fill="#F6AD55"/>
+    <rect x="53" y="32" width="6" height="8" rx="1" fill="#F6AD55"/>
+    <rect x="41" y="46" width="6" height="8" rx="1" fill="#F6AD55"/>
+    <rect x="53" y="46" width="6" height="8" rx="1" fill="#F6AD55"/>
+    <rect x="41" y="60" width="6" height="8" rx="1" fill="#F6AD55"/>
+    <rect x="53" y="60" width="6" height="8" rx="1" fill="#F6AD55"/>
+
+    <!-- Lush flourishing nature (Geographic fertility/advantage) -->
+    <circle cx="20" cy="85" r="10" fill="#48BB78"/>
+    <path d="M20 95 L20 100" stroke="#2D3748" stroke-width="2"/>
+    <circle cx="80" cy="82" r="12" fill="#38A169"/>
+    <path d="M80 94 L80 100" stroke="#2D3748" stroke-width="2"/>
+
+    <!-- Radiating Apex / Superiority Indicator (Gold accent) -->
+    <circle cx="50" cy="12" r="8" fill="#ED8936"/>
+    <path d="M50 0 L50 3" stroke="#ED8936" stroke-width="2" stroke-linecap="round"/>
+    <path d="M38 5 L40 7" stroke="#ED8936" stroke-width="2" stroke-linecap="round"/>
+    <path d="M62 5 L60 7" stroke="#ED8936" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Top Accent / Scale Comparison indicator brackets -->
+  <path d="M125 50 L125 40 L215 40 L215 50" fill="none" stroke="#ED8936" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="170" cy="40" r="3" fill="#ED8936"/>
+</svg>

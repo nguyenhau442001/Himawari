@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Contrast for Adjective: "油腻" (Greasy/Oily food context) -->
+  <!-- Left Side: Clean/Light contrast or reference bowl -->
+  <!-- Right Side / Central Focus: Heavy, glistening, overly oily dish representation -->
+  
+  <g transform="translate(0, 0)">
+    <!-- Plate / Bowl Rim (Modern Flat Vector) -->
+    <ellipse cx="120" cy="140" rx="75" ry="35" fill="#2A2F3D" stroke="#3A4254" stroke-width="3"/>
+    
+    <!-- Food Base (e.g., Braised Pork / Meaty dish chunks) -->
+    <path d="M 75 130 C 75 115, 95 105, 120 110 C 145 105, 165 115, 165 130 C 165 145, 145 155, 120 155 C 95 155, 75 145, 75 130 Z" fill="#D97706"/>
+    
+    <!-- Food Chunks inside bowl -->
+    <path d="M 85 125 C 90 115, 110 115, 115 125 C 120 135, 95 145, 85 125 Z" fill="#B45309"/>
+    <path d="M 125 120 C 135 112, 155 120, 150 130 C 145 140, 120 135, 125 120 Z" fill="#B45309"/>
+    <path d="M 100 135 C 110 125, 135 130, 130 145 C 120 150, 95 145, 100 135 Z" fill="#92400E"/>
+
+    <!-- High-Contrast Accent: Oily/Greasy Layer & Glossy Droplets (Scale Exaggeration) -->
+    <ellipse cx="120" cy="132" rx="55" ry="22" fill="#F59E0B" opacity="0.4"/>
+    
+    <!-- Heavy Gloss Highlights (Representing excessive oil/fat) -->
+    <path d="M 90 120 Q 98 112 108 118" stroke="#FEF3C7" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M 130 118 Q 140 114 148 122" stroke="#FEF3C7" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 110 138 Q 120 132 130 140" stroke="#FEF3C7" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Floating Oily Droplets / Heavy Sebum visual cues -->
+    <circle cx="70" cy="95" r="6" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="63" cy="99" r="3" fill="#FEE685" opacity="0.9"/>
+    
+    <circle cx="170" cy="90" r="8" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="178" cy="86" r="4" fill="#FEE685" opacity="0.9"/>
+    
+    <circle cx="155" cy="80" r="5" fill="#F59E0B" opacity="0.7"/>
+
+    <circle cx="85" cy="82" r="4" fill="#F59E0B" opacity="0.8"/>
+    
+    <!-- Steam / Rich Heavy Vapor lines (Adjective state visualization) -->
+    <path d="M 100 90 Q 95 75 105 60" stroke="#4B5563" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 120 85 Q 125 70 115 55" stroke="#4B5563" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 140 90 Q 145 78 138 65" stroke="#4B5563" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+</svg>
