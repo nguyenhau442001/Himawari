@@ -1,0 +1,55 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration: "下课" (Tan học / Hết tiết) -->
+  <!-- Central Physical Object: School Bell / Classroom Bell & Open Classroom Door symbolizing dismissal -->
+  
+  <g transform="translate(0, 0)">
+    <!-- Ambient glow for focus -->
+    <circle cx="120" cy="115" r="70" fill="#252D3D" opacity="0.6"/>
+
+    <!-- School Doorway / Exit frame -->
+    <rect x="75" y="55" width="90" height="135" rx="4" fill="#212836" stroke="#323C50" stroke-width="3"/>
+    
+    <!-- Open Door -->
+    <path d="M135 60 L160 70 L160 180 L135 190 Z" fill="#161A22" stroke="#323C50" stroke-width="2"/>
+    
+    <!-- Classroom interior hint -->
+    <rect x="90" y="80" width="35" height="40" rx="2" fill="#2D3748"/>
+    <line x1="90" y1="135" x2="125" y2="135" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- The Bell (Centerpiece representing the ringing bell at the end of class) -->
+    <!-- Bell dome -->
+    <path d="M120 70 C102 70 95 88 95 105 L145 105 C145 88 138 70 120 70 Z" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    
+    <!-- Bell rim -->
+    <ellipse cx="120" cy="105" rx="27" ry="5" fill="#FBBF24" stroke="#D97706" stroke-width="2"/>
+    
+    <!-- Bell top handle -->
+    <rect x="115" y="60" width="10" height="12" rx="2" fill="#D97706"/>
+    <circle cx="120" cy="57" r="4" fill="#F59E0B"/>
+
+    <!-- Bell clapper inside -->
+    <circle cx="120" cy="113" r="5" fill="#B45309"/>
+
+    <!-- Sound waves indicating ringing ("铃声响了") -->
+    <path d="M85 85 C80 92 80 102 85 110" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M73 78 C65 90 65 105 73 118" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+    
+    <path d="M155 85 C160 92 160 102 155 110" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M167 78 C175 90 175 105 167 118" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+    <!-- Motion / Exit Action: Stylized students exiting represented by dynamic figures or backpacks -->
+    <!-- Backpack (School item left behind / grabbed for leaving) -->
+    <g transform="translate(145, 130)">
+      <rect x="0" y="10" width="22" height="28" rx="6" fill="#3B82F6"/>
+      <path d="M6 10 C6 5 16 5 16 10" stroke="#1D4ED8" stroke-width="3" fill="none"/>
+      <rect x="4" y="18" width="14" height="12" rx="3" fill="#2563EB"/>
+      <circle cx="11" cy="24" r="2" fill="#93C5FD"/>
+    </g>
+
+    <!-- Floor line -->
+    <line x1="50" y1="190" x2="190" y2="190" stroke="#323C50" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

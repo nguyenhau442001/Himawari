@@ -1,0 +1,27 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Smartphone Body -->
+    <rect x="-40" y="-70" width="80" height="140" rx="12" fill="#2C323B" stroke="#464F5E" stroke-width="3"/>
+    <!-- Phone Screen -->
+    <rect x="-34" y="-56" width="68" height="112" rx="6" fill="#12151A"/>
+    
+    <!-- Phone Speaker Notch -->
+    <rect x="-12" y="-63" width="24" height="4" rx="2" fill="#464F5E"/>
+    
+    <!-- Call Active UI elements inside screen -->
+    <!-- Avatar circle -->
+    <circle cx="0" cy="-22" r="16" fill="#3A4250"/>
+    <circle cx="0" cy="-26" r="7" fill="#616D85"/>
+    <path d="M-12 -2 C-12 -10 -6 -12 0 -12 C6 -12 12 -10 12 -2" fill="#616D85"/>
+    
+    <!-- Waveform / Sound Active indicator -->
+    <rect x="-18" y="6" width="36" height="3" rx="1.5" fill="#FFA500"/>
+    <rect x="-12" y="13" width="24" height="3" rx="1.5" fill="#FFA500"/>
+    
+    <!-- Audio Wave / Signal Emanating from Phone -->
+    <path d="M 52 -25 C 62 -10, 62 10, 52 25" fill="none" stroke="#FFA500" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 64 -38 C 78 -15, 78 15, 64 38" fill="none" stroke="#FFA500" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

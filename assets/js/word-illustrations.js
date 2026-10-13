@@ -23147,6 +23147,171 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level1/睡.svg",
     "caption": "ngủ"
   },
+  "它们": {
+    "file": "它们.svg",
+    "src": "images/HSK_3.0/level1/它们.svg",
+    "caption": "chúng nó, chúng (chỉ đồ vật, động vật)"
+  },
+  "天": {
+    "file": "天.svg",
+    "src": "images/HSK_3.0/level1/天.svg",
+    "caption": "trời (danh từ, định lượng)"
+  },
+  "听见": {
+    "file": "听见.svg",
+    "src": "images/HSK_3.0/level1/听见.svg",
+    "caption": "nghe thấy"
+  },
+  "外边": {
+    "file": "外边.svg",
+    "src": "images/HSK_3.0/level1/外边.svg",
+    "caption": "bên ngoài, ngoài"
+  },
+  "晚": {
+    "file": "晚.svg",
+    "src": "images/HSK_3.0/level1/晚.svg",
+    "caption": "muộn"
+  },
+  "晚饭": {
+    "file": "晚饭.svg",
+    "src": "images/HSK_3.0/level1/晚饭.svg",
+    "caption": "bữa tối"
+  },
+  "喂¹": {
+    "file": "喂¹.svg",
+    "src": "images/HSK_3.0/level1/喂¹.svg",
+    "caption": "alô (chào điện thoại)"
+  },
+  "午饭": {
+    "file": "午饭.svg",
+    "src": "images/HSK_3.0/level1/午饭.svg",
+    "caption": "bữa trưa, cơm trưa"
+  },
+  "下班": {
+    "file": "下班.svg",
+    "src": "images/HSK_3.0/level1/下班.svg",
+    "caption": "nghỉ làm"
+  },
+  "下课": {
+    "file": "下课.svg",
+    "src": "images/HSK_3.0/level1/下课.svg",
+    "caption": "tan học, hết tiết"
+  },
+  "小朋友": {
+    "file": "小朋友.svg",
+    "src": "images/HSK_3.0/level1/小朋友.svg",
+    "caption": "em nhỏ, bạn nhỏ"
+  },
+  "小学": {
+    "file": "小学.svg",
+    "src": "images/HSK_3.0/level1/小学.svg",
+    "caption": "trường tiểu học"
+  },
+  "小学生": {
+    "file": "小学生.svg",
+    "src": "images/HSK_3.0/level1/小学生.svg",
+    "caption": "học sinh tiểu học"
+  },
+  "星期日": {
+    "file": "星期日.svg",
+    "src": "images/HSK_3.0/level1/星期日.svg",
+    "caption": "chủ nhật"
+  },
+  "星期天": {
+    "file": "星期天.svg",
+    "src": "images/HSK_3.0/level1/星期天.svg",
+    "caption": "chủ nhật"
+  },
+  "学": {
+    "file": "学.svg",
+    "src": "images/HSK_3.0/level1/学.svg",
+    "caption": "học"
+  },
+  "一半": {
+    "file": "一半.svg",
+    "src": "images/HSK_3.0/level1/一半.svg",
+    "caption": "một nửa"
+  },
+  "一些": {
+    "file": "一些.svg",
+    "src": "images/HSK_3.0/level1/一些.svg",
+    "caption": "một số, một vài, một ít"
+  },
+  "有的": {
+    "file": "有的.svg",
+    "src": "images/HSK_3.0/level1/有的.svg",
+    "caption": "có người, có cái, một số"
+  },
+  "有点儿": {
+    "file": "有点儿.svg",
+    "src": "images/HSK_3.0/level1/有点儿.svg",
+    "caption": "hơi, một chút"
+  },
+  "有些": {
+    "file": "有些.svg",
+    "src": "images/HSK_3.0/level1/有些.svg",
+    "caption": "một số (đại từ, trạng từ)"
+  },
+  "雨": {
+    "file": "雨.svg",
+    "src": "images/HSK_3.0/level1/雨.svg",
+    "caption": "mưa"
+  },
+  "早": {
+    "file": "早.svg",
+    "src": "images/HSK_3.0/level1/早.svg",
+    "caption": "sớm"
+  },
+  "早饭": {
+    "file": "早饭.svg",
+    "src": "images/HSK_3.0/level1/早饭.svg",
+    "caption": "bữa sáng, cơm sáng"
+  },
+  "这边": {
+    "file": "这边.svg",
+    "src": "images/HSK_3.0/level1/这边.svg",
+    "caption": "bên này, phía này"
+  },
+  "这个": {
+    "file": "这个.svg",
+    "src": "images/HSK_3.0/level1/这个.svg",
+    "caption": "cái này (đại từ)"
+  },
+  "这里": {
+    "file": "这里.svg",
+    "src": "images/HSK_3.0/level1/这里.svg",
+    "caption": "đây (đại từ)"
+  },
+  "这儿": {
+    "file": "这儿.svg",
+    "src": "images/HSK_3.0/level1/这儿.svg",
+    "caption": "ở đây, chỗ này"
+  },
+  "这些": {
+    "file": "这些.svg",
+    "src": "images/HSK_3.0/level1/这些.svg",
+    "caption": "những (đại từ) này"
+  },
+  "只": {
+    "file": "只.svg",
+    "src": "images/HSK_3.0/level1/只.svg",
+    "caption": "con, chiếc, cái (lượng từ: 一只猫)"
+  },
+  "中学": {
+    "file": "中学.svg",
+    "src": "images/HSK_3.0/level1/中学.svg",
+    "caption": "trường trung học (cấp 2, cấp 3)"
+  },
+  "中学生": {
+    "file": "中学生.svg",
+    "src": "images/HSK_3.0/level1/中学生.svg",
+    "caption": "học sinh trung học"
+  },
+  "做饭": {
+    "file": "做饭.svg",
+    "src": "images/HSK_3.0/level1/做饭.svg",
+    "caption": "nấu ăn"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",

@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Modern Secondary School Building Illustration -->
+  <g transform="translate(30, 45)">
+    <!-- Main building body -->
+    <rect x="20" y="50" width="140" height="90" fill="#2D333B" rx="4"/>
+    
+    <!-- Left wing / entrance structure -->
+    <path d="M 60 140 L 60 80 L 120 80 L 120 140 Z" fill="#38414E"/>
+    <rect x="75" y="100" width="30" height="40" fill="#1A1D24" rx="2"/>
+    
+    <!-- Double doors -->
+    <line x1="90" y1="100" x2="90" y2="140" stroke="#4E5D6C" stroke-width="2"/>
+
+    <!-- Windows - Grid pattern for classrooms -->
+    <!-- Row 1 Left -->
+    <rect x="32" y="60" width="16" height="20" fill="#F0B429" rx="2"/>
+    <rect x="54" y="60" width="16" height="20" fill="#627D98" rx="2"/>
+    
+    <!-- Row 1 Right -->
+    <rect x="110" y="60" width="16" height="20" fill="#F0B429" rx="2"/>
+    <rect x="132" y="60" width="16" height="20" fill="#F0B429" rx="2"/>
+
+    <!-- Row 2 Left -->
+    <rect x="32" y="90" width="16" height="20" fill="#627D98" rx="2"/>
+    
+    <!-- Row 2 Right -->
+    <rect x="132" y="90" width="16" height="20" fill="#627D98" rx="2"/>
+
+    <!-- Roof / Architectural Accent -->
+    <polygon points="10,50 90,20 170,50" fill="#E2E8F0"/>
+    <rect x="80" y="15" width="20" height="15" fill="#CBD5E1"/>
+    
+    <!-- Flagpole and Flag -->
+    <line x1="90" y1="15" x2="90" y2="2" stroke="#94A3B8" stroke-width="2"/>
+    <polygon points="90,2 115,10 90,18" fill="#F0B429"/>
+
+    <!-- Ground / Campus floor -->
+    <rect x="0" y="140" width="180" height="6" fill="#475569" rx="3"/>
+    
+    <!-- Tree representing campus environment -->
+    <circle cx="160" cy="125" r="15" fill="#3B82F6"/>
+    <rect x="158" y="125" width="4" height="20" fill="#78350F"/>
+  </g>
+</svg>

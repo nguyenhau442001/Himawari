@@ -1,0 +1,69 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements for depth -->
+  <circle cx="120" cy="120" r="90" fill="none" stroke="#252A34" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6"/>
+
+  <!-- Visual Metaphor: Grouping / Selection / Plurality ("These") -->
+  <!-- Context reference: "这些水果很新鲜" - Highlighting a specific cluster of items close by -->
+  
+  <g transform="translate(0, 10)">
+    <!-- Base platform / ground plane -->
+    <ellipse cx="120" cy="175" rx="75" ry="16" fill="#252A34"/>
+    <ellipse cx="120" cy="175" rx="65" ry="12" fill="none" stroke="#323846" stroke-width="2"/>
+
+    <!-- Focal Bracket / Pointer Indicator (Visualizing "These" / Specific Plurality) -->
+    <path d="M 60 70 L 50 70 C 44 70 40 74 40 80 L 40 110 C 40 116 44 120 50 120 L 55 120" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 180 70 L 190 70 C 196 70 200 74 200 80 L 200 110 C 200 116 196 120 190 120 L 185 120" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Ground indicator markers (Pointing to the specific cluster) -->
+    <path d="M 120 160 L 120 135 M 115 140 L 120 135 L 125 140" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Item 1: Left Fresh Fruit (Stylized Apple/Citrus representation) -->
+    <g transform="translate(85, 135)">
+      <!-- Shadow -->
+      <ellipse cx="0" cy="20" rx="14" ry="4" fill="#14161B"/>
+      <!-- Body -->
+      <circle cx="0" cy="5" r="16" fill="#EF4444"/>
+      <path d="M 0 -11 C -2 -14 -1 -17 2 -18" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 2 -15 C 6 -17 8 -13 5 -10" fill="#10B981"/>
+      <!-- Fresh highlight -->
+      <circle cx="-5" cy="0" r="3" fill="#FCA5A5" opacity="0.6"/>
+    </g>
+
+    <!-- Item 2: Right Fresh Fruit (Stylized Orange/Citrus) -->
+    <g transform="translate(155, 135)">
+      <!-- Shadow -->
+      <ellipse cx="0" cy="20" rx="14" ry="4" fill="#14161B"/>
+      <!-- Body -->
+      <circle cx="0" cy="5" r="15" fill="#F97316"/>
+      <circle cx="0" cy="-10" r="2" fill="#10B981"/>
+      <!-- Fresh highlight -->
+      <circle cx="-4" cy="-1" r="2.5" fill="#FED7AA" opacity="0.6"/>
+    </g>
+
+    <!-- Item 3: Center Foreground Fresh Fruit (Stylized Pear/Berry) -->
+    <g transform="translate(120, 120)">
+      <!-- Shadow -->
+      <ellipse cx="0" cy="30" rx="16" ry="5" fill="#14161B"/>
+      <!-- Body -->
+      <path d="M 0 5 C 12 5 16 -5 12 -14 C 9 -20 3 -22 0 -22 C -3 -22 -9 -20 -12 -14 C -16 -5 -12 5 0 5 Z" fill="#10B981"/>
+      <path d="M 0 -22 L 0 -28" fill="none" stroke="#92400E" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 0 -26 C 4 -28 7 -25 5 -22" fill="#34D399"/>
+      <!-- Fresh highlight -->
+      <path d="M -4 -8 C -6 -4 -4 0 -2 2" fill="none" stroke="#A7F3D0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    </g>
+
+    <!-- Sparkles indicating "Freshness" / Highlighting closeness -->
+    <g transform="translate(120, 60)">
+      <path d="M 0 -8 L 2 -2 L 8 0 L 2 2 L 0 8 L -2 2 L -8 0 L -2 -2 Z" fill="#F59E0B"/>
+    </g>
+    <g transform="translate(75, 95)">
+      <path d="M 0 -5 L 1 -1 L 5 0 L 1 1 L 0 5 L -1 1 L -5 0 L -1 -1 Z" fill="#F59E0B" opacity="0.8"/>
+    </g>
+    <g transform="translate(165, 95)">
+      <path d="M 0 -5 L 1 -1 L 5 0 L 1 1 L 0 5 L -1 1 L -5 0 L -1 -1 Z" fill="#F59E0B" opacity="0.8"/>
+    </g>
+  </g>
+</svg>

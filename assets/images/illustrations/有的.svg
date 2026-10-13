@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M20 190 H220" stroke="#3A3F4B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Character 1: Running -->
+  <g transform="translate(60, 120)">
+    <circle cx="10" cy="10" r="10" fill="#FFB84D"/>
+    <path d="M10 20 L10 50 M10 30 L0 40 M10 30 L20 40 M10 50 L0 70 M10 50 L20 60" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 60 L35 65" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Character 2: Ball Player -->
+  <g transform="translate(160, 120)">
+    <circle cx="10" cy="10" r="10" fill="#FFB84D"/>
+    <path d="M10 20 L10 50 M10 30 L-10 40 M10 30 L30 40 M10 50 L0 70 M10 50 L20 70" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="40" cy="40" r="8" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Divider/Grouping Indicator -->
+  <path d="M120 100 L120 180" stroke="#3A3F4B" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

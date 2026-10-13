@@ -1,0 +1,62 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed dark mode container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle ground shadow / platform -->
+  <ellipse cx="120" cy="180" rx="70" ry="12" fill="#121418" opacity="0.8"/>
+
+  <!-- Left Cat (Orange Tabby) representing the first part of "它们" -->
+  <g transform="translate(65, 100)">
+    <!-- Cat body -->
+    <ellipse cx="0" cy="40" rx="22" ry="28" fill="#F48C38"/>
+    <!-- Cat tail curving up -->
+    <path d="M-18 55 C-30 55 -35 30 -28 20" fill="none" stroke="#F48C38" stroke-width="6" stroke-linecap="round"/>
+    <!-- Cat head -->
+    <circle cx="0" cy="12" r="20" fill="#F48C38"/>
+    <!-- Left ear -->
+    <polygon points="-16,0 -20,-12 -8,-4" fill="#F48C38"/>
+    <polygon points="-15,-2 -18,-9 -9,-4" fill="#FAD4B2"/>
+    <!-- Right ear -->
+    <polygon points="16,0 20,-12 8,-4" fill="#F48C38"/>
+    <polygon points="15,-2 18,-9 9,-4" fill="#FAD4B2"/>
+    <!-- Cheeks/Face details -->
+    <circle cx="-7" cy="14" r="2.5" fill="#2C3038"/>
+    <circle cx="7" cy="14" r="2.5" fill="#2C3038"/>
+    <polygon points="0,17 -3,20 3,20" fill="#FAD4B2"/>
+    <!-- Whiskers -->
+    <line x1="-12" y1="19" x2="-22" y2="18" stroke="#FAD4B2" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-12" y1="22" x2="-22" y2="23" stroke="#FAD4B2" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="12" y1="19" x2="22" y2="18" stroke="#FAD4B2" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="12" y1="22" x2="22" y2="23" stroke="#FAD4B2" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Cat (Gray/Slate Cat) representing the second part of "它们" -->
+  <g transform="translate(175, 100)">
+    <!-- Cat body -->
+    <ellipse cx="0" cy="40" rx="22" ry="28" fill="#8C9EAB"/>
+    <!-- Cat tail curving up -->
+    <path d="M18 55 C30 55 35 30 28 20" fill="none" stroke="#8C9EAB" stroke-width="6" stroke-linecap="round"/>
+    <!-- Cat head -->
+    <circle cx="0" cy="12" r="20" fill="#8C9EAB"/>
+    <!-- Left ear -->
+    <polygon points="-16,0 -20,-12 -8,-4" fill="#8C9EAB"/>
+    <polygon points="-15,-2 -18,-9 -9,-4" fill="#D2DCE2"/>
+    <!-- Right ear -->
+    <polygon points="16,0 20,-12 8,-4" fill="#8C9EAB"/>
+    <polygon points="15,-2 18,-9 9,-4" fill="#D2DCE2"/>
+    <!-- Cheeks/Face details -->
+    <circle cx="-7" cy="14" r="2.5" fill="#2C3038"/>
+    <circle cx="7" cy="14" r="2.5" fill="#2C3038"/>
+    <polygon points="0,17 -3,20 3,20" fill="#D2DCE2"/>
+    <!-- Whiskers -->
+    <line x1="-12" y1="19" x2="-22" y2="18" stroke="#D2DCE2" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-12" y1="22" x2="-22" y2="23" stroke="#D2DCE2" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="12" y1="19" x2="22" y2="18" stroke="#D2DCE2" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="12" y1="22" x2="22" y2="23" stroke="#D2DCE2" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Focus/Grouping Indicator (Curved bracket pointing downward above them, highlighting plural subject) -->
+  <path d="M 85 55 C 100 45, 140 45, 155 55" fill="none" stroke="#F48C38" stroke-width="3" stroke-linecap="round"/>
+  <!-- Small sparkling accent to highlight the plural grouping cleanly without text -->
+  <path d="M120,38 L122,43 L127,45 L122,47 L120,52 L118,47 L113,45 L118,43 Z" fill="#F48C38" opacity="0.9"/>
+</svg>

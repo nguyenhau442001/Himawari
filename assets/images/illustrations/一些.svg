@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table surface -->
+  <path d="M40 170 L200 170 L190 190 L50 190 Z" fill="#343A46"/>
+  <path d="M50 190 L190 190 L180 210 L60 210 Z" fill="#252A34"/>
+  
+  <!-- Fruits representing "some/a few" -->
+  <!-- Apple 1 -->
+  <circle cx="90" cy="160" r="18" fill="#FF6B6B"/>
+  <path d="M90 142 L92 132 L98 135 Z" fill="#51CF66"/>
+  
+  <!-- Pear -->
+  <path d="M120 165 C120 145, 135 140, 135 160 C135 175, 125 175, 120 165 Z" fill="#FCC419"/>
+  <path d="M128 142 L128 135" stroke="#868E96" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Apple 2 -->
+  <circle cx="155" cy="165" r="15" fill="#FF6B6B"/>
+  <path d="M155 150 L157 140 L163 143 Z" fill="#51CF66"/>
+  
+  <!-- Orange -->
+  <circle cx="110" cy="175" r="12" fill="#FF922B"/>
+  <circle cx="110" cy="175" r="1" fill="#E67700"/>
+</svg>

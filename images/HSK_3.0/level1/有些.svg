@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: A magnifying glass zooming into a specific detail of a document to reveal "some" (yǒuxiē) imperfections -->
+  
+  <!-- Document background -->
+  <rect x="60" y="60" width="120" height="120" rx="4" fill="#2D343E"/>
+  
+  <!-- Lines representing text on the document -->
+  <rect x="75" y="80" width="90" height="6" rx="2" fill="#4A5568"/>
+  <rect x="75" y="95" width="90" height="6" rx="2" fill="#4A5568"/>
+  <rect x="75" y="110" width="90" height="6" rx="2" fill="#4A5568"/>
+  <rect x="75" y="125" width="60" height="6" rx="2" fill="#4A5568"/>
+  
+  <!-- The "imperfections" - highlighted in orange -->
+  <rect x="135" y="110" width="15" height="6" rx="2" fill="#FFB84D"/>
+  <rect x="75" y="140" width="20" height="6" rx="2" fill="#FFB84D"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="140" cy="120" r="35" fill="none" stroke="#E2E8F0" stroke-width="4"/>
+  <line x1="165" y1="145" x2="195" y2="175" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Focus area inside the lens -->
+  <circle cx="140" cy="120" r="25" fill="none" stroke="#FFB84D" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Highlighting the specific "some" points -->
+  <circle cx="142" cy="113" r="4" fill="#FFB84D"/>
+  <circle cx="85" cy="143" r="4" fill="#FFB84D"/>
+</svg>

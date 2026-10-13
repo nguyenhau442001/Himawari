@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Escalation/Progression of crowd density -->
+  <!-- Baseline level (left) to extreme outcome (right) -->
+  
+  <!-- Ground line -->
+  <path d="M40 180 L200 180" stroke="#3A404D" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Progression: Sparse to Dense -->
+  <!-- Group 1: Baseline (Sparse) -->
+  <circle cx="60" cy="170" r="6" fill="#4A90E2"/>
+  <circle cx="75" cy="170" r="6" fill="#4A90E2"/>
+  
+  <!-- Group 2: Escalation (Increasing) -->
+  <circle cx="105" cy="160" r="6" fill="#F5A623"/>
+  <circle cx="120" cy="160" r="6" fill="#F5A623"/>
+  <circle cx="105" cy="175" r="6" fill="#F5A623"/>
+  <circle cx="120" cy="175" r="6" fill="#F5A623"/>
+  
+  <!-- Group 3: Extreme Outcome (Dense/Crowded) -->
+  <circle cx="150" cy="150" r="6" fill="#FFD700"/>
+  <circle cx="165" cy="150" r="6" fill="#FFD700"/>
+  <circle cx="180" cy="150" r="6" fill="#FFD700"/>
+  <circle cx="150" cy="165" r="6" fill="#FFD700"/>
+  <circle cx="165" cy="165" r="6" fill="#FFD700"/>
+  <circle cx="180" cy="165" r="6" fill="#FFD700"/>
+  <circle cx="150" cy="180" r="6" fill="#FFD700"/>
+  <circle cx="165" cy="180" r="6" fill="#FFD700"/>
+  <circle cx="180" cy="180" r="6" fill="#FFD700"/>
+  
+  <!-- Magnifying glass focus on the dense area to emphasize "Here" -->
+  <circle cx="165" cy="165" r="35" stroke="#FFD700" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M190 190 L205 205" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+</svg>

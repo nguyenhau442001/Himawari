@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Backpack -->
+  <path d="M95 120h50v60c0 5-5 10-10 10h-30c-5 0-10-5-10-10v-60z" fill="#FFB347"/>
+  <path d="M105 130h30v15h-30z" fill="#E69138"/>
+  <path d="M115 110h10v10h-10z" fill="#FFB347"/>
+  
+  <!-- Character Body (Action: Walking to school) -->
+  <g fill="#A0AEC0">
+    <!-- Legs -->
+    <path d="M105 180h10v40h-10z" transform="rotate(-15 110 180)"/>
+    <path d="M125 180h10v40h-10z" transform="rotate(10 130 180)"/>
+  </g>
+  
+  <!-- Torso -->
+  <path d="M100 120h40v60h-40z" fill="#4A90E2"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="95" r="25" fill="#FFD1A9"/>
+  
+  <!-- Hair -->
+  <path d="M95 95c0-15 10-25 25-25s25 10 25 25v5h-50z" fill="#4A4A4A"/>
+  
+  <!-- Motion Lines -->
+  <path d="M160 100l15-5M165 120l20-5M160 140l15 5" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Book in hand -->
+  <rect x="140" y="140" width="25" height="35" rx="2" fill="#FFFFFF"/>
+  <path d="M140 150h25M140 160h25" stroke="#1A1D24" stroke-width="1"/>
+</svg>

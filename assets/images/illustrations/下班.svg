@@ -1,0 +1,71 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Wall & Office Background Elements -->
+  <rect x="30" y="40" width="180" height="120" rx="4" fill="#222730" />
+  <rect x="45" y="55" width="50" height="30" rx="2" fill="#2C3440" />
+  <!-- Window showing sunset/evening transition -->
+  <rect x="150" y="55" width="45" height="70" rx="2" fill="#323B4A" />
+  <path d="M150 90 L195 90 L195 125 L150 125 Z" fill="#E67E22" opacity="0.4"/>
+  <circle cx="172.5" cy="80" r="10" fill="#F1C40F" />
+
+  <!-- Desk & Office Chair -->
+  <rect x="30" y="140" width="180" height="10" rx="3" fill="#3A4454" />
+  <rect x="50" y="150" width="10" height="50" fill="#2C3440" />
+  <rect x="180" y="150" width="10" height="50" fill="#2C3440" />
+  
+  <!-- Computer Monitor (Off / Leaving scene) -->
+  <rect x="75" y="85" width="50" height="35" rx="3" fill="#15181E" />
+  <rect x="95" y="120" width="10" height="20" fill="#2C3440" />
+  <rect x="85" y="137" width="30" height="3" rx="1" fill="#2C3440" />
+
+  <!-- Person leaving (Punching out / Leaving the desk) -->
+  <!-- Office Chair pushed back slightly -->
+  <path d="M120 135 L135 175 L125 175 L115 135 Z" fill="#2C3440" />
+  <ellipse cx="125" cy="135" rx="12" ry="5" fill="#384252" />
+
+  <!-- Character body in motion walking away to the left/front -->
+  <g transform="translate(0, 0)">
+    <!-- Briefcase / Bag in hand -->
+    <rect x="92" y="150" width="14" height="10" rx="2" fill="#D35400" />
+    <path d="M96 150 C96 146 102 146 102 150" fill="none" stroke="#D35400" stroke-width="2" />
+
+    <!-- Legs walking -->
+    <path d="M102 160 L92 195" stroke="#34495E" stroke-width="6" stroke-linecap="round" />
+    <path d="M108 160 L118 195" stroke="#2C3E50" stroke-width="6" stroke-linecap="round" />
+    <!-- Shoes -->
+    <ellipse cx="90" cy="196" rx="5" ry="2" fill="#111" />
+    <ellipse cx="120" cy="196" rx="5" ry="2" fill="#111" />
+
+    <!-- Torso -->
+    <path d="M96 125 L116 125 L118 162 L94 162 Z" fill="#3498DB" />
+    <!-- Coat / Jacket open -->
+    <path d="M106 125 L106 162" stroke="#2980B9" stroke-width="2" />
+
+    <!-- Head and Hair -->
+    <circle cx="106" cy="110" r="11" fill="#F5CBA7" />
+    <path d="M95 108 C95 98 117 98 117 108 Z" fill="#2C3E50" />
+
+    <!-- Arm reaching forward/down holding bag -->
+    <path d="M100 130 L96 148" stroke="#F5CBA7" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Clock on the wall showing 4:00 (Four o'clock) -->
+  <g transform="translate(130, 60)">
+    <circle cx="0" cy="0" r="12" fill="#ECF0F1" />
+    <circle cx="0" cy="0" r="10" fill="#FFFFFF" />
+    <!-- Clock hands -->
+    <line x1="0" y1="0" x2="0" y2="-6" stroke="#2C3E50" stroke-width="2" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="5" y2="-2" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="1" fill="#E74C3C" />
+  </g>
+
+  <!-- High-contrast Accent: Out-of-office / Punch-out icon floating subtly -->
+  <g transform="translate(195, 115)">
+    <circle cx="0" cy="0" r="16" fill="#E67E22" />
+    <path d="M-5 -6 L3 -6 L3 6 L-5 6" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-1 0 L-7 -4 M-1 0 L-7 4" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-10 0 L-1 0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

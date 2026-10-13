@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background / Night Sky Elements -->
+  <g fill="#2D323E">
+    <!-- Crescent Moon in the upper right -->
+    <path d="M 180,45 A 25,25 0 1,1 160,75 A 30,30 0 1,0 180,45 Z" fill="#F39C12" opacity="0.9"/>
+    <!-- Subtle stars -->
+    <circle cx="50" cy="50" r="1.5" fill="#E2E8F0" opacity="0.6"/>
+    <circle cx="85" cy="35" r="1" fill="#E2E8F0" opacity="0.4"/>
+    <circle cx="130" cy="65" r="1.5" fill="#E2E8F0" opacity="0.5"/>
+    <circle cx="40" cy="90" r="1" fill="#E2E8F0" opacity="0.3"/>
+  </g>
+
+  <!-- Wall & Window Frame (Setting the nighttime context) -->
+  <rect x="30" y="80" width="180" height="130" rx="4" fill="#242833"/>
+  <rect x="38" y="88" width="164" height="114" rx="2" fill="#15181E"/>
+
+  <!-- Window Sill & Interior Glow -->
+  <rect x="25" y="202" width="190" height="8" rx="2" fill="#323846"/>
+
+  <!-- Standing Floor Clock (Physical Object representing "晚" - late evening/time) -->
+  <g transform="translate(100, 75)">
+    <!-- Clock Outer Body/Cabinet -->
+    <path d="M 15,10 L 25,0 L 35,10 L 35,125 L 15,125 Z" fill="#3B4252"/>
+    <rect x="12" y="125" width="26" height="5" rx="1" fill="#4C566A"/>
+    
+    <!-- Clock Face Housing -->
+    <circle cx="25" cy="35" r="16" fill="#ECEFF4"/>
+    <circle cx="25" cy="35" r="14" fill="#FFFFFF"/>
+
+    <!-- Clock Hands (Indicating late time, e.g., 11:00 PM) -->
+    <!-- Hour hand pointing near 11 -->
+    <line x1="25" y1="35" x2="20" y2="26" stroke="#2E3440" stroke-width="2" stroke-linecap="round"/>
+    <!-- Minute hand pointing straight up/down -->
+    <line x1="25" y1="35" x2="25" y2="23" stroke="#2E3440" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Center pin -->
+    <circle cx="25" cy="35" r="1.5" fill="#F39C12"/>
+
+    <!-- Clock Glass Reflection -->
+    <path d="M 15,25 Q 25,20 35,25" stroke="#E5E9F0" stroke-width="1" fill="none" opacity="0.4"/>
+
+    <!-- Pendulum Window & Swinging Bob -->
+    <rect x="21" y="55" width="8" height="55" rx="2" fill="#1A1D24"/>
+    <!-- Pendulum Rod -->
+    <line x1="25" y1="55" x2="25" y2="90" stroke="#F39C12" stroke-width="1.5"/>
+    <!-- Pendulum Bob -->
+    <circle cx="25" cy="95" r="6" fill="#F39C12"/>
+  </g>
+
+  <!-- Ambient Light / Focus Accent (Warm night glow) -->
+  <path d="M 60,202 L 180,202 L 195,212 L 45,212 Z" fill="#F39C12" opacity="0.15"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Location indicator -->
+  <path d="M60 180 L180 180 L170 200 L70 200 Z" fill="#2D343E"/>
+  
+  <!-- "This place" marker (Pin icon representing the specific location) -->
+  <g transform="translate(120, 100)">
+    <path d="M0 0 C-15 0 -25 10 -25 25 C-25 40 -5 65 0 75 C5 65 25 40 25 25 C25 10 15 0 0 0 Z" fill="#FFB84D"/>
+    <circle cx="0" cy="22" r="8" fill="#1A1D24"/>
+  </g>
+  
+  <!-- Scenic elements representing the context "风景" -->
+  <path d="M40 180 L70 130 L100 180 Z" fill="#4A90E2" opacity="0.6"/>
+  <path d="M140 180 L170 140 L200 180 Z" fill="#4A90E2" opacity="0.4"/>
+  
+  <!-- Focus highlight ring -->
+  <circle cx="120" cy="122" r="30" stroke="#FFB84D" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+</svg>

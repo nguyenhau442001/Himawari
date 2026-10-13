@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow for focus -->
+  <circle cx="120" cy="110" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual illustration for "这个" (This specific item / Pointing out) -->
+  <!-- Using a magnifying glass zooming onto a specific highlighted element among abstract data nodes to show "Focus / This particular one" -->
+
+  <!-- Background abstract connection lines -->
+  <path d="M70 140 L100 110 M170 140 L140 110 M100 80 L140 80" stroke="#323846" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Data nodes / Items in a set -->
+  <!-- Item 1 (Dim) -->
+  <circle cx="70" cy="140" r="14" fill="#2D3748"/>
+  <rect x="63" y="133" width="14" height="14" rx="3" fill="#4A5568"/>
+
+  <!-- Item 2 (Dim) -->
+  <circle cx="170" cy="140" r="14" fill="#2D3748"/>
+  <rect x="163" y="133" width="14" height="14" rx="3" fill="#4A5568"/>
+
+  <!-- Item 3 (Dim) -->
+  <circle cx="120" cy="70" r="14" fill="#2D3748"/>
+  <rect x="113" y="63" width="14" height="14" rx="3" fill="#4A5568"/>
+
+  <!-- THE TARGET ITEM: "这个" (Highlighted in vivid orange/gold) -->
+  <g transform="translate(120, 115)">
+    <!-- Outer highlight pulse -->
+    <circle cx="0" cy="0" r="26" fill="#F6AD55" opacity="0.15"/>
+    <circle cx="0" cy="0" r="20" fill="#F6AD55" opacity="0.3"/>
+    <!-- Core object representing the specific entity/dish/item -->
+    <circle cx="0" cy="0" r="15" fill="#DD6B20"/>
+    <path d="M-6 -2 L-1 4 L7 -5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Magnifying Glass / Pointing Indicator framing "THIS" item -->
+  <g transform="translate(120, 115)">
+    <!-- Glass Lens Ring -->
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#F6AD55" stroke-width="4"/>
+    <!-- Glass Handle extending down-right -->
+    <path d="M24 24 L42 42" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="42" cy="42" r="3" fill="#DD6B20"/>
+  </g>
+
+  <!-- Contextual decorative floor shadow -->
+  <ellipse cx="120" cy="190" rx="60" ry="6" fill="#111318"/>
+</svg>
