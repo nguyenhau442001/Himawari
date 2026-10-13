@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle glow/shadow for central object -->
+  <circle cx="120" cy="125" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Bamboo Steamer (Dim Sum Basket) - Base & Lid -->
+  <!-- Steamer Base Outer Rim -->
+  <ellipse cx="120" cy="140" rx="75" ry="32" fill="#E59839"/>
+  <ellipse cx="120" cy="136" rx="75" ry="32" fill="#F4A261"/>
+  
+  <!-- Steamer Inside / Food Area -->
+  <ellipse cx="120" cy="136" rx="67" ry="27" fill="#2A303C"/>
+
+  <!-- Dumplings inside the steamer -->
+  <!-- Dumpling 1 -->
+  <path d="M 95 135 C 95 125, 105 120, 115 125 C 120 128, 125 135, 120 142 C 110 145, 95 142, 95 135 Z" fill="#FDF0D5"/>
+  <path d="M 100 131 C 105 128, 110 128, 115 131" stroke="#E09F3E" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Dumpling 2 -->
+  <path d="M 130 142 C 130 132, 140 127, 150 132 C 155 135, 160 142, 155 149 C 145 152, 130 149, 130 142 Z" fill="#FDF0D5"/>
+  <path d="M 135 138 C 140 135, 145 135, 150 138" stroke="#E09F3E" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Dumpling 3 -->
+  <path d="M 105 150 C 105 140, 115 135, 125 140 C 130 143, 135 150, 130 157 C 120 160, 105 157, 105 150 Z" fill="#FDF0D5"/>
+  <path d="M 110 146 C 115 143, 120 143, 125 146" stroke="#E09F3E" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Bamboo Texture Lines on Base -->
+  <path d="M 45 138 C 45 155, 75 168, 120 168 C 165 168, 195 155, 195 138" stroke="#D88C30" stroke-width="2" fill="none"/>
+  <line x1="45" y1="145" x2="45" y2="155" stroke="#D88C30" stroke-width="2" stroke-linecap="round"/>
+  <line x1="195" y1="145" x2="195" y2="155" stroke="#D88C30" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Steamer Lid (Tilted/Resting behind or on top) -->
+  <g transform="translate(0, -20)">
+    <!-- Lid Outer -->
+    <ellipse cx="120" cy="115" rx="77" ry="33" fill="#E59839"/>
+    <ellipse cx="120" cy="110" rx="77" ry="33" fill="#F4A261"/>
+    <!-- Lid Inner Rim for depth -->
+    <ellipse cx="120" cy="110" rx="70" ry="29" fill="#E59839"/>
+    <!-- Bamboo Weave Details on Lid -->
+    <path d="M 43 110 C 43 130, 75 143, 120 143 C 165 143, 197 130, 197 110" stroke="#D88C30" stroke-width="2.5" fill="none"/>
+    <path d="M 65 92 C 90 82, 150 82, 175 92" stroke="#D88C30" stroke-width="2" fill="none"/>
+    <!-- Lid Handle/Knob -->
+    <ellipse cx="120" cy="85" rx="14" ry="7" fill="#E59839"/>
+    <ellipse cx="120" cy="83" rx="14" ry="7" fill="#F4A261"/>
+  </g>
+
+  <!-- Chopsticks crossed neatly across the scene -->
+  <!-- Chopstick 1 -->
+  <line x1="60" y1="75" x2="185" y2="180" stroke="#D6A76C" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Chopstick 1 Taper/Tip -->
+  <line x1="60" y1="75" x2="72" y2="85" stroke="#8D5B2C" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Chopstick 2 -->
+  <line x1="175" y1="75" x2="65" y2="175" stroke="#D6A76C" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Chopstick 2 Taper/Tip -->
+  <line x1="175" y1="75" x2="164" y2="84" stroke="#8D5B2C" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Steam/Aroma Wisps (Modern sleek accent lines) -->
+  <path d="M 105 60 C 100 48, 115 42, 110 30" stroke="#E59839" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 135 55 C 140 45, 125 38, 132 26" stroke="#E59839" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+</svg>

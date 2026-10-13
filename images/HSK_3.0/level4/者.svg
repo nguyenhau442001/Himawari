@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="160" width="160" height="15" rx="2" fill="#343A46"/>
+  
+  <!-- Book -->
+  <path d="M120 160 L180 145 L180 160 L120 175 Z" fill="#FFB84D"/>
+  <path d="M120 160 L120 175 L180 160 L180 145 Z" fill="#E09E3D"/>
+  
+  <!-- Author (Person) -->
+  <g transform="translate(60, 80)">
+    <!-- Body -->
+    <path d="M20 100 C20 80, 60 80, 60 100 L60 130 L20 130 Z" fill="#5D6D7E"/>
+    <!-- Head -->
+    <circle cx="40" cy="50" r="25" fill="#FFD1A9"/>
+    <!-- Hair -->
+    <path d="M15 50 C15 25, 65 25, 65 50 C65 40, 55 30, 40 30 C25 30, 15 40, 15 50" fill="#2C3E50"/>
+    <!-- Arm -->
+    <path d="M60 90 L85 110 L95 100 L70 80 Z" fill="#FFD1A9"/>
+    <!-- Pen -->
+    <rect x="90" y="95" width="20" height="4" rx="1" fill="#E74C3C" transform="rotate(45 90 95)"/>
+  </g>
+  
+  <!-- Decorative elements to imply 'Author' status -->
+  <circle cx="180" cy="60" r="15" fill="#343A46"/>
+  <path d="M175 55 L185 65 M185 55 L175 65" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+</svg>

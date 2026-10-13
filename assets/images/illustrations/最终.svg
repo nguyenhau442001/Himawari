@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Visual Metaphor: Progression & Culmination (Timeline/Staircase culminating in a bright peak destination representing "最终" / Finally) -->
+  
+  <!-- Subtle background grid lines for structure -->
+  <line x1="30" y1="180" x2="210" y2="180" stroke="#2B313D" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="130" x2="210" y2="130" stroke="#2B313D" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="30" y1="80" x2="210" y2="80" stroke="#2B313D" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Progression Path (Curved trajectory rising to the end) -->
+  <path d="M 40 180 C 80 180, 100 130, 135 115 C 160 105, 175 75, 200 55" fill="none" stroke="#3A4252" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Progression Nodes / Steps -->
+  <!-- Step 1 -->
+  <circle cx="65" cy="165" r="5" fill="#4E596D"/>
+  
+  <!-- Step 2 -->
+  <circle cx="105" cy="130" r="6" fill="#4E596D"/>
+
+  <!-- Step 3 -->
+  <circle cx="150" cy="95" r="7" fill="#4E596D"/>
+
+  <!-- Final Destination Node (最终 - Glowing gold/orange accent) -->
+  <circle cx="200" cy="55" r="16" fill="#FF9F43" opacity="0.2"/>
+  <circle cx="200" cy="55" r="10" fill="#FF9F43"/>
+  
+  <!-- Trophy / Peak Indicator at the final point -->
+  <path d="M 194 50 L 206 50 L 204 59 C 204 62, 202 64, 200 64 C 198 64, 196 62, 196 59 Z" fill="#1A1D24"/>
+  <path d="M 197 46 L 203 46 L 203 50 L 197 50 Z" fill="#1A1D24"/>
+
+  <!-- Milestone Flag / Marker at the culmination -->
+  <path d="M 200 55 L 200 30 L 214 36 L 200 42" fill="#FF9F43"/>
+
+  <!-- Directional arrow indicating flow towards the end -->
+  <path d="M 194 38 L 200 32 L 206 38" fill="none" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

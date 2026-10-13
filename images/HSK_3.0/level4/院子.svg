@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+    <!-- Container -->
+    <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+    <!-- Ground / Yard base -->
+    <path d="M 40 185 L 200 185 L 215 200 L 25 200 Z" fill="#2C323D" opacity="0.6"/>
+    <ellipse cx="120" cy="185" rx="80" ry="12" fill="#252A34"/>
+
+    <!-- House backdrop (boundary of the yard) -->
+    <path d="M 60 120 L 120 85 L 180 120 L 180 180 L 60 180 Z" fill="#222731"/>
+    <!-- House roof detail -->
+    <path d="M 52 120 L 120 78 L 188 120 L 180 123 L 120 86 L 60 123 Z" fill="#3E4A59"/>
+    <!-- Warm glowing windows -->
+    <rect x="75" y="130" width="22" height="35" rx="3" fill="#E59866" opacity="0.8"/>
+    <rect x="143" y="130" width="22" height="35" rx="3" fill="#E59866" opacity="0.8"/>
+    <line x1="86" y1="130" x2="86" y2="165" stroke="#222731" stroke-width="2"/>
+    <line x1="75" y1="147" x2="97" y2="147" stroke="#222731" stroke-width="2"/>
+    <line x1="154" y1="130" x2="154" y2="165" stroke="#222731" stroke-width="2"/>
+    <line x1="143" y1="147" x2="165" y2="147" stroke="#222731" stroke-width="2"/>
+
+    <!-- Wooden fence / Yard boundary elements -->
+    <g fill="#4E5D6C">
+        <rect x="55" y="155" width="6" height="30" rx="2"/>
+        <rect x="42" y="158" width="6" height="27" rx="2"/>
+        <rect x="179" y="155" width="6" height="30" rx="2"/>
+        <rect x="192" y="158" width="6" height="27" rx="2"/>
+    </g>
+    <path d="M 35 163 L 60 157" stroke="#3E4A59" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 180 157 L 205 163" stroke="#3E4A59" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Courtyard Tree (representing nature inside the yard) -->
+    <!-- Trunk -->
+    <path d="M 120 185 C 120 160 124 140 122 125" stroke="#795548" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M 122 145 C 112 135 105 130 98 125" stroke="#795548" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- Foliage -->
+    <circle cx="120" cy="115" r="28" fill="#2ECC71" opacity="0.85"/>
+    <circle cx="100" cy="122" r="20" fill="#27AE60" opacity="0.9"/>
+    <circle cx="140" cy="120" r="22" fill="#27AE60" opacity="0.9"/>
+    <circle cx="125" cy="95" r="18" fill="#58D68D" opacity="0.8"/>
+
+    <!-- Stone path in the yard -->
+    <ellipse cx="120" cy="188" rx="12" ry="5" fill="#4B5563"/>
+    <ellipse cx="110" cy="177" rx="10" ry="4" fill="#4B5563"/>
+    <ellipse cx="125" cy="168" rx="11" ry="4" fill="#4B5563"/>
+
+    <!-- Focal point: Stylized playful elements (kite / ball symbolizing children playing in the yard) -->
+    <circle cx="85" cy="170" r="6" fill="#F1C40F"/>
+    
+    <!-- Foreground cute glowing accents (Golden/Orange accent per specs) -->
+    <circle cx="170" cy="175" r="3" fill="#F39C12"/>
+    <circle cx="70" cy="145" r="2" fill="#F39C12" opacity="0.6"/>
+    <circle cx="165" cy="105" r="2.5" fill="#F39C12" opacity="0.8"/>
+</svg>

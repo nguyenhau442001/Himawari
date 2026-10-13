@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Glowing Accent Background for Focus -->
+  <circle cx="120" cy="120" r="70" fill="#FF9F0A" opacity="0.08"/>
+
+  <!-- Smartphone Representing "可以用手机支付吗？" -->
+  <!-- Phone Body -->
+  <rect x="85" y="45" width="70" height="135" rx="12" fill="#2C313C" stroke="#3A4150" stroke-width="2"/>
+  
+  <!-- Phone Screen -->
+  <rect x="93" y="55" width="54" height="115" rx="6" fill="#16191E"/>
+
+  <!-- Speaker/Camera Notch -->
+  <rect x="110" y="50" width="20" height="3" rx="1.5" fill="#3A4150"/>
+
+  <!-- Payment App UI Elements -->
+  <!-- Header Bar -->
+  <rect x="101" y="65" width="22" height="6" rx="3" fill="#3A4150"/>
+  
+  <!-- Digital Receipt Card -->
+  <rect x="99" y="77" width="42" height="36" rx="4" fill="#222731"/>
+  <rect x="105" y="85" width="22" height="3" rx="1.5" fill="#4E596D"/>
+  <rect x="105" y="93" width="14" height="3" rx="1.5" fill="#FF9F0A"/>
+  <rect x="127" y="93" width="8" height="3" rx="1.5" fill="#2ECC71"/>
+
+  <!-- Success Checkmark Badge on Phone Screen -->
+  <circle cx="120" cy="130" r="14" fill="#FF9F0A" opacity="0.2"/>
+  <circle cx="120" cy="130" r="10" fill="#FF9F0A"/>
+  <!-- Checkmark Path -->
+  <path d="M115 130L118 133L125 126" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Contactless NFC / Payment Waves (Left) -->
+  <path d="M73 95C68 102 68 118 73 125" fill="none" stroke="#FF9F0A" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M66 90C59 100 59 120 66 130" fill="none" stroke="#FF9F0A" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Hand Holding Phone (Bottom Integration) -->
+  <!-- Sleek Modern Hand Graphic -->
+  <path d="M75 195C75 178 85 168 95 165H150C160 168 170 178 170 195V205H75V195Z" fill="#3E4756"/>
+  <!-- Thumb resting on side of phone -->
+  <path d="M152 145C158 150 160 160 155 170C150 175 145 170 148 160C150 153 151 148 152 145Z" fill="#4A5568"/>
+
+  <!-- Base / Surface reflection -->
+  <ellipse cx="120" cy="210" r="55" ry="4" fill="#111317"/>
+</svg>

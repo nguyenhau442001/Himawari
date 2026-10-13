@@ -26122,6 +26122,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/研究生.svg",
     "caption": "nghiên cứu sinh, học viên cao học"
   },
+  "演": {
+    "file": "演.svg",
+    "src": "images/HSK_3.0/level4/演.svg",
+    "caption": "diễn, đóng (vai)"
+  },
   "演唱": {
     "file": "演唱.svg",
     "src": "images/HSK_3.0/level4/演唱.svg",
@@ -26136,6 +26141,201 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "夜晚.svg",
     "src": "images/HSK_3.0/level4/夜晚.svg",
     "caption": "ban đêm, buổi tối"
+  },
+  "已": {
+    "file": "已.svg",
+    "src": "images/HSK_3.0/level4/已.svg",
+    "caption": "đã"
+  },
+  "以内": {
+    "file": "以内.svg",
+    "src": "images/HSK_3.0/level4/以内.svg",
+    "caption": "trong vòng, trong phạm vi"
+  },
+  "赢得": {
+    "file": "赢得.svg",
+    "src": "images/HSK_3.0/level4/赢得.svg",
+    "caption": "giành được"
+  },
+  "用于": {
+    "file": "用于.svg",
+    "src": "images/HSK_3.0/level4/用于.svg",
+    "caption": "dùng vào, dùng cho"
+  },
+  "油": {
+    "file": "油.svg",
+    "src": "images/HSK_3.0/level4/油.svg",
+    "caption": "dầu; mỡ; xăng"
+  },
+  "有着": {
+    "file": "有着.svg",
+    "src": "images/HSK_3.0/level4/有着.svg",
+    "caption": "có (thường dùng trong văn viết)"
+  },
+  "远离": {
+    "file": "远离.svg",
+    "src": "images/HSK_3.0/level4/远离.svg",
+    "caption": "tránh xa, cách xa"
+  },
+  "院长": {
+    "file": "院长.svg",
+    "src": "images/HSK_3.0/level4/院长.svg",
+    "caption": "viện trưởng, giám đốc (bệnh viện), hiệu trưởng (học viện)"
+  },
+  "院子": {
+    "file": "院子.svg",
+    "src": "images/HSK_3.0/level4/院子.svg",
+    "caption": "sân (nhà)"
+  },
+  "约": {
+    "file": "约.svg",
+    "src": "images/HSK_3.0/level4/约.svg",
+    "caption": "hẹn; khoảng chừng"
+  },
+  "月饼": {
+    "file": "月饼.svg",
+    "src": "images/HSK_3.0/level4/月饼.svg",
+    "caption": "bánh trung thu"
+  },
+  "月份": {
+    "file": "月份.svg",
+    "src": "images/HSK_3.0/level4/月份.svg",
+    "caption": "tháng"
+  },
+  "再次": {
+    "file": "再次.svg",
+    "src": "images/HSK_3.0/level4/再次.svg",
+    "caption": "lần nữa, một lần nữa"
+  },
+  "再说": {
+    "file": "再说.svg",
+    "src": "images/HSK_3.0/level4/再说.svg",
+    "caption": "để sau hãy tính; hơn nữa"
+  },
+  "暂停": {
+    "file": "暂停.svg",
+    "src": "images/HSK_3.0/level4/暂停.svg",
+    "caption": "tạm dừng"
+  },
+  "早餐": {
+    "file": "早餐.svg",
+    "src": "images/HSK_3.0/level4/早餐.svg",
+    "caption": "bữa sáng"
+  },
+  "早晨": {
+    "file": "早晨.svg",
+    "src": "images/HSK_3.0/level4/早晨.svg",
+    "caption": "buổi sáng sớm"
+  },
+  "增长": {
+    "file": "增长.svg",
+    "src": "images/HSK_3.0/level4/增长.svg",
+    "caption": "tăng trưởng, tăng lên"
+  },
+  "者": {
+    "file": "者.svg",
+    "src": "images/HSK_3.0/level4/者.svg",
+    "caption": "người (hậu tố: …giả)"
+  },
+  "整": {
+    "file": "整.svg",
+    "src": "images/HSK_3.0/level4/整.svg",
+    "caption": "cả, nguyên, tròn"
+  },
+  "证": {
+    "file": "证.svg",
+    "src": "images/HSK_3.0/level4/证.svg",
+    "caption": "giấy chứng nhận, thẻ"
+  },
+  "之¹": {
+    "file": "之¹.svg",
+    "src": "images/HSK_3.0/level4/之¹.svg",
+    "caption": "của (trợ từ văn viết)"
+  },
+  "支付": {
+    "file": "支付.svg",
+    "src": "images/HSK_3.0/level4/支付.svg",
+    "caption": "chi trả, thanh toán"
+  },
+  "之后": {
+    "file": "之后.svg",
+    "src": "images/HSK_3.0/level4/之后.svg",
+    "caption": "sau, sau khi"
+  },
+  "之间": {
+    "file": "之间.svg",
+    "src": "images/HSK_3.0/level4/之间.svg",
+    "caption": "giữa"
+  },
+  "之前": {
+    "file": "之前.svg",
+    "src": "images/HSK_3.0/level4/之前.svg",
+    "caption": "trước, trước khi"
+  },
+  "之中": {
+    "file": "之中.svg",
+    "src": "images/HSK_3.0/level4/之中.svg",
+    "caption": "trong, trong số"
+  },
+  "值": {
+    "file": "值.svg",
+    "src": "images/HSK_3.0/level4/值.svg",
+    "caption": "đáng, đáng giá; trị giá"
+  },
+  "指出": {
+    "file": "指出.svg",
+    "src": "images/HSK_3.0/level4/指出.svg",
+    "caption": "chỉ ra"
+  },
+  "纸巾": {
+    "file": "纸巾.svg",
+    "src": "images/HSK_3.0/level4/纸巾.svg",
+    "caption": "khăn giấy"
+  },
+  "中餐": {
+    "file": "中餐.svg",
+    "src": "images/HSK_3.0/level4/中餐.svg",
+    "caption": "món ăn Trung Quốc"
+  },
+  "中年": {
+    "file": "中年.svg",
+    "src": "images/HSK_3.0/level4/中年.svg",
+    "caption": "trung niên"
+  },
+  "祝": {
+    "file": "祝.svg",
+    "src": "images/HSK_3.0/level4/祝.svg",
+    "caption": "chúc"
+  },
+  "转发": {
+    "file": "转发.svg",
+    "src": "images/HSK_3.0/level4/转发.svg",
+    "caption": "chuyển tiếp; chia sẻ lại"
+  },
+  "准": {
+    "file": "准.svg",
+    "src": "images/HSK_3.0/level4/准.svg",
+    "caption": "chuẩn, chính xác; cho phép"
+  },
+  "自习": {
+    "file": "自习.svg",
+    "src": "images/HSK_3.0/level4/自习.svg",
+    "caption": "tự học"
+  },
+  "最终": {
+    "file": "最终.svg",
+    "src": "images/HSK_3.0/level4/最终.svg",
+    "caption": "cuối cùng"
+  },
+  "做法": {
+    "file": "做法.svg",
+    "src": "images/HSK_3.0/level4/做法.svg",
+    "caption": "cách làm"
+  },
+  "作为¹": {
+    "file": "作为¹.svg",
+    "src": "images/HSK_3.0/level4/作为¹.svg",
+    "caption": "là, với danh nghĩa"
   },
   "哎呀": {
     "file": "哎呀.svg",

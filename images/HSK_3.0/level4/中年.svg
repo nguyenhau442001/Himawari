@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-35 110 C-35 80, -25 60, 0 60 C25 60, 35 80, 35 110" fill="#3B82F6"/>
+    <!-- Suit Jacket -->
+    <path d="M-35 60 L-15 60 L-10 80 L0 75 L10 80 L15 60 L35 60 L35 110 L-35 110 Z" fill="#2D3748"/>
+    <!-- Shirt/Tie -->
+    <path d="M-5 60 L5 60 L2 85 L0 110 L-2 85 Z" fill="#F59E0B"/>
+    <!-- Neck -->
+    <rect x="-8" y="45" width="16" height="15" fill="#FCA5A5"/>
+    <!-- Head -->
+    <circle cx="0" cy="30" r="25" fill="#FCA5A5"/>
+    <!-- Hair (Mature style) -->
+    <path d="M-22 25 C-22 5, -10 -5, 0 -5 C10 -5, 22 5, 22 25 L22 20 C22 0, 10 -10, 0 -10 C-10 -10, -22 0, -22 20 Z" fill="#4A5568"/>
+    <!-- Glasses -->
+    <rect x="-18" y="22" width="12" height="8" rx="2" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="6" y="22" width="12" height="8" rx="2" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="-6" y1="26" x2="6" y2="26" stroke="#F59E0B" stroke-width="1.5"/>
+    <!-- Facial features -->
+    <path d="M-10 40 C-5 45, 5 45, 10 40" stroke="#4A5568" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

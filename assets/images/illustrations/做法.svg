@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "做法" (method/way of doing something) -->
+  <!-- Sleek modern flat design featuring a structured blueprint/recipe board combined with crafting tools, 
+       representing a concrete method, procedure, or action plan. -->
+
+  <!-- Subtle background grid lines for a precise, technical "method" feel -->
+  <path d="M40 70 H200 M40 110 H200 M40 150 H200 M40 190 H200" stroke="#252A34" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M70 40 V200 M110 40 V200 M150 40 V200 M190 40 V200" stroke="#252A34" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Main Blueprint/Procedure Document Board -->
+  <g transform="translate(52, 45)">
+    <!-- Board Base (Dark slate container with border) -->
+    <rect x="0" y="0" width="136" height="150" rx="12" fill="#222733" stroke="#323B4D" stroke-width="2"/>
+    
+    <!-- Top Clip / Header bar -->
+    <path d="M48 0 H88 V12 C88 16 84 20 80 20 H56 C52 20 48 16 48 12 Z" fill="#323B4D"/>
+    
+    <!-- Step 1: Structural Outline / Process Blocks -->
+    <rect x="18" y="32" width="100" height="28" rx="6" fill="#1A1D24"/>
+    <circle cx="32" cy="46" r="6" fill="#F39C12"/>
+    <path d="M48 44 H100" stroke="#8A99AD" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Step 2: Action / Execution Blocks -->
+    <rect x="18" y="68" width="100" height="28" rx="6" fill="#1A1D24"/>
+    <circle cx="32" cy="82" r="6" fill="#F39C12"/>
+    <path d="M48 80 H90" stroke="#8A99AD" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Step 3: Result / Completion Indicator -->
+    <rect x="18" y="104" width="100" height="28" rx="6" fill="#1A1D24"/>
+    <circle cx="32" cy="118" r="6" fill="#2ECC71"/>
+    <path d="M48 116 H80" stroke="#8A99AD" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Interactive Action Element: Crafting / Execution Pen & Checkmark (Focus/Accent in Gold/Orange) -->
+  <g transform="translate(140, 115)">
+    <!-- Floating accent badge -->
+    <circle cx="35" cy="35" r="26" fill="#F39C12" opacity="0.15"/>
+    <circle cx="35" cy="35" r="20" fill="#F39C12"/>
+    <!-- Checkmark representing successful method/approach -->
+    <path d="M26 35 L32 41 L45 27" fill="none" stroke="#1A1D24" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+</svg>

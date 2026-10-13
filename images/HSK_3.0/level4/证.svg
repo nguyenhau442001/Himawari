@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow to center focus -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Student ID Card (Giấy chứng nhận / Thẻ) -->
+  <!-- Drop shadow for depth -->
+  <rect x="55" y="70" width="130" height="90" rx="10" fill="#0F1115" opacity="0.4" transform="translate(0, 6)"/>
+
+  <!-- Main Card Body -->
+  <rect x="55" y="70" width="130" height="90" rx="10" fill="#2D323A" stroke="#3E4451" stroke-width="2"/>
+
+  <!-- Accent top banner (School ID header) -->
+  <path d="M 55 80 A 10 10 0 0 1 65 70 L 175 70 A 10 10 0 0 1 185 80 L 185 92 L 55 92 Z" fill="#F5A623"/>
+
+  <!-- Photo placeholder (Student avatar silhouette) -->
+  <rect x="70" y="105" width="28" height="38" rx="4" fill="#1F232A"/>
+  <!-- Head -->
+  <circle cx="84" cy="117" r="7" fill="#8C94A0"/>
+  <!-- Shoulders -->
+  <path d="M 74 135 C 74 128, 94 128, 94 135 Z" fill="#8C94A0"/>
+
+  <!-- Text lines placeholders (Representing ID details) -->
+  <rect x="108" y="107" width="56" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="108" y="121" width="40" height="4" rx="2" fill="#6B7280"/>
+  <rect x="108" y="131" width="48" height="4" rx="2" fill="#6B7280"/>
+
+  <!-- Security Hologram / Verification Seal (Indicates official certification) -->
+  <circle cx="162" cy="142" r="10" fill="#3B82F6" opacity="0.2"/>
+  <circle cx="162" cy="142" r="7" fill="#3B82F6" opacity="0.4"/>
+  <path d="M 159 142 L 161 145 L 166 139" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Lanyard / Attachment Clip at the top -->
+  <rect x="110" y="58" width="20" height="12" rx="3" fill="#6B7280"/>
+  <path d="M 120 58 L 120 40" stroke="#4B5563" stroke-width="4" stroke-linecap="round"/>
+</svg>

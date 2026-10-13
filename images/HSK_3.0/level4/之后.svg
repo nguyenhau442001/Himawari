@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements: subtle timeline track representing "after" -->
+  <path d="M50 140 L190 140" stroke="#2A303C" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round"/>
+
+  <!-- First milestone (Past / Before) -->
+  <circle cx="80" cy="140" r="16" fill="#2A303C"/>
+  <circle cx="80" cy="140" r="8" fill="#4E5D6C"/>
+
+  <!-- Arrow pointing forward to the "After" state -->
+  <path d="M108 140 L132 140" stroke="#FFA726" stroke-width="4" stroke-linecap="round"/>
+  <path d="M122 130 L134 140 L122 150" fill="none" stroke="#FFA726" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Main Focal Object: Modern Clock/Hourglass hybrid symbolizing "After" time/sequence -->
+  <g transform="translate(160, 100)">
+    <!-- Outer glowing ring -->
+    <circle cx="0" cy="0" r="32" fill="#242B38" stroke="#FFD54F" stroke-width="3"/>
+    
+    <!-- Clock face -->
+    <circle cx="0" cy="0" r="26" fill="#1A1D24"/>
+    
+    <!-- Clock hands pointing to a later time -->
+    <line x1="0" y1="0" x2="0" y2="-12" stroke="#FFA726" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="10" y2="6" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3.5" fill="#FFD54F"/>
+
+    <!-- Subtle indicator dot for "After" event -->
+    <circle cx="0" cy="-34" r="5" fill="#FFA726"/>
+  </g>
+
+  <!-- Secondary contextual visual: School bell / graduation cap icon representing "class is over" (下课之后) -->
+  <g transform="translate(80, 75)">
+    <!-- Cap base -->
+    <path d="M -22 0 L 0 -12 L 22 0 L 0 12 Z" fill="#4CD137" stroke="#2A303C" stroke-linejoin="round"/>
+    <!-- Cap skull cap -->
+    <path d="M -12 6 C -12 16, 12 16, 12 6" fill="none" stroke="#4CD137" stroke-width="3"/>
+    <!-- Tassel -->
+    <path d="M 14 3 L 20 12 L 18 16" fill="none" stroke="#FFD54F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+</svg>
