@@ -3,9 +3,16 @@
 > **Trạm học từ vựng chữ Hán đa giác quan, hiện đại, tối giản và 100% Offline (PWA).**  
 > Kết hợp minh họa câu chuyện trực quan (Visual Mnemonics), thuật toán **Spaced Repetition (SRS)**, phân tích ngữ pháp đọc hiểu **HSK 4 Chuẩn Hanban**, luyện viết thứ tự nét và tra cứu âm Hán - Việt chuyên sâu.
 
+---
+
+### 🌐 Trải nghiệm trực tuyến ngay (Live Demo):
+👉 **Website chính thức:** [**https://nguyenhau442001.github.io/Synapse-Hanzi/**](https://nguyenhau442001.github.io/Synapse-Hanzi/)
+
+*(Không cần cài đặt, hoạt động mượt mà trên cả máy tính & điện thoại, hỗ trợ cài làm App Offline PWA)*
+
 <p align="center">
-  <a href="https://nguyenhau442001.github.io/synapse-hanzi/">
-    <img src="https://img.shields.io/badge/Demo_Trực_Tuyến-Mở_Ngay-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
+  <a href="https://nguyenhau442001.github.io/Synapse-Hanzi/">
+    <img src="https://img.shields.io/badge/🌐_Mở_Trực_Tuyến_Ngay-https%3A%2F%2Fnguyenhau442001.github.io%2FSynapse--Hanzi-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
   </a>
   <img src="https://img.shields.io/badge/Chế_độ-100%25_Offline_(PWA)-22c55e?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
   <img src="https://img.shields.io/badge/Build-Zero_Config-3b82f6?style=for-the-badge&logo=javascript&logoColor=white" alt="Zero Build">
