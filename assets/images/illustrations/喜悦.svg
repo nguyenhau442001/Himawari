@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Radiating Joy Background Glow / Contrast Effect -->
+    <circle cx="120" cy="115" r="70" fill="#FFB703" opacity="0.08"/>
+    <circle cx="120" cy="115" r="45" fill="#FFB703" opacity="0.12"/>
+    
+    <!-- Dynamic Joy Rays / Sparkles (Scale Exaggeration / Emotional Energy) -->
+    <path d="M120 35 L120 45" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M120 185 L120 195" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M50 115 L40 115" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M200 115 L190 115" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    
+    <path d="M70 65 L63 58" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M170 165 L177 172" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M170 65 L177 58" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M70 165 L63 172" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- Collar / Clothing -->
+    <path d="M85 165 C85 150 100 145 120 145 C140 145 155 150 155 165 L165 190 C165 190 145 195 120 195 C95 195 75 190 75 190 Z" fill="#2E4057"/>
+    <path d="M100 148 L120 165 L140 148" fill="none" stroke="#8D99AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Neck -->
+    <path d="M105 130 L105 150 L135 150 L135 130 Z" fill="#F4A261"/>
+
+    <!-- Head / Face (Expressive, Uplifted Angle) -->
+    <circle cx="120" cy="110" r="38" fill="#F4A261"/>
+    
+    <!-- Hair (Stylish, modern flat design) -->
+    <path d="M82 110 C82 85 98 72 120 72 C142 72 158 85 158 110 C158 118 156 125 156 125 C156 125 145 115 138 110 C130 105 125 112 120 108 C115 112 110 105 102 110 C95 115 82 125 82 125 C82 125 82 118 82 110 Z" fill="#2B2D42"/>
+
+    <!-- Eyes (Closed in bright, genuine happy arcs) -->
+    <path d="M100 105 C102 111 108 111 110 105" fill="none" stroke="#2B2D42" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M130 105 C132 111 138 111 140 105" fill="none" stroke="#2B2D42" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Rosy Cheeks (Enhancing the '喜悦' emotion) -->
+    <circle cx="97" cy="116" r="6" fill="#E76F51" opacity="0.6"/>
+    <circle cx="143" cy="116" r="6" fill="#E76F51" opacity="0.6"/>
+
+    <!-- Big Open Happy Smile -->
+    <path d="M106 120 C106 132 134 132 134 120 Z" fill="#2B2D42"/>
+    <path d="M112 125 C120 129 128 125 128 125" fill="none" stroke="#F4A261" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Expressive Hands raised in cheer (Contrast / Scale action) -->
+    <circle cx="75" cy="140" r="10" fill="#F4A261"/>
+    <path d="M68 148 L75 135 L82 148" fill="none" stroke="#2E4057" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <circle cx="165" cy="140" r="10" fill="#F4A261"/>
+    <path d="M158 148 L165 135 L172 148" fill="none" stroke="#2E4057" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Floating celebratory confetti elements -->
+    <rect x="65" y="80" width="6" height="6" rx="1" transform="rotate(15 68 83)" fill="#E76F51"/>
+    <rect x="170" y="85" width="5" height="5" rx="1" transform="rotate(45 172 87)" fill="#FFB703"/>
+    <circle cx="155" cy="65" r="3" fill="#2A9D8F"/>
+    <circle cx="85" cy="65" r="2.5" fill="#E9C46A"/>
+  </g>
+</svg>

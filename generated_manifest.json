@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T00:37:31.297967",
-  "total_unique_words_with_illustrations": 4856,
-  "total_flat_svg_files": 4856,
+  "generated_at": "2026-10-13T07:55:49.832494",
+  "total_unique_words_with_illustrations": 4858,
+  "total_flat_svg_files": 4858,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2216,
-        "pct": "88.6%"
+        "with_svg": 2218,
+        "pct": "88.7%"
       }
     },
     "hsk_3_0": {
@@ -63,22 +63,22 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 731,
-        "pct": "40.6%"
+        "with_svg": 732,
+        "pct": "40.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1158,
+        "with_svg": 1159,
         "pct": "20.7%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1158,
+        "with_svg": 1159,
         "pct": "20.7%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1158,
+        "with_svg": 1159,
         "pct": "20.7%"
       }
     }
@@ -80638,6 +80638,46 @@
         "images/HSK_3.0/level7/喜闻乐见.svg",
         "images/HSK_3.0/level8/喜闻乐见.svg",
         "images/HSK_3.0/level9/喜闻乐见.svg"
+      ]
+    },
+    "喜悦": {
+      "hanzi": "喜悦",
+      "pinyin": "xǐyuè",
+      "meaning": "vui mừng",
+      "example_zh": "她脸上充满了<u>喜悦</u>的表情。",
+      "example_vi": "Trên mặt cô ấy đầy vẻ <u>vui mừng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "喜悦.svg",
+      "src": "images/HSK_2.0/level6/喜悦.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/喜悦.svg",
+        "images/HSK_3.0/level8/喜悦.svg",
+        "images/HSK_3.0/level9/喜悦.svg"
+      ]
+    },
+    "系列": {
+      "hanzi": "系列",
+      "pinyin": "xìliè",
+      "meaning": "chuỗi, hệ liệt",
+      "example_zh": "这是一<u>系列</u>的课程。",
+      "example_vi": "Đây là một <u>chuỗi</u> khóa học.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "系列.svg",
+      "src": "images/HSK_2.0/level6/系列.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/系列.svg"
       ]
     },
     "细胞": {

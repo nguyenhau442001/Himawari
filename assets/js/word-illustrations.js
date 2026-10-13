@@ -21342,6 +21342,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/喜闻乐见.svg",
     "caption": "được yêu thích, ưa nghe ưa thấy"
   },
+  "喜悦": {
+    "file": "喜悦.svg",
+    "src": "images/HSK_2.0/level6/喜悦.svg",
+    "caption": "vui mừng"
+  },
+  "系列": {
+    "file": "系列.svg",
+    "src": "images/HSK_2.0/level6/系列.svg",
+    "caption": "chuỗi, hệ liệt"
+  },
   "细胞": {
     "file": "细胞.svg",
     "src": "images/HSK_2.0/level6/细胞.svg",
