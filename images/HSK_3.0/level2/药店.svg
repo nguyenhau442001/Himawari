@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Storefront Structure -->
+  <rect x="60" y="80" width="120" height="100" rx="4" fill="#2D343E" stroke="#4A5568" stroke-width="2"/>
+  <rect x="75" y="95" width="40" height="60" fill="#3D4754"/>
+  <rect x="125" y="95" width="40" height="60" fill="#3D4754"/>
+  
+  <!-- Pharmacy Sign (Cross) -->
+  <rect x="105" y="40" width="30" height="30" rx="4" fill="#FF9F1C"/>
+  <rect x="115" y="45" width="10" height="20" fill="#FFFFFF"/>
+  <rect x="110" y="50" width="20" height="10" fill="#FFFFFF"/>
+  
+  <!-- Counter / Window -->
+  <rect x="60" y="155" width="120" height="25" fill="#252B33"/>
+  
+  <!-- Medicine Bottles on Counter -->
+  <rect x="80" y="140" width="12" height="15" rx="2" fill="#FF9F1C"/>
+  <rect x="95" y="145" width="10" height="10" rx="2" fill="#FF9F1C"/>
+  <rect x="140" y="142" width="14" height="13" rx="2" fill="#FF9F1C"/>
+  
+  <!-- 24h Clock Indicator -->
+  <circle cx="180" cy="60" r="12" fill="#2D343E" stroke="#FF9F1C" stroke-width="2"/>
+  <line x1="180" y1="52" x2="180" y2="60" stroke="#FF9F1C" stroke-width="2" stroke-linecap="round"/>
+  <line x1="180" y1="60" x2="186" y2="60" stroke="#FF9F1C" stroke-width="2" stroke-linecap="round"/>
+</svg>

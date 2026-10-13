@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Building Structure -->
+  <path d="M60 70h120v120H60z" fill="#2D343E" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="75" y="85" width="40" height="30" fill="#3D4754"/>
+  <rect x="125" y="85" width="40" height="30" fill="#3D4754"/>
+  <rect x="75" y="125" width="40" height="30" fill="#3D4754"/>
+  <rect x="125" y="125" width="40" height="30" fill="#3D4754"/>
+  
+  <!-- Entrance/Door -->
+  <path d="M100 190h40v-30h-40z" fill="#FFB84D"/>
+  
+  <!-- People (Crowd representation) -->
+  <circle cx="85" cy="175" r="8" fill="#A0AEC0"/>
+  <circle cx="110" cy="170" r="8" fill="#A0AEC0"/>
+  <circle cx="135" cy="175" r="8" fill="#A0AEC0"/>
+  <circle cx="155" cy="170" r="8" fill="#A0AEC0"/>
+  
+  <!-- Shopping Bags -->
+  <path d="M70 180h15v20h-15z" fill="#FFB84D"/>
+  <path d="M155 180h15v20h-15z" fill="#FFB84D"/>
+  
+  <!-- Decorative Roof/Signage Area -->
+  <rect x="60" y="60" width="120" height="10" fill="#FFB84D"/>
+</svg>

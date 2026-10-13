@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Baseline Level -->
+  <path d="M40 180 L100 180" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Escalation Path -->
+  <path d="M100 180 Q 140 180 150 140 T 200 60" fill="none" stroke="#F6AD55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Peak Outcome (The 'So' / Degree of Joy) -->
+  <circle cx="200" cy="60" r="12" fill="#F6AD55"/>
+  <circle cx="200" cy="60" r="20" fill="none" stroke="#F6AD55" stroke-opacity="0.3" stroke-width="4"/>
+  
+  <!-- Character reacting to the peak (The 'So' / 这么) -->
+  <!-- Body -->
+  <path d="M60 200 C 60 170 80 160 80 160 C 80 160 100 170 100 200" fill="#A0AEC0"/>
+  <!-- Head -->
+  <circle cx="80" cy="150" r="15" fill="#E2E8F0"/>
+  <!-- Arms raised in excitement -->
+  <path d="M70 165 L50 140" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90 165 L110 140" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Visualizing the 'Degree' / 'So' -->
+  <path d="M160 100 L170 90 L180 100" stroke="#F6AD55" stroke-width="3" fill="none"/>
+  <path d="M160 120 L170 110 L180 120" stroke="#F6AD55" stroke-width="3" fill="none"/>
+</svg>

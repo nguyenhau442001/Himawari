@@ -1,0 +1,30 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing logical connection -->
+  <circle cx="120" cy="120" r="70" fill="#2D3342" opacity="0.4"/>
+
+  <!-- Visual Metaphor: Causality / Progression (Connecting a method/state to a positive outcome/approval) -->
+  <!-- Step 1: The Method/Action node (Left) -->
+  <g transform="translate(60, 120)">
+    <circle cx="0" cy="0" r="22" fill="#252A34" stroke="#4F5D75" stroke-width="3"/>
+    <!-- Abstract representation of a precise adjustment/action (gear/dot) -->
+    <circle cx="0" cy="0" r="8" fill="#FFB703"/>
+  </g>
+
+  <!-- Progression Connector Arrow (Flow / "Zhè yàng" - Like this) -->
+  <path d="M 88 120 L 152 120" stroke="#FFB703" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round"/>
+  <!-- Arrowhead -->
+  <path d="M 144 112 L 154 120 L 144 128" fill="none" stroke="#FFB703" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 2: The Outcome/Approval node (Right) - "Xíng" (Okay/Approved) -->
+  <g transform="translate(180, 120)">
+    <circle cx="0" cy="0" r="26" fill="#1F3A2A" stroke="#2D6A4F" stroke-width="3"/>
+    <!-- Checkmark representing "Được, như vậy thì ổn" -->
+    <path d="M -9 0 L -3 6 L 10 -7" fill="none" stroke="#52B788" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Focused spotlight/pointer indicating specificity ("This particular way") -->
+  <path d="M 105 85 L 120 70 L 135 85" fill="none" stroke="#FFB703" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="120" cy="62" r="4" fill="#FFB703"/>
+</svg>

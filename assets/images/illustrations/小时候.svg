@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Grandfather figure -->
+  <g transform="translate(140, 120)">
+    <circle cx="0" cy="-40" r="15" fill="#E0E0E0"/>
+    <path d="M-15 -35 Q0 -20 15 -35" stroke="#A0A0A0" stroke-width="2" fill="none"/>
+    <rect x="-20" y="-25" width="40" height="50" rx="5" fill="#4A90E2"/>
+    <rect x="-25" y="-25" width="50" height="10" rx="2" fill="#357ABD"/>
+  </g>
+
+  <!-- Child figure -->
+  <g transform="translate(90, 140)">
+    <circle cx="0" cy="-30" r="12" fill="#FFD180"/>
+    <rect x="-12" y="-18" width="24" height="40" rx="4" fill="#FFB74D"/>
+    <path d="M-12 22 L-15 40 M12 22 L15 40" stroke="#FFB74D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Storytelling element: Open book -->
+  <path d="M110 130 L130 130 L135 145 L105 145 Z" fill="#FFFFFF"/>
+  <path d="M110 130 L120 120 L130 130" fill="none" stroke="#1A1D24" stroke-width="1"/>
+  
+  <!-- Ground line -->
+  <line x1="50" y1="180" x2="190" y2="180" stroke="#37474F" stroke-width="2"/>
+</svg>

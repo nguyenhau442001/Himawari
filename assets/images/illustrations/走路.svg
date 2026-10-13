@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative depth elements -->
+  <path d="M20 180 L220 180" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Motion / Wind lines indicating movement -->
+  <path d="M40 95 L70 95" stroke="#3A4252" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M30 115 L60 115" stroke="#3A4252" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Ground path for walking -->
+  <path d="M20 180 C80 180, 160 180, 220 180" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Dynamic Walking Character Group -->
+  <g transform="translate(10, 0)">
+    <!-- Back Leg (stepping back/up) -->
+    <path d="M105 130 L90 155 L75 160" stroke="#48DBFB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <ellipse cx="73" cy="163" rx="7" ry="4" fill="#48DBFB"/>
+
+    <!-- Torso -->
+    <path d="M100 100 L115 135 L95 140 L85 105 Z" fill="#0abde3"/>
+
+    <!-- Front Leg (stepping forward) -->
+    <path d="M110 135 L135 155 L155 155" stroke="#0abde3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <ellipse cx="158" cy="156" rx="8" ry="4" fill="#0abde3"/>
+
+    <!-- Back Arm (swinging back) -->
+    <path d="M105 105 L85 125" stroke="#48DBFB" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+    <!-- Head -->
+    <circle cx="115" cy="75" r="14" fill="#FFEAA7"/>
+
+    <!-- Front Arm (swinging forward) -->
+    <path d="M110 105 L135 120" stroke="#0abde3" stroke-width="7" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Speed / Action lines trailing the walker -->
+  <path d="M75 135 L60 137" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+  <path d="M80 150 L65 153" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Floating accent particles for sleek modern design -->
+  <circle cx="190" cy="70" r="3" fill="#FF9F43" opacity="0.8"/>
+  <circle cx="205" cy="85" r="2" fill="#0abde3" opacity="0.6"/>
+  <circle cx="50" cy="60" r="2" fill="#FF9F43" opacity="0.5"/>
+</svg>

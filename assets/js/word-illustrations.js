@@ -23557,15 +23557,170 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level2/男孩儿.svg",
     "caption": "cậu bé, bé trai"
   },
+  "女孩儿": {
+    "file": "女孩儿.svg",
+    "src": "images/HSK_3.0/level2/女孩儿.svg",
+    "caption": "cô bé, bé gái"
+  },
+  "跑": {
+    "file": "跑.svg",
+    "src": "images/HSK_3.0/level2/跑.svg",
+    "caption": "chạy"
+  },
   "球": {
     "file": "球.svg",
     "src": "images/HSK_3.0/level2/球.svg",
     "caption": "quả bóng"
   },
+  "肉": {
+    "file": "肉.svg",
+    "src": "images/HSK_3.0/level2/肉.svg",
+    "caption": "thịt"
+  },
+  "商场": {
+    "file": "商场.svg",
+    "src": "images/HSK_3.0/level2/商场.svg",
+    "caption": "trung tâm thương mại, khu mua sắm"
+  },
+  "上来": {
+    "file": "上来.svg",
+    "src": "images/HSK_3.0/level2/上来.svg",
+    "caption": "lên đây, bước lên"
+  },
+  "上面": {
+    "file": "上面.svg",
+    "src": "images/HSK_3.0/level2/上面.svg",
+    "caption": "phía trên, bên trên"
+  },
+  "上去": {
+    "file": "上去.svg",
+    "src": "images/HSK_3.0/level2/上去.svg",
+    "caption": "đi lên"
+  },
+  "时": {
+    "file": "时.svg",
+    "src": "images/HSK_3.0/level2/时.svg",
+    "caption": "thời gian (danh từ, số lượng)"
+  },
+  "手": {
+    "file": "手.svg",
+    "src": "images/HSK_3.0/level2/手.svg",
+    "caption": "bàn tay"
+  },
+  "书包": {
+    "file": "书包.svg",
+    "src": "images/HSK_3.0/level2/书包.svg",
+    "caption": "cặp sách"
+  },
+  "虽然": {
+    "file": "虽然.svg",
+    "src": "images/HSK_3.0/level2/虽然.svg",
+    "caption": "mặc dù"
+  },
+  "所以": {
+    "file": "所以.svg",
+    "src": "images/HSK_3.0/level2/所以.svg",
+    "caption": "vì vậy"
+  },
+  "踢": {
+    "file": "踢.svg",
+    "src": "images/HSK_3.0/level2/踢.svg",
+    "caption": "đá (bóng)"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",
     "caption": "đầu (danh từ, số lượng, tính từ)"
+  },
+  "外国": {
+    "file": "外国.svg",
+    "src": "images/HSK_3.0/level2/外国.svg",
+    "caption": "nước ngoài"
+  },
+  "外面": {
+    "file": "外面.svg",
+    "src": "images/HSK_3.0/level2/外面.svg",
+    "caption": "bên ngoài"
+  },
+  "网上": {
+    "file": "网上.svg",
+    "src": "images/HSK_3.0/level2/网上.svg",
+    "caption": "trên mạng, trực tuyến"
+  },
+  "忘": {
+    "file": "忘.svg",
+    "src": "images/HSK_3.0/level2/忘.svg",
+    "caption": "quên"
+  },
+  "下来": {
+    "file": "下来.svg",
+    "src": "images/HSK_3.0/level2/下来.svg",
+    "caption": "đi xuống"
+  },
+  "下面": {
+    "file": "下面.svg",
+    "src": "images/HSK_3.0/level2/下面.svg",
+    "caption": "bên dưới"
+  },
+  "下去": {
+    "file": "下去.svg",
+    "src": "images/HSK_3.0/level2/下去.svg",
+    "caption": "đi xuống; tiếp tục"
+  },
+  "小孩儿": {
+    "file": "小孩儿.svg",
+    "src": "images/HSK_3.0/level2/小孩儿.svg",
+    "caption": "đứa trẻ, trẻ con"
+  },
+  "小时候": {
+    "file": "小时候.svg",
+    "src": "images/HSK_3.0/level2/小时候.svg",
+    "caption": "lúc nhỏ, khi còn bé"
+  },
+  "姓名": {
+    "file": "姓名.svg",
+    "src": "images/HSK_3.0/level2/姓名.svg",
+    "caption": "tên"
+  },
+  "药店": {
+    "file": "药店.svg",
+    "src": "images/HSK_3.0/level2/药店.svg",
+    "caption": "hiệu thuốc, tiệm thuốc"
+  },
+  "右": {
+    "file": "右.svg",
+    "src": "images/HSK_3.0/level2/右.svg",
+    "caption": "bên phải, phía hữu"
+  },
+  "这么": {
+    "file": "这么.svg",
+    "src": "images/HSK_3.0/level2/这么.svg",
+    "caption": "vì vậy (đại từ)"
+  },
+  "这样": {
+    "file": "这样.svg",
+    "src": "images/HSK_3.0/level2/这样.svg",
+    "caption": "như thế này (đại từ)"
+  },
+  "周": {
+    "file": "周.svg",
+    "src": "images/HSK_3.0/level2/周.svg",
+    "caption": "tuần, tuần lễ"
+  },
+  "走路": {
+    "file": "走路.svg",
+    "src": "images/HSK_3.0/level2/走路.svg",
+    "caption": "đi bộ"
+  },
+  "足球": {
+    "file": "足球.svg",
+    "src": "images/HSK_3.0/level2/足球.svg",
+    "caption": "bóng đá"
+  },
+  "左": {
+    "file": "左.svg",
+    "src": "images/HSK_3.0/level2/左.svg",
+    "caption": "bên trái, phía tả"
   },
   "量": {
     "file": "量.svg",

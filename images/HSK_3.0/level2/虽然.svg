@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Rain effect -->
+  <g stroke="#7B8794" stroke-width="1.5" stroke-linecap="round">
+    <line x1="40" y1="20" x2="30" y2="60"/>
+    <line x1="80" y1="10" x2="70" y2="50"/>
+    <line x1="120" y1="30" x2="110" y2="70"/>
+    <line x1="160" y1="15" x2="150" y2="55"/>
+    <line x1="200" y1="25" x2="190" y2="65"/>
+  </g>
+
+  <!-- Character walking forward (Action) -->
+  <g transform="translate(60, 110)">
+    <!-- Legs in motion -->
+    <path d="M20 90 L20 60 M40 90 L40 60" stroke="#FFB347" stroke-width="6" stroke-linecap="round"/>
+    <!-- Body -->
+    <path d="M30 60 L30 20" stroke="#FFB347" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="30" cy="15" r="10" fill="#FFB347"/>
+    <!-- Motion lines -->
+    <path d="M-10 40 L-20 35 M-10 50 L-25 45" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Umbrella sheltering the character -->
+  <path d="M40 100 C40 70, 100 70, 100 100" fill="#FFB347"/>
+  <line x1="70" y1="100" x2="70" y2="120" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Ground line -->
+  <line x1="20" y1="200" x2="220" y2="200" stroke="#4A5568" stroke-width="2"/>
+</svg>

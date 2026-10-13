@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 112)">
+    <!-- Outer clock casing / circular frame -->
+    <circle cx="0" cy="0" r="76" fill="#222733" stroke="#F59E0B" stroke-width="6"/>
+    
+    <!-- Clock face background -->
+    <circle cx="0" cy="0" r="66" fill="#151821"/>
+    
+    <!-- Clock minute ticks -->
+    <line x1="0" y1="-60" x2="0" y2="-54" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="60" x2="0" y2="54" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-60" y1="0" x2="-54" y2="0" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+    <line x1="60" y1="0" x2="54" y2="0" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+    
+    <line x1="-42.43" y1="-42.43" x2="-38.19" y2="-38.19" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+    <line x1="42.43" y1="-42.43" x2="38.19" y2="-38.19" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-42.43" y1="42.43" x2="-38.19" y2="38.19" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+    <line x1="42.43" y1="42.43" x2="38.19" y2="38.19" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Clock hands indicating a specific festive moment (Time / 时) -->
+    <!-- Hour hand pointing towards top-right -->
+    <line x1="0" y1="0" x2="32" y2="-24" stroke="#E5E7EB" stroke-width="6" stroke-linecap="round"/>
+    <!-- Minute hand pointing straight up -->
+    <line x1="0" y1="0" x2="0" y2="-44" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Center pivot cap -->
+    <circle cx="0" cy="0" r="6" fill="#F59E0B"/>
+    
+    <!-- Modern decorative accent: subtle glowing time particle dots around -->
+    <circle cx="52" cy="-22" r="3" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="-50" cy="28" r="2" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="20" cy="52" r="2.5" fill="#F59E0B" opacity="0.6"/>
+  </g>
+</svg>

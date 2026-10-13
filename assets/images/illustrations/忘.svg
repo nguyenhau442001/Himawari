@@ -1,0 +1,15 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <path d="M100 20C100 8.9543 91.0457 0 80 0H40C28.9543 0 20 8.9543 20 20V100C20 111.046 28.9543 120 40 120H80C91.0457 120 100 111.046 100 100V20Z" fill="#3D4451"/>
+    <rect x="35" y="25" width="50" height="10" rx="2" fill="#FFB86C"/>
+    <rect x="35" y="45" width="50" height="10" rx="2" fill="#FFB86C"/>
+    <rect x="35" y="65" width="30" height="10" rx="2" fill="#FFB86C"/>
+    <circle cx="60" cy="90" r="15" fill="#FF5555" opacity="0.8"/>
+    <path d="M55 85L65 95M65 85L55 95" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(140, 140)">
+    <circle cx="20" cy="20" r="25" fill="#1A1D24" stroke="#FFB86C" stroke-width="4" stroke-dasharray="8 8"/>
+    <path d="M10 20L15 25L30 15" stroke="#FFB86C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

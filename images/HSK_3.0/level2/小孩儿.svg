@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground line -->
+  <path d="M 60 190 L 180 190" stroke="#2C323D" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Left child (joyful, waving) -->
+  <g transform="translate(85, 120)">
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="16" fill="#F39C12"/>
+    <!-- Hair -->
+    <path d="M -16 -30 C -10 -42, 10 -42, 16 -30 C 12 -38, -12 -38, -16 -30" fill="#E67E22"/>
+    <!-- Body/Outfit (Orange accent for focus) -->
+    <path d="M -12 -5 C -15 -15, 15 -15, 12 -5 C 16 10, 18 35, 12 55 C 8 60, -8 60, -12 55 C -18 35, -16 10, -12 -5 Z" fill="#F39C12"/>
+    <!-- Left arm waving up -->
+    <path d="M -10 -10 C -25 -20, -30 -35, -25 -40" fill="none" stroke="#F39C12" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-27" cy="-38" r="5" fill="#F39C12"/>
+    <!-- Right arm down -->
+    <path d="M 10 -10 C 20 0, 22 15, 20 25" fill="none" stroke="#F39C12" stroke-width="6" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="-6" y1="55" x2="-10" y2="70" stroke="#34495E" stroke-width="6" stroke-linecap="round"/>
+    <line x1="6" y1="55" x2="10" y2="70" stroke="#34495E" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right child (jumping/playing) -->
+  <g transform="translate(155, 110)">
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="16" fill="#3498DB"/>
+    <!-- Hair -->
+    <circle cx="0" cy="-33" r="12" fill="#2980B9"/>
+    <!-- Body/Outfit -->
+    <path d="M -12 -5 C -15 -15, 15 -15, 12 -5 C 16 10, 18 35, 12 55 C 8 60, -8 60, -12 55 C -18 35, -16 10, -12 -5 Z" fill="#3498DB"/>
+    <!-- Arms raised in excitement -->
+    <path d="M -10 -15 C -25 -25, -30 -40, -22 -45" fill="none" stroke="#3498DB" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 10 -15 C 25 -25, 30 -40, 22 -45" fill="none" stroke="#3498DB" stroke-width="6" stroke-linecap="round"/>
+    <!-- Legs bent (jumping) -->
+    <path d="M -6 55 C -15 60, -15 70, -8 75" fill="none" stroke="#34495E" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 6 55 C 15 60, 15 70, 8 75" fill="none" stroke="#34495E" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Playful motion lines & stars -->
+  <circle cx="120" cy="70" r="2" fill="#F1C40F"/>
+  <circle cx="125" cy="65" r="1.5" fill="#F39C12"/>
+  <path d="M 115 85 Q 120 75 125 85" fill="none" stroke="#F1C40F" stroke-width="2" stroke-linecap="round"/>
+</svg>
