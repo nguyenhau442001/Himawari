@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Microphone stand base -->
+  <rect x="115" y="180" width="10" height="40" fill="#4A5568" rx="2"/>
+  <line x1="120" y1="120" x2="120" y2="180" stroke="#718096" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Microphone head -->
+  <circle cx="120" cy="110" r="12" fill="#E2E8F0"/>
+  <rect x="114" y="115" width="12" height="5" fill="#E2E8F0"/>
+  
+  <!-- Character head and body -->
+  <circle cx="170" cy="130" r="25" fill="#F6AD55"/>
+  <path d="M155 155 Q170 180 185 155" fill="none" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  <path d="M160 125 Q165 120 170 125" stroke="#2D3748" stroke-width="2" fill="none"/>
+  <path d="M175 125 Q180 120 185 125" stroke="#2D3748" stroke-width="2" fill="none"/>
+  <path d="M165 140 Q170 145 175 140" stroke="#2D3748" stroke-width="2" fill="none"/>
+  
+  <!-- Motion lines for sound -->
+  <path d="M135 100 Q145 90 155 100" stroke="#F6AD55" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M135 120 Q150 105 165 120" stroke="#F6AD55" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M135 140 Q145 150 155 140" stroke="#F6AD55" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hand gesture -->
+  <circle cx="145" cy="160" r="8" fill="#F6AD55"/>
+</svg>

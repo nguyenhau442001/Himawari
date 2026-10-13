@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character 1 (Asking) -->
+  <g transform="translate(60, 120)">
+    <circle cx="0" cy="-40" r="12" fill="#FFD700"/>
+    <path d="M-15 0 L15 0 L10 60 L-10 60 Z" fill="#FFD700"/>
+    <path d="M0 -28 L15 -10" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-25 10 L-5 25" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Character 2 (Responding/Direction) -->
+  <g transform="translate(180, 120)">
+    <circle cx="0" cy="-40" r="12" fill="#5DADE2"/>
+    <path d="M-15 0 L15 0 L10 60 L-10 60 Z" fill="#5DADE2"/>
+    <path d="M-20 -10 L-40 -30" stroke="#5DADE2" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Directional Signpost (The "Where") -->
+  <g transform="translate(180, 60)">
+    <rect x="-2" y="0" width="4" height="40" fill="#7F8C8D"/>
+    <path d="M-20 -10 L20 -10 L25 -20 L20 -30 L-20 -30 Z" fill="#E74C3C"/>
+  </g>
+  
+  <!-- Motion Lines for "Asking" -->
+  <path d="M85 90 Q100 80 115 90" stroke="#FFD700" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M85 80 Q100 70 115 80" stroke="#FFD700" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Ground Line -->
+  <line x1="30" y1="180" x2="210" y2="180" stroke="#34495E" stroke-width="2"/>
+</svg>

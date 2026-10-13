@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptualizing "哪些" (Which ones/Plurality of selection) -->
+  <!-- Using a magnifying glass focusing on a specific subset of items from a group -->
+  
+  <!-- Group of items (The context) -->
+  <circle cx="80" cy="120" r="8" fill="#3B4252"/>
+  <rect x="100" y="112" width="16" height="16" rx="2" fill="#3B4252"/>
+  <path d="M135 120 L145 105 L155 120 Z" fill="#3B4252"/>
+  <circle cx="170" cy="120" r="8" fill="#3B4252"/>
+  
+  <!-- Selection/Focusing mechanism (The "Which" aspect) -->
+  <g transform="translate(100, 120)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#FFB86C" stroke-width="4" stroke-dasharray="4 4"/>
+    <line x1="18" y1="18" x2="35" y2="35" stroke="#FFB86C" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="40" cy="40" r="6" fill="#FFB86C"/>
+  </g>
+  
+  <!-- Highlighting the selected items -->
+  <circle cx="108" cy="120" r="10" fill="#FFB86C" opacity="0.6"/>
+  <rect x="100" y="112" width="16" height="16" rx="2" fill="#FFB86C" opacity="0.6"/>
+  
+  <!-- Progression/Causality indicator: A branching path showing the selection process -->
+  <path d="M40 180 C 80 180, 120 160, 160 180" stroke="#4C566A" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+  <circle cx="40" cy="180" r="4" fill="#4C566A"/>
+  <circle cx="200" cy="180" r="4" fill="#FFB86C"/>
+</svg>

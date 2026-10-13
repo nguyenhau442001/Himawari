@@ -1,0 +1,65 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient glow / lighting effect for focus -->
+  <circle cx="120" cy="120" r="70" fill="#252A36" opacity="0.6"/>
+
+  <!-- Motion/Focus Lines radiating slightly from the book -->
+  <g opacity="0.4" stroke="#F59E0B" stroke-width="2" stroke-linecap="round">
+    <line x1="85" y1="90" x2="70" y2="75"/>
+    <line x1="155" y1="90" x2="170" y2="75"/>
+    <line x1="120" y1="75" x2="120" y2="55"/>
+  </g>
+
+  <!-- Character & Action Elements -->
+  <!-- Character Body / Shoulders -->
+  <path d="M 75 195 C 75 165, 95 150, 120 150 C 145 150, 165 165, 165 195 Z" fill="#3B82F6"/>
+  <!-- Character Neck -->
+  <rect x="112" y="138" width="16" height="18" fill="#FBBF24"/>
+  <!-- Character Head -->
+  <circle cx="120" cy="118" r="22" fill="#FBBF24"/>
+  <!-- Hair -->
+  <path d="M 98 118 C 98 100, 142 100, 142 118 C 142 108, 135 96, 120 96 C 105 96, 98 108, 98 118 Z" fill="#1E293B"/>
+
+  <!-- Arms / Hands holding the book -->
+  <!-- Left Arm -->
+  <path d="M 85 170 Q 95 145, 110 135" fill="none" stroke="#3B82F6" stroke-width="12" stroke-linecap="round"/>
+  <!-- Right Arm -->
+  <path d="M 155 170 Q 145 145, 130 135" fill="none" stroke="#3B82F6" stroke-width="12" stroke-linecap="round"/>
+  <!-- Hands -->
+  <circle cx="106" cy="132" r="6" fill="#FBBF24"/>
+  <circle cx="134" cy="132" r="6" fill="#FBBF24"/>
+
+  <!-- The Open Book (Dynamic Action Focus) -->
+  <g transform="translate(0, -10)">
+    <!-- Book Shadow -->
+    <ellipse cx="120" cy="148" rx="35" ry="6" fill="#000000" opacity="0.4"/>
+    
+    <!-- Left Page -->
+    <path d="M 120 125 C 105 120, 80 123, 70 132 L 70 155 C 80 146, 105 143, 120 148 Z" fill="#E2E8F0"/>
+    <!-- Right Page -->
+    <path d="M 120 125 C 135 120, 160 123, 170 132 L 170 155 C 160 146, 135 143, 120 148 Z" fill="#F8FAFC"/>
+    
+    <!-- Book Spine -->
+    <line x1="120" y1="125" x2="120" y2="148" stroke="#CBD5E1" stroke-width="2"/>
+
+    <!-- Text Lines on Pages (Abstracted) -->
+    <g stroke="#94A3B8" stroke-width="2" stroke-linecap="round" opacity="0.7">
+      <!-- Left lines -->
+      <line x1="80" y1="133" x2="100" y2="135"/>
+      <line x1="80" y1="140" x2="105" y2="142"/>
+      <line x1="80" y1="147" x2="98" y2="149"/>
+      
+      <!-- Right lines -->
+      <line x1="140" y1="133" x2="160" y2="135"/>
+      <line x1="135" y1="140" x2="160" y2="142"/>
+      <line x1="138" y1="147" x2="155" y2="149"/>
+    </g>
+  </g>
+
+  <!-- Accent visual indicator for reading/action (Knowledge/Light) -->
+  <circle cx="120" cy="100" r="2" fill="#F59E0B"/>
+  <circle cx="95" cy="88" r="1.5" fill="#F59E0B"/>
+  <circle cx="145" cy="88" r="1.5" fill="#F59E0B"/>
+</svg>

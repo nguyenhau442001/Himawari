@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Glowing background effect for music context -->
+  <circle cx="120" cy="115" r="70" fill="#2D2140" opacity="0.6"/>
+
+  <!-- Musical Notes Floating -->
+  <g fill="#F59E0B">
+    <!-- Note 1 -->
+    <path d="M70,95 L70,70 L95,62 L95,87 Z" opacity="0.9"/>
+    <circle cx="65" cy="95" r="9"/>
+    <circle cx="90" cy="87" r="9"/>
+    <!-- Note 2 (smaller accent) -->
+    <path d="M165,110 L165,95 L180,90 L180,105 Z" opacity="0.7"/>
+    <circle cx="161" cy="110" r="6"/>
+    <circle cx="176" cy="105" r="6"/>
+  </g>
+
+  <!-- Sound wave ripples (Subtle background accent) -->
+  <path d="M50,115 C50,90 70,70 95,70" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M190,115 C190,90 170,70 145,70" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  
+  <path d="M40,125 C40,90 70,60 105,60" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+  <path d="M200,125 C200,90 170,60 135,60" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Main Object: Sleek Modern Headphone & Microphone representing "歌" (Song/Music/Vocals) -->
+  <!-- Headphones Band -->
+  <path d="M75,110 C75,70 100,50 120,50 C140,50 165,70 165,110" fill="none" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Headphone Earcups -->
+  <rect x="64" y="105" width="20" height="45" rx="8" fill="#38BDF8"/>
+  <rect x="156" y="105" width="20" height="45" rx="8" fill="#38BDF8"/>
+
+  <!-- Microphone Stand & Body (representing vocal song / singing) -->
+  <path d="M120,100 L120,175" stroke="#64748B" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Microphone Base -->
+  <path d="M95,185 C95,178 145,178 145,185 Z" fill="#64748B"/>
+
+  <!-- Microphone Head (Classic Retro Style with Gold/Orange Accent) -->
+  <path d="M102,75 C102,62 138,62 138,75 L138,98 C138,111 102,111 102,98 Z" fill="#F59E0B"/>
+  <path d="M106,75 L134,75" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+  <path d="M106,85 L134,85" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+  <path d="M106,95 L134,95" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Center Highlight Beam -->
+  <line x1="120" y1="70" x2="120" y2="102" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+</svg>

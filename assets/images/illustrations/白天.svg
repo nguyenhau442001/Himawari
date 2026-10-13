@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun representing daytime -->
+  <circle cx="120" cy="80" r="35" fill="#FFB800"/>
+  
+  <!-- Rays of the sun -->
+  <g stroke="#FFB800" stroke-width="4" stroke-linecap="round">
+    <line x1="120" y1="30" x2="120" y2="10"/>
+    <line x1="120" y1="150" x2="120" y2="130"/>
+    <line x1="170" y1="80" x2="190" y2="80"/>
+    <line x1="50" y1="80" x2="70" y2="80"/>
+    <line x1="155" y1="45" x2="170" y2="30"/>
+    <line x1="70" y1="130" x2="85" y2="115"/>
+    <line x1="155" y1="115" x2="170" y2="130"/>
+    <line x1="70" y1="30" x2="85" y2="45"/>
+  </g>
+
+  <!-- Office building silhouette representing the context of working during the day -->
+  <path d="M70,220 L70,160 L170,160 L170,220 Z" fill="#374151"/>
+  <rect x="85" y="175" width="20" height="20" fill="#FFB800" opacity="0.8"/>
+  <rect x="135" y="175" width="20" height="20" fill="#FFB800" opacity="0.8"/>
+  <rect x="85" y="200" width="20" height="20" fill="#FFB800" opacity="0.8"/>
+  <rect x="135" y="200" width="20" height="20" fill="#FFB800" opacity="0.8"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for warm social interaction -->
+  <circle cx="120" cy="120" r="70" fill="#2D2B38" opacity="0.6"/>
+
+  <!-- Character 1 (Left) -->
+  <g id="person-left">
+    <!-- Body / Torso -->
+    <path d="M 65 175 C 65 150, 75 140, 95 140 C 115 140, 125 150, 125 175 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="95" cy="110" r="18" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M 77 105 C 77 92, 85 88, 95 88 C 105 88, 113 92, 113 105 Z" fill="#1E293B"/>
+    <!-- Left Arm waving -->
+    <path d="M 80 145 C 65 130, 55 110, 60 95" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <circle cx="60" cy="92" r="6" fill="#FBBF24"/>
+  </g>
+
+  <!-- Character 2 (Right) -->
+  <g id="person-right">
+    <!-- Body / Torso -->
+    <path d="M 115 175 C 115 150, 125 140, 145 140 C 165 140, 175 150, 175 175 Z" fill="#10B981"/>
+    <!-- Head -->
+    <circle cx="145" cy="110" r="18" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M 127 105 C 127 92, 135 88, 145 88 C 155 88, 163 92, 163 105 Z" fill="#1E293B"/>
+    <!-- Right Arm waving -->
+    <path d="M 160 145 C 175 130, 185 110, 180 95" stroke="#10B981" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <circle cx="180" cy="92" r="6" fill="#FBBF24"/>
+  </g>
+
+  <!-- Friendly Greeting / Soundwave / Social connection indicator above -->
+  <g stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8">
+    <path d="M 108 72 C 112 66, 128 66, 132 72" fill="none"/>
+    <path d="M 103 64 C 110 56, 130 56, 137 64" fill="none"/>
+  </g>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Selection/Choice among multiple paths (The "Which" concept) -->
+  <!-- Using a branching path/staircase metaphor to represent the interrogative choice -->
+  
+  <g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Base Path -->
+    <path d="M60 180 L120 180" stroke="#4A5568"/>
+    
+    <!-- Branching Paths (The "Which" choice) -->
+    <path d="M120 180 L160 140" stroke="#718096"/>
+    <path d="M120 180 L160 180" stroke="#718096"/>
+    <path d="M120 180 L160 220" stroke="#718096"/>
+    
+    <!-- Focus/Selection Marker (The "Which" - magnifying glass/highlight) -->
+    <circle cx="160" cy="140" r="12" stroke="#F6AD55" stroke-width="3"/>
+    <path d="M168 148 L180 160" stroke="#F6AD55" stroke-width="4"/>
+  </g>
+  
+  <!-- Abstract representation of the 'Unit/Entity' being queried -->
+  <g fill="#A0AEC0">
+    <rect x="180" y="130" width="20" height="20" rx="2"/>
+    <rect x="180" y="170" width="20" height="20" rx="2"/>
+    <rect x="180" y="210" width="20" height="20" rx="2"/>
+  </g>
+  
+  <!-- Highlighted choice indicator -->
+  <rect x="152" y="132" width="16" height="16" rx="2" fill="#F6AD55" opacity="0.3"/>
+</svg>

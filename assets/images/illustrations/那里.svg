@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Perspective floor plane -->
+  <path d="M40 180 L200 180 L170 210 L70 210 Z" fill="#2D343E"/>
+  
+  <!-- Distant point indicator (Visualizing "There" / "那") -->
+  <g transform="translate(160, 140)">
+    <circle cx="0" cy="0" r="12" fill="#FFB84D" opacity="0.3"/>
+    <circle cx="0" cy="0" r="6" fill="#FFB84D"/>
+    <!-- Focus lines pointing to the distance -->
+    <line x1="-20" y1="-20" x2="-8" y2="-8" stroke="#FFB84D" stroke-width="2" stroke-linecap="round"/>
+    <line x1="20" y1="-20" x2="8" y2="-8" stroke="#FFB84D" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character standing still (Visualizing "呆呆地站") -->
+  <g transform="translate(80, 180)">
+    <!-- Feet -->
+    <rect x="-10" y="-5" width="8" height="5" fill="#A0AEC0"/>
+    <rect x="2" y="-5" width="8" height="5" fill="#A0AEC0"/>
+    <!-- Body -->
+    <rect x="-8" y="-45" width="16" height="40" rx="4" fill="#718096"/>
+    <!-- Head -->
+    <circle cx="0" cy="-55" r="10" fill="#E2E8F0"/>
+    <!-- Static posture lines -->
+    <line x1="-15" y1="-50" x2="-25" y2="-60" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    <line x1="15" y1="-50" x2="25" y2="-60" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Depth cues: Perspective lines leading to the target point -->
+  <path d="M80 180 L160 140" stroke="#4A5568" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M80 135 L160 140" stroke="#4A5568" stroke-width="1" stroke-dasharray="4 4"/>
+</svg>

@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background elements: subtle classroom/lecture hall atmosphere -->
+  <g opacity="0.3">
+    <!-- Chalkboard top frame -->
+    <rect x="36" y="40" width="168" height="96" rx="4" fill="#242B38" stroke="#333D4F" stroke-width="2"/>
+    <!-- Projected Screen / Digital Board -->
+    <rect x="46" y="50" width="148" height="76" rx="2" fill="#2D3748"/>
+    <!-- Abstract lesson diagram on board -->
+    <path d="M60 85 L80 65 L100 80 L120 70 L140 90" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="140" cy="90" r="3" fill="#60A5FA"/>
+    <path d="M60 100 L90 100" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    <path d="M60 110 L110 110" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Teacher / Lecturing Character (representing "上课" - attending/holding class) -->
+  <g transform="translate(0, 5)">
+    <!-- Teacher Body / Torso -->
+    <path d="M120 120 C105 120 90 130 85 145 L155 145 C150 130 135 120 120 120 Z" fill="#3B82F6"/>
+    <path d="M100 125 L140 125 L145 145 L95 145 Z" fill="#2563EB"/>
+
+    <!-- Teacher Head & Hair -->
+    <circle cx="120" cy="95" r="16" fill="#FDE68A"/>
+    <path d="M104 95 C104 84 112 80 120 80 C128 80 136 84 136 95 C136 97 134 98 134 98 C134 98 128 88 120 88 C112 88 106 98 106 98 C106 98 104 97 104 95 Z" fill="#1E293B"/>
+
+    <!-- Pointing Arm / Gesture -->
+    <path d="M135 125 L165 105 L170 110 L145 135 Z" fill="#FDE68A"/>
+    <!-- Pointer stick -->
+    <line x1="167" y1="107" x2="195" y2="85" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+    <!-- Other arm -->
+    <path d="M105 125 L90 140 L98 145 L110 130 Z" fill="#3B82F6"/>
+
+    <!-- Lectern / Desk -->
+    <path d="M95 145 L145 145 L155 175 L85 175 Z" fill="#F59E0B"/>
+    <path d="M90 145 L150 145 L150 152 L90 152 Z" fill="#D97706"/>
+    <!-- Open Book on Lectern -->
+    <path d="M105 147 L120 142 L135 147 L135 152 L120 147 L105 152 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Foreground Focus Accent: Open textbook icon floating subtly or desk items -->
+  <g transform="translate(0, 10)">
+    <!-- Desk surface line -->
+    <line x1="40" y1="185" x2="200" y2="185" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Student Desk / Notebook representation in foreground -->
+    <rect x="75" y="170" width="90" height="25" rx="3" fill="#334155" stroke="#475569" stroke-width="2"/>
+    
+    <!-- Open Textbook on Student Desk -->
+    <path d="M100 177 C110 174 120 177 120 177 L120 190 C120 190 110 187 100 190 Z" fill="#F8FAFC"/>
+    <path d="M140 177 C130 174 120 177 120 177 L120 190 C120 190 130 187 140 190 Z" fill="#F8FAFC"/>
+    <line x1="120" y1="177" x2="120" y2="190" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Focus marker (Gold/Orange accent representing learning/class time) -->
+    <circle cx="120" cy="183" r="2" fill="#F59E0B"/>
+  </g>
+
+</svg>

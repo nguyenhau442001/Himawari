@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Podium / Stage representing sequence and hierarchy (Ordinal structure) -->
+  <!-- Base background glow -->
+  <ellipse cx="120" cy="185" rx="70" ry="16" fill="#252A34"/>
+
+  <!-- Podium 2 (Second place, lower right) -->
+  <path d="M 140 130 L 190 145 L 190 180 L 140 165 Z" fill="#2E3646"/>
+  <path d="M 140 130 L 95 145 L 140 160 Z" fill="#3E4A61"/>
+  <path d="M 140 130 L 140 165 L 190 180 L 190 145 Z" fill="#252A34"/>
+
+  <!-- Podium 3 (Third place, lower left) -->
+  <path d="M 50 145 L 100 130 L 100 165 L 50 180 Z" fill="#252A34"/>
+  <path d="M 50 145 L 95 160 L 50 175 Z" fill="#2E3646"/>
+
+  <!-- Podium 1 (First place / Center - highlighting the primary ordinal concept '第') -->
+  <path d="M 95 90 L 145 75 L 195 90 L 145 105 Z" fill="#FFC107" opacity="0.15"/>
+  <!-- Podium 1 Pillars/Sides -->
+  <path d="M 95 90 L 145 105 L 145 175 L 95 160 Z" fill="#3E4A61"/>
+  <path d="M 145 105 L 195 90 L 195 160 L 145 175 Z" fill="#2E3646"/>
+  <!-- Podium 1 Top Surface -->
+  <path d="M 95 90 L 145 75 L 195 90 L 145 105 Z" fill="#FFC107"/>
+
+  <!-- Number 1 / First Indicator prominently on top of Podium 1 -->
+  <!-- Glowing circle badge -->
+  <circle cx="145" cy="55" r="22" fill="#1A1D24" stroke="#FFC107" stroke-width="4"/>
+  <!-- Crown / Rank 1 Star Element -->
+  <path d="M 145 38 L 148 45 L 155 45 L 150 50 L 152 57 L 145 53 L 138 57 L 140 50 L 135 45 L 142 45 Z" fill="#FFC107"/>
+
+  <!-- Decorative sequence blocks floating upward to show order/ranking -->
+  <rect x="75" y="105" width="12" height="12" rx="3" fill="#64748B"/>
+  <rect x="155" y="115" width="14" height="14" rx="3" fill="#94A3B8"/>
+  <rect x="65" y="70" width="16" height="16" rx="4" fill="#FFC107" opacity="0.8"/>
+  
+  <!-- Arrow indicating progression / sequence order -->
+  <path d="M 120 195 C 120 205 130 205 140 200" stroke="#FFC107" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 136 195 L 141 200 L 136 205" stroke="#FFC107" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Floor line -->
+  <path d="M40 180 L200 180" stroke="#3A3F4B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Person (The subject) -->
+  <g transform="translate(120, 160)">
+    <circle cx="0" cy="-60" r="12" fill="#FFB86C"/>
+    <path d="M-15 -48 L15 -48 L10 -10 L-10 -10 Z" fill="#FFB86C"/>
+    <path d="M-10 -10 L-15 20 M10 -10 L15 20" stroke="#FFB86C" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Object in front (The 'Qian' - A desk/table) -->
+  <g transform="translate(120, 180)">
+    <path d="M-40 0 L40 0 L35 -35 L-35 -35 Z" fill="#6272A4"/>
+    <path d="M-45 -35 L45 -35 L45 -42 L-45 -42 Z" fill="#8BE9FD"/>
+    <!-- Paper on desk -->
+    <rect x="-15" y="-40" width="30" height="4" rx="1" fill="#F8F8F2"/>
+  </g>
+  
+  <!-- Directional indicator (Subtle visual cue for 'front') -->
+  <path d="M120 120 L120 100 M115 105 L120 100 L125 105" stroke="#FFB86C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

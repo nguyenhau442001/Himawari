@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Clinic/Hospital Element -->
+  <path d="M40 190 H200" stroke="#2A2F3A" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Medical Cross Wall Icon -->
+  <g transform="translate(180, 50)">
+    <circle cx="0" cy="0" r="14" fill="#222834"/>
+    <rect x="-2" y="-7" width="4" height="14" fill="#38BDF8" rx="1"/>
+    <rect x="-7" y="-2" width="14" height="4" fill="#38BDF8" rx="1"/>
+  </g>
+
+  <!-- Doctor Character (Right) -->
+  <g id="doctor">
+    <!-- Doctor Body -->
+    <path d="M160 190 L160 145 C160 135 150 130 140 130 L125 130 C115 130 105 135 105 145 L105 190 Z" fill="#2563EB"/>
+    <!-- White Lab Coat -->
+    <path d="M120 130 L115 190 H150 L145 130 Z" fill="#F8FAFC"/>
+    <path d="M132 130 L132 185" stroke="#E2E8F0" stroke-width="2"/>
+    <!-- Doctor Head -->
+    <circle cx="132.5" cy="105" r="14" fill="#FDE047"/>
+    <!-- Stethoscope -->
+    <path d="M125 112 C125 120 132 125 132 132" stroke="#64748B" stroke-width="2.5" fill="none"/>
+    <circle cx="132" cy="132" r="3" fill="#38BDF8"/>
+  </g>
+
+  <!-- Patient Character (Left) -->
+  <g id="patient">
+    <!-- Patient Body (Sitting/Leaning forward) -->
+    <path d="M80 190 L80 148 C80 138 90 132 100 132 L115 132 C125 132 130 140 130 150 L130 190 Z" fill="#F97316"/>
+    <!-- Patient Head -->
+    <circle cx="95" cy="108" r="14" fill="#FFD166"/>
+  </g>
+
+  <!-- Action Interaction (Stethoscope Examination) -->
+  <g id="examination-action">
+    <!-- Doctor's Arm & Hand holding stethoscope chestpiece -->
+    <path d="M125 135 C115 135 110 138 105 142" stroke="#F8FAFC" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <circle cx="103" cy="143" r="5" fill="#38BDF8"/>
+
+    <!-- Motion/Focus Lines -->
+    <path d="M98 126 C100 123 104 123 106 126" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M95 122 C98 118 104 118 108 122" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Medical Cross Accent (Top Left) -->
+  <g transform="translate(45, 50)">
+    <rect x="-3" y="-10" width="6" height="20" fill="#F43F5E" rx="1.5"/>
+    <rect x="-10" y="-3" width="20" height="6" fill="#F43F5E" rx="1.5"/>
+  </g>
+</svg>

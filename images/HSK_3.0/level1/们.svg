@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group of students representing the plural suffix 'men' -->
+  <g transform="translate(40, 80)">
+    <!-- Student 1 -->
+    <g transform="translate(0, 0)">
+      <circle cx="25" cy="25" r="20" fill="#FFB84D"/>
+      <path d="M10 80 L40 80 L35 130 L15 130 Z" fill="#4D94FF"/>
+      <rect x="20" y="130" width="10" height="20" fill="#2C3E50"/>
+    </g>
+    
+    <!-- Student 2 -->
+    <g transform="translate(60, 20)">
+      <circle cx="25" cy="25" r="20" fill="#FFB84D"/>
+      <path d="M10 80 L40 80 L35 130 L15 130 Z" fill="#50E3C2"/>
+      <rect x="20" y="130" width="10" height="20" fill="#2C3E50"/>
+    </g>
+    
+    <!-- Student 3 -->
+    <g transform="translate(120, 0)">
+      <circle cx="25" cy="25" r="20" fill="#FFB84D"/>
+      <path d="M10 80 L40 80 L35 130 L15 130 Z" fill="#FF6B6B"/>
+      <rect x="20" y="130" width="10" height="20" fill="#2C3E50"/>
+    </g>
+  </g>
+  
+  <!-- Classroom floor line -->
+  <line x1="20" y1="220" x2="220" y2="220" stroke="#34495E" stroke-width="4"/>
+</svg>

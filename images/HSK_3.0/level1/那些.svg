@@ -1,0 +1,56 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative depth elements representing distance ("those") -->
+  <g opacity="0.15">
+    <circle cx="120" cy="110" r="85" fill="none" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle cx="120" cy="110" r="65" fill="none" stroke="#64748B" stroke-width="1.5" stroke-dasharray="2 4"/>
+  </g>
+
+  <!-- Ground shadow -->
+  <ellipse cx="120" cy="175" rx="55" ry="12" fill="#0F1115"/>
+
+  <!-- 3 Distinct Red Apples representing "那些" (plural, pointing to specific objects away from viewer) -->
+  <!-- Left Apple -->
+  <g transform="translate(75, 115)">
+    <path d="M 0,-15 C -12,-15 -20,-5 -15,10 C -10,22 0,28 0,28 C 0,28 10,22 15,10 C 20,-5 12,-15 0,-15 Z" fill="#EF4444"/>
+    <!-- Highlight -->
+    <path d="M -5,-8 C -8,-8 -11,-3 -9,5" fill="none" stroke="#FCA5A5" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Stem & Leaf -->
+    <path d="M 0,-15 Q 4,-25 10,-22" fill="none" stroke="#92400E" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 4,-20 C 12,-22 15,-14 9,-16 Z" fill="#10B981"/>
+  </g>
+
+  <!-- Right Apple -->
+  <g transform="translate(165, 115)">
+    <path d="M 0,-15 C -12,-15 -20,-5 -15,10 C -10,22 0,28 0,28 C 0,28 10,22 15,10 C 20,-5 12,-15 0,-15 Z" fill="#EF4444"/>
+    <!-- Highlight -->
+    <path d="M -5,-8 C -8,-8 -11,-3 -9,5" fill="none" stroke="#FCA5A5" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Stem & Leaf -->
+    <path d="M 0,-15 Q 4,-25 10,-22" fill="none" stroke="#92400E" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 4,-20 C 12,-22 15,-14 9,-16 Z" fill="#10B981"/>
+  </g>
+
+  <!-- Center Apple (Prominent, overlapping slightly in front) -->
+  <g transform="translate(120, 95)">
+    <!-- Main body -->
+    <path d="M 0,-18 C -15,-18 -25,-6 -18,12 C -12,27 0,33 0,33 C 0,33 12,27 18,12 C 25,-6 15,-18 0,-18 Z" fill="#DC2626"/>
+    <!-- Indentation top -->
+    <path d="M -3,-18 C -1,-15 1,-15 3,-18" fill="none" stroke="#991B1B" stroke-width="2"/>
+    <!-- Highlight -->
+    <path d="M -7,-9 C -11,-9 -14,-2 -11,8" fill="none" stroke="#F87171" stroke-width="3" stroke-linecap="round"/>
+    <!-- Stem & Leaf -->
+    <path d="M 0,-18 Q 5,-29 12,-25" fill="none" stroke="#78350F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 5,-23 C 15,-26 18,-16 11,-18 Z" fill="#059669"/>
+  </g>
+
+  <!-- Sleek Indicator / Pointer graphics (Visualizing "Those / 那些" pointing gesture/focus) -->
+  <g transform="translate(120, 195)">
+    <!-- Focus bracket underlining the group -->
+    <path d="M -60,0 L -75,0 C -80,0 -80,-5 -80,-10 L -80,-15" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 60,0 L 75,0 C 80,0 80,-5 80,-10 L 80,-15" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Center chevron/pointer -->
+    <path d="M -10,-8 L 0,2 L 10,-8" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

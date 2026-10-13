@@ -22897,6 +22897,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/责怪.svg",
     "caption": "trách cứ, đổ lỗi"
   },
+  "白天": {
+    "file": "白天.svg",
+    "src": "images/HSK_3.0/level1/白天.svg",
+    "caption": "ban ngày"
+  },
+  "本¹": {
+    "file": "本¹.svg",
+    "src": "images/HSK_3.0/level1/本¹.svg",
+    "caption": "cuốn (lượng từ)"
+  },
+  "边": {
+    "file": "边.svg",
+    "src": "images/HSK_3.0/level1/边.svg",
+    "caption": "bên (danh từ, hậu tố)"
+  },
+  "病": {
+    "file": "病.svg",
+    "src": "images/HSK_3.0/level1/病.svg",
+    "caption": "bệnh"
+  },
+  "不要": {
+    "file": "不要.svg",
+    "src": "images/HSK_3.0/level1/不要.svg",
+    "caption": "đừng"
+  },
+  "唱": {
+    "file": "唱.svg",
+    "src": "images/HSK_3.0/level1/唱.svg",
+    "caption": "hát"
+  },
+  "车": {
+    "file": "车.svg",
+    "src": "images/HSK_3.0/level1/车.svg",
+    "caption": "xe hơi"
+  },
+  "大学": {
+    "file": "大学.svg",
+    "src": "images/HSK_3.0/level1/大学.svg",
+    "caption": "đại học"
+  },
+  "大学生": {
+    "file": "大学生.svg",
+    "src": "images/HSK_3.0/level1/大学生.svg",
+    "caption": "sinh viên đại học"
+  },
+  "第": {
+    "file": "第.svg",
+    "src": "images/HSK_3.0/level1/第.svg",
+    "caption": "thứ (tiền tố chỉ số thứ tự)"
+  },
+  "点¹": {
+    "file": "点¹.svg",
+    "src": "images/HSK_3.0/level1/点¹.svg",
+    "caption": "giờ, điểm"
+  },
+  "读书": {
+    "file": "读书.svg",
+    "src": "images/HSK_3.0/level1/读书.svg",
+    "caption": "đọc"
+  },
+  "饭": {
+    "file": "饭.svg",
+    "src": "images/HSK_3.0/level1/饭.svg",
+    "caption": "cơm"
+  },
+  "歌": {
+    "file": "歌.svg",
+    "src": "images/HSK_3.0/level1/歌.svg",
+    "caption": "bài hát, ca khúc"
+  },
+  "国": {
+    "file": "国.svg",
+    "src": "images/HSK_3.0/level1/国.svg",
+    "caption": "đất nước"
+  },
+  "汉字": {
+    "file": "汉字.svg",
+    "src": "images/HSK_3.0/level1/汉字.svg",
+    "caption": "chữ Hán"
+  },
+  "好看": {
+    "file": "好看.svg",
+    "src": "images/HSK_3.0/level1/好看.svg",
+    "caption": "đẹp trai"
+  },
+  "好听": {
+    "file": "好听.svg",
+    "src": "images/HSK_3.0/level1/好听.svg",
+    "caption": "tốt đẹp"
+  },
+  "好玩儿": {
+    "file": "好玩儿.svg",
+    "src": "images/HSK_3.0/level1/好玩儿.svg",
+    "caption": "vui, thú vị"
+  },
+  "和¹": {
+    "file": "和¹.svg",
+    "src": "images/HSK_3.0/level1/和¹.svg",
+    "caption": "và"
+  },
+  "后": {
+    "file": "后.svg",
+    "src": "images/HSK_3.0/level1/后.svg",
+    "caption": "sau"
+  },
+  "会¹": {
+    "file": "会¹.svg",
+    "src": "images/HSK_3.0/level1/会¹.svg",
+    "caption": "biết, sẽ"
+  },
+  "火车": {
+    "file": "火车.svg",
+    "src": "images/HSK_3.0/level1/火车.svg",
+    "caption": "xe lửa"
+  },
+  "家人": {
+    "file": "家人.svg",
+    "src": "images/HSK_3.0/level1/家人.svg",
+    "caption": "gia đình"
+  },
+  "见": {
+    "file": "见.svg",
+    "src": "images/HSK_3.0/level1/见.svg",
+    "caption": "nhìn thấy"
+  },
+  "今年": {
+    "file": "今年.svg",
+    "src": "images/HSK_3.0/level1/今年.svg",
+    "caption": "năm nay"
+  },
+  "开车": {
+    "file": "开车.svg",
+    "src": "images/HSK_3.0/level1/开车.svg",
+    "caption": "lái xe"
+  },
+  "看病": {
+    "file": "看病.svg",
+    "src": "images/HSK_3.0/level1/看病.svg",
+    "caption": "đi khám bác sĩ"
+  },
+  "两¹": {
+    "file": "两¹.svg",
+    "src": "images/HSK_3.0/level1/两¹.svg",
+    "caption": "hai (số lượng)"
+  },
+  "没事": {
+    "file": "没事.svg",
+    "src": "images/HSK_3.0/level1/没事.svg",
+    "caption": "không có gì"
+  },
+  "们": {
+    "file": "们.svg",
+    "src": "images/HSK_3.0/level1/们.svg",
+    "caption": "họ (hậu tố)"
+  },
+  "面条儿": {
+    "file": "面条儿.svg",
+    "src": "images/HSK_3.0/level1/面条儿.svg",
+    "caption": "mì, sợi mì"
+  },
+  "明年": {
+    "file": "明年.svg",
+    "src": "images/HSK_3.0/level1/明年.svg",
+    "caption": "năm tới"
+  },
+  "哪个": {
+    "file": "哪个.svg",
+    "src": "images/HSK_3.0/level1/哪个.svg",
+    "caption": "cái nào (đại từ)"
+  },
+  "哪里": {
+    "file": "哪里.svg",
+    "src": "images/HSK_3.0/level1/哪里.svg",
+    "caption": "ở đâu (đại từ)"
+  },
+  "哪些": {
+    "file": "哪些.svg",
+    "src": "images/HSK_3.0/level1/哪些.svg",
+    "caption": "cái nào (đại từ)"
+  },
+  "那边": {
+    "file": "那边.svg",
+    "src": "images/HSK_3.0/level1/那边.svg",
+    "caption": "ở đó (đại từ)"
+  },
+  "那个": {
+    "file": "那个.svg",
+    "src": "images/HSK_3.0/level1/那个.svg",
+    "caption": "cái đó (đại từ)"
+  },
+  "那里": {
+    "file": "那里.svg",
+    "src": "images/HSK_3.0/level1/那里.svg",
+    "caption": "ở đó (đại từ)"
+  },
+  "那儿": {
+    "file": "那儿.svg",
+    "src": "images/HSK_3.0/level1/那儿.svg",
+    "caption": "ở đó, chỗ đó"
+  },
+  "那些": {
+    "file": "那些.svg",
+    "src": "images/HSK_3.0/level1/那些.svg",
+    "caption": "những cái đó, những người đó"
+  },
+  "男朋友": {
+    "file": "男朋友.svg",
+    "src": "images/HSK_3.0/level1/男朋友.svg",
+    "caption": "bạn trai"
+  },
+  "你好": {
+    "file": "你好.svg",
+    "src": "images/HSK_3.0/level1/你好.svg",
+    "caption": "xin chào"
+  },
+  "你们": {
+    "file": "你们.svg",
+    "src": "images/HSK_3.0/level1/你们.svg",
+    "caption": "các bạn, các cậu"
+  },
+  "女朋友": {
+    "file": "女朋友.svg",
+    "src": "images/HSK_3.0/level1/女朋友.svg",
+    "caption": "bạn gái"
+  },
+  "前": {
+    "file": "前.svg",
+    "src": "images/HSK_3.0/level1/前.svg",
+    "caption": "trước"
+  },
+  "请问": {
+    "file": "请问.svg",
+    "src": "images/HSK_3.0/level1/请问.svg",
+    "caption": "xin lỗi"
+  },
+  "上课": {
+    "file": "上课.svg",
+    "src": "images/HSK_3.0/level1/上课.svg",
+    "caption": "tham dự lớp học"
+  },
+  "上学": {
+    "file": "上学.svg",
+    "src": "images/HSK_3.0/level1/上学.svg",
+    "caption": "đi học"
+  },
+  "睡": {
+    "file": "睡.svg",
+    "src": "images/HSK_3.0/level1/睡.svg",
+    "caption": "ngủ"
+  },
   "头": {
     "file": "头.svg",
     "src": "images/HSK_3.0/level2/头.svg",

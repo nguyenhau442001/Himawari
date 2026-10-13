@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor shadow / perspective base -->
+  <ellipse cx="120" cy="195" rx="70" ry="12" fill="#121419" opacity="0.8"/>
+
+  <!-- Desk Surface -->
+  <path d="M 60 165 L 180 165 L 195 190 L 45 190 Z" fill="#252A34"/>
+  <path d="M 50 160 L 190 160 L 180 165 L 60 165 Z" fill="#323846"/>
+
+  <!-- Backpack (The Object at 'That Place') -->
+  <!-- Main Body -->
+  <rect x="95" y="105" width="50" height="60" rx="14" fill="#E65100"/>
+  <!-- Front Pocket -->
+  <rect x="103" y="130" width="34" height="30" rx="8" fill="#F57C00"/>
+  <rect x="113" y="140" width="14" height="4" rx="2" fill="#FFA726"/>
+  <!-- Straps (Top Loop) -->
+  <path d="M 110 105 C 110 98 130 98 130 105" fill="none" stroke="#D84315" stroke-width="4" stroke-linecap="round"/>
+  <!-- Zipper lines -->
+  <line x1="120" y1="105" x2="120" y2="120" stroke="#FFB74D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Directional Indicator / Focus Marker (Pointing to 'That Place') -->
+  <!-- Glowing / High-contrast pin pointing precisely at the backpack -->
+  <g transform="translate(0, -5)">
+    <!-- Floating Pin Body -->
+    <path d="M 120 40 C 103.4 40 90 53.4 90 70 C 90 92.5 120 115 120 115 C 120 115 150 92.5 150 70 C 150 53.4 136.6 40 120 40 Z" fill="#FFC107"/>
+    <!-- Inner Circle of Pin -->
+    <circle cx="120" cy="70" r="10" fill="#1A1D24"/>
+    <!-- Downward pulse / focus ring on the backpack -->
+    <ellipse cx="120" cy="168" rx="28" ry="6" fill="#FFC107" opacity="0.3"/>
+    <ellipse cx="120" cy="168" rx="18" ry="4" fill="#FFC107" opacity="0.6"/>
+  </g>
+
+</svg>
