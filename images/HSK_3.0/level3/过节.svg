@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background elements: Silhouette of a traditional house roofline -->
+  <path d="M40 160 L120 110 L200 160" stroke="#2D343E" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Character 1 (The traveler arriving) -->
+  <g transform="translate(60, 120)">
+    <path d="M20 80 L20 40 Q20 20 40 20 Q60 20 60 40 L60 80" fill="#FFB84D"/>
+    <circle cx="40" cy="15" r="12" fill="#FFB84D"/>
+    <!-- Motion lines indicating arrival -->
+    <path d="M10 30 L0 20 M10 50 L-5 40" stroke="#FFB84D" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Character 2 (The parent waiting/welcoming) -->
+  <g transform="translate(140, 120)">
+    <path d="M20 80 L20 40 Q20 20 40 20 Q60 20 60 40 L60 80" fill="#E6E6E6"/>
+    <circle cx="40" cy="15" r="12" fill="#E6E6E6"/>
+    <!-- Open arms gesture -->
+    <path d="M15 45 Q5 35 0 50" stroke="#E6E6E6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M65 45 Q75 35 80 50" stroke="#E6E6E6" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Festive lantern hanging above -->
+  <circle cx="120" cy="50" r="15" fill="#FF5733"/>
+  <path d="M120 65 L120 80" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M115 80 L125 80" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M120 35 L120 20" stroke="#4A5568" stroke-width="2"/>
+</svg>

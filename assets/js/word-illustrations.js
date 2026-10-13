@@ -23962,15 +23962,265 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/风.svg",
     "caption": "gió"
   },
+  "封": {
+    "file": "封.svg",
+    "src": "images/HSK_3.0/level3/封.svg",
+    "caption": "lá, bức (lượng từ cho thư); niêm phong"
+  },
+  "夫妻": {
+    "file": "夫妻.svg",
+    "src": "images/HSK_3.0/level3/夫妻.svg",
+    "caption": "vợ chồng"
+  },
   "服务": {
     "file": "服务.svg",
     "src": "images/HSK_3.0/level3/服务.svg",
     "caption": "phục vụ"
   },
+  "该¹": {
+    "file": "该¹.svg",
+    "src": "images/HSK_3.0/level3/该¹.svg",
+    "caption": "nên, phải; đến lượt"
+  },
   "感到": {
     "file": "感到.svg",
     "src": "images/HSK_3.0/level3/感到.svg",
     "caption": "cảm thấy"
+  },
+  "刚刚": {
+    "file": "刚刚.svg",
+    "src": "images/HSK_3.0/level3/刚刚.svg",
+    "caption": "vừa mới"
+  },
+  "高铁": {
+    "file": "高铁.svg",
+    "src": "images/HSK_3.0/level3/高铁.svg",
+    "caption": "tàu cao tốc"
+  },
+  "工作日": {
+    "file": "工作日.svg",
+    "src": "images/HSK_3.0/level3/工作日.svg",
+    "caption": "ngày làm việc"
+  },
+  "刮": {
+    "file": "刮.svg",
+    "src": "images/HSK_3.0/level3/刮.svg",
+    "caption": "thổi (gió); cạo"
+  },
+  "关机": {
+    "file": "关机.svg",
+    "src": "images/HSK_3.0/level3/关机.svg",
+    "caption": "tắt máy"
+  },
+  "关注": {
+    "file": "关注.svg",
+    "src": "images/HSK_3.0/level3/关注.svg",
+    "caption": "quan tâm, chú ý; theo dõi"
+  },
+  "过节": {
+    "file": "过节.svg",
+    "src": "images/HSK_3.0/level3/过节.svg",
+    "caption": "ăn tết, đón lễ"
+  },
+  "过去²": {
+    "file": "过去².svg",
+    "src": "images/HSK_3.0/level3/过去².svg",
+    "caption": "quá khứ"
+  },
+  "海": {
+    "file": "海.svg",
+    "src": "images/HSK_3.0/level3/海.svg",
+    "caption": "biển"
+  },
+  "好多": {
+    "file": "好多.svg",
+    "src": "images/HSK_3.0/level3/好多.svg",
+    "caption": "rất nhiều"
+  },
+  "红绿灯": {
+    "file": "红绿灯.svg",
+    "src": "images/HSK_3.0/level3/红绿灯.svg",
+    "caption": "đèn giao thông, đèn xanh đèn đỏ"
+  },
+  "后年": {
+    "file": "后年.svg",
+    "src": "images/HSK_3.0/level3/后年.svg",
+    "caption": "năm sau nữa"
+  },
+  "后天": {
+    "file": "后天.svg",
+    "src": "images/HSK_3.0/level3/后天.svg",
+    "caption": "ngày kia"
+  },
+  "画家": {
+    "file": "画家.svg",
+    "src": "images/HSK_3.0/level3/画家.svg",
+    "caption": "họa sĩ"
+  },
+  "会²": {
+    "file": "会².svg",
+    "src": "images/HSK_3.0/level3/会².svg",
+    "caption": "biết, sẽ"
+  },
+  "或": {
+    "file": "或.svg",
+    "src": "images/HSK_3.0/level3/或.svg",
+    "caption": "hoặc"
+  },
+  "鸡": {
+    "file": "鸡.svg",
+    "src": "images/HSK_3.0/level3/鸡.svg",
+    "caption": "gà"
+  },
+  "急": {
+    "file": "急.svg",
+    "src": "images/HSK_3.0/level3/急.svg",
+    "caption": "vội, gấp; sốt ruột"
+  },
+  "记": {
+    "file": "记.svg",
+    "src": "images/HSK_3.0/level3/记.svg",
+    "caption": "nhớ; ghi lại"
+  },
+  "季": {
+    "file": "季.svg",
+    "src": "images/HSK_3.0/level3/季.svg",
+    "caption": "mùa"
+  },
+  "加": {
+    "file": "加.svg",
+    "src": "images/HSK_3.0/level3/加.svg",
+    "caption": "cộng, thêm"
+  },
+  "假期": {
+    "file": "假期.svg",
+    "src": "images/HSK_3.0/level3/假期.svg",
+    "caption": "kỳ nghỉ"
+  },
+  "检票": {
+    "file": "检票.svg",
+    "src": "images/HSK_3.0/level3/检票.svg",
+    "caption": "soát vé"
+  },
+  "街": {
+    "file": "街.svg",
+    "src": "images/HSK_3.0/level3/街.svg",
+    "caption": "phố, đường phố"
+  },
+  "姐妹": {
+    "file": "姐妹.svg",
+    "src": "images/HSK_3.0/level3/姐妹.svg",
+    "caption": "chị em gái"
+  },
+  "斤": {
+    "file": "斤.svg",
+    "src": "images/HSK_3.0/level3/斤.svg",
+    "caption": "cân (đơn vị bằng 0,5 kg)"
+  },
+  "酒": {
+    "file": "酒.svg",
+    "src": "images/HSK_3.0/level3/酒.svg",
+    "caption": "rượu"
+  },
+  "句": {
+    "file": "句.svg",
+    "src": "images/HSK_3.0/level3/句.svg",
+    "caption": "câu (lượng từ)"
+  },
+  "卡": {
+    "file": "卡.svg",
+    "src": "images/HSK_3.0/level3/卡.svg",
+    "caption": "thẻ"
+  },
+  "开花": {
+    "file": "开花.svg",
+    "src": "images/HSK_3.0/level3/开花.svg",
+    "caption": "nở hoa"
+  },
+  "开会": {
+    "file": "开会.svg",
+    "src": "images/HSK_3.0/level3/开会.svg",
+    "caption": "họp, dự họp"
+  },
+  "开机": {
+    "file": "开机.svg",
+    "src": "images/HSK_3.0/level3/开机.svg",
+    "caption": "bật máy, khởi động máy"
+  },
+  "看来": {
+    "file": "看来.svg",
+    "src": "images/HSK_3.0/level3/看来.svg",
+    "caption": "xem ra, có vẻ như"
+  },
+  "可": {
+    "file": "可.svg",
+    "src": "images/HSK_3.0/level3/可.svg",
+    "caption": "nhưng; thật là (nhấn mạnh)"
+  },
+  "课本": {
+    "file": "课本.svg",
+    "src": "images/HSK_3.0/level3/课本.svg",
+    "caption": "sách giáo khoa"
+  },
+  "课文": {
+    "file": "课文.svg",
+    "src": "images/HSK_3.0/level3/课文.svg",
+    "caption": "bài khóa, bài đọc"
+  },
+  "老人": {
+    "file": "老人.svg",
+    "src": "images/HSK_3.0/level3/老人.svg",
+    "caption": "người già"
+  },
+  "练": {
+    "file": "练.svg",
+    "src": "images/HSK_3.0/level3/练.svg",
+    "caption": "luyện, luyện tập"
+  },
+  "聊": {
+    "file": "聊.svg",
+    "src": "images/HSK_3.0/level3/聊.svg",
+    "caption": "tán gẫu, nói chuyện"
+  },
+  "聊天儿": {
+    "file": "聊天儿.svg",
+    "src": "images/HSK_3.0/level3/聊天儿.svg",
+    "caption": "tán gẫu, nói chuyện phiếm"
+  },
+  "留学生": {
+    "file": "留学生.svg",
+    "src": "images/HSK_3.0/level3/留学生.svg",
+    "caption": "lưu học sinh, du học sinh"
+  },
+  "楼梯": {
+    "file": "楼梯.svg",
+    "src": "images/HSK_3.0/level3/楼梯.svg",
+    "caption": "cầu thang"
+  },
+  "路边": {
+    "file": "路边.svg",
+    "src": "images/HSK_3.0/level3/路边.svg",
+    "caption": "lề đường, ven đường"
+  },
+  "路口": {
+    "file": "路口.svg",
+    "src": "images/HSK_3.0/level3/路口.svg",
+    "caption": "ngã tư, giao lộ"
+  },
+  "马路": {
+    "file": "马路.svg",
+    "src": "images/HSK_3.0/level3/马路.svg",
+    "caption": "đường cái, đường phố"
+  },
+  "面前": {
+    "file": "面前.svg",
+    "src": "images/HSK_3.0/level3/面前.svg",
+    "caption": "trước mặt"
+  },
+  "名单": {
+    "file": "名单.svg",
+    "src": "images/HSK_3.0/level3/名单.svg",
+    "caption": "danh sách (tên người)"
   },
   "量": {
     "file": "量.svg",

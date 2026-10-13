@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 80)">
+    <!-- Person 1 -->
+    <g transform="translate(0, 0)">
+      <circle cx="30" cy="30" r="25" fill="#FFB347"/>
+      <path d="M15 80 Q30 55 45 80 L45 140 L15 140 Z" fill="#4A90E2"/>
+      <path d="M20 70 L40 70" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <!-- Speech bubbles representing conversation -->
+    <path d="M65 40 Q85 20 105 40 T145 40" fill="none" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+    <path d="M65 60 Q85 80 105 60 T145 60" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <!-- Person 2 -->
+    <g transform="translate(130, 0)">
+      <circle cx="30" cy="30" r="25" fill="#FFB347"/>
+      <path d="M15 80 Q30 55 45 80 L45 140 L15 140 Z" fill="#50E3C2"/>
+      <path d="M20 70 L40 70" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

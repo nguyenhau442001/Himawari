@@ -1,0 +1,59 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (soft glow/aura of spring) -->
+  <circle cx="120" cy="120" r="70" fill="#2E3544" opacity="0.4"/>
+  <circle cx="120" cy="120" r="50" fill="#F1C40F" opacity="0.08"/>
+
+  <!-- Stem and Leaves -->
+  <!-- Main stem -->
+  <path d="M120 180 Q120 150 120 125" stroke="#2ECC71" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Left leaf -->
+  <path d="M120 155 Q95 145 90 130 Q110 135 120 148" fill="#27AE60"/>
+  <!-- Right leaf -->
+  <path d="M120 145 Q145 135 150 120 Q130 125 120 138" fill="#27AE60"/>
+
+  <!-- Blooming Petals (开花 action: unfolding/radiating) -->
+  <g transform="translate(120, 100)">
+    <!-- Back/Outer Petals -->
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#F39C12" transform="rotate(0)" />
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#E67E22" transform="rotate(45)" />
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#F39C12" transform="rotate(90)" />
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#E67E22" transform="rotate(135)" />
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#F39C12" transform="rotate(180)" />
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#E67E22" transform="rotate(225)" />
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#F39C12" transform="rotate(270)" />
+    <ellipse cx="0" cy="-35" rx="14" ry="24" fill="#E67E22" transform="rotate(315)" />
+
+    <!-- Bright Inner Petals -->
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(22.5)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(67.5)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(112.5)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(157.5)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(202.5)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(247.5)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(292.5)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="18" fill="#F1C40F" transform="rotate(337.5)" />
+
+    <!-- Flower Center (Receptacle) -->
+    <circle cx="0" cy="0" r="16" fill="#D35400"/>
+    <circle cx="0" cy="0" r="11" fill="#F39C12"/>
+    <!-- Center dots/texture -->
+    <circle cx="-4" cy="-4" r="1.5" fill="#FFF" opacity="0.6"/>
+    <circle cx="4" cy="-3" r="1.5" fill="#FFF" opacity="0.6"/>
+    <circle cx="-2" cy="4" r="1.5" fill="#FFF" opacity="0.6"/>
+    <circle cx="5" cy="3" r="1.5" fill="#FFF" opacity="0.6"/>
+  </g>
+
+  <!-- Action lines / Blooming sparkles -->
+  <g fill="#F1C40F" opacity="0.8">
+    <circle cx="65" cy="75" r="2.5"/>
+    <circle cx="180" cy="85" r="2"/>
+    <circle cx="165" cy="140" r="3"/>
+    <circle cx="75" cy="130" r="2"/>
+    <!-- Sparkle cross stars -->
+    <path d="M155 60 L157 65 L162 67 L157 69 L155 74 L153 69 L148 67 L153 65 Z" fill="#F1C40F" opacity="0.7"/>
+    <path d="M85 95 L86 98 L89 99 L86 100 L85 103 L84 100 L81 99 L84 98 Z" fill="#F1C40F" opacity="0.5"/>
+  </g>
+</svg>

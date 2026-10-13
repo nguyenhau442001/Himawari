@@ -1,0 +1,64 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative element representing thermal escalation / intensity -->
+  <g opacity="0.15">
+    <path d="M120 40 L160 90 L130 90 L170 150 L110 150 L140 200" fill="none" stroke="#FF6B35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="120" cy="40" r="4" fill="#FF6B35"/>
+    <circle cx="140" cy="200" r="4" fill="#FF6B35"/>
+  </g>
+
+  <!-- Visual Metaphor: Escalation / Amplification of Heat (Context: 今天可热了!) -->
+  <!-- Thermometer showing extreme high temperature breaking past the threshold -->
+  <g transform="translate(0, 0)">
+    <!-- Thermometer Glass Tube Background -->
+    <rect x="110" y="55" width="20" height="120" rx="10" fill="#2A2F3D" stroke="#3A4254" stroke-width="2"/>
+    
+    <!-- Thermometer Bulb -->
+    <circle cx="120" cy="180" r="16" fill="#2A2F3D" stroke="#3A4254" stroke-width="2"/>
+    <circle cx="120" cy="180" r="10" fill="#FF5252"/>
+
+    <!-- Mercury level surging up dynamically to an intense level -->
+    <rect x="114" y="75" width="12" height="105" rx="6" fill="url(#heatGradient)"/>
+    <circle cx="120" cy="180" r="10" fill="#FF5252"/>
+
+    <!-- Heat intensity markers / Ticks -->
+    <line x1="98" y1="80" x2="106" y2="80" stroke="#8C95A6" stroke-width="2" stroke-linecap="round"/>
+    <line x1="98" y1="110" x2="106" y2="110" stroke="#8C95A6" stroke-width="2" stroke-linecap="round"/>
+    <line x1="98" y1="140" x2="106" y2="140" stroke="#8C95A6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Amplification / Escalation Effect (Burst / Focus lines emphasizing "truly / indeed") -->
+  <g transform="translate(120, 115)">
+    <!-- Radiant Heat Waves / Emphasis lines breaking out -->
+    <path d="M -45 -35 Q -30 -50 -15 -45" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 45 -35 Q 30 -50 15 -45" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+    <path d="M -50 10 Q -65 20 -55 35" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 50 10 Q 65 20 55 35" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Sun / Heat Icon at the peak representing intense weather/state -->
+    <circle cx="0" cy="-60" r="12" fill="#FF9F43"/>
+    <path d="M 0 -78 L 0 -84" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+    <path d="M -12 -72 L -16 -76" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 12 -72 L 16 -76" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Directional Upward Escalation Arrow (Visualizing Adverbial Emphasis/Degree) -->
+  <g transform="translate(0, 0)">
+    <path d="M 75 115 L 60 100 L 45 115" fill="none" stroke="#FF6B35" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 60 145 L 60 100" fill="none" stroke="#FF6B35" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M 165 115 L 180 100 L 195 115" fill="none" stroke="#FF6B35" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 180 145 L 180 100" fill="none" stroke="#FF6B35" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Definitions for Gradients -->
+  <defs>
+    <linearGradient id="heatGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3D00"/>
+      <stop offset="50%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#FF9F43"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (Globe/Latitude lines subtle) -->
+  <circle cx="120" cy="130" r="70" fill="none" stroke="#252A34" stroke-width="2" stroke-dasharray="4 4"/>
+  <ellipse cx="120" cy="130" rx="70" ry="25" fill="none" stroke="#252A34" stroke-width="2"/>
+  <line x1="120" y1="50" x2="120" y2="210" stroke="#252A34" stroke-width="2"/>
+
+  <!-- Flight Path Arc -->
+  <path d="M 50 150 Q 120 70 190 90" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="5 5"/>
+  
+  <!-- Airplane icon -->
+  <g transform="translate(145, 82) rotate(-15)">
+    <path d="M0 0 L12 -4 L4 -12 Z" fill="#F59E0B"/>
+    <path d="M0 0 L-6 8 L-2 2 Z" fill="#D97706"/>
+  </g>
+
+  <!-- Central Character (International Student with backpack and graduation cap/diploma hint) -->
+  <!-- Backpack -->
+  <path d="M 95 125 L 95 160 C 95 165 98 170 105 170 L 135 170 C 142 170 145 165 145 160 L 145 125 Z" fill="#3B82F6"/>
+  <path d="M 105 140 L 135 140" stroke="#1E3A8A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Body / Torso (Casual jacket/sweater) -->
+  <path d="M 92 145 L 148 145 L 160 200 C 160 205 155 210 145 210 L 95 210 C 85 210 80 205 80 200 Z" fill="#10B981"/>
+  <!-- Collar / Scarf accent -->
+  <path d="M 105 145 L 120 165 L 135 145 Z" fill="#047857"/>
+
+  <!-- Head & Hair -->
+  <circle cx="120" cy="105" r="22" fill="#FBBF24"/> <!-- Face -->
+  <path d="M 98 105 C 98 85 142 85 142 105 C 142 112 138 115 138 115 L 102 115 C 102 115 98 112 98 105 Z" fill="#1F2937"/> <!-- Hair -->
+
+  <!-- Graduation Cap (Mortarboard) positioned proudly -->
+  <polygon points="120,68 155,80 120,92 85,80" fill="#1E293B"/>
+  <polygon points="120,70 152,81 120,90 88,81" fill="#0F172A"/>
+  <rect x="110" y="86" width="20" height="8" fill="#1E293B"/>
+  <!-- Tassel -->
+  <path d="M 135 84 Q 145 95 140 105" fill="none" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="140" cy="106" r="2" fill="#F59E0B"/>
+
+  <!-- Passport / Book held in hand -->
+  <g transform="translate(135, 160) rotate(10)">
+    <rect x="0" y="0" width="22" height="28" rx="3" fill="#EF4444"/>
+    <rect x="3" y="4" width="16" height="4" rx="1" fill="#FEE2E2"/>
+    <circle cx="11" cy="16" r="4" fill="#FEE2E2"/>
+  </g>
+
+</svg>

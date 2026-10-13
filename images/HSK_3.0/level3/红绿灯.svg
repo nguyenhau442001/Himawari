@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Pole -->
+  <rect x="115" y="160" width="10" height="60" fill="#4B5563"/>
+  
+  <!-- Traffic Light Housing -->
+  <rect x="95" y="40" width="50" height="120" rx="8" fill="#374151"/>
+  
+  <!-- Red Light (Active) -->
+  <circle cx="120" cy="65" r="15" fill="#EF4444"/>
+  
+  <!-- Yellow Light (Inactive) -->
+  <circle cx="120" cy="100" r="15" fill="#1F2937"/>
+  
+  <!-- Green Light (Inactive) -->
+  <circle cx="120" cy="135" r="15" fill="#1F2937"/>
+  
+  <!-- Decorative highlights -->
+  <rect x="95" y="40" width="50" height="120" rx="8" stroke="#4B5563" stroke-width="2" fill="none"/>
+</svg>

@@ -1,6 +1,6 @@
 # 🎨 Kho Lưu Trữ Hình Minh Họa Ngữ Cảnh HSK (Scene-Based Vector Illustrations)
 
-*Báo cáo cập nhật tự động lúc: `2026-10-13 14:17:03`*
+*Báo cáo cập nhật tự động lúc: `2026-10-13 14:18:08`*
 
 Kho hình ảnh vector minh họa trực quan (Scene-Based Visual Mnemonics) cho toàn bộ từ vựng tiếng Trung thuộc hai hệ thống giáo trình **HSK 2.0 (Level 1 - 6)** và **HSK 3.0 (Level 1 - 9)**.
 
@@ -66,17 +66,17 @@ images/
 | :--- | :---: | :---: | :--- | :--- |
 | **HSK 3.0 Level 1** | `293/300` | **97.7%** | `█████████░` | ⏳ Đang tạo |
 | **HSK 3.0 Level 2** | `187/200` | **93.5%** | `█████████░` | ⏳ Đang tạo |
-| **HSK 3.0 Level 3** | `347/500` | **69.4%** | `██████░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Level 3** | `397/500` | **79.4%** | `███████░░░` | ⏳ Đang tạo |
 | **HSK 3.0 Level 4** | `617/1000` | **61.7%** | `██████░░░░` | ⏳ Đang tạo |
 | **HSK 3.0 Level 5** | `1600/1600` | **100.0%** | `██████████` | ✅ Hoàn thành |
 | **HSK 3.0 Level 6** | `819/1800` | **45.5%** | `████░░░░░░` | ⏳ Đang tạo |
-| **HSK 3.0 Level 7** | `1328/5600` | **23.7%** | `██░░░░░░░░` | ⏳ Đang tạo |
-| **HSK 3.0 Level 8** | `1328/5600` | **23.7%** | `██░░░░░░░░` | ⏳ Đang tạo |
-| **HSK 3.0 Level 9** | `1328/5600` | **23.7%** | `██░░░░░░░░` | ⏳ Đang tạo |
-| **TỔNG CỘNG HSK 3.0** | **`7847/22200`** | **`35.3%`** | `███░░░░░░░` | ⏳ Đang hoàn thiện |
+| **HSK 3.0 Level 7** | `1329/5600` | **23.7%** | `██░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Level 8** | `1329/5600` | **23.7%** | `██░░░░░░░░` | ⏳ Đang tạo |
+| **HSK 3.0 Level 9** | `1329/5600` | **23.7%** | `██░░░░░░░░` | ⏳ Đang tạo |
+| **TỔNG CỘNG HSK 3.0** | **`7900/22200`** | **`35.6%`** | `███░░░░░░░` | ⏳ Đang hoàn thiện |
 
 ---
 
 ## 💡 Tổng kết tài nguyên hiện tại
-- **Tổng số từ vựng duy nhất đã có minh họa vector**: **`5340`** từ.
+- **Tổng số từ vựng duy nhất đã có minh họa vector**: **`5390`** từ.
 - **Manifest tích hợp ứng dụng**: File [`assets/js/word-illustrations.js`](file:///assets/js/word-illustrations.js) và [`images/generated_manifest.json`](file:///images/generated_manifest.json) tự động đồng bộ đường dẫn để flashcard tải trực tiếp hình ảnh theo cấp độ tương ứng.

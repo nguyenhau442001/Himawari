@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Calendar Base Design representing "Day After Tomorrow" (后天) -->
+  <g transform="translate(48, 42)">
+    <!-- Calendar Body -->
+    <rect x="16" y="28" width="112" height="112" rx="14" fill="#2A2F3D" stroke="#3A4255" stroke-width="4"/>
+    
+    <!-- Top Binding Header -->
+    <path d="M 16 38 C 16 32.477 20.477 28 26 28 L 118 28 C 123.523 28 128 32.477 128 38 L 128 58 L 16 58 Z" fill="#E65C00"/>
+    
+    <!-- Binding Rings -->
+    <rect x="38" y="18" width="10" height="16" rx="5" fill="#A0AAB8"/>
+    <rect x="96" y="18" width="10" height="16" rx="5" fill="#A0AAB8"/>
+
+    <!-- Today / Tomorrow Crossed-out Ghost Layers (Background visual stacking to signify passing days) -->
+    <!-- Day 1 (Today) - Dimmed -->
+    <rect x="32" y="74" width="80" height="8" rx="4" fill="#3A4255"/>
+    <rect x="32" y="90" width="50" height="8" rx="4" fill="#3A4255"/>
+
+    <!-- Active Day (The Day After Tomorrow / 后天) - Glowing/Highlighted in Amber/Gold -->
+    <g transform="translate(0, 15)">
+      <!-- Highlight Glow Effect -->
+      <rect x="24" y="66" width="96" height="56" rx="10" fill="#E65C00" opacity="0.15"/>
+      <!-- Main Target Date Box -->
+      <rect x="28" y="70" width="88" height="48" rx="8" fill="#E65C00"/>
+      <!-- Prominent Number "3" symbolizing Day After Tomorrow (relative sequence) -->
+      <path d="M 58 84 C 58 82 60 80 64 80 L 74 80 C 78 80 80 82 80 85 C 80 87 78 89 74 90 C 78 91 80 93 80 96 C 80 99 77 102 72 102 L 64 102 C 60 102 58 100 58 98" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 68 91 L 73 91" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- Contextual Progression Arrow / Indicator (Pointing forward twice) -->
+    <path d="M -16 84 L -6 84 M -11 79 L -6 84 L -11 89" fill="none" stroke="#6C7A9C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 152 84 L 162 84 M 157 79 L 162 84 L 157 89" fill="none" stroke="#E65C00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Modern Accent Indicator Dots at Bottom -->
+  <g transform="translate(96, 192)">
+    <circle cx="0" cy="0" r="4" fill="#3A4255"/>
+    <circle cx="24" cy="0" r="4" fill="#3A4255"/>
+    <circle cx="48" cy="0" r="6" fill="#E65C00"/>
+  </g>
+</svg>

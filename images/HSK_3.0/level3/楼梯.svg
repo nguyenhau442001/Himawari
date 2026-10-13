@@ -1,0 +1,15 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 40)">
+    <path d="M120 160L0 160L0 140L100 140L100 120L80 120L80 100L60 100L60 80L40 80L40 60L20 60L20 40L0 40L0 0L120 0L120 160Z" fill="#3D4451"/>
+    <path d="M120 160L20 160L20 140L120 140L120 160Z" fill="#FFB84D"/>
+    <path d="M100 140L100 120L120 120L120 140L100 140Z" fill="#FFB84D"/>
+    <path d="M80 120L80 100L120 100L120 120L80 120Z" fill="#FFB84D"/>
+    <path d="M60 100L60 80L120 80L120 100L60 100Z" fill="#FFB84D"/>
+    <path d="M40 80L40 60L120 60L120 80L40 80Z" fill="#FFB84D"/>
+    <path d="M20 60L20 40L120 40L120 60L20 60Z" fill="#FFB84D"/>
+    <path d="M0 40L0 0L120 0L120 40L0 40Z" fill="#FFB84D"/>
+    <path d="M120 0L120 160" stroke="#2A2F3A" stroke-width="4"/>
+    <path d="M0 160L120 160" stroke="#2A2F3A" stroke-width="4"/>
+  </g>
+</svg>

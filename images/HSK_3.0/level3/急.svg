@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Modern flat aesthetic background glow/accent -->
+  <circle cx="120" cy="130" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual illustration for "急" (Urgent / Impatient / Hurrying personification) -->
+  <!-- We center a clear, recognizable human character rushing, showing physical manifestation of "jí" (vội, gấp, sốt ruột) -->
+  
+  <!-- Motion lines / speed indicators behind the character -->
+  <path d="M50 100 L80 100" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M40 130 L75 130" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M55 160 L85 160" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Character representing "người đang vội" (Noun context: con người) -->
+  <!-- Torso leaning forward sharply (sign of rushing/urgency) -->
+  <path d="M105 140 L130 95 L155 135 Z" fill="#FF9F43"/>
+  
+  <!-- Head leaning forward with focused expression -->
+  <circle cx="138" cy="80" r="16" fill="#FFEAA7"/>
+  <!-- Hair blowing back due to speed -->
+  <path d="M125 72 C125 62 138 65 145 70" fill="none" stroke="#2D3436" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Dynamic arms -->
+  <!-- Back arm swinging -->
+  <path d="M115 115 L95 130" fill="none" stroke="#FF9F43" stroke-width="8" stroke-linecap="round"/>
+  <!-- Front arm reaching forward urgently -->
+  <path d="M140 115 L175 110" fill="none" stroke="#FF9F43" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="180" cy="110" r="5" fill="#FFEAA7"/>
+
+  <!-- Dynamic legs in mid-stride -->
+  <!-- Back leg lifting up -->
+  <path d="M115 140 L90 175 L105 185" fill="none" stroke="#E17055" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front leg stepping forward forcefully -->
+  <path d="M135 140 L160 175 L175 165" fill="none" stroke="#E17055" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Floor/ground reference line to ground the action -->
+  <path d="M60 195 L190 195" stroke="#2D3436" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Subtle urgency accent marks (sweat drops near head) -->
+  <path d="M158 75 C160 78 158 82 155 82 C152 82 152 78 155 75 Z" fill="#00CEC9"/>
+</svg>

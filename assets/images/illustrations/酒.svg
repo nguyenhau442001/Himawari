@@ -1,0 +1,27 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Wine Glass Bowl -->
+    <path d="M 85 65 L 155 65 C 155 105, 140 120, 120 135 C 100 120, 85 105, 85 65 Z" fill="#2A303C" stroke="#3E4756" stroke-width="4" stroke-linejoin="round"/>
+    
+    <!-- Liquid / Wine -->
+    <path d="M 91 80 C 110 85, 130 85, 149 80 C 145 110, 135 120, 120 132 C 105 120, 95 110, 91 80 Z" fill="#E63946"/>
+    
+    <!-- Liquid Surface Shimmer / Reflection -->
+    <path d="M 96 83 C 110 87, 125 87, 138 84 C 130 90, 110 90, 96 83 Z" fill="#FF6B6B" opacity="0.6"/>
+
+    <!-- Glass Stem -->
+    <rect x="114" y="135" width="12" height="45" rx="3" fill="#2A303C" stroke="#3E4756" stroke-width="3"/>
+
+    <!-- Glass Base -->
+    <ellipse cx="120" cy="183" rx="35" ry="9" fill="#2A303C" stroke="#3E4756" stroke-width="3"/>
+
+    <!-- Glass Rim Highlight (Left) -->
+    <path d="M 88 68 C 90 68, 93 70, 93 73" stroke="#F1FAEE" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+    <!-- Golden Sparkles / Accent -->
+    <path d="M 165 55 L 168 65 L 178 68 L 168 71 L 165 81 L 162 71 L 152 68 L 162 65 Z" fill="#FFB703" opacity="0.9"/>
+    <path d="M 75 115 L 77 120 L 82 122 L 77 124 L 75 129 L 73 124 L 68 122 L 73 120 Z" fill="#FFB703" opacity="0.7" transform="scale(0.7) translate(35, 40)"/>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing professional meeting atmosphere -->
+  <circle cx="120" cy="110" r="70" fill="#2D3748" opacity="0.4"/>
+
+  <!-- Conference Table (Oval/Perspective) -->
+  <ellipse cx="120" cy="140" rx="75" ry="32" fill="#252A34"/>
+  <ellipse cx="120" cy="136" rx="72" ry="28" fill="#323846"/>
+  <!-- Table surface gloss/highlight -->
+  <ellipse cx="120" cy="130" rx="55" ry="16" fill="#3D4455" opacity="0.5"/>
+
+  <!-- Laptops on the table -->
+  <!-- Left laptop -->
+  <path d="M75 132 L95 124 L103 134 L83 142 Z" fill="#718096"/>
+  <path d="M78 123 L94 117 L97 124 L81 130 Z" fill="#E2E8F0"/>
+  
+  <!-- Right laptop -->
+  <path d="M145 132 L165 124 L157 134 L137 142 Z" fill="#718096"/>
+  <path d="M146 123 L162 117 L159 124 L143 130 Z" fill="#E2E8F0"/>
+
+  <!-- Center document/presentation marker -->
+  <rect x="110" y="125" width="20" height="15" rx="1" fill="#F7FAFC" transform="rotate(-5 120 132)"/>
+  <line x1="113" y1="129" x2="125" y2="128" stroke="#CBD5E0" stroke-width="1.5"/>
+  <line x1="113" y1="133" x2="121" y2="132" stroke="#CBD5E0" stroke-width="1.5"/>
+
+  <!-- Participants (Upper Body / Heads & Shoulders) -->
+
+  <!-- Person 1: Left (Active speaker / Manager) -->
+  <g transform="translate(65, 80)">
+    <!-- Shoulders / Body -->
+    <path d="M0 60 C0 42 18 35 35 35 C52 35 70 42 70 60 Z" fill="#3182CE"/>
+    <!-- Collar / Tie accent -->
+    <polygon points="35,38 31,48 39,48" fill="#ED8936"/>
+    <!-- Neck -->
+    <rect x="29" y="24" width="12" height="15" fill="#FEEBC8"/>
+    <!-- Head -->
+    <circle cx="35" cy="16" r="14" fill="#FEEBC8"/>
+    <!-- Hair -->
+    <path d="M21 16 C21 8 27 3 35 3 C43 3 49 8 49 16 C47 11 41 8 35 8 C29 8 23 11 21 16 Z" fill="#2D3748"/>
+    <!-- Gesturing Arm (Speaking pose) -->
+    <path d="M55 45 L68 35 L62 25" fill="none" stroke="#3182CE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="62" cy="25" r="4" fill="#FEEBC8"/>
+  </g>
+
+  <!-- Person 2: Right (Attendee listening) -->
+  <g transform="translate(105, 75)">
+    <!-- Shoulders / Body -->
+    <path d="M0 65 C0 47 18 40 35 40 C52 40 70 47 70 65 Z" fill="#4A5568"/>
+    <!-- Neck -->
+    <rect x="29" y="29" width="12" height="15" fill="#CBD5E0"/>
+    <!-- Head -->
+    <circle cx="35" cy="21" r="14" fill="#CBD5E0"/>
+    <!-- Hair -->
+    <path d="M21 21 C21 13 27 8 35 8 C43 8 49 13 49 21 C45 16 41 14 35 14 C29 14 25 16 21 21 Z" fill="#1A202C"/>
+  </g>
+
+  <!-- Person 3: Foreground Left (Partial back/shoulder) -->
+  <g transform="translate(30, 145)">
+    <path d="M0 60 C0 35 25 25 50 25 C75 25 100 35 100 60 Z" fill="#2B6CB0"/>
+  </g>
+
+  <!-- Person 4: Foreground Right (Partial back/shoulder) -->
+  <g transform="translate(110, 145)">
+    <path d="M0 60 C0 35 25 25 50 25 C75 25 100 35 100 60 Z" fill="#2C3E50"/>
+  </g>
+
+  <!-- Focus / Accent Ring (Professional Orange/Gold accent symbolizing formal meeting/agenda) -->
+  <circle cx="120" cy="136" r="88" fill="none" stroke="#ED8936" stroke-width="2" stroke-dasharray="8 6" opacity="0.6"/>
+
+</svg>

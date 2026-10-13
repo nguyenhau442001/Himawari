@@ -1,0 +1,28 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: A fork in the path (Contrast/Choice) -->
+  <!-- The path splits into two distinct, equal options -->
+  
+  <!-- Main path base -->
+  <path d="M120 200 L120 140" stroke="#4A5568" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Left branch -->
+  <path d="M120 140 L70 90" stroke="#F6AD55" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Right branch -->
+  <path d="M120 140 L170 90" stroke="#F6AD55" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Option A: Bus icon representation -->
+  <rect x="40" y="50" width="40" height="30" rx="4" fill="#E2E8F0"/>
+  <circle cx="50" cy="85" r="5" fill="#A0AEC0"/>
+  <circle cx="70" cy="85" r="5" fill="#A0AEC0"/>
+  
+  <!-- Option B: Train/Subway icon representation -->
+  <rect x="150" y="50" width="40" height="30" rx="4" fill="#E2E8F0"/>
+  <rect x="155" y="55" width="30" height="10" fill="#A0AEC0"/>
+  <rect x="155" y="68" width="30" height="5" fill="#A0AEC0"/>
+  
+  <!-- Decision point indicator -->
+  <circle cx="120" cy="140" r="8" fill="#F6AD55"/>
+</svg>

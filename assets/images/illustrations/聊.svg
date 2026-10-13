@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person 1 (Left) -->
+  <g transform="translate(60, 120)">
+    <circle cx="0" cy="-40" r="15" fill="#FFB86C"/>
+    <path d="M-25 0 C-25 -20, 25 -20, 25 0 L 20 40 L -20 40 Z" fill="#6272A4"/>
+    <path d="M-10 10 L-5 20 L5 20 L10 10" stroke="#FFB86C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2 (Right) -->
+  <g transform="translate(180, 120)">
+    <circle cx="0" cy="-40" r="15" fill="#50FA7B"/>
+    <path d="M-25 0 C-25 -20, 25 -20, 25 0 L 20 40 L -20 40 Z" fill="#8BE9FD"/>
+    <path d="M-10 10 L-5 20 L5 20 L10 10" stroke="#50FA7B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Speech Bubbles -->
+  <path d="M85 80 Q100 60 120 80 T155 80" stroke="#F8F8F2" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="6 6"/>
+  <circle cx="90" cy="80" r="4" fill="#F8F8F2"/>
+  <circle cx="150" cy="80" r="4" fill="#F8F8F2"/>
+  
+  <!-- Interaction Gesture -->
+  <path d="M110 100 L130 100" stroke="#FFB86C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M110 110 L130 110" stroke="#50FA7B" stroke-width="4" stroke-linecap="round"/>
+</svg>

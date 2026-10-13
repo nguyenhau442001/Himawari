@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient glow behind phone -->
+  <circle cx="120" cy="115" r="50" fill="#3A435E" opacity="0.3" filter="blur(8px)"/>
+
+  <!-- Motion lines indicating activation / booting up -->
+  <g stroke="#F39C12" stroke-width="2.5" stroke-linecap="round" opacity="0.8">
+    <line x1="85" y1="50" x2="70" y2="35" />
+    <line x1="155" y1="50" x2="170" y2="35" />
+    <path d="M 60,95 Q 45,95 35,85" fill="none"/>
+    <path d="M 180,95 Q 195,95 205,85" fill="none"/>
+  </g>
+
+  <!-- Phone Body (Sleek Modern Smartphone) -->
+  <rect x="85" y="45" width="70" height="135" rx="12" fill="#2C3440" stroke="#4E5D78" stroke-width="2"/>
+  
+  <!-- Phone Screen (Dark mode interface booting up) -->
+  <rect x="91" y="55" width="58" height="115" rx="6" fill="#111418"/>
+
+  <!-- Glowing Boot-up Logo / Power Icon on Screen -->
+  <g transform="translate(120, 112)">
+    <!-- Outer energy pulse -->
+    <circle cx="0" cy="0" r="22" fill="#F39C12" opacity="0.15"/>
+    <circle cx="0" cy="0" r="16" fill="#F39C12" opacity="0.25"/>
+    
+    <!-- Power Icon -->
+    <path d="M-5,-9 A 11 11 0 1 0 5 -9" fill="none" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-12" x2="0" y2="-4" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Screen UI Elements (Abstract modern elements loading) -->
+  <rect x="101" y="68" width="25" height="4" rx="2" fill="#4E5D78"/>
+  <circle cx="138" cy="70" r="2" fill="#4E5D78"/>
+
+  <!-- Human Character Interaction (Hands pressing/activating) -->
+  <g>
+    <!-- Left Hand -->
+    <path d="M 50,145 Q 65,140 78,138 L 86,143 L 78,155 Q 65,158 52,153 Z" fill="#E0AC69"/>
+    <!-- Left Cuff -->
+    <path d="M 40,147 L 52,143 L 52,153 L 40,157 Z" fill="#3498DB"/>
+
+    <!-- Right Hand pressing the power button -->
+    <path d="M 190,145 Q 175,140 162,138 L 154,143 L 162,155 Q 175,158 188,153 Z" fill="#E0AC69"/>
+    <!-- Right Cuff -->
+    <path d="M 200,147 L 188,143 L 188,153 L 200,157 Z" fill="#3498DB"/>
+  </g>
+
+  <!-- Phone Stand / Surface shadow -->
+  <ellipse cx="120" cy="190" rx="45" ry="6" fill="#111418"/>
+</svg>
