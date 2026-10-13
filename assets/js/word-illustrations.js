@@ -24222,6 +24222,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/名单.svg",
     "caption": "danh sách (tên người)"
   },
+  "名人": {
+    "file": "名人.svg",
+    "src": "images/HSK_3.0/level3/名人.svg",
+    "caption": "người nổi tiếng"
+  },
+  "南方": {
+    "file": "南方.svg",
+    "src": "images/HSK_3.0/level3/南方.svg",
+    "caption": "phương nam, miền nam"
+  },
+  "难看": {
+    "file": "难看.svg",
+    "src": "images/HSK_3.0/level3/难看.svg",
+    "caption": "xấu, khó coi"
+  },
+  "男人": {
+    "file": "男人.svg",
+    "src": "images/HSK_3.0/level3/男人.svg",
+    "caption": "đàn ông"
+  },
+  "难题": {
+    "file": "难题.svg",
+    "src": "images/HSK_3.0/level3/难题.svg",
+    "caption": "vấn đề khó, bài toán khó"
+  },
+  "牛": {
+    "file": "牛.svg",
+    "src": "images/HSK_3.0/level3/牛.svg",
+    "caption": "bò; (khẩu ngữ) giỏi, đỉnh"
+  },
+  "女人": {
+    "file": "女人.svg",
+    "src": "images/HSK_3.0/level3/女人.svg",
+    "caption": "phụ nữ, đàn bà"
+  },
+  "女生": {
+    "file": "女生.svg",
+    "src": "images/HSK_3.0/level3/女生.svg",
+    "caption": "nữ sinh, con gái"
+  },
+  "汽车": {
+    "file": "汽车.svg",
+    "src": "images/HSK_3.0/level3/汽车.svg",
+    "caption": "ô tô, xe hơi"
+  },
+  "前年": {
+    "file": "前年.svg",
+    "src": "images/HSK_3.0/level3/前年.svg",
+    "caption": "năm kia"
+  },
+  "前天": {
+    "file": "前天.svg",
+    "src": "images/HSK_3.0/level3/前天.svg",
+    "caption": "hôm kia"
+  },
+  "请客": {
+    "file": "请客.svg",
+    "src": "images/HSK_3.0/level3/请客.svg",
+    "caption": "mời khách, khao"
+  },
+  "秋天": {
+    "file": "秋天.svg",
+    "src": "images/HSK_3.0/level3/秋天.svg",
+    "caption": "mùa thu"
+  },
+  "球场": {
+    "file": "球场.svg",
+    "src": "images/HSK_3.0/level3/球场.svg",
+    "caption": "sân bóng"
+  },
+  "认得": {
+    "file": "认得.svg",
+    "src": "images/HSK_3.0/level3/认得.svg",
+    "caption": "nhận ra, biết (mặt)"
+  },
+  "扫": {
+    "file": "扫.svg",
+    "src": "images/HSK_3.0/level3/扫.svg",
+    "caption": "quét"
+  },
+  "山": {
+    "file": "山.svg",
+    "src": "images/HSK_3.0/level3/山.svg",
+    "caption": "núi"
+  },
+  "上衣": {
+    "file": "上衣.svg",
+    "src": "images/HSK_3.0/level3/上衣.svg",
+    "caption": "áo (mặc phía trên)"
+  },
+  "身边": {
+    "file": "身边.svg",
+    "src": "images/HSK_3.0/level3/身边.svg",
+    "caption": "bên cạnh, bên mình"
+  },
+  "身高": {
+    "file": "身高.svg",
+    "src": "images/HSK_3.0/level3/身高.svg",
+    "caption": "chiều cao (cơ thể)"
+  },
+  "声": {
+    "file": "声.svg",
+    "src": "images/HSK_3.0/level3/声.svg",
+    "caption": "tiếng, âm thanh; tiếng (lượng từ)"
+  },
+  "市": {
+    "file": "市.svg",
+    "src": "images/HSK_3.0/level3/市.svg",
+    "caption": "thành phố"
+  },
+  "室": {
+    "file": "室.svg",
+    "src": "images/HSK_3.0/level3/室.svg",
+    "caption": "phòng"
+  },
+  "收到": {
+    "file": "收到.svg",
+    "src": "images/HSK_3.0/level3/收到.svg",
+    "caption": "nhận được"
+  },
+  "受": {
+    "file": "受.svg",
+    "src": "images/HSK_3.0/level3/受.svg",
+    "caption": "chịu, bị; nhận"
+  },
+  "刷": {
+    "file": "刷.svg",
+    "src": "images/HSK_3.0/level3/刷.svg",
+    "caption": "chải, đánh (răng); quẹt (thẻ)"
+  },
+  "四季": {
+    "file": "四季.svg",
+    "src": "images/HSK_3.0/level3/四季.svg",
+    "caption": "bốn mùa"
+  },
+  "体育馆": {
+    "file": "体育馆.svg",
+    "src": "images/HSK_3.0/level3/体育馆.svg",
+    "caption": "nhà thi đấu thể thao"
+  },
+  "跳": {
+    "file": "跳.svg",
+    "src": "images/HSK_3.0/level3/跳.svg",
+    "caption": "nhảy"
+  },
+  "听说": {
+    "file": "听说.svg",
+    "src": "images/HSK_3.0/level3/听说.svg",
+    "caption": "nghe nói"
+  },
+  "外地": {
+    "file": "外地.svg",
+    "src": "images/HSK_3.0/level3/外地.svg",
+    "caption": "nơi khác, tỉnh khác"
+  },
+  "外卖": {
+    "file": "外卖.svg",
+    "src": "images/HSK_3.0/level3/外卖.svg",
+    "caption": "đồ ăn mang đi; gọi đồ ăn"
+  },
+  "外语": {
+    "file": "外语.svg",
+    "src": "images/HSK_3.0/level3/外语.svg",
+    "caption": "ngoại ngữ"
+  },
+  "晚点": {
+    "file": "晚点.svg",
+    "src": "images/HSK_3.0/level3/晚点.svg",
+    "caption": "trễ giờ, chậm chuyến"
+  },
+  "晚会": {
+    "file": "晚会.svg",
+    "src": "images/HSK_3.0/level3/晚会.svg",
+    "caption": "dạ hội, buổi liên hoan tối"
+  },
+  "西北": {
+    "file": "西北.svg",
+    "src": "images/HSK_3.0/level3/西北.svg",
+    "caption": "phía tây bắc"
+  },
+  "西方": {
+    "file": "西方.svg",
+    "src": "images/HSK_3.0/level3/西方.svg",
+    "caption": "phía tây; phương Tây"
+  },
+  "西南": {
+    "file": "西南.svg",
+    "src": "images/HSK_3.0/level3/西南.svg",
+    "caption": "phía tây nam"
+  },
+  "喜爱": {
+    "file": "喜爱.svg",
+    "src": "images/HSK_3.0/level3/喜爱.svg",
+    "caption": "yêu thích"
+  },
+  "洗衣机": {
+    "file": "洗衣机.svg",
+    "src": "images/HSK_3.0/level3/洗衣机.svg",
+    "caption": "máy giặt"
+  },
+  "夏天": {
+    "file": "夏天.svg",
+    "src": "images/HSK_3.0/level3/夏天.svg",
+    "caption": "mùa hè"
+  },
+  "箱子": {
+    "file": "箱子.svg",
+    "src": "images/HSK_3.0/level3/箱子.svg",
+    "caption": "cái rương, va li, thùng"
+  },
+  "小区": {
+    "file": "小区.svg",
+    "src": "images/HSK_3.0/level3/小区.svg",
+    "caption": "khu dân cư, khu chung cư"
+  },
+  "鞋": {
+    "file": "鞋.svg",
+    "src": "images/HSK_3.0/level3/鞋.svg",
+    "caption": "giày"
+  },
+  "行李": {
+    "file": "行李.svg",
+    "src": "images/HSK_3.0/level3/行李.svg",
+    "caption": "hành lý"
+  },
+  "兴趣": {
+    "file": "兴趣.svg",
+    "src": "images/HSK_3.0/level3/兴趣.svg",
+    "caption": "hứng thú, sở thích"
+  },
+  "休假": {
+    "file": "休假.svg",
+    "src": "images/HSK_3.0/level3/休假.svg",
+    "caption": "nghỉ phép"
+  },
+  "选": {
+    "file": "选.svg",
+    "src": "images/HSK_3.0/level3/选.svg",
+    "caption": "chọn"
+  },
+  "羊": {
+    "file": "羊.svg",
+    "src": "images/HSK_3.0/level3/羊.svg",
+    "caption": "dê, cừu"
+  },
+  "一块儿": {
+    "file": "一块儿.svg",
+    "src": "images/HSK_3.0/level3/一块儿.svg",
+    "caption": "cùng nhau; chỗ"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",

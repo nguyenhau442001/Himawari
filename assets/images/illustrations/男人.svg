@@ -1,0 +1,58 @@
+<svg width="240" height="240" rx="24" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/halo for focus -->
+  <circle cx="120" cy="120" r="70" fill="#242B38" opacity="0.6"/>
+
+  <!-- Conceptual character representation for "男人" (Adult Male) -->
+  <g transform="translate(0, 5)">
+    <!-- Shoulders and Torso -->
+    <path d="M 75 190 C 75 160, 95 145, 120 145 C 145 145, 165 160, 165 190 Z" fill="#3B82F6"/>
+    
+    <!-- Collar / Shirt Neckline -->
+    <path d="M 105 145 L 120 165 L 135 145 Z" fill="#1A1D24"/>
+    <path d="M 95 145 L 120 172 L 145 145" fill="none" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Neck -->
+    <rect x="110" y="125" width="20" height="25" fill="#E2B395" rx="4"/>
+
+    <!-- Head & Jaw Structure (Masculine angular jawline) -->
+    <path d="M 95 75 
+             C 95 55, 105 45, 120 45 
+             C 135 45, 145 55, 145 75 
+             L 145 105 
+             C 145 125, 137 130, 120 130 
+             C 103 130, 95 125, 95 105 Z" fill="#E2B395"/>
+
+    <!-- Ears -->
+    <circle cx="91" cy="92" r="6" fill="#D49E7C"/>
+    <circle cx="149" cy="92" r="6" fill="#D49E7C"/>
+
+    <!-- Hair (Short modern neat crop) -->
+    <path d="M 95 78 
+             C 95 55, 103 42, 120 41 
+             C 137 42, 145 55, 145 78
+             C 145 83, 142 80, 140 72
+             C 135 55, 127 48, 120 48
+             C 113 48, 105 55, 100 72
+             C 98 80, 95 83, 95 78 Z" fill="#2E3440"/>
+
+    <!-- Eyebrows (Strong, straight, masculine) -->
+    <path d="M 101 83 L 116 86" stroke="#2E3440" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 139 83 L 124 86" stroke="#2E3440" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Eyes (Confident, calm) -->
+    <circle cx="108" cy="95" r="4" fill="#2E3440"/>
+    <circle cx="132" cy="95" r="4" fill="#2E3440"/>
+
+    <!-- Nose -->
+    <path d="M 120 93 L 117 107 L 123 107" fill="none" stroke="#D49E7C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Mouth (Subtle confident smile) -->
+    <path d="M 110 118 C 115 122, 125 122, 130 118" fill="none" stroke="#2E3440" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- High-contrast modern focal accent (Gold/Orange ring indicator) -->
+  <circle cx="120" cy="120" r="92" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.8"/>
+</svg>

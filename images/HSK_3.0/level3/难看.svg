@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle elements -->
+  <circle cx="120" cy="120" r="90" fill="none" stroke="#262A35" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Adjective Contrast Visualization (Visualizing "nánkàn" / ugly, displeasing appearance) -->
+  <!-- Left/Good side (Faded reference of a clean, pleasant clothing hanger silhouette) -->
+  <g opacity="0.3">
+    <!-- Hanger hook -->
+    <path d="M 65 80 C 65 70, 75 70, 75 80 L 75 88" fill="none" stroke="#A0AEC0" stroke-width="3" stroke-linecap="round"/>
+    <!-- Sleek pleasant garment outline -->
+    <path d="M 75 88 L 45 120 L 55 130 L 70 120 L 70 165 C 70 168, 72 170, 75 170 L 105 170 C 108 170, 110 168, 110 165 L 110 120 L 125 130 L 135 120 L 105 88 Z" fill="#2D3748" stroke="#A0AEC0" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Checkmark for good -->
+    <circle cx="90" cy="195" r="12" fill="#2F855A"/>
+    <path d="M 85 195 L 89 199 L 96 191" fill="none" stroke="#F7FAFC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right/Bad side (Highlighted focus on "nánkàn" - awkward, clashing, unappealing garment) -->
+  <g>
+    <!-- Hanger hook -->
+    <path d="M 175 80 C 175 70, 165 70, 165 80 L 165 88" fill="none" stroke="#ED8936" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Awkward, unappealing garment shape (disproportionate, messy patterns) -->
+    <path d="M 165 88 L 135 125 L 142 135 L 158 120 L 160 172 C 160 175, 163 178, 166 178 L 214 178 C 217 178, 220 175, 220 172 L 218 115 L 232 130 L 238 120 L 205 88 Z" fill="#2C223B" stroke="#ED8936" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Clashing color patches/stripes representing "ugly/unmatched color" -->
+    <path d="M 165 110 L 195 115 L 190 145 L 162 140 Z" fill="#9B2C2C" opacity="0.8"/>
+    <path d="M 170 150 L 208 152 L 205 170 L 168 170 Z" fill="#D69E2E" opacity="0.8"/>
+    
+    <!-- Visual cue for displeasing aspect: Squiggly mismatch lines / clashing dots -->
+    <circle cx="180" cy="125" r="3" fill="#E2E8F0"/>
+    <circle cx="188" cy="132" r="3" fill="#3182CE"/>
+    <circle cx="175" cy="160" r="3" fill="#38A169"/>
+    
+    <!-- Cross/Warning indicator for "nánkàn" -->
+    <g transform="translate(187, 195)">
+      <circle cx="0" cy="0" r="12" fill="#9B2C2C"/>
+      <path d="M -4 -4 L 4 4 M 4 -4 L -4 4" fill="none" stroke="#F7FAFC" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Contrast comparison indicator (vs line in middle) -->
+  <line x1="120" y1="60" x2="120" y2="180" stroke="#2D3748" stroke-width="2" stroke-dasharray="3 3"/>
+</svg>

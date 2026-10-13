@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient soft glow representing personal space/presence "by one's side" -->
+  <circle cx="120" cy="130" r="70" fill="#252A34" opacity="0.6"/>
+  <circle cx="120" cy="130" r="45" fill="#2E3646" opacity="0.4"/>
+  
+  <!-- Ground line -->
+  <line x1="60" y1="180" x2="180" y2="180" stroke="#3A4454" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Character 1 (Parent / Adult - Left) -->
+  <g id="adult-figure">
+    <!-- Body / Coat -->
+    <path d="M 85 180 L 85 145 C 85 138 90 132 98 132 L 102 132 C 110 132 115 138 115 145 L 115 180 Z" fill="#4B6584"/>
+    <!-- Head -->
+    <circle cx="100" cy="115" r="14" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M 88 112 C 88 102 112 102 112 112 Z" fill="#78909C"/>
+  </g>
+
+  <!-- Character 2 (Child / Close person - Right, standing right beside) -->
+  <g id="child-figure">
+    <!-- Body -->
+    <path d="M 128 180 L 128 152 C 128 147 132 143 138 143 L 142 143 C 148 143 152 147 152 152 L 152 180 Z" fill="#E17055"/>
+    <!-- Head -->
+    <circle cx="140" cy="128" r="11" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M 130 125 C 130 118 150 118 150 125 Z" fill="#D63031"/>
+  </g>
+
+  <!-- Connection / Close Proximity Indicator (Warm, subtle golden interactive focal point) -->
+  <path d="M 115 145 Q 120 135 128 145" stroke="#F1C40F" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <circle cx="120" cy="132" r="3" fill="#F1C40F"/>
+
+</svg>

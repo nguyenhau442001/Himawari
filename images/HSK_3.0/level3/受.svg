@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor shadow / ambient glow -->
+  <ellipse cx="120" cy="190" rx="70" ry="12" fill="#111318" opacity="0.8"/>
+
+  <!-- Soccer Ball representing the cause (比赛中的球) -->
+  <g transform="translate(65, 135)">
+    <circle cx="0" cy="0" r="16" fill="#FFFFFF"/>
+    <path d="M-5 -10 L5 -12 L10 -4 L3 8 L-6 5 Z" fill="#2C313C"/>
+    <path d="M-10 -4 L-5 -10 L-6 5 L-13 10 Z" fill="#2C313C"/>
+    <path d="M3 8 L10 -4 L14 3 L8 12 Z" fill="#2C313C"/>
+    <!-- Motion lines showing impact -->
+    <path d="M-35 -15 L-20 -8" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M-40 -5 L-25 2" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- Impact/Action flash effect -->
+  <path d="M 85 125 L 95 115 M 95 135 L 105 125" stroke="#F1C40F" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Character experiencing the action ("受" - suffering/receiving an injury) -->
+  <g id="injured-character">
+    <!-- Body / Torso (leaning back from impact) -->
+    <path d="M 125 150 L 110 100 L 140 95 L 145 145 Z" fill="#3B82F6"/>
+
+    <!-- Head (grimacing/pain expression) -->
+    <circle cx="120" cy="72" r="16" fill="#FCD34D"/>
+    <!-- Hair -->
+    <path d="M 104 70 Q 120 50 136 68 Q 130 58 120 58 Q 110 58 104 70 Z" fill="#1F2937"/>
+    <!-- Pain/Closed Eyes -->
+    <path d="M 113 72 L 118 75 M 122 72 L 127 75" stroke="#1F2937" stroke-width="2" stroke-linecap="round"/>
+    <!-- Grimacing Mouth -->
+    <path d="M 115 82 Q 120 78 125 82" stroke="#1F2937" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Legs -->
+    <!-- Back Leg (stiff/braced) -->
+    <path d="M 130 145 L 145 185 L 160 185" stroke="#1F2937" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Front Leg (buckling/hurt) -->
+    <path d="M 115 145 L 100 170 L 95 185" stroke="#1F2937" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Arms reacting to injury/pain -->
+    <!-- Back Arm -->
+    <path d="M 115 105 L 135 115 L 145 100" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Front Arm holding knee/leg in pain -->
+    <path d="M 135 105 L 115 130 L 100 160" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="100" cy="160" r="5" fill="#FCD34D"/>
+  </g>
+
+  <!-- Visual indicator of receiving / taking impact (Orange/Gold accent for focus) -->
+  <g transform="translate(100, 150)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#E67E22" stroke-width="2.5" opacity="0.6"/>
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#E67E22" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4"/>
+  </g>
+
+</svg>

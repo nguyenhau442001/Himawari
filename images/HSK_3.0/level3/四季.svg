@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Central Composition: The Four Seasons (四季) represented as a unified circular cycle of nature -->
+  <g transform="translate(120, 115)">
+    
+    <!-- Subtle background path representing the seasonal cycle -->
+    <circle cx="0" cy="0" r="76" fill="none" stroke="#2A2F3B" stroke-width="2" stroke-dasharray="4 4"/>
+
+    <!-- Quadrant 1: Spring (Top-Left) - Blossom & Green Leaf -->
+    <g transform="translate(-42, -42)">
+      <circle cx="0" cy="0" r="32" fill="#202736"/>
+      <!-- Green Leaf & Pink Blossom -->
+      <path d="M-12,8 C-12,8 -16,-8 0,-16 C16,-8 12,8 12,8 Z" fill="#2ED573"/>
+      <path d="M0,-16 C0,-16 -10,-24 0,-30 C10,-24 0,-16 0,-16 Z" fill="#FF6B81"/>
+      <circle cx="0" cy="-18" r="4" fill="#FFA502"/>
+    </g>
+
+    <!-- Quadrant 2: Summer (Top-Right) - Radiant Sun & Warmth -->
+    <g transform="translate(42, -42)">
+      <circle cx="0" cy="0" r="32" fill="#202736"/>
+      <!-- Sun & Rays -->
+      <circle cx="0" cy="0" r="14" fill="#FFA502"/>
+      <path d="M0,-24 L0,-20 M0,20 L0,24 M-24,0 L-20,0 M20,0 L24,0 M-17,-17 L-14,-14 M14,14 L17,17 M-17,17 L-14,14 M14,-14 L17,-17" stroke="#FFA502" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Quadrant 3: Autumn (Bottom-Right) - Maple Leaf & Harvest Gold -->
+    <g transform="translate(42, 42)">
+      <circle cx="0" cy="0" r="32" fill="#202736"/>
+      <!-- Maple Leaf -->
+      <path d="M0,18 L0,6 M0,6 L-12,-2 L-6,-8 L0,-4 L6,-8 L12,-2 Z" fill="none"/>
+      <path d="M0,16 C-2,10 -12,4 -10,-4 C-8,-12 -2,-10 0,-16 C2,-10 8,-12 10,-4 C12,4 2,10 0,16 Z" fill="#FF7F50"/>
+      <line x1="0" y1="16" x2="0" y2="-10" stroke="#1A1D24" stroke-width="1.5"/>
+    </g>
+
+    <!-- Quadrant 4: Winter (Bottom-Left) - Snowflake & Cool Blue/White -->
+    <g transform="translate(-42, 42)">
+      <circle cx="0" cy="0" r="32" fill="#202736"/>
+      <!-- Snowflake -->
+      <g stroke="#70A1FF" stroke-width="3" stroke-linecap="round">
+        <line x1="0" y1="-18" x2="0" y2="18"/>
+        <line x1="-15.5" y1="-9" x2="15.5" y2="9"/>
+        <line x1="-15.5" y1="9" x2="15.5" y2="-9"/>
+        <!-- Details -->
+        <path d="M-4,-12 L0,-16 L4,-12 M-4,12 L0,16 L4,12" fill="none" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- Center Hub: Unifying Earth / Cycle Indicator -->
+    <circle cx="0" cy="0" r="16" fill="#1A1D24" stroke="#3A4454" stroke-width="3"/>
+    <path d="M-6,2 L0,-4 L6,2" fill="none" stroke="#FFA502" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-6,-2 L0,4 L6,-2" fill="none" stroke="#FFA502" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Decorative baseline element for modern UI card aesthetic -->
+  <rect x="95" y="212" width="50" height="4" rx="2" fill="#3A4454"/>
+</svg>

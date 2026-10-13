@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Stage/Performance Area -->
+  <path d="M40 180 L200 180 L190 140 L50 140 Z" fill="#2D343E"/>
+  
+  <!-- Spotlight Beam -->
+  <path d="M120 40 L80 140 L160 140 Z" fill="#FFD700" opacity="0.15"/>
+  
+  <!-- Microphone on Stand -->
+  <g transform="translate(120, 150)">
+    <rect x="-2" y="-50" width="4" height="50" fill="#A0A0A0"/>
+    <circle cx="0" cy="-55" r="8" fill="#FFD700"/>
+    <ellipse cx="0" cy="-55" rx="4" ry="6" fill="#E6C200"/>
+  </g>
+  
+  <!-- Decorative Stage Elements (Bunting/Lights) -->
+  <path d="M40 40 Q60 60 80 40 T120 40 T160 40 T200 40" stroke="#FF9500" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Audience/Atmosphere (Silhouettes) -->
+  <circle cx="60" cy="200" r="10" fill="#3E4654"/>
+  <circle cx="90" cy="205" r="12" fill="#3E4654"/>
+  <circle cx="150" cy="205" r="12" fill="#3E4654"/>
+  <circle cx="180" cy="200" r="10" fill="#3E4654"/>
+  
+  <!-- Festive Confetti/Stars -->
+  <path d="M70 70 L73 76 L80 77 L75 82 L77 89 L70 85 L63 89 L65 82 L60 77 L67 76 Z" fill="#FFD700"/>
+  <path d="M170 90 L173 96 L180 97 L175 102 L177 109 L170 105 L163 109 L165 102 L160 97 L167 96 Z" fill="#FF9500"/>
+</svg>

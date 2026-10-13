@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Horizon Line -->
+  <path d="M40 180 L200 180" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Sun setting in the West (Left side) -->
+  <circle cx="70" cy="160" r="25" fill="#F59E0B"/>
+  
+  <!-- Sun rays/glow -->
+  <path d="M70 125 L70 135" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M70 185 L70 195" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M35 160 L45 160" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95 160 L105 160" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Silhouette of land/mountains -->
+  <path d="M40 180 L80 140 L120 180 Z" fill="#2D3748"/>
+  <path d="M110 180 L150 150 L190 180 Z" fill="#2D3748"/>
+  
+  <!-- Directional indicator (Compass needle pointing West) -->
+  <g transform="translate(180, 60)">
+    <circle cx="0" cy="0" r="20" fill="#2D3748"/>
+    <path d="M0 -15 L0 15" stroke="#4B5563" stroke-width="2"/>
+    <path d="M-15 0 L15 0" stroke="#4B5563" stroke-width="2"/>
+    <path d="M-12 0 L0 -5 L0 5 Z" fill="#F59E0B"/>
+  </g>
+</svg>

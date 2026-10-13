@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background City Silhouette (Atmospheric) -->
+  <g fill="#252A34" opacity="0.6">
+    <rect x="35" y="110" width="18" height="60" rx="2"/>
+    <rect x="55" y="90" width="22" height="80" rx="2"/>
+    <rect x="165" y="100" width="20" height="70" rx="2"/>
+    <rect x="188" y="115" width="16" height="55" rx="2"/>
+  </g>
+
+  <!-- Central Urban Landscape / Cityscape (Representing "市" - Thành phố) -->
+  <!-- Modern skyscrapers -->
+  <!-- Building Left (Background) -->
+  <rect x="68" y="75" width="34" height="95" rx="3" fill="#2E364F"/>
+  <rect x="76" y="85" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="88" y="85" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.3"/>
+  <rect x="76" y="105" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="88" y="105" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="76" y="125" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.3"/>
+  <rect x="88" y="125" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="76" y="145" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="88" y="145" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+
+  <!-- Building Right (Background) -->
+  <rect x="138" y="65" width="34" height="105" rx="3" fill="#2E364F"/>
+  <rect x="146" y="75" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.5"/>
+  <rect x="158" y="75" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="146" y="95" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="158" y="95" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.5"/>
+  <rect x="146" y="115" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="158" y="115" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+  <rect x="146" y="135" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.3"/>
+  <rect x="158" y="135" width="6" height="10" rx="1" fill="#4ECCA3" opacity="0.8"/>
+
+  <!-- Central Landmark Tower (Focal Point) -->
+  <polygon points="120,40 102,170 138,170" fill="#3A466B"/>
+  <polygon points="120,40 120,170 138,170" fill="#485785"/>
+  <!-- Tower spire / antenna -->
+  <line x1="120" y1="40" x2="120" y2="25" stroke="#F97316" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="23" r="3" fill="#F97316"/>
+  <!-- Tower lights -->
+  <rect x="117" y="60" width="6" height="8" rx="1" fill="#F97316"/>
+  <rect x="117" y="80" width="6" height="8" rx="1" fill="#F97316" opacity="0.7"/>
+  <rect x="117" y="100" width="6" height="8" rx="1" fill="#F97316"/>
+  <rect x="117" y="120" width="6" height="8" rx="1" fill="#F97316" opacity="0.7"/>
+  <rect x="117" y="140" width="6" height="8" rx="1" fill="#F97316"/>
+
+  <!-- Foreground Street Level / Infrastructure -->
+  <rect x="30" y="170" width="180" height="8" rx="4" fill="#64748B"/>
+  
+  <!-- Urban Pin / Focus Element (Modern Map Pin representing Center/City) -->
+  <g transform="translate(0, -5)">
+    <!-- Pin shadow -->
+    <ellipse cx="120" cy="183" rx="8" ry="3" fill="#0F1115" opacity="0.5"/>
+    <!-- Pin body -->
+    <path d="M120,145 C110.5,145 103,152.5 103,162 C103,172.5 120,185 120,185 C120,185 137,172.5 137,162 C137,152.5 129.5,145 120,145 Z" fill="#F97316"/>
+    <!-- Inner circle of pin -->
+    <circle cx="120" cy="162" r="4.5" fill="#1A1D24"/>
+  </g>
+
+  <!-- Ambient glowing decorative highlights -->
+  <circle cx="50" cy="50" r="1.5" fill="#4ECCA3" opacity="0.6"/>
+  <circle cx="190" cy="70" r="2" fill="#F97316" opacity="0.6"/>
+  <circle cx="210" cy="130" r="1.5" fill="#4ECCA3" opacity="0.4"/>
+  <circle cx="30" cy="130" r="2" fill="#F97316" opacity="0.5"/>
+</svg>

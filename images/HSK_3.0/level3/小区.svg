@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Residential Buildings -->
+  <rect x="50" y="100" width="40" height="100" fill="#3D4451" rx="2"/>
+  <rect x="100" y="80" width="40" height="120" fill="#4B5563" rx="2"/>
+  <rect x="150" y="110" width="40" height="90" fill="#374151" rx="2"/>
+  
+  <!-- Windows -->
+  <rect x="60" y="110" width="8" height="8" fill="#FBBF24"/>
+  <rect x="75" y="110" width="8" height="8" fill="#FBBF24"/>
+  <rect x="60" y="130" width="8" height="8" fill="#FBBF24"/>
+  <rect x="75" y="130" width="8" height="8" fill="#FBBF24"/>
+  
+  <rect x="110" y="90" width="8" height="8" fill="#FBBF24"/>
+  <rect x="125" y="90" width="8" height="8" fill="#FBBF24"/>
+  <rect x="110" y="110" width="8" height="8" fill="#FBBF24"/>
+  <rect x="125" y="110" width="8" height="8" fill="#FBBF24"/>
+  
+  <rect x="160" y="120" width="8" height="8" fill="#FBBF24"/>
+  <rect x="175" y="120" width="8" height="8" fill="#FBBF24"/>
+  
+  <!-- Park Area -->
+  <path d="M50 200 L190 200 C190 215 50 215 50 200 Z" fill="#10B981"/>
+  
+  <!-- Tree -->
+  <circle cx="165" cy="190" r="12" fill="#059669"/>
+  <rect x="163" y="190" width="4" height="10" fill="#78350F"/>
+  
+  <!-- Pathway -->
+  <path d="M50 200 L190 200" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Gate/Entrance -->
+  <rect x="40" y="180" width="5" height="20" fill="#FBBF24"/>
+  <rect x="195" y="180" width="5" height="20" fill="#FBBF24"/>
+</svg>

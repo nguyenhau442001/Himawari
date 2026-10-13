@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Outer Glow / Ambient Lighting for Calendar -->
+    <rect x="55" y="45" width="130" height="150" rx="16" fill="#252A34" opacity="0.6"/>
+    
+    <!-- Calendar Base Card -->
+    <rect x="50" y="40" width="140" height="150" rx="16" fill="#1F2430" stroke="#30384B" stroke-width="2"/>
+    
+    <!-- Calendar Top Header (Accent Orange) -->
+    <path d="M 50 56 A 16 16 0 0 1 66 40 L 174 40 A 16 16 0 0 1 190 56 L 190 80 L 50 80 Z" fill="#FF8C42"/>
+    
+    <!-- Binder Rings -->
+    <rect x="82" y="32" width="12" height="18" rx="6" fill="#A0AAB8"/>
+    <rect x="146" y="32" width="12" height="18" rx="6" fill="#A0AAB8"/>
+    <circle cx="88" cy="41" r="3" fill="#1A1D24"/>
+    <circle cx="152" cy="41" r="3" fill="#1A1D24"/>
+    
+    <!-- Grid of Calendar Days (Today / Yesterday / Day Before Yesterday concept) -->
+    <!-- Row 1 -->
+    <circle cx="80" cy="110" r="10" fill="#2C3446"/>
+    <circle cx="120" cy="110" r="10" fill="#2C3446"/>
+    <circle cx="160" cy="110" r="10" fill="#2C3446"/>
+    
+    <!-- Row 2 -->
+    <circle cx="80" cy="145" r="10" fill="#2C3446"/>
+    <circle cx="120" cy="145" r="10" fill="#2C3446"/>
+    <circle cx="160" cy="145" r="10" fill="#2C3446"/>
+
+    <!-- Past Time Indicator: Glowing double arrow pointing back in time + specific highlighted past day node -->
+    <circle cx="80" cy="110" r="12" fill="none" stroke="#FF8C42" stroke-width="3"/>
+    <circle cx="80" cy="110" r="5" fill="#FF8C42"/>
+
+    <!-- Double Backward Time-Jump Flow Lines -->
+    <path d="M 170 178 C 140 195 90 195 60 170" fill="none" stroke="#3A445C" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+    
+    <!-- Time-travel / Past Action Arrowhead -->
+    <path d="M 68 162 L 57 170 L 67 177" fill="none" stroke="#FF8C42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Subtle Clock/History Icon detail on top of calendar -->
+    <circle cx="120" cy="60" r="6" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+    <polyline points="120,57 120,60 123,62" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  </g>
+</svg>

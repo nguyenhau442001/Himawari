@@ -1,0 +1,28 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Broom (Object representing 扫 - noun/implement context) -->
+  <g transform="rotate(-30 120 120)">
+    <!-- Handle -->
+    <line x1="120" y1="40" x2="120" y2="150" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Handle Grip/Top -->
+    <circle cx="120" cy="38" r="4" fill="#F59E0B"/>
+
+    <!-- Connector / Binding -->
+    <path d="M 112 145 L 128 145 L 130 160 L 110 160 Z" fill="#3B82F6"/>
+
+    <!-- Bristles / Brush Head -->
+    <path d="M 106 160 L 134 160 L 142 205 L 98 205 Z" fill="#F59E0B"/>
+
+    <!-- Motion Lines (Sweeping effect) -->
+    <path d="M 75 185 C 65 180 55 185 50 195" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M 80 200 C 70 195 62 200 58 210" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+    
+    <!-- Dust Particles being swept -->
+    <circle cx="75" cy="175" r="2.5" fill="#94A3B8"/>
+    <circle cx="65" cy="190" r="2" fill="#94A3B8"/>
+    <circle cx="85" cy="205" r="3" fill="#94A3B8"/>
+  </g>
+</svg>

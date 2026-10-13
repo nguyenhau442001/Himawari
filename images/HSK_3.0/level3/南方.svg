@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Southern Landscape Representation: Warmth, Palm Tree, Sun -->
+  <circle cx="180" cy="60" r="25" fill="#FFB347"/>
+  
+  <!-- Ground -->
+  <path d="M40 190 C 100 180, 160 180, 200 190 L 200 200 L 40 200 Z" fill="#2C3E50"/>
+  
+  <!-- Palm Tree Trunk -->
+  <rect x="70" y="120" width="10" height="70" rx="4" fill="#A0522D"/>
+  
+  <!-- Palm Tree Leaves -->
+  <path d="M75 120 C 60 90, 40 100, 30 110 C 50 110, 60 120, 75 120 Z" fill="#2ECC71"/>
+  <path d="M75 120 C 80 90, 100 100, 110 110 C 90 110, 80 120, 75 120 Z" fill="#2ECC71"/>
+  <path d="M75 125 C 90 140, 110 135, 120 130 C 100 130, 90 125, 75 125 Z" fill="#27AE60"/>
+  <path d="M75 125 C 60 140, 40 135, 30 130 C 50 130, 60 125, 75 125 Z" fill="#27AE60"/>
+
+  <!-- Compass Needle pointing South -->
+  <g transform="translate(180, 170)">
+    <path d="M0 -20 L 5 0 L 0 20 L -5 0 Z" fill="#FFB347"/>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#FFB347" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Mountain Silhouette for Context (Shan Shang) -->
+  <path d="M 20 220 L 70 140 L 110 180 L 170 100 L 220 220 Z" fill="#242933"/>
+  <path d="M 130 220 L 170 150 L 220 220 Z" fill="#1E232D"/>
+
+  <!-- Stylized Cute Sheep/Goat (Yang) - Centered Object -->
+  <g transform="translate(10, 10)">
+    <!-- Back Legs -->
+    <rect x="85" y="130" width="10" height="35" rx="5" fill="#A0AAB8"/>
+    <rect x="125" y="130" width="10" height="35" rx="5" fill="#A0AAB8"/>
+
+    <!-- Woolly Body (Layered fluffy tufts) -->
+    <circle cx="105" cy="115" r="42" fill="#F4F6F8"/>
+    <circle cx="85" cy="105" r="25" fill="#E2E8F0"/>
+    <circle cx="125" cy="105" r="25" fill="#E2E8F0"/>
+    <circle cx="105" cy="90" r="25" fill="#F4F6F8"/>
+
+    <!-- Front Legs -->
+    <rect x="75" y="135" width="12" height="40" rx="6" fill="#D2DCE6"/>
+    <rect x="113" y="135" width="12" height="40" rx="6" fill="#D2DCE6"/>
+    <!-- Hooves -->
+    <rect x="75" y="165" width="12" height="10" rx="3" fill="#3E4C59"/>
+    <rect x="85" y="160" width="10" height="10" rx="3" fill="#3E4C59"/>
+    <rect x="113" y="165" width="12" height="10" rx="3" fill="#3E4C59"/>
+    <rect x="125" y="160" width="10" height="10" rx="3" fill="#3E4C59"/>
+
+    <!-- Head & Ears -->
+    <ellipse cx="105" cy="75" rx="22" ry="18" fill="#2E3842"/>
+    <!-- Cute Ears -->
+    <ellipse cx="85" cy="68" rx="10" ry="5" transform="rotate(-20 85 68)" fill="#2E3842"/>
+    <ellipse cx="125" cy="68" rx="10" ry="5" transform="rotate(20 125 68)" fill="#2E3842"/>
+    <!-- Inner Ears -->
+    <ellipse cx="87" cy="68" rx="6" ry="3" transform="rotate(-20 87 68)" fill="#F4A582"/>
+    <ellipse cx="123" cy="68" rx="6" ry="3" transform="rotate(20 123 68)" fill="#F4A582"/>
+
+    <!-- Gentle Horns (Curved Accent - Golden/Orange) -->
+    <path d="M 90 60 C 75 50 75 35 85 30 C 92 27 96 35 90 45" fill="none" stroke="#F6AD55" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 120 60 C 135 50 135 35 125 30 C 118 27 114 35 120 45" fill="none" stroke="#F6AD55" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Eyes -->
+    <circle cx="97" cy="73" r="3" fill="#FFFFFF"/>
+    <circle cx="113" cy="73" r="3" fill="#FFFFFF"/>
+    <circle cx="98" cy="73" r="1.5" fill="#1A1D24"/>
+    <circle cx="112" cy="73" r="1.5" fill="#1A1D24"/>
+
+    <!-- Snout -->
+    <ellipse cx="105" cy="82" rx="6" ry="4" fill="#F4A582"/>
+  </g>
+</svg>

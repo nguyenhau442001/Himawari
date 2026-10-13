@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character 1 (Speaker) -->
+  <g transform="translate(40, 100)">
+    <circle cx="30" cy="30" r="20" fill="#FFB84D"/>
+    <path d="M10 60 Q30 80 50 60 L45 120 L15 120 Z" fill="#FFB84D"/>
+    <!-- Motion lines for speaking -->
+    <path d="M60 30 L80 20 M60 35 L85 35 M60 40 L80 50" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2 (Listener) -->
+  <g transform="translate(140, 100)">
+    <circle cx="30" cy="30" r="20" fill="#4D94FF"/>
+    <path d="M10 60 Q30 80 50 60 L45 120 L15 120 Z" fill="#4D94FF"/>
+    <!-- Ear focus indicator -->
+    <path d="M10 30 C 0 30, 0 10, 10 10 C 20 10, 20 30, 10 30" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+    <circle cx="10" cy="20" r="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Connection / Action Path -->
+  <path d="M95 40 Q 120 20 145 40" stroke="#E0E0E0" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+  
+  <!-- Contextual hint: Map pin representing 'China' destination -->
+  <path d="M180 160 C 180 150, 190 140, 200 140 C 210 140, 220 150, 220 160 C 220 175, 200 195, 200 195 C 200 195, 180 175, 180 160 Z" fill="#FF5252"/>
+  <circle cx="200" cy="160" r="5" fill="#1A1D24"/>
+</svg>

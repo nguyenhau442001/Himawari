@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "室" (room / meeting room context): 
+       A sleek, modern stylized interior room cutout seen in isometric/flat perspective, 
+       featuring professional architectural elements: a table, chairs, and a presentation screen 
+       representing a meeting room (会议室). -->
+
+  <!-- Room Background / Floor & Walls -->
+  <path d="M48 72 L192 72 L192 168 L48 168 Z" fill="#222730" rx="4"/>
+  
+  <!-- Back Wall Grid / Accent lines -->
+  <line x1="48" y1="120" x2="192" y2="120" stroke="#2C3340" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="120" y1="72" x2="120" y2="168" stroke="#2C3340" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Presentation Screen (Wall display) -->
+  <rect x="85" y="85" width="70" height="32" rx="4" fill="#2E3846"/>
+  <rect x="91" y="92" width="40" height="4" rx="2" fill="#3B82F6"/>
+  <rect x="91" y="100" width="58" height="3" rx="1.5" fill="#475569"/>
+  <rect x="91" y="107" width="25" height="3" rx="1.5" fill="#475569"/>
+
+  <!-- Meeting Table (Central object) -->
+  <ellipse cx="120" cy="142" rx="45" ry="14" fill="#334155"/>
+  <ellipse cx="120" cy="140" rx="45" ry="14" fill="#E2E8F0"/>
+  <!-- Table inner cutout for sleek look -->
+  <ellipse cx="120" cy="140" rx="36" ry="10" fill="#1E293B"/>
+
+  <!-- Chairs around the table -->
+  <!-- Top Chair -->
+  <rect x="110" y="116" width="20" height="10" rx="3" fill="#F59E0B"/>
+  <circle cx="120" cy="123" r="2" fill="#1E293B"/>
+
+  <!-- Bottom Chair -->
+  <rect x="110" y="154" width="20" height="10" rx="3" fill="#F59E0B"/>
+  <circle cx="120" cy="157" r="2" fill="#1E293B"/>
+
+  <!-- Left Chair -->
+  <rect x="68" y="132" width="10" height="20" rx="3" fill="#F59E0B"/>
+  <circle cx="73" cy="142" r="2" fill="#1E293B"/>
+
+  <!-- Right Chair -->
+  <rect x="162" y="132" width="10" height="20" rx="3" fill="#F59E0B"/>
+  <circle cx="167" cy="142" r="2" fill="#1E293B"/>
+
+  <!-- Architectural Room Frame (Walls / Doors outline) -->
+  <path d="M36 56 L204 56 L204 184 L36 184 Z" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Architectural Open Doorway indicator at bottom-left -->
+  <path d="M36 160 L36 184 L60 184" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

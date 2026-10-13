@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient glow behind the object -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Toothbrush Illustration (The physical object representing "brush/刷") -->
+  <g transform="rotate(-35 120 120)">
+    <!-- Toothbrush Handle -->
+    <path d="M 112 45 
+             C 112 40, 128 40, 128 45 
+             L 124 135 
+             C 124 165, 132 185, 128 200 
+             C 125 210, 115 210, 112 200 
+             C 108 185, 116 165, 116 135 Z" 
+          fill="#3A4454"/>
+          
+    <!-- Handle Grip Detail (Orange/Gold Accent for Focus) -->
+    <path d="M 115 145 L 125 145 L 124 175 L 116 175 Z" fill="#FF9F43" opacity="0.9"/>
+    <path d="M 115 115 L 125 115 L 125 130 L 115 130 Z" fill="#FF9F43" opacity="0.7"/>
+
+    <!-- Toothbrush Head -->
+    <rect x="111" y="28" width="18" height="25" rx="5" fill="#E2E8F0"/>
+
+    <!-- Bristles (Multiple clean rows) -->
+    <rect x="113" y="31" width="3" height="19" rx="1.5" fill="#00D2D3"/>
+    <rect x="118.5" y="31" width="3" height="19" rx="1.5" fill="#00D2D3"/>
+    <rect x="124" y="31" width="3" height="19" rx="1.5" fill="#00D2D3"/>
+  </g>
+
+  <!-- Motion lines / Action marks representing the brushing motion -->
+  <g stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.8" fill="none">
+    <path d="M 75 110 C 65 115, 65 125, 75 130"/>
+    <path d="M 62 118 C 57 121, 57 125, 62 128"/>
+    
+    <path d="M 165 110 C 175 115, 175 125, 165 130"/>
+    <path d="M 178 118 C 183 121, 183 125, 178 128"/>
+  </g>
+
+  <!-- Sparkles / Cleanliness indicators -->
+  <g fill="#FECA57">
+    <path d="M 68 75 Q 75 75 75 68 Q 75 75 82 75 Q 75 75 75 82 Q 75 75 68 75 Z"/>
+    <path d="M 162 165 Q 168 165 168 159 Q 168 165 174 165 Q 168 165 168 171 Q 168 165 162 165 Z" transform="scale(0.8) translate(40, 20)"/>
+    <path d="M 155 70 Q 160 70 160 65 Q 160 70 165 70 Q 160 70 160 75 Q 160 70 155 70 Z" opacity="0.7"/>
+  </g>
+</svg>
