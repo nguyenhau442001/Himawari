@@ -283,13 +283,13 @@ body.flashcard-study-mode .stat-grid {
   display: none !important;
 }
 
-/* Off-canvas backdrop (used on study drawers) */
+/* Off-canvas backdrop (used only on mobile/tablet overlay drawers) */
 .study-drawer-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(8, 10, 18, 0.42);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   z-index: 990;
   opacity: 0;
   pointer-events: none;
@@ -302,63 +302,108 @@ body.study-sidebar-open .study-drawer-backdrop {
 
 /* --------------------------------------------------------------------------
    Desktop Studio Layout (min-width: 1080px)
+   Side-by-side balanced layout — NEVER dims or overlaps the main flashcard
    -------------------------------------------------------------------------- */
 @media (min-width: 1080px) {
+  /* Never dim or blur the flashcard stage on desktop */
+  .study-drawer-backdrop,
+  body.study-sidebar-open .study-drawer-backdrop {
+    display: none !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  body.flashcard-study-mode .app {
+    max-width: 1460px !important;
+    transition: max-width 0.25s ease;
+  }
+
   body.flashcard-study-mode .workstation {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+    grid-template-columns: none !important;
+    grid-template-areas: none !important;
     width: 100% !important;
-    max-width: 1160px !important;
+    max-width: 1120px !important;
     margin: 0 auto !important;
     height: auto !important;
     min-height: 0 !important;
     position: relative !important;
-    padding: 0 24px !important;
+    padding: 0 20px !important;
   }
+
+  body.flashcard-study-mode.study-sidebar-open .workstation {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 440px !important;
+    grid-template-areas: none !important;
+    align-items: start !important;
+    gap: 24px !important;
+    max-width: 1440px !important;
+    padding: 0 16px !important;
+  }
+
   body.flashcard-study-mode .workstation-left {
     display: none !important;
   }
+
   body.flashcard-study-mode .workstation-middle {
+    grid-area: auto !important;
     width: 100% !important;
-    max-width: 1080px !important;
+    max-width: 1040px !important;
     margin: 0 auto !important;
     display: flex !important;
     flex-direction: column !important;
     min-height: 0 !important;
     overflow: visible !important;
+    min-width: 0 !important;
   }
+
+  body.flashcard-study-mode.study-sidebar-open .word-main-block.split-layout {
+    gap: clamp(24px, 3vw, 44px) !important;
+  }
+
+  body.flashcard-study-mode.study-sidebar-open .card-visual-col {
+    flex: 0 0 clamp(210px, 19vw, 260px) !important;
+    width: clamp(210px, 19vw, 260px) !important;
+    height: clamp(210px, 19vw, 260px) !important;
+  }
+
   body.flashcard-study-mode .workstation-right {
-    position: fixed !important;
-    top: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    width: 440px !important;
-    max-width: min(92vw, 440px) !important;
-    height: 100vh !important;
-    height: 100dvh !important;
-    z-index: 1000 !important;
-    border-radius: 0 !important;
-    border: none !important;
-    border-left: 1px solid var(--border) !important;
-    background: var(--card-bg) !important;
-    box-shadow: -14px 0 45px rgba(0, 0, 0, 0.5) !important;
-    transform: translateX(105%) !important;
-    transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1) !important;
-    padding: 18px 20px !important;
+    display: none !important;
+    grid-area: auto !important;
+  }
+
+  body.flashcard-study-mode.study-sidebar-open .workstation-right {
+    grid-area: auto !important;
     display: flex !important;
     flex-direction: column !important;
-    gap: 12px !important;
+    gap: 14px !important;
+    position: sticky !important;
+    top: 4px !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 440px !important;
+    max-width: 440px !important;
+    height: calc(100dvh - 32px) !important;
+    max-height: calc(100dvh - 32px) !important;
+    z-index: 20 !important;
+    border-radius: 22px !important;
+    border: 1.5px solid var(--border) !important;
+    background: var(--card-bg) !important;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14) !important;
+    transform: none !important;
+    padding: 20px 22px !important;
     overflow-y: auto !important;
+    overscroll-behavior: contain !important;
   }
-  :root[data-theme="dark"] body.flashcard-study-mode .workstation-right {
-    background: #161720 !important;
-    border-color: rgba(255, 255, 255, 0.1) !important;
-    box-shadow: -16px 0 52px rgba(0, 0, 0, 0.7) !important;
+
+  :root[data-theme="dark"] body.flashcard-study-mode.study-sidebar-open .workstation-right {
+    background: #171923 !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.45) !important;
   }
-  body.flashcard-study-mode.study-sidebar-open .workstation-right {
-    transform: translateX(0) !important;
-  }
+
   body.flashcard-study-mode .study-drawer-close-btn {
     display: inline-flex !important;
   }
@@ -2127,40 +2172,40 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 /* --------------------------------------------------------------------------
    Companion Studio Modular Panels (Tabs: Stroke, Words, Context, Memory)
    -------------------------------------------------------------------------- */
-/* Drawer header components */
+/* Drawer header components — Enlarged for low-vision comfort */
 .study-drawer-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  padding: 2px 0 12px;
-  border-bottom: 1px solid var(--border);
+  gap: 12px;
+  padding: 2px 0 14px;
+  border-bottom: 1.5px solid var(--border);
   margin-bottom: 2px;
   flex: 0 0 auto;
 }
 :root[data-theme="dark"] .study-drawer-header {
-  border-bottom-color: rgba(255, 255, 255, 0.08);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 .study-drawer-title-group {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 .study-drawer-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  background: rgba(249, 115, 22, 0.14);
-  border: 1px solid rgba(249, 115, 22, 0.28);
-  font-size: 14px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(249, 115, 22, 0.15);
+  border: 1.5px solid rgba(249, 115, 22, 0.34);
+  font-size: 18px;
   line-height: 1;
 }
 .study-drawer-title {
-  font-size: 14.5px;
-  font-weight: 700;
+  font-size: 17.5px;
+  font-weight: 800;
   color: var(--text-primary);
   letter-spacing: -0.01em;
 }
@@ -2168,45 +2213,46 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 9px;
-  border: 1px solid var(--border);
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  border: 1.5px solid var(--border);
   background: var(--surface-subtle);
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 17px;
+  font-weight: 700;
   line-height: 1;
   cursor: pointer;
   transition: all 0.15s ease;
   padding: 0;
-  flex: 0 0 30px;
+  flex: 0 0 38px;
 }
 :root[data-theme="dark"] .study-drawer-close-btn {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.12);
 }
 .study-drawer-close-btn:hover {
-  background: rgba(244, 63, 94, 0.14);
+  background: rgba(244, 63, 94, 0.16);
   color: #fb7185;
-  border-color: rgba(244, 63, 94, 0.35);
+  border-color: rgba(244, 63, 94, 0.4);
 }
 
 /* Ensure study tabs & panel cards are styled on all screen sizes in study mode */
 body.flashcard-study-mode .sidebar-study-tabs {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding: 4px;
+  gap: 6px;
+  padding: 5px;
   background: var(--surface-subtle);
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
   order: 0;
   margin-bottom: 2px;
   flex: 0 0 auto;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .sidebar-study-tabs {
-  background: rgba(255, 255, 255, 0.035);
-  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 body.flashcard-study-mode .sidebar-study-tab {
   flex: 1 1 0;
@@ -2214,14 +2260,14 @@ body.flashcard-study-mode .sidebar-study-tab {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  padding: 7px 6px;
-  border: 1px solid transparent;
+  gap: 5px;
+  padding: 10px 8px;
+  border: 1.5px solid transparent;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 11.5px;
-  font-weight: 600;
-  border-radius: 9px;
+  font-size: 13.5px;
+  font-weight: 700;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.15s ease;
   white-space: nowrap;
@@ -2229,31 +2275,27 @@ body.flashcard-study-mode .sidebar-study-tab {
 }
 body.flashcard-study-mode .sidebar-study-tab:hover {
   color: var(--text-primary);
-  background: rgba(249, 115, 22, 0.08);
+  background: rgba(249, 115, 22, 0.1);
 }
 body.flashcard-study-mode .sidebar-study-tab.active {
   background: var(--card-bg);
   color: #fb923c;
-  border-color: rgba(249, 115, 22, 0.3);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
-  font-weight: 700;
+  border-color: rgba(249, 115, 22, 0.42);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  font-weight: 800;
 }
 :root[data-theme="light"] body.flashcard-study-mode .sidebar-study-tab.active {
   color: #ea580c;
-}
-body.flashcard-study-mode .sidebar-study-tab--all {
-  flex: 0 0 auto;
-  padding: 7px 9px;
 }
 
 body.flashcard-study-mode .workstation-right > .stroke-canvas-panel,
 body.flashcard-study-mode .workstation-right > .grammar-breakdown-panel,
 body.flashcard-study-mode .workstation-right > .word-companion-panel,
 body.flashcard-study-mode .workstation-right > .memory-curve-panel {
-  padding: 14px 16px;
+  padding: 18px 20px;
   background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 18px;
   box-shadow: var(--card-shadow);
   width: 100%;
   box-sizing: border-box;
@@ -2263,22 +2305,22 @@ body.flashcard-study-mode .workstation-right > .memory-curve-panel {
 :root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .word-companion-panel,
 :root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .memory-curve-panel {
   background: #1c1e2a;
-  border-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
 }
 
-/* Sidebar tab-based visibility in study mode */
+/* Sidebar tab-based visibility in study mode (single-focus tab view) */
 body.flashcard-study-mode[data-sidebar-tab="words"] #studyWordListPanel {
   display: flex !important;
 }
-body.flashcard-study-mode:not([data-sidebar-tab="words"]):not([data-sidebar-tab="all"]) #studyWordListPanel {
+body.flashcard-study-mode:not([data-sidebar-tab="words"]) #studyWordListPanel {
   display: none !important;
 }
 
 body.flashcard-study-mode[data-sidebar-tab="stroke"] .stroke-canvas-panel {
   display: flex !important;
 }
-body.flashcard-study-mode:not([data-sidebar-tab="stroke"]):not([data-sidebar-tab="all"]) .stroke-canvas-panel {
+body.flashcard-study-mode:not([data-sidebar-tab="stroke"]) .stroke-canvas-panel {
   display: none !important;
 }
 
@@ -2286,58 +2328,54 @@ body.flashcard-study-mode[data-sidebar-tab="companion"] .grammar-breakdown-panel
 body.flashcard-study-mode[data-sidebar-tab="companion"] .word-companion-panel {
   display: flex !important;
 }
-body.flashcard-study-mode:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="all"]) .grammar-breakdown-panel,
-body.flashcard-study-mode:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="all"]) .word-companion-panel {
+body.flashcard-study-mode:not([data-sidebar-tab="companion"]) .grammar-breakdown-panel,
+body.flashcard-study-mode:not([data-sidebar-tab="companion"]) .word-companion-panel {
   display: none !important;
 }
 
 body.flashcard-study-mode[data-sidebar-tab="curve"] .memory-curve-panel {
   display: block !important;
 }
-body.flashcard-study-mode:not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .memory-curve-panel {
+body.flashcard-study-mode:not([data-sidebar-tab="curve"]) .memory-curve-panel {
   display: none !important;
 }
 
-body.flashcard-study-mode .stroke-canvas-panel { gap: 12px; }
+body.flashcard-study-mode .stroke-canvas-panel { gap: 16px; }
 body.flashcard-study-mode .stroke-canvas-body {
   --stroke-canvas-width: 100%;
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
 }
-body.flashcard-study-mode .stroke-canvas-controls { gap: 8px; margin-top: 2px; width: 100%; }
-body.flashcard-study-mode .stroke-char-selector-wrap { margin-bottom: 6px; }
-body.flashcard-study-mode .stroke-char-pill { min-width: 36px; height: 30px; padding: 0 6px; }
-body.flashcard-study-mode .stroke-pill-char { font-size: 14px; }
-body.flashcard-study-mode .stroke-char-arrow-btn { width: 24px; height: 30px; flex: 0 0 24px; }
+body.flashcard-study-mode .stroke-canvas-controls { gap: 10px; margin-top: 2px; width: 100%; }
 body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !important; }
 
 .study-word-list-panel {
   display: none; flex: 1 1 auto; flex-direction: column; min-height: 0; overflow: hidden;
-  padding: 10px; border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 16px; border: 1.5px solid var(--border); border-radius: 18px;
   background: var(--card-bg); box-shadow: var(--card-shadow);
 }
-.study-word-list-heading { display: flex; flex-direction: column; gap: 7px; flex: 0 0 auto; padding-bottom: 8px; border-bottom: 1px solid var(--border); margin-bottom: 6px; }
-.study-word-list-header-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
-.study-word-list-header-row strong { font-size: 13px; font-weight: 700; }
+.study-word-list-heading { display: flex; flex-direction: column; gap: 10px; flex: 0 0 auto; padding-bottom: 12px; border-bottom: 1.5px solid var(--border); margin-bottom: 10px; }
+.study-word-list-header-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.study-word-list-header-row strong { font-size: 16px; font-weight: 800; }
 .study-word-count-badge {
-  font-size: 10.5px; font-weight: 600; color: var(--accent);
-  background: var(--accent-light); padding: 2px 6px; border-radius: 999px;
+  font-size: 13px; font-weight: 700; color: var(--accent);
+  background: var(--accent-light); padding: 4px 10px; border-radius: 999px;
 }
 .study-word-active-banner {
-  display: flex; align-items: center; justify-content: space-between; gap: 6px;
-  padding: 5px 8px; border-radius: var(--radius-md);
-  background: var(--surface-subtle); border: 1px solid var(--border);
-  font-size: 11.5px;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 8px 12px; border-radius: 12px;
+  background: var(--surface-subtle); border: 1.5px solid var(--border);
+  font-size: 14px;
 }
 .study-word-active-banner .active-word-info {
-  display: inline-flex; align-items: baseline; gap: 5px; min-width: 0;
+  display: inline-flex; align-items: baseline; gap: 8px; min-width: 0;
 }
-.active-kicker { color: var(--text-tertiary); font-size: 10.5px; }
-.active-hanzi { font-size: 14px; color: var(--accent); }
-.active-py { color: var(--text-secondary); font-size: 11px; }
+.active-kicker { color: var(--text-tertiary); font-size: 12.5px; font-weight: 600; }
+.active-hanzi { font-size: 19px; font-weight: 800; color: var(--accent); }
+.active-py { color: var(--text-secondary); font-size: 14px; font-weight: 600; }
 .active-status {
-  font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px;
+  font-size: 12px; font-weight: 800; padding: 3px 9px; border-radius: 6px;
   text-transform: uppercase; letter-spacing: 0.03em;
 }
 .badge-known { background: var(--success-bg); color: var(--success-text); }
@@ -2345,46 +2383,46 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
 .badge-unseen { background: var(--border); color: var(--text-secondary); }
 
 .study-word-list-search input {
-  width: 100%; min-height: 30px; padding: 5px 8px; border: 1px solid var(--border);
-  border-radius: var(--radius-md); background: var(--bg); color: var(--text-primary); font: inherit; font-size: 11.5px;
+  width: 100%; min-height: 40px; padding: 8px 12px; border: 1.5px solid var(--border);
+  border-radius: 12px; background: var(--bg); color: var(--text-primary); font: inherit; font-size: 14.5px;
 }
 .study-word-list-items {
-  display: flex; flex: 1 1 auto; flex-direction: column; gap: 3px; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+  display: flex; flex: 1 1 auto; flex-direction: column; gap: 6px; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
 }
 .study-word-list-item {
-  display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; align-items: center; gap: 8px;
-  flex: 0 0 auto; width: 100%; min-height: 40px; padding: 5px 8px; text-align: left;
-  border: 1px solid transparent; border-radius: var(--radius-md); background: transparent;
-  color: var(--text-primary); cursor: pointer; transition: background 0.1s ease;
+  display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; align-items: center; gap: 10px;
+  flex: 0 0 auto; width: 100%; min-height: 52px; padding: 8px 12px; text-align: left;
+  border: 1.5px solid transparent; border-radius: 12px; background: transparent;
+  color: var(--text-primary); cursor: pointer; transition: background 0.12s ease;
 }
 .study-word-list-item:hover { background: var(--surface-subtle); }
 .study-word-list-item.active {
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
   background: var(--accent-light);
 }
 .study-word-status {
-  font-size: 11px; font-weight: 700; text-align: center; flex-shrink: 0;
+  font-size: 14px; font-weight: 800; text-align: center; flex-shrink: 0;
 }
 .status-known { color: var(--success-text); }
 .status-unknown { color: var(--danger-text); }
 .status-unseen { color: var(--text-tertiary); }
 .study-word-list-content {
-  display: flex; min-width: 0; flex-direction: column; gap: 1px;
+  display: flex; min-width: 0; flex-direction: column; gap: 2px;
 }
 .study-word-list-main {
-  display: flex; align-items: baseline; gap: 6px; min-width: 0; white-space: nowrap;
+  display: flex; align-items: baseline; gap: 8px; min-width: 0; white-space: nowrap;
 }
 .study-word-list-hanzi {
-  font-size: 16px; font-weight: 650; white-space: nowrap; letter-spacing: 0.02em; color: var(--text-primary); flex-shrink: 0;
+  font-size: 20px; font-weight: 700; white-space: nowrap; letter-spacing: 0.02em; color: var(--text-primary); flex-shrink: 0;
 }
 .study-word-list-main .word-py {
-  overflow: hidden; color: var(--text-secondary); font-size: 11.5px; text-overflow: ellipsis; white-space: nowrap;
+  overflow: hidden; color: var(--text-secondary); font-size: 14px; font-weight: 600; text-overflow: ellipsis; white-space: nowrap;
 }
 .study-word-list-content .word-vi {
-  overflow: hidden; color: var(--text-tertiary); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; line-height: 1.25;
+  overflow: hidden; color: var(--text-secondary); font-size: 13px; text-overflow: ellipsis; white-space: nowrap; line-height: 1.35;
 }
 .study-word-list-number {
-  color: var(--text-tertiary); font-size: 10px; text-align: right; font-variant-numeric: tabular-nums; flex-shrink: 0;
+  color: var(--text-tertiary); font-size: 12.5px; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; flex-shrink: 0;
 }
 
 

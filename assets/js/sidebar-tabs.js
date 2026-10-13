@@ -1,5 +1,5 @@
-// Workstation right sidebar tab switcher: groups Stroke order, Context (companion + grammar),
-// and Memory curve into compact, zero-scroll tabs on desktop.
+// Workstation right sidebar tab switcher: groups Stroke order, Word list, Context,
+// and Memory curve into clean, spacious, single-focus tabs.
 
 function initSidebarTabs() {
   const mount = document.getElementById('workstationRight');
@@ -14,14 +14,15 @@ function initSidebarTabs() {
     header.innerHTML = `
       <div class="study-drawer-title-group">
         <span class="study-drawer-icon">✍️</span>
-        <strong class="study-drawer-title">Bảng trợ giúp học tập</strong>
+        <strong class="study-drawer-title">Trợ giúp học tập</strong>
       </div>
-      <button type="button" class="study-drawer-close-btn" onclick="closeAllStudyDrawers()" aria-label="Đóng bảng">✕</button>
+      <button type="button" class="study-drawer-close-btn" onclick="closeAllStudyDrawers()" aria-label="Đóng bảng trợ giúp" title="Đóng bảng (Esc)">✕</button>
     `;
     mount.insertBefore(header, mount.firstChild);
   }
 
-  const savedTab = localStorage.getItem('hsk_sidebar_tab') || 'stroke';
+  const saved = localStorage.getItem('hsk_sidebar_tab') || 'stroke';
+  const savedTab = saved === 'all' ? 'stroke' : saved;
 
   const nav = document.createElement('nav');
   nav.id = 'sidebarStudyTabs';
@@ -45,10 +46,6 @@ function initSidebarTabs() {
       <span class="sidebar-tab-icon">📈</span>
       <span class="sidebar-tab-label">Ghi nhớ</span>
     </button>
-    <button type="button" class="sidebar-study-tab sidebar-study-tab--all" data-tab="all" role="tab" aria-selected="false" title="Xem tất cả các thẻ cùng lúc">
-      <span class="sidebar-tab-icon">📑</span>
-      <span class="sidebar-tab-label">Tất cả</span>
-    </button>
   `;
 
   const headerEl = document.getElementById('studyWritingDrawerHeader');
@@ -59,7 +56,7 @@ function initSidebarTabs() {
   }
 
   function setActiveTab(tabKey, save = true) {
-    const validTabs = ['stroke', 'words', 'companion', 'curve', 'all'];
+    const validTabs = ['stroke', 'words', 'companion', 'curve'];
     const active = validTabs.includes(tabKey) ? tabKey : 'stroke';
     document.body.dataset.sidebarTab = active;
 
@@ -74,7 +71,7 @@ function initSidebarTabs() {
       renderStudyWordList();
     }
     if (active === 'stroke' && typeof renderActiveStrokeChar === 'function') {
-      setTimeout(() => renderActiveStrokeChar(true), 50);
+      setTimeout(() => renderActiveStrokeChar(false), 50);
     }
     if (typeof updateStudyDrawerButtons === 'function') {
       updateStudyDrawerButtons();
@@ -112,7 +109,7 @@ function initSidebarTabs() {
 
   const initialUrlDrawer = window.__initialStudyDrawerParam;
   if (initialUrlDrawer) {
-    const targetTab = ['stroke', 'words', 'companion', 'curve', 'all'].includes(initialUrlDrawer) ? initialUrlDrawer : savedTab;
+    const targetTab = ['stroke', 'words', 'companion', 'curve'].includes(initialUrlDrawer) ? initialUrlDrawer : savedTab;
     setActiveTab(targetTab, false);
     document.body.classList.add('study-sidebar-open');
     let openedOnce = false;

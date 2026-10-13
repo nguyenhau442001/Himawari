@@ -1,5 +1,6 @@
-// Right sidebar: Multi-character Hanzi Writer stroke-order canvas with side-by-side grids,
-// directional stroke arrows & numbers overlay, step-by-step stroke breakdown, and sequential quiz mode.
+// Right sidebar: Accessible, spacious, single-focus Hanzi stroke-order & writing studio.
+// Shows ONE large character canvas and ONE clear stroke number + directional arrow at a time.
+
 let currentStrokeWord = null;
 let currentStrokeChars = [];
 let strokeWriters = [];
@@ -7,10 +8,11 @@ let strokeCharDataMap = {};
 const globalCharDataCache = {};
 let lastRenderedTheme = document.documentElement.dataset.theme || '';
 let activeCharIndex = 0;
-let activeHighlightStrokeIdx = null;
+let activeStrokeIdx = 0;
 let isAnimatingSequential = false;
+let isQuizActive = false;
+let completedCharsMap = {};
 let animationStepTimer = null;
-let showStrokeGuides = localStorage.getItem('hsk_show_stroke_guides') !== 'false';
 
 function extractHanziCharacters(text) {
   if (!text || typeof text !== 'string') return [];
@@ -24,41 +26,23 @@ function getStrokeColors() {
     (!document.documentElement.dataset.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
   return {
     isDark,
-    strokeColor: isDark ? '#f3f4f6' : '#27272a',
+    strokeColor: isDark ? '#f1f5f9' : '#1e293b',
     radicalColor: isDark ? '#fb923c' : '#ea580c',
-    outlineColor: isDark ? '#343746' : '#e4e4e7',
-    completedStroke: isDark ? '#94a3b8' : '#71717a',
-    activeStroke: isDark ? '#fb923c' : '#ea580c',
-    arrowColor: isDark ? '#38bdf8' : '#0284c7',
-    activeArrowColor: isDark ? '#fde047' : '#d97706',
+    outlineColor: isDark ? '#2d3246' : '#e2e8f0',
   };
 }
 
-function getGridBoxSize(totalChars) {
-  const container = document.getElementById('strokeGridsContainer');
+function getGridBoxSize() {
   const panel = document.getElementById('strokeCanvasWrap');
-  const rawWidth = (container && container.clientWidth > 120)
-    ? container.clientWidth
-    : ((panel && panel.clientWidth > 140) ? panel.clientWidth - 28 : 340);
-
-  if (totalChars <= 1) {
-    return Math.min(188, Math.max(136, Math.floor(rawWidth * 0.62)));
-  }
-  if (totalChars === 2) {
-    return Math.min(162, Math.max(112, Math.floor((rawWidth - 16) / 2)));
-  }
-  if (totalChars === 3) {
-    return Math.min(108, Math.max(82, Math.floor((rawWidth - 20) / 3)));
-  }
-  return Math.min(148, Math.max(100, Math.floor((rawWidth - 16) / 2)));
+  const rawWidth = (panel && panel.clientWidth > 180) ? panel.clientWidth - 36 : 360;
+  return Math.min(248, Math.max(200, Math.floor(rawWidth * 0.72)));
 }
 
-// Classify basic Chinese stroke type from its 1024-space median points
+// Classify basic Chinese stroke type and provide clear Vietnamese directional instructions
 function classifyStrokeType(median) {
   if (!Array.isArray(median) || median.length < 2) {
-    return { symbol: '一', name: 'Nét cơ bản' };
+    return { symbol: '一', name: 'Nét cơ bản', hint: 'Kéo bút theo hướng mũi tên chỉ dẫn' };
   }
-  // Convert to screen-like coords (x right, y down)
   const pts = median.map(([x, y]) => [x, 900 - y]);
   let totalLen = 0;
   const segs = [];
@@ -71,7 +55,9 @@ function classifyStrokeType(median) {
       totalLen += len;
     }
   }
-  if (segs.length === 0) return { symbol: '丶', name: 'Chấm' };
+  if (segs.length === 0) {
+    return { symbol: '丶', name: 'Nét chấm', hint: 'Chấm nhẹ từ trên xuống phải ↘' };
+  }
 
   const start = pts[0];
   const end = pts[pts.length - 1];
@@ -80,8 +66,6 @@ function classifyStrokeType(median) {
   const directDist = Math.hypot(overallDx, overallDy);
   const overallAngle = Math.atan2(overallDy, overallDx) * 180 / Math.PI;
 
-  // Detect sharp turn / compound stroke (Zhe / Gou)
-  let maxTurn = 0;
   let firstMajorAngle = segs[0].angle;
   let accum = 0;
   for (let i = 0; i < segs.length; i++) {
@@ -101,56 +85,49 @@ function classifyStrokeType(median) {
 
   let diffAngle = Math.abs(lastMajorAngle - firstMajorAngle);
   if (diffAngle > 180) diffAngle = 360 - diffAngle;
-  maxTurn = diffAngle;
 
-  const isBent = (totalLen > directDist * 1.24 && totalLen > 180) || (maxTurn >= 52 && totalLen > 170);
+  const isBent = (totalLen > directDist * 1.24 && totalLen > 180) || (diffAngle >= 52 && totalLen > 170);
   if (isBent) {
     if (firstMajorAngle >= -28 && firstMajorAngle <= 32) {
-      return { symbol: '𠃍', name: 'Ngang gập' };
+      return { symbol: '𠃍', name: 'Nét ngang gập', hint: 'Kéo ngang sang phải rồi gập xuống ↴' };
     }
     if (firstMajorAngle >= 60 && firstMajorAngle <= 115) {
       if (lastMajorAngle < -30 || (overallDx < -20 && lastMajorAngle > 120)) {
-        return { symbol: '亅', name: 'Sổ móc' };
+        return { symbol: '亅', name: 'Nét sổ móc', hint: 'Kéo thẳng xuống rồi móc nhẹ lên ↵' };
       }
-      return { symbol: '∟', name: 'Sổ gập' };
+      return { symbol: '∟', name: 'Nét sổ gập', hint: 'Kéo thẳng xuống rồi gập sang phải ↳' };
     }
     if (firstMajorAngle > 115) {
-      return { symbol: 'ㄑ', name: 'Phiệt gập' };
+      return { symbol: 'ㄑ', name: 'Nét phiệt gập', hint: 'Kéo xiên xuống rồi gập sang phải ↳' };
     }
-    return { symbol: '𠃍', name: 'Nét gập' };
+    return { symbol: '𠃍', name: 'Nét gập', hint: 'Kéo theo đường chỉ dẫn rồi chuyển hướng ↴' };
   }
 
-  // Short diagonal stroke -> Dian (Chấm)
   if (totalLen < 210 && overallAngle > 12 && overallAngle < 88) {
-    return { symbol: '丶', name: 'Chấm' };
+    return { symbol: '丶', name: 'Nét chấm', hint: 'Chấm nhẹ từ trên xuống phải ↘' };
   }
-  // Horizontal (Heng)
   if (overallAngle >= -22 && overallAngle <= 22) {
-    return { symbol: '一', name: 'Ngang' };
+    return { symbol: '一', name: 'Nét ngang', hint: 'Kéo ngang từ trái sang phải →' };
   }
-  // Vertical (Shu)
   if (overallAngle >= 78 && overallAngle <= 98) {
-    return { symbol: '丨', name: 'Sổ' };
+    return { symbol: '丨', name: 'Nét sổ', hint: 'Kéo thẳng từ trên xuống dưới ↓' };
   }
-  // Rising up-right (Ti)
   if (overallAngle < -22 && overallAngle >= -78 && overallDx > 0) {
-    return { symbol: '㇀', name: 'Hất' };
+    return { symbol: '㇀', name: 'Nét hất', hint: 'Hất chéo từ dưới lên phải ↗' };
   }
-  // Down-left (Pie)
   if (overallAngle > 98 || overallAngle < -135) {
-    return { symbol: '丿', name: 'Phiệt' };
+    return { symbol: '丿', name: 'Nét phiệt', hint: 'Kéo xiên từ phải qua trái xuống ↙' };
   }
-  // Down-right (Na or Dian)
   if (overallAngle > 22 && overallAngle < 78) {
     return totalLen < 230
-      ? { symbol: '丶', name: 'Chấm' }
-      : { symbol: '㇏', name: 'Mác' };
+      ? { symbol: '丶', name: 'Nét chấm', hint: 'Chấm nhẹ từ trên xuống phải ↘' }
+      : { symbol: '㇏', name: 'Nét mác', hint: 'Kéo xiên từ trái qua phải xuống ↘' };
   }
-  return { symbol: '一', name: 'Nét vẽ' };
+  return { symbol: '一', name: 'Nét vẽ', hint: 'Kéo bút từ số thứ tự theo hướng mũi tên' };
 }
 
-// Compute trimmed polyline and arrowhead polygon in target SVG pixel space
-function computeMedianArrowGeometry(median, boxSize, padding, options = {}) {
+// Compute large, unmistakable directional arrow and start badge position for a single stroke
+function computeSingleStrokeGuideGeometry(median, boxSize, padding) {
   if (!Array.isArray(median) || median.length < 2) return null;
   const scale = (boxSize - 2 * padding) / 1024;
   const pts = median.map(([mx, my]) => [
@@ -158,22 +135,13 @@ function computeMedianArrowGeometry(median, boxSize, padding, options = {}) {
     padding + (900 - my) * scale
   ]);
 
-  // Compute cumulative lengths
   const cumLen = [0];
   for (let i = 1; i < pts.length; i++) {
     const d = Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]);
     cumLen.push(cumLen[i - 1] + d);
   }
   const totalLen = cumLen[cumLen.length - 1];
-  if (totalLen < 3) return null;
-
-  const isMini = Boolean(options.isMini);
-  const startTrim = isMini
-    ? Math.min(totalLen * 0.15, 4)
-    : Math.min(totalLen * 0.22, 11);
-  const endTrim = isMini
-    ? Math.min(totalLen * 0.12, 3.5)
-    : Math.min(totalLen * 0.14, 6);
+  if (totalLen < 4) return null;
 
   function pointAtLength(targetL) {
     const clamped = Math.max(0, Math.min(totalLen, targetL));
@@ -190,23 +158,17 @@ function computeMedianArrowGeometry(median, boxSize, padding, options = {}) {
     return pts[pts.length - 1];
   }
 
-  // Initial tangent direction at stroke start (for smart badge placement)
-  const startLookahead = pointAtLength(Math.min(totalLen * 0.35, 16));
-  let startUx = startLookahead[0] - pts[0][0];
-  let startUy = startLookahead[1] - pts[0][1];
-  const startNorm = Math.hypot(startUx, startUy) || 1;
-  startUx /= startNorm;
-  startUy /= startNorm;
+  const badgeRadius = 14;
+  const startTrim = Math.min(totalLen * 0.25, badgeRadius + 3);
+  const endTrim = Math.min(totalLen * 0.1, 6);
 
   const dStart = startTrim;
-  const dTip = Math.max(dStart + 2, totalLen - endTrim);
-  const arrowLen = isMini
-    ? Math.min(6.5, Math.max(4.2, totalLen * 0.34))
-    : Math.min(9.5, Math.max(6.2, totalLen * 0.3));
-  const arrowHalfWidth = arrowLen * 0.56;
+  const dTip = Math.max(dStart + 4, totalLen - endTrim);
+  const arrowLen = Math.min(14, Math.max(9.5, totalLen * 0.28));
+  const arrowHalfWidth = arrowLen * 0.58;
 
   const tipPt = pointAtLength(dTip);
-  const lookbackDist = Math.max(arrowLen * 1.15, isMini ? 5 : 9);
+  const lookbackDist = Math.max(arrowLen * 1.2, 12);
   const prevPt = pointAtLength(Math.max(0, dTip - lookbackDist));
 
   let ux = tipPt[0] - prevPt[0];
@@ -216,8 +178,6 @@ function computeMedianArrowGeometry(median, boxSize, padding, options = {}) {
   uy /= uNorm;
 
   const dLineEnd = Math.max(dStart + 1, dTip - arrowLen * 0.72);
-
-  // Sample points between dStart and dLineEnd
   const linePts = [pointAtLength(dStart)];
   for (let i = 1; i < pts.length - 1; i++) {
     if (cumLen[i] > dStart && cumLen[i] < dLineEnd) {
@@ -236,93 +196,120 @@ function computeMedianArrowGeometry(median, boxSize, padding, options = {}) {
   const polylineStr = linePts.map(p => `${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
   const arrowPolyStr = `${tipPt[0].toFixed(1)},${tipPt[1].toFixed(1)} ${leftX.toFixed(1)},${leftY.toFixed(1)} ${rightX.toFixed(1)},${rightY.toFixed(1)}`;
 
+  const bx = Math.max(badgeRadius + 3, Math.min(boxSize - badgeRadius - 3, pts[0][0]));
+  const by = Math.max(badgeRadius + 3, Math.min(boxSize - badgeRadius - 3, pts[0][1]));
+
   return {
-    startPt: pts[0],
-    lineStartPt: linePts[0],
-    tipPt,
+    bx,
+    by,
+    badgeRadius,
     polylineStr,
-    arrowPolyStr,
-    startUx,
-    startUy,
-    ux,
-    uy,
-    totalLen
+    arrowPolyStr
   };
 }
 
-// Render stroke order numbers and directional arrows overlay on a character grid
-function renderCharGuideOverlay(charIdx, highlightStrokeIdx = null) {
-  const target = document.getElementById(`strokeCanvasTarget_${charIdx}`);
+// Render ONE focused stroke's visuals + large number badge + bold directional arrow
+function renderFocusedStrokeOverlay() {
+  const target = document.getElementById('strokeSingleGridTarget');
   if (!target) return;
 
   const existing = target.querySelector('.stroke-guide-overlay');
   if (existing) existing.remove();
 
-  const charData = strokeCharDataMap[charIdx];
-  if (!charData || !Array.isArray(charData.medians) || charData.medians.length === 0) return;
+  const charData = strokeCharDataMap[activeCharIndex];
+  if (!charData || !Array.isArray(charData.strokes) || charData.strokes.length === 0) return;
 
-  if (!showStrokeGuides && highlightStrokeIdx === null) return;
+  const totalStrokes = charData.strokes.length;
+  const safeStrokeIdx = Math.max(0, Math.min(totalStrokes - 1, activeStrokeIdx ?? 0));
+  const boxSize = parseInt(target.style.getPropertyValue('--grid-box-size') || '0', 10) || getGridBoxSize();
+  const padding = Math.max(14, Math.round(boxSize * 0.08));
+  const scale = (boxSize - 2 * padding) / 1024;
+  const transformAttr = `translate(${padding.toFixed(2)}, ${(padding + 900 * scale).toFixed(2)}) scale(${scale.toFixed(5)}, ${(-scale).toFixed(5)})`;
 
-  const totalChars = currentStrokeChars.length;
-  const boxSize = parseInt(target.parentElement?.parentElement?.style.getPropertyValue('--grid-box-size') || '0', 10) || getGridBoxSize(totalChars);
-  const padding = Math.max(8, Math.round(boxSize * 0.07));
-  const isCompactGrid = boxSize < 120;
-  const badgeRadius = isCompactGrid ? 6.8 : 8.2;
-  const fontSize = isCompactGrid ? 8.5 : 10;
+  // In non-quiz mode, we render a crystal-clear custom stage showing:
+  // 1) All strokes in faint outline
+  // 2) Strokes 0 .. safeStrokeIdx-1 in completed solid ink
+  // 3) Current stroke safeStrokeIdx in vivid orange
+  let strokesStageHtml = '';
+  if (!isQuizActive) {
+    const ghostPaths = charData.strokes.map(p => `<path class="stage-stroke-ghost" d="${p}" />`).join('');
+    const donePaths = charData.strokes.slice(0, safeStrokeIdx).map(p => `<path class="stage-stroke-done" d="${p}" />`).join('');
+    const activePath = `<path class="stage-stroke-active" d="${charData.strokes[safeStrokeIdx]}" />`;
+    strokesStageHtml = `
+      <g class="stroke-stage-paths" transform="${transformAttr}">
+        ${ghostPaths}
+        ${donePaths}
+        ${activePath}
+      </g>
+    `;
+  }
 
-  const placedBadges = [];
-  let arrowsHtml = '';
-  let badgesHtml = '';
-
-  charData.medians.forEach((median, sIdx) => {
-    const geom = computeMedianArrowGeometry(median, boxSize, padding, { isMini: false });
-    if (!geom) return;
-
-    const isHighlighted = highlightStrokeIdx === sIdx;
-    const isDimmed = highlightStrokeIdx !== null && highlightStrokeIdx !== sIdx;
-    const stateClass = isHighlighted ? 'is-highlighted' : (isDimmed ? 'is-dimmed' : '');
-
-    // Directional path + arrowhead
-    arrowsHtml += `
-      <g class="stroke-guide-arrow-group ${stateClass}" data-stroke-index="${sIdx}">
+  // Render ONLY the current stroke's directional arrow and large number badge
+  const median = charData.medians ? charData.medians[safeStrokeIdx] : null;
+  const geom = computeSingleStrokeGuideGeometry(median, boxSize, padding);
+  let guideHtml = '';
+  if (geom) {
+    guideHtml = `
+      <g class="stroke-guide-arrow-group is-highlighted">
         <polyline class="stroke-guide-line-halo" points="${geom.polylineStr}" />
         <polyline class="stroke-guide-line" points="${geom.polylineStr}" />
         <polygon class="stroke-guide-arrowhead" points="${geom.arrowPolyStr}" />
       </g>
-    `;
-
-    // Position badge near start point along its initial stroke direction to avoid corner collisions
-    let bx = geom.startPt[0] + geom.startUx * 2.5;
-    let by = geom.startPt[1] + geom.startUy * 2.5;
-    const minSep = badgeRadius * 2.15;
-    for (let attempt = 0; attempt < 4; attempt++) {
-      const collision = placedBadges.find(p => Math.hypot(bx - p.x, by - p.y) < minSep);
-      if (!collision) break;
-      bx += geom.startUx * (badgeRadius * 1.85);
-      by += geom.startUy * (badgeRadius * 1.85);
-    }
-    bx = Math.max(badgeRadius + 2, Math.min(boxSize - badgeRadius - 2, bx));
-    by = Math.max(badgeRadius + 2, Math.min(boxSize - badgeRadius - 2, by));
-    placedBadges.push({ x: bx, y: by });
-
-    badgesHtml += `
-      <g class="stroke-guide-badge-group ${stateClass}" data-stroke-index="${sIdx}">
-        <circle class="stroke-guide-badge-circle" cx="${bx.toFixed(1)}" cy="${by.toFixed(1)}" r="${badgeRadius}" />
-        <text class="stroke-guide-badge-text" x="${bx.toFixed(1)}" y="${by.toFixed(1)}" font-size="${fontSize}">${sIdx + 1}</text>
+      <g class="stroke-guide-badge-group is-highlighted">
+        <circle class="stroke-guide-badge-circle" cx="${geom.bx.toFixed(1)}" cy="${geom.by.toFixed(1)}" r="${geom.badgeRadius}" />
+        <text class="stroke-guide-badge-text" x="${geom.bx.toFixed(1)}" y="${geom.by.toFixed(1)}" font-size="14.5">${safeStrokeIdx + 1}</text>
       </g>
     `;
-  });
+  }
 
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('class', 'stroke-guide-overlay');
+  svg.setAttribute('class', `stroke-guide-overlay${isQuizActive ? ' is-quiz-overlay' : ' is-stage-overlay'}`);
   svg.setAttribute('viewBox', `0 0 ${boxSize} ${boxSize}`);
   svg.setAttribute('aria-hidden', 'true');
-  svg.innerHTML = `${arrowsHtml}${badgesHtml}`;
+  svg.innerHTML = `${strokesStageHtml}${guideHtml}`;
   target.appendChild(svg);
 }
 
-// Render step-by-step stroke breakdown strip for the active character
-function renderStrokeOrderSteps(charIndex = activeCharIndex, highlightStrokeIdx = activeHighlightStrokeIdx) {
+// Render top character switcher bar (only shown if word has >= 2 characters)
+function renderCharacterSwitcherBar() {
+  const wrap = document.getElementById('strokeCharSwitcherWrap');
+  if (!wrap) return;
+
+  const totalChars = currentStrokeChars.length;
+  if (totalChars <= 1) {
+    wrap.hidden = true;
+    wrap.innerHTML = '';
+    return;
+  }
+
+  wrap.hidden = false;
+  wrap.innerHTML = currentStrokeChars.map((ch, idx) => {
+    const cData = strokeCharDataMap[idx];
+    const strokeCount = cData && Array.isArray(cData.strokes) ? `${cData.strokes.length} nét` : '';
+    const isDone = Boolean(completedCharsMap[idx]);
+    const isActive = idx === activeCharIndex;
+    return `
+      <button type="button" class="stroke-char-switch-btn${isActive ? ' active' : ''}${isDone ? ' is-done' : ''}" data-char-switch-idx="${idx}">
+        <span class="char-switch-num">${isDone ? '✓' : `${idx + 1}.`}</span>
+        <span class="char-switch-hanzi">${ch}</span>
+        ${strokeCount ? `<span class="char-switch-count">${strokeCount}</span>` : ''}
+      </button>
+    `;
+  }).join('');
+
+  wrap.querySelectorAll('[data-char-switch-idx]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const idx = parseInt(btn.getAttribute('data-char-switch-idx'), 10);
+      if (!Number.isNaN(idx) && idx !== activeCharIndex) {
+        selectCharacterAtIndex(idx, true);
+      }
+    });
+  });
+}
+
+// Render the spacious, large-print Stroke Stepper Card below the canvas
+function renderStrokeStepperCard() {
   const wrap = document.getElementById('strokeOrderStepsWrap');
   if (!wrap) return;
 
@@ -332,175 +319,110 @@ function renderStrokeOrderSteps(charIndex = activeCharIndex, highlightStrokeIdx 
     return;
   }
 
-  const safeCharIdx = Math.max(0, Math.min(currentStrokeChars.length - 1, charIndex));
-  const ch = currentStrokeChars[safeCharIdx];
-  const charData = strokeCharDataMap[safeCharIdx];
+  const ch = currentStrokeChars[activeCharIndex];
+  const charData = strokeCharDataMap[activeCharIndex];
 
   if (!charData || !Array.isArray(charData.strokes) || charData.strokes.length === 0) {
     wrap.hidden = false;
     wrap.innerHTML = `
-      <div class="stroke-steps-header">
-        <div class="stroke-steps-title-group">
-          <span class="stroke-steps-title">Thứ tự từng nét vẽ</span>
-        </div>
+      <div class="stroke-focus-card">
+        <div class="stroke-focus-loading">Đang tải dữ liệu nét chữ "${ch}"…</div>
       </div>
-      <div class="stroke-steps-loading">Đang tải thứ tự nét chữ "${ch}"…</div>
     `;
     return;
   }
 
   const totalStrokes = charData.strokes.length;
-  const miniSize = 64;
-  const miniPad = 5;
-  const miniScale = (miniSize - 2 * miniPad) / 1024;
-  const transformAttr = `translate(${miniPad.toFixed(2)}, ${(miniPad + 900 * miniScale).toFixed(2)}) scale(${miniScale.toFixed(5)}, ${(-miniScale).toFixed(5)})`;
-
-  // Character switcher tabs if multi-char word
-  let charTabsHtml = '';
-  if (currentStrokeChars.length > 1) {
-    charTabsHtml = `
-      <div class="stroke-steps-char-tabs" role="tablist" aria-label="Chọn chữ Hán xem chi tiết nét">
-        ${currentStrokeChars.map((c, idx) => {
-          const cData = strokeCharDataMap[idx];
-          const count = cData && Array.isArray(cData.strokes) ? `${cData.strokes.length} nét` : '';
-          return `
-            <button type="button" class="stroke-steps-char-tab${idx === safeCharIdx ? ' active' : ''}" data-step-char-idx="${idx}">
-              <span class="step-tab-num">${idx + 1}.</span>
-              <span class="step-tab-hanzi">${c}</span>
-              ${count ? `<span class="step-tab-count">${count}</span>` : ''}
-            </button>
-          `;
-        }).join('')}
-      </div>
-    `;
-  } else {
-    charTabsHtml = `<span class="stroke-steps-count-pill">${totalStrokes} nét</span>`;
-  }
-
-  const stepsCardsHtml = charData.strokes.map((strokePath, sIdx) => {
-    const median = charData.medians ? charData.medians[sIdx] : null;
-    const strokeInfo = classifyStrokeType(median);
-    const arrowGeom = computeMedianArrowGeometry(median, miniSize, miniPad, { isMini: true });
-    const isActiveStep = highlightStrokeIdx === sIdx;
-
-    // Ghost outline of all strokes
-    const bgPaths = charData.strokes.map(p => `<path class="mini-stroke-ghost" d="${p}" />`).join('');
-    // Completed strokes before sIdx
-    const donePaths = charData.strokes.slice(0, sIdx).map(p => `<path class="mini-stroke-done" d="${p}" />`).join('');
-    // Current stroke sIdx
-    const currPath = `<path class="mini-stroke-current" d="${strokePath}" />`;
-
-    const arrowSvg = arrowGeom ? `
-      <circle class="mini-stroke-start-dot" cx="${arrowGeom.startPt[0].toFixed(1)}" cy="${arrowGeom.startPt[1].toFixed(1)}" r="2.2" />
-      <polyline class="mini-stroke-arrow-line" points="${arrowGeom.polylineStr}" />
-      <polygon class="mini-stroke-arrow-head" points="${arrowGeom.arrowPolyStr}" />
-    ` : '';
-
-    return `
-      <button type="button" class="stroke-step-card${isActiveStep ? ' is-active' : ''}" data-char-idx="${safeCharIdx}" data-stroke-idx="${sIdx}" title="Nét ${sIdx + 1}: ${strokeInfo.name} (${strokeInfo.symbol}) — Bấm để xem trên ô lớn">
-        <div class="stroke-step-card-head">
-          <span class="stroke-step-num">${sIdx + 1}</span>
-          <span class="stroke-step-type">${strokeInfo.symbol} ${strokeInfo.name}</span>
-        </div>
-        <div class="stroke-step-mini-grid">
-          <svg viewBox="0 0 ${miniSize} ${miniSize}" aria-hidden="true">
-            <g transform="${transformAttr}">
-              ${bgPaths}
-              ${donePaths}
-              ${currPath}
-            </g>
-            ${arrowSvg}
-          </svg>
-        </div>
-      </button>
-    `;
-  }).join('');
+  const safeStrokeIdx = Math.max(0, Math.min(totalStrokes - 1, activeStrokeIdx ?? 0));
+  const median = charData.medians ? charData.medians[safeStrokeIdx] : null;
+  const strokeInfo = classifyStrokeType(median);
+  const progressPct = Math.round(((safeStrokeIdx + 1) / totalStrokes) * 100);
 
   wrap.hidden = false;
   wrap.innerHTML = `
-    <div class="stroke-steps-header">
-      <div class="stroke-steps-title-group">
-        <span class="stroke-steps-title">Thứ tự nét &amp; Hướng kéo bút</span>
-        <span class="stroke-steps-subtitle">Chạm từng bước để soi nét &amp; mũi tên</span>
+    <div class="stroke-focus-card">
+      <div class="stroke-focus-top">
+        <div class="stroke-focus-badge-pill">Nét ${safeStrokeIdx + 1} / ${totalStrokes}</div>
+        <div class="stroke-focus-name">
+          <span class="stroke-focus-symbol">${strokeInfo.symbol}</span>
+          <strong>${strokeInfo.name}</strong>
+        </div>
       </div>
-      ${charTabsHtml}
-    </div>
-    <div class="stroke-steps-grid" id="strokeStepsGrid">
-      ${stepsCardsHtml}
+      <div class="stroke-focus-hint">${strokeInfo.hint}</div>
+      <div class="stroke-focus-progress-track" aria-hidden="true">
+        <div class="stroke-focus-progress-fill" style="width: ${progressPct}%"></div>
+      </div>
+      <div class="stroke-focus-nav">
+        <button type="button" class="stroke-step-nav-btn" id="strokePrevStepBtn" ${safeStrokeIdx <= 0 ? 'disabled' : ''}>
+          ◀ Nét trước
+        </button>
+        <button type="button" class="stroke-step-nav-btn" id="strokeNextStepBtn" ${safeStrokeIdx >= totalStrokes - 1 ? 'disabled' : ''}>
+          Nét tiếp ▶
+        </button>
+      </div>
     </div>
   `;
 
-  // Bind character switcher tabs inside steps header
-  wrap.querySelectorAll('[data-step-char-idx]').forEach(btn => {
-    btn.addEventListener('click', (e) => {
+  const prevBtn = wrap.querySelector('#strokePrevStepBtn');
+  const nextBtn = wrap.querySelector('#strokeNextStepBtn');
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const idx = parseInt(btn.getAttribute('data-step-char-idx'), 10);
-      if (!Number.isNaN(idx)) {
-        setActiveCharacterFocus(idx, null);
-      }
+      stepStrokeBy(-1);
     });
-  });
-
-  // Bind step card click to highlight that exact stroke + arrow on the main grid
-  wrap.querySelectorAll('.stroke-step-card').forEach(card => {
-    card.addEventListener('click', (e) => {
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const cIdx = parseInt(card.getAttribute('data-char-idx'), 10);
-      const sIdx = parseInt(card.getAttribute('data-stroke-idx'), 10);
-      if (!Number.isNaN(cIdx) && !Number.isNaN(sIdx)) {
-        const nextStroke = (activeCharIndex === cIdx && activeHighlightStrokeIdx === sIdx) ? null : sIdx;
-        setActiveCharacterFocus(cIdx, nextStroke);
-      }
+      stepStrokeBy(1);
     });
-  });
-}
-
-function setActiveCharacterFocus(charIdx, highlightStrokeIdx = null) {
-  activeCharIndex = charIdx;
-  activeHighlightStrokeIdx = highlightStrokeIdx;
-
-  currentStrokeChars.forEach((c, idx) => {
-    const wrap = document.getElementById(`strokeGridWrapper_${idx}`);
-    if (wrap) wrap.classList.toggle('is-active', idx === charIdx);
-    renderCharGuideOverlay(idx, idx === charIdx ? highlightStrokeIdx : null);
-  });
-
-  renderInstructionText(charIdx);
-  renderStrokeOrderSteps(charIdx, highlightStrokeIdx);
-
-  if (highlightStrokeIdx !== null) {
-    const charData = strokeCharDataMap[charIdx];
-    const ch = currentStrokeChars[charIdx];
-    const median = charData?.medians?.[highlightStrokeIdx];
-    const strokeInfo = classifyStrokeType(median);
-    const statusWrap = document.getElementById('strokeQuizStatusWrap');
-    if (statusWrap) {
-      statusWrap.hidden = false;
-      statusWrap.innerHTML = `
-        <div class="stroke-status-live">
-          🧭 Chữ <strong>"${ch}"</strong> · <strong>Nét ${highlightStrokeIdx + 1}/${charData?.strokes?.length || '?'}</strong>: ${strokeInfo.symbol} ${strokeInfo.name} (theo hướng mũi tên)
-        </div>
-      `;
-    }
   }
 }
 
-function destroyStrokeCanvasWriters() {
+function stepStrokeBy(delta) {
+  stopSequentialAnimation();
+  if (isQuizActive) {
+    cancelActiveQuiz();
+  }
+  const charData = strokeCharDataMap[activeCharIndex];
+  if (!charData || !Array.isArray(charData.strokes)) return;
+  const total = charData.strokes.length;
+  activeStrokeIdx = Math.max(0, Math.min(total - 1, (activeStrokeIdx ?? 0) + delta));
+  renderFocusedStrokeOverlay();
+  renderStrokeStepperCard();
+}
+
+function stopSequentialAnimation() {
   if (animationStepTimer) {
     clearTimeout(animationStepTimer);
     animationStepTimer = null;
   }
-  strokeWriters.forEach(writer => {
-    if (writer) {
-      try {
-        if (typeof writer.cancelQuiz === 'function') writer.cancelQuiz();
-      } catch (e) {}
+  isAnimatingSequential = false;
+  const animateBtn = document.getElementById('strokeAnimateBtn');
+  if (animateBtn) animateBtn.classList.remove('active');
+}
+
+function cancelActiveQuiz() {
+  isQuizActive = false;
+  strokeWriters.forEach(w => {
+    if (w && typeof w.cancelQuiz === 'function') {
+      try { w.cancelQuiz(); } catch (e) {}
     }
   });
+  const target = document.getElementById('strokeSingleGridTarget');
+  if (target) target.classList.remove('is-quiz-mode');
+  const quizBtn = document.getElementById('strokeQuizBtn');
+  if (quizBtn) quizBtn.classList.remove('active');
+}
+
+function destroyStrokeCanvasWriters() {
+  stopSequentialAnimation();
+  cancelActiveQuiz();
   strokeWriters = [];
   strokeCharDataMap = {};
-  activeHighlightStrokeIdx = null;
-  isAnimatingSequential = false;
+  completedCharsMap = {};
+  activeStrokeIdx = 0;
 
   const container = document.getElementById('strokeGridsContainer');
   if (container) container.innerHTML = '';
@@ -516,62 +438,87 @@ function destroyStrokeCanvasWriters() {
     statusWrap.hidden = true;
     statusWrap.innerHTML = '';
   }
-
-  const animateBtn = document.getElementById('strokeAnimateBtn');
-  const quizBtn = document.getElementById('strokeQuizBtn');
-  if (animateBtn) animateBtn.classList.remove('active');
-  if (quizBtn) quizBtn.classList.remove('active');
 }
 
-function renderInstructionText(highlightIndex = null) {
-  const box = document.getElementById('strokeInstructionBox');
-  if (!box) return;
+function createWriterForActiveChar() {
+  const target = document.getElementById('strokeSingleGridTarget');
+  if (!target || typeof HanziWriter === 'undefined') return;
 
-  const total = currentStrokeChars.length;
-  if (total === 0) {
-    box.hidden = true;
-    return;
-  }
-  box.hidden = false;
+  // Cancel any previous writer
+  strokeWriters.forEach(w => {
+    if (w && typeof w.cancelQuiz === 'function') {
+      try { w.cancelQuiz(); } catch (e) {}
+    }
+  });
+  strokeWriters = [];
+  target.innerHTML = '';
 
-  const activeIdx = highlightIndex !== null ? highlightIndex : activeCharIndex;
+  const charIdxSnapshot = activeCharIndex;
+  const ch = currentStrokeChars[charIdxSnapshot];
+  if (!ch) return;
 
-  if (total <= 1) {
-    const cData = strokeCharDataMap[0];
-    const strokeCountText = cData && Array.isArray(cData.strokes) ? `${cData.strokes.length} nét vẽ` : 'Thứ tự chuẩn';
-    box.innerHTML = `
-      <div class="stroke-order-seq">
-        <span class="stroke-seq-chip is-current">${currentStrokeChars[0]} · ${strokeCountText}</span>
-      </div>
-      <span class="stroke-tip-badge">💡 Chạm ô chữ để luyện viết</span>
-    `;
-    return;
-  }
+  const boxSize = getGridBoxSize();
+  target.style.setProperty('--grid-box-size', `${boxSize}px`);
+  const colors = getStrokeColors();
+  const padding = Math.max(14, Math.round(boxSize * 0.08));
 
-  const seqHtml = currentStrokeChars.map((ch, idx) => {
-    const checkEl = document.getElementById(`strokeGridCheck_${idx}`);
-    const isCompleted = checkEl && !checkEl.hidden;
-    const isCurrent = activeIdx === idx;
-    let cls = 'stroke-seq-chip';
-    if (isCompleted) cls += ' is-done';
-    if (isCurrent) cls += ' is-current';
-    return `<button type="button" class="${cls}" data-seq-char-idx="${idx}" title="Chọn chữ ${ch}">${isCompleted ? '✓ ' : `${idx + 1}. `}${ch}</button>`;
-  }).join('<span class="stroke-seq-arrow">→</span>');
-
-  box.innerHTML = `
-    <div class="stroke-order-seq">${seqHtml}</div>
-    <span class="stroke-tip-badge" title="Bấm trực tiếp vào ô chữ để luyện viết">💡 Chạm ô chữ để viết</span>
-  `;
-
-  box.querySelectorAll('[data-seq-char-idx]').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const idx = parseInt(btn.getAttribute('data-seq-char-idx'), 10);
-      if (!Number.isNaN(idx)) {
-        setActiveCharacterFocus(idx, null);
+  try {
+    const writer = HanziWriter.create('strokeSingleGridTarget', ch, {
+      width: boxSize,
+      height: boxSize,
+      padding,
+      showOutline: true,
+      strokeColor: colors.strokeColor,
+      radicalColor: colors.radicalColor,
+      outlineColor: colors.outlineColor,
+      showHintAfterMisses: 1,
+      highlightOnComplete: true,
+      onLoadCharDataSuccess: function(charData) {
+        globalCharDataCache[ch] = charData;
+        if (currentStrokeChars[charIdxSnapshot] !== ch) return;
+        strokeCharDataMap[charIdxSnapshot] = charData;
+        renderCharacterSwitcherBar();
+        if (activeCharIndex === charIdxSnapshot) {
+          renderFocusedStrokeOverlay();
+          renderStrokeStepperCard();
+        }
       }
     });
-  });
+    strokeWriters[charIdxSnapshot] = writer;
+  } catch (err) {
+    console.warn('HanziWriter init error for character', ch, err);
+  }
+
+  if (globalCharDataCache[ch]) {
+    strokeCharDataMap[charIdxSnapshot] = globalCharDataCache[ch];
+    renderCharacterSwitcherBar();
+    renderFocusedStrokeOverlay();
+    renderStrokeStepperCard();
+  }
+}
+
+function selectCharacterAtIndex(charIdx, autoAnimate = false) {
+  if (!currentStrokeChars || charIdx < 0 || charIdx >= currentStrokeChars.length) return;
+  stopSequentialAnimation();
+  cancelActiveQuiz();
+
+  activeCharIndex = charIdx;
+  activeStrokeIdx = 0;
+
+  renderCharacterSwitcherBar();
+  createWriterForActiveChar();
+  renderFocusedStrokeOverlay();
+  renderStrokeStepperCard();
+
+  const statusWrap = document.getElementById('strokeQuizStatusWrap');
+  if (statusWrap) {
+    statusWrap.hidden = true;
+    statusWrap.innerHTML = '';
+  }
+
+  if (autoAnimate) {
+    animateStrokeCanvas();
+  }
 }
 
 function renderStrokeGrids(autoAnimate = true) {
@@ -586,7 +533,7 @@ function renderStrokeGrids(autoAnimate = true) {
   if (totalChars === 0) {
     fallback.hidden = false;
     fallback.textContent = 'Từ này không có chữ Hán để luyện viết.';
-    renderInstructionText();
+    renderCharacterSwitcherBar();
     syncStrokeCanvasControls();
     return;
   }
@@ -605,92 +552,55 @@ function renderStrokeGrids(autoAnimate = true) {
         fallback.textContent = 'Không thể tải thư viện viết chữ (HanziWriter). Vui lòng kiểm tra kết nối mạng.';
       }
     }, 100);
-    renderInstructionText();
     syncStrokeCanvasControls();
     return;
   }
 
-  const boxSize = getGridBoxSize(totalChars);
-  container.className = `stroke-grids-container chars-${Math.min(totalChars, 4)}`;
-  container.style.setProperty('--grid-box-size', `${boxSize}px`);
-
-  currentStrokeChars.forEach((ch, idx) => {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'stroke-grid-wrapper' + (idx === 0 ? ' is-active' : '');
-    wrapper.id = `strokeGridWrapper_${idx}`;
-    wrapper.innerHTML = `
-      <div class="stroke-canvas-grid" id="strokeCanvasTarget_${idx}" data-char-index="${idx}" title="Bấm vào ô để tự luyện viết chữ '${ch}'"></div>
-      <div class="stroke-grid-footer">
-        <span class="stroke-grid-num">${idx + 1}.</span>
-        <span class="stroke-grid-char">${ch}</span>
-        <span class="stroke-grid-stroke-count" id="strokeGridCount_${idx}"></span>
-        <span class="stroke-grid-check" id="strokeGridCheck_${idx}" hidden>✓</span>
-      </div>
-    `;
-    container.appendChild(wrapper);
-
-    const target = wrapper.querySelector('.stroke-canvas-grid');
-    target.addEventListener('click', (e) => {
-      e.stopPropagation();
-      startQuizOnChar(idx, true);
-    });
-  });
-
   const colors = getStrokeColors();
   lastRenderedTheme = document.documentElement.dataset.theme || (colors.isDark ? 'dark' : 'light');
-  const padding = Math.max(8, Math.round(boxSize * 0.07));
 
-  currentStrokeChars.forEach((ch, idx) => {
-    try {
-      const handleCharDataLoaded = (charData) => {
-        if (!charData) return;
-        globalCharDataCache[ch] = charData;
-        strokeCharDataMap[idx] = charData;
-        const countEl = document.getElementById(`strokeGridCount_${idx}`);
-        if (countEl && Array.isArray(charData.strokes)) {
-          countEl.textContent = `(${charData.strokes.length} nét)`;
-        }
-        renderCharGuideOverlay(idx, idx === activeCharIndex ? activeHighlightStrokeIdx : null);
-        renderInstructionText(activeCharIndex);
-        if (idx === activeCharIndex) {
-          renderStrokeOrderSteps(activeCharIndex, activeHighlightStrokeIdx);
-        }
-      };
+  const boxSize = getGridBoxSize();
+  container.className = 'stroke-grids-container is-single-stage';
+  container.innerHTML = `
+    <div class="stroke-single-stage-wrap">
+      <div class="stroke-canvas-grid is-large-stage" id="strokeSingleGridTarget" style="--grid-box-size: ${boxSize}px" title="Chạm vào ô chữ để bắt đầu tự luyện viết"></div>
+    </div>
+  `;
 
-      if (globalCharDataCache[ch]) {
-        handleCharDataLoaded(globalCharDataCache[ch]);
+  const target = document.getElementById('strokeSingleGridTarget');
+  if (target) {
+    target.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (!isQuizActive) {
+        startQuizOnChar(activeCharIndex, true);
       }
+    });
+  }
 
-      const writer = HanziWriter.create(`strokeCanvasTarget_${idx}`, ch, {
-        width: boxSize,
-        height: boxSize,
-        padding,
-        showOutline: true,
-        strokeColor: colors.strokeColor,
-        radicalColor: colors.radicalColor,
-        outlineColor: colors.outlineColor,
-        showHintAfterMisses: 2,
-        highlightOnComplete: true,
-        onLoadCharDataSuccess: handleCharDataLoaded,
-        onLoadCharDataError: function() {
-          const wrap = document.getElementById(`strokeGridWrapper_${idx}`);
-          if (wrap) {
-            wrap.classList.add('has-error');
-            const target = wrap.querySelector('.stroke-canvas-grid');
-            if (target && !target.querySelector('svg')) {
-              target.innerHTML = `<span style="font-size:${Math.round(boxSize * 0.45)}px; font-weight:700; color:var(--text-primary);">${ch}</span>`;
+  // Preload character data for all characters in the word so stroke counts appear on tabs
+  currentStrokeChars.forEach((ch, idx) => {
+    if (globalCharDataCache[ch]) {
+      strokeCharDataMap[idx] = globalCharDataCache[ch];
+    } else if (typeof HanziWriter.loadCharacterData === 'function') {
+      HanziWriter.loadCharacterData(ch).then(data => {
+        if (data) {
+          globalCharDataCache[ch] = data;
+          if (currentStrokeChars[idx] === ch) {
+            strokeCharDataMap[idx] = data;
+            renderCharacterSwitcherBar();
+            if (idx === activeCharIndex) {
+              renderFocusedStrokeOverlay();
+              renderStrokeStepperCard();
             }
           }
         }
-      });
-      strokeWriters[idx] = writer;
-    } catch (err) {
-      console.warn('HanziWriter init error for character', ch, err);
+      }).catch(() => {});
     }
   });
 
-  renderInstructionText();
-  renderStrokeOrderSteps(0, null);
+  createWriterForActiveChar();
+  renderCharacterSwitcherBar();
+  renderStrokeStepperCard();
   syncStrokeCanvasControls();
 
   if (autoAnimate) {
@@ -698,106 +608,91 @@ function renderStrokeGrids(autoAnimate = true) {
   }
 }
 
-function startQuizOnChar(charIndex, isManual = false) {
+function startQuizOnChar(charIndex = activeCharIndex, isManual = false) {
   if (!currentStrokeChars || charIndex < 0 || charIndex >= currentStrokeChars.length) return;
+  stopSequentialAnimation();
+
+  if (charIndex !== activeCharIndex || !strokeWriters[charIndex]) {
+    activeCharIndex = charIndex;
+    createWriterForActiveChar();
+  }
+
   const writer = strokeWriters[charIndex];
   if (!writer) return;
 
-  if (animationStepTimer) {
-    clearTimeout(animationStepTimer);
-    animationStepTimer = null;
-  }
+  isQuizActive = true;
+  activeStrokeIdx = 0;
 
-  strokeWriters.forEach((w, idx) => {
-    if (idx !== charIndex && w && typeof w.cancelQuiz === 'function') {
-      try { w.cancelQuiz(); } catch (e) {}
-    }
-  });
-  isAnimatingSequential = false;
-  activeCharIndex = charIndex;
-  activeHighlightStrokeIdx = 0;
-
-  currentStrokeChars.forEach((ch, idx) => {
-    const wrap = document.getElementById(`strokeGridWrapper_${idx}`);
-    const target = document.getElementById(`strokeCanvasTarget_${idx}`);
-    if (wrap) wrap.classList.toggle('is-active', idx === charIndex);
-    if (target) target.classList.toggle('is-quiz-mode', idx === charIndex);
-    renderCharGuideOverlay(idx, idx === charIndex ? 0 : null);
-  });
+  const target = document.getElementById('strokeSingleGridTarget');
+  if (target) target.classList.add('is-quiz-mode');
 
   const quizBtn = document.getElementById('strokeQuizBtn');
   const animateBtn = document.getElementById('strokeAnimateBtn');
   if (quizBtn) quizBtn.classList.add('active');
   if (animateBtn) animateBtn.classList.remove('active');
 
+  renderCharacterSwitcherBar();
+  renderFocusedStrokeOverlay();
+  renderStrokeStepperCard();
+
   const currentChar = currentStrokeChars[charIndex];
   const total = currentStrokeChars.length;
-
-  renderInstructionText(charIndex);
-  renderStrokeOrderSteps(charIndex, 0);
-
   const statusWrap = document.getElementById('strokeQuizStatusWrap');
   if (statusWrap) {
     statusWrap.hidden = false;
     statusWrap.innerHTML = `
       <div class="stroke-status-live">
-        ✍️ Hãy kéo <strong>Nét 1</strong> của chữ <strong>"${currentChar}"</strong> (${charIndex + 1}/${total}) theo hướng mũi tên!
+        ✍️ Hãy kéo <strong>Nét 1</strong> của chữ <strong>"${currentChar}"</strong> theo mũi tên trên ô chữ!
       </div>
     `;
   }
 
   writer.quiz({
     onMistake: (strokeData) => {
-      const nextStrokeIdx = strokeData ? strokeData.strokeNum : activeHighlightStrokeIdx;
-      activeHighlightStrokeIdx = nextStrokeIdx;
-      renderCharGuideOverlay(charIndex, nextStrokeIdx);
-      renderStrokeOrderSteps(charIndex, nextStrokeIdx);
+      const nextStrokeIdx = strokeData ? strokeData.strokeNum : activeStrokeIdx;
+      activeStrokeIdx = nextStrokeIdx;
+      renderFocusedStrokeOverlay();
+      renderStrokeStepperCard();
 
       const statusEl = document.querySelector('.stroke-status-live');
       if (statusEl) {
-        statusEl.innerHTML = `<span style="color:var(--danger-text)">Nét ${(nextStrokeIdx ?? 0) + 1} chữ "${currentChar}" chưa chuẩn. Hãy kéo theo mũi tên hướng dẫn!</span>`;
+        statusEl.innerHTML = `<span style="color:var(--danger-text)">Nét ${(nextStrokeIdx ?? 0) + 1} chưa chuẩn. Hãy kéo bút theo đúng chiều mũi tên!</span>`;
       }
     },
     onCorrectStroke: (strokeData) => {
       const nextStrokeIdx = strokeData.strokeNum + 1;
       const totalStrokes = strokeCharDataMap[charIndex]?.strokes?.length || 0;
-      activeHighlightStrokeIdx = nextStrokeIdx < totalStrokes ? nextStrokeIdx : null;
-      renderCharGuideOverlay(charIndex, activeHighlightStrokeIdx);
-      renderStrokeOrderSteps(charIndex, activeHighlightStrokeIdx);
+      activeStrokeIdx = nextStrokeIdx < totalStrokes ? nextStrokeIdx : totalStrokes - 1;
+      renderFocusedStrokeOverlay();
+      renderStrokeStepperCard();
 
       const statusEl = document.querySelector('.stroke-status-live');
-      if (statusEl) {
-        statusEl.innerHTML = `<span style="color:var(--success-text)">✓ Đúng nét ${strokeData.strokeNum + 1}/${totalStrokes} chữ "${currentChar}"! ${activeHighlightStrokeIdx !== null ? `Tiếp tục nét ${activeHighlightStrokeIdx + 1}…` : ''}</span>`;
+      if (statusEl && nextStrokeIdx < totalStrokes) {
+        statusEl.innerHTML = `<span style="color:var(--success-text)">✓ Chính xác! Tiếp tục <strong>Nét ${nextStrokeIdx + 1} / ${totalStrokes}</strong>…</span>`;
       }
     },
     onComplete: (summary) => {
       const mistakes = summary ? (summary.totalMistakes || 0) : 0;
-      const mistakesText = mistakes === 0 ? 'hoàn hảo' : `${mistakes} lỗi sai`;
-      activeHighlightStrokeIdx = null;
-      renderCharGuideOverlay(charIndex, null);
-      renderStrokeOrderSteps(charIndex, null);
-
-      const checkEl = document.getElementById(`strokeGridCheck_${charIndex}`);
-      if (checkEl) checkEl.hidden = false;
-      const wrap = document.getElementById(`strokeGridWrapper_${charIndex}`);
-      if (wrap) wrap.classList.add('is-completed');
-      const target = document.getElementById(`strokeCanvasTarget_${charIndex}`);
+      const mistakesText = mistakes === 0 ? 'Hoàn hảo' : `${mistakes} lần lệch nét`;
+      completedCharsMap[charIndex] = true;
+      isQuizActive = false;
       if (target) target.classList.remove('is-quiz-mode');
 
-      renderInstructionText(charIndex);
+      renderCharacterSwitcherBar();
+      renderFocusedStrokeOverlay();
 
       if (charIndex < total - 1) {
         const nextChar = currentStrokeChars[charIndex + 1];
         if (statusWrap) {
           statusWrap.innerHTML = `
             <div class="stroke-status-next">
-              🎉 Xong chữ <strong>"${currentChar}"</strong> (${mistakesText})! Đang chuyển sang chữ <strong>"${nextChar}"</strong> (${charIndex + 2}/${total})…
+              🎉 Xong chữ <strong>"${currentChar}"</strong> (${mistakesText})! Đang chuyển sang chữ <strong>"${nextChar}"</strong>…
             </div>
           `;
         }
         setTimeout(() => {
           startQuizOnChar(charIndex + 1, false);
-        }, 600);
+        }, 700);
       } else {
         if (quizBtn) quizBtn.classList.remove('active');
         if (statusWrap) {
@@ -805,7 +700,7 @@ function startQuizOnChar(charIndex, isManual = false) {
           statusWrap.innerHTML = `
             <div class="stroke-status-success">
               <div class="stroke-status-success-title">
-                🎉 Xuất sắc! Bạn đã viết xong từ <strong>"${wordText}"</strong> (${total} chữ Hán)!
+                🎉 Xuất sắc! Bạn đã luyện viết xong từ <strong>"${wordText}"</strong>!
               </div>
               <button type="button" class="stroke-restart-btn" id="strokeRestartQuizBtn">
                 ↺ Luyện viết lại từ đầu
@@ -816,12 +711,7 @@ function startQuizOnChar(charIndex, isManual = false) {
           if (restartBtn) {
             restartBtn.addEventListener('click', (e) => {
               e.stopPropagation();
-              currentStrokeChars.forEach((ch, idx) => {
-                const c = document.getElementById(`strokeGridCheck_${idx}`);
-                if (c) c.hidden = true;
-                const w = document.getElementById(`strokeGridWrapper_${idx}`);
-                if (w) w.classList.remove('is-completed');
-              });
+              completedCharsMap = {};
               startQuizOnChar(0, true);
             });
           }
@@ -831,24 +721,14 @@ function startQuizOnChar(charIndex, isManual = false) {
   });
 }
 
+// Step-by-step clear animation showing ONE stroke + number + arrow at a time
 function animateStrokeCanvas() {
-  if (!strokeWriters || strokeWriters.length === 0) return;
+  if (!currentStrokeChars || currentStrokeChars.length === 0) return;
 
-  if (animationStepTimer) {
-    clearTimeout(animationStepTimer);
-    animationStepTimer = null;
-  }
-
-  strokeWriters.forEach((w, idx) => {
-    if (w && typeof w.cancelQuiz === 'function') {
-      try { w.cancelQuiz(); } catch (e) {}
-    }
-    const target = document.getElementById(`strokeCanvasTarget_${idx}`);
-    if (target) target.classList.remove('is-quiz-mode');
-  });
+  stopSequentialAnimation();
+  cancelActiveQuiz();
 
   isAnimatingSequential = true;
-  activeHighlightStrokeIdx = null;
   const animateBtn = document.getElementById('strokeAnimateBtn');
   const quizBtn = document.getElementById('strokeQuizBtn');
   if (animateBtn) animateBtn.classList.add('active');
@@ -856,84 +736,50 @@ function animateStrokeCanvas() {
 
   const statusWrap = document.getElementById('strokeQuizStatusWrap');
   if (statusWrap) {
-    statusWrap.hidden = false;
-    statusWrap.innerHTML = `
-      <div class="stroke-status-live">
-        ▶ Đang diễn họa thứ tự nét chữ…
-      </div>
-    `;
+    statusWrap.hidden = true;
+    statusWrap.innerHTML = '';
   }
 
-  function playChar(idx) {
+  function stepThroughCharStrokes(charIdx, strokeIdx) {
     if (!isAnimatingSequential) return;
-    if (idx >= strokeWriters.length) {
-      isAnimatingSequential = false;
-      activeHighlightStrokeIdx = null;
-      if (animateBtn) animateBtn.classList.remove('active');
-      currentStrokeChars.forEach((_, i) => renderCharGuideOverlay(i, null));
-      renderStrokeOrderSteps(activeCharIndex, null);
-      if (statusWrap) {
-        statusWrap.innerHTML = `
-          <div class="stroke-status-live">
-            ✨ Diễn họa hoàn tất · Chạm ô chữ hoặc từng bước bên dưới để xem hướng nét
-          </div>
-        `;
-      }
-      renderInstructionText(activeCharIndex);
+
+    if (charIdx !== activeCharIndex) {
+      activeCharIndex = charIdx;
+      createWriterForActiveChar();
+      renderCharacterSwitcherBar();
+    }
+
+    const charData = strokeCharDataMap[charIdx];
+    if (!charData || !Array.isArray(charData.strokes) || charData.strokes.length === 0) {
+      // Wait briefly if character data is still loading
+      animationStepTimer = setTimeout(() => stepThroughCharStrokes(charIdx, strokeIdx), 150);
       return;
     }
 
-    activeCharIndex = idx;
-    const writer = strokeWriters[idx];
-    const ch = currentStrokeChars[idx];
-    currentStrokeChars.forEach((c, i) => {
-      const wrap = document.getElementById(`strokeGridWrapper_${i}`);
-      if (wrap) wrap.classList.toggle('is-active', i === idx);
-      renderCharGuideOverlay(i, null);
-    });
-
-    renderInstructionText(idx);
-    renderStrokeOrderSteps(idx, null);
-
-    if (statusWrap) {
-      statusWrap.innerHTML = `
-        <div class="stroke-status-live">
-          ▶ Đang diễn họa nét chữ <strong>"${ch}"</strong> (${idx + 1}/${strokeWriters.length})…
-        </div>
-      `;
+    const totalStrokes = charData.strokes.length;
+    if (strokeIdx >= totalStrokes) {
+      // Finished this character
+      if (charIdx < currentStrokeChars.length - 1) {
+        animationStepTimer = setTimeout(() => {
+          stepThroughCharStrokes(charIdx + 1, 0);
+        }, 550);
+      } else {
+        isAnimatingSequential = false;
+        if (animateBtn) animateBtn.classList.remove('active');
+      }
+      return;
     }
 
-    if (writer && typeof writer.animateCharacter === 'function') {
-      writer.animateCharacter({
-        onComplete: () => {
-          if (isAnimatingSequential) {
-            animationStepTimer = setTimeout(() => playChar(idx + 1), 220);
-          }
-        }
-      });
-    } else {
-      playChar(idx + 1);
-    }
+    activeStrokeIdx = strokeIdx;
+    renderFocusedStrokeOverlay();
+    renderStrokeStepperCard();
+
+    animationStepTimer = setTimeout(() => {
+      stepThroughCharStrokes(charIdx, strokeIdx + 1);
+    }, 780);
   }
 
-  playChar(0);
-}
-
-function toggleStrokeGuides() {
-  showStrokeGuides = !showStrokeGuides;
-  try {
-    localStorage.setItem('hsk_show_stroke_guides', showStrokeGuides ? 'true' : 'false');
-  } catch (e) {}
-
-  const guideBtn = document.getElementById('strokeGuideToggleBtn');
-  if (guideBtn) {
-    guideBtn.classList.toggle('active', showStrokeGuides);
-    guideBtn.setAttribute('aria-pressed', showStrokeGuides ? 'true' : 'false');
-  }
-
-  currentStrokeChars.forEach((_, idx) => {
-    renderCharGuideOverlay(idx, idx === activeCharIndex ? activeHighlightStrokeIdx : null);
-  });
+  stepThroughCharStrokes(activeCharIndex, 0);
 }
 
 function loadStrokeCanvasWord(word) {
@@ -958,17 +804,17 @@ function loadStrokeCanvasWord(word) {
     }
     if (badge) badge.textContent = '';
     if (mobileBadge) mobileBadge.textContent = '';
-    renderInstructionText();
     syncStrokeCanvasControls();
     return;
   }
 
   currentStrokeChars = extractHanziCharacters(word.hanzi);
   activeCharIndex = 0;
-  activeHighlightStrokeIdx = null;
+  activeStrokeIdx = 0;
+  completedCharsMap = {};
 
   const total = currentStrokeChars.length;
-  const badgeText = total > 1 ? `${word.hanzi} · ${total} chữ Hán` : word.hanzi;
+  const badgeText = total > 1 ? `${word.hanzi} · ${total} chữ` : word.hanzi;
   if (badge) badge.textContent = badgeText;
   if (mobileBadge) mobileBadge.textContent = badgeText;
 
@@ -976,10 +822,10 @@ function loadStrokeCanvasWord(word) {
 }
 
 function syncStrokeCanvasControls() {
-  const hasWriters = strokeWriters.length > 0;
-  ['strokeAnimateBtn', 'strokeQuizBtn', 'strokeGuideToggleBtn'].forEach(id => {
+  const hasChars = currentStrokeChars.length > 0;
+  ['strokeAnimateBtn', 'strokeQuizBtn'].forEach(id => {
     const button = document.getElementById(id);
-    if (button) button.disabled = !hasWriters;
+    if (button) button.disabled = !hasChars;
   });
 }
 
@@ -1004,16 +850,15 @@ function initStrokeCanvas() {
   const body = document.createElement('div');
   body.className = 'stroke-canvas-body';
   body.innerHTML = `
+    <div class="stroke-char-switcher-wrap" id="strokeCharSwitcherWrap" hidden></div>
     <div class="stroke-grids-container" id="strokeGridsContainer"></div>
     <div class="stroke-canvas-fallback" id="strokeCanvasFallback" hidden></div>
-    <div class="stroke-canvas-controls">
-      <button type="button" class="stroke-ctrl-btn" id="strokeAnimateBtn" title="Diễn họa thứ tự nét vẽ">▶ Xem nét</button>
-      <button type="button" class="stroke-ctrl-btn" id="strokeQuizBtn" title="Tự vẽ nét chữ theo thứ tự">✍️ Luyện viết</button>
-      <button type="button" class="stroke-ctrl-btn stroke-ctrl-btn--guide${showStrokeGuides ? ' active' : ''}" id="strokeGuideToggleBtn" aria-pressed="${showStrokeGuides ? 'true' : 'false'}" title="Bật/tắt hiển thị số thứ tự nét và mũi tên chỉ hướng trên ô chữ">🧭 Số &amp; Mũi tên</button>
-    </div>
-    <div class="stroke-instruction-box" id="strokeInstructionBox" hidden></div>
-    <div class="stroke-quiz-status-wrap" id="strokeQuizStatusWrap" hidden></div>
     <div class="stroke-order-steps-wrap" id="strokeOrderStepsWrap" hidden></div>
+    <div class="stroke-canvas-controls">
+      <button type="button" class="stroke-ctrl-btn" id="strokeAnimateBtn" title="Diễn họa từng nét chữ">▶ Xem diễn họa</button>
+      <button type="button" class="stroke-ctrl-btn" id="strokeQuizBtn" title="Tự vẽ nét chữ theo mũi tên">✍️ Tự luyện viết</button>
+    </div>
+    <div class="stroke-quiz-status-wrap" id="strokeQuizStatusWrap" hidden></div>
   `;
   wrap.appendChild(body);
   mount.appendChild(wrap);
@@ -1025,12 +870,7 @@ function initStrokeCanvas() {
 
   wrap.querySelector('#strokeQuizBtn').addEventListener('click', (e) => {
     e.stopPropagation();
-    startQuizOnChar(0, true);
-  });
-
-  wrap.querySelector('#strokeGuideToggleBtn').addEventListener('click', (e) => {
-    e.stopPropagation();
-    toggleStrokeGuides();
+    startQuizOnChar(activeCharIndex, true);
   });
 
   try {
@@ -1053,10 +893,10 @@ function initStrokeCanvas() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
       if (currentStrokeChars.length > 0) {
-        const newSize = getGridBoxSize(currentStrokeChars.length);
-        const container = document.getElementById('strokeGridsContainer');
-        const oldSize = container ? parseInt(container.style.getPropertyValue('--grid-box-size') || '0', 10) : 0;
-        if (Math.abs(newSize - oldSize) > 4) {
+        const newSize = getGridBoxSize();
+        const target = document.getElementById('strokeSingleGridTarget');
+        const oldSize = target ? parseInt(target.style.getPropertyValue('--grid-box-size') || '0', 10) : 0;
+        if (Math.abs(newSize - oldSize) > 6) {
           renderStrokeGrids(false);
         }
       }
@@ -1076,15 +916,10 @@ function renderActiveStrokeChar(autoAnimate = true) {
     word &&
     currentStrokeWord &&
     currentStrokeWord.hanzi === word.hanzi &&
-    strokeWriters.length === currentStrokeChars.length &&
-    strokeWriters.length > 0
+    currentStrokeChars.length > 0 &&
+    document.getElementById('strokeSingleGridTarget')
   ) {
-    const newSize = getGridBoxSize(currentStrokeChars.length);
-    const container = document.getElementById('strokeGridsContainer');
-    const oldSize = container ? parseInt(container.style.getPropertyValue('--grid-box-size') || '0', 10) : 0;
-    if (Math.abs(newSize - oldSize) > 4) {
-      renderStrokeGrids(autoAnimate);
-    } else if (autoAnimate && !isAnimatingSequential) {
+    if (autoAnimate && !isAnimatingSequential) {
       animateStrokeCanvas();
     }
     return;
@@ -1094,9 +929,9 @@ function renderActiveStrokeChar(autoAnimate = true) {
 
 window.renderActiveStrokeChar = renderActiveStrokeChar;
 window.loadStrokeCanvasWord = loadStrokeCanvasWord;
-window.selectStrokeChar = function(idx) { startQuizOnChar(idx, true); };
+window.selectStrokeChar = function(idx) { selectCharacterAtIndex(idx, false); };
 window.animateStrokeCanvas = animateStrokeCanvas;
-window.quizStrokeCanvas = function() { startQuizOnChar(0, true); };
+window.quizStrokeCanvas = function() { startQuizOnChar(activeCharIndex, true); };
 window.initStrokeCanvas = initStrokeCanvas;
 
 document.addEventListener('DOMContentLoaded', initStrokeCanvas);
