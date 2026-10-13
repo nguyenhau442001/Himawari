@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Bowl -->
+    <path d="M-60,0 A60,60 0 0,0 60,0 L45,40 A45,45 0 0,1 -45,40 Z" fill="#3B4252"/>
+    <path d="M-60,0 A60,60 0 0,0 60,0 L55,5 A55,55 0 0,1 -55,5 Z" fill="#4C566A"/>
+    
+    <!-- Liquid/Soup -->
+    <ellipse cx="0" cy="0" rx="60" ry="15" fill="#2E3440"/>
+    
+    <!-- Small amount of salt/grains -->
+    <g fill="#FFB86C">
+      <circle cx="-10" cy="-5" r="3"/>
+      <circle cx="5" cy="-8" r="2.5"/>
+      <circle cx="15" cy="-4" r="3.5"/>
+      <circle cx="-5" cy="-12" r="2"/>
+    </g>
+    
+    <!-- Spoon -->
+    <path d="M70,-30 L30,10 L20,0 L60,-40 Z" fill="#D8DEE9"/>
+    <ellipse cx="70" cy="-30" rx="12" ry="15" fill="#D8DEE9"/>
+    <ellipse cx="70" cy="-30" rx="6" ry="8" fill="#E5E9F0"/>
+  </g>
+</svg>

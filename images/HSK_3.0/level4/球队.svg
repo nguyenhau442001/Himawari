@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Shield / Crest Background for Team/Club -->
+    <path d="M120 30 C155 30 180 40 180 40 L180 130 C180 165 150 190 120 205 C90 190 60 165 60 130 L60 40 C60 40 85 30 120 30 Z" fill="#242B38" stroke="#3A4454" stroke-width="4"/>
+    
+    <!-- Internal glowing accent -->
+    <path d="M120 42 C149 42 170 50 170 50 L170 126 C170 157 143 180 120 193 C97 180 70 157 70 126 L70 50 C70 50 91 42 120 42 Z" fill="#1E2530"/>
+
+    <!-- Dynamic star/trophy accent at top -->
+    <polygon points="120,48 124,58 135,58 126,64 129,74 120,68 111,74 114,64 105,58 116,58" fill="#F59E0B"/>
+
+    <!-- Central Soccer Ball (representing 球队 / team sport element) -->
+    <g transform="translate(120, 115)">
+      <!-- Outer white sphere -->
+      <circle cx="0" cy="0" r="42" fill="#F3F4F6"/>
+      
+      <!-- Central pentagon -->
+      <polygon points="0,-12 11,-4 7,9 -7,9 -11,-4" fill="#111827"/>
+      
+      <!-- Surrounding patterns (edges connecting to pentagon) -->
+      <path d="M0,-12 L0,-28 L14,-34 L25,-22 L11,-4 Z" fill="#111827"/>
+      <path d="M11,-4 L25,-22 L36,-11 L31,5 L7,9 Z" fill="#111827"/>
+      <path d="M7,9 L31,5 L34,24 L19,33 L-2,26 Z" fill="#111827"/>
+      <path d="M-7,9 L-2,26 L-19,33 L-34,24 L-31,5 Z" fill="#111827"/>
+      <path d="M-11,-4 L-7,9 L-31,5 L-36,-11 L-25,-22 Z" fill="#111827"/>
+      <path d="M0,-12 L-11,-4 L-25,-22 L-14,-34 L0,-28 Z" fill="#111827"/>
+    </g>
+
+    <!-- Decorative dynamic swooshes representing teamwork/movement -->
+    <path d="M75 155 C90 175 110 180 135 180" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M100 190 C120 195 145 190 165 170" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

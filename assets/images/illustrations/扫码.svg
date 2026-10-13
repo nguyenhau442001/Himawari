@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Smartphone -->
+  <rect x="85" y="60" width="70" height="120" rx="8" fill="#2D343E" stroke="#FFB800" stroke-width="3"/>
+  <rect x="95" y="75" width="50" height="50" fill="#3D4756"/>
+  
+  <!-- QR Code representation -->
+  <rect x="100" y="80" width="10" height="10" fill="#FFB800"/>
+  <rect x="115" y="80" width="10" height="10" fill="#FFB800"/>
+  <rect x="130" y="80" width="10" height="10" fill="#FFB800"/>
+  <rect x="100" y="95" width="10" height="10" fill="#FFB800"/>
+  <rect x="130" y="95" width="10" height="10" fill="#FFB800"/>
+  <rect x="100" y="110" width="10" height="10" fill="#FFB800"/>
+  <rect x="115" y="110" width="10" height="10" fill="#FFB800"/>
+  <rect x="130" y="110" width="10" height="10" fill="#FFB800"/>
+  
+  <!-- Scanning Beam -->
+  <line x1="95" y1="100" x2="145" y2="100" stroke="#FFB800" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Hand holding phone -->
+  <path d="M155 150c10 0 15 5 15 15v20c0 5-5 10-10 10h-15l-5-20" fill="#4A5568"/>
+  
+  <!-- Payment Terminal Base -->
+  <rect x="60" y="140" width="40" height="50" rx="4" fill="#2D343E" stroke="#718096" stroke-width="2"/>
+  <rect x="65" y="145" width="30" height="20" fill="#1A1D24"/>
+  <circle cx="80" cy="175" r="5" fill="#718096"/>
+</svg>

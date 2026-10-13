@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient backdrop glow representing a gathering/meeting space -->
+  <circle cx="120" cy="120" r="85" fill="#252A34" opacity="0.6"/>
+  <ellipse cx="120" cy="180" rx="75" ry="16" fill="#15181F"/>
+
+  <!-- Multiple stylized human figures representing "人数" (number of people / crowd) -->
+  <!-- Back row figures (subtle, darker slate) -->
+  <!-- Person 1 (Far left) -->
+  <circle cx="65" cy="85" r="13" fill="#3E4A59"/>
+  <path d="M45 125 C45 107 54 100 65 100 C76 100 85 107 85 125 Z" fill="#3E4A59"/>
+
+  <!-- Person 2 (Far right) -->
+  <circle cx="175" cy="85" r="13" fill="#3E4A59"/>
+  <path d="M155 125 C155 107 164 100 175 100 C186 100 195 107 195 125 Z" fill="#3E4A59"/>
+
+  <!-- Middle row figures (medium slate) -->
+  <!-- Person 3 (Mid-left) -->
+  <circle cx="90" cy="72" r="15" fill="#5A6C82"/>
+  <path d="M68 116 C68 96 78 88 90 88 C102 88 112 96 112 116 Z" fill="#5A6C82"/>
+
+  <!-- Person 4 (Mid-right) -->
+  <circle cx="150" cy="72" r="15" fill="#5A6C82"/>
+  <path d="M128 116 C128 96 138 88 150 88 C162 88 172 96 172 116 Z" fill="#5A6C82"/>
+
+  <!-- Front/Central hero figure (Vibrant orange/gold focus accent) -->
+  <circle cx="120" cy="58" r="18" fill="#F39C12"/>
+  <path d="M96 105 C96 82 107 72 120 72 C133 72 144 82 144 105 Z" fill="#F39C12"/>
+
+  <!-- Crowd base / gathering floor representation -->
+  <path d="M50 145 C50 132 82 122 120 122 C158 122 190 132 190 145 C190 158 158 168 120 168 C82 168 50 158 50 145 Z" fill="#2E3748" opacity="0.8"/>
+  <ellipse cx="120" cy="145" rx="64" ry="14" fill="#3E4A59" opacity="0.5"/>
+
+  <!-- Group counter badge (sleek modern pill indicator at the bottom) -->
+  <rect x="76" y="172" width="88" height="32" rx="16" fill="#252A34" stroke="#F39C12" stroke-width="2"/>
+  
+  <!-- Icon inside badge: three miniature human dots representing countable quantity -->
+  <circle cx="94" cy="188" r="4" fill="#F39C12"/>
+  <circle cx="106" cy="188" r="4" fill="#F39C12"/>
+  <circle cx="118" cy="188" r="4" fill="#F39C12"/>
+
+  <!-- Plus / group tally indicator graphics inside badge -->
+  <text x="134" y="193" fill="#E2E8F0" font-family="system-ui, sans-serif" font-weight="bold" font-size="13">N</text>
+</svg>

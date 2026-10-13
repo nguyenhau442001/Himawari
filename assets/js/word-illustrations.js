@@ -25622,6 +25622,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/千克.svg",
     "caption": "kilôgam"
   },
+  "前方": {
+    "file": "前方.svg",
+    "src": "images/HSK_3.0/level4/前方.svg",
+    "caption": "phía trước"
+  },
   "前后": {
     "file": "前后.svg",
     "src": "images/HSK_3.0/level4/前后.svg",
@@ -25636,6 +25641,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "巧.svg",
     "src": "images/HSK_3.0/level4/巧.svg",
     "caption": "khéo; vừa khéo, trùng hợp"
+  },
+  "琴": {
+    "file": "琴.svg",
+    "src": "images/HSK_3.0/level4/琴.svg",
+    "caption": "đàn (nhạc cụ)"
+  },
+  "青年": {
+    "file": "青年.svg",
+    "src": "images/HSK_3.0/level4/青年.svg",
+    "caption": "thanh niên"
+  },
+  "球队": {
+    "file": "球队.svg",
+    "src": "images/HSK_3.0/level4/球队.svg",
+    "caption": "đội bóng"
+  },
+  "区": {
+    "file": "区.svg",
+    "src": "images/HSK_3.0/level4/区.svg",
+    "caption": "khu, quận"
+  },
+  "取得": {
+    "file": "取得.svg",
+    "src": "images/HSK_3.0/level4/取得.svg",
+    "caption": "giành được, đạt được"
+  },
+  "全": {
+    "file": "全.svg",
+    "src": "images/HSK_3.0/level4/全.svg",
+    "caption": "toàn bộ, đầy đủ; hoàn toàn"
+  },
+  "全都": {
+    "file": "全都.svg",
+    "src": "images/HSK_3.0/level4/全都.svg",
+    "caption": "tất cả, toàn bộ"
+  },
+  "全球": {
+    "file": "全球.svg",
+    "src": "images/HSK_3.0/level4/全球.svg",
+    "caption": "toàn cầu"
+  },
+  "全身": {
+    "file": "全身.svg",
+    "src": "images/HSK_3.0/level4/全身.svg",
+    "caption": "toàn thân"
+  },
+  "缺": {
+    "file": "缺.svg",
+    "src": "images/HSK_3.0/level4/缺.svg",
+    "caption": "thiếu"
+  },
+  "人数": {
+    "file": "人数.svg",
+    "src": "images/HSK_3.0/level4/人数.svg",
+    "caption": "số người"
+  },
+  "仍": {
+    "file": "仍.svg",
+    "src": "images/HSK_3.0/level4/仍.svg",
+    "caption": "vẫn, vẫn còn"
+  },
+  "入": {
+    "file": "入.svg",
+    "src": "images/HSK_3.0/level4/入.svg",
+    "caption": "vào, nhập"
+  },
+  "入学": {
+    "file": "入学.svg",
+    "src": "images/HSK_3.0/level4/入学.svg",
+    "caption": "nhập học"
+  },
+  "入住": {
+    "file": "入住.svg",
+    "src": "images/HSK_3.0/level4/入住.svg",
+    "caption": "nhận phòng, vào ở"
+  },
+  "扫码": {
+    "file": "扫码.svg",
+    "src": "images/HSK_3.0/level4/扫码.svg",
+    "caption": "quét mã"
+  },
+  "上门": {
+    "file": "上门.svg",
+    "src": "images/HSK_3.0/level4/上门.svg",
+    "caption": "đến tận nhà"
+  },
+  "稍": {
+    "file": "稍.svg",
+    "src": "images/HSK_3.0/level4/稍.svg",
+    "caption": "hơi, một chút"
+  },
+  "少见": {
+    "file": "少见.svg",
+    "src": "images/HSK_3.0/level4/少见.svg",
+    "caption": "ít thấy, hiếm thấy"
+  },
+  "少量": {
+    "file": "少量.svg",
+    "src": "images/HSK_3.0/level4/少量.svg",
+    "caption": "lượng ít, một ít"
+  },
+  "少数": {
+    "file": "少数.svg",
+    "src": "images/HSK_3.0/level4/少数.svg",
+    "caption": "thiểu số, số ít"
+  },
+  "少年": {
+    "file": "少年.svg",
+    "src": "images/HSK_3.0/level4/少年.svg",
+    "caption": "thiếu niên"
+  },
+  "身": {
+    "file": "身.svg",
+    "src": "images/HSK_3.0/level4/身.svg",
+    "caption": "thân, cơ thể; bộ (quần áo)"
+  },
+  "身份证": {
+    "file": "身份证.svg",
+    "src": "images/HSK_3.0/level4/身份证.svg",
+    "caption": "chứng minh thư, căn cước"
+  },
+  "生¹": {
+    "file": "生¹.svg",
+    "src": "images/HSK_3.0/level4/生¹.svg",
+    "caption": "sinh, đẻ; sinh ra"
+  },
+  "生²": {
+    "file": "生².svg",
+    "src": "images/HSK_3.0/level4/生².svg",
+    "caption": "sống (chưa chín); lạ"
+  },
+  "时间表": {
+    "file": "时间表.svg",
+    "src": "images/HSK_3.0/level4/时间表.svg",
+    "caption": "thời gian biểu, lịch trình"
+  },
+  "十字路口": {
+    "file": "十字路口.svg",
+    "src": "images/HSK_3.0/level4/十字路口.svg",
+    "caption": "ngã tư"
+  },
+  "使馆": {
+    "file": "使馆.svg",
+    "src": "images/HSK_3.0/level4/使馆.svg",
+    "caption": "đại sứ quán"
+  },
+  "市区": {
+    "file": "市区.svg",
+    "src": "images/HSK_3.0/level4/市区.svg",
+    "caption": "nội thành, khu trung tâm thành phố"
+  },
+  "试题": {
+    "file": "试题.svg",
+    "src": "images/HSK_3.0/level4/试题.svg",
+    "caption": "đề thi, câu hỏi thi"
+  },
+  "收费": {
+    "file": "收费.svg",
+    "src": "images/HSK_3.0/level4/收费.svg",
+    "caption": "thu phí, tính phí"
+  },
+  "收听": {
+    "file": "收听.svg",
+    "src": "images/HSK_3.0/level4/收听.svg",
+    "caption": "nghe (đài, chương trình phát thanh)"
+  },
+  "售票员": {
+    "file": "售票员.svg",
+    "src": "images/HSK_3.0/level4/售票员.svg",
+    "caption": "nhân viên bán vé"
+  },
+  "熟": {
+    "file": "熟.svg",
+    "src": "images/HSK_3.0/level4/熟.svg",
+    "caption": "chín; quen thuộc; thạo"
+  },
+  "暑假": {
+    "file": "暑假.svg",
+    "src": "images/HSK_3.0/level4/暑假.svg",
+    "caption": "nghỉ hè"
+  },
+  "树林": {
+    "file": "树林.svg",
+    "src": "images/HSK_3.0/level4/树林.svg",
+    "caption": "rừng cây, khu rừng"
+  },
+  "说法": {
+    "file": "说法.svg",
+    "src": "images/HSK_3.0/level4/说法.svg",
+    "caption": "cách nói; quan điểm"
+  },
+  "说明书": {
+    "file": "说明书.svg",
+    "src": "images/HSK_3.0/level4/说明书.svg",
+    "caption": "sách hướng dẫn sử dụng"
+  },
+  "塑料": {
+    "file": "塑料.svg",
+    "src": "images/HSK_3.0/level4/塑料.svg",
+    "caption": "nhựa"
+  },
+  "酸奶": {
+    "file": "酸奶.svg",
+    "src": "images/HSK_3.0/level4/酸奶.svg",
+    "caption": "sữa chua"
+  },
+  "算": {
+    "file": "算.svg",
+    "src": "images/HSK_3.0/level4/算.svg",
+    "caption": "tính, đếm; coi như"
+  },
+  "孙女": {
+    "file": "孙女.svg",
+    "src": "images/HSK_3.0/level4/孙女.svg",
+    "caption": "cháu gái (con của con trai)"
+  },
+  "弹": {
+    "file": "弹.svg",
+    "src": "images/HSK_3.0/level4/弹.svg",
+    "caption": "đánh, gảy (đàn)"
+  },
+  "提出": {
+    "file": "提出.svg",
+    "src": "images/HSK_3.0/level4/提出.svg",
+    "caption": "đưa ra, nêu ra"
+  },
+  "提到": {
+    "file": "提到.svg",
+    "src": "images/HSK_3.0/level4/提到.svg",
+    "caption": "nhắc đến, đề cập"
+  },
+  "体检": {
+    "file": "体检.svg",
+    "src": "images/HSK_3.0/level4/体检.svg",
+    "caption": "khám sức khỏe"
+  },
+  "体温": {
+    "file": "体温.svg",
+    "src": "images/HSK_3.0/level4/体温.svg",
+    "caption": "nhiệt độ cơ thể"
+  },
+  "体重": {
+    "file": "体重.svg",
+    "src": "images/HSK_3.0/level4/体重.svg",
+    "caption": "cân nặng"
   },
   "哎呀": {
     "file": "哎呀.svg",

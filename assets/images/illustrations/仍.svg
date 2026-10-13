@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(40, 60)">
+  <path d="M0 120 L160 120" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  <path d="M20 120 L20 80" stroke="#718096" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 120 L60 60" stroke="#718096" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 120 L100 40" stroke="#718096" stroke-width="4" stroke-linecap="round"/>
+  <path d="M140 120 L140 20" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="140" cy="20" r="8" fill="#F6AD55"/>
+  <path d="M140 20 L140 10" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M135 15 L145 25" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M135 25 L145 15" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+</g>
+<path d="M40 180 L200 180" stroke="#2D3748" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="120" y="210" font-family="sans-serif" font-size="12" fill="#4A5568" text-anchor="middle" style="display:none">Timeline of persistence</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- City District Visualization -->
+  <!-- Background grid representing the defined area/district -->
+  <path d="M60 60h120v120H60z" fill="#2D343E" stroke="#3D4754" stroke-width="2"/>
+  
+  <!-- Representing a specific district/zone with buildings -->
+  <rect x="75" y="130" width="30" height="50" fill="#FFB347"/>
+  <rect x="115" y="100" width="30" height="80" fill="#FFB347"/>
+  <rect x="155" y="150" width="30" height="30" fill="#FFB347"/>
+  
+  <!-- Map pin indicating the specific district/area -->
+  <path d="M120 70c-13.8 0-25 11.2-25 25 0 18.8 25 45 25 45s25-26.2 25-45c0-13.8-11.2-25-25-25zm0 35c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10z" fill="#FF8C00"/>
+  
+  <!-- Boundary lines emphasizing the 'zone' aspect -->
+  <path d="M60 60h120v120H60z" fill="none" stroke="#FFB347" stroke-width="4" stroke-dasharray="8 8"/>
+</svg>

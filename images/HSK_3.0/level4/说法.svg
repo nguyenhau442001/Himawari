@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative subtle background elements for context -->
+  <circle cx="120" cy="120" r="88" fill="none" stroke="#262B35" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- Central Physical Object: A sleek, modern speech bubble document representing a "viewpoint / way of speaking" (说法) -->
+  
+  <!-- Document / Perspective Base -->
+  <path d="M 80 72 
+           C 80 65.373 85.373 60 92 60 
+           L 168 60 
+           C 174.627 60 180 65.373 180 72 
+           L 180 160 
+           C 180 166.627 174.627 172 168 172 
+           L 110 172 
+           L 92 188 
+           L 96 172 
+           L 92 172 
+           C 85.373 172 80 166.627 80 160 
+           Z" 
+        fill="#232833" 
+        stroke="#3A4252" 
+        stroke-width="3" 
+        stroke-linejoin="round"/>
+
+  <!-- Speech bubble tail integrated above or below (placed tail downward left) -->
+
+  <!-- Inner Content: Abstract representation of structured thought / agreement lines -->
+  <!-- Line 1: Accent colored (Gold/Orange) to represent focus and viewpoint -->
+  <rect x="100" y="84" width="60" height="10" rx="5" fill="#F59E0B"/>
+  
+  <!-- Line 2 -->
+  <rect x="100" y="108" width="44" height="8" rx="4" fill="#64748B"/>
+
+  <!-- Line 3 -->
+  <rect x="100" y="128" width="52" height="8" rx="4" fill="#64748B"/>
+
+  <!-- Checkmark / Agreement emblem (referencing "我同意你的说法") integrated cleanly into the object -->
+  <circle cx="150" cy="148" r="20" fill="#10B981"/>
+  <path d="M 141 148 L 147 154 L 159 140" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

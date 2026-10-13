@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Glow & Elements -->
+  <circle cx="120" cy="115" r="70" fill="#222733" />
+
+  <!-- Parking Gate / 收费 Booth Context -->
+  <g transform="translate(0, 15)">
+    <!-- Booth Structure -->
+    <path d="M70 120 L90 75 L150 75 L170 120 Z" fill="#2E3646" />
+    <rect x="95" y="85" width="50" height="35" fill="#3B4459" />
+    <rect x="105" y="92" width="30" height="20" fill="#61AFEF" opacity="0.4" />
+
+    <!-- Barrier Pole (Arm) -->
+    <rect x="130" y="65" width="75" height="8" rx="4" fill="#E5C07B" />
+    <rect x="145" y="65" width="15" height="8" fill="#E06C75" />
+    <rect x="175" y="65" width="15" height="8" fill="#E06C75" />
+
+    <!-- Pivot Base -->
+    <rect x="123" y="55" width="14" height="20" rx="3" fill="#ABB2BF" />
+  </g>
+
+  <!-- Physical Object representing 收费 (Fee collection / Payment Terminal & Coins) -->
+  <g transform="translate(0, 10)">
+    <!-- Payment Terminal Base -->
+    <rect x="95" y="105" width="50" height="70" rx="8" fill="#21252B" stroke="#4B5263" stroke-width="3" />
+    
+    <!-- Screen -->
+    <rect x="103" y="115" width="34" height="24" rx="4" fill="#181A1F" />
+    <!-- Coin Slot / Insert indicator -->
+    <rect x="110" y="148" width="20" height="4" rx="2" fill="#E5C07B" />
+
+    <!-- Floating/Dropping Gold Coins (Fee concept) -->
+    <!-- Coin 1 (Top) -->
+    <g transform="translate(120, 75)">
+      <ellipse cx="0" cy="0" rx="14" ry="7" fill="#E5C07B" />
+      <ellipse cx="0" cy="0" rx="9" ry="4.5" fill="#F4BF75" />
+    </g>
+
+    <!-- Coin 2 (Middle) -->
+    <g transform="translate(120, 93)">
+      <ellipse cx="0" cy="0" rx="14" ry="7" fill="#E5C07B" />
+      <ellipse cx="0" cy="0" rx="9" ry="4.5" fill="#F4BF75" />
+    </g>
+
+    <!-- Sparkles / Action lines -->
+    <path d="M92 78 L86 74" stroke="#E5C07B" stroke-width="2" stroke-linecap="round" />
+    <path d="M148 78 L154 74" stroke="#E5C07B" stroke-width="2" stroke-linecap="round" />
+    <circle cx="102" cy="65" r="2" fill="#E5C07B" />
+    <circle cx="138" cy="62" r="1.5" fill="#E5C07B" />
+  </g>
+
+  <!-- Ground Line -->
+  <path d="M50 185 L190 185" stroke="#3B4459" stroke-width="4" stroke-linecap="round" />
+</svg>

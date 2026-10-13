@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Radio/Audio Device -->
+  <path d="M70 140h100v50a10 10 0 0 1-10 10H80a10 10 0 0 1-10-10z" fill="#3A3F4B"/>
+  <rect x="85" y="150" width="70" height="30" rx="4" fill="#FFB84D"/>
+  <circle cx="120" cy="165" r="8" fill="#1A1D24"/>
+  
+  <!-- Human Character -->
+  <g transform="translate(120, 100)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#E0E0E0"/>
+    <!-- Ear with Headphone -->
+    <path d="M25 0a15 15 0 0 1-30 0" fill="none" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="25" cy="0" r="10" fill="#FFB84D"/>
+    
+    <!-- Eye -->
+    <ellipse cx="-8" cy="-5" rx="3" ry="4" fill="#1A1D24"/>
+    
+    <!-- Motion Lines indicating sound -->
+    <path d="M45 -10 L55 -20" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M50 0 L65 0" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M45 10 L55 20" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Shoulders -->
+  <path d="M80 130 C80 160, 160 160, 160 130" fill="#E0E0E0"/>
+</svg>

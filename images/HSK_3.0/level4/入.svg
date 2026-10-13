@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Door frame -->
+  <path d="M80 60h80v120H80z" fill="none" stroke="#F9A825" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Door panel (partially open) -->
+  <path d="M80 60l40 20v100l-40-20z" fill="#2C3E50"/>
+  <path d="M80 60l40 20v100l-40-20z" fill="none" stroke="#F9A825" stroke-width="4"/>
+  
+  <!-- Person walking in -->
+  <g transform="translate(110, 100)">
+    <!-- Body -->
+    <path d="M10 20v30M10 25l-10 10M10 25l10 10M10 50l-8 20M10 50l8 20" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="10" cy="10" r="10" fill="#E0E0E0"/>
+  </g>
+  
+  <!-- Floor indicator -->
+  <path d="M70 180h100" stroke="#455A64" stroke-width="4" stroke-linecap="round"/>
+</svg>
