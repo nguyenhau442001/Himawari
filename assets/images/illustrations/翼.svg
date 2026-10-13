@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(20, 20)">
+    <!-- Airplane Wing (翼) Illustration -->
+    <!-- Background atmospheric speed lines -->
+    <path d="M20 70 L70 70" stroke="#2D323E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M10 100 L90 100" stroke="#2D323E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M30 130 L60 130" stroke="#2D323E" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Airplane Fuselage reference segment on the left -->
+    <path d="M40 30 C30 70 30 130 40 170 L25 170 C15 130 15 70 25 30 Z" fill="#2E384D"/>
+
+    <!-- Main Swept Wing (The focal object representing 翼) -->
+    <!-- Wing shadow/base layer -->
+    <path d="M38 95 L170 45 L190 120 L42 145 Z" fill="#151921"/>
+    
+    <!-- Main Wing body with sleek modern gradient effect using solid tones -->
+    <path d="M38 90 L175 35 L195 110 L42 140 Z" fill="#4F75FF"/>
+    
+    <!-- Wing highlight (aerodynamic contour) -->
+    <path d="M45 95 L165 43 L175 60 L55 125 Z" fill="#7694FF"/>
+
+    <!-- Wing flap / control surface detail lines -->
+    <line x1="120" y1="67" x2="185" y2="92" stroke="#2D4DB3" stroke-width="2" stroke-linecap="round"/>
+    <line x1="100" y1="78" x2="178" y2="108" stroke="#2D4DB3" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Engine / Jet Turbine mounted under the wing (provides scale and context to "飞机") -->
+    <g transform="translate(110, 95)">
+      <!-- Pylon connecting engine to wing -->
+      <path d="M15 -5 L25 15 L5 15 Z" fill="#3A465F"/>
+      <!-- Engine Cowling -->
+      <ellipse cx="20" cy="22" rx="14" ry="18" fill="#E2E8F0" transform="rotate(-15 20 22)"/>
+      <ellipse cx="20" cy="22" rx="10" ry="14" fill="#0F131A" transform="rotate(-15 20 22)"/>
+      <!-- Turbine blade accent -->
+      <circle cx="20" cy="22" r="4" fill="#FFA726"/>
+    </g>
+
+    <!-- Wingtip device (Winglet) - modern aerodynamic touch -->
+    <path d="M175 35 L195 38 L195 110 L190 120 L175 35" fill="#FFA726"/>
+    <path d="M185 36 L193 39 L192 105 L187 112 Z" fill="#FFC107"/>
+
+    <!-- Rivets / Technical detail dots for modern vector aesthetic -->
+    <circle cx="60" cy="110" r="1.5" fill="#2D4DB3"/>
+    <circle cx="75" cy="100" r="1.5" fill="#2D4DB3"/>
+    <circle cx="90" cy="90" r="1.5" fill="#2D4DB3"/>
+    <circle cx="105" cy="80" r="1.5" fill="#2D4DB3"/>
+  </g>
+</svg>

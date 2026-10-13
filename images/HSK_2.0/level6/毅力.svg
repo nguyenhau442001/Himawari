@@ -1,0 +1,32 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/detail for focus -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual Object: An anvil pierced by a sturdy pickaxe/chisel, representing unwavering steadfastness and grit (yìlì) -->
+  <g transform="translate(0, 5)">
+    <!-- Mountain/Base foundation representing endurance -->
+    <path d="M 60,175 L 120,130 L 180,175 Z" fill="#2D3748"/>
+    <path d="M 85,175 L 120,148 L 155,175 Z" fill="#4A5568"/>
+    
+    <!-- Anvil base (Solid, unyielding physical object) -->
+    <path d="M 80,175 L 160,175 L 150,155 L 90,155 Z" fill="#718096"/>
+    <rect x="105" y="140" width="30" height="15" fill="#A0AEC0"/>
+    <path d="M 75,140 C 75,135 165,135 165,140 Z" fill="#CBD5E0"/>
+
+    <!-- Piercing Tool / Pickaxe representing focused willpower pushing through resistance -->
+    <g transform="rotate(-25 120 100)">
+      <!-- Handle -->
+      <rect x="115" y="60" width="10" height="85" rx="3" fill="#E2E8F0"/>
+      <!-- Metal head of tool embedded deeply into the anvil -->
+      <path d="M 90,65 L 150,65 L 140,85 L 100,85 Z" fill="#F6AD55"/>
+      <path d="M 120,60 L 135,75 L 105,75 Z" fill="#DD6B20"/>
+    </g>
+
+    <!-- Spark/Focus Accent representing hard-earned success through grit -->
+    <circle cx="120" cy="115" r="4" fill="#F6AD55"/>
+    <path d="M 120,103 L 122,111 L 130,113 L 122,115 L 120,123 L 118,115 L 110,113 L 118,111 Z" fill="#ED8936"/>
+  </g>
+</svg>

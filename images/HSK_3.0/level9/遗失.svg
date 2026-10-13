@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/spotlight -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.5"/>
+  
+  <!-- Ground plane line -->
+  <line x1="50" y1="180" x2="190" y2="180" stroke="#313846" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Motion lines indicating the action of dropping/losing -->
+  <g opacity="0.6">
+    <path d="M 125,120 Q 135,130 130,140" fill="none" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+    <path d="M 132,125 Q 142,135 137,145" fill="none" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Dropped/Lost Wallet (The Object) -->
+  <g transform="translate(115, 142) rotate(25)">
+    <rect x="-14" y="-9" width="28" height="18" rx="4" fill="#E17055"/>
+    <!-- Wallet clasp/accent -->
+    <rect x="2" y="-5" width="8" height="10" rx="2" fill="#F39C12"/>
+    <circle cx="6" cy="0" r="1.5" fill="#2D3436"/>
+  </g>
+
+  <!-- Human Character (Upper body, looking back in realization) -->
+  <!-- Body/Torso -->
+  <path d="M 55,180 C 55,150 75,135 90,135 C 100,135 110,145 115,180 Z" fill="#3B82F6"/>
+
+  <!-- Neck & Head -->
+  <rect x="85" y="112" width="10" height="26" fill="#FAD02C"/>
+  <circle cx="90" cy="100" r="16" fill="#FAD02C"/>
+
+  <!-- Hair -->
+  <path d="M 76,96 C 76,86 84,82 94,82 C 104,82 106,90 106,98 C 96,96 86,96 76,96 Z" fill="#2D3436"/>
+
+  <!-- Surprised/Regretful Facial Expression -->
+  <circle cx="97" cy="98" r="1.5" fill="#2D3436"/>
+  <!-- Open mouth (gasp/oh no) -->
+  <ellipse cx="98" cy="106" rx="2" ry="3" fill="#C0392B"/>
+
+  <!-- Arms in gesture of realizing loss (one arm raised in shock, one dropped) -->
+  <!-- Left arm (bent upward, hand near face/chest) -->
+  <path d="M 75,145 Q 65,130 78,118" fill="none" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="78" cy="116" r="4" fill="#FAD02C"/>
+
+  <!-- Right arm (reaching backward/downward towards the lost item) -->
+  <path d="M 105,145 Q 120,135 125,125" fill="none" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="127" cy="122" r="4" fill="#FAD02C"/>
+
+  <!-- Focus / Action Indicator: Question/Loss marker or sparkles above the wallet -->
+  <g transform="translate(135, 105)">
+    <circle cx="0" cy="0" r="10" fill="#FF9F43" opacity="0.2"/>
+    <text x="0" y="4" font-family="sans-serif" font-weight="bold" font-size="12" fill="#FF9F43" text-anchor="middle">?</text>
+  </g>
+</svg>

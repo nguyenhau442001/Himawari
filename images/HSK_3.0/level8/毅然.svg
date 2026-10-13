@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Background subtle dynamic lines representing contrast/progression -->
+    <path d="M40 180 L200 180" stroke="#2A2F3D" stroke-width="2" stroke-dasharray="4 4" />
+    <path d="M40 60 L200 60" stroke="#2A2F3D" stroke-width="2" stroke-dasharray="4 4" />
+    
+    <!-- Past Comfort / Baseline Level (Faded, left side) -->
+    <g opacity="0.35">
+      <rect x="45" y="110" width="45" height="70" rx="4" fill="#2E364F"/>
+      <!-- Comfortable golden glow stack (high salary/status symbol abstracted) -->
+      <rect x="52" y="125" width="31" height="8" rx="2" fill="#E5A93B"/>
+      <rect x="52" y="139" width="31" height="8" rx="2" fill="#E5A93B"/>
+      <rect x="52" y="153" width="31" height="8" rx="2" fill="#E5A93B"/>
+    </g>
+
+    <!-- The Pivot / Sharp Break (Escalation & Decisive Action) -->
+    <!-- Bold energetic path showing the sudden, resolute break away -->
+    <path d="M 68 145 C 90 145, 110 145, 125 115 C 140 85, 160 75, 190 75" fill="none" stroke="#FF6B35" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Forward momentum arrows / burst of decisive energy -->
+    <path d="M175 66 L195 75 L175 84" fill="none" stroke="#FF6B35" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- The Decisive Figure stepping forward boldly into a new direction -->
+    <!-- Head -->
+    <circle cx="130" cy="110" r="11" fill="#E6EEF8"/>
+    
+    <!-- Body in resolute posture (leaning forward with strong momentum) -->
+    <path d="M 125 125 L 138 150 L 122 175" fill="none" stroke="#E6EEF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Dynamic arm swinging forward resolutely -->
+    <path d="M 130 133 L 152 125" fill="none" stroke="#E6EEF8" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Leaving behind old constraints (floating broken tether/blocks) -->
+    <rect x="85" y="130" width="12" height="12" rx="2" fill="#FF5252" transform="rotate(15 91 136)" opacity="0.8"/>
+    <circle cx="95" cy="115" r="5" fill="#FF5252" opacity="0.8"/>
+
+    <!-- Ultimate Goal / Horizon (bright glowing focal point representing firm resolution) -->
+    <circle cx="195" cy="75" r="6" fill="#FFD166"/>
+    <circle cx="195" cy="75" r="14" fill="#FFD166" opacity="0.25"/>
+  </g>
+</svg>

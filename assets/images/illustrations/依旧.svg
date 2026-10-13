@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient Glow / Setting Layer -->
+  <circle cx="120" cy="130" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Sunrise / Morning Sun (Context: 早起 - morning) -->
+  <circle cx="180" cy="80" r="18" fill="#F39C12" opacity="0.8"/>
+  <path d="M180 54v-6M180 112v6M154 80h-6M212 80h6M162 62l-4-4M198 102l4 4" stroke="#F39C12" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Horizon Line & Floor -->
+  <path d="M40 185h160" stroke="#2F3640" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Action Visualization: 依旧 (Continuing action / Running motion with ghost trail showing consistency over time) -->
+  
+  <!-- Ghost/Past Silhouette (Showing "still/as before") -->
+  <g opacity="0.25" transform="translate(-15, 0)">
+    <!-- Head -->
+    <circle cx="105" cy="115" r="9" fill="#F1C40F"/>
+    <!-- Body & Limbs in motion -->
+    <path d="M107 135L95 155M107 135l18 18M105 124v25l-10 25M105 124v25l15 22" stroke="#F1C40F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Motion Lines (Time continuity / Action) -->
+  <path d="M60 140h20M50 160h30M65 120h15" stroke="#3498DB" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Main Active Character (Dynamic Running/Exercising Pose) -->
+  <g>
+    <!-- Head -->
+    <circle cx="120" cy="115" r="9" fill="#F39C12"/>
+    <!-- Sweat drop (Morning workout) -->
+    <path d="M131 114c0 2-2 4-2 4s-2-2-2-4a2 2 0 114 0z" fill="#3498DB"/>
+
+    <!-- Torso (Leaning forward for running action) -->
+    <path d="M122 124l-4 28" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Back Arm (Bent at elbow) -->
+    <path d="M119 128l-15 15-8 5" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Front Arm (Forward swing) -->
+    <path d="M119 128l18 12 8-3" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Back Leg (Pushing off) -->
+    <path d="M118 152l-18 20-12 5" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Front Leg (Stepping forward, dynamic knee bend) -->
+    <path d="M118 152l16 18 12 10" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Accent Focus Frame / Flashcard details -->
+  <circle cx="120" cy="120" r="105" fill="none" stroke="#2F3640" stroke-width="2" stroke-dasharray="6 6" opacity="0.4"/>
+</svg>

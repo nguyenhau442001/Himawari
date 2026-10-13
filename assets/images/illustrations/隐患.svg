@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 120)">
+    <!-- Outer Glow / Atmosphere for hidden danger -->
+    <circle cx="0" cy="10" r="70" fill="#FF5722" opacity="0.08"/>
+    
+    <!-- Heavy Industrial Machine Body (representing the device from the sentence) -->
+    <!-- Base stand -->
+    <rect x="-60" y="55" width="120" height="12" rx="4" fill="#374151"/>
+    
+    <!-- Main metallic housing -->
+    <rect x="-50" y="-35" width="100" height="90" rx="8" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    
+    <!-- Control panel details -->
+    <rect x="-35" y="-20" width="35" height="25" rx="3" fill="#1A202C"/>
+    <circle cx="-25" cy="-8" r="4" fill="#48BB78"/>
+    <circle cx="-12" cy="-8" r="4" fill="#ED8936"/>
+    
+    <!-- Cooling vents -->
+    <line x1="10" y1="-20" x2="38" y2="-20" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="10" y1="-10" x2="38" y2="-10" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="10" y1="0" x2="38" y2="0" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- THE HIDDEN DANGER (隐患): Internal electric spark/crack hidden inside, glowing orange/red -->
+    <g transform="translate(0, 25)">
+      <!-- Cutout / window showing internal malfunction -->
+      <path d="M-20,10 L20,10 L15,35 L-15,35 Z" fill="#111827"/>
+      
+      <!-- Crack / Fault line -->
+      <path d="M-5,-5 L3,8 L-2,12 L8,25" fill="none" stroke="#FF5722" stroke-width="3" stroke-linejoin="round"/>
+      
+      <!-- Sparks -->
+      <circle cx="4" cy="5" r="2.5" fill="#F6E05E"/>
+      <circle cx="-3" cy="18" r="2" fill="#F6E05E"/>
+      <path d="M8,2 L14,-2" stroke="#FF9900" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-8,15 L-14,20" stroke="#FF9900" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Warning symbol subtly integrated on top, indicating hazard/hidden risk -->
+    <g transform="translate(0, -65)">
+      <!-- Triangle outline -->
+      <path d="M0,-20 L18,12 L-18,12 Z" fill="#2D3748" stroke="#FF5722" stroke-width="2.5" stroke-linejoin="round"/>
+      <!-- Exclamation mark inside -->
+      <rect x="-1.5" y="-6" width="3" height="10" rx="1.5" fill="#FF5722"/>
+      <circle cx="0" cy="7" r="1.5" fill="#FF5722"/>
+    </g>
+    
+    <!-- Subtle warning pulses (dotted arcs representing latent danger) -->
+    <path d="M-55,-45 A 65 65 0 0 1 55,-45" fill="none" stroke="#FF5722" stroke-width="2" stroke-dasharray="4,6" stroke-linecap="round" opacity="0.7"/>
+  </g>
+</svg>

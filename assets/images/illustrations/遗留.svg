@@ -1,0 +1,57 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements representing "history/time passage" -->
+  <path d="M40 190 L200 190" stroke="#2C323D" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round"/>
+  
+  <!-- Faded historical artifact / pedestal in the background (fading out, left behind) -->
+  <g opacity="0.35">
+    <path d="M70 170 L110 170 L100 130 L80 130 Z" fill="#64748B"/>
+    <rect x="75" y="120" width="25" height="12" rx="2" fill="#94A3B8"/>
+    <!-- Faded antique vase/relic outline -->
+    <path d="M82 120 C78 105, 98 105, 95 120" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Motion / Time lines showing something carried forward across time -->
+  <path d="M100 95 C120 70, 150 70, 170 95" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+
+  <!-- Dynamic modern character action ("Leaving behind / Passing down") -->
+  <g id="character-action">
+    <!-- Body / Torso leaning forward -->
+    <path d="M140 145 L135 120 C135 110, 145 105, 155 110 L165 135" fill="#3B82F6"/>
+    
+    <!-- Head -->
+    <circle cx="160" cy="95" r="11" fill="#FBBF24"/>
+    
+    <!-- Legs in motion -->
+    <path d="M140 145 L125 185 M140 145 L155 180" stroke="#1E293B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Back arm holding the action -->
+    <path d="M145 125 L125 140" fill="none" stroke="#3B82F6" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Front arm stretching forward to place/leave the legacy item -->
+    <path d="M158 118 L185 135" fill="none" stroke="#3B82F6" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- The "Left Behind" Object (遗留物 - Core focus: a glowing historical key/relic resting firmly in the present) -->
+  <g id="legacy-object" transform="translate(180, 135)">
+    <!-- Glow effect to draw focus -->
+    <circle cx="0" cy="15" r="18" fill="#F59E0B" opacity="0.15"/>
+    
+    <!-- Pedestal / Ground base -->
+    <ellipse cx="0" cy="22" rx="16" ry="6" fill="#334155"/>
+    
+    <!-- Ancient glowing artifact / Codex / Relic -->
+    <rect x="-10" y="5" width="20" height="15" rx="3" fill="#F59E0B"/>
+    <rect x="-7" y="8" width="14" height="2" fill="#1A1D24"/>
+    <rect x="-7" y="12" width="10" height="2" fill="#1A1D24"/>
+    
+    <!-- Focus accent ray pointing down to the legacy item -->
+    <polygon points="0,-12 -4,-4 4,-4" fill="#F59E0B"/>
+  </g>
+
+  <!-- Modern UI/Semantic accent: subtle corner framing -->
+  <path d="M24 40 L24 24 L40 24" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M216 40 L216 24 L200 24" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

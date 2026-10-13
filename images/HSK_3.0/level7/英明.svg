@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background visual contrast elements (Chaotic/Dark vs Clear/Bright) -->
+  <!-- Left side: chaotic, tangled paths (representing uncertainty) -->
+  <path d="M 40 100 Q 55 70, 70 110 T 100 90" fill="none" stroke="#2A2F3D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 45 150 Q 60 130, 75 160 T 105 130" fill="none" stroke="#2A2F3D" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Glowing path of wisdom/decision (Right side / Focal point) -->
+  <path d="M 120 180 C 120 130, 140 110, 195 95" fill="none" stroke="#FFB703" stroke-width="5" stroke-linecap="round" stroke-dasharray="6 4" opacity="0.4"/>
+  <path d="M 120 180 C 140 160, 160 135, 190 90" fill="none" stroke="#FFB703" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Main visual subject: Scale exaggeration / Visual Contrast for "英明" (Adjective - Wise/Clear-sighted leadership) -->
+  <!-- A central glowing guiding star/light symbolizing clarity and insight above a focused, decisive figure -->
+  
+  <!-- Subtle glowing backdrop for the wise choice/insight -->
+  <circle cx="190" cy="85" r="28" fill="#FFB703" opacity="0.12"/>
+  <circle cx="190" cy="85" r="18" fill="#FFB703" opacity="0.2"/>
+
+  <!-- The bright star of insight (Bright gold/orange accent) -->
+  <path d="M 190 63 L 194 79 L 210 83 L 194 87 L 190 103 L 186 87 L 170 83 L 186 79 Z" fill="#FFB703"/>
+  <circle cx="190" cy="83" r="4" fill="#FFFFFF"/>
+
+  <!-- Leader / Person figure showing calm, decisive vision -->
+  <!-- Body / Torso -->
+  <path d="M 90 200 C 90 175, 110 165, 125 165 C 140 165, 160 175, 160 200 Z" fill="#3A4256"/>
+  <!-- Head -->
+  <circle cx="125" cy="135" r="16" fill="#E2E8F0"/>
+  <!-- Hair -->
+  <path d="M 111 130 C 111 122, 117 118, 125 118 C 133 118, 139 122, 139 130 C 139 133, 138 135, 138 135 C 138 135, 135 124, 125 124 C 115 124, 111 130, 111 130 Z" fill="#64748B"/>
+
+  <!-- Raised confident hand pointing towards the bright outcome/decision -->
+  <path d="M 140 170 L 165 140 L 173 148 L 150 178 Z" fill="#E2E8F0"/>
+  <circle cx="169" cy="144" r="5" fill="#E2E8F0"/>
+
+  <!-- Other arm resting calmly -->
+  <path d="M 110 175 L 95 195 L 105 200 L 118 180 Z" fill="#3A4256"/>
+
+  <!-- Subtle accent dots for atmosphere (modern tech/insight aesthetic) -->
+  <circle cx="60" cy="70" r="2" fill="#475569"/>
+  <circle cx="100" cy="55" r="1.5" fill="#64748B"/>
+  <circle cx="150" cy="65" r="2.5" fill="#475569"/>
+  <circle cx="75" cy="190" r="2" fill="#475569"/>
+</svg>

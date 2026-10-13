@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative architectural/academic lines (subtle context for top-tier university) -->
+  <g opacity="0.15" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4 4" fill="none">
+    <line x1="40" y1="180" x2="200" y2="180"/>
+    <line x1="70" y1="140" x2="170" y2="140"/>
+    <line x1="100" y1="100" x2="140" y2="100"/>
+  </g>
+
+  <!-- Scale Exaggeration & Visual Contrast for Adjective: "Top-tier" (一流) vs Standard/Lower -->
+  <!-- Standard/Lower pillars/blocks in background (muted, smaller) -->
+  <g opacity="0.4">
+    <!-- Left standard pillar -->
+    <rect x="55" y="110" width="30" height="70" rx="4" fill="#334155"/>
+    <polygon points="50,110 70,85 90,110" fill="#475569"/>
+    <!-- Right standard pillar -->
+    <rect x="155" y="110" width="30" height="70" rx="4" fill="#334155"/>
+    <polygon points="150,110 170,85 190,110" fill="#475569"/>
+  </g>
+
+  <!-- Central "First-Class / Top-Tier" Architectural Monument (Elevated scale, distinct gold accent) -->
+  <!-- Base steps -->
+  <rect x="75" y="175" width="90" height="10" rx="2" fill="#475569"/>
+  <rect x="85" y="165" width="70" height="10" rx="2" fill="#64748B"/>
+
+  <!-- Main Elite Column Structure -->
+  <rect x="100" y="90" width="40" height="75" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- Architectural vertical fluting/details -->
+  <line x1="110" y1="100" x2="110" y2="155" stroke="#334155" stroke-width="2"/>
+  <line x1="130" y1="100" x2="130" y2="155" stroke="#334155" stroke-width="2"/>
+
+  <!-- Elite Pinnacle / Apex (Representing "#1" / "Top") -->
+  <!-- Grand Roof / Pediment -->
+  <polygon points="90,90 120,55 150,90" fill="#334155" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- Glowing Gold Crown / Star / Apex Symbol (Visualizing "一流" - Peak quality) -->
+  <g transform="translate(120, 68)">
+    <!-- Star / Peak indicator -->
+    <polygon points="0,-12 3,-3 12,-3 5,2 8,11 0,6 -8,11 -5,2 -12,-3 -3,-3" fill="#F59E0B"/>
+  </g>
+
+  <!-- Winner's Laurel / Eminence Accents (Gold glowing motifs framing the top pillar) -->
+  <path d="M 92 110 C 82 110 80 130 92 140" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 148 110 C 158 110 160 130 148 140" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Base Ground Reflection / Shadow -->
+  <ellipse cx="120" cy="195" rx="55" ry="6" fill="#0F172A"/>
+
+</svg>

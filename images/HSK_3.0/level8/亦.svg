@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Metaphor: Parallel Reflection / Mirror Symmetry (Visualizing "also / similarly" - 亦) -->
+  <g transform="translate(0, 0)">
+    <!-- Central dividing axis (Subtle dashed line) -->
+    <line x1="120" y1="50" x2="120" y2="190" stroke="#3A4252" stroke-width="2" stroke-dasharray="4 4"/>
+
+    <!-- Left Thought Node (Baseline Idea) -->
+    <g transform="translate(65, 120)">
+      <!-- Thought bubble glow/background -->
+      <circle cx="0" cy="0" r="32" fill="#252A34" stroke="#4F5D73" stroke-width="2"/>
+      <!-- Inner glowing idea icon (Lightbulb/Idea symbol) -->
+      <path d="M-6,8 L6,8 M-4,12 L4,12 M-8,-2 C-8,-10 0,-16 0,-16 C0,-16 8,-10 8,-2 C8,3 4,6 4,10 L-4,10 C-4,6 -8,3 -8,-2 Z" fill="#F39C12"/>
+      <!-- Connection line toward center -->
+      <path d="M 32,0 Q 42,0 52,0" fill="none" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="52" cy="0" r="4" fill="#F39C12"/>
+    </g>
+
+    <!-- Right Thought Node (Parallel / Identical Idea - "Also") -->
+    <g transform="translate(175, 120)">
+      <!-- Thought bubble glow/background -->
+      <circle cx="0" cy="0" r="32" fill="#252A34" stroke="#4F5D73" stroke-width="2"/>
+      <!-- Inner matching idea icon (Identical Lightbulb/Idea symbol) -->
+      <path d="M-6,8 L6,8 M-4,12 L4,12 M-8,-2 C-8,-10 0,-16 0,-16 C0,-16 8,-10 8,-2 C8,3 4,6 4,10 L-4,10 C-4,6 -8,3 -8,-2 Z" fill="#3498DB"/>
+      <!-- Connection line from center -->
+      <path d="M -32,0 Q -42,0 -52,0" fill="none" stroke="#3498DB" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-52" cy="0" r="4" fill="#3498DB"/>
+    </g>
+
+    <!-- Top Convergence Point (Equivalence / Parallel Alignment) -->
+    <g transform="translate(120, 45)">
+      <circle cx="0" cy="0" r="14" fill="#252A34" stroke="#F39C12" stroke-width="2"/>
+      <!-- Parallel equal sign representation -->
+      <rect x="-6" y="-3" width="12" height="2" rx="1" fill="#F39C12"/>
+      <rect x="-6" y="2" width="12" height="2" rx="1" fill="#3498DB"/>
+    </g>
+
+    <!-- Bottom Anchor Indicator (Flow/Context progression) -->
+    <g transform="translate(120, 195)">
+      <path d="M-15,-6 L0,6 L15,-6" fill="none" stroke="#4F5D73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

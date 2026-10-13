@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative Context Grid & Path -->
+  <circle cx="120" cy="120" r="70" fill="none" stroke="#2A313C" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Central Physical Object: A sleek, modern archer's bow and arrow set with a striking visual outcome (One arrow splitting into two distinct targets/prizes) -->
+  <g transform="translate(120, 120)">
+    <!-- Trajectory glowing lines -->
+    <path d="M-60 0 L 20 -40" stroke="#3A4454" stroke-width="2" stroke-dasharray="6 4"/>
+    <path d="M-60 0 L 20 40" stroke="#3A4454" stroke-width="2" stroke-dasharray="6 4"/>
+
+    <!-- Target 1 (Top Right) -->
+    <g transform="translate(45, -45)">
+      <circle cx="0" cy="0" r="20" fill="#222B36"/>
+      <circle cx="0" cy="0" r="14" fill="#2E3A46"/>
+      <circle cx="0" cy="0" r="7" fill="#F59E0B"/>
+      <!-- Embedded arrow tip -->
+      <polygon points="-12,6 -4,2 0,0" fill="#60A5FA"/>
+    </g>
+
+    <!-- Target 2 (Bottom Right) -->
+    <g transform="translate(45, 45)">
+      <circle cx="0" cy="0" r="20" fill="#222B36"/>
+      <circle cx="0" cy="0" r="14" fill="#2E3A46"/>
+      <circle cx="0" cy="0" r="7" fill="#F59E0B"/>
+      <!-- Embedded arrow tip -->
+      <polygon points="-12,-6 -4,-2 0,0" fill="#60A5FA"/>
+    </g>
+
+    <!-- The Bow (Left Side) -->
+    <path d="M-30,-50 C-60,-20 -60,20 -30,50" fill="none" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-30,-50 L-30,50" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- The Main Arrow transforming into two -->
+    <!-- Shaft from bow -->
+    <line x1="-30" y1="0" x2="5" y2="0" stroke="#F8FAFC" stroke-width="3"/>
+    
+    <!-- Splitting into Upper Arrow -->
+    <path d="M5 0 L 30 -38" fill="none" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="35,-42 25,-42 30,-34" fill="#60A5FA"/>
+
+    <!-- Splitting into Lower Arrow -->
+    <path d="M5 0 L 30 38" fill="none" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="35,42 25,42 30,34" fill="#60A5FA"/>
+
+    <!-- Fletching / Feathers at the back -->
+    <path d="M-38,-6 L-32,0 L-38,6" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background grid/ambient shadow for depth -->
+  <circle cx="120" cy="120" r="90" fill="#15181F"/>
+
+  <!-- Motion lines indicating stealthy/clandestine scheming action -->
+  <path d="M 65 75 Q 90 60 115 75" stroke="#2C3240" stroke-width="2" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+  <path d="M 125 75 Q 150 60 175 75" stroke="#2C3240" stroke-width="2" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+
+  <!-- The Scheme/Plot Object: A stylized blueprint/map unfolding on a desk -->
+  <!-- Desk surface -->
+  <path d="M 50 170 L 190 170 L 205 200 L 35 200 Z" fill="#222630"/>
+  <path d="M 45 170 L 195 170" stroke="#F59E0B" stroke-width="2" opacity="0.3"/>
+
+  <!-- Blueprint document laid out -->
+  <polygon points="80,145 160,135 175,175 95,185" fill="#2A313C"/>
+  <polygon points="85,140 155,130 170,170 100,180" fill="#323B49"/>
+  <!-- Secret schematic details (lines and nodes) -->
+  <path d="M 105 155 L 125 150 L 140 165" stroke="#F59E0B" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <circle cx="105" cy="155" r="3" fill="#F59E0B"/>
+  <circle cx="140" cy="165" r="3" fill="#EF4444"/>
+  <line x1="125" y1="150" x2="135" y2="140" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <circle cx="135" cy="140" r="2.5" fill="#EF4444"/>
+
+  <!-- Character 1 (Left - Leaning in, whispering/directing) -->
+  <!-- Head & Hood/Hair -->
+  <path d="M 65 95 C 55 95 48 105 50 118 C 52 125 60 130 68 130 Z" fill="#111317"/>
+  <circle cx="62" cy="112" r="9" fill="#D4B28C"/> <!-- Face skin -->
+  <!-- Shadow cast over eyes for shady/sinister look -->
+  <path d="M 53 108 L 71 108 L 68 114 L 55 114 Z" fill="#1A1D24" opacity="0.7"/>
+  <!-- Body/Torso -->
+  <path d="M 45 170 C 45 140 55 130 70 130 C 85 130 95 140 95 170 Z" fill="#2E3642"/>
+  <!-- Pointing Finger/Hand Action -->
+  <path d="M 75 145 L 95 152 L 78 158 Z" fill="#D4B28C"/>
+
+  <!-- Character 2 (Right - Collaborating/Listening closely) -->
+  <!-- Head -->
+  <circle cx="178" cy="112" r="9" fill="#C5A07C"/>
+  <!-- Shadow over eyes -->
+  <path d="M 169 108 L 187 108 L 184 114 L 171 114 Z" fill="#1A1D24" opacity="0.7"/>
+  <!-- Hair -->
+  <path d="M 170 95 C 182 95 190 102 190 115 C 185 115 180 112 175 112 Z" fill="#1F242D"/>
+  <!-- Body/Torso -->
+  <path d="M 195 170 C 195 140 185 130 170 130 C 155 130 145 140 145 170 Z" fill="#252C37"/>
+  <!-- Hand resting on chin/thinking -->
+  <path d="M 165 135 C 168 130 174 132 173 138 Z" fill="#C5A07C"/>
+
+  <!-- Central Focal Action Element: Glowing malicious plan symbol (A glowing red target/network node hovering above the blueprint) -->
+  <circle cx="127" cy="110" r="14" fill="none" stroke="#EF4444" stroke-width="2.5" opacity="0.8"/>
+  <circle cx="127" cy="110" r="6" fill="#EF4444"/>
+  <path d="M 127 90 L 127 96" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 127 124 L 127 130" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 107 110 L 113 110" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 141 110 L 147 110" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Dynamic Motion Lines for plotting/scheming -->
+  <path d="M 112 110 Q 120 98 127 96" stroke="#F59E0B" stroke-width="1.5" fill="none" stroke-dasharray="2 2"/>
+  
+  <!-- Accent Lighting / Highlights (Modern Flat Vector touch) -->
+  <circle cx="127" cy="110" r="2" fill="#FFFFFF" opacity="0.9"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing background gradient for depth -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.5"/>
+
+  <!-- Motion lines / Action indicators showing transmission/inheritance -->
+  <path d="M 65 120 Q 95 80 135 90" stroke="#FF9F43" stroke-width="2.5" stroke-dasharray="4 4" fill="none" opacity="0.7"/>
+  <path d="M 105 150 Q 140 120 185 130" stroke="#FF9F43" stroke-width="2.5" stroke-dasharray="4 4" fill="none" opacity="0.7"/>
+  
+  <path d="M 125 75 L 140 90 L 122 100" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 175 115 L 190 130 L 172 140" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Generation 1 (Parent / Source Character - Left/Top) -->
+  <g transform="translate(45, 80)">
+    <!-- Head -->
+    <circle cx="25" cy="20" r="14" fill="#4B6584"/>
+    <!-- Body/Shoulders -->
+    <path d="M 5 52 C 5 38 15 35 25 35 C 35 35 45 38 45 52 Z" fill="#4B6584"/>
+    <!-- Expressive/Active face detail -->
+    <circle cx="29" cy="18" r="2" fill="#1A1D24"/>
+    <path d="M 27 26 Q 29 28 31 26" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- DNA / Genetic Helix Strand (Visualizing 遗传 - Di truyền) -->
+  <g transform="translate(95, 85)">
+    <!-- Connecting base pairs -->
+    <line x1="15" y1="10" x2="35" y2="20" stroke="#546DE5" stroke-width="2" opacity="0.6"/>
+    <line x1="15" y1="30" x2="35" y2="40" stroke="#546DE5" stroke-width="2" opacity="0.6"/>
+    <line x1="15" y1="50" x2="35" y2="60" stroke="#546DE5" stroke-width="2" opacity="0.6"/>
+
+    <!-- Double helix strands -->
+    <path d="M 15 0 C 35 15 35 30 15 45 C 35 60 35 75 15 90" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M 35 0 C 15 15 15 30 35 45 C 15 60 15 75 35 90" stroke="#00D2D3" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Nodes highlighting genetic traits -->
+    <circle cx="15" cy="22" r="3" fill="#FF9F43"/>
+    <circle cx="35" cy="45" r="3" fill="#00D2D3"/>
+    <circle cx="15" cy="68" r="3" fill="#FF9F43"/>
+  </g>
+
+  <!-- Generation 2 (Offspring / Result Character - Right/Bottom) -->
+  <g transform="translate(150, 110)">
+    <!-- Head (Slightly smaller, mirroring parent feature) -->
+    <circle cx="25" cy="20" r="12" fill="#00D2D3"/>
+    <!-- Body/Shoulders -->
+    <path d="M 7 48 C 7 36 15 33 25 33 C 35 33 43 36 43 48 Z" fill="#00D2D3"/>
+    <!-- Face detail -->
+    <circle cx="29" cy="18" r="1.5" fill="#1A1D24"/>
+    <path d="M 27 25 Q 29 27 31 25" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Action focus indicator rings (gold/orange accent) -->
+  <circle cx="120" cy="120" r="75" stroke="#FF9F43" stroke-width="1.5" stroke-dasharray="6 8" fill="none" opacity="0.3"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "谣言" (Rumor) as a chain of distorted, fragmented speech bubbles spreading from a central source -->
+  
+  <!-- Central Source -->
+  <circle cx="120" cy="120" r="20" fill="#FF9F1C"/>
+  <path d="M120 100 L120 140 M100 120 L140 120" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Spreading distorted speech bubbles -->
+  <path d="M150 90 L180 70 L170 100 Z" fill="#FF9F1C" opacity="0.8"/>
+  <path d="M90 90 L60 70 L70 100 Z" fill="#FF9F1C" opacity="0.6"/>
+  <path d="M150 150 L180 170 L170 140 Z" fill="#FF9F1C" opacity="0.4"/>
+  <path d="M90 150 L60 170 L70 140 Z" fill="#FF9F1C" opacity="0.3"/>
+  
+  <!-- Connecting lines suggesting transmission -->
+  <path d="M135 105 L160 85" stroke="#FF9F1C" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M105 105 L80 85" stroke="#FF9F1C" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M135 135 L160 155" stroke="#FF9F1C" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M105 135 L80 155" stroke="#FF9F1C" stroke-width="3" stroke-dasharray="4 4"/>
+  
+  <!-- Subtle distortion effect -->
+  <ellipse cx="120" cy="120" rx="40" ry="40" fill="none" stroke="#FF9F1C" stroke-width="2" stroke-dasharray="2 6" opacity="0.5"/>
+</svg>

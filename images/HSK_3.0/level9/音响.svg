@@ -1,0 +1,29 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(60, 45)">
+    <!-- Subwoofer Body -->
+    <rect x="0" y="0" width="120" height="150" rx="16" fill="#2D333F" stroke="#3E4756" stroke-width="3"/>
+    
+    <!-- Outer Speaker Cone Rim -->
+    <circle cx="60" cy="65" r="38" fill="#1A1D24" stroke="#4F5D73" stroke-width="4"/>
+    <!-- Inner Speaker Cone -->
+    <circle cx="60" cy="65" r="28" fill="#252B36"/>
+    <circle cx="60" cy="65" r="12" fill="#13161C"/>
+    
+    <!-- Tweeter Rim -->
+    <circle cx="60" cy="122" r="16" fill="#1A1D24" stroke="#4F5D73" stroke-width="3"/>
+    <circle cx="60" cy="122" r="10" fill="#252B36"/>
+    <circle cx="60" cy="122" r="4" fill="#13161C"/>
+    
+    <!-- Volume/Power Knob -->
+    <circle cx="102" cy="22" r="6" fill="#F59E0B"/>
+    
+    <!-- Sound Waves Emanating -->
+    <path d="M 112 40 C 124 50, 124 80, 112 90" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 124 30 C 142 45, 142 85, 124 100" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+    <path d="M 8 40 C -4 50, -4 80, 8 90" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M -4 30 C -22 45, -22 85, -4 100" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

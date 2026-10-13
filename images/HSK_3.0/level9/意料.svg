@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient grid/lighting -->
+  <circle cx="120" cy="110" r="80" fill="#222733" opacity="0.6"/>
+
+  <!-- Motion lines representing the unexpected trajectory / surprise action -->
+  <path d="M 60 140 Q 90 70 140 100 T 190 75" fill="none" stroke="#FF9F43" stroke-width="2.5" stroke-dasharray="4 4" opacity="0.4"/>
+  <path d="M 50 155 Q 90 85 145 110 T 200 90" fill="none" stroke="#FF9F43" stroke-width="1.5" opacity="0.2"/>
+
+  <!-- Dynamic Character (Surprised/Anticipating Action - Verb of realization/unexpected outcome) -->
+  <!-- Body/Torso -->
+  <path d="M 95 180 L 105 135 L 145 135 L 155 180 Z" fill="#2E4057"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="105" r="18" fill="#FAD02C"/>
+  <path d="M 104 100 Q 120 90 136 100 L 136 105 L 104 105 Z" fill="#3E2723"/> <!-- Hair -->
+
+  <!-- Surprised Open Eyes -->
+  <circle cx="114" cy="106" r="2.5" fill="#1A1D24"/>
+  <circle cx="126" cy="106" r="2.5" fill="#1A1D24"/>
+  <!-- Surprised "O" Mouth -->
+  <ellipse cx="120" cy="115" rx="3" ry="4" fill="#1A1D24"/>
+
+  <!-- Dynamic arms reacting to the unexpected event -->
+  <!-- Left arm pulled back in surprise -->
+  <path d="M 98 140 L 75 125 L 70 135" fill="none" stroke="#2E4057" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="68" cy="138" r="5" fill="#FAD02C"/>
+
+  <!-- Right arm pointing forward/up toward the unexpected result -->
+  <path d="M 142 140 L 175 110 L 185 105" fill="none" stroke="#2E4057" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="188" cy="103" r="5" fill="#FAD02C"/>
+
+  <!-- The "Unexpected Result" Object (Floating / Vaulting out of standard path) -->
+  <!-- Glowing tray or base -->
+  <ellipse cx="160" cy="80" rx="22" ry="7" fill="#00D2D3" opacity="0.3"/>
+  
+  <!-- Main dynamic icon: A glowing crystal/star bursting out -->
+  <path d="M 160 50 L 167 68 L 185 75 L 167 82 L 160 100 L 153 82 L 135 75 L 153 68 Z" fill="#FF9F43"/>
+  <circle cx="160" cy="75" r="6" fill="#FFFFFF"/>
+
+  <!-- Action / Motion rays from the unexpected outcome -->
+  <line x1="160" y1="35" x2="160" y2="43" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="195" y1="65" x2="187" y2="69" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="125" y1="65" x2="133" y2="69" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Floor ground line -->
+  <line x1="40" y1="180" x2="200" y2="180" stroke="#383D4A" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Anticipation shadow -->
+  <ellipse cx="125" cy="180" rx="35" ry="4" fill="#0D0F12"/>
+</svg>

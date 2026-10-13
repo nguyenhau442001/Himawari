@@ -1,0 +1,52 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Timeline axis representing "from the past to the present" (一直 / 从前到现在) -->
+    <!-- Continuous glowing horizontal timeline track -->
+    <line x1="30" y1="120" x2="210" y2="120" stroke="#2A303C" stroke-width="6" stroke-linecap="round"/>
+    <line x1="30" y1="120" x2="185" y2="120" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Past Node -->
+    <circle cx="60" cy="120" r="6" fill="#4B5563"/>
+    
+    <!-- Middle Node -->
+    <circle cx="120" cy="120" r="6" fill="#4B5563"/>
+    
+    <!-- Present Node (Highlight) -->
+    <circle cx="180" cy="120" r="10" fill="#1A1D24" stroke="#F59E0B" stroke-width="4"/>
+    <circle cx="180" cy="120" r="4" fill="#F59E0B"/>
+
+    <!-- Consistent state indicators (Representing "always/unchanged polite nature" - 保持一贯) -->
+    <!-- Milestone 1 (Past) -->
+    <g transform="translate(60, 85)">
+      <!-- Minimalist polite bow/greeting posture icon -->
+      <circle cx="0" cy="-5" r="7" fill="#6EE7B7"/>
+      <path d="M-8,12 C-8,5 8,5 8,12" stroke="#6EE7B7" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Milestone 2 (Middle) -->
+    <g transform="translate(120, 85)">
+      <circle cx="0" cy="-5" r="7" fill="#6EE7B7"/>
+      <path d="M-8,12 C-8,5 8,5 8,12" stroke="#6EE7B7" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Milestone 3 (Present - emphasized with glowing aura) -->
+    <g transform="translate(180, 85)">
+      <circle cx="0" cy="-5" r="8" fill="#10B981"/>
+      <path d="M-9,13 C-9,5 9,5 9,13" stroke="#10B981" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Trend line overlay connecting the consistent state (Smooth parallel tracking) -->
+    <path d="M 60 70 Q 120 70 180 70" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+
+    <!-- Label / Contextual Metaphor elements: Elegant directional arrow sweeping across -->
+    <path d="M 45 155 L 195 155" stroke="#374151" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+    <polygon points="195,151 203,155 195,159" fill="#374151"/>
+
+    <!-- Focal point badge showing constant continuity over time -->
+    <rect x="75" y="178" width="90" height="26" rx="6" fill="#252D3D"/>
+    <circle cx="90" cy="191" r="4" fill="#F59E0B"/>
+    <line x1="102" y1="191" x2="150" y2="191" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

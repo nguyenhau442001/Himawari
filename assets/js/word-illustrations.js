@@ -22212,6 +22212,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/验收.svg",
     "caption": "kiểm nghiệm và nghiệm thu"
   },
+  "验证": {
+    "file": "验证.svg",
+    "src": "images/HSK_2.0/level6/验证.svg",
+    "caption": "kiểm chứng"
+  },
   "厌恶": {
     "file": "厌恶.svg",
     "src": "images/HSK_2.0/level6/厌恶.svg",
@@ -22247,6 +22252,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/遥远.svg",
     "caption": "xa xôi"
   },
+  "谣言": {
+    "file": "谣言.svg",
+    "src": "images/HSK_2.0/level6/谣言.svg",
+    "caption": "lời đồn"
+  },
   "要点": {
     "file": "要点.svg",
     "src": "images/HSK_2.0/level6/要点.svg",
@@ -22277,6 +22287,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/野心.svg",
     "caption": "dã tâm"
   },
+  "液体": {
+    "file": "液体.svg",
+    "src": "images/HSK_2.0/level6/液体.svg",
+    "caption": "chất lỏng"
+  },
+  "一流": {
+    "file": "一流.svg",
+    "src": "images/HSK_2.0/level6/一流.svg",
+    "caption": "hàng đầu, nhất lưu"
+  },
+  "依旧": {
+    "file": "依旧.svg",
+    "src": "images/HSK_2.0/level6/依旧.svg",
+    "caption": "vẫn như cũ"
+  },
   "依据": {
     "file": "依据.svg",
     "src": "images/HSK_2.0/level6/依据.svg",
@@ -22287,20 +22312,240 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/依靠.svg",
     "caption": "dựa vào"
   },
+  "依赖": {
+    "file": "依赖.svg",
+    "src": "images/HSK_2.0/level6/依赖.svg",
+    "caption": "phụ thuộc vào"
+  },
+  "依托": {
+    "file": "依托.svg",
+    "src": "images/HSK_2.0/level6/依托.svg",
+    "caption": "dựa vào, nương nhờ"
+  },
+  "衣裳": {
+    "file": "衣裳.svg",
+    "src": "images/HSK_2.0/level6/衣裳.svg",
+    "caption": "quần áo"
+  },
+  "一度": {
+    "file": "一度.svg",
+    "src": "images/HSK_2.0/level6/一度.svg",
+    "caption": "một thời, có lúc"
+  },
+  "一贯": {
+    "file": "一贯.svg",
+    "src": "images/HSK_2.0/level6/一贯.svg",
+    "caption": "nhất quán"
+  },
+  "一目了然": {
+    "file": "一目了然.svg",
+    "src": "images/HSK_2.0/level6/一目了然.svg",
+    "caption": "nhìn là rõ ngay"
+  },
+  "一向": {
+    "file": "一向.svg",
+    "src": "images/HSK_2.0/level6/一向.svg",
+    "caption": "từ trước đến nay"
+  },
+  "遗产": {
+    "file": "遗产.svg",
+    "src": "images/HSK_2.0/level6/遗产.svg",
+    "caption": "di sản"
+  },
+  "遗传": {
+    "file": "遗传.svg",
+    "src": "images/HSK_2.0/level6/遗传.svg",
+    "caption": "di truyền"
+  },
+  "遗留": {
+    "file": "遗留.svg",
+    "src": "images/HSK_2.0/level6/遗留.svg",
+    "caption": "để lại, lưu lại"
+  },
+  "遗失": {
+    "file": "遗失.svg",
+    "src": "images/HSK_2.0/level6/遗失.svg",
+    "caption": "làm mất"
+  },
+  "疑惑": {
+    "file": "疑惑.svg",
+    "src": "images/HSK_2.0/level6/疑惑.svg",
+    "caption": "nghi hoặc, hoài nghi"
+  },
+  "仪器": {
+    "file": "仪器.svg",
+    "src": "images/HSK_2.0/level6/仪器.svg",
+    "caption": "thiết bị, máy đo"
+  },
+  "仪式": {
+    "file": "仪式.svg",
+    "src": "images/HSK_2.0/level6/仪式.svg",
+    "caption": "nghi thức, lễ"
+  },
+  "以便": {
+    "file": "以便.svg",
+    "src": "images/HSK_2.0/level6/以便.svg",
+    "caption": "để cho, để tiện"
+  },
+  "以往": {
+    "file": "以往.svg",
+    "src": "images/HSK_2.0/level6/以往.svg",
+    "caption": "trước đây"
+  },
+  "以致": {
+    "file": "以致.svg",
+    "src": "images/HSK_2.0/level6/以致.svg",
+    "caption": "dẫn đến (kết quả không mong muốn)"
+  },
+  "亦": {
+    "file": "亦.svg",
+    "src": "images/HSK_2.0/level6/亦.svg",
+    "caption": "cũng (văn viết)"
+  },
+  "翼": {
+    "file": "翼.svg",
+    "src": "images/HSK_2.0/level6/翼.svg",
+    "caption": "cánh"
+  },
+  "一帆风顺": {
+    "file": "一帆风顺.svg",
+    "src": "images/HSK_2.0/level6/一帆风顺.svg",
+    "caption": "thuận lợi suôn sẻ"
+  },
+  "一举两得": {
+    "file": "一举两得.svg",
+    "src": "images/HSK_2.0/level6/一举两得.svg",
+    "caption": "một mũi tên trúng hai đích"
+  },
+  "一如既往": {
+    "file": "一如既往.svg",
+    "src": "images/HSK_2.0/level6/一如既往.svg",
+    "caption": "như trước nay vẫn vậy"
+  },
+  "一丝不苟": {
+    "file": "一丝不苟.svg",
+    "src": "images/HSK_2.0/level6/一丝不苟.svg",
+    "caption": "tỉ mỉ cẩn trọng từng chút"
+  },
+  "异常": {
+    "file": "异常.svg",
+    "src": "images/HSK_2.0/level6/异常.svg",
+    "caption": "khác thường"
+  },
+  "意料": {
+    "file": "意料.svg",
+    "src": "images/HSK_2.0/level6/意料.svg",
+    "caption": "dự đoán, lường trước"
+  },
   "意识": {
     "file": "意识.svg",
     "src": "images/HSK_2.0/level6/意识.svg",
     "caption": "ý thức"
+  },
+  "意图": {
+    "file": "意图.svg",
+    "src": "images/HSK_2.0/level6/意图.svg",
+    "caption": "ý đồ"
   },
   "意味着": {
     "file": "意味着.svg",
     "src": "images/HSK_2.0/level6/意味着.svg",
     "caption": "có nghĩa là, ngụ ý rằng"
   },
+  "意向": {
+    "file": "意向.svg",
+    "src": "images/HSK_2.0/level6/意向.svg",
+    "caption": "ý định, khuynh hướng"
+  },
+  "意志": {
+    "file": "意志.svg",
+    "src": "images/HSK_2.0/level6/意志.svg",
+    "caption": "ý chí"
+  },
+  "毅力": {
+    "file": "毅力.svg",
+    "src": "images/HSK_2.0/level6/毅力.svg",
+    "caption": "ý chí kiên định, nghị lực"
+  },
+  "毅然": {
+    "file": "毅然.svg",
+    "src": "images/HSK_2.0/level6/毅然.svg",
+    "caption": "kiên quyết, quả quyết"
+  },
+  "阴谋": {
+    "file": "阴谋.svg",
+    "src": "images/HSK_2.0/level6/阴谋.svg",
+    "caption": "âm mưu"
+  },
+  "音响": {
+    "file": "音响.svg",
+    "src": "images/HSK_2.0/level6/音响.svg",
+    "caption": "âm thanh, loa đài"
+  },
+  "隐蔽": {
+    "file": "隐蔽.svg",
+    "src": "images/HSK_2.0/level6/隐蔽.svg",
+    "caption": "ẩn giấu, che khuất"
+  },
+  "隐患": {
+    "file": "隐患.svg",
+    "src": "images/HSK_2.0/level6/隐患.svg",
+    "caption": "nguy cơ tiềm ẩn"
+  },
+  "隐瞒": {
+    "file": "隐瞒.svg",
+    "src": "images/HSK_2.0/level6/隐瞒.svg",
+    "caption": "giấu giếm"
+  },
+  "隐私": {
+    "file": "隐私.svg",
+    "src": "images/HSK_2.0/level6/隐私.svg",
+    "caption": "đời tư, riêng tư"
+  },
+  "隐约": {
+    "file": "隐约.svg",
+    "src": "images/HSK_2.0/level6/隐约.svg",
+    "caption": "lờ mờ, mơ hồ"
+  },
+  "引导": {
+    "file": "引导.svg",
+    "src": "images/HSK_2.0/level6/引导.svg",
+    "caption": "dẫn dắt, hướng dẫn"
+  },
+  "引擎": {
+    "file": "引擎.svg",
+    "src": "images/HSK_2.0/level6/引擎.svg",
+    "caption": "động cơ, máy"
+  },
+  "引用": {
+    "file": "引用.svg",
+    "src": "images/HSK_2.0/level6/引用.svg",
+    "caption": "trích dẫn"
+  },
   "饮食": {
     "file": "饮食.svg",
     "src": "images/HSK_2.0/level6/饮食.svg",
     "caption": "ăn uống"
+  },
+  "婴儿": {
+    "file": "婴儿.svg",
+    "src": "images/HSK_2.0/level6/婴儿.svg",
+    "caption": "trẻ sơ sinh"
+  },
+  "英明": {
+    "file": "英明.svg",
+    "src": "images/HSK_2.0/level6/英明.svg",
+    "caption": "sáng suốt (lãnh đạo)"
+  },
+  "英勇": {
+    "file": "英勇.svg",
+    "src": "images/HSK_2.0/level6/英勇.svg",
+    "caption": "anh dũng"
+  },
+  "迎面": {
+    "file": "迎面.svg",
+    "src": "images/HSK_2.0/level6/迎面.svg",
+    "caption": "đối diện, chính diện"
   },
   "拥有": {
     "file": "拥有.svg",

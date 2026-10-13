@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visualizing "以便" (Causality/Facilitation) as a bridge/pathway mechanism -->
+  <!-- The left side represents the action (leaving a contact), the right side represents the result (connection) -->
+  
+  <!-- Path/Bridge structure -->
+  <path d="M40 160 L120 120 L200 160" stroke="#4A5568" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left node: The Action (Input) -->
+  <circle cx="40" cy="160" r="12" fill="#F6AD55"/>
+  <rect x="34" y="166" width="12" height="20" rx="2" fill="#F6AD55"/>
+  
+  <!-- Right node: The Result (Output) -->
+  <circle cx="200" cy="160" r="12" fill="#63B3ED"/>
+  <path d="M194 166 L206 166 L200 180 Z" fill="#63B3ED"/>
+  
+  <!-- The Facilitator (The "以便" mechanism) -->
+  <!-- A golden arrow/path connecting the two, showing the flow of causality -->
+  <g fill="#F6AD55">
+    <rect x="110" y="110" width="20" height="20" rx="4"/>
+    <path d="M120 130 L120 150" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Connecting lines indicating the "so that" progression -->
+  <path d="M55 155 L110 125" stroke="#718096" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M130 125 L185 155" stroke="#718096" stroke-width="3" stroke-dasharray="4 4"/>
+  
+  <!-- Decorative accent for progression -->
+  <circle cx="120" cy="120" r="4" fill="#E2E8F0"/>
+</svg>

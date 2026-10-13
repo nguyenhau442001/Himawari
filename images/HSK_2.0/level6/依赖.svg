@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="160" width="160" height="12" rx="2" fill="#374151"/>
+  
+  <!-- Computer Monitor -->
+  <rect x="85" y="80" width="70" height="50" rx="4" fill="#4B5563"/>
+  <rect x="90" y="85" width="60" height="40" rx="2" fill="#1F2937"/>
+  <rect x="115" y="130" width="10" height="30" fill="#374151"/>
+  
+  <!-- Character leaning heavily onto the desk/computer -->
+  <path d="M120 160 L120 110" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Character Body -->
+  <path d="M60 180 C60 150, 80 140, 100 140 L140 140 C160 140, 180 150, 180 180" fill="#9CA3AF"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="120" r="20" fill="#E5E7EB"/>
+  
+  <!-- Arms slumped over the desk -->
+  <path d="M90 145 L70 170" stroke="#E5E7EB" stroke-width="12" stroke-linecap="round"/>
+  <path d="M150 145 L170 170" stroke="#E5E7EB" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Motion lines indicating weight/leaning -->
+  <path d="M100 110 Q110 100 120 100" stroke="#F59E0B" stroke-width="2" fill="none"/>
+  <path d="M140 110 Q130 100 120 100" stroke="#F59E0B" stroke-width="2" fill="none"/>
+</svg>
