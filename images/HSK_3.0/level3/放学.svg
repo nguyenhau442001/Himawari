@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- School Building Silhouette -->
+  <path d="M60 180h120v-60l-60-30-60 30v60z" fill="#374151"/>
+  <rect x="80" y="140" width="30" height="40" fill="#4B5563"/>
+  <rect x="130" y="140" width="30" height="40" fill="#4B5563"/>
+  
+  <!-- Students walking out -->
+  <g transform="translate(100, 160)">
+    <circle cx="10" cy="10" r="8" fill="#FBBF24"/>
+    <path d="M10 18v20M5 30l10-5M5 50l5-12 5 12" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <g transform="translate(140, 170)">
+    <circle cx="10" cy="10" r="8" fill="#FBBF24"/>
+    <path d="M10 18v20M15 30l-10-5M15 50l-5-12-5 12" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Clock indicating end of day -->
+  <circle cx="180" cy="60" r="30" fill="#1A1D24" stroke="#FBBF24" stroke-width="4"/>
+  <line x1="180" y1="60" x2="180" y2="40" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+  <line x1="180" y1="60" x2="200" y2="60" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Ground -->
+  <path d="M40 200h160" stroke="#4B5563" stroke-width="4" stroke-linecap="round"/>
+</svg>

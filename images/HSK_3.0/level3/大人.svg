@@ -1,0 +1,50 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor shadow / grounding -->
+  <ellipse cx="120" cy="200" rx="60" ry="8" fill="#111318"/>
+
+  <!-- Tall Adult Figure (Left) representing "大人" -->
+  <g transform="translate(68, 48)">
+    <!-- Body / Coat -->
+    <path d="M12 70 C12 55, 32 50, 52 50 C72 50, 92 55, 92 70 L98 142 C98 146, 94 150, 90 150 L14 150 C10 150, 6 146, 6 142 Z" fill="#2E4057"/>
+    <!-- Suit lapels / inner shirt -->
+    <path d="M52 50 L52 90 M40 50 L46 75 M64 50 L58 75" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <!-- Neck -->
+    <rect x="44" y="38" width="16" height="14" fill="#E8BEAC"/>
+    <!-- Head -->
+    <circle cx="52" cy="26" r="15" fill="#E8BEAC"/>
+    <!-- Hair (Adult neat style) -->
+    <path d="M37 25 C37 15, 45 11, 52 11 C60 11, 67 15, 67 26 C67 28, 65 24, 62 21 C59 18, 55 17, 52 17 C48 17, 44 19, 40 22 C38 24, 37 25, 37 25 Z" fill="#3D322C"/>
+    <!-- Glasses / Mature facial detail (Subtle smart look) -->
+    <circle cx="47" cy="26" r="4" fill="none" stroke="#F4A261" stroke-width="1.5"/>
+    <circle cx="57" cy="26" r="4" fill="none" stroke="#F4A261" stroke-width="1.5"/>
+    <line x1="51" y1="26" x2="53" y2="26" stroke="#F4A261" stroke-width="1.5"/>
+  </g>
+
+  <!-- Shorter Child Figure (Right) for scale comparison highlighting "大人" -->
+  <g transform="translate(132, 80)">
+    <!-- Body / Outfit -->
+    <path d="M10 50 C10 40, 22 36, 38 36 C54 36, 66 40, 66 50 L70 112 C70 116, 66 120, 62 120 L14 120 C10 120, 6 116, 6 112 Z" fill="#E76F51"/>
+    <!-- Neck -->
+    <rect x="30" y="26" width="16" height="12" fill="#F4A261"/>
+    <!-- Head -->
+    <circle cx="38" cy="18" r="12" fill="#F4A261"/>
+    <!-- Hair (Child playful style) -->
+    <path d="M26 16 C26 9, 32 6, 38 6 C45 6, 50 9, 50 17 C46 14, 42 13, 38 13 C33 13, 29 14, 26 16 Z" fill="#2C2C2C"/>
+  </g>
+
+  <!-- Height comparison indicator (Subtle dashed line and bracket for clarity) -->
+  <g opacity="0.3">
+    <line x1="50" y1="50" x2="50" y2="198" stroke="#F4A261" stroke-dasharray="3 3" stroke-width="1.5"/>
+    <line x1="46" y1="50" x2="54" y2="50" stroke="#F4A261" stroke-width="1.5"/>
+    <line x1="46" y1="198" x2="54" y2="198" stroke="#F4A261" stroke-width="1.5"/>
+  </g>
+
+  <!-- Gentle connecting gesture / interaction -->
+  <path d="M110 115 Q125 105 140 110" fill="none" stroke="#E9C46A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Focus accent ring around the main adult character -->
+  <circle cx="120" cy="100" r="76" fill="none" stroke="#F4A261" stroke-width="2" stroke-dasharray="8 8" opacity="0.4"/>
+</svg>

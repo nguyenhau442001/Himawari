@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Document background sheet representing standard utility/frequency -->
+    <rect x="-55" y="-70" width="110" height="140" rx="12" fill="#2D333B" stroke="#3E4451" stroke-width="2"/>
+    
+    <!-- Repeated alignment lines indicating "frequent / common use" -->
+    <!-- Line 1 (Top) -->
+    <rect x="-35" y="-45" width="70" height="8" rx="4" fill="#61AFEF" opacity="0.9"/>
+    <circle cx="-42" cy="-41" r="3" fill="#61AFEF" opacity="0.9"/>
+
+    <!-- Line 2 (Middle - Focus/Highlighted as the core frequent item) -->
+    <rect x="-35" y="-25" width="70" height="20" rx="6" fill="#F48024" opacity="0.15"/>
+    <rect x="-35" y="-20" width="50" height="10" rx="5" fill="#F48024"/>
+    <circle cx="-42" cy="-15" r="4" fill="#F48024"/>
+
+    <!-- Line 3 -->
+    <rect x="-35" y="5" width="70" height="8" rx="4" fill="#61AFEF" opacity="0.9"/>
+    <circle cx="-42" cy="9" r="3" fill="#61AFEF" opacity="0.9"/>
+
+    <!-- Line 4 -->
+    <rect x="-35" y="25" width="55" height="8" rx="4" fill="#61AFEF" opacity="0.6"/>
+    <circle cx="-42" cy="29" r="3" fill="#61AFEF" opacity="0.6"/>
+
+    <!-- Line 5 (Bottom) -->
+    <rect x="-35" y="45" width="40" height="8" rx="4" fill="#61AFEF" opacity="0.3"/>
+    <circle cx="-42" cy="49" r="3" fill="#61AFEF" opacity="0.3"/>
+
+    <!-- Prominent "Check / Commonly Used" Badge -->
+    <g transform="translate(38, -25)">
+      <circle cx="0" cy="0" r="16" fill="#F48024"/>
+      <path d="M-6 -1 L-2 4 L7 -5" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

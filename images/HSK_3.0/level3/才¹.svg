@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(40, 60)">
+<path d="M120 120 C120 80, 140 60, 160 60 C180 60, 200 80, 200 120 L200 140 C200 160, 180 170, 160 170 C140 170, 120 160, 120 140 Z" fill="#3D4451"/>
+<path d="M140 100 C140 90, 150 80, 160 80 C170 80, 180 90, 180 100 L180 120 C180 130, 170 140, 160 140 C150 140, 140 130, 140 120 Z" fill="#FFB84D"/>
+<circle cx="160" cy="100" r="8" fill="#1A1D24"/>
+<path d="M145 150 L175 150" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g transform="translate(20, 120)">
+<path d="M20 80 L100 80 L100 90 L20 90 Z" fill="#FFB84D"/>
+<path d="M60 80 L60 40" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+<path d="M60 40 L40 60" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+<path d="M60 40 L80 60" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+<circle cx="60" cy="30" r="10" fill="#FFB84D"/>
+</g>
+<g transform="translate(140, 120)">
+<path d="M20 80 L100 80 L100 90 L20 90 Z" fill="#5D677A"/>
+<path d="M60 80 L60 40" stroke="#5D677A" stroke-width="6" stroke-linecap="round"/>
+<path d="M60 40 L40 60" stroke="#5D677A" stroke-width="6" stroke-linecap="round"/>
+<path d="M60 40 L80 60" stroke="#5D677A" stroke-width="6" stroke-linecap="round"/>
+<circle cx="60" cy="30" r="10" fill="#5D677A"/>
+</g>
+<path d="M100 160 L140 160 L120 180 Z" fill="#FFB84D"/>
+</svg>

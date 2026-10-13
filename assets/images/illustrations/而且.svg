@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Main stacked plate representing the primary positive quality (Delicious food) -->
+    <ellipse cx="0" cy="45" rx="65" ry="16" fill="#2E3544" />
+    <ellipse cx="0" cy="40" rx="60" ry="14" fill="#EAEFF8" />
+    <ellipse cx="0" cy="40" rx="52" ry="10" fill="#3D4659" />
+
+    <!-- Cloche lid / dome half-lifted to reveal quality -->
+    <path d="M -45 40 C -45 0, -25 -25, 0 -35 C 25 -25, 45 0, 45 40 Z" fill="#4F5D75" />
+    <path d="M 0 -35 C 25 -25, 45 0, 45 40 L 0 40 Z" fill="#3A4454" />
+    <circle cx="0" cy="-38" r="5" fill="#FFB703" />
+
+    <!-- Delicious food icons floating above the plate (Representing the first clause) -->
+    <path d="M -15 15 C -15 5, -5 5, -5 15 C -5 25, -15 25, -15 15 Z" fill="#FFB703" />
+    <path d="M 12 10 C 12 0, 22 0, 22 10 C 22 20, 12 20, 12 10 Z" fill="#EF476F" />
+    <!-- Steam / quality lines -->
+    <path d="M -20 -15 C -25 -25, -15 -35, -20 -45" stroke="#FFB703" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 0 -20 C -5 -30, 5 -40, 0 -50" stroke="#FFB703" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 20 -15 C 15 -25, 25 -35, 20 -45" stroke="#FFB703" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- "Moreover / In addition" additive compounding element: Floating golden plus/addition indicator seamlessly integrated above -->
+    <g transform="translate(0, -72)">
+      <circle cx="0" cy="0" r="18" fill="#FFB703" />
+      <path d="M -8 0 L 8 0 M 0 -8 L 0 8" stroke="#1A1D24" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <!-- Additional value tag (representing "not expensive" / added benefit) -->
+    <g transform="translate(60, -20)">
+      <rect x="-24" y="-12" width="48" height="24" rx="6" fill="#06D6A0" />
+      <path d="M -10 0 L -3 6 L 10 -6" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow to focus on the interaction -->
+  <circle cx="120" cy="120" r="80" fill="#242B38" opacity="0.6"/>
+
+  <!-- Motion lines indicating transfer / receiving action -->
+  <g stroke="#3A4456" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4" opacity="0.7">
+    <path d="M 85 90 Q 120 70 155 90"/>
+    <path d="M 75 105 Q 120 85 165 105"/>
+  </g>
+
+  <!-- Teacher / Giver Character (Left Side) -->
+  <g id="giver">
+    <!-- Body / Torso -->
+    <path d="M 70 160 C 70 145 80 135 95 135 L 95 180 L 60 180 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="82" cy="115" r="14" fill="#FDE047"/>
+    <!-- Arm reaching out to give/help -->
+    <path d="M 85 145 Q 105 140 120 135" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Hand offering -->
+    <circle cx="123" cy="133" r="5" fill="#FDE047"/>
+  </g>
+
+  <!-- Receiver Character (Right Side - "我" receiving help) -->
+  <g id="receiver">
+    <!-- Body / Torso -->
+    <path d="M 145 180 L 145 135 C 160 135 170 145 170 160 L 170 180 Z" fill="#F59E0B"/>
+    <!-- Head -->
+    <circle cx="158" cy="115" r="14" fill="#FDE047"/>
+    <!-- Arm reaching out to receive -->
+    <path d="M 155 145 Q 138 140 123 135" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Hand receiving -->
+    <circle cx="121" cy="133" r="5" fill="#FDE047"/>
+  </g>
+
+  <!-- The "Help / Support" Object being received (represented as a glowing, helpful support node/spark of guidance) -->
+  <g id="received-item" transform="translate(120, 115)">
+    <!-- Outer glow -->
+    <circle cx="0" cy="0" r="16" fill="#F59E0B" opacity="0.2"/>
+    <circle cx="0" cy="0" r="10" fill="#F59E0B" opacity="0.4"/>
+    <!-- Core icon: Star/Spark representing knowledge, help, or a breakthrough -->
+    <path d="M 0 -8 L 2 -2 L 8 0 L 2 2 L 0 8 L -2 2 L -8 0 L -2 -2 Z" fill="#FDE047"/>
+  </g>
+
+  <!-- Action / Dynamic Motion indicators around the received item -->
+  <g stroke="#FDE047" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <line x1="120" y1="95" x2="120" y2="90"/>
+    <line x1="104" y1="105" x2="100" y2="102"/>
+    <line x1="136" y1="105" x2="140" y2="102"/>
+  </g>
+
+  <!-- Ground shadow -->
+  <ellipse cx="120" cy="183" r="75" fill="#111318" opacity="0.6"/>
+</svg>

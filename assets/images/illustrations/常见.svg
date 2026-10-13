@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "Common/Frequent" (常见) through a cluster of identical, everyday objects -->
+  <!-- Using a simple, recognizable coffee mug as the "common object" -->
+  
+  <!-- Background mugs (faded) -->
+  <g fill="#374151">
+    <rect x="40" y="140" width="40" height="40" rx="4"/>
+    <rect x="160" y="60" width="40" height="40" rx="4"/>
+    <rect x="50" y="60" width="40" height="40" rx="4"/>
+  </g>
+  
+  <!-- Foreground mug (The focus/highlighted object) -->
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="40" height="40" rx="4" fill="#F59E0B"/>
+    <rect x="40" y="10" width="8" height="20" rx="2" fill="#F59E0B"/>
+    <rect x="5" y="5" width="30" height="30" rx="2" fill="#1A1D24"/>
+  </g>
+  
+  <!-- Additional scattered common objects to emphasize frequency -->
+  <rect x="150" y="150" width="30" height="30" rx="4" fill="#374151"/>
+  <rect x="60" y="180" width="30" height="30" rx="4" fill="#374151"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk/Counter -->
+  <path d="M40 180h160v20H40z" fill="#2D343E"/>
+  <path d="M40 170h160v10H40z" fill="#3D4654"/>
+  
+  <!-- Hotel Staff (Torso and Head) -->
+  <circle cx="120" cy="100" r="25" fill="#FFC107"/>
+  <path d="M95 125h50v60H95z" fill="#FFC107"/>
+  <path d="M95 125h50v15H95z" fill="#E0A800"/>
+  
+  <!-- Polite Gesture (Hand) -->
+  <path d="M145 135l25-10 5 10-25 10z" fill="#FFC107"/>
+  <circle cx="175" cy="135" r="5" fill="#FFC107"/>
+  
+  <!-- Tray with Cloche -->
+  <path d="M60 165h40v5H60z" fill="#A0A0A0"/>
+  <path d="M65 135h30a15 15 0 0 0-30 0" fill="#FFC107"/>
+  <circle cx="80" cy="130" r="3" fill="#E0A800"/>
+  
+  <!-- Subtle details -->
+  <path d="M105 130h30v2H105z" fill="#1A1D24" opacity="0.2"/>
+</svg>

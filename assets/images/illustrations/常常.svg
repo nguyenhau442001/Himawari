@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background calendar grid layout indicating repetition/habit -->
+  <g opacity="0.15">
+    <rect x="40" y="50" width="160" height="140" rx="12" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+    <line x1="40" y1="90" x2="200" y2="90" stroke="#E2E8F0" stroke-width="2"/>
+    <!-- Calendar dots/grid representing "frequently" -->
+    <circle cx="70" cy="120" r="6" fill="#F59E0B"/>
+    <circle cx="120" cy="120" r="6" fill="#F59E0B"/>
+    <circle cx="170" cy="120" r="6" fill="#F59E0B"/>
+    <circle cx="70" cy="160" r="6" fill="#F59E0B"/>
+    <circle cx="120" cy="160" r="6" fill="#F59E0B"/>
+    <circle cx="170" cy="160" r="6" fill="#3B82F6"/>
+  </g>
+
+  <!-- Central iconic representation of visiting grandparents (frequent weekend action) -->
+  <g transform="translate(0, 10)">
+    <!-- House doorway / threshold -->
+    <path d="M80 180 L80 110 L120 80 L160 110 L160 180 Z" fill="#2D3748" opacity="0.6"/>
+    <rect x="100" y="130" width="40" height="50" fill="#1A1D24" rx="4"/>
+
+    <!-- Grandfather figure -->
+    <g transform="translate(65, 95)">
+      <!-- Body -->
+      <path d="M15 85 C15 65 25 55 45 55 C65 55 75 65 75 85 Z" fill="#3B82F6"/>
+      <!-- Head -->
+      <circle cx="45" cy="35" r="16" fill="#FBD38D"/>
+      <!-- Hair/Glasses -->
+      <path d="M29 35 C29 25 61 25 61 35" fill="none" stroke="#CBD5E0" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="39" cy="35" r="4" fill="none" stroke="#4A5568" stroke-width="1.5"/>
+      <circle cx="51" cy="35" r="4" fill="none" stroke="#4A5568" stroke-width="1.5"/>
+      <!-- Warm smile -->
+      <path d="M41 43 C43 45 47 45 49 43" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Grandchild figure arriving warmly -->
+    <g transform="translate(115, 95)">
+      <!-- Body -->
+      <path d="M10 85 C10 65 20 55 40 55 C60 55 70 65 70 85 Z" fill="#F59E0B"/>
+      <!-- Head -->
+      <circle cx="40" cy="35" r="15" fill="#FBD38D"/>
+      <!-- Hair -->
+      <path d="M25 32 C27 20 53 20 55 32 C50 24 30 24 25 32 Z" fill="#4A5568"/>
+      <!-- Smile -->
+      <path d="M36 43 C38 45 42 45 44 43" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Warm greeting / handshake or connection gesture -->
+    <path d="M95 130 Q110 115 125 130" fill="none" stroke="#FBD38D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Subtle recurrent clock / cycle motif emphasizing regularity (chángcháng) -->
+  <g transform="translate(180, 50)">
+    <circle cx="0" cy="0" r="18" fill="#2D3748" stroke="#F59E0B" stroke-width="2.5"/>
+    <path d="M0 -8 L0 0 L6 4" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

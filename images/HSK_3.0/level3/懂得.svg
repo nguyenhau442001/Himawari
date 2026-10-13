@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow representing comprehension/awareness -->
+  <circle cx="120" cy="115" r="70" fill="#FFB703" opacity="0.05"/>
+  
+  <!-- Motion lines / thought radiating outward (subtle) -->
+  <path d="M75 75 L60 60" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M165 75 L180 60" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M65 115 L45 115" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M175 115 L195 115" stroke="#FFB703" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Character 1 (Left - Expressing / Sharing a feeling or need) -->
+  <g transform="translate(15, 0)">
+    <!-- Body & Shoulders -->
+    <path d="M45 185 C45 160 55 145 75 145 C95 145 105 160 105 185 Z" fill="#2B303C"/>
+    <!-- Head -->
+    <circle cx="75" cy="120" r="16" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M60 120 C60 108 70 102 75 102 C80 102 90 108 90 120 C85 116 80 114 75 114 C70 114 65 116 60 120 Z" fill="#64748B"/>
+    <!-- Gentle facial expression / caring stance -->
+    <path d="M70 123 Q75 127 80 123" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <!-- Hand gently gesturing outward -->
+    <circle cx="95" cy="155" r="5" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Character 2 (Right - "懂得" / Understanding and caring action, e.g., hand on shoulder or warm supportive lean) -->
+  <g transform="translate(110, 0)">
+    <!-- Body & Shoulders (Leaning in, showing understanding) -->
+    <path d="M45 185 C45 160 55 145 75 145 C95 145 105 160 105 185 Z" fill="#3B82F6" opacity="0.85"/>
+    <!-- Head -->
+    <circle cx="75" cy="120" r="16" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M60 120 C60 108 70 102 75 102 C80 102 90 108 90 120 C85 114 75 112 60 120 Z" fill="#1E293B"/>
+    <!-- Warm smile indicating deep understanding/empathy -->
+    <path d="M70 124 Q75 129 80 124" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M70 116 L72 118" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M80 116 L78 118" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Arm reaching out in support/care -->
+    <path d="M50 150 Q30 145 20 155" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Hand resting supportively (showing "懂得关心别人") -->
+    <circle cx="16" cy="157" r="5" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Central Lightbulb / Insight / Comprehension Symbol floating gently above them -->
+  <g transform="translate(120, 72)">
+    <!-- Glow -->
+    <circle cx="0" cy="0" r="18" fill="#FFB703" opacity="0.2"/>
+    <!-- Bulb Base -->
+    <path d="M-3 10 L3 10 L4 15 L-4 15 Z" fill="#94A3B8"/>
+    <!-- Bulb Body -->
+    <path d="M-8 -2 C-8 -9 -3 -13 0 -13 C3 -13 8 -9 8 -2 C8 3 5 6 3 9 L-3 9 C-5 6 -8 3 -8 -2 Z" fill="#FFB703"/>
+    <!-- Highlight on bulb -->
+    <path d="M-4 -6 C-3 -9 -1 -10 1 -10" stroke="#FFF" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Ground Line -->
+  <path d="M50 185 L190 185" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+</svg>

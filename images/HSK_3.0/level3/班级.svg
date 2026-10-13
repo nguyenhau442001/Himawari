@@ -1,0 +1,40 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Classroom Floor -->
+  <path d="M40 190 L200 190 L220 220 L20 220 Z" fill="#2D343E"/>
+  
+  <!-- Teacher's Desk -->
+  <rect x="170" y="150" width="40" height="25" fill="#3D4756"/>
+  <rect x="175" y="155" width="30" height="5" fill="#FFB84D"/>
+  
+  <!-- Students (Represented by stylized silhouettes) -->
+  <!-- Row 1 -->
+  <circle cx="60" cy="140" r="12" fill="#A0AEC0"/>
+  <rect x="50" y="152" width="20" height="25" rx="4" fill="#6366F1"/>
+  
+  <circle cx="100" cy="140" r="12" fill="#A0AEC0"/>
+  <rect x="90" y="152" width="20" height="25" rx="4" fill="#6366F1"/>
+  
+  <circle cx="140" cy="140" r="12" fill="#A0AEC0"/>
+  <rect x="130" y="152" width="20" height="25" rx="4" fill="#6366F1"/>
+  
+  <!-- Row 2 -->
+  <circle cx="80" cy="180" r="12" fill="#A0AEC0"/>
+  <rect x="70" y="192" width="20" height="25" rx="4" fill="#FFB84D"/>
+  
+  <circle cx="120" cy="180" r="12" fill="#A0AEC0"/>
+  <rect x="110" y="192" width="20" height="25" rx="4" fill="#FFB84D"/>
+  
+  <circle cx="160" cy="180" r="12" fill="#A0AEC0"/>
+  <rect x="150" y="192" width="20" height="25" rx="4" fill="#FFB84D"/>
+  
+  <!-- Teacher -->
+  <circle cx="190" cy="120" r="14" fill="#FFD700"/>
+  <path d="M175 135 L205 135 L200 160 L180 160 Z" fill="#FFD700"/>
+  
+  <!-- Blackboard -->
+  <rect x="40" y="40" width="160" height="70" rx="4" fill="#2D343E" stroke="#4A5568" stroke-width="2"/>
+  <line x1="60" y1="70" x2="180" y2="70" stroke="#4A5568" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="60" y1="90" x2="180" y2="90" stroke="#4A5568" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

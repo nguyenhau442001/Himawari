@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative subtle background elements (modern UI card context) -->
+  <circle cx="120" cy="120" r="85" fill="#222730" />
+  
+  <!-- Central Object: Vacation / Holiday symbol (A stylized beach umbrella and sunbed representing "放假" - being on vacation/break) -->
+  <g transform="translate(0, 5)">
+    <!-- Sun/Warmth element -->
+    <circle cx="170" cy="65" r="18" fill="#F39C12" opacity="0.9"/>
+    
+    <!-- Beach Chair / Lounge Bed -->
+    <g transform="translate(75, 125)">
+      <!-- Chair Frame & Fabric -->
+      <rect x="0" y="15" width="90" height="12" rx="4" fill="#E67E22" transform="rotate(-25 0 15)"/>
+      <rect x="15" y="30" width="70" height="8" rx="2" fill="#D35400" transform="rotate(-25 15 30)"/>
+      <!-- Legs -->
+      <line x1="15" y1="35" x2="5" y2="60" stroke="#7F8C8D" stroke-width="4" stroke-linecap="round"/>
+      <line x1="75" y1="12" x2="85" y2="55" stroke="#7F8C8D" stroke-width="4" stroke-linecap="round"/>
+      <line x1="45" y1="24" x2="50" y2="55" stroke="#7F8C8D" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- Beach Umbrella -->
+    <g transform="translate(120, 115)">
+      <!-- Pole -->
+      <line x1="0" y1="10" x2="0" y2="70" stroke="#BDC3C7" stroke-width="5" stroke-linecap="round"/>
+      <!-- Base -->
+      <ellipse cx="0" cy="70" rx="14" ry="5" stroke="#7F8C8D" stroke-width="3" fill="#34495E"/>
+      
+      <!-- Canopy (Semi-circle / Triangle hat shape with alternating panels) -->
+      <path d="M -50 10 C -50 -10 -25 -25 0 -25 C 25 -25 50 -10 50 10 Z" fill="#3498DB"/>
+      <!-- Canopy stripes for holiday vibe -->
+      <path d="M -50 10 C -35 -5 -15 -20 0 -25 L 0 10 Z" fill="#2980B9"/>
+      <path d="M 0 -25 C 15 -20 35 -5 50 10 L 0 10 Z" fill="#2980B9"/>
+      <!-- Canopy tip -->
+      <circle cx="0" cy="-27" r="4" fill="#F1C40F"/>
+    </g>
+
+    <!-- Relaxing elements: small palm leaf or tropical detail -->
+    <g transform="translate(55, 95) rotate(-15)">
+      <path d="M 0 35 C -5 20 -15 10 -30 5 C -15 2 -5 -5 0 -25 C 5 -5 15 2 30 5 C 15 10 5 20 0 35 Z" fill="#2ECC71"/>
+      <path d="M 0 35 L 0 50" stroke="#27AE60" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Little wave/relaxation ripples -->
+    <path d="M 35 185 C 45 180 55 190 65 185 C 75 180 85 190 95 185" stroke="#3498DB" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 145 190 C 155 185 165 195 175 190 C 185 185 195 195 205 190" stroke="#3498DB" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+  </g>
+</svg>

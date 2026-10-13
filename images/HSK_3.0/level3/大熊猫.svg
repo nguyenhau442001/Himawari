@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Panda Body -->
+    <path d="M60 120 C60 150, 80 170, 120 170 C160 170, 180 150, 180 120 L180 90 C180 60, 150 40, 120 40 C90 40, 60 60, 60 90 Z" fill="#FFFFFF"/>
+    <!-- Ears -->
+    <circle cx="75" cy="65" r="15" fill="#2D3436"/>
+    <circle cx="165" cy="65" r="15" fill="#2D3436"/>
+    <!-- Eye Patches -->
+    <ellipse cx="95" cy="95" rx="15" ry="20" fill="#2D3436" transform="rotate(-15 95 95)"/>
+    <ellipse cx="145" cy="95" rx="15" ry="20" fill="#2D3436" transform="rotate(15 145 95)"/>
+    <!-- Eyes -->
+    <circle cx="95" cy="95" r="5" fill="#FFFFFF"/>
+    <circle cx="145" cy="95" r="5" fill="#FFFFFF"/>
+    <!-- Nose -->
+    <path d="M115 110 L125 110 L120 118 Z" fill="#2D3436"/>
+    <!-- Arms -->
+    <path d="M70 110 Q60 130, 75 140" stroke="#2D3436" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M170 110 Q180 130, 165 140" stroke="#2D3436" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Legs -->
+    <ellipse cx="90" cy="165" rx="15" ry="20" fill="#2D3436"/>
+    <ellipse cx="150" cy="165" rx="15" ry="20" fill="#2D3436"/>
+    <!-- Bamboo Accent -->
+    <path d="M130 130 L150 150" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

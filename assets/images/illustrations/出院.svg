@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Hospital Room Elements -->
+  <path d="M40 180H200" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hospital Building / Room Exit Door Frame -->
+  <path d="M150 70V180H190V70H150Z" fill="#222733"/>
+  <rect x="158" y="78" width="24" height="94" fill="#1A1D24" rx="2"/>
+  <circle cx="174" cy="125" r="3" fill="#E67E22"/>
+
+  <!-- Open Door swinging outward -->
+  <path d="M130 90L150 78V180L130 168V90Z" fill="#2C3444" opacity="0.6"/>
+
+  <!-- Exit Directional Arrow (subtle architectural floor marker) -->
+  <path d="M100 150L130 150M130 150L120 142M130 150L120 158" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Patient Character Leaving (Walking towards exit) -->
+  <!-- Legs -->
+  <line x1="90" y1="140" x2="80" y2="180" stroke="#3498DB" stroke-width="5" stroke-linecap="round"/>
+  <line x1="105" y1="140" x2="115" y2="180" stroke="#2980B9" stroke-width="5" stroke-linecap="round"/>
+  <!-- Body (Casual clothes representing discharge, not hospital gown) -->
+  <rect x="83" y="105" width="28" height="40" rx="6" fill="#3498DB"/>
+  <!-- Head -->
+  <circle cx="97" cy="88" r="12" fill="#F5CBA7"/>
+  <!-- Hair -->
+  <path d="M85 85C85 80 90 75 97 75C104 75 109 80 109 85V88H85V85Z" fill="#5D4037"/>
+  <!-- Arms carrying a small discharge bag/personal belongings -->
+  <path d="M83 115L70 130" stroke="#F5CBA7" stroke-width="4" stroke-linecap="round"/>
+  <!-- Discharge Bag / Suitcase -->
+  <rect x="58" y="125" width="16" height="20" rx="3" fill="#E67E22"/>
+  <path d="M63 125V121C63 119.5 65.5 119.5 67 121V125" stroke="#E67E22" stroke-width="2" fill="none"/>
+
+  <!-- Medical Professional / Doctor Waving Goodbye -->
+  <!-- Legs -->
+  <line x1="180" y1="145" x2="175" y2="180" stroke="#ECF0F1" stroke-width="5" stroke-linecap="round"/>
+  <line x1="190" y1="145" x2="195" y2="180" stroke="#BDC3C7" stroke-width="5" stroke-linecap="round"/>
+  <!-- White Coat -->
+  <rect x="172" y="105" width="28" height="50" rx="4" fill="#ECF0F1"/>
+  <path d="M186 105V155" stroke="#BDC3C7" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="186" cy="88" r="11" fill="#F5CBA7"/>
+  <!-- Doctor Hair -->
+  <path d="M176 86C176 80 180 77 186 77C192 77 196 80 196 86V88H176V86Z" fill="#34495E"/>
+  <!-- Waving Arm -->
+  <path d="M195 110C205 105 210 95 210 90" stroke="#F5CBA7" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Hospital Cross Symbol on Wall -->
+  <g transform="translate(50, 70)">
+    <rect x="0" y="8" width="24" height="8" rx="2" fill="#E67E22"/>
+    <rect x="8" y="0" width="8" height="24" rx="2" fill="#E67E22"/>
+  </g>
+</svg>

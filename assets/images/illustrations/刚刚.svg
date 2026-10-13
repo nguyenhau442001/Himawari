@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Door frame -->
+  <rect x="80" y="60" width="80" height="140" rx="4" fill="#2D343E" stroke="#4A5568" stroke-width="4"/>
+  
+  <!-- Door leaf slightly ajar -->
+  <path d="M120 60 L160 70 L160 190 L120 200 Z" fill="#FFB347"/>
+  
+  <!-- Person silhouette stepping out -->
+  <g transform="translate(130, 100)">
+    <circle cx="10" cy="15" r="12" fill="#E2E8F0"/>
+    <path d="M10 27 L10 60 M10 35 L-5 50 M10 35 L25 50 M10 60 L0 85 M10 60 L20 85" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion lines indicating "just now" movement -->
+  <path d="M170 80 Q190 100 170 120" stroke="#FFB347" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M180 70 Q205 100 180 130" stroke="#FFB347" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

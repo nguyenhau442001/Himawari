@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person representing the subject -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-30 80 C-30 50, -20 40, 0 40 C20 40, 30 50, 30 80 L30 100 L-30 100 Z" fill="#4A5568"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="25" fill="#E2E8F0"/>
+    
+    <!-- Action 1: Speaking (represented by a speech bubble icon style) -->
+    <g transform="translate(-50, -40)">
+      <path d="M0 0 L20 0 L20 15 L5 15 L0 20 Z" fill="#F6AD55"/>
+      <circle cx="10" cy="7" r="3" fill="#1A1D24"/>
+    </g>
+    
+    <!-- Action 2: Writing (represented by a pen/brush in hand) -->
+    <g transform="translate(30, 20) rotate(20)">
+      <rect x="0" y="0" width="40" height="6" rx="2" fill="#F6AD55"/>
+      <path d="M40 0 L50 3 L40 6 Z" fill="#F6AD55"/>
+    </g>
+    
+    <!-- Plus sign to indicate "Not only... but also" -->
+    <g transform="translate(0, -60)">
+      <rect x="-15" y="-3" width="30" height="6" rx="2" fill="#F6AD55"/>
+      <rect x="-3" y="-15" width="6" height="30" rx="2" fill="#F6AD55"/>
+    </g>
+  </g>
+</svg>

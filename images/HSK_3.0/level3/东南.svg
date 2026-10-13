@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Subtle compass background circle -->
+    <circle cx="0" cy="0" r="76" fill="#222730" stroke="#2D3440" stroke-width="2"/>
+    
+    <!-- Compass grid lines -->
+    <line x1="-76" y1="0" x2="76" y2="0" stroke="#2D3440" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="0" y1="-76" x2="0" y2="76" stroke="#2D3440" stroke-width="1" stroke-dasharray="3,3"/>
+    
+    <!-- Compass cardinal points (decorative minimal ticks) -->
+    <circle cx="0" cy="-62" r="3" fill="#4A5568"/>
+    <circle cx="62" cy="0" r="3" fill="#4A5568"/>
+    <circle cx="0" cy="62" r="3" fill="#4A5568"/>
+    <circle cx="-62" cy="0" r="3" fill="#4A5568"/>
+
+    <!-- Southeast quadrant highlight area -->
+    <path d="M 0 0 L 0 62 A 62 62 0 0 0 62 0 Z" fill="#FFB800" fill-opacity="0.12"/>
+    
+    <!-- Compass Needle pointing Southeast (45 degrees) -->
+    <g transform="rotate(45)">
+      <!-- North/West side (dark/muted) -->
+      <polygon points="0,-65 -8,0 0,-10" fill="#4A5568"/>
+      <polygon points="0,-65 8,0 0,-10" fill="#3E4654"/>
+      
+      <!-- South/East side (Highlighted Orange/Gold for '东南') -->
+      <polygon points="0,75 -8,0 0,10" fill="#E09F00"/>
+      <polygon points="0,75 8,0 0,10" fill="#FFB800"/>
+      
+      <!-- Center pin -->
+      <circle cx="0" cy="0" r="9" fill="#1A1D24" stroke="#FFB800" stroke-width="3"/>
+    </g>
+
+    <!-- Geographic / Map Pin icon precisely over Southeast direction -->
+    <g transform="translate(46, 46)">
+      <!-- Pin drop shadow -->
+      <ellipse cx="0" cy="14" rx="5" ry="2" fill="#000000" fill-opacity="0.3"/>
+      
+      <!-- Pin body -->
+      <path d="M 0 -12 C -7 -12 -12 -7 -12 0 C -12 7 0 16 0 16 C 0 16 12 7 12 0 C 12 -7 7 -12 0 -12 Z" fill="#FF5722"/>
+      
+      <!-- Inner white dot of map pin -->
+      <circle cx="0" cy="-1" r="4" fill="#FFFFFF"/>
+    </g>
+  </g>
+  
+  <!-- Decorative framing ring -->
+  <circle cx="120" cy="115" r="92" fill="none" stroke="#2D3440" stroke-width="1.5" stroke-opacity="0.5"/>
+</svg>

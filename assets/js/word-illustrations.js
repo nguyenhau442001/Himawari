@@ -23722,6 +23722,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level2/左.svg",
     "caption": "bên trái, phía tả"
   },
+  "爱人": {
+    "file": "爱人.svg",
+    "src": "images/HSK_3.0/level3/爱人.svg",
+    "caption": "vợ, chồng (người bạn đời)"
+  },
+  "班级": {
+    "file": "班级.svg",
+    "src": "images/HSK_3.0/level3/班级.svg",
+    "caption": "lớp học"
+  },
+  "搬家": {
+    "file": "搬家.svg",
+    "src": "images/HSK_3.0/level3/搬家.svg",
+    "caption": "chuyển nhà"
+  },
+  "办": {
+    "file": "办.svg",
+    "src": "images/HSK_3.0/level3/办.svg",
+    "caption": "làm, xử lý"
+  },
+  "半天": {
+    "file": "半天.svg",
+    "src": "images/HSK_3.0/level3/半天.svg",
+    "caption": "nửa ngày; mãi, rất lâu"
+  },
+  "北": {
+    "file": "北.svg",
+    "src": "images/HSK_3.0/level3/北.svg",
+    "caption": "phía bắc"
+  },
+  "笔记": {
+    "file": "笔记.svg",
+    "src": "images/HSK_3.0/level3/笔记.svg",
+    "caption": "ghi chép, vở ghi"
+  },
+  "变": {
+    "file": "变.svg",
+    "src": "images/HSK_3.0/level3/变.svg",
+    "caption": "thay đổi, biến thành"
+  },
+  "变成": {
+    "file": "变成.svg",
+    "src": "images/HSK_3.0/level3/变成.svg",
+    "caption": "trở thành, biến thành"
+  },
+  "别的": {
+    "file": "别的.svg",
+    "src": "images/HSK_3.0/level3/别的.svg",
+    "caption": "khác, cái khác"
+  },
+  "冰": {
+    "file": "冰.svg",
+    "src": "images/HSK_3.0/level3/冰.svg",
+    "caption": "băng, nước đá; ướp lạnh"
+  },
+  "病人": {
+    "file": "病人.svg",
+    "src": "images/HSK_3.0/level3/病人.svg",
+    "caption": "bệnh nhân, người bệnh"
+  },
+  "不但": {
+    "file": "不但.svg",
+    "src": "images/HSK_3.0/level3/不但.svg",
+    "caption": "không những, không chỉ"
+  },
+  "不见": {
+    "file": "不见.svg",
+    "src": "images/HSK_3.0/level3/不见.svg",
+    "caption": "không thấy, mất"
+  },
+  "不用": {
+    "file": "不用.svg",
+    "src": "images/HSK_3.0/level3/不用.svg",
+    "caption": "không cần"
+  },
+  "不同": {
+    "file": "不同.svg",
+    "src": "images/HSK_3.0/level3/不同.svg",
+    "caption": "khác nhau, không giống"
+  },
+  "不久": {
+    "file": "不久.svg",
+    "src": "images/HSK_3.0/level3/不久.svg",
+    "caption": "không lâu, chẳng bao lâu"
+  },
+  "不行": {
+    "file": "不行.svg",
+    "src": "images/HSK_3.0/level3/不行.svg",
+    "caption": "không được; kém, không giỏi"
+  },
+  "才¹": {
+    "file": "才¹.svg",
+    "src": "images/HSK_3.0/level3/才¹.svg",
+    "caption": "mới (vừa mới, chỉ mới)"
+  },
+  "草地": {
+    "file": "草地.svg",
+    "src": "images/HSK_3.0/level3/草地.svg",
+    "caption": "bãi cỏ"
+  },
+  "查": {
+    "file": "查.svg",
+    "src": "images/HSK_3.0/level3/查.svg",
+    "caption": "tra, kiểm tra"
+  },
+  "常": {
+    "file": "常.svg",
+    "src": "images/HSK_3.0/level3/常.svg",
+    "caption": "thường, hay"
+  },
+  "常见": {
+    "file": "常见.svg",
+    "src": "images/HSK_3.0/level3/常见.svg",
+    "caption": "thường gặp, phổ biến"
+  },
+  "常用": {
+    "file": "常用.svg",
+    "src": "images/HSK_3.0/level3/常用.svg",
+    "caption": "thường dùng"
+  },
+  "常常": {
+    "file": "常常.svg",
+    "src": "images/HSK_3.0/level3/常常.svg",
+    "caption": "thường thường, thường xuyên"
+  },
+  "出院": {
+    "file": "出院.svg",
+    "src": "images/HSK_3.0/level3/出院.svg",
+    "caption": "xuất viện, ra viện"
+  },
+  "春天": {
+    "file": "春天.svg",
+    "src": "images/HSK_3.0/level3/春天.svg",
+    "caption": "mùa xuân"
+  },
+  "大人": {
+    "file": "大人.svg",
+    "src": "images/HSK_3.0/level3/大人.svg",
+    "caption": "người lớn"
+  },
+  "大小": {
+    "file": "大小.svg",
+    "src": "images/HSK_3.0/level3/大小.svg",
+    "caption": "kích cỡ, to nhỏ"
+  },
+  "大熊猫": {
+    "file": "大熊猫.svg",
+    "src": "images/HSK_3.0/level3/大熊猫.svg",
+    "caption": "gấu trúc lớn"
+  },
+  "得到": {
+    "file": "得到.svg",
+    "src": "images/HSK_3.0/level3/得到.svg",
+    "caption": "nhận được, có được"
+  },
+  "电": {
+    "file": "电.svg",
+    "src": "images/HSK_3.0/level3/电.svg",
+    "caption": "điện"
+  },
+  "电子书": {
+    "file": "电子书.svg",
+    "src": "images/HSK_3.0/level3/电子书.svg",
+    "caption": "sách điện tử"
+  },
+  "东北": {
+    "file": "东北.svg",
+    "src": "images/HSK_3.0/level3/东北.svg",
+    "caption": "phía đông bắc; vùng Đông Bắc (Trung Quốc)"
+  },
+  "东方": {
+    "file": "东方.svg",
+    "src": "images/HSK_3.0/level3/东方.svg",
+    "caption": "phía đông; phương Đông"
+  },
+  "东南": {
+    "file": "东南.svg",
+    "src": "images/HSK_3.0/level3/东南.svg",
+    "caption": "phía đông nam"
+  },
+  "冬天": {
+    "file": "冬天.svg",
+    "src": "images/HSK_3.0/level3/冬天.svg",
+    "caption": "mùa đông"
+  },
+  "懂得": {
+    "file": "懂得.svg",
+    "src": "images/HSK_3.0/level3/懂得.svg",
+    "caption": "hiểu, biết"
+  },
+  "动物园": {
+    "file": "动物园.svg",
+    "src": "images/HSK_3.0/level3/动物园.svg",
+    "caption": "vườn bách thú, sở thú"
+  },
+  "短裤": {
+    "file": "短裤.svg",
+    "src": "images/HSK_3.0/level3/短裤.svg",
+    "caption": "quần đùi, quần soóc"
+  },
+  "而且": {
+    "file": "而且.svg",
+    "src": "images/HSK_3.0/level3/而且.svg",
+    "caption": "mà còn, hơn nữa"
+  },
+  "耳机": {
+    "file": "耳机.svg",
+    "src": "images/HSK_3.0/level3/耳机.svg",
+    "caption": "tai nghe"
+  },
+  "方便面": {
+    "file": "方便面.svg",
+    "src": "images/HSK_3.0/level3/方便面.svg",
+    "caption": "mì ăn liền"
+  },
+  "房子": {
+    "file": "房子.svg",
+    "src": "images/HSK_3.0/level3/房子.svg",
+    "caption": "nhà, căn nhà"
+  },
+  "放假": {
+    "file": "放假.svg",
+    "src": "images/HSK_3.0/level3/放假.svg",
+    "caption": "được nghỉ (lễ, hè…)"
+  },
+  "放学": {
+    "file": "放学.svg",
+    "src": "images/HSK_3.0/level3/放学.svg",
+    "caption": "tan học"
+  },
+  "分开": {
+    "file": "分开.svg",
+    "src": "images/HSK_3.0/level3/分开.svg",
+    "caption": "tách ra, chia ra"
+  },
+  "风": {
+    "file": "风.svg",
+    "src": "images/HSK_3.0/level3/风.svg",
+    "caption": "gió"
+  },
+  "服务": {
+    "file": "服务.svg",
+    "src": "images/HSK_3.0/level3/服务.svg",
+    "caption": "phục vụ"
+  },
+  "感到": {
+    "file": "感到.svg",
+    "src": "images/HSK_3.0/level3/感到.svg",
+    "caption": "cảm thấy"
+  },
   "量": {
     "file": "量.svg",
     "src": "images/HSK_3.0/level4/量.svg",
