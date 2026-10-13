@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle grid / atmosphere -->
+  <g opacity="0.15">
+    <line x1="40" y1="40" x2="200" y2="40" stroke="#64748B" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="40" y1="200" x2="200" y2="200" stroke="#64748B" stroke-width="1" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Central Physical Object: A modern, sleek mechanical safe/vault door locked with an unyielding barrier (representing "no way / cannot open / powerless") -->
+  <!-- Vault Outer Rim -->
+  <circle cx="120" cy="115" r="62" fill="#222733" stroke="#334155" stroke-width="4"/>
+  <circle cx="120" cy="115" r="54" fill="#1E232F"/>
+
+  <!-- Vault Lock Mechanism / Bolts -->
+  <circle cx="120" cy="115" r="34" fill="#283042" stroke="#475569" stroke-width="2"/>
+  <circle cx="120" cy="115" r="16" fill="#F59E0B"/>
+  <circle cx="120" cy="115" r="8" fill="#1E232F"/>
+
+  <!-- Heavy Locking Bars (Radiating out) -->
+  <rect x="116" y="55" width="8" height="14" rx="2" fill="#64748B"/>
+  <rect x="116" y="161" width="8" height="14" rx="2" fill="#64748B"/>
+  <rect x="55" y="111" width="14" height="8" rx="2" fill="#64748B"/>
+  <rect x="171" y="111" width="14" height="8" rx="2" fill="#64748B"/>
+
+  <!-- Diagonal slash / Prohibition symbol overlay (Clear visual for "cannot / no way") -->
+  <circle cx="120" cy="115" r="70" fill="none" stroke="#EF4444" stroke-width="6" opacity="0.9"/>
+  <line x1="71" y1="66" x2="169" y2="164" stroke="#EF4444" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Base platform shadow -->
+  <ellipse cx="120" cy="195" r="50" ry="6" fill="#0F1117"/>
+
+  <!-- Conceptual human element: A simplified stylized character silhouette at the bottom facing the locked object, hands raised in a gesture of inability/helplessness -->
+  <!-- Head -->
+  <circle cx="120" cy="192" r="7" fill="#94A3B8"/>
+  <!-- Torso & Arms gesture (shrugging/open hands) -->
+  <path d="M 108 214 Q 120 202 132 214 L 136 214 C 136 204 128 200 120 200 C 112 200 104 204 104 214 Z" fill="#64748B"/>
+</svg>

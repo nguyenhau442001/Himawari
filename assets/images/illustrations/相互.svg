@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="120" r="80" fill="#242B38" opacity="0.6"/>
+
+  <!-- Interlocking mutual exchange / helpful loop arrows symbolizing 相互 (each other) -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top-right sweeping arrow -->
+    <path d="M 80 84 
+             C 80 62, 100 50, 130 50 
+             C 160 50, 185 70, 185 100 
+             C 185 115, 178 130, 168 142" 
+          stroke="#4FD1C5" stroke-width="12"/>
+    <path d="M 175 125 L 168 143 L 150 138" 
+          stroke="#4FD1C5" stroke-width="12"/>
+
+    <!-- Bottom-left sweeping arrow -->
+    <path d="M 160 156 
+             C 160 178, 140 190, 110 190 
+             C 80 190, 55 170, 55 140 
+             C 55 125, 62 110, 72 98" 
+          stroke="#F6AD55" stroke-width="12"/>
+    <path d="M 65 115 L 72 97 L 90 102" 
+          stroke="#F6AD55" stroke-width="12"/>
+  </g>
+
+  <!-- Central Core: Stylized silhouette representing two people/entities facing and supporting each other -->
+  <g transform="translate(120, 120)">
+    <!-- Left Person / Element -->
+    <g transform="translate(-28, 0)">
+      <circle cx="0" cy="-22" r="12" fill="#F6AD55"/>
+      <path d="M -16 22 C -16 2, -12 -4, 0 -4 C 12 -4, 16 2, 16 22 Z" fill="#F6AD55"/>
+    </g>
+
+    <!-- Right Person / Element -->
+    <g transform="translate(28, 0)">
+      <circle cx="0" cy="-22" r="12" fill="#4FD1C5"/>
+      <path d="M -16 22 C -16 2, -12 -4, 0 -4 C 12 -4, 16 2, 16 22 Z" fill="#4FD1C5"/>
+    </g>
+
+    <!-- Central connecting bond / handshake symbol -->
+    <circle cx="0" cy="0" r="16" fill="#1A1D24"/>
+    <circle cx="0" cy="0" r="12" fill="#E2E8F0"/>
+    
+    <!-- Minimalist reciprocal hands icon inside center -->
+    <path d="M -5 2 L -1 -2 L 5 4" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 5 -2 L 1 2 L -5 -4" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

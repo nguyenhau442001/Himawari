@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Architectural silhouette of an academy/institute -->
+  <path d="M60 180 L180 180 L180 100 L120 70 L60 100 Z" fill="#2D343E" stroke="#4A5568" stroke-width="2"/>
+  <rect x="75" y="120" width="30" height="60" fill="#3A4452"/>
+  <rect x="135" y="120" width="30" height="60" fill="#3A4452"/>
+  
+  <!-- Dynamic human character (Student) -->
+  <!-- Body -->
+  <path d="M120 140 C110 140 105 150 105 160 L105 210" stroke="#FFB347" stroke-width="8" stroke-linecap="round"/>
+  <path d="M120 140 C130 140 135 150 135 160 L135 210" stroke="#FFB347" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="125" r="12" fill="#FFB347"/>
+  
+  <!-- Action: Holding a book/notebook -->
+  <rect x="130" y="145" width="25" height="20" rx="2" fill="#E2E8F0"/>
+  <path d="M132 148 L153 148 M132 153 L153 153 M132 158 L153 158" stroke="#1A1D24" stroke-width="1"/>
+  
+  <!-- Motion lines indicating walking into the institute -->
+  <path d="M90 190 L70 190" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <path d="M85 185 L75 185" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <path d="M85 195 L75 195" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Decorative accent -->
+  <circle cx="180" cy="60" r="15" fill="none" stroke="#FFB347" stroke-width="3" stroke-dasharray="4 4"/>
+</svg>

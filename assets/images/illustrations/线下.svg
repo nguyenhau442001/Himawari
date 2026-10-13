@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Physical venue / building representing "offline" location -->
+  <path d="M70 180V100L120 70L170 100V180H70Z" fill="#2D3748"/>
+  
+  <!-- Roof / Architecture accent -->
+  <path d="M60 100L120 62L180 100H60Z" fill="#4A5568"/>
+  
+  <!-- Double doors (physical entry) -->
+  <rect x="105" y="130" width="30" height="50" fill="#1A1D24"/>
+  <rect x="110" y="135" width="20" height="40" fill="#319795"/>
+  <circle cx="114" cy="155" r="1.5" fill="#E2E8F0"/>
+  
+  <!-- Windows representing physical building -->
+  <rect x="85" y="110" width="15" height="20" rx="2" fill="#E2E8F0" opacity="0.8"/>
+  <rect x="140" y="110" width="15" height="20" rx="2" fill="#E2E8F0" opacity="0.8"/>
+  <rect x="85" y="140" width="15" height="20" rx="2" fill="#E2E8F0" opacity="0.3"/>
+  <rect x="140" y="140" width="15" height="20" rx="2" fill="#E2E8F0" opacity="0.3"/>
+  
+  <!-- Stairs leading to the offline venue -->
+  <polygon points="55,185 185,185 195,192 45,192" fill="#4A5568"/>
+  <polygon points="50,192 190,192 200,200 40,200" fill="#2D3748"/>
+
+  <!-- People interacting face-to-face (offline context) -->
+  <!-- Person 1 (Left) -->
+  <circle cx="85" cy="170" r="8" fill="#F6AD55"/>
+  <path d="M75 190C75 183 79 180 85 180C91 180 95 183 95 190V195H75V190Z" fill="#3182CE"/>
+  
+  <!-- Person 2 (Right) -->
+  <circle cx="155" cy="170" r="8" fill="#F6AD55"/>
+  <path d="M145 190C145 183 149 180 155 180C161 180 165 183 165 190V195H145V190Z" fill="#ED8936"/>
+
+  <!-- Location Pin hovering above, explicitly anchoring the physical place -->
+  <path d="M120 30C106.2 30 95 41.2 95 55C95 73.75 120 95 120 95C120 95 145 73.75 145 55C145 41.2 133.8 30 120 30Z" fill="#F56565"/>
+  <circle cx="120" cy="53" r="7" fill="#1A1D24"/>
+</svg>

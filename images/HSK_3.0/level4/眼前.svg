@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sea horizon line -->
+  <path d="M40 160 C 80 150, 160 150, 200 160" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  
+  <!-- Ocean waves -->
+  <path d="M40 170 Q 60 160, 80 170 T 120 170 T 160 170 T 200 170 V 200 H 40 Z" fill="#2C3E50"/>
+  <path d="M40 180 Q 60 170, 80 180 T 120 180 T 160 180 T 200 180 V 200 H 40 Z" fill="#34495E"/>
+  
+  <!-- Sun/Horizon glow -->
+  <circle cx="120" cy="150" r="25" fill="#F39C12" opacity="0.2"/>
+  
+  <!-- Silhouette of a person looking forward -->
+  <g transform="translate(100, 80)">
+    <circle cx="20" cy="20" r="15" fill="#E67E22"/>
+    <path d="M5 40 Q 20 35, 35 40 L 30 90 L 10 90 Z" fill="#E67E22"/>
+  </g>
+  
+  <!-- Focus indicator: Sight lines -->
+  <path d="M120 100 L 120 140" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 130 L 120 140 L 130 130" stroke="#F39C12" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>

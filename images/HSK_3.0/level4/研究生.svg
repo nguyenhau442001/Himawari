@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk and Environment -->
+  <rect x="40" y="160" width="160" height="10" fill="#343A46" rx="2"/>
+  <rect x="180" y="170" width="10" height="40" fill="#2A2F3A"/>
+  <rect x="50" y="170" width="10" height="40" fill="#2A2F3A"/>
+  
+  <!-- Books and Research Materials -->
+  <rect x="60" y="145" width="40" height="15" fill="#FFB86C" rx="2"/>
+  <rect x="65" y="130" width="35" height="15" fill="#FFB86C" rx="2"/>
+  <rect x="110" y="150" width="50" height="10" fill="#6272A4" rx="2"/>
+  
+  <!-- Human Character (Upper Body) -->
+  <circle cx="120" cy="90" r="25" fill="#F8F8F2"/>
+  <path d="M80 200 C 80 140, 160 140, 160 200" fill="#44475A"/>
+  
+  <!-- Action: Investigating/Studying with Magnifying Glass -->
+  <circle cx="150" cy="110" r="20" fill="none" stroke="#FFB86C" stroke-width="4"/>
+  <line x1="165" y1="125" x2="185" y2="145" stroke="#FFB86C" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Motion Lines indicating focus/research -->
+  <path d="M130 70 Q 140 60 150 70" stroke="#6272A4" stroke-width="2" fill="none"/>
+  <path d="M135 65 Q 145 55 155 65" stroke="#6272A4" stroke-width="2" fill="none"/>
+  
+  <!-- Detail: Focused eyes -->
+  <circle cx="110" cy="85" r="3" fill="#1A1D24"/>
+  <circle cx="130" cy="85" r="3" fill="#1A1D24"/>
+</svg>

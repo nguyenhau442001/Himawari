@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Device (Smartphone) -->
+  <rect x="80" y="80" width="80" height="140" rx="8" fill="#2D343E" stroke="#FFB800" stroke-width="2"/>
+  <rect x="85" y="90" width="70" height="110" rx="4" fill="#3D4754"/>
+  <circle cx="120" cy="210" r="4" fill="#FFB800"/>
+  
+  <!-- Motion lines indicating interaction -->
+  <path d="M165 100 Q180 110 165 120" stroke="#FFB800" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M170 95 Q190 110 170 125" stroke="#FFB800" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Hand interacting with screen -->
+  <path d="M160 140 C160 130 170 125 180 130 L190 150 L170 160 L160 140" fill="#FFD180"/>
+  <path d="M180 130 L185 135 L175 140" fill="#E6B800"/>
+  
+  <!-- Package icon on screen -->
+  <path d="M95 110 L105 105 L115 110 L105 115 Z" fill="#FFB800"/>
+  <path d="M95 110 L95 125 L105 130 L115 125 L115 110" fill="#FFD180"/>
+  <path d="M105 115 L105 130" stroke="#FFB800" stroke-width="2"/>
+  
+  <!-- Floating shopping items -->
+  <circle cx="190" cy="70" r="8" fill="#FFB800"/>
+  <rect x="185" y="180" width="15" height="15" rx="2" fill="#FFB800"/>
+  <path d="M60 160 L70 150 L80 160 L70 170 Z" fill="#FFB800" opacity="0.6"/>
+</svg>

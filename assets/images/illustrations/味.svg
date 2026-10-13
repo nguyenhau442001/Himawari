@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Steam / Flavor wisps rising -->
+  <path d="M96 76 C96 64, 104 56, 104 44 C104 32, 96 24, 96 16" stroke="#4FD1C5" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M120 72 C120 58, 128 50, 128 38 C128 26, 120 18, 120 10" stroke="#F6AD55" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M144 76 C144 64, 136 56, 136 44 C136 32, 144 24, 144 16" stroke="#FC8181" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Steam particle dots -->
+  <circle cx="108" cy="30" r="2" fill="#4FD1C5" opacity="0.6"/>
+  <circle cx="132" cy="24" r="2.5" fill="#F6AD55" opacity="0.7"/>
+
+  <!-- Soup Bowl / Dish body (representing "味" context: 菜的味儿) -->
+  <path d="M60 110 C60 148, 80 168, 120 168 C160 168, 180 148, 180 110 Z" fill="#2D3748" stroke="#4A5568" stroke-width="3"/>
+  <path d="M52 110 L188 110 C192 110, 195 107, 195 103 C195 99, 192 96, 188 96 L52 96 C48 96, 45 99, 45 103 C45 107, 48 110, 52 110 Z" fill="#4A5568"/>
+  <ellipse cx="120" cy="110" rx="60" ry="12" fill="#E2E8F0"/>
+
+  <!-- Rich Broth / Liquid surface -->
+  <ellipse cx="120" cy="112" rx="55" ry="9" fill="#DD6B20"/>
+
+  <!-- Delicious food elements inside bowl -->
+  <circle cx="105" cy="110" r="10" fill="#319795"/>
+  <circle cx="138" cy="114" r="8" fill="#38A169"/>
+  <ellipse cx="120" cy="109" rx="12" ry="6" fill="#9C4221"/>
+  <circle cx="95" cy="115" r="5" fill="#ED8936"/>
+
+  <!-- Bowl Stand Base -->
+  <path d="M95 168 L95 184 C95 188, 100 192, 105 192 L135 192 C140 192, 145 188, 145 184 L145 168 Z" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+
+  <!-- Sensory accent waves radiating near the top rim -->
+  <path d="M75 90 Q85 82 95 90" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M145 90 Q155 82 165 90" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table surface -->
+  <rect x="40" y="160" width="160" height="10" rx="2" fill="#2D343E"/>
+  
+  <!-- Magnifying glass (Scale exaggeration for detail) -->
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#FFB84D" stroke-width="6"/>
+  <line x1="125" y1="125" x2="150" y2="150" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- The object being examined (A complex gear/mechanism) -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="12" fill="#5DADE2"/>
+    <circle cx="0" cy="0" r="4" fill="#1A1D24"/>
+    <path d="M0 -18 L2 -12 L-2 -12 Z" fill="#5DADE2"/>
+    <path d="M0 18 L2 12 L-2 12 Z" fill="#5DADE2"/>
+    <path d="M-18 0 L-12 2 L-12 -2 Z" fill="#5DADE2"/>
+    <path d="M18 0 L12 2 L12 -2 Z" fill="#5DADE2"/>
+  </g>
+  
+  <!-- Hand holding the magnifying glass -->
+  <path d="M145 145 L165 165 L175 155 L155 135 Z" fill="#E6E6E6"/>
+  
+  <!-- Detail lines indicating precision -->
+  <line x1="180" y1="80" x2="210" y2="80" stroke="#5DADE2" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="180" y1="90" x2="200" y2="90" stroke="#5DADE2" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Focus point indicator -->
+  <circle cx="100" cy="100" r="2" fill="#FFB84D"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sky/Atmosphere -->
+  <circle cx="180" cy="60" r="25" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Person -->
+  <g transform="translate(120, 180)">
+    <!-- Body -->
+    <path d="M-30 0 L30 0 L20 -60 L-20 -60 Z" fill="#4A90E2"/>
+    
+    <!-- Neck -->
+    <rect x="-5" y="-75" width="10" height="15" fill="#FFCBA4"/>
+    
+    <!-- Head (Looking Up) -->
+    <g transform="rotate(-30, 0, -85)">
+      <circle cx="0" cy="-85" r="20" fill="#FFCBA4"/>
+      <!-- Eye looking up -->
+      <path d="M-8 -90 A 5 5 0 0 1 8 -90" stroke="#1A1D24" stroke-width="2" fill="none"/>
+      <!-- Hair -->
+      <path d="M-20 -85 Q 0 -115 20 -85 L 20 -95 Q 0 -125 -20 -95 Z" fill="#333"/>
+    </g>
+    
+    <!-- Arms -->
+    <path d="M-25 -50 L-45 -20" stroke="#4A90E2" stroke-width="12" stroke-linecap="round"/>
+    <path d="M25 -50 L45 -20" stroke="#4A90E2" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

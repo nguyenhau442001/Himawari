@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk surface -->
+  <rect x="40" y="160" width="160" height="10" fill="#2D343E" rx="2"/>
+  
+  <!-- University Building Silhouette (Background) -->
+  <path d="M70 160 L70 100 L90 80 L110 100 L110 160 Z" fill="#3D4756"/>
+  <path d="M130 160 L130 90 L150 70 L170 90 L170 160 Z" fill="#3D4756"/>
+  
+  <!-- Hand placing coins -->
+  <g>
+    <path d="M140 140 C140 120 150 110 160 110 C170 110 180 120 180 140 L180 160 L140 160 Z" fill="#FFC107"/>
+    <circle cx="160" cy="135" r="12" fill="#FF9800" stroke="#FFC107" stroke-width="2"/>
+    <circle cx="160" cy="135" r="6" fill="#FFC107"/>
+  </g>
+  
+  <!-- Character interaction (Hand reaching to pay) -->
+  <path d="M100 180 L120 140 L130 145 L110 190 Z" fill="#E0E0E0"/>
+  <circle cx="100" cy="185" r="8" fill="#E0E0E0"/>
+  
+  <!-- Motion lines for action -->
+  <path d="M150 110 L140 100" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+  <path d="M170 110 L180 100" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Payment counter/registry edge -->
+  <rect x="130" y="160" width="60" height="20" fill="#252B35"/>
+</svg>

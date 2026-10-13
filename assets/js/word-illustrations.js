@@ -25857,6 +25857,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/孙女.svg",
     "caption": "cháu gái (con của con trai)"
   },
+  "抬头": {
+    "file": "抬头.svg",
+    "src": "images/HSK_3.0/level4/抬头.svg",
+    "caption": "ngẩng đầu"
+  },
   "弹": {
     "file": "弹.svg",
     "src": "images/HSK_3.0/level4/弹.svg",
@@ -25886,6 +25891,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "体重.svg",
     "src": "images/HSK_3.0/level4/体重.svg",
     "caption": "cân nặng"
+  },
+  "填写": {
+    "file": "填写.svg",
+    "src": "images/HSK_3.0/level4/填写.svg",
+    "caption": "điền (vào mẫu)"
+  },
+  "听力": {
+    "file": "听力.svg",
+    "src": "images/HSK_3.0/level4/听力.svg",
+    "caption": "nghe hiểu; thính lực"
+  },
+  "听众": {
+    "file": "听众.svg",
+    "src": "images/HSK_3.0/level4/听众.svg",
+    "caption": "thính giả"
+  },
+  "停车": {
+    "file": "停车.svg",
+    "src": "images/HSK_3.0/level4/停车.svg",
+    "caption": "đỗ xe, dừng xe"
+  },
+  "停车场": {
+    "file": "停车场.svg",
+    "src": "images/HSK_3.0/level4/停车场.svg",
+    "caption": "bãi đỗ xe"
+  },
+  "停止": {
+    "file": "停止.svg",
+    "src": "images/HSK_3.0/level4/停止.svg",
+    "caption": "dừng, ngừng"
+  },
+  "通": {
+    "file": "通.svg",
+    "src": "images/HSK_3.0/level4/通.svg",
+    "caption": "thông, thông suốt; (gọi điện) được"
+  },
+  "童年": {
+    "file": "童年.svg",
+    "src": "images/HSK_3.0/level4/童年.svg",
+    "caption": "tuổi thơ"
+  },
+  "同样": {
+    "file": "同样.svg",
+    "src": "images/HSK_3.0/level4/同样.svg",
+    "caption": "giống nhau, như nhau"
+  },
+  "桶": {
+    "file": "桶.svg",
+    "src": "images/HSK_3.0/level4/桶.svg",
+    "caption": "thùng, xô"
+  },
+  "痛": {
+    "file": "痛.svg",
+    "src": "images/HSK_3.0/level4/痛.svg",
+    "caption": "đau; thỏa thích"
+  },
+  "头痛": {
+    "file": "头痛.svg",
+    "src": "images/HSK_3.0/level4/头痛.svg",
+    "caption": "đau đầu"
+  },
+  "图": {
+    "file": "图.svg",
+    "src": "images/HSK_3.0/level4/图.svg",
+    "caption": "hình vẽ, bản đồ, tranh"
+  },
+  "图片": {
+    "file": "图片.svg",
+    "src": "images/HSK_3.0/level4/图片.svg",
+    "caption": "hình ảnh, tranh ảnh"
+  },
+  "土": {
+    "file": "土.svg",
+    "src": "images/HSK_3.0/level4/土.svg",
+    "caption": "đất; quê mùa"
+  },
+  "推出": {
+    "file": "推出.svg",
+    "src": "images/HSK_3.0/level4/推出.svg",
+    "caption": "đưa ra, tung ra (sản phẩm)"
+  },
+  "外出": {
+    "file": "外出.svg",
+    "src": "images/HSK_3.0/level4/外出.svg",
+    "caption": "ra ngoài, đi vắng"
+  },
+  "外套": {
+    "file": "外套.svg",
+    "src": "images/HSK_3.0/level4/外套.svg",
+    "caption": "áo khoác"
+  },
+  "网购": {
+    "file": "网购.svg",
+    "src": "images/HSK_3.0/level4/网购.svg",
+    "caption": "mua sắm trực tuyến"
+  },
+  "网址": {
+    "file": "网址.svg",
+    "src": "images/HSK_3.0/level4/网址.svg",
+    "caption": "địa chỉ trang web"
+  },
+  "味": {
+    "file": "味.svg",
+    "src": "images/HSK_3.0/level4/味.svg",
+    "caption": "vị; mùi"
+  },
+  "卫生": {
+    "file": "卫生.svg",
+    "src": "images/HSK_3.0/level4/卫生.svg",
+    "caption": "vệ sinh; sạch sẽ"
+  },
+  "无法": {
+    "file": "无法.svg",
+    "src": "images/HSK_3.0/level4/无法.svg",
+    "caption": "không thể, không có cách nào"
+  },
+  "西部": {
+    "file": "西部.svg",
+    "src": "images/HSK_3.0/level4/西部.svg",
+    "caption": "phía tây, miền tây"
+  },
+  "细": {
+    "file": "细.svg",
+    "src": "images/HSK_3.0/level4/细.svg",
+    "caption": "mảnh, nhỏ; tỉ mỉ"
+  },
+  "细心": {
+    "file": "细心.svg",
+    "src": "images/HSK_3.0/level4/细心.svg",
+    "caption": "cẩn thận, tỉ mỉ"
+  },
+  "下降": {
+    "file": "下降.svg",
+    "src": "images/HSK_3.0/level4/下降.svg",
+    "caption": "giảm, hạ xuống"
+  },
+  "鲜": {
+    "file": "鲜.svg",
+    "src": "images/HSK_3.0/level4/鲜.svg",
+    "caption": "tươi; ngon ngọt"
+  },
+  "鲜花": {
+    "file": "鲜花.svg",
+    "src": "images/HSK_3.0/level4/鲜花.svg",
+    "caption": "hoa tươi"
+  },
+  "线上": {
+    "file": "线上.svg",
+    "src": "images/HSK_3.0/level4/线上.svg",
+    "caption": "trực tuyến, online"
+  },
+  "线下": {
+    "file": "线下.svg",
+    "src": "images/HSK_3.0/level4/线下.svg",
+    "caption": "trực tiếp, offline"
+  },
+  "现有": {
+    "file": "现有.svg",
+    "src": "images/HSK_3.0/level4/现有.svg",
+    "caption": "hiện có"
+  },
+  "相比": {
+    "file": "相比.svg",
+    "src": "images/HSK_3.0/level4/相比.svg",
+    "caption": "so với"
+  },
+  "相互": {
+    "file": "相互.svg",
+    "src": "images/HSK_3.0/level4/相互.svg",
+    "caption": "lẫn nhau"
+  },
+  "想法": {
+    "file": "想法.svg",
+    "src": "images/HSK_3.0/level4/想法.svg",
+    "caption": "suy nghĩ, ý tưởng"
+  },
+  "小组": {
+    "file": "小组.svg",
+    "src": "images/HSK_3.0/level4/小组.svg",
+    "caption": "nhóm, tổ"
+  },
+  "心": {
+    "file": "心.svg",
+    "src": "images/HSK_3.0/level4/心.svg",
+    "caption": "tim; lòng, tâm"
+  },
+  "星星": {
+    "file": "星星.svg",
+    "src": "images/HSK_3.0/level4/星星.svg",
+    "caption": "ngôi sao"
+  },
+  "性": {
+    "file": "性.svg",
+    "src": "images/HSK_3.0/level4/性.svg",
+    "caption": "tính (hậu tố: tính chất)"
+  },
+  "熊": {
+    "file": "熊.svg",
+    "src": "images/HSK_3.0/level4/熊.svg",
+    "caption": "con gấu"
+  },
+  "修": {
+    "file": "修.svg",
+    "src": "images/HSK_3.0/level4/修.svg",
+    "caption": "sửa"
+  },
+  "学费": {
+    "file": "学费.svg",
+    "src": "images/HSK_3.0/level4/学费.svg",
+    "caption": "học phí"
+  },
+  "学院": {
+    "file": "学院.svg",
+    "src": "images/HSK_3.0/level4/学院.svg",
+    "caption": "học viện; trường (thuộc đại học)"
+  },
+  "压": {
+    "file": "压.svg",
+    "src": "images/HSK_3.0/level4/压.svg",
+    "caption": "đè, ép"
+  },
+  "烟": {
+    "file": "烟.svg",
+    "src": "images/HSK_3.0/level4/烟.svg",
+    "caption": "khói; thuốc lá"
+  },
+  "研究生": {
+    "file": "研究生.svg",
+    "src": "images/HSK_3.0/level4/研究生.svg",
+    "caption": "nghiên cứu sinh, học viên cao học"
+  },
+  "演唱": {
+    "file": "演唱.svg",
+    "src": "images/HSK_3.0/level4/演唱.svg",
+    "caption": "biểu diễn hát"
+  },
+  "眼前": {
+    "file": "眼前.svg",
+    "src": "images/HSK_3.0/level4/眼前.svg",
+    "caption": "trước mắt"
+  },
+  "夜晚": {
+    "file": "夜晚.svg",
+    "src": "images/HSK_3.0/level4/夜晚.svg",
+    "caption": "ban đêm, buổi tối"
   },
   "哎呀": {
     "file": "哎呀.svg",

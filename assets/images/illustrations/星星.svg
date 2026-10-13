@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle night sky atmosphere with tiny background dots -->
+  <g fill="#4A5568" opacity="0.6">
+    <circle cx="50" cy="60" r="1" />
+    <circle cx="190" cy="50" r="1.5" />
+    <circle cx="200" cy="180" r="1" />
+    <circle cx="40" cy="170" r="1.5" />
+    <circle cx="100" cy="40" r="1" />
+    <circle cx="180" cy="120" r="1" />
+    <circle cx="70" cy="200" r="1" />
+  </g>
+
+  <!-- Central Star 1 (Main Gold Star, slightly offset left/up) -->
+  <g transform="translate(100, 100)">
+    <path d="M 0,-50 C 4,-20 20,-4 50,0 C 20,4 4,20 0,50 C -4,20 -20,4 -50,0 C -20,4 -4,-20 0,-50 Z" 
+          fill="#F6AD55" />
+    <!-- Inner soft glow facet -->
+    <path d="M 0,-25 C 2,-10 10,-2 25,0 C 10,2 2,10 0,25 C -2,10 -10,2 -25,0 C -10,2 -2,10 0,-25 Z" 
+          fill="#FEEBC8" opacity="0.6" />
+  </g>
+
+  <!-- Central Star 2 (Secondary Orange-Gold Star, offset right/down for "星星" plural/cluster feel) -->
+  <g transform="translate(160, 145) scale(0.65)">
+    <path d="M 0,-50 C 4,-20 20,-4 50,0 C 20,4 4,20 0,50 C -4,20 -20,4 -50,0 C -20,4 -4,-20 0,-50 Z" 
+          fill="#ED8936" />
+    <path d="M 0,-25 C 2,-10 10,-2 25,0 C 10,2 2,10 0,25 C -2,10 -10,2 -25,0 C -10,2 -2,10 0,-25 Z" 
+          fill="#FEEBC8" opacity="0.5" />
+  </g>
+
+  <!-- Central Star 3 (Small Accent Star top right) -->
+  <g transform="translate(155, 65) scale(0.4)">
+    <path d="M 0,-50 C 4,-20 20,-4 50,0 C 20,4 4,20 0,50 C -4,20 -20,4 -50,0 C -20,4 -4,-20 0,-50 Z" 
+          fill="#F6AD55" />
+  </g>
+
+  <!-- Central Star 4 (Small Accent Star bottom left) -->
+  <g transform="translate(70, 160) scale(0.45)">
+    <path d="M 0,-50 C 4,-20 20,-4 50,0 C 20,4 4,20 0,50 C -4,20 -20,4 -50,0 C -20,4 -4,-20 0,-50 Z" 
+          fill="#ED8936" />
+  </g>
+</svg>
