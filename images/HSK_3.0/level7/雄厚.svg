@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Base foundation platform representing immense strength and backing -->
+    <path d="M 40 180 L 200 180 L 210 200 L 30 200 Z" fill="#2D323E" />
+    <rect x="50" y="160" width="140" height="20" rx="3" fill="#3A4150" />
+    <rect x="60" y="145" width="120" height="15" rx="2" fill="#485163" />
+
+    <!-- Scale exaggeration: Massive, towering, solid golden vaults/blocks stacked stably to show "雄厚" (abundant/massive resources) -->
+    <!-- Tower 1 (Left) -->
+    <rect x="55" y="80" width="35" height="65" rx="4" fill="#E5A93B" />
+    <rect x="58" y="85" width="29" height="12" rx="2" fill="#F4C459" />
+    <rect x="58" y="105" width="29" height="12" rx="2" fill="#F4C459" />
+    <rect x="58" y="125" width="29" height="12" rx="2" fill="#F4C459" />
+
+    <!-- Tower 2 (Center - Tallest & Most Robust) -->
+    <rect x="96" y="50" width="48" height="95" rx="4" fill="#F4C459" />
+    <rect x="100" y="56" width="40" height="16" rx="2" fill="#FFE082" />
+    <rect x="100" y="80" width="40" height="16" rx="2" fill="#FFE082" />
+    <rect x="100" y="104" width="40" height="16" rx="2" fill="#FFE082" />
+    <rect x="100" y="128" width="40" height="13" rx="2" fill="#FFE082" />
+
+    <!-- Tower 3 (Right) -->
+    <rect x="150" y="70" width="35" height="75" rx="4" fill="#E5A93B" />
+    <rect x="153" y="76" width="29" height="14" rx="2" fill="#F4C459" />
+    <rect x="153" y="98" width="29" height="14" rx="2" fill="#F4C459" />
+    <rect x="153" y="120" width="29" height="14" rx="2" fill="#F4C459" />
+
+    <!-- Upward directional stability indicators (Contrast/Scale) -->
+    <path d="M 120 32 L 112 42 L 128 42 Z" fill="#E5A93B" />
+    <path d="M 120 24 L 115 32 L 125 32 Z" fill="#F4C459" opacity="0.7" />
+
+    <!-- Strong grounding baseline accent -->
+    <rect x="25" y="200" width="190" height="4" rx="2" fill="#E5A93B" />
+  </g>
+</svg>

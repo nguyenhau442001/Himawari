@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Base -->
+  <path d="M40 190 H200" stroke="#3A3F4B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Human Character (Side profile, kneeling/devoted posture) -->
+  <g fill="#F5F5F5">
+    <!-- Head -->
+    <circle cx="120" cy="100" r="15"/>
+    <!-- Body/Torso -->
+    <path d="M105 115 L135 115 L130 180 L110 180 Z"/>
+    <!-- Arms reaching forward -->
+    <path d="M120 125 L150 140" stroke="#F5F5F5" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The "Faith" object: A glowing, warm lantern held with both hands -->
+  <g transform="translate(150, 140)">
+    <rect x="-10" y="-20" width="20" height="30" rx="4" fill="#FFB347"/>
+    <rect x="-12" y="-25" width="24" height="5" rx="2" fill="#FFD700"/>
+    <path d="M0 -25 L0 -35" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+    <!-- Radiance lines (Subtle, non-sci-fi) -->
+    <path d="M-15 -10 L-25 -10" stroke="#FFB347" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M15 -10 L25 -10" stroke="#FFB347" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  
+  <!-- Motion lines indicating focus/devotion -->
+  <path d="M90 90 Q70 100 90 110" stroke="#3A3F4B" stroke-width="2" fill="none"/>
+  <path d="M85 85 Q60 100 85 115" stroke="#3A3F4B" stroke-width="2" fill="none"/>
+</svg>

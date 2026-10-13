@@ -21637,6 +21637,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/潇洒.svg",
     "caption": "phóng khoáng, tự nhiên"
   },
+  "携带": {
+    "file": "携带.svg",
+    "src": "images/HSK_2.0/level6/携带.svg",
+    "caption": "mang theo"
+  },
   "协会": {
     "file": "协会.svg",
     "src": "images/HSK_2.0/level6/协会.svg",
@@ -21667,10 +21672,25 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/屑.svg",
     "caption": "mảnh vụn"
   },
+  "谢绝": {
+    "file": "谢绝.svg",
+    "src": "images/HSK_2.0/level6/谢绝.svg",
+    "caption": "khéo từ chối"
+  },
   "泄露": {
     "file": "泄露.svg",
     "src": "images/HSK_2.0/level6/泄露.svg",
     "caption": "rò rỉ (thông tin)"
+  },
+  "泄气": {
+    "file": "泄气.svg",
+    "src": "images/HSK_2.0/level6/泄气.svg",
+    "caption": "nản lòng"
+  },
+  "新陈代谢": {
+    "file": "新陈代谢.svg",
+    "src": "images/HSK_2.0/level6/新陈代谢.svg",
+    "caption": "trao đổi chất"
   },
   "新郎": {
     "file": "新郎.svg",
@@ -21692,6 +21712,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/心得.svg",
     "caption": "kinh nghiệm thu được"
   },
+  "心灵": {
+    "file": "心灵.svg",
+    "src": "images/HSK_2.0/level6/心灵.svg",
+    "caption": "tâm hồn"
+  },
   "心态": {
     "file": "心态.svg",
     "src": "images/HSK_2.0/level6/心态.svg",
@@ -21707,6 +21732,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/心血.svg",
     "caption": "tâm huyết"
   },
+  "心眼儿": {
+    "file": "心眼儿.svg",
+    "src": "images/HSK_2.0/level6/心眼儿.svg",
+    "caption": "tâm tư, tâm địa"
+  },
+  "心甘情愿": {
+    "file": "心甘情愿.svg",
+    "src": "images/HSK_2.0/level6/心甘情愿.svg",
+    "caption": "tự nguyện, vui lòng"
+  },
+  "辛勤": {
+    "file": "辛勤.svg",
+    "src": "images/HSK_2.0/level6/辛勤.svg",
+    "caption": "cần cù, chăm chỉ"
+  },
   "欣慰": {
     "file": "欣慰.svg",
     "src": "images/HSK_2.0/level6/欣慰.svg",
@@ -21717,10 +21757,75 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/欣欣向荣.svg",
     "caption": "phát triển phơi phới"
   },
+  "薪水": {
+    "file": "薪水.svg",
+    "src": "images/HSK_2.0/level6/薪水.svg",
+    "caption": "tiền lương"
+  },
   "信赖": {
     "file": "信赖.svg",
     "src": "images/HSK_2.0/level6/信赖.svg",
     "caption": "tín nhiệm"
+  },
+  "信念": {
+    "file": "信念.svg",
+    "src": "images/HSK_2.0/level6/信念.svg",
+    "caption": "niềm tin"
+  },
+  "信仰": {
+    "file": "信仰.svg",
+    "src": "images/HSK_2.0/level6/信仰.svg",
+    "caption": "tín ngưỡng"
+  },
+  "信誉": {
+    "file": "信誉.svg",
+    "src": "images/HSK_2.0/level6/信誉.svg",
+    "caption": "uy tín, tín nhiệm"
+  },
+  "腥": {
+    "file": "腥.svg",
+    "src": "images/HSK_2.0/level6/腥.svg",
+    "caption": "tanh"
+  },
+  "兴隆": {
+    "file": "兴隆.svg",
+    "src": "images/HSK_2.0/level6/兴隆.svg",
+    "caption": "hưng thịnh (kinh doanh)"
+  },
+  "兴旺": {
+    "file": "兴旺.svg",
+    "src": "images/HSK_2.0/level6/兴旺.svg",
+    "caption": "thịnh vượng"
+  },
+  "行政": {
+    "file": "行政.svg",
+    "src": "images/HSK_2.0/level6/行政.svg",
+    "caption": "hành chính"
+  },
+  "形态": {
+    "file": "形态.svg",
+    "src": "images/HSK_2.0/level6/形态.svg",
+    "caption": "hình thái"
+  },
+  "刑事": {
+    "file": "刑事.svg",
+    "src": "images/HSK_2.0/level6/刑事.svg",
+    "caption": "hình sự"
+  },
+  "性感": {
+    "file": "性感.svg",
+    "src": "images/HSK_2.0/level6/性感.svg",
+    "caption": "gợi cảm"
+  },
+  "性命": {
+    "file": "性命.svg",
+    "src": "images/HSK_2.0/level6/性命.svg",
+    "caption": "tính mạng"
+  },
+  "性能": {
+    "file": "性能.svg",
+    "src": "images/HSK_2.0/level6/性能.svg",
+    "caption": "tính năng"
   },
   "兴高采烈": {
     "file": "兴高采烈.svg",
@@ -21731,6 +21836,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "兴致勃勃.svg",
     "src": "images/HSK_2.0/level6/兴致勃勃.svg",
     "caption": "hào hứng, sôi nổi"
+  },
+  "胸怀": {
+    "file": "胸怀.svg",
+    "src": "images/HSK_2.0/level6/胸怀.svg",
+    "caption": "tấm lòng, hoài bão"
+  },
+  "胸膛": {
+    "file": "胸膛.svg",
+    "src": "images/HSK_2.0/level6/胸膛.svg",
+    "caption": "lồng ngực"
   },
   "汹涌": {
     "file": "汹涌.svg",
@@ -21747,25 +21862,160 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/凶手.svg",
     "caption": "hung thủ"
   },
+  "雄厚": {
+    "file": "雄厚.svg",
+    "src": "images/HSK_2.0/level6/雄厚.svg",
+    "caption": "vững chắc, hùng hậu"
+  },
   "雄伟": {
     "file": "雄伟.svg",
     "src": "images/HSK_2.0/level6/雄伟.svg",
     "caption": "hùng vĩ"
+  },
+  "修复": {
+    "file": "修复.svg",
+    "src": "images/HSK_2.0/level6/修复.svg",
+    "caption": "khôi phục, sửa chữa"
   },
   "修建": {
     "file": "修建.svg",
     "src": "images/HSK_2.0/level6/修建.svg",
     "caption": "xây dựng"
   },
+  "修养": {
+    "file": "修养.svg",
+    "src": "images/HSK_2.0/level6/修养.svg",
+    "caption": "tu dưỡng"
+  },
+  "羞耻": {
+    "file": "羞耻.svg",
+    "src": "images/HSK_2.0/level6/羞耻.svg",
+    "caption": "hổ thẹn, xấu hổ"
+  },
+  "绣": {
+    "file": "绣.svg",
+    "src": "images/HSK_2.0/level6/绣.svg",
+    "caption": "thêu"
+  },
+  "嗅觉": {
+    "file": "嗅觉.svg",
+    "src": "images/HSK_2.0/level6/嗅觉.svg",
+    "caption": "khứu giác"
+  },
+  "虚假": {
+    "file": "虚假.svg",
+    "src": "images/HSK_2.0/level6/虚假.svg",
+    "caption": "giả dối"
+  },
+  "虚荣": {
+    "file": "虚荣.svg",
+    "src": "images/HSK_2.0/level6/虚荣.svg",
+    "caption": "hư danh"
+  },
+  "虚伪": {
+    "file": "虚伪.svg",
+    "src": "images/HSK_2.0/level6/虚伪.svg",
+    "caption": "giả dối, không thật"
+  },
   "需求": {
     "file": "需求.svg",
     "src": "images/HSK_2.0/level6/需求.svg",
     "caption": "nhu cầu"
   },
+  "须知": {
+    "file": "须知.svg",
+    "src": "images/HSK_2.0/level6/须知.svg",
+    "caption": "cần biết, điều cần lưu ý"
+  },
+  "许可": {
+    "file": "许可.svg",
+    "src": "images/HSK_2.0/level6/许可.svg",
+    "caption": "cho phép"
+  },
+  "酗酒": {
+    "file": "酗酒.svg",
+    "src": "images/HSK_2.0/level6/酗酒.svg",
+    "caption": "say rượu, nghiện rượu"
+  },
+  "畜牧": {
+    "file": "畜牧.svg",
+    "src": "images/HSK_2.0/level6/畜牧.svg",
+    "caption": "chăn nuôi gia súc"
+  },
+  "序言": {
+    "file": "序言.svg",
+    "src": "images/HSK_2.0/level6/序言.svg",
+    "caption": "lời tựa"
+  },
+  "喧哗": {
+    "file": "喧哗.svg",
+    "src": "images/HSK_2.0/level6/喧哗.svg",
+    "caption": "huyên náo"
+  },
+  "宣誓": {
+    "file": "宣誓.svg",
+    "src": "images/HSK_2.0/level6/宣誓.svg",
+    "caption": "tuyên thệ"
+  },
+  "宣扬": {
+    "file": "宣扬.svg",
+    "src": "images/HSK_2.0/level6/宣扬.svg",
+    "caption": "tuyên truyền, rao truyền"
+  },
+  "悬挂": {
+    "file": "悬挂.svg",
+    "src": "images/HSK_2.0/level6/悬挂.svg",
+    "caption": "treo lên"
+  },
+  "悬念": {
+    "file": "悬念.svg",
+    "src": "images/HSK_2.0/level6/悬念.svg",
+    "caption": "hồi hộp, treo lơ lửng (kịch tính)"
+  },
+  "悬殊": {
+    "file": "悬殊.svg",
+    "src": "images/HSK_2.0/level6/悬殊.svg",
+    "caption": "chênh lệch lớn"
+  },
+  "悬崖峭壁": {
+    "file": "悬崖峭壁.svg",
+    "src": "images/HSK_2.0/level6/悬崖峭壁.svg",
+    "caption": "vách núi dựng đứng"
+  },
+  "旋律": {
+    "file": "旋律.svg",
+    "src": "images/HSK_2.0/level6/旋律.svg",
+    "caption": "giai điệu"
+  },
+  "旋转": {
+    "file": "旋转.svg",
+    "src": "images/HSK_2.0/level6/旋转.svg",
+    "caption": "xoay, quay"
+  },
+  "选拔": {
+    "file": "选拔.svg",
+    "src": "images/HSK_2.0/level6/选拔.svg",
+    "caption": "tuyển chọn"
+  },
+  "选举": {
+    "file": "选举.svg",
+    "src": "images/HSK_2.0/level6/选举.svg",
+    "caption": "tuyển cử, bầu cử"
+  },
   "选手": {
     "file": "选手.svg",
     "src": "images/HSK_2.0/level6/选手.svg",
     "caption": "tuyển thủ"
+  },
+  "炫耀": {
+    "file": "炫耀.svg",
+    "src": "images/HSK_2.0/level6/炫耀.svg",
+    "caption": "khoe khoang"
+  },
+  "削": {
+    "file": "削.svg",
+    "src": "images/HSK_2.0/level6/削.svg",
+    "caption": "bào, gọt"
   },
   "压岁钱": {
     "file": "压岁钱.svg",

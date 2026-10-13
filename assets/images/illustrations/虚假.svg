@@ -1,0 +1,48 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing illusion/facade -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual Adjective Contrast: The Facade vs Reality (Fake Advertisement Concept) -->
+  <g transform="translate(0, 5)">
+    <!-- Outer glossy/shining frame (The Facade - Bright, Exaggerated Scale) -->
+    <rect x="55" y="45" width="130" height="95" rx="8" fill="#222831" stroke="#393E46" stroke-width="2"/>
+    
+    <!-- Screen content: A deceptively attractive, glossy oversized product box (Scale Exaggeration for Adjective) -->
+    <rect x="70" y="60" width="100" height="65" rx="6" fill="#0F172A"/>
+    
+    <!-- Golden glittering star/badge of fake perfection -->
+    <circle cx="120" cy="85" r="22" fill="#F59E0B" opacity="0.9"/>
+    <path d="M120 71L123.5 80.5H133.5L125.5 86.5L128.5 96L120 90L111.5 96L114.5 86.5L106.5 80.5H116.5Z" fill="#1A1D24"/>
+    
+    <!-- Sparkles on the glossy frame -->
+    <path d="M172 53L175 58L180 61L175 64L172 69L169 64L164 61L169 58Z" fill="#FBBF24"/>
+    <path d="M68 115L69.5 117.5L72 119L69.5 120.5L68 123L66.5 120.5L64 119L66.5 117.5Z" fill="#FBBF24"/>
+
+    <!-- THE REVEAL / CONTRAST: Mask slipping, hollow interior, cracking facade -->
+    <!-- Broken/Glitch overlay lines -->
+    <path d="M55 90L85 85L110 95L140 88L185 92" stroke="#EF4444" stroke-width="2.5" stroke-dasharray="6,4" fill="none"/>
+    
+    <!-- Transparent / Hollow wireframe revealing the emptiness behind -->
+    <rect x="85" y="70" width="70" height="45" rx="4" fill="none" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.8"/>
+    
+    <!-- Warning Stamp / Red X mark showing "False" state -->
+    <g transform="translate(120, 110)">
+      <circle cx="0" cy="0" r="16" fill="#1A1D24" stroke="#EF4444" stroke-width="3"/>
+      <path d="M-8 -8L8 8M8 -8L-8 8" stroke="#EF4444" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Base / Stand of the misleading display -->
+    <path d="M100 140H140L145 150H95Z" fill="#393E46"/>
+    <ellipse cx="120" cy="150" rx="35" ry="4" fill="#111827"/>
+  </g>
+
+  <!-- Contextual reinforcement icons: Document peeling back to reveal emptiness -->
+  <g transform="translate(0, 10)">
+    <!-- Shadow base -->
+    <ellipse cx="120" cy="175" r="50" ry="6" fill="#111318"/>
+  </g>
+
+</svg>

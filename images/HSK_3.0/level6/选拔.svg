@@ -1,0 +1,70 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container & Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Glowing atmospheric highlight for selection / focus -->
+  <circle cx="120" cy="115" r="75" fill="#252D3D" opacity="0.6"/>
+
+  <!-- Podium / Selection Platform -->
+  <path d="M70 160 L170 160 L185 185 L55 185 Z" fill="#2A3342"/>
+  <path d="M55 185 L185 185 L195 195 L45 195 Z" fill="#1E2530"/>
+  <rect x="85" y="152" width="70" height="8" rx="2" fill="#F59E0B" opacity="0.8"/>
+
+  <!-- Motion Lines / Focus rays representing the act of selecting/picking out -->
+  <g stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.4">
+    <line x1="120" y1="30" x2="120" y2="45"/>
+    <line x1="80" y1="45" x2="90" y2="55"/>
+    <line x1="160" y1="45" x2="150" y2="55"/>
+  </g>
+
+  <!-- Selected Candidate (Center, highlighted with gold accent) -->
+  <g transform="translate(120, 115)">
+    <!-- Spotlight beam from above -->
+    <polygon points="0,-40 -35,70 35,70" fill="#F59E0B" opacity="0.12"/>
+    
+    <!-- Candidate Body -->
+    <path d="M-12 40 L12 40 L15 70 L-15 70 Z" fill="#3B82F6"/>
+    <!-- Candidate Head -->
+    <circle cx="0" cy="24" r="10" fill="#E2E8F0"/>
+    <!-- Raising hand in athletic/successful pose -->
+    <path d="M-12 45 L-22 30" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M12 45 L22 20" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Gold Crown / Excellence Badge floating above selected person -->
+    <path d="M-8 4 L-10 -6 L-3 0 L0 -8 L3 0 L10 -6 L8 4 Z" fill="#F59E0B"/>
+  </g>
+
+  <!-- Non-selected Candidate Left -->
+  <g transform="translate(75, 125)" opacity="0.5">
+    <path d="M-10 35 L10 35 L12 60 L-12 60 Z" fill="#64748B"/>
+    <circle cx="0" cy="21" r="9" fill="#94A3B8"/>
+    <path d="M-10 40 L-18 50" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Non-selected Candidate Right -->
+  <g transform="translate(165, 125)" opacity="0.5">
+    <path d="M-10 35 L10 35 L12 60 L-12 60 Z" fill="#64748B"/>
+    <circle cx="0" cy="21" r="9" fill="#94A3B8"/>
+    <path d="M10 40 L18 50" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Evaluator / Selector Character (Left foreground, pointing/choosing) -->
+  <g transform="translate(45, 105)">
+    <!-- Body -->
+    <path d="M-10 45 L14 45 L18 80 L-14 80 Z" fill="#0F766E"/>
+    <!-- Head -->
+    <circle cx="2" cy="28" r="11" fill="#E2E8F0"/>
+    <!-- Pointing Arm toward the selected candidate -->
+    <path d="M10 50 L38 42" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+    <!-- Clipboard in other hand -->
+    <rect x="-18" y="48" width="12" height="16" rx="2" fill="#94A3B8"/>
+    <line x1="-15" y1="53" x2="-9" y2="53" stroke="#0F766E" stroke-width="2"/>
+    <line x1="-15" y1="58" x2="-11" y2="58" stroke="#0F766E" stroke-width="2"/>
+  </g>
+
+  <!-- Checkmark / Selection Icon floating near the chosen person -->
+  <g transform="translate(142, 68)">
+    <circle cx="0" cy="0" r="12" fill="#F59E0B"/>
+    <path d="M-4 -1 L-1 3 L5 -4" fill="none" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background: Library Shelves (Calm/Silent) -->
+  <rect x="20" y="60" width="200" height="120" rx="4" fill="#2A2E38"/>
+  <rect x="30" y="70" width="180" height="10" fill="#3D4454"/>
+  <rect x="30" y="100" width="180" height="10" fill="#3D4454"/>
+  <rect x="30" y="130" width="180" height="10" fill="#3D4454"/>
+  <rect x="30" y="160" width="180" height="10" fill="#3D4454"/>
+
+  <!-- The "喧哗" (Noisy) Element: A character disrupting the calm -->
+  <!-- Character body -->
+  <circle cx="120" cy="140" r="25" fill="#FFB84D"/>
+  <path d="M105 130 Q120 120 135 130" stroke="#1A1D24" stroke-width="3" fill="none"/>
+  <path d="M100 155 Q120 170 140 155" stroke="#1A1D24" stroke-width="3" fill="none"/>
+  
+  <!-- Sound waves (Exaggerated scale to show noise) -->
+  <path d="M150 140 Q170 120 190 140 T230 140" stroke="#FFB84D" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M150 130 Q170 100 200 130" stroke="#FFB84D" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M150 150 Q170 180 200 150" stroke="#FFB84D" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Prohibition Sign (Context: Library) -->
+  <circle cx="50" cy="50" r="15" fill="none" stroke="#FF5555" stroke-width="4"/>
+  <line x1="40" y1="60" x2="60" y2="40" stroke="#FF5555" stroke-width="4"/>
+  <path d="M45 50 L55 50" stroke="#FF5555" stroke-width="4"/>
+</svg>

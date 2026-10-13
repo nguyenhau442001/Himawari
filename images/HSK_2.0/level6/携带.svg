@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character Body -->
+  <path d="M85,185 L105,130 L135,130 L155,185" stroke="#374151" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M105,130 Q120,125 135,130 L140,85 Q120,80 100,85 Z" fill="#4B5563"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="65" r="18" fill="#E0A98F"/>
+  
+  <!-- Backpack/Bag (Indicating travel/carrying) -->
+  <path d="M100,90 Q85,90 85,110 L85,140 Q85,150 100,150" stroke="#2D3748" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Arm reaching forward holding the document -->
+  <path d="M138,95 L165,115" stroke="#E0A98F" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- The Document (ID/Passport) - Focal Point -->
+  <g transform="translate(160, 105) rotate(10)">
+    <rect width="35" height="25" rx="4" fill="#F59E0B"/>
+    <rect x="5" y="5" width="10" height="10" rx="1" fill="#FFF" fill-opacity="0.3"/>
+    <rect x="18" y="6" width="12" height="2" rx="1" fill="#FFF" fill-opacity="0.3"/>
+    <rect x="18" y="10" width="12" height="2" rx="1" fill="#FFF" fill-opacity="0.3"/>
+    <rect x="5" y="18" width="25" height="2" rx="1" fill="#FFF" fill-opacity="0.3"/>
+  </g>
+  
+  <!-- Hand gripping the document -->
+  <path d="M162,118 Q168,125 175,120" stroke="#E0A98F" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Other arm swinging (walking motion) -->
+  <path d="M102,95 L85,125" stroke="#E0A98F" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Motion Lines (Indicating movement/taking along) -->
+  <line x1="50" y1="100" x2="70" y2="100" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+  <line x1="45" y1="120" x2="65" y2="120" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="140" x2="70" y2="140" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Emphasis highlights around the document -->
+  <path d="M185,90 L195,80" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M205,110 L215,110" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M195,135 L205,145" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>

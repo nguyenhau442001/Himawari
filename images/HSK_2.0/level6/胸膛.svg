@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow on the chest area to highlight "胸膛" (lồng ngực) -->
+  <radialGradient id="chestGlow" cx="50%" cy="45%" r="35%" fx="50%" fy="45%">
+    <stop offset="0%" stop-color="#FF9F43" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#FF9F43" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="120" cy="110" r="70" fill="url(#chestGlow)"/>
+
+  <!-- Character upper body / Torso (demonstrating "挺起胸膛" - puffing out the chest with confidence) -->
+  <g transform="translate(0, 5)">
+    <!-- Shoulders and Back silhouette (Dark slate blue for clothing) -->
+    <path d="M 75 160 C 75 135, 95 125, 120 125 C 145 125, 165 135, 165 160 L 180 200 L 60 200 Z" fill="#2C3240"/>
+    
+    <!-- Chest / Torso Area (Puffed outward, catching the light) -->
+    <path d="M 85 105 C 95 90, 110 85, 120 85 C 130 85, 145 90, 155 105 C 165 120, 160 155, 120 155 C 80 155, 75 120, 85 105 Z" fill="#363E52"/>
+    
+    <!-- Inner detailed chest muscle/sternum contour emphasizing posture -->
+    <path d="M 120 95 L 120 145" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 98 108 C 108 112, 115 112, 120 110 C 125 112, 132 112, 142 108" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 95 125 C 105 130, 115 130, 120 128 C 125 130, 135 130, 145 125" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Accent forward-thrust indicator (Gold/Orange sleek graphic lines representing confidence and upright posture) -->
+    <path d="M 105 100 C 112 94, 128 94, 135 100" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 100 115 C 110 108, 130 108, 140 115" fill="none" stroke="#FF9F43" stroke-width="3.5" stroke-linecap="round"/>
+    
+    <!-- Upward directional posture energy lines -->
+    <line x1="120" y1="78" x2="120" y2="64" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+    <polyline points="115,70 120,63 125,70" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Neck and Chin (Framing the upper chest context) -->
+    <path d="M 107 88 L 107 68 C 107 62, 113 58, 120 58 C 127 58, 133 62, 133 68 L 133 88" fill="#2C3240"/>
+    
+    <!-- Jaw/Chin silhouette -->
+    <path d="M 110 63 C 113 65, 127 65, 130 63" fill="none" stroke="#363E52" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+</svg>

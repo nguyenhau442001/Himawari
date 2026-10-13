@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative depth elements (vast horizon / expansive vista to represent "胸怀" - breadth of mind / expansive spirit) -->
+  <g opacity="0.15">
+    <path d="M 20 180 L 120 130 L 220 180" stroke="#60A5FA" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+    <circle cx="120" cy="90" r="60" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Motion lines indicating expansive open gesture and inner depth -->
+  <g stroke="#38BDF8" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M 70 95 C 50 90 35 105 30 120"/>
+    <path d="M 170 95 C 190 90 205 105 210 120"/>
+  </g>
+
+  <!-- Character representing "他" (He) taking a broad, inclusive, and embracing stance -->
+  <g id="character">
+    <!-- Torso / Upper body with open posture -->
+    <path d="M 96 110 L 144 110 L 155 170 L 85 170 Z" fill="#2563EB"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="78" r="16" fill="#FDE047"/>
+    
+    <!-- Neck -->
+    <rect x="114" y="92" width="12" height="8" fill="#FDE047"/>
+
+    <!-- Arms in an expansive, welcoming, embracing gesture (Verb action: 胸怀 - holding a vast world / open heart) -->
+    <!-- Left arm reaching out wide -->
+    <path d="M 96 115 C 75 110 55 120 45 135 C 55 142 75 135 96 125 Z" fill="#3B82F6"/>
+    <circle cx="43" cy="137" r="6" fill="#FDE047"/>
+
+    <!-- Right arm reaching out wide -->
+    <path d="M 144 115 C 165 110 185 120 195 135 C 185 142 165 135 144 125 Z" fill="#3B82F6"/>
+    <circle cx="197" cy="137" r="6" fill="#FDE047"/>
+  </g>
+
+  <!-- Central glowing core / symbolism of vast vision, ambition, and noble spirit (hoài bão / tấm lòng rộng mở) -->
+  <g id="vision-core">
+    <!-- Outer radiant glow -->
+    <circle cx="120" cy="130" r="28" fill="#F59E0B" opacity="0.2"/>
+    <circle cx="120" cy="130" r="18" fill="#F59E0B" opacity="0.4"/>
+    
+    <!-- Inner bright focus representing the expansive heart/mind -->
+    <circle cx="120" cy="130" r="10" fill="#FBBF24"/>
+    
+    <!-- Starburst / aspiration accents -->
+    <path d="M 120 112 L 120 118 M 120 142 L 120 148 M 102 130 L 108 130 M 132 130 L 138 130" stroke="#FEF3C7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground line representing stability and grounded character -->
+  <path d="M 60 170 L 180 170" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+
+</svg>

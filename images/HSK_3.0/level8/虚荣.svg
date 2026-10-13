@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Mirror Frame -->
+  <rect x="80" y="50" width="80" height="110" rx="8" fill="#2D343E" stroke="#FFD700" stroke-width="4"/>
+  
+  <!-- Mirror Surface -->
+  <rect x="90" y="60" width="60" height="90" rx="4" fill="#3A4351"/>
+  
+  <!-- Character looking at mirror -->
+  <circle cx="120" cy="185" r="25" fill="#FFD700"/>
+  <path d="M105 180 Q120 170 135 180" stroke="#1A1D24" stroke-width="3" fill="none"/>
+  <circle cx="112" cy="180" r="3" fill="#1A1D24"/>
+  <circle cx="128" cy="180" r="3" fill="#1A1D24"/>
+  
+  <!-- Reflection in mirror -->
+  <circle cx="120" cy="90" r="20" fill="#FFD700"/>
+  <path d="M110 95 Q120 105 130 95" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  <circle cx="114" cy="88" r="2" fill="#1A1D24"/>
+  <circle cx="126" cy="88" r="2" fill="#1A1D24"/>
+  
+  <!-- Decorative elements representing vanity/pride -->
+  <path d="M160 70 L180 60 L170 80 Z" fill="#FFD700"/>
+  <path d="M60 90 L80 80 L70 100 Z" fill="#FFD700"/>
+  <circle cx="175" cy="140" r="8" fill="#FFD700"/>
+  <circle cx="65" cy="150" r="5" fill="#FFD700"/>
+</svg>

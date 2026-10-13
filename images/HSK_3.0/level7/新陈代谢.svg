@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Human Silhouette Body -->
+  <path d="M120 60c-16.57 0-30 13.43-30 30v90h60V90c0-16.57-13.43-30-30-30z" fill="#3A404D"/>
+  
+  <!-- Internal Metabolic Process Visualization -->
+  <!-- Representing cellular renewal: Old cells (blue) transitioning to new cells (gold) -->
+  <circle cx="120" cy="100" r="12" fill="#4A90E2"/>
+  <circle cx="105" cy="130" r="10" fill="#4A90E2"/>
+  <circle cx="135" cy="130" r="10" fill="#4A90E2"/>
+  
+  <!-- Arrows indicating cycle/renewal -->
+  <path d="M105 100 L95 90 M135 100 L145 90" stroke="#F39C12" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- New vibrant cells -->
+  <circle cx="120" cy="150" r="14" fill="#F39C12"/>
+  <circle cx="100" cy="165" r="8" fill="#F39C12"/>
+  <circle cx="140" cy="165" r="8" fill="#F39C12"/>
+  
+  <!-- Flow lines -->
+  <path d="M120 112 Q120 130 120 136" stroke="#F39C12" stroke-width="3" fill="none" stroke-dasharray="4 4"/>
+</svg>

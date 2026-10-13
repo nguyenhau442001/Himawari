@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person A (The one declining) -->
+  <g transform="translate(140, 80)">
+    <circle cx="20" cy="20" r="15" fill="#FFC107"/>
+    <path d="M5 45 C5 35, 35 35, 35 45 L35 90 L5 90 Z" fill="#FFC107"/>
+    <!-- Hand gesture: Polite palm out -->
+    <path d="M35 55 L55 50" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    <path d="M55 50 L65 40" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="68" cy="38" r="8" fill="#FFC107"/>
+  </g>
+  
+  <!-- Person B (The one offering) -->
+  <g transform="translate(40, 80)">
+    <circle cx="20" cy="20" r="15" fill="#5DADE2"/>
+    <path d="M5 45 C5 35, 35 35, 35 45 L35 90 L5 90 Z" fill="#5DADE2"/>
+    <!-- Offering an object (a simple card/invitation) -->
+    <rect x="30" y="45" width="20" height="15" rx="2" fill="#EAEAEA"/>
+    <path d="M35 50 L45 50" stroke="#5DADE2" stroke-width="2"/>
+    <path d="M35 55 L45 55" stroke="#5DADE2" stroke-width="2"/>
+  </g>
+  
+  <!-- Motion lines indicating polite refusal -->
+  <path d="M120 50 L110 40" stroke="#FFC107" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M120 60 L110 70" stroke="#FFC107" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Ground line -->
+  <line x1="30" y1="170" x2="210" y2="170" stroke="#34495E" stroke-width="2"/>
+</svg>

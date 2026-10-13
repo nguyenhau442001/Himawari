@@ -1,0 +1,56 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M0 210 Q120 200 240 210 V240 H0 Z" fill="#2C313C"/>
+  
+  <!-- The Result of Labor: Massive Stylized Tree (Scale Exaggeration) -->
+  <path d="M115 205 L110 140 Q110 120 90 110" stroke="#3E4451" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M125 205 L130 150 Q130 130 150 120" stroke="#3E4451" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M120 205 L120 80" stroke="#3E4451" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Golden Foliage/Fruits representing the "Value" of hard work -->
+  <circle cx="120" cy="70" r="25" fill="#FFA726" fill-opacity="0.8"/>
+  <circle cx="90" cy="100" r="20" fill="#FFB74D" fill-opacity="0.8"/>
+  <circle cx="150" cy="110" r="18" fill="#FFB74D" fill-opacity="0.8"/>
+  <circle cx="120" cy="110" r="22" fill="#FFA726" fill-opacity="0.6"/>
+  <circle cx="100" cy="75" r="15" fill="#FFB74D" fill-opacity="0.7"/>
+  <circle cx="140" cy="80" r="15" fill="#FFB74D" fill-opacity="0.7"/>
+  
+  <!-- Small Golden Accents (Fruits) -->
+  <circle cx="120" cy="55" r="5" fill="#FFD54F"/>
+  <circle cx="85" cy="95" r="4" fill="#FFD54F"/>
+  <circle cx="155" cy="105" r="4" fill="#FFD54F"/>
+  <circle cx="105" cy="115" r="3" fill="#FFD54F"/>
+  <circle cx="135" cy="125" r="3" fill="#FFD54F"/>
+  <circle cx="120" cy="90" r="4" fill="#FFD54F"/>
+
+  <!-- The Diligent Worker (Small Scale to emphasize the task) -->
+  <g transform="translate(65, 175)">
+    <!-- Body in a focused, leaning posture -->
+    <path d="M15 30 Q15 15 25 15 L35 18 L30 35 Z" fill="#E0E0E0"/>
+    <!-- Head -->
+    <circle cx="38" cy="12" r="6" fill="#E0E0E0"/>
+    <!-- Legs -->
+    <path d="M18 35 L15 48" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M28 35 L32 48" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+    <!-- Arms holding a tool -->
+    <path d="M32 20 L45 28" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round"/>
+    <!-- Watering Can / Tool -->
+    <rect x="45" y="25" width="12" height="8" rx="2" fill="#FFA726"/>
+    <path d="M57 29 L65 33" stroke="#FFA726" stroke-width="2" stroke-linecap="round"/>
+    <!-- Water droplets (visualizing the action of 'nurturing/working') -->
+    <circle cx="68" cy="38" r="1.5" fill="#4FC3F7" fill-opacity="0.6"/>
+    <circle cx="72" cy="45" r="1.5" fill="#4FC3F7" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Secondary Worker or visual balance of effort -->
+  <g transform="translate(140, 180) scale(-1, 1)">
+    <path d="M15 25 Q15 10 25 10 L35 13 L30 30 Z" fill="#B0BEC5"/>
+    <circle cx="38" cy="7" r="5" fill="#B0BEC5"/>
+    <path d="M18 30 L16 43" stroke="#B0BEC5" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M28 30 L31 43" stroke="#B0BEC5" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Pruning action -->
+    <path d="M32 15 L48 10" stroke="#B0BEC5" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

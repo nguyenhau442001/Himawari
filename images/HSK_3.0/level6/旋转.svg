@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun -->
+  <circle cx="120" cy="120" r="25" fill="#FFB84D"/>
+  
+  <!-- Orbit Path -->
+  <ellipse cx="120" cy="120" rx="80" ry="40" fill="none" stroke="#3E4451" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Earth -->
+  <g>
+    <circle cx="40" cy="120" r="12" fill="#4D94FF"/>
+    <path d="M32 115 C 35 110, 45 110, 48 115" stroke="#1A1D24" stroke-width="1" fill="none"/>
+    <path d="M35 125 C 38 130, 42 130, 45 125" stroke="#1A1D24" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Motion Lines for Rotation -->
+  <path d="M30 105 A 15 15 0 1 1 30 135" stroke="#FFB84D" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M25 100 L 30 105 L 35 100" stroke="#FFB84D" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Orbital Motion Lines -->
+  <path d="M120 80 A 80 40 0 0 1 160 120" stroke="#FFB84D" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M165 125 L 160 120 L 155 125" stroke="#FFB84D" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

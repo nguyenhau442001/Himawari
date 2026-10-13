@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative glowing aura to emphasize the spotlight/action -->
+  <circle cx="120" cy="115" r="70" fill="#FFB703" opacity="0.08"/>
+
+  <!-- Motion lines indicating showing off / waving items dynamically -->
+  <path d="M 65 95 Q 50 85 45 70" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 58 115 Q 40 110 32 95" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M 68 135 Q 50 140 40 135" stroke="#FFB703" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+  <!-- Character Body / Torso -->
+  <path d="M 90 200 C 90 170 100 155 120 155 C 140 155 150 170 150 200 Z" fill="#3A86EF"/>
+
+  <!-- Character Neck & Head -->
+  <rect x="112" y="132" width="16" height="26" fill="#F4A261"/>
+  <circle cx="120" cy="112" r="22" fill="#F4A261"/>
+
+  <!-- Confident/Arrogant Hairstyle -->
+  <path d="M 98 108 C 98 94 110 90 122 90 C 136 90 143 100 143 112 C 143 112 135 106 122 106 C 110 106 98 108 98 108 Z" fill="#212529"/>
+
+  <!-- Smug Face Expression (Slanted eyebrows, confident grin) -->
+  <line x1="108" y1="108" x2="116" y2="110" stroke="#212529" stroke-width="2" stroke-linecap="round"/>
+  <line x1="124" y1="110" x2="132" y2="108" stroke="#212529" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 113 118 Q 120 124 127 118" stroke="#212529" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Back Arm -->
+  <path d="M 100 165 L 85 185 L 95 190" fill="none" stroke="#3A86EF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front Arm (Raised triumphantly/arrogantly to hold the wealth symbol) -->
+  <path d="M 140 165 L 162 125 L 152 105" fill="none" stroke="#3A86EF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Hand holding object -->
+  <circle cx="152" cy="103" r="7" fill="#F4A261"/>
+
+  <!-- Wealth Symbol: Sparkling Gold Diamond / Gem / Coin cluster -->
+  <g transform="translate(152, 78)">
+    <!-- Glow behind gem -->
+    <circle cx="0" cy="0" r="22" fill="#FFB703" opacity="0.2"/>
+    <!-- Gem facets -->
+    <polygon points="0,-16 14,-6 10,12 -10,12 -14,-6" fill="#FFB703"/>
+    <polygon points="0,-16 14,-6 0,-2" fill="#FFD166"/>
+    <polygon points="0,-16 -14,-6 0,-2" fill="#FCA311"/>
+    <!-- Sparkles -->
+    <path d="M 18 -18 L 22 -14 M 22 -18 L 18 -14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M -18 10 L -22 14 M -22 10 L -18 14" stroke="#FFD166" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Secondary observer / audience (showing off *to* someone) -->
+  <g transform="translate(195, 140)">
+    <!-- Body -->
+    <path d="M 10 60 C 10 45 15 35 25 35 C 35 35 40 45 40 60 Z" fill="#495057"/>
+    <!-- Head -->
+    <circle cx="25" cy="20" r="14" fill="#E0A96D"/>
+    <!-- Simple curious expression -->
+    <circle cx="22" cy="18" r="1.5" fill="#212529"/>
+    <circle cx="28" cy="18" r="1.5" fill="#212529"/>
+    <path d="M 23 25 Q 25 27 27 25" stroke="#212529" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Ground Line -->
+  <line x1="30" y1="200" x2="210" y2="200" stroke="#343A40" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Hanging / Suspended Element: Glowing Question Mark -->
+    <!-- Tether Line (Treo lơ lửng) -->
+    <line x1="120" y1="25" x2="120" y2="70" stroke="#4A5568" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+    
+    <!-- Ceiling Mount Point -->
+    <rect x="106" y="22" width="28" height="6" rx="3" fill="#64748B"/>
+    
+    <!-- Suspended Object Group (Phát sáng / Hồi hộp) -->
+    <g transform="translate(120, 115)">
+      <!-- Subtle suspense glow background -->
+      <circle cx="0" cy="0" r="45" fill="#F59E0B" opacity="0.12"/>
+      
+      <!-- Central Question Mark Design (Physical Object representation) -->
+      <!-- Top Curve & Stem -->
+      <path d="M -16 -22 
+               C -16 -40, 16 -40, 16 -22 
+               C 16 -10, 0 -8, 0 10" 
+            fill="none" stroke="#F59E0B" stroke-width="12" stroke-linecap="round"/>
+      
+      <!-- Dot of Question Mark -->
+      <circle cx="0" cy="30" r="6" fill="#F59E0B"/>
+      
+      <!-- Dramatic floating accent nodes representing mystery/suspense -->
+      <circle cx="-35" cy="-15" r="3" fill="#60A5FA" opacity="0.8"/>
+      <circle cx="38" cy="10" r="2.5" fill="#60A5FA" opacity="0.6"/>
+      <circle cx="-25" cy="35" r="2" fill="#F59E0B" opacity="0.7"/>
+    </g>
+    
+    <!-- Cinematic Film Clapperboard Base (Contextualizing "这部电影的结尾...") -->
+    <g transform="translate(70, 165)">
+      <!-- Clapperboard Body -->
+      <rect x="0" y="10" width="100" height="40" rx="4" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+      <!-- Clapperboard Stripes (Top movable bar) -->
+      <path d="M 0 10 L 100 10 L 92 -2 L -8 -2 Z" fill="#E2E8F0"/>
+      <path d="M 15 -2 L 35 -2 L 25 10 L 5 10 Z" fill="#1A1D24"/>
+      <path d="M 50 -2 L 70 -2 L 60 10 L 40 10 Z" fill="#1A1D24"/>
+      <path d="M 85 -2 L 95 -2 L 87 10 L 75 10 Z" fill="#1A1D24"/>
+      <!-- Lens detail on body -->
+      <circle cx="50" cy="30" r="12" fill="none" stroke="#4A5568" stroke-width="2"/>
+      <circle cx="50" cy="30" r="6" fill="#F59E0B" opacity="0.8"/>
+    </g>
+  </g>
+</svg>

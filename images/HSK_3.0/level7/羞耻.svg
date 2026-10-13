@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient background glow representing internal emotional turmoil -->
+  <circle cx="120" cy="120" r="70" fill="#2D2235" opacity="0.6"/>
+
+  <!-- Conceptual Adjective Contrast / Scale Exaggeration:
+       A centralized human figure, slumped and shrinking inward (expressing shame/xiūchǐ),
+       contrasted with a large, looming, stark spotlight/shadow effect and averted gaze,
+       capturing the feeling of intense self-consciousness and embarrassment. -->
+
+  <!-- Subtle floor shadow / grounding -->
+  <ellipse cx="120" cy="195" rx="45" ry="8" fill="#121418"/>
+
+  <!-- Body / Slumped posture (Adjective state) -->
+  <g>
+    <!-- Slumped torso and shoulders -->
+    <path d="M 95 180 Q 95 140 105 125 L 135 125 Q 145 140 145 180 Z" fill="#3E4A59"/>
+    
+    <!-- Lowered head / facing downward -->
+    <circle cx="120" cy="112" r="16" fill="#F0C674"/>
+    
+    <!-- Hair concealing lowered face/expression -->
+    <path d="M 104 110 Q 120 95 136 110 Q 138 120 132 125 L 108 125 Q 102 120 104 110 Z" fill="#D19A66"/>
+
+    <!-- Arms drawn tightly inward (protective, shrinking posture) -->
+    <path d="M 98 135 Q 85 155 100 175" stroke="#3E4A59" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M 142 135 Q 155 155 140 175" stroke="#3E4A59" stroke-width="10" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Visual contrast elements: Warm accent spotlight highlighting the feeling of exposure/embarrassment -->
+  <path d="M 70 30 L 170 30 L 205 190 L 35 190 Z" fill="url(#spotlight)" opacity="0.08" pointer-events="none"/>
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="spotlight" x1="120" y1="30" x2="120" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E06C75"/>
+      <stop offset="100%" stop-color="#1A1D24"/>
+    </linearGradient>
+  </defs>
+</svg>

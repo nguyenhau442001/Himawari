@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow for atmosphere -->
+  <circle cx="120" cy="120" r="80" fill="#FF5722" opacity="0.06"/>
+  
+  <!-- Visual Contrast Representation for Adjective (Describing State/Quality) -->
+  <!-- Left Side: Standard/Ordinary silhouette (smaller, neutral slate tone) -->
+  <g transform="translate(65, 80) scale(0.75)" opacity="0.4">
+    <!-- Simple hanger/dress outline -->
+    <path d="M40 20 L50 10 L60 20 L65 70 L35 70 Z" fill="#64748B"/>
+    <path d="M35 70 Q50 85 65 70 L75 130 Q50 140 25 130 Z" fill="#475569"/>
+    <!-- Neutral pose figure abstraction -->
+    <circle cx="50" cy="-5" r="10" fill="#64748B"/>
+    <path d="M35 15 L50 35 L65 15" stroke="#64748B" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Right Side: Exaggerated, dynamic, high-fashion statement dress (gorgeous/g gợi cảm quality) -->
+  <g transform="translate(110, 50)">
+    <!-- Dynamic hanger -->
+    <path d="M50 10 L62 2 L74 10" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <circle cx="62" cy="1" r="3" fill="#94A3B8"/>
+    
+    <!-- Sophisticated, sleek, flowing silhouette with vibrant accent colors -->
+    <!-- Sleek figure outline hint -->
+    <circle cx="62" cy="22" r="11" fill="#E2E8F0"/>
+    
+    <!-- Elegant, alluring dress with confident cut and high contrast color (Vibrant Orange / Gold & Deep Indigo) -->
+    <!-- Bodice -->
+    <path d="M50 33 L74 33 L78 60 L46 60 Z" fill="#FF7043"/>
+    
+    <!-- Flowing, dramatic slit skirt accentuating graceful curves -->
+    <path d="M46 60 L78 60 L92 135 C92 135 75 145 62 135 C49 145 32 135 32 135 Z" fill="#FF5722"/>
+    
+    <!-- Stylish diagonal leg/slit cutout shadow for sleek/appealing aesthetic -->
+    <path d="M62 80 L75 135 C70 137 65 138 62 135 Z" fill="#E64A19"/>
+    
+    <!-- Sparkle / Glamour highlights -->
+    <path d="M85 70 L87 75 L92 77 L87 79 L85 84 L83 79 L78 77 L83 75 Z" fill="#FFD54F"/>
+    <path d="M38 100 L39 103 L42 104 L39 105 L38 108 L37 105 L34 104 L37 103 Z" fill="#FFD54F"/>
+    <circle cx="78" cy="45" r="2" fill="#FFD54F"/>
+  </g>
+
+  <!-- Contrast scale indicator / transformation dynamic lines -->
+  <path d="M95 185 Q120 170 145 185" stroke="#FF5722" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <circle cx="120" cy="177" r="4" fill="#FFD54F"/>
+
+</svg>

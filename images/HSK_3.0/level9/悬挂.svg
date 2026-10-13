@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Wall surface -->
+  <rect x="36" y="28" width="168" height="152" rx="4" fill="#222730"/>
+  
+  <!-- Subtle wall texture line -->
+  <line x1="36" y1="180" x2="204" y2="180" stroke="#2D3440" stroke-width="2"/>
+
+  <!-- Picture frame being hung (Action / Verb dynamic context) -->
+  <!-- Nail on wall -->
+  <circle cx="120" cy="52" r="3" fill="#6B7280"/>
+  
+  <!-- Hanging string -->
+  <path d="M 120 52 L 85 75 L 155 75 Z" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3 2"/>
+
+  <!-- Framed picture (Painting) -->
+  <rect x="75" y="75" width="90" height="70" rx="3" fill="#2E3846" stroke="#374151" stroke-width="2"/>
+  <rect x="83" y="83" width="74" height="54" rx="2" fill="#3B82F6"/>
+  <!-- Painting abstract landscape (Sun and hills) -->
+  <circle cx="100" cy="100" r="8" fill="#FBBF24"/>
+  <path d="M 83 125 Q 105 105 120 120 T 157 115 L 157 137 L 83 137 Z" fill="#10B981" opacity="0.8"/>
+
+  <!-- Human Character Action (Hanging the picture) -->
+  <!-- Motion / Action arcs -->
+  <path d="M 95 42 Q 120 32 145 42" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M 112 47 L 120 52 L 115 59" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Character Arms / Hands interacting with the painting/hook -->
+  <path d="M 90 190 C 90 160 100 130 115 115" fill="none" stroke="#60A5FA" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 150 190 C 150 160 140 130 125 115" fill="none" stroke="#60A5FA" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Hands adjusting the frame -->
+  <circle cx="112" cy="112" r="6" fill="#F87171"/>
+  <circle cx="128" cy="112" r="6" fill="#F87171"/>
+
+  <!-- Floor base -->
+  <rect x="20" y="200" width="200" height="12" rx="2" fill="#111318"/>
+</svg>

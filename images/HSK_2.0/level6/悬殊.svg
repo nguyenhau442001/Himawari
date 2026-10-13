@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground line -->
+  <line x1="30" y1="180" x2="210" y2="180" stroke="#374151" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Small figure (Team A) -->
+  <g transform="translate(60, 160)">
+    <circle cx="0" cy="-25" r="8" fill="#FFB800"/>
+    <rect x="-4" y="-17" width="8" height="17" rx="2" fill="#FFB800"/>
+    <path d="M-6 0 L-2 0 L-4 -10 Z" fill="#FFB800"/>
+    <path d="M2 0 L6 0 L4 -10 Z" fill="#FFB800"/>
+  </g>
+  
+  <!-- Large figure (Team B) -->
+  <g transform="translate(150, 180)">
+    <circle cx="0" cy="-65" r="20" fill="#3B82F6"/>
+    <rect x="-10" y="-45" width="20" height="45" rx="4" fill="#3B82F6"/>
+    <path d="M-15 0 L-5 0 L-10 -25 Z" fill="#3B82F6"/>
+    <path d="M5 0 L15 0 L10 -25 Z" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Contrast indicator lines -->
+  <path d="M80 150 L130 150" stroke="#FFB800" stroke-width="2" stroke-linecap="round"/>
+  <path d="M80 150 L80 160" stroke="#FFB800" stroke-width="2" stroke-linecap="round"/>
+  <path d="M130 150 L130 180" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+</svg>

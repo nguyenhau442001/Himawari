@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character representing discouragement (泄气) -->
+  <!-- Shoulders slumped, head down, body language of deflation -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-20,60 C-20,30 -10,20 0,20 C10,20 20,30 20,60 L20,80 L-20,80 Z" fill="#7D8590"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="25" fill="#A0A8B3"/>
+    
+    <!-- Slumped Shoulders/Arms -->
+    <path d="M-25,25 L-40,50 M25,25 L40,50" stroke="#7D8590" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Facial features: Closed eyes, downward mouth -->
+    <path d="M-10,-15 L-2,-10 M2,-10 L10,-15" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-8,5 Q0,0 8,5" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Deflated Balloon/Object to signify "leaking air" (metaphor for 泄气) -->
+  <g transform="translate(180, 80)">
+    <path d="M0,0 C20,-20 20,-40 0,-50 C-20,-40 -20,-20 0,0" fill="#FFB454"/>
+    <!-- Motion lines showing air escaping -->
+    <path d="M0,0 L10,10 M2,2 L12,12" stroke="#FFB454" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0,-5 L-10,-15 M-2,-7 L-12,-17" stroke="#FFB454" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground line -->
+  <path d="M40,200 L200,200" stroke="#333B45" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

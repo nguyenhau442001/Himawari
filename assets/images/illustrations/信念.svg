@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative depth elements (subtle and contextual) -->
+  <g opacity="0.15">
+    <circle cx="120" cy="120" r="85" fill="none" stroke="#F5A623" stroke-width="1" stroke-dasharray="4 8"/>
+    <circle cx="120" cy="120" r="65" fill="none" stroke="#4A90E2" stroke-width="1"/>
+  </g>
+
+  <!-- Central Physical Object representing "信念" (Inner conviction/unwavering belief: A glowing, rooted crystal monolith standing firm) -->
+  <g id="conviction-object">
+    <!-- Base/Anchor (Rooted foundation) -->
+    <path d="M 85 185 L 155 185 L 140 165 L 100 165 Z" fill="#2C3240"/>
+    <rect x="95" y="175" width="50" height="4" rx="2" fill="#F5A623"/>
+
+    <!-- Outer Energy / Aura structure -->
+    <polygon points="120,45 160,85 150,155 90,155 80,85" fill="#252B3B" opacity="0.8"/>
+
+    <!-- Main Crystal facets (Sleek modern flat vector style) -->
+    <!-- Left Facet -->
+    <polygon points="120,45 80,85 100,165 120,165" fill="#3B4860"/>
+    <!-- Right Facet -->
+    <polygon points="120,45 160,85 140,165 120,165" fill="#4C5C7A"/>
+    <!-- Center Inner Core (Glowing Gold/Orange for focus) -->
+    <polygon points="120,55 145,90 135,155 120,155" fill="#E6951A" opacity="0.6"/>
+    <polygon points="120,55 95,90 105,155 120,155" fill="#F5A623"/>
+
+    <!-- Bright Central Apex (Symbolizing unwavering inner light/conviction) -->
+    <polygon points="120,55 132,95 120,140 108,95" fill="#FFC542"/>
+    <polygon points="120,55 125,95 120,140 115,95" fill="#FFE082"/>
+
+    <!-- Floating Particles of steadfast energy -->
+    <circle cx="92" cy="110" r="2.5" fill="#F5A623"/>
+    <circle cx="148" cy="125" r="2" fill="#F5A623" opacity="0.8"/>
+    <circle cx="105" cy="75" r="1.5" fill="#FFE082"/>
+    <circle cx="138" cy="70" r="2" fill="#FFE082" opacity="0.9"/>
+  </g>
+
+  <!-- Accent Highlights -->
+  <path d="M 120 35 L 123 45 L 120 48 L 117 45 Z" fill="#FFE082"/>
+  <path d="M 72 90 L 76 93 L 72 96 L 69 93 Z" fill="#4A90E2" opacity="0.6"/>
+  <path d="M 168 110 L 172 113 L 168 116 L 164 113 Z" fill="#F5A623" opacity="0.7"/>
+</svg>
