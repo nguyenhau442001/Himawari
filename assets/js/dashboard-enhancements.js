@@ -26,16 +26,33 @@ function openCommonRadical(character) {
 
 function renderDashboardEnhancements() {
   const continuation = document.getElementById('continueLearningCard');
-  const target = learningProgressSummary().target;
-  if (continuation && target) {
-    const cfg = LEVELS[target.level];
-    const ratio = `${target.known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ đã nhớ`;
-    const pctStr = typeof formatProgressPercent === 'function'
-      ? formatProgressPercent(target.known, cfg.total)
-      : `${Math.round(target.known / cfg.total * 100)}%`;
-    document.getElementById('continueLearningTitle').textContent = `${cfg.label} · Bộ từ đang học`;
-    document.getElementById('continueLearningProgress').textContent = `${ratio} · ${pctStr} tiến độ`;
-    continuation.dataset.level = target.level;
+  const summary = learningProgressSummary();
+  const target = summary.target;
+  if (continuation) {
+    if (summary.totalStudied === 0) {
+      document.getElementById('continueLearningTitle').textContent = 'Chào bạn mới! Bắt đầu học HSK ngay';
+      document.getElementById('continueLearningProgress').innerHTML = `
+        <span style="display: block; margin-top: 4px;">1️⃣ <strong>Học 5 từ đầu tiên</strong> (HSK1 cơ bản) &nbsp;·&nbsp; 2️⃣ <strong>Ôn nhanh</strong> củng cố trí nhớ &nbsp;·&nbsp; 3️⃣ <strong>Đọc bài HSK1 đầu tiên</strong></span>
+      `;
+      const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
+      if (ctaBtn) {
+        ctaBtn.innerHTML = `Học 5 từ đầu tiên <span aria-hidden="true">→</span>`;
+      }
+      continuation.dataset.level = 'hsk1';
+    } else if (target) {
+      const cfg = LEVELS[target.level];
+      const ratio = `${target.known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ đã nhớ`;
+      const pctStr = typeof formatProgressPercent === 'function'
+        ? formatProgressPercent(target.known, cfg.total)
+        : `${Math.round(target.known / cfg.total * 100)}%`;
+      document.getElementById('continueLearningTitle').textContent = `${cfg.label} · Bộ từ đang học`;
+      document.getElementById('continueLearningProgress').textContent = `${ratio} · ${pctStr} tiến độ`;
+      const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
+      if (ctaBtn) {
+        ctaBtn.innerHTML = `Tiếp tục học ngay <span aria-hidden="true">→</span>`;
+      }
+      continuation.dataset.level = target.level;
+    }
   }
 
   const activity = readStudyActivity();

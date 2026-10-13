@@ -53,8 +53,24 @@ function loadNextGuessWordRound() {
   ).slice(0, 3);
   const options = shuffleGuessWordArray([entry, ...distractors]);
 
+  const frameEl = document.querySelector('.guess-word-clue-frame');
   const emojiEl = document.getElementById('guessWordEmoji');
-  if (emojiEl) emojiEl.textContent = entry.emoji;
+  let illustration = null;
+  if (typeof getWordIllustration === 'function') {
+    illustration = getWordIllustration(entry);
+  }
+
+  if (frameEl) {
+    if (illustration && illustration.type === 'img' && illustration.src) {
+      frameEl.innerHTML = `<img src="${escapeHtml(illustration.src)}" alt="${escapeHtml(entry.hanzi)}" class="guess-word-illustration-img" style="width: 76px; height: 76px; object-fit: contain; border-radius: 12px;">`;
+    } else if (illustration && illustration.type === 'svg' && illustration.svg) {
+      frameEl.innerHTML = `<div class="guess-word-illustration-svg" style="width: 76px; height: 76px; display: flex; align-items: center; justify-content: center;">${illustration.svg}</div>`;
+    } else {
+      frameEl.innerHTML = `<span class="guess-word-emoji" id="guessWordEmoji" role="img" aria-label="Gợi ý hình ảnh">${escapeHtml(entry.emoji || '❓')}</span>`;
+    }
+  } else if (emojiEl) {
+    emojiEl.textContent = entry.emoji;
+  }
 
   const feedbackEl = document.getElementById('guessWordFeedback');
   if (feedbackEl) {

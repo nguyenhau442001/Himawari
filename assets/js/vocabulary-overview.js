@@ -102,9 +102,12 @@ function renderOverview() {
     unknown: 'Chưa nhớ',
     known: 'Đã nhớ',
   };
-  const fragment = document.createDocumentFragment();
 
-  matches.forEach(({ word, wordIndex }) => {
+  const PAGE_SIZE = 80;
+  let renderedCount = 0;
+
+  function renderRow(match) {
+    const { word, wordIndex } = match;
     const status = wordLearningStatus(word);
     const row = document.createElement('div');
     row.className = 'vocabulary-row';
@@ -166,10 +169,50 @@ function renderOverview() {
       openMemoryCurve(currentLevel, word.id);
     };
     row.append(item, curveButton);
-    fragment.appendChild(row);
-  });
+    return row;
+  }
 
-  list.appendChild(fragment);
+  function renderNextBatch() {
+    const nextLimit = Math.min(renderedCount + PAGE_SIZE, matches.length);
+    const fragment = document.createDocumentFragment();
+    for (let i = renderedCount; i < nextLimit; i++) {
+      fragment.appendChild(renderRow(matches[i]));
+    }
+    renderedCount = nextLimit;
+    list.appendChild(fragment);
+
+    // If there are more items to render, ensure load more trigger exists
+    const existingTrigger = document.getElementById('vocabLoadMoreTrigger');
+    if (existingTrigger) existingTrigger.remove();
+
+    if (renderedCount < matches.length) {
+      const trigger = document.createElement('div');
+      trigger.id = 'vocabLoadMoreTrigger';
+      trigger.className = 'vocab-load-more-trigger';
+      trigger.style.textAlign = 'center';
+      trigger.style.padding = '16px';
+      const loadBtn = document.createElement('button');
+      loadBtn.type = 'button';
+      loadBtn.className = 'hw-outline-btn';
+      loadBtn.textContent = `Xem thêm (${matches.length - renderedCount} từ còn lại) ↓`;
+      loadBtn.onclick = () => renderNextBatch();
+      trigger.appendChild(loadBtn);
+      list.appendChild(trigger);
+
+      // Auto load more when scrolling near bottom
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          if (entries[0].isIntersecting) {
+            observer.disconnect();
+            renderNextBatch();
+          }
+        }, { rootMargin: '300px' });
+        observer.observe(trigger);
+      }
+    }
+  }
+
+  renderNextBatch();
 }
 
 function openWordInCards(wordIndex) {

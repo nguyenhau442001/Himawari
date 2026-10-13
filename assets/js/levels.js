@@ -680,6 +680,9 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   }
   document.body.classList.add('study-mode');
   document.body.classList.add('flashcard-study-mode');
+  window.scrollTo({ top: 0, behavior: 'instant' });
+  const wsMid = document.getElementById('workstationMiddle');
+  if (wsMid) wsMid.scrollTop = 0;
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
   WORDS = [];
   filteredOrder = [];

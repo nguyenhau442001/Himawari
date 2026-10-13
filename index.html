@@ -23,8 +23,40 @@
 <script>(function(){try{var p=new URLSearchParams(window.location.search).get('theme');if(p==='dark'||p==='light'){document.documentElement.dataset.theme=p;return;}}catch(e){}var h=new Date().getHours();var d=(h>=6&&h<18)?'light':'dark';var m=localStorage.getItem('hsk_theme_manual');var e=parseInt(localStorage.getItem('hsk_theme_manual_expiry')||'0',10);document.documentElement.dataset.theme=(m&&Date.now()<e)?m:d;if(localStorage.getItem('hsk_show_hanviet')==='false'){document.documentElement.classList.add('hide-hanviet');}})();</script>
 <script>
 if ('serviceWorker' in navigator) {
+  function showUpdateNotification() {
+    if (document.getElementById('pwaUpdateBanner')) return;
+    var banner = document.createElement('div');
+    banner.id = 'pwaUpdateBanner';
+    banner.setAttribute('role', 'status');
+    banner.setAttribute('aria-live', 'polite');
+    banner.style.cssText = 'position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:99999;background:var(--card-bg, #1e293b);color:var(--text-primary, #fff);padding:10px 18px;border-radius:12px;border:1px solid var(--accent, #c05638);box-shadow:0 6px 24px rgba(0,0,0,0.28);display:flex;align-items:center;gap:12px;font-size:13px;font-weight:600;max-width:90vw;animation:welcomeToastIn 0.25s ease;';
+    banner.innerHTML = '<span>🚀 Có phiên bản Synapse Hanzi mới!</span>' +
+      '<button type="button" id="pwaReloadBtn" style="background:var(--accent, #c05638);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;">Tải lại ngay</button>' +
+      '<button type="button" id="pwaDismissBtn" aria-label="Đóng" style="background:none;border:none;color:var(--text-secondary, #94a3b8);font-size:16px;cursor:pointer;padding:0 4px;">✕</button>';
+    document.body.appendChild(banner);
+    document.getElementById('pwaReloadBtn').onclick = function() {
+      window.location.reload();
+    };
+    document.getElementById('pwaDismissBtn').onclick = function() {
+      banner.remove();
+    };
+  }
+
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('sw.js').then(function(reg) {
+      if (reg.waiting) {
+        showUpdateNotification();
+      }
+      reg.addEventListener('updatefound', function() {
+        var newWorker = reg.installing;
+        if (newWorker) {
+          newWorker.addEventListener('statechange', function() {
+            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+              showUpdateNotification();
+            }
+          });
+        }
+      });
       reg.update();
     });
   });
@@ -136,24 +168,24 @@ if ('serviceWorker' in navigator) {
     <button id="primaryTabReview" class="primary-tab" type="button" aria-pressed="false"
       aria-controls="screenReviewPicker" onclick="setPrimaryTab('review')">⚡ Ôn nhanh</button>
     <details class="primary-games-menu" id="primaryGamesMenu">
-      <summary class="primary-menu-trigger" aria-label="Mở công cụ và trò chơi">⋯ Công cụ</summary>
-      <div class="primary-games-menu-panel" role="group" aria-label="Công cụ và trò chơi học từ">
-        <div class="primary-menu-section-title">Công cụ học</div>
-        <button id="primaryTabGradedReading" class="primary-tab" type="button" aria-pressed="false"
-          aria-controls="screenGradedReading" onclick="setPrimaryTab('gradedReading')">📚 Bài đọc phân cấp</button>
-        <button id="primaryTabReading" class="primary-tab" type="button" aria-pressed="false"
-          aria-controls="screenReadingAnalysis" onclick="setPrimaryTab('reading')">📖 Đọc hiểu HSK4</button>
-        <button id="primaryTabRadicals" class="primary-tab" type="button" aria-pressed="false"
-          aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')">部 Bộ thủ</button>
-        <button class="primary-tab primary-menu-radical-lookup" type="button"
-          onclick="openRadicalDirectory()">⌕ Tra cứu 214 bộ thủ</button>
-        <div class="primary-menu-section-title primary-menu-section-title--games">Trò chơi</div>
-        <button id="primaryTabSentenceGame" class="primary-tab" type="button" aria-pressed="false"
-          aria-controls="screenSentenceGame" onclick="setPrimaryTab('sentenceGame')">🧩 Xếp câu</button>
-        <button id="primaryTabGuessWord" class="primary-tab" type="button" aria-pressed="false"
-          aria-controls="screenGuessWord" onclick="setPrimaryTab('guessWord')">🖼️ Đuổi hình bắt chữ</button>
-        <button id="primaryTabSpeedQuiz" class="primary-tab" type="button" aria-pressed="false"
-          aria-controls="screenSpeedQuiz" onclick="setPrimaryTab('speedQuiz')">📝 Điền từ</button>
+      <summary class="primary-menu-trigger" aria-label="Mở công cụ và trò chơi" aria-haspopup="menu">⋯ Công cụ</summary>
+      <div class="primary-games-menu-panel" role="menu" aria-label="Công cụ và trò chơi học từ">
+        <div class="primary-menu-section-title" role="presentation">Công cụ học</div>
+        <button id="primaryTabGradedReading" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          aria-controls="screenGradedReading" onclick="setPrimaryTab('gradedReading')" aria-label="Bài đọc phân cấp">📚 Bài đọc phân cấp</button>
+        <button id="primaryTabReading" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          aria-controls="screenReadingAnalysis" onclick="setPrimaryTab('reading')" aria-label="Đọc hiểu HSK4">📖 Đọc hiểu HSK4</button>
+        <button id="primaryTabRadicals" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')" aria-label="Bộ thủ">部 Bộ thủ</button>
+        <button class="primary-tab primary-menu-radical-lookup" type="button" role="menuitem"
+          onclick="openRadicalDirectory()" aria-label="Tra cứu 214 bộ thủ">⌕ Tra cứu 214 bộ thủ</button>
+        <div class="primary-menu-section-title primary-menu-section-title--games" role="presentation">Trò chơi</div>
+        <button id="primaryTabSentenceGame" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          aria-controls="screenSentenceGame" onclick="setPrimaryTab('sentenceGame')" aria-label="Xếp câu">🧩 Xếp câu</button>
+        <button id="primaryTabGuessWord" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          aria-controls="screenGuessWord" onclick="setPrimaryTab('guessWord')" aria-label="Đuổi hình bắt chữ">🖼️ Đuổi hình bắt chữ</button>
+        <button id="primaryTabSpeedQuiz" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          aria-controls="screenSpeedQuiz" onclick="setPrimaryTab('speedQuiz')" aria-label="Điền từ">📝 Điền từ</button>
       </div>
     </details>
   </nav>
@@ -871,7 +903,6 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/radicals-state.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/radicals.js?v=20261009-graded2"></script>
 <script src="assets/js/radical-card.js?v=20261010-close-backup1"></script>
-<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>
 <script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/sidebar-radicals-filter.js?v=20261003-hsk20-rich1"></script>
 <script src="assets/js/weak-words.js?v=20261008-redesign-zen-v1"></script>

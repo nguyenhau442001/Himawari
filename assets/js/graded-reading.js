@@ -10,8 +10,12 @@ const GradedReading = (function() {
   let activeStory = null;
   let storyCache = {};
   let currentLevelFilter = 'all';
+  let currentCategoryFilter = 'all';
+  let currentSort = 'default';
+  let searchQuery = '';
   let activePopover = null;
   let quizState = {};
+  let currentlyPlayingSentenceId = null;
 
   // Display Preferences
   let prefs = {
@@ -29,6 +33,79 @@ const GradedReading = (function() {
     try {
       localStorage.setItem('synapse_graded_prefs_v1', JSON.stringify(prefs));
     } catch (e) {}
+  }
+
+  // Audio Speech Helpers
+  function speakSentence(text, sentId) {
+    if (!text) return;
+    const isPlaying = currentlyPlayingSentenceId === sentId;
+    if (typeof stopSpeaking === 'function') stopSpeaking();
+    if (isPlaying) {
+      currentlyPlayingSentenceId = null;
+      updateSentenceAudioUI();
+      return;
+    }
+    currentlyPlayingSentenceId = sentId;
+    updateSentenceAudioUI();
+
+    const rate = typeof SPEECH_RATE !== 'undefined' ? SPEECH_RATE : 0.85;
+    if (typeof speakChinese === 'function') {
+      speakChinese(text, {
+        rate,
+        onEnd: () => {
+          currentlyPlayingSentenceId = null;
+          updateSentenceAudioUI();
+        },
+        onError: () => {
+          currentlyPlayingSentenceId = null;
+          updateSentenceAudioUI();
+        }
+      });
+    }
+  }
+
+  function speakFullStory() {
+    if (!activeStory || !activeStory.sentences) return;
+    const isPlaying = currentlyPlayingSentenceId === 'full-story';
+    if (typeof stopSpeaking === 'function') stopSpeaking();
+    if (isPlaying) {
+      currentlyPlayingSentenceId = null;
+      updateSentenceAudioUI();
+      return;
+    }
+    currentlyPlayingSentenceId = 'full-story';
+    updateSentenceAudioUI();
+
+    const fullZh = activeStory.sentences.map(s => s.zh || s.text || '').filter(Boolean).join(' ');
+    const rate = typeof SPEECH_RATE !== 'undefined' ? SPEECH_RATE : 0.85;
+    if (typeof speakChinese === 'function') {
+      speakChinese(fullZh, {
+        rate,
+        onEnd: () => {
+          currentlyPlayingSentenceId = null;
+          updateSentenceAudioUI();
+        },
+        onError: () => {
+          currentlyPlayingSentenceId = null;
+          updateSentenceAudioUI();
+        }
+      });
+    }
+  }
+
+  function updateSentenceAudioUI() {
+    document.querySelectorAll('.sentence-audio-btn').forEach(btn => {
+      const id = btn.dataset.sentenceId;
+      const active = currentlyPlayingSentenceId === id;
+      btn.classList.toggle('playing', active);
+      btn.textContent = active ? '⏹ Dừng' : '🔊 Nghe';
+    });
+    const storyBtn = document.getElementById('playFullStoryBtn');
+    if (storyBtn) {
+      const active = currentlyPlayingSentenceId === 'full-story';
+      storyBtn.classList.toggle('active', active);
+      storyBtn.innerHTML = active ? '<span>⏹ Dừng đọc</span>' : '<span>🔊 Đọc toàn bài</span>';
+    }
   }
 
   // Read Stories Tracking
@@ -304,11 +381,47 @@ const GradedReading = (function() {
     const readCount = manifest.filter(m => isStoryRead(m.id)).length;
     const progressPercent = manifest.length ? Math.round((readCount / manifest.length) * 100) : 0;
 
-    let filtered = manifest;
-    if (currentLevelFilter === 'read') {
-      filtered = manifest.filter(m => isStoryRead(m.id));
-    } else if (currentLevelFilter !== 'all') {
-      filtered = manifest.filter(m => m.level.toLowerCase() === currentLevelFilter.toLowerCase());
+    // Available categories from manifest
+    const categoriesSet = new Set();
+    manifest.forEach(m => {
+      const cat = (m.topic_vi || '').split('&')[0].trim();
+      if (cat) categoriesSet.add(cat);
+    });
+    const categories = ['all', ...Array.from(categoriesSet).sort()];
+
+    let filtered = manifest.filter(m => {
+      // 1. Level filter
+      if (currentLevelFilter === 'read') {
+        if (!isStoryRead(m.id)) return false;
+      } else if (currentLevelFilter !== 'all') {
+        if (m.level.toLowerCase() !== currentLevelFilter.toLowerCase()) return false;
+      }
+      // 2. Category filter
+      if (currentCategoryFilter !== 'all') {
+        const cat = (m.topic_vi || '').split('&')[0].trim();
+        if (cat !== currentCategoryFilter) return false;
+      }
+      // 3. Keyword search
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase().trim();
+        const titleZh = (m.title && m.title.zh ? m.title.zh : '').toLowerCase();
+        const titleVi = (m.title && m.title.vi ? m.title.vi : '').toLowerCase();
+        const descVi = (m.description_vi || '').toLowerCase();
+        const topicVi = (m.topic_vi || '').toLowerCase();
+        if (!titleZh.includes(q) && !titleVi.includes(q) && !descVi.includes(q) && !topicVi.includes(q)) {
+          return false;
+        }
+      }
+      return true;
+    });
+
+    // 4. Sort
+    if (currentSort === 'time_asc') {
+      filtered.sort((a, b) => (a.estimatedMinutes || 3) - (b.estimatedMinutes || 3));
+    } else if (currentSort === 'time_desc') {
+      filtered.sort((a, b) => (b.estimatedMinutes || 3) - (a.estimatedMinutes || 3));
+    } else if (currentSort === 'title') {
+      filtered.sort((a, b) => (a.title.vi || '').localeCompare(b.title.vi || ''));
     }
 
     const levels = ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6', 'HSK7', 'HSK8', 'HSK9'];
@@ -316,6 +429,9 @@ const GradedReading = (function() {
     levels.forEach(lvl => {
       levelCounts[lvl] = manifest.filter(m => m.level.toUpperCase() === lvl).length;
     });
+
+    const PAGE_SIZE = 30;
+    const initialStories = filtered.slice(0, PAGE_SIZE);
 
     mount.innerHTML = `
       <div class="graded-reading-container">
@@ -342,6 +458,36 @@ const GradedReading = (function() {
             </div>
           </div>
         </header>
+
+        <!-- Search and Sort Toolbar -->
+        <div class="graded-search-toolbar" style="display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+          <div style="flex: 1; min-width: 240px; position: relative;">
+            <input type="search" id="gradedSearchInput" class="graded-search-input"
+              placeholder="🔍 Tìm bài đọc theo tiêu đề, chủ đề..."
+              value="${escapeAttr(searchQuery)}"
+              oninput="GradedReading.handleSearchInput(this.value)"
+              style="width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--graded-border); background: var(--graded-card-bg); color: var(--graded-text-primary); font-size: 0.9rem;"
+              aria-label="Tìm kiếm bài đọc">
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+            <select id="gradedCategorySelect" onchange="GradedReading.setCategoryFilter(this.value)"
+              style="padding: 9px 12px; border-radius: 10px; border: 1px solid var(--graded-border); background: var(--graded-card-bg); color: var(--graded-text-primary); font-size: 0.85rem;"
+              aria-label="Lọc theo chủ đề">
+              <option value="all" ${currentCategoryFilter === 'all' ? 'selected' : ''}>Mọi chủ đề</option>
+              ${categories.filter(c => c !== 'all').map(c => `
+                <option value="${escapeAttr(c)}" ${currentCategoryFilter === c ? 'selected' : ''}>${c}</option>
+              `).join('')}
+            </select>
+            <select id="gradedSortSelect" onchange="GradedReading.setSort(this.value)"
+              style="padding: 9px 12px; border-radius: 10px; border: 1px solid var(--graded-border); background: var(--graded-card-bg); color: var(--graded-text-primary); font-size: 0.85rem;"
+              aria-label="Sắp xếp bài đọc">
+              <option value="default" ${currentSort === 'default' ? 'selected' : ''}>Mặc định</option>
+              <option value="time_asc" ${currentSort === 'time_asc' ? 'selected' : ''}>Thời gian: Ngắn nhất</option>
+              <option value="time_desc" ${currentSort === 'time_desc' ? 'selected' : ''}>Thời gian: Dài nhất</option>
+              <option value="title" ${currentSort === 'title' ? 'selected' : ''}>Tên bài (A-Z)</option>
+            </select>
+          </div>
+        </div>
 
         <!-- Filter Pills -->
         <nav class="graded-hub-filters" aria-label="Bộ lọc cấp độ HSK">
@@ -372,8 +518,12 @@ const GradedReading = (function() {
           }).join('')}
         </nav>
 
+        <div style="font-size: 0.85rem; color: var(--graded-text-secondary); margin-bottom: 12px;">
+          Hiển thị <strong>${filtered.length}</strong> bài đọc phù hợp
+        </div>
+
         <!-- Stories Grid -->
-        <div class="graded-stories-grid">
+        <div class="graded-stories-grid" id="gradedStoriesGrid">
           ${filtered.length === 0 ? `
             <div class="graded-empty-state">
               <span style="font-size: 2.2rem;">📖</span>
@@ -381,54 +531,138 @@ const GradedReading = (function() {
                 ${currentLevelFilter === 'read' ? 'Bạn chưa đánh dấu bài đọc nào' : 'Không có bài đọc nào phù hợp'}
               </div>
               <p style="color: var(--graded-text-secondary); font-size: 0.88rem; max-width: 480px; margin: 6px auto 16px;">
-                ${currentLevelFilter === 'read' ? 'Hãy mở một bài đọc và bấm "Đánh dấu đã đọc" sau khi đọc xong, hoặc bấm nút tích trên thẻ bài đọc.' : 'Vui lòng chọn cấp độ khác.'}
+                ${currentLevelFilter === 'read' ? 'Hãy mở một bài đọc và bấm "Đánh dấu đã đọc" sau khi đọc xong, hoặc bấm nút tích trên thẻ bài đọc.' : 'Vui lòng chọn cấp độ hoặc từ khóa khác.'}
               </p>
-              <button type="button" class="graded-filter-pill active" onclick="GradedReading.setLevelFilter('all')">Xem tất cả bài đọc</button>
+              <button type="button" class="graded-filter-pill active" onclick="GradedReading.resetFilters()">Xem tất cả bài đọc</button>
             </div>
-          ` : filtered.map(story => {
-            const isRead = isStoryRead(story.id);
-            return `
-            <article class="graded-story-card ${isRead ? 'is-read' : ''}" onclick="GradedReading.openStory('${story.id}')" tabindex="0" role="button" aria-label="Đọc bài ${story.title.vi}">
-              <div>
-                <div class="graded-card-header">
-                  <div class="graded-card-header-left">
-                    <span class="graded-card-level-badge">${story.level}</span>
-                    ${isRead ? `
-                      <span class="graded-card-read-badge" title="Đã đọc">
-                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        <span>Đã đọc</span>
-                      </span>
-                    ` : ''}
-                  </div>
-                  <div class="graded-card-header-right">
-                    <span class="graded-card-topic">${story.topic_vi}</span>
-                    <span class="graded-card-time">⏱️ ${story.estimatedMinutes}m</span>
-                    <button type="button" class="graded-card-mark-toggle ${isRead ? 'read' : ''}" onclick="GradedReading.toggleStoryRead('${story.id}', event)" title="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc'}" aria-label="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc'}">
-                      <svg width="13" height="13" viewBox="0 0 24 24" fill="${isRead ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                    </button>
-                  </div>
-                </div>
-                <div class="graded-card-body">
-                  <h2 class="graded-card-zh-title">
-                    <span>${story.icon || '📖'}</span>
-                    <span>${story.title.zh}</span>
-                  </h2>
-                  <div class="graded-card-vi-title">${story.title.vi}</div>
-                  <p class="graded-card-desc">${story.description_vi}</p>
-                </div>
-              </div>
-              <footer class="graded-card-footer">
-                <span class="graded-card-meta-text">${story.sentence_count ?? story.sentences_count ?? 5} câu · ${story.spotlight_count ?? 10} từ</span>
-                <span class="graded-card-read-btn ${isRead ? 'read' : ''}">
-                  ${isRead ? 'Đọc lại →' : 'Đọc ngay →'}
-                </span>
-              </footer>
-            </article>
-            `;
-          }).join('')}
+          ` : initialStories.map(story => renderStoryCardHtml(story)).join('')}
         </div>
+
+        ${filtered.length > PAGE_SIZE ? `
+          <div id="gradedStoriesLoadMore" style="text-align: center; padding: 24px 0;">
+            <button type="button" class="graded-filter-pill" onclick="GradedReading.loadMoreStories()" style="padding: 10px 24px; font-weight: 700; font-size: 0.95rem;">
+              Xem thêm bài đọc (${filtered.length - PAGE_SIZE} bài còn lại) ↓
+            </button>
+          </div>
+        ` : ''}
       </div>
     `;
+
+    // Hook auto load-more via IntersectionObserver
+    if (filtered.length > PAGE_SIZE && 'IntersectionObserver' in window) {
+      const trigger = document.getElementById('gradedStoriesLoadMore');
+      if (trigger) {
+        const obs = new IntersectionObserver((entries) => {
+          if (entries[0].isIntersecting) {
+            obs.disconnect();
+            loadMoreStories();
+          }
+        }, { rootMargin: '300px' });
+        obs.observe(trigger);
+      }
+    }
+  }
+
+  let hubRenderedLimit = 30;
+  function loadMoreStories() {
+    const grid = document.getElementById('gradedStoriesGrid');
+    if (!grid) return;
+    const filtered = getFilteredManifest();
+    const nextLimit = Math.min(hubRenderedLimit + 30, filtered.length);
+    const slice = filtered.slice(hubRenderedLimit, nextLimit);
+    hubRenderedLimit = nextLimit;
+
+    slice.forEach(story => {
+      const wrap = document.createElement('div');
+      wrap.innerHTML = renderStoryCardHtml(story);
+      if (wrap.firstElementChild) grid.appendChild(wrap.firstElementChild);
+    });
+
+    const trigger = document.getElementById('gradedStoriesLoadMore');
+    if (trigger) {
+      if (hubRenderedLimit >= filtered.length) {
+        trigger.remove();
+      } else {
+        trigger.innerHTML = `
+          <button type="button" class="graded-filter-pill" onclick="GradedReading.loadMoreStories()" style="padding: 10px 24px; font-weight: 700; font-size: 0.95rem;">
+            Xem thêm bài đọc (${filtered.length - hubRenderedLimit} bài còn lại) ↓
+          </button>
+        `;
+      }
+    }
+  }
+
+  function getFilteredManifest() {
+    return manifest.filter(m => {
+      if (currentLevelFilter === 'read') {
+        if (!isStoryRead(m.id)) return false;
+      } else if (currentLevelFilter !== 'all') {
+        if (m.level.toLowerCase() !== currentLevelFilter.toLowerCase()) return false;
+      }
+      if (currentCategoryFilter !== 'all') {
+        const cat = (m.topic_vi || '').split('&')[0].trim();
+        if (cat !== currentCategoryFilter) return false;
+      }
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase().trim();
+        const titleZh = (m.title && m.title.zh ? m.title.zh : '').toLowerCase();
+        const titleVi = (m.title && m.title.vi ? m.title.vi : '').toLowerCase();
+        const descVi = (m.description_vi || '').toLowerCase();
+        const topicVi = (m.topic_vi || '').toLowerCase();
+        if (!titleZh.includes(q) && !titleVi.includes(q) && !descVi.includes(q) && !topicVi.includes(q)) {
+          return false;
+        }
+      }
+      return true;
+    }).sort((a, b) => {
+      if (currentSort === 'time_asc') return (a.estimatedMinutes || 3) - (b.estimatedMinutes || 3);
+      if (currentSort === 'time_desc') return (b.estimatedMinutes || 3) - (a.estimatedMinutes || 3);
+      if (currentSort === 'title') return (a.title.vi || '').localeCompare(b.title.vi || '');
+      return 0;
+    });
+  }
+
+  function renderStoryCardHtml(story) {
+    const isRead = isStoryRead(story.id);
+    return `
+    <article class="graded-story-card ${isRead ? 'is-read' : ''}" onclick="GradedReading.openStory('${story.id}')" tabindex="0" role="button" aria-label="Đọc bài ${story.title.vi}">
+      <div>
+        <div class="graded-card-header">
+          <div class="graded-card-header-left">
+            <span class="graded-card-level-badge">${story.level}</span>
+            ${isRead ? `
+              <span class="graded-card-read-badge" title="Đã đọc">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Đã đọc</span>
+              </span>
+            ` : ''}
+          </div>
+          <div class="graded-card-header-right">
+            <span class="graded-card-topic">${story.topic_vi}</span>
+            <span class="graded-card-time">⏱️ ${story.estimatedMinutes}m</span>
+            <button type="button" class="graded-card-mark-toggle ${isRead ? 'read' : ''}" onclick="GradedReading.toggleStoryRead('${story.id}', event)" title="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc'}" aria-label="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc'}">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="${isRead ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            </button>
+          </div>
+        </div>
+        <div class="graded-card-body">
+          <h2 class="graded-card-zh-title">
+            <span>${story.icon || '📖'}</span>
+            <span>${story.title.zh}</span>
+          </h2>
+          <div class="graded-card-vi-title">${story.title.vi}</div>
+          <p class="graded-card-desc">${story.description_vi}</p>
+        </div>
+      </div>
+      <footer class="graded-card-footer">
+        <span class="graded-card-meta-text">${story.sentence_count ?? story.sentences_count ?? 5} câu · ${story.spotlight_count ?? 10} từ</span>
+        <span class="graded-card-read-btn ${isRead ? 'read' : ''}">
+          ${isRead ? 'Đọc lại →' : 'Đọc ngay →'}
+        </span>
+      </footer>
+    </article>
+    `;
+  }
   }
 
   /**
@@ -499,6 +733,9 @@ const GradedReading = (function() {
           </div>
 
           <div class="graded-reader-actions">
+            <button type="button" id="playFullStoryBtn" class="graded-toggle-btn" onclick="GradedReading.speakFullStory()" title="Nghe đọc toàn bộ bài đọc">
+              <span>🔊 Đọc toàn bài</span>
+            </button>
             <button type="button" id="toggleReadStoryBtn" class="graded-toggle-btn ${isRead ? 'active read-active' : ''}" onclick="GradedReading.toggleCurrentStoryRead()" title="${isRead ? 'Đã đọc (Bấm để hủy)' : 'Đánh dấu đã đọc bài này'}">
               ${isRead ? '<span>✓ Đã đọc</span>' : '<span>○ Đã đọc</span>'}
             </button>
@@ -535,14 +772,22 @@ const GradedReading = (function() {
         <!-- Main Story Reader Card -->
         <main class="graded-passage-card">
           <div class="graded-sentence-stream">
-            ${story.sentences.map((sentence, sidx) => `
+            ${story.sentences.map((sentence, sidx) => {
+              const cleanZh = (sentence.zh || sentence.tokens.map(t => t.text).join('')).replace(/^[，。？！、\s]+/, '');
+              return `
               <div class="graded-sentence-block" id="sent-${sentence.id}">
-                <div class="graded-sentence-zh">
-                  ${renderSentenceTokensHtml(sentence, sidx, storyLvlNum)}
+                <div class="graded-sentence-top-row" style="display: flex; align-items: flex-start; justify-content: space-between; gap: 8px;">
+                  <div class="graded-sentence-zh">
+                    ${renderSentenceTokensHtml(sentence, sidx, storyLvlNum)}
+                  </div>
+                  <button type="button" class="sentence-audio-btn speech-btn" data-sentence-id="${sentence.id}" onclick="GradedReading.speakSentence('${escapeAttr(cleanZh)}', '${sentence.id}')" title="Nghe câu này" aria-label="Nghe câu ${sidx + 1}" style="flex-shrink: 0; margin-top: 6px; padding: 4px 8px; font-size: 0.76rem; border-radius: 6px; border: 1px solid var(--graded-border); background: var(--graded-chip-bg); color: var(--graded-text-secondary); cursor: pointer;">
+                    🔊 Nghe
+                  </button>
                 </div>
                 <div class="graded-sentence-vi">${sentence.vi}</div>
               </div>
-            `).join('')}
+            `;
+            }).join('')}
           </div>
         </main>
 
@@ -754,9 +999,12 @@ const GradedReading = (function() {
     popover.className = 'graded-token-popover';
 
     const srsStatus = getTokenSrsStatus(token);
-    const displayStatus = srsStatus !== 'none' ? srsStatus : 'new';
-    const statusLabel = srsStatus === 'mastered' ? '✓ Đã thuộc' : (srsStatus === 'learning' ? '⚡ Đang học' : '✨ Từ mới');
+    const storyLvlNum = activeStory ? parseInt(activeStory.level.replace(/\D/g, '') || '1', 10) : 1;
+    const isAboveLevel = Boolean(token.hsk && token.hsk > storyLvlNum);
     const isAlreadyInSrs = srsStatus === 'mastered' || srsStatus === 'learning';
+
+    let displayStatus = srsStatus !== 'none' ? srsStatus : 'new';
+    let statusLabel = srsStatus === 'mastered' ? '✓ Đã thuộc' : (srsStatus === 'learning' ? '⚡ Đang ôn (SRS)' : (isAboveLevel ? '⭐ Vượt cấp' : '✨ Từ mới'));
 
     const hanviet = token.hanviet || (typeof getWordHanViet === 'function' ? getWordHanViet(token.text) : '');
     let meaning = token.meaning_vi || '';
@@ -784,6 +1032,7 @@ const GradedReading = (function() {
 
       <div class="popover-meta">
         ${token.hsk ? `<span class="popover-hsk-badge">HSK ${token.hsk}</span>` : ''}
+        ${isAboveLevel ? `<span class="token-overlevel-badge" style="font-size: 0.72rem; padding: 2px 6px;">+${token.hsk - storyLvlNum} Cấp</span>` : ''}
         <span class="popover-srs-status ${displayStatus}" id="popoverSrsBadge">${statusLabel}</span>
       </div>
 
@@ -800,8 +1049,8 @@ const GradedReading = (function() {
         ` : ''}
       </div>
 
-      <button type="button" class="popover-action-btn ${isAlreadyInSrs ? 'added' : ''}" id="popoverAddSrsBtn" onclick="GradedReading.triggerAddSrs()">
-        ${isAlreadyInSrs ? '✓ Đã có trong SRS hôm nay' : '+ Thêm vào hàng đợi SRS'}
+      <button type="button" class="popover-action-btn ${isAlreadyInSrs ? 'added' : ''}" id="popoverAddSrsBtn" onclick="GradedReading.triggerAddSrs()" ${isAlreadyInSrs ? 'disabled' : ''}>
+        ${isAlreadyInSrs ? '✓ Đã có trong SRS' : '+ Thêm vào hàng đợi SRS'}
       </button>
     `;
 
@@ -852,16 +1101,19 @@ const GradedReading = (function() {
   function triggerAddSrs() {
     if (!activePopover || !activePopover.token) return;
     const token = activePopover.token;
+    const btn = document.getElementById('popoverAddSrsBtn');
+    if (btn && btn.classList.contains('added')) return; // Prevent duplicate add
+
     const success = addTokenToSrs(token);
     if (success) {
-      const btn = document.getElementById('popoverAddSrsBtn');
       const badge = document.getElementById('popoverSrsBadge');
       if (btn) {
-        btn.textContent = '✓ Đã thêm vào SRS thành công!';
+        btn.textContent = '✓ Đã thêm vào SRS';
         btn.classList.add('added');
+        btn.disabled = true;
       }
       if (badge) {
-        badge.textContent = '⚡ Đang học';
+        badge.textContent = '⚡ Đang ôn (SRS)';
         badge.className = 'popover-srs-status learning';
       }
     }
@@ -937,6 +1189,33 @@ const GradedReading = (function() {
     renderHub();
   }
 
+  function handleSearchInput(val) {
+    searchQuery = val || '';
+    renderHub();
+  }
+
+  function setCategoryFilter(cat) {
+    currentCategoryFilter = cat || 'all';
+    renderHub();
+  }
+
+  function setSort(s) {
+    currentSort = s || 'default';
+    renderHub();
+  }
+
+  function resetFilters() {
+    searchQuery = '';
+    currentCategoryFilter = 'all';
+    currentLevelFilter = 'all';
+    currentSort = 'default';
+    renderHub();
+  }
+
+  function escapeAttr(str) {
+    return String(str || '').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
   return {
     init,
     renderHub,
@@ -945,6 +1224,13 @@ const GradedReading = (function() {
     togglePinyin,
     toggleTranslation,
     setLevelFilter,
+    setCategoryFilter,
+    setSort,
+    handleSearchInput,
+    resetFilters,
+    loadMoreStories,
+    speakSentence,
+    speakFullStory,
     handleTokenClick,
     inspectByWordId,
     triggerAddSrs,

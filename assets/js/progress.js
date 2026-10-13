@@ -504,6 +504,14 @@ document.addEventListener('keydown', event => {
       if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers();
       return;
     }
+    // Return to level picker if study mode is active
+    event.preventDefault();
+    if (typeof SpaRouter !== 'undefined') {
+      SpaRouter.navigateBack();
+    } else if (typeof goBackToPicker === 'function') {
+      goBackToPicker();
+    }
+    return;
   }
   if (event.key === 'w' || event.key === 'W') {
     event.preventDefault();

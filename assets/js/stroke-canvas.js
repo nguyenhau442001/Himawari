@@ -541,17 +541,33 @@ function renderStrokeGrids(autoAnimate = true) {
   if (typeof HanziWriter === 'undefined') {
     fallback.hidden = false;
     fallback.textContent = 'Đang tải thư viện viết chữ...';
-    let retries = 0;
-    const checkHW = setInterval(() => {
-      retries++;
-      if (typeof HanziWriter !== 'undefined') {
-        clearInterval(checkHW);
+    if (!window._hanziWriterLoading) {
+      window._hanziWriterLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js';
+      script.async = true;
+      script.onload = () => {
+        window._hanziWriterLoading = false;
         renderStrokeGrids(autoAnimate);
-      } else if (retries >= 30) {
-        clearInterval(checkHW);
+      };
+      script.onerror = () => {
+        window._hanziWriterLoading = false;
         fallback.textContent = 'Không thể tải thư viện viết chữ (HanziWriter). Vui lòng kiểm tra kết nối mạng.';
-      }
-    }, 100);
+      };
+      document.head.appendChild(script);
+    } else {
+      let retries = 0;
+      const checkHW = setInterval(() => {
+        retries++;
+        if (typeof HanziWriter !== 'undefined') {
+          clearInterval(checkHW);
+          renderStrokeGrids(autoAnimate);
+        } else if (retries >= 50) {
+          clearInterval(checkHW);
+          fallback.textContent = 'Không thể tải thư viện viết chữ (HanziWriter). Vui lòng kiểm tra kết nối mạng.';
+        }
+      }, 100);
+    }
     syncStrokeCanvasControls();
     return;
   }

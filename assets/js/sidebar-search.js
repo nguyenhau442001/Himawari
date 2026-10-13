@@ -284,7 +284,13 @@ function initMobileDockDialog() {
       setTimeout(() => input.focus(), 80);
     }
   });
-  closeBtn.addEventListener('click', () => dialog.close());
+  closeBtn.addEventListener('click', () => {
+    dialog.close();
+    trigger.focus();
+  });
+  dialog.addEventListener('close', () => {
+    trigger.focus();
+  });
 }
 
 document.addEventListener('DOMContentLoaded', () => {

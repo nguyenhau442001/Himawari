@@ -116,6 +116,20 @@ function setPrimaryTab(tab, options) {
     abandonReviewSession();
   }
   syncHomeScreen();
+  // Reset scroll position to top and focus container/heading
+  window.scrollTo({ top: 0, behavior: 'instant' });
+  const workstationMiddle = document.getElementById('workstationMiddle');
+  if (workstationMiddle) {
+    workstationMiddle.scrollTop = 0;
+  }
+  const targetScreen = PRIMARY_TAB_SCREENS[tab] && document.getElementById(PRIMARY_TAB_SCREENS[tab].screenId);
+  if (targetScreen) {
+    const heading = targetScreen.querySelector('h1, h2, [role="heading"], header');
+    if (heading) {
+      if (!heading.hasAttribute('tabindex')) heading.setAttribute('tabindex', '-1');
+      heading.focus({ preventScroll: true });
+    }
+  }
   if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
     if (tab === 'vocab') SpaRouter.pushView({ view: 'vocab' });
     else SpaRouter.pushView({ view: 'tab', tab: tab });

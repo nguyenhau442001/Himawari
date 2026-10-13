@@ -218,8 +218,10 @@ body.graded-story-active #primaryTabs {
   body.home-screen .footer-note {
     margin: 0; color: var(--text-tertiary); font-size: 12px; line-height: 1.4;
   }
-  body.home-screen .footer-note a { color: inherit; text-decoration: none; }
-  body.home-screen .footer-note a:hover { color: var(--accent-text); text-decoration: underline; }
+  body.home-screen .footer-note a { color: var(--text-secondary); text-decoration: underline; text-underline-offset: 2px; }
+  body.home-screen .footer-note a:hover { color: var(--accent-text); }
+  :root[data-theme="dark"] body.home-screen .footer-note { color: var(--text-secondary); }
+  :root[data-theme="dark"] body.home-screen .footer-note a { color: var(--text-primary); }
 }
 
 /* ==========================================================================
