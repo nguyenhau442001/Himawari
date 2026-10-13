@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun/Light Source -->
+  <circle cx="120" cy="80" r="35" fill="#FFD700"/>
+  <path d="M120 30 L120 15 M120 145 L120 130 M170 80 L185 80 M55 80 L70 80 M155 45 L165 35 M85 45 L75 35 M155 115 L165 125 M85 115 L75 125" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Person -->
+  <g transform="translate(120, 180)">
+    <!-- Shoulders/Torso -->
+    <path d="M-40 0 C-40 -20, 40 -20, 40 0 L30 40 L-30 40 Z" fill="#4A5568"/>
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="20" fill="#E2E8F0"/>
+    <!-- Sunglasses -->
+    <rect x="-18" y="-35" width="36" height="12" rx="2" fill="#2D3748"/>
+    <rect x="-16" y="-33" width="14" height="8" rx="1" fill="#1A202C"/>
+    <rect x="2" y="-33" width="14" height="8" rx="1" fill="#1A202C"/>
+    <!-- Hand raising to block light -->
+    <path d="M25 -20 L45 -40 L50 -35 L30 -15" fill="#E2E8F0"/>
+  </g>
+  
+  <!-- Visual Contrast: Intense light rays -->
+  <path d="M120 80 L200 0" stroke="#FFF9C4" stroke-width="2" opacity="0.6"/>
+  <path d="M120 80 L40 0" stroke="#FFF9C4" stroke-width="2" opacity="0.6"/>
+  <path d="M120 80 L220 50" stroke="#FFF9C4" stroke-width="2" opacity="0.4"/>
+  <path d="M120 80 L20 50" stroke="#FFF9C4" stroke-width="2" opacity="0.4"/>
+</svg>

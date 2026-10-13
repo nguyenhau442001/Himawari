@@ -1,0 +1,75 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/vibe for rock music -->
+  <circle cx="120" cy="120" r="70" fill="#2D2136" opacity="0.6"/>
+  <path d="M70 70 L170 170 M170 70 L70 170" stroke="#FF5722" stroke-width="1" opacity="0.05"/>
+
+  <!-- Electric Guitar Illustration (Symbolizing "摇滚" - Rock Music) -->
+  <g transform="translate(120, 120) rotate(45) translate(-120, -120)">
+    <!-- Guitar Neck -->
+    <rect x="114" y="45" width="12" height="85" fill="#3E2723" rx="2"/>
+    <!-- Frets -->
+    <line x1="114" y1="60" x2="126" y2="60" stroke="#B0BEC5" stroke-width="1.5"/>
+    <line x1="114" y1="75" x2="126" y2="75" stroke="#B0BEC5" stroke-width="1.5"/>
+    <line x1="114" y1="90" x2="126" y2="90" stroke="#B0BEC5" stroke-width="1.5"/>
+    <line x1="114" y1="105" x2="126" y2="105" stroke="#B0BEC5" stroke-width="1.5"/>
+    <!-- Headstock -->
+    <path d="M112 30 L128 30 L126 45 L114 45 Z" fill="#212121"/>
+    <!-- Tuning Pegs -->
+    <circle cx="109" cy="35" r="2" fill="#FFC107"/>
+    <circle cx="131" cy="35" r="2" fill="#FFC107"/>
+    <circle cx="109" cy="42" r="2" fill="#FFC107"/>
+    <circle cx="131" cy="42" r="2" fill="#FFC107"/>
+
+    <!-- Guitar Body (Stratocaster style) -->
+    <path d="M 120 120 
+             C 105 120, 95 130, 90 145 
+             C 80 170, 95 200, 120 205 
+             C 145 200, 160 170, 150 145 
+             C 145 130, 135 120, 120 120 Z" 
+          fill="#FF5722"/>
+    
+    <!-- Inner Body Highlight / Pickguard -->
+    <path d="M 120 128 
+             C 110 128, 102 136, 98 148 
+             C 92 166, 102 190, 120 195 
+             C 138 190, 148 166, 142 148 
+             C 138 136, 130 128, 120 128 Z" 
+          fill="#212121" opacity="0.85"/>
+
+    <!-- Pickups -->
+    <rect x="114" y="140" width="12" height="6" rx="1" fill="#FFC107"/>
+    <rect x="114" y="158" width="12" height="6" rx="1" fill="#FFC107"/>
+    
+    <!-- Bridge and Tailpiece -->
+    <rect x="115" y="178" width="10" height="8" rx="1" fill="#90A4AE"/>
+    
+    <!-- Sound Hole / Controls -->
+    <circle cx="120" cy="150" r="3" fill="#FF5722"/>
+    <circle cx="126" cy="186" r="2" fill="#FFC107"/>
+    <circle cx="114" cy="186" r="2" fill="#FFC107"/>
+
+    <!-- Strings -->
+    <line x1="118" y1="30" x2="118" y2="180" stroke="#CFD8DC" stroke-width="0.8"/>
+    <line x1="120" y1="30" x2="120" y2="180" stroke="#CFD8DC" stroke-width="1.2"/>
+    <line x1="122" y1="30" x2="122" y2="180" stroke="#CFD8DC" stroke-width="0.8"/>
+  </g>
+
+  <!-- Sound/Energy Waves (Accentuate Rock & Roll Vibe) -->
+  <path d="M 50 100 Q 40 120, 50 140" stroke="#FFC107" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M 35 85 Q 20 120, 35 155" stroke="#FF5722" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  
+  <path d="M 190 100 Q 200 120, 190 140" stroke="#FFC107" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M 205 85 Q 220 120, 205 155" stroke="#FF5722" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Dynamic music notes floating -->
+  <path d="M 75 60 L 75 50 L 85 47 L 85 57 Z" fill="#FFC107"/>
+  <circle cx="72" cy="57" r="3" fill="#FFC107"/>
+  <circle cx="82" cy="54" r="3" fill="#FFC107"/>
+
+  <path d="M 165 190 L 165 180 L 175 177 L 175 187 Z" fill="#FFC107"/>
+  <circle cx="162" cy="187" r="3" fill="#FFC107"/>
+  <circle cx="172" cy="184" r="3" fill="#FFC107"/>
+</svg>

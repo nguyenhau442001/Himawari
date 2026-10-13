@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character Body -->
+  <path d="M120 100c-25 0-45 20-45 45v60h90v-60c0-25-20-45-45-45z" fill="#4A5568"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="80" r="25" fill="#A0AEC0"/>
+  
+  <!-- The "Suppression" Action: Hands pressing down on head -->
+  <g fill="#E2E8F0">
+    <path d="M95 70h50v10h-50z" transform="rotate(-15 120 75)"/>
+    <path d="M95 60h50v10h-50z" transform="rotate(15 120 65)"/>
+  </g>
+  
+  <!-- Motion lines indicating downward force -->
+  <g stroke="#F6AD55" stroke-width="3" stroke-linecap="round">
+    <line x1="100" y1="50" x2="100" y2="65"/>
+    <line x1="140" y1="50" x2="140" y2="65"/>
+    <line x1="120" y1="45" x2="120" y2="60"/>
+  </g>
+  
+  <!-- Facial expression: Closed eyes and tight mouth to show internal struggle -->
+  <path d="M105 75h10M125 75h10" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M110 90h20" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+</svg>

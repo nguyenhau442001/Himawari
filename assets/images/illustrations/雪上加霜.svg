@@ -1,0 +1,70 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Background subtle elements (frost/cold atmosphere) -->
+    <path d="M40 70 L45 80 L35 80 Z" fill="#2E384D" opacity="0.6"/>
+    <path d="M200 90 L206 102 L194 102 Z" fill="#2E384D" opacity="0.6"/>
+    <circle cx="180" cy="50" r="3" fill="#2E384D"/>
+    <circle cx="60" cy="120" r="2" fill="#2E384D"/>
+
+    <!-- Base Object: A crumbling/broken modern container/building representing misfortune/collapse -->
+    <g transform="translate(120, 135)">
+      <!-- Main structure back shadow/wall -->
+      <path d="M-55 45 L55 45 L55 55 L-55 55 Z" fill="#3E4C59"/>
+      
+      <!-- Broken building body (Dark grey-blue with warm orange core accent for contrast) -->
+      <path d="M-45 45 L-35 -15 L-5 -25 L35 -10 L45 45 Z" fill="#2A3442"/>
+      
+      <!-- Structural damage/crack -->
+      <path d="M 10 -15 L 22 5 L 14 20 L 28 45" stroke="#1A1D24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      
+      <!-- Collapsing segment leaning out -->
+      <path d="M35 -10 L58 -2 L48 45 Z" fill="#323F4E"/>
+      
+      <!-- Broken window showing failing internal glow -->
+      <rect x="-28" y="5" width="16" height="22" rx="2" fill="#FF7849" opacity="0.8"/>
+      <line x1="-20" y1="5" x2="-20" y2="27" stroke="#2A3442" stroke-width="2"/>
+
+      <!-- Rubble / Debris at the base -->
+      <path d="M-52 45 L-40 32 L-30 45 Z" fill="#5A6B7C"/>
+      <path d="M38 42 L52 35 L48 45 Z" fill="#4B5B6C"/>
+      <circle cx="-15" cy="48" r="4" fill="#6C7A89"/>
+      <circle cx="22" cy="47" r="5" fill="#5A6B7C"/>
+    </g>
+
+    <!-- Overlay: Heavy Snow Layer (Frost/Snow falling on top of disaster -> 雪上加霜) -->
+    <g transform="translate(120, 135)">
+      <!-- Snow accumulation on top of the broken structure -->
+      <path d="M-38 -15 C-25 -22 -15 -27 -5 -25 C15 -20 30 -12 37 -10 C33 -7 25 -5 18 -10 C10 -15 0 -17 -12 -12 C-22 -8 -30 -12 -38 -15 Z" fill="#E4F0FB"/>
+      <path d="M35 -10 L58 -2 L52 2 C44 -2 38 -7 35 -10 Z" fill="#E4F0FB"/>
+      <path d="M-47 43 L-43 38 L-38 45 Z" fill="#E4F0FB"/>
+      <path d="M42 43 L48 37 L52 45 Z" fill="#E4F0FB"/>
+    </g>
+
+    <!-- Falling snow crystals/flakes accentuating the second layer of hardship -->
+    <g fill="#E4F0FB">
+      <!-- Snowflake 1 -->
+      <path d="M75 75 L85 75 M80 70 L80 80 M77 72 L83 78 M77 78 L83 72" stroke="#E4F0FB" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Snowflake 2 -->
+      <path d="M155 60 L163 60 M159 56 L159 64 M157 58 L161 62 M157 62 L161 58" stroke="#E4F0FB" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- Snowflake 3 -->
+      <path d="M95 110 L101 110 M98 107 L98 113" stroke="#E4F0FB" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- Snowflake 4 (Focus accent near top) -->
+      <g transform="translate(120, 42)">
+        <circle cx="0" cy="0" r="4" fill="#FFB74D"/>
+        <path d="M -10 0 L 10 0 M 0 -10 L 0 10 M -7 -7 L 7 7 M -7 7 L 7 -7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- Additional cold drifting frost flakes -->
+    <circle cx="145" cy="85" r="2.5" fill="#E4F0FB" opacity="0.8"/>
+    <circle cx="95" cy="95" r="2" fill="#E4F0FB" opacity="0.7"/>
+    <circle cx="165" cy="115" r="3" fill="#E4F0FB" opacity="0.9"/>
+    <circle cx="70" cy="140" r="2" fill="#E4F0FB" opacity="0.6"/>
+    <circle cx="175" cy="145" r="2.5" fill="#E4F0FB" opacity="0.7"/>
+  </g>
+</svg>

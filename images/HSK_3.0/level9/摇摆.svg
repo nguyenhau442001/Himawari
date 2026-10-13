@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 130)">
+    <!-- Motion trails for swaying/swinging (摇摆) -->
+    <path d="M -30 -40 C -45 -10 -55 20 -40 50" fill="none" stroke="#61AFEF" stroke-width="2" stroke-dasharray="4,4" opacity="0.6"/>
+    <path d="M 30 -40 C 45 -10 55 20 40 50" fill="none" stroke="#61AFEF" stroke-width="2" stroke-dasharray="4,4" opacity="0.6"/>
+    
+    <!-- Wind flow lines -->
+    <path d="M -85 -20 L -65 -20" stroke="#ABB2BF" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    <path d="M -95 -10 L -70 -10" stroke="#ABB2BF" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M -80 0 L -60 0" stroke="#ABB2BF" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    
+    <!-- Ground / Base -->
+    <path d="M -40 70 L 40 70 L 30 85 L -30 85 Z" fill="#4B5263"/>
+    
+    <!-- Tree Trunk & Swaying Branches (Context: 树枝在风中摇摆) -->
+    <path d="M -6 70 C -6 20 -2 -20 -15 -55 C -25 -80 -45 -95 -65 -90 C -50 -80 -35 -60 -30 -35" fill="none" stroke="#98C379" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Foliage Cluster 1 (Left, tilting) -->
+    <circle cx="-55" cy="-85" r="22" fill="#98C379"/>
+    
+    <!-- Main Tree Trunk Continuing -->
+    <path d="M -4 70 C -4 30 0 -10 10 -40 C 20 -65 40 -85 65 -80 C 45 -70 30 -50 25 -20" fill="none" stroke="#98C379" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Foliage Cluster 2 (Right, tilting) -->
+    <circle cx="60" cy="-75" r="26" fill="#98C379"/>
+    <circle cx="20" cy="-35" r="20" fill="#98C379"/>
+
+    <!-- Central dynamic leaves -->
+    <circle cx="-15" cy="-55" r="18" fill="#98C379"/>
+  </g>
+</svg>

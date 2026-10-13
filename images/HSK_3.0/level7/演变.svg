@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Timeline Path -->
+  <path d="M40 180 C 80 180, 100 120, 140 120 C 180 120, 200 60, 220 60" stroke="#3A404D" stroke-width="4" fill="none" stroke-dasharray="8 8"/>
+  
+  <!-- Evolution Stages -->
+  <!-- Stage 1: Simple block -->
+  <rect x="30" y="150" width="30" height="30" rx="4" fill="#FFB86C"/>
+  
+  <!-- Stage 2: Transitioning shape -->
+  <path d="M110 125 L140 125 L125 155 Z" fill="#FFB86C" opacity="0.7"/>
+  
+  <!-- Stage 3: Complex form (Human character interaction) -->
+  <g transform="translate(180, 60)">
+    <circle cx="15" cy="15" r="12" fill="#FFB86C"/>
+    <path d="M15 27 L15 45 M15 35 L5 25 M15 35 L25 25 M15 45 L5 55 M15 45 L25 55" stroke="#FFB86C" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion Lines -->
+  <path d="M75 150 Q 90 130 110 135" stroke="#50FA7B" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M150 110 Q 165 90 185 95" stroke="#50FA7B" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

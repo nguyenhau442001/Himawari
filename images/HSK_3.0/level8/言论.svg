@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle ambient glow representing public space / broadcast -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Speech bubble representing '言' (Speech/Words) -->
+  <path d="M 68 85 
+           C 68 68, 82 54, 105 54 
+           L 135 54 
+           C 158 54, 172 68, 172 85 
+           C 172 102, 158 116, 135 116 
+           L 118 116 
+           L 96 134 
+           L 100 116 
+           C 82 116, 68 102, 68 85 Z" 
+        fill="#2D3748" 
+        stroke="#4A5568" 
+        stroke-width="2"/>
+
+  <!-- Sound waves / Discourse lines inside the speech bubble representing '论' (Discussion/Opinion/Theory) -->
+  <line x1="86" y1="78" x2="154" y2="78" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  <line x1="86" y1="96" x2="132" y2="96" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Megaphone / Broadcast symbol integrated below to emphasize public expression (言论) -->
+  <path d="M 85 145 
+           L 105 145 
+           L 135 128 
+           L 135 172 
+           L 105 155 
+           L 85 155 
+           Z" 
+        fill="#F6AD55"/>
+
+  <path d="M 148 138 
+           C 158 144, 158 156, 148 162" 
+        stroke="#F6AD55" 
+        stroke-width="4" 
+        stroke-linecap="round" 
+        fill="none"/>
+
+  <path d="M 158 130 
+           C 172 140, 172 160, 158 170" 
+        stroke="#F6AD55" 
+        stroke-width="4" 
+        stroke-linecap="round" 
+        fill="none"/>
+
+</svg>

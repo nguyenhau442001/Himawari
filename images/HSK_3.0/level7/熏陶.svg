@@ -1,0 +1,99 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <defs>
+    <!-- Background glow for artistic atmosphere -->
+    <radialGradient id="artGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#FF9F43" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1A1D24" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Ambient mist/influence gradients for "xūntáo" (immersion/gradual influence) -->
+    <linearGradient id="mist1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#54A0FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#54A0FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF9F43" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="mist2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9F43" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FECA57" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Character clothing gradient -->
+    <linearGradient id="robeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D3436"/>
+      <stop offset="100%" stop-color="#1E272C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Light Background -->
+  <circle cx="120" cy="110" r="90" fill="url(#artGlow)"/>
+
+  <!-- Background Environment: Art Studio / Cultural Context -->
+  <!-- Easel Frame -->
+  <line x1="165" y1="70" x2="195" y2="175" stroke="#2C353D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="135" y1="70" x2="105" y2="175" stroke="#2C353D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="55" x2="150" y2="175" stroke="#2C353D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Canvas on Easel -->
+  <rect x="115" y="75" width="70" height="90" rx="4" fill="#242C35" stroke="#3A4750" stroke-width="2"/>
+  
+  <!-- Abstract Art on Canvas (Brushstrokes representing the subject) -->
+  <path d="M125 140 Q 135 100 150 120 T 175 95" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="138" cy="108" r="6" fill="#FECA57" opacity="0.9"/>
+  <path d="M130 150 L 170 150" stroke="#48DBFB" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Ambient Influence / Immersion Waves (Visualizing gradual nurturing/熏陶) -->
+  <path d="M 60 140 Q 90 90 130 110 T 170 80" fill="none" stroke="url(#mist1)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 70 160 Q 100 110 140 130 T 190 100" fill="none" stroke="url(#mist2)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Floating Artistic Particles / Qi (Subtle influence floating into character) -->
+  <circle cx="95" cy="105" r="3.5" fill="#FF9F43" opacity="0.8"/>
+  <circle cx="112" cy="85" r="2" fill="#FECA57" opacity="0.7"/>
+  <circle cx="85" cy="130" r="2.5" fill="#54A0FF" opacity="0.6"/>
+  <path d="M102 95 Q 107 90 104 85" fill="none" stroke="#FF9F43" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Foreground Character (Young learner absorbing art/culture) -->
+  <g transform="translate(-5, 0)">
+    <!-- Chair / Seat -->
+    <path d="M50 175 L85 175" stroke="#3A4750" stroke-width="4" stroke-linecap="round"/>
+    <line x1="60" y1="175" x2="60" y2="195" stroke="#2C353D" stroke-width="3"/>
+    <line x1="75" y1="175" x2="75" y2="195" stroke="#2C353D" stroke-width="3"/>
+
+    <!-- Body / Torso -->
+    <path d="M 50 175 C 50 145, 65 135, 78 135 C 91 135, 105 145, 105 175 Z" fill="url(#robeGrad)"/>
+
+    <!-- Neck -->
+    <rect x="72" y="123" width="12" height="15" rx="4" fill="#DDB284"/>
+
+    <!-- Head -->
+    <circle cx="78" cy="112" r="16" fill="#E8C39E"/>
+
+    <!-- Hair -->
+    <path d="M 62 112 C 62 95, 94 95, 94 112 C 94 116, 92 110, 90 105 C 85 97, 71 97, 66 105 C 64 110, 62 116, 62 112 Z" fill="#2C353D"/>
+
+    <!-- Face Profile (Looking intently towards the art) -->
+    <path d="M 90 110 Q 94 113, 90 116" fill="none" stroke="#C49B72" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Eye (Focused, calm expression) -->
+    <circle cx="87" cy="111" r="1.5" fill="#2C353D"/>
+
+    <!-- Raised Hand / Active Engagement Gesture -->
+    <!-- Arm -->
+    <path d="M 75 140 Q 82 125, 92 130" fill="none" stroke="url(#robeGrad)" stroke-width="10" stroke-linecap="round"/>
+    <!-- Hand holding a brush or gracefully gesturing -->
+    <circle cx="94" cy="131" r="4" fill="#E8C39E"/>
+    <!-- Paintbrush -->
+    <line x1="94" y1="131" x2="108" y2="125" stroke="#A66E38" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 108 125 L 112 123" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Dynamic Action Lines (Showing the continuous, subtle permeation of art - 熏陶) -->
+  <path d="M 115 120 C 105 125, 100 120, 92 125" fill="none" stroke="#FF9F43" stroke-width="2" stroke-dasharray="3 3" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 120 100 C 110 105, 100 100, 90 108" fill="none" stroke="#FECA57" stroke-width="2" stroke-dasharray="3 3" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- Studio Floor Line -->
+  <line x1="30" y1="195" x2="210" y2="195" stroke="#2C353D" stroke-width="2" stroke-linecap="round"/>
+</svg>

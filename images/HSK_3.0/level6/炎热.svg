@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun representing intense heat -->
+  <circle cx="120" cy="80" r="35" fill="#FF9800"/>
+  <path d="M120 30 L120 45 M120 115 L120 130 M70 80 L85 80 M155 80 L170 80 M85 45 L95 55 M145 45 L135 55 M85 115 L95 105 M145 115 L135 105" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Heat waves/shimmer effect -->
+  <path d="M80 160 Q100 150 120 160 T160 160" stroke="#FF5722" stroke-width="3" fill="none" stroke-opacity="0.6"/>
+  <path d="M70 175 Q90 165 110 175 T150 175" stroke="#FF5722" stroke-width="3" fill="none" stroke-opacity="0.4"/>
+  <path d="M90 190 Q110 180 130 190 T170 190" stroke="#FF5722" stroke-width="3" fill="none" stroke-opacity="0.2"/>
+  
+  <!-- Person wiping sweat to show the state of being hot -->
+  <g transform="translate(120, 180)">
+    <circle cx="0" cy="-20" r="15" fill="#E0E0E0"/>
+    <path d="M-15 -20 Q-20 -35 -10 -40" stroke="#E0E0E0" stroke-width="3" fill="none"/>
+    <rect x="-20" y="-5" width="40" height="20" rx="5" fill="#E0E0E0"/>
+    <path d="M5 -25 L15 -15" stroke="#FF9800" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="17" cy="-13" r="2" fill="#FF9800"/>
+  </g>
+</svg>

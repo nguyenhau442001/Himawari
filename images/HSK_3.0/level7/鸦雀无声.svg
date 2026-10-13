@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Subtle Classroom Elements -->
+  <!-- Chalkboard outline -->
+  <rect x="36" y="36" width="168" height="96" rx="6" fill="#222730" stroke="#2D333F" stroke-width="2"/>
+  <!-- Subtle geometric line on board representing teacher's writing/diagram -->
+  <path d="M56 70 L90 70 M56 86 L110 86" stroke="#2D333F" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Desk Surface -->
+  <path d="M24 165 C70 160 170 160 216 165 L224 200 C170 206 70 206 16 200 Z" fill="#282E3B"/>
+  <path d="M24 165 C70 160 170 160 216 165 L216 172 C170 167 70 167 24 172 Z" fill="#323A4B"/>
+
+  <!-- Centerpiece Character / Student representing "鸦雀无声" (Absolute Silence) -->
+  <!-- Student Body & Uniform -->
+  <path d="M90 170 C90 148 105 136 120 136 C135 136 150 148 150 170 Z" fill="#3E4C66"/>
+  <!-- Collar -->
+  <path d="M106 136 L120 152 L134 136 Z" fill="#E4E9F0"/>
+
+  <!-- Neck & Head -->
+  <rect x="112" y="122" width="16" height="18" fill="#F1C27D"/>
+  <circle cx="120" cy="104" r="22" fill="#F1C27D"/>
+
+  <!-- Hair (Neat, modern dark hair) -->
+  <path d="M98 104 C98 90 108 82 120 82 C132 82 142 90 142 104 C142 108 140 114 140 114 L132 100 L120 96 L108 100 L100 114 C100 114 98 108 98 104 Z" fill="#2B303C"/>
+
+  <!-- Focus: Eyes closed tightly & index finger pressed to lips -->
+  <!-- Closed Eyes (Serene, concentrated silence) -->
+  <path d="M110 102 C113 105 117 105 120 102" stroke="#4A3B32" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M120 102 C123 105 127 105 130 102" stroke="#4A3B32" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Hand & Finger doing "Shh" gesture -->
+  <path d="M110 130 C110 120 120 114 125 112 C130 110 136 116 134 124 L128 126 Z" fill="#F1C27D"/>
+  <!-- Index finger pointing up vertically across the mouth -->
+  <rect x="116" y="94" width="7" height="24" rx="3.5" fill="#F1C27D"/>
+
+  <!-- Golden Accent Visualizing Absolute Quiet / Focus -->
+  <circle cx="120" cy="104" r="32" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4 8" fill="none" opacity="0.6"/>
+  
+  <!-- Subtle quiet sound waves muted / crossed out or fading out elements -->
+  <!-- Left muted bird/sound motif abstractly represented as quiet peaceful aura -->
+  <path d="M68 96 C64 96 60 100 60 104 C60 108 64 112 68 112" stroke="#5C687E" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M64 90 C58 90 52 96 52 104 C52 112 58 118 64 118" stroke="#5C687E" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- Right muted motif -->
+  <path d="M172 96 C176 96 180 100 180 104 C180 108 176 112 172 112" stroke="#5C687E" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M176 90 C182 90 188 96 188 104 C188 112 182 118 176 118" stroke="#5C687E" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+</svg>

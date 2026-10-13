@@ -22017,10 +22017,265 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/削.svg",
     "caption": "bào, gọt"
   },
+  "削弱": {
+    "file": "削弱.svg",
+    "src": "images/HSK_2.0/level6/削弱.svg",
+    "caption": "làm suy yếu"
+  },
+  "学说": {
+    "file": "学说.svg",
+    "src": "images/HSK_2.0/level6/学说.svg",
+    "caption": "học thuyết"
+  },
+  "学位": {
+    "file": "学位.svg",
+    "src": "images/HSK_2.0/level6/学位.svg",
+    "caption": "học vị"
+  },
+  "雪上加霜": {
+    "file": "雪上加霜.svg",
+    "src": "images/HSK_2.0/level6/雪上加霜.svg",
+    "caption": "họa vô đơn chí"
+  },
+  "血压": {
+    "file": "血压.svg",
+    "src": "images/HSK_2.0/level6/血压.svg",
+    "caption": "huyết áp"
+  },
+  "熏陶": {
+    "file": "熏陶.svg",
+    "src": "images/HSK_2.0/level6/熏陶.svg",
+    "caption": "hun đúc, ảnh hưởng dần dần"
+  },
+  "循环": {
+    "file": "循环.svg",
+    "src": "images/HSK_2.0/level6/循环.svg",
+    "caption": "tuần hoàn"
+  },
+  "循序渐进": {
+    "file": "循序渐进.svg",
+    "src": "images/HSK_2.0/level6/循序渐进.svg",
+    "caption": "tiến từng bước theo trình tự"
+  },
+  "巡逻": {
+    "file": "巡逻.svg",
+    "src": "images/HSK_2.0/level6/巡逻.svg",
+    "caption": "tuần tra"
+  },
+  "寻觅": {
+    "file": "寻觅.svg",
+    "src": "images/HSK_2.0/level6/寻觅.svg",
+    "caption": "tìm kiếm"
+  },
+  "压迫": {
+    "file": "压迫.svg",
+    "src": "images/HSK_2.0/level6/压迫.svg",
+    "caption": "áp bức"
+  },
   "压岁钱": {
     "file": "压岁钱.svg",
     "src": "images/HSK_2.0/level6/压岁钱.svg",
     "caption": "tiền lì xì"
+  },
+  "压缩": {
+    "file": "压缩.svg",
+    "src": "images/HSK_2.0/level6/压缩.svg",
+    "caption": "nén, ép"
+  },
+  "压抑": {
+    "file": "压抑.svg",
+    "src": "images/HSK_2.0/level6/压抑.svg",
+    "caption": "kìm nén, đè nén"
+  },
+  "压榨": {
+    "file": "压榨.svg",
+    "src": "images/HSK_2.0/level6/压榨.svg",
+    "caption": "bóc lột, ép (dầu)"
+  },
+  "压制": {
+    "file": "压制.svg",
+    "src": "images/HSK_2.0/level6/压制.svg",
+    "caption": "đàn áp, kìm hãm"
+  },
+  "亚军": {
+    "file": "亚军.svg",
+    "src": "images/HSK_2.0/level6/亚军.svg",
+    "caption": "hạng nhì, á quân"
+  },
+  "鸦雀无声": {
+    "file": "鸦雀无声.svg",
+    "src": "images/HSK_2.0/level6/鸦雀无声.svg",
+    "caption": "im phăng phắc"
+  },
+  "烟花爆竹": {
+    "file": "烟花爆竹.svg",
+    "src": "images/HSK_2.0/level6/烟花爆竹.svg",
+    "caption": "pháo hoa và pháo nổ"
+  },
+  "淹没": {
+    "file": "淹没.svg",
+    "src": "images/HSK_2.0/level6/淹没.svg",
+    "caption": "nhấn chìm"
+  },
+  "延期": {
+    "file": "延期.svg",
+    "src": "images/HSK_2.0/level6/延期.svg",
+    "caption": "hoãn lại"
+  },
+  "延伸": {
+    "file": "延伸.svg",
+    "src": "images/HSK_2.0/level6/延伸.svg",
+    "caption": "kéo dài, mở rộng"
+  },
+  "延续": {
+    "file": "延续.svg",
+    "src": "images/HSK_2.0/level6/延续.svg",
+    "caption": "tiếp tục, kéo dài"
+  },
+  "严寒": {
+    "file": "严寒.svg",
+    "src": "images/HSK_2.0/level6/严寒.svg",
+    "caption": "lạnh giá khắc nghiệt"
+  },
+  "严禁": {
+    "file": "严禁.svg",
+    "src": "images/HSK_2.0/level6/严禁.svg",
+    "caption": "cấm nghiêm ngặt"
+  },
+  "严峻": {
+    "file": "严峻.svg",
+    "src": "images/HSK_2.0/level6/严峻.svg",
+    "caption": "nghiêm trọng, gay gắt"
+  },
+  "严厉": {
+    "file": "严厉.svg",
+    "src": "images/HSK_2.0/level6/严厉.svg",
+    "caption": "nghiêm khắc"
+  },
+  "严密": {
+    "file": "严密.svg",
+    "src": "images/HSK_2.0/level6/严密.svg",
+    "caption": "chặt chẽ, nghiêm ngặt"
+  },
+  "沿海": {
+    "file": "沿海.svg",
+    "src": "images/HSK_2.0/level6/沿海.svg",
+    "caption": "ven biển"
+  },
+  "言论": {
+    "file": "言论.svg",
+    "src": "images/HSK_2.0/level6/言论.svg",
+    "caption": "ngôn luận"
+  },
+  "炎热": {
+    "file": "炎热.svg",
+    "src": "images/HSK_2.0/level6/炎热.svg",
+    "caption": "nóng bức"
+  },
+  "岩石": {
+    "file": "岩石.svg",
+    "src": "images/HSK_2.0/level6/岩石.svg",
+    "caption": "đá tảng"
+  },
+  "演变": {
+    "file": "演变.svg",
+    "src": "images/HSK_2.0/level6/演变.svg",
+    "caption": "diễn biến, biến đổi"
+  },
+  "演习": {
+    "file": "演习.svg",
+    "src": "images/HSK_2.0/level6/演习.svg",
+    "caption": "diễn tập"
+  },
+  "演绎": {
+    "file": "演绎.svg",
+    "src": "images/HSK_2.0/level6/演绎.svg",
+    "caption": "diễn dịch, suy diễn"
+  },
+  "眼光": {
+    "file": "眼光.svg",
+    "src": "images/HSK_2.0/level6/眼光.svg",
+    "caption": "tầm nhìn, ánh mắt"
+  },
+  "眼色": {
+    "file": "眼色.svg",
+    "src": "images/HSK_2.0/level6/眼色.svg",
+    "caption": "ánh mắt ra hiệu"
+  },
+  "眼神": {
+    "file": "眼神.svg",
+    "src": "images/HSK_2.0/level6/眼神.svg",
+    "caption": "thần thái ánh mắt"
+  },
+  "验收": {
+    "file": "验收.svg",
+    "src": "images/HSK_2.0/level6/验收.svg",
+    "caption": "kiểm nghiệm và nghiệm thu"
+  },
+  "厌恶": {
+    "file": "厌恶.svg",
+    "src": "images/HSK_2.0/level6/厌恶.svg",
+    "caption": "chán ghét"
+  },
+  "氧气": {
+    "file": "氧气.svg",
+    "src": "images/HSK_2.0/level6/氧气.svg",
+    "caption": "oxy"
+  },
+  "样品": {
+    "file": "样品.svg",
+    "src": "images/HSK_2.0/level6/样品.svg",
+    "caption": "hàng mẫu"
+  },
+  "摇摆": {
+    "file": "摇摆.svg",
+    "src": "images/HSK_2.0/level6/摇摆.svg",
+    "caption": "lắc lư, đu đưa"
+  },
+  "摇滚": {
+    "file": "摇滚.svg",
+    "src": "images/HSK_2.0/level6/摇滚.svg",
+    "caption": "nhạc rock"
+  },
+  "遥控": {
+    "file": "遥控.svg",
+    "src": "images/HSK_2.0/level6/遥控.svg",
+    "caption": "điều khiển từ xa"
+  },
+  "遥远": {
+    "file": "遥远.svg",
+    "src": "images/HSK_2.0/level6/遥远.svg",
+    "caption": "xa xôi"
+  },
+  "要点": {
+    "file": "要点.svg",
+    "src": "images/HSK_2.0/level6/要点.svg",
+    "caption": "điểm chính"
+  },
+  "要命": {
+    "file": "要命.svg",
+    "src": "images/HSK_2.0/level6/要命.svg",
+    "caption": "chết người, vô cùng (nhấn mạnh)"
+  },
+  "要素": {
+    "file": "要素.svg",
+    "src": "images/HSK_2.0/level6/要素.svg",
+    "caption": "yếu tố thiết yếu"
+  },
+  "耀眼": {
+    "file": "耀眼.svg",
+    "src": "images/HSK_2.0/level6/耀眼.svg",
+    "caption": "chói mắt"
+  },
+  "野蛮": {
+    "file": "野蛮.svg",
+    "src": "images/HSK_2.0/level6/野蛮.svg",
+    "caption": "man rợ"
+  },
+  "野心": {
+    "file": "野心.svg",
+    "src": "images/HSK_2.0/level6/野心.svg",
+    "caption": "dã tâm"
   },
   "依据": {
     "file": "依据.svg",

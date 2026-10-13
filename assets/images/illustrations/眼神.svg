@@ -1,0 +1,68 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <defs>
+    <!-- Glow and gradient definitions for hopeful expression -->
+    <radialGradient id="hopeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB703" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFB703" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="eyeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#219EBC"/>
+      <stop offset="100%" stop-color="#023047"/>
+    </linearGradient>
+
+    <linearGradient id="sparkleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFB703"/>
+    </linearGradient>
+
+    <!-- Clip path to keep eye elements contained -->
+    <clipPath id="eyeClip">
+      <path d="M 40 120 C 80 70, 160 70, 200 120 C 160 170, 80 170, 40 120 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Ambient hope glow behind the eye -->
+  <circle cx="120" cy="120" r="90" fill="url(#hopeGlow)"/>
+
+  <!-- Eyebrow showing warm, focused expression -->
+  <path d="M 55 88 C 90 72, 150 72, 185 92" stroke="#8E9AAF" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Upper Eyelid crease -->
+  <path d="M 50 110 C 90 62, 150 62, 190 110" stroke="#4A5568" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- EYE SHAPE (Base white/sclera) -->
+  <path d="M 40 120 C 80 70, 160 70, 200 120 C 160 170, 80 170, 40 120 Z" fill="#F8F9FA"/>
+
+  <!-- Inside the eye clip path -->
+  <g clip-path="url(#eyeClip)">
+    <!-- Iris -->
+    <circle cx="120" cy="120" r="44" fill="url(#eyeGradient)"/>
+    
+    <!-- Inner Iris texture / depth -->
+    <circle cx="120" cy="120" r="40" fill="none" stroke="#8ECAE6" stroke-width="2" opacity="0.4"/>
+    
+    <!-- Pupil -->
+    <circle cx="120" cy="120" r="20" fill="#0D1B2A"/>
+
+    <!-- Light reflection 1 (Main sparkle representing hope/shen) -->
+    <path d="M 132 104 L 138 90 L 144 104 L 158 110 L 144 116 L 138 130 L 132 116 L 118 110 Z" fill="url(#sparkleGrad)" transform="translate(-10, -5) scale(0.75)"/>
+
+    <!-- Light reflection 2 (Secondary crisp highlight) -->
+    <circle cx="104" cy="104" r="6" fill="#FFFFFF"/>
+    <circle cx="136" cy="136" r="3" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+
+  <!-- Eyelashes / Upper lid line -->
+  <path d="M 40 120 C 80 70, 160 70, 200 120" stroke="#0D1B2A" stroke-width="5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Lower eyelid contour -->
+  <path d="M 40 120 C 80 170, 160 170, 200 120" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Stylized floating spark/star particles emphasizing "神" (vitality/sparkle/hope) -->
+  <path d="M 192 78 L 195 86 L 203 89 L 195 92 L 192 100 L 189 92 L 181 89 L 189 86 Z" fill="#FFB703"/>
+  <path d="M 52 148 L 54 153 L 59 155 L 54 157 L 52 162 L 50 157 L 45 155 L 50 153 Z" fill="#FFB703" opacity="0.8"/>
+</svg>

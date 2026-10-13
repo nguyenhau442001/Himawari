@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Deduction Process Visualization -->
+  <!-- The "General" (Top) -->
+  <g transform="translate(120, 50)">
+    <circle cx="0" cy="0" r="20" fill="#FFB84D"/>
+    <path d="M-10 -5 L10 -5 M-10 5 L10 5" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion Lines -->
+  <path d="M120 75 L120 100 M105 85 L120 100 L135 85" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- The "Specific" (Bottom) -->
+  <g transform="translate(120, 140)">
+    <path d="M-30 0 L30 0 L20 40 L-20 40 Z" fill="#4D9FFF"/>
+    <circle cx="-10" cy="15" r="5" fill="#1A1D24"/>
+    <circle cx="10" cy="15" r="5" fill="#1A1D24"/>
+    <path d="M-10 25 Q0 30 10 25" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Human Character Interaction -->
+  <g transform="translate(60, 180)">
+    <path d="M0 0 L20 0 L15 -30 L5 -30 Z" fill="#E0E0E0"/>
+    <circle cx="10" cy="-35" r="8" fill="#E0E0E0"/>
+    <!-- Hand pointing/deducing -->
+    <path d="M15 -20 L30 -10 L25 -5" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Connecting Logic Path -->
+  <path d="M120 100 L120 130" stroke="#5D6D7E" stroke-width="2" stroke-dasharray="6 6"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "严密" (tight, rigorous, seamless) through a complex, interlocking gear mechanism -->
+  <!-- The concept is that every part fits perfectly without gaps, representing rigorous structure -->
+  
+  <g transform="translate(120, 120)">
+    <!-- Central interlocking gear structure -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#3A3F4B" stroke-width="4" stroke-dasharray="8 8"/>
+    
+    <!-- Large gear representing the core system -->
+    <path d="M0 -45 L8 -45 L10 -35 L18 -38 L22 -30 L30 -30 L32 -22 L40 -18 L42 -10 L45 -8 L45 0 L42 8 L40 18 L32 22 L30 30 L22 30 L18 38 L10 35 L8 45 L0 45 L-8 45 L-10 35 L-18 38 L-22 30 L-30 30 L-32 22 L-40 18 L-42 10 L-45 8 L-45 0 L-42 -8 L-40 -18 L-32 -22 L-30 -30 L-22 -30 L-18 -38 L-10 -35 L-8 -45 Z" fill="#FFB800"/>
+    
+    <!-- Tightening/Locking mechanism elements -->
+    <circle cx="0" cy="0" r="12" fill="#1A1D24"/>
+    <rect x="-4" y="-4" width="8" height="8" rx="1" fill="#FFB800"/>
+    
+    <!-- Representing the "monitoring/coverage" aspect with precise, non-overlapping lines -->
+    <path d="M-60 -60 L60 -60 L60 60 L-60 60 Z" fill="none" stroke="#FFB800" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Interlocking teeth detail -->
+    <path d="M0 -55 L0 -45" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55 0 L45 0" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 55 L0 45" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-55 0 L-45 0" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Visual contrast: The seamless connection of parts -->
+  <circle cx="120" cy="120" r="75" fill="none" stroke="#2D323E" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

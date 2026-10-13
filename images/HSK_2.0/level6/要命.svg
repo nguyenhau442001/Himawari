@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun/Heat source -->
+  <circle cx="190" cy="50" r="25" fill="#FFB347"/>
+  <path d="M190 20V5M190 95V80M220 50H235M145 50H160M165 25L155 15M215 75L225 85M165 75L155 85M215 25L225 15" stroke="#FFB347" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Character -->
+  <g transform="translate(60, 120)">
+    <!-- Body -->
+    <path d="M40 100L40 40C40 25 55 20 60 20C65 20 80 25 80 40L80 100" fill="#4A90E2"/>
+    <!-- Head -->
+    <circle cx="60" cy="20" r="15" fill="#FFD1A9"/>
+    <!-- Face: Exaggerated heat expression -->
+    <path d="M52 15L56 19M56 15L52 19" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M64 15L68 19M68 15L64 19" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M55 28Q60 32 65 28" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Arms: Wiping sweat -->
+    <path d="M40 45L20 30" stroke="#FFD1A9" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 30L10 40" stroke="#FFD1A9" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Sweat drops -->
+    <path d="M75 10Q75 5 78 5Q81 5 81 10Q81 13 78 13Q75 13 75 10" fill="#A0CFFF"/>
+    <path d="M85 20Q85 15 88 15Q91 15 91 20Q91 23 88 23Q85 23 85 20" fill="#A0CFFF"/>
+  </g>
+  
+  <!-- Motion lines for heat intensity -->
+  <path d="M120 100Q140 80 160 100" stroke="#FFB347" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M120 120Q140 100 160 120" stroke="#FFB347" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+</svg>

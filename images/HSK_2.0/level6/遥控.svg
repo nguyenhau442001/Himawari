@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- TV Screen in background -->
+  <rect x="50" y="45" width="140" height="90" rx="8" fill="#222730" stroke="#323846" stroke-width="3"/>
+  <rect x="60" y="55" width="120" height="70" rx="4" fill="#15181E"/>
+  <!-- Abstract abstract geometric content on TV showing channel change -->
+  <circle cx="120" cy="90" r="20" fill="#3A4454" opacity="0.5"/>
+  <polygon points="112,80 132,90 112,100" fill="#F39C12"/>
+  
+  <!-- TV stand -->
+  <path d="M100,135 L140,135 L145,142 L95,142 Z" fill="#323846"/>
+  <rect x="115" y="142" width="10" height="6" fill="#222730"/>
+
+  <!-- Motion lines indicating remote control action -->
+  <path d="M105,155 Q95,130 90,105" fill="none" stroke="#F39C12" stroke-width="2.5" stroke-dasharray="4 3" stroke-linecap="round"/>
+  <path d="M115,160 Q105,135 100,110" fill="none" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Character Hand & Remote Control -->
+  <!-- Arm -->
+  <path d="M150,210 L125,180 L140,165 L165,195 Z" fill="#4A5568"/>
+  <!-- Hand -->
+  <circle cx="123" cy="172" r="12" fill="#E2E8F0"/>
+  
+  <!-- Remote Control Body (angled dynamically) -->
+  <g transform="translate(95, 145) rotate(-25)">
+    <rect x="0" y="0" width="32" height="75" rx="6" fill="#2C3E50" stroke="#F39C12" stroke-width="2"/>
+    <!-- Screen/Top infrared emitter -->
+    <circle cx="16" cy="10" r="4" fill="#E74C3C"/>
+    <!-- Buttons -->
+    <rect x="8" y="20" width="16" height="8" rx="2" fill="#F39C12"/>
+    <rect x="8" y="32" width="7" height="7" rx="1.5" fill="#7F8C8D"/>
+    <rect x="17" y="32" width="7" height="7" rx="1.5" fill="#7F8C8D"/>
+    <rect x="8" y="44" width="7" height="7" rx="1.5" fill="#7F8C8D"/>
+    <rect x="17" y="44" width="7" height="7" rx="1.5" fill="#7F8C8D"/>
+    <rect x="8" y="56" width="16" height="10" rx="2" fill="#34495E"/>
+  </g>
+
+  <!-- Infrared Signal Waves (Action effect) -->
+  <path d="M85,135 Q75,125 85,115" fill="none" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M78,142 Q62,125 78,108" fill="none" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M71,149 Q50,125 71,101" fill="none" stroke="#F39C12" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+</svg>

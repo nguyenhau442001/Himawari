@@ -1,0 +1,56 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Grid/Atmosphere lines for oppressive weight -->
+  <line x1="30" y1="80" x2="210" y2="80" stroke="#2A303C" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="30" y1="120" x2="210" y2="120" stroke="#2A303C" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Heavy Oppressive Slab (The "Pressure / 压") -->
+  <!-- Motion/downward force lines -->
+  <g stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="120" y1="35" x2="120" y2="55"/>
+    <line x1="80" y1="40" x2="80" y2="55"/>
+    <line x1="160" y1="40" x2="160" y2="55"/>
+  </g>
+  
+  <!-- The Massive Heavy Weight -->
+  <rect x="50" y="55" width="140" height="32" rx="6" fill="#2E3646" stroke="#4B5563" stroke-width="2"/>
+  <rect x="65" y="63" width="110" height="16" rx="4" fill="#1A1D24" opacity="0.5"/>
+  <path d="M 120 71 L 120 83 M 115 78 L 120 83 L 125 78" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Oppressed Human Character (Action / Verb dynamic interaction) -->
+  <g transform="translate(0, 10)">
+    <!-- Bent Back & Head (struggling under weight) -->
+    <!-- Head -->
+    <circle cx="120" cy="103" r="11" fill="#E2E8F0"/>
+    
+    <!-- Torso bent forward -->
+    <path d="M 115 114 Q 112 128 105 142" stroke="#E2E8F0" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Legs braced against the ground -->
+    <!-- Back Leg -->
+    <path d="M 105 142 L 88 178" stroke="#CBD5E1" stroke-width="10" stroke-linecap="round"/>
+    <!-- Front Leg -->
+    <path d="M 105 142 L 132 178" stroke="#E2E8F0" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- Feet flat on ground -->
+    <path d="M 80 178 L 94 178" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 124 178 L 140 178" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Arms pushing upward / resisting the heavy slab -->
+    <!-- Upper arms & forearms bracing -->
+    <path d="M 112 120 L 92 97" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 92 97 L 102 87" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round"/>
+    
+    <path d="M 115 120 L 138 97" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 138 97 L 128 87" stroke="#E2E8F0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground Line -->
+  <line x1="30" y1="188" x2="210" y2="188" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Accent Focus Glow / Impact points -->
+  <circle cx="120" cy="87" r="4" fill="#F59E0B"/>
+  <circle cx="95" cy="87" r="3" fill="#F59E0B"/>
+</svg>

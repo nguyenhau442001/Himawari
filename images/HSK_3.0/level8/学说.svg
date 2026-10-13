@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Central Iconographic Object representing "学说" (Academic Doctrine / Systematic Theory) -->
+    <!-- Standing Monumental Book & Structured Knowledge Architecture -->
+    
+    <!-- Base Platform -->
+    <path d="M60 176 L180 176 L190 188 L50 188 Z" fill="#2D333B"/>
+    <rect x="70" y="170" width="100" height="6" rx="3" fill="#3E4451"/>
+    
+    <!-- Open Tome / Book Spine and Pages (The foundation of doctrine) -->
+    <!-- Left Page -->
+    <path d="M120 162 C120 162 90 145 55 152 L55 102 C90 95 120 112 120 112 Z" fill="#ABB2BF"/>
+    <path d="M58 110 C85 105 112 118 117 120 L117 155 C112 153 85 140 58 145 Z" fill="#61AFEF"/>
+    
+    <!-- Right Page -->
+    <path d="M120 162 C120 162 150 145 185 152 L185 102 C150 95 120 112 120 112 Z" fill="#ABB2BF"/>
+    <path d="M182 110 C155 105 128 118 123 120 L123 155 C128 153 155 140 182 145 Z" fill="#61AFEF"/>
+    
+    <!-- Book Center Binding / Spine shadow -->
+    <path d="M116 112 L124 112 L124 162 L116 162 Z" fill="#21252B"/>
+
+    <!-- Text Lines on Pages (Abstracted knowledge) -->
+    <line x1="68" y1="120" x2="100" y2="125" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="68" y1="133" x2="105" y2="138" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="68" y1="146" x2="95" y2="150" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+
+    <line x1="172" y1="120" x2="140" y2="125" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="172" y1="133" x2="135" y2="138" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="172" y1="146" x2="145" y2="150" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Rising Conceptual Framework / Systematic Doctrine Structure (Gold Accent for Focus) -->
+    <!-- Central Pillar of Theory -->
+    <rect x="116" y="55" width="8" height="60" fill="#E5C07B"/>
+    
+    <!-- Floating Nodes / Systematic Branches representing components of a "学说" -->
+    <!-- Top Apex Node -->
+    <circle cx="120" cy="45" r="10" fill="#E5C07B"/>
+    <circle cx="120" cy="45" r="5" fill="#1A1D24"/>
+    
+    <!-- Left Branch Node -->
+    <path d="M120 75 L85 65" stroke="#E5C07B" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="80" cy="63" r="7" fill="#E5C07B"/>
+    
+    <!-- Right Branch Node -->
+    <path d="M120 90 L155 80" stroke="#E5C07B" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="160" cy="78" r="7" fill="#E5C07B"/>
+
+    <!-- Lower Branch Node -->
+    <path d="M120 100 L95 110" stroke="#E5C07B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="91" cy="112" r="5" fill="#98C379"/>
+    
+    <path d="M120 100 L145 110" stroke="#E5C07B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="149" cy="112" r="5" fill="#98C379"/>
+
+    <!-- Subtle Ground Glow / Focal highlight -->
+    <ellipse cx="120" cy="180" rx="55" ry="6" fill="#61AFEF" opacity="0.15"/>
+  </g>
+</svg>

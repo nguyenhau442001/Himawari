@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Street Path -->
+  <path d="M0 180 L240 180 L240 200 L0 200 Z" fill="#2D343E"/>
+  
+  <!-- Character: Police Officer -->
+  <g transform="translate(100, 100)">
+    <!-- Body -->
+    <path d="M20 80 L40 80 L35 120 L25 120 Z" fill="#FFB84D"/>
+    <!-- Head -->
+    <circle cx="30" cy="60" r="12" fill="#FFB84D"/>
+    <!-- Hat -->
+    <path d="M18 52 L42 52 L40 45 L20 45 Z" fill="#4A90E2"/>
+    <!-- Legs (Walking) -->
+    <path d="M25 120 L20 150 M35 120 L40 150" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+    <!-- Arms (Swing) -->
+    <path d="M20 90 L10 110 M40 90 L50 110" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion Lines -->
+  <path d="M80 120 Q70 110 60 120" stroke="#4A90E2" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M70 130 Q60 120 50 130" stroke="#4A90E2" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Flashlight Beam -->
+  <path d="M140 110 L200 80 L200 140 Z" fill="#FFB84D" opacity="0.3"/>
+  
+  <!-- Street Lamp (Static Context) -->
+  <rect x="200" y="50" width="4" height="130" fill="#7F8C8D"/>
+  <circle cx="202" cy="50" r="10" fill="#FFB84D" opacity="0.6"/>
+</svg>

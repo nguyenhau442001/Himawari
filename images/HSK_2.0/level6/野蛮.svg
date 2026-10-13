@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "野蛮" (Savage/Barbaric) through a contrast of chaotic destruction vs. order -->
+  <!-- Chaotic/Savage side -->
+  <path d="M60 120 L90 80 L120 120 L100 160 Z" fill="#FF5722" opacity="0.8"/>
+  <path d="M70 130 L110 130 L90 170 Z" fill="#FF9800"/>
+  <path d="M85 90 L95 90 L95 110 L85 110 Z" fill="#FFC107"/>
+  
+  <!-- Calm/Civilized side (The contrast) -->
+  <rect x="150" y="80" width="40" height="80" rx="4" fill="#4CAF50" opacity="0.3"/>
+  <rect x="160" y="90" width="20" height="10" rx="2" fill="#E0E0E0"/>
+  <rect x="160" y="110" width="20" height="10" rx="2" fill="#E0E0E0"/>
+  <rect x="160" y="130" width="20" height="10" rx="2" fill="#E0E0E0"/>
+  
+  <!-- Dividing line to emphasize the contrast of "Savage" behavior -->
+  <line x1="135" y1="60" x2="135" y2="180" stroke="#37474F" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Abstract representation of a destructive force vs a structured form -->
+  <path d="M40 180 Q60 150 80 180 T120 180" stroke="#FF5722" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M140 180 L200 180" stroke="#4CAF50" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
