@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sky Glow -->
+  <radialGradient id="skyGlow" cx="120" cy="140" r="80" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#FF9F1C" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#1A1D24" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="120" cy="140" r="80" fill="url(#skyGlow)"/>
+
+  <!-- The Setting Sun (夕阳) -->
+  <path d="M65 140 A55 55 0 0 1 175 140 Z" fill="#FF9F1C"/>
+  <path d="M80 140 A40 40 0 0 1 160 140 Z" fill="#FFBF69"/>
+
+  <!-- Sea Surface -->
+  <path d="M0 140 H240 V216 C240 229.255 229.255 240 216 240 H24 V240 C10.7452 240 0 229.255 0 216 V140 Z" fill="#1E2A38"/>
+  
+  <!-- Water Reflections -->
+  <rect x="85" y="150" width="70" height="4" rx="2" fill="#FF9F1C" opacity="0.8"/>
+  <rect x="95" y="162" width="50" height="4" rx="2" fill="#FF9F1C" opacity="0.6"/>
+  <rect x="105" y="174" width="30" height="4" rx="2" fill="#FF9F1C" opacity="0.4"/>
+  <rect x="112" y="186" width="16" height="4" rx="2" fill="#FF9F1C" opacity="0.2"/>
+
+  <!-- Subtle Wave Lines -->
+  <path d="M30 160 H60" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+  <path d="M180 175 H210" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40 190 H80" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+  <path d="M160 205 H200" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Horizon Line -->
+  <line x1="0" y1="140" x2="240" y2="140" stroke="#FF9F1C" stroke-width="0.5" opacity="0.3"/>
+</svg>

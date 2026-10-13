@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground surface -->
+  <path d="M40 180 L200 180 L200 185 L40 185 Z" fill="#374151"/>
+  
+  <!-- The "hole" or depression -->
+  <path d="M80 180 Q120 220 160 180" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Character body (sinking/falling into the depression) -->
+  <g transform="translate(120, 160)">
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="12" fill="#E5E7EB"/>
+    <!-- Body -->
+    <path d="M-8 -18 L8 -18 L5 10 L-5 10 Z" fill="#E5E7EB"/>
+    <!-- Arms (reaching out/in) -->
+    <path d="M-10 -15 L-20 -5" stroke="#E5E7EB" stroke-width="4" stroke-linecap="round"/>
+    <path d="M10 -15 L20 -5" stroke="#E5E7EB" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs (partially submerged) -->
+    <path d="M-4 10 L-8 25" stroke="#E5E7EB" stroke-width="4" stroke-linecap="round"/>
+    <path d="M4 10 L8 25" stroke="#E5E7EB" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion lines indicating downward movement -->
+  <path d="M110 120 L110 135" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M130 125 L130 140" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Thought bubbles/abstract representation of "deep thought" -->
+  <circle cx="150" cy="80" r="6" fill="#4B5563"/>
+  <circle cx="165" cy="70" r="8" fill="#4B5563"/>
+  <circle cx="185" cy="65" r="10" fill="#4B5563"/>
+</svg>

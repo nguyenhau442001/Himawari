@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Floor Surface Gradient/Shadow -->
+  <ellipse cx="120" cy="180" rx="90" ry="25" fill="#14171D"/>
+  <rect x="30" y="165" width="180" height="4" rx="2" fill="#2A2F3B"/>
+
+  <!-- Bread Slices (Background Context) -->
+  <g transform="translate(145, 105)">
+    <!-- Back bread slice -->
+    <path d="M 25 10 C 35 10, 45 20, 45 35 C 45 50, 35 60, 20 60 C 5 60, -5 50, -5 35 C -5 20, 10 10, 25 10 Z" fill="#D48B47" opacity="0.4"/>
+    <path d="M 25 14 C 33 14, 41 22, 41 35 C 41 48, 33 56, 20 56 C 7 56, -1 48, -1 35 C -1 22, 12 14, 25 14 Z" fill="#E8B972" opacity="0.4"/>
+  </g>
+
+  <!-- Main Bread Slice (Right Foreground) -->
+  <g transform="translate(130, 95) rotate(15)">
+    <!-- Crust -->
+    <path d="M 30 10 C 45 10, 60 22, 60 40 C 60 58, 45 70, 25 70 C 5 70, -10 55, -10 38 C -10 20, 10 10, 30 10 Z" fill="#C17333"/>
+    <!-- Soft inner -->
+    <path d="M 30 15 C 42 15, 54 25, 54 40 C 54 55, 42 64, 25 64 C 8 64, -4 52, -4 38 C -4 24, 12 15, 30 15 Z" fill="#F4D084"/>
+    <!-- Bread holes texture -->
+    <circle cx="20" cy="35" r="2.5" fill="#E2BA65" opacity="0.7"/>
+    <circle cx="35" cy="45" r="2" fill="#E2BA65" opacity="0.7"/>
+    <circle cx="15" cy="50" r="1.5" fill="#E2BA65" opacity="0.7"/>
+    <circle cx="38" cy="28" r="1.5" fill="#E2BA65" opacity="0.7"/>
+  </g>
+
+  <!-- Bread Crumbs (屑 - Focus Object) -->
+  <!-- Central cluster of crumbs scattered on the floor -->
+  
+  <!-- Crumb 1 (Large golden) -->
+  <path d="M 85 162 C 89 160, 93 163, 94 167 C 95 171, 91 174, 87 173 C 83 172, 81 165, 85 162 Z" fill="#E8B972"/>
+  <path d="M 86 163 C 89 162, 92 164, 92 167 C 93 170, 90 172, 87 171 C 84 170, 83 165, 86 163 Z" fill="#F8E3B0"/>
+
+  <!-- Crumb 2 (Medium angular) -->
+  <path d="M 112 155 C 117 153, 120 158, 118 162 C 116 166, 110 165, 108 160 C 106 155, 108 157, 112 155 Z" fill="#D48B47"/>
+  
+  <!-- Crumb 3 (Tiny speck) -->
+  <circle cx="98" cy="168" r="2" fill="#E8B972"/>
+
+  <!-- Crumb 4 (Scattered left) -->
+  <path d="M 68 167 C 71 165, 74 168, 73 171 C 72 174, 67 175, 65 172 C 63 169, 65 169, 68 167 Z" fill="#E8B972"/>
+  
+  <!-- Crumb 5 (Tiny speck) -->
+  <circle cx="78" cy="173" r="1.5" fill="#C17333"/>
+
+  <!-- Crumb 6 (Scattered foreground center-right) -->
+  <path d="M 128 168 C 133 167, 136 170, 134 174 C 132 178, 126 177, 125 173 C 124 169, 123 169, 128 168 Z" fill="#F4D084"/>
+  <circle cx="121" cy="171" r="1" fill="#C17333"/>
+
+  <!-- Crumb 7 (Tiny speck right) -->
+  <circle cx="145" cy="170" r="2.5" fill="#D48B47"/>
+  <circle cx="152" cy="173" r="1.5" fill="#E8B972"/>
+
+  <!-- Highlight accent on main crumb focus area -->
+  <circle cx="90" cy="140" r="45" fill="none" stroke="#E8B972" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.25" stroke-linecap="round"/>
+
+</svg>

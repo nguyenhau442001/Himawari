@@ -1,0 +1,62 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Subtle Grid / Elements for Modern Dark Theme -->
+  <path d="M40 190H200" stroke="#2A2F3A" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Motion lines for dynamic action -->
+  <path d="M90 95 C100 85 110 85 120 95" stroke="#FFA726" stroke-width="2" stroke-dasharray="3 3" fill="none" opacity="0.6"/>
+  <path d="M125 105 C135 95 145 95 155 105" stroke="#FFA726" stroke-width="2" stroke-dasharray="3 3" fill="none" opacity="0.6"/>
+
+  <!-- Document / Task Object being supported/completed -->
+  <g transform="translate(95, 110)">
+    <!-- Paper base -->
+    <rect x="0" y="0" width="50" height="60" rx="4" fill="#CFD8DC"/>
+    <!-- Paper header line -->
+    <rect x="8" y="10" width="25" height="6" rx="3" fill="#90A4AE"/>
+    <!-- Content lines -->
+    <rect x="8" y="24" width="34" height="4" rx="2" fill="#B0BEC5"/>
+    <rect x="8" y="33" width="28" height="4" rx="2" fill="#B0BEC5"/>
+    <rect x="8" y="42" width="20" height="4" rx="2" fill="#B0BEC5"/>
+    <!-- Checkmark indicator of completion -->
+    <circle cx="36" cy="44" r="8" fill="#4CAF50"/>
+    <path d="M32 44L35 47L41 40" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Character 1 (Colleague / Receiver - Sitting/Working) -->
+  <g transform="translate(130, 95)">
+    <!-- Chair back -->
+    <rect x="40" y="25" width="8" height="65" rx="4" fill="#37474F"/>
+    <!-- Body / Torso -->
+    <path d="M25 45 C25 35 45 35 50 45 L55 90 L10 90 Z" fill="#5C6BC0"/>
+    <!-- Head -->
+    <circle cx="35" cy="20" rx="12" fill="#FFCCBC"/>
+    <!-- Hair -->
+    <path d="M23 18 C23 10 47 10 47 18 C47 15 40 8 35 8 C30 8 23 15 23 18 Z" fill="#37474F"/>
+    <!-- Arm reaching out -->
+    <path d="M45 45 L15 55" stroke="#FFCCBC" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hand -->
+    <circle cx="12" cy="56" r="4" fill="#FFCCBC"/>
+  </g>
+
+  <!-- Character 2 (Helper / Active Agent - "他主动协助") -->
+  <g transform="translate(45, 80)">
+    <!-- Torso -->
+    <path d="M35 45 C35 32 65 32 70 45 L75 105 L25 105 Z" fill="#FFA726"/>
+    <!-- Head -->
+    <circle cx="50" cy="20" rx="12" fill="#FFE0B2"/>
+    <!-- Hair -->
+    <path d="M38 18 C38 8 62 8 62 18 C62 14 55 6 50 6 C45 6 38 14 38 18 Z" fill="#4E342E"/>
+    <!-- Active Arm Reaching Forward to Assist -->
+    <path d="M60 45 C75 55 85 65 95 65" stroke="#FFE0B2" stroke-width="8" stroke-linecap="round"/>
+    <!-- Supporting Hand interacting directly with task/colleague -->
+    <circle cx="97" cy="65" r="5" fill="#FFE0B2"/>
+    
+    <!-- Secondary Supporting Arm -->
+    <path d="M40 50 C45 60 55 70 65 75" stroke="#F57C00" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Focus / Accent Ring or Ground line to anchor scene -->
+  <ellipse cx="120" cy="190" rx="90" ry="4" fill="#111318"/>
+</svg>

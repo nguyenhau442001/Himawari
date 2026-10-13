@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Road -->
+  <path d="M20 190 Q120 180 220 190 L220 210 Q120 200 20 210 Z" fill="#2D3748"/>
+  
+  <!-- Small Town Buildings -->
+  <!-- Building 1 (Left - Traditional style) -->
+  <rect x="50" y="130" width="45" height="60" fill="#E2E8F0"/>
+  <path d="M45 130 L72.5 105 L100 130 Z" fill="#4A5568"/>
+  <rect x="60" y="145" width="10" height="10" rx="1" fill="#FFB347"/>
+  <rect x="75" y="145" width="10" height="10" rx="1" fill="#FFB347"/>
+  <rect x="65" y="170" width="15" height="20" rx="1" fill="#718096"/>
+
+  <!-- Building 2 (Center-Right - Small Shop/House) -->
+  <rect x="105" y="140" width="55" height="50" fill="#CBD5E0"/>
+  <rect x="100" y="135" width="65" height="8" rx="2" fill="#4A5568"/>
+  <rect x="115" y="155" width="12" height="12" rx="1" fill="#FFB347"/>
+  <rect x="135" y="155" width="12" height="12" rx="1" fill="#FFB347"/>
+  <rect x="120" y="175" width="25" height="15" rx="1" fill="#A0AEC0"/>
+
+  <!-- Building 3 (Far Right - Smaller) -->
+  <rect x="165" y="150" width="30" height="40" fill="#E2E8F0"/>
+  <path d="M162 150 L180 135 L198 150 Z" fill="#4A5568"/>
+  <rect x="175" y="160" width="10" height="10" rx="1" fill="#FFB347"/>
+
+  <!-- Nature Elements -->
+  <rect x="35" y="165" width="4" height="25" fill="#718096"/>
+  <circle cx="37" cy="155" r="12" fill="#48BB78"/>
+  <circle cx="205" cy="175" r="10" fill="#38A169"/>
+  <rect x="203" y="185" width="4" height="5" fill="#718096"/>
+
+  <!-- Street Lamp -->
+  <rect x="100" y="155" width="2" height="35" fill="#718096"/>
+  <circle cx="101" cy="155" r="4" fill="#FFB347" opacity="0.8"/>
+  <circle cx="101" cy="155" r="8" fill="#FFB347" opacity="0.2"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- The Trap (The "Gài bẫy" element) -->
+  <g transform="translate(120, 160)">
+    <path d="M-40 0 L40 0 L30 -10 L-30 -10 Z" fill="#4A5568"/>
+    <path d="M-30 -10 L-30 -40 L-20 -40 L-20 -10 M30 -10 L30 -40 L20 -40 L20 -10" fill="#718096"/>
+    <path d="M-30 -40 L30 -40" stroke="#E53E3E" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- The Victim (The person being trapped) -->
+  <g transform="translate(120, 120)">
+    <circle cx="0" cy="-60" r="15" fill="#F7FAFC"/>
+    <path d="M-20 -45 L20 -45 L15 -10 L-15 -10 Z" fill="#F7FAFC"/>
+    <path d="M-15 -10 L-25 30 M15 -10 L25 30" stroke="#F7FAFC" stroke-width="8" stroke-linecap="round"/>
+    <!-- Motion lines for falling -->
+    <path d="M0 -80 L0 -100" stroke="#A0AEC0" stroke-width="2" stroke-dasharray="4 4"/>
+    <path d="M10 -75 L20 -90" stroke="#A0AEC0" stroke-width="2" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- The Perpetrator (The one causing the harm) -->
+  <g transform="translate(180, 120)">
+    <circle cx="0" cy="-60" r="15" fill="#ED8936"/>
+    <path d="M-20 -45 L20 -45 L15 -10 L-15 -10 Z" fill="#ED8936"/>
+    <!-- Hand pointing towards the trap -->
+    <path d="M-20 -30 L-50 -30" stroke="#ED8936" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-50 -30 L-60 -40" stroke="#ED8936" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

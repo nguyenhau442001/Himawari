@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table Surface -->
+  <rect x="40" y="160" width="160" height="12" rx="4" fill="#343A46"/>
+  
+  <!-- The "Ready-made" Meal (Bowl) -->
+  <path d="M80 160 C80 185, 160 185, 160 160 Z" fill="#FFB347"/>
+  
+  <!-- Steam/Heat lines indicating freshness/readiness -->
+  <path d="M105 145 Q100 135 105 125" stroke="#FFB347" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M120 140 Q115 130 120 120" stroke="#FFB347" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M135 145 Q130 135 135 125" stroke="#FFB347" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Food inside -->
+  <circle cx="100" cy="165" r="8" fill="#E0E0E0"/>
+  <circle cx="120" cy="162" r="10" fill="#E0E0E0"/>
+  <circle cx="140" cy="165" r="8" fill="#E0E0E0"/>
+  
+  <!-- Hand gesture indicating "it's right there / ready" -->
+  <path d="M170 120 L190 100 L205 115 L185 135 Z" fill="#FFD580"/>
+  <path d="M185 135 L195 145" stroke="#FFD580" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Contrast element: The "Ready" state vs "Preparation" (Empty pot/raw ingredients implied by absence) -->
+  <!-- A simple checkmark-like gesture or pointing finger to emphasize the "ready-made" quality -->
+  <path d="M190 95 L195 85 L205 95" stroke="#FFB347" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

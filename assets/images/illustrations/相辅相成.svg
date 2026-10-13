@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Gear 1 (Theory/Blue) -->
+  <g transform="translate(85, 120)">
+    <circle cx="0" cy="0" r="35" fill="#2D3436" stroke="#3498DB" stroke-width="8"/>
+    <path d="M-45 -5 L-45 5 L-35 5 L-35 -5 Z M45 -5 L45 5 L35 5 L35 -5 Z M-5 -45 L5 -45 L5 -35 L-5 -35 Z M-5 45 L5 45 L5 35 L-5 35 Z M-32 -32 L-25 -25 L-32 -18 L-39 -25 Z M32 32 L25 25 L32 18 L39 25 Z M-32 32 L-25 25 L-18 32 L-25 39 Z M32 -32 L25 -25 L18 -32 L25 -39 Z" fill="#3498DB"/>
+    <circle cx="0" cy="0" r="15" fill="#1A1D24"/>
+  </g>
+
+  <!-- Gear 2 (Practice/Gold) -->
+  <g transform="translate(155, 120)">
+    <circle cx="0" cy="0" r="35" fill="#2D3436" stroke="#F1C40F" stroke-width="8"/>
+    <path d="M-45 -5 L-45 5 L-35 5 L-35 -5 Z M45 -5 L45 5 L35 5 L35 -5 Z M-5 -45 L5 -45 L5 -35 L-5 -35 Z M-5 45 L5 45 L5 35 L-5 35 Z M-32 -32 L-25 -25 L-32 -18 L-39 -25 Z M32 32 L25 25 L32 18 L39 25 Z M-32 32 L-25 25 L-18 32 L-25 39 Z M32 -32 L25 -25 L18 -32 L25 -39 Z" fill="#F1C40F"/>
+    <circle cx="0" cy="0" r="15" fill="#1A1D24"/>
+  </g>
+
+  <!-- Connection/Interaction -->
+  <path d="M120 120 L120 120" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

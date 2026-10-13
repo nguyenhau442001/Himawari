@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Hanging String -->
+  <line x1="120" y1="30" x2="120" y2="55" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Top Cap -->
+  <rect x="95" y="55" width="50" height="12" rx="4" fill="#FFB703"/>
+  
+  <!-- Lantern Body -->
+  <path d="M70 115C70 80 92.3858 67 120 67C147.614 67 170 80 170 115C170 150 147.614 163 120 163C92.3858 163 70 150 70 115Z" fill="#E63946"/>
+  
+  <!-- Lantern Segments/Ribs -->
+  <path d="M95 67.5C85 80 85 150 95 162.5" fill="none" stroke="#C1272D" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M145 67.5C155 80 155 150 145 162.5" fill="none" stroke="#C1272D" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="120" y1="67" x2="120" y2="163" stroke="#C1272D" stroke-width="2.5"/>
+  
+  <!-- Bottom Cap -->
+  <rect x="95" y="163" width="50" height="12" rx="4" fill="#FFB703"/>
+  
+  <!-- Decorative Knot -->
+  <rect x="114" y="175" width="12" height="12" rx="2" transform="rotate(45 120 181)" fill="#FFD60A"/>
+  
+  <!-- Tassel -->
+  <g>
+    <line x1="112" y1="185" x2="112" y2="215" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+    <line x1="116" y1="185" x2="116" y2="218" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+    <line x1="120" y1="185" x2="120" y2="220" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+    <line x1="124" y1="185" x2="124" y2="218" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+    <line x1="128" y1="185" x2="128" y2="215" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Highlight on Body -->
+  <path d="M140 85C150 95 155 110 155 120" fill="none" stroke="#F1FAEE" stroke-width="3" stroke-linecap="round" opacity="0.2"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character Body -->
+  <path d="M120 80c-15 0-25 10-25 25v60c0 5 5 10 10 10h30c5 0 10-5 10-10v-60c0-15-10-25-25-25z" fill="#FFB84D"/>
+  
+  <!-- Motion Lines (Action) -->
+  <path d="M160 90c10 5 15 15 15 25" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+  <path d="M165 100c10 5 15 15 15 25" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Sweat Drops (Visualizing consumption of energy) -->
+  <path d="M145 95c0 5-3 8-5 8s-5-3-5-8 5-10 5-10 5 5 5 10z" fill="#4DA6FF"/>
+  <path d="M155 105c0 5-3 8-5 8s-5-3-5-8 5-10 5-10 5 5 5 10z" fill="#4DA6FF"/>
+  
+  <!-- Legs in motion -->
+  <path d="M105 175l-10 30" stroke="#FFB84D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M135 175l10 30" stroke="#FFB84D" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Arms in motion -->
+  <path d="M95 110l-20 20" stroke="#FFB84D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M145 110l20 20" stroke="#FFB84D" stroke-width="10" stroke-linecap="round"/>
+</svg>

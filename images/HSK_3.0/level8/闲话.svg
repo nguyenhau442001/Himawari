@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Gossipers representation -->
+  <g transform="translate(40, 80)">
+    <!-- Person 1 -->
+    <path d="M30 120c0-15 10-25 25-25s25 10 25 25v40H30z" fill="#4A5568"/>
+    <circle cx="55" cy="75" r="15" fill="#E2E8F0"/>
+    
+    <!-- Speech bubble pointing to Person 2 -->
+    <path d="M70 70 L100 50 L100 90 Z" fill="#F6AD55"/>
+  </g>
+  
+  <g transform="translate(120, 80)">
+    <!-- Person 2 -->
+    <path d="M30 120c0-15 10-25 25-25s25 10 25 25v40H30z" fill="#4A5568"/>
+    <circle cx="55" cy="75" r="15" fill="#E2E8F0"/>
+    
+    <!-- Hand gesture covering mouth (Whispering) -->
+    <path d="M55 85 L70 75 L65 70 Z" fill="#E2E8F0"/>
+  </g>
+  
+  <!-- Floating "chatter" icons (abstract speech bubbles) -->
+  <path d="M160 60c0-5 4-9 9-9h22c5 0 9 4 9 9v12c0 5-4 9-9 9h-10l-8 8-4-8h-8c-5 0-9-4-9-9z" fill="#F6AD55" opacity="0.6"/>
+  <path d="M180 40c0-3 2-5 5-5h12c3 0 5 2 5 5v7c0 3-2 5-5 5h-6l-4 4-2-4h-4c-3 0-5-2-5-5z" fill="#F6AD55" opacity="0.4"/>
+</svg>

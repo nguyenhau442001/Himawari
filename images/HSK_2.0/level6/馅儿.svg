@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Dumpling skin (partially open) -->
+  <path d="M120 60 C 60 60, 60 180, 120 180 C 180 180, 180 60, 120 60 Z" fill="#F2F2F2" stroke="#333" stroke-width="2"/>
+  <path d="M120 60 C 150 60, 180 90, 180 120 C 180 150, 150 180, 120 180" fill="#E0E0E0" stroke="#333" stroke-width="2"/>
+  
+  <!-- The Filling (Xiànr) - Minced Meat Texture -->
+  <g>
+    <circle cx="135" cy="100" r="12" fill="#FF9F1C"/>
+    <circle cx="150" cy="120" r="15" fill="#FF9F1C"/>
+    <circle cx="130" cy="140" r="10" fill="#FF9F1C"/>
+    <circle cx="145" cy="155" r="8" fill="#FF9F1C"/>
+    <circle cx="160" cy="140" r="12" fill="#FF9F1C"/>
+    
+    <!-- Texture details -->
+    <circle cx="135" cy="100" r="4" fill="#D68910"/>
+    <circle cx="150" cy="120" r="5" fill="#D68910"/>
+    <circle cx="160" cy="140" r="4" fill="#D68910"/>
+  </g>
+  
+  <!-- Steam/Visual emphasis -->
+  <path d="M140 70 Q 150 50 140 40" stroke="#5D6D7E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M160 80 Q 170 60 160 50" stroke="#5D6D7E" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

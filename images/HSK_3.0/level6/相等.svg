@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Scales/Balance representation through human action -->
+  <!-- Left character -->
+  <g transform="translate(40, 120)">
+    <circle cx="30" cy="20" r="12" fill="#FFB86C"/>
+    <path d="M30 32 L30 70 M30 45 L15 60 M30 45 L45 60 M30 70 L20 100 M30 70 L40 100" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+    <rect x="10" y="100" width="40" height="10" rx="2" fill="#E0E0E0"/>
+  </g>
+  
+  <!-- Right character -->
+  <g transform="translate(150, 120)">
+    <circle cx="30" cy="20" r="12" fill="#FFB86C"/>
+    <path d="M30 32 L30 70 M30 45 L15 60 M30 45 L45 60 M30 70 L20 100 M30 70 L40 100" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+    <rect x="10" y="100" width="40" height="10" rx="2" fill="#E0E0E0"/>
+  </g>
+  
+  <!-- The Balance Beam -->
+  <path d="M70 110 L170 110" stroke="#50FA7B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 110 L120 150" stroke="#50FA7B" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Motion lines indicating stability/level -->
+  <path d="M80 100 L90 90" stroke="#50FA7B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M150 100 L160 90" stroke="#50FA7B" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/vignette -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.5"/>
+
+  <!-- Magnifying Glass (Investigative theme for "Clue / Đầu mối") -->
+  <!-- Magnifying glass body / handle -->
+  <g transform="rotate(-45 120 120)">
+    <!-- Handle -->
+    <rect x="112" y="140" width="16" height="50" rx="8" fill="#F2994A"/>
+    <!-- Handle grip lines -->
+    <line x1="116" y1="155" x2="124" y2="155" stroke="#D07A2B" stroke-width="2" stroke-linecap="round"/>
+    <line x1="116" y1="165" x2="124" y2="165" stroke="#D07A2B" stroke-width="2" stroke-linecap="round"/>
+    <line x1="116" y1="175" x2="124" y2="175" stroke="#D07A2B" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Lens Rim (Outer gold frame) -->
+    <circle cx="120" cy="90" r="46" fill="#F2994A"/>
+    <!-- Lens Glass (Inner dark area) -->
+    <circle cx="120" cy="90" r="38" fill="#161920"/>
+    
+    <!-- Glass reflection highlight -->
+    <path d="M 98 70 A 30 30 0 0 1 138 65" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.3"/>
+  </g>
+
+  <!-- Physical Object representing "线索" (A glowing puzzle piece & thread inside the lens view) -->
+  <g transform="translate(120, 107)">
+    <!-- Curving connecting thread/line -->
+    <path d="M -25 -5 Q -10 -25 15 -10 T 25 15" stroke="#2F80ED" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Glowing puzzle piece (Clue) -->
+    <path d="M -6,-10 
+             C -6,-15 -12,-15 -12,-20 
+             C -12,-25 -6,-25 -6,-30 
+             L 6,-30 
+             C 6,-25 12,-25 12,-20 
+             C 12,-15 6,-15 6,-10 
+             Z" fill="#F2C94C" transform="translate(2, 5) scale(0.9)"/>
+             
+    <!-- Footprint / Physical evidence icon -->
+    <path d="M -12, 10 C -12, 4 -8, 2 -5, 5 C -2, 8 0, 15 -5, 18 C -10, 21 -12, 16 -12, 10 Z" fill="#E0E6ED" opacity="0.9"/>
+    <circle cx="5" cy="5" r="2" fill="#E0E6ED" opacity="0.9"/>
+    <circle cx="9" cy="9" r="1.5" fill="#E0E6ED" opacity="0.9"/>
+    <circle cx="7" cy="14" r="1.5" fill="#E0E6ED" opacity="0.9"/>
+  </g>
+</svg>
