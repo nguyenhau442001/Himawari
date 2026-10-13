@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for context -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Wall Clock representing "10:00 PM" (until 10) -->
+  <circle cx="120" cy="110" r="64" fill="#2D323E" stroke="#E5C158" stroke-width="4"/>
+  
+  <!-- Clock Inner Details -->
+  <circle cx="120" cy="110" r="56" fill="#1A1D24"/>
+  
+  <!-- Hour Markers -->
+  <line x1="120" y1="58" x2="120" y2="64" stroke="#8C93A3" stroke-width="3" stroke-linecap="round"/>
+  <line x1="120" y1="156" x2="120" y2="162" stroke="#8C93A3" stroke-width="3" stroke-linecap="round"/>
+  <line x1="68" y1="110" x2="74" y2="110" stroke="#8C93A3" stroke-width="3" stroke-linecap="round"/>
+  <line x1="166" y1="110" x2="172" y2="110" stroke="#8C93A3" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Clock Hands pointing strictly to 10:00 (Hour hand at 10, Minute hand at 12) -->
+  <line x1="120" y1="110" x2="120" y2="76" stroke="#E5C158" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="110" x2="94" y2="92" stroke="#F0F3F9" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="110" r="5" fill="#E5C158"/>
+
+  <!-- Nighttime indicator: Moon & Star subtly integrated at the top -->
+  <path d="M185 55 A 16 16 0 0 1 170 70 A 18 18 0 0 0 195 65 A 16 16 0 0 1 185 55 Z" fill="#E5C158" opacity="0.8"/>
+  <polygon points="55,60 58,68 66,70 58,72 55,80 52,72 44,70 52,68" fill="#E5C158" opacity="0.6" transform="scale(0.6) translate(30,30)"/>
+
+  <!-- Arrow pointing downwards/reaching a destination or endpoint ("until / zhidao") -->
+  <path d="M120 182 L120 206 M110 196 L120 208 L130 196" fill="none" stroke="#E5C158" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Base platform line representing the threshold/limit -->
+  <line x1="80" y1="208" x2="160" y2="208" stroke="#E5C158" stroke-width="4" stroke-linecap="round"/>
+</svg>

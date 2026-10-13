@@ -24462,15 +24462,175 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/选.svg",
     "caption": "chọn"
   },
+  "牙": {
+    "file": "牙.svg",
+    "src": "images/HSK_3.0/level3/牙.svg",
+    "caption": "răng"
+  },
+  "牙刷": {
+    "file": "牙刷.svg",
+    "src": "images/HSK_3.0/level3/牙刷.svg",
+    "caption": "bàn chải đánh răng"
+  },
   "羊": {
     "file": "羊.svg",
     "src": "images/HSK_3.0/level3/羊.svg",
     "caption": "dê, cừu"
   },
+  "养": {
+    "file": "养.svg",
+    "src": "images/HSK_3.0/level3/养.svg",
+    "caption": "nuôi"
+  },
   "一块儿": {
     "file": "一块儿.svg",
     "src": "images/HSK_3.0/level3/一块儿.svg",
     "caption": "cùng nhau; chỗ"
+  },
+  "以后": {
+    "file": "以后.svg",
+    "src": "images/HSK_3.0/level3/以后.svg",
+    "caption": "sau này, sau khi"
+  },
+  "以上": {
+    "file": "以上.svg",
+    "src": "images/HSK_3.0/level3/以上.svg",
+    "caption": "trở lên, trên"
+  },
+  "以外": {
+    "file": "以外.svg",
+    "src": "images/HSK_3.0/level3/以外.svg",
+    "caption": "ngoài, ngoài ra"
+  },
+  "以下": {
+    "file": "以下.svg",
+    "src": "images/HSK_3.0/level3/以下.svg",
+    "caption": "dưới, trở xuống; sau đây"
+  },
+  "银行卡": {
+    "file": "银行卡.svg",
+    "src": "images/HSK_3.0/level3/银行卡.svg",
+    "caption": "thẻ ngân hàng"
+  },
+  "邮件": {
+    "file": "邮件.svg",
+    "src": "images/HSK_3.0/level3/邮件.svg",
+    "caption": "thư; email"
+  },
+  "游客": {
+    "file": "游客.svg",
+    "src": "images/HSK_3.0/level3/游客.svg",
+    "caption": "du khách"
+  },
+  "邮箱": {
+    "file": "邮箱.svg",
+    "src": "images/HSK_3.0/level3/邮箱.svg",
+    "caption": "hộp thư; hộp thư điện tử"
+  },
+  "有关": {
+    "file": "有关.svg",
+    "src": "images/HSK_3.0/level3/有关.svg",
+    "caption": "có liên quan, về"
+  },
+  "有用": {
+    "file": "有用.svg",
+    "src": "images/HSK_3.0/level3/有用.svg",
+    "caption": "có ích, hữu ích"
+  },
+  "雨衣": {
+    "file": "雨衣.svg",
+    "src": "images/HSK_3.0/level3/雨衣.svg",
+    "caption": "áo mưa"
+  },
+  "遇见": {
+    "file": "遇见.svg",
+    "src": "images/HSK_3.0/level3/遇见.svg",
+    "caption": "gặp, gặp được"
+  },
+  "园": {
+    "file": "园.svg",
+    "src": "images/HSK_3.0/level3/园.svg",
+    "caption": "vườn; khu (công viên, vườn trường)"
+  },
+  "员": {
+    "file": "员.svg",
+    "src": "images/HSK_3.0/level3/员.svg",
+    "caption": "người (làm nghề gì), viên (hậu tố)"
+  },
+  "运动会": {
+    "file": "运动会.svg",
+    "src": "images/HSK_3.0/level3/运动会.svg",
+    "caption": "đại hội thể thao"
+  },
+  "运动员": {
+    "file": "运动员.svg",
+    "src": "images/HSK_3.0/level3/运动员.svg",
+    "caption": "vận động viên"
+  },
+  "怎么办": {
+    "file": "怎么办.svg",
+    "src": "images/HSK_3.0/level3/怎么办.svg",
+    "caption": "làm sao bây giờ, phải làm thế nào"
+  },
+  "怎样": {
+    "file": "怎样.svg",
+    "src": "images/HSK_3.0/level3/怎样.svg",
+    "caption": "thế nào, ra sao"
+  },
+  "站²": {
+    "file": "站².svg",
+    "src": "images/HSK_3.0/level3/站².svg",
+    "caption": "ga, bến; đứng"
+  },
+  "照相": {
+    "file": "照相.svg",
+    "src": "images/HSK_3.0/level3/照相.svg",
+    "caption": "chụp ảnh"
+  },
+  "直到": {
+    "file": "直到.svg",
+    "src": "images/HSK_3.0/level3/直到.svg",
+    "caption": "cho đến, mãi đến"
+  },
+  "纸": {
+    "file": "纸.svg",
+    "src": "images/HSK_3.0/level3/纸.svg",
+    "caption": "giấy"
+  },
+  "只能": {
+    "file": "只能.svg",
+    "src": "images/HSK_3.0/level3/只能.svg",
+    "caption": "chỉ có thể"
+  },
+  "只是": {
+    "file": "只是.svg",
+    "src": "images/HSK_3.0/level3/只是.svg",
+    "caption": "chỉ là; có điều"
+  },
+  "只有": {
+    "file": "只有.svg",
+    "src": "images/HSK_3.0/level3/只有.svg",
+    "caption": "chỉ có"
+  },
+  "中": {
+    "file": "中.svg",
+    "src": "images/HSK_3.0/level3/中.svg",
+    "caption": "giữa, trong"
+  },
+  "住院": {
+    "file": "住院.svg",
+    "src": "images/HSK_3.0/level3/住院.svg",
+    "caption": "nằm viện, nhập viện"
+  },
+  "字典": {
+    "file": "字典.svg",
+    "src": "images/HSK_3.0/level3/字典.svg",
+    "caption": "từ điển (tự điển)"
+  },
+  "总": {
+    "file": "总.svg",
+    "src": "images/HSK_3.0/level3/总.svg",
+    "caption": "luôn, lúc nào cũng; tổng"
   },
   "量": {
     "file": "量.svg",

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Staircase structure representing the "Only if... then..." condition -->
+  <path d="M40 200 L80 200 L80 160 L120 160 L120 120 L160 120 L160 80 L200 80 L200 200 Z" fill="#2D343E"/>
+  
+  <!-- The path of progression -->
+  <path d="M40 200 L80 200 L80 160 L120 160 L120 120 L160 120 L160 80 L200 80" stroke="#FFB84D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- The "Effort" (Books) at the base -->
+  <rect x="50" y="180" width="20" height="20" rx="2" fill="#FFB84D"/>
+  <rect x="55" y="175" width="20" height="20" rx="2" fill="#FFB84D"/>
+  
+  <!-- The "Outcome" (Star/Success) at the peak -->
+  <path d="M180 60 L185 75 L200 75 L188 85 L192 100 L180 90 L168 100 L172 85 L160 75 L175 75 Z" fill="#FFB84D"/>
+  
+  <!-- Causality arrow connecting the effort to the peak -->
+  <path d="M60 170 Q120 100 180 80" stroke="#5D6D7E" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+</svg>

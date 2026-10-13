@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Backpack -->
+  <path d="M85 110h70v80a10 10 0 0 1-10 10H95a10 10 0 0 1-10-10V110z" fill="#FFB347"/>
+  <path d="M100 110v-15a20 20 0 0 1 40 0v15" fill="none" stroke="#FFB347" stroke-width="8" stroke-linecap="round"/>
+  <rect x="105" y="130" width="30" height="20" rx="5" fill="#E69E30"/>
+  
+  <!-- Camera strap -->
+  <path d="M70 140c0-40 100-40 100 0" fill="none" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Camera body -->
+  <rect x="90" y="145" width="60" height="45" rx="8" fill="#FFB347"/>
+  <circle cx="120" cy="165" r="15" fill="#1A1D24"/>
+  <circle cx="120" cy="165" r="8" fill="#FFB347"/>
+  
+  <!-- Hat (Sun hat) -->
+  <ellipse cx="120" cy="90" rx="50" ry="10" fill="#FFB347"/>
+  <path d="M80 90c0-20 15-35 40-35s40 15 40 35" fill="#FFB347"/>
+  
+  <!-- Map (partially visible) -->
+  <rect x="160" y="160" width="40" height="50" rx="4" fill="#FFB347" transform="rotate(15 180 185)"/>
+  <path d="M165 170h30M165 185h30M165 200h30" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+</svg>

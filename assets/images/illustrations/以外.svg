@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group representing the "everyone else" (the group) -->
+  <g transform="translate(120, 120)">
+    <!-- Group of 4 people standing together -->
+    <circle cx="-40" cy="0" r="15" fill="#FFB86C"/>
+    <circle cx="-15" cy="0" r="15" fill="#FFB86C"/>
+    <circle cx="15" cy="0" r="15" fill="#FFB86C"/>
+    <circle cx="40" cy="0" r="15" fill="#FFB86C"/>
+    
+    <!-- The "Except" person standing apart -->
+    <circle cx="0" cy="-60" r="18" fill="#6272A4" stroke="#1A1D24" stroke-width="4"/>
+    
+    <!-- Visual separator/boundary line indicating "outside" -->
+    <path d="M-60 -35 L60 -35" stroke="#44475A" stroke-width="2" stroke-dasharray="6 4"/>
+    
+    <!-- Arrow indicating the exclusion -->
+    <path d="M0 -40 L0 -20 M-5 -25 L0 -20 L5 -25" stroke="#FFB86C" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

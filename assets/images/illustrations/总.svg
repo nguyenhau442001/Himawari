@@ -1,0 +1,78 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow for focus -->
+  <circle cx="120" cy="115" r="70" fill="#2D323E" opacity="0.5"/>
+
+  <!-- Classroom Floor Line -->
+  <line x1="40" y1="180" x2="200" y2="180" stroke="#3A4150" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Wall Clock indicating "First / Early Arrival" (Time: 7:55, ahead of time) -->
+  <g transform="translate(120, 48)">
+    <circle cx="0" cy="0" r="22" fill="#242936" stroke="#4A5568" stroke-width="2"/>
+    <!-- Clock ticks -->
+    <line x1="0" y1="-17" x2="0" y2="-14" stroke="#718096" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="17" y1="0" x2="14" y2="0" stroke="#718096" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="0" y1="17" x2="0" y2="14" stroke="#718096" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-17" y1="0" x2="-14" y2="0" stroke="#718096" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Clock hands (showing early) -->
+    <line x1="0" y1="0" x2="0" y2="-10" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="10" y2="-4" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="2" fill="#F6AD55"/>
+  </g>
+
+  <!-- Desk & Chair -->
+  <g transform="translate(95, 130)">
+    <!-- Chair back & seat -->
+    <path d="M15 15 L15 35 M25 15 L25 35" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 20 L30 20" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <path d="M5 33 L35 33" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <!-- Desk surface -->
+    <path d="M-15 25 L45 25 L50 35 L-20 35 Z" fill="#313A48"/>
+    <line x1="-20" y1="35" x2="-20" y2="50" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="45" y1="35" x2="45" y2="50" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character (The punctual person arriving first) -->
+  <g transform="translate(90, 100)">
+    <!-- Backpack -->
+    <path d="M-8 15 C-12 15 -14 20 -14 30 C-14 38 -10 42 -8 42 Z" fill="#DD6B20"/>
+    <path d="M-14 25 L-8 23" stroke="#CBD5E0" stroke-width="1.5"/>
+
+    <!-- Body / Torso -->
+    <path d="M-5 15 L25 15 C30 15 35 25 35 45 L-15 45 C-15 25 -10 15 -5 15 Z" fill="#3182CE"/>
+
+    <!-- Head -->
+    <circle cx="10" cy="2" r="12" fill="#FEEBC8"/>
+    
+    <!-- Hair (Modern sleek flat style) -->
+    <path d="M-1 -5 C5 -9 18 -9 22 -3 C20 1 17 0 17 0 C15 -4 5 -4 0 2 Z" fill="#2D3748"/>
+
+    <!-- Arm gesturing / holding notebook -->
+    <path d="M22 25 L38 35" stroke="#FEEBC8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M30 32 L40 28 L43 35 L33 39 Z" fill="#E2E8F0"/>
+
+    <!-- Legs -->
+    <line x1="-2" y1="45" x2="-2" y2="80" stroke="#2B6CB0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="22" y1="45" x2="22" y2="80" stroke="#2B6CB0" stroke-width="6" stroke-linecap="round"/>
+    <!-- Shoes -->
+    <path d="M-8 80 L2 80 C4 80 4 82 2 84 L-8 84 C-10 84 -10 80 -8 80 Z" fill="#1A202C"/>
+    <path d="M16 80 L26 80 C28 80 28 82 26 84 L16 84 C14 84 14 80 16 80 Z" fill="#1A202C"/>
+  </g>
+
+  <!-- Focal Accent Badge / Star (representing "Always first / Number One") -->
+  <g transform="translate(185, 65)">
+    <circle cx="0" cy="0" r="18" fill="#F6AD55" opacity="0.2"/>
+    <circle cx="0" cy="0" r="14" fill="#DD6B20"/>
+    <!-- Number 1 representing 'always first' -->
+    <path d="M-2 -5 L0 -7 L2 -7 L2 6 M-2 6 L6 6" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Subtle recurring timing markers / trail to show "Always / consistently" -->
+  <g opacity="0.3" transform="translate(0, 5)">
+    <circle cx="45" cy="165" r="3" fill="#F6AD55"/>
+    <circle cx="58" cy="162" r="4" fill="#F6AD55"/>
+    <circle cx="73" cy="158" r="5" fill="#F6AD55"/>
+  </g>
+</svg>

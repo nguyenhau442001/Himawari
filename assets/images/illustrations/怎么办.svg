@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character: Confused/Concerned Person -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-30 80 L-30 40 Q-30 20 0 20 Q30 20 30 40 L30 80 Z" fill="#7D8590"/>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="25" fill="#E0E6ED"/>
+    <!-- Expression: Concerned/Thinking -->
+    <path d="M-10 -25 Q-5 -30 0 -25 Q5 -30 10 -25" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <circle cx="-8" cy="-15" r="2" fill="#1A1D24"/>
+    <circle cx="8" cy="-15" r="2" fill="#1A1D24"/>
+    
+    <!-- Hands in "What to do?" gesture -->
+    <path d="M-40 10 L-55 -10" stroke="#E0E6ED" stroke-width="8" stroke-linecap="round"/>
+    <path d="M40 10 L55 -10" stroke="#E0E6ED" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Empty Wallet / Lost Object Concept -->
+  <g transform="translate(120, 180)">
+    <rect x="-30" y="-15" width="60" height="40" rx="4" fill="#F39C12"/>
+    <rect x="-25" y="-10" width="50" height="30" rx="2" fill="#1A1D24"/>
+    <!-- Motion lines indicating emptiness/loss -->
+    <path d="M-40 -20 L-50 -30" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <path d="M40 -20 L50 -30" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Question Mark (Visual representation of the "What to do" dilemma) -->
+  <path d="M160 60 Q180 40 200 60 Q210 80 190 100 L190 110" stroke="#F39C12" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <circle cx="190" cy="125" r="4" fill="#F39C12"/>
+</svg>

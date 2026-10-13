@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle stadium/running track background elements -->
+  <ellipse cx="120" cy="140" rx="85" ry="45" fill="none" stroke="#252A34" stroke-width="6" stroke-dasharray="8 6"/>
+  
+  <!-- Podium (Pillar 1 - 2nd Place) -->
+  <rect x="72" y="145" width="32" height="40" fill="#2E3544" rx="2"/>
+  <text x="88" y="170" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#8C9BAE" text-anchor="middle">2</text>
+
+  <!-- Podium (Pillar 2 - 1st Place) -->
+  <rect x="104" y="125" width="32" height="60" fill="#E5A93B" rx="2"/>
+  <text x="120" y="152" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#1A1D24" text-anchor="middle">1</text>
+
+  <!-- Podium (Pillar 3 - 3rd Place) -->
+  <rect x="136" y="160" width="32" height="25" fill="#2E3544" rx="2"/>
+  <text x="152" y="179" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#8C9BAE" text-anchor="middle">3</text>
+
+  <!-- Ground Line -->
+  <rect x="40" y="185" width="160" height="4" fill="#3A4252" rx="2"/>
+
+  <!-- Trophy (Centerpiece representing Athletic Meet / Sports Event) -->
+  <!-- Trophy Base -->
+  <path d="M106 125 L134 125 L130 115 L110 115 Z" fill="#E5C158"/>
+  <!-- Trophy Stem -->
+  <rect x="116" y="105" width="8" height="12" fill="#E5C158"/>
+  <!-- Trophy Cup -->
+  <path d="M100 65 C100 88 140 88 140 65 L137 50 C137 46 133 42 128 42 L112 42 C107 42 103 46 103 50 Z" fill="#F4D06F"/>
+  <!-- Trophy Inner Shadow / Depth -->
+  <path d="M103 50 C103 46 107 42 112 42 L128 42 C133 42 137 46 137 50 C137 53 134 56 130 56 L110 56 C106 56 103 53 103 50 Z" fill="#E5A93B"/>
+  <!-- Trophy Handles -->
+  <path d="M100 53 C92 53 88 59 90 66 C92 72 98 72 101 68" fill="none" stroke="#F4D06F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M140 53 C148 53 152 59 150 66 C148 72 142 72 139 68" fill="none" stroke="#F4D06F" stroke-width="4" stroke-linecap="round"/>
+  <!-- Star on Trophy -->
+  <polygon points="120,62 122.5,68 129,68.5 124,72.5 125.5,79 120,75.5 114.5,79 116,72.5 111,68.5 117.5,68" fill="#FFFFFF"/>
+
+  <!-- Confetti / Festive Elements for Sports Event -->
+  <circle cx="65" cy="85" r="3" fill="#E5A93B"/>
+  <rect x="170" y="90" width="6" height="4" rx="1" fill="#FF6B6B" transform="rotate(25 173 92)"/>
+  <circle cx="165" cy="55" r="2.5" fill="#4D96FF"/>
+  <rect x="55" y="115" width="5" height="3" rx="0.5" fill="#6BCB77" transform="rotate(-15 57 116)"/>
+  <circle cx="185" cy="130" r="2" fill="#E5C158"/>
+</svg>

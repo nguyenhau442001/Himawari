@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background grid representing the scale/limit -->
+  <line x1="40" y1="160" x2="200" y2="160" stroke="#2D333B" stroke-width="2" stroke-dasharray="4 4" />
+  <line x1="40" y1="120" x2="200" y2="120" stroke="#2D333B" stroke-width="2" stroke-dasharray="4 4" />
+  <line x1="40" y1="80" x2="200" y2="80" stroke="#2D333B" stroke-width="2" stroke-dasharray="4 4" />
+  
+  <!-- Number indicator base (18+) -->
+  <rect x="85" y="145" width="70" height="30" rx="6" fill="#2D333B"/>
+  <path d="M100 160 L120 160 M110 150 L110 170" stroke="#8B949E" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="140" cy="160" r="6" fill="none" stroke="#8B949E" stroke-width="2"/>
+  <path d="M144 164 L148 168" stroke="#8B949E" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- UPWARD HIGHLIGHT ZONE (以上 - And above / 18 and older) -->
+  <rect x="60" y="50" width="120" height="80" rx="8" fill="#F0883E" fill-opacity="0.15" stroke="#F0883E" stroke-width="2" stroke-dasharray="6 4"/>
+  
+  <!-- Character representing an adult person (18+) standing proudly in the "above" zone -->
+  <!-- Head -->
+  <circle cx="120" cy="75" r="14" fill="#F0883E"/>
+  <!-- Body / Torso -->
+  <path d="M100 115 C100 98 140 98 140 115 L145 130 C145 132 143 134 140 134 L100 134 C97 134 95 132 95 130 Z" fill="#F0883E"/>
+  
+  <!-- Upward directional arrows emphasizing "and above" -->
+  <g fill="none" stroke="#F0883E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left arrow -->
+    <path d="M 45 95 L 35 85 L 25 95" />
+    <path d="M 35 115 L 35 85" />
+    <!-- Right arrow -->
+    <path d="M 195 95 L 205 85 L 215 95" />
+    <path d="M 205 115 L 205 85" />
+  </g>
+
+  <!-- Top bounding indicator line -->
+  <line x1="50" y1="45" x2="190" y2="45" stroke="#F0883E" stroke-width="3" stroke-linecap="round"/>
+</svg>

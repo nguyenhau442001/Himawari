@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Path leading to the destination (Progression/Limitation metaphor) -->
+    <path d="M 45 170 L 195 170" stroke="#2B313C" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 8"/>
+    
+    <!-- Blocked / Unavailable option (Bus/Car crossed out subtly to represent "没有车了") -->
+    <g transform="translate(65, 110)">
+      <rect x="0" y="0" width="36" height="24" rx="4" fill="#2B313C"/>
+      <circle cx="9" cy="27" r="5" fill="#1A1D24"/>
+      <circle cx="27" cy="27" r="5" fill="#1A1D24"/>
+      <!-- Subtle cross line indicating unavailable -->
+      <line x1="-4" y1="2" x2="40" y2="30" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Arrow pointing forward to the only remaining choice (Walking / Causality / Progression) -->
+    <path d="M 105 122 L 135 122" stroke="#4B5563" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 125 116 L 135 122 L 125 128" fill="none" stroke="#4B5563" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- The Single Viable Path / Choice (Person walking forward - "只能走") -->
+    <!-- Destination marker in distance -->
+    <circle cx="180" cy="122" r="6" fill="#F59E0B" opacity="0.4"/>
+    <path d="M 180 108 L 180 136" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Walking Character (Clean Modern Flat Vector) -->
+    <g transform="translate(140, 95)">
+      <!-- Head -->
+      <circle cx="16" cy="14" r="7" fill="#F3F4F6"/>
+      <!-- Body / Torso leaning slightly forward -->
+      <path d="M 16 21 L 13 38" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+      <!-- Legs (Stride motion) -->
+      <path d="M 13 37 L 5 50" stroke="#F3F4F6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 13 37 L 23 48" stroke="#F3F4F6" stroke-width="4" stroke-linecap="round"/>
+      <!-- Arms -->
+      <path d="M 15 25 L 7 33" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 15 25 L 23 31" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Visual Framing / Focus Accent representing the narrowing down of options to exactly ONE -->
+    <path d="M 50 75 L 42 75 L 42 165 L 50 165" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 190 75 L 198 75 L 198 165 L 190 165" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Focal Point Indicator (Top bracket indicating confinement to a single pathway) -->
+    <path d="M 110 65 L 120 55 L 130 65" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="120" y1="55" x2="120" y2="75" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+</svg>
