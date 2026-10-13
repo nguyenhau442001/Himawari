@@ -234,7 +234,10 @@ function checkCelebration(prevDeck) {
     if (!already || (prevDeck && prevDeck.known < prevDeck.total)) {
       try { localStorage.setItem(masterKey, 'true'); } catch (_) {}
       celebrationShown = true;
-      triggerAchievementCelebration('mastered');
+      // When in 'unseen' or 'unknown' filter, the card itself transitions to the In-Card Hero and auto-fires fireworks
+      if (currentFilter !== 'unseen' && currentFilter !== 'unknown') {
+        triggerAchievementCelebration('mastered');
+      }
       return;
     }
   }
@@ -247,7 +250,9 @@ function checkCelebration(prevDeck) {
     if (!already || (prevDeck && prevDeck.learned < prevDeck.total)) {
       try { localStorage.setItem(learnedKey, 'true'); } catch (_) {}
       celebrationShown = true;
-      triggerAchievementCelebration('learned');
+      if (currentFilter !== 'unseen') {
+        triggerAchievementCelebration('learned');
+      }
       return;
     }
   }
@@ -288,7 +293,7 @@ function triggerAchievementCelebration(type, force) {
 
   const titleText = isMastered
     ? `Tuyệt Đỉnh! Tinh Thông 100% Từ Vựng!`
-    : `Chúc Mừng! Bạn Đã Hoành Thành ${levelLabel}!`;
+    : `Chúc Mừng! Bạn Đã Hoàn Thành ${levelLabel}!`;
 
   const msgText = isMastered
     ? `Bạn đã nhớ xuất sắc toàn bộ <strong>${deck.total} / ${deck.total}</strong> từ vựng. Không còn từ nào chưa nhớ!`
@@ -359,6 +364,8 @@ function showCelebration(type, force) {
 
 window.showCelebration = showCelebration;
 window.triggerAchievementCelebration = triggerAchievementCelebration;
+window.launchConfettiFireworks = launchConfettiFireworks;
+window.playCelebrationChime = playCelebrationChime;
 window.closeCelebrationOverlay = closeCelebrationOverlay;
 window.setFilterAndCloseCelebration = setFilterAndCloseCelebration;
 function advanceAfterMark(prevWIdx) {

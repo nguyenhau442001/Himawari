@@ -284,7 +284,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 620px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
@@ -358,7 +358,12 @@
   color: var(--text-secondary, #71717a);
   line-height: 1.6;
   margin: 0 0 24px;
-  max-width: 480px;
+  max-width: 100%;
+}
+@media (min-width: 680px) {
+  .achievement-hero-desc {
+    white-space: nowrap;
+  }
 }
 .achievement-hero-desc strong {
   color: var(--text-primary, #18181b);

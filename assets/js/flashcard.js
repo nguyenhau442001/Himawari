@@ -591,6 +591,8 @@ function render(animate) {
     const levelLabel = (LEVELS[currentLevel] && LEVELS[currentLevel].label) || 'cấp độ này';
 
     if (currentFilter === 'unseen' || (deck.unseen === 0 && deck.total > 0 && currentFilter !== 'unknown' && currentFilter !== 'known')) {
+      if (typeof launchConfettiFireworks === 'function') launchConfettiFireworks();
+      if (typeof playCelebrationChime === 'function') playCelebrationChime();
       container.innerHTML = `
         <div class="achievement-hero-card">
           <div class="achievement-hero-trophy-wrap">
@@ -627,9 +629,6 @@ function render(animate) {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.8-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/></svg>
               Xáo trộn & ôn tất cả từ
             </button>
-            <button type="button" class="empty-btn empty-btn--celebrate" onclick="if (typeof triggerAchievementCelebration==='function') triggerAchievementCelebration('learned', true)">
-              🎉 Bắn pháo hoa ăn mừng
-            </button>
           </div>
         </div>`;
       return;
@@ -637,6 +636,8 @@ function render(animate) {
 
     if (currentFilter === 'unknown') {
       if (deck.known === deck.total && deck.total > 0) {
+        if (typeof launchConfettiFireworks === 'function') launchConfettiFireworks();
+        if (typeof playCelebrationChime === 'function') playCelebrationChime();
         container.innerHTML = `
           <div class="achievement-hero-card">
             <div class="achievement-hero-trophy-wrap">
@@ -651,9 +652,6 @@ function render(animate) {
             <div class="achievement-hero-actions">
               <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('all'); if (typeof shuffleDeck==='function') shuffleDeck();">
                 Ôn tập củng cố tất cả từ
-              </button>
-              <button type="button" class="empty-btn empty-btn--celebrate" onclick="if (typeof triggerAchievementCelebration==='function') triggerAchievementCelebration('mastered', true)">
-                🎉 Xem hiệu ứng ăn mừng
               </button>
             </div>
           </div>`;
