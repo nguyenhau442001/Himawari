@@ -110,8 +110,28 @@ function initSidebarTabs() {
     }
   });
 
-  setActiveTab(savedTab, false);
+  const initialUrlDrawer = window.__initialStudyDrawerParam;
+  if (initialUrlDrawer) {
+    const targetTab = ['stroke', 'words', 'companion', 'curve', 'all'].includes(initialUrlDrawer) ? initialUrlDrawer : savedTab;
+    setActiveTab(targetTab, false);
+    document.body.classList.add('study-sidebar-open');
+    let openedOnce = false;
+    if (typeof onActiveWordChange === 'function') {
+      onActiveWordChange(() => {
+        if (!openedOnce) {
+          openedOnce = true;
+          document.body.classList.add('study-sidebar-open');
+        }
+      });
+    }
+  } else {
+    setActiveTab(savedTab, false);
+  }
 }
+
+try {
+  window.__initialStudyDrawerParam = new URLSearchParams(window.location.search).get('drawer');
+} catch (e) {}
 
 window.setSidebarStudyTab = function(tabKey) {
   if (!document.getElementById('sidebarStudyTabs')) {

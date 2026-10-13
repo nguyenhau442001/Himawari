@@ -19,7 +19,14 @@ function getNextPeriodExpiry() {
   return target.getTime();
 }
 
+let initialUrlTheme = null;
+try {
+  const p = new URLSearchParams(window.location.search).get('theme');
+  if (p === 'dark' || p === 'light') initialUrlTheme = p;
+} catch (e) {}
+
 function getEffectiveTheme() {
+  if (initialUrlTheme) return initialUrlTheme;
   try {
     const urlParam = new URLSearchParams(window.location.search).get('theme');
     if (urlParam === 'dark' || urlParam === 'light') return urlParam;

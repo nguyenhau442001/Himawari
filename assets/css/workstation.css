@@ -2132,29 +2132,45 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  padding: 0 0 8px;
+  gap: 10px;
+  padding: 2px 0 12px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 2px;
   flex: 0 0 auto;
 }
+:root[data-theme="dark"] .study-drawer-header {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
 .study-drawer-title-group {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
-.study-drawer-title {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-.study-drawer-close-btn {
+.study-drawer-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 28px;
   height: 28px;
-  border-radius: var(--radius-md);
+  border-radius: 8px;
+  background: rgba(249, 115, 22, 0.14);
+  border: 1px solid rgba(249, 115, 22, 0.28);
+  font-size: 14px;
+  line-height: 1;
+}
+.study-drawer-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+.study-drawer-close-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
   border: 1px solid var(--border);
   background: var(--surface-subtle);
   color: var(--text-secondary);
@@ -2163,12 +2179,92 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   cursor: pointer;
   transition: all 0.15s ease;
   padding: 0;
-  flex: 0 0 28px;
+  flex: 0 0 30px;
+}
+:root[data-theme="dark"] .study-drawer-close-btn {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 .study-drawer-close-btn:hover {
-  background: var(--card-bg);
+  background: rgba(244, 63, 94, 0.14);
+  color: #fb7185;
+  border-color: rgba(244, 63, 94, 0.35);
+}
+
+/* Ensure study tabs & panel cards are styled on all screen sizes in study mode */
+body.flashcard-study-mode .sidebar-study-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  order: 0;
+  margin-bottom: 2px;
+  flex: 0 0 auto;
+}
+:root[data-theme="dark"] body.flashcard-study-mode .sidebar-study-tabs {
+  background: rgba(255, 255, 255, 0.035);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+body.flashcard-study-mode .sidebar-study-tab {
+  flex: 1 1 0;
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 7px 6px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 11.5px;
+  font-weight: 600;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  user-select: none;
+}
+body.flashcard-study-mode .sidebar-study-tab:hover {
   color: var(--text-primary);
-  border-color: var(--text-tertiary);
+  background: rgba(249, 115, 22, 0.08);
+}
+body.flashcard-study-mode .sidebar-study-tab.active {
+  background: var(--card-bg);
+  color: #fb923c;
+  border-color: rgba(249, 115, 22, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  font-weight: 700;
+}
+:root[data-theme="light"] body.flashcard-study-mode .sidebar-study-tab.active {
+  color: #ea580c;
+}
+body.flashcard-study-mode .sidebar-study-tab--all {
+  flex: 0 0 auto;
+  padding: 7px 9px;
+}
+
+body.flashcard-study-mode .workstation-right > .stroke-canvas-panel,
+body.flashcard-study-mode .workstation-right > .grammar-breakdown-panel,
+body.flashcard-study-mode .workstation-right > .word-companion-panel,
+body.flashcard-study-mode .workstation-right > .memory-curve-panel {
+  padding: 14px 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  width: 100%;
+  box-sizing: border-box;
+}
+:root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .stroke-canvas-panel,
+:root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .grammar-breakdown-panel,
+:root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .word-companion-panel,
+:root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .memory-curve-panel {
+  background: #1c1e2a;
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
 }
 
 /* Sidebar tab-based visibility in study mode */
@@ -2202,16 +2298,14 @@ body.flashcard-study-mode:not([data-sidebar-tab="curve"]):not([data-sidebar-tab=
   display: none !important;
 }
 
-body.flashcard-study-mode .stroke-canvas-panel { gap: 8px; }
-body.flashcard-study-mode .stroke-canvas-body { --stroke-canvas-width: 100%; width: 100%; max-width: 320px; }
-body.flashcard-study-mode .stroke-canvas-controls { gap: 8px; margin-top: 6px; width: 100%; }
-body.flashcard-study-mode .stroke-canvas-controls .stroke-ctrl-btn {
-  flex: 1 1 0; min-width: 0; padding: 7px 8px; font-size: 12px; font-weight: 600; border-radius: var(--radius-md);
-  border: 1px solid var(--border); background: var(--card-bg); color: var(--text-primary); cursor: pointer;
+body.flashcard-study-mode .stroke-canvas-panel { gap: 12px; }
+body.flashcard-study-mode .stroke-canvas-body {
+  --stroke-canvas-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
-body.flashcard-study-mode .stroke-canvas-controls .stroke-ctrl-btn.active {
-  background: var(--accent); color: #fff; border-color: var(--accent);
-}
+body.flashcard-study-mode .stroke-canvas-controls { gap: 8px; margin-top: 2px; width: 100%; }
 body.flashcard-study-mode .stroke-char-selector-wrap { margin-bottom: 6px; }
 body.flashcard-study-mode .stroke-char-pill { min-width: 36px; height: 30px; padding: 0 6px; }
 body.flashcard-study-mode .stroke-pill-char { font-size: 14px; }
