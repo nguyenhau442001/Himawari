@@ -72,17 +72,22 @@ MODELS_TO_TRY = [
     "gemini-flash-lite-latest",
     "gemini-2.5-flash",
     "gemini-3.1-flash-lite-preview",
-    "gemini-3.6-flash",
-    "gemini-flash-latest",
-    "gemini-3.5-flash",
-    "gemini-3.8-flash",
-    "gemini-3-flash-preview",
     "gemini-3.1-flash-lite",
+    "gemini-3-flash-preview",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-flash-latest",
+    "gemini-3.8-flash",
 ]
 
 
 MODEL_COOLDOWNS = {}      # (k_idx, model) -> float timestamp when cooldown expires
 PERMANENT_EXHAUSTED = set() # (k_idx, model) -> only for daily quota or 404/400
+
+def all_models_permanently_exhausted(api_keys):
+    with exhausted_lock:
+        total_possible = len(api_keys) * len(MODELS_TO_TRY)
+        return len(PERMANENT_EXHAUSTED) >= total_possible
 
 def is_model_available(k_idx, model):
     with exhausted_lock:
@@ -520,7 +525,10 @@ GENERAL CONSTRAINTS:
 
     rotated_models = MODELS_TO_TRY[model_offset % len(MODELS_TO_TRY):] + MODELS_TO_TRY[:model_offset % len(MODELS_TO_TRY)]
 
-    for attempt in range(6):
+    for attempt in range(10):
+        if all_models_permanently_exhausted(api_keys):
+            return None
+
         available_pairs = []
         for model in rotated_models:
             for k_idx, key in enumerate(api_keys):
@@ -528,7 +536,9 @@ GENERAL CONSTRAINTS:
                     available_pairs.append((k_idx, key, model))
 
         if not available_pairs:
-            time.sleep(4)
+            if all_models_permanently_exhausted(api_keys):
+                return None
+            time.sleep(3)
             continue
 
         for k_idx, key, model in available_pairs:
@@ -554,8 +564,8 @@ GENERAL CONSTRAINTS:
             except urllib.error.HTTPError as he:
                 err_body = he.read().decode("utf-8", errors="ignore")
                 if he.code == 429:
-                    is_daily = "per day" in err_body.lower() or "perday" in err_body.lower() or "daily" in err_body.lower()
-                    mark_model_throttled(k_idx, model, is_daily=is_daily, seconds=6)
+                    is_daily = "limit: 500" in err_body.lower() or "limit: 20" in err_body.lower() or "per day" in err_body.lower() or "perday" in err_body.lower() or "daily" in err_body.lower()
+                    mark_model_throttled(k_idx, model, is_daily=is_daily, seconds=5)
                     continue
                 elif he.code in (404, 400):
                     mark_model_throttled(k_idx, model, is_daily=True)
@@ -568,7 +578,7 @@ GENERAL CONSTRAINTS:
             except Exception:
                 continue
 
-        if attempt < 5:
+        if attempt < 9:
             time.sleep(2)
 
     return None
@@ -680,64 +690,94 @@ def main():
             print(f"[*] {level_label} is already 100% complete! Skipping to next level.", flush=True)
             continue
 
-        def process_word(task_info):
-            nonlocal batch_new_count, level_new, total_generated_session
-            orig_idx, item = task_info
-            hanzi = item.get("hanzi", "").strip()
-            meaning = item.get("meaning", "").strip()
-            pinyin = item.get("pinyin", "").strip()
-            pos_type, pos_label = classify_pos(meaning, hanzi)
-            item["pos"] = pos_label
+        current_missing = missing_items
+        pass_idx = 1
+        while current_missing:
+            if all_models_permanently_exhausted(api_keys):
+                print(f"[!] All candidate models reached their daily quota. Halting {level_label}.", flush=True)
+                break
 
-            out_filename = f"{hanzi}.svg"
-            flat_path = FLAT_OUTPUT_DIR / out_filename
-            images_dest = IMAGES_DIR / schema_type / lvl_code / out_filename
+            if pass_idx > 1:
+                print(f"[*] {level_label} (Pass {pass_idx}): Retrying {len(current_missing)} uncompleted words...", flush=True)
 
-            svg_code = call_gemini_svg_api(item, api_keys, model_offset=orig_idx)
-            if args.delay > 0:
-                time.sleep(args.delay)
-            if svg_code:
-                # 1. Write flat SVG
-                flat_path.write_text(svg_code, encoding="utf-8")
+            failed_in_pass = []
 
-                # 2. Write images/ SVG
-                images_dest.write_text(svg_code, encoding="utf-8")
+            def process_word(task_info):
+                nonlocal batch_new_count, level_new, total_generated_session
+                orig_idx, item = task_info
+                hanzi = item.get("hanzi", "").strip()
+                meaning = item.get("meaning", "").strip()
+                pinyin = item.get("pinyin", "").strip()
+                pos_type, pos_label = classify_pos(meaning, hanzi)
+                item["pos"] = pos_label
 
-                # 3. Mirror to worktree if exists
-                if WORKTREE_DIR.exists():
+                out_filename = f"{hanzi}.svg"
+                flat_path = FLAT_OUTPUT_DIR / out_filename
+                images_dest = IMAGES_DIR / schema_type / lvl_code / out_filename
+
+                svg_code = call_gemini_svg_api(item, api_keys, model_offset=orig_idx)
+                if args.delay > 0:
+                    time.sleep(args.delay)
+                if svg_code:
+                    # 1. Write flat SVG
+                    flat_path.write_text(svg_code, encoding="utf-8")
+
+                    # 2. Write images/ SVG
+                    images_dest.write_text(svg_code, encoding="utf-8")
+
+                    # 3. Mirror to worktree if exists
+                    if WORKTREE_DIR.exists():
+                        try:
+                            (WORKTREE_DIR / "assets" / "images" / "illustrations" / out_filename).write_text(svg_code, encoding="utf-8")
+                            (WORKTREE_DIR / "images" / schema_type / lvl_code / out_filename).write_text(svg_code, encoding="utf-8")
+                        except Exception:
+                            pass
+
+                    should_commit = False
+                    with state_lock:
+                        level_new += 1
+                        batch_new_count += 1
+                        total_generated_session += 1
+                        print(f"    ✓ [{orig_idx}/{len(words)}] Generated '{hanzi}' ({pinyin} - {meaning[:22]}) [{len(svg_code)} B] (Total session: {total_generated_session})", flush=True)
+                        if batch_new_count >= args.batch_size:
+                            batch_new_count = 0
+                            should_commit = True
+
+                    if should_commit:
+                        with git_lock:
+                            build_manifest_and_organize()
+                            git_commit_and_push(args.batch_size, level_label)
+
+                    return True
+                else:
+                    return False
+
+            with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
+                futures = {executor.submit(process_word, task): task for task in current_missing}
+                for fut in as_completed(futures):
+                    t = futures[fut]
                     try:
-                        (WORKTREE_DIR / "assets" / "images" / "illustrations" / out_filename).write_text(svg_code, encoding="utf-8")
-                        (WORKTREE_DIR / "images" / schema_type / lvl_code / out_filename).write_text(svg_code, encoding="utf-8")
-                    except Exception:
-                        pass
+                        ok = fut.result()
+                        if not ok:
+                            failed_in_pass.append(t)
+                    except Exception as e:
+                        print(f"[!] Worker exception: {e}", flush=True)
+                        failed_in_pass.append(t)
 
-                should_commit = False
-                with state_lock:
-                    level_new += 1
-                    batch_new_count += 1
-                    total_generated_session += 1
-                    print(f"    ✓ [{orig_idx}/{len(words)}] Generated '{hanzi}' ({pinyin} - {meaning[:22]}) [{len(svg_code)} B] (Total session: {total_generated_session})", flush=True)
-                    if batch_new_count >= args.batch_size:
-                        batch_new_count = 0
-                        should_commit = True
+            if not failed_in_pass:
+                break
 
-                if should_commit:
-                    with git_lock:
-                        build_manifest_and_organize()
-                        git_commit_and_push(args.batch_size, level_label)
+            if len(failed_in_pass) == len(current_missing) and all_models_permanently_exhausted(api_keys):
+                print(f"[!] All available models exhausted for today. Stopping at {level_label}.", flush=True)
+                break
 
-                return True
-            else:
-                print(f"    ✗ [{orig_idx}/{len(words)}] Failed to generate '{hanzi}'", flush=True)
-                return False
+            if len(failed_in_pass) == len(current_missing) and pass_idx >= 3:
+                print(f"[*] Stopping retries for {level_label} after 3 passes with {len(failed_in_pass)} pending words.", flush=True)
+                break
 
-        with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
-            futures = [executor.submit(process_word, task) for task in missing_items]
-            for fut in as_completed(futures):
-                try:
-                    fut.result()
-                except Exception as e:
-                    print(f"[!] Worker exception: {e}", flush=True)
+            current_missing = failed_in_pass
+            pass_idx += 1
+            time.sleep(2)
 
         # End of level commit
         with git_lock:
@@ -747,6 +787,10 @@ def main():
                 batch_new_count = 0
 
         print(f"[*] Completed {level_label}: {level_new} newly generated, {level_skipped} skipped.", flush=True)
+
+        if all_models_permanently_exhausted(api_keys):
+            print(f"\n[!] Daily quota across all models is exhausted for today. Exiting cleanly.", flush=True)
+            break
 
     print("\n==================================================================", flush=True)
     print(f"[*] ALL LEVELS COMPLETED! Total newly generated: {total_generated_session}", flush=True)
