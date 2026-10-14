@@ -1,0 +1,55 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 110)">
+    <!-- Globe Background Grid (Cooperative/Global Scale) -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#2D3748" stroke-width="2" stroke-dasharray="4 4"/>
+    <ellipse cx="0" cy="0" rx="70" ry="24" fill="none" stroke="#2D3748" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="24" ry="70" fill="none" stroke="#2D3748" stroke-width="1.5"/>
+    
+    <!-- Base Globe Sphere (Stylized Dark Theme) -->
+    <circle cx="0" cy="0" r="56" fill="#2563EB" opacity="0.15"/>
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#3B82F6" stroke-width="2" opacity="0.4"/>
+
+    <!-- Simplified Continents / Global Unity Shapes -->
+    <path d="M-30,-15 C-20,-30 10,-35 25,-20 C40,-5 35,20 15,30 C-5,40 -25,20 -30,-15 Z" fill="#3B82F6" opacity="0.3"/>
+    
+    <!-- Olive Branches (Peace Motif) curving around the globe -->
+    <!-- Left Branch -->
+    <path d="M-72,30 C-85,0 -70,-45 -40,-65" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left Leaves -->
+    <path d="M-65,15 C-75,10 -75,0 -65,5 Z" fill="#10B981"/>
+    <path d="M-60,-10 C-72,-15 -68,-25 -55,-20 Z" fill="#10B981"/>
+    <path d="M-50,-35 C-62,-42 -55,-52 -45,-45 Z" fill="#10B981"/>
+
+    <!-- Right Branch -->
+    <path d="M72,30 C85,0 70,-45 40,-65" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+    <!-- Right Leaves -->
+    <path d="M65,15 C75,10 75,0 65,5 Z" fill="#10B981"/>
+    <path d="M60,-10 C72,-15 68,-25 55,-20 Z" fill="#10B981"/>
+    <path d="M50,-35 C62,-42 55,-52 45,-45 Z" fill="#10B981"/>
+
+    <!-- Central Focus / Emblem Marker (Gold/Orange Accent for International Cooperation) -->
+    <circle cx="0" cy="-65" r="5" fill="#F59E0B"/>
+    <circle cx="0" cy="-65" r="9" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.6"/>
+
+    <!-- Abstract human figures linking hands around the globe (representing nations united) -->
+    <!-- Figure 1 (Top) -->
+    <circle cx="0" cy="-42" r="6" fill="#F8FAFC"/>
+    <path d="M-10,-30 C-5,-34 5,-34 10,-30" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Figure 2 (Bottom Left) -->
+    <circle cx="-35" cy="20" r="6" fill="#F8FAFC"/>
+    <path d="M-45,30 C-38,25 -28,28 -25,38" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Figure 3 (Bottom Right) -->
+    <circle cx="35" cy="20" r="6" fill="#F8FAFC"/>
+    <path d="M45,30 C38,25 28,28 25,38" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Connection Lines between figures (Unity/Diplomacy) -->
+    <line x1="-5" y1="-38" x2="-30" y2="15" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3"/>
+    <line x1="5" y1="-38" x2="30" y2="15" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3"/>
+    <line x1="-30" y1="20" x2="30" y2="20" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+</svg>

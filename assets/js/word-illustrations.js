@@ -31851,6 +31851,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "卡片.svg",
     "src": "images/HSK_3.0/level6/卡片.svg",
     "caption": "thẻ, thiệp (thẻ học, thiệp chúc)"
+  },
+  "开创": {
+    "file": "开创.svg",
+    "src": "images/HSK_3.0/level6/开创.svg",
+    "caption": "mở ra, khai sáng, đặt nền móng"
+  },
+  "开关": {
+    "file": "开关.svg",
+    "src": "images/HSK_3.0/level6/开关.svg",
+    "caption": "công tắc, nút bật tắt"
+  },
+  "开启": {
+    "file": "开启.svg",
+    "src": "images/HSK_3.0/level6/开启.svg",
+    "caption": "mở ra, khởi đầu (kỷ nguyên mới, hành trình mới)"
+  },
+  "开设": {
+    "file": "开设.svg",
+    "src": "images/HSK_3.0/level6/开设.svg",
+    "caption": "mở ra, thiết lập (khóa học, cửa hàng)"
+  },
+  "开头": {
+    "file": "开头.svg",
+    "src": "images/HSK_3.0/level6/开头.svg",
+    "caption": "bắt đầu, phần mở đầu"
+  },
+  "看待": {
+    "file": "看待.svg",
+    "src": "images/HSK_3.0/level6/看待.svg",
+    "caption": "nhìn nhận, xem xét, đối đãi"
+  },
+  "看得起": {
+    "file": "看得起.svg",
+    "src": "images/HSK_3.0/level6/看得起.svg",
+    "caption": "coi trọng, đánh giá cao, nể trọng"
+  },
+  "看好": {
+    "file": "看好.svg",
+    "src": "images/HSK_3.0/level6/看好.svg",
+    "caption": "đánh giá cao, tin tưởng có triển vọng tốt"
+  },
+  "看似": {
+    "file": "看似.svg",
+    "src": "images/HSK_3.0/level6/看似.svg",
+    "caption": "trông có vẻ, dường như"
+  },
+  "看中": {
+    "file": "看中.svg",
+    "src": "images/HSK_3.0/level6/看中.svg",
+    "caption": "chấm, ưng ý, vừa mắt"
+  },
+  "看重": {
+    "file": "看重.svg",
+    "src": "images/HSK_3.0/level6/看重.svg",
+    "caption": "coi trọng, xem trọng"
+  },
+  "考验": {
+    "file": "考验.svg",
+    "src": "images/HSK_3.0/level6/考验.svg",
+    "caption": "thử thách, khảo nghiệm"
+  },
+  "科幻": {
+    "file": "科幻.svg",
+    "src": "images/HSK_3.0/level6/科幻.svg",
+    "caption": "khoa học viễn tưởng"
+  },
+  "科普": {
+    "file": "科普.svg",
+    "src": "images/HSK_3.0/level6/科普.svg",
+    "caption": "phổ biến khoa học"
+  },
+  "可口": {
+    "file": "可口.svg",
+    "src": "images/HSK_3.0/level6/可口.svg",
+    "caption": "ngon miệng, hợp khẩu vị"
+  },
+  "客车": {
+    "file": "客车.svg",
+    "src": "images/HSK_3.0/level6/客车.svg",
+    "caption": "xe khách, xe chở khách"
+  },
+  "课题": {
+    "file": "课题.svg",
+    "src": "images/HSK_3.0/level6/课题.svg",
+    "caption": "chủ đề"
+  },
+  "肯": {
+    "file": "肯.svg",
+    "src": "images/HSK_3.0/level6/肯.svg",
+    "caption": "chịu, bằng lòng, ưng thuận"
+  },
+  "恐惧": {
+    "file": "恐惧.svg",
+    "src": "images/HSK_3.0/level6/恐惧.svg",
+    "caption": "sợ hãi, nỗi khiếp sợ"
+  },
+  "空地": {
+    "file": "空地.svg",
+    "src": "images/HSK_3.0/level6/空地.svg",
+    "caption": "đất trống, bãi đất trống"
+  },
+  "口感": {
+    "file": "口感.svg",
+    "src": "images/HSK_3.0/level6/口感.svg",
+    "caption": "cảm giác khi ăn, vị giác, độ mềm dai"
+  },
+  "口号": {
+    "file": "口号.svg",
+    "src": "images/HSK_3.0/level6/口号.svg",
+    "caption": "khẩu hiệu"
+  },
+  "扣": {
+    "file": "扣.svg",
+    "src": "images/HSK_3.0/level6/扣.svg",
+    "caption": "cài, gài (khuy áo); khấu trừ"
+  },
+  "枯燥": {
+    "file": "枯燥.svg",
+    "src": "images/HSK_3.0/level6/枯燥.svg",
+    "caption": "khô khan, nhàm chán, tẻ nhạt"
+  },
+  "酷": {
+    "file": "酷.svg",
+    "src": "images/HSK_3.0/level6/酷.svg",
+    "caption": "ngầu, cực chất (cool); tàn khốc"
+  },
+  "夸奖": {
+    "file": "夸奖.svg",
+    "src": "images/HSK_3.0/level6/夸奖.svg",
+    "caption": "khen ngợi, tán thưởng"
+  },
+  "快捷": {
+    "file": "快捷.svg",
+    "src": "images/HSK_3.0/level6/快捷.svg",
+    "caption": "nhanh chóng, tiện lợi, nhanh gọn"
+  },
+  "款": {
+    "file": "款.svg",
+    "src": "images/HSK_3.0/level6/款.svg",
+    "caption": "đoạn văn (danh từ, số lượng)"
+  },
+  "款式": {
+    "file": "款式.svg",
+    "src": "images/HSK_3.0/level6/款式.svg",
+    "caption": "kiểu dáng, mẫu mã"
+  },
+  "困扰": {
+    "file": "困扰.svg",
+    "src": "images/HSK_3.0/level6/困扰.svg",
+    "caption": "quấy rầy, làm bận tâm, trăn trở"
+  },
+  "扩展": {
+    "file": "扩展.svg",
+    "src": "images/HSK_3.0/level6/扩展.svg",
+    "caption": "mở rộng, phát triển rộng ra"
+  },
+  "啦": {
+    "file": "啦.svg",
+    "src": "images/HSK_3.0/level6/啦.svg",
+    "caption": "trợ từ ngữ khí (biểu thị hoàn thành, cảm thán)"
+  },
+  "来临": {
+    "file": "来临.svg",
+    "src": "images/HSK_3.0/level6/来临.svg",
+    "caption": "đến, ập đến, cận kề"
+  },
+  "赖": {
+    "file": "赖.svg",
+    "src": "images/HSK_3.0/level6/赖.svg",
+    "caption": "dựa dẫm, ỷ lại; quỵt"
+  },
+  "栏": {
+    "file": "栏.svg",
+    "src": "images/HSK_3.0/level6/栏.svg",
+    "caption": "chuyên mục, cột báo; rào chắn, lan can"
+  },
+  "兰花": {
+    "file": "兰花.svg",
+    "src": "images/HSK_3.0/level6/兰花.svg",
+    "caption": "hoa lan"
+  },
+  "狼": {
+    "file": "狼.svg",
+    "src": "images/HSK_3.0/level6/狼.svg",
+    "caption": "sói"
+  },
+  "牢": {
+    "file": "牢.svg",
+    "src": "images/HSK_3.0/level6/牢.svg",
+    "caption": "vững chắc, kiên cố; nhà tù"
+  },
+  "劳动力": {
+    "file": "劳动力.svg",
+    "src": "images/HSK_3.0/level6/劳动力.svg",
+    "caption": "lực lượng lao động"
+  },
+  "老太太": {
+    "file": "老太太.svg",
+    "src": "images/HSK_3.0/level6/老太太.svg",
+    "caption": "cụ bà, bà cụ"
+  },
+  "乐于": {
+    "file": "乐于.svg",
+    "src": "images/HSK_3.0/level6/乐于.svg",
+    "caption": "vui lòng, sẵn lòng (giúp đỡ)"
+  },
+  "理": {
+    "file": "理.svg",
+    "src": "images/HSK_3.0/level6/理.svg",
+    "caption": "để ý, đoái hoài; đạo lý; lý lẽ"
+  },
+  "理财": {
+    "file": "理财.svg",
+    "src": "images/HSK_3.0/level6/理财.svg",
+    "caption": "quản lý tài chính, đầu tư tài chính"
+  },
+  "理科": {
+    "file": "理科.svg",
+    "src": "images/HSK_3.0/level6/理科.svg",
+    "caption": "ban tự nhiên, khoa học tự nhiên"
+  },
+  "理念": {
+    "file": "理念.svg",
+    "src": "images/HSK_3.0/level6/理念.svg",
+    "caption": "quan niệm, triết lý, ý niệm"
+  },
+  "理性": {
+    "file": "理性.svg",
+    "src": "images/HSK_3.0/level6/理性.svg",
+    "caption": "lý tính, lý trí"
+  },
+  "立": {
+    "file": "立.svg",
+    "src": "images/HSK_3.0/level6/立.svg",
+    "caption": "đứng; lập nên, dựng nên"
+  },
+  "历经": {
+    "file": "历经.svg",
+    "src": "images/HSK_3.0/level6/历经.svg",
+    "caption": "trải qua, nếm trải qua (thử thách, năm tháng)"
+  },
+  "历年": {
+    "file": "历年.svg",
+    "src": "images/HSK_3.0/level6/历年.svg",
+    "caption": "các năm qua, qua các năm"
+  },
+  "联合国": {
+    "file": "联合国.svg",
+    "src": "images/HSK_3.0/level6/联合国.svg",
+    "caption": "liên Hợp Quốc"
   }
 };
 

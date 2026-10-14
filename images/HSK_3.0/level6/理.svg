@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient background glow for focus -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual Representation of "理" (Focus/Attention to order, logic, and meticulous craft) -->
+  <!-- A precision scientific beaker/flask with glowing chemical reaction and structured atomic/grid elements -->
+  <g transform="translate(0, 5)">
+    <!-- Flask Base & Body -->
+    <path d="M95 160 L145 160 L155 185 C157 190 153 195 147 195 L93 195 C87 195 83 190 85 185 Z" fill="#2D3748" stroke="#4A5568" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Liquid inside flask -->
+    <path d="M98 168 L142 168 L148 185 C149 188 146 191 143 191 L97 191 C94 191 91 188 92 185 Z" fill="#3182CE" opacity="0.7"/>
+
+    <!-- Flask Neck -->
+    <path d="M106 110 L134 110 L134 160 L106 160 Z" fill="#2D3748" stroke="#4A5568" stroke-width="3"/>
+    
+    <!-- Flask Rim -->
+    <rect x="100" y="100" width="40" height="12" rx="4" fill="#4A5568"/>
+
+    <!-- Scientific Bubbles / Orderly particles representing "理" (Logic, Order, Attention) -->
+    <circle cx="112" cy="150" r="4" fill="#63B3ED"/>
+    <circle cx="128" cy="140" r="3" fill="#63B3ED"/>
+    <circle cx="118" cy="128" r="5" fill="#63B3ED"/>
+
+    <!-- Precision Magnifying Glass overlaying the experiment, showing focused attention (to ignore distractions) -->
+    <g transform="translate(115, 65)">
+      <!-- Glass Frame -->
+      <circle cx="15" cy="15" r="32" fill="#1A1D24" stroke="#F6AD55" stroke-width="5"/>
+      <!-- Lens reflection -->
+      <path d="M-4 3 C 2 -5, 12 -5, 20 0" stroke="#FEEBC8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+      <!-- Handle -->
+      <path d="M-6 33 L-22 49" stroke="#DD6B20" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- Structured Grid Lines (representing logic and order - '理') -->
+    <path d="M45 80 L75 80 M45 95 L65 95 M175 80 L195 80 M165 95 L195 95" stroke="#4A5568" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="60" cy="80" r="3" fill="#F6AD55"/>
+    <circle cx="180" cy="80" r="3" fill="#F6AD55"/>
+  </g>
+</svg>

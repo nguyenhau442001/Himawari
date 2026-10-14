@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Road -->
+  <rect x="0" y="160" width="240" height="40" fill="#2D3436"/>
+  <line x1="0" y1="180" x2="240" y2="180" stroke="#4A5568" stroke-width="2" stroke-dasharray="10,10"/>
+  
+  <!-- Bus Body -->
+  <path d="M50 160 L190 160 L195 130 L185 110 L55 110 L45 130 Z" fill="#F39C12"/>
+  
+  <!-- Windows -->
+  <rect x="60" y="115" width="25" height="25" fill="#1A1D24" rx="2"/>
+  <rect x="90" y="115" width="25" height="25" fill="#1A1D24" rx="2"/>
+  <rect x="120" y="115" width="25" height="25" fill="#1A1D24" rx="2"/>
+  <rect x="150" y="115" width="25" height="25" fill="#1A1D24" rx="2"/>
+  
+  <!-- Windshield -->
+  <path d="M50 130 L55 115 L70 115 L70 145 L50 145 Z" fill="#34495E"/>
+  
+  <!-- Wheels -->
+  <circle cx="75" cy="170" r="12" fill="#2D3436" stroke="#F39C12" stroke-width="3"/>
+  <circle cx="165" cy="170" r="12" fill="#2D3436" stroke="#F39C12" stroke-width="3"/>
+  
+  <!-- Decorative stripe -->
+  <rect x="45" y="145" width="150" height="5" fill="#E67E22"/>
+</svg>

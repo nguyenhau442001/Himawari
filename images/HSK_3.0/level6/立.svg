@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Architecture/Plaza Floor Grid & Horizon -->
+  <path d="M 30,195 L 210,195 L 225,215 L 15,215 Z" fill="#252A34"/>
+  <line x1="30" y1="195" x2="210" y2="195" stroke="#333947" stroke-width="2"/>
+  
+  <!-- Ambient glow behind the monument -->
+  <circle cx="120" cy="115" r="50" fill="#FFB703" opacity="0.08"/>
+
+  <!-- Grand Monument (The physical object representing "立" - dựng lên/sừng sững) -->
+  <!-- Base steps -->
+  <polygon points="80,195 160,195 170,205 70,205" fill="#3D4451"/>
+  <polygon points="90,185 150,185 155,195 85,195" fill="#4B5362"/>
+
+  <!-- Main Obelisk / Monument Shaft (tall, upright, standing) -->
+  <path d="M 105,65 L 135,65 L 140,185 L 100,185 Z" fill="#E5E9F0"/>
+
+  <!-- Monument Golden Crest / Details (High-contrast accent) -->
+  <polygon points="120,45 128,65 112,65" fill="#FFB703"/>
+  <rect x="114" y="80" width="12" height="70" fill="#D8DEE9"/>
+  
+  <!-- Subtle vertical highlights for sleek modern flat design -->
+  <path d="M 105,65 L 110,65 L 108,185 L 100,185 Z" fill="#FFFFFF" opacity="0.15"/>
+  <path d="M 135,65 L 140,65 L 140,185 L 138,185 Z" fill="#000000" opacity="0.2"/>
+
+  <!-- Surrounding Plaza Environment details (minimal, modern flat context) -->
+  <!-- Low pillar / marker left -->
+  <rect x="50" y="175" width="12" height="20" fill="#2E3440"/>
+  <rect x="48" y="170" width="16" height="5" fill="#3B4252"/>
+
+  <!-- Low pillar / marker right -->
+  <rect x="178" y="175" width="12" height="20" fill="#2E3440"/>
+  <rect x="176" y="170" width="16" height="5" fill="#3B4252"/>
+
+  <!-- Subtle star/emblem on monument face -->
+  <circle cx="120" cy="100" r="6" fill="#FFB703"/>
+</svg>

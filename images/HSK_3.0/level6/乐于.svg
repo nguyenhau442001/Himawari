@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glowing atmosphere for warmth/eagerness -->
+  <circle cx="120" cy="120" r="80" fill="#FF9F43" opacity="0.05" filter="blur(20px)"/>
+
+  <!-- Visualizing "乐于" (Gladly, eager to help, willing assistance) -->
+  <!-- Adjective/State Rule: Scale contrast & emotional expression showing proactive, joyful helpfulness -->
+
+  <!-- Environment / Ground line -->
+  <line x1="50" y1="175" x2="190" y2="175" stroke="#2C323D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Character A: Person receiving help (calm, slightly smaller scale to emphasize contrast) -->
+  <g transform="translate(68, 120)">
+    <!-- Body -->
+    <path d="M 0 45 C -5 45 -15 48 -18 55 L -18 55 L 18 55 L 15 45 Z" fill="#4B6584"/>
+    <!-- Head -->
+    <circle cx="0" cy="22" r="11" fill="#FAD02C"/>
+    <!-- Relaxed arm -->
+    <path d="M -12 33 C -16 35 -18 42 -15 45" stroke="#FAD02C" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Dropped/Heavy item being helped with (e.g., a crate or box) -->
+  <g transform="translate(62, 140)">
+    <rect x="0" y="0" width="24" height="20" rx="3" fill="#E17055"/>
+    <line x1="12" y1="0" x2="12" y2="20" stroke="#FF7675" stroke-width="2"/>
+  </g>
+
+  <!-- Character B: Helper embodying "乐于" (widespread posture, bright energetic color, leaning forward eagerly) -->
+  <g transform="translate(138, 105)">
+    <!-- Dynamic forward-leaning body representing eagerness -->
+    <path d="M 10 60 C 5 50 -10 40 -20 40 L -25 70 L 15 70 Z" fill="#00D2D3"/>
+    
+    <!-- Animated head with joyful expression -->
+    <circle cx="-12" cy="18" r="13" fill="#FF9F43"/>
+    
+    <!-- Upraised, welcoming arms showing absolute willingness and happiness -->
+    <!-- Back arm -->
+    <path d="M -8 32 C -22 25 -32 20 -40 25" stroke="#FF9F43" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Front arm reaching out enthusiastically to lift/help -->
+    <path d="M -2 38 C -18 42 -35 48 -44 44" stroke="#FF9F43" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Expressive joyful motion lines / sparks near helper -->
+    <path d="M -30 8 L -26 2" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -38 16 L -32 14" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Uplifting interactive connection (Bridge of willingness/helpfulness) -->
+  <path d="M 76 142 C 95 125 110 135 125 138" stroke="#00D2D3" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Floating accent sparkles representing positive attitude and genuine delight (乐) -->
+  <g fill="#FAD02C">
+    <circle cx="100" cy="75" r="2.5"/>
+    <circle cx="155" cy="65" r="2"/>
+    <circle cx="120" cy="55" r="3"/>
+  </g>
+</svg>

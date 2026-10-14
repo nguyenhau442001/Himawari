@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative glowing grid lines / path of innovation -->
+  <path d="M 40 180 Q 90 180, 120 140 T 200 60" fill="none" stroke="#2A3241" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M 120 140 L 190 140" fill="none" stroke="#2A3241" stroke-width="2"/>
+  
+  <!-- The "New Path" being opened (Dynamic Action: 開創 / pioneering a path) -->
+  <path d="M 40 190 C 90 190, 110 130, 210 80" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Glowing nodes along the path (representing breakthrough / medical/scientific innovation context) -->
+  <circle cx="120" cy="140" r="4" fill="#FF9F43"/>
+  <circle cx="165" cy="105" r="4" fill="#FF9F43" opacity="0.7"/>
+  <circle cx="210" cy="80" r="6" fill="#FF9F43"/>
+  
+  <!-- Radiance / Light expanding at the frontier of the path -->
+  <circle cx="210" cy="80" r="14" fill="#FF9F43" opacity="0.2"/>
+
+  <!-- Dynamic Human Character (Pioneering / Action pose) -->
+  <!-- Torso -->
+  <path d="M 85 145 L 75 110 L 95 100 L 105 135 Z" fill="#4B7bec"/>
+  
+  <!-- Head -->
+  <circle cx="85" cy="85" r="11" fill="#f1f2f6"/>
+  <path d="M 76 82 C 76 75, 94 75, 94 82 Z" fill="#2d3748"/>
+
+  <!-- Back Arm (supporting stance) -->
+  <path d="M 80 115 L 60 130 L 55 125" fill="none" stroke="#4B7bec" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front Arm (Dynamic action: striking/placing the path-marker or opening the frontier) -->
+  <path d="M 95 105 L 125 120 L 140 105" fill="none" stroke="#4B7bec" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Hand -->
+  <circle cx="140" cy="105" r="4" fill="#f1f2f6"/>
+
+  <!-- Motion lines for dynamic action -->
+  <path d="M 148 95 L 158 85" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 153 102 L 166 92" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Legs (Action stride) -->
+  <!-- Back Leg -->
+  <path d="M 80 145 L 65 175 L 55 180" fill="none" stroke="#2d3748" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front Leg -->
+  <path d="M 100 145 L 115 175 L 125 180" fill="none" stroke="#2d3748" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pioneer Tool / Symbol of Creation (Glowing stylus / builder beam pointing forward) -->
+  <line x1="140" y1="105" x2="205" y2="78" stroke="#00d2d3" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="205" cy="78" r="5" fill="#00d2d3"/>
+  <circle cx="205" cy="78" r="9" fill="#00d2d3" opacity="0.3"/>
+</svg>

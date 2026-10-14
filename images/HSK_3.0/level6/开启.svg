@@ -1,0 +1,60 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative glowing path (representing new journey/horizon) -->
+  <path d="M40 180 Q 120 120 200 180" stroke="#2D3748" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M60 195 Q 120 145 180 195" stroke="#F6AD55" stroke-opacity="0.15" stroke-width="3" fill="none"/>
+
+  <!-- Motion lines for opening action -->
+  <path d="M 85 95 Q 110 80 125 105" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M 155 95 Q 130 80 115 105" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Central Visual Element: A modern glowing book/portal opening up, symbolizing "开启" (opening/initiating a new chapter) -->
+  
+  <!-- Book Spine / Center Base -->
+  <rect x="116" y="100" width="8" height="70" rx="2" fill="#4A5568"/>
+
+  <!-- Left Page (opening outward) -->
+  <g transform="translate(116, 135) rotate(-25) translate(-116, -135)">
+    <!-- Page background -->
+    <path d="M 50 80 L 116 100 L 116 170 L 50 150 Z" fill="#2B6CB0"/>
+    <!-- Page lines (representing text/chapter) -->
+    <line x1="65" y1="105" x2="95" y2="113" stroke="#63B3ED" stroke-width="2" stroke-linecap="round"/>
+    <line x1="63" y1="120" x2="100" y2="130" stroke="#63B3ED" stroke-width="2" stroke-linecap="round"/>
+    <line x1="60" y1="135" x2="90" y2="145" stroke="#63B3ED" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Page (opening outward) -->
+  <g transform="translate(124, 135) rotate(25) translate(-124, -135)">
+    <!-- Page background -->
+    <path d="M 190 80 L 124 100 L 124 170 L 190 150 Z" fill="#3182CE"/>
+    <!-- Page lines -->
+    <line x1="145" y1="105" x2="175" y2="113" stroke="#63B3ED" stroke-width="2" stroke-linecap="round"/>
+    <line x1="140" y1="120" x2="177" y2="130" stroke="#63B3ED" stroke-width="2" stroke-linecap="round"/>
+    <line x1="150" y1="135" x2="180" y2="145" stroke="#63B3ED" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Rising glowing star / light burst from the center (symbolizing the start of a brilliant new chapter/journey) -->
+  <circle cx="120" cy="90" r="14" fill="#F6AD55" opacity="0.2"/>
+  <circle cx="120" cy="90" r="8" fill="#ED8936"/>
+  <path d="M120 70 L123 85 L138 90 L123 95 L120 110 L117 95 L102 90 L117 85 Z" fill="#FEFCBF"/>
+
+  <!-- Dynamic Character Hands Interacting (Action Verb requirement) -->
+  <!-- Left Hand pushing/opening -->
+  <path d="M 45 155 C 60 155 75 140 85 125 C 90 118 85 110 78 113 C 65 118 55 130 40 140 Z" fill="#ED8936"/>
+  <circle cx="80" cy="120" r="6" fill="#F6AD55"/>
+
+  <!-- Right Hand pushing/opening -->
+  <path d="M 195 155 C 180 155 165 140 155 125 C 150 118 155 110 162 113 C 175 118 185 130 200 140 Z" fill="#ED8936"/>
+  <circle cx="160" cy="120" r="6" fill="#F6AD55"/>
+
+  <!-- Sparkles / Rising particles for "new journey" / "dawn of a new chapter" -->
+  <circle cx="95" cy="65" r="2" fill="#F6AD55"/>
+  <circle cx="150" cy="60" r="3" fill="#FEFCBF"/>
+  <circle cx="135" cy="45" r="1.5" fill="#F6AD55"/>
+  <circle cx="105" cy="50" r="2" fill="#ED8936"/>
+
+  <!-- Ground reflection / firm base -->
+  <ellipse cx="120" cy="180" rx="70" ry="6" fill="#2D3748"/>
+</svg>

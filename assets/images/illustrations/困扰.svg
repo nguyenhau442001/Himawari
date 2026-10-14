@@ -1,0 +1,57 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "困扰" (trouble, burden, mental weight):
+       A stylized human head silhouette in profile, with heavy, interlocking abstract geometric blocks/knots 
+       pressing down and wrapping around the mind/head, rendered in sleek modern flat vector style.
+  -->
+
+  <!-- Background decorative subtle elements -->
+  <circle cx="120" cy="120" r="80" fill="none" stroke="#2A2F3D" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- Neck and shoulders -->
+  <path d="M 95 185 C 95 165 110 150 135 150 C 160 150 175 165 175 185 L 175 205 L 95 205 Z" fill="#2E3648" opacity="0.8"/>
+
+  <!-- Head Silhouette (Profile facing left) -->
+  <path d="M 120 75 
+           C 95 75 80 95 80 120 
+           C 80 135 85 148 95 158 
+           L 95 185 
+           L 175 185 
+           L 175 155 
+           C 170 155 165 150 165 145 
+           C 165 140 170 138 172 135 
+           C 178 125 180 110 175 95 
+           C 168 78 145 75 120 75 Z" 
+        fill="#343B4D"/>
+
+  <!-- Brain / Mind core area -->
+  <path d="M 115 95 C 130 95 145 105 145 120 C 145 135 130 145 115 145 C 105 145 100 135 100 120 C 100 105 105 95 115 95 Z" fill="#3E475C" opacity="0.5"/>
+
+  <!-- The "Kùnrǎo" (Trouble / Tangled Burden) - Abstract heavy geometric knot wrapping around the head -->
+  <!-- Primary Accent Element (Orange/Gold for focus) -->
+  <path d="M 85 105 
+           C 75 105 65 115 65 125 
+           C 65 135 75 145 85 145 
+           L 115 145 
+           C 125 145 135 135 135 125 
+           C 135 115 125 105 115 105 Z" 
+        fill="none" stroke="#FF9F43" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Secondary Tangling Loop -->
+  <path d="M 105 80 
+           C 105 70 115 60 125 60 
+           C 135 60 145 70 145 80 
+           L 145 120 
+           C 145 130 155 140 165 140 
+           C 175 140 185 130 185 120 
+           C 185 100 165 85 145 85" 
+        fill="none" stroke="#E17055" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Heavy pressure node dots -->
+  <circle cx="85" cy="125" r="4" fill="#FF9F43"/>
+  <circle cx="125" cy="60" r="4" fill="#E17055"/>
+  <circle cx="165" cy="140" r="4" fill="#E17055"/>
+
+</svg>

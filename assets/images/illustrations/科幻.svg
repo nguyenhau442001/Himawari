@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Rocket Body -->
+  <path d="M120 50 L140 160 L100 160 Z" fill="#FFB800"/>
+  
+  <!-- Rocket Fins -->
+  <path d="M100 160 L80 190 L100 170 Z" fill="#FF8C00"/>
+  <path d="M140 160 L160 190 L140 170 Z" fill="#FF8C00"/>
+  
+  <!-- Rocket Window -->
+  <circle cx="120" cy="100" r="12" fill="#1A1D24" stroke="#FFB800" stroke-width="3"/>
+  
+  <!-- Planet/Orbit -->
+  <ellipse cx="120" cy="180" rx="60" ry="20" fill="none" stroke="#4A5568" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Stars -->
+  <circle cx="50" cy="60" r="2" fill="#E2E8F0"/>
+  <circle cx="190" cy="80" r="2" fill="#E2E8F0"/>
+  <circle cx="40" cy="150" r="1.5" fill="#E2E8F0"/>
+  <circle cx="200" cy="170" r="1.5" fill="#E2E8F0"/>
+  <circle cx="100" cy="40" r="2" fill="#E2E8F0"/>
+  
+  <!-- Saturn-like ring detail -->
+  <path d="M60 180 C60 160 180 160 180 180 C180 200 60 200 60 180" fill="#2D3748" opacity="0.5"/>
+</svg>

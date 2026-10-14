@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Object: A solid, glowing physical monolith/core representing foundational philosophy/idea (理念) -->
+  <!-- Ambient glow background for focus -->
+  <circle cx="120" cy="120" r="70" fill="#0EA5E9" opacity="0.08"/>
+
+  <!-- Base platform representing grounding in reality -->
+  <path d="M 80 180 L 160 180 L 175 192 L 65 192 Z" fill="#334155" opacity="0.8"/>
+  <rect x="90" y="174" width="60" height="6" rx="2" fill="#64748B"/>
+
+  <!-- Central solid structure (The Core Philosophy / 理念) -->
+  <!-- Outer transparent crystal layer -->
+  <path d="M 120 48 L 165 85 L 165 155 L 120 172 L 75 155 L 75 85 Z" fill="#1E293B" stroke="#38BDF8" stroke-width="2" opacity="0.9"/>
+
+  <!-- Inner glowing geometric facets representing structured thought and green development concept -->
+  <!-- Left facet -->
+  <path d="M 120 58 L 120 162 L 83 148 L 83 92 Z" fill="#0369A1" opacity="0.6"/>
+  <!-- Right facet -->
+  <path d="M 120 58 L 120 162 L 157 148 L 157 92 Z" fill="#0284C7" opacity="0.8"/>
+
+  <!-- Central glowing core element: A sleek stylized sprout/leaf symbol integrated into the core (reflecting green development philosophy) -->
+  <path d="M 120 142 C 120 142 102 120 102 102 C 102 91 111 82 120 82 C 129 82 138 91 138 102 C 138 120 120 142 120 142 Z" fill="#34D399" opacity="0.9"/>
+  <!-- Leaf detail line -->
+  <path d="M 120 134 C 120 134 112 118 112 104" stroke="#065F46" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Emitting conceptual light/rays (structured ideas radiating outward) -->
+  <line x1="120" y1="36" x2="120" y2="44" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="182" y1="80" x2="173" y2="86" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="58" y1="80" x2="67" y2="86" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Focal highlight accents (Amber/Gold for core significance) -->
+  <circle cx="120" cy="58" r="3" fill="#FBBF24"/>
+  <circle cx="165" cy="85" r="2.5" fill="#FBBF24"/>
+  <circle cx="75" cy="85" r="2.5" fill="#FBBF24"/>
+</svg>

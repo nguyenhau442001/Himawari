@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Mountain Path -->
+  <path d="M40 200 L120 120 L200 200 Z" fill="#2D343E"/>
+  <path d="M120 120 L160 80 L200 120 L120 120" fill="#3A4351"/>
+  
+  <!-- Character - Representing the "Willingness" to climb -->
+  <!-- Legs in motion -->
+  <path d="M105 150 L115 180" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M125 150 L135 170" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Torso and Arms leaning forward -->
+  <path d="M110 140 L130 130 L120 110" fill="#FFB84D"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="100" r="12" fill="#FFB84D"/>
+  
+  <!-- Motion lines indicating upward effort -->
+  <path d="M140 110 L155 95" stroke="#5D6D7E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 120 L160 105" stroke="#5D6D7E" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- The Goal (Peak) -->
+  <circle cx="160" cy="80" r="6" fill="#FFD700"/>
+  <circle cx="160" cy="80" r="10" fill="none" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

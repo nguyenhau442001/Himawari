@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "看待" (Perspective / Viewing / Examining an object with balanced viewpoints) -->
+  <!-- Central Physical Object: A modern, sleek magnifying glass framing a multi-faceted 3D gemstone/cube representing "different aspects of a matter" -->
+
+  <!-- Background subtle grid / perspective lines -->
+  <g opacity="0.15" stroke="#60A5FA" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="40" y1="120" x2="200" y2="120" />
+    <line x1="120" y1="40" x2="120" y2="200" />
+  </g>
+
+  <!-- Object Group: Multi-faceted Object being examined -->
+  <g transform="translate(120, 110)">
+    <!-- Back facets -->
+    <polygon points="0,-35 30,-15 0,15" fill="#3B82F6" opacity="0.6"/>
+    <polygon points="0,-35 -30,-15 0,15" fill="#1D4ED8" opacity="0.8"/>
+    
+    <!-- Front facets (Balanced / Objective view) -->
+    <polygon points="0,35 30,-15 0,15" fill="#60A5FA"/>
+    <polygon points="0,35 -30,-15 0,15" fill="#93C5FD"/>
+
+    <!-- Top highlight facets -->
+    <polygon points="0,-35 30,-15 0,-5" fill="#F59E0B" opacity="0.9"/>
+    <polygon points="0,-35 -30,-15 0,-5" fill="#FBBF24" opacity="0.9"/>
+  </g>
+
+  <!-- Magnifying Glass (Representing the act of careful examination / 看待) -->
+  <g transform="translate(120, 110) rotate(-25)">
+    <!-- Glass rim (double stroke for sleek modern look) -->
+    <circle cx="0" cy="-10" r="52" fill="none" stroke="#1E293B" stroke-width="8"/>
+    <circle cx="0" cy="-10" r="48" fill="none" stroke="#F59E0B" stroke-width="6"/>
+    <circle cx="0" cy="-10" r="44" fill="none" stroke="#FEF3C7" stroke-width="1.5" opacity="0.4"/>
+    
+    <!-- Lens reflection glare -->
+    <path d="M -28 -32 A 44 44 0 0 1 15 -42" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Handle -->
+    <path d="M -12 42 L -32 95 C -34 100 -30 104 -25 104 L -15 104 C -11 104 -8 100 -6 95 L 14 42 Z" fill="#334155"/>
+    <path d="M -9 42 L -25 92 C -26 95 -24 97 -21 97 L -17 97 C -14 97 -12 95 -11 92 L 5 42 Z" fill="#475569"/>
+    <!-- Handle accent grip -->
+    <line x1="-18" y1="75" x2="-14" y2="87" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-14" y1="75" x2="-10" y2="87" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent indicator dots representing objective/comprehensive viewpoints -->
+  <circle cx="75" cy="70" r="4" fill="#F59E0B"/>
+  <circle cx="170" cy="85" r="3" fill="#60A5FA"/>
+  <circle cx="90" cy="170" r="3.5" fill="#3B82F6"/>
+  <circle cx="155" cy="155" r="4" fill="#FBBF24"/>
+</svg>

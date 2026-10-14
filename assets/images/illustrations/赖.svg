@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptual Illustration for "赖" (Dependence / Clinging to someone) -->
+  <!-- A central scene showing a younger stylized figure leaning heavily/clinging onto a sturdier parental/supportive figure representing "ỷ lại" / reliance -->
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="120" cy="195" rx="70" ry="10" fill="#111318" opacity="0.6"/>
+
+  <!-- Supportive/Parental Figure (Base/Support) -->
+  <g transform="translate(0, 0)">
+    <!-- Body/Torso -->
+    <path d="M125 100 L155 185 L95 185 Z" fill="#3A4A6B"/>
+    <!-- Head -->
+    <circle cx="128" cy="80" r="15" fill="#E5B299"/>
+    <!-- Hair -->
+    <path d="M113 78 C113 70 120 63 128 63 C136 63 143 70 143 78 Z" fill="#4A3B32"/>
+    <!-- Arm supporting -->
+    <path d="M125 100 L145 135 L125 145 Z" fill="#3A4A6B"/>
+  </g>
+
+  <!-- Dependent Figure (Leaning/Clinging - '赖') -->
+  <g transform="translate(0, 0)">
+    <!-- Body leaning at an angle onto the first figure -->
+    <path d="M105 110 L115 185 L65 185 Z" fill="#4B6B94"/>
+    <!-- Head leaning on the other person's shoulder -->
+    <circle cx="108" cy="98" r="13" fill="#E5B299"/>
+    <!-- Hair -->
+    <path d="M96 95 C96 88 102 83 108 83 C116 83 120 90 120 95 Z" fill="#2C3E50"/>
+    <!-- Arms wrapped around or holding on -->
+    <path d="M95 125 C110 125 120 130 125 135" stroke="#4B6B94" stroke-width="10" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Accent elements representing attachment/clinging (Subtle visual indicators without abstract icons) -->
+  <path d="M115 115 Q125 110 120 125" stroke="#F39C12" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  
+  <!-- Additional grounding details: minimalist sleek stool/base -->
+  <rect x="90" y="185" width="60" height="8" rx="4" fill="#2A323D"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(60, 60)">
+<path d="M60 120L100 120L100 100L80 80L60 100Z" fill="#FFB347"/>
+<path d="M40 120L80 120L80 100L60 80L40 100Z" fill="#FFD700"/>
+<path d="M50 80L90 80L70 40Z" fill="#FF8C00"/>
+<circle cx="70" cy="30" r="15" fill="#4A90E2"/>
+<path d="M55 30C55 20 60 15 70 15C80 15 85 20 85 30C85 40 80 45 70 45C60 45 55 40 55 30Z" fill="#87CEEB"/>
+<path d="M70 45L70 80" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+<path d="M40 120L100 120" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<circle cx="120" cy="60" r="8" fill="#FFD700"/>
+<path d="M120 68L120 90" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+<path d="M110 90L130 90" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="40" r="6" fill="#FF8C00"/>
+<path d="M20 46L20 60" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
+<path d="M10 60L30 60" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground Plane -->
+  <path d="M40 180 L200 180 L180 210 L60 210 Z" fill="#2D343E"/>
+  
+  <!-- The Empty Plot (The "Kongdi") -->
+  <rect x="60" y="120" width="120" height="60" rx="4" fill="#343B47" stroke="#FFB84D" stroke-width="2"/>
+  
+  <!-- Surrounding Context: Building silhouette -->
+  <path d="M40 120 L40 60 L80 60 L80 120 Z" fill="#252A33"/>
+  <path d="M160 120 L160 70 L200 70 L200 120 Z" fill="#252A33"/>
+  
+  <!-- Decorative elements for scale -->
+  <circle cx="185" cy="195" r="3" fill="#FFB84D"/>
+  <circle cx="55" cy="195" r="3" fill="#FFB84D"/>
+  
+  <!-- Path leading to the plot -->
+  <path d="M120 180 L120 210" stroke="#4A5568" stroke-width="4" stroke-dasharray="4 4"/>
+</svg>

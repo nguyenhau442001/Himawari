@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow -->
+  <circle cx="120" cy="120" r="80" fill="#222834" opacity="0.5"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Shield Base / Outer outline (Protection & Risk mitigation aspect) -->
+    <path d="M120 38 C 120 38, 166 48, 172 70 C 178 106, 150 156, 120 186 C 90 156, 62 106, 68 70 C 74 48, 120 38, 120 38 Z" 
+          fill="#252A34" stroke="#323B4C" stroke-width="3" stroke-linejoin="round"/>
+          
+    <!-- Inner Shield Surface -->
+    <path d="M120 46 C 120 46, 159 54, 164 73 C 170 103, 145 147, 120 174 C 95 147, 70 103, 76 73 C 81 54, 120 46, 120 46 Z" 
+          fill="#1E232E"/>
+
+    <!-- Secure Vault Door Wheel / Steering mechanism (representing structured control & planning) -->
+    <circle cx="120" cy="110" r="42" fill="#252C3B" stroke="#3E4A61" stroke-width="3"/>
+    <circle cx="120" cy="110" r="34" fill="#1A1D24" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 3"/>
+
+    <!-- Vault Spokes -->
+    <line x1="120" y1="68" x2="120" y2="152" stroke="#3E4A61" stroke-width="3" stroke-linecap="round"/>
+    <line x1="78" y1="110" x2="162" y2="110" stroke="#3E4A61" stroke-width="3" stroke-linecap="round"/>
+    <line x1="90" y1="80" x2="150" y2="140" stroke="#3E4A61" stroke-width="2" stroke-linecap="round"/>
+    <line x1="90" y1="140" x2="150" y2="80" stroke="#3E4A61" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Central Vault Handle/Hub -->
+    <circle cx="120" cy="110" r="12" fill="#F59E0B"/>
+    <circle cx="120" cy="110" r="6" fill="#D97706"/>
+
+    <!-- Central Growth/Asset Element (Gold Coin stack at the focal point) -->
+    <!-- Coin 3 (Bottom) -->
+    <ellipse cx="120" cy="148" rx="22" ry="7" fill="#B45309"/>
+    <path d="M98 148 v 6 c 0 4, 10 7, 22 7 c 12 0, 22 -3, 22 -7 v -6 c 0 4, -10 7, -22 7 c -12 0, -22 -3, -22 -7 Z" fill="#D97706"/>
+
+    <!-- Coin 2 (Middle) -->
+    <ellipse cx="120" cy="138" rx="22" ry="7" fill="#D97706"/>
+    <path d="M98 138 v 6 c 0 4, 10 7, 22 7 c 12 0, 22 -3, 22 -7 v -6 c 0 4, -10 7, -22 7 c -12 0, -22 -3, -22 -7 Z" fill="#F59E0B"/>
+
+    <!-- Coin 1 (Top) -->
+    <ellipse cx="120" cy="128" rx="22" ry="7" fill="#FBBF24"/>
+    <text x="120" y="131" font-family="Arial, sans-serif" font-weight="bold" font-size="10" fill="#78350F" text-anchor="middle">$</text>
+
+    <!-- Upward Growth Arrow (Representing strategic investment & family asset growth) -->
+    <path d="M152 72 L 168 56 L 168 68 M 168 56 L 156 56" fill="none" stroke="#10B981" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

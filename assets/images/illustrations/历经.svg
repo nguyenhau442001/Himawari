@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Ambient Glow & Elements -->
+  <path d="M20 180 Q 120 150 220 180" stroke="#2A303C" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Weather/Time progression elements (Wind/Rain lines representing years passing) -->
+  <g opacity="0.3" stroke="#52606D" stroke-width="1.5" stroke-linecap="round">
+    <line x1="40" y1="60" x2="60" y2="80" />
+    <line x1="70" y1="50" x2="90" y2="70" />
+    <line x1="160" y1="55" x2="180" y2="75" />
+    <line x1="190" y1="65" x2="210" y2="85" />
+  </g>
+
+  <!-- The Ancient/Weathered Stone Bridge (Representing endurance through time) -->
+  <g id="bridge">
+    <!-- Bridge Arch Shadows -->
+    <path d="M 50 160 Q 95 130 140 160 Z" fill="#111318"/>
+    <path d="M 110 160 Q 145 135 180 160 Z" fill="#111318"/>
+    
+    <!-- Main Bridge Structure -->
+    <path d="M 30 165 C 50 145, 190 145, 210 165 L 215 175 C 190 155, 50 155, 25 175 Z" fill="#3E4C59"/>
+    
+    <!-- Bridge Deck (Top surface) -->
+    <path d="M 25 155 L 215 155 L 210 148 L 30 148 Z" fill="#627D98"/>
+    
+    <!-- Weathered stone texture blocks -->
+    <line x1="70" y1="148" x2="65" y2="155" stroke="#1A1D24" stroke-width="1.5"/>
+    <line x1="120" y1="148" x2="115" y2="155" stroke="#1A1D24" stroke-width="1.5"/>
+    <line x1="165" y1="148" x2="160" y2="155" stroke="#1A1D24" stroke-width="1.5"/>
+
+    <!-- Pillars / Piers -->
+    <rect x="85" y="155" width="20" height="25" fill="#334155"/>
+    <rect x="145" y="155" width="20" height="25" fill="#334155"/>
+  </g>
+
+  <!-- Nature/Time Element: A resilient old tree growing on the bridge, battered but alive -->
+  <g id="resilient-tree">
+    <!-- Trunk -->
+    <path d="M 120 148 C 118 135, 122 120, 115 105" stroke="#486581" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 118 125 C 125 118, 130 115, 135 110" stroke="#486581" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- Foliage (Vibrant gold/orange accent representing surviving and thriving through time) -->
+    <circle cx="112" cy="98" r="14" fill="#F0B429" opacity="0.9"/>
+    <circle cx="132" cy="104" r="10" fill="#E2863B" opacity="0.9"/>
+    <circle cx="122" cy="88" r="11" fill="#F0B429"/>
+  </g>
+
+  <!-- Dynamic Action/Motion Indicators (Sweeping arc showing the passage/enduring of time and trials) -->
+  <path d="M 50 90 C 80 60, 160 60, 190 90" stroke="#F0B429" stroke-width="3" stroke-dasharray="6 6" fill="none" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Focus Arrowhead on the motion path -->
+  <path d="M 183 83 L 191 91 L 181 94" fill="none" stroke="#F0B429" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Ground Line -->
+  <rect x="20" y="180" width="200" height="4" rx="2" fill="#334155"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Stack of historical records/documents representing "历年" (the years past) -->
+  <!-- Base layer -->
+  <rect x="60" y="150" width="120" height="15" rx="2" fill="#3B4252"/>
+  <rect x="65" y="145" width="110" height="5" rx="2" fill="#4C566A"/>
+  
+  <!-- Middle layers -->
+  <rect x="60" y="125" width="120" height="20" rx="2" fill="#4C566A"/>
+  <rect x="65" y="120" width="110" height="5" rx="2" fill="#5E6C84"/>
+  
+  <!-- Top layer (Gold accent to represent the record-breaking peak) -->
+  <rect x="60" y="95" width="120" height="25" rx="2" fill="#D8A030"/>
+  <rect x="65" y="90" width="110" height="5" rx="2" fill="#F0B440"/>
+  
+  <!-- Vertical markers/tabs on the side to show chronological order -->
+  <rect x="170" y="100" width="5" height="10" rx="1" fill="#1A1D24"/>
+  <rect x="170" y="130" width="5" height="10" rx="1" fill="#1A1D24"/>
+  <rect x="170" y="155" width="5" height="5" rx="1" fill="#1A1D24"/>
+  
+  <!-- Stylized pen/stylus resting on top to signify documentation of history -->
+  <path d="M150 85 L165 70 L175 80 L160 95 Z" fill="#E5E9F0"/>
+  <path d="M148 87 L158 97" stroke="#1A1D24" stroke-width="2"/>
+</svg>

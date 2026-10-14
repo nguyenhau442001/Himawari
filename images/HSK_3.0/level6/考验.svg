@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle elements -->
+  <path d="M40 190 L200 190" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+  <path d="M70 160 L170 160" stroke="#2A2F3D" stroke-width="1.5" stroke-dasharray="4 4" stroke-linecap="round"/>
+
+  <!-- Physical Object representing "Kǎoyàn" (Trial/Testing anvil and hammer concept or sturdy pillar under pressure) -->
+  <!-- Let's represent it as a heavy, industrial testing apparatus / anvil with a glowing bright gold core undergoing stress, representing rigorous trial -->
+  
+  <!-- Base anvil stand -->
+  <path d="M80 190 L160 190 L145 155 L95 155 Z" fill="#313848"/>
+  <rect x="100" y="140" width="40" height="15" fill="#40495E"/>
+
+  <!-- Anvil body -->
+  <path d="M75 110 C75 100 85 95 100 95 L140 95 C155 95 165 100 165 110 L165 130 C165 140 155 140 140 140 L100 140 C85 140 75 140 75 130 Z" fill="#525E75"/>
+  
+  <!-- Anvil horn (left) -->
+  <path d="M75 110 L50 115 L50 125 L75 130 Z" fill="#40495E"/>
+
+  <!-- Center core / subject of test under intense fiery gold pressure/heat -->
+  <!-- Glowing test diamond/core -->
+  <polygon points="120,55 142,77 120,99 98,77" fill="#F59E0B"/>
+  <polygon points="120,62 135,77 120,92 105,77" fill="#FDE68A"/>
+
+  <!-- Fiery pressure / energy aura representing harsh trials (艰难困苦) -->
+  <path d="M120 40 L125 50 L115 50 Z" fill="#EF4444"/>
+  <path d="M90 65 L98 70 L93 75 Z" fill="#F97316"/>
+  <path d="M150 65 L142 70 L147 75 Z" fill="#F97316"/>
+  
+  <!-- Descending strike force (Hammer/Pressure) -->
+  <path d="M105 20 L135 20 L140 38 L100 38 Z" fill="#64748B"/>
+  <rect x="115" y="38" width="10" height="20" fill="#475569"/>
+  
+  <!-- Motion action lines representing the weight/test -->
+  <path d="M110 12 L110 18" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M130 12 L130 18" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Sparks of trial -->
+  <circle cx="85" cy="85" r="2.5" fill="#FBBF24"/>
+  <circle cx="155" cy="85" r="2" fill="#FBBF24"/>
+  <circle cx="138" cy="48" r="2" fill="#EF4444"/>
+  <circle cx="102" cy="48" r="1.5" fill="#F97316"/>
+</svg>
