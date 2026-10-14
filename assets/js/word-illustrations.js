@@ -23457,6 +23457,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level2/出国.svg",
     "caption": "đi nước ngoài"
   },
+  "出来": {
+    "file": "出来.svg",
+    "src": "images/HSK_3.0/level2/出来.svg",
+    "caption": "đi ra"
+  },
+  "出门": {
+    "file": "出门.svg",
+    "src": "images/HSK_3.0/level2/出门.svg",
+    "caption": "đi ra ngoài"
+  },
+  "出去": {
+    "file": "出去.svg",
+    "src": "images/HSK_3.0/level2/出去.svg",
+    "caption": "đi ra ngoài"
+  },
   "床": {
     "file": "床.svg",
     "src": "images/HSK_3.0/level2/床.svg",
@@ -23627,10 +23642,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level2/里面.svg",
     "caption": "bên trong"
   },
+  "路上": {
+    "file": "路上.svg",
+    "src": "images/HSK_3.0/level2/路上.svg",
+    "caption": "trên đường"
+  },
   "绿茶": {
     "file": "绿茶.svg",
     "src": "images/HSK_3.0/level2/绿茶.svg",
     "caption": "trà xanh"
+  },
+  "绿色": {
+    "file": "绿色.svg",
+    "src": "images/HSK_3.0/level2/绿色.svg",
+    "caption": "xanh"
+  },
+  "没意思": {
+    "file": "没意思.svg",
+    "src": "images/HSK_3.0/level2/没意思.svg",
+    "caption": "không thú vị, buồn chán"
+  },
+  "门口": {
+    "file": "门口.svg",
+    "src": "images/HSK_3.0/level2/门口.svg",
+    "caption": "cổng, cửa, trước cửa"
+  },
+  "门票": {
+    "file": "门票.svg",
+    "src": "images/HSK_3.0/level2/门票.svg",
+    "caption": "vé vào cửa, vé vào cổng"
   },
   "面¹": {
     "file": "面¹.svg",
@@ -23792,10 +23832,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level2/药店.svg",
     "caption": "hiệu thuốc, tiệm thuốc"
   },
+  "因为": {
+    "file": "因为.svg",
+    "src": "images/HSK_3.0/level2/因为.svg",
+    "caption": "bởi vì"
+  },
+  "游": {
+    "file": "游.svg",
+    "src": "images/HSK_3.0/level2/游.svg",
+    "caption": "bơi (bơi lội)"
+  },
+  "有意思": {
+    "file": "有意思.svg",
+    "src": "images/HSK_3.0/level2/有意思.svg",
+    "caption": "thú vị"
+  },
+  "有时": {
+    "file": "有时.svg",
+    "src": "images/HSK_3.0/level2/有时.svg",
+    "caption": "đôi khi"
+  },
   "右": {
     "file": "右.svg",
     "src": "images/HSK_3.0/level2/右.svg",
     "caption": "bên phải, phía hữu"
+  },
+  "站¹": {
+    "file": "站¹.svg",
+    "src": "images/HSK_3.0/level2/站¹.svg",
+    "caption": "ga, bến; đứng"
   },
   "这么": {
     "file": "这么.svg",

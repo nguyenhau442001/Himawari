@@ -1,0 +1,34 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background room setting subtly indicated -->
+  <path d="M40 190 L200 190" stroke="#2A2E39" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Character slumped on a simple chair/sofa -->
+  <!-- Chair/Couch -->
+  <path d="M70 140 L170 140 L180 180 L60 180 Z" fill="#2C3240"/>
+  <rect x="75" y="110" width="90" height="40" rx="6" fill="#363C4D"/>
+
+  <!-- Slumped Person -->
+  <!-- Legs hanging off -->
+  <path d="M90 140 L85 180 L105 180 L110 150" fill="#4B6584"/>
+  
+  <!-- Torso slumped backward -->
+  <path d="M90 140 L120 120 L140 150 L105 160 Z" fill="#57606F"/>
+
+  <!-- Head hanging back, bored expression implied by posture -->
+  <circle cx="130" cy="110" r="14" fill="#ECCC68"/>
+
+  <!-- Arm dangling down lazily -->
+  <path d="M125 135 L105 165" stroke="#57606F" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Phone dropped/held limply in hand near the floor -->
+  <rect x="95" y="165" width="18" height="10" rx="2" fill="#FFA502" transform="rotate(-15 104 170)"/>
+  <!-- Phone screen glow pointing downward -->
+  <path d="M90 178 L105 183 L100 175 Z" fill="#70A1FF" opacity="0.6"/>
+
+  <!-- Subtle visual boredom lines / heavy atmosphere -->
+  <path d="M150 95 C150 90 160 85 155 80" stroke="#4B6584" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M162 102 C162 97 172 92 167 87" stroke="#4B6584" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+</svg>

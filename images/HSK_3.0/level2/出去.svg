@@ -1,0 +1,78 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Rain effect for contextual reference "因为下雨" -->
+  <g opacity="0.3" stroke="#64B5F6" stroke-width="1.5" stroke-linecap="round">
+    <line x1="30" y1="30" x2="20" y2="50" />
+    <line x1="60" y1="20" x2="50" y2="40" />
+    <line x1="90" y1="35" x2="80" y2="55" />
+    <line x1="120" y1="15" x2="110" y2="35" />
+    
+    <line x1="25" y1="60" x2="15" y2="80" />
+    <line x1="55" y1="50" x2="45" y2="70" />
+    <line x1="85" y1="65" x2="75" y2="85" />
+    <line x1="115" y1="45" x2="105" y2="65" />
+  </g>
+
+  <!-- Indoor Environment / Doorframe Structure -->
+  <!-- Inner room floor & wall -->
+  <path d="M15 200 L120 180 L120 60 L15 60 Z" fill="#222730"/>
+  <!-- Outdoor ground -->
+  <path d="M120 180 L225 200 L225 60 L120 60 Z" fill="#283142"/>
+  <!-- Floor line -->
+  <line x1="15" y1="180" x2="225" y2="200" stroke="#15181E" stroke-width="3"/>
+
+  <!-- Open Doorway (The threshold of "出去" - going out) -->
+  <path d="M100 50 L140 50 L140 195 L100 187 Z" fill="#111317"/>
+  <!-- Door frame -->
+  <rect x="95" y="45" width="50" height="150" rx="2" fill="none" stroke="#3A4454" stroke-width="4"/>
+  <!-- Opened Door Panel (angled inward/outward) -->
+  <path d="M97 48 L80 60 L80 182 L97 185 Z" fill="#2C3544" stroke="#4A5568" stroke-width="2"/>
+  <circle cx="88" cy="115" r="3" fill="#E5C158"/>
+
+  <!-- Character performing the action "出去" (stepping across the threshold) -->
+  <!-- Motion lines indicating movement from inside to outside -->
+  <g opacity="0.7" stroke="#E5C158" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M90 120 C100 115 110 115 120 120" />
+    <path d="M105 135 C115 130 125 130 135 135" />
+  </g>
+
+  <!-- Human Character -->
+  <g transform="translate(10, 0)">
+    <!-- Back leg (inside) -->
+    <path d="M100 145 L90 170 L100 173" fill="none" stroke="#374151" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Torso -->
+    <path d="M90 100 L105 105 L100 145 L85 140 Z" fill="#4F46E5"/>
+    <!-- Head -->
+    <circle cx="97" cy="85" r="10" fill="#FFD166"/>
+    <!-- Hair -->
+    <path d="M87 83 C88 75 105 75 107 83 Z" fill="#2B2D42"/>
+    <!-- Front leg (stepping outside/forward) -->
+    <path d="M95 140 L115 155 L130 155" fill="none" stroke="#374151" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Front arm (reaching forward to the outside world) -->
+    <path d="M98 108 L125 125 L135 120" fill="none" stroke="#4F46E5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Hand -->
+    <circle cx="137" cy="118" r="3.5" fill="#FFD166"/>
+  </g>
+
+  <!-- Outdoor elements (bright, welcoming space awaiting outside) -->
+  <g transform="translate(140, 70)">
+    <!-- Small outdoor tree/plant -->
+    <path d="M45 100 L45 80" stroke="#8D6E63" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="45" cy="70" r="14" fill="#66BB6A" opacity="0.9"/>
+    <circle cx="38" cy="75" r="10" fill="#81C784" opacity="0.9"/>
+    
+    <!-- Sun / light ray accent indicating open exterior -->
+    <circle cx="65" cy="30" r="12" fill="#E5C158" opacity="0.8"/>
+    <path d="M65 10 L65 6" stroke="#E5C158" stroke-width="2" stroke-linecap="round"/>
+    <path d="M45 30 L41 30" stroke="#E5C158" stroke-width="2" stroke-linecap="round"/>
+    <path d="M51 16 L48 13" stroke="#E5C158" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Arrow icon signifying directional action (Outward / 出去) -->
+  <g transform="translate(130, 25)">
+    <path d="M0 12 L24 12" stroke="#E5C158" stroke-width="3" stroke-linecap="round"/>
+    <path d="M16 5 L24 12 L16 19" fill="none" stroke="#E5C158" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

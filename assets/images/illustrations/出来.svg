@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- House structure representing "家" (Home) in "从家里出来了" -->
+  <g id="house-context">
+    <!-- House wall / interior shade -->
+    <path d="M70 100 L70 190 L170 190 L170 100 Z" fill="#222733"/>
+    <!-- Doorway frame (dark interior) -->
+    <path d="M100 120 L100 190 L140 190 L140 120 Z" fill="#14171F"/>
+    <!-- House roof -->
+    <path d="M55 100 L120 50 L185 100 Z" fill="#2A303C"/>
+    <!-- Warm interior light spilling out through the doorway -->
+    <path d="M102 122 L102 190 L138 190 L138 122 Z" fill="#2C2E3B"/>
+    <ellipse cx="120" cy="190" rx="18" ry="6" fill="#FFA726" opacity="0.15"/>
+  </g>
+
+  <!-- Motion lines indicating outward movement (出来) -->
+  <g id="motion-lines" opacity="0.8">
+    <path d="M 125 155 Q 145 155 160 150" stroke="#FFA726" stroke-width="2.5" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+    <path d="M 130 165 Q 150 165 175 160" stroke="#FFA726" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M 135 175 Q 155 175 190 170" stroke="#FFA726" stroke-width="2.5" stroke-linecap="round" fill="none" stroke-dasharray="6 4"/>
+    <!-- Arrowhead showing direction out -->
+    <polygon points="190,166 198,170 190,174" fill="#FFA726"/>
+  </g>
+
+  <!-- Human Character stepping OUT (Dynamic action for verb) -->
+  <g id="character-stepping-out">
+    <!-- Back leg (inside/stepping) -->
+    <path d="M 120 160 L 135 185 L 145 185" stroke="#4F5D75" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Body / Torso -->
+    <path d="M 125 125 L 135 165 L 115 165 Z" fill="#4A90E2"/>
+    <!-- Head -->
+    <circle cx="125" cy="110" r="11" fill="#FFD166"/>
+    <!-- Hair -->
+    <path d="M 114 108 C 114 100, 136 100, 136 108 Z" fill="#333333"/>
+    
+    <!-- Front arm (reaching forward/out) -->
+    <path d="M 130 135 L 155 145 L 170 140" stroke="#4A90E2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Back arm -->
+    <path d="M 120 135 L 105 150" stroke="#3A7BC8" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Front leg (stepping forward out of the house) -->
+    <path d="M 130 160 L 160 170 L 180 185" stroke="#5C6E8C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Shoe -->
+    <ellipse cx="184" cy="186" rx="6" ry="3" fill="#FFA726"/>
+  </g>
+
+  <!-- Ground plane outside the house -->
+  <path d="M 30 190 L 210 190" stroke="#2A303C" stroke-width="3" stroke-linecap="round"/>
+</svg>

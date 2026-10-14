@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Architectural context: Building facade representing "thư viện" (library) or institutional entrance -->
+  <!-- Building wall -->
+  <path d="M50 200V80L120 45L190 80V200H50Z" fill="#222732"/>
+  
+  <!-- Architectural details: pillars and windows -->
+  <rect x="65" y="95" width="22" height="40" rx="3" fill="#2A313E"/>
+  <rect x="95" y="95" width="22" height="40" rx="3" fill="#2A313E"/>
+  <rect x="123" y="95" width="22" height="40" rx="3" fill="#2A313E"/>
+  <rect x="153" y="95" width="22" height="40" rx="3" fill="#2A313E"/>
+
+  <!-- Roof accent / Library sign outline -->
+  <polygon points="120,32 202,74 38,74" fill="#2A313E"/>
+  <polygon points="120,38 196,76 44,76" fill="#222732"/>
+
+  <!-- Ground / Plaza floor -->
+  <rect x="20" y="195" width="200" height="15" rx="3" fill="#2E3646"/>
+  <rect x="30" y="210" width="180" height="5" rx="2" fill="#252B37"/>
+
+  <!-- THE CENTRAL OBJECT: "Cổng / Cửa / Trước cửa" (Doorway / Entrance) -->
+  <!-- Door frame (Deep recess) -->
+  <rect x="94" y="115" width="52" height="85" fill="#14171E"/>
+  
+  <!-- Glass double doors with warm interior light -->
+  <rect x="98" y="119" width="21" height="81" fill="#FFB703" opacity="0.15"/>
+  <rect x="121" y="119" width="21" height="81" fill="#FFB703" opacity="0.15"/>
+  
+  <!-- Door panel frames & handles -->
+  <rect x="98" y="119" width="21" height="81" rx="2" fill="none" stroke="#3A4456" stroke-width="2"/>
+  <rect x="121" y="119" width="21" height="81" rx="2" fill="none" stroke="#3A4456" stroke-width="2"/>
+  <circle cx="114" cy="160" r="2" fill="#FFB703"/>
+  <circle cx="126" cy="160" r="2" fill="#FFB703"/>
+
+  <!-- Archway / Portal structure highlight -->
+  <path d="M88 112H152V200H148V116H92V200H88V112Z" fill="#3E4A5E"/>
+  <rect x="84" y="106" width="72" height="8" rx="2" fill="#4E5D75"/>
+
+  <!-- Visual anchor representing "Trước cửa" (Meeting spot / Focus point) -->
+  <!-- Glowing floor marker / Destination indicator at the exact threshold -->
+  <ellipse cx="120" cy="202" rx="24" ry="7" fill="#FFB703" opacity="0.3"/>
+  <ellipse cx="120" cy="202" rx="14" ry="4" fill="#FFB703" opacity="0.8"/>
+
+  <!-- Minimalist stylistic elements to enhance modern flat vector aesthetic -->
+  <!-- Subtle warm lighting aura from the open doorway casting outward -->
+  <path d="M96 200L75 218H165L144 200H96Z" fill="#FFB703" opacity="0.06"/>
+</svg>

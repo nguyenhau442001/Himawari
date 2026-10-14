@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T18:21:45.932932",
-  "total_unique_words_with_illustrations": 5883,
-  "total_flat_svg_files": 5883,
+  "generated_at": "2026-10-14T18:22:46.441947",
+  "total_unique_words_with_illustrations": 5896,
+  "total_flat_svg_files": 5896,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -43,8 +43,8 @@
       },
       "level2": {
         "total": 200,
-        "with_svg": 187,
-        "pct": "93.5%"
+        "with_svg": 200,
+        "pct": "100.0%"
       },
       "level3": {
         "total": 500,
@@ -88585,6 +88585,48 @@
       "src": "images/HSK_3.0/level2/出国.svg",
       "alt_srcs": []
     },
+    "出来": {
+      "hanzi": "出来",
+      "pinyin": "chūlái",
+      "meaning": "đi ra",
+      "example_zh": "他从家里<u>出来</u>了",
+      "example_vi": "Anh ấy đã ra khỏi nhà.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "出来.svg",
+      "src": "images/HSK_3.0/level2/出来.svg",
+      "alt_srcs": []
+    },
+    "出门": {
+      "hanzi": "出门",
+      "pinyin": "chūmén",
+      "meaning": "đi ra ngoài",
+      "example_zh": "我正要<u>出门</u>，偏偏下起了雨",
+      "example_vi": "Tôi đang muốn ra ngoài thì lại cứ đổ mưa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "出门.svg",
+      "src": "images/HSK_3.0/level2/出门.svg",
+      "alt_srcs": []
+    },
+    "出去": {
+      "hanzi": "出去",
+      "pinyin": "chūqù",
+      "meaning": "đi ra ngoài",
+      "example_zh": "因为下雨，所以我们没<u>出去</u>",
+      "example_vi": "Vì trời mưa, nên chúng tôi không ra ngoài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "出去.svg",
+      "src": "images/HSK_3.0/level2/出去.svg",
+      "alt_srcs": []
+    },
     "床": {
       "hanzi": "床",
       "pinyin": "chuáng",
@@ -89061,6 +89103,20 @@
       "src": "images/HSK_3.0/level2/里面.svg",
       "alt_srcs": []
     },
+    "路上": {
+      "hanzi": "路上",
+      "pinyin": "lùshang",
+      "meaning": "trên đường",
+      "example_zh": "上班<u>路上</u>车水马龙，非常热闹。",
+      "example_vi": "<u>Trên đường</u> đi làm xe cộ tấp nập, vô cùng náo nhiệt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "路上.svg",
+      "src": "images/HSK_3.0/level2/路上.svg",
+      "alt_srcs": []
+    },
     "绿茶": {
       "hanzi": "绿茶",
       "pinyin": "lǜchá",
@@ -89073,6 +89129,62 @@
       ],
       "file": "绿茶.svg",
       "src": "images/HSK_3.0/level2/绿茶.svg",
+      "alt_srcs": []
+    },
+    "绿色": {
+      "hanzi": "绿色",
+      "pinyin": "lǜsè",
+      "meaning": "xanh",
+      "example_zh": "这片叶子是<u>绿色</u>的",
+      "example_vi": "Lá cây này có màu xanh lá.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "绿色.svg",
+      "src": "images/HSK_3.0/level2/绿色.svg",
+      "alt_srcs": []
+    },
+    "没意思": {
+      "hanzi": "没意思",
+      "pinyin": "méi yìsi",
+      "meaning": "không thú vị, buồn chán",
+      "example_zh": "一直坐在家里玩手机太<u>没意思</u>了，出去散步吧。",
+      "example_vi": "Cứ ngồi lì ở nhà bấm điện thoại thật <u>chán ngắt</u>, ra ngoài đi dạo đi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "没意思.svg",
+      "src": "images/HSK_3.0/level2/没意思.svg",
+      "alt_srcs": []
+    },
+    "门口": {
+      "hanzi": "门口",
+      "pinyin": "ménkǒu",
+      "meaning": "cổng, cửa, trước cửa",
+      "example_zh": "我们在图书馆<u>门口</u>不见不散。",
+      "example_vi": "Chúng ta gặp nhau trước <u>cửa</u> thư viện nhé, không gặp không về.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "门口.svg",
+      "src": "images/HSK_3.0/level2/门口.svg",
+      "alt_srcs": []
+    },
+    "门票": {
+      "hanzi": "门票",
+      "pinyin": "ménpiào",
+      "meaning": "vé vào cửa, vé vào cổng",
+      "example_zh": "参观这家博物馆是不需要购买<u>门票</u>的。",
+      "example_vi": "Tham quan bảo tàng này là không cần mua <u>vé vào cửa</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "门票.svg",
+      "src": "images/HSK_3.0/level2/门票.svg",
       "alt_srcs": []
     },
     "面¹": {
@@ -89526,6 +89638,62 @@
       "src": "images/HSK_3.0/level2/药店.svg",
       "alt_srcs": []
     },
+    "因为": {
+      "hanzi": "因为",
+      "pinyin": "yīnwèi",
+      "meaning": "bởi vì",
+      "example_zh": "<u>因为</u>下雨，所以我们没出去",
+      "example_vi": "Vì trời mưa, nên chúng tôi không ra ngoài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "因为.svg",
+      "src": "images/HSK_3.0/level2/因为.svg",
+      "alt_srcs": []
+    },
+    "游": {
+      "hanzi": "游",
+      "pinyin": "yóu",
+      "meaning": "bơi (bơi lội)",
+      "example_zh": "夏天他几乎每天都要去泳池<u>游</u>上一个小时。",
+      "example_vi": "Mùa hè hầu như ngày nào anh ấy cũng đến hồ bơi <u>bơi</u> một tiếng đồng hồ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "游.svg",
+      "src": "images/HSK_3.0/level2/游.svg",
+      "alt_srcs": []
+    },
+    "有意思": {
+      "hanzi": "有意思",
+      "pinyin": "yǒu yìsi",
+      "meaning": "thú vị",
+      "example_zh": "这个问题很<u>有意思</u>",
+      "example_vi": "Câu hỏi này rất thú vị.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "有意思.svg",
+      "src": "images/HSK_3.0/level2/有意思.svg",
+      "alt_srcs": []
+    },
+    "有时": {
+      "hanzi": "有时",
+      "pinyin": "yǒushí",
+      "meaning": "đôi khi",
+      "example_zh": "老实人<u>有时</u>会吃亏",
+      "example_vi": "Người thật thà đôi khi sẽ chịu thiệt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "有时.svg",
+      "src": "images/HSK_3.0/level2/有时.svg",
+      "alt_srcs": []
+    },
     "右": {
       "hanzi": "右",
       "pinyin": "yòu",
@@ -89538,6 +89706,20 @@
       ],
       "file": "右.svg",
       "src": "images/HSK_3.0/level2/右.svg",
+      "alt_srcs": []
+    },
+    "站¹": {
+      "hanzi": "站¹",
+      "pinyin": "zhàn",
+      "meaning": "ga, bến; đứng",
+      "example_zh": "下一<u>站</u>是火车站。",
+      "example_vi": "Bến tiếp theo là <u>ga</u> tàu hỏa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level2"
+      ],
+      "file": "站¹.svg",
+      "src": "images/HSK_3.0/level2/站¹.svg",
       "alt_srcs": []
     },
     "这么": {

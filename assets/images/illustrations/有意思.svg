@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Glowing Question Mark / Puzzle Concept -->
+  <!-- Ambient glow background for the central object -->
+  <circle cx="120" cy="115" r="55" fill="#2D323E" opacity="0.6"/>
+  <circle cx="120" cy="115" r="40" fill="#363C4E" opacity="0.4"/>
+  
+  <!-- Floating decorative elements representing "interest/fascination" -->
+  <circle cx="75" cy="85" r="4" fill="#FFC107" opacity="0.8"/>
+  <circle cx="168" cy="85" r="5" fill="#FF9800" opacity="0.9"/>
+  <circle cx="155" cy="155" r="3" fill="#FFC107" opacity="0.7"/>
+  <circle cx="85" cy="150" r="4.5" fill="#4CAF50" opacity="0.9"/>
+  
+  <!-- Sparkle accents -->
+  <path d="M175 110 L178 118 L186 121 L178 124 L175 132 L172 124 L164 121 L172 118 Z" fill="#FFC107" opacity="0.85"/>
+  <path d="M65 115 L67 120 L72 122 L67 124 L65 129 L63 124 L58 122 L63 120 Z" fill="#FF9800" opacity="0.8"/>
+  
+  <!-- Central Physical Object: A sleek, modern 3D-styled Question Mark inside a magnifying glass / puzzle aesthetic -->
+  <!-- Magnifying Glass handle -->
+  <path d="M136 136 L165 165 C170 170 177 170 182 165 C187 160 187 153 182 148 L153 119 Z" fill="#2E3440"/>
+  <path d="M142 142 L162 162 C165 165 169 165 172 162 C175 159 175 155 172 152 L152 132 Z" fill="#4C566A"/>
+  
+  <!-- Magnifying glass rim -->
+  <circle cx="105" cy="105" r="45" fill="none" stroke="#E5E9F0" stroke-width="8"/>
+  <circle cx="105" cy="105" r="45" fill="#2E3440" opacity="0.85"/>
+  
+  <!-- The Question Mark (Representing the "Question" / Problem aspect of "这个问题很有意思") -->
+  <path d="M96 78 C96 68 104 60 114 60 C124 60 132 68 132 78 C132 86 125 91 119 96 C115 99 112 102 112 108 L112 112" fill="none" stroke="#FFB703" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="112" cy="136" r="5.5" fill="#FFB703"/>
+  
+  <!-- Little glowing sparks emanating from the question mark -->
+  <path d="M114 45 L116 52 L123 54 L116 56 L114 63 L112 56 L105 54 L112 52 Z" fill="#FFB703"/>
+
+  <!-- Base UI/Card footer accent -->
+  <rect x="90" y="200" width="60" height="4" rx="2" fill="#FFB703" opacity="0.8"/>
+</svg>
