@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Clipboard base -->
+  <rect x="80" y="50" width="80" height="110" rx="4" fill="#E0E0E0"/>
+  
+  <!-- Clipboard clip -->
+  <rect x="95" y="45" width="50" height="10" rx="2" fill="#BDBDBD"/>
+  
+  <!-- Document lines representing order items -->
+  <rect x="95" y="70" width="50" height="6" rx="1" fill="#333"/>
+  <rect x="95" y="85" width="50" height="6" rx="1" fill="#333"/>
+  <rect x="95" y="100" width="50" height="6" rx="1" fill="#333"/>
+  <rect x="95" y="115" width="30" height="6" rx="1" fill="#333"/>
+  
+  <!-- Checkmark icon indicating confirmed order -->
+  <circle cx="120" cy="175" r="20" fill="#FFA000"/>
+  <path d="M110 175 L117 182 L132 168" stroke="#1A1D24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Decorative accent lines -->
+  <line x1="160" y1="60" x2="180" y2="60" stroke="#FFA000" stroke-width="2" stroke-linecap="round"/>
+  <line x1="160" y1="70" x2="175" y2="70" stroke="#FFA000" stroke-width="2" stroke-linecap="round"/>
+</svg>

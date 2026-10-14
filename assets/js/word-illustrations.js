@@ -30351,6 +30351,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "穿过.svg",
     "src": "images/HSK_3.0/level6/穿过.svg",
     "caption": "đi qua"
+  },
+  "传承": {
+    "file": "传承.svg",
+    "src": "images/HSK_3.0/level6/传承.svg",
+    "caption": "kế thừa và phát huy, lưu truyền"
+  },
+  "传染病": {
+    "file": "传染病.svg",
+    "src": "images/HSK_3.0/level6/传染病.svg",
+    "caption": "bệnh truyền nhiễm"
+  },
+  "传输": {
+    "file": "传输.svg",
+    "src": "images/HSK_3.0/level6/传输.svg",
+    "caption": "truyền tải, truyền dẫn (dữ liệu)"
+  },
+  "船只": {
+    "file": "船只.svg",
+    "src": "images/HSK_3.0/level6/船只.svg",
+    "caption": "tàu thuyền, thuyền bè"
+  },
+  "窗口": {
+    "file": "窗口.svg",
+    "src": "images/HSK_3.0/level6/窗口.svg",
+    "caption": "quầy giao dịch, cửa sổ"
+  },
+  "创办": {
+    "file": "创办.svg",
+    "src": "images/HSK_3.0/level6/创办.svg",
+    "caption": "thành lập, sáng lập (công ty, trường học)"
+  },
+  "创建": {
+    "file": "创建.svg",
+    "src": "images/HSK_3.0/level6/创建.svg",
+    "caption": "tạo lập, xây dựng, kiến tạo"
+  },
+  "创意": {
+    "file": "创意.svg",
+    "src": "images/HSK_3.0/level6/创意.svg",
+    "caption": "ý tưởng sáng tạo, tính sáng tạo"
+  },
+  "纯": {
+    "file": "纯.svg",
+    "src": "images/HSK_3.0/level6/纯.svg",
+    "caption": "nguyên chất, thuần khiết, đơn thuần"
+  },
+  "瓷器": {
+    "file": "瓷器.svg",
+    "src": "images/HSK_3.0/level6/瓷器.svg",
+    "caption": "sứ"
+  },
+  "此刻": {
+    "file": "此刻.svg",
+    "src": "images/HSK_3.0/level6/此刻.svg",
+    "caption": "lúc này, giờ phút này, thời khắc này"
+  },
+  "次数": {
+    "file": "次数.svg",
+    "src": "images/HSK_3.0/level6/次数.svg",
+    "caption": "số lần"
+  },
+  "匆匆": {
+    "file": "匆匆.svg",
+    "src": "images/HSK_3.0/level6/匆匆.svg",
+    "caption": "vội vã, hối hả, vội vàng"
+  },
+  "从未": {
+    "file": "从未.svg",
+    "src": "images/HSK_3.0/level6/从未.svg",
+    "caption": "không bao giờ"
+  },
+  "从业": {
+    "file": "从业.svg",
+    "src": "images/HSK_3.0/level6/从业.svg",
+    "caption": "hành nghề, làm việc trong ngành"
+  },
+  "脆": {
+    "file": "脆.svg",
+    "src": "images/HSK_3.0/level6/脆.svg",
+    "caption": "giòn (đồ ăn giòn, tiếng giòn tan)"
+  },
+  "村庄": {
+    "file": "村庄.svg",
+    "src": "images/HSK_3.0/level6/村庄.svg",
+    "caption": "làng"
+  },
+  "存储": {
+    "file": "存储.svg",
+    "src": "images/HSK_3.0/level6/存储.svg",
+    "caption": "lưu trữ (dữ liệu, bộ nhớ)"
+  },
+  "寸": {
+    "file": "寸.svg",
+    "src": "images/HSK_3.0/level6/寸.svg",
+    "caption": "tấc, thốn (đơn vị đo, ~3.33cm); một tấc"
+  },
+  "打动": {
+    "file": "打动.svg",
+    "src": "images/HSK_3.0/level6/打动.svg",
+    "caption": "làm rung động, lay động, làm cảm động"
+  },
+  "打卡": {
+    "file": "打卡.svg",
+    "src": "images/HSK_3.0/level6/打卡.svg",
+    "caption": "chấm công; check-in (địa điểm)"
+  },
+  "打雷": {
+    "file": "打雷.svg",
+    "src": "images/HSK_3.0/level6/打雷.svg",
+    "caption": "sấm sét"
+  },
+  "打造": {
+    "file": "打造.svg",
+    "src": "images/HSK_3.0/level6/打造.svg",
+    "caption": "xây dựng, đúc tạo, kiến tạo"
+  },
+  "大吃一惊": {
+    "file": "大吃一惊.svg",
+    "src": "images/HSK_3.0/level6/大吃一惊.svg",
+    "caption": "giật mình, kinh ngạc, sửng sốt"
+  },
+  "大地": {
+    "file": "大地.svg",
+    "src": "images/HSK_3.0/level6/大地.svg",
+    "caption": "mặt đất, đất mẹ, đại địa"
+  },
+  "大都": {
+    "file": "大都.svg",
+    "src": "images/HSK_3.0/level6/大都.svg",
+    "caption": "hầu hết, phần lớn"
+  },
+  "大幅": {
+    "file": "大幅.svg",
+    "src": "images/HSK_3.0/level6/大幅.svg",
+    "caption": "đáng kể, biên độ lớn, mạnh mẽ"
+  },
+  "大伙儿": {
+    "file": "大伙儿.svg",
+    "src": "images/HSK_3.0/level6/大伙儿.svg",
+    "caption": "mọi người, cả nhóm"
+  },
+  "大使": {
+    "file": "大使.svg",
+    "src": "images/HSK_3.0/level6/大使.svg",
+    "caption": "đại sứ"
+  },
+  "大师": {
+    "file": "大师.svg",
+    "src": "images/HSK_3.0/level6/大师.svg",
+    "caption": "bậc thầy, đại sư"
+  },
+  "大洋洲": {
+    "file": "大洋洲.svg",
+    "src": "images/HSK_3.0/level6/大洋洲.svg",
+    "caption": "châu Đại Dương"
+  },
+  "担忧": {
+    "file": "担忧.svg",
+    "src": "images/HSK_3.0/level6/担忧.svg",
+    "caption": "lo âu, lo lắng, băn khoăn"
+  },
+  "当今": {
+    "file": "当今.svg",
+    "src": "images/HSK_3.0/level6/当今.svg",
+    "caption": "ngày nay, hiện nay, đương thời"
+  },
+  "当下": {
+    "file": "当下.svg",
+    "src": "images/HSK_3.0/level6/当下.svg",
+    "caption": "hiện tại, ngay lúc này, trước mắt"
+  },
+  "当天": {
+    "file": "当天.svg",
+    "src": "images/HSK_3.0/level6/当天.svg",
+    "caption": "ngay trong ngày, ngày hôm đó"
+  },
+  "倒车": {
+    "file": "倒车.svg",
+    "src": "images/HSK_3.0/level6/倒车.svg",
+    "caption": "lùi xe"
+  },
+  "导师": {
+    "file": "导师.svg",
+    "src": "images/HSK_3.0/level6/导师.svg",
+    "caption": "người hướng dẫn, giáo viên hướng dẫn, cố vấn"
+  },
+  "倒是": {
+    "file": "倒是.svg",
+    "src": "images/HSK_3.0/level6/倒是.svg",
+    "caption": "lại, thì có; ngược lại"
+  },
+  "得了": {
+    "file": "得了.svg",
+    "src": "images/HSK_3.0/level6/得了.svg",
+    "caption": "thôi đi, được rồi"
+  },
+  "得以": {
+    "file": "得以.svg",
+    "src": "images/HSK_3.0/level6/得以.svg",
+    "caption": "nhờ đó mà có thể, được"
+  },
+  "得知": {
+    "file": "得知.svg",
+    "src": "images/HSK_3.0/level6/得知.svg",
+    "caption": "biết được, nhận được tin"
+  },
+  "低碳": {
+    "file": "低碳.svg",
+    "src": "images/HSK_3.0/level6/低碳.svg",
+    "caption": "carbon thấp"
+  },
+  "地形": {
+    "file": "地形.svg",
+    "src": "images/HSK_3.0/level6/地形.svg",
+    "caption": "địa hình"
+  },
+  "地域": {
+    "file": "地域.svg",
+    "src": "images/HSK_3.0/level6/地域.svg",
+    "caption": "vùng miền, khu vực, địa vực"
+  },
+  "点击": {
+    "file": "点击.svg",
+    "src": "images/HSK_3.0/level6/点击.svg",
+    "caption": "bấm"
+  },
+  "点燃": {
+    "file": "点燃.svg",
+    "src": "images/HSK_3.0/level6/点燃.svg",
+    "caption": "thắp sáng, châm lửa; khơi dậy"
+  },
+  "电力": {
+    "file": "电力.svg",
+    "src": "images/HSK_3.0/level6/电力.svg",
+    "caption": "điện lực, nguồn điện"
+  },
+  "店铺": {
+    "file": "店铺.svg",
+    "src": "images/HSK_3.0/level6/店铺.svg",
+    "caption": "cửa hàng, tiệm buôn"
+  },
+  "钓鱼": {
+    "file": "钓鱼.svg",
+    "src": "images/HSK_3.0/level6/钓鱼.svg",
+    "caption": "câu cá"
+  },
+  "订单": {
+    "file": "订单.svg",
+    "src": "images/HSK_3.0/level6/订单.svg",
+    "caption": "đơn đặt hàng, đơn hàng"
   }
 };
 

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Scale Beam -->
+    <line x1="120" y1="75" x2="120" y2="175" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="120,65 110,80 130,80" fill="#718096"/>
+    <line x1="75" y1="95" x2="165" y2="115" stroke="#CBD5E0" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Left Pan (Heavy/Costly - Amber Glow) -->
+    <line x1="75" y1="95" x2="60" y2="135" stroke="#718096" stroke-width="2"/>
+    <line x1="75" y1="95" x2="90" y2="135" stroke="#718096" stroke-width="2"/>
+    <path d="M 55,135 Q 75,145 95,135 Z" fill="#4A5568"/>
+    <!-- Price Tag / Coin Object on Left -->
+    <circle cx="75" cy="122" r="14" fill="#D69E2E" opacity="0.8"/>
+    <text x="75" y="127" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1A1D24" text-anchor="middle">$</text>
+    
+    <!-- Right Pan (Exceeding Quality / Counter-weight - Bright Orange/Gold Accent) -->
+    <line x1="165" y1="115" x2="150" y2="155" stroke="#718096" stroke-width="2"/>
+    <line x1="165" y1="115" x2="180" y2="155" stroke="#718096" stroke-width="2"/>
+    <path d="M 145,155 Q 165,165 185,155 Z" fill="#4A5568"/>
+    
+    <!-- Premium Object: Glowing Gem/Diamond representing "Flawless Quality" (无可挑剔) -->
+    <polygon points="165,130 177,142 165,158 153,142" fill="#F6AD55"/>
+    <polygon points="165,130 177,142 153,142" fill="#ED8936"/>
+    <polygon points="165,142 177,142 165,158" fill="#DD6B20"/>
+    
+    <!-- Subtle Pivot Glow indicating unexpected shift / reversal (倒是) -->
+    <circle cx="120" cy="90" r="6" fill="#F6AD55"/>
+  </g>
+</svg>

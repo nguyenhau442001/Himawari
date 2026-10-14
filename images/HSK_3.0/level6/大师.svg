@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Master/Artist Figure -->
+    <path d="M-40 80 L40 80 L35 40 L-35 40 Z" fill="#34495E"/>
+    <circle cx="0" cy="10" r="35" fill="#F39C12"/>
+    <path d="M-15 -15 L-5 -15 M5 -15 L15 -15 M-10 5 Q0 15 10 5" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- Brush and Scroll elements -->
+    <path d="M-60 20 L-30 50" stroke="#BDC3C7" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-65 25 L-55 15" fill="#E74C3C"/>
+    <path d="M40 20 L70 50" fill="#ECF0F1"/>
+    <path d="M45 25 L75 55" fill="#BDC3C7"/>
+    
+    <!-- Artistic flourish representing mastery -->
+    <path d="M-20 -40 C-40 -60 -40 -80 -20 -90 C0 -100 20 -90 20 -70" stroke="#F39C12" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M10 -80 C30 -100 50 -100 60 -80" stroke="#F39C12" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

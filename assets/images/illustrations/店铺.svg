@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Store Front Structure -->
+  <path d="M60 180h120v-50c0-15-10-25-25-25H85c-15 0-25 10-25 25v50z" fill="#2D343E"/>
+  <path d="M70 180h100v-40c0-10-5-15-15-15H85c-10 0-15 5-15 15v40z" fill="#3D4654"/>
+  
+  <!-- Awning -->
+  <path d="M55 105h130l-10-20H65l-10 20z" fill="#FFB347"/>
+  <path d="M65 85l5-15h10l5 15M85 85l5-15h10l5 15M105 85l5-15h10l5 15M125 85l5-15h10l5 15M145 85l5-15h10l5 15" stroke="#FF9F1A" stroke-width="2" fill="none"/>
+  
+  <!-- Display Window -->
+  <rect x="85" y="130" width="70" height="40" rx="4" fill="#1A1D24" stroke="#FFB347" stroke-width="2"/>
+  
+  <!-- Items inside display -->
+  <circle cx="105" cy="150" r="8" fill="#FFD700"/>
+  <rect x="125" y="142" width="16" height="16" rx="2" fill="#FFD700"/>
+  
+  <!-- Door -->
+  <rect x="100" y="140" width="40" height="40" rx="4" fill="#2D343E"/>
+  <path d="M110 160h20v20h-20z" fill="#3D4654"/>
+  <circle cx="132" cy="160" r="3" fill="#FFB347"/>
+  
+  <!-- Signage/Lighting -->
+  <circle cx="180" cy="110" r="6" fill="#FFB347"/>
+  <path d="M180 116v10" stroke="#FFB347" stroke-width="2" stroke-linecap="round"/>
+</svg>

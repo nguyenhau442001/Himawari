@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character representing the audience/viewer -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-40 80 C-40 40, -20 20, 0 20 C20 20, 40 40, 40 80" fill="#4A5568"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="30" fill="#E2E8F0"/>
+    <!-- Eye showing emotion (closed, touched) -->
+    <path d="M-15 -15 Q-5 -22 5 -15" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Hand on chest -->
+    <path d="M-10 30 L-25 45 L-15 55 L0 40" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Visual representation of the "impact" (the movie/story) -->
+  <g transform="translate(180, 60)">
+    <!-- Film strip element -->
+    <rect x="-20" y="-20" width="40" height="40" rx="4" fill="#F6AD55"/>
+    <!-- Motion/Impact lines radiating from the character's heart area -->
+    <path d="M-70 70 L-90 50" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-80 80 L-100 80" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-70 90 L-90 110" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Subtle ripple effect on the character to show being "moved" -->
+  <circle cx="0" cy="120" r="50" stroke="#F6AD55" stroke-width="2" fill="none" opacity="0.3"/>
+  <circle cx="0" cy="120" r="70" stroke="#F6AD55" stroke-width="1" fill="none" opacity="0.2"/>
+</svg>

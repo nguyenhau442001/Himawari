@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle grid / circuit nodes -->
+  <g opacity="0.15" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 4">
+    <line x1="40" y1="120" x2="200" y2="120" />
+    <line x1="120" y1="40" x2="120" y2="200" />
+  </g>
+
+  <!-- Central Physical Object: High-tech Fiber Optic Transceiver / Server Rack Module (Noun representation for data transmission hardware) -->
+  <g transform="translate(0, 0)">
+    <!-- Main Chassis / Physical Object -->
+    <rect x="52" y="80" width="136" height="80" rx="8" fill="#252B3B" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Front Panel Details & Status LEDs -->
+    <rect x="64" y="96" width="32" height="48" rx="4" fill="#1E293B"/>
+    <circle cx="80" cy="112" r="3" fill="#38BDF8"/>
+    <circle cx="80" cy="128" r="3" fill="#10B981"/>
+
+    <!-- Dual Fiber Optic Ports -->
+    <rect x="112" y="100" width="28" height="40" rx="4" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+    <circle cx="126" cy="120" r="8" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="126" cy="120" r="4" fill="#1E293B"/>
+
+    <rect x="148" y="100" width="28" height="40" rx="4" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+    <circle cx="162" cy="120" r="8" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="162" cy="120" r="4" fill="#1E293B"/>
+
+    <!-- Ventilation Grille -->
+    <line x1="68" y1="152" x2="92" y2="152" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Dynamic Light Beams / Transmission Flow (Data payload emitting from ports) -->
+  <g>
+    <!-- Incoming / Outgoing high-speed light streams -->
+    <path d="M 28 120 L 52 120" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 188 120 L 212 120" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Light pulse particles streaming out -->
+    <circle cx="216" cy="120" r="3" fill="#F59E0B"/>
+    <circle cx="226" cy="120" r="2" fill="#F59E0B" opacity="0.6"/>
+    <circle cx="234" cy="120" r="1" fill="#F59E0B" opacity="0.3"/>
+
+    <circle cx="24" cy="120" r="3" fill="#38BDF8"/>
+    <circle cx="14" cy="120" r="2" fill="#38BDF8" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Foundation/Ground -->
+  <path d="M40 190 H200 V195 H40 Z" fill="#4A5568"/>
+  
+  <!-- Building Structure (The "Creation" - A warm, safe house) -->
+  <path d="M70 190 V120 L120 80 L170 120 V190 Z" fill="#2D3748" stroke="#F6AD55" stroke-width="2"/>
+  
+  <!-- Roof -->
+  <path d="M65 125 L120 80 L175 125 Z" fill="#F6AD55"/>
+  
+  <!-- Window -->
+  <rect x="90" y="130" width="20" height="20" fill="#1A1D24" stroke="#F6AD55" stroke-width="2"/>
+  <rect x="130" y="130" width="20" height="20" fill="#1A1D24" stroke="#F6AD55" stroke-width="2"/>
+  
+  <!-- Door -->
+  <rect x="110" y="150" width="20" height="40" fill="#F6AD55"/>
+  
+  <!-- Human interaction: Adult helping a child build the structure -->
+  <!-- Adult -->
+  <circle cx="190" cy="160" r="12" fill="#CBD5E0"/>
+  <path d="M190 172 V190 M190 180 L180 195 M190 180 L200 195 M190 175 L180 165" stroke="#CBD5E0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Child -->
+  <circle cx="50" cy="175" r="8" fill="#F6AD55"/>
+  <path d="M50 183 V190 M50 185 L45 195 M50 185 L55 195" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Construction element: A block being placed -->
+  <rect x="105" y="110" width="30" height="10" fill="#F6AD55"/>
+  <path d="M120 110 L120 100" stroke="#F6AD55" stroke-width="3"/>
+</svg>

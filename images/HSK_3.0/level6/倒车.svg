@@ -1,0 +1,60 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Context: Narrow Alley Walls -->
+  <path d="M20 40 L80 40 L80 220 L20 220 Z" fill="#242832"/>
+  <path d="M160 40 L220 40 L220 220 L160 220 Z" fill="#242832"/>
+
+  <!-- Alley Details / Brick Lines -->
+  <line x1="20" y1="70" x2="80" y2="70" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="20" y1="120" x2="80" y2="120" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="20" y1="170" x2="80" y2="170" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="160" y1="70" x2="220" y2="70" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="160" y1="120" x2="220" y2="120" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="160" y1="170" x2="220" y2="170" stroke="#1A1D24" stroke-width="2"/>
+
+  <!-- Ground surface -->
+  <path d="M80 200 L160 200 L170 220 L70 220 Z" fill="#14161B"/>
+
+  <!-- Directional Motion: Reverse Arrows (Orange/Gold for Focus) -->
+  <g fill="none" stroke="#F39C12" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <path d="M100 80 L90 95 L100 110"/>
+    <path d="M90 95 L150 95"/>
+    <path d="M140 130 L150 145 L140 160"/>
+    <path d="M150 145 L90 145"/>
+  </g>
+
+  <!-- Central Object: Modern Car (Rear facing / Reversing) -->
+  <g transform="translate(70, 110)">
+    <!-- Car Body Base -->
+    <path d="M15 35 L25 15 L75 15 L85 35 L95 55 L5 55 Z" fill="#3B82F6"/>
+    
+    <!-- Roof / Windows -->
+    <path d="M30 15 L38 5 L62 5 L70 15 Z" fill="#1E293B"/>
+    <path d="M32 6 L68 6 L65 14 L35 14 Z" fill="#93C5FD" opacity="0.6"/>
+
+    <!-- Rear Window & Details -->
+    <path d="M35 18 L65 18 L68 32 L32 32 Z" fill="#1E293B"/>
+
+    <!-- Tail Lights (Bright Red) -->
+    <rect x="7" y="38" width="10" height="6" rx="2" fill="#EF4444"/>
+    <rect x="83" y="38" width="10" height="6" rx="2" fill="#EF4444"/>
+    
+    <!-- Reverse Lights (White Glow) -->
+    <rect x="19" y="39" width="6" height="4" rx="1" fill="#FFFFFF"/>
+    <rect x="75" y="39" width="6" height="4" rx="1" fill="#FFFFFF"/>
+
+    <!-- License Plate Area -->
+    <rect x="40" y="42" width="20" height="8" rx="1" fill="#E2E8F0"/>
+
+    <!-- Wheels -->
+    <rect x="8" y="52" width="14" height="8" rx="4" fill="#0F172A"/>
+    <rect x="78" y="52" width="14" height="8" rx="4" fill="#0F172A"/>
+  </g>
+
+  <!-- Observation / Hazard Indicator (Warning Arcs) -->
+  <path d="M100 100 A 30 30 0 0 0 100 140" fill="none" stroke="#F59E0B" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M140 100 A 30 30 0 0 1 140 140" fill="none" stroke="#F59E0B" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+
+</svg>

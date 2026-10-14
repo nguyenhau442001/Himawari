@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background glow for cultural depth -->
+  <circle cx="120" cy="120" r="80" fill="#2A313C" opacity="0.4"/>
+
+  <!-- Heritage passing motif: Traditional pottery vessel / Craftsmanship -->
+  <g transform="translate(0, 0)">
+    <!-- Base pottery shape (Traditional folk craft) -->
+    <path d="M 95 160 
+             C 90 130, 85 105, 80 85
+             C 95 80, 145 80, 160 85
+             C 155 105, 150 130, 145 160
+             Z" 
+          fill="#323B4D" stroke="#D4AF37" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Pottery neck and rim -->
+    <ellipse cx="120" cy="83" rx="30" ry="6" fill="#3E4A5E" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 100 77 L 100 70 C 100 67, 140 67, 140 70 L 140 77" fill="none" stroke="#D4AF37" stroke-width="2"/>
+
+    <!-- Decorative folk pattern on the vase -->
+    <path d="M 95 115 Q 120 125 145 115" fill="none" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 92 130 Q 120 140 148 130" fill="none" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Two pairs of hands passing down the craft (Master & Disciple / Generation to Generation) -->
+    <!-- Older hands (Passing down) -->
+    <path d="M 60 110 C 60 95, 80 95, 92 105" fill="none" stroke="#E6BE8A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 180 110 C 180 95, 160 95, 148 105" fill="none" stroke="#E6BE8A" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Younger hands (Receiving and continuing) -->
+    <path d="M 65 140 C 75 155, 95 150, 105 135" fill="none" stroke="#F5D0A9" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 175 140 C 165 155, 145 150, 135 135" fill="none" stroke="#F5D0A9" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Golden sparks of wisdom / inheritance flame rising upward -->
+    <path d="M 120 62 C 120 52, 124 45, 120 38 C 116 45, 120 52, 120 62 Z" fill="#FF8C00"/>
+    <path d="M 108 70 C 104 63, 102 58, 106 52 C 110 58, 112 63, 108 70 Z" fill="#FFD700"/>
+    <path d="M 132 70 C 136 63, 138 58, 134 52 C 130 58, 128 63, 132 70 Z" fill="#FFD700"/>
+
+    <!-- Floating cultural flow particles -->
+    <circle cx="95" cy="55" r="2" fill="#FFD700" opacity="0.8"/>
+    <circle cx="145" cy="55" r="2.5" fill="#FF8C00" opacity="0.8"/>
+    <circle cx="120" cy="28" r="1.5" fill="#FFD700" opacity="0.9"/>
+    <circle cx="85" cy="75" r="1.5" fill="#FF8C00" opacity="0.6"/>
+    <circle cx="155" cy="75" r="2" fill="#FFD700" opacity="0.6"/>
+  </g>
+</svg>
