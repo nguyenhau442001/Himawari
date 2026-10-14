@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Stadium/Track Arc Background Lines -->
+  <path d="M 60 170 Q 120 130 180 170" fill="none" stroke="#2A303C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 40 190 Q 120 140 200 190" fill="none" stroke="#2A303C" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Dynamic Energy Waves / Motion Lines (Orange Accent) -->
+  <path d="M 50 100 Q 80 70 60 40" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 190 90 Q 160 60 180 30" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="65" cy="50" r="3" fill="#FF9F43"/>
+  <circle cx="175" cy="40" r="3" fill="#FF9F43"/>
+
+  <!-- Running Athlete Character (Central Physical Object/Person representing 'Huoli') -->
+  <!-- Head -->
+  <circle cx="120" cy="72" r="14" fill="#FF9F43"/>
+  <path d="M 112 66 Q 120 62 128 66" fill="none" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Torso (leaning forward in motion) -->
+  <path d="M 115 86 L 105 125 L 130 130 Z" fill="#4B7bec"/>
+
+  <!-- Back Arm (swinging back) -->
+  <path d="M 112 92 L 90 115 L 85 110" fill="none" stroke="#FF9F43" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front Arm (swinging forward) -->
+  <path d="M 122 92 L 145 105 L 155 100" fill="none" stroke="#FF9F43" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Back Leg (pushing off) -->
+  <path d="M 112 127 L 90 155 L 75 160" fill="none" stroke="#FF9F43" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front Leg (striding forward) -->
+  <path d="M 125 128 L 150 150 L 170 145" fill="none" stroke="#FF9F43" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Motion lines behind runner -->
+  <path d="M 80 135 L 55 130" fill="none" stroke="#A4B0BE" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 75 150 L 45 145" fill="none" stroke="#A4B0BE" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 90 120 L 60 115" fill="none" stroke="#A4B0BE" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Ground Track / Base -->
+  <ellipse cx="120" cy="185" rx="90" ry="8" fill="#2A303C"/>
+  <path d="M 30 185 Q 120 175 210 185" fill="none" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+</svg>

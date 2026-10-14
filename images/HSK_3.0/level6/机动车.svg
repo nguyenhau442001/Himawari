@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 80)">
+    <!-- Car Body -->
+    <path d="M20 80 L140 80 L130 50 L40 50 L20 80 Z" fill="#FFB800"/>
+    <path d="M45 50 L70 30 L100 30 L125 50 Z" fill="#FFD666"/>
+    <!-- Windows -->
+    <path d="M50 35 L70 35 L70 48 L50 48 Z" fill="#1A1D24"/>
+    <path d="M75 35 L100 35 L100 48 L75 48 Z" fill="#1A1D24"/>
+    <!-- Wheels -->
+    <circle cx="50" cy="85" r="12" fill="#3D4451"/>
+    <circle cx="50" cy="85" r="5" fill="#1A1D24"/>
+    <circle cx="110" cy="85" r="12" fill="#3D4451"/>
+    <circle cx="110" cy="85" r="5" fill="#1A1D24"/>
+    <!-- Headlight -->
+    <circle cx="135" cy="65" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(140, 100)">
+    <!-- Motorcycle -->
+    <path d="M10 60 L50 60 L45 40 L20 40 Z" fill="#FFB800"/>
+    <path d="M25 40 L35 25 L45 40 Z" fill="#FFD666"/>
+    <circle cx="15" cy="65" r="10" fill="#3D4451"/>
+    <circle cx="15" cy="65" r="4" fill="#1A1D24"/>
+    <circle cx="45" cy="65" r="10" fill="#3D4451"/>
+    <circle cx="45" cy="65" r="4" fill="#1A1D24"/>
+  </g>
+</svg>

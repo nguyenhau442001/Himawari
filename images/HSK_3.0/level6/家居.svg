@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Environment / Nordic Home Setting -->
+  <path d="M40 180 L200 180" stroke="#2D333F" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Plant Leaf (representing eco-friendly Nordic style) -->
+  <g transform="translate(65, 115)">
+    <path d="M15 45 Q5 25 15 5 Q25 25 15 45 Z" fill="#2ECC71" opacity="0.8"/>
+    <path d="M15 45 L15 60" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Modern Sofa (Main Home Furnishing Object) -->
+  <!-- Sofa Legs -->
+  <rect x="75" y="155" width="6" height="15" rx="3" fill="#E67E22"/>
+  <rect x="159" y="155" width="6" height="15" rx="3" fill="#E67E22"/>
+  
+  <!-- Sofa Base -->
+  <rect x="65" y="130" width="110" height="30" rx="6" fill="#3A4252"/>
+  
+  <!-- Sofa Seat Cushions -->
+  <rect x="68" y="125" width="51" height="25" rx="6" fill="#4E5D6C"/>
+  <rect x="121" y="125" width="51" height="25" rx="6" fill="#4E5D6C"/>
+  
+  <!-- Sofa Backrest -->
+  <rect x="65" y="80" width="110" height="50" rx="10" fill="#3A4252"/>
+  <rect x="72" y="87" width="96" height="38" rx="6" fill="#4E5D6C"/>
+
+  <!-- Accent Pillows -->
+  <rect x="76" y="92" width="22" height="26" rx="8" fill="#F1C40F"/>
+  <rect x="142" y="92" width="22" height="26" rx="8" fill="#E67E22"/>
+
+  <!-- Coffee Table -->
+  <rect x="95" y="165" width="50" height="18" rx="3" fill="#E5E9F0"/>
+  <!-- Table Legs -->
+  <path d="M103 183 L98 198" stroke="#3A4252" stroke-width="3" stroke-linecap="round"/>
+  <path d="M137 183 L142 198" stroke="#3A4252" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Lamp / Decor on Table -->
+  <circle cx="120" cy="155" r="5" fill="#F1C40F"/>
+  <path d="M120 160 L120 165" stroke="#3A4252" stroke-width="2"/>
+</svg>

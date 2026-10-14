@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="115" r="70" fill="#FFB703" opacity="0.05"/>
+
+  <!-- Academic Peak / Mountain Background (representing "学术高峰") -->
+  <path d="M 60 170 L 120 85 L 180 170 Z" fill="#252A34"/>
+  <path d="M 90 170 L 120 120 L 150 170 Z" fill="#2D3340"/>
+  <!-- Mountain Peak Highlight -->
+  <path d="M 120 85 L 132 105 L 120 100 L 108 105 Z" fill="#FFB703" opacity="0.8"/>
+
+  <!-- Base Ground Line -->
+  <rect x="50" y="170" width="140" height="4" rx="2" fill="#3A4252"/>
+
+  <!-- Character / Teacher (Representing "老师" delivering words of encouragement) -->
+  <g transform="translate(75, 110)">
+    <!-- Body -->
+    <path d="M 15 60 C 15 45 25 40 35 40 C 45 40 55 45 55 60 L 55 60 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="35" cy="25" r="12" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M 23 23 C 23 15 28 12 35 12 C 42 12 47 15 47 23 Z" fill="#64748B"/>
+    <!-- Expressive talking/smiling gesture: Raised arm pointing forward/up -->
+    <path d="M 45 45 L 60 30" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character / Student (Representing "他" being inspired and looking upward) -->
+  <g transform="translate(130, 115)">
+    <!-- Body -->
+    <path d="M 15 55 C 15 42 22 38 30 38 C 38 38 45 42 45 55 L 45 55 Z" fill="#10B981"/>
+    <!-- Head (tilted slightly upward) -->
+    <circle cx="32" cy="22" r="11" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M 21 20 C 21 13 26 10 32 10 C 39 10 43 13 43 20 Z" fill="#334155"/>
+    <!-- Confident posture, arms slightly back/clutched in determination -->
+    <path d="M 18 42 L 10 52" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Physical Object representing "激励" (The Spark of Inspiration / Rising Energy Beam) -->
+  <!-- Central ascending glowing elements connecting teacher's voice to student's peak -->
+  <g transform="translate(110, 85)">
+    <!-- Upward dynamic vector arrows / sparks -->
+    <path d="M 10 30 C 10 15 20 5 25 -5 C 30 5 40 15 40 30" fill="none" stroke="#FFB703" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="25" cy="-8" r="4" fill="#FFB703"/>
+    <circle cx="15" cy="15" r="2.5" fill="#FB8500"/>
+    <circle cx="35" cy="15" r="2.5" fill="#FB8500"/>
+  </g>
+
+  <!-- Floor shadow / grounding -->
+  <ellipse cx="120" cy="173" r="50" fill="#0F1115" opacity="0.4"/>
+</svg>

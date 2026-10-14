@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T18:32:32.451609",
-  "total_unique_words_with_illustrations": 6211,
-  "total_flat_svg_files": 6211,
+  "generated_at": "2026-10-14T18:33:39.156286",
+  "total_unique_words_with_illustrations": 6260,
+  "total_flat_svg_files": 6260,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -63,8 +63,8 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 1127,
-        "pct": "62.6%"
+        "with_svg": 1176,
+        "pct": "65.3%"
       },
       "level7": {
         "total": 5600,
@@ -110715,6 +110715,20 @@
       "src": "images/HSK_3.0/level6/回报.svg",
       "alt_srcs": []
     },
+    "回顾": {
+      "hanzi": "回顾",
+      "pinyin": "huígù",
+      "meaning": "nhìn lại, điểm lại, hồi tưởng",
+      "example_zh": "在年终总结大会上，大家共同<u>回顾</u>了过去一年的辉煌成就。",
+      "example_vi": "Tại hội nghị tổng kết cuối năm, mọi người đã cùng nhau <u>nhìn lại</u> những thành tựu rực rỡ của một năm vừa qua.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "回顾.svg",
+      "src": "images/HSK_3.0/level6/回顾.svg",
+      "alt_srcs": []
+    },
     "回头": {
       "hanzi": "回头",
       "pinyin": "huítóu",
@@ -110727,6 +110741,20 @@
       ],
       "file": "回头.svg",
       "src": "images/HSK_3.0/level6/回头.svg",
+      "alt_srcs": []
+    },
+    "汇": {
+      "hanzi": "汇",
+      "pinyin": "huì",
+      "meaning": "tập hợp, tụ hội; gửi tiền, chuyển khoản",
+      "example_zh": "来自五湖四海的心愿最终<u>汇</u>聚成了一股强大的前进动力。",
+      "example_vi": "Những tâm nguyện đến từ khắp bốn phương cuối cùng đã <u>hội</u> tụ thành một nguồn động lực tiến bước mạnh mẽ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "汇.svg",
+      "src": "images/HSK_3.0/level6/汇.svg",
       "alt_srcs": []
     },
     "绘画": {
@@ -110755,6 +110783,664 @@
       ],
       "file": "会见.svg",
       "src": "images/HSK_3.0/level6/会见.svg",
+      "alt_srcs": []
+    },
+    "混": {
+      "hanzi": "混",
+      "pinyin": "hùn",
+      "meaning": "trộn lẫn; sống qua ngày, lăn lộn",
+      "example_zh": "千万不能抱着马虎应付的态度在工作中虚度光阴瞎<u>混</u>。",
+      "example_vi": "Tuyệt đối không thể ôm thái độ làm cho xong chuyện để sống <u>lăn lộn</u> lãng phí thời gian trong công việc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "混.svg",
+      "src": "images/HSK_3.0/level6/混.svg",
+      "alt_srcs": []
+    },
+    "混合": {
+      "hanzi": "混合",
+      "pinyin": "hùnhé",
+      "meaning": "pha trộn, hỗn hợp",
+      "example_zh": "制作这种特制糕点需要将面粉与牛奶充分<u>混合</u>均匀。",
+      "example_vi": "Làm loại bánh đặc chế này cần phải <u>trộn</u> thật đều bột mì với sữa tươi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "混合.svg",
+      "src": "images/HSK_3.0/level6/混合.svg",
+      "alt_srcs": []
+    },
+    "混乱": {
+      "hanzi": "混乱",
+      "pinyin": "hùnluàn",
+      "meaning": "hỗn loạn, lộn xộn",
+      "example_zh": "停电导致路口的交通信号灯瞬间陷入了一片<u>混乱</u>。",
+      "example_vi": "Mất điện đã khiến đèn tín hiệu giao thông ở ngã tư ngay lập tức rơi vào cảnh <u>hỗn loạn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "混乱.svg",
+      "src": "images/HSK_3.0/level6/混乱.svg",
+      "alt_srcs": []
+    },
+    "活力": {
+      "hanzi": "活力",
+      "pinyin": "huólì",
+      "meaning": "sức sống, sinh khí, sự năng động",
+      "example_zh": "运动场上洋溢着青年学子生机勃勃的青春<u>活力</u>。",
+      "example_vi": "Trên sân vận động ngập tràn <u>sức sống</u> thanh xuân tràn đầy sinh khí của các bạn học sinh trẻ tuổi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "活力.svg",
+      "src": "images/HSK_3.0/level6/活力.svg",
+      "alt_srcs": []
+    },
+    "火灾": {
+      "hanzi": "火灾",
+      "pinyin": "huǒzāi",
+      "meaning": "lửa",
+      "example_zh": "<u>火灾</u>已经被熄灭了",
+      "example_vi": "Đám cháy đã được dập tắt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "火灾.svg",
+      "src": "images/HSK_3.0/level6/火灾.svg",
+      "alt_srcs": []
+    },
+    "货车": {
+      "hanzi": "货车",
+      "pinyin": "huòchē",
+      "meaning": "xe tải, xe chở hàng",
+      "example_zh": "几辆满载着新鲜瓜果的重型大<u>货车</u>缓缓驶入了批发市场。",
+      "example_vi": "Vài chiếc <u>xe tải</u> hạng nặng chở đầy hoa quả tươi từ từ tiến vào chợ đầu mối.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "货车.svg",
+      "src": "images/HSK_3.0/level6/货车.svg",
+      "alt_srcs": []
+    },
+    "击败": {
+      "hanzi": "击败",
+      "pinyin": "jībài",
+      "meaning": "đánh bại, chiến thắng (đối thủ)",
+      "example_zh": "他在总决赛中凭借出色的发挥成功<u>击败</u>了强劲的对手。",
+      "example_vi": "Trong trận chung kết, nhờ phong độ xuất sắc anh ấy đã <u>đánh bại</u> đối thủ nặng ký.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "击败.svg",
+      "src": "images/HSK_3.0/level6/击败.svg",
+      "alt_srcs": []
+    },
+    "机动车": {
+      "hanzi": "机动车",
+      "pinyin": "jīdòngchē",
+      "meaning": "xe cơ giới (ô tô, xe máy)",
+      "example_zh": "非<u>机动车</u>应当在指定的慢车道上有序行驶。",
+      "example_vi": "Xe không thuộc loại <u>cơ giới</u> cần đi đúng làn xe thô sơ quy định một cách trật tự.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "机动车.svg",
+      "src": "images/HSK_3.0/level6/机动车.svg",
+      "alt_srcs": []
+    },
+    "激励": {
+      "hanzi": "激励",
+      "pinyin": "jīlì",
+      "meaning": "khích lệ, động viên, cổ vũ",
+      "example_zh": "老师温暖的话语始终<u>激励</u>着他不断勇攀学术高峰。",
+      "example_vi": "Những lời ấm áp của thầy giáo luôn <u>khích lệ</u> cậu ấy không ngừng leo lên những đỉnh cao học thuật.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "激励.svg",
+      "src": "images/HSK_3.0/level6/激励.svg",
+      "alt_srcs": []
+    },
+    "激情": {
+      "hanzi": "激情",
+      "pinyin": "jīqíng",
+      "meaning": "niềm đam mê, nhiệt huyết tràn trề",
+      "example_zh": "青年艺术家在舞台上倾情投入，充满了无限的<u>激情</u>。",
+      "example_vi": "Nghệ sĩ trẻ cống hiến hết mình trên sân khấu, ngập tràn <u>niềm đam mê</u> bất tận.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "激情.svg",
+      "src": "images/HSK_3.0/level6/激情.svg",
+      "alt_srcs": []
+    },
+    "机遇": {
+      "hanzi": "机遇",
+      "pinyin": "jīyù",
+      "meaning": "thời cơ, cơ hội",
+      "example_zh": "科技的飞速变革为青年创业者带来了前所未有的时代<u>机遇</u>。",
+      "example_vi": "Sự đổi mới thần tốc của công nghệ đã mang lại <u>thời cơ</u> thời đại chưa từng có cho người trẻ khởi nghiệp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "机遇.svg",
+      "src": "images/HSK_3.0/level6/机遇.svg",
+      "alt_srcs": []
+    },
+    "即便": {
+      "hanzi": "即便",
+      "pinyin": "jíbiàn",
+      "meaning": "cho dù, dẫu cho, ngay cả khi",
+      "example_zh": "<u>即便</u>遇到再大的挫折，我们也要坚定信念永不言弃。",
+      "example_vi": "<u>Cho dù</u> gặp phải trắc trở to lớn đến đâu, chúng ta cũng phải kiên định niềm tin không bao giờ bỏ cuộc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "即便.svg",
+      "src": "images/HSK_3.0/level6/即便.svg",
+      "alt_srcs": []
+    },
+    "急救": {
+      "hanzi": "急救",
+      "pinyin": "jíjiù",
+      "meaning": "sơ cứu, cấp cứu",
+      "example_zh": "掌握基础的心肺复苏等<u>急救</u>技能在关键时刻能挽救生命。",
+      "example_vi": "Nắm vững các kỹ năng <u>sơ cứu</u> cơ bản như hồi sinh tim phổi có thể cứu sống tính mạng trong thời khắc quyết định.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "急救.svg",
+      "src": "images/HSK_3.0/level6/急救.svg",
+      "alt_srcs": []
+    },
+    "极为": {
+      "hanzi": "极为",
+      "pinyin": "jíwéi",
+      "meaning": "cực kỳ, vô cùng",
+      "example_zh": "这种珍稀中药材的生长环境要求<u>极为</u>苛刻。",
+      "example_vi": "Yêu cầu về môi trường sinh trưởng của loại dược liệu đông y quý hiếm này <u>cực kỳ</u> khắt khe.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "极为.svg",
+      "src": "images/HSK_3.0/level6/极为.svg",
+      "alt_srcs": []
+    },
+    "吉祥": {
+      "hanzi": "吉祥",
+      "pinyin": "jíxiáng",
+      "meaning": "cát tường, may mắn, tốt lành",
+      "example_zh": "过年贴红春联寓意着全家在新的一年里大吉大利、平安<u>吉祥</u>。",
+      "example_vi": "Dán câu đối đỏ ngày Tết ngụ ý cả gia đình trong năm mới vạn sự hanh thông, bình an <u>may mắn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "吉祥.svg",
+      "src": "images/HSK_3.0/level6/吉祥.svg",
+      "alt_srcs": []
+    },
+    "季军": {
+      "hanzi": "季军",
+      "pinyin": "jìjūn",
+      "meaning": "giải ba, huy chương đồng (quý quân)",
+      "example_zh": "中国代表队在这届世界锦标赛上荣获了男子接力赛的<u>季军</u>。",
+      "example_vi": "Đội tuyển Trung Quốc tại giải vô địch thế giới lần này đã vinh dự giành <u>giải ba</u> môn chạy tiếp sức nam.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "季军.svg",
+      "src": "images/HSK_3.0/level6/季军.svg",
+      "alt_srcs": []
+    },
+    "技巧": {
+      "hanzi": "技巧",
+      "pinyin": "jìqiǎo",
+      "meaning": "kỹ xảo, mẹo, kỹ năng thành thạo",
+      "example_zh": "熟练掌握有效的沟通<u>技巧</u>能使工作交流事半功倍。",
+      "example_vi": "Nắm vững <u>kỹ năng</u> giao tiếp hiệu quả giúp việc trao đổi công việc đạt hiệu quả gấp đôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "技巧.svg",
+      "src": "images/HSK_3.0/level6/技巧.svg",
+      "alt_srcs": []
+    },
+    "技艺": {
+      "hanzi": "技艺",
+      "pinyin": "jìyì",
+      "meaning": "tay nghề, kỹ nghệ điêu luyện",
+      "example_zh": "这位老工匠雕刻玉石的精湛<u>技艺</u>令人叹为观止。",
+      "example_vi": "<u>Kỹ nghệ</u> điêu khắc ngọc đá tinh xảo của người nghệ nhân già này khiến ai nấy đều phải trầm trồ thán phục.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "技艺.svg",
+      "src": "images/HSK_3.0/level6/技艺.svg",
+      "alt_srcs": []
+    },
+    "夹": {
+      "hanzi": "夹",
+      "pinyin": "jiā",
+      "meaning": "kẹp, cặp; lẫn vào",
+      "example_zh": "他习惯在厚厚的读物里<u>夹</u>上一张雅致的叶脉书签。",
+      "example_vi": "Anh ấy có thói quen <u>kẹp</u> một chiếc kẹp sách lá cây thanh nhã vào giữa cuốn sách dày.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "夹.svg",
+      "src": "images/HSK_3.0/level6/夹.svg",
+      "alt_srcs": []
+    },
+    "加倍": {
+      "hanzi": "加倍",
+      "pinyin": "jiābèi",
+      "meaning": "gấp đôi, nỗ lực gấp bội",
+      "example_zh": "为了弥补落下的功课，他决定在假期里<u>加倍</u>努力学习。",
+      "example_vi": "Để bù đắp bài vở bị chậm trễ, cậu ấy quyết định <u>nỗ lực gấp bội</u> trong kỳ nghỉ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "加倍.svg",
+      "src": "images/HSK_3.0/level6/加倍.svg",
+      "alt_srcs": []
+    },
+    "家常": {
+      "hanzi": "家常",
+      "pinyin": "jiācháng",
+      "meaning": "cơm nhà, chuyện thường ngày",
+      "example_zh": "在外漂泊多年，他最想念的依然是母亲亲手做的几道<u>家常</u>菜。",
+      "example_vi": "Bôn ba nơi đất khách nhiều năm, điều anh ấy nhung nhớ nhất vẫn là vài món <u>cơm nhà</u> mẹ nấu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "家常.svg",
+      "src": "images/HSK_3.0/level6/家常.svg",
+      "alt_srcs": []
+    },
+    "家家户户": {
+      "hanzi": "家家户户",
+      "pinyin": "jiājiāhùhù",
+      "meaning": "nhà nhà người người, muôn nhà",
+      "example_zh": "除夕之夜，<u>家家户户</u>都亮起了喜庆温暖的团圆灯火。",
+      "example_vi": "Vào đêm giao thừa, <u>nhà nhà người người</u> đều thắp sáng những ánh đèn đoàn viên ấm áp rực rỡ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "家家户户.svg",
+      "src": "images/HSK_3.0/level6/家家户户.svg",
+      "alt_srcs": []
+    },
+    "加剧": {
+      "hanzi": "加剧",
+      "pinyin": "jiājù",
+      "meaning": "tăng nhanh, gia tăng gay gắt, trầm trọng hơn",
+      "example_zh": "全球气候变暖进一步<u>加剧</u>了极地冰川的融化速度。",
+      "example_vi": "Biến đổi khí hậu toàn cầu ấm lên càng làm <u>gia tăng nhanh chóng</u> tốc độ tan chảy của các dòng sông băng vùng cực.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "加剧.svg",
+      "src": "images/HSK_3.0/level6/加剧.svg",
+      "alt_srcs": []
+    },
+    "家居": {
+      "hanzi": "家居",
+      "pinyin": "jiājū",
+      "meaning": "nội thất gia đình, đồ dùng trong nhà",
+      "example_zh": "这家大型商场专门展示和销售各种北欧风格的绿色<u>家居</u>用品。",
+      "example_vi": "Trung tâm thương mại lớn này chuyên trưng bày và bán các loại đồ dùng <u>nội thất</u> phong cách Bắc Âu thân thiện môi trường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "家居.svg",
+      "src": "images/HSK_3.0/level6/家居.svg",
+      "alt_srcs": []
+    },
+    "家属": {
+      "hanzi": "家属",
+      "pinyin": "jiāshǔ",
+      "meaning": "người nhà, thân nhân gia đình",
+      "example_zh": "手术顺利完成后，医生第一时间来到门外向焦急等待的<u>家属</u>通报情况。",
+      "example_vi": "Sau khi ca phẫu thuật hoàn tất suôn sẻ, bác sĩ lập tức ra ngoài thông báo tình hình cho <u>người nhà</u> đang sốt ruột chờ đợi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "家属.svg",
+      "src": "images/HSK_3.0/level6/家属.svg",
+      "alt_srcs": []
+    },
+    "加以": {
+      "hanzi": "加以",
+      "pinyin": "jiāyǐ",
+      "meaning": "tiến hành, áp dụng (để xử lý)",
+      "example_zh": "对于调研中发现的隐患问题，各部门必须及时<u>加以</u>整改纠正。",
+      "example_vi": "Đối với những vấn đề tồn tại phát hiện qua khảo sát, các bộ phận bắt buộc phải kịp thời <u>tiến hành</u> sửa đổi chấn chỉnh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "加以.svg",
+      "src": "images/HSK_3.0/level6/加以.svg",
+      "alt_srcs": []
+    },
+    "家园": {
+      "hanzi": "家园",
+      "pinyin": "jiāyuán",
+      "meaning": "mái ấm, quê hương, mảnh đất quê nhà",
+      "example_zh": "保护生态环境，就是保护全人类共同繁衍生息的绿色<u>家园</u>。",
+      "example_vi": "Bảo vệ môi trường sinh thái chính là bảo vệ <u>mái ấm</u> xanh chung cho toàn nhân loại sinh sôi phát triển.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "家园.svg",
+      "src": "images/HSK_3.0/level6/家园.svg",
+      "alt_srcs": []
+    },
+    "加重": {
+      "hanzi": "加重",
+      "pinyin": "jiāzhòng",
+      "meaning": "làm tăng thêm, làm nặng thêm, trầm trọng hơn",
+      "example_zh": "感冒期间如果不注意充分休息，往往会进一步<u>加重</u>病情。",
+      "example_vi": "Trong thời gian bị cảm nếu không chú ý nghỉ ngơi đầy đủ thường sẽ làm <u>nặng thêm</u> tình trạng bệnh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "加重.svg",
+      "src": "images/HSK_3.0/level6/加重.svg",
+      "alt_srcs": []
+    },
+    "尖": {
+      "hanzi": "尖",
+      "pinyin": "jiān",
+      "meaning": "sắc nhọn, nhọn; mũi nhọn",
+      "example_zh": "写字时请小心铅笔被削得过于锋利的笔<u>尖</u>。",
+      "example_vi": "Khi viết chữ xin hãy cẩn thận đầu ngòi <u>nhọn</u> của chiếc bút chì được gọt quá sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "尖.svg",
+      "src": "images/HSK_3.0/level6/尖.svg",
+      "alt_srcs": []
+    },
+    "坚定": {
+      "hanzi": "坚定",
+      "pinyin": "jiāndìng",
+      "meaning": "kiên định, vững vàng",
+      "example_zh": "无论前行道路多么曲折坎坷，他始终保持着<u>坚定</u>的奋斗信念。",
+      "example_vi": "Dù con đường phía trước có gập ghềnh khúc khuỷu đến đâu, anh ấy vẫn luôn giữ vững niềm tin phấn đấu <u>kiên định</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "坚定.svg",
+      "src": "images/HSK_3.0/level6/坚定.svg",
+      "alt_srcs": []
+    },
+    "坚固": {
+      "hanzi": "坚固",
+      "pinyin": "jiāngù",
+      "meaning": "rắn",
+      "example_zh": "飞机的翼非常<u>坚固</u>",
+      "example_vi": "Cánh của máy bay rất chắc chắn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "坚固.svg",
+      "src": "images/HSK_3.0/level6/坚固.svg",
+      "alt_srcs": []
+    },
+    "艰辛": {
+      "hanzi": "艰辛",
+      "pinyin": "jiānxīn",
+      "meaning": "gian nan vất vả, gian truân",
+      "example_zh": "任何一项伟大科技成果的诞生都凝结着科研人员长期<u>艰辛</u>的付出。",
+      "example_vi": "Sự ra đời của bất kỳ thành quả công nghệ vĩ đại nào cũng kết tinh từ sự cống hiến <u>gian truân vất vả</u> lâu dài của các nhà khoa học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "艰辛.svg",
+      "src": "images/HSK_3.0/level6/艰辛.svg",
+      "alt_srcs": []
+    },
+    "坚硬": {
+      "hanzi": "坚硬",
+      "pinyin": "jiānyìng",
+      "meaning": "cứng rắn, rắn chắc",
+      "example_zh": "在严冬零下几十度的极寒天气里，泥土被冻得如岩石般<u>坚硬</u>。",
+      "example_vi": "Trong thời tiết giá rét âm vài chục độ của mùa đông khắc nghiệt, đất bùn bị đóng băng lại <u>rắn chắc</u> như tảng đá.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "坚硬.svg",
+      "src": "images/HSK_3.0/level6/坚硬.svg",
+      "alt_srcs": []
+    },
+    "检测": {
+      "hanzi": "检测",
+      "pinyin": "jiǎncè",
+      "meaning": "xét nghiệm, kiểm định, đo lường kiểm tra",
+      "example_zh": "食品在正式投放市场销售前必须经过极其严格的卫生质量<u>检测</u>。",
+      "example_vi": "Thực phẩm trước khi chính thức đưa ra thị trường tiêu thụ bắt buộc phải qua <u>kiểm định</u> chất lượng vệ sinh vô cùng nghiêm ngặt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "检测.svg",
+      "src": "images/HSK_3.0/level6/检测.svg",
+      "alt_srcs": []
+    },
+    "简化": {
+      "hanzi": "简化",
+      "pinyin": "jiǎnhuà",
+      "meaning": "đơn giản hóa",
+      "example_zh": "政务服务大厅通过优化流程进一步<u>简化</u>了企业办事审批手续。",
+      "example_vi": "Bộ phận dịch vụ hành chính công thông qua tối ưu hóa quy trình đã <u>đơn giản hóa</u> thêm thủ tục xét duyệt cho doanh nghiệp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "简化.svg",
+      "src": "images/HSK_3.0/level6/简化.svg",
+      "alt_srcs": []
+    },
+    "简介": {
+      "hanzi": "简介",
+      "pinyin": "jiǎnjiè",
+      "meaning": "giới thiệu vắn tắt, tóm tắt sơ lược",
+      "example_zh": "图书封底印有关于作者生平经历与代表著作的简要<u>简介</u>。",
+      "example_vi": "Mặt sau bìa sách có in bản <u>giới thiệu vắn tắt</u> về cuộc đời và các tác phẩm tiêu biểu của tác giả.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "简介.svg",
+      "src": "images/HSK_3.0/level6/简介.svg",
+      "alt_srcs": []
+    },
+    "减压": {
+      "hanzi": "减压",
+      "pinyin": "jiǎnyā",
+      "meaning": "giảm áp lực, xả stress",
+      "example_zh": "在紧张忙碌的学业之余听听轻柔的音乐是一种极佳的<u>减压</u>方式。",
+      "example_vi": "Sau những giờ học tập bận rộn căng thẳng, nghe chút âm nhạc êm dịu là một phương thức <u>xả stress</u> tuyệt vời.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "减压.svg",
+      "src": "images/HSK_3.0/level6/减压.svg",
+      "alt_srcs": []
+    },
+    "检验": {
+      "hanzi": "检验",
+      "pinyin": "jiǎnyàn",
+      "meaning": "kiểm nghiệm, kiểm tra đánh giá",
+      "example_zh": "实践是<u>检验</u>真理的唯一标准。",
+      "example_vi": "Thực tiễn là tiêu chuẩn duy nhất để <u>kiểm nghiệm</u> chân lý.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "检验.svg",
+      "src": "images/HSK_3.0/level6/检验.svg",
+      "alt_srcs": []
+    },
+    "剑": {
+      "hanzi": "剑",
+      "pinyin": "jiàn",
+      "meaning": "thanh kiếm, gươm",
+      "example_zh": "中国传统武术太极<u>剑</u>动作舒展优美，深受中老年人的喜爱。",
+      "example_vi": "Môn Thái Cực <u>kiếm</u> trong võ thuật truyền thống Trung Quốc có động tác uyển chuyển đẹp mắt, rất được người trung và cao tuổi yêu thích.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "剑.svg",
+      "src": "images/HSK_3.0/level6/剑.svg",
+      "alt_srcs": []
+    },
+    "箭": {
+      "hanzi": "箭",
+      "pinyin": "jiàn",
+      "meaning": "mũi tên",
+      "example_zh": "射箭运动员沉着冷静地拉开硬弓，一支离弦的利<u>箭</u>正中靶心。",
+      "example_vi": "Vận động viên bắn cung điềm tĩnh giương cung cứng, một <u>mũi tên</u> sắc bén rời dây bắn trúng hồng tâm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "箭.svg",
+      "src": "images/HSK_3.0/level6/箭.svg",
+      "alt_srcs": []
+    },
+    "鉴定": {
+      "hanzi": "鉴定",
+      "pinyin": "jiàndìng",
+      "meaning": "giám định, thẩm định",
+      "example_zh": "多位权威专家对这件出土的青铜古物进行了全面的科学<u>鉴定</u>。",
+      "example_vi": "Nhiều chuyên gia uy tín đã tiến hành <u>thẩm định</u> khoa học toàn diện đối với món cổ vật bằng đồng mới khai quật này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "鉴定.svg",
+      "src": "images/HSK_3.0/level6/鉴定.svg",
+      "alt_srcs": []
+    },
+    "间隔": {
+      "hanzi": "间隔",
+      "pinyin": "jiàngé",
+      "meaning": "khoảng cách, quãng cách (thời gian, không gian)",
+      "example_zh": "早晚上下班高峰期间，地铁列车发车<u>间隔</u>缩短到了两分钟以内。",
+      "example_vi": "Trong giờ cao điểm đi làm sáng chiều, <u>khoảng cách</u> giữa các chuyến tàu điện ngầm được rút ngắn xuống dưới hai phút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "间隔.svg",
+      "src": "images/HSK_3.0/level6/间隔.svg",
+      "alt_srcs": []
+    },
+    "间接": {
+      "hanzi": "间接",
+      "pinyin": "jiànjiē",
+      "meaning": "gián tiếp",
+      "example_zh": "健康的生态环境能够直接或<u>间接</u>地给人类带来巨大的福祉。",
+      "example_vi": "Một môi trường sinh thái khỏe mạnh có thể trực tiếp hoặc <u>gián tiếp</u> mang lại phúc lợi to lớn cho con người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "间接.svg",
+      "src": "images/HSK_3.0/level6/间接.svg",
+      "alt_srcs": []
+    },
+    "建筑物": {
+      "hanzi": "建筑物",
+      "pinyin": "jiànzhùwù",
+      "meaning": "tòa nhà, công trình kiến trúc",
+      "example_zh": "这些完好保存至今的古老标志性<u>建筑物</u>见证了城市沧桑的历史。",
+      "example_vi": "Những <u>công trình kiến trúc</u> mang tính biểu tượng cổ kính được bảo tồn nguyên vẹn này đã chứng kiến lịch sử thăng trầm của thành phố.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "建筑物.svg",
+      "src": "images/HSK_3.0/level6/建筑物.svg",
+      "alt_srcs": []
+    },
+    "讲解": {
+      "hanzi": "讲解",
+      "pinyin": "jiǎngjiě",
+      "meaning": "giảng giải, thuyết minh, giải thích",
+      "example_zh": "博物馆优秀解说员生动详细的<u>讲解</u>赢得了在场参观者的一致好评。",
+      "example_vi": "Lời <u>thuyết minh</u> sinh động chi tiết của hướng dẫn viên bảo tàng đã nhận được lời khen ngợi nhiệt liệt từ khách tham quan.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "讲解.svg",
+      "src": "images/HSK_3.0/level6/讲解.svg",
+      "alt_srcs": []
+    },
+    "奖牌": {
+      "hanzi": "奖牌",
+      "pinyin": "jiǎngpái",
+      "meaning": "huy chương",
+      "example_zh": "运动健儿在赛场上顽强拼搏，赢得了属于自己的荣耀<u>奖牌</u>。",
+      "example_vi": "Các vận động viên kiên cường thi đấu trên đấu trường, giành được tấm <u>huy chương</u> vinh quang thuộc về mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "奖牌.svg",
+      "src": "images/HSK_3.0/level6/奖牌.svg",
+      "alt_srcs": []
+    },
+    "奖品": {
+      "hanzi": "奖品",
+      "pinyin": "jiǎngpǐn",
+      "meaning": "phần thưởng, giải thưởng",
+      "example_zh": "学校为在数学知识竞赛中获奖的优秀学生准备了精美的学习<u>奖品</u>。",
+      "example_vi": "Trường học đã chuẩn bị các <u>phần thưởng</u> học tập tinh xảo cho những học sinh xuất sắc đạt giải trong cuộc thi kiến thức toán học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "奖品.svg",
+      "src": "images/HSK_3.0/level6/奖品.svg",
       "alt_srcs": []
     }
   }

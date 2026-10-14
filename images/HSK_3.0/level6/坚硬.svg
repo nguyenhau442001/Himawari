@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle winter atmosphere -->
+  <path d="M40 80 L60 60 L80 90" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M160 50 L175 35 L190 55" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <circle cx="200" cy="90" r="1.5" fill="#4A5568"/>
+  <circle cx="45" cy="140" r="1.5" fill="#4A5568"/>
+  <circle cx="100" cy="40" r="1.5" fill="#4A5568"/>
+
+  <!-- Scale exaggeration / contrast: Soft, crumbling ordinary earth vs. Unyielding frozen rock (坚硬) -->
+  
+  <!-- Soft/Broken earth side (left/bottom reference) showing contrast -->
+  <path d="M30 180 L70 170 L90 195 L30 195 Z" fill="#3D2E26"/>
+  <path d="M45 174 L55 165 M75 182 L85 172" stroke="#5C4538" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Main Focal Point: The massive, impenetrable frozen rock (岩石般坚硬) -->
+  <g transform="translate(0, 0)">
+    <!-- Deep grounding shadow -->
+    <ellipse cx="135" cy="190" rx="75" ry="12" fill="#111318"/>
+
+    <!-- Main Boulder Body -->
+    <path d="M70 180 L75 130 L105 105 L155 100 L195 135 L205 185 L70 180 Z" fill="#3E4A59"/>
+    
+    <!-- Facets for hard, angular rock structure (emphasizing "硬") -->
+    <path d="M70 180 L75 130 L130 145 L205 185 Z" fill="#2D3748"/>
+    <path d="M75 130 L105 105 L155 100 L130 145 Z" fill="#4A5568"/>
+    <path d="M155 100 L195 135 L205 185 L130 145 Z" fill="#323D4D"/>
+
+    <!-- Frost / Freezing Overlay & Cracks emphasizing extreme cold ("严冬零下几度") -->
+    <!-- Ice/Frost caps on edges -->
+    <path d="M75 130 L85 120 L105 105 L115 112 L90 138 Z" fill="#E2E8F0" opacity="0.9"/>
+    <path d="M155 100 L170 108 L195 135 L180 130 Z" fill="#E2E8F0" opacity="0.8"/>
+    <path d="M105 105 L130 95 L155 100 L130 108 Z" fill="#F7FAFC"/>
+
+    <!-- Sharp fracture / crystallization lines (visualizing absolute solidity) -->
+    <path d="M130 108 L130 145 M130 145 L175 165 M130 145 L95 160" stroke="#1A202C" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M105 105 L120 125" stroke="#E2E8F0" stroke-width="1.5" opacity="0.5"/>
+    <path d="M155 100 L145 125" stroke="#E2E8F0" stroke-width="1.5" opacity="0.5"/>
+
+    <!-- High-contrast accent: Ice crystals / sharp geometric facets catching cold light -->
+    <polygon points="125,75 130,95 135,75 130,55" fill="#63B3ED" opacity="0.9"/>
+    <polygon points="127,80 130,95 133,80" fill="#EBF8FF"/>
+
+    <polygon points="175,85 180,102 185,85 180,68" fill="#63B3ED" opacity="0.7"/>
+    <polygon points="100,120 105,135 110,120 105,105" fill="#63B3ED" opacity="0.6"/>
+
+    <!-- Ground frost surrounding the base -->
+    <path d="M60 185 Q90 178 120 186 T210 182" stroke="#CBD5E0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  </g>
+</svg>

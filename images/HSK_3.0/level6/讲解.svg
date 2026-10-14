@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Museum Pedestal/Artifact -->
+  <rect x="60" y="150" width="40" height="60" fill="#374151" rx="2"/>
+  <circle cx="80" cy="130" r="20" fill="#F59E0B"/>
+  
+  <!-- Speaker Character -->
+  <g>
+    <!-- Body -->
+    <path d="M140 160 C140 140 160 140 160 160 L160 240 L140 240 Z" fill="#9CA3AF"/>
+    <!-- Head -->
+    <circle cx="150" cy="130" r="15" fill="#E5E7EB"/>
+    <!-- Arm gesturing -->
+    <path d="M145 150 L120 120" stroke="#E5E7EB" stroke-width="8" stroke-linecap="round"/>
+    <path d="M120 120 L110 130" stroke="#E5E7EB" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion/Speech Lines -->
+  <path d="M100 110 Q110 100 120 110" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M105 100 Q115 90 125 100" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M110 90 Q120 80 130 90" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Audience -->
+  <g>
+    <circle cx="180" cy="200" r="10" fill="#4B5563"/>
+    <rect x="175" y="210" width="10" height="30" fill="#4B5563"/>
+    <circle cx="205" cy="200" r="10" fill="#4B5563"/>
+    <rect x="200" y="210" width="10" height="30" fill="#4B5563"/>
+  </g>
+</svg>

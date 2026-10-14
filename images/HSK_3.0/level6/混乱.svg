@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Road intersection layout -->
+  <path d="M120 0v240M0 120h240" stroke="#374151" stroke-width="12" stroke-dasharray="10 10"/>
+  
+  <!-- Cars in conflict/chaos -->
+  <!-- Car 1 (Orange) -->
+  <g transform="translate(70 70) rotate(45)">
+    <rect x="0" y="0" width="40" height="20" rx="4" fill="#F59E0B"/>
+    <circle cx="10" cy="20" r="4" fill="#9CA3AF"/>
+    <circle cx="30" cy="20" r="4" fill="#9CA3AF"/>
+  </g>
+  
+  <!-- Car 2 (Blue) -->
+  <g transform="translate(140 140) rotate(-135)">
+    <rect x="0" y="0" width="40" height="20" rx="4" fill="#3B82F6"/>
+    <circle cx="10" cy="20" r="4" fill="#9CA3AF"/>
+    <circle cx="30" cy="20" r="4" fill="#9CA3AF"/>
+  </g>
+  
+  <!-- Car 3 (Red) -->
+  <g transform="translate(140 70) rotate(135)">
+    <rect x="0" y="0" width="40" height="20" rx="4" fill="#EF4444"/>
+    <circle cx="10" cy="20" r="4" fill="#9CA3AF"/>
+    <circle cx="30" cy="20" r="4" fill="#9CA3AF"/>
+  </g>
+  
+  <!-- Traffic Light Pole -->
+  <rect x="112" y="112" width="16" height="16" fill="#374151" rx="4"/>
+  <circle cx="120" cy="120" r="5" fill="#4B5563"/>
+  
+  <!-- Motion lines/Chaos indicators -->
+  <path d="M60 60 L50 50 M180 180 L190 190 M180 60 L190 50 M60 180 L50 190" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+</svg>

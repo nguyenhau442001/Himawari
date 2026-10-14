@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Central Dining Table & Warm Home Meal (Cơm nhà) -->
+  <g transform="translate(0, 0)">
+    <!-- Wooden Table Surface -->
+    <path d="M 40,150 L 200,150 L 210,185 L 30,185 Z" fill="#2C241D" />
+    <path d="M 30,185 L 210,185 L 210,193 L 30,193 Z" fill="#1E1813" />
+    <rect x="50" y="193" width="16" height="30" fill="#1E1813" rx="4" />
+    <rect x="174" y="193" width="16" height="30" fill="#1E1813" rx="4" />
+
+    <!-- Rice Bowl (Center-Left) -->
+    <ellipse cx="85" cy="135" rx="22" ry="9" fill="#3E4451" />
+    <path d="M 63,135 C 63,152 107,152 107,135 Z" fill="#2E3440" />
+    <!-- White Rice Mound -->
+    <ellipse cx="85" cy="133" rx="18" ry="7" fill="#ECEFF4" />
+    <path d="M 72,131 C 74,124 96,124 98,131 Z" fill="#D8DEE9" />
+    <!-- Chopsticks resting -->
+    <rect x="60" y="120" width="60" height="3" rx="1.5" fill="#D08770" transform="rotate(-12 90 121)" />
+
+    <!-- Main Dish: Ceramic Plate with Home-cooked Fish & Vegetables (Cơm nhà - Món ăn gia đình) -->
+    <ellipse cx="145" cy="142" rx="36" ry="14" fill="#E5E9F0" />
+    <ellipse cx="145" cy="140" rx="31" ry="11" fill="#ECEFF4" />
+    <!-- Fish Silhouette / Braised Fish -->
+    <path d="M 125,140 C 130,133 155,133 163,138 C 168,141 168,143 163,146 C 155,150 130,150 125,140 Z" fill="#D08770" />
+    <!-- Fish details (soy glaze) -->
+    <path d="M 132,139 C 138,137 148,137 154,141" stroke="#BF616A" stroke-width="2" stroke-linecap="round" fill="none" />
+    <!-- Garnish / Green Veggies -->
+    <circle cx="120" cy="143" r="3" fill="#A3BE8C" />
+    <circle cx="168" cy="140" r="2.5" fill="#A3BE8C" />
+    <circle cx="138" cy="145" r="2" fill="#8FBCBB" />
+
+    <!-- Small Soup Bowl (Back Right) -->
+    <ellipse cx="180" cy="115" rx="16" ry="6" fill="#4C566A" />
+    <path d="M 164,115 C 164,127 196,127 196,115 Z" fill="#3B4252" />
+    <ellipse cx="180" cy="114" rx="13" ry="4" fill="#EBCB8B" />
+    <!-- Steam rising from soup -->
+    <path d="M 176,100 C 174,94 180,90 177,84" stroke="#D8DEE9" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M 184,102 C 186,96 181,92 185,86" stroke="#D8DEE9" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6" />
+
+    <!-- Warm Glowing Ambient Light from Home -->
+    <circle cx="120" cy="80" r="55" fill="#EBCB8B" opacity="0.08" filter="blur(10px)" />
+    
+    <!-- Hanging Warm Pendant Light above the table -->
+    <path d="M 120,45 L 120,20" stroke="#4C566A" stroke-width="2" />
+    <path d="M 100,45 L 140,45 L 132,55 L 108,55 Z" fill="#D08770" />
+    <ellipse cx="120" cy="55" rx="12" ry="4" fill="#EBCB8B" />
+  </g>
+</svg>

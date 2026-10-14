@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Iceberg base -->
+  <path d="M60 180 L180 180 L160 120 L130 150 L100 110 L70 140 Z" fill="#4A90E2" stroke="#2C3E50" stroke-width="2"/>
+  
+  <!-- Cracks representing the worsening/intensification -->
+  <path d="M110 130 L120 140 M115 135 L125 130 M135 145 L145 155 M140 150 L150 145" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Water surface -->
+  <rect x="40" y="180" width="160" height="10" fill="#2C3E50"/>
+  
+  <!-- Droplets falling/melting (Intensification action) -->
+  <path d="M130 150 Q130 165 140 165 Q150 165 150 150 Z" fill="#F39C12"/>
+  <path d="M90 140 Q90 155 100 155 Q110 155 110 140 Z" fill="#F39C12"/>
+  
+  <!-- Sharp accent lines indicating speed/acceleration of the process -->
+  <path d="M160 120 L175 105 M160 120 L180 115" stroke="#F39C12" stroke-width="2" stroke-linecap="round"/>
+</svg>

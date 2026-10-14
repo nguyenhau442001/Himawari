@@ -31342,10 +31342,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/回报.svg",
     "caption": "đền đáp, báo đáp; hoàn vốn"
   },
+  "回顾": {
+    "file": "回顾.svg",
+    "src": "images/HSK_3.0/level6/回顾.svg",
+    "caption": "nhìn lại, điểm lại, hồi tưởng"
+  },
   "回头": {
     "file": "回头.svg",
     "src": "images/HSK_3.0/level6/回头.svg",
     "caption": "ngoảnh đầu; lát nữa, tí nữa"
+  },
+  "汇": {
+    "file": "汇.svg",
+    "src": "images/HSK_3.0/level6/汇.svg",
+    "caption": "tập hợp, tụ hội; gửi tiền, chuyển khoản"
   },
   "绘画": {
     "file": "绘画.svg",
@@ -31356,6 +31366,241 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "会见.svg",
     "src": "images/HSK_3.0/level6/会见.svg",
     "caption": "tiếp kiến, hội kiến, gặp gỡ"
+  },
+  "混": {
+    "file": "混.svg",
+    "src": "images/HSK_3.0/level6/混.svg",
+    "caption": "trộn lẫn; sống qua ngày, lăn lộn"
+  },
+  "混合": {
+    "file": "混合.svg",
+    "src": "images/HSK_3.0/level6/混合.svg",
+    "caption": "pha trộn, hỗn hợp"
+  },
+  "混乱": {
+    "file": "混乱.svg",
+    "src": "images/HSK_3.0/level6/混乱.svg",
+    "caption": "hỗn loạn, lộn xộn"
+  },
+  "活力": {
+    "file": "活力.svg",
+    "src": "images/HSK_3.0/level6/活力.svg",
+    "caption": "sức sống, sinh khí, sự năng động"
+  },
+  "火灾": {
+    "file": "火灾.svg",
+    "src": "images/HSK_3.0/level6/火灾.svg",
+    "caption": "lửa"
+  },
+  "货车": {
+    "file": "货车.svg",
+    "src": "images/HSK_3.0/level6/货车.svg",
+    "caption": "xe tải, xe chở hàng"
+  },
+  "击败": {
+    "file": "击败.svg",
+    "src": "images/HSK_3.0/level6/击败.svg",
+    "caption": "đánh bại, chiến thắng (đối thủ)"
+  },
+  "机动车": {
+    "file": "机动车.svg",
+    "src": "images/HSK_3.0/level6/机动车.svg",
+    "caption": "xe cơ giới (ô tô, xe máy)"
+  },
+  "激励": {
+    "file": "激励.svg",
+    "src": "images/HSK_3.0/level6/激励.svg",
+    "caption": "khích lệ, động viên, cổ vũ"
+  },
+  "激情": {
+    "file": "激情.svg",
+    "src": "images/HSK_3.0/level6/激情.svg",
+    "caption": "niềm đam mê, nhiệt huyết tràn trề"
+  },
+  "机遇": {
+    "file": "机遇.svg",
+    "src": "images/HSK_3.0/level6/机遇.svg",
+    "caption": "thời cơ, cơ hội"
+  },
+  "即便": {
+    "file": "即便.svg",
+    "src": "images/HSK_3.0/level6/即便.svg",
+    "caption": "cho dù, dẫu cho, ngay cả khi"
+  },
+  "急救": {
+    "file": "急救.svg",
+    "src": "images/HSK_3.0/level6/急救.svg",
+    "caption": "sơ cứu, cấp cứu"
+  },
+  "极为": {
+    "file": "极为.svg",
+    "src": "images/HSK_3.0/level6/极为.svg",
+    "caption": "cực kỳ, vô cùng"
+  },
+  "吉祥": {
+    "file": "吉祥.svg",
+    "src": "images/HSK_3.0/level6/吉祥.svg",
+    "caption": "cát tường, may mắn, tốt lành"
+  },
+  "季军": {
+    "file": "季军.svg",
+    "src": "images/HSK_3.0/level6/季军.svg",
+    "caption": "giải ba, huy chương đồng (quý quân)"
+  },
+  "技巧": {
+    "file": "技巧.svg",
+    "src": "images/HSK_3.0/level6/技巧.svg",
+    "caption": "kỹ xảo, mẹo, kỹ năng thành thạo"
+  },
+  "技艺": {
+    "file": "技艺.svg",
+    "src": "images/HSK_3.0/level6/技艺.svg",
+    "caption": "tay nghề, kỹ nghệ điêu luyện"
+  },
+  "夹": {
+    "file": "夹.svg",
+    "src": "images/HSK_3.0/level6/夹.svg",
+    "caption": "kẹp, cặp; lẫn vào"
+  },
+  "加倍": {
+    "file": "加倍.svg",
+    "src": "images/HSK_3.0/level6/加倍.svg",
+    "caption": "gấp đôi, nỗ lực gấp bội"
+  },
+  "家常": {
+    "file": "家常.svg",
+    "src": "images/HSK_3.0/level6/家常.svg",
+    "caption": "cơm nhà, chuyện thường ngày"
+  },
+  "家家户户": {
+    "file": "家家户户.svg",
+    "src": "images/HSK_3.0/level6/家家户户.svg",
+    "caption": "nhà nhà người người, muôn nhà"
+  },
+  "加剧": {
+    "file": "加剧.svg",
+    "src": "images/HSK_3.0/level6/加剧.svg",
+    "caption": "tăng nhanh, gia tăng gay gắt, trầm trọng hơn"
+  },
+  "家居": {
+    "file": "家居.svg",
+    "src": "images/HSK_3.0/level6/家居.svg",
+    "caption": "nội thất gia đình, đồ dùng trong nhà"
+  },
+  "家属": {
+    "file": "家属.svg",
+    "src": "images/HSK_3.0/level6/家属.svg",
+    "caption": "người nhà, thân nhân gia đình"
+  },
+  "加以": {
+    "file": "加以.svg",
+    "src": "images/HSK_3.0/level6/加以.svg",
+    "caption": "tiến hành, áp dụng (để xử lý)"
+  },
+  "家园": {
+    "file": "家园.svg",
+    "src": "images/HSK_3.0/level6/家园.svg",
+    "caption": "mái ấm, quê hương, mảnh đất quê nhà"
+  },
+  "加重": {
+    "file": "加重.svg",
+    "src": "images/HSK_3.0/level6/加重.svg",
+    "caption": "làm tăng thêm, làm nặng thêm, trầm trọng hơn"
+  },
+  "尖": {
+    "file": "尖.svg",
+    "src": "images/HSK_3.0/level6/尖.svg",
+    "caption": "sắc nhọn, nhọn; mũi nhọn"
+  },
+  "坚定": {
+    "file": "坚定.svg",
+    "src": "images/HSK_3.0/level6/坚定.svg",
+    "caption": "kiên định, vững vàng"
+  },
+  "坚固": {
+    "file": "坚固.svg",
+    "src": "images/HSK_3.0/level6/坚固.svg",
+    "caption": "rắn"
+  },
+  "艰辛": {
+    "file": "艰辛.svg",
+    "src": "images/HSK_3.0/level6/艰辛.svg",
+    "caption": "gian nan vất vả, gian truân"
+  },
+  "坚硬": {
+    "file": "坚硬.svg",
+    "src": "images/HSK_3.0/level6/坚硬.svg",
+    "caption": "cứng rắn, rắn chắc"
+  },
+  "检测": {
+    "file": "检测.svg",
+    "src": "images/HSK_3.0/level6/检测.svg",
+    "caption": "xét nghiệm, kiểm định, đo lường kiểm tra"
+  },
+  "简化": {
+    "file": "简化.svg",
+    "src": "images/HSK_3.0/level6/简化.svg",
+    "caption": "đơn giản hóa"
+  },
+  "简介": {
+    "file": "简介.svg",
+    "src": "images/HSK_3.0/level6/简介.svg",
+    "caption": "giới thiệu vắn tắt, tóm tắt sơ lược"
+  },
+  "减压": {
+    "file": "减压.svg",
+    "src": "images/HSK_3.0/level6/减压.svg",
+    "caption": "giảm áp lực, xả stress"
+  },
+  "检验": {
+    "file": "检验.svg",
+    "src": "images/HSK_3.0/level6/检验.svg",
+    "caption": "kiểm nghiệm, kiểm tra đánh giá"
+  },
+  "剑": {
+    "file": "剑.svg",
+    "src": "images/HSK_3.0/level6/剑.svg",
+    "caption": "thanh kiếm, gươm"
+  },
+  "箭": {
+    "file": "箭.svg",
+    "src": "images/HSK_3.0/level6/箭.svg",
+    "caption": "mũi tên"
+  },
+  "鉴定": {
+    "file": "鉴定.svg",
+    "src": "images/HSK_3.0/level6/鉴定.svg",
+    "caption": "giám định, thẩm định"
+  },
+  "间隔": {
+    "file": "间隔.svg",
+    "src": "images/HSK_3.0/level6/间隔.svg",
+    "caption": "khoảng cách, quãng cách (thời gian, không gian)"
+  },
+  "间接": {
+    "file": "间接.svg",
+    "src": "images/HSK_3.0/level6/间接.svg",
+    "caption": "gián tiếp"
+  },
+  "建筑物": {
+    "file": "建筑物.svg",
+    "src": "images/HSK_3.0/level6/建筑物.svg",
+    "caption": "tòa nhà, công trình kiến trúc"
+  },
+  "讲解": {
+    "file": "讲解.svg",
+    "src": "images/HSK_3.0/level6/讲解.svg",
+    "caption": "giảng giải, thuyết minh, giải thích"
+  },
+  "奖牌": {
+    "file": "奖牌.svg",
+    "src": "images/HSK_3.0/level6/奖牌.svg",
+    "caption": "huy chương"
+  },
+  "奖品": {
+    "file": "奖品.svg",
+    "src": "images/HSK_3.0/level6/奖品.svg",
+    "caption": "phần thưởng, giải thưởng"
   }
 };
 

@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="115" r="70" fill="#FFB703" opacity="0.05"/>
+
+  <!-- Physical Object representing "技巧" (Skilled tool/craftsmanship metaphor: Swiss Army Knife / Multi-tool with precision gear) -->
+  <g transform="translate(0, 0)">
+    <!-- Central Body/Handle of the Multi-tool (Sleek modern flat style) -->
+    <rect x="85" y="70" width="70" height="100" rx="20" fill="#2D3748" stroke="#4A5568" stroke-width="3"/>
+    
+    <!-- Metallic inner plate -->
+    <rect x="91" y="76" width="58" height="88" rx="14" fill="#1A202C"/>
+
+    <!-- Accent grip lines -->
+    <line x1="105" y1="95" x2="135" y2="95" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="105" y1="110" x2="135" y2="110" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="105" y1="125" x2="135" y2="125" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- High-contrast Orange/Gold Accent: Precision Gear integrated into the tool representing "Skill/Method" -->
+    <circle cx="120" cy="115" r="18" fill="#FFB703"/>
+    <circle cx="120" cy="115" r="8" fill="#1A202C"/>
+    <!-- Gear teeth -->
+    <rect x="117" y="93" width="6" height="5" fill="#FFB703"/>
+    <rect x="117" y="132" width="6" height="5" fill="#FFB703"/>
+    <rect x="93" y="117" width="5" height="6" fill="#FFB703"/>
+    <rect x="132" y="117" width="5" height="6" fill="#FFB703"/>
+    
+    <!-- Diagonal diagonal gear teeth for detail -->
+    <rect x="101" y="101" width="5" height="5" transform="rotate(45 103.5 103.5)" fill="#FFB703"/>
+    <rect x="134" y="134" width="5" height="5" transform="rotate(45 136.5 136.5)" fill="#FFB703"/>
+    <rect x="134" y="101" width="5" height="5" transform="rotate(-45 136.5 103.5)" fill="#FFB703"/>
+    <rect x="101" y="134" width="5" height="5" transform="rotate(-45 103.5 136.5)" fill="#FFB703"/>
+
+    <!-- Folded Blade (Top left) -->
+    <path d="M 88 75 L 60 55 C 55 52 50 58 55 64 L 85 85 Z" fill="#E2E8F0"/>
+    
+    <!-- Folded Pen/Stylus or secondary tool (Top right) -->
+    <rect x="145" y="55" width="8" height="30" rx="4" fill="#CBD5E0" transform="rotate(20 149 70)"/>
+    <circle cx="151" cy="50" r="3" fill="#FFB703"/>
+
+    <!-- Key/Hex tool pivot point (Bottom) -->
+    <circle cx="120" cy="180" r="6" fill="#4A5568"/>
+    <path d="M 115 170 L 125 170 L 123 150 L 117 150 Z" fill="#CBD5E0"/>
+
+    <!-- Sparkles/Focus indicators (denoting mastery, clever technique) -->
+    <path d="M 50 100 L 53 108 L 61 111 L 53 114 L 50 122 L 47 114 L 39 111 L 47 108 Z" fill="#FFB703"/>
+    <path d="M 190 80 L 192 85 L 197 87 L 192 89 L 190 94 L 188 89 L 183 87 L 188 85 Z" fill="#FFB703" transform="scale(0.8) translate(50, 10)"/>
+    <path d="M 180 150 L 182 155 L 187 157 L 182 159 L 180 164 L 178 159 L 173 157 L 178 155 Z" fill="#FFB703" transform="scale(0.6) translate(80, 40)"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Central Medical Cross background glow/shadow -->
+    <circle cx="120" cy="110" r="54" fill="#FF5252" opacity="0.15"/>
+    
+    <!-- Medical Cross (Cấp cứu) -->
+    <!-- Vertical bar -->
+    <rect x="104" y="66" width="32" height="88" rx="8" fill="#FF5252"/>
+    <!-- Horizontal bar -->
+    <rect x="76" y="94" width="88" height="32" rx="8" fill="#FF5252"/>
+
+    <!-- Dynamic Heartbeat / EKG Pulse Line Overlay (Sơ cứu / Hồi sức) -->
+    <path d="M 52 110 L 86 110 L 98 84 L 112 142 L 128 92 L 142 124 L 152 110 L 188 110" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+          
+    <!-- Decorative Highlight dot -->
+    <circle cx="128" cy="92" r="4" fill="#FFD700"/>
+  </g>
+
+  <!-- Contextual Base / Ground shadow or subtle interface container -->
+  <path d="M 80 182 L 160 182" stroke="#3A3F4B" stroke-width="4" stroke-linecap="round"/>
+</svg>

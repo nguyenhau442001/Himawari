@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120) rotate(45)">
+    <!-- Sword Blade -->
+    <path d="M-80 -5 L80 -5 L80 5 L-80 5 Z" fill="#E0E0E0"/>
+    <path d="M80 0 L100 0" stroke="#E0E0E0" stroke-width="10" stroke-linecap="round"/>
+    <!-- Sword Tip -->
+    <path d="M80 -5 L110 0 L80 5 Z" fill="#E0E0E0"/>
+    <!-- Guard -->
+    <path d="M-85 -15 L-75 -15 L-75 15 L-85 15 Z" fill="#FFB74D"/>
+    <!-- Handle -->
+    <path d="M-115 -8 L-85 -8 L-85 8 L-115 8 Z" fill="#FFD54F"/>
+    <!-- Pommel -->
+    <circle cx="-120" cy="0" r="8" fill="#FFB74D"/>
+    <!-- Tassel -->
+    <path d="M-120 8 L-125 30 L-115 30 Z" fill="#FF7043"/>
+    <path d="M-120 30 L-125 45 L-115 45 Z" fill="#FF7043"/>
+  </g>
+</svg>

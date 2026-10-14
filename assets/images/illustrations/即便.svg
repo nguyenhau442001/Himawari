@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Visual Metaphor: Contrast & Escalation / Resilience against heavy weather (Even if / Cho dù) -->
+  
+  <!-- Ambient background elements representing obstacles/pressure -->
+  <g opacity="0.3">
+    <!-- Slanting storm lines / adverse conditions -->
+    <line x1="40" y1="50" x2="20" y2="90" stroke="#627D98" stroke-width="2" stroke-linecap="round"/>
+    <line x1="80" y1="40" x2="60" y2="80" stroke="#627D98" stroke-width="2" stroke-linecap="round"/>
+    <line x1="160" y1="45" x2="140" y2="85" stroke="#627D98" stroke-width="2" stroke-linecap="round"/>
+    <line x1="200" y1="55" x2="180" y2="95" stroke="#627D98" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Heavy atmospheric weight (Dark contrasting cloud/barrier representing the obstacle) -->
+  <path d="M 50 70 Q 70 40 120 45 Q 170 40 190 70 Q 210 90 190 100 Q 50 100 50 70 Z" fill="#242B38" opacity="0.8"/>
+
+  <!-- Ground / Foundation Line -->
+  <line x1="40" y1="185" x2="200" y2="185" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Escalation / Steep Terrain (Stepped slope representing adversity/hardship) -->
+  <path d="M 70 185 L 110 155 L 140 155 L 170 125 L 200 125" fill="none" stroke="#334155" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Resilient Core Character / Subject (Stepping firmly forward, climbing despite the heavy load/barrier) -->
+  <!-- Character Body / Stance -->
+  <g transform="translate(130, 115)">
+    <!-- Back leg lunging forward -->
+    <path d="M 15 50 L 5 70" stroke="#9FB3C8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Front leg bracing -->
+    <path d="M 15 50 L 30 70" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+    <!-- Torso leaning forward with determination -->
+    <path d="M 15 20 L 15 52" stroke="#F0B429" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head pushing upward -->
+    <circle cx="15" cy="10" r="7" fill="#F0B429"/>
+    <!-- Arm reaching forward, unwavering -->
+    <path d="M 15 30 L 35 25" stroke="#F0B429" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- High-Contrast Focal Element: Unyielding resolve/beacon pointing forward -->
+  <circle cx="190" cy="100" r="10" fill="#F0B429" opacity="0.2"/>
+  <circle cx="190" cy="100" r="5" fill="#F0B429"/>
+
+  <!-- Contrast indicator: Arrow showing breakthrough against downward pressure -->
+  <path d="M 90 135 L 115 110" stroke="#FF7A45" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 103 110 L 115 110 L 115 122" fill="none" stroke="#FF7A45" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

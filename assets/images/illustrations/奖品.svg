@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Trophy Base -->
+  <path d="M80 190h80v10a10 10 0 0 1-10 10H90a10 10 0 0 1-10-10z" fill="#4A5568"/>
+  <rect x="115" y="160" width="10" height="30" fill="#718096"/>
+  
+  <!-- Trophy Body -->
+  <path d="M90 160h60l-10-40H100z" fill="#A0AEC0"/>
+  <path d="M100 120h40a20 20 0 0 1 20 20v10a20 20 0 0 1-20 20H100a20 20 0 0 1-20-20v-10a20 20 0 0 1 20-20z" fill="#E2E8F0"/>
+  
+  <!-- Gold Accents -->
+  <path d="M120 70a30 30 0 1 0 0 60 30 30 0 0 0 0-60z" fill="#ECC94B"/>
+  <path d="M120 80a20 20 0 1 0 0 40 20 20 0 0 0 0-40z" fill="#F6E05E"/>
+  
+  <!-- Handles -->
+  <path d="M90 130c-10 0-15-10-15-20s5-20 15-20" fill="none" stroke="#ECC94B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150 130c10 0 15-10 15-20s-5-20-15-20" fill="none" stroke="#ECC94B" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Star Detail -->
+  <path d="M120 90l3 9h9l-7 5 2 9-8-6-8 6 2-9-7-5h9z" fill="#1A1D24"/>
+</svg>
