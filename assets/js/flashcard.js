@@ -367,6 +367,66 @@ function updateCardPosition() {
   badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
 }
 
+function applyHanziLengthFit(el, text) {
+  if (!el) return;
+  const chars = Array.from(text || '');
+  const len = chars.length;
+  el.dataset.length = String(len);
+  el.classList.remove('is-len-1', 'is-len-2', 'is-len-3', 'is-len-4', 'is-len-5', 'is-len-6-plus', 'is-len-long');
+  if (len >= 6) {
+    el.classList.add('is-len-6-plus', 'is-len-long');
+  } else if (len === 5) {
+    el.classList.add('is-len-5', 'is-len-long');
+  } else if (len === 4) {
+    el.classList.add('is-len-4');
+  } else if (len === 3) {
+    el.classList.add('is-len-3');
+  } else if (len === 2) {
+    el.classList.add('is-len-2');
+  } else {
+    el.classList.add('is-len-1');
+  }
+  fitHanziToContainer(el);
+
+  if (typeof ResizeObserver !== 'undefined' && !window.__hanziResizeObserver) {
+    const parent = el.parentElement;
+    if (parent) {
+      window.__hanziResizeObserver = new ResizeObserver(() => {
+        const currentHanzi = document.getElementById('hanzi');
+        if (currentHanzi && currentHanzi.textContent) {
+          fitHanziToContainer(currentHanzi);
+        }
+      });
+      window.__hanziResizeObserver.observe(parent);
+    }
+  }
+}
+
+function fitHanziToContainer(el) {
+  if (!el) return;
+  el.style.fontSize = '';
+  requestAnimationFrame(() => {
+    if (!el || !el.parentElement) return;
+    const parent = el.parentElement;
+    const availableWidth = parent.clientWidth - 16;
+    if (availableWidth <= 50) return;
+    if (el.scrollWidth > availableWidth) {
+      const computed = window.getComputedStyle(el);
+      const currentSize = parseFloat(computed.fontSize);
+      if (currentSize > 16) {
+        const ratio = availableWidth / el.scrollWidth;
+        const newSize = Math.max(16, Math.floor(currentSize * ratio * 0.98));
+        el.style.fontSize = `${newSize}px`;
+      }
+    }
+  });
+}
+
+window.addEventListener('resize', () => {
+  const h = document.getElementById('hanzi');
+  if (h && h.textContent) fitHanziToContainer(h);
+});
+
 function toggleStudySidebar(forceOpen) {
   const isOpen = document.body.classList.contains('study-sidebar-open');
   const isTargetTab = document.body.dataset.sidebarTab === 'words';
@@ -436,6 +496,11 @@ function updateStudyDrawerButtons() {
   if (writingBtn) writingBtn.classList.toggle('active', isPanelOpen && activeTab === 'stroke');
   const cardWritingBtn = document.getElementById('cardWritingBtn');
   if (cardWritingBtn) cardWritingBtn.classList.toggle('active', isPanelOpen && activeTab === 'stroke');
+
+  const currentHanzi = document.getElementById('hanzi');
+  if (currentHanzi && currentHanzi.textContent) {
+    fitHanziToContainer(currentHanzi);
+  }
 }
 
 function ensureStudyWordList() {
@@ -716,7 +781,13 @@ function render(animate) {
       if (wordMainBlock) wordMainBlock.style.display = 'none';
       if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
       if (hint) hint.style.display = 'none';
-      document.getElementById('hanzi').textContent = '';
+      const emptyHanzi = document.getElementById('hanzi');
+      if (emptyHanzi) {
+        emptyHanzi.textContent = '';
+        emptyHanzi.style.fontSize = '';
+        emptyHanzi.removeAttribute('data-length');
+        emptyHanzi.className = 'hanzi';
+      }
       document.getElementById('pinyin').textContent = '';
       const emptyHv = document.getElementById('hanvietBadge');
       if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
@@ -758,8 +829,11 @@ function render(animate) {
     setActiveStudyWord(w);
     if (typeof renderCardRadicals === 'function') renderCardRadicals(w);
     renderStudyWordList();
-    updateSrsPreviews(w);
-    document.getElementById('hanzi').textContent = w.hanzi;
+    const hanziEl = document.getElementById('hanzi');
+    if (hanziEl) {
+      hanziEl.textContent = w.hanzi;
+      applyHanziLengthFit(hanziEl, w.hanzi);
+    }
     document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
     const hvBadge = document.getElementById('hanvietBadge');
     if (hvBadge) {

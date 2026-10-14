@@ -181,7 +181,15 @@
   letter-spacing: 0.5px;
   cursor: pointer;
   transition: transform 0.16s ease, filter 0.16s ease;
+  white-space: nowrap;
+  text-wrap: nowrap;
+  max-width: 100%;
 }
+.hanzi.is-len-3, .hanzi[data-length="3"] { font-size: clamp(58px, 6.5vw, 88px); }
+.hanzi.is-len-4, .hanzi[data-length="4"] { font-size: clamp(46px, 5vw, 68px); }
+.hanzi.is-len-5, .hanzi[data-length="5"] { font-size: clamp(38px, 4vw, 54px); }
+.hanzi.is-len-6-plus, .hanzi.is-len-long,
+.hanzi[data-length="6"], .hanzi[data-length="7"], .hanzi[data-length="8"] { font-size: clamp(30px, 3.2vw, 42px); }
 .hanzi:hover {
   filter: brightness(1.15);
   transform: scale(1.02);
