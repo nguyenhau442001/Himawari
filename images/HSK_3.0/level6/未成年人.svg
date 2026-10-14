@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative subtle background glow -->
+  <circle cx="120" cy="120" r="70" fill="#2D3748" opacity="0.3"/>
+
+  <!-- Conceptual illustration: A young figure (minor) standing safely between protective stylized architectural guide marks representing legal boundary, designed clearly as a human character -->
+  <g transform="translate(0, 0)">
+    <!-- Ground line -->
+    <path d="M 70 185 L 170 185" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Protective outer height bracket (representing legal age threshold context) -->
+    <path d="M 85 70 L 75 70 L 75 180 L 85 180" fill="none" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <path d="M 155 70 L 165 70 L 165 180 L 155 180" fill="none" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+    <!-- Minor Character (Child/Youth representation) -->
+    <!-- Body / Torso -->
+    <path d="M 105 130 Q 120 120 135 130 L 145 180 L 95 180 Z" fill="#4FD1C5"/>
+    
+    <!-- Neck -->
+    <rect x="114" y="112" width="12" height="22" rx="4" fill="#F6AD55"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="95" r="22" fill="#F6AD55"/>
+
+    <!-- Hair -->
+    <path d="M 98 90 Q 120 65 142 90 Q 140 105 135 100 Q 120 80 105 100 Z" fill="#2D3748"/>
+
+    <!-- Face details (simple modern flat eyes and smile) -->
+    <circle cx="113" cy="95" r="2" fill="#2D3748"/>
+    <circle cx="127" cy="95" r="2" fill="#2D3748"/>
+    <path d="M 116 103 Q 120 107 124 103" fill="none" stroke="#2D3748" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Arms -->
+    <path d="M 105 135 L 90 160" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 135 135 L 150 160" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Subtle shield/protection indicator above head (non-sci-fi, clean architectural arch) -->
+    <path d="M 100 55 Q 120 40 140 55" fill="none" stroke="#ED8936" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

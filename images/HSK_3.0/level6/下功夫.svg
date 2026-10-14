@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk surface -->
+  <rect x="40" y="160" width="160" height="12" rx="4" fill="#2D343E"/>
+  
+  <!-- Book -->
+  <path d="M70 160 L170 160 L160 120 L80 120 Z" fill="#3B4252"/>
+  <path d="M85 130 L155 130 M85 140 L155 140 M85 150 L140 150" stroke="#4C566A" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character Arm/Hand -->
+  <path d="M120 160 L120 100 L140 90" stroke="#F5A623" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="140" cy="90" r="8" fill="#F5A623"/>
+  
+  <!-- Pen/Tool -->
+  <path d="M140 90 L155 75" stroke="#E5E9F0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Motion lines indicating effort/repetition -->
+  <path d="M150 80 L165 65" stroke="#F5A623" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M155 85 L170 70" stroke="#F5A623" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  
+  <!-- Sweat drop (effort) -->
+  <path d="M110 85 Q115 75 120 85 A5 5 0 1 0 110 85" fill="#F5A623"/>
+  
+  <!-- Focus/Light effect -->
+  <circle cx="120" cy="120" r="30" fill="none" stroke="#F5A623" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+</svg>

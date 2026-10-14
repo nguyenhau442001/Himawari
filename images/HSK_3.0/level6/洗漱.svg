@@ -1,0 +1,34 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Bathroom Mirror/Wall Background -->
+  <rect x="60" y="50" width="120" height="100" rx="8" fill="#2A2E35" stroke="#3E444E" stroke-width="2"/>
+  
+  <!-- Sink Basin -->
+  <path d="M70 150 C70 175, 170 175, 170 150" fill="none" stroke="#5D677A" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Character (Head and Shoulders) -->
+  <circle cx="120" cy="90" r="25" fill="#FFD1A9"/>
+  <path d="M95 90 Q120 120 145 90" fill="#FFD1A9"/>
+  
+  <!-- Action: Washing Face (Hands) -->
+  <g fill="#FFD1A9">
+    <path d="M100 110 L90 130 L105 135 L110 115 Z" />
+    <path d="M140 110 L150 130 L135 135 L130 115 Z" />
+  </g>
+  
+  <!-- Water Splashes (Motion Lines) -->
+  <path d="M105 105 Q110 95 115 105" fill="none" stroke="#4FC3F7" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M135 105 Q130 95 125 105" fill="none" stroke="#4FC3F7" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  
+  <!-- Toothbrush/Cup Accessory -->
+  <rect x="160" y="110" width="15" height="30" rx="2" fill="#FFB74D"/>
+  <rect x="164" y="105" width="7" height="5" rx="1" fill="#FFFFFF"/>
+  
+  <!-- Shirt/Clothing -->
+  <path d="M80 160 C80 140, 160 140, 160 160 L170 200 L70 200 Z" fill="#455A64"/>
+  
+  <!-- Faucet -->
+  <path d="M120 50 L120 70 L135 70" fill="none" stroke="#B0BEC5" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="135" cy="70" r="4" fill="#B0BEC5"/>
+</svg>

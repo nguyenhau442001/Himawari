@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow/background highlights -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+  
+  <!-- Conceptual Illustration: A physical, iconic question mark puzzle structure / mysterious puzzle key representing "为何" (Why/Mystery object) -->
+  <g transform="translate(0, 5)">
+    <!-- Base stand/pedestal representing a tangible physical object -->
+    <path d="M 85 185 L 155 185 C 160 185, 160 195, 155 195 L 85 195 C 80 195, 80 185, 85 185 Z" fill="#3E4C59"/>
+    <rect x="105" y="165" width="30" height="20" fill="#2E3842"/>
+    
+    <!-- Central Question Mark Object - Rendered as a sleek, metallic/solid physical puzzle piece -->
+    <!-- Curved top and upper body of the "?" -->
+    <path d="M 90 85 C 90 55, 150 55, 150 90 C 150 115, 120 125, 120 145" 
+          fill="none" stroke="#F59E0B" stroke-width="22" stroke-linecap="round"/>
+          
+    <!-- Inner dark carved groove for sleek flat-vector modern depth -->
+    <path d="M 90 85 C 90 58, 146 58, 146 90 C 146 112, 120 121, 120 140" 
+          fill="none" stroke="#D97706" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Bottom dot of the question mark, shaped as a solid glowing focal cube/sphere -->
+    <circle cx="120" cy="180" r="11" fill="#F59E0B"/>
+    <circle cx="120" cy="180" r="5" fill="#FEF3C7"/>
+  </g>
+  
+  <!-- Floating subtle puzzle particle nodes representing inquiry/uncertainty context -->
+  <circle cx="65" cy="75" r="3" fill="#3B82F6" opacity="0.8"/>
+  <circle cx="180" cy="85" r="4.5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="160" cy="140" r="2.5" fill="#64748B" opacity="0.8"/>
+  <circle cx="75" cy="145" r="3.5" fill="#F59E0B" opacity="0.7"/>
+
+  <!-- Connecting dashed orbit lines for conceptual clarity without abstract clutter -->
+  <path d="M 65 75 Q 90 60 120 70" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M 180 85 Q 160 110 160 140" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="3 3"/>
+</svg>

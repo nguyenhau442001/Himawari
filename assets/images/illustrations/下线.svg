@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Cinema Screen Frame -->
+  <rect x="40" y="60" width="160" height="90" rx="4" fill="#2D343E" stroke="#FFB800" stroke-width="3"/>
+  
+  <!-- Screen Content: Fading silhouette of a movie scene -->
+  <path d="M60 80 L180 80 L170 130 L70 130 Z" fill="#3D4654"/>
+  <circle cx="120" cy="105" r="15" fill="#4A5568"/>
+  
+  <!-- The "Offline/Off-screen" indicator: A physical power switch turned off -->
+  <rect x="105" y="170" width="30" height="40" rx="4" fill="#2D343E"/>
+  <rect x="115" y="175" width="10" height="15" rx="2" fill="#FFB800"/>
+  
+  <!-- Curtain elements to signify the end of the show -->
+  <path d="M40 60 L40 180 L20 180 L20 40 Z" fill="#FFB800" opacity="0.8"/>
+  <path d="M200 60 L200 180 L220 180 L220 40 Z" fill="#FFB800" opacity="0.8"/>
+  
+  <!-- Floor line -->
+  <line x1="40" y1="150" x2="200" y2="150" stroke="#FFB800" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

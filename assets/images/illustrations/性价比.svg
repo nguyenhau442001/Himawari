@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Scale representing balance of value -->
+  <g transform="translate(120, 130)">
+    <!-- Base -->
+    <path d="M-40 60 L40 60 L30 80 L-30 80 Z" fill="#4A5568"/>
+    <!-- Vertical Stand -->
+    <rect x="-4" y="0" width="8" height="60" fill="#718096"/>
+    <!-- Horizontal Beam -->
+    <rect x="-70" y="-5" width="140" height="8" rx="4" fill="#A0AEC0"/>
+    
+    <!-- Left side: Price (Coin) -->
+    <circle cx="-50" cy="20" r="25" fill="#E53E3E"/>
+    <circle cx="-50" cy="20" r="15" fill="#1A1D24"/>
+    <path d="M-50 10 L-50 30" stroke="#E53E3E" stroke-width="4"/>
+    
+    <!-- Right side: Performance (Smartphone) -->
+    <rect x="30" y="-10" width="40" height="60" rx="6" fill="#ECC94B"/>
+    <rect x="35" y="-5" width="30" height="40" rx="2" fill="#1A1D24"/>
+    <rect x="45" y="40" width="10" height="5" rx="2" fill="#1A1D24"/>
+  </g>
+  
+  <!-- Highlight Star -->
+  <path d="M190 40 L196 58 L214 58 L200 68 L206 86 L190 75 L174 86 L180 68 L166 58 L184 58 Z" fill="#ECC94B"/>
+</svg>

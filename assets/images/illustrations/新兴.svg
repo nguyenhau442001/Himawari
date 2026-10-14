@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle grid for depth -->
+  <path d="M0 120h240M120 0v240" stroke="#2A2E38" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Representing "Emerging/New" (新兴) through scale contrast and growth -->
+  <!-- The "Old/Established" base -->
+  <rect x="60" y="160" width="40" height="40" rx="4" fill="#3A404E"/>
+  <rect x="65" y="165" width="30" height="30" rx="2" fill="#2A2E38"/>
+  
+  <!-- The "Emerging/New" dynamic element -->
+  <g transform="translate(130, 80)">
+    <circle cx="25" cy="25" r="25" fill="#FFB800" opacity="0.1"/>
+    <circle cx="25" cy="25" r="15" fill="#FFB800"/>
+    <path d="M25 10 L25 5 M25 45 L25 40 M10 25 L5 25 M40 25 L45 25" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+    <path d="M15 15 L35 35 M35 15 L15 35" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Connecting growth line -->
+  <path d="M100 160 C 100 120, 130 120, 155 105" stroke="#FFB800" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+  
+  <!-- Rising upward motion indicator -->
+  <path d="M180 140 L200 120 L220 140" stroke="#FFB800" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M180 170 L200 150 L220 170" stroke="#FFB800" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Motion lines indicating speed/rushing -->
+  <path d="M160 120 L190 120 M165 100 L195 100 M165 140 L195 140" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Train/Bus silhouette in distance -->
+  <rect x="180" y="95" width="40" height="50" rx="4" fill="#4A5568"/>
+  <rect x="185" y="105" width="12" height="12" fill="#2D3748"/>
+  <rect x="203" y="105" width="12" height="12" fill="#2D3748"/>
+  
+  <!-- Human character reaching out -->
+  <g transform="translate(60, 100)">
+    <!-- Body -->
+    <path d="M40 120 L40 60 L60 60 L60 120 Z" fill="#E2E8F0"/>
+    <!-- Head -->
+    <circle cx="50" cy="40" r="20" fill="#E2E8F0"/>
+    <!-- Arm reaching forward -->
+    <path d="M60 70 L90 85" stroke="#E2E8F0" stroke-width="12" stroke-linecap="round"/>
+    <!-- Leg running -->
+    <path d="M40 120 L20 140" stroke="#E2E8F0" stroke-width="10" stroke-linecap="round"/>
+    <path d="M40 120 L60 140" stroke="#E2E8F0" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Clock icon indicating time passed -->
+  <circle cx="120" cy="60" r="25" fill="none" stroke="#FFB84D" stroke-width="4"/>
+  <path d="M120 45 L120 60 L135 60" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Visual indicator of missing the connection (The "X" or gap) -->
+  <path d="M140 120 L160 140 M140 140 L160 120" stroke="#FF5555" stroke-width="6" stroke-linecap="round"/>
+</svg>

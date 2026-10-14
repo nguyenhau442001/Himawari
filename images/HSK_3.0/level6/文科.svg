@@ -1,0 +1,71 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "文科" (Humanities/Arts stream) -->
+  <!-- Central Physical Object: An open hardcover book representing literature, philosophy, and history, with classical/humanities symbols -->
+  
+  <g transform="translate(0, 5)">
+    <!-- Glow/Backdrop accent -->
+    <circle cx="120" cy="115" r="70" fill="#2D3340" opacity="0.5"/>
+
+    <!-- Bookmark / Ribbon hanging down -->
+    <path d="M120 115 L120 170 L128 162 L136 170 L136 115 Z" fill="#E56747" opacity="0.9"/>
+
+    <!-- Open Book (Base Pages) -->
+    <path d="M40 90 C70 80, 110 85, 120 115 C130 85, 170 80, 200 90 L200 160 C170 150, 130 155, 120 185 C110 155, 70 150, 40 160 Z" fill="#28303D"/>
+    
+    <!-- Left Page -->
+    <path d="M45 95 C72 87, 110 92, 118 118 L118 178 C110 152, 72 147, 45 155 Z" fill="#EAEFF5"/>
+    
+    <!-- Right Page -->
+    <path d="M195 95 C168 87, 130 92, 122 118 L122 178 C130 152, 168 147, 195 155 Z" fill="#EAEFF5"/>
+
+    <!-- Center Binding Shadow -->
+    <path d="M118 118 C120 135, 120 160, 122 178 L118 178 Z" fill="#CBD5E1"/>
+
+    <!-- Text Lines Left Page (representing literature/history text) -->
+    <rect x="58" y="108" width="44" height="4" rx="2" fill="#94A3B8"/>
+    <rect x="58" y="118" width="50" height="4" rx="2" fill="#94A3B8"/>
+    <rect x="58" y="128" width="38" height="4" rx="2" fill="#94A3B8"/>
+    <rect x="58" y="138" width="46" height="4" rx="2" fill="#94A3B8"/>
+    <rect x="58" y="148" width="30" height="4" rx="2" fill="#94A3B8"/>
+
+    <!-- Text Lines & Classical Elements Right Page (representing philosophy/arts) -->
+    <rect x="138" y="108" width="46" height="4" rx="2" fill="#94A3B8"/>
+    <rect x="138" y="118" width="35" height="4" rx="2" fill="#94A3B8"/>
+    <rect x="138" y="128" width="48" height="4" rx="2" fill="#94A3B8"/>
+    
+    <!-- Greek Temple / Pillar icon sketch on right page representing Philosophy/History -->
+    <g transform="translate(145, 138) scale(0.6)">
+      <!-- Base -->
+      <rect x="0" y="32" width="40" height="4" fill="#E56747" rx="1"/>
+      <rect x="4" y="28" width="32" height="4" fill="#E56747" rx="1"/>
+      <!-- Pillars -->
+      <rect x="7" y="10" width="4" height="18" fill="#E56747" rx="1"/>
+      <rect x="15" y="10" width="4" height="18" fill="#E56747" rx="1"/>
+      <rect x="23" y="10" width="4" height="18" fill="#E56747" rx="1"/>
+      <rect x="31" y="10" width="4" height="18" fill="#E56747" rx="1"/>
+      <!-- Top Pediment -->
+      <rect x="4" y="6" width="32" height="4" fill="#E56747" rx="1"/>
+      <polygon points="20,0 2,6 38,6" fill="#E56747"/>
+    </g>
+
+    <!-- Feather Pen / Quill resting diagonally across the book (symbolizing liberal arts & humanities) -->
+    <g transform="translate(125, 60) rotate(-35)">
+      <!-- Quill Feather -->
+      <path d="M0 60 C-10 40, -5 20, 10 0 C15 15, 20 35, 10 60 Z" fill="#F1F5F9"/>
+      <path d="M5 60 C2 45, 5 25, 10 0 C7 20, 8 40, 5 60 Z" fill="#CBD5E1"/>
+      <!-- Feather stem / center vein -->
+      <line x1="10" y1="0" x2="0" y2="60" stroke="#94A3B8" stroke-width="1.5"/>
+      <!-- Nib -->
+      <path d="M0 60 L-2 70 L0 73 L2 70 Z" fill="#E56747"/>
+    </g>
+
+    <!-- Floating accent elements representing intellect / arts (small golden stars/sparkles) -->
+    <path d="M55 70 L57 75 L62 77 L57 79 L55 84 L53 79 L48 77 L53 75 Z" fill="#FBBF24" opacity="0.8"/>
+    <path d="M185 75 L186.5 78.5 L190 80 L186.5 81.5 L185 85 L183.5 81.5 L180 80 L183.5 78.5 Z" fill="#FBBF24" opacity="0.9"/>
+    <circle cx="170" cy="55" r="2.5" fill="#FBBF24" opacity="0.7"/>
+    <circle cx="75" cy="50" r="2" fill="#FBBF24" opacity="0.6"/>
+  </g>
+</svg>

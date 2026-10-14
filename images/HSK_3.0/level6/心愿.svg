@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk surface -->
+  <path d="M40 180h160v10H40z" fill="#2D343E"/>
+  
+  <!-- Open Book representing the university goal -->
+  <path d="M70 140h100v50H70z" fill="#3A4454"/>
+  <path d="M70 140l50 20 50-20v50l-50 20-50-20z" fill="#E0E6ED"/>
+  <path d="M120 140v70" stroke="#1A1D24" stroke-width="2"/>
+  
+  <!-- Graduation Cap (Mortarboard) resting on the book -->
+  <path d="M85 130l35-15 35 15-35 15z" fill="#FFB347"/>
+  <path d="M120 145v20" stroke="#FFB347" stroke-width="4"/>
+  <path d="M120 165l10 5" stroke="#FFB347" stroke-width="2"/>
+  
+  <!-- Glowing star/spark representing the 'wish' aspect -->
+  <path d="M180 80l-5 12-12 5 12 5 5 12 5-12 12-5-12-5z" fill="#FFD700"/>
+  <path d="M160 100l-3 8-8 3 8 3 3 8 3-8 8-3-8-3z" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Silhouette of a person looking at the goal -->
+  <path d="M50 200c0-20 15-35 35-35s35 15 35 35" fill="none" stroke="#636E72" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="85" cy="155" r="15" fill="#636E72"/>
+</svg>

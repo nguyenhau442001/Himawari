@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Opera Mask Base -->
+    <path d="M-40 -50 C -40 -80, 40 -80, 40 -50 L 40 20 C 40 60, -40 60, -40 20 Z" fill="#FFB800"/>
+    <!-- Eye details -->
+    <path d="M-25 -30 C -15 -45, -5 -45, 5 -30 C -5 -20, -15 -20, -25 -30" fill="#1A1D24"/>
+    <path d="M25 -30 C 15 -45, 5 -45, -5 -30 C 5 -20, 15 -20, 25 -30" fill="#1A1D24"/>
+    <!-- Facial markings -->
+    <path d="M0 -60 L-10 -75 M0 -60 L10 -75" stroke="#D32F2F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-20 0 L-35 15 M20 0 L35 15" stroke="#D32F2F" stroke-width="4" stroke-linecap="round"/>
+    <!-- Mouth -->
+    <path d="M-15 10 C -5 20, 5 20, 15 10" stroke="#1A1D24" stroke-width="3" fill="none"/>
+    <!-- Headdress/Feather elements -->
+    <path d="M-30 -60 L-60 -90" stroke="#FFB800" stroke-width="6" stroke-linecap="round"/>
+    <path d="M30 -60 L60 -90" stroke="#FFB800" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-60" cy="-90" r="6" fill="#D32F2F"/>
+    <circle cx="60" cy="-90" r="6" fill="#D32F2F"/>
+  </g>
+</svg>
