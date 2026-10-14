@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle elements (dark mode aesthetic) -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.5"/>
+
+  <!-- Central iconic physical object: Modern Smart Glasses framing blurred vs clear vision concept -->
+  
+  <!-- Vision blur representation on the sides -->
+  <g opacity="0.3">
+    <circle cx="65" cy="120" r="18" fill="#F59E0B" filter="blur(6px)"/>
+    <circle cx="175" cy="120" r="18" fill="#3B82F6" filter="blur(6px)"/>
+  </g>
+
+  <!-- Sleek Glasses Frame -->
+  <!-- Left Lens Rim -->
+  <path d="M 68 95 C 45 95 38 115 38 120 C 38 125 45 145 68 145 C 92 145 98 125 98 120 C 98 115 92 95 68 95 Z" 
+        fill="#11141B" stroke="#F59E0B" stroke-width="4" stroke-linejoin="round"/>
+        
+  <!-- Right Lens Rim -->
+  <path d="M 172 95 C 195 95 202 115 202 120 C 202 125 195 145 172 145 C 148 145 142 125 142 120 C 142 115 148 95 172 95 Z" 
+        fill="#11141B" stroke="#F59E0B" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Bridge -->
+  <path d="M 98 108 C 110 102 130 102 142 108" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Temple arms (sides) -->
+  <path d="M 38 110 L 20 100" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 202 110 L 220 100" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Lens Shading / Reflection (indicating optics/myopia correction) -->
+  <path d="M 52 105 Q 68 100 84 105" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 156 105 Q 172 100 188 105" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Focus/Diopter indicator subtle concentric rings representing focal point adjustment for nearsightedness -->
+  <circle cx="68" cy="120" r="14" fill="none" stroke="#60A5FA" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8"/>
+  <circle cx="172" cy="120" r="14" fill="none" stroke="#60A5FA" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8"/>
+
+  <!-- Center focal point dots -->
+  <circle cx="68" cy="120" r="4" fill="#60A5FA"/>
+  <circle cx="172" cy="120" r="4" fill="#60A5FA"/>
+
+</svg>

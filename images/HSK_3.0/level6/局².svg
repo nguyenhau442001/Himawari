@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Building Structure -->
+  <path d="M70 180h100v-80l-50-30-50 30z" fill="#343A46" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="85" y="120" width="70" height="60" fill="#2A2F3A" stroke="#FFB84D" stroke-width="2"/>
+  
+  <!-- Entrance/Service Counter -->
+  <rect x="95" y="140" width="50" height="40" fill="#3D4451"/>
+  <rect x="95" y="140" width="50" height="10" fill="#FFB84D"/>
+  
+  <!-- Postal/Office Details -->
+  <rect x="105" y="155" width="10" height="15" fill="#FFB84D"/>
+  <rect x="125" y="155" width="10" height="15" fill="#FFB84D"/>
+  
+  <!-- Stylized Mail/Package Icon on front -->
+  <path d="M110 125h20v15h-20z" fill="#FFB84D"/>
+  <path d="M110 125l10 7 10-7" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="120" cy="90" r="8" fill="#FFB84D"/>
+  <path d="M120 85v10M115 90h10" stroke="#1A1D24" stroke-width="2"/>
+</svg>

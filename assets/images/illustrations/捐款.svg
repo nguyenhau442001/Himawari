@@ -1,0 +1,48 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow behind the charity box -->
+  <circle cx="120" cy="120" r="70" fill="#2D323F" opacity="0.5"/>
+
+  <!-- Shadow under the donation box -->
+  <ellipse cx="120" cy="188" rx="52" ry="8" fill="#111318"/>
+
+  <!-- CHARITY DONATION BOX (JUANKUAN OBJECT) -->
+  <!-- Box Back Panel / Inner Rim -->
+  <path d="M 80 84 L 160 84 L 152 100 L 88 100 Z" fill="#252B38"/>
+
+  <!-- Box Main Body (Front Face) -->
+  <path d="M 72 100 L 168 100 L 160 180 L 80 180 Z" fill="#2A3140"/>
+  <!-- Box Right Side (3D Depth) -->
+  <path d="M 168 100 L 192 110 L 182 170 L 160 180 Z" fill="#1E232D"/>
+
+  <!-- Box Lid -->
+  <path d="M 70 80 L 170 80 L 176 92 L 64 92 Z" fill="#363E52"/>
+
+  <!-- Coin Slot on Lid -->
+  <rect x="106" y="85" width="28" height="5" rx="2.5" fill="#15181F"/>
+
+  <!-- Heart Symbol on Front of Box (Representing Charity/Care, approved for donation/charity context) -->
+  <path d="M 120 152 C 120 152 102 134 102 122 C 102 113 109 107 116 107 C 120 107 124 110 120 114 C 124 110 128 107 132 107 C 139 107 146 113 146 122 C 146 134 120 152 120 152 Z" fill="#FF5E62"/>
+
+  <!-- Decorative Accent Band on Box -->
+  <path d="M 75 128 L 165 128 L 163 138 L 77 138 Z" fill="#222834" opacity="0.5"/>
+
+  <!-- FALLING COINS (Money being donated into the slot) -->
+  <!-- Coin 1 (Entering slot, tilted) -->
+  <g transform="translate(112, 58) rotate(-15)">
+    <ellipse cx="0" cy="0" rx="14" ry="6" fill="#FFB703"/>
+    <ellipse cx="0" cy="0" rx="10" ry="4" fill="#FFD166"/>
+  </g>
+
+  <!-- Coin 2 (Higher up, dropping down) -->
+  <g transform="translate(132, 38) rotate(25)">
+    <ellipse cx="0" cy="0" rx="14" ry="6" fill="#F39C12"/>
+    <ellipse cx="0" cy="0" rx="10" ry="4" fill="#FFB703"/>
+  </g>
+
+  <!-- Sparkles/Action indicators around the slot -->
+  <path d="M 96 74 L 100 70 M 144 74 L 140 70" stroke="#FFD166" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="120" cy="68" r="1.5" fill="#FFD166"/>
+</svg>

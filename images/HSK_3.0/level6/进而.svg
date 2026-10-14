@@ -1,0 +1,59 @@
+<svg width="240" height="240" rx="24" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative glows / ambient light -->
+  <circle cx="120" cy="120" r="85" fill="#222733" opacity="0.6"/>
+
+  <!-- Central Visual Representation: Stepping stones leading forward (representing "进而" - moving progressively from one stage to the next) -->
+  <g transform="translate(0, 5)">
+    <!-- Path connecting lines / progression trail -->
+    <path d="M 60,155 Q 95,120 120,110 T 180,65" fill="none" stroke="#2C3342" stroke-width="6" stroke-dasharray="4 4" stroke-linecap="round"/>
+
+    <!-- First Stone (Foundation / Starting point) -->
+    <g transform="translate(60, 155)">
+      <!-- Drop shadow -->
+      <ellipse cx="0" cy="12" rx="24" ry="10" fill="#111318"/>
+      <!-- Stone base -->
+      <path d="M -22,0 C -22,-10 22,-10 22,0 C 22,10 -22,10 -22,0 Z" fill="#323B4D"/>
+      <!-- Stone top surface -->
+      <ellipse cx="0" cy="-3" rx="20" ry="8" fill="#475569"/>
+      <!-- Mini icon on stone (Book / Knowledge base) -->
+      <path d="M -6,-2 L -1,-4 L 4,-2 L 4,3 L -1,1 L -6,3 Z" fill="#94A3B8"/>
+    </g>
+
+    <!-- Second Stone (Intermediate step / Progression) -->
+    <g transform="translate(120, 110)">
+      <!-- Drop shadow -->
+      <ellipse cx="0" cy="12" rx="26" ry="11" fill="#111318"/>
+      <!-- Stone base -->
+      <path d="M -24,0 C -24,-11 24,-11 24,0 C 24,11 -24,11 -24,0 Z" fill="#3B4758"/>
+      <!-- Stone top surface -->
+      <ellipse cx="0" cy="-3" rx="22" ry="9" fill="#64748B"/>
+      <!-- Mini icon on stone (Expanding horizon / Rising bars) -->
+      <rect x="-7" y="-2" width="3" height="4" rx="1" fill="#CBD5E1"/>
+      <rect x="-2" y="-5" width="3" height="7" rx="1" fill="#CBD5E1"/>
+      <rect x="3" y="-8" width="3" height="10" rx="1" fill="#CBD5E1"/>
+    </g>
+
+    <!-- Third Stone (The Ultimate Goal / Advanced outcome highlighted with gold/orange accent) -->
+    <g transform="translate(180, 65)">
+      <!-- Drop shadow -->
+      <ellipse cx="0" cy="14" rx="30" ry="13" fill="#111318"/>
+      <!-- Stone base -->
+      <path d="M -28,0 C -28,-12 28,-12 28,0 C 28,12 -28,12 -28,0 Z" fill="#B45309" opacity="0.4"/>
+      <path d="M -26,0 C -26,-11 26,-11 26,0 C 26,11 -26,11 -26,0 Z" fill="#D97706"/>
+      <!-- Stone top surface -->
+      <ellipse cx="0" cy="-3" rx="24" ry="10" fill="#F59E0B"/>
+      <!-- Highlight glow -->
+      <ellipse cx="0" cy="-4" rx="18" ry="6" fill="#FBBF24"/>
+      
+      <!-- Focal Icon on final stone: Shining Star / Achievement -->
+      <path d="M 0,-14 L 3,-6 L 11,-5 L 5,1 L 7,9 L 0,5 L -7,9 L -5,1 L -11,-5 L -3,-6 Z" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Forward momentum arrow sweeping upward -->
+    <path d="M 85,135 Q 115,100 155,75" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="160,71 150,71 154,80" fill="#F59E0B"/>
+  </g>
+</svg>

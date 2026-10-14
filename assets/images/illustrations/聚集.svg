@@ -1,0 +1,55 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle radial glow behind the gathering -->
+  <circle cx="120" cy="130" r="70" fill="#FFB703" opacity="0.08"/>
+  <circle cx="120" cy="130" r="40" fill="#FFB703" opacity="0.12"/>
+
+  <!-- Ground plane -->
+  <path d="M 40 185 L 200 185" stroke="#2F3643" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Crowd Silhouettes & Figures representing 聚集 (Gathering/Crowd) -->
+  <!-- Outer left figures -->
+  <circle cx="65" cy="140" r="10" fill="#4B5563"/>
+  <path d="M 52 185 C 52 165, 78 165, 78 185 Z" fill="#4B5563"/>
+
+  <circle cx="85" cy="132" r="11" fill="#6B7280"/>
+  <path d="M 70 185 C 70 162, 100 162, 100 185 Z" fill="#6B7280"/>
+
+  <!-- Outer right figures -->
+  <circle cx="175" cy="140" r="10" fill="#4B5563"/>
+  <path d="M 162 185 C 162 165, 188 165, 188 185 Z" fill="#4B5563"/>
+
+  <circle cx="155" cy="132" r="11" fill="#6B7280"/>
+  <path d="M 140 185 C 140 162, 170 162, 170 185 Z" fill="#6B7280"/>
+
+  <!-- Mid-layer figures -->
+  <circle cx="103" cy="122" r="12" fill="#9CA3AF"/>
+  <path d="M 87 185 C 87 158, 119 158, 119 185 Z" fill="#9CA3AF"/>
+
+  <circle cx="137" cy="122" r="12" fill="#9CA3AF"/>
+  <path d="M 121 185 C 121 158, 153 158, 153 185 Z" fill="#9CA3AF"/>
+
+  <!-- Center focal main figures (representing dynamic gathering / focal point) -->
+  <circle cx="120" cy="108" r="14" fill="#FFB703"/>
+  <path d="M 102 185 C 102 150, 138 150, 138 185 Z" fill="#FB8500"/>
+
+  <!-- Raised arms / energetic convergence indicators (subtle flat vector markers) -->
+  <path d="M 94 135 L 82 120" stroke="#FFB703" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 146 135 L 158 120" stroke="#FFB703" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 114 110 L 108 95" stroke="#FB8500" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 126 110 L 132 95" stroke="#FB8500" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Ambient focal elements (representing a lively public square / event atmosphere) -->
+  <circle cx="90" cy="75" r="2.5" fill="#FFB703" opacity="0.8"/>
+  <circle cx="110" cy="65" r="2" fill="#FB8500" opacity="0.6"/>
+  <circle cx="130" cy="68" r="3" fill="#FFB703" opacity="0.9"/>
+  <circle cx="150" cy="78" r="2" fill="#FB8500" opacity="0.7"/>
+  <circle cx="75" cy="95" r="1.5" fill="#FFB703" opacity="0.5"/>
+  <circle cx="165" cy="92" r="2" fill="#FFB703" opacity="0.6"/>
+
+  <!-- Directional inward convergence indicator arrows (clean, sleek flat style) -->
+  <path d="M 45 125 L 60 132 L 45 139" fill="none" stroke="#2F3643" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 195 125 L 180 132 L 195 139" fill="none" stroke="#2F3643" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

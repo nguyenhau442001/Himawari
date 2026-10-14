@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Football stadium pitch grid background lines -->
+    <path d="M 60 170 L 120 130 L 180 170" fill="none" stroke="#2A303C" stroke-width="2" stroke-linejoin="round"/>
+    <ellipse cx="120" cy="150" rx="50" ry="25" fill="none" stroke="#2A303C" stroke-width="2"/>
+    <line x1="120" y1="125" x2="120" y2="175" stroke="#2A303C" stroke-width="2"/>
+
+    <!-- Dynamic soundwave / commentary broadcasting waves -->
+    <path d="M 75 75 C 65 95, 65 115, 75 135" fill="none" stroke="#FFA726" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 60 65 C 45 90, 45 120, 60 145" fill="none" stroke="#FFA726" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+    <path d="M 165 75 C 175 95, 175 115, 165 135" fill="none" stroke="#FFA726" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 180 65 C 195 90, 195 120, 180 145" fill="none" stroke="#FFA726" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- Sports commentator character (body/shoulders) -->
+    <path d="M 80 180 C 80 160, 100 150, 120 150 C 140 150, 160 160, 160 180 Z" fill="#2E384D"/>
+    <!-- Suit collar / tie accent -->
+    <polygon points="120,158 112,175 128,175" fill="#FFA726"/>
+
+    <!-- Head and headphones -->
+    <circle cx="120" cy="115" r="22" fill="#E0E6ED"/>
+    <!-- Headset band -->
+    <path d="M 100 105 A 22 22 0 0 1 140 105" fill="none" stroke="#FFA726" stroke-width="4" stroke-linecap="round"/>
+    <!-- Headset earcups -->
+    <rect x="96" y="110" width="8" height="14" rx="4" fill="#FFA726"/>
+    <rect x="136" y="110" width="8" height="14" rx="4" fill="#FFA726"/>
+
+    <!-- Professional Studio Microphone -->
+    <!-- Stand pole -->
+    <rect x="117" y="130" width="6" height="35" rx="3" fill="#8892B0"/>
+    <!-- Microphone base joint -->
+    <circle cx="120" cy="130" r="5" fill="#FFA726"/>
+    <!-- Mic body (sleek modern studio mic) -->
+    <rect x="110" y="80" width="20" height="35" rx="10" fill="#4A5568"/>
+    <!-- Mic grille lines -->
+    <line x1="113" y1="90" x2="127" y2="90" stroke="#8892B0" stroke-width="2"/>
+    <line x1="113" y1="96" x2="127" y2="96" stroke="#8892B0" stroke-width="2"/>
+    <line x1="113" y1="102" x2="127" y2="102" stroke="#8892B0" stroke-width="2"/>
+
+    <!-- Live energy accent dots -->
+    <circle cx="145" cy="75" r="3" fill="#FFA726"/>
+    <circle cx="155" cy="65" r="2" fill="#FFA726" opacity="0.7"/>
+    <circle cx="95" cy="75" r="3" fill="#FFA726"/>
+    <circle cx="85" cy="65" r="2" fill="#FFA726" opacity="0.7"/>
+  </g>
+</svg>

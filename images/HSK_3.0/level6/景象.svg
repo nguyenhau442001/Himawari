@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Landscape Scene representing '景象' (a view/scene) -->
+  <!-- Background elements: Mountains and Sun -->
+  <path d="M40 180 L100 100 L160 180 Z" fill="#2C3E50"/>
+  <path d="M100 190 L160 110 L220 190 Z" fill="#34495E"/>
+  <circle cx="180" cy="60" r="25" fill="#F39C12"/>
+  
+  <!-- Foreground: A thriving city/landscape element -->
+  <rect x="60" y="140" width="40" height="60" fill="#E67E22"/>
+  <rect x="110" y="120" width="40" height="80" fill="#F1C40F"/>
+  <rect x="160" y="150" width="30" height="50" fill="#E67E22"/>
+  
+  <!-- Ground line -->
+  <path d="M20 200 L220 200" stroke="#BDC3C7" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Decorative elements for 'thriving' aspect -->
+  <circle cx="70" cy="150" r="4" fill="#1A1D24"/>
+  <circle cx="80" cy="150" r="4" fill="#1A1D24"/>
+  <circle cx="120" cy="130" r="4" fill="#1A1D24"/>
+  <circle cx="130" cy="130" r="4" fill="#1A1D24"/>
+</svg>

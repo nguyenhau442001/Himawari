@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- ATM/Transaction Terminal Screen Outline -->
+    <rect x="52" y="38" width="136" height="120" rx="12" fill="#222733" stroke="#2F3646" stroke-width="3"/>
+    
+    <!-- Screen Inner Display -->
+    <rect x="64" y="50" width="112" height="72" rx="6" fill="#15181E"/>
+    
+    <!-- UI elements: transaction lines -->
+    <rect x="76" y="66" width="40" height="6" rx="3" fill="#4B5563"/>
+    <rect x="76" y="80" width="64" height="6" rx="3" fill="#374151"/>
+    
+    <!-- Highlighted Amount Display (金 = Gold/Money, 额 = Specific Sum) -->
+    <rect x="76" y="98" width="88" height="16" rx="4" fill="#F59E0B" fill-opacity="0.15"/>
+    <circle cx="86" cy="106" r="4" fill="#F59E0B"/>
+    <rect x="96" y="104" width="56" height="4" rx="2" fill="#F59E0B"/>
+
+    <!-- Terminal Slot / Card Reader indicator -->
+    <rect x="96" y="134" width="48" height="6" rx="3" fill="#374151"/>
+
+    <!-- Physical Object Focus: Stack of stylized currency/coins representing the exact sum (金额) -->
+    <g transform="translate(0, 8)">
+      <!-- Coin Stack Base / Shadow -->
+      <ellipse cx="120" cy="182" rx="44" ry="12" fill="#111318"/>
+      
+      <!-- Coin 3 (Bottom) -->
+      <path d="M 76 170 C 76 176 96 182 120 182 C 144 182 164 176 164 170 L 164 180 C 164 186 144 192 120 192 C 96 192 76 186 76 180 Z" fill="#D97706"/>
+      <ellipse cx="120" cy="170" rx="44" ry="12" fill="#F59E0B"/>
+      
+      <!-- Coin 2 (Middle) -->
+      <path d="M 76 156 C 76 162 96 168 120 168 C 144 168 164 162 164 156 L 164 166 C 164 172 144 178 120 178 C 96 178 76 172 76 166 Z" fill="#D97706"/>
+      <ellipse cx="120" cy="156" rx="44" ry="12" fill="#FBBF24"/>
+      
+      <!-- Coin 1 (Top) -->
+      <path d="M 76 142 C 76 148 96 154 120 154 C 144 154 164 148 164 142 L 164 152 C 164 158 144 164 120 164 C 96 164 76 158 76 152 Z" fill="#D97706"/>
+      <ellipse cx="120" cy="142" rx="44" ry="12" fill="#FCD34D"/>
+      
+      <!-- Inner Currency Symbol Detail (Clean geometric representation) -->
+      <circle cx="120" cy="142" r="28" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 4"/>
+      <path d="M 112 134 L 128 150 M 128 134 L 112 150" stroke="#D97706" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Verification / Accuracy Check Badge (Representing meticulous checking: 核对) -->
+    <circle cx="178" cy="138" r="18" fill="#10B981"/>
+    <path d="M 170 138 L 175 143 L 187 131" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water waves -->
+  <path d="M0 180 Q 60 160, 120 180 T 240 180 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  <path d="M0 190 Q 60 170, 120 190 T 240 190 L 240 240 L 0 240 Z" fill="#34495E"/>
+  
+  <!-- Person struggling in water -->
+  <g transform="translate(120, 160)">
+    <!-- Arms reaching up -->
+    <path d="M-30 -20 L -45 -60 M 30 -20 L 45 -60" stroke="#F39C12" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="-80" r="15" fill="#F39C12"/>
+    <!-- Body submerged -->
+    <path d="M-15 -20 L 15 -20 L 10 0 L -10 0 Z" fill="#F39C12"/>
+  </g>
+  
+  <!-- Lifebuoy ring being thrown -->
+  <circle cx="180" cy="80" r="25" fill="none" stroke="#E74C3C" stroke-width="12" stroke-dasharray="35 15"/>
+  <circle cx="180" cy="80" r="25" fill="none" stroke="#ECF0F1" stroke-width="12" stroke-dasharray="35 15" stroke-dashoffset="17.5"/>
+  
+  <!-- Motion line for lifebuoy -->
+  <path d="M150 110 L 170 90" stroke="#BDC3C7" stroke-width="4" stroke-linecap="round"/>
+</svg>

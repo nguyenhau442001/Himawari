@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background / City Elements representing "Street / 街头" -->
+  <path d="M40 200 L100 120 L140 120 L200 200 Z" fill="#252A34"/>
+  <polygon points="90,120 120,60 150,120" fill="#2E3440"/>
+  <polygon points="120,60 140,80 130,120" fill="#3B4252"/>
+  <rect x="50" y="140" width="15" height="20" rx="2" fill="#EBCB8B" opacity="0.6"/>
+  <rect x="175" y="150" width="15" height="20" rx="2" fill="#EBCB8B" opacity="0.6"/>
+
+  <!-- Street intersection perspective lines -->
+  <path d="M120 120 L120 200" stroke="#4C566A" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="M60 170 L180 170" stroke="#4C566A" stroke-width="3"/>
+
+  <!-- Foreground: Protesters/Citizens walking into the street (市民走上街头示威 context) -->
+  <!-- Left protester silhouette/flat character -->
+  <g transform="translate(75, 130)">
+    <!-- Body & Sign -->
+    <path d="M20 20 L20 70 L10 70 L10 20 Z" fill="#88C0D0"/>
+    <circle cx="15" cy="10" r="7" fill="#ECEFF4"/>
+    <path d="M15 17 L15 45 L5 55" stroke="#ECEFF4" stroke-width="4" stroke-linecap="round"/>
+    <!-- Protest banner/sign -->
+    <rect x="-15" y="-10" width="35" height="20" rx="2" fill="#D08770"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#ECEFF4" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Center protester silhouette/flat character -->
+  <g transform="translate(105, 120)">
+    <circle cx="15" cy="8" r="7" fill="#ECEFF4"/>
+    <path d="M15 15 L20 45 L30 65" stroke="#ECEFF4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M15 25 L5 40 L0 35" stroke="#ECEFF4" stroke-width="4" stroke-linecap="round"/>
+    <!-- Raised banner -->
+    <rect x="15" y="-25" width="28" height="35" rx="2" fill="#BF616A"/>
+    <line x1="20" y1="-15" x2="38" y2="-15" stroke="#ECEFF4" stroke-width="2" stroke-linecap="round"/>
+    <line x1="20" y1="-5" x2="33" y2="-5" stroke="#ECEFF4" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right protester silhouette/flat character -->
+  <g transform="translate(145, 135)">
+    <circle cx="15" cy="8" r="7" fill="#ECEFF4"/>
+    <path d="M15 15 L10 45 L5 65" stroke="#ECEFF4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M15 25 L25 35 L30 30" stroke="#ECEFF4" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-5" y="-15" width="25" height="30" rx="2" fill="#EBCB8B"/>
+    <line x1="0" y1="-5" x2="15" y2="-5" stroke="#2E3440" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ambient light accent (Street / Public Space Focus) -->
+  <circle cx="120" cy="170" r="60" fill="none" stroke="#EBCB8B" stroke-width="2" opacity="0.3"/>
+</svg>

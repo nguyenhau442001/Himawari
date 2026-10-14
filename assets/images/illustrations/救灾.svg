@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M40 190 L200 190" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Person 1 (Rescuer) -->
+  <g transform="translate(80, 110)">
+    <circle cx="20" cy="20" r="10" fill="#F6AD55"/>
+    <path d="M20 30 L20 60 M20 40 L10 50 M20 40 L30 50 M10 80 L20 60 L30 80" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2 (Person being helped) -->
+  <g transform="translate(130, 130)">
+    <circle cx="20" cy="20" r="10" fill="#CBD5E0"/>
+    <path d="M20 30 L20 60 M20 40 L10 50 M20 40 L30 50 M10 80 L20 60 L30 80" stroke="#CBD5E0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Helping Gesture: Hands reaching out -->
+  <path d="M95 140 Q110 130 125 140" stroke="#F6AD55" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Supplies/Aid Box -->
+  <rect x="50" y="150" width="30" height="30" rx="4" fill="#E53E3E"/>
+  <rect x="55" y="155" width="20" height="20" rx="2" fill="#FED7D7"/>
+  <path d="M65 155 L65 175 M55 165 L75 165" stroke="#E53E3E" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Debris/Environment context -->
+  <path d="M160 180 L170 160 L180 180 Z" fill="#4A5568"/>
+  <circle cx="190" cy="185" r="5" fill="#4A5568"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Cervical Spine Structure -->
+    <g transform="translate(-30, -80)">
+      <!-- Skull base connection -->
+      <path d="M30 0 C15 0, 5 10, 5 25 L55 25 C55 10, 45 0, 30 0" fill="#E0E0E0"/>
+      
+      <!-- Vertebrae segments -->
+      <rect x="15" y="30" width="30" height="12" rx="2" fill="#FFB347"/>
+      <rect x="12" y="45" width="36" height="12" rx="2" fill="#FFB347"/>
+      <rect x="12" y="60" width="36" height="12" rx="2" fill="#FFB347"/>
+      <rect x="10" y="75" width="40" height="12" rx="2" fill="#FFB347"/>
+      <rect x="10" y="90" width="40" height="12" rx="2" fill="#FFB347"/>
+      <rect x="8" y="105" width="44" height="12" rx="2" fill="#FFB347"/>
+      <rect x="8" y="120" width="44" height="12" rx="2" fill="#FFB347"/>
+      
+      <!-- Intervertebral discs -->
+      <rect x="15" y="42" width="30" height="3" fill="#A0A0A0"/>
+      <rect x="12" y="57" width="36" height="3" fill="#A0A0A0"/>
+      <rect x="12" y="72" width="36" height="3" fill="#A0A0A0"/>
+      <rect x="10" y="87" width="40" height="3" fill="#A0A0A0"/>
+      <rect x="10" y="102" width="40" height="3" fill="#A0A0A0"/>
+      <rect x="8" y="117" width="44" height="3" fill="#A0A0A0"/>
+    </g>
+  </g>
+</svg>

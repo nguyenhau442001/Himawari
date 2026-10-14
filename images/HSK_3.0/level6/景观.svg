@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Karst Mountain Landscape (Guilin style) -->
+  <path d="M40 200 C 50 120, 70 80, 90 140 C 100 100, 120 70, 140 130 C 160 90, 180 110, 200 180 L 200 200 Z" fill="#2C3E50"/>
+  <path d="M60 200 C 70 140, 90 110, 110 160 C 120 130, 140 100, 160 150 C 180 120, 190 140, 200 190 L 200 200 Z" fill="#34495E"/>
+  
+  <!-- River reflection/water surface -->
+  <rect x="0" y="200" width="240" height="40" fill="#16212B"/>
+  <path d="M40 200 Q 65 210, 90 200 M100 200 Q 125 210, 150 200 M160 200 Q 185 210, 210 200" stroke="#34495E" stroke-width="2" fill="none"/>
+  
+  <!-- Sun/Moon accent (Gold) -->
+  <circle cx="180" cy="60" r="25" fill="#F1C40F" opacity="0.8"/>
+  
+  <!-- Stylized boat silhouette -->
+  <path d="M110 190 L 140 190 L 135 198 L 115 198 Z" fill="#E67E22"/>
+  <path d="M125 190 L 125 180 L 135 185 Z" fill="#E67E22"/>
+</svg>

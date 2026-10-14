@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background glowing accent -->
+  <circle cx="120" cy="110" r="70" fill="#3B82F6" opacity="0.08"/>
+  
+  <!-- Central Icon: Book & Sports Equipment Donation Concept representing "juānzèng" (Donation/Gift) -->
+  <g transform="translate(0, 5)">
+    <!-- Open Box / Donation Container -->
+    <!-- Back inner wall -->
+    <path d="M70 120 L90 85 L150 85 L170 120 Z" fill="#2D3748"/>
+    <!-- Box sides/body -->
+    <path d="M60 120 L70 165 C70 170 75 175 80 175 L160 175 C165 175 170 170 170 165 L180 120 Z" fill="#3182CE"/>
+    <!-- Box front flap overlay for 3D depth -->
+    <path d="M60 120 L75 140 L165 140 L180 120 L170 165 C170 170 165 175 160 175 L80 175 C75 175 70 170 70 165 Z" fill="#2B6CB0"/>
+    
+    <!-- Items being donated (Books & Sports Ball emerging upwards) -->
+    <!-- Book stack angled left -->
+    <g transform="translate(85, 80) rotate(-10)">
+      <rect x="0" y="20" width="50" height="12" rx="2" fill="#E2E8F0"/>
+      <rect x="3" y="10" width="46" height="12" rx="2" fill="#ED8936"/>
+      <rect x="2" y="0" width="48" height="12" rx="2" fill="#48BB78"/>
+    </g>
+    
+    <!-- Book stack angled right -->
+    <g transform="translate(115, 75) rotate(15)">
+      <rect x="0" y="15" width="45" height="11" rx="2" fill="#9F7AEA"/>
+      <rect x="2" y="5" width="41" height="11" rx="2" fill="#F56565"/>
+    </g>
+
+    <!-- Sports Ball (Basketball/Equipment) -->
+    <circle cx="120" cy="70" r="22" fill="#DD6B20"/>
+    <!-- Ball lines -->
+    <path d="M98 70 Q120 50 142 70" stroke="#7B341E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M98 70 Q120 90 142 70" stroke="#7B341E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M120 48 Q100 70 120 92" stroke="#7B341E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Giving Hands / Offering Gesture (Two stylized hands reaching inward/upward) -->
+    <!-- Left Hand -->
+    <path d="M40 150 C50 140 65 145 75 155 L85 165 C88 168 85 173 80 175 C60 178 45 170 40 150 Z" fill="#CBD5E0"/>
+    <!-- Right Hand -->
+    <path d="M200 150 C190 140 175 145 165 155 L155 165 C152 168 155 173 160 175 C180 178 195 170 200 150 Z" fill="#CBD5E0"/>
+
+    <!-- Dynamic upward golden sparkle/giving particles -->
+    <circle cx="120" cy="35" r="3" fill="#ECC94B"/>
+    <circle cx="95" cy="45" r="2" fill="#ECC94B"/>
+    <circle cx="145" cy="45" r="2" fill="#ECC94B"/>
+    <path d="M120 22 L122 28 L128 30 L122 32 L120 38 L118 32 L112 30 L118 28 Z" fill="#F6E05E"/>
+  </g>
+</svg>

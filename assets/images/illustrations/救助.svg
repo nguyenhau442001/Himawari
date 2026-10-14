@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(40, 60)">
+  <path d="M120 120 C120 80 150 50 160 50 C170 50 200 80 200 120 L120 120 Z" fill="#FFB347"/>
+  <path d="M40 120 C40 80 70 50 80 50 C90 50 120 80 120 120 L40 120 Z" fill="#FFB347"/>
+  <path d="M60 120 L180 120 L170 150 L70 150 Z" fill="#FFB347"/>
+  <path d="M80 100 C80 80 90 70 100 70 C110 70 120 80 120 100" stroke="#1A1D24" stroke-width="4" fill="none"/>
+  <path d="M140 100 C140 80 150 70 160 70 C170 70 180 80 180 100" stroke="#1A1D24" stroke-width="4" fill="none"/>
+  <path d="M110 130 C115 135 125 135 130 130" stroke="#1A1D24" stroke-width="4" fill="none"/>
+</g>
+<path d="M30 160 C30 140 50 130 70 130 C90 130 110 140 110 160 L110 180 C110 190 100 200 90 200 L50 200 C40 200 30 190 30 180 Z" fill="#A0A0A0"/>
+<path d="M40 180 C40 170 50 165 60 165 C70 165 80 170 80 180" stroke="#1A1D24" stroke-width="3" fill="none"/>
+<circle cx="50" cy="170" r="3" fill="#1A1D24"/>
+<circle cx="70" cy="170" r="3" fill="#1A1D24"/>
+<path d="M55 185 L65 185" stroke="#1A1D24" stroke-width="2" fill="none"/>
+<path d="M30 160 L20 150 M40 160 L35 145 M100 160 L110 150 M90 160 L95 145" stroke="#A0A0A0" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- University Building Silhouette -->
+  <path d="M60 180h120v-50l-60-30-60 30v50z" fill="#2D343E"/>
+  <path d="M75 180v-40h30v40M135 180v-40h30v40" fill="#3D4756"/>
+  
+  <!-- Student Character -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-20 40h40v-30c0-15-20-15-20-15s-20 0-20 15v30z" fill="#FFB84D"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="15" fill="#FFD59E"/>
+    <!-- Graduation Cap -->
+    <path d="M-25-15l25-10 25 10-25 10z" fill="#FFB84D"/>
+    <path d="M0-25v15" fill="none" stroke="#FFB84D" stroke-width="2"/>
+    <circle cx="0" cy="-25" r="3" fill="#FFB84D"/>
+  </g>
+
+  <!-- Open Book (Symbolizing Study) -->
+  <path d="M80 195l40-10 40 10v15l-40-10-40 10z" fill="#FFB84D"/>
+  <path d="M80 195l40 10 40-10" fill="none" stroke="#1A1D24" stroke-width="2"/>
+  <path d="M120 185v20" fill="none" stroke="#1A1D24" stroke-width="2"/>
+</svg>
