@@ -126,6 +126,16 @@ async function startReadingAnalysis() {
   document.body.classList.toggle('reading-zen-active', Boolean(readingPrefs.zenMode));
   await ensureReadingAnalysisLoaded();
   updateReadingFilteredList();
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const qParam = urlParams.get('q');
+  if (qParam) {
+    const qIdx = parseInt(qParam, 10) - 1;
+    if (!isNaN(qIdx) && qIdx >= 0 && qIdx < readingFilteredList.length) {
+      readingCurrentIndex = qIdx;
+    }
+  }
+
   renderReadingAnalysisScreen();
 }
 
@@ -557,7 +567,7 @@ function renderVocabularyStripHtml(entry) {
           <button type="button" class="reading-vocab-pill ${tok.type === 'grammar' ? 'pill-grammar' : ''}" onclick="speakToken('${tok.text}')" title="Nghe phát âm: ${tok.text}">
             <span class="vp-zh">${tok.text}</span>
             ${tok.pinyin ? `<span class="vp-py">${tok.pinyin}</span>` : ''}
-            ${tok.hanviet ? `<span class="vp-hv">［${tok.hanviet}］</span>` : ''}
+            ${tok.hanviet ? `<span class="vp-hv">[${tok.hanviet}]</span>` : ''}
             ${tok.meaning ? `<span class="vp-mean">${tok.meaning}</span>` : ''}
           </button>
         `).join('')}
@@ -608,7 +618,7 @@ function inspectToken(tokenIdx) {
     <div class="inspector-word-group">
       <span class="inspector-zh">${tok.text}</span>
       <span class="inspector-py">${tok.pinyin || ''}</span>
-      <span class="inspector-hv">［${tok.hanviet || ''}］</span>
+      <span class="inspector-hv">[${tok.hanviet || ''}]</span>
       <span class="inspector-meaning">${tok.meaning || 'Từ vựng trong câu'}</span>
     </div>
     <div class="inspector-tags">
@@ -818,7 +828,7 @@ function renderPracticePanelsHtml(entry) {
               <button type="button" class="cloze-option-btn ${optClass}" onclick="selectClozeOption('${opt.word}')" ${practiceSelectedOption ? 'disabled' : ''}>
                 <div>
                   <div class="cloze-opt-zh">${opt.word}</div>
-                  <div class="cloze-opt-sub">${opt.pinyin} · ［${opt.hanviet}］</div>
+                  <div class="cloze-opt-sub">${opt.pinyin} · [${opt.hanviet}]</div>
                 </div>
                 <div class="cloze-opt-sub">${opt.meaning}</div>
               </button>

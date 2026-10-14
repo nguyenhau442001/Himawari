@@ -13,7 +13,8 @@ const SpaRouter = (function() {
     if (params.has('tab')) {
       const tab = params.get('tab');
       const story = params.get('story');
-      return { view: 'tab', tab, story };
+      const q = params.get('q');
+      return { view: 'tab', tab, story, q };
     }
     if (params.get('screen') === 'today-reviews') {
       return { view: 'todayReviews' };
@@ -35,6 +36,9 @@ const SpaRouter = (function() {
     if (state.view === 'tab' && state.tab && state.tab !== 'vocab') {
       if (state.tab === 'gradedReading' && state.story) {
         return `${base}?tab=gradedReading&story=${encodeURIComponent(state.story)}`;
+      }
+      if (state.tab === 'reading' && state.q) {
+        return `${base}?tab=reading&q=${encodeURIComponent(state.q)}`;
       }
       return `${base}?tab=${encodeURIComponent(state.tab)}`;
     }
