@@ -1,0 +1,30 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "于" (Origin/Source context: 他出身于一个普通家庭) -->
+  <!-- We visualize a distinct physical origin point / source foundation -->
+  <g transform="translate(0, 0)">
+    <!-- Ground / Foundation Layer -->
+    <path d="M 60 180 L 180 180 C 185 180, 185 190, 180 190 L 60 190 C 55 190, 55 180, 60 180 Z" fill="#2E3440"/>
+    
+    <!-- Pedestal / Origin Base representing the starting place/family root -->
+    <rect x="80" y="150" width="80" height="30" rx="6" fill="#3B4252"/>
+    <rect x="95" y="125" width="50" height="25" rx="4" fill="#4C566A"/>
+
+    <!-- Central physical focal point representing "Source/Origin (于)" -->
+    <!-- Stylized sprouting stem/tree trunk symbolizing "出身" (emerging from a root/origin) -->
+    <path d="M 120 125 L 120 75" stroke="#D08770" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Origin marker / glowing focal node -->
+    <circle cx="120" cy="70" r="18" fill="#EBCB8B"/>
+    <circle cx="120" cy="70" r="10" fill="#D08770"/>
+
+    <!-- Radiating rings/waves of origin & location source -->
+    <path d="M 95 55 Q 120 35 145 55" fill="none" stroke="#88C0D0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 85 45 Q 120 20 155 45" fill="none" stroke="#88C0D0" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- Accent floating location marker aura -->
+    <circle cx="120" cy="70" r="32" fill="none" stroke="#EBCB8B" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric Background & Destruction Effect (Visualizing "遭" - suffering/experiencing external impact) -->
+  <g opacity="0.85">
+    <!-- Ground plane -->
+    <path d="M20 195 L220 195" stroke="#2D333B" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Collapsing/Damaged Structure Silhouette representing the City context "城市" -->
+    <path d="M40 195 L40 155 L55 140 L55 195 M65 195 L65 110 L95 90 L95 195" fill="#252A33"/>
+    <path d="M145 195 L145 125 L175 105 L175 195" fill="#252A33"/>
+    
+    <!-- Falling debris and impact dynamic lines -->
+    <path d="M165 75 L150 95" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M185 60 L160 90" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M120 60 L135 85" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Impact shockwave / flash -->
+    <circle cx="110" cy="115" r="35" fill="none" stroke="#EF4444" stroke-width="2" opacity="0.6"/>
+    <circle cx="110" cy="115" r="20" fill="none" stroke="#F59E0B" stroke-width="3" opacity="0.8"/>
+  </g>
+
+  <!-- Dynamic Human Character Action (Verb / Action representation) -->
+  <g transform="translate(10, 5)">
+    <!-- Motion lines showing sudden force/impact direction -->
+    <path d="M60 115 L95 115" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <path d="M45 135 L80 135" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+
+    <!-- Character reacting to the impact (遭 - enduring/encountering) -->
+    <!-- Torso (leaning back under force) -->
+    <path d="M100 135 L115 170 L90 175 Z" fill="#3B82F6"/>
+    
+    <!-- Head -->
+    <circle cx="108" cy="118" r="13" fill="#E2E8F0"/>
+    
+    <!-- Hair -->
+    <path d="M96 115 C98 105, 118 105, 120 115 Z" fill="#64748B"/>
+
+    <!-- Arms raised in defensive/enduring posture -->
+    <!-- Back arm -->
+    <path d="M105 135 L125 120 L135 135" fill="none" stroke="#3B82F6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Front arm bracing against force -->
+    <path d="M110 145 L135 150 L145 140" fill="none" stroke="#3B82F6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Legs anchored and braced -->
+    <path d="M100 170 L80 195" fill="none" stroke="#1E293B" stroke-width="10" stroke-linecap="round"/>
+    <path d="M115 170 L130 195" fill="none" stroke="#1E293B" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent impact star/burst denoting the exact moment of 'Dao' (suffering/experiencing) -->
+  <g transform="translate(145, 95)" opacity="0.9">
+    <path d="M0 -15 L4 -4 L15 0 L4 4 L0 15 L-4 4 L-15 0 L-4 -4 Z" fill="#F59E0B"/>
+    <path d="M-10 -10 L10 10 M-10 10 L10 -10" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

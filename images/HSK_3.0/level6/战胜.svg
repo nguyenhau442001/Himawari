@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M40 190 L200 190" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- The "Illness" (Dark, jagged, retreating shape) -->
+  <path d="M160 185 L180 140 L195 185 Z" fill="#718096"/>
+  <path d="M165 175 L175 155 L185 175 Z" fill="#4A5568"/>
+  
+  <!-- The "Person" (Dynamic, standing tall, pushing forward) -->
+  <!-- Legs -->
+  <path d="M90 190 L80 150 M110 190 L120 150" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+  <!-- Torso -->
+  <path d="M100 150 L100 100" stroke="#F6AD55" stroke-width="10" stroke-linecap="round"/>
+  <!-- Arms (Action: Pushing/Overcoming) -->
+  <path d="M100 120 L140 130" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 110 L130 90" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+  <!-- Head -->
+  <circle cx="100" cy="85" r="15" fill="#F6AD55"/>
+  
+  <!-- Motion/Force Lines -->
+  <path d="M135 120 L155 120" stroke="#ECC94B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M135 135 L150 135" stroke="#ECC94B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M140 100 L155 90" stroke="#ECC94B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Willpower/Strength Aura (Subtle, non-sci-fi) -->
+  <path d="M70 70 Q 100 50 130 70" stroke="#ECC94B" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

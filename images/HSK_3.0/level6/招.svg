@@ -1,0 +1,66 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(12, 12)">
+    <!-- Chess Board / Grid Surface (Perspective/Flat) -->
+    <path d="M 24 168 L 192 168 L 216 200 L 0 200 Z" fill="#222730" opacity="0.8"/>
+    
+    <!-- Game Board Grid Lines -->
+    <line x1="48" y1="168" x2="64" y2="200" stroke="#2F3644" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <line x1="96" y1="168" x2="108" y2="200" stroke="#2F3644" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <line x1="144" y1="168" x2="152" y2="200" stroke="#2F3644" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <line x1="192" y1="168" x2="196" y2="200" stroke="#2F3644" stroke-width="1.5" stroke-dasharray="3,3"/>
+    
+    <line x1="36" y1="176" x2="180" y2="176" stroke="#2F3644" stroke-width="1.5"/>
+    <line x1="24" y1="188" x2="192" y2="188" stroke="#2F3644" stroke-width="1.5"/>
+
+    <!-- Opponent's simple stylized pieces (cyan/slate blue, under pressure) -->
+    <circle cx="80" cy="110" r="10" fill="#3A4454"/>
+    <circle cx="120" cy="95" r="10" fill="#3A4454"/>
+    <circle cx="150" cy="120" r="12" fill="#3A4454"/>
+    
+    <!-- Attack vectors / pressure lines from opponent -->
+    <path d="M 75 105 L 115 135" stroke="#E06C75" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,4" opacity="0.7"/>
+    <path d="M 145 115 L 125 135" stroke="#E06C75" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,4" opacity="0.7"/>
+
+    <!-- The Winning Move: Bright Golden Chess Piece / Tactical Marker (A brilliant "招" - "move/strategy") -->
+    <!-- Piece Shadow -->
+    <ellipse cx="120" cy="155" rx="22" ry="8" fill="#111317" opacity="0.6"/>
+    
+    <!-- Golden Strategic Piece Base -->
+    <path d="M 100 152 C 100 144, 140 144, 140 152 L 145 160 C 145 163, 95 163, 95 160 Z" fill="#D19A66"/>
+    <ellipse cx="120" cy="152" rx="20" ry="6" fill="#E5C07B"/>
+    
+    <!-- Piece Body -->
+    <path d="M 104 150 L 110 110 L 130 110 L 136 150 Z" fill="#E5C07B"/>
+    
+    <!-- Piece Crown / Head -->
+    <circle cx="120" cy="98" r="18" fill="#E5C07B"/>
+    <circle cx="120" cy="98" r="12" fill="#F1C40F"/>
+    <path d="M 120 86 L 123 95 L 132 98 L 123 101 L 120 110 L 117 101 L 108 98 L 117 95 Z" fill="#1A1D24" opacity="0.3"/>
+
+    <!-- Sparkle / "Lightbulb" moment of genius (灵机一动) -->
+    <g transform="translate(160, 45)">
+      <!-- Outer glow rings -->
+      <circle cx="0" cy="0" r="22" fill="#F1C40F" opacity="0.15"/>
+      <circle cx="0" cy="0" r="15" fill="#F1C40F" opacity="0.3"/>
+      
+      <!-- Core Lightbulb -->
+      <path d="M -6 2 C -6 -5, 6 -5, 6 2 C 6 7, 3 9, 3 12 L -3 12 C -3 9, -6 7, -6 2 Z" fill="#F1C40F"/>
+      <rect x="-3" y="13" width="6" height="4" fill="#ABB2BF" rx="1"/>
+      <path d="M -2 19 L 2 19" stroke="#ABB2BF" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Ray accents -->
+      <line x1="0" y1="-18" x2="0" y2="-22" stroke="#F1C40F" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-13" y1="-13" x2="-16" y2="-16" stroke="#F1C40F" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="13" y1="-13" x2="16" y2="-16" stroke="#F1C40F" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-18" y1="0" x2="-22" y2="0" stroke="#F1C40F" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="18" y1="0" x2="22" y2="0" stroke="#F1C40F" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Dynamic breakthrough trajectory lines -->
+    <path d="M 120 80 Q 150 40 180 30" fill="none" stroke="#61AFEF" stroke-width="3" stroke-linecap="round" stroke-dasharray="6,4"/>
+    <polygon points="182,26 172,32 178,38" fill="#61AFEF"/>
+  </g>
+</svg>

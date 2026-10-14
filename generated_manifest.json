@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T18:45:56.743781",
-  "total_unique_words_with_illustrations": 6709,
-  "total_flat_svg_files": 6709,
+  "generated_at": "2026-10-14T18:47:33.176375",
+  "total_unique_words_with_illustrations": 6759,
+  "total_flat_svg_files": 6759,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -63,8 +63,8 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 1626,
-        "pct": "90.3%"
+        "with_svg": 1676,
+        "pct": "93.1%"
       },
       "level7": {
         "total": 5600,
@@ -117680,6 +117680,20 @@
       "src": "images/HSK_3.0/level6/引.svg",
       "alt_srcs": []
     },
+    "隐藏": {
+      "hanzi": "隐藏",
+      "pinyin": "yǐncáng",
+      "meaning": "ẩn giấu, giấu kín",
+      "example_zh": "茂密的芦苇丛为各种水鸟提供了十分理想的<u>隐藏</u>与筑巢场所。",
+      "example_vi": "Bụi lau sậy rậm rạp đã cung cấp nơi <u>ẩn giấu</u> và làm tổ vô cùng lý tưởng cho các loài chim nước.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "隐藏.svg",
+      "src": "images/HSK_3.0/level6/隐藏.svg",
+      "alt_srcs": []
+    },
     "引发": {
       "hanzi": "引发",
       "pinyin": "yǐnfā",
@@ -117736,6 +117750,34 @@
       "src": "images/HSK_3.0/level6/印.svg",
       "alt_srcs": []
     },
+    "用餐": {
+      "hanzi": "用餐",
+      "pinyin": "yòngcān",
+      "meaning": "dùng bữa, ăn cơm",
+      "example_zh": "正值午市高峰，前来这家特色主题餐厅<u>用餐</u>的顾客排起了长队。",
+      "example_vi": "Đúng vào giờ cao điểm buổi trưa, các thực khách đến <u>dùng bữa</u> tại nhà hàng chủ đề đặc sắc này đã xếp thành hàng dài.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "用餐.svg",
+      "src": "images/HSK_3.0/level6/用餐.svg",
+      "alt_srcs": []
+    },
+    "用处": {
+      "hanzi": "用处",
+      "pinyin": "yòngchù",
+      "meaning": "công dụng, ích lợi",
+      "example_zh": "这些看似不起眼的废旧塑料瓶，经过巧手改造其实有很大的<u>用处</u>。",
+      "example_vi": "Những chiếc chai nhựa phế liệu trông tưởng chừng tầm thường này qua bàn tay khéo léo cải tạo lại có <u>công dụng</u> rất lớn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "用处.svg",
+      "src": "images/HSK_3.0/level6/用处.svg",
+      "alt_srcs": []
+    },
     "用人": {
       "hanzi": "用人",
       "pinyin": "yòngrén",
@@ -117748,6 +117790,664 @@
       ],
       "file": "用人.svg",
       "src": "images/HSK_3.0/level6/用人.svg",
+      "alt_srcs": []
+    },
+    "用心": {
+      "hanzi": "用心",
+      "pinyin": "yòngxīn",
+      "meaning": "để tâm, chăm chú, tận tụy",
+      "example_zh": "只要在平日里踏踏实实<u>用心</u>去学，就一定能攻克任何学习难关。",
+      "example_vi": "Chỉ cần ngày thường chịu khó vững vàng <u>để tâm</u> học hỏi, nhất định sẽ vượt qua được mọi cửa ải học tập khó khăn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "用心.svg",
+      "src": "images/HSK_3.0/level6/用心.svg",
+      "alt_srcs": []
+    },
+    "优化": {
+      "hanzi": "优化",
+      "pinyin": "yōuhuà",
+      "meaning": "tối ưu hóa",
+      "example_zh": "软件工程师对核心系统算法进行了深度更新，进一步<u>优化</u>了用户操作流程。",
+      "example_vi": "Kỹ sư phần mềm đã cập nhật sâu thuật toán hệ thống cốt lõi, <u>tối ưu hóa</u> thêm quy trình thao tác của người dùng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "优化.svg",
+      "src": "images/HSK_3.0/level6/优化.svg",
+      "alt_srcs": []
+    },
+    "由来": {
+      "hanzi": "由来",
+      "pinyin": "yóulái",
+      "meaning": "lai lịch, nguồn gốc",
+      "example_zh": "老校长向同学们深情讲述了这所百年名校悠久校名的历史<u>由来</u>。",
+      "example_vi": "Thầy hiệu trưởng già tha thiết kể cho các em học sinh nghe về <u>nguồn gốc</u> lịch sử tên gọi lâu đời của ngôi trường trăm năm danh tiếng này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "由来.svg",
+      "src": "images/HSK_3.0/level6/由来.svg",
+      "alt_srcs": []
+    },
+    "游人": {
+      "hanzi": "游人",
+      "pinyin": "yóurén",
+      "meaning": "du khách, người đi chơi",
+      "example_zh": "阳春三月，盛开的浪漫樱花吸引了成千上万的中外<u>游人</u>前来驻足观赏。",
+      "example_vi": "Tháng ba ngày xuân, hoa anh đào lãng mạn nở rộ thu hút hàng ngàn <u>du khách</u> trong và ngoài nước đổ về ngắm cảnh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "游人.svg",
+      "src": "images/HSK_3.0/level6/游人.svg",
+      "alt_srcs": []
+    },
+    "有机": {
+      "hanzi": "有机",
+      "pinyin": "yǒujī",
+      "meaning": "hữu cơ",
+      "example_zh": "越来越多的现代都市人愿意多花一点钱选购绿色健康的<u>有机</u>蔬菜。",
+      "example_vi": "Ngày càng có nhiều người dân thành thị hiện đại sẵn sàng chi thêm tiền để chọn mua rau củ <u>hữu cơ</u> xanh sạch.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "有机.svg",
+      "src": "images/HSK_3.0/level6/有机.svg",
+      "alt_srcs": []
+    },
+    "有劲": {
+      "hanzi": "有劲",
+      "pinyin": "yǒujìn",
+      "meaning": "có lực, sung sức, khỏe khoắn",
+      "example_zh": "小伙子平时坚持长跑和举重，两只胳膊长得格外粗壮<u>有劲</u>。",
+      "example_vi": "Chàng trai thường ngày chăm chạy đường dài và cử tạ nên hai cánh tay vạm vỡ <u>có lực</u> phi thường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "有劲.svg",
+      "src": "images/HSK_3.0/level6/有劲.svg",
+      "alt_srcs": []
+    },
+    "有序": {
+      "hanzi": "有序",
+      "pinyin": "yǒuxù",
+      "meaning": "có trật tự, ngăn nắp",
+      "example_zh": "在现场工作人员的细心引导下，数千名乘客十分<u>有序</u>地依次登机。",
+      "example_vi": "Dưới sự hướng dẫn tận tình của nhân viên tại hiện trường, hàng ngàn hành khách đã lần lượt lên máy bay rất <u>có trật tự</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "有序.svg",
+      "src": "images/HSK_3.0/level6/有序.svg",
+      "alt_srcs": []
+    },
+    "于": {
+      "hanzi": "于",
+      "pinyin": "yú",
+      "meaning": "tại",
+      "example_zh": "他出身<u>于</u>一个普通家庭",
+      "example_vi": "Anh ấy xuất thân từ một gia đình bình thường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "于.svg",
+      "src": "images/HSK_3.0/level6/于.svg",
+      "alt_srcs": []
+    },
+    "余额": {
+      "hanzi": "余额",
+      "pinyin": "yú’é",
+      "meaning": "số dư, số tiền còn lại",
+      "example_zh": "乘坐公交车刷卡时，刷卡机会自动语音播报卡内的当前<u>余额</u>。",
+      "example_vi": "Khi quẹt thẻ đi xe buýt, máy quẹt thẻ sẽ tự động phát âm thanh thông báo <u>số dư</u> hiện tại trong thẻ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "余额.svg",
+      "src": "images/HSK_3.0/level6/余额.svg",
+      "alt_srcs": []
+    },
+    "预定": {
+      "hanzi": "预定",
+      "pinyin": "yùdìng",
+      "meaning": "đặt trước, định trước",
+      "example_zh": "节假日出行高峰期车票非常紧张，建议大家尽早在网上<u>预定</u>车票。",
+      "example_vi": "Vé xe vào dịp cao điểm nghỉ lễ rất căng thẳng, kiến nghị mọi người hãy nhanh chóng <u>đặt trước</u> vé trên mạng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "预定.svg",
+      "src": "images/HSK_3.0/level6/预定.svg",
+      "alt_srcs": []
+    },
+    "浴室": {
+      "hanzi": "浴室",
+      "pinyin": "yùshì",
+      "meaning": "phòng tắm",
+      "example_zh": "酒店客房里的<u>浴室</u>干净整洁，二十四小时随时供应舒适的热水。",
+      "example_vi": "<u>Phòng tắm</u> trong phòng khách sạn sạch sẽ ngăn nắp, cung cấp nước nóng dễ chịu suốt 24 giờ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "浴室.svg",
+      "src": "images/HSK_3.0/level6/浴室.svg",
+      "alt_srcs": []
+    },
+    "原本": {
+      "hanzi": "原本",
+      "pinyin": "yuánběn",
+      "meaning": "vốn dĩ, ban đầu",
+      "example_zh": "他们<u>原本</u>打算国庆假期去海边露营，但因为台风预警只得取消计划。",
+      "example_vi": "Họ <u>ban đầu</u> dự định kỳ nghỉ Quốc khánh sẽ đi cắm trại ven biển, nhưng vì cảnh báo bão nên đành phải hủy kế hoạch.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "原本.svg",
+      "src": "images/HSK_3.0/level6/原本.svg",
+      "alt_srcs": []
+    },
+    "元宵": {
+      "hanzi": "元宵",
+      "pinyin": "yuánxiāo",
+      "meaning": "bánh trôi tết Thượng nguyên, tết Nguyên tiêu",
+      "example_zh": "正月十五这天，全家人围坐在一起品尝甜糯可口的热<u>元宵</u>。",
+      "example_vi": "Vào ngày rằm tháng giêng, cả nhà quây quần bên nhau thưởng thức món <u>bánh trôi</u> nóng hổi dẻo ngọt thơm ngon.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "元宵.svg",
+      "src": "images/HSK_3.0/level6/元宵.svg",
+      "alt_srcs": []
+    },
+    "源于": {
+      "hanzi": "源于",
+      "pinyin": "yuányú",
+      "meaning": "từ",
+      "example_zh": "迷信<u>源于</u>愚昧无知",
+      "example_vi": "Mê tín bắt nguồn từ sự ngu muội không hiểu biết.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "源于.svg",
+      "src": "images/HSK_3.0/level6/源于.svg",
+      "alt_srcs": []
+    },
+    "远程": {
+      "hanzi": "远程",
+      "pinyin": "yuǎnchéng",
+      "meaning": "từ xa (làm việc/học tập)",
+      "example_zh": "先进的视频会议系统为跨国跨地区团队开展<u>远程</u>协同办公提供了极大的便利。",
+      "example_vi": "Hệ thống hội nghị truyền hình tiên tiến đã đem lại sự tiện lợi cực lớn cho các đội ngũ xuyên quốc gia tiến hành làm việc <u>từ xa</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "远程.svg",
+      "src": "images/HSK_3.0/level6/远程.svg",
+      "alt_srcs": []
+    },
+    "远方": {
+      "hanzi": "远方",
+      "pinyin": "yuǎnfāng",
+      "meaning": "nơi xa xôi",
+      "example_zh": "他凝视着<u>远方</u>，一言不发",
+      "example_vi": "Anh ấy đăm đăm nhìn về phía xa, không nói một lời.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "远方.svg",
+      "src": "images/HSK_3.0/level6/远方.svg",
+      "alt_srcs": []
+    },
+    "月光": {
+      "hanzi": "月光",
+      "pinyin": "yuèguāng",
+      "meaning": "ánh trăng",
+      "example_zh": "皎洁柔和的<u>月光</u>洒在静谧的湖面上，倒映出群山的秀丽轮廓。",
+      "example_vi": "<u>Ánh trăng</u> trong trẻo dịu êm trải dài trên mặt hồ phẳng lặng, soi bóng dáng nét núi non hữu tình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "月光.svg",
+      "src": "images/HSK_3.0/level6/月光.svg",
+      "alt_srcs": []
+    },
+    "月球": {
+      "hanzi": "月球",
+      "pinyin": "yuèqiú",
+      "meaning": "mặt Trăng",
+      "example_zh": "人类探月工程的成功实施，揭开了神秘<u>月球</u>背面的一层层面纱。",
+      "example_vi": "Việc triển khai thành công công trình thám hiểm Mặt Trăng của nhân loại đã vén màn từng lớp bí ẩn của <u>Mặt Trăng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "月球.svg",
+      "src": "images/HSK_3.0/level6/月球.svg",
+      "alt_srcs": []
+    },
+    "乐曲": {
+      "hanzi": "乐曲",
+      "pinyin": "yuèqǔ",
+      "meaning": "bản nhạc, khúc nhạc",
+      "example_zh": "音乐家倾注了毕生心血，创作出了这首震撼人心的交响<u>乐曲</u>。",
+      "example_vi": "Nhà soạn nhạc đã dồn trọn tâm huyết cả đời để sáng tác nên <u>bản nhạc</u> giao hưởng rung động lòng người này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "乐曲.svg",
+      "src": "images/HSK_3.0/level6/乐曲.svg",
+      "alt_srcs": []
+    },
+    "晕车": {
+      "hanzi": "晕车",
+      "pinyin": "yùnchē",
+      "meaning": "say tàu xe",
+      "example_zh": "他<u>晕车</u>，一直在呕吐",
+      "example_vi": "Anh ấy bị say xe, cứ nôn mãi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "晕车.svg",
+      "src": "images/HSK_3.0/level6/晕车.svg",
+      "alt_srcs": []
+    },
+    "运送": {
+      "hanzi": "运送",
+      "pinyin": "yùnsòng",
+      "meaning": "vận chuyển, chuyên chở",
+      "example_zh": "救灾物资正由多架大型军用运输机日夜兼程紧急<u>运送</u>往灾区一线。",
+      "example_vi": "Vật tư cứu trợ đang được nhiều máy bay vận tải quân sự hạng nặng ngày đêm khẩn cấp <u>vận chuyển</u> đến tuyến đầu vùng thiên tai.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "运送.svg",
+      "src": "images/HSK_3.0/level6/运送.svg",
+      "alt_srcs": []
+    },
+    "运营": {
+      "hanzi": "运营",
+      "pinyin": "yùnyíng",
+      "meaning": "vận hành, kinh doanh khai thác",
+      "example_zh": "城市新开通的地铁四号线在试<u>运营</u>期间赢得了广大市民的一致好评。",
+      "example_vi": "Tuyến tàu điện ngầm số 4 mới mở của thành phố trong thời gian chạy thử <u>vận hành</u> đã nhận được sự khen ngợi nhiệt liệt của đông đảo người dân.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "运营.svg",
+      "src": "images/HSK_3.0/level6/运营.svg",
+      "alt_srcs": []
+    },
+    "杂": {
+      "hanzi": "杂",
+      "pinyin": "zá",
+      "meaning": "tạp, lẫn lộn, hỗn tạp",
+      "example_zh": "房间里堆满了各种各样零<u>杂</u>的闲置物品。",
+      "example_vi": "Trong phòng chất đống đủ các loại đồ đạc bỏ không <u>lẫn lộn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "杂.svg",
+      "src": "images/HSK_3.0/level6/杂.svg",
+      "alt_srcs": []
+    },
+    "灾": {
+      "hanzi": "灾",
+      "pinyin": "zāi",
+      "meaning": "tai họa, thiên tai, tai ương",
+      "example_zh": "连续几个月干旱不雨给当地农业生产带来了严重的干旱之<u>灾</u>。",
+      "example_vi": "Hạn hán không mưa liên tiếp mấy tháng liền đã mang tới <u>tai họa</u> khô hạn nghiêm trọng cho sản xuất nông nghiệp địa phương.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "灾.svg",
+      "src": "images/HSK_3.0/level6/灾.svg",
+      "alt_srcs": []
+    },
+    "灾区": {
+      "hanzi": "灾区",
+      "pinyin": "zāiqū",
+      "meaning": "vùng bị nạn, vùng thiên tai",
+      "example_zh": "成千上万吨救援物资第一时间被运送到了地震<u>灾区</u>。",
+      "example_vi": "Hàng ngàn tấn hàng cứu trợ đã được vận chuyển ngay tới <u>vùng thiên tai</u> động đất trong thời gian sớm nhất.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "灾区.svg",
+      "src": "images/HSK_3.0/level6/灾区.svg",
+      "alt_srcs": []
+    },
+    "再生": {
+      "hanzi": "再生",
+      "pinyin": "zàishēng",
+      "meaning": "tái sinh, tái chế",
+      "example_zh": "大力推广废旧塑料和纸张的回收利用有助于发展<u>再生</u>资源产业。",
+      "example_vi": "Tích cực đẩy mạnh thu gom tái sử dụng nhựa và giấy phế liệu sẽ giúp phát triển ngành tài nguyên <u>tái chế</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "再生.svg",
+      "src": "images/HSK_3.0/level6/再生.svg",
+      "alt_srcs": []
+    },
+    "赞赏": {
+      "hanzi": "赞赏",
+      "pinyin": "zànshǎng",
+      "meaning": "tán thưởng, khen ngợi",
+      "example_zh": "他舍己救人的英勇事迹赢得了社会各界的高度<u>赞赏</u>。",
+      "example_vi": "Hành động dũng cảm quên mình cứu người của anh đã nhận được sự <u>tán thưởng</u> cao độ từ mọi tầng lớp xã hội.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "赞赏.svg",
+      "src": "images/HSK_3.0/level6/赞赏.svg",
+      "alt_srcs": []
+    },
+    "赞同": {
+      "hanzi": "赞同",
+      "pinyin": "zàntóng",
+      "meaning": "đồng ý",
+      "example_zh": "大家纷纷表示<u>赞同</u>",
+      "example_vi": "Mọi người lần lượt bày tỏ sự đồng tình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "赞同.svg",
+      "src": "images/HSK_3.0/level6/赞同.svg",
+      "alt_srcs": []
+    },
+    "遭到": {
+      "hanzi": "遭到",
+      "pinyin": "zāodào",
+      "meaning": "chịu đựng",
+      "example_zh": "城市<u>遭到</u>了轰炸",
+      "example_vi": "Thành phố bị oanh tạc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "遭到.svg",
+      "src": "images/HSK_3.0/level6/遭到.svg",
+      "alt_srcs": []
+    },
+    "噪声": {
+      "hanzi": "噪声",
+      "pinyin": "zàoshēng",
+      "meaning": "tiếng ồn",
+      "example_zh": "施工工地上机器隆隆运转产生的巨大<u>噪声</u>严重影响了附近居民的休息。",
+      "example_vi": "<u>Tiếng ồn</u> đinh tai nhức óc do máy móc chạy ầm ầm tại công trường thi công đã ảnh hưởng nghiêm trọng đến giấc ngủ của cư dân gần đó.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "噪声.svg",
+      "src": "images/HSK_3.0/level6/噪声.svg",
+      "alt_srcs": []
+    },
+    "则¹": {
+      "hanzi": "则¹",
+      "pinyin": "zé",
+      "meaning": "thì, là (liên từ văn viết)",
+      "example_zh": "他学习好，工作能力<u>则</u>更强。",
+      "example_vi": "Anh ấy học tốt, <u>thì</u> năng lực làm việc còn mạnh hơn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "则¹.svg",
+      "src": "images/HSK_3.0/level6/则¹.svg",
+      "alt_srcs": []
+    },
+    "扎": {
+      "hanzi": "扎",
+      "pinyin": "zhā",
+      "meaning": "đâm, châm, cắm",
+      "example_zh": "在野外树林里采药时，他的手指不小心被尖锐的荆棘刺给<u>扎</u>破了。",
+      "example_vi": "Khi đi hái thuốc trong rừng hoang ngoài bãi, ngón tay anh ấy sơ ý bị gai nhọn <u>đâm</u> rách.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "扎.svg",
+      "src": "images/HSK_3.0/level6/扎.svg",
+      "alt_srcs": []
+    },
+    "粘": {
+      "hanzi": "粘",
+      "pinyin": "zhān",
+      "meaning": "dính",
+      "example_zh": "用浆糊把纸<u>粘</u>起来",
+      "example_vi": "Dùng hồ dán giấy lại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "粘.svg",
+      "src": "images/HSK_3.0/level6/粘.svg",
+      "alt_srcs": []
+    },
+    "崭新": {
+      "hanzi": "崭新",
+      "pinyin": "zhǎnxīn",
+      "meaning": "mới tinh, mới toanh",
+      "example_zh": "开学第一天，孩子们兴高采烈地背着<u>崭新</u>的书包走进教室。",
+      "example_vi": "Ngày đầu tiên đi học, các em nhỏ vui tươi hớn hở đeo chiếc cặp sách <u>mới tinh</u> bước vào lớp học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "崭新.svg",
+      "src": "images/HSK_3.0/level6/崭新.svg",
+      "alt_srcs": []
+    },
+    "占比": {
+      "hanzi": "占比",
+      "pinyin": "zhànbǐ",
+      "meaning": "tỷ lệ chiếm, tỷ trọng",
+      "example_zh": "近年来，高新技术产品在我国外贸出口总额中的<u>占比</u>逐年提升。",
+      "example_vi": "Những năm gần đây, <u>tỷ trọng</u> sản phẩm công nghệ cao trong tổng kim ngạch xuất khẩu ngoại thương của nước ta đã tăng dần qua từng năm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "占比.svg",
+      "src": "images/HSK_3.0/level6/占比.svg",
+      "alt_srcs": []
+    },
+    "战斗": {
+      "hanzi": "战斗",
+      "pinyin": "zhàndòu",
+      "meaning": "chiến đấu",
+      "example_zh": "士兵们英勇地<u>战斗</u>",
+      "example_vi": "Các binh sĩ chiến đấu anh dũng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "战斗.svg",
+      "src": "images/HSK_3.0/level6/战斗.svg",
+      "alt_srcs": []
+    },
+    "占据": {
+      "hanzi": "占据",
+      "pinyin": "zhànjù",
+      "meaning": "chiếm cứ, chiếm lĩnh, giữ vị trí",
+      "example_zh": "凭借卓越的品质与口碑，该品牌迅速<u>占据</u>了国内市场的领先地位。",
+      "example_vi": "Nhờ vào chất lượng vượt trội và danh tiếng tốt, thương hiệu này đã nhanh chóng <u>chiếm lĩnh</u> vị trí dẫn đầu thị trường trong nước.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "占据.svg",
+      "src": "images/HSK_3.0/level6/占据.svg",
+      "alt_srcs": []
+    },
+    "战胜": {
+      "hanzi": "战胜",
+      "pinyin": "zhànshèng",
+      "meaning": "thắng",
+      "example_zh": "他以顽强的意志<u>战胜</u>了病魔",
+      "example_vi": "Anh ấy đã chiến thắng bệnh tật bằng ý chí kiên cường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "战胜.svg",
+      "src": "images/HSK_3.0/level6/战胜.svg",
+      "alt_srcs": []
+    },
+    "占有": {
+      "hanzi": "占有",
+      "pinyin": "zhànyǒu",
+      "meaning": "chiếm hữu, sở hữu, chiếm",
+      "example_zh": "该企业生产的绿色环保涂料在全省市场上<u>占有</u>相当高的份额。",
+      "example_vi": "Sơn thân thiện với môi trường do doanh nghiệp này sản xuất <u>chiếm</u> một thị phần khá cao trên thị trường toàn tỉnh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "占有.svg",
+      "src": "images/HSK_3.0/level6/占有.svg",
+      "alt_srcs": []
+    },
+    "章": {
+      "hanzi": "章",
+      "pinyin": "zhāng",
+      "meaning": "chương (sách); con dấu",
+      "example_zh": "这本长篇小说的最后一<u>章</u>揭示了所有令人意想不到的情节谜底。",
+      "example_vi": "<u>Chương</u> cuối cùng của cuốn tiểu thuyết trường thiên này đã vén màn toàn bộ lời giải đáp tình tiết bất ngờ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "章.svg",
+      "src": "images/HSK_3.0/level6/章.svg",
+      "alt_srcs": []
+    },
+    "障碍": {
+      "hanzi": "障碍",
+      "pinyin": "zhàng’ài",
+      "meaning": "chướng ngại vật, trở ngại",
+      "example_zh": "真诚的沟通是消除人际交往中误解与<u>障碍</u>的最佳桥梁。",
+      "example_vi": "Giao tiếp chân thành là cây cầu tốt nhất để xóa tan những hiểu lầm và <u>trở ngại</u> trong mối quan hệ giữa con người với nhau.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "障碍.svg",
+      "src": "images/HSK_3.0/level6/障碍.svg",
+      "alt_srcs": []
+    },
+    "账单": {
+      "hanzi": "账单",
+      "pinyin": "zhàngdān",
+      "meaning": "hóa đơn thanh toán",
+      "example_zh": "每个月月初，电信公司都会向客户手机发送一份详细的消费<u>账单</u>。",
+      "example_vi": "Đầu mỗi tháng, công ty viễn thông đều gửi tới điện thoại của khách hàng một bản <u>hóa đơn</u> cước tiêu dùng chi tiết.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "账单.svg",
+      "src": "images/HSK_3.0/level6/账单.svg",
+      "alt_srcs": []
+    },
+    "招": {
+      "hanzi": "招",
+      "pinyin": "zhāo",
+      "meaning": "chiêu thức, nước cờ, cách",
+      "example_zh": "面对对手步步紧逼的攻势，他灵机一动想出了一<u>招</u>妙棋成功脱困。",
+      "example_vi": "Trước thế công dồn dập từng bước của đối thủ, anh ấy nhanh trí nghĩ ra một <u>nước</u> cờ hay để thoát hiểm thành công.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "招.svg",
+      "src": "images/HSK_3.0/level6/招.svg",
+      "alt_srcs": []
+    },
+    "招生": {
+      "hanzi": "招生",
+      "pinyin": "zhāoshēng",
+      "meaning": "sự tuyển sinh",
+      "example_zh": "今年<u>招生</u>名额有限",
+      "example_vi": "Chỉ tiêu tuyển sinh năm nay có hạn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "招生.svg",
+      "src": "images/HSK_3.0/level6/招生.svg",
+      "alt_srcs": []
+    },
+    "招手": {
+      "hanzi": "招手",
+      "pinyin": "zhāoshǒu",
+      "meaning": "vẫy tay",
+      "example_zh": "火车缓缓启动了，站台上送行的亲友们含着眼泪挥动双臂热情<u>招手</u>。",
+      "example_vi": "Đoàn tàu từ từ lăn bánh, người thân tiễn đưa trên sân ga rơm rớm nước mắt vung tay nhiệt tình <u>vẫy tay</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "招手.svg",
+      "src": "images/HSK_3.0/level6/招手.svg",
+      "alt_srcs": []
+    },
+    "真相": {
+      "hanzi": "真相",
+      "pinyin": "zhēnxiàng",
+      "meaning": "sự thật",
+      "example_zh": "他试图掩盖事情的<u>真相</u>",
+      "example_vi": "Anh ấy cố gắng che đậy sự thật của việc này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "真相.svg",
+      "src": "images/HSK_3.0/level6/真相.svg",
+      "alt_srcs": []
+    },
+    "珍珠": {
+      "hanzi": "珍珠",
+      "pinyin": "zhēnzhū",
+      "meaning": "ngọc trai",
+      "example_zh": "奶奶珍藏的那串天然<u>珍珠</u>项链在灯光下闪耀着柔和温润的光泽。",
+      "example_vi": "Chuỗi vòng cổ <u>ngọc trai</u> tự nhiên mà bà nội trân quý lưu giữ tỏa sáng lấp lánh dịu dàng dưới ánh đèn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "珍珠.svg",
+      "src": "images/HSK_3.0/level6/珍珠.svg",
       "alt_srcs": []
     }
   }

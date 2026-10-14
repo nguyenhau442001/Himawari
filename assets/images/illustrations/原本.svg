@@ -1,0 +1,24 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Timeline Path -->
+  <path d="M40 180 C 80 180, 120 180, 160 120" stroke="#4A5568" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+  
+  <!-- Original Plan (The Baseline) -->
+  <circle cx="40" cy="180" r="12" fill="#F6AD55"/>
+  <path d="M34 174 L 46 186 M 46 174 L 34 186" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- The Divergence Point (The Contrast) -->
+  <circle cx="160" cy="120" r="16" fill="#E53E3E"/>
+  <path d="M152 112 L 168 128 M 168 112 L 152 128" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- The Shift/Change -->
+  <path d="M160 120 L 200 80" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="80" r="10" fill="#F6AD55"/>
+  
+  <!-- Visual Metaphor of "Original vs Actual" -->
+  <g transform="translate(100, 150)">
+    <rect x="-10" y="-40" width="20" height="40" rx="4" fill="#4A5568" opacity="0.5"/>
+    <rect x="20" y="-20" width="20" height="20" rx="4" fill="#F6AD55"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Cargo Plane Body -->
+  <path d="M60 110 L180 110 L170 140 L70 140 Z" fill="#4A5568"/>
+  <path d="M50 115 L60 110 L70 140 L55 135 Z" fill="#2D3748"/>
+  
+  <!-- Wing -->
+  <path d="M90 110 L150 110 L140 80 L100 80 Z" fill="#718096"/>
+  
+  <!-- Tail -->
+  <path d="M170 110 L190 110 L185 90 L175 90 Z" fill="#4A5568"/>
+  
+  <!-- Cargo Boxes (The "Goods") -->
+  <rect x="80" y="115" width="20" height="20" rx="2" fill="#F6AD55"/>
+  <rect x="105" y="115" width="20" height="20" rx="2" fill="#F6AD55"/>
+  <rect x="130" y="115" width="20" height="20" rx="2" fill="#F6AD55"/>
+  
+  <!-- Motion/Directional lines -->
+  <path d="M40 125 L20 125" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M35 110 L20 100" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M35 140 L20 150" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Ground reference -->
+  <path d="M40 160 L200 160" stroke="#2D3748" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

@@ -1,0 +1,104 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle airport terminal floor and gate indicator backdrop -->
+  <path d="M30 180 L210 180" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+  <rect x="35" y="145" width="20" height="35" rx="3" fill="#252A34"/>
+  <circle cx="45" cy="155" r="3" fill="#00E5FF"/>
+  
+  <!-- Boarding Queue / Sorted Travelers (有序: orderly, neatly arranged line of people) -->
+  <!-- Person 1 (Front, scanning ticket at gate) -->
+  <g transform="translate(60, 110)">
+    <!-- Body/Coat -->
+    <path d="M10 25 C10 20 15 15 20 15 C25 15 30 20 30 25 L32 70 L8 70 Z" fill="#FFB703"/>
+    <!-- Head -->
+    <circle cx="20" cy="8" r="7" fill="#E2E8F0"/>
+    <!-- Legs -->
+    <rect x="13" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <rect x="22" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <!-- Raised arm showing boarding pass / moving forward -->
+    <path d="M10 25 L3 35" stroke="#FFB703" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 2 (Following neatly in line behind Person 1) -->
+  <g transform="translate(105, 110)">
+    <!-- Body/Coat -->
+    <path d="M10 25 C10 20 15 15 20 15 C25 15 30 20 30 25 L32 70 L8 70 Z" fill="#00B4D8"/>
+    <!-- Head -->
+    <circle cx="20" cy="8" r="7" fill="#E2E8F0"/>
+    <!-- Legs -->
+    <rect x="13" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <rect x="22" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <!-- Arms down, orderly posture -->
+    <path d="M12 25 L8 45" stroke="#00B4D8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M28 25 L32 45" stroke="#00B4D8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 3 (Continuing the neat line) -->
+  <g transform="translate(150, 110)">
+    <!-- Body/Coat -->
+    <path d="M10 25 C10 20 15 15 20 15 C25 15 30 20 30 25 L32 70 L8 70 Z" fill="#7209B7"/>
+    <!-- Head -->
+    <circle cx="20" cy="8" r="7" fill="#E2E8F0"/>
+    <!-- Legs -->
+    <rect x="13" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <rect x="22" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <!-- Arms -->
+    <path d="M12 25 L8 45" stroke="#7209B7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M28 25 L32 45" stroke="#7209B7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Person 4 (Back of the orderly queue) -->
+  <g transform="translate(195, 110)">
+    <!-- Body/Coat -->
+    <path d="M10 25 C10 20 15 15 20 15 C25 15 30 20 30 25 L32 70 L8 70 Z" fill="#4ADE80"/>
+    <!-- Head -->
+    <circle cx="20" cy="8" r="7" fill="#E2E8F0"/>
+    <!-- Legs -->
+    <rect x="13" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <rect x="22" y="70" width="5" height="25" rx="2.5" fill="#475569"/>
+    <!-- Arms -->
+    <path d="M12 25 L8 45" stroke="#4ADE80" stroke-width="4" stroke-linecap="round"/>
+    <path d="M28 25 L32 45" stroke="#4ADE80" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Visual Indicators of Order (Directional alignment arrows showing smooth flow and sequence) -->
+  <g stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8">
+    <path d="M 75 90 Q 97 75 120 90"/>
+    <path d="M 115 85 L 120 90 L 114 95"/>
+
+    <path d="M 120 90 Q 142 75 165 90"/>
+    <path d="M 160 85 L 165 90 L 159 95"/>
+
+    <path d="M 165 90 Q 187 75 210 90"/>
+    <path d="M 205 85 L 210 90 L 204 95"/>
+  </g>
+
+  <!-- Luggage rolling neatly beside them to emphasize organized travel -->
+  <g transform="translate(45, 175)">
+    <rect x="0" y="0" width="12" height="16" rx="2" fill="#E2E8F0"/>
+    <path d="M4 0 L4 -3 C4 -4 8 -4 8 -3 L8 0" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+    <circle cx="3" cy="18" r="2" fill="#64748B"/>
+    <circle cx="9" cy="18" r="2" fill="#64748B"/>
+  </g>
+  <g transform="translate(90, 175)">
+    <rect x="0" y="0" width="12" height="16" rx="2" fill="#E2E8F0"/>
+    <path d="M4 0 L4 -3 C4 -4 8 -4 8 -3 L8 0" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+    <circle cx="3" cy="18" r="2" fill="#64748B"/>
+    <circle cx="9" cy="18" r="2" fill="#64748B"/>
+  </g>
+  <g transform="translate(135, 175)">
+    <rect x="0" y="0" width="12" height="16" rx="2" fill="#E2E8F0"/>
+    <path d="M4 0 L4 -3 C4 -4 8 -4 8 -3 L8 0" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+    <circle cx="3" cy="18" r="2" fill="#64748B"/>
+    <circle cx="9" cy="18" r="2" fill="#64748B"/>
+  </g>
+  <g transform="translate(180, 175)">
+    <rect x="0" y="0" width="12" height="16" rx="2" fill="#E2E8F0"/>
+    <path d="M4 0 L4 -3 C4 -4 8 -4 8 -3 L8 0" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+    <circle cx="3" cy="18" r="2" fill="#64748B"/>
+    <circle cx="9" cy="18" r="2" fill="#64748B"/>
+  </g>
+
+</svg>

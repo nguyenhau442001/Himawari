@@ -1,0 +1,75 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Decorative travel elements background (subtle) -->
+    <path d="M 40,180 Q 120,200 200,180" stroke="#2A2F3D" stroke-width="2" fill="none" stroke-dasharray="4,4"/>
+    
+    <!-- Calendar/Schedule Base (representing advance planning/booking) -->
+    <rect x="55" y="45" width="130" height="135" rx="12" fill="#222733" stroke="#323B4D" stroke-width="2"/>
+    
+    <!-- Calendar Header -->
+    <path d="M 55,57 c 0,-6.6 5.4,-12 12,-12 h 106 c 6.6,0 12,5.4 12,12 v 23 h -130 z" fill="#F59E0B"/>
+    
+    <!-- Calendar Rings -->
+    <rect x="85" y="35" width="8" height="16" rx="4" fill="#E2E8F0"/>
+    <rect x="147" y="35" width="8" height="16" rx="4" fill="#E2E8F0"/>
+    
+    <!-- Calendar Grid Dots / Mini blocks -->
+    <circle cx="80" cy="98" r="5" fill="#323B4D"/>
+    <circle cx="107" cy="98" r="5" fill="#323B4D"/>
+    <circle cx="134" cy="98" r="5" fill="#323B4D"/>
+    <circle cx="161" cy="98" r="5" fill="#323B4D"/>
+    
+    <circle cx="80" cy="123" r="5" fill="#323B4D"/>
+    <circle cx="107" cy="123" r="5" fill="#323B4D"/>
+    
+    <!-- Highlighted Reserved Date (Target Date) -->
+    <rect x="119" y="110" width="30" height="30" rx="6" fill="#F59E0B" opacity="0.2"/>
+    <circle cx="134" cy="123" r="7" fill="#F59E0B"/>
+    
+    <!-- More grid -->
+    <circle cx="161" cy="123" r="5" fill="#323B4D"/>
+    <circle cx="80" cy="148" r="5" fill="#323B4D"/>
+    <circle cx="107" cy="148" r="5" fill="#323B4D"/>
+    <circle cx="134" cy="148" r="5" fill="#323B4D"/>
+    <circle cx="161" cy="148" r="5" fill="#323B4D"/>
+
+    <!-- Prominent Ticket Object overlay (the physical noun being booked in advance) -->
+    <g transform="translate(30, 95) rotate(-12)">
+      <!-- Ticket Shadow -->
+      <rect x="0" y="5" width="140" height="70" rx="8" fill="#0D0F13" opacity="0.5"/>
+      <!-- Ticket Body -->
+      <rect x="0" y="0" width="140" height="70" rx="8" fill="#38BDF8" stroke="#E2E8F0" stroke-width="2"/>
+      
+      <!-- Ticket Notch Left -->
+      <circle cx="0" cy="35" r="10" fill="#1A1D24"/>
+      <!-- Ticket Notch Right -->
+      <circle cx="140" cy="35" r="10" fill="#1A1D24"/>
+      
+      <!-- Perforation Line -->
+      <line x1="105" y1="5" x2="105" y2="65" stroke="#1A1D24" stroke-width="2" stroke-dasharray="4,4" opacity="0.4"/>
+      
+      <!-- Train/Transport Icon on Ticket -->
+      <rect x="20" y="22" width="22" height="26" rx="4" fill="#0F172A"/>
+      <circle cx="25" cy="42" r="3" fill="#38BDF8"/>
+      <circle cx="37" cy="42" r="3" fill="#38BDF8"/>
+      <rect x="23" y="26" width="16" height="10" rx="2" fill="#38BDF8"/>
+      
+      <!-- Decorative Ticket Lines -->
+      <line x1="55" y1="26" x2="90" y2="26" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+      <line x1="55" y1="38" x2="80" y2="38" stroke="#0F172A" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+      
+      <!-- Barcode stub area -->
+      <line x1="117" y1="20" x2="117" y2="50" stroke="#0F172A" stroke-width="3"/>
+      <line x1="123" y1="20" x2="123" y2="50" stroke="#0F172A" stroke-width="1.5"/>
+      <line x1="128" y1="20" x2="128" y2="50" stroke="#0F172A" stroke-width="4"/>
+    </g>
+
+    <!-- Success Checkmark Badge (Confirmation of Booking) -->
+    <g transform="translate(165, 55)">
+      <circle cx="20" cy="20" r="20" fill="#10B981" stroke="#1A1D24" stroke-width="4"/>
+      <path d="M 12,20 L 17,25 L 28,14" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

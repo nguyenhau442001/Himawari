@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor shadow / base layer -->
+  <ellipse cx="120" cy="190" rx="70" ry="10" fill="#111318"/>
+
+  <!-- Left Person (Sender/Initiator) -->
+  <g transform="translate(60, 110)">
+    <!-- Body/Shoulders -->
+    <path d="M-25 70 C-25 45 -10 35 0 35 C10 35 25 45 25 70 Z" fill="#4B5563"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="16" fill="#9CA3AF"/>
+    <!-- Gentle leaning forward pose -->
+    <path d="M0 26 C-5 26 -15 35 -18 50" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- Extended arm trying to reach/communicate -->
+    <path d="M10 40 L45 35" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Person (Receiver) -->
+  <g transform="translate(180, 110)">
+    <!-- Body/Shoulders -->
+    <path d="M-25 70 C-25 45 -10 35 0 35 C10 35 25 45 25 70 Z" fill="#4B5563"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="16" fill="#9CA3AF"/>
+    <!-- Leaning slightly -->
+    <path d="M0 26 C5 26 15 35 18 50" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- Reaching arm -->
+    <path d="M-10 40 L-45 35" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- The Obstacle (障碍) - Placed centrally between the two figures -->
+  <g transform="translate(120, 130)">
+    <!-- Main Wall Block representing the barrier -->
+    <rect x="-16" y="-55" width="32" height="95" rx="4" fill="#2D3748" stroke="#3F4656" stroke-width="2"/>
+    
+    <!-- Hazard Stripes / Warning Indicator (Amber/Gold focus color) -->
+    <path d="M-12 -35 L12 -45 L12 -35 L-12 -25 Z" fill="#F59E0B"/>
+    <path d="M-12 -5 L12 -15 L12 -5 L-12 5 Z" fill="#F59E0B"/>
+    <path d="M-12 25 L12 15 L12 25 L-12 35 Z" fill="#F59E0B"/>
+
+    <!-- Structural Bolts -->
+    <circle cx="0" cy="-45" r="2.5" fill="#1A1D24"/>
+    <circle cx="0" cy="0" r="2.5" fill="#1A1D24"/>
+    <circle cx="0" cy="30" r="2.5" fill="#1A1D24"/>
+  </g>
+
+  <!-- Broken Connection / Impeding Visual Cues -->
+  <!-- Floating dashed communication arcs blocked by the wall -->
+  <path d="M 78 130 C 85 120 95 120 102 124" stroke="#6B7280" stroke-width="2.5" stroke-dasharray="3 3" stroke-linecap="round" fill="none"/>
+  <path d="M 138 124 C 145 120 155 120 162 130" stroke="#6B7280" stroke-width="2.5" stroke-dasharray="3 3" stroke-linecap="round" fill="none"/>
+
+</svg>

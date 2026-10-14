@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Shower Head -->
+  <path d="M100 40h40c5.5 0 10 4.5 10 10v10c0 5.5-4.5 10-10 10h-40c-5.5 0-10-4.5-10-10V50c0-5.5 4.5-10 10-10z" fill="#FFB347"/>
+  <rect x="115" y="70" width="10" height="40" fill="#FFB347"/>
+  <circle cx="120" cy="55" r="3" fill="#1A1D24"/>
+  <circle cx="130" cy="55" r="3" fill="#1A1D24"/>
+  
+  <!-- Water Droplets -->
+  <path d="M110 120c0-5 5-10 10-10s10 5 10 10-10 15-10 15-10-10-10-15z" fill="#4A90E2"/>
+  <path d="M90 140c0-5 5-10 10-10s10 5 10 10-10 15-10 15-10-10-10-15z" fill="#4A90E2"/>
+  <path d="M130 140c0-5 5-10 10-10s10 5 10 10-10 15-10 15-10-10-10-15z" fill="#4A90E2"/>
+  
+  <!-- Bathtub -->
+  <path d="M50 160h140c10 0 15 5 15 15v20c0 10-10 15-20 15H55c-10 0-20-5-20-15v-20c0-10 5-15 15-15z" fill="#E0E0E0"/>
+  <path d="M55 165h130c5 0 10 5 10 10v15c0 5-5 10-10 10H65c-5 0-10-5-10-10v-15c0-5 5-10 10-10z" fill="#B0B0B0"/>
+  
+  <!-- Faucet -->
+  <rect x="170" y="140" width="10" height="20" fill="#FFB347"/>
+  <path d="M160 140h30c2 0 2 2 0 2H160c-2 0-2-2 0-2z" fill="#FFB347"/>
+</svg>

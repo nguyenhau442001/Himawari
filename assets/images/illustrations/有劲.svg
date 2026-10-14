@@ -1,0 +1,48 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle lighting/radial gradient background effect -->
+  <circle cx="120" cy="120" r="90" fill="#252A36" opacity="0.6"/>
+
+  <g transform="translate(0, 10)">
+    <!-- Dumbbell / Weightlifting representing "yǒujìn" (strong, energetic, full of force) -->
+    <!-- Central Bar -->
+    <rect x="70" y="112" width="100" height="16" rx="4" fill="#64748B"/>
+    <!-- Inner grip detail -->
+    <rect x="105" y="112" width="30" height="16" fill="#475569"/>
+
+    <!-- Left Weight Plates -->
+    <!-- Outer large plate -->
+    <rect x="52" y="82" width="14" height="76" rx="5" fill="#3B82F6"/>
+    <!-- Inner plate -->
+    <rect x="68" y="92" width="10" height="56" rx="3" fill="#60A5FA"/>
+
+    <!-- Right Weight Plates -->
+    <!-- Inner plate -->
+    <rect x="162" y="92" width="10" height="56" rx="3" fill="#60A5FA"/>
+    <!-- Outer large plate -->
+    <rect x="174" y="82" width="14" height="76" rx="5" fill="#3B82F6"/>
+
+    <!-- Dynamic Energy / Muscle Accent Sparks (Focus color: Orange/Gold) -->
+    <!-- Top-left energy spark -->
+    <path d="M 60 70 Q 75 60 75 45 Q 60 60 55 60 Z" fill="#F59E0B" opacity="0.9"/>
+    <circle cx="78" cy="40" r="3" fill="#F59E0B"/>
+
+    <!-- Top-right energy spark -->
+    <path d="M 180 70 Q 165 60 165 45 Q 180 60 185 60 Z" fill="#F59E0B" opacity="0.9"/>
+    <circle cx="162" cy="40" r="3" fill="#F59E0B"/>
+
+    <!-- Central core energy glow behind the barbell -->
+    <circle cx="120" cy="120" r="28" fill="#F59E0B" opacity="0.15"/>
+    <circle cx="120" cy="120" r="14" fill="#F59E0B" opacity="0.3"/>
+    
+    <!-- Action/Force radiating lines -->
+    <path d="M 40 120 L 30 120" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 205 120 L 215 120" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 45 95 L 37 87" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 195 95 L 203 87" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 45 145 L 37 153" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 195 145 L 203 153" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

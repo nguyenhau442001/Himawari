@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Cluttered pile of miscellaneous items -->
+  <g transform="translate(40, 60)">
+    <!-- Base clutter -->
+    <rect x="20" y="100" width="120" height="40" rx="4" fill="#3D4451"/>
+    <rect x="40" y="80" width="80" height="60" rx="4" fill="#4B5563"/>
+    
+    <!-- Miscellaneous objects -->
+    <path d="M30 110 L50 110 L55 130 L25 130 Z" fill="#F59E0B"/> <!-- Book -->
+    <circle cx="100" cy="90" r="15" fill="#EF4444"/> <!-- Ball -->
+    <rect x="70" y="115" width="30" height="20" rx="2" fill="#8B5CF6"/> <!-- Box -->
+    <path d="M120 100 L140 100 L135 120 L125 120 Z" fill="#10B981"/> <!-- Tool -->
+    
+    <!-- Scattered smaller items -->
+    <rect x="50" y="70" width="10" height="25" rx="2" fill="#D1D5DB"/> <!-- Pen -->
+    <circle cx="110" cy="125" r="8" fill="#FBBF24"/> <!-- Coin -->
+    <path d="M40 90 L60 90 L55 105 L45 105 Z" fill="#6B7280"/> <!-- Misc item -->
+    
+    <!-- Additional layer of items -->
+    <rect x="80" y="60" width="20" height="30" rx="2" fill="#EC4899"/>
+    <path d="M60 120 L80 120 L75 140 L65 140 Z" fill="#3B82F6"/>
+  </g>
+</svg>

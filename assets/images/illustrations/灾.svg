@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Cracked Earth Ground -->
+  <path d="M40 180 L200 180 L190 210 L50 210 Z" fill="#3D3D3D"/>
+  <path d="M60 180 L65 195 M100 180 L95 200 M140 180 L145 195 M180 180 L175 205" stroke="#1A1D24" stroke-width="2"/>
+  
+  <!-- Withered Plant (Representing Agricultural Disaster) -->
+  <g transform="translate(120, 180)">
+    <path d="M0 0 C-10 -40, -20 -80, -5 -100" stroke="#D97706" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 C10 -30, 20 -60, 10 -80" stroke="#D97706" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Drooping leaves -->
+    <path d="M-5 -40 L-15 -50" stroke="#D97706" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 -60 L20 -70" stroke="#D97706" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Sun representing Drought -->
+  <circle cx="180" cy="60" r="25" fill="#F59E0B"/>
+  <g stroke="#F59E0B" stroke-width="3" stroke-linecap="round">
+    <line x1="180" y1="25" x2="180" y2="10"/>
+    <line x1="180" y1="95" x2="180" y2="110"/>
+    <line x1="145" y1="60" x2="130" y2="60"/>
+    <line x1="215" y1="60" x2="230" y2="60"/>
+  </g>
+</svg>

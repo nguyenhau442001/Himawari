@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Reed stalks background layer -->
+  <path d="M50 200 L55 60" stroke="#253242" stroke-width="3" stroke-linecap="round"/>
+  <path d="M70 200 L68 75" stroke="#253242" stroke-width="2" stroke-linecap="round"/>
+  <path d="M190 200 L185 50" stroke="#253242" stroke-width="4" stroke-linecap="round"/>
+  <path d="M210 200 L215 80" stroke="#253242" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Dense reed cluster - Left foreground -->
+  <path d="M20 220 L35 40" stroke="#2E4740" stroke-width="6" stroke-linecap="round"/>
+  <path d="M45 220 L50 30" stroke="#3D5A4C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M75 220 L70 50" stroke="#2E4740" stroke-width="5" stroke-linecap="round"/>
+  <path d="M95 220 L100 45" stroke="#375547" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Dense reed cluster - Right foreground -->
+  <path d="M145 220 L140 40" stroke="#2E4740" stroke-width="6" stroke-linecap="round"/>
+  <path d="M165 220 L170 30" stroke="#3D5A4C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M195 220 L190 45" stroke="#2E4740" stroke-width="5" stroke-linecap="round"/>
+  <path d="M220 220 L215 35" stroke="#375547" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Additional overlapping stylized reeds for depth -->
+  <path d="M10 220 L20 70" stroke="#4A6B5B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120 220 L115 55" stroke="#4A6B5B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M135 220 L130 65" stroke="#24382E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M230 220 L225 60" stroke="#4A6B5B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Hidden Water Bird (鷺/Duck silhouette nestled securely inside the reeds) -->
+  <g transform="translate(0, 5)">
+    <!-- Body -->
+    <ellipse cx="120" cy="130" rx="32" ry="22" fill="#E2E8F0"/>
+    <!-- Tail -->
+    <path d="M92 125 L78 118 L88 132 Z" fill="#CBD5E1"/>
+    <!-- Wing overlay showing concealment -->
+    <path d="M105 118 C115 115 130 120 138 132 C125 140 110 135 105 118 Z" fill="#CBD5E1"/>
+    <!-- Neck and Head -->
+    <path d="M138 120 C145 105 142 90 148 78" stroke="#E2E8F0" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <!-- Head -->
+    <circle cx="152" cy="72" r="9" fill="#E2E8F0"/>
+    <!-- Beak -->
+    <path d="M158 70 L176 66 L158 74 Z" fill="#F59E0B"/>
+    <!-- Eye (focused, safe) -->
+    <circle cx="154" cy="70" r="1.5" fill="#1A1D24"/>
+  </g>
+
+  <!-- Foreground reed leaves cutting across the bird to emphasize "隐藏" (hidden within) -->
+  <path d="M60 230 C75 160 85 100 95 20" stroke="#52796F" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M160 230 C150 170 140 110 130 10" stroke="#52796F" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M110 230 C115 180 125 120 120 30" stroke="#3D5A4C" stroke-width="11" stroke-linecap="round" fill="none"/>
+  
+  <!-- Highlight accent leaf -->
+  <path d="M85 230 C95 150 105 90 110 40" stroke="#688F7D" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M175 230 C165 160 155 95 145 25" stroke="#688F7D" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
