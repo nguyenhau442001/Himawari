@@ -9,7 +9,7 @@ async function ensureHanziDecompLoaded() {
   if (hanziDecompData) return hanziDecompData;
   if (hanziDecompLoadPromise) return hanziDecompLoadPromise;
 
-  hanziDecompLoadPromise = fetch('database/radicals/hanzi_decompositions.json')
+  hanziDecompLoadPromise = fetch('database/radicals/hanzi_decompositions.json?v=20261014-clean-v3')
     .then(res => {
       if (!res.ok) throw new Error('Failed to load hanzi_decompositions.json');
       return res.json();
@@ -92,16 +92,36 @@ function renderStrokeDecomposition(char, container) {
   }
 
   const comps = decomp.components || [];
+  let formula = (decomp.formula || '').trim();
+
+  // Safeguard: never leave formula hanging with trailing '=' or empty
+  if (!formula || formula.endsWith('=')) {
+    if (comps.length > 0) {
+      formula = `${char} = ` + comps.map(c => `${c.char} (${(c.name || '').replace('Bộ ', '')})`).join(' + ');
+    } else {
+      const radName = decomp.name || (decomp.radical && decomp.radical.name) || (decomp.hanviet ? `Bộ ${decomp.hanviet}` : '');
+      formula = radName ? `${char} (${radName})` : `${char} (Bộ thủ độc lập)`;
+    }
+  }
+
+  // If no components exist but char itself is a radical or single body, provide a self chip
+  const displayChips = comps.length > 0 ? comps : [{
+    char: char,
+    name: decomp.name || (decomp.hanviet ? `Bộ ${decomp.hanviet}` : char),
+    meaning: decomp.meaning || '',
+    stroke_indices: []
+  }];
+
   let html = `
     <div class="stroke-decomp-clean">
       <div class="stroke-decomp-header-clean">
         <span class="stroke-decomp-icon">🧩</span>
         <span class="stroke-decomp-label">Bộ thủ cấu thành:</span>
-        <strong class="stroke-decomp-formula-clean">${decomp.formula || char}</strong>
+        <strong class="stroke-decomp-formula-clean">${formula}</strong>
       </div>
-      ${comps.length > 0 ? `
+      ${displayChips.length > 0 ? `
         <div class="stroke-decomp-chips">
-          ${comps.map(c => `
+          ${displayChips.map(c => `
             <button type="button" class="stroke-decomp-chip"
               onclick="highlightComponentStrokes([${(c.stroke_indices || []).join(',')}])"
               title="Nhấn để xem nét của bộ ${c.name} trên ô viết chữ">
@@ -232,7 +252,12 @@ function renderStudyRadicalsPanel(word) {
                       <span class="rc-name">${c.name}</span>
                       ${c.meaning ? `<span class="rc-mean">(${c.meaning})</span>` : ''}
                     </span>
-                  `).join('<span class="rc-plus">+</span>') : `<span>${d.character}</span>`}
+                  `).join('<span class="rc-plus">+</span>') : `
+                    <span class="radicals-comp-badge">
+                      <strong class="rc-char" lang="zh-CN">${d.character}</strong>
+                      <span class="rc-name">${d.name || (d.hanviet ? `Bộ ${d.hanviet}` : 'Bộ thủ độc lập')}</span>
+                    </span>
+                  `}
                 </div>
               </div>
             `;

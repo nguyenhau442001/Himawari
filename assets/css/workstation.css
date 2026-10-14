@@ -110,27 +110,34 @@ body.graded-story-active #primaryTabs {
   body.has-active-study-word .sidebar-study-tabs {
     display: flex;
     align-items: center;
-    gap: 3px;
-    padding: 3px;
+    gap: 6px;
+    padding: 4px;
     background: var(--surface-subtle);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     order: 0;
-    margin-bottom: 2px;
+    margin-bottom: 6px;
     flex: 0 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  body.has-active-study-word .sidebar-study-tabs::-webkit-scrollbar {
+    display: none;
   }
   .sidebar-study-tab {
-    flex: 1 1 0;
-    min-width: 0;
+    flex: 1 0 auto;
+    min-width: max-content;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 4px;
-    padding: 6px 4px;
-    border: none;
+    gap: 5px;
+    padding: 7px 11px;
+    border: 1px solid transparent;
     background: transparent;
     color: var(--text-secondary);
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 600;
     border-radius: var(--radius-md);
     cursor: pointer;
@@ -145,14 +152,15 @@ body.graded-story-active #primaryTabs {
   .sidebar-study-tab.active {
     background: var(--card-bg);
     color: var(--accent);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     font-weight: 700;
   }
   .sidebar-study-tab--all {
     flex: 0 0 auto;
-    padding: 6px 8px;
+    padding: 7px 10px;
   }
-  .sidebar-tab-icon { font-size: 12px; line-height: 1; }
+  .sidebar-tab-icon { font-size: 13px; line-height: 1; }
 
   /* Tab-based visibility of panels in desktop sidebar */
   /* 1. Stroke tab (default if no attribute set or data-sidebar-tab="stroke") */
@@ -2264,32 +2272,39 @@ body.flashcard-study-mode .sidebar-study-tabs {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 5px;
+  padding: 4px 6px;
   background: var(--surface-subtle);
   border: 1.5px solid var(--border);
-  border-radius: 14px;
+  border-radius: 13px;
   order: 0;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
   flex: 0 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .sidebar-study-tabs {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.1);
 }
+body.flashcard-study-mode .sidebar-study-tabs::-webkit-scrollbar {
+  display: none;
+}
 body.flashcard-study-mode .sidebar-study-tab {
-  flex: 1 1 0;
-  min-width: 0;
+  flex: 1 0 auto;
+  min-width: max-content;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  padding: 10px 8px;
+  gap: 6px;
+  padding: 8px 12px;
   border: 1.5px solid transparent;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 13.5px;
-  font-weight: 700;
-  border-radius: 10px;
+  font-size: 12.5px;
+  font-weight: 600;
+  border-radius: 9px;
   cursor: pointer;
   transition: all 0.15s ease;
   white-space: nowrap;
@@ -2297,17 +2312,19 @@ body.flashcard-study-mode .sidebar-study-tab {
 }
 body.flashcard-study-mode .sidebar-study-tab:hover {
   color: var(--text-primary);
-  background: rgba(249, 115, 22, 0.1);
+  background: rgba(249, 115, 22, 0.12);
 }
 body.flashcard-study-mode .sidebar-study-tab.active {
   background: var(--card-bg);
   color: #fb923c;
-  border-color: rgba(249, 115, 22, 0.42);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-  font-weight: 800;
+  border-color: rgba(249, 115, 22, 0.45);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  font-weight: 700;
 }
 :root[data-theme="light"] body.flashcard-study-mode .sidebar-study-tab.active {
   color: #ea580c;
+  background: #ffffff;
+  border-color: rgba(234, 88, 12, 0.4);
 }
 
 body.flashcard-study-mode .workstation-right > .stroke-canvas-panel,
