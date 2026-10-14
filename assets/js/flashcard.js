@@ -54,6 +54,7 @@ function buildCardArea() {
                 <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
               </button>
             </div>
+            <div class="card-radicals-row" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
             <div class="meaning" id="meaning"></div>
           </div>
         </div>
@@ -723,6 +724,8 @@ function render(animate) {
       if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
       const meaningEl = document.getElementById('meaning');
       if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
+      const emptyRads = document.getElementById('cardRadicalsRow');
+      if (emptyRads) { emptyRads.innerHTML = ''; emptyRads.style.display = 'none'; }
       const emptySvg = document.getElementById('cardIllustrationSvg');
       const emptyImg = document.getElementById('cardIllustrationImg');
       if (emptySvg) emptySvg.innerHTML = '';
@@ -753,6 +756,7 @@ function render(animate) {
     const w = WORDS[wIdx];
     if (!w) return; // deck was swapped out (level change) while this render was pending
     setActiveStudyWord(w);
+    if (typeof renderCardRadicals === 'function') renderCardRadicals(w);
     renderStudyWordList();
     updateSrsPreviews(w);
     document.getElementById('hanzi').textContent = w.hanzi;

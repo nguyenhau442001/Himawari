@@ -210,6 +210,46 @@
 .card-content.is-empty .hint { display: none !important; }
 .card-content.is-empty .meaning { margin-top: 0; }
 
+/* Card Radical Breakdown Row */
+.card-radicals-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 2px;
+}
+.card-radical-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.card-radical-pill:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+.card-radical-char {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+.card-radical-name {
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
 .example-box {
   display: none;
   margin-top: 16px;

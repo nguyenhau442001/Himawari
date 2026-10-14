@@ -34,6 +34,10 @@ function initSidebarTabs() {
       <span class="sidebar-tab-icon">✍️</span>
       <span class="sidebar-tab-label">Nét chữ</span>
     </button>
+    <button type="button" class="sidebar-study-tab" data-tab="radicals" role="tab" aria-selected="false" title="Bóc tách bộ thủ &amp; chiết tự chữ Hán (R)">
+      <span class="sidebar-tab-icon">🧩</span>
+      <span class="sidebar-tab-label">Bộ thủ</span>
+    </button>
     <button type="button" class="sidebar-study-tab" data-tab="words" role="tab" aria-selected="false" title="Danh sách từ trong bài học (B)">
       <span class="sidebar-tab-icon">📖</span>
       <span class="sidebar-tab-label">Từ vựng</span>
@@ -56,7 +60,7 @@ function initSidebarTabs() {
   }
 
   function setActiveTab(tabKey, save = true) {
-    const validTabs = ['stroke', 'words', 'companion', 'curve'];
+    const validTabs = ['stroke', 'radicals', 'words', 'companion', 'curve'];
     const active = validTabs.includes(tabKey) ? tabKey : 'stroke';
     document.body.dataset.sidebarTab = active;
 
@@ -67,6 +71,9 @@ function initSidebarTabs() {
       btn.setAttribute('aria-selected', isMatch ? 'true' : 'false');
     });
 
+    if (active === 'radicals' && typeof renderStudyRadicalsPanel === 'function') {
+      renderStudyRadicalsPanel(typeof activeStudyWord !== 'undefined' ? activeStudyWord : null);
+    }
     if (active === 'words' && typeof renderStudyWordList === 'function') {
       renderStudyWordList();
     }
@@ -109,7 +116,7 @@ function initSidebarTabs() {
 
   const initialUrlDrawer = window.__initialStudyDrawerParam;
   if (initialUrlDrawer) {
-    const targetTab = ['stroke', 'words', 'companion', 'curve'].includes(initialUrlDrawer) ? initialUrlDrawer : savedTab;
+    const targetTab = ['stroke', 'radicals', 'words', 'companion', 'curve'].includes(initialUrlDrawer) ? initialUrlDrawer : savedTab;
     setActiveTab(targetTab, false);
     document.body.classList.add('study-sidebar-open');
     let openedOnce = false;

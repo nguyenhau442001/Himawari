@@ -495,6 +495,10 @@ function createWriterForActiveChar() {
     renderFocusedStrokeOverlay();
     renderStrokeStepperCard();
   }
+
+  if (typeof renderStrokeDecomposition === 'function') {
+    renderStrokeDecomposition(ch);
+  }
 }
 
 function selectCharacterAtIndex(charIdx, autoAnimate = false) {
@@ -875,6 +879,7 @@ function initStrokeCanvas() {
       <button type="button" class="stroke-ctrl-btn" id="strokeQuizBtn" title="Tự vẽ nét chữ theo mũi tên">✍️ Tự luyện viết</button>
     </div>
     <div class="stroke-quiz-status-wrap" id="strokeQuizStatusWrap" hidden></div>
+    <div class="stroke-decomp-container" id="strokeDecompContainer"></div>
   `;
   wrap.appendChild(body);
   mount.appendChild(wrap);

@@ -22,6 +22,7 @@ const PRECACHE_ASSET_URLS = [
   './assets/js/hanviet-dict.js?v=' + ASSET_VERSION,
   './assets/js/word-illustrations.js?v=' + ASSET_VERSION,
   './assets/js/word-companion.js?v=' + ASSET_VERSION,
+  './assets/js/hanzi-decomposition.js?v=' + ASSET_VERSION,
   './assets/js/sidebar-tabs.js?v=' + ASSET_VERSION,
   './assets/js/hsk30.js?v=' + ASSET_VERSION,
   './assets/js/levels.js?v=' + ASSET_VERSION,

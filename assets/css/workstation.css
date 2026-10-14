@@ -86,17 +86,20 @@ body.graded-story-active #primaryTabs {
   }
   /* Right column: study tabs and modular panels */
   .workstation-right > .stroke-canvas-panel,
+  .workstation-right > .study-radicals-panel,
   .workstation-right > .grammar-breakdown-panel,
   .workstation-right > .memory-curve-panel,
   .workstation-right > .word-companion-panel { display: none; }
   body.has-active-study-word .workstation-right > .stroke-canvas-panel,
+  body.has-active-study-word .workstation-right > .study-radicals-panel,
   body.has-active-study-word .workstation-right > .grammar-breakdown-panel,
   body.has-active-study-word .workstation-right > .word-companion-panel { display: flex; }
   body.has-active-study-word .workstation-right > .memory-curve-panel { display: block; }
   .workstation-right > .stroke-canvas-panel { order: 1; }
-  .workstation-right > .grammar-breakdown-panel { order: 2; }
-  .workstation-right > .word-companion-panel { order: 3; }
-  .workstation-right > .memory-curve-panel { order: 4; }
+  .workstation-right > .study-radicals-panel { order: 2; }
+  .workstation-right > .grammar-breakdown-panel { order: 3; }
+  .workstation-right > .word-companion-panel { order: 4; }
+  .workstation-right > .memory-curve-panel { order: 5; }
   body.has-active-study-word .home-widgets { display: none; }
   body.home-screen .word-companion-panel { display: none !important; }
 
@@ -151,23 +154,38 @@ body.graded-story-active #primaryTabs {
 
   /* Tab-based visibility of panels in desktop sidebar */
   /* 1. Stroke tab (default if no attribute set or data-sidebar-tab="stroke") */
+  body.has-active-study-word:not([data-sidebar-tab="radicals"]):not([data-sidebar-tab="companion"]):not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .workstation-right > .study-radicals-panel,
   body.has-active-study-word:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .workstation-right > .grammar-breakdown-panel,
   body.has-active-study-word:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .workstation-right > .word-companion-panel,
   body.has-active-study-word:not([data-sidebar-tab="companion"]):not([data-sidebar-tab="curve"]):not([data-sidebar-tab="all"]) .workstation-right > .memory-curve-panel,
+  body.has-active-study-word[data-sidebar-tab="stroke"] .workstation-right > .study-radicals-panel,
   body.has-active-study-word[data-sidebar-tab="stroke"] .workstation-right > .grammar-breakdown-panel,
   body.has-active-study-word[data-sidebar-tab="stroke"] .workstation-right > .word-companion-panel,
   body.has-active-study-word[data-sidebar-tab="stroke"] .workstation-right > .memory-curve-panel {
     display: none !important;
   }
 
-  /* 2. Companion tab (shows grammar breakdown + word companion) */
+  /* 2. Radicals tab (shows full decomposition study panel) */
+  body.has-active-study-word[data-sidebar-tab="radicals"] .workstation-right > .stroke-canvas-panel,
+  body.has-active-study-word[data-sidebar-tab="radicals"] .workstation-right > .grammar-breakdown-panel,
+  body.has-active-study-word[data-sidebar-tab="radicals"] .workstation-right > .word-companion-panel,
+  body.has-active-study-word[data-sidebar-tab="radicals"] .workstation-right > .memory-curve-panel {
+    display: none !important;
+  }
+  body.has-active-study-word[data-sidebar-tab="radicals"] .workstation-right > .study-radicals-panel {
+    display: flex !important;
+  }
+
+  /* 3. Companion tab (shows grammar breakdown + word companion) */
   body.has-active-study-word[data-sidebar-tab="companion"] .workstation-right > .stroke-canvas-panel,
+  body.has-active-study-word[data-sidebar-tab="companion"] .workstation-right > .study-radicals-panel,
   body.has-active-study-word[data-sidebar-tab="companion"] .workstation-right > .memory-curve-panel {
     display: none !important;
   }
 
-  /* 3. Memory curve tab */
+  /* 4. Memory curve tab */
   body.has-active-study-word[data-sidebar-tab="curve"] .workstation-right > .stroke-canvas-panel,
+  body.has-active-study-word[data-sidebar-tab="curve"] .workstation-right > .study-radicals-panel,
   body.has-active-study-word[data-sidebar-tab="curve"] .workstation-right > .grammar-breakdown-panel,
   body.has-active-study-word[data-sidebar-tab="curve"] .workstation-right > .word-companion-panel {
     display: none !important;
@@ -2291,6 +2309,7 @@ body.flashcard-study-mode .sidebar-study-tab.active {
 }
 
 body.flashcard-study-mode .workstation-right > .stroke-canvas-panel,
+body.flashcard-study-mode .workstation-right > .study-radicals-panel,
 body.flashcard-study-mode .workstation-right > .grammar-breakdown-panel,
 body.flashcard-study-mode .workstation-right > .word-companion-panel,
 body.flashcard-study-mode .workstation-right > .memory-curve-panel {
@@ -2303,6 +2322,7 @@ body.flashcard-study-mode .workstation-right > .memory-curve-panel {
   box-sizing: border-box;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .stroke-canvas-panel,
+:root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .study-radicals-panel,
 :root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .grammar-breakdown-panel,
 :root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .word-companion-panel,
 :root[data-theme="dark"] body.flashcard-study-mode .workstation-right > .memory-curve-panel {
@@ -2316,6 +2336,14 @@ body.flashcard-study-mode[data-sidebar-tab="words"] #studyWordListPanel {
   display: flex !important;
 }
 body.flashcard-study-mode:not([data-sidebar-tab="words"]) #studyWordListPanel {
+  display: none !important;
+}
+
+body.flashcard-study-mode[data-sidebar-tab="radicals"] .study-radicals-panel {
+  display: flex !important;
+  flex-direction: column;
+}
+body.flashcard-study-mode:not([data-sidebar-tab="radicals"]) .study-radicals-panel {
   display: none !important;
 }
 

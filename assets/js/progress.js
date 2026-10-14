@@ -518,6 +518,11 @@ document.addEventListener('keydown', event => {
     if (typeof toggleStudyWritingPanel === 'function') toggleStudyWritingPanel();
     return;
   }
+  if (event.key === 'r' || event.key === 'R') {
+    event.preventDefault();
+    if (typeof toggleStudyRadicalsPanel === 'function') toggleStudyRadicalsPanel();
+    return;
+  }
   if (event.key === 'b' || event.key === 'B') {
     event.preventDefault();
     if (typeof toggleStudySidebar === 'function') toggleStudySidebar();
