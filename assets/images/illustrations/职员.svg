@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="160" width="160" height="15" rx="2" fill="#343A46"/>
+  <rect x="50" y="175" width="10" height="40" fill="#282E3A"/>
+  <rect x="180" y="175" width="10" height="40" fill="#282E3A"/>
+  
+  <!-- Laptop -->
+  <rect x="80" y="130" width="80" height="50" rx="4" fill="#4A5568"/>
+  <rect x="85" y="135" width="70" height="40" rx="2" fill="#1A1D24"/>
+  <rect x="110" y="180" width="20" height="5" fill="#4A5568"/>
+  
+  <!-- Character (Professional Office Staff) -->
+  <!-- Shirt -->
+  <path d="M120 80 C 100 80, 90 90, 90 110 L 90 150 L 150 150 L 150 110 C 150 90, 140 80, 120 80 Z" fill="#E2E8F0"/>
+  <!-- Tie -->
+  <polygon points="115,80 125,80 120,120" fill="#F6AD55"/>
+  <!-- Head -->
+  <circle cx="120" cy="70" r="25" fill="#CBD5E0"/>
+  <!-- Hair -->
+  <path d="M100 65 C 100 45, 140 45, 140 65 C 140 55, 130 50, 120 50 C 110 50, 100 55, 100 65" fill="#4A5568"/>
+  <!-- Eyes -->
+  <circle cx="110" cy="70" r="3" fill="#1A1D24"/>
+  <circle cx="130" cy="70" r="3" fill="#1A1D24"/>
+  <!-- Mouth -->
+  <path d="M112 80 Q 120 85 128 80" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  
+  <!-- ID Badge -->
+  <rect x="145" y="110" width="20" height="25" rx="2" fill="#F6AD55"/>
+  <rect x="148" y="113" width="14" height="10" fill="#1A1D24"/>
+</svg>

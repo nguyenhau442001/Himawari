@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Hospital Building Structure -->
+  <path d="M70 180h100v-70l-50-30-50 30v70z" fill="#2C3440" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="85" y="130" width="20" height="40" fill="#3D4A5C"/>
+  <rect x="135" y="130" width="20" height="40" fill="#3D4A5C"/>
+  
+  <!-- Medical Cross Symbol (Standardized/Official) -->
+  <rect x="105" y="95" width="30" height="30" rx="4" fill="#FFB84D"/>
+  <rect x="117" y="100" width="6" height="20" fill="#1A1D24"/>
+  <rect x="110" y="107" width="20" height="6" fill="#1A1D24"/>
+  
+  <!-- Professional ID Badge/Certificate Element -->
+  <rect x="60" y="185" width="120" height="25" rx="4" fill="#2C3440" stroke="#FFB84D" stroke-width="1"/>
+  <rect x="70" y="192" width="10" height="10" fill="#FFB84D" rx="2"/>
+  <rect x="85" y="194" width="85" height="6" rx="2" fill="#4B5563"/>
+  
+  <!-- Ground Line -->
+  <path d="M40 210h160" stroke="#4B5563" stroke-width="2" stroke-linecap="round"/>
+</svg>

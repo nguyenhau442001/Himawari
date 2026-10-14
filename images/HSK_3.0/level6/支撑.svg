@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Vector Illustration for 支撑 (Noun/Physical Structure: Supporting pillar/roof) -->
+  <g transform="translate(0, 0)">
+    <!-- Palace Roof / Architecture Structure -->
+    <path d="M 40 85 L 120 50 L 200 85 L 210 95 L 30 95 Z" fill="#3A4454" />
+    <path d="M 45 75 L 120 42 L 195 75 L 185 85 L 55 85 Z" fill="#4E5D73" />
+    <path d="M 25 95 L 215 95 L 225 105 L 15 105 Z" fill="#F1C40F" opacity="0.8" />
+
+    <!-- Stone Pillars (The Core Physical Object representing 支撑) -->
+    <!-- Left Pillar -->
+    <rect x="65" y="105" width="16" height="85" rx="2" fill="#8C9BAE" />
+    <rect x="62" y="100" width="22" height="7" rx="1" fill="#A0B1C6" />
+    <rect x="62" y="185" width="22" height="8" rx="1" fill="#A0B1C6" />
+
+    <!-- Center Pillar (Main focus of support) -->
+    <rect x="112" y="105" width="16" height="85" rx="2" fill="#F1C40F" />
+    <rect x="109" y="100" width="22" height="7" rx="1" fill="#F7DC6F" />
+    <rect x="109" y="185" width="22" height="8" rx="1" fill="#F7DC6F" />
+
+    <!-- Right Pillar -->
+    <rect x="159" y="105" width="16" height="85" rx="2" fill="#8C9BAE" />
+    <rect x="156" y="100" width="22" height="7" rx="1" fill="#A0B1C6" />
+    <rect x="156" y="185" width="22" height="8" rx="1" fill="#A0B1C6" />
+
+    <!-- Foundation Base -->
+    <rect x="40" y="193" width="160" height="12" rx="3" fill="#2C3542" />
+    <rect x="30" y="205" width="180" height="6" rx="2" fill="#222831" />
+
+    <!-- Upward Structural Stress/Support Accent Indicators (Subtle vectors showing upward holding force) -->
+    <path d="M 120 140 L 120 120 M 115 125 L 120 118 L 125 125" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" />
+  </g>
+</svg>

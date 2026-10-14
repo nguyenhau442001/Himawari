@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "正面" (Front/Direct view) as a clear, iconic portrait of a person facing forward with a confident, positive expression -->
+  
+  <!-- Shoulders -->
+  <path d="M60 210 C60 170, 180 170, 180 210" fill="#3B4252"/>
+  
+  <!-- Neck -->
+  <rect x="110" y="140" width="20" height="30" fill="#E5E9F0"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="110" r="40" fill="#E5E9F0"/>
+  
+  <!-- Hair -->
+  <path d="M80 110 C80 70, 160 70, 160 110 L160 100 C160 60, 80 60, 80 100 Z" fill="#4C566A"/>
+  
+  <!-- Eyes (Direct, forward-looking) -->
+  <circle cx="105" cy="105" r="4" fill="#1A1D24"/>
+  <circle cx="135" cy="105" r="4" fill="#1A1D24"/>
+  
+  <!-- Mouth (Positive, confident smile) -->
+  <path d="M105 125 Q120 135 135 125" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Accent highlight (Gold/Orange for focus) -->
+  <circle cx="120" cy="110" r="45" stroke="#D08770" stroke-width="4" fill="none" stroke-dasharray="10 5"/>
+</svg>

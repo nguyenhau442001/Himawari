@@ -34087,6 +34087,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/招手.svg",
     "caption": "vẫy tay"
   },
+  "招收": {
+    "file": "招收.svg",
+    "src": "images/HSK_3.0/level6/招收.svg",
+    "caption": "tuyển sinh, tuyển dụng"
+  },
+  "照明": {
+    "file": "照明.svg",
+    "src": "images/HSK_3.0/level6/照明.svg",
+    "caption": "chiếu sáng, đèn thắp sáng"
+  },
+  "折": {
+    "file": "折.svg",
+    "src": "images/HSK_3.0/level6/折.svg",
+    "caption": "gấp, gập, bẻ gãy"
+  },
+  "针": {
+    "file": "针.svg",
+    "src": "images/HSK_3.0/level6/针.svg",
+    "caption": "cây kim, mũi tiêm"
+  },
   "真相": {
     "file": "真相.svg",
     "src": "images/HSK_3.0/level6/真相.svg",
@@ -34096,6 +34116,236 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "珍珠.svg",
     "src": "images/HSK_3.0/level6/珍珠.svg",
     "caption": "ngọc trai"
+  },
+  "枕头": {
+    "file": "枕头.svg",
+    "src": "images/HSK_3.0/level6/枕头.svg",
+    "caption": "cái gối"
+  },
+  "镇": {
+    "file": "镇.svg",
+    "src": "images/HSK_3.0/level6/镇.svg",
+    "caption": "thị trấn"
+  },
+  "阵雨": {
+    "file": "阵雨.svg",
+    "src": "images/HSK_3.0/level6/阵雨.svg",
+    "caption": "mưa rào"
+  },
+  "争吵": {
+    "file": "争吵.svg",
+    "src": "images/HSK_3.0/level6/争吵.svg",
+    "caption": "cãi vã, cãi nhau"
+  },
+  "争夺": {
+    "file": "争夺.svg",
+    "src": "images/HSK_3.0/level6/争夺.svg",
+    "caption": "tranh đoạt, tranh giành"
+  },
+  "争议": {
+    "file": "争议.svg",
+    "src": "images/HSK_3.0/level6/争议.svg",
+    "caption": "tranh cãi, tranh chấp"
+  },
+  "政策": {
+    "file": "政策.svg",
+    "src": "images/HSK_3.0/level6/政策.svg",
+    "caption": "chính sách"
+  },
+  "正规": {
+    "file": "正规.svg",
+    "src": "images/HSK_3.0/level6/正规.svg",
+    "caption": "chính quy, bài bản"
+  },
+  "正面": {
+    "file": "正面.svg",
+    "src": "images/HSK_3.0/level6/正面.svg",
+    "caption": "mặt chính diện, trực tiếp, tích cực"
+  },
+  "证实": {
+    "file": "证实.svg",
+    "src": "images/HSK_3.0/level6/证实.svg",
+    "caption": "chứng thực, chứng minh"
+  },
+  "正义": {
+    "file": "正义.svg",
+    "src": "images/HSK_3.0/level6/正义.svg",
+    "caption": "chính nghĩa, công lý"
+  },
+  "症状": {
+    "file": "症状.svg",
+    "src": "images/HSK_3.0/level6/症状.svg",
+    "caption": "triệu chứng (bệnh tật)"
+  },
+  "支²": {
+    "file": "支².svg",
+    "src": "images/HSK_3.0/level6/支².svg",
+    "caption": "nhánh, cây (lượng từ)"
+  },
+  "枝": {
+    "file": "枝.svg",
+    "src": "images/HSK_3.0/level6/枝.svg",
+    "caption": "cành cây, nhánh"
+  },
+  "支撑": {
+    "file": "支撑.svg",
+    "src": "images/HSK_3.0/level6/支撑.svg",
+    "caption": "chống đỡ, trụ vững"
+  },
+  "支出": {
+    "file": "支出.svg",
+    "src": "images/HSK_3.0/level6/支出.svg",
+    "caption": "chi xuất, chi tiêu, khoản chi"
+  },
+  "脂肪": {
+    "file": "脂肪.svg",
+    "src": "images/HSK_3.0/level6/脂肪.svg",
+    "caption": "chất béo, mỡ"
+  },
+  "之所以": {
+    "file": "之所以.svg",
+    "src": "images/HSK_3.0/level6/之所以.svg",
+    "caption": "sở dĩ, lý do mà... là vì"
+  },
+  "值班": {
+    "file": "值班.svg",
+    "src": "images/HSK_3.0/level6/值班.svg",
+    "caption": "trực ca, trực ban"
+  },
+  "职位": {
+    "file": "职位.svg",
+    "src": "images/HSK_3.0/level6/职位.svg",
+    "caption": "vị trí công việc, chức vụ"
+  },
+  "职务": {
+    "file": "职务.svg",
+    "src": "images/HSK_3.0/level6/职务.svg",
+    "caption": "chức vụ, phận sự công tác"
+  },
+  "职员": {
+    "file": "职员.svg",
+    "src": "images/HSK_3.0/level6/职员.svg",
+    "caption": "nhân viên (văn phòng/công ty)"
+  },
+  "职责": {
+    "file": "职责.svg",
+    "src": "images/HSK_3.0/level6/职责.svg",
+    "caption": "chức trách, trách nhiệm"
+  },
+  "侄子": {
+    "file": "侄子.svg",
+    "src": "images/HSK_3.0/level6/侄子.svg",
+    "caption": "cháu trai (con của anh/em trai)"
+  },
+  "只得": {
+    "file": "只得.svg",
+    "src": "images/HSK_3.0/level6/只得.svg",
+    "caption": "đành phải, chỉ đành"
+  },
+  "指定": {
+    "file": "指定.svg",
+    "src": "images/HSK_3.0/level6/指定.svg",
+    "caption": "chỉ định, chỉ rõ"
+  },
+  "只顾": {
+    "file": "只顾.svg",
+    "src": "images/HSK_3.0/level6/只顾.svg",
+    "caption": "chỉ mải mê, chỉ lo, chăm chú"
+  },
+  "指示": {
+    "file": "指示.svg",
+    "src": "images/HSK_3.0/level6/指示.svg",
+    "caption": "chỉ thị, hướng dẫn"
+  },
+  "指责": {
+    "file": "指责.svg",
+    "src": "images/HSK_3.0/level6/指责.svg",
+    "caption": "chỉ trích, khiển trách"
+  },
+  "制": {
+    "file": "制.svg",
+    "src": "images/HSK_3.0/level6/制.svg",
+    "caption": "chế tạo, làm ra; chế độ"
+  },
+  "至关重要": {
+    "file": "至关重要.svg",
+    "src": "images/HSK_3.0/level6/至关重要.svg",
+    "caption": "cực kỳ quan trọng, tối quan trọng"
+  },
+  "智力": {
+    "file": "智力.svg",
+    "src": "images/HSK_3.0/level6/智力.svg",
+    "caption": "trí lực, trí thông minh"
+  },
+  "治理": {
+    "file": "治理.svg",
+    "src": "images/HSK_3.0/level6/治理.svg",
+    "caption": "cải tạo, xử lý, trị lý (môi trường/sông suối)"
+  },
+  "制品": {
+    "file": "制品.svg",
+    "src": "images/HSK_3.0/level6/制品.svg",
+    "caption": "chế phẩm, sản phẩm chế tạo"
+  },
+  "质疑": {
+    "file": "质疑.svg",
+    "src": "images/HSK_3.0/level6/质疑.svg",
+    "caption": "chất vấn, hoài nghi"
+  },
+  "中等": {
+    "file": "中等.svg",
+    "src": "images/HSK_3.0/level6/中等.svg",
+    "caption": "bậc trung, trung bình"
+  },
+  "终点": {
+    "file": "终点.svg",
+    "src": "images/HSK_3.0/level6/终点.svg",
+    "caption": "điểm đích, vạch đích"
+  },
+  "中断": {
+    "file": "中断.svg",
+    "src": "images/HSK_3.0/level6/中断.svg",
+    "caption": "gián đoạn, bị ngắt quãng"
+  },
+  "终身": {
+    "file": "终身.svg",
+    "src": "images/HSK_3.0/level6/终身.svg",
+    "caption": "suốt đời, trọn đời"
+  },
+  "钟头": {
+    "file": "钟头.svg",
+    "src": "images/HSK_3.0/level6/钟头.svg",
+    "caption": "tiếng đồng hồ, giờ"
+  },
+  "众所周知": {
+    "file": "众所周知.svg",
+    "src": "images/HSK_3.0/level6/众所周知.svg",
+    "caption": "như mọi người đều biết, ai ai cũng rõ"
+  },
+  "重心": {
+    "file": "重心.svg",
+    "src": "images/HSK_3.0/level6/重心.svg",
+    "caption": "trọng tâm, điểm mấu chốt"
+  },
+  "州": {
+    "file": "州.svg",
+    "src": "images/HSK_3.0/level6/州.svg",
+    "caption": "tiểu bang, châu"
+  },
+  "粥": {
+    "file": "粥.svg",
+    "src": "images/HSK_3.0/level6/粥.svg",
+    "caption": "cháo"
+  },
+  "周边": {
+    "file": "周边.svg",
+    "src": "images/HSK_3.0/level6/周边.svg",
+    "caption": "vùng lân cận, xung quanh"
+  },
+  "周期": {
+    "file": "周期.svg",
+    "src": "images/HSK_3.0/level6/周期.svg",
+    "caption": "chu kỳ"
   }
 };
 

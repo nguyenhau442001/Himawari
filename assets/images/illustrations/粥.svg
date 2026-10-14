@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 130)">
+    <!-- Bowl -->
+    <path d="M-70 0 C-70 40 -40 70 0 70 C40 70 70 40 70 0 Z" fill="#3D4451" stroke="#F5A623" stroke-width="4"/>
+    <path d="M-70 0 L70 0" stroke="#F5A623" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Porridge content -->
+    <path d="M-65 0 C-65 35 -35 60 0 60 C35 60 65 35 65 0 Z" fill="#E0E0E0" opacity="0.9"/>
+    
+    <!-- Steam/Heat lines -->
+    <path d="M-20 -10 Q-30 -30 -20 -50" stroke="#F5A623" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M0 -20 Q-10 -40 0 -60" stroke="#F5A623" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M20 -10 Q30 -30 20 -50" stroke="#F5A623" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- Spoon -->
+    <path d="M75 -20 L95 -40 L105 -30 L85 -10 Z" fill="#F5A623"/>
+    <path d="M85 -30 L115 0" stroke="#F5A623" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

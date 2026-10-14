@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Desk Surface -->
+    <path d="M0 100 L120 100 L110 120 L-10 120 Z" fill="#2D343E"/>
+    <!-- Suit Jacket/Torso representing the professional role -->
+    <path d="M30 40 L90 40 L100 100 L20 100 Z" fill="#F39C12"/>
+    <path d="M45 40 L45 20 L75 20 L75 40 Z" fill="#F39C12"/>
+    <!-- Tie -->
+    <path d="M55 40 L65 40 L60 80 Z" fill="#1A1D24"/>
+    <!-- Document/Contract representing the responsibility/duty -->
+    <rect x="70" y="70" width="40" height="50" rx="2" fill="#E0E0E0"/>
+    <line x1="75" y1="80" x2="105" y2="80" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="75" y1="90" x2="105" y2="90" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="75" y1="100" x2="95" y2="100" stroke="#1A1D24" stroke-width="2"/>
+    <!-- Badge/Pin representing the position -->
+    <circle cx="40" cy="55" r="8" fill="#FFD700"/>
+    <path d="M37 55 L40 58 L44 52" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  </g>
+</svg>

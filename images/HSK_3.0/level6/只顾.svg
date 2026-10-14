@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Causality/Progression (Tunnel Vision) -->
+  <!-- The focus is a narrow, bright path (the phone screen) vs the ignored reality -->
+  
+  <!-- The "Focus" path (The phone screen perspective) -->
+  <path d="M80 120 L160 120 L175 240 L65 240 Z" fill="#2C313C"/>
+  <rect x="95" y="140" width="50" height="80" rx="4" fill="#FFB84D"/>
+  <rect x="105" y="150" width="30" height="60" rx="2" fill="#1A1D24"/>
+  
+  <!-- The "Ignored" reality (The obstacle) -->
+  <!-- A sharp, looming vertical pole representing the consequence of "only caring about one thing" -->
+  <rect x="180" y="40" width="20" height="200" rx="4" fill="#FF5F5F"/>
+  
+  <!-- The "Progression" of the character's path -->
+  <!-- A series of footprints leading directly into the obstacle -->
+  <ellipse cx="120" cy="180" rx="8" ry="4" fill="#3D4451"/>
+  <ellipse cx="120" cy="150" rx="8" ry="4" fill="#3D4451"/>
+  <ellipse cx="120" cy="120" rx="8" ry="4" fill="#3D4451"/>
+  
+  <!-- The "Causality" - The collision point -->
+  <circle cx="190" cy="120" r="15" fill="none" stroke="#FF5F5F" stroke-width="4" stroke-dasharray="6 4"/>
+  
+  <!-- Character silhouette (minimalist, focused on the downward tilt) -->
+  <path d="M100 80 C100 60 120 50 120 50 C120 50 140 60 140 80 L130 110 L110 110 Z" fill="#A0AEC0"/>
+  <circle cx="120" cy="60" r="15" fill="#A0AEC0"/>
+</svg>

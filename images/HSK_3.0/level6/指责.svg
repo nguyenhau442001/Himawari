@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Escalation/Causality (Domino effect of blame) -->
+  <!-- Base line -->
+  <path d="M40 180 L200 180" stroke="#3A404D" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Dominoes representing the progression of 指责 (Blame) -->
+  <!-- Domino 1: The initial error -->
+  <rect x="60" y="150" width="20" height="30" rx="2" fill="#4A5568"/>
+  
+  <!-- Domino 2: The reaction -->
+  <rect x="95" y="140" width="20" height="40" rx="2" fill="#718096"/>
+  
+  <!-- Domino 3: The escalation (The "指责" peak) -->
+  <rect x="130" y="110" width="20" height="70" rx="2" fill="#E53E3E"/>
+  
+  <!-- The "Finger" metaphor for 指责 (Pointing) -->
+  <path d="M165 140 L190 110" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="190" cy="110" r="8" fill="#F6AD55"/>
+  
+  <!-- The "Contrast" / "Causality" indicator: The sharp peak of the blame cycle -->
+  <path d="M140 110 L140 90 L160 100 Z" fill="#E53E3E" opacity="0.8"/>
+  
+  <!-- Decorative accent for sleekness -->
+  <circle cx="200" cy="40" r="3" fill="#F6AD55" opacity="0.5"/>
+  <circle cx="210" cy="50" r="2" fill="#F6AD55" opacity="0.3"/>
+</svg>

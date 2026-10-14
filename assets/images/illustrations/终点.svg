@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Track Surface -->
+  <path d="M40 180 L200 180" stroke="#4A5568" stroke-width="4" stroke-dasharray="12 8"/>
+  
+  <!-- Finish Line Ribbon -->
+  <path d="M160 80 L160 180" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150 80 L170 80" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Runner Figure (Dynamic motion) -->
+  <g fill="#F6AD55">
+    <!-- Head -->
+    <circle cx="140" cy="100" r="10"/>
+    <!-- Body -->
+    <path d="M135 110 L145 110 L140 140 Z" />
+    <!-- Arms -->
+    <path d="M130 120 L120 135" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+    <path d="M150 120 L165 110" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M135 140 L125 170" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+    <path d="M145 140 L155 170" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Checkered Flag Detail -->
+  <rect x="160" y="60" width="20" height="20" fill="#F6AD55"/>
+  <rect x="160" y="60" width="10" height="10" fill="#1A1D24"/>
+  <rect x="170" y="70" width="10" height="10" fill="#1A1D24"/>
+</svg>

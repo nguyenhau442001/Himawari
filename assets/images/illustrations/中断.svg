@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Electrical Cable/Wire -->
+  <path d="M40 120 L100 120" stroke="#FFB800" stroke-width="8" stroke-linecap="round"/>
+  <path d="M140 120 L200 120" stroke="#FFB800" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Spark/Break point -->
+  <path d="M105 105 L115 135 M115 105 L105 135" stroke="#FF5252" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Plug/Socket ends -->
+  <rect x="90" y="105" width="10" height="30" rx="2" fill="#FFB800"/>
+  <rect x="140" y="105" width="10" height="30" rx="2" fill="#FFB800"/>
+  
+  <!-- Rain/Storm effect -->
+  <path d="M60 40 L55 60" stroke="#78909C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M80 30 L75 50" stroke="#78909C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 45 L95 65" stroke="#78909C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M140 35 L135 55" stroke="#78909C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M160 45 L155 65" stroke="#78909C" stroke-width="2" stroke-linecap="round"/>
+  <path d="M180 30 L175 50" stroke="#78909C" stroke-width="2" stroke-linecap="round"/>
+</svg>
