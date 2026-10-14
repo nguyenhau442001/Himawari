@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character Head -->
+  <circle cx="120" cy="90" r="30" fill="#E0E0E0"/>
+  
+  <!-- Hand holding phone -->
+  <path d="M140 110 L160 90 L175 105 L155 125 Z" fill="#B0B0B0"/>
+  <rect x="165" y="85" width="25" height="45" rx="4" fill="#FFB347" transform="rotate(15 177 107)"/>
+  
+  <!-- Motion lines for sound/action -->
+  <path d="M195 90 C 205 85, 210 85, 215 95" stroke="#FFB347" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M198 100 C 208 95, 213 95, 218 105" stroke="#FFB347" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M201 110 C 211 105, 216 105, 221 115" stroke="#FFB347" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Torso -->
+  <path d="M80 140 C 80 120, 160 120, 160 140 L 150 220 L 90 220 Z" fill="#3D4451"/>
+  
+  <!-- Ear detail -->
+  <circle cx="148" cy="90" r="5" fill="#C0C0C0"/>
+</svg>

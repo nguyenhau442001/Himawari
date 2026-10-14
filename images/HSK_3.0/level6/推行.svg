@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground Plane -->
+  <path d="M40 180 L200 180" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Trash Bin (The Object) -->
+  <g transform="translate(100, 120)">
+    <rect x="-20" y="0" width="40" height="50" rx="4" fill="#F59E0B"/>
+    <rect x="-22" y="-5" width="44" height="6" rx="2" fill="#F59E0B"/>
+    <rect x="-10" y="-12" width="20" height="7" rx="2" fill="#D97706"/>
+    
+    <!-- Recycling Symbol (Simplified) -->
+    <path d="M-8 15 L8 15 M0 10 L0 35 M-5 30 L0 35 L5 30" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  
+  <!-- Human Figure (The Agent of Implementation) -->
+  <g transform="translate(60, 120)">
+    <circle cx="0" cy="-40" r="10" fill="#E5E7EB"/>
+    <path d="M-15 -20 L15 -20 L10 40 L-10 40 Z" fill="#3B82F6"/>
+    <path d="M-10 40 L-12 60 M10 40 L12 60" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+    <!-- Arm gesturing towards the bin -->
+    <path d="M10 -25 L35 -10" stroke="#E5E7EB" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Cityscape Silhouette (Context) -->
+  <path d="M150 180 L150 140 L165 130 L180 140 L180 180" fill="#374151"/>
+  <path d="M185 180 L185 150 L200 145 L215 150 L215 180" fill="#374151"/>
+  
+  <!-- Motion/Action Lines -->
+  <path d="M40 80 L60 60 M50 90 L70 70" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+</svg>

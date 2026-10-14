@@ -1,0 +1,55 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (Subtle train tracks / journey path representing "cất công đi xa / go out of one's way") -->
+  <path d="M45 150 C90 150, 150 150, 195 150" stroke="#2A313C" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+  <path d="M45 160 C90 160, 150 160, 195 160" stroke="#2A313C" stroke-width="2" fill="none"/>
+
+  <!-- High-speed train (representing "t特地坐高铁赶来" - going out of one's way with deliberate effort) -->
+  <g transform="translate(60, 95)">
+    <!-- Train body streamlined -->
+    <path d="M10 35 C10 35, 30 15, 65 15 L105 15 C130 15, 140 25, 140 35 L140 45 L10 45 Z" fill="#2E384D"/>
+    <path d="M30 18 L65 18 C90 18, 120 20, 135 28 L15 28 C20 22, 25 18, 30 18 Z" fill="#4B5E80"/>
+    
+    <!-- Train nose cone / front accent -->
+    <path d="M10 35 C10 35, 18 25, 32 20 L32 45 L10 45 Z" fill="#3B4860"/>
+    
+    <!-- Windshield windows -->
+    <path d="M32 22 C40 22, 50 23, 58 24 L58 35 L32 35 Z" fill="#647CBA"/>
+    
+    <!-- Passenger Windows -->
+    <rect x="68" y="22" width="14" height="13" rx="2" fill="#E2E8F0"/>
+    <rect x="88" y="22" width="14" height="13" rx="2" fill="#E2E8F0"/>
+    <rect x="108" y="22" width="14" height="13" rx="2" fill="#E2E8F0"/>
+
+    <!-- Train stripe (High contrast accent color for focal concept "特地") -->
+    <path d="M10 39 L140 39" stroke="#F59E0B" stroke-width="3"/>
+    
+    <!-- Wheels and undercarriage -->
+    <rect x="25" y="45" width="95" height="6" fill="#1E2430"/>
+    <circle cx="45" cy="54" r="7" fill="#4B5E80"/>
+    <circle cx="45" cy="54" r="3" fill="#1A1D24"/>
+    <circle cx="105" cy="54" r="7" fill="#4B5E80"/>
+    <circle cx="105" cy="54" r="3" fill="#1A1D24"/>
+  </g>
+
+  <!-- Motion lines indicating purposeful high-speed travel -->
+  <path d="M35 110 L50 110" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M25 125 L45 125" stroke="#647CBA" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 140 L55 140" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Focal Point: Purposeful Destination / Milestone Marker (representing intentional arrival) -->
+  <g transform="translate(160, 75)">
+    <!-- Pin marker shadow/glow ring -->
+    <circle cx="16" cy="48" r="16" fill="#F59E0B" opacity="0.15"/>
+    
+    <!-- Location Pin body -->
+    <path d="M16 4 C9.37 4 4 9.37 4 16 C4 26 16 42 16 42 C16 42 28 26 28 16 C28 9.37 22.63 4 16 4 Z" fill="#F59E0B"/>
+    <!-- Inner core of pin -->
+    <circle cx="16" cy="15" r="6" fill="#1A1D24"/>
+  </g>
+
+  <!-- Sparkle of deliberate intention / special effort -->
+  <path d="M185 60 L187 68 L195 70 L187 72 L185 80 L183 72 L175 70 L183 68 Z" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle elements -->
+  <g opacity="0.15">
+    <line x1="40" y1="200" x2="200" y2="200" stroke="#8EA2FF" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="120" cy="120" r="90" fill="none" stroke="#8EA2FF" stroke-width="1" stroke-dasharray="4 8"/>
+  </g>
+
+  <!-- Contextual Visual: Adding an extra warm layer (jacket/coat) over an existing outfit to represent "添" (adding an item) -->
+  <g transform="translate(0, 5)">
+    <!-- Hanger -->
+    <path d="M120 45 C120 40 115 35 110 35 C105 35 105 42 110 45 L120 52 L190 85 C195 87 195 91 190 93 L120 62 Z" fill="#4A5568"/>
+    <circle cx="120" cy="32" r="4" fill="none" stroke="#A0AEC0" stroke-width="2"/>
+    <path d="M120 25 C120 20 115 16 110 16" fill="none" stroke="#A0AEC0" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Base Sweater / Inner Garment (representing what is already there) -->
+    <g transform="translate(0, 10)">
+      <!-- Sleeves -->
+      <path d="M85 75 L55 115 L70 125 L95 90 Z" fill="#3B82F6"/>
+      <path d="M155 75 L185 115 L170 125 L145 90 Z" fill="#3B82F6"/>
+      <!-- Torso -->
+      <path d="M90 70 L150 70 L165 155 L75 155 Z" fill="#2563EB"/>
+      <!-- Collar -->
+      <path d="M105 70 C105 78 135 78 135 70 Z" fill="#1D4ED8"/>
+    </g>
+
+    <!-- The Added Outer Garment (Jacket/Coat being added - "添一件外套") with High-Contrast Accent Color -->
+    <g transform="translate(0, 10)">
+      <!-- Open Jacket Left Side -->
+      <path d="M88 68 L50 110 L68 122 L98 88 Z" fill="#F59E0B" opacity="0.9"/>
+      <path d="M92 68 L120 75 L120 160 L72 160 L85 90 Z" fill="#D97706"/>
+      
+      <!-- Open Jacket Right Side (Dynamic curved layer showing it being added/layered) -->
+      <path d="M152 68 L190 110 L172 122 L142 88 Z" fill="#F59E0B" opacity="0.9"/>
+      <path d="M148 68 L120 75 L120 160 L168 160 L155 90 Z" fill="#B45309"/>
+
+      <!-- Jacket Collar / Lapel Details -->
+      <path d="M92 68 L108 95 L85 90 Z" fill="#FBBF24"/>
+      <path d="M148 68 L132 95 L155 90 Z" fill="#FBBF24"/>
+
+      <!-- Zipper / Buttons line -->
+      <line x1="120" y1="75" x2="120" y2="155" stroke="#FEE2E2" stroke-width="2" stroke-dasharray="6 4"/>
+    </g>
+
+    <!-- Action Indicator: Subtle glowing "+" or directional overlay emphasizing "adding" -->
+    <g transform="translate(120, 25)">
+      <circle cx="0" cy="0" r="16" fill="#1A1D24" stroke="#F59E0B" stroke-width="3"/>
+      <!-- Plus sign -->
+      <path d="M-7 0 L7 0 M0 -7 L0 7" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

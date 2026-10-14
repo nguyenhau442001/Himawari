@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Earth base -->
+  <path d="M40 180 C 80 160, 160 160, 200 180 L 200 200 L 40 200 Z" fill="#2C3440"/>
+  
+  <!-- Central Composition: Representing "All things" (Flora, Fauna, Celestial) -->
+  
+  <!-- Tree (Flora) -->
+  <path d="M120 180 L 120 120 M 120 120 L 100 100 M 120 120 L 140 100" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="12" fill="#FFB84D"/>
+  <circle cx="140" cy="100" r="12" fill="#FFB84D"/>
+  <circle cx="120" cy="85" r="12" fill="#FFB84D"/>
+  
+  <!-- Bird (Fauna) -->
+  <path d="M160 130 C 165 125, 175 125, 180 130 C 175 135, 165 135, 160 130" fill="#FFB84D"/>
+  <path d="M160 130 L 155 125" stroke="#FFB84D" stroke-width="2"/>
+  
+  <!-- Mountain (Geography) -->
+  <path d="M50 180 L 70 140 L 90 180 Z" fill="#3D4756"/>
+  
+  <!-- Sun/Celestial -->
+  <circle cx="190" cy="50" r="20" fill="#FFB84D" opacity="0.8"/>
+  
+  <!-- Water/River -->
+  <path d="M40 190 C 60 185, 80 195, 100 190 C 120 185, 140 195, 160 190" stroke="#4D94FF" stroke-width="3" fill="none"/>
+  
+  <!-- Small sprout -->
+  <path d="M70 180 L 70 170 M 70 170 C 75 165, 80 170, 75 175" stroke="#FFB84D" stroke-width="2" fill="none"/>
+</svg>

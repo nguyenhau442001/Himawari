@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Steam/Aroma lines -->
+  <path d="M120 80 C 130 60, 110 50, 120 40 M135 85 C 145 65, 125 55, 135 45" stroke="#FFB84D" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <!-- Bowl -->
+  <path d="M70 100 C 70 140, 170 140, 170 100 Z" fill="#3D4451"/>
+  <path d="M80 100 C 80 130, 160 130, 160 100" fill="#E67E22"/>
+  
+  <!-- Meat pieces -->
+  <rect x="95" y="85" width="25" height="25" rx="4" fill="#D35400"/>
+  <rect x="125" y="90" width="25" height="25" rx="4" fill="#D35400"/>
+  <rect x="110" y="70" width="25" height="25" rx="4" fill="#E67E22"/>
+  
+  <!-- Garnish -->
+  <path d="M105 70 L 110 60 L 115 70" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+  <path d="M130 85 L 135 75 L 140 85" stroke="#2ECC71" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Table surface -->
+  <rect x="40" y="150" width="160" height="10" rx="2" fill="#2C3E50"/>
+</svg>

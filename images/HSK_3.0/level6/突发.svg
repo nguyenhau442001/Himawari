@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "突发" (Sudden Outbreak/Emergency) as a burst of a physical, unexpected event -->
+  <!-- A stylized, sharp-edged geometric explosion icon centered to represent the sudden nature -->
+  <g transform="translate(120, 120)">
+    <path d="M0 -60 L15 -20 L60 -15 L25 10 L40 55 L0 25 L-40 55 L-25 10 L-60 -15 L-15 -20 Z" fill="#FF9F1C">
+      <animate attributeName="transform" type="scale" values="0.8; 1.1; 1" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="0" cy="0" r="10" fill="#FFFFFF" opacity="0.2"/>
+  </g>
+
+  <!-- Visualizing the "Emergency" aspect with a stylized, clean lightning bolt representing the sudden strike -->
+  <path d="M100 140 L140 140 L120 180 L150 180 L100 220 L115 180 L85 180 Z" fill="#FFD700"/>
+  
+  <!-- Subtle motion lines to emphasize the 'sudden' aspect -->
+  <path d="M180 60 L200 40" stroke="#FF9F1C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 60 L20 40" stroke="#FF9F1C" stroke-width="4" stroke-linecap="round"/>
+</svg>

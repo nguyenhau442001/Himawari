@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Central Connection Bridge / Platform representing business and exchange -->
+    <path d="M 60 140 L 180 140" stroke="#2B313E" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Left Building/Entity -->
+    <rect x="45" y="80" width="40" height="60" rx="6" fill="#2E384D"/>
+    <rect x="53" y="92" width="10" height="12" rx="2" fill="#61AFEF"/>
+    <rect x="67" y="92" width="10" height="12" rx="2" fill="#61AFEF"/>
+    <rect x="53" y="112" width="10" height="12" rx="2" fill="#61AFEF"/>
+    <rect x="67" y="112" width="10" height="12" rx="2" fill="#61AFEF"/>
+    
+    <!-- Right Building/Entity -->
+    <rect x="155" y="80" width="40" height="60" rx="6" fill="#2E384D"/>
+    <rect x="163" y="92" width="10" height="12" rx="2" fill="#61AFEF"/>
+    <rect x="177" y="92" width="10" height="12" rx="2" fill="#61AFEF"/>
+    <rect x="163" y="112" width="10" height="12" rx="2" fill="#61AFEF"/>
+    <rect x="177" y="112" width="10" height="12" rx="2" fill="#61AFEF"/>
+
+    <!-- Dynamic Exchange Arrows (往来 - Back and Forth Interaction) -->
+    <!-- Forward Arrow (Top) -->
+    <path d="M 90 95 Q 120 75 150 95" fill="none" stroke="#E5C07B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 142 90 L 152 97 L 142 104" fill="none" stroke="#E5C07B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Backward Arrow (Bottom) -->
+    <path d="M 150 125 Q 120 145 90 125" fill="none" stroke="#61AFEF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 98 120 L 88 127 L 98 134" fill="none" stroke="#61AFEF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Physical Objects of Exchange (Briefcase / Trade items meeting in the middle) -->
+    <g transform="translate(112, 103)">
+      <rect x="0" y="4" width="16" height="12" rx="2" fill="#D19A66"/>
+      <path d="M 4 4 V 2 C 4 1 5 0 6 0 H 10 C 11 0 12 1 12 2 V 4" fill="none" stroke="#D19A66" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

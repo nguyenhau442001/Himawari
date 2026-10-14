@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Throat/Esophagus Path -->
+  <path d="M90 40 C90 120, 150 120, 150 40" fill="none" stroke="#374151" stroke-width="40" stroke-linecap="round"/>
+  
+  <!-- The Fish being swallowed -->
+  <g transform="translate(120, 100) rotate(90)">
+    <path d="M-30 -15 L30 -15 L45 0 L30 15 L-30 15 Z" fill="#F59E0B"/>
+    <circle cx="20" cy="-5" r="3" fill="#1A1D24"/>
+    <path d="M-30 0 L-45 -10 M-30 0 L-45 10" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Mouth/Jaw representation -->
+  <path d="M80 40 L160 40" stroke="#4B5563" stroke-width="8" stroke-linecap="round"/>
+  <path d="M85 30 L155 30" stroke="#4B5563" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Motion lines indicating downward movement -->
+  <path d="M120 140 L120 160" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 6"/>
+  <path d="M120 170 L120 190" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 6"/>
+</svg>

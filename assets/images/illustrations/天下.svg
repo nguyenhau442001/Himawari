@@ -1,0 +1,27 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmosphere/Space Glow -->
+  <circle cx="120" cy="115" r="70" fill="#243044" opacity="0.5"/>
+
+  <!-- World / Globe Base -->
+  <circle cx="120" cy="115" r="58" fill="#2E3D52"/>
+
+  <!-- Continents & Landmasses (Flat Minimalist Representation of the World) -->
+  <path d="M95 85 C100 75, 115 75, 125 80 C135 85, 145 75, 155 85 C160 95, 150 105, 140 100 C135 105, 120 100, 110 105 C95 100, 90 90, 95 85 Z" fill="#3E526D"/>
+  <path d="M100 130 C110 120, 130 125, 145 135 C150 145, 135 155, 120 150 C105 155, 95 140, 100 130 Z" fill="#3E526D"/>
+  <path d="M145 105 C155 100, 165 110, 160 120 C155 125, 145 115, 145 105 Z" fill="#3E526D"/>
+
+  <!-- Latitude/Longitude Orbit Lines (Emphasizing "天下" / "The Whole World") -->
+  <ellipse cx="120" cy="115" rx="58" ry="22" fill="none" stroke="#526E8C" stroke-width="2" stroke-dasharray="4 3"/>
+  <ellipse cx="120" cy="115" rx="22" ry="58" fill="none" stroke="#526E8C" stroke-width="2" stroke-opacity="0.6"/>
+
+  <!-- Focus / Golden Accent (Signifying the vastness under heaven) -->
+  <circle cx="120" cy="57" r="4" fill="#F59E0B"/>
+  <path d="M120 45 L120 52 M120 62 L120 69 M108 57 L115 57 M125 57 L132 57" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Base Stand / Pedestal for Object Representation -->
+  <path d="M90 190 L150 190 C155 190, 158 195, 155 200 L145 208 C142 210, 138 212, 132 212 L108 212 C102 212, 98 210, 95 208 L85 200 C82 195, 85 190, 90 190 Z" fill="#323F52"/>
+  <rect x="105" y="180" width="30" height="12" fill="#3E526D" rx="2"/>
+</svg>

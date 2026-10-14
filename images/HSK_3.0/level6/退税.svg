@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Counter Desk -->
+  <path d="M40 180h160v20H40z" fill="#374151"/>
+  <path d="M50 140h140v40H50z" fill="#2D3748"/>
+  
+  <!-- Tax Refund Document -->
+  <rect x="95" y="100" width="50" height="65" rx="2" fill="#E5E7EB"/>
+  <rect x="105" y="115" width="30" height="4" rx="1" fill="#9CA3AF"/>
+  <rect x="105" y="125" width="30" height="4" rx="1" fill="#9CA3AF"/>
+  <rect x="105" y="135" width="20" height="4" rx="1" fill="#9CA3AF"/>
+  
+  <!-- Hand passing money back -->
+  <path d="M140 120c0 10-10 15-20 15s-20-5-20-15" fill="#FCA5A5" opacity="0.3"/>
+  <path d="M150 130l-30 20 10 10 30-20z" fill="#F59E0B"/>
+  <circle cx="140" cy="140" r="8" fill="#D97706"/>
+  <path d="M137 137l6 6M143 137l-6 6" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Person (Tourist) -->
+  <circle cx="180" cy="90" r="20" fill="#9CA3AF"/>
+  <path d="M160 120c0-20 10-30 20-30s20 10 20 30v50h-40z" fill="#4B5563"/>
+  
+  <!-- Clerk -->
+  <circle cx="60" cy="90" r="20" fill="#9CA3AF"/>
+  <path d="M40 120c0-20 10-30 20-30s20 10 20 30v50h-40z" fill="#374151"/>
+</svg>

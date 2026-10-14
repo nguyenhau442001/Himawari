@@ -33096,6 +33096,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "台球.svg",
     "src": "images/HSK_3.0/level6/台球.svg",
     "caption": "bi-a, bida"
+  },
+  "太阳能": {
+    "file": "太阳能.svg",
+    "src": "images/HSK_3.0/level6/太阳能.svg",
+    "caption": "năng lượng mặt trời"
+  },
+  "谈论": {
+    "file": "谈论.svg",
+    "src": "images/HSK_3.0/level6/谈论.svg",
+    "caption": "bàn luận, trò chuyện"
+  },
+  "汤圆": {
+    "file": "汤圆.svg",
+    "src": "images/HSK_3.0/level6/汤圆.svg",
+    "caption": "cơm nắm"
+  },
+  "糖果": {
+    "file": "糖果.svg",
+    "src": "images/HSK_3.0/level6/糖果.svg",
+    "caption": "kẹo"
+  },
+  "逃跑": {
+    "file": "逃跑.svg",
+    "src": "images/HSK_3.0/level6/逃跑.svg",
+    "caption": "chạy trốn, bỏ trốn"
+  },
+  "套餐": {
+    "file": "套餐.svg",
+    "src": "images/HSK_3.0/level6/套餐.svg",
+    "caption": "suất ăn theo set, gói cước/dịch vụ"
+  },
+  "特": {
+    "file": "特.svg",
+    "src": "images/HSK_3.0/level6/特.svg",
+    "caption": "đặc biệt, cực kỳ"
+  },
+  "特地": {
+    "file": "特地.svg",
+    "src": "images/HSK_3.0/level6/特地.svg",
+    "caption": "đặc biệt, cất công, có ý"
+  },
+  "特性": {
+    "file": "特性.svg",
+    "src": "images/HSK_3.0/level6/特性.svg",
+    "caption": "đặc tính"
+  },
+  "提取": {
+    "file": "提取.svg",
+    "src": "images/HSK_3.0/level6/提取.svg",
+    "caption": "rút (tiền), chiết xuất, trích xuất"
+  },
+  "体操": {
+    "file": "体操.svg",
+    "src": "images/HSK_3.0/level6/体操.svg",
+    "caption": "thể dục dụng cụ"
+  },
+  "添": {
+    "file": "添.svg",
+    "src": "images/HSK_3.0/level6/添.svg",
+    "caption": "thêm, thêm vào"
+  },
+  "添加": {
+    "file": "添加.svg",
+    "src": "images/HSK_3.0/level6/添加.svg",
+    "caption": "thêm vào, bổ sung"
+  },
+  "天然": {
+    "file": "天然.svg",
+    "src": "images/HSK_3.0/level6/天然.svg",
+    "caption": "tự nhiên"
+  },
+  "天下": {
+    "file": "天下.svg",
+    "src": "images/HSK_3.0/level6/天下.svg",
+    "caption": "thiên hạ, thế giới, khắp nơi"
+  },
+  "田": {
+    "file": "田.svg",
+    "src": "images/HSK_3.0/level6/田.svg",
+    "caption": "ruộng đồng, ruộng lúa"
+  },
+  "跳水": {
+    "file": "跳水.svg",
+    "src": "images/HSK_3.0/level6/跳水.svg",
+    "caption": "nhảy cầu, lặn"
+  },
+  "贴近": {
+    "file": "贴近.svg",
+    "src": "images/HSK_3.0/level6/贴近.svg",
+    "caption": "áp sát, gần gũi, bám sát"
+  },
+  "听话": {
+    "file": "听话.svg",
+    "src": "images/HSK_3.0/level6/听话.svg",
+    "caption": "ngoan ngoãn, nghe lời"
+  },
+  "听觉": {
+    "file": "听觉.svg",
+    "src": "images/HSK_3.0/level6/听觉.svg",
+    "caption": "thính giác"
+  },
+  "听取": {
+    "file": "听取.svg",
+    "src": "images/HSK_3.0/level6/听取.svg",
+    "caption": "lắng nghe (ý kiến, báo cáo)"
+  },
+  "通话": {
+    "file": "通话.svg",
+    "src": "images/HSK_3.0/level6/通话.svg",
+    "caption": "gọi điện thoại, đàm thoại"
+  },
+  "通信": {
+    "file": "通信.svg",
+    "src": "images/HSK_3.0/level6/通信.svg",
+    "caption": "thông tin liên lạc, viễn thông"
+  },
+  "同行": {
+    "file": "同行.svg",
+    "src": "images/HSK_3.0/level6/同行.svg",
+    "caption": "người cùng ngành, đồng nghiệp trong ngành"
+  },
+  "同类": {
+    "file": "同类.svg",
+    "src": "images/HSK_3.0/level6/同类.svg",
+    "caption": "cùng loại, đồng loại"
+  },
+  "铜牌": {
+    "file": "铜牌.svg",
+    "src": "images/HSK_3.0/level6/铜牌.svg",
+    "caption": "huy chương đồng"
+  },
+  "偷偷": {
+    "file": "偷偷.svg",
+    "src": "images/HSK_3.0/level6/偷偷.svg",
+    "caption": "bí mật"
+  },
+  "头脑": {
+    "file": "头脑.svg",
+    "src": "images/HSK_3.0/level6/头脑.svg",
+    "caption": "tâm trí"
+  },
+  "透": {
+    "file": "透.svg",
+    "src": "images/HSK_3.0/level6/透.svg",
+    "caption": "thấm đẫm, thấu, thông suốt"
+  },
+  "透过": {
+    "file": "透过.svg",
+    "src": "images/HSK_3.0/level6/透过.svg",
+    "caption": "xuyên qua, thông qua"
+  },
+  "突发": {
+    "file": "突发.svg",
+    "src": "images/HSK_3.0/level6/突发.svg",
+    "caption": "bùng phát đột ngột, bất ngờ xảy ra"
+  },
+  "图表": {
+    "file": "图表.svg",
+    "src": "images/HSK_3.0/level6/图表.svg",
+    "caption": "biểu đồ"
+  },
+  "图像": {
+    "file": "图像.svg",
+    "src": "images/HSK_3.0/level6/图像.svg",
+    "caption": "hình ảnh, đồ họa"
+  },
+  "推行": {
+    "file": "推行.svg",
+    "src": "images/HSK_3.0/level6/推行.svg",
+    "caption": "thúc đẩy thực hiện, triển khai rộng rãi"
+  },
+  "退税": {
+    "file": "退税.svg",
+    "src": "images/HSK_3.0/level6/退税.svg",
+    "caption": "hoàn thuế"
+  },
+  "吞": {
+    "file": "吞.svg",
+    "src": "images/HSK_3.0/level6/吞.svg",
+    "caption": "nuốt"
+  },
+  "拖": {
+    "file": "拖.svg",
+    "src": "images/HSK_3.0/level6/拖.svg",
+    "caption": "lau (nhà), kéo, kéo lê"
+  },
+  "挖": {
+    "file": "挖.svg",
+    "src": "images/HSK_3.0/level6/挖.svg",
+    "caption": "đào, bới"
+  },
+  "外科": {
+    "file": "外科.svg",
+    "src": "images/HSK_3.0/level6/外科.svg",
+    "caption": "ngoại khoa"
+  },
+  "外来": {
+    "file": "外来.svg",
+    "src": "images/HSK_3.0/level6/外来.svg",
+    "caption": "từ bên ngoài vào, ngoại lai"
+  },
+  "外甥": {
+    "file": "外甥.svg",
+    "src": "images/HSK_3.0/level6/外甥.svg",
+    "caption": "cháu trai (con chị/em gái)"
+  },
+  "弯曲": {
+    "file": "弯曲.svg",
+    "src": "images/HSK_3.0/level6/弯曲.svg",
+    "caption": "quanh co, cong queo, uốn khúc"
+  },
+  "万物": {
+    "file": "万物.svg",
+    "src": "images/HSK_3.0/level6/万物.svg",
+    "caption": "vạn vật, muôn loài"
+  },
+  "网": {
+    "file": "网.svg",
+    "src": "images/HSK_3.0/level6/网.svg",
+    "caption": "mạng lưới, giăng lưới, mạng internet"
+  },
+  "往后": {
+    "file": "往后.svg",
+    "src": "images/HSK_3.0/level6/往后.svg",
+    "caption": "về sau, sau này"
+  },
+  "往来": {
+    "file": "往来.svg",
+    "src": "images/HSK_3.0/level6/往来.svg",
+    "caption": "qua lại, giao thiệp"
+  },
+  "往年": {
+    "file": "往年.svg",
+    "src": "images/HSK_3.0/level6/往年.svg",
+    "caption": "những năm trước"
+  },
+  "望": {
+    "file": "望.svg",
+    "src": "images/HSK_3.0/level6/望.svg",
+    "caption": "nhìn xa, trông ngóng"
+  },
+  "微小": {
+    "file": "微小.svg",
+    "src": "images/HSK_3.0/level6/微小.svg",
+    "caption": "vi mô, nhỏ bé"
+  },
+  "为止": {
+    "file": "为止.svg",
+    "src": "images/HSK_3.0/level6/为止.svg",
+    "caption": "cho đến, cho tới khi"
   }
 };
 

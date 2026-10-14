@@ -1,0 +1,59 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Subtle Grid/Atmosphere Elements -->
+  <g opacity="0.15">
+    <line x1="40" y1="180" x2="200" y2="180" stroke="#60A5FA" stroke-width="2" stroke-dasharray="4 4"/>
+    <circle cx="120" cy="110" r="70" fill="none" stroke="#60A5FA" stroke-width="1.5"/>
+  </g>
+
+  <!-- Central Visual Representation: Two Professional Colleagues / Peers (同行) -->
+  <!-- Left Figure -->
+  <g transform="translate(72, 95)">
+    <!-- Body / Suit -->
+    <path d="M-18 65 L-18 45 C-18 35, -8 28, 0 28 C8 28, 18 35, 18 45 L18 65 Z" fill="#3B82F6"/>
+    <!-- Shirt & Tie -->
+    <polygon points="0,32 -6,45 6,45" fill="#F8FAFC"/>
+    <polygon points="0,43 -2,43 -1,55 0,58 1,55 2,43" fill="#F59E0B"/>
+    <!-- Head -->
+    <circle cx="0" cy="14" r="14" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M-14 12 C-14 2, 14 2, 14 12 C14 6, 8 2, 0 2 C-8 2, -14 6, -14 12 Z" fill="#1E293B"/>
+  </g>
+
+  <!-- Right Figure -->
+  <g transform="translate(168, 95)">
+    <!-- Body / Suit -->
+    <path d="M-18 65 L-18 45 C-18 35, -8 28, 0 28 C8 28, 18 35, 18 45 L18 65 Z" fill="#60A5FA"/>
+    <!-- Shirt & Tie -->
+    <polygon points="0,32 -6,45 6,45" fill="#F8FAFC"/>
+    <polygon points="0,43 -2,43 -1,55 0,58 1,55 2,43" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="0" cy="14" r="14" fill="#CBD5E1"/>
+    <!-- Hair -->
+    <path d="M-13 14 C-13 4, 13 4, 13 14 C13 7, 7 3, 0 3 C-7 3, -13 7, -13 14 Z" fill="#334155"/>
+  </g>
+
+  <!-- Handshake Connection (Center) -->
+  <g transform="translate(120, 125)">
+    <!-- Arms meeting -->
+    <path d="M-48 15 L-10 12 L0 12 L38 15" fill="none" stroke="#3B82F6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-48 15 L-10 12" fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round"/>
+    <!-- Interlocked Hands / Handshake focal point -->
+    <circle cx="0" cy="12" r="8" fill="#F59E0B"/>
+    <circle cx="0" cy="12" r="4" fill="#D97706"/>
+  </g>
+
+  <!-- Shared Professional Achievement / Industry Symbol (Floating above them in harmony) -->
+  <g transform="translate(120, 48)">
+    <!-- Golden Achievement Badge / Gear / Star representing "Industry" (行业) -->
+    <circle cx="0" cy="0" r="22" fill="#1E293B" stroke="#F59E0B" stroke-width="3"/>
+    <!-- Inner Star / Spark element -->
+    <path d="M0 -12 L3 -4 L11 -4 L5 1 L7 9 L0 5 L-7 9 L-5 1 L-11 -4 L-3 -4 Z" fill="#F59E0B"/>
+  </g>
+
+  <!-- Accent Glow / Focus Elements -->
+  <circle cx="120" cy="137" r="26" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.6" stroke-dasharray="6 6"/>
+
+</svg>

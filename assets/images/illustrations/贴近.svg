@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(20, 20)">
+    <!-- Background subtle environment context (a warm, inviting home silhouette/lines) -->
+    <path d="M50 140 L100 95 L150 140" fill="none" stroke="#2A313C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M70 130 L70 170 L130 170 L130 130" fill="none" stroke="#2A313C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Shadow beneath figures -->
+    <ellipse cx="100" cy="175" rx="50" ry="6" fill="#111318"/>
+
+    <!-- Figure 1 (Left character representing everyday people / community) -->
+    <g transform="translate(65, 85)">
+      <!-- Body -->
+      <path d="M12 90 C12 70 20 60 35 60 C50 60 58 70 58 90 Z" fill="#3A4454"/>
+      <!-- Head -->
+      <circle cx="35" cy="40" r="14" fill="#E6AF82"/>
+      <!-- Hair -->
+      <path d="M21 40 C21 30 28 24 35 24 C42 24 49 30 49 40 C49 42 47 43 45 40 C42 33 38 31 35 31 C32 31 28 33 25 40 C23 43 21 42 21 40 Z" fill="#6B4C3B"/>
+    </g>
+
+    <!-- Figure 2 (Right character representing art/creator leaning in closely) -->
+    <g transform="translate(115, 85)">
+      <!-- Body -->
+      <path d="M10 90 C10 70 18 60 33 60 C48 60 56 70 56 90 Z" fill="#D97736"/>
+      <!-- Head -->
+      <circle cx="31" cy="40" r="14" fill="#E6AF82"/>
+      <!-- Hair / Beret (Artistic touch) -->
+      <path d="M16 38 C16 28 24 24 33 24 C42 24 48 28 48 38 Z" fill="#2E4057"/>
+      <ellipse cx="36" cy="22" rx="16" ry="4" fill="#2E4057"/>
+    </g>
+
+    <!-- Interaction: Warm embrace / leaning in (tiējìn / closeness) -->
+    <!-- Connecting visual bond of proximity and warmth -->
+    <path d="M88 125 Q100 115 112 125" fill="none" stroke="#F4A261" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="100" cy="115" r="3" fill="#F4A261"/>
+
+    <!-- Focus element: Glowing heart-free bond of connection / shared creative spark -->
+    <g transform="translate(100, 75)">
+      <circle cx="0" cy="0" r="12" fill="#F4A261" opacity="0.15"/>
+      <circle cx="0" cy="0" r="6" fill="#F4A261"/>
+    </g>
+
+    <!-- Base floor line -->
+    <line x1="30" y1="175" cx="0" x2="170" y2="175" stroke="#3A4454" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

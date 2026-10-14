@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- ATM Machine Body (Physical Object / Noun Context) -->
+  <!-- Main Kiosk Structure -->
+  <rect x="70" y="32" width="100" height="176" rx="12" fill="#282D3D" stroke="#3A4256" stroke-width="2"/>
+  
+  <!-- Screen Area -->
+  <rect x="85" y="48" width="70" height="50" rx="6" fill="#13161D"/>
+  <!-- UI on Screen (Abstract Data / Extraction Visualization) -->
+  <rect x="95" y="60" width="30" height="6" rx="3" fill="#3A4256"/>
+  <rect x="95" y="72" width="50" height="4" rx="2" fill="#00E5FF"/>
+  <rect x="95" y="82" width="40" height="4" rx="2" fill="#00E5FF"/>
+
+  <!-- Keypad Area -->
+  <rect x="92" y="108" width="56" height="40" rx="4" fill="#1E222D"/>
+  <circle cx="104" cy="118" r="3" fill="#3A4256"/>
+  <circle cx="120" cy="118" r="3" fill="#3A4256"/>
+  <circle cx="136" cy="118" r="3" fill="#3A4256"/>
+  <circle cx="104" cy="128" r="3" fill="#3A4256"/>
+  <circle cx="120" cy="128" r="3" fill="#FFB300"/>
+  <circle cx="136" cy="128" r="3" fill="#3A4256"/>
+  <circle cx="104" cy="138" r="3" fill="#3A4256"/>
+  <circle cx="120" cy="138" r="3" fill="#3A4256"/>
+  <circle cx="136" cy="138" r="3" fill="#3A4256"/>
+
+  <!-- Cash Dispenser Slot (Focus Area) -->
+  <rect x="88" y="160" width="64" height="14" rx="3" fill="#13161D" stroke="#00E5FF" stroke-width="1.5"/>
+  <rect x="96" y="165" width="48" height="4" rx="2" fill="#00E5FF"/>
+
+  <!-- Card Slot -->
+  <rect x="140" y="184" width="16" height="6" rx="2" fill="#00E5FF"/>
+
+  <!-- Ejected Cash / Extraction Action Element -->
+  <!-- Banknote 1 -->
+  <path d="M74 186 L166 186 L160 208 L80 208 Z" fill="#10B981" opacity="0.9"/>
+  <rect x="105" y="192" width="30" height="10" rx="2" fill="#065F46"/>
+  <circle cx="120" cy="197" r="3" fill="#10B981"/>
+
+  <!-- Banknote 2 (Layered for depth) -->
+  <path d="M66 194 L174 194 L168 216 L72 216 Z" fill="#34D399" opacity="0.95"/>
+  <rect x="105" y="200" width="30" height="10" rx="2" fill="#047857"/>
+  <circle cx="120" cy="205" r="3" fill="#34D399"/>
+
+  <!-- Bank Card Inserting/Extracting representation -->
+  <g transform="translate(148, 120) rotate(-25)">
+    <rect width="28" height="18" rx="3" fill="#FFB300"/>
+    <rect x="3" y="4" width="22" height="3" fill="#1A1D24"/>
+    <rect x="3" y="11" width="8" height="4" rx="1" fill="#FFF" opacity="0.8"/>
+  </g>
+</svg>

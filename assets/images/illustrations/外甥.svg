@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle floor shadow / ground line -->
+  <ellipse cx="120" cy="195" rx="60" ry="6" fill="#111318"/>
+  
+  <!-- Character: A young boy (the nephew) -->
+  <g id="nephew">
+    <!-- Body / Torso -->
+    <path d="M 95 145 C 95 130 105 120 120 120 C 135 120 145 130 145 145 L 145 185 C 145 190 140 195 135 195 L 105 195 C 100 195 95 190 95 185 Z" fill="#3B82F6"/>
+    
+    <!-- Collar / Shirt detail -->
+    <path d="M 110 120 L 120 132 L 130 120 Z" fill="#E2E8F0"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="92" r="26" fill="#FDE047"/>
+    
+    <!-- Hair -->
+    <path d="M 95 90 C 95 75 105 66 120 66 C 135 66 145 75 145 90 C 145 93 143 95 140 93 C 130 82 110 82 100 93 C 97 95 95 93 95 90 Z" fill="#334155"/>
+    
+    <!-- Face details (Friendly smile) -->
+    <circle cx="111" cy="92" r="2.5" fill="#1E293B"/>
+    <circle cx="129" cy="92" r="2.5" fill="#1E293B"/>
+    <path d="M 115 102 Q 120 107 125 102" stroke="#1E293B" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Toy / Birthday context element representing the context ("买了一套玩具送他") -->
+  <!-- Gift box held / placed next to him -->
+  <g id="toy-gift-box" transform="translate(145, 150)">
+    <!-- Box base -->
+    <rect x="0" y="10" width="32" height="28" rx="3" fill="#F97316"/>
+    <!-- Vertical ribbon -->
+    <rect x="13" y="10" width="6" height="28" fill="#FACC15"/>
+    <!-- Box lid -->
+    <rect x="-2" y="5" width="36" height="8" rx="2" fill="#EA580C"/>
+    <!-- Ribbon bow -->
+    <path d="M 12 5 C 12 0 6 0 6 -3 C 6 -6 11 -5 14 3 Z" fill="#FACC15"/>
+    <path d="M 20 5 C 20 0 26 0 26 -3 C 26 -6 21 -5 18 3 Z" fill="#FACC15"/>
+    <circle cx="16" cy="5" r="2" fill="#FEF08A"/>
+  </g>
+  
+  <!-- Small building blocks/toy scattered to emphasize young boy's age/toys -->
+  <g id="toy-blocks">
+    <rect x="65" y="180" width="16" height="15" rx="2" fill="#EC4899"/>
+    <rect x="52" y="172" width="14" height="23" rx="2" fill="#06B6D4"/>
+    <rect x="75" y="168" width="12" height="12" rx="2" fill="#8B5CF6"/>
+  </g>
+</svg>
