@@ -488,15 +488,30 @@ body.study-sidebar-open .study-drawer-backdrop {
     transform: translateX(105%) !important;
     transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1) !important;
     overflow-y: auto !important;
-    padding: 16px !important;
+    padding: 16px 14px 64px !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 12px !important;
+    scrollbar-width: thin !important;
+    scrollbar-color: rgba(255, 255, 255, 0.22) transparent !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .workstation-right {
     background: #161720 !important;
     border-color: rgba(255, 255, 255, 0.1) !important;
     box-shadow: -14px 0 48px rgba(0, 0, 0, 0.65) !important;
+    scrollbar-color: rgba(255, 255, 255, 0.22) transparent !important;
+  }
+  :root[data-theme="light"] body.flashcard-study-mode .workstation-right {
+    scrollbar-color: rgba(0, 0, 0, 0.25) transparent !important;
+  }
+  body.flashcard-study-mode .workstation-right::after {
+    content: "";
+    display: block;
+    height: 48px;
+    min-height: 48px;
+    flex: 0 0 48px;
+    width: 100%;
+    pointer-events: none;
   }
   body.flashcard-study-mode.study-sidebar-open .workstation-right {
     transform: translateX(0) !important;
@@ -506,6 +521,33 @@ body.study-sidebar-open .study-drawer-backdrop {
   }
   body.flashcard-study-mode .study-drawer-close-btn {
     display: inline-flex !important;
+  }
+  /* Custom sleek scrollbar for workstation-right */
+  .workstation-right::-webkit-scrollbar,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar {
+    width: 6px !important;
+  }
+  .workstation-right::-webkit-scrollbar-track,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  .workstation-right::-webkit-scrollbar-thumb,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.28) !important;
+    border-radius: 999px !important;
+    transition: background 0.2s ease !important;
+  }
+  .workstation-right::-webkit-scrollbar-thumb:hover,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.5) !important;
+  }
+  :root[data-theme="dark"] .workstation-right::-webkit-scrollbar-thumb,
+  :root[data-theme="dark"] body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2) !important;
+  }
+  :root[data-theme="dark"] .workstation-right::-webkit-scrollbar-thumb:hover,
+  :root[data-theme="dark"] body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.38) !important;
   }
 }
 
