@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 60)">
+    <!-- Table -->
+    <path d="M20 120 L140 120 L150 140 L10 140 Z" fill="#4A5568"/>
+    <path d="M30 140 L40 160 L120 160 L130 140 Z" fill="#2D3748"/>
+    
+    <!-- Plate -->
+    <ellipse cx="80" cy="115" rx="50" ry="15" fill="#E2E8F0"/>
+    <ellipse cx="80" cy="110" rx="45" ry="12" fill="#F7FAFC"/>
+    
+    <!-- Dinner Food (Steak and vegetables) -->
+    <path d="M60 105 Q80 90 100 105 Q80 120 60 105" fill="#D69E2E"/>
+    <circle cx="50" cy="110" r="8" fill="#48BB78"/>
+    <circle cx="110" cy="110" r="8" fill="#48BB78"/>
+    
+    <!-- Fork and Knife -->
+    <path d="M30 80 L35 110 L32 110 L27 80 Z" fill="#A0AEC0"/>
+    <path d="M130 80 L125 110 L128 110 L133 80 Z" fill="#A0AEC0"/>
+    
+    <!-- Steam/Warmth effect -->
+    <path d="M70 90 Q75 80 80 90" stroke="#F6AD55" stroke-width="2" fill="none"/>
+    <path d="M85 90 Q90 80 95 90" stroke="#F6AD55" stroke-width="2" fill="none"/>
+  </g>
+</svg>

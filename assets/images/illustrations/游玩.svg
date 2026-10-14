@@ -1,0 +1,57 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric Background Elements (Dark Mode Park) -->
+  <!-- Night sky gradient / subtle backdrop -->
+  <circle cx="190" cy="50" r="24" fill="#FFD166" opacity="0.15"/>
+  <!-- Distant park hills -->
+  <path d="M0 190 Q60 160 130 185 T240 175 L240 240 L0 240 Z" fill="#222733"/>
+  <path d="M0 205 Q90 180 170 200 T240 195 L240 240 L0 240 Z" fill="#282E3D"/>
+
+  <!-- Visual Contrast (Adjective Rule): Scale exaggeration & energetic dynamic vs static background -->
+  <!-- Stylized vibrant park tree representing the destination -->
+  <path d="M50 190 L50 130 Q50 115 65 110 Q80 115 80 130 L80 190 Z" fill="#3E4C59"/>
+  <!-- Canopy layers with bright accent highlights -->
+  <circle cx="65" cy="100" r="32" fill="#06D6A0" opacity="0.2"/>
+  <circle cx="50" cy="90" r="22" fill="#06D6A0" opacity="0.3"/>
+  <circle cx="80" cy="95" r="20" fill="#118AB2" opacity="0.3"/>
+
+  <!-- Main Action Illustration: "游玩" (Recreational outing / joyful leisure state) -->
+  <!-- Exaggerated dynamic posture showing liberation, movement, and joy -->
+  <g transform="translate(10, 0)">
+    <!-- Motion trails / energy lines of playful movement -->
+    <path d="M95 130 Q120 110 145 130" stroke="#FFD166" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" fill="none" opacity="0.6"/>
+    
+    <!-- Person 1: Leaping / Exuberant motion (Scale and dynamic contrast) -->
+    <!-- Head -->
+    <circle cx="120" cy="95" r="10" fill="#FFD166"/>
+    <!-- Body / Torso leaning back dynamically -->
+    <path d="M120 105 L115 135 L125 145" stroke="#FFD166" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Arms thrown wide open in joy -->
+    <path d="M100 115 L118 112 L138 105" stroke="#FFD166" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Legs in mid-air stroll / leap -->
+    <path d="M117 143 L105 165" stroke="#FFD166" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M121 143 L135 160" stroke="#FFD166" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Person 2: Companion enjoying the relaxed leisure state -->
+    <!-- Head -->
+    <circle cx="155" cy="105" r="9" fill="#118AB2"/>
+    <!-- Body -->
+    <path d="M155 114 L152 140 L160 152" stroke="#118AB2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Arms raised casually -->
+    <path d="M142 120 L155 120 L170 110" stroke="#118AB2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Legs walking -->
+    <path d="M154 150 L145 172" stroke="#118AB2" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M158 150 L168 170" stroke="#118AB2" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Foreground decorative elements: Leisure icons (kite/wind symbols) -->
+  <path d="M190 85 L198 95 L190 105 L182 95 Z" fill="#FFD166" opacity="0.8"/>
+  <path d="M190 105 L190 120" stroke="#FFD166" stroke-width="1.5" opacity="0.5" fill="none"/>
+  <path d="M185 80 Q195 70 205 85" stroke="#EF476F" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Ground Plane / Path -->
+  <path d="M0 205 C80 195 160 215 240 200 L240 240 L0 240 Z" fill="#1E2330"/>
+  <ellipse cx="130" cy="208" rx="70" ry="8" fill="#151821" opacity="0.6"/>
+</svg>

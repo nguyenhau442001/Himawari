@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Cityscape background elements (subtle) -->
+  <rect x="40" y="140" width="30" height="60" fill="#2D343E"/>
+  <rect x="80" y="100" width="30" height="100" fill="#2D343E"/>
+  <rect x="120" y="120" width="30" height="80" fill="#2D343E"/>
+  <rect x="160" y="150" width="30" height="50" fill="#2D343E"/>
+  
+  <!-- The "Fast" concept: A stylized, sleek rocket-like skyscraper or upward trajectory -->
+  <!-- Using scale exaggeration and motion lines to denote speed -->
+  <path d="M120 180 L120 70" stroke="#FFB800" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10"/>
+  
+  <!-- Motion blur/speed lines -->
+  <path d="M140 100 L170 70" stroke="#FFB800" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M140 120 L170 90" stroke="#FFB800" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  
+  <!-- Main building structure showing rapid vertical growth -->
+  <path d="M105 200 L135 200 L130 60 L110 60 Z" fill="#FFB800"/>
+  
+  <!-- Contrast: Small base vs Large top/growth -->
+  <circle cx="120" cy="200" r="8" fill="#FFB800"/>
+  <circle cx="120" cy="60" r="12" fill="#FFB800"/>
+  
+  <!-- Ground line -->
+  <line x1="20" y1="200" x2="220" y2="200" stroke="#4A5568" stroke-width="2"/>
+</svg>

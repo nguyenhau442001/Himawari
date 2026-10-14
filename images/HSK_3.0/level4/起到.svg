@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 起到 (achieving/producing an effect) -->
+  <!-- A golden key/lever mechanism unlocking a bright, blooming result or gear activation -->
+  
+  <g transform="translate(0, 0)">
+    <!-- Radiating glow / effect wave in the background -->
+    <circle cx="120" cy="115" r="55" fill="#F59E0B" opacity="0.1" />
+    <circle cx="120" cy="115" r="40" fill="#F59E0B" opacity="0.15" />
+
+    <!-- Base platform / mechanism base -->
+    <path d="M 80 160 L 160 160 L 170 175 L 70 175 Z" fill="#2D3748" />
+    <rect x="90" y="152" width="60" height="8" rx="2" fill="#4A5568" />
+
+    <!-- Central mechanical gear representing the method / system -->
+    <g transform="translate(120, 115)">
+      <circle r="28" fill="none" stroke="#3B82F6" stroke-width="6" stroke-dasharray="8 4" opacity="0.8" />
+      <circle r="18" fill="#1E293B" stroke="#60A5FA" stroke-width="3" />
+      <circle r="6" fill="#3B82F6" />
+    </g>
+
+    <!-- The 'Action' / Trigger tool (lever / golden key mechanism) -->
+    <g transform="translate(120, 115) rotate(-35)">
+      <!-- Lever handle extending outward -->
+      <rect x="-6" y="-45" width="12" height="45" rx="6" fill="#F59E0B" />
+      <circle cx="0" cy="-48" r="9" fill="#FBBF24" />
+      <!-- Spark / impact point indicating 'taking effect' -->
+      <path d="M 0 -60 L 5 -48 L 15 -48 L 7 -42 L 10 -32 L 0 -38 L -10 -32 L -7 -42 L -15 -48 L -5 -48 Z" fill="#FEF08A" transform="translate(0, 10) scale(0.5)" />
+    </g>
+
+    <!-- Sparkles / Results bursting upward (representing positive effect) -->
+    <g fill="#FBBF24">
+      <!-- Top star -->
+      <path d="M 120 45 L 122.5 52 L 129.5 54.5 L 122.5 57 L 120 64 L 117.5 57 L 110.5 54.5 L 117.5 52 Z" />
+      <!-- Right star -->
+      <path d="M 165 85 L 166.5 89 L 170.5 90.5 L 166.5 92 L 165 96 L 163.5 92 L 159.5 90.5 L 163.5 89 Z" />
+      <!-- Left star -->
+      <path d="M 75 95 L 76.5 99 L 80.5 100.5 L 76.5 102 L 75 106 L 73.5 102 L 69.5 100.5 L 73.5 99 Z" opacity="0.8" />
+    </g>
+
+    <!-- Checkmark accent badge representing successful outcome -->
+    <circle cx="158" cy="75" r="14" fill="#10B981" />
+    <path d="M 151 75 L 156 80 L 166 69" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+</svg>

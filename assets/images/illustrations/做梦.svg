@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 40)">
+    <!-- Bed frame -->
+    <path d="M20 120 L140 120 L140 140 L20 140 Z" fill="#4A5568"/>
+    <path d="M20 100 L40 100 L40 120 L20 120 Z" fill="#2D3748"/>
+    <path d="M120 100 L140 100 L140 120 L120 120 Z" fill="#2D3748"/>
+    
+    <!-- Pillow -->
+    <path d="M30 80 Q30 60 60 60 L100 60 Q130 60 130 80 L130 90 Q130 110 100 110 L60 110 Q30 110 30 90 Z" fill="#E2E8F0"/>
+    
+    <!-- Person sleeping -->
+    <path d="M50 95 C 55 85, 70 85, 75 95" fill="none" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+    <path d="M95 95 C 100 85, 115 85, 120 95" fill="none" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="90" r="3" fill="#F6AD55"/>
+    <circle cx="105" cy="90" r="3" fill="#F6AD55"/>
+    
+    <!-- Dream bubble/thought representation -->
+    <path d="M110 50 C 140 20, 180 20, 180 50 C 180 80, 140 80, 140 60" fill="none" stroke="#F6AD55" stroke-width="3" stroke-dasharray="6 4"/>
+    
+    <!-- Childhood memory icon inside dream -->
+    <path d="M145 40 L165 40 L155 25 Z" fill="#F6AD55"/>
+    <path d="M145 40 L145 60 L165 60 L165 40" fill="none" stroke="#F6AD55" stroke-width="2"/>
+  </g>
+</svg>

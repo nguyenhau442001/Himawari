@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Central Physical Object: A classic architectural building/foundation structure symbolizing "Base/Fundament" (基本) -->
+    <!-- Solid Foundation Block -->
+    <path d="M-64 36 L64 36 L76 68 L-76 68 Z" fill="#2E3440" stroke="#4C566A" stroke-width="2"/>
+    <rect x="-60" y="44" width="120" height="16" fill="#3B4252" rx="2"/>
+
+    <!-- Main Structure Pillar -->
+    <rect x="-44" y="-36" width="88" height="72" fill="#3B4252" rx="4"/>
+    <path d="M-52 -36 L52 -36 L64 -48 L-64 -48 Z" fill="#4C566A"/>
+
+    <!-- Structural details (windows representing completeness/substance) -->
+    <rect x="-32" y="-24" width="20" height="24" fill="#434C5E" rx="2"/>
+    <rect x="12" y="-24" width="20" height="24" fill="#434C5E" rx="2"/>
+
+    <!-- Golden Accent: "Basically/Largely complete" checkmark integrated physically onto the object -->
+    <circle cx="0" cy="0" r="30" fill="#2E3440" stroke="#D08770" stroke-width="4"/>
+    <path d="M-10 -2 L-3 6 L14 -12" fill="none" stroke="#D08770" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

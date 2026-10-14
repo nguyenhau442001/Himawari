@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Vector Illustration for "老家" (Hometown / Ancestral Home) -->
+  <!-- Center a clear, iconic physical place representing home/origin -->
+  <g transform="translate(0, 0)">
+    <!-- Ground / Foundation -->
+    <path d="M 50 180 L 190 180" stroke="#3A4252" stroke-width="3" stroke-linecap="round"/>
+    <!-- Small pathway -->
+    <path d="M 120 180 L 110 200 L 130 200 Z" fill="#2E3544"/>
+
+    <!-- Traditional Asian-style house representing ancestral home / roots -->
+    <!-- House Body -->
+    <rect x="75" y="115" width="90" height="65" fill="#2E3544" rx="4"/>
+    
+    <!-- Warm glowing window (symbol of warmth, family, belonging) -->
+    <rect x="105" y="130" width="30" height="35" rx="2" fill="#1A1D24"/>
+    <rect x="110" y="135" width="20" height="25" fill="#F39C12" opacity="0.9"/>
+    <!-- Window pane lines -->
+    <line x1="120" y1="135" x2="120" y2="160" stroke="#1A1D24" stroke-width="2"/>
+    <line x1="110" y1="147" x2="130" y2="147" stroke="#1A1D24" stroke-width="2"/>
+
+    <!-- Roof (Traditional Curved Tiled Roof) -->
+    <!-- Roof shadow/base -->
+    <path d="M 60 115 L 120 75 L 180 115 Z" fill="#3A4252"/>
+    <!-- Main Roof -->
+    <path d="M 65 110 L 120 70 L 175 110 Z" fill="#E74C3C"/>
+    <!-- Roof overhang/trim -->
+    <path d="M 55 110 C 120 100 120 100 185 110 L 180 118 C 120 108 120 108 60 118 Z" fill="#C0392B"/>
+
+    <!-- Traditional Chimney with subtle smoke (sign of life/home) -->
+    <rect x="145" y="85" width="10" height="20" fill="#3A4252"/>
+    <path d="M 150 78 C 150 72 155 68 153 62 C 151 56 156 50 155 45" stroke="#7E8C9D" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+    <!-- Ancestral / Root element: stylized tree on the side representing roots/heritage (Cội nguồn) -->
+    <!-- Tree trunk -->
+    <path d="M 55 180 L 55 145 C 55 135 60 135 60 130" stroke="#7E8C9D" stroke-width="6" stroke-linecap="round"/>
+    <!-- Tree foliage (Warm golden/orange tone fitting the accent color for focus) -->
+    <circle cx="55" cy="120" r="22" fill="#F39C12" opacity="0.85"/>
+    <circle cx="43" cy="130" r="14" fill="#E67E22" opacity="0.8"/>
+    <circle cx="67" cy="130" r="14" fill="#E67E22" opacity="0.8"/>
+
+    <!-- Soft ambient glow/spotlight under the house to emphasize central focus -->
+    <ellipse cx="120" cy="180" rx="55" ry="6" fill="#F39C12" opacity="0.15"/>
+  </g>
+</svg>

@@ -25097,6 +25097,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/从中.svg",
     "caption": "từ trong đó, qua đó"
   },
+  "粗": {
+    "file": "粗.svg",
+    "src": "images/HSK_3.0/level4/粗.svg",
+    "caption": "to, thô; cẩu thả"
+  },
+  "村": {
+    "file": "村.svg",
+    "src": "images/HSK_3.0/level4/村.svg",
+    "caption": "làng, thôn"
+  },
   "错过": {
     "file": "错过.svg",
     "src": "images/HSK_3.0/level4/错过.svg",
@@ -25262,6 +25272,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/队员.svg",
     "caption": "đội viên, thành viên đội"
   },
+  "队长": {
+    "file": "队长.svg",
+    "src": "images/HSK_3.0/level4/队长.svg",
+    "caption": "đội trưởng"
+  },
   "多数": {
     "file": "多数.svg",
     "src": "images/HSK_3.0/level4/多数.svg",
@@ -25291,6 +25306,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "烦.svg",
     "src": "images/HSK_3.0/level4/烦.svg",
     "caption": "phiền, bực bội; làm phiền"
+  },
+  "房租": {
+    "file": "房租.svg",
+    "src": "images/HSK_3.0/level4/房租.svg",
+    "caption": "tiền thuê nhà"
+  },
+  "费": {
+    "file": "费.svg",
+    "src": "images/HSK_3.0/level4/费.svg",
+    "caption": "phí, tiền; tốn"
+  },
+  "分数": {
+    "file": "分数.svg",
+    "src": "images/HSK_3.0/level4/分数.svg",
+    "caption": "điểm số; phân số"
+  },
+  "分为": {
+    "file": "分为.svg",
+    "src": "images/HSK_3.0/level4/分为.svg",
+    "caption": "chia thành"
   },
   "付": {
     "file": "付.svg",
@@ -25492,15 +25527,50 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/活.svg",
     "caption": "sống; sinh động; công việc"
   },
+  "货": {
+    "file": "货.svg",
+    "src": "images/HSK_3.0/level4/货.svg",
+    "caption": "hàng hóa"
+  },
+  "获奖": {
+    "file": "获奖.svg",
+    "src": "images/HSK_3.0/level4/获奖.svg",
+    "caption": "đoạt giải, được giải"
+  },
+  "基本上": {
+    "file": "基本上.svg",
+    "src": "images/HSK_3.0/level4/基本上.svg",
+    "caption": "về cơ bản"
+  },
   "既": {
     "file": "既.svg",
     "src": "images/HSK_3.0/level4/既.svg",
     "caption": "vừa… vừa; đã (… thì)"
   },
+  "加强": {
+    "file": "加强.svg",
+    "src": "images/HSK_3.0/level4/加强.svg",
+    "caption": "tăng cường"
+  },
+  "加入": {
+    "file": "加入.svg",
+    "src": "images/HSK_3.0/level4/加入.svg",
+    "caption": "gia nhập, tham gia; cho thêm vào"
+  },
+  "加上": {
+    "file": "加上.svg",
+    "src": "images/HSK_3.0/level4/加上.svg",
+    "caption": "cộng thêm, thêm vào đó"
+  },
   "加油": {
     "file": "加油.svg",
     "src": "images/HSK_3.0/level4/加油.svg",
     "caption": "cố lên; đổ xăng"
+  },
+  "家长": {
+    "file": "家长.svg",
+    "src": "images/HSK_3.0/level4/家长.svg",
+    "caption": "phụ huynh"
   },
   "价钱": {
     "file": "价钱.svg",
@@ -25676,6 +25746,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "快递.svg",
     "src": "images/HSK_3.0/level4/快递.svg",
     "caption": "chuyển phát nhanh; bưu kiện"
+  },
+  "快速": {
+    "file": "快速.svg",
+    "src": "images/HSK_3.0/level4/快速.svg",
+    "caption": "nhanh chóng, tốc độ nhanh"
+  },
+  "垃圾": {
+    "file": "垃圾.svg",
+    "src": "images/HSK_3.0/level4/垃圾.svg",
+    "caption": "rác"
+  },
+  "老家": {
+    "file": "老家.svg",
+    "src": "images/HSK_3.0/level4/老家.svg",
+    "caption": "quê nhà"
+  },
+  "老年": {
+    "file": "老年.svg",
+    "src": "images/HSK_3.0/level4/老年.svg",
+    "caption": "tuổi già, người cao tuổi"
   },
   "老是": {
     "file": "老是.svg",
@@ -25867,15 +25957,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/牌子.svg",
     "caption": "nhãn hiệu, thương hiệu; tấm biển"
   },
+  "葡萄酒": {
+    "file": "葡萄酒.svg",
+    "src": "images/HSK_3.0/level4/葡萄酒.svg",
+    "caption": "rượu vang"
+  },
   "普通": {
     "file": "普通.svg",
     "src": "images/HSK_3.0/level4/普通.svg",
     "caption": "bình thường, phổ thông"
   },
+  "期": {
+    "file": "期.svg",
+    "src": "images/HSK_3.0/level4/期.svg",
+    "caption": "kỳ, số (tạp chí), khóa"
+  },
   "期末": {
     "file": "期末.svg",
     "src": "images/HSK_3.0/level4/期末.svg",
     "caption": "cuối kỳ"
+  },
+  "期中": {
+    "file": "期中.svg",
+    "src": "images/HSK_3.0/level4/期中.svg",
+    "caption": "giữa kỳ"
+  },
+  "起到": {
+    "file": "起到.svg",
+    "src": "images/HSK_3.0/level4/起到.svg",
+    "caption": "có được (tác dụng), đạt được"
   },
   "气": {
     "file": "气.svg",
@@ -26047,10 +26157,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/生².svg",
     "caption": "sống (chưa chín); lạ"
   },
+  "省¹": {
+    "file": "省¹.svg",
+    "src": "images/HSK_3.0/level4/省¹.svg",
+    "caption": "tỉnh; tiết kiệm"
+  },
+  "师生": {
+    "file": "师生.svg",
+    "src": "images/HSK_3.0/level4/师生.svg",
+    "caption": "thầy trò"
+  },
   "时间表": {
     "file": "时间表.svg",
     "src": "images/HSK_3.0/level4/时间表.svg",
     "caption": "thời gian biểu, lịch trình"
+  },
+  "实际上": {
+    "file": "实际上.svg",
+    "src": "images/HSK_3.0/level4/实际上.svg",
+    "caption": "thực tế, trên thực tế"
+  },
+  "食品": {
+    "file": "食品.svg",
+    "src": "images/HSK_3.0/level4/食品.svg",
+    "caption": "thực phẩm"
+  },
+  "食堂": {
+    "file": "食堂.svg",
+    "src": "images/HSK_3.0/level4/食堂.svg",
+    "caption": "nhà ăn, căng tin"
   },
   "十字路口": {
     "file": "十字路口.svg",
@@ -26257,15 +26392,40 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/外套.svg",
     "caption": "áo khoác"
   },
+  "晚安": {
+    "file": "晚安.svg",
+    "src": "images/HSK_3.0/level4/晚安.svg",
+    "caption": "chúc ngủ ngon"
+  },
+  "晚餐": {
+    "file": "晚餐.svg",
+    "src": "images/HSK_3.0/level4/晚餐.svg",
+    "caption": "bữa tối"
+  },
   "网购": {
     "file": "网购.svg",
     "src": "images/HSK_3.0/level4/网购.svg",
     "caption": "mua sắm trực tuyến"
   },
+  "网页": {
+    "file": "网页.svg",
+    "src": "images/HSK_3.0/level4/网页.svg",
+    "caption": "trang web"
+  },
+  "网友": {
+    "file": "网友.svg",
+    "src": "images/HSK_3.0/level4/网友.svg",
+    "caption": "bạn trên mạng; cư dân mạng"
+  },
   "网址": {
     "file": "网址.svg",
     "src": "images/HSK_3.0/level4/网址.svg",
     "caption": "địa chỉ trang web"
+  },
+  "为¹": {
+    "file": "为¹.svg",
+    "src": "images/HSK_3.0/level4/为¹.svg",
+    "caption": "làm, là; trở thành"
   },
   "味": {
     "file": "味.svg",
@@ -26281,6 +26441,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "无法.svg",
     "src": "images/HSK_3.0/level4/无法.svg",
     "caption": "không thể, không có cách nào"
+  },
+  "午餐": {
+    "file": "午餐.svg",
+    "src": "images/HSK_3.0/level4/午餐.svg",
+    "caption": "bữa trưa"
+  },
+  "吸": {
+    "file": "吸.svg",
+    "src": "images/HSK_3.0/level4/吸.svg",
+    "caption": "hút, hít"
   },
   "西部": {
     "file": "西部.svg",
@@ -26427,10 +26597,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/以内.svg",
     "caption": "trong vòng, trong phạm vi"
   },
+  "一生": {
+    "file": "一生.svg",
+    "src": "images/HSK_3.0/level4/一生.svg",
+    "caption": "cả đời, suốt đời"
+  },
   "赢得": {
     "file": "赢得.svg",
     "src": "images/HSK_3.0/level4/赢得.svg",
     "caption": "giành được"
+  },
+  "用来": {
+    "file": "用来.svg",
+    "src": "images/HSK_3.0/level4/用来.svg",
+    "caption": "dùng để"
   },
   "用于": {
     "file": "用于.svg",
@@ -26441,6 +26621,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "油.svg",
     "src": "images/HSK_3.0/level4/油.svg",
     "caption": "dầu; mỡ; xăng"
+  },
+  "游玩": {
+    "file": "游玩.svg",
+    "src": "images/HSK_3.0/level4/游玩.svg",
+    "caption": "vui chơi, du ngoạn"
+  },
+  "友情": {
+    "file": "友情.svg",
+    "src": "images/HSK_3.0/level4/友情.svg",
+    "caption": "tình bạn"
+  },
+  "有效": {
+    "file": "有效.svg",
+    "src": "images/HSK_3.0/level4/有效.svg",
+    "caption": "có hiệu lực, hiệu quả"
   },
   "有着": {
     "file": "有着.svg",
@@ -26587,15 +26782,30 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level4/转发.svg",
     "caption": "chuyển tiếp; chia sẻ lại"
   },
+  "转机¹": {
+    "file": "转机¹.svg",
+    "src": "images/HSK_3.0/level4/转机¹.svg",
+    "caption": "quá cảnh, chuyển máy bay"
+  },
   "准": {
     "file": "准.svg",
     "src": "images/HSK_3.0/level4/准.svg",
     "caption": "chuẩn, chính xác; cho phép"
   },
+  "自": {
+    "file": "自.svg",
+    "src": "images/HSK_3.0/level4/自.svg",
+    "caption": "từ (văn viết)"
+  },
   "自习": {
     "file": "自习.svg",
     "src": "images/HSK_3.0/level4/自习.svg",
     "caption": "tự học"
+  },
+  "自学": {
+    "file": "自学.svg",
+    "src": "images/HSK_3.0/level4/自学.svg",
+    "caption": "tự học (không thầy)"
   },
   "最终": {
     "file": "最终.svg",
@@ -26606,6 +26816,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "做法.svg",
     "src": "images/HSK_3.0/level4/做法.svg",
     "caption": "cách làm"
+  },
+  "做梦": {
+    "file": "做梦.svg",
+    "src": "images/HSK_3.0/level4/做梦.svg",
+    "caption": "nằm mơ"
   },
   "作为¹": {
     "file": "作为¹.svg",

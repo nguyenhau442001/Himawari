@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Vector Illustration for 食品 (Food / Groceries) -->
+  <g transform="translate(0, 5)">
+    <!-- Shopping Basket Base / Body -->
+    <path d="M 55,100 L 75,170 C 77,176 83,180 89,180 L 151,180 C 157,180 163,176 165,170 L 185,100 Z" fill="#2D333B" stroke="#484F58" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Basket Weave Texture (Subtle lines) -->
+    <path d="M 62,120 L 178,120 M 69,140 L 171,140 M 76,160 L 164,160" stroke="#3A414A" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 90,100 L 95,180 M 120,100 L 120,180 M 150,100 L 145,180" stroke="#3A414A" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Basket Rim -->
+    <rect x="45" y="88" width="150" height="14" rx="7" fill="#3A414A" stroke="#484F58" stroke-width="2"/>
+
+    <!-- Basket Handle -->
+    <path d="M 75,88 C 75,45 165,45 165,88" fill="none" stroke="#8B949E" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Food Items Inside (Fresh Produce & Groceries) -->
+    
+    <!-- Apple (Red/Orange Accent) -->
+    <circle cx="95" cy="100" r="18" fill="#F85149"/>
+    <path d="M 95,82 Q 99,76 103,80" fill="none" stroke="#3FB950" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 92,84 L 95,81" stroke="#8B949E" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Carrot (Orange Accent) -->
+    <g transform="translate(130, 85) rotate(25)">
+      <path d="M 0,0 L 12,35 C 13,38 9,41 6,39 L -6,25 Z" fill="#F0883E"/>
+      <path d="M 3,-3 L 0,-15 M 6,-3 L 10,-14 M 0,-3 L -4,-12" fill="none" stroke="#3FB950" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Milk Carton (Blue/White Minimal Icon) -->
+    <g transform="translate(105, 75)">
+      <path d="M 0,10 L 10,0 L 20,10 L 20,45 L 0,45 Z" fill="#58A6FF"/>
+      <path d="M 5,0 L 15,0 L 15,4 L 5,4 Z" fill="#C9D1D9"/>
+      <rect x="4" y="16" width="12" height="18" rx="2" fill="#E6EDF3"/>
+    </g>
+
+    <!-- Leafy Green / Lettuce (Green Accent) -->
+    <path d="M 145,105 C 150,92 165,90 172,100 C 180,110 175,125 165,125 C 155,125 140,118 145,105 Z" fill="#3FB950"/>
+    <path d="M 135,115 C 138,102 152,102 158,112 C 165,122 155,135 145,132 C 135,129 132,125 135,115 Z" fill="#2EA043"/>
+  </g>
+</svg>

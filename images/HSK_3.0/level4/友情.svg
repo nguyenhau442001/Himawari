@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Ambient glow for warmth -->
+    <circle cx="120" cy="115" r="70" fill="#FF9F43" opacity="0.08"/>
+
+    <!-- TEN YEARS / TIME MARKER (Subtle timeline ground) -->
+    <path d="M 60 175 L 180 175" stroke="#2F3640" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="90" cy="175" r="3" fill="#57606F"/>
+    <circle cx="120" cy="175" r="3" fill="#57606F"/>
+    <circle cx="150" cy="175" r="3" fill="#57606F"/>
+
+    <!-- PERSON 1 (Left) -->
+    <!-- Head & Hair -->
+    <circle cx="90" cy="85" r="16" fill="#CED6E0"/>
+    <path d="M 74 85 C 74 74 82 70 90 70 C 98 70 106 74 106 85 Z" fill="#FFA502"/>
+    <!-- Body / Jacket -->
+    <path d="M 72 135 L 72 110 C 72 100 80 98 90 98 C 100 98 108 100 108 110 L 108 135 Z" fill="#3742FA"/>
+    <!-- Arm reaching out for handshake -->
+    <path d="M 100 115 L 122 110" stroke="#3742FA" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="124" cy="110" r="5" fill="#CED6E0"/>
+
+    <!-- PERSON 2 (Right) -->
+    <!-- Head & Hair -->
+    <circle cx="150" cy="85" r="16" fill="#CED6E0"/>
+    <path d="M 134 83 C 136 72 144 68 152 68 C 164 68 166 78 166 85 Z" fill="#2ED573"/>
+    <!-- Body / Jacket -->
+    <path d="M 132 135 L 132 110 C 132 100 140 98 150 98 C 160 98 168 100 168 110 L 168 135 Z" fill="#FF4757"/>
+    <!-- Arm reaching out for handshake -->
+    <path d="M 140 115 L 118 110" stroke="#FF4757" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="116" cy="110" r="5" fill="#CED6E0"/>
+
+    <!-- WARM HANDSHAKE / CONNECTION POINT -->
+    <circle cx="120" cy="110" r="7" fill="#FFA502"/>
+
+    <!-- SHARED BOND / SPARK (Representing enduring connection over years) -->
+    <path d="M 120 65 L 123 73 L 131 75 L 125 81 L 127 89 L 120 85 L 113 89 L 115 81 L 109 75 L 117 73 Z" fill="#FFA502" transform="scale(0.6) translate(133, 30)"/>
+  </g>
+</svg>
