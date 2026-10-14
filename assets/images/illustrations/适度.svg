@@ -1,0 +1,34 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Object representation: A carefully balanced and proportioned dumbbell/exercise weight resting stably, embodying moderation, physical activity, and well-regulated effort -->
+  
+  <!-- Subtle floor shadow -->
+  <ellipse cx="120" cy="175" rx="55" ry="8" fill="#121419"/>
+
+  <!-- Handle / Bar -->
+  <rect x="85" y="112" width="70" height="16" rx="3" fill="#64748B"/>
+  <rect x="105" y="112" width="30" height="16" fill="#94A3B8"/>
+
+  <!-- Left Weight Plate (Inner) -->
+  <rect x="75" y="94" width="14" height="52" rx="4" fill="#334155"/>
+  <circle cx="82" cy="120" r="4" fill="#1A1D24"/>
+
+  <!-- Left Weight Plate (Outer) -->
+  <rect x="63" y="80" width="14" height="80" rx="5" fill="#F59E0B"/>
+  <circle cx="70" cy="120" r="5" fill="#D97706"/>
+
+  <!-- Right Weight Plate (Inner) -->
+  <rect x="151" y="94" width="14" height="52" rx="4" fill="#334155"/>
+  <circle cx="158" cy="120" r="4" fill="#1A1D24"/>
+
+  <!-- Right Weight Plate (Outer) -->
+  <rect x="163" y="80" width="14" height="80" rx="5" fill="#F59E0B"/>
+  <circle cx="170" cy="120" r="5" fill="#D97706"/>
+
+  <!-- Supporting Balance Arc (visualizing equilibrium, control, and moderation) -->
+  <path d="M 60 145 A 65 65 0 0 0 180 145" fill="none" stroke="#334155" stroke-dasharray="4 4" stroke-width="2"/>
+  <circle cx="120" cy="80" r="4" fill="#38BDF8"/>
+  <path d="M 120 76 L 120 84 M 116 80 L 124 80" stroke="#1A1D24" stroke-width="2"/>
+</svg>

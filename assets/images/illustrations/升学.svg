@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Staircase structure representing academic progression -->
+  <path d="M60 180 L100 180 L100 150 L140 150 L140 120 L180 120 L180 190 L60 190 Z" fill="#2D343E"/>
+  <path d="M60 180 L100 180 L100 150 L140 150 L140 120 L180 120" stroke="#FFB84D" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Student character climbing -->
+  <g transform="translate(150, 80)">
+    <circle cx="10" cy="10" r="8" fill="#FFB84D"/>
+    <path d="M2 25 L18 25 L15 45 L5 45 Z" fill="#FFB84D"/>
+    <path d="M5 25 L2 40 M15 25 L18 40" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M5 45 L2 55 M15 45 L18 55" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Academic cap (mortarboard) at the top -->
+  <path d="M160 70 L180 80 L200 70 L180 60 Z" fill="#FFB84D"/>
+  <path d="M180 60 L180 80" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M180 80 L185 85" stroke="#FFB84D" stroke-width="2"/>
+  
+  <!-- Book stack at the base -->
+  <rect x="70" y="160" width="20" height="20" fill="#4A90E2" rx="2"/>
+  <rect x="72" y="155" width="20" height="20" fill="#5CA3F5" rx="2"/>
+</svg>

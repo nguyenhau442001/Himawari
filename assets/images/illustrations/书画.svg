@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Background scroll hanging element -->
+    <path d="M 60 50 L 180 50" stroke="#F1C40F" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Left Scroll (Calligraphy - Thư pháp) -->
+    <!-- Scroll body -->
+    <path d="M 70 65 L 105 65 L 105 185 L 70 185 Z" fill="#FDFEFE" opacity="0.95"/>
+    <!-- Scroll top/bottom rollers -->
+    <rect x="66" y="58" width="43" height="9" rx="3.5" fill="#D35400"/>
+    <rect x="66" y="182" width="43" height="9" rx="3.5" fill="#D35400"/>
+    <!-- Calligraphy abstract brush strokes (black ink) -->
+    <path d="M 87 85 Q 83 110 90 135" stroke="#2C3E50" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M 80 115 L 97 115" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 83 145 Q 92 155 88 170" stroke="#2C3E50" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <!-- Red Seal (Stamp) -->
+    <rect x="88" y="152" width="10" height="10" rx="1.5" fill="#C0392B"/>
+
+    <!-- Right Scroll (Painting - Hội họa) -->
+    <!-- Scroll body -->
+    <path d="M 135 55 L 170 55 L 170 175 L 135 175 Z" fill="#FDFEFE" opacity="0.95"/>
+    <!-- Scroll top/bottom rollers -->
+    <rect x="131" y="48" width="43" height="9" rx="3.5" fill="#D35400"/>
+    <rect x="131" y="172" width="43" height="9" rx="3.5" fill="#D35400"/>
+    <!-- Painting landscape vector artwork inside -->
+    <!-- Sun / Moon -->
+    <circle cx="152" cy="78" r="6" fill="#E67E22"/>
+    <!-- Mountain ranges -->
+    <path d="M 137 135 L 150 110 L 162 130 L 168 122 L 168 150 L 137 150 Z" fill="#7F8C8D" opacity="0.4"/>
+    <path d="M 137 125 L 145 115 L 157 135 L 168 125 L 168 150 L 137 150 Z" fill="#34495E" opacity="0.7"/>
+    <!-- Pine tree / foliage accent -->
+    <path d="M 143 145 Q 146 135 148 145 Z" fill="#27AE60"/>
+    <path d="M 145.5 137 L 145.5 150" stroke="#795548" stroke-width="2"/>
+    <!-- Red Seal (Stamp) -->
+    <rect x="153" y="155" width="10" height="10" rx="1.5" fill="#C0392B"/>
+    
+    <!-- Accent decorative elements: Asian paintbrush lying across the bottom -->
+    <g transform="translate(70, 195) rotate(-15)">
+      <!-- Brush handle -->
+      <path d="M 0 5 L 85 5 L 85 9 L 0 9 Z" fill="#8E44AD"/>
+      <path d="M 75 3 L 88 7 L 75 11 Z" fill="#F1C40F"/>
+      <!-- Brush tip (ferrule and bristles) -->
+      <rect x="85" y="4" width="6" height="5" fill="#BDC3C7"/>
+      <path d="M 91 3 C 102 4 102 8 91 9 Z" fill="#2C3E50"/>
+    </g>
+  </g>
+</svg>

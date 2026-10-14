@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Plate -->
+  <ellipse cx="120" cy="160" rx="70" ry="20" fill="#333842"/>
+  <ellipse cx="120" cy="155" rx="65" ry="18" fill="#2A2F38"/>
+  
+  <!-- Steaming Dish (Representing Appetite) -->
+  <path d="M70 150 Q120 120 170 150 L160 160 L80 160 Z" fill="#FFB347"/>
+  <path d="M80 160 L160 160 L150 180 L90 180 Z" fill="#E69A3D"/>
+  
+  <!-- Steam wisps -->
+  <path d="M100 130 Q105 110 100 90" stroke="#FFD700" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M120 125 Q125 105 120 85" stroke="#FFD700" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M140 130 Q145 110 140 90" stroke="#FFD700" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+  
+  <!-- Utensil (Fork) -->
+  <path d="M185 100 L185 140 L195 140 L195 100 Z" fill="#94A3B8"/>
+  <path d="M182 90 L185 100 L188 90 Z" fill="#94A3B8"/>
+  <path d="M192 90 L195 100 L198 90 Z" fill="#94A3B8"/>
+</svg>

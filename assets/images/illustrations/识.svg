@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk surface -->
+  <rect x="40" y="160" width="160" height="10" rx="2" fill="#2D343E"/>
+  
+  <!-- Newspaper/Book -->
+  <rect x="70" y="120" width="100" height="50" rx="4" fill="#E0E6ED"/>
+  <line x1="80" y1="135" x2="160" y2="135" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  <line x1="80" y1="145" x2="160" y2="145" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  <line x1="80" y1="155" x2="140" y2="155" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character (Elderly person) -->
+  <circle cx="120" cy="80" r="25" fill="#FFB86C"/>
+  <path d="M105 75 Q108 70 112 75" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  <path d="M128 75 Q132 70 136 75" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  <path d="M110 95 Q120 100 130 95" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  
+  <!-- Glasses -->
+  <circle cx="112" cy="82" r="8" fill="none" stroke="#1A1D24" stroke-width="2"/>
+  <circle cx="128" cy="82" r="8" fill="none" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="120" y1="82" x2="120" y2="82" stroke="#1A1D24" stroke-width="2"/>
+  
+  <!-- Hands interacting with text -->
+  <path d="M90 120 L95 105 L105 110 L100 120 Z" fill="#FFB86C"/>
+  <path d="M150 120 L145 105 L135 110 L140 120 Z" fill="#FFB86C"/>
+  
+  <!-- Motion/Focus lines -->
+  <path d="M100 100 Q110 90 120 90" stroke="#FFB86C" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M140 100 Q130 90 120 90" stroke="#FFB86C" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+</svg>

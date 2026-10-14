@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Body (Physical) Representation: A stylized human silhouette in a meditative/balanced pose -->
+  <g transform="translate(120, 130)">
+    <circle cx="0" cy="-45" r="15" fill="#FFB84D"/> <!-- Head -->
+    <path d="M-25,0 C-25,-20 25,-20 25,0 L20,40 L-20,40 Z" fill="#4D96FF"/> <!-- Torso -->
+    <path d="M-15,40 L-20,85 L-5,85 L-5,40 Z" fill="#4D96FF"/> <!-- Leg Left -->
+    <path d="M15,40 L20,85 L5,85 L5,40 Z" fill="#4D96FF"/> <!-- Leg Right -->
+    <path d="M-22,5 L-40,30 L-35,35 L-18,15 Z" fill="#4D96FF"/> <!-- Arm Left -->
+    <path d="M22,5 L40,30 L35,35 L18,15 Z" fill="#4D96FF"/> <!-- Arm Right -->
+  </g>
+
+  <!-- Mind (Mental) Representation: A glowing, stylized brain/abstract thought cloud icon integrated above the head -->
+  <g transform="translate(120, 60)">
+    <path d="M-15,-10 C-25,-10 -30,0 -30,10 C-30,20 -20,25 -10,25 C-5,35 5,35 10,25 C20,25 30,20 30,10 C30,0 25,-10 15,-10 C15,-20 5,-25 -5,-25 C-15,-25 -20,-20 -15,-10" fill="#FFB84D" opacity="0.9"/>
+  </g>
+
+  <!-- Balance Indicator: A subtle horizontal line representing equilibrium -->
+  <line x1="80" y1="160" x2="160" y2="160" stroke="#3A3F4B" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

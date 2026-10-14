@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle Ambient Glow for Energy Output -->
+  <circle cx="120" cy="120" r="70" fill="#FF9F43" opacity="0.08"/>
+
+  <!-- Generator Base / Structure -->
+  <path d="M75 160 L165 160 L155 180 L85 180 Z" fill="#2C323B"/>
+  <rect x="85" y="100" width="70" height="60" rx="6" fill="#282D37"/>
+  <rect x="95" y="110" width="50" height="40" rx="4" fill="#1E232B"/>
+
+  <!-- Rotor / Core (Industrial Generator Motif) -->
+  <circle cx="120" cy="130" r="18" fill="#1E232B"/>
+  <circle cx="120" cy="130" r="8" fill="#FF9F43"/>
+
+  <!-- Power Output Visualization (Directional Flow representing "输出" / Output) -->
+  <g transform="translate(0, 0)">
+    <!-- Central Energy Bolt emerging upward/outward -->
+    <path d="M120 90 L105 60 L122 60 L112 30 L140 65 L124 65 L135 90 Z" fill="#FF9F43"/>
+    
+    <!-- Stable Energy Waves / Pulses radiating out -->
+    <path d="M85 70 C75 80 75 100 85 110" stroke="#48DBFB" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M155 70 C165 80 165 100 155 110" stroke="#48DBFB" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- Outward directional arrows representing stable electrical transmission -->
+    <path d="M68 65 L55 65 L60 58" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M172 65 L185 65 L180 58" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Stable Output Indicator Nodes -->
+  <circle cx="65" cy="65" r="4" fill="#48DBFB"/>
+  <circle cx="175" cy="65" r="4" fill="#48DBFB"/>
+
+  <!-- Heavy Duty Terminal Mounts -->
+  <rect x="115" y="85" width="10" height="15" fill="#3A424E"/>
+</svg>

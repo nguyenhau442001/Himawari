@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Taxonomic classification tree structure -->
+    <!-- Root category -->
+    <rect x="70" y="30" width="100" height="32" rx="6" fill="#252A34" stroke="#4F5D75" stroke-width="2"/>
+    <circle cx="86" cy="46" r="6" fill="#FFB703"/>
+    <rect x="100" y="41" width="56" height="10" rx="3" fill="#E0E1DD"/>
+
+    <!-- Connecting lines -->
+    <path d="M 120 62 L 120 80" stroke="#4F5D75" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 70 80 L 170 80" stroke="#4F5D75" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 70 80 L 70 95" stroke="#4F5D75" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 170 80 L 170 95" stroke="#4F5D75" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Side branch (muted) -->
+    <rect x="40" y="95" width="60" height="28" rx="6" fill="#252A34" opacity="0.5"/>
+    <circle cx="52" cy="109" r="4" fill="#4F5D75"/>
+    <rect x="62" y="105" width="30" height="8" rx="2" fill="#4F5D75" opacity="0.6"/>
+
+    <!-- Highlighted target branch (属 - category/genus level) -->
+    <rect x="130" y="95" width="90" height="34" rx="6" fill="#2A303C" stroke="#FFB703" stroke-width="2.5"/>
+    <circle cx="146" cy="112" r="6" fill="#FFB703"/>
+    <rect x="160" y="107" width="50" height="10" rx="3" fill="#FFB703"/>
+
+    <!-- Connecting line to specific subject -->
+    <path d="M 175 129 L 175 148" stroke="#FFB703" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- Subject focus (Giant Panda head representing biological classification instance) -->
+    <g transform="translate(120, 150)">
+      <!-- Base highlight glow -->
+      <circle cx="0" cy="22" r="32" fill="#FFB703" opacity="0.15"/>
+      
+      <!-- Panda Ears -->
+      <circle cx="-22" cy="5" r="10" fill="#22252A"/>
+      <circle cx="22" cy="5" r="10" fill="#22252A"/>
+
+      <!-- Panda Head -->
+      <circle cx="0" cy="22" r="28" fill="#F8F9FA"/>
+
+      <!-- Panda Eye Patches -->
+      <ellipse cx="-11" cy="18" rx="8" ry="10" fill="#22252A" transform="rotate(-15 -11 18)"/>
+      <ellipse cx="11" cy="18" rx="8" ry="10" fill="#22252A" transform="rotate(15 11 18)"/>
+      
+      <!-- Eyes -->
+      <circle cx="-10" cy="18" r="3" fill="#F8F9FA"/>
+      <circle cx="10" cy="18" r="3" fill="#F8F9FA"/>
+      <circle cx="-9" cy="17" r="1" fill="#1A1D24"/>
+      <circle cx="11" cy="17" r="1" fill="#1A1D24"/>
+
+      <!-- Nose and Mouth -->
+      <ellipse cx="0" cy="26" rx="4" ry="3" fill="#22252A"/>
+      <path d="M 0 29 C -3 33 -5 33 -7 31" stroke="#22252A" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <path d="M 0 29 C 3 33 5 33 7 31" stroke="#22252A" stroke-width="2" stroke-linecap="round" fill="none"/>
+    </g>
+  </g>
+</svg>

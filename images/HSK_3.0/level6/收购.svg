@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Warehouse / Grain Silo Building Background -->
+    <path d="M60 160 L60 95 L120 70 L180 95 L180 160 Z" fill="#242B38" />
+    <polygon points="120,60 190,90 50,90" fill="#2D3748" />
+    <rect x="95" y="110" width="50" height="50" rx="4" fill="#1A1D24" />
+    <path d="M120 110 L120 160 M95 135 L145 135" stroke="#2D3748" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Conveyor / Intake Hopper representing State Procurement -->
+    <path d="M50 175 L190 175 L170 195 L70 195 Z" fill="#3A4454" />
+    <rect x="65" y="170" width="110" height="8" rx="2" fill="#F59E0B" />
+
+    <!-- Wheat / Harvest Stack (Focus of Acquisition) -->
+    <g transform="translate(110, 115)">
+      <!-- Golden Wheat bundle -->
+      <path d="M20 50 C20 30 10 15 0 0 C-10 15 -20 30 -20 50 C-20 65 20 65 20 50 Z" fill="#F59E0B" />
+      <path d="M10 40 C10 25 5 10 0 2 C-5 10 -10 25 -10 40 Z" fill="#FBBF24" />
+      <path d="M-5 55 L5 55 L0 68 Z" fill="#D97706" />
+      
+      <!-- Stalk accents -->
+      <path d="M-15 35 C-5 35 0 25 2 15" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+      <path d="M15 35 C5 35 0 25 -2 15" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Additional Wheat Bundle Left -->
+    <g transform="translate(75, 130) scale(0.7)">
+      <path d="M20 50 C20 30 10 15 0 0 C-10 15 -20 30 -20 50 C-20 65 20 65 20 50 Z" fill="#F59E0B" />
+      <path d="M-5 55 L5 55 L0 68 Z" fill="#D97706" />
+    </g>
+
+    <!-- Additional Wheat Bundle Right -->
+    <g transform="translate(165, 130) scale(0.7)">
+      <path d="M20 50 C20 30 10 15 0 0 C-10 15 -20 30 -20 50 C-20 65 20 65 20 50 Z" fill="#F59E0B" />
+      <path d="M-5 55 L5 55 L0 68 Z" fill="#D97706" />
+    </g>
+
+    <!-- Official Transaction / Scale Element (Handshake/Exchange Concept) -->
+    <g transform="translate(120, 185)">
+      <!-- Scale base / platform -->
+      <rect x="-60" y="10" width="120" height="8" rx="4" fill="#4B5563" />
+      <rect x="-40" y="2" width="80" height="8" rx="2" fill="#9CA3AF" />
+      
+      <!-- Glowing digital readout screen representing fair official pricing -->
+      <rect x="-18" y="-12" width="36" height="16" rx="3" fill="#111827" stroke="#F59E0B" stroke-width="2"/>
+      <circle cx="-10" cy="-4" r="2" fill="#10B981" />
+      <circle cx="0" cy="-4" r="2" fill="#10B981" />
+      <circle cx="10" cy="-4" r="2" fill="#10B981" />
+    </g>
+
+    <!-- Floating Secure/Official Acquisition Check Badge -->
+    <circle cx="180" cy="70" r="16" fill="#10B981" />
+    <path d="M173 70 L178 75 L188 63" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

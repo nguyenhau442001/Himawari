@@ -1,0 +1,69 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Mud / Ground Context -->
+    <path d="M 30,165 Q 90,155 150,165 T 210,165 L 210,185 Q 150,195 90,185 T 30,185 Z" fill="#2D323B"/>
+    <path d="M 20,175 Q 70,168 130,175 T 220,173 L 220,195 Q 130,205 20,195 Z" fill="#14161B"/>
+    <!-- Mud Puddle / Stuck Area -->
+    <ellipse cx="120" cy="180" rx="90" ry="15" fill="#111317"/>
+    <path d="M 70,182 C 85,188 155,188 170,182" fill="none" stroke="#3A414D" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Cargo Truck Body (Stuck in Mud) -->
+    <!-- Wheels half sunken -->
+    <circle cx="75" cy="172" r="14" fill="#111317"/>
+    <circle cx="75" cy="172" r="6" fill="#3A414D"/>
+    <circle cx="165" cy="172" r="14" fill="#111317"/>
+    <circle cx="165" cy="172" r="6" fill="#3A414D"/>
+    
+    <!-- Truck Chassis & Cab -->
+    <rect x="55" y="125" width="130" height="42" rx="4" fill="#E05638"/>
+    <!-- Cab Front -->
+    <path d="M 155,125 L 185,125 Q 192,125 192,132 L 192,167 L 155,167 Z" fill="#F26A4B"/>
+    <!-- Windshield -->
+    <path d="M 160,133 L 180,133 Q 185,133 185,138 L 185,150 L 160,150 Z" fill="#2D323B"/>
+    <!-- Headlight -->
+    <rect x="189" y="152" width="4" height="8" rx="2" fill="#F39C12"/>
+
+    <!-- Motion / Effort Strain Lines (Truck) -->
+    <path d="M 45,135 L 35,135" stroke="#F39C12" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 42,145 L 32,145" stroke="#F39C12" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 45,155 L 35,155" stroke="#F39C12" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Character 1 (Pushing - Left) -->
+    <g transform="translate(25, 115)">
+      <!-- Body leaning forward -->
+      <path d="M 25,12 L 15,35 L 25,50" fill="none" stroke="#3498DB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Legs pushing -->
+      <path d="M 20,40 L 5,52" fill="none" stroke="#2980B9" stroke-width="7" stroke-linecap="round"/>
+      <path d="M 22,40 L 35,52" fill="none" stroke="#2980B9" stroke-width="7" stroke-linecap="round"/>
+      <!-- Head -->
+      <circle cx="30" cy="5" r="7" fill="#F1C40F"/>
+      <!-- Arms pushing against truck -->
+      <path d="M 22,25 L 36,28" fill="none" stroke="#3498DB" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- Character 2 (Pushing - Center/Right behind truck) -->
+    <g transform="translate(95, 105)">
+      <!-- Body leaning intensely -->
+      <path d="M 20,15 L 10,40 L 22,55" fill="none" stroke="#E67E22" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Legs rooted -->
+      <path d="M 15,45 L 2,58" fill="none" stroke="#D35400" stroke-width="7" stroke-linecap="round"/>
+      <path d="M 18,45 L 28,58" fill="none" stroke="#D35400" stroke-width="7" stroke-linecap="round"/>
+      <!-- Head -->
+      <circle cx="24" cy="7" r="7" fill="#F1C40F"/>
+      <!-- Arms pushing -->
+      <path d="M 16,28 L 32,25" fill="none" stroke="#E67E22" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- Sweat / Effort Indicators (使劲 / Shǐ Jìn Visual Cues) -->
+    <path d="M 60,110 Q 63,115 60,120 Q 57,115 60,110 Z" fill="#3498DB"/>
+    <path d="M 125,100 Q 128,105 125,110 Q 122,105 125,100 Z" fill="#3498DB"/>
+    <path d="M 140,105 Q 142,109 140,113 Q 138,109 140,105 Z" fill="#3498DB"/>
+    
+    <!-- Focus Force Lines (Highlighting physical exertion / pushing force) -->
+    <path d="M 50,130 Q 55,130 60,128" fill="none" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 120,125 Q 125,125 130,123" fill="none" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

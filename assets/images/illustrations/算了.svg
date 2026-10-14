@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Tent representing the camping plan -->
+  <path d="M120 70 L170 160 L70 160 Z" fill="#FFB347"/>
+  <path d="M120 70 L120 160 L170 160 Z" fill="#E69A3D"/>
+  
+  <!-- Rain clouds -->
+  <path d="M50 50 Q40 40 60 40 Q80 30 100 40 Q120 30 140 40 Q160 30 180 40 Q190 40 190 50 Q190 60 180 60 L50 60 Z" fill="#7F8C8D"/>
+  
+  <!-- Raindrops -->
+  <path d="M60 70 L60 85" stroke="#3498DB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M100 75 L100 90" stroke="#3498DB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M140 70 L140 85" stroke="#3498DB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M180 75 L180 90" stroke="#3498DB" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- The "Let it go/Cancel" gesture: A hand waving away the plan -->
+  <g transform="translate(140, 140)">
+    <path d="M0 0 C-10 -20 -30 -20 -40 0 L-40 10 C-40 20 -30 20 -20 20 L-20 40" fill="#FFB347"/>
+    <circle cx="-30" cy="-10" r="10" fill="#FFB347"/>
+  </g>
+  
+  <!-- Cross mark over the tent to signify "giving up/canceling" -->
+  <path d="M80 80 L160 150 M160 80 L80 150" stroke="#E74C3C" stroke-width="8" stroke-linecap="round"/>
+</svg>

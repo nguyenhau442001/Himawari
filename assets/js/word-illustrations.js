@@ -32846,6 +32846,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "上旬.svg",
     "src": "images/HSK_3.0/level6/上旬.svg",
     "caption": "thượng tuần, mười ngày đầu tháng"
+  },
+  "射": {
+    "file": "射.svg",
+    "src": "images/HSK_3.0/level6/射.svg",
+    "caption": "bắn, chiếu (tia)"
+  },
+  "摄像": {
+    "file": "摄像.svg",
+    "src": "images/HSK_3.0/level6/摄像.svg",
+    "caption": "quay phim, ghi hình"
+  },
+  "摄像头": {
+    "file": "摄像头.svg",
+    "src": "images/HSK_3.0/level6/摄像头.svg",
+    "caption": "camera, ống kính quay phim"
+  },
+  "身心": {
+    "file": "身心.svg",
+    "src": "images/HSK_3.0/level6/身心.svg",
+    "caption": "thể xác và tinh thần, thân tâm"
+  },
+  "深夜": {
+    "file": "深夜.svg",
+    "src": "images/HSK_3.0/level6/深夜.svg",
+    "caption": "đêm khuya"
+  },
+  "神": {
+    "file": "神.svg",
+    "src": "images/HSK_3.0/level6/神.svg",
+    "caption": "thần kỳ, kỳ diệu; thần linh"
+  },
+  "升²": {
+    "file": "升².svg",
+    "src": "images/HSK_3.0/level6/升².svg",
+    "caption": "thăng, lên"
+  },
+  "生成": {
+    "file": "生成.svg",
+    "src": "images/HSK_3.0/level6/生成.svg",
+    "caption": "tạo ra, sinh ra"
+  },
+  "生命力": {
+    "file": "生命力.svg",
+    "src": "images/HSK_3.0/level6/生命力.svg",
+    "caption": "sức sống, sức sống mãnh liệt"
+  },
+  "升学": {
+    "file": "升学.svg",
+    "src": "images/HSK_3.0/level6/升学.svg",
+    "caption": "lên lớp trên, học lên bậc cao hơn"
+  },
+  "剩余": {
+    "file": "剩余.svg",
+    "src": "images/HSK_3.0/level6/剩余.svg",
+    "caption": "còn lại, thặng dư"
+  },
+  "诗词": {
+    "file": "诗词.svg",
+    "src": "images/HSK_3.0/level6/诗词.svg",
+    "caption": "thơ từ, thơ ca cổ điển"
+  },
+  "湿度": {
+    "file": "湿度.svg",
+    "src": "images/HSK_3.0/level6/湿度.svg",
+    "caption": "độ ẩm"
+  },
+  "师父": {
+    "file": "师父.svg",
+    "src": "images/HSK_3.0/level6/师父.svg",
+    "caption": "sư phụ, thầy (dạy nghề/võ)"
+  },
+  "诗歌": {
+    "file": "诗歌.svg",
+    "src": "images/HSK_3.0/level6/诗歌.svg",
+    "caption": "thơ ca"
+  },
+  "识": {
+    "file": "识.svg",
+    "src": "images/HSK_3.0/level6/识.svg",
+    "caption": "nhận biết, biết chữ, hiểu biết"
+  },
+  "实时": {
+    "file": "实时.svg",
+    "src": "images/HSK_3.0/level6/实时.svg",
+    "caption": "thời gian thực"
+  },
+  "时速": {
+    "file": "时速.svg",
+    "src": "images/HSK_3.0/level6/时速.svg",
+    "caption": "tốc độ theo giờ, vận tốc"
+  },
+  "食欲": {
+    "file": "食欲.svg",
+    "src": "images/HSK_3.0/level6/食欲.svg",
+    "caption": "sự thèm ăn, cảm giác ngon miệng"
+  },
+  "使劲": {
+    "file": "使劲.svg",
+    "src": "images/HSK_3.0/level6/使劲.svg",
+    "caption": "ra sức, dùng sức"
+  },
+  "适度": {
+    "file": "适度.svg",
+    "src": "images/HSK_3.0/level6/适度.svg",
+    "caption": "vừa phải, có chừng mực, điều độ"
+  },
+  "事后": {
+    "file": "事后.svg",
+    "src": "images/HSK_3.0/level6/事后.svg",
+    "caption": "sau sự việc, sau đó"
+  },
+  "视觉": {
+    "file": "视觉.svg",
+    "src": "images/HSK_3.0/level6/视觉.svg",
+    "caption": "thị giác"
+  },
+  "收购": {
+    "file": "收购.svg",
+    "src": "images/HSK_3.0/level6/收购.svg",
+    "caption": "thu mua, mua lại"
+  },
+  "收取": {
+    "file": "收取.svg",
+    "src": "images/HSK_3.0/level6/收取.svg",
+    "caption": "thu nhận, thu (phí)"
+  },
+  "手臂": {
+    "file": "手臂.svg",
+    "src": "images/HSK_3.0/level6/手臂.svg",
+    "caption": "cánh tay"
+  },
+  "受灾": {
+    "file": "受灾.svg",
+    "src": "images/HSK_3.0/level6/受灾.svg",
+    "caption": "gặp thiên tai, chịu nạn"
+  },
+  "输出": {
+    "file": "输出.svg",
+    "src": "images/HSK_3.0/level6/输出.svg",
+    "caption": "đầu ra, xuất khẩu, truyền tải"
+  },
+  "书画": {
+    "file": "书画.svg",
+    "src": "images/HSK_3.0/level6/书画.svg",
+    "caption": "thư pháp và hội họa"
+  },
+  "输送": {
+    "file": "输送.svg",
+    "src": "images/HSK_3.0/level6/输送.svg",
+    "caption": "vận chuyển, truyền tải, tiếp tế"
+  },
+  "书写": {
+    "file": "书写.svg",
+    "src": "images/HSK_3.0/level6/书写.svg",
+    "caption": "viết"
+  },
+  "属": {
+    "file": "属.svg",
+    "src": "images/HSK_3.0/level6/属.svg",
+    "caption": "thuộc về, thuộc"
+  },
+  "薯片": {
+    "file": "薯片.svg",
+    "src": "images/HSK_3.0/level6/薯片.svg",
+    "caption": "khoai tây chiên giòn"
+  },
+  "数目": {
+    "file": "数目.svg",
+    "src": "images/HSK_3.0/level6/数目.svg",
+    "caption": "số lượng, con số"
+  },
+  "数字化": {
+    "file": "数字化.svg",
+    "src": "images/HSK_3.0/level6/数字化.svg",
+    "caption": "số hóa"
+  },
+  "率先": {
+    "file": "率先.svg",
+    "src": "images/HSK_3.0/level6/率先.svg",
+    "caption": "dẫn đầu, đi đầu"
+  },
+  "水稻": {
+    "file": "水稻.svg",
+    "src": "images/HSK_3.0/level6/水稻.svg",
+    "caption": "lúa nước"
+  },
+  "水库": {
+    "file": "水库.svg",
+    "src": "images/HSK_3.0/level6/水库.svg",
+    "caption": "hồ chứa nước"
+  },
+  "水流": {
+    "file": "水流.svg",
+    "src": "images/HSK_3.0/level6/水流.svg",
+    "caption": "dòng nước, dòng chảy"
+  },
+  "水面": {
+    "file": "水面.svg",
+    "src": "images/HSK_3.0/level6/水面.svg",
+    "caption": "mặt nước"
+  },
+  "思路": {
+    "file": "思路.svg",
+    "src": "images/HSK_3.0/level6/思路.svg",
+    "caption": "ý tưởng"
+  },
+  "松": {
+    "file": "松.svg",
+    "src": "images/HSK_3.0/level6/松.svg",
+    "caption": "lỏng, lỏng lẻo; nới lỏng"
+  },
+  "搜集": {
+    "file": "搜集.svg",
+    "src": "images/HSK_3.0/level6/搜集.svg",
+    "caption": "thu thập, tìm tòi"
+  },
+  "算了": {
+    "file": "算了.svg",
+    "src": "images/HSK_3.0/level6/算了.svg",
+    "caption": "thôi bỏ đi, thôi vậy"
+  },
+  "算是": {
+    "file": "算是.svg",
+    "src": "images/HSK_3.0/level6/算是.svg",
+    "caption": "coi như là, xem như"
+  },
+  "虽": {
+    "file": "虽.svg",
+    "src": "images/HSK_3.0/level6/虽.svg",
+    "caption": "tuy, mặc dù"
+  },
+  "岁数": {
+    "file": "岁数.svg",
+    "src": "images/HSK_3.0/level6/岁数.svg",
+    "caption": "tuổi tác, tuổi"
+  },
+  "损伤": {
+    "file": "损伤.svg",
+    "src": "images/HSK_3.0/level6/损伤.svg",
+    "caption": "thiệt hại"
+  },
+  "所²": {
+    "file": "所².svg",
+    "src": "images/HSK_3.0/level6/所².svg",
+    "caption": "nơi, sở (lượng từ tổ chức)"
+  },
+  "台球": {
+    "file": "台球.svg",
+    "src": "images/HSK_3.0/level6/台球.svg",
+    "caption": "bi-a, bida"
   }
 };
 

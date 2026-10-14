@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(60, 40)">
+  <path d="M60 20C60 8.9543 68.9543 0 80 0H100C111.046 0 120 8.9543 120 20V40H60V20Z" fill="#FFB84D"/>
+  <path d="M70 40H110V140H70V40Z" fill="#E0E0E0"/>
+  <path d="M60 140H120V160H60V140Z" fill="#B0B0B0"/>
+  <path d="M85 60H95V120H85V60Z" fill="#FFB84D"/>
+  <path d="M75 70H105V80H75V70Z" fill="#FFB84D"/>
+  <path d="M65 100H115V110H65V100Z" fill="#FFB84D"/>
+  <circle cx="90" cy="20" r="5" fill="#1A1D24"/>
+  <path d="M80 160H100L105 180H75L80 160Z" fill="#FFB84D"/>
+</g>
+<g transform="translate(40, 180)">
+  <path d="M20 0H140C151.046 0 160 8.9543 160 20V30H0V20C0 8.9543 8.9543 0 20 0Z" fill="#FFB84D" opacity="0.3"/>
+</g>
+</svg>
