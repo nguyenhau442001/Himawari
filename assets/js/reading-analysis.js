@@ -10,6 +10,7 @@ let readingCategory = 'all'; // 'all' | 'sentence_building' | 'sentence_logic' |
 let readingTestFilter = 'all'; // 'all' | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 let readingFilteredList = [];
 let readingCurrentIndex = 0;
+let readingSelectedTokenIndex = null;
 let readingActiveMode = 'breakdown'; // 'breakdown' | 'practice'
 
 // Display Preferences
@@ -175,16 +176,20 @@ function setReadingActiveMode(mode) {
 function nextReadingQuestion() {
   if (readingCurrentIndex < readingFilteredList.length - 1) {
     readingCurrentIndex++;
+    readingSelectedTokenIndex = null;
     resetPracticeState();
     renderReadingAnalysisScreen();
+    syncRouterReadingQ();
   }
 }
 
 function prevReadingQuestion() {
   if (readingCurrentIndex > 0) {
     readingCurrentIndex--;
+    readingSelectedTokenIndex = null;
     resetPracticeState();
     renderReadingAnalysisScreen();
+    syncRouterReadingQ();
   }
 }
 
@@ -192,8 +197,16 @@ function jumpToReadingIndex(idx) {
   idx = parseInt(idx, 10);
   if (!isNaN(idx) && idx >= 0 && idx < readingFilteredList.length) {
     readingCurrentIndex = idx;
+    readingSelectedTokenIndex = null;
     resetPracticeState();
     renderReadingAnalysisScreen();
+    syncRouterReadingQ();
+  }
+}
+
+function syncRouterReadingQ() {
+  if (typeof SpaRouter !== 'undefined' && typeof SpaRouter.replaceView === 'function') {
+    SpaRouter.replaceView({ view: 'tab', tab: 'reading', q: readingCurrentIndex + 1 });
   }
 }
 
@@ -299,6 +312,11 @@ function renderReadingAnalysisScreen() {
   // Initialize practice items if not already done
   if (practiceBuilderBank.length === 0 && practiceBuilderSlots.length === 0) {
     resetPracticeState();
+  }
+
+  // Initialize selected word for sidebar if not already set
+  if (readingSelectedTokenIndex === null || !currentEntry.tokens || !currentEntry.tokens[readingSelectedTokenIndex]) {
+    readingSelectedTokenIndex = getInitialSelectedTokenIndex(currentEntry);
   }
 
   container.innerHTML = `
@@ -409,76 +427,100 @@ function renderReadingAnalysisScreen() {
         </header>
       `}
 
-      <!-- MAIN PASSAGE CARD (De-boxified, clear hierarchy, spacious) -->
-      <section class="reading-passage-card" aria-label="Nội dung bài đọc">
-        <div class="reading-card-meta-row">
-          <div class="reading-meta-left">
-            <span class="reading-source-text">${currentEntry.source || 'HSK 4 Chuẩn'}</span>
-            ${currentEntry.exam_part ? `<span class="reading-exam-tag">${currentEntry.exam_part}</span>` : ''}
+      <!-- TWO-COLUMN WORKSPACE GRID (Left 65%, Right 35%) -->
+      <div class="reading-workspace-grid">
+        <!-- LEFT COLUMN: Main Sentence & Navigation (65%) -->
+        <main class="reading-col-main" aria-label="Khu vực bài đọc chính">
+          <section class="reading-passage-card" aria-label="Nội dung bài đọc">
+            <div class="reading-card-meta-row">
+              <div class="reading-meta-left">
+                <span class="reading-source-text">${currentEntry.source || 'HSK 4 Chuẩn'}</span>
+                ${currentEntry.exam_part ? `<span class="reading-exam-tag">${currentEntry.exam_part}</span>` : ''}
+              </div>
+
+              <div class="reading-audio-controls">
+                <button type="button" class="reading-btn-speaker" id="readingPlayAudioBtn" onclick="playReadingSentenceAudio(readingFilteredList[readingCurrentIndex])" title="Nghe phát âm câu (Space)">
+                  🔊 Nghe
+                </button>
+                <button type="button" class="reading-btn-speed" id="readingSpeedBtn" onclick="toggleReadingSpeed()" title="Đổi tốc độ đọc">
+                  ${readingPrefs.speechSpeed}x
+                </button>
+                <button type="button" class="reading-btn-dictation ${readingPrefs.dictationMode ? 'active' : ''}" onclick="toggleReadingDictation()" title="Luyện chép chính tả">
+                  ✍️ Chép chính tả
+                </button>
+              </div>
+            </div>
+
+            <!-- MAIN CHINESE SENTENCE -->
+            <div class="reading-zh-hero">
+              ${readingPrefs.dictationMode ? `
+                <div class="reading-dictation-prompt">
+                  🎧 Chế độ chép chính tả đang bật. Hãy bấm nút <strong>Nghe</strong> và gõ lại câu vào ô bên dưới!
+                </div>
+              ` : `
+                <div class="reading-zh-flow" id="readingZhLine">
+                  ${renderCleanTokensHtml(currentEntry)}
+                </div>
+              `}
+            </div>
+
+            <!-- DICTATION INPUT BOX -->
+            ${readingPrefs.dictationMode ? renderDictationBoxHtml(currentEntry) : ''}
+
+            <!-- SENTENCE TRANSLATIONS (Clear typography hierarchy) -->
+            ${!readingPrefs.dictationMode ? renderSentenceTranslationsHtml(currentEntry) : ''}
+
+            <!-- PRACTICE PANELS (When in practice mode) -->
+            ${readingActiveMode === 'practice' ? renderPracticePanelsHtml(currentEntry) : ''}
+          </section>
+
+          <!-- BOTTOM NAVIGATION FOOTER (At bottom of Left Column) -->
+          <footer class="reading-navigation-footer">
+            <button type="button" class="reading-nav-btn prev-btn" onclick="prevReadingQuestion()" ${readingCurrentIndex === 0 ? 'disabled' : ''} title="Câu trước (← hoặc K)">
+              ← Câu trước
+            </button>
+
+            <div class="reading-footer-middle">
+              <select class="reading-jump-select" aria-label="Chọn nhanh câu hỏi" onchange="jumpToReadingIndex(this.value)">
+                ${readingFilteredList.map((item, idx) => `
+                  <option value="${idx}" ${idx === readingCurrentIndex ? 'selected' : ''}>
+                    ${idx + 1}/${readingFilteredList.length} · [${getCategoryLabel(item.category)}] ${item.title || item.zh.substring(0, 18) + '...'}
+                  </option>
+                `).join('')}
+              </select>
+            </div>
+
+            <button type="button" class="reading-nav-btn next-btn" onclick="nextReadingQuestion()" ${readingCurrentIndex === readingFilteredList.length - 1 ? 'disabled' : ''} title="Câu sau (→ hoặc J)">
+              Câu tiếp theo →
+            </button>
+          </footer>
+        </main>
+
+        <!-- RIGHT COLUMN: Sidebar Study Materials (35%) -->
+        <aside class="reading-col-sidebar" aria-label="Tài liệu bổ trợ">
+          <!-- 1. VOCABULARY WORD TAGS LIST / GRID (At top of sidebar) -->
+          <div class="sidebar-study-card sidebar-vocab-card">
+            <div class="sidebar-card-header">
+              <div class="sidebar-header-left">
+                <span class="sidebar-header-icon">📚</span>
+                <span class="sidebar-header-title">Từ vựng trong câu</span>
+              </div>
+              <span class="sidebar-hint-tag">Bấm để xem chi tiết</span>
+            </div>
+            ${renderSidebarVocabGridHtml(currentEntry)}
           </div>
 
-          <div class="reading-audio-controls">
-            <button type="button" class="reading-btn-speaker" id="readingPlayAudioBtn" onclick="playReadingSentenceAudio(readingFilteredList[readingCurrentIndex])" title="Nghe phát âm câu (Space)">
-              🔊 Nghe
-            </button>
-            <button type="button" class="reading-btn-speed" id="readingSpeedBtn" onclick="toggleReadingSpeed()" title="Đổi tốc độ đọc">
-              ${readingPrefs.speechSpeed}x
-            </button>
-            <button type="button" class="reading-btn-dictation ${readingPrefs.dictationMode ? 'active' : ''}" onclick="toggleReadingDictation()" title="Luyện chép chính tả">
-              ✍️ Chép chính tả
-            </button>
+          <!-- 2. DEDICATED DETAIL PANEL FOR SELECTED WORD -->
+          <div class="sidebar-study-card sidebar-word-detail-card" id="readingWordDetailPanel">
+            ${renderSidebarWordDetailHtml(currentEntry)}
           </div>
-        </div>
 
-        <!-- MAIN CHINESE SENTENCE -->
-        <div class="reading-zh-hero">
-          ${readingPrefs.dictationMode ? `
-            <div class="reading-dictation-prompt">
-              🎧 Chế độ chép chính tả đang bật. Hãy bấm nút <strong>Nghe</strong> và gõ lại câu vào ô bên dưới!
-            </div>
-          ` : `
-            <div class="reading-zh-flow" id="readingZhLine">
-              ${renderCleanTokensHtml(currentEntry)}
-            </div>
-          `}
-        </div>
-
-        <!-- DICTATION INPUT BOX -->
-        ${readingPrefs.dictationMode ? renderDictationBoxHtml(currentEntry) : ''}
-
-        <!-- SENTENCE TRANSLATIONS (Clear typography hierarchy) -->
-        ${!readingPrefs.dictationMode ? renderSentenceTranslationsHtml(currentEntry) : ''}
-
-        <!-- INLINE VOCABULARY & HAN-VIET STRIP (Eliminates the heavy chopped-up orange boxes) -->
-        ${!readingPrefs.dictationMode ? renderVocabularyStripHtml(currentEntry) : ''}
-
-        <!-- TOKEN INSPECTOR DRAWER -->
-        <div id="readingTokenInspector" style="display:none;"></div>
-      </section>
-
-      <!-- CONTENT PANELS BASED ON ACTIVE MODE -->
-      ${readingActiveMode === 'breakdown' ? renderBreakdownPanelsHtml(currentEntry) : renderPracticePanelsHtml(currentEntry)}
-
-      <!-- BOTTOM NAVIGATION FOOTER -->
-      <footer class="reading-navigation-footer">
-        <button type="button" class="reading-nav-btn prev-btn" onclick="prevReadingQuestion()" ${readingCurrentIndex === 0 ? 'disabled' : ''} title="Câu trước (← hoặc K)">
-          ← Câu trước
-        </button>
-
-        <div class="reading-footer-middle">
-          <select class="reading-jump-select" aria-label="Chọn nhanh câu hỏi" onchange="jumpToReadingIndex(this.value)">
-            ${readingFilteredList.map((item, idx) => `
-              <option value="${idx}" ${idx === readingCurrentIndex ? 'selected' : ''}>
-                ${idx + 1}/${readingFilteredList.length} · [${getCategoryLabel(item.category)}] ${item.title || item.zh.substring(0, 18) + '...'}
-              </option>
-            `).join('')}
-          </select>
-        </div>
-
-        <button type="button" class="reading-nav-btn next-btn" onclick="nextReadingQuestion()" ${readingCurrentIndex === readingFilteredList.length - 1 ? 'disabled' : ''} title="Câu sau (→ hoặc J)">
-          Câu tiếp theo →
-        </button>
-      </footer>
+          <!-- 3. HIGHLIGHTED GRAMMAR ANALYSIS & EXAM TRAPS BOX -->
+          <div class="sidebar-study-card sidebar-grammar-card">
+            ${renderSidebarGrammarHtml(currentEntry)}
+          </div>
+        </aside>
+      </div>
     </div>
   `;
 }
@@ -490,6 +532,68 @@ function getCategoryLabel(cat) {
     case 'cloze': return 'Điền từ';
     case 'paragraph': return 'Đoạn văn';
     default: return 'Đọc hiểu';
+  }
+}
+
+/**
+ * Determine default selected token for sidebar detail
+ */
+function getInitialSelectedTokenIndex(entry) {
+  if (!entry || !entry.tokens || !entry.tokens.length) return null;
+  // 1. Look for first grammar token that isn't punctuation
+  const grammarIdx = entry.tokens.findIndex(t => {
+    const text = (t.text || '').trim();
+    return t.type === 'grammar' && !/^[，。？！、；：“”‘’（）《》…—]+$/.test(text);
+  });
+  if (grammarIdx !== -1) return grammarIdx;
+
+  // 2. Look for first core token
+  const coreIdx = entry.tokens.findIndex(t => {
+    const text = (t.text || '').trim();
+    return t.type === 'core' && !/^[，。？！、；：“”‘’（）《》…—]+$/.test(text);
+  });
+  if (coreIdx !== -1) return coreIdx;
+
+  // 3. Fallback to first word token
+  const firstWordIdx = entry.tokens.findIndex(t => {
+    const text = (t.text || '').trim();
+    return !/^[，。？！、；：“”‘’（）《》…—]+$/.test(text);
+  });
+  return firstWordIdx !== -1 ? firstWordIdx : 0;
+}
+
+/**
+ * Select a word token to inspect in the dedicated sidebar panel
+ */
+function selectReadingWord(tokenIdx, shouldSpeak = false) {
+  tokenIdx = parseInt(tokenIdx, 10);
+  const entry = readingFilteredList[readingCurrentIndex];
+  if (!entry || !entry.tokens || isNaN(tokenIdx) || !entry.tokens[tokenIdx]) return;
+
+  readingSelectedTokenIndex = tokenIdx;
+  const tok = entry.tokens[tokenIdx];
+
+  // Update active state in Chinese hero line
+  document.querySelectorAll('.reading-token-word').forEach((el) => {
+    const idx = parseInt(el.getAttribute('data-token-idx'), 10);
+    el.classList.toggle('active-inspect', idx === tokenIdx);
+  });
+
+  // Update active state in sidebar vocabulary pill list
+  document.querySelectorAll('.sidebar-vocab-pill').forEach((el) => {
+    const idx = parseInt(el.getAttribute('data-token-idx'), 10);
+    el.classList.toggle('active-selected-tag', idx === tokenIdx);
+  });
+
+  // Re-render the dedicated detail panel
+  const detailPanel = document.getElementById('readingWordDetailPanel');
+  if (detailPanel) {
+    detailPanel.innerHTML = renderSidebarWordDetailHtml(entry);
+  }
+
+  // Audio speech feedback if requested
+  if (shouldSpeak && tok && tok.text) {
+    speakToken(tok.text);
   }
 }
 
@@ -513,8 +617,10 @@ function renderCleanTokensHtml(entry) {
       return `<span class="reading-token-punct">${tok.text}</span>`;
     }
 
+    const isSelected = (i === readingSelectedTokenIndex);
+
     return `
-      <span class="reading-token-word ${highlightClass}" data-token-idx="${i}" onclick="inspectToken(${i})" title="${tok.meaning ? `${tok.text} [${tok.hanviet || ''}]: ${tok.meaning}` : 'Bấm để tra từ này'}">
+      <span class="reading-token-word ${highlightClass} ${isSelected ? 'active-inspect' : ''}" data-token-idx="${i}" onclick="selectReadingWord(${i}, true)" title="${tok.meaning ? `${tok.text} [${tok.hanviet || ''}]: ${tok.meaning}` : 'Bấm để tra từ này'}">
         ${readingPrefs.pinyin ? `<span class="token-py">${tok.pinyin || ''}</span>` : ''}
         <span class="token-zh">${tok.text}</span>
         ${readingPrefs.hanviet ? `<span class="token-hv">${tok.hanviet || ''}</span>` : ''}
@@ -547,31 +653,208 @@ function renderSentenceTranslationsHtml(entry) {
 }
 
 /**
- * Render Inline Vocabulary & Han-Viet Strip (Scannable, clean, replaces orange clutter)
+ * Render Sidebar Vocabulary List / Grid (Neat tags, top of sidebar)
  */
-function renderVocabularyStripHtml(entry) {
-  if (!entry || !entry.tokens) return '';
-  const vocabTokens = entry.tokens.filter(t => {
-    const text = t.text.trim();
-    return text && !/^[，。？！、；：“”‘’（）《》…—]+$/.test(text);
-  });
-  if (!vocabTokens.length) return '';
+function renderSidebarVocabGridHtml(entry) {
+  if (!entry || !entry.tokens || !entry.tokens.length) {
+    return `<div class="sidebar-empty-state">Không có từ vựng bổ trợ cho câu này.</div>`;
+  }
+
+  const validTokens = entry.tokens
+    .map((tok, idx) => ({ tok, idx }))
+    .filter(({ tok }) => {
+      const text = (tok.text || '').trim();
+      return text && !/^[，。？！、；：“”‘’（）《》…—]+$/.test(text);
+    });
+
+  if (!validTokens.length) {
+    return `<div class="sidebar-empty-state">Không có từ vựng.</div>`;
+  }
 
   return `
-    <div class="reading-vocab-strip">
-      <div class="reading-vocab-strip-header">
-        <span class="vocab-strip-title">Từ vựng & Hán - Việt trong câu:</span>
-      </div>
-      <div class="reading-vocab-pills">
-        ${vocabTokens.map(tok => `
-          <button type="button" class="reading-vocab-pill ${tok.type === 'grammar' ? 'pill-grammar' : ''}" onclick="speakToken('${tok.text}')" title="Nghe phát âm: ${tok.text}">
-            <span class="vp-zh">${tok.text}</span>
-            ${tok.pinyin ? `<span class="vp-py">${tok.pinyin}</span>` : ''}
-            ${tok.hanviet ? `<span class="vp-hv">[${tok.hanviet}]</span>` : ''}
-            ${tok.meaning ? `<span class="vp-mean">${tok.meaning}</span>` : ''}
+    <div class="sidebar-vocab-grid">
+      ${validTokens.map(({ tok, idx }) => {
+        const isSelected = (idx === readingSelectedTokenIndex);
+        let badgeType = '';
+        if (tok.type === 'grammar') badgeType = 'pill-grammar';
+        else if (tok.type === 'core') badgeType = 'pill-core';
+        else if (tok.type === 'advanced') badgeType = 'pill-adv';
+
+        let shortMeaning = tok.meaning || '';
+        if (!shortMeaning && tok.role) {
+          const m = tok.role.match(/\(([^)]+)\)/);
+          shortMeaning = m ? m[1] : tok.role;
+        }
+
+        return `
+          <button type="button" 
+            class="sidebar-vocab-pill ${badgeType} ${isSelected ? 'active-selected-tag' : ''}" 
+            data-token-idx="${idx}"
+            onclick="selectReadingWord(${idx}, true)"
+            title="${tok.text} ${tok.hanviet ? `[${tok.hanviet}]` : ''}: ${shortMeaning || tok.role || ''}">
+            <div class="pill-top-row">
+              <span class="pill-zh">${tok.text}</span>
+              ${tok.pinyin ? `<span class="pill-py">${tok.pinyin}</span>` : ''}
+            </div>
+            <div class="pill-bottom-row">
+              ${tok.hanviet ? `<span class="pill-hv">[${tok.hanviet}]</span>` : ''}
+              ${shortMeaning ? `<span class="pill-mean">${shortMeaning}</span>` : ''}
+            </div>
           </button>
-        `).join('')}
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+/**
+ * Render Dedicated Detail Panel for Selected Word (Middle of sidebar)
+ */
+function renderSidebarWordDetailHtml(entry) {
+  if (!entry || !entry.tokens || readingSelectedTokenIndex === null || !entry.tokens[readingSelectedTokenIndex]) {
+    return `
+      <div class="sw-placeholder">
+        <span class="sw-placeholder-icon">👆</span>
+        <div class="sw-placeholder-text">Bấm vào bất kỳ từ nào ở danh sách phía trên hoặc trên câu chính để xem phân tích chi tiết.</div>
       </div>
+    `;
+  }
+
+  const tok = entry.tokens[readingSelectedTokenIndex];
+  const gp = entry.grammar_point || {};
+
+  // Compute label & badge
+  let badgeLabel = 'Từ vựng';
+  let badgeClass = 'sw-badge-normal';
+  if (tok.type === 'grammar') {
+    badgeLabel = '⚡ Điểm ngữ pháp bẫy';
+    badgeClass = 'sw-badge-grammar';
+  } else if (tok.type === 'core') {
+    badgeLabel = 'Từ cốt lõi HSK 4';
+    badgeClass = 'sw-badge-core';
+  } else if (tok.type === 'advanced') {
+    badgeLabel = 'Từ vựng mở rộng';
+    badgeClass = 'sw-badge-adv';
+  }
+
+  // Meaning resolution
+  let meaning = tok.meaning || '';
+  let roleDesc = tok.role || '';
+  if (!meaning && roleDesc) {
+    const m = roleDesc.match(/\(([^)]+)\)/);
+    if (m) meaning = m[1];
+    else meaning = roleDesc;
+  }
+
+  // Check if grammar point specifically mentions this word
+  let specificGrammarNote = '';
+  if (gp.trap_note && (gp.trap_note.includes(tok.text) || gp.name?.includes(tok.text))) {
+    specificGrammarNote = gp.trap_note;
+  } else if (tok.type === 'grammar' && gp.trap_note) {
+    specificGrammarNote = gp.trap_note;
+  }
+
+  // Check matching breakdown row
+  let breakdownMatch = null;
+  if (entry.breakdown && Array.isArray(entry.breakdown)) {
+    breakdownMatch = entry.breakdown.find(b => b.text && b.text.includes(tok.text));
+  }
+
+  return `
+    <div class="sw-detail-inner">
+      <div class="sw-header-bar">
+        <div class="sw-header-title-box">
+          <span class="sw-header-icon">🔍</span>
+          <span class="sw-header-label">Từ vựng trọng điểm</span>
+        </div>
+        <span class="sw-badge ${badgeClass}">${badgeLabel}</span>
+      </div>
+
+      <div class="sw-main-hero">
+        <div class="sw-hero-left">
+          <div class="sw-zh-row">
+            <span class="sw-zh">${tok.text}</span>
+            <button type="button" class="sw-audio-btn" onclick="speakToken('${tok.text}')" title="Phát âm từ này (Audio)">
+              🔊
+            </button>
+            <div class="sw-phonetics">
+              ${tok.pinyin ? `<span class="sw-py">${tok.pinyin}</span>` : ''}
+              ${tok.hanviet ? `<span class="sw-hv">[${tok.hanviet}]</span>` : ''}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Meaning Block -->
+      <div class="sw-meaning-block">
+        <span class="sw-meaning-label">Nghĩa tiếng Việt:</span>
+        <span class="sw-meaning-text">${meaning || 'Chưa có chú giải nghĩa tiếng Việt'}</span>
+      </div>
+
+      <!-- Grammar & Syntax Notes -->
+      ${(roleDesc || specificGrammarNote) ? `
+        <div class="sw-grammar-notes-block">
+          ${roleDesc ? `<div class="sw-role-line"><span class="sw-role-tag">Cú pháp:</span> ${roleDesc}</div>` : ''}
+          ${specificGrammarNote ? `<div class="sw-trap-tip"><span class="sw-tip-tag">⚠️ Lưu ý thi:</span> ${specificGrammarNote}</div>` : ''}
+        </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+/**
+ * Render Highlighted Grammar Analysis & Exam Traps Box (Bottom of sidebar)
+ */
+function renderSidebarGrammarHtml(entry) {
+  const gp = entry.grammar_point || {};
+  if (!gp.name && !gp.pattern && !gp.trap_note && !gp.explanation) {
+    return `
+      <div class="sidebar-empty-grammar">
+        Không có lưu ý bẫy ngữ pháp đặc biệt cho câu này.
+      </div>
+    `;
+  }
+
+  return `
+    <div class="sidebar-grammar-inner">
+      <div class="sidebar-card-header grammar-highlight-header">
+        <div class="sidebar-header-left">
+          <span class="grammar-lightning-icon">⚡</span>
+          <span class="sidebar-header-title">Phân tích ngữ pháp & Mẹo bẫy thi</span>
+        </div>
+        ${gp.level ? `<span class="sidebar-grammar-level">${gp.level}</span>` : ''}
+      </div>
+
+      ${gp.name ? `
+        <div class="sidebar-grammar-name">
+          <span class="sgn-label">Trọng điểm:</span>
+          <span class="sgn-title">${gp.name}</span>
+        </div>
+      ` : ''}
+
+      ${gp.pattern ? `
+        <div class="sidebar-grammar-pattern">
+          <span class="sgp-label">Cấu trúc:</span>
+          <code class="sgp-code">${gp.pattern}</code>
+        </div>
+      ` : ''}
+
+      ${gp.trap_note ? `
+        <div class="sidebar-grammar-trap">
+          <div class="sgt-header">
+            <span class="sgt-icon">⚠️</span>
+            <span class="sgt-title">Mẹo phòng bẫy đề thi:</span>
+          </div>
+          <div class="sgt-content">${gp.trap_note}</div>
+        </div>
+      ` : ''}
+
+      ${gp.explanation ? `
+        <div class="sidebar-grammar-exp">
+          <div class="sge-title">💡 Giải thích ứng dụng:</div>
+          <div class="sge-content">${gp.explanation}</div>
+        </div>
+      ` : ''}
     </div>
   `;
 }
@@ -592,42 +875,10 @@ function renderDictationBoxHtml(entry) {
 }
 
 /**
- * Inspect a Specific Token (Clean monochromatic drawer)
+ * Legacy inspectToken alias to selectReadingWord
  */
 function inspectToken(tokenIdx) {
-  const entry = readingFilteredList[readingCurrentIndex];
-  if (!entry || !entry.tokens || !entry.tokens[tokenIdx]) return;
-  const tok = entry.tokens[tokenIdx];
-
-  // Highlight active token
-  document.querySelectorAll('.reading-token-word').forEach((el, i) => {
-    el.classList.toggle('active-inspect', i === tokenIdx);
-  });
-
-  const inspector = document.getElementById('readingTokenInspector');
-  if (!inspector) return;
-
-  let tagLabel = 'Từ cơ bản';
-  if (tok.type === 'grammar') tagLabel = '⚡ Điểm ngữ pháp / Bẫy';
-  else if (tok.type === 'core') tagLabel = 'Từ cốt lõi HSK 4';
-  else if (tok.type === 'advanced') tagLabel = 'Từ mở rộng';
-
-  inspector.style.display = 'flex';
-  inspector.className = 'reading-token-inspector';
-  inspector.innerHTML = `
-    <div class="inspector-word-group">
-      <span class="inspector-zh">${tok.text}</span>
-      <span class="inspector-py">${tok.pinyin || ''}</span>
-      <span class="inspector-hv">[${tok.hanviet || ''}]</span>
-      <span class="inspector-meaning">${tok.meaning || 'Từ vựng trong câu'}</span>
-    </div>
-    <div class="inspector-tags">
-      <span class="inspector-tag">${tagLabel}</span>
-      <span class="inspector-tag">${tok.role || 'Thành phần câu'}</span>
-      <button type="button" class="inspector-sound-btn" onclick="speakToken('${tok.text}')" title="Phát âm">🔊</button>
-      <button type="button" class="inspector-close-btn" onclick="closeInspector()" title="Đóng">✕</button>
-    </div>
-  `;
+  selectReadingWord(tokenIdx, true);
 }
 
 function speakToken(word) {
@@ -1121,6 +1372,7 @@ window.toggleReadingDictation = toggleReadingDictation;
 window.toggleReadingSpeed = toggleReadingSpeed;
 window.toggleZenMode = toggleZenMode;
 window.playReadingSentenceAudio = playReadingSentenceAudio;
+window.selectReadingWord = selectReadingWord;
 window.inspectToken = inspectToken;
 window.closeInspector = closeInspector;
 window.speakToken = speakToken;
