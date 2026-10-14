@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Podium/Stage Base -->
+  <path d="M60 190 L180 190 L170 210 L70 210 Z" fill="#3D4451"/>
+  <path d="M70 210 L170 210 L165 220 L75 220 Z" fill="#2A2E38"/>
+  
+  <!-- Main Character (The Organizer) -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-25 0 C-25 -20, 25 -20, 25 0 L20 50 L-20 50 Z" fill="#F8F9FA"/>
+    <!-- Head -->
+    <circle cx="0" cy="-35" r="20" fill="#FFD166"/>
+    <!-- Suit Lapel -->
+    <path d="M-5 -15 L-15 10 L-5 10 Z" fill="#E0E0E0"/>
+    <path d="M5 -15 L15 10 L5 10 Z" fill="#E0E0E0"/>
+    <!-- Arm gesturing towards the event space -->
+    <path d="M20 -5 L45 -20 L50 -10 L25 5 Z" fill="#F8F9FA"/>
+    <circle cx="50" cy="-15" r="6" fill="#FFD166"/>
+  </g>
+  
+  <!-- Event Symbolism (Stylized Stadium/Banner) -->
+  <path d="M40 70 L200 70 L190 130 L50 130 Z" fill="#2A2E38" stroke="#FFD166" stroke-width="2"/>
+  <path d="M60 85 L180 85" stroke="#FFD166" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 105 L150 105" stroke="#FFD166" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 120 L120 120" stroke="#FFD166" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Spotlight effect -->
+  <path d="M120 140 L80 40 L160 40 Z" fill="#FFD166" opacity="0.1"/>
+</svg>

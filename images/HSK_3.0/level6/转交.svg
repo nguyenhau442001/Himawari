@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Hand 1 (Sender) -->
+  <path d="M60 140 C 60 120, 80 110, 90 110 C 100 110, 105 115, 105 120 L 105 160 C 105 170, 95 180, 85 180 L 70 180 C 60 180, 60 160, 60 140 Z" fill="#FFB347"/>
+  
+  <!-- Document -->
+  <rect x="90" y="90" width="60" height="80" rx="4" fill="#FFFFFF" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="105" y1="110" x2="135" y2="110" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="105" y1="130" x2="135" y2="130" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="105" y1="150" x2="120" y2="150" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Hand 2 (Receiver) -->
+  <path d="M180 140 C 180 120, 160 110, 150 110 C 140 110, 135 115, 135 120 L 135 160 C 135 170, 145 180, 155 180 L 170 180 C 180 180, 180 160, 180 140 Z" fill="#FFB347"/>
+  
+  <!-- Motion indicator -->
+  <path d="M100 80 L 120 60 M140 80 L 120 60" stroke="#FFB347" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

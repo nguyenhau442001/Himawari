@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Central figure: A conductor/leader figure representing "leading role" -->
+  <!-- Body -->
+  <path d="M120 100 C 100 100, 90 110, 90 130 L 90 200 L 150 200 L 150 130 C 150 110, 140 100, 120 100 Z" fill="#3D4451"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="80" r="25" fill="#FFB84D"/>
+  
+  <!-- Arm gesturing direction (Leading) -->
+  <path d="M145 120 L 180 90" stroke="#FFB84D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M100 120 L 80 150" stroke="#FFB84D" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- The "Leading" element: A golden baton/pointer held by the figure -->
+  <path d="M175 85 L 210 50" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Supporting elements: Smaller icons representing the "led" components (nodes) -->
+  <circle cx="60" cy="160" r="10" fill="#4D5B75"/>
+  <circle cx="60" cy="190" r="10" fill="#4D5B75"/>
+  <circle cx="180" cy="160" r="10" fill="#4D5B75"/>
+  <circle cx="180" cy="190" r="10" fill="#4D5B75"/>
+  
+  <!-- Connecting lines to show direction/leadership -->
+  <path d="M120 100 L 60 160" stroke="#4D5B75" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M120 100 L 180 160" stroke="#4D5B75" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

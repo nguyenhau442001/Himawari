@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Document Base -->
+  <path d="M70 60h80v120H70z" fill="#E0E0E0" stroke="#1A1D24" stroke-width="2"/>
+  <path d="M70 60h80v20H70z" fill="#BDBDBD"/>
+  
+  <!-- Seal/Stamp (The Patent Mark) -->
+  <circle cx="150" cy="180" r="25" fill="#FFB300"/>
+  <path d="M150 165v30M135 180h30" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Document Lines -->
+  <rect x="85" y="95" width="50" height="6" rx="2" fill="#CFD8DC"/>
+  <rect x="85" y="110" width="50" height="6" rx="2" fill="#CFD8DC"/>
+  <rect x="85" y="125" width="30" height="6" rx="2" fill="#CFD8DC"/>
+  
+  <!-- Ribbon Detail -->
+  <path d="M140 170l-15 20 15 20" fill="#FF8F00"/>
+  
+  <!-- Decorative Accent -->
+  <circle cx="110" cy="150" r="15" fill="none" stroke="#FFB300" stroke-width="3" stroke-dasharray="4 4"/>
+</svg>

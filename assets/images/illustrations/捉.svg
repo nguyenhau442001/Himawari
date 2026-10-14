@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water stream -->
+  <path d="M0 160 Q 120 140 240 160 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  <path d="M20 180 C 80 170, 160 190, 220 180" stroke="#3498DB" stroke-width="4" fill="none" stroke-dasharray="10 10"/>
+  
+  <!-- Stone -->
+  <path d="M60 190 Q 80 150 120 160 T 160 190 Z" fill="#7F8C8D"/>
+  
+  <!-- Crab -->
+  <g transform="translate(110, 175)">
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="#E67E22"/>
+    <path d="M-12 -5 L -20 -10 M-12 5 L -20 10 M12 -5 L 20 -10 M12 5 L 20 10" stroke="#E67E22" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Hand Action -->
+  <g transform="translate(130, 130)">
+    <!-- Arm -->
+    <path d="M0 0 L 40 40" stroke="#F1C40F" stroke-width="12" stroke-linecap="round"/>
+    <!-- Hand -->
+    <path d="M35 35 L 50 20 L 60 30 L 45 45 Z" fill="#F1C40F"/>
+    <!-- Motion lines -->
+    <path d="M70 10 L 85 0 M75 20 L 90 10" stroke="#F1C40F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Reflection/Water ripple -->
+  <ellipse cx="110" cy="195" rx="20" ry="5" fill="none" stroke="#5DADE2" stroke-width="2" opacity="0.5"/>
+</svg>

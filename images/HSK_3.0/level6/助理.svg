@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk Surface -->
+  <rect x="40" y="160" width="160" height="10" rx="2" fill="#2D343E"/>
+  
+  <!-- Assistant Character (Upper Body) -->
+  <g transform="translate(120, 120)">
+    <!-- Suit/Clothing -->
+    <path d="M-40 100 L-40 40 Q-40 10 0 10 Q40 10 40 40 L40 100 Z" fill="#3B82F6"/>
+    <path d="M-40 40 L-15 40 L-25 70 Z" fill="#2563EB"/>
+    <path d="M40 40 L15 40 L25 70 Z" fill="#2563EB"/>
+    
+    <!-- Head and Face -->
+    <circle cx="0" cy="-10" r="30" fill="#F3F4F6"/>
+    <circle cx="-10" cy="-15" r="3" fill="#1A1D24"/>
+    <circle cx="10" cy="-15" r="3" fill="#1A1D24"/>
+    <path d="M-10 5 Q0 10 10 5" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Arm/Hand holding a clipboard/tablet -->
+    <path d="M35 50 L60 80" stroke="#F3F4F6" stroke-width="12" stroke-linecap="round"/>
+    <rect x="50" y="60" width="40" height="50" rx="4" fill="#FFB800"/>
+    <line x1="55" y1="75" x2="85" y2="75" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <line x1="55" y1="85" x2="85" y2="85" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <line x1="55" y1="95" x2="75" y2="95" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

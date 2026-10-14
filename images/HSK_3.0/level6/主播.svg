@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk/Table -->
+  <rect x="40" y="160" width="160" height="15" rx="4" fill="#343A46"/>
+  
+  <!-- Microphone on stand -->
+  <circle cx="120" cy="110" r="12" fill="#FFB84D"/>
+  <rect x="117" y="122" width="6" height="40" fill="#FFB84D"/>
+  <rect x="105" y="162" width="30" height="5" rx="2" fill="#FFB84D"/>
+  
+  <!-- Streamer Character (Upper body) -->
+  <circle cx="120" cy="100" r="35" fill="#2D3446"/>
+  <path d="M95 100 C 95 70, 145 70, 145 100 L 145 150 L 95 150 Z" fill="#4A5568"/>
+  <circle cx="120" cy="85" r="15" fill="#A0AEC0"/>
+  
+  <!-- Headset -->
+  <path d="M108 75 A 12 12 0 0 1 132 75" stroke="#FFB84D" stroke-width="4" fill="none"/>
+  <circle cx="108" cy="85" r="5" fill="#FFB84D"/>
+  <circle cx="132" cy="85" r="5" fill="#FFB84D"/>
+  
+  <!-- Product (Apple/Fruit representing local produce) -->
+  <circle cx="170" cy="150" r="12" fill="#FF6B6B"/>
+  <path d="M170 138 L 172 132" stroke="#68D391" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Screen/Camera frame -->
+  <rect x="60" y="50" width="120" height="90" rx="8" stroke="#4A5568" stroke-width="4" fill="none"/>
+</svg>

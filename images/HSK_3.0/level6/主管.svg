@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="150" width="160" height="15" rx="2" fill="#343A46"/>
+  <rect x="50" y="165" width="10" height="40" fill="#2A2F3A"/>
+  <rect x="180" y="165" width="10" height="40" fill="#2A2F3A"/>
+  
+  <!-- Manager Character -->
+  <circle cx="150" cy="100" r="25" fill="#FFB84D"/>
+  <path d="M135 125h30c10 0 15 10 15 20v40h-60v-40c0-10 5-20 15-20z" fill="#FFB84D"/>
+  <rect x="145" y="130" width="10" height="20" fill="#1A1D24" opacity="0.2"/>
+  
+  <!-- New Employee Character -->
+  <circle cx="90" cy="110" r="20" fill="#A0AEC0"/>
+  <path d="M75 130h30c5 0 10 5 10 10v30h-50v-30c0-5 5-10 10-10z" fill="#A0AEC0"/>
+  
+  <!-- Interaction: Pointing/Guiding Gesture -->
+  <path d="M135 115 L115 125" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Document/Process Folder -->
+  <rect x="110" y="135" width="30" height="20" rx="2" fill="#E2E8F0"/>
+  <rect x="115" y="140" width="20" height="2" fill="#1A1D24"/>
+  <rect x="115" y="145" width="20" height="2" fill="#1A1D24"/>
+  <rect x="115" y="150" width="10" height="2" fill="#1A1D24"/>
+</svg>

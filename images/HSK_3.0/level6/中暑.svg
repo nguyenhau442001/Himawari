@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun -->
+  <circle cx="180" cy="60" r="25" fill="#FFB300"/>
+  <path d="M180 20V5M180 115V100M140 60H125M235 60H220M152 32L141 21M219 88L230 99M152 88L141 99M219 32L230 21" stroke="#FFB300" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Person -->
+  <g transform="translate(120, 180)">
+    <!-- Body -->
+    <path d="M-30 0 C-30 -20, -20 -30, 0 -30 C20 -30, 30 -20, 30 0 L30 40 L-30 40 Z" fill="#546E7A"/>
+    <!-- Head -->
+    <circle cx="0" cy="-55" r="25" fill="#FFCC80"/>
+    <!-- Dizziness/Sweat -->
+    <path d="M-10 -75 L10 -75 M-5 -80 L5 -80" stroke="#B0BEC5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M15 -60 Q25 -50 15 -40" fill="#81D4FA" opacity="0.6"/>
+    <path d="M20 -55 Q30 -45 20 -35" fill="#81D4FA" opacity="0.6"/>
+    <!-- Slumped posture -->
+    <path d="M-20 35 L-40 50" stroke="#546E7A" stroke-width="10" stroke-linecap="round"/>
+    <path d="M20 35 L40 50" stroke="#546E7A" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

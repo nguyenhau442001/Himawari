@@ -34317,6 +34317,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/钟头.svg",
     "caption": "tiếng đồng hồ, giờ"
   },
+  "中暑": {
+    "file": "中暑.svg",
+    "src": "images/HSK_3.0/level6/中暑.svg",
+    "caption": "say nắng, say nóng"
+  },
   "众所周知": {
     "file": "众所周知.svg",
     "src": "images/HSK_3.0/level6/众所周知.svg",
@@ -34346,6 +34351,161 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "周期.svg",
     "src": "images/HSK_3.0/level6/周期.svg",
     "caption": "chu kỳ"
+  },
+  "株": {
+    "file": "株.svg",
+    "src": "images/HSK_3.0/level6/株.svg",
+    "caption": "cây, gốc (cây)"
+  },
+  "珠宝": {
+    "file": "珠宝.svg",
+    "src": "images/HSK_3.0/level6/珠宝.svg",
+    "caption": "châu báu, đồ trang sức quý"
+  },
+  "诸多": {
+    "file": "诸多.svg",
+    "src": "images/HSK_3.0/level6/诸多.svg",
+    "caption": "rất nhiều, nhiều"
+  },
+  "主办": {
+    "file": "主办.svg",
+    "src": "images/HSK_3.0/level6/主办.svg",
+    "caption": "đăng cai, chủ trì tổ chức"
+  },
+  "主播": {
+    "file": "主播.svg",
+    "src": "images/HSK_3.0/level6/主播.svg",
+    "caption": "streamer, người dẫn sóng trực tiếp"
+  },
+  "主导": {
+    "file": "主导.svg",
+    "src": "images/HSK_3.0/level6/主导.svg",
+    "caption": "chủ đạo, giữ vai trò dẫn dắt"
+  },
+  "主管": {
+    "file": "主管.svg",
+    "src": "images/HSK_3.0/level6/主管.svg",
+    "caption": "người quản lý, người phụ trách"
+  },
+  "主流": {
+    "file": "主流.svg",
+    "src": "images/HSK_3.0/level6/主流.svg",
+    "caption": "xu hướng chính, dòng chủ lưu"
+  },
+  "助理": {
+    "file": "助理.svg",
+    "src": "images/HSK_3.0/level6/助理.svg",
+    "caption": "trợ lý"
+  },
+  "助手": {
+    "file": "助手.svg",
+    "src": "images/HSK_3.0/level6/助手.svg",
+    "caption": "trợ thủ, người phụ tá"
+  },
+  "祝愿": {
+    "file": "祝愿.svg",
+    "src": "images/HSK_3.0/level6/祝愿.svg",
+    "caption": "chúc phúc, cầu chúc"
+  },
+  "著作": {
+    "file": "著作.svg",
+    "src": "images/HSK_3.0/level6/著作.svg",
+    "caption": "tác phẩm, trước tác"
+  },
+  "专科": {
+    "file": "专科.svg",
+    "src": "images/HSK_3.0/level6/专科.svg",
+    "caption": "trường cao đẳng, chuyên khoa"
+  },
+  "专利": {
+    "file": "专利.svg",
+    "src": "images/HSK_3.0/level6/专利.svg",
+    "caption": "bằng sáng chế"
+  },
+  "专用": {
+    "file": "专用.svg",
+    "src": "images/HSK_3.0/level6/专用.svg",
+    "caption": "chuyên dụng, dùng riêng"
+  },
+  "专注": {
+    "file": "专注.svg",
+    "src": "images/HSK_3.0/level6/专注.svg",
+    "caption": "chuyên chú, tập trung cao độ"
+  },
+  "转换": {
+    "file": "转换.svg",
+    "src": "images/HSK_3.0/level6/转换.svg",
+    "caption": "chuyển đổi"
+  },
+  "转交": {
+    "file": "转交.svg",
+    "src": "images/HSK_3.0/level6/转交.svg",
+    "caption": "chuyển giao, trao tận tay"
+  },
+  "转让": {
+    "file": "转让.svg",
+    "src": "images/HSK_3.0/level6/转让.svg",
+    "caption": "chuyển nhượng"
+  },
+  "转身": {
+    "file": "转身.svg",
+    "src": "images/HSK_3.0/level6/转身.svg",
+    "caption": "quay người, xoay người"
+  },
+  "转移": {
+    "file": "转移.svg",
+    "src": "images/HSK_3.0/level6/转移.svg",
+    "caption": "di chuyển, sơ tán, chuyển dịch"
+  },
+  "转动": {
+    "file": "转动.svg",
+    "src": "images/HSK_3.0/level6/转动.svg",
+    "caption": "quay tròn, xoay chuyển"
+  },
+  "装备": {
+    "file": "装备.svg",
+    "src": "images/HSK_3.0/level6/装备.svg",
+    "caption": "trang bị, trang thiết bị"
+  },
+  "庄稼": {
+    "file": "庄稼.svg",
+    "src": "images/HSK_3.0/level6/庄稼.svg",
+    "caption": "hoa màu, cây trồng mùa màng"
+  },
+  "追究": {
+    "file": "追究.svg",
+    "src": "images/HSK_3.0/level6/追究.svg",
+    "caption": "truy cứu, truy xét trách nhiệm"
+  },
+  "捉": {
+    "file": "捉.svg",
+    "src": "images/HSK_3.0/level6/捉.svg",
+    "caption": "bắt, tóm, chộp"
+  },
+  "资本": {
+    "file": "资本.svg",
+    "src": "images/HSK_3.0/level6/资本.svg",
+    "caption": "tư bản, vốn liếng"
+  },
+  "资产": {
+    "file": "资产.svg",
+    "src": "images/HSK_3.0/level6/资产.svg",
+    "caption": "tài sản"
+  },
+  "自我": {
+    "file": "自我.svg",
+    "src": "images/HSK_3.0/level6/自我.svg",
+    "caption": "bản thân, tự mình, cái tôi"
+  },
+  "棕色": {
+    "file": "棕色.svg",
+    "src": "images/HSK_3.0/level6/棕色.svg",
+    "caption": "màu nâu"
+  },
+  "足": {
+    "file": "足.svg",
+    "src": "images/HSK_3.0/level6/足.svg",
+    "caption": "đầy đủ, sung túc; chân"
   }
 };
 

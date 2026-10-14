@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Shop building representation -->
+  <path d="M70 180h100v-60l-50-30-50 30v60z" fill="#2D343E" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="95" y="140" width="50" height="40" fill="#3D4654"/>
+  <rect x="105" y="145" width="15" height="20" fill="#2D343E"/>
+  
+  <!-- Handover action: Two hands passing a key -->
+  <g transform="translate(120, 120)">
+    <!-- Hand 1 (Giving) -->
+    <path d="M-40 0c-5 0-10 5-10 10v15c0 5 5 10 10 10h15c5 0 10-5 10-10v-5" fill="#FFD180"/>
+    <!-- Hand 2 (Receiving) -->
+    <path d="M40 0c5 0 10 5 10 10v15c0 5-5 10-10 10h-15c-5 0-10-5-10-10v-5" fill="#FFB84D"/>
+    
+    <!-- Key being transferred -->
+    <g transform="rotate(45)">
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+      <rect x="6" y="-2" width="20" height="4" fill="#FFFFFF"/>
+      <rect x="20" y="-2" width="4" height="10" fill="#FFFFFF"/>
+    </g>
+  </g>
+  
+  <!-- Decorative ground line -->
+  <path d="M40 180h160" stroke="#3D4654" stroke-width="4" stroke-linecap="round"/>
+</svg>
