@@ -32347,10 +32347,260 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/名气.svg",
     "caption": "danh tiếng, tiếng tăm"
   },
+  "名胜": {
+    "file": "名胜.svg",
+    "src": "images/HSK_3.0/level6/名胜.svg",
+    "caption": "danh lam thắng cảnh"
+  },
   "模拟": {
     "file": "模拟.svg",
     "src": "images/HSK_3.0/level6/模拟.svg",
     "caption": "mô phỏng"
+  },
+  "模特儿": {
+    "file": "模特儿.svg",
+    "src": "images/HSK_3.0/level6/模特儿.svg",
+    "caption": "người mẫu"
+  },
+  "母": {
+    "file": "母.svg",
+    "src": "images/HSK_3.0/level6/母.svg",
+    "caption": "cái, mẹ (giống cái)"
+  },
+  "木材": {
+    "file": "木材.svg",
+    "src": "images/HSK_3.0/level6/木材.svg",
+    "caption": "gỗ, vật liệu gỗ"
+  },
+  "奶粉": {
+    "file": "奶粉.svg",
+    "src": "images/HSK_3.0/level6/奶粉.svg",
+    "caption": "sữa bột"
+  },
+  "难点": {
+    "file": "难点.svg",
+    "src": "images/HSK_3.0/level6/难点.svg",
+    "caption": "điểm khó, vấn đề nan giải"
+  },
+  "南极洲": {
+    "file": "南极洲.svg",
+    "src": "images/HSK_3.0/level6/南极洲.svg",
+    "caption": "châu Nam Cực"
+  },
+  "南美洲": {
+    "file": "南美洲.svg",
+    "src": "images/HSK_3.0/level6/南美洲.svg",
+    "caption": "nam Mỹ, Châu Nam Mỹ"
+  },
+  "脑子": {
+    "file": "脑子.svg",
+    "src": "images/HSK_3.0/level6/脑子.svg",
+    "caption": "đầu óc, trí óc"
+  },
+  "内外": {
+    "file": "内外.svg",
+    "src": "images/HSK_3.0/level6/内外.svg",
+    "caption": "trong ngoài, trong và ngoài"
+  },
+  "内衣": {
+    "file": "内衣.svg",
+    "src": "images/HSK_3.0/level6/内衣.svg",
+    "caption": "đồ lót, áo lót"
+  },
+  "泥": {
+    "file": "泥.svg",
+    "src": "images/HSK_3.0/level6/泥.svg",
+    "caption": "bùn, đất bùn"
+  },
+  "年终": {
+    "file": "年终.svg",
+    "src": "images/HSK_3.0/level6/年终.svg",
+    "caption": "cuối năm"
+  },
+  "念书": {
+    "file": "念书.svg",
+    "src": "images/HSK_3.0/level6/念书.svg",
+    "caption": "đi học, học hành"
+  },
+  "扭": {
+    "file": "扭.svg",
+    "src": "images/HSK_3.0/level6/扭.svg",
+    "caption": "vặn, xoay, trẹo (chân)"
+  },
+  "农产品": {
+    "file": "农产品.svg",
+    "src": "images/HSK_3.0/level6/农产品.svg",
+    "caption": "nông sản"
+  },
+  "农田": {
+    "file": "农田.svg",
+    "src": "images/HSK_3.0/level6/农田.svg",
+    "caption": "đất nông nghiệp"
+  },
+  "暖": {
+    "file": "暖.svg",
+    "src": "images/HSK_3.0/level6/暖.svg",
+    "caption": "ấm áp, sưởi ấm"
+  },
+  "暖气": {
+    "file": "暖气.svg",
+    "src": "images/HSK_3.0/level6/暖气.svg",
+    "caption": "hệ thống sưởi, máy sưởi"
+  },
+  "排名": {
+    "file": "排名.svg",
+    "src": "images/HSK_3.0/level6/排名.svg",
+    "caption": "xếp hạng, thứ hạng"
+  },
+  "盘": {
+    "file": "盘.svg",
+    "src": "images/HSK_3.0/level6/盘.svg",
+    "caption": "đĩa, mâm, ván (cờ)"
+  },
+  "抛": {
+    "file": "抛.svg",
+    "src": "images/HSK_3.0/level6/抛.svg",
+    "caption": "ném, quăng, vứt bỏ"
+  },
+  "泡": {
+    "file": "泡.svg",
+    "src": "images/HSK_3.0/level6/泡.svg",
+    "caption": "ngâm, pha (trà)"
+  },
+  "陪同": {
+    "file": "陪同.svg",
+    "src": "images/HSK_3.0/level6/陪同.svg",
+    "caption": "tháp tùng, đi cùng"
+  },
+  "喷": {
+    "file": "喷.svg",
+    "src": "images/HSK_3.0/level6/喷.svg",
+    "caption": "phun, xịt"
+  },
+  "碰撞": {
+    "file": "碰撞.svg",
+    "src": "images/HSK_3.0/level6/碰撞.svg",
+    "caption": "va chạm, đụng độ"
+  },
+  "皮": {
+    "file": "皮.svg",
+    "src": "images/HSK_3.0/level6/皮.svg",
+    "caption": "da"
+  },
+  "骗子": {
+    "file": "骗子.svg",
+    "src": "images/HSK_3.0/level6/骗子.svg",
+    "caption": "kẻ nói dối"
+  },
+  "漂": {
+    "file": "漂.svg",
+    "src": "images/HSK_3.0/level6/漂.svg",
+    "caption": "trôi dạt, trôi nổi"
+  },
+  "平方米": {
+    "file": "平方米.svg",
+    "src": "images/HSK_3.0/level6/平方米.svg",
+    "caption": "mét vuông (định lượng)"
+  },
+  "评选": {
+    "file": "评选.svg",
+    "src": "images/HSK_3.0/level6/评选.svg",
+    "caption": "bình chọn, bình xét"
+  },
+  "扑灭": {
+    "file": "扑灭.svg",
+    "src": "images/HSK_3.0/level6/扑灭.svg",
+    "caption": "dập tắt (lửa)"
+  },
+  "其间": {
+    "file": "其间.svg",
+    "src": "images/HSK_3.0/level6/其间.svg",
+    "caption": "trong khoảng thời gian đó, trong đó"
+  },
+  "棋子": {
+    "file": "棋子.svg",
+    "src": "images/HSK_3.0/level6/棋子.svg",
+    "caption": "quân cờ"
+  },
+  "起点": {
+    "file": "起点.svg",
+    "src": "images/HSK_3.0/level6/起点.svg",
+    "caption": "điểm khởi đầu, vạch xuất phát"
+  },
+  "启动": {
+    "file": "启动.svg",
+    "src": "images/HSK_3.0/level6/启动.svg",
+    "caption": "bắt đầu"
+  },
+  "气体": {
+    "file": "气体.svg",
+    "src": "images/HSK_3.0/level6/气体.svg",
+    "caption": "chất khí, thể khí"
+  },
+  "恰好": {
+    "file": "恰好.svg",
+    "src": "images/HSK_3.0/level6/恰好.svg",
+    "caption": "vừa vặn, đúng lúc, vừa hay"
+  },
+  "恰恰": {
+    "file": "恰恰.svg",
+    "src": "images/HSK_3.0/level6/恰恰.svg",
+    "caption": "chính là, đúng là"
+  },
+  "千家万户": {
+    "file": "千家万户.svg",
+    "src": "images/HSK_3.0/level6/千家万户.svg",
+    "caption": "muôn nhà, hàng ngàn hộ gia đình"
+  },
+  "前期": {
+    "file": "前期.svg",
+    "src": "images/HSK_3.0/level6/前期.svg",
+    "caption": "giai đoạn đầu, thời kỳ đầu"
+  },
+  "前者": {
+    "file": "前者.svg",
+    "src": "images/HSK_3.0/level6/前者.svg",
+    "caption": "người trước, cái trước"
+  },
+  "墙壁": {
+    "file": "墙壁.svg",
+    "src": "images/HSK_3.0/level6/墙壁.svg",
+    "caption": "bức tường"
+  },
+  "强化": {
+    "file": "强化.svg",
+    "src": "images/HSK_3.0/level6/强化.svg",
+    "caption": "tăng cường, đẩy mạnh"
+  },
+  "强壮": {
+    "file": "强壮.svg",
+    "src": "images/HSK_3.0/level6/强壮.svg",
+    "caption": "cường tráng, khỏe mạnh"
+  },
+  "亲属": {
+    "file": "亲属.svg",
+    "src": "images/HSK_3.0/level6/亲属.svg",
+    "caption": "người thân, thân quyến, họ hàng"
+  },
+  "清": {
+    "file": "清.svg",
+    "src": "images/HSK_3.0/level6/清.svg",
+    "caption": "trong vắt, trong trẻo; thanh toán"
+  },
+  "青春期": {
+    "file": "青春期.svg",
+    "src": "images/HSK_3.0/level6/青春期.svg",
+    "caption": "tuổi dậy thì, tuổi thiếu niên"
+  },
+  "清扫": {
+    "file": "清扫.svg",
+    "src": "images/HSK_3.0/level6/清扫.svg",
+    "caption": "quét dọn, làm sạch"
+  },
+  "清洗": {
+    "file": "清洗.svg",
+    "src": "images/HSK_3.0/level6/清洗.svg",
+    "caption": "rửa sạch, giặt sạch"
   }
 };
 

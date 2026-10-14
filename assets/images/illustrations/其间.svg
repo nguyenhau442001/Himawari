@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Timeline representation: A long horizontal path representing the 4-year duration -->
+  <path d="M40 120 L200 120" stroke="#3A3F4B" stroke-width="4" stroke-dasharray="8 8"/>
+  
+  <!-- The "Duration" segment (其间) highlighted in gold -->
+  <path d="M80 120 L160 120" stroke="#FFB800" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Character representing the person studying abroad -->
+  <circle cx="120" cy="90" r="12" fill="#FFB800"/>
+  <path d="M120 102 L120 130 M120 110 L105 125 M120 110 L135 125 M120 130 L110 150 M120 130 L130 150" stroke="#FFB800" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Friends being met during that time -->
+  <circle cx="90" cy="100" r="8" fill="#5DADE2"/>
+  <path d="M90 108 L90 125 M90 115 L80 120 M90 115 L100 120" stroke="#5DADE2" stroke-width="3" stroke-linecap="round"/>
+  
+  <circle cx="150" cy="100" r="8" fill="#5DADE2"/>
+  <path d="M150 108 L150 125 M150 115 L140 120 M150 115 L160 120" stroke="#5DADE2" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Subtle markers for the start and end of the 4 years -->
+  <line x1="40" y1="110" x2="40" y2="130" stroke="#4A4F5B" stroke-width="2"/>
+  <line x1="200" y1="110" x2="200" y2="130" stroke="#4A4F5B" stroke-width="2"/>
+</svg>

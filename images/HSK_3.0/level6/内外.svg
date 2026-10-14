@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Outer boundary/container representing the "Outside" -->
+  <rect x="40" y="40" width="160" height="160" rx="12" stroke="#FFB84D" stroke-width="4" fill="none" stroke-dasharray="8 8"/>
+  
+  <!-- Inner object representing the "Inside" -->
+  <circle cx="120" cy="120" r="45" fill="#FFB84D"/>
+  
+  <!-- Visual contrast to define the boundary -->
+  <circle cx="120" cy="120" r="35" fill="#1A1D24"/>
+  
+  <!-- Representing the "Inside" content -->
+  <rect x="105" y="105" width="30" height="30" rx="4" fill="#FFB84D"/>
+  
+  <!-- Directional indicators for "In" and "Out" -->
+  <path d="M120 70 L120 95 M115 85 L120 95 L125 85" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 170 L120 145 M115 155 L120 145 L125 155" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

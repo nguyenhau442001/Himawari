@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 50)">
+    <!-- The Deceiver (The Con Artist) -->
+    <path d="M60 40c-15 0-25 10-25 25v30h50V65c0-15-10-25-25-25z" fill="#FFB347"/>
+    <circle cx="60" cy="30" r="15" fill="#FFB347"/>
+    <!-- The Mask (Half-hidden face) -->
+    <path d="M60 20l20 20-20 20-20-20z" fill="#2C3E50" opacity="0.8"/>
+    <!-- The Deceptive Gesture (Holding a fake coin/lure) -->
+    <path d="M90 80c0 10-5 15-15 15H45c-10 0-15-5-15-15v-10h60v10z" fill="#FFB347"/>
+    <circle cx="60" cy="110" r="12" fill="#FFD700" stroke="#E67E22" stroke-width="3"/>
+    <path d="M54 104l12 12M66 104l-12 12" stroke="#E67E22" stroke-width="2"/>
+    <!-- The Cloak/Shadow -->
+    <path d="M30 100l-10 60h80l-10-60z" fill="#2C3E50"/>
+  </g>
+</svg>

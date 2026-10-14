@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background ring / glow representing family bond -->
+  <circle cx="120" cy="115" r="70" fill="none" stroke="#262D3D" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="115" r="55" fill="#222733"/>
+
+  <!-- Family / Kinship Silhouette Icons representing "亲属" (relatives/family members) -->
+  <!-- Adult Left (Father/Mother) -->
+  <g transform="translate(75, 85)">
+    <!-- Body -->
+    <path d="M 0 50 C 0 35, 12 30, 20 30 C 28 30, 40 35, 40 50 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="20" cy="14" r="11" fill="#60A5FA"/>
+    <!-- Warm smile indicator -->
+    <path d="M 16 18 Q 20 21 24 18" fill="none" stroke="#1E3A8A" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Adult Right (Mother/Father) -->
+  <g transform="translate(125, 85)">
+    <!-- Body -->
+    <path d="M 0 50 C 0 35, 12 30, 20 30 C 28 30, 40 35, 40 50 Z" fill="#F59E0B"/>
+    <!-- Head -->
+    <circle cx="20" cy="14" r="11" fill="#FBBF24"/>
+    <!-- Warm smile indicator -->
+    <path d="M 16 18 Q 20 21 24 18" fill="none" stroke="#78350F" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Child (representing direct family lineage / 直系亲属 context) -->
+  <g transform="translate(100, 115)">
+    <!-- Body -->
+    <path d="M 0 45 C 0 32, 10 28, 20 28 C 30 28, 40 32, 40 45 Z" fill="#10B981"/>
+    <!-- Head -->
+    <circle cx="20" cy="12" r="9.5" fill="#34D399"/>
+    <!-- Happy expression -->
+    <path d="M 17 15 Q 20 18 23 15" fill="none" stroke="#065F46" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Interlocking hands / connection curve at the base -->
+  <path d="M 75 160 Q 120 175 165 160" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="168" r="4" fill="#F59E0B"/>
+
+  <!-- UI Flashcard Label Bar (Visualizing the semantic anchor without text) -->
+  <rect x="50" y="195" width="140" height="26" rx="6" fill="#2A303C"/>
+  <!-- Focus accent dot -->
+  <circle cx="65" cy="208" r="4" fill="#F59E0B"/>
+  <!-- Decorative structural lines representing card elements -->
+  <rect x="78" y="205" width="60" height="6" rx="3" fill="#64748B"/>
+  <rect x="145" y="205" width="30" height="6" rx="3" fill="#3B82F6"/>
+</svg>

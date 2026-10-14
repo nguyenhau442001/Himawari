@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Fire Extinguisher Body -->
+  <path d="M95 90h50v90a10 10 0 0 1-10 10h-30a10 10 0 0 1-10-10z" fill="#E64A19"/>
+  <rect x="105" y="70" width="30" height="20" rx="5" fill="#E64A19"/>
+  <rect x="115" y="60" width="10" height="10" fill="#FFB300"/>
+  
+  <!-- Handle -->
+  <path d="M110 70h20v-10a5 5 0 0 0-5-5h-10a5 5 0 0 0-5 5z" fill="#455A64"/>
+  
+  <!-- Hose -->
+  <path d="M145 120h15a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5h-20" fill="none" stroke="#455A64" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Extinguishing Agent/Cloud -->
+  <path d="M160 130c20-5 40 5 40 20s-20 25-40 20" fill="#CFD8DC" opacity="0.8"/>
+  <path d="M170 120c15-5 30 5 30 15s-15 20-30 15" fill="#CFD8DC" opacity="0.6"/>
+  
+  <!-- Smoldering Embers (The fire being put out) -->
+  <circle cx="200" cy="150" r="8" fill="#FF9800"/>
+  <circle cx="215" cy="165" r="5" fill="#FF5722"/>
+  <path d="M205 140l5-10M210 155l5-10" stroke="#FF9800" stroke-width="2" stroke-linecap="round"/>
+</svg>

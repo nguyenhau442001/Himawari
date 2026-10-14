@@ -1,0 +1,72 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient lighting / background floor -->
+  <ellipse cx="120" cy="190" rx="70" ry="12" fill="#121418" opacity="0.8"/>
+  
+  <!-- Character 1: General Manager (Leading, professional) -->
+  <g transform="translate(140, 75)">
+    <!-- Body / Suit -->
+    <path d="M-15 45 L15 45 L22 95 L-22 95 Z" fill="#2D3748"/>
+    <!-- Suit lapels -->
+    <path d="M-5 45 L0 60 L5 45 Z" fill="#1A1D24"/>
+    <path d="M-5 45 L-12 75 L-5 75 Z" fill="#3B4659"/>
+    <path d="M5 45 L12 75 L5 75 Z" fill="#3B4659"/>
+    <!-- Shirt collar & Tie -->
+    <path d="M-4 45 L0 52 L4 45 Z" fill="#EDF2F7"/>
+    <polygon points="0,50 -3,75 0,85 3,75" fill="#E53E3E"/>
+    <!-- Neck -->
+    <rect x="-4" y="35" width="8" height="12" fill="#F6AD55"/>
+    <!-- Head -->
+    <circle cx="0" cy="20" r="16" fill="#F6AD55"/>
+    <!-- Hair (Styled professional) -->
+    <path d="M-16 15 C-16 5 -5 3 0 3 C5 3 16 5 16 15 C16 18 14 12 10 9 C5 6 -5 6 -10 9 C-14 12 -16 18 -16 15 Z" fill="#2D3748"/>
+    <!-- Confident arm pose (slight forward gesture) -->
+    <path d="M15 50 C25 55 30 65 25 75" fill="none" stroke="#2D3748" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-15 50 C-20 55 -25 65 -20 75" fill="none" stroke="#2D3748" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2: Secretary / Companion (Attentive, accompanying slightly behind/beside) -->
+  <g transform="translate(85, 85)">
+    <!-- Body / Blazer (Professional outfit) -->
+    <path d="M-14 40 L14 40 L20 90 L-20 90 Z" fill="#3182CE"/>
+    <!-- Inner blouse -->
+    <path d="M-4 40 L0 55 L4 40 Z" fill="#EDF2F7"/>
+    <!-- Neck -->
+    <rect x="-3" y="30" width="6" height="12" fill="#F6AD55"/>
+    <!-- Head -->
+    <circle cx="0" cy="18" r="15" fill="#F6AD55"/>
+    <!-- Hair (Bun style) -->
+    <circle cx="0" cy="8" r="6" fill="#1A202C"/>
+    <path d="M-15 15 C-15 7 -5 5 0 5 C5 5 15 7 15 15 C15 22 -15 22 -15 15 Z" fill="#1A202C"/>
+    <!-- Clipboard / Tablet held professionally -->
+    <rect x="5" y="55" width="22" height="28" rx="2" fill="#E2E8F0" transform="rotate(10 16 69)"/>
+    <rect x="9" y="59" width="14" height="3" rx="1" fill="#4A5568" transform="rotate(10 16 69)"/>
+    <line x1="9" y1="67" x2="19" y2="67" stroke="#CBD5E0" stroke-width="2" transform="rotate(10 16 69)"/>
+    <line x1="9" y1="73" x2="17" y2="73" stroke="#CBD5E0" stroke-width="2" transform="rotate(10 16 69)"/>
+    <!-- Arm holding clipboard -->
+    <path d="M12 45 C18 50 18 60 15 65" fill="none" stroke="#3182CE" stroke-width="7" stroke-linecap="round"/>
+    <!-- Supporting polite arm -->
+    <path d="M-12 45 C-18 55 -10 65 -5 70" fill="none" stroke="#3182CE" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Movement / Direction Indicator Lines (subtle, emphasizing escort/accompanying motion) -->
+  <g stroke="#D69E2E" stroke-width="3" stroke-linecap="round" opacity="0.6" fill="none">
+    <path d="M 40 170 Q 100 160 200 160"/>
+    <polyline points="190,154 202,160 190,166" fill="none"/>
+  </g>
+
+  <!-- Focus Accent: Subtle glowing floor markers or direction dots -->
+  <circle cx="100" cy="170" r="3" fill="#D69E2E" opacity="0.8"/>
+  <circle cx="140" cy="167" r="3" fill="#D69E2E" opacity="0.8"/>
+  <circle cx="180" cy="164" r="3" fill="#D69E2E" opacity="0.8"/>
+
+  <!-- Professional minimalist background elements (Factory tour context hint) -->
+  <g stroke="#2A3241" stroke-width="2" stroke-linecap="round" fill="none">
+    <!-- Factory structural beams in background -->
+    <line x1="30" y1="40" x2="210" y2="40"/>
+    <line x1="60" y1="40" x2="60" y2="70"/>
+    <line x1="180" y1="40" x2="180" y2="70"/>
+  </g>
+</svg>

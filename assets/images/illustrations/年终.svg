@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Calendar Base Object -->
+  <g transform="translate(45, 45)">
+    <!-- Calendar Body -->
+    <rect x="0" y="25" width="150" height="125" rx="12" fill="#252A34" stroke="#3A4256" stroke-width="3"/>
+    
+    <!-- Calendar Header (Red/Orange accent for year-end culmination) -->
+    <path d="M 12 25 Q 12 12 25 12 L 125 12 Q 138 12 138 25 L 138 55 L 12 55 Z" fill="#FF7043"/>
+    
+    <!-- Ring Binders -->
+    <rect x="42" y="4" width="10" height="16" rx="5" fill="#E0E0E0"/>
+    <rect x="98" y="4" width="10" height="16" rx="5" fill="#E0E0E0"/>
+    
+    <!-- Calendar Grid / End of Year Marker (12 / 31 style grid) -->
+    <rect x="22" y="72" width="22" height="18" rx="4" fill="#353D4F"/>
+    <rect x="52" y="72" width="22" height="18" rx="4" fill="#353D4F"/>
+    <rect x="82" y="72" width="22" height="18" rx="4" fill="#353D4F"/>
+    <rect x="112" y="72" width="22" height="18" rx="4" fill="#FFD54F"/> <!-- Highlighted final day -->
+
+    <rect x="22" y="98" width="22" height="18" rx="4" fill="#353D4F"/>
+    <rect x="52" y="98" width="22" height="18" rx="4" fill="#353D4F"/>
+    <rect x="82" y="98" width="22" height="18" rx="4" fill="#353D4F"/>
+    <rect x="112" y="98" width="22" height="18" rx="4" fill="#353D4F"/>
+  </g>
+
+  <!-- Bonus/Reward Envelope (Symbolizing 年终奖 - Year-end bonus) overlapping calendar bottom right -->
+  <g transform="translate(115, 135)">
+    <!-- Envelope Shadow -->
+    <rect x="0" y="10" width="80" height="55" rx="8" fill="#15181E" opacity="0.6"/>
+    <!-- Envelope Body -->
+    <rect x="0" y="5" width="80" height="55" rx="8" fill="#FFC107"/>
+    <!-- Envelope Flap -->
+    <path d="M 0 5 L 40 35 L 80 5 Z" fill="#FFA000"/>
+    <!-- Gold Coin / Bonus Token protruding -->
+    <circle cx="40" cy="28" r="16" fill="#FFF176" stroke="#FF8F00" stroke-width="3"/>
+    <circle cx="40" cy="28" r="10" fill="none" stroke="#FF8F00" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- Sparkle accents representing celebration / year-end achievement -->
+  <path d="M 35 75 Q 35 85 25 85 Q 35 85 35 95 Q 35 85 45 85 Q 35 85 35 75 Z" fill="#FFD54F"/>
+  <path d="M 195 55 Q 195 62 188 62 Q 195 62 195 69 Q 195 62 202 62 Q 195 62 195 55 Z" fill="#FF7043"/>
+</svg>

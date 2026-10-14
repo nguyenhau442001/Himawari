@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Engine block -->
+  <path d="M80 120h80v60c0 11-9 20-20 20H100c-11 0-20-9-20-20V120z" fill="#4A5568"/>
+  <rect x="90" y="130" width="60" height="40" fill="#2D3748"/>
+  
+  <!-- Mechanical parts -->
+  <circle cx="105" cy="150" r="8" fill="#718096"/>
+  <circle cx="135" cy="150" r="8" fill="#718096"/>
+  
+  <!-- Human hand interacting with a button/switch -->
+  <path d="M140 100c0-10 8-18 18-18h10c10 0 18 8 18 18v10c0 10-8 18-18 18h-10c-10 0-18-8-18-18v-10z" fill="#F6AD55"/>
+  <path d="M158 95h12v15h-12z" fill="#ED8936"/>
+  
+  <!-- Motion lines indicating activation -->
+  <path d="M175 80l10-10M185 90l15-5M175 100l10 10" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Spark/Energy effect -->
+  <path d="M120 110l-5-15 10 5 5-15 5 15 10-5-5 15" fill="none" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

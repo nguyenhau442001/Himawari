@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing background accent behind the main object -->
+  <circle cx="120" cy="130" r="60" fill="#3A4454" opacity="0.3"/>
+
+  <!-- Main Object Group: Milk Powder Canister (奶粉罐) -->
+  <g transform="translate(0, 5)">
+    <!-- Spoon/Scoop floating beside the can -->
+    <g transform="translate(155, 95)">
+      <!-- Spoon handle -->
+      <path d="M 0 35 L 35 5" fill="none" stroke="#E6EDF5" stroke-width="4" stroke-linecap="round"/>
+      <!-- Spoon bowl filled with powder -->
+      <ellipse cx="-4" cy="40" rx="10" ry="7" fill="#E6EDF5" transform="rotate(-45 -4 40)"/>
+      <ellipse cx="-4" cy="39" rx="8" ry="5" fill="#FFF3D6" transform="rotate(-45 -4 39)"/>
+    </g>
+
+    <!-- Powder particles / steam indicating warmth/preparation -->
+    <g opacity="0.8">
+      <circle cx="105" cy="55" r="3" fill="#FFF3D6"/>
+      <circle cx="120" cy="45" r="4" fill="#FFF3D6"/>
+      <circle cx="135" cy="53" r="2.5" fill="#FFF3D6"/>
+      <!-- Rising warm vapor lines -->
+      <path d="M 112 40 Q 115 32 110 25" fill="none" stroke="#FFF3D6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+      <path d="M 128 38 Q 125 30 130 23" fill="none" stroke="#FFF3D6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    </g>
+
+    <!-- Canister Body -->
+    <rect x="85" y="75" width="70" height="115" rx="10" fill="#2D3748" stroke="#4A5568" stroke-width="3"/>
+    
+    <!-- Canister Metal Base Rim -->
+    <path d="M 85 180 L 85 185 C 85 190, 155 190, 155 185 L 155 180 Z" fill="#E6EDF5" opacity="0.9"/>
+
+    <!-- Canister Label (Accent Color) -->
+    <rect x="88" y="95" width="64" height="70" fill="#F6AD55" rx="4"/>
+    
+    <!-- Label Graphic: Simple Baby Bottle / Milk Icon on the label -->
+    <g transform="translate(120, 125)">
+      <!-- Bottle body -->
+      <rect x="-6" y="-10" width="12" height="24" rx="3" fill="#FFFFFF" opacity="0.9"/>
+      <!-- Bottle neck & nipple -->
+      <rect x="-3" y="-16" width="6" height="6" fill="#FFFFFF" opacity="0.9"/>
+      <path d="M -5 -16 Q 0 -22 5 -16 Z" fill="#FFFFFF" opacity="0.9"/>
+      <!-- Milk level inside icon -->
+      <rect x="-5" y="-3" width="10" height="15" rx="2" fill="#F6AD55" opacity="0.8"/>
+    </g>
+
+    <!-- Canister Lid -->
+    <path d="M 82 72 L 158 72 C 161 72, 163 74, 163 77 L 163 80 C 163 83, 161 85, 158 85 L 82 85 C 79 85, 77 83, 77 80 L 77 77 C 77 74, 79 72, 82 72 Z" fill="#E6EDF5" stroke="#CBD5E0" stroke-width="2"/>
+    
+    <!-- Lid highlight for glossy plastic/metal look -->
+    <rect x="90" y="75" width="25" height="3" rx="1.5" fill="#FFFFFF" opacity="0.6"/>
+
+    <!-- Canister Body Highlight (gloss curve) -->
+    <path d="M 92 88 C 92 88, 96 130, 92 170" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.15"/>
+  </g>
+</svg>

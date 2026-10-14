@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Steam / Heat Rising (representing hot tea/infusion) -->
+  <path d="M100 65 C100 50, 90 40, 90 25" stroke="#4FD1C5" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M120 60 C120 45, 130 35, 130 20" stroke="#4FD1C5" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M140 65 C140 50, 150 40, 150 25" stroke="#4FD1C5" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- Saucer -->
+  <ellipse cx="120" cy="180" rx="55" ry="12" fill="#2D3748"/>
+  <ellipse cx="120" cy="177" rx="45" ry="8" fill="#4A5568"/>
+
+  <!-- Tea Pot / Cup Body (Steeping Vessel) -->
+  <path d="M75 95 L165 95 L155 170 C154 175, 150 178, 145 178 L95 178 C90 178, 86 175, 85 170 Z" fill="#F6AD55"/>
+  
+  <!-- Tea Liquid inside (Visible top opening) -->
+  <ellipse cx="120" cy="95" rx="45" ry="10" fill="#D69E2E"/>
+
+  <!-- Teapot Handle -->
+  <path d="M75 110 C55 110, 55 150, 78 160" stroke="#DD6B20" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Teapot Spout -->
+  <path d="M165 110 C190 105, 195 130, 180 145" stroke="#DD6B20" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Lid -->
+  <path d="M95 85 L145 85 L140 70 L100 70 Z" fill="#DD6B20"/>
+  <circle cx="120" cy="67" r="5" fill="#F6AD55"/>
+
+  <!-- Infusion/Steeping Leaves / Bubbles inside cup -->
+  <circle cx="110" cy="95" r="3" fill="#2F855A" opacity="0.7"/>
+  <circle cx="130" cy="97" r="2.5" fill="#2F855A" opacity="0.8"/>
+  <circle cx="120" cy="93" r="2" fill="#2F855A" opacity="0.9"/>
+</svg>

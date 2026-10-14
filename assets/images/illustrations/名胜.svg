@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Great Wall Segment -->
+  <path d="M40 180 L200 180 L190 140 L160 145 L150 120 L130 125 L120 100 L100 105 L90 80 L60 85 L50 180 Z" fill="#3D4451"/>
+  <path d="M40 180 L200 180 L190 140 L160 145 L150 120 L130 125 L120 100 L100 105 L90 80 L60 85 L50 180 Z" fill="none" stroke="#FFB84D" stroke-width="2"/>
+  
+  <!-- Watchtower -->
+  <rect x="150" y="90" width="30" height="50" fill="#FFB84D"/>
+  <rect x="155" y="100" width="20" height="20" fill="#1A1D24"/>
+  <path d="M150 90 L165 75 L180 90 Z" fill="#FFB84D"/>
+  
+  <!-- Forbidden City Roof -->
+  <path d="M70 180 L130 180 L130 150 L100 130 L70 150 Z" fill="#FFB84D"/>
+  <path d="M75 150 L125 150 L125 140 L100 125 L75 140 Z" fill="#1A1D24"/>
+  
+  <!-- Decorative clouds -->
+  <path d="M30 60 Q40 50 50 60 T70 60" stroke="#4A5568" stroke-width="2" fill="none"/>
+  <path d="M180 50 Q190 40 200 50 T220 50" stroke="#4A5568" stroke-width="2" fill="none"/>
+</svg>

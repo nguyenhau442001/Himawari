@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow representing transition/growth -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Growing stem and leaves background motif -->
+    <path d="M120 185 C115 150 110 120 120 95" fill="none" stroke="#2E3748" stroke-width="4" stroke-linecap="round"/>
+    <path d="M117 140 C100 135 90 120 95 105 C100 95 115 105 117 125" fill="#2E3748" opacity="0.4"/>
+    <path d="M122 120 C140 115 150 100 145 85 C140 75 125 85 122 105" fill="#2E3748" opacity="0.4"/>
+
+    <!-- Central Character: Teenager figure representing puberty/youth (青春期) -->
+    <!-- Head & Hair (Modern flat style, neutral thoughtful expression for psychological sensitivity and independence) -->
+    <circle cx="120" cy="72" r="22" fill="#E0A96D"/>
+    <!-- Stylish modern haircut -->
+    <path d="M98 72 C98 52 142 52 142 72 C142 78 145 70 148 62 C140 45 100 45 92 62 C95 70 98 78 98 72Z" fill="#3D4451"/>
+    
+    <!-- Face details: Clean, minimalist, contemplative look -->
+    <circle cx="112" cy="73" r="2" fill="#2D333B"/>
+    <circle cx="128" cy="73" r="2" fill="#2D333B"/>
+    <!-- Subtle thoughtful mouth line -->
+    <path d="M117 83 Q120 85 123 83" fill="none" stroke="#2D333B" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Body / Hoodie (representing youth fashion and comfortable independence) -->
+    <!-- Torso -->
+    <path d="M90 135 C90 105 150 105 150 135 L165 175 C165 180 160 185 155 185 L85 185 C80 185 75 180 75 175 Z" fill="#4F5D75"/>
+    
+    <!-- Hoodie pocket and strings (iconic youth apparel) -->
+    <path d="M102 160 L138 160 C141 160 143 162 143 165 C143 172 137 178 120 178 C103 178 97 172 97 165 C97 162 99 160 102 160 Z" fill="#3A4454"/>
+    <line x1="110" y1="94" x2="114" y2="120" stroke="#E6EEF8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="130" y1="94" x2="126" y2="120" stroke="#E6EEF8" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Hood shape behind head -->
+    <path d="M95 90 C90 70 150 70 145 90 C140 105 100 105 95 90 Z" fill="#3A4454"/>
+
+    <!-- Accent elements: Rising energetic spark / growth motif symbolizing transition into maturity -->
+    <path d="M120 32 L124 44 L136 44 L126 51 L130 63 L120 55 L110 63 L114 51 L104 44 L116 44 Z" fill="#F39C12" opacity="0.9"/>
+    
+    <!-- Small secondary sparkle representing evolving mental clarity/independence -->
+    <path d="M165 85 L167 91 L173 93 L167 95 L165 101 L163 95 L157 93 L163 91 Z" fill="#F39C12" opacity="0.6"/>
+  </g>
+</svg>

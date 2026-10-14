@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements / Trajectory guidelines -->
+  <path d="M 90 145 Q 140 70 190 95" fill="none" stroke="#2D333F" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- Motion lines for the throw -->
+  <g opacity="0.7">
+    <line x1="75" y1="130" x2="60" y2="120" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+    <line x1="70" y1="140" x2="52" y2="135" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+    <line x1="80" y1="120" x2="68" y2="105" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Target/Landing zone indicator in the distance -->
+  <ellipse cx="190" cy="115" rx="18" ry="6" fill="#2E394A" opacity="0.8"/>
+  <ellipse cx="190" cy="115" rx="10" ry="3" fill="#FF9F43" opacity="0.5"/>
+
+  <!-- Flying object (Shot put / 铅球) in mid-air along the trajectory arc -->
+  <g transform="translate(140, 82)">
+    <circle cx="0" cy="0" r="10" fill="#95A5A6"/>
+    <circle cx="-3" cy="-3" r="3" fill="#BDC3C7" opacity="0.7"/>
+    <!-- Motion streak behind the ball -->
+    <path d="M -8 5 L -20 12" stroke="#95A5A6" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- Human Character (Athlete executing the throw action) -->
+  <g>
+    <!-- Back leg (planted/trailing) -->
+    <path d="M 95 155 L 115 195 L 95 200" fill="none" stroke="#34495E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Torso (Dynamic twist) -->
+    <path d="M 85 125 L 95 165 C 95 165 90 170 80 165 Z" fill="#2C3E50"/>
+    <path d="M 82 120 L 98 160" stroke="#FF9F43" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Front leg (stepping forward for power) -->
+    <path d="M 85 160 L 65 195 L 45 195" fill="none" stroke="#2C3E50" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Head -->
+    <circle cx="72" cy="100" r="11" fill="#E0C4A8"/>
+    <!-- Hair -->
+    <path d="M 62 98 C 62 90 75 90 82 98 Z" fill="#2C3E50"/>
+
+    <!-- Back arm (wind-up / balance) -->
+    <path d="M 82 125 L 110 145" fill="none" stroke="#2C3E50" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Front arm & hand (releasing the throw with high energy) -->
+    <path d="M 88 122 L 78 142" fill="none" stroke="#E0C4A8" stroke-width="9" stroke-linecap="round"/>
+    
+    <!-- Action hand releasing -->
+    <circle cx="75" cy="144" r="6" fill="#E0C4A8"/>
+  </g>
+
+  <!-- Foreground dynamic accent flash at release point -->
+  <circle cx="75" cy="144" r="12" fill="none" stroke="#FF9F43" stroke-width="2" opacity="0.8"/>
+  <path d="M 68 135 L 62 128" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 84 138 L 92 134" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+</svg>
