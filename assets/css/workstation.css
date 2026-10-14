@@ -90,10 +90,12 @@ body.graded-story-active #primaryTabs {
   .workstation-right > .grammar-breakdown-panel,
   .workstation-right > .memory-curve-panel,
   .workstation-right > .word-companion-panel { display: none; }
+  .study-radicals-panel { display: none !important; }
   body.has-active-study-word .workstation-right > .stroke-canvas-panel,
-  body.has-active-study-word .workstation-right > .study-radicals-panel,
   body.has-active-study-word .workstation-right > .grammar-breakdown-panel,
   body.has-active-study-word .workstation-right > .word-companion-panel { display: flex; }
+  body.has-active-study-word[data-sidebar-tab="radicals"] .workstation-right > .study-radicals-panel,
+  body[data-sidebar-tab="radicals"] .study-radicals-panel { display: flex !important; }
   body.has-active-study-word .workstation-right > .memory-curve-panel { display: block; }
   .workstation-right > .stroke-canvas-panel { order: 1; }
   .workstation-right > .study-radicals-panel { order: 2; }
