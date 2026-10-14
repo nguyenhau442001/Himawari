@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="120" r="80" fill="#242933" opacity="0.5"/>
+
+  <!-- Conceptual Object: Photographic Film Negative (representing "负面" - physical object/noun form) -->
+  <g transform="translate(120, 120)">
+    <!-- Outer Negative Frame -->
+    <rect x="-65" y="-50" width="130" height="100" rx="8" fill="#2E3646" stroke="#4A5568" stroke-width="3"/>
+    
+    <!-- Top & Bottom Sprocket Holes -->
+    <!-- Top row -->
+    <rect x="-53" y="-42" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="-33" y="-42" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="-13" y="-42" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="7" y="-42" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="27" y="-42" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="43" y="-42" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+
+    <!-- Bottom row -->
+    <rect x="-53" y="36" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="-33" y="36" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="-13" y="36" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="7" y="36" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="27" y="36" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+    <rect x="43" y="36" width="10" height="6" rx="1.5" fill="#1A1D24"/>
+
+    <!-- Inverted / Negative Image Frame (Orange/Amber Tint representing "negative" aspect) -->
+    <rect x="-45" y="-30" width="90" height="60" rx="4" fill="#3D291F" stroke="#E67E22" stroke-width="2"/>
+    
+    <!-- Stylized Inverted Landscape (Sun and Mountains in negative color palette) -->
+    <path d="M-45 10 L-20 -10 L0 5 L25 -15 L45 20 Z" fill="#D35400" opacity="0.6"/>
+    <circle cx="15" cy="-10" r="10" fill="#F39C12" opacity="0.7"/>
+    
+    <!-- Warning / Negative Accent: Bold diagonal slash overlay indicating negative impact -->
+    <line x1="-75" y1="-55" x2="75" y2="55" stroke="#E74C3C" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Glow & Scene Atmosphere -->
+  <circle cx="120" cy="120" r="90" fill="#252B3B" opacity="0.5"/>
+  
+  <!-- Golden Harvest Sun / Autumn Glow -->
+  <circle cx="120" cy="120" r="70" fill="#FFB703" opacity="0.1"/>
+
+  <!-- Stylized Rice Field Ground -->
+  <path d="M40 185 Q 120 170 200 185 L 210 205 Q 120 215 30 205 Z" fill="#2D3748"/>
+  <path d="M50 195 Q 120 185 190 195" stroke="#F59E0B" stroke-width="2" opacity="0.4" fill="none"/>
+
+  <!-- Rice Stalks (Background Group) -->
+  <g fill="#FBBF24" opacity="0.6">
+    <path d="M60 190 C 55 160 65 140 70 120 C 73 140 68 160 65 190 Z"/>
+    <path d="M80 192 C 75 165 82 145 88 125 C 90 145 85 165 83 192 Z"/>
+    <path d="M160 192 C 165 165 158 145 152 125 C 150 145 155 165 157 192 Z"/>
+    <path d="M180 190 C 185 160 175 140 170 120 C 167 140 172 160 175 190 Z"/>
+  </g>
+
+  <!-- Main Harvested / Falling Rice Stalk (Action Subject) -->
+  <path d="M100 190 C 95 150 110 120 140 100" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Rice grains on the bending stalk -->
+  <ellipse cx="125" cy="112" rx="4" ry="7" fill="#FBBF24" transform="rotate(30 125 112)"/>
+  <ellipse cx="135" cy="104" rx="4" ry="7" fill="#FBBF24" transform="rotate(45 135 104)"/>
+
+  <!-- Dynamic Motion Lines for Cutting Action -->
+  <path d="M85 90 Q 120 115 155 130" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+  <path d="M75 105 Q 110 130 145 145" stroke="#38BDF8" stroke-width="2" stroke-dasharray="6 4" fill="none" opacity="0.5"/>
+
+  <!-- Human Character Action (Farmer Reaping) -->
+  <g id="farmer-action">
+    <!-- Farmer Body / Torso (Modern Flat Style) -->
+    <path d="M 85 155 L 115 130 L 135 155 L 125 195 L 90 195 Z" fill="#3B82F6"/>
+    <!-- Farmer Head & Straw Hat -->
+    <circle cx="105" cy="105" r="14" fill="#FDE68A"/>
+    <ellipse cx="105" cy="98" rx="24" ry="6" fill="#D97706"/>
+    <path d="M 90 98 Q 105 86 120 98 Z" fill="#B45309"/>
+
+    <!-- Reaching Arms & Sickle -->
+    <!-- Back Arm -->
+    <path d="M 105 135 L 130 120" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Front Arm & Hand gripping Sickle Handle -->
+    <path d="M 95 140 L 120 135" stroke="#2563EB" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Sickle Tool (Highlighted in Gold/Orange for focus) -->
+    <!-- Handle -->
+    <path d="M 120 135 L 140 130" stroke="#78350F" stroke-width="5" stroke-linecap="round"/>
+    <!-- Curved Blade with sharp motion -->
+    <path d="M 135 132 C 160 125 175 145 160 165" stroke="#F59E0B" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M 135 132 C 160 125 175 145 160 165" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8"/>
+  </g>
+
+  <!-- Flying Harvest Sparks / Slash Effect -->
+  <circle cx="150" cy="138" r="3" fill="#FFFFFF"/>
+  <circle cx="158" cy="128" r="2" fill="#FBBF24"/>
+  <path d="M 148 150 L 165 140" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

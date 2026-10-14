@@ -1,0 +1,61 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container & Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric Glow & Horizon Background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E2530"/>
+      <stop offset="100%" stop-color="#283347"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B3B2B"/>
+      <stop offset="100%" stop-color="#12241A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Area -->
+  <rect x="16" y="16" width="208" height="130" rx="12" fill="url(#skyGrad)"/>
+
+  <!-- Distant Glowing Stars / Celestial hint -->
+  <circle cx="50" cy="40" r="1" fill="#E2E8F0" opacity="0.6"/>
+  <circle cx="110" cy="30" r="1.5" fill="#E2E8F0" opacity="0.8"/>
+  <circle cx="180" cy="50" r="1" fill="#E2E8F0" opacity="0.4"/>
+  <circle cx="205" cy="35" r="1.2" fill="#E2E8F0" opacity="0.7"/>
+
+  <!-- Vast Rolling Steppe / Grassland (Scale Exaggeration for 广阔) -->
+  <!-- Layer 1: Far rolling hills -->
+  <path d="M 16 110 Q 70 95 130 105 Q 180 112 224 98 L 224 146 L 16 146 Z" fill="#224734"/>
+  
+  <!-- Layer 2: Mid-ground expansive plain -->
+  <path d="M 16 125 Q 90 115 150 128 Q 190 135 224 120 L 224 200 L 16 200 Z" fill="url(#groundGrad)"/>
+
+  <!-- Horizon Line Emphasis (accentuating width) -->
+  <line x1="24" y1="125" x2="216" y2="125" stroke="#F59E0B" stroke-width="0.8" opacity="0.3" stroke-dasharray="3 3"/>
+
+  <!-- Foreground Flat Container Base -->
+  <rect x="16" y="146" width="208" height="78" rx="0" fill="#15281F"/>
+
+  <!-- Tiny Silhouettes to show immense scale (Adjective rule: scale contrast) -->
+  <!-- Tiny grazing sheep 1 -->
+  <ellipse cx="65" cy="155" rx="3.5" ry="2.5" fill="#E2E8F0"/>
+  <circle cx="62" cy="154" r="1.2" fill="#E2E8F0"/>
+  
+  <!-- Tiny grazing sheep 2 -->
+  <ellipse cx="75" cy="158" rx="3" ry="2" fill="#E2E8F0"/>
+  
+  <!-- Tiny grazing cow -->
+  <rect x="145" y="153" width="7" height="4" rx="1.5" fill="#D97706"/>
+  <circle cx="144" cy="154" r="1" fill="#D97706"/>
+
+  <!-- Majestic Endless Horizon Swells -->
+  <path d="M 16 175 Q 120 160 224 175 L 224 224 L 16 224 Z" fill="#0E1C15"/>
+
+  <!-- Horizon Accent / Focus Glow (Golden Hour / Warm sun low on horizon) -->
+  <circle cx="120" cy="125" r="22" fill="#F59E0B" opacity="0.12"/>
+  <circle cx="120" cy="125" r="10" fill="#F59E0B" opacity="0.25"/>
+  <circle cx="120" cy="125" r="4" fill="#FDE68A" opacity="0.9"/>
+
+  <!-- Framing UI border for Modern Flat App Aesthetic -->
+  <rect x="16" y="16" width="208" height="208" rx="16" fill="none" stroke="#2D3748" stroke-width="2"/>
+</svg>

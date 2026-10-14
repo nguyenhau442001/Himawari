@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Motion lines for the action -->
+  <path d="M110 90 C 105 85, 100 85, 95 90" stroke="#FFB84D" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M105 80 C 100 75, 95 75, 90 80" stroke="#FFB84D" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+
+  <!-- Hand holding the medicine -->
+  <path d="M120 160 C 120 140, 130 130, 145 130 L 155 130 C 170 130, 180 140, 180 160" fill="#FFD1A9"/>
+  <rect x="140" y="115" width="20" height="25" rx="4" fill="#FF8C00"/>
+  <rect x="144" y="118" width="12" height="6" rx="2" fill="#FFFFFF"/>
+  
+  <!-- Human character profile (simplified) -->
+  <path d="M80 120 C 80 90, 100 70, 120 70 C 140 70, 160 90, 160 120 L 160 240 L 80 240 Z" fill="#4A5568"/>
+  <circle cx="120" cy="95" r="25" fill="#FFD1A9"/>
+  
+  <!-- Mouth area indicating ingestion -->
+  <path d="M115 105 L 125 105" stroke="#2D3748" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Glass of water -->
+  <path d="M70 150 L 90 150 L 85 200 L 75 200 Z" fill="#63B3ED" fill-opacity="0.6"/>
+  <path d="M70 150 L 90 150" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Motion line for drinking -->
+  <path d="M95 140 C 105 130, 110 120, 115 110" stroke="#E2E8F0" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

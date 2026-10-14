@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Main Chart Structure -->
+  <path d="M60 180 L180 180 M60 180 L60 60" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Stock Trend Line (Gold/Orange accent) -->
+  <path d="M60 150 L90 130 L120 160 L150 90 L180 110" fill="none" stroke="#FFB84D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Candlestick elements -->
+  <rect x="85" y="120" width="10" height="30" fill="#FFB84D" rx="2"/>
+  <rect x="145" y="80" width="10" height="40" fill="#FFB84D" rx="2"/>
+  
+  <!-- Decorative Market Elements -->
+  <circle cx="180" cy="110" r="4" fill="#FFB84D"/>
+  <circle cx="150" cy="90" r="4" fill="#FFB84D"/>
+  <circle cx="120" cy="160" r="4" fill="#FFB84D"/>
+  <circle cx="90" cy="130" r="4" fill="#FFB84D"/>
+  <circle cx="60" cy="150" r="4" fill="#FFB84D"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle architectural elements indicating official office/government setting -->
+  <path d="M40 190 L200 190" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+  <rect x="70" y="80" width="100" height="90" rx="4" fill="#222733" stroke="#2E3646" stroke-width="2"/>
+  <line x1="120" y1="80" x2="120" y2="170" stroke="#2E3646" stroke-width="2"/>
+  <line x1="70" y1="125" x2="170" y2="125" stroke="#2E3646" stroke-width="2"/>
+
+  <!-- Official Figure (Government Official / 官员) -->
+  <!-- Shoulders / Suit Body -->
+  <path d="M85 190 L85 165 C85 150 95 140 120 140 C145 140 155 150 155 165 L155 190 Z" fill="#2D3748"/>
+  
+  <!-- Crisp White Shirt Collar -->
+  <polygon points="105,140 120,158 135,140" fill="#E2E8F0"/>
+  
+  <!-- Formal Tie with Gold Accent (representing official status/authority) -->
+  <polygon points="115,145 125,145 128,185 120,190 112,185" fill="#E53E3E"/>
+  <polygon points="117,145 123,145 125,160 119,160" fill="#D69E2E"/>
+
+  <!-- Neck -->
+  <rect x="110" y="125" width="20" height="20" fill="#CBD5E0"/>
+
+  <!-- Head / Face -->
+  <circle cx="120" cy="105" r="22" fill="#CBD5E0"/>
+  
+  <!-- Hair (neat, professional parted hairstyle) -->
+  <path d="M98 105 C98 90 105 83 120 83 C135 83 142 90 142 105 C142 110 140 103 138 98 C135 91 128 88 120 88 C112 88 105 91 102 98 C100 103 98 110 98 105 Z" fill="#2D3748"/>
+
+  <!-- Glasses (intellectual/professional touch) -->
+  <rect x="106" y="96" width="12" height="8" rx="2" fill="none" stroke="#D69E2E" stroke-width="1.5"/>
+  <rect x="122" y="96" width="12" height="8" rx="2" fill="none" stroke="#D69E2E" stroke-width="1.5"/>
+  <line x1="118" y1="100" x2="122" y2="100" stroke="#D69E2E" stroke-width="1.5"/>
+
+  <!-- Official Badge / Lapel Pin (Golden star/crest symbolizing official duty) -->
+  <circle cx="102" cy="158" r="5" fill="#D69E2E"/>
+  <polygon points="102,154 103.5,157 106.5,157.5 104.2,159.5 105,162.5 102,161 99,162.5 99.8,159.5 97.5,157.5 100.5,157" fill="#FEFCBF" transform="scale(0.5) translate(103, 310)"/>
+
+</svg>

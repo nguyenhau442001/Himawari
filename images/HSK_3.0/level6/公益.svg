@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group representing a community/group (公益团体) -->
+  <!-- Person 1: Representing the helper -->
+  <g transform="translate(70, 100)">
+    <circle cx="25" cy="25" r="15" fill="#FFB84D"/>
+    <path d="M10 70 C10 50, 40 50, 40 70 L40 120 L10 120 Z" fill="#4D96FF"/>
+    <path d="M15 85 L25 95 L35 85" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2: Representing the recipient/community member -->
+  <g transform="translate(130, 100)">
+    <circle cx="25" cy="25" r="15" fill="#A0CFFF"/>
+    <path d="M10 70 C10 50, 40 50, 40 70 L40 120 L10 120 Z" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Interaction: Helping/Supporting (Handshake/Support gesture) -->
+  <path d="M105 130 L135 130" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Symbolizing the 'Public' aspect: A stylized building/community structure -->
+  <path d="M60 180 L180 180 L170 140 L70 140 Z" fill="#3A3F4B"/>
+  <rect x="90" y="150" width="20" height="30" fill="#1A1D24"/>
+  <rect x="130" y="150" width="20" height="30" fill="#1A1D24"/>
+  
+  <!-- Supporting element: A small tree to represent social welfare/growth -->
+  <path d="M190 180 L190 160 M190 160 L185 150 M190 160 L195 150" stroke="#4CAF50" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="185" cy="150" r="4" fill="#4CAF50"/>
+  <circle cx="195" cy="150" r="4" fill="#4CAF50"/>
+</svg>

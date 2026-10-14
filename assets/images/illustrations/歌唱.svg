@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Microphone Stand -->
+  <rect x="115" y="140" width="10" height="80" rx="2" fill="#4A5568"/>
+  <circle cx="120" cy="140" r="15" fill="#2D3748"/>
+  
+  <!-- Microphone Head -->
+  <circle cx="120" cy="110" r="25" fill="#F6AD55"/>
+  <rect x="110" y="85" width="20" height="10" rx="2" fill="#ED8936"/>
+  
+  <!-- Sound Waves -->
+  <path d="M150 110 Q165 110 175 125" stroke="#F6AD55" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M155 100 Q175 100 190 125" stroke="#F6AD55" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M160 90 Q185 90 205 125" stroke="#F6AD55" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Base -->
+  <ellipse cx="120" cy="220" rx="40" ry="10" fill="#2D3748"/>
+</svg>

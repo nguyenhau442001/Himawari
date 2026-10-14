@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric sky background with stars/altitude feeling -->
+  <circle cx="180" cy="60" r="1.5" fill="#4F5D75" opacity="0.8"/>
+  <circle cx="60" cy="50" r="1" fill="#4F5D75" opacity="0.6"/>
+  <circle cx="110" cy="40" r="1.5" fill="#4F5D75" opacity="0.5"/>
+  <circle cx="210" cy="90" r="1" fill="#4F5D75" opacity="0.7"/>
+
+  <!-- Golden/Orange accent glowing sun high in the sky (representing high altitude) -->
+  <circle cx="160" cy="75" r="16" fill="#F39C12" opacity="0.2"/>
+  <circle cx="160" cy="75" r="10" fill="#F1C40F"/>
+
+  <!-- Lowlands / Base baseline contrast on the left -->
+  <path d="M 20 190 L 80 190 L 80 205 L 20 205 Z" fill="#2C3E50" opacity="0.5"/>
+  <path d="M 25 170 Q 50 165 75 190 L 20 190 Z" fill="#34495E"/>
+
+  <!-- Scale exaggeration: Massive high plateau (高原) taking up the center and right -->
+  <!-- Distant mountain peaks behind -->
+  <polygon points="120,110 150,70 185,110" fill="#293241"/>
+  <polygon points="150,70 163,88 150,95" fill="#E0FBFC" opacity="0.8"/> <!-- Snow cap -->
+  
+  <polygon points="170,120 205,65 235,120" fill="#212F3D"/>
+  <polygon points="205,65 218,88 200,95" fill="#E0FBFC" opacity="0.9"/> <!-- Snow cap -->
+
+  <!-- Main elevated flat plateau structure (Adjective visual: high, flat surface raised high up) -->
+  <!-- Steep cliff face showing elevation/height -->
+  <path d="M 80 190 L 95 120 L 220 120 L 220 190 Z" fill="#3B4252"/>
+  <!-- Rocky strata details on cliff -->
+  <path d="M 87 155 L 105 152 M 95 170 L 120 168 M 110 138 L 135 135" stroke="#2E3440" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- High flat top surface of the plateau -->
+  <path d="M 95 120 L 220 120 L 235 135 L 75 135 Z" fill="#4C566A"/>
+  
+  <!-- Greenish-golden high-altitude grassland on top -->
+  <path d="M 97 119 L 218 119 L 230 130 L 85 130 Z" fill="#A3BE8C"/>
+
+  <!-- Visual contrast elements: tiny accent trees at the base vs high plateau scale -->
+  <!-- Tiny tree at low ground -->
+  <path d="M 45 170 L 48 160 L 51 170 Z" fill="#8FBCBB"/>
+  <rect x="47" y="170" width="2" height="4" fill="#4C566A"/>
+
+  <!-- Giant soaring bird accent to emphasize vastness and great height -->
+  <path d="M 100 85 Q 108 78 115 85 Q 122 78 130 85 Q 115 90 100 85 Z" fill="#E5E9F0" opacity="0.8"/>
+
+  <!-- Sleek framing / modern UI touch: subtle bottom glow bar representing focus -->
+  <rect x="80" y="215" width="80" height="3" rx="1.5" fill="#F39C12"/>
+</svg>

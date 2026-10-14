@@ -1,0 +1,34 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Causality/Progression (The "Should" logic) -->
+  <!-- A path leading to a decision point, representing the "ought to" nature of '该' -->
+  
+  <!-- Path/Timeline -->
+  <path d="M40 180 C 80 180, 120 180, 160 120" stroke="#3A404D" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- The "Decision" or "Requirement" focus point -->
+  <circle cx="160" cy="120" r="24" fill="#FFB84D" opacity="0.2"/>
+  <circle cx="160" cy="120" r="12" fill="#FFB84D"/>
+  
+  <!-- Escalation/Progression indicator: A series of steps leading to the focus -->
+  <rect x="50" y="170" width="20" height="10" rx="2" fill="#3A404D"/>
+  <rect x="80" y="160" width="20" height="20" rx="2" fill="#3A404D"/>
+  <rect x="110" y="145" width="20" height="35" rx="2" fill="#3A404D"/>
+  <rect x="150" y="132" width="20" height="48" rx="2" fill="#FFB84D"/>
+  
+  <!-- Abstract representation of the "Social Protocol" (The 'How to address' context) -->
+  <!-- Two figures representing the interaction, one slightly bowing to show the 'should'/'proper' action -->
+  <g transform="translate(180, 180)">
+    <circle cx="0" cy="-20" r="8" fill="#E0E0E0"/>
+    <path d="M-10 -10 L10 -10 L5 10 L-5 10 Z" fill="#E0E0E0"/>
+  </g>
+  
+  <g transform="translate(210, 180)">
+    <circle cx="0" cy="-20" r="8" fill="#FFB84D"/>
+    <path d="M-10 -10 L10 -10 L8 20 L-8 20 Z" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Connecting line to show the logic of the action -->
+  <path d="M160 120 L190 160" stroke="#FFB84D" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

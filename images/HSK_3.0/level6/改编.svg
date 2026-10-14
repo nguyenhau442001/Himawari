@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient Glow / Backdrop elements -->
+  <circle cx="120" cy="120" r="85" fill="#252A34" opacity="0.6"/>
+
+  <!-- Central Physical Object Group: Adaptation/Transformation (Book to Film Reel) -->
+  <g transform="translate(0, 5)">
+    
+    <!-- Connection / Transformation Flow Effect -->
+    <path d="M 85 110 C 105 110, 115 110, 135 110" stroke="#F5A623" stroke-width="4" stroke-linecap="round" stroke-dasharray="6,6" opacity="0.8"/>
+    <polygon points="140,110 130,105 130,115" fill="#F5A623"/>
+
+    <!-- Left Object: The Source Book (Original Novel) -->
+    <g transform="translate(42, 75)">
+      <!-- Book Shadow -->
+      <path d="M 0 50 L 35 60 L 35 10 L 0 0 Z" fill="#121418"/>
+      <!-- Book Cover (Back) -->
+      <path d="M 5 55 L 40 65 L 40 15 L 5 5 Z" fill="#2C3440"/>
+      <!-- Book Pages Block -->
+      <path d="M 8 50 L 38 58 L 38 18 L 8 10 Z" fill="#E2E8F0"/>
+      <!-- Book Cover (Front) -->
+      <path d="M 10 48 L 45 55 L 45 10 L 10 3 Z" fill="#3B82F6"/>
+      <!-- Spine Details & Lines -->
+      <path d="M 10 48 L 15 50 L 15 5 L 10 3 Z" fill="#2563EB"/>
+      <line x1="20" y1="20" x2="35" y2="24" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="28" x2="35" y2="32" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="36" x2="30" y2="39" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Right Object: Film Reel / Clapperboard (Adapted Film/Play) -->
+    <g transform="translate(140, 68)">
+      <!-- Clapperboard Base -->
+      <rect x="5" y="22" width="50" height="42" rx="4" fill="#0F172A"/>
+      <rect x="9" y="28" width="42" height="30" rx="2" fill="#F8FAFC"/>
+      
+      <!-- Clapper Stripes (Top Arm) -->
+      <path d="M 3 19 L 57 11 L 57 21 L 3 29 Z" fill="#334155"/>
+      <path d="M 12 18 L 22 16 L 20 25 L 10 27 Z" fill="#F5A623"/>
+      <path d="M 32 15 L 42 13 L 40 22 L 30 24 Z" fill="#F5A623"/>
+      
+      <!-- Hinge Pivot -->
+      <circle cx="7" cy="24" r="3" fill="#94A3B8"/>
+
+      <!-- Play / Screen Icon Inside -->
+      <polygon points="26,38 26,48 36,43" fill="#EF4444"/>
+    </g>
+    
+    <!-- Accent Sparkles / Creative transformation indicators -->
+    <path d="M 120 50 L 122 58 L 130 60 L 122 62 L 120 70 L 118 62 L 110 60 L 118 58 Z" fill="#F5A623"/>
+    <path d="M 75 140 L 76 144 L 80 145 L 76 146 L 75 150 L 74 146 L 70 145 L 74 144 Z" fill="#38BDF8" opacity="0.8"/>
+    <path d="M 165 125 L 166 128 L 170 129 L 166 130 L 165 133 L 164 130 L 160 129 L 164 128 Z" fill="#F5A623" opacity="0.8"/>
+
+  </g>
+</svg>

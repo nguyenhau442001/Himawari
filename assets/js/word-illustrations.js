@@ -30851,6 +30851,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "符号.svg",
     "src": "images/HSK_3.0/level6/符号.svg",
     "caption": "ký hiệu, biểu tượng"
+  },
+  "福利": {
+    "file": "福利.svg",
+    "src": "images/HSK_3.0/level6/福利.svg",
+    "caption": "phúc lợi"
+  },
+  "服用": {
+    "file": "服用.svg",
+    "src": "images/HSK_3.0/level6/服用.svg",
+    "caption": "uống thuốc, dùng thuốc"
+  },
+  "副²": {
+    "file": "副².svg",
+    "src": "images/HSK_3.0/level6/副².svg",
+    "caption": "phó (chức vụ)"
+  },
+  "覆盖": {
+    "file": "覆盖.svg",
+    "src": "images/HSK_3.0/level6/覆盖.svg",
+    "caption": "che"
+  },
+  "负面": {
+    "file": "负面.svg",
+    "src": "images/HSK_3.0/level6/负面.svg",
+    "caption": "tiêu cực, mặt tiêu cực"
+  },
+  "赋予": {
+    "file": "赋予.svg",
+    "src": "images/HSK_3.0/level6/赋予.svg",
+    "caption": "ban cho, trao cho, giao phó"
+  },
+  "该²": {
+    "file": "该².svg",
+    "src": "images/HSK_3.0/level6/该².svg",
+    "caption": "(đại từ)"
+  },
+  "改编": {
+    "file": "改编.svg",
+    "src": "images/HSK_3.0/level6/改编.svg",
+    "caption": "chuyển thể, cải biên (phim, kịch)"
+  },
+  "改造": {
+    "file": "改造.svg",
+    "src": "images/HSK_3.0/level6/改造.svg",
+    "caption": "cải tạo, nâng cấp"
+  },
+  "肝": {
+    "file": "肝.svg",
+    "src": "images/HSK_3.0/level6/肝.svg",
+    "caption": "gan (bộ phận cơ thể)"
+  },
+  "赶忙": {
+    "file": "赶忙.svg",
+    "src": "images/HSK_3.0/level6/赶忙.svg",
+    "caption": "vội vàng, vội vã"
+  },
+  "钢笔": {
+    "file": "钢笔.svg",
+    "src": "images/HSK_3.0/level6/钢笔.svg",
+    "caption": "bút máy"
+  },
+  "高层": {
+    "file": "高层.svg",
+    "src": "images/HSK_3.0/level6/高层.svg",
+    "caption": "tầng cao (nhà); cấp cao (lãnh đạo)"
+  },
+  "高等": {
+    "file": "高等.svg",
+    "src": "images/HSK_3.0/level6/高等.svg",
+    "caption": "cao đẳng, bậc đại học (giáo dục)"
+  },
+  "高端": {
+    "file": "高端.svg",
+    "src": "images/HSK_3.0/level6/高端.svg",
+    "caption": "cao cấp, thượng lưu (sản phẩm, dịch vụ)"
+  },
+  "高手": {
+    "file": "高手.svg",
+    "src": "images/HSK_3.0/level6/高手.svg",
+    "caption": "cao thủ, bậc thầy, người giỏi"
+  },
+  "高新技术": {
+    "file": "高新技术.svg",
+    "src": "images/HSK_3.0/level6/高新技术.svg",
+    "caption": "công nghệ cao, công nghệ mới và cao"
+  },
+  "高原": {
+    "file": "高原.svg",
+    "src": "images/HSK_3.0/level6/高原.svg",
+    "caption": "cao nguyên"
+  },
+  "稿件": {
+    "file": "稿件.svg",
+    "src": "images/HSK_3.0/level6/稿件.svg",
+    "caption": "bản thảo, bài viết (gửi đăng báo)"
+  },
+  "稿子": {
+    "file": "稿子.svg",
+    "src": "images/HSK_3.0/level6/稿子.svg",
+    "caption": "bản thảo, bài phát biểu nháp"
+  },
+  "割": {
+    "file": "割.svg",
+    "src": "images/HSK_3.0/level6/割.svg",
+    "caption": "cắt, gặt (lúa, cỏ); cắt đứt"
+  },
+  "歌唱": {
+    "file": "歌唱.svg",
+    "src": "images/HSK_3.0/level6/歌唱.svg",
+    "caption": "ca hát, cất tiếng hát"
+  },
+  "个体": {
+    "file": "个体.svg",
+    "src": "images/HSK_3.0/level6/个体.svg",
+    "caption": "cá thể, cá nhân"
+  },
+  "给予": {
+    "file": "给予.svg",
+    "src": "images/HSK_3.0/level6/给予.svg",
+    "caption": "cho"
+  },
+  "跟随": {
+    "file": "跟随.svg",
+    "src": "images/HSK_3.0/level6/跟随.svg",
+    "caption": "đi theo, theo sau, đồng hành"
+  },
+  "跟踪": {
+    "file": "跟踪.svg",
+    "src": "images/HSK_3.0/level6/跟踪.svg",
+    "caption": "theo dõi, bám sát dấu vết"
+  },
+  "公": {
+    "file": "公.svg",
+    "src": "images/HSK_3.0/level6/公.svg",
+    "caption": "công cộng; công bằng; giống đực"
+  },
+  "宫": {
+    "file": "宫.svg",
+    "src": "images/HSK_3.0/level6/宫.svg",
+    "caption": "cung điện, hoàng cung"
+  },
+  "公安": {
+    "file": "公安.svg",
+    "src": "images/HSK_3.0/level6/公安.svg",
+    "caption": "công an, cảnh sát"
+  },
+  "工地": {
+    "file": "工地.svg",
+    "src": "images/HSK_3.0/level6/工地.svg",
+    "caption": "công trường xây dựng"
+  },
+  "公告": {
+    "file": "公告.svg",
+    "src": "images/HSK_3.0/level6/公告.svg",
+    "caption": "thông báo, cáo thị, thông cáo"
+  },
+  "工序": {
+    "file": "工序.svg",
+    "src": "images/HSK_3.0/level6/工序.svg",
+    "caption": "công đoạn, quy trình sản xuất"
+  },
+  "公益": {
+    "file": "公益.svg",
+    "src": "images/HSK_3.0/level6/公益.svg",
+    "caption": "phúc lợi công cộng"
+  },
+  "公众": {
+    "file": "公众.svg",
+    "src": "images/HSK_3.0/level6/公众.svg",
+    "caption": "công cộng"
+  },
+  "沟": {
+    "file": "沟.svg",
+    "src": "images/HSK_3.0/level6/沟.svg",
+    "caption": "mương nước, rãnh, hào"
+  },
+  "古人": {
+    "file": "古人.svg",
+    "src": "images/HSK_3.0/level6/古人.svg",
+    "caption": "người xưa, người cổ đại"
+  },
+  "股市": {
+    "file": "股市.svg",
+    "src": "images/HSK_3.0/level6/股市.svg",
+    "caption": "thị trường chứng khoán"
+  },
+  "顾": {
+    "file": "顾.svg",
+    "src": "images/HSK_3.0/level6/顾.svg",
+    "caption": "chăm nom, đoái hoài, ngoảnh lại"
+  },
+  "固体": {
+    "file": "固体.svg",
+    "src": "images/HSK_3.0/level6/固体.svg",
+    "caption": "chất rắn, thể rắn"
+  },
+  "顾问": {
+    "file": "顾问.svg",
+    "src": "images/HSK_3.0/level6/顾问.svg",
+    "caption": "cố vấn, chuyên gia tư vấn"
+  },
+  "拐": {
+    "file": "拐.svg",
+    "src": "images/HSK_3.0/level6/拐.svg",
+    "caption": "rẽ, quẹo"
+  },
+  "关爱": {
+    "file": "关爱.svg",
+    "src": "images/HSK_3.0/level6/关爱.svg",
+    "caption": "quan tâm chăm sóc, yêu thương"
+  },
+  "关联": {
+    "file": "关联.svg",
+    "src": "images/HSK_3.0/level6/关联.svg",
+    "caption": "liên quan, gắn kết mật thiết"
+  },
+  "观赏": {
+    "file": "观赏.svg",
+    "src": "images/HSK_3.0/level6/观赏.svg",
+    "caption": "thưởng ngoạn, ngắm nhìn, chiêm ngưỡng"
+  },
+  "官员": {
+    "file": "官员.svg",
+    "src": "images/HSK_3.0/level6/官员.svg",
+    "caption": "chính thức"
+  },
+  "管道": {
+    "file": "管道.svg",
+    "src": "images/HSK_3.0/level6/管道.svg",
+    "caption": "đường ống (nước, khí gas)"
+  },
+  "罐": {
+    "file": "罐.svg",
+    "src": "images/HSK_3.0/level6/罐.svg",
+    "caption": "bình, lọ, lon (đồ hộp)"
+  },
+  "广阔": {
+    "file": "广阔.svg",
+    "src": "images/HSK_3.0/level6/广阔.svg",
+    "caption": "rộng lớn, bao la, bát ngát"
+  },
+  "规划": {
+    "file": "规划.svg",
+    "src": "images/HSK_3.0/level6/规划.svg",
+    "caption": "quy hoạch, kế hoạch phát triển"
+  },
+  "归还": {
+    "file": "归还.svg",
+    "src": "images/HSK_3.0/level6/归还.svg",
+    "caption": "trả lại, hoàn trả"
   }
 };
 

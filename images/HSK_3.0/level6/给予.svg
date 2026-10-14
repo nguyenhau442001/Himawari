@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person representing the refugee/recipient -->
+  <g transform="translate(60, 120)">
+    <circle cx="30" cy="30" r="15" fill="#A0AEC0"/>
+    <path d="M15 45 Q30 60 45 45 L45 90 L15 90 Z" fill="#718096"/>
+    <path d="M20 90 L20 110 L25 110 L25 90 Z" fill="#4A5568"/>
+    <path d="M35 90 L35 110 L40 110 L40 90 Z" fill="#4A5568"/>
+  </g>
+
+  <!-- Person representing the giver -->
+  <g transform="translate(150, 120)">
+    <circle cx="30" cy="30" r="15" fill="#F6AD55"/>
+    <path d="M15 45 Q30 60 45 45 L45 90 L15 90 Z" fill="#DD6B20"/>
+    <path d="M20 90 L20 110 L25 110 L25 90 Z" fill="#975A16"/>
+    <path d="M35 90 L35 110 L40 110 L40 90 Z" fill="#975A16"/>
+  </g>
+
+  <!-- The aid/package being given -->
+  <rect x="105" y="130" width="30" height="25" rx="2" fill="#ECC94B"/>
+  <rect x="117" y="130" width="6" height="25" fill="#D69E2E"/>
+  <rect x="105" y="140" width="30" height="4" fill="#D69E2E"/>
+
+  <!-- Action: Hand gesture of giving -->
+  <path d="M145 140 L135 140" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M105 140 L95 140" stroke="#A0AEC0" stroke-width="4" stroke-linecap="round"/>
+</svg>
