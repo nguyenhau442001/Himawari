@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow representing warmth/heart center -->
+  <circle cx="120" cy="130" r="60" fill="#FFB74D" opacity="0.08" filter="blur(15px)"/>
+
+  <!-- Motion lines indicating gentle embrace / holding close -->
+  <path d="M 85 95 C 75 110 75 130 85 145" stroke="#FFB74D" stroke-width="2" stroke-linecap="round" opacity="0.4" fill="none"/>
+  <path d="M 155 95 C 165 110 165 130 155 145" stroke="#FFB74D" stroke-width="2" stroke-linecap="round" opacity="0.4" fill="none"/>
+
+  <!-- Mother / Protector Figure (Arms wrapped in warm protection) -->
+  <!-- Body/Torso -->
+  <path d="M 95 180 C 95 155 105 140 120 140 C 135 140 145 155 145 180 Z" fill="#374151"/>
+  
+  <!-- Back/Outer arms forming the enclosure ("huai" - carrying in the bosom/arms) -->
+  <path d="M 95 145 C 80 145 70 125 80 110 C 88 98 105 100 115 115" fill="none" stroke="#60A5FA" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="95" r="16" fill="#FBBF24"/>
+  <!-- Gentle, closed downward-looking eye / expression -->
+  <path d="M 115 97 C 117 99 119 99 121 97" stroke="#1F2937" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+  <!-- The Protected Object / Cherished Life (Infant / Sprout nestled close to the chest) -->
+  <!-- Little wrapped bundle / child safely cradled -->
+  <g transform="translate(103, 118)">
+    <!-- Swaddling / Body -->
+    <ellipse cx="17" cy="22" rx="14" ry="18" fill="#F472B6"/>
+    <!-- Tiny sleeping head -->
+    <circle cx="17" cy="8" r="9" fill="#FBBF24"/>
+    <!-- Peaceful sleeping curve for baby -->
+    <path d="M 14 8 Q 17 11 20 8" stroke="#1F2937" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Front comforting hands crossing over -->
+  <path d="M 90 140 C 105 150 135 150 150 140" fill="none" stroke="#60A5FA" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Warm accent glow indicating care, heart, affection -->
+  <circle cx="120" cy="130" r="3" fill="#FFB74D"/>
+  <path d="M 116 125 Q 120 120 124 125 Q 120 132 116 125 Z" fill="#F43F5E" opacity="0.9"/>
+</svg>

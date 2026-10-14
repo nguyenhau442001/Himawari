@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Measuring Cup -->
+  <path d="M85 70h70l-10 120a10 10 0 0 1-10 10H105a10 10 0 0 1-10-10L85 70z" fill="#343A46" stroke="#4A5568" stroke-width="4"/>
+  
+  <!-- Liquid inside (10ml level) -->
+  <path d="M96 150h48v30a5 5 0 0 1-5 5H101a5 5 0 0 1-5-5v-30z" fill="#FFB347"/>
+  
+  <!-- Handle -->
+  <path d="M155 90h15a15 15 0 0 1 0 30h-15" fill="none" stroke="#4A5568" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Graduation marks -->
+  <line x1="105" y1="180" x2="115" y2="180" stroke="#718096" stroke-width="2"/>
+  <line x1="105" y1="165" x2="115" y2="165" stroke="#718096" stroke-width="2"/>
+  <line x1="105" y1="150" x2="120" y2="150" stroke="#E2E8F0" stroke-width="3"/>
+  <line x1="105" y1="135" x2="115" y2="135" stroke="#718096" stroke-width="2"/>
+  <line x1="105" y1="120" x2="115" y2="120" stroke="#718096" stroke-width="2"/>
+  <line x1="105" y1="105" x2="115" y2="105" stroke="#718096" stroke-width="2"/>
+  <line x1="105" y1="90" x2="115" y2="90" stroke="#718096" stroke-width="2"/>
+  
+  <!-- Droplet above -->
+  <path d="M120 40c-8 0-15 7-15 15 0 5 3 8 7 12l8 10 8-10c4-4 7-7 7-12 0-8-7-15-15-15z" fill="#FFB347"/>
+</svg>

@@ -31101,6 +31101,261 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "归还.svg",
     "src": "images/HSK_3.0/level6/归还.svg",
     "caption": "trả lại, hoàn trả"
+  },
+  "跪": {
+    "file": "跪.svg",
+    "src": "images/HSK_3.0/level6/跪.svg",
+    "caption": "quỳ, quỳ gối"
+  },
+  "贵重": {
+    "file": "贵重.svg",
+    "src": "images/HSK_3.0/level6/贵重.svg",
+    "caption": "quý giá, đắt tiền"
+  },
+  "棍": {
+    "file": "棍.svg",
+    "src": "images/HSK_3.0/level6/棍.svg",
+    "caption": "gậy, que"
+  },
+  "国宝": {
+    "file": "国宝.svg",
+    "src": "images/HSK_3.0/level6/国宝.svg",
+    "caption": "kho báu quốc gia"
+  },
+  "国产": {
+    "file": "国产.svg",
+    "src": "images/HSK_3.0/level6/国产.svg",
+    "caption": "sản xuất trong nước, nội địa"
+  },
+  "国歌": {
+    "file": "国歌.svg",
+    "src": "images/HSK_3.0/level6/国歌.svg",
+    "caption": "quốc ca"
+  },
+  "国旗": {
+    "file": "国旗.svg",
+    "src": "images/HSK_3.0/level6/国旗.svg",
+    "caption": "cờ"
+  },
+  "国情": {
+    "file": "国情.svg",
+    "src": "images/HSK_3.0/level6/国情.svg",
+    "caption": "tình hình đất nước, quốc tình"
+  },
+  "过渡": {
+    "file": "过渡.svg",
+    "src": "images/HSK_3.0/level6/过渡.svg",
+    "caption": "chuyển tiếp, quá độ"
+  },
+  "过后": {
+    "file": "过后.svg",
+    "src": "images/HSK_3.0/level6/过后.svg",
+    "caption": "sau đó, về sau"
+  },
+  "海内外": {
+    "file": "海内外.svg",
+    "src": "images/HSK_3.0/level6/海内外.svg",
+    "caption": "trong và ngoài nước"
+  },
+  "海拔": {
+    "file": "海拔.svg",
+    "src": "images/HSK_3.0/level6/海拔.svg",
+    "caption": "độ cao so với mực nước biển"
+  },
+  "海面": {
+    "file": "海面.svg",
+    "src": "images/HSK_3.0/level6/海面.svg",
+    "caption": "mặt biển"
+  },
+  "海域": {
+    "file": "海域.svg",
+    "src": "images/HSK_3.0/level6/海域.svg",
+    "caption": "vùng biển"
+  },
+  "害": {
+    "file": "害.svg",
+    "src": "images/HSK_3.0/level6/害.svg",
+    "caption": "hại, làm hại; hại người"
+  },
+  "寒冬": {
+    "file": "寒冬.svg",
+    "src": "images/HSK_3.0/level6/寒冬.svg",
+    "caption": "mùa đông giá rét"
+  },
+  "旱灾": {
+    "file": "旱灾.svg",
+    "src": "images/HSK_3.0/level6/旱灾.svg",
+    "caption": "hạn hán, tai họa hạn hán"
+  },
+  "航空": {
+    "file": "航空.svg",
+    "src": "images/HSK_3.0/level6/航空.svg",
+    "caption": "hàng không"
+  },
+  "毫无": {
+    "file": "毫无.svg",
+    "src": "images/HSK_3.0/level6/毫无.svg",
+    "caption": "hoàn toàn không có, không một chút nào"
+  },
+  "毫升": {
+    "file": "毫升.svg",
+    "src": "images/HSK_3.0/level6/毫升.svg",
+    "caption": "mililít (ml)"
+  },
+  "好不": {
+    "file": "好不.svg",
+    "src": "images/HSK_3.0/level6/好不.svg",
+    "caption": "thật là, vô cùng, xiết bao"
+  },
+  "好感": {
+    "file": "好感.svg",
+    "src": "images/HSK_3.0/level6/好感.svg",
+    "caption": "thiện cảm, cảm tình tốt"
+  },
+  "好容易": {
+    "file": "好容易.svg",
+    "src": "images/HSK_3.0/level6/好容易.svg",
+    "caption": "vất vả lắm mới, khó khăn lắm mới"
+  },
+  "好学": {
+    "file": "好学.svg",
+    "src": "images/HSK_3.0/level6/好学.svg",
+    "caption": "chăm học, ham học hỏi"
+  },
+  "号召": {
+    "file": "号召.svg",
+    "src": "images/HSK_3.0/level6/号召.svg",
+    "caption": "kêu gọi, lời kêu gọi"
+  },
+  "合并": {
+    "file": "合并.svg",
+    "src": "images/HSK_3.0/level6/合并.svg",
+    "caption": "sáp nhập, hợp nhất"
+  },
+  "合成": {
+    "file": "合成.svg",
+    "src": "images/HSK_3.0/level6/合成.svg",
+    "caption": "tổng hợp, hợp thành"
+  },
+  "嘿": {
+    "file": "嘿.svg",
+    "src": "images/HSK_3.0/level6/嘿.svg",
+    "caption": "này, ê (thán từ chào hỏi hoặc nhắc nhở)"
+  },
+  "狠": {
+    "file": "狠.svg",
+    "src": "images/HSK_3.0/level6/狠.svg",
+    "caption": "tàn nhẫn; quyết tâm, hạ quyết tâm"
+  },
+  "横": {
+    "file": "横.svg",
+    "src": "images/HSK_3.0/level6/横.svg",
+    "caption": "ngang, chiều ngang"
+  },
+  "宏大": {
+    "file": "宏大.svg",
+    "src": "images/HSK_3.0/level6/宏大.svg",
+    "caption": "hoành tráng"
+  },
+  "后期": {
+    "file": "后期.svg",
+    "src": "images/HSK_3.0/level6/后期.svg",
+    "caption": "giai đoạn sau, hậu kỳ"
+  },
+  "后人": {
+    "file": "后人.svg",
+    "src": "images/HSK_3.0/level6/后人.svg",
+    "caption": "con cháu, thế hệ sau, hậu nhân"
+  },
+  "后者": {
+    "file": "后者.svg",
+    "src": "images/HSK_3.0/level6/后者.svg",
+    "caption": "cái sau, người sau (đối lập với 前者 cái trước)"
+  },
+  "忽略": {
+    "file": "忽略.svg",
+    "src": "images/HSK_3.0/level6/忽略.svg",
+    "caption": "lơ là, bỏ sót, xem nhẹ"
+  },
+  "胡子": {
+    "file": "胡子.svg",
+    "src": "images/HSK_3.0/level6/胡子.svg",
+    "caption": "râu, ria mép"
+  },
+  "户": {
+    "file": "户.svg",
+    "src": "images/HSK_3.0/level6/户.svg",
+    "caption": "hộ, hộ gia đình"
+  },
+  "花朵": {
+    "file": "花朵.svg",
+    "src": "images/HSK_3.0/level6/花朵.svg",
+    "caption": "hoa"
+  },
+  "滑冰": {
+    "file": "滑冰.svg",
+    "src": "images/HSK_3.0/level6/滑冰.svg",
+    "caption": "trượt băng"
+  },
+  "滑行": {
+    "file": "滑行.svg",
+    "src": "images/HSK_3.0/level6/滑行.svg",
+    "caption": "lướt, lăn bánh lướt đi"
+  },
+  "滑雪": {
+    "file": "滑雪.svg",
+    "src": "images/HSK_3.0/level6/滑雪.svg",
+    "caption": "trượt tuyết"
+  },
+  "划分": {
+    "file": "划分.svg",
+    "src": "images/HSK_3.0/level6/划分.svg",
+    "caption": "phân chia, chia ranh giới"
+  },
+  "话筒": {
+    "file": "话筒.svg",
+    "src": "images/HSK_3.0/level6/话筒.svg",
+    "caption": "micrô, ống nghe"
+  },
+  "怀": {
+    "file": "怀.svg",
+    "src": "images/HSK_3.0/level6/怀.svg",
+    "caption": "ôm trong lòng, lòng, mang trong tim"
+  },
+  "欢乐": {
+    "file": "欢乐.svg",
+    "src": "images/HSK_3.0/level6/欢乐.svg",
+    "caption": "vui tươi, hân hoan, niềm vui"
+  },
+  "环": {
+    "file": "环.svg",
+    "src": "images/HSK_3.0/level6/环.svg",
+    "caption": "vòng, khâu, mắt xích"
+  },
+  "还原": {
+    "file": "还原.svg",
+    "src": "images/HSK_3.0/level6/还原.svg",
+    "caption": "khôi phục nguyên trạng, hoàn nguyên"
+  },
+  "回报": {
+    "file": "回报.svg",
+    "src": "images/HSK_3.0/level6/回报.svg",
+    "caption": "đền đáp, báo đáp; hoàn vốn"
+  },
+  "回头": {
+    "file": "回头.svg",
+    "src": "images/HSK_3.0/level6/回头.svg",
+    "caption": "ngoảnh đầu; lát nữa, tí nữa"
+  },
+  "绘画": {
+    "file": "绘画.svg",
+    "src": "images/HSK_3.0/level6/绘画.svg",
+    "caption": "sơn"
+  },
+  "会见": {
+    "file": "会见.svg",
+    "src": "images/HSK_3.0/level6/会见.svg",
+    "caption": "tiếp kiến, hội kiến, gặp gỡ"
   }
 };
 

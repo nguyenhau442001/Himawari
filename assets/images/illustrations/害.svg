@@ -1,0 +1,39 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Hazard Warning Bottle / Toxic Substance representing "Hải" (Harmful entity/object) -->
+    <!-- Drop Shadow / Glow -->
+    <path d="M90 190 L150 190 L140 100 L100 100 Z" fill="#E65100" opacity="0.15"/>
+    
+    <!-- Liquid inside -->
+    <path d="M96 150 C105 145, 135 155, 144 148 L147 185 L93 185 Z" fill="#FFB300" opacity="0.85"/>
+    <circle cx="110" cy="165" r="3" fill="#FFE082" opacity="0.6"/>
+    <circle cx="130" cy="170" r="2" fill="#FFE082" opacity="0.6"/>
+
+    <!-- Glass Bottle Body -->
+    <path d="M102 75 L138 75 L138 95 C152 108, 153 130, 147 155 C143 175, 132 192, 120 192 C108 192, 97 175, 93 155 C87 130, 88 108, 102 95 Z" 
+          fill="none" stroke="#FFA726" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Bottle Neck & Cap -->
+    <rect x="105" y="55" width="30" height="20" rx="3" fill="#37474F" stroke="#CFD8DC" stroke-width="2"/>
+    <line x1="105" y1="63" x2="135" y2="63" stroke="#CFD8DC" stroke-width="2"/>
+
+    <!-- Hazard Symbol: Skull / Danger Icon on Bottle -->
+    <g transform="translate(120, 132) scale(0.8)">
+      <!-- Skull Head -->
+      <path d="M-10 -12 C-14 -12, -16 -8, -16 -4 C-16 2, -12 5, -10 7 L-10 12 L10 12 L10 7 C12 5, 16 2, 16 -4 C16 -8, 14 -12, 10 -12 Z" fill="#1A1D24"/>
+      <!-- Eye Sockets -->
+      <circle cx="-5" cy="-2" r="3.5" fill="#FFA726"/>
+      <circle cx="5" cy="-2" r="3.5" fill="#FFA726"/>
+      <!-- Nose Cavity -->
+      <polygon points="0,2 -2,7 2,7" fill="#FFA726"/>
+      <!-- Crossbones behind skull -->
+      <path d="M-14 -15 L14 13 M-14 13 L14 -15" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-14 -15 L14 13 M-14 13 L14 -15" stroke="#FFA726" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Highlight Reflection on Bottle -->
+    <path d="M107 105 C102 115, 102 135, 107 145" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  </g>
+</svg>

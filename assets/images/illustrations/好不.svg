@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "好不热闹" (Extremely lively/bustling) through a vibrant, crowded market scene -->
+  <!-- Background market stalls -->
+  <path d="M40 180h160v40H40z" fill="#2C313C"/>
+  <path d="M60 140h30v40H60zM150 140h30v40H150z" fill="#3D4451"/>
+  
+  <!-- Stylized crowd figures representing "人来人往" -->
+  <!-- Figure 1 -->
+  <circle cx="80" cy="120" r="12" fill="#FFB86C"/>
+  <path d="M68 132h24v40H68z" fill="#FFB86C"/>
+  
+  <!-- Figure 2 -->
+  <circle cx="120" cy="110" r="14" fill="#FFD700"/>
+  <path d="M106 124h28v50H106z" fill="#FFD700"/>
+  
+  <!-- Figure 3 -->
+  <circle cx="160" cy="125" r="10" fill="#FFB86C"/>
+  <path d="M150 135h20v35H150z" fill="#FFB86C"/>
+  
+  <!-- Decorative festive elements to signify "热闹" (Lively atmosphere) -->
+  <circle cx="50" cy="60" r="8" fill="#FF5555"/>
+  <circle cx="190" cy="70" r="8" fill="#FF5555"/>
+  <circle cx="120" cy="50" r="10" fill="#FF5555"/>
+  
+  <!-- Motion lines to suggest movement and bustle -->
+  <path d="M30 100l10-10M200 100l-10-10M120 160l5-15" stroke="#44475A" stroke-width="3" stroke-linecap="round"/>
+</svg>

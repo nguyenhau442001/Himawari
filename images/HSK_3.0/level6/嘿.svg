@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Escalation/Attention Trigger (The "Hey" moment) -->
+  <!-- A focal point breaking the baseline to represent the "Hey" interruption/attention-grabber -->
+  
+  <!-- Baseline -->
+  <path d="M40 180 L200 180" stroke="#3A404D" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Progression/Escalation: A sharp, sudden vertical trajectory representing the "Hey" interruption -->
+  <g transform="translate(120, 180)">
+    <path d="M0 0 L0 -80" stroke="#FFB800" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="-80" r="12" fill="#FFB800"/>
+    
+    <!-- Radiating ripples to show the "Hey" sound/attention-grabber spreading -->
+    <circle cx="0" cy="-80" r="20" fill="none" stroke="#FFB800" stroke-width="2" opacity="0.6"/>
+    <circle cx="0" cy="-80" r="30" fill="none" stroke="#FFB800" stroke-width="2" opacity="0.3"/>
+  </g>
+  
+  <!-- Contrast: The "Old Friend" connection point -->
+  <g transform="translate(60, 180)">
+    <circle cx="0" cy="0" r="6" fill="#5D677A"/>
+  </g>
+  
+  <!-- Contrast: The "Current Status" point -->
+  <g transform="translate(180, 180)">
+    <circle cx="0" cy="0" r="6" fill="#5D677A"/>
+  </g>
+  
+  <!-- Connecting line showing the transition from past to present -->
+  <path d="M60 180 Q 120 100 180 180" fill="none" stroke="#3A404D" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-30 100 L-30 40 C-30 10, -10 0, 0 0 C10 0, 30 10, 30 40 L30 100 Z" fill="#4A5568"/>
+    <!-- Neck -->
+    <rect x="-10" y="-10" width="20" height="20" fill="#F7B538"/>
+    <!-- Head (Turning back profile) -->
+    <path d="M0 -10 C25 -10, 40 5, 40 30 C40 55, 25 70, 0 70 C-25 70, -40 55, -40 30 C-40 5, -25 -10, 0 -10 Z" fill="#F7B538"/>
+    <!-- Eye (Looking back) -->
+    <circle cx="20" cy="25" r="4" fill="#1A1D24"/>
+    <!-- Hair -->
+    <path d="M-35 15 C-35 -5, -15 -20, 0 -20 C15 -20, 35 -5, 35 15 L35 25 C35 5, 15 -10, 0 -10 C-15 -10, -35 5, -35 25 Z" fill="#2D3748"/>
+    <!-- Motion lines indicating turning -->
+    <path d="M50 10 C65 20, 65 40, 50 50" stroke="#F7B538" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M60 5 C80 20, 80 50, 60 65" stroke="#F7B538" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  </g>
+</svg>

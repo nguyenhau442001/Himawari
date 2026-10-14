@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric background depth (stars/grid subtle details) -->
+  <circle cx="60" cy="70" r="1" fill="#4A5568" opacity="0.6"/>
+  <circle cx="180" cy="50" r="1.5" fill="#4A5568" opacity="0.6"/>
+  <circle cx="200" cy="110" r="1" fill="#4A5568" opacity="0.4"/>
+  <circle cx="45" cy="130" r="1.2" fill="#4A5568" opacity="0.5"/>
+
+  <!-- Majestic Grand Mountain Range (representing "宏大" / grandness and scale) -->
+  <!-- Background distant mountains -->
+  <polygon points="20,180 80,100 140,180" fill="#283142"/>
+  <polygon points="100,180 160,85 220,180" fill="#232B38"/>
+
+  <!-- Foreground monumental mountain with snow peak (grand, epic structure) -->
+  <polygon points="50,180 120,70 190,180" fill="#2E394D"/>
+  <!-- Mountain ridge highlight -->
+  <polygon points="120,70 120,180 190,180" fill="#242E3D"/>
+  <!-- Snow cap -->
+  <polygon points="120,70 102,100 138,100" fill="#E2E8F0"/>
+  <polygon points="120,70 102,100 115,105" fill="#CBD5E1"/>
+
+  <!-- Secondary majestic peak -->
+  <polygon points="135,180 185,110 235,180" fill="#334155"/>
+  <polygon points="185,110 172,130 195,130" fill="#E2E8F0"/>
+
+  <!-- Golden Accent Horizon / Rising Sun / Scale Reference -->
+  <circle cx="120" cy="165" r="55" fill="none" stroke="#D97706" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="120" cy="165" r="45" fill="none" stroke="#F59E0B" stroke-width="1" opacity="0.3"/>
+  <circle cx="120" cy="155" r="18" fill="#F59E0B"/>
+  
+  <!-- Ground plane -->
+  <rect x="0" y="180" width="240" height="60" fill="#15181E"/>
+
+  <!-- Silhouette of a person looking up in awe to emphasize grand scale -->
+  <!-- Head -->
+  <circle cx="85" cy="172" r="3.5" fill="#E2E8F0"/>
+  <!-- Body/Torso -->
+  <path d="M82,178 C82,176 88,176 88,178 L90,192 C90,193 88,194 85,194 C82,194 80,193 80,192 Z" fill="#E2E8F0"/>
+  <!-- Legs -->
+  <line x1="83" y1="194" x2="81" y2="204" stroke="#E2E8F0" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="87" y1="194" x2="89" y2="204" stroke="#E2E8F0" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Architectural framing / scale pillars (subtle flat design framing) -->
+  <rect x="0" y="0" width="240" height="240" rx="24" fill="none" stroke="#334155" stroke-width="2" opacity="0.5"/>
+</svg>

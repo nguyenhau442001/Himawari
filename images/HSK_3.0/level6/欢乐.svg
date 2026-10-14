@@ -1,0 +1,79 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Festive ambient background elements (street lanterns and paper cuts) -->
+  <g opacity="0.15">
+    <circle cx="120" cy="120" r="90" fill="none" stroke="#FFB703" stroke-width="1" stroke-dasharray="4 8"/>
+    <circle cx="120" cy="120" r="70" fill="none" stroke="#FB8500" stroke-width="1" stroke-dasharray="2 6"/>
+  </g>
+
+  <!-- Hanging Festive Lanterns (Contextual reference: street atmosphere) -->
+  <g>
+    <!-- Left Lantern -->
+    <line x1="60" y1="20" x2="60" y2="55" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+    <path d="M50 55 C45 55 42 65 45 75 C48 85 55 90 60 90 C65 90 72 85 75 75 C78 65 75 55 70 55 Z" fill="#E63946"/>
+    <path d="M54 55 H66 V60 H54 Z" stroke="#FFB703" stroke-width="2" fill="none"/>
+    <line x1="60" y1="90" x2="60" y2="105" stroke="#FFB703" stroke-width="1.5"/>
+
+    <!-- Right Lantern -->
+    <line x1="180" y1="20" x2="180" y2="55" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+    <path d="M170 55 C165 55 162 65 165 75 C168 85 175 90 180 90 C185 90 192 85 195 75 C198 65 195 55 190 55 Z" fill="#E63946"/>
+    <path d="M174 55 H186 V60 H174 Z" stroke="#FFB703" stroke-width="2" fill="none"/>
+    <line x1="180" y1="90" x2="180" y2="105" stroke="#FFB703" stroke-width="1.5"/>
+  </g>
+
+  <!-- Central Visual Representation: Adjective / Describing Word (Joyful Celebration / Huānlè) -->
+  <!-- Scale exaggeration and high emotional expression: Large dynamic figure celebrating with uplifting posture, confetti, and vibrant high-contrast colors -->
+  
+  <!-- Confetti / Festive Streamers -->
+  <g>
+    <path d="M70 120 L80 110" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>
+    <path d="M165 115 L175 125" stroke="#219EBC" stroke-width="3" stroke-linecap="round"/>
+    <path d="M95 85 L90 75" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>
+    <path d="M145 80 L150 70" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="65" cy="150" r="3" fill="#FB8500"/>
+    <circle cx="175" cy="150" r="3" fill="#FFB703"/>
+    <circle cx="100" cy="190" r="2.5" fill="#219EBC"/>
+    <circle cx="140" cy="190" r="2.5" fill="#E63946"/>
+    <path d="M85 165 C95 160 100 170 110 165" fill="none" stroke="#FFB703" stroke-width="2" stroke-linecap="round"/>
+    <path d="M130 165 C135 170 145 160 155 165" fill="none" stroke="#FB8500" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central Expressive Joyful Character (Enthusiastic pose, arms raised high, dynamic tilt) -->
+  <g transform="translate(0, 10)">
+    <!-- Body / Torso (Vibrant orange/gold theme for festive focus) -->
+    <path d="M105 135 L135 135 L142 175 L98 175 Z" fill="#FB8500"/>
+    
+    <!-- Raised Arms (Expressing high energy and happiness) -->
+    <!-- Left Arm raised -->
+    <path d="M105 138 L80 105 C75 100 78 92 85 95 L112 125 Z" fill="#FB8500"/>
+    <circle cx="80" cy="95" r="7" fill="#F4A261"/>
+
+    <!-- Right Arm raised -->
+    <path d="M135 138 L160 105 C165 100 162 92 155 95 L128 125 Z" fill="#FB8500"/>
+    <circle cx="160" cy="95" r="7" fill="#F4A261"/>
+
+    <!-- Head & Expression (Wide joyful smile, closed happy eyes) -->
+    <circle cx="120" cy="95" r="20" fill="#F4A261"/>
+    <!-- Hair -->
+    <path d="M100 95 C100 78 140 78 140 95 C135 88 105 88 100 95 Z" fill="#2B2D42"/>
+    
+    <!-- Happy curved eyes (^_^) -->
+    <path d="M110 93 Q114 88 118 93" fill="none" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M122 93 Q126 88 130 93" fill="none" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Big joyful open smile -->
+    <path d="M113 100 Q120 110 127 100 Z" fill="#1A1D24"/>
+
+    <!-- Legs (Dynamic celebratory stance) -->
+    <path d="M105 175 L95 210 C93 214 98 217 102 214 L114 175 Z" fill="#219EBC"/>
+    <path d="M135 175 L145 210 C147 214 142 217 138 214 L126 175 Z" fill="#219EBC"/>
+  </g>
+
+  <!-- Embellished Sparkles representing lively atmosphere and high spirits -->
+  <g fill="#FFB703">
+    <path d="M50 130 L53 138 L61 141 L53 144 L50 152 L47 144 L39 141 L47 138 Z"/>
+    <path d="M190 130 L192 135 L197 137 L192 139 L190 144 L188 139 L183 137 L188 135 Z"/>
+    <path d="M120 50 L122 55 L127 57 L122 59 L120 64 L118 59 L113 57 L118 55 Z"/>
+  </g>
+</svg>

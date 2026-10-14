@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Snow -->
+  <circle cx="40" cy="50" r="2" fill="#E0E6ED" opacity="0.6"/>
+  <circle cx="180" cy="30" r="3" fill="#E0E6ED" opacity="0.4"/>
+  <circle cx="120" cy="80" r="2" fill="#E0E6ED" opacity="0.5"/>
+  <circle cx="200" cy="150" r="2" fill="#E0E6ED" opacity="0.3"/>
+  <circle cx="60" cy="190" r="3" fill="#E0E6ED" opacity="0.5"/>
+
+  <!-- Soldier Figure -->
+  <g transform="translate(120, 120)">
+    <!-- Coat -->
+    <path d="M-30 20 L30 20 L25 80 L-25 80 Z" fill="#4A5568"/>
+    <!-- Collar -->
+    <path d="M-20 20 L20 20 L15 35 L-15 35 Z" fill="#2D3748"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="25" fill="#A0AEC0"/>
+    <!-- Hat (Ushanka style) -->
+    <path d="M-28 -15 L28 -15 L25 -35 L-25 -35 Z" fill="#2D3748"/>
+    <path d="M-30 -25 L30 -25 L30 -15 L-30 -15 Z" fill="#718096"/>
+    <!-- Face details -->
+    <rect x="-10" y="-5" width="5" height="5" rx="1" fill="#1A1D24"/>
+    <rect x="5" y="-5" width="5" height="5" rx="1" fill="#1A1D24"/>
+    <path d="M-8 5 L8 5" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Watchtower/Post -->
+  <rect x="170" y="140" width="40" height="80" fill="#2D3748"/>
+  <rect x="180" y="110" width="20" height="30" fill="#4A5568"/>
+  <rect x="175" y="105" width="30" height="5" fill="#718096"/>
+  
+  <!-- Accent: Frost/Cold Wind Effect -->
+  <path d="M0 180 Q60 160 120 180 T240 180" fill="none" stroke="#E0E6ED" stroke-width="4" stroke-dasharray="10 10" opacity="0.3"/>
+  
+  <!-- Gold Accent on Soldier -->
+  <rect x="-5" y="30" width="10" height="10" transform="translate(120, 120)" fill="#ECC94B" rx="2"/>
+</svg>

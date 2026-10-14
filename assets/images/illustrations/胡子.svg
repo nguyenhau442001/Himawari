@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration: "胡子" (beard/mustache), representing an elderly man's white, flowing beard and mustache (inspired by "爷爷摸了摸自己花白的长胡子") -->
+  <g transform="translate(120, 130)">
+    <!-- Subtle warm glow / face backdrop to anchor the facial hair context -->
+    <circle cx="0" cy="-20" r="75" fill="#252A34" opacity="0.6"/>
+
+    <!-- The Mustache (Ria mép) - sweeping, elegant flat vector shapes -->
+    <g fill="#E2E8F0">
+      <!-- Left mustache wing -->
+      <path d="M 0,-15 C -25,-15 -50,-2 -65,10 C -55,18 -35,10 -15,5 C -5,3 -2,0 0,-15 Z"/>
+      <!-- Right mustache wing -->
+      <path d="M 0,-15 C 25,-15 50,-2 65,10 C 55,18 35,10 15,5 C 5,3 2,0 0,-15 Z"/>
+      <!-- Center knot/philtrum anchor -->
+      <ellipse cx="0" cy="-12" rx="6" ry="5" fill="#CBD5E1"/>
+    </g>
+
+    <!-- The Flowing Beard (Cằm râu dài trắng của ông lão) -->
+    <g fill="#F8FAFC">
+      <!-- Outer large flowing beard shape -->
+      <path d="M -55,15 C -75,30 -85,75 -60,105 C -40,125 -10,135 0,135 C 10,135 40,125 60,105 C 85,75 75,30 55,15 C 35,22 20,12 0,10 C -20,12 -35,22 -55,15 Z"/>
+    </g>
+
+    <!-- Detailed layered locks of white beard (giving it texture and wisdom/age feel) -->
+    <g fill="#E2E8F0" opacity="0.85">
+      <!-- Left side locks -->
+      <path d="M -35,20 C -50,35 -60,65 -45,90 C -35,80 -40,55 -25,35 Z"/>
+      <!-- Right side locks -->
+      <path d="M 35,20 C 50,35 60,65 45,90 C 35,80 40,55 25,35 Z"/>
+      <!-- Center cascading lock -->
+      <path d="M -15,25 C -20,60 -10,95 0,125 C 10,95 20,60 15,25 C 5,20 -5,20 -15,25 Z"/>
+    </g>
+
+    <!-- Highlight tufts for clean vector aesthetic and high contrast on dark mode -->
+    <g fill="#FFFFFF" opacity="0.9">
+      <path d="M 0,35 C -8,55 -4,85 0,115 C 4,85 8,55 0,35 Z"/>
+      <path d="M -45,35 C -55,50 -45,70 -35,85 C -35,65 -40,45 -45,35 Z"/>
+      <path d="M 45,35 C 55,50 45,70 35,85 C 35,65 40,45 45,35 Z"/>
+    </g>
+
+    <!-- Focus accent: Warm golden touch representing the gentle stroked motion / wisdom -->
+    <path d="M -60,10 C -40,-2 -20,-8 0,-8 C 20,-8 40,-2 60,10" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Building 1 (Left) -->
+  <path d="M60 160V100L90 80L120 100V160H60Z" fill="#FFB347"/>
+  <rect x="70" y="110" width="15" height="20" fill="#1A1D24"/>
+  <rect x="95" y="110" width="15" height="20" fill="#1A1D24"/>
+  
+  <!-- Building 2 (Right) -->
+  <path d="M120 160V90L150 70L180 90V160H120Z" fill="#FFB347"/>
+  <rect x="130" y="100" width="15" height="20" fill="#1A1D24"/>
+  <rect x="155" y="100" width="15" height="20" fill="#1A1D24"/>
+  
+  <!-- Arrow indicating merger -->
+  <path d="M105 130L135 130M125 120L135 130L125 140" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Resulting Unified Building (Center-Bottom) -->
+  <path d="M80 210V170H160V210H80Z" fill="#FFD700"/>
+  <rect x="90" y="180" width="20" height="25" fill="#1A1D24"/>
+  <rect x="130" y="180" width="20" height="25" fill="#1A1D24"/>
+  <path d="M110 170L120 155L130 170" fill="#FFD700"/>
+</svg>

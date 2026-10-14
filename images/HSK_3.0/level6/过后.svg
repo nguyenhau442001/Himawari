@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptual Illustration for "过后" (Aftermath / After the rain: Rainbow & Clouds) -->
+  <g transform="translate(0, 5)">
+    <!-- Rainbow arcs -->
+    <path d="M 50 135 A 80 80 0 0 1 190 135" stroke="#FF5252" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 42 135 A 88 88 0 0 1 198 135" stroke="#FFA726" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 34 135 A 96 96 0 0 1 206 135" stroke="#FFEE58" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 26 135 A 104 104 0 0 1 214 135" stroke="#66BB6A" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 18 135 A 112 112 0 0 1 222 135" stroke="#29B6F6" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 10 135 A 120 120 0 0 1 230 135" stroke="#AB47BC" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+
+    <!-- Retreiving sun (breaking through) -->
+    <circle cx="120" cy="115" r="22" fill="#FFC107" opacity="0.95"/>
+    <path d="M 120 83 L 120 75" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 143 92 L 149 86" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 97 92 L 91 86" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Receding Dark Storm Cloud (Left) -->
+    <path d="M 30 145 C 30 135 40 125 55 125 C 65 125 73 130 78 138 C 84 136 90 138 94 143 C 98 148 98 155 94 160 L 34 160 C 31 155 30 150 30 145 Z" fill="#37474F" opacity="0.8"/>
+    
+    <!-- Receding Dark Storm Cloud (Right) -->
+    <path d="M 150 145 C 150 138 156 132 165 132 C 172 132 178 136 182 142 C 187 140 193 142 196 147 C 200 152 200 158 196 163 L 148 163 C 146 158 150 150 150 145 Z" fill="#37474F" opacity="0.8"/>
+
+    <!-- Clear horizon / Ground line -->
+    <rect x="30" y="160" width="180" height="4" rx="2" fill="#546E7A"/>
+    
+    <!-- Fresh sprout representing new growth "after" the rain -->
+    <path d="M 120 160 L 120 142" stroke="#81C784" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 120 148 C 112 144 108 136 112 130 C 118 130 120 138 120 148 Z" fill="#81C784"/>
+    <path d="M 120 145 C 128 141 132 133 128 127 C 122 127 120 135 120 145 Z" fill="#A5D6A7"/>
+  </g>
+</svg>

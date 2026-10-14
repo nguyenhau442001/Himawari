@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Scientific Grid & Details (Subtle) -->
+  <g opacity="0.15">
+    <line x1="30" y1="120" x2="210" y2="120" stroke="#64748B" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="120" y1="30" x2="120" y2="210" stroke="#64748B" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="120" cy="120" r="70" fill="none" stroke="#64748B" stroke-width="1"/>
+  </g>
+
+  <!-- Central Physical Object (Scientific Microscope & Omitted Error Indicator representing "忽略" - overlooked flaw) -->
+  <g transform="translate(0, 5)">
+    <!-- Microscope Base -->
+    <path d="M90 185 L150 185 C155 185 158 180 155 175 L145 160 C143 157 140 155 135 155 L105 155 C100 155 97 157 95 160 L85 175 C82 180 85 185 90 185 Z" fill="#334155"/>
+    <!-- Microscope Pillar/Stem -->
+    <rect x="112" y="100" width="16" height="60" rx="4" fill="#475569"/>
+    <!-- Microscope Stage -->
+    <rect x="85" y="125" width="70" height="8" rx="2" fill="#64748B"/>
+    <!-- Slide on stage -->
+    <rect x="100" y="121" width="40" height="4" rx="1" fill="#94A3B8"/>
+
+    <!-- Microscope Body & Head -->
+    <path d="M100 70 L140 50 L140 110 L128 110 L128 90 L100 90 Z" fill="#38BDF8"/>
+    <!-- Eyepiece -->
+    <rect x="130" y="38" width="22" height="18" rx="3" transform="rotate(30 130 38)" fill="#0284C7"/>
+
+    <!-- The Overlooked Detail (Tiny glowing error/particle fading out near the lens/slide) -->
+    <!-- Magnified alert/omission zone -->
+    <circle cx="120" cy="115" r="18" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 2"/>
+    <circle cx="120" cy="115" r="22" fill="none" stroke="#F59E0B" stroke-width="1" opacity="0.4"/>
+    
+    <!-- The tiny flawed speck being overlooked -->
+    <circle cx="123" cy="123" r="3.5" fill="#EF4444"/>
+    <path d="M129 129 L142 142" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="145" cy="145" r="2" fill="#EF4444" opacity="0.6"/>
+
+    <!-- Focus adjustment knob -->
+    <circle cx="107" cy="110" r="6" fill="#F59E0B"/>
+  </g>
+
+</svg>
