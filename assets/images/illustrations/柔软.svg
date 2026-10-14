@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Bed frame -->
+  <rect x="40" y="150" width="160" height="20" rx="4" fill="#3B4252"/>
+  <rect x="50" y="170" width="20" height="15" fill="#3B4252"/>
+  <rect x="170" y="170" width="20" height="15" fill="#3B4252"/>
+  
+  <!-- Mattress (The "Soft" element: exaggerated curve/indentation) -->
+  <path d="M40 150 Q 120 110 200 150 L 200 160 Q 120 125 40 160 Z" fill="#E5E9F0"/>
+  
+  <!-- Pillow (Exaggerated softness/indentation) -->
+  <path d="M60 130 Q 100 110 140 130 Q 100 150 60 130 Z" fill="#FFB86C"/>
+  
+  <!-- Blanket/Duvet (Visualizing softness through deep, organic folds) -->
+  <path d="M80 140 C 100 130 120 145 140 140 C 160 135 180 150 190 145 L 190 170 C 160 160 130 175 100 165 C 70 155 50 170 40 160 Z" fill="#8BE9FD" opacity="0.8"/>
+  
+  <!-- Indentation effect to show pressure/softness -->
+  <ellipse cx="100" cy="135" rx="15" ry="8" fill="#D8DEE9" opacity="0.5"/>
+  <ellipse cx="150" cy="150" rx="20" ry="10" fill="#D8DEE9" opacity="0.4"/>
+</svg>

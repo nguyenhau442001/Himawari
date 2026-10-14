@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background elements: A subtle suggestion of a stadium tunnel entrance -->
+  <path d="M60 240 L60 80 C60 60 80 40 120 40 C160 40 180 60 180 80 L180 240" fill="#252932"/>
+  
+  <!-- The Character: A soccer player standing in the center -->
+  <!-- Body -->
+  <path d="M120 100 C105 100 95 110 95 125 L95 180 C95 190 105 200 115 200 L125 200 C135 200 145 190 145 180 L145 125 C145 110 135 100 120 100 Z" fill="#FFB800"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="85" r="20" fill="#FFD700"/>
+  
+  <!-- Soccer Ball at feet -->
+  <circle cx="145" cy="205" r="15" fill="#FFFFFF"/>
+  <path d="M145 190 L145 220 M130 205 L160 205 M135 195 L155 215 M155 195 L135 215" stroke="#1A1D24" stroke-width="2"/>
+  
+  <!-- Selection Highlight: A golden spotlight beam from above -->
+  <path d="M90 0 L150 0 L180 240 L60 240 Z" fill="url(#grad1)" opacity="0.2"/>
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Jersey detail -->
+  <path d="M105 110 L135 110 L130 140 L110 140 Z" fill="#E69500"/>
+</svg>

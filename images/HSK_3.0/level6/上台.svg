@@ -1,0 +1,62 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background spotlight beam -->
+  <path d="M70 20 L170 20 L210 180 L30 180 Z" fill="#252A34" opacity="0.6"/>
+  <path d="M90 20 L150 20 L180 180 L60 180 Z" fill="#2D3340" opacity="0.5"/>
+  
+  <!-- Stage structure -->
+  <!-- Stage floor/platform -->
+  <path d="M20 160 L220 160 L200 185 L40 185 Z" fill="#3B4252"/>
+  <path d="M20 160 L220 160 L225 167 L15 167 Z" fill="#4C566A"/>
+  
+  <!-- Podium -->
+  <rect x="155" y="105" width="30" height="55" rx="2" fill="#E5C07B"/>
+  <path d="M150 105 L190 105 L185 115 L155 115 Z" fill="#F0C674"/>
+  <rect x="162" y="120" width="16" height="20" rx="1" fill="#D19A66"/>
+  
+  <!-- Microphone -->
+  <path d="M170 92 L170 105" stroke="#ABB2BF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="170" cy="89" r="4" fill="#61AFEF"/>
+  
+  <!-- Character walking up onto the stage (上台) -->
+  <!-- Body / Suit -->
+  <g transform="translate(0, 5)">
+    <!-- Legs in motion (walking up the ramp/steps) -->
+    <path d="M85 135 L98 160 L108 158" stroke="#61AFEF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M110 135 L115 163 L125 160" stroke="#4C566A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Torso -->
+    <path d="M90 95 L120 95 L125 135 L85 135 Z" fill="#61AFEF"/>
+    <!-- Collar & Tie -->
+    <path d="M100 95 L105 108 L110 95 Z" fill="#E06C75"/>
+    <polygon points="103,105 107,105 108,125 102,125" fill="#E06C75"/>
+    
+    <!-- Arms in motion -->
+    <path d="M87 100 L70 120 L78 126" stroke="#61AFEF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M123 100 L138 115 L132 122" stroke="#5C6370" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Head -->
+    <circle cx="105" cy="78" r="14" fill="#E5C07B"/>
+    <!-- Hair -->
+    <path d="M91 75 C91 66 100 62 108 63 C117 64 119 72 119 75 Z" fill="#D19A66"/>
+    
+    <!-- Award / Trophy in hand -->
+    <g transform="translate(62, 108)">
+      <path d="M5 8 L15 8 L13 18 L7 18 Z" fill="#E5C07B"/>
+      <path d="M10 18 L10 23" stroke="#E5C07B" stroke-width="2" stroke-linecap="round"/>
+      <path d="M6 23 L14 23" stroke="#ABB2BF" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 10 C3 6 7 6 7 9" stroke="#E5C07B" stroke-width="1.5" fill="none"/>
+      <path d="M17 10 C17 6 13 6 13 9" stroke="#E5C07B" stroke-width="1.5" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Motion lines indicating movement towards stage -->
+  <path d="M50 145 C60 142 70 140 75 140" stroke="#5C6370" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M45 152 C55 149 65 147 70 147" stroke="#5C6370" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+
+  <!-- Glowing spotlight beam elements (accent stars/sparkles on stage) -->
+  <circle cx="170" cy="70" r="1.5" fill="#E5C07B"/>
+  <circle cx="140" cy="50" r="1" fill="#E5C07B" opacity="0.7"/>
+  <circle cx="190" cy="60" r="1" fill="#E5C07B" opacity="0.8"/>
+</svg>

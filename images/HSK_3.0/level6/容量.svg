@@ -1,0 +1,43 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Smartphone Body -->
+  <rect x="80" y="40" width="80" height="160" rx="12" fill="#2D343E" stroke="#FFB800" stroke-width="2"/>
+  
+  <!-- Screen Area -->
+  <rect x="88" y="50" width="64" height="140" rx="6" fill="#1A1D24"/>
+  
+  <!-- Grid of Photo Icons representing capacity -->
+  <g fill="#FFB800">
+    <rect x="96" y="60" width="12" height="12" rx="2"/>
+    <rect x="114" y="60" width="12" height="12" rx="2"/>
+    <rect x="132" y="60" width="12" height="12" rx="2"/>
+    
+    <rect x="96" y="78" width="12" height="12" rx="2"/>
+    <rect x="114" y="78" width="12" height="12" rx="2"/>
+    <rect x="132" y="78" width="12" height="12" rx="2"/>
+    
+    <rect x="96" y="96" width="12" height="12" rx="2"/>
+    <rect x="114" y="96" width="12" height="12" rx="2"/>
+    <rect x="132" y="96" width="12" height="12" rx="2"/>
+    
+    <rect x="96" y="114" width="12" height="12" rx="2"/>
+    <rect x="114" y="114" width="12" height="12" rx="2"/>
+    <rect x="132" y="114" width="12" height="12" rx="2"/>
+    
+    <rect x="96" y="132" width="12" height="12" rx="2"/>
+    <rect x="114" y="132" width="12" height="12" rx="2"/>
+    <rect x="132" y="132" width="12" height="12" rx="2"/>
+    
+    <rect x="96" y="150" width="12" height="12" rx="2"/>
+    <rect x="114" y="150" width="12" height="12" rx="2"/>
+    <rect x="132" y="150" width="12" height="12" rx="2"/>
+    
+    <rect x="96" y="168" width="12" height="12" rx="2"/>
+    <rect x="114" y="168" width="12" height="12" rx="2"/>
+    <rect x="132" y="168" width="12" height="12" rx="2"/>
+  </g>
+  
+  <!-- Speaker/Sensor -->
+  <rect x="108" y="44" width="24" height="4" rx="2" fill="#4A5568"/>
+</svg>

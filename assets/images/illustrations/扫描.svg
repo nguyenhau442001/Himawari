@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(30, 20)">
+    <!-- Smartphone Frame representing the context of scanning a QR code -->
+    <rect x="70" y="20" width="60" height="110" rx="10" fill="#2D333B" stroke="#4F5D73" stroke-width="2"/>
+    <rect x="76" y="32" width="48" height="86" rx="4" fill="#111418"/>
+    
+    <!-- QR Code Graphic on Phone Screen -->
+    <g transform="translate(86, 42)" fill="#8AB4F8">
+      <!-- Top-Left Position Marker -->
+      <rect x="0" y="0" width="10" height="10" rx="2"/>
+      <rect x="2" y="2" width="6" height="6" rx="1" fill="#111418"/>
+      <rect x="4" y="4" width="2" height="2" fill="#8AB4F8"/>
+      
+      <!-- Top-Right Position Marker -->
+      <rect x="18" y="0" width="10" height="10" rx="2"/>
+      <rect x="20" y="2" width="6" height="6" rx="1" fill="#111418"/>
+      <rect x="22" y="4" width="2" height="2" fill="#8AB4F8"/>
+      
+      <!-- Bottom-Left Position Marker -->
+      <rect x="0" y="18" width="10" height="10" rx="2"/>
+      <rect x="2" y="20" width="6" height="6" rx="1" fill="#111418"/>
+      <rect x="4" y="22" width="2" height="2" fill="#8AB4F8"/>
+      
+      <!-- Data Modules (Abstracted blocks) -->
+      <rect x="14" y="2" width="2" height="4"/>
+      <rect x="12" y="8" width="4" height="2"/>
+      <rect x="2" y="14" width="6" height="2"/>
+      <rect x="12" y="12" width="6" height="6"/>
+      <rect x="20" y="14" width="8" height="2"/>
+      <rect x="22" y="18" width="4" height="4"/>
+      <rect x="14" y="20" width="4" height="6"/>
+      <rect x="2" y="24" width="8" height="2"/>
+    </g>
+    
+    <!-- Success / Interactive indicator dots -->
+    <circle cx="100" cy="120" r="2" fill="#528BFF"/>
+    
+    <!-- Laser Scanner Light Beam Effect (Visualizing the 'Scanning' action) -->
+    <!-- Translucent green scanner field -->
+    <polygon points="50,150 150,150 110,95 90,95" fill="#34A853" opacity="0.15"/>
+    
+    <!-- Bright Laser Scan Line -->
+    <line x1="60" y1="125" x2="140" y2="125" stroke="#34A853" stroke-width="3" stroke-linecap="round"/>
+    <line x1="60" y1="125" x2="140" y2="125" stroke="#A8F5C4" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Corner Targeting Reticle / Frame Overlay -->
+    <g stroke="#34A853" stroke-width="3" stroke-linecap="round" fill="none">
+      <!-- Top-Left Reticle -->
+      <path d="M45,85 L45,70 L60,70"/>
+      <!-- Top-Right Reticle -->
+      <path d="M135,70 L150,70 L150,85"/>
+      <!-- Bottom-Left Reticle -->
+      <path d="M45,155 L45,170 L60,170"/>
+      <!-- Bottom-Right Reticle -->
+      <path d="M135,170 L150,170 L150,155"/>
+    </g>
+    
+    <!-- Targeting Grid Glow / Accent Details -->
+    <circle cx="99.5" cy="125" r="45" stroke="#34A853" stroke-width="1" stroke-dasharray="4,6" fill="none" opacity="0.4"/>
+  </g>
+</svg>

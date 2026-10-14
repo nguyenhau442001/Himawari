@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow to create depth -->
+  <circle cx="120" cy="120" r="70" fill="#252A36" opacity="0.6"/>
+
+  <!-- Hospital Bed / Medical Context -->
+  <path d="M60 165H180V175H60z" fill="#3A4252" rx="2"/>
+  <path d="M75 175V195" stroke="#2E3544" stroke-width="6" stroke-linecap="round"/>
+  <path d="M165 175V195" stroke="#2E3544" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Pillow -->
+  <rect x="75" y="115" width="30" height="25" rx="6" fill="#4E5D6C"/>
+
+  <!-- Injured Person (伤员) lying in bed -->
+  <!-- Blanket/Sheet -->
+  <path d="M90 135L190 135V165H90V135Z" fill="#5A6B82" rx="4"/>
+  <path d="M90 145L180 145" stroke="#4E5D6C" stroke-width="2"/>
+
+  <!-- Head & Upper Body -->
+  <circle cx="95" cy="127" r="14" fill="#F4A261"/>
+  
+  <!-- Medical bandage on head -->
+  <path d="M83 125C83 125 90 120 102 124C102 124 98 132 83 125Z" fill="#FFFFFF"/>
+  <rect x="91" y="122" width="6" height="5" fill="#E76F51" rx="1"/>
+
+  <!-- Medical IV Stand and Bag in background -->
+  <path d="M185 80V170" stroke="#4E5D6C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M175 80H195" stroke="#4E5D6C" stroke-width="3" stroke-linecap="round"/>
+  <!-- IV Bag -->
+  <rect x="178" y="90" width="14" height="22" rx="3" fill="#E0F2FE" opacity="0.8"/>
+  <path d="M185 112V145" stroke="#E0F2FE" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Focus / Accent Medical Cross floating gently above, clearly indicating wounded/medical theme -->
+  <g transform="translate(120, 60)">
+    <!-- Soft glow behind cross -->
+    <circle cx="0" cy="0" r="18" fill="#E76F51" opacity="0.2"/>
+    <!-- Modern minimalist medical cross -->
+    <rect x="-4" y="-14" width="8" height="28" rx="2" fill="#E76F51"/>
+    <rect x="-14" y="-4" width="28" height="8" rx="2" fill="#E76F51"/>
+  </g>
+
+  <!-- Caring visitor hand / comforting gesture element -->
+  <!-- Represents the visiting context: "领导去医院慰问了伤员" -->
+  <path d="M140 145C140 145 150 138 162 142C170 145 175 152 175 152" stroke="#F4A261" stroke-width="6" stroke-linecap="round" fill="none"/>
+</svg>

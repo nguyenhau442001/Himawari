@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Left side: Day (Sun) -->
+  <circle cx="70" cy="120" r="35" fill="#FFB347"/>
+  <path d="M70 75 L70 60 M70 180 L70 165 M115 120 L130 120 M10 120 L25 120 M102 88 L112 78 M28 152 L38 142 M102 152 L112 162 M28 88 L38 78" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Right side: Night (Moon) -->
+  <path d="M170 85 A 35 35 0 1 0 170 155 A 25 25 0 1 1 170 85" fill="#A0AEC0"/>
+  
+  <!-- Stars -->
+  <circle cx="190" cy="80" r="2" fill="#FFFFFF"/>
+  <circle cx="210" cy="100" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="140" r="2" fill="#FFFFFF"/>
+  <circle cx="180" cy="160" r="3" fill="#FFFFFF"/>
+  
+  <!-- Divider -->
+  <line x1="120" y1="40" x2="120" y2="200" stroke="#2D3748" stroke-width="2" stroke-dasharray="6 6"/>
+</svg>

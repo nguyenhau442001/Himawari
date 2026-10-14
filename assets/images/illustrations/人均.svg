@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background grid/glow to signify data/statistics context without meters -->
+  <circle cx="120" cy="120" r="85" fill="none" stroke="#262B35" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="120" r="65" fill="#222732" opacity="0.6"/>
+
+  <!-- Visualizing "人均" (Per Capita): A group of distinct individuals sharing a wealth/income symbol evenly -->
+  
+  <!-- Person 1 (Left) -->
+  <g transform="translate(65, 130)">
+    <!-- Body -->
+    <path d="M-15 45 C-15 30 -5 25 0 25 C5 25 15 30 15 45 Z" fill="#4B5563"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="10" fill="#9CA3AF"/>
+    <!-- Share icon / Coin floating above -->
+    <circle cx="0" cy="-15" r="7" fill="#F59E0B"/>
+    <text x="0" y="-11" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1A1D24" text-anchor="middle">¥</text>
+  </g>
+
+  <!-- Person 2 (Center - Main focus) -->
+  <g transform="translate(120, 115)">
+    <!-- Body -->
+    <path d="M-18 55 C-18 36 -6 30 0 30 C6 30 18 36 18 55 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="0" cy="12" r="12" fill="#E5E7EB"/>
+    <!-- Share icon / Coin floating above -->
+    <circle cx="0" cy="-18" r="9" fill="#F59E0B"/>
+    <text x="0" y="-14" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1A1D24" text-anchor="middle">¥</text>
+  </g>
+
+  <!-- Person 3 (Right) -->
+  <g transform="translate(175, 130)">
+    <!-- Body -->
+    <path d="M-15 45 C-15 30 -5 25 0 25 C5 25 15 30 15 45 Z" fill="#4B5563"/>
+    <!-- Head -->
+    <circle cx="0" cy="10" r="10" fill="#9CA3AF"/>
+    <!-- Share icon / Coin floating above -->
+    <circle cx="0" cy="-15" r="7" fill="#F59E0B"/>
+    <text x="0" y="-11" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1A1D24" text-anchor="middle">¥</text>
+  </g>
+
+  <!-- Connecting equal distribution line -->
+  <path d="M 65 95 Q 120 75 175 95" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3" opacity="0.8"/>
+  
+  <!-- Central large overarching resource pool indicator (Equal division concept) -->
+  <path d="M 95 65 L 145 65 L 135 55 L 105 55 Z" fill="#374151" opacity="0.5"/>
+</svg>

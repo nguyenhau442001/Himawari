@@ -1,0 +1,32 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sea / Waves Background -->
+  <path d="M0 180 C 40 170, 80 190, 120 180 C 160 170, 200 190, 240 180 L 240 240 L 0 240 Z" fill="#162032"/>
+  <path d="M0 195 C 50 185, 100 205, 150 195 C 190 187, 220 200, 240 195 L 240 240 L 0 240 Z" fill="#0E1621"/>
+
+  <!-- Distressed Ship (Physical Object representing 求救 - 船只) -->
+  <g transform="translate(45, 110)">
+    <!-- Hull -->
+    <path d="M10 50 L140 50 C130 75, 20 75, 10 50 Z" fill="#3B4252"/>
+    <!-- Cabin -->
+    <rect x="50" y="25" width="45" height="25" fill="#4C566A"/>
+    <!-- Mast -->
+    <rect x="70" y="5" width="5" height="25" fill="#D8DEE9"/>
+    <!-- Tilted angle to show distress -->
+    <animateTransform attributeName="transform" type="rotate" values="5; -5; 5" dur="4s" repeatCount="indefinite" origin="75 50"/>
+  </g>
+
+  <!-- Distress Signal / SOS Beam (Focus Accent) -->
+  <g transform="translate(120, 95)">
+    <!-- Radar / Radio waves radiating upward -->
+    <path d="M -30 -20 Q 0 -50 30 -20" fill="none" stroke="#EBCB8B" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+    <path d="M -45 -35 Q 0 -70 45 -35" fill="none" stroke="#EBCB8B" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M -60 -50 Q 0 -90 60 -50" fill="none" stroke="#EBCB8B" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Bright Beacon Light (Orange/Gold for Focus) -->
+    <circle cx="0" cy="-10" r="8" fill="#D08770"/>
+    <circle cx="0" cy="-10" r="14" fill="#EBCB8B" opacity="0.4"/>
+  </g>
+
+</svg>

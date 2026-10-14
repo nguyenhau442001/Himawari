@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Wall Tile Background Pattern (Subtle) -->
+  <path d="M 60 40 H 180 M 60 80 H 180 M 60 120 H 180 M 60 160 H 180 M 60 200 H 180" stroke="#222730" stroke-width="1"/>
+  <path d="M 90 40 V 200 M 130 40 V 200 M 170 40 V 200" stroke="#222730" stroke-width="1"/>
+
+  <!-- Water Heater Main Body (Cylindrical tank) -->
+  <rect x="90" y="55" width="60" height="130" rx="30" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+  <rect x="95" y="60" width="50" height="120" rx="25" fill="#3B82F6" opacity="0.15"/>
+
+  <!-- Top and Bottom Cap Highlights -->
+  <path d="M 95 85 C 95 80 145 80 145 85" fill="none" stroke="#64748B" stroke-width="2"/>
+  <path d="M 95 155 C 95 160 145 160 145 155" fill="none" stroke="#64748B" stroke-width="2"/>
+
+  <!-- Control Panel / Temperature Display -->
+  <rect x="105" y="95" width="30" height="40" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1.5"/>
+  <!-- Digital Screen Glow -->
+  <rect x="110" y="101" width="20" height="14" rx="3" fill="#0F172A"/>
+  <!-- Temperature Text Lines (Abstract representation) -->
+  <line x1="115" y1="108" x2="125" y2="108" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <!-- Power/Function Button -->
+  <circle cx="120" cy="125" r="4" fill="#F59E0B"/>
+
+  <!-- Indicator Light -->
+  <circle cx="120" cy="73" r="3" fill="#EF4444"/>
+
+  <!-- Top Water Pipes entering wall -->
+  <path d="M 105 55 V 45 H 135 V 55" fill="none" stroke="#64748B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="120" cy="45" r="5" fill="#475569"/>
+
+  <!-- Bottom Water Pipes (Hot and Cold output) -->
+  <path d="M 110 185 V 195" fill="none" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 130 185 V 195" fill="none" stroke="#EF4444" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="110" cy="195" r="3" fill="#64748B"/>
+  <circle cx="130" cy="195" r="3" fill="#64748B"/>
+
+  <!-- Rising Steam / Heat Waves symbolizing Hot Water -->
+  <path d="M 125 32 C 122 28 128 24 125 20" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 112 36 C 109 32 115 28 112 24" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

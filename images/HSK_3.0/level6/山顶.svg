@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Deep background mountain silhouettes -->
+    <path d="M 40,160 L 90,80 L 140,160 Z" fill="#252A34" opacity="0.6"/>
+    <path d="M 120,160 L 175,70 L 220,160 Z" fill="#252A34" opacity="0.4"/>
+
+    <!-- Main Mountain Body -->
+    <path d="M 20,175 L 120,45 L 220,175 Z" fill="#2D3748"/>
+    
+    <!-- Mountain Face Shadow/Facet (Split Shading) -->
+    <path d="M 120,45 L 220,175 L 120,175 Z" fill="#1F2937"/>
+
+    <!-- Snowcap / Peak highlight (The "Ding" / Summit) -->
+    <path d="M 120,45 L 98,75 L 110,80 L 120,70 L 132,80 L 142,75 Z" fill="#E2E8F0"/>
+    <path d="M 120,45 L 142,75 L 132,80 L 120,70 Z" fill="#CBD5E1"/>
+
+    <!-- Atmospheric / Focus Glow behind the peak -->
+    <circle cx="120" cy="55" r="35" fill="#F59E0B" opacity="0.12" filter="blur(8px)"/>
+
+    <!-- The Person standing at the Summit (Context: 他站在山顶上) -->
+    <!-- Head -->
+    <circle cx="120" cy="88" r="4.5" fill="#FBBF24"/>
+    <!-- Body / Torso -->
+    <path d="M 117,93 L 123,93 L 125,110 L 115,110 Z" fill="#FBBF24"/>
+    <!-- Arms raised in triumph/standing -->
+    <path d="M 117,96 L 111,90 M 123,96 L 129,90" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M 117,110 L 115,118 M 123,110 L 125,118" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Small Flag at the peak next to climber -->
+    <path d="M 132,83 L 132,68" stroke="#94A3B8" stroke-width="1.5"/>
+    <path d="M 132,68 L 144,72 L 132,76 Z" fill="#EF4444"/>
+
+    <!-- Ground / Foothills -->
+    <rect x="0" y="173" width="240" height="30" fill="#161920"/>
+    
+    <!-- Modern minimalist distance accent lines -->
+    <path d="M 50,140 Q 60,135 70,140" stroke="#374151" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M 170,130 Q 180,125 190,130" stroke="#374151" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

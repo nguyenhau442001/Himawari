@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Street/Environment context -->
+  <path d="M0 180h240v60H0z" fill="#2C313C"/>
+  <path d="M20 200h200v2H20z" fill="#4A5568" stroke-dasharray="8 8"/>
+  
+  <!-- Police Officer Character -->
+  <g transform="translate(140, 100)">
+    <path d="M20 120v-40c0-10-5-15-15-15s-15 5-15 15v40" fill="#3B82F6"/>
+    <circle cx="5" cy="55" r="15" fill="#F3F4F6"/>
+    <path d="M-5 65h20v5h-20z" fill="#1E293B"/>
+    <path d="M-10 80h30l-5 40h-20z" fill="#1E293B"/>
+    <path d="M20 85l20 10" stroke="#3B82F6" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person Seeking Help (Character) -->
+  <g transform="translate(60, 100)">
+    <path d="M10 120v-40c0-10 5-15 15-15s15 5 15 15v40" fill="#F59E0B"/>
+    <circle cx="25" cy="55" r="15" fill="#F3F4F6"/>
+    <path d="M15 65h20v5h-20z" fill="#1E293B"/>
+    <!-- Gesture: Reaching out/Asking -->
+    <path d="M40 85l25-15" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion/Interaction lines -->
+  <path d="M85 70c15-10 30-10 45 0" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <path d="M90 65l5-5M95 60l5-5" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+</svg>

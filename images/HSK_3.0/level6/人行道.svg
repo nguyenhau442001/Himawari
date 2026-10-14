@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sidewalk Texture -->
+  <rect x="0" y="160" width="240" height="80" fill="#2D343E"/>
+  <rect x="0" y="160" width="240" height="4" fill="#3D4552"/>
+  
+  <!-- Curb -->
+  <rect x="0" y="150" width="240" height="10" fill="#4A5568"/>
+  
+  <!-- Pedestrian Figure -->
+  <g transform="translate(100, 100)">
+    <circle cx="20" cy="30" r="8" fill="#FFB84D"/>
+    <path d="M20 38 L20 65 M20 45 L10 55 M20 45 L30 55 M20 65 L15 85 M20 65 L25 85" stroke="#FFB84D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Sidewalk Tiles/Details -->
+  <path d="M0 170 L240 170" stroke="#3D4552" stroke-width="2" stroke-dasharray="20 20"/>
+  <path d="M0 190 L240 190" stroke="#3D4552" stroke-width="2" stroke-dasharray="20 20"/>
+  <path d="M0 210 L240 210" stroke="#3D4552" stroke-width="2" stroke-dasharray="20 20"/>
+  <path d="M0 230 L240 230" stroke="#3D4552" stroke-width="2" stroke-dasharray="20 20"/>
+  
+  <!-- Decorative Street Element (Lamp Post) -->
+  <rect x="210" y="80" width="6" height="80" fill="#4A5568"/>
+  <rect x="200" y="70" width="26" height="10" fill="#FFB84D"/>
+</svg>

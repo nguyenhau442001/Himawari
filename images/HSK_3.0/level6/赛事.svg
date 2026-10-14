@@ -1,0 +1,55 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Stadium / Competition Arena Background Elements -->
+  <ellipse cx="120" cy="180" rx="80" ry="25" fill="#252A34" opacity="0.6"/>
+  <path d="M 40 160 C 40 130, 200 130, 200 160" fill="none" stroke="#2D3340" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 60 170 C 60 145, 180 145, 180 170" fill="none" stroke="#2D3340" stroke-width="2"/>
+
+  <!-- Winner Podium / Stage -->
+  <rect x="95" y="150" width="50" height="30" rx="4" fill="#363C4E"/>
+  <rect x="70" y="160" width="25" height="20" rx="3" fill="#2D3340"/>
+  <rect x="145" y="165" width="25" height="15" rx="3" fill="#2D3340"/>
+
+  <!-- Winner Trophy (Physical Centerpiece for "赛事" - Sports Event/Tournament) -->
+  <!-- Trophy Base -->
+  <path d="M 105 150 L 135 150 L 130 142 L 110 142 Z" fill="#64748B"/>
+  <rect x="114" y="132" width="12" height="10" fill="#94A3B8"/>
+  
+  <!-- Trophy Cup Body -->
+  <path d="M 100 85 C 100 115, 140 115, 140 85 L 135 75 L 105 75 Z" fill="#F59E0B"/>
+  <path d="M 102 85 C 102 110, 138 110, 138 85 L 133 77 L 107 77 Z" fill="#FBBF24"/>
+
+  <!-- Trophy Handles -->
+  <path d="M 101 82 C 90 82, 90 98, 101 102" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 139 82 C 150 82, 150 98, 139 102" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Trophy Rim & Base Accent -->
+  <ellipse cx="120" cy="75" rx="15" ry="4" fill="#FDE68A"/>
+  <ellipse cx="120" cy="150" rx="17" ry="3" fill="#94A3B8"/>
+
+  <!-- Star Icon on Trophy -->
+  <polygon points="120,88 122,94 128,94 123,98 125,104 120,100 115,104 117,98 112,94 118,94" fill="#FEF3C7"/>
+
+  <!-- Crossed Tennis Rackets / Sports Elements behind Trophy -->
+  <!-- Left Racket -->
+  <g transform="translate(120, 95) rotate(-35) translate(-120, -95)">
+    <line x1="90" y1="95" x2="110" y2="95" stroke="#E2E8F0" stroke-width="3"/>
+    <ellipse cx="75" cy="95" rx="18" ry="22" fill="none" stroke="#38BDF8" stroke-width="3"/>
+    <line x1="75" y1="75" x2="75" y2="115" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <line x1="59" y1="95" x2="91" y2="95" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Right Racket -->
+  <g transform="translate(120, 95) rotate(35) translate(-120, -95)">
+    <line x1="130" y1="95" x2="150" y2="95" stroke="#E2E8F0" stroke-width="3"/>
+    <ellipse cx="165" cy="95" rx="18" ry="22" fill="none" stroke="#38BDF8" stroke-width="3"/>
+    <line x1="165" y1="75" x2="165" y2="115" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <line x1="149" y1="95" x2="181" y2="95" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Glowing Spotlight/Energy effect above trophy -->
+  <path d="M 120 20 L 90 70 L 150 70 Z" fill="#FBBF24" opacity="0.1"/>
+  <circle cx="120" cy="65" r="3" fill="#FDE68A" opacity="0.8"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle lighting/glow for focus -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Laptop / Job Board Platform -->
+  <!-- Laptop Base -->
+  <path d="M72 162H168C172.418 162 176 165.582 176 170C176 170 176 172 174 172H66C64 172 64 170 64 170C64 165.582 67.5822 162 72 162Z" fill="#718096"/>
+  <path d="M102 167H138C139.105 167 140 167.895 140 169C140 170.105 139.105 171 138 171H102C100.895 171 100 170.105 100 169C100 167.895 100.895 167 102 167Z" fill="#A0AEC0"/>
+
+  <!-- Laptop Screen Outer Bezel -->
+  <rect x="68" y="66" width="104" height="98" rx="8" fill="#2D3748"/>
+  <!-- Laptop Screen Inner Display -->
+  <rect x="73" y="71" width="94" height="88" rx="4" fill="#111827"/>
+
+  <!-- UI Elements on Screen (Job Application / Resume) -->
+  <!-- Top bar -->
+  <circle cx="83" cy="79" r="2.5" fill="#EF4444"/>
+  <circle cx="91" cy="79" r="2.5" fill="#F59E0B"/>
+  <circle cx="99" cy="79" r="2.5" fill="#10B981"/>
+
+  <!-- Resume Document Interface -->
+  <rect x="85" y="89" width="70" height="62" rx="3" fill="#F3F4F6"/>
+  <!-- Avatar / Photo placeholder -->
+  <circle cx="102" cy="103" r="8" fill="#D1D5DB"/>
+  <path d="M92 119C92 115.686 94.6863 113 98 113H106C109.314 113 112 115.686 112 119V120H92V119Z" fill="#D1D5DB"/>
+  <!-- Text lines on resume -->
+  <rect x="116" y="97" width="31" height="4" rx="2" fill="#4B5563"/>
+  <rect x="116" y="105" width="23" height="3" rx="1.5" fill="#9CA3AF"/>
+  <rect x="91" y="126" width="56" height="2" rx="1" fill="#E5E7EB"/>
+  <rect x="91" y="131" width="56" height="2" rx="1" fill="#E5E7EB"/>
+  <rect x="91" y="136" width="40" height="2" rx="1" fill="#E5E7EB"/>
+
+  <!-- Floating Application / Submit Icon (Focal Point) -->
+  <!-- Action button / badge overlaying bottom right of screen -->
+  <g transform="translate(132, 118)">
+    <circle cx="20" cy="20" r="20" fill="#F59E0B" stroke="#111827" stroke-width="3"/>
+    <!-- Send / Paper Airplane Icon -->
+    <path d="M11 20L27 12L21 28L17 22L11 20Z" fill="#111827"/>
+    <path d="M17 22L22 17" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Briefcase icon element at bottom left to emphasize career/job search context -->
+  <g transform="translate(42, 122)">
+    <rect x="0" y="8" width="22" height="15" rx="3" fill="#3B82F6"/>
+    <path d="M7 8V5C7 3.89543 7.89543 3 9 3H13C14.1046 3 15 3.89543 15 5V8" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+    <rect x="9" y="13" width="4" height="4" rx="1" fill="#1E3A8A"/>
+  </g>
+
+  <!-- Sparkle/Success indicators -->
+  <path d="M188 78L190.5 83.5L196 86L190.5 88.5L188 94L185.5 88.5L180 86L185.5 83.5L188 78Z" fill="#F59E0B" opacity="0.8"/>
+  <path d="M58 88L59.5 91.5L63 93L59.5 94.5L58 98L56.5 94.5L53 93L56.5 91.5L58 88Z" fill="#3B82F6" opacity="0.6"/>
+</svg>

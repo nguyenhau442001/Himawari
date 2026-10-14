@@ -32601,6 +32601,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "清洗.svg",
     "src": "images/HSK_3.0/level6/清洗.svg",
     "caption": "rửa sạch, giặt sạch"
+  },
+  "求": {
+    "file": "求.svg",
+    "src": "images/HSK_3.0/level6/求.svg",
+    "caption": "cầu xin, xin, yêu cầu"
+  },
+  "求婚": {
+    "file": "求婚.svg",
+    "src": "images/HSK_3.0/level6/求婚.svg",
+    "caption": "cầu hôn"
+  },
+  "求救": {
+    "file": "求救.svg",
+    "src": "images/HSK_3.0/level6/求救.svg",
+    "caption": "kêu cứu, cầu cứu"
+  },
+  "求职": {
+    "file": "求职.svg",
+    "src": "images/HSK_3.0/level6/求职.svg",
+    "caption": "xin việc, tìm việc làm"
+  },
+  "求助": {
+    "file": "求助.svg",
+    "src": "images/HSK_3.0/level6/求助.svg",
+    "caption": "tìm kiếm sự giúp đỡ, nhờ vả"
+  },
+  "曲": {
+    "file": "曲.svg",
+    "src": "images/HSK_3.0/level6/曲.svg",
+    "caption": "khúc ca, bài hát, giai điệu"
+  },
+  "取代": {
+    "file": "取代.svg",
+    "src": "images/HSK_3.0/level6/取代.svg",
+    "caption": "thay thế, thế chỗ"
+  },
+  "全程": {
+    "file": "全程.svg",
+    "src": "images/HSK_3.0/level6/全程.svg",
+    "caption": "toàn bộ chặng đường, toàn bộ quá trình"
+  },
+  "券": {
+    "file": "券.svg",
+    "src": "images/HSK_3.0/level6/券.svg",
+    "caption": "phiếu, vé, voucher"
+  },
+  "燃料": {
+    "file": "燃料.svg",
+    "src": "images/HSK_3.0/level6/燃料.svg",
+    "caption": "nhiên liệu"
+  },
+  "热点": {
+    "file": "热点.svg",
+    "src": "images/HSK_3.0/level6/热点.svg",
+    "caption": "điểm nóng, vấn đề nổi cộm"
+  },
+  "热度": {
+    "file": "热度.svg",
+    "src": "images/HSK_3.0/level6/热度.svg",
+    "caption": "độ nóng, mức độ quan tâm, nhiệt độ"
+  },
+  "热水器": {
+    "file": "热水器.svg",
+    "src": "images/HSK_3.0/level6/热水器.svg",
+    "caption": "máy nước nóng, bình nóng lạnh"
+  },
+  "热线": {
+    "file": "热线.svg",
+    "src": "images/HSK_3.0/level6/热线.svg",
+    "caption": "đường dây nóng"
+  },
+  "热议": {
+    "file": "热议.svg",
+    "src": "images/HSK_3.0/level6/热议.svg",
+    "caption": "bàn tán sôi nổi, thảo luận sôi nổi"
+  },
+  "人工智能": {
+    "file": "人工智能.svg",
+    "src": "images/HSK_3.0/level6/人工智能.svg",
+    "caption": "trí tuệ nhân tạo"
+  },
+  "人均": {
+    "file": "人均.svg",
+    "src": "images/HSK_3.0/level6/人均.svg",
+    "caption": "bình quân đầu người"
+  },
+  "人山人海": {
+    "file": "人山人海.svg",
+    "src": "images/HSK_3.0/level6/人山人海.svg",
+    "caption": "người đông như núi như biển, biển người"
+  },
+  "人行道": {
+    "file": "人行道.svg",
+    "src": "images/HSK_3.0/level6/人行道.svg",
+    "caption": "vỉa hè, phần đường dành cho người đi bộ"
+  },
+  "认错": {
+    "file": "认错.svg",
+    "src": "images/HSK_3.0/level6/认错.svg",
+    "caption": "nhận sai, nhận lỗi"
+  },
+  "认同": {
+    "file": "认同.svg",
+    "src": "images/HSK_3.0/level6/认同.svg",
+    "caption": "đồng tình, đồng cảm, công nhận"
+  },
+  "认知": {
+    "file": "认知.svg",
+    "src": "images/HSK_3.0/level6/认知.svg",
+    "caption": "nhận thức"
+  },
+  "日后": {
+    "file": "日后.svg",
+    "src": "images/HSK_3.0/level6/日后.svg",
+    "caption": "ngày sau, sau này, mai sau"
+  },
+  "日前": {
+    "file": "日前.svg",
+    "src": "images/HSK_3.0/level6/日前.svg",
+    "caption": "mấy ngày trước, vừa qua"
+  },
+  "日夜": {
+    "file": "日夜.svg",
+    "src": "images/HSK_3.0/level6/日夜.svg",
+    "caption": "ngày đêm"
+  },
+  "融合": {
+    "file": "融合.svg",
+    "src": "images/HSK_3.0/level6/融合.svg",
+    "caption": "dung hợp, hòa hợp, gắn kết"
+  },
+  "容量": {
+    "file": "容量.svg",
+    "src": "images/HSK_3.0/level6/容量.svg",
+    "caption": "dung lượng, sức chứa"
+  },
+  "融入": {
+    "file": "融入.svg",
+    "src": "images/HSK_3.0/level6/融入.svg",
+    "caption": "hòa nhập vào, hòa mình vào"
+  },
+  "柔软": {
+    "file": "柔软.svg",
+    "src": "images/HSK_3.0/level6/柔软.svg",
+    "caption": "mềm mại, êm ái"
+  },
+  "入境": {
+    "file": "入境.svg",
+    "src": "images/HSK_3.0/level6/入境.svg",
+    "caption": "nhập cảnh"
+  },
+  "入门": {
+    "file": "入门.svg",
+    "src": "images/HSK_3.0/level6/入门.svg",
+    "caption": "nhập môn, vỡ lòng, bước đầu"
+  },
+  "入选": {
+    "file": "入选.svg",
+    "src": "images/HSK_3.0/level6/入选.svg",
+    "caption": "trúng tuyển, được tuyển chọn"
+  },
+  "撒": {
+    "file": "撒.svg",
+    "src": "images/HSK_3.0/level6/撒.svg",
+    "caption": "rắc, gieo, rải"
+  },
+  "塞": {
+    "file": "塞.svg",
+    "src": "images/HSK_3.0/level6/塞.svg",
+    "caption": "nhét, đút, nút lại"
+  },
+  "赛事": {
+    "file": "赛事.svg",
+    "src": "images/HSK_3.0/level6/赛事.svg",
+    "caption": "giải đấu, sự kiện thể thao"
+  },
+  "散": {
+    "file": "散.svg",
+    "src": "images/HSK_3.0/level6/散.svg",
+    "caption": "rời rạc, tơi ra, rã"
+  },
+  "扫描": {
+    "file": "扫描.svg",
+    "src": "images/HSK_3.0/level6/扫描.svg",
+    "caption": "quét (mã, tài liệu)"
+  },
+  "鲨鱼": {
+    "file": "鲨鱼.svg",
+    "src": "images/HSK_3.0/level6/鲨鱼.svg",
+    "caption": "cá mập"
+  },
+  "山顶": {
+    "file": "山顶.svg",
+    "src": "images/HSK_3.0/level6/山顶.svg",
+    "caption": "đỉnh núi"
+  },
+  "山峰": {
+    "file": "山峰.svg",
+    "src": "images/HSK_3.0/level6/山峰.svg",
+    "caption": "đỉnh núi, ngọn núi"
+  },
+  "山坡": {
+    "file": "山坡.svg",
+    "src": "images/HSK_3.0/level6/山坡.svg",
+    "caption": "sườn đồi"
+  },
+  "闪": {
+    "file": "闪.svg",
+    "src": "images/HSK_3.0/level6/闪.svg",
+    "caption": "lóe sáng, nhấp nháy, né"
+  },
+  "伤口": {
+    "file": "伤口.svg",
+    "src": "images/HSK_3.0/level6/伤口.svg",
+    "caption": "vết thương"
+  },
+  "伤亡": {
+    "file": "伤亡.svg",
+    "src": "images/HSK_3.0/level6/伤亡.svg",
+    "caption": "thương vong"
+  },
+  "伤员": {
+    "file": "伤员.svg",
+    "src": "images/HSK_3.0/level6/伤员.svg",
+    "caption": "bị thương"
+  },
+  "上市": {
+    "file": "上市.svg",
+    "src": "images/HSK_3.0/level6/上市.svg",
+    "caption": "ra mắt thị trường, lên sàn chứng khoán"
+  },
+  "上述": {
+    "file": "上述.svg",
+    "src": "images/HSK_3.0/level6/上述.svg",
+    "caption": "đã nêu ở trên, nói trên"
+  },
+  "上台": {
+    "file": "上台.svg",
+    "src": "images/HSK_3.0/level6/上台.svg",
+    "caption": "lên sân khấu, lên bục phát biểu"
+  },
+  "上旬": {
+    "file": "上旬.svg",
+    "src": "images/HSK_3.0/level6/上旬.svg",
+    "caption": "thượng tuần, mười ngày đầu tháng"
   }
 };
 

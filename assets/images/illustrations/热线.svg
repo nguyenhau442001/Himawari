@@ -1,0 +1,48 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "热线" (Hotline): A glowing modern telephone handset connected to a dynamic, warm-colored energetic line/signal representing emergency and public service support -->
+  
+  <g transform="translate(0, 5)">
+    <!-- Background subtle pulse waves representing communication/signals -->
+    <path d="M 60 115 A 65 65 0 0 1 180 115" fill="none" stroke="#FFA726" stroke-width="2" stroke-dasharray="4,4" opacity="0.3"/>
+    <path d="M 45 115 A 80 80 0 0 1 195 115" fill="none" stroke="#FFA726" stroke-width="1.5" opacity="0.2"/>
+
+    <!-- The "Hot Line" (热线) dynamic glowing cable connecting upwards -->
+    <path d="M 120 195 C 120 160, 80 140, 80 115 C 80 90, 160 90, 160 65 C 160 45, 120 40, 120 25" fill="none" stroke="#FF5722" stroke-width="6" stroke-linecap="round"/>
+    <!-- Inner bright core of the hot line -->
+    <path d="M 120 195 C 120 160, 80 140, 80 115 C 80 90, 160 90, 160 65 C 160 45, 120 40, 120 25" fill="none" stroke="#FFEB3B" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- Modern Telephone Handset (Hovering/Dynamic) -->
+    <g transform="translate(0, -2)">
+      <!-- Main body of handset rotated slightly -->
+      <g transform="rotate(-25 120 115)">
+        <!-- Handset shadow/base -->
+        <rect x="75" y="95" width="90" height="40" rx="20" fill="#0D47A1"/>
+        <!-- Handset metallic/sleek body -->
+        <rect x="73" y="93" width="90" height="40" rx="20" fill="#1E88E5"/>
+        <!-- Earpiece inset -->
+        <circle cx="93" cy="113" r="12" fill="#1565C0"/>
+        <circle cx="93" cy="113" r="6" fill="#0D47A1"/>
+        <!-- Mouthpiece inset -->
+        <circle cx="147" cy="113" r="12" fill="#1565C0"/>
+        <circle cx="147" cy="113" r="6" fill="#0D47A1"/>
+        <!-- Accent glowing ring on handset (representing "hot" active support) -->
+        <path d="M 110 100 Q 120 105 130 100" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- Radiating communication sparks / heat symbols -->
+    <g fill="#FFA726">
+      <circle cx="155" cy="50" r="3"/>
+      <circle cx="85" cy="75" r="2.5"/>
+      <circle cx="140" cy="155" r="2.5"/>
+      <circle cx="95" cy="165" r="3.5"/>
+    </g>
+
+    <!-- Base anchor/glow point -->
+    <circle cx="120" cy="195" r="6" fill="#FF5722"/>
+    <circle cx="120" cy="195" r="3" fill="#FFEB3B"/>
+  </g>
+</svg>

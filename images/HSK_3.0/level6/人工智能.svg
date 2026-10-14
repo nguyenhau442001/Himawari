@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Head/Brain area -->
+    <path d="M60 20C36.8 20 18 38.8 18 62c0 15.6 8.4 29.2 21 36.4V108c0 3.3 2.7 6 6 6h30c3.3 0 6-2.7 6-6V98.4c12.6-7.2 21-20.8 21-36.4 0-23.2-18.8-42-42-42z" fill="#FFB84D"/>
+    <!-- Circuitry patterns inside head -->
+    <path d="M45 45h30v2H45zM45 55h30v2H45zM45 65h30v2H45z" fill="#1A1D24" opacity="0.3"/>
+    <circle cx="45" cy="46" r="3" fill="#1A1D24"/>
+    <circle cx="75" cy="56" r="3" fill="#1A1D24"/>
+    <circle cx="45" cy="66" r="3" fill="#1A1D24"/>
+    <!-- Neck/Base -->
+    <rect x="48" y="114" width="24" height="12" rx="2" fill="#4A5568"/>
+    <!-- Shoulders -->
+    <path d="M18 126c0 6.6 5.4 12 12 12h60c6.6 0 12-5.4 12-12V114H18v12z" fill="#2D3748"/>
+  </g>
+</svg>

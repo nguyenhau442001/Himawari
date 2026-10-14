@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Beach Elements (Simple Flat Shapes) -->
+  <!-- Ocean Horizon & Waves -->
+  <path d="M0 160 Q60 155 120 160 T240 160 L240 240 L0 240 Z" fill="#222B38"/>
+  <path d="M0 175 Q80 170 160 177 T240 173 L240 240 L0 240 Z" fill="#1E2836"/>
+  <!-- Beach Sand -->
+  <path d="M0 195 Q70 185 140 190 T240 185 L240 240 L0 240 Z" fill="#2C2E3B"/>
+
+  <!-- Distant Romantic Elements (Moon / Star) -->
+  <circle cx="195" cy="55" r="14" fill="#FFE599" opacity="0.9"/>
+
+  <!-- Character 1: Kneeling Proposer (Male Silhouette/Flat Design) -->
+  <!-- Torso & Head leaning forward -->
+  <g transform="translate(95, 115)">
+    <!-- Back leg (kneeling on ground) -->
+    <path d="M 25 35 L 5 50 L -10 65 L 5 70 L 25 55 Z" fill="#4A6CF7"/>
+    <!-- Front leg (bent knee) -->
+    <path d="M 15 35 L 35 55 L 35 75 L 20 75 Z" fill="#3B5BD5"/>
+    <!-- Body -->
+    <path d="M 10 0 L 30 15 L 25 50 L 5 40 Z" fill="#3B5BD5"/>
+    <!-- Head -->
+    <circle cx="2" cy="-8" r="7" fill="#FCE4D6"/>
+    <!-- Outstretched Arm holding flowers & ring box -->
+    <path d="M 20 15 L 50 30" stroke="#3B5BD5" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bouquet of Flowers & Ring Box -->
+  <g transform="translate(145, 138)">
+    <!-- Flower stems -->
+    <line x1="0" y1="0" x2="-5" y2="10" stroke="#52C41A" stroke-width="2"/>
+    <!-- Flower blossoms -->
+    <circle cx="-2" cy="-6" r="5" fill="#FF7875"/>
+    <circle cx="6" cy="-4" r="5" fill="#FFC069"/>
+    <circle cx="2" cy="-12" r="5" fill="#FF85C0"/>
+    <!-- Small Ring Box -->
+    <rect x="-12" y="8" width="10" height="8" rx="2" fill="#CF1322"/>
+    <rect x="-13" y="7" width="12" height="3" rx="1" fill="#F5222D"/>
+    <!-- Tiny Diamond Ring Sparkle -->
+    <circle cx="-7" cy="4" r="2.5" fill="#E6F4FF"/>
+    <path d="M -7 1 L -7 7 M -10 4 L -4 4" stroke="#85A5FF" stroke-width="1"/>
+  </g>
+
+  <!-- Character 2: Standing Recipient (Female Silhouette/Flat Design) -->
+  <g transform="translate(165, 90)">
+    <!-- Head -->
+    <circle cx="0" cy="5" r="8" fill="#FCE4D6"/>
+    <!-- Hair -->
+    <path d="M -8 1 Q -12 15 -5 20 Q 5 15 8 5 Z" fill="#D48806"/>
+    <!-- Dress / Body -->
+    <path d="M -8 15 L 8 15 L 14 75 L -14 75 Z" fill="#E868A2"/>
+    <!-- Legs -->
+    <path d="M -6 75 L -6 100 L -2 100 L -2 75 Z" fill="#D48806" opacity="0.3"/>
+    <path d="M 2 75 L 2 100 L 6 100 L 6 75 Z" fill="#D48806" opacity="0.3"/>
+    <!-- Arm in surprise/happiness gesture near chest -->
+    <path d="M -5 25 Q -12 30 -8 38" stroke="#E868A2" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Subtle Focus Accent Rings (Warm Golden Glow under the couple) -->
+  <ellipse cx="130" cy="193" rx="65" ry="10" fill="#FFC069" opacity="0.15"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background/Atmosphere: Clouds and sky elements -->
+  <!-- Distant clouds / mists -->
+  <path d="M40 140 Q55 130 75 140 T110 135 T150 142 T190 138 T215 145" fill="none" stroke="#2C3440" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M25 165 Q40 155 60 162 T95 158 T135 163 T175 157 T210 162" fill="none" stroke="#2C3440" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Back Mountain (Secondary peak) -->
+  <polygon points="135,180 185,90 225,180" fill="#252A34"/>
+  <!-- Back Mountain Snow Cap -->
+  <path d="M185,90 L205,130 Q195,135 185,125 Q175,135 165,130 Z" fill="#E2E8F0"/>
+
+  <!-- Left Mountain (Secondary peak) -->
+  <polygon points="15,180 55,105 95,180" fill="#2E3642"/>
+  <!-- Left Mountain Snow Cap -->
+  <path d="M55,105 L72,140 Q63,144 55,138 Q47,144 38,140 Z" fill="#E2E8F0"/>
+
+  <!-- Main Center Mountain (山峰 - Shānfēng) -->
+  <!-- Mountain Body -->
+  <polygon points="45,180 120,55 195,180" fill="#3B4656"/>
+
+  <!-- Mountain Facet Shading (Stylized flat design split) -->
+  <polygon points="120,55 195,180 120,180" fill="#313B49"/>
+
+  <!-- Majestic Snow Cap (Thick white snow covering the peak as per context) -->
+  <path d="M120,55 L152,110 Q142,118 135,112 Q125,122 120,115 Q110,125 105,115 Q98,118 88,110 Z" fill="#FFFFFF"/>
+  <path d="M120,55 L152,110 Q142,118 135,112 Q125,122 120,115 Q110,125 105,115 Q98,118 88,110 Z" fill="#E2E8F0" opacity="0.15"/>
+
+  <!-- High-altitude clouds piercing the mountain -->
+  <path d="M20,125 Q35,115 55,122 T90,118 T125,123 T160,117 T195,124 T220,120" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.15"/>
+  <path d="M10,105 Q30,95 50,102 T85,98 T120,103 T155,97 T190,104 T230,98" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- Highlighting Accent Star / Focus Detail at the very peak -->
+  <circle cx="120" cy="55" r="3" fill="#F59E0B"/>
+  <path d="M120,47 L120,63 M112,55 L128,55" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Foreground base grounding line -->
+  <rect x="20" y="180" width="200" height="4" rx="2" fill="#4B5563"/>
+</svg>
