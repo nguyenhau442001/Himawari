@@ -1,0 +1,64 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed dark mode container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative building silhouettes (multi-tiered urban context) -->
+  <path d="M40 180V120H70V180H40ZM90 180V90H130V180H90ZM150 180V140H180V180H150Z" fill="#252A34"/>
+  <rect x="45" y="130" width="8" height="12" rx="1" fill="#2E3642"/>
+  <rect x="57" y="130" width="8" height="12" rx="1" fill="#2E3642"/>
+  <rect x="45" y="150" width="8" height="12" rx="1" fill="#2E3642"/>
+  <rect x="57" y="150" width="8" height="12" rx="1" fill="#2E3642"/>
+  <rect x="100" y="105" width="20" height="15" rx="1" fill="#2E3642"/>
+  <rect x="100" y="130" width="20" height="15" rx="1" fill="#2E3642"/>
+  <rect x="100" y="155" width="20" height="15" rx="1" fill="#2E3642"/>
+
+  <!-- Multi-layered Greenification (立体绿化) - Buildings with integrated vertical greenery and lush trees -->
+  <!-- Balcony planter box 1 -->
+  <rect x="35" y="120" width="40" height="8" rx="2" fill="#3A4454"/>
+  <!-- Hanging vines on building 1 -->
+  <path d="M42 128 C42 145, 45 155, 48 165" stroke="#2ECC71" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M55 128 C55 140, 58 150, 62 160" stroke="#2ECC71" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M68 128 C68 138, 70 148, 72 155" stroke="#27AE60" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Balcony planter box 2 (Tower) -->
+  <rect x="85" y="105" width="50" height="8" rx="2" fill="#3A4454"/>
+  <!-- Vertical garden wall segments -->
+  <rect x="98" y="90" width="24" height="15" rx="2" fill="#27AE60"/>
+  <circle cx="104" cy="97" r="4" fill="#2ECC71"/>
+  <circle cx="116" cy="97" r="4" fill="#2ECC71"/>
+
+  <!-- Hanging foliage tower -->
+  <path d="M92 113 C92 135, 95 150, 98 168" stroke="#2ECC71" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M110 113 C110 130, 115 145, 118 160" stroke="#27AE60" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M128 113 C128 140, 125 155, 122 170" stroke="#2ECC71" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Ground surface -->
+  <path d="M0 180H240V210H0V180Z" fill="#1E232D"/>
+  <rect x="0" y="178" width="240" height="4" fill="#F1C40F" opacity="0.8"/> <!-- Accent focus line -->
+
+  <!-- Foreground lush trees and planting beds representing urban afforestation (绿化) -->
+  <!-- Left Tree -->
+  <rect x="25" y="150" width="6" height="30" fill="#795548"/>
+  <circle cx="28" cy="140" r="18" fill="#27AE60"/>
+  <circle cx="20" cy="145" r="12" fill="#2ECC71"/>
+  <circle cx="36" cy="145" r="12" fill="#2ECC71"/>
+
+  <!-- Center-Right Large Vibrant Tree (Focal Point) -->
+  <rect x="185" y="135" width="8" height="45" fill="#795548"/>
+  <circle cx="189" cy="115" r="26" fill="#2ECC71"/>
+  <circle cx="173" cy="125" r="18" fill="#27AE60"/>
+  <circle cx="205" cy="125" r="18" fill="#2ECC71"/>
+  <circle cx="189" cy="100" r="16" fill="#A3E4D7" opacity="0.3"/> <!-- Highlight sheen -->
+
+  <!-- Foreground Urban Planter Bed with vibrant sprouting plants -->
+  <path d="M130 170H170V180H130Z" fill="#3A4454" rx="2"/>
+  <!-- Sprout 1 -->
+  <path d="M140 170 C140 160, 145 155, 148 150" stroke="#2ECC71" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M148 153 C152 153, 155 157, 153 161 C151 163, 148 161, 148 158" fill="#2ECC71"/>
+  <!-- Sprout 2 -->
+  <path d="M158 170 C158 155, 152 148, 148 140" stroke="#27AE60" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M148 143 C144 142, 141 146, 143 150 C145 152, 148 150, 148 147" fill="#27AE60"/>
+
+  <!-- Modern golden/orange accent ring framing the core ecological concept -->
+  <circle cx="120" cy="110" r="85" stroke="#F1C40F" stroke-width="2" fill="none" opacity="0.15"/>
+</svg>

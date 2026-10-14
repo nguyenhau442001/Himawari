@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Flight Simulator Base -->
+  <path d="M60 180 L180 180 L170 140 L70 140 Z" fill="#2D343E"/>
+  <path d="M80 140 L160 140 L150 100 L90 100 Z" fill="#3D4754"/>
+  
+  <!-- Pilot Character -->
+  <circle cx="120" cy="85" r="25" fill="#FFC107"/>
+  <path d="M105 80 L112 80 M128 80 L135 80" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M110 95 Q120 102 130 95" stroke="#1A1D24" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Headset -->
+  <path d="M100 85 A20 20 0 0 1 140 85" stroke="#FF9800" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="98" cy="95" r="6" fill="#FF9800"/>
+  <circle cx="142" cy="95" r="6" fill="#FF9800"/>
+  
+  <!-- Simulator Screen (The "Simulation" visual) -->
+  <rect x="75" y="105" rx="4" ry="4" width="90" height="30" fill="#000"/>
+  <path d="M80 125 L100 110 L120 125 L140 110 L160 125" stroke="#FFC107" stroke-width="2" fill="none"/>
+  
+  <!-- Controls -->
+  <rect x="105" y="145" width="30" height="10" rx="2" fill="#FF9800"/>
+  <circle cx="120" cy="165" r="8" fill="#FFC107"/>
+</svg>

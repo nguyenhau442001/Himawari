@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor line representing the sidewalk context -->
+  <path d="M 40 180 L 200 180" stroke="#2D333F" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Tactile paving indicator (textured dots/lines for the blind path) -->
+  <circle cx="90" cy="180" r="3" fill="#3E4756"/>
+  <circle cx="110" cy="180" r="3" fill="#3E4756"/>
+  <circle cx="130" cy="180" r="3" fill="#3E4756"/>
+  <circle cx="150" cy="180" r="3" fill="#3E4756"/>
+
+  <!-- Character / Object: Visually impaired person with white cane -->
+  <g transform="translate(0, 0)">
+    <!-- Shadow -->
+    <ellipse cx="120" cy="192" rx="36" ry="6" fill="#121418"/>
+
+    <!-- Body / Torso (Modern teal/slate clothing with warm contrast) -->
+    <path d="M 100 120 C 100 112, 108 106, 120 106 C 132 106, 140 112, 140 120 L 144 174 C 144 178, 140 182, 136 182 L 104 182 C 100 182, 96 178, 96 174 Z" fill="#38BDF8"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="84" r="18" fill="#FDE047"/>
+
+    <!-- Glasses (Dark sunglasses for the visually impaired) -->
+    <path d="M 106 82 L 134 82 C 136 82, 137 83, 137 85 L 137 91 C 137 93, 136 94, 134 94 L 106 94 C 104 94, 103 93, 103 91 L 103 85 C 103 83, 104 82, 106 82 Z" fill="#1E293B"/>
+
+    <!-- Cane arm (reaching forward/down) -->
+    <path d="M 112 115 L 140 140 L 148 150" stroke="#FDE047" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- White Cane (Long cane extending to the ground) -->
+    <line x1="148" y1="150" x2="190" y2="182" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <!-- Red stripe on white cane -->
+    <line x1="168" y1="165" x2="178" y2="173" stroke="#EF4444" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Other arm -->
+    <path d="M 128 114 L 114 135" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

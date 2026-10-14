@@ -32087,6 +32087,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/立.svg",
     "caption": "đứng; lập nên, dựng nên"
   },
+  "力度": {
+    "file": "力度.svg",
+    "src": "images/HSK_3.0/level6/力度.svg",
+    "caption": "cường độ, mức độ, sức mạnh tác động"
+  },
   "历经": {
     "file": "历经.svg",
     "src": "images/HSK_3.0/level6/历经.svg",
@@ -32101,6 +32106,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "联合国.svg",
     "src": "images/HSK_3.0/level6/联合国.svg",
     "caption": "liên Hợp Quốc"
+  },
+  "联网": {
+    "file": "联网.svg",
+    "src": "images/HSK_3.0/level6/联网.svg",
+    "caption": "kết nối mạng, hòa mạng"
+  },
+  "链接": {
+    "file": "链接.svg",
+    "src": "images/HSK_3.0/level6/链接.svg",
+    "caption": "đường dẫn, liên kết (link)"
+  },
+  "两岸": {
+    "file": "两岸.svg",
+    "src": "images/HSK_3.0/level6/两岸.svg",
+    "caption": "hai bờ (sông); hai bờ eo biển"
+  },
+  "两极": {
+    "file": "两极.svg",
+    "src": "images/HSK_3.0/level6/两极.svg",
+    "caption": "hai cực (địa lý, phân cực xã hội)"
+  },
+  "料¹": {
+    "file": "料¹.svg",
+    "src": "images/HSK_3.0/level6/料¹.svg",
+    "caption": "nguyên liệu, vật liệu; tài liệu"
+  },
+  "料²": {
+    "file": "料².svg",
+    "src": "images/HSK_3.0/level6/料².svg",
+    "caption": "đoán trước, liệu trước (nghĩ rằng: 料想, 没料到)"
+  },
+  "淋": {
+    "file": "淋.svg",
+    "src": "images/HSK_3.0/level6/淋.svg",
+    "caption": "dầm (mưa), xối, tưới"
+  },
+  "流程": {
+    "file": "流程.svg",
+    "src": "images/HSK_3.0/level6/流程.svg",
+    "caption": "quá trình"
+  },
+  "流动": {
+    "file": "流动.svg",
+    "src": "images/HSK_3.0/level6/流动.svg",
+    "caption": "lưu động, luân chuyển, chảy"
+  },
+  "浏览器": {
+    "file": "浏览器.svg",
+    "src": "images/HSK_3.0/level6/浏览器.svg",
+    "caption": "trình duyệt"
+  },
+  "流量": {
+    "file": "流量.svg",
+    "src": "images/HSK_3.0/level6/流量.svg",
+    "caption": "lưu lượng (dữ liệu mạng, xe cộ, dòng nước)"
+  },
+  "流入": {
+    "file": "流入.svg",
+    "src": "images/HSK_3.0/level6/流入.svg",
+    "caption": "chảy vào, đổ vào"
+  },
+  "楼道": {
+    "file": "楼道.svg",
+    "src": "images/HSK_3.0/level6/楼道.svg",
+    "caption": "hành lang (tòa nhà, chung cư)"
+  },
+  "露": {
+    "file": "露.svg",
+    "src": "images/HSK_3.0/level6/露.svg",
+    "caption": "lộ ra, hở ra (lộ mặt: 露面, 露脸)"
+  },
+  "露¹": {
+    "file": "露¹.svg",
+    "src": "images/HSK_3.0/level6/露¹.svg",
+    "caption": "bộc lộ, hiển lộ (显露, 流露)"
+  },
+  "路程": {
+    "file": "路程.svg",
+    "src": "images/HSK_3.0/level6/路程.svg",
+    "caption": "chặng đường, lộ trình, cự ly"
+  },
+  "路况": {
+    "file": "路况.svg",
+    "src": "images/HSK_3.0/level6/路况.svg",
+    "caption": "tình hình đường sá, tình trạng giao thông"
+  },
+  "路面": {
+    "file": "路面.svg",
+    "src": "images/HSK_3.0/level6/路面.svg",
+    "caption": "mặt đường"
+  },
+  "录像": {
+    "file": "录像.svg",
+    "src": "images/HSK_3.0/level6/录像.svg",
+    "caption": "ghi hình, quay video; đoạn băng hình"
+  },
+  "录制": {
+    "file": "录制.svg",
+    "src": "images/HSK_3.0/level6/录制.svg",
+    "caption": "thu âm, ghi hình, sản xuất chương trình"
+  },
+  "旅程": {
+    "file": "旅程.svg",
+    "src": "images/HSK_3.0/level6/旅程.svg",
+    "caption": "hành trình"
+  },
+  "旅途": {
+    "file": "旅途.svg",
+    "src": "images/HSK_3.0/level6/旅途.svg",
+    "caption": "hành trình"
+  },
+  "率": {
+    "file": "率.svg",
+    "src": "images/HSK_3.0/level6/率.svg",
+    "caption": "tỷ lệ, suất (hiệu suất, tỷ lệ thành công)"
+  },
+  "绿化": {
+    "file": "绿化.svg",
+    "src": "images/HSK_3.0/level6/绿化.svg",
+    "caption": "phủ xanh, trồng cây xanh"
+  },
+  "轮": {
+    "file": "轮.svg",
+    "src": "images/HSK_3.0/level6/轮.svg",
+    "caption": "bánh xe; vòng, lượt (lượng từ: 第一轮)"
+  },
+  "轮椅": {
+    "file": "轮椅.svg",
+    "src": "images/HSK_3.0/level6/轮椅.svg",
+    "caption": "xe lăn"
+  },
+  "轮子": {
+    "file": "轮子.svg",
+    "src": "images/HSK_3.0/level6/轮子.svg",
+    "caption": "bánh xe"
+  },
+  "落地": {
+    "file": "落地.svg",
+    "src": "images/HSK_3.0/level6/落地.svg",
+    "caption": "tiếp đất, rơi xuống đất; hạ cánh"
+  },
+  "埋": {
+    "file": "埋.svg",
+    "src": "images/HSK_3.0/level6/埋.svg",
+    "caption": "chôn, vùi"
+  },
+  "盲人": {
+    "file": "盲人.svg",
+    "src": "images/HSK_3.0/level6/盲人.svg",
+    "caption": "người khiếm thị, người mù"
+  },
+  "冒": {
+    "file": "冒.svg",
+    "src": "images/HSK_3.0/level6/冒.svg",
+    "caption": "rủi ro"
+  },
+  "煤": {
+    "file": "煤.svg",
+    "src": "images/HSK_3.0/level6/煤.svg",
+    "caption": "than đá"
+  },
+  "梅花": {
+    "file": "梅花.svg",
+    "src": "images/HSK_3.0/level6/梅花.svg",
+    "caption": "hoa mai (hoa mơ mùa đông)"
+  },
+  "密": {
+    "file": "密.svg",
+    "src": "images/HSK_3.0/level6/密.svg",
+    "caption": "dày đặc, kín, khít"
+  },
+  "密集": {
+    "file": "密集.svg",
+    "src": "images/HSK_3.0/level6/密集.svg",
+    "caption": "dày đặc, tập trung"
+  },
+  "棉": {
+    "file": "棉.svg",
+    "src": "images/HSK_3.0/level6/棉.svg",
+    "caption": "bông, sợi bông"
+  },
+  "免": {
+    "file": "免.svg",
+    "src": "images/HSK_3.0/level6/免.svg",
+    "caption": "miễn, tránh khỏi"
+  },
+  "免税": {
+    "file": "免税.svg",
+    "src": "images/HSK_3.0/level6/免税.svg",
+    "caption": "miễn thuế"
+  },
+  "面部": {
+    "file": "面部.svg",
+    "src": "images/HSK_3.0/level6/面部.svg",
+    "caption": "khuôn mặt, vùng mặt"
+  },
+  "面粉": {
+    "file": "面粉.svg",
+    "src": "images/HSK_3.0/level6/面粉.svg",
+    "caption": "bột mì"
+  },
+  "妙": {
+    "file": "妙.svg",
+    "src": "images/HSK_3.0/level6/妙.svg",
+    "caption": "tuyệt vời, khéo léo"
+  },
+  "灭": {
+    "file": "灭.svg",
+    "src": "images/HSK_3.0/level6/灭.svg",
+    "caption": "tắt, dập tắt"
+  },
+  "民歌": {
+    "file": "民歌.svg",
+    "src": "images/HSK_3.0/level6/民歌.svg",
+    "caption": "dân ca"
+  },
+  "民俗": {
+    "file": "民俗.svg",
+    "src": "images/HSK_3.0/level6/民俗.svg",
+    "caption": "phong tục dân gian"
+  },
+  "民宿": {
+    "file": "民宿.svg",
+    "src": "images/HSK_3.0/level6/民宿.svg",
+    "caption": "homestay, nhà nghỉ dân dã"
+  },
+  "民众": {
+    "file": "民众.svg",
+    "src": "images/HSK_3.0/level6/民众.svg",
+    "caption": "mọi người"
+  },
+  "明亮": {
+    "file": "明亮.svg",
+    "src": "images/HSK_3.0/level6/明亮.svg",
+    "caption": "sáng sủa, sáng ngời"
+  },
+  "名气": {
+    "file": "名气.svg",
+    "src": "images/HSK_3.0/level6/名气.svg",
+    "caption": "danh tiếng, tiếng tăm"
+  },
+  "模拟": {
+    "file": "模拟.svg",
+    "src": "images/HSK_3.0/level6/模拟.svg",
+    "caption": "mô phỏng"
   }
 };
 

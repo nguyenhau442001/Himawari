@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Wooden bowl -->
+    <path d="M20 140 C 20 160, 100 160, 100 140 L 90 80 L 30 80 Z" fill="#D35400"/>
+    <path d="M25 80 L 95 80 L 90 70 L 30 70 Z" fill="#E67E22"/>
+    
+    <!-- Ingredients inside -->
+    <circle cx="45" cy="100" r="8" fill="#F1C40F"/>
+    <circle cx="75" cy="105" r="10" fill="#F39C12"/>
+    <circle cx="60" cy="90" r="7" fill="#F1C40F"/>
+    <path d="M50 120 L 70 120 L 65 135 L 55 135 Z" fill="#E67E22"/>
+    
+    <!-- Flour/Powder dusting effect -->
+    <circle cx="40" cy="75" r="3" fill="#BDC3C7" opacity="0.6"/>
+    <circle cx="80" cy="72" r="2" fill="#BDC3C7" opacity="0.6"/>
+    <circle cx="60" cy="65" r="4" fill="#BDC3C7" opacity="0.4"/>
+    
+    <!-- Hand selecting/placing ingredient -->
+    <path d="M100 60 C 110 40, 130 40, 140 60 L 130 80 L 110 80 Z" fill="#F39C12"/>
+    <path d="M115 80 L 115 110 C 115 115, 125 115, 125 110 L 125 80" fill="#F39C12"/>
+  </g>
+</svg>

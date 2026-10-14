@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Rain streaks -->
+  <g stroke="#7FB3D5" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="40" y1="0" x2="30" y2="240"/>
+    <line x1="80" y1="0" x2="70" y2="240"/>
+    <line x1="120" y1="0" x2="110" y2="240"/>
+    <line x1="160" y1="0" x2="150" y2="240"/>
+    <line x1="200" y1="0" x2="190" y2="240"/>
+    <line x1="230" y1="0" x2="220" y2="240"/>
+  </g>
+
+  <!-- Person standing in rain -->
+  <g transform="translate(120, 140)">
+    <!-- Body -->
+    <path d="M-20 80 L-20 20 C-20 0, 20 0, 20 20 L20 80 Z" fill="#F39C12"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="25" fill="#F39C12"/>
+    <!-- Wet hair effect (darker tone) -->
+    <path d="M-22 -15 C-22 -35, 22 -35, 22 -15" fill="#D35400"/>
+    <!-- Shoulders/Arms -->
+    <path d="M-35 25 L-20 20 L20 20 L35 25" stroke="#F39C12" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- Water puddles/splashes on ground -->
+  <ellipse cx="120" cy="225" rx="60" ry="10" fill="#2C3E50"/>
+  <path d="M80 220 Q100 210 120 220 T160 220" stroke="#7FB3D5" stroke-width="2" fill="none"/>
+</svg>

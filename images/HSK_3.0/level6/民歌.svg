@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Traditional Instrument (Pipa) representing Folk Music -->
+  <path d="M120 40C90 40 70 60 70 100C70 140 90 180 120 180C150 180 170 140 170 100C170 60 150 40 120 40Z" fill="#FFB347"/>
+  <path d="M120 45C95 45 75 65 75 100C75 135 95 175 120 175C145 175 165 135 165 100C165 65 145 45 120 45Z" fill="#2D343E"/>
+  
+  <!-- Neck of the instrument -->
+  <rect x="115" y="30" width="10" height="60" fill="#FFB347"/>
+  
+  <!-- Strings -->
+  <line x1="117" y1="35" x2="117" y2="170" stroke="#1A1D24" stroke-width="1"/>
+  <line x1="120" y1="35" x2="120" y2="170" stroke="#1A1D24" stroke-width="1"/>
+  <line x1="123" y1="35" x2="123" y2="170" stroke="#1A1D24" stroke-width="1"/>
+  
+  <!-- Musical Notes floating -->
+  <path d="M180 80C185 75 190 75 195 80L195 110C195 115 190 120 185 120C180 120 175 115 175 110C175 105 180 100 185 100L185 85" fill="none" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="175" cy="110" r="5" fill="#FFB347"/>
+  
+  <path d="M50 140C55 135 60 135 65 140L65 170C65 175 60 180 55 180C50 180 45 175 45 170C45 165 50 160 55 160L55 145" fill="none" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="45" cy="170" r="5" fill="#FFB347"/>
+</svg>

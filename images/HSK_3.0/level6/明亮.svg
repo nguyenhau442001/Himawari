@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Window Frame -->
+  <rect x="60" y="50" width="120" height="140" rx="4" fill="#2D343E" stroke="#4A5568" stroke-width="4"/>
+  <line x1="120" y1="50" x2="120" y2="190" stroke="#4A5568" stroke-width="4"/>
+  <line x1="60" y1="120" x2="180" y2="120" stroke="#4A5568" stroke-width="4"/>
+  
+  <!-- Sunlight Rays (Contrast: Dark interior vs Bright light) -->
+  <path d="M120 50 L160 10 L180 50 Z" fill="#FFD700" opacity="0.6"/>
+  <path d="M120 50 L100 10 L80 50 Z" fill="#FFD700" opacity="0.4"/>
+  
+  <!-- Light flooding the room (The "明亮" effect) -->
+  <path d="M60 50 L180 50 L210 240 L30 240 Z" fill="url(#grad1)" opacity="0.3"/>
+  
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#1A1D24;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Interior floor/wall detail -->
+  <rect x="0" y="190" width="240" height="50" fill="#252A33"/>
+  
+  <!-- Bright light patch on floor -->
+  <polygon points="70,190 170,190 200,240 40,240" fill="#FFD700" opacity="0.2"/>
+</svg>

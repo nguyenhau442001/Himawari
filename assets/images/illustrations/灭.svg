@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table -->
+  <rect x="40" y="170" width="160" height="15" rx="2" fill="#374151"/>
+  
+  <!-- Candle Base -->
+  <rect x="115" y="150" width="10" height="20" fill="#E5E7EB"/>
+  
+  <!-- Candle Body (Extinguished) -->
+  <rect x="117" y="110" width="6" height="40" fill="#F3F4F6"/>
+  
+  <!-- Wisp of smoke -->
+  <path d="M120 105 C 125 95, 115 85, 120 75" stroke="#6B7280" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M120 105 C 115 95, 125 85, 120 75" stroke="#6B7280" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Human Character (Arm/Hand blowing) -->
+  <g>
+    <!-- Motion lines -->
+    <path d="M150 120 L 130 110" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <path d="M155 130 L 135 120" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+    
+    <!-- Arm -->
+    <path d="M240 160 L 160 130" stroke="#9CA3AF" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Hand -->
+    <circle cx="155" cy="125" r="10" fill="#D1D5DB"/>
+    <path d="M150 125 Q 145 115 135 115" stroke="#D1D5DB" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

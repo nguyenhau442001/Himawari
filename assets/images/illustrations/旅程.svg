@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative mountains/terrain representing a long and arduous journey -->
+  <path d="M 20 180 L 70 120 L 120 160 L 170 100 L 220 180 Z" fill="#242933"/>
+  <path d="M 50 180 L 100 135 L 150 170 L 190 130 L 225 180 Z" fill="#2A313D"/>
+
+  <!-- Winding Path representing the Journey (旅程) -->
+  <path d="M 30 190 C 60 190, 80 140, 110 140 C 140 140, 150 100, 180 100 C 200 100, 210 80, 215 70" fill="none" stroke="#374151" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 30 190 C 60 190, 80 140, 110 140 C 140 140, 150 100, 180 100 C 200 100, 210 80, 215 70" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8"/>
+
+  <!-- Physical Icon / Object: Vintage Leather Travel Suitcase -->
+  <g transform="translate(90, 85)">
+    <!-- Suitcase Shadow -->
+    <ellipse cx="30" cy="95" rx="26" ry="6" fill="#111317"/>
+
+    <!-- Suitcase Body -->
+    <rect x="8" y="30" width="44" height="60" rx="6" fill="#D97706"/>
+    <!-- Suitcase Highlights/Shading -->
+    <rect x="8" y="30" width="44" height="12" fill="#F59E0B" rx="4"/>
+    <path d="M 8 78 L 52 78 L 52 86 C 52 88.7614 49.7614 91 47 91 L 13 91 C 10.2386 91 8 88.7614 8 86 Z" fill="#B45309"/>
+
+    <!-- Center Straps -->
+    <rect x="15" y="30" width="6" height="61" fill="#92400E"/>
+    <rect x="39" y="30" width="6" height="61" fill="#92400E"/>
+
+    <!-- Brass Buckles & Details -->
+    <rect x="16" y="55" width="4" height="6" rx="1" fill="#FCD34D"/>
+    <rect x="40" y="55" width="4" height="6" rx="1" fill="#FCD34D"/>
+
+    <!-- Corner Protectors -->
+    <path d="M 8 36 L 14 30 L 8 30 Z" fill="#78350F"/>
+    <path d="M 52 36 L 46 30 L 52 30 Z" fill="#78350F"/>
+    <path d="M 8 84 L 14 90 L 8 90 Z" fill="#78350F"/>
+    <path d="M 52 84 L 46 90 L 52 90 Z" fill="#78350F"/>
+
+    <!-- Handle -->
+    <path d="M 20 30 C 20 18, 40 18, 40 30" fill="none" stroke="#92400E" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Travel Tag (Accent) -->
+    <path d="M 36 34 L 52 48 L 48 52 L 32 38 Z" fill="#EF4444"/>
+    <circle cx="48" cy="42" r="1.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Floating Star/Compass accents for journey theme -->
+  <path d="M 45 65 L 47 70 L 52 72 L 47 74 L 45 79 L 43 74 L 38 72 L 43 70 Z" fill="#F59E0B" opacity="0.8"/>
+  <path d="M 195 50 L 196.5 53.5 L 200 55 L 196.5 56.5 L 195 60 L 193.5 56.5 L 190 55 L 193.5 53.5 Z" fill="#F59E0B" opacity="0.6"/>
+</svg>

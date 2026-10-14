@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Zongzi (Sticky rice dumpling) - The iconic object for Minsu/Traditional Customs -->
+  <g transform="translate(120, 120)">
+    <!-- Bamboo leaves wrapping -->
+    <path d="M-40,-20 L0,40 L40,-20 L0,-50 Z" fill="#4A7C59"/>
+    <path d="M-40,-20 L-10,-5 L0,40 Z" fill="#3D664A"/>
+    <path d="M40,-20 L10,-5 L0,40 Z" fill="#5A916B"/>
+    
+    <!-- Decorative rope/string -->
+    <path d="M-35,-15 L-10,-5 M-10,-5 L0,40 M0,40 L10,-5 M10,-5 L35,-15" stroke="#D4AF37" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-20,-10 L0,0 L20,-10" stroke="#D4AF37" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Steam/Aura effect (subtle) -->
+    <path d="M-10,-60 Q-20,-75 -10,-85" stroke="#FFB347" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M10,-60 Q20,-75 10,-85" stroke="#FFB347" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+</svg>

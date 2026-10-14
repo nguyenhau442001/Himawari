@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sea/Ocean Area -->
+  <path d="M0 160 C 60 140, 180 140, 240 160 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  <path d="M0 170 C 60 150, 180 150, 240 170 L 240 240 L 0 240 Z" fill="#34495E"/>
+  
+  <!-- Mountain Streams -->
+  <path d="M20 0 L 20 60 C 20 80, 80 80, 80 120 L 80 165" stroke="#F39C12" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M120 0 L 120 40 C 120 60, 100 80, 120 120 L 120 165" stroke="#F39C12" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M220 0 L 220 50 C 220 70, 160 90, 160 120 L 160 165" stroke="#F39C12" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Convergence Point -->
+  <circle cx="120" cy="165" r="8" fill="#F39C12"/>
+  
+  <!-- Mountain Peaks -->
+  <path d="M0 60 L 40 0 L 80 60 Z" fill="#2C3E50"/>
+  <path d="M80 50 L 120 0 L 160 50 Z" fill="#2C3E50"/>
+  <path d="M180 60 L 220 0 L 240 60 Z" fill="#2C3E50"/>
+</svg>

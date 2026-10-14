@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 60)">
+    <path d="M40 120c0-11 9-20 20-20s20 9 20 20v40H40v-40z" fill="#FFB84D"/>
+    <circle cx="60" cy="80" r="15" fill="#FFB84D"/>
+    
+    <path d="M100 120c0-11 9-20 20-20s20 9 20 20v40h-40v-40z" fill="#4D94FF"/>
+    <circle cx="120" cy="80" r="15" fill="#4D94FF"/>
+    
+    <path d="M160 120c0-11 9-20 20-20s20 9 20 20v40h-40v-40z" fill="#FFD64D"/>
+    <circle cx="180" cy="80" r="15" fill="#FFD64D"/>
+    
+    <path d="M70 100c0-11 9-20 20-20s20 9 20 20v40H70v-40z" fill="#8A6DFF"/>
+    <circle cx="90" cy="60" r="15" fill="#8A6DFF"/>
+    
+    <path d="M130 100c0-11 9-20 20-20s20 9 20 20v40h-40v-40z" fill="#4DFFB8"/>
+    <circle cx="150" cy="60" r="15" fill="#4DFFB8"/>
+  </g>
+</svg>

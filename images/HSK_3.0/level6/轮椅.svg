@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(40, 25)">
+    <!-- Floor shadow / gradient base -->
+    <ellipse cx="80" cy="175" rx="55" ry="8" fill="#111318"/>
+
+    <!-- Wheelchair Frame & Structure -->
+    <!-- Large Rear Wheel (Modern minimalist spoke design) -->
+    <circle cx="95" cy="115" r="42" fill="none" stroke="#2D333F" stroke-width="4"/>
+    <circle cx="95" cy="115" r="36" fill="none" stroke="#4F5D75" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="95" cy="115" r="32" fill="none" stroke="#384152" stroke-width="6"/>
+    <!-- Center Hub -->
+    <circle cx="95" cy="115" r="8" fill="#64FFDA"/>
+    <circle cx="95" cy="115" r="3" fill="#1A1D24"/>
+
+    <!-- Frame Tubes (Connecting joints & structure) -->
+    <!-- Backrest upright post -->
+    <line x1="55" y1="45" x2="70" y2="125" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+    <!-- Seat support base -->
+    <line x1="68" y1="123" x2="110" y2="123" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+    <!-- Front caster fork and small wheel -->
+    <line x1="110" y1="123" x2="125" y2="140" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="127" cy="145" r="9" fill="#4F5D75"/>
+    <circle cx="127" cy="145" r="4" fill="#64FFDA"/>
+
+    <!-- Push handle at the top -->
+    <path d="M 52 45 L 45 40" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Footrest -->
+    <path d="M 110 123 L 135 123 L 138 135" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Seat and Backrest Cushions (Modern ergonomic design) -->
+    <!-- Backrest cushion -->
+    <path d="M 61 48 Q 63 85 73 118 L 81 116 Q 73 85 69 48 Z" fill="#64FFDA" opacity="0.9"/>
+    <!-- Seat cushion -->
+    <path d="M 72 119 L 112 119 Q 114 126 112 131 L 70 131 Q 68 126 72 119 Z" fill="#64FFDA" opacity="0.9" rx="3"/>
+
+    <!-- Armrest -->
+    <path d="M 64 85 Q 90 83 105 92" stroke="#64FFDA" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <line x1="85" y1="87" x2="88" y2="122" stroke="#F59E0B" stroke-width="3"/>
+  </g>
+</svg>

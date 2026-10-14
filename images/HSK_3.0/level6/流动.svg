@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Road Path -->
+  <path d="M40 180 C 100 180, 140 120, 200 60" stroke="#333842" stroke-width="40" stroke-linecap="round" fill="none"/>
+  
+  <!-- Vehicle 1 -->
+  <g transform="translate(60, 160)">
+    <rect x="-15" y="-8" width="30" height="16" rx="4" fill="#FFB800"/>
+    <circle cx="-8" cy="8" r="4" fill="#2D3436"/>
+    <circle cx="8" cy="8" r="4" fill="#2D3436"/>
+    <rect x="-12" y="-12" width="24" height="6" rx="2" fill="#FFD700"/>
+  </g>
+  
+  <!-- Vehicle 2 -->
+  <g transform="translate(120, 120)">
+    <rect x="-15" y="-8" width="30" height="16" rx="4" fill="#FF6B6B"/>
+    <circle cx="-8" cy="8" r="4" fill="#2D3436"/>
+    <circle cx="8" cy="8" r="4" fill="#2D3436"/>
+    <rect x="-12" y="-12" width="24" height="6" rx="2" fill="#FF8E8E"/>
+  </g>
+  
+  <!-- Vehicle 3 -->
+  <g transform="translate(180, 80)">
+    <rect x="-15" y="-8" width="30" height="16" rx="4" fill="#4ECDC4"/>
+    <circle cx="-8" cy="8" r="4" fill="#2D3436"/>
+    <circle cx="8" cy="8" r="4" fill="#2D3436"/>
+    <rect x="-12" y="-12" width="24" height="6" rx="2" fill="#70E0D8"/>
+  </g>
+
+  <!-- Motion Trails -->
+  <path d="M40 170 Q 70 170 80 150" stroke="#FFB800" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+  <path d="M100 130 Q 130 130 140 110" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+  <path d="M160 90 Q 190 90 200 70" stroke="#4ECDC4" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+</svg>

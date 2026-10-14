@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- The Restaurant Building -->
+  <path d="M70 180h100v-60l-50-30-50 30v60z" fill="#2D343E" stroke="#FFC107" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="95" y="140" width="50" height="40" fill="#3D4552" stroke="#FFC107" stroke-width="2"/>
+  <rect x="105" y="150" width="12" height="15" fill="#FFC107"/>
+  <rect x="123" y="150" width="12" height="15" fill="#FFC107"/>
+  
+  <!-- The "Fame" indicators: Golden stars/sparkles around the building -->
+  <path d="M170 100l4 12 12 2-9 7 3 12-10-7-10 7 3-12-9-7 12-2z" fill="#FFC107"/>
+  <path d="M60 110l3 9 9 2-7 5 2 9-8-5-8 5 2-9-7-5 9-2z" fill="#FFC107"/>
+  <path d="M120 70l3 9 9 2-7 5 2 9-8-5-8 5 2-9-7-5 9-2z" fill="#FFC107"/>
+  
+  <!-- Crowd/People gathering -->
+  <circle cx="50" cy="190" r="8" fill="#E0E0E0"/>
+  <path d="M50 198v20" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="190" cy="190" r="8" fill="#E0E0E0"/>
+  <path d="M190 198v20" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="210" cy="200" r="8" fill="#E0E0E0"/>
+  <path d="M210 208v20" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="30" cy="200" r="8" fill="#E0E0E0"/>
+  <path d="M30 208v20" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+</svg>
