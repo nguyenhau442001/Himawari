@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Person's hand and arm -->
+    <path d="M-10 20 L-5 80 L5 80 L10 20 Z" fill="#FFB347"/>
+    <circle cx="0" cy="15" r="12" fill="#FFB347"/>
+    
+    <!-- Umbrella handle and shaft -->
+    <path d="M0 20 L0 -40" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-10 20 A 10 10 0 0 0 0 30" stroke="#E0E0E0" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <!-- Umbrella canopy -->
+    <path d="M-70 -40 C -40 -80, 40 -80, 70 -40" fill="#FFB347"/>
+    <path d="M-70 -40 L-40 -55 L-10 -40 L20 -55 L50 -40 L80 -55" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M0 -40 L0 -80" stroke="#FFB347" stroke-width="4"/>
+  </g>
+</svg>

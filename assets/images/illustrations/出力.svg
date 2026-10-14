@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Base -->
+  <path d="M40 190 H200 M60 200 H180" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Community Structure (The "Object" being built) -->
+  <rect x="90" y="140" width="60" height="50" fill="#2D3748" rx="4"/>
+  <rect x="100" y="150" width="40" height="30" fill="#4A5568" rx="2"/>
+  
+  <!-- Person 1: Contributing/Lifting -->
+  <g transform="translate(60, 120)">
+    <circle cx="20" cy="20" r="12" fill="#F6AD55"/>
+    <path d="M20 32 L20 70 M20 45 L5 60 M20 45 L35 60" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 70 L15 90 M30 70 L25 90" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2: Contributing/Lifting -->
+  <g transform="translate(140, 120)">
+    <circle cx="20" cy="20" r="12" fill="#F6AD55"/>
+    <path d="M20 32 L20 70 M20 45 L5 60 M20 45 L35 60" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 70 L15 90 M30 70 L25 90" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Joint Effort Action -->
+  <path d="M85 140 L100 120" stroke="#F6AD55" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M155 140 L140 120" stroke="#F6AD55" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 4"/>
+</svg>

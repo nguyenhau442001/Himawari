@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M40 190 L200 190 L200 195 L40 195 Z" fill="#374151"/>
+  
+  <!-- Ruined section (left) -->
+  <path d="M50 190 L80 190 L80 160 L50 160 Z" fill="#4B5563"/>
+  <path d="M55 160 L75 160 L65 140 Z" fill="#4B5563"/>
+  
+  <!-- Rebuilding section (center/right) -->
+  <!-- Foundation -->
+  <rect x="100" y="170" width="90" height="20" fill="#F59E0B"/>
+  
+  <!-- Walls being built -->
+  <rect x="110" y="130" width="70" height="40" fill="#FBBF24"/>
+  
+  <!-- Roof structure -->
+  <path d="M100 130 L145 100 L190 130 Z" fill="#F59E0B"/>
+  
+  <!-- Person 1 (Lifting a brick) -->
+  <g transform="translate(120, 150)">
+    <circle cx="0" cy="-30" r="8" fill="#D1D5DB"/>
+    <path d="M-5 -22 L5 -22 L2 -10 L-2 -10 Z" fill="#D1D5DB"/>
+    <rect x="-10" y="-10" width="20" height="20" fill="#92400E"/>
+  </g>
+  
+  <!-- Person 2 (Placing a brick) -->
+  <g transform="translate(160, 150)">
+    <circle cx="0" cy="-30" r="8" fill="#D1D5DB"/>
+    <path d="M-5 -22 L5 -22 L2 -10 L-2 -10 Z" fill="#D1D5DB"/>
+    <rect x="-8" y="-15" width="16" height="15" fill="#B45309"/>
+  </g>
+  
+  <!-- Construction tools -->
+  <path d="M140 180 L150 180 L145 190 Z" fill="#9CA3AF"/>
+  <rect x="144" y="170" width="2" height="10" fill="#9CA3AF"/>
+</svg>

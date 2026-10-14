@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Contextual Street Scene Visualization for "侧" (Side / Flank) -->
+  <!-- Road Surface Perspective -->
+  <path d="M 80 210 L 160 210 L 140 120 L 100 120 Z" fill="#262B36"/>
+  
+  <!-- Dashed Center Line (Road dividing line) -->
+  <line x1="120" y1="200" x2="120" y2="130" stroke="#4A5568" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Left Side Tree (Left "侧" - Primary Focus highlighted with gold/orange accent) -->
+  <g transform="translate(65, 120)">
+    <!-- Tree shadow -->
+    <ellipse cx="15" cy="80" rx="12" ry="5" fill="#111318" opacity="0.6"/>
+    <!-- Trunk -->
+    <rect x="10" y="45" width="10" height="35" rx="3" fill="#8C6D53"/>
+    <!-- Foliage Layers (Flat Modern) -->
+    <circle cx="15" cy="35" r="22" fill="#E67E22"/>
+    <circle cx="8" cy="22" r="15" fill="#F39C12"/>
+    <circle cx="22" cy="25" r="14" fill="#D35400"/>
+  </g>
+
+  <!-- Right Side Tree (Right "侧") -->
+  <g transform="translate(160, 120)">
+    <!-- Tree shadow -->
+    <ellipse cx="15" cy="80" rx="12" ry="5" fill="#111318" opacity="0.6"/>
+    <!-- Trunk -->
+    <rect x="10" y="45" width="10" height="35" rx="3" fill="#8C6D53"/>
+    <!-- Foliage Layers (Standard muted cool tone) -->
+    <circle cx="15" cy="35" r="22" fill="#2ECC71"/>
+    <circle cx="8" cy="22" r="15" fill="#27AE60"/>
+    <circle cx="22" cy="25" r="14" fill="#1E8449"/>
+  </g>
+
+  <!-- Directional/Spatial Indicators Emphasizing "Side" (Flank/Beside) -->
+  <!-- Left Side Indicator Bracket -->
+  <path d="M 45 130 L 35 130 L 35 170 L 45 170" fill="none" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right Side Indicator Bracket -->
+  <path d="M 195 130 L 205 130 L 205 170 L 195 170" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Architectural Building Facade on the Side (giving context to the street) -->
+  <path d="M 15 110 L 45 90 L 45 210 L 15 210 Z" fill="#212631"/>
+  <rect x="23" y="105" width="6" height="10" rx="1" fill="#3A4454"/>
+  <rect x="23" y="125" width="6" height="10" rx="1" fill="#3A4454"/>
+
+  <!-- Semantic Focus Marker: Highlight ring around the left side element corresponding to sentence "两侧" -->
+  <circle cx="80" cy="140" r="32" fill="none" stroke="#E67E22" stroke-width="2" stroke-dasharray="6,4" opacity="0.8"/>
+</svg>

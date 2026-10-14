@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Background glow / subtle context -->
+    <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+    
+    <!-- Hand representing "holding / possession" (持有) -->
+    <!-- Arm / Cuff -->
+    <path d="M 80 185 L 100 150 L 140 150 L 160 185 Z" fill="#3B4252" opacity="0.8"/>
+    <path d="M 95 150 L 145 150 L 145 158 L 95 158 Z" fill="#4C566A"/>
+    
+    <!-- Palm & Fingers holding the document -->
+    <path d="M 95 140 C 95 125, 100 115, 110 115 C 115 115, 120 120, 125 125 C 130 120, 135 115, 142 115 C 152 115, 155 125, 155 140 C 155 155, 145 165, 125 165 C 105 165, 95 155, 95 140 Z" fill="#E5C198"/>
+    
+    <!-- Valid Identity Document / Ticket (representing 证件) -->
+    <g transform="rotate(-15, 120, 95)">
+      <!-- Card background -->
+      <rect x="80" y="60" width="80" height="70" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+      
+      <!-- Card Header Accent -->
+      <path d="M 80 68 L 160 68 L 160 60 L 88 60 Q 80 60, 80 68 Z" fill="#3B82F6"/>
+      
+      <!-- Photo Placeholder -->
+      <rect x="92" y="78" width="22" height="28" rx="4" fill="#CBD5E1"/>
+      <circle cx="103" cy="87" r="5" fill="#94A3B8"/>
+      <path d="M 96 102 C 96 98, 100 98, 103 98 C 106 98, 110 98, 110 102 Z" fill="#94A3B8"/>
+      
+      <!-- Text Lines (Abstract data) -->
+      <rect x="122" y="80" width="28" height="5" rx="2.5" fill="#334155"/>
+      <rect x="122" y="90" width="20" height="4" rx="2" fill="#94A3B8"/>
+      <rect x="122" y="98" width="24" height="4" rx="2" fill="#94A3B8"/>
+      
+      <!-- Verified Checkmark Badge -->
+      <circle cx="142" cy="113" r="10" fill="#10B981"/>
+      <path d="M 137 113 L 140 116 L 147 109" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Fingers over the card (foreground layer for 3D grip effect) -->
+    <!-- Thumb -->
+    <path d="M 148 125 C 148 115, 162 110, 168 120 C 174 130, 165 145, 152 142 Z" fill="#E5C198"/>
+    <path d="M 152 142 C 158 140, 163 130, 160 123" fill="none" stroke="#D1AB80" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Index / Middle fingers wrapped around top -->
+    <path d="M 98 125 C 92 120, 95 110, 105 108 C 112 106, 118 112, 115 120 Z" fill="#E5C198"/>
+    <path d="M 120 120 C 122 112, 130 110, 138 112 C 145 114, 145 122, 140 126 Z" fill="#E5C198"/>
+
+    <!-- Focus Accent Glow -->
+    <circle cx="120" cy="95" r="45" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.6"/>
+  </g>
+</svg>

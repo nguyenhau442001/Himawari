@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Raffle Drum -->
+  <circle cx="120" cy="120" r="60" fill="#2D343E" stroke="#FFD700" stroke-width="4"/>
+  <path d="M120 60 L120 180 M60 120 L180 120" stroke="#FFD700" stroke-width="2" opacity="0.3"/>
+  <circle cx="120" cy="120" r="15" fill="#FFD700"/>
+  
+  <!-- Raffle Tickets inside -->
+  <rect x="105" y="105" width="10" height="20" rx="2" fill="#FF8C00" transform="rotate(20 110 115)"/>
+  <rect x="125" y="115" width="10" height="20" rx="2" fill="#FF8C00" transform="rotate(-30 130 125)"/>
+  
+  <!-- Hand reaching in -->
+  <path d="M160 120 C180 120 190 130 190 150 L200 150 C200 120 180 100 160 100 Z" fill="#FFD700"/>
+  <rect x="185" y="140" width="25" height="10" rx="2" fill="#FFFFFF"/>
+  
+  <!-- Stand -->
+  <rect x="110" y="180" width="20" height="10" fill="#4A5568"/>
+  <rect x="90" y="190" width="60" height="5" fill="#4A5568"/>
+</svg>

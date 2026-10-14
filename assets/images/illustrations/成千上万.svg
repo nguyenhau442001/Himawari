@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 120)">
+    <!-- Migrating bird flock representing "thousands and tens of thousands" -->
+    <g fill="#FFB84D">
+      <!-- Large flock formation -->
+      <path d="M-60 -40 C-40 -50 -20 -40 0 -45 C20 -50 40 -40 60 -45" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-70 -20 C-50 -30 -30 -20 -10 -25 C10 -30 30 -20 50 -25" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-50 0 C-30 -10 -10 0 10 -5 C30 -10 50 0 70 -5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-65 20 C-45 10 -25 20 -5 15 C15 10 35 20 55 15" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-40 40 C-20 30 0 40 20 35 C40 30 60 40 80 35" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      
+      <!-- Individual bird silhouettes (V-shapes) -->
+      <path d="M-80 -50 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-20 -60 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M40 -70 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-90 -10 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M80 -10 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-70 30 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M20 50 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-30 60 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M60 60 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M-100 10 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+      <path d="M90 20 l5 -5 l5 5" stroke="#FFB84D" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+</svg>

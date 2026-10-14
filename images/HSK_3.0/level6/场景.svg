@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow for atmospheric "scene/setting" -->
+  <circle cx="120" cy="115" r="85" fill="#252B3B" opacity="0.6"/>
+
+  <!-- Director's Clapperboard / Stage Set representing "场景" (Scene / Setting) -->
+  <g transform="translate(45, 55)">
+    <!-- Main Board Body -->
+    <rect x="15" y="45" width="120" height="85" rx="8" fill="#2A3245" stroke="#3E4963" stroke-width="3"/>
+    
+    <!-- Chalkboard inner surface -->
+    <rect x="25" y="55" width="100" height="65" rx="4" fill="#1E2330"/>
+
+    <!-- Abstract scene sketch inside chalkboard (mountain, sun, tree) -->
+    <path d="M 35 105 L 55 80 L 75 105 Z" fill="#3E4963" opacity="0.6"/>
+    <path d="M 65 105 L 85 70 L 110 105 Z" fill="#4B5875" opacity="0.6"/>
+    <circle cx="95" cy="78" r="8" fill="#FFB74D" opacity="0.8"/>
+    <path d="M 45 105 Q 50 90 55 105 Z" fill="#4CAF50" opacity="0.8"/>
+
+    <!-- Clapperboard Top (Hinged Bar) -->
+    <path d="M 15 45 L 25 22 L 135 22 L 125 45 Z" fill="#3B465E"/>
+    
+    <!-- Diagonal Stripes on Top Bar -->
+    <path d="M 35 45 L 45 22 L 55 22 L 45 45 Z" fill="#F4F6F8"/>
+    <path d="M 65 45 L 75 22 L 85 22 L 75 45 Z" fill="#F4F6F8"/>
+    <path d="M 95 45 L 105 22 L 115 22 L 105 45 Z" fill="#F4F6F8"/>
+
+    <!-- Hinge Screws / Details -->
+    <circle cx="25" cy="33" r="3" fill="#FFB74D"/>
+    <circle cx="125" cy="33" r="3" fill="#FFB74D"/>
+
+    <!-- Clamper line / separation -->
+    <line x1="15" y1="45" x2="135" y2="45" stroke="#1A1D24" stroke-width="2"/>
+  </g>
+
+  <!-- Dramatic Lighting Spotlight / Focus Cone (representing the visual framing of a scene) -->
+  <path d="M 70 20 L 170 20 L 205 140 L 35 140 Z" fill="url(#spotlightGrad)" opacity="0.15" style="mix-blend-mode: screen;"/>
+  
+  <defs>
+    <linearGradient id="spotlightGrad" x1="120" y1="20" x2="120" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFB74D" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFB74D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Accent focal elements (Film sprocket holes / cinematic icons) -->
+  <circle cx="32" cy="185" r="4" fill="#FFB74D"/>
+  <circle cx="208" cy="185" r="4" fill="#FFB74D"/>
+  <line x1="42" y1="185" x2="80" y2="185" stroke="#FFB74D" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="160" y1="185" x2="198" y2="185" stroke="#FFB74D" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Center focal indicator dot -->
+  <circle cx="120" cy="185" r="5" fill="#FFB74D"/>
+</svg>

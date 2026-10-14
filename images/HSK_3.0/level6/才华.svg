@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle ambient glow representing brilliance/talent -->
+  <circle cx="120" cy="110" r="55" fill="#F59E0B" opacity="0.08"/>
+  <circle cx="120" cy="110" r="40" fill="#F59E0B" opacity="0.12"/>
+
+  <!-- Open Book Base (Symbolizing knowledge/mind) -->
+  <path d="M 70 145 C 90 135, 110 145, 120 150 C 130 145, 150 135, 170 145 L 170 175 C 150 165, 130 175, 120 180 C 110 175, 90 165, 70 175 Z" fill="#2D3748"/>
+  <path d="M 120 150 L 120 180" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Pages -->
+  <path d="M 72 142 C 90 133, 110 142, 119 147 L 119 175 C 110 170, 90 161, 72 170 Z" fill="#4A5568"/>
+  <path d="M 168 142 C 150 133, 130 142, 121 147 L 121 175 C 130 170, 150 161, 168 170 Z" fill="#4A5568"/>
+
+  <!-- Fountain Pen (Representing expression, creation, and literary/artistic talent) -->
+  <!-- Pen body angled diagonally -->
+  <g transform="rotate(-35 120 115)">
+    <!-- Lower barrel -->
+    <rect x="114" y="90" width="12" height="45" rx="2" fill="#D97706"/>
+    <!-- Gold accent ring -->
+    <rect x="114" y="85" width="12" height="5" fill="#FBBF24"/>
+    <!-- Grip section -->
+    <rect x="114" y="70" width="12" height="15" fill="#B45309"/>
+    <!-- Nib -->
+    <path d="M 114 70 L 120 50 L 126 70 Z" fill="#FBBF24"/>
+    <!-- Nib slit -->
+    <line x1="120" y1="56" x2="120" y2="68" stroke="#92400E" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Cap (placed beside or slightly behind) -->
+    <rect x="114" y="25" width="12" height="40" rx="3" fill="#D97706"/>
+    <rect x="112" y="60" width="16" height="5" rx="1" fill="#FBBF24"/>
+    <!-- Clip -->
+    <rect x="119" y="30" width="2" height="22" rx="1" fill="#FBBF24"/>
+  </g>
+
+  <!-- Sparkles / Talent Emanating (Bright gold accents) -->
+  <!-- Top spark -->
+  <path d="M 120 40 L 122.5 48 L 130.5 50.5 L 122.5 53 L 120 61 L 117.5 53 L 109.5 50.5 L 117.5 48 Z" fill="#FBBF24"/>
+  
+  <!-- Right spark -->
+  <path d="M 165 85 L 166.5 90 L 171.5 91.5 L 166.5 93 L 165 98 L 163.5 93 L 158.5 91.5 L 163.5 90 Z" fill="#F59E0B"/>
+
+  <!-- Left spark -->
+  <path d="M 75 95 L 76.2 99 L 80.2 100.2 L 76.2 101.4 L 75 105.4 L 73.8 101.4 L 69.8 100.2 L 73.8 99 Z" fill="#FBBF24"/>
+
+  <!-- Tiny floating bright dots -->
+  <circle cx="150" cy="65" r="2.5" fill="#FEF3C7"/>
+  <circle cx="90" cy="120" r="2" fill="#FEF3C7"/>
+  <circle cx="155" cy="130" r="1.5" fill="#FBBF24"/>
+
+</svg>

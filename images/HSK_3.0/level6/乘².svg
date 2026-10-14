@@ -1,0 +1,69 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative ocean wave lines representing water travel -->
+  <path d="M20 195 Q 60 185, 100 195 T 180 195 T 240 195" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M0 210 Q 50 200, 100 210 T 200 210 T 240 210" fill="none" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M10 225 Q 70 215, 130 225 T 220 225 T 240 225" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Distant Island Concept -->
+  <g transform="translate(160, 140)">
+    <!-- Island Landmass -->
+    <path d="M-20 20 C 10 10, 40 10, 70 20 L 80 40 L -30 40 Z" fill="#15803D"/>
+    <!-- Palm Tree Trunk -->
+    <path d="M25 15 Q 20 -10, 30 -35" fill="none" stroke="#92400E" stroke-width="5" stroke-linecap="round"/>
+    <!-- Palm Leaves -->
+    <path d="M30 -35 Q 10 -45, -5 -30" fill="none" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 -35 Q 45 -50, 60 -40" fill="none" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 -35 Q 50 -30, 65 -15" fill="none" stroke="#16A34A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 -35 Q 15 -25, 5 -10" fill="none" stroke="#16A34A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Passenger Ship (轮船) - Central Physical Object -->
+  <g transform="translate(25, 110)">
+    <!-- Water wake in front -->
+    <path d="M-10 65 Q -25 60, -35 68" fill="none" stroke="#93C5FD" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Hull bottom (red) -->
+    <path d="M 10 50 L 120 50 C 125 50, 128 60, 120 65 L 20 65 C 12 65, 8 55, 10 50 Z" fill="#EF4444"/>
+    
+    <!-- Hull top (white) -->
+    <path d="M 5 30 L 125 30 C 128 30, 130 45, 125 50 L 5 50 C 0 45, 2 30, 5 30 Z" fill="#F8FAFC"/>
+    
+    <!-- Hull details: Portholes -->
+    <circle cx="30" cy="40" r="3" fill="#1A1D24"/>
+    <circle cx="50" cy="40" r="3" fill="#1A1D24"/>
+    <circle cx="70" cy="40" r="3" fill="#1A1D24"/>
+    <circle cx="90" cy="40" r="3" fill="#1A1D24"/>
+    <circle cx="110" cy="40" r="3" fill="#1A1D24"/>
+
+    <!-- Mid Deck Cabin -->
+    <path d="M 35 30 L 35 15 L 105 15 L 105 30 Z" fill="#E2E8F0"/>
+    <!-- Cabin Windows -->
+    <rect x="45" y="18" width="8" height="8" rx="1" fill="#1A1D24"/>
+    <rect x="60" y="18" width="8" height="8" rx="1" fill="#1A1D24"/>
+    <rect x="75" y="18" width="8" height="8" rx="1" fill="#1A1D24"/>
+    <rect x="90" y="18" width="8" height="8" rx="1" fill="#1A1D24"/>
+
+    <!-- Upper Deck / Bridge -->
+    <path d="M 60 15 L 60 5 L 95 5 L 95 15 Z" fill="#CBD5E1"/>
+    <rect x="70" y="7" width="15" height="6" rx="1" fill="#1A1D24"/>
+
+    <!-- Funnels (Smokestacks) -->
+    <rect x="45" y="0" width="8" height="15" rx="1" fill="#EF4444"/>
+    <rect x="45" y="3" width="8" height="3" fill="#F8FAFC"/>
+    
+    <rect x="100" y="2" width="7" height="13" rx="1" fill="#EF4444"/>
+    <rect x="100" y="4" width="7" height="2" fill="#F8FAFC"/>
+
+    <!-- Subtle exhaust / Steam -->
+    <path d="M 49 -2 Q 45 -8, 52 -14" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 103 -1 Q 100 -6, 106 -11" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Mast & Flag -->
+    <line x1="20" y1="30" x2="20" y2="5" stroke="#64748B" stroke-width="2"/>
+    <polygon points="20,6 30,10 20,14" fill="#F59E0B"/>
+  </g>
+  
+</svg>

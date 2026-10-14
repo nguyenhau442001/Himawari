@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Factory Building -->
+  <path d="M60 180h120v-60l-30-20-30 20v-40h-60v100z" fill="#374151"/>
+  <rect x="75" y="120" width="20" height="30" fill="#4B5563"/>
+  <rect x="115" y="120" width="20" height="30" fill="#4B5563"/>
+  <rect x="155" y="120" width="20" height="30" fill="#4B5563"/>
+  
+  <!-- Smoke Stack -->
+  <rect x="160" y="60" width="20" height="40" fill="#2D3748"/>
+  <circle cx="170" cy="50" r="6" fill="#9CA3AF"/>
+  <circle cx="175" cy="40" r="4" fill="#9CA3AF"/>
+  
+  <!-- Conveyor Belt and Product -->
+  <rect x="40" y="180" width="160" height="10" fill="#F59E0B"/>
+  <circle cx="50" cy="190" r="6" fill="#4B5563"/>
+  <circle cx="190" cy="190" r="6" fill="#4B5563"/>
+  
+  <!-- Product Box on Belt -->
+  <rect x="110" y="160" width="20" height="20" fill="#FBBF24" stroke="#D97706" stroke-width="2"/>
+  <rect x="115" y="165" width="10" height="10" fill="#F59E0B"/>
+</svg>

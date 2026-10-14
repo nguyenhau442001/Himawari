@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun and Sky -->
+  <circle cx="180" cy="60" r="20" fill="#FFB84D"/>
+  <path d="M180 30 L180 20 M180 100 L180 110 M210 60 L220 60 M140 60 L150 60" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Landscape -->
+  <path d="M0 240 L0 180 Q60 150 120 180 T240 180 L240 240 Z" fill="#2A313D"/>
+  <path d="M0 240 L0 200 Q80 170 160 200 T240 200 L240 240 Z" fill="#363E4D"/>
+  
+  <!-- Characters -->
+  <g transform="translate(60, 140)">
+    <!-- Person 1 -->
+    <circle cx="20" cy="30" r="8" fill="#FFD180"/>
+    <path d="M20 38 L20 60 M20 45 L10 55 M20 45 L30 55 M20 60 L15 80 M20 60 L25 80" stroke="#FFD180" stroke-width="4" stroke-linecap="round"/>
+    <!-- Motion lines -->
+    <path d="M40 40 Q50 30 60 40" stroke="#5D6D7E" stroke-width="2" fill="none"/>
+    <path d="M45 50 Q55 40 65 50" stroke="#5D6D7E" stroke-width="2" fill="none"/>
+  </g>
+  
+  <g transform="translate(120, 130)">
+    <!-- Person 2 -->
+    <circle cx="20" cy="30" r="8" fill="#FFD180"/>
+    <path d="M20 38 L20 60 M20 45 L10 55 M20 45 L30 55 M20 60 L15 80 M20 60 L25 80" stroke="#FFD180" stroke-width="4" stroke-linecap="round"/>
+    <!-- Backpack -->
+    <rect x="12" y="40" width="16" height="16" rx="2" fill="#E67E22"/>
+  </g>
+  
+  <!-- Path/Directional indicator -->
+  <path d="M40 190 Q120 160 200 190" stroke="#FFB84D" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+</svg>

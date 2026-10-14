@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow -->
+  <circle cx="120" cy="120" r="80" fill="#2D3748" opacity="0.3"/>
+
+  <!-- Ancient Pine Tree representing Longevity (Chángshòu) in Chinese culture -->
+  <!-- Ground / Roots -->
+  <path d="M70 190 Q120 180 170 190 L180 205 Q120 215 60 205 Z" fill="#2A4365"/>
+  
+  <!-- Trunk -->
+  <path d="M110 190 C105 160 115 130 100 110 C95 100 90 90 95 80" stroke="#718096" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M115 150 C125 140 135 120 130 100" stroke="#718096" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <!-- Pine Foliage Clusters (Layered vibrant teal and gold accents for modern vector look) -->
+  <circle cx="95" cy="75" r="32" fill="#234E52"/>
+  <circle cx="95" cy="70" r="26" fill="#319795"/>
+  
+  <circle cx="135" cy="90" r="28" fill="#285E61"/>
+  <circle cx="135" cy="85" r="22" fill="#38B2AC"/>
+
+  <circle cx="80" cy="105" r="24" fill="#22543D"/>
+  <circle cx="80" cy="100" r="18" fill="#48BB78"/>
+
+  <circle cx="145" cy="125" r="22" fill="#22543D"/>
+  <circle cx="145" cy="120" r="16" fill="#38A169"/>
+
+  <!-- Golden peach / Sun accent of longevity at the top -->
+  <circle cx="120" cy="55" r="12" fill="#D69E2E"/>
+  <path d="M120 40 Q125 33 122 30 Q117 33 120 40" fill="#48BB78"/>
+
+  <!-- Crane silhouette / subtle life element soaring gently -->
+  <path d="M165 75 Q175 70 185 78 Q175 76 165 75 Z" fill="#E2E8F0"/>
+  <path d="M165 75 Q158 82 152 80" stroke="#E2E8F0" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M175 73 Q178 68 182 66" stroke="#E2E8F0" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+</svg>
