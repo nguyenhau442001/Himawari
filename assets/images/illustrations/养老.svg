@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Scenery: Mountains and Sun -->
+  <path d="M40 180 Q80 120 120 180 T200 180" fill="#2C3440"/>
+  <circle cx="180" cy="60" r="25" fill="#FFB347"/>
+  
+  <!-- Elderly Couple Sitting on a Bench -->
+  <!-- Bench -->
+  <rect x="60" y="170" width="120" height="15" rx="2" fill="#8B5A2B"/>
+  <rect x="65" y="185" width="10" height="20" fill="#5D3A1A"/>
+  <rect x="165" y="185" width="10" height="20" fill="#5D3A1A"/>
+  
+  <!-- Male Figure -->
+  <g transform="translate(80, 170)">
+    <circle cx="15" cy="-25" r="12" fill="#E0E0E0"/>
+    <rect x="5" y="-13" width="20" height="30" rx="5" fill="#4A90E2"/>
+    <rect x="10" y="17" width="8" height="20" fill="#357ABD"/>
+  </g>
+  
+  <!-- Female Figure -->
+  <g transform="translate(130, 170)">
+    <circle cx="15" cy="-25" r="12" fill="#E0E0E0"/>
+    <rect x="5" y="-13" width="20" height="30" rx="5" fill="#FFD700"/>
+    <rect x="12" y="17" width="8" height="20" fill="#D4AF37"/>
+  </g>
+  
+  <!-- Walking Stick -->
+  <line x1="105" y1="170" x2="105" y2="130" stroke="#A0522D" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95 130 A10 10 0 0 1 115 130" fill="none" stroke="#A0522D" stroke-width="3"/>
+  
+  <!-- Peaceful Atmosphere -->
+  <circle cx="40" cy="50" r="3" fill="#F0F0F0" opacity="0.3"/>
+  <circle cx="50" cy="40" r="2" fill="#F0F0F0" opacity="0.2"/>
+  <circle cx="200" cy="100" r="4" fill="#F0F0F0" opacity="0.2"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "一阵" (a burst/a fit/a spell) as a sudden, concentrated wave of sound/energy -->
+  <!-- Using a stylized megaphone and radiating sound waves to represent the "burst" of cheering -->
+  
+  <g transform="translate(60, 80)">
+    <!-- Megaphone body -->
+    <path d="M20 60 L100 40 L100 80 L20 60 Z" fill="#FFB84D"/>
+    <rect x="0" y="55" width="25" height="10" rx="2" fill="#FF9F1C"/>
+    <rect x="10" y="50" width="10" height="20" rx="2" fill="#FF9F1C"/>
+    
+    <!-- Sound waves representing "一阵" (the burst) -->
+    <path d="M115 30 A40 40 0 0 1 115 90" fill="none" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130 20 A60 60 0 0 1 130 100" fill="none" stroke="#FFB84D" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <path d="M145 10 A80 80 0 0 1 145 110" fill="none" stroke="#FFB84D" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+  </g>
+  
+  <!-- Ground line to ground the object -->
+  <line x1="40" y1="170" x2="200" y2="170" stroke="#333842" stroke-width="2" stroke-linecap="round"/>
+</svg>

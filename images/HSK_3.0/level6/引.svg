@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- The "引" (to lead/draw/guide) represented as a physical guide/leader -->
+    <!-- A stylized figure leading others with a clear, directional gesture -->
+    <path d="M120 180 L120 120" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+    <path d="M120 120 L100 140 M120 120 L140 140" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Leading figure -->
+    <circle cx="60" cy="60" r="20" fill="#FFB84D"/>
+    <path d="M60 80 L60 140 M60 100 L30 120 M60 100 L90 120" stroke="#FFB84D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Following figures -->
+    <circle cx="20" cy="160" r="12" fill="#5D6D7E"/>
+    <circle cx="100" cy="160" r="12" fill="#5D6D7E"/>
+    
+    <!-- Directional path -->
+    <path d="M60 60 Q 120 60 120 120" fill="none" stroke="#34495E" stroke-width="6" stroke-dasharray="8 8"/>
+  </g>
+</svg>

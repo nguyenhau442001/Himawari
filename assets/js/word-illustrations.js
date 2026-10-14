@@ -33557,6 +33557,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/心目.svg",
     "caption": "trong lòng, trong tâm trí"
   },
+  "新能源": {
+    "file": "新能源.svg",
+    "src": "images/HSK_3.0/level6/新能源.svg",
+    "caption": "năng lượng mới, năng lượng tái tạo"
+  },
   "新兴": {
     "file": "新兴.svg",
     "src": "images/HSK_3.0/level6/新兴.svg",
@@ -33596,6 +33601,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "选修.svg",
     "src": "images/HSK_3.0/level6/选修.svg",
     "caption": "học tự chọn (môn học)"
+  },
+  "学会": {
+    "file": "学会.svg",
+    "src": "images/HSK_3.0/level6/学会.svg",
+    "caption": "xã hội"
+  },
+  "学员": {
+    "file": "学员.svg",
+    "src": "images/HSK_3.0/level6/学员.svg",
+    "caption": "học viên"
+  },
+  "血管": {
+    "file": "血管.svg",
+    "src": "images/HSK_3.0/level6/血管.svg",
+    "caption": "mạch máu"
+  },
+  "血型": {
+    "file": "血型.svg",
+    "src": "images/HSK_3.0/level6/血型.svg",
+    "caption": "nhóm máu"
+  },
+  "血液": {
+    "file": "血液.svg",
+    "src": "images/HSK_3.0/level6/血液.svg",
+    "caption": "máu"
+  },
+  "寻求": {
+    "file": "寻求.svg",
+    "src": "images/HSK_3.0/level6/寻求.svg",
+    "caption": "tìm kiếm, mưu cầu"
+  },
+  "淹": {
+    "file": "淹.svg",
+    "src": "images/HSK_3.0/level6/淹.svg",
+    "caption": "ngập, dìm nước, chìm ngập"
+  },
+  "严": {
+    "file": "严.svg",
+    "src": "images/HSK_3.0/level6/严.svg",
+    "caption": "nghiêm khắc, chặt chẽ"
+  },
+  "研讨": {
+    "file": "研讨.svg",
+    "src": "images/HSK_3.0/level6/研讨.svg",
+    "caption": "hội thảo, nghiên cứu thảo luận"
+  },
+  "言语": {
+    "file": "言语.svg",
+    "src": "images/HSK_3.0/level6/言语.svg",
+    "caption": "lời nói, ngôn ngữ"
+  },
+  "炎症": {
+    "file": "炎症.svg",
+    "src": "images/HSK_3.0/level6/炎症.svg",
+    "caption": "chứng viêm, viêm nhiễm"
+  },
+  "眼看": {
+    "file": "眼看.svg",
+    "src": "images/HSK_3.0/level6/眼看.svg",
+    "caption": "nhìn thấy tận mắt; sắp sửa, chẳng mấy chốc"
+  },
+  "仰": {
+    "file": "仰.svg",
+    "src": "images/HSK_3.0/level6/仰.svg",
+    "caption": "ngửa đầu, ngước nhìn lên"
+  },
+  "养老": {
+    "file": "养老.svg",
+    "src": "images/HSK_3.0/level6/养老.svg",
+    "caption": "dưỡng lão, an hưởng tuổi già"
+  },
+  "养老院": {
+    "file": "养老院.svg",
+    "src": "images/HSK_3.0/level6/养老院.svg",
+    "caption": "viện dưỡng lão"
+  },
+  "样": {
+    "file": "样.svg",
+    "src": "images/HSK_3.0/level6/样.svg",
+    "caption": "loại, thứ, mẫu"
+  },
+  "要么": {
+    "file": "要么.svg",
+    "src": "images/HSK_3.0/level6/要么.svg",
+    "caption": "hoặc là, nếu không thì"
+  },
+  "野": {
+    "file": "野.svg",
+    "src": "images/HSK_3.0/level6/野.svg",
+    "caption": "hoang dã, vùng thôn dã, tự nhiên"
+  },
+  "也好": {
+    "file": "也好.svg",
+    "src": "images/HSK_3.0/level6/也好.svg",
+    "caption": "cũng được, dù sao cũng tốt"
+  },
+  "野生": {
+    "file": "野生.svg",
+    "src": "images/HSK_3.0/level6/野生.svg",
+    "caption": "hoang dã (động thực vật thiên nhiên)"
+  },
+  "野外": {
+    "file": "野外.svg",
+    "src": "images/HSK_3.0/level6/野外.svg",
+    "caption": "hoang dã"
+  },
+  "业": {
+    "file": "业.svg",
+    "src": "images/HSK_3.0/level6/业.svg",
+    "caption": "ngành nghề, sự nghiệp"
+  },
+  "衣食住行": {
+    "file": "衣食住行.svg",
+    "src": "images/HSK_3.0/level6/衣食住行.svg",
+    "caption": "ăn mặc ở đi lại (nhu cầu thiết yếu)"
+  },
+  "医药": {
+    "file": "医药.svg",
+    "src": "images/HSK_3.0/level6/医药.svg",
+    "caption": "y dược, thuốc men"
+  },
+  "一一": {
+    "file": "一一.svg",
+    "src": "images/HSK_3.0/level6/一一.svg",
+    "caption": "từng cái một, lần lượt từng người/việc"
+  },
+  "姨": {
+    "file": "姨.svg",
+    "src": "images/HSK_3.0/level6/姨.svg",
+    "caption": "dì, cô dì"
+  },
+  "一带": {
+    "file": "一带.svg",
+    "src": "images/HSK_3.0/level6/一带.svg",
+    "caption": "dải, vùng, khu vực"
+  },
+  "一道": {
+    "file": "一道.svg",
+    "src": "images/HSK_3.0/level6/一道.svg",
+    "caption": "cùng nhau, đồng hành"
+  },
+  "一系列": {
+    "file": "一系列.svg",
+    "src": "images/HSK_3.0/level6/一系列.svg",
+    "caption": "một loạt, chuỗi"
+  },
+  "一阵": {
+    "file": "一阵.svg",
+    "src": "images/HSK_3.0/level6/一阵.svg",
+    "caption": "một hồi, một chốc, một trận"
+  },
+  "遗址": {
+    "file": "遗址.svg",
+    "src": "images/HSK_3.0/level6/遗址.svg",
+    "caption": "di chỉ, phế tích cổ"
+  },
+  "益处": {
+    "file": "益处.svg",
+    "src": "images/HSK_3.0/level6/益处.svg",
+    "caption": "ích lợi, điều có lợi"
+  },
+  "一口气": {
+    "file": "一口气.svg",
+    "src": "images/HSK_3.0/level6/一口气.svg",
+    "caption": "một hơi, liền một mạch"
+  },
+  "一模一样": {
+    "file": "一模一样.svg",
+    "src": "images/HSK_3.0/level6/一模一样.svg",
+    "caption": "giống hệt nhau như đúc"
+  },
+  "艺人": {
+    "file": "艺人.svg",
+    "src": "images/HSK_3.0/level6/艺人.svg",
+    "caption": "nghệ sĩ, nghệ nhân biểu diễn"
+  },
+  "一身": {
+    "file": "一身.svg",
+    "src": "images/HSK_3.0/level6/一身.svg",
+    "caption": "cả người, toàn thân, một bộ"
+  },
+  "一时": {
+    "file": "一时.svg",
+    "src": "images/HSK_3.0/level6/一时.svg",
+    "caption": "nhất thời, tạm thời"
+  },
+  "一同": {
+    "file": "一同.svg",
+    "src": "images/HSK_3.0/level6/一同.svg",
+    "caption": "cùng nhau"
+  },
+  "易于": {
+    "file": "易于.svg",
+    "src": "images/HSK_3.0/level6/易于.svg",
+    "caption": "dễ dàng, dễ bị"
+  },
+  "抑制": {
+    "file": "抑制.svg",
+    "src": "images/HSK_3.0/level6/抑制.svg",
+    "caption": "ức chế, kìm nén, kìm hãm"
+  },
+  "因": {
+    "file": "因.svg",
+    "src": "images/HSK_3.0/level6/因.svg",
+    "caption": "bởi vì"
+  },
+  "音节": {
+    "file": "音节.svg",
+    "src": "images/HSK_3.0/level6/音节.svg",
+    "caption": "âm tiết"
+  },
+  "银牌": {
+    "file": "银牌.svg",
+    "src": "images/HSK_3.0/level6/银牌.svg",
+    "caption": "huy chương bạc"
+  },
+  "引": {
+    "file": "引.svg",
+    "src": "images/HSK_3.0/level6/引.svg",
+    "caption": "dẫn dắt, trích dẫn, gây nên"
+  },
+  "引发": {
+    "file": "引发.svg",
+    "src": "images/HSK_3.0/level6/引发.svg",
+    "caption": "gây ra, làm bùng phát, khơi mào"
+  },
+  "引入": {
+    "file": "引入.svg",
+    "src": "images/HSK_3.0/level6/引入.svg",
+    "caption": "đưa vào, du nhập, áp dụng"
+  },
+  "饮用水": {
+    "file": "饮用水.svg",
+    "src": "images/HSK_3.0/level6/饮用水.svg",
+    "caption": "nước uống sinh hoạt"
+  },
+  "印": {
+    "file": "印.svg",
+    "src": "images/HSK_3.0/level6/印.svg",
+    "caption": "in ấn, đóng dấu; dấu vết"
+  },
+  "用人": {
+    "file": "用人.svg",
+    "src": "images/HSK_3.0/level6/用人.svg",
+    "caption": "dùng người, tuyển dụng nhân sự"
   }
 };
 

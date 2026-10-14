@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "要么" (Either / Or - Choice/Divergence/Fork in a path) -->
+  <g transform="translate(0, 0)">
+    <!-- Ambient glow for paths -->
+    <path d="M120 160 L60 80 M120 160 L180 80" stroke="#FF9F43" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.15" />
+
+    <!-- Starting point / Base node (Present moment) -->
+    <circle cx="120" cy="165" r="10" fill="#2D323F" stroke="#4A5265" stroke-width="3"/>
+    <circle cx="120" cy="165" r="4" fill="#FF9F43"/>
+
+    <!-- Path 1: Option A (Left Branch) -->
+    <path d="M120 160 C120 120, 75 110, 65 85" fill="none" stroke="#2D323F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M120 160 C120 120, 75 110, 65 85" fill="none" stroke="#546E7A" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round"/>
+
+    <!-- Path 2: Option B (Right Branch) -->
+    <path d="M120 160 C120 120, 165 110, 175 85" fill="none" stroke="#2D323F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M120 160 C120 120, 165 110, 175 85" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Divergence point indicator (Pulsing ring effect) -->
+    <circle cx="120" cy="135" r="14" fill="none" stroke="#4A5265" stroke-width="2" stroke-dasharray="4 3"/>
+
+    <!-- Left Outcome Node (Meeting / Briefcase symbol) -->
+    <g transform="translate(50, 60)">
+      <rect x="0" y="0" width="30" height="22" rx="4" fill="#2D323F" stroke="#546E7A" stroke-width="2.5"/>
+      <path d="M9 0 V-3 C9 -4.5 10.5 -5.5 12 -5.5 H18 C19.5 -5.5 21 -4.5 21 -3 V0" fill="none" stroke="#546E7A" stroke-width="2.5"/>
+      <line x1="0" y1="9" x2="30" y2="9" stroke="#546E7A" stroke-width="2"/>
+    </g>
+
+    <!-- Right Outcome Node (Client / User Profile symbol) -->
+    <g transform="translate(160, 60)">
+      <circle cx="15" cy="6" r="7" fill="#2D323F" stroke="#FF9F43" stroke-width="2.5"/>
+      <path d="M4 22 C4 15, 8 13, 15 13 C22 13, 26 15, 26 22" fill="none" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Active Decision Marker (Floating selection indicator over the right path) -->
+    <circle cx="175" cy="85" r="6" fill="#FF9F43"/>
+    <circle cx="65" cy="85" r="6" fill="#546E7A"/>
+  </g>
+</svg>

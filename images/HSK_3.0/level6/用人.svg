@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for focus -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Recruitment / HR Selection Concept (用人): Magnifying glass evaluating a professional candidate profile/card -->
+  <g id="recruitment-scene">
+    <!-- Candidate ID Card / Profile Base -->
+    <rect x="75" y="70" width="90" height="110" rx="10" fill="#2D333F" stroke="#3F4654" stroke-width="2"/>
+    
+    <!-- Candidate Avatar (Stylized person) -->
+    <circle cx="120" cy="100" r="18" fill="#4E73DF"/>
+    <path d="M 95 138 C 95 125, 105 120, 120 120 C 135 120, 145 125, 145 138 Z" fill="#4E73DF"/>
+    
+    <!-- Skills / Merit lines on the card (representing '任人唯贤' talent selection) -->
+    <rect x="92" y="148" width="56" height="5" rx="2.5" fill="#5A6578"/>
+    <rect x="100" y="158" width="40" height="4" rx="2" fill="#3F4654"/>
+    
+    <!-- Checkmark badge (Qualified / Selected) -->
+    <circle cx="150" cy="88" r="12" fill="#1CC88A"/>
+    <path d="M 144 88 L 148 92 L 156 83" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Magnifying Glass (Active screening / Talent acquisition) -->
+    <g transform="translate(15, 15)">
+      <!-- Glass Rim -->
+      <circle cx="85" cy="85" r="32" fill="none" stroke="#F6C23E" stroke-width="6"/>
+      <!-- Glass Inner Highlight -->
+      <circle cx="85" cy="85" r="32" fill="#F6C23E" fill-opacity="0.08"/>
+      <!-- Handle -->
+      <line x1="108" y1="108" x2="135" y2="135" stroke="#F6C23E" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

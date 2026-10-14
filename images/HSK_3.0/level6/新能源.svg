@@ -1,0 +1,72 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Glowing atmospheric aura behind the central object -->
+  <circle cx="120" cy="120" r="75" fill="#00D26A" opacity="0.08"/>
+  <circle cx="120" cy="120" r="50" fill="#38BDF8" opacity="0.08"/>
+
+  <!-- Wind Turbine (representing Wind Power / 风能) -->
+  <g id="wind-turbine">
+    <!-- Tower -->
+    <path d="M117 125 L120 185 L123 125 Z" fill="#64748B"/>
+    <!-- Base mount -->
+    <ellipse cx="120" cy="183" rx="6" ry="3" fill="#475569"/>
+    
+    <!-- Nacelle -->
+    <rect x="114" y="118" width="12" height="9" rx="4" fill="#94A3B8"/>
+    
+    <!-- Rotating Blades (Dynamic green-cyan styling) -->
+    <g transform="translate(120, 120)">
+      <!-- Blade 1 -->
+      <path d="M0 -3 C4 -20 2 -42 0 -52 C-2 -42 -4 -20 0 -3 Z" fill="#38BDF8" opacity="0.9"/>
+      <!-- Blade 2 -->
+      <path d="M0 0 C15 35 36 28 45 22 C36 12 18 2 0 0 Z" fill="#38BDF8" opacity="0.9"/>
+      <!-- Blade 3 -->
+      <path d="M0 0 C-15 35 -36 28 -45 22 C-36 12 -18 2 0 0 Z" fill="#38BDF8" opacity="0.9"/>
+      <!-- Center Hub -->
+      <circle cx="0" cy="0" r="4" fill="#E2E8F0"/>
+    </g>
+  </g>
+
+  <!-- Central Glowing Leaf (representing Green/Clean Energy / 绿色清洁) -->
+  <g transform="translate(120, 120)">
+    <!-- Leaf Stem -->
+    <path d="M0 35 L0 10" stroke="#00D26A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Leaf Body -->
+    <path d="M0 10 C-12 5 -18 -8 -12 -22 C-4 -28 0 -35 0 -35 C0 -35 4 -28 12 -22 C18 -8 12 5 0 10 Z" fill="#00D26A"/>
+    <!-- Leaf Veins -->
+    <path d="M0 0 L-6 -8 M0 -8 L5 -14 M0 -17 L-5 -22" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round" opacity="0.3" fill="none"/>
+  </g>
+
+  <!-- Solar Panel Array Base (representing Solar Power / 太阳能) -->
+  <g id="solar-array" transform="translate(120, 185)">
+    <!-- Supporting structure -->
+    <line x1="-35" y1="0" x2="-25" y2="15" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+    <line x1="35" y1="0" x2="25" y2="15" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="0" y2="18" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Panel Frame Background -->
+    <rect x="-55" y="-5" width="110" height="7" rx="3.5" fill="#0EA5E9"/>
+    
+    <!-- Grid Cells Pattern -->
+    <path d="M-50 -3 L50 -3 M-40 -1 L40 -1" stroke="#38BDF8" stroke-width="1.5" opacity="0.8"/>
+    <!-- Vertical grid separators -->
+    <line x1="-25" y1="-5" x2="-22" y2="2" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="0" y1="-5" x2="0" y2="2" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="25" y1="-5" x2="22" y2="2" stroke="#1E293B" stroke-width="1.5"/>
+  </g>
+
+  <!-- Sun / Clean Energy Sparkle Details -->
+  <g transform="translate(180, 70)">
+    <circle cx="0" cy="0" r="14" fill="#FBBF24" opacity="0.2"/>
+    <circle cx="0" cy="0" r="8" fill="#FBBF24"/>
+    <path d="M0 -14 L0 -19 M0 14 L0 19 M-14 0 L-19 0 M14 0 L19 0" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Energy Particles / Sparkles (Modern flat UI accent) -->
+  <circle cx="65" cy="85" r="3" fill="#38BDF8" opacity="0.7"/>
+  <circle cx="165" cy="140" r="2" fill="#00D26A" opacity="0.8"/>
+  <circle cx="90" cy="160" r="2.5" fill="#FBBF24" opacity="0.6"/>
+  <circle cx="150" cy="65" r="1.5" fill="#38BDF8" opacity="0.5"/>
+</svg>

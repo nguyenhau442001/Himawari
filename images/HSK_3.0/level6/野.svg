@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Scenery (Wild Countryside / Open Field representing "野") -->
+  <!-- Distant rolling hills under a dark night/twilight sky -->
+  <path d="M0 160 Q 60 130 120 150 T 240 140 L 240 240 L 0 240 Z" fill="#22303C"/>
+  <path d="M0 180 Q 90 155 160 175 T 240 170 L 240 240 L 0 240 Z" fill="#1E3329"/>
+  
+  <!-- Foreground Field (田野) with lush spring grass and wild plants -->
+  <path d="M0 200 Q 80 185 140 195 T 240 185 L 240 240 L 0 240 Z" fill="#243D2F"/>
+  
+  <!-- Central Physical Object: Wild Sprouts and Grass (Cỏ dại / 野草) representing the noun physical entity -->
+  <!-- Central vibrant green wild grass clump -->
+  <path d="M120 205 C120 205 110 160 95 135 C88 123 75 105 60 95 C75 105 90 120 100 145 C108 165 115 185 120 205 Z" fill="#4ADE80" opacity="0.9"/>
+  <path d="M120 205 C120 205 130 150 145 120 C155 102 170 85 185 75 C170 90 155 115 145 140 C135 165 125 185 120 205 Z" fill="#22C55E" opacity="0.95"/>
+  <path d="M120 205 L120 110 C120 110 120 90 120 70 C120 90 120 110 120 205 Z" fill="#86EFAC"/>
+  
+  <!-- Additional wild blades swaying -->
+  <path d="M105 205 Q 95 170 80 150" stroke="#4ADE80" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M135 205 Q 145 165 160 140" stroke="#22C55E" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M90 210 Q 75 180 65 165" stroke="#15803D" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M150 210 Q 165 180 180 160" stroke="#16A34A" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Small glowing spring flower (representing fresh untamed nature) -->
+  <circle cx="95" cy="135" r="4" fill="#FACC15"/>
+  <circle cx="145" cy="120" r="4.5" fill="#FACC15"/>
+  <circle cx="120" cy="70" r="5" fill="#FACC15"/>
+  
+  <!-- Subtle lighting accents (Golden/Orange focus for modern educational flashcard style) -->
+  <circle cx="120" cy="70" r="12" fill="#FACC15" opacity="0.2"/>
+  <circle cx="145" cy="120" r="10" fill="#FACC15" opacity="0.15"/>
+</svg>

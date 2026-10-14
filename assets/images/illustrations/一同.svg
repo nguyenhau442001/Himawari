@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground line -->
+  <path d="M40 180 L200 180" stroke="#3A3F4B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Person 1 (Left) -->
+  <g transform="translate(80, 100)">
+    <circle cx="20" cy="20" r="12" fill="#FFB84D"/>
+    <path d="M8 35 L15 80 M32 35 L25 80 M15 80 L10 120 M25 80 L30 120" stroke="#FFB84D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 35 L28 35" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2 (Right) -->
+  <g transform="translate(130, 100)">
+    <circle cx="20" cy="20" r="12" fill="#FFB84D"/>
+    <path d="M8 35 L15 80 M32 35 L25 80 M15 80 L10 120 M25 80 L30 120" stroke="#FFB84D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 35 L28 35" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Shared Action: Holding a single banner/object together -->
+  <rect x="75" y="115" width="90" height="10" rx="2" fill="#FFFFFF" fill-opacity="0.8"/>
+  
+  <!-- Interaction indicator: Subtle directional arrows above -->
+  <path d="M100 80 L120 80 M110 70 L110 90" stroke="#3A3F4B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+</svg>

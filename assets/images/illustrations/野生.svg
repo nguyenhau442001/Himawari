@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Terrain -->
+  <path d="M40 190 C 80 170, 160 170, 200 190 L 200 210 L 40 210 Z" fill="#2D3436"/>
+  
+  <!-- Wild Animal (Deer) -->
+  <g transform="translate(70, 80)">
+    <!-- Body -->
+    <ellipse cx="50" cy="60" rx="40" ry="25" fill="#E67E22"/>
+    <!-- Neck -->
+    <path d="M75 50 L 90 20 L 105 40 L 85 60 Z" fill="#E67E22"/>
+    <!-- Head -->
+    <ellipse cx="100" cy="20" rx="15" ry="12" fill="#E67E22"/>
+    <!-- Antlers -->
+    <path d="M100 10 L 90 -10 M100 10 L 110 -10 M95 0 L 85 5 M105 0 L 115 5" stroke="#D35400" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs -->
+    <rect x="30" y="75" width="6" height="30" fill="#E67E22"/>
+    <rect x="60" y="75" width="6" height="30" fill="#E67E22"/>
+  </g>
+  
+  <!-- Wild Plant (Tree) -->
+  <g transform="translate(160, 100)">
+    <rect x="-5" y="0" width="10" height="60" fill="#5D4037"/>
+    <circle cx="0" cy="-20" r="30" fill="#27AE60"/>
+    <circle cx="-15" cy="-30" r="20" fill="#27AE60"/>
+    <circle cx="15" cy="-30" r="20" fill="#27AE60"/>
+  </g>
+  
+  <!-- Nature Elements -->
+  <circle cx="190" cy="40" r="15" fill="#F1C40F"/>
+  <path d="M30 150 Q 50 130 70 150 T 110 150" stroke="#34495E" stroke-width="2" fill="none"/>
+</svg>

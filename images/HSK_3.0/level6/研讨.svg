@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Subtle Accent (Global Climate/Research Theme representation) -->
+  <circle cx="120" cy="115" r="70" fill="#222831" stroke="#2D333B" stroke-width="2"/>
+  
+  <!-- Stylized Earth Outline / Globe Grid -->
+  <path d="M70 115 C70 85 95 65 120 65 C145 65 170 85 170 115 C170 145 145 165 120 165 C95 165 70 145 70 115 Z" fill="none" stroke="#3A424E" stroke-dasharray="4 4" stroke-width="1.5"/>
+  <path d="M120 65 V165" stroke="#3A424E" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M75 105 H165" stroke="#3A424E" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M80 135 H160" stroke="#3A424E" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Central Physical Object: Conference Table for "研讨" (Discussion/Symposium) -->
+  <!-- Tabletop (Ellipse for perspective) -->
+  <ellipse cx="120" cy="140" rx="65" ry="24" fill="#2B333F" stroke="#F5A623" stroke-width="2"/>
+  <ellipse cx="120" cy="136" rx="65" ry="24" fill="#343D4C"/>
+
+  <!-- Documents and Research Papers on Table -->
+  <rect x="95" y="126" width="22" height="15" rx="2" fill="#EAEAEA" transform="rotate(-10 106 133)"/>
+  <rect x="120" y="125" width="24" height="16" rx="2" fill="#FFFFFF"/>
+  <line x1="124" y1="129" x2="138" y2="129" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="124" y1="133" x2="135" y2="133" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- People/Experts surrounding the table (Representing Collaborative Research & Discussion) -->
+  
+  <!-- Expert 1 (Left) -->
+  <circle cx="65" cy="115" r="11" fill="#4B5563"/>
+  <path d="M52 142 C52 130 58 126 65 126 C72 126 78 130 78 142 Z" fill="#3B82F6"/>
+
+  <!-- Expert 2 (Top/Back) -->
+  <circle cx="120" cy="98" r="10" fill="#6B7280"/>
+  <path d="M109 120 C109 110 114 107 120 107 C126 107 131 110 131 120 Z" fill="#10B981"/>
+
+  <!-- Expert 3 (Right) -->
+  <circle cx="175" cy="115" r="11" fill="#4B5563"/>
+  <path d="M162 142 C162 130 168 126 175 126 C182 126 188 130 188 142 Z" fill="#F5A623"/>
+
+  <!-- Speech/Idea Bubbles intersecting above, indicating discussion/symposium -->
+  <path d="M105 85 Q120 70 135 85 Q135 95 120 95 Q105 95 105 85 Z" fill="#F5A623" opacity="0.9"/>
+  <circle cx="113" cy="85" r="2" fill="#1A1D24"/>
+  <circle cx="120" cy="85" r="2" fill="#1A1D24"/>
+  <circle cx="127" cy="85" r="2" fill="#1A1D24"/>
+
+  <!-- Foreground Podium/Base Integration to solidify the physical object focus -->
+  <path d="M85 150 L155 150 L165 168 L75 168 Z" fill="#21262D" opacity="0.6"/>
+
+</svg>

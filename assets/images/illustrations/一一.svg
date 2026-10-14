@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow representing organization and clarity -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.6"/>
+  
+  <!-- Visualizing "一一" (one by one, sequential handling of items/questions) -->
+  <!-- We show a central document/card being processed, with a cascade of neatly aligned items moving sequentially -->
+  
+  <!-- Background sequence track/path -->
+  <path d="M70 70 L170 70 M70 120 L170 120 M70 170 L170 170" stroke="#2F3642" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 8"/>
+
+  <!-- Item 1: Already processed (Green check / Completed) -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="120" height="40" rx="8" fill="#222831" stroke="#393E46" stroke-width="2"/>
+    <!-- Line representation -->
+    <rect x="16" y="16" width="50" height="8" rx="4" fill="#00ADB5" opacity="0.6"/>
+    <!-- Checkmark indicator -->
+    <circle cx="95" cy="20" r="12" fill="#00ADB5" opacity="0.2"/>
+    <path d="M90 20 L93 23 L101 15" fill="none" stroke="#00ADB5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Item 2: Currently being addressed (Active Focus - Orange/Gold accent) -->
+  <g transform="translate(60, 100)">
+    <rect x="0" y="0" width="120" height="40" rx="8" fill="#222831" stroke="#F0A500" stroke-width="2"/>
+    <!-- Line representation -->
+    <rect x="16" y="16" width="65" height="8" rx="4" fill="#F0A500"/>
+    <!-- Active pulsing indicator -->
+    <circle cx="95" cy="20" r="12" fill="#F0A500" opacity="0.2"/>
+    <circle cx="95" cy="20" r="5" fill="#F0A500"/>
+  </g>
+
+  <!-- Item 3: Waiting in sequence (Grey/Inactive) -->
+  <g transform="translate(60, 150)">
+    <rect x="0" y="0" width="120" height="40" rx="8" fill="#222831" stroke="#393E46" stroke-width="2"/>
+    <!-- Line representation -->
+    <rect x="16" y="16" width="40" height="8" rx="4" fill="#4E5D6C"/>
+    <!-- Waiting dot -->
+    <circle cx="95" cy="20" r="5" fill="#4E5D6C"/>
+  </g>
+
+  <!-- Sequential pointer / Cursor highlighting the step-by-step process -->
+  <path d="M45 120 L30 115 L35 125 Z" fill="#F0A500"/>
+  
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water Bottle Body -->
+  <path d="M95 80h50v110c0 10-5 15-15 15h-20c-10 0-15-5-15-15V80z" fill="#4A90E2" opacity="0.6"/>
+  <path d="M100 85h40v100c0 5-2 10-10 10h-20c-8 0-10-5-10-10V85z" fill="#E0F7FA"/>
+  
+  <!-- Bottle Cap -->
+  <rect x="105" y="70" width="30" height="10" rx="2" fill="#FFB300"/>
+  
+  <!-- Liquid Level (Emptying) -->
+  <path d="M100 160h40v25c0 5-2 10-10 10h-20c-8 0-10-5-10-10V160z" fill="#4A90E2"/>
+  
+  <!-- Motion Lines (The "One Breath" action) -->
+  <path d="M145 90l15 -10" stroke="#FFB300" stroke-width="3" stroke-linecap="round"/>
+  <path d="M148 105l15 -5" stroke="#FFB300" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 120l15 5" stroke="#FFB300" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Mouth/Tilt Indicator -->
+  <path d="M90 75l-15 10c-5 5-5 15 0 20l10 5" fill="none" stroke="#FFB300" stroke-width="4" stroke-linecap="round"/>
+</svg>

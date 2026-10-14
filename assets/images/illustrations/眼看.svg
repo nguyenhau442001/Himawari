@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="skyGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <!-- Mountain Gradient -->
+    <linearGradient id="mtnBack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="mtnFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <!-- Glowing Sunset / Dusk Gradient -->
+    <linearGradient id="duskGlow" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#EA580C" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Binoculars Body Gradient -->
+    <linearGradient id="binoBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Lens Gradient -->
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BAE6FD" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+
+    <!-- Clip Path for Card Container -->
+    <clipPath id="cardClip">
+      <rect width="240" height="240" rx="24" />
+    </clipPath>
+  </defs>
+
+  <!-- Container Background -->
+  <g clip-path="url(#cardClip)">
+    <rect width="240" height="240" fill="#1A1D24" />
+
+    <!-- Scene: Mountain Landscape transitioning to dusk (Representing "天色渐渐黑了下来" & "眼看") -->
+    <!-- Sky -->
+    <rect x="0" y="0" width="240" height="150" fill="url(#skyGrad)" />
+
+    <!-- Setting Sun / Dusk Horizon Glow -->
+    <circle cx="180" cy="110" r="40" fill="url(#duskGlow)" />
+    <circle cx="180" cy="110" r="16" fill="#FB923C" opacity="0.9" />
+
+    <!-- Distant Mountains -->
+    <polygon points="10,140 70,80 140,140" fill="url(#mtnBack)" />
+    <polygon points="100,140 170,70 240,140" fill="url(#mtnBack)" />
+
+    <!-- Closer Mountains & Hiking Terrain -->
+    <polygon points="-10,160 50,95 120,160" fill="url(#mtnFront)" />
+    <polygon points="80,160 150,85 250,160" fill="url(#mtnFront)" />
+    
+    <!-- Foreground Hill with Tent (宿营地 context) -->
+    <path d="M0 160 Q 120 130 240 160 L 240 240 L 0 240 Z" fill="#0F172A" />
+
+    <!-- Small Tent in Foreground -->
+    <polygon points="190,165 210,135 230,165" fill="#F43F5E" />
+    <polygon points="190,165 210,135 205,165" fill="#E11D48" />
+    <polygon points="210,135 230,165 220,165" fill="#BE123C" />
+
+    <!-- Central Physical Object representing "眼看" (Clear iconic binoculars focused on the scene) -->
+    <g transform="translate(68, 85)">
+      <!-- Binoculars Strap / Accent -->
+      <path d="M-10 -10 C 20 -30 60 -30 90 -10" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" />
+
+      <!-- Left Barrel -->
+      <rect x="0" y="0" width="32" height="60" rx="8" transform="rotate(-15 16 30)" fill="url(#binoBody)" />
+      <!-- Right Barrel -->
+      <rect x="36" y="0" width="32" height="60" rx="8" transform="rotate(-15 52 30)" fill="url(#binoBody)" />
+      
+      <!-- Bridge / Hinge -->
+      <rect x="26" y="15" width="16" height="20" rx="4" transform="rotate(-15 34 25)" fill="#0369A1" />
+
+      <!-- Eye Cups (Top, rotated view) -->
+      <ellipse cx="11" cy="4" rx="8" ry="4" fill="#0EA5E9" />
+      <ellipse cx="47" cy="-5" rx="8" ry="4" fill="#0EA5E9" />
+
+      <!-- Objective Lenses (Bottom, glowing with focus) -->
+      <ellipse cx="1" cy="58" rx="10" ry="5" transform="rotate(-15 1 58)" fill="url(#lensGrad)" />
+      <ellipse cx="37" cy="48" rx="10" ry="5" transform="rotate(-15 37 48)" fill="url(#lensGrad)" />
+
+      <!-- Focus Lines / Visual Sight Rays (Indicating "Seeing with one's own eyes / imminent change") -->
+      <path d="M-15 75 L -40 100" stroke="#38BDF8" stroke-width="2.5" stroke-dasharray="4,4" stroke-linecap="round" />
+      <path d="M55 55 L 85 85" stroke="#38BDF8" stroke-width="2.5" stroke-dasharray="4,4" stroke-linecap="round" />
+    </g>
+
+    <!-- Sleek border stroke to frame the modern card -->
+    <rect width="240" height="240" rx="24" fill="none" stroke="#334155" stroke-width="2" />
+  </g>
+</svg>

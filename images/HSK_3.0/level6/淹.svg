@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground/Field Level -->
+  <path d="M40 180 L200 180 L200 190 C200 195 40 195 40 190 Z" fill="#3E4A59"/>
+  
+  <!-- Crops submerged -->
+  <rect x="60" y="150" width="10" height="40" fill="#4CAF50" opacity="0.6"/>
+  <rect x="90" y="160" width="10" height="30" fill="#4CAF50" opacity="0.6"/>
+  <rect x="120" y="155" width="10" height="35" fill="#4CAF50" opacity="0.6"/>
+  <rect x="150" y="165" width="10" height="25" fill="#4CAF50" opacity="0.6"/>
+  
+  <!-- Flood Water -->
+  <path d="M40 140 L200 140 L200 180 C200 190 40 190 40 180 Z" fill="#2196F3" opacity="0.8"/>
+  <path d="M40 140 L200 140 L200 150 C200 160 40 160 40 150 Z" fill="#64B5F6" opacity="0.9"/>
+  
+  <!-- Raindrops -->
+  <path d="M70 40 L72 50 L68 50 Z" fill="#FFC107"/>
+  <path d="M110 60 L112 70 L108 70 Z" fill="#FFC107"/>
+  <path d="M150 45 L152 55 L148 55 Z" fill="#FFC107"/>
+  <path d="M180 70 L182 80 L178 80 Z" fill="#FFC107"/>
+  <path d="M90 80 L92 90 L88 90 Z" fill="#FFC107"/>
+  <path d="M130 90 L132 100 L128 100 Z" fill="#FFC107"/>
+  
+  <!-- Surface ripples -->
+  <ellipse cx="100" cy="145" rx="15" ry="3" stroke="#E3F2FD" stroke-width="2" fill="none"/>
+  <ellipse cx="160" cy="150" rx="20" ry="4" stroke="#E3F2FD" stroke-width="2" fill="none"/>
+</svg>

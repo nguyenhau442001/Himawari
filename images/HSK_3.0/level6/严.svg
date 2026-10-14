@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 严 (Strict/Rigorous Academic Professor figure as physical character object representation) -->
+  <g transform="translate(0, 0)">
+    <!-- Background subtle academic frame/board -->
+    <rect x="52" y="38" width="136" height="152" rx="8" fill="#222730" stroke="#2D3440" stroke-width="2"/>
+    <line x1="72" y1="62" x2="168" y2="62" stroke="#2D3440" stroke-width="4" stroke-linecap="round"/>
+    <line x1="72" y1="78" x2="132" y2="78" stroke="#2D3440" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Professor Character (Strict/Rigorous persona: upright posture, glasses, formal vest) -->
+    <!-- Shoulders & Torso -->
+    <path d="M76 190 C76 156 94 144 120 144 C146 144 164 156 164 190 Z" fill="#2E384D"/>
+    <!-- Suit Lapels -->
+    <path d="M100 144 L120 178 L140 144 Z" fill="#1A1D24"/>
+    <!-- Shirt & Tie -->
+    <path d="M112 144 L120 166 L128 144 Z" fill="#E2E8F0"/>
+    <polygon points="117,162 123,162 125,185 119,185" fill="#E67E22"/>
+
+    <!-- Neck -->
+    <rect x="110" y="128" width="20" height="24" fill="#E2B08E"/>
+
+    <!-- Head -->
+    <path d="M96 96 C96 74 106 64 120 64 C134 64 144 74 144 96 C144 116 134 128 120 128 C106 128 96 116 96 96 Z" fill="#E2B08E"/>
+
+    <!-- Hair (Elderly professor style, neatly parted grey) -->
+    <path d="M96 96 C96 74 106 64 120 64 C134 64 144 74 144 96 L144 84 C144 68 134 56 120 56 C106 56 96 68 96 84 Z" fill="#8C95A1"/>
+
+    <!-- Glasses (Rigorous, precise thin frames) -->
+    <rect x="101" y="90" width="16" height="12" rx="2" fill="none" stroke="#E67E22" stroke-width="2"/>
+    <rect x="123" y="90" width="16" height="12" rx="2" fill="none" stroke="#E67E22" stroke-width="2"/>
+    <line x1="117" y1="94" x2="123" y2="94" stroke="#E67E22" stroke-width="2"/>
+
+    <!-- Serious Expression: Straight determined mouth, focused brow -->
+    <line x1="113" y1="114" x2="127" y2="114" stroke="#4A5568" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M104 84 L114 87" stroke="#6C7A89" stroke-width="2" stroke-linecap="round"/>
+    <path d="M136 84 L126 87" stroke="#6C7A89" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Precision Indicator / Accent (Golden ruler/caliper element representing rigorous standard) -->
+    <g transform="translate(142, 108)">
+      <circle cx="16" cy="16" r="20" fill="#1A1D24" stroke="#E67E22" stroke-width="3"/>
+      <!-- Check/Precision mark inside -->
+      <path d="M9 16 L14 21 L23 11" fill="none" stroke="#E67E22" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

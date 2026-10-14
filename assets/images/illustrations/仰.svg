@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background / Night Sky -->
+  <g id="night-sky">
+    <!-- Subtle gradient glow for night atmosphere -->
+    <circle cx="120" cy="110" r="90" fill="#222A38" opacity="0.5"/>
+    
+    <!-- Stars -->
+    <g fill="#F5C542" opacity="0.8">
+      <circle cx="60" cy="50" r="1.5"/>
+      <circle cx="180" cy="40" r="2"/>
+      <circle cx="140" cy="65" r="1"/>
+      <circle cx="95" cy="40" r="1.2"/>
+      <circle cx="195" cy="85" r="1.5"/>
+      <circle cx="45" cy="90" r="1"/>
+      <circle cx="75" cy="110" r="1.8"/>
+      <circle cx="165" cy="115" r="1.2"/>
+      <circle cx="120" cy="35" r="2.2"/>
+    </g>
+    <!-- Bright glowing star / focal point -->
+    <g transform="translate(120, 50)">
+      <path d="M0,-8 C0,-2 2,0 8,0 C2,0 0,2 0,8 C0,2 -2,0 -8,0 C-2,0 0,-2 0,-8 Z" fill="#FFE58F"/>
+      <circle cx="0" cy="0" r="2.5" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- Ground / Grass -->
+  <g id="ground">
+    <!-- Base ground slope -->
+    <path d="M 0 210 Q 120 185 240 205 L 240 240 L 0 240 Z" fill="#14171E"/>
+    <!-- Grass layer -->
+    <path d="M 0 200 Q 100 175 240 195 L 240 240 L 0 240 Z" fill="#1E2A22"/>
+    
+    <!-- Grass blades silhouette -->
+    <path d="M20,200 L23,190 L26,200 M55,195 L59,183 L63,195 M180,198 L183,187 L187,198 M205,202 L208,192 L212,202" stroke="#2B3D30" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character (Sitting & Looking Up / Ngửa đầu) -->
+  <g id="character">
+    <!-- Body / Torso (Angled back slightly, sitting on grass) -->
+    <path d="M 95 195 L 90 155 Q 95 145 110 148 L 118 190 Z" fill="#3B82F6"/>
+    
+    <!-- Crossed Legs -->
+    <path d="M 92 192 Q 110 178 135 198 L 92 204 Z" fill="#2563EB"/>
+    <path d="M 85 196 Q 105 185 125 204 Z" stroke="#1D4ED8" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Back Arm / Shoulder -->
+    <path d="M 92 155 L 75 175 L 85 182 Z" fill="#2563EB"/>
+
+    <!-- Neck tilted backward (Key visual element for "仰") -->
+    <path d="M 105 145 Q 112 135 122 132 L 128 142 Q 118 145 110 148 Z" fill="#FFD166"/>
+
+    <!-- Head tilted sharply upward -->
+    <g transform="translate(122, 122)">
+      <!-- Hair -->
+      <path d="M -10 -5 C -12 -15 0 -18 8 -12 C 15 -8 16 0 12 8 C 8 10 0 8 -5 5 Z" fill="#374151"/>
+      <!-- Face profile looking straight up into the sky -->
+      <circle cx="5" cy="2" r="9" fill="#FFD166"/>
+      <!-- Nose pointing up -->
+      <path d="M 12 2 L 16 5 L 12 7 Z" fill="#F59E0B"/>
+    </g>
+
+    <!-- Front Arm (Relaxed on knee) -->
+    <path d="M 112 152 Q 125 170 115 188" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

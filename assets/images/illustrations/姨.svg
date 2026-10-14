@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background ambient glow for focus -->
+  <circle cx="120" cy="120" r="80" fill="#2D3748" opacity="0.4"/>
+
+  <!-- Character representing 'Yí' (Aunt/Mother's sister): A friendly mature female relative in warm, modern attire with a welcoming posture -->
+  <g transform="translate(0, 10)">
+    <!-- Body / Torso -->
+    <path d="M 85 160 Q 85 130 120 130 Q 155 130 155 160 L 175 210 Q 175 215 170 215 L 70 215 Q 65 215 65 210 Z" fill="#3B82F6"/>
+    <!-- Collar / Inner shirt -->
+    <path d="M 105 130 L 120 150 L 135 130 Z" fill="#E2E8F0"/>
+
+    <!-- Neck -->
+    <rect x="110" y="105" width="20" height="30" rx="6" fill="#FCE7DF"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="85" r="32" fill="#FCE7DF"/>
+
+    <!-- Hair (Stylish, mature bob cut) -->
+    <path d="M 88 80 Q 86 55 120 53 Q 154 55 152 80 Q 156 100 150 115 C 145 125 138 120 135 110 Q 120 100 105 110 C 102 120 95 125 90 115 Q 84 100 88 80 Z" fill="#1E293B"/>
+    <!-- Hair detail (side sweep) -->
+    <path d="M 90 80 Q 100 65 120 62 Q 100 75 90 95 Z" fill="#334155"/>
+
+    <!-- Gentle, welcoming facial features -->
+    <!-- Eyes (friendly curved shapes) -->
+    <path d="M 105 82 Q 110 78 115 82" stroke="#334155" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M 125 82 Q 130 78 135 82" stroke="#334155" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Warm Smile -->
+    <path d="M 112 95 Q 120 102 128 95" stroke="#E11D48" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Cheeks (warm friendly blush) -->
+    <circle cx="101" cy="88" r="5" fill="#FDA4AF" opacity="0.6"/>
+    <circle cx="139" cy="88" r="5" fill="#FDA4AF" opacity="0.6"/>
+
+    <!-- Warm welcoming gesture / hand waving slightly or resting near chest -->
+    <circle cx="75" cy="155" r="12" fill="#FCE7DF"/>
+    <circle cx="165" cy="155" r="12" fill="#FCE7DF"/>
+  </g>
+
+  <!-- Accent highlight ring for modern UI/vector flashcard focus -->
+  <circle cx="120" cy="120" r="102" stroke="#F59E0B" stroke-width="2" stroke-dasharray="8 6" fill="none" opacity="0.8"/>
+</svg>
