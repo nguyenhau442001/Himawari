@@ -11,7 +11,9 @@ const SpaRouter = (function() {
       return { view: 'cards', level: params.get('level') };
     }
     if (params.has('tab')) {
-      return { view: 'tab', tab: params.get('tab') };
+      const tab = params.get('tab');
+      const story = params.get('story');
+      return { view: 'tab', tab, story };
     }
     if (params.get('screen') === 'today-reviews') {
       return { view: 'todayReviews' };
@@ -189,24 +191,25 @@ const SpaRouter = (function() {
     replaceView(initialState);
 
     // If initial URL had deep link parameters, activate corresponding view on load
-    if (initialState.view === 'cards' && initialState.level) {
-      window.addEventListener('load', () => {
-        setTimeout(() => {
-          if (typeof selectLevel === 'function') selectLevel(initialState.level);
-        }, 150);
-      });
-    } else if (initialState.view === 'tab' && initialState.tab && initialState.tab !== 'vocab') {
-      window.addEventListener('load', () => {
-        setTimeout(() => {
-          if (typeof setPrimaryTab === 'function') setPrimaryTab(initialState.tab);
-        }, 100);
-      });
-    } else if (initialState.view === 'todayReviews') {
-      window.addEventListener('load', () => {
-        setTimeout(() => {
-          if (typeof openTodayReviews === 'function') openTodayReviews();
-        }, 150);
-      });
+    function activateInitialView() {
+      if (initialState.view === 'cards' && initialState.level) {
+        if (typeof selectLevel === 'function') selectLevel(initialState.level);
+      } else if (initialState.view === 'tab' && initialState.tab && initialState.tab !== 'vocab') {
+        if (typeof setPrimaryTab === 'function') {
+          setPrimaryTab(initialState.tab);
+          if (initialState.tab === 'gradedReading' && initialState.story && typeof GradedReading !== 'undefined') {
+            GradedReading.openStory(initialState.story, false);
+          }
+        }
+      } else if (initialState.view === 'todayReviews') {
+        if (typeof openTodayReviews === 'function') openTodayReviews();
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      setTimeout(activateInitialView, 50);
+    } else {
+      window.addEventListener('load', () => setTimeout(activateInitialView, 50));
     }
   }
 

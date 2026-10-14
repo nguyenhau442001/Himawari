@@ -663,7 +663,6 @@ const GradedReading = (function() {
     </article>
     `;
   }
-  }
 
   /**
    * Open and render interactive story reader
