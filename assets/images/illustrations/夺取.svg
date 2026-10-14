@@ -1,0 +1,63 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative subtle background glow / motion lines -->
+  <g opacity="0.15">
+    <path d="M40 120 L200 120" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 6"/>
+    <path d="M120 40 L120 200" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 6"/>
+    <circle cx="120" cy="120" r="70" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+  </g>
+
+  <!-- Winner's Trophy (Physical Object representing "夺取" - giành lấy cúp vô địch) -->
+  <g transform="translate(0, 5)">
+    <!-- Base / Stand -->
+    <path d="M95 185 L145 185 L135 165 L105 165 Z" fill="#334155"/>
+    <rect x="90" y="185" width="60" height="12" rx="3" fill="#475569"/>
+
+    <!-- Stem -->
+    <rect x="112" y="145" width="16" height="22" fill="#D97706"/>
+
+    <!-- Cup Body -->
+    <path d="M85 75 C85 125 155 125 155 75 Z" fill="#F59E0B"/>
+    <!-- Cup Rim Highlight -->
+    <ellipse cx="120" cy="75" rx="35" ry="8" fill="#FBBF24"/>
+    <ellipse cx="120" cy="75" rx="30" ry="5" fill="#D97706"/>
+
+    <!-- Left Handle -->
+    <path d="M88 85 C65 85 65 115 88 120" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Right Handle -->
+    <path d="M152 85 C175 85 175 115 152 120" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Trophy Inner Shading / Depth -->
+    <path d="M120 75 L120 145" stroke="#B45309" stroke-width="3" opacity="0.4"/>
+
+    <!-- Star Emblem on Cup -->
+    <polygon points="120,95 123,103 131,103 125,108 127,116 120,111 113,116 115,108 109,103 117,103" fill="#FEF3C7"/>
+  </g>
+
+  <!-- Dynamic Grasping Hands / Action Lines representing the act of "Giành lấy / Đoạt lấy" -->
+  <!-- Left Hand reaching in -->
+  <g transform="translate(0, 0)">
+    <path d="M30 110 C50 100 65 105 75 115 C85 125 80 135 65 130 C55 127 45 135 35 130 Z" fill="#E2E8F0"/>
+    <path d="M75 115 L85 112 C90 115 90 122 83 126 L75 125 Z" fill="#CBD5E1"/>
+  </g>
+
+  <!-- Right Hand reaching in -->
+  <g transform="translate(240, 0) scale(-1, 1)">
+    <path d="M30 110 C50 100 65 105 75 115 C85 125 80 135 65 130 C55 127 45 135 35 130 Z" fill="#E2E8F0"/>
+    <path d="M75 115 L85 112 C90 115 90 122 83 126 L75 125 Z" fill="#CBD5E1"/>
+  </g>
+
+  <!-- Sparkles / Victory Highlights -->
+  <g fill="#FBBF24">
+    <!-- Top left sparkle -->
+    <path d="M70 55 L73 65 L83 68 L73 71 L70 81 L67 71 L57 68 L67 65 Z"/>
+    <!-- Top right sparkle -->
+    <path d="M170 50 L172 57 L179 59 L172 61 L170 68 L168 61 L161 59 L168 57 Z" transform="scale(0.8) translate(50, 10)"/>
+    <!-- Small star accent -->
+    <circle cx="95" cy="50" r="2.5" fill="#F59E0B"/>
+    <circle cx="145" cy="45" r="2" fill="#F59E0B"/>
+  </g>
+</svg>

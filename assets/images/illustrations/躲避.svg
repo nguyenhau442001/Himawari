@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Shadow/Ground -->
+  <ellipse cx="120" cy="195" rx="70" ry="10" fill="#000" opacity="0.2"/>
+  
+  <!-- Obstacle (The "Difficulty" - A large, sharp, angular grey rock/block) -->
+  <path d="M160 180 L210 180 L195 110 L170 120 L160 180" fill="#4A5568"/>
+  <path d="M160 180 L170 120 L185 140 Z" fill="#2D3748"/>
+  
+  <!-- Person (The one avoiding) -->
+  <!-- Legs -->
+  <path d="M70 180 L85 180 L80 130 L65 130 Z" fill="#F6AD55"/>
+  <!-- Body -->
+  <path d="M60 130 C60 100 90 100 90 130 L90 150 L60 150 Z" fill="#F6AD55"/>
+  <!-- Head -->
+  <circle cx="75" cy="95" r="20" fill="#F6AD55"/>
+  
+  <!-- Motion/Action: The person is leaning/stepping away from the obstacle -->
+  <!-- Arm reaching back/away -->
+  <path d="M60 135 L40 150 L45 160 L65 145 Z" fill="#F6AD55"/>
+  
+  <!-- Directional indicator (Subtle movement) -->
+  <path d="M110 100 L80 80 L110 60" stroke="#F6AD55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Visualizing the "Avoiding" action: The person is physically turning their back and stepping away from the sharp obstacle -->
+</svg>

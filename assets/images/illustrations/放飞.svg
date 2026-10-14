@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Ambient Glow representing spring sky/park atmosphere -->
+  <circle cx="120" cy="120" r="80" fill="#252D3D" opacity="0.6"/>
+
+  <g transform="translate(0, 5)">
+    <!-- Grass Patch / Park Ground -->
+    <path d="M 40 185 Q 90 175 140 185 Q 190 175 220 185 L 220 205 L 20 205 Z" fill="#2E4A3E" opacity="0.9"/>
+    <path d="M 20 190 Q 70 180 120 190 Q 170 180 220 190 L 220 205 L 20 205 Z" fill="#3A5C4B"/>
+
+    <!-- Small Spring Shoots on Grass -->
+    <path d="M 55 185 Q 58 175 62 170 Q 60 180 55 185 Z" fill="#4E8765"/>
+    <path d="M 180 188 Q 183 178 187 173 Q 185 183 180 188 Z" fill="#4E8765"/>
+
+    <!-- Winding String / Ribbon tracing the release/soaring motion -->
+    <path d="M 95 175 Q 110 130 90 95 Q 70 60 115 45" fill="none" stroke="#FFA726" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+
+    <!-- Dynamic Flow Lines indicating upward soaring -->
+    <path d="M 135 60 Q 145 50 140 35" fill="none" stroke="#90CAF9" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 100 40 Q 105 30 100 20" fill="none" stroke="#90CAF9" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Main Subject: The Diamond Kite ("放飞" physical object) -->
+    <g transform="translate(115, 45)">
+      <!-- Kite Body - Diamond Shape with modern flat split design -->
+      <!-- Left Darker Half -->
+      <polygon points="0,-35 -30,0 0,35" fill="#FF7043"/>
+      <!-- Right Lighter Half -->
+      <polygon points="0,-35 30,0 0,35" fill="#FF8A65"/>
+      
+      <!-- Central Geometric Accent / Cross Framing -->
+      <line x1="0" y1="-35" x2="0" y2="35" stroke="#BF360C" stroke-width="1.5"/>
+      <line x1="-30" y1="0" x2="30" y2="0" stroke="#BF360C" stroke-width="1.5"/>
+      
+      <!-- Center Diamond Gem/Accents -->
+      <polygon points="0,-10 -8,0 0,10 8,0" fill="#FFD54F"/>
+
+      <!-- Kite Bow / Decorative Ribbons (Tail) -->
+      <path d="M 0 35 Q 10 55 -5 70 Q 15 85 5 105" fill="none" stroke="#FFCA28" stroke-width="2.5" stroke-linecap="round"/>
+      
+      <!-- Cute Bow Ties on Tail -->
+      <path d="M -3 55 L 5 53 L 2 59 Z" fill="#4DB6AC"/>
+      <path d="M 3 55 L -5 53 L -2 59 Z" fill="#4DB6AC"/>
+      
+      <path d="M 8 85 L 15 82 L 12 88 Z" fill="#9CCC65"/>
+      <path d="M 12 85 L 5 82 L 8 88 Z" fill="#9CCC65"/>
+    </g>
+
+    <!-- Human Silhouette / Hands releasing the kite (Contextual anchor) -->
+    <g transform="translate(80, 155)">
+      <!-- Body / Shoulders -->
+      <path d="M 5 30 C 5 15 25 15 25 30 Z" fill="#5C6BC0"/>
+      <!-- Head -->
+      <circle cx="15" cy="5" r="7" fill="#FFCCBC"/>
+      <!-- Releasing Arms reaching upward -->
+      <path d="M 10 20 C 5 10 0 0 -15 -10" fill="none" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 20 20 C 25 10 30 -5 20 -20" fill="none" stroke="#FFCCBC" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

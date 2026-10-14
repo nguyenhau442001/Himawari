@@ -1,0 +1,70 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Glow effect behind the object -->
+  <circle cx="120" cy="120" r="70" fill="#2D3748" opacity="0.4"/>
+
+  <!-- Legal Document / Constitution Base -->
+  <g transform="translate(0, 5)">
+    <!-- Back document pages (stack effect) -->
+    <rect x="76" y="55" width="88" height="116" rx="6" fill="#2D3748"/>
+    <rect x="72" y="60" width="88" height="116" rx="6" fill="#4A5568"/>
+
+    <!-- Main Front Document -->
+    <rect x="68" y="65" width="104" height="126" rx="8" fill="#F7FAFC"/>
+
+    <!-- Document Header / Seal Accent -->
+    <circle cx="95" cy="90" r="11" fill="#D69E2E"/>
+    <circle cx="95" cy="90" r="7" fill="#F6E05E"/>
+
+    <!-- Document Text Lines -->
+    <rect x="115" y="83" width="41" height="5" rx="2.5" fill="#CBD5E0"/>
+    <rect x="115" y="93" width="31" height="4" rx="2" fill="#E2E8F0"/>
+
+    <rect x="84" y="115" width="72" height="4" rx="2" fill="#CBD5E0"/>
+    <rect x="84" y="127" width="62" height="4" rx="2" fill="#CBD5E0"/>
+    <rect x="84" y="139" width="68" height="4" rx="2" fill="#CBD5E0"/>
+    <rect x="84" y="151" width="45" height="4" rx="2" fill="#CBD5E0"/>
+  </g>
+
+  <!-- Scale of Justice Overlay (Symbolizing Law & Regulation) -->
+  <g transform="translate(0, -2)">
+    <!-- Scale Stand/Pillar -->
+    <rect x="118" y="62" width="4" height="68" rx="2" fill="#D69E2E"/>
+    <circle cx="120" cy="62" r="6" fill="#F6E05E"/>
+    <rect x="104" y="128" width="32" height="6" rx="3" fill="#D69E2E"/>
+
+    <!-- Scale Beam -->
+    <path d="M 85 75 L 155 75" stroke="#F6E05E" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="120" cy="75" r="5" fill="#D69E2E"/>
+
+    <!-- Left Pan -->
+    <path d="M 85 75 L 73 102 L 97 102 Z" fill="none" stroke="#CBD5E0" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 70 102 Q 85 110 100 102 Z" fill="#E2E8F0" stroke="#CBD5E0" stroke-width="2"/>
+    <circle cx="85" cy="75" r="3" fill="#D69E2E"/>
+
+    <!-- Right Pan -->
+    <path d="M 155 75 L 143 102 L 167 102 Z" fill="none" stroke="#CBD5E0" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 140 102 Q 155 110 170 102 Z" fill="#E2E8F0" stroke="#CBD5E0" stroke-width="2"/>
+    <circle cx="155" cy="75" r="3" fill="#D69E2E"/>
+  </g>
+
+  <!-- Gavel (Symbolizing Enforcement & Regulation) -->
+  <g transform="translate(10, 15)">
+    <!-- Sound Block -->
+    <rect x="130" y="145" width="50" height="14" rx="4" fill="#B7791F"/>
+    <rect x="135" y="140" width="40" height="6" rx="2" fill="#D69E2E"/>
+
+    <!-- Gavel Handle -->
+    <path d="M 125 105 L 165 135" stroke="#975A16" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="122" cy="103" r="5" fill="#D69E2E"/>
+
+    <!-- Gavel Head -->
+    <g transform="rotate(37, 122, 103)">
+      <rect x="100" y="93" width="44" height="20" rx="4" fill="#D69E2E"/>
+      <rect x="98" y="91" width="8" height="24" rx="3" fill="#B7791F"/>
+      <rect x="138" y="91" width="8" height="24" rx="3" fill="#B7791F"/>
+    </g>
+  </g>
+</svg>

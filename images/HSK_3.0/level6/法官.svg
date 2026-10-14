@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Scales (Balanced for 公正/Justice) -->
+    <g transform="translate(120, 95)">
+      <!-- Stand/Pillar -->
+      <path d="M-4 -35 H4 V35 H-4 Z" fill="#E2E8F0"/>
+      <!-- Base -->
+      <path d="M-22 35 H22 V43 H-22 Z" fill="#CBD5E1" rx="2"/>
+      <!-- Top Ring -->
+      <circle cx="0" cy="-35" r="5" fill="#F59E0B"/>
+      <!-- Beam -->
+      <path d="M-45 -39 H45 V-31 H-45 Z" fill="#F59E0B" rx="2"/>
+      <circle cx="0" cy="-35" r="3" fill="#1A1D24"/>
+
+      <!-- Left Chain & Pan -->
+      <path d="M-40 -35 L-40 -15 M-40 -15 L-55 0 L-25 0 Z" stroke="#E2E8F0" stroke-width="2" fill="none"/>
+      <path d="M-58 2 C-58 8 -22 8 -22 2 Z" fill="#F59E0B"/>
+      <path d="M-53 0 C-53 4 -27 4 -27 0 Z" fill="#D97706"/>
+
+      <!-- Right Chain & Pan -->
+      <path d="M40 -35 L40 -15 M40 -15 L25 0 L55 0 Z" stroke="#E2E8F0" stroke-width="2" fill="none"/>
+      <path d="M22 2 C22 8 58 8 58 2 Z" fill="#F59E0B"/>
+      <path d="M27 0 C27 4 53 4 53 0 Z" fill="#D97706"/>
+    </g>
+
+    <!-- Judge Character -->
+    <g transform="translate(120, 155)">
+      <!-- Shoulders/Robes -->
+      <path d="M-45 45 L-35 15 C-25 10 25 10 35 15 L45 45 Z" fill="#1E293B"/>
+      <!-- White Collar/Tabs -->
+      <path d="M-6 15 H6 V30 H-6 Z" fill="#F8FAFC"/>
+      <path d="M-3 15 H3 V27 H-3 Z" fill="#E2E8F0"/>
+      <!-- Head/Face -->
+      <circle cx="0" cy="-3" r="16" fill="#FCD34D"/>
+      <!-- Professional Hair/Wig styling -->
+      <path d="M-17 -5 C-17 -18 17 -18 17 -5 C17 -2 15 2 15 2 C15 2 12 -3 8 -5 C4 -7 -4 -7 -8 -5 C-12 -3 -15 2 -15 2 C-15 2 -17 -2 -17 -5 Z" fill="#F8FAFC"/>
+    </g>
+
+    <!-- Gavel -->
+    <g transform="translate(120, 195)">
+      <!-- Handle -->
+      <path d="M-3 -25 L3 -25 L5 20 L-5 20 Z" fill="#B45309" transform="rotate(45)" />
+      <!-- Mallet Head -->
+      <rect x="-22" y="-32" width="44" height="16" rx="4" fill="#D97706" transform="rotate(45)" />
+    </g>
+  </g>
+</svg>

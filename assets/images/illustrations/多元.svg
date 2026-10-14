@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Central connection node -->
+    <circle cx="0" cy="0" r="16" fill="#2E3440" stroke="#F6AD55" stroke-width="4"/>
+    <circle cx="0" cy="0" r="6" fill="#F6AD55"/>
+
+    <!-- Connecting lines -->
+    <line x1="0" y1="0" x2="-65" y2="-55" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="65" y2="-55" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="-75" y2="20" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="75" y2="20" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="0" y2="70" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Element 1: Person (Culture / Diversity of people) -->
+    <g transform="translate(-65, -55)">
+      <circle cx="0" cy="-14" r="11" fill="#4FD1C5"/>
+      <path d="M-14 10 C-14 0, 14 0, 14 10 Z" fill="#4FD1C5"/>
+      <circle cx="0" cy="-14" r="7" fill="#2E3440" opacity="0.3"/>
+    </g>
+
+    <!-- Element 2: Globe (Global / Society) -->
+    <g transform="translate(65, -55)">
+      <circle cx="0" cy="0" r="15" fill="#63B3ED"/>
+      <path d="M-15 0 H15 M0 -15 V15 M-10 -10 C-5 -5, 5 -5, 10 -10 M-10 10 C-5 5, 5 5, 10 10" stroke="#2E3440" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Element 3: Leaf (Nature / Environment) -->
+    <g transform="translate(-75, 20)">
+      <circle cx="0" cy="0" r="15" fill="#2E3440" stroke="#68D391" stroke-width="3"/>
+      <path d="M-6 6 C-6 -4, 6 -8, 8 -8 C8 -6, 4 6, -6 6 Z" fill="#68D391"/>
+      <path d="M-4 2 C0 2, 2 0, 4 -4" stroke="#2E3440" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Element 4: Book / Knowledge -->
+    <g transform="translate(75, 20)">
+      <circle cx="0" cy="0" r="15" fill="#2E3440" stroke="#F6AD55" stroke-width="3"/>
+      <path d="M-8 -5 C-4 -7, 4 -7, 8 -5 V7 C4 5, -4 5, -8 7 Z" fill="#F6AD55"/>
+      <path d="M0 -7 V7" stroke="#2E3440" stroke-width="1.5"/>
+    </g>
+
+    <!-- Element 5: Gear / Technology & Industry -->
+    <g transform="translate(0, 70)">
+      <circle cx="0" cy="0" r="15" fill="#2E3440" stroke="#FC8181" stroke-width="3"/>
+      <circle cx="0" cy="0" r="6" fill="#FC8181"/>
+      <rect x="-2" y="-12" width="4" height="4" fill="#FC8181" rx="1"/>
+      <rect x="-2" y="8" width="4" height="4" fill="#FC8181" rx="1"/>
+      <rect x="-12" y="-2" width="4" height="4" fill="#FC8181" rx="1"/>
+      <rect x="8" y="-2" width="4" height="4" fill="#FC8181" rx="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Wind effect (stylized lines) -->
+  <path d="M30 60 Q 60 50, 90 60 T 150 60" stroke="#7D8590" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M20 90 Q 50 80, 80 90 T 140 90" stroke="#7D8590" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M160 70 Q 190 60, 220 70" stroke="#7D8590" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Raindrops -->
+  <circle cx="50" cy="40" r="2" fill="#A0AEC0"/>
+  <circle cx="80" cy="30" r="2" fill="#A0AEC0"/>
+  <circle cx="120" cy="50" r="2" fill="#A0AEC0"/>
+  <circle cx="180" cy="40" r="2" fill="#A0AEC0"/>
+  <circle cx="210" cy="60" r="2" fill="#A0AEC0"/>
+  <circle cx="40" cy="110" r="2" fill="#A0AEC0"/>
+  <circle cx="100" cy="100" r="2" fill="#A0AEC0"/>
+  <circle cx="150" cy="120" r="2" fill="#A0AEC0"/>
+
+  <!-- Elderly couple walking together (symbolizing "life's journey") -->
+  <!-- Person 1 -->
+  <g transform="translate(80, 130)">
+    <circle cx="15" cy="20" r="8" fill="#FBD38D"/>
+    <path d="M15 28 L15 60 M15 40 L5 50 M15 40 L25 50 M15 60 L10 85 M15 60 L20 85" stroke="#FBD38D" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2 -->
+  <g transform="translate(110, 130)">
+    <circle cx="15" cy="20" r="8" fill="#FBD38D"/>
+    <path d="M15 28 L15 60 M15 40 L5 50 M15 40 L25 50 M15 60 L10 85 M15 60 L20 85" stroke="#FBD38D" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Holding hands -->
+  <line x1="100" y1="170" x2="120" y2="170" stroke="#FBD38D" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Ground line -->
+  <path d="M20 215 L220 215" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+</svg>

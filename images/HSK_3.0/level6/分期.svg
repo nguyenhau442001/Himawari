@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Main Object: A sleek modern refrigerator representing the expensive appliance -->
+  <rect x="90" y="60" width="60" height="120" rx="4" fill="#2D3436" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="94" y="64" width="52" height="50" rx="2" fill="#4A5568"/>
+  <rect x="94" y="118" width="52" height="58" rx="2" fill="#4A5568"/>
+  
+  <!-- Visualizing "Phân kỳ" (Installment/Divided payments) -->
+  <!-- A series of 4 distinct payment blocks floating/aligned to show the division of the total cost -->
+  <rect x="70" y="190" width="20" height="10" rx="2" fill="#FFB84D"/>
+  <rect x="100" y="190" width="20" height="10" rx="2" fill="#FFB84D"/>
+  <rect x="130" y="190" width="20" height="10" rx="2" fill="#FFB84D"/>
+  <rect x="160" y="190" width="20" height="10" rx="2" fill="#FFB84D"/>
+  
+  <!-- Connecting lines to the appliance -->
+  <path d="M80 190 L100 180" stroke="#FFB84D" stroke-width="2" stroke-dasharray="2 2"/>
+  <path d="M110 190 L110 180" stroke="#FFB84D" stroke-width="2" stroke-dasharray="2 2"/>
+  <path d="M140 190 L120 180" stroke="#FFB84D" stroke-width="2" stroke-dasharray="2 2"/>
+  <path d="M170 190 L130 180" stroke="#FFB84D" stroke-width="2" stroke-dasharray="2 2"/>
+</svg>

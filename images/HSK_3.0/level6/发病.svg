@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle ambient background glow indicating medical focus / cold season context -->
+  <circle cx="120" cy="120" r="70" fill="#2D1F26" opacity="0.6"/>
+
+  <!-- Body Silhouette / Torso representing the person -->
+  <path d="M 70 195 C 70 160, 92 145, 120 145 C 148 145, 170 160, 170 195 Z" fill="#2A313C"/>
+  <circle cx="120" cy="115" r="22" fill="#2A313C"/>
+
+  <!-- Highlighted Chest/Internal Area (Focus on the organ/illness onset) -->
+  <circle cx="120" cy="165" r="18" fill="#362229"/>
+
+  <!-- Sharp, sudden acute symptom representation: Flashing pulse / spike line over chest -->
+  <path d="M 95 165 L 110 165 L 116 150 L 124 182 L 130 165 L 145 165" fill="none" stroke="#FF5C5C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sudden onset burst/flash indicators (representing acute "发" / flare-up) -->
+  <g stroke="#FFB84D" stroke-width="2.5" stroke-linecap="round">
+    <line x1="120" y1="133" x2="120" y2="141"/>
+    <line x1="145" y1="150" x2="139" y2="154"/>
+    <line x1="95" y1="150" x2="101" y2="154"/>
+  </g>
+
+  <!-- Cold/Chill indicator: Subtle frost/snowflake accents on the sides representing seasonal trigger -->
+  <g fill="none" stroke="#4DA6FF" stroke-width="1.5" stroke-linecap="round" opacity="0.7">
+    <!-- Left snowflake -->
+    <path d="M 55 90 L 65 90 M 60 85 L 60 95 M 57 87 L 63 93 M 63 87 L 57 93"/>
+    <!-- Right snowflake -->
+    <path d="M 175 105 L 185 105 M 180 100 L 180 110 M 177 102 L 183 108 M 183 102 L 177 108"/>
+  </g>
+
+</svg>

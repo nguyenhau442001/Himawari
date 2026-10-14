@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Manga Book -->
+  <path d="M70 60h80v120H70z" fill="#3D4451" stroke="#FFB84D" stroke-width="2"/>
+  <path d="M70 60h40v120H70z" fill="#2C313A"/>
+  <path d="M80 80h20v10H80zM80 100h20v10H80zM80 120h20v10H80z" fill="#FFB84D"/>
+  
+  <!-- Anime Character Head (Dynamic/Action Style) -->
+  <path d="M130 100c-10 0-20 10-20 25s10 25 20 25 20-10 20-25-10-25-20-25z" fill="#FFB84D"/>
+  <path d="M115 105c-5-10 0-20 10-25 10 5 15 15 10 25z" fill="#FFB84D"/>
+  <path d="M145 105c5-10 0-20-10-25-10 5-15 15-10 25z" fill="#FFB84D"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="123" cy="120" rx="4" ry="6" fill="#1A1D24"/>
+  <ellipse cx="137" cy="120" rx="4" ry="6" fill="#1A1D24"/>
+  
+  <!-- Action Lines -->
+  <path d="M160 80l20-10M170 100l20-5M160 120l20 10" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+</svg>

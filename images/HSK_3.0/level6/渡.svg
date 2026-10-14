@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water surface -->
+  <path d="M0 180 C 60 160, 180 200, 240 180 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  <path d="M0 190 C 80 170, 160 210, 240 190 L 240 240 L 0 240 Z" fill="#34495E"/>
+  
+  <!-- Ferry Boat -->
+  <path d="M60 170 L 180 170 L 170 200 L 70 200 Z" fill="#F39C12"/>
+  <rect x="95" y="145" width="50" height="25" rx="2" fill="#E67E22"/>
+  <rect x="110" y="125" width="20" height="20" fill="#D35400"/>
+  
+  <!-- Person on boat -->
+  <circle cx="120" cy="115" r="8" fill="#F1C40F"/>
+  <path d="M110 125 L 130 125 L 125 150 L 115 150 Z" fill="#F1C40F"/>
+  
+  <!-- Oar -->
+  <rect x="140" y="160" width="4" height="40" fill="#BDC3C7" transform="rotate(20 140 160)"/>
+  <ellipse cx="145" cy="205" rx="6" ry="12" fill="#BDC3C7" transform="rotate(20 145 205)"/>
+</svg>

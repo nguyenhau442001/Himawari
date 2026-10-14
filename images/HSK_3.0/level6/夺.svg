@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Background subtle motion lines representing fierce competition -->
+    <path d="M 40 100 L 90 100" stroke="#2A303C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 30 120 L 70 120" stroke="#2A303C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 150 100 L 200 100" stroke="#2A303C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 170 120 L 210 120" stroke="#2A303C" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Central Gold Medal / Trophy Object (Representing the target of 夺 - Seizing/Winning) -->
+    <g transform="translate(120, 95)">
+      <!-- Ribbon -->
+      <path d="M -15 -45 L -30 -75 L -10 -75 L 0 -45 Z" fill="#E74C3C"/>
+      <path d="M 15 -45 L 30 -75 L 10 -75 L 0 -45 Z" fill="#3498DB"/>
+      <path d="M -5 -45 L 5 -45 L 15 -75 L -15 -75 Z" fill="#C0392B"/>
+
+      <!-- Medal Outer Glow / Dynamic burst -->
+      <circle cx="0" cy="0" r="34" fill="#F1C40F" opacity="0.2"/>
+      
+      <!-- Medal Body -->
+      <circle cx="0" cy="0" r="28" fill="#F39C12"/>
+      <circle cx="0" cy="0" r="24" fill="#F1C40F"/>
+      
+      <!-- Star on Medal -->
+      <polygon points="0,-12 3,-4 11,-4 5,1 7,9 0,5 -7,9 -5,1 -11,-4 -3,-4" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+
+    <!-- Hands Grasping/Seizing from Left and Right (Representing 夺 - Seizing/Competing fiercely) -->
+    <!-- Left Hand (Blue athletic sleeve) -->
+    <g transform="translate(55, 95)">
+      <!-- Arm -->
+      <path d="M -60 25 L -20 10 L -5 15 L -25 45 L -60 45 Z" fill="#2980B9"/>
+      <path d="M -60 25 L -20 10 L -25 20 Z" fill="#1F618D" opacity="0.5"/>
+      <!-- Hand reaching forward to grab -->
+      <path d="M -20 10 C -15 8 -10 5 -5 10 C 0 15 2 22 -2 26 C -6 30 -12 28 -18 22 Z" fill="#FAD7A0"/>
+      <!-- Fingers curled -->
+      <path d="M -12 10 C -9 8 -6 8 -4 11 C -2 14 -3 18 -6 20" stroke="#E5B482" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M -15 15 C -12 13 -9 14 -8 17 C -7 20 -9 23 -12 24" stroke="#E5B482" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Right Hand (Red athletic sleeve) -->
+    <g transform="translate(185, 95) scale(-1, 1)">
+      <!-- Arm -->
+      <path d="M -60 25 L -20 10 L -5 15 L -25 45 L -60 45 Z" fill="#C0392B"/>
+      <path d="M -60 25 L -20 10 L -25 20 Z" fill="#922B21" opacity="0.5"/>
+      <!-- Hand reaching forward to grab -->
+      <path d="M -20 10 C -15 8 -10 5 -5 10 C 0 15 2 22 -2 26 C -6 30 -12 28 -18 22 Z" fill="#FAD7A0"/>
+      <!-- Fingers curled -->
+      <path d="M -12 10 C -9 8 -6 8 -4 11 C -2 14 -3 18 -6 20" stroke="#E5B482" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M -15 15 C -12 13 -9 14 -8 17 C -7 20 -9 23 -12 24" stroke="#E5B482" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Action spark lines in the center collision area -->
+    <path d="M 110 70 L 115 60" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 130 70 L 125 60" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 105 115 L 98 120" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 135 115 L 142 120" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

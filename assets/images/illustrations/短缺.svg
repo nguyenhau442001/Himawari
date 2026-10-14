@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water Pitcher -->
+  <path d="M100 80h40c5 0 8 3 8 8v90c0 10-8 18-18 18h-20c-10 0-18-8-18-18V88c0-5 3-8 8-8z" fill="#3D4451"/>
+  <path d="M105 85h30v85c0 7-5 12-12 12h-6c-7 0-12-5-12-12V85z" fill="#2C313A"/>
+  
+  <!-- Handle -->
+  <path d="M148 100h10c8 0 15 7 15 15v20c0 8-7 15-15 15h-10" fill="none" stroke="#F39C12" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Spout -->
+  <path d="M100 90l-15-20c-2-3 1-6 4-4l15 15" fill="#3D4451"/>
+  
+  <!-- Water Level (Very Low) -->
+  <path d="M105 170h30v5c0 3-2 5-5 5h-20c-3 0-5-2-5-5v-5z" fill="#F39C12"/>
+  
+  <!-- Droplet indicating scarcity -->
+  <circle cx="120" cy="155" r="3" fill="#F39C12"/>
+  <path d="M120 145l-2 5h4l-2-5z" fill="#F39C12"/>
+</svg>

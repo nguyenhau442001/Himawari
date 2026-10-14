@@ -30582,6 +30582,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/点燃.svg",
     "caption": "thắp sáng, châm lửa; khơi dậy"
   },
+  "电饭锅": {
+    "file": "电饭锅.svg",
+    "src": "images/HSK_3.0/level6/电饭锅.svg",
+    "caption": "nồi cơm điện"
+  },
   "电力": {
     "file": "电力.svg",
     "src": "images/HSK_3.0/level6/电力.svg",
@@ -30601,6 +30606,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "订单.svg",
     "src": "images/HSK_3.0/level6/订单.svg",
     "caption": "đơn đặt hàng, đơn hàng"
+  },
+  "订婚": {
+    "file": "订婚.svg",
+    "src": "images/HSK_3.0/level6/订婚.svg",
+    "caption": "đính hôn"
+  },
+  "定价": {
+    "file": "定价.svg",
+    "src": "images/HSK_3.0/level6/定价.svg",
+    "caption": "định giá; mức giá quy định"
+  },
+  "定时": {
+    "file": "定时.svg",
+    "src": "images/HSK_3.0/level6/定时.svg",
+    "caption": "định giờ, hẹn giờ, định kỳ"
+  },
+  "定位": {
+    "file": "定位.svg",
+    "src": "images/HSK_3.0/level6/定位.svg",
+    "caption": "định vị; định hướng vị thế"
+  },
+  "定制": {
+    "file": "定制.svg",
+    "src": "images/HSK_3.0/level6/定制.svg",
+    "caption": "đặt làm riêng, may đo theo yêu cầu (custom)"
+  },
+  "动漫": {
+    "file": "动漫.svg",
+    "src": "images/HSK_3.0/level6/动漫.svg",
+    "caption": "phim hoạt hình và truyện tranh (anime/manga)"
+  },
+  "动听": {
+    "file": "动听.svg",
+    "src": "images/HSK_3.0/level6/动听.svg",
+    "caption": "du dương, êm tai, dễ nghe"
+  },
+  "毒": {
+    "file": "毒.svg",
+    "src": "images/HSK_3.0/level6/毒.svg",
+    "caption": "chất độc; độc hại; ma túy"
+  },
+  "渡": {
+    "file": "渡.svg",
+    "src": "images/HSK_3.0/level6/渡.svg",
+    "caption": "vượt qua (sông, khủng hoảng)"
+  },
+  "短缺": {
+    "file": "短缺.svg",
+    "src": "images/HSK_3.0/level6/短缺.svg",
+    "caption": "thiếu hụt, khan hiếm"
+  },
+  "对接": {
+    "file": "对接.svg",
+    "src": "images/HSK_3.0/level6/对接.svg",
+    "caption": "kết nối, ăn khớp, phối hợp tiếp nhận"
+  },
+  "多才多艺": {
+    "file": "多才多艺.svg",
+    "src": "images/HSK_3.0/level6/多才多艺.svg",
+    "caption": "đa tài, nhiều tài lẻ, toàn năng"
+  },
+  "多媒体": {
+    "file": "多媒体.svg",
+    "src": "images/HSK_3.0/level6/多媒体.svg",
+    "caption": "đa phương tiện (multimedia)"
+  },
+  "多元": {
+    "file": "多元.svg",
+    "src": "images/HSK_3.0/level6/多元.svg",
+    "caption": "đa dạng, đa nguyên"
+  },
+  "夺": {
+    "file": "夺.svg",
+    "src": "images/HSK_3.0/level6/夺.svg",
+    "caption": "chiếm đoạt, giành lấy; cướp"
+  },
+  "夺取": {
+    "file": "夺取.svg",
+    "src": "images/HSK_3.0/level6/夺取.svg",
+    "caption": "giành lấy, đoạt lấy (thắng lợi)"
+  },
+  "躲避": {
+    "file": "躲避.svg",
+    "src": "images/HSK_3.0/level6/躲避.svg",
+    "caption": "né tránh, lẩn tránh, trốn tránh"
+  },
+  "儿科": {
+    "file": "儿科.svg",
+    "src": "images/HSK_3.0/level6/儿科.svg",
+    "caption": "khoa nhi"
+  },
+  "发病": {
+    "file": "发病.svg",
+    "src": "images/HSK_3.0/level6/发病.svg",
+    "caption": "phát bệnh, đổ bệnh"
+  },
+  "发电": {
+    "file": "发电.svg",
+    "src": "images/HSK_3.0/level6/发电.svg",
+    "caption": "phát điện, tạo ra điện"
+  },
+  "发放": {
+    "file": "发放.svg",
+    "src": "images/HSK_3.0/level6/发放.svg",
+    "caption": "phân phối"
+  },
+  "发光": {
+    "file": "发光.svg",
+    "src": "images/HSK_3.0/level6/发光.svg",
+    "caption": "phát sáng, tỏa sáng"
+  },
+  "法定": {
+    "file": "法定.svg",
+    "src": "images/HSK_3.0/level6/法定.svg",
+    "caption": "theo luật định, luật định"
+  },
+  "法官": {
+    "file": "法官.svg",
+    "src": "images/HSK_3.0/level6/法官.svg",
+    "caption": "thẩm phán"
+  },
+  "法规": {
+    "file": "法规.svg",
+    "src": "images/HSK_3.0/level6/法规.svg",
+    "caption": "quy định pháp luật, văn bản quy phạm pháp luật"
+  },
+  "犯": {
+    "file": "犯.svg",
+    "src": "images/HSK_3.0/level6/犯.svg",
+    "caption": "cam kết"
+  },
+  "方方面面": {
+    "file": "方方面面.svg",
+    "src": "images/HSK_3.0/level6/方方面面.svg",
+    "caption": "mọi mặt, các phương diện"
+  },
+  "房价": {
+    "file": "房价.svg",
+    "src": "images/HSK_3.0/level6/房价.svg",
+    "caption": "giá nhà"
+  },
+  "访谈": {
+    "file": "访谈.svg",
+    "src": "images/HSK_3.0/level6/访谈.svg",
+    "caption": "phỏng vấn, tọa đàm trò chuyện"
+  },
+  "放飞": {
+    "file": "放飞.svg",
+    "src": "images/HSK_3.0/level6/放飞.svg",
+    "caption": "thả bay, chắp cánh cho bay lên"
+  },
+  "飞速": {
+    "file": "飞速.svg",
+    "src": "images/HSK_3.0/level6/飞速.svg",
+    "caption": "bay nhanh, thần tốc, với tốc độ chóng mặt"
+  },
+  "肥": {
+    "file": "肥.svg",
+    "src": "images/HSK_3.0/level6/肥.svg",
+    "caption": "màu mỡ (đất); béo mỡ; rộng (áo)"
+  },
+  "肥胖": {
+    "file": "肥胖.svg",
+    "src": "images/HSK_3.0/level6/肥胖.svg",
+    "caption": "béo phì"
+  },
+  "分工": {
+    "file": "分工.svg",
+    "src": "images/HSK_3.0/level6/分工.svg",
+    "caption": "phân công công việc"
+  },
+  "分级": {
+    "file": "分级.svg",
+    "src": "images/HSK_3.0/level6/分级.svg",
+    "caption": "phân cấp, phân loại theo cấp bậc"
+  },
+  "分期": {
+    "file": "分期.svg",
+    "src": "images/HSK_3.0/level6/分期.svg",
+    "caption": "trả góp, chia làm nhiều kỳ"
+  },
+  "氛围": {
+    "file": "氛围.svg",
+    "src": "images/HSK_3.0/level6/氛围.svg",
+    "caption": "bầu không khí"
+  },
+  "粉": {
+    "file": "粉.svg",
+    "src": "images/HSK_3.0/level6/粉.svg",
+    "caption": "bột; màu hồng; người hâm mộ"
+  },
+  "封闭": {
+    "file": "封闭.svg",
+    "src": "images/HSK_3.0/level6/封闭.svg",
+    "caption": "phong tỏa, đóng kín, khép kín"
+  },
+  "风光": {
+    "file": "风光.svg",
+    "src": "images/HSK_3.0/level6/风光.svg",
+    "caption": "phong cảnh; rạng rỡ, vẻ vang"
+  },
+  "风力": {
+    "file": "风力.svg",
+    "src": "images/HSK_3.0/level6/风力.svg",
+    "caption": "sức gió, năng lượng gió"
+  },
+  "丰收": {
+    "file": "丰收.svg",
+    "src": "images/HSK_3.0/level6/丰收.svg",
+    "caption": "được mùa, bội thu"
+  },
+  "风雨": {
+    "file": "风雨.svg",
+    "src": "images/HSK_3.0/level6/风雨.svg",
+    "caption": "mưa gió, phong ba bão táp"
+  },
+  "夫人": {
+    "file": "夫人.svg",
+    "src": "images/HSK_3.0/level6/夫人.svg",
+    "caption": "phu nhân, bà"
+  },
+  "服": {
+    "file": "服.svg",
+    "src": "images/HSK_3.0/level6/服.svg",
+    "caption": "phục, khâm phục; uống (thuốc)"
+  },
+  "浮": {
+    "file": "浮.svg",
+    "src": "images/HSK_3.0/level6/浮.svg",
+    "caption": "nổi, trôi nổi"
+  },
+  "服从": {
+    "file": "服从.svg",
+    "src": "images/HSK_3.0/level6/服从.svg",
+    "caption": "phục tùng, tuân theo"
+  },
+  "幅度": {
+    "file": "幅度.svg",
+    "src": "images/HSK_3.0/level6/幅度.svg",
+    "caption": "biên độ, mức độ"
+  },
+  "符号": {
+    "file": "符号.svg",
+    "src": "images/HSK_3.0/level6/符号.svg",
+    "caption": "ký hiệu, biểu tượng"
   }
 };
 
