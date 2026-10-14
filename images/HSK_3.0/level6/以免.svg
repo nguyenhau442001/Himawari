@@ -1,0 +1,66 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative grid / architectural lines to suggest time and planning -->
+  <g stroke="#262C3A" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+    <line x1="30" y1="180" x2="210" y2="180"/>
+    <line x1="60" y1="180" x2="60" y2="100"/>
+    <line x1="120" y1="180" x2="120" y2="70"/>
+    <line x1="180" y1="180" x2="180" y2="40"/>
+  </g>
+
+  <!-- Causality / Divergence Metaphor (以免 - To avoid / In order to prevent) -->
+  <!-- A primary timeline pathway branching into two outcomes: One safe, one blocked -->
+  
+  <!-- Path 1: The blocked/negative outcome (Late / Obstacle) - Faded / Red-tinted warning zone -->
+  <g opacity="0.35">
+    <path d="M 60 140 C 90 140, 110 90, 140 90 L 190 90" fill="none" stroke="#EF4444" stroke-width="4" stroke-dasharray="6 4"/>
+    <!-- Warning cross / Barrier symbol -->
+    <circle cx="165" cy="90" r="10" fill="#1A1D24" stroke="#EF4444" stroke-width="3"/>
+    <line x1="160" y1="85" x2="170" y2="95" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+    <line x1="170" y1="85" x2="160" y2="95" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Path 2: The successful, safe pathway (Early / Prevention) - Vibrant Amber/Gold Accent -->
+  <g>
+    <!-- Smooth upward curve showing proactive adjustment / early action -->
+    <path d="M 60 140 C 90 140, 100 150, 130 130 C 150 115, 165 70, 195 55" fill="none" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Arrowhead showing safe progression -->
+    <path d="M 185 52 L 197 54 L 190 65" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Element 1: Early Action / Proactive Clock (Representing "早点出门" - Leaving early) -->
+  <g transform="translate(60, 140)">
+    <!-- Clock body -->
+    <circle cx="0" cy="0" r="18" fill="#212631" stroke="#38BDF8" stroke-width="3"/>
+    <!-- Clock hands pointing to an early hour -->
+    <line x1="0" y1="0" x2="0" y2="-8" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="6" y2="-3" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <!-- Center pin -->
+    <circle cx="0" cy="0" r="2" fill="#38BDF8"/>
+    
+    <!-- Motion lines indicating early departure -->
+    <path d="M -16 -12 L -24 -16" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M -18 -2 L -27 -2" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Element 2: Successful Safe Destination / Goal Reached (Representing avoidance of lateness) -->
+  <g transform="translate(195, 55)">
+    <!-- Target / Checkmark node -->
+    <circle cx="0" cy="0" r="14" fill="#10B981" opacity="0.2"/>
+    <circle cx="0" cy="0" r="10" fill="#10B981"/>
+    <!-- Check icon -->
+    <path d="M -4 0 L -1 3 L 5 -3" fill="none" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Element 3: The Pivot Point (The "以免" / Preventive pivot mechanism) -->
+  <g transform="translate(130, 130)">
+    <!-- Sleek interactive pivot node representing the preventive junction -->
+    <circle cx="0" cy="0" r="16" fill="#212631" stroke="#F59E0B" stroke-width="3"/>
+    <!-- Upward directional indicator inside pivot -->
+    <path d="M -3 3 L 3 -3 M 3 -3 L -1 -3 M 3 -3 L 3 1" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container & Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient lighting for dark mode depth -->
+  <circle cx="120" cy="110" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Scene Elements: The "Truth" Document/Evidence -->
+  <g transform="translate(70, 75)">
+    <!-- Document Base -->
+    <rect x="0" y="0" width="100" height="130" rx="6" fill="#2E3646" stroke="#3F4A5D" stroke-width="2"/>
+    <!-- Document Header / Seal indicating truth/facts -->
+    <circle cx="20" cy="20" r="8" fill="#F59E0B" opacity="0.8"/>
+    <!-- Document Lines (Hidden text/truth) -->
+    <rect x="35" y="16" width="50" height="8" rx="4" fill="#4B5563"/>
+    <rect x="15" y="45" width="70" height="6" rx="3" fill="#3F4A5D"/>
+    <rect x="15" y="60" width="55" height="6" rx="3" fill="#3F4A5D"/>
+    <rect x="15" y="75" width="65" height="6" rx="3" fill="#3F4A5D"/>
+    <rect x="15" y="90" width="40" height="6" rx="3" fill="#3F4A5D"/>
+  </g>
+
+  <!-- Dynamic Action: The Cover-Up (掩盖) -->
+  <!-- Curving motion path / cloth / shield being pulled across -->
+  <g transform="translate(20, 50)">
+    <!-- Motion lines indicating swift action -->
+    <path d="M 130 35 Q 110 25 90 30" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4" fill="none" opacity="0.7"/>
+    <path d="M 140 45 Q 115 35 95 40" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+    
+    <!-- Dynamic arm and hand sliding to cover -->
+    <!-- Coat Sleeve -->
+    <path d="M 170 100 L 140 70 C 130 60 115 65 110 75 L 95 105 Z" fill="#3B82F6"/>
+    <!-- Hand pushing / covering -->
+    <circle cx="95" cy="85" r="14" fill="#FBBF24"/>
+    <path d="M 85 90 C 85 80 105 80 105 90" fill="#D97706"/>
+  </g>
+
+  <!-- Foreground Overlay / Dark veil sliding over the truth (Visualizing "Covering up") -->
+  <path d="M 50 65 L 135 65 L 115 195 L 40 195 Z" fill="#111318" opacity="0.85"/>
+  
+  <!-- High-contrast Accent Edge on the covering cloth/veil -->
+  <path d="M 135 65 L 115 195" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Dramatic shadow cast by the cover -->
+  <path d="M 115 65 L 135 65 L 115 195 Z" fill="#0B0C10" opacity="0.5"/>
+
+</svg>

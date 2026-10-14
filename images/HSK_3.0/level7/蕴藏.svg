@@ -1,0 +1,57 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative depth elements -->
+  <path d="M 30,200 Q 120,160 210,200" stroke="#262B36" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <circle cx="180" cy="70" r="25" fill="#222732" opacity="0.5"/>
+  <circle cx="60" cy="100" r="15" fill="#222732" opacity="0.3"/>
+
+  <!-- Underground Cross-section (The Hidden Layer / 蕴) -->
+  <path d="M 30,140 Q 120,150 210,140 L 210,210 Q 120,220 30,210 Z" fill="#232833"/>
+  
+  <!-- Geological strata layers -->
+  <path d="M 30,160 Q 120,170 210,160 L 210,185 Q 120,195 30,185 Z" fill="#2A303C"/>
+
+  <!-- Hidden Resources: Glowing minerals and crystals (藏) -->
+  <!-- Crystal Cluster 1 (Gold/Orange accent) -->
+  <polygon points="75,175 82,155 88,175" fill="#F59E0B" opacity="0.9"/>
+  <polygon points="68,180 75,162 80,180" fill="#D97706" opacity="0.8"/>
+  <polygon points="82,182 88,168 95,182" fill="#FBBF24" opacity="0.7"/>
+
+  <!-- Crystal Cluster 2 (Cyan/Blue accent for variety) -->
+  <polygon points="155,168 162,150 169,168" fill="#38BDF8" opacity="0.9"/>
+  <polygon points="148,173 155,158 160,173" fill="#0284C7" opacity="0.8"/>
+
+  <!-- Sparkles / Hidden energy indicators -->
+  <circle cx="78" cy="150" r="2.5" fill="#FDE68A"/>
+  <circle cx="165" cy="145" r="2" fill="#BAE6FD"/>
+  <path d="M 115,165 L 118,172 L 125,175 L 118,178 L 115,185 L 112,178 L 105,175 L 112,172 Z" fill="#F59E0B" opacity="0.6"/>
+
+  <!-- Surface Level / Ground Line -->
+  <path d="M 20,140 C 70,135 170,135 220,140" stroke="#374151" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Dynamic Human Character Action (Verb/Action representation) -->
+  <!-- Character kneeling / interacting with the earth -->
+  <!-- Torso & Head -->
+  <path d="M 110,100 C 105,90 110,75 120,75 C 130,75 135,90 130,105 Z" fill="#4F46E5"/>
+  <circle cx="120" cy="65" r="10" fill="#E2E8F0"/>
+  <path d="M 113,63 C 113,58 127,58 127,63" fill="#334155"/>
+
+  <!-- Arms showing active probing/discovering gesture -->
+  <path d="M 125,95 L 140,115 L 135,125" stroke="#4F46E5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="135" cy="125" r="4" fill="#E2E8F0"/> <!-- Hand -->
+
+  <path d="M 115,95 L 100,110 L 95,120" stroke="#4F46E5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="95" cy="120" r="4" fill="#E2E8F0"/> <!-- Hand -->
+
+  <!-- Legs (Kneeling posture) -->
+  <path d="M 120,105 L 130,125 L 145,135" stroke="#312E81" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 120,105 L 110,125 L 95,135" stroke="#312E81" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Action / Motion indicator: Revealing scan beam or magnifying effect pointing downwards -->
+  <path d="M 100,115 L 140,115" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3" opacity="0.8"/>
+  <path d="M 120,115 L 120,150" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="120,155 115,145 125,145" fill="#F59E0B"/>
+
+</svg>

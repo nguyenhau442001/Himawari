@@ -1,0 +1,74 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Grid/Atmosphere -->
+  <g opacity="0.15">
+    <line x1="40" y1="20" x2="40" y2="200" stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <line x1="80" y1="20" x2="80" y2="200" stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <line x1="120" y1="20" x2="120" y2="200" stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <line x1="160" y1="20" x2="160" y2="200" stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <line x1="200" y1="20" x2="200" y2="200" stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Musical Notes / Sound Waves (Motion Lines) -->
+  <g fill="#F59E0B" opacity="0.9">
+    <!-- Note 1 -->
+    <path d="M185 60 C185 55 190 50 195 50 L195 75 C190 73 185 75 185 80 C185 85 190 88 195 86 C200 84 202 78 202 70 L202 45 C207 43 213 45 215 50 L215 45 C213 38 207 35 202 38 L202 42 C198 38 192 40 189 45 C186 50 185 55 185 60 Z"/>
+    <!-- Note 2 -->
+    <circle cx="155" cy="85" r="5"/>
+    <path d="M160 85 L160 55 L175 50 L175 53 L163 57 L163 85 Z"/>
+  </g>
+  
+  <!-- Sound Waves / Arc lines -->
+  <path d="M 160 30 Q 185 45 195 70" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 150 20 Q 185 35 205 65" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Piano Body -->
+  <!-- Main black case -->
+  <rect x="50" y="115" width="140" height="65" rx="4" fill="#2D3139"/>
+  <!-- Fallboard (lid over keys) -->
+  <rect x="52" y="118" width="136" height="12" rx="2" fill="#22252B"/>
+  <!-- Gold accent stripe -->
+  <rect x="52" y="130" width="136" height="3" fill="#F59E0B"/>
+  
+  <!-- Piano Keys Area (Desk) -->
+  <rect x="55" y="133" width="130" height="22" fill="#E2E8F0"/>
+  <!-- Key separation lines -->
+  <line x1="70" y1="133" x2="70" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+  <line x1="85" y1="133" x2="85" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+  <line x1="100" y1="133" x2="100" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+  <line x1="115" y1="133" x2="115" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+  <line x1="130" y1="133" x2="130" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+  <line x1="145" y1="133" x2="145" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+  <line x1="160" y1="133" x2="160" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+  <line x1="175" y1="133" x2="175" y2="155" stroke="#1A1D24" stroke-width="0.8"/>
+
+  <!-- Piano Legs -->
+  <rect x="62" y="180" width="8" height="25" rx="2" fill="#22252B"/>
+  <rect x="170" y="180" width="8" height="25" rx="2" fill="#22252B"/>
+
+  <!-- Human Character (Upper body, dynamic playing posture) -->
+  <!-- Torso / Clothes -->
+  <path d="M 85 170 L 105 125 L 135 125 L 155 170 Z" fill="#3B82F6"/>
+  
+  <!-- Head & Hair -->
+  <circle cx="120" cy="85" r="15" fill="#E2E8F0"/>
+  <path d="M 105 82 C 105 70, 135 70, 135 82 C 135 78, 128 72, 120 72 C 112 72, 105 78, 105 82 Z" fill="#F59E0B"/>
+
+  <!-- Arms / Hands interacting with keys (Action) -->
+  <!-- Left Arm -->
+  <path d="M 95 135 Q 85 145 102 142" fill="none" stroke="#3B82F6" stroke-width="10" stroke-linecap="round"/>
+  <!-- Left Hand -->
+  <circle cx="104" cy="141" r="5" fill="#E2E8F0"/>
+
+  <!-- Right Arm (Dynamic motion line implied) -->
+  <path d="M 145 135 Q 155 145 138 142" fill="none" stroke="#3B82F6" stroke-width="10" stroke-linecap="round"/>
+  <!-- Right Hand -->
+  <circle cx="136" cy="141" r="5" fill="#E2E8F0"/>
+
+  <!-- Action Motion Lines (Hands playing) -->
+  <path d="M 100 148 Q 104 153 108 148" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 132 148 Q 136 153 140 148" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+
+</svg>

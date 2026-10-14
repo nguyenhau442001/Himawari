@@ -22192,6 +22192,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/演绎.svg",
     "caption": "diễn dịch, suy diễn"
   },
+  "演奏": {
+    "file": "演奏.svg",
+    "src": "images/HSK_2.0/level6/演奏.svg",
+    "caption": "diễn tấu (nhạc)"
+  },
+  "掩盖": {
+    "file": "掩盖.svg",
+    "src": "images/HSK_2.0/level6/掩盖.svg",
+    "caption": "che đậy"
+  },
+  "掩护": {
+    "file": "掩护.svg",
+    "src": "images/HSK_2.0/level6/掩护.svg",
+    "caption": "che chở, yểm trợ"
+  },
+  "掩饰": {
+    "file": "掩饰.svg",
+    "src": "images/HSK_2.0/level6/掩饰.svg",
+    "caption": "che giấu"
+  },
   "眼光": {
     "file": "眼光.svg",
     "src": "images/HSK_2.0/level6/眼光.svg",
@@ -22387,10 +22407,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/以便.svg",
     "caption": "để cho, để tiện"
   },
+  "以免": {
+    "file": "以免.svg",
+    "src": "images/HSK_2.0/level6/以免.svg",
+    "caption": "để tránh"
+  },
   "以往": {
     "file": "以往.svg",
     "src": "images/HSK_2.0/level6/以往.svg",
     "caption": "trước đây"
+  },
+  "以至": {
+    "file": "以至.svg",
+    "src": "images/HSK_2.0/level6/以至.svg",
+    "caption": "cho đến mức, đến nỗi"
   },
   "以致": {
     "file": "以致.svg",
@@ -22572,15 +22602,30 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/拥有.svg",
     "caption": "sở hữu, có"
   },
+  "庸俗": {
+    "file": "庸俗.svg",
+    "src": "images/HSK_2.0/level6/庸俗.svg",
+    "caption": "tầm thường, dung tục"
+  },
   "勇于": {
     "file": "勇于.svg",
     "src": "images/HSK_2.0/level6/勇于.svg",
     "caption": "dũng cảm (làm gì)"
   },
+  "永恒": {
+    "file": "永恒.svg",
+    "src": "images/HSK_2.0/level6/永恒.svg",
+    "caption": "vĩnh hằng"
+  },
   "涌现": {
     "file": "涌现.svg",
     "src": "images/HSK_2.0/level6/涌现.svg",
     "caption": "xuất hiện hàng loạt, nổi lên"
+  },
+  "踊跃": {
+    "file": "踊跃.svg",
+    "src": "images/HSK_2.0/level6/踊跃.svg",
+    "caption": "hăng hái, sôi nổi"
   },
   "用户": {
     "file": "用户.svg",
@@ -22591,6 +22636,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "优胜劣汰.svg",
     "src": "images/HSK_2.0/level6/优胜劣汰.svg",
     "caption": "chọn lọc tự nhiên, mạnh thắng yếu thua"
+  },
+  "优先": {
+    "file": "优先.svg",
+    "src": "images/HSK_2.0/level6/优先.svg",
+    "caption": "ưu tiên"
+  },
+  "优异": {
+    "file": "优异.svg",
+    "src": "images/HSK_2.0/level6/优异.svg",
+    "caption": "xuất sắc"
   },
   "优越": {
     "file": "优越.svg",
@@ -22762,10 +22817,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_2.0/level6/原先.svg",
     "caption": "ban đầu, trước kia"
   },
+  "缘故": {
+    "file": "缘故.svg",
+    "src": "images/HSK_2.0/level6/缘故.svg",
+    "caption": "nguyên do, lý do"
+  },
   "园林": {
     "file": "园林.svg",
     "src": "images/HSK_2.0/level6/园林.svg",
     "caption": "vườn cảnh"
+  },
+  "源泉": {
+    "file": "源泉.svg",
+    "src": "images/HSK_2.0/level6/源泉.svg",
+    "caption": "nguồn, mạch nguồn"
   },
   "约束": {
     "file": "约束.svg",
@@ -22786,6 +22851,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "熨.svg",
     "src": "images/HSK_2.0/level6/熨.svg",
     "caption": "là (ủi quần áo)"
+  },
+  "蕴藏": {
+    "file": "蕴藏.svg",
+    "src": "images/HSK_2.0/level6/蕴藏.svg",
+    "caption": "chứa đựng, ẩn chứa"
   },
   "运算": {
     "file": "运算.svg",

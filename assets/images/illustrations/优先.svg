@@ -1,0 +1,55 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background grid/glow to enhance modern dark UI theme -->
+  <circle cx="120" cy="120" r="90" fill="#222732" opacity="0.5"/>
+
+  <!-- Bus / Transport boarding gate context -->
+  <!-- Boarding barrier / gate post -->
+  <rect x="35" y="100" width="8" height="90" rx="4" fill="#4B5563"/>
+  <rect x="33" y="100" width="12" height="16" rx="2" fill="#6B7280"/>
+  <!-- Status light on gate (Amber/Gold for "priority") -->
+  <circle cx="39" cy="108" r="3" fill="#F59E0B"/>
+
+  <!-- Open barrier arm pointing upwards to indicate priority access -->
+  <path d="M 43 115 L 90 75" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Motion lines indicating priority forward movement -->
+  <path d="M 70 135 L 95 135" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <path d="M 65 150 L 105 150" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <path d="M 75 165 L 100 165" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+
+  <!-- Character 1: Elderly person stepping forward first (Priority/优先) -->
+  <!-- Head & Hair (Elderly) -->
+  <circle cx="125" cy="95" r="12" fill="#E5E7EB"/>
+  <path d="M 113 93 Q 125 81 137 93" fill="none" stroke="#9CA3AF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Body/Outfit -->
+  <path d="M 112 110 C 112 107 138 107 138 110 L 144 150 C 144 153 138 155 125 155 C 112 155 106 153 106 150 Z" fill="#3B82F6"/>
+  <!-- Cane/Walking stick indicating senior -->
+  <line x1="110" y1="120" x2="100" y2="175" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 106 120 Q 110 116 114 120" fill="none" stroke="#9CA3AF" stroke-width="2.5"/>
+  <!-- Legs walking -->
+  <path d="M 116 155 L 110 185" stroke="#1F2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 130 155 L 140 180" stroke="#1F2937" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arm gesturing forward -->
+  <path d="M 135 120 L 155 130" stroke="#E5E7EB" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Character 2: Child stepping forward with elder -->
+  <!-- Head -->
+  <circle cx="165" cy="115" r="9" fill="#FDE047"/>
+  <!-- Body -->
+  <path d="M 157 128 C 157 126 173 126 173 128 L 177 160 C 177 162 173 164 165 164 C 157 164 153 162 153 160 Z" fill="#EC4899"/>
+  <!-- Legs -->
+  <path d="M 160 164 L 158 185" stroke="#1F2937" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 170 164 L 176 182" stroke="#1F2937" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Priority Focus Indicator: Glowing accent badge floating above to visually reinforce "优先" (Priority) -->
+  <circle cx="120" cy="50" r="18" fill="#1F2937" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Upward priority chevron arrows inside badge -->
+  <path d="M 113 57 L 120 45 L 127 57" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 113 49 L 120 37 L 127 49" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+
+  <!-- Ground line -->
+  <line x1="25" y1="185" x2="215" y2="185" stroke="#374151" stroke-width="3" stroke-linecap="round"/>
+</svg>

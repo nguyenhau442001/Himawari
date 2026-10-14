@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "以至" (to the extent that / so much so that) -->
+  <!-- Visualizing intense focus spilling over / transforming into a consequence (forgotten meal / clock ticking) -->
+  
+  <g transform="translate(120, 120)">
+    <!-- Outer radiating glow representing high intensity/extreme state -->
+    <circle cx="-10" cy="10" r="75" fill="#FFB703" opacity="0.08"/>
+    <circle cx="-10" cy="10" r="55" fill="#FFB703" opacity="0.12"/>
+
+    <!-- Desk / Surface -->
+    <path d="M-90,65 L90,65" stroke="#3A3F4B" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- The focused person working (Silhouette/Flat character leaning forward) -->
+    <!-- Head and body leaning over intense work -->
+    <path d="M-45,25 C-45,10 -35,5 -25,12 C-15,18 -10,35 -15,55 L-70,55 C-65,38 -55,30 -45,25 Z" fill="#2E3544"/>
+    <!-- Hair -->
+    <path d="M-50,15 C-45,5 -30,6 -23,14 C-28,10 -38,9 -44,17 Z" fill="#E0A96D"/>
+    <!-- Focused head -->
+    <circle cx="-32" cy="22" r="13" fill="#E0A96D"/>
+    <!-- Concentrated brow/glasses hint -->
+    <line x1="-38" y1="21" x2="-28" y2="23" stroke="#2E3544" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Laptop / Work Station emitting bright focus light -->
+    <polygon points="-75,65 -25,65 -35,35 -65,35" fill="#4A5568"/>
+    <polygon points="-78,65 -22,65 -20,68 -80,68" fill="#718096"/>
+    <path d="M-60,35 L-40,35 L-45,20 L-55,20 Z" fill="#60A5FA" opacity="0.9"/> <!-- Screen glow -->
+
+    <!-- Transition arrow / "Extremity" flow line connecting work to forgotten meal -->
+    <path d="M-10,35 C15,35 25,20 45,30 C60,38 65,55 50,60" fill="none" stroke="#FFB703" stroke-width="3" stroke-dasharray="4,4" stroke-linecap="round"/>
+    <polygon points="52,63 44,60 49,55" fill="#FFB703"/>
+
+    <!-- The Forgotten Element: Bowl of food left untouched, cold, with a clock -->
+    <!-- Bowl -->
+    <path d="M25,50 C25,65 65,65 65,50 Z" fill="#E2E8F0"/>
+    <ellipse cx="45" cy="50" rx="20" ry="6" fill="#CBD5E1"/>
+    <!-- Steaming/Cold indicator (fading lines) -->
+    <path d="M38,38 C39,34 37,30 40,26" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M52,38 C53,34 51,30 54,26" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Small floating clock symbolizing time passing unnoticed -->
+    <g transform="translate(62, 10)">
+      <circle cx="0" cy="0" r="14" fill="#2E3544" stroke="#FFB703" stroke-width="2.5"/>
+      <line x1="0" y1="0" x2="0" y2="-6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="5" y2="2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="1.5" fill="#FFB703"/>
+    </g>
+
+    <!-- Accent focal spark representing the exact tipping point / threshold ("以至") -->
+    <path d="M 5,-5 L 8,-15 L 18,-12 L 10,-3 L 13,7 L 4,2 Z" fill="#FFB703"/>
+  </g>
+</svg>

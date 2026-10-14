@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background grid/atmosphere for modern dark mode UI -->
+  <path d="M40 180 L200 180" stroke="#2A2E39" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Motion lines / directional indicators for tactical retreat -->
+  <g opacity="0.4">
+    <path d="M140 110 L110 110" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <path d="M150 125 L120 125" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <path d="M130 95 L100 95" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Character 1: Retreating teammate (moving left, looking back) -->
+  <g transform="translate(60, 95)">
+    <!-- Body / Torso -->
+    <path d="M15 35 L5 65 L25 80 L35 50 Z" fill="#3B82F6"/>
+    <!-- Head with tactical cap -->
+    <circle cx="20" cy="20" r="10" fill="#E2E8F0"/>
+    <path d="M10 16 L28 16 L25 12 L12 12 Z" fill="#1E40AF"/>
+    <!-- Legs in motion -->
+    <path d="M15 75 L5 105" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+    <path d="M25 75 L35 100" stroke="#1D4ED8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Arms -->
+    <path d="M25 40 L45 55" stroke="#3B82F6" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2: Covering teammate (kneeling/crouching, providing tactical cover/yểm trợ) -->
+  <g transform="translate(135, 90)">
+    <!-- Torso leaning forward -->
+    <path d="M25 30 L10 65 L35 75 L45 45 Z" fill="#D97706"/>
+    <!-- Head with tactical gear -->
+    <circle cx="30" cy="18" r="10" fill="#E2E8F0"/>
+    <path d="M20 14 L38 14 L35 10 L22 10 Z" fill="#B45309"/>
+    <!-- Kneeling Legs -->
+    <path d="M20 65 L5 85 L20 85" stroke="#B45309" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30 70 L45 85" stroke="#92400E" stroke-width="6" stroke-linecap="round"/>
+    <!-- Extended arms holding tactical equipment/stance (Action of covering/yểm trợ) -->
+    <path d="M35 45 L65 50" stroke="#D97706" stroke-width="5" stroke-linecap="round"/>
+    <path d="M50 48 L75 42" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Visual focus / Dynamic action accent -->
+  <circle cx="160" cy="75" r="3" fill="#F59E0B"/>
+  <circle cx="170" cy="70" r="1.5" fill="#F59E0B" opacity="0.6"/>
+
+</svg>

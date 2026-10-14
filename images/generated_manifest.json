@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T14:31:52.837798",
-  "total_unique_words_with_illustrations": 5862,
-  "total_flat_svg_files": 5862,
+  "generated_at": "2026-10-14T18:20:05.797292",
+  "total_unique_words_with_illustrations": 5876,
+  "total_flat_svg_files": 5876,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -31,8 +31,8 @@
       },
       "level6": {
         "total": 2500,
-        "with_svg": 2486,
-        "pct": "99.4%"
+        "with_svg": 2500,
+        "pct": "100.0%"
       }
     },
     "hsk_3_0": {
@@ -63,23 +63,23 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 872,
-        "pct": "48.4%"
+        "with_svg": 876,
+        "pct": "48.7%"
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1329,
-        "pct": "23.7%"
+        "with_svg": 1338,
+        "pct": "23.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1329,
-        "pct": "23.7%"
+        "with_svg": 1338,
+        "pct": "23.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1329,
-        "pct": "23.7%"
+        "with_svg": 1338,
+        "pct": "23.9%"
       }
     }
   },
@@ -84068,6 +84068,90 @@
         "images/HSK_3.0/level9/演绎.svg"
       ]
     },
+    "演奏": {
+      "hanzi": "演奏",
+      "pinyin": "yǎnzòu",
+      "meaning": "diễn tấu (nhạc)",
+      "example_zh": "他将在音乐会上<u>演奏</u>钢琴。",
+      "example_vi": "Anh ấy sẽ <u>diễn tấu</u> piano trong buổi hòa nhạc.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "演奏.svg",
+      "src": "images/HSK_2.0/level6/演奏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/演奏.svg"
+      ]
+    },
+    "掩盖": {
+      "hanzi": "掩盖",
+      "pinyin": "yǎngài",
+      "meaning": "che đậy",
+      "example_zh": "他试图<u>掩盖</u>事情的真相。",
+      "example_vi": "Anh ấy cố gắng <u>che đậy</u> sự thật của việc này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "掩盖.svg",
+      "src": "images/HSK_2.0/level6/掩盖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/掩盖.svg",
+        "images/HSK_3.0/level8/掩盖.svg",
+        "images/HSK_3.0/level9/掩盖.svg"
+      ]
+    },
+    "掩护": {
+      "hanzi": "掩护",
+      "pinyin": "yǎnhù",
+      "meaning": "che chở, yểm trợ",
+      "example_zh": "战友们互相<u>掩护</u>撤退。",
+      "example_vi": "Các đồng đội <u>yểm trợ</u> nhau rút lui.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "掩护.svg",
+      "src": "images/HSK_2.0/level6/掩护.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/掩护.svg",
+        "images/HSK_3.0/level8/掩护.svg",
+        "images/HSK_3.0/level9/掩护.svg"
+      ]
+    },
+    "掩饰": {
+      "hanzi": "掩饰",
+      "pinyin": "yǎnshì",
+      "meaning": "che giấu",
+      "example_zh": "她<u>掩饰</u>不住内心的紧张。",
+      "example_vi": "Cô ấy không thể <u>che giấu</u> sự lo lắng trong lòng.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "掩饰.svg",
+      "src": "images/HSK_2.0/level6/掩饰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/掩饰.svg",
+        "images/HSK_3.0/level8/掩饰.svg",
+        "images/HSK_3.0/level9/掩饰.svg"
+      ]
+    },
     "眼光": {
       "hanzi": "眼光",
       "pinyin": "yǎnguāng",
@@ -84838,6 +84922,24 @@
         "images/HSK_3.0/level6/以便.svg"
       ]
     },
+    "以免": {
+      "hanzi": "以免",
+      "pinyin": "yǐmiǎn",
+      "meaning": "để tránh",
+      "example_zh": "请早点出门，<u>以免</u>迟到。",
+      "example_vi": "Xin ra ngoài sớm hơn <u>để tránh</u> bị muộn.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "以免.svg",
+      "src": "images/HSK_2.0/level6/以免.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/以免.svg"
+      ]
+    },
     "以往": {
       "hanzi": "以往",
       "pinyin": "yǐwǎng",
@@ -84855,6 +84957,20 @@
       "alt_srcs": [
         "images/HSK_3.0/level6/以往.svg"
       ]
+    },
+    "以至": {
+      "hanzi": "以至",
+      "pinyin": "yǐzhì",
+      "meaning": "cho đến mức, đến nỗi",
+      "example_zh": "他工作太投入，<u>以至</u>忘记了吃饭。",
+      "example_vi": "Anh ấy làm việc quá chăm chú, <u>đến nỗi</u> quên ăn cơm.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [],
+      "file": "以至.svg",
+      "src": "images/HSK_2.0/level6/以至.svg",
+      "alt_srcs": []
     },
     "以致": {
       "hanzi": "以致",
@@ -85604,6 +85720,28 @@
         "images/HSK_3.0/level5/拥有.svg"
       ]
     },
+    "庸俗": {
+      "hanzi": "庸俗",
+      "pinyin": "yōngsú",
+      "meaning": "tầm thường, dung tục",
+      "example_zh": "这部电影内容有些<u>庸俗</u>。",
+      "example_vi": "Nội dung của bộ phim này có phần <u>dung tục</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "庸俗.svg",
+      "src": "images/HSK_2.0/level6/庸俗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/庸俗.svg",
+        "images/HSK_3.0/level8/庸俗.svg",
+        "images/HSK_3.0/level9/庸俗.svg"
+      ]
+    },
     "勇于": {
       "hanzi": "勇于",
       "pinyin": "yǒngyú",
@@ -85622,6 +85760,28 @@
         "images/HSK_3.0/level6/勇于.svg"
       ]
     },
+    "永恒": {
+      "hanzi": "永恒",
+      "pinyin": "yǒnghéng",
+      "meaning": "vĩnh hằng",
+      "example_zh": "他们的爱情是<u>永恒</u>的。",
+      "example_vi": "Tình yêu của họ là <u>vĩnh hằng</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "永恒.svg",
+      "src": "images/HSK_2.0/level6/永恒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/永恒.svg",
+        "images/HSK_3.0/level8/永恒.svg",
+        "images/HSK_3.0/level9/永恒.svg"
+      ]
+    },
     "涌现": {
       "hanzi": "涌现",
       "pinyin": "yǒngxiàn",
@@ -85638,6 +85798,28 @@
       "src": "images/HSK_2.0/level6/涌现.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/涌现.svg"
+      ]
+    },
+    "踊跃": {
+      "hanzi": "踊跃",
+      "pinyin": "yǒngyuè",
+      "meaning": "hăng hái, sôi nổi",
+      "example_zh": "大家<u>踊跃</u>参加了这次活动。",
+      "example_vi": "Mọi người <u>hăng hái</u> tham gia hoạt động này.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "踊跃.svg",
+      "src": "images/HSK_2.0/level6/踊跃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/踊跃.svg",
+        "images/HSK_3.0/level8/踊跃.svg",
+        "images/HSK_3.0/level9/踊跃.svg"
       ]
     },
     "用户": {
@@ -85678,6 +85860,42 @@
         "images/HSK_3.0/level7/优胜劣汰.svg",
         "images/HSK_3.0/level8/优胜劣汰.svg",
         "images/HSK_3.0/level9/优胜劣汰.svg"
+      ]
+    },
+    "优先": {
+      "hanzi": "优先",
+      "pinyin": "yōuxiān",
+      "meaning": "ưu tiên",
+      "example_zh": "老人和孩子可以<u>优先</u>上车。",
+      "example_vi": "Người già và trẻ em được <u>ưu tiên</u> lên xe.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "优先.svg",
+      "src": "images/HSK_2.0/level6/优先.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/优先.svg"
+      ]
+    },
+    "优异": {
+      "hanzi": "优异",
+      "pinyin": "yōuyì",
+      "meaning": "xuất sắc",
+      "example_zh": "她取得了<u>优异</u>的成绩。",
+      "example_vi": "Cô ấy đã đạt được thành tích <u>xuất sắc</u>.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "优异.svg",
+      "src": "images/HSK_2.0/level6/优异.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level6/优异.svg"
       ]
     },
     "优越": {
@@ -86380,6 +86598,28 @@
         "images/HSK_3.0/level6/原先.svg"
       ]
     },
+    "缘故": {
+      "hanzi": "缘故",
+      "pinyin": "yuángù",
+      "meaning": "nguyên do, lý do",
+      "example_zh": "不知道什么<u>缘故</u>，他突然走了。",
+      "example_vi": "Không biết <u>lý do</u> gì, anh ấy đột ngột bỏ đi.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "缘故.svg",
+      "src": "images/HSK_2.0/level6/缘故.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/缘故.svg",
+        "images/HSK_3.0/level8/缘故.svg",
+        "images/HSK_3.0/level9/缘故.svg"
+      ]
+    },
     "园林": {
       "hanzi": "园林",
       "pinyin": "yuánlín",
@@ -86396,6 +86636,28 @@
       "src": "images/HSK_2.0/level6/园林.svg",
       "alt_srcs": [
         "images/HSK_3.0/level6/园林.svg"
+      ]
+    },
+    "源泉": {
+      "hanzi": "源泉",
+      "pinyin": "yuánquán",
+      "meaning": "nguồn, mạch nguồn",
+      "example_zh": "知识是力量的<u>源泉</u>。",
+      "example_vi": "Tri thức là <u>nguồn</u> của sức mạnh.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "源泉.svg",
+      "src": "images/HSK_2.0/level6/源泉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/源泉.svg",
+        "images/HSK_3.0/level8/源泉.svg",
+        "images/HSK_3.0/level9/源泉.svg"
       ]
     },
     "约束": {
@@ -86480,6 +86742,28 @@
         "images/HSK_3.0/level7/熨.svg",
         "images/HSK_3.0/level8/熨.svg",
         "images/HSK_3.0/level9/熨.svg"
+      ]
+    },
+    "蕴藏": {
+      "hanzi": "蕴藏",
+      "pinyin": "yùncáng",
+      "meaning": "chứa đựng, ẩn chứa",
+      "example_zh": "这片土地<u>蕴藏</u>着丰富的矿产资源。",
+      "example_vi": "Vùng đất này <u>chứa đựng</u> nguồn tài nguyên khoáng sản phong phú.",
+      "levels_hsk2": [
+        "level6"
+      ],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "蕴藏.svg",
+      "src": "images/HSK_2.0/level6/蕴藏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level7/蕴藏.svg",
+        "images/HSK_3.0/level8/蕴藏.svg",
+        "images/HSK_3.0/level9/蕴藏.svg"
       ]
     },
     "运算": {
