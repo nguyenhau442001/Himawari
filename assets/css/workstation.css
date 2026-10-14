@@ -108,9 +108,9 @@ body.graded-story-active #primaryTabs {
   /* Workstation Right Sidebar Study Tabs */
   .sidebar-study-tabs { display: none; }
   body.has-active-study-word .sidebar-study-tabs {
-    display: flex;
-    align-items: center;
-    gap: 6px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
     padding: 4px;
     background: var(--surface-subtle);
     border: 1px solid var(--border);
@@ -118,32 +118,27 @@ body.graded-story-active #primaryTabs {
     order: 0;
     margin-bottom: 6px;
     flex: 0 0 auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
-  }
-  body.has-active-study-word .sidebar-study-tabs::-webkit-scrollbar {
-    display: none;
+    width: 100%;
+    box-sizing: border-box;
   }
   .sidebar-study-tab {
-    flex: 1 0 auto;
-    min-width: max-content;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    padding: 7px 11px;
+    gap: 4px;
+    padding: 7px 3px;
     border: 1px solid transparent;
     background: transparent;
     color: var(--text-secondary);
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 600;
     border-radius: var(--radius-md);
     cursor: pointer;
     transition: all 0.15s ease;
     white-space: nowrap;
     user-select: none;
+    min-width: 0;
+    text-align: center;
   }
   .sidebar-study-tab:hover {
     color: var(--text-primary);
@@ -157,10 +152,10 @@ body.graded-story-active #primaryTabs {
     font-weight: 700;
   }
   .sidebar-study-tab--all {
-    flex: 0 0 auto;
-    padding: 7px 10px;
+    padding: 7px 4px;
   }
-  .sidebar-tab-icon { font-size: 13px; line-height: 1; }
+  .sidebar-tab-icon { font-size: 12px; line-height: 1; flex-shrink: 0; }
+  .sidebar-tab-label { font-size: 11.5px; line-height: 1.2; text-overflow: ellipsis; overflow: hidden; }
 
   /* Tab-based visibility of panels in desktop sidebar */
   /* 1. Stroke tab (default if no attribute set or data-sidebar-tab="stroke") */
@@ -482,8 +477,8 @@ body.study-sidebar-open .study-drawer-backdrop {
     top: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
-    width: 400px !important;
-    max-width: 90vw !important;
+    width: 430px !important;
+    max-width: min(92vw, 440px) !important;
     height: 100vh !important;
     height: 100dvh !important;
     z-index: 1000 !important;
@@ -2269,46 +2264,41 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
 /* Ensure study tabs & panel cards are styled on all screen sizes in study mode */
 body.flashcard-study-mode .sidebar-study-tabs {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 6px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+  padding: 4px;
   background: var(--surface-subtle);
   border: 1.5px solid var(--border);
-  border-radius: 13px;
+  border-radius: 12px;
   order: 0;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   flex: 0 0 auto;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  box-sizing: border-box;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .sidebar-study-tabs {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.1);
 }
-body.flashcard-study-mode .sidebar-study-tabs::-webkit-scrollbar {
-  display: none;
-}
 body.flashcard-study-mode .sidebar-study-tab {
-  flex: 1 0 auto;
-  min-width: max-content;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  padding: 8px 12px;
+  gap: 4px;
+  padding: 8px 3px;
   border: 1.5px solid transparent;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 12.5px;
+  font-size: 11.5px;
   font-weight: 600;
   border-radius: 9px;
   cursor: pointer;
   transition: all 0.15s ease;
   white-space: nowrap;
   user-select: none;
+  min-width: 0;
+  text-align: center;
 }
 body.flashcard-study-mode .sidebar-study-tab:hover {
   color: var(--text-primary);

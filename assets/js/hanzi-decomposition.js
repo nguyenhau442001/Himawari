@@ -243,14 +243,15 @@ function renderStudyRadicalsPanel(word) {
             const comps = d.components || [];
             return `
               <div class="radicals-clean-row">
-                <span class="radicals-char-badge" lang="zh-CN">${d.character}</span>
-                <span class="radicals-arrow">=</span>
+                <div class="radicals-char-lead">
+                  <span class="radicals-char-badge" lang="zh-CN">${d.character}</span>
+                  <span class="radicals-arrow">=</span>
+                </div>
                 <div class="radicals-comps-wrap">
                   ${comps.length > 0 ? comps.map(c => `
-                    <span class="radicals-comp-badge">
+                    <span class="radicals-comp-badge" title="${c.meaning ? `${c.name}: ${c.meaning}` : c.name}">
                       <strong class="rc-char" lang="zh-CN">${c.char}</strong>
                       <span class="rc-name">${c.name}</span>
-                      ${c.meaning ? `<span class="rc-mean">(${c.meaning})</span>` : ''}
                     </span>
                   `).join('<span class="rc-plus">+</span>') : `
                     <span class="radicals-comp-badge">
