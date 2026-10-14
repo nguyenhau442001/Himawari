@@ -1,0 +1,53 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric background elements (Mountain landscape matching "爬山") -->
+  <path d="M20 220 L90 120 L160 220 Z" fill="#222733"/>
+  <path d="M100 220 L165 90 L230 220 Z" fill="#282E3D"/>
+  
+  <!-- Subtle trail path moving upwards -->
+  <path d="M50 200 Q 100 180, 130 140 T 170 90" fill="none" stroke="#3A4255" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6"/>
+
+  <!-- Motion lines indicating dynamic upward climbing action -->
+  <g stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="125" y1="105" x2="135" y2="90" />
+    <line x1="138" y1="115" x2="148" y2="100" />
+    <line x1="112" y1="95" x2="122" y2="80" />
+  </g>
+
+  <!-- Mountain Peak (Target) -->
+  <polygon points="170,50 195,90 145,90" fill="#333B4E"/>
+  <path d="M170 50 L175 65 L165 65 Z" fill="#64748B"/> <!-- Peak snowcap -->
+
+  <!-- Human Character actively climbing (Verb: 爬) -->
+  <g transform="translate(45, 10)">
+    <!-- Back leg (stepping up) -->
+    <path d="M 95 130 Q 110 125, 120 110" fill="none" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- Torso (angled forward into the slope) -->
+    <path d="M 80 125 L 105 100" fill="none" stroke="#38BDF8" stroke-width="14" stroke-linecap="round"/>
+    
+    <!-- Head with climbing helmet -->
+    <circle cx="112" cy="90" r="10" fill="#F8FAFC"/>
+    <path d="M 104 88 A 10 10 0 0 1 120 88" fill="#F59E0B"/> <!-- Helmet visor -->
+
+    <!-- Front arm reaching up to grip the rock/slope -->
+    <path d="M 105 105 L 128 85" fill="none" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <!-- Hand gripping -->
+    <circle cx="131" cy="83" r="4" fill="#F8FAFC"/>
+
+    <!-- Back arm providing leverage -->
+    <path d="M 90 115 L 75 130" fill="none" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Front leg planted lower down -->
+    <path d="M 80 130 L 70 160" fill="none" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+    <!-- Hiking boot -->
+    <path d="M 65 160 L 75 163" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Action Focus Accent: Glowing grip point -->
+  <circle cx="176" cy="93" r="5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="176" cy="93" r="9" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.4"/>
+
+</svg>

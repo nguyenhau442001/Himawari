@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Lantern Body -->
+    <path d="M-40 -20 C-40 -60, -20 -80, 0 -80 C20 -80, 40 -60, 40 -20 C40 20, 20 40, 0 40 C-20 40, -40 20, -40 -20" fill="#FF5722"/>
+    <!-- Lantern Top Cap -->
+    <path d="M-20 -75 L20 -75 L15 -85 L-15 -85 Z" fill="#FFC107"/>
+    <!-- Lantern Bottom Cap -->
+    <path d="M-20 35 L20 35 L15 45 L-15 45 Z" fill="#FFC107"/>
+    <!-- Lantern Tassel -->
+    <path d="M0 45 L0 80 M-5 80 L5 80 M-3 85 L3 85 M-2 90 L2 90" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <!-- Lantern Hanging String -->
+    <path d="M0 -80 L0 -100" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <!-- Decorative Gold Accents -->
+    <path d="M-30 -20 L30 -20 M-25 0 L25 0 M-20 20 L20 20" stroke="#FFC107" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

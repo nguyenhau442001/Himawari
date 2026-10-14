@@ -1,0 +1,80 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Definitions for Gradients & Glows -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#222733"/>
+      <stop offset="100%" stop-color="#15181E"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8A00"/>
+      <stop offset="100%" stop-color="#FFC700"/>
+    </linearGradient>
+    <linearGradient id="stepGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3748"/>
+      <stop offset="100%" stop-color="#1E2530"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="240" height="240" fill="url(#bgGrad)" rx="24" opacity="0.6"/>
+
+  <!-- Contextual Visual Metaphor: Escalation, Progression, and Rise (起) -->
+  <!-- Ambient background glow representing dawn / waking up (六点就起了) -->
+  <circle cx="120" cy="120" r="80" fill="#FF8A00" opacity="0.06" filter="url(#glow)"/>
+
+  <!-- Rising Progression Staircase / Architectural Steps (Escalation) -->
+  <g opacity="0.9">
+    <!-- Step 1 (Low) -->
+    <path d="M 40 180 L 80 180 L 80 195 L 40 195 Z" fill="url(#stepGrad)" rx="2"/>
+    <!-- Step 2 (Mid-Low) -->
+    <path d="M 80 160 L 120 160 L 120 195 L 80 195 Z" fill="url(#stepGrad)"/>
+    <!-- Step 3 (Mid-High) -->
+    <path d="M 120 140 L 160 140 L 160 195 L 120 195 Z" fill="url(#stepGrad)"/>
+    <!-- Step 4 (High Apex) -->
+    <path d="M 160 115 L 200 115 L 200 195 L 160 195 Z" fill="url(#stepGrad)"/>
+  </g>
+
+  <!-- Baseline Grid / Horizon Line -->
+  <line x1="30" y1="195" x2="210" y2="195" stroke="#3A4454" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Dynamic Escalation / Rising Arrow Motif (Causality & Action) -->
+  <g filter="url(#glow)">
+    <path d="M 50 170 Q 100 170 120 135 T 190 85" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sharp Upward Trajectory / Rising Energy Indicator -->
+  <g>
+    <!-- Arrow Head pointing Up-Right (Action of rising / 起) -->
+    <path d="M 175 85 L 192 85 L 192 102" fill="none" stroke="#FFC700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Minimal Abstract Human Figure transitioning from rest to standing (Rising / D dậy) -->
+  <!-- Base position (sleeping/lying down silhouette hint on left) -->
+  <ellipse cx="65" cy="175" rx="12" ry="5" fill="#4A5568" opacity="0.4"/>
+  
+  <!-- Rising/Standing figure on the final apex -->
+  <g transform="translate(180, 58)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="7" fill="#FFC700"/>
+    <!-- Body / Torso rising -->
+    <path d="M -3 7 L 3 7 L 2 22 L -2 22 Z" fill="#FFC700"/>
+    <!-- Arms dynamic motion (stretching upward / waking up) -->
+    <path d="M -3 10 L -10 3" stroke="#FFC700" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 3 10 L 11 2" stroke="#FFC700" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs -->
+    <path d="M -2 22 L -5 34" stroke="#FFC700" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 2 22 L 4 34" stroke="#FFC700" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Progression Nodes (Stepping upward sequentially) -->
+  <circle cx="80" cy="160" r="3" fill="#4A5568"/>
+  <circle cx="120" cy="135" r="4" fill="#718096"/>
+  <circle cx="160" cy="105" r="5" fill="#FF8A00"/>
+  
+</svg>

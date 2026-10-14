@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow for focus -->
+  <circle cx="120" cy="120" r="70" fill="#FFC107" opacity="0.08"/>
+
+  <!-- Garment / Shirt representing "黄色的衣服" based on contextual reference -->
+  <g transform="translate(45, 45)">
+    <!-- Main shirt body -->
+    <path d="M 50 25 
+             Q 65 35 75 35 
+             Q 85 35 100 25 
+             L 125 45 
+             L 110 80 
+             L 95 70 
+             L 95 135 
+             L 35 135 
+             L 35 70 
+             L 20 80 
+             L 5 45 Z" 
+          fill="#FFC107" />
+          
+    <!-- Collar shadow / inner depth -->
+    <path d="M 50 25 
+             Q 65 35 75 35 
+             Q 85 35 100 25 
+             Q 75 55 50 25 Z" 
+          fill="#FFA000" opacity="0.6"/>
+
+    <!-- Sleek folds and highlights for flat modern vector style -->
+    <!-- Left sleeve crease -->
+    <path d="M 20 80 L 35 70 L 35 100 Z" fill="#FFA000" opacity="0.3"/>
+    
+    <!-- Right sleeve crease -->
+    <path d="M 110 80 L 95 70 L 95 100 Z" fill="#FFA000" opacity="0.3"/>
+
+    <!-- Vertical center fold line for depth -->
+    <path d="M 65 35 L 65 135" stroke="#FFA000" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+    
+    <!-- Hanger hook at top -->
+    <path d="M 75 35 
+             Q 75 12 65 12 
+             Q 55 12 55 20" 
+          fill="none" stroke="#78909C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

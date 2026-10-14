@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative educational elements (subtle) -->
+  <circle cx="120" cy="120" r="85" fill="none" stroke="#2A2F3D" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Character Group: "男生" (Schoolboy / Male Student) -->
+  <g transform="translate(0, 5)">
+    <!-- Backpack (behind the character) -->
+    <path d="M 88 100 L 92 75 C 92 70, 96 66, 102 66 L 138 66 C 144 66, 148 70, 148 75 L 152 100 Z" fill="#3B82F6"/>
+    <path d="M 96 90 L 144 90 L 142 125 C 142 130, 138 134, 132 134 L 108 134 C 102 134, 98 130, 98 125 Z" fill="#2563EB"/>
+    <rect x="112" y="96" width="16" height="20" rx="4" fill="#60A5FA"/>
+
+    <!-- Body & Uniform (School Polo / T-shirt with collar) -->
+    <path d="M 75 165 C 75 140, 95 130, 120 130 C 145 130, 165 140, 165 165 L 175 195 C 175 200, 170 205, 165 205 L 75 205 C 70 205, 65 200, 65 195 Z" fill="#1E293B"/>
+    
+    <!-- Torso / Shirt -->
+    <path d="M 85 145 L 155 145 L 165 205 L 75 205 Z" fill="#E2E8F0"/>
+    
+    <!-- Collar & Tie/Accent -->
+    <polygon points="120,145 105,130 135,130" fill="#CBD5E1"/>
+    <polygon points="116,145 124,145 126,175 120,182 114,175" fill="#EF4444"/>
+
+    <!-- Neck -->
+    <rect x="110" y="118" width="20" height="20" fill="#FFD1A9"/>
+
+    <!-- Head & Face -->
+    <circle cx="120" cy="95" r="28" fill="#FFD1A9"/>
+
+    <!-- Hair (Stylized modern short hair for a boy) -->
+    <path d="M 92 92 C 90 70, 105 60, 120 60 C 138 60, 150 72, 148 95 C 148 95, 145 80, 135 75 C 125 70, 110 72, 100 80 C 95 84, 92 92, 92 92 Z" fill="#1E293B"/>
+    <path d="M 94 92 L 98 102 L 104 94 Z" fill="#1E293B"/> <!-- Front fringe accent -->
+
+    <!-- Facial Features: Friendly confident expression -->
+    <!-- Eyes -->
+    <circle cx="110" cy="94" r="3.5" fill="#1E293B"/>
+    <circle cx="130" cy="94" r="3.5" fill="#1E293B"/>
+    <!-- Eyebrows -->
+    <path d="M 106 88 L 114 89" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 126 89 L 134 88" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    <!-- Smile -->
+    <path d="M 113 104 C 116 108, 124 108, 127 104" stroke="#1E293B" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Rosy Cheeks -->
+    <circle cx="103" cy="100" r="4" fill="#FFA5A5" opacity="0.6"/>
+    <circle cx="137" cy="100" r="4" fill="#FFA5A5" opacity="0.6"/>
+  </g>
+
+  <!-- Accent Focus Glow / Indicator (Gold/Orange matching theme guidelines) -->
+  <circle cx="120" cy="120" r="105" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.4"/>
+</svg>

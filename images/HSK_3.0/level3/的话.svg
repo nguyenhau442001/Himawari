@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Semantic Visualization for "的话" (Causality / Hypothetical "If... Then...") -->
+  <!-- We use a clear domino/pathway causality metaphor: Condition (If) triggering Action (Then) -->
+
+  <!-- Atmospheric Background Elements (Subtle Grid / Connections) -->
+  <line x1="40" y1="130" x2="200" y2="130" stroke="#2A2F3D" stroke-width="2" stroke-dasharray="4 4" />
+
+  <!-- Connector Path (Arrow of Causality) -->
+  <path d="M 85 115 C 110 90, 130 90, 155 115" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" opacity="0.6"/>
+  <polygon points="158,112 165,120 154,123" fill="#F59E0B" opacity="0.8"/>
+
+  <!-- Left Side: Condition Node ("If" - Cloud/Rain motif from contextual reference) -->
+  <g transform="translate(45, 95)">
+    <!-- Node Base Circle -->
+    <circle cx="20" cy="20" r="22" fill="#252A37" stroke="#3A4255" stroke-width="2"/>
+    <!-- Rain Cloud Icon -->
+    <path d="M 14 18 C 12 18, 10 20, 10 22 C 10 24, 12 25, 14 26 L 26 26 C 28 26, 29 24, 29 22 C 29 20, 27 18, 25 18 C 24 15, 21 14, 18 15 C 15 15, 14 17, 14 18 Z" fill="#60A5FA"/>
+    <!-- Raindrops -->
+    <line x1="15" y1="29" x2="13" y2="33" stroke="#60A5FA" stroke-width="2" stroke-linecap="round"/>
+    <line x1="21" y1="29" x2="19" y2="33" stroke="#60A5FA" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Side: Result Node ("Then" - Umbrella / Action motif) -->
+  <g transform="translate(175, 95)">
+    <!-- Node Base Circle -->
+    <circle cx="20" cy="20" r="22" fill="#252A37" stroke="#F59E0B" stroke-width="2"/>
+    <!-- Umbrella Icon -->
+    <path d="M 10 18 C 10 12, 30 12, 30 18 Z" fill="#F59E0B"/>
+    <path d="M 20 8 L 20 25 C 20 27, 17 27, 17 25" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central Pivot / Switch Symbol (Representing the Conditional Condition) -->
+  <g transform="translate(120, 120)">
+    <!-- Central Marker Ring -->
+    <circle cx="0" cy="0" r="18" fill="#1F2430" stroke="#F59E0B" stroke-width="3"/>
+    <!-- Toggle / Branch Icon -->
+    <circle cx="-5" cy="0" r="3" fill="#60A5FA"/>
+    <circle cx="5" cy="0" r="3" fill="#F59E0B"/>
+    <path d="M -2 0 L 2 0" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Structural Base Platform -->
+  <path d="M 60 160 L 180 160" stroke="#3A4255" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Left Pillar (If) -->
+  <rect x="65" y="140" width="10" height="20" rx="3" fill="#2A2F3D" stroke="#3A4255" stroke-width="2"/>
+  
+  <!-- Right Pillar (Then) -->
+  <rect x="165" y="140" width="10" height="20" rx="3" fill="#2A2F3D" stroke="#F59E0B" stroke-width="2"/>
+
+  <!-- Dynamic Energy Sparks (Highlighting the conditional link) -->
+  <circle cx="105" cy="85" r="2" fill="#F59E0B"/>
+  <circle cx="135" cy="85" r="3" fill="#F59E0B"/>
+  <path d="M 115 80 L 125 75" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Character representing the singer -->
+  <g transform="translate(120, 120)">
+    <circle cx="0" cy="-40" r="25" fill="#FFB84D"/>
+    <path d="M-10 -45 Q-5 -50 0 -45 T10 -45" stroke="#1A1D24" stroke-width="3" fill="none"/>
+    <path d="M-15 -30 Q0 -15 15 -30" stroke="#1A1D24" stroke-width="3" fill="none"/>
+    <path d="M-5 -55 L-15 -65 M5 -55 L15 -65" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-20 0 L-40 40 M20 0 L40 40" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-10 10 L-10 60 M10 10 L10 60" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Visual representation of "harsh/bad" sound waves (Chaotic/Jagged) -->
+  <g stroke="#FF5252" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M160 100 L175 80 L190 110 L205 70 L220 100" />
+    <path d="M170 130 L185 110 L200 140 L215 100 L230 130" />
+    <path d="M165 160 L180 140 L195 170 L210 130 L225 160" />
+  </g>
+
+  <!-- Listener showing discomfort (Covering ears) -->
+  <g transform="translate(60, 180)">
+    <circle cx="0" cy="-20" r="15" fill="#A0A0A0"/>
+    <path d="M-15 -25 L-30 -10 M15 -25 L30 -10" stroke="#A0A0A0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-5 -20 Q0 -25 5 -20" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M-8 -10 Q0 -5 8 -10" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  </g>
+</svg>

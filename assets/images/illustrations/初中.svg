@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Backpack (representing middle school student / junior high) -->
+  <!-- Main backpack body -->
+  <path d="M80,85 C80,75 88,68 98,68 L142,68 C152,68 160,75 160,85 L160,195 C160,203 152,210 142,210 L98,210 C88,210 80,203 80,195 Z" fill="#3B82F6"/>
+  
+  <!-- Backpack top flap/handle zone -->
+  <path d="M104,68 L104,56 C104,50 110,46 118,46 L122,46 C130,46 136,50 136,56 L136,68 Z" fill="#2563EB"/>
+  
+  <!-- Front pocket -->
+  <path d="M92,125 C92,118 98,112 105,112 L135,112 C142,112 148,118 148,125 L148,188 C148,195 142,200 135,200 L105,200 C98,200 92,195 92,188 Z" fill="#1D4ED8"/>
+  
+  <!-- Front pocket zipper line -->
+  <line x1="92" y1="124" x2="148" y2="124" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Accent badge/strap detail on pocket -->
+  <rect x="110" y="145" width="20" height="25" rx="4" fill="#F59E0B"/>
+  <circle cx="120" cy="157" r="3" fill="#1D4ED8"/>
+
+  <!-- Zipper pulls -->
+  <circle cx="120" cy="68" r="4" fill="#F59E0B"/>
+  <circle cx="120" cy="124" r="3" fill="#F59E0B"/>
+
+  <!-- Books sticking out slightly from top or side to emphasize education -->
+  <path d="M66,105 L82,95 L90,110 L74,120 Z" fill="#10B981"/>
+  <path d="M150,95 L166,105 L158,120 L142,110 Z" fill="#EF4444"/>
+
+  <!-- Side pockets -->
+  <path d="M70,135 C65,135 62,138 62,145 L62,175 C62,182 65,185 70,185 L80,185 L80,135 Z" fill="#2563EB"/>
+  <path d="M170,135 C175,135 178,138 178,145 L178,175 C178,182 175,185 170,185 L160,185 L160,135 Z" fill="#2563EB"/>
+
+</svg>

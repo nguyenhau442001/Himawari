@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 15)">
+    <!-- Ground plane / Grass -->
+    <path d="M 30,175 L 210,175 C 215,175 215,185 210,185 L 30,185 C 25,185 25,175 30,175 Z" fill="#2E7D32"/>
+    <path d="M 20,185 L 220,185 L 220,195 C 220,198 217,200 214,200 L 26,200 C 23,200 20,198 20,195 Z" fill="#1B5E20"/>
+
+    <!-- School Building Base Structure -->
+    <polygon points="120,40 190,75 50,75" fill="#E65100"/>
+    <polygon points="120,44 184,75 56,75" fill="#FF6D00"/>
+    
+    <!-- Main Building Body -->
+    <rect x="65" y="75" width="110" height="100" fill="#37474F"/>
+    <rect x="75" y="85" width="90" height="90" fill="#CFD8DC"/>
+
+    <!-- Building Pillars/Columns -->
+    <rect x="85" y="115" width="10" height="60" fill="#ECEFF1"/>
+    <rect x="115" y="115" width="10" height="60" fill="#ECEFF1"/>
+    <rect x="145" y="115" width="10" height="60" fill="#ECEFF1"/>
+
+    <!-- Entrance Doors -->
+    <path d="M 105,145 L 135,145 L 135,175 L 105,175 Z" fill="#37474F"/>
+    <path d="M 112,145 L 128,145 L 128,175 L 112,175 Z" fill="#78909C"/>
+
+    <!-- Windows (Upper Floor) -->
+    <rect x="78" y="92" width="15" height="15" fill="#90CAF9"/>
+    <rect x="102" y="92" width="15" height="15" fill="#90CAF9"/>
+    <rect x="125" y="92" width="15" height="15" fill="#90CAF9"/>
+    <rect x="148" y="92" width="15" height="15" fill="#90CAF9"/>
+
+    <!-- Clock Tower Feature (Center Roof) -->
+    <rect x="110" y="25" width="20" height="20" fill="#FFB300"/>
+    <polygon points="120,15 132,27 108,27" fill="#D84315"/>
+    <circle cx="120" cy="35" r="6" fill="#FFF"/>
+    <line x1="120" y1="35" x2="120" y2="31" stroke="#37474F" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="120" y1="35" x2="123" y2="37" stroke="#37474F" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Campus Trees (Left & Right) -->
+    <!-- Left Tree -->
+    <rect x="38" y="145" width="6" height="30" fill="#5D4037"/>
+    <circle cx="41" cy="130" r="18" fill="#43A047"/>
+    <circle cx="32" cy="140" r="12" fill="#388E3C"/>
+    <circle cx="50" cy="140" r="12" fill="#388E3C"/>
+
+    <!-- Right Tree -->
+    <rect x="196" y="145" width="6" height="30" fill="#5D4037"/>
+    <circle cx="199" cy="130" r="18" fill="#43A047"/>
+    <circle cx="190" cy="140" r="12" fill="#388E3C"/>
+    <circle cx="208" cy="140" r="12" fill="#388E3C"/>
+
+    <!-- Pathway -->
+    <polygon points="110,185 130,185 145,200 95,200" fill="#B0BEC5"/>
+  </g>
+</svg>

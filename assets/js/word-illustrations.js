@@ -24022,6 +24022,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/出院.svg",
     "caption": "xuất viện, ra viện"
   },
+  "初中": {
+    "file": "初中.svg",
+    "src": "images/HSK_3.0/level3/初中.svg",
+    "caption": "trung học cơ sở (cấp 2)"
+  },
   "春天": {
     "file": "春天.svg",
     "src": "images/HSK_3.0/level3/春天.svg",
@@ -24042,10 +24047,25 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/大熊猫.svg",
     "caption": "gấu trúc lớn"
   },
+  "大衣": {
+    "file": "大衣.svg",
+    "src": "images/HSK_3.0/level3/大衣.svg",
+    "caption": "áo khoác dài, áo măng tô"
+  },
   "得到": {
     "file": "得到.svg",
     "src": "images/HSK_3.0/level3/得到.svg",
     "caption": "nhận được, có được"
+  },
+  "得分": {
+    "file": "得分.svg",
+    "src": "images/HSK_3.0/level3/得分.svg",
+    "caption": "ghi điểm; điểm số"
+  },
+  "的话": {
+    "file": "的话.svg",
+    "src": "images/HSK_3.0/level3/的话.svg",
+    "caption": "nếu… thì (trợ từ giả định)"
   },
   "电": {
     "file": "电.svg",
@@ -24207,6 +24227,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/好多.svg",
     "caption": "rất nhiều"
   },
+  "好久": {
+    "file": "好久.svg",
+    "src": "images/HSK_3.0/level3/好久.svg",
+    "caption": "rất lâu, lâu lắm"
+  },
+  "河": {
+    "file": "河.svg",
+    "src": "images/HSK_3.0/level3/河.svg",
+    "caption": "sông"
+  },
   "红绿灯": {
     "file": "红绿灯.svg",
     "src": "images/HSK_3.0/level3/红绿灯.svg",
@@ -24222,10 +24252,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/后天.svg",
     "caption": "ngày kia"
   },
+  "花园": {
+    "file": "花园.svg",
+    "src": "images/HSK_3.0/level3/花园.svg",
+    "caption": "vườn hoa"
+  },
   "画家": {
     "file": "画家.svg",
     "src": "images/HSK_3.0/level3/画家.svg",
     "caption": "họa sĩ"
+  },
+  "黄色": {
+    "file": "黄色.svg",
+    "src": "images/HSK_3.0/level3/黄色.svg",
+    "caption": "màu vàng"
   },
   "会²": {
     "file": "会².svg",
@@ -24412,10 +24452,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/男人.svg",
     "caption": "đàn ông"
   },
+  "男生": {
+    "file": "男生.svg",
+    "src": "images/HSK_3.0/level3/男生.svg",
+    "caption": "nam sinh, con trai"
+  },
   "难题": {
     "file": "难题.svg",
     "src": "images/HSK_3.0/level3/难题.svg",
     "caption": "vấn đề khó, bài toán khó"
+  },
+  "难听": {
+    "file": "难听.svg",
+    "src": "images/HSK_3.0/level3/难听.svg",
+    "caption": "khó nghe"
   },
   "牛": {
     "file": "牛.svg",
@@ -24431,6 +24481,26 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "女生.svg",
     "src": "images/HSK_3.0/level3/女生.svg",
     "caption": "nữ sinh, con gái"
+  },
+  "爬": {
+    "file": "爬.svg",
+    "src": "images/HSK_3.0/level3/爬.svg",
+    "caption": "leo, trèo; bò"
+  },
+  "怕": {
+    "file": "怕.svg",
+    "src": "images/HSK_3.0/level3/怕.svg",
+    "caption": "sợ; e rằng"
+  },
+  "拍照": {
+    "file": "拍照.svg",
+    "src": "images/HSK_3.0/level3/拍照.svg",
+    "caption": "chụp ảnh"
+  },
+  "起": {
+    "file": "起.svg",
+    "src": "images/HSK_3.0/level3/起.svg",
+    "caption": "dậy, đứng lên; vụ (lượng từ)"
   },
   "汽车": {
     "file": "汽车.svg",
@@ -24602,15 +24672,40 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/箱子.svg",
     "caption": "cái rương, va li, thùng"
   },
+  "相机": {
+    "file": "相机.svg",
+    "src": "images/HSK_3.0/level3/相机.svg",
+    "caption": "máy ảnh"
+  },
   "小区": {
     "file": "小区.svg",
     "src": "images/HSK_3.0/level3/小区.svg",
     "caption": "khu dân cư, khu chung cư"
   },
+  "校园": {
+    "file": "校园.svg",
+    "src": "images/HSK_3.0/level3/校园.svg",
+    "caption": "khuôn viên trường"
+  },
   "鞋": {
     "file": "鞋.svg",
     "src": "images/HSK_3.0/level3/鞋.svg",
     "caption": "giày"
+  },
+  "心里": {
+    "file": "心里.svg",
+    "src": "images/HSK_3.0/level3/心里.svg",
+    "caption": "trong lòng"
+  },
+  "新年": {
+    "file": "新年.svg",
+    "src": "images/HSK_3.0/level3/新年.svg",
+    "caption": "năm mới"
+  },
+  "信": {
+    "file": "信.svg",
+    "src": "images/HSK_3.0/level3/信.svg",
+    "caption": "thư; tin, tin tưởng"
   },
   "行李": {
     "file": "行李.svg",
@@ -24797,10 +24892,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level3/字典.svg",
     "caption": "từ điển (tự điển)"
   },
+  "子": {
+    "file": "子.svg",
+    "src": "images/HSK_3.0/level3/子.svg",
+    "caption": "hậu tố danh từ (như 桌子, 椅子)"
+  },
   "总": {
     "file": "总.svg",
     "src": "images/HSK_3.0/level3/总.svg",
     "caption": "luôn, lúc nào cũng; tổng"
+  },
+  "做客": {
+    "file": "做客.svg",
+    "src": "images/HSK_3.0/level3/做客.svg",
+    "caption": "làm khách, đến chơi nhà"
   },
   "安检": {
     "file": "安检.svg",
