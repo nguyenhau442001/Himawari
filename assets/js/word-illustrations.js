@@ -23022,6 +23022,21 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level1/点¹.svg",
     "caption": "giờ, điểm"
   },
+  "店": {
+    "file": "店.svg",
+    "src": "images/HSK_3.0/level1/店.svg",
+    "caption": "cửa hàng"
+  },
+  "电话": {
+    "file": "电话.svg",
+    "src": "images/HSK_3.0/level1/电话.svg",
+    "caption": "điện thoại"
+  },
+  "电影院": {
+    "file": "电影院.svg",
+    "src": "images/HSK_3.0/level1/电影院.svg",
+    "caption": "rạp chiếu phim"
+  },
   "读书": {
     "file": "读书.svg",
     "src": "images/HSK_3.0/level1/读书.svg",
@@ -23212,15 +23227,35 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level1/上学.svg",
     "caption": "đi học"
   },
+  "事": {
+    "file": "事.svg",
+    "src": "images/HSK_3.0/level1/事.svg",
+    "caption": "thứ"
+  },
+  "书店": {
+    "file": "书店.svg",
+    "src": "images/HSK_3.0/level1/书店.svg",
+    "caption": "hiệu sách, nhà sách"
+  },
   "睡": {
     "file": "睡.svg",
     "src": "images/HSK_3.0/level1/睡.svg",
     "caption": "ngủ"
   },
+  "他们": {
+    "file": "他们.svg",
+    "src": "images/HSK_3.0/level1/他们.svg",
+    "caption": "họ (đại từ)"
+  },
   "它们": {
     "file": "它们.svg",
     "src": "images/HSK_3.0/level1/它们.svg",
     "caption": "chúng nó, chúng (chỉ đồ vật, động vật)"
+  },
+  "她们": {
+    "file": "她们.svg",
+    "src": "images/HSK_3.0/level1/她们.svg",
+    "caption": "họ, các cô ấy (phái nữ)"
   },
   "天": {
     "file": "天.svg",

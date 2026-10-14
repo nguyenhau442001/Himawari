@@ -1,0 +1,39 @@
+<svg width="240" height="240" rx="24" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group representing three female friends (她们) standing together in modern flat vector style -->
+  <g transform="translate(0, 15)">
+    <!-- Friend 1 (Left) -->
+    <g transform="translate(50, 60)">
+      <!-- Body / Outfit -->
+      <path d="M 0 100 L 0 75 C 0 60, 12 50, 25 50 C 38 50, 50 60, 50 75 L 50 100 Z" fill="#3B82F6"/>
+      <!-- Head / Face -->
+      <circle cx="25" cy="30" r="16" fill="#FDE047"/>
+      <!-- Hair -->
+      <path d="M 9 20 C 9 10, 16 8, 25 8 C 34 8, 41 10, 41 20 L 41 40 C 41 45, 38 46, 25 46 C 12 46, 9 45, 9 40 Z" fill="#1E293B"/>
+    </g>
+
+    <!-- Friend 2 (Center - slightly forward / focal point) -->
+    <g transform="translate(95, 45)">
+      <!-- Body / Outfit -->
+      <path d="M 0 115 L 0 90 C 0 75, 12 65, 25 65 C 38 65, 50 75, 50 90 L 50 115 Z" fill="#F43F5E"/>
+      <!-- Head / Face -->
+      <circle cx="25" cy="45" r="18" fill="#FDE047"/>
+      <!-- Hair -->
+      <path d="M 7 33 C 7 20, 15 15, 25 15 C 35 15, 43 20, 43 33 L 43 60 C 43 63, 38 65, 34 65 L 16 65 C 12 65, 7 63, 7 60 Z" fill="#475569"/>
+    </g>
+
+    <!-- Friend 3 (Right) -->
+    <g transform="translate(140, 60)">
+      <!-- Body / Outfit -->
+      <path d="M 0 100 L 0 75 C 0 60, 12 50, 25 50 C 38 50, 50 60, 50 75 L 50 100 Z" fill="#10B981"/>
+      <!-- Head / Face -->
+      <circle cx="25" cy="30" r="16" fill="#FDE047"/>
+      <!-- Hair -->
+      <path d="M 9 20 C 9 10, 16 8, 25 8 C 34 8, 41 10, 41 20 L 41 45 C 41 48, 38 50, 35 50 L 15 50 C 12 50, 9 48, 9 45 Z" fill="#7C2D12"/>
+    </g>
+
+    <!-- Subtle friendly gesture overlay (overlapping arms/shoulders to denote closeness/friendship without romantic tropes) -->
+    <path d="M 72 110 C 90 100, 110 100, 128 110" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.3"/>
+  </g>
+</svg>

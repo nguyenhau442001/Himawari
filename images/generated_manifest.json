@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T18:20:05.797292",
-  "total_unique_words_with_illustrations": 5876,
-  "total_flat_svg_files": 5876,
+  "generated_at": "2026-10-14T18:21:45.932932",
+  "total_unique_words_with_illustrations": 5883,
+  "total_flat_svg_files": 5883,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -38,8 +38,8 @@
     "hsk_3_0": {
       "level1": {
         "total": 300,
-        "with_svg": 293,
-        "pct": "97.7%"
+        "with_svg": 300,
+        "pct": "100.0%"
       },
       "level2": {
         "total": 200,
@@ -87364,6 +87364,48 @@
       "src": "images/HSK_3.0/level1/点¹.svg",
       "alt_srcs": []
     },
+    "店": {
+      "hanzi": "店",
+      "pinyin": "diàn",
+      "meaning": "cửa hàng",
+      "example_zh": "我去复印<u>店</u>复印文件",
+      "example_vi": "Tôi đến cửa hàng photocopy để sao chụp tài liệu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "店.svg",
+      "src": "images/HSK_3.0/level1/店.svg",
+      "alt_srcs": []
+    },
+    "电话": {
+      "hanzi": "电话",
+      "pinyin": "diànhuà",
+      "meaning": "điện thoại",
+      "example_zh": "<u>电话</u>占线了",
+      "example_vi": "Điện thoại đang bận.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "电话.svg",
+      "src": "images/HSK_3.0/level1/电话.svg",
+      "alt_srcs": []
+    },
+    "电影院": {
+      "hanzi": "电影院",
+      "pinyin": "diànyǐngyuàn",
+      "meaning": "rạp chiếu phim",
+      "example_zh": "<u>电影院</u>的入口在那边",
+      "example_vi": "Lối vào rạp chiếu phim ở đằng kia.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "电影院.svg",
+      "src": "images/HSK_3.0/level1/电影院.svg",
+      "alt_srcs": []
+    },
     "读书": {
       "hanzi": "读书",
       "pinyin": "dúshū",
@@ -87896,6 +87938,34 @@
       "src": "images/HSK_3.0/level1/上学.svg",
       "alt_srcs": []
     },
+    "事": {
+      "hanzi": "事",
+      "pinyin": "shì",
+      "meaning": "thứ",
+      "example_zh": "我不知道这件<u>事</u>",
+      "example_vi": "Tôi không biết việc này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "事.svg",
+      "src": "images/HSK_3.0/level1/事.svg",
+      "alt_srcs": []
+    },
+    "书店": {
+      "hanzi": "书店",
+      "pinyin": "shūdiàn",
+      "meaning": "hiệu sách, nhà sách",
+      "example_zh": "我去<u>书店</u>买了两本汉语书。",
+      "example_vi": "Tôi đến <u>hiệu sách</u> mua hai quyển sách tiếng Hán.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "书店.svg",
+      "src": "images/HSK_3.0/level1/书店.svg",
+      "alt_srcs": []
+    },
     "睡": {
       "hanzi": "睡",
       "pinyin": "shuì",
@@ -87910,6 +87980,20 @@
       "src": "images/HSK_3.0/level1/睡.svg",
       "alt_srcs": []
     },
+    "他们": {
+      "hanzi": "他们",
+      "pinyin": "tāmen",
+      "meaning": "họ (đại từ)",
+      "example_zh": "<u>他们</u>的关系很好",
+      "example_vi": "Quan hệ giữa họ rất tốt.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "他们.svg",
+      "src": "images/HSK_3.0/level1/他们.svg",
+      "alt_srcs": []
+    },
     "它们": {
       "hanzi": "它们",
       "pinyin": "tāmen",
@@ -87922,6 +88006,20 @@
       ],
       "file": "它们.svg",
       "src": "images/HSK_3.0/level1/它们.svg",
+      "alt_srcs": []
+    },
+    "她们": {
+      "hanzi": "她们",
+      "pinyin": "tāmen",
+      "meaning": "họ, các cô ấy (phái nữ)",
+      "example_zh": "<u>她们</u>都是我大学时代的好朋友。",
+      "example_vi": "<u>Các cô ấy</u> đều là bạn tốt thời đại học của tôi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level1"
+      ],
+      "file": "她们.svg",
+      "src": "images/HSK_3.0/level1/她们.svg",
       "alt_srcs": []
     },
     "天": {

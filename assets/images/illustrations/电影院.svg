@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Modern Cinema Building Facade -->
+  <g transform="translate(36, 35)">
+    <!-- Main Building Structure -->
+    <rect x="20" y="30" width="128" height="130" rx="6" fill="#252A34"/>
+    
+    <!-- Sloped Cinema Roof / Awning element -->
+    <path d="M10 30 L158 30 L148 15 L20 15 Z" fill="#FF5722"/>
+    <path d="M10 30 L158 30 L153 36 L15 36 Z" fill="#E64A19"/>
+    
+    <!-- Illuminated Marquee / Display Board -->
+    <rect x="32" y="46" width="104" height="28" rx="4" fill="#111418"/>
+    <!-- Play / Film Icon on Marquee (Abstract bright shapes) -->
+    <polygon points="76,56 76,64 84,60" fill="#FFC107"/>
+    <rect x="90" y="58" width="18" height="4" rx="2" fill="#FFC107" opacity="0.7"/>
+    <rect x="52" y="58" width="18" height="4" rx="2" fill="#FFC107" opacity="0.7"/>
+    
+    <!-- Cinema Double Doors (Entrance matching contextual reference) -->
+    <rect x="60" y="104" width="24" height="56" rx="3" fill="#111418"/>
+    <rect x="84" y="104" width="24" height="56" rx="3" fill="#111418"/>
+    <!-- Door Glass Windows -->
+    <rect x="64" y="110" width="16" height="26" rx="2" fill="#2E384D" opacity="0.6"/>
+    <rect x="88" y="110" width="16" height="26" rx="2" fill="#2E384D" opacity="0.6"/>
+    
+    <!-- Classic Cinema Sign / Vertical Neon Accent -->
+    <rect x="74" y="78" width="20" height="20" rx="10" fill="#FFC107"/>
+    <polygon points="81,83 81,93 91,88" fill="#1A1D24"/>
+
+    <!-- Left & Right Decorative Panels -->
+    <rect x="28" y="104" width="24" height="56" rx="2" fill="#1E232D"/>
+    <rect x="116" y="104" width="24" height="56" rx="2" fill="#1E232D"/>
+    
+    <!-- Film Strip Graphic Accent on Building Side -->
+    <circle cx="28" cy="80" r="3" fill="#FFC107" opacity="0.8"/>
+    <circle cx="28" cy="90" r="3" fill="#FFC107" opacity="0.8"/>
+    <circle cx="140" cy="80" r="3" fill="#FFC107" opacity="0.8"/>
+    <circle cx="140" cy="90" r="3" fill="#FFC107" opacity="0.8"/>
+  </g>
+
+  <!-- Glowing Ground / Entrance Floor Reflection -->
+  <ellipse cx="120" cy="198" r="70" ry="6" fill="#FF5722" opacity="0.15"/>
+</svg>
