@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(120, 120)">
+    <!-- Jasmine Flower Petals -->
+    <path d="M0 -40 C 15 -20, 35 -20, 40 0 C 35 20, 15 20, 0 40 C -15 20, -35 20, -40 0 C -35 -20, -15 -20, 0 -40" fill="#F8F9FA"/>
+    <circle cx="0" cy="0" r="8" fill="#FFD700"/>
+    
+    <!-- Scent/Aroma Waves -->
+    <path d="M0 -50 Q 20 -65, 0 -80 M0 -50 Q -20 -65, 0 -80" stroke="#FFD700" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M30 -30 Q 50 -45, 30 -60 M30 -30 Q 10 -45, 30 -60" stroke="#FFD700" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+    <path d="M-30 -30 Q -10 -45, -30 -60 M-30 -30 Q -50 -45, -30 -60" stroke="#FFD700" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+    
+    <!-- Stem and Leaf -->
+    <path d="M0 40 L0 70" stroke="#4CAF50" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0 50 C 20 50, 30 60, 30 75 C 10 70, 0 60, 0 50" fill="#4CAF50"/>
+  </g>
+</svg>

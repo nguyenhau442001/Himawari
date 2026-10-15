@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Ambient Glow for "Extraordinary" Quality -->
+  <circle cx="120" cy="115" r="70" fill="#FFB800" opacity="0.06"/>
+  <path d="M120 40 L124 55 L139 55 L127 64 L131 79 L120 70 L109 79 L113 64 L101 55 L116 55 Z" fill="#FFB800" opacity="0.15"/>
+
+  <!-- Architecture/Stage Scale Exaggeration (Ordinary vs Extraordinary) -->
+  <!-- Ordinary pedestals/structures in background (subdued, smaller scale) -->
+  <rect x="55" y="125" width="30" height="55" rx="2" fill="#282D37"/>
+  <rect x="155" y="125" width="30" height="55" rx="2" fill="#282D37"/>
+  <circle cx="70" cy="110" r="12" fill="#3A4150"/>
+  <circle cx="170" cy="110" r="12" fill="#3A4150"/>
+
+  <!-- Central Extraordinary Platform & Subject (Scale Exaggeration / Distinction) -->
+  <path d="M80 180 L160 180 L175 195 L65 195 Z" fill="#2F3644"/>
+  <rect x="75" y="195" width="90" height="8" rx="2" fill="#FFB800" opacity="0.8"/>
+
+  <!-- Dynamic Character/Talent Representation (Tall, striking posture, glowing focal energy) -->
+  <!-- Character Body -->
+  <path d="M120 85 C110 85 102 95 102 110 L102 145 L138 145 L138 110 C138 95 130 85 120 85 Z" fill="#4C566A"/>
+  <!-- Head -->
+  <circle cx="120" cy="70" r="11" fill="#E5E9F0"/>
+  <!-- Dynamic upward gesture / Talent shining -->
+  <path d="M120 100 L120 155" stroke="#FFB800" stroke-width="4" stroke-linecap="round"/>
+  <path d="M98 120 L142 120" stroke="#FFB800" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Ascending Sparkles / Exceptional Achievement Indicators -->
+  <circle cx="120" cy="45" r="5" fill="#FFB800"/>
+  <path d="M120 30 L122 38 L130 40 L122 42 L120 50 L118 42 L110 40 L118 38 Z" fill="#FFB800"/>
+  
+  <path d="M85 75 L87 79 L91 80 L87 81 L85 85 L83 81 L79 80 L83 79 Z" fill="#FFB800" opacity="0.8"/>
+  <path d="M155 75 L157 79 L161 80 L157 81 L155 85 L153 81 L149 80 L153 79 Z" fill="#FFB800" opacity="0.8"/>
+
+  <!-- Ground reflection / Floor line -->
+  <line x1="40" y1="203" x2="200" y2="203" stroke="#2F3644" stroke-width="2" stroke-linecap="round"/>
+</svg>

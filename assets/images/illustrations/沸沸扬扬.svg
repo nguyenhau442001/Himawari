@@ -1,0 +1,71 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Glowing background ambient for commotion/buzz -->
+  <circle cx="120" cy="120" r="80" fill="#FF5722" opacity="0.08"/>
+
+  <!-- Sound/Speech waves emanating outwards (沸沸扬扬 - bubbling and boiling rumor/discussion) -->
+  <g fill="none" stroke-linecap="round" stroke-width="3">
+    <!-- Outer wave left -->
+    <path d="M 60 90 C 45 105 45 135 60 150" stroke="#FFB74D" opacity="0.3"/>
+    <!-- Outer wave right -->
+    <path d="M 180 90 C 195 105 195 135 180 150" stroke="#FFB74D" opacity="0.3"/>
+    
+    <!-- Inner wave left -->
+    <path d="M 75 100 C 65 110 65 130 75 140" stroke="#FFB74D" opacity="0.6"/>
+    <!-- Inner wave right -->
+    <path d="M 165 100 C 175 110 175 130 165 140" stroke="#FFB74D" opacity="0.6"/>
+  </g>
+
+  <!-- Central Physical Object: A grand, classic megaphone / loudspeaker broadcasting news (symbolizing public buzz and uproar) -->
+  <g transform="translate(120, 120)">
+    <!-- Stand / Mount -->
+    <rect x="-6" y="45" width="12" height="15" rx="3" fill="#37474F"/>
+    <path d="M-20 60 L20 60 L14 45 L-14 45 Z" fill="#263238"/>
+
+    <!-- Megaphone Body (Angled cone) -->
+    <g transform="rotate(-30)">
+      <!-- Handle -->
+      <rect x="-22" y="10" width="10" height="30" rx="4" fill="#37474F" transform="rotate(15 -17 25)"/>
+      <rect x="-20" y="38" width="14" height="6" rx="2" fill="#CFD8DC"/>
+
+      <!-- Main Cone / Horn -->
+      <!-- Back cylinder -->
+      <ellipse cx="-35" cy="0" rx="8" ry="14" fill="#37474F"/>
+      
+      <!-- Conical body -->
+      <path d="M-35 -14 L 35 -26 L 35 26 L -35 14 Z" fill="#FF5722"/>
+      
+      <!-- Highlight on cone -->
+      <path d="M-35 -14 L 35 -26 L 35 -5 L -35 0 Z" fill="#FF7043"/>
+
+      <!-- Wide Open Front Rim -->
+      <ellipse cx="35" cy="0" rx="10" ry="26" fill="#F4511E"/>
+      <ellipse cx="35" cy="0" rx="6" ry="20" fill="#D84315"/>
+
+      <!-- Inner shadow -->
+      <path d="M 25 -18 L 35 -26 L 35 26 L 25 18 Z" fill="#B71C1C" opacity="0.3"/>
+    </g>
+
+    <!-- Sound burst elements bursting from the megaphone -->
+    <g transform="translate(45, -25)">
+      <!-- Dialogue bubbles / exclamation points representing intense discussion -->
+      <!-- Bubble 1 -->
+      <path d="M 15 -25 C 22 -25 28 -19 28 -12 C 28 -5 22 1 15 1 L 9 8 L 8 1 C 3 -1 0 -6 0 -12 C 0 -19 6 -25 13 -25 Z" fill="#FFB74D"/>
+      <circle cx="10" cy="-12" r="2" fill="#1A1D24"/>
+      <circle cx="15" cy="-12" r="2" fill="#1A1D24"/>
+      <circle cx="20" cy="-12" r="2" fill="#1A1D24"/>
+
+      <!-- Bubble 2 (Smaller) -->
+      <circle cx="35" cy="5" r="8" fill="#FFC107"/>
+      <path d="M 28 10 L 25 15 L 30 12 Z" fill="#FFC107"/>
+
+      <!-- Exclamation sparks -->
+      <path d="M 5 -35 L 8 -42 M 20 -40 L 22 -48 M 38 -20 L 45 -22" stroke="#FFB74D" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Ground reflection / subtle base shadow -->
+  <ellipse cx="120" cy="195" rx="55" ry="6" fill="#0D0F12"/>
+</svg>
