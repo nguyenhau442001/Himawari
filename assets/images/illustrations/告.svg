@@ -1,0 +1,68 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Courthouse / Legal Building Base -->
+    <path d="M70 155 L170 155 L170 168 L70 168 Z" fill="#3A4454"/>
+    
+    <!-- Building Steps -->
+    <rect x="60" y="168" width="120" height="6" rx="1" fill="#2E3642"/>
+    <rect x="52" y="174" width="136" height="6" rx="1" fill="#242B35"/>
+    
+    <!-- Courthouse Pillars -->
+    <rect x="78" y="105" width="10" height="50" rx="2" fill="#E2E8F0"/>
+    <rect x="98" y="105" width="10" height="50" rx="2" fill="#E2E8F0"/>
+    <rect x="118" y="105" width="10" height="50" rx="2" fill="#E2E8F0"/>
+    <rect x="138" y="105" width="10" height="50" rx="2" fill="#E2E8F0"/>
+    
+    <!-- Courthouse Pediment (Triangle Roof) -->
+    <polygon points="65,105 175,105 120,70" fill="#3A4454"/>
+    <polygon points="70,103 170,103 120,74" fill="#2E3642"/>
+    
+    <!-- Scales of Justice (Central Iconography) -->
+    <g transform="translate(120, 92)">
+      <!-- Stand / Pole -->
+      <rect x="-1.5" y="-12" width="3" height="28" fill="#F59E0B"/>
+      <circle cx="0" cy="-12" r="3.5" fill="#F59E0B"/>
+      
+      <!-- Beam -->
+      <rect x="-24" y="-15" width="48" height="3" rx="1" fill="#F59E0B"/>
+      
+      <!-- Left Pan -->
+      <line x1="-22" y1="-12" x2="-28" y2="-2" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-22" y1="-12" x2="-16" y2="-2" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-32,-2 C-32,3 -24,3 -22,3 C-20,3 -12,3 -12,-2 Z" fill="#F59E0B"/>
+      
+      <!-- Right Pan (Slightly tilted down to show weight/verdict) -->
+      <line x1="22" y1="-12" x2="16" y2="0" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="22" y1="-12" x2="28" y2="0" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12,0 C12,5 20,5 22,5 C24,5 32,5 32,0 Z" fill="#F59E0B"/>
+    </g>
+    
+    <!-- Document / Lawsuit / Legal Filing (Foreground Motif representing 'Accusation/Lawsuit') -->
+    <g transform="translate(85, 120)">
+      <rect x="0" y="0" width="70" height="52" rx="4" fill="#FFFFFF"/>
+      <rect x="8" y="8" width="28" height="4" rx="1" fill="#CBD5E1"/>
+      <rect x="8" y="16" width="54" height="3" rx="1" fill="#E2E8F0"/>
+      <rect x="8" y="23" width="45" height="3" rx="1" fill="#E2E8F0"/>
+      <rect x="8" y="30" width="50" height="3" rx="1" fill="#E2E8F0"/>
+      
+      <!-- Red Official Legal Seal / Stamp -->
+      <circle cx="48" cy="40" r="10" fill="#EF4444"/>
+      <circle cx="48" cy="40" r="7" fill="none" stroke="#FCA5A5" stroke-width="1"/>
+      <path d="M44 40 L47 43 L53 37" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Legal Gavel (Foreground Accent) -->
+    <g transform="translate(45, 140) rotate(-25)">
+      <!-- Handle -->
+      <rect x="-4" y="-28" width="8" height="42" rx="3" fill="#D97706"/>
+      <!-- Mallet Head -->
+      <rect x="-20" y="-34" width="40" height="14" rx="4" fill="#B45309"/>
+      <!-- Golden bands on handle -->
+      <rect x="-4" y="-18" width="8" height="3" fill="#F59E0B"/>
+      <rect x="-4" y="-6" width="8" height="3" fill="#F59E0B"/>
+    </g>
+  </g>
+</svg>

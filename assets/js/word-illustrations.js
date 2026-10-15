@@ -39317,6 +39317,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/搞笑.svg",
     "caption": "hài hước, gây cười, buồn cười"
   },
+  "告": {
+    "file": "告.svg",
+    "src": "images/HSK_3.0/level7/告.svg",
+    "caption": "kiện, thưa kiện, tố cáo"
+  },
   "告知": {
     "file": "告知.svg",
     "src": "images/HSK_3.0/level7/告知.svg",
@@ -39416,6 +39421,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "个头儿.svg",
     "src": "images/HSK_3.0/level7/个头儿.svg",
     "caption": "vóc dáng, tầm vóc, tầm vóc dáng dấp"
+  },
+  "根基": {
+    "file": "根基.svg",
+    "src": "images/HSK_3.0/level7/根基.svg",
+    "caption": "nền móng, gốc rễ, nền tảng"
   },
   "根源": {
     "file": "根源.svg",

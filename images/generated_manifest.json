@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T22:14:06.573719",
-  "total_unique_words_with_illustrations": 7826,
-  "total_flat_svg_files": 7826,
+  "generated_at": "2026-10-15T22:36:01.330067",
+  "total_unique_words_with_illustrations": 7828,
+  "total_flat_svg_files": 7828,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 2287,
-        "pct": "40.8%"
+        "with_svg": 2289,
+        "pct": "40.9%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 2287,
-        "pct": "40.8%"
+        "with_svg": 2289,
+        "pct": "40.9%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 2287,
-        "pct": "40.8%"
+        "with_svg": 2289,
+        "pct": "40.9%"
       }
     }
   },
@@ -137673,6 +137673,25 @@
         "images/HSK_3.0/level9/搞笑.svg"
       ]
     },
+    "告": {
+      "hanzi": "告",
+      "pinyin": "gào",
+      "meaning": "kiện, thưa kiện, tố cáo",
+      "example_zh": "他因工程款纠纷把对方<u>告</u>上了法庭。",
+      "example_vi": "Anh ta vì tranh chấp tiền công trình mà <u>kiện</u> đối phương ra tòa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "告.svg",
+      "src": "images/HSK_3.0/level7/告.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/告.svg",
+        "images/HSK_3.0/level9/告.svg"
+      ]
+    },
     "告知": {
       "hanzi": "告知",
       "pinyin": "gàozhī",
@@ -138051,6 +138070,25 @@
       "alt_srcs": [
         "images/HSK_3.0/level8/个头儿.svg",
         "images/HSK_3.0/level9/个头儿.svg"
+      ]
+    },
+    "根基": {
+      "hanzi": "根基",
+      "pinyin": "gēnjī",
+      "meaning": "nền móng, gốc rễ, nền tảng",
+      "example_zh": "扎实的数学基础是他后来在科研领域取得突破的坚实<u>根基</u>。",
+      "example_vi": "Nền tảng toán học vững chắc là <u>nền móng</u> vững bền để sau này anh đạt được đột phá trong nghiên cứu khoa học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "根基.svg",
+      "src": "images/HSK_3.0/level7/根基.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/根基.svg",
+        "images/HSK_3.0/level9/根基.svg"
       ]
     },
     "根源": {
