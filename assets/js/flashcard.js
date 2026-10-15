@@ -43,7 +43,7 @@ function buildCardArea() {
 
           <!-- Cột phải: Chữ Hán, Pinyin, Từ loại & Nghĩa -->
           <div class="card-content-col" id="cardContentCol">
-            <div class="hanzi" id="hanzi" onclick="event.stopPropagation(); toggleStudyWritingPanel(true)" title="Nhấn để luyện viết và xem thứ tự nét (W)"></div>
+            <div class="hanzi card-interactive" id="hanzi" onclick="event.stopPropagation(); toggleStudyWritingPanel(true)" title="Nhấn để luyện viết và xem thứ tự nét (W)"></div>
             <div class="pinyin-row" id="pinyinRow">
               <div class="pinyin" id="pinyin"></div>
               <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
@@ -54,7 +54,7 @@ function buildCardArea() {
                 <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
               </button>
             </div>
-            <div class="card-radicals-row" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
+            <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
             <div class="meaning" id="meaning"></div>
           </div>
         </div>
