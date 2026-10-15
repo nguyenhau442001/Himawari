@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Main Document (Original) -->
+  <rect x="70" y="50" width="80" height="110" rx="4" fill="#2D343E" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="80" y="65" width="60" height="6" rx="2" fill="#FFB84D"/>
+  <rect x="80" y="80" width="60" height="6" rx="2" fill="#4A5568"/>
+  <rect x="80" y="95" width="40" height="6" rx="2" fill="#4A5568"/>
+  <circle cx="110" cy="135" r="12" fill="none" stroke="#FFB84D" stroke-width="3" stroke-dasharray="4 4"/>
+  
+  <!-- Duplicate Document (Copy) -->
+  <rect x="90" y="80" width="80" height="110" rx="4" fill="#2D343E" stroke="#718096" stroke-width="2"/>
+  <rect x="100" y="95" width="60" height="6" rx="2" fill="#718096"/>
+  <rect x="100" y="110" width="60" height="6" rx="2" fill="#4A5568"/>
+  <rect x="100" y="125" width="40" height="6" rx="2" fill="#4A5568"/>
+  <circle cx="130" cy="165" r="12" fill="none" stroke="#718096" stroke-width="3" stroke-dasharray="4 4"/>
+</svg>

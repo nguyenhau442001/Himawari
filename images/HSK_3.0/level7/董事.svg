@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table -->
+  <rect x="40" y="150" width="160" height="15" rx="2" fill="#343A46"/>
+  <rect x="45" y="165" width="150" height="5" rx="1" fill="#2A2F3A"/>
+  
+  <!-- Board Member Character (The Director) -->
+  <circle cx="120" cy="90" r="25" fill="#FFB86C"/>
+  <rect x="105" y="115" width="30" height="40" rx="5" fill="#FFB86C"/>
+  <path d="M95 115h50l-5 35h-40z" fill="#44475A"/>
+  
+  <!-- Tie -->
+  <path d="M117 125l3 15l3-15z" fill="#FF79C6"/>
+  
+  <!-- Document/Decision Paper -->
+  <rect x="135" y="130" width="30" height="40" rx="2" fill="#F8F8F2"/>
+  <rect x="140" y="135" width="20" height="3" rx="1" fill="#1A1D24"/>
+  <rect x="140" y="142" width="20" height="3" rx="1" fill="#1A1D24"/>
+  <rect x="140" y="149" width="10" height="3" rx="1" fill="#1A1D24"/>
+  
+  <!-- Supporting Board Members (Abstracted silhouettes) -->
+  <circle cx="60" cy="110" r="15" fill="#6272A4"/>
+  <rect x="50" y="125" width="20" height="30" rx="3" fill="#6272A4"/>
+  
+  <circle cx="180" cy="110" r="15" fill="#6272A4"/>
+  <rect x="170" y="125" width="20" height="30" rx="3" fill="#6272A4"/>
+  
+  <!-- Decorative elements for professional setting -->
+  <circle cx="120" cy="190" r="3" fill="#FFB86C"/>
+  <circle cx="130" cy="190" r="3" fill="#FFB86C"/>
+  <circle cx="110" cy="190" r="3" fill="#FFB86C"/>
+</svg>

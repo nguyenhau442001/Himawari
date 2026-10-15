@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person walking against the wind -->
+  <g transform="translate(120, 140)">
+    <!-- Legs -->
+    <path d="M-10 0 L-20 40 M10 0 L20 40" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round"/>
+    <!-- Body -->
+    <path d="M0 0 L0 -50" stroke="#E0E0E0" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="-65" r="12" fill="#E0E0E0"/>
+    <!-- Scarf/Covering -->
+    <path d="M-12 -60 L-30 -45" stroke="#FFB300" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sandstorm particles -->
+  <g fill="#FFB300" opacity="0.8">
+    <circle cx="40" cy="80" r="3"/>
+    <circle cx="60" cy="110" r="2"/>
+    <circle cx="80" cy="60" r="4"/>
+    <circle cx="150" cy="90" r="3"/>
+    <circle cx="180" cy="120" r="2"/>
+    <circle cx="200" cy="70" r="3"/>
+    <circle cx="120" cy="40" r="5"/>
+    <circle cx="30" cy="150" r="2"/>
+  </g>
+
+  <!-- Wind streaks -->
+  <path d="M20 70 Q60 60 100 70" stroke="#FFB300" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M140 90 Q180 80 220 90" stroke="#FFB300" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M50 120 Q100 110 150 120" stroke="#FFB300" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Ground line -->
+  <path d="M20 180 L220 180" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+</svg>

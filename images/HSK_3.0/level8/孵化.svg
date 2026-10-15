@@ -1,0 +1,30 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 120)">
+    <!-- Nest base (physical object representing 孵化 / incubation container) -->
+    <path d="M -60 20 Q 0 60 60 20 Q 75 5 50 -10 Q 0 5 -50 -10 Q -75 5 -60 20 Z" fill="#3E2723"/>
+    <path d="M -50 22 Q 0 55 50 22 C 35 42 -35 42 -50 22 Z" fill="#5D4037"/>
+    <path d="M -40 25 C -20 40 20 40 40 25 C 25 35 -25 35 -40 25 Z" fill="#795548"/>
+    
+    <!-- Warm nesting fluff inside -->
+    <path d="M -35 15 Q 0 35 35 15 Q 0 25 -35 15 Z" fill="#8D6E63"/>
+
+    <!-- Eggs being incubated (central physical objects) -->
+    <!-- Left egg -->
+    <ellipse cx="-18" cy="2" rx="14" ry="18" fill="#ECEFF1" transform="rotate(-15 -18 2)"/>
+    <!-- Right egg -->
+    <ellipse cx="18" cy="2" rx="14" ry="18" fill="#ECEFF1" transform="rotate(15 18 2)"/>
+    <!-- Center front egg with hatching crack -->
+    <ellipse cx="0" cy="-6" rx="15" ry="20" fill="#F5F5F5"/>
+    <path d="M -4 -12 L 0 -8 L 4 -14 L 2 -4 L 6 0" fill="none" stroke="#B0BEC5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Gentle warmth / brooding aura rays -->
+    <path d="M 0 -35 L 0 -48" stroke="#FFB74D" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M -25 -28 L -35 -38" stroke="#FFB74D" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 25 -28 L 35 -38" stroke="#FFB74D" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- Soft glowing warmth halo behind nest -->
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#FFB74D" stroke-width="2" opacity="0.3" stroke-dasharray="4 4"/>
+  </g>
+</svg>

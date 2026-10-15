@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Market/Economic representation: A stylized upward trend line graph -->
+  <path d="M60 180 L120 140 L180 80" stroke="#5D6D7E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Intervention: A strong, distinct hand (the government/authority) placing a firm, stabilizing block -->
+  <!-- The hand -->
+  <path d="M110 160 C110 140 120 130 130 130 C140 130 150 140 150 160 L150 190 C150 200 140 200 140 200 L120 200 C120 200 110 200 110 190 Z" fill="#F39C12"/>
+  <path d="M120 130 L120 110 C120 100 130 100 130 100 L140 100 C140 100 150 100 150 110 L150 130" fill="#F39C12"/>
+  
+  <!-- The stabilizing block (the intervention) -->
+  <rect x="105" y="110" width="30" height="20" rx="2" fill="#E67E22"/>
+  
+  <!-- The point of intervention on the graph -->
+  <circle cx="120" cy="140" r="8" fill="#F39C12"/>
+</svg>

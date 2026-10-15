@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Fish Body -->
+  <path d="M60 120 C 60 90, 100 80, 140 80 C 170 80, 190 100, 190 120 C 190 140, 170 160, 140 160 C 100 160, 60 150, 60 120 Z" fill="#3A4A5A"/>
+  <path d="M180 120 L 210 100 L 210 140 Z" fill="#3A4A5A"/>
+  
+  <!-- Representing "Rich in/Full of" (富含) via scale exaggeration of nutrients -->
+  <!-- Nutrient particles (Omega-3 fatty acids represented as glowing gold spheres) -->
+  <circle cx="90" cy="100" r="8" fill="#FFB800"/>
+  <circle cx="110" cy="130" r="10" fill="#FFB800"/>
+  <circle cx="130" cy="95" r="12" fill="#FFB800"/>
+  <circle cx="150" cy="125" r="14" fill="#FFB800"/>
+  <circle cx="170" cy="105" r="9" fill="#FFB800"/>
+  <circle cx="120" cy="115" r="7" fill="#FFB800"/>
+  <circle cx="145" cy="145" r="6" fill="#FFB800"/>
+  <circle cx="100" cy="140" r="5" fill="#FFB800"/>
+  <circle cx="165" cy="140" r="8" fill="#FFB800"/>
+  
+  <!-- Highlighting the abundance/density -->
+  <circle cx="135" cy="120" r="4" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="155" cy="100" r="3" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="115" cy="95" r="3" fill="#FFFFFF" opacity="0.3"/>
+</svg>

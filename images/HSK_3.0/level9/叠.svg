@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full-bleed background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/ambient light -->
+  <circle cx="120" cy="120" r="80" fill="#242B38" opacity="0.5"/>
+
+  <!-- Conceptual illustration for "叠" (Folding/Stacked Quilt - "豆腐块" military blanket) -->
+  <g transform="translate(0, 5)">
+    <!-- Shadow beneath the blanket block -->
+    <ellipse cx="120" cy="180" rx="65" ry="16" fill="#111318"/>
+
+    <!-- Bottom/Back folds of the tightly folded military blanket -->
+    <!-- Dark olive/khaki military color palette with sharp geometric flat planes -->
+    <path d="M 65 145 L 120 165 L 175 145 L 175 165 L 120 185 L 65 165 Z" fill="#3D4A3A"/>
+    <path d="M 65 125 L 120 145 L 175 125 L 175 145 L 120 165 L 65 145 Z" fill="#4C5C48"/>
+
+    <!-- Main Front Face (Sharp "tofu block" cube structure representing folding/dié) -->
+    <path d="M 65 95 L 120 115 L 120 165 L 65 145 Z" fill="#5A6D56"/>
+    <path d="M 120 115 L 175 95 L 175 145 L 120 165 Z" fill="#6B8065"/>
+
+    <!-- Top Face (Crisp, perfectly ironed flat surface) -->
+    <path d="M 120 75 L 175 95 L 120 115 L 65 95 Z" fill="#7E9675"/>
+
+    <!-- Sharp crease lines and highlights emphasizing precision folding (叠) -->
+    <!-- Center vertical crease -->
+    <line x1="120" y1="115" x2="120" y2="165" stroke="#485644" stroke-width="2"/>
+    
+    <!-- Crisp edge highlights -->
+    <polyline points="65,95 120,115 175,95" fill="none" stroke="#9AB391" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="120" y1="115" x2="120" y2="165" stroke="#485644" stroke-width="1.5"/>
+
+    <!-- Focus accent: Gold/Orange precision alignment indicator (sleek flat design badge framing the concept) -->
+    <path d="M 95 62 L 145 62" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <polyline points="100,56 95,62 100,68" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="140,56 145,62 140,68" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

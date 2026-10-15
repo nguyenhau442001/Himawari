@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Gentle Sun (日丽) -->
+    <circle cx="120" cy="100" r="32" fill="#FFB74D" opacity="0.9"/>
+    
+    <!-- Sun Rays / Warm Light -->
+    <path d="M120 54 L120 44" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 156 L120 146" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M74 100 L64 100" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M176 100 L166 100" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M87 67 L80 60" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M153 133 L160 140" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M153 67 L160 60" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M87 133 L80 140" stroke="#FFD54F" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Gentle Bounding Wind / Air Currents (风和) -->
+    <path d="M50 130 C70 130, 80 120, 95 120 C110 120, 115 130, 135 130 C155 130, 165 120, 185 120" stroke="#64B5F6" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M35 160 C55 160, 65 150, 80 150 C95 150, 105 160, 125 160 C145 160, 160 150, 190 150" stroke="#64B5F6" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M70 85 C80 85, 90 75, 105 75" stroke="#64B5F6" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+    <!-- Calm Minimalist Landscape Elements (Scenic outdoors representing the context) -->
+    <!-- Rolling Hills / Meadow -->
+    <path d="M20 190 C70 170, 170 170, 220 190 L220 220 L20 220 Z" fill="#2E7D32" opacity="0.85"/>
+    <path d="M20 200 C80 180, 160 185, 220 200 L220 220 L20 220 Z" fill="#388E3C"/>
+
+    <!-- Small stylized outdoor picnic tent (representing the picnic context) -->
+    <polygon points="120,155 100,195 140,195" fill="#E0E0E0"/>
+    <polygon points="120,155 120,195 140,195" fill="#BDBDBD"/>
+    <polygon points="120,165 110,195 130,195" fill="#EF5350"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Document/Report Folder representing the "Overview" -->
+  <path d="M60 70h120v110H60z" fill="#2D343E" stroke="#FFB84D" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 70h40v20h-40z" fill="#FFB84D"/>
+  
+  <!-- Summary lines representing the content of the report -->
+  <rect x="80" y="110" width="80" height="6" rx="3" fill="#A0AEC0"/>
+  <rect x="80" y="125" width="80" height="6" rx="3" fill="#A0AEC0"/>
+  <rect x="80" y="140" width="60" height="6" rx="3" fill="#A0AEC0"/>
+  
+  <!-- Magnifying glass focusing on the report -->
+  <circle cx="145" cy="145" r="25" fill="none" stroke="#FFB84D" stroke-width="4"/>
+  <path d="M162 162l20 20" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+</svg>

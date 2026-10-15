@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Motion impact lines / Sound effect waves (denoting a loud slap) -->
+  <g opacity="0.6">
+    <path d="M 50 100 C 65 90, 75 90, 90 100" stroke="#FFB800" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 40 120 C 60 105, 80 105, 100 120" stroke="#FF5722" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M 50 140 C 65 150, 75 150, 90 140" stroke="#FFB800" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Dynamic Impact Starburst / Flash -->
+  <g transform="translate(115, 115)">
+    <polygon points="0,-25 6,-6 25,0 6,6 0,25 -6,6 -25,0 -6,-6" fill="#FFC107"/>
+    <polygon points="12,-12 18,-3 3,0 18,3 12,12 3,3 0,18 -3,3" fill="#FF5722" transform="rotate(25)" />
+  </g>
+
+  <!-- Receiving Face (Profile facing right) -->
+  <g id="receiving-head">
+    <!-- Neck -->
+    <path d="M 160 160 L 160 190 L 130 190 L 130 160" fill="#2C323D"/>
+    <!-- Head base / Back of head -->
+    <path d="M 120 70 C 160 70, 175 100, 175 130 C 175 160, 150 170, 130 170 C 120 170, 115 160, 115 140 Z" fill="#3E4656"/>
+    <!-- Face profile -->
+    <path d="M 120 70 C 145 70, 155 90, 155 120 C 155 135, 150 150, 135 160 C 125 167, 115 160, 115 145 C 115 135, 125 125, 125 120 C 125 115, 118 110, 118 100 C 118 90, 120 70, 120 70 Z" fill="#505A6E"/>
+    <!-- Ear -->
+    <path d="M 145 110 C 152 110, 155 120, 150 130 C 146 138, 142 135, 140 125" fill="#3E4656"/>
+    <!-- Eye closed in impact -->
+    <path d="M 132 102 Q 138 107 144 102" stroke="#2C323D" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Slapping Hand (Striking from left to right) -->
+  <g id="slapping-hand">
+    <!-- Forearm -->
+    <path d="M 30 110 L 90 110 L 90 150 L 30 150 Z" fill="#FFA726" transform="rotate(-15, 90, 130)"/>
+    <!-- Palm & Fingers -->
+    <path d="M 85 95 C 110 95, 125 105, 130 120 C 135 135, 115 145, 95 145 C 80 145, 75 130, 85 95 Z" fill="#FFB74D"/>
+    <!-- Thumb -->
+    <path d="M 90 110 C 100 105, 110 115, 105 125 C 100 130, 95 125, 90 120 Z" fill="#FFA726"/>
+    <!-- Motion blur trail for hand -->
+    <path d="M 50 100 L 90 100 L 90 140 L 50 140 Z" fill="#FF9800" opacity="0.3" rx="10"/>
+  </g>
+</svg>

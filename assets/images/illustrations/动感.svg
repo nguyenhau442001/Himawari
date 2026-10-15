@@ -1,0 +1,15 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 40)">
+    <!-- Dancer silhouette in a dynamic pose -->
+    <path d="M80 160 C 90 140, 100 120, 90 100 C 80 80, 60 70, 50 90 L 30 70 L 50 50 L 70 60 C 90 40, 120 40, 140 60 L 160 40 L 180 60 L 150 90 C 140 110, 130 130, 120 150 L 100 160 Z" fill="#FFB800"/>
+    <!-- Motion lines to emphasize "动感" -->
+    <path d="M20 100 Q 40 80, 60 100" stroke="#FFB800" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M140 50 Q 160 30, 180 50" stroke="#FFB800" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M120 160 Q 140 180, 160 160" stroke="#FFB800" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Musical note accents -->
+    <path d="M170 80 C 175 70, 185 70, 185 80 L 185 110 C 185 120, 175 120, 170 110 Z" fill="#FFB800"/>
+    <circle cx="165" cy="110" r="5" fill="#FFB800"/>
+    <path d="M185 80 L 200 75 L 200 95" stroke="#FFB800" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

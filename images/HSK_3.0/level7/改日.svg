@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Calendar Body -->
+    <rect x="60" y="50" width="120" height="130" rx="12" fill="#262B35" stroke="#3A4252" stroke-width="3"/>
+    
+    <!-- Calendar Header -->
+    <path d="M 60 62 C 60 55.3726 65.3726 50 72 50 L 168 50 C 174.627 50 180 55.3726 180 62 L 180 85 L 60 85 Z" fill="#E67E22"/>
+    
+    <!-- Binding Rings -->
+    <rect x="85" y="38" width="10" height="20" rx="5" fill="#A6ACBE"/>
+    <rect x="145" y="38" width="10" height="20" rx="5" fill="#A6ACBE"/>
+    
+    <!-- Calendar Grid / Days -->
+    <rect x="75" y="100" width="20" height="15" rx="3" fill="#3A4252"/>
+    <rect x="110" y="100" width="20" height="15" rx="3" fill="#3A4252"/>
+    <rect x="145" y="100" width="20" height="15" rx="3" fill="#3A4252"/>
+    
+    <rect x="75" y="125" width="20" height="15" rx="3" fill="#3A4252"/>
+    <!-- Highlighted "Other Day" / Target Day -->
+    <rect x="110" y="125" width="20" height="15" rx="3" fill="#E67E22"/>
+    <rect x="145" y="125" width="20" height="15" rx="3" fill="#3A4252"/>
+    
+    <rect x="75" y="150" width="20" height="15" rx="3" fill="#3A4252"/>
+    <rect x="110" y="150" width="20" height="15" rx="3" fill="#3A4252"/>
+    <rect x="145" y="150" width="20" height="15" rx="3" fill="#3A4252"/>
+
+    <!-- Curved Arrow indicating shifting to another day -->
+    <path d="M 155 105 C 185 105, 185 155, 135 155" fill="none" stroke="#E67E22" stroke-width="4" stroke-dasharray="4 4" stroke-linecap="round"/>
+    <path d="M 142 148 L 132 155 L 142 162" fill="none" stroke="#E67E22" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

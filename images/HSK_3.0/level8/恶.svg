@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Visualization for "恶" (Adjective: evil, malicious, wicked) -->
+  <!-- Visual Contrast Rule: Using scale exaggeration and contrasting elements (small vulnerable pure light vs massive looming sharp dark silhouette) to represent the quality of malice/evil. -->
+
+  <!-- Background subtle aura/contrast -->
+  <circle cx="120" cy="120" r="80" fill="#251A22" opacity="0.6"/>
+
+  <!-- Malicious / Wicked Presence (Large, sharp, angular shadowy figure looming) -->
+  <g opacity="0.9">
+    <!-- Ominous sharp spiky shadow/cloak -->
+    <path d="M 120 40 
+             Q 150 70 170 100
+             Q 190 140 185 180
+             Q 150 190 120 185
+             Q 90 190 55 180
+             Q 50 140 70 100
+             Q 90 70 120 40 Z" 
+          fill="#2D1522" stroke="#FF453A" stroke-width="1.5" stroke-opacity="0.4"/>
+    
+    <!-- Sharp, jagged claw-like or thorny projections emphasizing "恶" (wickedness/harm) -->
+    <path d="M 65 110 L 40 95 L 60 130 Z" fill="#2D1522" stroke="#FF453A" stroke-width="1.5" stroke-opacity="0.5"/>
+    <path d="M 175 110 L 200 95 L 180 130 Z" fill="#2D1522" stroke="#FF453A" stroke-width="1.5" stroke-opacity="0.5"/>
+    <path d="M 75 150 L 45 155 L 70 170 Z" fill="#2D1522" stroke="#FF453A" stroke-width="1.5" stroke-opacity="0.5"/>
+    <path d="M 165 150 L 195 155 L 170 170 Z" fill="#2D1522" stroke="#FF453A" stroke-width="1.5" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Ominous Eyes / Glare (representing malicious intent) -->
+  <g fill="#FF453A">
+    <polygon points="95,95 105,97 95,103"/>
+    <polygon points="145,95 135,97 145,103"/>
+  </g>
+
+  <!-- Central Core / Vulnerable Pure Entity (representing the opposite/the soul tested by evil, maintaining contrast in scale) -->
+  <g transform="translate(0, 15)">
+    <!-- Protective/Resilient subtle aura -->
+    <circle cx="120" cy="110" r="24" fill="#1A1D24" stroke="#FF9F0A" stroke-width="2" stroke-dasharray="4 3"/>
+
+    <!-- Small upright human figure / pure heart core -->
+    <!-- Head -->
+    <circle cx="120" cy="98" r="8" fill="#E2E8F0"/>
+    <!-- Body -->
+    <path d="M 112 110 Q 120 108 128 110 L 132 128 Q 120 132 108 128 Z" fill="#3B82F6"/>
+    <!-- Gentle upward stance / facing away from corruption -->
+    <path d="M 116 128 L 113 144 M 124 128 L 127 144" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sharp warning/discord accents (Highlighting the destructive nature of "恶") -->
+  <path d="M 100 65 L 108 75 L 102 78" fill="none" stroke="#FF453A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 140 65 L 132 75 L 138 78" fill="none" stroke="#FF453A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Ground barrier / boundary line -->
+  <line x1="70" y1="180" x2="170" y2="180" stroke="#FF453A" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="85" y1="186" x2="155" y2="186" stroke="#FF9F0A" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+</svg>

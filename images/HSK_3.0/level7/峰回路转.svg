@@ -1,0 +1,27 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Mountain Background Silhouette -->
+    <path d="M20 180 L80 110 L130 150 L180 80 L220 180 Z" fill="#242833"/>
+    
+    <!-- Winding Mountain Road (Fēnghuí-lùzhuǎn: Mountain turns, road twists) -->
+    <!-- Dead end / dark lower phase -->
+    <path d="M 60 180 C 60 160, 100 160, 100 140 C 100 120, 70 110, 70 90" fill="none" stroke="#3A4252" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- The turning point / bright breakthrough phase (Gold accent) -->
+    <path d="M 70 90 C 70 70, 130 60, 150 90 C 170 120, 130 140, 170 160 C 190 170, 200 150, 210 130" fill="none" stroke="#F5A623" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Glowing directional indicator of breakthrough at the turning point -->
+    <circle cx="150" cy="90" r="12" fill="#1A1D24"/>
+    <circle cx="150" cy="90" r="8" fill="#F5A623"/>
+    
+    <!-- Small traveler/explorer figure reaching the turning point -->
+    <circle cx="112" cy="74" r="5" fill="#E2E8F0"/>
+    <path d="M 112 80 L 112 88 M 112 83 L 108 86 M 112 83 L 116 86" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Bright glowing sun / beacon representing hope/turnaround -->
+    <circle cx="180" cy="50" r="16" fill="#F5A623" opacity="0.2"/>
+    <circle cx="180" cy="50" r="10" fill="#F5A623"/>
+  </g>
+</svg>

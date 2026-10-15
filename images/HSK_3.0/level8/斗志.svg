@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background stadium lighting effect -->
+  <circle cx="120" cy="120" r="90" fill="#222732" opacity="0.5"/>
+  <path d="M60 190 L120 70 L180 190 Z" fill="#2A303C" opacity="0.2"/>
+
+  <!-- Conceptual Representation for "斗志" (Fighting spirit / Combat morale) -->
+  <!-- Central Physical Object: A sleek, modern glowing sports trophy and upward-thrusting energy flame representing relentless competitive spirit -->
+  
+  <g transform="translate(0, 5)">
+    <!-- Base of the trophy -->
+    <path d="M95 180 L145 180 L135 160 L105 160 Z" fill="#3E4451"/>
+    <rect x="90" y="180" width="60" height="10" rx="3" fill="#5C6370"/>
+    
+    <!-- Stem -->
+    <rect x="112" y="135" width="16" height="25" fill="#3E4451"/>
+
+    <!-- Trophy Cup (Chalice) -->
+    <path d="M85 75 C85 75 90 125 120 135 C150 125 155 75 155 75 Z" fill="#E5C07B"/>
+    <!-- Trophy Inner Shadow / Depth -->
+    <path d="M90 75 C90 75 95 115 120 123 C145 115 150 75 150 75 Z" fill="#D19A66"/>
+    
+    <!-- Handles -->
+    <path d="M87 82 C70 82 70 105 88 115" fill="none" stroke="#E5C07B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M153 82 C170 82 170 105 152 115" fill="none" stroke="#E5C07B" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Upward Fighting Spirit Flame / Momentum bursting from the trophy -->
+    <!-- Central fierce flame shape -->
+    <path d="M120 40 C120 40 105 60 105 75 C105 85 112 95 120 95 C128 95 135 85 135 75 C135 60 120 40 120 40 Z" fill="#FF5555"/>
+    <path d="M120 20 C120 20 95 45 95 70 C95 88 107 105 120 110 C133 105 145 88 145 70 C145 45 120 20 120 20 Z" fill="#FF8800" opacity="0.8"/>
+    
+    <!-- Inner bright core flame -->
+    <path d="M120 45 C120 45 110 65 110 78 C110 88 115 95 120 98 C125 95 130 88 130 78 C130 65 120 45 120 45 Z" fill="#FFD700"/>
+
+    <!-- Dynamic energy sparks/shards representing high morale and drive -->
+    <circle cx="80" cy="55" r="3" fill="#FFD700"/>
+    <circle cx="160" cy="55" r="3" fill="#FFD700"/>
+    <circle cx="70" cy="95" r="2" fill="#FF8800"/>
+    <circle cx="170" cy="95" r="2" fill="#FF8800"/>
+    
+    <!-- Upward directional motion chevrons -->
+    <path d="M110 16 L120 6 L130 16" fill="none" stroke="#FFD700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M112 28 L120 20 L128 28" fill="none" stroke="#FF5555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  </g>
+</svg>

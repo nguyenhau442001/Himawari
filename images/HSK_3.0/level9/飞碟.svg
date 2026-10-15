@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle cosmic background elements -->
+  <circle cx="50" cy="60" r="1" fill="#4A5568" opacity="0.6"/>
+  <circle cx="190" cy="50" r="1.5" fill="#4A5568" opacity="0.8"/>
+  <circle cx="210" cy="180" r="1" fill="#4A5568" opacity="0.5"/>
+  <circle cx="40" cy="190" r="1.5" fill="#4A5568" opacity="0.7"/>
+  <circle cx="120" cy="40" r="1" fill="#4A5568" opacity="0.4"/>
+  
+  <!-- Descending light beam / tractor beam -->
+  <polygon points="90,115 150,115 185,200 55,200" fill="#38BDF8" opacity="0.12"/>
+  <polygon points="102,115 138,115 160,200 80,200" fill="#38BDF8" opacity="0.18"/>
+
+  <!-- Saucer Body (飞碟) -->
+  <!-- Bottom Dome / Engine -->
+  <ellipse cx="120" cy="115" rx="28" ry="8" fill="#64748B"/>
+  <ellipse cx="120" cy="113" rx="26" ry="6" fill="#94A3B8"/>
+
+  <!-- Main Hull Rim -->
+  <ellipse cx="120" cy="105" rx="65" ry="14" fill="#334155"/>
+  <ellipse cx="120" cy="102" rx="65" ry="13" fill="#E2E8F0"/>
+  
+  <!-- Rim Metallic Edge / Trim -->
+  <ellipse cx="120" cy="104" rx="63" ry="10" fill="#CBD5E1"/>
+
+  <!-- Glowing lights along the rim -->
+  <circle cx="90" cy="106" r="2" fill="#38BDF8"/>
+  <circle cx="105" cy="108" r="2" fill="#38BDF8"/>
+  <circle cx="120" cy="109" r="2.5" fill="#38BDF8"/>
+  <circle cx="135" cy="108" r="2" fill="#38BDF8"/>
+  <circle cx="150" cy="106" r="2" fill="#38BDF8"/>
+  
+  <circle cx="75" cy="104" r="1.5" fill="#38BDF8" opacity="0.7"/>
+  <circle cx="165" cy="104" r="1.5" fill="#38BDF8" opacity="0.7"/>
+
+  <!-- Top Cockpit Dome -->
+  <path d="M 95 102 C 95 80, 145 80, 145 102 Z" fill="#0EA5E9" opacity="0.4"/>
+  <path d="M 97 102 C 97 83, 143 83, 143 102 Z" fill="#38BDF8" opacity="0.7"/>
+  
+  <!-- Cockpit Glass Reflection -->
+  <path d="M 108 92 Q 115 86, 125 87" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Underside Energy Glow -->
+  <ellipse cx="120" cy="118" rx="18" ry="3" fill="#38BDF8" opacity="0.9"/>
+</svg>

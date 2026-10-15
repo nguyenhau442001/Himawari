@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "改邪归正" (Turning over a new leaf / Returning to the right path) -->
+  <g transform="translate(0, 0)">
+    <!-- Ambient glow for path transition -->
+    <path d="M120 185 L120 65" stroke="#2D3748" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- The Diverging / Corrected Path -->
+    <!-- Dark/Shadowy path turning away (Left, faded) -->
+    <path d="M120 180 Q80 140 60 90" fill="none" stroke="#4A5568" stroke-width="4" stroke-dasharray="4 4" opacity="0.5"/>
+    
+    <!-- Bright/Righteous path leading upward (Center/Right, glowing gold) -->
+    <path d="M120 190 L120 50" fill="none" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+    <path d="M120 50 L108 65 M120 50 L132 65" fill="none" stroke="#F6AD55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Central Character symbol representing the person reforming -->
+    <g transform="translate(120, 115)">
+      <!-- Outer aura representing renewal -->
+      <circle cx="0" cy="0" r="32" fill="#2D3748" opacity="0.6"/>
+      <circle cx="0" cy="0" r="26" fill="#1A1D24"/>
+      
+      <!-- Person icon (modern flat style) -->
+      <!-- Head -->
+      <circle cx="0" cy="-8" r="8" fill="#E2E8F0"/>
+      <!-- Body/Torso facing forward onto the straight path -->
+      <path d="M-12 14 C-12 5, -6 2, 0 2 C6 2, 12 5, 12 14" fill="#E2E8F0"/>
+    </g>
+
+    <!-- The "Turning" element: A dynamic directional arrow shifting from complex dark to bright gold -->
+    <g transform="translate(120, 145)">
+      <path d="M-25 15 Q-10 25 0 15 Q10 5 25 15" fill="none" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+      <path d="M18 10 L26 15 L20 21" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Star/Spark of enlightenment at the top -->
+    <g transform="translate(120, 32)">
+      <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="#F6AD55"/>
+    </g>
+  </g>
+</svg>

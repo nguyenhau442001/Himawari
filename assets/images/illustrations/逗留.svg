@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (Parisian cityscape silhouette in dark mode) -->
+  <path d="M20 200 L20 150 L35 150 L35 130 L40 120 L45 130 L45 150 L60 150 L60 180 L80 180 L80 110 L95 90 L110 110 L110 180 L130 180 L130 140 L140 135 L150 140 L150 180 L180 180 L180 160 L190 155 L200 160 L200 180 L220 180 L220 200 Z" fill="#242832" opacity="0.6"/>
+  <!-- Eiffel tower simplified vector -->
+  <path d="M95 90 L98 50 L102 50 L105 90 Z" fill="#242832" opacity="0.7"/>
+  <circle cx="100" cy="47" r="2" fill="#E5C07B" opacity="0.8"/>
+
+  <!-- Ground plane -->
+  <rect x="20" y="200" width="200" height="3" rx="1.5" fill="#3B4252"/>
+
+  <!-- Iconic Physical Object/Scene representing "逗留" (Temporary stay / stopping over with luggage and traveler) -->
+  <!-- Traveler figure (standing, pausing/stopping) -->
+  <!-- Body/Coat -->
+  <path d="M100 125 C95 125 90 135 90 150 L90 195 C90 198 92 200 95 200 L115 200 C118 200 120 198 120 195 L120 150 C120 135 115 125 110 125 Z" fill="#4C566A"/>
+  <!-- Head & Hair -->
+  <circle cx="105" cy="112" r="10" fill="#D8DEE9"/>
+  <path d="M97 108 C97 103 102 100 108 102 C112 103 113 108 113 110 Z" fill="#E5C07B"/>
+  <!-- Scarf -->
+  <path d="M96 122 Q105 128 114 122 Q110 132 100 130 Z" fill="#E5C07B"/>
+
+  <!-- Legs -->
+  <rect x="95" y="198" width="8" height="6" fill="#2E3440"/>
+  <rect x="107" y="198" width="8" height="6" fill="#2E3440"/>
+
+  <!-- Luggage (Suitcase representing travel/stay) -->
+  <!-- Suitcase body -->
+  <rect x="135" y="155" width="36" height="45" rx="6" fill="#D08770"/>
+  <!-- Suitcase handle & details -->
+  <path d="M147 155 L147 150 C147 148 149 146 151 146 L159 146 C161 146 163 148 163 150 L163 155" fill="none" stroke="#E5C07B" stroke-width="3" stroke-linecap="round"/>
+  <line x1="135" y1="170" x2="171" y2="170" stroke="#BF616A" stroke-width="3"/>
+  <rect x="149" y="178" width="8" height="6" rx="2" fill="#2E3440"/>
+  <!-- Wheels -->
+  <circle cx="143" cy="202" r="3" fill="#2E3440"/>
+  <circle cx="163" cy="202" r="3" fill="#2E3440"/>
+
+  <!-- Direction / Pause Indicator (Clock/Location marker fusion subtly indicating temporary stop) -->
+  <g transform="translate(105, 75)">
+    <!-- Location Pin Shape -->
+    <path d="M0 -15 C-8 -15 -14 -9 -14 -1 C-14 8 0 20 0 20 C0 20 14 8 14 -1 C14 -9 8 -15 0 -15 Z" fill="#E5C07B"/>
+    <!-- Inner circle / clock hand or dot -->
+    <circle cx="0" cy="-2" r="5" fill="#1A1D24"/>
+    <path d="M0 -5 L0 -2 L2 -2" fill="none" stroke="#E5C07B" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent visual motion lines/dots denoting a brief pause -->
+  <circle cx="70" cy="140" r="2" fill="#61AFEF" opacity="0.6"/>
+  <circle cx="62" cy="150" r="3.5" fill="#61AFEF" opacity="0.4"/>
+  <circle cx="50" cy="160" r="2" fill="#61AFEF" opacity="0.8"/>
+  <path d="M55 155 Q62 145 70 142" fill="none" stroke="#61AFEF" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7"/>
+
+</svg>

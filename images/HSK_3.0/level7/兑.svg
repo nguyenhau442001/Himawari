@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Exchange Counter Surface -->
+  <rect x="40" y="160" width="160" height="15" rx="4" fill="#3D4451"/>
+  
+  <!-- Left Pile: Currency A (Orange/Gold) -->
+  <rect x="60" y="145" width="40" height="15" rx="2" fill="#FFB84D"/>
+  <rect x="65" y="135" width="40" height="15" rx="2" fill="#FFB84D"/>
+  <rect x="70" y="125" width="40" height="15" rx="2" fill="#FFB84D"/>
+  
+  <!-- Right Pile: Currency B (Teal/Blue) -->
+  <rect x="140" y="145" width="40" height="15" rx="2" fill="#4DABFF"/>
+  <rect x="135" y="135" width="40" height="15" rx="2" fill="#4DABFF"/>
+  <rect x="130" y="125" width="40" height="15" rx="2" fill="#4DABFF"/>
+  
+  <!-- Exchange Arrows -->
+  <path d="M110 100 L130 100 L120 90 Z" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M130 110 L110 110 L120 120 Z" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Hand gesture indicating exchange -->
+  <path d="M100 150 C 100 140, 110 140, 110 150 L 110 160" stroke="#FFD580" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M130 150 C 130 140, 140 140, 140 150 L 140 160" stroke="#80C8FF" stroke-width="6" stroke-linecap="round" fill="none"/>
+</svg>

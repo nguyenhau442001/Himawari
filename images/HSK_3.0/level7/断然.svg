@@ -1,0 +1,22 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Shield / Boundary representing firm stance and refusal -->
+    <path d="M120 40 L170 60 V110 C170 145 148 175 120 190 C92 175 70 145 70 110 V60 Z" fill="#252A34" stroke="#3A4252" stroke-width="3"/>
+    
+    <!-- Bold energetic strike representing "duàn" (severing/breaking) and "rán" (resolute) -->
+    <path d="M75 80 L165 160" stroke="#FF5722" stroke-width="12" stroke-linecap="round"/>
+    <path d="M165 80 L75 160" stroke="#FF5722" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Central bold rejection symbol (sharp cross/barrier) in glowing gold/orange high contrast -->
+    <circle cx="120" cy="120" r="35" fill="#1A1D24" stroke="#FFC107" stroke-width="4"/>
+    
+    <!-- The physical barrier element (Raised resolute hand / stop gesture in sleek modern flat vector) -->
+    <path d="M105 135 V105 C105 100 115 100 115 105 V125" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    <path d="M115 130 V95 C115 90 125 90 125 95 V125" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    <path d="M125 130 V100 C125 95 135 95 135 100 V125" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    <path d="M135 135 V110 C135 105 145 105 145 110 V135 C145 150 135 155 120 155 C105 155 95 145 95 135" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

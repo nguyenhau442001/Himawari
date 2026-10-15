@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Deep background environment/ground line -->
+    <path d="M40 180 L200 180" stroke="#2A303C" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Roots gripping the ground (representing settling down, stability, roots) -->
+    <g stroke="#E5A93B" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M120 165 C 110 175, 95 170, 85 180"/>
+      <path d="M120 165 C 130 175, 145 170, 155 180"/>
+      <path d="M120 168 C 120 178, 120 175, 120 185"/>
+    </g>
+
+    <!-- Warm glowing hearth / Home icon (representing settled residence, homeland) -->
+    <g transform="translate(120, 110)">
+      <!-- House base / walls -->
+      <path d="M-45 20 L-45 55 L45 55 L45 20 Z" fill="#2E3748"/>
+      <path d="M-55 20 L55 20 L0 -25 Z" fill="#E5A93B"/>
+      
+      <!-- House interior warm glow / window -->
+      <rect x="-15" y="25" width="30" height="30" rx="4" fill="#1A1D24"/>
+      <rect x="-10" y="30" width="20" height="20" rx="2" fill="#F6C958" opacity="0.9"/>
+      
+      <!-- Warm chimney -->
+      <rect x="20" y="-12" width="10" height="20" fill="#D4962E"/>
+      <!-- Cozy smoke curls -->
+      <path d="M25 -15 C 25 -25, 35 -25, 35 -32" stroke="#8A99AD" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+    </g>
+
+    <!-- Compass / Anchor subtle integration representing final destination / rooted journey -->
+    <!-- Anchor base holding the house stable -->
+    <g transform="translate(120, 155)">
+      <circle cx="0" cy="-5" r="4" fill="none" stroke="#E5A93B" stroke-width="2"/>
+      <path d="M0 -1 L0 15" stroke="#E5A93B" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M-12 8 C -12 15, 12 15, 12 8" fill="none" stroke="#E5A93B" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Flukes -->
+      <path d="M-14 5 L-10 10" stroke="#E5A93B" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M14 5 L10 10" stroke="#E5A93B" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Ambient settled glowing aura -->
+    <circle cx="120" cy="115" r="75" fill="url(#glowGradient)" style="mix-blend-mode: screen;" pointer-events="none"/>
+    <defs>
+      <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#E5A93B" stop-opacity="0.15"/>
+        <stop offset="100%" stop-color="#1A1D24" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+  </g>
+</svg>

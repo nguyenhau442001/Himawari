@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Medical Clipboard representing the "check-up" -->
+  <rect x="70" y="50" width="100" height="130" rx="8" fill="#2D343E" stroke="#FFB84D" stroke-width="3"/>
+  <rect x="95" y="40" width="50" height="15" rx="4" fill="#FFB84D"/>
+  
+  <!-- Lines on the clipboard representing medical records -->
+  <line x1="90" y1="80" x2="150" y2="80" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="90" y1="100" x2="150" y2="100" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="90" y1="120" x2="130" y2="120" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Checkmark icon on the clipboard -->
+  <path d="M100 150 L115 165 L145 135" fill="none" stroke="#4CAF50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Stethoscope head resting on the clipboard -->
+  <circle cx="120" cy="190" r="25" fill="#2D343E" stroke="#FFB84D" stroke-width="4"/>
+  <circle cx="120" cy="190" r="12" fill="#FFB84D"/>
+  <path d="M120 165 L120 140" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+</svg>

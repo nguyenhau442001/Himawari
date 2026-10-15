@@ -1,0 +1,28 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle Background Grid/Aura for Context -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.5"/>
+  <path d="M70 120 L170 120" stroke="#303642" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M120 70 L120 170" stroke="#303642" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Defensive Shield (Symbol of Defense/Fángwèi) -->
+  <g transform="translate(120, 115)">
+    <!-- Outer Shield Glow / Rim -->
+    <path d="M0 -55 C35 -55 55 -35 55 -5 C55 35 25 55 0 65 C-25 55 -55 35 -55 -5 C-55 -35 -35 -55 0 -55 Z" fill="#222733"/>
+    
+    <!-- Main Shield Body -->
+    <path d="M0 -48 C30 -48 48 -30 48 -4 C48 30 22 48 0 57 C-22 48 -48 30 -48 -4 C-48 -30 -30 -48 0 -48 Z" fill="#2D3748" stroke="#3B82F6" stroke-width="3"/>
+
+    <!-- Inner Shield Accent / Focus -->
+    <path d="M0 -38 C23 -38 38 -23 38 -3 C38 23 17 38 0 45 C-17 38 -38 23 -38 -3 C-38 -23 -23 -38 0 -38 Z" fill="#1E293B"/>
+
+    <!-- Dynamic Check / Active Block Vector Element (Repelling Threat) -->
+    <!-- Upward/Outward Deflective Chevron -->
+    <path d="M-16 2 L-4 14 L18 -10" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Grounding Base Element -->
+  <ellipse cx="120" cy="195" rx="50" ry="6" fill="#111318"/>
+</svg>

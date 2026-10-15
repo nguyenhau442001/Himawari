@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Chessboard base -->
+  <rect x="60" y="140" width="120" height="20" rx="2" fill="#3D4451"/>
+  
+  <!-- Opponent (The winner, standing tall) -->
+  <g transform="translate(150, 130)">
+    <circle cx="0" cy="-40" r="15" fill="#FFC107"/>
+    <path d="M-15 -25 Q0 -10 15 -25 L10 40 L-10 40 Z" fill="#FFC107"/>
+    <rect x="-12" y="40" width="24" height="40" rx="4" fill="#E0E0E0"/>
+  </g>
+  
+  <!-- Protagonist (The one showing 'Fuqi' - bowing in respect) -->
+  <g transform="translate(90, 130)">
+    <circle cx="0" cy="-10" r="15" fill="#4FC3F7"/>
+    <path d="M-15 5 Q0 20 15 5 L25 30 L-25 30 Z" fill="#4FC3F7"/>
+    <!-- Bowing posture -->
+    <path d="M-20 30 L0 50 L20 30" stroke="#4FC3F7" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Chess piece on the board -->
+  <circle cx="120" cy="135" r="8" fill="#FF5722"/>
+  
+  <!-- Respectful gesture lines -->
+  <path d="M70 100 Q80 80 100 90" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M75 110 Q85 90 105 100" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

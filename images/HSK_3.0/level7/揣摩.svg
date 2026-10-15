@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow representing depth of thought -->
+  <circle cx="120" cy="120" r="80" fill="#2D3748" opacity="0.3"/>
+  
+  <!-- Central Physical Object: The Theatrical Mask representing the character's inner world / role -->
+  <!-- Back layer of the mask -->
+  <path d="M120 65 C92 65 75 90 75 120 C75 160 95 175 120 185 C145 175 165 160 165 120 C165 90 148 65 120 65 Z" fill="#2A3441" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Main Mask Body -->
+  <path d="M120 70 C96 70 80 92 80 120 C80 155 98 170 120 178 C142 170 160 155 160 120 C160 92 144 70 120 70 Z" fill="#323F4B" stroke="#F6AD55" stroke-width="2"/>
+  
+  <!-- Mask Eyes (Thoughtful, artistic expression) -->
+  <path d="M96 115 C102 110 110 112 114 118 C110 122 100 122 96 115 Z" fill="#1A1D24"/>
+  <path d="M144 115 C138 110 130 112 126 118 C130 122 140 122 144 115 Z" fill="#1A1D24"/>
+  
+  <!-- Mask Smile / Expression -->
+  <path d="M105 145 C115 152 125 152 135 145" fill="none" stroke="#F6AD55" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hands gently holding/shaping the mask (representing "chuaimo" - pondering, feeling out, contemplating deeply) -->
+  <!-- Left Hand -->
+  <path d="M55 150 C50 135 62 120 75 130 C82 135 85 145 80 155 C72 160 60 165 55 150 Z" fill="#E2E8F0"/>
+  <path d="M75 130 L90 135 L95 148 L80 155 Z" fill="#CBD5E0"/>
+
+  <!-- Right Hand -->
+  <path d="M185 150 C190 135 178 120 165 130 C158 135 155 145 160 155 C168 160 180 165 185 150 Z" fill="#E2E8F0"/>
+  <path d="M165 130 L150 135 L145 148 L160 155 Z" fill="#CBD5E0"/>
+
+  <!-- Focus / Contemplation Orbits (Warm analytical golden glow rings wrapping the mask) -->
+  <ellipse cx="120" cy="120" rx="55" ry="40" fill="none" stroke="#F6AD55" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
+  
+  <!-- Highlight accent nodes representing insights/breakdowns -->
+  <circle cx="120" cy="68" r="3" fill="#F6AD55"/>
+  <circle cx="68" cy="120" r="3" fill="#F6AD55"/>
+  <circle cx="172" cy="120" r="3" fill="#F6AD55"/>
+</svg>

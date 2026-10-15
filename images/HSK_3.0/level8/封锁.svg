@@ -1,0 +1,67 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Road Network Representation -->
+  <g opacity="0.3">
+    <!-- Vertical Road -->
+    <rect x="100" y="20" width="40" height="200" fill="#2D3748"/>
+    <line x1="120" y1="20" x2="120" y2="220" stroke="#718096" stroke-width="2" stroke-dasharray="6,6"/>
+    
+    <!-- Horizontal Road -->
+    <rect x="20" y="100" width="200" height="40" fill="#2D3748"/>
+    <line x1="20" y1="120" x2="220" y2="120" stroke="#718096" stroke-width="2" stroke-dasharray="6,6"/>
+  </g>
+
+  <!-- Warning Glow Effect -->
+  <circle cx="120" cy="120" r="70" fill="#E53E3E" opacity="0.1"/>
+
+  <!-- Traffic Barrier Structure (Phong tỏa / Road Blockade) -->
+  <!-- Diagonal stripes pattern/backing -->
+  <g>
+    <!-- Left Pillar -->
+    <rect x="75" y="95" width="12" height="50" rx="3" fill="#4A5568"/>
+    <rect x="77" y="100" width="8" height="40" fill="#A0AEC0"/>
+
+    <!-- Right Pillar -->
+    <rect x="153" y="95" width="12" height="50" rx="3" fill="#4A5568"/>
+    <rect x="155" y="100" width="8" height="40" fill="#A0AEC0"/>
+
+    <!-- Main Barrier Gate (Diagonal Warning Beams) -->
+    <g transform="translate(120, 120) rotate(-12) translate(-120, -120)">
+      <!-- Main bar shadow -->
+      <rect x="60" y="107" width="120" height="26" rx="4" fill="#1A1D24" opacity="0.5"/>
+      <!-- Main bar body -->
+      <rect x="60" y="105" width="120" height="26" rx="4" fill="#CBD5E0"/>
+      
+      <!-- Orange & White Stripes -->
+      <path d="M75 105 L90 105 L80 131 L65 131 Z" fill="#DD6B20"/>
+      <path d="M105 105 L120 105 L110 131 L95 131 Z" fill="#DD6B20"/>
+      <path d="M135 105 L150 105 L140 131 L125 131 Z" fill="#DD6B20"/>
+      <path d="M165 105 L175 105 L165 131 L155 131 Z" fill="#DD6B20"/>
+    </g>
+  </g>
+
+  <!-- Flashing Warning Lights (Emergency / 突发险情) -->
+  <g>
+    <!-- Left Light Base -->
+    <rect x="77" y="87" width="8" height="8" fill="#2D3748"/>
+    <!-- Left Light Glow -->
+    <circle cx="81" cy="83" r="10" fill="#F56565" opacity="0.3"/>
+    <!-- Left Light Dome -->
+    <path d="M76 87 C76 81, 86 81, 86 87 Z" fill="#FC8181"/>
+    <ellipse cx="81" cy="85" rx="3" ry="1.5" fill="#FFF"/>
+
+    <!-- Right Light Base -->
+    <rect x="155" y="87" width="8" height="8" fill="#2D3748"/>
+    <!-- Right Light Glow -->
+    <circle cx="159" cy="83" r="10" fill="#F56565" opacity="0.3"/>
+    <!-- Right Light Dome -->
+    <path d="M154 87 C154 81, 164 81, 164 87 Z" fill="#FC8181"/>
+    <ellipse cx="159" cy="85" rx="3" ry="1.5" fill="#FFF"/>
+  </g>
+
+  <!-- Accent Focus Elements (Modern Flat Details) -->
+  <circle cx="120" cy="50" r="4" fill="#DD6B20"/>
+  <circle cx="120" cy="190" r="4" fill="#DD6B20"/>
+</svg>

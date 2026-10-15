@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Chair -->
+  <path d="M70 180h100v15H70z" fill="#4A5568"/>
+  <path d="M80 120h80v60H80z" fill="#2D3748"/>
+  <path d="M80 120h10v60H80z" fill="#4A5568"/>
+  <path d="M150 120h10v60h-10z" fill="#4A5568"/>
+  
+  <!-- Character -->
+  <g transform="translate(120, 100)">
+    <!-- Body -->
+    <path d="M-30 80h60v30H-30z" fill="#718096"/>
+    <!-- Arms -->
+    <path d="M-40 90l-10 20M40 90l10 20" stroke="#718096" stroke-width="12" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="30" r="25" fill="#E2E8F0"/>
+    <!-- Eyes (Staring blankly) -->
+    <circle cx="-8" cy="25" r="3" fill="#1A1D24"/>
+    <circle cx="8" cy="25" r="3" fill="#1A1D24"/>
+    <!-- Mouth (Slightly open) -->
+    <ellipse cx="0" cy="40" rx="4" ry="2" fill="#1A1D24"/>
+    <!-- Hair -->
+    <path d="M-25 25c0-15 10-25 25-25s25 10 25 25" fill="#4A5568"/>
+  </g>
+  
+  <!-- Accent: "Shock" / Blank state aura (subtle) -->
+  <circle cx="120" cy="130" r="70" fill="none" stroke="#F6AD55" stroke-width="2" stroke-dasharray="4 8" opacity="0.4"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Document Base (Medical Record / Invoice Paperwork) -->
+    <rect x="75" y="45" width="90" height="115" rx="6" fill="#2E3440" stroke="#4C566A" stroke-width="2"/>
+    <rect x="85" y="55" width="70" height="95" rx="4" fill="#ECEFF4"/>
+    
+    <!-- Document Header / Hospital cross symbol -->
+    <circle cx="100" cy="75" r="8" fill="#E53935"/>
+    <rect x="98" y="71" width="4" height="8" fill="#FFFFFF"/>
+    <rect x="96" y="73" width="8" height="4" fill="#FFFFFF"/>
+    
+    <!-- Document text lines -->
+    <rect x="114" y="70" width="31" height="5" rx="2.5" fill="#D8DEE9"/>
+    <rect x="95" y="92" width="50" height="3" rx="1.5" fill="#D8DEE9"/>
+    <rect x="95" y="100" width="40" height="3" rx="1.5" fill="#D8DEE9"/>
+    <rect x="95" y="108" width="45" height="3" rx="1.5" fill="#D8DEE9"/>
+
+    <!-- Official Stamp (Issuing authority seal - representing "出具" / officially issued) -->
+    <circle cx="130" cy="123" r="14" fill="none" stroke="#E53935" stroke-width="2.5" stroke-dasharray="4,2"/>
+    <circle cx="130" cy="123" r="10" fill="none" stroke="#E53935" stroke-width="1"/>
+    <!-- Stamp star icon inside -->
+    <path d="M130 117 L131.5 120.5 L135 121 L132.5 123.5 L133 127 L130 125 L127 127 L127.5 123.5 L125 121 L128.5 120.5 Z" fill="#E53935"/>
+
+    <!-- Issuing Action: Professional Hand sliding / presenting the document forward -->
+    <!-- Arm and sleeve -->
+    <path d="M120 185 L180 185 C190 185, 195 175, 190 165 L170 145 Z" fill="#5E81AC"/>
+    <!-- Hand Palm & Fingers -->
+    <path d="M105 155 C100 155, 95 158, 92 163 L80 178 C78 181, 80 185, 84 185 L120 185 L125 170 C127 163, 120 155, 112 155 Z" fill="#EBCB8B"/>
+    <!-- Thumb supporting the document -->
+    <path d="M112 155 C116 153, 122 158, 120 163 C118 168, 110 170, 105 168 Z" fill="#D08770"/>
+
+    <!-- Focus Accent Glow / Highlight -->
+    <circle cx="120" cy="100" r="85" fill="none" stroke="#F6C445" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="8,6"/>
+  </g>
+</svg>

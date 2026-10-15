@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Smartphone Device -->
+  <rect x="85" y="60" width="70" height="120" rx="8" fill="#2D343E" stroke="#4A5568" stroke-width="2"/>
+  <rect x="90" y="70" width="60" height="90" rx="4" fill="#3D4754"/>
+  
+  <!-- Magazine/Content representation on screen -->
+  <rect x="98" y="80" width="44" height="8" rx="2" fill="#F39C12"/>
+  <rect x="98" y="95" width="44" height="4" rx="1" fill="#718096"/>
+  <rect x="98" y="105" width="30" height="4" rx="1" fill="#718096"/>
+  
+  <!-- Hand Action -->
+  <g>
+    <path d="M150 140 C 155 135, 165 130, 175 135 L 185 150 L 170 165 L 160 155 Z" fill="#FFD700"/>
+    <path d="M175 135 L 182 125 L 190 130 L 185 140" fill="#FFD700"/>
+  </g>
+  
+  <!-- Motion/Action lines for "Subscribing" -->
+  <path d="M155 120 L 165 110" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M165 115 L 175 105" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Confirmation checkmark appearing -->
+  <circle cx="120" cy="130" r="15" fill="#2D343E" stroke="#F39C12" stroke-width="3"/>
+  <path d="M110 130 L 117 137 L 132 122" fill="none" stroke="#F39C12" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

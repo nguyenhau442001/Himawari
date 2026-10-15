@@ -1,0 +1,27 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative pitch markings -->
+  <circle cx="120" cy="120" r="70" fill="none" stroke="#252A34" stroke-width="2"/>
+  <line x1="120" y1="50" x2="120" y2="190" stroke="#252A34" stroke-width="2"/>
+
+  <!-- Conceptual illustration: The Red Card (犯规 / foul / rule-breaking object) -->
+  
+  <!-- Motion / Action trails (dynamic angle) -->
+  <g transform="rotate(-15 120 120)">
+    <!-- Hand holding the card -->
+    <path d="M 95 180 L 110 180 L 115 145 L 90 145 Z" fill="#E59866"/>
+    <!-- Fingers wrapped around bottom of card -->
+    <rect x="90" y="140" width="35" height="12" rx="3" fill="#D35400"/>
+    
+    <!-- Red Card (Main focal point, bright red with crisp contrast) -->
+    <rect x="85" y="65" width="70" height="95" rx="6" fill="#FF3B30" stroke="#FFFFFF" stroke-width="3"/>
+    
+    <!-- Subtle glare effect on the card -->
+    <path d="M 90 70 L 120 70 L 105 130 L 90 130 Z" fill="#FFFFFF" opacity="0.15"/>
+  </g>
+
+  <!-- Ground shadow/spark effect for emphasis -->
+  <ellipse cx="120" cy="195" rx="40" ry="6" fill="#111318"/>
+</svg>

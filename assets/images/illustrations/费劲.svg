@@ -1,0 +1,46 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Rusty Brass Lock Body -->
+  <path d="M 85,115 L 155,115 C 163.8,115 171,122.2 171,131 L 171,195 C 171,203.8 163.8,211 155,211 L 85,211 C 76.2,211 69,203.8 69,195 L 69,131 C 69,122.2 76.2,115 85,115 Z" fill="#D4AF37"/>
+  
+  <!-- Lock Shackle (Heavy, metallic, slightly angled) -->
+  <path d="M 93,115 L 93,83 C 93,65.8 106.8,52 124,52 C 141.2,52 155,65.8 155,83 L 155,115" fill="none" stroke="#8C95A1" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 93,115 L 93,83 C 93,65.8 106.8,52 124,52 C 141.2,52 155,65.8 155,83 L 155,115" fill="none" stroke="#4A525D" stroke-width="16" stroke-linecap="round" stroke-dasharray="10 120" stroke-dashoffset="15"/>
+
+  <!-- Keyhole and Rust Details -->
+  <circle cx="120" cy="155" r="14" fill="#594614"/>
+  <path d="M 115,155 L 125,155 L 128,190 L 112,190 Z" fill="#594614"/>
+  
+  <!-- Rust Patches on Lock -->
+  <circle cx="85" cy="135" r="6" fill="#A8432A" opacity="0.85"/>
+  <circle cx="150" cy="180" r="9" fill="#A8432A" opacity="0.85"/>
+  <path d="M 135,120 Q 142,125 140,132 Q 138,139 130,135 Z" fill="#A8432A" opacity="0.85"/>
+  <circle cx="80" cy="195" r="5" fill="#A8432A" opacity="0.85"/>
+
+  <!-- Key inserted and being forced (Struggling action) -->
+  <g transform="translate(120, 150) rotate(-35)">
+    <!-- Key Handle -->
+    <rect x="-8" y="-55" width="16" height="30" rx="8" fill="#F0C419"/>
+    <circle cx="0" cy="-40" r="4" fill="#D4AF37"/>
+    <!-- Key Shaft -->
+    <rect x="-4" y="-30" width="8" height="40" fill="#F0C419"/>
+    <!-- Key Teeth -->
+    <path d="M 4,0 L 12,0 L 12,10 L 4,10 Z" fill="#F0C419"/>
+    <path d="M 4,16 L 10,16 L 10,24 L 4,24 Z" fill="#F0C419"/>
+  </g>
+
+  <!-- Physical Strain Indicator: Dynamic force lines and sweat drops representing "费劲" (tốn sức/khó khăn) -->
+  <!-- Strain Action Arcs -->
+  <path d="M 85,90 C 75,100 70,115 75,130" fill="none" stroke="#FF6B4A" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M 155,90 C 165,100 170,115 165,130" fill="none" stroke="#FF6B4A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sweat Drops (Effort) -->
+  <path d="M 148,65 C 148,65 154,73 154,77 C 154,80.3 151.3,83 148,83 C 144.7,83 142,80.3 142,77 C 142,73 148,65 148,65 Z" fill="#4DA6FF" opacity="0.9"/>
+  <path d="M 92,60 C 92,60 97,67 97,71 C 97,73.8 94.8,76 92,76 C 89.2,76 87,73.8 87,71 C 87,67 92,60 92,60 Z" fill="#4DA6FF" opacity="0.8"/>
+  
+  <!-- Highlighting the tension at the key interface -->
+  <circle cx="108" cy="138" r="4" fill="#FF6B4A" opacity="0.9"/>
+  <path d="M 102,132 L 107,137" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

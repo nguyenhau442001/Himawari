@@ -103,7 +103,6 @@ def mark_model_throttled(k_idx, model, is_daily=False, seconds=6):
             print(f"        [>>> PERMANENT DAILY LIMIT] Key #{k_idx+1} on {model} reached daily quota.", flush=True)
         else:
             MODEL_COOLDOWNS[(k_idx, model)] = time.time() + seconds
-            print(f"        [>>> RPM PAUSE] Key #{k_idx+1} on {model} rate-limited. Cooling down for {seconds}s...", flush=True)
 
 def load_hsk_pos_db():
     """Loads exact part of speech dictionary from word-illustrations.js."""
@@ -601,8 +600,8 @@ def git_commit_and_push(batch_count, level_label):
 def main():
     parser = argparse.ArgumentParser(description="Master batch generator & organizer for all HSK 2.0 & HSK 3.0 levels")
     parser.add_argument("--api-key", default="", help="Google AI Studio API Key (comma-separated or set in .api_key)")
-    parser.add_argument("--concurrency", type=int, default=6, help="Concurrent worker threads (default: 6 for maximum speed)")
-    parser.add_argument("--delay", type=float, default=1.0, help="Delay between requests in seconds (default: 1.0s)")
+    parser.add_argument("--concurrency", type=int, default=4, help="Concurrent worker threads (default: 4 for smooth pacing)")
+    parser.add_argument("--delay", type=float, default=1.5, help="Delay between requests in seconds (default: 1.5s)")
     parser.add_argument("--batch-size", type=int, default=50, help="Commit and push every N generated items (default: 50)")
     parser.add_argument("--only-organize", action="store_true", help="Only reorganize existing SVGs, build manifest & README without generating new SVGs")
     parser.add_argument("--target-level", default="all", help="Target specific level (e.g., 'level3', 'level5', 'level6', 'all')")

@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative subtle background grid/glow -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.5"/>
+
+  <!-- Central Physical Object representing "分发" (Distribution/Handing out supplies) -->
+  <!-- A cardboard supply box with fresh vegetables emerging, being handed or distributed -->
+  
+  <!-- Delivery/Supply Box (Base) -->
+  <path d="M75 130 L165 130 L180 180 L60 180 Z" fill="#D29034"/>
+  <!-- Box Front Flap -->
+  <path d="M60 180 L180 180 L165 195 L75 195 Z" fill="#B27522"/>
+  <!-- Box Inner Shadow -->
+  <path d="M75 130 L165 130 L155 145 L85 145 Z" fill="#9C6218"/>
+
+  <!-- Vegetables (Cabbage, Carrot, Leafy greens) sticking out of the box representing relief/aid package -->
+  <!-- Green Cabbage 1 -->
+  <circle cx="105" cy="115" r="22" fill="#52B788"/>
+  <circle cx="100" cy="110" r="16" fill="#74C69D"/>
+  
+  <!-- Green Cabbage 2 -->
+  <circle cx="140" cy="110" r="20" fill="#40916C"/>
+  <circle cx="145" cy="105" r="14" fill="#52B788"/>
+
+  <!-- Carrots sticking out -->
+  <path d="M115 110 L125 80 L132 82 L122 115 Z" fill="#F4A261"/>
+  <path d="M125 78 L128 72 M128 78 L132 74" stroke="#52B788" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M125 115 L145 85 L151 89 L131 118 Z" fill="#E76F51"/>
+  <path d="M145 83 L149 77 M148 83 L153 80" stroke="#52B788" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Leafy Greens (Bok choy style) -->
+  <path d="M85 120 C85 95 95 90 98 90 C101 90 105 95 105 120 Z" fill="#95D5B2"/>
+  
+  <!-- Distribution motion lines / Hands gesture implying handing out to community -->
+  <!-- Left Hand / Arm offering the package -->
+  <path d="M30 160 C40 155 55 158 65 165 C55 175 40 178 30 170 Z" fill="#E0A96D"/>
+  <!-- Right Hand / Arm receiving or guiding -->
+  <path d="M210 160 C200 155 185 158 175 165 C185 175 200 178 210 170 Z" fill="#E0A96D"/>
+
+  <!-- Directional arrows subtly indicating distribution outward to multiple recipients -->
+  <path d="M45 130 L25 120 L35 110" fill="none" stroke="#F4A261" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <path d="M195 130 L215 120 L205 110" fill="none" stroke="#F4A261" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  
+  <!-- Focus accent highlight -->
+  <circle cx="120" cy="155" r="3" fill="#FFE6A7"/>
+</svg>

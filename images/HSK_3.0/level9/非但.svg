@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient glow for upward momentum / escalation -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.6"/>
+
+  <g transform="translate(0, 0)">
+    <!-- Base platform / Anchor -->
+    <path d="M 80 180 L 160 180 L 170 190 L 70 190 Z" fill="#3A4454" opacity="0.8"/>
+    
+    <!-- Negative / Obstacle arrow (Downward strike being deflected or overridden) -->
+    <g opacity="0.4">
+      <path d="M 90 70 L 120 100 L 150 70" fill="none" stroke="#E06C75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="120" y1="50" x2="120" y2="100" stroke="#E06C75" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- The Pivot / Escalation mechanism (Physical object representing the leap beyond limits: A dynamic tiered booster / spring-lever assembly) -->
+    <!-- Lower stable mount -->
+    <rect x="100" y="150" width="40" height="20" rx="4" fill="#4B5563"/>
+    
+    <!-- Expanding energy / upward thrust rings -->
+    <ellipse cx="120" cy="140" rx="30" ry="8" fill="none" stroke="#61AFEF" stroke-width="3" opacity="0.4"/>
+    <ellipse cx="120" cy="120" rx="42" ry="11" fill="none" stroke="#61AFEF" stroke-width="3" opacity="0.7"/>
+
+    <!-- Main dynamic upward pillar (Core object: The Escalator/Booster Core) -->
+    <path d="M 108 150 L 100 90 L 140 90 L 132 150 Z" fill="#61AFEF"/>
+
+    <!-- High-intensity energetic core / Spark (representing "not only... but even more") -->
+    <circle cx="120" cy="90" r="18" fill="#E5C07B"/>
+    <circle cx="120" cy="90" r="10" fill="#FFFFFF"/>
+
+    <!-- Multiple powerful upward trajectory arrows (Surpassing expectations, compounding force) -->
+    <path d="M 105 55 L 120 30 L 135 55" fill="none" stroke="#E5C07B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 90 75 L 120 45 L 150 75" fill="none" stroke="#E5C07B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+    <!-- Floating upward momentum particles -->
+    <circle cx="85" cy="110" r="3" fill="#61AFEF"/>
+    <circle cx="155" cy="110" r="3" fill="#61AFEF"/>
+    <circle cx="95" cy="135" r="2" fill="#E5C07B"/>
+    <circle cx="145" cy="135" r="2" fill="#E5C07B"/>
+  </g>
+</svg>

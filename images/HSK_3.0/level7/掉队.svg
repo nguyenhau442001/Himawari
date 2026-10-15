@@ -1,0 +1,53 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background wilderness landscape -->
+  <path d="M0 160 L60 130 L120 150 L180 120 L240 140 L240 240 L0 240 Z" fill="#222831"/>
+  <path d="M0 180 L80 150 L160 170 L240 155 L240 240 L0 240 Z" fill="#161B22"/>
+
+  <!-- Group of hikers ahead (successful, together) -->
+  <g transform="translate(40, 50)">
+    <!-- Hiker 1 -->
+    <circle cx="20" cy="50" r="6" fill="#F1C40F"/>
+    <rect x="17" y="56" width="6" height="18" rx="3" fill="#E67E22"/>
+    <rect x="14" y="58" width="4" height="12" rx="2" fill="#D35400"/> <!-- backpack -->
+
+    <!-- Hiker 2 -->
+    <circle cx="45" cy="45" r="6" fill="#3498DB"/>
+    <rect x="42" y="51" width="6" height="18" rx="3" fill="#2980B9"/>
+    <rect x="39" y="53" width="4" height="12" rx="2" fill="#1F618D"/>
+
+    <!-- Hiker 3 -->
+    <circle cx="70" cy="52" r="6" fill="#2ECC71"/>
+    <rect x="67" y="58" width="6" height="18" rx="3" fill="#27AE60"/>
+    <rect x="64" y="60" width="4" height="12" rx="2" fill="#1E8449"/>
+  </g>
+
+  <!-- Dotted path showing separation/distance -->
+  <path d="M125 110 Q145 105 165 115" stroke="#E67E22" stroke-width="2" stroke-dasharray="3,4" fill="none" opacity="0.6"/>
+
+  <!-- The left-behind hiker (Diàoduì - 掉队) -->
+  <g transform="translate(160, 95)">
+    <!-- Distance indicator / small shadow -->
+    <ellipse cx="15" cy="45" rx="8" ry="3" fill="#0D1117" opacity="0.6"/>
+    
+    <!-- Hiker body -->
+    <circle cx="15" cy="15" r="7" fill="#E74C3C"/>
+    <rect x="11" y="22" width="8" height="20" rx="4" fill="#C0392B"/>
+    
+    <!-- Heavy backpack (symbolizing being weighed down or struggling) -->
+    <rect x="6" y="24" width="6" height="14" rx="2" fill="#7F8C8D"/>
+    
+    <!-- Hiking poles -->
+    <line x1="8" y1="30" x2="3" y2="44" stroke="#BDC3C7" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="22" y1="30" x2="27" y2="44" stroke="#BDC3C7" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Atmospheric elements (distant mountains & subtle glowing stars) -->
+  <polygon points="190,90 215,130 165,130" fill="#283342" opacity="0.5"/>
+  <polygon points="30,105 55,145 10,145" fill="#283342" opacity="0.4"/>
+  
+  <circle cx="80" cy="35" r="1" fill="#F1C40F" opacity="0.8"/>
+  <circle cx="160" cy="45" r="1.5" fill="#F1C40F" opacity="0.6"/>
+  <circle cx="205" cy="30" r="1" fill="#F1C40F" opacity="0.9"/>
+</svg>

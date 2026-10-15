@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- The Cow -->
+  <path d="M60 160c0-20 15-35 35-35h50c20 0 35 15 35 35v30c0 10-10 20-20 20h-100c-10 0-20-10-20-20v-30z" fill="#7D8590"/>
+  <path d="M75 130l-10-20m100 20l10-20" stroke="#7D8590" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="85" cy="150" r="5" fill="#1A1D24"/>
+  <path d="M140 155c5 0 10 5 10 10" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  
+  <!-- The Guqin (Instrument) -->
+  <rect x="90" y="100" width="80" height="15" rx="2" fill="#E69138"/>
+  <path d="M95 105h70M95 108h70M95 111h70" stroke="#1A1D24" stroke-width="1" opacity="0.5"/>
+  
+  <!-- The Player's Hands -->
+  <path d="M110 100l-5-20m15 20l5-20" stroke="#FFB347" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="105" cy="80" r="6" fill="#FFB347"/>
+  <circle cx="130" cy="80" r="6" fill="#FFB347"/>
+  
+  <!-- Musical Notes (Abstracting the 'sound' being ignored) -->
+  <path d="M170 80c5-10 15-10 20 0" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <path d="M195 75c5-10 15-10 20 0" stroke="#FFD700" stroke-width="3" fill="none"/>
+</svg>
