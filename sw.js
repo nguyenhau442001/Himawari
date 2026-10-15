@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20261014-scrollbar-fix-v5';
+const ASSET_VERSION = '20261015-viewport-fix-v6';
 const CACHE_NAME = 'hsk-flashcards-v' + ASSET_VERSION;
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 const APP_SHELL_URL = new URL('./index.html', self.registration.scope).href;
