@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T21:26:30.406634",
-  "total_unique_words_with_illustrations": 7482,
-  "total_flat_svg_files": 7482,
+  "generated_at": "2026-10-15T21:27:54.352812",
+  "total_unique_words_with_illustrations": 7533,
+  "total_flat_svg_files": 7533,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1943,
-        "pct": "34.7%"
+        "with_svg": 1994,
+        "pct": "35.6%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1943,
-        "pct": "34.7%"
+        "with_svg": 1994,
+        "pct": "35.6%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1943,
-        "pct": "34.7%"
+        "with_svg": 1994,
+        "pct": "35.6%"
       }
     }
   },
@@ -131460,6 +131460,25 @@
         "images/HSK_3.0/level9/殿堂.svg"
       ]
     },
+    "电网": {
+      "hanzi": "电网",
+      "pinyin": "diànwǎng",
+      "meaning": "lưới điện",
+      "example_zh": "国家大力投资升级农村特高压<u>电网</u>，保障边远山区居民用电无忧。",
+      "example_vi": "Nhà nước mạnh tay đầu tư nâng cấp <u>lưới điện</u> siêu cao áp nông thôn, bảo đảm người dân vùng núi xa xôi sử dụng điện không lo âu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "电网.svg",
+      "src": "images/HSK_3.0/level7/电网.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/电网.svg",
+        "images/HSK_3.0/level9/电网.svg"
+      ]
+    },
     "电线": {
       "hanzi": "电线",
       "pinyin": "diànxiàn",
@@ -131517,6 +131536,25 @@
         "images/HSK_3.0/level9/电讯.svg"
       ]
     },
+    "垫子": {
+      "hanzi": "垫子",
+      "pinyin": "diànzi",
+      "meaning": "chiếu",
+      "example_zh": "椅子上放了一个<u>垫子</u>",
+      "example_vi": "Trên ghế có đặt một cái đệm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "垫子.svg",
+      "src": "images/HSK_3.0/level7/垫子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/垫子.svg",
+        "images/HSK_3.0/level9/垫子.svg"
+      ]
+    },
     "雕": {
       "hanzi": "雕",
       "pinyin": "diāo",
@@ -131572,6 +131610,937 @@
       "alt_srcs": [
         "images/HSK_3.0/level8/雕像.svg",
         "images/HSK_3.0/level9/雕像.svg"
+      ]
+    },
+    "凋谢": {
+      "hanzi": "凋谢",
+      "pinyin": "diāoxiè",
+      "meaning": "héo tàn, tàn tạ",
+      "example_zh": "深秋的冷风掠过庭院，盛开了一季的花朵终于零落<u>凋谢</u>了。",
+      "example_vi": "Cơn gió lạnh cuối thu lướt qua sân vườn, những đóa hoa nở rộ suốt cả một mùa cuối cùng cũng rơi rụng <u>héo tàn</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "凋谢.svg",
+      "src": "images/HSK_3.0/level7/凋谢.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/凋谢.svg",
+        "images/HSK_3.0/level9/凋谢.svg"
+      ]
+    },
+    "调²": {
+      "hanzi": "调²",
+      "pinyin": "diào",
+      "meaning": "làn điệu, giọng điệu, âm điệu",
+      "example_zh": "这首民歌的旋律优美动听，唱起来很有浓郁的江南水乡歌<u>调</u>。",
+      "example_vi": "Giai điệu bài dân ca này tuyệt mỹ êm tai, khi cất giọng mang đậm <u>làn điệu</u> bài ca miền sông nước Giang Nam.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "调².svg",
+      "src": "images/HSK_3.0/level7/调².svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/调².svg",
+        "images/HSK_3.0/level9/调².svg"
+      ]
+    },
+    "调度": {
+      "hanzi": "调度",
+      "pinyin": "diàodù",
+      "meaning": "điều phối, điều độ",
+      "example_zh": "交通指挥中心必须根据上下班高峰期的路况变化，科学灵活地<u>调度</u>公交车次。",
+      "example_vi": "Trung tâm chỉ huy giao thông phải căn cứ vào diễn biến đường xá vào giờ cao điểm đi làm để <u>điều phối</u> chuyến xe buýt linh hoạt và khoa học.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "调度.svg",
+      "src": "images/HSK_3.0/level7/调度.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/调度.svg",
+        "images/HSK_3.0/level9/调度.svg"
+      ]
+    },
+    "掉队": {
+      "hanzi": "掉队",
+      "pinyin": "diàoduì",
+      "meaning": "tụt lại phía sau, rớt lại",
+      "example_zh": "在徒步穿越荒原的长途拉练中，队员们互帮互助，没有一个人遗憾<u>掉队</u>。",
+      "example_vi": "Trong đợt dã ngoại đường dài đi bộ băng qua vùng đất hoang vu, các đội viên tương trợ lẫn nhau, không một ai ngậm ngùi <u>tụt lại phía sau</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "掉队.svg",
+      "src": "images/HSK_3.0/level7/掉队.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/掉队.svg",
+        "images/HSK_3.0/level9/掉队.svg"
+      ]
+    },
+    "掉头": {
+      "hanzi": "掉头",
+      "pinyin": "diàotóu",
+      "meaning": "quay đầu xe, quay đầu lại",
+      "example_zh": "司机发现前面道路施工封闭，便在路口减速并迅速把车<u>掉头</u>开回。",
+      "example_vi": "Bác tài thấy đoạn đường phía trước đang thi công phong tỏa, liền giảm tốc độ tại ngã tư và nhanh chóng <u>quay đầu xe</u> chạy ngược lại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "掉头.svg",
+      "src": "images/HSK_3.0/level7/掉头.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/掉头.svg",
+        "images/HSK_3.0/level9/掉头.svg"
+      ]
+    },
+    "吊销": {
+      "hanzi": "吊销",
+      "pinyin": "diàoxiāo",
+      "meaning": "thu hồi, tước bằng",
+      "example_zh": "因酒后驾驶机动车造成重大交通事故，该司机的机动车驾驶证被依法永久<u>吊销</u>。",
+      "example_vi": "Vì uống rượu lái xe cơ giới gây ra tai nạn giao thông nghiêm trọng, giấy phép lái xe cơ giới của tài xế này đã bị theo luật <u>thu hồi</u> vĩnh viễn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吊销.svg",
+      "src": "images/HSK_3.0/level7/吊销.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/吊销.svg",
+        "images/HSK_3.0/level9/吊销.svg"
+      ]
+    },
+    "爹": {
+      "hanzi": "爹",
+      "pinyin": "diē",
+      "meaning": "cha, bố, tía",
+      "example_zh": "离家多年归来的游子一踏进院门，就情不自禁地大声呼唤着自己的老<u>爹</u>。",
+      "example_vi": "Người con xa quê nhiều năm trở về vừa bước chân vào cổng sân nhà đã bất giác cất tiếng gọi to người <u>cha</u> già của mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "爹.svg",
+      "src": "images/HSK_3.0/level7/爹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/爹.svg",
+        "images/HSK_3.0/level9/爹.svg"
+      ]
+    },
+    "跌幅": {
+      "hanzi": "跌幅",
+      "pinyin": "diēfú",
+      "meaning": "biên độ giảm, mức sụt giảm",
+      "example_zh": "受外部市场动荡冲击，今日股市主要指数的收盘<u>跌幅</u>超过了百分之三。",
+      "example_vi": "Chịu cú sốc từ biến động thị trường bên ngoài, <u>mức sụt giảm</u> lúc đóng cửa của các chỉ số chứng khoán chính hôm nay đã vượt quá 3%.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "跌幅.svg",
+      "src": "images/HSK_3.0/level7/跌幅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/跌幅.svg",
+        "images/HSK_3.0/level9/跌幅.svg"
+      ]
+    },
+    "叠": {
+      "hanzi": "叠",
+      "pinyin": "dié",
+      "meaning": "gấp, xếp",
+      "example_zh": "军训要求每位新兵每天早晨起床后都必须把被子整整齐齐地<u>叠</u>成豆腐块。",
+      "example_vi": "Huấn luyện quân sự yêu cầu mỗi tân binh mỗi sáng sớm thức dậy đều phải <u>gấp</u> chăn gọn gàng thành hình khối vuông vức.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "叠.svg",
+      "src": "images/HSK_3.0/level7/叠.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/叠.svg",
+        "images/HSK_3.0/level9/叠.svg"
+      ]
+    },
+    "碟": {
+      "hanzi": "碟",
+      "pinyin": "dié",
+      "meaning": "cái đĩa, đĩa nhỏ",
+      "example_zh": "服务员在餐桌上摆放了几个盛放调味料的精美陶瓷小<u>碟</u>。",
+      "example_vi": "Người phục vụ đã bày trên bàn ăn vài <u>cái đĩa</u> gốm sứ nhỏ tinh xảo đựng đồ gia vị.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "碟.svg",
+      "src": "images/HSK_3.0/level7/碟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/碟.svg",
+        "images/HSK_3.0/level9/碟.svg"
+      ]
+    },
+    "迭起": {
+      "hanzi": "迭起",
+      "pinyin": "diéqǐ",
+      "meaning": "liên tiếp xuất hiện, dồn dập nổi lên",
+      "example_zh": "精彩绝伦的杂技魔术晚会高潮<u>迭起</u>，全场观众不断爆发出雷鸣般的掌声。",
+      "example_vi": "Đêm hội ảo thuật xiếc tuyệt luân các cao trào <u>liên tiếp xuất hiện</u>, khán giả toàn trường không ngừng bùng nổ những tràng pháo tay như sấm dậy.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迭起.svg",
+      "src": "images/HSK_3.0/level7/迭起.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/迭起.svg",
+        "images/HSK_3.0/level9/迭起.svg"
+      ]
+    },
+    "钉子": {
+      "hanzi": "钉子",
+      "pinyin": "dīngzi",
+      "meaning": "cái đinh",
+      "example_zh": "木匠用铁锤把一根锋利的<u>钉子</u>深深敲进了木板里。",
+      "example_vi": "Người thợ mộc dùng búa sắt gõ sâu một <u>cái đinh</u> sắc nhọn vào trong tấm ván gỗ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "钉子.svg",
+      "src": "images/HSK_3.0/level7/钉子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/钉子.svg",
+        "images/HSK_3.0/level9/钉子.svg"
+      ]
+    },
+    "顶多": {
+      "hanzi": "顶多",
+      "pinyin": "dǐngduō",
+      "meaning": "nhiều nhất là, cùng lắm",
+      "example_zh": "这段路程不算太远，步行前往<u>顶多</u>花费二十分钟。",
+      "example_vi": "Quãng đường này không tính là quá xa, đi bộ tới đó <u>nhiều nhất là</u> mất hai mươi phút.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "顶多.svg",
+      "src": "images/HSK_3.0/level7/顶多.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/顶多.svg",
+        "images/HSK_3.0/level9/顶多.svg"
+      ]
+    },
+    "顶级": {
+      "hanzi": "顶级",
+      "pinyin": "dǐngjí",
+      "meaning": "hàng đầu, đỉnh cao",
+      "example_zh": "这座现代化实验室配备了全行业最先进的<u>顶级</u>科研仪器。",
+      "example_vi": "Phòng thí nghiệm hiện đại này trang bị những thiết bị nghiên cứu khoa học <u>đỉnh cao</u> tiên tiến nhất toàn ngành.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "顶级.svg",
+      "src": "images/HSK_3.0/level7/顶级.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/顶级.svg",
+        "images/HSK_3.0/level9/顶级.svg"
+      ]
+    },
+    "顶尖": {
+      "hanzi": "顶尖",
+      "pinyin": "dǐngjiān",
+      "meaning": "hàng đầu, xuất sắc nhất",
+      "example_zh": "该大学汇聚了来自世界各地的多位<u>顶尖</u>数学专家。",
+      "example_vi": "Trường đại học này quy tụ nhiều chuyên gia toán học <u>hàng đầu</u> đến từ khắp nơi trên thế giới.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "顶尖.svg",
+      "src": "images/HSK_3.0/level7/顶尖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/顶尖.svg",
+        "images/HSK_3.0/level9/顶尖.svg"
+      ]
+    },
+    "钉": {
+      "hanzi": "钉",
+      "pinyin": "dìng",
+      "meaning": "đóng đinh, đính, may vào",
+      "example_zh": "他的衬衫纽扣脱落了，奶奶戴上老花镜帮他<u>钉</u>了上去。",
+      "example_vi": "Cúc áo sơ mi của anh ấy bị tuột, bà nội đeo kính lão giúp anh <u>đính</u> lại vào áo.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "钉.svg",
+      "src": "images/HSK_3.0/level7/钉.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/钉.svg",
+        "images/HSK_3.0/level9/钉.svg"
+      ]
+    },
+    "订购": {
+      "hanzi": "订购",
+      "pinyin": "dìnggòu",
+      "meaning": "đặt mua, đặt hàng",
+      "example_zh": "随着销售旺季来临，全国各地的批发商纷纷向厂家<u>订购</u>新货。",
+      "example_vi": "Cùng với mùa bán hàng cao điểm đến gần, các nhà bán buôn trên cả nước tới tấp <u>đặt mua</u> hàng mới từ xưởng sản xuất.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "订购.svg",
+      "src": "images/HSK_3.0/level7/订购.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/订购.svg",
+        "images/HSK_3.0/level9/订购.svg"
+      ]
+    },
+    "定金": {
+      "hanzi": "定金",
+      "pinyin": "dìngjīn",
+      "meaning": "tiền đặt cọc",
+      "example_zh": "买家在正式签署购房合同的当天，必须当场向房东支付一笔<u>定金</u>。",
+      "example_vi": "Người mua vào đúng ngày chính thức ký hợp đồng mua nhà bắt buộc phải thanh toán tại chỗ một khoản <u>tiền đặt cọc</u> cho chủ nhà.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "定金.svg",
+      "src": "images/HSK_3.0/level7/定金.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/定金.svg",
+        "images/HSK_3.0/level9/定金.svg"
+      ]
+    },
+    "定居": {
+      "hanzi": "定居",
+      "pinyin": "dìngjū",
+      "meaning": "định cư",
+      "example_zh": "经过多年的海外漂泊，老华侨最终选择回到了故乡<u>定居</u>。",
+      "example_vi": "Sau bao năm phiêu bạt hải ngoại, vị hoa kiều lớn tuổi cuối cùng đã chọn trở về quê hương <u>định cư</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "定居.svg",
+      "src": "images/HSK_3.0/level7/定居.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/定居.svg",
+        "images/HSK_3.0/level9/定居.svg"
+      ]
+    },
+    "订立": {
+      "hanzi": "订立",
+      "pinyin": "dìnglì",
+      "meaning": "ký kết, xác lập",
+      "example_zh": "两家跨国企业在平等的原则基础上，正式<u>订立</u>了长期战略合作协议。",
+      "example_vi": "Hai doanh nghiệp đa quốc gia trên cơ sở nguyên tắc bình đẳng đã chính thức <u>ký kết</u> thỏa thuận hợp tác chiến lược dài hạn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "订立.svg",
+      "src": "images/HSK_3.0/level7/订立.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/订立.svg",
+        "images/HSK_3.0/level9/订立.svg"
+      ]
+    },
+    "定律": {
+      "hanzi": "定律",
+      "pinyin": "dìnglǜ",
+      "meaning": "định luật",
+      "example_zh": "万有引力<u>定律</u>是经典物理学发展史上的一座重要里程碑。",
+      "example_vi": "<u>Định luật</u> vạn vật hấp dẫn là một cột mốc quan trọng trong lịch sử phát triển của vật lý học cổ điển.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "定律.svg",
+      "src": "images/HSK_3.0/level7/定律.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/定律.svg",
+        "images/HSK_3.0/level9/定律.svg"
+      ]
+    },
+    "定论": {
+      "hanzi": "定论",
+      "pinyin": "dìnglùn",
+      "meaning": "kết luận chắc chắn, định luận",
+      "example_zh": "关于这个历史谜团的真实背景，学术界目前还没有明确的<u>定论</u>。",
+      "example_vi": "Về bối cảnh thực sự của bí ẩn lịch sử này, giới học thuật hiện tại vẫn chưa có <u>kết luận chắc chắn</u> rõ ràng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "定论.svg",
+      "src": "images/HSK_3.0/level7/定论.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/定论.svg",
+        "images/HSK_3.0/level9/定论.svg"
+      ]
+    },
+    "定向": {
+      "hanzi": "定向",
+      "pinyin": "dìngxiàng",
+      "meaning": "định hướng",
+      "example_zh": "这所师范大学每年招收大批<u>定向</u>培养的乡村教师。",
+      "example_vi": "Trường đại học sư phạm này mỗi năm đều tuyển sinh lượng lớn giáo viên nông thôn được đào tạo <u>định hướng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "定向.svg",
+      "src": "images/HSK_3.0/level7/定向.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/定向.svg",
+        "images/HSK_3.0/level9/定向.svg"
+      ]
+    },
+    "定心丸": {
+      "hanzi": "定心丸",
+      "pinyin": "dìngxīnwán",
+      "meaning": "sự bảo đảm chắc chắn, sự an tâm",
+      "example_zh": "领导亲自承诺保证按期发薪，彻底给焦虑的员工们吃了一颗<u>定心丸</u>。",
+      "example_vi": "Lãnh đạo đích thân cam kết đảm bảo trả lương đúng hạn, hoàn toàn mang lại <u>sự bảo đảm chắc chắn</u> cho những nhân viên đang lo âu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "定心丸.svg",
+      "src": "images/HSK_3.0/level7/定心丸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/定心丸.svg",
+        "images/HSK_3.0/level9/定心丸.svg"
+      ]
+    },
+    "订阅": {
+      "hanzi": "订阅",
+      "pinyin": "dìngyuè",
+      "meaning": "đăng ký theo dõi, đặt mua dài kỳ",
+      "example_zh": "许多读者选择通过手机应用程序在线<u>订阅</u>专业学术杂志。",
+      "example_vi": "Rất nhiều độc giả lựa chọn <u>đăng ký theo dõi</u> trực tuyến các tạp chí học thuật chuyên ngành qua ứng dụng điện thoại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "订阅.svg",
+      "src": "images/HSK_3.0/level7/订阅.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/订阅.svg",
+        "images/HSK_3.0/level9/订阅.svg"
+      ]
+    },
+    "定做": {
+      "hanzi": "定做",
+      "pinyin": "dìngzuò",
+      "meaning": "đặt làm riêng, may đo",
+      "example_zh": "为了参加正式的毕业晚会，他特意去西服店量身<u>定做</u>了一套正装。",
+      "example_vi": "Để tham dự dạ hội tốt nghiệp trang trọng, anh ấy đã cất công đến tiệm may <u>đặt làm riêng</u> một bộ âu phục vừa vặn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "定做.svg",
+      "src": "images/HSK_3.0/level7/定做.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/定做.svg",
+        "images/HSK_3.0/level9/定做.svg"
+      ]
+    },
+    "丢脸": {
+      "hanzi": "丢脸",
+      "pinyin": "diūliǎn",
+      "meaning": "mất mặt, mất thể diện",
+      "example_zh": "在如此庄重的公开场合言行粗鄙，实在是一件非常<u>丢脸</u>的事情。",
+      "example_vi": "Ở một sự kiện công cộng trang trọng nhường này mà ăn nói thô tục thực sự là một điều vô cùng <u>mất mặt</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丢脸.svg",
+      "src": "images/HSK_3.0/level7/丢脸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/丢脸.svg",
+        "images/HSK_3.0/level9/丢脸.svg"
+      ]
+    },
+    "丢弃": {
+      "hanzi": "丢弃",
+      "pinyin": "diūqì",
+      "meaning": "vứt bỏ, bỏ đi",
+      "example_zh": "严禁将塑料垃圾和工业废料随意<u>丢弃</u>在自然保护区内。",
+      "example_vi": "Nghiêm cấm tùy tiện <u>vứt bỏ</u> rác thải nhựa và phế liệu công nghiệp vào trong khu bảo tồn thiên nhiên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "丢弃.svg",
+      "src": "images/HSK_3.0/level7/丢弃.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/丢弃.svg",
+        "images/HSK_3.0/level9/丢弃.svg"
+      ]
+    },
+    "董事": {
+      "hanzi": "董事",
+      "pinyin": "dǒngshì",
+      "meaning": "thành viên HĐQT, ủy viên hội đồng quản trị",
+      "example_zh": "作为集团的重要股东，他被推选为执行<u>董事</u>参与公司重大决策。",
+      "example_vi": "Là cổ đông lớn của tập đoàn, anh ấy được bầu làm <u>thành viên HĐQT</u> điều hành tham gia vào các quyết sách trọng đại của công ty.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "董事.svg",
+      "src": "images/HSK_3.0/level7/董事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/董事.svg",
+        "images/HSK_3.0/level9/董事.svg"
+      ]
+    },
+    "懂事": {
+      "hanzi": "懂事",
+      "pinyin": "dǒngshì",
+      "meaning": "hiểu chuyện, biết điều",
+      "example_zh": "这个小女孩非常<u>懂事</u>，平时总是主动帮家里分担繁重的家务。",
+      "example_vi": "Cô bé này rất <u>hiểu chuyện</u>, ngày thường luôn chủ động giúp gia đình san sẻ việc nhà bận rộn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "懂事.svg",
+      "src": "images/HSK_3.0/level7/懂事.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/懂事.svg",
+        "images/HSK_3.0/level9/懂事.svg"
+      ]
+    },
+    "董事会": {
+      "hanzi": "董事会",
+      "pinyin": "dǒngshìhuì",
+      "meaning": "hội đồng quản trị",
+      "example_zh": "公司的年度财务预算案必须经过<u>董事会</u>全员审议通过后方可执行。",
+      "example_vi": "Bản dự toán tài chính hằng năm của công ty bắt buộc phải được <u>hội đồng quản trị</u> toàn thể thẩm nghị thông qua mới có thể thực thi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "董事会.svg",
+      "src": "images/HSK_3.0/level7/董事会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/董事会.svg",
+        "images/HSK_3.0/level9/董事会.svg"
+      ]
+    },
+    "动不动": {
+      "hanzi": "动不动",
+      "pinyin": "dòngbudòng",
+      "meaning": "hở một tý là, động một tý là",
+      "example_zh": "遇到矛盾应当耐心沟通，绝不能<u>动不动</u>就发脾气拍桌子。",
+      "example_vi": "Khi gặp mâu thuẫn nên kiên nhẫn trao đổi, tuyệt đối không được <u>hở một tý là</u> nổi cáu đập bàn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动不动.svg",
+      "src": "images/HSK_3.0/level7/动不动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/动不动.svg",
+        "images/HSK_3.0/level9/动不动.svg"
+      ]
+    },
+    "动感": {
+      "hanzi": "动感",
+      "pinyin": "dònggǎn",
+      "meaning": "sôi động, năng động",
+      "example_zh": "这支街舞伴随着富有<u>动感</u>的快节奏音乐，瞬间点燃了全场气氛。",
+      "example_vi": "Điệu nhảy đường phố này kết hợp cùng nền âm nhạc tiết tấu nhanh giàu sự <u>sôi động</u> đã lập tức khuấy đảo bầu không khí toàn trường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动感.svg",
+      "src": "images/HSK_3.0/level7/动感.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/动感.svg",
+        "images/HSK_3.0/level9/动感.svg"
+      ]
+    },
+    "动工": {
+      "hanzi": "动工",
+      "pinyin": "dònggōng",
+      "meaning": "khởi công, bắt đầu thi công",
+      "example_zh": "经过两年严密的论证筹备，这条跨海大桥终于在今天正式<u>动工</u>修建。",
+      "example_vi": "Sau hai năm luận chứng và chuẩn bị chặt chẽ, cây cầu vượt biển này cuối cùng đã chính thức <u>khởi công</u> xây dựng vào hôm nay.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动工.svg",
+      "src": "images/HSK_3.0/level7/动工.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/动工.svg",
+        "images/HSK_3.0/level9/动工.svg"
+      ]
+    },
+    "动弹": {
+      "hanzi": "动弹",
+      "pinyin": "dòngtan",
+      "meaning": "cử động, nhúc nhích",
+      "example_zh": "经历了一整天高强度的越野拉练，他累得躺在床上浑身无法<u>动弹</u>。",
+      "example_vi": "Trải qua một ngày tập luyện dã ngoại cường độ cao, anh ấy mệt đến mức nằm liệt trên giường không thể <u>cử động</u> nổi cả người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动弹.svg",
+      "src": "images/HSK_3.0/level7/动弹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/动弹.svg",
+        "images/HSK_3.0/level9/动弹.svg"
+      ]
+    },
+    "动用": {
+      "hanzi": "动用",
+      "pinyin": "dòngyòng",
+      "meaning": "huy động, sử dụng",
+      "example_zh": "为了应对百年不遇的特大洪灾，政府紧急<u>动用</u>了中央战略储备物资。",
+      "example_vi": "Để ứng phó với trận lũ lụt trăm năm có một, chính phủ đã khẩn cấp <u>huy động</u> nguồn hàng dự trữ chiến lược của trung ương.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "动用.svg",
+      "src": "images/HSK_3.0/level7/动用.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/动用.svg",
+        "images/HSK_3.0/level9/动用.svg"
+      ]
+    },
+    "兜售": {
+      "hanzi": "兜售",
+      "pinyin": "dōushòu",
+      "meaning": "bán rong, chào bán rong",
+      "example_zh": "景区入口处常常有小贩沿街向路过的游客极力<u>兜售</u>廉价纪念品。",
+      "example_vi": "Ở lối vào khu danh lam thắng cảnh thường có người bán hàng rong dọc phố ra sức <u>bán rong</u> các món đồ lưu niệm giá rẻ cho du khách qua đường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "兜售.svg",
+      "src": "images/HSK_3.0/level7/兜售.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/兜售.svg",
+        "images/HSK_3.0/level9/兜售.svg"
+      ]
+    },
+    "抖": {
+      "hanzi": "抖",
+      "pinyin": "dǒu",
+      "meaning": "run rẩy, run, giũ",
+      "example_zh": "外面气温骤降到了零下二十度，他冻得浑身直打<u>抖</u>。",
+      "example_vi": "Nhiệt độ bên ngoài đột ngột giảm xuống âm hai mươi độ, anh ấy rét đến mức toàn thân <u>run rẩy</u> bần bật.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抖.svg",
+      "src": "images/HSK_3.0/level7/抖.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/抖.svg",
+        "images/HSK_3.0/level9/抖.svg"
+      ]
+    },
+    "陡": {
+      "hanzi": "陡",
+      "pinyin": "dǒu",
+      "meaning": "dốc",
+      "example_zh": "这条坡很<u>陡</u>，骑车要小心",
+      "example_vi": "Con dốc này rất gắt, đi xe phải cẩn thận.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "陡.svg",
+      "src": "images/HSK_3.0/level7/陡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/陡.svg",
+        "images/HSK_3.0/level9/陡.svg"
+      ]
+    },
+    "斗": {
+      "hanzi": "斗",
+      "pinyin": "dòu",
+      "meaning": "đấu, đọ sức, chiến đấu",
+      "example_zh": "在这场惊心动魄的博弈中，双方既拼体力也<u>斗</u>智勇。",
+      "example_vi": "Trong ván cờ nghẹt thở này, đôi bên vừa so tài thể lực lại vừa <u>đọ</u> mưu trí và dũng khí.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "斗.svg",
+      "src": "images/HSK_3.0/level7/斗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/斗.svg",
+        "images/HSK_3.0/level9/斗.svg"
+      ]
+    },
+    "逗留": {
+      "hanzi": "逗留",
+      "pinyin": "dòuliú",
+      "meaning": "lưu lại, dừng chân, nán lại",
+      "example_zh": "考察团在巴黎只短暂<u>逗留</u>了两天，便启程飞往下一个访问城市。",
+      "example_vi": "Phái đoàn khảo sát chỉ <u>lưu lại</u> Paris ngắn ngủi hai ngày rồi lại lên đường bay đến thành phố ghé thăm tiếp theo.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逗留.svg",
+      "src": "images/HSK_3.0/level7/逗留.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/逗留.svg",
+        "images/HSK_3.0/level9/逗留.svg"
+      ]
+    },
+    "斗志": {
+      "hanzi": "斗志",
+      "pinyin": "dòuzhì",
+      "meaning": "ý chí chiến đấu, tinh thần chiến đấu",
+      "example_zh": "队长在上半场落后时慷慨激昂的动员，重新激发了全队的昂扬<u>斗志</u>。",
+      "example_vi": "Lời động viên đầy nhiệt huyết của đội trưởng khi bị dẫn bàn ở hiệp một đã khơi dậy lại <u>ý chí chiến đấu</u> ngút ngàn của toàn đội.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "斗志.svg",
+      "src": "images/HSK_3.0/level7/斗志.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/斗志.svg",
+        "images/HSK_3.0/level9/斗志.svg"
+      ]
+    },
+    "豆子": {
+      "hanzi": "豆子",
+      "pinyin": "dòuzi",
+      "meaning": "đậu",
+      "example_zh": "把<u>豆子</u>浸泡一晚",
+      "example_vi": "Ngâm đậu một đêm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "豆子.svg",
+      "src": "images/HSK_3.0/level7/豆子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/豆子.svg",
+        "images/HSK_3.0/level9/豆子.svg"
+      ]
+    },
+    "都会": {
+      "hanzi": "都会",
+      "pinyin": "dūhuì",
+      "meaning": "đô thị, đại đô thị",
+      "example_zh": "许多怀揣梦想的大学毕业生渴望在充满机遇的国际大<u>都会</u>扎根生活。",
+      "example_vi": "Rất nhiều cử nhân đại học ấp ủ ước mơ đều khát khao bám rễ sinh sống tại <u>đại đô thị</u> quốc tế tràn ngập cơ hội.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "都会.svg",
+      "src": "images/HSK_3.0/level7/都会.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/都会.svg",
+        "images/HSK_3.0/level9/都会.svg"
+      ]
+    },
+    "独": {
+      "hanzi": "独",
+      "pinyin": "dú",
+      "meaning": "riêng, duy nhất, một mình",
+      "example_zh": "满园繁花已经凋落殆尽，<u>独</u>有几株寒梅在凛冽风雪中傲然绽放。",
+      "example_vi": "Muôn hoa trong vườn đã tàn rụng hết, <u>riêng</u> chỉ có vài nhánh mai lạnh ngạo nghễ bung nở trong gió tuyết căm căm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "独.svg",
+      "src": "images/HSK_3.0/level7/独.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/独.svg",
+        "images/HSK_3.0/level9/独.svg"
+      ]
+    },
+    "独家": {
+      "hanzi": "独家",
+      "pinyin": "dújiā",
+      "meaning": "độc quyền",
+      "example_zh": "这家知名报社凭借深厚的人脉资源，抢先刊登了这起大案的<u>独家</u>内幕报道。",
+      "example_vi": "Tòa soạn báo danh tiếng này nhờ nguồn quan hệ sâu rộng đã đăng tải trước bản tin nội tình <u>độc quyền</u> về đại án này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "独家.svg",
+      "src": "images/HSK_3.0/level7/独家.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/独家.svg",
+        "images/HSK_3.0/level9/独家.svg"
+      ]
+    },
+    "独身": {
+      "hanzi": "独身",
+      "pinyin": "dúshēn",
+      "meaning": "độc thân, sống độc thân",
+      "example_zh": "他一生热爱艺术创作，崇尚自由，始终坚持过着<u>独身</u>的生活。",
+      "example_vi": "Cả đời ông yêu say đắm sáng tác nghệ thuật, tôn sùng tự do, luôn kiên trì sống một cuộc sống <u>độc thân</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "独身.svg",
+      "src": "images/HSK_3.0/level7/独身.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/独身.svg",
+        "images/HSK_3.0/level9/独身.svg"
+      ]
+    },
+    "读物": {
+      "hanzi": "读物",
+      "pinyin": "dúwù",
+      "meaning": "ấn phẩm đọc, sách báo",
+      "example_zh": "家长应该为幼儿挑选图文并茂、具有启发性的优秀科普<u>读物</u>。",
+      "example_vi": "Phụ huynh nên chọn cho trẻ nhỏ những <u>ấn phẩm đọc</u> phổ biến khoa học xuất sắc với hình ảnh sinh động và giàu tính gợi mở.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "读物.svg",
+      "src": "images/HSK_3.0/level7/读物.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/读物.svg",
+        "images/HSK_3.0/level9/读物.svg"
+      ]
+    },
+    "独一无二": {
+      "hanzi": "独一无二",
+      "pinyin": "dúyī-wú’èr",
+      "meaning": "độc nhất vô nhị, có một không hai",
+      "example_zh": "每个人在这个世界上都是<u>独一无二</u>的存在，都拥有属于自己的光芒。",
+      "example_vi": "Mỗi người trên thế giới này đều là một sự tồn tại <u>độc nhất vô nhị</u>, đều sở hữu ánh hào quang của riêng mình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "独一无二.svg",
+      "src": "images/HSK_3.0/level7/独一无二.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/独一无二.svg",
+        "images/HSK_3.0/level9/独一无二.svg"
       ]
     }
   }

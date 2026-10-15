@@ -1,0 +1,69 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Chill / Frost elements -->
+  <g opacity="0.3">
+    <path d="M40 60 L45 70 L35 70 Z" fill="#64B5F6"/>
+    <path d="M190 80 L198 90 L182 90 Z" fill="#64B5F6"/>
+    <path d="M200 160 L205 170 L195 170 Z" fill="#64B5F6"/>
+    <circle cx="50" cy="150" r="2" fill="#E3F2FD"/>
+    <circle cx="180" cy="50" r="1.5" fill="#E3F2FD"/>
+    <circle cx="150" cy="200" r="2" fill="#E3F2FD"/>
+    <circle cx="80" cy="40" r="1.5" fill="#E3F2FD"/>
+  </g>
+
+  <!-- Thermometer indicating extreme cold -->
+  <g transform="translate(25, 60)">
+    <rect x="0" y="0" width="10" height="100" rx="5" fill="#2D3748" stroke="#4A5565" stroke-width="2"/>
+    <circle cx="5" cy="95" r="8" fill="#E53E3E"/>
+    <rect x="4" y="70" width="2" height="25" fill="#E53E3E"/>
+    <!-- Cold mark -->
+    <line x1="-3" y1="75" x2="0" y2="75" stroke="#A0AEC0" stroke-width="2"/>
+    <line x1="-3" y1="45" x2="0" y2="45" stroke="#A0AEC0" stroke-width="2"/>
+  </g>
+
+  <!-- Shivering Person (Noun representation: physical human character experiencing 抖) -->
+  <g transform="translate(20, 10)">
+    <!-- Motion lines representing "抖" (shivering/vibrating intensely) -->
+    <!-- Left vibration echoes -->
+    <path d="M98 90 C 95 120, 95 150, 98 180" stroke="#FFB74D" stroke-width="2.5" stroke-dasharray="4 4" fill="none" opacity="0.7" stroke-linecap="round"/>
+    <path d="M90 100 C 87 130, 87 150, 90 170" stroke="#FFB74D" stroke-width="1.5" stroke-dasharray="2 3" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+    <!-- Right vibration echoes -->
+    <path d="M142 90 C 145 120, 145 150, 142 180" stroke="#FFB74D" stroke-width="2.5" stroke-dasharray="4 4" fill="none" opacity="0.7" stroke-linecap="round"/>
+    <path d="M150 100 C 153 130, 153 150, 150 170" stroke="#FFB74D" stroke-width="1.5" stroke-dasharray="2 3" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+    <!-- Hooded Winter Jacket (Heavy cold context) -->
+    <!-- Torso -->
+    <path d="M100 115 L140 115 L148 185 L92 185 Z" fill="#2B6CB0"/>
+    <!-- Jacket zipper and details -->
+    <line x1="120" y1="115" x2="120" y2="185" stroke="#1A365D" stroke-width="2"/>
+    
+    <!-- Puffed Arms crossed tightly for warmth -->
+    <path d="M100 125 Q 120 140 140 125 L135 145 Q 120 155 105 145 Z" fill="#3182CE"/>
+    
+    <!-- Head & Hood -->
+    <!-- Hood outer -->
+    <path d="M102 85 Q 120 65 138 85 L142 115 L98 115 Z" fill="#2B6CB0"/>
+    <!-- Face area inside hood -->
+    <circle cx="120" cy="95" r="16" fill="#FEEBC8"/>
+    
+    <!-- Eyes squeezed shut due to extreme chill -->
+    <path d="M112 94 Q 115 97 118 94" stroke="#2D3748" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M122 94 Q 125 97 128 94" stroke="#2D3748" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Rosy cold cheeks -->
+    <circle cx="110" cy="100" r="3" fill="#FEB2B2" opacity="0.8"/>
+    <circle cx="130" cy="100" r="3" fill="#FEB2B2" opacity="0.8"/>
+    <!-- Shivering mouth / teeth chattering line -->
+    <line x1="117" y1="104" x2="123" y2="104" stroke="#2D3748" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Thick winter scarf wrapped around neck -->
+    <path d="M102 110 Q 120 122 138 110 L135 122 Q 120 130 105 122 Z" fill="#E53E3E"/>
+    <path d="M125 120 L132 155 L120 158 Z" fill="#C53030"/>
+
+    <!-- Legs bundled up -->
+    <rect x="102" y="185" width="14" height="30" rx="4" fill="#4A5568"/>
+    <rect x="124" y="185" width="14" height="30" rx="4" fill="#4A5568"/>
+  </g>
+</svg>

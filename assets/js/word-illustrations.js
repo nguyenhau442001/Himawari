@@ -37682,6 +37682,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/殿堂.svg",
     "caption": "thánh đường, điện thờ, cung điện"
   },
+  "电网": {
+    "file": "电网.svg",
+    "src": "images/HSK_3.0/level7/电网.svg",
+    "caption": "lưới điện"
+  },
   "电线": {
     "file": "电线.svg",
     "src": "images/HSK_3.0/level7/电线.svg",
@@ -37697,6 +37702,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/电讯.svg",
     "caption": "điện tín, viễn thông, tin điện báo"
   },
+  "垫子": {
+    "file": "垫子.svg",
+    "src": "images/HSK_3.0/level7/垫子.svg",
+    "caption": "chiếu"
+  },
   "雕": {
     "file": "雕.svg",
     "src": "images/HSK_3.0/level7/雕.svg",
@@ -37711,6 +37721,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "雕像.svg",
     "src": "images/HSK_3.0/level7/雕像.svg",
     "caption": "bức tượng"
+  },
+  "凋谢": {
+    "file": "凋谢.svg",
+    "src": "images/HSK_3.0/level7/凋谢.svg",
+    "caption": "héo tàn, tàn tạ"
+  },
+  "调²": {
+    "file": "调².svg",
+    "src": "images/HSK_3.0/level7/调².svg",
+    "caption": "làn điệu, giọng điệu, âm điệu"
+  },
+  "调度": {
+    "file": "调度.svg",
+    "src": "images/HSK_3.0/level7/调度.svg",
+    "caption": "điều phối, điều độ"
+  },
+  "掉队": {
+    "file": "掉队.svg",
+    "src": "images/HSK_3.0/level7/掉队.svg",
+    "caption": "tụt lại phía sau, rớt lại"
+  },
+  "掉头": {
+    "file": "掉头.svg",
+    "src": "images/HSK_3.0/level7/掉头.svg",
+    "caption": "quay đầu xe, quay đầu lại"
+  },
+  "吊销": {
+    "file": "吊销.svg",
+    "src": "images/HSK_3.0/level7/吊销.svg",
+    "caption": "thu hồi, tước bằng"
+  },
+  "爹": {
+    "file": "爹.svg",
+    "src": "images/HSK_3.0/level7/爹.svg",
+    "caption": "cha, bố, tía"
+  },
+  "跌幅": {
+    "file": "跌幅.svg",
+    "src": "images/HSK_3.0/level7/跌幅.svg",
+    "caption": "biên độ giảm, mức sụt giảm"
+  },
+  "叠": {
+    "file": "叠.svg",
+    "src": "images/HSK_3.0/level7/叠.svg",
+    "caption": "gấp, xếp"
+  },
+  "碟": {
+    "file": "碟.svg",
+    "src": "images/HSK_3.0/level7/碟.svg",
+    "caption": "cái đĩa, đĩa nhỏ"
+  },
+  "迭起": {
+    "file": "迭起.svg",
+    "src": "images/HSK_3.0/level7/迭起.svg",
+    "caption": "liên tiếp xuất hiện, dồn dập nổi lên"
+  },
+  "钉子": {
+    "file": "钉子.svg",
+    "src": "images/HSK_3.0/level7/钉子.svg",
+    "caption": "cái đinh"
+  },
+  "顶多": {
+    "file": "顶多.svg",
+    "src": "images/HSK_3.0/level7/顶多.svg",
+    "caption": "nhiều nhất là, cùng lắm"
+  },
+  "顶级": {
+    "file": "顶级.svg",
+    "src": "images/HSK_3.0/level7/顶级.svg",
+    "caption": "hàng đầu, đỉnh cao"
+  },
+  "顶尖": {
+    "file": "顶尖.svg",
+    "src": "images/HSK_3.0/level7/顶尖.svg",
+    "caption": "hàng đầu, xuất sắc nhất"
+  },
+  "钉": {
+    "file": "钉.svg",
+    "src": "images/HSK_3.0/level7/钉.svg",
+    "caption": "đóng đinh, đính, may vào"
+  },
+  "订购": {
+    "file": "订购.svg",
+    "src": "images/HSK_3.0/level7/订购.svg",
+    "caption": "đặt mua, đặt hàng"
+  },
+  "定金": {
+    "file": "定金.svg",
+    "src": "images/HSK_3.0/level7/定金.svg",
+    "caption": "tiền đặt cọc"
+  },
+  "定居": {
+    "file": "定居.svg",
+    "src": "images/HSK_3.0/level7/定居.svg",
+    "caption": "định cư"
+  },
+  "订立": {
+    "file": "订立.svg",
+    "src": "images/HSK_3.0/level7/订立.svg",
+    "caption": "ký kết, xác lập"
+  },
+  "定律": {
+    "file": "定律.svg",
+    "src": "images/HSK_3.0/level7/定律.svg",
+    "caption": "định luật"
+  },
+  "定论": {
+    "file": "定论.svg",
+    "src": "images/HSK_3.0/level7/定论.svg",
+    "caption": "kết luận chắc chắn, định luận"
+  },
+  "定向": {
+    "file": "定向.svg",
+    "src": "images/HSK_3.0/level7/定向.svg",
+    "caption": "định hướng"
+  },
+  "定心丸": {
+    "file": "定心丸.svg",
+    "src": "images/HSK_3.0/level7/定心丸.svg",
+    "caption": "sự bảo đảm chắc chắn, sự an tâm"
+  },
+  "订阅": {
+    "file": "订阅.svg",
+    "src": "images/HSK_3.0/level7/订阅.svg",
+    "caption": "đăng ký theo dõi, đặt mua dài kỳ"
+  },
+  "定做": {
+    "file": "定做.svg",
+    "src": "images/HSK_3.0/level7/定做.svg",
+    "caption": "đặt làm riêng, may đo"
+  },
+  "丢脸": {
+    "file": "丢脸.svg",
+    "src": "images/HSK_3.0/level7/丢脸.svg",
+    "caption": "mất mặt, mất thể diện"
+  },
+  "丢弃": {
+    "file": "丢弃.svg",
+    "src": "images/HSK_3.0/level7/丢弃.svg",
+    "caption": "vứt bỏ, bỏ đi"
+  },
+  "董事": {
+    "file": "董事.svg",
+    "src": "images/HSK_3.0/level7/董事.svg",
+    "caption": "thành viên HĐQT, ủy viên hội đồng quản trị"
+  },
+  "懂事": {
+    "file": "懂事.svg",
+    "src": "images/HSK_3.0/level7/懂事.svg",
+    "caption": "hiểu chuyện, biết điều"
+  },
+  "董事会": {
+    "file": "董事会.svg",
+    "src": "images/HSK_3.0/level7/董事会.svg",
+    "caption": "hội đồng quản trị"
+  },
+  "动不动": {
+    "file": "动不动.svg",
+    "src": "images/HSK_3.0/level7/动不动.svg",
+    "caption": "hở một tý là, động một tý là"
+  },
+  "动感": {
+    "file": "动感.svg",
+    "src": "images/HSK_3.0/level7/动感.svg",
+    "caption": "sôi động, năng động"
+  },
+  "动工": {
+    "file": "动工.svg",
+    "src": "images/HSK_3.0/level7/动工.svg",
+    "caption": "khởi công, bắt đầu thi công"
+  },
+  "动弹": {
+    "file": "动弹.svg",
+    "src": "images/HSK_3.0/level7/动弹.svg",
+    "caption": "cử động, nhúc nhích"
+  },
+  "动用": {
+    "file": "动用.svg",
+    "src": "images/HSK_3.0/level7/动用.svg",
+    "caption": "huy động, sử dụng"
+  },
+  "兜售": {
+    "file": "兜售.svg",
+    "src": "images/HSK_3.0/level7/兜售.svg",
+    "caption": "bán rong, chào bán rong"
+  },
+  "抖": {
+    "file": "抖.svg",
+    "src": "images/HSK_3.0/level7/抖.svg",
+    "caption": "run rẩy, run, giũ"
+  },
+  "陡": {
+    "file": "陡.svg",
+    "src": "images/HSK_3.0/level7/陡.svg",
+    "caption": "dốc"
+  },
+  "斗": {
+    "file": "斗.svg",
+    "src": "images/HSK_3.0/level7/斗.svg",
+    "caption": "đấu, đọ sức, chiến đấu"
+  },
+  "逗留": {
+    "file": "逗留.svg",
+    "src": "images/HSK_3.0/level7/逗留.svg",
+    "caption": "lưu lại, dừng chân, nán lại"
+  },
+  "斗志": {
+    "file": "斗志.svg",
+    "src": "images/HSK_3.0/level7/斗志.svg",
+    "caption": "ý chí chiến đấu, tinh thần chiến đấu"
+  },
+  "豆子": {
+    "file": "豆子.svg",
+    "src": "images/HSK_3.0/level7/豆子.svg",
+    "caption": "đậu"
+  },
+  "都会": {
+    "file": "都会.svg",
+    "src": "images/HSK_3.0/level7/都会.svg",
+    "caption": "đô thị, đại đô thị"
+  },
+  "独": {
+    "file": "独.svg",
+    "src": "images/HSK_3.0/level7/独.svg",
+    "caption": "riêng, duy nhất, một mình"
+  },
+  "独家": {
+    "file": "独家.svg",
+    "src": "images/HSK_3.0/level7/独家.svg",
+    "caption": "độc quyền"
+  },
+  "独身": {
+    "file": "独身.svg",
+    "src": "images/HSK_3.0/level7/独身.svg",
+    "caption": "độc thân, sống độc thân"
+  },
+  "读物": {
+    "file": "读物.svg",
+    "src": "images/HSK_3.0/level7/读物.svg",
+    "caption": "ấn phẩm đọc, sách báo"
+  },
+  "独一无二": {
+    "file": "独一无二.svg",
+    "src": "images/HSK_3.0/level7/独一无二.svg",
+    "caption": "độc nhất vô nhị, có một không hai"
   }
 };
 
