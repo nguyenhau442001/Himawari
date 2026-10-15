@@ -1262,14 +1262,14 @@ body.flashcard-study-mode .hanviet-badge {
 .pos-tag--particle, .pos-badge--particle,
 .pos-tag--phrase, .pos-badge--phrase,
 .pos-tag--idiom, .pos-badge--idiom {
-  color: var(--text-secondary);
-  background: var(--surface-chip, rgba(0, 0, 0, 0.04));
-  border: 1px solid var(--border);
-  font-size: 0.82rem;
-  font-weight: 500;
-  padding: 2px 8px;
+  color: #2563eb;
+  background: rgba(37, 99, 235, 0.08);
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2.5px 8px;
   border-radius: 6px;
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 :root[data-theme="dark"] .pos-tag, :root[data-theme="dark"] .pos-badge,
@@ -1285,9 +1285,9 @@ body.flashcard-study-mode .hanviet-badge {
 :root[data-theme="dark"] .pos-tag--particle, :root[data-theme="dark"] .pos-badge--particle,
 :root[data-theme="dark"] .pos-tag--phrase, :root[data-theme="dark"] .pos-badge--phrase,
 :root[data-theme="dark"] .pos-tag--idiom, :root[data-theme="dark"] .pos-badge--idiom {
-  color: var(--text-secondary);
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.08);
+  color: #60a5fa;
+  background: rgba(59, 130, 246, 0.14);
+  border: none;
 }
 
 
@@ -2075,9 +2075,10 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .card-visual-col {
-    flex: 0 0 92px;
-    width: 92px;
-    height: 92px;
+    flex: 0 0 68px;
+    width: 68px;
+    height: 68px;
+    margin: 0 auto;
   }
 
   body.flashcard-study-mode .card-illustration-frame {
@@ -2093,8 +2094,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .card-illustration-svg svg {
-    max-width: 84px;
-    max-height: 84px;
+    max-width: 64px;
+    max-height: 64px;
   }
 
   body.flashcard-study-mode .card-content-col {
@@ -2102,63 +2103,70 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .hanzi {
-    font-size: clamp(52px, 14vw, 72px);
+    font-size: clamp(68px, 16vw, 94px);
     font-weight: 700;
-    line-height: 1.05;
+    line-height: 1.08;
+    margin: 4px 0 2px;
     white-space: nowrap;
     text-wrap: nowrap;
     max-width: 100%;
   }
   body.flashcard-study-mode .hanzi.is-len-3,
   body.flashcard-study-mode .hanzi[data-length="3"] {
-    font-size: clamp(42px, 11vw, 56px);
+    font-size: clamp(52px, 12vw, 68px);
   }
   body.flashcard-study-mode .hanzi.is-len-4,
   body.flashcard-study-mode .hanzi[data-length="4"] {
-    font-size: clamp(34px, 8.8vw, 44px);
+    font-size: clamp(40px, 9.5vw, 52px);
   }
   body.flashcard-study-mode .hanzi.is-len-5,
   body.flashcard-study-mode .hanzi[data-length="5"] {
-    font-size: clamp(28px, 7vw, 36px);
+    font-size: clamp(32px, 7.5vw, 42px);
   }
   body.flashcard-study-mode .hanzi.is-len-6-plus,
   body.flashcard-study-mode .hanzi.is-len-long,
   body.flashcard-study-mode .hanzi[data-length="6"],
   body.flashcard-study-mode .hanzi[data-length="7"],
   body.flashcard-study-mode .hanzi[data-length="8"] {
-    font-size: clamp(22px, 5.5vw, 30px);
+    font-size: clamp(24px, 5.8vw, 32px);
   }
 
   body.flashcard-study-mode .pinyin-row {
-    font-size: 21px;
+    font-size: 22px;
     gap: 6px;
     margin: 2px 0 0;
   }
 
   body.flashcard-study-mode .pinyin {
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--accent);
   }
   :root[data-theme="dark"] body.flashcard-study-mode .pinyin {
-    color: #e69d85;
+    color: #fbbf24;
   }
 
   body.flashcard-study-mode .pos-tag,
   body.flashcard-study-mode .pos-badge {
-    font-size: 0.78rem;
-    font-weight: 500;
-    padding: 1.5px 6px;
+    font-size: 11.5px;
+    font-weight: 600;
+    padding: 2px 6.5px;
     border-radius: 5px;
+    border: none;
   }
 
   body.flashcard-study-mode .hanviet-badge {
-    font-size: 0.8rem;
+    font-size: 11.5px;
     font-weight: 600;
-    padding: 1.5px 6px;
+    padding: 2px 6.5px;
     border-radius: 5px;
-    color: var(--accent);
-    background: var(--accent-light);
+    border: none;
+    color: #d97706;
+    background: rgba(245, 158, 11, 0.12);
+  }
+  :root[data-theme="dark"] body.flashcard-study-mode .hanviet-badge {
+    color: #fbbf24;
+    background: rgba(245, 158, 11, 0.15);
   }
 
   body.flashcard-study-mode .sound-btn {
@@ -2174,26 +2182,36 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .meaning {
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 21px;
+    font-weight: 700;
     line-height: 1.35;
-    margin: 4px 0 0;
+    margin: 6px 0 2px;
+    color: var(--text-primary);
   }
 
   body.flashcard-study-mode .example-box {
-    margin-top: 8px;
-    padding: 8px 12px;
+    margin-top: 10px;
+    padding: 12px 14px;
     border-radius: 12px;
-    max-height: 140px;
+    max-height: 160px;
+    border: none !important;
+    border-left: none !important;
+    box-shadow: none !important;
+    background: var(--surface-subtle);
+  }
+  :root[data-theme="dark"] body.flashcard-study-mode .example-box {
+    background: rgba(255, 255, 255, 0.04);
   }
 
   body.flashcard-study-mode .example-box .ex-header-row {
     margin-bottom: 4px;
     padding-bottom: 3px;
+    border-bottom: none;
   }
 
   body.flashcard-study-mode .example-box .ex-label {
-    font-size: 10px;
+    font-size: 10.5px;
+    font-weight: 700;
   }
 
   body.flashcard-study-mode .example-sound-btn {
@@ -2203,27 +2221,33 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .example-speed-picker summary {
     font-size: 10.5px;
-    padding: 1px 5px;
+    padding: 1px 6px;
+    border: none !important;
+    background: var(--surface-chip);
   }
 
   body.flashcard-study-mode .example-box .ex-zh {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
-    line-height: 1.45;
+    line-height: 1.5;
     margin-bottom: 2px;
+    color: var(--text-primary);
   }
 
   body.flashcard-study-mode .example-box .ex-py {
     font-size: 13.5px;
-    font-style: normal;
+    font-style: italic;
     line-height: 1.4;
     margin-bottom: 2px;
+    color: var(--text-secondary);
   }
 
   body.flashcard-study-mode .example-box .ex-vi {
     font-size: 14px;
-    font-weight: 500;
     line-height: 1.4;
+    font-weight: 450;
+    color: var(--text-primary);
+    opacity: 0.92;
   }
 
   body.flashcard-study-mode .hint {

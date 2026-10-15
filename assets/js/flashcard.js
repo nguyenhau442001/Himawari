@@ -13,19 +13,10 @@ function buildCardArea() {
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
             </span>
           </button>
-          <button type="button" class="card-tool-btn" id="hanvietToggle" onclick="toggleHanViet()" aria-label="Bật hoặc tắt âm Hán - Việt (H)" title="Bật hoặc tắt âm Hán - Việt (H)">
-            <span id="hanvietToggleIcon" class="tool-hanviet-text" aria-hidden="true">漢</span>
-          </button>
-          <button type="button" class="card-tool-btn" id="cardWritingBtn" onclick="toggleStudyWritingPanel()" aria-label="Luyện viết chữ Hán (W)" title="Luyện viết chữ Hán (W)">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
-          </button>
           <button type="button" class="card-tool-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)" aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
             <span id="weakWordToggleIcon" class="tool-icon-svg" aria-hidden="true">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
             </span>
-          </button>
-          <button type="button" class="card-tool-btn" id="transferToggle" onclick="toggleTransferPanel()" aria-label="Sao lưu tiến trình" title="Sao lưu tiến trình" aria-controls="transferPanel" aria-expanded="false">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
           </button>
         </div>
       </div>

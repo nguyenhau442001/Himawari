@@ -92,20 +92,33 @@ function renderDashboardEnhancements() {
       }
     }
     const todayCount = [...todayWords].filter(key => key.startsWith(level + ':')).length;
-    daily.classList.toggle('has-activity', todayCount > 0);
-    daily.textContent = `+${todayCount} từ hôm nay`;
+    if (todayCount > 0) {
+      daily.style.display = 'inline-flex';
+      daily.classList.add('has-activity');
+      daily.textContent = `+${todayCount} hôm nay`;
+    } else {
+      daily.style.display = 'none';
+      daily.classList.remove('has-activity');
+    }
     const rawPct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
     const pctStr = typeof formatProgressPercent === 'function'
       ? formatProgressPercent(known, cfg.total)
       : `${Math.round(rawPct)}%`;
     const percentValue = card.querySelector('.lvl-percent-value');
-    if (percentValue) percentValue.textContent = pctStr;
+    if (percentValue) {
+      percentValue.textContent = known > 0 ? pctStr : '0%';
+      percentValue.style.opacity = known > 0 ? '1' : '0.6';
+    }
     const legacyPercent = card.querySelector('.lvl-percent-complete');
     if (legacyPercent) legacyPercent.remove();
     const progressText = card.querySelector('.lvl-mastery-text');
-    if (progressText) progressText.textContent = `${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`;
+    if (progressText) {
+      progressText.textContent = known > 0
+        ? `${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`
+        : `0 / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`;
+    }
     const bar = card.querySelector('.lvl-mastery-fill');
-    if (bar) bar.style.width = `${known > 0 ? Math.max(rawPct, 0.75) : 0}%`;
+    if (bar) bar.style.width = `${known > 0 ? Math.max(rawPct, 1) : 0}%`;
     const actionHint = card.querySelector('.lvl-action-hint');
     if (actionHint) {
       actionHint.innerHTML = `${complete ? 'Ôn lại' : isLearning ? 'Học tiếp' : 'Học ngay'} <span aria-hidden="true">→</span>`;
