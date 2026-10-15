@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sea Area -->
+  <path d="M0 120 C 60 100, 180 100, 240 120 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  
+  <!-- The Peninsula (Land mass) -->
+  <path d="M80 120 C 80 60, 100 40, 120 40 C 140 40, 160 60, 160 120" fill="#E67E22"/>
+  
+  <!-- Human Character Action: Exploring/Mapping the Peninsula -->
+  <!-- Arm reaching out to touch/point at the land -->
+  <g transform="translate(160, 80)">
+    <circle cx="10" cy="10" r="8" fill="#F1C40F"/>
+    <path d="M10 18 L 10 40 M 10 25 L 25 35 M 10 25 L -5 35" stroke="#F1C40F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M10 40 L 15 60 M 10 40 L 5 60" stroke="#F1C40F" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion lines indicating the action of defining/pointing at the peninsula -->
+  <path d="M175 75 Q 185 65 200 65" stroke="#F1C40F" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M175 85 Q 190 80 210 80" stroke="#F1C40F" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Decorative coastal waves -->
+  <path d="M0 130 Q 20 120 40 130 T 80 130" stroke="#34495E" stroke-width="2" fill="none"/>
+  <path d="M160 130 Q 180 120 200 130 T 240 130" stroke="#34495E" stroke-width="2" fill="none"/>
+</svg>

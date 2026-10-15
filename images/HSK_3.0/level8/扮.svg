@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (subtle stage spotlight) -->
+  <path d="M70 45 L170 45 L200 200 L40 200 Z" fill="#252A34" opacity="0.4"/>
+  <ellipse cx="120" cy="205" rx="70" ry="12" fill="#111318"/>
+
+  <!-- Hanger/Costuming structure (Representing "扮" - disguise / dressing up / roleplay) -->
+  <!-- Wooden/Modern Hanger Hook -->
+  <path d="M120 42 C120 34 128 30 134 35 C139 40 136 48 128 50 L120 52" fill="none" stroke="#A0A8B8" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Hanger Bar -->
+  <polygon points="120,52 45,78 195,78" fill="#3A4252"/>
+  <rect x="40" y="76" width="160" height="5" rx="2.5" fill="#4E596B"/>
+
+  <!-- Mysterious Wizard Cloak / Disguise Costume ("打扮") -->
+  <!-- Hood/Collar -->
+  <path d="M95 78 C95 70 120 62 145 78 C135 90 105 90 95 78 Z" fill="#6C5CE7"/>
+  <path d="M110 75 L120 88 L130 75" fill="none" stroke="#8A7FF0" stroke-width="2"/>
+
+  <!-- Flowing Dark Cloak Body with mystical gradient/accents -->
+  <path d="M60 82 L180 82 L195 190 C195 190 150 198 120 198 C90 198 45 190 45 190 Z" fill="#2D2B55"/>
+  <path d="M75 82 L165 82 L185 190 C185 190 145 195 120 195 C95 195 55 190 55 190 Z" fill="#3D3A6B"/>
+
+  <!-- Mystical Gold/Orange Accents (Wizard theme alignment with reference sentence) -->
+  <path d="M120 95 L124 120 L120 145 L116 120 Z" fill="#FFB800"/>
+  <circle cx="120" cy="120" r="4" fill="#FFE58F"/>
+
+  <!-- Floating Magic / Transformation Sparkles -->
+  <path d="M75 110 L78 116 L84 119 L78 122 L75 128 L72 122 L66 119 L72 116 Z" fill="#FFB800" opacity="0.8"/>
+  <path d="M165 135 L167 139 L171 141 L167 143 L165 147 L163 143 L159 141 L163 139 Z" fill="#FFB800" opacity="0.9"/>
+  <path d="M95 160 L96 163 L99 164 L96 165 L95 168 L94 165 L91 164 L94 163 Z" fill="#FFB800" opacity="0.6"/>
+
+  <!-- Mask / Disguise Element hanging from center -->
+  <g transform="translate(120, 155)">
+    <path d="M-18 -8 C-18 -16 18 -16 18 -8 C18 4 10 12 0 16 C-10 12 -18 4 -18 -8 Z" fill="#1A1D24" stroke="#FFB800" stroke-width="2.5"/>
+    <circle cx="-7" cy="-4" r="3.5" fill="#FFB800"/>
+    <circle cx="7" cy="-4" r="3.5" fill="#FFB800"/>
+    <path d="M-3 6 C0 9 3 6 3 6" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

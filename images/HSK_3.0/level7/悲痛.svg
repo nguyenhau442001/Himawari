@@ -1,0 +1,34 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle emotional atmosphere/glow behind the character -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Character representing deep sorrow (悲痛) -->
+  <g transform="translate(0, 10)">
+    <!-- Drooping head / Slumped posture body outline -->
+    <path d="M 85 155 Q 90 130 110 125 L 130 125 Q 150 130 155 155 L 165 185 Q 168 195 155 195 L 85 195 Q 72 195 75 185 Z" fill="#2C3545"/>
+    
+    <!-- Collapsed shoulders / hunched back -->
+    <path d="M 70 140 Q 120 115 170 140 Q 185 170 170 185 L 70 185 Q 55 170 70 140 Z" fill="#323C4D"/>
+
+    <!-- Head bowed down -->
+    <circle cx="120" cy="98" r="24" fill="#E0A96D"/>
+
+    <!-- Hair draped forward over face to emphasize grief -->
+    <path d="M 96 90 Q 120 70 144 90 Q 146 105 138 115 L 130 100 Q 120 108 110 100 L 102 115 Q 94 105 96 90 Z" fill="#22252B"/>
+
+    <!-- Hands clasped / holding head in anguish -->
+    <circle cx="106" cy="110" r="7" fill="#E0A96D"/>
+    <circle cx="134" cy="110" r="7" fill="#E0A96D"/>
+    <!-- Interlaced arms forming the posture of bearing heavy sorrow -->
+    <path d="M 100 115 Q 120 125 140 115" stroke="#323C4D" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+    <!-- Focal Accent: Heavy teardrop symbolizing intense emotional pain (悲痛) -->
+    <path d="M 120 128 C 120 128 113 138 113 144 C 113 148 116 151 120 151 C 124 151 127 148 127 144 C 127 138 120 128 120 128 Z" fill="#4DA6FF"/>
+  </g>
+
+  <!-- Base ground line -->
+  <line x1="60" y1="205" x2="180" y2="205" stroke="#2C3545" stroke-width="3" stroke-linecap="round"/>
+</svg>

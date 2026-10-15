@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptual representation of "包容" (Inclusivity/Tolerance): 
+       A large, open, stylized vessel (representing the city/mind) 
+       receiving diverse shapes (representing different cultures/people) 
+       into a harmonious, unified space. -->
+  
+  <g transform="translate(40, 60)">
+    <!-- The Vessel (The City/Mind) -->
+    <path d="M20 120 L140 120 L120 40 L40 40 Z" fill="#2C3440" stroke="#FFB84D" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Diverse elements being accepted -->
+    <circle cx="60" cy="90" r="12" fill="#FFB84D"/>
+    <rect x="90" y="80" width="20" height="20" rx="4" fill="#5DADE2" transform="rotate(15 100 90)"/>
+    <path d="M75 55 L85 70 L65 70 Z" fill="#A9DFBF"/>
+    
+    <!-- Representing the "Sea" (海纳百川) - Flowing lines entering the vessel -->
+    <path d="M-20 20 Q 80 20 80 40" stroke="#5DADE2" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M180 20 Q 80 20 80 40" stroke="#FFB84D" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

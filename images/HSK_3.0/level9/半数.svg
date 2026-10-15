@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(40, 50)">
+    <!-- Main Group Representation (4 figures) -->
+    <!-- Back row, left person (inactive/greyed) -->
+    <circle cx="35" cy="45" r="12" fill="#3A4150"/>
+    <path d="M19 80 C19 65 51 65 51 80" fill="#3A4150"/>
+    
+    <!-- Back row, right person (inactive/greyed) -->
+    <circle cx="125" cy="45" r="12" fill="#3A4150"/>
+    <path d="M109 80 C109 65 141 65 141 80" fill="#3A4150"/>
+
+    <!-- Front row, left person (active - half 1) -->
+    <circle cx="65" cy="95" r="14" fill="#38BDF8"/>
+    <path d="M45 136 C45 116 85 116 85 136" fill="#38BDF8"/>
+    <circle cx="65" cy="85" r="6" fill="#1A1D24"/> <!-- subtle detail -->
+
+    <!-- Front row, right person (active - half 2) -->
+    <circle cx="95" cy="95" r="14" fill="#38BDF8"/>
+    <path d="M75 136 C75 116 115 116 115 136" fill="#38BDF8"/>
+    <circle cx="95" cy="85" r="6" fill="#1A1D24"/> <!-- subtle detail -->
+
+    <!-- Dividing / Half indicator bracket & line -->
+    <path d="M15 18 L15 10 L145 10 L145 18" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="80" y1="10" x2="80" y2="150" stroke="#F59E0B" stroke-dasharray="4,4" stroke-width="2" opacity="0.8"/>
+    
+    <!-- Focus badge/dot on top of divider -->
+    <circle cx="80" cy="10" r="5" fill="#F59E0B"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background atmosphere (warm connection glow) -->
+  <circle cx="120" cy="120" r="70" fill="#242B38" opacity="0.6"/>
+  <path d="M 80,185 Q 120,165 160,185" stroke="#323B4C" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Shared Journey / Companion Visual (Childhood friends walking together) -->
+  <!-- Left character (Child 1) -->
+  <g transform="translate(85, 105)">
+    <!-- Body / Clothes -->
+    <path d="M -15,45 C -15,25 -8,20 0,20 C 8,20 15,25 15,45 Z" fill="#4B6B94"/>
+    <!-- Head -->
+    <circle cx="0" cy="5" r="14" fill="#E8B896"/>
+    <!-- Hair -->
+    <path d="M -14,3 C -14,-7 -4,-10 0,-10 C 6,-10 14,-7 14,3 C 10,-2 5,-3 0,-3 C -5,-3 -10,-2 -14,3 Z" fill="#2C2421"/>
+    <!-- Back arm (holding hands) -->
+    <path d="M 10,28 C 15,30 20,32 25,35" stroke="#E8B896" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Front leg -->
+    <rect x="-7" y="43" width="5" height="22" rx="2.5" fill="#2E4057"/>
+    <!-- Back leg -->
+    <rect x="2" y="43" width="5" height="22" rx="2.5" fill="#243244"/>
+  </g>
+
+  <!-- Right character (Child 2) -->
+  <g transform="translate(155, 105)">
+    <!-- Body / Clothes -->
+    <path d="M -15,45 C -15,25 -8,20 0,20 C 8,20 15,25 15,45 Z" fill="#D97746"/>
+    <!-- Head -->
+    <circle cx="0" cy="5" r="14" fill="#E8B896"/>
+    <!-- Hair (Pigtails / Style) -->
+    <path d="M -14,5 C -12,-6 -4,-10 0,-10 C 6,-10 13,-6 15,5 C 10,1 8,-3 0,-3 C -8,-3 -10,1 -14,5 Z" fill="#3D291D"/>
+    <circle cx="-14" cy="7" r="4" fill="#3D291D"/>
+    <circle cx="14" cy="7" r="4" fill="#3D291D"/>
+    <!-- Back arm reaching to hold hand -->
+    <path d="M -10,28 C -15,30 -22,32 -28,35" stroke="#E8B896" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Front leg -->
+    <rect x="-7" y="43" width="5" height="22" rx="2.5" fill="#A8572E"/>
+    <!-- Back leg -->
+    <rect x="2" y="43" width="5" height="22" rx="2.5" fill="#8C4725"/>
+  </g>
+
+  <!-- Interlocking hands (Companionship / 伴) -->
+  <circle cx="120" cy="140" r="6" fill="#E8B896"/>
+
+  <!-- Shared Path / Journey elements indicating growing up together -->
+  <path d="M 50,175 Q 120,165 190,175" stroke="#F4A261" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 12" fill="none" opacity="0.8"/>
+
+  <!-- Small growing sprout symbolizing "growing up together" (童年一起成长) -->
+  <g transform="translate(120, 85)">
+    <path d="M 0,20 C 0,10 0,0 0,-5" stroke="#52B788" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 0,5 C -6,0 -10,-8 -3,-12 C 2,-14 0,5 0,5 Z" fill="#74C69D"/>
+    <path d="M 0,0 C 6,-5 12,-10 6,-15 C 0,-18 0,0 0,0 Z" fill="#52B788"/>
+  </g>
+</svg>
