@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Wooden Gavel -->
+  <g transform="translate(120, 120)">
+    <!-- Handle -->
+    <rect x="-8" y="10" width="16" height="70" rx="4" fill="#D4AF37"/>
+    <!-- Head -->
+    <rect x="-60" y="-20" width="120" height="30" rx="6" fill="#FFC107"/>
+    <!-- Sound Block -->
+    <rect x="-40" y="80" width="80" height="15" rx="4" fill="#B8860B"/>
+  </g>
+  
+  <!-- Scale of Justice (Simplified) -->
+  <path d="M70 180 L170 180 M120 180 L120 140 M100 140 L140 140" stroke="#5D6D7E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="140" r="8" fill="#FFC107"/>
+  <circle cx="140" cy="140" r="8" fill="#FFC107"/>
+  
+  <!-- Decorative accent lines -->
+  <path d="M40 40 L60 40 M180 40 L200 40" stroke="#34495E" stroke-width="4" stroke-linecap="round"/>
+</svg>

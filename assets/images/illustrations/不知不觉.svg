@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background ambient book glow -->
+  <path d="M120 70 C 145 55, 175 60, 190 75 L 190 170 C 175 155, 145 150, 120 165 Z" fill="#242933"/>
+  <path d="M120 70 C 95 55, 65 60, 50 75 L 50 170 C 65 155, 95 150, 120 165 Z" fill="#242933"/>
+
+  <!-- Open Book (The engaging story) -->
+  <path d="M50 75 C 70 70, 105 75, 120 90 L 120 175 C 105 160, 70 155, 50 160 Z" fill="#2D3748"/>
+  <path d="M190 75 C 170 70, 135 75, 120 90 L 120 175 C 135 160, 170 155, 190 160 Z" fill="#323D4D"/>
+  
+  <!-- Pages inner -->
+  <path d="M56 83 C 73 79, 103 84, 115 96 L 115 166 C 103 154, 73 149, 56 153 Z" fill="#EDF2F7"/>
+  <path d="M184 83 C 167 79, 137 84, 125 96 L 125 166 C 137 154, 167 149, 184 153 Z" fill="#F7FAFC"/>
+
+  <!-- Story text lines (abstracted) -->
+  <g fill="#A0AEC0" opacity="0.6">
+    <rect x="68" y="98" width="35" height="4" rx="2"/>
+    <rect x="68" y="108" width="40" height="4" rx="2"/>
+    <rect x="68" y="118" width="30" height="4" rx="2"/>
+    <rect x="68" y="128" width="38" height="4" rx="2"/>
+    <rect x="68" y="138" width="25" height="4" rx="2"/>
+
+    <rect x="137" y="98" width="38" height="4" rx="2"/>
+    <rect x="137" y="108" width="32" height="4" rx="2"/>
+    <rect x="137" y="118" width="40" height="4" rx="2"/>
+    <rect x="137" y="128" width="28" height="4" rx="2"/>
+  </g>
+
+  <!-- Engaging magical story stream / immersion element rising from the book -->
+  <path d="M120 90 C 110 70, 130 50, 120 30" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M110 95 C 90 75, 105 45, 95 25" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+  <path d="M130 95 C 150 75, 135 45, 145 25" stroke="#F6AD55" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+
+  <!-- The Unconscious Passing of Time: Overlaid translucent glowing clock face -->
+  <circle cx="120" cy="115" r="48" fill="#1A1D24" fill-opacity="0.75" stroke="#F6AD55" stroke-width="3"/>
+  
+  <!-- Clock ticks -->
+  <circle cx="120" cy="71" r="1.5" fill="#CBD5E0"/>
+  <circle cx="120" cy="159" r="1.5" fill="#CBD5E0"/>
+  <circle cx="76" cy="115" r="1.5" fill="#CBD5E0"/>
+  <circle cx="164" cy="115" r="1.5" fill="#CBD5E0"/>
+
+  <!-- Clock hands showing time slipping away unnoticed (hours passed) -->
+  <line x1="120" y1="115" x2="120" y2="88" stroke="#F6AD55" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="120" y1="115" x2="146" y2="125" stroke="#ED8936" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="115" r="4" fill="#ED8936"/>
+
+  <!-- Motion trails / subtle drift indicators representing imperceptible passage -->
+  <path d="M162 90 C 170 85, 178 95, 185 90" stroke="#63B3ED" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M55 135 C 60 140, 68 132, 75 138" stroke="#63B3ED" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+</svg>

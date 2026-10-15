@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk/Table surface -->
+  <rect x="40" y="150" width="160" height="10" rx="2" fill="#343A46"/>
+  
+  <!-- The "Gift" (Envelope) being slid across the desk -->
+  <g transform="translate(120, 130)">
+    <rect x="-30" y="0" width="60" height="40" rx="4" fill="#FFB84D"/>
+    <path d="M-30 0 L0 20 L30 0" stroke="#E69138" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Hand 1 (Giving) -->
+  <path d="M70 160 C70 140 80 130 90 135 L110 145" stroke="#FFD1A9" stroke-width="12" stroke-linecap="round" fill="none"/>
+  
+  <!-- Hand 2 (Receiving/Taking) -->
+  <path d="M170 160 C170 140 160 130 150 135 L130 145" stroke="#FFD1A9" stroke-width="12" stroke-linecap="round" fill="none"/>
+  
+  <!-- Shadow/Atmosphere of corruption -->
+  <path d="M60 180 Q120 200 180 180" stroke="#FF5733" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  
+  <!-- Subtle visual metaphor for 'wind/negative trend' -->
+  <path d="M40 80 Q120 50 200 80" stroke="#FF5733" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M50 95 Q120 65 190 95" stroke="#FF5733" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

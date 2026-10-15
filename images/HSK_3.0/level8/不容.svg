@@ -1,0 +1,23 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Definition Context: "不容" (Strict boundary, absolute prohibition of intrusion/crossing) -->
+  <!-- Background subtle architectural elements representing sovereign space -->
+  <path d="M60 180 L180 180" stroke="#2A2F3D" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Majestic boundary wall / demarcation representing the inviolable baseline (底线) -->
+  <rect x="70" y="80" width="100" height="90" rx="4" fill="#222733"/>
+  
+  <!-- Central Physical Object: A massive, impenetrable physical barrier gate with a stern red seal/barrier indicator representing "不容" (absolute prohibition/intolerance of crossing) -->
+  <path d="M120 70 L150 95 L150 165 L90 165 L90 95 Z" fill="#2C3344" stroke="#3A445C" stroke-width="2"/>
+  
+  <!-- Strong golden gate reinforcement representing absolute security and sovereignty -->
+  <rect x="104" y="105" width="32" height="50" rx="2" fill="#E6AF2E" opacity="0.9"/>
+  <circle cx="120" cy="132" r="3" fill="#1A1D24"/>
+
+  <!-- Crossing prohibition symbol (Visualizing "不容" - Absolutely no trespassing / interference) -->
+  <circle cx="120" cy="120" r="42" fill="none" stroke="#E63946" stroke-width="6" opacity="0.95"/>
+  <line x1="90" y1="90" x2="150" y2="150" stroke="#E63946" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+
+</svg>

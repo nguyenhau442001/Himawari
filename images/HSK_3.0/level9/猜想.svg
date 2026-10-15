@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Central Physical Object: A classic mechanical chalkboard compass / divider resting on a mathematical grid, symbolizing rigorous deduction and hypothesis (猜想) -->
+    
+    <!-- Background mathematical grid lines (faint, precise) -->
+    <line x1="40" y1="120" x2="200" y2="120" stroke="#2A303C" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="120" y1="40" x2="120" y2="200" stroke="#2A303C" stroke-width="1" stroke-dasharray="4,4"/>
+    
+    <!-- Subtle dotted arc representing the hypothesis sweep -->
+    <path d="M 60 160 A 90 90 0 0 1 180 160" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3,5" opacity="0.4"/>
+
+    <!-- Mathematical Formula / Node hints (clean geometric points) -->
+    <circle cx="120" cy="70" r="3" fill="#60A5FA"/>
+    <circle cx="85" cy="140" r="3" fill="#60A5FA"/>
+    <circle cx="155" cy="140" r="3" fill="#60A5FA"/>
+    <line x1="120" y1="70" x2="85" y2="140" stroke="#3B82F6" stroke-width="1.5" opacity="0.6"/>
+    <line x1="120" y1="70" x2="155" y2="140" stroke="#3B82F6" stroke-width="1.5" opacity="0.6"/>
+    <line x1="85" y1="140" x2="155" y2="140" stroke="#3B82F6" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Main Drafting Compass / Divider (Physical Object representing mathematical exploration) -->
+    <!-- Pivot Head (Brass/Gold accent) -->
+    <circle cx="120" cy="70" r="7" fill="#F59E0B"/>
+    <circle cx="120" cy="70" r="3.5" fill="#1A1D24"/>
+
+    <!-- Left Leg -->
+    <path d="M 117 74 L 82 178 C 81 180, 83 182, 85 181 L 91 176 L 121 82 Z" fill="#94A3B8"/>
+    <path d="M 117 74 L 82 178 L 86 179 L 121 82 Z" fill="#CBD5E1"/>
+
+    <!-- Right Leg (Slightly angled out for projection) -->
+    <path d="M 123 74 L 158 178 C 159 180, 157 182, 155 181 L 149 176 L 119 82 Z" fill="#64748B"/>
+    <path d="M 123 74 L 158 178 L 154 179 L 119 82 Z" fill="#94A3B8"/>
+
+    <!-- Adjustable Hinge Bar across the legs -->
+    <rect x="98" y="115" width="44" height="6" rx="2" fill="#475569" transform="rotate(5, 120, 118)"/>
+    <circle cx="120" cy="118" r="2.5" fill="#F59E0B"/>
+
+    <!-- Sharp Steel Tips at the bottom -->
+    <path d="M 82 178 L 79 190 L 85 181 Z" fill="#E2E8F0"/>
+    <path d="M 158 178 L 161 190 L 155 181 Z" fill="#CBD5E1"/>
+
+    <!-- Glowing focal point at the working tip (symbolizing the moment of insight / deduction) -->
+    <circle cx="80" cy="190" r="4" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="80" cy="190" r="8" fill="#F59E0B" opacity="0.2"/>
+  </g>
+</svg>

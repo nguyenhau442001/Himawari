@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Cotton Plant -->
+  <g transform="translate(120, 180)">
+    <path d="M-10,0 L-10,-80 M-10,-40 L-30,-50 M-10,-60 L10,-70" stroke="#5D4037" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-30" cy="-50" r="12" fill="#FFFFFF"/>
+    <circle cx="10" cy="-70" r="14" fill="#FFFFFF"/>
+    <circle cx="-5" cy="-90" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Human Hand Picking Action -->
+  <g transform="translate(130, 90)">
+    <!-- Arm -->
+    <path d="M0,0 L40,40" stroke="#FFB74D" stroke-width="12" stroke-linecap="round"/>
+    <!-- Hand -->
+    <g fill="#FFB74D">
+      <path d="M35,35 L55,25 L65,45 L45,55 Z" />
+      <path d="M50,20 L60,15 L70,35 L60,40 Z" />
+    </g>
+    <!-- Motion Lines -->
+    <path d="M75,20 L95,10 M80,35 L100,25" stroke="#FFB74D" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+  </g>
+
+  <!-- Ground/Field base -->
+  <path d="M0,200 L240,200 L240,240 L0,240 Z" fill="#263238"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Sun (Light) -->
+  <circle cx="120" cy="60" r="20" fill="#FFB800"/>
+  <path d="M120 25V10M120 110V95M155 60H170M70 60H85M145 35L155 25M95 85L85 95M145 85L155 95M95 35L85 25" stroke="#FFB800" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Air (Wind/Breeze lines) -->
+  <path d="M40 130C60 130 70 120 80 120C90 120 100 130 120 130" stroke="#E0E0E0" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M30 145C50 145 60 135 70 135C80 135 90 145 110 145" stroke="#E0E0E0" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Water (Droplet) -->
+  <path d="M120 160C120 160 145 185 145 205C145 218.807 133.807 230 120 230C106.193 230 95 218.807 95 205C95 185 120 160 120 160Z" fill="#3498DB"/>
+  
+  <!-- Connecting lines to show they are the core elements -->
+  <line x1="120" y1="80" x2="120" y2="160" stroke="#4A5568" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor line for grounding characters -->
+  <line x1="40" y1="185" x2="200" y2="185" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Character 1 (Left) - Rising up synchronously -->
+  <g id="person-left" transform="translate(65, 95)">
+    <!-- Body / Torso (slanted upward suggesting rising motion) -->
+    <path d="M 5 60 Q 15 35 25 25 L 35 40 Q 25 50 20 90 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="28" cy="15" r="10" fill="#FBBF24"/>
+    <!-- Rising Action Arms (Clapping / Standing gesture) -->
+    <path d="M 12 45 L 38 32 L 48 42" fill="none" stroke="#60A5FA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Legs (Standing up from chair pose) -->
+    <path d="M 18 90 L 15 110" fill="none" stroke="#1E40AF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 27 90 L 32 110" fill="none" stroke="#1E40AF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2 (Center) - Rising up synchronously -->
+  <g id="person-center" transform="translate(105, 90)">
+    <!-- Body / Torso -->
+    <path d="M 5 65 Q 15 40 25 30 L 35 45 Q 25 55 20 95 Z" fill="#10B981"/>
+    <!-- Head -->
+    <circle cx="28" cy="18" r="10" fill="#FBBF24"/>
+    <!-- Rising Action Arms -->
+    <path d="M 12 48 L 40 35 L 48 48" fill="none" stroke="#34D399" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Legs -->
+    <path d="M 18 95 L 16 115" fill="none" stroke="#047857" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 27 95 L 30 115" fill="none" stroke="#047857" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 3 (Right) - Rising up synchronously -->
+  <g id="person-right" transform="translate(145, 95)">
+    <!-- Body / Torso -->
+    <path d="M 5 60 Q 15 35 25 25 L 35 40 Q 25 50 20 90 Z" fill="#EC4899"/>
+    <!-- Head -->
+    <circle cx="28" cy="15" r="10" fill="#FBBF24"/>
+    <!-- Rising Action Arms -->
+    <path d="M 12 45 L 38 32 L 46 44" fill="none" stroke="#F472B6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Legs -->
+    <path d="M 18 90 L 14 110" fill="none" stroke="#BE185D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 27 90 L 31 110" fill="none" stroke="#BE185D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Synchronized Action Indicator (Parallel upward motion vectors) -->
+  <g stroke="#FBBF24" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4" opacity="0.8">
+    <path d="M 78 80 L 78 50"/>
+    <path d="M 118 75 L 118 45"/>
+    <path d="M 158 80 L 158 50"/>
+  </g>
+
+  <!-- Arrowheads for upward synchronicity -->
+  <g fill="#FBBF24" opacity="0.9">
+    <polygon points="78,42 74,50 82,50"/>
+    <polygon points="118,37 114,45 122,45"/>
+    <polygon points="158,42 154,50 162,50"/>
+  </g>
+
+</svg>

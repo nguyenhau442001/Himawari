@@ -1,0 +1,68 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Character representing "不知所措" (Clueless/Perplexed individual in an unexpected situation) -->
+  <g transform="translate(0, 5)">
+    <!-- Dropped papers/exam sheets scattered below to hint at the context -->
+    <g transform="rotate(-15 65 175)">
+      <rect x="50" y="160" width="30" height="40" rx="2" fill="#2A2F3D" stroke="#3E4556" stroke-width="1.5"/>
+      <line x1="56" y1="170" x2="74" y2="170" stroke="#4E566B" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="56" y1="178" x2="70" y2="178" stroke="#4E566B" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="56" y1="186" x2="68" y2="186" stroke="#4E566B" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <g transform="rotate(20 175 165)">
+      <rect x="160" y="150" width="30" height="40" rx="2" fill="#2A2F3D" stroke="#3E4556" stroke-width="1.5"/>
+      <line x1="166" y1="160" x2="184" y2="160" stroke="#4E566B" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="166" y1="168" x2="180" y2="168" stroke="#4E566B" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Character Body & Outfit -->
+    <!-- Torso -->
+    <path d="M 90 175 L 95 130 Q 120 120 145 130 L 150 175 Z" fill="#31394D"/>
+    <path d="M 120 130 L 108 145 L 120 155 L 132 145 Z" fill="#E8EDF2"/> <!-- Collar / Shirt -->
+    
+    <!-- Raised Arms showing bewilderment ("what to do with hands") -->
+    <!-- Left Arm (bent up awkwardly) -->
+    <path d="M 92 135 Q 75 110 70 90" fill="none" stroke="#31394D" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="68" cy="85" r="7" fill="#F4C293"/> <!-- Left Hand -->
+    
+    <!-- Right Arm (raised high, palm open) -->
+    <path d="M 148 135 Q 165 110 172 88" fill="none" stroke="#31394D" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="175" cy="82" r="7" fill="#F4C293"/> <!-- Right Hand -->
+
+    <!-- Head and Face -->
+    <!-- Neck -->
+    <rect x="113" y="115" width="14" height="20" fill="#F4C293"/>
+
+    <!-- Head Base -->
+    <circle cx="120" cy="95" r="26" fill="#F4C293"/>
+
+    <!-- Hair -->
+    <path d="M 94 95 Q 94 70 120 68 Q 146 70 146 95 Q 135 78 120 78 Q 105 78 94 95 Z" fill="#2C2421"/>
+
+    <!-- Facial Expression: Wide eyes, open worried mouth, sweat drop -->
+    <!-- Eyebrows (slanted upward in distress) -->
+    <line x1="104" y1="87" x2="114" y2="90" stroke="#2C2421" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="126" y1="90" x2="136" y2="87" stroke="#2C2421" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Eyes (Wide, nervous dots with slight highlights) -->
+    <circle cx="109" cy="96" r="3" fill="#2C2421"/>
+    <circle cx="131" cy="96" r="3" fill="#2C2421"/>
+
+    <!-- Open "O" Mouth (expressing speechlessness/shock) -->
+    <ellipse cx="120" cy="107" rx="4" ry="5.5" fill="#2C2421"/>
+
+    <!-- Sweat Drop (Classic anime trope for panic/anxiety) -->
+    <path d="M 138 82 Q 144 88 144 93 Q 144 98 138 98 Q 132 98 132 93 Q 132 88 138 82 Z" fill="#5BC0EB"/>
+    <path d="M 136 91 Q 138 88 140 86" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Question marks / Confusion visual cues floating subtly -->
+    <g fill="#FFAA00" opacity="0.85">
+      <!-- Left Question Mark -->
+      <path d="M 78 58 Q 78 50 86 50 Q 94 50 94 56 Q 94 62 86 66 L 86 71 M 86 77 L 86 79" stroke="#FFAA00" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <!-- Right Question Mark -->
+      <path d="M 152 48 Q 152 40 160 40 Q 168 40 168 46 Q 168 52 160 56 L 160 61 M 160 67 L 160 69" stroke="#FFAA00" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+  </g>
+</svg>

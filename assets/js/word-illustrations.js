@@ -35682,6 +35682,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/不动产.svg",
     "caption": "bất động sản"
   },
+  "不力": {
+    "file": "不力.svg",
+    "src": "images/HSK_3.0/level7/不力.svg",
+    "caption": "bất lực, không hết sức, thiếu hiệu quả"
+  },
   "不妙": {
     "file": "不妙.svg",
     "src": "images/HSK_3.0/level7/不妙.svg",
@@ -35716,6 +35721,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "不厌其烦.svg",
     "src": "images/HSK_3.0/level7/不厌其烦.svg",
     "caption": "không ngại phiền hà, kiên nhẫn hết lòng"
+  },
+  "不亚于": {
+    "file": "不亚于.svg",
+    "src": "images/HSK_3.0/level7/不亚于.svg",
+    "caption": "không thua kém gì, chẳng kém"
+  },
+  "不翼而飞": {
+    "file": "不翼而飞.svg",
+    "src": "images/HSK_3.0/level7/不翼而飞.svg",
+    "caption": "không cánh mà bay, biến mất không dấu vết"
+  },
+  "不亦乐乎": {
+    "file": "不亦乐乎.svg",
+    "src": "images/HSK_3.0/level7/不亦乐乎.svg",
+    "caption": "chẳng phải vui sao; mải mê tíu tít"
+  },
+  "不正之风": {
+    "file": "不正之风.svg",
+    "src": "images/HSK_3.0/level7/不正之风.svg",
+    "caption": "thói hư tật xấu, trào lưu tiêu cực, tệ nạn"
+  },
+  "捕获": {
+    "file": "捕获.svg",
+    "src": "images/HSK_3.0/level7/捕获.svg",
+    "caption": "bắt giữ, săn bắt được, thu được"
+  },
+  "补给": {
+    "file": "补给.svg",
+    "src": "images/HSK_3.0/level7/补给.svg",
+    "caption": "tiếp tế, hậu cần tiếp tế"
+  },
+  "捕食": {
+    "file": "捕食.svg",
+    "src": "images/HSK_3.0/level7/捕食.svg",
+    "caption": "săn mồi, bắt mồi"
+  },
+  "哺育": {
+    "file": "哺育.svg",
+    "src": "images/HSK_3.0/level7/哺育.svg",
+    "caption": "nuôi dưỡng, ươm mầm"
+  },
+  "补助": {
+    "file": "补助.svg",
+    "src": "images/HSK_3.0/level7/补助.svg",
+    "caption": "phụ cấp, trợ cấp"
+  },
+  "不经意": {
+    "file": "不经意.svg",
+    "src": "images/HSK_3.0/level7/不经意.svg",
+    "caption": "vô tình, không để ý, vô ý"
+  },
+  "不予": {
+    "file": "不予.svg",
+    "src": "images/HSK_3.0/level7/不予.svg",
+    "caption": "không chuẩn y, bác bỏ, không chấp thuận"
+  },
+  "不准": {
+    "file": "不准.svg",
+    "src": "images/HSK_3.0/level7/不准.svg",
+    "caption": "cấm, không được phép; không chuẩn"
+  },
+  "不耻下问": {
+    "file": "不耻下问.svg",
+    "src": "images/HSK_3.0/level7/不耻下问.svg",
+    "caption": "không ngại học hỏi kẻ dưới, khiêm tốn học hỏi"
+  },
+  "不辞而别": {
+    "file": "不辞而别.svg",
+    "src": "images/HSK_3.0/level7/不辞而别.svg",
+    "caption": "ra đi không từ biệt, bỏ đi không nói một lời"
+  },
+  "不得而知": {
+    "file": "不得而知.svg",
+    "src": "images/HSK_3.0/level7/不得而知.svg",
+    "caption": "không thể biết được, chưa rõ"
+  },
+  "不乏": {
+    "file": "不乏.svg",
+    "src": "images/HSK_3.0/level7/不乏.svg",
+    "caption": "không thiếu, có không ít"
+  },
+  "不法": {
+    "file": "不法.svg",
+    "src": "images/HSK_3.0/level7/不法.svg",
+    "caption": "phi pháp, bất hợp pháp"
+  },
+  "不服": {
+    "file": "不服.svg",
+    "src": "images/HSK_3.0/level7/不服.svg",
+    "caption": "không phục, không chịu"
+  },
+  "不及": {
+    "file": "不及.svg",
+    "src": "images/HSK_3.0/level7/不及.svg",
+    "caption": "không bằng, kém hơn, không kịp"
+  },
+  "部件": {
+    "file": "部件.svg",
+    "src": "images/HSK_3.0/level7/部件.svg",
+    "caption": "linh kiện, bộ phận cấu thành"
+  },
+  "不假思索": {
+    "file": "不假思索.svg",
+    "src": "images/HSK_3.0/level7/不假思索.svg",
+    "caption": "không cần suy nghĩ, phản ứng lập tức"
+  },
+  "不解": {
+    "file": "不解.svg",
+    "src": "images/HSK_3.0/level7/不解.svg",
+    "caption": "không hiểu nổi, khó hiểu"
+  },
+  "不景气": {
+    "file": "不景气.svg",
+    "src": "images/HSK_3.0/level7/不景气.svg",
+    "caption": "ảm đạm, suy thoái (kinh tế)"
+  },
+  "不可或缺": {
+    "file": "不可或缺.svg",
+    "src": "images/HSK_3.0/level7/不可或缺.svg",
+    "caption": "không thể thiếu được, tuyệt đối tất yếu"
+  },
+  "不了了之": {
+    "file": "不了了之.svg",
+    "src": "images/HSK_3.0/level7/不了了之.svg",
+    "caption": "bỏ dở nửa chừng, lẳng lặng cho qua"
+  },
+  "不免": {
+    "file": "不免.svg",
+    "src": "images/HSK_3.0/level7/不免.svg",
+    "caption": "khó tránh khỏi, ắt không tránh được"
+  },
+  "不平": {
+    "file": "不平.svg",
+    "src": "images/HSK_3.0/level7/不平.svg",
+    "caption": "bất bình, không công bằng"
+  },
+  "不容": {
+    "file": "不容.svg",
+    "src": "images/HSK_3.0/level7/不容.svg",
+    "caption": "không cho phép, không thể (trì hoãn)"
+  },
+  "步入": {
+    "file": "步入.svg",
+    "src": "images/HSK_3.0/level7/步入.svg",
+    "caption": "bước vào"
+  },
+  "部首": {
+    "file": "部首.svg",
+    "src": "images/HSK_3.0/level7/部首.svg",
+    "caption": "bộ thủ (chữ Hán)"
+  },
+  "部署": {
+    "file": "部署.svg",
+    "src": "images/HSK_3.0/level7/部署.svg",
+    "caption": "bố trí triển khai, sắp đặt kế hoạch"
+  },
+  "不以为然": {
+    "file": "不以为然.svg",
+    "src": "images/HSK_3.0/level7/不以为然.svg",
+    "caption": "không cho là đúng, tỏ ý phản đối"
+  },
+  "不由自主": {
+    "file": "不由自主.svg",
+    "src": "images/HSK_3.0/level7/不由自主.svg",
+    "caption": "bất giác, không kìm được lòng"
+  },
+  "不约而同": {
+    "file": "不约而同.svg",
+    "src": "images/HSK_3.0/level7/不约而同.svg",
+    "caption": "không hẹn mà cùng, cùng chung suy nghĩ"
+  },
+  "不折不扣": {
+    "file": "不折不扣.svg",
+    "src": "images/HSK_3.0/level7/不折不扣.svg",
+    "caption": "hoàn toàn đích thực, không một chút sai lệch"
+  },
+  "不知不觉": {
+    "file": "不知不觉.svg",
+    "src": "images/HSK_3.0/level7/不知不觉.svg",
+    "caption": "bất giác, lúc nào không hay"
+  },
+  "不知所措": {
+    "file": "不知所措.svg",
+    "src": "images/HSK_3.0/level7/不知所措.svg",
+    "caption": "lúng túng luống cuống, không biết làm sao"
+  },
+  "猜想": {
+    "file": "猜想.svg",
+    "src": "images/HSK_3.0/level7/猜想.svg",
+    "caption": "phỏng đoán, suy đoán"
+  },
+  "裁": {
+    "file": "裁.svg",
+    "src": "images/HSK_3.0/level7/裁.svg",
+    "caption": "cắt may, cắt giảm, phán quyết"
+  },
+  "裁定": {
+    "file": "裁定.svg",
+    "src": "images/HSK_3.0/level7/裁定.svg",
+    "caption": "phán quyết, quyết định (tòa án)"
+  },
+  "财经": {
+    "file": "财经.svg",
+    "src": "images/HSK_3.0/level7/财经.svg",
+    "caption": "tài chính kinh tế"
+  },
+  "裁决": {
+    "file": "裁决.svg",
+    "src": "images/HSK_3.0/level7/裁决.svg",
+    "caption": "phán quyết, phán xử"
+  },
+  "财力": {
+    "file": "财力.svg",
+    "src": "images/HSK_3.0/level7/财力.svg",
+    "caption": "tài lực, tiềm lực tài chính"
+  },
+  "采": {
+    "file": "采.svg",
+    "src": "images/HSK_3.0/level7/采.svg",
+    "caption": "hái, ngắt; khai thác"
+  },
+  "采矿": {
+    "file": "采矿.svg",
+    "src": "images/HSK_3.0/level7/采矿.svg",
+    "caption": "khai khoáng, khai thác mỏ"
+  },
+  "采摘": {
+    "file": "采摘.svg",
+    "src": "images/HSK_3.0/level7/采摘.svg",
+    "caption": "chọn"
+  },
+  "参见": {
+    "file": "参见.svg",
+    "src": "images/HSK_3.0/level7/参见.svg",
+    "caption": "tham kiến, bái kiến; xem thêm (tham chiếu)"
+  },
+  "残": {
+    "file": "残.svg",
+    "src": "images/HSK_3.0/level7/残.svg",
+    "caption": "tàn tật, tàn phế, sót lại"
+  },
+  "残缺": {
+    "file": "残缺.svg",
+    "src": "images/HSK_3.0/level7/残缺.svg",
+    "caption": "sứt mẻ, khiếm khuyết, không trọn vẹn"
+  },
+  "惨": {
+    "file": "惨.svg",
+    "src": "images/HSK_3.0/level7/惨.svg",
+    "caption": "thê thảm, thảm thương"
   }
 };
 

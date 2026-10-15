@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Bed/Sleeping area representing the place where the person was -->
+  <rect x="60" y="150" width="120" height="20" rx="4" fill="#3A3F4B"/>
+  <rect x="65" y="130" width="40" height="20" rx="4" fill="#5D6679"/>
+  
+  <!-- The departing figure (silhouette) walking away towards the edge -->
+  <g transform="translate(160, 120)">
+    <circle cx="0" cy="0" r="12" fill="#FFB84D"/>
+    <rect x="-4" y="12" width="8" height="30" rx="2" fill="#FFB84D"/>
+    <path d="M-4 25 L-15 45 M4 25 L15 45" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-4 42 L-8 65 M4 42 L8 65" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Empty space/pathway indicating departure -->
+  <path d="M180 160 L240 160" stroke="#3A3F4B" stroke-width="4" stroke-dasharray="8 8"/>
+  
+  <!-- A single abandoned item (a small bag) left behind -->
+  <rect x="70" y="160" width="20" height="15" rx="2" fill="#FFB84D"/>
+  <path d="M75 160 L75 155 A5 5 0 0 1 85 155 L85 160" fill="none" stroke="#FFB84D" stroke-width="3"/>
+</svg>
