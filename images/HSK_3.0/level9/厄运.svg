@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Ominous storm cloud representing misfortune / hardship -->
+    <path d="M-45 -20 
+             C-55 -20 -65 -10 -65 5 
+             C-65 18 -53 25 -40 25 
+             L45 25 
+             C58 25 68 15 68 0 
+             C68 -15 56 -25 43 -25 
+             C41 -38 28 -48 12 -45 
+             C-2 -48 -15 -38 -20 -25 
+             C-30 -28 -40 -25 -45 -20 Z" 
+          fill="#2C3540" />
+          
+    <path d="M-35 -10 
+             C-43 -10 -50 -3 -50 8 
+             C-50 18 -41 22 -30 22 
+             L35 22 
+             C45 22 52 14 52 2 
+             C52 -10 43 -18 32 -18 
+             C30 -28 19 -35 7 -32 
+             C-4 -35 -14 -28 -17 -18 
+             C-23 -20 -30 -15 -35 -10 Z" 
+          fill="#3E4C59" />
+
+    <!-- Rain / Falling heavy misfortune elements (sleek angled drops) -->
+    <line x1="-30" y1="35" x2="-38" y2="55" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-10" y1="32" x2="-18" y2="52" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="10" y1="35" x2="2" y2="55" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="30" y1="32" x2="22" y2="52" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Central impact / obstacle object: a sharp cracked stone or heavy falling weight -->
+    <path d="M-18 65 L18 65 L24 95 L-24 95 Z" fill="#94A3B8" />
+    <path d="M-24 95 L24 95 L18 105 L-18 105 Z" fill="#64748B" />
+    
+    <!-- Sharp jagged crack across the weight -->
+    <path d="M-4 72 L3 82 L-2 88 L6 98" stroke="#1A1D24" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Golden accent glow underneath indicating heavy persistent trial -->
+    <ellipse cx="0" cy="110" rx="28" ry="5" fill="#F59E0B" opacity="0.3"/>
+  </g>
+</svg>

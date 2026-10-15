@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements for context (Service counter) -->
+  <path d="M40 180H200" stroke="#2A2F3B" stroke-width="3" stroke-linecap="round"/>
+  <rect x="90" y="165" width="60" height="15" rx="3" fill="#242933"/>
+
+  <!-- Character 1: Customer (right side, facing left, looking distressed/held up) -->
+  <g transform="translate(145, 95)">
+    <!-- Body / Torso -->
+    <path d="M 25 75 L 45 75 L 40 45 L 10 45 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="27" cy="22" r="12" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M 16 18 C 16 10, 38 10, 38 18 C 38 22, 35 22, 35 18 C 35 13, 19 13, 19 18 Z" fill="#92400E"/>
+    <!-- Confused / Annoyed Arm gesture (hands raised slightly in questioning) -->
+    <path d="M 12 48 L -2 40" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2: Staff member (left side, leaning forward, aggressively blocking/making things difficult with paperwork/barrier gesture) -->
+  <g transform="translate(45, 95)">
+    <!-- Body / Torso -->
+    <path d="M 15 75 L 35 75 L 30 45 L 0 45 Z" fill="#EF4444"/>
+    <!-- Head -->
+    <circle cx="18" cy="22" r="12" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M 8 18 C 8 10, 28 10, 28 18 C 28 20, 25 20, 25 18 C 25 14, 11 14, 11 18 Z" fill="#1F2937"/>
+    <!-- Authoritative / Blocking Arms with a clipboard/document acting as a hurdle -->
+    <path d="M 20 48 L 45 42" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Clipboard / Obstacle being pushed forward -->
+    <rect x="35" y="30" width="22" height="28" rx="2" fill="#9CA3AF"/>
+    <rect x="40" y="27" width="12" height="5" rx="1" fill="#F87171"/>
+    <!-- Document lines representing red tape / unreasonable rules -->
+    <line x1="39" y1="38" x2="53" y2="38" stroke="#1F2937" stroke-width="2" stroke-linecap="round"/>
+    <line x1="39" y1="44" x2="50" y2="44" stroke="#1F2937" stroke-width="2" stroke-linecap="round"/>
+    <line x1="39" y1="50" x2="48" y2="50" stroke="#1F2937" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Dynamic Action/Motion lines indicating tension and obstruction -->
+  <g stroke="#EF4444" stroke-width="3" stroke-linecap="round" opacity="0.8">
+    <line x1="110" y1="110" x2="122" y2="110"/>
+    <line x1="108" y1="120" x2="120" y2="120"/>
+    <line x1="110" y1="130" x2="122" y2="130"/>
+  </g>
+
+  <!-- Red X mark hovering subtly above to emphasize the "making difficult / rejection" semantic core without text -->
+  <g transform="translate(112, 50)" opacity="0.9">
+    <circle cx="8" cy="8" r="12" fill="#1F2937" stroke="#EF4444" stroke-width="3"/>
+    <path d="M 4 4 L 12 12 M 12 4 L 4 12" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

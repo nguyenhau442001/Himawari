@@ -1,0 +1,11 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(40, 60)">
+<path d="M70 140C70 140 60 120 60 100C60 80 75 70 80 60C85 50 80 40 80 30C80 15 95 5 100 5C105 5 120 15 120 30C120 40 115 50 120 60C125 70 140 80 140 100C140 120 130 140 130 140" fill="#FFB84D" stroke="#1A1D24" stroke-width="2"/>
+<path d="M50 130C50 130 40 110 40 90C40 70 55 60 60 50C65 40 60 30 60 20C60 5 75 -5 80 -5C85 -5 100 5 100 20C100 30 95 40 100 50C105 60 120 70 120 90C120 110 110 130 110 130" fill="#FF8C00" stroke="#1A1D24" stroke-width="2"/>
+<path d="M90 20C90 20 85 10 90 5C95 0 100 0 105 5C110 10 105 20 105 20" fill="#FFD700"/>
+<path d="M70 60L50 80M120 60L140 80" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+<path d="M60 100L40 120M130 100L150 120" stroke="#FF8C00" stroke-width="6" stroke-linecap="round"/>
+<path d="M80 140L70 160M120 140L130 160" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Group of positive, upward-moving figures -->
+  <g transform="translate(60, 100)">
+    <circle cx="20" cy="20" r="12" fill="#FFC107"/>
+    <path d="M20 32 L20 60 M20 40 L5 50 M20 40 L35 50" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    
+    <circle cx="60" cy="20" r="12" fill="#FFC107"/>
+    <path d="M60 32 L60 60 M60 40 L45 50 M60 40 L75 50" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    
+    <circle cx="100" cy="20" r="12" fill="#FFC107"/>
+    <path d="M100 32 L100 60 M100 40 L85 50 M100 40 L115 50" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The outlier figure -->
+  <g transform="translate(110, 140)">
+    <circle cx="20" cy="20" r="12" fill="#546E7A"/>
+    <path d="M20 32 L10 60 M20 32 L30 60" stroke="#546E7A" stroke-width="4" stroke-linecap="round"/>
+    <!-- Crossed arms to show negative/closed attitude -->
+    <path d="M10 45 L30 45" stroke="#546E7A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Visual separation line/gap -->
+  <path d="M95 90 L95 180" stroke="#37474F" stroke-width="2" stroke-dasharray="6 6"/>
+</svg>

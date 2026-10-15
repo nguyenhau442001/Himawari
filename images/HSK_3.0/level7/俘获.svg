@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Motion/Capturing energy lines emanating outward -->
+    <path d="M-60 -60 L-75 -75" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M60 -60 L75 -75" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-70 10 L-90 10" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M70 10 L90 10" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-50 60 L-65 75" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M50 60 L65 75" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Central glowing focal object representing the captured essence/heart/audience emotion -->
+    <path d="M0 -32 C 16 -52, 48 -32, 48 -10 C 48 15, 0 45, 0 45 C 0 45, -48 15, -48 -10 C -48 -32, -16 -52, 0 -32 Z" fill="#F59E0B" opacity="0.2"/>
+    <path d="M0 -24 C 12 -38, 36 -24, 36 -8 C 36 12, 0 34, 0 34 C 0 34, -36 12, -36 -8 C -36 -24, -12 -38, 0 -24 Z" fill="#F59E0B" opacity="0.9"/>
+    
+    <!-- Dynamic converging action vectors showing capture/captivation (chīhuò/fúhuò) -->
+    <!-- Top-left to center arrow -->
+    <path d="M-72 -52 C-50 -40, -35 -30, -22 -18" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <polygon points="-22,-18 -29,-16 -24,-23" fill="#38BDF8"/>
+
+    <!-- Top-right to center arrow -->
+    <path d="M72 -52 C50 -40, 35 -30, 22 -18" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <polygon points="22,-18 24,-23 29,-16" fill="#38BDF8"/>
+
+    <!-- Bottom to center arrow -->
+    <path d="M0 65 C0 45, 0 30, 0 16" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <polygon points="0,16 -5,22 5,22" fill="#38BDF8"/>
+
+    <!-- Left side to center arrow -->
+    <path d="M-78 5 C-55 5, -35 5, -18 5" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <polygon points="-18,5 -23,0 -23,10" fill="#38BDF8"/>
+
+    <!-- Right side to center arrow -->
+    <path d="M78 5 C55 5, 35 5, 18 5" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <polygon points="18,5 23,10 23,0" fill="#38BDF8"/>
+
+    <!-- Subtle orbit rings representing capture field -->
+    <ellipse cx="0" cy="0" rx="68" ry="32" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.4" transform="rotate(-20)" />
+    <ellipse cx="0" cy="0" rx="68" ry="32" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.4" transform="rotate(35)" />
+  </g>
+</svg>

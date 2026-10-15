@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "翻来覆去" (Tossing and turning / Restless insomnia) -->
+  <g transform="translate(0, 0)">
+    <!-- Bed frame & Mattress -->
+    <rect x="40" y="145" width="160" height="35" rx="8" fill="#2D323E" />
+    <path d="M40 165 C40 155, 200 155, 200 165 L200 180 L40 180 Z" fill="#3B4252" />
+    
+    <!-- Pillow -->
+    <rect x="155" y="125" width="35" height="25" rx="6" fill="#4C566A" />
+
+    <!-- Restless Person (Tossing & Turning Effect via Overlapping Silhouettes/Motion Arcs) -->
+    <!-- Motion arc lines indicating movement -->
+    <path d="M 75 105 Q 110 90 145 105" fill="none" stroke="#61AFEF" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,4" opacity="0.6"/>
+    <path d="M 65 145 Q 110 160 155 145" fill="none" stroke="#61AFEF" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,4" opacity="0.6"/>
+
+    <!-- Blankets & Body (Curled up / tossing pose) -->
+    <!-- Blanket shape -->
+    <path d="M 55 135 Q 110 120 165 140 L 170 170 C 170 175, 60 175, 55 170 Z" fill="#5C6370" />
+    
+    <!-- Person Head & Body peeking out -->
+    <circle cx="165" cy="135" r="12" fill="#E5C07B" /> <!-- Head -->
+    <!-- Hair -->
+    <path d="M 155 130 Q 165 120 175 130 Z" fill="#ABB2BF" />
+
+    <!-- Clock / Time element floating above to denote sleeplessness at night -->
+    <g transform="translate(120, 60)">
+      <circle cx="0" cy="0" r="18" fill="#21252B" stroke="#E06C75" stroke-width="2" />
+      <line x1="0" y1="0" x2="0" y2="-8" stroke="#E5C07B" stroke-width="2" stroke-linecap="round" />
+      <line x1="0" y1="0" x2="6" y2="4" stroke="#E5C07B" stroke-width="2" stroke-linecap="round" />
+      <!-- Zzz for sleeping/insomnia context -->
+      <text x="25" y="-5" font-family="sans-serif" font-weight="bold" font-size="12" fill="#61AFEF">Z</text>
+      <text x="33" y="-15" font-family="sans-serif" font-weight="bold" font-size="10" fill="#61AFEF">z</text>
+      <text x="39" y="-23" font-family="sans-serif" font-weight="bold" font-size="8" fill="#61AFEF">z</text>
+    </g>
+
+    <!-- Mental loop / repeating arrow icon subtly integrated to represent "fānlái-fùqù" (over and over) -->
+    <path d="M 85 100 C 70 100, 60 115, 75 130" fill="none" stroke="#E5C07B" stroke-width="3" stroke-linecap="round" />
+    <polygon points="75,123 72,133 82,131" fill="#E5C07B" />
+
+    <path d="M 135 100 C 150 100, 160 115, 145 130" fill="none" stroke="#E5C07B" stroke-width="3" stroke-linecap="round" />
+    <polygon points="145,123 148,133 138,131" fill="#E5C07B" />
+  </g>
+</svg>

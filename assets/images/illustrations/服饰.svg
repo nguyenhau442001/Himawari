@@ -1,0 +1,66 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle elements -->
+  <circle cx="120" cy="120" r="85" fill="none" stroke="#262B35" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- Central Physical Object: Traditional Chinese Garment / Attire (服饰) -->
+  <g transform="translate(0, 5)">
+    <!-- Hanger -->
+    <path d="M90 45 L120 30 L150 45" fill="none" stroke="#5A6478" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="120" cy="27" r="3" fill="#5A6478"/>
+
+    <!-- Outer Robe / Jacket (Main Body) -->
+    <path d="M75 55 
+             L165 55 
+             L180 120 
+             L165 125 
+             L165 195 
+             L135 195 
+             L135 140 
+             L105 140 
+             L105 195 
+             L75 195 
+             L75 125 
+             L60 120 Z" 
+          fill="#2C3545"/>
+
+    <!-- Traditional Cross-collar (Duijin/Jiaoling) overlap -->
+    <path d="M120 55 L95 110 L120 125 Z" fill="#E5A93B"/>
+    <path d="M120 55 L145 110 L120 125 Z" fill="#D49427"/>
+
+    <!-- Sleeves with traditional ethnic shape -->
+    <!-- Left Sleeve -->
+    <path d="M75 55 
+             L40 85 
+             L55 125 
+             L75 115 Z" 
+          fill="#323D50"/>
+    <!-- Right Sleeve -->
+    <path d="M165 55 
+             L200 85 
+             L185 125 
+             L165 115 Z" 
+          fill="#323D50"/>
+
+    <!-- Rich Ethnic Pattern Accents (Geometric embroidery motifs as in context) -->
+    <!-- Collar Trim -->
+    <path d="M95 110 L120 125 L145 110" fill="none" stroke="#F4D06F" stroke-width="3"/>
+    
+    <!-- Cuffs Patterns -->
+    <path d="M47 95 L52 110" stroke="#E5A93B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M193 95 L188 110" stroke="#E5A93B" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Hem / Border Embroidery Details -->
+    <path d="M75 185 L105 185 M135 185 L165 185" stroke="#E5A93B" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Geometric cloud/wave motif on the lower robe (symbolizing traditional minority patterns) -->
+    <path d="M85 145 Q95 135 105 145 T125 145 T145 145 T165 145" fill="none" stroke="#F4D06F" stroke-width="3"/>
+    <path d="M85 165 Q95 155 105 165 T125 165 T145 165 T165 165" fill="none" stroke="#E5A93B" stroke-width="2"/>
+
+    <!-- Central Sash / Belt -->
+    <rect x="100" y="115" width="40" height="12" rx="3" fill="#E5A93B"/>
+    <circle cx="120" cy="121" r="4" fill="#FFFFFF"/>
+  </g>
+</svg>

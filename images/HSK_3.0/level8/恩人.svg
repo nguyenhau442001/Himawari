@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow indicating warmth/rescue context -->
+  <circle cx="120" cy="120" r="70" fill="#FF7824" opacity="0.08"/>
+
+  <!-- Character 1: The Benefactor (恩人) standing tall, wearing a professional/rescuer jacket with high-contrast warm orange accent -->
+  <g id="benefactor">
+    <!-- Body/Torso -->
+    <path d="M75 160 C75 140 85 125 95 125 L105 125 C115 125 125 140 125 160 Z" fill="#2E384D"/>
+    <!-- Jacket collar -->
+    <path d="M92 125 L108 125 L112 135 L88 135 Z" fill="#FF9F43"/>
+    <!-- Head -->
+    <circle cx="100" cy="100" r="16" fill="#F1F2F6"/>
+    <!-- Hair -->
+    <path d="M84 96 C84 85 92 82 100 82 C108 82 116 85 116 96 Z" fill="#4B6584"/>
+    <!-- Arm (reaching out to help/accept gratitude) -->
+    <path d="M105 130 Q120 135 125 145" stroke="#F1F2F6" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Character 2: The Person saved, bowing respectfully in deep gratitude -->
+  <g id="grateful-person">
+    <!-- Head (bowed lower) -->
+    <circle cx="150" cy="125" r="14" fill="#F1F2F6"/>
+    <!-- Hair -->
+    <path d="M138 122 C138 112 144 108 150 108 C156 108 162 112 162 122 Z" fill="#2D3436"/>
+    <!-- Bent Body / Torso bowing -->
+    <path d="M135 135 C135 130 145 125 155 135 L165 160 C165 160 150 170 135 160 Z" fill="#3B3B98"/>
+    <!-- Arms down in a respectful bow gesture -->
+    <path d="M145 140 L160 155" stroke="#F1F2F6" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Shared grounded line -->
+  <path d="M60 175 L180 175" stroke="#2F3542" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Warm subtle golden accent rays/sparks representing life-saving grace and kindness -->
+  <g fill="#FF9F43">
+    <circle cx="100" cy="65" r="2.5" opacity="0.8"/>
+    <circle cx="85" cy="72" r="1.5" opacity="0.6"/>
+    <circle cx="118" cy="70" r="2" opacity="0.7"/>
+    <!-- Small star sparkle of honor -->
+    <path d="M100 48 L102 54 L108 56 L102 58 L100 64 L98 58 L92 56 L98 54 Z" fill="#FFD32A" opacity="0.9"/>
+  </g>
+</svg>

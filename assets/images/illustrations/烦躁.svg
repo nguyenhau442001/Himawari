@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person representing "fánzào" (agitation/irritability) -->
+  <g transform="translate(120, 120)">
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="35" fill="#2C3E50" stroke="#F39C12" stroke-width="3"/>
+    
+    <!-- Hair (messy/disheveled look) -->
+    <path d="M-30 -65 Q-40 -85 -20 -80 Q-10 -95 0 -80 Q10 -95 20 -80 Q40 -85 30 -65" fill="#F39C12"/>
+    
+    <!-- Eyes (squinted/irritated) -->
+    <line x1="-15" y1="-45" x2="-5" y2="-35" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-15" y1="-35" x2="-5" y2="-45" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <line x1="5" y1="-45" x2="15" y2="-35" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    <line x1="5" y1="-35" x2="15" y2="-45" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Mouth (frowning/tight) -->
+    <path d="M-15 -15 Q0 -25 15 -15" stroke="#F39C12" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Shoulders/Body -->
+    <path d="M-50 20 Q-50 80 0 80 Q50 80 50 20" fill="#2C3E50" stroke="#F39C12" stroke-width="3"/>
+    
+    <!-- Arms (crossed tightly, showing agitation) -->
+    <path d="M-40 30 L-10 50 L10 50 L40 30" fill="none" stroke="#F39C12" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Heat waves/vibration lines around the head -->
+    <path d="M-45 -50 Q-55 -40 -45 -30" stroke="#F39C12" stroke-width="2" fill="none"/>
+    <path d="M45 -50 Q55 -40 45 -30" stroke="#F39C12" stroke-width="2" fill="none"/>
+    <path d="M0 -85 Q10 -95 20 -85" stroke="#F39C12" stroke-width="2" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 抵触 (Conflict/Clashing/Contradiction) -->
+  <!-- Two distinct, structured physical blocks/walls colliding head-on, representing opposing regulations or forces -->
+
+  <!-- Left/Blue Legal/Systemic Pillar -->
+  <g transform="translate(0, 0)">
+    <!-- Motion lines left -->
+    <path d="M45 105 L65 105 M35 120 L55 120 M45 135 L65 135" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <!-- Main Block -->
+    <rect x="65" y="75" width="55" height="90" rx="6" fill="#0EA5E9"/>
+    <!-- Structural details on left block -->
+    <rect x="75" y="90" width="35" height="8" rx="2" fill="#E0F2FE" opacity="0.8"/>
+    <rect x="75" y="106" width="35" height="8" rx="2" fill="#E0F2FE" opacity="0.8"/>
+    <rect x="75" y="122" width="35" height="8" rx="2" fill="#E0F2FE" opacity="0.8"/>
+    <rect x="75" y="138" width="22" height="8" rx="2" fill="#E0F2FE" opacity="0.8"/>
+  </g>
+
+  <!-- Right/Orange Local/Conflicting Pillar -->
+  <g transform="translate(0, 0)">
+    <!-- Motion lines right -->
+    <path d="M195 105 L175 105 M205 120 L185 120 M195 135 L175 135" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <!-- Main Block -->
+    <rect x="120" y="75" width="55" height="90" rx="6" fill="#F97316"/>
+    <!-- Structural details on right block -->
+    <rect x="130" y="90" width="35" height="8" rx="2" fill="#FEF3C7" opacity="0.8"/>
+    <rect x="130" y="106" width="35" height="8" rx="2" fill="#FEF3C7" opacity="0.8"/>
+    <rect x="130" y="122" width="35" height="8" rx="2" fill="#FEF3C7" opacity="0.8"/>
+    <rect x="130" y="138" width="22" height="8" rx="2" fill="#FEF3C7" opacity="0.8"/>
+  </g>
+
+  <!-- Central Collision / Friction Point -->
+  <g transform="translate(120, 120)">
+    <!-- Energy / Impact spark flash -->
+    <path d="M0 -25 L6 -8 L22 -12 L10 2 L20 16 L2 12 L-4 28 L-14 12 L-26 18 L-16 2 L-28 -8 L-10 -10 Z" fill="#EF4444"/>
+    <circle cx="0" cy="0" r="14" fill="#FBBF24"/>
+    <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Subtle ground shadow/base line -->
+  <path d="M60 178 L180 178" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+</svg>

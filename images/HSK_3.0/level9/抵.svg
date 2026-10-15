@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Bank Building Representation (Left side) -->
+    <path d="M45 130 L45 185 L95 185 L95 130 Z" fill="#2D3748"/>
+    <polygon points="40,130 70,105 100,130" fill="#4A5568"/>
+    <rect x="55" y="145" width="12" height="25" fill="#1A1D24"/>
+    <rect x="73" y="145" width="12" height="25" fill="#1A1D24"/>
+    
+    <!-- House Property Being Transferred (Right side transitioning to center) -->
+    <!-- House structure -->
+    <path d="M140 120 L140 180 L200 180 L200 120 Z" fill="#3182CE"/>
+    <polygon points="130,120 170,85 210,120" fill="#E53E3E"/>
+    <!-- House Door & Window -->
+    <rect x="160" y="145" width="20" height="35" fill="#1A1D24"/>
+    <rect x="150" y="100" width="12" height="12" fill="#E2E8F0"/>
+    <rect x="178" y="100" width="12" height="12" fill="#E2E8F0"/>
+
+    <!-- The Exchange / "Guaranter - Offset" Connection Arrow representing 抵 (giving property for debt) -->
+    <path d="M125 145 C115 135 105 135 95 140" stroke="#F6AD55" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="6,4"/>
+    <polygon points="98,135 90,143 100,146" fill="#F6AD55"/>
+
+    <!-- Document / Deed representing asset transfer -->
+    <rect x="100" y="95" width="30" height="38" rx="2" fill="#F7FAFC"/>
+    <line x1="106" y1="104" x2="124" y2="104" stroke="#CBD5E0" stroke-width="2"/>
+    <line x1="106" y1="112" x2="124" y2="112" stroke="#CBD5E0" stroke-width="2"/>
+    <line x1="106" y1="120" x2="116" y2="120" stroke="#CBD5E0" stroke-width="2"/>
+    <!-- Red Seal Stamp -->
+    <circle cx="120" cy="122" r="4" fill="#E53E3E"/>
+
+    <!-- Scales of Equivalence/Offset (Tipping slightly to show balance) -->
+    <path d="M120 40 L120 70" stroke="#A0AEC0" stroke-width="3"/>
+    <path d="M95 50 L145 50" stroke="#A0AEC0" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="120" cy="40" r="5" fill="#ECC94B"/>
+    <!-- Left pan (Debt) -->
+    <path d="M95 50 L85 70 L105 70 Z" fill="#4A5568"/>
+    <circle cx="95" cy="62" r="6" fill="#E53E3E"/>
+    <!-- Right pan (Property value) -->
+    <path d="M145 50 L135 70 L155 70 Z" fill="#4A5568"/>
+    <circle cx="145" cy="62" r="6" fill="#48BB78"/>
+
+    <!-- Ground Line -->
+    <line x1="30" y1="185" x2="210" y2="185" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

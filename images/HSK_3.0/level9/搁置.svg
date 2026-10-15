@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Shelf Structure -->
+  <rect x="40" y="150" width="160" height="10" rx="2" fill="#4A5568"/>
+  
+  <!-- The Document (The Object) -->
+  <g transform="translate(90, 80)">
+    <rect width="60" height="70" rx="4" fill="#E2E8F0"/>
+    <rect x="10" y="15" width="40" height="5" rx="1" fill="#CBD5E0"/>
+    <rect x="10" y="30" width="40" height="5" rx="1" fill="#CBD5E0"/>
+    <rect x="10" y="45" width="25" height="5" rx="1" fill="#CBD5E0"/>
+  </g>
+  
+  <!-- Dust/Layer indicating 'shelved' status -->
+  <path d="M80 150 L160 150 L150 140 L90 140 Z" fill="#2D3748" opacity="0.6"/>
+  
+  <!-- Focus Accent (Gold/Orange) indicating the '搁置' action -->
+  <path d="M105 70 L135 70 L120 50 Z" fill="#F6AD55"/>
+  <circle cx="120" cy="40" r="4" fill="#F6AD55"/>
+</svg>

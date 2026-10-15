@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Stage/Platform -->
+  <rect x="40" y="180" width="160" height="10" fill="#343A46" rx="2"/>
+  
+  <!-- Singer (Central Figure) -->
+  <circle cx="120" cy="110" r="15" fill="#FFD700"/>
+  <rect x="110" y="125" width="20" height="40" fill="#FFD700" rx="4"/>
+  <rect x="105" y="130" width="30" height="10" fill="#FFD700" rx="2"/>
+  
+  <!-- Microphone -->
+  <rect x="125" y="140" width="4" height="20" fill="#A0A0A0"/>
+  <circle cx="127" cy="140" r="6" fill="#E0E0E0"/>
+  
+  <!-- Fans (The "粉丝" - People cheering) -->
+  <!-- Fan 1 -->
+  <circle cx="60" cy="160" r="10" fill="#4A90E2"/>
+  <rect x="55" y="170" width="10" height="20" fill="#4A90E2" rx="2"/>
+  <path d="M 50 150 L 40 130" stroke="#4A90E2" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Fan 2 -->
+  <circle cx="180" cy="160" r="10" fill="#4A90E2"/>
+  <rect x="175" y="170" width="10" height="20" fill="#4A90E2" rx="2"/>
+  <path d="M 190 150 L 200 130" stroke="#4A90E2" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Fan 3 -->
+  <circle cx="90" cy="170" r="8" fill="#50E3C2"/>
+  <rect x="86" y="178" width="8" height="15" fill="#50E3C2" rx="2"/>
+  <path d="M 85 165 L 80 145" stroke="#50E3C2" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Fan 4 -->
+  <circle cx="150" cy="170" r="8" fill="#50E3C2"/>
+  <rect x="146" y="178" width="8" height="15" fill="#50E3C2" rx="2"/>
+  <path d="M 155 165 L 160 145" stroke="#50E3C2" stroke-width="3" stroke-linecap="round"/>
+</svg>

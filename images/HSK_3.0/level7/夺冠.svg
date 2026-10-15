@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative glowing aura/spotlight -->
+  <circle cx="120" cy="115" r="70" fill="#FFC107" opacity="0.08"/>
+
+  <!-- Trophy Illustration (Physical Object representing 夺冠 - Winning the Championship) -->
+  <g transform="translate(0, 0)">
+    <!-- Trophy Base -->
+    <path d="M95 180 L145 180 L138 165 L102 165 Z" fill="#4A5568"/>
+    <rect x="90" y="180" width="60" height="12" rx="3" fill="#2D3748"/>
+    
+    <!-- Trophy Stem -->
+    <rect x="112" y="140" width="16" height="25" fill="#E2E8F0"/>
+
+    <!-- Trophy Cup Body -->
+    <path d="M85 75 C85 125 155 125 155 75 L145 70 C145 105 95 105 95 70 Z" fill="#FFD700"/>
+
+    <!-- Trophy Handles -->
+    <path d="M85 82 C65 82 65 110 85 118" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    <path d="M155 82 C175 82 175 110 155 118" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Cup Interior (Depth) -->
+    <ellipse cx="120" cy="75" rx="35" ry="10" fill="#E5AC00"/>
+    <ellipse cx="120" cy="74" rx="30" ry="7" fill="#FFC107"/>
+
+    <!-- Trophy Details / Highlights -->
+    <path d="M95 80 Q120 115 145 80" fill="none" stroke="#FFF" stroke-width="3" opacity="0.4"/>
+    <path d="M112 85 L120 95 L128 85" fill="#FFA000" opacity="0.6"/>
+
+    <!-- Star Emblem on Trophy -->
+    <polygon points="120,92 122.5,98 129,99 124,103 125.5,109 120,105 114.5,109 116,103 111,99 117.5,98" fill="#FFF"/>
+
+    <!-- Confetti / Celebration Particles -->
+    <circle cx="70" cy="55" r="3" fill="#FF5722"/>
+    <rect x="165" y="50" width="5" height="5" rx="1" fill="#00E5FF" transform="rotate(45 167.5 52.5)"/>
+    <circle cx="155" cy="135" r="2.5" fill="#FFC107"/>
+    <circle cx="85" cy="140" r="2" fill="#4CAF50"/>
+    <rect x="135" y="40" width="4" height="6" rx="1" fill="#E040FB" transform="rotate(20 137 43)"/>
+    <rect x="95" y="45" width="4" height="4" rx="1" fill="#FFEB3B"/>
+    <circle cx="175" cy="95" r="2" fill="#FF5722"/>
+    <circle cx="65" cy="105" r="2.5" fill="#00E5FF"/>
+  </g>
+</svg>

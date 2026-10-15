@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Table Surface -->
+    <path d="M 30,170 L 210,170 L 225,200 L 15,200 Z" fill="#2D323E"/>
+    <ellipse cx="120" cy="170" rx="90" ry="15" fill="#383F4E"/>
+    
+    <!-- Large Serving Bowl (Base) -->
+    <ellipse cx="120" cy="135" rx="55" ry="18" fill="#4B5563"/>
+    <path d="M 65,135 C 65,165 175,165 175,135 Z" fill="#374151"/>
+    <ellipse cx="120" cy="132" rx="50" ry="15" fill="#EF4444"/>
+    
+    <!-- Abundant Feast Items (Fish, Dumplings, Steam) -->
+    <!-- Steamed Fish -->
+    <path d="M 90,130 Q 120,110 150,130 Q 120,150 90,130 Z" fill="#F59E0B"/>
+    <circle cx="105" cy="127" r="2" fill="#1F2937"/>
+    <path d="M 145,125 L 160,115 L 155,130 L 160,145 L 145,135 Z" fill="#F59E0B"/>
+    <path d="M 105,128 Q 120,135 135,128" stroke="#D97706" stroke-width="2" fill="none"/>
+
+    <!-- Dumplings Placed Around -->
+    <path d="M 75,120 Q 82,112 90,120 Z" fill="#F3F4F6"/>
+    <path d="M 150,120 Q 157,112 165,120 Z" fill="#F3F4F6"/>
+    <path d="M 115,110 Q 122,102 130,110 Z" fill="#F3F4F6"/>
+    
+    <!-- Garnishes / Greenery -->
+    <circle cx="120" cy="125" r="4" fill="#10B981"/>
+    <circle cx="95" cy="135" r="3" fill="#10B981"/>
+    <circle cx="140" cy="135" r="3" fill="#10B981"/>
+
+    <!-- Side Bowls (Abundance Context) -->
+    <!-- Left Bowl -->
+    <ellipse cx="45" cy="150" rx="18" ry="7" fill="#4B5563"/>
+    <path d="M 27,150 C 27,165 63,165 63,150 Z" fill="#374151"/>
+    <ellipse cx="45" cy="148" rx="15" ry="5" fill="#F97316"/>
+    <circle cx="42" cy="147" r="2" fill="#FEF3C7"/>
+    <circle cx="48" cy="149" r="2" fill="#FEF3C7"/>
+
+    <!-- Right Bowl -->
+    <ellipse cx="195" cy="150" rx="18" ry="7" fill="#4B5563"/>
+    <path d="M 177,150 C 177,165 213,165 213,150 Z" fill="#374151"/>
+    <ellipse cx="195" cy="148" rx="15" ry="5" fill="#10B981"/>
+    
+    <!-- Chopsticks -->
+    <rect x="100" y="85" width="70" height="4" rx="2" fill="#D97706" transform="rotate(-25 100 85)"/>
+    <rect x="95" y="95" width="70" height="4" rx="2" fill="#E09D39" transform="rotate(-22 95 95)"/>
+
+    <!-- Steam / Aroma Lines (Indicating fresh, rich meal) -->
+    <path d="M 115,95 Q 110,80 120,70 Q 130,60 125,45" stroke="#9CA3AF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 135,100 Q 140,85 132,75 Q 124,65 135,50" stroke="#9CA3AF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+    <path d="M 95,100 Q 90,88 98,78 Q 106,68 100,55" stroke="#9CA3AF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+  </g>
+</svg>

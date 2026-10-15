@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Tailor's Tape Measure -->
+  <path d="M70 120 C 70 90, 100 70, 130 70 C 160 70, 190 90, 190 120 C 190 150, 160 170, 130 170 C 100 170, 70 150, 70 120 Z" fill="#2D343E" stroke="#FFB84D" stroke-width="3"/>
+  
+  <!-- Suit Jacket (The "Dingzuo" Object) -->
+  <path d="M100 90 L 140 90 L 150 160 L 90 160 Z" fill="#FFB84D"/>
+  <path d="M100 90 L 115 110 L 100 130 Z" fill="#1A1D24"/>
+  <path d="M140 90 L 125 110 L 140 130 Z" fill="#1A1D24"/>
+  
+  <!-- Measuring Tape Detail -->
+  <path d="M130 70 L 130 170" stroke="#FFB84D" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Scissors (Tool for Customization) -->
+  <path d="M170 140 L 200 170" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 170 L 200 140" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="170" cy="140" r="8" fill="none" stroke="#E0E0E0" stroke-width="3"/>
+  <circle cx="170" cy="170" r="8" fill="none" stroke="#E0E0E0" stroke-width="3"/>
+</svg>

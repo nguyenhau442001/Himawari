@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements for context (loading dock / warehouse) -->
+  <path d="M40 180 L200 180" stroke="#2A2F3B" stroke-width="3" stroke-linecap="round"/>
+  <rect x="50" y="110" width="140" height="70" fill="#222733" rx="4"/>
+  <line x1="50" y1="130" x2="190" y2="130" stroke="#1A1D24" stroke-width="3"/>
+  <line x1="50" y1="155" x2="190" y2="155" stroke="#1A1D24" stroke-width="3"/>
+
+  <!-- Heavy Cargo Box being lifted -->
+  <!-- Box shadow -->
+  <ellipse cx="120" cy="180" rx="35" ry="6" fill="#111318"/>
+  
+  <!-- Wooden Crate Body -->
+  <rect x="85" y="95" width="70" height="65" rx="4" fill="#D97706"/>
+  <rect x="90" y="100" width="60" height="55" fill="#F59E0B" rx="2"/>
+  
+  <!-- Crate X bracing (heavy load indicator) -->
+  <line x1="90" y1="100" x2="150" y2="155" stroke="#B45309" stroke-width="4" stroke-linecap="round"/>
+  <line x1="150" y1="100" x2="90" y2="155" stroke="#B45309" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Experienced Worker (Old worker with posture showing effortless lifting - 毫不费力) -->
+  <!-- Worker Body / Back -->
+  <path d="M100 150 C100 130 110 115 125 115 C140 115 150 130 150 150 Z" fill="#3B82F6"/>
+
+  <!-- Worker Head with cap -->
+  <circle cx="125" cy="98" r="14" fill="#FBBF24"/>
+  <path d="M112 94 Q125 88 138 94 L138 98 L112 98 Z" fill="#EF4444"/>
+
+  <!-- Relaxed, confident posture arms (lifting easily without strain) -->
+  <path d="M110 130 Q95 140 102 155" stroke="#FBBF24" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M140 130 Q155 140 148 155" stroke="#FBBF24" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Motion / Ease Indicator (Smooth fluid upward curve representing "毫不费力" - effortless) -->
+  <path d="M80 120 C70 100 80 80 100 70" stroke="#10B981" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+  <path d="M160 120 C170 100 160 80 140 70" stroke="#10B981" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="4 4"/>
+  
+  <!-- Checkmark of ease hovering subtly above -->
+  <circle cx="120" cy="55" r="16" fill="#10B981"/>
+  <path d="M112 55 L118 61 L130 47" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "对得起" (living up to expectations/not failing someone) 
+       through the visual metaphor of a student presenting a diploma/achievement 
+       to a parent, symbolizing the fulfillment of duty and honor. -->
+  
+  <!-- Parent Figure (Left) -->
+  <g transform="translate(60, 100)">
+    <circle cx="30" cy="20" r="15" fill="#FFB84D"/>
+    <path d="M15 40 Q30 55 45 40 L45 80 Q30 95 15 80 Z" fill="#FFB84D"/>
+    <path d="M10 80 L50 80 L55 130 L5 130 Z" fill="#4D88FF"/>
+  </g>
+  
+  <!-- Student Figure (Right) -->
+  <g transform="translate(130, 80)">
+    <circle cx="30" cy="20" r="15" fill="#FFB84D"/>
+    <path d="M15 40 Q30 55 45 40 L45 80 Q30 95 15 80 Z" fill="#FFB84D"/>
+    <path d="M10 80 L50 80 L55 150 L5 150 Z" fill="#FFB84D"/>
+    <!-- Diploma/Certificate held by student -->
+    <rect x="45" y="70" width="40" height="10" rx="2" fill="#FFFFFF"/>
+    <rect x="45" y="72" width="10" height="6" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Connecting element: The achievement being presented -->
+  <path d="M95 120 L135 120" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  
+</svg>

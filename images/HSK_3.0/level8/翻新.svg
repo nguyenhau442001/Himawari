@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Building Facade Base -->
+  <rect x="60" y="70" width="120" height="100" rx="4" fill="#374151"/>
+  
+  <!-- Old Section (Left) -->
+  <rect x="70" y="80" width="45" height="80" fill="#4B5563"/>
+  <rect x="80" y="90" width="25" height="25" fill="#1A1D24"/>
+  <path d="M70 80h45v10H70z" fill="#2D3748"/>
+  
+  <!-- New Section (Right) -->
+  <rect x="125" y="80" width="45" height="80" fill="#F59E0B"/>
+  <rect x="135" y="90" width="25" height="25" fill="#FFFBEB"/>
+  <path d="M125 80h45v10H125z" fill="#D97706"/>
+  
+  <!-- Construction/Renovation Tool -->
+  <path d="M100 170l40-40 10 10-40 40z" fill="#9CA3AF"/>
+  <rect x="90" y="170" width="20" height="10" fill="#6B7280"/>
+  
+  <!-- Decorative Architectural Detail -->
+  <path d="M60 170h120v5H60z" fill="#4B5563"/>
+</svg>

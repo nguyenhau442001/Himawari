@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M40 180 C 100 170, 140 170, 200 180 L 200 190 L 40 190 Z" fill="#3D352A"/>
+  
+  <!-- Cracked Earth Texture -->
+  <path d="M50 182 L 60 188 M 80 180 L 85 186 M 120 183 L 115 189 M 150 181 L 160 187 M 180 184 L 175 190" stroke="#2A251E" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Dry Plant 1 (Left - Drooping) -->
+  <path d="M80 180 L 80 120 M 80 120 L 70 130 M 80 120 L 90 130" stroke="#A68B5B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Dry Plant 2 (Center - Shriveled) -->
+  <path d="M120 180 L 120 100 M 120 100 L 105 110 M 120 100 L 135 110 M 120 115 L 105 125 M 120 115 L 135 125" stroke="#D4AF37" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Dry Plant 3 (Right - Brittle) -->
+  <path d="M160 180 L 160 130 M 160 130 L 150 140 M 160 130 L 170 140" stroke="#8B7355" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Sun (Harsh, high contrast) -->
+  <circle cx="200" cy="40" r="25" fill="#FF9500"/>
+  <path d="M200 5 L 200 15 M 200 65 L 200 75 M 165 40 L 175 40 M 225 40 L 235 40" stroke="#FF9500" stroke-width="3" stroke-linecap="round"/>
+</svg>

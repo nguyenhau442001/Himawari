@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Rain/Wind background elements -->
+  <path d="M40 20 L50 40 M70 10 L80 30 M100 20 L110 40 M130 10 L140 30 M160 20 L170 40 M190 10 L200 30" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- The Postman Character -->
+  <g transform="translate(60, 60)">
+    <!-- Body -->
+    <path d="M60 140 L60 100 L80 90 L100 100 L100 140 Z" fill="#E2E8F0"/>
+    <!-- Bag -->
+    <path d="M45 100 L75 100 L70 130 L50 130 Z" fill="#D69E2E"/>
+    <!-- Head -->
+    <circle cx="80" cy="75" r="20" fill="#FBD38D"/>
+    <!-- Hat -->
+    <path d="M60 65 L100 65 L95 50 L65 50 Z" fill="#4A5568"/>
+    <!-- Legs -->
+    <rect x="65" y="140" width="10" height="20" fill="#2D3748"/>
+    <rect x="85" y="140" width="10" height="20" fill="#2D3748"/>
+  </g>
+  
+  <!-- Umbrella protecting the postman -->
+  <path d="M140 70 C140 40 100 40 100 40 C100 40 60 40 60 70 Z" fill="#F6AD55"/>
+  <path d="M100 40 L100 70" stroke="#F6AD55" stroke-width="4"/>
+  
+  <!-- Path/Ground -->
+  <path d="M20 160 Q120 150 220 160" stroke="#4A5568" stroke-width="4" fill="none"/>
+</svg>

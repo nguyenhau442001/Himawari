@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water Surface -->
+  <path d="M0 160 C 60 140, 180 140, 240 160 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  
+  <!-- Pier/Dock Structure -->
+  <rect x="0" y="140" width="80" height="20" fill="#4A5568"/>
+  <rect x="0" y="160" width="80" height="80" fill="#2D3748"/>
+  <rect x="70" y="130" width="10" height="30" fill="#718096"/>
+  
+  <!-- Fishing Boat -->
+  <path d="M100 170 L 200 170 L 190 200 L 110 200 Z" fill="#E67E22"/>
+  <rect x="130" y="145" width="20" height="25" fill="#F39C12"/>
+  <path d="M140 145 L 140 110 L 170 130 Z" fill="#BDC3C7"/>
+  
+  <!-- Mooring Post -->
+  <circle cx="60" cy="140" r="8" fill="#95A5A6"/>
+  <path d="M50 140 L 100 170" stroke="#718096" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- Atmospheric details (Stormy/Shelter context) -->
+  <path d="M20 40 L 40 60 M50 30 L 70 50 M80 40 L 100 60" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+</svg>

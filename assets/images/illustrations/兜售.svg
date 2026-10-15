@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Atmospheric background highlights to simulate scenic spot entryway at dusk/night -->
+  <path d="M40 190 L120 130 L200 190 Z" fill="#222733" opacity="0.5"/>
+  <circle cx="190" cy="70" r="25" fill="#3A4252" opacity="0.3"/>
+  <path d="M180 50 L200 50 L190 35 Z" fill="#FFB74D" opacity="0.6"/> <!-- Stylized scenic pagoda roof top hint -->
+
+  <!-- Motion lines representing active hawking/hawker stepping forward -->
+  <g opacity="0.4" stroke="#FF9800" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4">
+    <line x1="60" y1="120" x2="85" y2="120"/>
+    <line x1="50" y1="140" x2="75" y2="140"/>
+  </g>
+
+  <!-- Hawker Character (Peddling / 兜售) -->
+  <!-- Body/Torso leaning forward eagerly -->
+  <path d="M95 135 L80 180 L105 180 L115 145 Z" fill="#3B82F6"/>
+  <!-- Head -->
+  <circle cx="90" cy="115" r="13" fill="#FDE047"/>
+  <!-- Cap -->
+  <path d="M76 112 C76 104 104 104 104 112 Z" fill="#F59E0B"/>
+  
+  <!-- Extended Arm holding out souvenirs -->
+  <path d="M100 130 Q120 120 135 110" stroke="#FDE047" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Hand offering items -->
+  <circle cx="138" cy="108" r="5" fill="#FDE047"/>
+
+  <!-- Tray / Display of cheap souvenirs being peddled -->
+  <path d="M120 115 L160 115 L152 130 L128 130 Z" fill="#78350F"/>
+  <!-- Souvenir items on tray (cute miniature landmarks/stars) -->
+  <polygon points="132,115 135,107 138,115" fill="#EF4444"/>
+  <polygon points="144,115 147,103 150,115" fill="#10B981"/>
+
+  <!-- Legs -->
+  <path d="M88 180 L75 210" stroke="#1E293B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 180 L110 210" stroke="#1E293B" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Potential Customer Character (Passing by / looking) -->
+  <!-- Torso -->
+  <path d="M165 140 L160 180 L185 180 L180 145 Z" fill="#6366F1"/>
+  <!-- Head -->
+  <circle cx="172" cy="120" r="12" fill="#FBBF24"/>
+  <!-- Reaching out or holding bag / leaning back slightly in surprise/interest -->
+  <path d="M162 135 Q152 130 145 135" stroke="#FBBF24" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Customer legs -->
+  <path d="M170 180 L165 210" stroke="#334155" stroke-width="7" stroke-linecap="round"/>
+  <path d="M180 180 L188 210" stroke="#334155" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Focus/Attention Indicator (Bright dynamic accent showing aggressive offering) -->
+  <circle cx="138" cy="95" r="3" fill="#FF9800"/>
+  <path d="M135 90 Q138 82 145 85" stroke="#FF9800" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M142 92 Q148 88 150 95" stroke="#FF9800" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

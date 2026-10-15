@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Spotlight effect -->
+  <ellipse cx="120" cy="120" rx="90" ry="90" fill="#2A2F38" opacity="0.5"/>
+  
+  <!-- The "High Profile" character: A figure standing on a raised circular platform, wearing a sharp suit with a vibrant gold tie -->
+  <!-- Platform -->
+  <ellipse cx="120" cy="190" rx="60" ry="15" fill="#3A404D"/>
+  
+  <!-- Character Body -->
+  <path d="M100 185 L140 185 L135 120 L105 120 Z" fill="#4A5263"/>
+  <path d="M105 120 L135 120 L120 80 Z" fill="#2D333E"/>
+  
+  <!-- Gold Tie (Accent) -->
+  <path d="M118 120 L122 120 L120 160 Z" fill="#FFC107"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="75" r="25" fill="#E0E6ED"/>
+  
+  <!-- Spotlight Beam -->
+  <path d="M120 0 L60 240 L180 240 Z" fill="url(#beamGradient)" opacity="0.2"/>
+  <defs>
+    <linearGradient id="beamGradient" x1="120" y1="0" x2="120" y2="240">
+      <stop offset="0%" stop-color="#FFC107" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1A1D24" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Camera flashes/sparkles to indicate "publicity/showy" -->
+  <path d="M160 60 L165 50 L170 60 L180 65 L170 70 L165 80 L160 70 L150 65 Z" fill="#FFC107"/>
+  <path d="M70 90 L73 85 L76 90 L82 93 L76 96 L73 101 L70 96 L64 93 Z" fill="#FFC107"/>
+</svg>

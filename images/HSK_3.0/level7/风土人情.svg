@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Landscape background elements representing "风土" (local environment/geography) -->
+  <path d="M40 180 C 80 140, 160 140, 200 180 L 200 200 L 40 200 Z" fill="#2C3E50"/>
+  <path d="M60 190 L 80 150 L 100 190 Z" fill="#34495E"/>
+  <path d="M140 195 L 170 160 L 200 195 Z" fill="#34495E"/>
+  
+  <!-- Human figures representing "人情" (social customs/human interaction) -->
+  <!-- Figure 1: Local person in traditional attire -->
+  <g transform="translate(70, 110)">
+    <circle cx="25" cy="25" r="12" fill="#F39C12"/>
+    <path d="M15 40 L 35 40 L 30 90 L 20 90 Z" fill="#F39C12"/>
+    <path d="M10 50 L 20 60 L 10 70" stroke="#F39C12" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Figure 2: Traveler/Visitor interacting -->
+  <g transform="translate(130, 110)">
+    <circle cx="25" cy="25" r="12" fill="#E67E22"/>
+    <path d="M15 40 L 35 40 L 30 90 L 20 90 Z" fill="#E67E22"/>
+    <path d="M40 50 L 30 60 L 40 70" stroke="#E67E22" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Interaction: Polite handshake/greeting gesture -->
+  <path d="M95 145 L 125 145" stroke="#F1C40F" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Cultural symbol: A stylized lantern representing local custom -->
+  <path d="M180 60 L 180 100 M 170 70 L 190 70 M 170 90 L 190 90" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <rect x="165" y="70" width="30" height="20" rx="2" fill="none" stroke="#F39C12" stroke-width="3"/>
+</svg>

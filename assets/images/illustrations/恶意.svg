@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow to create depth for dark mode -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual illustration for "恶意" (Malicious intent / toxic rumor spreading) -->
+  <!-- We use a physical object: a dark, sleek megaphone/speaker casting a toxic shadow/waveform, symbolizing malicious verbal attacks and rumors in forums -->
+  
+  <!-- Toxic Sound Wave / Malicious aura emanating -->
+  <path d="M145 80 C 160 95, 160 145, 145 160" fill="none" stroke="#E5534B" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+  <path d="M158 68 C 180 92, 180 148, 158 172" fill="none" stroke="#E5534B" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M171 56 C 200 85, 200 155, 171 184" fill="none" stroke="#E5534B" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Malicious Sharp Thorns / Spikes emerging from the sound wave -->
+  <polygon points="168,75 182,70 176,85" fill="#E5534B"/>
+  <polygon points="185,120 205,120 190,130" fill="#E5534B"/>
+  <polygon points="168,165 182,170 176,155" fill="#E5534B"/>
+
+  <!-- Megaphone Body (The physical object representing malicious communication) -->
+  <!-- Handle -->
+  <path d="M85 140 L70 180 L95 185 L105 145 Z" fill="#2F3640"/>
+  <rect x="75" y="175" width="25" height="6" rx="3" fill="#E5534B"/>
+
+  <!-- Main Cone -->
+  <path d="M95 95 L145 75 L145 165 L95 145 Z" fill="#4B6584"/>
+  
+  <!-- Cone Highlight -->
+  <path d="M95 95 L145 75 L145 105 L95 115 Z" fill="#6c8ca3" opacity="0.4"/>
+
+  <!-- Speaker Opening (Front Ellipse/Rim) -->
+  <ellipse cx="145" cy="120" rx="10" ry="45" fill="#2F3640" stroke="#E5534B" stroke-width="3"/>
+
+  <!-- Speaker Back / Grip -->
+  <path d="M95 95 C 90 95, 85 105, 85 120 C 85 135, 90 145, 95 145 Z" fill="#2F3640"/>
+  <rect x="90" y="112" width="8" height="16" rx="2" fill="#E5534B"/>
+
+  <!-- Toxic/Spiteful Element inside the speaker cone (a sharp dagger/thorn core) -->
+  <path d="M100 120 L135 110 L135 130 Z" fill="#E5534B"/>
+</svg>

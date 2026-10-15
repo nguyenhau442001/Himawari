@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Roof structure -->
+  <path d="M40 80 L120 20 L200 80 Z" fill="#2D343E" stroke="#FFB347" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Attic wall -->
+  <rect x="40" y="80" width="160" height="100" fill="#252A33"/>
+  
+  <!-- Attic window -->
+  <rect x="105" y="45" width="30" height="25" rx="4" fill="#3B4252" stroke="#FFB347" stroke-width="2"/>
+  <line x1="120" y1="45" x2="120" y2="70" stroke="#FFB347" stroke-width="2"/>
+  
+  <!-- Stored items: Magazines -->
+  <rect x="60" y="140" width="40" height="30" rx="2" fill="#FFB347"/>
+  <rect x="65" y="145" width="30" height="20" rx="1" fill="#1A1D24"/>
+  
+  <!-- Stored items: Photo frame -->
+  <rect x="140" y="130" width="35" height="40" rx="2" fill="#FFB347"/>
+  <rect x="145" y="135" width="25" height="25" rx="1" fill="#3B4252"/>
+  <circle cx="157" cy="147" r="5" fill="#FFB347"/>
+  
+  <!-- Floor line -->
+  <line x1="40" y1="180" x2="200" y2="180" stroke="#FFB347" stroke-width="4" stroke-linecap="round"/>
+</svg>

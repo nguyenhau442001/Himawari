@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table -->
+  <path d="M60 180 L180 180 L170 195 L70 195 Z" fill="#3D4451"/>
+  <path d="M70 195 L170 195 L165 210 L75 210 Z" fill="#2A2F3A"/>
+  
+  <!-- Vase -->
+  <path d="M105 180 L135 180 L132 140 C132 130 128 125 120 125 C112 125 108 130 108 140 Z" fill="#E0A84D"/>
+  <path d="M110 135 L130 135" stroke="#C68E2D" stroke-width="2"/>
+  
+  <!-- Ikebana Flowers -->
+  <path d="M120 125 L120 90" stroke="#4A7C59" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 90 L100 70" stroke="#4A7C59" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 90 L140 80" stroke="#4A7C59" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Petals -->
+  <circle cx="100" cy="70" r="8" fill="#F4D03F"/>
+  <circle cx="140" cy="80" r="6" fill="#F4D03F"/>
+  <path d="M120 90 Q115 100 125 100 Z" fill="#F4D03F"/>
+  
+  <!-- Decorative shadow/accent -->
+  <ellipse cx="120" cy="195" rx="40" ry="5" fill="#000000" opacity="0.2"/>
+</svg>

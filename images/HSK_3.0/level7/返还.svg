@@ -1,0 +1,65 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Grid/Accent for Context -->
+  <path d="M40 180 L200 180" stroke="#2A2F3B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Object: A physical key and coin pouch/stack representing the deposit/item being returned -->
+  <!-- Handover motion implied through composition -->
+  
+  <!-- Left person's hand (returning the deposit/item) -->
+  <g transform="translate(0, 0)">
+    <!-- Arm -->
+    <path d="M20 140 C50 140, 70 140, 90 140" stroke="#3A4356" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <!-- Hand -->
+    <circle cx="95" cy="140" r="10" fill="#E0E6ED"/>
+  </g>
+  
+  <!-- Right person's hand (receiving back the deposit/item) -->
+  <g transform="translate(0, 0)">
+    <!-- Arm -->
+    <path d="M220 140 C190 140, 170 140, 150 140" stroke="#3A4356" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <!-- Hand -->
+    <circle cx="145" cy="140" r="10" fill="#E0E6ED"/>
+  </g>
+
+  <!-- Central Physical Object: Returned Security Deposit (Gold Coins and Key / Document) -->
+  <g transform="translate(120, 115)">
+    <!-- Glow/Focus background -->
+    <circle cx="0" cy="0" r="45" fill="#FFB703" opacity="0.1"/>
+    
+    <!-- Document/Contract base (Representing Lease Agreement context) -->
+    <rect x="-30" y="-35" width="60" height="75" rx="4" fill="#FFFFFF" opacity="0.9"/>
+    <!-- Document lines -->
+    <line x1="-20" y1="-20" x2="20" y2="-20" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <line x1="-20" y1="-10" x2="10" y2="-10" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <line x1="-20" y1="0" x2="15" y2="0" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    
+    <!-- Red Stamp (Contract completed/terminated successfully) -->
+    <circle cx="12" cy="20" r="10" fill="none" stroke="#E63946" stroke-width="2"/>
+    <path d="M7 20 L10 23 L17 16" stroke="#E63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Stack of Deposit Coins returning -->
+    <g transform="translate(0, -50)">
+      <!-- Coin 3 -->
+      <ellipse cx="0" cy="15" rx="22" ry="7" fill="#E59866"/>
+      <ellipse cx="0" cy="12" rx="22" ry="7" fill="#F4D03F"/>
+      
+      <!-- Coin 2 -->
+      <ellipse cx="0" cy="8" rx="22" ry="7" fill="#E59866"/>
+      <ellipse cx="0" cy="5" rx="22" ry="7" fill="#F4D03F"/>
+      
+      <!-- Coin 1 (Top) -->
+      <ellipse cx="0" cy="1" rx="22" ry="7" fill="#E59866"/>
+      <ellipse cx="0" cy="-2" rx="22" ry="7" fill="#F1C40F"/>
+      <text x="0" y="2" font-family="sans-serif" font-size="8" font-weight="bold" fill="#7D6608" text-anchor="middle">$</text>
+    </g>
+  </g>
+
+  <!-- Return directional curved arrow (Visualizing the 'giving back' action) -->
+  <path d="M 80 75 C 100 45, 140 45, 160 75" fill="none" stroke="#FFB703" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <!-- Arrow Head -->
+  <path d="M 152 65 L 163 76 L 150 82" fill="none" stroke="#FFB703" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

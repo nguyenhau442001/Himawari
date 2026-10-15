@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Door Frame -->
+  <rect x="70" y="30" width="100" height="180" rx="4" fill="#2C333D" stroke="#4A5568" stroke-width="4"/>
+  
+  <!-- Door Panel -->
+  <rect x="78" y="38" width="84" height="164" rx="2" fill="#3A4452"/>
+  
+  <!-- Decorative Door Panels -->
+  <rect x="90" y="50" width="60" height="40" rx="1" fill="#2C333D"/>
+  <rect x="90" y="100" width="60" height="80" rx="1" fill="#2C333D"/>
+  
+  <!-- Deadbolt Mechanism (Focus) -->
+  <rect x="145" y="110" width="25" height="15" rx="2" fill="#FFB84D"/>
+  <rect x="155" y="112" width="20" height="11" rx="1" fill="#E69E2D"/>
+  
+  <!-- Keyhole -->
+  <circle cx="130" cy="120" r="6" fill="#1A1D24"/>
+  <rect x="128" y="120" width="4" height="6" fill="#1A1D24"/>
+  
+  <!-- Handle -->
+  <rect x="120" y="135" width="8" height="30" rx="4" fill="#FFB84D"/>
+  
+  <!-- Security Bolt Detail -->
+  <rect x="162" y="113" width="8" height="9" rx="1" fill="#FFD700"/>
+</svg>

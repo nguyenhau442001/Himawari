@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Mountain (Background/Left) -->
+  <path d="M40 180 L90 80 L140 180 Z" fill="#34495E"/>
+  <path d="M60 140 L90 80 L120 140 Z" fill="#4A6572"/>
+  
+  <!-- River (Foreground/Right) -->
+  <path d="M120 180 C 150 170, 180 190, 220 180 L 220 220 L 120 220 Z" fill="#2980B9"/>
+  <path d="M130 190 C 160 180, 190 200, 210 190" stroke="#5DADE2" stroke-width="2" fill="none"/>
+  
+  <!-- Traditional Pavilion (The focal point of Feng Shui harmony) -->
+  <g transform="translate(110, 120)">
+    <!-- Roof -->
+    <path d="M-30 0 L0 -30 L30 0 Z" fill="#F39C12"/>
+    <path d="M-35 5 L0 -35 L35 5 Z" fill="#D35400"/>
+    <!-- Pillars -->
+    <rect x="-20" y="5" width="5" height="40" fill="#BDC3C7"/>
+    <rect x="15" y="5" width="5" height="40" fill="#BDC3C7"/>
+    <!-- Base -->
+    <rect x="-25" y="45" width="50" height="10" fill="#7F8C8D"/>
+  </g>
+  
+  <!-- Natural elements (Tree) -->
+  <rect x="50" y="170" width="8" height="20" fill="#5D4037"/>
+  <circle cx="54" cy="160" r="15" fill="#27AE60"/>
+</svg>

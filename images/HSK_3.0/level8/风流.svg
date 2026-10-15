@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle glowing accent background representing scholarly brilliance -->
+  <circle cx="120" cy="115" r="70" fill="#252A36" opacity="0.6"/>
+
+  <!-- Character representing Su Shi / "Fengliu" Scholar (Hào hoa lãng tử) -->
+  <g transform="translate(0, 5)">
+    <!-- Traditional scholar hat (Guan/Mao) with flowing ribbon (representing wind/fēng) -->
+    <path d="M95 62 L145 62 L150 52 L90 52 Z" fill="#D4AF37"/>
+    <path d="M120 62 L120 75" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+    <!-- Flowing ribbon behind the hat -->
+    <path d="M145 57 C165 55 180 65 190 80 C180 75 160 70 142 62" fill="#38BDF8" opacity="0.8"/>
+
+    <!-- Head and flowing hair/beard indicating free spirit and literary talent -->
+    <circle cx="120" cy="85" r="22" fill="#E2E8F0"/>
+    <!-- Scholar hair bun & stray strands -->
+    <path d="M113 63 C113 58 127 58 127 63" fill="#D4AF37"/>
+
+    <!-- Traditional scholarly robes (Hanfu collar & layered garments) in deep indigo and gold -->
+    <path d="M85 120 C85 105 155 105 155 120 L175 185 C175 192 165 195 155 195 L85 195 C75 195 65 192 65 185 Z" fill="#1E293B"/>
+    <!-- Inner robe collar -->
+    <path d="M100 108 L120 128 L140 108" fill="none" stroke="#F8FAFC" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Gold sash / belt -->
+    <path d="M88 145 L152 145 L150 157 L90 157 Z" fill="#D4AF37"/>
+
+    <!-- Elegant raised hand holding a traditional folding fan (symbolizing refinement and talent) -->
+    <path d="M145 130 C155 125 168 135 162 148 C160 152 152 150 148 142" fill="#E2E8F0"/>
+    <!-- Folding fan -->
+    <path d="M152 142 L185 110 L195 130 L160 148 Z" fill="#FBBF24"/>
+    <path d="M165 130 L185 110 M170 135 L190 120 M160 140 L180 125" stroke="#B45309" stroke-width="1.5"/>
+
+    <!-- Poetic swirling wind and plum blossom motif symbolizing "fengliu" (elegance, romantic brilliance, cultural prestige) -->
+    <!-- Swirling graceful wind lines -->
+    <path d="M40 150 C60 130 70 170 95 150" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M145 175 C170 160 185 190 205 170" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Stylized floating scholar's scroll/brush element -->
+    <g transform="translate(62, 115) rotate(-25)">
+      <rect x="0" y="0" width="28" height="8" rx="2" fill="#D4AF37"/>
+      <rect x="4" y="-8" width="20" height="8" rx="1" fill="#F8FAFC"/>
+    </g>
+  </g>
+</svg>

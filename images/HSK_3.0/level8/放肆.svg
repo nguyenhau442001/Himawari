@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 40)">
+    <!-- Formal Setting: A dignified, rigid silhouette representing the elder/authority -->
+    <path d="M120 20 L140 60 L100 60 Z" fill="#4A5568"/>
+    <circle cx="120" cy="20" r="15" fill="#4A5568"/>
+    
+    <!-- The "Fàngsì" character: A figure acting out, feet on a table, posture defiant -->
+    <!-- Table -->
+    <rect x="20" y="120" width="120" height="15" rx="2" fill="#718096"/>
+    <rect x="30" y="135" width="10" height="40" fill="#718096"/>
+    <rect x="120" y="135" width="10" height="40" fill="#718096"/>
+    
+    <!-- Defiant Figure -->
+    <g fill="#F6AD55">
+      <!-- Head -->
+      <circle cx="80" cy="90" r="12"/>
+      <!-- Torso -->
+      <path d="M70 102 L90 102 L95 130 L65 130 Z"/>
+      <!-- Legs up on table -->
+      <path d="M90 125 L110 110 L120 115 L100 130 Z" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+      <!-- Arms akimbo/arrogant -->
+      <path d="M65 110 L50 100" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+      <path d="M95 110 L110 100" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Visual cue of disruption: A tilted, falling chair -->
+    <path d="M140 140 L160 140 L155 160 L135 160 Z" fill="#E53E3E" opacity="0.8" transform="rotate(20 150 150)"/>
+  </g>
+</svg>

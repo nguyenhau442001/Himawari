@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Glow Effect / Backdrop -->
+    <circle cx="120" cy="115" r="70" fill="#E5A93B" opacity="0.08"/>
+    
+    <!-- Wooden Gavel (Judge's Gavel) & Sound Block -->
+    <!-- Sound Block (Base) -->
+    <path d="M75 162 L165 162 L155 180 L85 180 Z" fill="#2C3240" stroke="#3E4756" stroke-width="2"/>
+    <ellipse cx="120" cy="162" rx="45" ry="8" fill="#3E4756"/>
+    
+    <!-- Gavel Handle -->
+    <path d="M120 70 L120 145" stroke="#C8882B" stroke-width="10" stroke-linecap="round"/>
+    <!-- Handle Grip Rings -->
+    <line x1="115" y1="85" x2="125" y2="85" stroke="#8C5C12" stroke-width="2"/>
+    <line x1="115" y1="100" x2="125" y2="100" stroke="#8C5C12" stroke-width="2"/>
+    
+    <!-- Gavel Head (Tilted for dynamic action) -->
+    <g transform="rotate(-25 120 135)">
+      <!-- Main Cylinder Head -->
+      <rect x="75" y="122" width="90" height="28" rx="6" fill="#E5A93B"/>
+      <!-- Metallic Accent / Banding -->
+      <rect x="85" y="122" width="8" height="28" fill="#F3C86B"/>
+      <rect x="147" y="122" width="8" height="28" fill="#F3C86B"/>
+      <!-- Inner core shadow -->
+      <rect x="95" y="132" width="50" height="8" rx="2" fill="#C8882B" opacity="0.6"/>
+    </g>
+
+    <!-- Traditional Scale of Justice (Subtle background silhouette for legal context) -->
+    <g opacity="0.15" transform="translate(0, -5)">
+      <line x1="120" y1="45" x2="120" y2="75" stroke="#FFFFFF" stroke-width="3"/>
+      <line x1="85" y1="55" x2="155" y2="55" stroke="#FFFFFF" stroke-width="3"/>
+      <!-- Left Pan -->
+      <line x1="85" y1="55" x2="70" y2="80" stroke="#FFFFFF" stroke-width="1.5"/>
+      <line x1="85" y1="55" x2="100" y2="80" stroke="#FFFFFF" stroke-width="1.5"/>
+      <path d="M70 80 Q85 92 100 80 Z" fill="#FFFFFF"/>
+      <!-- Right Pan -->
+      <line x1="155" y1="55" x2="140" y2="80" stroke="#FFFFFF" stroke-width="1.5"/>
+      <line x1="155" y1="55" x2="170" y2="80" stroke="#FFFFFF" stroke-width="1.5"/>
+      <path d="M140 80 Q155 92 170 80 Z" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>

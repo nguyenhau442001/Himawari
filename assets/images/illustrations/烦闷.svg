@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Desk / Workplace context elements (subtle) -->
+    <rect x="50" y="165" width="140" height="6" rx="3" fill="#2E3440" />
+    <rect x="155" y="115" width="25" height="50" rx="2" fill="#2E3440" />
+    <path d="M167.5 105 L167.5 115" stroke="#4C566A" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Character representing "烦闷" (feeling heavy-hearted, stifled, troubled at work) -->
+    <!-- Torso and shoulders -->
+    <path d="M75 171 C75 145 95 135 120 135 C145 135 165 145 165 171 Z" fill="#3B4252" />
+    <path d="M90 135 L90 125 C90 115 100 110 120 110 C140 110 150 115 150 125 L150 135" fill="#E5E9F0" />
+
+    <!-- Head -->
+    <circle cx="120" cy="92" r="22" fill="#E5E9F0" />
+    
+    <!-- Hair -->
+    <path d="M98 90 C98 75 108 68 120 68 C132 68 142 75 142 90 C142 95 140 92 138 85 C135 75 128 72 120 72 C112 72 105 75 102 85 C100 92 98 95 98 90 Z" fill="#4C566A" />
+
+    <!-- Slumped Posture & Head in Hand Gesture -->
+    <!-- Back bent forward -->
+    <path d="M100 138 C105 125 112 115 120 115" stroke="#3B4252" stroke-width="14" stroke-linecap="round" fill="none" />
+
+    <!-- Bent Arm supporting the heavy head -->
+    <!-- Upper arm -->
+    <path d="M102 142 C92 130 85 110 92 95" stroke="#E5E9F0" stroke-width="12" stroke-linecap="round" fill="none" />
+    <!-- Forearm & Hand pressing against temple -->
+    <path d="M92 95 C100 90 112 90 118 92" stroke="#E5E9F0" stroke-width="11" stroke-linecap="round" fill="none" />
+    
+    <!-- Closed / Worried Eye details -->
+    <path d="M112 91 Q116 94 120 91" stroke="#2E3440" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M125 91 Q128 94 132 91" stroke="#2E3440" stroke-width="2" stroke-linecap="round" fill="none" />
+    <!-- Frowning brow -->
+    <path d="M113 87 L119 89" stroke="#2E3440" stroke-width="2" stroke-linecap="round" />
+    <path d="M131 87 L125 89" stroke="#2E3440" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Heavy/Stifled Atmosphere (Visual metaphor for inner turbulence/闷) -->
+    <!-- Subtle swirling pressure lines over head -->
+    <path d="M95 55 C105 48 115 52 122 55 C129 58 135 52 145 52" stroke="#D08770" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M102 45 C112 40 120 44 128 47 C136 50 140 42 150 42" stroke="#D08770" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.4" />
+
+    <!-- Glowing accent focus point representing the chest-tightness / inner trouble -->
+    <circle cx="115" cy="148" r="6" fill="#D08770" opacity="0.8" />
+    <circle cx="115" cy="148" r="12" stroke="#D08770" stroke-width="1.5" fill="none" opacity="0.4" />
+  </g>
+</svg>

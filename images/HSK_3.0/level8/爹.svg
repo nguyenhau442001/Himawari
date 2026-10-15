@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Silhouette of an elderly father figure -->
+  <g transform="translate(60, 60)">
+    <!-- Body/Clothing -->
+    <path d="M60 140 C 60 120, 80 110, 120 110 C 160 110, 180 120, 180 140 L 180 160 L 60 160 Z" fill="#4A5568"/>
+    
+    <!-- Shoulders/Torso -->
+    <path d="M70 110 C 70 80, 90 60, 120 60 C 150 60, 170 80, 170 110 Z" fill="#2D3748"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="55" r="35" fill="#E2E8F0"/>
+    
+    <!-- Hair (White/Grey for "Old Father") -->
+    <path d="M90 55 C 90 30, 110 20, 120 20 C 130 20, 150 30, 150 55 Z" fill="#A0AEC0"/>
+    
+    <!-- Facial Features (Minimalist) -->
+    <path d="M105 50 L 112 50 M 128 50 L 135 50" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M110 70 C 115 75, 125 75, 130 70" stroke="#1A1D24" stroke-width="2" stroke-linecap="round" fill="none"/>
+    
+    <!-- Cane (Symbolizing age/fatherhood) -->
+    <path d="M170 100 L 170 160" stroke="#D69E2E" stroke-width="6" stroke-linecap="round"/>
+    <path d="M170 100 C 185 100, 190 105, 190 115" stroke="#D69E2E" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Accent highlight -->
+  <circle cx="120" cy="120" r="110" stroke="#D69E2E" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

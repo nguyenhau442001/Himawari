@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water Surface -->
+  <path d="M0 160 C 80 140, 160 180, 240 160 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  <path d="M0 170 C 80 150, 160 190, 240 170 L 240 240 L 0 240 Z" fill="#1E293B"/>
+  
+  <!-- Far Bank (The "Duì'àn") -->
+  <rect x="20" y="110" width="200" height="30" rx="4" fill="#334155"/>
+  
+  <!-- Cityscape on Far Bank -->
+  <rect x="40" y="80" width="20" height="30" fill="#F59E0B"/>
+  <rect x="70" y="60" width="25" height="50" fill="#F59E0B"/>
+  <rect x="110" y="70" width="30" height="40" fill="#F59E0B"/>
+  <rect x="155" y="50" width="20" height="60" fill="#F59E0B"/>
+  <rect x="190" y="90" width="15" height="20" fill="#F59E0B"/>
+  
+  <!-- Near Bank (Foreground) -->
+  <path d="M0 240 L 0 200 C 60 180, 180 220, 240 200 L 240 240 Z" fill="#262A33"/>
+  
+  <!-- Observer silhouette -->
+  <path d="M40 240 L 40 200 L 55 200 L 55 240 Z" fill="#94A3B8"/>
+  <circle cx="47.5" cy="190" r="8" fill="#94A3B8"/>
+  
+  <!-- Visual connection line -->
+  <path d="M55 190 L 155 70" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+</svg>

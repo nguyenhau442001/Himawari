@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Character Body -->
+    <path d="M60 120 C60 90 80 70 120 70 C160 70 180 90 180 120 L180 160 C180 170 170 180 160 180 L80 180 C70 180 60 170 60 160 Z" fill="#4A5568"/>
+    
+    <!-- Face: Head -->
+    <circle cx="120" cy="70" r="35" fill="#E2E8F0"/>
+    
+    <!-- Face: Reddened Cheeks (Embarrassment) -->
+    <circle cx="105" cy="80" r="6" fill="#FC8181" opacity="0.8"/>
+    <circle cx="135" cy="80" r="6" fill="#FC8181" opacity="0.8"/>
+    
+    <!-- Face: Eyes (Looking down/closed in shame) -->
+    <path d="M105 65 L115 70 M125 70 L135 65" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Face: Mouth (Frown) -->
+    <path d="M110 95 Q120 90 130 95" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- Hands covering face -->
+    <path d="M90 100 L80 80 L95 75 L105 90" fill="#CBD5E0"/>
+    <path d="M150 100 L160 80 L145 75 L135 90" fill="#CBD5E0"/>
+    
+    <!-- Accent: Spotlight/Focus -->
+    <circle cx="120" cy="120" r="100" fill="none" stroke="#ECC94B" stroke-width="2" stroke-dasharray="10 10" opacity="0.3"/>
+  </g>
+</svg>

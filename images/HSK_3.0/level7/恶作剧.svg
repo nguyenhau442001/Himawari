@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Whoopee Cushion (The iconic object of a prank) -->
+  <g transform="translate(120, 120)">
+    <!-- Main body of the cushion -->
+    <circle cx="0" cy="0" r="65" fill="#FF9F1C"/>
+    <circle cx="0" cy="0" r="55" fill="#E68A00"/>
+    
+    <!-- The nozzle/valve -->
+    <rect x="-15" y="-85" width="30" height="25" rx="5" fill="#FF9F1C"/>
+    <rect x="-10" y="-80" width="20" height="15" rx="3" fill="#E68A00"/>
+    
+    <!-- Decorative lines to show it's a rubber object -->
+    <path d="M-40 -40 A 60 60 0 0 1 40 -40" stroke="#C57500" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M-40 40 A 60 60 0 0 0 40 40" stroke="#C57500" stroke-width="4" fill="none" stroke-linecap="round"/>
+    
+    <!-- Motion lines to suggest the 'prank' action -->
+    <path d="M-90 -20 Q -110 -40 -90 -60" stroke="#FF9F1C" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M-100 0 Q -120 -20 -100 -40" stroke="#FF9F1C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

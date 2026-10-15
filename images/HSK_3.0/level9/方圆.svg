@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Landscape background -->
+  <path d="M0 160 Q 60 120, 120 160 T 240 160 L 240 240 L 0 240 Z" fill="#2A2F38"/>
+  <path d="M0 180 Q 80 140, 160 180 T 240 180 L 240 240 L 0 240 Z" fill="#353B47"/>
+  
+  <!-- Castle -->
+  <path d="M90 180 L 90 120 L 105 100 L 120 120 L 120 180 Z" fill="#4A5568"/>
+  <path d="M120 180 L 120 120 L 135 100 L 150 120 L 150 180 Z" fill="#4A5568"/>
+  <rect x="100" y="130" width="40" height="50" fill="#718096"/>
+  <rect x="112" y="145" width="16" height="35" fill="#2D3748"/>
+  
+  <!-- Radius/Scope Visualization (The "Fangyuan" concept) -->
+  <circle cx="120" cy="140" r="70" fill="none" stroke="#F6AD55" stroke-width="2" stroke-dasharray="8 8" opacity="0.6"/>
+  <circle cx="120" cy="140" r="2" fill="#F6AD55"/>
+  <line x1="120" y1="140" x2="190" y2="140" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Atmosphere -->
+  <circle cx="180" cy="60" r="20" fill="#2D3748" opacity="0.5"/>
+  <circle cx="195" cy="70" r="15" fill="#2D3748" opacity="0.5"/>
+</svg>

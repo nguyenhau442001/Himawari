@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M40 180 L200 180 L210 200 L30 200 Z" fill="#374151"/>
+  <rect x="40" y="180" width="160" height="5" fill="#F59E0B"/>
+  
+  <!-- Rising Warm Air (Orange) -->
+  <path d="M80 180 C 80 140, 100 120, 100 100 S 120 80, 120 60" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" fill="none" stroke-dasharray="8 8"/>
+  <path d="M160 180 C 160 140, 140 120, 140 100 S 120 80, 120 60" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" fill="none" stroke-dasharray="8 8"/>
+  
+  <!-- Descending Cool Air (Blue) -->
+  <path d="M100 60 C 100 80, 80 100, 80 120 S 60 140, 60 180" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" fill="none" stroke-dasharray="8 8"/>
+  <path d="M140 60 C 140 80, 160 100, 160 120 S 180 140, 180 180" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" fill="none" stroke-dasharray="8 8"/>
+  
+  <!-- Cloud Top -->
+  <path d="M90 60 C 80 40, 100 30, 120 30 C 140 30, 160 40, 150 60 Z" fill="#9CA3AF"/>
+  
+  <!-- Lightning Bolt -->
+  <path d="M120 60 L110 90 L130 90 L120 120" fill="#FDE047"/>
+</svg>

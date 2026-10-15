@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ancient Stone Pagoda -->
+  <g transform="translate(120, 180)">
+    <!-- Base -->
+    <path d="M-40,0 L40,0 L35,-15 L-35,-15 Z" fill="#4A5568"/>
+    <!-- Body segments -->
+    <path d="M-30,-15 L30,-15 L25,-50 L-25,-50 Z" fill="#718096"/>
+    <path d="M-20,-50 L20,-50 L15,-85 L-15,-85 Z" fill="#718096"/>
+    <path d="M-12,-85 L12,-85 L8,-115 L-8,-115 Z" fill="#718096"/>
+    <!-- Roofs -->
+    <path d="M-45,-15 L45,-15 L40,-25 L-40,-25 Z" fill="#2D3748"/>
+    <path d="M-35,-50 L35,-50 L30,-60 L-30,-60 Z" fill="#2D3748"/>
+    <path d="M-25,-85 L25,-85 L20,-95 L-20,-95 Z" fill="#2D3748"/>
+    <!-- Spire -->
+    <path d="M-2,-115 L2,-115 L1,-135 L-1,-135 Z" fill="#A0AEC0"/>
+  </g>
+
+  <!-- Wind and Rain Effects -->
+  <g stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+    <!-- Rain streaks -->
+    <line x1="40" y1="20" x2="60" y2="60"/>
+    <line x1="80" y1="10" x2="100" y2="50"/>
+    <line x1="140" y1="30" x2="160" y2="70"/>
+    <line x1="180" y1="20" x2="200" y2="60"/>
+    <line x1="60" y1="80" x2="80" y2="120"/>
+    <line x1="160" y1="90" x2="180" y2="130"/>
+  </g>
+
+  <!-- Wind gusts -->
+  <path d="M20,70 Q50,60 80,70" fill="none" stroke="#F6AD55" stroke-width="2" opacity="0.8"/>
+  <path d="M160,50 Q190,40 220,50" fill="none" stroke="#F6AD55" stroke-width="2" opacity="0.8"/>
+  <path d="M10,110 Q40,100 70,110" fill="none" stroke="#F6AD55" stroke-width="2" opacity="0.8"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Path representing a specific destination/target -->
+  <path d="M120 180 L120 70 M100 90 L120 70 L140 90" stroke="#FFB84D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- The Person (Teacher) -->
+  <g transform="translate(120, 140)">
+    <circle cx="0" cy="-20" r="12" fill="#E0E0E0"/>
+    <path d="M-15 0 L15 0 L10 35 L-10 35 Z" fill="#4D94FF"/>
+    <rect x="-12" y="35" width="8" height="20" rx="2" fill="#4D94FF"/>
+    <rect x="4" y="35" width="8" height="20" rx="2" fill="#4D94FF"/>
+  </g>
+
+  <!-- The Destination/School Building -->
+  <g transform="translate(120, 50)">
+    <path d="M-30 20 L30 20 L30 -10 L0 -30 L-30 -10 Z" fill="#FFB84D"/>
+    <rect x="-15" y="-5" width="30" height="25" fill="#FFB84D"/>
+    <rect x="-8" y="5" width="6" height="15" fill="#1A1D24"/>
+    <rect x="2" y="5" width="6" height="15" fill="#1A1D24"/>
+  </g>
+
+  <!-- Ground line -->
+  <line x1="60" y1="195" x2="180" y2="195" stroke="#3E4451" stroke-width="4" stroke-linecap="round"/>
+</svg>

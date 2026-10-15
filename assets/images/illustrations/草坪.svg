@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for sunny park afternoon context -->
+  <circle cx="120" cy="110" r="80" fill="#2E3842" opacity="0.4"/>
+  <circle cx="180" cy="60" r="16" fill="#F5A623" opacity="0.8"/>
+  <path d="M180 34 L180 40 M180 80 L180 86 M158 56 L152 56 M208 56 L202 56 M164 40 L168 44 M196 68 L192 72 M164 72 L168 68 M196 44 L192 48" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Ground / Lawn Base (草坪 - flat green lawn) -->
+  <!-- Layer 1: Deep soil/base curve -->
+  <path d="M30 180 C80 160 160 160 210 180 C218 183 222 188 220 195 C215 205 205 210 120 210 C35 210 25 205 20 195 C18 188 22 183 30 180 Z" fill="#2A402B"/>
+  
+  <!-- Layer 2: Main vibrant flat green lawn surface -->
+  <path d="M25 155 C70 140 170 140 215 155 C222 158 225 163 220 170 C210 185 180 195 120 195 C60 195 30 185 20 170 C15 163 18 158 25 155 Z" fill="#388E3C"/>
+
+  <!-- Layer 3: Top lighter green plateau for depth -->
+  <path d="M35 150 C75 138 165 138 205 150 C210 152 212 155 210 160 C205 168 175 175 120 175 C65 175 35 168 30 160 C28 155 30 152 35 150 Z" fill="#4CAF50"/>
+
+  <!-- Precision Blades of Grass / Details representing clean turf -->
+  <!-- Left section blades -->
+  <path d="M50 152 L53 138 L56 153" fill="#81C784"/>
+  <path d="M70 148 L74 132 L77 150" fill="#81C784"/>
+  <path d="M90 145 L93 128 L97 147" fill="#81C784"/>
+  
+  <!-- Center focal blades (highlighted with orange/gold accent to draw focus as requested) -->
+  <path d="M110 143 L114 122 L118 145" fill="#F5A623"/>
+  <path d="M125 143 L122 125 L129 144" fill="#81C784"/>
+  
+  <!-- Right section blades -->
+  <path d="M145 145 L148 130 L152 147" fill="#81C784"/>
+  <path d="M165 148 L170 134 L173 150" fill="#81C784"/>
+  <path d="M185 152 L189 137 L192 153" fill="#81C784"/>
+
+  <!-- Additional subtle grass tufts for texture -->
+  <path d="M40 158 L42 147 L45 159" fill="#2E7D32"/>
+  <path d="M62 155 L65 144 L68 156" fill="#2E7D32"/>
+  <path d="M100 150 L102 138 L105 151" fill="#2E7D32"/>
+  <path d="M135 150 L138 138 L141 151" fill="#2E7D32"/>
+  <path d="M178 155 L181 144 L184 156" fill="#2E7D32"/>
+
+  <!-- Subtle flat ground shadow line -->
+  <ellipse cx="120" cy="195" rx="90" ry="8" fill="#111317" opacity="0.5"/>
+</svg>

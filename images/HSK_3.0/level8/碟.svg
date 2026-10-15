@@ -1,0 +1,26 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Table Surface / Shadow -->
+    <ellipse cx="120" cy="180" rx="85" ry="25" fill="#111318" opacity="0.8"/>
+    
+    <!-- Outer Rim of the Small Ceramic Dish -->
+    <ellipse cx="120" cy="120" rx="76" ry="46" fill="#323842"/>
+    <ellipse cx="120" cy="118" rx="72" ry="42" fill="#E2E8F0"/>
+    
+    <!-- Inner Bowl / Well of the Dish -->
+    <ellipse cx="120" cy="122" rx="54" ry="28" fill="#CBD5E1"/>
+    <ellipse cx="120" cy="120" rx="50" ry="25" fill="#F8FAFC"/>
+    
+    <!-- Elegant Ceramic Glaze Highlights & Accents -->
+    <path d="M 75 120 C 75 108, 95 100, 120 100 C 145 100, 165 108, 165 120" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    
+    <!-- Condiment / Sauce Drop (Representing context: 调味料小碟) -->
+    <ellipse cx="125" cy="123" rx="22" ry="11" fill="#D97706" opacity="0.85"/>
+    <ellipse cx="122" cy="121" rx="14" ry="7" fill="#F59E0B" opacity="0.9"/>
+    
+    <!-- Sauce Highlight -->
+    <ellipse cx="116" cy="120" rx="5" ry="2.5" fill="#FDE68A" opacity="0.8"/>
+  </g>
+</svg>

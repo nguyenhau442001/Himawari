@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background glow/ambience -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual Representation: 抚恤 (Fǔxù - State pension/relief funds for families of martyrs/service members) -->
+  <!-- Central Physical Object: A sleek official document/certificate paired with a golden relief fund token/badge and protective hands, symbolizing governmental care and financial support -->
+
+  <!-- Supporting hands at the base (symbolizing care, support, and state backing) -->
+  <path d="M70,165 C85,155 105,155 120,155 C135,155 155,155 170,165 C178,170 182,180 178,188 C175,193 165,190 155,182 C140,170 100,170 85,182 C75,190 65,193 62,188 C58,180 62,170 70,165 Z" fill="#323846"/>
+
+  <!-- Official Document/Certificate (representing the official relief/pension decree) -->
+  <g transform="translate(75, 55)">
+    <!-- Document shadow -->
+    <rect x="4" y="4" width="82" height="105" rx="8" fill="#111317" opacity="0.5"/>
+    <!-- Document base -->
+    <rect x="0" y="0" width="82" height="105" rx="8" fill="#2D3748"/>
+    <!-- Header banner -->
+    <path d="M 0 8 C 0 3.5 3.5 0 8 h 66 c 4.5 0 8 3.5 8 8 v 18 h -82 z" fill="#D97706"/>
+    
+    <!-- Text lines placeholder on document -->
+    <rect x="14" y="38" width="45" height="5" rx="2.5" fill="#4A5568"/>
+    <rect x="14" y="52" width="54" height="4" rx="2" fill="#E2E8F0" opacity="0.8"/>
+    <rect x="14" y="62" width="40" height="4" rx="2" fill="#E2E8F0" opacity="0.8"/>
+    <rect x="14" y="72" width="48" height="4" rx="2" fill="#E2E8F0" opacity="0.8"/>
+    
+    <!-- Official Red Seal / Stamp -->
+    <circle cx="58" cy="85" r="12" fill="#EF4444" opacity="0.9"/>
+    <circle cx="58" cy="85" r="9" fill="none" stroke="#FEE2E2" stroke-width="1.5" stroke-dasharray="2,1"/>
+  </g>
+
+  <!-- Golden Relief Fund Coin / Medal (representing the financial subsidy/pension) -->
+  <g transform="translate(130, 110)">
+    <!-- Outer glow -->
+    <circle cx="28" cy="28" r="28" fill="#D97706" opacity="0.2"/>
+    <!-- Coin base -->
+    <circle cx="28" cy="28" r="24" fill="#F59E0B"/>
+    <!-- Inner rim -->
+    <circle cx="28" cy="28" r="20" fill="none" stroke="#FEF3C7" stroke-width="1.5" opacity="0.8"/>
+    <!-- Central star symbol (representing honor/service) -->
+    <polygon points="28,15 31.5,22 39,23.2 33.5,28.5 35,36 28,32.3 21,36 22.5,28.5 17,23.2 24.5,22" fill="#FEF3C7"/>
+  </g>
+
+  <!-- Highlight accent light rays -->
+  <path d="M120,40 L120,50" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M65,95 L55,95" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M185,95 L175,95" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle dark background glow -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+  
+  <!-- Object: A cracked, tarnished golden classical pillar/pedestal representing structural decay, corruption, and rot (腐败) -->
+  <g transform="translate(0, 5)">
+    <!-- Base Platform -->
+    <path d="M 70 185 L 170 185 L 160 170 L 80 170 Z" fill="#3E4451"/>
+    <rect x="75" y="170" width="90" height="8" rx="2" fill="#5C6370"/>
+    
+    <!-- Lower Pillar Shaft (Solid Part) -->
+    <path d="M 85 130 L 155 130 L 155 170 L 85 170 Z" fill="#4B5263"/>
+    <!-- Fluting lines lower -->
+    <line x1="97" y1="130" x2="97" y2="170" stroke="#282C34" stroke-width="3" stroke-linecap="round"/>
+    <line x1="109" y1="130" x2="109" y2="170" stroke="#282C34" stroke-width="3" stroke-linecap="round"/>
+    <line x1="120" y1="130" x2="120" y2="170" stroke="#282C34" stroke-width="3" stroke-linecap="round"/>
+    <line x1="131" y1="130" x2="131" y2="170" stroke="#282C34" stroke-width="3" stroke-linecap="round"/>
+    <line x1="143" y1="130" x2="143" y2="170" stroke="#282C34" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Decayed/Corroded Midsection (Tarnished Gold / Rot tone) -->
+    <path d="M 88 90 L 152 90 L 155 130 L 85 130 Z" fill="#8F6B2A"/>
+    <!-- Corrosion spots / Holes -->
+    <path d="M 100 105 Q 110 110 105 120 Q 95 125 92 110 Z" fill="#1A1D24"/>
+    <circle cx="138" cy="110" r="7" fill="#1A1D24"/>
+    <path d="M 120 95 Q 128 100 125 110 Q 115 105 120 95 Z" fill="#654E1D"/>
+    <!-- Dripping decay elements -->
+    <path d="M 105 120 C 105 128 101 130 101 135 C 101 138 105 138 105 135 Z" fill="#8F6B2A"/>
+    <path d="M 138 117 C 138 126 134 130 134 136 C 134 139 138 139 138 136 Z" fill="#654E1D"/>
+
+    <!-- Upper Pillar Shaft -->
+    <path d="M 90 55 L 150 55 L 152 90 L 88 90 Z" fill="#ABB2BF"/>
+    <!-- Fluting lines upper -->
+    <line x1="100" y1="55" x2="100" y2="90" stroke="#5C6370" stroke-width="3" stroke-linecap="round"/>
+    <line x1="110" y1="55" x2="110" y2="90" stroke="#5C6370" stroke-width="3" stroke-linecap="round"/>
+    <line x1="120" y1="55" x2="120" y2="90" stroke="#5C6370" stroke-width="3" stroke-linecap="round"/>
+    <line x1="130" y1="55" x2="130" y2="90" stroke="#5C6370" stroke-width="3" stroke-linecap="round"/>
+    <line x1="140" y1="55" x2="140" y2="90" stroke="#5C6370" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Capital (Top part breaking/tilting) -->
+    <g transform="rotate(-6 120 45)">
+      <rect x="75" y="42" width="90" height="13" rx="2" fill="#5C6370"/>
+      <path d="M 70 42 L 170 42 L 165 32 L 75 32 Z" fill="#ABB2BF"/>
+    </g>
+
+    <!-- Major Structural Crack across the top -->
+    <path d="M 125 32 L 115 50 L 122 70 L 110 95" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 122 70 L 135 85" stroke="#1A1D24" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Falling debris / crumbling fragments -->
+    <polygon points="145,80 152,85 147,90" fill="#654E1D"/>
+    <polygon points="95,100 90,108 97,105" fill="#8F6B2A"/>
+    <circle cx="108" cy="140" r="3" fill="#4B5263"/>
+    <circle cx="130" cy="155" r="2" fill="#3E4451"/>
+  </g>
+  
+  <!-- Zero-tolerance accent ring / indicator framing the bottom -->
+  <path d="M 70 200 L 170 200" stroke="#E06C75" stroke-width="3" stroke-linecap="round"/>
+</svg>

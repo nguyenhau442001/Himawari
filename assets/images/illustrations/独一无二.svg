@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background glow/beam symbolizing uniqueness -->
+  <path d="M120 20 L155 220 L85 220 Z" fill="#252D3D" opacity="0.6"/>
+  <circle cx="120" cy="120" r="70" fill="#222A38" opacity="0.5"/>
+
+  <!-- Character / Physical Object representing "独一无二" (One of a kind human existence radiating its own unique light) -->
+  <g transform="translate(0, 5)">
+    <!-- Unique glowing aura/light rays emanating from the person -->
+    <g stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.8">
+      <line x1="120" y1="35" x2="120" y2="20" />
+      <line x1="155" y1="50" x2="167" y2="38" />
+      <line x1="170" y1="85" x2="185" y2="80" />
+      <line x1="85" y1="50" x2="73" y2="38" />
+      <line x1="70" y1="85" x2="55" y2="80" />
+    </g>
+
+    <!-- Concentric unique rings (fingerprint/core essence metaphor) -->
+    <circle cx="120" cy="115" r="54" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <circle cx="120" cy="115" r="42" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Person silhouette representing the unique individual -->
+    <!-- Shoulders & Body -->
+    <path d="M85 175 C85 148 100 140 120 140 C140 140 155 148 155 175 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="120" cy="105" r="22" fill="#60A5FA"/>
+    <!-- Hair style (modern flat silhouette) -->
+    <path d="M98 105 C98 90 108 82 120 82 C132 82 142 90 142 105 C142 100 138 92 120 90 C102 92 98 100 98 105 Z" fill="#1E3A8A"/>
+
+    <!-- Central core light / Heart of uniqueness -->
+    <circle cx="120" cy="155" r="8" fill="#FBBF24"/>
+    <circle cx="120" cy="155" r="4" fill="#FEF3C7"/>
+  </g>
+
+  <!-- Ground reflection / pedestal line -->
+  <ellipse cx="120" cy="195" rx="50" ry="6" fill="#111827"/>
+  <line x1="80" y1="195" x2="160" y2="195" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>
