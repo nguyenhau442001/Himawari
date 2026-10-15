@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Object: Giant golden mechanical spring-legs / giant powerful strides representing "长足" (leap/giant stride in progress) -->
+  <g transform="translate(120, 125)">
+    <!-- Dynamic motion trails / ground impact lines -->
+    <path d="M-60 65 L-80 65" stroke="#3A4256" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-55 72 L-70 72" stroke="#3A4256" stroke-width="3" stroke-linecap="round"/>
+    <path d="M45 65 L75 65" stroke="#FFA000" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <path d="M50 72 L65 72" stroke="#FFA000" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Left Leg (Back, supporting) -->
+    <g transform="translate(-25, 0)">
+      <!-- Upper thigh/strut -->
+      <path d="M0 -30 L-25 20" stroke="#6C7A9C" stroke-width="10" stroke-linecap="round"/>
+      <!-- Spring Joint -->
+      <circle cx="-25" cy="20" r="8" fill="#4E5D78"/>
+      <!-- Lower leg -->
+      <path d="M-25 20 L-35 60" stroke="#6C7A9C" stroke-width="8" stroke-linecap="round"/>
+      <!-- Foot/Base -->
+      <ellipse cx="-38" cy="63" rx="14" ry="5" fill="#6C7A9C"/>
+    </g>
+
+    <!-- Right Leg (Front, taking a massive forward leap) -->
+    <g transform="translate(15, -15)">
+      <!-- Upper thigh/strut -->
+      <path d="M0 -20 L30 15" stroke="#FFC107" stroke-width="12" stroke-linecap="round"/>
+      <!-- Golden Spring Joint -->
+      <circle cx="30" cy="15" r="10" fill="#FFA000"/>
+      <!-- Lower leg -->
+      <path d="M30 15 L50 55" stroke="#FFC107" stroke-width="10" stroke-linecap="round"/>
+      <!-- Foot/Base -->
+      <ellipse cx="55" cy="58" rx="18" ry="6" fill="#FFC107"/>
+      <!-- Motion lines / energy trail on forward leg -->
+      <path d="M 40 30 Q 55 20 65 5" fill="none" stroke="#FFA000" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    </g>
+
+    <!-- Central Body/Core connection (symbolizing massive structural advancement) -->
+    <path d="M-30 -35 Q 0 -50 25 -25" fill="none" stroke="#E2E8F0" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="0" cy="-40" r="12" fill="#FFC107"/>
+    <circle cx="0" cy="-40" r="6" fill="#1A1D24"/>
+
+    <!-- Upward directional arrows integrated subtly into the stride -->
+    <path d="M 5 -70 L 15 -85 L 25 -70" fill="none" stroke="#FFC107" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 15 -80 L 15 -55" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

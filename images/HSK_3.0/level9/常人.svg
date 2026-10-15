@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 40)">
+    <path d="M60 40c-11 0-20 9-20 20v20c0 11 9 20 20 20s20-9 20-20V60c0-11-9-20-20-20z" fill="#FFB84D"/>
+    <path d="M60 100c-25 0-45 20-45 45v50h90v-50c0-25-20-45-45-45z" fill="#A0AEC0"/>
+    <path d="M30 145h60v10H30z" fill="#718096"/>
+    <path d="M40 155h40v30H40z" fill="#4A5568"/>
+    <path d="M45 155v30M75 155v30" stroke="#2D3748" stroke-width="2"/>
+  </g>
+  <g transform="translate(120, 120)">
+    <path d="M0 0h20v60H0z" fill="#4A5568"/>
+    <circle cx="10" cy="-10" r="15" fill="#A0AEC0"/>
+  </g>
+  <g transform="translate(80, 120)">
+    <path d="M0 0h20v60H0z" fill="#4A5568"/>
+    <circle cx="10" cy="-10" r="15" fill="#A0AEC0"/>
+  </g>
+  <g transform="translate(160, 120)">
+    <path d="M0 0h20v60H0z" fill="#4A5568"/>
+    <circle cx="10" cy="-10" r="15" fill="#A0AEC0"/>
+  </g>
+</svg>

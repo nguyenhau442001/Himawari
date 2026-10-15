@@ -1,0 +1,38 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow for cinematic context -->
+  <circle cx="120" cy="115" r="75" fill="#252A34" opacity="0.6"/>
+
+  <!-- Film Strip / Television screen border (representing the TV series context) -->
+  <rect x="50" y="55" width="140" height="95" rx="8" fill="none" stroke="#3A4252" stroke-width="3" stroke-dasharray="8 4"/>
+
+  <!-- Musical Note (representing the Soundtrack / 插曲) as the central physical-like icon -->
+  <!-- Note Stem -->
+  <rect x="135" y="75" width="6" height="48" rx="3" fill="#FFB703"/>
+  
+  <!-- Note Head Left -->
+  <ellipse cx="118" cy="118" rx="14" ry="10" transform="rotate(-20 118 118)" fill="#FFB703"/>
+  
+  <!-- Note Head Right -->
+  <ellipse cx="148" cy="110" rx="14" ry="10" transform="rotate(-20 148 148)" fill="#FFB703"/>
+
+  <!-- Top Flag / Beam -->
+  <path d="M141 75 C 155 75, 172 70, 180 64 C 180 75, 160 83, 141 85 Z" fill="#FFB703"/>
+
+  <!-- Audio/Sound Waves emanating from the musical note (indicating song/melody) -->
+  <path d="M 85 95 Q 92 105 85 115" fill="none" stroke="#219EBC" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 72 87 Q 82 105 72 123" fill="none" stroke="#219EBC" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <path d="M 175 95 Q 168 105 175 115" fill="none" stroke="#219EBC" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 188 87 Q 178 105 188 123" fill="none" stroke="#219EBC" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Sparkles / Melodic highlights -->
+  <path d="M 100 68 L 103 74 L 109 77 L 103 80 L 100 86 L 97 80 L 91 77 L 97 74 Z" fill="#FFB703" opacity="0.8"/>
+  <path d="M 155 132 L 157 136 L 161 138 L 157 140 L 155 144 L 153 140 L 149 138 L 153 136 Z" fill="#219EBC" opacity="0.9"/>
+
+  <!-- Ground / Base line representing media playback bar -->
+  <rect x="65" y="172" width="110" height="6" rx="3" fill="#3A4252"/>
+  <rect x="65" y="172" width="75" height="6" rx="3" fill="#FFB703"/>
+  <circle cx="140" cy="175" r="7" fill="#FFFFFF"/>
+</svg>

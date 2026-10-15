@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Industrial Pipe System -->
+  <path d="M60 180 L60 100 C60 80 80 60 100 60 L180 60" fill="none" stroke="#4A5568" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Liquid Flowing Out -->
+  <path d="M180 60 L200 60" fill="none" stroke="#F6AD55" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- The "Excess" Element: Spilling/Overflowing Substance -->
+  <path d="M190 60 L190 180" fill="none" stroke="#F6AD55" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- The Standard Line (The "Limit" that is being crossed) -->
+  <line x1="40" y1="140" x2="200" y2="140" stroke="#E53E3E" stroke-width="4" stroke-dasharray="8 8"/>
+  
+  <!-- Container/Beaker representing the standard capacity -->
+  <path d="M80 180 L160 180 L150 100 L90 100 Z" fill="#2D3748" opacity="0.8"/>
+  
+  <!-- The Overflowing Substance inside the container -->
+  <path d="M85 175 L155 175 L145 130 L95 130 Z" fill="#F6AD55"/>
+  
+  <!-- Spillage over the top edge -->
+  <path d="M145 130 L155 130 L165 160 L155 160 Z" fill="#F6AD55"/>
+  
+  <!-- Warning indicator: A simple, non-abstract, physical hazard sign shape (Triangle) -->
+  <path d="M120 30 L140 65 L100 65 Z" fill="#E53E3E"/>
+  <rect x="118" y="40" width="4" height="15" rx="2" fill="#FFFFFF"/>
+  <circle cx="120" cy="60" r="2" fill="#FFFFFF"/>
+</svg>

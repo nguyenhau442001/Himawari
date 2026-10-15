@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background grid/glow for investigator workstation feel -->
+  <circle cx="120" cy="120" r="85" fill="#222733" opacity="0.6"/>
+  <circle cx="120" cy="120" r="65" fill="#282E3D" opacity="0.4"/>
+
+  <!-- Conceptual illustration: "查明" (investigate and clarify / uncover the truth) -->
+  <!-- Represented by a forensic magnifying glass inspecting physical evidence with a revealed clear core/clue -->
+
+  <!-- Evidence Document / Blueprint Base -->
+  <g transform="translate(85, 75)">
+    <rect x="-25" y="-30" width="60" height="75" rx="4" fill="#2D3548" stroke="#3E4964" stroke-width="2"/>
+    <line x1="-15" y1="-15" x2="15" y2="-15" stroke="#4E5D7D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-15" y1="0" x2="25" y2="0" stroke="#4E5D7D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-15" y1="15" x2="10" y2="15" stroke="#4E5D7D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Glowing Clue / Revealed Truth (Bright orange accent element) -->
+  <g transform="translate(115, 95)">
+    <circle cx="0" cy="0" r="16" fill="#FF8C37" opacity="0.2"/>
+    <circle cx="0" cy="0" r="10" fill="#FF8C37"/>
+    <!-- Checkmark inside clue indicating "found/clarified" -->
+    <path d="M-4 0 L-1 3 L5 -3" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Magnifying Glass (Investigating tool) -->
+  <g transform="translate(125, 125) rotate(-35)">
+    <!-- Glass Handle -->
+    <rect x="-6" y="35" width="12" height="45" rx="6" fill="#E6EDF5"/>
+    <rect x="-3" y="35" width="6" height="45" rx="3" fill="#B0BEC5"/>
+    
+    <!-- Outer Rim -->
+    <circle cx="0" cy="0" r="42" fill="#1A1D24" stroke="#FF8C37" stroke-width="6"/>
+    
+    <!-- Lens Reflection -->
+    <path d="M-28 -15 A 32 32 0 0 1 15 -28 A 38 38 0 0 0 -28 -15 Z" fill="#FFFFFF" opacity="0.15"/>
+  </g>
+
+  <!-- Accent focal highlight -->
+  <circle cx="100" cy="85" r="3" fill="#FF8C37"/>
+</svg>

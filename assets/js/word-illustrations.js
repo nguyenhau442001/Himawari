@@ -35952,6 +35952,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/采摘.svg",
     "caption": "chọn"
   },
+  "菜肴": {
+    "file": "菜肴.svg",
+    "src": "images/HSK_3.0/level7/菜肴.svg",
+    "caption": "món ăn"
+  },
   "参见": {
     "file": "参见.svg",
     "src": "images/HSK_3.0/level7/参见.svg",
@@ -35971,6 +35976,246 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "惨.svg",
     "src": "images/HSK_3.0/level7/惨.svg",
     "caption": "thê thảm, thảm thương"
+  },
+  "惨白": {
+    "file": "惨白.svg",
+    "src": "images/HSK_3.0/level7/惨白.svg",
+    "caption": "trắng bệch, trắng nhợt"
+  },
+  "惨痛": {
+    "file": "惨痛.svg",
+    "src": "images/HSK_3.0/level7/惨痛.svg",
+    "caption": "đau xót, thảm thiết, đau đớn"
+  },
+  "惨重": {
+    "file": "惨重.svg",
+    "src": "images/HSK_3.0/level7/惨重.svg",
+    "caption": "thảm trọng, tổn thất nặng nề"
+  },
+  "苍白": {
+    "file": "苍白.svg",
+    "src": "images/HSK_3.0/level7/苍白.svg",
+    "caption": "nhợt nhạt, tái nhợt, thiếu sức sống"
+  },
+  "沧桑": {
+    "file": "沧桑.svg",
+    "src": "images/HSK_3.0/level7/沧桑.svg",
+    "caption": "dâu bể, thăng trầm biến đổi cuộc đời"
+  },
+  "苍蝇": {
+    "file": "苍蝇.svg",
+    "src": "images/HSK_3.0/level7/苍蝇.svg",
+    "caption": "con ruồi"
+  },
+  "藏匿": {
+    "file": "藏匿.svg",
+    "src": "images/HSK_3.0/level7/藏匿.svg",
+    "caption": "ẩn nấp, giấu giếm, lẩn trốn"
+  },
+  "藏品": {
+    "file": "藏品.svg",
+    "src": "images/HSK_3.0/level7/藏品.svg",
+    "caption": "hiện vật sưu tầm, bộ sưu tập"
+  },
+  "藏身": {
+    "file": "藏身.svg",
+    "src": "images/HSK_3.0/level7/藏身.svg",
+    "caption": "ẩn thân, náu mình"
+  },
+  "草丛": {
+    "file": "草丛.svg",
+    "src": "images/HSK_3.0/level7/草丛.svg",
+    "caption": "bụi cỏ, đám cỏ"
+  },
+  "测定": {
+    "file": "测定.svg",
+    "src": "images/HSK_3.0/level7/测定.svg",
+    "caption": "đo lường xác định, trắc định"
+  },
+  "测算": {
+    "file": "测算.svg",
+    "src": "images/HSK_3.0/level7/测算.svg",
+    "caption": "tính toán đo đạc, ước tính"
+  },
+  "侧重": {
+    "file": "侧重.svg",
+    "src": "images/HSK_3.0/level7/侧重.svg",
+    "caption": "chú trọng, thiên về"
+  },
+  "蹭": {
+    "file": "蹭.svg",
+    "src": "images/HSK_3.0/level7/蹭.svg",
+    "caption": "cọ, quẹt vào; ăn chực, đi nhờ"
+  },
+  "差错": {
+    "file": "差错.svg",
+    "src": "images/HSK_3.0/level7/差错.svg",
+    "caption": "sai sót, sai lệch, nhầm lẫn"
+  },
+  "差额": {
+    "file": "差额.svg",
+    "src": "images/HSK_3.0/level7/差额.svg",
+    "caption": "mức chênh lệch, số tiền chênh lệch"
+  },
+  "插曲": {
+    "file": "插曲.svg",
+    "src": "images/HSK_3.0/level7/插曲.svg",
+    "caption": "ca khúc trong phim; khúc đệm, sự cố bất ngờ"
+  },
+  "插手": {
+    "file": "插手.svg",
+    "src": "images/HSK_3.0/level7/插手.svg",
+    "caption": "nhúng tay vào, can thiệp"
+  },
+  "插图": {
+    "file": "插图.svg",
+    "src": "images/HSK_3.0/level7/插图.svg",
+    "caption": "tranh minh họa"
+  },
+  "插嘴": {
+    "file": "插嘴.svg",
+    "src": "images/HSK_3.0/level7/插嘴.svg",
+    "caption": "nói chen ngang, xen mồm"
+  },
+  "查处": {
+    "file": "查处.svg",
+    "src": "images/HSK_3.0/level7/查处.svg",
+    "caption": "điều tra xử lý"
+  },
+  "察觉": {
+    "file": "察觉.svg",
+    "src": "images/HSK_3.0/level7/察觉.svg",
+    "caption": "phát giác, nhận ra, cảm nhận thấy"
+  },
+  "察看": {
+    "file": "察看.svg",
+    "src": "images/HSK_3.0/level7/察看.svg",
+    "caption": "quan sát xem xét, thị sát"
+  },
+  "查明": {
+    "file": "查明.svg",
+    "src": "images/HSK_3.0/level7/查明.svg",
+    "caption": "điều tra làm rõ"
+  },
+  "拆迁": {
+    "file": "拆迁.svg",
+    "src": "images/HSK_3.0/level7/拆迁.svg",
+    "caption": "giải tỏa đền bù, tháo dỡ di dời"
+  },
+  "掺": {
+    "file": "掺.svg",
+    "src": "images/HSK_3.0/level7/掺.svg",
+    "caption": "pha lẫn, trộn lẫn, lẫn tạp"
+  },
+  "馋": {
+    "file": "馋.svg",
+    "src": "images/HSK_3.0/level7/馋.svg",
+    "caption": "thèm ăn, háu ăn, thèm thuồng"
+  },
+  "缠": {
+    "file": "缠.svg",
+    "src": "images/HSK_3.0/level7/缠.svg",
+    "caption": "quấn quanh, quấn chặt, quấy rầy"
+  },
+  "铲": {
+    "file": "铲.svg",
+    "src": "images/HSK_3.0/level7/铲.svg",
+    "caption": "cái xẻng; xúc, xẻng xúc"
+  },
+  "产权": {
+    "file": "产权.svg",
+    "src": "images/HSK_3.0/level7/产权.svg",
+    "caption": "quyền sở hữu tài sản, quyền tài sản"
+  },
+  "阐释": {
+    "file": "阐释.svg",
+    "src": "images/HSK_3.0/level7/阐释.svg",
+    "caption": "giải thích làm rõ, sáng tỏ"
+  },
+  "产物": {
+    "file": "产物.svg",
+    "src": "images/HSK_3.0/level7/产物.svg",
+    "caption": "sản vật, sản phẩm tạo thành"
+  },
+  "产业链": {
+    "file": "产业链.svg",
+    "src": "images/HSK_3.0/level7/产业链.svg",
+    "caption": "chuỗi ngành công nghiệp"
+  },
+  "产值": {
+    "file": "产值.svg",
+    "src": "images/HSK_3.0/level7/产值.svg",
+    "caption": "giá trị sản lượng"
+  },
+  "常理": {
+    "file": "常理.svg",
+    "src": "images/HSK_3.0/level7/常理.svg",
+    "caption": "lẽ thường, đạo lý thông thường"
+  },
+  "长期以来": {
+    "file": "长期以来.svg",
+    "src": "images/HSK_3.0/level7/长期以来.svg",
+    "caption": "từ lâu nay, trong suốt thời gian dài"
+  },
+  "常人": {
+    "file": "常人.svg",
+    "src": "images/HSK_3.0/level7/常人.svg",
+    "caption": "người bình thường, người thường"
+  },
+  "常态": {
+    "file": "常态.svg",
+    "src": "images/HSK_3.0/level7/常态.svg",
+    "caption": "trạng thái bình thường, tình trạng thường xuyên"
+  },
+  "长效": {
+    "file": "长效.svg",
+    "src": "images/HSK_3.0/level7/长效.svg",
+    "caption": "hiệu quả lâu dài, tác dụng lâu dài"
+  },
+  "长征": {
+    "file": "长征.svg",
+    "src": "images/HSK_3.0/level7/长征.svg",
+    "caption": "vạn lý Trường chinh, cuộc trường chinh"
+  },
+  "长足": {
+    "file": "长足.svg",
+    "src": "images/HSK_3.0/level7/长足.svg",
+    "caption": "vượt bậc, nhảy vọt (tiến bộ)"
+  },
+  "唱片": {
+    "file": "唱片.svg",
+    "src": "images/HSK_3.0/level7/唱片.svg",
+    "caption": "đĩa hát, đĩa than"
+  },
+  "畅谈": {
+    "file": "畅谈.svg",
+    "src": "images/HSK_3.0/level7/畅谈.svg",
+    "caption": "trò chuyện say sưa, nói chuyện thỏa thích"
+  },
+  "超标": {
+    "file": "超标.svg",
+    "src": "images/HSK_3.0/level7/超标.svg",
+    "caption": "vượt quá tiêu chuẩn quy định"
+  },
+  "超前": {
+    "file": "超前.svg",
+    "src": "images/HSK_3.0/level7/超前.svg",
+    "caption": "đi trước thời đại, vượt trước"
+  },
+  "抄袭": {
+    "file": "抄袭.svg",
+    "src": "images/HSK_3.0/level7/抄袭.svg",
+    "caption": "đạo văn, sao chép"
+  },
+  "潮": {
+    "file": "潮.svg",
+    "src": "images/HSK_3.0/level7/潮.svg",
+    "caption": "thủy triều, ẩm ướt"
+  },
+  "巢穴": {
+    "file": "巢穴.svg",
+    "src": "images/HSK_3.0/level7/巢穴.svg",
+    "caption": "hang ổ, sào huyệt"
   }
 };
 

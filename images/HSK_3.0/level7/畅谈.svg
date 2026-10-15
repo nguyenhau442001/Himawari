@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table -->
+  <path d="M60 170 L180 170 L170 190 L70 190 Z" fill="#4A5568"/>
+  <path d="M70 190 L80 210 L160 210 L170 190 Z" fill="#2D3748"/>
+  
+  <!-- Teapot -->
+  <path d="M120 145 C110 145 105 155 105 165 C105 175 110 185 120 185 C130 185 135 175 135 165 C135 155 130 145 120 145 Z" fill="#F6AD55"/>
+  <path d="M135 160 L145 155 L145 165 Z" fill="#F6AD55"/>
+  <path d="M110 150 L105 140 L100 145 Z" fill="#F6AD55"/>
+  
+  <!-- Person 1 (Left) -->
+  <circle cx="80" cy="120" r="15" fill="#E2E8F0"/>
+  <path d="M60 140 C60 160 70 180 80 180 C90 180 100 160 100 140" fill="#E2E8F0"/>
+  <path d="M65 145 L50 160" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Person 2 (Right) -->
+  <circle cx="160" cy="120" r="15" fill="#CBD5E0"/>
+  <path d="M140 140 C140 160 150 180 160 180 C170 180 180 160 180 140" fill="#CBD5E0"/>
+  <path d="M175 145 L190 160" stroke="#CBD5E0" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Speech Bubbles (Visualizing the 'Talk') -->
+  <path d="M95 110 Q105 90 120 90 Q135 90 135 105 Q135 120 120 120 Q115 120 110 125 L105 120 Z" fill="#F6AD55"/>
+  <path d="M145 110 Q135 90 120 90 Q105 90 105 105 Q105 120 120 120 Q125 120 130 125 L135 120 Z" fill="#F6AD55" opacity="0.6"/>
+</svg>

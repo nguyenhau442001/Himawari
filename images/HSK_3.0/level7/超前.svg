@@ -1,0 +1,34 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground line -->
+  <path d="M40 180 L200 180" stroke="#3A3F4B" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Motion lines for speed/advancement -->
+  <path d="M150 120 L180 120" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+  <path d="M155 135 L175 135" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+  <path d="M150 150 L180 150" stroke="#FFB800" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Character body -->
+  <g fill="#A0AEC0">
+    <!-- Legs -->
+    <path d="M80 180 L80 140" stroke="#A0AEC0" stroke-width="8" stroke-linecap="round"/>
+    <path d="M100 180 L110 140" stroke="#A0AEC0" stroke-width="8" stroke-linecap="round"/>
+    <!-- Torso -->
+    <path d="M90 140 L90 100" stroke="#A0AEC0" stroke-width="10" stroke-linecap="round"/>
+    <!-- Arms -->
+    <path d="M90 110 L120 130" stroke="#A0AEC0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M90 110 L70 130" stroke="#A0AEC0" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="90" cy="90" r="12" fill="#A0AEC0"/>
+  </g>
+  
+  <!-- The "Future" Object (A sleek, stylized futuristic geometric shape/prototype) -->
+  <g transform="translate(160, 120)">
+    <polygon points="0,-20 20,0 0,20 -20,0" fill="#FFB800"/>
+    <circle cx="0" cy="0" r="6" fill="#1A1D24"/>
+  </g>
+  
+  <!-- Leading path indicator -->
+  <path d="M100 120 L150 120" stroke="#FFB800" stroke-width="2" stroke-dasharray="2 4"/>
+</svg>
