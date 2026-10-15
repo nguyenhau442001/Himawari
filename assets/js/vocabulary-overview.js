@@ -39,6 +39,8 @@ function setViewMode(mode) {
 
 function normalizeSearchText(value) {
   return String(value || '')
+    .replace(/[đĐ]/g, 'd')
+    .replace(/[ǖǘǚǜü]/g, 'v')
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
@@ -74,7 +76,9 @@ function renderOverview() {
       const matchesStatus = overviewStatus === 'all' || wordLearningStatus(word) === overviewStatus;
       if (!matchesStatus) return false;
       if (!normalizedQuery) return true;
-      return normalizeSearchText(`${word.hanzi} ${word.pinyin} ${word.hanviet || ''} ${word.meaning}`).includes(normalizedQuery);
+      return typeof wordMatchesQuery === 'function'
+        ? wordMatchesQuery(word, overviewQuery)
+        : normalizeSearchText(`${word.hanzi} ${word.pinyin} ${word.hanviet || ''} ${word.meaning}`).includes(normalizedQuery);
     });
 
   document.getElementById('overviewTitle').textContent = `Trọn bộ từ vựng ${LEVELS[currentLevel].label}`;

@@ -1,7 +1,7 @@
 // Global search across HSK 1-6 with instant example sentences, rich previews,
 // and direct one-click flashcard study navigation.
-let sidebarSearchIndex = null;
-let sidebarSearchIndexPromise = null;
+var sidebarSearchIndex = null;
+var sidebarSearchIndexPromise = null;
 
 const TONE_MARKS = {
   'ā':'a','á':'a','ǎ':'a','à':'a',
@@ -47,6 +47,7 @@ function buildSidebarSearchIndex() {
           hanzi: w.hanzi,
           pinyin: w.pinyin,
           meaning: w.meaning,
+          hanviet: w.hanviet || '',
           example_zh: w.example_zh || w.example || '',
           example_py: w.example_py || '',
           example_vi: w.example_vi || '',
@@ -59,36 +60,62 @@ function buildSidebarSearchIndex() {
     })
   ).then(lists => {
     sidebarSearchIndex = lists.flat();
+    if (typeof window !== 'undefined') window.sidebarSearchIndex = sidebarSearchIndex;
     return sidebarSearchIndex;
   });
   return sidebarSearchIndexPromise;
 }
 
 function searchSidebarIndex(query) {
-  if (!sidebarSearchIndex || !query.trim()) return [];
+  const index = sidebarSearchIndex || (typeof window !== 'undefined' ? window.sidebarSearchIndex : null);
+  if (!index || !query.trim()) return [];
   const q = query.trim().toLowerCase();
-  const qStripped = stripTones(query);
+  const qNorm = typeof normalizeSearchText === 'function' ? normalizeSearchText(query) : stripTones(query);
+  const qSpaceless = qNorm.replace(/[\s\-_'".]+/g, '');
+  const qDigitsStripped = qSpaceless.replace(/[0-5]/g, '');
 
   const scored = [];
-  for (const w of sidebarSearchIndex) {
+  for (const w of index) {
     let score = 0;
     const exactHanzi = w.hanzi === query.trim();
-    const hanziMatch = w.hanzi.includes(query.trim());
-    const exactMeaning = w.meaningLower === q;
-    const startMeaning = w.meaningLower.startsWith(q);
-    const meaningMatch = w.meaningLower.includes(q);
-    const pinyinMatch = w.pinyinStripped.includes(qStripped);
-    const exactPinyin = w.pinyinStripped === qStripped;
+    const hanziMatch = w.hanzi && w.hanzi.includes(query.trim());
 
-    if (exactHanzi) score += 120;
-    else if (hanziMatch) score += 60;
+    const normPinyinV = typeof normalizeSearchText === 'function' ? normalizeSearchText(w.pinyin) : (w.pinyinStripped || '');
+    const normPinyinU = typeof normalizeSearchText === 'function' ? normalizeSearchText(String(w.pinyin || '').replace(/[ǖǘǚǜü]/g, 'u')) : normPinyinV;
+    const spacelessPinyinV = normPinyinV.replace(/[\s\-_'".]+/g, '');
+    const spacelessPinyinU = normPinyinU.replace(/[\s\-_'".]+/g, '');
 
-    if (exactMeaning) score += 100;
-    else if (startMeaning) score += 70;
-    else if (meaningMatch) score += 35;
+    const normHanviet = typeof normalizeSearchText === 'function' ? normalizeSearchText(w.hanviet) : '';
+    const spacelessHanviet = normHanviet.replace(/[\s\-_'".]+/g, '');
 
-    if (exactPinyin) score += 50;
-    else if (pinyinMatch) score += 25;
+    const normMeaning = typeof normalizeSearchText === 'function' ? normalizeSearchText(w.meaning) : (w.meaningLower || '');
+    const rawMeaningLower = w.meaningLower || String(w.meaning || '').toLowerCase();
+
+    // Hanzi scoring
+    if (exactHanzi) score += 150;
+    else if (hanziMatch) score += 80;
+
+    // Pinyin scoring (supports tones, tone numbers, with/without spaces, ü/v/u)
+    if (spacelessPinyinV === qSpaceless || spacelessPinyinU === qSpaceless) score += 100;
+    else if (spacelessPinyinV === qDigitsStripped || spacelessPinyinU === qDigitsStripped) score += 95;
+    else if (spacelessPinyinV.startsWith(qSpaceless) || spacelessPinyinU.startsWith(qSpaceless)) score += 60;
+    else if (spacelessPinyinV.includes(qSpaceless) || spacelessPinyinU.includes(qSpaceless)) score += 40;
+    else if (spacelessPinyinV.includes(qDigitsStripped) || spacelessPinyinU.includes(qDigitsStripped)) score += 35;
+
+    // Han-Viet scoring
+    if (normHanviet && (normHanviet === qNorm || spacelessHanviet === qSpaceless)) score += 80;
+    else if (normHanviet && normHanviet.startsWith(qNorm)) score += 50;
+    else if (normHanviet && (normHanviet.includes(qNorm) || spacelessHanviet.includes(qSpaceless))) score += 35;
+
+    // Vietnamese Meaning scoring
+    if (rawMeaningLower === q || (normMeaning && normMeaning === qNorm)) score += 90;
+    else if (normMeaning && normMeaning.startsWith(qNorm)) score += 60;
+    else if (rawMeaningLower.includes(q) || (normMeaning && normMeaning.includes(qNorm))) score += 35;
+
+    // Word matcher fallback
+    if (score === 0 && typeof wordMatchesQuery === 'function' && wordMatchesQuery(w, query)) {
+      score += 20;
+    }
 
     if (score > 0) {
       scored.push({ word: w, score });

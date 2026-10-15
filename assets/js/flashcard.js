@@ -542,7 +542,11 @@ function ensureStudyWordList() {
     </div>
     <div class="study-word-list-items" id="studyWordListItems" role="listbox" aria-label="Chọn từ trong bài học"></div>`;
   mount.appendChild(panel);
-  panel.querySelector('#studyWordListSearch').addEventListener('input', renderStudyWordList);
+  const searchEl = panel.querySelector('#studyWordListSearch');
+  if (searchEl) {
+    searchEl.addEventListener('input', renderStudyWordList);
+    searchEl.addEventListener('search', renderStudyWordList);
+  }
   return panel;
 }
 
@@ -550,7 +554,8 @@ function renderStudyWordList() {
   const panel = ensureStudyWordList();
   if (!panel) return;
   const items = panel.querySelector('#studyWordListItems');
-  const query = panel.querySelector('#studyWordListSearch').value.trim().toLowerCase();
+  const searchInput = panel.querySelector('#studyWordListSearch');
+  const query = searchInput ? searchInput.value.trim() : '';
   const currentIndex = filteredOrder.length ? filteredOrder[idx % filteredOrder.length] : -1;
   const activeWord = currentIndex >= 0 ? WORDS[currentIndex] : null;
 
@@ -580,30 +585,36 @@ function renderStudyWordList() {
     }
   }
 
-  items.innerHTML = WORDS.map((word, wordIndex) => ({ word, wordIndex }))
-    .filter(({ word }) => !query || `${word.hanzi} ${word.pinyin} ${word.hanviet || ''} ${word.meaning}`.toLowerCase().includes(query))
-    .map(({ word, wordIndex }) => {
-      const isCurrent = wordIndex === currentIndex;
-      const status = progress[word.id];
-      const statusIcon = status === 'known' ? '✓' : status === 'unknown' ? '✗' : '·';
-      const statusClass = status === 'known' ? 'status-known' : status === 'unknown' ? 'status-unknown' : 'status-unseen';
-      return `
-        <button type="button" class="study-word-list-item${isCurrent ? ' active' : ''}"
-          role="option" aria-selected="${isCurrent}" data-word-index="${wordIndex}"
-          title="${word.hanzi} ${word.pinyin || ''}${word.hanviet ? ' ［' + word.hanviet + '］' : ''} - ${word.meaning || ''}">
-          <span class="study-word-status ${statusClass}" aria-hidden="true">${statusIcon}</span>
-          <span class="study-word-list-content">
-            <span class="study-word-list-main">
-              <span class="study-word-list-hanzi">${word.hanzi}</span>
-              <span class="word-py">${word.pinyin || ''}</span>
-              ${word.hanviet ? `<span class="study-word-hanviet">［${word.hanviet}］</span>` : ''}
-            </span>
-            <small class="word-vi">${word.meaning || ''}</small>
+  const filteredWords = WORDS.map((word, wordIndex) => ({ word, wordIndex }))
+    .filter(({ word }) => !query || (typeof wordMatchesQuery === 'function' ? wordMatchesQuery(word, query) : `${word.hanzi} ${word.pinyin} ${word.hanviet || ''} ${word.meaning}`.toLowerCase().includes(query.toLowerCase())));
+
+  if (filteredWords.length === 0) {
+    items.innerHTML = '<div class="study-word-list-empty" style="padding: 1.5rem; text-align: center; color: var(--text-muted, #888); font-size: 0.9rem;">Không tìm thấy từ nào phù hợp.</div>';
+    return;
+  }
+
+  items.innerHTML = filteredWords.map(({ word, wordIndex }) => {
+    const isCurrent = wordIndex === currentIndex;
+    const status = progress[word.id];
+    const statusIcon = status === 'known' ? '✓' : status === 'unknown' ? '✗' : '·';
+    const statusClass = status === 'known' ? 'status-known' : status === 'unknown' ? 'status-unknown' : 'status-unseen';
+    return `
+      <button type="button" class="study-word-list-item${isCurrent ? ' active' : ''}"
+        role="option" aria-selected="${isCurrent}" data-word-index="${wordIndex}"
+        title="${word.hanzi} ${word.pinyin || ''}${word.hanviet ? ' ［' + word.hanviet + '］' : ''} - ${word.meaning || ''}">
+        <span class="study-word-status ${statusClass}" aria-hidden="true">${statusIcon}</span>
+        <span class="study-word-list-content">
+          <span class="study-word-list-main">
+            <span class="study-word-list-hanzi">${word.hanzi}</span>
+            <span class="word-py">${word.pinyin || ''}</span>
+            ${word.hanviet ? `<span class="study-word-hanviet">［${word.hanviet}］</span>` : ''}
           </span>
-          <span class="study-word-list-number">#${wordIndex + 1}</span>
-        </button>
-      `;
-    }).join('');
+          <small class="word-vi">${word.meaning || ''}</small>
+        </span>
+        <span class="study-word-list-number">#${wordIndex + 1}</span>
+      </button>
+    `;
+  }).join('');
 
   items.querySelectorAll('[data-word-index]').forEach(button => {
     const wordIndex = Number(button.dataset.wordIndex);
