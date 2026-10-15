@@ -40,6 +40,13 @@
 .review-hanzi.is-len-4 { font-size: 40px; }
 .review-hanzi.is-len-5 { font-size: 34px; }
 .review-hanzi.is-len-6-plus { font-size: 28px; }
+.review-hanzi .hanzi-clarifier {
+  font-size: 0.4em;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-left: 6px;
+  vertical-align: middle;
+}
 .review-meaning { font-size: 15px; color: var(--text-secondary); margin-top: 4px; }
 
 .review-answer-area { display: flex; gap: 8px; }

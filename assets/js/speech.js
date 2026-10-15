@@ -62,8 +62,9 @@ function speakWord() {
   if (!word || !word.hanzi) return;
 
   const btn = document.getElementById('soundBtn');
+  const cleanHanzi = String(word.hanzi).replace(/[（\(].*?[）\)]/g, '').trim() || word.hanzi;
   speakText(
-    word.hanzi,
+    cleanHanzi,
     btn,
     SPEECH_RATE,
     prebuiltAudioUrl(word, 'word')

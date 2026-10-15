@@ -378,9 +378,29 @@ function updateCardPosition() {
   }
 }
 
+function renderHanziWithClarifier(el, text) {
+  if (!el) return;
+  const raw = String(text || '').trim();
+  const match = raw.match(/^([^（\(]+)[（\(](.+?)[）\)]$/);
+  if (match) {
+    el.textContent = '';
+    const mainSpan = document.createElement('span');
+    mainSpan.className = 'hanzi-text';
+    mainSpan.textContent = match[1].trim();
+    const clarifierSpan = document.createElement('span');
+    clarifierSpan.className = 'hanzi-clarifier';
+    clarifierSpan.textContent = `（${match[2].trim()}）`;
+    el.appendChild(mainSpan);
+    el.appendChild(clarifierSpan);
+  } else {
+    el.textContent = raw;
+  }
+}
+
 function applyHanziLengthFit(el, text) {
   if (!el) return;
-  const chars = Array.from(text || '');
+  const core = String(text || '').replace(/[（\(].*?[）\)]/g, '').trim() || text || '';
+  const chars = Array.from(core);
   const len = chars.length;
   el.dataset.length = String(len);
   el.classList.remove('is-len-1', 'is-len-2', 'is-len-3', 'is-len-4', 'is-len-5', 'is-len-6-plus', 'is-len-long');
@@ -846,13 +866,16 @@ function render(animate) {
     renderStudyWordList();
     const hanziEl = document.getElementById('hanzi');
     if (hanziEl) {
-      hanziEl.textContent = w.hanzi;
+      renderHanziWithClarifier(hanziEl, w.hanzi);
       applyHanziLengthFit(hanziEl, w.hanzi);
     }
     document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
     const hvBadge = document.getElementById('hanvietBadge');
     if (hvBadge) {
-      const hv = (typeof getWordHanViet === 'function' ? getWordHanViet(w) : '') || w.hanviet;
+      let hv = (typeof getWordHanViet === 'function' ? getWordHanViet(w) : '') || w.hanviet;
+      if (hv) {
+        hv = hv.replace(/[（\(].*?[）\)]/g, '').replace(/\s+/g, ' ').trim();
+      }
       if (hv) {
         hvBadge.textContent = `［${hv}］`;
         hvBadge.hidden = false;

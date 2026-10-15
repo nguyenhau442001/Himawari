@@ -1311,6 +1311,20 @@ body.flashcard-study-mode .hanzi:hover {
   color: #ffffff;
   text-shadow: 0 2px 20px rgba(255, 255, 255, 0.06);
 }
+body.flashcard-study-mode .hanzi .hanzi-clarifier {
+  display: inline-block;
+  font-size: 0.28em;
+  font-weight: 500;
+  color: var(--text-tertiary, #94a3b8);
+  margin-left: 8px;
+  vertical-align: middle;
+  line-height: 1;
+  letter-spacing: normal;
+  opacity: 0.85;
+}
+:root[data-theme="dark"] body.flashcard-study-mode .hanzi .hanzi-clarifier {
+  color: rgba(255, 255, 255, 0.55);
+}
 
 /* Adaptive font sizing for multi-character words: keeps long words strictly on 1 line */
 body.flashcard-study-mode .hanzi.is-len-3,

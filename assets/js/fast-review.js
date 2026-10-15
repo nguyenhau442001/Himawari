@@ -247,6 +247,14 @@ function renderReviewQuestion() {
   reviewTimeLeft = 20;
 
   const livesHtml = '♥'.repeat(reviewLives) + '♡'.repeat(3 - reviewLives);
+  const reviewCoreHanzi = String(word.hanzi || '').replace(/[（\(].*?[）\)]/g, '').trim() || word.hanzi || '';
+  const reviewLen = Array.from(reviewCoreHanzi).length;
+  const reviewLenClass = reviewLen >= 6 ? ' is-len-6-plus' : reviewLen === 5 ? ' is-len-5' : reviewLen === 4 ? ' is-len-4' : '';
+  const reviewHanziMatch = String(word.hanzi || '').trim().match(/^([^（\(]+)[（\(](.+?)[）\)]$/);
+  const reviewHanziHtml = reviewHanziMatch
+    ? `<span class="hanzi-text">${reviewHanziMatch[1].trim()}</span><span class="hanzi-clarifier">（${reviewHanziMatch[2].trim()}）</span>`
+    : (word.hanzi || '');
+
   const header = `
     <div class="review-header">
       <div class="review-lives" aria-label="${reviewLives} mạng còn lại">${livesHtml}</div>
@@ -254,7 +262,7 @@ function renderReviewQuestion() {
     </div>
     <div class="review-timer-track"><div class="review-timer-fill" id="reviewTimerFill"></div></div>
     <div class="review-question-word">
-      <div class="review-hanzi${(Array.from(word.hanzi || '').length >= 6) ? ' is-len-6-plus' : (Array.from(word.hanzi || '').length === 5) ? ' is-len-5' : (Array.from(word.hanzi || '').length === 4) ? ' is-len-4' : ''}">${word.hanzi}</div>
+      <div class="review-hanzi${reviewLenClass}">${reviewHanziHtml}</div>
       <div class="review-meaning">${word.meaning}</div>
     </div>`;
 

@@ -196,6 +196,17 @@
   filter: brightness(1.15);
   transform: scale(1.02);
 }
+.hanzi .hanzi-clarifier {
+  display: inline-block;
+  font-size: 0.28em;
+  font-weight: 500;
+  color: var(--text-tertiary, #94a3b8);
+  margin-left: 8px;
+  vertical-align: middle;
+  line-height: 1;
+  letter-spacing: normal;
+  opacity: 0.85;
+}
 .pinyin-row {
   display: inline-flex;
   align-items: center;

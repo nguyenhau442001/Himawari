@@ -1,13 +1,13 @@
 /* CSS entry point — component styles live in assets/css/. */
 @import url("css/base.css?v=20261015-zen-aesthetic1");
 @import url("css/level-picker.css?v=20261007-goal-fix2");
-@import url("css/flashcard.css?v=20261015-zen-aesthetic1");
+@import url("css/flashcard.css?v=20261016-fix-hanzi-size1");
 @import url("css/footer.css");
 @import url("css/feedback.css");
 @import url("css/vocabulary-overview.css");
 @import url("css/celebration.css");
 @import url("css/radicals.css?v=20261015-viewport-fix-v7");
 @import url("css/streak-history.css");
-@import url("css/fast-review.css?v=20261014-single-line-hanzi1");
+@import url("css/fast-review.css?v=20261016-fix-hanzi-size1");
 @import url("css/sentence-game.css?v=20261006-speedquiz-card1");
 @import url("css/reading-analysis.css?v=20261007-zen-focus3");

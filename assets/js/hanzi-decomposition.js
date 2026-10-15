@@ -36,7 +36,8 @@ function getCharacterDecomposition(char) {
 
 function getWordDecomposition(wordOrHanzi) {
   if (!wordOrHanzi) return [];
-  const text = typeof wordOrHanzi === 'object' ? (wordOrHanzi.hanzi || wordOrHanzi.word || '') : String(wordOrHanzi);
+  const rawText = typeof wordOrHanzi === 'object' ? (wordOrHanzi.hanzi || wordOrHanzi.word || '') : String(wordOrHanzi);
+  const text = rawText.replace(/[（\(].*?[）\)]/g, '').trim() || rawText;
   const chars = Array.from(text).filter(ch => /\p{Script=Han}/u.test(ch));
   if (!hanziDecompData) return chars.map(ch => ({ character: ch, components: [], formula: ch }));
   return chars.map(ch => hanziDecompData[ch] || { character: ch, components: [], formula: ch });
@@ -150,7 +151,9 @@ function renderCardRadicals(word) {
   }
 
   ensureHanziDecompLoaded().then(() => {
-    const chars = Array.from(word.hanzi).filter(ch => /\p{Script=Han}/u.test(ch));
+    const raw = String(word.hanzi || '');
+    const clean = raw.replace(/[（\(].*?[）\)]/g, '').trim() || raw;
+    const chars = Array.from(clean).filter(ch => /\p{Script=Han}/u.test(ch));
     if (chars.length === 0) {
       mount.innerHTML = '';
       mount.style.display = 'none';

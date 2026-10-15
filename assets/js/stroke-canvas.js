@@ -16,9 +16,11 @@ let animationStepTimer = null;
 
 function extractHanziCharacters(text) {
   if (!text || typeof text !== 'string') return [];
-  const chars = Array.from(text).filter(ch => /\p{Script=Han}/u.test(ch));
+  const clean = text.replace(/[（\(].*?[）\)]/g, '').trim();
+  const target = clean || text;
+  const chars = Array.from(target).filter(ch => /\p{Script=Han}/u.test(ch));
   if (chars.length > 0) return chars;
-  return Array.from(text).filter(ch => ch.trim().length > 0 && !/[\s\p{P}]/u.test(ch));
+  return Array.from(target).filter(ch => ch.trim().length > 0 && !/[\s\p{P}]/u.test(ch));
 }
 
 function getStrokeColors() {
