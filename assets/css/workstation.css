@@ -1105,6 +1105,10 @@ body.flashcard-study-mode .card-visual-col {
   position: relative;
 }
 
+body.flashcard-study-mode .card:not(.is-flipped) .card-visual-col {
+  display: none !important;
+}
+
 body.flashcard-study-mode .card-illustration-frame {
   width: 100%;
   height: 100%;

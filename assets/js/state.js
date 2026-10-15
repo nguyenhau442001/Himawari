@@ -183,3 +183,87 @@ function setActiveStudyWord(word) {
     try { fn(word); } catch (e) { /* one listener's failure must not block others */ }
   });
 }
+
+// Universal vocabulary search normalization and matching helper.
+// Supports:
+// - Hanzi (exact & partial)
+// - Pinyin with tones (hēibǎn), without tones (heiban), with tone numbers (hei1ban3, hei1 ban3)
+// - Pinyin with or without spaces between syllables (heiban <-> hei ban)
+// - Pinyin with ü, v, or u (lǜ, lv, lu; nǚ, nv, nu)
+// - Sino-Vietnamese / Hán Việt with or without accents (Hắc Bản, hac ban)
+// - Vietnamese meaning with or without accents & đ -> d (bảng đen, bang den)
+function normalizeSearchText(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/[đĐ]/g, 'd')
+    .replace(/[ǖǘǚǜü]/g, 'v')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
+function wordMatchesQuery(word, query) {
+  if (!query) return true;
+  if (!word) return false;
+  const rawQ = query.trim().toLowerCase();
+  if (!rawQ) return true;
+
+  // 1. Hanzi match (exact or substring)
+  if (word.hanzi && word.hanzi.includes(rawQ)) return true;
+
+  // 2. Exact match in raw string (meaning, pinyin, hanviet)
+  const rawTarget = `${word.hanzi || ''} ${word.pinyin || ''} ${word.hanviet || ''} ${word.meaning || ''}`.toLowerCase();
+  if (rawTarget.includes(rawQ)) return true;
+
+  const normQ = normalizeSearchText(rawQ);
+  if (!normQ) return false;
+
+  // 3. Normalized target strings (support both v and u for ü)
+  const normPinyinV = normalizeSearchText(word.pinyin);
+  const normPinyinU = normalizeSearchText(String(word.pinyin || '').replace(/[ǖǘǚǜü]/g, 'u'));
+  const normHanviet = normalizeSearchText(word.hanviet);
+  const normMeaning = normalizeSearchText(word.meaning);
+
+  const normTarget = `${word.hanzi || ''} ${normPinyinV} ${normPinyinU} ${normHanviet} ${normMeaning}`;
+  if (normTarget.includes(normQ)) return true;
+
+  // 4. Spaceless match (e.g. user typed "hei ban" matching "heiban", or "heiban" matching "hei ban")
+  const spacelessQ = normQ.replace(/[\s\-_'".]+/g, '');
+  const spacelessPinyinV = normPinyinV.replace(/[\s\-_'".]+/g, '');
+  const spacelessPinyinU = normPinyinU.replace(/[\s\-_'".]+/g, '');
+  const spacelessHanviet = normHanviet.replace(/[\s\-_'".]+/g, '');
+  const spacelessMeaning = normMeaning.replace(/[\s\-_'".]+/g, '');
+
+  if (spacelessQ && (
+    spacelessPinyinV.includes(spacelessQ) ||
+    spacelessPinyinU.includes(spacelessQ) ||
+    spacelessHanviet.includes(spacelessQ) ||
+    spacelessMeaning.includes(spacelessQ)
+  )) {
+    return true;
+  }
+
+  // 5. Tone numbers in query (e.g. "hei1ban3" -> "heiban")
+  const strippedDigitsQ = spacelessQ.replace(/[0-5]/g, '');
+  if (strippedDigitsQ && (
+    spacelessPinyinV.includes(strippedDigitsQ) ||
+    spacelessPinyinU.includes(strippedDigitsQ)
+  )) {
+    return true;
+  }
+
+  // 6. Multi-token match: all tokens in query must match
+  const tokens = normQ.split(/\s+/).filter(Boolean);
+  if (tokens.length > 1) {
+    const allMatch = tokens.every(tok => {
+      const cleanTok = tok.replace(/[0-5]/g, '');
+      return normTarget.includes(tok) ||
+             (cleanTok && (spacelessPinyinV.includes(cleanTok) || spacelessPinyinU.includes(cleanTok)));
+    });
+    if (allMatch) return true;
+  }
+
+  return false;
+}
+
