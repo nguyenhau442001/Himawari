@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table Surface -->
+  <rect x="40" y="160" width="160" height="10" rx="2" fill="#374151"/>
+  
+  <!-- Manuscript/Document -->
+  <rect x="70" y="120" width="60" height="40" rx="2" fill="#E5E7EB"/>
+  <line x1="80" y1="130" x2="120" y2="130" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="80" y1="140" x2="110" y2="140" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="80" y1="150" x2="100" y2="150" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Critic Character (Upper Body) -->
+  <circle cx="170" cy="100" r="25" fill="#F3F4F6"/>
+  <path d="M150 140 C 150 120, 190 120, 190 140 L 190 200 L 150 200 Z" fill="#3B82F6"/>
+  
+  <!-- Arm and Hand Action -->
+  <path d="M155 130 L 130 145" stroke="#F3F4F6" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="125" cy="148" r="6" fill="#F3F4F6"/>
+  
+  <!-- Pen/Pointer -->
+  <line x1="125" y1="148" x2="105" y2="135" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Motion Lines (Action) -->
+  <path d="M100 125 L 90 115" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M105 120 L 95 110" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+  
+  <!-- Highlight/Check Mark (Symbolizing the 'Comment' aspect) -->
+  <path d="M115 155 L 120 160 L 130 145" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

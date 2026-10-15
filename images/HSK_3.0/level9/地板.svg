@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Room Setting -->
+  <path d="M 30,70 L 120,30 L 210,70 L 210,130 L 30,130 Z" fill="#222732" />
+  
+  <!-- Perspective Lines on Wall -->
+  <path d="M 120,30 L 120,130" stroke="#2B313F" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Wooden Floor (地板) - Isometric/Perspective Planks -->
+  <g>
+    <!-- Base Floor Surface -->
+    <polygon points="30,130 210,130 225,200 15,200" fill="#CD7F32" />
+
+    <!-- Floor Planks & Wood Grain Details (Isometric perspective from left-front to right-back) -->
+    <!-- Plank 1 -->
+    <polygon points="15,200 55,130 75,130 43,200" fill="#E09145" />
+    <!-- Plank 2 -->
+    <polygon points="43,200 75,130 95,130 71,200" fill="#C2732A" />
+    <!-- Plank 3 -->
+    <polygon points="71,200 95,130 115,130 99,200" fill="#D68339" />
+    <!-- Plank 4 -->
+    <polygon points="99,200 115,130 135,130 127,200" fill="#B86A22" />
+    <!-- Plank 5 -->
+    <polygon points="127,200 135,130 155,130 155,200" fill="#CD7F32" />
+    <!-- Plank 6 -->
+    <polygon points="155,200 155,130 175,130 183,200" fill="#C2732A" />
+    <!-- Plank 7 -->
+    <polygon points="183,200 175,130 210,130 225,200" fill="#D68339" />
+
+    <!-- Horizontal Seams / Planking lines with shadow/depth -->
+    <line x1="21" y1="185" x2="219" y2="185" stroke="#A85E1B" stroke-width="1.5" />
+    <line x1="27" y1="170" x2="213" y2="170" stroke="#A85E1B" stroke-width="1.5" />
+    <line x1="33" y1="155" x2="207" y2="155" stroke="#A85E1B" stroke-width="1.5" />
+    <line x1="39" y1="142" x2="201" y2="142" stroke="#A85E1B" stroke-width="1.5" />
+
+    <!-- Subtle Wood Grain Textures -->
+    <path d="M 50,190 Q 60,175 55,160" stroke="#B86A22" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M 140,165 Q 150,150 145,140" stroke="#E09145" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M 190,195 Q 200,180 195,165" stroke="#B86A22" stroke-width="1" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Polishing / Cleaning Effect (Highlighting the spotless nature of the floor) -->
+  <path d="M 60,160 Q 100,140 140,170 Q 180,200 200,185" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <circle cx="120" cy="165" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="85" cy="175" r="2" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- Baseboard Trim (Connecting wall and floor nicely) -->
+  <polygon points="30,126 210,126 210,130 30,130" fill="#434C5E" />
+</svg>

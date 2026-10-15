@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground Layer -->
+  <path d="M0 120 L240 120 L240 240 L0 240 Z" fill="#2D343E"/>
+  
+  <!-- Soil Layers -->
+  <rect x="0" y="120" width="240" height="15" fill="#3A424F"/>
+  <rect x="0" y="135" width="240" height="15" fill="#2D343E"/>
+  
+  <!-- Aquifer / Groundwater -->
+  <path d="M20 160 C 60 150, 100 170, 140 160 C 180 150, 220 170, 240 165 L 240 220 L 0 220 L 0 165 Z" fill="#4A90E2" opacity="0.8"/>
+  <path d="M0 165 C 40 155, 80 175, 120 165 C 160 155, 200 175, 240 170 L 240 230 L 0 230 Z" fill="#2E70B8"/>
+  
+  <!-- Well Pipe -->
+  <rect x="100" y="40" width="40" height="130" fill="#7D8590"/>
+  <rect x="105" y="40" width="30" height="130" fill="#5A626E"/>
+  
+  <!-- Well Pump Handle (Surface) -->
+  <rect x="120" y="40" width="60" height="10" fill="#F39C12"/>
+  <circle cx="120" cy="45" r="8" fill="#F39C12"/>
+  
+  <!-- Water Spout -->
+  <path d="M140 70 L160 80 L140 90 Z" fill="#F39C12"/>
+  
+  <!-- Droplets -->
+  <circle cx="155" cy="95" r="4" fill="#4A90E2"/>
+  <circle cx="165" cy="110" r="3" fill="#4A90E2"/>
+  
+  <!-- Surface Detail -->
+  <path d="M20 115 L40 110 L60 115" stroke="#7D8590" stroke-width="2" fill="none"/>
+  <path d="M180 115 L200 110 L220 115" stroke="#7D8590" stroke-width="2" fill="none"/>
+</svg>

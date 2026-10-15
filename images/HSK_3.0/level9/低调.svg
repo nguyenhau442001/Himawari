@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor shadow / ambient glow -->
+  <ellipse cx="120" cy="195" rx="70" ry="12" fill="#12141A"/>
+
+  <!-- Character representing "低调" (A modest, unassuming person in a tailored suit, but stepping back/subtle posture, or pulling down a subtle hat/blending into a quiet tone) -->
+  <!-- Let's design a clear character standing with hands folded politely, modest posture, looking down/aside, wearing elegant dark-slate and warm gold-accent clothing (representing high achievement paired with humility) -->
+  
+  <!-- Back coat / Body base -->
+  <path d="M90 140 L95 190 L145 190 L150 140 Z" fill="#2C3440"/>
+  
+  <!-- Suit Jacket -->
+  <path d="M85 110 L120 135 L155 110 L150 185 L90 185 Z" fill="#242B35"/>
+  
+  <!-- Shirt & Tie -->
+  <path d="M105 110 L120 130 L135 110 Z" fill="#E2E8F0"/>
+  <polygon points="117,130 123,130 125,160 115,160" fill="#F59E0B"/>
+
+  <!-- Suit Lapels -->
+  <path d="M105 110 L120 135 L112 170 Z" fill="#1E242C"/>
+  <path d="M135 110 L120 135 L128 170 Z" fill="#1E242C"/>
+
+  <!-- Arms (Modestly folded in front) -->
+  <path d="M85 115 C85 115 95 145 120 145 C145 145 155 115 155 115" fill="none" stroke="#242B35" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Hands folded / subtle gesture -->
+  <circle cx="120" cy="148" r="9" fill="#FDE047"/>
+
+  <!-- Neck -->
+  <rect x="112" y="96" width="16" height="18" rx="4" fill="#FDE047"/>
+
+  <!-- Head (Gentle, calm downward/modest gaze) -->
+  <circle cx="120" cy="80" r="24" fill="#FDE047"/>
+
+  <!-- Hair (Sleek, modern neat cut) -->
+  <path d="M96 75 C96 60 106 52 120 52 C134 52 144 60 144 75 C144 78 142 80 140 80 C138 80 136 78 136 75 C136 64 129 58 120 58 C111 58 104 64 104 75 C104 78 102 80 100 80 C98 80 96 78 96 75 Z" fill="#111827"/>
+
+  <!-- Facial features (Minimalist, calm, eyes slightly downcast for humility) -->
+  <path d="M110 82 Q115 85 120 82" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round"/>
+  <path d="M125 82 Q130 85 135 82" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round"/>
+  <!-- Gentle modest smile / neutral calm expression -->
+  <path d="M116 93 Q120 95 124 93" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Golden accent halo/ring representing inner success/achievement, kept subtle and low-key behind the head -->
+  <circle cx="120" cy="80" r="34" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.6"/>
+
+  <!-- Small floating subtle sparkles of success kept quiet and contained -->
+  <path d="M70 90 L72 95 L77 97 L72 99 L70 104 L68 99 L63 97 L68 95 Z" fill="#F59E0B" opacity="0.7"/>
+  <path d="M172 110 L173.5 113.5 L177 115 L173.5 116.5 L172 120 L170.5 116.5 L167 115 L170.5 113.5 Z" fill="#F59E0B" opacity="0.5"/>
+
+</svg>

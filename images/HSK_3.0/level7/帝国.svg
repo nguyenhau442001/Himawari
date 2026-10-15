@@ -1,0 +1,12 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 40)">
+    <path d="M80 160L160 160L140 80L100 80L80 160Z" fill="#FFC107" opacity="0.3"/>
+    <path d="M60 160L180 160L160 70L80 70L60 160Z" fill="#FFC107"/>
+    <path d="M70 70L170 70L170 50L150 50L150 30L130 50L110 30L90 50L90 30L70 50L70 70Z" fill="#FFC107"/>
+    <circle cx="120" cy="40" r="8" fill="#FF9800"/>
+    <path d="M90 160L150 160L145 130L95 130L90 160Z" fill="#E65100"/>
+    <path d="M100 130L140 130L135 100L105 100L100 130Z" fill="#BF360C"/>
+    <path d="M115 100L125 100L125 70L115 70L115 100Z" fill="#FFC107"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient glow for focus -->
+  <circle cx="120" cy="120" r="70" fill="#FF9F43" opacity="0.08" filter="blur(15px)"/>
+
+  <!-- Visualizing "提防" (Watch out / Guard against pickpockets based on contextual reference) -->
+  <!-- Center physical object: A leather wallet/handbag with a defensive element / watchful eye motif representing vigilance -->
+  
+  <g transform="translate(0, 4)">
+    <!-- Wallet / Pouch (Valuables being guarded) -->
+    <path d="M 75 95 L 165 95 C 173 95 180 102 180 110 L 180 165 C 180 173 173 180 165 180 L 75 180 C 67 180 60 173 60 165 L 60 110 C 60 102 67 95 75 95 Z" fill="#2D323F" stroke="#3E4556" stroke-width="3"/>
+    
+    <!-- Wallet flap -->
+    <path d="M 60 110 L 120 135 L 180 110" fill="none" stroke="#4F586E" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Gold clasp / button on wallet -->
+    <circle cx="120" cy="135" r="7" fill="#FFC53D"/>
+    
+    <!-- Cash poking out subtly -->
+    <rect x="95" y="75" width="50" height="25" rx="3" fill="#2ECC71" opacity="0.85"/>
+    <line x1="120" y1="80" x2="120" y2="95" stroke="#27AE60" stroke-width="2"/>
+
+    <!-- Dynamic Vigilance / Warning Elements (Shield/Eye framing the valuables) -->
+    <!-- Stylized alert bracket / shield corners in bright accent orange -->
+    <path d="M 50 85 L 50 70 L 65 70" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 190 85 L 190 70 L 175 70" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 50 185 L 50 200 L 65 200" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 190 185 L 190 200 L 175 200" fill="none" stroke="#FF9F43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Watchful Eye Icon hovering above to signify alertness & caution -->
+    <g transform="translate(120, 52)">
+      <!-- Eye background glow circle -->
+      <circle cx="0" cy="0" r="22" fill="#1A1D24" stroke="#FF9F43" stroke-width="3"/>
+      
+      <!-- Eye shape -->
+      <path d="M -12 0 C -6 -8 6 -8 12 0 C 6 8 -6 8 -12 0 Z" fill="none" stroke="#FFC53D" stroke-width="2.5" stroke-linejoin="round"/>
+      
+      <!-- Pupil -->
+      <circle cx="0" cy="0" r="4.5" fill="#FF9F43"/>
+      
+      <!-- Eyebrow / Focus line -->
+      <path d="M -10 -9 C -4 -13 4 -13 10 -9" fill="none" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

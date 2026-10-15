@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Hand holding the olive pit -->
+  <path d="M100 160 C 90 160, 80 150, 80 130 L 80 110 C 80 90, 100 80, 120 80 C 140 80, 160 90, 160 110 L 160 130 C 160 150, 150 160, 140 160" fill="#E0A890"/>
+  
+  <!-- The Olive Pit -->
+  <ellipse cx="120" cy="120" rx="25" ry="35" fill="#8B4513"/>
+  <path d="M105 100 Q 120 105 135 100 M105 140 Q 120 135 135 140" stroke="#5D2E0A" stroke-width="2" fill="none"/>
+  
+  <!-- The Carved Boat (The focus) -->
+  <path d="M105 120 L 135 120 L 130 130 L 110 130 Z" fill="#FFD700"/>
+  <path d="M110 120 L 115 110 L 125 110 L 130 120" fill="#FFD700"/>
+  
+  <!-- Carving Tool -->
+  <path d="M160 100 L 190 70 L 195 75 L 165 105 Z" fill="#A0A0A0"/>
+  <path d="M155 105 L 165 95" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+  <rect x="190" y="70" width="10" height="10" rx="2" fill="#555555"/>
+</svg>

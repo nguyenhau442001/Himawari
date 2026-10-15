@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Podium structure -->
+  <rect x="50" y="180" width="40" height="20" fill="#3A3F4B"/>
+  <rect x="100" y="160" width="40" height="40" fill="#3A3F4B"/>
+  <rect x="150" y="140" width="40" height="60" fill="#3A3F4B"/>
+  
+  <!-- The character at the bottom (diàndǐ) -->
+  <g transform="translate(55, 120)">
+    <circle cx="15" cy="20" r="12" fill="#FF9F1C"/>
+    <rect x="5" y="35" width="20" height="25" rx="4" fill="#FF9F1C"/>
+    <rect x="5" y="60" width="8" height="15" rx="2" fill="#FF9F1C"/>
+    <rect x="17" y="60" width="8" height="15" rx="2" fill="#FF9F1C"/>
+  </g>
+  
+  <!-- Other characters on higher ranks -->
+  <g transform="translate(105, 100)">
+    <circle cx="15" cy="20" r="12" fill="#6C757D"/>
+    <rect x="5" y="35" width="20" height="25" rx="4" fill="#6C757D"/>
+  </g>
+  
+  <g transform="translate(155, 80)">
+    <circle cx="15" cy="20" r="12" fill="#6C757D"/>
+    <rect x="5" y="35" width="20" height="25" rx="4" fill="#6C757D"/>
+  </g>
+  
+  <!-- Ground line -->
+  <rect x="30" y="200" width="180" height="4" fill="#2D3436"/>
+</svg>

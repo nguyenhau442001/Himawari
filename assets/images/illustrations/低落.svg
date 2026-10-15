@@ -1,0 +1,49 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle floor shadow for grounding the character -->
+  <ellipse cx="120" cy="188" rx="42" ry="7" fill="#111317" opacity="0.6"/>
+
+  <!-- Slumped Character representing "低落" (sa sút, chùng xuống) -->
+  <g id="slumped-character">
+    <!-- Back / Slouched Body -->
+    <path d="M 105 130 C 100 145 105 165 110 180 L 130 180 C 132 165 130 145 125 130 Z" fill="#3B4252"/>
+
+    <!-- Head (bowed down low) -->
+    <circle cx="95" cy="125" r="16" fill="#4C566A"/>
+    <!-- Hair slumped forward -->
+    <path d="M 80 120 C 85 110 105 110 110 122 C 105 118 90 118 80 120 Z" fill="#2E3440"/>
+
+    <!-- Drooping Shoulder & Arm -->
+    <!-- Back arm/shoulder -->
+    <path d="M 112 135 L 100 155 L 108 158" stroke="#3B4252" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Front slumped arm, hanging down powerlessly -->
+    <path d="M 105 132 C 95 140 92 160 90 172" stroke="#4C566A" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Hand hanging limp -->
+    <circle cx="90" cy="176" r="4" fill="#4C566A"/>
+
+    <!-- Legs (sitting/slumped posture) -->
+    <path d="M 115 178 L 105 195 L 85 195" stroke="#3B4252" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 125 178 L 135 195 L 155 195" stroke="#3B4252" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Deflated / Drooping Atmosphere Accents (Visualizing low morale / chùng xuống) -->
+  <g id="downward-flow">
+    <!-- Subtle downward streaks representing heavy mood / low energy -->
+    <line x1="165" y1="80" x2="165" y2="110" stroke="#3B4252" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="178" y1="95" x2="178" y2="130" stroke="#3B4252" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+    <line x1="152" y1="90" x2="152" y2="120" stroke="#3B4252" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- Focal Accent: A dropped/deflated sports ball nearby, reinforcing the team loss context -->
+  <g id="dropped-ball" transform="translate(145, 160)">
+    <circle cx="0" cy="0" r="14" fill="#D08770" opacity="0.9"/>
+    <!-- Ball seam lines -->
+    <path d="M -14 0 C -5 -5 -5 5 14 0" stroke="#2E3440" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M 0 -14 C -5 -5 5 -5 0 14" stroke="#2E3440" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- Small shadow for the ball -->
+    <ellipse cx="0" cy="15" rx="10" ry="3" fill="#111317" opacity="0.5"/>
+  </g>
+
+</svg>
