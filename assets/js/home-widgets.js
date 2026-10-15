@@ -506,6 +506,59 @@ function isHomeScreen() {
     && (!todayReviews || todayReviews.style.display === 'none');
 }
 
+function renderDiscovery() {
+  const section = document.getElementById('hwDiscovery');
+  if (!section) return;
+  section.replaceChildren();
+  section.appendChild(homeCardHead('Khám phá nâng cao', 'Tính năng mới'));
+
+  const list = homeElement('div', 'hw-discovery-list');
+
+  // Graded Reading
+  const gradedItem = homeElement('div', 'hw-discovery-item');
+  gradedItem.setAttribute('role', 'button');
+  gradedItem.setAttribute('tabindex', '0');
+  gradedItem.setAttribute('aria-label', 'Mở Synapse Graded Reading HSK 1–9');
+  gradedItem.innerHTML = `
+    <span class="hw-discovery-icon" aria-hidden="true">📚</span>
+    <div class="hw-discovery-info">
+      <div class="hw-discovery-title-row">
+        <strong>Graded Reading</strong>
+        <span class="hw-discovery-pill hw-pill-amber">HSK 1–9</span>
+      </div>
+      <p class="hw-discovery-desc">Đọc hiểu phân cấp ngữ cảnh · Vòng lặp SRS</p>
+    </div>
+    <span class="hw-discovery-cta" aria-hidden="true">→</span>
+  `;
+  const launchGraded = () => { if (typeof setPrimaryTab === 'function') setPrimaryTab('gradedReading'); };
+  gradedItem.addEventListener('click', launchGraded);
+  gradedItem.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); launchGraded(); } });
+
+  // Reading Analysis HSK 4
+  const readingItem = homeElement('div', 'hw-discovery-item');
+  readingItem.setAttribute('role', 'button');
+  readingItem.setAttribute('tabindex', '0');
+  readingItem.setAttribute('aria-label', 'Mở Đọc hiểu & Phân tích ngữ pháp HSK 4');
+  readingItem.innerHTML = `
+    <span class="hw-discovery-icon" aria-hidden="true">📖</span>
+    <div class="hw-discovery-info">
+      <div class="hw-discovery-title-row">
+        <strong>Đọc hiểu HSK 4</strong>
+        <span class="hw-discovery-pill hw-pill-accent">Hanban</span>
+      </div>
+      <p class="hw-discovery-desc">Xếp câu, ngữ cảnh thực tế & ngữ pháp</p>
+    </div>
+    <span class="hw-discovery-cta" aria-hidden="true">→</span>
+  `;
+  const launchReading = () => { if (typeof setPrimaryTab === 'function') setPrimaryTab('reading'); };
+  readingItem.addEventListener('click', launchReading);
+  readingItem.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); launchReading(); } });
+
+  list.appendChild(gradedItem);
+  list.appendChild(readingItem);
+  section.appendChild(list);
+}
+
 function refreshHomeWidgets() {
   homeWidgetsDirty = false;
   const renderId = ++homeWidgetsRenderId;
@@ -514,6 +567,7 @@ function refreshHomeWidgets() {
   renderActivity(snapshot);
   renderWordOfDay(snapshot, renderId);
   renderForgotten(snapshot, renderId);
+  renderDiscovery();
 }
 
 // Deferred one frame so callers that change screens right after (selectLevel, openTodayReviews)
@@ -550,6 +604,7 @@ function initHomeWidgets() {
     ['hwForecast', 'hw-forecast'],
     ['hwActivity', 'hw-activity'],
     ['hwForgotten', 'hw-forgotten'],
+    ['hwDiscovery', 'hw-discovery'],
   ].forEach(([id, className]) => {
     const section = homeElement('section', 'hw-card ' + className);
     section.id = id;

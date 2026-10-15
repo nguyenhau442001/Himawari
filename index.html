@@ -16,8 +16,8 @@
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
 <link rel="stylesheet" href="assets/css/workstation.css?v=20261015-zen-aesthetic1">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261015-viewport-fix-v7">
-<link rel="stylesheet" href="assets/css/home-widgets.css?v=20261015-mobile-ui-opt">
-<link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261015-mobile-ui-opt">
+<link rel="stylesheet" href="assets/css/home-widgets.css?v=20261015-dashboard-redesign">
+<link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261015-dashboard-redesign">
 <link rel="stylesheet" href="assets/css/reading-analysis.css?v=20261009-reading-center-v1">
 <link rel="stylesheet" href="assets/css/graded-reading.css?v=20261010-single-line-read1">
 <script>(function(){try{var p=new URLSearchParams(window.location.search).get('theme');if(p==='dark'||p==='light'){document.documentElement.dataset.theme=p;return;}}catch(e){}var h=new Date().getHours();var d=(h>=6&&h<18)?'light':'dark';var m=localStorage.getItem('hsk_theme_manual');var e=parseInt(localStorage.getItem('hsk_theme_manual_expiry')||'0',10);document.documentElement.dataset.theme=(m&&Date.now()<e)?m:d;if(localStorage.getItem('hsk_show_hanviet')==='false'){document.documentElement.classList.add('hide-hanviet');}})();</script>
@@ -208,42 +208,6 @@ if ('serviceWorker' in navigator) {
       </label>
     </div>
     <div id="screenPicker">
-      <div class="graded-reading-promo-banner" onclick="setPrimaryTab('gradedReading')" style="cursor: pointer; margin: 4px 0 12px; padding: 14px 18px; border-radius: 12px; background: linear-gradient(135deg, rgba(245, 158, 11, 0.12) 0%, rgba(56, 189, 248, 0.08) 100%); border: 1px solid rgba(245, 158, 11, 0.35); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
-        <div style="display: flex; align-items: center; gap: 12px;">
-          <span class="promo-icon" style="font-size: 1.8rem;">📚</span>
-          <div>
-            <div class="promo-title" style="font-weight: 750; font-size: 0.98rem; color: var(--text-primary); display: flex; align-items: center; gap: 6px;">
-              <span>Mới: Synapse Graded Reading</span>
-              <span style="font-size: 0.72rem; padding: 2px 6px; border-radius: 4px; background: #f59e0b; color: #000; font-weight: 800;">HSK 1–9</span>
-            </div>
-            <div class="promo-desc" style="font-size: 0.84rem; color: var(--text-secondary); margin-top: 2px;">
-              Đọc hiểu phân cấp ngữ cảnh thực tế · Vòng lặp học từ khép kín · Nhận diện vốn từ SRS cá nhân
-            </div>
-          </div>
-        </div>
-        <button type="button" class="primary-tab promo-btn" style="pointer-events: none; font-weight: 700;">
-          Đọc ngay →
-        </button>
-      </div>
-
-      <div class="reading-promo-banner" onclick="setPrimaryTab('reading')" style="cursor: pointer; margin: 0 0 16px; padding: 14px 18px; border-radius: 12px; background: linear-gradient(135deg, rgba(192, 86, 56, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%); border: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
-        <div style="display: flex; align-items: center; gap: 12px;">
-          <span class="promo-icon" style="font-size: 1.8rem;">📖</span>
-          <div>
-            <div class="promo-title" style="font-weight: 750; font-size: 0.98rem; color: var(--text-primary); display: flex; align-items: center; gap: 6px;">
-              <span>Mới: Đọc hiểu & Phân tích ngữ pháp HSK 4</span>
-              <span style="font-size: 0.72rem; padding: 2px 6px; border-radius: 4px; background: var(--accent); color: #fff;">Chuẩn Hanban</span>
-            </div>
-            <div class="promo-desc" style="font-size: 0.84rem; color: var(--text-secondary); margin-top: 2px;">
-              Ứng dụng từ vựng ngữ cảnh thực tế · Luyện xếp câu & điền khuyết · Phân tích bẫy ngữ pháp (把, 被, liên từ)
-            </div>
-          </div>
-        </div>
-        <button type="button" class="primary-tab promo-btn" style="pointer-events: none; border-color: var(--accent); color: var(--accent); font-weight: 650;">
-          Luyện tập ngay →
-        </button>
-      </div>
-
       <div id="welcomeToast" class="welcome-toast" role="status" aria-live="polite" hidden>
         <span id="welcomeToastMessage"></span>
       </div>
@@ -901,7 +865,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/backup.js?v=20261010-close-backup1"></script>
 <script src="assets/js/memory-curve.js?v=20261008-fix-stroke-drawer2"></script>
 <script src="assets/js/radicals-state.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/radicals.js?v=20261009-graded2"></script>
+<script src="assets/js/radicals.js?v=20261015-dashboard-redesign"></script>
 <script src="assets/js/radical-card.js?v=20261010-close-backup1"></script>
 <script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>
 <script src="assets/js/sidebar-radicals-filter.js?v=20261003-hsk20-rich1"></script>
@@ -925,8 +889,8 @@ window.addEventListener('load', function() {
   }
 });
 </script>
-<script src="assets/js/home-widgets.js?v=20261007-urgent-words-20"></script>
-<script src="assets/js/dashboard-enhancements.js?v=20261006-decimal-pct1"></script>
+<script src="assets/js/home-widgets.js?v=20261015-dashboard-redesign"></script>
+<script src="assets/js/dashboard-enhancements.js?v=20261015-dashboard-redesign"></script>
 <script src="assets/flashcards.js?v=20261003-hsk20-rich1"></script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4568b250a19345538a47a2da396637af"}'></script><!-- End Cloudflare Web Analytics -->
 </body>

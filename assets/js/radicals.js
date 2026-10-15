@@ -48,15 +48,50 @@ let vocabSubTab = 'level';
 
 function setVocabSubTab(tab) {
   vocabSubTab = tab;
-  document.getElementById('vocabSubTabLevel').classList.toggle('active', tab === 'level');
-  document.getElementById('vocabSubTabTopic').classList.toggle('active', tab === 'topic');
-  document.getElementById('vocabSubTabLevel').setAttribute('aria-selected', String(tab === 'level'));
-  document.getElementById('vocabSubTabTopic').setAttribute('aria-selected', String(tab === 'topic'));
-  document.getElementById('screenPicker').style.display = tab === 'level' ? '' : 'none';
-  document.getElementById('screenTopicPicker').style.display = tab === 'topic' ? '' : 'none';
-  document.getElementById('pickerVersionControls').hidden = tab !== 'level';
+  try { localStorage.setItem('hsk_vocab_subtab', tab); } catch (e) {}
+  const tabLevel = document.getElementById('vocabSubTabLevel');
+  const tabTopic = document.getElementById('vocabSubTabTopic');
+  if (tabLevel) {
+    tabLevel.classList.toggle('active', tab === 'level');
+    tabLevel.setAttribute('aria-selected', String(tab === 'level'));
+  }
+  if (tabTopic) {
+    tabTopic.classList.toggle('active', tab === 'topic');
+    tabTopic.setAttribute('aria-selected', String(tab === 'topic'));
+  }
+  const screenPicker = document.getElementById('screenPicker');
+  const screenTopicPicker = document.getElementById('screenTopicPicker');
+  if (screenPicker) {
+    screenPicker.style.display = tab === 'level' ? '' : 'none';
+    if (tab === 'level') {
+      screenPicker.classList.remove('vocab-tab-fade');
+      void screenPicker.offsetWidth;
+      screenPicker.classList.add('vocab-tab-fade');
+    }
+  }
+  if (screenTopicPicker) {
+    screenTopicPicker.style.display = tab === 'topic' ? '' : 'none';
+    if (tab === 'topic') {
+      screenTopicPicker.classList.remove('vocab-tab-fade');
+      void screenTopicPicker.offsetWidth;
+      screenTopicPicker.classList.add('vocab-tab-fade');
+    }
+  }
+  const versionControls = document.getElementById('pickerVersionControls');
+  if (versionControls) versionControls.hidden = tab !== 'level';
   if (tab === 'topic') renderTopicGrid();
 }
+
+try {
+  const savedVocabTab = localStorage.getItem('hsk_vocab_subtab');
+  if (savedVocabTab === 'topic') {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => setVocabSubTab('topic'));
+    } else {
+      setVocabSubTab('topic');
+    }
+  }
+} catch (e) {}
 
 function setPrimaryTab(tab, options) {
   const previousTab = primaryTab;

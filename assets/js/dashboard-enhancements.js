@@ -118,27 +118,43 @@ function initDashboardSidebar() {
   const mount = document.getElementById('workstationLeft');
   if (!mount) return;
 
-  const radicals = document.createElement('section');
-  radicals.className = 'dashboard-sidebar-card common-radicals-card';
-  radicals.innerHTML = `<div class="sidebar-card-heading">
-      <h2>Bộ thủ thông dụng</h2>
-      <button type="button" class="sidebar-link-btn" onclick="openRadicalDirectory()" aria-label="Mở danh sách 214 bộ thủ">214 bộ →</button>
-    </div>
-    <div class="common-radicals-grid">${COMMON_RADICALS.map(item => `
-      <button type="button" class="common-radical" data-radical="${item.char}" aria-label="Học bộ ${item.name}: ${item.hint}">
-        <span class="common-radical-char" lang="zh-CN">${item.char}</span><span class="common-radical-name">${item.name}</span>
-      </button>`).join('')}</div>`;
+  const radicals = document.createElement('details');
+  radicals.className = 'dashboard-sidebar-card dashboard-sidebar-accordion common-radicals-card';
+  radicals.innerHTML = `<summary class="sidebar-card-heading sidebar-accordion-summary">
+      <div class="sidebar-accordion-title">
+        <span class="accordion-arrow" aria-hidden="true">▸</span>
+        <h2>Bộ thủ thông dụng</h2>
+      </div>
+      <button type="button" class="sidebar-link-btn" onclick="event.stopPropagation(); openRadicalDirectory()" aria-label="Mở danh sách 214 bộ thủ">214 bộ →</button>
+    </summary>
+    <div class="sidebar-accordion-body">
+      <div class="common-radicals-grid">${COMMON_RADICALS.map(item => `
+        <button type="button" class="common-radical" data-radical="${item.char}" aria-label="Học bộ ${item.name}: ${item.hint}">
+          <span class="common-radical-char" lang="zh-CN">${item.char}</span><span class="common-radical-name">${item.name}</span>
+        </button>`).join('')}</div>
+    </div>`;
   radicals.addEventListener('click', event => {
     const button = event.target.closest('[data-radical]');
-    if (button) openCommonRadical(button.dataset.radical);
+    if (button) {
+      event.preventDefault();
+      openCommonRadical(button.dataset.radical);
+    }
   });
   mount.appendChild(radicals);
 
-  const tip = document.createElement('section');
-  tip.className = 'dashboard-sidebar-card radical-tip-card';
-  tip.innerHTML = `<div class="sidebar-card-heading"><h2>Mẹo nhớ chữ Hán</h2><span>Gợi ý</span></div>
-    <div class="radical-tip-word" lang="zh-CN">休 <span>xiū · nghỉ ngơi</span></div>
-    <p>Một người <b>亻</b> tựa vào gốc cây <b>木</b> để nghỉ ngơi. Nhìn chữ là nhớ ngay!</p>`;
+  const tip = document.createElement('details');
+  tip.className = 'dashboard-sidebar-card dashboard-sidebar-accordion radical-tip-card';
+  tip.innerHTML = `<summary class="sidebar-card-heading sidebar-accordion-summary">
+      <div class="sidebar-accordion-title">
+        <span class="accordion-arrow" aria-hidden="true">▸</span>
+        <h2>Mẹo nhớ chữ Hán</h2>
+      </div>
+      <span class="sidebar-card-meta">Gợi ý</span>
+    </summary>
+    <div class="sidebar-accordion-body">
+      <div class="radical-tip-word" lang="zh-CN">休 <span>xiū · nghỉ ngơi</span></div>
+      <p>Một người <b>亻</b> tựa vào gốc cây <b>木</b> để nghỉ ngơi. Nhìn chữ là nhớ ngay!</p>
+    </div>`;
   mount.appendChild(tip);
 
   const desktopQuery = window.matchMedia('(min-width: 1280px)');
