@@ -95,6 +95,11 @@ function buildCardArea() {
       </div>
     </div>
 
+    <div class="nav-row" id="studyNavRow">
+      <button type="button" class="nav-btn nav-btn--prev" onclick="prevCard()" title="Từ trước (←)">← Trước</button>
+      <span class="card-counter" id="cardCounter">0 / 0</span>
+      <button type="button" class="nav-btn nav-btn--next" onclick="nextCard()" title="Từ tiếp theo (→)">Tiếp →</button>
+    </div>
 
     <div class="rating-area">
       ${revealButtonHtml('flip()', 'revealBtn')}
@@ -346,25 +351,31 @@ function updateProgress(current, total) {
 
 function updateCardPosition() {
   const badge = document.getElementById('cardPositionBadge');
-  if (!badge) return;
+  const counter = document.getElementById('cardCounter');
   if (!filteredOrder || filteredOrder.length === 0) {
     const deck = computeDeckProgress();
-    if (currentFilter === 'unseen' && deck.unseen === 0 && deck.total > 0) {
-      badge.textContent = 'Hoàn thành';
-      badge.title = 'Đã học qua 100% từ vựng mới của cấp độ này';
-    } else {
-      badge.textContent = '0 / 0';
+    const txt = (currentFilter === 'unseen' && deck.unseen === 0 && deck.total > 0) ? 'Hoàn thành' : '0 / 0';
+    if (badge) {
+      badge.textContent = txt;
+      if (txt === 'Hoàn thành') badge.title = 'Đã học qua 100% từ vựng mới của cấp độ này';
     }
+    if (counter) counter.textContent = txt;
     return;
   }
   const current = (idx % filteredOrder.length) + 1;
   const total = filteredOrder.length;
-  badge.textContent = `${current} / ${total}`;
-  const filterLabel = currentFilter === 'all' ? 'Tất cả'
-    : currentFilter === 'known' ? 'Đã nhớ'
-    : currentFilter === 'unknown' ? 'Chưa nhớ'
-    : currentFilter === 'unseen' ? 'Chưa học' : currentFilter;
-  badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
+  const posText = `${current} / ${total}`;
+  if (badge) {
+    badge.textContent = posText;
+    const filterLabel = currentFilter === 'all' ? 'Tất cả'
+      : currentFilter === 'known' ? 'Đã nhớ'
+      : currentFilter === 'unknown' ? 'Chưa nhớ'
+      : currentFilter === 'unseen' ? 'Chưa học' : currentFilter;
+    badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
+  }
+  if (counter) {
+    counter.textContent = posText;
+  }
 }
 
 function applyHanziLengthFit(el, text) {
