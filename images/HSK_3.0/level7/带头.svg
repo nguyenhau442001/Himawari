@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Path representing the challenging terrain/mountain -->
+  <path d="M40 180 L100 120 L140 150 L200 90" stroke="#4A5568" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <!-- Leader character (The one "带头") -->
+  <g>
+    <!-- Motion lines -->
+    <path d="M125 75 L135 65 M130 70 L140 60" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+    <!-- Body -->
+    <path d="M120 130 L120 90 L130 80 L140 90 L140 130" fill="#F6AD55"/>
+    <!-- Arm reaching forward/up -->
+    <path d="M130 95 L150 75" stroke="#F6AD55" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="130" cy="80" r="8" fill="#F6AD55"/>
+  </g>
+  
+  <!-- Following characters -->
+  <g opacity="0.6">
+    <path d="M80 160 L80 120 L90 110 L100 120 L100 160" fill="#A0AEC0"/>
+    <circle cx="90" cy="110" r="8" fill="#A0AEC0"/>
+    
+    <path d="M50 190 L50 150 L60 140 L70 150 L70 190" fill="#718096"/>
+    <circle cx="60" cy="140" r="8" fill="#718096"/>
+  </g>
+  
+  <!-- Focus highlight/accent -->
+  <circle cx="150" cy="75" r="4" fill="#F6AD55"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person representing the professional -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-40 80 C-40 40, -20 20, 0 20 C20 20, 40 40, 40 80 L-40 80" fill="#3A404D"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="30" fill="#E0E6ED"/>
+    <!-- Neck -->
+    <rect x="-8" y="15" width="16" height="10" fill="#E0E6ED"/>
+    
+    <!-- Left hand holding a golden book (Talent/Knowledge) -->
+    <path d="M-50 40 L-70 60 L-50 80 L-30 60 Z" fill="#FFB84D"/>
+    <rect x="-65" y="45" width="20" height="25" fill="#F2F2F2"/>
+    
+    <!-- Right hand raised in a gesture of integrity/honesty (Virtue) -->
+    <path d="M50 40 L70 60 L50 80 L30 60 Z" fill="#FFB84D"/>
+    <circle cx="65" cy="50" r="8" fill="#E0E6ED"/>
+    
+    <!-- Subtle facial features -->
+    <path d="M-10 -15 L-5 -15 M5 -15 L10 -15" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-8 0 Q0 5 8 0" stroke="#1A1D24" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Golden balance scale icon integrated as a subtle professional badge on the chest -->
+  <g transform="translate(120, 135)">
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#FFB84D" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-15" cy="5" r="4" fill="#FFB84D"/>
+    <circle cx="15" cy="5" r="4" fill="#FFB84D"/>
+  </g>
+</svg>

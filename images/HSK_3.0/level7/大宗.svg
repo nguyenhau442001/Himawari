@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Large Cargo Ship -->
+  <path d="M40 160 L200 160 L190 190 L50 190 Z" fill="#4A5568"/>
+  <path d="M50 190 L190 190 L180 205 L60 205 Z" fill="#2D3748"/>
+  
+  <!-- Massive Cargo Containers (Representing "大宗" - Bulk Goods) -->
+  <rect x="65" y="110" width="30" height="50" fill="#F6AD55"/>
+  <rect x="100" y="110" width="30" height="50" fill="#F6AD55"/>
+  <rect x="135" y="110" width="30" height="50" fill="#F6AD55"/>
+  
+  <!-- Second Layer of Containers -->
+  <rect x="80" y="70" width="30" height="40" fill="#ED8936"/>
+  <rect x="115" y="70" width="30" height="40" fill="#ED8936"/>
+  
+  <!-- Top Container -->
+  <rect x="98" y="40" width="30" height="30" fill="#DD6B20"/>
+  
+  <!-- Details on containers -->
+  <line x1="65" y1="125" x2="95" y2="125" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="100" y1="125" x2="130" y2="125" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="135" y1="125" x2="165" y2="125" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="80" y1="85" x2="110" y2="85" stroke="#1A1D24" stroke-width="2"/>
+  <line x1="115" y1="85" x2="145" y2="85" stroke="#1A1D24" stroke-width="2"/>
+  
+  <!-- Water line -->
+  <path d="M20 205 Q60 200 100 205 T180 205 T220 205" stroke="#2B6CB0" stroke-width="4" fill="none"/>
+  <path d="M10 215 Q50 210 90 215 T170 215 T210 215" stroke="#2C5282" stroke-width="4" fill="none"/>
+</svg>

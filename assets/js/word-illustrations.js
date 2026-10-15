@@ -37216,6 +37216,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "大雁.svg",
     "src": "images/HSK_3.0/level7/大雁.svg",
     "caption": "chim nhạn"
+  },
+  "大有可为": {
+    "file": "大有可为.svg",
+    "src": "images/HSK_3.0/level7/大有可为.svg",
+    "caption": "rất có triển vọng, đầy tiềm năng"
+  },
+  "大宗": {
+    "file": "大宗.svg",
+    "src": "images/HSK_3.0/level7/大宗.svg",
+    "caption": "số lượng lớn, quy mô lớn"
+  },
+  "逮": {
+    "file": "逮.svg",
+    "src": "images/HSK_3.0/level7/逮.svg",
+    "caption": "bắt, tóm, chộp"
+  },
+  "带队": {
+    "file": "带队.svg",
+    "src": "images/HSK_3.0/level7/带队.svg",
+    "caption": "dẫn đoàn, dẫn đội"
+  },
+  "怠工": {
+    "file": "怠工.svg",
+    "src": "images/HSK_3.0/level7/怠工.svg",
+    "caption": "lãn công, chây lười làm việc"
+  },
+  "代号": {
+    "file": "代号.svg",
+    "src": "images/HSK_3.0/level7/代号.svg",
+    "caption": "mật danh, mã số"
+  },
+  "代理人": {
+    "file": "代理人.svg",
+    "src": "images/HSK_3.0/level7/代理人.svg",
+    "caption": "người đại diện, bên đại lý"
+  },
+  "带路": {
+    "file": "带路.svg",
+    "src": "images/HSK_3.0/level7/带路.svg",
+    "caption": "dẫn đường"
+  },
+  "带头": {
+    "file": "带头.svg",
+    "src": "images/HSK_3.0/level7/带头.svg",
+    "caption": "đi đầu, làm gương, dẫn đầu"
+  },
+  "代言": {
+    "file": "代言.svg",
+    "src": "images/HSK_3.0/level7/代言.svg",
+    "caption": "làm đại diện thương hiệu, phát ngôn"
+  },
+  "担": {
+    "file": "担.svg",
+    "src": "images/HSK_3.0/level7/担.svg",
+    "caption": "gánh vác, lo lắng"
+  },
+  "单边": {
+    "file": "单边.svg",
+    "src": "images/HSK_3.0/level7/单边.svg",
+    "caption": "đơn phương, một phía"
+  },
+  "单薄": {
+    "file": "单薄.svg",
+    "src": "images/HSK_3.0/level7/单薄.svg",
+    "caption": "mỏng manh, gầy yếu"
+  },
+  "担当": {
+    "file": "担当.svg",
+    "src": "images/HSK_3.0/level7/担当.svg",
+    "caption": "gánh vác, đảm đương"
+  },
+  "单方面": {
+    "file": "单方面.svg",
+    "src": "images/HSK_3.0/level7/单方面.svg",
+    "caption": "đơn phương, một phía"
+  },
+  "担负": {
+    "file": "担负.svg",
+    "src": "images/HSK_3.0/level7/担负.svg",
+    "caption": "gánh vác, đảm nhận"
+  },
+  "单价": {
+    "file": "单价.svg",
+    "src": "images/HSK_3.0/level7/单价.svg",
+    "caption": "đơn giá"
+  },
+  "单身": {
+    "file": "单身.svg",
+    "src": "images/HSK_3.0/level7/单身.svg",
+    "caption": "độc thân"
+  },
+  "胆量": {
+    "file": "胆量.svg",
+    "src": "images/HSK_3.0/level7/胆量.svg",
+    "caption": "lòng dũng cảm, can đảm"
+  },
+  "淡水": {
+    "file": "淡水.svg",
+    "src": "images/HSK_3.0/level7/淡水.svg",
+    "caption": "nước ngọt"
+  },
+  "但愿": {
+    "file": "但愿.svg",
+    "src": "images/HSK_3.0/level7/但愿.svg",
+    "caption": "chỉ mong, cầu mong"
+  },
+  "担子": {
+    "file": "担子.svg",
+    "src": "images/HSK_3.0/level7/担子.svg",
+    "caption": "gánh nặng, quang gánh"
+  },
+  "当即": {
+    "file": "当即.svg",
+    "src": "images/HSK_3.0/level7/当即.svg",
+    "caption": "ngay lập tức, tức thì"
+  },
+  "当机立断": {
+    "file": "当机立断.svg",
+    "src": "images/HSK_3.0/level7/当机立断.svg",
+    "caption": "quyết đoán tức thì, dứt khoát"
+  },
+  "当日": {
+    "file": "当日.svg",
+    "src": "images/HSK_3.0/level7/当日.svg",
+    "caption": "trong ngày, ngày hôm đó"
+  },
+  "当之无愧": {
+    "file": "当之无愧.svg",
+    "src": "images/HSK_3.0/level7/当之无愧.svg",
+    "caption": "hoàn toàn xứng đáng, không hổ danh"
+  },
+  "当众": {
+    "file": "当众.svg",
+    "src": "images/HSK_3.0/level7/当众.svg",
+    "caption": "trước đám đông, trước mọi người"
+  },
+  "当晚": {
+    "file": "当晚.svg",
+    "src": "images/HSK_3.0/level7/当晚.svg",
+    "caption": "tối hôm đó, đêm hôm đó"
+  },
+  "荡漾": {
+    "file": "荡漾.svg",
+    "src": "images/HSK_3.0/level7/荡漾.svg",
+    "caption": "dập dềnh, gợn sóng, lay động"
+  },
+  "当真": {
+    "file": "当真.svg",
+    "src": "images/HSK_3.0/level7/当真.svg",
+    "caption": "coi là thật, tưởng thật"
+  },
+  "导火索": {
+    "file": "导火索.svg",
+    "src": "images/HSK_3.0/level7/导火索.svg",
+    "caption": "ngòi nổ, ngòi thuốc nổ"
+  },
+  "倒塌": {
+    "file": "倒塌.svg",
+    "src": "images/HSK_3.0/level7/倒塌.svg",
+    "caption": "sụp đổ, sập xuống"
+  },
+  "盗": {
+    "file": "盗.svg",
+    "src": "images/HSK_3.0/level7/盗.svg",
+    "caption": "trộm cắp, đánh cắp"
+  },
+  "盗版": {
+    "file": "盗版.svg",
+    "src": "images/HSK_3.0/level7/盗版.svg",
+    "caption": "vi phạm bản quyền, bản lậu"
+  },
+  "道别": {
+    "file": "道别.svg",
+    "src": "images/HSK_3.0/level7/道别.svg",
+    "caption": "từ biệt, nói lời tạm biệt"
+  },
+  "稻草": {
+    "file": "稻草.svg",
+    "src": "images/HSK_3.0/level7/稻草.svg",
+    "caption": "cọng rơm, rơm rạ"
+  },
+  "倒计时": {
+    "file": "倒计时.svg",
+    "src": "images/HSK_3.0/level7/倒计时.svg",
+    "caption": "đếm ngược"
+  },
+  "道具": {
+    "file": "道具.svg",
+    "src": "images/HSK_3.0/level7/道具.svg",
+    "caption": "đạo cụ"
+  },
+  "悼念": {
+    "file": "悼念.svg",
+    "src": "images/HSK_3.0/level7/悼念.svg",
+    "caption": "tưởng niệm, thương tiếc"
+  },
+  "倒数": {
+    "file": "倒数.svg",
+    "src": "images/HSK_3.0/level7/倒数.svg",
+    "caption": "đếm ngược, xếp từ dưới lên"
+  },
+  "到头来": {
+    "file": "到头来.svg",
+    "src": "images/HSK_3.0/level7/到头来.svg",
+    "caption": "rốt cuộc, đến cuối cùng"
+  },
+  "到位": {
+    "file": "到位.svg",
+    "src": "images/HSK_3.0/level7/到位.svg",
+    "caption": "đúng chỗ, chu đáo, đến nơi đến chốn"
+  },
+  "德才兼备": {
+    "file": "德才兼备.svg",
+    "src": "images/HSK_3.0/level7/德才兼备.svg",
+    "caption": "đức tài vẹn toàn"
+  },
+  "得当": {
+    "file": "得当.svg",
+    "src": "images/HSK_3.0/level7/得当.svg",
+    "caption": "thích đáng, thỏa đáng"
+  },
+  "得失": {
+    "file": "得失.svg",
+    "src": "images/HSK_3.0/level7/得失.svg",
+    "caption": "được mất, thành bại"
+  },
+  "得手": {
+    "file": "得手.svg",
+    "src": "images/HSK_3.0/level7/得手.svg",
+    "caption": "thành công, ra tay trót lọt"
+  },
+  "得体": {
+    "file": "得体.svg",
+    "src": "images/HSK_3.0/level7/得体.svg",
+    "caption": "đúng mực, lịch thiệp, khéo léo"
+  },
+  "得益": {
+    "file": "得益.svg",
+    "src": "images/HSK_3.0/level7/得益.svg",
+    "caption": "nhờ có, hưởng lợi từ"
+  },
+  "得意扬扬": {
+    "file": "得意扬扬.svg",
+    "src": "images/HSK_3.0/level7/得意扬扬.svg",
+    "caption": "dương dương tự đắc, đắc ý"
   }
 };
 
