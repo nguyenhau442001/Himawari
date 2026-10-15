@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table Surface -->
+  <rect x="40" y="160" width="160" height="15" rx="4" fill="#343A46"/>
+  
+  <!-- Bowl of Rice -->
+  <path d="M80 160 C80 185, 160 185, 160 160 Z" fill="#F8F9FA"/>
+  <path d="M90 145 C90 165, 150 165, 150 145 Z" fill="#E9ECEF"/>
+  
+  <!-- Simple Chopsticks -->
+  <rect x="170" y="130" width="4" height="50" rx="2" fill="#D4A373" transform="rotate(20 172 155)"/>
+  <rect x="178" y="130" width="4" height="50" rx="2" fill="#D4A373" transform="rotate(-10 180 155)"/>
+  
+  <!-- Side dish: Simple greens -->
+  <circle cx="60" cy="140" r="15" fill="#2D6A4F"/>
+  <path d="M55 135 L65 145 M65 135 L55 145" stroke="#40916C" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Steam effect -->
+  <path d="M120 135 Q125 120 120 105" stroke="#ADB5BD" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M130 130 Q135 115 130 100" stroke="#ADB5BD" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Warm accent lighting on the bowl -->
+  <ellipse cx="120" cy="150" rx="40" ry="5" fill="#FFB703" opacity="0.1"/>
+</svg>

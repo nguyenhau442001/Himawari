@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Background subtle industrial gear outline representing the old system -->
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#2A323D" stroke-width="6" stroke-dasharray="6,4"/>
+    <path d="M0,-55 L0,-63 M0,55 L0,63 M-55,0 L-63,0 M55,0 L63,0 M-39,-39 L-45,-45 M39,39 L45,45 M-39,39 L-45,45 M39,-39 L45,-45" stroke="#2A323D" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Transformation / Metamorphosis visual: Central physical object transitioning -->
+    <!-- Left side (Traditional solid block / heavy structure) -->
+    <path d="M-45,30 L-10,40 L-10,-20 L-45,-30 Z" fill="#3A4659"/>
+    <path d="M-45,30 L-10,40 L-25,50 L-60,40 Z" fill="#2C3542"/>
+    <path d="M-60,0 L-45,-30 L-10,-20 L-25,10 Z" fill="#4E5D73"/>
+
+    <!-- Center dynamic energy flow / shift lines (Orange/Gold accent for focus) -->
+    <path d="M-15,10 C-5,5 5,-5 15,-10" fill="none" stroke="#F59E0B" stroke-width="3" stroke-dasharray="3,3"/>
+    <path d="M-10,25 C0,15 10,0 20,-5" fill="none" stroke="#F59E0B" stroke-width="4"/>
+    <path d="M-5,40 C10,25 15,5 30,-5" fill="none" stroke="#F5A832" stroke-width="2"/>
+
+    <!-- Right side (Modernized, sleek, segmented/digital structured object emerging) -->
+    <g transform="translate(30, -10)">
+      <!-- Base structure -->
+      <path d="M0,35 L35,20 L35,-25 L0,-10 Z" fill="#0EA5E9"/>
+      <!-- Top illuminated facet -->
+      <path d="M-15,-20 L0,-10 L35,-25 L20,-35 Z" fill="#38BDF8"/>
+      <!-- Left shaded facet -->
+      <path d="M-15,25 L0,35 L0,-10 L-15,-20 Z" fill="#0284C7"/>
+      
+      <!-- Glowing digital core element floating inside/above -->
+      <circle cx="10" cy="-5" r="8" fill="#F59E0B"/>
+      <circle cx="10" cy="-5" r="4" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Floating directional particles / innovation sparks -->
+    <circle cx="-25" cy="-25" r="2.5" fill="#38BDF8"/>
+    <circle cx="5" cy="-45" r="3" fill="#F59E0B"/>
+    <circle cx="45" cy="15" r="2" fill="#38BDF8"/>
+    <circle cx="55" cy="-25" r="3.5" fill="#F59E0B"/>
+    <path d="M35,35 L42,42" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-35,-10 L-42,-15" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

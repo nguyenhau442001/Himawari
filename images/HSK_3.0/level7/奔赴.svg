@@ -1,0 +1,67 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Motion Lines / Trajectory -->
+  <path d="M30 160 Q 90 120, 150 140 T 220 100" stroke="#2D3748" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
+  <path d="M40 180 Q 100 140, 160 160 T 230 120" stroke="#3182CE" stroke-opacity="0.3" stroke-width="2" fill="none"/>
+
+  <!-- Speed/Direction Arrows (Dynamic forward rush) -->
+  <g fill="#F6AD55" opacity="0.8">
+    <polygon points="175,95 195,102 175,109" />
+    <polygon points="135,115 150,121 135,127" />
+    <polygon points="95,135 107,140 95,145" />
+  </g>
+
+  <!-- Medical Cross Symbol (Frontline / Pandemic context representation) -->
+  <g transform="translate(170, 75)">
+    <circle cx="15" cy="15" r="14" fill="#2B6CB0" opacity="0.4"/>
+    <rect x="12" y="7" width="6" height="16" rx="2" fill="#E2E8F0"/>
+    <rect x="7" y="12" width="16" height="6" rx="2" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Main Character (Medical Professional rushing forward) -->
+  <g transform="translate(0, 5)">
+    <!-- Coat / Cape flowing behind (motion) -->
+    <path d="M105 130 C 85 135, 65 150, 45 170 C 65 165, 85 155, 105 145 Z" fill="#CBD5E0" opacity="0.7"/>
+
+    <!-- Legs in motion -->
+    <!-- Back Leg -->
+    <path d="M110 145 L 90 185 L 105 190 L 120 160" fill="#2C5282"/>
+    <!-- Front Leg -->
+    <path d="M125 145 L 145 185 L 160 180 L 140 150" fill="#3182CE"/>
+
+    <!-- Body / Torso (Leaning forward significantly for "奔赴" - rushing/heading towards) -->
+    <path d="M100 100 L 135 110 L 125 150 L 90 140 Z" fill="#FFFFFF"/>
+    
+    <!-- Medical White Coat details -->
+    <path d="M115 105 L 125 150 L 110 150 L 105 115 Z" fill="#EDF2F7"/>
+
+    <!-- Arms reaching forward -->
+    <!-- Back Arm -->
+    <path d="M105 110 L 130 120 L 145 110" stroke="#CBD5E0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Front Arm -->
+    <path d="M120 115 L 155 125 L 175 115" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Head & Face (Determined expression, leaning forward) -->
+    <circle cx="130" cy="85" r="14" fill="#FEEBC8"/>
+    
+    <!-- Medical Cap -->
+    <path d="M116 80 C 120 70, 140 70, 144 80 Z" fill="#FFFFFF"/>
+    <rect x="126" y="74" width="8" height="4" fill="#E53E3E" rx="1"/>
+
+    <!-- Hair / Mask hint -->
+    <path d="M118 85 L 132 85 L 135 92 L 120 92 Z" fill="#4A5568"/>
+  </g>
+
+  <!-- Destination / Frontline Indicator (Subtle architectural cross / horizon accent) -->
+  <g transform="translate(195, 135)" opacity="0.9">
+    <rect x="0" y="0" width="16" height="35" fill="#2D3748" rx="2"/>
+    <polygon points="-4,0 8,-12 20,0" fill="#E53E3E"/>
+    <rect x="5" y="15" width="6" height="12" fill="#F6AD55" rx="1"/>
+  </g>
+
+  <!-- Ground Line -->
+  <path d="M20 195 L 220 195" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+
+</svg>

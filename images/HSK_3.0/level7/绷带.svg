@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Arm representation -->
+  <path d="M60 120 C 60 100, 180 100, 180 120 L 180 150 C 180 170, 60 170, 60 150 Z" fill="#2D3436"/>
+  
+  <!-- Bandage wraps -->
+  <g fill="#E0E0E0">
+    <rect x="80" y="110" width="20" height="50" rx="2"/>
+    <rect x="110" y="110" width="20" height="50" rx="2"/>
+    <rect x="140" y="110" width="20" height="50" rx="2"/>
+  </g>
+  
+  <!-- Bandage roll icon -->
+  <circle cx="190" cy="80" r="25" fill="#FFB74D"/>
+  <circle cx="190" cy="80" r="15" fill="#E0E0E0"/>
+  <path d="M190 65 L 190 95" stroke="#1A1D24" stroke-width="2"/>
+  <path d="M175 80 L 205 80" stroke="#1A1D24" stroke-width="2"/>
+  
+  <!-- Loose bandage end -->
+  <path d="M170 95 L 150 115 L 160 125 L 180 105" fill="#E0E0E0"/>
+</svg>

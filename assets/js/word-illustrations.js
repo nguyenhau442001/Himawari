@@ -35177,6 +35177,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/碑.svg",
     "caption": "tấm bia, bia đá"
   },
+  "背负": {
+    "file": "背负.svg",
+    "src": "images/HSK_3.0/level7/背负.svg",
+    "caption": "gánh vác, cõng trên lưng"
+  },
   "悲欢离合": {
     "file": "悲欢离合.svg",
     "src": "images/HSK_3.0/level7/悲欢离合.svg",
@@ -35216,6 +35221,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "备忘录.svg",
     "src": "images/HSK_3.0/level7/备忘录.svg",
     "caption": "bản ghi nhớ, biên bản ghi nhớ"
+  },
+  "背影": {
+    "file": "背影.svg",
+    "src": "images/HSK_3.0/level7/背影.svg",
+    "caption": "bóng lưng, hình bóng phía sau"
+  },
+  "备战": {
+    "file": "备战.svg",
+    "src": "images/HSK_3.0/level7/备战.svg",
+    "caption": "chuẩn bị thi đấu, chuẩn bị thi cử/chiến đấu"
+  },
+  "奔赴": {
+    "file": "奔赴.svg",
+    "src": "images/HSK_3.0/level7/奔赴.svg",
+    "caption": "lên đường tới, lao tới tuyến đầu"
+  },
+  "本分": {
+    "file": "本分.svg",
+    "src": "images/HSK_3.0/level7/本分.svg",
+    "caption": "bổn phận, an phận"
+  },
+  "本色": {
+    "file": "本色.svg",
+    "src": "images/HSK_3.0/level7/本色.svg",
+    "caption": "bản sắc, phẩm chất vốn có"
+  },
+  "本性": {
+    "file": "本性.svg",
+    "src": "images/HSK_3.0/level7/本性.svg",
+    "caption": "bản tính, tính cách vốn có"
+  },
+  "本意": {
+    "file": "本意.svg",
+    "src": "images/HSK_3.0/level7/本意.svg",
+    "caption": "ý định ban đầu, bổn ý"
+  },
+  "奔": {
+    "file": "奔.svg",
+    "src": "images/HSK_3.0/level7/奔.svg",
+    "caption": "lao về phía, chạy hướng tới"
+  },
+  "笨蛋": {
+    "file": "笨蛋.svg",
+    "src": "images/HSK_3.0/level7/笨蛋.svg",
+    "caption": "đồ ngốc, kẻ ngốc"
+  },
+  "笨重": {
+    "file": "笨重.svg",
+    "src": "images/HSK_3.0/level7/笨重.svg",
+    "caption": "cồng kềnh, nặng nề"
+  },
+  "绷": {
+    "file": "绷.svg",
+    "src": "images/HSK_3.0/level7/绷.svg",
+    "caption": "căng ra, kéo căng"
+  },
+  "绷带": {
+    "file": "绷带.svg",
+    "src": "images/HSK_3.0/level7/绷带.svg",
+    "caption": "băng gạc y tế, băng cuộn"
+  },
+  "逼近": {
+    "file": "逼近.svg",
+    "src": "images/HSK_3.0/level7/逼近.svg",
+    "caption": "áp sát, tiến sát gần"
+  },
+  "逼真": {
+    "file": "逼真.svg",
+    "src": "images/HSK_3.0/level7/逼真.svg",
+    "caption": "sống động như thật, như tạc"
+  },
+  "比比皆是": {
+    "file": "比比皆是.svg",
+    "src": "images/HSK_3.0/level7/比比皆是.svg",
+    "caption": "nhan nhản khắp nơi, đâu đâu cũng có"
+  },
+  "笔墨": {
+    "file": "笔墨.svg",
+    "src": "images/HSK_3.0/level7/笔墨.svg",
+    "caption": "bút mực, câu chữ giấy mực"
+  },
+  "比试": {
+    "file": "比试.svg",
+    "src": "images/HSK_3.0/level7/比试.svg",
+    "caption": "đọ sức, tỉ thí"
+  },
+  "鄙视": {
+    "file": "鄙视.svg",
+    "src": "images/HSK_3.0/level7/鄙视.svg",
+    "caption": "khinh bỉ, coi thường"
+  },
+  "必不可少": {
+    "file": "必不可少.svg",
+    "src": "images/HSK_3.0/level7/必不可少.svg",
+    "caption": "không thể thiếu được"
+  },
+  "壁画": {
+    "file": "壁画.svg",
+    "src": "images/HSK_3.0/level7/壁画.svg",
+    "caption": "tranh tường, bích họa"
+  },
+  "必将": {
+    "file": "必将.svg",
+    "src": "images/HSK_3.0/level7/必将.svg",
+    "caption": "nhất định sẽ, ắt sẽ"
+  },
+  "壁垒": {
+    "file": "壁垒.svg",
+    "src": "images/HSK_3.0/level7/壁垒.svg",
+    "caption": "bức tường rào cản, rào lũy"
+  },
+  "碧绿": {
+    "file": "碧绿.svg",
+    "src": "images/HSK_3.0/level7/碧绿.svg",
+    "caption": "xanh biếc, xanh ngắt"
+  },
+  "避难": {
+    "file": "避难.svg",
+    "src": "images/HSK_3.0/level7/避难.svg",
+    "caption": "lánh nạn, tị nạn"
+  },
+  "避让": {
+    "file": "避让.svg",
+    "src": "images/HSK_3.0/level7/避让.svg",
+    "caption": "nhường đường, né tránh nhường lối"
+  },
+  "毕生": {
+    "file": "毕生.svg",
+    "src": "images/HSK_3.0/level7/毕生.svg",
+    "caption": "trọn đời, suốt cả cuộc đời"
+  },
+  "避暑": {
+    "file": "避暑.svg",
+    "src": "images/HSK_3.0/level7/避暑.svg",
+    "caption": "tránh nóng mùa hè, đi nghỉ mát"
+  },
+  "编程": {
+    "file": "编程.svg",
+    "src": "images/HSK_3.0/level7/编程.svg",
+    "caption": "ý nghĩa lập trình"
+  },
+  "编号": {
+    "file": "编号.svg",
+    "src": "images/HSK_3.0/level7/编号.svg",
+    "caption": "mã số, số hiệu, đánh số"
+  },
+  "编剧": {
+    "file": "编剧.svg",
+    "src": "images/HSK_3.0/level7/编剧.svg",
+    "caption": "biên kịch, nhà viết kịch bản"
+  },
+  "编排": {
+    "file": "编排.svg",
+    "src": "images/HSK_3.0/level7/编排.svg",
+    "caption": "dàn dựng, biên đạo, sắp xếp"
+  },
+  "边远": {
+    "file": "边远.svg",
+    "src": "images/HSK_3.0/level7/边远.svg",
+    "caption": "hẻo lánh, xa xôi, vùng sâu vùng xa"
+  },
+  "编造": {
+    "file": "编造.svg",
+    "src": "images/HSK_3.0/level7/编造.svg",
+    "caption": "bịa đặt, thêu dệt, dựng chuyện"
+  },
+  "编制": {
+    "file": "编制.svg",
+    "src": "images/HSK_3.0/level7/编制.svg",
+    "caption": "biên chế; biên soạn"
+  },
+  "贬值": {
+    "file": "贬值.svg",
+    "src": "images/HSK_3.0/level7/贬值.svg",
+    "caption": "mất giá, giảm giá trị"
+  },
+  "辩": {
+    "file": "辩.svg",
+    "src": "images/HSK_3.0/level7/辩.svg",
+    "caption": "tranh luận, biện luận, cãi"
+  },
+  "辨别": {
+    "file": "辨别.svg",
+    "src": "images/HSK_3.0/level7/辨别.svg",
+    "caption": "phân biệt, nhận biết rõ"
+  },
+  "便饭": {
+    "file": "便饭.svg",
+    "src": "images/HSK_3.0/level7/便饭.svg",
+    "caption": "bữa cơm thân mật, bữa cơm đạm bạc"
+  },
+  "变革": {
+    "file": "变革.svg",
+    "src": "images/HSK_3.0/level7/变革.svg",
+    "caption": "cải cách, đổi mới, biến cách"
+  },
+  "变更": {
+    "file": "变更.svg",
+    "src": "images/HSK_3.0/level7/变更.svg",
+    "caption": "thay đổi, điều chỉnh"
+  },
+  "变换": {
+    "file": "变换.svg",
+    "src": "images/HSK_3.0/level7/变换.svg",
+    "caption": "biến đổi, hoán đổi linh hoạt"
+  },
+  "变幻莫测": {
+    "file": "变幻莫测.svg",
+    "src": "images/HSK_3.0/level7/变幻莫测.svg",
+    "caption": "biến ảo khôn lường, khó lường"
+  },
+  "变通": {
+    "file": "变通.svg",
+    "src": "images/HSK_3.0/level7/变通.svg",
+    "caption": "linh hoạt thích ứng, uyển chuyển"
+  },
+  "便携式": {
+    "file": "便携式.svg",
+    "src": "images/HSK_3.0/level7/便携式.svg",
+    "caption": "loại xách tay, di động, tiện mang theo"
+  },
+  "变形": {
+    "file": "变形.svg",
+    "src": "images/HSK_3.0/level7/变形.svg",
+    "caption": "biến dạng, méo mó"
+  },
+  "变异": {
+    "file": "变异.svg",
+    "src": "images/HSK_3.0/level7/变异.svg",
+    "caption": "biến dị, đột biến"
+  },
+  "标": {
+    "file": "标.svg",
+    "src": "images/HSK_3.0/level7/标.svg",
+    "caption": "tiêu chuẩn; mục tiêu; dấu"
+  },
+  "标榜": {
+    "file": "标榜.svg",
+    "src": "images/HSK_3.0/level7/标榜.svg",
+    "caption": "rêu rao, tự khoe khoang"
+  },
+  "标签": {
+    "file": "标签.svg",
+    "src": "images/HSK_3.0/level7/标签.svg",
+    "caption": "nhãn mác, tem nhãn"
+  },
+  "标识": {
+    "file": "标识.svg",
+    "src": "images/HSK_3.0/level7/标识.svg",
+    "caption": "dấu hiệu nhận biết, biển báo, logo nhận diện"
   }
 };
 

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Representing "比比皆是" (everywhere/abundant) by showing a dense, repetitive pattern of startup teams (people with laptops/ideas) across the frame -->
+  
+  <!-- Group 1: Bottom Left -->
+  <g transform="translate(40, 160)">
+    <circle cx="15" cy="15" r="12" fill="#FFB347"/>
+    <rect x="5" y="30" width="20" height="15" rx="2" fill="#5DADE2"/>
+  </g>
+  
+  <!-- Group 2: Top Left -->
+  <g transform="translate(60, 60)">
+    <circle cx="15" cy="15" r="12" fill="#FFB347"/>
+    <rect x="5" y="30" width="20" height="15" rx="2" fill="#5DADE2"/>
+  </g>
+  
+  <!-- Group 3: Center -->
+  <g transform="translate(110, 100)">
+    <circle cx="15" cy="15" r="12" fill="#FFB347"/>
+    <rect x="5" y="30" width="20" height="15" rx="2" fill="#5DADE2"/>
+  </g>
+  
+  <!-- Group 4: Top Right -->
+  <g transform="translate(160, 50)">
+    <circle cx="15" cy="15" r="12" fill="#FFB347"/>
+    <rect x="5" y="30" width="20" height="15" rx="2" fill="#5DADE2"/>
+  </g>
+  
+  <!-- Group 5: Bottom Right -->
+  <g transform="translate(180, 150)">
+    <circle cx="15" cy="15" r="12" fill="#FFB347"/>
+    <rect x="5" y="30" width="20" height="15" rx="2" fill="#5DADE2"/>
+  </g>
+  
+  <!-- Group 6: Middle Left -->
+  <g transform="translate(20, 100)">
+    <circle cx="15" cy="15" r="12" fill="#FFB347"/>
+    <rect x="5" y="30" width="20" height="15" rx="2" fill="#5DADE2"/>
+  </g>
+  
+  <!-- Group 7: Middle Right -->
+  <g transform="translate(200, 90)">
+    <circle cx="15" cy="15" r="12" fill="#FFB347"/>
+    <rect x="5" y="30" width="20" height="15" rx="2" fill="#5DADE2"/>
+  </g>
+</svg>

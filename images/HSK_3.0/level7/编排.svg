@@ -1,0 +1,60 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Stage floor/platform perspective -->
+    <ellipse cx="0" cy="55" rx="80" ry="22" fill="#252A34" stroke="#3A4252" stroke-width="2"/>
+    
+    <!-- Curtains/Backdrop layout framework -->
+    <path d="M -90 -65 L -90 40 L -75 40 L -75 -50 Z" fill="#2E3544" opacity="0.6"/>
+    <path d="M 90 -65 L 90 40 L 75 40 L 75 -50 Z" fill="#2E3544" opacity="0.6"/>
+
+    <!-- Director's Grid/Score planning layout (representing choreography & arrangement) -->
+    <g opacity="0.8">
+      <!-- Grid lines for arrangement -->
+      <line x1="-55" y1="-30" x2="55" y2="-30" stroke="#4F5D75" stroke-width="1.5" stroke-dasharray="3,3"/>
+      <line x1="-55" y1="-5" x2="55" y2="-5" stroke="#4F5D75" stroke-width="1.5" stroke-dasharray="3,3"/>
+      <line x1="-55" y1="20" x2="55" y2="20" stroke="#4F5D75" stroke-width="1.5" stroke-dasharray="3,3"/>
+      
+      <line x1="-30" y1="-45" x2="-30" y2="35" stroke="#4F5D75" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="0" y1="-45" x2="0" y2="35" stroke="#4F5D75" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="30" y1="-45" x2="30" y2="35" stroke="#4F5D75" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+
+    <!-- Dancer position markers (Choreography/编排 symbols) -->
+    <!-- Dancer 1 (Orange/Gold focus accent) -->
+    <g transform="translate(-25, -5)">
+      <circle cx="0" cy="-12" r="5" fill="#F1C40F"/>
+      <path d="M -6 -5 L 6 -5 L 4 12 L -4 12 Z" fill="#F39C12"/>
+      <!-- Motion lines -->
+      <path d="M -10 -15 C -15 -18 -15 -8 -10 -5" fill="none" stroke="#F1C40F" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Dancer 2 -->
+    <g transform="translate(25, -20)">
+      <circle cx="0" cy="-12" r="5" fill="#3498DB"/>
+      <path d="M -6 -5 L 6 -5 L 8 10 L -2 12 Z" fill="#2980B9"/>
+      <!-- Motion lines -->
+      <path d="M 10 -15 C 16 -18 16 -8 10 -5" fill="none" stroke="#3498DB" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Dancer 3 (Center foreground) -->
+    <g transform="translate(5, 10)">
+      <circle cx="0" cy="-12" r="5" fill="#E74C3C"/>
+      <path d="M -6 -5 L 6 -5 L 3 14 L -3 14 Z" fill="#C0392B"/>
+    </g>
+
+    <!-- Connection / Arrangement arrows (Choreography flow) -->
+    <path d="M -20 -15 Q 0 -35 20 -25" fill="none" stroke="#F1C40F" stroke-width="2" stroke-dasharray="4,3" opacity="0.9"/>
+    <polygon points="18,-28 24,-24 19,-20" fill="#F1C40F"/>
+
+    <path d="M 20 -10 Q 12 15 2 12" fill="none" stroke="#3498DB" stroke-width="2" stroke-dasharray="4,3" opacity="0.9"/>
+    <polygon points="3,15 0,10 6,9" fill="#3498DB"/>
+
+    <!-- Director's baton / planning tool hovering -->
+    <g transform="translate(-45, -35) rotate(-25)">
+      <rect x="0" y="-2" width="35" height="4" rx="2" fill="#ECF0F1"/>
+      <circle cx="0" cy="0" r="4" fill="#E67E22"/>
+    </g>
+  </g>
+</svg>

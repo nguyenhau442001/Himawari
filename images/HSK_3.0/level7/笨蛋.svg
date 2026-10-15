@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Character Head -->
+    <circle cx="60" cy="60" r="45" fill="#3A3F4B"/>
+    <!-- Confused Eyes -->
+    <line x1="40" y1="50" x2="50" y2="60" stroke="#FFB86C" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="60" x2="50" y2="50" stroke="#FFB86C" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="50" x2="80" y2="60" stroke="#FFB86C" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="60" x2="80" y2="50" stroke="#FFB86C" stroke-width="4" stroke-linecap="round"/>
+    <!-- Dazed Mouth -->
+    <circle cx="60" cy="85" r="6" fill="#FFB86C"/>
+    <!-- Dunce Cap -->
+    <path d="M60 15 L90 75 L30 75 Z" fill="#FFB86C"/>
+    <circle cx="60" cy="15" r="8" fill="#E0E0E0"/>
+    <!-- Scratching Head Gesture -->
+    <path d="M95 40 Q110 20 125 40" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <circle cx="125" cy="40" r="5" fill="#E0E0E0"/>
+  </g>
+</svg>

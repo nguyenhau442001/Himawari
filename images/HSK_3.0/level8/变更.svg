@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk surface -->
+  <rect x="40" y="150" width="160" height="10" rx="2" fill="#2D343E"/>
+  
+  <!-- Document on the left (Original) -->
+  <rect x="50" y="90" width="50" height="60" rx="4" fill="#3D4756"/>
+  <rect x="55" y="100" width="40" height="4" rx="2" fill="#5D6B82"/>
+  <rect x="55" y="110" width="30" height="4" rx="2" fill="#5D6B82"/>
+  
+  <!-- Document on the right (Modified) -->
+  <rect x="140" y="90" width="50" height="60" rx="4" fill="#FFB84D"/>
+  <rect x="145" y="100" width="40" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="145" y="110" width="40" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="145" y="120" width="20" height="4" rx="2" fill="#FFFFFF"/>
+  
+  <!-- Character hand interacting -->
+  <path d="M105 120 L135 120" stroke="#FFB84D" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round"/>
+  <path d="M125 110 L135 120 L125 130" stroke="#FFB84D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Stylized hand -->
+  <path d="M110 140 C110 130 115 125 120 125 C125 125 130 130 130 140" fill="#FFB84D"/>
+  <rect x="110" y="140" width="20" height="20" fill="#FFB84D"/>
+  
+  <!-- Motion lines indicating change/transfer -->
+  <g stroke="#5D6B82" stroke-width="2" stroke-linecap="round">
+    <path d="M105 90 Q120 80 135 90"/>
+    <path d="M105 85 Q120 75 135 85"/>
+  </g>
+</svg>

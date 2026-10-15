@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Mountain silhouette -->
+  <path d="M40 200 L120 100 L200 200 Z" fill="#2D343E"/>
+  
+  <!-- Pavilion roof (Traditional Chinese style) -->
+  <path d="M80 120 L120 90 L160 120 Z" fill="#FFB347"/>
+  <path d="M90 120 L120 140 L150 120 Z" fill="#E69A2E"/>
+  
+  <!-- Cooling breeze/air flow lines -->
+  <path d="M70 150 Q90 140 110 150 T150 150" stroke="#81D4FA" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M70 165 Q90 155 110 165 T150 165" stroke="#81D4FA" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Sun (setting/cool) -->
+  <circle cx="190" cy="50" r="20" fill="#FFD54F"/>
+  
+  <!-- Water/Lake surface -->
+  <rect x="0" y="200" width="240" height="40" fill="#1565C0"/>
+  <path d="M0 200 Q60 190 120 200 T240 200" stroke="#42A5F5" stroke-width="2" fill="none"/>
+</svg>
