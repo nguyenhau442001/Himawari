@@ -39386,6 +39386,46 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "格式.svg",
     "src": "images/HSK_3.0/level7/格式.svg",
     "caption": "định dạng, quy cách"
+  },
+  "革新": {
+    "file": "革新.svg",
+    "src": "images/HSK_3.0/level7/革新.svg",
+    "caption": "đổi mới, cách tân, cải tiến"
+  },
+  "格子": {
+    "file": "格子.svg",
+    "src": "images/HSK_3.0/level7/格子.svg",
+    "caption": "ô kẻ, kẻ ô ca rô"
+  },
+  "个案": {
+    "file": "个案.svg",
+    "src": "images/HSK_3.0/level7/个案.svg",
+    "caption": "trường hợp cá biệt, ca riêng lẻ"
+  },
+  "各抒己见": {
+    "file": "各抒己见.svg",
+    "src": "images/HSK_3.0/level7/各抒己见.svg",
+    "caption": "mỗi người bày tỏ ý kiến riêng"
+  },
+  "个头儿": {
+    "file": "个头儿.svg",
+    "src": "images/HSK_3.0/level7/个头儿.svg",
+    "caption": "vóc dáng, tầm vóc, tầm vóc dáng dấp"
+  },
+  "根源": {
+    "file": "根源.svg",
+    "src": "images/HSK_3.0/level7/根源.svg",
+    "caption": "căn nguyên, nguồn cội"
+  },
+  "耕": {
+    "file": "耕.svg",
+    "src": "images/HSK_3.0/level7/耕.svg",
+    "caption": "cày, cày cấy"
+  },
+  "更改": {
+    "file": "更改.svg",
+    "src": "images/HSK_3.0/level7/更改.svg",
+    "caption": "thay đổi"
   }
 };
 

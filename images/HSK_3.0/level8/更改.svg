@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Document/Rule Paper -->
+  <rect x="70" y="60" width="100" height="120" rx="4" fill="#2D343E" stroke="#FFB84D" stroke-width="2"/>
+  <line x1="85" y1="80" x2="155" y2="80" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  <line x1="85" y1="100" x2="155" y2="100" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  <line x1="85" y1="120" x2="130" y2="120" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Hand interacting with the document -->
+  <g>
+    <path d="M140 140 L160 120 L180 140 L160 180 Z" fill="#FFB84D"/>
+    <path d="M150 170 L145 200 L165 200 L170 170" fill="#FFB84D"/>
+  </g>
+  
+  <!-- Motion lines indicating change/editing -->
+  <path d="M150 110 Q165 100 180 110" fill="none" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M150 115 Q165 105 180 115" fill="none" stroke="#FFB84D" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+  
+  <!-- Eraser/Correction action -->
+  <rect x="155" y="110" width="20" height="10" rx="2" fill="#E2E8F0"/>
+  <rect x="155" y="105" width="20" height="5" rx="1" fill="#FF6B6B"/>
+</svg>
