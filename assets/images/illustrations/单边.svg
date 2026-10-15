@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Scale representing "One-sided" (单边) -->
+  <!-- Left side: Heavy, weighted down -->
+  <path d="M60 120 L110 120 L85 180 Z" fill="#F39C12"/>
+  <rect x="75" y="100" width="20" height="20" fill="#F39C12" rx="2"/>
+  
+  <!-- Right side: Empty, elevated -->
+  <path d="M130 120 L180 120 L155 80 Z" fill="#34495E"/>
+  
+  <!-- Balance beam -->
+  <line x1="40" y1="120" x2="200" y2="120" stroke="#BDC3C7" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Fulcrum -->
+  <path d="M120 120 L100 200 L140 200 Z" fill="#7F8C8D"/>
+  
+  <!-- Vertical indicator of imbalance -->
+  <line x1="120" y1="120" x2="120" y2="60" stroke="#E74C3C" stroke-width="3" stroke-dasharray="6 4"/>
+</svg>

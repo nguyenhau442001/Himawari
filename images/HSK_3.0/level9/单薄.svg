@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Wind effect lines -->
+  <path d="M40 80h60M40 120h80M40 160h50" stroke="#4A5568" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+  
+  <!-- Character body (thin/slender) -->
+  <g transform="translate(120, 120)">
+    <!-- Legs -->
+    <line x1="-10" y1="40" x2="-10" y2="80" stroke="#A0AEC0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="10" y1="40" x2="10" y2="80" stroke="#A0AEC0" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Torso (thin garment) -->
+    <path d="M-25 0 L25 0 L20 40 L-20 40 Z" fill="#718096"/>
+    
+    <!-- Arms (hugging self for warmth) -->
+    <path d="M-20 10 L-40 30 L-20 35" stroke="#A0AEC0" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M20 10 L40 30 L20 35" stroke="#A0AEC0" stroke-width="6" stroke-linecap="round" fill="none"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="20" fill="#CBD5E0"/>
+    
+    <!-- Accent: Cold/Shivering lines -->
+    <path d="M-15 -50 L-25 -60 M15 -50 L25 -60" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

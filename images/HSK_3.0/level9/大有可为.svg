@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle Background Grid/glow -->
+  <circle cx="120" cy="110" r="70" fill="#222B38" opacity="0.6"/>
+  <path d="M 60 170 L 180 170" stroke="#2A3444" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Conceptual Object representing "大有可为" (High Potential / Clean Energy Sprout Rising Out of Modern Propeller/Infrastructure) -->
+  <!-- Base structure (Clean Energy Turbine / Pillar) -->
+  <path d="M 112 170 L 128 170 L 125 110 L 115 110 Z" fill="#3B4859"/>
+  <circle cx="120" cy="110" r="8" fill="#4E5D73"/>
+
+  <!-- Wind Turbine Blades pointing dynamically upward and outward (representing expansive potential) -->
+  <g fill="none" stroke="#00E5FF" stroke-width="4" stroke-linecap="round">
+    <!-- Top blade pointing up -->
+    <path d="M 120 102 C 120 70 120 50 120 38"/>
+    <!-- Right blade -->
+    <path d="M 124 114 C 150 125 170 135 185 145"/>
+    <!-- Left blade -->
+    <path d="M 116 114 C 90 125 70 135 55 145"/>
+  </g>
+  
+  <!-- Glowing core / center -->
+  <circle cx="120" cy="110" r="4" fill="#FFFFFF"/>
+
+  <!-- Rising Green Sprout / Energy Leaf symbolizing growth, green future, and immense potential (大有可为) -->
+  <path d="M 120 110 C 120 90 145 75 155 60 C 145 85 130 98 120 110 Z" fill="#00E676"/>
+  <path d="M 120 110 C 120 90 95 75 85 60 C 95 85 110 98 120 110 Z" fill="#00C853" opacity="0.8"/>
+  <path d="M 120 110 L 120 80" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Upward Trajectory / Rising Golden Spark/Star accent representing bright prospects -->
+  <g transform="translate(120, 22)">
+    <path d="M 0 -8 L 2 -2 L 8 0 L 2 2 L 0 8 L -2 2 L -8 0 L -2 -2 Z" fill="#FFC107"/>
+  </g>
+  
+  <g transform="translate(170, 75) scale(0.6)">
+    <path d="M 0 -8 L 2 -2 L 8 0 L 2 2 L 0 8 L -2 2 L -8 0 L -2 -2 Z" fill="#FFC107" opacity="0.7"/>
+  </g>
+
+  <!-- Ground energy circuit line details -->
+  <path d="M 85 170 L 155 170" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="85" cy="170" r="3" fill="#00E5FF"/>
+  <circle cx="155" cy="170" r="3" fill="#00E5FF"/>
+</svg>

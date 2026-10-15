@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Atmospheric background details (subtle mountains representing border defense context) -->
+  <path d="M20 200 L70 140 L110 180 L170 120 L220 200 Z" fill="#222733"/>
+  
+  <!-- Central Physical Object: A sturdy military backpack/rucksack with a subtle shield/emblem motif, representing "gánh vác" (bearing responsibility/mission) -->
+  <g transform="translate(0, 5)">
+    <!-- Straps hanging down -->
+    <path d="M85 80 C85 70 95 65 105 70 L105 130 C95 135 85 130 85 120 Z" fill="#2E3648"/>
+    <path d="M155 80 C155 70 145 65 135 70 L135 130 C145 135 155 130 155 120 Z" fill="#2E3648"/>
+    
+    <!-- Main Backpack Body -->
+    <rect x="80" y="70" width="80" height="115" rx="16" fill="#3B4459"/>
+    
+    <!-- Top Flap / Lid -->
+    <path d="M80 86 C80 77 87 70 96 70 L144 70 C153 70 160 77 160 86 L160 100 L80 100 Z" fill="#4A5568"/>
+    
+    <!-- Accent Straps / Buckles on Top -->
+    <rect x="98" y="65" width="8" height="15" rx="3" fill="#D97706"/>
+    <rect x="134" y="65" width="8" height="15" rx="3" fill="#D97706"/>
+    
+    <!-- Front Pocket -->
+    <rect x="95" y="115" width="50" height="55" rx="10" fill="#2E3648"/>
+    
+    <!-- Focus Symbol: Gold emblem of duty/mission (shield outline) mounted firmly on the pack -->
+    <path d="M120 128 L135 136 L135 150 C135 158 128 164 120 167 C112 164 105 158 105 150 L105 136 Z" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M114 148 L119 153 L127 143" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Side pockets / gear loops -->
+    <rect x="70" y="105" width="10" height="35" rx="5" fill="#2E3648"/>
+    <rect x="160" y="105" width="10" height="35" rx="5" fill="#2E3648"/>
+  </g>
+</svg>

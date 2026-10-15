@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/surface -->
+  <circle cx="120" cy="120" r="80" fill="#222732" opacity="0.6"/>
+
+  <!-- Conceptual Representation of "当真" (Cois là thật / Taking something seriously as reality) -->
+  <!-- We visualize a speech bubble (joke/words) transforming or locking firmly into a solid, heavy, undeniable physical anchor/seal of reality -->
+  
+  <g transform="translate(0, 0)">
+    <!-- Floating airy speech bubble elements fading away (the "joke" aspect) -->
+    <path d="M 65 75 Q 65 65 75 65 L 95 65 Q 105 65 105 75 L 105 85 Q 105 95 95 95 L 80 95 L 68 103 L 72 95 Q 65 95 65 85 Z" fill="#2E3646" opacity="0.6"/>
+    <circle cx="50" cy="60" r="4" fill="#3A4456" opacity="0.5"/>
+    <circle cx="40" cy="72" r="3" fill="#3A4456" opacity="0.4"/>
+
+    <!-- Main Central Object: A heavy, golden official wax seal / stamp / solid anchor representing "Taking it seriously / Treating as absolute truth" -->
+    
+    <!-- Seal Handle / Stem -->
+    <rect x="106" y="95" width="28" height="35" rx="4" fill="#D4AF37"/>
+    <ellipse cx="120" cy="95" rx="14" ry="4" fill="#F1C40F"/>
+    
+    <!-- Seal Top Ring -->
+    <circle cx="120" cy="80" r="9" fill="none" stroke="#D4AF37" stroke-width="5"/>
+
+    <!-- Seal Base (The heavy stamp part) -->
+    <path d="M 90 130 L 150 130 L 162 150 C 162 153 159 156 155 156 L 85 156 C 81 156 78 153 78 150 Z" fill="#E5C158"/>
+    <path d="M 85 156 L 155 156 L 158 160 C 158 162 156 164 153 164 L 87 164 C 84 164 82 162 82 160 Z" fill="#C99700"/>
+
+    <!-- Imprint / Impact Shockwaves (Showing the weight and seriousness of "taking it as truth") -->
+    <path d="M 60 178 Q 120 188 180 178" fill="none" stroke="#F39C12" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 75 192 Q 120 198 165 192" fill="none" stroke="#F39C12" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Solid Checkmark / Truth Symbol firmly embedded on the stamp face -->
+    <path d="M 106 144 L 115 153 L 135 133" fill="none" stroke="#1A1D24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

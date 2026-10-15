@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle glow/atmosphere -->
+  <circle cx="120" cy="120" r="80" fill="#2A303C" opacity="0.4"/>
+
+  <g id="dan-yoke-vegetables" transform="translate(0, 5)">
+    <!-- Bamboo Yoke (Shoulder Pole) -->
+    <!-- Curved flexible pole -->
+    <path d="M 60 95 Q 120 75 180 95" fill="none" stroke="#D4A373" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Highlight on pole -->
+    <path d="M 75 91 Q 120 73 165 91" fill="none" stroke="#FAEDCD" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Left Hanging Assembly -->
+    <!-- Ropes/Cords -->
+    <line x1="68" y1="92" x2="52" y2="128" stroke="#A39171" stroke-width="1.5"/>
+    <line x1="78" y1="94" x2="88" y2="128" stroke="#A39171" stroke-width="1.5"/>
+    
+    <!-- Left Basket (Woven texture and vegetables) -->
+    <path d="M 45 125 L 55 170 C 55 174, 85 174, 85 170 L 95 125 Z" fill="#C8963E"/>
+    <path d="M 47 125 C 47 121, 83 121, 83 125 C 83 129, 47 129, 47 125" fill="#E6AF5C"/>
+    <!-- Basket weave lines -->
+    <path d="M 52 135 L 80 135 M 50 145 L 82 145 M 48 155 L 84 155" stroke="#A67B2E" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Vegetables overflowing from left basket (Fresh greens/radishes) -->
+    <circle cx="60" cy="115" r="14" fill="#52B788"/>
+    <circle cx="75" cy="118" r="12" fill="#40916C"/>
+    <circle cx="67" cy="108" r="13" fill="#74C69D"/>
+    <!-- Leaf details -->
+    <path d="M 50 115 Q 40 105 52 100" fill="none" stroke="#2D6A4F" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 80 115 Q 90 105 78 98" fill="none" stroke="#2D6A4F" stroke-width="2" stroke-linecap="round"/>
+
+
+    <!-- Right Hanging Assembly -->
+    <!-- Ropes/Cords -->
+    <line x1="162" y1="92" x2="152" y2="128" stroke="#A39171" stroke-width="1.5"/>
+    <line x1="172" y1="94" x2="188" y2="128" stroke="#A39171" stroke-width="1.5"/>
+
+    <!-- Right Basket -->
+    <path d="M 145 125 L 155 170 C 155 174, 185 174, 185 170 L 195 125 Z" fill="#C8963E"/>
+    <path d="M 147 125 C 147 121, 183 121, 183 125 C 183 129, 147 129, 147 125" fill="#E6AF5C"/>
+    <!-- Basket weave lines -->
+    <path d="M 152 135 L 180 135 M 150 145 L 182 145 M 148 155 L 184 155" stroke="#A67B2E" stroke-width="1" opacity="0.5"/>
+
+    <!-- Vegetables overflowing from right basket -->
+    <circle cx="165" cy="115" r="15" fill="#52B788"/>
+    <circle cx="180" cy="118" r="11" fill="#40916C"/>
+    <circle cx="170" cy="106" r="13" fill="#74C69D"/>
+    <!-- Leaf details -->
+    <path d="M 155 112 Q 145 102 158 98" fill="none" stroke="#2D6A4F" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 185 115 Q 195 105 180 98" fill="none" stroke="#2D6A4F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central shoulder/neck contact point emphasis (Focus Accent: Gold/Orange) -->
+  <circle cx="120" cy="85" r="5" fill="#E76F51"/>
+  <!-- Focus rings indicating weight/load balance -->
+  <circle cx="120" cy="85" r="10" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="120" cy="85" r="16" fill="none" stroke="#E76F51" stroke-width="1" opacity="0.3"/>
+
+  <!-- Ground shadow / baseline -->
+  <ellipse cx="120" cy="200" rx="70" ry="6" fill="#111318"/>
+</svg>

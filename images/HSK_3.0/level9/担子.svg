@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow representing the weight/burden context -->
+  <circle cx="120" cy="120" r="80" fill="#252A35" opacity="0.6"/>
+
+  <!-- Graphic Elements Group (Quang gánh / Dànzi - Balanced shoulder pole with loads) -->
+  <g transform="translate(0, 5)">
+    <!-- Bamboo Pole (Bending slightly under the heavy loads to show weight) -->
+    <path d="M 50,85 Q 120,70 190,85" fill="none" stroke="#D4A373" stroke-width="5" stroke-linecap="round"/>
+    <!-- Pole highlight -->
+    <path d="M 65,82 Q 120,69 175,82" fill="none" stroke="#FAEDCD" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Left Ropes & Load (representing family/responsibility) -->
+    <path d="M 55,83 L 50,135" fill="none" stroke="#8D99AE" stroke-width="2"/>
+    <path d="M 53,83 L 58,135" fill="none" stroke="#8D99AE" stroke-width="2"/>
+    <!-- Left Basket / Bundle -->
+    <path d="M 35,135 L 70,135 L 65,175 C 65,178 62,180 52,180 C 43,180 40,178 40,175 Z" fill="#E07A5F"/>
+    <!-- Basket texture/ribs -->
+    <path d="M 40,145 L 65,145 M 38,155 L 67,155 M 36,165 L 69,165" fill="none" stroke="#D1493B" stroke-width="1.5" opacity="0.6"/>
+    <!-- Contents spilling slightly or bundled securely -->
+    <ellipse cx="52.5" cy="135" rx="17.5" ry="5" fill="#F4A261"/>
+
+    <!-- Right Ropes & Load (representing family/responsibility) -->
+    <path d="M 185,83 L 182,135" fill="none" stroke="#8D99AE" stroke-width="2"/>
+    <path d="M 183,83 L 188,135" fill="none" stroke="#8D99AE" stroke-width="2"/>
+    <!-- Right Basket / Bundle -->
+    <path d="M 170,135 L 205,135 L 200,175 C 200,178 197,180 187,180 C 178,180 175,178 175,175 Z" fill="#E07A5F"/>
+    <!-- Basket texture/ribs -->
+    <path d="M 175,145 L 200,145 M 173,155 L 202,155 M 171,165 L 204,165" fill="none" stroke="#D1493B" stroke-width="1.5" opacity="0.6"/>
+    <!-- Contents -->
+    <ellipse cx="187.5" cy="135" rx="17.5" ry="5" fill="#F4A261"/>
+
+    <!-- Center Shoulder Rest / Fulcrum Indicator (Abstracted human shoulder interaction point) -->
+    <!-- Shoulders/Torso silhouette underneath to anchor the physical meaning -->
+    <path d="M 90,120 C 90,105 105,95 120,95 C 135,95 150,105 150,120 L 155,195 L 85,195 Z" fill="#2B313F"/>
+    
+    <!-- Neck and Head Silhouette -->
+    <circle cx="120" cy="80" r="14" fill="#3A4252"/>
+    <path d="M 110,94 L 130,94 L 135,115 L 105,115 Z" fill="#3A4252"/>
+
+    <!-- Center connection rope/cloth over shoulder -->
+    <path d="M 115,77 L 120,87 L 125,77" fill="none" stroke="#E9C46A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 120,87 L 120,78" fill="none" stroke="#E9C46A" stroke-width="3"/>
+
+    <!-- Accent glow highlighting the load bearing point (Shoulder/Pole contact) -->
+    <circle cx="120" cy="76" r="6" fill="#F4A261" opacity="0.8"/>
+  </g>
+</svg>
