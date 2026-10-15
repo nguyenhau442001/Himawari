@@ -1,0 +1,55 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background Stage Atmosphere / Stage Lights -->
+  <path d="M 40 40 L 90 190 L 150 190 L 100 40 Z" fill="#2D3748" opacity="0.3"/>
+  <path d="M 200 40 L 150 190 L 90 190 L 140 40 Z" fill="#2D3748" opacity="0.3"/>
+  <circle cx="120" cy="50" r="70" fill="#3182CE" opacity="0.1"/>
+
+  <!-- Semantic Illustration: "此起彼伏" (Waves of overlapping applause/cheers/action) -->
+  <!-- Represented as overlapping, rhythmic wave pulses (sound/cheers coming in continuous waves, one after another) -->
+  
+  <!-- Wave Layer 1 (Back / Faintest) -->
+  <path d="M 30 150 Q 75 110 120 150 Q 165 190 210 150" fill="none" stroke="#4A5568" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  
+  <!-- Wave Layer 2 (Middle) -->
+  <path d="M 30 130 Q 75 80 120 130 Q 165 180 210 130" fill="none" stroke="#ED8936" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Wave Layer 3 (Foreground / Primary focus - Vibrant & Rhythmic) -->
+  <path d="M 30 110 Q 75 50 120 110 Q 165 170 210 110" fill="none" stroke="#F6AD55" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Sound / Cheering Sonic Bursts (Visualizing "此起" - rising, "彼伏" - falling repeatedly) -->
+  <!-- Burst 1 (Left Peak) -->
+  <g transform="translate(75, 75)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#ECC94B" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="0" cy="0" r="6" fill="#ECC94B"/>
+    <!-- Sound Waves Rising -->
+    <path d="M -12 -12 L -18 -18" stroke="#ECC94B" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 12 -12 L 18 -18" stroke="#ECC94B" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Burst 2 (Right Peak - staggered height to show continuous succession) -->
+  <g transform="translate(165, 115)">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#ED8936" stroke-width="2" opacity="0.8"/>
+    <circle cx="0" cy="0" r="4.5" fill="#ED8936"/>
+    <!-- Sound Waves Rising -->
+    <path d="M -10 -10 L -15 -15" stroke="#ED8936" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 10 -10 L 15 -15" stroke="#ED8936" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Burst 3 (Center Foreground Peak) -->
+  <g transform="translate(120, 60)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#F6AD55" stroke-width="3" opacity="0.9"/>
+    <circle cx="0" cy="0" r="8" fill="#F6AD55"/>
+    <path d="M -15 -15 L -22 -22" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 15 -15 L 22 -22" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 0 -20 L 0 -28" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground Line / Stage Floor -->
+  <line x1="30" y1="195" x2="210" y2="195" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="195" r="3" fill="#E2E8F0"/>
+  <circle cx="75" cy="195" r="2" fill="#A0AEC0"/>
+  <circle cx="165" cy="195" r="2" fill="#A0AEC0"/>
+</svg>

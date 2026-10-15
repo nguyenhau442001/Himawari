@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Floor/ground line -->
+  <line x1="30" y1="185" x2="210" y2="185" stroke="#2D333B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- House / Doorway Context representing '门' (Door) -->
+  <!-- Left House Interior -->
+  <path d="M40 185 L40 100 L90 70 L140 100 L140 185 Z" fill="#222730" stroke="#323842" stroke-width="2"/>
+  
+  <!-- Warm welcoming light spilling from the open doorway -->
+  <path d="M120 185 L120 115 L155 130 L155 185 Z" fill="#F59E0B" opacity="0.15"/>
+
+  <!-- Open Door -->
+  <path d="M120 185 L120 115 L145 125 L145 185 Z" fill="#2E3642" stroke="#485263" stroke-width="2"/>
+  <circle cx="139" cy="153" r="2.5" fill="#F59E0B"/>
+
+  <!-- Host (Inside the doorway, welcoming) -->
+  <circle cx="105" cy="120" r="12" fill="#E6EDF3"/> <!-- Head -->
+  <path d="M93 145 C93 133 117 133 117 145 L117 185 L93 185 Z" fill="#388BFd"/> <!-- Body -->
+  <!-- Friendly welcoming arm gesture -->
+  <path d="M100 138 Q115 130 120 142" stroke="#E6EDF3" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Guest (Stepping across the threshold, '串门' - visiting neighbor) -->
+  <!-- Guest Body & Motion -->
+  <g transform="translate(15, 0)">
+    <!-- Head -->
+    <circle cx="75" cy="115" r="12" fill="#E6EDF3"/>
+    <!-- Body in warm casual jacket -->
+    <path d="M63 140 C63 128 87 128 87 140 L87 185 L63 185 Z" fill="#F59E0B"/>
+    <!-- Legs walking forward -->
+    <line x1="70" y1="185" x2="60" y2="165" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+    <line x1="80" y1="185" x2="90" y2="170" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+    <!-- Greeting waving arm -->
+    <path d="M80 135 Q95 125 90 110" stroke="#E6EDF3" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Small welcoming elements (indoor plant/homely touch) -->
+  <rect x="48" y="165" width="16" height="20" rx="3" fill="#485263"/>
+  <circle cx="56" cy="160" r="10" fill="#238636"/>
+
+  <!-- Subtle floor shadow under visitor -->
+  <ellipse cx="90" cy="185" rx="18" ry="4" fill="#111318"/>
+</svg>

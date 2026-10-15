@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements for depth -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.5"/>
+
+  <!-- Conceptual illustration: A physical mallet/hammer (chuí - vật thể/đấm đập) -->
+  <g transform="translate(120, 120)">
+    <!-- Motion lines indicating action/impact -->
+    <path d="M-65 -45 L-45 -25" stroke="#FFA726" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-75 -15 L-50 -15" stroke="#FFA726" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Wooden Handle -->
+    <path d="M-15 15 L55 -55" stroke="#8D6E63" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-15 15 L55 -55" stroke="#A1887F" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Mallet Head (Wooden/Heavy cylindrical hammer) -->
+    <g transform="rotate(-45)">
+      <!-- Shadow for depth -->
+      <rect x="-35" y="-55" width="70" height="40" rx="8" fill="#D84315"/>
+      <!-- Main Head -->
+      <rect x="-35" y="-60" width="70" height="40" rx="8" fill="#FF5722"/>
+      <!-- Highlight -->
+      <rect x="-30" y="-55" width="60" height="8" rx="4" fill="#FF8A65"/>
+      <!-- End caps -->
+      <ellipse cx="-35" cy="-40" rx="5" ry="20" fill="#E64A19"/>
+      <ellipse cx="35" cy="-40" rx="5" ry="20" fill="#BF360C"/>
+    </g>
+
+    <!-- Impact spark/effect at striking point -->
+    <circle cx="-55" cy="-5" r="6" fill="#FFD54F"/>
+    <path d="M-70 -5 L-85 -5" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-55 -20 L-55 -35" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

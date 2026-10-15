@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative speech bubbles (fading out) representing rumors spreading -->
+  <path d="M40 70 C40 60 50 50 65 50 H95 C110 50 120 60 120 70 C120 80 110 90 95 90 H80 L65 105 V90 H65 C50 90 40 80 40 70 Z" fill="#2A303C" opacity="0.4"/>
+  <path d="M140 130 C140 120 150 110 165 110 H195 C210 110 220 120 220 130 C220 140 210 150 195 150 H180 L165 165 V150 H165 C150 150 140 140 140 130 Z" fill="#2A303C" opacity="0.3"/>
+
+  <!-- Dynamic Motion Lines for Action (Whispering / Passing Words) -->
+  <path d="M 95 115 Q 110 100 125 115" fill="none" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M 90 125 Q 110 105 130 125" fill="none" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 85 135 Q 110 110 135 135" fill="none" stroke="#F39C12" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Character 1 (Left - Speaker) -->
+  <g transform="translate(10, 0)">
+    <!-- Body -->
+    <path d="M50 190 C50 165 65 150 80 150 C95 150 110 165 110 190 Z" fill="#34495E"/>
+    <!-- Head -->
+    <circle cx="80" cy="125" r="18" fill="#E0E6ED"/>
+    <!-- Hair -->
+    <path d="M62 125 C62 112 70 105 80 105 C90 105 98 112 98 123 C94 121 86 117 80 117 C70 117 65 122 62 125 Z" fill="#4E5D6C"/>
+    <!-- Mouth leaning forward (whispering) -->
+    <path d="M93 128 Q98 128 96 132" fill="none" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2 (Right - Receiver / Repeater) -->
+  <g transform="translate(120, 0)">
+    <!-- Body -->
+    <path d="M50 190 C50 165 65 150 80 150 C95 150 110 165 110 190 Z" fill="#2C3E50"/>
+    <!-- Head -->
+    <circle cx="80" cy="125" r="18" fill="#BDC3C7"/>
+    <!-- Hair -->
+    <path d="M62 123 C62 112 70 105 80 105 C95 105 98 115 98 125 C92 122 86 117 78 117 C70 117 65 120 62 123 Z" fill="#34495E"/>
+  </g>
+
+  <!-- Main Central Speech Bubble (The "Rumor" being passed) -->
+  <g transform="translate(85, 60)">
+    <path d="M 0 15 C 0 5 10 0 25 0 H 45 C 60 0 70 5 70 15 C 70 25 60 30 45 30 H 35 L 20 45 V 30 H 25 C 10 30 0 25 0 15 Z" fill="#F39C12"/>
+    <!-- Abstract wave lines inside bubble indicating unverified chatter -->
+    <path d="M 16 15 H 54" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 22 22 H 48" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

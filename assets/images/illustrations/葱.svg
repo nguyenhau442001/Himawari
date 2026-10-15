@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Shadow/Glow effect for the spring onion -->
+  <ellipse cx="120" cy="195" rx="24" ry="6" fill="#0E1015" opacity="0.6"/>
+
+  <!-- Green Scallion / Spring Onion (葱) Illustration -->
+  <g transform="translate(120, 120) rotate(-35) translate(-120, -120)">
+    <!-- Roots -->
+    <path d="M106 192 L100 202 M112 194 L110 206 M118 193 L122 205 M125 190 L130 201" 
+          stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- White Bulb Base -->
+    <path d="M104 165 C104 165, 96 182, 110 192 C124 182, 116 165, 116 165 Z" fill="#F1F5F9"/>
+    <path d="M110 165 C110 165, 102 180, 110 190 C118 180, 110 165, 110 165 Z" fill="#CBD5E1"/>
+
+    <!-- Stalk / White-to-Green Transition -->
+    <path d="M105 130 L104 165 L116 165 L115 130 Z" fill="#E2E8F0"/>
+    
+    <!-- Leaves / Green Tubes (Layered for depth) -->
+    <!-- Back Leaf -->
+    <path d="M109 130 C109 130, 95 80, 100 45 C102 30, 105 25, 108 25 C111 25, 114 30, 116 45 C121 80, 111 130, 111 130 Z" fill="#10B981"/>
+    
+    <!-- Center Leaf (Main Highlight) -->
+    <path d="M105 130 C105 130, 85 70, 92 35 C94 20, 98 15, 102 15 C106 15, 108 22, 110 40 C114 75, 109 130, 109 130 Z" fill="#34D399"/>
+    
+    <!-- Front Leaf -->
+    <path d="M113 130 C113 130, 125 75, 118 40 C116 25, 113 18, 109 18 C105 18, 102 26, 100 45 C95 80, 111 130, 111 130 Z" fill="#059669"/>
+    
+    <!-- Leaf Highlights (Glossy lines) -->
+    <path d="M104 50 C103 70, 107 100, 108 120" stroke="#6EE7B7" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Floating fresh seasoning accents (subtle culinary context) -->
+  <circle cx="65" cy="85" r="3" fill="#34D399" opacity="0.6"/>
+  <circle cx="175" cy="145" r="2.5" fill="#34D399" opacity="0.4"/>
+  <circle cx="160" cy="70" r="2" fill="#10B981" opacity="0.5"/>
+</svg>

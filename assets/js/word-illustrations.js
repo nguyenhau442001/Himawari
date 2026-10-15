@@ -36687,6 +36687,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/橱窗.svg",
     "caption": "tủ kính trưng bày"
   },
+  "除去": {
+    "file": "除去.svg",
+    "src": "images/HSK_3.0/level7/除去.svg",
+    "caption": "loại bỏ, trừ bỏ"
+  },
   "除外": {
     "file": "除外.svg",
     "src": "images/HSK_3.0/level7/除外.svg",
@@ -36716,6 +36721,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "触觉.svg",
     "src": "images/HSK_3.0/level7/触觉.svg",
     "caption": "xúc giác"
+  },
+  "矗立": {
+    "file": "矗立.svg",
+    "src": "images/HSK_3.0/level7/矗立.svg",
+    "caption": "đứng sừng sững, sừng sững"
+  },
+  "触摸": {
+    "file": "触摸.svg",
+    "src": "images/HSK_3.0/level7/触摸.svg",
+    "caption": "chạm vào, sờ"
+  },
+  "触目惊心": {
+    "file": "触目惊心.svg",
+    "src": "images/HSK_3.0/level7/触目惊心.svg",
+    "caption": "kinh tâm động phách, rùng mình khi thấy"
+  },
+  "揣": {
+    "file": "揣.svg",
+    "src": "images/HSK_3.0/level7/揣.svg",
+    "caption": "nhét vào túi, giắt vào lòng"
+  },
+  "揣测": {
+    "file": "揣测.svg",
+    "src": "images/HSK_3.0/level7/揣测.svg",
+    "caption": "suy đoán, phỏng đoán"
+  },
+  "穿梭": {
+    "file": "穿梭.svg",
+    "src": "images/HSK_3.0/level7/穿梭.svg",
+    "caption": "đi lại như thoi đưa, luồn lách"
+  },
+  "穿着": {
+    "file": "穿着.svg",
+    "src": "images/HSK_3.0/level7/穿着.svg",
+    "caption": "cách ăn mặc, trang phục"
+  },
+  "传媒": {
+    "file": "传媒.svg",
+    "src": "images/HSK_3.0/level7/传媒.svg",
+    "caption": "truyền thông"
+  },
+  "传奇": {
+    "file": "传奇.svg",
+    "src": "images/HSK_3.0/level7/传奇.svg",
+    "caption": "huyền thoại, truyền kỳ"
+  },
+  "传人": {
+    "file": "传人.svg",
+    "src": "images/HSK_3.0/level7/传人.svg",
+    "caption": "người truyền thừa, truyền nhân"
+  },
+  "传闻": {
+    "file": "传闻.svg",
+    "src": "images/HSK_3.0/level7/传闻.svg",
+    "caption": "tin đồn, lời đồn"
+  },
+  "传言": {
+    "file": "传言.svg",
+    "src": "images/HSK_3.0/level7/传言.svg",
+    "caption": "tin đồn, lời đồn"
+  },
+  "喘": {
+    "file": "喘.svg",
+    "src": "images/HSK_3.0/level7/喘.svg",
+    "caption": "thở dốc, thở hổn hển"
+  },
+  "喘息": {
+    "file": "喘息.svg",
+    "src": "images/HSK_3.0/level7/喘息.svg",
+    "caption": "thở dốc, tạm nghỉ ngơi"
+  },
+  "串门": {
+    "file": "串门.svg",
+    "src": "images/HSK_3.0/level7/串门.svg",
+    "caption": "sang chơi nhà, ghé chơi"
+  },
+  "创伤": {
+    "file": "创伤.svg",
+    "src": "images/HSK_3.0/level7/创伤.svg",
+    "caption": "thương tổn, vết thương lòng"
+  },
+  "床位": {
+    "file": "床位.svg",
+    "src": "images/HSK_3.0/level7/床位.svg",
+    "caption": "giường bệnh, chỗ nằm"
+  },
+  "创": {
+    "file": "创.svg",
+    "src": "images/HSK_3.0/level7/创.svg",
+    "caption": "lập nên, tạo dựng, đạt mức"
+  },
+  "创始人": {
+    "file": "创始人.svg",
+    "src": "images/HSK_3.0/level7/创始人.svg",
+    "caption": "người sáng lập"
+  },
+  "炊烟": {
+    "file": "炊烟.svg",
+    "src": "images/HSK_3.0/level7/炊烟.svg",
+    "caption": "khói bếp"
+  },
+  "垂": {
+    "file": "垂.svg",
+    "src": "images/HSK_3.0/level7/垂.svg",
+    "caption": "rủ xuống, buông xuống"
+  },
+  "捶": {
+    "file": "捶.svg",
+    "src": "images/HSK_3.0/level7/捶.svg",
+    "caption": "đấm, đập"
+  },
+  "垂头丧气": {
+    "file": "垂头丧气.svg",
+    "src": "images/HSK_3.0/level7/垂头丧气.svg",
+    "caption": "ủ rũ cúi đầu, chán chường"
+  },
+  "醇厚": {
+    "file": "醇厚.svg",
+    "src": "images/HSK_3.0/level7/醇厚.svg",
+    "caption": "nồng đượm, đậm đà, đôn hậu"
+  },
+  "纯朴": {
+    "file": "纯朴.svg",
+    "src": "images/HSK_3.0/level7/纯朴.svg",
+    "caption": "thuần phác, chất phác"
+  },
+  "淳朴": {
+    "file": "淳朴.svg",
+    "src": "images/HSK_3.0/level7/淳朴.svg",
+    "caption": "chất phác, mộc mạc"
+  },
+  "蠢": {
+    "file": "蠢.svg",
+    "src": "images/HSK_3.0/level7/蠢.svg",
+    "caption": "ngốc nghếch, ngu xuẩn"
+  },
+  "戳": {
+    "file": "戳.svg",
+    "src": "images/HSK_3.0/level7/戳.svg",
+    "caption": "chọc, đâm, con dấu"
+  },
+  "绰号": {
+    "file": "绰号.svg",
+    "src": "images/HSK_3.0/level7/绰号.svg",
+    "caption": "biệt danh, tên thân mật"
+  },
+  "辞": {
+    "file": "辞.svg",
+    "src": "images/HSK_3.0/level7/辞.svg",
+    "caption": "từ chức, từ chối, từ biệt"
+  },
+  "辞呈": {
+    "file": "辞呈.svg",
+    "src": "images/HSK_3.0/level7/辞呈.svg",
+    "caption": "đơn từ chức"
+  },
+  "辞典": {
+    "file": "辞典.svg",
+    "src": "images/HSK_3.0/level7/辞典.svg",
+    "caption": "từ điển"
+  },
+  "慈善": {
+    "file": "慈善.svg",
+    "src": "images/HSK_3.0/level7/慈善.svg",
+    "caption": "từ thiện"
+  },
+  "磁铁": {
+    "file": "磁铁.svg",
+    "src": "images/HSK_3.0/level7/磁铁.svg",
+    "caption": "nam châm"
+  },
+  "辞退": {
+    "file": "辞退.svg",
+    "src": "images/HSK_3.0/level7/辞退.svg",
+    "caption": "sa thải, cho thôi việc"
+  },
+  "雌性": {
+    "file": "雌性.svg",
+    "src": "images/HSK_3.0/level7/雌性.svg",
+    "caption": "giống cái, giống mái"
+  },
+  "此起彼伏": {
+    "file": "此起彼伏.svg",
+    "src": "images/HSK_3.0/level7/此起彼伏.svg",
+    "caption": "dồn dập không dứt, hết đợt này đến đợt khác"
+  },
+  "此致": {
+    "file": "此致.svg",
+    "src": "images/HSK_3.0/level7/此致.svg",
+    "caption": "kính thư, trân trọng"
+  },
+  "赐": {
+    "file": "赐.svg",
+    "src": "images/HSK_3.0/level7/赐.svg",
+    "caption": "ban cho, ban thưởng"
+  },
+  "刺耳": {
+    "file": "刺耳.svg",
+    "src": "images/HSK_3.0/level7/刺耳.svg",
+    "caption": "chói tai, khó nghe"
+  },
+  "刺骨": {
+    "file": "刺骨.svg",
+    "src": "images/HSK_3.0/level7/刺骨.svg",
+    "caption": "thấu xương, buốt xương"
+  },
+  "赐教": {
+    "file": "赐教.svg",
+    "src": "images/HSK_3.0/level7/赐教.svg",
+    "caption": "chỉ giáo, chỉ bảo"
+  },
+  "次日": {
+    "file": "次日.svg",
+    "src": "images/HSK_3.0/level7/次日.svg",
+    "caption": "ngày hôm sau, hôm sau"
+  },
+  "刺绣": {
+    "file": "刺绣.svg",
+    "src": "images/HSK_3.0/level7/刺绣.svg",
+    "caption": "thêu thùa, tranh thêu"
+  },
+  "刺眼": {
+    "file": "刺眼.svg",
+    "src": "images/HSK_3.0/level7/刺眼.svg",
+    "caption": "chói mắt, lóa mắt"
+  },
+  "葱": {
+    "file": "葱.svg",
+    "src": "images/HSK_3.0/level7/葱.svg",
+    "caption": "hành lá, cây hành"
+  },
+  "丛": {
+    "file": "丛.svg",
+    "src": "images/HSK_3.0/level7/丛.svg",
+    "caption": "bụi, lùm, cụm"
+  },
+  "丛林": {
+    "file": "丛林.svg",
+    "src": "images/HSK_3.0/level7/丛林.svg",
+    "caption": "rừng rậm"
+  },
+  "从容": {
+    "file": "从容.svg",
+    "src": "images/HSK_3.0/level7/从容.svg",
+    "caption": "điềm tĩnh, ung dung"
   }
 };
 

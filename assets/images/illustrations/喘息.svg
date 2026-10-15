@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background terrain hint: steep slope contour -->
+  <path d="M 20 200 L 120 150 L 220 190 L 220 220 L 20 220 Z" fill="#222730" opacity="0.6"/>
+
+  <!-- Character / Person representing "喘息" (gasping for breath after exertion) -->
+  <g transform="translate(0, 0)">
+    <!-- Body bent forward slightly (exhaustion posture) -->
+    <!-- Torso -->
+    <path d="M 105 130 C 100 110, 110 90, 125 85 C 140 80, 150 95, 145 115 L 135 150 Z" fill="#3B82F6"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="70" r="16" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M 106 68 C 105 55, 120 50, 134 58 C 132 62, 128 65, 128 65 Z" fill="#1E293B"/>
+
+    <!-- Open mouth (panting / há to miệng thở dốc) -->
+    <path d="M 128 73 C 130 73, 132 75, 130 77 C 128 79, 126 77, 128 73 Z" fill="#EF4444"/>
+
+    <!-- Closed eyes showing fatigue -->
+    <path d="M 113 67 L 119 69" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 121 69 L 127 67" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Arms resting on knees / bent -->
+    <!-- Upper arms -->
+    <path d="M 125 90 L 155 115" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Forearms -->
+    <path d="M 155 115 L 140 145" stroke="#FBBF24" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Legs -->
+    <path d="M 125 150 L 115 195 L 100 205" stroke="#1D4ED8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 135 150 L 145 195 L 160 200" stroke="#1D4ED8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Visual indicators of heavy breathing / panting (Airflow / Exhalation Waves) -->
+  <g transform="translate(145, 62)">
+    <!-- Wave 1 -->
+    <path d="M 0 0 C 10 -4, 15 -4, 22 0" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <!-- Wave 2 -->
+    <path d="M 6 8 C 14 4, 18 4, 28 8" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+    <!-- Wave 3 -->
+    <path d="M 2 16 C 10 12, 16 12, 24 16" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Sweat drops (symbolizing exertion and taking a break) -->
+  <path d="M 102 60 C 102 57, 105 54, 105 52 C 105 52, 108 57, 108 60 C 108 62, 106 63, 105 63 C 104 63, 102 62, 102 60 Z" fill="#38BDF8"/>
+  <path d="M 138 68 C 138 66, 140 63, 140 61 C 140 61, 142 65, 142 68 C 142 69, 141 70, 140 70 C 139 70, 138 69, 138 68 Z" fill="#38BDF8"/>
+
+</svg>

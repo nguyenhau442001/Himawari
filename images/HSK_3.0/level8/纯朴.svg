@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M40 190 L200 190" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Character: A rural person representing "纯朴" -->
+  <!-- Body/Clothing -->
+  <path d="M120 188 L120 140" stroke="#E2E8F0" stroke-width="20" stroke-linecap="round"/>
+  <path d="M90 150 L150 150" stroke="#E2E8F0" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="115" r="20" fill="#FBD38D"/>
+  
+  <!-- Simple Hat (Straw hat style) -->
+  <path d="M95 105 L145 105" stroke="#D69E2E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M105 105 L120 90 L135 105" fill="#D69E2E"/>
+  
+  <!-- Facial expression: Warm smile -->
+  <path d="M112 120 Q120 125 128 120" stroke="#2D3748" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hands holding a simple wooden bowl/offering (symbolizing honest, simple life) -->
+  <path d="M105 155 L135 155" stroke="#FBD38D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M110 155 L130 155 L125 165 L115 165 Z" fill="#D69E2E"/>
+  
+  <!-- Simple nature element: A small sprout -->
+  <path d="M120 155 L120 145" stroke="#68D391" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 148 Q125 143 125 140" stroke="#68D391" stroke-width="2" fill="none"/>
+  <path d="M120 148 Q115 143 115 140" stroke="#68D391" stroke-width="2" fill="none"/>
+</svg>

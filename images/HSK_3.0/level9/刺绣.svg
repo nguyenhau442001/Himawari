@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Embroidery Hoop -->
+  <circle cx="120" cy="120" r="75" fill="none" stroke="#4A5568" stroke-width="6"/>
+  <circle cx="120" cy="120" r="68" fill="#2D3748"/>
+  
+  <!-- Fabric Surface -->
+  <path d="M52 120 A68 68 0 0 1 188 120" fill="#2D3748"/>
+  
+  <!-- Embroidered Pattern (Floral/Traditional Motif) -->
+  <path d="M120 70 L120 170 M95 95 L145 145 M145 95 L95 145" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="120" r="15" fill="none" stroke="#F6AD55" stroke-width="3"/>
+  <path d="M120 105 A15 15 0 0 1 135 120 A15 15 0 0 1 120 135 A15 15 0 0 1 105 120 A15 15 0 0 1 120 105" fill="#F6AD55" fill-opacity="0.2"/>
+  
+  <!-- Needle and Thread -->
+  <path d="M160 80 L135 105" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="162" cy="78" r="2" fill="#E2E8F0"/>
+  <path d="M135 105 Q120 120 100 110" fill="none" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Tension Screw -->
+  <rect x="115" y="40" width="10" height="15" rx="2" fill="#718096"/>
+  <rect x="110" y="35" width="20" height="5" rx="1" fill="#A0AEC0"/>
+</svg>

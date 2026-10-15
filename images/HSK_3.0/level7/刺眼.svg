@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(20, 20)">
+    <!-- Sunglasses frame representing the physical object to protect against "cìyǎn" -->
+    <!-- Left lens reflection / glare -->
+    <path d="M 45 95 C 45 80, 60 70, 80 70 C 100 70, 115 80, 115 95 C 115 110, 100 130, 80 130 C 60 130, 45 110, 45 95 Z" fill="#242B38"/>
+    <path d="M 52 90 C 58 82, 70 78, 85 78 C 85 88, 75 105, 58 115 C 53 105, 50 97, 52 90 Z" fill="#FFA500" opacity="0.3"/>
+
+    <!-- Right lens reflection / glare -->
+    <path d="M 125 95 C 125 80, 140 70, 160 70 C 180 70, 195 80, 195 95 C 195 110, 180 130, 160 130 C 140 130, 125 110, 125 95 Z" fill="#242B38"/>
+    <path d="M 132 90 C 138 82, 150 78, 165 78 C 165 88, 155 105, 138 115 C 133 105, 130 97, 132 90 Z" fill="#FFA500" opacity="0.3"/>
+
+    <!-- Sunglasses frame outline and bridge -->
+    <path d="M 30 90 Q 40 60, 80 65 L 120 72 L 160 65 Q 200 60, 210 90 Q 215 120, 195 135 Q 175 140, 160 125 L 120 115 L 80 125 Q 65 140, 45 135 Q 25 120, 30 90 Z" fill="#323B4D"/>
+    
+    <!-- Central blazing sun motif radiating intense light (cìyǎn) -->
+    <circle cx="120" cy="55" r="14" fill="#FFC107"/>
+    
+    <!-- Sun rays striking down forcefully -->
+    <line x1="120" y1="20" x2="120" y2="33" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <line x1="90" y1="27" x2="98" y2="37" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <line x1="150" y1="27" x2="142" y2="37" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="48" x2="84" y2="52" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    <line x1="170" y1="48" x2="156" y2="52" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Sharp glare bursts (symbolizing the blinding light) -->
+    <polygon points="120,85 124,105 130,95 145,100" fill="#FFFFFF" opacity="0.8"/>
+    <polygon points="95,85 90,100 85,90 75,95" fill="#FFFFFF" opacity="0.8"/>
+    
+    <!-- Sleek modern temple arms extending to sides -->
+    <path d="M 30 85 L 10 75" stroke="#323B4D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 210 85 L 230 75" stroke="#323B4D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
