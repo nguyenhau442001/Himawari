@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Bed/Patient -->
+  <path d="M60 180 L180 180 C185 180 190 175 190 170 L190 160 C190 155 185 150 180 150 L60 150 C55 150 50 155 50 160 L50 170 C50 175 55 180 60 180 Z" fill="#3D4451"/>
+  <circle cx="85" cy="140" r="15" fill="#E0E6ED"/>
+  <path d="M75 135 L80 138 M90 135 L95 138" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M80 145 Q85 148 90 145" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hypnotist -->
+  <g transform="translate(140, 120)">
+    <circle cx="0" cy="0" r="18" fill="#FFB86C"/>
+    <path d="M-8 -5 L-2 -5 M2 -5 L8 -5" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-5 5 Q0 8 5 5" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M0 20 L0 60" stroke="#FFB86C" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-20 40 L0 30 L20 40" stroke="#FFB86C" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Hypnotic Pendulum -->
+  <path d="M140 138 L120 170" stroke="#F8F8F2" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="120" cy="175" r="8" fill="#FFB86C"/>
+  
+  <!-- Sound Waves -->
+  <path d="M105 120 Q115 110 125 120" stroke="#F8F8F2" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M100 115 Q115 100 130 115" stroke="#F8F8F2" stroke-width="2" fill="none" opacity="0.4"/>
+</svg>

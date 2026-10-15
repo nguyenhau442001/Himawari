@@ -36966,6 +36966,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "从容.svg",
     "src": "images/HSK_3.0/level7/从容.svg",
     "caption": "điềm tĩnh, ung dung"
+  },
+  "从头": {
+    "file": "从头.svg",
+    "src": "images/HSK_3.0/level7/从头.svg",
+    "caption": "lại từ đầu, từ đầu"
+  },
+  "凑": {
+    "file": "凑.svg",
+    "src": "images/HSK_3.0/level7/凑.svg",
+    "caption": "gom góp, góp lại, lại gần"
+  },
+  "凑巧": {
+    "file": "凑巧.svg",
+    "src": "images/HSK_3.0/level7/凑巧.svg",
+    "caption": "tình cờ, trùng hợp"
+  },
+  "粗暴": {
+    "file": "粗暴.svg",
+    "src": "images/HSK_3.0/level7/粗暴.svg",
+    "caption": "thô bạo, cục cằn"
+  },
+  "粗略": {
+    "file": "粗略.svg",
+    "src": "images/HSK_3.0/level7/粗略.svg",
+    "caption": "sơ lược, đại khái"
+  },
+  "粗心大意": {
+    "file": "粗心大意.svg",
+    "src": "images/HSK_3.0/level7/粗心大意.svg",
+    "caption": "sơ suất bất cẩn, cẩu thả"
+  },
+  "促成": {
+    "file": "促成.svg",
+    "src": "images/HSK_3.0/level7/促成.svg",
+    "caption": "thúc đẩy thành công, tác thành"
+  },
+  "簇拥": {
+    "file": "簇拥.svg",
+    "src": "images/HSK_3.0/level7/簇拥.svg",
+    "caption": "vây quanh, quây quanh"
+  },
+  "窜": {
+    "file": "窜.svg",
+    "src": "images/HSK_3.0/level7/窜.svg",
+    "caption": "lủi trốn, chuồn, chạy tháo thân"
+  },
+  "催促": {
+    "file": "催促.svg",
+    "src": "images/HSK_3.0/level7/催促.svg",
+    "caption": "thúc giục, hối thúc"
+  },
+  "摧毁": {
+    "file": "摧毁.svg",
+    "src": "images/HSK_3.0/level7/摧毁.svg",
+    "caption": "phá hủy, san phẳng, tàn phá"
+  },
+  "催眠": {
+    "file": "催眠.svg",
+    "src": "images/HSK_3.0/level7/催眠.svg",
+    "caption": "thôi miên"
+  },
+  "璀璨": {
+    "file": "璀璨.svg",
+    "src": "images/HSK_3.0/level7/璀璨.svg",
+    "caption": "rực rỡ lấp lánh, xán lạn"
+  },
+  "翠绿": {
+    "file": "翠绿.svg",
+    "src": "images/HSK_3.0/level7/翠绿.svg",
+    "caption": "xanh biếc, xanh mướt"
+  },
+  "存活": {
+    "file": "存活.svg",
+    "src": "images/HSK_3.0/level7/存活.svg",
+    "caption": "sống sót, sinh tồn"
+  },
+  "存货": {
+    "file": "存货.svg",
+    "src": "images/HSK_3.0/level7/存货.svg",
+    "caption": "hàng tồn kho, tồn kho"
+  },
+  "存心": {
+    "file": "存心.svg",
+    "src": "images/HSK_3.0/level7/存心.svg",
+    "caption": "cố ý, cố tình"
+  },
+  "存折": {
+    "file": "存折.svg",
+    "src": "images/HSK_3.0/level7/存折.svg",
+    "caption": "sổ tiết kiệm"
+  },
+  "挫败": {
+    "file": "挫败.svg",
+    "src": "images/HSK_3.0/level7/挫败.svg",
+    "caption": "làm thất bại, đánh bại"
+  },
+  "错别字": {
+    "file": "错别字.svg",
+    "src": "images/HSK_3.0/level7/错别字.svg",
+    "caption": "chữ viết sai, lỗi chính tả"
+  },
+  "错觉": {
+    "file": "错觉.svg",
+    "src": "images/HSK_3.0/level7/错觉.svg",
+    "caption": "ảo giác, cảm giác sai lầm"
+  },
+  "措手不及": {
+    "file": "措手不及.svg",
+    "src": "images/HSK_3.0/level7/措手不及.svg",
+    "caption": "trở tay không kịp, không kịp trở tay"
+  },
+  "错位": {
+    "file": "错位.svg",
+    "src": "images/HSK_3.0/level7/错位.svg",
+    "caption": "trật khớp, lệch vị trí"
+  },
+  "错综复杂": {
+    "file": "错综复杂.svg",
+    "src": "images/HSK_3.0/level7/错综复杂.svg",
+    "caption": "phức tạp đan xen, chằng chịt"
+  },
+  "搭乘": {
+    "file": "搭乘.svg",
+    "src": "images/HSK_3.0/level7/搭乘.svg",
+    "caption": "đi (tàu, xe, máy bay), đón"
+  },
+  "搭建": {
+    "file": "搭建.svg",
+    "src": "images/HSK_3.0/level7/搭建.svg",
+    "caption": "dựng lên, xây dựng, thiết lập"
+  },
+  "达标": {
+    "file": "达标.svg",
+    "src": "images/HSK_3.0/level7/达标.svg",
+    "caption": "đạt chuẩn, đạt tiêu chuẩn"
+  },
+  "打²": {
+    "file": "打².svg",
+    "src": "images/HSK_3.0/level7/打².svg",
+    "caption": "đánh"
+  },
+  "打下手": {
+    "file": "打下手.svg",
+    "src": "images/HSK_3.0/level7/打下手.svg",
+    "caption": "phụ việc, làm trợ thủ"
+  },
+  "打岔": {
+    "file": "打岔.svg",
+    "src": "images/HSK_3.0/level7/打岔.svg",
+    "caption": "ngắt lời, xen ngang"
+  },
+  "打赌": {
+    "file": "打赌.svg",
+    "src": "images/HSK_3.0/level7/打赌.svg",
+    "caption": "cá cược, đánh cược"
+  },
+  "打盹儿": {
+    "file": "打盹儿.svg",
+    "src": "images/HSK_3.0/level7/打盹儿.svg",
+    "caption": "chợp mắt, ngủ gật"
+  },
+  "打发": {
+    "file": "打发.svg",
+    "src": "images/HSK_3.0/level7/打发.svg",
+    "caption": "cho đi, giết thời gian"
+  },
+  "打捞": {
+    "file": "打捞.svg",
+    "src": "images/HSK_3.0/level7/打捞.svg",
+    "caption": "trục vớt, vớt"
+  },
+  "打磨": {
+    "file": "打磨.svg",
+    "src": "images/HSK_3.0/level7/打磨.svg",
+    "caption": "mài giũa, đánh bóng"
+  },
+  "打消": {
+    "file": "打消.svg",
+    "src": "images/HSK_3.0/level7/打消.svg",
+    "caption": "gạt bỏ, từ bỏ (ý định)"
+  },
+  "大大咧咧": {
+    "file": "大大咧咧.svg",
+    "src": "images/HSK_3.0/level7/大大咧咧.svg",
+    "caption": "vô tâm vô tính, bất cẩn tùy tiện"
+  },
+  "大纲": {
+    "file": "大纲.svg",
+    "src": "images/HSK_3.0/level7/大纲.svg",
+    "caption": "đề cương, dàn ý"
+  },
+  "大公无私": {
+    "file": "大公无私.svg",
+    "src": "images/HSK_3.0/level7/大公无私.svg",
+    "caption": "chí công vô tư"
+  },
+  "大街小巷": {
+    "file": "大街小巷.svg",
+    "src": "images/HSK_3.0/level7/大街小巷.svg",
+    "caption": "khắp phố cùng ngõ hẻm, ngõ hẻm"
+  },
+  "大惊小怪": {
+    "file": "大惊小怪.svg",
+    "src": "images/HSK_3.0/level7/大惊小怪.svg",
+    "caption": "làm to chuyện, chuyện bé xé ra to"
+  },
+  "大局": {
+    "file": "大局.svg",
+    "src": "images/HSK_3.0/level7/大局.svg",
+    "caption": "đại cục, toàn cục"
+  },
+  "大陆": {
+    "file": "大陆.svg",
+    "src": "images/HSK_3.0/level7/大陆.svg",
+    "caption": "lục địa"
+  },
+  "大名鼎鼎": {
+    "file": "大名鼎鼎.svg",
+    "src": "images/HSK_3.0/level7/大名鼎鼎.svg",
+    "caption": "tiếng tăm lừng lẫy, lừng danh"
+  },
+  "大片": {
+    "file": "大片.svg",
+    "src": "images/HSK_3.0/level7/大片.svg",
+    "caption": "phim bom tấn, phim điện ảnh lớn"
+  },
+  "大气": {
+    "file": "大气.svg",
+    "src": "images/HSK_3.0/level7/大气.svg",
+    "caption": "phóng khoáng, bề thế"
+  },
+  "大数据": {
+    "file": "大数据.svg",
+    "src": "images/HSK_3.0/level7/大数据.svg",
+    "caption": "dữ liệu lớn, big data"
+  },
+  "大同小异": {
+    "file": "大同小异.svg",
+    "src": "images/HSK_3.0/level7/大同小异.svg",
+    "caption": "đại đồng tiểu dị, gần như nhau"
+  },
+  "大为": {
+    "file": "大为.svg",
+    "src": "images/HSK_3.0/level7/大为.svg",
+    "caption": "hết sức, vô cùng"
+  },
+  "大雁": {
+    "file": "大雁.svg",
+    "src": "images/HSK_3.0/level7/大雁.svg",
+    "caption": "chim nhạn"
   }
 };
 

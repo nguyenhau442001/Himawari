@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 40)">
+    <!-- Person A (Aggressor) -->
+    <g transform="translate(120, 80)">
+      <circle cx="0" cy="-40" r="15" fill="#FF9F1C"/>
+      <path d="M-15 0 L15 0 L10 50 L-10 50 Z" fill="#FF9F1C"/>
+      <!-- Aggressive hand gesture -->
+      <path d="M15 0 L40 -20" stroke="#FF9F1C" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <!-- Person B (Recipient) -->
+    <g transform="translate(40, 80)">
+      <circle cx="0" cy="-40" r="15" fill="#5D6D7E"/>
+      <path d="M-15 0 L15 0 L10 50 L-10 50 Z" fill="#5D6D7E"/>
+      <!-- Cowering posture -->
+      <path d="M-10 0 L-30 20" stroke="#5D6D7E" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <!-- Visual impact lines indicating roughness -->
+    <path d="M70 40 L90 20 M70 60 L90 80" stroke="#FF4757" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

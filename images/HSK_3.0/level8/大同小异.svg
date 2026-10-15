@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Contextual Object: Two sleek, modern smartphones (representing the sentence context) positioned side-by-side to visually demonstrate "dàtóng-xiǎoyì" (nearly identical with very minor differences) -->
+  
+  <g transform="translate(0, 5)">
+    <!-- Phone 1 (Left) -->
+    <g transform="translate(52, 35)">
+      <!-- Phone Body Shadow -->
+      <rect x="2" y="4" width="60" height="110" rx="12" fill="#0E1015"/>
+      <!-- Phone Outer Shell -->
+      <rect x="0" y="0" width="60" height="110" rx="12" fill="#2E3544"/>
+      <!-- Screen Bezel -->
+      <rect x="3" y="3" width="54" height="104" rx="10" fill="#0A0C10"/>
+      <!-- Screen Wallpaper / UI -->
+      <rect x="6" y="6" width="48" height="98" rx="8" fill="#1E2330"/>
+      
+      <!-- UI Elements (Phone 1) -->
+      <!-- Speaker Notch / Island -->
+      <rect x="21" y="9" width="18" height="4" rx="2" fill="#2E3544"/>
+      <!-- App Grid / Content -->
+      <rect x="12" y="20" width="36" height="42" rx="4" fill="#2A3140"/>
+      <circle cx="20" cy="30" r="4" fill="#4B5563"/>
+      <circle cx="30" cy="30" r="4" fill="#F59E0B"/> <!-- Subtle accent (minor difference) -->
+      <circle cx="40" cy="30" r="4" fill="#4B5563"/>
+      
+      <!-- UI Lines -->
+      <rect x="12" y="68" width="36" height="6" rx="3" fill="#3B4252"/>
+      <rect x="12" y="78" width="24" height="5" rx="2.5" fill="#3B4252"/>
+      
+      <!-- Home Indicator -->
+      <rect x="20" y="100" width="20" height="2.5" rx="1.25" fill="#4B5563"/>
+    </g>
+
+    <!-- Phone 2 (Right) -->
+    <g transform="translate(128, 35)">
+      <!-- Phone Body Shadow -->
+      <rect x="2" y="4" width="60" height="110" rx="12" fill="#0E1015"/>
+      <!-- Phone Outer Shell -->
+      <rect x="0" y="0" width="60" height="110" rx="12" fill="#2E3544"/>
+      <!-- Screen Bezel -->
+      <rect x="3" y="3" width="54" height="104" rx="10" fill="#0A0C10"/>
+      <!-- Screen Wallpaper / UI -->
+      <rect x="6" y="6" width="48" height="98" rx="8" fill="#1E2330"/>
+      
+      <!-- UI Elements (Phone 2 - Almost identical, slight variation) -->
+      <!-- Speaker Notch / Island -->
+      <rect x="21" y="9" width="18" height="4" rx="2" fill="#2E3544"/>
+      <!-- App Grid / Content -->
+      <rect x="12" y="20" width="36" height="42" rx="4" fill="#2A3140"/>
+      <circle cx="20" cy="30" r="4" fill="#4B5563"/>
+      <circle cx="30" cy="30" r="4" fill="#3B82F6"/> <!-- Subtle accent difference -->
+      <circle cx="40" cy="30" r="4" fill="#4B5563"/>
+      
+      <!-- UI Lines -->
+      <rect x="12" y="68" width="36" height="6" rx="3" fill="#3B4252"/>
+      <rect x="12" y="78" width="24" height="5" rx="2.5" fill="#3B4252"/>
+      
+      <!-- Home Indicator -->
+      <rect x="20" y="100" width="20" height="2.5" rx="1.25" fill="#4B5563"/>
+    </g>
+
+    <!-- Visual Comparison / Similarity Indicator (Focusing on "Same/Similar") -->
+    <g transform="translate(120, 90)">
+      <circle cx="0" cy="0" r="16" fill="#1A1D24" stroke="#F59E0B" stroke-width="2.5"/>
+      <!-- Equals / Similarity Symbol -->
+      <rect x="-7" y="-3.5" width="14" height="2.5" rx="1.25" fill="#F59E0B"/>
+      <rect x="-7" y="1.5" width="14" height="2.5" rx="1.25" fill="#F59E0B"/>
+    </g>
+  </g>
+
+  <!-- Ground reflection / Surface floor line -->
+  <path d="M 40 170 L 200 170" stroke="#2E3544" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <ellipse cx="120" cy="170" rx="80" ry="6" fill="#111318" opacity="0.7"/>
+
+</svg>

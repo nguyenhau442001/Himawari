@@ -1,0 +1,68 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 0)">
+    <!-- Ambient crowd glow/shapes in background -->
+    <circle cx="120" cy="120" r="85" fill="#222733" opacity="0.8"/>
+    
+    <!-- Outer crowd silhouettes/shapes representing "vây quanh / quây quanh" -->
+    <!-- Top left fan -->
+    <path d="M 75 70 C 75 58 85 48 97 48 C 109 48 118 58 118 70 Z" fill="#3A435E"/>
+    <path d="M 62 95 C 62 80 75 68 90 68 C 105 68 118 80 118 95 Z" fill="#2E3548"/>
+    
+    <!-- Top right fan -->
+    <path d="M 122 70 C 122 58 131 48 143 48 C 155 48 165 58 165 70 Z" fill="#3A435E"/>
+    <path d="M 122 95 C 122 80 135 68 150 68 C 165 68 178 80 178 95 Z" fill="#2E3548"/>
+
+    <!-- Left fan -->
+    <path d="M 50 110 C 38 110 28 120 28 132 C 28 144 38 154 50 154 Z" fill="#3A435E"/>
+    
+    <!-- Right fan -->
+    <path d="M 190 110 C 202 110 212 120 212 132 C 212 144 202 154 190 154 Z" fill="#3A435E"/>
+
+    <!-- Bottom fans -->
+    <path d="M 80 170 C 80 155 92 145 107 145 C 122 145 134 155 134 170 Z" fill="#2E3548"/>
+    <path d="M 106 185 C 106 170 118 160 133 160 C 148 160 160 170 160 185 Z" fill="#3A435E"/>
+
+    <!-- Converging arms / hands raised around the center (crowd surrounding) -->
+    <!-- Top left hand -->
+    <path d="M 85 92 L 95 108 L 105 98 Z" fill="#F6AD55"/>
+    <!-- Top right hand -->
+    <path d="M 155 92 L 145 108 L 135 98 Z" fill="#F6AD55"/>
+    <!-- Left hand -->
+    <path d="M 70 135 L 90 130 L 85 120 Z" fill="#F6AD55"/>
+    <!-- Right hand -->
+    <path d="M 170 135 L 150 130 L 155 120 Z" fill="#F6AD55"/>
+
+    <!-- CENTRAL FOCAL POINT (The highlighted person / champion / object being surrounded) -->
+    <!-- Torso / Body -->
+    <path d="M 95 160 C 95 142 105 135 120 135 C 135 135 145 142 145 160 L 155 185 C 155 190 150 195 145 195 L 95 195 C 90 195 85 190 85 185 Z" fill="#3182CE"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="108" r="18" fill="#F6AD55"/>
+    
+    <!-- Hair -->
+    <path d="M 102 104 C 102 92 110 90 120 90 C 130 90 138 92 138 104 C 134 100 128 98 120 98 C 112 98 106 100 102 104 Z" fill="#2D3748"/>
+
+    <!-- Raised Trophy / Item in the center (representing "夺冠" context of the prompt) -->
+    <!-- Trophy base -->
+    <rect x="112" y="78" width="16" height="6" rx="2" fill="#E2E8F0"/>
+    <path d="M 115 84 L 125 84 L 128 94 L 112 94 Z" fill="#CBD5E0"/>
+    <!-- Trophy cup -->
+    <path d="M 110 54 C 110 50 130 50 130 54 L 127 78 L 113 78 Z" fill="#ECC94B"/>
+    <!-- Trophy handles -->
+    <path d="M 110 58 C 102 58 102 68 112 70" fill="none" stroke="#ECC94B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 130 58 C 138 58 138 68 128 70" fill="none" stroke="#ECC94B" stroke-width="3" stroke-linecap="round"/>
+    <!-- Trophy star/glow detail -->
+    <circle cx="120" cy="64" r="3" fill="#FEEBC8"/>
+
+    <!-- Dynamic overlapping energetic dots / sparkle accents indicating bustling crowd atmosphere -->
+    <circle cx="100" cy="55" r="2" fill="#F6AD55" opacity="0.8"/>
+    <circle cx="145" cy="55" r="3" fill="#ECC94B" opacity="0.9"/>
+    <circle cx="75" cy="120" r="2.5" fill="#F6AD55" opacity="0.7"/>
+    <circle cx="168" cy="115" r="2" fill="#ECC94B" opacity="0.8"/>
+    <circle cx="92" cy="175" r="3" fill="#F6AD55" opacity="0.9"/>
+    <circle cx="150" cy="170" r="2.5" fill="#ECC94B" opacity="0.7"/>
+  </g>
+</svg>

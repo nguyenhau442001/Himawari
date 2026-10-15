@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle depth elements -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.5"/>
+
+  <!-- Central Physical Object: Modern Station Platform Clock (representing urgency, countdown, time-sensitive urging) -->
+  <!-- Clock Outer Ring -->
+  <circle cx="120" cy="110" r="64" fill="#2A303C" stroke="#FF9F43" stroke-width="4"/>
+  
+  <!-- Clock Face Inner -->
+  <circle cx="120" cy="110" r="56" fill="#1A1D24"/>
+
+  <!-- Clock Tick Marks -->
+  <line x1="120" y1="48" x2="120" y2="54" stroke="#8A99AD" stroke-width="3" stroke-linecap="round"/>
+  <line x1="120" y1="166" x2="120" y2="172" stroke="#8A99AD" stroke-width="3" stroke-linecap="round"/>
+  <line x1="58" y1="110" x2="64" y2="110" stroke="#8A99AD" stroke-width="3" stroke-linecap="round"/>
+  <line x1="176" y1="110" x2="182" y2="110" stroke="#8A99AD" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Motion / Speed indicator chevrons encircling the clock (urging/hasten concept) -->
+  <path d="M 68 62 L 56 74" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 172 62 L 184 74" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Dynamic Clock Hands showing urgency/imminent time limit -->
+  <!-- Hour Hand -->
+  <line x1="120" y1="110" x2="98" y2="95" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- Minute Hand pointing sharply near top -->
+  <line x1="120" y1="110" x2="142" y2="82" stroke="#FF9F43" stroke-width="4" stroke-linecap="round"/>
+  <!-- Center Pin -->
+  <circle cx="120" cy="110" r="5" fill="#FF9F43"/>
+
+  <!-- Alert / Attention Notification Element (Impending deadline marker) -->
+  <circle cx="180" cy="50" r="14" fill="#FF4757"/>
+  <!-- Exclamation mark inside alert -->
+  <line x1="180" y1="42" x2="180" y2="50" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="180" cy="56" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Ground / Platform Baseline -->
+  <line x1="60" y1="195" x2="180" y2="195" stroke="#3A4454" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Speed Lines / Urgency dashes underneath -->
+  <line x1="90" y1="205" x2="110" y2="205" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <line x1="125" y1="205" x2="155" y2="205" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>

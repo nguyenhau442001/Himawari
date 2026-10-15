@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M40 190 L200 190" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Tent Structure -->
+  <!-- Left support pole -->
+  <path d="M80 190 L80 130" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  <!-- Right support pole -->
+  <path d="M160 190 L160 130" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  <!-- Roof line -->
+  <path d="M80 130 L120 90 L160 130" stroke="#F6AD55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Tent fabric -->
+  <path d="M80 130 L120 90 L160 130 L160 190 L80 190 Z" fill="#F6AD55" fill-opacity="0.2"/>
+  
+  <!-- Person 1 (Left) -->
+  <g transform="translate(60, 150)">
+    <circle cx="10" cy="10" r="8" fill="#E2E8F0"/>
+    <path d="M10 18 L10 35 M10 25 L5 30 M10 25 L15 30 M10 35 L5 45 M10 35 L15 45" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Person 2 (Right) -->
+  <g transform="translate(170, 150)">
+    <circle cx="10" cy="10" r="8" fill="#E2E8F0"/>
+    <path d="M10 18 L10 35 M10 25 L5 30 M10 25 L15 30 M10 35 L5 45 M10 35 L15 45" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Action lines (Assembly) -->
+  <path d="M100 110 L110 100" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M140 110 L130 100" stroke="#F6AD55" stroke-width="2" stroke-linecap="round"/>
+</svg>

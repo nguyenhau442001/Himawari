@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Object: A sleek, modern golden Scale of Justice representing fairness, impartiality, and "dàgōng-wúsī" (chí công vô tư) -->
+  <g transform="translate(0, 5)">
+    <!-- Base Platform -->
+    <path d="M90 200 L150 200 L160 212 L80 212 Z" fill="#3A4252" />
+    <rect x="95" y="194" width="50" height="6" rx="2" fill="#E5A93B" />
+
+    <!-- Central Pillar -->
+    <rect x="116" y="55" width="8" height="142" rx="3" fill="#E5A93B" />
+    <circle cx="120" cy="55" r="8" fill="#F4C456" />
+
+    <!-- Top Crown/Finial -->
+    <path d="M112 43 L128 43 L120 33 Z" fill="#F4C456" />
+
+    <!-- Central Beam -->
+    <path d="M60 65 L180 65 L175 75 L65 75 Z" fill="#E5A93B" rx="3" />
+    <circle cx="120" cy="70" r="5" fill="#1A1D24" />
+
+    <!-- Left Arm & Scale Pan -->
+    <g>
+      <!-- Suspension Chains/Strings -->
+      <line x1="68" y1="70" x2="68" y2="125" stroke="#E5A93B" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="68" y1="70" x2="52" y2="125" stroke="#E5A93B" stroke-width="2" stroke-linecap="round" />
+      <line x1="68" y1="70" x2="84" y2="125" stroke="#E5A93B" stroke-width="2" stroke-linecap="round" />
+      
+      <!-- Golden Bowl / Pan (Balanced perfectly level) -->
+      <path d="M44 125 C44 140, 92 140, 92 125 Z" fill="#E5A93B" />
+      <ellipse cx="68" cy="125" rx="24" ry="5" fill="#F4C456" />
+    </g>
+
+    <!-- Right Arm & Scale Pan -->
+    <g>
+      <!-- Suspension Chains/Strings -->
+      <line x1="172" y1="70" x2="172" y2="125" stroke="#E5A93B" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="172" y1="70" x2="156" y2="125" stroke="#E5A93B" stroke-width="2" stroke-linecap="round" />
+      <line x1="172" y1="70" x2="188" y2="125" stroke="#E5A93B" stroke-width="2" stroke-linecap="round" />
+      
+      <!-- Golden Bowl / Pan (Balanced perfectly level) -->
+      <path d="M148 125 C148 140, 196 140, 196 125 Z" fill="#E5A93B" />
+      <ellipse cx="172" cy="125" rx="24" ry="5" fill="#F4C456" />
+    </g>
+
+    <!-- Subtle glowing highlight accents for modern flat aesthetic -->
+    <circle cx="120" cy="70" r="2" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+</svg>
