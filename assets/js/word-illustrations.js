@@ -34716,6 +34716,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "罪.svg",
     "src": "images/HSK_3.0/level6/罪.svg",
     "caption": "tội, tội lỗi, tội ác"
+  },
+  "挨家挨户": {
+    "file": "挨家挨户.svg",
+    "src": "images/HSK_3.0/level7/挨家挨户.svg",
+    "caption": "từng nhà từng hộ, gõ cửa từng nhà"
+  },
+  "哀求": {
+    "file": "哀求.svg",
+    "src": "images/HSK_3.0/level7/哀求.svg",
+    "caption": "van xin, tha thiết cầu xin"
+  },
+  "癌": {
+    "file": "癌.svg",
+    "src": "images/HSK_3.0/level7/癌.svg",
+    "caption": "ung thư"
+  },
+  "爱慕": {
+    "file": "爱慕.svg",
+    "src": "images/HSK_3.0/level7/爱慕.svg",
+    "caption": "ngưỡng mộ"
+  },
+  "碍事": {
+    "file": "碍事.svg",
+    "src": "images/HSK_3.0/level7/碍事.svg",
+    "caption": "vướng víu, cản trở, cản đường"
+  },
+  "艾滋病": {
+    "file": "艾滋病.svg",
+    "src": "images/HSK_3.0/level7/艾滋病.svg",
+    "caption": "bệnh AIDS, hội chứng suy giảm miễn dịch"
+  },
+  "安定": {
+    "file": "安定.svg",
+    "src": "images/HSK_3.0/level7/安定.svg",
+    "caption": "an định, ổn định, yên lòng"
+  },
+  "安抚": {
+    "file": "安抚.svg",
+    "src": "images/HSK_3.0/level7/安抚.svg",
+    "caption": "an ủi vỗ về, xoa dịu"
+  },
+  "安眠药": {
+    "file": "安眠药.svg",
+    "src": "images/HSK_3.0/level7/安眠药.svg",
+    "caption": "thuốc ngủ"
+  },
+  "安稳": {
+    "file": "安稳.svg",
+    "src": "images/HSK_3.0/level7/安稳.svg",
+    "caption": "yên ổn, vững vàng, êm đềm"
+  },
+  "安心": {
+    "file": "安心.svg",
+    "src": "images/HSK_3.0/level7/安心.svg",
+    "caption": "an tâm, yên tâm"
+  },
+  "安逸": {
+    "file": "安逸.svg",
+    "src": "images/HSK_3.0/level7/安逸.svg",
+    "caption": "an nhàn, thảnh thơi"
+  },
+  "暗地里": {
+    "file": "暗地里.svg",
+    "src": "images/HSK_3.0/level7/暗地里.svg",
+    "caption": "ngấm ngầm, lén lút sau lưng"
+  },
+  "按理": {
+    "file": "按理.svg",
+    "src": "images/HSK_3.0/level7/按理.svg",
+    "caption": "theo lẽ thường, đúng lý ra"
+  },
+  "按钮": {
+    "file": "按钮.svg",
+    "src": "images/HSK_3.0/level7/按钮.svg",
+    "caption": "nút"
+  },
+  "按说": {
+    "file": "按说.svg",
+    "src": "images/HSK_3.0/level7/按说.svg",
+    "caption": "lẽ ra, thông thường mà nói"
+  },
+  "暗中": {
+    "file": "暗中.svg",
+    "src": "images/HSK_3.0/level7/暗中.svg",
+    "caption": "ngầm, lén lút, trong bóng tối"
+  },
+  "凹": {
+    "file": "凹.svg",
+    "src": "images/HSK_3.0/level7/凹.svg",
+    "caption": "lõm, trũng xuống"
+  },
+  "傲": {
+    "file": "傲.svg",
+    "src": "images/HSK_3.0/level7/傲.svg",
+    "caption": "kiêu ngạo, ngạo nghễ"
+  },
+  "傲慢": {
+    "file": "傲慢.svg",
+    "src": "images/HSK_3.0/level7/傲慢.svg",
+    "caption": "kiêu ngạo, ngạo mạn"
+  },
+  "扒": {
+    "file": "扒.svg",
+    "src": "images/HSK_3.0/level7/扒.svg",
+    "caption": "bóc, lột, vạch ra, cào"
+  },
+  "疤": {
+    "file": "疤.svg",
+    "src": "images/HSK_3.0/level7/疤.svg",
+    "caption": "vết sẹo"
+  },
+  "八成": {
+    "file": "八成.svg",
+    "src": "images/HSK_3.0/level7/八成.svg",
+    "caption": "tám phần mười; có lẽ, chắc mẩm"
+  },
+  "八卦": {
+    "file": "八卦.svg",
+    "src": "images/HSK_3.0/level7/八卦.svg",
+    "caption": "bát quái; chuyện phiếm, tin đồn giật gân"
+  },
+  "芭蕾": {
+    "file": "芭蕾.svg",
+    "src": "images/HSK_3.0/level7/芭蕾.svg",
+    "caption": "múa ba-lê, ballet"
+  },
+  "巴掌": {
+    "file": "巴掌.svg",
+    "src": "images/HSK_3.0/level7/巴掌.svg",
+    "caption": "lòng bàn tay, cái tát tay"
+  },
+  "拔": {
+    "file": "拔.svg",
+    "src": "images/HSK_3.0/level7/拔.svg",
+    "caption": "nhổ, rút, vút cao"
+  },
+  "把柄": {
+    "file": "把柄.svg",
+    "src": "images/HSK_3.0/level7/把柄.svg",
+    "caption": "thóp, bằng cớ sơ hở (bị nắm thóp)"
+  },
+  "把手": {
+    "file": "把手.svg",
+    "src": "images/HSK_3.0/level7/把手.svg",
+    "caption": "tay nắm, tay cầm (cửa/xe)"
+  },
+  "靶子": {
+    "file": "靶子.svg",
+    "src": "images/HSK_3.0/level7/靶子.svg",
+    "caption": "bia bắn, mục tiêu ngắm"
+  },
+  "坝": {
+    "file": "坝.svg",
+    "src": "images/HSK_3.0/level7/坝.svg",
+    "caption": "con đập, đập ngăn nước"
+  },
+  "罢了": {
+    "file": "罢了.svg",
+    "src": "images/HSK_3.0/level7/罢了.svg",
+    "caption": "mà thôi, vậy thôi"
+  },
+  "罢免": {
+    "file": "罢免.svg",
+    "src": "images/HSK_3.0/level7/罢免.svg",
+    "caption": "bãi miễn, cách chức"
+  },
+  "罢休": {
+    "file": "罢休.svg",
+    "src": "images/HSK_3.0/level7/罢休.svg",
+    "caption": "thôi, chịu thôi, bỏ cuộc"
+  },
+  "霸占": {
+    "file": "霸占.svg",
+    "src": "images/HSK_3.0/level7/霸占.svg",
+    "caption": "bá chiếm, chiếm đoạt ngang ngược"
+  },
+  "百般": {
+    "file": "百般.svg",
+    "src": "images/HSK_3.0/level7/百般.svg",
+    "caption": "trăm phương nghìn kế, đủ mọi cách"
+  },
+  "摆动": {
+    "file": "摆动.svg",
+    "src": "images/HSK_3.0/level7/摆动.svg",
+    "caption": "đung đưa, lắc lư"
+  },
+  "百分比": {
+    "file": "百分比.svg",
+    "src": "images/HSK_3.0/level7/百分比.svg",
+    "caption": "tỷ lệ phần trăm"
+  },
+  "百合": {
+    "file": "百合.svg",
+    "src": "images/HSK_3.0/level7/百合.svg",
+    "caption": "hoa bách hợp, hoa loa kèn"
+  },
+  "百科全书": {
+    "file": "百科全书.svg",
+    "src": "images/HSK_3.0/level7/百科全书.svg",
+    "caption": "bách khoa toàn thư"
+  },
+  "摆平": {
+    "file": "摆平.svg",
+    "src": "images/HSK_3.0/level7/摆平.svg",
+    "caption": "dàn xếp ổn thỏa, giải quyết êm thấm"
+  },
+  "摆设": {
+    "file": "摆设.svg",
+    "src": "images/HSK_3.0/level7/摆设.svg",
+    "caption": "đồ bài trí; đồ trưng bày cho có"
+  },
+  "柏树": {
+    "file": "柏树.svg",
+    "src": "images/HSK_3.0/level7/柏树.svg",
+    "caption": "cây bách"
+  },
+  "拜会": {
+    "file": "拜会.svg",
+    "src": "images/HSK_3.0/level7/拜会.svg",
+    "caption": "bái hội, đến thăm kiến diện"
+  },
+  "拜见": {
+    "file": "拜见.svg",
+    "src": "images/HSK_3.0/level7/拜见.svg",
+    "caption": "bái kiến, yết kiến"
+  },
+  "扳": {
+    "file": "扳.svg",
+    "src": "images/HSK_3.0/level7/扳.svg",
+    "caption": "bẻ, gạt, lật ngược (tình thế)"
+  },
+  "斑点": {
+    "file": "斑点.svg",
+    "src": "images/HSK_3.0/level7/斑点.svg",
+    "caption": "vết đốm, đốm"
+  },
+  "斑马线": {
+    "file": "斑马线.svg",
+    "src": "images/HSK_3.0/level7/斑马线.svg",
+    "caption": "vạch sang đường cho người đi bộ, vạch ngựa vằn"
+  },
+  "搬迁": {
+    "file": "搬迁.svg",
+    "src": "images/HSK_3.0/level7/搬迁.svg",
+    "caption": "di dời, chuyển chỗ ở"
+  },
+  "版权": {
+    "file": "版权.svg",
+    "src": "images/HSK_3.0/level7/版权.svg",
+    "caption": "bản quyền, quyền tác giả"
   }
 };
 

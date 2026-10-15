@@ -1,0 +1,60 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle shadows/environment -->
+  <path d="M40 200 L200 200" stroke="#2A2F3D" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Architectural element (partial wall/corner) creating shadow -->
+  <path d="M0 0 L90 0 L50 240 L0 240 Z" fill="#12151B"/>
+  
+  <!-- Spotlight beam effect (dark mode dramatic lighting) -->
+  <path d="M90 0 L240 180 L240 240 L160 240 Z" fill="#222836" opacity="0.4"/>
+
+  <!-- Undercover Character (暗中 - Hidden in shadow observing) -->
+  <g transform="translate(130, 75)">
+    <!-- Trench coat collar & shoulders -->
+    <path d="M-30 110 C-30 80, -20 70, -10 65 L20 65 C30 70, 40 80, 40 115 L45 125 L-35 125 Z" fill="#3B4252"/>
+    <!-- Coat lapels -->
+    <path d="M-10 65 L-5 95 L10 95 L15 65" fill="#2E3440"/>
+    
+    <!-- Hat (Fedora) -->
+    <ellipse cx="5" cy="42" rx="32" ry="8" fill="#2E3440"/>
+    <path d="M-20 40 C-20 18, 30 18, 30 40 Z" fill="#3B4252"/>
+    <rect x="-18" y="37" width="46" height="4" rx="2" fill="#D08770"/>
+
+    <!-- Head / Face mostly in shadow -->
+    <path d="M-15 45 C-15 60, 25 60, 25 45 Z" fill="#2E3440"/>
+    
+    <!-- Eyes peering from shadow (High contrast focal point) -->
+    <circle cx="-3" cy="48" r="3" fill="#E5C07B"/>
+    <circle cx="11" cy="48" r="3" fill="#E5C07B"/>
+    <circle cx="-2" cy="48" r="1" fill="#1E1E1E"/>
+    <circle cx="12" cy="48" r="1" fill="#1E1E1E"/>
+
+    <!-- Binoculars / Spyglass held up -->
+    <rect x="-15" y="50" width="14" height="20" rx="3" fill="#4C566A"/>
+    <rect x="3" y="50" width="14" height="20" rx="3" fill="#4C566A"/>
+    <rect x="-12" y="65" width="8" height="15" fill="#3B4252"/>
+    <rect x="6" y="65" width="8" height="15" fill="#3B4252"/>
+  </g>
+
+  <!-- Peering Vignette / Venetian Blind shadow overlay -->
+  <g opacity="0.3" fill="#0D0F12">
+    <rect x="0" y="0" width="240" height="20"/>
+    <rect x="0" y="40" width="240" height="15"/>
+    <rect x="0" y="70" width="240" height="10"/>
+  </g>
+
+  <!-- Focus / Observation lines (hidden surveillance) -->
+  <path d="M115 130 L65 160" stroke="#D08770" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7"/>
+  <path d="M120 140 L80 180" stroke="#D08770" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7"/>
+
+  <!-- Target Subject being observed in the distance (simplified flat icon) -->
+  <g transform="translate(60, 150)">
+    <!-- Target person -->
+    <circle cx="0" cy="15" r="8" fill="#5E81AC"/>
+    <path d="M-12 45 C-12 28, 12 28, 12 45 Z" fill="#5E81AC"/>
+    <!-- Subtle target reticle -->
+    <circle cx="0" cy="25" r="22" fill="none" stroke="#D08770" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+  </g>
+</svg>
