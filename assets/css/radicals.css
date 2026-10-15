@@ -1,59 +1,102 @@
 /* Bộ thủ (radicals) mode: primary/secondary tabs, hub, study card */
 .primary-tabs {
-  display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
   margin: 16px 0 14px;
 }
-.primary-tab {
-  padding: 9px 14px; border-radius: var(--radius-md); border: 1px solid var(--border);
-  background: var(--card-bg); color: var(--text-secondary); font: inherit;
-  font-size: 13px; font-weight: 650; cursor: pointer;
-  line-height: 1.2;
-  display: flex; align-items: center; justify-content: center; text-align: center;
-  white-space: nowrap;
-  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+/* 1. Cụm Segmented Control (Tabs chuyển view) */
+.primary-tabs-group {
+  display: inline-flex; align-items: center;
+  background: var(--surface-subtle); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: 3px; gap: 3px;
 }
-.primary-tab.active { background: var(--accent-light); border-color: var(--accent); color: var(--accent); }
+.primary-tabs-group .primary-tab {
+  padding: 8px 16px; border-radius: calc(var(--radius-md) - 3px); border: 1px solid transparent;
+  background: transparent; color: var(--text-secondary); font: inherit;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+  line-height: 1.2;
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  white-space: nowrap;
+  transition: all 160ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.primary-tabs-group .primary-tab:hover:not(.active) {
+  background: rgba(255, 255, 255, 0.04); color: var(--text-primary);
+}
+.primary-tabs-group .primary-tab.active {
+  background: var(--card-bg); border-color: rgba(217, 120, 96, 0.35);
+  color: var(--accent); font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+}
 .primary-tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.primary-games-menu { position: relative; }
+
+/* 2. Cụm Dropdown Menu ("Công cụ") - Tách biệt độc lập */
+.primary-games-menu { position: relative; margin-left: auto; }
 .primary-menu-trigger {
-  display: flex; align-items: center; gap: 7px; padding: 9px 14px;
+  display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px;
   list-style: none; border: 1px solid var(--border); border-radius: var(--radius-md);
-  background: var(--card-bg); color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 650;
+  background: var(--card-bg); color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 600;
   cursor: pointer; white-space: nowrap;
+  transition: all 160ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .primary-menu-trigger::-webkit-details-marker { display: none; }
-.primary-menu-trigger::after { content: '⌄'; color: var(--text-tertiary); }
-.primary-menu-trigger:hover { border-color: var(--accent); color: var(--text-primary); }
+.primary-menu-trigger::after { content: none !important; }
+.primary-menu-trigger:hover {
+  border-color: var(--accent); color: var(--text-primary); background: var(--surface-subtle);
+}
 .primary-menu-trigger:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .primary-games-menu[open] > .primary-menu-trigger,
 .primary-games-menu.has-active-tool > .primary-menu-trigger {
   border-color: var(--accent); color: var(--accent); background: var(--accent-light);
 }
+
+/* Icons & Chevron animation */
+.nav-tab-icon { flex-shrink: 0; stroke-width: 2px; }
+.nav-tab-glyph { font-weight: 700; font-size: 13px; line-height: 1; color: var(--accent); flex-shrink: 0; }
+.primary-menu-chevron {
+  color: var(--text-tertiary); margin-left: 2px;
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), color 160ms ease;
+  flex-shrink: 0;
+}
+.primary-games-menu[open] .primary-menu-chevron {
+  transform: rotate(180deg); color: var(--accent);
+}
+.primary-menu-trigger:hover .primary-menu-chevron { color: var(--text-secondary); }
+
+/* Menu Panel */
 .primary-games-menu-panel {
   position: absolute; z-index: 40; top: calc(100% + 6px); right: 0;
   display: grid; gap: 4px; min-width: 220px; padding: 6px;
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-md);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.3);
 }
 .primary-menu-section-title {
   padding: 5px 10px 2px; color: var(--text-tertiary); font-size: 10px;
   font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
 }
 .primary-menu-section-title--games { margin-top: 4px; border-top: 1px solid var(--border); padding-top: 9px; }
-.primary-games-menu-panel .primary-tab { justify-content: flex-start; white-space: normal; border-color: transparent; }
-.primary-games-menu-panel .primary-tab.active { border-color: var(--accent); }
+.primary-games-menu-panel .primary-tab {
+  justify-content: flex-start; white-space: normal; border-color: transparent;
+  gap: 8px; padding: 8px 12px; border-radius: calc(var(--radius-md) - 3px);
+  background: transparent; color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 550;
+  display: flex; align-items: center; width: 100%; transition: all 140ms ease;
+}
+.primary-games-menu-panel .primary-tab:hover {
+  background: var(--surface-subtle); color: var(--text-primary);
+}
+.primary-games-menu-panel .primary-tab.active {
+  border-color: var(--accent); background: var(--accent-light); color: var(--accent);
+}
 .primary-menu-radical-lookup { display: none; }
 @media (max-width: 1279px) {
-  .primary-tabs > .primary-tab,
-  .primary-menu-trigger { min-height: 44px; }
+  .primary-tabs-group .primary-tab,
+  .primary-menu-trigger { min-height: 42px; }
   .primary-games-menu-panel .primary-menu-radical-lookup { display: flex; }
 }
 @media (max-width: 767px) {
-  .primary-tabs { flex-wrap: nowrap; gap: 6px; }
-  .primary-tabs > .primary-tab,
-  .primary-games-menu { flex: 1 1 0; min-width: 0; }
-  .primary-tabs > .primary-tab,
-  .primary-menu-trigger { min-height: 44px; padding-inline: 6px; justify-content: center; }
+  .primary-tabs { flex-wrap: nowrap; gap: 8px; }
+  .primary-tabs-group { flex: 1 1 auto; min-width: 0; }
+  .primary-tabs-group .primary-tab { flex: 1 1 0; min-height: 40px; padding-inline: 8px; font-size: 12.5px; }
+  .primary-games-menu { flex-shrink: 0; margin-left: 0; }
+  .primary-menu-trigger { min-height: 40px; padding: 7px 12px; font-size: 12.5px; }
 }
 
 .radical-tabs { margin-bottom: 4px; }

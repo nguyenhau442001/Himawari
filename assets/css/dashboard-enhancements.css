@@ -764,12 +764,18 @@ body.home-screen .featured-topics {
   /* Navigation Tabs */
   body.home-screen .primary-tabs {
     margin: 0;
-    gap: 8px;
+    gap: 12px;
+    justify-content: space-between;
   }
-  body.home-screen .primary-tab,
+  body.home-screen .primary-tabs-group .primary-tab {
+    min-height: 36px;
+    padding: 6px 14px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
   body.home-screen .primary-menu-trigger {
-    min-height: 38px;
-    padding: 7px 14px;
+    min-height: 36px;
+    padding: 6px 14px;
     font-size: 13px;
     border-radius: 10px;
   }

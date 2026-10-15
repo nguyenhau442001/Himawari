@@ -163,29 +163,62 @@ if ('serviceWorker' in navigator) {
   </section>
 
   <nav class="primary-tabs" id="primaryTabs" aria-label="Chế độ học">
-    <button id="primaryTabVocab" class="primary-tab active" type="button" aria-pressed="true"
-      aria-controls="screenVocabHub" onclick="setPrimaryTab('vocab')">📚 Từ vựng</button>
-    <button id="primaryTabReview" class="primary-tab" type="button" aria-pressed="false"
-      aria-controls="screenReviewPicker" onclick="setPrimaryTab('review')">⚡ Ôn nhanh</button>
+    <div class="primary-tabs-group" role="tablist" aria-label="Chế độ học chính">
+      <button id="primaryTabVocab" class="primary-tab active" type="button" role="tab" aria-pressed="true"
+        aria-controls="screenVocabHub" onclick="setPrimaryTab('vocab')">
+        <svg class="nav-tab-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+        <span>Từ vựng</span>
+      </button>
+      <button id="primaryTabReview" class="primary-tab" type="button" role="tab" aria-pressed="false"
+        aria-controls="screenReviewPicker" onclick="setPrimaryTab('review')">
+        <svg class="nav-tab-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        <span>Ôn nhanh</span>
+      </button>
+    </div>
     <details class="primary-games-menu" id="primaryGamesMenu">
-      <summary class="primary-menu-trigger" aria-label="Mở công cụ và trò chơi" aria-haspopup="menu">⋯ Công cụ</summary>
+      <summary class="primary-menu-trigger" aria-label="Mở công cụ và trò chơi" aria-haspopup="menu">
+        <svg class="nav-tab-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="7" height="7" x="3" y="3" rx="1.5"/><rect width="7" height="7" x="14" y="3" rx="1.5"/><rect width="7" height="7" x="14" y="14" rx="1.5"/><rect width="7" height="7" x="3" y="14" rx="1.5"/></svg>
+        <span>Công cụ</span>
+        <svg class="primary-menu-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-9"/></svg>
+      </summary>
       <div class="primary-games-menu-panel" role="menu" aria-label="Công cụ và trò chơi học từ">
         <div class="primary-menu-section-title" role="presentation">Công cụ học</div>
         <button id="primaryTabGradedReading" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenGradedReading" onclick="setPrimaryTab('gradedReading')" aria-label="Bài đọc phân cấp">📚 Bài đọc phân cấp</button>
+          aria-controls="screenGradedReading" onclick="setPrimaryTab('gradedReading')" aria-label="Bài đọc phân cấp">
+          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <span>Bài đọc phân cấp</span>
+        </button>
         <button id="primaryTabReading" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenReadingAnalysis" onclick="setPrimaryTab('reading')" aria-label="Đọc hiểu HSK4">📖 Đọc hiểu HSK4</button>
+          aria-controls="screenReadingAnalysis" onclick="setPrimaryTab('reading')" aria-label="Đọc hiểu HSK4">
+          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          <span>Đọc hiểu HSK4</span>
+        </button>
         <button id="primaryTabRadicals" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')" aria-label="Bộ thủ">部 Bộ thủ</button>
+          aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')" aria-label="Bộ thủ">
+          <span class="nav-tab-glyph" aria-hidden="true">部</span>
+          <span>Bộ thủ</span>
+        </button>
         <button class="primary-tab primary-menu-radical-lookup" type="button" role="menuitem"
-          onclick="openRadicalDirectory()" aria-label="Tra cứu 214 bộ thủ">⌕ Tra cứu 214 bộ thủ</button>
+          onclick="openRadicalDirectory()" aria-label="Tra cứu 214 bộ thủ">
+          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <span>Tra cứu 214 bộ thủ</span>
+        </button>
         <div class="primary-menu-section-title primary-menu-section-title--games" role="presentation">Trò chơi</div>
         <button id="primaryTabSentenceGame" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenSentenceGame" onclick="setPrimaryTab('sentenceGame')" aria-label="Xếp câu">🧩 Xếp câu</button>
+          aria-controls="screenSentenceGame" onclick="setPrimaryTab('sentenceGame')" aria-label="Xếp câu">
+          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 14.5A2.5 2.5 0 0 0 22 12a2.5 2.5 0 0 0-2.5-2.5v-4a2 2 0 0 0-2-2h-4a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0-2.5-2.5h-4a2 2 0 0 0-2 2v4A2.5 2.5 0 0 0 2 12a2.5 2.5 0 0 0 2.5 2.5v4a2 2 0 0 0 2 2h4a2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0 2.5 2.5h4a2 2 0 0 0 2-2v-4z"/></svg>
+          <span>Xếp câu</span>
+        </button>
         <button id="primaryTabGuessWord" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenGuessWord" onclick="setPrimaryTab('guessWord')" aria-label="Đuổi hình bắt chữ">🖼️ Đuổi hình bắt chữ</button>
+          aria-controls="screenGuessWord" onclick="setPrimaryTab('guessWord')" aria-label="Đuổi hình bắt chữ">
+          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          <span>Đuổi hình bắt chữ</span>
+        </button>
         <button id="primaryTabSpeedQuiz" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenSpeedQuiz" onclick="setPrimaryTab('speedQuiz')" aria-label="Điền từ">📝 Điền từ</button>
+          aria-controls="screenSpeedQuiz" onclick="setPrimaryTab('speedQuiz')" aria-label="Điền từ">
+          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 5-3-3L3 14v4h4L18 5z"/><line x1="14" x2="17" y1="2" y2="5"/></svg>
+          <span>Điền từ</span>
+        </button>
       </div>
     </details>
   </nav>
