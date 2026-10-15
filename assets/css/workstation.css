@@ -1349,6 +1349,9 @@ body.flashcard-study-mode .hanzi {
   transition: transform 0.18s ease;
   user-select: none;
   -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+  text-wrap: nowrap;
+  max-width: 100%;
 }
 body.flashcard-study-mode .hanzi:hover {
   transform: scale(1.02);
@@ -1356,6 +1359,51 @@ body.flashcard-study-mode .hanzi:hover {
 :root[data-theme="dark"] body.flashcard-study-mode .hanzi {
   color: #ffffff;
   text-shadow: 0 2px 20px rgba(255, 255, 255, 0.06);
+}
+
+/* Adaptive font sizing for multi-character words: keeps long words strictly on 1 line */
+body.flashcard-study-mode .hanzi.is-len-3,
+body.flashcard-study-mode .hanzi[data-length="3"] {
+  font-size: clamp(70px, 6.8vw, 96px);
+}
+body.flashcard-study-mode .hanzi.is-len-4,
+body.flashcard-study-mode .hanzi[data-length="4"] {
+  font-size: clamp(54px, 5.2vw, 74px);
+}
+body.flashcard-study-mode .hanzi.is-len-5,
+body.flashcard-study-mode .hanzi[data-length="5"] {
+  font-size: clamp(42px, 4.2vw, 58px);
+}
+body.flashcard-study-mode .hanzi.is-len-6-plus,
+body.flashcard-study-mode .hanzi.is-len-long,
+body.flashcard-study-mode .hanzi[data-length="6"],
+body.flashcard-study-mode .hanzi[data-length="7"],
+body.flashcard-study-mode .hanzi[data-length="8"] {
+  font-size: clamp(34px, 3.4vw, 46px);
+}
+
+/* When study sidebar is open (desk space constrained), scale gracefully */
+body.flashcard-study-mode.study-sidebar-open .hanzi {
+  font-size: clamp(76px, 6.8vw, 104px);
+}
+body.flashcard-study-mode.study-sidebar-open .hanzi.is-len-3,
+body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="3"] {
+  font-size: clamp(60px, 5.4vw, 82px);
+}
+body.flashcard-study-mode.study-sidebar-open .hanzi.is-len-4,
+body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="4"] {
+  font-size: clamp(46px, 4.2vw, 62px);
+}
+body.flashcard-study-mode.study-sidebar-open .hanzi.is-len-5,
+body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="5"] {
+  font-size: clamp(38px, 3.4vw, 50px);
+}
+body.flashcard-study-mode.study-sidebar-open .hanzi.is-len-6-plus,
+body.flashcard-study-mode.study-sidebar-open .hanzi.is-len-long,
+body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="6"],
+body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="7"],
+body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="8"] {
+  font-size: clamp(30px, 2.7vw, 40px);
 }
 body.flashcard-study-mode .card-content { gap: 0; }
 body.flashcard-study-mode .pinyin-row {
@@ -2023,6 +2071,28 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     font-size: clamp(56px, 15vw, 76px);
     font-weight: 700;
     line-height: 1.05;
+    white-space: nowrap;
+    text-wrap: nowrap;
+    max-width: 100%;
+  }
+  body.flashcard-study-mode .hanzi.is-len-3,
+  body.flashcard-study-mode .hanzi[data-length="3"] {
+    font-size: clamp(46px, 12vw, 60px);
+  }
+  body.flashcard-study-mode .hanzi.is-len-4,
+  body.flashcard-study-mode .hanzi[data-length="4"] {
+    font-size: clamp(36px, 9.2vw, 48px);
+  }
+  body.flashcard-study-mode .hanzi.is-len-5,
+  body.flashcard-study-mode .hanzi[data-length="5"] {
+    font-size: clamp(30px, 7.5vw, 40px);
+  }
+  body.flashcard-study-mode .hanzi.is-len-6-plus,
+  body.flashcard-study-mode .hanzi.is-len-long,
+  body.flashcard-study-mode .hanzi[data-length="6"],
+  body.flashcard-study-mode .hanzi[data-length="7"],
+  body.flashcard-study-mode .hanzi[data-length="8"] {
+    font-size: clamp(24px, 6vw, 32px);
   }
 
   body.flashcard-study-mode .pinyin-row {

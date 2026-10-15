@@ -31152,6 +31152,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/过后.svg",
     "caption": "sau đó, về sau"
   },
+  "过时": {
+    "file": "过时.svg",
+    "src": "images/HSK_3.0/level6/过时.svg",
+    "caption": "lỗi thời, lạc hậu"
+  },
   "海内外": {
     "file": "海内外.svg",
     "src": "images/HSK_3.0/level6/海内外.svg",
@@ -31336,6 +31341,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "还原.svg",
     "src": "images/HSK_3.0/level6/还原.svg",
     "caption": "khôi phục nguyên trạng, hoàn nguyên"
+  },
+  "患者": {
+    "file": "患者.svg",
+    "src": "images/HSK_3.0/level6/患者.svg",
+    "caption": "bệnh nhân, người bệnh"
+  },
+  "黄": {
+    "file": "黄.svg",
+    "src": "images/HSK_3.0/level6/黄.svg",
+    "caption": "màu vàng; hỏng (kế hoạch)"
   },
   "回报": {
     "file": "回报.svg",
@@ -31712,6 +31727,16 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/进而.svg",
     "caption": "từ đó, qua đó, tiếp theo đó"
   },
+  "进度": {
+    "file": "进度.svg",
+    "src": "images/HSK_3.0/level6/进度.svg",
+    "caption": "tiến độ (công trình, dự án)"
+  },
+  "进化": {
+    "file": "进化.svg",
+    "src": "images/HSK_3.0/level6/进化.svg",
+    "caption": "tiến hóa"
+  },
   "近视": {
     "file": "近视.svg",
     "src": "images/HSK_3.0/level6/近视.svg",
@@ -31907,10 +31932,20 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level6/看重.svg",
     "caption": "coi trọng, xem trọng"
   },
+  "康复": {
+    "file": "康复.svg",
+    "src": "images/HSK_3.0/level6/康复.svg",
+    "caption": "hồi phục, bình phục sức khỏe"
+  },
   "考验": {
     "file": "考验.svg",
     "src": "images/HSK_3.0/level6/考验.svg",
     "caption": "thử thách, khảo nghiệm"
+  },
+  "科": {
+    "file": "科.svg",
+    "src": "images/HSK_3.0/level6/科.svg",
+    "caption": "môn, chuyên khoa (khoa khám bệnh, ngành học)"
   },
   "科幻": {
     "file": "科幻.svg",
@@ -32086,6 +32121,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "立.svg",
     "src": "images/HSK_3.0/level6/立.svg",
     "caption": "đứng; lập nên, dựng nên"
+  },
+  "粒": {
+    "file": "粒.svg",
+    "src": "images/HSK_3.0/level6/粒.svg",
+    "caption": "hạt, hột (lượng từ: 一粒米)"
   },
   "力度": {
     "file": "力度.svg",
@@ -33201,6 +33241,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "听取.svg",
     "src": "images/HSK_3.0/level6/听取.svg",
     "caption": "lắng nghe (ý kiến, báo cáo)"
+  },
+  "通道": {
+    "file": "通道.svg",
+    "src": "images/HSK_3.0/level6/通道.svg",
+    "caption": "lối đi, hành lang, kênh dẫn"
   },
   "通话": {
     "file": "通话.svg",

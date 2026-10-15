@@ -36,8 +36,10 @@
 .review-timer-fill { height: 100%; background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 80%, #ffffff)); width: 100%; transition: width 1s linear; }
 .review-timer-fill.review-timer-low { background: var(--danger-solid); }
 
-.review-question-word { text-align: center; margin-bottom: 22px; }
-.review-hanzi { font-size: 48px; font-weight: 600; line-height: 1.2; }
+.review-hanzi { font-size: 48px; font-weight: 600; line-height: 1.2; white-space: nowrap; text-wrap: nowrap; max-width: 100%; }
+.review-hanzi.is-len-4 { font-size: 40px; }
+.review-hanzi.is-len-5 { font-size: 34px; }
+.review-hanzi.is-len-6-plus { font-size: 28px; }
 .review-meaning { font-size: 15px; color: var(--text-secondary); margin-top: 4px; }
 
 .review-answer-area { display: flex; gap: 8px; }
