@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Shield (Gan) -->
+  <path d="M70 80 C70 60, 90 50, 120 50 C150 50, 170 60, 170 80 L170 130 C170 160, 145 180, 120 190 C95 180, 70 160, 70 130 Z" fill="#4A5568" stroke="#E2E8F0" stroke-width="4"/>
+  <path d="M120 60 L120 180" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M80 90 L160 90" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Spear (Ge) -->
+  <g transform="rotate(-25 120 120)">
+    <path d="M115 40 L125 40 L122 100 L118 100 Z" fill="#F6AD55"/>
+    <path d="M120 100 L120 200" stroke="#A0AEC0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M110 100 L130 100" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative highlights for weapon sharpness -->
+  <path d="M120 40 L125 55 L120 50 L115 55 Z" fill="#FFF"/>
+</svg>

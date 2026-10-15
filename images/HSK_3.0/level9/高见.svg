@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background atmosphere: Subtle light rays representing insight -->
+  <path d="M120 40 L160 200 L80 200 Z" fill="#2C313C" opacity="0.5"/>
+  
+  <!-- The "High" perspective: A stylized mountain peak or elevated platform -->
+  <path d="M40 180 L120 80 L200 180 Z" fill="#3D4451"/>
+  
+  <!-- The "Insight" (高见): A glowing, golden light bulb shape emerging from the elevated peak -->
+  <!-- Using geometric shapes to represent a brilliant idea/insight -->
+  <circle cx="120" cy="100" r="25" fill="#FFC107"/>
+  <path d="M105 100 L135 100 L125 130 L115 130 Z" fill="#FFC107"/>
+  
+  <!-- Visual contrast: Small, mundane grey shapes at the base vs the golden, elevated insight -->
+  <circle cx="60" cy="190" r="8" fill="#788292"/>
+  <circle cx="180" cy="190" r="8" fill="#788292"/>
+  <rect x="90" y="180" width="60" height="20" rx="4" fill="#788292"/>
+  
+  <!-- Rays of light emanating from the insight to show "brilliance" -->
+  <line x1="120" y1="70" x2="120" y2="50" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+  <line x1="145" y1="85" x2="160" y2="70" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+  <line x1="95" y1="85" x2="80" y2="70" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+</svg>
