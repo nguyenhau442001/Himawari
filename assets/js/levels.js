@@ -494,11 +494,6 @@ function renderLearningDashboard() {
   const dueTotal = countDueCardsAcrossLevels(new Date());
   if (dueCount) dueCount.textContent = String(dueTotal);
   if (todayReviewButton) todayReviewButton.hidden = dueTotal === 0;
-  const bottomNavDueBadge = document.getElementById('bottomNavDueBadge');
-  if (bottomNavDueBadge) {
-    bottomNavDueBadge.textContent = String(dueTotal);
-    bottomNavDueBadge.hidden = dueTotal === 0;
-  }
 
   const target = summary.target;
   if (target) {

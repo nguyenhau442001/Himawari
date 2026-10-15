@@ -170,27 +170,6 @@
     stroke: var(--accent);
   }
 
-  /* Due count badge in bottom nav */
-  .bottom-nav-due-badge {
-    position: absolute;
-    top: 3px;
-    right: calc(50% - 18px);
-    background: var(--accent);
-    color: #ffffff;
-    font-size: 10px;
-    font-weight: 800;
-    min-width: 16px;
-    height: 16px;
-    line-height: 16px;
-    text-align: center;
-    padding: 0 4px;
-    border-radius: 999px;
-    box-shadow: 0 2px 6px rgba(255, 87, 34, 0.45);
-  }
-  .bottom-nav-due-badge[hidden] {
-    display: none !important;
-  }
-
   /* Tools menu in bottom nav */
   .primary-games-menu {
     flex: 1 1 0;
