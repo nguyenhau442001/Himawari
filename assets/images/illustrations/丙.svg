@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Podium structure representing ranking (1st, 2nd, 3rd) -->
+  <!-- 1st Place (甲) -->
+  <rect x="95" y="100" width="50" height="100" fill="#FFC107" rx="4"/>
+  <!-- 2nd Place (乙) -->
+  <rect x="40" y="130" width="50" height="70" fill="#78909C" rx="4"/>
+  <!-- 3rd Place (丙) - Highlighted as the focus -->
+  <rect x="150" y="150" width="50" height="50" fill="#FF5722" rx="4"/>
+  
+  <!-- Ranking indicators -->
+  <text x="110" y="90" font-family="sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">I</text>
+  <text x="55" y="120" font-family="sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">II</text>
+  <text x="165" y="140" font-family="sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold">III</text>
+  
+  <!-- Floor line -->
+  <line x1="20" y1="200" x2="220" y2="200" stroke="#455A64" stroke-width="4" stroke-linecap="round"/>
+</svg>

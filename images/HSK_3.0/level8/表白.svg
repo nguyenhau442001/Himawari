@@ -1,0 +1,74 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background winter atmosphere / snowflakes -->
+  <g fill="#A6B4C9" opacity="0.4">
+    <circle cx="45" cy="50" r="1.5"/>
+    <circle cx="85" cy="30" r="2"/>
+    <circle cx="160" cy="45" r="1"/>
+    <circle cx="205" cy="65" r="2"/>
+    <circle cx="30" cy="95" r="1"/>
+    <circle cx="210" cy="120" r="1.5"/>
+    <circle cx="70" cy="135" r="1.5"/>
+    <circle cx="190" cy="175" r="2"/>
+    <circle cx="50" cy="190" r="1"/>
+  </g>
+
+  <!-- Central Character: The person confessing (Man standing on left) -->
+  <g id="suitor">
+    <!-- Body/Coat -->
+    <path d="M 80 160 L 80 205 L 105 205 L 105 160 Z" fill="#2C3E50"/>
+    <path d="M 85 130 C 85 130 75 145 78 165 L 107 165 C 110 145 100 130 100 130 Z" fill="#34495E"/>
+    <!-- Head -->
+    <circle cx="92.5" cy="115" r="11" fill="#F5CBA7"/>
+    <!-- Hair -->
+    <path d="M 81.5 113 C 83 104 93 103 103 110 C 103 107 98 102 91 102 C 84 102 81 108 81.5 113 Z" fill="#2C3E50"/>
+    <!-- Nervous/Determined Posture: Arm holding out the confession symbol -->
+    <!-- Back arm -->
+    <path d="M 85 135 L 70 155" stroke="#34495E" stroke-width="6" stroke-linecap="round"/>
+    <!-- Front arm reaching forward -->
+    <path d="M 100 138 C 115 140 125 145 135 145" stroke="#34495E" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central Character: The listener/recipient (Woman standing on right) -->
+  <g id="recipient">
+    <!-- Body/Coat -->
+    <path d="M 135 160 L 130 205 L 155 205 L 160 160 Z" fill="#D98880"/>
+    <path d="M 140 130 C 140 130 132 145 135 165 L 160 165 C 163 145 155 130 155 130 Z" fill="#E74C3C"/>
+    <!-- Head -->
+    <circle cx="147.5" cy="115" r="10.5" fill="#F5CBA7"/>
+    <!-- Hair -->
+    <path d="M 137 113 C 137 103 158 103 158 113 C 158 122 153 135 153 135 C 153 135 137 122 137 113 Z" fill="#5D4037"/>
+    <!-- Arm reacting (slightly raised hands near chest in surprise/touch) -->
+    <path d="M 145 140 L 138 150" stroke="#C0392B" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- The Core Physical Object / Focus: A genuine token of confession (Glowing warm letter / heart-shaped origami or note held out) -->
+  <g id="confession-token" transform="translate(122, 133)">
+    <!-- Soft highlight glow behind the token -->
+    <circle cx="13" cy="12" r="18" fill="#F39C12" opacity="0.25"/>
+    
+    <!-- Envelope / Note body -->
+    <path d="M 2 8 L 13 18 L 24 8 L 24 20 L 2 20 Z" fill="#ECF0F1"/>
+    <!-- Envelope flap -->
+    <path d="M 2 8 L 13 16 L 24 8 Z" fill="#BDC3C7"/>
+    
+    <!-- Clear glowing heart symbolizing sincere affection (The exact semantic meaning of Biǎobái) -->
+    <path d="M 13 13 C 13 11 11 9 9 9 C 7 9 5 11 5 13 C 5 16 9 19 13 22 C 17 19 21 16 21 13 C 21 11 19 9 17 9 C 15 9 13 11 13 13 Z" fill="#E74C3C" transform="translate(0, -3) scale(0.65) translate(4, 2)"/>
+  </g>
+
+  <!-- Foreground falling snowflakes adding depth -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="110" cy="70" r="2.5"/>
+    <circle cx="135" cy="40" r="2"/>
+    <circle cx="70" cy="80" r="2"/>
+    <circle cx="170" cy="90" r="2.5"/>
+    <circle cx="95" cy="170" r="1.5"/>
+    <circle cx="150" cy="185" r="2"/>
+  </g>
+
+  <!-- Ground layer (Snow drift) -->
+  <path d="M 0 205 Q 120 195 240 205 L 240 240 L 0 240 Z" fill="#CFD8DC"/>
+  <path d="M 0 215 Q 80 205 240 215 L 240 240 L 0 240 Z" fill="#ECEFF1"/>
+</svg>

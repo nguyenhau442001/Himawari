@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 125)">
+    <!-- Stairs / Steps descending from top-right to bottom-left -->
+    <path d="M -80,-50 L -40,-50 L -40,-20 L 0,-20 L 0,10 L 40,10 L 40,40 L 80,40 L 80,70 L 95,70 L 95,85 L -95,85 L -95,-50 Z" fill="#242B35" />
+    <!-- Individual step top highlights for clarity -->
+    <path d="M -80,-50 L -40,-50 L -40,-47 L -80,-47 Z" fill="#323B4A" />
+    <path d="M -40,-20 L 0,-20 L 0,-17 L -40,-17 Z" fill="#323B4A" />
+    <path d="M 0,10 L 40,10 L 40,13 L 0,13 Z" fill="#323B4A" />
+    <path d="M 40,40 L 80,40 L 80,43 L 40,43 Z" fill="#323B4A" />
+
+    <!-- Smartphone held in hand (distraction element) -->
+    <g transform="translate(35, -25) rotate(15)">
+      <rect x="-8" y="-14" width="16" height="28" rx="2" fill="#4A5568" />
+      <rect x="-6" y="-12" width="12" height="24" rx="1" fill="#60A5FA" opacity="0.8" />
+    </g>
+
+    <!-- Falling Human Character (Misstep / Bùshèn) -->
+    <g transform="translate(-15, -15) rotate(-20)">
+      <!-- Head -->
+      <circle cx="-10" cy="-35" r="10" fill="#FBBF24" />
+      
+      <!-- Torso -->
+      <path d="M -10,-23 L 5,-10 L -2,12 L -18,2 Z" fill="#EF4444" />
+      
+      <!-- Left Arm (flailing) -->
+      <path d="M -10,-20 L -30,-5 L -35,5" fill="none" stroke="#FBBF24" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Right Arm (holding phone) -->
+      <path d="M 0,-18 L 25,-20" fill="none" stroke="#FBBF24" stroke-width="6" stroke-linecap="round" />
+      
+      <!-- Right Leg (bent / missing the step) -->
+      <path d="M 0,10 L 20,25 L 35,15" fill="none" stroke="#3B82F6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Left Leg (twisting / sprain indicator) -->
+      <path d="M -10,12 L -5,35 L -2,45" fill="none" stroke="#3B82F6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Motion / Slip Effect Lines -->
+    <path d="M -45,-30 L -60,-35" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+    <path d="M -30,-40 L -45,-45" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+    
+    <!-- Focus Indicator: Pain / Twisting Spark at Ankle -->
+    <g transform="translate(-20, 25)">
+      <circle cx="0" cy="0" r="8" fill="#F59E0B" opacity="0.3" />
+      <path d="M-4,-4 L4,4 M-4,4 L4,-4" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>

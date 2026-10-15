@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle ambient elements (warm workshop/neighborhood glow) -->
+  <circle cx="120" cy="120" r="88" fill="#252A34" opacity="0.6"/>
+  <circle cx="120" cy="120" r="68" fill="#2D3446" opacity="0.5"/>
+
+  <!-- Character: Friendly Older Uncle / Bóbo (bác - father's older brother) -->
+  <g id="bobo-character">
+    <!-- Torso / Jacket -->
+    <path d="M75 195 C75 160 95 145 120 145 C145 145 165 160 165 195 Z" fill="#3B485C"/>
+    <!-- Collar -->
+    <path d="M102 145 L120 168 L138 145 Z" fill="#E8ECEF"/>
+    <!-- Inner Shirt / Polo -->
+    <path d="M108 145 L120 162 L132 145 Z" fill="#D27D2D"/>
+
+    <!-- Neck -->
+    <path d="M105 130 L105 150 L135 150 L135 130 Z" fill="#E8B088"/>
+
+    <!-- Friendly Head / Face -->
+    <circle cx="120" cy="108" r="32" fill="#F4C299"/>
+
+    <!-- Friendly Smile & Expression -->
+    <!-- Eyes (Kind squint / happy eyes) -->
+    <path d="M104 102 Q110 97 116 102" stroke="#4A3B32" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M124 102 Q130 97 136 102" stroke="#4A3B32" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Gentle Smile -->
+    <path d="M112 118 Q120 126 128 118" stroke="#4A3B32" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Cheeks (Warm friendly glow) -->
+    <circle cx="100" cy="113" r="5" fill="#E08A68" opacity="0.4"/>
+    <circle cx="140" cy="113" r="5" fill="#E08A68" opacity="0.4"/>
+
+    <!-- Hair (Mature, short, distinguished gray hair at sides) -->
+    <path d="M88 105 C88 85 100 76 120 76 C140 76 152 85 152 105 C152 105 145 92 120 92 C95 92 88 105 88 105 Z" fill="#9DAAB6"/>
+    <!-- Hair highlights -->
+    <path d="M96 95 C102 85 110 82 120 82 C130 82 138 85 144 95" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- Glasses (Friendly rounded wireframes) -->
+    <circle cx="110" cy="103" r="10" stroke="#E5A93B" stroke-width="2" fill="none"/>
+    <circle cx="130" cy="103" r="10" stroke="#E5A93B" stroke-width="2" fill="none"/>
+    <line x1="120" y1="103" x2="120" y2="101" stroke="#E5A93B" stroke-width="2"/>
+
+    <!-- Neighborhood Helper Context Element: Wrench / Tool (referencing fixing appliances) -->
+    <g transform="translate(148, 155) rotate(25)">
+      <rect x="-3" y="-18" width="6" height="26" rx="3" fill="#E5A93B"/>
+      <circle cx="0" cy="-18" r="7" fill="#E5A93B"/>
+      <circle cx="0" cy="-18" r="3.5" fill="#3B485C"/>
+    </g>
+  </g>
+</svg>

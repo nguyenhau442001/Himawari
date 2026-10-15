@@ -1,0 +1,33 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Continuous rhythmic wave path representing relentless effort / persistence -->
+    <path d="M 30,120 Q 60,70 90,120 T 150,120 T 210,120" fill="none" stroke="#2A324B" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Milestone progress nodes -->
+    <circle cx="60" cy="95" r="4" fill="#3B466B"/>
+    <circle cx="120" cy="145" r="4" fill="#3B466B"/>
+    <circle cx="180" cy="95" r="4" fill="#3B466B"/>
+
+    <!-- Central symbolic physical object: The Ever-Burning Forge Hammer / Precision Instrument, representing unceasing dedication -->
+    <g transform="translate(120, 115)">
+      <!-- Base anvil/mount -->
+      <path d="M-30,40 L30,40 L20,20 L-20,20 Z" fill="#2E3854"/>
+      <rect x="-8" y="10" width="16" height="12" fill="#47557E"/>
+
+      <!-- Stylized dynamic mechanical arm / hammer striking continuously (representing persistent action) -->
+      <path d="M0,-45 L-15,15 L15,15 Z" fill="#FFB703"/>
+      <circle cx="0" cy="-45" r="8" fill="#FF9F0A"/>
+      
+      <!-- Spark particles representing continuous active effort -->
+      <circle cx="-25" cy="5" r="2.5" fill="#FFB703"/>
+      <circle cx="28" cy="2" r="2" fill="#FF9F0A"/>
+      <circle cx="-18" cy="-15" r="1.5" fill="#FFE169"/>
+      <circle cx="22" cy="-12" r="2.5" fill="#FFE169"/>
+      
+      <!-- Energy glow ring -->
+      <circle cx="0" cy="15" r="38" fill="none" stroke="#FFB703" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="6 6"/>
+    </g>
+  </g>
+</svg>
