@@ -23,14 +23,64 @@ function pinyinLooseMatch(input, target) {
 }
 
 const REVIEW_RANGE_LEVELS = ['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'];
+let reviewSelectedLevel = 1;
+try {
+  const savedLevel = parseInt(localStorage.getItem('hsk_fast_review_level'), 10);
+  if (savedLevel >= 1 && savedLevel <= 6) reviewSelectedLevel = savedLevel;
+} catch (e) {}
+
+function selectReviewLevel(level) {
+  const n = Math.max(1, Math.min(6, Number(level) || 1));
+  reviewSelectedLevel = n;
+  try { localStorage.setItem('hsk_fast_review_level', String(n)); } catch (e) {}
+
+  const slider = document.getElementById('reviewRangeSlider');
+  if (slider) slider.value = n;
+
+  const chips = document.querySelectorAll('.review-filter-chip');
+  chips.forEach(chip => {
+    const chipLvl = Number(chip.dataset.level);
+    const isSelected = chipLvl === n;
+    const isInRange = chipLvl <= n;
+    chip.classList.toggle('active', isSelected);
+    chip.classList.toggle('in-range', isInRange);
+    chip.setAttribute('aria-pressed', isSelected ? 'true' : 'false');
+  });
+
+  const levels = REVIEW_RANGE_LEVELS.slice(0, n);
+  const totalWords = levels.reduce((sum, lvl) => sum + (LEVELS[lvl] ? LEVELS[lvl].total : 0), 0);
+
+  const labelEl = document.getElementById('reviewRangeLabel');
+  if (labelEl) {
+    labelEl.textContent = n === 1 ? 'HSK 1' : `HSK 1 – HSK ${n}`;
+  }
+
+  const subtextEl = document.getElementById('reviewScopeSubtext');
+  if (subtextEl) {
+    subtextEl.textContent = n === 1
+      ? 'Chỉ ôn từ vựng thuộc cấp độ HSK 1'
+      : `Ôn tập gộp từ vựng từ cấp độ HSK 1 đến HSK ${n}`;
+  }
+
+  const countEl = document.getElementById('reviewRangeCount');
+  if (countEl) {
+    countEl.textContent = `${totalWords.toLocaleString('vi-VN')} từ`;
+  }
+
+  const poolStatus = document.getElementById('reviewPoolStatus');
+  const poolSub = document.getElementById('reviewPoolSub');
+  if (reviewLoadedRangeMax === n && reviewWordPool.length > 0) {
+    const pool = buildReviewPool();
+    if (poolStatus) poolStatus.textContent = `${pool.length} từ chờ ôn`;
+    if (poolSub) poolSub.textContent = pool.length > 0 ? 'Sẵn sàng bắt đầu ngay' : 'Đã thuộc hết từ trong phạm vi này!';
+  } else {
+    if (poolStatus) poolStatus.textContent = 'Từ chưa thuộc';
+    if (poolSub) poolSub.textContent = 'Tự động ưu tiên thẻ cần ôn';
+  }
+}
 
 function updateReviewRangeLabel(sliderValue) {
-  const n = Number(sliderValue);
-  const levels = REVIEW_RANGE_LEVELS.slice(0, n);
-  const totalWords = levels.reduce((sum, lvl) => sum + LEVELS[lvl].total, 0);
-  document.getElementById('reviewRangeLabel').textContent =
-    n === 1 ? 'HSK1' : `HSK1 – HSK${n}`;
-  document.getElementById('reviewRangeCount').textContent = `${totalWords} từ`;
+  selectReviewLevel(sliderValue);
 }
 
 function buildReviewPool() {
@@ -66,19 +116,34 @@ async function fetchReviewWords(levels) {
   return words;
 }
 
-function startReviewRangeLoad() {
-  const slider = document.getElementById('reviewRangeSlider');
-  const n = Number(slider.value);
+function startUnifiedReview() {
+  const n = reviewSelectedLevel || 1;
   const levels = REVIEW_RANGE_LEVELS.slice(0, n);
-
   const startBtn = document.getElementById('reviewRangeStart');
-  const body = document.getElementById('reviewPickerBody');
-  startBtn.disabled = true;
-  body.innerHTML = '<div class="loading-text">Đang tải dữ liệu...</div>';
+  const btnLabel = document.getElementById('reviewStartBtnLabel');
+
+  if (startBtn) startBtn.disabled = true;
+  if (btnLabel) btnLabel.textContent = 'Đang tải dữ liệu...';
+
+  const proceedToStart = function () {
+    if (startBtn) startBtn.disabled = false;
+    if (btnLabel) btnLabel.textContent = 'Bắt đầu ôn ngay';
+
+    const pool = buildReviewPool();
+    reviewPool = pool;
+
+    if (pool.length === 0) {
+      alert(countNewReviewsToday() >= readDailyStudyGoal()
+        ? 'Bạn đã hoàn thành mục tiêu thẻ mới hôm nay! Thẻ mới sẽ mở lại ngày mai. Bạn vẫn có thể ôn thẻ đến hạn trong mục Ôn hôm nay.'
+        : 'Bạn đã thuộc hết từ trong phạm vi này! Hãy chọn cấp độ rộng hơn.');
+      return;
+    }
+
+    startReviewSession();
+  };
 
   if (reviewLoadedRangeMax === n && reviewWordPool.length > 0) {
-    startBtn.disabled = false;
-    renderReviewStart();
+    proceedToStart();
     return;
   }
 
@@ -89,7 +154,6 @@ function startReviewRangeLoad() {
 
   let fallbackStarted = false;
   const finishLoad = function (words) {
-    startBtn.disabled = false;
     reviewWordPool = words;
     reviewCardsByLevel = {};
     for (const level of levels) {
@@ -99,13 +163,16 @@ function startReviewRangeLoad() {
       reviewProgressByLevel[level] = progressFromCards(reviewCardsByLevel[level]);
     }
     reviewLoadedRangeMax = n;
-    renderReviewStart();
+    proceedToStart();
   };
+
   const failLoad = function (error) {
-    startBtn.disabled = false;
+    if (startBtn) startBtn.disabled = false;
+    if (btnLabel) btnLabel.textContent = 'Bắt đầu ôn ngay';
     console.error('Fast-review range load failed:', error);
-    body.innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
+    alert('Không thể tải dữ liệu cấp độ. Vui lòng thử lại.');
   };
+
   const loadWithoutWorker = function (workerError) {
     if (fallbackStarted) return;
     fallbackStarted = true;
@@ -148,40 +215,24 @@ function startReviewRangeLoad() {
   }
 }
 
+function startReviewRangeLoad() {
+  startUnifiedReview();
+}
+
+function showReviewSetup() {
+  abandonReviewSession();
+  const setupCard = document.getElementById('reviewSetupCard');
+  if (setupCard) setupCard.hidden = false;
+  const sessionEl = document.getElementById('reviewSession');
+  if (sessionEl) sessionEl.hidden = true;
+  const resultEl = document.getElementById('reviewResult');
+  if (resultEl) resultEl.hidden = true;
+  selectReviewLevel(reviewSelectedLevel || 1);
+  updateReviewMobileAuxBadge();
+}
+
 function renderReviewStart() {
-  closeReviewMistakesModal();
-  const body = document.getElementById('reviewPickerBody');
-  body.innerHTML = `
-    <div id="reviewSession" hidden></div>
-    <div id="reviewResult" hidden></div>
-    <div id="reviewStart"></div>`;
-  const start = document.getElementById('reviewStart');
-
-  const pool = buildReviewPool();
-  reviewPool = pool;
-
-  if (pool.length === 0) {
-    start.innerHTML = `
-      <div class="review-empty">
-        <div class="review-empty-icon">🎉</div>
-        <div class="review-empty-title">${countNewReviewsToday() >= readDailyStudyGoal() ? 'Bạn đã hoàn thành mục tiêu thẻ mới hôm nay!' : 'Bạn đã thuộc hết từ trong phạm vi này!'}</div>
-        <div class="review-empty-msg">${countNewReviewsToday() >= readDailyStudyGoal() ? 'Thẻ mới sẽ mở lại ngày mai. Bạn vẫn có thể ôn thẻ đến hạn trong mục Ôn hôm nay.' : 'Không còn từ nào để ôn nhanh. Hãy học thêm từ mới hoặc chọn phạm vi rộng hơn.'}</div>
-      </div>`;
-    return;
-  }
-
-  start.innerHTML = `
-    <div class="review-intro">
-      <div class="review-intro-icon">⚡</div>
-      <div class="review-intro-title">Ôn nhanh</div>
-      <ul class="review-rules">
-        <li>Mỗi câu có <strong>20 giây</strong> để trả lời</li>
-        <li>Bạn có <strong>3 mạng</strong> — trả lời sai hoặc hết giờ sẽ mất 1 mạng</li>
-        <li>Gõ pinyin hoặc chọn đáp án đúng, xen kẽ ngẫu nhiên</li>
-        <li><strong>${pool.length}</strong> từ chưa nhớ đang chờ ôn</li>
-      </ul>
-      <button class="review-start-btn" onclick="startReviewSession()">Bắt đầu</button>
-    </div>`;
+  showReviewSetup();
 }
 
 function startReviewSession() {
@@ -191,9 +242,17 @@ function startReviewSession() {
   reviewStreak = 0;
   reviewBestStreak = 0;
   reviewMistakes = [];
-  document.getElementById('reviewStart').hidden = true;
-  document.getElementById('reviewResult').hidden = true;
-  document.getElementById('reviewSession').hidden = false;
+  closeReviewMistakesModal();
+
+  const setupCard = document.getElementById('reviewSetupCard');
+  if (setupCard) setupCard.hidden = true;
+  const startEl = document.getElementById('reviewStart');
+  if (startEl) startEl.hidden = true;
+  const resultEl = document.getElementById('reviewResult');
+  if (resultEl) resultEl.hidden = true;
+  const sessionEl = document.getElementById('reviewSession');
+  if (sessionEl) sessionEl.hidden = false;
+
   renderReviewQuestion();
 }
 
@@ -259,6 +318,7 @@ function renderReviewQuestion() {
     <div class="review-header">
       <div class="review-lives" aria-label="${reviewLives} mạng còn lại">${livesHtml}</div>
       <div class="review-progress-text">${reviewIndex + 1} / ${reviewPool.length}</div>
+      <button type="button" class="review-session-exit-btn" onclick="exitReviewSession()" title="Dừng phiên ôn tập" aria-label="Thoát phiên ôn tập">✕ Thoát</button>
     </div>
     <div class="review-timer-track"><div class="review-timer-fill" id="reviewTimerFill"></div></div>
     <div class="review-question-word">
@@ -439,15 +499,21 @@ function renderReviewResult() {
       </div>
       <div class="review-result-actions">
         ${mistakesBtnHtml}
-        <button type="button" class="review-again-btn" onclick="renderReviewStart()">Chơi lại</button>
-        <button type="button" class="review-back-btn" onclick="renderReviewRangePicker()">Chọn lại phạm vi</button>
+        <button type="button" class="review-again-btn" onclick="startReviewSession()">⚡ Chơi lại</button>
+        <button type="button" class="review-back-btn" onclick="showReviewSetup()">⚙️ Đổi phạm vi</button>
       </div>
     </div>`;
 }
 
+function exitReviewSession() {
+  if (confirm('Bạn có chắc muốn dừng phiên ôn tập này?')) {
+    abandonReviewSession();
+    showReviewSetup();
+  }
+}
+
 function renderReviewRangePicker() {
-  closeReviewMistakesModal();
-  document.getElementById('reviewPickerBody').innerHTML = '';
+  showReviewSetup();
 }
 
 function escapeReviewHtml(value) {
@@ -615,3 +681,129 @@ function openReviewMistakesModal() {
   document.body.classList.add('review-modal-open');
   document.addEventListener('keydown', handleReviewMistakesKeydown);
 }
+
+function openReviewBottomSheet() {
+  const sheet = document.getElementById('reviewBottomSheet');
+  if (!sheet) return;
+  renderReviewBottomSheetPanes();
+  if (typeof sheet.showModal === 'function') {
+    try { sheet.showModal(); } catch (e) {}
+  }
+  sheet.classList.add('is-open');
+  document.body.classList.add('review-sheet-open');
+}
+
+function closeReviewBottomSheet() {
+  const sheet = document.getElementById('reviewBottomSheet');
+  if (!sheet) return;
+  sheet.classList.remove('is-open');
+  document.body.classList.remove('review-sheet-open');
+  setTimeout(() => {
+    if (typeof sheet.close === 'function') {
+      try { sheet.close(); } catch (e) {}
+    }
+  }, 200);
+}
+
+function switchReviewSheetTab(tab) {
+  const forgotTab = document.getElementById('reviewSheetTabForgot');
+  const weakTab = document.getElementById('reviewSheetTabWeak');
+  const forgotPane = document.getElementById('reviewSheetForgotPane');
+  const weakPane = document.getElementById('reviewSheetWeakPane');
+  if (!forgotTab || !weakTab || !forgotPane || !weakPane) return;
+
+  const isForgot = tab === 'forgot';
+  forgotTab.classList.toggle('active', isForgot);
+  weakTab.classList.toggle('active', !isForgot);
+  forgotPane.style.display = isForgot ? 'block' : 'none';
+  weakPane.style.display = isForgot ? 'none' : 'block';
+}
+
+function renderReviewBottomSheetPanes() {
+  const weakListContainer = document.getElementById('reviewSheetWeakList');
+  if (weakListContainer) {
+    const list = typeof loadWeakWords === 'function' ? loadWeakWords() : [];
+    if (!list.length) {
+      weakListContainer.innerHTML = '<div class="review-sheet-empty">Chưa có từ khó nào được đánh dấu.</div>';
+    } else {
+      weakListContainer.innerHTML = list.map(w => {
+        const hanziSafe = escapeReviewHtml(w.hanzi);
+        const pinyinSafe = escapeReviewHtml(w.pinyin || '');
+        const meaningSafe = escapeReviewHtml(w.meaning || '');
+        const levelSafe = escapeReviewHtml(w.level || '');
+        const levelPill = w.level ? (typeof formatWeakWordLevel === 'function' ? formatWeakWordLevel(w.level) : w.level.toUpperCase()) : '';
+        return `
+          <div class="review-sheet-row" data-hanzi="${hanziSafe}">
+            <button type="button" class="review-sheet-row-main" onclick="openWordInLevel('${levelSafe}', '${escapeReviewHtml(w.id || w.hanzi)}', true); closeReviewBottomSheet();">
+              <span class="review-sheet-hanzi" lang="zh-CN">${hanziSafe}</span>
+              <span class="review-sheet-text">
+                <span class="review-sheet-meta">
+                  <span class="review-sheet-pinyin">${pinyinSafe}</span>
+                  ${levelPill ? `<span class="review-sheet-pill">${escapeReviewHtml(levelPill)}</span>` : ''}
+                </span>
+                <span class="review-sheet-meaning" title="${meaningSafe}">${meaningSafe}</span>
+              </span>
+            </button>
+            <button type="button" class="review-sheet-remove-btn" onclick="removeWeakWordFromSheet('${hanziSafe}')" aria-label="Bỏ đánh dấu ${hanziSafe}" title="Bỏ đánh dấu">✕</button>
+          </div>
+        `;
+      }).join('');
+    }
+  }
+
+  const forgotListContainer = document.getElementById('reviewSheetForgotList');
+  const forgotActionsContainer = document.getElementById('reviewSheetForgotActions');
+  if (forgotListContainer) {
+    const hwForgottenEl = document.getElementById('hwForgotten');
+    const existingList = hwForgottenEl ? hwForgottenEl.querySelector('.hw-forgot-list') : null;
+    const existingBtn = hwForgottenEl ? hwForgottenEl.querySelector('.hw-primary-btn') : null;
+
+    if (existingList && existingList.children.length > 0) {
+      forgotListContainer.innerHTML = existingList.innerHTML;
+      if (forgotActionsContainer && existingBtn) {
+        forgotActionsContainer.innerHTML = '';
+        const cloneBtn = existingBtn.cloneNode(true);
+        cloneBtn.onclick = function() {
+          existingBtn.click();
+          closeReviewBottomSheet();
+        };
+        forgotActionsContainer.appendChild(cloneBtn);
+      }
+    } else {
+      forgotListContainer.innerHTML = '<div class="review-sheet-empty">Hiện không có từ nào hay nhầm lẫn đang chờ ôn gấp!</div>';
+      if (forgotActionsContainer) forgotActionsContainer.innerHTML = '';
+    }
+  }
+}
+
+function removeWeakWordFromSheet(hanzi) {
+  if (typeof loadWeakWords === 'function' && typeof saveWeakWords === 'function') {
+    const list = loadWeakWords().filter(w => w.hanzi !== hanzi);
+    saveWeakWords(list);
+    if (typeof renderWeakWordsList === 'function') renderWeakWordsList();
+    if (typeof updateWeakWordToggleButton === 'function') updateWeakWordToggleButton();
+    renderReviewBottomSheetPanes();
+    updateReviewMobileAuxBadge();
+  }
+}
+
+function updateReviewMobileAuxBadge() {
+  const badge = document.getElementById('reviewMobileAuxLabel');
+  if (!badge) return;
+  const weakCount = typeof loadWeakWords === 'function' ? loadWeakWords().length : 0;
+  const hwForgottenEl = document.getElementById('hwForgotten');
+  const forgotItems = hwForgottenEl ? hwForgottenEl.querySelectorAll('.hw-forgot-row').length : 0;
+  const total = weakCount + forgotItems;
+  if (total > 0) {
+    badge.textContent = `${forgotItems} từ cần ôn gấp • ${weakCount} từ khó`;
+  } else {
+    badge.textContent = 'Danh sách từ hay nhầm & từ khó';
+  }
+}
+
+document.addEventListener('click', (e) => {
+  const sheet = document.getElementById('reviewBottomSheet');
+  if (sheet && sheet.classList.contains('is-open') && e.target === sheet) {
+    closeReviewBottomSheet();
+  }
+});

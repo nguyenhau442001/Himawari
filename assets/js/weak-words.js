@@ -190,10 +190,12 @@ function renderWeakWordsList() {
         <button type="button" class="weak-word-open" aria-label="Học từ ${hanziSafe}${meaningSafe ? ': ' + meaningSafe : ''}">
           <span class="weak-word-hanzi" lang="zh-CN">${hanziSafe}</span>
           <span class="weak-word-text">
-            <span class="weak-word-pinyin">${pinyinSafe}</span>
+            <span class="weak-word-meta">
+              <span class="weak-word-pinyin">${pinyinSafe}</span>
+              ${levelPill ? `<span class="weak-word-level-pill">${escapeWeakWordHtml(levelPill)}</span>` : ''}
+            </span>
             <span class="weak-word-meaning" title="${meaningSafe}">${meaningSafe}</span>
           </span>
-          ${levelPill ? `<span class="weak-word-level-pill">${escapeWeakWordHtml(levelPill)}</span>` : ''}
         </button>
         <button type="button" class="weak-word-remove" data-remove="${hanziSafe}" aria-label="Bỏ đánh dấu ${hanziSafe}" title="Bỏ đánh dấu từ khó">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -206,6 +208,7 @@ function renderWeakWordsList() {
   }).join('');
 
   enrichMissingWeakWordMetadata(list);
+  if (typeof updateReviewMobileAuxBadge === 'function') updateReviewMobileAuxBadge();
 }
 
 function initWeakWordsPanel() {

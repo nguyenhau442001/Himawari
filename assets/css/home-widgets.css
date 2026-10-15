@@ -198,23 +198,41 @@ body:not(.home-screen) .home-widgets { display: none; }
 .hw-forgot-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
 .hw-forgot-list::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
 .hw-forgot-row {
-  display: flex; align-items: center; gap: 12px;
-  width: 100%; min-height: 52px; padding: 8px 12px;
+  display: flex; align-items: flex-start; gap: 12px;
+  width: 100%; min-height: 58px; padding: 10px 12px;
   border: 1px solid var(--border); border-radius: 12px;
   background: var(--surface-subtle); color: var(--text-primary); text-align: left;
 }
 .hw-forgot-row:hover { border-color: var(--accent); }
-.hw-forgot-hanzi { flex: 0 0 auto; font-size: 20px; font-weight: 600; }
-.hw-forgot-text { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; }
-.hw-forgot-pinyin { color: var(--text-secondary); font-size: 11.5px; }
-.hw-forgot-meaning {
-  font-size: 13px; font-weight: 600;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+.hw-forgot-open {
+  display: flex; align-items: flex-start; gap: 12px;
+  flex: 1 1 auto; min-width: 0; background: transparent; border: none;
+  padding: 0; text-align: left; cursor: pointer; color: inherit; font: inherit;
 }
+.hw-forgot-hanzi { flex: 0 0 auto; font-size: 22px; font-weight: 700; line-height: 1.15; }
+.hw-forgot-text { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.hw-forgot-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.hw-forgot-pinyin { color: var(--accent-text, var(--accent)); font-size: 12.5px; font-weight: 600; line-height: 1.25; }
+.hw-forgot-meaning {
+  font-size: 13px; font-weight: 400; color: var(--text-secondary);
+  line-height: 1.4; white-space: normal;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; word-break: break-word;
+}
+.hw-level-pill,
 .hw-lapse-pill {
-  flex: 0 0 auto; padding: 3px 8px; border-radius: 999px;
+  flex: 0 0 auto; padding: 1px 7px; border-radius: 999px;
   background: var(--accent-light); color: var(--accent-text);
-  font-size: 11px; font-weight: 700; white-space: nowrap;
+  font-size: 10.5px; font-weight: 700; white-space: nowrap;
+}
+.hw-review-speak.hw-icon-btn {
+  flex: 0 0 32px; width: 32px; height: 32px; border-radius: 8px;
+  border: 1px solid transparent; background: transparent; color: var(--text-tertiary);
+  cursor: pointer; display: grid; place-items: center; padding: 0;
+  transition: all 140ms ease;
+}
+.hw-review-speak.hw-icon-btn:hover {
+  background: var(--surface-hover); color: var(--text-primary); border-color: var(--border);
 }
 
 /* Khám phá nâng cao (Relocated Discovery Section) */

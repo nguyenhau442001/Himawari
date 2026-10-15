@@ -113,6 +113,7 @@ function setPrimaryTab(tab, options) {
   document.body.classList.toggle('is-game-view', isGame);
   document.body.classList.toggle('reading-view-active', tab === 'reading');
   document.body.classList.toggle('graded-reading-active', tab === 'gradedReading');
+  document.body.classList.toggle('review-view-active', tab === 'review');
   if (tab !== 'reading') {
     document.body.classList.remove('reading-zen-active');
   }
@@ -137,8 +138,13 @@ function setPrimaryTab(tab, options) {
     if (typeof GradedReading !== 'undefined') GradedReading.init();
   }
   if (tab === 'review') {
-    const slider = document.getElementById('reviewRangeSlider');
-    if (slider) updateReviewRangeLabel(slider.value);
+    if (typeof showReviewSetup === 'function') {
+      showReviewSetup();
+    } else {
+      const slider = document.getElementById('reviewRangeSlider');
+      if (slider && typeof updateReviewRangeLabel === 'function') updateReviewRangeLabel(slider.value);
+    }
+    if (typeof updateReviewMobileAuxBadge === 'function') updateReviewMobileAuxBadge();
   }
   if (tab === 'vocab' && vocabSubTab === 'topic') renderTopicGrid();
   if (tab === 'sentenceGame') startSentenceGame();
@@ -148,7 +154,8 @@ function setPrimaryTab(tab, options) {
   if (tab === 'guessWord') startGuessWordGame();
   if (tab === 'speedQuiz') startSpeedQuizGame(options || {});
   if (previousTab === 'review' && tab !== 'review') {
-    abandonReviewSession();
+    if (typeof abandonReviewSession === 'function') abandonReviewSession();
+    if (typeof closeReviewBottomSheet === 'function') closeReviewBottomSheet();
   }
   syncHomeScreen();
   // Reset scroll position to top and focus container/heading
