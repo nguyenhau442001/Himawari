@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Protective guiding hands representing parental care and deep debt of gratitude (恩情) -->
+    
+    <!-- Outer/Larger hand (representing parents/elders) -->
+    <path d="M 60,140 C 60,110 85,90 120,90 C 155,90 180,110 180,140 C 180,145 178,160 170,175 C 160,195 140,205 120,205 C 100,205 80,195 70,175 C 62,160 60,145 60,140 Z" fill="#2D3748" />
+    
+    <!-- Warm embrace gesture / Cupping hands -->
+    <path d="M 75,145 C 75,122 95,105 120,105 C 145,105 165,122 165,145 C 165,155 155,180 120,180 C 85,180 75,155 75,145 Z" fill="#1A1D24" />
+
+    <!-- Central nurturing figure / sprout (representing growth nurtured by deep gratitude) -->
+    <path d="M 120,165 L 120,125" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Leaves representing life and growth nurtured over a lifetime -->
+    <path d="M 120,140 C 105,130 95,140 100,150 C 105,155 115,150 120,140 Z" fill="#F6AD55" />
+    <path d="M 120,130 C 135,120 145,130 140,140 C 135,145 125,140 120,130 Z" fill="#ED8936" />
+    
+    <!-- Golden radiant glow representing the enduring, priceless nature of 'enqing' (恩情) -->
+    <circle cx="120" cy="115" r="3" fill="#ECC94B"/>
+    <circle cx="105" cy="125" r="2" fill="#ECC94B" opacity="0.8"/>
+    <circle cx="135" cy="125" r="2" fill="#ECC94B" opacity="0.8"/>
+    
+    <!-- Interlocking supportive hands silhouette at the base -->
+    <path d="M 90,170 C 105,185 135,185 150,170" stroke="#F6AD55" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person's head and shoulders -->
+  <path d="M120 70c-25 0-45 20-45 45v30c0 10 8 18 18 18h54c10 0 18-8 18-18v-30c0-25-20-45-45-45z" fill="#3D4451"/>
+  
+  <!-- Face -->
+  <path d="M120 85c-18 0-32 14-32 32v15c0 8 6 14 14 14h36c8 0 14-6 14-14v-15c0-18-14-32-32-32z" fill="#FFD59E"/>
+  
+  <!-- Eyes -->
+  <circle cx="105" cy="115" r="4" fill="#1A1D24"/>
+  <circle cx="135" cy="115" r="4" fill="#1A1D24"/>
+  
+  <!-- Flush/Fever cheeks -->
+  <ellipse cx="100" cy="125" rx="8" ry="5" fill="#FF6B6B" opacity="0.6"/>
+  <ellipse cx="140" cy="125" rx="8" ry="5" fill="#FF6B6B" opacity="0.6"/>
+  
+  <!-- Thermometer -->
+  <path d="M165 140l30-30c5-5 5-13 0-18l-5-5c-5-5-13-5-18 0l-30 30" fill="#E0E0E0"/>
+  <rect x="155" y="95" width="8" height="25" rx="2" fill="#FF9F43"/>
+  <circle cx="159" cy="125" r="6" fill="#FF4757"/>
+  
+  <!-- Heat waves -->
+  <path d="M120 60c0-5 5-10 10-10s10 5 10 10" stroke="#FF9F43" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M100 55c0-5 5-10 10-10s10 5 10 10" stroke="#FF9F43" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M140 55c0-5 5-10 10-10s10 5 10 10" stroke="#FF9F43" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

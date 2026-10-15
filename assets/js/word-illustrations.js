@@ -37966,6 +37966,251 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "独一无二.svg",
     "src": "images/HSK_3.0/level7/独一无二.svg",
     "caption": "độc nhất vô nhị, có một không hai"
+  },
+  "赌": {
+    "file": "赌.svg",
+    "src": "images/HSK_3.0/level7/赌.svg",
+    "caption": "đánh cược, đánh bạc"
+  },
+  "短暂": {
+    "file": "短暂.svg",
+    "src": "images/HSK_3.0/level7/短暂.svg",
+    "caption": "thoáng qua"
+  },
+  "断裂": {
+    "file": "断裂.svg",
+    "src": "images/HSK_3.0/level7/断裂.svg",
+    "caption": "đứt gãy, gãy nứt"
+  },
+  "段落": {
+    "file": "段落.svg",
+    "src": "images/HSK_3.0/level7/段落.svg",
+    "caption": "đoạn văn, giai đoạn"
+  },
+  "断然": {
+    "file": "断然.svg",
+    "src": "images/HSK_3.0/level7/断然.svg",
+    "caption": "dứt khoát, kiên quyết"
+  },
+  "断章取义": {
+    "file": "断章取义.svg",
+    "src": "images/HSK_3.0/level7/断章取义.svg",
+    "caption": "cắt nghĩa đoạn câu, lấy nghĩa phiến diện"
+  },
+  "堆砌": {
+    "file": "堆砌.svg",
+    "src": "images/HSK_3.0/level7/堆砌.svg",
+    "caption": "xếp chồng, nhồi nhét (từ ngữ)"
+  },
+  "兑": {
+    "file": "兑.svg",
+    "src": "images/HSK_3.0/level7/兑.svg",
+    "caption": "đổi (tiền, giải thưởng), pha"
+  },
+  "对岸": {
+    "file": "对岸.svg",
+    "src": "images/HSK_3.0/level7/对岸.svg",
+    "caption": "bờ đối diện, bờ bên kia"
+  },
+  "对白": {
+    "file": "对白.svg",
+    "src": "images/HSK_3.0/level7/对白.svg",
+    "caption": "lời thoại, đối thoại"
+  },
+  "对得起": {
+    "file": "对得起.svg",
+    "src": "images/HSK_3.0/level7/对得起.svg",
+    "caption": "không phụ lòng, xứng đáng với"
+  },
+  "对流": {
+    "file": "对流.svg",
+    "src": "images/HSK_3.0/level7/对流.svg",
+    "caption": "đối lưu"
+  },
+  "对牛弹琴": {
+    "file": "对牛弹琴.svg",
+    "src": "images/HSK_3.0/level7/对牛弹琴.svg",
+    "caption": "đàn gảy tai trâu"
+  },
+  "队形": {
+    "file": "队形.svg",
+    "src": "images/HSK_3.0/level7/队形.svg",
+    "caption": "đội hình"
+  },
+  "对弈": {
+    "file": "对弈.svg",
+    "src": "images/HSK_3.0/level7/对弈.svg",
+    "caption": "đánh cờ, so tài chơi cờ"
+  },
+  "对症下药": {
+    "file": "对症下药.svg",
+    "src": "images/HSK_3.0/level7/对症下药.svg",
+    "caption": "đúng bệnh bốc thuốc, trị đúng nguyên nhân"
+  },
+  "对峙": {
+    "file": "对峙.svg",
+    "src": "images/HSK_3.0/level7/对峙.svg",
+    "caption": "đối đầu, giằng co"
+  },
+  "敦促": {
+    "file": "敦促.svg",
+    "src": "images/HSK_3.0/level7/敦促.svg",
+    "caption": "thúc giục, hối thúc, đôn đốc"
+  },
+  "敦厚": {
+    "file": "敦厚.svg",
+    "src": "images/HSK_3.0/level7/敦厚.svg",
+    "caption": "đôn hậu, phúc hậu"
+  },
+  "炖": {
+    "file": "炖.svg",
+    "src": "images/HSK_3.0/level7/炖.svg",
+    "caption": "hầm, ninh"
+  },
+  "多年来": {
+    "file": "多年来.svg",
+    "src": "images/HSK_3.0/level7/多年来.svg",
+    "caption": "nhiều năm qua, qua nhiều năm"
+  },
+  "多半": {
+    "file": "多半.svg",
+    "src": "images/HSK_3.0/level7/多半.svg",
+    "caption": "phần lớn, đa phần, có lẽ"
+  },
+  "多心": {
+    "file": "多心.svg",
+    "src": "images/HSK_3.0/level7/多心.svg",
+    "caption": "đa nghi, nghĩ ngợi nhiều, bận tâm"
+  },
+  "夺冠": {
+    "file": "夺冠.svg",
+    "src": "images/HSK_3.0/level7/夺冠.svg",
+    "caption": "giành chức vô địch, đoạt quán quân"
+  },
+  "夺魁": {
+    "file": "夺魁.svg",
+    "src": "images/HSK_3.0/level7/夺魁.svg",
+    "caption": "đoạt giải nhất, giật giải đầu"
+  },
+  "鹅": {
+    "file": "鹅.svg",
+    "src": "images/HSK_3.0/level7/鹅.svg",
+    "caption": "con ngỗng"
+  },
+  "额度": {
+    "file": "额度.svg",
+    "src": "images/HSK_3.0/level7/额度.svg",
+    "caption": "hạn mức, mức trần"
+  },
+  "讹诈": {
+    "file": "讹诈.svg",
+    "src": "images/HSK_3.0/level7/讹诈.svg",
+    "caption": "tống tiền, lừa gạt ép buộc"
+  },
+  "恶": {
+    "file": "恶.svg",
+    "src": "images/HSK_3.0/level7/恶.svg",
+    "caption": "xấu xa, ác độc, độc ác"
+  },
+  "噩耗": {
+    "file": "噩耗.svg",
+    "src": "images/HSK_3.0/level7/噩耗.svg",
+    "caption": "hung tin, tin dữ"
+  },
+  "恶性": {
+    "file": "恶性.svg",
+    "src": "images/HSK_3.0/level7/恶性.svg",
+    "caption": "ác tính"
+  },
+  "恶意": {
+    "file": "恶意.svg",
+    "src": "images/HSK_3.0/level7/恶意.svg",
+    "caption": "ác ý, ý đồ xấu"
+  },
+  "鳄鱼": {
+    "file": "鳄鱼.svg",
+    "src": "images/HSK_3.0/level7/鳄鱼.svg",
+    "caption": "cá sấu"
+  },
+  "厄运": {
+    "file": "厄运.svg",
+    "src": "images/HSK_3.0/level7/厄运.svg",
+    "caption": "vận rủi, tai ương, bất hạnh"
+  },
+  "恶作剧": {
+    "file": "恶作剧.svg",
+    "src": "images/HSK_3.0/level7/恶作剧.svg",
+    "caption": "trò chơi khăm, trò đùa dai"
+  },
+  "恩爱": {
+    "file": "恩爱.svg",
+    "src": "images/HSK_3.0/level7/恩爱.svg",
+    "caption": "ân ái, mặn nồng (vợ chồng)"
+  },
+  "恩情": {
+    "file": "恩情.svg",
+    "src": "images/HSK_3.0/level7/恩情.svg",
+    "caption": "ân tình, ơn nghĩa"
+  },
+  "恩人": {
+    "file": "恩人.svg",
+    "src": "images/HSK_3.0/level7/恩人.svg",
+    "caption": "ân nhân"
+  },
+  "耳光": {
+    "file": "耳光.svg",
+    "src": "images/HSK_3.0/level7/耳光.svg",
+    "caption": "cái tát, bạt tai"
+  },
+  "耳目一新": {
+    "file": "耳目一新.svg",
+    "src": "images/HSK_3.0/level7/耳目一新.svg",
+    "caption": "mới mẻ tinh khôi, mở mang tầm mắt"
+  },
+  "耳熟能详": {
+    "file": "耳熟能详.svg",
+    "src": "images/HSK_3.0/level7/耳熟能详.svg",
+    "caption": "quá đỗi quen thuộc, nghe quen tai"
+  },
+  "发酵": {
+    "file": "发酵.svg",
+    "src": "images/HSK_3.0/level7/发酵.svg",
+    "caption": "lên men"
+  },
+  "发觉": {
+    "file": "发觉.svg",
+    "src": "images/HSK_3.0/level7/发觉.svg",
+    "caption": "nhận ra, phát giác"
+  },
+  "发愣": {
+    "file": "发愣.svg",
+    "src": "images/HSK_3.0/level7/发愣.svg",
+    "caption": "ngẩn người, ngơ ngác"
+  },
+  "发怒": {
+    "file": "发怒.svg",
+    "src": "images/HSK_3.0/level7/发怒.svg",
+    "caption": "nổi giận, tức giận"
+  },
+  "发热": {
+    "file": "发热.svg",
+    "src": "images/HSK_3.0/level7/发热.svg",
+    "caption": "phát sốt, tỏa nhiệt, nóng lên"
+  },
+  "发泄": {
+    "file": "发泄.svg",
+    "src": "images/HSK_3.0/level7/发泄.svg",
+    "caption": "giải tỏa, trút giận"
+  },
+  "发芽": {
+    "file": "发芽.svg",
+    "src": "images/HSK_3.0/level7/发芽.svg",
+    "caption": "nảy mầm, đâm chồi"
+  },
+  "发扬光大": {
+    "file": "发扬光大.svg",
+    "src": "images/HSK_3.0/level7/发扬光大.svg",
+    "caption": "phát huy rạng rỡ, kế thừa phát triển"
   }
 };
 
