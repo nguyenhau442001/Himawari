@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk and focused student (Left/Center) -->
+  <!-- Desk surface -->
+  <path d="M40 160 L140 160 L150 185 L30 185 Z" fill="#2D333B"/>
+  <rect x="35" y="180" width="115" height="8" rx="2" fill="#22272E"/>
+  
+  <!-- Stack of books / Open book with focus aura -->
+  <path d="M55 150 L95 140 L95 160 L55 170 Z" fill="#4E5D6C"/>
+  <path d="M95 140 L135 150 L135 170 L95 160 Z" fill="#3E4C59"/>
+  <!-- Focus light glow (Orange/Gold accent) -->
+  <path d="M95 110 L60 145 L130 145 Z" fill="#FFB454" opacity="0.15"/>
+  <circle cx="95" cy="130" r="18" fill="#FFB454" opacity="0.2"/>
+  
+  <!-- Focused student character -->
+  <!-- Chair back -->
+  <rect x="65" y="115" width="20" height="50" rx="4" fill="#3A4452"/>
+  <!-- Head & Hair -->
+  <circle cx="75" cy="95" r="14" fill="#D0D7DE"/>
+  <path d="M61 95 C61 82 89 82 89 95 Z" fill="#22272E"/>
+  <!-- Body/Torso -->
+  <path d="M55 125 C55 110 95 110 95 125 L95 160 L55 160 Z" fill="#539BF5"/>
+  <!-- Focused expression: bent forward, studying -->
+
+  <!-- Intruding character (Right) representing "打搅" (Interrupting/Disturbing) -->
+  <!-- Body (Moving in with motion lines) -->
+  <path d="M175 115 C165 115 160 125 160 135 L160 185 L180 185 L180 145 L195 145 L190 185 L210 185 L200 135 C200 122 188 115 175 115 Z" fill="#F0883E"/>
+  <!-- Head & Hair -->
+  <path d="M175 80 C185 80 190 90 185 100 C180 105 170 105 165 100 C160 90 165 80 175 80 Z" fill="#F0883E"/>
+  <circle cx="175" cy="92" r="13" fill="#FFDFBA"/>
+  <path d="M163 90 C165 82 185 82 187 90 Z" fill="#4B382A"/>
+  
+  <!-- Dynamic Action: Reaching out a hand to tap/disturb -->
+  <!-- Arm reaching forward -->
+  <path d="M165 125 L125 120 L125 130 L165 135 Z" fill="#F0883E"/>
+  <!-- Hand pointing / tapping -->
+  <circle cx="120" cy="125" r="5" fill="#FFDFBA"/>
+  
+  <!-- Motion lines indicating sudden entrance / disturbance -->
+  <path d="M215 95 L195 100" stroke="#8C959F" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M220 115 L190 120" stroke="#8C959F" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M215 135 L200 138" stroke="#8C959F" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Impact / Disturbance visual cue near the student's shoulder -->
+  <path d="M105 115 L115 105" stroke="#FFB454" stroke-width="3" stroke-linecap="round"/>
+  <path d="M115 115 L105 105" stroke="#FFB454" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background map lines / city nodes representing traveling between places -->
+  <g opacity="0.15" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3 3" fill="none">
+    <path d="M40 180 Q 100 120, 200 140"/>
+    <path d="M60 70 Q 140 160, 190 80"/>
+    <circle cx="40" cy="180" r="3" fill="#FFFFFF"/>
+    <circle cx="200" cy="140" r="3" fill="#FFFFFF"/>
+    <circle cx="60" cy="70" r="3" fill="#FFFFFF"/>
+    <circle cx="190" cy="80" r="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Directional movement indicator paths (East and West journey) -->
+  <g opacity="0.3" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M140 95 C 100 70, 70 100, 50 95"/>
+    <path d="M100 145 C 140 170, 170 140, 190 145"/>
+  </g>
+
+  <!-- Central Character representing "bôn ba" (running around busily) -->
+  <g transform="translate(10, 0)">
+    <!-- Briefcase / Document bag (symbolizing errands, work, raising funds) -->
+    <g transform="translate(125, 125) rotate(15)">
+      <rect x="-10" y="-8" width="20" height="14" rx="2" fill="#D97706"/>
+      <path d="M-5 -8 V-11 C-5 -12, 5 -12, 5 -11 V-8" stroke="#D97706" stroke-width="2" fill="none"/>
+      <rect x="-3" y="-3" width="6" height="4" rx="1" fill="#FEF3C7"/>
+    </g>
+
+    <!-- Dynamic running legs -->
+    <!-- Back Leg (Stride forward-left) -->
+    <path d="M105 130 L90 160 L75 165" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Front Leg (Stride right) -->
+    <path d="M115 130 L135 155 L155 150" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Torso (leaning forward for motion) -->
+    <path d="M95 100 L125 110 L115 140 L85 130 Z" fill="#2563EB"/>
+
+    <!-- Back Arm (swinging back) -->
+    <path d="M100 105 L75 125" stroke="#60A5FA" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Front Arm (swinging forward with briefcase) -->
+    <path d="M118 112 L130 123" stroke="#60A5FA" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+    <!-- Head & Hair (determined expression, forward motion) -->
+    <circle cx="100" cy="85" r="14" fill="#FDE047"/>
+    <!-- Hair tuft -->
+    <path d="M88 82 C 90 75, 98 75, 102 78" stroke="#854D0E" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- Motion speed lines behind the character -->
+    <g opacity="0.6" stroke="#94A3B8" stroke-width="2" stroke-linecap="round">
+      <line x1="65" y1="90" x2="50" y2="90"/>
+      <line x1="60" y1="110" x2="40" y2="110"/>
+      <line x1="70" y1="135" x2="55" y2="135"/>
+    </g>
+  </g>
+
+  <!-- Destination markers (representing going East and West / various cities) -->
+  <g transform="translate(0, 0)">
+    <!-- Left Destination Pin (West) -->
+    <g transform="translate(45, 105)">
+      <path d="M0 0 C-6 -6, -6 -14, 0 -18 C6 -14, 6 -6, 0 0 Z" fill="#EF4444"/>
+      <circle cx="0" cy="-10" r="2.5" fill="#FEF2F2"/>
+    </g>
+
+    <!-- Right Destination Pin (East) -->
+    <g transform="translate(195, 115)">
+      <path d="M0 0 C-6 -6, -6 -14, 0 -18 C6 -14, 6 -6, 0 0 Z" fill="#10B981"/>
+      <circle cx="0" cy="-10" r="2.5" fill="#ECFDF5"/>
+    </g>
+  </g>
+</svg>

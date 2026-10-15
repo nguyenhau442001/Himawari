@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(40, 40)">
+    <!-- Tree Trunk -->
+    <path d="M100 160 L100 120" stroke="#8B5E3C" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Abundant Fruits (Gold/Orange) -->
+    <circle cx="70" cy="90" r="18" fill="#FFB800"/>
+    <circle cx="130" cy="90" r="18" fill="#FFB800"/>
+    <circle cx="100" cy="60" r="20" fill="#FFD700"/>
+    <circle cx="85" cy="110" r="16" fill="#FF9500"/>
+    <circle cx="115" cy="110" r="16" fill="#FF9500"/>
+    
+    <!-- Leaves -->
+    <path d="M100 60 Q 70 40, 50 70 T 100 60" fill="#2E7D32"/>
+    <path d="M100 60 Q 130 40, 150 70 T 100 60" fill="#2E7D32"/>
+    
+    <!-- Ground / Base -->
+    <path d="M40 160 L160 160" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

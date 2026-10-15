@@ -1,0 +1,75 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle spotlight effect to ground the central character -->
+  <radialGradient id="spotlight" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#262C3A" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#1A1D24" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="120" cy="120" r="90" fill="url(#spotlight)"/>
+
+  <!-- Character / Physical Object representing the target of mockery (Nerd/Vulnerable archetype) -->
+  <g id="mocked-character">
+    <!-- Body & Shoulders -->
+    <path d="M 85 185 C 85 160 100 150 120 150 C 140 150 155 160 155 185 Z" fill="#3A465B"/>
+    <!-- Torso clothing detail -->
+    <path d="M 100 150 L 120 170 L 140 150 Z" fill="#2C3544"/>
+
+    <!-- Neck -->
+    <rect x="112" y="136" width="16" height="20" fill="#E0AC9D"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="115" r="26" fill="#E0AC9D"/>
+
+    <!-- Hair -->
+    <path d="M 94 110 C 94 95 105 90 120 90 C 135 90 146 95 146 110 C 146 115 144 115 144 110 C 144 98 134 94 120 94 C 106 94 96 98 96 110 C 96 115 94 115 94 110 Z" fill="#4A3525"/>
+
+    <!-- Glasses (Nerd archetype detail often targeted) -->
+    <circle cx="111" cy="113" r="7" fill="none" stroke="#FFC107" stroke-width="2"/>
+    <circle cx="129" cy="113" r="7" fill="none" stroke="#FFC107" stroke-width="2"/>
+    <line x1="118" y1="113" x2="122" y2="113" stroke="#FFC107" stroke-width="2"/>
+    <line x1="104" y1="111" x2="98" y2="108" stroke="#FFC107" stroke-width="1.5"/>
+    <line x1="136" y1="111" x2="142" y2="108" stroke="#FFC107" stroke-width="1.5"/>
+
+    <!-- Sad/Embarrassed Expression -->
+    <!-- Eyes (closed/downcast) -->
+    <path d="M 108 123 Q 111 126 114 123" fill="none" stroke="#55382B" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 126 123 Q 129 126 132 123" fill="none" stroke="#55382B" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Frown / Sad mouth -->
+    <path d="M 115 133 Q 120 129 125 133" fill="none" stroke="#55382B" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Pointing/Mocking Hands (Symbolizing Derision/Cháonòng) -->
+  <!-- Left Mocking Hand / Arm pointing -->
+  <g id="mocking-hand-left">
+    <path d="M 45 130 Q 65 140 85 145" fill="none" stroke="#3A465B" stroke-width="14" stroke-linecap="round"/>
+    <!-- Pointing Finger -->
+    <circle cx="85" cy="144" r="7" fill="#E0AC9D"/>
+    <path d="M 85 137 L 98 141 L 85 149 Z" fill="#E0AC9D"/>
+  </g>
+
+  <!-- Right Mocking Hand / Arm pointing -->
+  <g id="mocking-hand-right">
+    <path d="M 195 130 Q 175 140 155 145" fill="none" stroke="#3A465B" stroke-width="14" stroke-linecap="round"/>
+    <!-- Pointing Finger -->
+    <circle cx="155" cy="144" r="7" fill="#E0AC9D"/>
+    <path d="M 155 137 L 142 141 L 155 149 Z" fill="#E0AC9D"/>
+  </g>
+
+  <!-- Abstract Derision / Mockery Elements (Focus Accent: Orange/Gold) -->
+  <!-- Soundwaves / Whispering jeers represented as sharp jagged vectors -->
+  <g id="jeering-waves" stroke="#FF5722" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left side jeer lines -->
+    <path d="M 50 90 L 62 95 L 50 100"/>
+    <path d="M 38 105 L 52 112 L 38 119"/>
+    
+    <!-- Right side jeer lines -->
+    <path d="M 190 90 L 178 95 L 190 100"/>
+    <path d="M 202 105 L 188 112 L 202 119"/>
+  </g>
+
+  <!-- Overhead harsh indicator / Spotlight rim (Orange accent framing) -->
+  <path d="M 80 55 C 100 45 140 45 160 55" fill="none" stroke="#FFC107" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="120" cy="48" r="4" fill="#FFC107"/>
+</svg>

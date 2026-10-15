@@ -1,0 +1,62 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle background glow/pedestal effect -->
+  <ellipse cx="120" cy="180" rx="70" ry="16" fill="#111318" opacity="0.8"/>
+  <ellipse cx="120" cy="148" rx="55" ry="10" fill="#F59E0B" opacity="0.08"/>
+
+  <!-- Gift Box representing "Bonus / Reward" (hậu hĩnh, dồi dào) -->
+  <!-- Box Base (Rich deep red/burgundy body) -->
+  <g transform="translate(0, 8)">
+    <!-- Back shadow of lid -->
+    <path d="M 68 80 L 172 80 L 180 96 L 60 96 Z" fill="#B45309"/>
+    
+    <!-- Main Box Body -->
+    <path d="M 68 96 L 172 96 L 164 168 C 164 173.5 159.5 178 154 178 L 86 178 C 80.5 178 76 173.5 76 168 Z" fill="#D97706"/>
+    <path d="M 120 96 L 120 178" stroke="#B45309" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Front Lid -->
+    <rect x="60" y="82" width="120" height="18" rx="4" fill="#F59E0B"/>
+
+    <!-- Ribbon & Bow (Vibrant Gold) -->
+    <!-- Vertical ribbon on body -->
+    <rect x="110" y="96" width="20" height="82" fill="#FBBF24"/>
+
+    <!-- Magnificent 3D Bow on top -->
+    <!-- Left Loop -->
+    <path d="M 120 82 C 100 70 85 55 95 42 C 105 30 125 45 120 82 Z" fill="#FDE68A"/>
+    <!-- Right Loop -->
+    <path d="M 120 82 C 140 70 155 55 145 42 C 135 30 115 45 120 82 Z" fill="#FBBF24"/>
+    <!-- Center Knot -->
+    <circle cx="120" cy="74" r="8" fill="#FEF3C7"/>
+    <!-- Bow tails hanging down -->
+    <path d="M 114 82 L 100 106 L 110 110 L 118 86 Z" fill="#FCD34D"/>
+    <path d="M 126 82 L 140 106 L 130 110 L 122 86 Z" fill="#F59E0B"/>
+  </g>
+
+  <!-- Overflowing Gold Coins and Sparkles (Representing "Dồi dào" / Abundance) -->
+  <g fill="#FBBF24">
+    <!-- Coin 1 -->
+    <circle cx="95" cy="85" r="9" stroke="#B45309" stroke-width="2"/>
+    <circle cx="95" cy="85" r="5" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+    
+    <!-- Coin 2 -->
+    <circle cx="145" cy="80" r="11" stroke="#B45309" stroke-width="2"/>
+    <circle cx="145" cy="80" r="7" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+
+    <!-- Coin 3 (Tilted) -->
+    <ellipse cx="120" cy="82" rx="10" ry="6" stroke="#B45309" stroke-width="2"/>
+
+    <!-- Floating Sparkles / Rich Rewards -->
+    <!-- Top-left sparkle -->
+    <path d="M 72 45 Q 72 55 62 55 Q 72 55 72 65 Q 72 55 82 55 Q 72 55 72 45 Z" fill="#FEF3C7"/>
+    
+    <!-- Top-right sparkle -->
+    <path d="M 175 35 Q 175 45 165 45 Q 175 45 175 55 Q 175 45 185 45 Q 175 45 175 35 Z" fill="#FDE68A"/>
+
+    <!-- Small Accent Stars -->
+    <circle cx="158" cy="62" r="3" fill="#FEF3C7"/>
+    <circle cx="82" cy="72" r="2.5" fill="#FEF3C7"/>
+  </g>
+</svg>
