@@ -30,26 +30,24 @@ function renderDashboardEnhancements() {
   const target = summary.target;
   if (continuation) {
     if (summary.totalStudied === 0) {
-      document.getElementById('continueLearningTitle').textContent = 'Chào bạn mới! Bắt đầu học HSK ngay';
-      document.getElementById('continueLearningProgress').innerHTML = `
-        <span style="display: block; margin-top: 4px;">1️⃣ <strong>Học 5 từ đầu tiên</strong> (HSK1 cơ bản) &nbsp;·&nbsp; 2️⃣ <strong>Ôn nhanh</strong> củng cố trí nhớ &nbsp;·&nbsp; 3️⃣ <strong>Đọc bài HSK1 đầu tiên</strong></span>
-      `;
+      document.getElementById('continueLearningTitle').textContent = 'Bắt đầu học HSK 1';
+      document.getElementById('continueLearningProgress').textContent = 'Chinh phục 150 từ vựng nền tảng với flashcard thông minh.';
       const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
       if (ctaBtn) {
-        ctaBtn.innerHTML = `Học 5 từ đầu tiên <span aria-hidden="true">→</span>`;
+        ctaBtn.innerHTML = `Bắt đầu học ngay <span aria-hidden="true">→</span>`;
       }
       continuation.dataset.level = 'hsk1';
     } else if (target) {
       const cfg = LEVELS[target.level];
-      const ratio = `${target.known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ đã nhớ`;
+      const ratio = `${target.known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ`;
       const pctStr = typeof formatProgressPercent === 'function'
         ? formatProgressPercent(target.known, cfg.total)
         : `${Math.round(target.known / cfg.total * 100)}%`;
-      document.getElementById('continueLearningTitle').textContent = `${cfg.label} · Bộ từ đang học`;
-      document.getElementById('continueLearningProgress').textContent = `${ratio} · ${pctStr} tiến độ`;
+      document.getElementById('continueLearningTitle').textContent = `Tiếp tục học ${cfg.label}`;
+      document.getElementById('continueLearningProgress').textContent = `${ratio} · ${pctStr} hoàn thành`;
       const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
       if (ctaBtn) {
-        ctaBtn.innerHTML = `Tiếp tục học ngay <span aria-hidden="true">→</span>`;
+        ctaBtn.innerHTML = `Tiếp tục bài học <span aria-hidden="true">→</span>`;
       }
       continuation.dataset.level = target.level;
     }

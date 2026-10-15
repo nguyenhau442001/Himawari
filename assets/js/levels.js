@@ -487,11 +487,18 @@ function renderLearningDashboard() {
       ? `Còn ${dailyGoal - todayCount} từ nữa để hoàn thành mục tiêu.`
       : `Học ${dailyGoal} từ để hoàn thành mục tiêu hôm nay.`;
   streakNode.textContent = `🔥 ${streak} ngày học`;
+  const headerStreak = document.getElementById('headerStreakText');
+  if (headerStreak) headerStreak.textContent = `${streak} ngày`;
   knownNode.textContent = summary.totalKnown;
   studiedNode.textContent = summary.totalStudied;
   const dueTotal = countDueCardsAcrossLevels(new Date());
   if (dueCount) dueCount.textContent = String(dueTotal);
   if (todayReviewButton) todayReviewButton.hidden = dueTotal === 0;
+  const bottomNavDueBadge = document.getElementById('bottomNavDueBadge');
+  if (bottomNavDueBadge) {
+    bottomNavDueBadge.textContent = String(dueTotal);
+    bottomNavDueBadge.hidden = dueTotal === 0;
+  }
 
   const target = summary.target;
   if (target) {

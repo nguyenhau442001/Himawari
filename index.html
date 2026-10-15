@@ -91,6 +91,10 @@ if ('serviceWorker' in navigator) {
     <div class="workstation-middle" id="workstationMiddle">
   <div class="app-header">
     <div class="app-header-actions">
+      <button type="button" id="headerStreakBadge" class="header-streak-badge" onclick="showHistoryModal()" aria-label="Xem lịch sử học tập" title="Lịch sử học tập">
+        <span class="header-streak-icon" aria-hidden="true">🔥</span>
+        <span class="header-streak-text" id="headerStreakText">0 ngày</span>
+      </button>
       <button type="button" id="headerSearchBtn" class="header-search-btn" aria-label="Tìm từ vựng" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       </button>
@@ -159,11 +163,11 @@ if ('serviceWorker' in navigator) {
 
   <section class="continue-learning-card" id="continueLearningCard" aria-labelledby="continueLearningTitle">
     <div class="continue-learning-copy">
-      <span class="dashboard-kicker">▶ TIẾP TỤC BÀI HỌC</span>
-      <h2 id="continueLearningTitle">Đang tìm bài học phù hợp…</h2>
-      <p id="continueLearningProgress">Tiến độ sẽ được cập nhật theo dữ liệu học của bạn.</p>
+      <span class="dashboard-kicker">▶ BẮT ĐẦU BÀI HỌC</span>
+      <h2 id="continueLearningTitle">Bắt đầu học HSK 1</h2>
+      <p id="continueLearningProgress">Chinh phục 150 từ vựng nền tảng với flashcard thông minh.</p>
     </div>
-    <button class="dashboard-primary-btn" type="button" onclick="quickStartLearning()">Tiếp tục học ngay <span aria-hidden="true">→</span></button>
+    <button class="dashboard-primary-btn" type="button" onclick="quickStartLearning()">Bắt đầu học ngay <span aria-hidden="true">→</span></button>
   </section>
 
   <nav class="primary-tabs" id="primaryTabs" aria-label="Chế độ học">
@@ -177,6 +181,7 @@ if ('serviceWorker' in navigator) {
         aria-controls="screenReviewPicker" onclick="setPrimaryTab('review')">
         <svg class="nav-tab-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
         <span>Ôn nhanh</span>
+        <span class="bottom-nav-due-badge" id="bottomNavDueBadge" hidden>0</span>
       </button>
     </div>
     <details class="primary-games-menu" id="primaryGamesMenu">

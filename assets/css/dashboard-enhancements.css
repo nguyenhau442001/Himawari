@@ -405,59 +405,70 @@ body:not(.home-screen) .continue-learning-card { display: none; }
   .quick-quiz-card .dashboard-primary-btn { margin-left: 56px; }
 }
 @media (max-width: 767px) {
+  /* Mobile: Eliminate bulky redundant dashboard card to prevent visual suffocation;
+     Streak and progress are cleanly integrated in the header and hero card */
   .learning-dashboard {
-    padding: 16px;
-    border-radius: 16px;
-  }
-  .learning-dashboard-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  .learning-dashboard-header-right {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-  .learning-dashboard h2 {
-    font-size: 15px;
-    font-weight: 700;
-  }
-  .daily-goal {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    align-items: center;
-    gap: 12px;
-    margin-top: 12px;
-  }
-  .daily-goal-count strong { font-size: 26px; }
-  .daily-goal-message { font-size: 11px; margin-top: 4px; }
-  .daily-goal-track { height: 7px; }
-  .learning-totals {
-    margin-top: 12px;
-    padding-top: 10px;
-    font-size: 11.5px;
+    display: none !important;
   }
 
+  /* Single Hero Card Above the Fold */
   .continue-learning-card {
+    display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 16px;
-    border-radius: 16px;
-    margin-top: 12px;
+    padding: 18px 20px;
+    border-radius: 18px;
+    margin: 8px 0 14px;
     gap: 12px;
+    background: linear-gradient(135deg, rgba(255, 87, 34, 0.08) 0%, var(--card-bg) 65%);
+    border: 1px solid rgba(255, 87, 34, 0.22);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
   }
-  .continue-learning-card h2 { font-size: 16px; font-weight: 700; }
-  .continue-learning-card p { font-size: 12.5px; }
+  .continue-learning-card .dashboard-kicker {
+    font-size: 11px;
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  .continue-learning-card h2 {
+    font-size: 18px;
+    font-weight: 750;
+    line-height: 1.25;
+    color: var(--text-primary);
+    margin: 0;
+  }
+  .continue-learning-card p {
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--text-secondary);
+    margin: 0;
+  }
   .continue-learning-card .dashboard-primary-btn {
     width: 100%;
-    min-height: 44px;
-    border-radius: 12px;
-    font-size: 14px;
-    font-weight: 650;
+    min-height: 48px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 750;
+    background: linear-gradient(135deg, #ff6b35 0%, #f74318 100%);
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 4px 18px rgba(255, 87, 34, 0.38), 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 180ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .continue-learning-card .dashboard-primary-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 24px rgba(255, 87, 34, 0.48), 0 3px 6px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, #ff7e55 0%, #ff5224 100%);
+  }
+  .continue-learning-card .dashboard-primary-btn:active {
+    transform: scale(0.985);
   }
 
   /* Responsive Promo Banners */
