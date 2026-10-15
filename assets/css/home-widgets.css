@@ -217,6 +217,91 @@ body:not(.home-screen) .home-widgets { display: none; }
   font-size: 11px; font-weight: 700; white-space: nowrap;
 }
 
+/* Khám phá nâng cao (Relocated Discovery Section) */
+.hw-discovery-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.hw-discovery-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface-subtle);
+  cursor: pointer;
+  transition: border-color 150ms ease, background-color 150ms ease, transform 150ms ease;
+  user-select: none;
+}
+.hw-discovery-item:hover {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, var(--surface-subtle));
+  transform: translateY(-1px);
+}
+.hw-discovery-item:active {
+  transform: translateY(0);
+}
+.hw-discovery-item:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.hw-discovery-icon {
+  font-size: 22px;
+  flex: 0 0 auto;
+}
+.hw-discovery-info {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.hw-discovery-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hw-discovery-title-row strong {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.hw-discovery-pill {
+  font-size: 10px;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.hw-pill-amber {
+  background: #f59e0b;
+  color: #000;
+}
+.hw-pill-accent {
+  background: var(--accent);
+  color: #fff;
+}
+.hw-discovery-desc {
+  margin: 2px 0 0;
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  line-height: 1.35;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hw-discovery-cta {
+  flex: 0 0 auto;
+  color: var(--text-tertiary);
+  font-size: 14px;
+  font-weight: 700;
+  transition: color 150ms ease, transform 150ms ease;
+}
+.hw-discovery-item:hover .hw-discovery-cta {
+  color: var(--accent-text);
+  transform: translateX(2px);
+}
+
 /* Tablet: widgets join the vocab hub as a 2-column grid under the level grid. */
 @media (max-width: 1279px) {
   #screenVocabHub {
@@ -237,6 +322,7 @@ body:not(.home-screen) .home-widgets { display: none; }
   .home-widgets > .hw-forecast { order: 2; }
   .home-widgets > .hw-forgotten { order: 3; }
   .home-widgets > .hw-activity { order: 4; }
+  .home-widgets > .hw-discovery { order: 5; }
   .hw-wotd-main { flex-direction: row; align-items: center; gap: 14px; text-align: left; margin-top: 10px; }
   .hw-wotd-hanzi { font-size: 44px; }
   .hw-wotd-hanzi.is-medium { font-size: 34px; }
