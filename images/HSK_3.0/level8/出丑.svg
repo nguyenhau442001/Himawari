@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Podium / Stage Elements -->
+  <rect x="70" y="170" width="100" height="16" rx="3" fill="#2E3440" />
+  <path d="M 85 170 L 95 130 L 145 130 L 155 170 Z" fill="#3B4252" />
+  <!-- Microphone stand -->
+  <rect x="117" y="110" width="6" height="40" fill="#4C566A" />
+  <circle cx="120" cy="106" r="5" fill="#D8DEE9" />
+
+  <!-- Character (Embarrassed speaker losing words) -->
+  <!-- Suit / Body -->
+  <path d="M 95 170 C 95 150 145 150 145 170 Z" fill="#434C5E" />
+  <!-- Shirt & Tie -->
+  <polygon points="112,150 128,150 120,165" fill="#ECEFF4" />
+  <polygon points="118,152 122,152 121,162 119,162" fill="#BF616A" />
+
+  <!-- Head -->
+  <circle cx="120" cy="95" r="22" fill="#E5E9F0" />
+  
+  <!-- Sweating / Embarrassment drops -->
+  <path d="M 102 85 Q 98 90 98 94 A 4 4 0 0 0 106 94 Q 106 90 102 85 Z" fill="#88C0D0" />
+  <path d="M 140 88 Q 137 92 137 95 A 3 3 0 0 0 143 95 Q 143 92 140 88 Z" fill="#88C0D0" />
+
+  <!-- Face features (Shocked / Blank / Blanking out) -->
+  <!-- Eyes: wide circles with dots -->
+  <circle cx="112" cy="94" r="3.5" fill="#2E3440" />
+  <circle cx="128" cy="94" r="3.5" fill="#2E3440" />
+  <!-- Open mouth (gasp/forgetting speech) -->
+  <ellipse cx="120" cy="105" rx="4" ry="6" fill="#2E3440" />
+
+  <!-- Flush / Blushing Cheeks -->
+  <ellipse cx="106" cy="100" rx="5" ry="2.5" fill="#BF616A" opacity="0.6" />
+  <ellipse cx="134" cy="100" rx="5" ry="2.5" fill="#BF616A" opacity="0.6" />
+
+  <!-- Blank speech bubble floating away (forgetting words) -->
+  <path d="M 145 75 Q 155 70 155 60 Q 155 50 140 50 Q 130 50 132 60" fill="none" stroke="#D8DEE9" stroke-width="2.5" stroke-dasharray="3 3" stroke-linecap="round" />
+  
+  <!-- Focus accent highlight framing the moment -->
+  <circle cx="120" cy="115" r="95" fill="none" stroke="#EBCB8B" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="8 8" />
+</svg>

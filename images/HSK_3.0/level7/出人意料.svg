@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Object: A giant golden championship trophy bursting out of a sleek podium/box representing "unexpected outcome" (chūrényìliào) -->
+  
+  <!-- Podium Base / Low Rank Box -->
+  <path d="M70,185 L170,185 L160,205 L80,205 Z" fill="#2E3440" />
+  <rect x="75" y="165" width="90" height="20" fill="#3B4252" rx="2" />
+  <text x="120" y="180" font-family="sans-serif" font-weight="bold" font-size="12" fill="#D8DEE9" text-anchor="middle">#10</text>
+
+  <!-- Dynamic Energy / Surprise Shockwaves -->
+  <path d="M50,110 Q70,90 60,70" fill="none" stroke="#88C0D0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M190,110 Q170,90 180,70" fill="none" stroke="#88C0D0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M120,40 Q100,20 120,10" fill="none" stroke="#EBCB8B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Golden Trophy (The Unexpected Winner) -->
+  <!-- Trophy Cup -->
+  <path d="M95,70 L145,70 L140,115 C140,135 100,135 100,115 Z" fill="#EBCB8B" />
+  <!-- Trophy Inner Shadow/Shine -->
+  <path d="M102,75 L138,75 L135,110 C135,125 105,125 105,110 Z" fill="#F3D9A4" />
+  <path d="M107,75 L115,75 L110,112 L107,110 Z" fill="#FFF" opacity="0.3" />
+
+  <!-- Trophy Handles -->
+  <path d="M95,80 C80,80 80,105 98,112" fill="none" stroke="#EBCB8B" stroke-width="6" stroke-linecap="round" />
+  <path d="M145,80 C160,80 160,105 142,112" fill="none" stroke="#EBCB8B" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Trophy Stem & Base -->
+  <rect x="115" y="130" width="10" height="20" fill="#D08770" />
+  <path d="M100,150 L140,150 L145,160 L95,160 Z" fill="#EBCB8B" />
+
+  <!-- Glowing Star atop Trophy -->
+  <polygon points="120,45 123,53 131,54 125,60 127,68 120,64 113,68 115,60 109,54 117,53" fill="#D08770" />
+  <polygon points="120,48 122,54 128,55 123,59 125,65 120,61 115,65 117,59 112,55 118,54" fill="#EBCB8B" />
+
+  <!-- Sparks / Confetti representing Surprise -->
+  <circle cx="65" cy="140" r="4" fill="#BF616A" />
+  <circle cx="175" cy="140" r="4" fill="#A3BE8C" />
+  <rect x="155" y="60" width="6" height="6" fill="#B48EAD" transform="rotate(45 158 63)" />
+  <rect x="80" y="60" width="6" height="6" fill="#EBCB8B" transform="rotate(15 83 63)" />
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Cylinder container for lots -->
+  <path d="M85 80h70v100c0 10-35 10-35 10s-35 0-35-10V80z" fill="#3D4451"/>
+  <ellipse cx="120" cy="80" rx="35" ry="10" fill="#4B5563"/>
+  
+  <!-- The drawn lot -->
+  <rect x="112" y="50" width="16" height="80" rx="4" fill="#FFB84D" transform="rotate(-15 120 90)"/>
+  
+  <!-- Other sticks inside -->
+  <rect x="95" y="70" width="8" height="90" rx="2" fill="#717D8E" transform="rotate(5 100 100)"/>
+  <rect x="135" y="70" width="8" height="90" rx="2" fill="#717D8E" transform="rotate(-5 140 100)"/>
+  
+  <!-- Hand pulling the lot -->
+  <path d="M130 110c-5-10-15-15-25-10l-10 20 15 10 20-20z" fill="#FFD1A9"/>
+  <path d="M115 120l-5 10 10 5 5-10z" fill="#E6B892"/>
+</svg>

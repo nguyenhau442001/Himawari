@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "仇人" (Kẻ thù / Cừu nhân): Two opposing figures in hostile confrontation -->
+  <g transform="translate(0, 0)">
+    <!-- Central Tension / Conflict Energy Line (Subtle jagged line separating them) -->
+    <path d="M120 70 L115 90 L125 110 L115 130 L125 150 L120 170" stroke="#FF5722" stroke-width="2" stroke-dasharray="3,3" opacity="0.4" fill="none"/>
+
+    <!-- Left Character (Adversary A) -->
+    <g transform="translate(75, 120)">
+      <!-- Body / Torso -->
+      <path d="M-20 50 L-10 20 L10 20 L20 50 Z" fill="#374151"/>
+      <!-- Head -->
+      <circle cx="0" cy="0" r="14" fill="#E5E7EB"/>
+      <!-- Angry Eyebrow & Face Feature -->
+      <path d="M-6 -3 L-2 -1" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+      <path d="M2 -3 L6 -1" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+      <!-- Upper Body / Suit -->
+      <path d="M-18 20 L0 35 L18 20" fill="none" stroke="#6B7280" stroke-width="3"/>
+      <!-- Hostile Arm Gesture (Clenched fist forward) -->
+      <path d="M-10 25 L15 35 L22 30" fill="none" stroke="#374151" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="22" cy="30" r="5" fill="#E5E7EB"/>
+    </g>
+
+    <!-- Right Character (Adversary B - Facing Left) -->
+    <g transform="translate(165, 120) scale(-1, 1)">
+      <!-- Body / Torso -->
+      <path d="M-20 50 L-10 20 L10 20 L20 50 Z" fill="#374151"/>
+      <!-- Head -->
+      <circle cx="0" cy="0" r="14" fill="#E5E7EB"/>
+      <!-- Angry Eyebrow -->
+      <path d="M-6 -3 L-2 -1" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+      <path d="M2 -3 L6 -1" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+      <!-- Upper Body / Suit -->
+      <path d="M-18 20 L0 35 L18 20" fill="none" stroke="#6B7280" stroke-width="3"/>
+      <!-- Hostile Arm Gesture -->
+      <path d="M-10 25 L15 35 L22 30" fill="none" stroke="#374151" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="22" cy="30" r="5" fill="#E5E7EB"/>
+    </g>
+
+    <!-- Focal Accent: Sharp fiery/hostile clash aura between them -->
+    <path d="M112 110 L128 110 L120 95 Z" fill="#FF5722"/>
+    <path d="M112 130 L128 130 L120 145 Z" fill="#FF5722"/>
+
+    <!-- Subtle Ground Shadow -->
+    <ellipse cx="75" cy="172" rx="22" ry="5" fill="#111318"/>
+    <ellipse cx="165" cy="172" rx="22" ry="5" fill="#111318"/>
+  </g>
+</svg>

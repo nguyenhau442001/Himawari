@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Main container/bin -->
+  <path d="M70 80h100v100a10 10 0 0 1-10 10H80a10 10 0 0 1-10-10V80z" fill="#374151"/>
+  <path d="M65 70h110v15H65z" fill="#4B5563"/>
+  
+  <!-- Items inside -->
+  <circle cx="90" cy="160" r="12" fill="#F59E0B"/>
+  <circle cx="120" cy="170" r="12" fill="#F59E0B"/>
+  <circle cx="150" cy="160" r="12" fill="#F59E0B"/>
+  <circle cx="105" cy="130" r="12" fill="#F59E0B"/>
+  <circle cx="135" cy="135" r="12" fill="#F59E0B"/>
+  
+  <!-- Sampling mechanism (Hand picking an item) -->
+  <g transform="translate(120, 90)">
+    <path d="M-10 0h20v40a10 10 0 0 1-20 0V0z" fill="#F59E0B"/>
+    <path d="M-15 -10h30v10a15 15 0 0 1-30 0V-10z" fill="#D97706"/>
+  </g>
+  
+  <!-- The extracted sample -->
+  <circle cx="120" cy="60" r="14" fill="#F59E0B" stroke="#1A1D24" stroke-width="2"/>
+  
+  <!-- Motion lines for extraction -->
+  <path d="M120 75v10M115 80l10 0" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+</svg>

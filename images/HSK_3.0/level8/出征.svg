@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric background highlights -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.6"/>
+  <path d="M40 180 L200 180" stroke="#2F3643" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Dynamic forward movement path / motion lines -->
+  <path d="M70 140 L160 90" stroke="#3A4454" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 6"/>
+  <path d="M50 160 L140 110" stroke="#FFA500" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Olympic / Campaign Departure Symbol: A determined athlete figure in motion stepping forward to the arena -->
+  <!-- Glowing victory portal / starting line ahead -->
+  <ellipse cx="170" cy="120" rx="12" ry="45" fill="none" stroke="#FFC107" stroke-width="3" opacity="0.8"/>
+  <ellipse cx="170" cy="120" rx="6" ry="30" fill="none" stroke="#FFC107" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Athlete Figure (Representing 出征 - stepping out for battle / major competition) -->
+  <!-- Head & Helmet/Headband -->
+  <circle cx="105" cy="85" r="12" fill="#FFC107"/>
+  <path d="M93 85 Q105 75 117 85" fill="#E0A800"/>
+
+  <!-- Torso & Athletic Jersey (Forward lean) -->
+  <path d="M95 102 L115 97 L125 125 L100 130 Z" fill="#FF5722"/>
+  
+  <!-- Running Arms -->
+  <!-- Back arm -->
+  <path d="M102 105 L85 120 L95 125" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front arm (reaching forward) -->
+  <path d="M112 100 L135 110 L145 105" fill="none" stroke="#FFC107" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Dynamic Legs (Stride) -->
+  <!-- Back leg -->
+  <path d="M105 128 L80 155 L65 150" fill="none" stroke="#2C3E50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front leg (stepping across threshold) -->
+  <path d="M118 125 L145 140 L165 135" fill="none" stroke="#FFC107" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Ground shadow / momentum kick-up -->
+  <path d="M75 160 C90 160, 110 158, 130 160" stroke="#FFC107" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="65" cy="158" r="3" fill="#FFC107" opacity="0.6"/>
+  <circle cx="55" cy="162" r="1.5" fill="#FFC107" opacity="0.4"/>
+
+  <!-- Focus / Triumph star element -->
+  <path d="M190 75 L193 83 L201 85 L195 91 L197 99 L190 95 L183 99 L185 91 L179 85 L187 83 Z" fill="#FFC107" opacity="0.9"/>
+  <path d="M60 70 L62 75 L67 76 L63 80 L64 85 L60 82 L56 85 L57 80 L53 76 L58 75 Z" fill="#FFC107" opacity="0.5"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <path d="M60 120 C60 120 10 120 10 90 L10 30 C10 0 110 0 110 30 L110 90 C110 120 60 120 60 120" fill="#2C3E50" stroke="#FFB74D" stroke-width="4"/>
+    <ellipse cx="60" cy="30" rx="50" ry="15" fill="#34495E" stroke="#FFB74D" stroke-width="4"/>
+    <path d="M20 50 Q60 70 100 50" fill="none" stroke="#FFB74D" stroke-width="3" stroke-dasharray="6 6"/>
+    <path d="M20 70 Q60 90 100 70" fill="none" stroke="#FFB74D" stroke-width="3" stroke-dasharray="6 6"/>
+    <path d="M60 120 L60 150" stroke="#FFB74D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M40 150 L80 150" stroke="#FFB74D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M50 30 L70 30 L60 10 Z" fill="#FFB74D"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Storefront Frame -->
+  <rect x="40" y="60" width="160" height="120" rx="4" fill="#2C313C" stroke="#4A5568" stroke-width="4"/>
+  <rect x="44" y="64" width="152" height="112" rx="2" fill="#1A1D24"/>
+  
+  <!-- Mannequin -->
+  <g transform="translate(120, 120)">
+    <circle cx="0" cy="-25" r="12" fill="#FFB84D"/>
+    <path d="M-15 0 L15 0 L10 40 L-10 40 Z" fill="#FFB84D"/>
+    <path d="M-10 40 L-12 70 M10 40 L12 70" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Glass Reflection/Sheen -->
+  <path d="M44 64 L196 64 L196 80 L60 176 L44 176 Z" fill="#FFFFFF" opacity="0.05"/>
+  
+  <!-- Storefront Base/Trim -->
+  <rect x="40" y="180" width="160" height="10" fill="#4A5568"/>
+  <rect x="30" y="190" width="180" height="10" fill="#2C313C"/>
+</svg>

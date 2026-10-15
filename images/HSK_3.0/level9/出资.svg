@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 5)">
+    <!-- Central Vault / Treasure Chest symbolizing pooled funds/capital -->
+    <path d="M70,120 L170,120 L185,165 C185,173 178,180 170,180 L70,180 C62,180 55,173 55,165 Z" fill="#252A34"/>
+    <path d="M50,95 L190,95 L190,120 L50,120 Z" fill="#2D3340" rx="4"/>
+    
+    <!-- Metallic rims and lock -->
+    <path d="M50,105 L190,105" stroke="#F5A623" stroke-width="4" stroke-linecap="round"/>
+    <rect x="110" y="100" width="20" height="25" rx="3" fill="#F5A623"/>
+    <circle cx="120" cy="110" r="3" fill="#1A1D24"/>
+    
+    <!-- Three intersecting directional arrows/nodes representing the three entities ("三家企业") contributing capital ("共同出资") -->
+    <!-- Left Entity Arrow -->
+    <path d="M45,70 C70,70 85,95 105,108" fill="none" stroke="#4A90E2" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="108,102 113,113 101,111" fill="#4A90E2"/>
+    <circle cx="45" cy="70" r="10" fill="#2D3340" stroke="#4A90E2" stroke-width="3"/>
+    
+    <!-- Right Entity Arrow -->
+    <path d="M195,70 C170,70 155,95 135,108" fill="none" stroke="#50E3C2" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="139,111 127,113 132,102" fill="#50E3C2"/>
+    <circle cx="195" cy="70" r="10" fill="#2D3340" stroke="#50E3C2" stroke-width="3"/>
+    
+    <!-- Top Entity Arrow -->
+    <path d="M120,40 C120,65 120,80 120,95" fill="none" stroke="#F5A623" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="115,93 120,103 125,93" fill="#F5A623"/>
+    <circle cx="120" cy="40" r="10" fill="#2D3340" stroke="#F5A623" stroke-width="3"/>
+    
+    <!-- Emitted Gold Coins/Value floating up from the vault representing the funded project -->
+    <circle cx="120" cy="72" r="7" fill="#F5A623"/>
+    <text x="120" y="75" font-family="Arial, sans-serif" font-weight="bold" font-size="9" fill="#1A1D24" text-anchor="middle">$</text>
+    
+    <circle cx="98" cy="85" r="5" fill="#F5A623"/>
+    <circle cx="142" cy="85" r="5" fill="#F5A623"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Ambient lighting / floor -->
+  <ellipse cx="120" cy="205" rx="90" ry="12" fill="#252A34"/>
+
+  <!-- Motion lines / Action trail (indicating leaving/moving out) -->
+  <g opacity="0.4">
+    <path d="M70 185 L50 185" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <path d="M85 160 L60 160" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+    <path d="M65 135 L40 135" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Open Doorway / Threshold context -->
+  <g>
+    <!-- Door frame exterior light/shadow -->
+    <rect x="25" y="45" width="60" height="155" fill="#222733" rx="4"/>
+    <!-- Open door leaf swinging out -->
+    <path d="M 25 45 L 50 55 L 50 195 L 25 205 Z" fill="#2D3442" opacity="0.7"/>
+    <!-- Threshold line -->
+    <rect x="20" y="200" width="80" height="4" fill="#3A4252" rx="2"/>
+    <!-- Outdoor horizon / night atmosphere glimpsed through door -->
+    <circle cx="45" cy="90" r="12" fill="#313A4D" opacity="0.5"/>
+  </g>
+
+  <!-- Character: Teenager abruptly storming out (Dynamic action) -->
+  <g transform="translate(15, 0)">
+    <!-- Back leg (stepping forward/out) -->
+    <path d="M 105 130 L 125 185 L 140 185" fill="none" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Torso (leaning forward with determined/angry momentum) -->
+    <path d="M 95 90 L 115 140 L 90 145 Z" fill="#EF4444"/> <!-- Red/Orange hoodie for agitation/passion -->
+    <path d="M 95 90 L 115 140 L 90 145 Z" fill="#F5A623" opacity="0.2"/>
+
+    <!-- Head & Hair (dynamic tilt) -->
+    <circle cx="85" cy="70" r="14" fill="#FCE7C8"/>
+    <!-- Hair flying backward due to motion -->
+    <path d="M 72 65 Q 75 50 95 58 Z" fill="#2C2C2C"/>
+
+    <!-- Front arm (swinging back aggressively) -->
+    <path d="M 100 100 L 75 125 L 60 115" fill="none" stroke="#EF4444" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="60" cy="115" r="5" fill="#FCE7C8"/>
+
+    <!-- Front leg (planted/pushing off) -->
+    <path d="M 110 135 L 90 185 L 75 190" fill="none" stroke="#2C3E50" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="70" cy="191" rx="9" ry="4" fill="#4B5563"/>
+
+    <!-- Back arm (pumping forward) -->
+    <path d="M 90 100 L 115 115 L 130 105" fill="none" stroke="#EF4444" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="130" cy="105" r="5" fill="#FCE7C8"/>
+  </g>
+
+  <!-- Focus / Directional Arrow overlay (Sleek modern accent) -->
+  <g transform="translate(160, 110)">
+    <path d="M 0 10 L 40 10 M 30 2 L 42 10 L 30 18" fill="none" stroke="#F5A623" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+</svg>
