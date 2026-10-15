@@ -1,0 +1,51 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 充裕 (abundance/ample resources, tied to time/preparation context) -->
+  <!-- We visualize an oversized, beautifully crafted hourglass overflowing with glowing golden sand, resting on a sturdy platform, signifying an abundance of time and resources -->
+  
+  <g transform="translate(0, 5)">
+    <!-- Ambient glow behind the hourglass -->
+    <circle cx="120" cy="115" r="55" fill="#FFC107" opacity="0.08"/>
+
+    <!-- Hourglass Stand / Base (Modern Flat Style) -->
+    <rect x="75" y="195" width="90" height="10" rx="4" fill="#3A3F4B"/>
+    <rect x="75" y="25" width="90" height="10" rx="4" fill="#3A3F4B"/>
+
+    <!-- Glass bulb outlines and structure -->
+    <!-- Top chamber -->
+    <path d="M 85 35 L 155 35 C 155 35, 150 95, 120 115 C 90 95, 85 35, 85 35 Z" fill="#242B38" stroke="#4A5568" stroke-width="3"/>
+    
+    <!-- Bottom chamber -->
+    <path d="M 85 195 L 155 195 C 155 195, 150 135, 120 115 C 90 135, 85 195, 85 195 Z" fill="#242B38" stroke="#4A5568" stroke-width="3"/>
+
+    <!-- Overflowing Golden Sand (Representing 'Chōngyù' / Abundance) -->
+    <!-- Full rich pile at the bottom -->
+    <path d="M 90 188 C 105 175, 135 175, 150 188 C 153 191, 87 191, 90 188 Z" fill="#FFC107"/>
+    <path d="M 96 178 C 110 168, 130 168, 144 178 C 147 180, 93 180, 96 178 Z" fill="#FFD54F"/>
+    
+    <!-- Steady stream in the middle -->
+    <line x1="119" y1="113" x2="119" y2="155" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Abundant full pool in the top chamber -->
+    <path d="M 90 55 C 105 45, 135 45, 150 55 C 153 58, 87 58, 90 55 Z" fill="#FFD54F"/>
+    <path d="M 95 65 C 110 55, 130 55, 145 65 C 148 68, 92 68, 95 65 Z" fill="#FFC107"/>
+    <path d="M 100 75 C 112 68, 128 68, 140 75 C 142 77, 98 77, 100 75" fill="#FFA000"/>
+
+    <!-- Glass reflection highlights -->
+    <path d="M 92 45 C 92 45, 96 85, 103 105" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.25"/>
+    <path d="M 92 145 C 92 145, 96 175, 103 185" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.25"/>
+
+    <!-- Sparkling accent elements symbolizing richness/readiness -->
+    <g transform="translate(62, 75)" fill="#FFD54F">
+      <path d="M 0 6 C 2 6, 6 2, 6 0 C 6 -2, 2 -6, 0 -6 C -2 -6, -6 -2, -6 0 C -6 2, -2 6, 0 6 Z"/>
+    </g>
+    <g transform="translate(178, 135) scale(0.7)" fill="#FFC107">
+      <path d="M 0 6 C 2 6, 6 2, 6 0 C 6 -2, 2 -6, 0 -6 C -2 -6, -6 -2, -6 0 C -6 2, -2 6, 0 6 Z"/>
+    </g>
+    <g transform="translate(70, 160) scale(0.5)" fill="#FFA000">
+      <path d="M 0 6 C 2 6, 6 2, 6 0 C 6 -2, 2 -6, 0 -6 C -2 -6, -6 -2, -6 0 C -6 2, -2 6, 0 6 Z"/>
+    </g>
+  </g>
+</svg>

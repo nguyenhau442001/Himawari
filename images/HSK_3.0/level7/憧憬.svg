@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative glowing aura/horizon of future possibilities -->
+  <circle cx="120" cy="130" r="70" fill="#242B38" opacity="0.6"/>
+  <path d="M50 170 Q120 120 190 170" stroke="#2F384A" stroke-width="2" fill="none"/>
+
+  <!-- Character / Person representing the freshman (Tân sinh viên) looking forward -->
+  <!-- Body / Torso -->
+  <path d="M90 195 C90 175 102 165 120 165 C138 165 150 175 150 195 Z" fill="#2D3748"/>
+  <!-- Backpack strap hinting at student identity -->
+  <path d="M97 172 L85 195" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+  <path d="M143 172 L155 195" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="113" y="152" width="14" height="16" fill="#F0B27A"/>
+
+  <!-- Head (tilted slightly upward, looking towards the bright future) -->
+  <circle cx="120" cy="135" r="22" fill="#F5CBA7"/>
+
+  <!-- Hair (Modern student style) -->
+  <path d="M98 132 C98 118 108 112 120 112 C134 112 142 118 143 130 C143 130 145 122 138 118 C131 114 115 113 105 120 C100 123 98 132 98 132 Z" fill="#2C3E50"/>
+
+  <!-- Glowing warm horizon representing bright future / 憧憬 (dreams/aspirations) -->
+  <circle cx="120" cy="75" r="28" fill="#F39C12" opacity="0.15"/>
+  <circle cx="120" cy="75" r="20" fill="#F39C12" opacity="0.3"/>
+  <circle cx="120" cy="75" r="12" fill="#F1C40F"/>
+
+  <!-- Radiating beams of aspiration and bright future -->
+  <path d="M120 45 L120 35" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 55 L152 48" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95 55 L88 48" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M155 80 L165 80" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M85 80 L75 80" stroke="#F1C40F" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sparkles/Stars representing dreams and ideal future -->
+  <path d="M70 110 L72 115 L77 117 L72 119 L70 124 L68 119 L63 117 L68 115 Z" fill="#F39C12" opacity="0.8"/>
+  <path d="M172 100 L173.5 103.5 L177 105 L173.5 106.5 L172 110 L170.5 106.5 L167 105 L170.5 103.5 Z" fill="#F39C12" opacity="0.9"/>
+  <path d="M158 138 L159 140 L161 141 L159 142 L158 144 L157 142 L155 141 L157 140 Z" fill="#F1C40F" opacity="0.6"/>
+  <path d="M84 145 L85 147 L87 148 L85 149 L84 151 L83 149 L81 148 L83 147 Z" fill="#F1C40F" opacity="0.7"/>
+
+  <!-- University gate silhouette at the bottom framing the aspiration -->
+  <path d="M30 215 L30 200 L50 190 L120 205 L190 190 L210 200 L210 215 Z" fill="#2C3E50"/>
+  <rect x="105" y="195" width="30" height="20" fill="#1A1D24"/>
+</svg>

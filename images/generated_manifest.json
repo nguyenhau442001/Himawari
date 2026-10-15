@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T21:18:28.869957",
-  "total_unique_words_with_illustrations": 7183,
-  "total_flat_svg_files": 7183,
+  "generated_at": "2026-10-15T21:19:55.886476",
+  "total_unique_words_with_illustrations": 7233,
+  "total_flat_svg_files": 7233,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 1643,
-        "pct": "29.3%"
+        "with_svg": 1693,
+        "pct": "30.2%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 1643,
-        "pct": "29.3%"
+        "with_svg": 1693,
+        "pct": "30.2%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 1643,
-        "pct": "29.3%"
+        "with_svg": 1693,
+        "pct": "30.2%"
       }
     }
   },
@@ -125891,6 +125891,956 @@
       "alt_srcs": [
         "images/HSK_3.0/level8/巢穴.svg",
         "images/HSK_3.0/level9/巢穴.svg"
+      ]
+    },
+    "炒作": {
+      "hanzi": "炒作",
+      "pinyin": "chǎozuò",
+      "meaning": "thổi phồng, lăng xê",
+      "example_zh": "这部电影在上映前通过各种手段进行过度<u>炒作</u>。",
+      "example_vi": "Bộ phim này trước khi công chiếu đã dùng nhiều chiêu trò để <u>thổi phồng</u> quá mức.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "炒作.svg",
+      "src": "images/HSK_3.0/level7/炒作.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/炒作.svg",
+        "images/HSK_3.0/level9/炒作.svg"
+      ]
+    },
+    "车间": {
+      "hanzi": "车间",
+      "pinyin": "chējiān",
+      "meaning": "xưởng",
+      "example_zh": "<u>车间</u>内严禁吸烟",
+      "example_vi": "Trong nhà máy cấm nghiêm ngặt hút thuốc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "车间.svg",
+      "src": "images/HSK_3.0/level7/车间.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/车间.svg",
+        "images/HSK_3.0/level9/车间.svg"
+      ]
+    },
+    "扯": {
+      "hanzi": "扯",
+      "pinyin": "chě",
+      "meaning": "kéo, giằng, lôi",
+      "example_zh": "两个人在争执中互相拉<u>扯</u>，谁也不肯让步。",
+      "example_vi": "Hai người trong lúc tranh cãi giằng <u>kéo</u> nhau, không ai chịu nhượng bộ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扯.svg",
+      "src": "images/HSK_3.0/level7/扯.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/扯.svg",
+        "images/HSK_3.0/level9/扯.svg"
+      ]
+    },
+    "撤": {
+      "hanzi": "撤",
+      "pinyin": "chè",
+      "meaning": "rút, hủy bỏ, bãi bỏ",
+      "example_zh": "经过讨论，领导决定<u>撤</u>掉这个不合理的规定。",
+      "example_vi": "Sau khi thảo luận, lãnh đạo quyết định <u>bãi bỏ</u> quy định bất hợp lý này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "撤.svg",
+      "src": "images/HSK_3.0/level7/撤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/撤.svg",
+        "images/HSK_3.0/level9/撤.svg"
+      ]
+    },
+    "撤离": {
+      "hanzi": "撤离",
+      "pinyin": "chèlí",
+      "meaning": "sơ tán, rút lui",
+      "example_zh": "洪水来临前，当地政府组织全体村民安全<u>撤离</u>了灾区。",
+      "example_vi": "Trước khi lũ lụt ập đến, chính quyền địa phương đã tổ chức cho toàn bộ dân làng <u>sơ tán</u> an toàn khỏi vùng thiên tai.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "撤离.svg",
+      "src": "images/HSK_3.0/level7/撤离.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/撤离.svg",
+        "images/HSK_3.0/level9/撤离.svg"
+      ]
+    },
+    "彻夜": {
+      "hanzi": "彻夜",
+      "pinyin": "chèyè",
+      "meaning": "suốt đêm, thâu đêm",
+      "example_zh": "研发团队<u>彻夜</u>奋战，终于在天亮前修复了系统漏洞。",
+      "example_vi": "Đội ngũ nghiên cứu và phát triển đã chiến đấu <u>suốt đêm</u>, cuối cùng đã khắc phục xong lỗ hổng hệ thống trước khi trời sáng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "彻夜.svg",
+      "src": "images/HSK_3.0/level7/彻夜.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/彻夜.svg",
+        "images/HSK_3.0/level9/彻夜.svg"
+      ]
+    },
+    "沉甸甸": {
+      "hanzi": "沉甸甸",
+      "pinyin": "chéndiàndiàn",
+      "meaning": "nặng trĩu",
+      "example_zh": "秋天的果园里，枝头上挂满了<u>沉甸甸</u>的果实。",
+      "example_vi": "Trong vườn cây ăn quả mùa thu, trên cành treo đầy những quả chín <u>nặng trĩu</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉甸甸.svg",
+      "src": "images/HSK_3.0/level7/沉甸甸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/沉甸甸.svg",
+        "images/HSK_3.0/level9/沉甸甸.svg"
+      ]
+    },
+    "沉浸": {
+      "hanzi": "沉浸",
+      "pinyin": "chénjìn",
+      "meaning": "đắm chìm",
+      "example_zh": "听着优美的交响乐，全场观众都<u>沉浸</u>在艺术的魅力中。",
+      "example_vi": "Lắng nghe bản giao hưởng tuyệt mỹ, toàn thể khán giả đều <u>đắm chìm</u> trong sức hút của nghệ thuật.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉浸.svg",
+      "src": "images/HSK_3.0/level7/沉浸.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/沉浸.svg",
+        "images/HSK_3.0/level9/沉浸.svg"
+      ]
+    },
+    "沉迷": {
+      "hanzi": "沉迷",
+      "pinyin": "chénmí",
+      "meaning": "mê muội, chìm đắm",
+      "example_zh": "青少年过度<u>沉迷</u>网络游戏会严重影响学业和身心健康。",
+      "example_vi": "Thanh thiếu niên quá <u>chìm đắm</u> vào trò chơi trực tuyến sẽ ảnh hưởng nghiêm trọng đến việc học và sức khỏe thể chất lẫn tinh thần.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉迷.svg",
+      "src": "images/HSK_3.0/level7/沉迷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/沉迷.svg",
+        "images/HSK_3.0/level9/沉迷.svg"
+      ]
+    },
+    "沉睡": {
+      "hanzi": "沉睡",
+      "pinyin": "chénshuì",
+      "meaning": "ngủ say",
+      "example_zh": "夜深了，整座城市渐渐进入了<u>沉睡</u>。",
+      "example_vi": "Đêm đã khuya, cả thành phố dần chìm vào giấc <u>ngủ say</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉睡.svg",
+      "src": "images/HSK_3.0/level7/沉睡.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/沉睡.svg",
+        "images/HSK_3.0/level9/沉睡.svg"
+      ]
+    },
+    "沉稳": {
+      "hanzi": "沉稳",
+      "pinyin": "chénwěn",
+      "meaning": "điềm đạm, trầm tĩnh",
+      "example_zh": "他性格<u>沉稳</u>，面对突发危机时总能冷静应对。",
+      "example_vi": "Tính tình anh ấy <u>điềm đạm</u>, khi đối mặt với khủng hoảng bất ngờ luôn có thể bình tĩnh ứng phó.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "沉稳.svg",
+      "src": "images/HSK_3.0/level7/沉稳.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/沉稳.svg",
+        "images/HSK_3.0/level9/沉稳.svg"
+      ]
+    },
+    "趁机": {
+      "hanzi": "趁机",
+      "pinyin": "chènjī",
+      "meaning": "nhân cơ hội, thừa dịp",
+      "example_zh": "小猫趁主人开门的瞬间，<u>趁机</u>溜到了院子里。",
+      "example_vi": "Con mèo con nhân khoảnh khắc chủ mở cửa đã <u>thừa dịp</u> lủi ra ngoài sân.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "趁机.svg",
+      "src": "images/HSK_3.0/level7/趁机.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/趁机.svg",
+        "images/HSK_3.0/level9/趁机.svg"
+      ]
+    },
+    "衬托": {
+      "hanzi": "衬托",
+      "pinyin": "chèntuō",
+      "meaning": "làm nổi bật, tôn lên",
+      "example_zh": "蓝天白云的<u>衬托</u>下，雪山显得格外圣洁壮观。",
+      "example_vi": "Dưới sự <u>tôn lên</u> của mây trắng trời xanh, ngọn núi tuyết hiện lên vô cùng linh thiêng và tráng lệ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "衬托.svg",
+      "src": "images/HSK_3.0/level7/衬托.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/衬托.svg",
+        "images/HSK_3.0/level9/衬托.svg"
+      ]
+    },
+    "趁早": {
+      "hanzi": "趁早",
+      "pinyin": "chènzǎo",
+      "meaning": "càng sớm càng tốt, nhân lúc còn sớm",
+      "example_zh": "如果发现身体不适，最好<u>趁早</u>去医院检查。",
+      "example_vi": "Nếu thấy cơ thể không khỏe, tốt nhất nên đi bệnh viện khám <u>càng sớm càng tốt</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "趁早.svg",
+      "src": "images/HSK_3.0/level7/趁早.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/趁早.svg",
+        "images/HSK_3.0/level9/趁早.svg"
+      ]
+    },
+    "呈": {
+      "hanzi": "呈",
+      "pinyin": "chéng",
+      "meaning": "hiện ra, lộ ra, trình lên",
+      "example_zh": "这片湖泊的水质清澈，在阳光下<u>呈</u>碧绿色。",
+      "example_vi": "Nước của hồ này trong vắt, dưới ánh mặt trời <u>hiện ra</u> màu xanh biếc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "呈.svg",
+      "src": "images/HSK_3.0/level7/呈.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/呈.svg",
+        "images/HSK_3.0/level9/呈.svg"
+      ]
+    },
+    "成才": {
+      "hanzi": "成才",
+      "pinyin": "chéngcái",
+      "meaning": "thành tài, nên người",
+      "example_zh": "父母辛勤付出，最大的心愿就是看着孩子健康<u>成才</u>。",
+      "example_vi": "Cha mẹ vất vả hy sinh, tâm nguyện lớn nhất chính là nhìn con cái khỏe mạnh <u>thành tài</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成才.svg",
+      "src": "images/HSK_3.0/level7/成才.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成才.svg",
+        "images/HSK_3.0/level9/成才.svg"
+      ]
+    },
+    "成家": {
+      "hanzi": "成家",
+      "pinyin": "chéngjiā",
+      "meaning": "lập gia đình",
+      "example_zh": "他虽然已经三十岁了，但依然没有<u>成家</u>的打算。",
+      "example_vi": "Dù anh ấy đã ba mươi tuổi nhưng vẫn chưa có ý định <u>lập gia đình</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成家.svg",
+      "src": "images/HSK_3.0/level7/成家.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成家.svg",
+        "images/HSK_3.0/level9/成家.svg"
+      ]
+    },
+    "成家立业": {
+      "hanzi": "成家立业",
+      "pinyin": "chéngjiā-lìyè",
+      "meaning": "an cư lập nghiệp",
+      "example_zh": "年轻人努力拼搏，期盼着早日<u>成家立业</u>。",
+      "example_vi": "Giới trẻ nỗ lực phấn đấu, mong mỏi sớm ngày <u>an cư lập nghiệp</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成家立业.svg",
+      "src": "images/HSK_3.0/level7/成家立业.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成家立业.svg",
+        "images/HSK_3.0/level9/成家立业.svg"
+      ]
+    },
+    "承接": {
+      "hanzi": "承接",
+      "pinyin": "chéngjiē",
+      "meaning": "tiếp nhận, nhận thầu",
+      "example_zh": "我们公司最近成功<u>承接</u>了一项重大的市政工程项目。",
+      "example_vi": "Công ty chúng tôi gần đây đã <u>tiếp nhận</u> thành công một dự án công trình đô thị trọng điểm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "承接.svg",
+      "src": "images/HSK_3.0/level7/承接.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/承接.svg",
+        "images/HSK_3.0/level9/承接.svg"
+      ]
+    },
+    "成年²": {
+      "hanzi": "成年²",
+      "pinyin": "chéngnián",
+      "meaning": "quanh năm, suốt năm",
+      "example_zh": "这里的深山老林里，<u>成年</u>弥漫着浓厚的雾气。",
+      "example_vi": "Trong khu rừng rậm thâm sâu này, <u>quanh năm</u> tràn ngập sương mù dày đặc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成年².svg",
+      "src": "images/HSK_3.0/level7/成年².svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成年².svg",
+        "images/HSK_3.0/level9/成年².svg"
+      ]
+    },
+    "成品": {
+      "hanzi": "成品",
+      "pinyin": "chéngpǐn",
+      "meaning": "thành phẩm",
+      "example_zh": "原材料经过十几道工序加工后，才能变成最终的<u>成品</u>。",
+      "example_vi": "Nguyên liệu thô sau khi trải qua hơn mười công đoạn gia công mới có thể trở thành <u>thành phẩm</u> cuối cùng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成品.svg",
+      "src": "images/HSK_3.0/level7/成品.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成品.svg",
+        "images/HSK_3.0/level9/成品.svg"
+      ]
+    },
+    "城墙": {
+      "hanzi": "城墙",
+      "pinyin": "chéngqiáng",
+      "meaning": "tường thành",
+      "example_zh": "西安古<u>城墙</u>历经沧桑，依然保存得非常完整。",
+      "example_vi": "Cổ <u>tường thành</u> Tây An trải qua bao thăng trầm mà vẫn được bảo tồn rất nguyên vẹn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "城墙.svg",
+      "src": "images/HSK_3.0/level7/城墙.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/城墙.svg",
+        "images/HSK_3.0/level9/城墙.svg"
+      ]
+    },
+    "成全": {
+      "hanzi": "成全",
+      "pinyin": "chéngquán",
+      "meaning": "tác thành, vun vén",
+      "example_zh": "既然他们真心相爱，父母就应该<u>成全</u>这桩婚事。",
+      "example_vi": "Nếu hai đứa đã thật lòng yêu nhau thì cha mẹ nên <u>tác thành</u> cho mối hôn sự này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成全.svg",
+      "src": "images/HSK_3.0/level7/成全.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成全.svg",
+        "images/HSK_3.0/level9/成全.svg"
+      ]
+    },
+    "成群结队": {
+      "hanzi": "成群结队",
+      "pinyin": "chéngqún-jiéduì",
+      "meaning": "từng đàn từng lũ",
+      "example_zh": "傍晚，海鸥<u>成群结队</u>地在海面上空自由飞翔。",
+      "example_vi": "Chiều muộn, hải âu <u>từng đàn từng lũ</u> tự do bay lượn trên bầu trời mặt biển.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成群结队.svg",
+      "src": "images/HSK_3.0/level7/成群结队.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成群结队.svg",
+        "images/HSK_3.0/level9/成群结队.svg"
+      ]
+    },
+    "成型": {
+      "hanzi": "成型",
+      "pinyin": "chéngxíng",
+      "meaning": "định hình, thành hình",
+      "example_zh": "泥塑在经过高温烧制之后，陶器便彻底<u>成型</u>了。",
+      "example_vi": "Tượng đất sau khi trải qua nung ở nhiệt độ cao thì đồ gốm mới hoàn toàn <u>định hình</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "成型.svg",
+      "src": "images/HSK_3.0/level7/成型.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/成型.svg",
+        "images/HSK_3.0/level9/成型.svg"
+      ]
+    },
+    "诚意": {
+      "hanzi": "诚意",
+      "pinyin": "chéngyì",
+      "meaning": "thiện chí, thành ý",
+      "example_zh": "双方在谈判中都表现出了极大的<u>诚意</u>，因此进展顺利。",
+      "example_vi": "Đôi bên trong buổi đàm phán đều thể hiện <u>thiện chí</u> rất lớn, do đó tiến triển vô cùng thuận lợi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "诚意.svg",
+      "src": "images/HSK_3.0/level7/诚意.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/诚意.svg",
+        "images/HSK_3.0/level9/诚意.svg"
+      ]
+    },
+    "承载": {
+      "hanzi": "承载",
+      "pinyin": "chéngzài",
+      "meaning": "chứa đựng, gánh vác",
+      "example_zh": "这本厚重的相册<u>承载</u>了全家人数十年的珍贵记忆。",
+      "example_vi": "Cuốn album ảnh dày cộp này <u>chứa đựng</u> những kỷ niệm quý giá hàng chục năm của cả gia đình.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "承载.svg",
+      "src": "images/HSK_3.0/level7/承载.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/承载.svg",
+        "images/HSK_3.0/level9/承载.svg"
+      ]
+    },
+    "逞强": {
+      "hanzi": "逞强",
+      "pinyin": "chěngqiáng",
+      "meaning": "tỏ ra mạnh mẽ, cậy mạnh",
+      "example_zh": "生病了就该好好休息，千万不要硬撑着<u>逞强</u>。",
+      "example_vi": "Ốm thì nên nghỉ ngơi cho tốt, chớ có gượng ép mà <u>tỏ ra mạnh mẽ</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "逞强.svg",
+      "src": "images/HSK_3.0/level7/逞强.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/逞强.svg",
+        "images/HSK_3.0/level9/逞强.svg"
+      ]
+    },
+    "痴呆": {
+      "hanzi": "痴呆",
+      "pinyin": "chīdāi",
+      "meaning": "lú lẫn, ngây dại",
+      "example_zh": "老人年纪大了，医生诊断他患上了老年<u>痴呆</u>症。",
+      "example_vi": "Cụ già tuổi tác đã cao, bác sĩ chẩn đoán cụ mắc chứng <u>lú lẫn</u> tuổi già.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "痴呆.svg",
+      "src": "images/HSK_3.0/level7/痴呆.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/痴呆.svg",
+        "images/HSK_3.0/level9/痴呆.svg"
+      ]
+    },
+    "吃喝玩乐": {
+      "hanzi": "吃喝玩乐",
+      "pinyin": "chī-hē-wán-lè",
+      "meaning": "ăn uống vui chơi, ăn chơi",
+      "example_zh": "年轻人应该树立远大理想，而不是只知道<u>吃喝玩乐</u>。",
+      "example_vi": "Người trẻ nên xây dựng lý tưởng cao xa chứ không thể chỉ biết mỗi <u>ăn uống vui chơi</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "吃喝玩乐.svg",
+      "src": "images/HSK_3.0/level7/吃喝玩乐.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/吃喝玩乐.svg",
+        "images/HSK_3.0/level9/吃喝玩乐.svg"
+      ]
+    },
+    "痴迷": {
+      "hanzi": "痴迷",
+      "pinyin": "chīmí",
+      "meaning": "si mê, mê mẩn",
+      "example_zh": "他从小就对天文学非常<u>痴迷</u>，梦想成为一名航天员。",
+      "example_vi": "Từ nhỏ anh ấy đã vô cùng <u>mê mẩn</u> thiên văn học, mơ ước trở thành một phi hành gia.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "痴迷.svg",
+      "src": "images/HSK_3.0/level7/痴迷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/痴迷.svg",
+        "images/HSK_3.0/level9/痴迷.svg"
+      ]
+    },
+    "痴心": {
+      "hanzi": "痴心",
+      "pinyin": "chīxīn",
+      "meaning": "si tình, mù quáng",
+      "example_zh": "他对那个女孩一片<u>痴心</u>，多年来默默守护在她身边。",
+      "example_vi": "Anh ấy dành trọn một tấm lòng <u>si tình</u> cho cô gái đó, bao năm qua vẫn âm thầm bảo vệ bên cô.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "痴心.svg",
+      "src": "images/HSK_3.0/level7/痴心.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/痴心.svg",
+        "images/HSK_3.0/level9/痴心.svg"
+      ]
+    },
+    "持": {
+      "hanzi": "持",
+      "pinyin": "chí",
+      "meaning": "giữ",
+      "example_zh": "我对这个方案<u>持</u>保留意见",
+      "example_vi": "Tôi có ý kiến bảo lưu về phương án này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "持.svg",
+      "src": "images/HSK_3.0/level7/持.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/持.svg",
+        "images/HSK_3.0/level9/持.svg"
+      ]
+    },
+    "迟迟": {
+      "hanzi": "迟迟",
+      "pinyin": "chíchí",
+      "meaning": "mãi mà không, chậm trễ",
+      "example_zh": "期待已久的录取通知书<u>迟迟</u>没有寄到，让他感到很焦虑。",
+      "example_vi": "Giấy báo trúng tuyển mong đợi bấy lâu <u>mãi mà không</u> gửi tới khiến anh ấy cảm thấy rất lo âu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迟迟.svg",
+      "src": "images/HSK_3.0/level7/迟迟.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/迟迟.svg",
+        "images/HSK_3.0/level9/迟迟.svg"
+      ]
+    },
+    "迟钝": {
+      "hanzi": "迟钝",
+      "pinyin": "chídùn",
+      "meaning": "chậm chạp, kém nhạy bén",
+      "example_zh": "随着年龄增长，人的反应能力可能会逐渐变得<u>迟钝</u>。",
+      "example_vi": "Cùng với sự gia tăng của tuổi tác, khả năng phản ứng của con người có thể dần trở nên <u>chậm chạp</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "迟钝.svg",
+      "src": "images/HSK_3.0/level7/迟钝.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/迟钝.svg",
+        "images/HSK_3.0/level9/迟钝.svg"
+      ]
+    },
+    "驰名": {
+      "hanzi": "驰名",
+      "pinyin": "chímíng",
+      "meaning": "nổi tiếng, vang danh",
+      "example_zh": "景德镇的瓷器做工精美，自古以来就<u>驰名</u>中外。",
+      "example_vi": "Đồ sứ Cảnh Đức Trấn chế tác tinh xảo, từ xưa đến nay đã <u>vang danh</u> trong và ngoài nước.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "驰名.svg",
+      "src": "images/HSK_3.0/level7/驰名.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/驰名.svg",
+        "images/HSK_3.0/level9/驰名.svg"
+      ]
+    },
+    "持平": {
+      "hanzi": "持平",
+      "pinyin": "chípíng",
+      "meaning": "ngang bằng, giữ mức ổn định",
+      "example_zh": "今年的产品出口总额与去年相比基本<u>持平</u>。",
+      "example_vi": "Tổng kim ngạch xuất khẩu sản phẩm năm nay so với năm ngoái cơ bản <u>ngang bằng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "持平.svg",
+      "src": "images/HSK_3.0/level7/持平.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/持平.svg",
+        "images/HSK_3.0/level9/持平.svg"
+      ]
+    },
+    "持之以恒": {
+      "hanzi": "持之以恒",
+      "pinyin": "chízhī-yǐhéng",
+      "meaning": "kiên trì bền bỉ",
+      "example_zh": "学习外语没有捷径，唯有<u>持之以恒</u>才能取得真正的进步。",
+      "example_vi": "Học ngoại ngữ không có đường tắt, chỉ có <u>kiên trì bền bỉ</u> mới gặt hái được tiến bộ thực sự.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "持之以恒.svg",
+      "src": "images/HSK_3.0/level7/持之以恒.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/持之以恒.svg",
+        "images/HSK_3.0/level9/持之以恒.svg"
+      ]
+    },
+    "尺度": {
+      "hanzi": "尺度",
+      "pinyin": "chǐdù",
+      "meaning": "chừng mực, thước đo",
+      "example_zh": "开玩笑必须把握好分寸和<u>尺度</u>，以免伤害到别人的自尊心。",
+      "example_vi": "Đùa giỡn nhất định phải nắm rõ chừng mực và <u>thước đo</u>, tránh làm tổn thương lòng tự trọng của người khác.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "尺度.svg",
+      "src": "images/HSK_3.0/level7/尺度.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/尺度.svg",
+        "images/HSK_3.0/level9/尺度.svg"
+      ]
+    },
+    "耻辱": {
+      "hanzi": "耻辱",
+      "pinyin": "chǐrǔ",
+      "meaning": "nỗi nhục, sỉ nhục",
+      "example_zh": "输掉这场比赛对他来说是职业生涯中难以抹去的<u>耻辱</u>。",
+      "example_vi": "Thua trận đấu này đối với anh ấy là một <u>nỗi nhục</u> khó lòng xóa nhòa trong sự nghiệp thi đấu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "耻辱.svg",
+      "src": "images/HSK_3.0/level7/耻辱.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/耻辱.svg",
+        "images/HSK_3.0/level9/耻辱.svg"
+      ]
+    },
+    "耻笑": {
+      "hanzi": "耻笑",
+      "pinyin": "chǐxiào",
+      "meaning": "chê cười, chế giễu",
+      "example_zh": "即使遭遇暂时的失败，也不必害怕被别人<u>耻笑</u>。",
+      "example_vi": "Cho dù gặp phải thất bại tạm thời cũng không cần sợ bị người khác <u>chê cười</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "耻笑.svg",
+      "src": "images/HSK_3.0/level7/耻笑.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/耻笑.svg",
+        "images/HSK_3.0/level9/耻笑.svg"
+      ]
+    },
+    "充": {
+      "hanzi": "充",
+      "pinyin": "chōng",
+      "meaning": "sạc, đóng giả",
+      "example_zh": "出门旅行前，他特意把手机和充电宝都<u>充</u>满了电。",
+      "example_vi": "Trước khi đi du lịch, anh ấy cố tình <u>sạc</u> đầy điện cho cả điện thoại và pin dự phòng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "充.svg",
+      "src": "images/HSK_3.0/level7/充.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/充.svg",
+        "images/HSK_3.0/level9/充.svg"
+      ]
+    },
+    "充斥": {
+      "hanzi": "充斥",
+      "pinyin": "chōngchì",
+      "meaning": "tràn ngập, đầy rẫy",
+      "example_zh": "网络空间里如果<u>充斥</u>着虚假信息，就会误导广大公众。",
+      "example_vi": "Trên không gian mạng nếu <u>đầy rẫy</u> thông tin giả mạo thì sẽ gây ngộ nhận cho đông đảo công chúng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "充斥.svg",
+      "src": "images/HSK_3.0/level7/充斥.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/充斥.svg",
+        "images/HSK_3.0/level9/充斥.svg"
+      ]
+    },
+    "冲刺": {
+      "hanzi": "冲刺",
+      "pinyin": "chōngcì",
+      "meaning": "chạy nước rút, tăng tốc về đích",
+      "example_zh": "离高考还有最后一个月，同学们都在全力以赴进行最后的<u>冲刺</u>。",
+      "example_vi": "Còn một tháng cuối cùng trước kỳ thi đại học, các bạn học sinh đều dốc hết sức mình cho đợt <u>chạy nước rút</u> sau cùng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冲刺.svg",
+      "src": "images/HSK_3.0/level7/冲刺.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/冲刺.svg",
+        "images/HSK_3.0/level9/冲刺.svg"
+      ]
+    },
+    "憧憬": {
+      "hanzi": "憧憬",
+      "pinyin": "chōngjǐng",
+      "meaning": "mơ ước, khao khát",
+      "example_zh": "刚踏入大学校门的新生，心中都对未来生活充满了美好的<u>憧憬</u>。",
+      "example_vi": "Tân sinh viên vừa bước chân vào cổng trường đại học, trong lòng đều tràn đầy <u>mơ ước</u> tốt đẹp về cuộc sống tương lai.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "憧憬.svg",
+      "src": "images/HSK_3.0/level7/憧憬.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/憧憬.svg",
+        "images/HSK_3.0/level9/憧憬.svg"
+      ]
+    },
+    "冲浪": {
+      "hanzi": "冲浪",
+      "pinyin": "chōnglàng",
+      "meaning": "lướt sóng",
+      "example_zh": "很多年轻人喜欢在夏天去海滩体验刺激的<u>冲浪</u>运动。",
+      "example_vi": "Rất nhiều bạn trẻ thích đến bãi biển vào mùa hè để trải nghiệm môn thể thao <u>lướt sóng</u> đầy kích thích.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冲浪.svg",
+      "src": "images/HSK_3.0/level7/冲浪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/冲浪.svg",
+        "images/HSK_3.0/level9/冲浪.svg"
+      ]
+    },
+    "冲洗": {
+      "hanzi": "冲洗",
+      "pinyin": "chōngxǐ",
+      "meaning": "rửa sạch, xả nước, tráng phim",
+      "example_zh": "切菜之前，一定要用流动的清水把蔬菜彻底<u>冲洗</u>干净。",
+      "example_vi": "Trước khi cắt rau, nhất định phải dùng nước chảy để <u>rửa sạch</u> rau củ hoàn toàn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冲洗.svg",
+      "src": "images/HSK_3.0/level7/冲洗.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/冲洗.svg",
+        "images/HSK_3.0/level9/冲洗.svg"
+      ]
+    },
+    "充裕": {
+      "hanzi": "充裕",
+      "pinyin": "chōngyù",
+      "meaning": "dồi dào, dư dả",
+      "example_zh": "只要准备时间足够<u>充裕</u>，我们就一定能够交出一份优秀的方案。",
+      "example_vi": "Chỉ cần thời gian chuẩn bị đủ <u>dồi dào</u>, chúng ta nhất định có thể nộp một phương án xuất sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "充裕.svg",
+      "src": "images/HSK_3.0/level7/充裕.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/充裕.svg",
+        "images/HSK_3.0/level9/充裕.svg"
+      ]
+    },
+    "冲撞": {
+      "hanzi": "冲撞",
+      "pinyin": "chōngzhuàng",
+      "meaning": "va chạm, xung đột",
+      "example_zh": "足球比赛中激烈的身体<u>冲撞</u>很容易导致运动员受伤。",
+      "example_vi": "Trong trận bóng đá, những pha <u>va chạm</u> thân thể quyết liệt rất dễ dẫn đến chấn thương cho vận động viên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "冲撞.svg",
+      "src": "images/HSK_3.0/level7/冲撞.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/冲撞.svg",
+        "images/HSK_3.0/level9/冲撞.svg"
+      ]
+    },
+    "重重": {
+      "hanzi": "重重",
+      "pinyin": "chóngchóng",
+      "meaning": "trùng trùng, muôn vàn, lớp lớp",
+      "example_zh": "尽管前行的道路上面临着<u>重重</u>困难，他们依然没有放弃希望。",
+      "example_vi": "Dù trên con đường phía trước đối mặt với <u>muôn vàn</u> khó khăn, họ vẫn không hề từ bỏ hy vọng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "重重.svg",
+      "src": "images/HSK_3.0/level7/重重.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/重重.svg",
+        "images/HSK_3.0/level9/重重.svg"
       ]
     }
   }

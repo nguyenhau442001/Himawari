@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background elements: Blue sky and white clouds -->
+  <path d="M0 0h240v120H0z" fill="#2C3E50"/>
+  <path d="M40 40c-10-10-25-10-35 0s-5 20 5 25h60c10 0 15-10 5-15s-20-10-35-10z" fill="#E0E6ED" opacity="0.8"/>
+  <path d="M180 30c-15-15-40-15-55 0s-10 30 10 35h90c15 0 25-15 10-25s-30-15-55-10z" fill="#E0E6ED" opacity="0.8"/>
+  
+  <!-- The Snow Mountain (The object being highlighted) -->
+  <path d="M120 60L70 180h100L120 60z" fill="#FFFFFF"/>
+  <path d="M120 60l15 30-10 10 20 20-15 15 10 10-20 35H70L120 60z" fill="#BDC3C7"/>
+  
+  <!-- The Action: A person's hand gesturing to "frame" or "highlight" the mountain -->
+  <!-- This represents the act of "衬托" (setting off/highlighting) -->
+  <g fill="#FFB347">
+    <path d="M40 160l-10 20 20 10 10-20-20-10z"/>
+    <path d="M30 180l-5 15 15 5 5-15-15-5z"/>
+    <path d="M20 195l-5 10 10 5 5-10-10-5z"/>
+  </g>
+  
+  <!-- Motion lines indicating the act of directing attention/highlighting -->
+  <path d="M50 170l20-20M60 160l20-20" stroke="#FFB347" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Foreground ground/base -->
+  <path d="M0 180h240v60H0z" fill="#252932"/>
+</svg>

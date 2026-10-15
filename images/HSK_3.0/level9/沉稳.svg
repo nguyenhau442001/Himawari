@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient background glow representing calmness and stability -->
+  <circle cx="120" cy="130" r="70" fill="#243044" opacity="0.4"/>
+  <circle cx="120" cy="130" r="40" fill="#2E4057" opacity="0.3"/>
+
+  <!-- Conceptual character figure representing "沉稳" (composed, steady, calm under pressure) -->
+  <g transform="translate(0, 10)">
+    <!-- Base / Ground line representing stability -->
+    <line x1="70" y1="175" x2="170" y2="175" stroke="#3A4D6C" stroke-width="3" stroke-linecap="round"/>
+    <line x1="90" y1="181" x2="150" y2="181" stroke="#2A3950" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Shoulders and Body (Solid, grounded triangle/trapezoid shape for stability) -->
+    <path d="M 80 175 C 80 145, 95 130, 120 130 C 145 130, 160 145, 160 175 Z" fill="#2E4057"/>
+    <path d="M 95 175 C 95 155, 105 145, 120 145 C 135 145, 145 155, 145 175 Z" fill="#3D5A80"/>
+
+    <!-- Suit Collar / Professional Attire -->
+    <polygon points="120,145 110,165 130,165" fill="#1A1D24"/>
+    <polygon points="120,145 115,160 125,160" fill="#E0A96D"/>
+
+    <!-- Neck -->
+    <rect x="113" y="118" width="14" height="20" rx="4" fill="#E8B89D"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="100" r="22" fill="#E8B89D"/>
+
+    <!-- Calm facial expression elements -->
+    <!-- Hair -->
+    <path d="M 98 100 C 98 85, 108 76, 120 76 C 132 76, 142 85, 142 100 L 142 92 C 142 81, 132 73, 120 73 C 108 73, 98 81, 98 92 Z" fill="#2B2D42"/>
+
+    <!-- Eyes: Calm, level, half-closed or steady gaze (horizontal calm line/eyes) -->
+    <line x1="109" y1="98" x2="116" y2="98" stroke="#2B2D42" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="124" y1="98" x2="131" y2="98" stroke="#2B2D42" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Calm, straight, composed mouth (no panic, stable) -->
+    <line x1="115" y1="110" x2="125" y2="110" stroke="#C88B69" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Accent Element: Floating calm golden equilibrium aura/balance ring overhead, subtle and clean -->
+    <ellipse cx="120" cy="52" rx="28" ry="8" fill="none" stroke="#E9C46A" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="120" cy="44" r="3" fill="#E9C46A"/>
+  </g>
+</svg>

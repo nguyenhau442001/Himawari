@@ -1,0 +1,57 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative racing track lines / velocity streaks -->
+  <path d="M20 180 L220 180" stroke="#252A34" stroke-width="2" stroke-dasharray="8 8" opacity="0.6"/>
+  <path d="M40 140 L240 140" stroke="#252A34" stroke-width="2" stroke-dasharray="12 6" opacity="0.4"/>
+  <path d="M10 210 L210 210" stroke="#252A34" stroke-width="3" opacity="0.8"/>
+
+  <!-- Dynamic speed lines / motion blur behind the runner -->
+  <path d="M25 150 Q50 145 75 155" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <path d="M15 170 Q45 165 85 175" stroke="#FF9F43" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M30 195 Q70 190 100 198" stroke="#FF9F43" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Finish line glowing element representing "冲刺" (sprinting to the finish) -->
+  <g transform="translate(185, 90)">
+    <!-- Vertical finish pole -->
+    <rect x="0" y="0" width="4" height="110" fill="#E1E2E6" rx="2"/>
+    <!-- Finish tape ribbon snapping / fluttering forward -->
+    <path d="M-55 25 C-35 20 -15 35 2 22" stroke="#FF4757" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M-50 65 C-30 60 -15 75 2 62" stroke="#FF4757" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <!-- Ribbon motion flash -->
+    <circle cx="-25" cy="27" r="4" fill="#FF9F43"/>
+    <circle cx="-40" cy="23" r="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Running Character (Sprinting posture, leaning forward with high energy accent) -->
+  <g transform="translate(100, 110)">
+    <!-- Back leg (extended backward) -->
+    <path d="M-10 45 L-40 75 L-60 70" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Back arm (swinging back) -->
+    <path d="M0 10 L-30 35 L-45 25" stroke="#60A5FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Torso (leaning sharply forward for maximum velocity/sprint) -->
+    <path d="M-5 45 C-10 20 0 -10 15 -25" stroke="#3B82F6" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Head -->
+    <circle cx="24" cy="-34" r="11" fill="#FFD166"/>
+    <!-- Motion streak on head -->
+    <path d="M14 -40 C18 -45 26 -44 32 -40" stroke="#FF9F43" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Front leg (powerfully driving forward, knee high) -->
+    <path d="M5 45 L25 30 L10 65" stroke="#3B82F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Front arm (driving forward) -->
+    <path d="M5 0 L30 15 L45 8" stroke="#60A5FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Focus / Action accent particles -->
+  <circle cx="160" cy="115" r="3" fill="#FF9F43"/>
+  <circle cx="170" cy="135" r="2" fill="#FFD166"/>
+  <circle cx="145" cy="95" r="2" fill="#FF9F43"/>
+  
+  <!-- Ground impact shadow -->
+  <ellipse cx="110" cy="180" rx="45" ry="6" fill="#111318" opacity="0.8"/>
+</svg>

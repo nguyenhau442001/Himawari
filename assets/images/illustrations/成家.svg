@@ -1,0 +1,53 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    {/* Ground line */}
+    <line x1="40" y1="185" x2="200" y2="185" stroke="#323846" stroke-width="3" stroke-linecap="round"/>
+
+    {/* Cozy House representing "家" (Family/Home) */}
+    {/* House shadow/glow backdrop */}
+    <path d="M120 65 L175 110 L175 180 L65 180 L65 110 Z" fill="#252A38"/>
+    
+    {/* House walls */}
+    <rect x="75" y="105" width="90" height="75" fill="#2D3343" rx="4"/>
+    
+    {/* Roof */}
+    <path d="M60 110 L120 55 L180 110 Z" fill="#E67E22"/>
+    <path d="M120 55 L180 110 L170 115 L120 65 L70 115 L60 110 Z" fill="#F39C12"/>
+
+    {/* Warm glowing window */}
+    <rect x="125" y="125" width="28" height="36" rx="4" fill="#F1C40F"/>
+    <line x1="139" y1="125" x2="139" y2="161" stroke="#2D3343" stroke-width="2"/>
+    <line x1="125" y1="143" x2="153" y2="143" stroke="#2D3343" stroke-width="2"/>
+
+    {/* Warm window glow effect */}
+    <path d="M123 123 h32 v40 h-32 z" fill="none" stroke="#F1C40F" stroke-width="2" stroke-opacity="0.4" rx="6"/>
+
+    {/* Door */}
+    <path d="M87 140 h26 v40 h-26 z" fill="#3B4252" rx="3"/>
+    <circle cx="107" cy="162" r="2" fill="#F1C40F"/>
+
+    {/* Figures representing establishing a household ("成" + "家") */}
+    {/* Adult figure 1 */}
+    <g transform="translate(32, 22)">
+      <circle cx="50" cy="115" r="9" fill="#EAEFF8"/>
+      <path d="M41 128 c0 -8 6 -12 9 -12 s9 4 9 12 v32 h-18 z" fill="#3498DB"/>
+    </g>
+
+    {/* Adult figure 2 */}
+    <g transform="translate(108, 22)">
+      <circle cx="50" cy="115" r="9" fill="#EAEFF8"/>
+      <path d="M41 128 c0 -8 6 -12 9 -12 s9 4 9 12 v32 h-18 z" fill="#E74C3C"/>
+    </g>
+
+    {/* Child figure (symbolizing complete family unit) */}
+    <g transform="translate(70, 42)">
+      <circle cx="50" cy="115" r="7" fill="#EAEFF8"/>
+      <path d="M43 125 c0 -6 4 -10 7 -10 s7 4 7 10 v25 h-14 z" fill="#2ECC71"/>
+    </g>
+
+    {/* Interlocking/Welcoming hand gesture / Warm connection arc */}
+    <path d="M73 148 Q120 120 167 148" fill="none" stroke="#F39C12" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

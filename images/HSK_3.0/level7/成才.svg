@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle glow representing growth and potential -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+  
+  <!-- Ground/Base -->
+  <path d="M 80 185 L 160 185 C 165 185, 168 188, 168 192 C 168 196, 165 199, 160 199 L 80 199 C 75 199, 72 196, 72 192 C 72 188, 75 185, 80 185 Z" fill="#3A4252"/>
+  
+  <!-- Graduate Cap (Symbolizing "成才" - becoming a capable, accomplished person) -->
+  <g transform="translate(120, 95)">
+    <!-- Cap top diamond -->
+    <polygon points="0,-35 48,-15 0,5 -48,-15" fill="#3B82F6"/>
+    <!-- Cap top inner shadow for depth -->
+    <polygon points="0,-32 42,-15 0,2 -42,-15" fill="#60A5FA"/>
+    <!-- Cap skull cap base -->
+    <path d="M -26,-3 L -26,16 C -26,26 26,26 26,16 L 26,-3 C 15,3 -15,3 -26,-3 Z" fill="#2563EB"/>
+    <!-- Tassel string and button -->
+    <circle cx="0" cy="-15" r="4" fill="#F59E0B"/>
+    <path d="M 0,-15 Q 15,0 28,18" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="28" cy="21" r="3.5" fill="#F59E0B"/>
+  </g>
+
+  <!-- Growing Tree / Sprout Stem merging into Graduation concept -->
+  <!-- Main Trunk -->
+  <path d="M 112 185 L 112 135 C 112 125, 128 125, 128 135 L 128 185 Z" fill="#10B981"/>
+  
+  <!-- Left Leaf (Thriving nature/growth) -->
+  <path d="M 112 155 C 95 150, 85 130, 95 115 C 105 105, 115 125, 112 155 Z" fill="#34D399"/>
+  
+  <!-- Right Leaf -->
+  <path d="M 128 145 C 145 140, 155 120, 145 105 C 135 95, 125 115, 128 145 Z" fill="#34D399"/>
+
+  <!-- Golden Stars of Achievement floating upward -->
+  <g fill="#FBBF24">
+    <!-- Star 1 -->
+    <path d="M 75 80 L 78 87 L 85 88 L 80 93 L 81 100 L 75 96 L 69 100 L 70 93 L 65 88 L 72 87 Z" transform="scale(0.6) translate(60, 40)"/>
+    <!-- Star 2 -->
+    <path d="M 75 80 L 78 87 L 85 88 L 80 93 L 81 100 L 75 96 L 69 100 L 70 93 L 65 88 L 72 87 Z" transform="scale(0.8) translate(105, 10)"/>
+    <!-- Star 3 -->
+    <path d="M 75 80 L 78 87 L 85 88 L 80 93 L 81 100 L 75 96 L 69 100 L 70 93 L 65 88 L 72 87 Z" transform="scale(0.5) translate(140, 65)"/>
+  </g>
+
+</svg>

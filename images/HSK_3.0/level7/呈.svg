@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing sunlight -->
+  <circle cx="120" cy="110" r="70" fill="#FFB703" opacity="0.08"/>
+  <path d="M120 30 L120 45" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M70 50 L80 60" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M170 50 L160 60" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M50 100 L65 102" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <path d="M190 100 L175 102" stroke="#FFB703" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Sun icon in upper atmosphere -->
+  <circle cx="120" cy="70" r="16" fill="#FFB703"/>
+
+  <!-- Clear Lake Object (Physical Object representing "呈" - emerging/revealing color & form under light) -->
+  <!-- Lake basin / ground -->
+  <ellipse cx="120" cy="155" rx="85" ry="35" fill="#2D3748" opacity="0.5"/>
+  
+  <!-- Crystal clear water body -->
+  <ellipse cx="120" cy="150" rx="78" ry="30" fill="#06d6a0" opacity="0.25"/>
+  <ellipse cx="120" cy="152" rx="72" ry="26" fill="#118ab2" opacity="0.4"/>
+  <ellipse cx="120" cy="154" rx="64" ry="21" fill="#073b4c" opacity="0.6"/>
+
+  <!-- Vibrant Emerald Hue Revealing/Emerging (Visualizing "呈碧绿色") -->
+  <path d="M70 152 Q120 178 170 152 Q120 132 70 152 Z" fill="#2ec4b6" opacity="0.85"/>
+  
+  <!-- Water surface sparkle / Light reflection -->
+  <path d="M95 145 C105 142 115 148 125 144" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M135 156 C140 154 145 158 150 155" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <circle cx="100" cy="158" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="145" cy="148" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Underwater pebble/detail for absolute clarity -->
+  <ellipse cx="105" cy="162" rx="6" ry="3" fill="#e9c46a" opacity="0.8"/>
+  <ellipse cx="138" cy="160" rx="4" ry="2" fill="#f4a261" opacity="0.8"/>
+</svg>

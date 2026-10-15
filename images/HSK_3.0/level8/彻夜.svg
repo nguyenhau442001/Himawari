@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Window frame looking out into the night -->
+  <path d="M52 44C52 39.5817 55.5817 36 60 36H180C184.418 36 188 39.5817 188 44V180C188 184.418 184.418 188 180 188H60C55.5817 188 52 184.418 52 180V44Z" fill="#222730" stroke="#323846" stroke-width="3"/>
+  
+  <!-- Window glass (Night sky transitioning to dawn) -->
+  <path d="M56 40H184V184H56V40Z" fill="#14171F"/>
+  <path d="M56 40H184V120C184 120 150 145 120 145C90 145 56 120 56 120V40Z" fill="#1E2330"/>
+
+  <!-- Stars and Moon for 'Night' -->
+  <circle cx="80" cy="65" r="1.5" fill="#8C9BAE"/>
+  <circle cx="150" cy="55" r="2" fill="#E2E8F0"/>
+  <circle cx="165" cy="85" r="1" fill="#8C9BAE"/>
+  <path d="M115 60C115 68.2843 108.284 75 100 75C96.4807 75 93.2201 73.7854 90.6288 71.7824C94.5029 73.0658 98.8131 72.1977 101.696 69.3142C104.579 66.4308 105.447 62.1206 104.164 58.2465C106.167 60.8378 107.382 64.0984 107.382 67.6177C107.382 71.137 106.167 74.3976 104.164 76.9889C106.167 74.3976 107.382 71.137 107.382 67.6177C107.382 64.0984 106.167 60.8378 104.164 58.2465C106.164 58.2465 115 55 115 60Z" fill="#F6AD55"/>
+
+  <!-- Dawn/Sunrise glow at the bottom of the window horizon -->
+  <path d="M56 120C85 135 155 135 184 120V184H56V120Z" fill="#2C2422" opacity="0.6"/>
+  <ellipse cx="120" cy="135" rx="45" ry="12" fill="#F6AD55" opacity="0.25"/>
+  <ellipse cx="120" cy="138" rx="25" ry="6" fill="#FEEbc8" opacity="0.4"/>
+
+  <!-- Window divider grid -->
+  <line x1="120" y1="40" x2="120" y2="184" stroke="#323846" stroke-width="3"/>
+  <line x1="56" y1="112" x2="184" y2="112" stroke="#323846" stroke-width="3"/>
+
+  <!-- Interior Desk surface -->
+  <path d="M36 194H204C208.418 194 212 197.582 212 202V206C212 210.418 208.418 214 204 214H36C31.5817 214 28 210.418 28 206V202C28 197.582 31.5817 194 36 194Z" fill="#2A303C"/>
+
+  <!-- Desk Lamp (Illuminating the late night/all-night work) -->
+  <path d="M165 194L170 155H180L185 194H165Z" fill="#3D4654"/>
+  <path d="M175 155L195 105" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+  <!-- Lamp Shade -->
+  <path d="M182 101L207 121C209 123 207.5 127 204 127H180C176.5 127 175 123 177 121L182 101Z" fill="#F6AD55"/>
+  <!-- Light beamcone -->
+  <path d="M185 127L125 194H155L195 127H185Z" fill="#F6AD55" opacity="0.15"/>
+
+  <!-- Computer Screen / Work setup indicating overnight effort -->
+  <rect x="70" y="130" width="60" height="42" rx="4" fill="#222730" stroke="#4A5568" stroke-width="2"/>
+  <rect x="76" y="136" width="30" height="4" rx="2" fill="#F6AD55"/>
+  <rect x="76" y="146" width="48" height="3" rx="1.5" fill="#718096"/>
+  <rect x="76" y="153" width="40" height="3" rx="1.5" fill="#718096"/>
+  <rect x="76" y="160" width="22" height="3" rx="1.5" fill="#48BB78"/>
+  <!-- Stand -->
+  <path d="M93 172H107V185H93V172Z" fill="#4A5568"/>
+  <path d="M85 185H115V190H85V185Z" fill="#4A5568"/>
+
+  <!-- Clock showing late hours (e.g. 3:45 AM) -->
+  <circle cx="138" cy="95" r="14" fill="#222730" stroke="#F6AD55" stroke-width="2"/>
+  <circle cx="138" cy="95" r="1" fill="#E2E8F0"/>
+  <path d="M138 95V88" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M138 95H144" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Coffee mug (Essential for all-night work) -->
+  <path d="M52 178C52 173.582 55.5817 170 60 170H68C72.4183 170 76 173.582 76 178V190C76 192.209 74.2091 194 72 194H56C53.7909 194 52 192.209 52 190V178Z" fill="#E2E8F0"/>
+  <path d="M76 176H79C81.2091 176 83 177.791 83 180V184C83 186.209 81.2091 188 79 188H76V176Z" stroke="#E2E8F0" stroke-width="2" fill="none"/>
+  <path d="M58 166C58 164 60 163 60 161C60 159 58 158 58 156" stroke="#A0AEC0" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Focus / Conceptual accent ring -->
+  <circle cx="120" cy="120" r="108" fill="none" stroke="#F6AD55" stroke-width="1.5" stroke-dasharray="8 8" opacity="0.3"/>
+</svg>

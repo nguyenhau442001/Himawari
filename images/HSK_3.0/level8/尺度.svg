@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ruler representing "尺度" (The physical object/measure) -->
+  <g transform="translate(60, 100)">
+    <!-- Ruler Body -->
+    <rect x="0" y="0" width="120" height="20" rx="2" fill="#3D4451"/>
+    
+    <!-- Ruler Markings -->
+    <line x1="10" y1="0" x2="10" y2="10" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="20" y1="0" x2="20" y2="10" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="30" y1="0" x2="30" y2="15" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="40" y1="0" x2="40" y2="10" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="50" y1="0" x2="50" y2="10" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="60" y1="0" x2="60" y2="20" stroke="#FFB84D" stroke-width="3"/>
+    <line x1="70" y1="0" x2="70" y2="10" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="80" y1="0" x2="80" y2="10" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="90" y1="0" x2="90" y2="15" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="100" y1="0" x2="100" y2="10" stroke="#FFB84D" stroke-width="2"/>
+    <line x1="110" y1="0" x2="110" y2="10" stroke="#FFB84D" stroke-width="2"/>
+  </g>
+
+  <!-- Decorative accent line to emphasize the "measure" concept -->
+  <path d="M40 140 L200 140" stroke="#3D4451" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

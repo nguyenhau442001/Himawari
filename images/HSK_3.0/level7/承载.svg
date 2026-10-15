@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Album Cover -->
+  <rect x="70" y="60" width="100" height="120" rx="4" fill="#3D4451" stroke="#FFB84D" stroke-width="2"/>
+  <rect x="75" y="65" width="90" height="110" rx="2" fill="#2A2F3A"/>
+  
+  <!-- Album Spine -->
+  <rect x="65" y="60" width="10" height="120" rx="2" fill="#FFB84D"/>
+  
+  <!-- Memory Visuals (Abstracted photos/moments) -->
+  <rect x="85" y="80" width="30" height="30" rx="2" fill="#FFB84D" opacity="0.8"/>
+  <rect x="125" y="80" width="30" height="30" rx="2" fill="#5D677A"/>
+  <rect x="85" y="120" width="30" height="30" rx="2" fill="#5D677A"/>
+  <rect x="125" y="120" width="30" height="30" rx="2" fill="#FFB84D" opacity="0.6"/>
+  
+  <!-- Hands holding the album -->
+  <path d="M50 150 C 40 150, 30 160, 30 180 L 70 180 L 70 150 Z" fill="#E0A870"/>
+  <path d="M190 150 C 200 150, 210 160, 210 180 L 170 180 L 170 150 Z" fill="#E0A870"/>
+  
+  <!-- Subtle highlight on album -->
+  <path d="M75 65 L 165 65 L 165 75 L 75 75 Z" fill="#FFFFFF" opacity="0.05"/>
+</svg>

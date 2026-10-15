@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Body of the person -->
+    <path d="M60 120 C60 100, 70 80, 80 80 L100 80 C110 80, 120 100, 120 120 L120 160 L60 160 Z" fill="#4A5568"/>
+    <!-- Head -->
+    <circle cx="90" cy="60" r="25" fill="#E2E8F0"/>
+    <!-- Facial expression: strained/sweating -->
+    <path d="M80 55 Q85 50 90 55" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M95 55 Q100 50 105 55" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M85 70 Q90 75 95 70" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <circle cx="105" cy="45" r="3" fill="#63B3ED"/>
+    <!-- Arm holding heavy weight -->
+    <path d="M120 90 L150 70" stroke="#E2E8F0" stroke-width="12" stroke-linecap="round"/>
+    <!-- Heavy object being held (representing the burden) -->
+    <rect x="140" y="40" width="40" height="40" rx="4" fill="#F6AD55"/>
+    <!-- Legs showing instability -->
+    <path d="M75 160 L70 190" stroke="#4A5568" stroke-width="8" stroke-linecap="round"/>
+    <path d="M105 160 L115 190" stroke="#4A5568" stroke-width="8" stroke-linecap="round"/>
+    <!-- Visual cue of shaking/strain -->
+    <path d="M130 30 L140 20" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M150 25 L160 15" stroke="#F6AD55" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
