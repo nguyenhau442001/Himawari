@@ -427,9 +427,9 @@ function renderReadingAnalysisScreen() {
         </header>
       `}
 
-      <!-- TWO-COLUMN WORKSPACE GRID (Left 65%, Right 35%) -->
+      <!-- TWO-COLUMN WORKSPACE GRID (Left 60%, Right 40%) -->
       <div class="reading-workspace-grid">
-        <!-- LEFT COLUMN: Main Sentence & Navigation (65%) -->
+        <!-- LEFT COLUMN: Main Focus Area (60%) -->
         <main class="reading-col-main" aria-label="Khu vực bài đọc chính">
           <section class="reading-passage-card" aria-label="Nội dung bài đọc">
             <div class="reading-card-meta-row">
@@ -451,52 +451,34 @@ function renderReadingAnalysisScreen() {
               </div>
             </div>
 
-            <!-- MAIN CHINESE SENTENCE -->
-            <div class="reading-zh-hero">
-              ${readingPrefs.dictationMode ? `
-                <div class="reading-dictation-prompt">
-                  🎧 Chế độ chép chính tả đang bật. Hãy bấm nút <strong>Nghe</strong> và gõ lại câu vào ô bên dưới!
-                </div>
-              ` : `
-                <div class="reading-zh-flow" id="readingZhLine">
-                  ${renderCleanTokensHtml(currentEntry)}
-                </div>
-              `}
+            <!-- VERTICALLY CENTERED CONTENT BODY (Eliminates bottom dead space) -->
+            <div class="reading-passage-body">
+              <!-- MAIN CHINESE SENTENCE -->
+              <div class="reading-zh-hero">
+                ${readingPrefs.dictationMode ? `
+                  <div class="reading-dictation-prompt">
+                    🎧 Chế độ chép chính tả đang bật. Hãy bấm nút <strong>Nghe</strong> và gõ lại câu vào ô bên dưới!
+                  </div>
+                ` : `
+                  <div class="reading-zh-flow" id="readingZhLine">
+                    ${renderCleanTokensHtml(currentEntry)}
+                  </div>
+                `}
+              </div>
+
+              <!-- DICTATION INPUT BOX -->
+              ${readingPrefs.dictationMode ? renderDictationBoxHtml(currentEntry) : ''}
+
+              <!-- SENTENCE TRANSLATIONS (Clear typography hierarchy) -->
+              ${!readingPrefs.dictationMode ? renderSentenceTranslationsHtml(currentEntry) : ''}
+
+              <!-- PRACTICE PANELS (When in practice mode) -->
+              ${readingActiveMode === 'practice' ? renderPracticePanelsHtml(currentEntry) : ''}
             </div>
-
-            <!-- DICTATION INPUT BOX -->
-            ${readingPrefs.dictationMode ? renderDictationBoxHtml(currentEntry) : ''}
-
-            <!-- SENTENCE TRANSLATIONS (Clear typography hierarchy) -->
-            ${!readingPrefs.dictationMode ? renderSentenceTranslationsHtml(currentEntry) : ''}
-
-            <!-- PRACTICE PANELS (When in practice mode) -->
-            ${readingActiveMode === 'practice' ? renderPracticePanelsHtml(currentEntry) : ''}
           </section>
-
-          <!-- BOTTOM NAVIGATION FOOTER (At bottom of Left Column) -->
-          <footer class="reading-navigation-footer">
-            <button type="button" class="reading-nav-btn prev-btn" onclick="prevReadingQuestion()" ${readingCurrentIndex === 0 ? 'disabled' : ''} title="Câu trước (← hoặc K)">
-              ← Câu trước
-            </button>
-
-            <div class="reading-footer-middle">
-              <select class="reading-jump-select" aria-label="Chọn nhanh câu hỏi" onchange="jumpToReadingIndex(this.value)">
-                ${readingFilteredList.map((item, idx) => `
-                  <option value="${idx}" ${idx === readingCurrentIndex ? 'selected' : ''}>
-                    ${idx + 1}/${readingFilteredList.length} · [${getCategoryLabel(item.category)}] ${item.title || item.zh.substring(0, 18) + '...'}
-                  </option>
-                `).join('')}
-              </select>
-            </div>
-
-            <button type="button" class="reading-nav-btn next-btn" onclick="nextReadingQuestion()" ${readingCurrentIndex === readingFilteredList.length - 1 ? 'disabled' : ''} title="Câu sau (→ hoặc J)">
-              Câu tiếp theo →
-            </button>
-          </footer>
         </main>
 
-        <!-- RIGHT COLUMN: Sidebar Study Materials (35%) -->
+        <!-- RIGHT COLUMN: Sidebar Study Materials (40%) -->
         <aside class="reading-col-sidebar" aria-label="Tài liệu bổ trợ">
           <!-- 1. VOCABULARY WORD TAGS LIST / GRID (At top of sidebar) -->
           <div class="sidebar-study-card sidebar-vocab-card">
@@ -510,17 +492,38 @@ function renderReadingAnalysisScreen() {
             ${renderSidebarVocabGridHtml(currentEntry)}
           </div>
 
-          <!-- 2. DEDICATED DETAIL PANEL FOR SELECTED WORD -->
+          <!-- 2. DEDICATED DETAIL PANEL FOR SELECTED WORD (Breathing whitespace, no duplicates) -->
           <div class="sidebar-study-card sidebar-word-detail-card" id="readingWordDetailPanel">
             ${renderSidebarWordDetailHtml(currentEntry)}
           </div>
 
-          <!-- 3. HIGHLIGHTED GRAMMAR ANALYSIS & EXAM TRAPS BOX -->
+          <!-- 3. HIGHLIGHTED CONSOLIDATED GRAMMAR & EXAM TRAPS BOX -->
           <div class="sidebar-study-card sidebar-grammar-card">
             ${renderSidebarGrammarHtml(currentEntry)}
           </div>
         </aside>
       </div>
+
+      <!-- GLOBAL FULL-WIDTH BOTTOM NAVIGATION (Anchored across full workspace) -->
+      <footer class="reading-global-footer" role="navigation" aria-label="Điều hướng câu hỏi">
+        <button type="button" class="reading-nav-btn prev-btn" onclick="prevReadingQuestion()" ${readingCurrentIndex === 0 ? 'disabled' : ''} title="Câu trước (← hoặc K)">
+          ← Câu trước
+        </button>
+
+        <div class="reading-footer-middle">
+          <select class="reading-jump-select" aria-label="Chọn nhanh câu hỏi" onchange="jumpToReadingIndex(this.value)">
+            ${readingFilteredList.map((item, idx) => `
+              <option value="${idx}" ${idx === readingCurrentIndex ? 'selected' : ''}>
+                ${idx + 1}/${readingFilteredList.length} · [${getCategoryLabel(item.category)}] ${item.title || item.zh}
+              </option>
+            `).join('')}
+          </select>
+        </div>
+
+        <button type="button" class="reading-nav-btn next-btn" onclick="nextReadingQuestion()" ${readingCurrentIndex === readingFilteredList.length - 1 ? 'disabled' : ''} title="Câu sau (→ hoặc J)">
+          Câu tiếp theo →
+        </button>
+      </footer>
     </div>
   `;
 }
@@ -710,30 +713,33 @@ function renderSidebarVocabGridHtml(entry) {
 /**
  * Render Dedicated Detail Panel for Selected Word (Middle of sidebar)
  */
+/**
+ * Render Dedicated Detail Panel for Selected Word (Middle of sidebar)
+ * Strictly no duplicated exam trap notes - clean breathing whitespace
+ */
 function renderSidebarWordDetailHtml(entry) {
   if (!entry || !entry.tokens || readingSelectedTokenIndex === null || !entry.tokens[readingSelectedTokenIndex]) {
     return `
       <div class="sw-placeholder">
         <span class="sw-placeholder-icon">👆</span>
-        <div class="sw-placeholder-text">Bấm vào bất kỳ từ nào ở danh sách phía trên hoặc trên câu chính để xem phân tích chi tiết.</div>
+        <div class="sw-placeholder-text">Bấm vào bất kỳ từ nào ở danh sách phía trên hoặc trên câu chính để xem chi tiết.</div>
       </div>
     `;
   }
 
   const tok = entry.tokens[readingSelectedTokenIndex];
-  const gp = entry.grammar_point || {};
 
   // Compute label & badge
   let badgeLabel = 'Từ vựng';
   let badgeClass = 'sw-badge-normal';
   if (tok.type === 'grammar') {
-    badgeLabel = '⚡ Điểm ngữ pháp bẫy';
+    badgeLabel = '⚡ Ngữ pháp';
     badgeClass = 'sw-badge-grammar';
   } else if (tok.type === 'core') {
-    badgeLabel = 'Từ cốt lõi HSK 4';
+    badgeLabel = 'Cốt lõi HSK 4';
     badgeClass = 'sw-badge-core';
   } else if (tok.type === 'advanced') {
-    badgeLabel = 'Từ vựng mở rộng';
+    badgeLabel = 'Mở rộng';
     badgeClass = 'sw-badge-adv';
   }
 
@@ -746,26 +752,12 @@ function renderSidebarWordDetailHtml(entry) {
     else meaning = roleDesc;
   }
 
-  // Check if grammar point specifically mentions this word
-  let specificGrammarNote = '';
-  if (gp.trap_note && (gp.trap_note.includes(tok.text) || gp.name?.includes(tok.text))) {
-    specificGrammarNote = gp.trap_note;
-  } else if (tok.type === 'grammar' && gp.trap_note) {
-    specificGrammarNote = gp.trap_note;
-  }
-
-  // Check matching breakdown row
-  let breakdownMatch = null;
-  if (entry.breakdown && Array.isArray(entry.breakdown)) {
-    breakdownMatch = entry.breakdown.find(b => b.text && b.text.includes(tok.text));
-  }
-
   return `
     <div class="sw-detail-inner">
       <div class="sw-header-bar">
         <div class="sw-header-title-box">
           <span class="sw-header-icon">🔍</span>
-          <span class="sw-header-label">Từ vựng trọng điểm</span>
+          <span class="sw-header-label">Từ vựng đang chọn</span>
         </div>
         <span class="sw-badge ${badgeClass}">${badgeLabel}</span>
       </div>
@@ -787,15 +779,15 @@ function renderSidebarWordDetailHtml(entry) {
 
       <!-- Meaning Block -->
       <div class="sw-meaning-block">
-        <span class="sw-meaning-label">Nghĩa tiếng Việt:</span>
-        <span class="sw-meaning-text">${meaning || 'Chưa có chú giải nghĩa tiếng Việt'}</span>
+        <div class="sw-meaning-label">Nghĩa tiếng Việt</div>
+        <div class="sw-meaning-text">${meaning || 'Chưa có chú giải nghĩa tiếng Việt'}</div>
       </div>
 
-      <!-- Grammar & Syntax Notes -->
-      ${(roleDesc || specificGrammarNote) ? `
-        <div class="sw-grammar-notes-block">
-          ${roleDesc ? `<div class="sw-role-line"><span class="sw-role-tag">Cú pháp:</span> ${roleDesc}</div>` : ''}
-          ${specificGrammarNote ? `<div class="sw-trap-tip"><span class="sw-tip-tag">⚠️ Lưu ý thi:</span> ${specificGrammarNote}</div>` : ''}
+      <!-- Syntax / Role Line (No duplicate exam notes) -->
+      ${roleDesc ? `
+        <div class="sw-role-block">
+          <span class="sw-role-tag">Cú pháp trong câu:</span>
+          <span class="sw-role-desc">${roleDesc}</span>
         </div>
       ` : ''}
     </div>
@@ -804,13 +796,14 @@ function renderSidebarWordDetailHtml(entry) {
 
 /**
  * Render Highlighted Grammar Analysis & Exam Traps Box (Bottom of sidebar)
+ * Consolidated, single authority for exam tips and grammar structure
  */
 function renderSidebarGrammarHtml(entry) {
   const gp = entry.grammar_point || {};
   if (!gp.name && !gp.pattern && !gp.trap_note && !gp.explanation) {
     return `
       <div class="sidebar-empty-grammar">
-        Không có lưu ý bẫy ngữ pháp đặc biệt cho câu này.
+        Không có lưu ý ngữ pháp đặc biệt cho câu này.
       </div>
     `;
   }
@@ -820,21 +813,20 @@ function renderSidebarGrammarHtml(entry) {
       <div class="sidebar-card-header grammar-highlight-header">
         <div class="sidebar-header-left">
           <span class="grammar-lightning-icon">⚡</span>
-          <span class="sidebar-header-title">Phân tích ngữ pháp & Mẹo bẫy thi</span>
+          <span class="sidebar-header-title">Ngữ pháp & Mẹo thi</span>
         </div>
         ${gp.level ? `<span class="sidebar-grammar-level">${gp.level}</span>` : ''}
       </div>
 
       ${gp.name ? `
         <div class="sidebar-grammar-name">
-          <span class="sgn-label">Trọng điểm:</span>
           <span class="sgn-title">${gp.name}</span>
         </div>
       ` : ''}
 
       ${gp.pattern ? `
         <div class="sidebar-grammar-pattern">
-          <span class="sgp-label">Cấu trúc:</span>
+          <span class="sgp-label">Cấu trúc trọng điểm:</span>
           <code class="sgp-code">${gp.pattern}</code>
         </div>
       ` : ''}
@@ -843,7 +835,7 @@ function renderSidebarGrammarHtml(entry) {
         <div class="sidebar-grammar-trap">
           <div class="sgt-header">
             <span class="sgt-icon">⚠️</span>
-            <span class="sgt-title">Mẹo phòng bẫy đề thi:</span>
+            <span class="sgt-title">Mẹo bẫy thi HSK 4:</span>
           </div>
           <div class="sgt-content">${gp.trap_note}</div>
         </div>
@@ -851,8 +843,8 @@ function renderSidebarGrammarHtml(entry) {
 
       ${gp.explanation ? `
         <div class="sidebar-grammar-exp">
-          <div class="sge-title">💡 Giải thích ứng dụng:</div>
-          <div class="sge-content">${gp.explanation}</div>
+          <span class="sge-title">💡 Giải thích ứng dụng:</span>
+          <span class="sge-content">${gp.explanation}</span>
         </div>
       ` : ''}
     </div>
