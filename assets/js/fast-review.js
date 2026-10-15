@@ -219,6 +219,79 @@ function startReviewRangeLoad() {
   startUnifiedReview();
 }
 
+let reviewCurrentChoices = [];
+let reviewKeydownHandler = null;
+
+function enterReviewFocusMode() {
+  document.body.classList.add('review-focus-mode');
+  const setupCard = document.getElementById('reviewSetupCard');
+  if (setupCard) setupCard.hidden = true;
+  const picker = document.querySelector('.review-range-picker');
+  if (picker) picker.hidden = true;
+}
+
+function exitReviewFocusMode() {
+  document.body.classList.remove('review-focus-mode');
+  const setupCard = document.getElementById('reviewSetupCard');
+  if (setupCard) setupCard.hidden = false;
+  const picker = document.querySelector('.review-range-picker');
+  if (picker) picker.hidden = false;
+}
+
+function setupReviewKeydownListener() {
+  removeReviewKeydownListener();
+  reviewKeydownHandler = function (e) {
+    if (e.key === 'Escape') {
+      if (document.getElementById('reviewMistakesModal')) {
+        closeReviewMistakesModal();
+      } else if (reviewSessionLive) {
+        exitReviewSession();
+      }
+      return;
+    }
+
+    if (reviewAnswered || !reviewSessionLive || !reviewCurrentQuestion) return;
+    if (reviewCurrentQuestion.type !== 'choice') return;
+    if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+
+    const key = e.key.toLowerCase();
+    let choiceIndex = -1;
+    if (key === '1' || key === 'a') choiceIndex = 0;
+    else if (key === '2' || key === 'b') choiceIndex = 1;
+    else if (key === '3' || key === 'c') choiceIndex = 2;
+    else if (key === '4' || key === 'd') choiceIndex = 3;
+
+    if (choiceIndex >= 0 && reviewCurrentChoices && reviewCurrentChoices[choiceIndex] !== undefined) {
+      e.preventDefault();
+      submitReviewChoice(reviewCurrentChoices[choiceIndex]);
+    }
+  };
+  document.addEventListener('keydown', reviewKeydownHandler);
+}
+
+function removeReviewKeydownListener() {
+  if (reviewKeydownHandler) {
+    document.removeEventListener('keydown', reviewKeydownHandler);
+    reviewKeydownHandler = null;
+  }
+}
+
+function renderReviewHeartsHtml(lives) {
+  let heartsHtml = '<div class="review-hearts" aria-label="' + lives + ' mạng còn lại">';
+  for (let i = 1; i <= 3; i++) {
+    const isAlive = i <= lives;
+    heartsHtml += `
+      <span class="review-heart-item ${isAlive ? 'is-alive' : 'is-lost'}" data-heart-idx="${i}" aria-hidden="true">
+        <svg viewBox="0 0 24 24" class="review-heart-svg">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+      </span>`;
+  }
+  heartsHtml += '</div>';
+  return heartsHtml;
+}
+
 function showReviewSetup() {
   abandonReviewSession();
   const setupCard = document.getElementById('reviewSetupCard');
@@ -243,6 +316,7 @@ function startReviewSession() {
   reviewBestStreak = 0;
   reviewMistakes = [];
   closeReviewMistakesModal();
+  enterReviewFocusMode();
 
   const setupCard = document.getElementById('reviewSetupCard');
   if (setupCard) setupCard.hidden = true;
@@ -253,6 +327,7 @@ function startReviewSession() {
   const sessionEl = document.getElementById('reviewSession');
   if (sessionEl) sessionEl.hidden = false;
 
+  setupReviewKeydownListener();
   renderReviewQuestion();
 }
 
@@ -283,6 +358,8 @@ function abandonReviewSession() {
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
   reviewAnswered = true;
   reviewSessionLive = false;
+  removeReviewKeydownListener();
+  exitReviewFocusMode();
   closeReviewMistakesModal();
 }
 
@@ -305,7 +382,6 @@ function renderReviewQuestion() {
   reviewAnswered = false;
   reviewTimeLeft = 20;
 
-  const livesHtml = '♥'.repeat(reviewLives) + '♡'.repeat(3 - reviewLives);
   const reviewCoreHanzi = String(word.hanzi || '').replace(/[（\(].*?[）\)]/g, '').trim() || word.hanzi || '';
   const reviewLen = Array.from(reviewCoreHanzi).length;
   const reviewLenClass = reviewLen >= 6 ? ' is-len-6-plus' : reviewLen === 5 ? ' is-len-5' : reviewLen === 4 ? ' is-len-4' : '';
@@ -315,38 +391,72 @@ function renderReviewQuestion() {
     : (word.hanzi || '');
 
   const header = `
-    <div class="review-header">
-      <div class="review-lives" aria-label="${reviewLives} mạng còn lại">${livesHtml}</div>
-      <div class="review-progress-text">${reviewIndex + 1} / ${reviewPool.length}</div>
-      <button type="button" class="review-session-exit-btn" onclick="exitReviewSession()" title="Dừng phiên ôn tập" aria-label="Thoát phiên ôn tập">✕ Thoát</button>
+    <div class="review-topbar">
+      <button type="button" class="review-exit-btn" onclick="exitReviewSession()" title="Thoát ôn nhanh (Esc)" aria-label="Thoát ôn nhanh">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="review-topbar-center">
+        <div class="review-progress-badge">
+          <span class="review-progress-curr">${reviewIndex + 1}</span>
+          <span class="review-progress-slash">/</span>
+          <span class="review-progress-total">${reviewPool.length}</span>
+        </div>
+        ${reviewStreak >= 2 ? `<div class="review-streak-pill" title="Chuỗi đúng liên tiếp">🔥 ${reviewStreak}</div>` : ''}
+      </div>
+      <div class="review-topbar-right">
+        ${renderReviewHeartsHtml(reviewLives)}
+      </div>
     </div>
-    <div class="review-timer-track"><div class="review-timer-fill" id="reviewTimerFill"></div></div>
-    <div class="review-question-word">
-      <div class="review-hanzi${reviewLenClass}">${reviewHanziHtml}</div>
-      <div class="review-meaning">${word.meaning}</div>
+
+    <div class="review-timer-wrap">
+      <div class="review-timer-track">
+        <div class="review-timer-fill" id="reviewTimerFill"></div>
+      </div>
+      <span class="review-timer-num" id="reviewTimerNum">${reviewTimeLeft}s</span>
+    </div>
+
+    <div class="review-question-card">
+      <div class="review-hanzi-wrap">
+        <div class="review-hanzi${reviewLenClass}">${reviewHanziHtml}</div>
+      </div>
     </div>`;
 
   let bodyHtml;
   if (type === 'type') {
+    reviewCurrentChoices = [];
     bodyHtml = `
-      <div class="review-answer-area">
-        <input type="text" id="reviewTypeInput" class="review-type-input"
-          autocomplete="off" autocapitalize="off" spellcheck="false"
-          placeholder="Gõ pinyin (không dấu)..."
-          onkeydown="if(event.key==='Enter') submitReviewTypeAnswer()">
-        <button class="review-submit-btn" onclick="submitReviewTypeAnswer()">Trả lời</button>
+      <div class="review-type-wrap">
+        <div class="review-answer-area">
+          <input type="text" id="reviewTypeInput" class="review-type-input"
+            autocomplete="off" autocapitalize="off" spellcheck="false"
+            placeholder="Gõ pinyin (không dấu)..."
+            aria-label="Nhập pinyin của chữ Hán"
+            onkeydown="if(event.key==='Enter') submitReviewTypeAnswer()">
+          <button type="button" class="review-submit-btn" onclick="submitReviewTypeAnswer()">
+            <span>Trả lời</span>
+            <span class="review-submit-kbd" aria-hidden="true">↵</span>
+          </button>
+        </div>
+        <div class="review-type-hint">Nhấn Enter để gửi đáp án</div>
       </div>
-      <div class="review-feedback" id="reviewFeedback"></div>`;
+      <div class="review-feedback" id="reviewFeedback" aria-live="polite"></div>`;
   } else {
     const choiceIdxs = buildReviewChoices(wordIdx);
+    reviewCurrentChoices = choiceIdxs;
+    const KEY_HINTS = ['A', 'B', 'C', 'D'];
     bodyHtml = `
-      <div class="review-choices">
-        ${choiceIdxs.map(i => `
-          <button class="review-choice-btn" data-word-idx="${i}" onclick="submitReviewChoice(${i})">
-            ${reviewWordPool[i].pinyin}
+      <div class="review-choices" role="group" aria-label="Bốn đáp án lựa chọn">
+        ${choiceIdxs.map((i, idx) => `
+          <button type="button" class="review-choice-btn" data-word-idx="${i}" data-choice-idx="${idx}" onclick="submitReviewChoice(${i})">
+            <span class="review-choice-badge" aria-hidden="true">${KEY_HINTS[idx]}</span>
+            <span class="review-choice-pinyin">${escapeReviewHtml(reviewWordPool[i].pinyin)}</span>
+            <span class="review-choice-shortcut-hint" aria-hidden="true">${idx + 1}</span>
           </button>`).join('')}
       </div>
-      <div class="review-feedback" id="reviewFeedback"></div>`;
+      <div class="review-feedback" id="reviewFeedback" aria-live="polite"></div>`;
   }
 
   document.getElementById('reviewSession').innerHTML = header + bodyHtml;
@@ -360,9 +470,12 @@ function renderReviewQuestion() {
 
 function updateReviewTimerBar() {
   const fill = document.getElementById('reviewTimerFill');
+  const num = document.getElementById('reviewTimerNum');
+  if (num) num.textContent = `${Math.max(0, reviewTimeLeft)}s`;
   if (!fill) return;
   const pct = Math.max(0, (reviewTimeLeft / 20) * 100);
   fill.style.width = pct + '%';
+  fill.classList.toggle('review-timer-warning', reviewTimeLeft <= 8 && reviewTimeLeft > 5);
   fill.classList.toggle('review-timer-low', reviewTimeLeft <= 5);
 }
 
@@ -401,6 +514,7 @@ function submitReviewChoice(chosenIdx) {
   const chosenWord = reviewWordPool[chosenIdx];
   const word = reviewWordPool[reviewCurrentQuestion.wordIdx];
   gradeReviewAnswer(isCorrect, {
+    chosenIdx,
     userAnswer: chosenWord ? chosenWord.pinyin : '',
     expected: word ? word.pinyin : '',
     type: 'choice'
@@ -427,6 +541,13 @@ function gradeReviewAnswer(isCorrect, details) {
     reviewLives -= 1;
     reviewStreak = 0;
 
+    const lostHeartIdx = reviewLives + 1;
+    const lostHeartEl = document.querySelector(`.review-heart-item[data-heart-idx="${lostHeartIdx}"]`);
+    if (lostHeartEl) {
+      lostHeartEl.classList.remove('is-alive');
+      lostHeartEl.classList.add('is-lost', 'just-lost');
+    }
+
     const userAnswer = details && details.userAnswer ? details.userAnswer : (details && details.isTimeout ? 'Hết giờ (chưa kịp trả lời)' : 'Sai');
     const expected = details && details.expected ? details.expected : word.pinyin;
     const qType = details && details.type ? details.type : (reviewCurrentQuestion ? reviewCurrentQuestion.type : 'choice');
@@ -446,24 +567,63 @@ function gradeReviewAnswer(isCorrect, details) {
     });
   }
 
-  const feedback = document.getElementById('reviewFeedback');
-  if (feedback) {
-    feedback.textContent = isCorrect ? 'Chính xác!' : `Sai rồi. Đáp án: ${word.pinyin}`;
-    feedback.className = 'review-feedback show ' + (isCorrect ? 'review-feedback--correct' : 'review-feedback--wrong');
-  }
   document.querySelectorAll('.review-choice-btn').forEach(btn => {
     btn.disabled = true;
-    if (Number(btn.dataset.wordIdx) === wordIdx) btn.classList.add('review-choice-btn--correct');
+    const bWordIdx = Number(btn.dataset.wordIdx);
+    if (bWordIdx === wordIdx) {
+      btn.classList.add('review-choice-btn--correct');
+      const badge = btn.querySelector('.review-choice-badge');
+      if (badge) badge.textContent = '✓';
+    } else if (details && details.chosenIdx === bWordIdx && !isCorrect) {
+      btn.classList.add('review-choice-btn--wrong');
+      const badge = btn.querySelector('.review-choice-badge');
+      if (badge) badge.textContent = '✕';
+    }
   });
 
+  const feedback = document.getElementById('reviewFeedback');
+  if (feedback) {
+    if (isCorrect) {
+      feedback.innerHTML = `
+        <div class="review-feedback-content">
+          <div class="review-feedback-badge review-feedback-badge--correct">
+            <span class="review-feedback-icon">✓</span>
+            <span class="review-feedback-title">Chính xác!</span>
+          </div>
+          <div class="review-feedback-meta">
+            <span class="review-feedback-pinyin">${escapeReviewHtml(word.pinyin)}</span>
+            <span class="review-feedback-sep">·</span>
+            <span class="review-feedback-meaning">${escapeReviewHtml(word.meaning)}</span>
+          </div>
+        </div>`;
+      feedback.className = 'review-feedback show review-feedback--correct';
+    } else {
+      feedback.innerHTML = `
+        <div class="review-feedback-content">
+          <div class="review-feedback-badge review-feedback-badge--wrong">
+            <span class="review-feedback-icon">✕</span>
+            <span class="review-feedback-title">${details && details.isTimeout ? 'Hết giờ!' : 'Chưa đúng!'}</span>
+          </div>
+          <div class="review-feedback-meta">
+            <span class="review-feedback-expected">Đáp án: <strong>${escapeReviewHtml(word.pinyin)}</strong></span>
+            <span class="review-feedback-sep">·</span>
+            <span class="review-feedback-meaning">${escapeReviewHtml(word.meaning)}</span>
+          </div>
+        </div>`;
+      feedback.className = 'review-feedback show review-feedback--wrong';
+    }
+  }
+
+  const delay = isCorrect ? 900 : 1300;
   setTimeout(() => {
     reviewIndex += 1;
     renderReviewQuestion();
-  }, 900);
+  }, delay);
 }
 
 function endReviewSession() {
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
+  removeReviewKeydownListener();
   document.getElementById('reviewSession').hidden = true;
   renderReviewResult();
 }
@@ -474,6 +634,7 @@ function renderReviewResult() {
   const total = Math.min(reviewIndex, reviewPool.length);
   const survived = reviewLives > 0;
   const mistakeCount = reviewMistakes.length;
+  const accuracy = total > 0 ? Math.round((reviewScore / total) * 100) : 0;
 
   const mistakesBtnHtml = mistakeCount > 0
     ? `<button type="button" class="review-mistakes-btn" onclick="openReviewMistakesModal()">📋 Xem lại câu sai (${mistakeCount})</button>`
@@ -481,20 +642,25 @@ function renderReviewResult() {
 
   result.innerHTML = `
     <div class="review-result">
-      <div class="review-result-icon">${survived ? '🏁' : '💔'}</div>
-      <div class="review-result-title">${survived ? 'Hoàn thành!' : 'Hết mạng!'}</div>
+      <div class="review-result-icon">${survived ? '🏆' : '💔'}</div>
+      <h2 class="review-result-title">${survived ? 'Hoàn thành phiên ôn!' : 'Hết mạng mất rồi!'}</h2>
+      <p class="review-result-sub">${survived ? 'Xuất sắc! Bạn đã vượt qua các từ vựng trong phạm vi ôn.' : 'Đừng nản lòng! Hãy ôn lại các câu trả lời chưa đúng để nhớ lâu hơn.'}</p>
       <div class="review-result-stats">
         <div class="review-result-stat">
           <div class="review-result-num">${reviewScore}</div>
-          <div class="review-result-lbl">câu đúng</div>
+          <div class="review-result-lbl">Câu đúng</div>
         </div>
         <div class="review-result-stat">
           <div class="review-result-num">${total}</div>
-          <div class="review-result-lbl">tổng số câu</div>
+          <div class="review-result-lbl">Tổng số câu</div>
         </div>
         <div class="review-result-stat">
-          <div class="review-result-num">${reviewBestStreak}</div>
-          <div class="review-result-lbl">chuỗi đúng dài nhất</div>
+          <div class="review-result-num">${accuracy}%</div>
+          <div class="review-result-lbl">Chính xác</div>
+        </div>
+        <div class="review-result-stat">
+          <div class="review-result-num">🔥 ${reviewBestStreak}</div>
+          <div class="review-result-lbl">Chuỗi dài nhất</div>
         </div>
       </div>
       <div class="review-result-actions">
@@ -506,10 +672,12 @@ function renderReviewResult() {
 }
 
 function exitReviewSession() {
-  if (confirm('Bạn có chắc muốn dừng phiên ôn tập này?')) {
-    abandonReviewSession();
-    showReviewSetup();
+  if (reviewSessionLive && !reviewAnswered && reviewLives > 0) {
+    const confirmExit = window.confirm('Bạn có muốn dừng phiên ôn nhanh này không?');
+    if (!confirmExit) return;
   }
+  abandonReviewSession();
+  showReviewSetup();
 }
 
 function renderReviewRangePicker() {
