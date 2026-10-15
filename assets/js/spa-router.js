@@ -27,28 +27,34 @@ const SpaRouter = (function() {
 
   function formatUrl(state) {
     const base = window.location.pathname;
+    let themeParam = '';
+    try {
+      const t = new URLSearchParams(window.location.search).get('theme');
+      if (t === 'light' || t === 'dark') themeParam = `&theme=${t}`;
+    } catch (e) {}
+
     if (!state || state.view === 'vocab') {
-      return base;
+      return themeParam ? `${base}?${themeParam.slice(1)}` : base;
     }
     if (state.view === 'cards' && state.level) {
-      return `${base}?level=${encodeURIComponent(state.level)}`;
+      return `${base}?level=${encodeURIComponent(state.level)}${themeParam}`;
     }
     if (state.view === 'tab' && state.tab && state.tab !== 'vocab') {
       if (state.tab === 'gradedReading' && state.story) {
-        return `${base}?tab=gradedReading&story=${encodeURIComponent(state.story)}`;
+        return `${base}?tab=gradedReading&story=${encodeURIComponent(state.story)}${themeParam}`;
       }
       if (state.tab === 'reading' && state.q) {
-        return `${base}?tab=reading&q=${encodeURIComponent(state.q)}`;
+        return `${base}?tab=reading&q=${encodeURIComponent(state.q)}${themeParam}`;
       }
-      return `${base}?tab=${encodeURIComponent(state.tab)}`;
+      return `${base}?tab=${encodeURIComponent(state.tab)}${themeParam}`;
     }
     if (state.view === 'todayReviews') {
-      return `${base}?screen=today-reviews`;
+      return `${base}?screen=today-reviews${themeParam}`;
     }
     if (state.view === 'radicalCards') {
-      return `${base}?screen=radical-cards&mode=${encodeURIComponent(state.mode || 'basic50')}`;
+      return `${base}?screen=radical-cards&mode=${encodeURIComponent(state.mode || 'basic50')}${themeParam}`;
     }
-    return base;
+    return themeParam ? `${base}?${themeParam.slice(1)}` : base;
   }
 
   function pushView(state, customUrl = null) {

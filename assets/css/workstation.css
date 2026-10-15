@@ -1378,7 +1378,7 @@ body.flashcard-study-mode .pinyin {
 }
 
 body.flashcard-study-mode .sound-btn {
-  display: inline-flex;
+  display: none;
   align-items: center;
   justify-content: center;
   width: 36px;
@@ -1390,6 +1390,9 @@ body.flashcard-study-mode .sound-btn {
   color: var(--text-secondary);
   cursor: pointer;
   transition: all 0.15s ease;
+}
+body.flashcard-study-mode .sound-btn.show {
+  display: inline-flex;
 }
 body.flashcard-study-mode .sound-btn svg {
   width: 18px;
@@ -1837,19 +1840,20 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 8px 6px;
+    gap: 6px;
     min-height: auto;
-    padding: 8px 12px;
-    margin: 0 auto 10px;
-    border-radius: 14px;
+    padding: 6px 10px;
+    margin: 0 auto 8px;
+    border-radius: 12px;
     width: 100%;
+    box-sizing: border-box;
   }
 
   body.flashcard-study-mode .study-view-topbar-left {
     order: 1;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     flex: 1 1 auto;
     min-width: 0;
   }
@@ -1889,18 +1893,18 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     order: 2;
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
     flex: 0 0 auto;
     flex-shrink: 0;
   }
 
   body.flashcard-study-mode .study-drawer-btn {
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
-    max-width: 30px;
-    border-radius: 8px;
-    font-size: 12px;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    max-width: 28px;
+    border-radius: 7px;
+    font-size: 11px;
     padding: 0;
   }
 
@@ -1910,7 +1914,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .study-drawer-btn .study-btn-badge-text {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   /* Full-width responsive progress bar on Row 2 */
@@ -1920,13 +1924,14 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     min-width: 100%;
     max-width: 100%;
     margin: 4px 0 0 0;
-    padding-top: 6px;
+    padding-top: 5px;
     border-top: 1px solid var(--border);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
+    box-sizing: border-box;
   }
 
   :root[data-theme="dark"] body.flashcard-study-mode .study-topbar-progress {
@@ -1959,24 +1964,32 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     flex-shrink: 0;
   }
 
-  /* 2. Filter Pills: compact and thumb-friendly */
+  /* 2. Filter Pills: mathematically balanced grid, zero overflow */
   body.flashcard-study-mode .filter-row {
-    margin: 0 auto 8px;
-    padding: 2px;
-    gap: 3px;
-    border-radius: 10px;
-    max-width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 4px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    margin: 0 auto 10px !important;
+    padding: 0 !important;
   }
 
   body.flashcard-study-mode .filter-btn {
-    padding: 5px 3px;
-    min-height: 29px;
-    font-size: 11px;
-    gap: 2px;
-    border-radius: 8px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 6px 2px !important;
+    min-height: 32px !important;
+    font-size: 11px !important;
+    gap: 2px !important;
+    border-radius: 999px !important;
+    text-align: center !important;
+    justify-content: center !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    box-sizing: border-box !important;
   }
 
   body.flashcard-study-mode .filter-count {
@@ -1987,20 +2000,29 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   /* 3. Flashcard Container: optimized margins & paddings */
   body.flashcard-study-mode #cardArea > .card {
-    min-height: auto;
+    min-height: 280px;
     max-height: none;
-    padding: 44px 14px 14px;
-    border-radius: 18px;
-    box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.12);
+    padding: 38px 16px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    box-sizing: border-box;
   }
 
   :root[data-theme="dark"] body.flashcard-study-mode #cardArea > .card {
-    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45);
   }
 
   body.flashcard-study-mode .card-header-bar {
-    height: 42px;
-    padding: 0 12px;
+    height: 36px;
+    padding: 6px 12px 0;
+    border-bottom: none !important;
+    background: transparent !important;
+  }
+
+  body.flashcard-study-mode .card-toolbar #transferToggle,
+  body.flashcard-study-mode .card-toolbar #hanvietToggle {
+    display: none !important;
   }
 
   body.flashcard-study-mode .card-position-badge {
@@ -2043,9 +2065,9 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   body.flashcard-study-mode .card-illustration-frame {
     border-radius: 14px;
     padding: 2px;
-    background: transparent;
-    border: none;
-    box-shadow: none;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
   body.flashcard-study-mode .card-illustration-svg {
@@ -2203,6 +2225,30 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     padding: 9px 18px;
     font-size: 15px;
     border-radius: 999px;
+  }
+
+  body.flashcard-study-mode .reveal-btn .key-badge,
+  body.flashcard-study-mode .key-badge {
+    display: none !important;
+  }
+
+  body.flashcard-study-mode .nav-row {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 8px auto 0 !important;
+    padding: 0 4px !important;
+    box-sizing: border-box !important;
+  }
+
+  body.flashcard-study-mode .nav-btn {
+    padding: 7px 14px !important;
+    font-size: 13px !important;
+    border-radius: 999px !important;
+  }
+
+  body.flashcard-study-mode .card-counter {
+    font-size: 12px !important;
+    font-weight: 600 !important;
   }
 
   body.flashcard-study-mode .reveal-btn:active {

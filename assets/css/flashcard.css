@@ -220,6 +220,16 @@
 .card-content.is-empty .hint { display: none !important; }
 .card-content.is-empty .meaning { margin-top: 0; }
 
+/* Pure Zen Flashcard Quiz: hide spoiler clues on front until flipped */
+.card:not(.is-flipped) .hanviet-badge,
+.card:not(.is-flipped) .pos-badge,
+.card:not(.is-flipped) .card-radicals-row {
+  display: none !important;
+}
+.hide-hanviet .hanviet-badge {
+  display: none !important;
+}
+
 /* Card Radical Breakdown Row */
 .card-radicals-row {
   display: flex;

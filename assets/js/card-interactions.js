@@ -154,16 +154,19 @@ function flip() {
   if (filteredOrder.length === 0) return;
   const m = document.getElementById('meaning');
   const ex = document.getElementById('exampleBox');
+  const card = document.getElementById('card');
   const willShow = !m.classList.contains('show');
   m.classList.toggle('show');
   ex.classList.toggle('show', willShow);
-  document.getElementById('soundBtn').classList.toggle('show', willShow);
+  if (card) card.classList.toggle('is-flipped', willShow);
+  const soundBtn = document.getElementById('soundBtn');
+  if (soundBtn) soundBtn.classList.toggle('show', willShow);
   if (willShow && !showPinyin) {
     const wIdx = filteredOrder[idx % filteredOrder.length];
     document.getElementById('pinyin').textContent = WORDS[wIdx].pinyin;
   } else if (!willShow && !showPinyin) {
     document.getElementById('pinyin').textContent = '';
   }
-  document.getElementById('hint').textContent = willShow ? '' : 'Nhấn vào thẻ hoặc phím Space để lật';
+  document.getElementById('hint').textContent = willShow ? '' : 'Nhấn vào thẻ để lật';
   syncRevealControls();
 }

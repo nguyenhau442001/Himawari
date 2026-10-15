@@ -781,12 +781,16 @@ function render(animate) {
 
   function applyContent() {
     if (content) content.className = 'card-content';
+    const card = document.getElementById('card');
+    if (card) card.classList.remove('is-flipped');
     const wordMainBlock = document.getElementById('wordMainBlock');
     const cardEmptyState = document.getElementById('cardEmptyState');
     const exBox = document.getElementById('exampleBox');
     if (exBox) exBox.classList.remove('show');
     const soundBtn = document.getElementById('soundBtn');
     if (soundBtn) soundBtn.classList.remove('show');
+    const initImgEl = document.getElementById('cardIllustrationImg');
+    if (initImgEl) { initImgEl.hidden = true; initImgEl.style.display = 'none'; initImgEl.removeAttribute('src'); }
     const hint = document.getElementById('hint');
     if (filteredOrder.length === 0) {
       if (wordMainBlock) wordMainBlock.style.display = 'none';
@@ -888,6 +892,7 @@ function render(animate) {
     document.getElementById('exVi').innerHTML = w.example_vi;
 
     // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor)
+    const visualCol = document.getElementById('cardVisualCol');
     const imgEl = document.getElementById('cardIllustrationImg');
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
@@ -895,6 +900,7 @@ function render(animate) {
     if (imgEl && svgEl && typeof getWordIllustration === 'function') {
       const illu = getWordIllustration(w);
       if (illu) {
+        if (visualCol) visualCol.style.display = '';
         if (frameEl) frameEl.title = 'Minh họa gợi hình';
 
         if (illu.type === 'svg' && illu.svg) {
@@ -944,7 +950,13 @@ function render(animate) {
             }
           }
         }
+      } else {
+        if (visualCol) visualCol.style.display = 'none';
+        if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
+        if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
       }
+    } else if (visualCol) {
+      visualCol.style.display = 'none';
     }
 
     // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
