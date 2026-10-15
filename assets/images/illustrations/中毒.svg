@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing toxic hazard aura background -->
+  <circle cx="120" cy="115" r="70" fill="#2E1C1F" opacity="0.6"/>
+  
+  <!-- Food/Green beans representing the context: 食用没有彻底煮熟的四季豆 -->
+  <!-- Bowl -->
+  <path d="M75,150 L165,150 C165,175 145,190 120,190 C95,190 75,175 75,150 Z" fill="#2C3440"/>
+  <ellipse cx="120" cy="150" rx="45" ry="12" fill="#3B4656"/>
+  
+  <!-- Green bean pods (some raw/undercooked curved shapes) -->
+  <path d="M90,135 Q110,120 135,130 Q145,135 150,125" fill="none" stroke="#2ECC71" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100,145 Q125,135 140,148" fill="none" stroke="#27AE60" stroke-width="7" stroke-linecap="round"/>
+  <path d="M95,125 Q115,110 125,120" fill="none" stroke="#2ECC71" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Toxic Hazard Symbol representing "zhòngdú" (trúng độc/ngộ độc) -->
+  <!-- Central yellow-orange warning circle -->
+  <circle cx="120" cy="105" r="38" fill="#F1C40F"/>
+  <circle cx="120" cy="105" r="30" fill="#1A1D24"/>
+  
+  <!-- Toxic biohazard circles inside -->
+  <circle cx="120" cy="92" r="10" fill="#F1C40F"/>
+  <circle cx="110" cy="113" r="10" fill="#F1C40F"/>
+  <circle cx="130" cy="113" r="10" fill="#F1C40F"/>
+  
+  <!-- Inner black cutouts to complete the iconic hazard look -->
+  <circle cx="120" cy="94" r="5" fill="#1A1D24"/>
+  <circle cx="112" cy="111" r="5" fill="#1A1D24"/>
+  <circle cx="128" cy="111" r="5" fill="#1A1D24"/>
+
+  <!-- Warning steam / toxic vapor wisps rising up -->
+  <path d="M105,65 Q112,50 105,35" fill="none" stroke="#E74C3C" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M135,68 Q128,52 138,38" fill="none" stroke="#E74C3C" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M120,60 Q120,45 120,30" fill="none" stroke="#E74C3C" stroke-width="4" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Definitions for Gradients -->
+  <defs>
+    <linearGradient id="spotlightBeam" x1="120" y1="40" x2="120" y2="205" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="floorHighlight" cx="120" cy="205" r="50" fx="120" fy="205" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Stage Floor -->
+  <ellipse cx="120" cy="205" rx="70" ry="18" fill="#2D323E"/>
+  
+  <!-- Floor Glow -->
+  <ellipse cx="120" cy="205" rx="50" ry="12" fill="url(#floorHighlight)"/>
+
+  <!-- Spotlight Beam -->
+  <path d="M100 20 L140 20 L190 205 L50 205 Z" fill="url(#spotlightBeam)"/>
+
+  <!-- Character (The Protagonist/主角) -->
+  <g id="protagonist">
+    <!-- Legs -->
+    <rect x="111" y="175" width="7" height="25" rx="3.5" fill="#E0E0E0"/>
+    <rect x="122" y="175" width="7" height="25" rx="3.5" fill="#E0E0E0"/>
+    
+    <!-- Body/Outfit (Confident Pose) -->
+    <path d="M102 135 C102 125 138 125 138 135 L135 180 L105 180 Z" fill="#FFFFFF"/>
+    
+    <!-- Arms (Hands on hips) -->
+    <path d="M102 138 L92 155 L103 162" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M138 138 L148 155 L137 162" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Head -->
+    <circle cx="120" cy="112" r="14" fill="#FFDBAC"/>
+    
+    <!-- Hair/Style -->
+    <path d="M106 112 C106 95 134 95 134 112 C134 115 130 118 120 118 C110 118 106 115 106 112 Z" fill="#333333"/>
+    
+    <!-- Subtle Gold Accent (Star/Pin) to signify "Lead" -->
+    <path d="M120 138 L122 143 L127 143 L123 146 L124 151 L120 148 L116 151 L117 146 L113 143 L118 143 Z" fill="#FFD700"/>
+  </g>
+
+  <!-- Top Light Source -->
+  <path d="M100 20 Q120 10 140 20" fill="none" stroke="#FFD700" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+</svg>

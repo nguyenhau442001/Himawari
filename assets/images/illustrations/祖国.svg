@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Stylized Landmass (Representing the Motherland/Territory) -->
+  <path d="M185,90 C200,90 210,105 205,125 C200,145 175,165 155,175 C135,185 95,190 75,180 C55,170 45,145 50,120 C55,95 75,85 95,80 C115,75 135,80 155,75 C170,70 180,80 185,90 Z" fill="#CC8E35"/>
+  
+  <!-- Stylized Great Wall (Representing Heritage and Borders) -->
+  <path d="M70,125 L82,125 L82,118 L92,118 L92,125 L107,125 L107,118 L117,118 L117,125 L132,125 L132,118 L142,118 L142,125 L157,125 L157,118 L167,118 L167,125 L180,125" 
+        fill="none" 
+        stroke="#FFC312" 
+        stroke-width="6" 
+        stroke-linejoin="round" 
+        stroke-linecap="round"/>
+  
+  <!-- Decorative Mountain Peaks (Signifying the vast landscape) -->
+  <path d="M80,160 L95,140 L110,160 Z" fill="#B37A2D"/>
+  <path d="M130,165 L150,135 L170,165 Z" fill="#B37A2D"/>
+  
+  <!-- Subtle Highlight on the Land -->
+  <path d="M185,90 C200,90 210,105 205,125 C200,135 190,145 175,150 C160,130 140,110 110,105 C90,102 70,105 55,115 C52,105 60,90 80,85 C100,80 120,85 140,80 C160,75 175,80 185,90 Z" fill="#D99A40" opacity="0.5"/>
+</svg>

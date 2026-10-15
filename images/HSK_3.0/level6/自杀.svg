@@ -1,0 +1,28 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Glow & Atmosphere -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.6"/>
+  <path d="M70,185 L170,185" stroke="#323846" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Conceptual Representation: Reaching out a helping hand (Contextual intervention & prevention) -->
+  <g>
+    <!-- Distressed/Falling Figure silhouette / leaning posture -->
+    <path d="M95 140 C 95 125, 100 115, 110 105 C 115 100, 118 92, 115 85" stroke="#8E99A8" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <circle cx="112" cy="74" r="7" fill="#8E99A8"/>
+    <path d="M102 110 L 88 125" stroke="#8E99A8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M108 135 L 98 160" stroke="#8E99A8" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Savior / Intervening Hand (Warm, supportive, protective gesture) -->
+    <!-- Arm coming from the right to pull back/save -->
+    <path d="M200 110 C 170 105, 145 100, 122 102" stroke="#FF9F43" stroke-width="8" stroke-linecap="round" fill="none"/>
+    
+    <!-- Supporting Hands Clasping / Intercepting -->
+    <path d="M116 97 C 112 100, 108 103, 105 106" stroke="#FF9F43" stroke-width="6" stroke-linecap="round"/>
+    <path d="M118 102 C 122 103, 126 104, 130 106" stroke="#FF9F43" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Focus Light / Hope Aura around the intervention point -->
+    <circle cx="115" cy="102" r="14" fill="none" stroke="#FFB96B" stroke-width="1.5" opacity="0.8"/>
+  </g>
+</svg>
