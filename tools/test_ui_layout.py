@@ -1,0 +1,492 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+tools/test_ui_layout.py
+Automated test suite verifying responsive balance, layout integrity,
+proportions, typography floors, theme contrast, touch targets, and
+mobile/desktop parity across Synapse Hanzi.
+"""
+
+import json
+import re
+import sys
+import unittest
+from html.parser import HTMLParser
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+INDEX_HTML = REPO_ROOT / "index.html"
+SW_JS = REPO_ROOT / "sw.js"
+CSS_DIR = REPO_ROOT / "assets" / "css"
+BASE_CSS = CSS_DIR / "base.css"
+FLASHCARDS_CSS = REPO_ROOT / "assets" / "flashcards.css"
+DASHBOARD_CSS = CSS_DIR / "dashboard-enhancements.css"
+HOME_WIDGETS_CSS = CSS_DIR / "home-widgets.css"
+WORKSTATION_CSS = CSS_DIR / "workstation.css"
+LEVEL_PICKER_CSS = CSS_DIR / "level-picker.css"
+FLASHCARD_CSS = CSS_DIR / "flashcard.css"
+CELEBRATION_CSS = CSS_DIR / "celebration.css"
+
+
+class IdCollector(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.ids = []
+        self.tags = []
+
+    def handle_starttag(self, tag, attrs):
+        self.tags.append(tag)
+        for name, value in attrs:
+            if name.lower() == "id" and value:
+                self.ids.append(value)
+
+
+def extract_media_blocks(css_text, media_query_pattern):
+    """Extract CSS rules enclosed in media queries matching pattern."""
+    blocks = []
+    regex = re.compile(r"@media\s*([^{]+)\{", re.IGNORECASE)
+    pos = 0
+    while True:
+        match = regex.search(css_text, pos)
+        if not match:
+            break
+        query_text = match.group(1).strip()
+        start = match.end()
+        brace_depth = 1
+        i = start
+        while i < len(css_text) and brace_depth > 0:
+            if css_text[i] == '{':
+                brace_depth += 1
+            elif css_text[i] == '}':
+                brace_depth -= 1
+            i += 1
+        block_content = css_text[start : i - 1]
+        if re.search(media_query_pattern, query_text):
+            blocks.append((query_text, block_content))
+        pos = i
+    return blocks
+
+
+class TestResponsiveBreakpointsAndParity(unittest.TestCase):
+    """Test mobile and desktop breakpoint layouts stay balanced."""
+
+    def setUp(self):
+        self.dashboard_css = DASHBOARD_CSS.read_text(encoding="utf-8")
+        self.home_widgets_css = HOME_WIDGETS_CSS.read_text(encoding="utf-8")
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+
+    def test_desktop_workstation_3_columns_preserved(self):
+        """Desktop (min-width: 1280px) must retain a 3-column workstation grid."""
+        desktop_blocks = extract_media_blocks(self.dashboard_css, r"min-width:\s*1280px")
+        self.assertTrue(len(desktop_blocks) >= 1, "Missing @media (min-width: 1280px) in dashboard CSS")
+        combined_desktop = " ".join(b[1] for b in desktop_blocks)
+        self.assertIn("repeat(3, minmax(0, 1fr))", combined_desktop,
+                      "Desktop level-grid must maintain a 3-column layout")
+
+    def test_mobile_level_grid_2_columns_max(self):
+        """Mobile (max-width: 767px) must restrict level-grid to 2 columns to prevent squishing."""
+        mobile_blocks = extract_media_blocks(self.dashboard_css, r"max-width:\s*767px")
+        self.assertTrue(len(mobile_blocks) >= 1, "Missing @media (max-width: 767px) in dashboard CSS")
+        combined_mobile = " ".join(b[1] for b in mobile_blocks)
+        self.assertIn("repeat(2, minmax(0, 1fr))", combined_mobile,
+                      "Mobile level-grid must be a balanced 2-column grid")
+
+    def test_mobile_level_card_dimensions_balanced(self):
+        """Mobile level cards must have balanced min-height (120px - 150px) and proper corner radius."""
+        mobile_blocks = extract_media_blocks(self.dashboard_css, r"max-width:\s*767px")
+        combined_mobile = " ".join(b[1] for b in mobile_blocks)
+        min_h_match = re.search(r"\.level-card\s*\{[^}]*min-height:\s*(\d+)px", combined_mobile)
+        self.assertIsNotNone(min_h_match, "Mobile .level-card must define an explicit min-height")
+        min_h = int(min_h_match.group(1))
+        self.assertTrue(120 <= min_h <= 150,
+                        f"Mobile level-card min-height ({min_h}px) should be between 120px and 150px")
+
+    def test_mobile_widgets_order_keeps_level_grid_visible(self):
+        """On mobile, 'Từ của ngày' must NOT jump above the level picker (order >= 1)."""
+        mobile_blocks = extract_media_blocks(self.home_widgets_css, r"max-width:\s*767px")
+        self.assertTrue(len(mobile_blocks) >= 1)
+        combined = " ".join(b[1] for b in mobile_blocks)
+        wotd_order_match = re.search(r"\.hw-wotd\s*\{[^}]*order:\s*(-?\d+)", combined)
+        self.assertIsNotNone(wotd_order_match, "Mobile .hw-wotd order must be defined")
+        order = int(wotd_order_match.group(1))
+        self.assertGreaterEqual(order, 0,
+                                "Mobile .hw-wotd must not have negative order (-1) to avoid hiding the level grid")
+
+
+class TestTypographyAndTouchFloors(unittest.TestCase):
+    """Test typography readability floors and minimum touch targets."""
+
+    def setUp(self):
+        self.dashboard_css = DASHBOARD_CSS.read_text(encoding="utf-8")
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+
+    def test_no_microscopic_fonts_on_mobile(self):
+        """Ensure no font-size smaller than 9.5px is used on mobile viewports."""
+        mobile_blocks = extract_media_blocks(self.dashboard_css, r"max-width:\s*767px")
+        mobile_blocks.extend(extract_media_blocks(self.workstation_css, r"max-width:\s*640px"))
+
+        for query, content in mobile_blocks:
+            font_sizes = re.findall(r"font-size:\s*(\d+(?:\.\d+)?)px", content)
+            for size_str in font_sizes:
+                size = float(size_str)
+                self.assertGreaterEqual(size, 9.5,
+                                        f"Found unreadable font-size ({size}px) in mobile query ({query})")
+
+    def test_hanzi_uses_adaptive_clamping(self):
+        """Ensure Hanzi typography uses responsive clamp() for long word fit."""
+        self.assertIn("clamp(", self.workstation_css,
+                      "Workstation CSS must use clamp() for responsive character scaling")
+
+    def test_primary_cta_touch_target_height(self):
+        """Primary action buttons on mobile must have at least 40px minimum height for finger taps."""
+        mobile_blocks = extract_media_blocks(self.dashboard_css, r"max-width:\s*767px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        cta_match = re.search(r"\.dashboard-primary-btn\s*\{[^}]*min-height:\s*(\d+)px", combined)
+        self.assertIsNotNone(cta_match)
+        self.assertGreaterEqual(int(cta_match.group(1)), 40,
+                                "Mobile primary CTA button min-height must be at least 40px")
+
+
+class TestLayoutHazardAndOverflowAudit(unittest.TestCase):
+    """Test against dangerous CSS patterns that cause mobile horizontal overflow."""
+
+    def setUp(self):
+        self.dashboard_css = DASHBOARD_CSS.read_text(encoding="utf-8")
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+
+    def test_no_positive_margin_with_full_width_buttons(self):
+        """Prevent width:100% paired with positive margin-left (causes mobile horizontal overflow)."""
+        mobile_blocks = extract_media_blocks(self.dashboard_css, r"max-width:\s*767px")
+        for query, content in mobile_blocks:
+            rules = re.findall(r"([^{]+)\{([^}]+)\}", content)
+            for selector, props in rules:
+                has_full_width = re.search(r"width:\s*100%", props)
+                margin_left_match = re.search(r"margin-left:\s*([1-9]\d*)px", props)
+                if has_full_width and margin_left_match:
+                    self.fail(f"Hazardous layout pattern: '{selector.strip()}' has width: 100% with positive margin-left: {margin_left_match.group(1)}px")
+
+    def test_filter_row_has_overflow_protection(self):
+        """Mobile filter chips must handle text-overflow cleanly."""
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        self.assertIn("text-overflow: ellipsis", combined,
+                      "Mobile filter buttons must have text-overflow protection for narrow devices")
+
+
+class TestFlashcardStudyViewportBalance(unittest.TestCase):
+    """Test flashcard study view proportions and safe area clearance."""
+
+    def setUp(self):
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+
+    def test_illustration_frame_bounded_on_mobile(self):
+        """Flashcard visual illustration col on mobile must not exceed 100px in height."""
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        visual_col_match = re.search(r"\.card-visual-col\s*\{[^}]*height:\s*(\d+)px", combined)
+        self.assertIsNotNone(visual_col_match)
+        height = int(visual_col_match.group(1))
+        self.assertLessEqual(height, 100,
+                             f"Mobile card illustration height ({height}px) must be <= 100px to prevent crowding")
+
+    def test_example_box_bounded_on_mobile(self):
+        """Flashcard example box max-height on mobile must be bounded to avoid scrolling off controls."""
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        example_match = re.search(r"\.example-box\s*\{[^}]*max-height:\s*(\d+)px", combined)
+        self.assertIsNotNone(example_match)
+        max_h = int(example_match.group(1))
+        self.assertTrue(100 <= max_h <= 160,
+                        f"Mobile example-box max-height ({max_h}px) must be between 100px and 160px")
+
+    def test_bottom_safe_area_present(self):
+        """Rating area or action rows must have safe-area inset bottom padding for iOS/in-app browsers."""
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        self.assertIn("env(safe-area-inset-bottom", combined,
+                      "Mobile flashcard study mode must include env(safe-area-inset-bottom) for bottom toolbars")
+
+
+class TestThemeVariablesAndContrast(unittest.TestCase):
+    """Test theme variable declarations and dark/light contrast integrity."""
+
+    def setUp(self):
+        self.base_css = BASE_CSS.read_text(encoding="utf-8")
+
+    def test_root_defines_essential_design_tokens(self):
+        """Root selector must define essential theme tokens."""
+        essential_tokens = ["--bg", "--card-bg", "--text-primary", "--border", "--accent"]
+        root_match = re.search(r":root\s*\{([^}]+)\}", self.base_css)
+        self.assertIsNotNone(root_match, ":root block not found in base.css")
+        root_content = root_match.group(1)
+        for token in essential_tokens:
+            self.assertIn(token, root_content, f"Essential design token {token} missing in :root")
+
+    def test_dark_theme_overrides_essential_tokens(self):
+        """Dark theme must provide overrides for all essential tokens."""
+        essential_tokens = ["--bg", "--card-bg", "--text-primary", "--border", "--accent"]
+        dark_match = re.search(r":root\[data-theme=[\"']dark[\"']\]\s*\{([^}]+)\}", self.base_css)
+        self.assertIsNotNone(dark_match, ":root[data-theme='dark'] block not found in base.css")
+        dark_content = dark_match.group(1)
+        for token in essential_tokens:
+            self.assertIn(token, dark_content, f"Dark theme missing override for {token}")
+
+    def test_light_theme_overrides_essential_tokens(self):
+        """Light theme must provide overrides for all essential tokens."""
+        essential_tokens = ["--bg", "--card-bg", "--text-primary", "--border", "--accent"]
+        light_match = re.search(r":root\[data-theme=[\"']light[\"']\]\s*\{([^}]+)\}", self.base_css)
+        self.assertIsNotNone(light_match, ":root[data-theme='light'] block not found in base.css")
+        light_content = light_match.group(1)
+        for token in essential_tokens:
+            self.assertIn(token, light_content, f"Light theme missing override for {token}")
+
+    def test_theme_contrast_safeguard(self):
+        """Verify that card background and primary text colors are distinct to prevent invisible text."""
+        for theme in ["light", "dark"]:
+            match = re.search(rf":root\[data-theme=[\"']{theme}[\"']\]\s*\{{([^}}]+)\}}", self.base_css)
+            self.assertIsNotNone(match)
+            block = match.group(1)
+            bg_match = re.search(r"--card-bg:\s*([^;]+);", block)
+            text_match = re.search(r"--text-primary:\s*([^;]+);", block)
+            self.assertIsNotNone(bg_match, f"{theme} theme missing --card-bg")
+            self.assertIsNotNone(text_match, f"{theme} theme missing --text-primary")
+            self.assertNotEqual(bg_match.group(1).strip().lower(),
+                                text_match.group(1).strip().lower(),
+                                f"{theme} theme has identical card background and text color!")
+
+
+class TestMobileLandscapeAdaptations(unittest.TestCase):
+    """Test mobile landscape viewports (max-height <= 540px) maintain usable proportions."""
+
+    def setUp(self):
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+
+    def test_landscape_media_query_present(self):
+        """Ensure specific landscape compact media query is defined."""
+        blocks = extract_media_blocks(self.workstation_css, r"max-height:\s*540px.*orientation:\s*landscape")
+        self.assertTrue(len(blocks) >= 1, "Missing @media (max-height: 540px) and (orientation: landscape)")
+
+    def test_landscape_topbar_compact(self):
+        """Landscape topbar must have compact min-height <= 40px to preserve vertical space."""
+        blocks = extract_media_blocks(self.workstation_css, r"max-height:\s*540px.*orientation:\s*landscape")
+        combined = " ".join(b[1] for b in blocks)
+        match = re.search(r"\.study-view-topbar\s*\{[^}]*min-height:\s*(\d+)px", combined)
+        self.assertIsNotNone(match, "Topbar min-height in landscape must be defined")
+        self.assertLessEqual(int(match.group(1)), 40)
+
+    def test_landscape_card_vertical_padding_compact(self):
+        """Card top padding in landscape must not exceed 42px."""
+        blocks = extract_media_blocks(self.workstation_css, r"max-height:\s*540px.*orientation:\s*landscape")
+        combined = " ".join(b[1] for b in blocks)
+        match = re.search(r"#cardArea\s*>\s*\.card\s*\{[^}]*padding:\s*(\d+)px", combined)
+        self.assertIsNotNone(match, "Card padding in landscape must be defined")
+        self.assertLessEqual(int(match.group(1)), 42)
+
+    def test_landscape_example_box_height_constrained(self):
+        """Landscape example box max-height must be <= 90px to prevent viewport clipping."""
+        blocks = extract_media_blocks(self.workstation_css, r"max-height:\s*540px.*orientation:\s*landscape")
+        combined = " ".join(b[1] for b in blocks)
+        match = re.search(r"\.example-box\s*\{[^}]*max-height:\s*(\d+)px", combined)
+        self.assertIsNotNone(match, "Example box max-height in landscape must be defined")
+        self.assertLessEqual(int(match.group(1)), 90)
+
+
+class TestTouchTargetAccessibility(unittest.TestCase):
+    """Test mobile touch targets adhere to accessibility standards (>= 40px for primary actions)."""
+
+    def setUp(self):
+        self.base_css = BASE_CSS.read_text(encoding="utf-8")
+        self.dashboard_css = DASHBOARD_CSS.read_text(encoding="utf-8")
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+
+    def test_mobile_header_utility_buttons_touch_target(self):
+        """Header utility buttons (theme toggle, search) on tablet/mobile must be at least 40px x 40px."""
+        blocks = extract_media_blocks(self.base_css, r"max-width:\s*1279px")
+        self.assertTrue(len(blocks) >= 1)
+        combined = " ".join(b[1] for b in blocks)
+        w_match = re.search(r"\.theme-toggle-btn[^{]*\{[^}]*width:\s*(\d+)px", combined)
+        h_match = re.search(r"\.theme-toggle-btn[^{]*\{[^}]*height:\s*(\d+)px", combined)
+        self.assertIsNotNone(w_match, "Theme toggle width must be defined on mobile")
+        self.assertIsNotNone(h_match, "Theme toggle height must be defined on mobile")
+        self.assertGreaterEqual(int(w_match.group(1)), 40)
+        self.assertGreaterEqual(int(h_match.group(1)), 40)
+
+    def test_mobile_header_search_button_touch_target(self):
+        """Header search button on mobile must have >= 40px dimensions."""
+        blocks = extract_media_blocks(self.base_css, r"max-width:\s*1279px")
+        combined = " ".join(b[1] for b in blocks)
+        match = re.search(r"\.header-search-btn[^{]*\{[^}]*height:\s*(\d+)px", combined)
+        self.assertIsNotNone(match)
+        self.assertGreaterEqual(int(match.group(1)), 40)
+
+    def test_ultra_compact_card_tool_buttons_have_explicit_dimensions(self):
+        """Card toolbar buttons on ultra compact phones (<= 375px) must maintain minimum 24px."""
+        blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*375px")
+        combined = " ".join(b[1] for b in blocks)
+        match = re.search(r"\.card-tool-btn\s*\{[^}]*width:\s*(\d+)px", combined)
+        self.assertIsNotNone(match)
+        self.assertGreaterEqual(int(match.group(1)), 24)
+
+
+class TestZIndexStackingHierarchy(unittest.TestCase):
+    """Test z-index hierarchy prevents modals from being covered by toolbars or sticky headers."""
+
+    def setUp(self):
+        self.flashcard_css = FLASHCARD_CSS.read_text(encoding="utf-8")
+        self.celebration_css = CELEBRATION_CSS.read_text(encoding="utf-8")
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+
+    def test_memory_curve_overlay_above_sticky_content(self):
+        """Memory curve modal overlay must have z-index >= 2000."""
+        match = re.search(r"\.memory-curve-overlay\s*\{[^}]*z-index:\s*(\d+)", self.flashcard_css)
+        self.assertIsNotNone(match)
+        z = int(match.group(1))
+        self.assertGreaterEqual(z, 2000)
+
+    def test_celebration_overlay_highest_layer(self):
+        """Celebration canvas/overlay must have z-index >= 9000."""
+        match = re.search(r"\.celebration-overlay\s*\{[^}]*z-index:\s*(\d+)", self.celebration_css)
+        self.assertIsNotNone(match)
+        z = int(match.group(1))
+        self.assertGreaterEqual(z, 9000)
+
+    def test_card_toolbar_stays_under_modals(self):
+        """Card toolbar controls in workstation must stay below 100 to prevent poking through overlays."""
+        matches = re.findall(r"\.card-toolbar\s*\{[^}]*z-index:\s*(\d+)", self.workstation_css)
+        for z_str in matches:
+            self.assertLess(int(z_str), 100)
+
+
+class TestGridBlowoutProtection(unittest.TestCase):
+    """Test CSS Grid and Flexbox rules prevent container blowouts and clipping."""
+
+    def setUp(self):
+        self.dashboard_css = DASHBOARD_CSS.read_text(encoding="utf-8")
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+        self.flashcard_css = FLASHCARD_CSS.read_text(encoding="utf-8")
+
+    def test_level_grid_uses_minmax_zero(self):
+        """Level grid column definitions must use minmax(0, ...) to prevent grid blow-out."""
+        grids = re.findall(r"grid-template-columns:\s*([^;]+);", self.dashboard_css)
+        for g in grids:
+            if "repeat(" in g:
+                self.assertIn("minmax(0,", g, f"Grid template '{g}' must use minmax(0, ...) to avoid overflow")
+
+    def test_stats_grid_uses_minmax_zero(self):
+        """Memory curve stats grid must use minmax(0, 1fr) for columns."""
+        self.assertIn("repeat(3, minmax(0, 1fr))", self.flashcard_css)
+        self.assertIn("repeat(2, minmax(0, 1fr))", self.flashcard_css)
+
+    def test_card_area_contains_horizontal_overflow(self):
+        """#cardArea must enforce clipping/hiding of horizontal overflow."""
+        match = re.search(r"#cardArea\s*\{[^}]*overflow-x:\s*(clip|hidden)", self.workstation_css)
+        self.assertIsNotNone(match, "#cardArea must specify overflow-x: clip or hidden")
+
+
+class TestViewportMetaConfiguration(unittest.TestCase):
+    """Test mobile viewport meta tag configuration in index.html."""
+
+    def setUp(self):
+        self.index_html = INDEX_HTML.read_text(encoding="utf-8")
+
+    def test_viewport_meta_tag_present(self):
+        """index.html must declare a viewport meta tag."""
+        match = re.search(r'<meta[^>]+name=["\']viewport["\'][^>]*>', self.index_html, re.I)
+        self.assertIsNotNone(match, "Missing <meta name='viewport'> tag in index.html")
+
+    def test_viewport_meta_has_essential_attributes(self):
+        """Viewport meta tag must include width=device-width, initial-scale=1.0, and viewport-fit=cover."""
+        match = re.search(r'<meta[^>]+name=["\']viewport["\'][^>]+content=["\']([^"\']+)["\']', self.index_html, re.I)
+        self.assertIsNotNone(match)
+        content = match.group(1)
+        self.assertIn("width=device-width", content)
+        self.assertIn("initial-scale=1.0", content)
+        self.assertIn("viewport-fit=cover", content)
+
+
+class TestAssetAndPwaSynchronization(unittest.TestCase):
+    """Test that all linked stylesheets, scripts, and PWA caches are intact and synchronized."""
+
+    def setUp(self):
+        self.index_html = INDEX_HTML.read_text(encoding="utf-8")
+        self.sw_js = SW_JS.read_text(encoding="utf-8")
+
+    def test_all_linked_stylesheets_exist(self):
+        """Every stylesheet referenced in index.html must exist on the local filesystem."""
+        hrefs = re.findall(r'<link[^>]+rel=["\']stylesheet["\'][^>]+href=["\']([^"\']+)["\']', self.index_html, re.I)
+        for href in hrefs:
+            clean_path = href.split("?")[0]
+            file_path = REPO_ROOT / clean_path
+            self.assertTrue(file_path.exists(), f"Stylesheet missing on disk: {clean_path}")
+
+    def test_all_script_src_files_exist(self):
+        """Every JS script referenced in index.html must exist on the local filesystem."""
+        srcs = re.findall(r'<script[^>]+src=["\']([^"\']+)["\']', self.index_html, re.I)
+        for src in srcs:
+            if src.startswith("http"):
+                continue
+            clean_path = src.split("?")[0]
+            file_path = REPO_ROOT / clean_path
+            self.assertTrue(file_path.exists(), f"Script missing on disk: {clean_path}")
+
+    def test_pwa_version_alignment(self):
+        """sw.js ASSET_VERSION must be present in index.html stylesheet version strings."""
+        match = re.search(r"const\s+ASSET_VERSION\s*=\s*['\"]([^'\"]+)['\"];", self.sw_js)
+        self.assertIsNotNone(match, "Could not find ASSET_VERSION in sw.js")
+        version = match.group(1)
+        self.assertIn(version, self.index_html,
+                      f"sw.js version '{version}' is not referenced in index.html cache busters")
+
+
+class TestHtmlStructureAndSemantics(unittest.TestCase):
+    """Test HTML parsing integrity, tag balance, and unique IDs."""
+
+    def setUp(self):
+        self.content = INDEX_HTML.read_text(encoding="utf-8")
+
+    def test_html_parsing_clean(self):
+        """index.html must parse cleanly without syntax errors."""
+        parser = HTMLParser()
+        try:
+            parser.feed(self.content)
+        except Exception as e:
+            self.fail(f"HTML parsing failed: {e}")
+
+    def test_no_duplicate_element_ids(self):
+        """All element IDs in index.html must be strictly unique."""
+        collector = IdCollector()
+        collector.feed(self.content)
+        seen = set()
+        duplicates = set()
+        for id_val in collector.ids:
+            if id_val in seen:
+                duplicates.add(id_val)
+            seen.add(id_val)
+        self.assertEqual(len(duplicates), 0,
+                         f"Duplicate element IDs found in index.html: {sorted(duplicates)}")
+
+
+def run_tests():
+    suite = unittest.TestSuite()
+    loader = unittest.TestLoader()
+    suite.addTests(loader.loadTestsFromTestCase(TestResponsiveBreakpointsAndParity))
+    suite.addTests(loader.loadTestsFromTestCase(TestTypographyAndTouchFloors))
+    suite.addTests(loader.loadTestsFromTestCase(TestLayoutHazardAndOverflowAudit))
+    suite.addTests(loader.loadTestsFromTestCase(TestFlashcardStudyViewportBalance))
+    suite.addTests(loader.loadTestsFromTestCase(TestThemeVariablesAndContrast))
+    suite.addTests(loader.loadTestsFromTestCase(TestMobileLandscapeAdaptations))
+    suite.addTests(loader.loadTestsFromTestCase(TestTouchTargetAccessibility))
+    suite.addTests(loader.loadTestsFromTestCase(TestZIndexStackingHierarchy))
+    suite.addTests(loader.loadTestsFromTestCase(TestGridBlowoutProtection))
+    suite.addTests(loader.loadTestsFromTestCase(TestViewportMetaConfiguration))
+    suite.addTests(loader.loadTestsFromTestCase(TestAssetAndPwaSynchronization))
+    suite.addTests(loader.loadTestsFromTestCase(TestHtmlStructureAndSemantics))
+
+    runner = unittest.TextTestRunner(verbosity=2)
+    result = runner.run(suite)
+    return result.wasSuccessful()
+
+
+if __name__ == "__main__":
+    success = run_tests()
+    sys.exit(0 if success else 1)
