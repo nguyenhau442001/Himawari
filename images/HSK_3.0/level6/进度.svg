@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Architectural Blueprint Grid (Context: Construction site progress) -->
+  <path d="M40 60 H200 M40 90 H200 M40 120 H200 M40 150 H200 M40 180 H200" stroke="#252A34" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M60 40 V200 M90 40 V200 M120 40 V200 M150 40 V200 M180 40 V200" stroke="#252A34" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Under-construction Building Structure (Physical Object) -->
+  <g transform="translate(60, 50)">
+    <!-- Building Frame Base (In progress) -->
+    <rect x="20" y="40" width="80" height="110" fill="#2D3342" rx="4"/>
+    
+    <!-- Completed/Solid Floors (Bottom) -->
+    <rect x="24" y="110" width="72" height="36" fill="#3B4252" rx="2"/>
+    <rect x="28" y="114" width="16" height="28" fill="#F39C12" opacity="0.3"/>
+    <rect x="52" y="114" width="16" height="28" fill="#F39C12" opacity="0.3"/>
+    <rect x="76" y="114" width="16" height="28" fill="#F39C12" opacity="0.8"/>
+
+    <!-- Middle Floors (Active construction / framing) -->
+    <rect x="24" y="70" width="72" height="36" fill="#3B4252" rx="2"/>
+    <line x1="24" y1="88" x2="96" y2="88" stroke="#2D3342" stroke-width="3"/>
+    <line x1="48" y1="70" x2="48" y2="106" stroke="#2D3342" stroke-width="3"/>
+    <line x1="72" y1="70" x2="72" y2="106" stroke="#2D3342" stroke-width="3"/>
+
+    <!-- Top Framework (Ongoing construction phase) -->
+    <rect x="24" y="40" width="72" height="26" fill="none" stroke="#61AFEF" stroke-width="2" stroke-dasharray="4 2" rx="2"/>
+    <line x1="60" y1="40" x2="60" y2="66" stroke="#61AFEF" stroke-width="2" stroke-dasharray="4 2"/>
+
+    <!-- Construction Crane (Representing forward movement & workflow) -->
+    <!-- Tower Mast -->
+    <line x1="110" y1="20" x2="110" y2="150" stroke="#E5C07B" stroke-width="3"/>
+    <!-- Crane Jib (Arm) -->
+    <line x1="40" y1="20" x2="150" y2="20" stroke="#E5C07B" stroke-width="4"/>
+    <!-- Counter-jib -->
+    <line x1="110" y1="20" x2="135" y2="20" stroke="#E5C07B" stroke-width="6"/>
+    <!-- Cable & Hook -->
+    <line x1="75" y1="20" x2="75" y2="55" stroke="#ABB2BF" stroke-width="1.5"/>
+    <path d="M72 55 H78 L75 60 Z" fill="#E5C07B"/>
+    <!-- Diagonal Supports -->
+    <line x1="90" y1="20" x2="110" y2="40" stroke="#E5C07B" stroke-width="1.5"/>
+    <line x1="130" y1="20" x2="110" y2="40" stroke="#E5C07B" stroke-width="1.5"/>
+  </g>
+
+  <!-- Ground Foundation -->
+  <rect x="40" y="190" width="160" height="8" fill="#4B5263" rx="2"/>
+  <rect x="30" y="198" width="180" height="4" fill="#282C34" rx="1"/>
+
+  <!-- Highlight accent for focus -->
+  <circle cx="135" cy="70" r="4" fill="#F39C12"/>
+  <circle cx="135" cy="70" r="8" fill="none" stroke="#F39C12" stroke-width="1.5" opacity="0.6"/>
+</svg>

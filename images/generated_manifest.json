@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T18:51:35.472812",
-  "total_unique_words_with_illustrations": 6841,
-  "total_flat_svg_files": 6841,
+  "generated_at": "2026-10-15T08:47:30.928294",
+  "total_unique_words_with_illustrations": 6850,
+  "total_flat_svg_files": 6850,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -63,8 +63,8 @@
       },
       "level6": {
         "total": 1800,
-        "with_svg": 1758,
-        "pct": "97.7%"
+        "with_svg": 1767,
+        "pct": "98.2%"
       },
       "level7": {
         "total": 5600,
@@ -110176,6 +110176,20 @@
       "src": "images/HSK_3.0/level6/过后.svg",
       "alt_srcs": []
     },
+    "过时": {
+      "hanzi": "过时",
+      "pinyin": "guòshí",
+      "meaning": "lỗi thời, lạc hậu",
+      "example_zh": "科技更新极其迅速，旧的生产模式很快就会<u>过时</u>。",
+      "example_vi": "Công nghệ đổi mới cực kỳ mau chóng, mô hình sản xuất cũ sẽ rất nhanh bị <u>lỗi thời</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "过时.svg",
+      "src": "images/HSK_3.0/level6/过时.svg",
+      "alt_srcs": []
+    },
     "海内外": {
       "hanzi": "海内外",
       "pinyin": "hǎi nèiwài",
@@ -110699,6 +110713,34 @@
       ],
       "file": "还原.svg",
       "src": "images/HSK_3.0/level6/还原.svg",
+      "alt_srcs": []
+    },
+    "患者": {
+      "hanzi": "患者",
+      "pinyin": "huànzhě",
+      "meaning": "bệnh nhân, người bệnh",
+      "example_zh": "白衣天使们始终以高度的爱心和耐心关怀每一位住院<u>患者</u>。",
+      "example_vi": "Các thiên thần áo trắng luôn dành tình yêu thương và sự kiên nhẫn cao độ để chăm sóc từng <u>người bệnh</u> nằm viện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "患者.svg",
+      "src": "images/HSK_3.0/level6/患者.svg",
+      "alt_srcs": []
+    },
+    "黄": {
+      "hanzi": "黄",
+      "pinyin": "huáng",
+      "meaning": "màu vàng; hỏng (kế hoạch)",
+      "example_zh": "秋风吹过，满地金<u>黄</u>的落叶仿佛铺上了一层厚厚的地毯。",
+      "example_vi": "Gió thu thổi qua, những chiếc lá rụng <u>vàng</u> óng khắp mặt đất tựa như trải một lớp thảm dày.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "黄.svg",
+      "src": "images/HSK_3.0/level6/黄.svg",
       "alt_srcs": []
     },
     "回报": {
@@ -111758,6 +111800,34 @@
       "src": "images/HSK_3.0/level6/进而.svg",
       "alt_srcs": []
     },
+    "进度": {
+      "hanzi": "进度",
+      "pinyin": "jìndù",
+      "meaning": "tiến độ (công trình, dự án)",
+      "example_zh": "工程指挥部每天都会严格密切跟踪各项建设分项的实际施工<u>进度</u>。",
+      "example_vi": "Ban chỉ huy công trình mỗi ngày đều theo dõi sát sao nghiêm ngặt <u>tiến độ</u> thi công thực tế của từng hạng mục xây dựng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "进度.svg",
+      "src": "images/HSK_3.0/level6/进度.svg",
+      "alt_srcs": []
+    },
+    "进化": {
+      "hanzi": "进化",
+      "pinyin": "jìnhuà",
+      "meaning": "tiến hóa",
+      "example_zh": "生物在漫长千百万年的自然选择中不断适应环境并向前<u>进化</u>。",
+      "example_vi": "Sinh vật qua hàng triệu năm chọn lọc tự nhiên dài đằng đẵng không ngừng thích nghi với môi trường và <u>tiến hóa</u> đi lên.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "进化.svg",
+      "src": "images/HSK_3.0/level6/进化.svg",
+      "alt_srcs": []
+    },
     "近视": {
       "hanzi": "近视",
       "pinyin": "jìnshì",
@@ -112304,6 +112374,20 @@
       "src": "images/HSK_3.0/level6/看重.svg",
       "alt_srcs": []
     },
+    "康复": {
+      "hanzi": "康复",
+      "pinyin": "kāngfù",
+      "meaning": "hồi phục, bình phục sức khỏe",
+      "example_zh": "在医护人员的悉心调理下，患者的身体正在逐步得到良好<u>康复</u>。",
+      "example_vi": "Dưới sự chăm sóc chu đáo của các nhân viên y tế, sức khỏe của người bệnh đang dần <u>bình phục</u> tốt đẹp.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "康复.svg",
+      "src": "images/HSK_3.0/level6/康复.svg",
+      "alt_srcs": []
+    },
     "考验": {
       "hanzi": "考验",
       "pinyin": "kǎoyàn",
@@ -112316,6 +112400,20 @@
       ],
       "file": "考验.svg",
       "src": "images/HSK_3.0/level6/考验.svg",
+      "alt_srcs": []
+    },
+    "科": {
+      "hanzi": "科",
+      "pinyin": "kē",
+      "meaning": "môn, chuyên khoa (khoa khám bệnh, ngành học)",
+      "example_zh": "他经过长期的刻苦钻研，终于攻克了这门难<u>科</u>。",
+      "example_vi": "Trải qua thời gian dài miệt mài nghiên cứu, cuối cùng cậu ấy đã chinh phục được <u>môn</u> học khó khăn này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "科.svg",
+      "src": "images/HSK_3.0/level6/科.svg",
       "alt_srcs": []
     },
     "科幻": {
@@ -112806,6 +112904,20 @@
       ],
       "file": "立.svg",
       "src": "images/HSK_3.0/level6/立.svg",
+      "alt_srcs": []
+    },
+    "粒": {
+      "hanzi": "粒",
+      "pinyin": "lì",
+      "meaning": "hạt, hột (lượng từ: 一粒米)",
+      "example_zh": "谁知盘中餐，<u>粒</u><u>粒</u>皆辛苦。",
+      "example_vi": "Ai biết trong đĩa cơm, từng <u>hạt</u> từng <u>hạt</u> đều chan chứa gian lao.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "粒.svg",
+      "src": "images/HSK_3.0/level6/粒.svg",
       "alt_srcs": []
     },
     "力度": {
@@ -115942,6 +116054,20 @@
       ],
       "file": "听取.svg",
       "src": "images/HSK_3.0/level6/听取.svg",
+      "alt_srcs": []
+    },
+    "通道": {
+      "hanzi": "通道",
+      "pinyin": "tōngdào",
+      "meaning": "lối đi, hành lang, kênh dẫn",
+      "example_zh": "商场的消防安全<u>通道</u>严禁堆放任何杂物以防阻塞。",
+      "example_vi": "<u>Lối đi</u> an toàn phòng cháy chữa cháy của trung tâm thương mại nghiêm cấm chất đống đồ đạc để phòng tắc nghẽn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level6"
+      ],
+      "file": "通道.svg",
+      "src": "images/HSK_3.0/level6/通道.svg",
       "alt_srcs": []
     },
     "通话": {
