@@ -1,0 +1,14 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Leg/Ankle representation -->
+  <path d="M80 180 C 80 140, 100 120, 130 120 C 160 120, 180 140, 180 180" fill="none" stroke="#E0E0E0" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="130" cy="180" rx="30" ry="15" fill="#E0E0E0"/>
+  
+  <!-- Ice Pack (The act of 'fū' / applying) -->
+  <rect x="105" y="110" width="50" height="40" rx="8" fill="#4FC3F7" stroke="#0288D1" stroke-width="2"/>
+  <path d="M115 120 L 145 120 M 115 130 L 145 130 M 115 140 L 145 140" stroke="#E1F5FE" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Swelling indicator (Subtle highlight) -->
+  <ellipse cx="130" cy="130" rx="35" ry="20" fill="#FF9800" opacity="0.15"/>
+</svg>

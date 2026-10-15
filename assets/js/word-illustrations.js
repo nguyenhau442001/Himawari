@@ -38882,10 +38882,260 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/丰硕.svg",
     "caption": "bội thu, dồi dào (thành quả)"
   },
+  "封锁": {
+    "file": "封锁.svg",
+    "src": "images/HSK_3.0/level7/封锁.svg",
+    "caption": "phong tỏa, bao vây"
+  },
   "风土人情": {
     "file": "风土人情.svg",
     "src": "images/HSK_3.0/level7/风土人情.svg",
     "caption": "phong tục tập quán, phong thổ nhân tình"
+  },
+  "风云": {
+    "file": "风云.svg",
+    "src": "images/HSK_3.0/level7/风云.svg",
+    "caption": "biến động sóng gió, phong vân"
+  },
+  "风雨无阻": {
+    "file": "风雨无阻.svg",
+    "src": "images/HSK_3.0/level7/风雨无阻.svg",
+    "caption": "mưa gió không ngăn nổi, dù mưa hay nắng"
+  },
+  "疯子": {
+    "file": "疯子.svg",
+    "src": "images/HSK_3.0/level7/疯子.svg",
+    "caption": "kẻ điên, người mất trí"
+  },
+  "缝合": {
+    "file": "缝合.svg",
+    "src": "images/HSK_3.0/level7/缝合.svg",
+    "caption": "khâu, khâu vết thương"
+  },
+  "凤凰": {
+    "file": "凤凰.svg",
+    "src": "images/HSK_3.0/level7/凤凰.svg",
+    "caption": "phượng hoàng, chim phượng"
+  },
+  "凤毛麟角": {
+    "file": "凤毛麟角.svg",
+    "src": "images/HSK_3.0/level7/凤毛麟角.svg",
+    "caption": "lông phượng sừng lân, hiếm có khó tìm"
+  },
+  "否决": {
+    "file": "否决.svg",
+    "src": "images/HSK_3.0/level7/否决.svg",
+    "caption": "phủ quyết, bác bỏ"
+  },
+  "敷": {
+    "file": "敷.svg",
+    "src": "images/HSK_3.0/level7/敷.svg",
+    "caption": "đắp, bôi (thuốc)"
+  },
+  "孵化": {
+    "file": "孵化.svg",
+    "src": "images/HSK_3.0/level7/孵化.svg",
+    "caption": "ấp nở, ươm mầm"
+  },
+  "敷衍": {
+    "file": "敷衍.svg",
+    "src": "images/HSK_3.0/level7/敷衍.svg",
+    "caption": "làm chiếu lệ, qua loa đại khái"
+  },
+  "扶持": {
+    "file": "扶持.svg",
+    "src": "images/HSK_3.0/level7/扶持.svg",
+    "caption": "hỗ trợ, nâng đỡ"
+  },
+  "浮动": {
+    "file": "浮动.svg",
+    "src": "images/HSK_3.0/level7/浮动.svg",
+    "caption": "biến động, thả nổi"
+  },
+  "俘获": {
+    "file": "俘获.svg",
+    "src": "images/HSK_3.0/level7/俘获.svg",
+    "caption": "bắt giữ, bắt sống; chiếm trọn"
+  },
+  "浮力": {
+    "file": "浮力.svg",
+    "src": "images/HSK_3.0/level7/浮力.svg",
+    "caption": "lực đẩy nổi, sức nổi"
+  },
+  "俘虏": {
+    "file": "俘虏.svg",
+    "src": "images/HSK_3.0/level7/俘虏.svg",
+    "caption": "tù binh, bắt làm tù binh"
+  },
+  "福气": {
+    "file": "福气.svg",
+    "src": "images/HSK_3.0/level7/福气.svg",
+    "caption": "phúc khí, diễm phúc"
+  },
+  "服气": {
+    "file": "服气.svg",
+    "src": "images/HSK_3.0/level7/服气.svg",
+    "caption": "tâm phục khẩu phục, phục"
+  },
+  "辐射": {
+    "file": "辐射.svg",
+    "src": "images/HSK_3.0/level7/辐射.svg",
+    "caption": "bức xạ, lan tỏa"
+  },
+  "服饰": {
+    "file": "服饰.svg",
+    "src": "images/HSK_3.0/level7/服饰.svg",
+    "caption": "trang phục, y phục"
+  },
+  "服务器": {
+    "file": "服务器.svg",
+    "src": "images/HSK_3.0/level7/服务器.svg",
+    "caption": "máy chủ"
+  },
+  "浮现": {
+    "file": "浮现.svg",
+    "src": "images/HSK_3.0/level7/浮现.svg",
+    "caption": "hiện lên, hiện ra"
+  },
+  "浮躁": {
+    "file": "浮躁.svg",
+    "src": "images/HSK_3.0/level7/浮躁.svg",
+    "caption": "nóng vội, bốc đồng"
+  },
+  "腐败": {
+    "file": "腐败.svg",
+    "src": "images/HSK_3.0/level7/腐败.svg",
+    "caption": "tham nhũng, mục nát"
+  },
+  "俯首": {
+    "file": "俯首.svg",
+    "src": "images/HSK_3.0/level7/俯首.svg",
+    "caption": "cúi đầu"
+  },
+  "腐朽": {
+    "file": "腐朽.svg",
+    "src": "images/HSK_3.0/level7/腐朽.svg",
+    "caption": "mục nát, suy đồi hủ bại"
+  },
+  "抚恤": {
+    "file": "抚恤.svg",
+    "src": "images/HSK_3.0/level7/抚恤.svg",
+    "caption": "trợ cấp cứu tế, úy lạo"
+  },
+  "斧子": {
+    "file": "斧子.svg",
+    "src": "images/HSK_3.0/level7/斧子.svg",
+    "caption": "cái rìu"
+  },
+  "负": {
+    "file": "负.svg",
+    "src": "images/HSK_3.0/level7/负.svg",
+    "caption": "gánh vác, chịu, thua"
+  },
+  "附": {
+    "file": "附.svg",
+    "src": "images/HSK_3.0/level7/附.svg",
+    "caption": "đính kèm, kèm theo, bám vào"
+  },
+  "赴": {
+    "file": "赴.svg",
+    "src": "images/HSK_3.0/level7/赴.svg",
+    "caption": "đi đến, tới"
+  },
+  "腹": {
+    "file": "腹.svg",
+    "src": "images/HSK_3.0/level7/腹.svg",
+    "caption": "bụng, khoang bụng"
+  },
+  "副本": {
+    "file": "副本.svg",
+    "src": "images/HSK_3.0/level7/副本.svg",
+    "caption": "bản sao, bản phụ"
+  },
+  "复查": {
+    "file": "复查.svg",
+    "src": "images/HSK_3.0/level7/复查.svg",
+    "caption": "tái khám, kiểm tra lại"
+  },
+  "附带": {
+    "file": "附带.svg",
+    "src": "images/HSK_3.0/level7/附带.svg",
+    "caption": "kèm theo, phụ thêm"
+  },
+  "复发": {
+    "file": "复发.svg",
+    "src": "images/HSK_3.0/level7/复发.svg",
+    "caption": "tái phát"
+  },
+  "富含": {
+    "file": "富含.svg",
+    "src": "images/HSK_3.0/level7/富含.svg",
+    "caption": "giàu hàm lượng, chứa nhiều"
+  },
+  "富豪": {
+    "file": "富豪.svg",
+    "src": "images/HSK_3.0/level7/富豪.svg",
+    "caption": "đại gia, phú hào"
+  },
+  "附加": {
+    "file": "附加.svg",
+    "src": "images/HSK_3.0/level7/附加.svg",
+    "caption": "phụ thêm, cộng thêm, đính kèm"
+  },
+  "富强": {
+    "file": "富强.svg",
+    "src": "images/HSK_3.0/level7/富强.svg",
+    "caption": "giàu mạnh, thịnh vượng"
+  },
+  "复苏": {
+    "file": "复苏.svg",
+    "src": "images/HSK_3.0/level7/复苏.svg",
+    "caption": "phục hồi, hồi sinh"
+  },
+  "腹泻": {
+    "file": "腹泻.svg",
+    "src": "images/HSK_3.0/level7/腹泻.svg",
+    "caption": "tiêu chảy, đi ngoài"
+  },
+  "复原": {
+    "file": "复原.svg",
+    "src": "images/HSK_3.0/level7/复原.svg",
+    "caption": "phục hồi nguyên trạng, bình phục"
+  },
+  "负重": {
+    "file": "负重.svg",
+    "src": "images/HSK_3.0/level7/负重.svg",
+    "caption": "mang vác nặng, chịu tải nặng"
+  },
+  "富足": {
+    "file": "富足.svg",
+    "src": "images/HSK_3.0/level7/富足.svg",
+    "caption": "sung túc, ấm no, đầy đủ"
+  },
+  "副作用": {
+    "file": "副作用.svg",
+    "src": "images/HSK_3.0/level7/副作用.svg",
+    "caption": "tác dụng phụ"
+  },
+  "改版": {
+    "file": "改版.svg",
+    "src": "images/HSK_3.0/level7/改版.svg",
+    "caption": "thay đổi phiên bản, sửa đổi giao diện"
+  },
+  "改动": {
+    "file": "改动.svg",
+    "src": "images/HSK_3.0/level7/改动.svg",
+    "caption": "sửa đổi, chỉnh sửa"
+  },
+  "改观": {
+    "file": "改观.svg",
+    "src": "images/HSK_3.0/level7/改观.svg",
+    "caption": "chuyển biến tích cực, thay đổi diện mạo"
+  },
+  "改日": {
+    "file": "改日.svg",
+    "src": "images/HSK_3.0/level7/改日.svg",
+    "caption": "hôm khác, ngày khác"
   }
 };
 

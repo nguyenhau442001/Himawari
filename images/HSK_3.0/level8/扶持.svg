@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative tech/structure grid (subtle) -->
+  <g opacity="0.1" stroke="#4A5568" stroke-width="0.5" stroke-dasharray="4 4">
+    <line x1="40" y1="180" x2="200" y2="180"/>
+    <line x1="120" y1="50" x2="120" y2="180"/>
+  </g>
+
+  <!-- Base platform representing growth / foundation -->
+  <path d="M70 185 L170 185 C175 185 178 188 176 193 L172 201 C171 203 169 204 167 204 L73 204 C71 204 69 203 68 201 L64 193 C62 188 65 185 70 185 Z" fill="#2D3748"/>
+  <rect x="85" y="177" width="70" height="8" rx="2" fill="#4A5568"/>
+
+  <!-- Central Object: The Growing Tech/Innovation Structure being supported -->
+  <g id="supported-structure">
+    <!-- Main ascending pillar (Tech/Enterprise entity) -->
+    <rect x="106" y="100" width="28" height="80" rx="4" fill="#2B6CB0"/>
+    <rect x="112" y="110" width="16" height="12" rx="2" fill="#E2E8F0" opacity="0.9"/>
+    <rect x="112" y="130" width="16" height="12" rx="2" fill="#E2E8F0" opacity="0.9"/>
+    <rect x="112" y="150" width="16" height="12" rx="2" fill="#63B3ED"/>
+    
+    <!-- Growth sprout / top elements -->
+    <path d="M120 100 L120 75" stroke="#48BB78" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 85 C110 85 100 70 105 60 C112 55 120 68 120 75 Z" fill="#48BB78"/>
+    <path d="M120 75 C130 75 140 60 135 50 C128 45 120 58 120 75 Z" fill="#68D391"/>
+  </g>
+
+  <!-- Supporting Force: Hands lifting/cradling from below and sides (扶持 - fúchí) -->
+  <g id="supporting-hands">
+    <!-- Left Supporting Hand -->
+    <path d="M60 150 C60 140 85 135 100 145 C108 150 110 160 105 168 C95 182 75 185 65 175 C58 168 60 158 60 150 Z" fill="#F6AD55"/>
+    <path d="M100 145 L108 152 C110 155 109 160 105 163" stroke="#DD6B20" stroke-width="2" stroke-linecap="round" fill="none"/>
+    
+    <!-- Right Supporting Hand -->
+    <path d="M180 150 C180 140 155 135 140 145 C132 150 130 160 135 168 C145 182 165 185 175 175 C182 168 180 158 180 150 Z" fill="#F6AD55"/>
+    <path d="M140 145 L132 152 C130 155 131 160 135 163" stroke="#DD6B20" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Upward momentum / success indicators (gold accent glow/particles) -->
+  <g fill="#ECC94B">
+    <circle cx="92" cy="95" r="3" opacity="0.8"/>
+    <circle cx="148" cy="85" r="4" opacity="0.9"/>
+    <circle cx="138" cy="115" r="2.5" opacity="0.7"/>
+    <path d="M120 40 L124 48 L116 48 Z" opacity="0.9"/>
+  </g>
+
+  <!-- Subtle upward motion directional arrows -->
+  <g stroke="#ED8936" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6">
+    <path d="M85 125 L75 115 L85 105"/>
+    <path d="M155 125 L165 115 L155 105"/>
+  </g>
+</svg>

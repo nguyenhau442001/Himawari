@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Phoenix Feather (Gold/Orange) -->
+  <path d="M120 60 C 140 60, 160 80, 150 120 C 140 160, 110 180, 100 180 C 90 180, 80 160, 90 120 C 100 80, 110 60, 120 60 Z" fill="#FFB84D"/>
+  <path d="M120 60 L 120 180" stroke="#FFD699" stroke-width="2"/>
+  <path d="M120 70 L 140 80 M120 90 L 145 105 M120 110 L 145 125 M120 130 L 140 145" stroke="#FFD699" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 70 L 100 80 M120 90 L 95 105 M120 110 L 95 125 M120 130 L 100 145" stroke="#FFD699" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Qilin Horn (Gold/Orange) -->
+  <path d="M160 180 C 165 150, 180 130, 200 120 C 180 125, 170 140, 165 170 Z" fill="#FFB84D"/>
+  <path d="M165 170 C 170 155, 185 140, 200 120" stroke="#FFD699" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Subtle ground shadow -->
+  <ellipse cx="120" cy="210" rx="60" ry="10" fill="#000000" opacity="0.2"/>
+</svg>

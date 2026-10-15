@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-15T21:34:31.753629",
-  "total_unique_words_with_illustrations": 7717,
-  "total_flat_svg_files": 7717,
+  "generated_at": "2026-10-15T21:36:10.540821",
+  "total_unique_words_with_illustrations": 7767,
+  "total_flat_svg_files": 7767,
   "statistics": {
     "hsk_2_0": {
       "level1": {
@@ -68,18 +68,18 @@
       },
       "level7": {
         "total": 5600,
-        "with_svg": 2178,
-        "pct": "38.9%"
+        "with_svg": 2228,
+        "pct": "39.8%"
       },
       "level8": {
         "total": 5600,
-        "with_svg": 2178,
-        "pct": "38.9%"
+        "with_svg": 2228,
+        "pct": "39.8%"
       },
       "level9": {
         "total": 5600,
-        "with_svg": 2178,
-        "pct": "38.9%"
+        "with_svg": 2228,
+        "pct": "39.8%"
       }
     }
   },
@@ -136020,6 +136020,25 @@
         "images/HSK_3.0/level9/丰硕.svg"
       ]
     },
+    "封锁": {
+      "hanzi": "封锁",
+      "pinyin": "fēngsuǒ",
+      "meaning": "phong tỏa, bao vây",
+      "example_zh": "发生突发险情后，交警部门迅速对周边主要道路实施了临时紧急<u>封锁</u>。",
+      "example_vi": "Sau khi xảy ra tình huống nguy hiểm bất ngờ, lực lượng cảnh sát giao thông đã nhanh chóng thực hiện <u>phong tỏa</u> khẩn cấp tạm thời đối với các tuyến đường chính xung quanh.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "封锁.svg",
+      "src": "images/HSK_3.0/level7/封锁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/封锁.svg",
+        "images/HSK_3.0/level9/封锁.svg"
+      ]
+    },
     "风土人情": {
       "hanzi": "风土人情",
       "pinyin": "fēngtǔ-rénqíng",
@@ -136037,6 +136056,937 @@
       "alt_srcs": [
         "images/HSK_3.0/level8/风土人情.svg",
         "images/HSK_3.0/level9/风土人情.svg"
+      ]
+    },
+    "风云": {
+      "hanzi": "风云",
+      "pinyin": "fēngyún",
+      "meaning": "biến động sóng gió, phong vân",
+      "example_zh": "二十世纪上半叶的国际政坛风诡云谲，充满了变幻莫测的时代<u>风云</u>。",
+      "example_vi": "Vũ đài chính trị quốc tế nửa đầu thế kỷ hai mươi đầy rẫy bất trắc, tràn ngập những <u>biến động sóng gió</u> thời đại khôn lường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "风云.svg",
+      "src": "images/HSK_3.0/level7/风云.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/风云.svg",
+        "images/HSK_3.0/level9/风云.svg"
+      ]
+    },
+    "风雨无阻": {
+      "hanzi": "风雨无阻",
+      "pinyin": "fēngyǔ-wúzǔ",
+      "meaning": "mưa gió không ngăn nổi, dù mưa hay nắng",
+      "example_zh": "这位敬业的乡村邮递员每天翻山越岭为乡亲们送信，数十年来<u>风雨无阻</u>。",
+      "example_vi": "Người đưa thư nông thôn tận tụy này mỗi ngày đều trèo đèo lội suối đưa thư cho bà con, mấy chục năm qua <u>dù mưa hay nắng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "风雨无阻.svg",
+      "src": "images/HSK_3.0/level7/风雨无阻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/风雨无阻.svg",
+        "images/HSK_3.0/level9/风雨无阻.svg"
+      ]
+    },
+    "疯子": {
+      "hanzi": "疯子",
+      "pinyin": "fēngzi",
+      "meaning": "kẻ điên, người mất trí",
+      "example_zh": "当初提出这个异想天开的设想时，周围很多同僚都嘲笑他是个<u>疯子</u>。",
+      "example_vi": "Khi mới đưa ra ý tưởng kỳ quặc táo bạo này, nhiều đồng nghiệp xung quanh đều chê cười bảo anh là <u>kẻ điên</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "疯子.svg",
+      "src": "images/HSK_3.0/level7/疯子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/疯子.svg",
+        "images/HSK_3.0/level9/疯子.svg"
+      ]
+    },
+    "缝合": {
+      "hanzi": "缝合",
+      "pinyin": "fénghé",
+      "meaning": "khâu, khâu vết thương",
+      "example_zh": "外科医生手法娴熟，只用了十几分钟就顺利<u>缝合</u>了病人的手术切口。",
+      "example_vi": "Bác sĩ ngoại khoa tay nghề điêu luyện, chỉ dùng hơn mười phút đã <u>khâu</u> xong vết mổ phẫu thuật của bệnh nhân thuận lợi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "缝合.svg",
+      "src": "images/HSK_3.0/level7/缝合.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/缝合.svg",
+        "images/HSK_3.0/level9/缝合.svg"
+      ]
+    },
+    "凤凰": {
+      "hanzi": "凤凰",
+      "pinyin": "fènghuáng",
+      "meaning": "phượng hoàng, chim phượng",
+      "example_zh": "在中国古代神话传说中，<u>凤凰</u>被视为吉祥高贵、浴火重生的神鸟。",
+      "example_vi": "Trong truyền thuyết thần thoại Trung Hoa cổ đại, <u>phượng hoàng</u> được coi là loài thần điểu cát tường cao quý, hồi sinh từ biển lửa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "凤凰.svg",
+      "src": "images/HSK_3.0/level7/凤凰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/凤凰.svg",
+        "images/HSK_3.0/level9/凤凰.svg"
+      ]
+    },
+    "凤毛麟角": {
+      "hanzi": "凤毛麟角",
+      "pinyin": "fèngmáo-línjiǎo",
+      "meaning": "lông phượng sừng lân, hiếm có khó tìm",
+      "example_zh": "像他这样精通多门罕见古代语言的语言学学者，在当今学界简直是<u>凤毛麟角</u>。",
+      "example_vi": "Một học giả ngôn ngữ học thông thạo nhiều cổ ngữ hiếm như ông trong giới học thuật ngày nay quả thực là <u>hiếm có khó tìm</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "凤毛麟角.svg",
+      "src": "images/HSK_3.0/level7/凤毛麟角.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/凤毛麟角.svg",
+        "images/HSK_3.0/level9/凤毛麟角.svg"
+      ]
+    },
+    "否决": {
+      "hanzi": "否决",
+      "pinyin": "fǒujué",
+      "meaning": "phủ quyết, bác bỏ",
+      "example_zh": "经过全体董事激烈讨论，委员会最终以多数票<u>否决</u>了这项高风险收购提案。",
+      "example_vi": "Sau khi toàn thể hội đồng quản trị thảo luận gay gắt, ủy ban cuối cùng đã bỏ phiếu đa số <u>phủ quyết</u> đề án thâu tóm đầy rủi ro này.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "否决.svg",
+      "src": "images/HSK_3.0/level7/否决.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/否决.svg",
+        "images/HSK_3.0/level9/否决.svg"
+      ]
+    },
+    "敷": {
+      "hanzi": "敷",
+      "pinyin": "fū",
+      "meaning": "đắp, bôi (thuốc)",
+      "example_zh": "扭伤脚踝之后，应该立刻用冰袋在患处进行冷<u>敷</u>以减轻肿胀疼痛。",
+      "example_vi": "Sau khi bong gân mắt cá chân, nên dùng túi đá chườm <u>đắp</u> lạnh ngay tại chỗ đau để giảm sưng tấy và đau đớn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敷.svg",
+      "src": "images/HSK_3.0/level7/敷.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/敷.svg",
+        "images/HSK_3.0/level9/敷.svg"
+      ]
+    },
+    "孵化": {
+      "hanzi": "孵化",
+      "pinyin": "fūhuà",
+      "meaning": "ấp nở, ươm mầm",
+      "example_zh": "母鸟寸步不离地守护在鸟巢中，悉心<u>孵化</u>着那一窝小鸟蛋。",
+      "example_vi": "Chim mẹ không rời tổ nửa bước, cẩn thận <u>ấp nở</u> ổ trứng chim nhỏ kia.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "孵化.svg",
+      "src": "images/HSK_3.0/level7/孵化.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/孵化.svg",
+        "images/HSK_3.0/level9/孵化.svg"
+      ]
+    },
+    "敷衍": {
+      "hanzi": "敷衍",
+      "pinyin": "fūyǎn",
+      "meaning": "làm chiếu lệ, qua loa đại khái",
+      "example_zh": "无论面对多么琐碎的工作任务，都必须认真对待，绝不能草率<u>敷衍</u>。",
+      "example_vi": "Dù đối mặt với nhiệm vụ công việc vụn vặt nhường nào cũng phải nghiêm túc xử lý, tuyệt đối không được <u>làm chiếu lệ</u> qua loa.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "敷衍.svg",
+      "src": "images/HSK_3.0/level7/敷衍.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/敷衍.svg",
+        "images/HSK_3.0/level9/敷衍.svg"
+      ]
+    },
+    "扶持": {
+      "hanzi": "扶持",
+      "pinyin": "fúchí",
+      "meaning": "hỗ trợ, nâng đỡ",
+      "example_zh": "政府出台了多项税收优惠政策，大力<u>扶持</u>中小型科技创新企业的发展。",
+      "example_vi": "Chính phủ đã ban hành nhiều chính sách ưu đãi thuế khóa, ra sức <u>hỗ trợ</u> sự phát triển của các doanh nghiệp đổi mới công nghệ vừa và nhỏ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "扶持.svg",
+      "src": "images/HSK_3.0/level7/扶持.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/扶持.svg",
+        "images/HSK_3.0/level9/扶持.svg"
+      ]
+    },
+    "浮动": {
+      "hanzi": "浮动",
+      "pinyin": "fúdòng",
+      "meaning": "biến động, thả nổi",
+      "example_zh": "商业银行的贷款基准利率通常会根据宏观金融市场的变化而合理<u>浮动</u>。",
+      "example_vi": "Lãi suất vay cơ bản của các ngân hàng thương mại thông thường sẽ <u>biến động</u> hợp lý theo diễn biến của thị trường tài chính vĩ mô.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "浮动.svg",
+      "src": "images/HSK_3.0/level7/浮动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/浮动.svg",
+        "images/HSK_3.0/level9/浮动.svg"
+      ]
+    },
+    "俘获": {
+      "hanzi": "俘获",
+      "pinyin": "fúhuò",
+      "meaning": "bắt giữ, bắt sống; chiếm trọn",
+      "example_zh": "这位天才青年钢琴家凭借深情动人的演奏，瞬间<u>俘获</u>了全场听众的心。",
+      "example_vi": "Nghệ sĩ piano trẻ tuổi tài năng này nhờ màn biểu diễn truyền cảm xúc động đã ngay lập tức <u>chiếm trọn</u> trái tim khán giả toàn trường.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "俘获.svg",
+      "src": "images/HSK_3.0/level7/俘获.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/俘获.svg",
+        "images/HSK_3.0/level9/俘获.svg"
+      ]
+    },
+    "浮力": {
+      "hanzi": "浮力",
+      "pinyin": "fúlì",
+      "meaning": "lực đẩy nổi, sức nổi",
+      "example_zh": "巨大的万吨远洋货轮之所以能够稳稳浮在水面上，靠的就是水产生的巨大<u>浮力</u>。",
+      "example_vi": "Tàu chở hàng viễn dương vạn tấn khổng lồ sở dĩ có thể nổi vững vàng trên mặt nước là nhờ vào <u>lực đẩy nổi</u> to lớn mà nước tạo ra.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "浮力.svg",
+      "src": "images/HSK_3.0/level7/浮力.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/浮力.svg",
+        "images/HSK_3.0/level9/浮力.svg"
+      ]
+    },
+    "俘虏": {
+      "hanzi": "俘虏",
+      "pinyin": "fúlǔ",
+      "meaning": "tù binh, bắt làm tù binh",
+      "example_zh": "根据日内瓦公约的明确规定，各交战方都必须人道主义善待战俘和<u>俘虏</u>。",
+      "example_vi": "Căn cứ vào quy định rõ ràng của Công ước Geneva, các bên tham chiến đều phải đối đãi nhân đạo với hàng binh và <u>tù binh</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "俘虏.svg",
+      "src": "images/HSK_3.0/level7/俘虏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/俘虏.svg",
+        "images/HSK_3.0/level9/俘虏.svg"
+      ]
+    },
+    "福气": {
+      "hanzi": "福气",
+      "pinyin": "fúqi",
+      "meaning": "phúc khí, diễm phúc",
+      "example_zh": "孩子们个个孝顺懂事、事业有成，邻里街坊都夸老人很有<u>福气</u>。",
+      "example_vi": "Con cái ai nấy đều hiếu thảo hiểu chuyện, sự nghiệp thành đạt, bà con lối xóm đều khen ngợi cụ già rất có <u>phúc khí</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "福气.svg",
+      "src": "images/HSK_3.0/level7/福气.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/福气.svg",
+        "images/HSK_3.0/level9/福气.svg"
+      ]
+    },
+    "服气": {
+      "hanzi": "服气",
+      "pinyin": "fúqì",
+      "meaning": "tâm phục khẩu phục, phục",
+      "example_zh": "对手的棋艺确实高超湛深，这盘棋输得我心甘情愿、彻底<u>服气</u>。",
+      "example_vi": "Kỳ nghệ của đối thủ quả thực cao siêu uyên thâm, ván cờ này thua khiến tôi hoàn toàn cam tâm tình nguyện, <u>tâm phục khẩu phục</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "服气.svg",
+      "src": "images/HSK_3.0/level7/服气.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/服气.svg",
+        "images/HSK_3.0/level9/服气.svg"
+      ]
+    },
+    "辐射": {
+      "hanzi": "辐射",
+      "pinyin": "fúshè",
+      "meaning": "bức xạ, lan tỏa",
+      "example_zh": "这座区域中心大城市的经济快速发展，有效带动和<u>辐射</u>了周边城镇。",
+      "example_vi": "Sự phát triển kinh tế nhanh chóng của đại đô thị trung tâm khu vực này đã thúc đẩy và <u>lan tỏa</u> hiệu quả đến các thị trấn lân cận.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "辐射.svg",
+      "src": "images/HSK_3.0/level7/辐射.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/辐射.svg",
+        "images/HSK_3.0/level9/辐射.svg"
+      ]
+    },
+    "服饰": {
+      "hanzi": "服饰",
+      "pinyin": "fúshì",
+      "meaning": "trang phục, y phục",
+      "example_zh": "少数民族传统<u>服饰</u>色彩艳丽、图案精美，蕴含着深厚的民族文化内涵。",
+      "example_vi": "<u>Trang phục</u> truyền thống của các dân tộc thiểu số màu sắc sặc sỡ, hoa văn tinh xảo, hàm chứa nội hàm văn hóa dân tộc sâu sắc.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "服饰.svg",
+      "src": "images/HSK_3.0/level7/服饰.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/服饰.svg",
+        "images/HSK_3.0/level9/服饰.svg"
+      ]
+    },
+    "服务器": {
+      "hanzi": "服务器",
+      "pinyin": "fúwùqì",
+      "meaning": "máy chủ",
+      "example_zh": "<u>服务器</u>今天出现了故障",
+      "example_vi": "Máy chủ hôm nay bị lỗi.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "服务器.svg",
+      "src": "images/HSK_3.0/level7/服务器.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/服务器.svg",
+        "images/HSK_3.0/level9/服务器.svg"
+      ]
+    },
+    "浮现": {
+      "hanzi": "浮现",
+      "pinyin": "fúxiàn",
+      "meaning": "hiện lên, hiện ra",
+      "example_zh": "翻开尘封已久的老相册，童年那些无忧无虑的快乐时光又在脑海中清晰<u>浮现</u>。",
+      "example_vi": "Mở cuốn album ảnh cũ phủ bụi thời gian, những năm tháng ấu thơ vô tư lự lại <u>hiện lên</u> rõ nét trong tâm trí.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "浮现.svg",
+      "src": "images/HSK_3.0/level7/浮现.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/浮现.svg",
+        "images/HSK_3.0/level9/浮现.svg"
+      ]
+    },
+    "浮躁": {
+      "hanzi": "浮躁",
+      "pinyin": "fúzào",
+      "meaning": "nóng vội, bốc đồng",
+      "example_zh": "做学术研究需要坐得住冷板凳，绝不能心浮气躁、贪图虚名的<u>浮躁</u>作风。",
+      "example_vi": "Làm nghiên cứu học thuật cần chịu ngồi yên trên chiếc ghế lạnh, tuyệt đối không được có tác phong <u>nóng vội</u> bồng bột ham danh hão.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "浮躁.svg",
+      "src": "images/HSK_3.0/level7/浮躁.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/浮躁.svg",
+        "images/HSK_3.0/level9/浮躁.svg"
+      ]
+    },
+    "腐败": {
+      "hanzi": "腐败",
+      "pinyin": "fǔbài",
+      "meaning": "tham nhũng, mục nát",
+      "example_zh": "国家始终坚持有腐必惩、以零容忍的坚决态度严厉打击各类职务<u>腐败</u>行为。",
+      "example_vi": "Nhà nước luôn kiên trì có tham nhũng ắt phải trừng trị, với thái độ không khoan nhượng kiên quyết giáng đòn trừng phạt các hành vi chức vụ <u>tham nhũng</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "腐败.svg",
+      "src": "images/HSK_3.0/level7/腐败.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/腐败.svg",
+        "images/HSK_3.0/level9/腐败.svg"
+      ]
+    },
+    "俯首": {
+      "hanzi": "俯首",
+      "pinyin": "fǔshǒu",
+      "meaning": "cúi đầu",
+      "example_zh": "面对铁证如山的罪证，犯罪嫌疑人终于在审讯席上无言以对、<u>俯首</u>认罪。",
+      "example_vi": "Trước những chứng cứ phạm tội đanh thép như núi, nghi phạm cuối cùng đã cạn lời trên ghế thẩm vấn, <u>cúi đầu</u> nhận tội.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "俯首.svg",
+      "src": "images/HSK_3.0/level7/俯首.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/俯首.svg",
+        "images/HSK_3.0/level9/俯首.svg"
+      ]
+    },
+    "腐朽": {
+      "hanzi": "腐朽",
+      "pinyin": "fǔxiǔ",
+      "meaning": "mục nát, suy đồi hủ bại",
+      "example_zh": "经过数百年风吹雨淋，木质屋檐的横梁已经发生严重风化<u>腐朽</u>。",
+      "example_vi": "Trải qua hàng trăm năm mưa dầm gió bấc, thanh xà ngang của mái hiên bằng gỗ đã bị phong hóa <u>mục nát</u> nghiêm trọng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "腐朽.svg",
+      "src": "images/HSK_3.0/level7/腐朽.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/腐朽.svg",
+        "images/HSK_3.0/level9/腐朽.svg"
+      ]
+    },
+    "抚恤": {
+      "hanzi": "抚恤",
+      "pinyin": "fǔxù",
+      "meaning": "trợ cấp cứu tế, úy lạo",
+      "example_zh": "政府民政部门依法依规向因公牺牲烈士的家属发放了定额补助和<u>抚恤</u>金。",
+      "example_vi": "Cơ quan dân chính chính phủ theo đúng luật định đã cấp phát tiền hỗ trợ và tiền <u>trợ cấp cứu tế</u> định mức cho thân nhân liệt sĩ hy sinh vì nhiệm vụ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "抚恤.svg",
+      "src": "images/HSK_3.0/level7/抚恤.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/抚恤.svg",
+        "images/HSK_3.0/level9/抚恤.svg"
+      ]
+    },
+    "斧子": {
+      "hanzi": "斧子",
+      "pinyin": "fǔzi",
+      "meaning": "cái rìu",
+      "example_zh": "他用<u>斧子</u>劈木头",
+      "example_vi": "Anh ấy dùng búa bửa gỗ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "斧子.svg",
+      "src": "images/HSK_3.0/level7/斧子.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/斧子.svg",
+        "images/HSK_3.0/level9/斧子.svg"
+      ]
+    },
+    "负": {
+      "hanzi": "负",
+      "pinyin": "fù",
+      "meaning": "gánh vác, chịu, thua",
+      "example_zh": "在激烈的淘汰赛较量中，客场作战的队伍最终以一分之差遗憾惜<u>负</u>。",
+      "example_vi": "Trong cuộc đọ sức tại vòng loại trực tiếp quyết liệt, đội thi đấu trên sân khách cuối cùng đã ngậm ngùi nhận trận <u>thua</u> tiếc nuối với khoảng cách sít sao một điểm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "负.svg",
+      "src": "images/HSK_3.0/level7/负.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/负.svg",
+        "images/HSK_3.0/level9/负.svg"
+      ]
+    },
+    "附": {
+      "hanzi": "附",
+      "pinyin": "fù",
+      "meaning": "đính kèm, kèm theo, bám vào",
+      "example_zh": "这份正式商业申请书的末页还随文<u>附</u>上了几份重要的资信证明材料。",
+      "example_vi": "Trang cuối của bản đơn đăng ký thương mại chính thức này còn gửi <u>kèm theo</u> vài tài liệu chứng minh độ tin cậy quan trọng.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "附.svg",
+      "src": "images/HSK_3.0/level7/附.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/附.svg",
+        "images/HSK_3.0/level9/附.svg"
+      ]
+    },
+    "赴": {
+      "hanzi": "赴",
+      "pinyin": "fù",
+      "meaning": "đi đến, tới",
+      "example_zh": "医疗专家救援队临危受命，连夜紧急乘包机飞<u>赴</u>地震灾区支援。",
+      "example_vi": "Đội cứu viện chuyên gia y tế nhận mệnh lệnh lúc lâm nguy, thức thâu đêm đáp chuyên cơ khẩn cấp bay <u>đi đến</u> vùng động đất chi viện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "赴.svg",
+      "src": "images/HSK_3.0/level7/赴.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/赴.svg",
+        "images/HSK_3.0/level9/赴.svg"
+      ]
+    },
+    "腹": {
+      "hanzi": "腹",
+      "pinyin": "fù",
+      "meaning": "bụng, khoang bụng",
+      "example_zh": "医生一边仔细触摸患者的右下<u>腹</u>部，一边关切地询问具体的疼痛感受。",
+      "example_vi": "Bác sĩ vừa cẩn thận sờ nắn vùng <u>bụng</u> dưới bên phải của bệnh nhân, vừa ân cần hỏi han cảm giác đau cụ thể.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "腹.svg",
+      "src": "images/HSK_3.0/level7/腹.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/腹.svg",
+        "images/HSK_3.0/level9/腹.svg"
+      ]
+    },
+    "副本": {
+      "hanzi": "副本",
+      "pinyin": "fùběn",
+      "meaning": "bản sao, bản phụ",
+      "example_zh": "签署重大合同时，双方除了妥善保管正本之外，还需各留存一份盖章<u>副本</u>。",
+      "example_vi": "Khi ký kết hợp đồng trọng đại, đôi bên ngoài việc bảo quản chu đáo bản chính còn cần lưu giữ mỗi bên một <u>bản sao</u> có đóng dấu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "副本.svg",
+      "src": "images/HSK_3.0/level7/副本.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/副本.svg",
+        "images/HSK_3.0/level9/副本.svg"
+      ]
+    },
+    "复查": {
+      "hanzi": "复查",
+      "pinyin": "fùchá",
+      "meaning": "tái khám, kiểm tra lại",
+      "example_zh": "医生叮嘱术后出院的病人，务必在两周后回医院专科门诊进行常规<u>复查</u>。",
+      "example_vi": "Bác sĩ dặn dò bệnh nhân xuất viện sau phẫu thuật nhất định phải quay lại phòng khám chuyên khoa của bệnh viện để <u>tái khám</u> định kỳ sau hai tuần.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "复查.svg",
+      "src": "images/HSK_3.0/level7/复查.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/复查.svg",
+        "images/HSK_3.0/level9/复查.svg"
+      ]
+    },
+    "附带": {
+      "hanzi": "附带",
+      "pinyin": "fùdài",
+      "meaning": "kèm theo, phụ thêm",
+      "example_zh": "购买这套智能家电设备的同时，厂家还免费<u>附带</u>赠送了长达两年的延保服务。",
+      "example_vi": "Cùng với việc mua bộ thiết bị gia dụng thông minh này, nhà sản xuất còn miễn phí <u>kèm theo</u> gói dịch vụ gia hạn bảo hành lên đến hai năm.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "附带.svg",
+      "src": "images/HSK_3.0/level7/附带.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/附带.svg",
+        "images/HSK_3.0/level9/附带.svg"
+      ]
+    },
+    "复发": {
+      "hanzi": "复发",
+      "pinyin": "fùfā",
+      "meaning": "tái phát",
+      "example_zh": "只要严格遵从医嘱规律作息调理，这种慢性胃病通常不会轻易再次<u>复发</u>。",
+      "example_vi": "Chỉ cần nghiêm túc tuân thủ chỉ dẫn của bác sĩ sinh hoạt điều độ, chứng bệnh đau dạ dày mãn tính này thông thường sẽ không dễ dàng <u>tái phát</u> trở lại.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "复发.svg",
+      "src": "images/HSK_3.0/level7/复发.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/复发.svg",
+        "images/HSK_3.0/level9/复发.svg"
+      ]
+    },
+    "富含": {
+      "hanzi": "富含",
+      "pinyin": "fùhán",
+      "meaning": "giàu hàm lượng, chứa nhiều",
+      "example_zh": "新鲜深海鱼肉中<u>富含</u>多种对大脑健康非常有益的不饱和脂肪酸。",
+      "example_vi": "Trong thịt cá biển sâu tươi ngon <u>chứa nhiều</u> các loại axit béo không bão hòa rất có lợi cho sức khỏe não bộ.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "富含.svg",
+      "src": "images/HSK_3.0/level7/富含.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/富含.svg",
+        "images/HSK_3.0/level9/富含.svg"
+      ]
+    },
+    "富豪": {
+      "hanzi": "富豪",
+      "pinyin": "fùháo",
+      "meaning": "đại gia, phú hào",
+      "example_zh": "这位行事低调的商业<u>富豪</u>，近年来匿名向慈善机构捐献了数亿元善款。",
+      "example_vi": "Vị <u>đại gia</u> kinh doanh có lối sống kín tiếng này những năm gần đây đã ẩn danh quyên góp hàng trăm triệu tệ cho các tổ chức từ thiện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "富豪.svg",
+      "src": "images/HSK_3.0/level7/富豪.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/富豪.svg",
+        "images/HSK_3.0/level9/富豪.svg"
+      ]
+    },
+    "附加": {
+      "hanzi": "附加",
+      "pinyin": "fùjiā",
+      "meaning": "phụ thêm, cộng thêm, đính kèm",
+      "example_zh": "这项国际采购合同中并没有设定任何苛刻的不平等<u>附加</u>条件。",
+      "example_vi": "Trong hợp đồng thu mua quốc tế này hoàn toàn không đặt ra bất kỳ điều kiện <u>phụ thêm</u> bất bình đẳng khắt khe nào.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "附加.svg",
+      "src": "images/HSK_3.0/level7/附加.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/附加.svg",
+        "images/HSK_3.0/level9/附加.svg"
+      ]
+    },
+    "富强": {
+      "hanzi": "富强",
+      "pinyin": "fùqiáng",
+      "meaning": "giàu mạnh, thịnh vượng",
+      "example_zh": "实现国家繁荣<u>富强</u>和人民幸福安康，是几代人不懈奋斗的崇高理想。",
+      "example_vi": "Hiện thực hóa mục tiêu đất nước phồn vinh <u>giàu mạnh</u> và nhân dân ấm no hạnh phúc là lý tưởng cao cả mà nhiều thế hệ không ngừng phấn đấu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "富强.svg",
+      "src": "images/HSK_3.0/level7/富强.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/富强.svg",
+        "images/HSK_3.0/level9/富强.svg"
+      ]
+    },
+    "复苏": {
+      "hanzi": "复苏",
+      "pinyin": "fùsū",
+      "meaning": "phục hồi, hồi sinh",
+      "example_zh": "随着一系列积极扶持政策的落地显效，国内旅游消费市场迎来了全面<u>复苏</u>。",
+      "example_vi": "Cùng với hàng loạt chính sách hỗ trợ tích cực phát huy hiệu quả rõ rệt, thị trường tiêu dùng du lịch trong nước đã đón nhận sự <u>phục hồi</u> toàn diện.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "复苏.svg",
+      "src": "images/HSK_3.0/level7/复苏.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/复苏.svg",
+        "images/HSK_3.0/level9/复苏.svg"
+      ]
+    },
+    "腹泻": {
+      "hanzi": "腹泻",
+      "pinyin": "fùxiè",
+      "meaning": "tiêu chảy, đi ngoài",
+      "example_zh": "夏季不慎食用变质不洁的海鲜容易引发急性肠胃炎和剧烈<u>腹泻</u>。",
+      "example_vi": "Mùa hè sơ ý ăn phải hải sản ôi thiu mất vệ sinh rất dễ dẫn đến viêm dạ dày ruột cấp tính và <u>tiêu chảy</u> dữ dội.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "腹泻.svg",
+      "src": "images/HSK_3.0/level7/腹泻.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/腹泻.svg",
+        "images/HSK_3.0/level9/腹泻.svg"
+      ]
+    },
+    "复原": {
+      "hanzi": "复原",
+      "pinyin": "fùyuán",
+      "meaning": "phục hồi nguyên trạng, bình phục",
+      "example_zh": "文物修复大师经过数月精细作业，成功将碎裂的古陶罐彻底<u>复原</u>如初。",
+      "example_vi": "Bậc thầy phục chế cổ vật sau nhiều tháng thao tác tỉ mỉ đã <u>phục hồi nguyên trạng</u> thành công chiếc bình gốm cổ bị vỡ vụn như lúc ban đầu.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "复原.svg",
+      "src": "images/HSK_3.0/level7/复原.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/复原.svg",
+        "images/HSK_3.0/level9/复原.svg"
+      ]
+    },
+    "负重": {
+      "hanzi": "负重",
+      "pinyin": "fùzhòng",
+      "meaning": "mang vác nặng, chịu tải nặng",
+      "example_zh": "边防战士们每天背着沉重的装备进行几十公里的高强度野外<u>负重</u>行军训练。",
+      "example_vi": "Các chiến sĩ biên phòng mỗi ngày đều mang vác trang bị nặng trĩu tiến hành huấn luyện hành quân <u>mang vác nặng</u> dã ngoại cường độ cao mấy chục cây số.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "负重.svg",
+      "src": "images/HSK_3.0/level7/负重.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/负重.svg",
+        "images/HSK_3.0/level9/负重.svg"
+      ]
+    },
+    "富足": {
+      "hanzi": "富足",
+      "pinyin": "fùzú",
+      "meaning": "sung túc, ấm no, đầy đủ",
+      "example_zh": "勤劳智慧的村民们通过发展特色乡村生态旅游，过上了幸福<u>富足</u>的美好生活。",
+      "example_vi": "Dân làng cần cù và thông thái nhờ phát triển du lịch sinh thái nông thôn đặc sắc đã có được cuộc sống tốt đẹp ấm êm <u>sung túc</u>.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "富足.svg",
+      "src": "images/HSK_3.0/level7/富足.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/富足.svg",
+        "images/HSK_3.0/level9/富足.svg"
+      ]
+    },
+    "副作用": {
+      "hanzi": "副作用",
+      "pinyin": "fùzuòyòng",
+      "meaning": "tác dụng phụ",
+      "example_zh": "临床试验表明，这款新型抗癌靶向药物疗效显著且引发的人体<u>副作用</u>很小。",
+      "example_vi": "Thử nghiệm lâm sàng chỉ ra rằng loại thuốc đích chống ung thư thế hệ mới này có hiệu quả rõ rệt và gây ra <u>tác dụng phụ</u> rất nhỏ cho cơ thể con người.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "副作用.svg",
+      "src": "images/HSK_3.0/level7/副作用.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/副作用.svg",
+        "images/HSK_3.0/level9/副作用.svg"
+      ]
+    },
+    "改版": {
+      "hanzi": "改版",
+      "pinyin": "gǎibǎn",
+      "meaning": "thay đổi phiên bản, sửa đổi giao diện",
+      "example_zh": "这款手机软件经过全面<u>改版</u>后，界面更加简洁易用。",
+      "example_vi": "Sau khi được <u>thay đổi phiên bản</u> toàn diện, giao diện của phần mềm điện thoại này trở nên gọn gàng và dễ dùng hơn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "改版.svg",
+      "src": "images/HSK_3.0/level7/改版.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/改版.svg",
+        "images/HSK_3.0/level9/改版.svg"
+      ]
+    },
+    "改动": {
+      "hanzi": "改动",
+      "pinyin": "gǎidòng",
+      "meaning": "sửa đổi, chỉnh sửa",
+      "example_zh": "导演对剧本的结尾做了一些细微的<u>改动</u>。",
+      "example_vi": "Đạo diễn đã thực hiện một vài <u>chỉnh sửa</u> nhỏ đối với phần kết của kịch bản.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "改动.svg",
+      "src": "images/HSK_3.0/level7/改动.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/改动.svg",
+        "images/HSK_3.0/level9/改动.svg"
+      ]
+    },
+    "改观": {
+      "hanzi": "改观",
+      "pinyin": "gǎiguān",
+      "meaning": "chuyển biến tích cực, thay đổi diện mạo",
+      "example_zh": "经过几年的综合治理，这里的生态环境有了极大的<u>改观</u>。",
+      "example_vi": "Sau vài năm quản lý tổng hợp, môi trường sinh thái nơi đây đã có <u>chuyển biến tích cực</u> to lớn.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "改观.svg",
+      "src": "images/HSK_3.0/level7/改观.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/改观.svg",
+        "images/HSK_3.0/level9/改观.svg"
+      ]
+    },
+    "改日": {
+      "hanzi": "改日",
+      "pinyin": "gǎirì",
+      "meaning": "hôm khác, ngày khác",
+      "example_zh": "今天时间仓促，咱们还是<u>改日</u>再详谈吧。",
+      "example_vi": "Hôm nay thời gian gấp gáp, chúng ta hãy để <u>hôm khác</u> nói chuyện chi tiết nhé.",
+      "levels_hsk2": [],
+      "levels_hsk3": [
+        "level7",
+        "level8",
+        "level9"
+      ],
+      "file": "改日.svg",
+      "src": "images/HSK_3.0/level7/改日.svg",
+      "alt_srcs": [
+        "images/HSK_3.0/level8/改日.svg",
+        "images/HSK_3.0/level9/改日.svg"
       ]
     }
   }
