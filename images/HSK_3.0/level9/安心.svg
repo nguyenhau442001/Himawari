@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background glow/ambience for focus -->
+  <circle cx="120" cy="125" r="70" fill="#242B38" opacity="0.6"/>
+
+  <!-- Contextual setting: Medical/Surgical preparation or secure support environment -->
+  <g transform="translate(0, 15)">
+    <!-- Operating Table / Supporting Structure (curved cradle representing absolute stability and relief) -->
+    <path d="M 60,110 C 60,135 90,145 120,145 C 150,145 180,135 180,110" fill="none" stroke="#3A4454" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Patient/Figure lying down safely, posture of complete relaxation and peace (an xin) -->
+    <!-- Head -->
+    <circle cx="90" cy="98" r="14" fill="#E2E8F0"/>
+    <path d="M 80,95 Q 85,86 98,90" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/> <!-- Calm closed eye/face line -->
+
+    <!-- Body wrapped in surgical blanket / hospital gown - horizontal stable shape -->
+    <path d="M 95,106 L 165,106 C 172,106 178,112 178,119 C 178,126 172,132 165,132 L 95,132 C 88,132 82,126 82,119 C 82,112 88,106 95,106 Z" fill="#3B82F6"/>
+    <!-- Blanket fold details -->
+    <path d="M 115,106 L 125,132" stroke="#2563EB" stroke-width="3" opacity="0.5"/>
+    <path d="M 140,106 L 150,132" stroke="#2563EB" stroke-width="3" opacity="0.5"/>
+
+    <!-- Collaborative supporting hands (representing '齐心协助' leading to '安心') -->
+    <!-- Left supporting hand -->
+    <path d="M 50,130 Q 65,135 75,120" fill="none" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="53" cy="132" r="5" fill="#F59E0B"/>
+    
+    <!-- Right supporting hand -->
+    <path d="M 190,130 Q 175,135 165,120" fill="none" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="187" cy="132" r="5" fill="#F59E0B"/>
+
+    <!-- Central visual anchor of absolute peace/relief above the figure (Gentle glowing aura, clean modern vector style) -->
+    <g transform="translate(120, 62)">
+      <!-- Soft aura rings -->
+      <circle cx="0" cy="0" r="22" fill="#F59E0B" opacity="0.15"/>
+      <circle cx="0" cy="0" r="14" fill="#F59E0B" opacity="0.25"/>
+      <!-- Core solid emblem of tranquility/mind at peace (Calm abstract profile merging with a shield-like equilibrium) -->
+      <path d="M 0,-8 C 4,-8 8,-4 8,0 C 8,6 0,12 0,12 C 0,12 -8,6 -8,0 C -8,-4 -4,-8 0,-8 Z" fill="#F59E0B"/>
+      <!-- Inner peaceful check/balance curve -->
+      <path d="M -3,-1 L -1,2 L 4,-3" fill="none" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

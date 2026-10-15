@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <!-- Pedestal/Shelf -->
+  <rect x="80" y="180" width="80" height="8" rx="2" fill="#3A404C"/>
+  
+  <!-- Vase Body -->
+  <path d="M105 180 
+           C95 170 90 150 90 130 
+           C90 110 95 90 105 80 
+           L135 80 
+           C145 90 150 110 150 130 
+           C150 150 145 170 135 180 Z" 
+        fill="#E0E0E0"/>
+  
+  <!-- Vase Neck/Opening -->
+  <path d="M105 80 L135 80 L140 70 L100 70 Z" fill="#C0C0C0"/>
+  
+  <!-- Gold Accent on Vase Rim -->
+  <rect x="100" y="70" width="40" height="4" fill="#FFD700"/>
+  
+  <!-- Gold Accent on Vase Body (a simple band) -->
+  <rect x="100" y="125" width="40" height="3" rx="1.5" fill="#FFD700"/>
+</svg>

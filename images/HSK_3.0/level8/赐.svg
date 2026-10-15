@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Emperor's hand (representing authority/bestowal) -->
+  <path d="M140 120 C 140 100, 160 90, 180 100 L 190 110 L 180 130 L 160 125 Z" fill="#FFB84D"/>
+  <path d="M175 105 L 185 115" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- The land scroll/deed being bestowed -->
+  <rect x="80" y="120" width="80" height="50" rx="4" fill="#E6A800"/>
+  <rect x="85" y="125" width="70" height="40" rx="2" fill="#FFD700"/>
+  
+  <!-- Decorative seal on the scroll -->
+  <circle cx="120" cy="145" r="8" fill="#D32F2F"/>
+  
+  <!-- Recipient's hands (receiving) -->
+  <path d="M60 160 C 60 140, 80 130, 100 140 L 110 150 L 100 170 L 80 165 Z" fill="#FFD180"/>
+  <path d="M140 160 C 140 140, 120 130, 100 140 L 90 150 L 100 170 L 120 165 Z" fill="#FFD180"/>
+  
+  <!-- Ground reference (simplified) -->
+  <path d="M40 200 L 200 200" stroke="#4A5568" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 200 L 70 190 M100 200 L 110 190 M140 200 L 150 190 M180 200 L 190 190" stroke="#4A5568" stroke-width="2"/>
+</svg>

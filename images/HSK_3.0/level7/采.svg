@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Mountain silhouette background -->
+  <path d="M0 240 L80 120 L160 180 L240 100 L240 240 Z" fill="#252A33"/>
+  
+  <!-- Tea bush -->
+  <path d="M60 240 C60 200, 80 180, 100 180 C120 180, 140 200, 140 240" fill="#2D5A27"/>
+  <circle cx="85" cy="185" r="6" fill="#A8D08D"/>
+  <circle cx="115" cy="182" r="7" fill="#A8D08D"/>
+  <circle cx="100" cy="175" r="8" fill="#C6E0B4"/>
+  
+  <!-- Hand reaching to pick -->
+  <g fill="#FFD700">
+    <path d="M130 150 C135 140, 145 135, 155 140 L160 155 L145 165 Z" fill="#E6B800"/>
+    <path d="M145 165 L155 175 L140 180 Z" fill="#FFD700"/>
+    <path d="M155 140 C160 135, 170 135, 175 145 L165 155 Z" fill="#FFD700"/>
+  </g>
+  
+  <!-- Basket -->
+  <path d="M170 180 L220 180 L210 230 L180 230 Z" fill="#8B5A2B"/>
+  <path d="M175 180 L185 160 L205 160 L215 180" stroke="#8B5A2B" stroke-width="4" fill="none"/>
+  
+  <!-- Tea leaves in basket -->
+  <ellipse cx="195" cy="190" rx="8" ry="4" fill="#A8D08D"/>
+  <ellipse cx="190" cy="205" rx="7" ry="3" fill="#C6E0B4"/>
+  <ellipse cx="205" cy="200" rx="6" ry="3" fill="#A8D08D"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Visual Metaphor: Progression/Escalation of knowledge through mentorship -->
+  <!-- A staircase of knowledge where the mentor guides the mentee to a higher level -->
+  
+  <!-- Staircase structure -->
+  <path d="M40 180 L80 180 L80 160 L120 160 L120 140 L160 140 L160 120 L200 120 L200 200 L40 200 Z" fill="#2D343E"/>
+  <path d="M40 180 L80 180 L80 178 L40 178 Z" fill="#FFB84D"/>
+  <path d="M80 160 L120 160 L120 158 L80 158 Z" fill="#FFB84D"/>
+  <path d="M120 140 L160 140 L160 138 L120 138 Z" fill="#FFB84D"/>
+  <path d="M160 120 L200 120 L200 118 L160 118 Z" fill="#FFB84D"/>
+  
+  <!-- Mentor Figure (Right, higher) -->
+  <g transform="translate(170, 80)">
+    <circle cx="10" cy="10" r="10" fill="#E0E6ED"/>
+    <path d="M0 25 C0 20, 20 20, 20 25 L20 50 L0 50 Z" fill="#E0E6ED"/>
+    <!-- Pointing gesture towards the lower step -->
+    <path d="M-5 35 L-15 30" stroke="#E0E6ED" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Mentee Figure (Left, lower) -->
+  <g transform="translate(60, 140)">
+    <circle cx="10" cy="10" r="10" fill="#A0A9B8"/>
+    <path d="M0 25 C0 20, 20 20, 20 25 L20 50 L0 50 Z" fill="#A0A9B8"/>
+    <!-- Bowing posture -->
+    <path d="M20 30 L35 40" stroke="#A0A9B8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Magnifying glass metaphor for "scrutinizing/seeking wisdom" -->
+  <circle cx="100" cy="100" r="25" fill="none" stroke="#FFB84D" stroke-width="4"/>
+  <path d="M118 118 L140 140" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Light beam/Focus indicator -->
+  <path d="M100 75 L100 50" stroke="#FFB84D" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

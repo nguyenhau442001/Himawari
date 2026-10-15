@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle glow representing patience/warmth -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.6"/>
+
+  <!-- Teacher character (representing 'không ngại phiền hà, kiên nhẫn hết lòng') -->
+  <!-- Body/Torso -->
+  <path d="M90 190 C90 165 105 150 120 150 C135 150 150 165 150 190 Z" fill="#3B82F6"/>
+  <!-- Head -->
+  <circle cx="120" cy="115" r="22" fill="#E2E8F0"/>
+  <!-- Hair -->
+  <path d="M98 112 C98 100 106 93 120 93 C134 93 142 100 142 112 C142 115 140 115 140 112 C140 102 132 96 120 96 C108 96 100 102 100 112 C100 115 98 115 98 112 Z" fill="#64748B"/>
+  <!-- Gentle, patient smile -->
+  <path d="M115 124 Q120 128 125 124" stroke="#1E293B" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Glasses -->
+  <circle cx="112" cy="113" r="6" stroke="#F59E0B" stroke-width="2" fill="none"/>
+  <circle cx="128" cy="113" r="6" stroke="#F59E0B" stroke-width="2" fill="none"/>
+  <line x1="118" y1="113" x2="122" y2="113" stroke="#F59E0B" stroke-width="2"/>
+
+  <!-- Pointing arm/hand explaining patiently over and over -->
+  <path d="M140 170 Q160 160 175 140" stroke="#3B82F6" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <circle cx="178" cy="136" r="6" fill="#E2E8F0"/>
+
+  <!-- Blackboard / Whiteboard concept behind with repeated clear problem solving steps -->
+  <rect x="50" y="45" width="140" height="70" rx="6" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Repeated problem steps (visualizing "一遍又一遍详细讲解") -->
+  <!-- Iteration 1 (faded) -->
+  <path d="M62 60 L75 60 M62 68 L85 68" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <!-- Iteration 2 (clearer) -->
+  <path d="M100 60 L125 60 M100 68 L115 68" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
+  <!-- Iteration 3 (highlighted focus - gold/orange accent) -->
+  <path d="M140 60 L175 60 M140 70 L165 70 M140 80 L155 80" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Connection lines / progression arrows showing repetitive patience -->
+  <path d="M88 64 Q94 60 98 64" stroke="#475569" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M128 64 Q134 60 138 64" stroke="#F59E0B" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Desk base -->
+  <rect x="40" y="190" width="160" height="10" rx="3" fill="#475569"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow/shadow -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+
+  <!-- Conceptual Physical Object: Scales of Justice & Gavel representing Legal Crime/Punishment -->
+  <!-- Stand Base -->
+  <path d="M95 190H145V198H95V190Z" fill="#718096" rx="2"/>
+  <rect x="116" y="90" width="8" height="100" fill="#A0AEC0" rx="2"/>
+  
+  <!-- Scale Top Ring -->
+  <circle cx="120" cy="85" r="5" fill="#E2E8F0"/>
+  
+  <!-- Balance Beam -->
+  <path d="M70 95L170 95" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Left Pan (Up - lighter/guilty side weighted down or balanced) -->
+  <path d="M70 95L50 145H90L70 95Z" fill="none" stroke="#CBD5E0" stroke-width="2" opacity="0.6"/>
+  <path d="M45 145C45 142 55 140 70 140C85 140 95 142 95 145C95 148 85 152 70 152C55 152 45 148 45 145Z" fill="#E2E8F0"/>
+
+  <!-- Right Pan (Down - heavy with evidence/verdict) -->
+  <path d="M170 95L150 160H190L170 95Z" fill="none" stroke="#CBD5E0" stroke-width="2" opacity="0.6"/>
+  <path d="M145 160C145 157 155 155 170 155C185 155 195 157 195 160C195 163 185 167 170 167C155 167 145 163 145 160Z" fill="#E2E8F0"/>
+  
+  <!-- Glowing Accent / Focus on Legal Judgment (Gold/Orange contrast) -->
+  <circle cx="170" cy="160" r="12" fill="#F59E0B" opacity="0.8"/>
+  <path d="M164 160L168 164L177 155" stroke="#1A1D24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Judge's Gavel intersecting lower foreground -->
+  <g transform="translate(10, 20)">
+    <!-- Gavel Handle -->
+    <path d="M60 140L115 105" stroke="#D97706" stroke-width="6" stroke-linecap="round"/>
+    <!-- Gavel Head -->
+    <path d="M105 95L135 110L125 125L95 110Z" fill="#F59E0B" stroke="#D97706" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Strike Block -->
+    <rect x="70" y="165" width="40" height="10" rx="3" fill="#4A5568"/>
+  </g>
+</svg>

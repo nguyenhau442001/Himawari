@@ -1,0 +1,40 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background subtle architectural blueprint lines -->
+  <path d="M40 200 L200 200" stroke="#2A303C" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M70 200 L70 100" stroke="#2A303C" stroke-width="1" opacity="0.5"/>
+  <path d="M170 200 L170 100" stroke="#2A303C" stroke-width="1" opacity="0.5"/>
+
+  <!-- School/University Building Structure (Running/Establishing a school) -->
+  <path d="M90 100 L120 75 L150 100 Z" fill="#F59E0B"/> <!-- Roof -->
+  <rect x="95" y="100" width="50" height="70" fill="#2563EB"/> <!-- Main body -->
+  <rect x="110" y="130" width="20" height="40" fill="#1A1D24"/> <!-- Door -->
+  <rect x="100" y="110" width="10" height="10" fill="#60A5FA"/> <!-- Window -->
+  <rect x="130" y="110" width="10" height="10" fill="#60A5FA"/> <!-- Window -->
+  
+  <!-- Pillars for academic institution feel -->
+  <rect x="85" y="100" width="6" height="70" fill="#93C5FD"/>
+  <rect x="149" y="100" width="6" height="70" fill="#93C5FD"/>
+
+  <!-- Dynamic Human Action: Operating/Building (Verb) -->
+  <!-- Character drafting/guiding the school -->
+  <!-- Body/Torso -->
+  <path d="M60 160 C60 145 75 140 85 155 L90 185 L70 185 Z" fill="#10B981"/>
+  <!-- Head -->
+  <circle cx="65" cy="132" r="10" fill="#FBBF24"/>
+  <!-- Active Arm with Motion/Creation Lines directing towards the school -->
+  <path d="M65 145 C80 145 95 140 105 135" stroke="#10B981" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Motion Action Lines indicating "Management / Operation / Establishment" -->
+  <path d="M45 120 C55 110 55 130 65 120" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M180 130 C190 120 190 140 200 130" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Ground Line -->
+  <rect x="30" y="185" width="180" height="4" rx="2" fill="#475569"/>
+
+  <!-- Educational Emblem / Graduation cap accent floating above to clearly signify "School/Education" -->
+  <polygon points="120,40 145,52 120,64 95,52" fill="#F59E0B"/>
+  <path d="M135,58 L135,70 C135,75 125,77 120,77 C115,77 105,75 105,70 L105,58" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M140,55 L145,68 C145,72 143,76 140,78" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "必不可少" (An indispensable core element / vital building block) -->
+  <g transform="translate(120, 120)">
+    <!-- Outer structural orbit / supporting framework -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#2A2F3D" stroke-width="2" stroke-dasharray="6 6"/>
+    
+    <!-- Supporting nodes representing connected dependencies -->
+    <circle cx="-50" cy="-50" r="12" fill="#2A2F3D"/>
+    <circle cx="50" cy="-50" r="12" fill="#2A2F3D"/>
+    <circle cx="-50" cy="50" r="12" fill="#2A2F3D"/>
+    <circle cx="50" cy="50" r="12" fill="#2A2F3D"/>
+
+    <!-- Connecting beams to the central indispensable element -->
+    <line x1="-38" y1="-38" x2="-18" y2="-18" stroke="#3A4154" stroke-width="3" stroke-linecap="round"/>
+    <line x1="38" y1="-38" x2="18" y2="-18" stroke="#3A4154" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-38" y1="38" x2="-18" y2="18" stroke="#3A4154" stroke-width="3" stroke-linecap="round"/>
+    <line x1="38" y1="38" x2="18" y2="18" stroke="#3A4154" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Central core element (The indispensable foundation/keystone) -->
+    <!-- Glow effect behind the core -->
+    <circle cx="0" cy="0" r="32" fill="#FFA500" opacity="0.15"/>
+    
+    <!-- Isometric/Dimensional Keystone / Core Block -->
+    <!-- Bottom face -->
+    <polygon points="0,26 -26,10 0,-6 26,10" fill="#E69500"/>
+    <!-- Left face -->
+    <polygon points="-26,10 -26,-14 0,2 0,26" fill="#FFB71B"/>
+    <!-- Right face -->
+    <polygon points="26,10 26,-14 0,2 0,26" fill="#FFA500"/>
+    <!-- Top face -->
+    <polygon points="0,-30 -26,-14 0,2 26,-14" fill="#FFC933"/>
+
+    <!-- Focus accent: Floating glowing spark indicating vital significance -->
+    <path d="M0,-44 L3,-36 L11,-33 L3,-30 L0,-22 L-3,-30 L-11,-33 L-3,-36 Z" fill="#FFD700"/>
+  </g>
+</svg>

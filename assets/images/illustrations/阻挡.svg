@@ -1,0 +1,41 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="120" cy="195" rx="80" ry="10" fill="#000000" fill-opacity="0.3"/>
+  
+  <!-- Concrete Barrier (Jersey Barrier Style) -->
+  <!-- Main Body -->
+  <path d="M45 190 L195 190 L175 120 L155 120 L145 80 L95 80 L85 120 L65 120 Z" fill="#4A5568"/>
+  
+  <!-- Top Surface for depth -->
+  <path d="M95 80 L145 80 L140 75 L100 75 Z" fill="#718096"/>
+  
+  <!-- Side highlights for 3D flat effect -->
+  <path d="M45 190 L65 120 L85 120 L65 190 Z" fill="#2D3748"/>
+  <path d="M195 190 L175 120 L155 120 L175 190 Z" fill="#2D3748"/>
+  
+  <!-- Warning Stripes (Orange/Gold Accents) -->
+  <defs>
+    <clipPath id="barrierClip">
+      <path d="M45 190 L195 190 L175 120 L155 120 L145 80 L95 80 L85 120 L65 120 Z"/>
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#barrierClip)">
+    <rect x="50" y="70" width="20" height="150" fill="#F6AD55" transform="rotate(25 50 70)"/>
+    <rect x="90" y="70" width="20" height="150" fill="#F6AD55" transform="rotate(25 90 70)"/>
+    <rect x="130" y="70" width="20" height="150" fill="#F6AD55" transform="rotate(25 130 70)"/>
+    <rect x="170" y="70" width="20" height="150" fill="#F6AD55" transform="rotate(25 170 70)"/>
+    <rect x="210" y="70" width="20" height="150" fill="#F6AD55" transform="rotate(25 210 70)"/>
+  </g>
+
+  <!-- Industrial Detail: Lifting Holes -->
+  <circle cx="90" cy="170" r="5" fill="#1A1D24"/>
+  <circle cx="150" cy="170" r="5" fill="#1A1D24"/>
+
+  <!-- Warning Beacon on top -->
+  <rect x="112" y="65" width="16" height="10" rx="2" fill="#2D3748"/>
+  <path d="M114 65 Q120 45 126 65 Z" fill="#ED8936"/>
+  <circle cx="120" cy="60" r="8" fill="#ED8936" fill-opacity="0.3"/>
+</svg>

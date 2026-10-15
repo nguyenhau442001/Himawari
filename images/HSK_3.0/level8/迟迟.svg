@@ -1,0 +1,42 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Object: Official Acceptance Letter / Envelope (Physical Object representing the delayed arrival in context) -->
+  <g transform="translate(0, 0)">
+    <!-- Drop Shadow / Depth for Envelope -->
+    <path d="M60,85 L180,85 C186,85 190,89 190,95 L190,165 C190,171 186,175 180,175 L60,175 C54,175 50,171 50,165 L50,95 C50,89 54,85 60,85 Z" fill="#252A34" />
+
+    <!-- Main Envelope Body -->
+    <rect x="45" y="80" width="150" height="90" rx="6" fill="#2D3748" stroke="#4A5568" stroke-width="2" />
+
+    <!-- Envelope Flap (Closed, waiting) -->
+    <path d="M45,82 L120,132 L195,82" fill="none" stroke="#718096" stroke-width="2.5" stroke-linejoin="round" />
+
+    <!-- Wax Seal / Official Stamp (Golden accent to highlight importance) -->
+    <circle cx="120" cy="135" r="14" fill="#D69E2E" />
+    <circle cx="120" cy="135" r="10" fill="#B7791F" />
+    <path d="M115,135 L125,135 M120,130 L120,140" stroke="#D69E2E" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Abstract Document Lines inside (Hinting at contents) -->
+    <rect x="65" y="98" width="70" height="4" rx="2" fill="#4A5568" opacity="0.6" />
+    <rect x="65" y="110" width="45" height="4" rx="2" fill="#4A5568" opacity="0.6" />
+  </g>
+
+  <!-- Visualizing "Delayed / Not Arriving" (迟迟 - lingering, holding back, stuck in time) -->
+  <g transform="translate(0, 5)">
+    <!-- Clock / Waiting Motif subtly integrated above the envelope to convey delay -->
+    <circle cx="120" cy="45" r="18" fill="#1A1D24" stroke="#ED8936" stroke-width="2.5" />
+    <!-- Clock hands stuck pointing upward -->
+    <path d="M120,45 L120,34" stroke="#ED8936" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M120,45 L128,45" stroke="#ED8936" stroke-width="2" stroke-linecap="round" />
+    <circle cx="120" cy="45" r="2" fill="#ED8936" />
+
+    <!-- Hourglass sand falling indicators / Delay markers hovering -->
+    <path d="M100,38 L104,42 M104,38 L100,42" stroke="#4A5568" stroke-width="2" stroke-linecap="round" />
+    <path d="M140,38 L136,42 M136,38 L140,42" stroke="#4A5568" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Focus / Anticipation Marker (Subtle glowing orbit/dots representing eager waiting without breaking rules) -->
+  <circle cx="120" cy="125" r="75" fill="none" stroke="#ED8936" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.4" />
+</svg>

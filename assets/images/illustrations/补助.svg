@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table Surface -->
+  <rect x="40" y="160" width="160" height="12" rx="2" fill="#343A46"/>
+  
+  <!-- Hand giving the subsidy -->
+  <path d="M160 160L140 120C140 120 130 110 120 110C110 110 100 120 100 120L80 160" fill="#FFB86C"/>
+  
+  <!-- Envelope representing the subsidy payment -->
+  <path d="M80 130H160V160H80V130Z" fill="#F8F8F2"/>
+  <path d="M80 130L120 150L160 130" fill="#E2E2E2"/>
+  
+  <!-- Gold coin detail on envelope -->
+  <circle cx="120" cy="145" r="8" fill="#FFB86C"/>
+  <circle cx="120" cy="145" r="5" fill="#1A1D24" fill-opacity="0.2"/>
+  
+  <!-- Recipient's hands receiving -->
+  <path d="M140 170L150 190H90L100 170" fill="#8BE9FD"/>
+  
+  <!-- Subtle shadow under envelope -->
+  <ellipse cx="120" cy="165" rx="40" ry="5" fill="#000000" fill-opacity="0.3"/>
+</svg>

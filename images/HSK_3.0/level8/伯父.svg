@@ -1,0 +1,56 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative ambient lighting -->
+  <circle cx="120" cy="110" r="70" fill="#2D323E" opacity="0.4"/>
+
+  <!-- Character representing "伯父" (Elder Uncle / Father's older brother): An elderly, distinguished Chinese gentleman with traditional/modern smart casual attire, warm dignified smile, and respectful posture representing wisdom and family respect. -->
+  <g transform="translate(0, 10)">
+    <!-- Shoulders / Torso -->
+    <!-- Outer Jacket / Coat (Slate Navy with clean lapel) -->
+    <path d="M 75 165 C 75 138, 95 130, 120 130 C 145 130, 165 138, 165 165 L 175 195 C 175 200, 170 205, 165 205 L 75 205 C 70 205, 65 200, 65 195 Z" fill="#252D3D"/>
+    <!-- Inner Shirt Collar & Tie (Warm Gold Accent) -->
+    <path d="M 105 130 L 120 150 L 135 130 Z" fill="#EAECEF"/>
+    <polygon points="116,145 124,145 127,180 113,180" fill="#D4AF37"/>
+    <!-- Jacket Lapel lines -->
+    <path d="M 105 130 L 90 170" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 135 130 L 150 170" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Neck -->
+    <rect x="108" y="112" width="24" height="24" fill="#EAC2A3" rx="4"/>
+
+    <!-- Head & Face Structure -->
+    <path d="M 90 85 C 90 55, 150 55, 150 85 L 150 105 C 150 122, 137 132, 120 132 C 103 132, 90 122, 90 105 Z" fill="#F1C5A2"/>
+
+    <!-- Ears -->
+    <path d="M 87 95 C 83 95, 83 105, 88 108" fill="none" stroke="#EAC2A3" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 153 95 C 157 95, 157 105, 152 108" fill="none" stroke="#EAC2A3" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Hair (Distinguished graying/silver hair at temples) -->
+    <path d="M 90 85 C 90 60, 105 52, 120 52 C 135 52, 150 60, 150 85 C 145 72, 135 68, 120 68 C 105 68, 95 72, 90 85 Z" fill="#8C93A0"/>
+    <path d="M 92 88 C 90 82, 95 70, 105 65" fill="none" stroke="#8C93A0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 148 88 C 150 82, 145 70, 135 65" fill="none" stroke="#8C93A0" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Gentle Friendly Eyes with Wisdom Lines -->
+    <circle cx="106" cy="93" r="3.5" fill="#2A2A2A"/>
+    <circle cx="134" cy="93" r="3.5" fill="#2A2A2A"/>
+    <!-- Eyebrows (slightly graying, wise arch) -->
+    <path d="M 98 86 C 103 84, 110 85, 114 87" fill="none" stroke="#8C93A0" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 142 86 C 137 84, 130 85, 126 87" fill="none" stroke="#8C93A0" stroke-width="3" stroke-linecap="round"/>
+    <!-- Smile lines / Crows feet -->
+    <path d="M 110 93 L 113 95" stroke="#D8A783" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 130 93 L 127 95" stroke="#D8A783" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Friendly, Warm Smile -->
+    <path d="M 112 115 C 116 119, 124 119, 128 115" fill="none" stroke="#B87D56" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Subtle Modern Glasses reflecting wisdom -->
+    <rect x="97" y="85" width="20" height="15" rx="3" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <rect x="123" y="85" width="20" height="15" rx="3" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="117" y1="90" x2="123" y2="90" stroke="#D4AF37" stroke-width="2"/>
+  </g>
+
+  <!-- Focus / Authority Accent Ring (Subtle gold glow representing respect "德高望重") -->
+  <circle cx="120" cy="110" r="82" fill="none" stroke="#D4AF37" stroke-width="2" stroke-dasharray="8 6" opacity="0.6"/>
+</svg>

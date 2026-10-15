@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Main Library Building -->
+  <rect x="60" y="80" width="120" height="100" rx="4" fill="#3A404D"/>
+  <rect x="75" y="100" width="30" height="60" rx="2" fill="#5D677D"/>
+  <rect x="135" y="100" width="30" height="60" rx="2" fill="#5D677D"/>
+  
+  <!-- Open Door/Entrance -->
+  <rect x="105" y="130" width="30" height="50" fill="#2A2E39"/>
+  
+  <!-- Calendar representing "Holidays" being excluded -->
+  <g transform="translate(160, 40)">
+    <rect x="0" y="0" width="50" height="50" rx="6" fill="#F39C12"/>
+    <rect x="5" y="15" width="40" height="30" rx="2" fill="#1A1D24"/>
+    <line x1="12" y1="0" x2="12" y2="10" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+    <line x1="38" y1="0" x2="38" y2="10" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Red X indicating exclusion -->
+    <line x1="10" y1="20" x2="40" y2="40" stroke="#E74C3C" stroke-width="6" stroke-linecap="round"/>
+    <line x1="40" y1="20" x2="10" y2="40" stroke="#E74C3C" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Ground line -->
+  <rect x="40" y="180" width="160" height="4" rx="2" fill="#5D677D"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Motion lines for dynamic action -->
+  <path d="M140 60 Q160 50 180 60" stroke="#FFB84D" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <path d="M60 180 Q50 160 60 140" stroke="#FFB84D" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+
+  <!-- Character 1: Eating/Drinking (Action) -->
+  <g transform="translate(40, 40)">
+    <circle cx="30" cy="30" r="20" fill="#FFB84D"/>
+    <path d="M20 35 Q30 42 40 35" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <rect x="25" y="55" width="10" height="30" fill="#4A90E2"/>
+    <path d="M30 85 L30 110" stroke="#4A90E2" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Character 2: Playing (Action - Jumping/Active) -->
+  <g transform="translate(140, 120)">
+    <circle cx="30" cy="30" r="20" fill="#FFB84D"/>
+    <path d="M20 25 L25 30 L30 25" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M35 25 L40 30 L45 25" stroke="#1A1D24" stroke-width="2" fill="none"/>
+    <path d="M20 40 Q30 48 40 40" stroke="#1A1D24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M30 50 L20 80" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M30 50 L40 80" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Objects representing the activities -->
+  <!-- Cup -->
+  <path d="M80 90 L110 90 L105 120 L85 120 Z" fill="#E0E0E0"/>
+  <path d="M110 95 L115 110" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Ball -->
+  <circle cx="160" cy="180" r="15" fill="#FF5252"/>
+  <path d="M145 180 A15 15 0 0 1 175 180" stroke="#1A1D24" stroke-width="2" fill="none"/>
+  <path d="M160 165 A15 15 0 0 0 160 195" stroke="#1A1D24" stroke-width="2" fill="none"/>
+</svg>

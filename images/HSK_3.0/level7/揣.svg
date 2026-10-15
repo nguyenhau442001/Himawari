@@ -1,0 +1,23 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Coat detail -->
+  <path d="M60 80h120v120H60z" fill="#2D343E"/>
+  
+  <!-- Pocket area -->
+  <path d="M85 120h70v60H85z" fill="#3A4452" rx="10"/>
+  
+  <!-- Hands tucked into pocket -->
+  <g fill="#FFC107">
+    <path d="M95 135c0-10 8-15 20-15s20 5 20 15v30H95v-30z" opacity="0.9"/>
+    <path d="M125 135c0-10 8-15 20-15s20 5 20 15v30h-40v-30z" opacity="0.9"/>
+  </g>
+  
+  <!-- Coat collar/lapel -->
+  <path d="M60 80l30 40h-30V80z" fill="#252B33"/>
+  <path d="M180 80l-30 40h30V80z" fill="#252B33"/>
+  
+  <!-- Arm sleeves -->
+  <path d="M60 100l25 40h-25V100z" fill="#2D343E"/>
+  <path d="M180 100l-25 40h25V100z" fill="#2D343E"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric Glow / Background Layer -->
+  <circle cx="120" cy="120" r="85" fill="#1e293b" opacity="0.6"/>
+
+  <!-- Jungle / Rainforest Scene (丛林 - Dense Forest) -->
+  <!-- Distant Background Trees / Canopy -->
+  <path d="M50 140 Q65 100 80 140 Q95 90 110 140 Q125 110 140 140 Q155 95 170 140 Q185 115 200 140 Z" fill="#2d4a3e" opacity="0.6"/>
+  <path d="M40 165 Q60 115 80 165 Q100 105 120 165 Q140 125 160 165 Q180 110 200 165 Z" fill="#243f34" opacity="0.8"/>
+
+  <!-- Midground Dense Foliage (Layered jungle trees) -->
+  <g fill="#2e6f40">
+    <!-- Left Jungle Cluster -->
+    <path d="M30 180 Q45 100 75 180 Z"/>
+    <path d="M55 180 Q75 110 95 180 Z"/>
+    <!-- Right Jungle Cluster -->
+    <path d="M145 180 Q165 105 185 180 Z"/>
+    <path d="M165 180 Q195 115 210 180 Z"/>
+  </g>
+
+  <!-- Central & Foreground Giant Trees (Rich Tropical Green Tones) -->
+  <!-- Left Main Trunk & Canopy -->
+  <path d="M85 200 L85 110 Q70 85 95 65 Q115 85 105 110 L105 200 Z" fill="#3e2723"/>
+  <path d="M60 90 C60 50 120 50 120 90 C120 125 60 125 60 90 Z" fill="#388e3c"/>
+  <path d="M70 75 C70 45 110 45 110 75 C110 100 70 100 70 75 Z" fill="#4caf50"/>
+
+  <!-- Right Main Trunk & Canopy -->
+  <path d="M150 200 L150 120 Q160 90 145 70 Q130 90 135 120 L135 200 Z" fill="#3e2723"/>
+  <path d="M120 95 C120 55 180 55 180 95 C180 130 120 130 120 95 Z" fill="#2e7d32"/>
+  <path d="M130 80 C130 50 170 50 170 80 C170 105 130 105 130 80 Z" fill="#43a047"/>
+
+  <!-- Foreground Overlapping Canopy & Vines -->
+  <path d="M95 150 C70 150 50 180 60 210 L180 210 C190 180 170 150 145 150 C130 150 120 170 120 170 C120 170 110 150 95 150 Z" fill="#1b5e20"/>
+
+  <!-- Hanging Vines / Lianas -->
+  <path d="M75 90 Q65 120 80 150" stroke="#2e7d32" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M165 85 Q175 135 155 170" stroke="#388e3c" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M110 70 Q120 110 115 140" stroke="#2e7d32" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Highlight Accents / Tropical Flora (Gold/Amber focal pops for modern flat design) -->
+  <circle cx="95" cy="85" r="4" fill="#ffd54f"/>
+  <circle cx="145" cy="75" r="5" fill="#ffd54f"/>
+  <circle cx="120" cy="115" r="3" fill="#ffb300"/>
+  <path d="M100 190 Q120 185 140 190 Q130 205 120 205 Q110 205 100 190 Z" fill="#ffb300" opacity="0.8"/>
+
+  <!-- Ground Line / Deep Jungle Floor -->
+  <path d="M20 205 Q120 195 220 205 L220 215 L20 215 Z" fill="#121519"/>
+</svg>

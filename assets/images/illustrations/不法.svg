@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Central Physical Object: A sleek, modern metal briefcase containing illicit contraband (gold bullion/money stacks) stamped with a bold red warning/illegal stamp -->
+  <g transform="translate(40, 55)">
+    <!-- Briefcase Shadow -->
+    <ellipse cx="80" cy="142" rx="65" ry="8" fill="#111318"/>
+
+    <!-- Briefcase Body (Back/Interior hint) -->
+    <rect x="15" y="35" width="130" height="90" rx="10" fill="#2C323D"/>
+    
+    <!-- Contraband / Stacks inside -->
+    <rect x="25" y="45" width="45" height="30" rx="4" fill="#E5A93B"/>
+    <rect x="75" y="45" width="50" height="30" rx="4" fill="#E5A93B"/>
+    <rect x="35" y="80" width="80" height="30" rx="4" fill="#4B5563"/>
+    
+    <!-- Briefcase Front Shell (Opened slightly or angled) -->
+    <path d="M10 50 C10 44.4772 14.4772 40 20 40 L140 40 C145.523 40 150 44.4772 150 50 L150 120 C150 125.523 145.523 130 140 130 L20 130 C14.4772 130 10 125.523 10 120 Z" fill="#3A4250" stroke="#4B5563" stroke-width="2"/>
+    
+    <!-- Briefcase Metal Trim & Latches -->
+    <rect x="45" y="38" width="14" height="6" rx="2" fill="#9CA3AF"/>
+    <rect x="101" y="38" width="14" height="6" rx="2" fill="#9CA3AF"/>
+    <line x1="10" y1="70" x2="150" y2="70" stroke="#232730" stroke-width="3"/>
+
+    <!-- Handle -->
+    <path d="M60 40 L60 25 C60 21.6863 62.6863 19 66 19 L94 19 C97.3137 19 100 21.6863 100 25 L100 40" fill="none" stroke="#6B7280" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- The Prohibition / Illegal Stamp (Overlaying the physical object to denote "bùfǎ" / illegal activity) -->
+    <g transform="translate(80, 80)">
+      <!-- Outer Red Ring -->
+      <circle cx="0" cy="0" r="42" fill="#1A1D24" opacity="0.85"/>
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#EF4444" stroke-width="7"/>
+      
+      <!-- Bold Diagonal Prohibition Bar -->
+      <line x1="-30" y1="-30" x2="30" y2="30" stroke="#EF4444" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

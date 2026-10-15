@@ -107,10 +107,12 @@ body.graded-story-active #primaryTabs {
 
   /* Workstation Right Sidebar Study Tabs */
   .sidebar-study-tabs { display: none; }
+  /* Workstation Right Sidebar Study Tabs */
+  .sidebar-study-tabs { display: none; }
   body.has-active-study-word .sidebar-study-tabs {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     padding: 4px;
     background: var(--surface-subtle);
     border: 1px solid var(--border);
@@ -120,25 +122,35 @@ body.graded-story-active #primaryTabs {
     flex: 0 0 auto;
     width: 100%;
     box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  body.has-active-study-word .sidebar-study-tabs::-webkit-scrollbar {
+    display: none;
   }
   .sidebar-study-tab {
+    flex: 0 0 auto;
+    flex-shrink: 0;
+    white-space: nowrap;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 4px;
-    padding: 7px 3px;
+    gap: 5px;
+    padding: 6px 12px;
     border: 1px solid transparent;
     background: transparent;
     color: var(--text-secondary);
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 600;
     border-radius: var(--radius-md);
     cursor: pointer;
     transition: all 0.15s ease;
-    white-space: nowrap;
     user-select: none;
-    min-width: 0;
     text-align: center;
+    line-height: 1.2;
   }
   .sidebar-study-tab:hover {
     color: var(--text-primary);
@@ -152,10 +164,10 @@ body.graded-story-active #primaryTabs {
     font-weight: 700;
   }
   .sidebar-study-tab--all {
-    padding: 7px 4px;
+    padding: 6px 10px;
   }
-  .sidebar-tab-icon { font-size: 12px; line-height: 1; flex-shrink: 0; }
-  .sidebar-tab-label { font-size: 11.5px; line-height: 1.2; text-overflow: ellipsis; overflow: hidden; }
+  .sidebar-tab-icon { font-size: 13px; line-height: 1; flex-shrink: 0; }
+  .sidebar-tab-label { font-size: 12px; line-height: 1.2; white-space: nowrap; }
 
   /* Tab-based visibility of panels in desktop sidebar */
   /* 1. Stroke tab (default if no attribute set or data-sidebar-tab="stroke") */
@@ -488,15 +500,30 @@ body.study-sidebar-open .study-drawer-backdrop {
     transform: translateX(105%) !important;
     transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1) !important;
     overflow-y: auto !important;
-    padding: 16px !important;
+    padding: 16px 14px 64px !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 12px !important;
+    scrollbar-width: thin !important;
+    scrollbar-color: rgba(255, 255, 255, 0.22) transparent !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .workstation-right {
     background: #161720 !important;
     border-color: rgba(255, 255, 255, 0.1) !important;
     box-shadow: -14px 0 48px rgba(0, 0, 0, 0.65) !important;
+    scrollbar-color: rgba(255, 255, 255, 0.22) transparent !important;
+  }
+  :root[data-theme="light"] body.flashcard-study-mode .workstation-right {
+    scrollbar-color: rgba(0, 0, 0, 0.25) transparent !important;
+  }
+  body.flashcard-study-mode .workstation-right::after {
+    content: "";
+    display: block;
+    height: 48px;
+    min-height: 48px;
+    flex: 0 0 48px;
+    width: 100%;
+    pointer-events: none;
   }
   body.flashcard-study-mode.study-sidebar-open .workstation-right {
     transform: translateX(0) !important;
@@ -506,6 +533,33 @@ body.study-sidebar-open .study-drawer-backdrop {
   }
   body.flashcard-study-mode .study-drawer-close-btn {
     display: inline-flex !important;
+  }
+  /* Custom sleek scrollbar for workstation-right */
+  .workstation-right::-webkit-scrollbar,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar {
+    width: 5px !important;
+  }
+  .workstation-right::-webkit-scrollbar-track,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  .workstation-right::-webkit-scrollbar-thumb,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb {
+    background: #d1d5db !important;
+    border-radius: 10px !important;
+    transition: background 0.2s ease !important;
+  }
+  .workstation-right::-webkit-scrollbar-thumb:hover,
+  body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af !important;
+  }
+  :root[data-theme="dark"] .workstation-right::-webkit-scrollbar-thumb,
+  :root[data-theme="dark"] body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.22) !important;
+  }
+  :root[data-theme="dark"] .workstation-right::-webkit-scrollbar-thumb:hover,
+  :root[data-theme="dark"] body.flashcard-study-mode .workstation-right::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.38) !important;
   }
 }
 
@@ -2340,41 +2394,51 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
 /* Ensure study tabs & panel cards are styled on all screen sizes in study mode */
 body.flashcard-study-mode .sidebar-study-tabs {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   padding: 4px;
   background: var(--surface-subtle);
   border: 1.5px solid var(--border);
   border-radius: 12px;
   order: 0;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   flex: 0 0 auto;
   width: 100%;
   box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .sidebar-study-tabs {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.1);
 }
+body.flashcard-study-mode .sidebar-study-tabs::-webkit-scrollbar {
+  display: none;
+}
 body.flashcard-study-mode .sidebar-study-tab {
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  white-space: nowrap;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  padding: 8px 3px;
+  gap: 5px;
+  padding: 6px 12px;
   border: 1.5px solid transparent;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 11.5px;
+  font-size: 12px;
   font-weight: 600;
   border-radius: 9px;
   cursor: pointer;
   transition: all 0.15s ease;
-  white-space: nowrap;
   user-select: none;
-  min-width: 0;
   text-align: center;
+  line-height: 1.2;
 }
 body.flashcard-study-mode .sidebar-study-tab:hover {
   color: var(--text-primary);
@@ -2398,7 +2462,7 @@ body.flashcard-study-mode .workstation-right > .study-radicals-panel,
 body.flashcard-study-mode .workstation-right > .grammar-breakdown-panel,
 body.flashcard-study-mode .workstation-right > .word-companion-panel,
 body.flashcard-study-mode .workstation-right > .memory-curve-panel {
-  padding: 18px 20px;
+  padding: 12px 14px;
   background: var(--card-bg);
   border: 1.5px solid var(--border);
   border-radius: 18px;
@@ -2455,14 +2519,14 @@ body.flashcard-study-mode:not([data-sidebar-tab="curve"]) .memory-curve-panel {
   display: none !important;
 }
 
-body.flashcard-study-mode .stroke-canvas-panel { gap: 16px; }
+body.flashcard-study-mode .stroke-canvas-panel { gap: 10px; }
 body.flashcard-study-mode .stroke-canvas-body {
   --stroke-canvas-width: 100%;
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
 }
-body.flashcard-study-mode .stroke-canvas-controls { gap: 10px; margin-top: 2px; width: 100%; }
+body.flashcard-study-mode .stroke-canvas-controls { gap: 8px; margin-top: 2px; width: 100%; }
 body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !important; }
 
 .study-word-list-panel {

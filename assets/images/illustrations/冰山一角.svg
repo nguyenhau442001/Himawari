@@ -1,0 +1,39 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Water Surface Level -->
+  <line x1="30" y1="110" x2="210" y2="110" stroke="#3A4660" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- Underwater Depth Background (Subtle Gradient effect using overlapping transparent shapes) -->
+  <path d="M 30 110 L 210 110 L 210 210 L 30 210 Z" fill="#12151B"/>
+
+  <!-- Massive Hidden Submerged Ice Mass (The Rest of the Iceberg) -->
+  <path d="M 90 110 
+           L 50 145 
+           L 75 185 
+           L 125 200 
+           L 175 180 
+           L 200 135 
+           L 150 110 Z" 
+        fill="#26354A" opacity="0.8"/>
+  
+  <!-- Submerged Ice Facet Shading for depth -->
+  <path d="M 125 200 L 175 180 L 200 135 L 150 110 L 125 200 Z" fill="#1E2A3A" opacity="0.9"/>
+  <path d="M 90 110 L 50 145 L 75 185 L 125 200 L 150 110 Z" fill="#2E3F59" opacity="0.7"/>
+
+  <!-- Water Surface Line/Wave across the iceberg -->
+  <path d="M 30 110 Q 70 106, 120 110 T 210 110" fill="none" stroke="#526E93" stroke-width="3" opacity="0.4"/>
+
+  <!-- The Visible Tip (Highlighted in Focus Color: Orange/Gold) -->
+  <path d="M 120 50 
+           L 148 110 
+           L 92 110 Z" 
+        fill="#FF9F43"/>
+
+  <!-- Visible Tip Facet (Geometric styling for modern flat vector) -->
+  <path d="M 120 50 L 148 110 L 120 110 Z" fill="#FFB366"/>
+
+  <!-- Water Line Overlay to show submersion -->
+  <rect x="30" y="105" width="180" height="10" fill="#1A1D24" opacity="0.3"/>
+</svg>

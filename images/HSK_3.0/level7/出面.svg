@@ -1,0 +1,54 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow indicating a pivotal moment/focal point -->
+  <circle cx="120" cy="120" r="70" fill="#252A34" opacity="0.6"/>
+
+  <!-- Conceptual Central Element: Stepping forward to resolve/mediate -->
+  <g transform="translate(0, 5)">
+    <!-- Divided background representing two conflicting parties/sides -->
+    <line x1="120" y1="50" x2="120" y2="160" stroke="#2F3643" stroke-width="2" stroke-dasharray="4,4"/>
+    
+    <!-- Party A (Left side, subdued) -->
+    <g opacity="0.4">
+      <circle cx="80" cy="95" r="14" fill="#606B85"/>
+      <path d="M60 135 C60 118 70 112 80 112 C90 112 100 118 100 135 Z" fill="#606B85"/>
+    </g>
+
+    <!-- Party B (Right side, subdued) -->
+    <g opacity="0.4">
+      <circle cx="160" cy="95" r="14" fill="#606B85"/>
+      <path d="M140 135 C140 118 150 112 160 112 C170 112 180 118 180 135 Z" fill="#606B85"/>
+    </g>
+
+    <!-- The Central Figure stepping forward ("出面" - coming forward to mediate/take charge) -->
+    <g>
+      <!-- Drop shadow for the central character -->
+      <ellipse cx="120" cy="182" rx="22" ry="5" fill="#0D0F13" opacity="0.6"/>
+
+      <!-- Body / Suit (Professional leader/manager) -->
+      <path d="M102 175 L106 135 L134 135 L138 175 Z" fill="#3B82F6"/>
+      <!-- Lapels / Shirt -->
+      <path d="M112 135 L120 155 L128 135 Z" fill="#F8FAFC"/>
+      <path d="M116 145 L124 145 L120 165 Z" fill="#F59E0B"/>
+
+      <!-- Head / Face -->
+      <circle cx="120" cy="112" r="16" fill="#FBBF24"/>
+      <!-- Hair -->
+      <path d="M104 112 C104 100 110 94 120 94 C130 94 136 100 136 110 C132 107 127 106 120 106 C113 106 108 107 104 112 Z" fill="#1E293B"/>
+
+      <!-- Confident forward-reaching hands (mediating gesture) -->
+      <!-- Left hand reaching out toward Party A -->
+      <circle cx="94" cy="142" r="5" fill="#FBBF24"/>
+      <!-- Right hand reaching out toward Party B -->
+      <circle cx="146" cy="142" r="5" fill="#FBBF24"/>
+    </g>
+
+    <!-- Focal accent framing the intervention (Gold/Orange highlight) -->
+    <path d="M90 70 L90 62 L98 62" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 70 L150 62 L142 62" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M90 190 L90 198 L98 198" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 190 L150 198 L142 198" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 患 (Noun: potential disease/harm, ailment, hazard) -->
+  <!-- Centered iconic physical object: A glowing, stylized medical cross intersecting a human torso outline with a focused focal point representing a hidden ailment/hazard, designed in modern flat vector style. -->
+  
+  <g transform="translate(120, 120)">
+    <!-- Outer ambient warning glow for hazard context -->
+    <circle cx="0" cy="0" r="68" fill="#FF5722" opacity="0.08"/>
+    <circle cx="0" cy="0" r="54" fill="#FF5722" opacity="0.12"/>
+
+    <!-- Human silhouette / body contour (Noun context: physical being susceptible to ailment) -->
+    <path d="M-36,56 C-36,36 -24,24 0,24 C24,24 36,36 36,56 L42,72 C42,78 38,82 32,82 L-32,82 C-38,82 -42,78 -42,72 Z" fill="#2D333B"/>
+    <circle cx="0" cy="-6" r="18" fill="#2D333B"/>
+
+    <!-- Core Medical/Diagnostic symbol representing disease/illness detection -->
+    <!-- Circular screen / scan area -->
+    <circle cx="0" cy="8" r="40" fill="#222A35" stroke="#3A4454" stroke-width="3"/>
+    
+    <!-- Radar / Scan grid lines inside -->
+    <line x1="-40" y1="8" x2="40" y2="8" stroke="#3A4454" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <line x1="0" y1="-32" x2="0" y2="48" stroke="#3A4454" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+    <!-- Highlighted hidden ailment focus point (Orange/Gold accent for hazard/disease) -->
+    <circle cx="10" cy="-2" r="8" fill="#FF5722" opacity="0.85"/>
+    <circle cx="10" cy="-2" r="14" fill="none" stroke="#FF5722" stroke-width="2" stroke-dasharray="4,2">
+      <animateTransform attributeName="transform" type="rotate" from="0 10 -2" to="360 10 -2" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Medical Cross symbolizing condition/treatment -->
+    <g transform="translate(-16, -6) scale(0.7)">
+      <rect x="10" y="0" width="12" height="32" rx="3" fill="#64B5F6"/>
+      <rect x="0" y="10" width="32" height="12" rx="3" fill="#64B5F6"/>
+    </g>
+
+    <!-- Warning indicator node (top right) -->
+    <circle cx="52" cy="-42" r="12" fill="#222A35" stroke="#FF5722" stroke-width="2.5"/>
+    <path d="M52,-48 L52,-40 M52,-35 L52,-33" stroke="#FF5722" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

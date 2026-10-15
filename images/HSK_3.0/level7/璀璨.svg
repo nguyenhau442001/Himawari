@@ -1,0 +1,50 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background skyline silhouette -->
+  <path d="M30 200 L30 150 L45 150 L45 200 Z" fill="#252A34"/>
+  <path d="M45 200 L45 120 L75 120 L75 200 Z" fill="#222630"/>
+  <path d="M75 200 L75 100 L110 100 L110 200 Z" fill="#252A34"/>
+  <path d="M110 200 L110 130 L135 130 L135 200 Z" fill="#222630"/>
+  <path d="M135 200 L135 90 L170 90 L170 200 Z" fill="#252A34"/>
+  <path d="M170 200 L170 140 L195 140 L195 200 Z" fill="#222630"/>
+  <path d="M195 200 L195 110 L215 110 L215 200 Z" fill="#252A34"/>
+
+  <!-- Ground plane / baseline -->
+  <rect x="0" y="200" width="240" height="40" fill="#15181E"/>
+
+  <!-- Glowing Neon / Light Beams Intertwining (Representing 璀璨 - brilliant, dazzling lights) -->
+  <path d="M40 180 Q80 80 120 130 T200 60" fill="none" stroke="#FF5C8D" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M30 140 Q90 200 150 90 T210 150" fill="none" stroke="#00E5FF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M60 200 Q110 40 170 160 T220 90" fill="none" stroke="#FFD700" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Central Dazzling Gem / Iconic Physical Object representing brilliant brilliance -->
+  <g transform="translate(120, 110)">
+    <!-- Outer glow / sparkle aura -->
+    <circle cx="0" cy="0" r="45" fill="#FFD700" opacity="0.15"/>
+    <circle cx="0" cy="0" r="30" fill="#FFD700" opacity="0.25"/>
+
+    <!-- Diamond / Faceted Gem Body -->
+    <polygon points="0,-30 25,-10 15,25 -15,25 -25,-10" fill="#FFDF73"/>
+    <polygon points="0,-30 25,-10 0,-5" fill="#FFF2B2"/>
+    <polygon points="0,-30 -25,-10 0,-5" fill="#FFE58F"/>
+    <polygon points="25,-10 15,25 0,-5" fill="#FFC933"/>
+    <polygon points="-25,-10 -15,25 0,-5" fill="#FFB700"/>
+    <polygon points="15,25 -15,25 0,-5" fill="#FFA500"/>
+
+    <!-- Sharp Diamond Sparkles / Flares -->
+    <!-- Top Sparkle -->
+    <path d="M0 -45 L3 -33 L15 -30 L3 -27 L0 -15 L-3 -27 L-15 -30 L-3 -33 Z" fill="#FFFFFF"/>
+    <!-- Right Sparkle -->
+    <path d="M38 -5 L30 0 L27 10 L24 0 L16 -5 L24 -10 L27 -20 L30 -10 Z" fill="#FFFFFF"/>
+    <!-- Left Sparkle -->
+    <path d="M-38 10 L-30 5 L-27 15 L-24 5 L-16 10 L-24 15 L-27 25 L-30 15 Z" fill="#FFFFFF" transform="scale(0.8) translate(-10, -20)"/>
+
+    <!-- Tiny floating star particles -->
+    <circle cx="-35" cy="-25" r="2" fill="#FFFFFF"/>
+    <circle cx="40" cy="-30" r="1.5" fill="#00E5FF"/>
+    <circle cx="35" cy="20" r="2" fill="#FF5C8D"/>
+    <circle cx="-30" cy="30" r="1.5" fill="#FFD700"/>
+  </g>
+</svg>

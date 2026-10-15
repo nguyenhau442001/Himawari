@@ -1,0 +1,34 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Document / Policy being rescinded (representing 规定) -->
+  <g transform="translate(65, 45)">
+    <!-- Document background -->
+    <rect x="0" y="0" width="110" height="150" rx="6" fill="#2D323F"/>
+    <!-- Document header lines -->
+    <rect x="18" y="24" width="60" height="6" rx="3" fill="#4E5668"/>
+    <rect x="18" y="38" width="74" height="4" rx="2" fill="#3D4452"/>
+    <rect x="18" y="48" width="50" height="4" rx="2" fill="#3D4452"/>
+    <!-- Document body lines -->
+    <rect x="18" y="72" width="74" height="4" rx="2" fill="#3D4452"/>
+    <rect x="18" y="84" width="74" height="4" rx="2" fill="#3D4452"/>
+    <rect x="18" y="96" width="45" height="4" rx="2" fill="#3D4452"/>
+    
+    <!-- Red cancellation stamp / bold striking cross overlay representing removal/abrogation (撤) -->
+    <g transform="translate(55, 75) rotate(-15)">
+      <circle cx="0" cy="0" r="36" fill="none" stroke="#FF5C5C" stroke-width="6" opacity="0.9"/>
+      <!-- Strike lines symbolizing revocation -->
+      <line x1="-30" y1="-30" x2="30" y2="30" stroke="#FF5C5C" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Physical removal/pulling action: Accent-colored hand reaching in to lift/remove the item -->
+  <g transform="translate(130, 115)">
+    <!-- Arm / Cuff -->
+    <path d="M 40 40 L 75 75" stroke="#2D323F" stroke-width="24" stroke-linecap="round"/>
+    <!-- Hand pulling away (orange/gold accent for focus) -->
+    <path d="M 15 15 L 45 45 C 50 50 50 58 45 63 C 40 68 32 68 27 63 L -3 33 Z" fill="#F39C12"/>
+    <circle cx="36" cy="54" r="5" fill="#D68910"/>
+  </g>
+</svg>

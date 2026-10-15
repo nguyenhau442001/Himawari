@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for "编造" (Fabricate / Make up stories / Rumors) -->
+  <g transform="translate(0, 0)">
+    <!-- Glowing backdrop effect representing fabrication / digital rumor mill -->
+    <circle cx="120" cy="115" r="70" fill="#FF9F43" opacity="0.08"/>
+    
+    <!-- Floating digital network node / fabrication mesh (representing weaving lies) -->
+    <path d="M 85 75 L 155 75 L 165 135 L 75 135 Z" fill="none" stroke="#2D323E" stroke-width="2" stroke-dasharray="4 4" rx="8"/>
+
+    <!-- Open Book (The structural basis of stories/facts) -->
+    <path d="M 70 95 C 90 90, 105 95, 120 102 C 135 95, 150 90, 170 95 L 170 160 C 150 155, 135 160, 120 167 C 105 160, 90 155, 70 160 Z" fill="#2D323E"/>
+    
+    <!-- Book pages inner shadow / depth -->
+    <path d="M 74 102 C 91 97, 105 102, 118 108 L 118 159 C 105 153, 91 148, 74 153 Z" fill="#242833"/>
+    <path d="M 166 102 C 149 97, 135 102, 122 108 L 122 159 C 135 153, 149 148, 166 153 Z" fill="#242833"/>
+
+    <!-- Center book spine / binding -->
+    <line x1="120" y1="102" x2="120" y2="167" stroke="#1A1D24" stroke-width="3"/>
+
+    <!-- Normal printed lines (fading out) -->
+    <line x1="82" y1="115" x2="110" y2="115" stroke="#4C5568" stroke-width="2" stroke-linecap="round"/>
+    <line x1="82" y1="127" x2="105" y2="127" stroke="#4C5568" stroke-width="2" stroke-linecap="round"/>
+    <line x1="82" y1="139" x2="100" y2="139" stroke="#4C5568" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- The "Fabrication" elements - Magic / Constructing glowing orange elements -->
+    <!-- Constructing floating geometric shapes / false narrative blocks rising from the book -->
+    <rect x="135" y="110" width="22" height="14" rx="3" fill="#FF9F43" opacity="0.9"/>
+    <circle cx="155" cy="95" r="7" fill="#FF9F43"/>
+    <polygon points="130,85 142,70 154,85" fill="#E67E22"/>
+
+    <!-- Glowing magical threads/weaving lines connecting the fabrication -->
+    <path d="M 120 135 C 130 130, 140 120, 146 117" fill="none" stroke="#FF9F43" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 146 117 C 150 110, 153 105, 155 102" fill="none" stroke="#FF9F43" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 120 135 C 135 138, 140 100, 148 85" fill="none" stroke="#FFAF43" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- Sparkling fabrication particles / magic dust -->
+    <circle cx="108" cy="85" r="2.5" fill="#FF9F43"/>
+    <circle cx="165" cy="130" r="2" fill="#FF9F43"/>
+    <circle cx="135" cy="65" r="3" fill="#FFAF43"/>
+    <circle cx="95" cy="70" r="1.5" fill="#FF9F43"/>
+
+    <!-- Digital grid distortion waves at the bottom (representing fake news / online rumor context) -->
+    <path d="M 60 185 Q 120 175 180 185" fill="none" stroke="#FF9F43" stroke-width="2" opacity="0.6"/>
+    <path d="M 80 193 Q 120 185 160 193" fill="none" stroke="#FF9F43" stroke-width="1.5" opacity="0.4"/>
+  </g>
+</svg>

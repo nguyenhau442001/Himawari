@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Podium -->
+  <path d="M70 190 L170 190 L160 210 L80 210 Z" fill="#3D4451"/>
+  <path d="M80 210 L160 210 L150 230 L90 230 Z" fill="#2A2F3A"/>
+  
+  <!-- Presenter (Left) -->
+  <g transform="translate(60, 100)">
+    <circle cx="30" cy="30" r="12" fill="#FFD700"/>
+    <path d="M15 45 L45 45 L40 90 L20 90 Z" fill="#FFD700"/>
+    <path d="M25 55 L10 70" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+    <path d="M35 55 L50 70" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Recipient (Right) -->
+  <g transform="translate(130, 100)">
+    <circle cx="30" cy="30" r="12" fill="#FFFFFF"/>
+    <path d="M15 45 L45 45 L40 90 L20 90 Z" fill="#FFFFFF"/>
+    <path d="M25 55 L15 80" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M35 55 L45 80" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Trophy being handed over -->
+  <g transform="translate(100, 110)">
+    <path d="M20 20 L40 20 M30 20 L30 40 M20 40 L40 40" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="30" cy="15" r="8" fill="none" stroke="#FFD700" stroke-width="3"/>
+  </g>
+  
+  <!-- Motion lines -->
+  <path d="M95 120 Q110 110 125 120" stroke="#FFD700" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 凑 (gom góp, góp lại - pooling resources/money together) -->
+  <g transform="translate(0, 0)">
+    <!-- Central Collection Box / Receptacle representing pooled resources -->
+    <path d="M75 145 L95 190 H145 L165 145 Z" fill="#2D3748" opacity="0.8"/>
+    <path d="M70 135 H170 V145 H70 Z" fill="#4A5568"/>
+    <!-- Box slot -->
+    <rect x="105" y="139" width="30" height="4" rx="2" fill="#1A1D24"/>
+    
+    <!-- Glowing pool indicator / center point -->
+    <ellipse cx="120" cy="142" rx="45" ry="8" fill="#F6AD55" opacity="0.15"/>
+
+    <!-- Converging Currency/Resource Tokens (Gom góp từ nhiều hướng lại một điểm) -->
+    
+    <!-- Top Left Token -->
+    <g transform="translate(45, 75)">
+      <circle cx="0" cy="0" r="16" fill="#F6AD55"/>
+      <circle cx="0" cy="0" r="11" fill="#DD6B20"/>
+      <path d="M-4 -2 H4 M0 -6 V6" stroke="#FEFCBF" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Trajectory arc pointing to center -->
+      <path d="M12 12 Q45 40 62 55" fill="none" stroke="#F6AD55" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+    </g>
+
+    <!-- Top Right Token -->
+    <g transform="translate(195, 75)">
+      <circle cx="0" cy="0" r="16" fill="#63B3ED"/>
+      <circle cx="0" cy="0" r="11" fill="#3182CE"/>
+      <path d="M-4 -2 H4 M0 -6 V6" stroke="#EBF8FF" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Trajectory arc pointing to center -->
+      <path d="M-12 12 Q-45 40 -62 55" fill="none" stroke="#63B3ED" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+    </g>
+
+    <!-- Bottom Left Token -->
+    <g transform="translate(60, 170)">
+      <circle cx="0" cy="0" r="14" fill="#68D391"/>
+      <circle cx="0" cy="0" r="9" fill="#38A169"/>
+      <path d="M-3 -2 H3 M0 -5 V5" stroke="#F0FFF4" stroke-width="2" stroke-linecap="round"/>
+      <!-- Trajectory arc pointing to center -->
+      <path d="M10 -6 Q35 -15 50 -20" fill="none" stroke="#68D391" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+    </g>
+
+    <!-- Bottom Right Token -->
+    <g transform="translate(180, 170)">
+      <circle cx="0" cy="0" r="14" fill="#ED64A6"/>
+      <circle cx="0" cy="0" r="9" fill="#D53F8C"/>
+      <path d="M-3 -2 H3 M0 -5 V5" stroke="#FFF5F7" stroke-width="2" stroke-linecap="round"/>
+      <!-- Trajectory arc pointing to center -->
+      <path d="M-10 -6 Q-35 -15 -50 -20" fill="none" stroke="#ED64A6" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+    </g>
+
+    <!-- Top Center Token (Joining from above) -->
+    <g transform="translate(120, 50)">
+      <circle cx="0" cy="0" r="15" fill="#F6E05E"/>
+      <circle cx="0" cy="0" r="10" fill="#D69E2E"/>
+      <path d="M-4 -2 H4 M0 -6 V6" stroke="#FEFCBF" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Trajectory down to slot -->
+      <path d="M0 15 V80" fill="none" stroke="#F6E05E" stroke-width="2" stroke-dasharray="3 3" opacity="0.6"/>
+    </g>
+
+    <!-- Hands/Contributors Silhouettes indicating collaboration/pooling together -->
+    <!-- Left Hand Iconography -->
+    <path d="M30 115 C35 110 45 112 52 120 L55 125 L45 135 L38 128 C32 122 28 120 30 115 Z" fill="#A0AEC0" opacity="0.4"/>
+    
+    <!-- Right Hand Iconography -->
+    <path d="M210 115 C205 110 195 112 188 120 L185 125 L195 135 L202 128 C208 122 212 120 210 115 Z" fill="#A0AEC0" opacity="0.4"/>
+    
+    <!-- Central Core Stack (Accumulated funds/items) -->
+    <circle cx="120" cy="120" r="18" fill="#D69E2E"/>
+    <circle cx="120" cy="120" r="12" fill="#ECC94B"/>
+    <path d="M120 f-4,-3 h8 m-4,-4 v8" stroke="#744210" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Hallway Perspective Floor & Walls -->
+  <path d="M0 40 L90 40 L90 220 L0 220 Z" fill="#222631"/>
+  <path d="M90 40 L240 40 L240 240 L90 240 Z" fill="#282D3A"/>
+  
+  <!-- Hallway floor lines / perspective -->
+  <line x1="90" y1="40" x2="90" y2="240" stroke="#343B4C" stroke-width="2"/>
+  <line x1="140" y1="40" x2="190" y2="240" stroke="#222631" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <!-- Obstruction Object (Cardboard boxes, rolling suitcase, random cluttered items in the middle of the corridor) -->
+  <g transform="translate(110, 110)">
+    <!-- Floor shadow for clutter -->
+    <ellipse cx="45" cy="85" rx="50" ry="14" fill="#14171E"/>
+    
+    <!-- Large Cardboard Box -->
+    <rect x="20" y="30" width="55" height="55" rx="4" fill="#D08842"/>
+    <path d="M20 30 L47 48 L75 30" fill="none" stroke="#B87330" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="47" y1="48" x2="47" y2="85" stroke="#B87330" stroke-width="2"/>
+    
+    <!-- Tilted smaller box leaning on it -->
+    <g transform="translate(0, 40) rotate(-15)">
+      <rect x="0" y="0" width="40" height="45" rx="3" fill="#E29E53"/>
+      <path d="M0 0 L20 12 L40 0" fill="none" stroke="#C8853D" stroke-width="2"/>
+    </g>
+
+    <!-- Rolling Suitcase blocking the path -->
+    <g transform="translate(45, 25)">
+      <rect x="0" y="10" width="35" height="50" rx="6" fill="#4B6584"/>
+      <!-- Suitcase ribs -->
+      <line x1="0" y1="25" x2="35" y2="25" stroke="#3C516A" stroke-width="2"/>
+      <line x1="0" y1="40" x2="35" y2="40" stroke="#3C516A" stroke-width="2"/>
+      <!-- Handle & Wheels -->
+      <path d="M10 10 L10 4 L25 4 L25 10" fill="none" stroke="#A4B0BE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="10" cy="62" r="3" fill="#222"/>
+      <circle cx="25" cy="62" r="3" fill="#222"/>
+    </g>
+  </g>
+
+  <!-- Focus / Warning Indicator (Subtle high-contrast accent to highlight the obstruction) -->
+  <g transform="translate(155, 95)">
+    <!-- Glowing pulse aura -->
+    <circle cx="0" cy="0" r="20" fill="#FF5252" opacity="0.2"/>
+    <circle cx="0" cy="0" r="14" fill="#FF5252" opacity="0.9"/>
+    <!-- Exclamation mark / blocking icon -->
+    <path d="M0 -6 L0 3 M0 7 L0 9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Pathway blockage indicator lines (Footsteps trying to pass and stopping) -->
+  <g transform="translate(75, 175)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="6" ry="10" fill="#6E7D9E" transform="rotate(-15)"/>
+    <ellipse cx="18" cy="15" rx="6" ry="10" fill="#6E7D9E" transform="rotate(10)"/>
+    <!-- Stop / crossed barrier hint -->
+    <path d="M 35 -5 L 45 5 M 45 -5 L 35 5" stroke="#FF5252" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ambient Lighting/Shadows on the corridor walls -->
+  <path d="M90 40 L240 40 L240 60 L90 60 Z" fill="#1D212C" opacity="0.4"/>
+</svg>

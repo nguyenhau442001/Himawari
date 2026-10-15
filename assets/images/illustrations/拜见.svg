@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Floor line -->
+  <path d="M40 190 L200 190" stroke="#374151" stroke-width="2"/>
+  
+  <!-- The Teacher (Standing, dignified) -->
+  <g transform="translate(140, 100)">
+    <circle cx="0" cy="0" r="15" fill="#FBBF24"/> <!-- Head -->
+    <path d="M-20 20 L20 20 L15 80 L-15 80 Z" fill="#3B82F6"/> <!-- Robe -->
+    <path d="M-15 80 L-10 120 L10 120 L15 80 Z" fill="#2563EB"/> <!-- Lower robe -->
+    <path d="M-20 30 L-35 50" stroke="#FBBF24" stroke-width="6" stroke-linecap="round"/> <!-- Arm -->
+  </g>
+  
+  <!-- The Visitor (Bowing respectfully) -->
+  <g transform="translate(80, 140)">
+    <circle cx="0" cy="0" r="12" fill="#E5E7EB"/> <!-- Head -->
+    <path d="M10 -5 L40 20 L20 60 L-10 35 Z" fill="#9CA3AF"/> <!-- Body in bow -->
+    <path d="M-10 5 L-30 25" stroke="#E5E7EB" stroke-width="5" stroke-linecap="round"/> <!-- Arm reaching out -->
+  </g>
+  
+  <!-- Subtle architectural element to imply "visiting home" -->
+  <path d="M20 190 L20 120 L40 100 L60 120 L60 190" fill="none" stroke="#4B5563" stroke-width="3"/>
+</svg>

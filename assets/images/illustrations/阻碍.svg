@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Perspective Road/Path of Progress -->
+  <path d="M20 240 L220 240 L160 100 L80 100 Z" fill="#252932"/>
+  
+  <!-- Glowing Innovation Lines (Stopped) -->
+  <path d="M120 240 L120 185" stroke="#F9A825" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M80 240 L95 200" stroke="#F9A825" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M160 240 L145 200" stroke="#F9A825" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- The Obstacle (阻碍) - A Heavy, Traditional Stone Block -->
+  <!-- Shadow -->
+  <ellipse cx="120" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.4"/>
+  
+  <!-- Stone Block Side (Right) -->
+  <path d="M170 180 L190 165 L190 105 L170 120 Z" fill="#363B44"/>
+  
+  <!-- Stone Block Top -->
+  <path d="M50 120 L170 120 L190 105 L70 105 Z" fill="#626975"/>
+  
+  <!-- Stone Block Front Face -->
+  <rect x="50" y="120" width="120" height="60" fill="#4A4F58"/>
+  
+  <!-- Texture/Cracks representing "Old/Traditional" -->
+  <path d="M70 120 L85 140 L80 155" stroke="#2A2E37" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M140 120 L135 135 L150 145" stroke="#2A2E37" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M170 150 L185 145" stroke="#2A2E37" stroke-width="2" fill="none"/>
+  
+  <!-- Bottom Edge Detail -->
+  <path d="M50 180 L170 180" stroke="#2A2E37" stroke-width="1"/>
+</svg>

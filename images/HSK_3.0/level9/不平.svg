@@ -1,0 +1,55 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(120, 115)">
+    <!-- Shadow beneath the scale -->
+    <ellipse cx="0" cy="85" rx="60" ry="10" fill="#111318"/>
+    
+    <!-- Scale Stand/Base -->
+    <path d="M-20,75 L20,75 L15,65 L-15,65 Z" fill="#64748B"/>
+    <rect x="-6" y="10" width="12" height="60" fill="#94A3B8"/>
+    <circle cx="0" cy="10" r="12" fill="#E2E8F0"/>
+    <circle cx="0" cy="10" r="6" fill="#1A1D24"/>
+
+    <!-- Central Pillar/Beam Pivot -->
+    <path d="M-50,0 L50,0 L40,-12 L-40,-12 Z" fill="#CBD5E1"/>
+
+    <!-- Left Arm & Pan (Tilted UP - Light/Weak side being oppressed/pushed) -->
+    <g transform="rotate(-18, 0, 0)">
+      <line x1="0" y1="-6" x2="-75" y2="-6" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+      <!-- Suspension Chains -->
+      <line x1="-75" y1="-6" x2="-95" y2="40" stroke="#64748B" stroke-width="2"/>
+      <line x1="-75" y1="-6" x2="-55" y2="40" stroke="#64748B" stroke-width="2"/>
+      <!-- Pan -->
+      <path d="M-105,40 C-105,52 -85,55 -75,55 C-65,55 -45,52 -45,40 Z" fill="#94A3B8"/>
+      <ellipse cx="-75" cy="40" rx="30" ry="6" fill="#CBD5E1"/>
+      
+      <!-- Small delicate object (The oppressed/vulnerable) on left pan -->
+      <circle cx="-75" cy="28" r="10" fill="#38BDF8"/>
+      <path d="M-80,26 Q-75,20 -70,26" stroke="#0F172A" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Right Arm & Pan (Tilted DOWN - Heavy/Oppressive side) -->
+    <g transform="rotate(-18, 0, 0)">
+      <line x1="0" y1="-6" x2="75" y2="-6" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+      <!-- Suspension Chains -->
+      <line x1="75" y1="-6" x2="55" y2="40" stroke="#64748B" stroke-width="2"/>
+      <line x1="75" y1="-6" x2="95" y2="40" stroke="#64748B" stroke-width="2"/>
+      <!-- Pan -->
+      <path d="M45,40 C45,52 65,55 75,55 C85,55 105,52 105,40 Z" fill="#94A3B8"/>
+      <ellipse cx="75" cy="40" rx="30" ry="6" fill="#CBD5E1"/>
+      
+      <!-- Heavy oppressive weight block -->
+      <rect x="62" y="10" width="26" height="30" rx="4" fill="#EF4444"/>
+      <rect x="67" y="16" width="16" height="4" fill="#F87171"/>
+    </g>
+
+    <!-- Accent "Injustice/Anger" visual pulse lines (orange/gold sparks) -->
+    <path d="M-25,-35 L-35,-45" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-38" cy="-48" r="2.5" fill="#F59E0B"/>
+    
+    <path d="M25,-35 L35,-45" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="38" cy="-48" r="2.5" fill="#F59E0B"/>
+  </g>
+
+</svg>

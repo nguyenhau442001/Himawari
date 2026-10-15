@@ -1,0 +1,30 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ground -->
+  <path d="M0 190 L240 190 L240 240 L0 240 Z" fill="#252932"/>
+  
+  <!-- Enemy/Intruder (The "Plot" being defeated) -->
+  <g transform="translate(160, 140)">
+    <path d="M-20 40 L20 40 L10 -20 L-10 -20 Z" fill="#FF5A5F"/>
+    <circle cx="0" cy="-30" r="10" fill="#FF5A5F"/>
+    <!-- Motion lines for falling/retreating -->
+    <path d="M-30 -10 L-45 -25 M-35 5 L-50 -10" stroke="#FF5A5F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Defender (The "Action" of defeating/thwarting) -->
+  <g transform="translate(80, 140)">
+    <!-- Body -->
+    <path d="M-15 40 L15 40 L10 -20 L-10 -20 Z" fill="#FFB84D"/>
+    <circle cx="0" cy="-30" r="10" fill="#FFB84D"/>
+    
+    <!-- Arm pushing/blocking -->
+    <path d="M10 -5 L40 -20" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Forceful impact line -->
+    <path d="M60 -20 L90 -20" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6"/>
+  </g>
+
+  <!-- Impact/Thwarting visual effect -->
+  <path d="M120 100 L140 80 M140 100 L120 80" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+</svg>

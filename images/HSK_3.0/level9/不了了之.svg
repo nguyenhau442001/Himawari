@@ -1,0 +1,57 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Desk / Environment surface -->
+  <path d="M30 180 L210 180" stroke="#2D333B" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Incomplete document / task sheet -->
+  <g transform="translate(50, 80)">
+    <!-- Paper base -->
+    <rect x="0" y="0" width="80" height="100" rx="4" fill="#22272E" stroke="#3A424D" stroke-width="2"/>
+    
+    <!-- Red checkmark at the start (started task) -->
+    <circle cx="20" cy="25" r="8" fill="#238636"/>
+    <path d="M16 25 L19 28 L25 21" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- First line completed -->
+    <path d="M35 23 L65 23" stroke="#484F58" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Second line unfinished / trailing off into dots (bỏ dở nửa chừng) -->
+    <path d="M20 55 L45 55" stroke="#F0883E" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="55" cy="55" r="2" fill="#F0883E"/>
+    <circle cx="65" cy="55" r="2" fill="#F0883E"/>
+    <circle cx="75" cy="55" r="2" fill="#F0883E"/>
+    
+    <!-- Fading out lines below -->
+    <path d="M20 75 L40 75" stroke="#30363D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M20 90 L30 90" stroke="#21262D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Human character pulling back / walking away, hands up in a gesture of dropping the matter (lẳng lặng cho qua) -->
+  <g transform="translate(140, 70)">
+    <!-- Body / Torso turning away -->
+    <path d="M30 65 L45 110 L20 110 Z" fill="#F0883E"/>
+    <rect x="25" y="45" width="25" height="25" rx="6" fill="#F0883E"/>
+    
+    <!-- Head looking back slightly, then away -->
+    <circle cx="37" cy="28" r="12" fill="#E6EDF3"/>
+    <!-- Hair -->
+    <path d="M25 24 C25 18 32 15 42 20 C47 22 49 26 49 26 Z" fill="#2D333B"/>
+
+    <!-- Action arms lifting up and brushing off (dropping responsibility) -->
+    <path d="M45 55 L70 35" stroke="#F0883E" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="72" cy="33" r="5" fill="#E6EDF3"/>
+    
+    <!-- Motion lines indicating walking away / fading action -->
+    <path d="M-10 40 L-25 45" stroke="#484F58" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+    <path d="M-15 60 L-30 65" stroke="#484F58" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Floating dust / unfinished task dissolving into nothingness -->
+  <g transform="translate(100, 115)" opacity="0.8">
+    <circle cx="0" cy="0" r="3" fill="#F0883E"/>
+    <circle cx="15" cy="-10" r="2" fill="#F0883E"/>
+    <circle cx="25" cy="5" r="1.5" fill="#484F58"/>
+    <path d="M5 -5 L20 -15" stroke="#F0883E" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 4"/>
+  </g>
+</svg>

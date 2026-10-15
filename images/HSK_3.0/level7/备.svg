@@ -1,0 +1,38 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Rain Effect -->
+  <g opacity="0.3" stroke="#5D6D7E" stroke-width="1.5">
+    <line x1="30" y1="0" x2="20" y2="240"/>
+    <line x1="80" y1="0" x2="70" y2="240"/>
+    <line x1="130" y1="0" x2="120" y2="240"/>
+    <line x1="180" y1="0" x2="170" y2="240"/>
+    <line x1="230" y1="0" x2="220" y2="240"/>
+  </g>
+
+  <!-- Sandbag Pile (Preparation) -->
+  <path d="M40 180 Q60 170 80 180 L80 210 L40 210 Z" fill="#D68910"/>
+  <path d="M50 160 Q70 150 90 160 L90 190 L50 190 Z" fill="#E67E22"/>
+  <path d="M60 140 Q80 130 100 140 L100 170 L60 170 Z" fill="#D68910"/>
+  
+  <!-- Food Supply Box -->
+  <rect x="140" y="160" width="50" height="40" rx="4" fill="#F39C12"/>
+  <rect x="145" y="165" width="40" height="10" fill="#E67E22"/>
+  <circle cx="155" cy="185" r="4" fill="#FFF"/>
+  <circle cx="175" cy="185" r="4" fill="#FFF"/>
+
+  <!-- Human Character Action -->
+  <g transform="translate(100, 80)">
+    <!-- Arm reaching to place item -->
+    <path d="M20 60 L60 40" stroke="#F1C40F" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hand -->
+    <circle cx="65" cy="38" r="8" fill="#F1C40F"/>
+    <!-- Body -->
+    <path d="M0 60 L40 60 L30 120 L-10 120 Z" fill="#34495E"/>
+    <!-- Head -->
+    <circle cx="15" cy="40" r="15" fill="#F1C40F"/>
+  </g>
+
+  <!-- Motion Lines -->
+  <path d="M130 60 Q145 50 160 60" fill="none" stroke="#F1C40F" stroke-width="3" stroke-dasharray="4 4"/>
+</svg>

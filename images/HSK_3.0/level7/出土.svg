@@ -1,0 +1,75 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle ambient glow from the excavation site -->
+  <ellipse cx="120" cy="180" rx="80" ry="25" fill="#252A34" opacity="0.6"/>
+  <ellipse cx="120" cy="120" rx="60" ry="60" fill="#F39C12" opacity="0.05" filter="blur(15px)"/>
+
+  <!-- Cross-section of earth (Dark Mode aesthetic) -->
+  <!-- Upper soil layer -->
+  <path d="M 30,120 Q 75,115 120,120 Q 165,125 210,120 L 210,210 L 30,210 Z" fill="#222733"/>
+  <!-- Lower deep soil layer with stratified strata lines -->
+  <path d="M 30,150 Q 75,145 120,150 Q 165,155 210,150 L 210,210 L 30,210 Z" fill="#1E222D"/>
+  <path d="M 30,180 Q 75,175 120,180 Q 165,185 210,180 L 210,210 L 30,210 Z" fill="#1A1D24"/>
+  
+  <!-- Soil surface line -->
+  <path d="M 30,120 Q 75,115 120,120 Q 165,125 210,120" fill="none" stroke="#2F3646" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Archaeological finds emerging from the earth (The artifact - Bronze Ding vessel) -->
+  <g transform="translate(0, -10)">
+    <!-- Glow around the unearthed artifact -->
+    <circle cx="120" cy="115" r="35" fill="#F39C12" opacity="0.1" filter="blur(8px)"/>
+
+    <!-- Ancient Bronze Vessel (Ding/Tripod) -->
+    <!-- Vessel Body -->
+    <path d="M 95,95 C 95,125 145,125 145,95 Z" fill="#D35400"/>
+    <ellipse cx="120" cy="95" rx="25" ry="8" fill="#E67E22"/>
+    <ellipse cx="120" cy="95" rx="20" ry="5" fill="#B94800"/>
+    
+    <!-- Vessel Rim & Handles -->
+    <path d="M 93,92 L 147,92" stroke="#E67E22" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left Handle -->
+    <path d="M 93,95 C 83,95 83,83 93,85" fill="none" stroke="#D35400" stroke-width="3" stroke-linecap="round"/>
+    <!-- Right Handle -->
+    <path d="M 147,95 C 157,95 157,83 147,85" fill="none" stroke="#D35400" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Three Legs -->
+    <path d="M 102,122 L 95,142" stroke="#B94800" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 138,122 L 145,142" stroke="#B94800" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 120,125 L 120,146" stroke="#D35400" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Ancient decorative pattern (Taotie / Cloud motif hint) -->
+    <path d="M 112,104 Q 120,112 128,104" fill="none" stroke="#F39C12" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="106" cy="104" r="2" fill="#F39C12"/>
+    <circle cx="134" cy="104" r="2" fill="#F39C12"/>
+  </g>
+
+  <!-- Debris / Earth particles breaking away / being excavated -->
+  <circle cx="95" cy="115" r="2.5" fill="#4E5D6C"/>
+  <circle cx="148" cy="118" r="2" fill="#4E5D6C"/>
+  <circle cx="110" cy="128" r="3" fill="#3B4754"/>
+  <circle cx="132" cy="126" r="2" fill="#3B4754"/>
+  <circle cx="85" cy="122" r="1.5" fill="#4E5D6C"/>
+  <circle cx="155" cy="125" r="2" fill="#4E5D6C"/>
+
+  <!-- Archaeological Excavation Tools (Trowel and Brush cutting through the edge) -->
+  <g transform="translate(155, 125) rotate(-25)">
+    <!-- Trowel Blade -->
+    <path d="M 0,0 L 25,-10 L 30,10 Z" fill="#95A5A6"/>
+    <path d="M 5,-2 L 22,-7 L 25,6 Z" fill="#BDC3C7"/>
+    <!-- Trowel Handle -->
+    <path d="M 0,0 L -12,5" stroke="#7F8C8D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M -12,5 L -22,8" stroke="#A0522D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Volumetric Lighting / Spotlight on the Artifact -->
+  <path d="M 90,30 L 150,30 L 165,115 L 75,115 Z" fill="url(#lightBeam)" opacity="0.15"/>
+  <defs>
+    <linearGradient id="lightBeam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+</svg>

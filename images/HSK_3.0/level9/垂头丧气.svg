@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  <g transform="translate(60, 60)">
+    <!-- Shoulders and Body -->
+    <path d="M40 120 C40 100, 80 90, 120 90 C160 90, 200 100, 200 120 L200 140 L40 140 Z" fill="#4A5568"/>
+    <!-- Neck -->
+    <rect x="105" y="80" width="30" height="20" fill="#E2E8F0"/>
+    <!-- Head -->
+    <circle cx="120" cy="60" r="35" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M90 55 C90 30, 150 30, 150 55 C150 45, 140 40, 120 40 C100 40, 90 45, 90 55 Z" fill="#2D3748"/>
+    <!-- Eyes (Closed/Sad) -->
+    <path d="M105 60 L115 65 M125 65 L135 60" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    <!-- Mouth (Sad/Frown) -->
+    <path d="M110 75 C115 70, 125 70, 130 75" stroke="#1A1D24" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Slumped posture visual indicator: Shadow/Weight -->
+    <ellipse cx="120" cy="145" rx="50" ry="10" fill="#000000" opacity="0.3"/>
+  </g>
+</svg>

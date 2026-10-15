@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background ambient glow for focus -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.6"/>
+
+  <!-- Conceptual Central Physical Object: A sleek, modern dual-purpose desk clock combined with an open book and dumbbells, representing self-discipline (Zìlǜ - early rising, reading, and routine fitness) -->
+  <g transform="translate(0, 0)">
+    <!-- Base Desk Surface -->
+    <path d="M 40,185 L 200,185 C 205,185 208,188 208,192 C 208,196 205,199 200,199 L 40,199 C 35,199 32,196 32,192 C 32,188 35,185 40,185 Z" fill="#2D3342" />
+
+    <!-- Open Book (representing reading habit) -->
+    <path d="M 70,150 Q 120,135 170,150 L 170,185 Q 120,170 70,185 Z" fill="#3A435E"/>
+    <path d="M 70,150 Q 120,135 120,170 L 120,185 Q 120,170 70,185 Z" fill="#4B5575"/>
+    <path d="M 170,150 Q 120,135 120,170 L 120,185 Q 120,170 170,185 Z" fill="#434D6B"/>
+    <!-- Book pages lines -->
+    <line x1="85" y1="160" x2="105" y2="155" stroke="#717D9E" stroke-width="2" stroke-linecap="round"/>
+    <line x1="85" y1="168" x2="110" y2="163" stroke="#717D9E" stroke-width="2" stroke-linecap="round"/>
+    <line x1="135" y1="155" x2="155" y2="160" stroke="#717D9E" stroke-width="2" stroke-linecap="round"/>
+    <line x1="130" y1="163" x2="155" y2="168" stroke="#717D9E" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Alarm Clock (representing early rising & routine) -->
+    <!-- Clock Body -->
+    <circle cx="120" cy="100" r="38" fill="#2D3342"/>
+    <circle cx="120" cy="100" r="32" fill="#1A1D24"/>
+    
+    <!-- Clock Feet -->
+    <path d="M 100,135 L 94,145 L 102,145 Z" fill="#E5A93B"/>
+    <path d="M 140,135 L 146,145 L 138,145 Z" fill="#E5A93B"/>
+    
+    <!-- Clock Bells / Top Hammers -->
+    <path d="M 102,68 L 138,68 L 120,55 Z" fill="#E5A93B"/>
+    <circle cx="120" cy="62" r="6" fill="#F4B843"/>
+    <path d="M 98,74 Q 90,62 102,56" stroke="#E5A93B" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 142,74 Q 150,62 138,56" stroke="#E5A93B" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- Clock Hands (pointing to early morning hour, e.g., 5:00) -->
+    <line x1="120" y1="100" x2="120" y2="80" stroke="#E5A93B" stroke-width="3" stroke-linecap="round"/>
+    <line x1="120" y1="100" x2="135" y2="105" stroke="#F4B843" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="120" cy="100" r="3" fill="#E5A93B"/>
+
+    <!-- Dumbbells crossed behind the clock (representing fitness / physical routine) -->
+    <!-- Dumbbell 1 -->
+    <g transform="translate(120, 100) rotate(45) translate(-120, -100)">
+      <rect x="70" y="96" width="100" height="8" rx="4" fill="#6B789D"/>
+      <rect x="65" y="88" width="12" height="24" rx="4" fill="#E5A93B"/>
+      <rect x="163" y="88" width="12" height="24" rx="4" fill="#E5A93B"/>
+    </g>
+    <!-- Dumbbell 2 -->
+    <g transform="translate(120, 100) rotate(-45) translate(-120, -100)">
+      <rect x="70" y="96" width="100" height="8" rx="4" fill="#6B789D"/>
+      <rect x="65" y="88" width="12" height="24" rx="4" fill="#E5A93B"/>
+      <rect x="163" y="88" width="12" height="24" rx="4" fill="#E5A93B"/>
+    </g>
+
+    <!-- Morning Sun / Sunrise accent (representing early morning habit) -->
+    <path d="M 75,55 Q 120,35 165,55" stroke="#F4B843" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <circle cx="120" cy="42" r="5" fill="#F4B843"/>
+  </g>
+</svg>

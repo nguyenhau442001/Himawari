@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative grid/glow elements for depth -->
+  <circle cx="120" cy="120" r="80" fill="#252A34" opacity="0.5"/>
+  <path d="M70 170 L170 70" stroke="#2F3640" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+
+  <!-- Central Object: Magnifying Glass + Official Stamp/Gavel representation (Investigation & Enforcement) -->
+  <!-- Magnifying glass body -->
+  <g transform="translate(120, 110)">
+    <!-- Glass handle angled down-right -->
+    <rect x="25" y="25" width="45" height="14" rx="7" fill="#4B6584" transform="rotate(45 25 25)"/>
+    <rect x="28" y="28" width="39" height="8" rx="4" fill="#778CA3" transform="rotate(45 25 25)"/>
+
+    <!-- Outer rim of lens (Orange/Gold accent for focus/action) -->
+    <circle cx="0" cy="0" r="54" fill="#1A1D24"/>
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#FFA502" stroke-width="8"/>
+
+    <!-- Inner lens surface -->
+    <circle cx="0" cy="0" r="46" fill="#2C3A47"/>
+
+    <!-- Lens glass reflection glare -->
+    <path d="M -32 -22 A 40 40 0 0 1 22 -32 A 44 44 0 0 0 -32 -22 Z" fill="#ffffff" opacity="0.1"/>
+
+    <!-- Official Stamp / Seal element inside the lens representing "查处" (Investigation & Official Decision) -->
+    <g transform="translate(0, 0)">
+      <!-- Red official stamp base (octagon/square) -->
+      <polygon points="-22,-22 22,-22 28,0 22,22 -22,22 -28,0" fill="#EB4D4B" opacity="0.9"/>
+      <polygon points="-18,-18 18,-18 23,0 18,18 -18,18 -23,0" fill="#FF4757"/>
+      
+      <!-- Checkmark/Cross enforcement symbol inside stamp -->
+      <path d="M-10 -2 L-3 7 L12 -8" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- Accent warning marker / alert badge on top-left -->
+  <g transform="translate(55, 60)">
+    <circle cx="0" cy="0" r="14" fill="#FFA502"/>
+    <path d="M0 -6 L0 2 M0 6 L0 7" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ground shadow / surface line -->
+  <ellipse cx="120" cy="195" rx="55" ry="6" fill="#111318"/>
+</svg>

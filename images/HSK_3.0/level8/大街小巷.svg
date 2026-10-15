@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background glow representing festive atmosphere -->
+  <circle cx="120" cy="120" r="90" fill="#252A34" opacity="0.6"/>
+
+  <!-- Cityscape Silhouette / Background Elements -->
+  <path d="M40 180 L40 140 L60 120 L80 140 L80 180 Z" fill="#2D3340" />
+  <path d="M160 180 L160 110 L185 90 L210 110 L210 180 Z" fill="#2D3340" />
+
+  <!-- Main Wide Street (大街) Perspective Base -->
+  <polygon points="90,180 150,180 195,220 45,220" fill="#222733"/>
+  <line x1="120" y1="180" x2="120" y2="220" stroke="#FFD700" stroke-width="2" stroke-dasharray="6,4" opacity="0.6"/>
+
+  <!-- Alleyways (小巷) / Side buildings creating intricate paths -->
+  <!-- Left Building Group -->
+  <path d="M40 180 L40 85 L90 70 L90 180 Z" fill="#323846"/>
+  <polygon points="90,70 120,95 120,180 90,180" fill="#282E3B"/>
+  
+  <!-- Right Building Group -->
+  <path d="M150 180 L150 80 L200 95 L200 180 Z" fill="#323846"/>
+  <polygon points="120,95 150,80 150,180 120,180" fill="#282E3B"/>
+
+  <!-- Alley gap between buildings -->
+  <polygon points="115,110 125,110 125,180 115,180" fill="#15181F"/>
+
+  <!-- Warm Festive Red Lanterns strung across streets (representing 大街小巷 filled with celebration) -->
+  <!-- Lantern 1 (Left) -->
+  <path d="M65 95 L75 95 L77 100 L63 100 Z" fill="#FFD700"/>
+  <ellipse cx="70" cy="112" rx="10" ry="12" fill="#FF3B30"/>
+  <path d="M70 124 L70 132" stroke="#FFD700" stroke-width="1.5"/>
+  <path d="M40 75 Q55 90 70 95" stroke="#FFD700" stroke-width="1.5" fill="none" opacity="0.8"/>
+
+  <!-- Lantern 2 (Center High) -->
+  <path d="M115 75 L125 75 L127 80 L113 80 Z" fill="#FFD700"/>
+  <ellipse cx="120" cy="92" rx="10" ry="12" fill="#FF3B30"/>
+  <path d="M120 104 L120 112" stroke="#FFD700" stroke-width="1.5"/>
+  <path d="M70 95 Q95 75 120 75" stroke="#FFD700" stroke-width="1.5" fill="none" opacity="0.8"/>
+  <path d="M120 75 Q145 75 170 90" stroke="#FFD700" stroke-width="1.5" fill="none" opacity="0.8"/>
+
+  <!-- Lantern 3 (Right) -->
+  <path d="M165 90 L175 90 L177 95 L163 95 Z" fill="#FFD700"/>
+  <ellipse cx="170" cy="107" rx="10" ry="12" fill="#FF3B30"/>
+  <path d="M170 119 L170 127" stroke="#FFD700" stroke-width="1.5"/>
+
+  <!-- Additional glowing accent dots representing warm windows / festive lights deep in alleys -->
+  <rect x="52" y="100" width="8" height="10" rx="1" fill="#FFD700" opacity="0.8"/>
+  <rect x="70" y="130" width="8" height="10" rx="1" fill="#FFD700" opacity="0.8"/>
+  <rect x="175" y="115" width="8" height="10" rx="1" fill="#FFD700" opacity="0.8"/>
+  <rect x="160" y="145" width="8" height="10" rx="1" fill="#FFD700" opacity="0.8"/>
+
+  <!-- Foreground decorative warm glow at the bottom center -->
+  <ellipse cx="120" cy="220" rx="50" ry="8" fill="#FFD700" opacity="0.15"/>
+</svg>

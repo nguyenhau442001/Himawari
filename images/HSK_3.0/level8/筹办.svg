@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table/Planning Surface -->
+  <path d="M40 160 L200 160 L190 180 L50 180 Z" fill="#2D343E"/>
+  
+  <!-- Character: Upper body, focused on planning -->
+  <g fill="#FFB86C">
+    <circle cx="120" cy="80" r="25"/>
+    <path d="M95 105 L145 105 L140 160 L100 160 Z"/>
+  </g>
+  
+  <!-- Action: Hands interacting with blueprints/plans -->
+  <g fill="#F8F8F2">
+    <rect x="80" y="130" width="80" height="60" rx="4" fill="#3D4754"/>
+    <path d="M90 140 H150 M90 150 H130 M90 160 H140" stroke="#FFB86C" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion lines/Dynamic planning elements -->
+  <path d="M160 120 Q170 110 180 120" stroke="#FFB86C" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M170 115 Q180 105 190 115" stroke="#FFB86C" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Event planning symbols (Stylized megaphone and clipboard) -->
+  <path d="M50 100 L70 90 L70 110 Z" fill="#FFB86C"/>
+  <rect x="170" y="70" width="30" height="40" rx="2" fill="#3D4754"/>
+  <path d="M175 80 H195 M175 90 H190" stroke="#FFB86C" stroke-width="2" stroke-linecap="round"/>
+</svg>

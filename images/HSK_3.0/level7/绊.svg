@@ -1,0 +1,43 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background elements to set the night/dark-mode context -->
+  <!-- Ground contour -->
+  <path d="M0 180 C80 170, 160 185, 240 175 L240 240 L0 240 Z" fill="#222730"/>
+
+  <!-- Tree Root (The obstacle causing the stumble) -->
+  <path d="M120 185 C110 182, 100 175, 90 172 C80 169, 75 175, 70 178 C65 180, 50 185, 30 182 L30 195 L240 195 L240 185 C200 188, 150 188, 120 185 Z" fill="#3D2E24"/>
+  <path d="M100 178 C105 182, 115 185, 125 185" stroke="#2B1F18" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Dynamic Motion & Stumble Visuals -->
+  <!-- Action lines / Dust / Motion blur to indicate sudden trip -->
+  <path d="M100 200 L85 205" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <path d="M110 205 L100 212" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Falling character / Person stumbling -->
+  <!-- Head -->
+  <circle cx="140" cy="95" r="14" fill="#F6AD55"/>
+  <path d="M148 93 Q152 97 150 101" stroke="#DD6B20" stroke-width="2" stroke-linecap="round" fill="none"/> <!-- startled face curve -->
+
+  <!-- Torso (leaning forward at an unstable angle) -->
+  <path d="M135 110 L155 145 L130 155 Z" fill="#3182CE"/>
+
+  <!-- Arms flailing for balance -->
+  <!-- Rear arm -->
+  <path d="M145 118 L170 110" stroke="#F6AD55" stroke-width="5" stroke-linecap="round"/>
+  <!-- Front arm -->
+  <path d="M140 115 L115 125" stroke="#F6AD55" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Legs (The exact moment of getting caught/tripped by the root) -->
+  <!-- Back leg lifting up -->
+  <path d="M135 152 L110 135 L90 145" stroke="#2B6CB0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Front foot caught/stuck right on the root -->
+  <path d="M145 150 L105 172" stroke="#2B6CB0" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Focus/Impact indicator at the snag point -->
+  <circle cx="100" cy="175" r="8" fill="none" stroke="#ED8936" stroke-width="2" opacity="0.8"/>
+  <circle cx="100" cy="175" r="14" fill="none" stroke="#DD6B20" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.6"/>
+
+</svg>

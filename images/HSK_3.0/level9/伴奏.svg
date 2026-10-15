@@ -1,0 +1,27 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" rx="24" fill="#1A1D24"/>
+<g transform="translate(40, 60)">
+  <path d="M140 120H20c-5.5 0-10-4.5-10-10V40c0-5.5 4.5-10 10-10h120c5.5 0 10 4.5 10 10v70c0 5.5-4.5 10-10 10z" fill="#3D4451"/>
+  <rect x="20" y="40" width="120" height="60" fill="#2D3440"/>
+  <rect x="25" y="45" width="110" height="50" fill="#1A1D24"/>
+  <rect x="30" y="50" width="10" height="40" fill="#FFB347"/>
+  <rect x="45" y="50" width="10" height="40" fill="#FFB347"/>
+  <rect x="60" y="50" width="10" height="40" fill="#FFB347"/>
+  <rect x="75" y="50" width="10" height="40" fill="#FFB347"/>
+  <rect x="90" y="50" width="10" height="40" fill="#FFB347"/>
+  <rect x="105" y="50" width="10" height="40" fill="#FFB347"/>
+  <path d="M10 120h140v10H10z" fill="#FFB347"/>
+</g>
+<g transform="translate(120, 130)">
+  <path d="M0 0c0-15 10-25 25-25s25 10 25 25v30H0V0z" fill="#FFB347"/>
+  <path d="M10 -5h30v5H10z" fill="#2D3440"/>
+  <path d="M15 -15h20v5H15z" fill="#2D3440"/>
+  <path d="M20 -25h10v5H20z" fill="#2D3440"/>
+</g>
+<g transform="translate(60, 130)">
+  <path d="M0 0c0-15 10-25 25-25s25 10 25 25v30H0V0z" fill="#FFB347"/>
+  <path d="M10 -5h30v5H10z" fill="#2D3440"/>
+  <path d="M15 -15h20v5H15z" fill="#2D3440"/>
+  <path d="M20 -25h10v5H20z" fill="#2D3440"/>
+</g>
+</svg>

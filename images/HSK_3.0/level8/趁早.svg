@@ -1,0 +1,57 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 10)">
+    <!-- Background Timeline / Progression Axis -->
+    <line x1="40" y1="180" x2="200" y2="180" stroke="#2A2F3B" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="180" x2="110" y2="180" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Time Arrow Head -->
+    <path d="M195 175 L205 180 L195 185" fill="none" stroke="#2A2F3B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Step 1: Early Action (Chènzǎo - Left, highlighted with Gold/Orange) -->
+    <g transform="translate(75, 110)">
+      <!-- Sun/Dawn indicator for "Early" -->
+      <circle cx="0" cy="-45" r="14" fill="#FBBF24" opacity="0.2"/>
+      <circle cx="0" cy="-45" r="8" fill="#F59E0B"/>
+      
+      <!-- Rising energetic figure -->
+      <path d="M-6 40 L-6 20 L6 20 L6 40" fill="#3B82F6"/>
+      <circle cx="0" cy="5" r="7" fill="#60A5FA"/>
+      <!-- Dynamic arms pointing forward/up -->
+      <path d="M-12 12 L0 5 L14 0" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-4 40 L-4 60" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M4 40 L4 60" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+      
+      <!-- Checkmark symbolizing proactive prevention / success -->
+      <circle cx="0" cy="-15" r="12" fill="#10B981" opacity="0.2"/>
+      <path d="M-5 -15 L-2 -10 L6 -20" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Step 2: Late / Missed Opportunity (Right, faded/darker grey) -->
+    <g transform="translate(165, 110)" opacity="0.35">
+      <!-- Moon/Night indicator for "Late" -->
+      <path d="M-5 -55 A 10 10 0 0 1 5 -45 A 10 10 0 1 0 -5 -55 Z" fill="#9CA3AF"/>
+      
+      <!-- Slumped figure -->
+      <path d="M-6 40 L-6 20 L6 20 L6 40" fill="#4B5563"/>
+      <circle cx="3" cy="10" r="7" fill="#6B7280"/>
+      <!-- Drooped arms -->
+      <path d="M-10 18 L-2 25 L8 35" stroke="#6B7280" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-4 40 L-6 60" stroke="#4B5563" stroke-width="4" stroke-linecap="round"/>
+      <path d="M4 40 L2 60" stroke="#4B5563" stroke-width="4" stroke-linecap="round"/>
+      
+      <!-- Cross symbol for missed chance -->
+      <circle cx="0" cy="-15" r="12" fill="#EF4444" opacity="0.2"/>
+      <path d="M-4 -19 L4 -11 M4 -19 L-4 -11" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Escalation / Shift Indicator (The core semantic of prompt: timeline showing sharp peak / decisive early action) -->
+    <path d="M 85 45 Q 120 20 155 45" fill="none" stroke="#F59E0B" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+    <path d="M 150 40 L 155 45 L 149 48" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Focus marker emphasizing the "Early" side -->
+    <rect x="50" y="85" width="50" height="105" rx="10" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.8"/>
+    <path d="M 75 75 L 75 85" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

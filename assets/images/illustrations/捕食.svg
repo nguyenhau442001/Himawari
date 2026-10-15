@@ -1,0 +1,19 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Eagle (Predator) -->
+  <path d="M120 60 C 100 60, 80 70, 70 90 C 60 110, 70 120, 80 120 C 90 120, 100 115, 110 110 L 120 150 L 130 110 C 140 115, 150 120, 160 120 C 170 120, 180 110, 170 90 C 160 70, 140 60, 120 60 Z" fill="#FFB84D"/>
+  <path d="M110 110 L 120 140 L 130 110" fill="#E69500"/>
+  <path d="M115 75 L 125 75 L 120 85 Z" fill="#1A1D24"/>
+  
+  <!-- Rabbit (Prey) -->
+  <ellipse cx="120" cy="190" rx="25" ry="15" fill="#A0A0A0"/>
+  <ellipse cx="120" cy="175" rx="15" ry="18" fill="#A0A0A0"/>
+  <path d="M105 165 L 100 145 L 115 160" fill="#A0A0A0"/>
+  <path d="M135 165 L 140 145 L 125 160" fill="#A0A0A0"/>
+  
+  <!-- Motion Lines -->
+  <path d="M120 120 L 120 150" stroke="#FFB84D" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M110 130 L 110 160" stroke="#FFB84D" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M130 130 L 130 160" stroke="#FFB84D" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

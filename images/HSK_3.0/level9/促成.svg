@@ -1,0 +1,61 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle details / glowing connection aura -->
+  <circle cx="120" cy="120" r="70" fill="none" stroke="#2D3340" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Central Visual Representation for "促成" (Facilitating/Brokerage of Peace Treaty) -->
+  <!-- Two stylized hands coming together to seal/sign/bring success to a document -->
+  
+  <!-- Left Side Hand / Cuff (Blue theme) -->
+  <path d="M 60,140 L 95,120 L 105,130 L 75,155 Z" fill="#2E4C6D"/>
+  <path d="M 50,155 L 75,155 L 65,175 L 45,165 Z" fill="#4B779A"/>
+  <!-- Left Hand Palm & Thumb -->
+  <path d="M 95,120 C 105,115 112,120 115,125 L 105,135 Z" fill="#FAD1B4"/>
+  <!-- Left Fingers extending to center -->
+  <rect x="108" y="118" width="22" height="7" rx="3" fill="#FAD1B4" transform="rotate(-15, 108, 118)"/>
+  <rect x="105" y="126" width="22" height="7" rx="3" fill="#FAD1B4" transform="rotate(-5, 105, 126)"/>
+
+  <!-- Right Side Hand / Cuff (Amber theme) -->
+  <path d="M 180,140 L 145,120 L 135,130 L 165,155 Z" fill="#5D4B3C"/>
+  <path d="M 190,155 L 165,155 L 175,175 L 195,165 Z" fill="#8C7055"/>
+  <!-- Right Hand Palm & Thumb -->
+  <path d="M 145,120 C 135,115 128,120 125,125 L 135,135 Z" fill="#E8B895"/>
+  <!-- Right Fingers extending to center -->
+  <rect x="110" y="118" width="22" height="7" rx="3" fill="#E8B895" transform="rotate(15, 110, 118)"/>
+  <rect x="113" y="126" width="22" height="7" rx="3" fill="#E8B895" transform="rotate(5, 113, 126)"/>
+
+  <!-- The Document / Agreement (The outcome being successfully brought about) -->
+  <g transform="translate(0, -10)">
+    <!-- Document background -->
+    <path d="M 90,80 L 150,80 L 150,135 L 90,135 Z" fill="#EFEFF0" rx="3"/>
+    
+    <!-- Document fold corner -->
+    <path d="M 138,80 L 150,92 L 150,80 Z" fill="#D0D0D4"/>
+
+    <!-- Text lines representing the treaty/agreement -->
+    <rect x="100" y="92" width="40" height="3" rx="1.5" fill="#3B4252"/>
+    <rect x="100" y="100" width="30" height="2" rx="1" fill="#798294"/>
+    <rect x="100" y="105" width="35" height="2" rx="1" fill="#798294"/>
+    <rect x="100" y="110" width="25" height="2" rx="1" fill="#798294"/>
+
+    <!-- Wax Seal / Success Stamp (Gold/Orange accent for "促成" successful conclusion) -->
+    <circle cx="132" cy="122" r="9" fill="#F59E0B"/>
+    <circle cx="132" cy="122" r="6" fill="#D97706"/>
+    <!-- Checkmark inside seal indicating success/completion -->
+    <path d="M 129,122 L 131,125 L 136,119" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Sparkles / Success indicators (Modern flat style bursts) -->
+  <path d="M 120,48 L 122,56 L 130,58 L 122,60 L 120,68 L 118,60 L 110,58 L 118,56 Z" fill="#F59E0B"/>
+  <path d="M 75,70 L 76,74 L 80,75 L 76,76 L 75,80 L 74,76 L 70,75 L 74,74 Z" fill="#38BDF8"/>
+  <path d="M 165,70 L 166,74 L 170,75 L 166,76 L 165,80 L 164,76 L 160,75 L 164,74 Z" fill="#38BDF8"/>
+
+  <!-- Pen / Quill representing the act of finalizing the agreement -->
+  <g transform="translate(142, 85) rotate(-35)">
+    <path d="M 0,0 L 4,18 L 8,0 Z" fill="#F59E0B"/>
+    <path d="M 2,18 L 4,24 L 6,18 Z" fill="#1A1D24"/>
+    <path d="M 3,0 L 5,0 L 5,18 L 3,18 Z" fill="#D97706"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(36, 36)">
+    <!-- Book Base -->
+    <path d="M12 28 C35 20, 80 20, 96 28 L96 140 C80 132, 35 132, 12 140 Z" fill="#2D3343"/>
+    <path d="M156 28 C133 20, 88 20, 72 28 L72 140 C88 132, 133 132, 156 140 Z" fill="#2D3343"/>
+    
+    <!-- Left Page (White background) -->
+    <path d="M16 33 C37 26, 76 26, 92 33 L92 135 C76 128, 37 128, 16 135 Z" fill="#EDF2F7"/>
+    <!-- Right Page -->
+    <path d="M152 33 C131 26, 92 26, 76 33 L76 135 C92 128, 131 128, 152 135 Z" fill="#EDF2F7"/>
+    
+    <!-- Center Spine Shadow -->
+    <path d="M84 28 L84 140" stroke="#CBD5E0" stroke-width="2" fill="none"/>
+    
+    <!-- Text Lines on Left Page -->
+    <rect x="28" y="48" width="44" height="4" rx="2" fill="#CBD5E0"/>
+    <rect x="28" y="60" width="52" height="4" rx="2" fill="#CBD5E0"/>
+    <rect x="28" y="72" width="38" height="4" rx="2" fill="#CBD5E0"/>
+    
+    <rect x="28" y="96" width="50" height="4" rx="2" fill="#CBD5E0"/>
+    <rect x="28" y="108" width="42" height="4" rx="2" fill="#CBD5E0"/>
+
+    <!-- Right Page Illustration Frame (插图) -->
+    <rect x="88" y="44" width="52" height="72" rx="4" fill="#E2E8F0"/>
+    
+    <!-- Colorful Illustration Elements inside the frame -->
+    <!-- Sky / Background -->
+    <path d="M88 44 H140 V84 H88 Z" fill="#EBF8FF"/>
+    <!-- Ground / Hills -->
+    <path d="M88 84 Q105 76 120 84 Q130 88 140 84 V116 H88 Z" fill="#9AE6B4"/>
+    <!-- Sun -->
+    <circle cx="126" cy="60" r="8" fill="#F6E05E"/>
+    <!-- Cute Cartoon Character (Tree/Mushroom) -->
+    <path d="M110 92 C110 82, 122 82, 122 92 Z" fill="#FEB2B2"/>
+    <circle cx="116" cy="74" r="12" fill="#FC8181"/>
+    <circle cx="111" cy="71" r="2" fill="#FFF"/>
+    <circle cx="121" cy="77" r="1.5" fill="#FFF"/>
+    
+    <!-- Accent Color Glow / Focus for Illustration -->
+    <rect x="86" y="42" width="56" height="76" rx="6" stroke="#FF9F43" stroke-width="3" fill="none"/>
+    
+    <!-- Decorative floating sparkles around illustration (representing vivid pictures) -->
+    <path d="M152 48 L154 52 L158 54 L154 56 L152 60 L150 56 L146 54 L150 52 Z" fill="#FF9F43"/>
+    <path d="M72 108 L73.5 111 L76.5 112.5 L73.5 114 L72 117 L70.5 114 L67.5 112.5 L70.5 111 Z" fill="#F6E05E"/>
+  </g>
+</svg>

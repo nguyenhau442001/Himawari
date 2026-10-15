@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Floor line -->
+  <path d="M40 190 L200 190" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Diplomat/Visitor (Left) -->
+  <g transform="translate(70, 80)">
+    <circle cx="20" cy="25" r="12" fill="#F3F4F6"/>
+    <path d="M10 40 L30 40 L35 110 L5 110 Z" fill="#3B82F6"/>
+    <path d="M20 40 L20 70 L5 85" stroke="#F3F4F6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 40 L20 70 L35 85" stroke="#F3F4F6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Host/Official (Right) -->
+  <g transform="translate(130, 80)">
+    <circle cx="20" cy="25" r="12" fill="#F3F4F6"/>
+    <path d="M10 40 L30 40 L35 110 L5 110 Z" fill="#F59E0B"/>
+    <path d="M20 40 L20 70 L5 85" stroke="#F3F4F6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 40 L20 70 L35 85" stroke="#F3F4F6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Bowing Gesture/Interaction -->
+  <path d="M95 125 Q115 115 135 125" stroke="#F3F4F6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Formal Archway/Doorway background hint -->
+  <path d="M60 60 L60 190 M180 60 L180 190" stroke="#374151" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

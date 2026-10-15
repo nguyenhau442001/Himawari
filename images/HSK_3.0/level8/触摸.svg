@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Glass display case -->
+  <path d="M60 180 L180 180 L170 80 L70 80 Z" fill="#2D343E" stroke="#4A5568" stroke-width="2"/>
+  <path d="M70 80 L170 80 L180 60 L60 60 Z" fill="#3D4754" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Artifact inside -->
+  <circle cx="120" cy="130" r="25" fill="#F59E0B"/>
+  <path d="M105 130 Q120 110 135 130 T120 150 Z" fill="#D97706"/>
+  
+  <!-- Prohibitive hand gesture -->
+  <g transform="translate(120, 120)">
+    <path d="M-10 -20 L10 -20 L10 20 L-10 20 Z" fill="#EF4444" opacity="0.8"/>
+    <circle cx="0" cy="-30" r="15" fill="#EF4444" opacity="0.8"/>
+    <path d="M-20 -50 L20 -10" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Glass front panel -->
+  <rect x="60" y="60" width="120" height="120" fill="#E2E8F0" opacity="0.15"/>
+</svg>

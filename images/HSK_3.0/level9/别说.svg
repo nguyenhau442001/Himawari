@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative subtle glow/elements -->
+  <circle cx="120" cy="115" r="70" fill="#252A34" opacity="0.5"/>
+
+  <!-- Conceptual Representation: "别说" (don't say / hush / speech barrier) -->
+  <!-- Contextual reference: "这个问题不难，别说自己笨" -> Encouragement, stopping self-deprecation, silencing negative words -->
+  
+  <!-- Central Character / Face silhouette showing hesitation/negative thought being stopped -->
+  <g transform="translate(0, 5)">
+    <!-- Shoulders/Body -->
+    <path d="M 70 175 C 70 145 92 135 120 135 C 148 135 170 145 170 175 Z" fill="#2D3748"/>
+    <path d="M 85 175 C 85 152 100 145 120 145 C 140 145 155 152 155 175 Z" fill="#4A5568" opacity="0.3"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="95" r="32" fill="#E2E8F0"/>
+    <!-- Hair -->
+    <path d="M 88 92 C 88 70 102 62 120 62 C 138 62 152 70 152 92 C 152 92 142 82 120 80 C 98 82 88 92 88 92 Z" fill="#4A5568"/>
+
+    <!-- Thought bubble showing negative self-doubt (crossed out or fading) representing "saying I'm stupid") -->
+    <g transform="translate(145, 65)">
+      <path d="M 15 25 C 15 15 25 10 35 10 C 45 10 52 18 52 28 C 52 35 47 42 40 45 L 35 52 L 34 45 C 23 44 15 36 15 25 Z" fill="#2D3748" opacity="0.9"/>
+      <circle cx="10" cy="35" r="4" fill="#2D3748" opacity="0.9"/>
+      <circle cx="6" cy="45" r="2.5" fill="#2D3748" opacity="0.9"/>
+      <!-- Inside thought bubble: subtle question mark representing doubt -->
+      <path d="M 31 18 C 31 16 33 15 35 15 C 37 15 39 16 39 18 C 39 21 35 22 35 25" stroke="#A0AEC0" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <circle cx="35" cy="30" r="1.2" fill="#A0AEC0"/>
+    </g>
+
+    <!-- Hand making "stop / hush" gesture in front of the mouth (别说 - don't say it) -->
+    <g transform="translate(120, 105)">
+      <!-- Forearm -->
+      <rect x="-8" y="20" width="16" height="35" rx="8" fill="#CBD5E0"/>
+      <!-- Palm -->
+      <rect x="-16" y="-5" width="32" height="32" rx="10" fill="#E2E8F0"/>
+      <!-- Fingers pointing up -->
+      <rect x="-14" y="-22" width="6" height="20" rx="3" fill="#E2E8F0"/>
+      <rect x="-6" y="-26" width="6" height="24" rx="3" fill="#E2E8F0"/>
+      <rect x="2" y="-25" width="6" height="23" rx="3" fill="#E2E8F0"/>
+      <rect x="10" y="-20" width="5" height="18" rx="2.5" fill="#CBD5E0"/>
+      <!-- Thumb folded -->
+      <circle cx="-14" cy="5" r="5" fill="#CBD5E0"/>
+    </g>
+
+    <!-- Prominent modern prohibition / stop visual cue (Golden/Orange accent for focus) -->
+    <g transform="translate(120, 100)">
+      <circle cx="0" cy="0" r="44" fill="none" stroke="#F6AD55" stroke-width="4" opacity="0.9"/>
+      <line x1="-31" y1="31" x2="31" y2="-31" stroke="#F6AD55" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

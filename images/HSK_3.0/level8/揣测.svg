@@ -1,0 +1,54 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual Object: A mysterious puzzle piece or shifting blueprint silhouette being inspected/held up, representing guessing/speculating (揣测) -->
+  <g transform="translate(0, 0)">
+    <!-- Glowing background aura representing uncertainty/thought -->
+    <circle cx="120" cy="115" r="55" fill="#3B4252" opacity="0.6"/>
+    
+    <!-- Question mark subtle halo -->
+    <path d="M 120 50 A 65 65 0 0 1 185 115" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 8" opacity="0.4"/>
+
+    <!-- Magnifying glass symbolizing investigation/speculation -->
+    <!-- Handle -->
+    <rect x="145" y="145" width="12" height="40" rx="6" fill="#4B5563" transform="rotate(45 151 165)"/>
+    <rect x="148" y="145" width="6" height="35" rx="3" fill="#6B7280" transform="rotate(45 151 165)"/>
+
+    <!-- Lens Outer Ring -->
+    <circle cx="110" cy="110" r="42" fill="#1F2937" stroke="#F59E0B" stroke-width="6"/>
+    
+    <!-- Lens Inner Glass -->
+    <circle cx="110" cy="110" r="36" fill="#111827"/>
+    
+    <!-- Inner reflection/gloss on lens -->
+    <path d="M 85 90 A 35 35 0 0 1 135 85" fill="none" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Object inside lens: Abstract shifting puzzle/idea piece representing the hidden truth/speculation -->
+    <g transform="translate(110, 112)">
+      <!-- Puzzle piece base -->
+      <path d="M -16 -16 
+               h 10 c 0 -6 12 -6 12 0 
+               h 10 v 10 c 6 0 6 12 0 12 
+               v 10 h -10 c 0 6 -12 6 -12 0 
+               h -10 v -10 c -6 0 -6 -12 0 -12 z" 
+            fill="#3B82F6" opacity="0.8"/>
+            
+      <!-- Question mark integrated onto the puzzle piece -->
+      <path d="M -3 -4 
+               c 0 -5 8 -5 8 0 
+               c 0 4 -6 5 -6 9 
+               m 0 6 h 1" 
+            fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Floating dotted nodes representing hypotheses and variables -->
+    <circle cx="70" cy="75" r="4" fill="#F59E0B"/>
+    <circle cx="165" cy="80" r="3" fill="#60A5FA"/>
+    <circle cx="85" cy="165" r="3.5" fill="#F59E0B" opacity="0.8"/>
+    
+    <!-- Connecting dashed speculation lines -->
+    <path d="M 70 75 L 90 95" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.6"/>
+    <path d="M 165 80 L 135 95" stroke="#60A5FA" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.6"/>
+  </g>
+</svg>

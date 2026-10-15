@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water Scene (Dark Mode Theme) -->
+  <!-- Riverbed / Underwater Depth -->
+  <path d="M0 160 L240 160 L240 240 L0 240 Z" fill="#14171E"/>
+  
+  <!-- Water body -->
+  <path d="M0 90 L240 90 L240 240 L0 240 Z" fill="#1E2530" opacity="0.8"/>
+  
+  <!-- Water surface line -->
+  <line x1="0" y1="90" x2="240" y2="90" stroke="#38BDF8" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Ripples on surface -->
+  <path d="M40 90 Q50 85 60 90 T80 90" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M140 90 Q150 85 160 90 T180 90" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Submerged Object Being Salvaged (Ship / Wreckage) -->
+  <g transform="translate(90, 125)">
+    <!-- Hull tilted underwater -->
+    <path d="M-30 20 L30 10 L20 35 L-20 35 Z" fill="#64748B"/>
+    <!-- Cabin -->
+    <rect x="-10" y="5" width="20" height="15" fill="#475569"/>
+    <!-- Mast/Details -->
+    <line x1="0" y1="5" x2="0" y2="-5" stroke="#94A3B8" stroke-width="2"/>
+  </g>
+
+  <!-- Salvage Crane / Hook & Cable System -->
+  <!-- Crane Jib (Top Right) -->
+  <path d="M240 30 L130 50 L130 58 L240 38 Z" fill="#334155"/>
+  <circle cx="130" cy="54" r="6" fill="#F59E0B"/>
+
+  <!-- Heavy Steel Cable -->
+  <line x1="130" y1="54" x2="130" y2="135" stroke="#94A3B8" stroke-width="3"/>
+
+  <!-- Salvage Hook / Claws Lifting the Wreck -->
+  <g transform="translate(130, 135)">
+    <!-- Pulley block -->
+    <rect x="-6" y="-8" width="12" height="12" rx="2" fill="#F59E0B"/>
+    <!-- Hooks clasping the sunken object -->
+    <path d="M-6 4 C-15 4 -20 15 -10 20" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M6 4 C15 4 20 15 10 20" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tension/Action Motion Lines (Upward Pull) -->
+  <g stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+    <line x1="115" y1="110" x2="115" y2="95"/>
+    <line x1="145" y1="110" x2="145" y2="95"/>
+    <line x1="130" y1="100" x2="130" y2="85"/>
+  </g>
+
+  <!-- Water splashing / breaking surface -->
+  <path d="M120 90 Q125 75 130 90" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M135 90 Q140 78 145 90" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M110 90 Q115 80 120 90" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,66 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle stage floor line -->
+  <line x1="40" y1="195" x2="200" y2="195" stroke="#2A2F3A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Left Character (Young Performer) - sleek modern flat style -->
+  <g transform="translate(65, 80)">
+    <!-- Body/Dress -->
+    <path d="M-15 115 C -15 90, -25 75, -20 60 L 20 60 C 25 75, 15 90, 15 115 Z" fill="#3B82F6"/>
+    <!-- Head -->
+    <circle cx="0" cy="40" r="16" fill="#FDE047"/>
+    <!-- Hair -->
+    <path d="M-16 36 C -16 22, 16 22, 16 36 C 16 42, 10 46, 0 46 C -10 46, -16 42, -16 36 Z" fill="#1E293B"/>
+    <!-- Microphone / Singing Pose -->
+    <rect x="-3" y="55" width="6" height="35" rx="3" fill="#94A3B8"/>
+    <circle cx="0" cy="52" r="5" fill="#E2E8F0"/>
+    <!-- Sound Waves Emanating from Performer -->
+    <path d="M 25 45 Q 32 52, 25 59" stroke="#60A5FA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 31 40 Q 41 52, 31 64" stroke="#60A5FA" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- Right Character (Master Performer) - mirroring pose and quality -->
+  <g transform="translate(175, 80)">
+    <!-- Body/Suit -->
+    <path d="M-15 115 C -15 90, -25 75, -20 60 L 20 60 C 25 75, 15 90, 15 115 Z" fill="#8B5CF6"/>
+    <!-- Head -->
+    <circle cx="0" cy="40" r="16" fill="#FDE047"/>
+    <!-- Hair & Distinguished Master detail (glasses/style) -->
+    <path d="M-16 38 C -16 20, 16 20, 16 38 C 10 44, -10 44, -16 38 Z" fill="#334155"/>
+    <rect x="-3" y="55" width="6" height="35" rx="3" fill="#94A3B8"/>
+    <circle cx="0" cy="52" r="5" fill="#E2E8F0"/>
+    <!-- Sound Waves Emanating from Master -->
+    <path d="M -25 45 Q -32 52, -25 59" stroke="#A78BFA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M -31 40 Q -41 52, -31 64" stroke="#A78BFA" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- Central "Equal / Matching Excellence" Symbol - Golden Scale/Balance Icon representing "不亚于" (equally matched at the highest level) -->
+  <g transform="translate(120, 95)">
+    <!-- Fulcrum -->
+    <polygon points="0,20 -10,38 10,38" fill="#F59E0B"/>
+    <!-- Beam -->
+    <line x1="-35" y1="20" x2="35" y2="20" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    <!-- Left Star / Excellence Marker -->
+    <path d="M-35 20 L-35 35 M-42 27 L-28 27" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-35" cy="27" r="12" fill="none" stroke="#F59E0B" stroke-width="2.5"/>
+    
+    <!-- Right Star / Excellence Marker -->
+    <path d="M35 20 L35 35 M28 27 L42 27" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="35" cy="27" r="12" fill="none" stroke="#F59E0B" stroke-width="2.5"/>
+  </g>
+
+  <!-- Musical Notes Floating to emphasize performance and singing context -->
+  <g fill="#FBBF24">
+    <!-- Note 1 -->
+    <circle cx="95" cy="45" r="4"/>
+    <path d="M99 45 L99 30 L105 32 L105 47" stroke="#FBBF24" stroke-width="2" fill="none"/>
+    <path d="M99 30 L105 32" stroke="#FBBF24" stroke-width="3"/>
+    
+    <!-- Note 2 -->
+    <circle cx="145" cy="45" r="4"/>
+    <path d="M149 45 L149 30 L155 32 L155 47" stroke="#FBBF24" stroke-width="2" fill="none"/>
+    <path d="M149 30 L155 32" stroke="#FBBF24" stroke-width="3"/>
+  </g>
+</svg>

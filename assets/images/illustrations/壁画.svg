@@ -1,0 +1,37 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Cave Wall / Stone Texture (Dark Slate with subtle warm tones) -->
+  <path d="M30 45C30 36.7157 36.7157 30 45 30H195C203.284 30 210 36.7157 210 45V195C210 203.284 203.284 210 195 210H45C36.7157 210 30 203.284 30 195V45Z" fill="#222733"/>
+  <path d="M30 65C60 55 90 70 120 60C150 50 180 65 210 55V195C210 203.284 203.284 210 195 210H45C36.7157 210 30 203.284 30 195V65Z" fill="#1E232E"/>
+  
+  <!-- Mural Background / Plaster Texture (Warm Desert Gold/Terracotta) -->
+  <rect x="42" y="42" width="156" height="156" rx="6" fill="#C27835" opacity="0.15"/>
+
+  <!-- Dunhuang Style Arch / Cave Niche Frame -->
+  <path d="M70 190V95C70 70 90 50 120 50C150 50 170 70 170 95V190" stroke="#F39C12" stroke-width="3" fill="none" opacity="0.4"/>
+  <path d="M60 190V90C60 62 84 40 120 40C156 40 180 62 180 90V190" stroke="#F39C12" stroke-width="1.5" fill="none" opacity="0.2"/>
+
+  <!-- Ancient Buddhist Mural Art (Stylized Flying Apsara / Feitian Motif) -->
+  <!-- Floating Ribbons / Silk Trails -->
+  <path d="M85 85C100 70 130 75 145 95C160 115 150 140 135 155" stroke="#E67E22" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M95 105C110 90 140 95 155 115C170 135 160 160 145 175" stroke="#F1C40F" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Stylized Bodhisattva / Figure Silhouette -->
+  <!-- Head & Halo -->
+  <circle cx="110" cy="95" r="14" fill="#F39C12"/>
+  <circle cx="110" cy="95" r="18" stroke="#F1C40F" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- Body & Robes -->
+  <path d="M96 120C100 115 115 115 122 120C135 130 140 150 130 175H90C85 150 90 130 96 120Z" fill="#D35400"/>
+  <path d="M102 122C106 118 116 118 120 122C128 130 132 148 126 170H96C92 148 96 130 102 122Z" fill="#F1C40F" opacity="0.8"/>
+
+  <!-- Decorative Lotus Base / Pedestal -->
+  <path d="M90 175H150L140 190H100L90 175Z" fill="#C0392B"/>
+  <path d="M100 190H140L135 198H105L100 190Z" fill="#D35400"/>
+
+  <!-- Artistic Aging / Crack Effects (Authenticity) -->
+  <path d="M55 70L65 80L60 95" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M185 130L175 145L180 160" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M110 50L115 65" stroke="#1A1D24" stroke-width="1" opacity="0.5"/>
+</svg>

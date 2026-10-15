@@ -1,0 +1,62 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Subtle Background Elements for depth -->
+  <circle cx="120" cy="120" r="88" fill="#222733" opacity="0.6"/>
+
+  <!-- Embroidery Hoop (The Craft) -->
+  <circle cx="120" cy="115" r="72" fill="none" stroke="#D4AF37" stroke-width="6"/>
+  <!-- Hoop Adjustment Screw -->
+  <rect x="115" y="37" width="10" height="10" rx="2" fill="#E6C657"/>
+  <rect x="117" y="32" width="6" height="6" rx="1" fill="#D4AF37"/>
+
+  <!-- Fabric Area -->
+  <circle cx="120" cy="115" r="66" fill="#1E232F"/>
+
+  <!-- Traditional Embroidery Motif (Blooming Plum Blossom & Needle) -->
+  <!-- Stems -->
+  <path d="M 90 145 Q 110 120 100 95 T 130 75" fill="none" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 105 115 Q 130 110 140 90" fill="none" stroke="#4A5568" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Plum Blossom Petals (Gold/Orange Accent representing heritage/passing down) -->
+  <g fill="#F59E0B">
+    <!-- Flower 1 -->
+    <circle cx="100" cy="95" r="5"/>
+    <circle cx="92" cy="98" r="5"/>
+    <circle cx="95" cy="88" r="5"/>
+    <circle cx="103" cy="88" r="5"/>
+    <circle cx="106" cy="97" r="5"/>
+    <circle cx="99" cy="93" r="3" fill="#FCD34D"/>
+
+    <!-- Flower 2 -->
+    <circle cx="130" cy="75" r="4.5"/>
+    <circle cx="123" cy="79" r="4.5"/>
+    <circle cx="125" cy="70" r="4.5"/>
+    <circle cx="132" cy="69" r="4.5"/>
+    <circle cx="136" cy="76" r="4.5"/>
+    <circle cx="129" cy="74" r="2.5" fill="#FCD34D"/>
+
+    <!-- Flower 3 -->
+    <circle cx="140" cy="90" r="4"/>
+    <circle cx="134" cy="94" r="4"/>
+    <circle cx="136" cy="85" r="4"/>
+    <circle cx="143" cy="85" r="4"/>
+    <circle cx="145" cy="92" r="4"/>
+    <circle cx="140" cy="89" r="2.5" fill="#FCD34D"/>
+  </g>
+
+  <!-- Golden Thread / Heritage Line flowing out of the hoop, connecting generations -->
+  <path d="M 130 160 C 130 190, 180 170, 195 210" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <path d="M 110 160 C 100 190, 50 170, 35 210" fill="none" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Hands guiding the craft (The Successor / 传人) -->
+  <!-- Left Hand (Guiding/Master) -->
+  <path d="M 75 160 C 70 145, 90 130, 95 145 Z" fill="#E2E8F0" opacity="0.9"/>
+  <!-- Right Hand (Learning/Apprentice) -->
+  <path d="M 165 160 C 170 145, 150 130, 145 145 Z" fill="#CBD5E1" opacity="0.9"/>
+
+  <!-- Base platform suggesting stability and continuity -->
+  <rect x="70" y="212" width="100" height="6" rx="3" fill="#334155"/>
+  <rect x="95" y="206" width="50" height="6" rx="3" fill="#475569"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Atmospheric forest adventure background elements -->
+  <!-- Distant stylized trees -->
+  <path d="M40 180 L55 130 L70 180 Z" fill="#242B38"/>
+  <path d="M170 180 L188 120 L206 180 Z" fill="#242B38"/>
+  <path d="M195 180 L210 135 L225 180 Z" fill="#222834"/>
+  <path d="M20 180 L35 145 L50 180 Z" fill="#222834"/>
+
+  <!-- Ground layer -->
+  <path d="M0 180 C60 175, 180 175, 240 180 L240 240 L0 240 Z" fill="#222834"/>
+
+  <!-- Glowing adventure elements (light beams/path) -->
+  <path d="M80 180 L120 80 L160 180 Z" fill="#2F384A" opacity="0.4"/>
+  <circle cx="120" cy="75" r="3" fill="#FFB74D" opacity="0.6"/>
+  <circle cx="95" cy="110" r="2" fill="#FFB74D" opacity="0.4"/>
+  <circle cx="145" cy="100" r="2.5" fill="#FFB74D" opacity="0.5"/>
+
+  <!-- COMPANION 1 (Left Character - Explorer/Hiker) -->
+  <g transform="translate(75, 95)">
+    <!-- Backpack -->
+    <rect x="-12" y="15" width="10" height="20" rx="3" fill="#3B4859"/>
+    <!-- Body / Jacket -->
+    <path d="M-10 15 L10 15 L12 55 L-12 55 Z" fill="#FF7043"/>
+    <!-- Head -->
+    <circle cx="0" cy="3" r="10" fill="#FFD54F"/>
+    <!-- Hat / Cap -->
+    <path d="M-11 -1 C-11 -6, 11 -6, 11 -1 L14 2 L-13 2 Z" fill="#FFB74D"/>
+    <!-- Legs -->
+    <rect x="-8" y="55" width="6" height="30" rx="2" fill="#2C3542"/>
+    <rect x="2" y="55" width="6" height="30" rx="2" fill="#2C3542"/>
+    <!-- Walking Stick / Arm forward holding companion's hand -->
+    <path d="M8 22 L24 28" stroke="#FF7043" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="25" cy="29" r="4" fill="#FFD54F"/>
+  </g>
+
+  <!-- COMPANION 2 (Right Character - Fellow Explorer) -->
+  <g transform="translate(155, 95)">
+    <!-- Backpack -->
+    <rect x="2" y="15" width="10" height="20" rx="3" fill="#FF7043"/>
+    <!-- Body / Jacket -->
+    <path d="M-10 15 L10 15 L12 55 L-12 55 Z" fill="#4DB6AC"/>
+    <!-- Head -->
+    <circle cx="0" cy="3" r="10" fill="#FFD54F"/>
+    <!-- Hair / Beanie -->
+    <path d="M-10 -2 C-10 -8, 10 -8, 10 -2 Z" fill="#2C3542"/>
+    <!-- Legs -->
+    <rect x="-8" y="55" width="6" height="30" rx="2" fill="#2C3542"/>
+    <rect x="2" y="55" width="6" height="30" rx="2" fill="#2C3542"/>
+    <!-- Arm reaching out to hold hands -->
+    <path d="M-8 22 L-20 28" stroke="#4DB6AC" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-21" cy="29" r="4" fill="#FFD54F"/>
+  </g>
+
+  <!-- Connected Handclasp / Bond (Center) -->
+  <circle cx="120" cy="124" r="7" fill="#FFB74D"/>
+  <path d="M116 124 L124 124" stroke="#D84315" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Compass / Trail Icon Indicator (Subtle UI touch for exploration) -->
+  <g transform="translate(120, 38)">
+    <circle cx="0" cy="0" r="14" fill="#242B38" stroke="#FFB74D" stroke-width="2.5"/>
+    <polygon points="0,-8 3,0 0,6 -3,0" fill="#FF7043"/>
+    <polygon points="0,8 3,0 0,-6 -3,0" fill="#E0E6ED"/>
+  </g>
+</svg>

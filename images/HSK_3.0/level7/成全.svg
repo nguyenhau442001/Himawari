@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Supporting Hands (The act of 'tác thành' / enabling) -->
+  <path d="M60 180 C60 140, 80 120, 120 120 C160 120, 180 140, 180 180" fill="none" stroke="#FFB84D" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- The Union / The Couple (The object being enabled) -->
+  <g transform="translate(120, 110)">
+    <!-- Person 1 -->
+    <circle cx="-25" cy="0" r="15" fill="#E0E0E0"/>
+    <path d="M-45 40 C-45 20, -5 20, -5 40 L-5 80 L-45 80 Z" fill="#E0E0E0"/>
+    
+    <!-- Person 2 -->
+    <circle cx="25" cy="0" r="15" fill="#FFB84D"/>
+    <path d="M5 40 C5 20, 45 20, 45 40 L45 80 L5 80 Z" fill="#FFB84D"/>
+    
+    <!-- Joining Hands / Connection -->
+    <rect x="-10" y="40" width="20" height="6" rx="3" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Supporting Gesture Details -->
+  <path d="M80 180 L70 160" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M160 180 L170 160" stroke="#FFB84D" stroke-width="6" stroke-linecap="round"/>
+</svg>

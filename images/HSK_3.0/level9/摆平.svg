@@ -1,0 +1,25 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Table representing the negotiation space -->
+  <rect x="40" y="140" width="160" height="12" rx="2" fill="#3B4252"/>
+  
+  <!-- Left Party (Represented by a professional figure) -->
+  <circle cx="80" cy="110" r="20" fill="#E5E9F0"/>
+  <rect x="65" y="130" width="30" height="60" rx="5" fill="#4C566A"/>
+  
+  <!-- Right Party (Represented by a professional figure) -->
+  <circle cx="160" cy="110" r="20" fill="#E5E9F0"/>
+  <rect x="145" y="130" width="30" height="60" rx="5" fill="#4C566A"/>
+  
+  <!-- The Manager (The mediator/resolver) -->
+  <circle cx="120" cy="80" r="22" fill="#FFB86C"/>
+  <rect x="105" y="102" width="30" height="70" rx="5" fill="#D08770"/>
+  
+  <!-- The Resolution: Handshake over the table -->
+  <path d="M95 140 L145 140" stroke="#FFB86C" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="120" cy="140" r="8" fill="#FFB86C"/>
+  
+  <!-- Balance/Stability indicator (The "Ping" aspect) -->
+  <line x1="60" y1="180" x2="180" y2="180" stroke="#88C0D0" stroke-width="4" stroke-dasharray="8 8"/>
+</svg>

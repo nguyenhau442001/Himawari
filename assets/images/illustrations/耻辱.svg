@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle floor shadow -->
+  <ellipse cx="120" cy="195" rx="55" ry="8" fill="#111318"/>
+
+  <!-- Centered physical object representing a permanent stain/blemish (disgrace/shame mark) -->
+  <g transform="translate(120, 115)">
+    <!-- Polished metallic plaque / trophy base representing a career/achievement -->
+    <path d="M-50,40 L50,40 L40,70 L-40,70 Z" fill="#2E3544" stroke="#4A5568" stroke-width="2"/>
+    <path d="M-30,45 L30,45 L25,65 L-25,65 Z" fill="#1A1D24"/>
+    
+    <!-- Vertical plaque surface (dark slate) -->
+    <rect x="-40" y="-55" width="80" height="95" rx="6" fill="#252A34" stroke="#3A4150" stroke-width="2"/>
+    
+    <!-- Faded honorable laurel wreath etched into the plaque (fading career pride) -->
+    <path d="M-20,20 C-30,10 -30,-10 -20,-25" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M20,20 C30,10 30,-10 20,-25" fill="none" stroke="#4A5568" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="0" cy="-32" r="6" fill="#4A5568" opacity="0.5"/>
+
+    <!-- The permanent blemish/stain spreading across the plaque (耻辱 - indelible mark) -->
+    <path d="M-25,-10 C-15,-25 5,-30 18,-15 C30,0 25,25 5,30 C-15,35 -35,5 -25,-10 Z" fill="#E53E3E" opacity="0.85"/>
+    
+    <!-- Darker core of the stain indicating deep shame -->
+    <circle cx="-2" cy="8" r="10" fill="#9B2C2C"/>
+    <path d="M-8,3 C-5,-2 5,-4 8,2 C10,7 2,15 -8,3 Z" fill="#C53030"/>
+
+    <!-- Glossy reflection on the clean upper corner (juxtaposition) -->
+    <path d="M-32,-47 L-15,-47 L-25,-30 L-32,-30 Z" fill="#FFFFFF" opacity="0.08"/>
+  </g>
+</svg>

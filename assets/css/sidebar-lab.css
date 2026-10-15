@@ -58,29 +58,30 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 14px;
+  gap: 10px;
   box-sizing: border-box;
 }
 
 /* Large, Easy-to-Read Character Switcher (shown for multi-char words) */
 .stroke-char-switcher-wrap {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 6px;
   width: 100%;
 }
 .stroke-char-switch-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  min-height: 46px;
-  padding: 6px 12px;
-  border-radius: 12px;
+  gap: 6px;
+  min-height: 38px;
+  padding: 4px 10px;
+  border-radius: 10px;
   border: 1.5px solid var(--border);
   background: var(--surface-subtle);
   color: var(--text-secondary);
   font-family: inherit;
+  font-size: 13.5px;
   cursor: pointer;
   transition: all 0.16s ease;
   user-select: none;
@@ -142,8 +143,8 @@
 }
 .stroke-canvas-grid {
   position: relative;
-  width: var(--grid-box-size, 236px);
-  height: var(--grid-box-size, 236px);
+  width: var(--grid-box-size, 200px);
+  height: var(--grid-box-size, 200px);
   aspect-ratio: 1;
   display: grid;
   place-items: center;
@@ -155,7 +156,7 @@
     linear-gradient(45deg, transparent calc(50% - 0.5px), color-mix(in srgb, var(--border) 45%, transparent) calc(50% - 0.5px), color-mix(in srgb, var(--border) 45%, transparent) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
     linear-gradient(-45deg, transparent calc(50% - 0.5px), color-mix(in srgb, var(--border) 45%, transparent) calc(50% - 0.5px), color-mix(in srgb, var(--border) 45%, transparent) calc(50% + 0.5px), transparent calc(50% + 0.5px));
   border: 2px solid rgba(249, 115, 22, 0.55);
-  border-radius: 20px;
+  border-radius: 16px;
   cursor: pointer;
   box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.16);
   transition: border-color 0.18s ease, box-shadow 0.18s ease;
@@ -280,9 +281,9 @@
 .stroke-focus-card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 14px 16px;
-  border-radius: 16px;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 12px;
   background: var(--surface-subtle);
   border: 1px solid var(--border);
   box-sizing: border-box;
@@ -295,49 +296,49 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 .stroke-focus-badge-pill {
   display: inline-flex;
   align-items: center;
-  padding: 4px 12px;
+  padding: 2px 10px;
   border-radius: 999px;
   background: #f97316;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 800;
   letter-spacing: 0.02em;
 }
 .stroke-focus-name {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 16.5px;
+  gap: 6px;
+  font-size: 14px;
   color: var(--text-primary);
 }
 .stroke-focus-symbol {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 28px;
-  height: 28px;
-  padding: 0 6px;
-  border-radius: 8px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 5px;
+  border-radius: 6px;
   background: rgba(249, 115, 22, 0.15);
   border: 1px solid rgba(249, 115, 22, 0.35);
   color: #fb923c;
-  font-size: 17px;
+  font-size: 14.5px;
   font-weight: 800;
 }
 :root[data-theme="light"] .stroke-focus-symbol {
   color: #ea580c;
 }
 .stroke-focus-hint {
-  font-size: 14.5px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--text-secondary);
-  line-height: 1.4;
+  line-height: 1.35;
 }
 :root[data-theme="dark"] .stroke-focus-hint {
   color: #cbd5e1;
@@ -358,21 +359,21 @@
 .stroke-focus-nav {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  gap: 8px;
   margin-top: 2px;
 }
 .stroke-step-nav-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
-  padding: 8px 14px;
-  border-radius: 11px;
+  min-height: 35px;
+  padding: 6px 12px;
+  border-radius: 9px;
   border: 1px solid var(--border);
   background: var(--card-bg);
   color: var(--text-primary);
   font-family: inherit;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -395,17 +396,17 @@
   cursor: not-allowed;
 }
 .stroke-focus-loading {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-secondary);
   text-align: center;
-  padding: 12px;
+  padding: 8px;
 }
 
 /* Primary Action Controls Row (Large Buttons) */
 .stroke-canvas-controls {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  gap: 8px;
   width: 100%;
 }
 .stroke-canvas-controls .stroke-ctrl-btn {
@@ -413,13 +414,13 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
-  min-height: 48px;
-  padding: 10px 14px;
+  min-height: 38px;
+  padding: 7px 12px;
   text-align: center;
   line-height: 1.3;
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: 700;
-  border-radius: 13px;
+  border-radius: 10px;
   border: 1.5px solid var(--border);
   background: var(--surface-subtle);
   color: var(--text-primary);

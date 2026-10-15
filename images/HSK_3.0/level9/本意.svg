@@ -1,0 +1,24 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptualizing "本意" (Original Intention/Root Purpose) as a glowing, solid foundation seed/core -->
+  <!-- Representing the "Root" or "Origin" of a thought/action -->
+  
+  <g transform="translate(120, 120)">
+    <!-- The Core/Root -->
+    <circle cx="0" cy="0" r="45" fill="#2C313C" stroke="#FFB84D" stroke-width="3" stroke-dasharray="8 4"/>
+    
+    <!-- The Seed of Intention at the center -->
+    <path d="M-15,-15 L15,-15 L0,25 Z" fill="#FFB84D"/>
+    <circle cx="0" cy="-15" r="15" fill="#FFB84D"/>
+    
+    <!-- Radiating lines representing the unfolding of the original intent -->
+    <path d="M0 -60 L0 -80" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M52 0 L72 0" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-52 0 L-72 0" stroke="#FFB84D" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Decorative subtle growth lines -->
+    <path d="M-30 -30 L-45 -45" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+    <path d="M30 -30 L45 -45" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

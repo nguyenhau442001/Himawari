@@ -1,0 +1,29 @@
+<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Atmospheric background glow representing dusk -->
+  <circle cx="120" cy="140" r="70" fill="#E07A5F" opacity="0.12"/>
+  
+  <!-- Distant mountain silhouettes -->
+  <path d="M40 180 L90 120 L140 160 L200 110 L220 180 Z" fill="#242933"/>
+
+  <!-- Simple rustic house roof (Chimney / Kitchen smoke origin) -->
+  <path d="M95 150 L120 125 L145 150 Z" fill="#D4A373"/>
+  <rect x="102" y="150" width="36" height="30" fill="#E9EDC9"/>
+  <rect x="114" y="162" width="12" height="18" fill="#1A1D24"/>
+  
+  <!-- Rising wisp 1 (chuīyān - cooking smoke curling up) -->
+  <path d="M120 125 C120 110, 135 100, 125 85 C115 70, 130 55, 122 40" 
+        fill="none" stroke="#F4A261" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  
+  <!-- Rising wisp 2 (softer, parallel curl) -->
+  <path d="M127 130 C132 115, 120 102, 130 90 C140 75, 125 60, 133 45" 
+        fill="none" stroke="#E9D8A6" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Ambient evening stars/particles -->
+  <circle cx="70" cy="70" r="1.5" fill="#E9D8A6" opacity="0.5"/>
+  <circle cx="170" cy="60" r="2" fill="#E9D8A6" opacity="0.7"/>
+  <circle cx="190" cy="95" r="1" fill="#E9D8A6" opacity="0.4"/>
+  <circle cx="50" cy="110" r="1.5" fill="#E9D8A6" opacity="0.6"/>
+</svg>

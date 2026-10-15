@@ -1,0 +1,42 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Buffet Counter -->
+  <path d="M20 165C20 162 22 160 25 160H215C218 160 220 162 220 165V190H20V165Z" fill="#2D333B"/>
+  <rect x="20" y="190" width="200" height="4" fill="#3E4551"/>
+  
+  <!-- Food Platter 1: Seafood (Lobster/Shrimp) -->
+  <ellipse cx="75" cy="158" rx="35" ry="8" fill="#E0E0E0"/>
+  <path d="M60 152C55 148 65 142 75 142C85 142 95 148 90 152" fill="#FF6B6B"/>
+  <path d="M65 148C65 148 70 144 75 144C80 144 85 148 85 148" fill="#FF8E8E" opacity="0.6"/>
+  <circle cx="58" cy="145" r="3" fill="#FF6B6B"/>
+  <circle cx="92" cy="145" r="3" fill="#FF6B6B"/>
+
+  <!-- Food Platter 2: Greens/Salad -->
+  <ellipse cx="145" cy="158" rx="30" ry="7" fill="#E0E0E0"/>
+  <circle cx="135" cy="150" r="6" fill="#4CAF50"/>
+  <circle cx="145" cy="148" r="7" fill="#66BB6A"/>
+  <circle cx="155" cy="151" r="5" fill="#81C784"/>
+
+  <!-- The "Self-Service" Interaction -->
+  <!-- Hand holding a plate -->
+  <g transform="translate(160, 120)">
+    <!-- Plate -->
+    <ellipse cx="30" cy="25" rx="25" ry="6" fill="#FFFFFF"/>
+    <ellipse cx="30" cy="23" rx="22" ry="4" fill="#F5F5F5"/>
+    
+    <!-- Hand -->
+    <path d="M55 45C55 45 65 40 70 35C75 30 70 20 60 25L45 30" stroke="#D4A373" stroke-width="8" stroke-linecap="round" fill="none"/>
+    
+    <!-- Tongs -->
+    <path d="M-10 20 L-60 25 M-10 22 L-60 35" stroke="#9E9E9E" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M-10 18 A 4 4 0 0 1 -10 26" fill="none" stroke="#9E9E9E" stroke-width="2.5"/>
+    
+    <!-- Food being picked up -->
+    <circle cx="-62" cy="30" r="4" fill="#FF6B6B"/>
+  </g>
+
+  <!-- Accent Lighting/Glow -->
+  <rect x="50" y="130" width="50" height="2" rx="1" fill="#FFD700" opacity="0.3"/>
+  <rect x="125" y="130" width="40" height="2" rx="1" fill="#FFD700" opacity="0.3"/>
+</svg>

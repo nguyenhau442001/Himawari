@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle glowing aura for legendary/mythical artifact effect -->
+  <circle cx="120" cy="115" r="70" fill="#FFB800" opacity="0.08"/>
+  <circle cx="120" cy="115" r="50" fill="#FFB800" opacity="0.12"/>
+  
+  <!-- Sacred Monument / Historical Stele Base -->
+  <path d="M70 185 L170 185 L180 198 L60 198 Z" fill="#2C323D"/>
+  <rect x="80" y="165" width="80" height="20" rx="3" fill="#3A4252"/>
+  
+  <!-- The Legend/Scroll (Chuánqí - Legendary Tale) -->
+  <!-- Scroll Handles (Top & Bottom rollers) -->
+  <ellipse cx="120" cy="55" rx="36" ry="10" fill="#FF8C00"/>
+  <ellipse cx="120" cy="175" rx="36" ry="10" fill="#FF8C00"/>
+  
+  <!-- Scroll Body (Parchment) -->
+  <path d="M84 55 L84 175 C84 180 92 184 100 184 L140 184 C148 184 156 180 156 175 L156 55 C156 50 148 46 140 46 L100 46 C92 46 84 50 84 55 Z" fill="#F0E6D2"/>
+  
+  <!-- Scroll Inner Shading for depth -->
+  <path d="M88 57 L88 173 C88 176 93 180 100 180 L140 180 C147 180 152 176 152 173 L152 57 C152 54 147 50 140 50 L100 50 C93 50 88 54 88 57 Z" fill="#FFFBF0"/>
+  
+  <!-- Legendary Narrative Elements (Stylized Epic Mountain & Rising Sun / Hero Journey) -->
+  <path d="M100 145 L120 115 L140 145 Z" fill="#D4C5A9"/>
+  <path d="M110 145 L125 125 L145 145 Z" fill="#2C323D" opacity="0.15"/>
+  <circle cx="120" cy="95" r="12" fill="#FF8C00"/>
+  
+  <!-- Epic Flowing Script Lines representing historical legacy -->
+  <line x1="102" y1="110" x2="112" y2="110" stroke="#2C323D" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="128" y1="110" x2="138" y2="110" stroke="#2C323D" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+  
+  <line x1="98" y1="155" x2="142" y2="155" stroke="#2C323D" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+  <line x1="104" y1="165" x2="136" y2="165" stroke="#FF8C00" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Glowing Magical Sparkles / Legend Markers (Top and Bottom) -->
+  <path d="M120 28 L122.5 36 L130.5 38.5 L122.5 41 L120 49 L117.5 41 L109.5 38.5 L117.5 36 Z" fill="#FFB800"/>
+  <path d="M120 195 L121.5 199 L125.5 200.5 L121.5 202 L120 206 L118.5 202 L114.5 200.5 L118.5 199 Z" fill="#FFB800" opacity="0.8"/>
+  
+  <!-- Side glowing particles -->
+  <circle cx="70" cy="95" r="3" fill="#FFB800" opacity="0.6"/>
+  <circle cx="170" cy="115" r="4" fill="#FFB800" opacity="0.7"/>
+  <circle cx="65" cy="140" r="2" fill="#FFB800" opacity="0.5"/>
+  <circle cx="175" cy="80" r="2.5" fill="#FFB800" opacity="0.6"/>
+</svg>

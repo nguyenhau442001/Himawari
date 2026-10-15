@@ -1,0 +1,58 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(30, 20)">
+    <!-- Document background with a subtle tilt to show error/carelessness -->
+    <g transform="rotate(-4 90 100)">
+      <rect x="35" y="15" width="110" height="150" rx="6" fill="#2A2F3D" stroke="#3E475E" stroke-width="2"/>
+      <!-- Header lines representing ledger -->
+      <rect x="47" y="30" width="86" height="8" rx="2" fill="#3E475E"/>
+      <rect x="47" y="46" width="60" height="6" rx="2" fill="#2E374A"/>
+      
+      <!-- Financial rows -->
+      <line x1="47" y1="68" x2="133" y2="68" stroke="#3E475E" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <line x1="47" y1="88" x2="133" y2="88" stroke="#3E475E" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <line x1="47" y1="108" x2="133" y2="108" stroke="#3E475E" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <line x1="47" y1="128" x2="133" y2="128" stroke="#3E475E" stroke-width="1.5" stroke-dasharray="4,3"/>
+    </g>
+
+    <!-- Overlaying calculation sheet with prominent mistake -->
+    <rect x="55" y="45" width="110" height="145" rx="6" fill="#242A38" stroke="#FF5C5C" stroke-width="2"/>
+    
+    <!-- Ledger header -->
+    <rect x="67" y="60" width="86" height="10" rx="3" fill="#4E5D78"/>
+    
+    <!-- Row entries -->
+    <rect x="67" y="80" width="45" height="6" rx="2" fill="#3E475E"/>
+    <rect x="125" y="80" width="28" height="6" rx="2" fill="#3E475E"/>
+
+    <rect x="67" y="98" width="40" height="6" rx="2" fill="#3E475E"/>
+    <rect x="125" y="98" width="28" height="6" rx="2" fill="#3E475E"/>
+
+    <rect x="67" y="116" width="50" height="6" rx="2" fill="#3E475E"/>
+    <rect x="120" y="116" width="33" height="6" rx="2" fill="#3E475E"/>
+
+    <!-- Total Row with glaring discrepancy/error -->
+    <rect x="67" y="142" width="86" height="20" rx="3" fill="#FF5C5C" fill-opacity="0.15"/>
+    <rect x="75" y="149" width="30" height="6" rx="2" fill="#FF5C5C" fill-opacity="0.7"/>
+    <!-- Wrong calculation number highlighted in bright orange/red -->
+    <rect x="115" y="147" width="30" height="10" rx="2" fill="#FF5C5C"/>
+
+    <!-- Magnifying glass showing carelessness/oversight -->
+    <g transform="translate(95, 105)">
+      <!-- Glass body -->
+      <circle cx="35" cy="35" r="26" fill="#1A1D24" fill-opacity="0.8" stroke="#FFB800" stroke-width="4"/>
+      <!-- Glass reflection -->
+      <path d="M 19 25 A 20 20 0 0 1 35 15" stroke="#FFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+      <!-- Handle -->
+      <path d="M 54 54 L 78 78" stroke="#FFB800" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 54 54 L 78 78" stroke="#1A1D24" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Bold X mark symbolizing severe oversight/error -->
+    <g transform="translate(145, 30)">
+      <circle cx="16" cy="16" r="18" fill="#1A1D24" stroke="#FF5C5C" stroke-width="3"/>
+      <path d="M 9 9 L 23 23 M 23 9 L 9 23" stroke="#FF5C5C" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

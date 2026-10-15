@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Suit Jacket -->
+  <path d="M70 70 L170 70 L185 180 L150 200 L120 170 L90 200 L55 180 Z" fill="#2C3E50" stroke="#F39C12" stroke-width="2"/>
+  
+  <!-- Shirt/Collar -->
+  <path d="M100 70 L120 120 L140 70 Z" fill="#ECF0F1"/>
+  <path d="M100 70 L90 100 L100 120 Z" fill="#BDC3C7"/>
+  <path d="M140 70 L150 100 L140 120 Z" fill="#BDC3C7"/>
+  
+  <!-- Tie -->
+  <path d="M115 70 L120 100 L125 70 Z" fill="#F39C12"/>
+  <path d="M117 100 L120 160 L123 100 Z" fill="#F39C12"/>
+  
+  <!-- Lapel details -->
+  <path d="M70 70 L95 120 L100 70 Z" fill="#34495E"/>
+  <path d="M170 70 L145 120 L140 70 Z" fill="#34495E"/>
+  
+  <!-- Pocket Square -->
+  <rect x="145" y="85" width="15" height="5" rx="1" fill="#F39C12"/>
+</svg>

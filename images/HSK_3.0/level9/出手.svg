@@ -1,0 +1,36 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background glowing timing/moment accent (subtle dynamic lines representing 'timing/action') -->
+  <path d="M70 120 L90 120" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+  <path d="M150 120 L170 120" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Focus energy arc (representing the precise moment to act) -->
+  <circle cx="120" cy="120" r="75" fill="none" stroke="#262B35" stroke-width="2" stroke-dasharray="6 6"/>
+  
+  <!-- Main visual: A strong, decisive physical character/hand action representing "出手" (to step in / make a move / take action) -->
+  <!-- Forearm and hand lunging forward energetically -->
+  <g>
+    <!-- Sleeve cuff -->
+    <path d="M30 150 L65 135 L85 160 L50 175 Z" fill="#3B82F6"/>
+    <path d="M30 150 L65 135 L70 145 L35 160 Z" fill="#2563EB"/>
+    
+    <!-- Arm/Hand moving forward -->
+    <path d="M65 135 C90 125, 120 120, 150 120 C165 120, 175 125, 170 132 C165 138, 145 140, 125 140 C100 140, 80 145, 65 160 Z" fill="#F1F5F9"/>
+    
+    <!-- Palm and Fingers (Decisive pointing/acting gesture) -->
+    <path d="M140 115 C150 115, 175 118, 195 120 C205 121, 205 126, 195 128 C175 130, 150 130, 140 130 Z" fill="#E2E8F0"/>
+    
+    <!-- Action motion effect lines -->
+    <path d="M185 105 L210 115" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M195 120 L225 120" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M185 135 L210 125" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Focus spark at the fingertip (representing the exact optimal moment "时机") -->
+    <circle cx="205" cy="120" r="6" fill="#FBBF24"/>
+    <circle cx="205" cy="120" r="12" fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Secondary supporting silhouette context (ground/target element to ground the action) -->
+  <path d="M90 190 L150 190" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+</svg>

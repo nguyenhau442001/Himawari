@@ -1,0 +1,44 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Modern sleek booth / exhibition entrance structure -->
+  <path d="M 60 70 L 180 70 L 195 90 L 45 90 Z" fill="#2E3440"/>
+  <rect x="55" y="90" width="130" height="110" rx="4" fill="#242B35"/>
+  
+  <!-- Glowing book fair accent arch (Orange/Gold for focus) -->
+  <path d="M 70 85 L 170 85 L 160 70 L 80 70 Z" fill="#F5A623"/>
+  
+  <!-- Crowd / People silhouettes (representing "not less than tens of thousands") -->
+  <!-- Back row -->
+  <circle cx="85" cy="140" r="12" fill="#4C566A"/>
+  <rect x="75" y="152" width="20" height="48" rx="6" fill="#4C566A"/>
+  
+  <circle cx="120" cy="135" r="13" fill="#4C566A"/>
+  <rect x="108" y="148" width="24" height="52" rx="6" fill="#4C566A"/>
+  
+  <circle cx="155" cy="140" r="12" fill="#4C566A"/>
+  <rect x="145" y="152" width="20" height="48" rx="6" fill="#4C566A"/>
+
+  <!-- Front row (overlapping, diverse height and modern flat look) -->
+  <circle cx="65" cy="155" r="14" fill="#616E88"/>
+  <path d="M 50 170 C 50 162 57 160 65 160 C 73 160 80 162 80 170 L 80 200 L 50 200 Z" fill="#616E88"/>
+
+  <circle cx="100" cy="150" r="15" fill="#E5E9F0"/>
+  <path d="M 83 168 C 83 160 91 157 100 157 C 109 157 117 160 117 168 L 117 200 L 83 200 Z" fill="#D8DEE9"/>
+
+  <circle cx="140" cy="150" r="15" fill="#D8DEE9"/>
+  <path d="M 123 168 C 123 160 131 157 140 157 C 149 157 157 160 157 168 L 157 200 L 123 200 Z" fill="#C0C6D4"/>
+
+  <circle cx="175" cy="155" r="14" fill="#616E88"/>
+  <path d="M 160 170 C 160 162 167 160 175 160 C 183 160 190 162 190 170 L 190 200 L 160 200 Z" fill="#616E88"/>
+
+  <!-- Floating books / intellectual symbols representing the International Book Fair context -->
+  <rect x="105" y="105" width="30" height="20" rx="2" fill="#F5A623"/>
+  <line x1="112" y1="115" x2="128" y2="115" stroke="#1A1D24" stroke-width="2" stroke-linecap="round"/>
+  
+  <rect x="70" y="112" width="24" height="16" rx="2" fill="#88C0D0"/>
+  <rect x="146" y="112" width="24" height="16" rx="2" fill="#A3BE8C"/>
+  
+  <!-- Dynamic upward multiplicity lines (emphasizing "not fewer than / massive quantity") -->
+  <path d="M 35 110 L 25 100 M 35 130 L 20 120 M 205 110 L 215 100 M 205 130 L 220 120" stroke="#F5A623" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements (soft ambient glow for warmth) -->
+  <circle cx="120" cy="120" r="70" fill="#FFB74D" opacity="0.08"/>
+
+  <!-- Scene: "宠" (Spoiled/Cared-for Child with Parent) representing nurturing/spoiling dynamic -->
+  
+  <!-- Adult figure (Parent leaning down warmly, showing indulgence) -->
+  <!-- Body/Torso -->
+  <path d="M 120 140 C 100 140, 80 155, 70 180 L 170 180 C 160 155, 140 140, 120 140 Z" fill="#37474F"/>
+  <!-- Head -->
+  <circle cx="120" cy="98" r="22" fill="#FFCCBC"/>
+  <!-- Hair -->
+  <path d="M 98 95 C 98 80, 110 74, 120 74 C 130 74, 142 80, 142 95 C 135 90, 128 88, 120 88 C 112 88, 105 90, 98 95 Z" fill="#546E7A"/>
+  <!-- Gentle smiling facial features -->
+  <path d="M 115 103 Q 120 108 125 103" stroke="#37474F" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Parent's arm wrapping gently and holding up the child -->
+  <path d="M 110 130 C 95 130, 85 140, 80 150 L 105 160 C 110 152, 120 145, 135 140 Z" fill="#FFCCBC"/>
+
+  <!-- Child figure (Sitting comfortably, uplifted, pampered) -->
+  <!-- Child's body -->
+  <path d="M 120 120 C 110 120, 100 130, 95 145 L 145 145 C 140 130, 130 120, 120 120 Z" fill="#FFA726"/>
+  <!-- Child's Head -->
+  <circle cx="120" cy="80" r="18" fill="#FFCCBC"/>
+  <!-- Child's Hair (Playful tuft) -->
+  <path d="M 106 75 C 106 65, 114 62, 120 62 C 126 62, 134 65, 134 75 C 130 70, 125 68, 120 68 C 115 68, 110 70, 106 75 Z" fill="#8D6E63"/>
+  
+  <!-- Happy child facial expression (wide cheerful eyes/smile) -->
+  <circle cx="114" cy="80" r="1.5" fill="#37474F"/>
+  <circle cx="126" cy="80" r="1.5" fill="#37474F"/>
+  <path d="M 117 85 Q 120 89 123 85" stroke="#37474F" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Child's arms raised happily -->
+  <path d="M 105 125 Q 95 115, 90 110" stroke="#FFCCBC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 135 125 Q 145 115, 150 110" stroke="#FFCCBC" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Interactive warm accent (Golden crown or glowing hat to subtly represent being treated like royalty / "cưng chiều") -->
+  <path d="M 111 60 L 115 50 L 120 57 L 125 50 L 129 60 Z" fill="#FFD54F"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="120" cy="184" rx="60" ry="6" fill="#111318"/>
+</svg>

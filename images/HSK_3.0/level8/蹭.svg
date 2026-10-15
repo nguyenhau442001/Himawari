@@ -1,0 +1,64 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background subtle warm glow for focal point -->
+  <circle cx="120" cy="130" r="70" fill="#FF9F43" opacity="0.08"/>
+
+  <!-- Human lower leg and ankle (owner's calf) -->
+  <g id="human-leg">
+    <!-- Trouser hem / pants -->
+    <path d="M 95 60 L 145 60 L 142 105 L 98 105 Z" fill="#2C3E50"/>
+    <!-- Lower leg / calf skin -->
+    <path d="M 98 105 L 142 105 C 145 130, 140 170, 135 195 L 105 195 C 100 170, 95 130, 98 105 Z" fill="#E0AC69"/>
+    <!-- Subtle calf muscle contour -->
+    <path d="M 102 115 C 112 135, 110 160, 108 185" stroke="#C69252" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <!-- Ankle / Foot base -->
+    <path d="M 105 195 L 135 195 L 140 210 L 100 210 Z" fill="#3B4856"/>
+  </g>
+
+  <!-- Mischievous/affectionate cat rubbing against the leg ("蹭") -->
+  <g id="cat-rubbing">
+    <!-- Cat body leaning/curving against the leg -->
+    <path d="M 125 150 C 145 155, 175 160, 170 185 C 168 195, 150 200, 135 195 C 145 180, 140 165, 125 150 Z" fill="#FF9F43"/>
+    
+    <!-- Cat tail curving up playfully -->
+    <path d="M 170 180 C 190 185, 200 160, 190 140 C 185 130, 175 135, 175 145" stroke="#FF9F43" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+    <!-- Cat head pressing affectionately against the calf -->
+    <circle cx="123" cy="142" r="22" fill="#FF9F43"/>
+
+    <!-- Cat ears -->
+    <polygon points="106,130 114,112 124,128" fill="#FF9F43"/>
+    <polygon points="109,127 114,117 121,126" fill="#F39C12"/>
+    
+    <polygon points="130,125 138,110 144,127" fill="#FF9F43"/>
+    <polygon points="132,123 137,115 141,125" fill="#F39C12"/>
+
+    <!-- Cat facial expression: happy, eyes closed in contentment (> < or ~ shape) -->
+    <path d="M 112 140 Q 116 144 120 140" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M 125 140 Q 129 144 133 140" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Cute tiny nose and smile -->
+    <polygon points="121,146 125,146 123,148" fill="#2C3E50"/>
+    <path d="M 123 148 Q 123 152 120 153" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M 123 148 Q 123 152 126 153" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Cute whiskers -->
+    <line x1="105" y1="148" x2="115" y2="150" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="104" y1="153" x2="115" y2="153" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+    
+    <line x1="131" y1="150" x2="141" y2="148" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="131" y1="153" x2="142" y2="153" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- Cat paws gently reaching forward -->
+    <ellipse cx="132" cy="175" rx="6" ry="4" fill="#FF9F43"/>
+    <ellipse cx="145" cy="182" rx="6" ry="4" fill="#FF9F43"/>
+  </g>
+
+  <!-- Motion / friction contact indicator lines (denoting the action of "cèng" / rubbing gently) -->
+  <g id="friction-action-lines" opacity="0.7">
+    <path d="M 112 132 C 108 128, 108 122, 112 118" stroke="#FFD32A" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M 118 126 C 115 123, 115 119, 118 116" stroke="#FFD32A" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

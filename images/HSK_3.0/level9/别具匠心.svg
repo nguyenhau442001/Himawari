@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Decorative Background Grid / Accent Glow -->
+  <circle cx="120" cy="120" r="80" fill="#222733" opacity="0.6"/>
+  <path d="M60 180 L180 180" stroke="#2D3342" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Conceptual Representation for "别具匠心" (Unique craftsmanship / ingenious garden layout) -->
+  <!-- A stylized miniature Chinese landscape garden pavilion atop an artistic floating geometric base with a glowing golden compass/craft instrument -->
+
+  <!-- Base / Platform (Ingenious structure) -->
+  <path d="M70 160 L120 180 L170 160 L120 140 Z" fill="#2E384D" stroke="#3E4C66" stroke-width="2"/>
+  <path d="M70 160 L120 180 L120 195 L70 175 Z" fill="#1E232F" stroke="#2E384D" stroke-width="1.5"/>
+  <path d="M170 160 L120 180 L120 195 L170 175 Z" fill="#252C3A" stroke="#2E384D" stroke-width="1.5"/>
+
+  <!-- Water element (Non-nước reference) -->
+  <ellipse cx="120" cy="170" rx="35" ry="12" fill="#1F3A4D" opacity="0.8"/>
+  <path d="M95 170 Q120 162 145 170" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Rocks / Mountain element (的山水地形) -->
+  <path d="M90 145 L105 115 L120 135 L135 110 L155 150 Z" fill="#3B465C" stroke="#52617D" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M105 115 L120 135 L115 145 L90 145 Z" fill="#4B5975"/>
+
+  <!-- Traditional Pavilion (匠心 - Ingenious Design) -->
+  <!-- Pillars -->
+  <line x1="105" y1="125" x2="105" y2="105" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <line x1="135" y1="125" x2="135" y2="105" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Pavilion Roof Base -->
+  <rect x="100" y="100" width="40" height="6" rx="2" fill="#D97706"/>
+
+  <!-- Curved Traditional Roof -->
+  <path d="M92 100 Q120 85 148 100 Q140 92 120 90 Q100 92 92 100 Z" fill="#F59E0B"/>
+  <circle cx="120" cy="88" r="3" fill="#FCD34D"/>
+
+  <!-- Ingenious Craft Compass / Design Accent Rings (Floating) -->
+  <circle cx="120" cy="115" r="55" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.4"/>
+  <circle cx="120" cy="115" r="68" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.2"/>
+
+  <!-- Floating Sparkles / Precision Craft Indicators -->
+  <path d="M175 95 L178 102 L185 105 L178 108 L175 115 L172 108 L165 105 L172 102 Z" fill="#FCD34D"/>
+  <path d="M65 125 L67 130 L72 132 L67 134 L65 139 L63 134 L58 132 L63 130 Z" fill="#38BDF8" opacity="0.8"/>
+  <path d="M140 70 L141 73 L144 74 L141 75 L140 78 L139 75 L136 74 L139 73 Z" fill="#FCD34D" opacity="0.7"/>
+
+</svg>

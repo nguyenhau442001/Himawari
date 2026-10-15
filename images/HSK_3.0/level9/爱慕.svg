@@ -1,0 +1,44 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Conceptual illustration for 爱慕 (Admiration/Yearning for prestige or status, tied to '虚荣' vanity/ambition) -->
+  <!-- Sleek modern flat design depicting an individual gazing upward with glowing aspiration toward a pedestal of status/gold -->
+  
+  <g transform="translate(0, 10)">
+    <!-- Ambient glow / pedestal for unattainable/admired status -->
+    <path d="M90 170 L150 170 L165 195 L75 195 Z" fill="#2A2F3D"/>
+    <ellipse cx="120" cy="170" rx="30" ry="8" fill="#3A4254"/>
+    
+    <!-- Glowing golden object of admiration (symbolizing vanity/prestige) -->
+    <circle cx="120" cy="115" r="22" fill="#1A1D24"/>
+    <circle cx="120" cy="115" r="18" fill="#F39C12" opacity="0.2"/>
+    <polygon points="120,93 126,108 142,108 129,118 134,134 120,124 106,134 111,118 98,108 114,108" fill="#F39C12"/>
+    
+    <!-- Sparkles of admiration/glamour -->
+    <path d="M145 95 L148 102 L155 105 L148 108 L145 115 L142 108 L135 105 L142 102 Z" fill="#F1C40F" opacity="0.8"/>
+    <path d="M95 125 L97 129 L101 131 L97 133 L95 137 L93 133 L89 131 L93 129 Z" fill="#F1C40F" opacity="0.6"/>
+
+    <!-- Character looking up in deep admiration/longing -->
+    <!-- Body/Shoulders -->
+    <path d="M70 195 C70 170 95 160 120 160 C145 160 170 170 170 195 Z" fill="#2C3446"/>
+    
+    <!-- Neck -->
+    <rect x="113" y="145" width="14" height="20" fill="#E0AC9D"/>
+
+    <!-- Head tilted up -->
+    <circle cx="120" cy="130" r="22" fill="#E0AC9D"/>
+
+    <!-- Hair (Stylish modern silhouette) -->
+    <path d="M98 125 C98 110 110 102 122 102 C135 102 143 112 142 128 C135 124 130 122 120 122 C110 122 103 124 98 125 Z" fill="#34495E"/>
+
+    <!-- Facial features focused upward -->
+    <!-- Eye looking up -->
+    <path d="M125 124 Q130 122 135 125" stroke="#2C3446" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Slight awed/envious smile -->
+    <path d="M127 137 Q132 140 137 136" stroke="#2C3446" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+    <!-- Subtle glowing gaze lines connecting person to the golden star -->
+    <line x1="128" y1="122" x2="120" y2="120" stroke="#F1C40F" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.5"/>
+  </g>
+</svg>

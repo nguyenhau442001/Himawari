@@ -1,0 +1,72 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Dynamic Impact Shockwave / Background Energy Lines -->
+  <g opacity="0.3">
+    <path d="M120 40 L120 200" stroke="#333D51" stroke-width="2" stroke-dasharray="4 4"/>
+    <circle cx="120" cy="130" r="65" fill="none" stroke="#F39C12" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="120" cy="130" r="45" fill="none" stroke="#F39C12" stroke-width="1" opacity="0.2"/>
+  </g>
+
+  <!-- Central Impact Spark / Flash Effect -->
+  <g transform="translate(120, 125)">
+    <polygon points="0,-25 6,-8 22,-12 10,2 18,18 0,10 -18,18 -10,2 -22,-12 -6,-8" fill="#F39C12"/>
+    <circle cx="0" cy="0" r="8" fill="#FFF59D"/>
+  </g>
+
+  <!-- Left Player (Red Jersey) -->
+  <g transform="translate(75, 125)">
+    <!-- Motion lines -->
+    <path d="M-30 -20 L-10 -20" stroke="#E74C3C" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-35 0 L-15 0" stroke="#E74C3C" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Body tilted towards center -->
+    <path d="M-15,-30 L10,-10 L5,25 L-20,15 Z" fill="#E74C3C"/>
+    <!-- Head -->
+    <circle cx="-5" cy="-45" r="10" fill="#FFCCBC"/>
+    <!-- Hair -->
+    <path d="M-15,-48 C-15,-55 5,-55 5,-45 Z" fill="#2C3E50"/>
+    <!-- Arm reaching forward in collision -->
+    <path d="M0,-20 L25,-12" stroke="#FFCCBC" stroke-width="6" stroke-linecap="round"/>
+    <!-- Legs in motion -->
+    <path d="M-10,25 L-25,50" stroke="#2C3E50" stroke-width="7" stroke-linecap="round"/>
+    <path d="M0,20 L15,45" stroke="#2C3E50" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Player (Blue/Slate Jersey) -->
+  <g transform="translate(165, 125)">
+    <!-- Motion lines -->
+    <path d="M30 -20 L10 -20" stroke="#3498DB" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M35 0 L15 0" stroke="#3498DB" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Body tilted towards center -->
+    <path d="M15,-30 L-10,-10 L-5,25 L20,15 Z" fill="#3498DB"/>
+    <!-- Head -->
+    <circle cx="5" cy="-45" r="10" fill="#FFCCBC"/>
+    <!-- Hair -->
+    <path d="M-5,-48 C-5,-55 15,-55 15,-45 Z" fill="#2C3E50"/>
+    <!-- Arm reaching forward in collision -->
+    <path d="M0,-20 L-25,-12" stroke="#FFCCBC" stroke-width="6" stroke-linecap="round"/>
+    <!-- Legs in motion -->
+    <path d="M10,25 L25,50" stroke="#2C3E50" stroke-width="7" stroke-linecap="round"/>
+    <path d="M0,20 L-15,45" stroke="#2C3E50" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Soccer Ball Compressed/Deflecting at the Point of Impact -->
+  <g transform="translate(120, 120)">
+    <ellipse cx="0" cy="0" rx="14" ry="11" fill="#FFFFFF" transform="rotate(-15)"/>
+    <!-- Ball Pattern Details -->
+    <path d="M-4,-4 L4,-6 L2,4 Z" fill="#2C3E50" opacity="0.8"/>
+    <path d="M-8,2 L-2,8 L-10,6 Z" fill="#2C3E50" opacity="0.8"/>
+  </g>
+
+  <!-- Dynamic Debris / Physics Particles -->
+  <circle cx="95" cy="95" r="3" fill="#F39C12"/>
+  <circle cx="145" cy="100" r="2" fill="#F39C12"/>
+  <circle cx="110" cy="155" r="2.5" fill="#F39C12"/>
+  <circle cx="135" cy="145" r="3.5" fill="#F39C12"/>
+
+  <!-- Ground Line -->
+  <path d="M40 180 L200 180" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+</svg>

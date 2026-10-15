@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <g transform="translate(0, 15)">
+    <!-- Subtle ground line -->
+    <line x1="50" y1="175" x2="190" y2="175" stroke="#2A303C" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Figure 1 (Left) - Rescuer / Team member -->
+    <g transform="translate(75, 95)">
+      <!-- Torso / Uniform -->
+      <path d="M-12,45 L12,45 L15,75 L-15,75 Z" fill="#2E4A7D"/>
+      <!-- Vest Straps / Safety gear -->
+      <path d="M-8,45 L-4,75 L0,75 L-2,45 Z" fill="#FF8C00" opacity="0.8"/>
+      <path d="M8,45 L4,75 L0,75 L2,45 Z" fill="#FF8C00" opacity="0.8"/>
+      <!-- Head & Helmet -->
+      <circle cx="0" cy="24" r="14" fill="#E8B895"/>
+      <!-- Helmet -->
+      <path d="M-15,22 C-15,12 -8,10 0,10 C8,10 15,12 15,22 Z" fill="#E65100"/>
+      <path d="M-16,22 L16,22 L16,25 L-16,25 Z" fill="#FF8C00"/>
+      <!-- Arm raised slightly, shoulder touching -->
+      <path d="M-12,48 C-20,48 -24,55 -20,65" stroke="#2E4A7D" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <!-- Head tilt towards center (solidarity) -->
+      <circle cx="2" cy="24" r="14" fill="#E8B895" opacity="0"/> <!-- invisible anchor alignment -->
+    </g>
+
+    <!-- Figure 2 (Right) - Rescuer / Team member (Shoulder-to-shoulder overlap) -->
+    <g transform="translate(145, 95)">
+      <!-- Torso / Uniform -->
+      <path d="M-12,45 L12,45 L15,75 L-15,75 Z" fill="#2E4A7D"/>
+      <!-- Vest Straps / Safety gear -->
+      <path d="M-8,45 L-4,75 L0,75 L-2,45 Z" fill="#FF8C00" opacity="0.8"/>
+      <path d="M8,45 L4,75 L0,75 L2,45 Z" fill="#FF8C00" opacity="0.8"/>
+      <!-- Head & Helmet -->
+      <circle cx="0" cy="24" r="14" fill="#F0C5A9"/>
+      <!-- Helmet -->
+      <path d="M-15,22 C-15,12 -8,10 0,10 C8,10 15,12 15,22 Z" fill="#E65100"/>
+      <path d="M-16,22 L16,22 L16,25 L-16,25 Z" fill="#FF8C00"/>
+    </g>
+
+    <!-- Unified Overlapping Shoulder Area ("并肩" - Kề vai, sát cánh) -->
+    <!-- Highlighting the exact point of connection -->
+    <path d="M97,130 C107,125 123,125 133,130" stroke="#FFB74D" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="115" cy="127" r="3" fill="#FFB74D"/>
+    
+    <!-- Directional Forward/Action Energy lines below/around -->
+    <path d="M60,165 L80,165" stroke="#FF8C00" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M150,165 L170,165" stroke="#FF8C00" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M100,168 L120,168" stroke="#FFB74D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

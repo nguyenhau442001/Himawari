@@ -1,0 +1,29 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Person representing "暴躁" (Irritability/Short-tempered) -->
+  <!-- Body -->
+  <path d="M120 120 C 120 100, 150 90, 160 120 L 160 200 L 80 200 L 80 120 C 90 90, 120 100, 120 120 Z" fill="#3A3F4B"/>
+  
+  <!-- Head -->
+  <circle cx="120" cy="80" r="35" fill="#FFB347"/>
+  
+  <!-- Chaotic/Irritated Facial Features -->
+  <path d="M105 70 L 115 75 M 125 75 L 135 70" stroke="#1A1D24" stroke-width="4" stroke-linecap="round"/>
+  <path d="M105 95 Q 120 85 135 95" stroke="#1A1D24" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <!-- Exaggerated "Heat/Steam" effect to represent the internal state -->
+  <path d="M150 60 Q 160 40 150 20" stroke="#FF5733" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M165 65 Q 180 45 170 25" stroke="#FF5733" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M135 55 Q 140 35 130 15" stroke="#FF5733" stroke-width="6" stroke-linecap="round" fill="none"/>
+  
+  <!-- Clenched Fists -->
+  <circle cx="70" cy="140" r="15" fill="#FFB347"/>
+  <circle cx="170" cy="140" r="15" fill="#FFB347"/>
+  
+  <!-- Contrast element: A small, calm, stable object (a clock) to emphasize the chaotic state -->
+  <circle cx="50" cy="50" r="20" fill="#2C313C"/>
+  <circle cx="50" cy="50" r="16" fill="#1A1D24"/>
+  <line x1="50" y1="50" x2="50" y2="40" stroke="#5D677A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="50" x2="60" y2="50" stroke="#5D677A" stroke-width="3" stroke-linecap="round"/>
+</svg>

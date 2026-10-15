@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Conceptual Background Elements (Subtle architecture/blueprint grid indicating creation and foundational establishment) -->
+  <g opacity="0.15" stroke="#38BDF8" stroke-width="1" stroke-dasharray="4 4" fill="none">
+    <line x1="40" y1="200" x2="200" y2="200" />
+    <line x1="120" y1="40" x2="120" y2="200" />
+    <circle cx="120" cy="120" r="70" />
+  </g>
+
+  <!-- Central Physical Object: A magnificent monument / foundational cornerstone structure being built ("lập nên, tạo dựng") -->
+  <g transform="translate(0, 5)">
+    <!-- Base Foundation / Ground -->
+    <path d="M 60 185 L 180 185 L 195 198 L 45 198 Z" fill="#334155" />
+    <path d="M 45 198 L 195 198 L 205 204 L 35 204 Z" fill="#1E293B" />
+    
+    <!-- Cornerstone / Pillar Structure (Representing establishment and creation) -->
+    <!-- Left Pillar -->
+    <path d="M 75 110 L 95 95 L 95 185 L 75 185 Z" fill="#475569" />
+    <path d="M 75 110 L 95 95 L 105 105 L 85 120 Z" fill="#64748B" />
+    
+    <!-- Right Pillar -->
+    <path d="M 145 95 L 165 110 L 165 185 L 145 185 Z" fill="#475569" />
+    <path d="M 145 95 L 165 110 L 155 120 L 135 105 Z" fill="#64748B" />
+
+    <!-- Central Monolith / Apex (Achieving peak / 创下记录) -->
+    <path d="M 95 80 L 145 80 L 165 110 L 75 110 Z" fill="#0284C7" />
+    <path d="M 120 45 L 145 80 L 95 80 Z" fill="#38BDF8" />
+    <path d="M 120 45 L 145 80 L 120 80 Z" fill="#7DD3FC" />
+
+    <!-- Golden Peak Accent (High achievement / 创下历史最高) -->
+    <polygon points="120,25 127,45 120,50 113,45" fill="#F59E0B" />
+    <polygon points="120,25 127,45 120,45" fill="#FBBF24" />
+
+    <!-- Supporting Architectural Beams -->
+    <rect x="90" y="130" width="60" height="12" fill="#0EA5E9" rx="2" />
+    <rect x="85" y="155" width="70" height="12" fill="#0284C7" rx="2" />
+
+    <!-- Glowing Construction / Creation Sparks -->
+    <circle cx="120" cy="25" r="3" fill="#FEF08A" />
+    <circle cx="105" cy="40" r="2" fill="#FDE047" />
+    <circle cx="135" cy="40" r="2" fill="#FDE047" />
+    
+    <!-- Dynamic Achievement Vector Arrow circling upwards -->
+    <path d="M 70 160 C 50 140 55 100 80 85" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" />
+    <polygon points="75,80 88,83 80,92" fill="#F59E0B" />
+  </g>
+</svg>

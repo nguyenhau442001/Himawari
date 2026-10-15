@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Background decorative elements for diplomatic podium context -->
+  <path d="M40 180 L200 180" stroke="#2A313C" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Podium Base representing the press conference context -->
+  <path d="M80 180 L100 130 L140 130 L160 180 Z" fill="#2E3748"/>
+  <path d="M90 130 L150 130 L145 125 L95 125 Z" fill="#3E4A60"/>
+
+  <!-- Main Object: Dual Microphones representing "Re-stating / Reaffirming" (重申) -->
+  <!-- Left Microphone (First statement) -->
+  <g transform="translate(-15, 0)">
+    <!-- Stand -->
+    <rect x="105" y="95" width="4" height="45" fill="#5C6C84" rx="2"/>
+    <!-- U-mount -->
+    <path d="M100 75 Q107 90 114 75" fill="none" stroke="#5C6C84" stroke-width="3" stroke-linecap="round"/>
+    <!-- Mic Head -->
+    <rect x="99" y="50" width="16" height="24" rx="8" fill="#FFA726"/>
+    <!-- Mic Grille lines -->
+    <line x1="103" y1="56" x2="111" y2="56" stroke="#E65100" stroke-width="1.5"/>
+    <line x1="103" y1="62" x2="111" y2="62" stroke="#E65100" stroke-width="1.5"/>
+    <line x1="103" y1="68" x2="111" y2="68" stroke="#E65100" stroke-width="1.5"/>
+  </g>
+
+  <!-- Right Microphone (Repeated statement / Reiteration) -->
+  <g transform="translate(15, 0)">
+    <!-- Stand -->
+    <rect x="105" y="95" width="4" height="45" fill="#5C6C84" rx="2"/>
+    <!-- U-mount -->
+    <path d="M100 75 Q107 90 114 75" fill="none" stroke="#5C6C84" stroke-width="3" stroke-linecap="round"/>
+    <!-- Mic Head -->
+    <rect x="99" y="50" width="16" height="24" rx="8" fill="#FFC107"/>
+    <!-- Mic Grille lines -->
+    <line x1="103" y1="56" x2="111" y2="56" stroke="#FFA000" stroke-width="1.5"/>
+    <line x1="103" y1="62" x2="111" y2="62" stroke="#FFA000" stroke-width="1.5"/>
+    <line x1="103" y1="68" x2="111" y2="68" stroke="#FFA000" stroke-width="1.5"/>
+  </g>
+
+  <!-- Sound Waves / Echo Effect visualizing "Repeating / Reaffirming" -->
+  <path d="M65 62 C55 68 55 82 65 88" fill="none" stroke="#FFC107" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M55 54 C40 64 40 86 55 96" fill="none" stroke="#FFC107" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+
+  <path d="M175 62 C185 68 185 82 175 88" fill="none" stroke="#FFC107" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M185 54 C200 64 200 86 185 96" fill="none" stroke="#FFC107" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Official Document / Stand Base Element symbolizing formal stance/policy -->
+  <path d="M92 145 L148 145 L154 175 L86 175 Z" fill="#3E4A60"/>
+  <rect x="102" y="152" width="36" height="4" rx="2" fill="#8AB4F8"/>
+  <rect x="106" y="161" width="28" height="3" rx="1.5" fill="#5C6C84"/>
+</svg>

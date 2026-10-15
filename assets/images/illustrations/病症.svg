@@ -1,0 +1,21 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Medical diagnostic representation for "病症" (symptom/illness) -->
+  <!-- Silhouette of a human torso/chest area -->
+  <path d="M80 180 C80 130, 100 100, 120 100 C140 100, 160 130, 160 180 Z" fill="#3A404D"/>
+  
+  <!-- Highlighted area representing the specific symptom/illness location -->
+  <circle cx="120" cy="135" r="22" fill="#FFB84D" opacity="0.9"/>
+  
+  <!-- Diagnostic crosshair/focus indicator over the symptom area -->
+  <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="round">
+    <line x1="120" y1="105" x2="120" y2="118"/>
+    <line x1="120" y1="152" x2="120" y2="165"/>
+    <line x1="90" y1="135" x2="103" y2="135"/>
+    <line x1="137" y1="135" x2="150" y2="135"/>
+  </g>
+  
+  <!-- Subtle pulse/wave indicator inside the focus area -->
+  <path d="M108 135 L114 125 L120 145 L126 135 L132 135" fill="none" stroke="#1A1D24" stroke-width="3" stroke-linejoin="round"/>
+</svg>

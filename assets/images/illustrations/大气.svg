@@ -1,0 +1,75 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Architectural Illustration representing "大气" (bề thế, hoành tráng) -->
+  <g transform="translate(0, 10)">
+    <!-- Ambient glow / sky gradient behind architecture -->
+    <defs>
+      <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#2D3748" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#1A1D24" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#F6E05E"/>
+        <stop offset="100%" stop-color="#D69E2E"/>
+      </linearGradient>
+      <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#4A5568"/>
+        <stop offset="50%" stop-color="#718096"/>
+        <stop offset="100%" stop-color="#4A5568"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Sky backdrop -->
+    <rect x="30" y="30" width="180" height="150" rx="8" fill="url(#skyGrad)"/>
+
+    <!-- Ground / Plaza -->
+    <path d="M 20 185 L 220 185 L 205 200 L 35 200 Z" fill="#2A3441"/>
+    <!-- Plaza steps -->
+    <rect x="45" y="180" width="150" height="3" fill="#3E4C59" rx="1"/>
+    <rect x="40" y="184" width="160" height="3" fill="#333E4D" rx="1"/>
+
+    <!-- Modern Grand Building Structure (Bề thế) -->
+    <!-- Left Wing -->
+    <path d="M 50 180 L 50 110 L 80 95 L 80 180 Z" fill="#2D3748"/>
+    <!-- Right Wing -->
+    <path d="M 190 180 L 190 110 L 160 95 L 160 180 Z" fill="#2D3748"/>
+
+    <!-- Central Majestic Tower -->
+    <rect x="80" y="70" width="80" height="110" fill="#242B35"/>
+    
+    <!-- Grand Entrance / Canopy (Trang trọng) -->
+    <path d="M 95 180 L 95 145 L 145 145 L 145 180 Z" fill="#1A202C"/>
+    <rect x="90" y="142" width="60" height="5" fill="url(#goldGrad)" rx="1"/>
+
+    <!-- Modern Glass Panes & Geometric Facade Lines -->
+    <!-- Center Tower Windows -->
+    <rect x="88" y="78" width="18" height="55" fill="url(#glassGrad)"/>
+    <rect x="111" y="78" width="18" height="55" fill="url(#glassGrad)"/>
+    <rect x="134" y="78" width="18" height="55" fill="url(#glassGrad)"/>
+
+    <!-- Horizontal Floor Dividers (Giving scale and grandeur) -->
+    <line x1="80" y1="95" x2="160" y2="95" stroke="#1A202C" stroke-width="2"/>
+    <line x1="80" y1="120" x2="160" y2="120" stroke="#1A202C" stroke-width="2"/>
+    <line x1="80" y1="145" x2="160" y2="145" stroke="#1A202C" stroke-width="2"/>
+
+    <!-- Side Wings Windows -->
+    <line x1="55" y1="125" x2="75" y2="115" stroke="#4A5568" stroke-width="2"/>
+    <line x1="55" y1="140" x2="75" y2="130" stroke="#4A5568" stroke-width="2"/>
+    <line x1="55" y1="155" x2="75" y2="145" stroke="#4A5568" stroke-width="2"/>
+
+    <line x1="165" y1="115" x2="185" y2="125" stroke="#4A5568" stroke-width="2"/>
+    <line x1="165" y1="130" x2="185" y2="140" stroke="#4A5568" stroke-width="2"/>
+    <line x1="165" y1="145" x2="185" y2="155" stroke="#4A5568" stroke-width="2"/>
+
+    <!-- Accent Architectural Crown / Spire (Bề thế, phóng khoáng) -->
+    <polygon points="120,45 125,70 115,70" fill="url(#goldGrad)"/>
+    <rect x="110" y="68" width="20" height="4" fill="url(#goldGrad)" rx="1"/>
+
+    <!-- Stylized warm accent lighting on building base -->
+    <circle cx="120" cy="162" r="3" fill="#F6E05E"/>
+    <circle cx="105" cy="162" r="2" fill="#F6E05E" opacity="0.7"/>
+    <circle cx="135" cy="162" r="2" fill="#F6E05E" opacity="0.7"/>
+  </g>
+</svg>

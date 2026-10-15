@@ -1,0 +1,28 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Water surface -->
+  <path d="M0 180 C 80 160, 160 200, 240 180 L 240 240 L 0 240 Z" fill="#2C3E50"/>
+  <path d="M0 180 C 80 160, 160 200, 240 180" stroke="#3498DB" stroke-width="4" fill="none"/>
+  
+  <!-- The Rescuer (Action pose: mid-air dive) -->
+  <g transform="translate(120, 120)">
+    <!-- Body -->
+    <path d="M-20 -40 L 10 -10 L 0 30 L -30 10 Z" fill="#F39C12"/>
+    <!-- Arms reaching forward -->
+    <path d="M10 -10 L 50 -20" stroke="#F39C12" stroke-width="8" stroke-linecap="round"/>
+    <path d="M10 -10 L 40 10" stroke="#F39C12" stroke-width="8" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="-25" cy="-45" r="12" fill="#F39C12"/>
+  </g>
+  
+  <!-- The Child in water -->
+  <g transform="translate(180, 200)">
+    <circle cx="0" cy="-10" r="8" fill="#BDC3C7"/>
+    <path d="M-10 0 L 10 0" stroke="#BDC3C7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion lines to emphasize immediate reaction -->
+  <path d="M80 80 L 100 100" stroke="#5D6D7E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M70 90 L 90 110" stroke="#5D6D7E" stroke-width="3" stroke-linecap="round"/>
+</svg>

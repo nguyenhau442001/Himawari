@@ -1,0 +1,68 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Ambient background elements representing library shelves in dark mode -->
+  <g opacity="0.15">
+    <rect x="25" y="40" width="185" height="8" rx="4" fill="#64748B"/>
+    <rect x="25" y="100" width="185" height="8" rx="4" fill="#64748B"/>
+    <rect x="25" y="160" width="185" height="8" rx="4" fill="#64748B"/>
+  </g>
+
+  <!-- Bookshelf vertical dividers / books background -->
+  <g opacity="0.1">
+    <rect x="40" y="48" width="15" height="52" fill="#38BDF8"/>
+    <rect x="58" y="48" width="22" height="52" fill="#F43F5E"/>
+    <rect x="140" y="48" width="18" height="52" fill="#F59E0B"/>
+    <rect x="161" y="48" width="12" height="52" fill="#10B981"/>
+    
+    <rect x="80" y="108" width="25" height="52" fill="#8B5CF6"/>
+    <rect x="108" y="108" width="16" height="52" fill="#38BDF8"/>
+    <rect x="180" y="108" width="20" height="52" fill="#F43F5E"/>
+  </g>
+
+  <!-- Central physical focal point: Library Aisle intersection / "Coincidence" moment (Two persons accidentally meeting at a bookshelf corner) -->
+  <g transform="translate(0, 10)">
+    <!-- Bookshelf corner pillar -->
+    <rect x="112" y="30" width="16" height="150" fill="#2D3748" rx="2"/>
+    <rect x="110" y="30" width="20" height="6" fill="#4A5568" rx="1"/>
+
+    <!-- Person 1 (Left, facing right) -->
+    <g transform="translate(65, 95)">
+      <!-- Body/Torso -->
+      <path d="M 0,65 L 0,40 C 0,30 10,25 22,25 C 34,25 44,30 44,40 L 44,65 Z" fill="#38BDF8"/>
+      <!-- Head -->
+      <circle cx="22" cy="14" r="10" fill="#FCBD99"/>
+      <!-- Hair -->
+      <path d="M 12,12 C 12,6 16,3 22,3 C 28,3 32,6 32,14 L 12,14 Z" fill="#1E293B"/>
+      <!-- Raised arm expressing surprise/recognition -->
+      <path d="M 35,32 Q 48,22 42,12" stroke="#FCBD99" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <!-- Holding a book -->
+      <rect x="40" y="8" width="12" height="15" rx="1" fill="#F59E0B" transform="rotate(15 40 8)"/>
+    </g>
+
+    <!-- Person 2 (Right, facing left - coming around the corner) -->
+    <g transform="translate(131, 95)">
+      <!-- Body/Torso -->
+      <path d="M 0,65 L 0,40 C 0,30 10,25 22,25 C 34,25 44,30 44,40 L 44,65 Z" fill="#F43F5E"/>
+      <!-- Head -->
+      <circle cx="22" cy="14" r="10" fill="#FCBD99"/>
+      <!-- Hair -->
+      <path d="M 12,12 C 12,5 20,4 26,6 C 32,8 32,14 32,14 L 12,14 Z" fill="#334155"/>
+      <!-- Raised arm / hand in surprised greeting -->
+      <path d="M 9,32 Q -2,22 4,12" stroke="#FCBD99" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Spark of sudden recognition / "Coincidence" highlight -->
+    <g transform="translate(120, 75)">
+      <circle cx="0" cy="0" r="14" fill="#F59E0B" opacity="0.2"/>
+      <path d="M 0,-8 L 2,-2 L 8,0 L 2,2 L 0,8 L -2,2 L -8,0 L -2,-2 Z" fill="#F59E0B"/>
+      <path d="M -7,-7 L -4,-4" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 7,7 L 4,4" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 7,-7 L 4,-4" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+      <path d="M -7,7 L -4,4" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Floor shadow -->
+    <ellipse cx="120" cy="168" rx="85" ry="6" fill="#0F172A"/>
+  </g>
+</svg>

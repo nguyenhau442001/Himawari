@@ -35,7 +35,7 @@ function getStrokeColors() {
 function getGridBoxSize() {
   const panel = document.getElementById('strokeCanvasWrap');
   const rawWidth = (panel && panel.clientWidth > 180) ? panel.clientWidth - 36 : 360;
-  return Math.min(248, Math.max(200, Math.floor(rawWidth * 0.72)));
+  return Math.min(200, Math.max(170, Math.floor(rawWidth * 0.58)));
 }
 
 // Classify basic Chinese stroke type and provide clear Vietnamese directional instructions

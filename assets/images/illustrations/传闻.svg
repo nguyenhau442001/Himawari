@@ -1,0 +1,37 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background Motion Lines for "Spreading" -->
+  <path d="M180 80 Q 140 60 100 90 M190 110 Q 150 90 110 120 M180 140 Q 140 120 100 150" stroke="#374151" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Character 1 (The source/speaker) -->
+  <g transform="translate(160, 120)">
+    <circle cx="0" cy="-30" r="12" fill="#F3F4F6"/>
+    <path d="M-15 0 L15 0 L10 40 L-10 40 Z" fill="#F3F4F6"/>
+    <!-- Hand gesturing outward -->
+    <path d="M12 10 L25 5" stroke="#F3F4F6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- The "Rumor" (Abstract speech bubble shapes moving outward) -->
+  <g fill="#F59E0B">
+    <circle cx="130" cy="90" r="6"/>
+    <circle cx="110" cy="110" r="4"/>
+    <circle cx="120" cy="140" r="5"/>
+  </g>
+  
+  <!-- Character 2 (The listener/receiver) -->
+  <g transform="translate(80, 140)">
+    <circle cx="0" cy="-30" r="12" fill="#9CA3AF"/>
+    <path d="M-15 0 L15 0 L10 40 L-10 40 Z" fill="#9CA3AF"/>
+  </g>
+  
+  <!-- Character 3 (The second receiver) -->
+  <g transform="translate(50, 160)">
+    <circle cx="0" cy="-30" r="10" fill="#6B7280"/>
+    <path d="M-12 0 L12 0 L8 35 L-8 35 Z" fill="#6B7280"/>
+  </g>
+  
+  <!-- Motion/Transmission lines -->
+  <path d="M145 100 L115 125" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M115 125 L85 150" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

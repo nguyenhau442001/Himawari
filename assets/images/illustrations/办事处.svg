@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle ambient glow/shadow to anchor the building -->
+  <ellipse cx="120" cy="195" rx="70" ry="10" fill="#0D0F12" opacity="0.6"/>
+
+  <!-- Main Office / Representative Building Structure -->
+  <!-- Building Body -->
+  <rect x="75" y="70" width="90" height="120" rx="4" fill="#282D37"/>
+  
+  <!-- Modern glass facade panels (left and right sections) -->
+  <rect x="83" y="85" width="34" height="95" rx="2" fill="#1E232D"/>
+  <rect x="123" y="85" width="34" height="95" rx="2" fill="#1E232D"/>
+
+  <!-- Window rows representing floors -->
+  <!-- Column 1 Windows -->
+  <rect x="88" y="93" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="103" y="93" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="88" y="114" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="103" y="114" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="88" y="135" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="103" y="135" width="10" height="14" rx="1" fill="#3A4252"/>
+
+  <!-- Column 2 Windows (Lit up warmly to show activity/office function) -->
+  <rect x="128" y="93" width="10" height="14" rx="1" fill="#F39C12" opacity="0.85"/>
+  <rect x="143" y="93" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="128" y="114" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="143" y="114" width="10" height="14" rx="1" fill="#F39C12" opacity="0.85"/>
+  <rect x="128" y="135" width="10" height="14" rx="1" fill="#3A4252"/>
+  <rect x="143" y="135" width="10" height="14" rx="1" fill="#3A4252"/>
+
+  <!-- Ground floor entrance canopy/awning -->
+  <rect x="95" y="165" width="50" height="6" rx="2" fill="#F39C12"/>
+  
+  <!-- Office Glass Entrance Doors -->
+  <rect x="105" y="171" width="14" height="19" fill="#1A1D24"/>
+  <rect x="121" y="171" width="14" height="19" fill="#1A1D24"/>
+  <line x1="120" y1="171" x2="120" y2="190" stroke="#F39C12" stroke-width="1.5"/>
+
+  <!-- Architectural roof accent / communication spire representing branch office linkage -->
+  <rect x="110" y="58" width="20" height="12" rx="2" fill="#343B48"/>
+  <line x1="120" y1="58" x2="120" y2="42" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="120" cy="39" r="4" fill="#F39C12"/>
+  <!-- Signal waves representing remote connection to headquarters -->
+  <path d="M 112 30 A 10 10 0 0 1 128 30" fill="none" stroke="#F39C12" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 108 24 A 16 16 0 0 1 132 24" fill="none" stroke="#F39C12" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Professional minimalist map pin / location marker subtly integrated above to denote "Local Office / Site" -->
+  <path d="M 120 5 C 110.5 5 103 12.5 103 22 C 103 33 120 48 120 48 C 120 48 137 33 137 22 C 137 12.5 129.5 5 120 5 Z" fill="#E74C3C" opacity="0.9"/>
+  <circle cx="120" cy="21" r="4" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Subtle background grid/glow for depth -->
+  <circle cx="120" cy="120" r="90" fill="#222733" opacity="0.5"/>
+  <path d="M40 180 Q120 170 200 180" stroke="#2D3342" stroke-width="2" fill="none"/>
+
+  <!-- Danger / Hazard zone indicator (representing the disaster area) -->
+  <path d="M45 185 L75 130 L105 185 Z" fill="#E05638" opacity="0.15"/>
+  <path d="M50 180 L75 135 L100 180 Z" fill="none" stroke="#E05638" stroke-width="2" stroke-dasharray="3,3"/>
+
+  <!-- Evacuation route arrow (curving safely away from hazard to safety) -->
+  <path d="M85 165 C 110 165, 120 100, 165 90" fill="none" stroke="#F6C945" stroke-width="4" stroke-linecap="round" stroke-dasharray="6,6"/>
+  <!-- Arrowhead pointing to safety -->
+  <path d="M155 82 L172 88 L160 100" fill="#F6C945"/>
+
+  <!-- Safe Zone Destination Marker -->
+  <circle cx="185" cy="80" r="14" fill="#2E4A3E"/>
+  <circle cx="185" cy="80" r="10" fill="#4ADE80" opacity="0.3"/>
+  <path d="M180 80 L183 83 L190 76" fill="none" stroke="#4ADE80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Human Figures Evacuating (Representing the villagers moving to safety) -->
+  <!-- Person 1 (Leader/Parent walking fast) -->
+  <g transform="translate(110, 110)">
+    <!-- Head -->
+    <circle cx="12" cy="15" r="5" fill="#E2E8F0"/>
+    <!-- Body & Limbs in motion -->
+    <path d="M12 20 L10 38 M10 26 L2 34 M10 26 L18 32 M10 38 L6 52 M10 38 L16 50" stroke="#E2E8F0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Person 2 (Child/Follower moving along) -->
+  <g transform="translate(75, 125)">
+    <!-- Head -->
+    <circle cx="10" cy="14" r="4" fill="#38BDF8"/>
+    <!-- Body & Limbs -->
+    <path d="M10 18 L9 33 M9 23 L3 30 M9 23 L15 28 M9 33 L6 45 M9 33 L13 44" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Additional person further back -->
+  <g transform="translate(45, 140)">
+    <!-- Head -->
+    <circle cx="10" cy="14" r="4" fill="#F472B6"/>
+    <!-- Body & Limbs -->
+    <path d="M10 18 L9 33 M9 23 L4 29 M9 23 L14 28 M9 33 L6 45 M9 33 L13 44" stroke="#F472B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Flood wave element at the bottom/origin (threat being evacuated from) -->
+  <path d="M30 190 Q 50 180, 70 190 T 110 190" fill="none" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M35 197 Q 55 187, 75 197 T 115 197" fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+</svg>

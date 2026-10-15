@@ -1,0 +1,32 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Background elements: A timeline/stream of mundane activity -->
+  <path d="M40 180 L200 180" stroke="#333842" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- The "Progression" - A series of mundane items being moved -->
+  <g fill="#4A5568">
+    <rect x="50" y="160" width="20" height="20" rx="2"/>
+    <rect x="80" y="160" width="20" height="20" rx="2"/>
+    <rect x="110" y="160" width="20" height="20" rx="2"/>
+  </g>
+
+  <!-- The "Causality/Unexpected Discovery" - A magnifying glass focusing on a hidden detail -->
+  <g transform="translate(140, 100)">
+    <!-- Magnifying glass handle -->
+    <rect x="15" y="15" width="20" height="4" rx="2" fill="#718096" transform="rotate(45 25 17)"/>
+    <!-- Lens frame -->
+    <circle cx="15" cy="15" r="25" fill="none" stroke="#F6AD55" stroke-width="4"/>
+    <!-- The hidden object (the photo) appearing inside the lens -->
+    <rect x="-5" y="-5" width="40" height="30" rx="2" fill="#ECC94B"/>
+    <path d="M0 5 L40 5 M0 15 L40 15 M0 25 L40 25" stroke="#D69E2E" stroke-width="1"/>
+    <circle cx="10" cy="10" r="4" fill="#D69E2E"/>
+    <circle cx="30" cy="20" r="4" fill="#D69E2E"/>
+  </g>
+
+  <!-- Visual metaphor of the "Sharp Peak/Break" - The discovery moment -->
+  <path d="M130 140 L150 100 L170 140" fill="none" stroke="#F6AD55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Sparkle/Focus indicator -->
+  <path d="M180 80 L185 70 L190 80 L200 85 L190 90 L185 100 L180 90 L170 85 Z" fill="#F6AD55"/>
+</svg>
