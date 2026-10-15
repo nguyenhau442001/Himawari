@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+  
+  <!-- Judge's Bench -->
+  <path d="M60 140 L180 140 L170 170 L70 170 Z" fill="#3A404D"/>
+  <path d="M65 145 L175 145 L170 165 L70 165 Z" fill="#2C313A"/>
+  
+  <!-- Gavel -->
+  <rect x="105" y="150" width="30" height="8" rx="2" fill="#FFB84D"/>
+  <rect x="116" y="130" width="8" height="25" rx="2" fill="#FFB84D"/>
+  
+  <!-- Background Pillars -->
+  <rect x="40" y="60" width="15" height="100" fill="#252932"/>
+  <rect x="185" y="60" width="15" height="100" fill="#252932"/>
+  
+  <!-- Lawyer Figures (Silhouettes) -->
+  <circle cx="80" cy="110" r="12" fill="#7D8597"/>
+  <path d="M65 125 C65 115, 95 115, 95 125 L90 160 L70 160 Z" fill="#7D8597"/>
+  
+  <circle cx="160" cy="110" r="12" fill="#7D8597"/>
+  <path d="M145 125 C145 115, 175 115, 175 125 L170 160 L150 160 Z" fill="#7D8597"/>
+  
+  <!-- Legal Document/Paper -->
+  <rect x="130" y="145" width="20" height="25" rx="1" fill="#E0E4EC"/>
+  <path d="M133 150 H147 M133 155 H147 M133 160 H142" stroke="#1A1D24" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

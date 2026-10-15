@@ -1,0 +1,66 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Container Background -->
+  <rect width="240" height="240" rx="24" fill="#1A1D24"/>
+
+  <!-- Shelf Structure (Supermarket context) -->
+  <!-- Back wall / Ambient glow representing modern store aisle -->
+  <rect x="24" y="44" width="192" height="152" rx="8" fill="#222732"/>
+  
+  <!-- Shelf Tier 1 (Top) -->
+  <rect x="36" y="80" width="168" height="6" rx="3" fill="#3A4252"/>
+  <!-- Shelf Tier 2 (Middle) -->
+  <rect x="36" y="132" width="168" height="6" rx="3" fill="#3A4252"/>
+  <!-- Shelf Tier 3 (Bottom) -->
+  <rect x="36" y="184" width="168" height="6" rx="3" fill="#3A4252"/>
+
+  <!-- Diverse items representing "繁多" (Variety, abundance of goods) -->
+  <!-- Top Shelf Items -->
+  <!-- Rounded bottle -->
+  <rect x="46" y="58" width="14" height="22" rx="4" fill="#F59E0B"/>
+  <rect x="50" y="54" width="6" height="4" fill="#E2E8F0"/>
+  <!-- Tall rectangular box -->
+  <rect x="68" y="50" width="18" height="30" rx="2" fill="#38BDF8"/>
+  <!-- Cylinder tin -->
+  <circle cx="101" cy="68" r="10" fill="#EC4899"/>
+  <!-- Triangular carton -->
+  <polygon points="126,52 118,80 134,80" fill="#10B981"/>
+  <!-- Small jar -->
+  <rect x="142" y="60" width="16" height="20" rx="3" fill="#A855F7"/>
+  <rect x="146" y="56" width="8" height="4" fill="#E2E8F0"/>
+  <!-- Another tall bottle -->
+  <rect x="168" y="54" width="14" height="26" rx="5" fill="#F97316"/>
+
+  <!-- Middle Shelf Items -->
+  <!-- Spice jar -->
+  <rect x="44" y="108" width="16" height="24" rx="3" fill="#10B981"/>
+  <!-- Cereal box -->
+  <rect x="66" y="100" width="20" height="32" rx="2" fill="#F59E0B"/>
+  <!-- Spray bottle -->
+  <path d="M96 112 H106 V132 H96 Z" fill="#38BDF8"/>
+  <path d="M92 108 H106 V112 H92 Z" fill="#E2E8F0"/>
+  <path d="M102 104 H110 V108 H102 Z" fill="#E2E8F0"/>
+  <!-- Green box -->
+  <rect x="120" y="104" width="16" height="28" rx="2" fill="#6366F1"/>
+  <!-- Rounded jug -->
+  <path d="M148 106 C148 102 158 102 158 106 V132 H148 Z" fill="#EC4899"/>
+  <rect x="150" y="100" width="6" height="6" fill="#E2E8F0"/>
+  <!-- Purple canister -->
+  <rect x="172" y="108" width="22" height="24" rx="4" fill="#8B5CF6"/>
+
+  <!-- Bottom Shelf Items -->
+  <!-- Large detergent bottle with handle -->
+  <path d="M48 152 C48 148 56 148 56 152 V180 H42 V162 C42 160 44 158 46 158 H48 Z" fill="#F43F5E"/>
+  <!-- Wide box -->
+  <rect x="66" y="156" width="24" height="28" rx="2" fill="#0EA5E9"/>
+  <!-- Round tin -->
+  <circle cx="106" cy="170" r="12" fill="#14B8A6"/>
+  <!-- Tall yellow carton -->
+  <rect x="126" y="148" width="18" height="36" rx="3" fill="#EAB308"/>
+  <!-- Pink bottle -->
+  <rect x="152" y="154" width="14" height="30" rx="6" fill="#EC4899"/>
+  <!-- Dark blue container -->
+  <rect x="174" y="160" width="20" height="24" rx="2" fill="#3B82F6"/>
+
+  <!-- Focal Accent Indicator (Clean, subtle framing highlighting variety) -->
+  <rect x="24" y="44" width="192" height="152" rx="8" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.3"/>
+</svg>

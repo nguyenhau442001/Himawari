@@ -38211,6 +38211,256 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "file": "发扬光大.svg",
     "src": "images/HSK_3.0/level7/发扬光大.svg",
     "caption": "phát huy rạng rỡ, kế thừa phát triển"
+  },
+  "发言人": {
+    "file": "发言人.svg",
+    "src": "images/HSK_3.0/level7/发言人.svg",
+    "caption": "người phát ngôn"
+  },
+  "发源": {
+    "file": "发源.svg",
+    "src": "images/HSK_3.0/level7/发源.svg",
+    "caption": "bắt nguồn, khởi nguồn"
+  },
+  "发源地": {
+    "file": "发源地.svg",
+    "src": "images/HSK_3.0/level7/发源地.svg",
+    "caption": "nơi phát nguyên, cái nôi"
+  },
+  "发作": {
+    "file": "发作.svg",
+    "src": "images/HSK_3.0/level7/发作.svg",
+    "caption": "phát tác, tái phát, bùng phát"
+  },
+  "乏力": {
+    "file": "乏力.svg",
+    "src": "images/HSK_3.0/level7/乏力.svg",
+    "caption": "mệt mỏi rã rời, kiệt sức, bất lực"
+  },
+  "阀门": {
+    "file": "阀门.svg",
+    "src": "images/HSK_3.0/level7/阀门.svg",
+    "caption": "van khóa, van"
+  },
+  "法庭": {
+    "file": "法庭.svg",
+    "src": "images/HSK_3.0/level7/法庭.svg",
+    "caption": "tòa án, phiên tòa"
+  },
+  "法则": {
+    "file": "法则.svg",
+    "src": "images/HSK_3.0/level7/法则.svg",
+    "caption": "quy luật, nguyên tắc, phép tắc"
+  },
+  "法制": {
+    "file": "法制.svg",
+    "src": "images/HSK_3.0/level7/法制.svg",
+    "caption": "pháp chế, hệ thống pháp luật"
+  },
+  "法治": {
+    "file": "法治.svg",
+    "src": "images/HSK_3.0/level7/法治.svg",
+    "caption": "pháp trị, thượng tôn pháp luật"
+  },
+  "发型": {
+    "file": "发型.svg",
+    "src": "images/HSK_3.0/level7/发型.svg",
+    "caption": "kiểu tóc"
+  },
+  "翻番": {
+    "file": "翻番.svg",
+    "src": "images/HSK_3.0/level7/翻番.svg",
+    "caption": "tăng gấp đôi, nhân đôi"
+  },
+  "翻来覆去": {
+    "file": "翻来覆去.svg",
+    "src": "images/HSK_3.0/level7/翻来覆去.svg",
+    "caption": "trằn trọc băn khoăn, lặp đi lặp lại"
+  },
+  "翻身": {
+    "file": "翻身.svg",
+    "src": "images/HSK_3.0/level7/翻身.svg",
+    "caption": "trở mình, đổi đời"
+  },
+  "翻天覆地": {
+    "file": "翻天覆地.svg",
+    "src": "images/HSK_3.0/level7/翻天覆地.svg",
+    "caption": "nghiêng trời lệch đất, long trời lở đất"
+  },
+  "翻新": {
+    "file": "翻新.svg",
+    "src": "images/HSK_3.0/level7/翻新.svg",
+    "caption": "tân trang, làm mới"
+  },
+  "繁多": {
+    "file": "繁多.svg",
+    "src": "images/HSK_3.0/level7/繁多.svg",
+    "caption": "nhiều, đa dạng, phong phú"
+  },
+  "烦闷": {
+    "file": "烦闷.svg",
+    "src": "images/HSK_3.0/level7/烦闷.svg",
+    "caption": "phiền muộn, buồn bực"
+  },
+  "繁衍": {
+    "file": "繁衍.svg",
+    "src": "images/HSK_3.0/level7/繁衍.svg",
+    "caption": "sinh sôi nảy nở, duy trì nòi giống"
+  },
+  "繁杂": {
+    "file": "繁杂.svg",
+    "src": "images/HSK_3.0/level7/繁杂.svg",
+    "caption": "rườm rà phức tạp, bộn bề"
+  },
+  "烦躁": {
+    "file": "烦躁.svg",
+    "src": "images/HSK_3.0/level7/烦躁.svg",
+    "caption": "bực bội, bồn chồn nôn nóng, cáu kỉnh"
+  },
+  "繁重": {
+    "file": "繁重.svg",
+    "src": "images/HSK_3.0/level7/繁重.svg",
+    "caption": "nặng nề, bộn bề"
+  },
+  "反差": {
+    "file": "反差.svg",
+    "src": "images/HSK_3.0/level7/反差.svg",
+    "caption": "độ tương phản, sự chênh lệch rõ rệt"
+  },
+  "返还": {
+    "file": "返还.svg",
+    "src": "images/HSK_3.0/level7/返还.svg",
+    "caption": "hoàn trả, trả lại"
+  },
+  "反击": {
+    "file": "反击.svg",
+    "src": "images/HSK_3.0/level7/反击.svg",
+    "caption": "phản kích, đánh trả"
+  },
+  "反弹": {
+    "file": "反弹.svg",
+    "src": "images/HSK_3.0/level7/反弹.svg",
+    "caption": "nảy lại, phục hồi trở lại"
+  },
+  "反响": {
+    "file": "反响.svg",
+    "src": "images/HSK_3.0/level7/反响.svg",
+    "caption": "tiếng vang, phản hồi"
+  },
+  "反省": {
+    "file": "反省.svg",
+    "src": "images/HSK_3.0/level7/反省.svg",
+    "caption": "tự kiểm điểm, xem xét lại mình"
+  },
+  "犯愁": {
+    "file": "犯愁.svg",
+    "src": "images/HSK_3.0/level7/犯愁.svg",
+    "caption": "lo âu, phát sầu"
+  },
+  "犯规": {
+    "file": "犯规.svg",
+    "src": "images/HSK_3.0/level7/犯规.svg",
+    "caption": "phạm quy, phạm luật"
+  },
+  "饭碗": {
+    "file": "饭碗.svg",
+    "src": "images/HSK_3.0/level7/饭碗.svg",
+    "caption": "bát cơm, kế sinh nhai"
+  },
+  "犯罪": {
+    "file": "犯罪.svg",
+    "src": "images/HSK_3.0/level7/犯罪.svg",
+    "caption": "phạm tội"
+  },
+  "方向盘": {
+    "file": "方向盘.svg",
+    "src": "images/HSK_3.0/level7/方向盘.svg",
+    "caption": "vô lăng, tay lái"
+  },
+  "方圆": {
+    "file": "方圆.svg",
+    "src": "images/HSK_3.0/level7/方圆.svg",
+    "caption": "chu vi, trong vòng, phạm vi"
+  },
+  "防盗": {
+    "file": "防盗.svg",
+    "src": "images/HSK_3.0/level7/防盗.svg",
+    "caption": "chống trộm"
+  },
+  "房地产": {
+    "file": "房地产.svg",
+    "src": "images/HSK_3.0/level7/房地产.svg",
+    "caption": "bất động sản"
+  },
+  "防范": {
+    "file": "防范.svg",
+    "src": "images/HSK_3.0/level7/防范.svg",
+    "caption": "đề phòng, phòng ngừa"
+  },
+  "防护": {
+    "file": "防护.svg",
+    "src": "images/HSK_3.0/level7/防护.svg",
+    "caption": "bảo hộ, bảo vệ"
+  },
+  "防火墙": {
+    "file": "防火墙.svg",
+    "src": "images/HSK_3.0/level7/防火墙.svg",
+    "caption": "tường lửa"
+  },
+  "防卫": {
+    "file": "防卫.svg",
+    "src": "images/HSK_3.0/level7/防卫.svg",
+    "caption": "tự vệ, phòng vệ"
+  },
+  "防汛": {
+    "file": "防汛.svg",
+    "src": "images/HSK_3.0/level7/防汛.svg",
+    "caption": "phòng chống lũ lụt"
+  },
+  "仿": {
+    "file": "仿.svg",
+    "src": "images/HSK_3.0/level7/仿.svg",
+    "caption": "phỏng theo, bắt chước"
+  },
+  "仿真": {
+    "file": "仿真.svg",
+    "src": "images/HSK_3.0/level7/仿真.svg",
+    "caption": "mô phỏng, giả lập"
+  },
+  "仿制": {
+    "file": "仿制.svg",
+    "src": "images/HSK_3.0/level7/仿制.svg",
+    "caption": "chế tạo phỏng theo, làm nhái"
+  },
+  "放过": {
+    "file": "放过.svg",
+    "src": "images/HSK_3.0/level7/放过.svg",
+    "caption": "tha cho, bỏ qua, buông tha"
+  },
+  "放宽": {
+    "file": "放宽.svg",
+    "src": "images/HSK_3.0/level7/放宽.svg",
+    "caption": "nới lỏng, mở rộng"
+  },
+  "放水": {
+    "file": "放水.svg",
+    "src": "images/HSK_3.0/level7/放水.svg",
+    "caption": "xả nước, tháo nước"
+  },
+  "放肆": {
+    "file": "放肆.svg",
+    "src": "images/HSK_3.0/level7/放肆.svg",
+    "caption": "xấc xược, càn rỡ"
+  },
+  "放置": {
+    "file": "放置.svg",
+    "src": "images/HSK_3.0/level7/放置.svg",
+    "caption": "đặt, để, bố trí"
+  },
+  "飞船": {
+    "file": "飞船.svg",
+    "src": "images/HSK_3.0/level7/飞船.svg",
+    "caption": "tàu vũ trụ, phi thuyền"
   }
 };
 
