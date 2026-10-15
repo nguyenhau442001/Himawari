@@ -223,7 +223,8 @@
 /* Pure Zen Flashcard Quiz: hide spoiler clues on front until flipped */
 .card:not(.is-flipped) .hanviet-badge,
 .card:not(.is-flipped) .pos-badge,
-.card:not(.is-flipped) .card-radicals-row {
+.card:not(.is-flipped) .card-radicals-row,
+.card:not(.is-flipped) .card-visual-col {
   display: none !important;
 }
 .hide-hanviet .hanviet-badge {
