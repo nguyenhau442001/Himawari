@@ -39312,6 +39312,11 @@ const STATIC_ILLUSTRATIONS_INDEX = {
     "src": "images/HSK_3.0/level7/高压.svg",
     "caption": "áp lực cao, điện áp cao"
   },
+  "搞笑": {
+    "file": "搞笑.svg",
+    "src": "images/HSK_3.0/level7/搞笑.svg",
+    "caption": "hài hước, gây cười, buồn cười"
+  },
   "告知": {
     "file": "告知.svg",
     "src": "images/HSK_3.0/level7/告知.svg",
