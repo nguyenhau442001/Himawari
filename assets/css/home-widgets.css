@@ -229,18 +229,18 @@ body:not(.home-screen) .home-widgets { display: none; }
   .home-widgets > .hw-card { grid-column: auto; margin-top: 16px; }
 }
 
-/* Phone: one column; Từ của ngày moves above the toggles, the rest follow the level grid. */
+/* Phone: one column; widgets neatly follow after the level picker & grid */
 @media (max-width: 767px) {
   #screenVocabHub { display: flex; flex-direction: column; }
-  .home-widgets > .hw-card { padding: 16px; }
-  .home-widgets > .hw-wotd { order: -1; }
-  .home-widgets > .hw-forecast { order: 1; }
-  .home-widgets > .hw-forgotten { order: 2; }
-  .home-widgets > .hw-activity { order: 3; }
-  .hw-wotd-main { flex-direction: row; align-items: center; gap: 16px; text-align: left; margin-top: 10px; }
-  .hw-wotd-hanzi { font-size: 48px; }
-  .hw-wotd-hanzi.is-medium { font-size: 36px; }
-  .hw-wotd-hanzi.is-long { font-size: 26px; }
+  .home-widgets > .hw-card { padding: 16px; border-radius: 14px; margin-top: 14px; }
+  .home-widgets > .hw-wotd { order: 1; }
+  .home-widgets > .hw-forecast { order: 2; }
+  .home-widgets > .hw-forgotten { order: 3; }
+  .home-widgets > .hw-activity { order: 4; }
+  .hw-wotd-main { flex-direction: row; align-items: center; gap: 14px; text-align: left; margin-top: 10px; }
+  .hw-wotd-hanzi { font-size: 44px; }
+  .hw-wotd-hanzi.is-medium { font-size: 34px; }
+  .hw-wotd-hanzi.is-long { font-size: 24px; }
   .hw-wotd-hanzi { flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; }
   .hw-wotd-text { flex: 1 1 0; min-width: 96px; overflow-wrap: anywhere; }
   .hw-wotd-pinyin { margin-top: 0; }

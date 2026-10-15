@@ -1921,33 +1921,36 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   /* 2. Filter Pills: compact and thumb-friendly */
   body.flashcard-study-mode .filter-row {
-    margin: 0 auto 10px;
-    padding: 3px;
+    margin: 0 auto 8px;
+    padding: 2px;
     gap: 3px;
-    border-radius: 12px;
+    border-radius: 10px;
     max-width: 100%;
   }
 
   body.flashcard-study-mode .filter-btn {
-    padding: 5px 4px;
+    padding: 5px 3px;
     min-height: 29px;
     font-size: 11px;
     gap: 2px;
     border-radius: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   body.flashcard-study-mode .filter-count {
     font-size: 10px;
-    font-weight: 600;
-    opacity: 0.8;
+    font-weight: 700;
+    opacity: 0.9;
   }
 
   /* 3. Flashcard Container: optimized margins & paddings */
   body.flashcard-study-mode #cardArea > .card {
     min-height: auto;
     max-height: none;
-    padding: 46px 14px 18px;
-    border-radius: 20px;
+    padding: 44px 14px 14px;
+    border-radius: 18px;
     box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.12);
   }
 
@@ -1962,10 +1965,12 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .card-position-badge {
     font-size: 11.5px;
+    flex-shrink: 0;
   }
 
   body.flashcard-study-mode .card-toolbar {
     gap: 3px;
+    flex-shrink: 0;
   }
 
   body.flashcard-study-mode .card-tool-btn {
@@ -1985,36 +1990,36 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   /* 4. Card Content: Balanced Proportions & Vertical Fit */
   body.flashcard-study-mode .word-main-block.split-layout {
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
     margin: 0 auto;
   }
 
   body.flashcard-study-mode .card-visual-col {
-    flex: 0 0 115px;
-    width: 115px;
-    height: 115px;
+    flex: 0 0 92px;
+    width: 92px;
+    height: 92px;
   }
 
   body.flashcard-study-mode .card-illustration-frame {
-    border-radius: 18px;
-    padding: 6px;
-  }
-
-  body.flashcard-study-mode .card-illustration-svg {
+    border-radius: 14px;
     padding: 4px;
   }
 
+  body.flashcard-study-mode .card-illustration-svg {
+    padding: 2px;
+  }
+
   body.flashcard-study-mode .card-illustration-svg svg {
-    max-width: 98px;
-    max-height: 98px;
+    max-width: 80px;
+    max-height: 80px;
   }
 
   body.flashcard-study-mode .card-content-col {
-    gap: 5px;
+    gap: 4px;
   }
 
   body.flashcard-study-mode .hanzi {
-    font-size: clamp(56px, 15vw, 76px);
+    font-size: clamp(50px, 13vw, 70px);
     font-weight: 700;
     line-height: 1.05;
     white-space: nowrap;
@@ -2023,32 +2028,32 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
   body.flashcard-study-mode .hanzi.is-len-3,
   body.flashcard-study-mode .hanzi[data-length="3"] {
-    font-size: clamp(46px, 12vw, 60px);
+    font-size: clamp(42px, 11vw, 56px);
   }
   body.flashcard-study-mode .hanzi.is-len-4,
   body.flashcard-study-mode .hanzi[data-length="4"] {
-    font-size: clamp(36px, 9.2vw, 48px);
+    font-size: clamp(34px, 8.8vw, 44px);
   }
   body.flashcard-study-mode .hanzi.is-len-5,
   body.flashcard-study-mode .hanzi[data-length="5"] {
-    font-size: clamp(30px, 7.5vw, 40px);
+    font-size: clamp(28px, 7vw, 36px);
   }
   body.flashcard-study-mode .hanzi.is-len-6-plus,
   body.flashcard-study-mode .hanzi.is-len-long,
   body.flashcard-study-mode .hanzi[data-length="6"],
   body.flashcard-study-mode .hanzi[data-length="7"],
   body.flashcard-study-mode .hanzi[data-length="8"] {
-    font-size: clamp(24px, 6vw, 32px);
+    font-size: clamp(22px, 5.5vw, 30px);
   }
 
   body.flashcard-study-mode .pinyin-row {
-    font-size: 23px;
-    gap: 8px;
+    font-size: 21px;
+    gap: 6px;
     margin: 2px 0 0;
   }
 
   body.flashcard-study-mode .pinyin {
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 700;
   }
 
@@ -2057,90 +2062,90 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   body.flashcard-study-mode .hanviet-badge {
     font-size: 0.8rem;
     font-weight: 700;
-    padding: 2.5px 7px;
+    padding: 2px 7px;
     border-radius: 6px;
   }
 
   body.flashcard-study-mode .sound-btn {
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
-    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: 7px;
   }
 
   body.flashcard-study-mode .sound-btn svg {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
   }
 
   body.flashcard-study-mode .meaning {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     line-height: 1.35;
     margin: 4px 0 0;
   }
 
   body.flashcard-study-mode .example-box {
-    margin-top: 10px;
-    padding: 10px 14px;
-    border-radius: 14px;
-    max-height: 170px;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    max-height: 140px;
   }
 
   body.flashcard-study-mode .example-box .ex-header-row {
-    margin-bottom: 5px;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 3px;
   }
 
   body.flashcard-study-mode .example-box .ex-label {
-    font-size: 10.5px;
+    font-size: 10px;
   }
 
   body.flashcard-study-mode .example-sound-btn {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
   }
 
   body.flashcard-study-mode .example-speed-picker summary {
-    font-size: 11px;
-    padding: 2px 6px;
+    font-size: 10.5px;
+    padding: 1px 5px;
   }
 
   body.flashcard-study-mode .example-box .ex-zh {
-    font-size: 17.5px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 1.5;
-    margin-bottom: 3px;
+    line-height: 1.45;
+    margin-bottom: 2px;
   }
 
   body.flashcard-study-mode .example-box .ex-py {
-    font-size: 14px;
+    font-size: 13.5px;
     font-style: normal;
-    line-height: 1.45;
-    margin-bottom: 3px;
+    line-height: 1.4;
+    margin-bottom: 2px;
   }
 
   body.flashcard-study-mode .example-box .ex-vi {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 1.45;
+    line-height: 1.4;
   }
 
   body.flashcard-study-mode .hint {
     font-size: 11px;
-    margin-top: 6px;
+    margin-top: 4px;
   }
 
   /* 5. Rating Buttons & Bottom Safe Area */
   body.flashcard-study-mode .rating-area {
-    margin: 10px auto 0 !important;
-    padding-bottom: max(12px, env(safe-area-inset-bottom, 12px));
+    margin: 8px auto 0 !important;
+    padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
     width: 100%;
   }
 
   body.flashcard-study-mode .reveal-btn {
-    min-height: 48px;
-    padding: 10px 20px;
+    min-height: 46px;
+    padding: 9px 18px;
     font-size: 15px;
     border-radius: 999px;
   }
@@ -2150,14 +2155,14 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .rating-row {
-    gap: 10px;
+    gap: 8px;
     width: 100%;
   }
 
   body.flashcard-study-mode .rating-btn {
-    min-height: 48px;
-    padding: 10px 14px;
-    border-radius: 14px;
+    min-height: 46px;
+    padding: 8px 12px;
+    border-radius: 12px;
     gap: 8px;
   }
 
@@ -2166,12 +2171,12 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .rating-label {
-    font-size: 15.5px;
+    font-size: 15px;
   }
 
   body.flashcard-study-mode .rating-icon {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
   }
 
   body.flashcard-study-mode .action-row.secondary-actions {
@@ -2179,6 +2184,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     gap: 8px;
     display: flex;
     justify-content: center;
+    padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
   }
 
   body.flashcard-study-mode .show-unknown-btn,
