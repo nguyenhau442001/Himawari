@@ -4,20 +4,36 @@ function buildCardArea() {
     <div class="card" id="card">
       <div class="card-header-bar card-interactive" id="cardHeaderBar" onclick="event.stopPropagation()">
         <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
-        <div class="card-toolbar" id="cardToolbar">
-          <button type="button" class="card-tool-btn" id="shuffleBtn" onclick="shuffleDeck()" aria-label="Xáo trộn bộ từ" title="Xáo trộn bộ từ">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.8-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.4c1.3 0 2.5.6 3.3 1.7l6.1 8.6c.8 1.1 2 1.7 3.3 1.7H22"/><path d="m18 14 4 4-4 4"/></svg>
+        <div class="card-more-menu-wrap" id="cardMoreMenuWrap">
+          <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn học từ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <circle cx="12" cy="5" r="2.2"/>
+              <circle cx="12" cy="12" r="2.2"/>
+              <circle cx="12" cy="19" r="2.2"/>
+            </svg>
           </button>
-          <button type="button" class="card-tool-btn" id="pinyinToggle" onclick="togglePinyin()" aria-label="Ẩn hoặc hiện pinyin" title="Ẩn hoặc hiện pinyin">
-            <span id="pinyinToggleIcon" class="tool-icon-svg" aria-hidden="true">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-            </span>
-          </button>
-          <button type="button" class="card-tool-btn" id="weakWordToggleBtn" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)" aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
-            <span id="weakWordToggleIcon" class="tool-icon-svg" aria-hidden="true">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            </span>
-          </button>
+          <div class="card-more-dropdown" id="cardMoreDropdown" role="menu" hidden>
+            <button type="button" class="card-dropdown-item" id="menuTogglePinyin" onclick="togglePinyin(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon" id="menuPinyinIcon">👁️</span>
+              <span class="dropdown-item-label" id="menuPinyinText">Ẩn / Hiện pinyin</span>
+            </button>
+            <button type="button" class="card-dropdown-item" id="menuToggleWeak" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon" id="menuWeakIcon">⭐</span>
+              <span class="dropdown-item-label" id="menuWeakText">Đánh dấu từ khó</span>
+            </button>
+            <button type="button" class="card-dropdown-item" id="menuShuffle" onclick="shuffleDeck(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">🔀</span>
+              <span class="dropdown-item-label">Xáo trộn thứ tự từ</span>
+            </button>
+            <button type="button" class="card-dropdown-item" id="menuToggleHanviet" onclick="toggleHanViet(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">漢</span>
+              <span class="dropdown-item-label" id="menuHanvietText">Âm Hán - Việt</span>
+            </button>
+            <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">💾</span>
+              <span class="dropdown-item-label">Sao lưu tiến trình</span>
+            </button>
+          </div>
         </div>
       </div>
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
@@ -81,7 +97,7 @@ function buildCardArea() {
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
-        <div class="hint" id="hint">Nhấn vào thẻ hoặc phím Space để lật thẻ</div>
+        <div class="hint" id="hint">Nhấn vào thẻ hoặc phím Space để xem nghĩa</div>
         <div class="card-empty-state card-interactive" id="cardEmptyState" hidden></div>
       </div>
     </div>
@@ -92,8 +108,7 @@ function buildCardArea() {
       <button type="button" class="nav-btn nav-btn--next" onclick="nextCard()" title="Từ tiếp theo (→)">Tiếp →</button>
     </div>
 
-    <div class="rating-area">
-      ${revealButtonHtml('flip()', 'revealBtn')}
+    <div class="rating-area" id="ratingArea">
       <div class="rating-row" id="ratingRow" hidden>
         ${ratingButtonsHtml('rateCurrentCard', 'preview-')}
       </div>
@@ -109,31 +124,67 @@ function buildCardArea() {
     <div id="dailyNewLimitMessage" class="daily-new-limit-message" role="status"></div>
     <div class="unknown-words-list" id="unknownWordsList"></div>
   `;
-  const pinyinBtn = document.getElementById('pinyinToggle');
-  const pinyinIcon = document.getElementById('pinyinToggleIcon');
-  if (pinyinIcon) {
-    pinyinIcon.innerHTML = showPinyin
-      ? `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>`
-      : `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"/><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"/><path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"/><line x1="2" x2="22" y1="2" y2="22"/></svg>`;
-    pinyinBtn.title = showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin';
-    pinyinBtn.setAttribute('aria-label', showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin');
-  }
-  if (pinyinBtn) pinyinBtn.classList.toggle('on', !showPinyin);
-  const hanvietBtn = document.getElementById('hanvietToggle');
-  if (hanvietBtn) {
-    hanvietBtn.classList.toggle('on', !showHanViet);
-    hanvietBtn.title = showHanViet ? 'Ẩn âm Hán - Việt (H)' : 'Hiện âm Hán - Việt (H)';
-    hanvietBtn.setAttribute('aria-label', showHanViet ? 'Ẩn âm Hán - Việt (H)' : 'Hiện âm Hán - Việt (H)');
-  }
-  const topbarHanvietBtn = document.getElementById('studyHanvietToggleBtn');
-  if (topbarHanvietBtn) {
-    topbarHanvietBtn.classList.toggle('active', showHanViet);
-  }
+  updateCardMoreMenuState();
   if (typeof updateWeakWordToggleButton === 'function') updateWeakWordToggleButton();
   updateProgress();
   updateCardPosition();
   initSwipe();
 }
+
+function toggleCardMoreMenu(event) {
+  if (event) event.stopPropagation();
+  const dropdown = document.getElementById('cardMoreDropdown');
+  const btn = document.getElementById('cardMoreBtn');
+  if (!dropdown || !btn) return;
+  const isHidden = dropdown.hidden;
+  if (isHidden) {
+    updateCardMoreMenuState();
+    dropdown.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    dropdown.classList.add('is-open');
+  } else {
+    closeCardMoreMenu();
+  }
+}
+
+function closeCardMoreMenu() {
+  const dropdown = document.getElementById('cardMoreDropdown');
+  const btn = document.getElementById('cardMoreBtn');
+  if (dropdown) {
+    dropdown.hidden = true;
+    dropdown.classList.remove('is-open');
+  }
+  if (btn) btn.setAttribute('aria-expanded', 'false');
+}
+
+function updateCardMoreMenuState() {
+  const pinyinLabel = document.getElementById('menuPinyinText');
+  const pinyinIcon = document.getElementById('menuPinyinIcon');
+  if (pinyinLabel) pinyinLabel.textContent = showPinyin ? 'Ẩn pinyin' : 'Hiện pinyin';
+  if (pinyinIcon) pinyinIcon.textContent = showPinyin ? '👁️' : '🙈';
+
+  const hvLabel = document.getElementById('menuHanvietText');
+  if (hvLabel) hvLabel.textContent = showHanViet ? 'Tắt âm Hán - Việt' : 'Bật âm Hán - Việt';
+
+  const isWeak = Boolean(activeStudyWord && typeof isWeakWord === 'function' && isWeakWord(activeStudyWord.hanzi));
+  const weakLabel = document.getElementById('menuWeakText');
+  const weakIcon = document.getElementById('menuWeakIcon');
+  if (weakLabel) weakLabel.textContent = isWeak ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó';
+  if (weakIcon) weakIcon.textContent = isWeak ? '⭐' : '☆';
+
+  const moreBtn = document.getElementById('cardMoreBtn');
+  if (moreBtn) {
+    moreBtn.classList.toggle('has-weak-word', isWeak);
+    moreBtn.title = isWeak ? 'Từ khó đã đánh dấu · Tùy chọn khác' : 'Tùy chọn khác';
+  }
+}
+
+document.addEventListener('pointerdown', event => {
+  const wrap = document.getElementById('cardMoreMenuWrap');
+  if (wrap && !wrap.contains(event.target)) {
+    closeCardMoreMenu();
+  }
+});
 
 function toggleHanViet() {
   showHanViet = !showHanViet;
@@ -242,10 +293,7 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
   }).join('');
 }
 function revealButtonHtml(onclick, id) {
-  return `<button type="button" class="reveal-btn" id="${id}" onclick="${onclick}" aria-keyshortcuts="Space" title="Lật thẻ (Phím Space)">
-      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 16 4 4 4-4"/><path d="M7 20V4"/><path d="m21 8-4-4-4 4"/><path d="M17 4v16"/></svg>
-      <span>Lật thẻ</span><kbd class="key-badge" aria-hidden="true">Space</kbd>
-    </button>`;
+  return '';
 }
 function formatSrsInterval(preview, fallback) {
   if (preview && preview.intervalText) return preview.intervalText;
@@ -280,14 +328,14 @@ function isCardRevealed() {
   const meaning = document.getElementById('meaning');
   return Boolean(meaning && meaning.classList.contains('show'));
 }
-// Rating buttons appear only once the answer is visible; before that, one "Lật thẻ" button.
+// Rating buttons appear only once the card is flipped/revealed.
 function syncRevealControls() {
   const revealBtn = document.getElementById('revealBtn');
+  if (revealBtn) revealBtn.hidden = true;
   const ratingRow = document.getElementById('ratingRow');
-  if (!revealBtn || !ratingRow) return;
+  if (!ratingRow) return;
   const hasCard = filteredOrder.length > 0;
   const revealed = hasCard && isCardRevealed();
-  revealBtn.hidden = !hasCard || revealed;
   ratingRow.hidden = !revealed;
 }
 function computeDeckProgress() {
@@ -989,9 +1037,8 @@ function render(animate) {
       preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
     }
 
-    document.getElementById('hint').textContent = hasExample
-      ? 'Nhấn vào thẻ để xem nghĩa và ví dụ'
-      : 'Nhấn vào thẻ để xem nghĩa';
+    document.getElementById('hint').textContent = 'Nhấn vào thẻ hoặc phím Space để xem nghĩa';
+    updateCardMoreMenuState();
     updateProgress();
     updateCardPosition();
     updateStats();

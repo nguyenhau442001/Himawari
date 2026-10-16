@@ -483,6 +483,12 @@ function toggleUnknownWords() {
 
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape') {
+    const cardMoreDropdown = document.getElementById('cardMoreDropdown');
+    if (cardMoreDropdown && !cardMoreDropdown.hidden) {
+      event.preventDefault();
+      if (typeof closeCardMoreMenu === 'function') closeCardMoreMenu();
+      return;
+    }
     const transferPanel = document.getElementById('transferPanel');
     if (transferPanel && !transferPanel.hidden) {
       event.preventDefault();
@@ -539,9 +545,9 @@ document.addEventListener('keydown', event => {
     return;
   }
   if (event.key === ' ') {
-    if (document.activeElement && document.activeElement.closest('button, summary, a')) return;
+    if (document.activeElement && document.activeElement.closest('button, summary, a, input, textarea, select')) return;
     event.preventDefault();
-    if (!isCardRevealed()) flip();
+    flip();
     return;
   }
   const rating = RATING_KEYS[event.key];

@@ -131,7 +131,7 @@ function initSwipe() {
     knownBadgeId: 'swipeBadgeKnown',
     unknownBadgeId: 'swipeBadgeUnknown',
     hasCards: () => filteredOrder.length > 0,
-    interactiveSelector: '.speech-btn, .card-interactive, .hanzi, .card-radicals-row, .card-radical-pill',
+    interactiveSelector: '.speech-btn, .card-interactive, .hanzi, .card-radicals-row, .card-radical-pill, .card-more-menu-wrap, .card-more-btn, .card-dropdown-item',
     flip,
     markKnown,
     markUnknown,
@@ -168,6 +168,9 @@ function flip() {
   } else if (!willShow && !showPinyin) {
     document.getElementById('pinyin').textContent = '';
   }
-  document.getElementById('hint').textContent = willShow ? '' : 'Nhấn vào thẻ để lật';
+  const hintEl = document.getElementById('hint');
+  if (hintEl) {
+    hintEl.textContent = willShow ? 'Nhấn vào thẻ hoặc Space để ẩn' : 'Nhấn vào thẻ hoặc Space để xem nghĩa';
+  }
   syncRevealControls();
 }

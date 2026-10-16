@@ -62,7 +62,7 @@ function renderTodayReviewCard() {
   const previews = SRS.preview(item.card, new Date(), srsRetention);
   progressNode.textContent = (todayReviewIndex + 1) + ' / ' + todayReviewQueue.length + ' thẻ';
   area.innerHTML = `
-    <article class="today-review-card">
+    <article class="today-review-card" onclick="revealTodayReview()" style="cursor:pointer">
       <div class="today-review-level">${LEVELS[item.level].label}</div>
       <div class="hanzi">${escapeHtml(item.word.hanzi)}</div>
       <div class="today-review-answer" id="todayReviewAnswer" hidden>
@@ -82,7 +82,8 @@ function revealTodayReview() {
   if (todayReviewRevealed || todayReviewIndex >= todayReviewQueue.length) return;
   todayReviewRevealed = true;
   document.getElementById('todayReviewAnswer').hidden = false;
-  document.getElementById('todayRevealBtn').hidden = true;
+  const revealBtn = document.getElementById('todayRevealBtn');
+  if (revealBtn) revealBtn.hidden = true;
   document.getElementById('todayRatingRow').hidden = false;
 }
 

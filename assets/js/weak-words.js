@@ -68,20 +68,31 @@ function toggleWeakWord(hanziOrWord, level) {
 }
 
 function updateWeakWordToggleButton() {
-  const btn = document.getElementById('weakWordToggleBtn');
-  if (!btn || !activeStudyWord) return;
+  if (!activeStudyWord) return;
   const starred = isWeakWord(activeStudyWord.hanzi);
-  const icon = document.getElementById('weakWordToggleIcon');
-  if (icon) {
-    icon.innerHTML = starred
-      ? `<svg width="15" height="15" viewBox="0 0 24 24" fill="#fbbf24" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`
-      : `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
-    btn.title = starred ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó';
-    btn.setAttribute('aria-label', starred ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó');
-  } else {
-    btn.textContent = starred ? '★ Đã đánh dấu' : '☆ Đánh dấu từ khó';
+  const btn = document.getElementById('weakWordToggleBtn');
+  if (btn) {
+    const icon = document.getElementById('weakWordToggleIcon');
+    if (icon) {
+      icon.innerHTML = starred
+        ? `<svg width="15" height="15" viewBox="0 0 24 24" fill="#fbbf24" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`
+        : `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+      btn.title = starred ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó';
+      btn.setAttribute('aria-label', starred ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó');
+    } else {
+      btn.textContent = starred ? '★ Đã đánh dấu' : '☆ Đánh dấu từ khó';
+    }
+    btn.classList.toggle('active', starred);
   }
-  btn.classList.toggle('active', starred);
+  const moreBtn = document.getElementById('cardMoreBtn');
+  if (moreBtn) {
+    moreBtn.classList.toggle('has-weak-word', starred);
+    moreBtn.title = starred ? 'Từ khó đã đánh dấu · Tùy chọn khác' : 'Tùy chọn khác';
+  }
+  const weakLabel = document.getElementById('menuWeakText');
+  const weakIcon = document.getElementById('menuWeakIcon');
+  if (weakLabel) weakLabel.textContent = starred ? 'Bỏ đánh dấu từ khó' : 'Đánh dấu từ khó';
+  if (weakIcon) weakIcon.textContent = starred ? '⭐' : '☆';
 }
 
 let isEnrichingWeakWords = false;

@@ -680,6 +680,7 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   if (typeof SpaRouter !== 'undefined') {
     SpaRouter.pushView({ view: 'cards', level: level });
   }
+  if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers();
   document.body.classList.add('study-mode');
   document.body.classList.add('flashcard-study-mode');
   window.scrollTo({ top: 0, behavior: 'instant' });

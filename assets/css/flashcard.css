@@ -449,20 +449,8 @@
 /* SRS rating: one "Lật thẻ" button before the answer, two clean tactile ratings after it. */
 .rating-area { margin-top: 14px; }
 .reveal-btn {
-  display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%;
-  padding: 14px 20px; border: none; border-radius: 14px;
-  background: var(--accent-gradient, #ea580c); color: #ffffff; font: inherit; font-size: 16px; font-weight: 700; cursor: pointer;
-  letter-spacing: 0.01em;
-  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 30%, transparent);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  display: none !important;
 }
-.reveal-btn:hover {
-  background: var(--accent-gradient-hover, #f97316);
-  filter: brightness(1.03);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px color-mix(in srgb, var(--accent) 40%, transparent);
-}
-.reveal-btn:active { transform: translateY(0); filter: brightness(0.97); }
 @media (max-width: 360px) { .rating-label { font-size: 14.5px; } .rating-interval { font-size: 11px; } }
 .rating-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; width: 100%; margin-top: 6px; }
 .reveal-btn[hidden], .rating-row[hidden], .today-review-answer[hidden] { display: none; }
