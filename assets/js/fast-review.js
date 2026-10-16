@@ -315,6 +315,8 @@ function startReviewSession() {
   reviewStreak = 0;
   reviewBestStreak = 0;
   reviewMistakes = [];
+  reviewSessionLive = true;
+  reviewAnswered = false;
   closeReviewMistakesModal();
   enterReviewFocusMode();
 
@@ -364,8 +366,7 @@ function abandonReviewSession() {
 }
 
 function renderReviewQuestion() {
-  if (reviewAnswered && !reviewSessionLive) return;
-  reviewSessionLive = true;
+  if (!reviewSessionLive) return;
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
   while (reviewIndex < reviewPool.length && countNewReviewsToday() >= readDailyStudyGoal()) {
     const candidate = reviewWordPool[reviewPool[reviewIndex]];
@@ -623,6 +624,7 @@ function gradeReviewAnswer(isCorrect, details) {
 
 function endReviewSession() {
   if (reviewTimer) { clearInterval(reviewTimer); reviewTimer = null; }
+  reviewSessionLive = false;
   removeReviewKeydownListener();
   document.getElementById('reviewSession').hidden = true;
   renderReviewResult();
