@@ -129,6 +129,10 @@ function setPrimaryTab(tab, options) {
     gamesMenu.open = false;
     gamesMenu.classList.toggle('has-active-tool', isTool);
   }
+  const versionControls = document.getElementById('pickerVersionControls');
+  if (versionControls) {
+    versionControls.hidden = (tab !== 'vocab') || (vocabSubTab !== 'level');
+  }
   const dashboard = document.getElementById('learningDashboard');
   if (dashboard) dashboard.style.display = tab === 'vocab' ? '' : 'none';
   const continueCard = document.getElementById('continueLearningCard');
@@ -336,3 +340,36 @@ document.addEventListener('click', event => {
     menu.open = false;
   }
 });
+
+// Close primary tools & games menu on Escape and return focus to trigger
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' || event.key === 'Esc') {
+    const menu = document.getElementById('primaryGamesMenu');
+    if (menu && menu.open) {
+      menu.open = false;
+      const trigger = menu.querySelector('.primary-menu-trigger');
+      if (trigger) trigger.focus();
+    }
+  }
+});
+
+// Sync aria-expanded state on toggle
+(function initPrimaryMenuAria() {
+  function bindToggle() {
+    const menu = document.getElementById('primaryGamesMenu');
+    if (menu) {
+      menu.addEventListener('toggle', () => {
+        const trigger = menu.querySelector('.primary-menu-trigger');
+        if (trigger) {
+          trigger.setAttribute('aria-expanded', String(menu.open));
+        }
+      });
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bindToggle);
+  } else {
+    bindToggle();
+  }
+})();
+
