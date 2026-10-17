@@ -31,14 +31,18 @@
 /* 2. Cụm Dropdown Menu ("Công cụ") - Tách biệt độc lập */
 .primary-games-menu { position: relative; margin-left: auto; }
 .primary-menu-trigger {
-  display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px;
-  list-style: none; border: 1px solid var(--border); border-radius: var(--radius-md);
-  background: var(--card-bg); color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 600;
-  cursor: pointer; white-space: nowrap;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 12px;
+  min-height: 36px; height: 36px; box-sizing: border-box;
+  list-style: none; border: 1px solid var(--border); border-radius: 10px;
+  background: var(--card-bg); color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 600; line-height: 1;
+  cursor: pointer; white-space: nowrap; user-select: none;
   transition: all 160ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .primary-menu-trigger::-webkit-details-marker { display: none; }
 .primary-menu-trigger::after { content: none !important; }
+.primary-menu-trigger > span {
+  display: inline-flex; align-items: center; line-height: 1;
+}
 .primary-menu-trigger:hover {
   border-color: var(--accent); color: var(--text-primary); background: var(--surface-subtle);
 }
@@ -49,12 +53,12 @@
 }
 
 /* Icons & Chevron animation */
-.nav-tab-icon { flex-shrink: 0; stroke-width: 2px; }
+.nav-tab-icon { display: block; width: 16px; height: 16px; flex-shrink: 0; stroke-width: 2px; }
 .nav-tab-glyph { font-weight: 700; font-size: 13px; line-height: 1; color: var(--accent); flex-shrink: 0; }
 .primary-menu-chevron {
-  color: var(--text-tertiary); margin-left: 2px;
+  display: block; width: 16px; height: 16px; flex-shrink: 0; stroke-width: 2px;
+  color: var(--text-tertiary);
   transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), color 160ms ease;
-  flex-shrink: 0;
 }
 .primary-games-menu[open] .primary-menu-chevron {
   transform: rotate(180deg); color: var(--accent);

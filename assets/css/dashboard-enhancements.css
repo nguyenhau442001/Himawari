@@ -818,7 +818,8 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     margin: 10px 0 10px;
   }
   .picker-controls > .view-tabs:first-child { flex: 1 1 auto; gap: 14px; }
-  .picker-version-control > span { display: none; }
+  .picker-version-control > span,
+  .picker-version-control .picker-version-label { display: none; }
   .picker-version-control select { max-width: 112px; }
 
   .featured-topic-list { flex-wrap: nowrap; overflow-x: auto; padding: 2px 1px 8px; scrollbar-width: thin; }
@@ -849,16 +850,50 @@ body:not(.home-screen) .continue-learning-card { display: none; }
 }
 .picker-controls .view-tab:hover:not(.active) { color: var(--text-primary); }
 .picker-version-control {
-  display: inline-flex; align-items: center; gap: 7px; color: var(--text-tertiary);
-  font-size: 10px; white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 8px; color: var(--text-secondary);
+  font-size: 13px; font-weight: 500; line-height: 1; white-space: nowrap; cursor: pointer; user-select: none;
 }
 .picker-version-control[hidden] { display: none; }
-.picker-version-control select {
-  min-height: 32px; padding: 0 26px 0 10px; border: 1px solid var(--border); border-radius: 9px;
-  background: var(--card-bg); color: var(--text-primary); font: inherit; font-size: 11px; font-weight: 650;
+.picker-version-label {
+  display: inline-flex; align-items: center; line-height: 1;
 }
-.picker-version-control select:hover { border-color: color-mix(in srgb, var(--text-secondary) 40%, var(--border)); }
+.picker-version-select-wrap {
+  position: relative; display: inline-flex; align-items: center;
+}
+.picker-version-control select {
+  appearance: none; -webkit-appearance: none; -moz-appearance: none;
+  display: inline-flex; align-items: center;
+  min-height: 36px; height: 36px; box-sizing: border-box; padding: 0 32px 0 12px;
+  border: 1px solid var(--border); border-radius: 10px;
+  background: var(--card-bg); color: var(--text-primary); font: inherit; font-size: 13px; font-weight: 600; line-height: 1;
+  cursor: pointer; white-space: nowrap;
+  transition: all 160ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.picker-version-control select:hover {
+  border-color: var(--accent); background: var(--surface-subtle);
+}
 .picker-version-control select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.picker-version-control select option {
+  background: var(--card-bg);
+  color: var(--text-primary);
+}
+:root[data-theme="dark"] .picker-version-control select option,
+body.dark-mode .picker-version-control select option {
+  background: #1d1e28;
+  color: #f3f4f6;
+}
+.picker-version-chevron {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  width: 16px; height: 16px; stroke-width: 2px; color: var(--text-tertiary);
+  pointer-events: none; display: block; flex-shrink: 0;
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), color 160ms ease;
+}
+.picker-version-select-wrap:hover .picker-version-chevron {
+  color: var(--text-secondary);
+}
+.picker-version-select-wrap:focus-within .picker-version-chevron {
+  color: var(--accent);
+}
 
 .featured-topic-pill {
   border-color: var(--border); background: var(--surface-chip); color: var(--text-secondary);
@@ -1059,8 +1094,11 @@ body.home-screen .featured-topics {
   }
   body.home-screen .primary-menu-trigger {
     min-height: 36px;
-    padding: 6px 14px;
+    height: 36px;
+    padding: 0 12px;
     font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
     border-radius: 10px;
   }
 
@@ -1086,13 +1124,17 @@ body.home-screen .featured-topics {
     font-weight: 600;
   }
   body.home-screen #pickerControls .picker-version-control {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
   }
   body.home-screen #pickerControls .picker-version-control select {
-    min-height: 34px;
-    padding: 0 28px 0 12px;
-    font-size: 12.5px;
+    min-height: 36px;
+    height: 36px;
+    padding: 0 32px 0 12px;
+    font-size: 13px;
     font-weight: 600;
+    line-height: 1;
+    border-radius: 10px;
   }
 
   /* Level Cards Grids */
