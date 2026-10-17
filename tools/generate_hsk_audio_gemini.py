@@ -17,6 +17,7 @@ import base64
 import hashlib
 import html
 from html.parser import HTMLParser
+import io
 import json
 import os
 from pathlib import Path
@@ -27,6 +28,7 @@ import time
 from typing import Any
 import urllib.error
 import urllib.request
+import wave
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -34,6 +36,7 @@ DEFAULT_MODEL = "gemini-3.8-flash-tts"
 FALLBACK_MODELS = [
     "gemini-3.8-flash-tts",
     "gemini-3.8-flash-lite-tts",
+    "gemini-3.1-flash-tts-preview",
     "gemini-2.5-flash-preview-tts",
 ]
 DEFAULT_VOICE = "Aoede"
@@ -111,6 +114,13 @@ def parse_args() -> argparse.Namespace:
         help="Delay between requests to respect free-tier 3 RPM quota (set to 0.5 for paid keys)",
     )
     parser.add_argument("--fast", action="store_true", help="Shortcut for --delay-seconds 0.5 (for paid keys)")
+    parser.add_argument("--batch-size", type=int, default=100, help="Commit and push after every N generated words (default: 100)")
+    parser.add_argument(
+        "--auto-commit",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Automatically commit and push to main after each batch (default: True)",
+    )
     parser.add_argument("--overwrite", action="store_true", help="Regenerate and overwrite existing audio files")
     parser.add_argument("--skip-manifest", action="store_true", help="Do not update manifest.json")
     parser.add_argument("--dry-run", action="store_true", help="Show planned audio clips without calling the API")
@@ -161,10 +171,24 @@ def output_path(level: str, word_id: int, kind: str) -> Path:
     return REPO_ROOT / "database" / "prebuilt_audio" / level / folder / f"{word_id:04d}.mp3"
 
 
-def encode_mp3(wav_data: bytes, destination: Path, bitrate: str) -> None:
+def ensure_wav_bytes(audio_bytes: bytes) -> bytes:
+    if audio_bytes.startswith(b"RIFF"):
+        return audio_bytes
+    # Wrap raw PCM 24kHz 16-bit mono into valid WAV
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as wf:
+        wf.setnchannels(1)
+        wf.setsampwidth(2)
+        wf.setframerate(24000)
+        wf.writeframes(audio_bytes)
+    return buf.getvalue()
+
+
+def encode_mp3(audio_data: bytes, destination: Path, bitrate: str) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
+    wav_bytes = ensure_wav_bytes(audio_data)
     with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tf:
-        tf.write(wav_data)
+        tf.write(wav_bytes)
         temp_wav = tf.name
 
     temporary = destination.with_suffix(".mp3.tmp")
@@ -308,6 +332,24 @@ def update_manifest(level: str, model: str, voice: str) -> None:
     print(f"Updated manifest: {manifest_path} ({len(items)} items, {total_words} words, {total_examples} examples)")
 
 
+def git_commit_and_push(batch_count: int, level: str) -> None:
+    try:
+        manifest_path = REPO_ROOT / "database" / "prebuilt_audio" / level / "manifest.json"
+        audio_dir = REPO_ROOT / "database" / "prebuilt_audio" / level
+        print(f"\n[>>> GIT] Committing and pushing batch of {batch_count} audio clips for {level.upper()} to main...", flush=True)
+        subprocess.run(["git", "add", str(audio_dir), str(manifest_path)], cwd=REPO_ROOT, check=True)
+        commit_msg = f"feat(audio): batch generate prebuilt audio ({level.upper()}: +{batch_count} clips)"
+        res = subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_ROOT, capture_output=True, text=True)
+        print(f"[>>> GIT] {res.stdout.strip()}", flush=True)
+        push_res = subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=REPO_ROOT, capture_output=True, text=True)
+        if push_res.returncode != 0:
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=REPO_ROOT, capture_output=True, text=True)
+            push_res = subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=REPO_ROOT, capture_output=True, text=True)
+        print(f"[>>> GIT] Push result: {push_res.stdout.strip() or push_res.stderr.strip() or 'OK'}\n", flush=True)
+    except Exception as e:
+        print(f"[!] Warning: git commit/push encountered error: {e}", flush=True)
+
+
 def main() -> int:
     args = parse_args()
     if args.fast:
@@ -337,7 +379,7 @@ def main() -> int:
     print(f"Level: {args.level.upper()}")
     print(f"Total planned tasks: {len(tasks)} ({len(pending)} pending, {len(tasks) - len(pending)} already exist)")
     print(f"Model: {args.model} | Voice: {args.voice} | Bitrate: {args.bitrate}")
-    print(f"Delay between requests: {args.delay_seconds:.1f}s")
+    print(f"Delay between requests: {args.delay_seconds:.1f}s | Batch size: {args.batch_size} words ({args.batch_size * len(kinds)} clips)")
 
     if args.dry_run:
         print("\n[DRY RUN] First 5 pending clips:")
@@ -360,6 +402,8 @@ def main() -> int:
     current_model_idx = 0
     key_index = 0
     success_count = 0
+    uncommitted_clips = 0
+    batch_target_clips = args.batch_size * len(kinds)
 
     for i, task in enumerate(pending, 1):
         key = api_keys[key_index % len(api_keys)]
@@ -379,6 +423,7 @@ def main() -> int:
                 file_size_kb = task["output"].stat().st_size / 1024
                 print(f" OK via {current_model} ({file_size_kb:.1f} KB)")
                 success_count += 1
+                uncommitted_clips += 1
                 generated = True
                 break
             except DailyQuotaExhaustedError as dq:
@@ -395,8 +440,14 @@ def main() -> int:
             print("\nAll available Gemini TTS models have exhausted their daily quotas!")
             break
 
-        # Update manifest periodically or at end
-        if not args.skip_manifest and success_count % 10 == 0:
+        # Batch commit and push when reaching batch size
+        if uncommitted_clips >= batch_target_clips:
+            if not args.skip_manifest:
+                update_manifest(args.level, args.model, args.voice)
+            if args.auto_commit:
+                git_commit_and_push(uncommitted_clips, args.level)
+                uncommitted_clips = 0
+        elif not args.skip_manifest and success_count % 10 == 0:
             update_manifest(args.level, args.model, args.voice)
 
         # Respect rate limits
@@ -405,6 +456,9 @@ def main() -> int:
 
     if not args.skip_manifest:
         update_manifest(args.level, args.model, args.voice)
+
+    if args.auto_commit and uncommitted_clips > 0:
+        git_commit_and_push(uncommitted_clips, args.level)
 
     print(f"\nDone! Generated {success_count}/{len(pending)} clips.")
     return 0
