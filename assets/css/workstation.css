@@ -1891,16 +1891,16 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     max-width: 100%;
   }
 
-  /* 1. Sleek 2-Tier Mobile Study Topbar */
+  /* 1. Sleek Mobile Study Topbar */
   body.flashcard-study-mode .study-view-topbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 6px;
+    gap: 4px;
     min-height: auto;
-    padding: 6px 10px;
-    margin: 0 auto 8px;
+    padding: 5px 8px;
+    margin: 0 auto 6px;
     border-radius: 12px;
     width: 100%;
     box-sizing: border-box;
@@ -1910,7 +1910,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     order: 1;
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
     flex: 1 1 auto;
     min-width: 0;
   }
@@ -1932,10 +1932,11 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     border-radius: 8px;
     gap: 2px;
     flex-shrink: 0;
+    margin-bottom: 0;
   }
 
   body.flashcard-study-mode .view-tab {
-    padding: 3.5px 7px;
+    padding: 3px 6px;
     font-size: 11px;
     gap: 3px;
     border-radius: 6px;
@@ -1950,7 +1951,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     order: 2;
     display: inline-flex;
     align-items: center;
-    gap: 3px;
+    gap: 2px;
     flex: 0 0 auto;
     flex-shrink: 0;
   }
@@ -1970,18 +1971,14 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     height: 13px;
   }
 
-  body.flashcard-study-mode .study-drawer-btn .study-btn-badge-text {
-    font-size: 11px;
-  }
-
   /* Full-width responsive progress bar on Row 2 */
   body.flashcard-study-mode .study-topbar-progress {
     order: 3;
     width: 100%;
     min-width: 100%;
     max-width: 100%;
-    margin: 4px 0 0 0;
-    padding-top: 5px;
+    margin: 3px 0 0 0;
+    padding-top: 4px;
     border-top: 1px solid var(--border);
     display: flex;
     flex-direction: row;
@@ -2001,7 +1998,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .study-topbar-progress-info .study-progress-numbers {
     order: 1;
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 600;
     flex-shrink: 0;
   }
@@ -2009,61 +2006,53 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   body.flashcard-study-mode .study-topbar-progress .progress-bar-track {
     order: 2;
     flex: 1 1 auto;
-    height: 4.5px;
+    height: 4px;
     margin: 0;
     min-width: 50px;
   }
 
   body.flashcard-study-mode .study-topbar-progress-info .study-progress-pct {
     order: 3;
-    font-size: 10px;
-    padding: 1px 6px;
+    font-size: 9.5px;
+    padding: 1px 5px;
     flex-shrink: 0;
   }
 
-  /* 2. Filter Pills: mathematically balanced grid, zero overflow */
+  /* 2. Filter Pills: compact on mobile, drawer when tapped */
   body.flashcard-study-mode .filter-row {
-    display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 4px !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-    margin: 0 auto 10px !important;
+    margin: 0 auto 6px !important;
     padding: 0 !important;
   }
-
-  body.flashcard-study-mode .filter-btn {
-    width: 100% !important;
-    min-width: 0 !important;
-    padding: 6px 2px !important;
-    min-height: 32px !important;
-    font-size: 11px !important;
-    gap: 2px !important;
-    border-radius: 999px !important;
-    text-align: center !important;
-    justify-content: center !important;
-    white-space: nowrap !important;
+  body.flashcard-study-mode .desktop-filter-tabs {
+    display: none !important;
+  }
+  body.flashcard-study-mode .filter-btn,
+  body.flashcard-study-mode .mobile-filter-text {
     overflow: hidden !important;
     text-overflow: ellipsis !important;
-    box-sizing: border-box !important;
+    white-space: nowrap !important;
+  }
+  body.flashcard-study-mode .mobile-filter-bar {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
   }
 
-  body.flashcard-study-mode .filter-count {
-    font-size: 10px;
-    font-weight: 700;
-    opacity: 0.9;
-  }
-
-  /* 3. Flashcard Container: optimized margins & paddings */
+  /* 3. Flashcard Container: Fixed Viewport Height (Zero Layout Shift) */
   body.flashcard-study-mode #cardArea > .card {
-    min-height: 280px;
-    max-height: none;
-    padding: 38px 16px 20px;
+    height: clamp(340px, calc(100dvh - 185px), 470px);
+    min-height: 340px;
+    max-height: calc(100dvh - 185px);
+    padding: 40px 16px 14px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    touch-action: pan-y;
   }
 
   :root[data-theme="dark"] body.flashcard-study-mode #cardArea > .card {
@@ -2071,15 +2060,22 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .card-header-bar {
-    height: 36px;
+    height: 38px;
     padding: 6px 12px 0;
     border-bottom: none !important;
     background: transparent !important;
   }
 
-  body.flashcard-study-mode .card-toolbar #transferToggle,
-  body.flashcard-study-mode .card-toolbar #hanvietToggle {
-    display: none !important;
+  body.flashcard-study-mode .card-header-nav {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  body.flashcard-study-mode .card-header-nav-btn {
+    width: 26px;
+    height: 26px;
+    opacity: 0.75;
   }
 
   body.flashcard-study-mode .card-position-badge {
@@ -2087,12 +2083,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     flex-shrink: 0;
   }
 
-  body.flashcard-study-mode .card-toolbar {
-    gap: 3px;
-    flex-shrink: 0;
-  }
-
-  body.flashcard-study-mode .card-tool-btn {
+  body.flashcard-study-mode .card-more-btn {
     width: 28px;
     height: 28px;
     min-width: 28px;
@@ -2101,83 +2092,88 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     font-size: 12px;
   }
 
-  body.flashcard-study-mode .card-tool-btn svg {
-    width: 13px;
-    height: 13px;
+  /* 4. Card Content: Clean, centered, and scrollable inside card */
+  body.flashcard-study-mode .card-content {
+    flex: 1 1 auto;
+    width: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* 4. Card Content: Balanced Proportions & Vertical Fit */
+  /* When flipped, start from top so longer content can scroll naturally */
+  body.flashcard-study-mode .card.is-flipped .card-content {
+    justify-content: flex-start;
+  }
+
   body.flashcard-study-mode .word-main-block.split-layout {
     flex-direction: column;
-    gap: 6px;
+    gap: 4px;
     margin: 0 auto;
+    width: 100%;
   }
 
+  /* Remove tiny visual illustration & cluttered radical pills on mobile flashcard */
   body.flashcard-study-mode .card-visual-col {
-    flex: 0 0 68px;
-    width: 68px;
-    height: 68px;
-    margin: 0 auto;
+    display: none !important;
+    height: 0px;
   }
-
-  body.flashcard-study-mode .card-illustration-frame {
-    border-radius: 14px;
-    padding: 2px;
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-  }
-
-  body.flashcard-study-mode .card-illustration-svg {
-    padding: 0;
-  }
-
-  body.flashcard-study-mode .card-illustration-svg svg {
-    max-width: 64px;
-    max-height: 64px;
+  body.flashcard-study-mode .card-radicals-row {
+    display: none !important;
   }
 
   body.flashcard-study-mode .card-content-col {
-    gap: 4px;
+    gap: 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   body.flashcard-study-mode .hanzi {
-    font-size: clamp(68px, 16vw, 94px);
+    font-size: clamp(62px, 15vw, 86px);
     font-weight: 700;
-    line-height: 1.08;
-    margin: 4px 0 2px;
+    line-height: 1.06;
+    margin: 2px 0;
     white-space: nowrap;
     text-wrap: nowrap;
     max-width: 100%;
   }
   body.flashcard-study-mode .hanzi.is-len-3,
   body.flashcard-study-mode .hanzi[data-length="3"] {
-    font-size: clamp(52px, 12vw, 68px);
+    font-size: clamp(48px, 11vw, 64px);
   }
   body.flashcard-study-mode .hanzi.is-len-4,
   body.flashcard-study-mode .hanzi[data-length="4"] {
-    font-size: clamp(40px, 9.5vw, 52px);
+    font-size: clamp(38px, 9vw, 50px);
   }
   body.flashcard-study-mode .hanzi.is-len-5,
   body.flashcard-study-mode .hanzi[data-length="5"] {
-    font-size: clamp(32px, 7.5vw, 42px);
+    font-size: clamp(30px, 7vw, 40px);
   }
   body.flashcard-study-mode .hanzi.is-len-6-plus,
   body.flashcard-study-mode .hanzi.is-len-long,
   body.flashcard-study-mode .hanzi[data-length="6"],
   body.flashcard-study-mode .hanzi[data-length="7"],
   body.flashcard-study-mode .hanzi[data-length="8"] {
-    font-size: clamp(24px, 5.8vw, 32px);
+    font-size: clamp(24px, 5.5vw, 32px);
   }
 
   body.flashcard-study-mode .pinyin-row {
-    font-size: 22px;
+    font-size: 20px;
     gap: 6px;
-    margin: 2px 0 0;
+    margin: 2px 0 4px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   body.flashcard-study-mode .pinyin {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--accent);
   }
@@ -2187,17 +2183,17 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .pos-tag,
   body.flashcard-study-mode .pos-badge {
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 600;
-    padding: 2px 6.5px;
+    padding: 1.5px 6px;
     border-radius: 5px;
     border: none;
   }
 
   body.flashcard-study-mode .hanviet-badge {
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 600;
-    padding: 2px 6.5px;
+    padding: 1.5px 6px;
     border-radius: 5px;
     border: none;
     color: #d97706;
@@ -2209,81 +2205,84 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .sound-btn {
-    width: 28px;
-    height: 28px;
-    min-width: 28px;
+    width: 26px;
+    height: 26px;
+    min-width: 26px;
     border-radius: 7px;
   }
 
   body.flashcard-study-mode .sound-btn svg {
-    width: 14px;
-    height: 14px;
+    width: 13px;
+    height: 13px;
   }
 
   body.flashcard-study-mode .meaning {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.35;
-    margin: 6px 0 2px;
+    margin: 4px 0 6px;
     color: var(--text-primary);
+    text-align: center;
+    max-width: 95%;
   }
 
   body.flashcard-study-mode .example-box {
-    margin-top: 10px;
-    padding: 12px 14px;
+    margin-top: 8px;
+    padding: 10px 14px;
     border-radius: 12px;
     max-height: 160px;
     border: none !important;
-    border-left: none !important;
     box-shadow: none !important;
     background: var(--surface-subtle);
+    width: 100%;
+    box-sizing: border-box;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .example-box {
     background: rgba(255, 255, 255, 0.04);
   }
 
   body.flashcard-study-mode .example-box .ex-header-row {
-    margin-bottom: 4px;
-    padding-bottom: 3px;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
     border-bottom: none;
   }
 
   body.flashcard-study-mode .example-box .ex-label {
-    font-size: 10.5px;
+    font-size: 10px;
     font-weight: 700;
   }
 
   body.flashcard-study-mode .example-sound-btn {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
   }
 
   body.flashcard-study-mode .example-speed-picker summary {
-    font-size: 10.5px;
-    padding: 1px 6px;
+    font-size: 10px;
+    padding: 1px 5px;
     border: none !important;
     background: var(--surface-chip);
   }
 
   body.flashcard-study-mode .example-box .ex-zh {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.45;
     margin-bottom: 2px;
     color: var(--text-primary);
   }
 
   body.flashcard-study-mode .example-box .ex-py {
-    font-size: 13.5px;
+    font-size: 13px;
     font-style: italic;
-    line-height: 1.4;
+    line-height: 1.35;
     margin-bottom: 2px;
     color: var(--text-secondary);
   }
 
   body.flashcard-study-mode .example-box .ex-vi {
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 13.5px;
+    line-height: 1.35;
     font-weight: 450;
     color: var(--text-primary);
     opacity: 0.92;
@@ -2291,39 +2290,28 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .hint {
     font-size: 11px;
-    margin-top: 4px;
+    margin-top: 6px;
+    color: var(--text-tertiary);
   }
 
-  /* 5. Rating Buttons & Bottom Safe Area */
+  /* 5. Rating Buttons & Ergonomic Thumb Zone */
   body.flashcard-study-mode .rating-area {
-    margin: 8px auto 0 !important;
-    padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
+    margin: 6px auto 0 !important;
+    padding-bottom: max(10px, env(safe-area-inset-bottom, 10px));
     width: 100%;
-  }
-
-  body.flashcard-study-mode .reveal-btn {
-    min-height: 46px;
-    padding: 9px 18px;
-    font-size: 15px;
-    border-radius: 999px;
-  }
-
-  body.flashcard-study-mode .reveal-btn .key-badge,
-  body.flashcard-study-mode .key-badge {
-    display: none !important;
   }
 
   body.flashcard-study-mode .nav-row {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 8px auto 0 !important;
+    margin: 6px auto 0 !important;
     padding: 0 4px !important;
     box-sizing: border-box !important;
   }
 
   body.flashcard-study-mode .nav-btn {
-    padding: 7px 14px !important;
-    font-size: 13px !important;
+    padding: 7px 16px !important;
+    font-size: 12.5px !important;
     border-radius: 999px !important;
   }
 
@@ -2332,19 +2320,21 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     font-weight: 600 !important;
   }
 
-  body.flashcard-study-mode .reveal-btn:active {
-    transform: scale(0.98);
+  /* CRITICAL THUMB ZONE FIX: When card is flipped, hide the bulky nav row so user
+     has zero chance of accidentally hitting "Tiếp" instead of "Chưa nhớ" / "Đã nhớ". */
+  body.flashcard-study-mode .card.is-flipped ~ #studyNavRow {
+    display: none !important;
   }
 
   body.flashcard-study-mode .rating-row {
-    gap: 8px;
+    gap: 10px;
     width: 100%;
   }
 
   body.flashcard-study-mode .rating-btn {
-    min-height: 46px;
-    padding: 8px 12px;
-    border-radius: 12px;
+    min-height: 48px;
+    padding: 10px 14px;
+    border-radius: 14px;
     gap: 8px;
   }
 
@@ -2353,26 +2343,27 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .rating-label {
-    font-size: 15px;
+    font-size: 15.5px;
+    font-weight: 700;
   }
 
   body.flashcard-study-mode .rating-icon {
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
   }
 
   body.flashcard-study-mode .action-row.secondary-actions {
-    margin-top: 8px;
-    gap: 8px;
+    margin-top: 6px;
+    gap: 6px;
     display: flex;
     justify-content: center;
-    padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
+    padding-bottom: max(12px, env(safe-area-inset-bottom, 12px));
   }
 
   body.flashcard-study-mode .show-unknown-btn,
   body.flashcard-study-mode .reset-progress-btn {
     font-size: 11.5px;
-    padding: 6px 12px;
+    padding: 5px 10px;
   }
 }
 

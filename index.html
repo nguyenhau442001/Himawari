@@ -517,6 +517,18 @@ if ('serviceWorker' in navigator) {
     <div id="studyView" role="tabpanel" aria-labelledby="flashcardTab">
       <div class="filter-row" id="filterRow"></div>
 
+      <dialog id="studyFilterDialog" class="mobile-dock-dialog study-filter-dialog" onclick="if (event.target === this) this.close()">
+        <div class="mobile-dock-sheet-handle" aria-hidden="true"></div>
+        <div class="mobile-dock-sheet-header">
+          <div class="mobile-dock-sheet-title">
+            <span class="mobile-dock-sheet-icon" aria-hidden="true">🏷️</span>
+            <span>Lọc danh sách thẻ</span>
+          </div>
+          <button type="button" class="mobile-dock-close" onclick="closeStudyFilterSheet()" aria-label="Đóng">✕</button>
+        </div>
+        <div class="study-filter-sheet-body" id="studyFilterSheetBody"></div>
+      </dialog>
+
       <div class="transfer-panel" id="transferPanel" hidden>
         <div class="transfer-panel-header">
           <div class="transfer-panel-title">Sao lưu và chuyển thiết bị</div>

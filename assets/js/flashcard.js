@@ -1,9 +1,30 @@
 // Flashcard markup, filtering, statistics, and rendering.
+function getCardHintText(isFlipped) {
+  const isTouch = (typeof window !== 'undefined') && (
+    window.matchMedia('(pointer: coarse)').matches ||
+    ('ontouchstart' in window) ||
+    (navigator.maxTouchPoints > 0)
+  );
+  if (isTouch) {
+    return isFlipped ? 'Chạm vào thẻ để ẩn' : 'Chạm vào thẻ để xem nghĩa';
+  }
+  return isFlipped ? 'Nhấn vào thẻ hoặc Space để ẩn' : 'Nhấn vào thẻ hoặc phím Space để xem nghĩa';
+}
+window.getCardHintText = getCardHintText;
+
 function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card">
-      <div class="card-header-bar card-interactive" id="cardHeaderBar" onclick="event.stopPropagation()">
-        <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
+      <div class="card-header-bar" id="cardHeaderBar" onclick="event.stopPropagation()">
+        <div class="card-header-nav">
+          <button type="button" class="card-header-nav-btn" onclick="prevCard()" aria-label="Từ trước" title="Từ trước (←)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
+          <button type="button" class="card-header-nav-btn" onclick="nextCard()" aria-label="Từ tiếp theo" title="Từ tiếp theo (→)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
         <div class="card-more-menu-wrap" id="cardMoreMenuWrap">
           <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn học từ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -13,6 +34,10 @@ function buildCardArea() {
             </svg>
           </button>
           <div class="card-more-dropdown" id="cardMoreDropdown" role="menu" hidden>
+            <button type="button" class="card-dropdown-item" id="menuToggleWriting" onclick="toggleStudyWritingPanel(true); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">✍️</span>
+              <span class="dropdown-item-label">Luyện viết chữ Hán</span>
+            </button>
             <button type="button" class="card-dropdown-item" id="menuTogglePinyin" onclick="togglePinyin(); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon" id="menuPinyinIcon">👁️</span>
               <span class="dropdown-item-label" id="menuPinyinText">Ẩn / Hiện pinyin</span>
@@ -50,7 +75,7 @@ function buildCardArea() {
 
           <!-- Cột phải: Chữ Hán, Pinyin, Từ loại & Nghĩa -->
           <div class="card-content-col" id="cardContentCol">
-            <div class="hanzi card-interactive" id="hanzi" onclick="event.stopPropagation(); toggleStudyWritingPanel(true)" title="Nhấn để luyện viết và xem thứ tự nét (W)"></div>
+            <div class="hanzi" id="hanzi"></div>
             <div class="pinyin-row" id="pinyinRow">
               <div class="pinyin" id="pinyin"></div>
               <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
@@ -61,8 +86,8 @@ function buildCardArea() {
                 <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
               </button>
             </div>
-            <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
             <div class="meaning" id="meaning"></div>
+            <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
           </div>
         </div>
         <div class="example-box" id="exampleBox">
@@ -97,7 +122,7 @@ function buildCardArea() {
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
-        <div class="hint" id="hint">Nhấn vào thẻ hoặc phím Space để xem nghĩa</div>
+        <div class="hint" id="hint">${getCardHintText(false)}</div>
         <div class="card-empty-state card-interactive" id="cardEmptyState" hidden></div>
       </div>
     </div>
@@ -211,10 +236,22 @@ function toggleHanViet() {
 }
 window.toggleHanViet = toggleHanViet;
 
+function openStudyFilterSheet() {
+  const dlg = document.getElementById('studyFilterDialog');
+  if (dlg && typeof dlg.showModal === 'function') {
+    dlg.showModal();
+  }
+}
+function closeStudyFilterSheet() {
+  const dlg = document.getElementById('studyFilterDialog');
+  if (dlg && dlg.open) dlg.close();
+}
+window.openStudyFilterSheet = openStudyFilterSheet;
+window.closeStudyFilterSheet = closeStudyFilterSheet;
+
 function renderFilters() {
   const row = document.getElementById('filterRow');
   if (!row) return;
-  row.innerHTML = '';
   const known = Object.values(progress).filter(value => value === 'known').length;
   const unknown = Object.values(progress).filter(value => value === 'unknown').length;
   const counts = {
@@ -224,19 +261,53 @@ function renderFilters() {
     unseen: Math.max(0, WORDS.length - known - unknown),
   };
   const filters = [
-    { key: 'all', label: 'Tất cả', count: counts.all },
-    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown' },
-    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known' },
-    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen' },
+    { key: 'all', label: 'Tất cả', count: counts.all, icon: '📚' },
+    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown', icon: '🔴' },
+    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known', icon: '🟢' },
+    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen', icon: '⚪' },
   ];
-  filters.forEach(f => {
-    const b = document.createElement('button');
-    b.type = 'button';
-    b.className = 'filter-btn' + (f.modifier ? ' filter-btn--' + f.modifier : '') + (currentFilter === f.key ? ' active' : '');
-    b.innerHTML = `<span class="filter-label">${f.label}</span> <span class="filter-count">(${f.count})</span>`;
-    b.onclick = () => setFilter(f.key);
-    row.appendChild(b);
-  });
+  const activeF = filters.find(f => f.key === currentFilter) || filters[0];
+
+  row.innerHTML = `
+    <div class="desktop-filter-tabs" role="group" aria-label="Bộ lọc trạng thái học">
+      ${filters.map(f => `
+        <button type="button" class="filter-btn${f.modifier ? ' filter-btn--' + f.modifier : ''}${currentFilter === f.key ? ' active' : ''}"
+          onclick="setFilter('${f.key}')">
+          <span class="filter-label">${f.label}</span>
+          <span class="filter-count">(${f.count})</span>
+        </button>
+      `).join('')}
+    </div>
+    <div class="mobile-filter-bar">
+      <button type="button" class="mobile-filter-trigger-btn" onclick="openStudyFilterSheet()" aria-haspopup="dialog" aria-label="Lọc trạng thái: ${activeF.label}">
+        <span class="mobile-filter-icon">${activeF.icon}</span>
+        <span class="mobile-filter-text">Lọc: <strong>${activeF.label}</strong> <span class="mobile-filter-count">(${activeF.count})</span></span>
+        <span class="mobile-filter-chevron">▾</span>
+      </button>
+    </div>
+  `;
+
+  const sheetBody = document.getElementById('studyFilterSheetBody');
+  if (sheetBody) {
+    sheetBody.innerHTML = `
+      <div class="study-filter-sheet-options" role="radiogroup" aria-label="Chọn bộ lọc học">
+        ${filters.map(f => `
+          <button type="button" class="study-filter-sheet-option${currentFilter === f.key ? ' is-active' : ''}"
+            onclick="setFilter('${f.key}'); closeStudyFilterSheet();"
+            role="radio" aria-checked="${currentFilter === f.key}">
+            <div class="filter-sheet-option-left">
+              <span class="filter-sheet-option-icon">${f.icon}</span>
+              <span class="filter-sheet-option-label">${f.label}</span>
+            </div>
+            <div class="filter-sheet-option-right">
+              <span class="filter-sheet-option-count">${f.count} từ</span>
+              ${currentFilter === f.key ? '<span class="filter-sheet-check">✓</span>' : ''}
+            </div>
+          </button>
+        `).join('')}
+      </div>
+    `;
+  }
 }
 function setFilter(key) {
   currentFilter = key;
@@ -1037,7 +1108,7 @@ function render(animate) {
       preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
     }
 
-    document.getElementById('hint').textContent = 'Nhấn vào thẻ hoặc phím Space để xem nghĩa';
+    document.getElementById('hint').textContent = getCardHintText(false);
     updateCardMoreMenuState();
     updateProgress();
     updateCardPosition();
