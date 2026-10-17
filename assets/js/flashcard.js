@@ -1293,8 +1293,10 @@ function render(animate) {
           imgEl.removeAttribute('src');
           if (frameEl) frameEl.classList.remove('is-loading');
           syncCardSupportingGroup();
-        } else if (illu.src) {
-          const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
+        } else if (illu.src || w.hanzi) {
+          const cachedSvg = (typeof SynapseSvgCache !== 'undefined')
+            ? (SynapseSvgCache.get(illu.src) || (w.hanzi && SynapseSvgCache.get(w.hanzi)))
+            : null;
           if (cachedSvg) {
             // INSTANT RENDER (0ms latency from RAM cache)
             svgEl.innerHTML = normalizeSvgViewBox(cachedSvg);
@@ -1313,10 +1315,11 @@ function render(animate) {
             if (frameEl) frameEl.classList.add('is-loading');
 
             if (typeof preloadIllustration === 'function') {
-              preloadIllustration(illu.src, 'high').then(svgText => {
+              preloadIllustration(illu.src || w, 'high').then(svgText => {
                 if (typeof activeStudyWord !== 'undefined' && activeStudyWord && (activeStudyWord === curWord || activeStudyWord.hanzi === curWord.hanzi)) {
-                  if (svgText) {
-                    svgEl.innerHTML = normalizeSvgViewBox(svgText);
+                  const resolvedSvg = svgText || (typeof SynapseSvgCache !== 'undefined' && (SynapseSvgCache.get(illu.src) || (curWord.hanzi && SynapseSvgCache.get(curWord.hanzi))));
+                  if (resolvedSvg) {
+                    svgEl.innerHTML = normalizeSvgViewBox(resolvedSvg);
                     svgEl.hidden = false;
                     svgEl.removeAttribute('hidden');
                     svgEl.style.display = 'flex';
