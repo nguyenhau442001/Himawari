@@ -85,19 +85,24 @@ function buildCardArea() {
           <div class="meaning" id="meaning"></div>
           <div class="meta-badges-row" id="metaBadgesRow">
             <span class="pos-badge" id="posBadge" title="Từ loại"></span>
+            <span class="level-badge" id="levelBadge" title="Cấp độ HSK"></span>
             <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
           </div>
 
-          <!-- Khối hình minh họa gợi hình (Gọn gàng, trung tâm, không làm tối cục bộ) -->
-          <div class="card-visual-col" id="cardVisualCol">
-            <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
-              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
-              <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
+          <!-- Khối thông tin hỗ trợ: Minh họa gợi hình + Cấu tạo chữ -->
+          <div class="card-supporting-group" id="cardSupportingGroup">
+            <div class="card-visual-col" id="cardVisualCol">
+              <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
+                <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
+                <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
+              </div>
+            </div>
+
+            <div class="card-decomposition-wrap" id="cardDecompositionWrap">
+              <div class="card-decomp-title">Cấu tạo chữ</div>
+              <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
             </div>
           </div>
-
-          <!-- Chips Bộ thủ chiết tự (Rõ ràng, tương phản cao đạt chuẩn WCAG) -->
-          <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
         </div>
 
         <!-- Khối ví dụ thực tế -->
@@ -1021,6 +1026,26 @@ function render(animate) {
       </div>`;
   }
 
+  function syncCardSupportingGroup() {
+    const group = document.getElementById('cardSupportingGroup');
+    const visualCol = document.getElementById('cardVisualCol');
+    const decompWrap = document.getElementById('cardDecompositionWrap');
+    if (!group) return;
+    const hasVisual = Boolean(visualCol && visualCol.style.display !== 'none' && !visualCol.hidden);
+    const radsRow = document.getElementById('cardRadicalsRow');
+    const hasDecomp = Boolean(decompWrap && decompWrap.style.display !== 'none' && !decompWrap.hidden && radsRow && radsRow.children && radsRow.children.length > 0);
+    if (hasVisual || hasDecomp) {
+      group.style.display = 'flex';
+      group.classList.toggle('has-both', Boolean(hasVisual && hasDecomp));
+      group.classList.toggle('has-only-visual', Boolean(hasVisual && !hasDecomp));
+      group.classList.toggle('has-only-decomp', Boolean(!hasVisual && hasDecomp));
+    } else {
+      group.style.display = 'none';
+      group.classList.remove('has-both', 'has-only-visual', 'has-only-decomp');
+    }
+  }
+  window.syncCardSupportingGroup = syncCardSupportingGroup;
+
   function applyContent() {
     if (content) content.className = 'card-content';
     const card = document.getElementById('card');
@@ -1050,6 +1075,10 @@ function render(animate) {
       if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
       const emptyPos = document.getElementById('posBadge');
       if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
+      const emptyLevel = document.getElementById('levelBadge');
+      if (emptyLevel) { emptyLevel.textContent = ''; emptyLevel.hidden = true; emptyLevel.style.display = 'none'; }
+      const emptySupporting = document.getElementById('cardSupportingGroup');
+      if (emptySupporting) { emptySupporting.style.display = 'none'; }
       const meaningEl = document.getElementById('meaning');
       if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
       const emptyRads = document.getElementById('cardRadicalsRow');
@@ -1124,6 +1153,28 @@ function render(animate) {
         posBadge.textContent = '';
         posBadge.hidden = true;
         posBadge.style.display = 'none';
+      }
+    }
+
+    // Cập nhật Cấp độ HSK cho dòng metadata tinh gọn (vd: "Danh từ · HSK 3")
+    const levelBadge = document.getElementById('levelBadge');
+    if (levelBadge) {
+      let lvl = '';
+      if (w.level) {
+        lvl = String(w.level).toUpperCase().replace(/^HSK(\d)/, 'HSK $1');
+      } else if (typeof currentLevel !== 'undefined' && currentLevel) {
+        const lvlObj = (typeof LEVELS !== 'undefined' && LEVELS[currentLevel]) || (typeof LEVELS_HSK30 !== 'undefined' && LEVELS_HSK30[currentLevel]);
+        lvl = lvlObj ? (lvlObj.label || currentLevel).toUpperCase().replace(/^HSK(\d)/, 'HSK $1') : currentLevel.toUpperCase();
+      }
+      if (lvl) {
+        levelBadge.textContent = lvl;
+        levelBadge.title = `Cấp độ: ${lvl}`;
+        levelBadge.hidden = false;
+        levelBadge.style.display = 'inline-flex';
+      } else {
+        levelBadge.textContent = '';
+        levelBadge.hidden = true;
+        levelBadge.style.display = 'none';
       }
     }
 
@@ -1204,6 +1255,7 @@ function render(animate) {
     } else if (visualCol) {
       visualCol.style.display = 'none';
     }
+    syncCardSupportingGroup();
 
     // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
     if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {

@@ -339,6 +339,8 @@
 /* Pure Zen Flashcard Quiz: hide spoiler clues on front until flipped */
 .card:not(.is-flipped) .hanviet-badge,
 .card:not(.is-flipped) .pos-badge,
+.card:not(.is-flipped) .level-badge,
+.card:not(.is-flipped) .card-supporting-group,
 .card:not(.is-flipped) .card-radicals-row,
 .card:not(.is-flipped) .card-visual-col {
   display: none !important;
@@ -347,84 +349,152 @@
   display: none !important;
 }
 
-/* Card Radical Breakdown Row: clean, modern borderless micro-chips */
+/* Khối hỗ trợ (Supporting Group: Minh họa + Cấu tạo chữ) */
+.card-supporting-group {
+  width: 100%;
+  max-width: 520px;
+  border-top: 1px solid var(--border-subtle, rgba(0, 0, 0, 0.08));
+  margin: 8px auto 2px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+@media (min-width: 480px) {
+  .card-supporting-group.has-both {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+.card-visual-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* Card Decomposition: Cấu tạo chữ */
+.card-decomposition-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3px;
+}
+.card-decomp-title {
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted, #8B918C);
+  line-height: 1.2;
+}
 .card-radicals-row {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 5px;
-  margin: 4px 0 2px;
+  gap: 8px;
+  margin: 0;
 }
-.card-radical-pill {
+.card-decomp-formula-wrap,
+.card-decomp-multi-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.card-decomp-char-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.card-decomp-chars-row {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 5px;
-  padding: 2.5px 8px;
-  border-radius: 999px;
-  border: 1px solid rgba(249, 115, 22, 0.24);
-  background: rgba(249, 115, 22, 0.07);
-  color: var(--text-primary);
-  font-size: 12px;
-  font-weight: 600;
+}
+.card-decomp-char-btn {
+  background: transparent;
+  border: none;
+  padding: 0 2px;
   cursor: pointer;
-  transition: all 0.16s ease;
-  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  line-height: 1;
+  transition: background-color 0.15s ease, transform 0.1s ease;
 }
-:root[data-theme="dark"] .card-radical-pill {
-  background: rgba(249, 115, 22, 0.12);
-  border-color: rgba(249, 115, 22, 0.32);
-}
-.card-radical-pill:hover {
-  background: rgba(249, 115, 22, 0.16);
-  border-color: rgba(249, 115, 22, 0.5);
+.card-decomp-char-btn:hover {
+  background-color: var(--surface-subtle);
   transform: translateY(-1px);
 }
-.card-radical-char {
-  font-size: 13.5px;
-  font-weight: 700;
-  color: #ea580c;
+.card-decomp-char {
+  font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.card-decomp-op {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted, #8B918C);
+  user-select: none;
   line-height: 1;
 }
-:root[data-theme="dark"] .card-radical-char {
-  color: #fb923c;
-}
-.card-radical-name {
-  font-size: 11.5px;
+.card-decomp-target-char {
+  font-size: 13.5px;
   font-weight: 600;
-  color: var(--text-secondary);
+  color: var(--text-muted, #8B918C);
+  margin-right: 2px;
+}
+.card-decomp-names-row {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 11.5px;
+  color: var(--text-muted, #8B918C);
+  line-height: 1.3;
+}
+.card-decomp-dot {
+  opacity: 0.6;
 }
 
-/* Seamless Integrated Example Section (No box-in-a-box) */
+/* Khối ví dụ thực tế: Tối ưu nhịp khoảng cách (Vertical Rhythm) và phân cấp màu sắc */
 .example-box {
   display: none;
-  margin-top: 8px;
-  padding: 8px 14px;
-  background: var(--surface-subtle);
-  border: none;
+  margin: 12px auto 0;
+  padding: 13px 18px;
+  background: rgba(0, 0, 0, 0.015);
+  border: 1px solid var(--border-subtle, rgba(0, 0, 0, 0.08));
   border-radius: 12px;
   font-size: 14px;
   color: var(--text-primary);
   text-align: left;
-  line-height: 1.4;
+  line-height: 1.5;
   width: 100%;
-  max-width: 720px;
-  max-height: 160px;
-  overflow-y: auto;
+  max-width: 520px;
+  max-height: none !important;
+  overflow-y: visible !important;
   box-shadow: none;
   transition: all 0.2s ease;
-  scrollbar-width: none !important;
-  -ms-overflow-style: none !important;
-}
-.example-box::-webkit-scrollbar {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
 }
 :root[data-theme="dark"] .example-box {
-  background: rgba(255, 255, 255, 0.04);
-  border: none;
-  box-shadow: none;
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.06);
 }
 .example-box.show { display: block; }
 .example-box .ex-header-row {
@@ -432,42 +502,56 @@
   align-items: center;
   justify-content: space-between;
   gap: 6px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 .example-box .ex-label {
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 10.5px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--accent);
+  letter-spacing: 0.08em;
+  color: var(--text-muted, #8B918C);
   margin: 0;
   line-height: 1;
-  opacity: 0.95;
 }
 .example-box .ex-line { margin: 0; }
 .example-box .ex-zh {
-  font-size: 17px;
+  font-size: clamp(16px, 1.5vw, 17.5px);
   font-weight: 600;
   color: var(--text-primary);
-  line-height: 1.4;
-  margin-bottom: 2px;
+  line-height: 1.55;
+  margin-bottom: 6px;
   letter-spacing: 0.01em;
 }
+.example-box .ex-zh u {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 2px solid var(--accent-sage, #567C69);
+  padding-bottom: 1px;
+  font-weight: 600;
+}
 .example-box .ex-py {
-  font-size: 13.5px;
+  font-size: clamp(13px, 1.2vw, 14px);
+  color: var(--text-muted, #8B918C);
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+.example-box .ex-py u {
   color: var(--text-secondary);
-  font-style: italic;
-  line-height: 1.35;
-  margin-bottom: 2px;
+  text-decoration: none;
+  font-weight: 600;
 }
 .example-box .ex-vi {
-  font-size: 14px;
-  color: var(--text-primary);
-  line-height: 1.4;
-  font-weight: 450;
-  opacity: 0.92;
+  font-size: clamp(13.5px, 1.3vw, 15px);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 0;
 }
-.example-box u { font-weight: 700; text-decoration: underline; color: var(--accent); }
+.example-box .ex-vi u {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
 .example-audio-controls {
   position: relative; display: inline-flex; flex: 0 0 auto; align-items: center; gap: 4px;
 }
@@ -592,9 +676,43 @@
   margin-top: 0;
 }
 
+/* Meta badges: POS · Level · Han-Viet - Clean Neutral Editorial Line */
+.meta-badges-row {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 3px 0 10px;
+}
+.meta-badges-row .pos-badge,
+.meta-badges-row .level-badge,
+.meta-badges-row .hanviet-badge {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  font-weight: 500 !important;
+  color: var(--text-muted, #8B918C) !important;
+}
+:root[data-theme="dark"] .meta-badges-row .pos-badge,
+:root[data-theme="dark"] .meta-badges-row .level-badge,
+:root[data-theme="dark"] .meta-badges-row .hanviet-badge {
+  color: var(--text-muted, #8B918C) !important;
+}
+.meta-badges-row span:not([hidden]):not([style*="display: none"]) + span:not([hidden]):not([style*="display: none"])::before {
+  content: "·";
+  margin: 0 6px;
+  color: var(--text-muted, #8B918C);
+  opacity: 0.6;
+  font-weight: 400;
+}
+
 /* Graceful reveal animation for answer elements when card is flipped */
 .card.is-flipped .meaning,
 .card.is-flipped .meta-badges-row,
+.card.is-flipped .card-supporting-group,
 .card.is-flipped .example-box {
   animation: cardRevealFade 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
@@ -611,6 +729,7 @@
 @media (prefers-reduced-motion: reduce) {
   .card.is-flipped .meaning,
   .card.is-flipped .meta-badges-row,
+  .card.is-flipped .card-supporting-group,
   .card.is-flipped .example-box {
     animation: none;
   }

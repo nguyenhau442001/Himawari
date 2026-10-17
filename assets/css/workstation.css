@@ -1305,37 +1305,36 @@ body.flashcard-study-mode .pinyin {
 }
 
 /* Meta badges: Han-Viet & POS - Clean Editorial Context */
+/* Meta badges: POS · Level · Han-Viet - Clean Neutral Editorial Line */
 body.flashcard-study-mode .meta-badges-row {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
-  margin: 4px 0 10px;
+  gap: 0;
+  margin: 3px 0 10px;
 }
 body.flashcard-study-mode .meta-badges-row .pos-badge,
+body.flashcard-study-mode .meta-badges-row .level-badge,
 body.flashcard-study-mode .meta-badges-row .hanviet-badge {
   background: transparent !important;
   border: none !important;
   padding: 0 !important;
-  font-size: 13.5px !important;
+  font-size: 13px !important;
   line-height: 1.4 !important;
   font-weight: 500 !important;
-}
-body.flashcard-study-mode .meta-badges-row .pos-badge {
-  color: var(--accent-sage) !important;
-  font-weight: 600 !important;
-}
-:root[data-theme="dark"] body.flashcard-study-mode .meta-badges-row .pos-badge {
-  color: #8EBBA4 !important;
-}
-body.flashcard-study-mode .meta-badges-row .hanviet-badge {
   color: var(--text-muted) !important;
 }
-body.flashcard-study-mode .meta-badges-row .pos-badge:not([hidden]):not([style*="display: none"]) + .hanviet-badge:not([hidden]):not([style*="display: none"])::before {
+:root[data-theme="dark"] body.flashcard-study-mode .meta-badges-row .pos-badge,
+:root[data-theme="dark"] body.flashcard-study-mode .meta-badges-row .level-badge,
+:root[data-theme="dark"] body.flashcard-study-mode .meta-badges-row .hanviet-badge {
+  color: var(--text-muted) !important;
+}
+body.flashcard-study-mode .meta-badges-row span:not([hidden]):not([style*="display: none"]) + span:not([hidden]):not([style*="display: none"])::before {
   content: "·";
-  margin-right: 8px;
+  margin: 0 6px;
   color: var(--text-muted);
+  opacity: 0.6;
   font-weight: 400;
 }
 
@@ -1349,13 +1348,37 @@ body.flashcard-study-mode .meaning {
   line-height: 1.35;
 }
 
+/* Khối hỗ trợ (Supporting Group: Minh họa + Cấu tạo chữ) */
+body.flashcard-study-mode .card-supporting-group {
+  width: 100%;
+  max-width: 520px;
+  border-top: 1px solid var(--border-subtle);
+  margin: 8px auto 2px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+body.flashcard-study-mode .card:not(.is-flipped) .card-supporting-group {
+  display: none !important;
+}
+@media (min-width: 480px) {
+  body.flashcard-study-mode .card-supporting-group.has-both {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
 body.flashcard-study-mode .card-visual-col {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin: 6px auto 4px;
-  position: relative;
+  margin: 0;
+  flex-shrink: 0;
 }
 
 body.flashcard-study-mode .card:not(.is-flipped) .card-visual-col {
@@ -1363,10 +1386,10 @@ body.flashcard-study-mode .card:not(.is-flipped) .card-visual-col {
 }
 
 body.flashcard-study-mode .card-illustration-frame {
-  width: 88px;
-  height: 88px;
-  max-width: 92px;
-  max-height: 92px;
+  width: 76px;
+  height: 76px;
+  max-width: 80px;
+  max-height: 80px;
   border-radius: 12px;
   background-color: var(--surface-subtle);
   border: 1px solid var(--border-subtle);
@@ -1389,7 +1412,7 @@ body.flashcard-study-mode .card-illustration-frame {
   opacity: 0.12;
 }
 body.flashcard-study-mode .card-illustration-frame:hover {
-  border-color: var(--accent-sage);
+  border-color: var(--border-color);
   transform: translateY(-1px);
 }
 
@@ -1719,54 +1742,113 @@ body.flashcard-study-mode .meaning {
   color: var(--text-primary);
 }
 
+/* Cấu tạo chữ: Bố cục tinh gọn, trung tính, cấu trúc rõ ràng */
+body.flashcard-study-mode .card-decomposition-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3px;
+}
+body.flashcard-study-mode .card-decomp-title {
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  line-height: 1.2;
+}
 body.flashcard-study-mode .card-radicals-row {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 5px;
-  margin: 4px 0 2px;
+  gap: 8px;
+  margin: 0;
 }
-body.flashcard-study-mode .card-radical-pill {
+body.flashcard-study-mode .card-decomp-formula-wrap,
+body.flashcard-study-mode .card-decomp-multi-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+body.flashcard-study-mode .card-decomp-char-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+body.flashcard-study-mode .card-decomp-chars-row {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 5px;
-  padding: 2.5px 8px;
-  border-radius: 999px;
-  border: 1px solid var(--border-subtle);
-  background: var(--surface-subtle);
-  color: var(--text-muted);
-  font-size: 12px;
-  font-weight: 500;
 }
-body.flashcard-study-mode .card-radical-char {
-  font-size: 13px;
+body.flashcard-study-mode .card-decomp-char-btn {
+  background: transparent;
+  border: none;
+  padding: 0 2px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  line-height: 1;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+body.flashcard-study-mode .card-decomp-char-btn:hover {
+  background-color: var(--surface-subtle);
+  transform: translateY(-1px);
+}
+body.flashcard-study-mode .card-decomp-char {
+  font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-primary);
+  line-height: 1.2;
 }
-body.flashcard-study-mode .card-radical-name {
+body.flashcard-study-mode .card-decomp-op {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted);
+  user-select: none;
+  line-height: 1;
+}
+body.flashcard-study-mode .card-decomp-target-char {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-right: 2px;
+}
+body.flashcard-study-mode .card-decomp-names-row {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
   font-size: 11.5px;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+body.flashcard-study-mode .card-decomp-dot {
+  opacity: 0.6;
 }
 
+/* Khối ví dụ thực tế: Tối ưu nhịp khoảng cách (Vertical Rhythm) và phân cấp màu sắc */
 body.flashcard-study-mode .example-box {
   width: 100%;
-  max-width: 960px;
-  margin-top: 12px;
-  padding: 12px 16px;
+  max-width: 520px;
+  margin: 12px auto 0;
+  padding: 13px 18px;
   border-radius: 12px;
   background: rgba(0, 0, 0, 0.015);
   border: 1px solid var(--border-subtle);
-  border-top: 1.5px solid var(--border-subtle);
-  max-height: clamp(110px, 18vh, 160px);
-  overflow-y: auto;
+  max-height: none !important;
+  overflow-y: visible !important;
   box-shadow: none;
-  scrollbar-width: none !important;
-  -ms-overflow-style: none !important;
-}
-body.flashcard-study-mode .example-box::-webkit-scrollbar {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .example-box {
   background: rgba(255, 255, 255, 0.02);
@@ -1776,13 +1858,13 @@ body.flashcard-study-mode .example-box .ex-header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   padding-bottom: 0;
   border-bottom: none;
 }
 body.flashcard-study-mode .example-box .ex-label {
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 10.5px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-muted);
@@ -1802,56 +1884,57 @@ body.flashcard-study-mode .example-sound-btn {
   transition: all 0.15s ease;
 }
 body.flashcard-study-mode .example-sound-btn:hover {
-  background: var(--accent-sage-subtle);
-  color: var(--accent-sage);
-  border-color: var(--accent-sage);
+  background: var(--surface-chip);
+  color: var(--text-primary);
+  border-color: var(--border-color);
 }
 body.flashcard-study-mode .example-speed-picker {
   display: none !important;
 }
 body.flashcard-study-mode .example-box .ex-zh {
-  font-size: clamp(16px, 1.5vw, 18px);
+  font-size: clamp(16px, 1.5vw, 17.5px);
   font-weight: 600;
   color: var(--text-primary);
-  line-height: 1.48;
-  margin-bottom: 3px;
+  line-height: 1.55;
+  margin-bottom: 6px;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .example-box .ex-zh {
   color: var(--text-primary);
 }
 body.flashcard-study-mode .example-box .ex-zh u {
-  color: var(--accent-sage);
+  color: var(--text-primary);
   text-decoration: none;
   border-bottom: 2px solid var(--accent-sage);
   padding-bottom: 1px;
-  font-weight: 700;
+  font-weight: 600;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .example-box .ex-zh u {
-  color: var(--accent-sage);
+  color: var(--text-primary);
   border-bottom-color: var(--accent-sage);
 }
 body.flashcard-study-mode .example-box .ex-py {
   font-size: clamp(13px, 1.2vw, 14px);
   font-style: normal;
   color: var(--text-muted);
-  line-height: 1.4;
-  margin-bottom: 3px;
+  line-height: 1.5;
+  margin-bottom: 6px;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .example-box .ex-py {
   color: var(--text-muted);
 }
 body.flashcard-study-mode .example-box .ex-py u {
-  color: var(--text-primary);
+  color: var(--text-secondary);
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .example-box .ex-py u {
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 body.flashcard-study-mode .example-box .ex-vi {
   font-size: clamp(13.5px, 1.3vw, 15px);
   color: var(--text-secondary);
-  line-height: 1.45;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .example-box .ex-vi {
   color: var(--text-secondary);
@@ -1862,7 +1945,7 @@ body.flashcard-study-mode .example-box .ex-vi {
 body.flashcard-study-mode .example-box .ex-vi u {
   color: var(--text-primary);
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .example-box .ex-vi u {
   color: var(--text-primary);
