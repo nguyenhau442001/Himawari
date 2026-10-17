@@ -76,6 +76,14 @@ let showHanViet = (function() {
     return true;
   }
 })();
+let showIllustration = (function() {
+  try {
+    const saved = localStorage.getItem('hsk_show_illustrations');
+    return saved !== null ? saved === 'true' : true;
+  } catch (e) {
+    return true;
+  }
+})();
 let currentFilter = 'all';
 let transitionTimer = null;
 let celebrationShown = false;

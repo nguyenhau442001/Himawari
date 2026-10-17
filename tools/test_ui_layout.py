@@ -526,6 +526,57 @@ class TestTodayReviewZenMode(unittest.TestCase):
         self.assertIn(".today-review-celebration-card", self.flashcard_css)
 
 
+class TestFlashcardIllustrationIntegration(unittest.TestCase):
+    """Test Flashcard SVG illustration integration, responsive sizing, contrast, and toggle preferences."""
+
+    def setUp(self):
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+        self.flashcard_js = (REPO_ROOT / "assets" / "js" / "flashcard.js").read_text(encoding="utf-8")
+        self.state_js = (REPO_ROOT / "assets" / "js" / "state.js").read_text(encoding="utf-8")
+
+    def test_illustration_frame_responsive_bounds(self):
+        """Illustration frame must obey suggested responsive bounds (64-78px mobile, 88-112px desktop)."""
+        desktop_match = re.search(r"@media\s*\(min-width:\s*1024px\)[^{]*\{[^}]*\.card-illustration-frame\s*\{[^}]*width:\s*(\d+)px", self.workstation_css)
+        self.assertIsNotNone(desktop_match, "Desktop illustration width must be defined")
+        desktop_w = int(desktop_match.group(1))
+        self.assertTrue(88 <= desktop_w <= 112, f"Desktop illustration width ({desktop_w}px) must be within 88-112px")
+
+        mobile_match = re.search(r"@media\s*\(max-width:\s*479px\)[^{]*\{[^}]*\.card-illustration-frame\s*\{[^}]*width:\s*(\d+)px", self.workstation_css)
+        self.assertIsNotNone(mobile_match, "Mobile illustration width must be defined")
+        mobile_w = int(mobile_match.group(1))
+        self.assertTrue(64 <= mobile_w <= 78, f"Mobile illustration width ({mobile_w}px) must be within 64-78px")
+
+    def test_supporting_group_no_border_divider(self):
+        """Supporting group must not have an intrusive hard divider line cutting the card."""
+        supp_match = re.search(r"body\.flashcard-study-mode\s+\.card-supporting-group\s*\{([^}]+)\}", self.workstation_css)
+        self.assertIsNotNone(supp_match)
+        block = supp_match.group(1)
+        self.assertIn("border-top: none", block, "Supporting group must have border-top: none to avoid visual noise")
+
+    def test_hide_illustrations_mode_collapses_space(self):
+        """When illustrations are toggled off, card-visual-col must be hidden with 0 height."""
+        self.assertIn("body.flashcard-study-mode.hide-illustrations .card-visual-col", self.workstation_css)
+        self.assertIn("display: none !important", self.workstation_css)
+
+    def test_light_mode_preserves_svg_contrast(self):
+        """Light mode must not apply destructive opacity: 0.12 to SVG background rects, which breaks white elements."""
+        self.assertNotIn("card-illustration-svg svg rect:first-of-type", self.workstation_css,
+                         "Destructive opacity rule on first rect must be removed to preserve contrast for 1700+ SVGs")
+
+    def test_toggle_illustration_control_in_card_dropdown(self):
+        """Flashcard options dropdown must offer toggleIllustration and persist to localStorage."""
+        self.assertIn('id="menuToggleIllustration"', self.flashcard_js)
+        self.assertIn('toggleIllustration', self.flashcard_js)
+        self.assertIn('hsk_show_illustrations', self.flashcard_js)
+        self.assertIn('hsk_show_illustrations', self.state_js)
+
+    def test_svg_viewbox_normalization_handles_malformed_viewbox(self):
+        """normalizeSvgViewBox must correctly fix malformed 3-number viewBox='0 0 240'."""
+        malformed = '<svg width="240" height="240" viewBox="0 0 240" xmlns="http://www.w3.org/2000/svg">'
+        normalized = re.sub(r'viewBox=["\']\s*0\s+0\s+240\s*["\']', 'viewBox="0 0 240 240"', malformed)
+        self.assertEqual(normalized, '<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">')
+
+
 def run_tests():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
@@ -542,6 +593,7 @@ def run_tests():
     suite.addTests(loader.loadTestsFromTestCase(TestAssetAndPwaSynchronization))
     suite.addTests(loader.loadTestsFromTestCase(TestHtmlStructureAndSemantics))
     suite.addTests(loader.loadTestsFromTestCase(TestTodayReviewZenMode))
+    suite.addTests(loader.loadTestsFromTestCase(TestFlashcardIllustrationIntegration))
 
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(suite)

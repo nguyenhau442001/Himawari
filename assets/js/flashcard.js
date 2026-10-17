@@ -47,6 +47,10 @@ function buildCardArea() {
               <span class="dropdown-item-icon">漢</span>
               <span class="dropdown-item-label" id="menuHanvietText">Âm Hán - Việt</span>
             </button>
+            <button type="button" class="card-dropdown-item" id="menuToggleIllustration" onclick="toggleIllustration(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon" id="menuIllustrationIcon">🖼️</span>
+              <span class="dropdown-item-label" id="menuIllustrationText">Hình minh họa</span>
+            </button>
             <button type="button" class="card-dropdown-item" id="menuStudyHelp" onclick="openStudyHelpModal(); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon">❓</span>
               <span class="dropdown-item-label">Hướng dẫn &amp; phím tắt</span>
@@ -275,6 +279,11 @@ function updateCardMoreMenuState() {
   const hvLabel = document.getElementById('menuHanvietText');
   if (hvLabel) hvLabel.textContent = showHanViet ? 'Tắt âm Hán - Việt' : 'Bật âm Hán - Việt';
 
+  const illuLabel = document.getElementById('menuIllustrationText');
+  const illuIcon = document.getElementById('menuIllustrationIcon');
+  if (illuLabel) illuLabel.textContent = showIllustration ? 'Ẩn hình minh họa' : 'Hiện hình minh họa';
+  if (illuIcon) illuIcon.textContent = showIllustration ? '🖼️' : '🚫';
+
   const isWeak = Boolean(activeStudyWord && typeof isWeakWord === 'function' && isWeakWord(activeStudyWord.hanzi));
   const weakLabel = document.getElementById('menuWeakText');
   const weakIcon = document.getElementById('menuWeakIcon');
@@ -302,6 +311,18 @@ document.addEventListener('pointerdown', event => {
     closeCompactFilterMenu();
   }
 });
+
+function toggleIllustration() {
+  showIllustration = !showIllustration;
+  try { localStorage.setItem('hsk_show_illustrations', String(showIllustration)); } catch (e) {}
+  document.body.classList.toggle('hide-illustrations', !showIllustration);
+  document.documentElement.classList.toggle('hide-illustrations', !showIllustration);
+  updateCardMoreMenuState();
+  if (typeof render === 'function') {
+    render();
+  }
+}
+window.toggleIllustration = toggleIllustration;
 
 function toggleHanViet() {
   showHanViet = !showHanViet;
@@ -1030,12 +1051,21 @@ function render(animate) {
       </div>`;
   }
 
+  function normalizeSvgViewBox(svgText) {
+    if (!svgText || typeof svgText !== 'string') return svgText;
+    let normalized = svgText.replace(/viewBox=["']\s*0\s+0\s+240\s*["']/gi, 'viewBox="0 0 240 240"');
+    if (!/viewBox=/i.test(normalized) && /width=["']240["']/i.test(normalized) && /height=["']240["']/i.test(normalized)) {
+      normalized = normalized.replace(/<svg\b([^>]*)>/i, '<svg$1 viewBox="0 0 240 240">');
+    }
+    return normalized;
+  }
+
   function syncCardSupportingGroup() {
     const group = document.getElementById('cardSupportingGroup');
     const visualCol = document.getElementById('cardVisualCol');
     const decompWrap = document.getElementById('cardDecompositionWrap');
     if (!group) return;
-    const hasVisual = Boolean(visualCol && visualCol.style.display !== 'none' && !visualCol.hidden);
+    const hasVisual = Boolean(showIllustration && visualCol && visualCol.style.display !== 'none' && !visualCol.hidden);
     const radsRow = document.getElementById('cardRadicalsRow');
     const hasDecomp = Boolean(decompWrap && decompWrap.style.display !== 'none' && !decompWrap.hidden && radsRow && radsRow.children && radsRow.children.length > 0);
     if (hasVisual || hasDecomp) {
@@ -1221,14 +1251,14 @@ function render(animate) {
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
 
-    if (imgEl && svgEl && typeof getWordIllustration === 'function') {
+    if (imgEl && svgEl && typeof getWordIllustration === 'function' && showIllustration) {
       const illu = getWordIllustration(w);
-      if (illu) {
+      if (illu && !illu.isFallback && (illu.src || (illu.type === 'svg' && illu.svg))) {
         if (visualCol) visualCol.style.display = '';
         if (frameEl) frameEl.title = 'Minh họa gợi hình';
 
         if (illu.type === 'svg' && illu.svg) {
-          svgEl.innerHTML = illu.svg;
+          svgEl.innerHTML = normalizeSvgViewBox(illu.svg);
           svgEl.hidden = false;
           imgEl.hidden = true;
           imgEl.removeAttribute('src');
@@ -1237,7 +1267,7 @@ function render(animate) {
           const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
           if (cachedSvg) {
             // INSTANT RENDER (0ms latency from RAM cache)
-            svgEl.innerHTML = cachedSvg;
+            svgEl.innerHTML = normalizeSvgViewBox(cachedSvg);
             svgEl.hidden = false;
             imgEl.hidden = true;
             imgEl.removeAttribute('src');
@@ -1251,26 +1281,48 @@ function render(animate) {
               preloadIllustration(illu.src, 'high').then(svgText => {
                 if (typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
                   if (svgText) {
-                    svgEl.innerHTML = svgText;
+                    svgEl.innerHTML = normalizeSvgViewBox(svgText);
                     svgEl.hidden = false;
                     imgEl.hidden = true;
                     imgEl.removeAttribute('src');
                   } else {
+                    imgEl.onerror = () => {
+                      if (visualCol) visualCol.style.display = 'none';
+                      if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
+                      if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+                      syncCardSupportingGroup();
+                    };
+                    imgEl.onload = () => {
+                      imgEl.hidden = false;
+                      svgEl.hidden = true;
+                      svgEl.innerHTML = '';
+                    };
                     imgEl.src = illu.src;
                     imgEl.alt = 'Minh họa gợi hình';
-                    imgEl.hidden = false;
-                    svgEl.hidden = true;
-                    svgEl.innerHTML = '';
                   }
                   if (frameEl) frameEl.classList.remove('is-loading');
+                  syncCardSupportingGroup();
                 }
+              }).catch(() => {
+                if (visualCol) visualCol.style.display = 'none';
+                if (frameEl) frameEl.classList.remove('is-loading');
+                syncCardSupportingGroup();
               });
             } else {
+              imgEl.onerror = () => {
+                if (visualCol) visualCol.style.display = 'none';
+                if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
+                if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+                syncCardSupportingGroup();
+              };
+              imgEl.onload = () => {
+                imgEl.hidden = false;
+                svgEl.hidden = true;
+                svgEl.innerHTML = '';
+              };
               imgEl.src = illu.src;
               imgEl.alt = 'Minh họa gợi hình';
-              imgEl.hidden = false;
-              svgEl.hidden = true;
-              svgEl.innerHTML = '';
+              if (frameEl) frameEl.classList.remove('is-loading');
             }
           }
         }
@@ -1281,11 +1333,13 @@ function render(animate) {
       }
     } else if (visualCol) {
       visualCol.style.display = 'none';
+      if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
+      if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
     }
     syncCardSupportingGroup();
 
-    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
-    if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
+    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background (if enabled)
+    if (showIllustration && typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
       preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
     }
 

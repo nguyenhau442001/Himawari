@@ -1352,24 +1352,27 @@ body.flashcard-study-mode .meaning {
 body.flashcard-study-mode .card-supporting-group {
   width: 100%;
   max-width: 520px;
-  border-top: 1px solid var(--border-subtle);
-  margin: 8px auto 2px;
-  padding-top: 10px;
+  border-top: none;
+  margin: 6px auto 2px;
+  padding-top: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
 }
 body.flashcard-study-mode .card:not(.is-flipped) .card-supporting-group {
   display: none !important;
 }
+body.flashcard-study-mode .card-supporting-group.has-both {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
 @media (min-width: 480px) {
   body.flashcard-study-mode .card-supporting-group.has-both {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
+    gap: 22px;
   }
 }
 
@@ -1385,41 +1388,87 @@ body.flashcard-study-mode .card:not(.is-flipped) .card-visual-col {
   display: none !important;
 }
 
+body.flashcard-study-mode.hide-illustrations .card-visual-col {
+  display: none !important;
+  height: 0;
+}
+
 body.flashcard-study-mode .card-illustration-frame {
   width: 76px;
   height: 76px;
   max-width: 80px;
   max-height: 80px;
   border-radius: 12px;
-  background-color: var(--surface-subtle);
-  border: 1px solid var(--border-subtle);
-  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 6px;
+  padding: 0;
   position: relative;
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
   user-select: none;
+  flex-shrink: 0;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .card-illustration-frame {
-  background-color: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.08);
-  box-shadow: none;
-}
-:root[data-theme="light"] body.flashcard-study-mode .card-illustration-svg svg rect:first-of-type {
-  opacity: 0.12;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.07);
 }
 body.flashcard-study-mode .card-illustration-frame:hover {
-  border-color: var(--border-color);
   transform: translateY(-1px);
+}
+
+@media (min-width: 1024px) {
+  body.flashcard-study-mode .card-illustration-frame {
+    width: 96px;
+    height: 96px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 14px;
+  }
+  body.flashcard-study-mode .card-illustration-svg svg,
+  body.flashcard-study-mode .card-illustration-img {
+    border-radius: 14px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  body.flashcard-study-mode .card-illustration-frame {
+    width: 86px;
+    height: 86px;
+    max-width: 90px;
+    max-height: 90px;
+  }
+}
+
+@media (max-width: 479px) {
+  body.flashcard-study-mode .card-illustration-frame {
+    width: 74px;
+    height: 74px;
+    max-width: 76px;
+    max-height: 76px;
+  }
+}
+
+@media (max-width: 359px) {
+  body.flashcard-study-mode .card-illustration-frame {
+    width: 66px;
+    height: 66px;
+    max-width: 68px;
+    max-height: 68px;
+  }
+  body.flashcard-study-mode .card-supporting-group.has-both {
+    gap: 10px;
+  }
 }
 
 body.flashcard-study-mode .card-illustration-skeleton {
   position: absolute;
   inset: 0;
-  border-radius: 26px;
+  border-radius: 12px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.06) 50%, rgba(0, 0, 0, 0.03) 100%);
   background-size: 200% 100%;
   animation: cardIlluShimmer 1.8s infinite ease-in-out;
@@ -1437,7 +1486,7 @@ body.flashcard-study-mode .card-illustration-frame.is-loading::after {
   content: '';
   position: absolute;
   inset: 0;
-  border-radius: 26px;
+  border-radius: inherit;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.07) 50%, rgba(0, 0, 0, 0.03) 100%);
   background-size: 200% 100%;
   animation: cardIlluShimmer 1.2s infinite ease-in-out;
@@ -1452,7 +1501,7 @@ body.flashcard-study-mode .card-illustration-img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  border-radius: 18px;
+  border-radius: 12px;
   display: block;
   image-rendering: -webkit-optimize-contrast;
   transform: translateZ(0);
@@ -1464,16 +1513,18 @@ body.flashcard-study-mode .card-illustration-svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4px;
+  padding: 0;
+  margin: 0;
   transform: translateZ(0);
 }
 body.flashcard-study-mode .card-illustration-svg svg {
   width: 100%;
   height: 100%;
-  max-width: 68px;
-  max-height: 68px;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
-  overflow: visible;
+  border-radius: 12px;
+  overflow: hidden;
   animation: illuSvgFade 0.16s cubic-bezier(0.16, 1, 0.3, 1);
 }
 @keyframes illuSvgFade {
@@ -2820,13 +2871,28 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   /* Clean visual column & decomposition formula on mobile flashcard */
   body.flashcard-study-mode .card-visual-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    margin: 0;
+  }
+  body.flashcard-study-mode.hide-illustrations .card-visual-col {
     display: none !important;
-    height: 0px;
+    height: 0;
   }
   body.flashcard-study-mode .card-supporting-group {
-    margin: 6px auto 2px !important;
-    padding-top: 8px !important;
+    border-top: none !important;
+    margin: 4px auto 2px !important;
+    padding-top: 2px !important;
     max-width: 100% !important;
+    gap: 12px !important;
+  }
+  body.flashcard-study-mode .card-supporting-group.has-both {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 14px !important;
   }
   body.flashcard-study-mode .card-radicals-row {
     margin: 0 !important;
@@ -3347,9 +3413,15 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .card-visual-col {
-    flex: 0 0 84px;
-    width: 84px;
-    height: 84px;
+    flex: 0 0 64px;
+    width: 64px;
+    height: 64px;
+  }
+  body.flashcard-study-mode .card-illustration-frame {
+    width: 60px;
+    height: 60px;
+    max-width: 64px;
+    max-height: 64px;
   }
 
   body.flashcard-study-mode .example-box {
