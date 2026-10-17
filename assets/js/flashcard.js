@@ -89,7 +89,6 @@ function buildCardArea() {
           <div class="meaning" id="meaning"></div>
           <div class="meta-badges-row" id="metaBadgesRow">
             <span class="pos-badge" id="posBadge" title="Từ loại"></span>
-            <span class="level-badge" id="levelBadge" title="Cấp độ HSK"></span>
             <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
           </div>
 
@@ -1234,26 +1233,12 @@ function render(animate) {
       }
     }
 
-    // Cập nhật Cấp độ HSK cho dòng metadata tinh gọn (vd: "Danh từ · HSK 3")
+    // Cấp độ HSK không hiển thị trên thẻ flashcard để tránh dư thừa với thanh tiêu đề
     const levelBadge = document.getElementById('levelBadge');
     if (levelBadge) {
-      let lvl = '';
-      if (w.level) {
-        lvl = String(w.level).toUpperCase().replace(/^HSK(\d)/, 'HSK $1');
-      } else if (typeof currentLevel !== 'undefined' && currentLevel) {
-        const lvlObj = (typeof LEVELS !== 'undefined' && LEVELS[currentLevel]) || (typeof LEVELS_HSK30 !== 'undefined' && LEVELS_HSK30[currentLevel]);
-        lvl = lvlObj ? (lvlObj.label || currentLevel).toUpperCase().replace(/^HSK(\d)/, 'HSK $1') : currentLevel.toUpperCase();
-      }
-      if (lvl) {
-        levelBadge.textContent = lvl;
-        levelBadge.title = `Cấp độ: ${lvl}`;
-        levelBadge.hidden = false;
-        levelBadge.style.display = 'inline-flex';
-      } else {
-        levelBadge.textContent = '';
-        levelBadge.hidden = true;
-        levelBadge.style.display = 'none';
-      }
+      levelBadge.textContent = '';
+      levelBadge.hidden = true;
+      levelBadge.style.display = 'none';
     }
 
     const m = document.getElementById('meaning');

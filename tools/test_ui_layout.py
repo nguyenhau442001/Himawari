@@ -588,6 +588,11 @@ class TestFlashcardIllustrationIntegration(unittest.TestCase):
         self.assertIn("shouldBeFlipped", self.flashcard_js)
         self.assertIn("c.classList.add('is-flipped')", self.flashcard_js)
 
+    def test_flashcard_meta_badges_row_omits_redundant_hsk_level(self):
+        """Flashcard meta row should not display redundant HSK level between word type and Sino-Vietnamese."""
+        self.assertNotIn('<span class="level-badge" id="levelBadge"', self.flashcard_js,
+                         "levelBadge must not be rendered in metaBadgesRow to avoid redundant level display")
+
 
 def run_tests():
     suite = unittest.TestSuite()
