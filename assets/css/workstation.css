@@ -349,24 +349,24 @@ body.flashcard-study-mode::before {
   opacity: 1;
 }
 :root[data-theme="dark"] body.flashcard-study-mode {
-  --canvas-bg: #141715;
-  --surface-bg: #1C201D;
-  --text-primary: #F0F3F1;
-  --text-secondary: #B0B7B2;
-  --text-muted: #8B918C;
-  --border-color: rgba(255, 255, 255, 0.08);
-  --border-subtle: rgba(255, 255, 255, 0.05);
-  --accent-sage: #7BA891;
-  --accent-sage-hover: #8EBBA4;
-  --accent-sage-subtle: rgba(123, 168, 145, 0.14);
+  --canvas-bg: #141719;
+  --surface-bg: #1C2022;
+  --text-primary: #E4E5E2;
+  --text-secondary: #A5AAA7;
+  --text-muted: #828A86;
+  --border-color: #343A3C;
+  --border-subtle: #2A3032;
+  --accent-sage: #72B99A;
+  --accent-sage-hover: #86C8AB;
+  --accent-sage-subtle: rgba(114, 185, 154, 0.14);
   --rating-again-bg: rgba(239, 68, 68, 0.12);
   --rating-again-border: rgba(239, 68, 68, 0.28);
   --rating-again-text: #F87171;
   --rating-again-hover: rgba(239, 68, 68, 0.2);
-  --rating-good-bg: rgba(86, 124, 105, 0.18);
-  --rating-good-border: rgba(123, 168, 145, 0.35);
-  --rating-good-text: #8EBBA4;
-  --rating-good-hover: rgba(86, 124, 105, 0.28);
+  --rating-good-bg: rgba(114, 185, 154, 0.15);
+  --rating-good-border: rgba(114, 185, 154, 0.35);
+  --rating-good-text: #72B99A;
+  --rating-good-hover: rgba(114, 185, 154, 0.25);
   background-color: var(--canvas-bg) !important;
   color: var(--text-primary);
 }
@@ -645,7 +645,7 @@ body.flashcard-study-mode .study-view-topbar {
   padding: 8px 4px 12px;
   margin: 0 auto 8px;
   width: 100%;
-  max-width: 680px;
+  max-width: 820px;
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--border-subtle);
@@ -900,8 +900,12 @@ body.flashcard-study-mode .view-tab.active .view-tab-icon {
 }
 
 /* --------------------------------------------------------------------------
-   Filter Segmented Pill Control (Clean, no nested background slab)
+   Learning Progress Navigator (Redesigned Compact Progress & Status Cards)
    -------------------------------------------------------------------------- */
+body.flashcard-study-mode .study-topbar-progress {
+  display: none !important;
+}
+
 body.flashcard-study-mode .filter-row {
   display: flex !important;
   flex: 0 0 auto;
@@ -912,14 +916,394 @@ body.flashcard-study-mode .filter-row {
   border-radius: 0 !important;
   box-shadow: none !important;
   padding: 0 !important;
-  width: auto !important;
-  max-width: none !important;
-  margin: 0 auto 14px !important;
+  width: 100% !important;
+  max-width: 820px !important;
+  margin: 0 auto 12px !important;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .filter-row {
   background: transparent !important;
   border: none !important;
 }
+
+.learning-progress-navigator {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Header & Progress Summary */
+.progress-nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 0 2px;
+}
+
+.progress-nav-summary-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.progress-nav-level-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: var(--surface-subtle, rgba(0, 0, 0, 0.04));
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+:root[data-theme="dark"] .progress-nav-level-tag {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+}
+
+.progress-nav-metric-main {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.progress-nav-metric-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.progress-nav-metric-val {
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.progress-nav-metric-val strong {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.progress-nav-metric-pct {
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent-sage, #10b981);
+}
+
+.progress-nav-metric-pct.is-completed {
+  cursor: pointer;
+  color: #ea580c;
+}
+
+/* Secondary Summary Pills (Right side) */
+.progress-nav-stats-breakdown {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress-nav-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--text-muted);
+  cursor: default;
+}
+
+.progress-nav-stat strong {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.progress-nav-stat-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.progress-nav-stat--known .progress-nav-stat-dot {
+  background: #10b981;
+}
+
+.progress-nav-stat--unknown .progress-nav-stat-dot {
+  background: #f59e0b;
+}
+
+/* Segmented Progress Bar Track */
+.progress-nav-bar {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.progress-nav-track {
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+:root[data-theme="dark"] .progress-nav-track {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.progress-nav-seg {
+  height: 100%;
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-nav-seg--known {
+  background: #10b981;
+}
+
+:root[data-theme="dark"] .progress-nav-seg--known {
+  background: #34d399;
+}
+
+.progress-nav-seg--unknown {
+  background: #f59e0b;
+}
+
+:root[data-theme="dark"] .progress-nav-seg--unknown {
+  background: #fbbf24;
+}
+
+/* Four Interactive Status Cards Grid */
+.progress-nav-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.progress-nav-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 54px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card-bg, #ffffff);
+  color: var(--text-primary);
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  transition: all 0.16s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+:root[data-theme="dark"] .progress-nav-card {
+  background: #1c2128;
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.progress-nav-card:hover {
+  border-color: rgba(0, 0, 0, 0.18);
+  background: var(--surface-subtle);
+  transform: translateY(-0.5px);
+}
+
+:root[data-theme="dark"] .progress-nav-card:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: #242b35;
+}
+
+.progress-nav-card:focus-visible {
+  outline: 2px solid var(--accent, #ea580c);
+  outline-offset: 2px;
+}
+
+/* Card Selection States */
+.progress-nav-card.is-active {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.progress-nav-card--all.is-active {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+:root[data-theme="dark"] .progress-nav-card--all.is-active {
+  border-color: #60a5fa;
+  background: rgba(96, 165, 250, 0.1);
+}
+
+.progress-nav-card--known.is-active {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.06);
+}
+
+:root[data-theme="dark"] .progress-nav-card--known.is-active {
+  border-color: #34d399;
+  background: rgba(52, 211, 153, 0.1);
+}
+
+.progress-nav-card--unknown.is-active {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.06);
+}
+
+:root[data-theme="dark"] .progress-nav-card--unknown.is-active {
+  border-color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+}
+
+.progress-nav-card--unseen.is-active {
+  border-color: #6366f1;
+  background: rgba(99, 102, 241, 0.05);
+}
+
+:root[data-theme="dark"] .progress-nav-card--unseen.is-active {
+  border-color: #818cf8;
+  background: rgba(129, 140, 248, 0.1);
+}
+
+/* Empty Card State */
+.progress-nav-card.is-empty:not(.is-active) {
+  opacity: 0.55;
+}
+
+/* Card Inner Content */
+.progress-nav-card-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+}
+
+.progress-nav-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.progress-nav-card--all .progress-nav-card-icon {
+  color: var(--text-secondary);
+}
+
+.progress-nav-card--known .progress-nav-card-icon {
+  color: #10b981;
+}
+
+:root[data-theme="dark"] .progress-nav-card--known .progress-nav-card-icon {
+  color: #34d399;
+}
+
+.progress-nav-card--unknown .progress-nav-card-icon {
+  color: #f59e0b;
+}
+
+:root[data-theme="dark"] .progress-nav-card--unknown .progress-nav-card-icon {
+  color: #fbbf24;
+}
+
+.progress-nav-card--unseen .progress-nav-card-icon {
+  color: #6366f1;
+}
+
+:root[data-theme="dark"] .progress-nav-card--unseen .progress-nav-card-icon {
+  color: #818cf8;
+}
+
+.progress-nav-card-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.progress-nav-card.is-active .progress-nav-card-label {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.progress-nav-card-check {
+  font-size: 11px;
+  font-weight: 800;
+  margin-left: auto;
+  line-height: 1;
+}
+
+.progress-nav-card--all.is-active .progress-nav-card-check {
+  color: #2563eb;
+}
+:root[data-theme="dark"] .progress-nav-card--all.is-active .progress-nav-card-check {
+  color: #60a5fa;
+}
+
+.progress-nav-card--known.is-active .progress-nav-card-check {
+  color: #16a34a;
+}
+:root[data-theme="dark"] .progress-nav-card--known.is-active .progress-nav-card-check {
+  color: #34d399;
+}
+
+.progress-nav-card--unknown.is-active .progress-nav-card-check {
+  color: #d97706;
+}
+:root[data-theme="dark"] .progress-nav-card--unknown.is-active .progress-nav-card-check {
+  color: #fbbf24;
+}
+
+.progress-nav-card--unseen.is-active .progress-nav-card-check {
+  color: #4f46e5;
+}
+:root[data-theme="dark"] .progress-nav-card--unseen.is-active .progress-nav-card-check {
+  color: #818cf8;
+}
+
+.progress-nav-card-body {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.progress-nav-card-count {
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+/* Fallback legacy filter-btn support */
 body.flashcard-study-mode .filter-btn {
   flex: 1 1 0;
   min-width: 0;
@@ -986,7 +1370,7 @@ body.flashcard-study-mode #studyView {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  max-width: 680px;
+  max-width: 860px;
   margin: 0 auto;
 }
 body.flashcard-study-mode #studyView::-webkit-scrollbar {
@@ -1004,7 +1388,7 @@ body.flashcard-study-mode #cardArea {
   flex-direction: column;
   align-items: stretch;
   width: 100%;
-  max-width: 660px;
+  max-width: 820px;
   margin: 0 auto;
   flex: 0 0 auto;
   overflow-x: clip;
@@ -1013,7 +1397,7 @@ body.flashcard-study-mode #cardArea {
 body.flashcard-study-mode #cardArea > .card {
   width: 100%;
   flex: 0 0 auto;
-  min-height: 400px;
+  min-height: clamp(340px, 46vh, 480px);
   height: auto;
   max-height: min(720px, calc(100dvh - 165px));
   padding: 36px clamp(20px, 4vw, 44px) 18px;
@@ -1038,8 +1422,8 @@ body.flashcard-study-mode #cardArea > .card::-webkit-scrollbar {
   height: 0 !important;
 }
 :root[data-theme="dark"] body.flashcard-study-mode #cardArea > .card {
-  background-color: var(--surface-bg, #1C201D);
-  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  background-color: var(--surface-bg, #161b22);
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.09));
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
 }
 
@@ -1225,7 +1609,7 @@ body.flashcard-study-mode .word-main-block {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 680px;
+  max-width: 820px;
   margin: 0 auto;
   text-align: center;
 }
@@ -1444,6 +1828,20 @@ body.flashcard-study-mode .card-illustration-frame:hover {
   }
 }
 
+@media (min-width: 641px) and (max-width: 1024px) {
+  body.flashcard-study-mode .study-view-topbar,
+  body.flashcard-study-mode .filter-row,
+  .learning-progress-navigator,
+  body.flashcard-study-mode #cardArea,
+  body.flashcard-study-mode .word-hero-container,
+  body.flashcard-study-mode .word-main-block {
+    max-width: 720px !important;
+  }
+  body.flashcard-study-mode #studyView {
+    max-width: 750px !important;
+  }
+}
+
 @media (max-width: 479px) {
   body.flashcard-study-mode .card-illustration-frame {
     width: 74px;
@@ -1624,7 +2022,7 @@ body.flashcard-study-mode .hanviet-badge {
 
 
 body.flashcard-study-mode .hanzi {
-  font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
   font-size: clamp(84px, 8.5vw, 104px);
   font-weight: 600;
   line-height: 1.05;
@@ -1894,7 +2292,7 @@ body.flashcard-study-mode .card-decomp-char-btn:hover {
   transform: translateY(-0.5px);
 }
 body.flashcard-study-mode .card-decomp-char {
-  font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
@@ -2181,17 +2579,7 @@ body.flashcard-study-mode .rating-label {
   white-space: nowrap;
 }
 body.flashcard-study-mode .rating-shortcut {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 500;
-  line-height: 1;
-  padding: 2px 5px;
-  border-radius: 4px;
-  border: 1px solid currentColor;
-  opacity: 0.65;
-  margin-left: 2px;
+  display: none !important;
 }
 
 /* Subtle Semantic Neutral - Chưa nhớ (Again): Muted Coral */
@@ -2669,8 +3057,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     border: none !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    width: auto !important;
-    max-width: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
     display: flex !important;
     justify-content: center !important;
   }
@@ -2678,11 +3066,37 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     background: transparent !important;
     border: none !important;
   }
+  .learning-progress-navigator {
+    width: 100% !important;
+    gap: 6px !important;
+  }
+  .progress-nav-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 6px !important;
+  }
+  .progress-nav-card {
+    min-height: 50px !important;
+    padding: 6px 10px !important;
+  }
+  .progress-nav-card-count {
+    font-size: 17px !important;
+  }
+  .progress-nav-header {
+    gap: 6px !important;
+  }
+  .progress-nav-stats-breakdown {
+    gap: 8px !important;
+    font-size: 11.5px !important;
+  }
+  .progress-nav-stat {
+    font-size: 11.5px !important;
+  }
   body.flashcard-study-mode .desktop-filter-tabs {
     display: none !important;
   }
   body.flashcard-study-mode .filter-btn,
-  body.flashcard-study-mode .mobile-filter-text {
+  body.flashcard-study-mode .mobile-filter-text,
+  .progress-nav-card-label {
     overflow: hidden !important;
     text-overflow: ellipsis !important;
     white-space: nowrap !important;
@@ -3125,32 +3539,47 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt {
-    margin-top: 8px !important;
-    padding: 6px 14px !important;
+    margin-top: 10px !important;
+    padding: 4px 10px !important;
     border-radius: 999px !important;
-    background: rgba(0, 0, 0, 0.02) !important;
-    border: 1px solid var(--border-subtle) !important;
+    background: transparent !important;
+    border: none !important;
     box-shadow: none !important;
+    opacity: 0.72 !important;
+    transition: opacity 0.18s ease, transform 0.18s ease !important;
+  }
+  body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt:hover {
+    opacity: 1 !important;
+    transform: translateY(-0.5px) !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt {
-    background: rgba(255, 255, 255, 0.03) !important;
-    border-color: rgba(255, 255, 255, 0.08) !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt-icon {
     color: var(--text-tertiary) !important;
-    opacity: 0.7 !important;
+    opacity: 0.65 !important;
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt-text {
-    font-size: 12.5px !important;
+    font-size: 13px !important;
     font-weight: 500 !important;
     color: var(--text-tertiary) !important;
+    letter-spacing: 0.01em !important;
   }
 
   body.flashcard-study-mode .card.is-flipped .card-flip-prompt {
     margin-top: 6px !important;
     padding: 2px 8px !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    opacity: 0.6 !important;
+  }
+  body.flashcard-study-mode .card.is-flipped .card-flip-prompt:hover {
+    opacity: 0.95 !important;
   }
 
   body.flashcard-study-mode .hint {
@@ -3177,29 +3606,104 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     width: 100%;
   }
 
+  /* Navigation Controls & Tactile Buttons */
+  body.flashcard-study-mode .study-nav-controls[hidden],
   body.flashcard-study-mode .nav-row[hidden] {
     display: none !important;
   }
+  body.flashcard-study-mode .study-nav-controls:not([hidden]),
   body.flashcard-study-mode .nav-row:not([hidden]) {
     flex: 0 0 auto !important;
     width: 100% !important;
     max-width: 100% !important;
-    margin: 4px auto 0 !important;
-    padding: 0 4px !important;
+    margin: 10px auto 0 !important;
+    padding: 0 !important;
     box-sizing: border-box !important;
     display: flex !important;
+    align-items: center !important;
     justify-content: space-between !important;
+    gap: 12px !important;
   }
 
-  body.flashcard-study-mode .nav-btn {
-    padding: 6px 14px !important;
-    font-size: 13px !important;
-    font-weight: 500 !important;
-    background: transparent !important;
-    border: none !important;
+  body.flashcard-study-mode .study-nav-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    min-height: 42px !important;
+    padding: 8px 16px !important;
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
+    background: var(--card-bg, #ffffff) !important;
+    border: 1px solid var(--border) !important;
     color: var(--text-secondary) !important;
-    border-radius: 8px !important;
+    border-radius: 12px !important;
     cursor: pointer !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03) !important;
+    transition: all 0.16s ease !important;
+    user-select: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  body.flashcard-study-mode .study-nav-btn:hover:not(:disabled) {
+    background: var(--surface-subtle, rgba(0, 0, 0, 0.04)) !important;
+    border-color: rgba(0, 0, 0, 0.18) !important;
+    color: var(--text-primary) !important;
+    transform: translateY(-0.5px) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-btn:disabled {
+    opacity: 0.35 !important;
+    cursor: not-allowed !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  :root[data-theme="dark"] body.flashcard-study-mode .study-nav-btn {
+    background: #1c2128 !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    color: var(--text-secondary) !important;
+  }
+
+  :root[data-theme="dark"] body.flashcard-study-mode .study-nav-btn:hover:not(:disabled) {
+    background: #242b35 !important;
+    border-color: rgba(255, 255, 255, 0.18) !important;
+    color: var(--text-primary) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-position {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+    padding: 6px 14px !important;
+    border-radius: 999px !important;
+    background: var(--surface-subtle, rgba(0, 0, 0, 0.03)) !important;
+    border: 1px solid var(--border-subtle, rgba(0, 0, 0, 0.06)) !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    font-variant-numeric: tabular-nums !important;
+    color: var(--text-secondary) !important;
+    user-select: none !important;
+  }
+
+  :root[data-theme="dark"] body.flashcard-study-mode .study-nav-position {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-color: rgba(255, 255, 255, 0.06) !important;
+    color: var(--text-muted) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-current {
+    font-weight: 700 !important;
+    color: var(--text-primary) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-sep {
+    opacity: 0.5 !important;
+  }
+
+  body.flashcard-study-mode .study-nav-total {
+    color: var(--text-secondary) !important;
   }
 
   body.flashcard-study-mode .card-counter {
@@ -3208,9 +3712,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     color: var(--text-secondary) !important;
   }
 
-  /* When card is flipped, hide nav row so thumb has zero confusion with SRS rating */
-  body.flashcard-study-mode .card.is-flipped ~ #studyNavRow {
-    display: none !important;
+  body.flashcard-study-mode .study-nav-btn {
+    min-height: 48px !important;
   }
 
   body.flashcard-study-mode .rating-row[hidden] {
@@ -4051,7 +4554,8 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
   box-sizing: border-box;
 }
 .weak-word-row:hover {
-  border-color: var(--accent);
+  border-color: var(--border-strong);
+  background: var(--bg-elevated, var(--surface-subtle));
 }
 .weak-word-open {
   display: flex;
@@ -4082,7 +4586,7 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
   transition: color 140ms ease;
 }
 .weak-word-row:hover .weak-word-hanzi {
-  color: var(--accent-text, var(--accent));
+  color: var(--text-primary);
 }
 .weak-word-text {
   flex: 1 1 auto;
@@ -4099,8 +4603,8 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
 }
 .weak-word-pinyin {
   font-size: 12.5px;
-  color: var(--accent-text, var(--accent));
-  font-weight: 600;
+  color: var(--text-secondary);
+  font-weight: 550;
   line-height: 1.25;
 }
 .weak-word-meaning {
@@ -4119,10 +4623,11 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
   flex: 0 0 auto;
   padding: 1px 7px;
   border-radius: 999px;
-  background: var(--accent-light);
-  color: var(--accent-text);
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
   font-size: 10.5px;
-  font-weight: 700;
+  font-weight: 650;
   white-space: nowrap;
 }
 .weak-word-remove {
