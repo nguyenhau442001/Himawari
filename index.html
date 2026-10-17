@@ -85,7 +85,14 @@ if ('serviceWorker' in navigator) {
   <div class="workstation">
     <aside class="workstation-left" id="workstationLeft" aria-label="Tra cứu nhanh"></aside>
     <dialog id="mobileDockDialog" class="mobile-dock-dialog">
-      <button type="button" id="mobileDockClose" class="mobile-dock-close" aria-label="Đóng">✕</button>
+      <div class="mobile-dock-sheet-handle" aria-hidden="true"></div>
+      <div class="mobile-dock-sheet-header">
+        <div class="mobile-dock-sheet-title">
+          <span class="mobile-dock-sheet-icon" aria-hidden="true">⭐</span>
+          <span>Tra cứu &amp; Sổ từ</span>
+        </div>
+        <button type="button" id="mobileDockClose" class="mobile-dock-close" aria-label="Đóng">✕</button>
+      </div>
       <div id="mobileDockDialogBody"></div>
     </dialog>
     <div class="workstation-middle" id="workstationMiddle">
@@ -272,7 +279,7 @@ if ('serviceWorker' in navigator) {
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-hsk1" style="display:none">+0 hôm nay</span>
+              <span class="lvl-today-count" id="today-hsk1" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
               <div class="lvl-mastery-fill" id="bar-hsk1"></div>
@@ -296,7 +303,7 @@ if ('serviceWorker' in navigator) {
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-hsk2" style="display:none">+0 hôm nay</span>
+              <span class="lvl-today-count" id="today-hsk2" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
               <div class="lvl-mastery-fill" id="bar-hsk2"></div>
@@ -320,7 +327,7 @@ if ('serviceWorker' in navigator) {
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-hsk3" style="display:none">+0 hôm nay</span>
+              <span class="lvl-today-count" id="today-hsk3" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
               <div class="lvl-mastery-fill" id="bar-hsk3"></div>
@@ -344,7 +351,7 @@ if ('serviceWorker' in navigator) {
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-hsk4" style="display:none">+0 hôm nay</span>
+              <span class="lvl-today-count" id="today-hsk4" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
               <div class="lvl-mastery-fill" id="bar-hsk4"></div>
@@ -368,7 +375,7 @@ if ('serviceWorker' in navigator) {
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-hsk5" style="display:none">+0 hôm nay</span>
+              <span class="lvl-today-count" id="today-hsk5" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
               <div class="lvl-mastery-fill" id="bar-hsk5"></div>
@@ -392,7 +399,7 @@ if ('serviceWorker' in navigator) {
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-hsk6" style="display:none">+0 hôm nay</span>
+              <span class="lvl-today-count" id="today-hsk6" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
               <div class="lvl-mastery-fill" id="bar-hsk6"></div>
@@ -431,6 +438,24 @@ if ('serviceWorker' in navigator) {
         </div>
       </section>
     </div>
+
+    <!-- Collapsible Analytics & Activity Section (DevOps charts moved to bottom) -->
+    <details class="dashboard-stats-accordion" id="dashboardStatsAccordion" open>
+      <summary class="dashboard-stats-summary" id="statsSummaryBtn" aria-label="Mở rộng hoặc thu gọn biểu đồ thống kê học tập">
+        <div class="dashboard-stats-summary-title">
+          <span class="stats-summary-icon" aria-hidden="true">📊</span>
+          <div>
+            <h2 class="dashboard-stats-title">Thống kê &amp; Hoạt động học tập</h2>
+            <p class="dashboard-stats-desc">Lịch ôn 7 ngày tới, chuỗi ngày học và tần suất tương tác SRS</p>
+          </div>
+        </div>
+        <span class="dashboard-stats-toggle-badge">
+          <span class="stats-toggle-label">Thu gọn</span>
+          <span class="stats-accordion-chevron" aria-hidden="true">▾</span>
+        </span>
+      </summary>
+      <div class="dashboard-stats-content" id="dashboardStatsContent"></div>
+    </details>
 
     <!-- Topic picker sub-tab -->
     <div id="screenTopicPicker" style="display:none">
@@ -1046,6 +1071,57 @@ window.addEventListener('load', function() {
 <script src="assets/js/dashboard-enhancements.js?v=20261015-dashboard-redesign"></script>
 <script src="assets/js/study-help-modal.js?v=20261016-help-redesign1"></script>
 <script src="assets/flashcards.js?v=20261003-hsk20-rich1"></script>
+<!-- Mobile Bottom Navigation Bar -->
+<nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Điều hướng di động">
+  <button type="button" class="mobile-nav-item active" id="mobNavVocab" onclick="setPrimaryTab('vocab')" aria-label="Trang chủ Từ vựng">
+    <svg class="mobile-nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+    <span class="mobile-nav-label">Từ vựng</span>
+  </button>
+  <button type="button" class="mobile-nav-item" id="mobNavReview" onclick="setPrimaryTab('review')" aria-label="Ôn nhanh từ vựng">
+    <svg class="mobile-nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+    <span class="mobile-nav-label">Ôn nhanh</span>
+  </button>
+  <button type="button" class="mobile-nav-item" id="mobNavNotebook" onclick="openMobileNotebookSheet()" aria-label="Mở sổ từ và tra cứu">
+    <div class="mobile-nav-icon-wrap">
+      <svg class="mobile-nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+      <span class="mobile-nav-badge" id="mobNotebookBadge" hidden>0</span>
+    </div>
+    <span class="mobile-nav-label">Sổ từ</span>
+  </button>
+  <button type="button" class="mobile-nav-item" id="mobNavProfile" onclick="openMobileProfileOrStats()" aria-label="Thống kê học tập">
+    <svg class="mobile-nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+    <span class="mobile-nav-label">Thống kê</span>
+  </button>
+</nav>
+
+<script>
+function openMobileNotebookSheet() {
+  var dialog = document.getElementById('mobileDockDialog');
+  if (dialog) {
+    if (typeof dialog.showModal === 'function') {
+      try { dialog.showModal(); } catch (e) { dialog.setAttribute('open', ''); }
+    } else {
+      dialog.setAttribute('open', '');
+    }
+    var searchInput = document.getElementById('sidebarSearchInput');
+    if (searchInput) {
+      setTimeout(function() { searchInput.focus(); }, 120);
+    }
+  }
+}
+
+function openMobileProfileOrStats() {
+  var statsSection = document.getElementById('dashboardStatsAccordion');
+  if (statsSection) {
+    statsSection.open = true;
+    statsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    var label = statsSection.querySelector('.stats-toggle-label');
+    if (label) label.textContent = 'Thu gọn';
+  } else if (typeof showHistoryModal === 'function') {
+    showHistoryModal();
+  }
+}
+</script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4568b250a19345538a47a2da396637af"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

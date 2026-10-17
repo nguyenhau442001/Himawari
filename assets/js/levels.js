@@ -602,13 +602,13 @@ function showWelcomeToast() {
   }, 4200);
 }
 
-function formatProgressPercent(known, total, maxDecimals = 3) {
+function formatProgressPercent(known, total) {
   if (!total || total <= 0 || !known || known <= 0) return '0%';
   if (known >= total) return '100%';
   const rawPct = (known / total) * 100;
-  if (Number.isInteger(rawPct)) return `${rawPct}%`;
-  const rounded = parseFloat(rawPct.toFixed(maxDecimals));
-  if (rounded === 0) return '>0%';
+  const rounded = Math.round(rawPct);
+  if (rounded === 0 && known > 0) return '<1%';
+  if (rounded === 100 && known < total) return '99%';
   return `${rounded}%`;
 }
 window.formatProgressPercent = formatProgressPercent;

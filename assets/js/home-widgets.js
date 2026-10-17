@@ -593,6 +593,11 @@ function invalidateHomeWidgets() {
 }
 
 function placeHomeWidgets(container, isDesktop) {
+  const statsContent = document.getElementById('dashboardStatsContent');
+  if (statsContent) {
+    statsContent.appendChild(container);
+    return;
+  }
   const target = isDesktop
     ? document.getElementById('workstationRight')
     : document.getElementById('screenVocabHub');

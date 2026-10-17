@@ -969,6 +969,11 @@ function updateReviewMobileAuxBadge() {
   } else {
     badge.textContent = 'Danh sách từ hay nhầm & từ khó';
   }
+  const mobBadge = document.getElementById('mobNotebookBadge');
+  if (mobBadge) {
+    mobBadge.textContent = String(total);
+    mobBadge.hidden = total === 0;
+  }
 }
 
 document.addEventListener('click', (e) => {
