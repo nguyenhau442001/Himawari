@@ -202,12 +202,10 @@ function renderCardRadicals(word) {
                 onclick="event.stopPropagation(); jumpToStudyRadical('${ch}', ${charIdx}, [${(c.stroke_indices || []).join(',')}])"
                 title="Thành phần: ${c.name.replace('Bộ ', '')}">
                 <span class="card-decomp-char" lang="zh-CN">${c.char}</span>
+                <span class="card-decomp-sub">${(c.name || c.char).replace('Bộ ', '')}</span>
               </button>
               ${idx < comps.length - 1 ? '<span class="card-decomp-op">+</span>' : ''}
             `).join('')}
-          </div>
-          <div class="card-decomp-names-row">
-            ${comps.map(c => `<span class="card-decomp-name-item">${(c.name || c.char).replace('Bộ ', '')}</span>`).join('<span class="card-decomp-dot">·</span>')}
           </div>
         </div>
       `;
@@ -223,12 +221,10 @@ function renderCardRadicals(word) {
                     onclick="event.stopPropagation(); jumpToStudyRadical('${ch}', ${charIdx}, [${(c.stroke_indices || []).join(',')}])"
                     title="Thành phần: ${c.name.replace('Bộ ', '')}">
                     <span class="card-decomp-char" lang="zh-CN">${c.char}</span>
+                    <span class="card-decomp-sub">${(c.name || c.char).replace('Bộ ', '')}</span>
                   </button>
                   ${idx < comps.length - 1 ? '<span class="card-decomp-op">+</span>' : ''}
                 `).join('')}
-              </div>
-              <div class="card-decomp-names-row">
-                ${comps.map(c => `<span class="card-decomp-name-item">${(c.name || c.char).replace('Bộ ', '')}</span>`).join('<span class="card-decomp-dot">·</span>')}
               </div>
             </div>
           `).join('')}

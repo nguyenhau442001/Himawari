@@ -1789,19 +1789,20 @@ body.flashcard-study-mode .card-decomposition-wrap {
   gap: 3px;
 }
 body.flashcard-study-mode .card-decomp-title {
-  font-size: 10.5px;
-  font-weight: 600;
+  font-size: 9.5px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  color: var(--text-tertiary);
   line-height: 1.2;
+  margin-bottom: 2px;
 }
 body.flashcard-study-mode .card-radicals-row {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   margin: 0;
 }
 body.flashcard-study-mode .card-decomp-formula-wrap,
@@ -1823,55 +1824,49 @@ body.flashcard-study-mode .card-decomp-chars-row {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 4px;
 }
 body.flashcard-study-mode .card-decomp-char-btn {
   background: transparent;
   border: none;
-  padding: 0 2px;
+  padding: 2px 5px;
   cursor: pointer;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  line-height: 1;
+  align-items: baseline;
+  gap: 4px;
+  border-radius: 6px;
+  line-height: 1.2;
   transition: background-color 0.15s ease, transform 0.1s ease;
 }
 body.flashcard-study-mode .card-decomp-char-btn:hover {
   background-color: var(--surface-subtle);
-  transform: translateY(-1px);
+  transform: translateY(-0.5px);
 }
 body.flashcard-study-mode .card-decomp-char {
   font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
   line-height: 1.2;
 }
+body.flashcard-study-mode .card-decomp-sub {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
 body.flashcard-study-mode .card-decomp-op {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
-  color: var(--text-muted);
+  color: var(--text-tertiary);
   user-select: none;
   line-height: 1;
+  margin: 0 2px;
 }
 body.flashcard-study-mode .card-decomp-target-char {
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   margin-right: 2px;
-}
-body.flashcard-study-mode .card-decomp-names-row {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  font-size: 11.5px;
-  color: var(--text-muted);
-  line-height: 1.3;
-}
-body.flashcard-study-mode .card-decomp-dot {
-  opacity: 0.6;
 }
 
 /* Khối ví dụ thực tế: Tối ưu nhịp khoảng cách (Vertical Rhythm) và phân cấp màu sắc */
@@ -2579,7 +2574,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .study-topbar-progress-info .study-progress-numbers {
     order: 1;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     flex-shrink: 0;
     display: inline-flex;
@@ -2587,24 +2582,31 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .study-progress-label {
-    font-size: 10px;
-    font-weight: 500;
-    opacity: 0.75;
-    margin-right: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    opacity: 0.85;
+    margin-right: 4px;
   }
 
   body.flashcard-study-mode .study-topbar-progress .progress-bar-track {
     order: 2;
     flex: 1 1 auto;
-    height: 4px;
-    margin: 0;
-    min-width: 50px;
+    height: 5px;
+    border-radius: 999px;
+    margin: 0 4px;
+    min-width: 55px;
+    background: rgba(0, 0, 0, 0.08);
+  }
+  :root[data-theme="dark"] body.flashcard-study-mode .study-topbar-progress .progress-bar-track {
+    background: rgba(255, 255, 255, 0.12);
   }
 
   body.flashcard-study-mode .study-topbar-progress-info .study-progress-pct {
     order: 3;
-    font-size: 9.5px;
-    padding: 1px 5px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 0 2px;
     flex-shrink: 0;
   }
 
@@ -2796,8 +2798,9 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-content {
-    justify-content: space-evenly !important;
-    padding: 12px 0 6px !important;
+    justify-content: center !important;
+    padding: 16px 12px !important;
+    gap: 16px !important;
   }
 
   body.flashcard-study-mode .card.is-flipped .card-content {
@@ -2821,8 +2824,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     height: 0px;
   }
   body.flashcard-study-mode .card-supporting-group {
-    margin: 4px auto 2px !important;
-    padding-top: 6px !important;
+    margin: 6px auto 2px !important;
+    padding-top: 8px !important;
     max-width: 100% !important;
   }
   body.flashcard-study-mode .card-radicals-row {
@@ -2830,10 +2833,23 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     gap: 6px !important;
   }
   body.flashcard-study-mode .card-decomp-title {
-    font-size: 10px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: var(--text-tertiary) !important;
   }
   body.flashcard-study-mode .card-decomp-char {
     font-size: 15px !important;
+  }
+  body.flashcard-study-mode .card-decomp-sub {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    color: var(--text-secondary) !important;
+  }
+  body.flashcard-study-mode .card-decomp-op {
+    font-size: 12px !important;
+    color: var(--text-tertiary) !important;
   }
 
   body.flashcard-study-mode .card-content-col {
@@ -2900,36 +2916,40 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .meta-badges-row {
     margin: 2px 0 4px !important;
-    gap: 8px !important;
+    gap: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 
   body.flashcard-study-mode .pos-tag,
   body.flashcard-study-mode .pos-badge,
+  body.flashcard-study-mode .level-badge,
   body.flashcard-study-mode .hanviet-badge {
-    font-size: 12.5px !important;
+    font-size: 11.5px !important;
     font-weight: 500 !important;
     padding: 0 !important;
     border-radius: 0 !important;
     border: none !important;
     background: transparent !important;
     line-height: 1.35 !important;
+    color: var(--text-tertiary) !important;
   }
 
   body.flashcard-study-mode .pos-badge {
-    color: #2563eb !important;
-    font-weight: 600 !important;
+    color: var(--text-secondary) !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .pos-badge {
-    color: #60a5fa !important;
+    color: var(--text-secondary) !important;
   }
 
   body.flashcard-study-mode .hanviet-badge {
     color: var(--text-tertiary) !important;
   }
 
-  body.flashcard-study-mode .pos-badge:not([hidden]):not([style*="display: none"]) + .hanviet-badge:not([hidden]):not([style*="display: none"])::before {
+  body.flashcard-study-mode .meta-badges-row span:not([hidden]):not([style*="display: none"]) + span:not([hidden]):not([style*="display: none"])::before {
     content: "·" !important;
-    margin-right: 8px !important;
+    margin: 0 6px !important;
     color: var(--text-tertiary) !important;
     font-weight: 400 !important;
   }
@@ -2966,9 +2986,9 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     overflow-y: auto !important;
     scrollbar-width: none !important;
     -ms-overflow-style: none !important;
-    border: 1px solid var(--border-subtle) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
     box-shadow: none !important;
-    background: var(--surface-subtle);
+    background: rgba(0, 0, 0, 0.015) !important;
     width: 100%;
     box-sizing: border-box;
   }
@@ -2978,7 +2998,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     height: 0 !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .example-box {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.02) !important;
     border-color: rgba(255, 255, 255, 0.06) !important;
   }
 
@@ -2989,13 +3009,21 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .example-box .ex-label {
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    color: var(--text-tertiary) !important;
+    opacity: 0.8 !important;
   }
 
   body.flashcard-study-mode .example-sound-btn {
     width: 22px;
     height: 22px;
+    background: transparent;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-tertiary);
+    opacity: 0.8;
   }
 
   body.flashcard-study-mode .example-speed-picker summary {
@@ -3008,36 +3036,50 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   body.flashcard-study-mode .example-box .ex-zh {
     font-size: 16.5px !important;
     font-weight: 600 !important;
-    line-height: 1.45 !important;
+    line-height: 1.55 !important;
     margin-bottom: 4px !important;
     color: var(--text-primary) !important;
   }
 
   body.flashcard-study-mode .example-box .ex-py {
-    font-size: 14px !important;
+    font-size: 13.5px !important;
     font-style: normal !important;
     font-weight: 500 !important;
-    line-height: 1.4 !important;
+    line-height: 1.45 !important;
     margin-bottom: 4px !important;
     color: var(--text-secondary) !important;
   }
 
   body.flashcard-study-mode .example-box .ex-vi {
-    font-size: 14.5px !important;
-    line-height: 1.4 !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
     font-weight: 450 !important;
     color: var(--text-primary) !important;
-    opacity: 0.92 !important;
+    opacity: 0.9 !important;
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt {
-    margin-top: 14px !important;
-    padding: 10px 20px !important;
+    margin-top: 8px !important;
+    padding: 6px 14px !important;
+    border-radius: 999px !important;
+    background: rgba(0, 0, 0, 0.02) !important;
+    border: 1px solid var(--border-subtle) !important;
+    box-shadow: none !important;
+  }
+  :root[data-theme="dark"] body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+  }
+
+  body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt-icon {
+    color: var(--text-tertiary) !important;
+    opacity: 0.7 !important;
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt-text {
-    font-size: 13.5px !important;
-    font-weight: 600 !important;
+    font-size: 12.5px !important;
+    font-weight: 500 !important;
+    color: var(--text-tertiary) !important;
   }
 
   body.flashcard-study-mode .card.is-flipped .card-flip-prompt {
@@ -3116,10 +3158,11 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
 
   body.flashcard-study-mode .rating-btn {
     flex: 1 1 0 !important;
-    min-height: 50px !important;
-    padding: 12px 16px !important;
-    border-radius: 14px !important;
-    gap: 8px !important;
+    min-height: 46px !important;
+    height: 46px !important;
+    padding: 10px 14px !important;
+    border-radius: 12px !important;
+    gap: 7px !important;
     cursor: pointer !important;
     display: inline-flex !important;
     align-items: center !important;
@@ -3132,14 +3175,14 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .rating-label {
-    font-size: 15.5px !important;
+    font-size: 15px !important;
     font-weight: 600 !important;
     letter-spacing: -0.01em !important;
   }
 
   body.flashcard-study-mode .rating-icon {
-    width: 18px !important;
-    height: 18px !important;
+    width: 17px !important;
+    height: 17px !important;
     flex-shrink: 0 !important;
   }
 
@@ -3152,8 +3195,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   body.flashcard-study-mode .rating-btn--again {
     background: #FAF0EE !important;
     color: #B84A39 !important;
-    border: 1px solid #F0CBC5 !important;
-    box-shadow: 0 2px 8px rgba(184, 74, 57, 0.08) !important;
+    border: 1px solid #EED1CC !important;
+    box-shadow: 0 1px 4px rgba(184, 74, 57, 0.05) !important;
   }
   body.flashcard-study-mode .rating-btn--again .rating-icon {
     stroke: #B84A39 !important;
@@ -3166,8 +3209,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   body.flashcard-study-mode .rating-btn--good {
     background: #EFF5F1 !important;
     color: #2D664D !important;
-    border: 1px solid #C4DCCF !important;
-    box-shadow: 0 2px 8px rgba(45, 102, 77, 0.08) !important;
+    border: 1px solid #CCE0D5 !important;
+    box-shadow: 0 1px 4px rgba(45, 102, 77, 0.05) !important;
   }
   body.flashcard-study-mode .rating-btn--good .rating-icon {
     stroke: #2D664D !important;
@@ -3180,8 +3223,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   :root[data-theme="dark"] body.flashcard-study-mode .rating-btn--again {
     background: rgba(184, 74, 57, 0.16) !important;
     color: #F08C7D !important;
-    border: 1px solid rgba(240, 203, 197, 0.28) !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) !important;
+    border: 1px solid rgba(240, 203, 197, 0.22) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .rating-btn--again .rating-icon {
     stroke: #F08C7D !important;
@@ -3193,14 +3236,54 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   :root[data-theme="dark"] body.flashcard-study-mode .rating-btn--good {
     background: rgba(45, 102, 77, 0.18) !important;
     color: #7ED3A6 !important;
-    border: 1px solid rgba(196, 220, 207, 0.3) !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) !important;
+    border: 1px solid rgba(196, 220, 207, 0.25) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .rating-btn--good .rating-icon {
     stroke: #7ED3A6 !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .rating-btn--good .rating-label {
     color: #7ED3A6 !important;
+  }
+
+  /* Refined, compact 3-dot dropdowns on mobile */
+  body.flashcard-study-mode .card-more-dropdown,
+  body.flashcard-study-mode .study-header-dropdown {
+    min-width: 185px !important;
+    padding: 4px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16) !important;
+    gap: 2px !important;
+  }
+  body.flashcard-study-mode .card-dropdown-item,
+  body.flashcard-study-mode .study-dropdown-item {
+    padding: 7px 10px !important;
+    font-size: 12.5px !important;
+    border-radius: 8px !important;
+    gap: 8px !important;
+  }
+  body.flashcard-study-mode .card-dropdown-item .dropdown-item-icon,
+  body.flashcard-study-mode .study-dropdown-item .dropdown-item-icon {
+    font-size: 13.5px !important;
+    width: 16px !important;
+  }
+  body.flashcard-study-mode .card-dropdown-item--danger,
+  body.flashcard-study-mode .study-dropdown-danger {
+    color: #b91c1c !important;
+  }
+  body.flashcard-study-mode .card-dropdown-item--danger:hover,
+  body.flashcard-study-mode .study-dropdown-danger:hover {
+    background: rgba(185, 28, 28, 0.08) !important;
+    color: #991b1b !important;
+  }
+  :root[data-theme="dark"] body.flashcard-study-mode .card-dropdown-item--danger,
+  :root[data-theme="dark"] body.flashcard-study-mode .study-dropdown-danger {
+    color: #f87171 !important;
+  }
+  :root[data-theme="dark"] body.flashcard-study-mode .card-dropdown-item--danger:hover,
+  :root[data-theme="dark"] body.flashcard-study-mode .study-dropdown-danger:hover {
+    background: rgba(248, 113, 113, 0.12) !important;
+    color: #fca5a5 !important;
   }
 
   /* Clean clutter: Hide secondary actions from active review on mobile */

@@ -616,32 +616,33 @@
   transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .card:not(.is-flipped) .card-flip-prompt {
-  margin-top: clamp(16px, 3vh, 26px);
-  padding: 10px 22px;
+  margin-top: clamp(12px, 2vh, 18px);
+  padding: 7px 16px;
   border-radius: 999px;
   background: var(--surface-subtle);
-  border: 1px solid var(--border);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
 }
 .card:not(.is-flipped) .card-flip-prompt:hover {
   background: var(--surface-chip);
-  border-color: var(--accent);
-  color: var(--accent);
-  transform: translateY(-1px);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+  transform: translateY(-0.5px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 .card:not(.is-flipped) .card-flip-prompt:active {
   transform: scale(0.97);
 }
 .card:not(.is-flipped) .card-flip-prompt-icon {
-  color: var(--accent);
+  color: var(--text-tertiary);
   display: inline-flex;
   align-items: center;
+  opacity: 0.8;
 }
 .card:not(.is-flipped) .card-flip-prompt-text {
-  font-size: 13.5px;
-  font-weight: 600;
-  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
   margin-top: 0;
 }
 :root[data-theme="dark"] .card:not(.is-flipped) .card-flip-prompt {

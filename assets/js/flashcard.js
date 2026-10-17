@@ -16,7 +16,7 @@ function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card">
       <div class="card-header-bar" id="cardHeaderBar" onclick="event.stopPropagation()">
-        <span class="card-position-pill" id="cardPositionBadge">1 / 300</span>
+        <span class="card-position-pill" id="cardPositionBadge">Từ 1 / 300</span>
         <button type="button" class="card-star-btn" id="weakWordToggleBtn" style="display:none" hidden aria-hidden="true"></button>
         <div class="card-more-menu-wrap" id="cardMoreMenuWrap">
           <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn thẻ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
@@ -590,7 +590,7 @@ function updateCardPosition() {
   }
   const current = (idx % filteredOrder.length) + 1;
   const total = filteredOrder.length;
-  const posText = `${current} / ${total}`;
+  const posText = `Từ ${current} / ${total}`;
   if (badge) {
     badge.textContent = posText;
     const filterLabel = currentFilter === 'all' ? 'Tất cả'
@@ -600,7 +600,7 @@ function updateCardPosition() {
     badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
   }
   if (counter) {
-    counter.textContent = posText;
+    counter.textContent = `${current} / ${total}`;
   }
 }
 
@@ -1146,7 +1146,15 @@ function render(animate) {
       if (hv) {
         hv = hv.replace(/[（\(].*?[）\)]/g, '').replace(/\s+/g, ' ').trim();
       }
-      if (hv) {
+      const cleanMeaning = String(w.meaning || '').toLowerCase().trim();
+      const cleanHv = String(hv || '').toLowerCase().trim();
+      const isDuplicateOfMeaning = cleanHv && (
+        cleanMeaning === cleanHv ||
+        cleanMeaning.split(/[,;\/]/)[0].trim() === cleanHv ||
+        cleanMeaning.startsWith(cleanHv + ',') ||
+        cleanMeaning.startsWith(cleanHv + ' ')
+      );
+      if (hv && !isDuplicateOfMeaning) {
         hvBadge.textContent = hv;
         hvBadge.title = `Âm Hán - Việt: ${hv}`;
         hvBadge.hidden = false;
