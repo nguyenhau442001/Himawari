@@ -589,6 +589,67 @@ class TestFlashcardIllustrationIntegration(unittest.TestCase):
         self.assertIn("c.classList.add('is-flipped')", self.flashcard_js)
 
 
+class TestLearningProgressNavigator(unittest.TestCase):
+    """Test suite for the redesigned Learning Progress Navigator in Synapse Hanzi."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+        cls.flashcard_js = (REPO_ROOT / "assets" / "js" / "flashcard.js").read_text(encoding="utf-8")
+
+    def test_navigator_semantic_structure_rendered(self):
+        """renderFilters must construct the learning-progress-navigator component with header, bar, and 4 cards."""
+        self.assertIn("learning-progress-navigator", self.flashcard_js)
+        self.assertIn("progress-nav-header", self.flashcard_js)
+        self.assertIn("progress-nav-level-tag", self.flashcard_js)
+        self.assertIn("progress-nav-metric-main", self.flashcard_js)
+        self.assertIn("progress-nav-stats-breakdown", self.flashcard_js)
+        self.assertIn("progress-nav-bar", self.flashcard_js)
+        self.assertIn("progress-nav-track", self.flashcard_js)
+        self.assertIn("progress-nav-seg--known", self.flashcard_js)
+        self.assertIn("progress-nav-seg--unknown", self.flashcard_js)
+        self.assertIn("progress-nav-cards", self.flashcard_js)
+
+    def test_four_interactive_status_categories_present(self):
+        """All four categories (all, known, unknown, unseen) must be configured with correct Vietnamese labels."""
+        self.assertIn("key: 'all',", self.flashcard_js)
+        self.assertIn("label: 'Tất cả'", self.flashcard_js)
+        self.assertIn("key: 'known',", self.flashcard_js)
+        self.assertIn("label: 'Đã nhớ'", self.flashcard_js)
+        self.assertIn("key: 'unknown',", self.flashcard_js)
+        self.assertIn("label: 'Chưa nhớ'", self.flashcard_js)
+        self.assertIn("key: 'unseen',", self.flashcard_js)
+        self.assertIn("label: 'Chưa học'", self.flashcard_js)
+
+    def test_filter_index_reconciliation_logic(self):
+        """setFilter must reconcile current card index to preserve view when word exists in target filter."""
+        self.assertIn("currentWordId", self.flashcard_js)
+        self.assertIn("filteredOrder.findIndex", self.flashcard_js)
+
+    def test_desktop_four_column_grid_and_mobile_two_column_adaptation(self):
+        """Progress status cards must display 4 columns on desktop and adapt to 2 columns on mobile."""
+        self.assertIn("grid-template-columns: repeat(4, minmax(0, 1fr))", self.workstation_css)
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        self.assertIn("grid-template-columns: repeat(2, minmax(0, 1fr))", combined,
+                      "Mobile must adapt cards to a 2-column layout")
+
+    def test_status_cards_tactile_touch_target_height(self):
+        """Status cards must have comfortable touch targets >= 48px."""
+        self.assertIn(".progress-nav-card", self.workstation_css)
+        min_h_match = re.search(r"\.progress-nav-card\s*\{[^}]*min-height:\s*(\d+)px", self.workstation_css)
+        self.assertIsNotNone(min_h_match, "Status card min-height must be defined")
+        min_h = int(min_h_match.group(1))
+        self.assertGreaterEqual(min_h, 48, f"Card touch target height ({min_h}px) must be >= 48px")
+
+    def test_topbar_duplicate_progress_hidden_in_study_mode(self):
+        """Topbar progress bar must be hidden in flashcard study mode to prevent visual duplication."""
+        self.assertIn("body.flashcard-study-mode .study-topbar-progress", self.workstation_css)
+        match = re.search(r"body\.flashcard-study-mode\s+\.study-topbar-progress\s*\{([^}]+)\}", self.workstation_css)
+        self.assertIsNotNone(match)
+        self.assertIn("display: none !important", match.group(1))
+
+
 def run_tests():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
@@ -606,6 +667,7 @@ def run_tests():
     suite.addTests(loader.loadTestsFromTestCase(TestHtmlStructureAndSemantics))
     suite.addTests(loader.loadTestsFromTestCase(TestTodayReviewZenMode))
     suite.addTests(loader.loadTestsFromTestCase(TestFlashcardIllustrationIntegration))
+    suite.addTests(loader.loadTestsFromTestCase(TestLearningProgressNavigator))
 
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(suite)
