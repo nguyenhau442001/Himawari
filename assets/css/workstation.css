@@ -349,24 +349,24 @@ body.flashcard-study-mode::before {
   opacity: 1;
 }
 :root[data-theme="dark"] body.flashcard-study-mode {
-  --canvas-bg: #141715;
-  --surface-bg: #1C201D;
-  --text-primary: #F0F3F1;
-  --text-secondary: #B0B7B2;
-  --text-muted: #8B918C;
-  --border-color: rgba(255, 255, 255, 0.08);
-  --border-subtle: rgba(255, 255, 255, 0.05);
-  --accent-sage: #7BA891;
-  --accent-sage-hover: #8EBBA4;
-  --accent-sage-subtle: rgba(123, 168, 145, 0.14);
+  --canvas-bg: #141719;
+  --surface-bg: #1C2022;
+  --text-primary: #E4E5E2;
+  --text-secondary: #A5AAA7;
+  --text-muted: #828A86;
+  --border-color: #343A3C;
+  --border-subtle: #2A3032;
+  --accent-sage: #72B99A;
+  --accent-sage-hover: #86C8AB;
+  --accent-sage-subtle: rgba(114, 185, 154, 0.14);
   --rating-again-bg: rgba(239, 68, 68, 0.12);
   --rating-again-border: rgba(239, 68, 68, 0.28);
   --rating-again-text: #F87171;
   --rating-again-hover: rgba(239, 68, 68, 0.2);
-  --rating-good-bg: rgba(86, 124, 105, 0.18);
-  --rating-good-border: rgba(123, 168, 145, 0.35);
-  --rating-good-text: #8EBBA4;
-  --rating-good-hover: rgba(86, 124, 105, 0.28);
+  --rating-good-bg: rgba(114, 185, 154, 0.15);
+  --rating-good-border: rgba(114, 185, 154, 0.35);
+  --rating-good-text: #72B99A;
+  --rating-good-hover: rgba(114, 185, 154, 0.25);
   background-color: var(--canvas-bg) !important;
   color: var(--text-primary);
 }
@@ -4554,7 +4554,8 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
   box-sizing: border-box;
 }
 .weak-word-row:hover {
-  border-color: var(--accent);
+  border-color: var(--border-strong);
+  background: var(--bg-elevated, var(--surface-subtle));
 }
 .weak-word-open {
   display: flex;
@@ -4585,7 +4586,7 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
   transition: color 140ms ease;
 }
 .weak-word-row:hover .weak-word-hanzi {
-  color: var(--accent-text, var(--accent));
+  color: var(--text-primary);
 }
 .weak-word-text {
   flex: 1 1 auto;
@@ -4602,8 +4603,8 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
 }
 .weak-word-pinyin {
   font-size: 12.5px;
-  color: var(--accent-text, var(--accent));
-  font-weight: 600;
+  color: var(--text-secondary);
+  font-weight: 550;
   line-height: 1.25;
 }
 .weak-word-meaning {
@@ -4622,10 +4623,11 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
   flex: 0 0 auto;
   padding: 1px 7px;
   border-radius: 999px;
-  background: var(--accent-light);
-  color: var(--accent-text);
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
   font-size: 10.5px;
-  font-weight: 700;
+  font-weight: 650;
   white-space: nowrap;
 }
 .weak-word-remove {
