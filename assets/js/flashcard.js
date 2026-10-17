@@ -89,16 +89,16 @@ function buildCardArea() {
             <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
           </div>
 
-          <!-- Khối thông tin hỗ trợ: Minh họa gợi hình + Cấu tạo chữ -->
-          <div class="card-supporting-group" id="cardSupportingGroup">
-            <div class="card-visual-col" id="cardVisualCol">
+          <!-- Khối thông tin hỗ trợ: Minh họa gợi hình + Cấu tạo chữ (Chỉ hiển thị khi có dữ liệu) -->
+          <div class="card-supporting-group" id="cardSupportingGroup" style="display: none;" hidden>
+            <div class="card-visual-col" id="cardVisualCol" style="display: none;" hidden>
               <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
                 <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
                 <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
               </div>
             </div>
 
-            <div class="card-decomposition-wrap" id="cardDecompositionWrap">
+            <div class="card-decomposition-wrap" id="cardDecompositionWrap" style="display: none;" hidden>
               <div class="card-decomp-title">Cấu tạo chữ</div>
               <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
             </div>
@@ -353,10 +353,10 @@ function renderFilters() {
     unseen: Math.max(0, WORDS.length - known - unknown),
   };
   const filters = [
-    { key: 'all', label: 'Tất cả', count: counts.all, icon: '📚' },
-    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown', icon: '🔴' },
-    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known', icon: '🟢' },
-    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen', icon: '⚪' },
+    { key: 'all', label: 'Tất cả', count: counts.all },
+    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown' },
+    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known' },
+    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen' },
   ];
   const activeF = filters.find(f => f.key === currentFilter) || filters[0];
 
@@ -365,22 +365,20 @@ function renderFilters() {
       <button type="button" class="compact-filter-trigger" id="compactFilterTrigger"
         onclick="toggleCompactFilterMenu(event)" aria-haspopup="menu" aria-expanded="false"
         title="Lọc trạng thái học">
-        <span class="compact-filter-icon">${activeF.icon}</span>
         <span class="compact-filter-label">${activeF.label}</span>
         <span class="compact-filter-count">(${activeF.count})</span>
-        <svg class="compact-filter-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        <svg class="compact-filter-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="compact-filter-menu" id="compactFilterMenu" role="menu" hidden>
         ${filters.map(f => `
           <button type="button" class="compact-filter-item${currentFilter === f.key ? ' is-active' : ''}"
             onclick="setFilter('${f.key}'); closeCompactFilterMenu();" role="menuitem">
             <span class="compact-filter-item-left">
-              <span class="compact-filter-icon">${f.icon}</span>
               <span class="compact-filter-name">${f.label}</span>
             </span>
             <span class="compact-filter-item-right">
               <span class="compact-filter-item-count">${f.count}</span>
-              ${currentFilter === f.key ? '<span class="compact-filter-check">✓</span>' : ''}
+              ${currentFilter === f.key ? '<span class="compact-filter-check" aria-hidden="true">✓</span>' : '<span class="compact-filter-check-placeholder" aria-hidden="true"></span>'}
             </span>
           </button>
         `).join('')}
@@ -397,7 +395,6 @@ function renderFilters() {
             onclick="setFilter('${f.key}'); closeStudyFilterSheet();"
             role="radio" aria-checked="${currentFilter === f.key}">
             <div class="filter-sheet-option-left">
-              <span class="filter-sheet-option-icon">${f.icon}</span>
               <span class="filter-sheet-option-label">${f.label}</span>
             </div>
             <div class="filter-sheet-option-right">
@@ -506,10 +503,23 @@ function syncRevealControls() {
   const revealBtn = document.getElementById('revealBtn');
   if (revealBtn) revealBtn.hidden = true;
   const ratingRow = document.getElementById('ratingRow');
-  if (!ratingRow) return;
-  const hasCard = filteredOrder.length > 0;
+  const ratingArea = document.getElementById('ratingArea');
+  const studyNavRow = document.getElementById('studyNavRow');
+  const hasCard = Array.isArray(filteredOrder) && filteredOrder.length > 0;
   const revealed = hasCard && isCardRevealed();
-  ratingRow.hidden = !revealed;
+  if (ratingRow) {
+    ratingRow.hidden = !revealed;
+    ratingRow.style.display = revealed ? '' : 'none';
+  }
+  if (ratingArea) {
+    ratingArea.hidden = !revealed;
+    ratingArea.style.display = revealed ? '' : 'none';
+  }
+  if (studyNavRow) {
+    const showNav = hasCard && !revealed;
+    studyNavRow.hidden = !showNav;
+    studyNavRow.style.display = showNav ? '' : 'none';
+  }
 }
 function computeDeckProgress() {
   if (!Array.isArray(WORDS) || WORDS.length === 0) {
@@ -980,19 +990,15 @@ function render(animate) {
       }
 
       container.innerHTML = `
-        <div class="achievement-hero-card">
-          <div class="achievement-hero-trophy-wrap">
-            <span class="achievement-hero-trophy">🎯</span>
-          </div>
-          <div class="achievement-hero-badge">ĐÃ HOÀN THÀNH ÔN TẬP</div>
-          <h2 class="achievement-hero-title">Không còn từ tồn đọng!</h2>
-          <p class="achievement-hero-desc">
-            Tuyệt vời, bạn đã nhớ hết các từ cần củng cố trong danh sách ôn tập hiện tại.
+        <div class="generic-empty-card">
+          <h3 class="generic-empty-title">Không còn từ cần ôn tập</h3>
+          <p class="generic-empty-desc">
+            Tuyệt vời, bạn đã ghi nhớ hết các từ cần củng cố trong danh sách ôn tập hiện tại.
           </p>
-          <div class="achievement-hero-actions">
+          <div class="generic-empty-actions">
             ${deck.unseen > 0 ? `
             <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('unseen')">
-              👉 Học tiếp ${deck.unseen} từ mới
+              Học tiếp ${deck.unseen} từ mới
             </button>` : ''}
             <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
               Xem tất cả từ
@@ -1005,7 +1011,6 @@ function render(animate) {
     if (currentFilter === 'known') {
       container.innerHTML = `
         <div class="generic-empty-card">
-          <div class="generic-empty-icon">📖</div>
           <h3 class="generic-empty-title">Chưa có từ nào đã nhớ</h3>
           <p class="generic-empty-desc">Hãy bắt đầu ôn luyện các từ vựng để đánh dấu những từ bạn đã nhớ tốt.</p>
           <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('all')">
@@ -1017,7 +1022,6 @@ function render(animate) {
 
     container.innerHTML = `
       <div class="generic-empty-card">
-        <div class="generic-empty-icon">📭</div>
         <h3 class="generic-empty-title">Không có từ trong bộ lọc này</h3>
         <p class="generic-empty-desc">Chưa có thẻ từ vựng nào thỏa mãn điều kiện lọc đã chọn.</p>
         <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
@@ -1035,11 +1039,13 @@ function render(animate) {
     const radsRow = document.getElementById('cardRadicalsRow');
     const hasDecomp = Boolean(decompWrap && decompWrap.style.display !== 'none' && !decompWrap.hidden && radsRow && radsRow.children && radsRow.children.length > 0);
     if (hasVisual || hasDecomp) {
+      group.hidden = false;
       group.style.display = 'flex';
       group.classList.toggle('has-both', Boolean(hasVisual && hasDecomp));
       group.classList.toggle('has-only-visual', Boolean(hasVisual && !hasDecomp));
       group.classList.toggle('has-only-decomp', Boolean(!hasVisual && hasDecomp));
     } else {
+      group.hidden = true;
       group.style.display = 'none';
       group.classList.remove('has-both', 'has-only-visual', 'has-only-decomp');
     }
@@ -1059,6 +1065,11 @@ function render(animate) {
     const initImgEl = document.getElementById('cardIllustrationImg');
     if (initImgEl) { initImgEl.hidden = true; initImgEl.style.display = 'none'; initImgEl.removeAttribute('src'); }
     const hint = document.getElementById('hint');
+    const initSupGroup = document.getElementById('cardSupportingGroup');
+    if (initSupGroup) { initSupGroup.hidden = true; initSupGroup.style.display = 'none'; }
+    const initDecompWrap = document.getElementById('cardDecompositionWrap');
+    if (initDecompWrap) { initDecompWrap.hidden = true; initDecompWrap.style.display = 'none'; }
+
     if (filteredOrder.length === 0) {
       if (wordMainBlock) wordMainBlock.style.display = 'none';
       if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
@@ -1078,7 +1089,9 @@ function render(animate) {
       const emptyLevel = document.getElementById('levelBadge');
       if (emptyLevel) { emptyLevel.textContent = ''; emptyLevel.hidden = true; emptyLevel.style.display = 'none'; }
       const emptySupporting = document.getElementById('cardSupportingGroup');
-      if (emptySupporting) { emptySupporting.style.display = 'none'; }
+      if (emptySupporting) { emptySupporting.hidden = true; emptySupporting.style.display = 'none'; }
+      const emptyDecompWrap = document.getElementById('cardDecompositionWrap');
+      if (emptyDecompWrap) { emptyDecompWrap.hidden = true; emptyDecompWrap.style.display = 'none'; }
       const meaningEl = document.getElementById('meaning');
       if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
       const emptyRads = document.getElementById('cardRadicalsRow');
@@ -1093,6 +1106,12 @@ function render(animate) {
         renderEmptyCardState(cardEmptyState);
       }
       if (content) content.classList.add('is-empty');
+      const ratingRow = document.getElementById('ratingRow');
+      if (ratingRow) { ratingRow.hidden = true; ratingRow.style.display = 'none'; }
+      const ratingArea = document.getElementById('ratingArea');
+      if (ratingArea) { ratingArea.hidden = true; ratingArea.style.display = 'none'; }
+      const navRow = document.getElementById('studyNavRow');
+      if (navRow) { navRow.hidden = true; navRow.style.display = 'none'; }
       updateProgress();
       updateCardPosition();
       updateStats();

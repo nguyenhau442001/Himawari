@@ -148,12 +148,16 @@ function renderCardRadicals(word) {
   const hideDecomp = () => {
     mount.innerHTML = '';
     mount.style.display = 'none';
-    if (wrap) wrap.style.display = 'none';
+    if (wrap) {
+      wrap.hidden = true;
+      wrap.style.display = 'none';
+    }
     if (typeof syncCardSupportingGroup === 'function') syncCardSupportingGroup();
   };
 
+  hideDecomp();
+
   if (!word || !word.hanzi) {
-    hideDecomp();
     return;
   }
 
@@ -182,7 +186,10 @@ function renderCardRadicals(word) {
       return;
     }
 
-    if (wrap) wrap.style.display = 'flex';
+    if (wrap) {
+      wrap.hidden = false;
+      wrap.style.display = 'flex';
+    }
     mount.style.display = 'flex';
 
     if (charDecomps.length === 1) {
