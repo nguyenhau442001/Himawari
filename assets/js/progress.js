@@ -545,13 +545,18 @@ document.addEventListener('keydown', event => {
     return;
   }
   if (event.key === ' ') {
-    if (document.activeElement && document.activeElement.closest('button, summary, a, input, textarea, select')) return;
+    if (document.activeElement && document.activeElement.closest('input, textarea, select')) return;
     event.preventDefault();
     flip();
     return;
   }
   const rating = RATING_KEYS[event.key];
-  if (rating && ratingsVisible()) { event.preventDefault(); rateCurrentCard(rating); return; }
+  if (rating) {
+    if (document.activeElement && document.activeElement.closest('input, textarea, select')) return;
+    event.preventDefault();
+    rateCurrentCard(rating);
+    return;
+  }
   if (event.key === 'r' || event.key === 'R') {
     event.preventDefault();
     jumpToRandomWord();
