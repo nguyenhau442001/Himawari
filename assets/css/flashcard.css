@@ -507,6 +507,101 @@
   background: var(--accent-light); color: var(--accent); border-color: var(--accent); opacity: 1;
   animation: soundButtonPulse 1.15s ease-in-out infinite;
 }
+/* Tactile Flip Card Prompt */
+.card-flip-prompt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card:not(.is-flipped) .card-flip-prompt {
+  margin-top: clamp(16px, 3vh, 26px);
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+.card:not(.is-flipped) .card-flip-prompt:hover {
+  background: var(--surface-chip);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+.card:not(.is-flipped) .card-flip-prompt:active {
+  transform: scale(0.97);
+}
+.card:not(.is-flipped) .card-flip-prompt-icon {
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+}
+.card:not(.is-flipped) .card-flip-prompt-text {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 0;
+}
+:root[data-theme="dark"] .card:not(.is-flipped) .card-flip-prompt {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+:root[data-theme="dark"] .card:not(.is-flipped) .card-flip-prompt:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: #f97316;
+}
+
+/* Back of Card: Flip prompt transforms into a discreet, quiet return affordance */
+.card.is-flipped .card-flip-prompt {
+  margin-top: 8px;
+  padding: 4px 10px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  opacity: 0.65;
+}
+.card.is-flipped .card-flip-prompt:hover {
+  opacity: 1;
+}
+.card.is-flipped .card-flip-prompt-icon {
+  display: none;
+}
+.card.is-flipped .card-flip-prompt-text {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  margin-top: 0;
+}
+
+/* Graceful reveal animation for answer elements when card is flipped */
+.card.is-flipped .meaning,
+.card.is-flipped .meta-badges-row,
+.card.is-flipped .example-box {
+  animation: cardRevealFade 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes cardRevealFade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card.is-flipped .meaning,
+  .card.is-flipped .meta-badges-row,
+  .card.is-flipped .example-box {
+    animation: none;
+  }
+}
+
 .hint { font-size: 12px; color: var(--text-tertiary); margin-top: 8px; }
 .nav-row {
   display: flex;

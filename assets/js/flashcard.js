@@ -6,9 +6,9 @@ function getCardHintText(isFlipped) {
     (navigator.maxTouchPoints > 0)
   );
   if (isTouch) {
-    return isFlipped ? 'Chạm vào thẻ để ẩn' : 'Chạm vào thẻ để xem nghĩa';
+    return isFlipped ? 'Chạm thẻ để lật lại' : 'Chạm thẻ để xem nghĩa & ví dụ';
   }
-  return isFlipped ? 'Nhấn vào thẻ hoặc Space để ẩn' : 'Nhấn vào thẻ hoặc phím Space để xem nghĩa';
+  return isFlipped ? 'Nhấn thẻ hoặc Space để lật lại' : 'Nhấn thẻ hoặc phím Space để xem nghĩa';
 }
 window.getCardHintText = getCardHintText;
 
@@ -66,13 +66,9 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
         <div class="word-hero-container" id="wordMainBlock">
-          <!-- Chữ Hán to bản ở trung tâm: an toàn tuyệt đối, có hint tập viết -->
+          <!-- Chữ Hán to bản ở trung tâm: vững chãi, thoáng đãng, tinh tế -->
           <div class="hanzi-stage" id="hanziStage" onclick="event.stopPropagation(); toggleStudyWritingPanel(true);" title="Nhấn để luyện viết chữ Hán (W)">
             <div class="hanzi" id="hanzi"></div>
-            <span class="hanzi-write-hint" aria-hidden="true">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
-              Tập viết
-            </span>
           </div>
 
           <!-- Pinyin + Loa phát âm -->
@@ -85,14 +81,12 @@ function buildCardArea() {
             </button>
           </div>
 
-          <!-- Badges Âm Hán Việt & Từ loại -->
-          <div class="meta-badges-row" id="metaBadgesRow">
-            <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
-            <span class="pos-badge" id="posBadge" title="Từ loại"></span>
-          </div>
-
-          <!-- Nghĩa tiếng Việt -->
+          <!-- Nghĩa tiếng Việt & Ngữ cảnh từ loại -->
           <div class="meaning" id="meaning"></div>
+          <div class="meta-badges-row" id="metaBadgesRow">
+            <span class="pos-badge" id="posBadge" title="Từ loại"></span>
+            <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
+          </div>
 
           <!-- Khối hình minh họa gợi hình (Gọn gàng, trung tâm, không làm tối cục bộ) -->
           <div class="card-visual-col" id="cardVisualCol">
@@ -125,7 +119,7 @@ function buildCardArea() {
                 <div class="example-speed-options" role="group" aria-label="Chọn tốc độ đọc câu ví dụ">
                   ${EXAMPLE_SPEECH_SPEEDS.map(speed => `
                     <button class="example-speed-option${speed === exampleSpeechSpeed ? ' selected' : ''}"
-                      type="button" data-speed="${speed}"
+                       type="button" data-speed="${speed}"
                       aria-pressed="${speed === exampleSpeechSpeed}"
                       onclick="event.preventDefault(); setExampleSpeechSpeed(this.dataset.speed)">
                       ${formatExampleSpeechSpeed(speed)}
@@ -139,7 +133,14 @@ function buildCardArea() {
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
-        <div class="hint" id="hint">${getCardHintText(false)}</div>
+        <div class="card-flip-prompt" id="cardFlipPrompt" onclick="flip()" role="button" tabindex="0" aria-label="Lật thẻ">
+          <span class="card-flip-prompt-icon" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
+            </svg>
+          </span>
+          <span class="hint card-flip-prompt-text" id="hint">${getCardHintText(false)}</span>
+        </div>
         <div class="card-empty-state card-interactive" id="cardEmptyState" hidden></div>
       </div>
     </div>
@@ -1098,7 +1099,8 @@ function render(animate) {
         hv = hv.replace(/[（\(].*?[）\)]/g, '').replace(/\s+/g, ' ').trim();
       }
       if (hv) {
-        hvBadge.textContent = `［${hv}］`;
+        hvBadge.textContent = hv;
+        hvBadge.title = `Âm Hán - Việt: ${hv}`;
         hvBadge.hidden = false;
         hvBadge.style.display = showHanViet ? 'inline-flex' : 'none';
       } else {
