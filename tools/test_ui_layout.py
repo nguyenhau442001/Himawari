@@ -588,6 +588,10 @@ class TestFlashcardIllustrationIntegration(unittest.TestCase):
         self.assertIn("shouldBeFlipped", self.flashcard_js)
         self.assertIn("c.classList.add('is-flipped')", self.flashcard_js)
 
+    def test_rating_buttons_do_not_render_shortcut_numbers(self):
+        """Rating buttons must not render shortcut numbers ([1], [2]) in the UI."""
+        self.assertNotIn('class="rating-shortcut"', self.flashcard_js)
+
 
 class TestLearningProgressNavigator(unittest.TestCase):
     """Test suite for the redesigned Learning Progress Navigator in Synapse Hanzi."""

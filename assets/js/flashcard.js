@@ -585,7 +585,6 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
       title="${titleText}">
       <span class="rating-icon-wrap" aria-hidden="true">${iconSvg}</span>
       <span class="rating-label">${button.label}</span>
-      <span class="rating-shortcut" aria-hidden="true">${button.key}</span>
     </button>`;
   }).join('');
 }
