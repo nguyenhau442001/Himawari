@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "level": "hsk4",
+  "model": "gemini-3.8-flash-tts",
+  "engine": "GeminiFlashTTS",
+  "voice": "Aoede",
+  "speed": 1.0,
+  "items": {
+    "1": {
+      "word": "database/prebuilt_audio/hsk4/words/0001.mp3?v=c61f52242701",
+      "example": "database/prebuilt_audio/hsk4/examples/0001.mp3?v=74cfb46dc6de"
+    },
+    "2": {
+      "word": "database/prebuilt_audio/hsk4/words/0002.mp3?v=be88c8cc126a",
+      "example": "database/prebuilt_audio/hsk4/examples/0002.mp3?v=82dc6951969a"
+    }
+  }
+}
