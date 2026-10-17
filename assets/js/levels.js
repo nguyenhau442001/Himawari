@@ -450,6 +450,7 @@ function prefetchSuggestedLevel() {
   const run = () => {
     fetch(config.dataUrl).catch(() => {});
     if (config.audioManifestUrl) fetch(config.audioManifestUrl).catch(() => {});
+    if (typeof loadLevelIllustrationPack === 'function') loadLevelIllustrationPack(target.level).catch(() => {});
   };
   if ('requestIdleCallback' in window) requestIdleCallback(run, { timeout: 3000 });
   else setTimeout(run, 1500);
@@ -730,6 +731,11 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
       <div class="skel-line skel-action-btn"></div>
     </div>`;
 
+  // Preload illustration pack in parallel with vocabulary download for 0ms zero-latency card images
+  if (typeof loadLevelIllustrationPack === 'function') {
+    loadLevelIllustrationPack(level).catch(() => {});
+  }
+
   // Yield to the browser's paint pipeline so the skeleton renders at least one frame
   // before the fetch begins — necessary for local file:// loads where fetch is instant.
   await new Promise(r => requestAnimationFrame(r));
@@ -798,7 +804,7 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
 
   // Instant-Load Preloading: Trigger deck-wide progressive background preloading anchored at current idx
   if (typeof preloadDeckIllustrations === 'function') {
-    preloadDeckIllustrations(WORDS, idx, filteredOrder);
+    preloadDeckIllustrations(WORDS, idx, filteredOrder, currentLevel);
   } else if (typeof preloadWordsIllustrations === 'function') {
     preloadWordsIllustrations(WORDS, 50);
   }

@@ -471,19 +471,18 @@ if ('serviceWorker' in navigator) {
   <div id="screenCards" style="display:none">
     <div class="study-view-topbar">
       <div class="study-view-topbar-left">
-        <button class="back-btn study-back-btn" onclick="SpaRouter.navigateBack()" title="Quay lại chọn cấp độ (Esc)">
+        <button class="back-btn study-back-btn" onclick="SpaRouter.navigateBack()" title="Quay lại chọn cấp độ (Esc)" aria-label="Quay lại">
           <span class="back-arrow" aria-hidden="true">←</span>
           <span class="study-level-badge" id="studyLevelBadge"></span>
         </button>
-        <div class="view-tabs" role="tablist" aria-label="Chế độ xem">
+        <!-- Accessible hidden tab references for backward compatibility with router/overview scripts -->
+        <div class="view-tabs" role="tablist" aria-label="Chế độ xem" style="display:none" hidden>
           <button id="flashcardTab" class="view-tab active" role="tab" aria-selected="true"
             aria-controls="studyView" onclick="setViewMode('cards')">
-            <svg class="view-tab-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="3"/><path d="m9 9 6 6m0-6-6 6"/></svg>
             <span>Thẻ</span>
           </button>
           <button id="overviewTab" class="view-tab" role="tab" aria-selected="false"
-            aria-controls="overviewView" onclick="setViewMode('overview')" title="Danh sách từ vựng">
-            <svg class="view-tab-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+            aria-controls="overviewView" onclick="setViewMode('overview')">
             <span>Tổng quan</span>
           </button>
         </div>
@@ -500,17 +499,40 @@ if ('serviceWorker' in navigator) {
       </div>
 
       <div class="study-view-topbar-actions">
-        <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Luyện viết &amp; thứ tự nét (W)">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
-          <span class="study-drawer-btn-label">Luyện viết</span>
-        </button>
-        <button type="button" class="study-drawer-btn" id="studyHelpToggleBtn" onclick="openStudyHelpModal()" title="Hướng dẫn &amp; Phím tắt (?)" aria-label="Hướng dẫn học tập và phím tắt">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
-          <span class="study-drawer-btn-label">Trợ giúp</span>
-        </button>
         <button type="button" class="study-drawer-btn study-theme-toggle-btn" onclick="toggleTheme()" title="Đổi giao diện Sáng / Tối" aria-label="Đổi giao diện Sáng / Tối">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
         </button>
+        <div class="study-header-menu-wrap" id="studyHeaderMenuWrap">
+          <button type="button" class="study-drawer-btn study-header-more-btn" id="studyHeaderMoreBtn" onclick="toggleStudyHeaderMenu(event)" title="Tùy chọn khác" aria-haspopup="menu" aria-expanded="false" aria-label="Menu tùy chọn">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <circle cx="5" cy="12" r="2.2"/>
+              <circle cx="12" cy="12" r="2.2"/>
+              <circle cx="19" cy="12" r="2.2"/>
+            </svg>
+          </button>
+          <div class="study-header-dropdown" id="studyHeaderDropdown" role="menu" hidden>
+            <button type="button" class="study-dropdown-item" id="headerMenuOverview" onclick="setViewMode('overview'); closeStudyHeaderMenu();" role="menuitem">
+              <span class="dropdown-item-icon">📋</span>
+              <span class="dropdown-item-label">Tổng quan danh sách từ</span>
+            </button>
+            <button type="button" class="study-dropdown-item" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel(true); closeStudyHeaderMenu();" role="menuitem">
+              <span class="dropdown-item-icon">✍️</span>
+              <span class="dropdown-item-label">Luyện viết chữ Hán</span>
+            </button>
+            <button type="button" class="study-dropdown-item" id="studyHelpToggleBtn" onclick="openStudyHelpModal(); closeStudyHeaderMenu();" role="menuitem">
+              <span class="dropdown-item-icon">❓</span>
+              <span class="dropdown-item-label">Hướng dẫn &amp; phím tắt</span>
+            </button>
+            <button type="button" class="study-dropdown-item" id="headerMenuTransfer" onclick="toggleTransferPanel(true); closeStudyHeaderMenu();" role="menuitem">
+              <span class="dropdown-item-icon">💾</span>
+              <span class="dropdown-item-label">Sao lưu tiến trình</span>
+            </button>
+            <button type="button" class="study-dropdown-item study-dropdown-danger" id="headerMenuReset" onclick="resetProgress(); closeStudyHeaderMenu();" role="menuitem">
+              <span class="dropdown-item-icon">↻</span>
+              <span class="dropdown-item-label">Học lại cấp độ này</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="study-drawer-backdrop" id="studyDrawerBackdrop" onclick="closeAllStudyDrawers()"></div>
@@ -1096,17 +1118,17 @@ if ('serviceWorker' in navigator) {
 <script src="https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js" crossorigin="anonymous"></script>
 <script src="assets/js/srs.js?v=20261006-2tier-srs1"></script>
 <script src="assets/js/spa-router.js?v=20261014-router2"></script>
-<script src="assets/js/levels.js?v=20261010-zero-latency-illu1"></script>
+<script src="assets/js/word-illustrations.js?v=20261017-zero-lag1"></script>
+<script src="assets/js/levels.js?v=20261017-zero-lag1"></script>
 <script src="assets/js/topics.js?v=20261006-decimal-pct1"></script>
 <script src="assets/js/hsk30.js?v=20261006-decimal-pct1"></script>
 <script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
 <script src="assets/js/guess-word-game.js?v=20261006-fix-chair1"></script>
 <script src="assets/js/speed-quiz-game.js?v=20261017-speedquiz-redesign1"></script>
-<script src="assets/js/vocabulary-overview.js?v=20261010-zero-latency-illu1"></script>
+<script src="assets/js/vocabulary-overview.js?v=20261017-zero-lag1"></script>
 <script src="assets/js/fast-review.js?v=20261016-fix-l4-review1"></script>
 <script src="assets/js/hanviet-dict.js?v=20261007-pos-visual2"></script>
-<script src="assets/js/word-illustrations.js?v=20261010-zero-latency-illu1"></script>
-<script src="assets/js/flashcard.js?v=20261016-preserve-flip1"></script>
+<script src="assets/js/flashcard.js?v=20261017-zero-lag1"></script>
 <script src="assets/js/card-interactions.js?v=20261016-preserve-flip1"></script>
 <script src="assets/js/speechService.js?v=20261010-speech-mvp1"></script>
 <script src="assets/js/speech.js?v=20261016-fix-hanzi-size1"></script>

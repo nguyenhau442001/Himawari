@@ -6,9 +6,9 @@ function getCardHintText(isFlipped) {
     (navigator.maxTouchPoints > 0)
   );
   if (isTouch) {
-    return isFlipped ? 'Chạm vào thẻ để ẩn' : 'Chạm vào thẻ để xem nghĩa';
+    return isFlipped ? 'Chạm thẻ để lật lại' : 'Chạm thẻ để xem nghĩa & ví dụ';
   }
-  return isFlipped ? 'Nhấn vào thẻ hoặc Space để ẩn' : 'Nhấn vào thẻ hoặc phím Space để xem nghĩa';
+  return isFlipped ? 'Nhấn thẻ hoặc Space để lật lại' : 'Nhấn thẻ hoặc phím Space để xem nghĩa';
 }
 window.getCardHintText = getCardHintText;
 
@@ -16,15 +16,10 @@ function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card">
       <div class="card-header-bar" id="cardHeaderBar" onclick="event.stopPropagation()">
-        <button type="button" class="card-star-btn" id="weakWordToggleBtn"
-          onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)"
-          aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
-          <span id="weakWordToggleIcon">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-          </span>
-        </button>
+        <span class="card-position-pill" id="cardPositionBadge">Từ 1 / 300</span>
+        <button type="button" class="card-star-btn" id="weakWordToggleBtn" style="display:none" hidden aria-hidden="true"></button>
         <div class="card-more-menu-wrap" id="cardMoreMenuWrap">
-          <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn học từ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
+          <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn thẻ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <circle cx="12" cy="5" r="2.2"/>
               <circle cx="12" cy="12" r="2.2"/>
@@ -52,15 +47,19 @@ function buildCardArea() {
               <span class="dropdown-item-icon">漢</span>
               <span class="dropdown-item-label" id="menuHanvietText">Âm Hán - Việt</span>
             </button>
+            <button type="button" class="card-dropdown-item" id="menuToggleIllustration" onclick="toggleIllustration(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon" id="menuIllustrationIcon">🖼️</span>
+              <span class="dropdown-item-label" id="menuIllustrationText">Hình minh họa</span>
+            </button>
             <button type="button" class="card-dropdown-item" id="menuStudyHelp" onclick="openStudyHelpModal(); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon">❓</span>
               <span class="dropdown-item-label">Hướng dẫn &amp; phím tắt</span>
             </button>
-            <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(); closeCardMoreMenu();" role="menuitem">
+            <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(true); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon">💾</span>
               <span class="dropdown-item-label">Sao lưu tiến trình</span>
             </button>
-            <button type="button" class="card-dropdown-item" id="menuResetProgress" onclick="resetProgress(); closeCardMoreMenu();" role="menuitem">
+            <button type="button" class="card-dropdown-item card-dropdown-item--danger" id="menuResetProgress" onclick="resetProgress(); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon">↻</span>
               <span class="dropdown-item-label">Học lại từ đầu</span>
             </button>
@@ -70,32 +69,47 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
-        <div class="word-main-block split-layout" id="wordMainBlock">
-          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic) -->
-          <div class="card-visual-col" id="cardVisualCol">
-            <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
-              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
-              <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
-            </div>
+        <div class="word-hero-container" id="wordMainBlock">
+          <!-- Chữ Hán to bản ở trung tâm: vững chãi, thoáng đãng, tinh tế -->
+          <div class="hanzi-stage" id="hanziStage" onclick="event.stopPropagation(); toggleStudyWritingPanel(true);" title="Nhấn để luyện viết chữ Hán (W)">
+            <div class="hanzi" id="hanzi"></div>
           </div>
 
-          <!-- Cột phải: Chữ Hán, Pinyin, Từ loại & Nghĩa -->
-          <div class="card-content-col" id="cardContentCol">
-            <div class="hanzi" id="hanzi"></div>
-            <div class="pinyin-row" id="pinyinRow">
-              <div class="pinyin" id="pinyin"></div>
-              <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
-              <span class="pos-badge" id="posBadge" title="Từ loại"></span>
-              <button class="sound-btn speech-btn" id="soundBtn" type="button"
-                onclick="event.stopPropagation(); speakWord()"
-                aria-label="Nghe phát âm" aria-live="polite" title="Nghe phát âm (A)">
-                <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-              </button>
+          <!-- Pinyin + Loa phát âm -->
+          <div class="pinyin-row" id="pinyinRow">
+            <span class="pinyin" id="pinyin"></span>
+            <button class="sound-btn speech-btn" id="soundBtn" type="button"
+              onclick="event.stopPropagation(); speakWord()"
+              aria-label="Nghe phát âm" aria-live="polite" title="Nghe phát âm (A)">
+              <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+            </button>
+          </div>
+
+          <!-- Nghĩa tiếng Việt & Ngữ cảnh từ loại -->
+          <div class="meaning" id="meaning"></div>
+          <div class="meta-badges-row" id="metaBadgesRow">
+            <span class="pos-badge" id="posBadge" title="Từ loại"></span>
+            <span class="level-badge" id="levelBadge" title="Cấp độ HSK"></span>
+            <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
+          </div>
+
+          <!-- Khối thông tin hỗ trợ: Minh họa gợi hình + Cấu tạo chữ (Chỉ hiển thị khi có dữ liệu) -->
+          <div class="card-supporting-group" id="cardSupportingGroup" style="display: none;">
+            <div class="card-visual-col" id="cardVisualCol" style="display: none;">
+              <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
+                <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" style="display: none;">
+                <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
+              </div>
             </div>
-            <div class="meaning" id="meaning"></div>
-            <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
+
+            <div class="card-decomposition-wrap" id="cardDecompositionWrap" style="display: none;" hidden>
+              <div class="card-decomp-title">Cấu tạo chữ</div>
+              <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
+            </div>
           </div>
         </div>
+
+        <!-- Khối ví dụ thực tế -->
         <div class="example-box" id="exampleBox">
           <div class="ex-header-row">
             <span class="ex-label">Ví dụ</span>
@@ -114,7 +128,7 @@ function buildCardArea() {
                 <div class="example-speed-options" role="group" aria-label="Chọn tốc độ đọc câu ví dụ">
                   ${EXAMPLE_SPEECH_SPEEDS.map(speed => `
                     <button class="example-speed-option${speed === exampleSpeechSpeed ? ' selected' : ''}"
-                      type="button" data-speed="${speed}"
+                       type="button" data-speed="${speed}"
                       aria-pressed="${speed === exampleSpeechSpeed}"
                       onclick="event.preventDefault(); setExampleSpeechSpeed(this.dataset.speed)">
                       ${formatExampleSpeechSpeed(speed)}
@@ -128,24 +142,32 @@ function buildCardArea() {
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
-        <div class="hint" id="hint">${getCardHintText(false)}</div>
+        <div class="card-flip-prompt" id="cardFlipPrompt" onclick="flip()" role="button" tabindex="0" aria-label="Lật thẻ">
+          <span class="card-flip-prompt-icon" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
+            </svg>
+          </span>
+          <span class="hint card-flip-prompt-text" id="hint">${getCardHintText(false)}</span>
+        </div>
         <div class="card-empty-state card-interactive" id="cardEmptyState" hidden></div>
       </div>
     </div>
 
-    <div class="nav-row" id="studyNavRow">
-      <button type="button" class="nav-btn nav-btn--prev" onclick="prevCard()" title="Từ trước (←)">← Trước</button>
-      <span class="card-counter" id="cardCounter">0 / 0</span>
-      <button type="button" class="nav-btn nav-btn--next" onclick="nextCard()" title="Từ tiếp theo (→)">Tiếp →</button>
-    </div>
-
+    <!-- Rating actions row: Subtle Filled Buttons with height >= 48px & keyboard shortcuts 1 and 2 -->
     <div class="rating-area" id="ratingArea">
       <div class="rating-row" id="ratingRow" hidden>
         ${ratingButtonsHtml('rateCurrentCard', 'preview-')}
       </div>
     </div>
 
-    <div class="action-row secondary-actions">
+    <!-- Discreet navigation buttons -->
+    <div class="nav-row" id="studyNavRow">
+      <button type="button" class="nav-btn nav-btn--prev" onclick="prevCard()" title="Từ trước (←)">← Trước</button>
+      <button type="button" class="nav-btn nav-btn--next" onclick="nextCard()" title="Từ tiếp theo (→)">Tiếp →</button>
+    </div>
+
+    <div class="action-row secondary-actions" style="display:none" hidden>
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
         aria-controls="unknownWordsList" aria-expanded="false">
         Hiển thị từ chưa nhớ
@@ -162,6 +184,64 @@ function buildCardArea() {
   initSwipe();
 }
 
+function toggleStudyHeaderMenu(event) {
+  if (event) event.stopPropagation();
+  const dropdown = document.getElementById('studyHeaderDropdown');
+  const btn = document.getElementById('studyHeaderMoreBtn');
+  if (!dropdown || !btn) return;
+  const isHidden = dropdown.hidden;
+  if (isHidden) {
+    if (typeof closeCardMoreMenu === 'function') closeCardMoreMenu();
+    if (typeof closeCompactFilterMenu === 'function') closeCompactFilterMenu();
+    dropdown.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    dropdown.classList.add('is-open');
+  } else {
+    closeStudyHeaderMenu();
+  }
+}
+
+function closeStudyHeaderMenu() {
+  const dropdown = document.getElementById('studyHeaderDropdown');
+  const btn = document.getElementById('studyHeaderMoreBtn');
+  if (dropdown) {
+    dropdown.hidden = true;
+    dropdown.classList.remove('is-open');
+  }
+  if (btn) btn.setAttribute('aria-expanded', 'false');
+}
+window.toggleStudyHeaderMenu = toggleStudyHeaderMenu;
+window.closeStudyHeaderMenu = closeStudyHeaderMenu;
+
+function toggleCompactFilterMenu(event) {
+  if (event) event.stopPropagation();
+  const menu = document.getElementById('compactFilterMenu');
+  const trigger = document.getElementById('compactFilterTrigger');
+  if (!menu || !trigger) return;
+  const isHidden = menu.hidden;
+  if (isHidden) {
+    if (typeof closeStudyHeaderMenu === 'function') closeStudyHeaderMenu();
+    if (typeof closeCardMoreMenu === 'function') closeCardMoreMenu();
+    menu.hidden = false;
+    trigger.setAttribute('aria-expanded', 'true');
+    menu.classList.add('is-open');
+  } else {
+    closeCompactFilterMenu();
+  }
+}
+
+function closeCompactFilterMenu() {
+  const menu = document.getElementById('compactFilterMenu');
+  const trigger = document.getElementById('compactFilterTrigger');
+  if (menu) {
+    menu.hidden = true;
+    menu.classList.remove('is-open');
+  }
+  if (trigger) trigger.setAttribute('aria-expanded', 'false');
+}
+window.toggleCompactFilterMenu = toggleCompactFilterMenu;
+window.closeCompactFilterMenu = closeCompactFilterMenu;
+
 function toggleCardMoreMenu(event) {
   if (event) event.stopPropagation();
   const dropdown = document.getElementById('cardMoreDropdown');
@@ -169,6 +249,8 @@ function toggleCardMoreMenu(event) {
   if (!dropdown || !btn) return;
   const isHidden = dropdown.hidden;
   if (isHidden) {
+    if (typeof closeStudyHeaderMenu === 'function') closeStudyHeaderMenu();
+    if (typeof closeCompactFilterMenu === 'function') closeCompactFilterMenu();
     updateCardMoreMenuState();
     dropdown.hidden = false;
     btn.setAttribute('aria-expanded', 'true');
@@ -197,6 +279,11 @@ function updateCardMoreMenuState() {
   const hvLabel = document.getElementById('menuHanvietText');
   if (hvLabel) hvLabel.textContent = showHanViet ? 'Tắt âm Hán - Việt' : 'Bật âm Hán - Việt';
 
+  const illuLabel = document.getElementById('menuIllustrationText');
+  const illuIcon = document.getElementById('menuIllustrationIcon');
+  if (illuLabel) illuLabel.textContent = showIllustration ? 'Ẩn hình minh họa' : 'Hiện hình minh họa';
+  if (illuIcon) illuIcon.textContent = showIllustration ? '🖼️' : '🚫';
+
   const isWeak = Boolean(activeStudyWord && typeof isWeakWord === 'function' && isWeakWord(activeStudyWord.hanzi));
   const weakLabel = document.getElementById('menuWeakText');
   const weakIcon = document.getElementById('menuWeakIcon');
@@ -215,7 +302,46 @@ document.addEventListener('pointerdown', event => {
   if (wrap && !wrap.contains(event.target)) {
     closeCardMoreMenu();
   }
+  const headerWrap = document.getElementById('studyHeaderMenuWrap');
+  if (headerWrap && !headerWrap.contains(event.target)) {
+    closeStudyHeaderMenu();
+  }
+  const filterWrap = document.querySelector('.compact-filter-wrap');
+  if (filterWrap && !filterWrap.contains(event.target)) {
+    closeCompactFilterMenu();
+  }
 });
+
+function toggleIllustration() {
+  showIllustration = !showIllustration;
+  try { localStorage.setItem('hsk_show_illustrations', String(showIllustration)); } catch (e) {}
+  document.body.classList.toggle('hide-illustrations', !showIllustration);
+  document.documentElement.classList.toggle('hide-illustrations', !showIllustration);
+  updateCardMoreMenuState();
+
+  const card = document.getElementById('card');
+  const wasFlipped = Boolean(card && card.classList.contains('is-flipped'));
+  const shouldBeFlipped = wasFlipped || showIllustration;
+
+  if (typeof render === 'function') {
+    render();
+    if (shouldBeFlipped) {
+      const c = document.getElementById('card');
+      const m = document.getElementById('meaning');
+      const ex = document.getElementById('exampleBox');
+      const snd = document.getElementById('soundBtn');
+      if (c) c.classList.add('is-flipped');
+      if (m) m.classList.add('show');
+      if (ex) ex.classList.add('show');
+      if (snd) snd.classList.add('show');
+      const hintEl = document.getElementById('hint');
+      if (hintEl && typeof getCardHintText === 'function') {
+        hintEl.textContent = getCardHintText(true);
+      }
+    }
+  }
+}
+window.toggleIllustration = toggleIllustration;
 
 function toggleHanViet() {
   showHanViet = !showHanViet;
@@ -267,29 +393,36 @@ function renderFilters() {
     unseen: Math.max(0, WORDS.length - known - unknown),
   };
   const filters = [
-    { key: 'all', label: 'Tất cả', count: counts.all, icon: '📚' },
-    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown', icon: '🔴' },
-    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known', icon: '🟢' },
-    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen', icon: '⚪' },
+    { key: 'all', label: 'Tất cả', count: counts.all },
+    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown' },
+    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known' },
+    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen' },
   ];
   const activeF = filters.find(f => f.key === currentFilter) || filters[0];
 
   row.innerHTML = `
-    <div class="desktop-filter-tabs" role="group" aria-label="Bộ lọc trạng thái học">
-      ${filters.map(f => `
-        <button type="button" class="filter-btn${f.modifier ? ' filter-btn--' + f.modifier : ''}${currentFilter === f.key ? ' active' : ''}"
-          onclick="setFilter('${f.key}')">
-          <span class="filter-label">${f.label}</span>
-          <span class="filter-count">(${f.count})</span>
-        </button>
-      `).join('')}
-    </div>
-    <div class="mobile-filter-bar">
-      <button type="button" class="mobile-filter-trigger-btn" onclick="openStudyFilterSheet()" aria-haspopup="dialog" aria-label="Lọc trạng thái: ${activeF.label}">
-        <span class="mobile-filter-icon">${activeF.icon}</span>
-        <span class="mobile-filter-text">Lọc: <strong>${activeF.label}</strong> <span class="mobile-filter-count">(${activeF.count})</span></span>
-        <span class="mobile-filter-chevron">▾</span>
+    <div class="compact-filter-wrap">
+      <button type="button" class="compact-filter-trigger" id="compactFilterTrigger"
+        onclick="toggleCompactFilterMenu(event)" aria-haspopup="menu" aria-expanded="false"
+        title="Lọc trạng thái học">
+        <span class="compact-filter-label">${activeF.label}</span>
+        <span class="compact-filter-count">(${activeF.count})</span>
+        <svg class="compact-filter-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
+      <div class="compact-filter-menu" id="compactFilterMenu" role="menu" hidden>
+        ${filters.map(f => `
+          <button type="button" class="compact-filter-item${currentFilter === f.key ? ' is-active' : ''}"
+            onclick="setFilter('${f.key}'); closeCompactFilterMenu();" role="menuitem">
+            <span class="compact-filter-item-left">
+              <span class="compact-filter-name">${f.label}</span>
+            </span>
+            <span class="compact-filter-item-right">
+              <span class="compact-filter-item-count">${f.count}</span>
+              ${currentFilter === f.key ? '<span class="compact-filter-check" aria-hidden="true">✓</span>' : '<span class="compact-filter-check-placeholder" aria-hidden="true"></span>'}
+            </span>
+          </button>
+        `).join('')}
+      </div>
     </div>
   `;
 
@@ -302,7 +435,6 @@ function renderFilters() {
             onclick="setFilter('${f.key}'); closeStudyFilterSheet();"
             role="radio" aria-checked="${currentFilter === f.key}">
             <div class="filter-sheet-option-left">
-              <span class="filter-sheet-option-icon">${f.icon}</span>
               <span class="filter-sheet-option-label">${f.label}</span>
             </div>
             <div class="filter-sheet-option-right">
@@ -359,13 +491,14 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
     const iconSvg = button.rating === 'again'
       ? `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
       : `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
-    const titleText = `Đánh giá: ${button.label}${intervalText ? ` (${intervalText})` : ''} • Phím [${button.key}] hoặc [${shortcutArrow}]`;
+    const titleText = `${button.label}${intervalText ? ` (${intervalText})` : ''} • Phím [${button.key}] hoặc [${shortcutArrow}]`;
     return `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
       onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}"
       title="${titleText}">
       <span class="rating-icon-wrap" aria-hidden="true">${iconSvg}</span>
       <span class="rating-label">${button.label}</span>
+      <span class="rating-shortcut" aria-hidden="true">${button.key}</span>
     </button>`;
   }).join('');
 }
@@ -410,10 +543,23 @@ function syncRevealControls() {
   const revealBtn = document.getElementById('revealBtn');
   if (revealBtn) revealBtn.hidden = true;
   const ratingRow = document.getElementById('ratingRow');
-  if (!ratingRow) return;
-  const hasCard = filteredOrder.length > 0;
+  const ratingArea = document.getElementById('ratingArea');
+  const studyNavRow = document.getElementById('studyNavRow');
+  const hasCard = Array.isArray(filteredOrder) && filteredOrder.length > 0;
   const revealed = hasCard && isCardRevealed();
-  ratingRow.hidden = !revealed;
+  if (ratingRow) {
+    ratingRow.hidden = !revealed;
+    ratingRow.style.display = revealed ? '' : 'none';
+  }
+  if (ratingArea) {
+    ratingArea.hidden = !revealed;
+    ratingArea.style.display = revealed ? '' : 'none';
+  }
+  if (studyNavRow) {
+    const showNav = hasCard && !revealed;
+    studyNavRow.hidden = !showNav;
+    studyNavRow.style.display = showNav ? '' : 'none';
+  }
 }
 function computeDeckProgress() {
   if (!Array.isArray(WORDS) || WORDS.length === 0) {
@@ -484,7 +630,7 @@ function updateCardPosition() {
   }
   const current = (idx % filteredOrder.length) + 1;
   const total = filteredOrder.length;
-  const posText = `${current} / ${total}`;
+  const posText = `Từ ${current} / ${total}`;
   if (badge) {
     badge.textContent = posText;
     const filterLabel = currentFilter === 'all' ? 'Tất cả'
@@ -494,7 +640,7 @@ function updateCardPosition() {
     badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
   }
   if (counter) {
-    counter.textContent = posText;
+    counter.textContent = `${current} / ${total}`;
   }
 }
 
@@ -884,19 +1030,15 @@ function render(animate) {
       }
 
       container.innerHTML = `
-        <div class="achievement-hero-card">
-          <div class="achievement-hero-trophy-wrap">
-            <span class="achievement-hero-trophy">🎯</span>
-          </div>
-          <div class="achievement-hero-badge">ĐÃ HOÀN THÀNH ÔN TẬP</div>
-          <h2 class="achievement-hero-title">Không còn từ tồn đọng!</h2>
-          <p class="achievement-hero-desc">
-            Tuyệt vời, bạn đã nhớ hết các từ cần củng cố trong danh sách ôn tập hiện tại.
+        <div class="generic-empty-card">
+          <h3 class="generic-empty-title">Không còn từ cần ôn tập</h3>
+          <p class="generic-empty-desc">
+            Tuyệt vời, bạn đã ghi nhớ hết các từ cần củng cố trong danh sách ôn tập hiện tại.
           </p>
-          <div class="achievement-hero-actions">
+          <div class="generic-empty-actions">
             ${deck.unseen > 0 ? `
             <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('unseen')">
-              👉 Học tiếp ${deck.unseen} từ mới
+              Học tiếp ${deck.unseen} từ mới
             </button>` : ''}
             <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
               Xem tất cả từ
@@ -909,7 +1051,6 @@ function render(animate) {
     if (currentFilter === 'known') {
       container.innerHTML = `
         <div class="generic-empty-card">
-          <div class="generic-empty-icon">📖</div>
           <h3 class="generic-empty-title">Chưa có từ nào đã nhớ</h3>
           <p class="generic-empty-desc">Hãy bắt đầu ôn luyện các từ vựng để đánh dấu những từ bạn đã nhớ tốt.</p>
           <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('all')">
@@ -921,7 +1062,6 @@ function render(animate) {
 
     container.innerHTML = `
       <div class="generic-empty-card">
-        <div class="generic-empty-icon">📭</div>
         <h3 class="generic-empty-title">Không có từ trong bộ lọc này</h3>
         <p class="generic-empty-desc">Chưa có thẻ từ vựng nào thỏa mãn điều kiện lọc đã chọn.</p>
         <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
@@ -929,6 +1069,39 @@ function render(animate) {
         </button>
       </div>`;
   }
+
+  function normalizeSvgViewBox(svgText) {
+    if (!svgText || typeof svgText !== 'string') return svgText;
+    let normalized = svgText.replace(/viewBox=["']\s*0\s+0\s+240\s*["']/gi, 'viewBox="0 0 240 240"');
+    if (!/viewBox=/i.test(normalized) && /width=["']240["']/i.test(normalized) && /height=["']240["']/i.test(normalized)) {
+      normalized = normalized.replace(/<svg\b([^>]*)>/i, '<svg$1 viewBox="0 0 240 240">');
+    }
+    return normalized;
+  }
+
+  function syncCardSupportingGroup() {
+    const group = document.getElementById('cardSupportingGroup');
+    const visualCol = document.getElementById('cardVisualCol');
+    const decompWrap = document.getElementById('cardDecompositionWrap');
+    if (!group) return;
+    const hasVisual = Boolean(showIllustration && visualCol && visualCol.style.display !== 'none');
+    const radsRow = document.getElementById('cardRadicalsRow');
+    const hasDecomp = Boolean(decompWrap && decompWrap.style.display !== 'none' && radsRow && radsRow.children && radsRow.children.length > 0);
+    if (hasVisual || hasDecomp) {
+      group.hidden = false;
+      group.removeAttribute('hidden');
+      group.style.display = 'flex';
+      group.classList.toggle('has-both', Boolean(hasVisual && hasDecomp));
+      group.classList.toggle('has-only-visual', Boolean(hasVisual && !hasDecomp));
+      group.classList.toggle('has-only-decomp', Boolean(!hasVisual && hasDecomp));
+    } else {
+      group.hidden = true;
+      group.setAttribute('hidden', '');
+      group.style.display = 'none';
+      group.classList.remove('has-both', 'has-only-visual', 'has-only-decomp');
+    }
+  }
+  window.syncCardSupportingGroup = syncCardSupportingGroup;
 
   function applyContent() {
     if (content) content.className = 'card-content';
@@ -943,6 +1116,11 @@ function render(animate) {
     const initImgEl = document.getElementById('cardIllustrationImg');
     if (initImgEl) { initImgEl.hidden = true; initImgEl.style.display = 'none'; initImgEl.removeAttribute('src'); }
     const hint = document.getElementById('hint');
+    const initSupGroup = document.getElementById('cardSupportingGroup');
+    if (initSupGroup) { initSupGroup.hidden = true; initSupGroup.style.display = 'none'; }
+    const initDecompWrap = document.getElementById('cardDecompositionWrap');
+    if (initDecompWrap) { initDecompWrap.hidden = true; initDecompWrap.style.display = 'none'; }
+
     if (filteredOrder.length === 0) {
       if (wordMainBlock) wordMainBlock.style.display = 'none';
       if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
@@ -959,6 +1137,12 @@ function render(animate) {
       if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
       const emptyPos = document.getElementById('posBadge');
       if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
+      const emptyLevel = document.getElementById('levelBadge');
+      if (emptyLevel) { emptyLevel.textContent = ''; emptyLevel.hidden = true; emptyLevel.style.display = 'none'; }
+      const emptySupporting = document.getElementById('cardSupportingGroup');
+      if (emptySupporting) { emptySupporting.hidden = true; emptySupporting.style.display = 'none'; }
+      const emptyDecompWrap = document.getElementById('cardDecompositionWrap');
+      if (emptyDecompWrap) { emptyDecompWrap.hidden = true; emptyDecompWrap.style.display = 'none'; }
       const meaningEl = document.getElementById('meaning');
       if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
       const emptyRads = document.getElementById('cardRadicalsRow');
@@ -973,6 +1157,12 @@ function render(animate) {
         renderEmptyCardState(cardEmptyState);
       }
       if (content) content.classList.add('is-empty');
+      const ratingRow = document.getElementById('ratingRow');
+      if (ratingRow) { ratingRow.hidden = true; ratingRow.style.display = 'none'; }
+      const ratingArea = document.getElementById('ratingArea');
+      if (ratingArea) { ratingArea.hidden = true; ratingArea.style.display = 'none'; }
+      const navRow = document.getElementById('studyNavRow');
+      if (navRow) { navRow.hidden = true; navRow.style.display = 'none'; }
       updateProgress();
       updateCardPosition();
       updateStats();
@@ -1007,8 +1197,17 @@ function render(animate) {
       if (hv) {
         hv = hv.replace(/[（\(].*?[）\)]/g, '').replace(/\s+/g, ' ').trim();
       }
-      if (hv) {
-        hvBadge.textContent = `［${hv}］`;
+      const cleanMeaning = String(w.meaning || '').toLowerCase().trim();
+      const cleanHv = String(hv || '').toLowerCase().trim();
+      const isDuplicateOfMeaning = cleanHv && (
+        cleanMeaning === cleanHv ||
+        cleanMeaning.split(/[,;\/]/)[0].trim() === cleanHv ||
+        cleanMeaning.startsWith(cleanHv + ',') ||
+        cleanMeaning.startsWith(cleanHv + ' ')
+      );
+      if (hv && !isDuplicateOfMeaning) {
+        hvBadge.textContent = hv;
+        hvBadge.title = `Âm Hán - Việt: ${hv}`;
         hvBadge.hidden = false;
         hvBadge.style.display = showHanViet ? 'inline-flex' : 'none';
       } else {
@@ -1035,6 +1234,28 @@ function render(animate) {
       }
     }
 
+    // Cập nhật Cấp độ HSK cho dòng metadata tinh gọn (vd: "Danh từ · HSK 3")
+    const levelBadge = document.getElementById('levelBadge');
+    if (levelBadge) {
+      let lvl = '';
+      if (w.level) {
+        lvl = String(w.level).toUpperCase().replace(/^HSK(\d)/, 'HSK $1');
+      } else if (typeof currentLevel !== 'undefined' && currentLevel) {
+        const lvlObj = (typeof LEVELS !== 'undefined' && LEVELS[currentLevel]) || (typeof LEVELS_HSK30 !== 'undefined' && LEVELS_HSK30[currentLevel]);
+        lvl = lvlObj ? (lvlObj.label || currentLevel).toUpperCase().replace(/^HSK(\d)/, 'HSK $1') : currentLevel.toUpperCase();
+      }
+      if (lvl) {
+        levelBadge.textContent = lvl;
+        levelBadge.title = `Cấp độ: ${lvl}`;
+        levelBadge.hidden = false;
+        levelBadge.style.display = 'inline-flex';
+      } else {
+        levelBadge.textContent = '';
+        levelBadge.hidden = true;
+        levelBadge.style.display = 'none';
+      }
+    }
+
     const m = document.getElementById('meaning');
     m.textContent = w.meaning;
     m.classList.remove('show');
@@ -1051,70 +1272,173 @@ function render(animate) {
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
 
-    if (imgEl && svgEl && typeof getWordIllustration === 'function') {
+    if (imgEl && svgEl && typeof getWordIllustration === 'function' && showIllustration) {
       const illu = getWordIllustration(w);
-      if (illu) {
-        if (visualCol) visualCol.style.display = '';
+      if (illu && !illu.isFallback && (illu.src || (illu.type === 'svg' && illu.svg))) {
+        if (visualCol) {
+          visualCol.hidden = false;
+          visualCol.removeAttribute('hidden');
+          visualCol.style.display = 'flex';
+        }
         if (frameEl) frameEl.title = 'Minh họa gợi hình';
 
         if (illu.type === 'svg' && illu.svg) {
-          svgEl.innerHTML = illu.svg;
+          svgEl.innerHTML = normalizeSvgViewBox(illu.svg);
           svgEl.hidden = false;
+          svgEl.removeAttribute('hidden');
+          svgEl.style.display = 'flex';
           imgEl.hidden = true;
+          imgEl.setAttribute('hidden', '');
+          imgEl.style.display = 'none';
           imgEl.removeAttribute('src');
           if (frameEl) frameEl.classList.remove('is-loading');
-        } else if (illu.src) {
-          const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
+          syncCardSupportingGroup();
+        } else if (illu.src || w.hanzi) {
+          const cachedSvg = (typeof SynapseSvgCache !== 'undefined')
+            ? (SynapseSvgCache.get(illu.src) || (w.hanzi && SynapseSvgCache.get(w.hanzi)))
+            : null;
           if (cachedSvg) {
             // INSTANT RENDER (0ms latency from RAM cache)
-            svgEl.innerHTML = cachedSvg;
+            svgEl.innerHTML = normalizeSvgViewBox(cachedSvg);
             svgEl.hidden = false;
+            svgEl.removeAttribute('hidden');
+            svgEl.style.display = 'flex';
             imgEl.hidden = true;
+            imgEl.setAttribute('hidden', '');
+            imgEl.style.display = 'none';
             imgEl.removeAttribute('src');
             if (frameEl) frameEl.classList.remove('is-loading');
+            syncCardSupportingGroup();
           } else {
             // Cache miss: show smooth shimmer without layout shift
             const curWord = w;
             if (frameEl) frameEl.classList.add('is-loading');
 
             if (typeof preloadIllustration === 'function') {
-              preloadIllustration(illu.src, 'high').then(svgText => {
-                if (typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
-                  if (svgText) {
-                    svgEl.innerHTML = svgText;
+              preloadIllustration(illu.src || w, 'high').then(svgText => {
+                if (typeof activeStudyWord !== 'undefined' && activeStudyWord && (activeStudyWord === curWord || activeStudyWord.hanzi === curWord.hanzi)) {
+                  const resolvedSvg = svgText || (typeof SynapseSvgCache !== 'undefined' && (SynapseSvgCache.get(illu.src) || (curWord.hanzi && SynapseSvgCache.get(curWord.hanzi))));
+                  if (resolvedSvg) {
+                    svgEl.innerHTML = normalizeSvgViewBox(resolvedSvg);
                     svgEl.hidden = false;
+                    svgEl.removeAttribute('hidden');
+                    svgEl.style.display = 'flex';
                     imgEl.hidden = true;
+                    imgEl.setAttribute('hidden', '');
+                    imgEl.style.display = 'none';
                     imgEl.removeAttribute('src');
                   } else {
+                    imgEl.onerror = () => {
+                      if (visualCol) {
+                        visualCol.style.display = 'none';
+                        visualCol.hidden = true;
+                        visualCol.setAttribute('hidden', '');
+                      }
+                      if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
+                      if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
+                      syncCardSupportingGroup();
+                    };
+                    imgEl.onload = () => {
+                      imgEl.hidden = false;
+                      imgEl.removeAttribute('hidden');
+                      imgEl.style.display = 'block';
+                      svgEl.hidden = true;
+                      svgEl.setAttribute('hidden', '');
+                      svgEl.style.display = 'none';
+                      svgEl.innerHTML = '';
+                      if (visualCol) {
+                        visualCol.hidden = false;
+                        visualCol.removeAttribute('hidden');
+                        visualCol.style.display = 'flex';
+                      }
+                      syncCardSupportingGroup();
+                    };
                     imgEl.src = illu.src;
                     imgEl.alt = 'Minh họa gợi hình';
-                    imgEl.hidden = false;
-                    svgEl.hidden = true;
-                    svgEl.innerHTML = '';
                   }
                   if (frameEl) frameEl.classList.remove('is-loading');
+                  syncCardSupportingGroup();
                 }
+              }).catch(() => {
+                imgEl.onerror = () => {
+                  if (visualCol) {
+                    visualCol.style.display = 'none';
+                    visualCol.hidden = true;
+                    visualCol.setAttribute('hidden', '');
+                  }
+                  syncCardSupportingGroup();
+                };
+                imgEl.onload = () => {
+                  imgEl.hidden = false;
+                  imgEl.removeAttribute('hidden');
+                  imgEl.style.display = 'block';
+                  svgEl.hidden = true;
+                  svgEl.setAttribute('hidden', '');
+                  svgEl.style.display = 'none';
+                  svgEl.innerHTML = '';
+                  if (visualCol) {
+                    visualCol.hidden = false;
+                    visualCol.removeAttribute('hidden');
+                    visualCol.style.display = 'flex';
+                  }
+                  syncCardSupportingGroup();
+                };
+                imgEl.src = illu.src;
+                imgEl.alt = 'Minh họa gợi hình';
+                if (frameEl) frameEl.classList.remove('is-loading');
+                syncCardSupportingGroup();
               });
             } else {
+              imgEl.onerror = () => {
+                if (visualCol) {
+                  visualCol.style.display = 'none';
+                  visualCol.hidden = true;
+                  visualCol.setAttribute('hidden', '');
+                }
+                syncCardSupportingGroup();
+              };
+              imgEl.onload = () => {
+                imgEl.hidden = false;
+                imgEl.removeAttribute('hidden');
+                imgEl.style.display = 'block';
+                svgEl.hidden = true;
+                svgEl.setAttribute('hidden', '');
+                svgEl.style.display = 'none';
+                svgEl.innerHTML = '';
+                if (visualCol) {
+                  visualCol.hidden = false;
+                  visualCol.removeAttribute('hidden');
+                  visualCol.style.display = 'flex';
+                }
+                syncCardSupportingGroup();
+              };
               imgEl.src = illu.src;
               imgEl.alt = 'Minh họa gợi hình';
-              imgEl.hidden = false;
-              svgEl.hidden = true;
-              svgEl.innerHTML = '';
+              if (frameEl) frameEl.classList.remove('is-loading');
+              syncCardSupportingGroup();
             }
           }
         }
       } else {
-        if (visualCol) visualCol.style.display = 'none';
-        if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
-        if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+        if (visualCol) {
+          visualCol.style.display = 'none';
+          visualCol.hidden = true;
+          visualCol.setAttribute('hidden', '');
+        }
+        if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
+        if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
       }
     } else if (visualCol) {
       visualCol.style.display = 'none';
+      visualCol.hidden = true;
+      visualCol.setAttribute('hidden', '');
+      if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
+      if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
     }
+    syncCardSupportingGroup();
 
-    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
-    if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
+    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background (if enabled)
+    if (showIllustration && typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
       preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
     }
 
