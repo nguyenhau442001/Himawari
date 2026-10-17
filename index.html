@@ -482,16 +482,16 @@ if ('serviceWorker' in navigator) {
             <span>Thẻ</span>
           </button>
           <button id="overviewTab" class="view-tab" role="tab" aria-selected="false"
-            aria-controls="overviewView" onclick="setViewMode('overview')">
+            aria-controls="overviewView" onclick="setViewMode('overview')" title="Danh sách từ vựng">
             <svg class="view-tab-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
-            <span>Tổng quan</span>
+            <span><span class="view-tab-desktop-text">Tổng quan</span><span class="view-tab-mobile-text" aria-hidden="true">DS</span></span>
           </button>
         </div>
       </div>
 
       <div class="study-topbar-progress" id="studyTopbarProgress" title="Tiến độ học">
         <div class="study-topbar-progress-info">
-          <span class="study-progress-numbers" id="progress">0 / 0</span>
+          <span class="study-progress-numbers" id="progress"><span class="study-progress-label">Đã học</span> 0 / 0</span>
           <span class="study-progress-pct" id="progressPct">0%</span>
         </div>
         <div class="progress-bar-track">

@@ -16,15 +16,13 @@ function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card">
       <div class="card-header-bar" id="cardHeaderBar" onclick="event.stopPropagation()">
-        <div class="card-header-nav">
-          <button type="button" class="card-header-nav-btn" onclick="prevCard()" aria-label="Từ trước" title="Từ trước (←)">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
-          </button>
-          <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
-          <button type="button" class="card-header-nav-btn" onclick="nextCard()" aria-label="Từ tiếp theo" title="Từ tiếp theo (→)">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
-          </button>
-        </div>
+        <button type="button" class="card-star-btn" id="weakWordToggleBtn"
+          onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel)"
+          aria-label="Đánh dấu từ khó" title="Đánh dấu từ khó">
+          <span id="weakWordToggleIcon">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </span>
+        </button>
         <div class="card-more-menu-wrap" id="cardMoreMenuWrap">
           <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn học từ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -54,9 +52,17 @@ function buildCardArea() {
               <span class="dropdown-item-icon">漢</span>
               <span class="dropdown-item-label" id="menuHanvietText">Âm Hán - Việt</span>
             </button>
+            <button type="button" class="card-dropdown-item" id="menuStudyHelp" onclick="openStudyHelpModal(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">❓</span>
+              <span class="dropdown-item-label">Hướng dẫn &amp; phím tắt</span>
+            </button>
             <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon">💾</span>
               <span class="dropdown-item-label">Sao lưu tiến trình</span>
+            </button>
+            <button type="button" class="card-dropdown-item" id="menuResetProgress" onclick="resetProgress(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">↻</span>
+              <span class="dropdown-item-label">Học lại từ đầu</span>
             </button>
           </div>
         </div>
@@ -429,7 +435,11 @@ function computeDeckProgress() {
 function updateProgress(current, total) {
   const deck = computeDeckProgress();
   const el = document.getElementById('progress');
-  if (el) el.textContent = deck.total === 0 ? '0 / 0' : `${deck.learned} / ${deck.total}`;
+  if (el) {
+    el.innerHTML = deck.total === 0
+      ? '0 / 0'
+      : `<span class="study-progress-label">Đã học</span> <span class="study-progress-count">${deck.learned} / ${deck.total}</span>`;
+  }
   const bar = document.getElementById('progressBar');
   if (bar) bar.style.width = deck.pct + '%';
   const pctEl = document.getElementById('progressPct');

@@ -206,6 +206,30 @@ class TestFlashcardStudyViewportBalance(unittest.TestCase):
         self.assertIn("env(safe-area-inset-bottom", combined,
                       "Mobile flashcard study mode must include env(safe-area-inset-bottom) for bottom toolbars")
 
+    def test_mobile_filter_row_unboxed(self):
+        """Filter row on mobile must be unboxed (transparent background, no border) to prevent sausage bar."""
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        self.assertIn("body.flashcard-study-mode .filter-row", combined)
+        self.assertIn("background: transparent !important", combined)
+        self.assertIn("border: none !important", combined)
+
+    def test_mobile_rating_buttons_solid_visual_weight(self):
+        """Rating buttons on mobile must have solid background color and tactile height >= 48px."""
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        self.assertIn(".rating-btn--good", combined)
+        self.assertIn(".rating-btn--again", combined)
+        self.assertIn("background: #16a34a !important", combined)
+        self.assertIn("background: #e11d48 !important", combined)
+
+    def test_mobile_secondary_actions_hidden_in_review(self):
+        """Secondary clutter actions (reset/show unknown) must be hidden during active mobile flashcard review."""
+        mobile_blocks = extract_media_blocks(self.workstation_css, r"max-width:\s*640px")
+        combined = " ".join(b[1] for b in mobile_blocks)
+        self.assertIn(".action-row.secondary-actions", combined)
+        self.assertIn("display: none !important", combined)
+
 
 class TestThemeVariablesAndContrast(unittest.TestCase):
     """Test theme variable declarations and dark/light contrast integrity."""
