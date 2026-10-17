@@ -552,7 +552,8 @@ function speakSpeedQuizSentence() {
   const text = sentence.sentence_zh || sentence.zh_tokens.join('');
   const btn = document.querySelector('.sqm-audio-btn');
   if (typeof speakText === 'function') {
-    speakText(text, btn, typeof SPEECH_RATE !== 'undefined' ? SPEECH_RATE : 0.85);
+    const rate = typeof exampleSpeechSpeed !== 'undefined' ? exampleSpeechSpeed : 0.8;
+    speakText(text, btn, rate);
   }
 }
 

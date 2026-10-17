@@ -58,7 +58,7 @@ const GradedReading = (function() {
     currentlyPlayingSentenceId = sentId;
     updateSentenceAudioUI();
 
-    const rate = typeof SPEECH_RATE !== 'undefined' ? SPEECH_RATE : 0.85;
+    const rate = typeof exampleSpeechSpeed !== 'undefined' ? exampleSpeechSpeed : 0.8;
     if (typeof speakChinese === 'function') {
       speakChinese(text, {
         rate,
@@ -87,7 +87,7 @@ const GradedReading = (function() {
     updateSentenceAudioUI();
 
     const fullZh = activeStory.sentences.map(s => s.zh || s.text || '').filter(Boolean).join(' ');
-    const rate = typeof SPEECH_RATE !== 'undefined' ? SPEECH_RATE : 0.85;
+    const rate = typeof exampleSpeechSpeed !== 'undefined' ? exampleSpeechSpeed : 0.8;
     if (typeof speakChinese === 'function') {
       speakChinese(fullZh, {
         rate,

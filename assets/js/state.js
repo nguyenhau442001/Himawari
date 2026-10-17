@@ -55,8 +55,8 @@ function hsk30LevelKeys() {
   return Object.keys(LEVELS_HSK30);
 }
 const SPEECH_RATE = 0.85;
-const EXAMPLE_SPEECH_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
-const DEFAULT_EXAMPLE_SPEECH_SPEED = 1;
+const EXAMPLE_SPEECH_SPEEDS = [0.5, 0.75, 0.8, 1, 1.25, 1.5, 1.75, 2];
+const DEFAULT_EXAMPLE_SPEECH_SPEED = 0.8;
 
 let currentLevel = null;
 let WORDS = [];
