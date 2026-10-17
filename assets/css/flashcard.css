@@ -194,10 +194,17 @@
 }
 .card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: 20px;
-  padding: 46px 24px 22px; text-align: center; cursor: pointer; min-height: 190px;
+  padding: 34px 20px 14px; text-align: center; cursor: pointer; min-height: 190px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0;
   user-select: none; box-shadow: var(--card-shadow); transition: box-shadow 0.18s ease, transform 0.18s ease, background 0.2s ease, border-color 0.2s ease;
-  overflow: hidden; position: relative; touch-action: pan-y;
+  overflow-y: auto; overflow-x: hidden; position: relative; touch-action: pan-y;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.card::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 :root[data-theme="dark"] .card {
   background-color: var(--card-bg);
@@ -346,19 +353,19 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 6px;
-  margin: 8px 0 2px;
+  gap: 5px;
+  margin: 4px 0 2px;
 }
 .card-radical-pill {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 4px 12px;
+  gap: 5px;
+  padding: 2.5px 8px;
   border-radius: 999px;
   border: 1px solid rgba(249, 115, 22, 0.24);
   background: rgba(249, 115, 22, 0.07);
   color: var(--text-primary);
-  font-size: 13.5px;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.16s ease;
@@ -374,7 +381,7 @@
   transform: translateY(-1px);
 }
 .card-radical-char {
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: 700;
   color: #ea580c;
   line-height: 1;
@@ -383,7 +390,7 @@
   color: #fb923c;
 }
 .card-radical-name {
-  font-size: 13px;
+  font-size: 11.5px;
   font-weight: 600;
   color: var(--text-secondary);
 }
@@ -391,21 +398,28 @@
 /* Seamless Integrated Example Section (No box-in-a-box) */
 .example-box {
   display: none;
-  margin-top: 18px;
-  padding: 16px 20px;
+  margin-top: 8px;
+  padding: 8px 14px;
   background: var(--surface-subtle);
   border: none;
-  border-radius: 14px;
-  font-size: 15.5px;
+  border-radius: 12px;
+  font-size: 14px;
   color: var(--text-primary);
   text-align: left;
-  line-height: 1.55;
+  line-height: 1.4;
   width: 100%;
   max-width: 720px;
-  max-height: 230px;
+  max-height: 160px;
   overflow-y: auto;
   box-shadow: none;
   transition: all 0.2s ease;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.example-box::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 :root[data-theme="dark"] .example-box {
   background: rgba(255, 255, 255, 0.04);
@@ -417,8 +431,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 6px;
+  gap: 6px;
+  margin-bottom: 4px;
 }
 .example-box .ex-label {
   font-size: 11px;
@@ -432,24 +446,24 @@
 }
 .example-box .ex-line { margin: 0; }
 .example-box .ex-zh {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--text-primary);
-  line-height: 1.55;
-  margin-bottom: 4px;
+  line-height: 1.4;
+  margin-bottom: 2px;
   letter-spacing: 0.01em;
 }
 .example-box .ex-py {
-  font-size: 14.5px;
+  font-size: 13.5px;
   color: var(--text-secondary);
   font-style: italic;
-  line-height: 1.45;
-  margin-bottom: 4px;
+  line-height: 1.35;
+  margin-bottom: 2px;
 }
 .example-box .ex-vi {
-  font-size: 15.5px;
+  font-size: 14px;
   color: var(--text-primary);
-  line-height: 1.45;
+  line-height: 1.4;
   font-weight: 450;
   opacity: 0.92;
 }
@@ -1671,3 +1685,13 @@ html.hide-hanviet .active-hv {
   margin-left: 6px;
 }
 
+/* Utility: hide scrollbar while preserving smooth scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
