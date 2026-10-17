@@ -6,9 +6,9 @@ function getCardHintText(isFlipped) {
     (navigator.maxTouchPoints > 0)
   );
   if (isTouch) {
-    return isFlipped ? 'Chạm thẻ để lật lại' : 'Chạm thẻ để xem nghĩa & ví dụ';
+    return isFlipped ? 'Chạm để lật lại' : 'Chạm để lật';
   }
-  return isFlipped ? 'Nhấn thẻ hoặc Space để lật lại' : 'Nhấn thẻ hoặc phím Space để xem nghĩa';
+  return isFlipped ? 'Chạm để lật lại · Space' : 'Chạm để lật · Space';
 }
 window.getCardHintText = getCardHintText;
 
@@ -161,11 +161,26 @@ function buildCardArea() {
       </div>
     </div>
 
-    <!-- Discreet navigation buttons -->
-    <div class="nav-row" id="studyNavRow">
-      <button type="button" class="nav-btn nav-btn--prev" onclick="prevCard()" title="Từ trước (←)">← Trước</button>
-      <button type="button" class="nav-btn nav-btn--next" onclick="nextCard()" title="Từ tiếp theo (→)">Tiếp →</button>
-    </div>
+    <!-- Tactile study navigation controls: Previous, Counter, Next -->
+    <nav class="study-nav-controls" id="studyNavRow" aria-label="Điều hướng thẻ từ vựng">
+      <button type="button" class="study-nav-btn study-nav-btn--prev nav-btn nav-btn--prev" id="prevCardBtn" onclick="prevCard()" title="Từ trước (phím ←)" aria-label="Từ trước">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M19 12H5m7 7l-7-7 7-7"/>
+        </svg>
+        <span>Trước</span>
+      </button>
+      <div class="study-nav-position" id="studyNavPosition" aria-live="polite">
+        <span class="study-nav-current" id="studyNavCurrent">1</span>
+        <span class="study-nav-sep" aria-hidden="true">/</span>
+        <span class="study-nav-total" id="studyNavTotal">1</span>
+      </div>
+      <button type="button" class="study-nav-btn study-nav-btn--next nav-btn nav-btn--next" id="nextCardBtn" onclick="nextCard()" title="Từ tiếp theo (phím →)" aria-label="Từ tiếp theo">
+        <span>Tiếp</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14m-7-7l7 7-7 7"/>
+        </svg>
+      </button>
+    </nav>
 
     <div class="action-row secondary-actions" style="display:none" hidden>
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
@@ -450,14 +465,14 @@ function renderFilters() {
               ${isAllLearned ? `onclick="if (typeof showCelebration === 'function') showCelebration('${isAllMastered ? 'mastered' : 'learned'}', true);" title="Nhấn để xem lại hiệu ứng thành tựu 🎉"` : ''}>${pctDisplay}</span>
           </div>
         </div>
-        <div class="progress-nav-stats-breakdown">
-          <span class="progress-nav-stat progress-nav-stat--known" title="Đã nhớ: ${known}/${total} từ">
+        <div class="progress-nav-stats-breakdown" aria-label="Chú thích phân bổ ghi nhớ">
+          <span class="progress-nav-stat progress-nav-stat--known" title="Đã nhớ: ${known}/${total} từ (${Math.round(knownPctNum)}%)">
             <span class="progress-nav-stat-dot" aria-hidden="true"></span>
-            <span class="progress-nav-stat-label"><strong>${known}</strong> đã nhớ</span>
+            <span class="progress-nav-stat-label">Đã nhớ</span>
           </span>
-          <span class="progress-nav-stat progress-nav-stat--unknown" title="Cần ôn: ${unknown}/${total} từ">
+          <span class="progress-nav-stat progress-nav-stat--unknown" title="Cần ôn: ${unknown}/${total} từ (${Math.round(unknownPctNum)}%)">
             <span class="progress-nav-stat-dot" aria-hidden="true"></span>
-            <span class="progress-nav-stat-label"><strong>${unknown}</strong> cần ôn</span>
+            <span class="progress-nav-stat-label">Cần ôn</span>
           </span>
         </div>
       </div>
@@ -565,8 +580,6 @@ const RATING_BUTTONS = [
 const RATING_KEYS = {
   '1': 'again',
   '2': 'good',
-  'ArrowLeft': 'again',
-  'ArrowRight': 'good',
 };
 
 // Shared by the level deck and "Ôn hôm nay": label with icon, no cluttered subtext.
@@ -624,6 +637,8 @@ function isCardRevealed() {
   const meaning = document.getElementById('meaning');
   return Boolean(meaning && meaning.classList.contains('show'));
 }
+window.isCardRevealed = isCardRevealed;
+
 // Rating buttons appear only once the card is flipped/revealed.
 function syncRevealControls() {
   const revealBtn = document.getElementById('revealBtn');
@@ -642,9 +657,8 @@ function syncRevealControls() {
     ratingArea.style.display = revealed ? '' : 'none';
   }
   if (studyNavRow) {
-    const showNav = hasCard && !revealed;
-    studyNavRow.hidden = !showNav;
-    studyNavRow.style.display = showNav ? '' : 'none';
+    studyNavRow.hidden = !hasCard;
+    studyNavRow.style.display = hasCard ? '' : 'none';
   }
 }
 function computeDeckProgress() {
@@ -721,6 +735,11 @@ function updateProgress(current, total) {
 function updateCardPosition() {
   const badge = document.getElementById('cardPositionBadge');
   const counter = document.getElementById('cardCounter');
+  const navCurrent = document.getElementById('studyNavCurrent');
+  const navTotal = document.getElementById('studyNavTotal');
+  const prevBtn = document.getElementById('prevCardBtn');
+  const nextBtn = document.getElementById('nextCardBtn');
+
   if (!filteredOrder || filteredOrder.length === 0) {
     const deck = computeDeckProgress();
     const txt = (currentFilter === 'unseen' && deck.unseen === 0 && deck.total > 0) ? 'Hoàn thành' : '0 / 0';
@@ -729,6 +748,10 @@ function updateCardPosition() {
       if (txt === 'Hoàn thành') badge.title = 'Đã học qua 100% từ vựng mới của cấp độ này';
     }
     if (counter) counter.textContent = txt;
+    if (navCurrent) navCurrent.textContent = '0';
+    if (navTotal) navTotal.textContent = '0';
+    if (prevBtn) prevBtn.disabled = true;
+    if (nextBtn) nextBtn.disabled = true;
     return;
   }
   const current = (idx % filteredOrder.length) + 1;
@@ -745,6 +768,10 @@ function updateCardPosition() {
   if (counter) {
     counter.textContent = `${current} / ${total}`;
   }
+  if (navCurrent) navCurrent.textContent = String(current);
+  if (navTotal) navTotal.textContent = String(total);
+  if (prevBtn) prevBtn.disabled = (total <= 1);
+  if (nextBtn) nextBtn.disabled = (total <= 1);
 }
 
 function renderHanziWithClarifier(el, text) {

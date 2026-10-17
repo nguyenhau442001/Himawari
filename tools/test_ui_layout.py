@@ -654,6 +654,58 @@ class TestLearningProgressNavigator(unittest.TestCase):
         self.assertIn("display: none !important", match.group(1))
 
 
+class TestFlashcardExperienceRefinements(unittest.TestCase):
+    """Test suite for the comprehensive visual and usability refinements in Synapse Hanzi Flashcard experience."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+        cls.flashcard_css = FLASHCARD_CSS.read_text(encoding="utf-8")
+        cls.flashcard_js = (REPO_ROOT / "assets" / "js" / "flashcard.js").read_text(encoding="utf-8")
+        cls.progress_js = (REPO_ROOT / "assets" / "js" / "progress.js").read_text(encoding="utf-8")
+
+    def test_quiet_flip_prompt_affordance(self):
+        """getCardHintText must provide quiet affordance 'Chạm để lật · Space' and 'Chạm để lật'."""
+        self.assertIn("Chạm để lật · Space", self.flashcard_js)
+        self.assertIn("Chạm để lật", self.flashcard_js)
+
+    def test_tactile_navigation_markup_and_counter(self):
+        """buildCardArea must render tactile navigation controls [← Trước] [Current / Total] [Tiếp →]."""
+        self.assertIn('class="study-nav-controls"', self.flashcard_js)
+        self.assertIn('id="prevCardBtn"', self.flashcard_js)
+        self.assertIn('id="nextCardBtn"', self.flashcard_js)
+        self.assertIn('id="studyNavPosition"', self.flashcard_js)
+        self.assertIn('id="studyNavCurrent"', self.flashcard_js)
+        self.assertIn('id="studyNavTotal"', self.flashcard_js)
+
+    def test_arrow_key_grading_bug_resolved(self):
+        """Arrow keys in progress.js must navigate cards when unrevealed, and only grade when revealed."""
+        self.assertIn("isCardRevealed", self.progress_js)
+        self.assertIn("rateCurrentCard('good')", self.progress_js)
+        self.assertIn("rateCurrentCard('again')", self.progress_js)
+        self.assertIn("nextCard()", self.progress_js)
+        self.assertIn("prevCard()", self.progress_js)
+        self.assertIn("window.isCardRevealed = isCardRevealed", self.flashcard_js)
+
+    def test_desktop_layout_container_width(self):
+        """Desktop layout must expand main column from 660px/680px to 820px/860px."""
+        self.assertIn("max-width: 820px", self.workstation_css)
+        self.assertIn("max-width: 860px", self.workstation_css)
+
+    def test_cjk_fonts_placed_first(self):
+        """Chinese font family for .hanzi must place CJK fonts before system fonts."""
+        match = re.search(r"body\.flashcard-study-mode\s+\.hanzi\s*\{[^}]*font-family:\s*([^;]+);", self.workstation_css)
+        self.assertIsNotNone(match, ".hanzi font-family rule not found in workstation.css")
+        font_family = match.group(1).strip()
+        self.assertTrue(font_family.startswith('"PingFang SC"'),
+                        f".hanzi font-family ({font_family}) must start with CJK font 'PingFang SC'")
+
+    def test_nav_row_remains_visible_on_card_reveal(self):
+        """Study navigation controls must remain visible when card is flipped."""
+        self.assertNotIn(".card.is-flipped ~ #studyNavRow", self.workstation_css,
+                         "studyNavRow must not be forcibly hidden when card is flipped")
+
+
 def run_tests():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
@@ -672,6 +724,7 @@ def run_tests():
     suite.addTests(loader.loadTestsFromTestCase(TestTodayReviewZenMode))
     suite.addTests(loader.loadTestsFromTestCase(TestFlashcardIllustrationIntegration))
     suite.addTests(loader.loadTestsFromTestCase(TestLearningProgressNavigator))
+    suite.addTests(loader.loadTestsFromTestCase(TestFlashcardExperienceRefinements))
 
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(suite)

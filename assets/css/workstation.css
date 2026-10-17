@@ -645,7 +645,7 @@ body.flashcard-study-mode .study-view-topbar {
   padding: 8px 4px 12px;
   margin: 0 auto 8px;
   width: 100%;
-  max-width: 680px;
+  max-width: 820px;
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--border-subtle);
@@ -917,7 +917,7 @@ body.flashcard-study-mode .filter-row {
   box-shadow: none !important;
   padding: 0 !important;
   width: 100% !important;
-  max-width: 660px !important;
+  max-width: 820px !important;
   margin: 0 auto 12px !important;
 }
 :root[data-theme="dark"] body.flashcard-study-mode .filter-row {
@@ -930,7 +930,7 @@ body.flashcard-study-mode .filter-row {
   flex-direction: column;
   gap: 8px;
   width: 100%;
-  max-width: 660px;
+  max-width: 820px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -1121,7 +1121,7 @@ body.flashcard-study-mode .filter-row {
 }
 
 :root[data-theme="dark"] .progress-nav-card {
-  background: #151a24;
+  background: #1c2128;
   border-color: rgba(255, 255, 255, 0.08);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -1134,7 +1134,7 @@ body.flashcard-study-mode .filter-row {
 
 :root[data-theme="dark"] .progress-nav-card:hover {
   border-color: rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.04);
+  background: #242b35;
 }
 
 .progress-nav-card:focus-visible {
@@ -1370,7 +1370,7 @@ body.flashcard-study-mode #studyView {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  max-width: 680px;
+  max-width: 860px;
   margin: 0 auto;
 }
 body.flashcard-study-mode #studyView::-webkit-scrollbar {
@@ -1388,7 +1388,7 @@ body.flashcard-study-mode #cardArea {
   flex-direction: column;
   align-items: stretch;
   width: 100%;
-  max-width: 660px;
+  max-width: 820px;
   margin: 0 auto;
   flex: 0 0 auto;
   overflow-x: clip;
@@ -1397,7 +1397,7 @@ body.flashcard-study-mode #cardArea {
 body.flashcard-study-mode #cardArea > .card {
   width: 100%;
   flex: 0 0 auto;
-  min-height: 400px;
+  min-height: clamp(340px, 46vh, 480px);
   height: auto;
   max-height: min(720px, calc(100dvh - 165px));
   padding: 36px clamp(20px, 4vw, 44px) 18px;
@@ -1422,8 +1422,8 @@ body.flashcard-study-mode #cardArea > .card::-webkit-scrollbar {
   height: 0 !important;
 }
 :root[data-theme="dark"] body.flashcard-study-mode #cardArea > .card {
-  background-color: var(--surface-bg, #1C201D);
-  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  background-color: var(--surface-bg, #161b22);
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.09));
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
 }
 
@@ -1609,7 +1609,7 @@ body.flashcard-study-mode .word-main-block {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 680px;
+  max-width: 820px;
   margin: 0 auto;
   text-align: center;
 }
@@ -1828,6 +1828,20 @@ body.flashcard-study-mode .card-illustration-frame:hover {
   }
 }
 
+@media (min-width: 641px) and (max-width: 1024px) {
+  body.flashcard-study-mode .study-view-topbar,
+  body.flashcard-study-mode .filter-row,
+  .learning-progress-navigator,
+  body.flashcard-study-mode #cardArea,
+  body.flashcard-study-mode .word-hero-container,
+  body.flashcard-study-mode .word-main-block {
+    max-width: 720px !important;
+  }
+  body.flashcard-study-mode #studyView {
+    max-width: 750px !important;
+  }
+}
+
 @media (max-width: 479px) {
   body.flashcard-study-mode .card-illustration-frame {
     width: 74px;
@@ -2008,7 +2022,7 @@ body.flashcard-study-mode .hanviet-badge {
 
 
 body.flashcard-study-mode .hanzi {
-  font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
   font-size: clamp(84px, 8.5vw, 104px);
   font-weight: 600;
   line-height: 1.05;
@@ -2278,7 +2292,7 @@ body.flashcard-study-mode .card-decomp-char-btn:hover {
   transform: translateY(-0.5px);
 }
 body.flashcard-study-mode .card-decomp-char {
-  font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
@@ -3044,7 +3058,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     border-radius: 0 !important;
     box-shadow: none !important;
     width: 100% !important;
-    max-width: 660px !important;
+    max-width: 100% !important;
     display: flex !important;
     justify-content: center !important;
   }
@@ -3525,32 +3539,47 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt {
-    margin-top: 8px !important;
-    padding: 6px 14px !important;
+    margin-top: 10px !important;
+    padding: 4px 10px !important;
     border-radius: 999px !important;
-    background: rgba(0, 0, 0, 0.02) !important;
-    border: 1px solid var(--border-subtle) !important;
+    background: transparent !important;
+    border: none !important;
     box-shadow: none !important;
+    opacity: 0.72 !important;
+    transition: opacity 0.18s ease, transform 0.18s ease !important;
+  }
+  body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt:hover {
+    opacity: 1 !important;
+    transform: translateY(-0.5px) !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt {
-    background: rgba(255, 255, 255, 0.03) !important;
-    border-color: rgba(255, 255, 255, 0.08) !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt-icon {
     color: var(--text-tertiary) !important;
-    opacity: 0.7 !important;
+    opacity: 0.65 !important;
   }
 
   body.flashcard-study-mode .card:not(.is-flipped) .card-flip-prompt-text {
-    font-size: 12.5px !important;
+    font-size: 13px !important;
     font-weight: 500 !important;
     color: var(--text-tertiary) !important;
+    letter-spacing: 0.01em !important;
   }
 
   body.flashcard-study-mode .card.is-flipped .card-flip-prompt {
     margin-top: 6px !important;
     padding: 2px 8px !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    opacity: 0.6 !important;
+  }
+  body.flashcard-study-mode .card.is-flipped .card-flip-prompt:hover {
+    opacity: 0.95 !important;
   }
 
   body.flashcard-study-mode .hint {
@@ -3577,29 +3606,104 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     width: 100%;
   }
 
+  /* Navigation Controls & Tactile Buttons */
+  body.flashcard-study-mode .study-nav-controls[hidden],
   body.flashcard-study-mode .nav-row[hidden] {
     display: none !important;
   }
+  body.flashcard-study-mode .study-nav-controls:not([hidden]),
   body.flashcard-study-mode .nav-row:not([hidden]) {
     flex: 0 0 auto !important;
     width: 100% !important;
     max-width: 100% !important;
-    margin: 4px auto 0 !important;
-    padding: 0 4px !important;
+    margin: 10px auto 0 !important;
+    padding: 0 !important;
     box-sizing: border-box !important;
     display: flex !important;
+    align-items: center !important;
     justify-content: space-between !important;
+    gap: 12px !important;
   }
 
-  body.flashcard-study-mode .nav-btn {
-    padding: 6px 14px !important;
-    font-size: 13px !important;
-    font-weight: 500 !important;
-    background: transparent !important;
-    border: none !important;
+  body.flashcard-study-mode .study-nav-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    min-height: 42px !important;
+    padding: 8px 16px !important;
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
+    background: var(--card-bg, #ffffff) !important;
+    border: 1px solid var(--border) !important;
     color: var(--text-secondary) !important;
-    border-radius: 8px !important;
+    border-radius: 12px !important;
     cursor: pointer !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03) !important;
+    transition: all 0.16s ease !important;
+    user-select: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+  body.flashcard-study-mode .study-nav-btn:hover:not(:disabled) {
+    background: var(--surface-subtle, rgba(0, 0, 0, 0.04)) !important;
+    border-color: rgba(0, 0, 0, 0.18) !important;
+    color: var(--text-primary) !important;
+    transform: translateY(-0.5px) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-btn:disabled {
+    opacity: 0.35 !important;
+    cursor: not-allowed !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  :root[data-theme="dark"] body.flashcard-study-mode .study-nav-btn {
+    background: #1c2128 !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    color: var(--text-secondary) !important;
+  }
+
+  :root[data-theme="dark"] body.flashcard-study-mode .study-nav-btn:hover:not(:disabled) {
+    background: #242b35 !important;
+    border-color: rgba(255, 255, 255, 0.18) !important;
+    color: var(--text-primary) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-position {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+    padding: 6px 14px !important;
+    border-radius: 999px !important;
+    background: var(--surface-subtle, rgba(0, 0, 0, 0.03)) !important;
+    border: 1px solid var(--border-subtle, rgba(0, 0, 0, 0.06)) !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    font-variant-numeric: tabular-nums !important;
+    color: var(--text-secondary) !important;
+    user-select: none !important;
+  }
+
+  :root[data-theme="dark"] body.flashcard-study-mode .study-nav-position {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-color: rgba(255, 255, 255, 0.06) !important;
+    color: var(--text-muted) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-current {
+    font-weight: 700 !important;
+    color: var(--text-primary) !important;
+  }
+
+  body.flashcard-study-mode .study-nav-sep {
+    opacity: 0.5 !important;
+  }
+
+  body.flashcard-study-mode .study-nav-total {
+    color: var(--text-secondary) !important;
   }
 
   body.flashcard-study-mode .card-counter {
@@ -3608,9 +3712,8 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     color: var(--text-secondary) !important;
   }
 
-  /* When card is flipped, hide nav row so thumb has zero confusion with SRS rating */
-  body.flashcard-study-mode .card.is-flipped ~ #studyNavRow {
-    display: none !important;
+  body.flashcard-study-mode .study-nav-btn {
+    min-height: 48px !important;
   }
 
   body.flashcard-study-mode .rating-row[hidden] {
