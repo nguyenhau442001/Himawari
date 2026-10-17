@@ -649,64 +649,79 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     display: none !important;
   }
 
-  /* Single Hero Card Above the Fold */
+  /* Single Hero Card Above the Fold - Clean, soft elevation & compact ergonomics */
   .continue-learning-card {
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 18px 20px;
-    border-radius: 18px;
-    margin: 8px 0 14px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-radius: 14px;
+    margin: 4px 0 8px;
     gap: 12px;
-    background: linear-gradient(135deg, rgba(255, 87, 34, 0.08) 0%, var(--card-bg) 65%);
-    border: 1px solid rgba(255, 87, 34, 0.22);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  }
+  :root[data-theme="dark"] .continue-learning-card,
+  body.dark-mode .continue-learning-card {
+    background: var(--card-bg);
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  .continue-learning-copy {
+    flex: 1 1 auto;
+    min-width: 0;
   }
   .continue-learning-card .dashboard-kicker {
-    font-size: 11px;
-    font-weight: 750;
-    letter-spacing: 0.08em;
-    color: var(--accent);
-    text-transform: uppercase;
+    display: none !important;
   }
   .continue-learning-card h2 {
-    font-size: 18px;
-    font-weight: 750;
+    font-size: 15px;
+    font-weight: 700;
     line-height: 1.25;
     color: var(--text-primary);
     margin: 0;
   }
   .continue-learning-card p {
-    font-size: 13px;
-    line-height: 1.45;
+    font-size: 12px;
+    line-height: 1.35;
     color: var(--text-secondary);
-    margin: 0;
+    margin: 2px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .continue-learning-card .dashboard-primary-btn {
-    width: 100%;
-    min-height: 48px;
-    border-radius: 14px;
-    font-size: 15px;
-    font-weight: 750;
-    background: linear-gradient(135deg, #ff6b35 0%, #f74318 100%);
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 90px;
+    min-height: 40px;
+    height: 40px;
+    padding: 0 14px;
+    border-radius: 10px;
+    font-size: 13.5px;
+    font-weight: 650;
+    background: var(--accent);
     border: none;
     color: #ffffff;
-    box-shadow: 0 4px 18px rgba(255, 87, 34, 0.38), 0 2px 4px rgba(0, 0, 0, 0.2);
-    letter-spacing: 0.02em;
+    box-shadow: 0 2px 6px color-mix(in srgb, var(--accent) 28%, transparent);
+    letter-spacing: 0.01em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
     cursor: pointer;
-    transition: all 180ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 160ms cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
   }
   .continue-learning-card .dashboard-primary-btn:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 24px rgba(255, 87, 34, 0.48), 0 3px 6px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(135deg, #ff7e55 0%, #ff5224 100%);
+    box-shadow: 0 4px 10px color-mix(in srgb, var(--accent) 38%, transparent);
+    filter: brightness(1.05);
   }
   .continue-learning-card .dashboard-primary-btn:active {
-    transform: scale(0.985);
+    transform: scale(0.97);
   }
 
   /* Responsive Promo Banners */
@@ -815,7 +830,7 @@ body:not(.home-screen) .continue-learning-card { display: none; }
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    margin: 10px 0 10px;
+    margin: 4px 0 8px;
   }
   .picker-controls > .view-tabs:first-child { flex: 1 1 auto; gap: 14px; }
 

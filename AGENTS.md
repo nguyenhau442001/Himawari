@@ -9,12 +9,11 @@
 - Do not rename branches or change remote settings.
 - Do not run GitHub PR workflows.
 
-## Commit Rules
+## Commit & Push Rules
 
-- Do not commit automatically after every change.
-- Only create a commit when I explicitly ask.
-- When I ask for a commit, commit directly on `main`.
-- Keep commits small and focused.
+- When done with a task, run tests and checks, commit directly on `main`, and push up.
+- Keep commits small, focused, and meaningful.
+- Use clear conventional commit messages (e.g. `feat: ...`, `fix: ...`).
 
 ## Dangerous Git Commands
 
@@ -34,10 +33,13 @@ Before running any of these commands, stop and ask me first:
 - Keep edits simple and incremental.
 - Do not rewrite the whole project unless I explicitly ask.
 - Follow the existing code style and file structure.
-- After finishing, summarize:
-  - what files changed
-  - what behavior changed
-  - what tests or checks were run
+- After finishing:
+  - run tests or checks
+  - commit and push to `main`
+  - summarize:
+    - what files changed
+    - what behavior changed
+    - what tests or checks were run
 
 ## Project Preference
 

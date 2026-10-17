@@ -30,11 +30,11 @@ function renderDashboardEnhancements() {
   const target = summary.target;
   if (continuation) {
     if (summary.totalStudied === 0) {
-      document.getElementById('continueLearningTitle').textContent = 'Bắt đầu học HSK 1';
-      document.getElementById('continueLearningProgress').textContent = 'Chinh phục 150 từ vựng nền tảng với flashcard thông minh.';
+      document.getElementById('continueLearningTitle').textContent = 'Bắt đầu HSK 1';
+      document.getElementById('continueLearningProgress').textContent = '150 từ nền tảng · Flashcard thông minh';
       const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
       if (ctaBtn) {
-        ctaBtn.innerHTML = `Bắt đầu học ngay <span aria-hidden="true">→</span>`;
+        ctaBtn.innerHTML = `Học ngay <span aria-hidden="true">→</span>`;
       }
       continuation.dataset.level = 'hsk1';
     } else if (target) {
@@ -43,11 +43,11 @@ function renderDashboardEnhancements() {
       const pctStr = typeof formatProgressPercent === 'function'
         ? formatProgressPercent(target.known, cfg.total)
         : `${Math.round(target.known / cfg.total * 100)}%`;
-      document.getElementById('continueLearningTitle').textContent = `Tiếp tục học ${cfg.label}`;
+      document.getElementById('continueLearningTitle').textContent = `Học tiếp ${cfg.label}`;
       document.getElementById('continueLearningProgress').textContent = `${ratio} · ${pctStr} hoàn thành`;
       const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
       if (ctaBtn) {
-        ctaBtn.innerHTML = `Tiếp tục bài học <span aria-hidden="true">→</span>`;
+        ctaBtn.innerHTML = `Học ngay <span aria-hidden="true">→</span>`;
       }
       continuation.dataset.level = target.level;
     }
