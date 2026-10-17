@@ -718,7 +718,7 @@ body.flashcard-study-mode .view-tab.active .view-tab-icon {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-.view-tab-text--mobile {
+.view-tab-mobile-text {
   display: none;
 }
 .study-progress-label {
@@ -1975,10 +1975,10 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     height: 12px;
   }
 
-  .view-tab-text--desktop {
+  .view-tab-desktop-text {
     display: none !important;
   }
-  .view-tab-text--mobile {
+  .view-tab-mobile-text {
     display: inline !important;
     font-size: 11px;
     font-weight: 600;
@@ -2128,12 +2128,12 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) !important;
   }
 
-  /* 3. Flashcard Container: Fixed Viewport Height (Zero Layout Shift) */
+  /* 3. Flashcard Container: Balanced Proportion, Content Centered */
   body.flashcard-study-mode #cardArea > .card {
-    height: clamp(340px, calc(100dvh - 185px), 470px);
-    min-height: 340px;
-    max-height: calc(100dvh - 185px);
-    padding: 40px 16px 14px;
+    min-height: 290px;
+    height: clamp(310px, 49vh, 395px);
+    max-height: min(425px, calc(100dvh - 195px));
+    padding: 32px 18px 12px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
     width: 100%;
@@ -2200,7 +2200,7 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     transform: scale(0.92);
   }
 
-  /* 4. Card Content: Clean, centered, and scrollable inside card */
+  /* 4. Card Content: Clean, centered vertically & horizontally */
   body.flashcard-study-mode .card-content {
     flex: 1 1 auto;
     width: 100%;
@@ -2211,12 +2211,12 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
+    gap: 6px;
   }
 
-  /* When flipped, start from top so longer content can scroll naturally */
   body.flashcard-study-mode .card.is-flipped .card-content {
-    justify-content: flex-start;
+    justify-content: center !important;
   }
 
   body.flashcard-study-mode .word-main-block.split-layout {
@@ -2244,72 +2244,83 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .hanzi {
-    font-size: clamp(62px, 15vw, 86px);
+    font-size: clamp(60px, 15vw, 80px);
     font-weight: 700;
     line-height: 1.06;
     margin: 2px 0;
     white-space: nowrap;
     text-wrap: nowrap;
     max-width: 100%;
+    color: var(--text-primary);
+  }
+  body.flashcard-study-mode .card.is-flipped .hanzi {
+    font-size: clamp(44px, 11vw, 56px);
+    margin: 0;
   }
   body.flashcard-study-mode .hanzi.is-len-3,
   body.flashcard-study-mode .hanzi[data-length="3"] {
-    font-size: clamp(48px, 11vw, 64px);
+    font-size: clamp(44px, 11vw, 58px);
   }
   body.flashcard-study-mode .hanzi.is-len-4,
   body.flashcard-study-mode .hanzi[data-length="4"] {
-    font-size: clamp(38px, 9vw, 50px);
+    font-size: clamp(36px, 9vw, 46px);
   }
   body.flashcard-study-mode .hanzi.is-len-5,
   body.flashcard-study-mode .hanzi[data-length="5"] {
-    font-size: clamp(30px, 7vw, 40px);
+    font-size: clamp(28px, 7vw, 36px);
   }
   body.flashcard-study-mode .hanzi.is-len-6-plus,
   body.flashcard-study-mode .hanzi.is-len-long,
   body.flashcard-study-mode .hanzi[data-length="6"],
   body.flashcard-study-mode .hanzi[data-length="7"],
   body.flashcard-study-mode .hanzi[data-length="8"] {
-    font-size: clamp(24px, 5.5vw, 32px);
+    font-size: clamp(22px, 5.5vw, 30px);
   }
 
   body.flashcard-study-mode .pinyin-row {
-    font-size: 20px;
-    gap: 6px;
-    margin: 2px 0 4px;
+    font-size: 19px;
+    gap: 7px;
+    margin: 1px 0 3px;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   body.flashcard-study-mode .pinyin {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
-    color: var(--accent);
+    color: #475569;
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .pinyin {
-    color: #fbbf24;
+    color: #cbd5e1;
   }
 
   body.flashcard-study-mode .pos-tag,
   body.flashcard-study-mode .pos-badge {
     font-size: 11px;
-    font-weight: 600;
-    padding: 1.5px 6px;
-    border-radius: 5px;
-    border: none;
+    font-weight: 500;
+    padding: 1.5px 7px;
+    border-radius: 6px;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-tertiary);
+    background: var(--surface-chip);
   }
 
   body.flashcard-study-mode .hanviet-badge {
     font-size: 11px;
-    font-weight: 600;
-    padding: 1.5px 6px;
-    border-radius: 5px;
-    border: none;
-    color: #d97706;
-    background: rgba(245, 158, 11, 0.12);
+    font-weight: 500;
+    padding: 1.5px 7px;
+    border-radius: 6px;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-tertiary);
+    background: var(--surface-chip);
   }
-  :root[data-theme="dark"] body.flashcard-study-mode .hanviet-badge {
-    color: #fbbf24;
-    background: rgba(245, 158, 11, 0.15);
+  :root[data-theme="dark"] body.flashcard-study-mode .hanviet-badge,
+  :root[data-theme="dark"] body.flashcard-study-mode .pos-badge {
+    color: #94a3b8;
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.08);
   }
 
   body.flashcard-study-mode .sound-btn {
@@ -2325,28 +2336,29 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
   }
 
   body.flashcard-study-mode .meaning {
-    font-size: 20px;
+    font-size: 19.5px;
     font-weight: 700;
     line-height: 1.35;
-    margin: 4px 0 6px;
+    margin: 2px 0 4px;
     color: var(--text-primary);
     text-align: center;
     max-width: 95%;
   }
 
   body.flashcard-study-mode .example-box {
-    margin-top: 8px;
-    padding: 10px 14px;
+    margin-top: 4px;
+    padding: 8px 12px;
     border-radius: 12px;
-    max-height: 160px;
-    border: none !important;
+    max-height: 140px;
+    border: 1px solid var(--border-subtle) !important;
     box-shadow: none !important;
     background: var(--surface-subtle);
     width: 100%;
     box-sizing: border-box;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .example-box {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.06) !important;
   }
 
   body.flashcard-study-mode .example-box .ex-header-row {
@@ -2400,35 +2412,36 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    gap: 6px !important;
-    margin-top: auto !important;
-    margin-bottom: 2px !important;
-    padding: 5px 14px !important;
+    gap: 5px !important;
+    margin-top: 6px !important;
+    margin-bottom: 0 !important;
+    padding: 3px 10px !important;
     border-radius: 999px !important;
-    background: var(--surface-chip) !important;
-    border: 1px solid var(--border) !important;
-    color: var(--text-secondary) !important;
-    font-size: 11.5px !important;
+    background: transparent !important;
+    border: none !important;
+    color: var(--text-tertiary) !important;
+    font-size: 11px !important;
     font-weight: 500 !important;
     letter-spacing: 0.1px !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+    box-shadow: none !important;
     align-self: center !important;
     pointer-events: none !important;
+    opacity: 0.75 !important;
   }
   body.flashcard-study-mode .hint::before {
     content: "" !important;
     display: inline-block !important;
-    width: 13px !important;
-    height: 13px !important;
+    width: 12px !important;
+    height: 12px !important;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2371717a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 16 4 4 4-4'/%3E%3Cpath d='M7 20V4'/%3E%3Cpath d='m21 8-4-4-4 4'/%3E%3Cpath d='M17 4v16'/%3E%3C/svg%3E") !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     opacity: 0.75 !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .hint {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border-color: rgba(255, 255, 255, 0.08) !important;
-    color: rgba(255, 255, 255, 0.65) !important;
+    background: transparent !important;
+    border: none !important;
+    color: rgba(255, 255, 255, 0.5) !important;
   }
   :root[data-theme="dark"] body.flashcard-study-mode .hint::before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a1a1aa' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 16 4 4 4-4'/%3E%3Cpath d='M7 20V4'/%3E%3Cpath d='m21 8-4-4-4 4'/%3E%3Cpath d='M17 4v16'/%3E%3C/svg%3E") !important;
