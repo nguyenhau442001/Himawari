@@ -1147,6 +1147,10 @@ body.flashcard-study-mode .filter-row {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
+:root[data-theme="dark"] .progress-nav-card.is-active {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
 .progress-nav-card--all.is-active {
   border-color: #3b82f6;
   background: rgba(59, 130, 246, 0.05);
@@ -1244,46 +1248,12 @@ body.flashcard-study-mode .filter-row {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .progress-nav-card.is-active .progress-nav-card-label {
   color: var(--text-primary);
   font-weight: 700;
-}
-
-.progress-nav-card-check {
-  font-size: 11px;
-  font-weight: 800;
-  margin-left: auto;
-  line-height: 1;
-}
-
-.progress-nav-card--all.is-active .progress-nav-card-check {
-  color: #2563eb;
-}
-:root[data-theme="dark"] .progress-nav-card--all.is-active .progress-nav-card-check {
-  color: #60a5fa;
-}
-
-.progress-nav-card--known.is-active .progress-nav-card-check {
-  color: #16a34a;
-}
-:root[data-theme="dark"] .progress-nav-card--known.is-active .progress-nav-card-check {
-  color: #34d399;
-}
-
-.progress-nav-card--unknown.is-active .progress-nav-card-check {
-  color: #d97706;
-}
-:root[data-theme="dark"] .progress-nav-card--unknown.is-active .progress-nav-card-check {
-  color: #fbbf24;
-}
-
-.progress-nav-card--unseen.is-active .progress-nav-card-check {
-  color: #4f46e5;
-}
-:root[data-theme="dark"] .progress-nav-card--unseen.is-active .progress-nav-card-check {
-  color: #818cf8;
 }
 
 .progress-nav-card-body {

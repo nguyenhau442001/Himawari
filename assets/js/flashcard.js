@@ -504,7 +504,6 @@ function renderFilters() {
               <div class="progress-nav-card-head">
                 <span class="progress-nav-card-icon" aria-hidden="true">${f.iconSvg}</span>
                 <span class="progress-nav-card-label">${f.label}</span>
-                ${isSelected ? '<span class="progress-nav-card-check" aria-hidden="true">✓</span>' : ''}
               </div>
               <div class="progress-nav-card-body">
                 <span class="progress-nav-card-count">${f.count}</span>

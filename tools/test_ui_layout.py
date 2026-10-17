@@ -662,6 +662,27 @@ class TestLearningProgressNavigator(unittest.TestCase):
         self.assertIsNotNone(match)
         self.assertIn("display: none !important", match.group(1))
 
+    def test_filter_cards_omit_redundant_selection_checkmark(self):
+        """Active filter cards must communicate selection via border/background without redundant corner checkmarks."""
+        self.assertNotIn("progress-nav-card-check", self.flashcard_js,
+                         "Redundant selection checkmark must be removed from progress-nav-card template")
+        self.assertNotIn(".progress-nav-card-check", self.workstation_css,
+                         "Obsolete progress-nav-card-check CSS rules must be removed")
+
+    def test_filter_cards_preserve_category_icons_and_rating_checkmark(self):
+        """Category icons (including check-circle for known) and review button checkmark must remain preserved."""
+        # Check-circle icon for 'known' filter category
+        self.assertIn("M22 11.08V12a10 10 0 1 1-5.93-9.14", self.flashcard_js)
+        # Polyline checkmark on review rating button
+        self.assertIn("polyline points=\"20 6 9 17 4 12\"", self.flashcard_js)
+
+    def test_filter_cards_active_styling_light_and_dark_themes(self):
+        """Active filter cards must retain clear border and background highlighting across light and dark themes."""
+        for filter_key in ("all", "known", "unknown", "unseen"):
+            self.assertIn(f".progress-nav-card--{filter_key}.is-active", self.workstation_css)
+            self.assertIn(f":root[data-theme=\"dark\"] .progress-nav-card--{filter_key}.is-active", self.workstation_css)
+        self.assertIn(".progress-nav-card:focus-visible", self.workstation_css)
+
 
 class TestFlashcardExperienceRefinements(unittest.TestCase):
     """Test suite for the comprehensive visual and usability refinements in Synapse Hanzi Flashcard experience."""
