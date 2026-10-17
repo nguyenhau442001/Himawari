@@ -11,7 +11,9 @@ let readingTestFilter = 'all'; // 'all' | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 let readingFilteredList = [];
 let readingCurrentIndex = 0;
 let readingSelectedTokenIndex = null;
-let readingActiveMode = 'breakdown'; // 'breakdown' | 'practice'
+let readingActiveMode = 'practice'; // 'practice' | 'breakdown'
+let readingExerciseState = 'answering'; // 'answering' | 'reviewed'
+let readingSettingsMenuOpen = false;
 
 // Display Preferences
 let readingPrefs = {
@@ -22,7 +24,7 @@ let readingPrefs = {
   speechSpeed: 1.0,
   dictationMode: false,
   zenMode: false,
-  grammarExpanded: false
+  grammarExpanded: true
 };
 
 // Practice State for Current Entry
@@ -167,6 +169,13 @@ function setReadingTestFilter(testId) {
  */
 function setReadingActiveMode(mode) {
   readingActiveMode = mode;
+  if (mode === 'breakdown') {
+    readingExerciseState = 'reviewed';
+  } else {
+    if (!practiceSolved) {
+      readingExerciseState = 'answering';
+    }
+  }
   renderReadingAnalysisScreen();
 }
 
@@ -180,6 +189,7 @@ function nextReadingQuestion() {
     resetPracticeState();
     renderReadingAnalysisScreen();
     syncRouterReadingQ();
+    try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (e) {}
   }
 }
 
@@ -190,6 +200,7 @@ function prevReadingQuestion() {
     resetPracticeState();
     renderReadingAnalysisScreen();
     syncRouterReadingQ();
+    try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (e) {}
   }
 }
 
@@ -201,6 +212,7 @@ function jumpToReadingIndex(idx) {
     resetPracticeState();
     renderReadingAnalysisScreen();
     syncRouterReadingQ();
+    try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (e) {}
   }
 }
 
@@ -214,6 +226,8 @@ function resetPracticeState() {
   practiceSolved = false;
   practiceSelectedOption = null;
   practiceFeedback = null;
+  readingSelectedTokenIndex = null;
+  readingExerciseState = (readingActiveMode === 'breakdown') ? 'reviewed' : 'answering';
   const entry = readingFilteredList[readingCurrentIndex];
   if (!entry) return;
 
@@ -221,10 +235,47 @@ function resetPracticeState() {
     if (entry.practice.scrambled_chunks) {
       practiceBuilderBank = entry.practice.scrambled_chunks.slice();
       practiceBuilderSlots = [];
-    } else if (entry.practice.scrambled_items) {
-      practiceBuilderBank = entry.practice.scrambled_items.slice();
+    } else if (entry.practice.options || entry.practice.scrambled_items) {
+      const raw = entry.practice.options || entry.practice.scrambled_items;
+      practiceBuilderBank = raw.map(it => ({
+        key: it.key || it.id || '',
+        text: it.text || ''
+      }));
       practiceBuilderSlots = [];
     }
+  }
+}
+
+function retryPractice() {
+  resetPracticeState();
+  readingExerciseState = 'answering';
+  renderReadingAnalysisScreen();
+}
+
+function revealExplanationDirectly() {
+  readingExerciseState = 'reviewed';
+  const entry = readingFilteredList[readingCurrentIndex];
+  if (entry) playReadingSentenceAudio(entry);
+  renderReadingAnalysisScreen();
+  setTimeout(() => {
+    const sheet = document.getElementById('readingExplanationSheet');
+    if (sheet) sheet.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 100);
+}
+
+function toggleReadingSettingsMenu(e) {
+  if (e) {
+    e.stopPropagation();
+  }
+  readingSettingsMenuOpen = !readingSettingsMenuOpen;
+  const menu = document.getElementById('readingSettingsMenu');
+  const btn = document.getElementById('readingSettingsBtn');
+  if (menu) menu.style.display = readingSettingsMenuOpen ? 'block' : 'none';
+  if (btn) {
+    btn.setAttribute('aria-expanded', readingSettingsMenuOpen);
+    btn.classList.toggle('active', readingSettingsMenuOpen);
+    const arrow = btn.querySelector('.settings-arrow');
+    if (arrow) arrow.textContent = readingSettingsMenuOpen ? '▲' : '▾';
   }
 }
 
@@ -319,213 +370,289 @@ function renderReadingAnalysisScreen() {
     readingSelectedTokenIndex = getInitialSelectedTokenIndex(currentEntry);
   }
 
+  const isReviewed = (readingExerciseState === 'reviewed' || readingActiveMode === 'breakdown');
+
   container.innerHTML = `
-    <div class="reading-analysis-container ${readingPrefs.zenMode ? 'zen-mode-active' : ''}">
-      <!-- ZEN TOP BAR (Only in Zen Mode) -->
-      ${readingPrefs.zenMode ? `
-        <div class="reading-zen-bar">
-          <button type="button" class="zen-exit-btn" onclick="toggleZenMode()" title="Thoát chế độ tập trung (Z hoặc Esc)">
-            <span aria-hidden="true">✕</span> Thoát Zen
-          </button>
-          <div class="zen-center-info">
-            <span class="zen-counter-badge">Câu ${readingCurrentIndex + 1} / ${readingFilteredList.length}</span>
-            <span class="zen-category-tag">${getCategoryLabel(currentEntry.category)}</span>
+    <div class="reading-analysis-container">
+      ${renderUnifiedHeaderHtml(currentEntry)}
+
+      <div class="reading-focused-workspace">
+        ${renderExerciseCardHtml(currentEntry)}
+
+        ${isReviewed ? renderExplanationSheetHtml(currentEntry) : ''}
+      </div>
+
+      ${renderFooterNavHtml(currentEntry)}
+    </div>
+  `;
+}
+
+function renderUnifiedHeaderHtml(currentEntry) {
+  return `
+    <header class="reading-unified-nav" role="toolbar" aria-label="Thanh điều hướng đọc hiểu">
+      <div class="reading-nav-left">
+        <button type="button" class="reading-back-btn" onclick="setPrimaryTab('vocab')" title="Quay lại danh sách từ vựng">
+          <span aria-hidden="true">←</span>
+          <span>Trang chủ</span>
+        </button>
+
+        <div class="reading-brand-badge">
+          <span class="reading-brand-icon">📖</span>
+          <span class="reading-brand-title">Đọc hiểu HSK 4</span>
+          <span class="reading-brand-tag">Hanban</span>
+        </div>
+
+        <div class="reading-filter-controls">
+          <div class="reading-select-pill" title="Lọc theo Đề thi">
+            <span class="reading-pill-label">Đề:</span>
+            <select class="reading-pill-select" id="readingTestSelect" onchange="setReadingTestFilter(this.value === 'all' ? 'all' : parseInt(this.value, 10))">
+              <option value="all" ${readingTestFilter === 'all' ? 'selected' : ''}>Tất cả đề (10 đề)</option>
+              ${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(t => {
+                const count = readingAnalysisData.filter(d => d.test_id === t).length;
+                if (!count) return '';
+                return `<option value="${t}" ${readingTestFilter === t ? 'selected' : ''}>Đề ${t} (${count})</option>`;
+              }).join('')}
+            </select>
           </div>
-          <div class="zen-actions">
-            <button type="button" class="zen-btn-action" onclick="playReadingSentenceAudio(readingFilteredList[readingCurrentIndex])" title="Nghe phát âm (Space)">
-              🔊 Nghe
+
+          <div class="reading-select-pill" title="Lọc theo Dạng bài">
+            <span class="reading-pill-label">Dạng:</span>
+            <select class="reading-pill-select" id="readingCategorySelect" onchange="setReadingCategory(this.value)">
+              <option value="all" ${readingCategory === 'all' ? 'selected' : ''}>Tất cả (${getFilteredCatCount('all')})</option>
+              <option value="sentence_building" ${readingCategory === 'sentence_building' ? 'selected' : ''}>🧩 Xếp câu (${getFilteredCatCount('sentence_building')})</option>
+              <option value="sentence_logic" ${readingCategory === 'sentence_logic' ? 'selected' : ''}>🔀 Logic A-B-C (${getFilteredCatCount('sentence_logic')})</option>
+              <option value="cloze" ${readingCategory === 'cloze' ? 'selected' : ''}>📝 Điền từ (${getFilteredCatCount('cloze')})</option>
+              <option value="paragraph" ${readingCategory === 'paragraph' ? 'selected' : ''}>📑 Đoạn văn (${getFilteredCatCount('paragraph')})</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="reading-nav-right">
+        <!-- Mode Segmented Control -->
+        <div class="reading-segmented-control" role="tablist" aria-label="Chế độ học">
+          <button type="button" class="reading-segment-btn ${readingActiveMode === 'practice' ? 'active' : ''}" onclick="setReadingActiveMode('practice')" role="tab" aria-selected="${readingActiveMode === 'practice'}">
+            Thực chiến
+          </button>
+          <button type="button" class="reading-segment-btn ${readingActiveMode === 'breakdown' ? 'active' : ''}" onclick="setReadingActiveMode('breakdown')" role="tab" aria-selected="${readingActiveMode === 'breakdown'}">
+            Phân tích
+          </button>
+        </div>
+
+        <!-- Display Settings Dropdown Popover -->
+        <div class="reading-settings-wrapper" id="readingSettingsWrapper">
+          <button type="button" class="reading-settings-btn ${readingSettingsMenuOpen ? 'active' : ''}" id="readingSettingsBtn" onclick="toggleReadingSettingsMenu(event)" aria-expanded="${readingSettingsMenuOpen}" title="Tùy chọn hiển thị">
+            <span aria-hidden="true">⚙️</span>
+            <span class="settings-text">Hiển thị</span>
+            <span class="settings-arrow">${readingSettingsMenuOpen ? '▲' : '▾'}</span>
+          </button>
+          <div class="reading-settings-menu" id="readingSettingsMenu" style="${readingSettingsMenuOpen ? 'display: block;' : 'display: none;'}">
+            <div class="settings-menu-title">TÙY CHỌN HIỂN THỊ</div>
+            <label class="settings-menu-item">
+              <input type="checkbox" ${readingPrefs.pinyin ? 'checked' : ''} onchange="toggleReadingPinyin()">
+              <span>Phiên âm Pinyin</span>
+            </label>
+            <label class="settings-menu-item">
+              <input type="checkbox" ${readingPrefs.hanviet ? 'checked' : ''} onchange="toggleReadingHanViet()">
+              <span>Âm Hán - Việt</span>
+            </label>
+            <label class="settings-menu-item">
+              <input type="checkbox" ${readingPrefs.meaning ? 'checked' : ''} onchange="toggleReadingMeaning()">
+              <span>Dịch nghĩa câu gợi ý</span>
+            </label>
+            <label class="settings-menu-item">
+              <input type="checkbox" ${readingPrefs.highlight ? 'checked' : ''} onchange="toggleReadingHighlight()">
+              <span>Mẹo bẫy thi & Ngữ pháp</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+  `;
+}
+
+function renderExerciseCardHtml(currentEntry) {
+  const isReviewed = (readingExerciseState === 'reviewed' || readingActiveMode === 'breakdown');
+  const meaningText = currentEntry.meaning || currentEntry.vietnamese || '';
+
+  return `
+    <section class="reading-exercise-card" aria-label="Khu vực làm bài tập">
+      <div class="exercise-card-header">
+        <div class="exercise-header-left">
+          <div class="exercise-meta-pill">
+            <span class="meta-label">Đề ${currentEntry.test_id || 10}</span>
+            <span class="meta-separator">·</span>
+            <span class="meta-qnum">Câu ${readingCurrentIndex + 1}/${readingFilteredList.length}</span>
+          </div>
+          ${getCategoryBadgeHtml(currentEntry.category)}
+        </div>
+
+        <div class="exercise-header-right">
+          <span class="exercise-status-badge ${isReviewed ? 'status-reviewed' : 'status-answering'}">
+            ${isReviewed ? '✅ Đã xem giải thích' : '✍️ Đang làm bài'}
+          </span>
+          ${isReviewed ? `
+            <div class="exercise-audio-group">
+              <button type="button" class="reading-btn-speaker" id="readingPlayAudioBtn" onclick="playReadingSentenceAudio(readingFilteredList[readingCurrentIndex])" title="Nghe phát âm chuẩn (Space)">
+                🔊 Nghe
+              </button>
+              <button type="button" class="reading-btn-speed" id="readingSpeedBtn" onclick="toggleReadingSpeed()" title="Đổi tốc độ đọc">
+                ${readingPrefs.speechSpeed}x
+              </button>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+
+      <!-- PROMPT MEANING BANNER -->
+      ${readingPrefs.meaning && meaningText ? `
+        <div class="exercise-prompt-box">
+          <div class="prompt-header">
+            <span class="prompt-icon">💡</span>
+            <span class="prompt-title">Nghĩa tiếng Việt gợi ý:</span>
+          </div>
+          <div class="prompt-text">${meaningText}</div>
+        </div>
+      ` : ''}
+
+      <!-- INTERACTIVE EXERCISE BODY -->
+      <div class="exercise-interactive-body">
+        ${renderInteractiveExerciseForm(currentEntry)}
+      </div>
+
+      <!-- FEEDBACK BANNER (If any) -->
+      ${renderPracticeFeedbackHtml()}
+    </section>
+  `;
+}
+
+function renderExplanationSheetHtml(currentEntry) {
+  return `
+    <section class="reading-explanation-sheet" id="readingExplanationSheet" aria-label="Giải thích chi tiết & Ngữ pháp">
+      <div class="sheet-header">
+        <div class="sheet-title-row">
+          <span class="sheet-header-icon">📖</span>
+          <div class="sheet-title-text">
+            <h2 class="sheet-main-title">Phân tích & Giải thích chi tiết</h2>
+            <p class="sheet-sub-title">Đối chiếu đáp án chuẩn, cấu trúc ngữ pháp và mẹo phòng bẫy thi HSK 4</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1. FULL STANDARD SENTENCE & AUDIO -->
+      <div class="sheet-card sheet-sentence-card">
+        <div class="sentence-hero-top">
+          <span class="sheet-section-tag">Câu chuẩn ngữ pháp Hanban:</span>
+          <div class="sentence-hero-audio">
+            <button type="button" class="reading-btn-speaker" onclick="playReadingSentenceAudio(readingFilteredList[readingCurrentIndex])" title="Nghe phát âm chuẩn">
+              🔊 Nghe phát âm
             </button>
-            <button type="button" class="zen-btn-action ${readingPrefs.pinyin ? 'active' : ''}" onclick="toggleReadingPinyin()" title="Bật/Tắt Pinyin (P)">
-              Py
-            </button>
-            <button type="button" class="zen-btn-action ${readingPrefs.meaning ? 'active' : ''}" onclick="toggleReadingMeaning()" title="Bật/Tắt Dịch nghĩa (V)">
-              Dịch
-            </button>
-            <button type="button" class="zen-btn-action ${readingPrefs.grammarExpanded ? 'active' : ''}" onclick="toggleReadingGrammarExpand()" title="Bật/Tắt Ngữ pháp (G)">
-              ⚡ Ngữ pháp
+            <button type="button" class="reading-btn-speed" onclick="toggleReadingSpeed()" title="Đổi tốc độ đọc">
+              ${readingPrefs.speechSpeed}x
             </button>
           </div>
         </div>
-      ` : `
-        <!-- UNIFIED COMPACT HEADER STRIP (Replaces multi-tier navigation) -->
-        <header class="reading-unified-nav" role="toolbar" aria-label="Thanh điều hướng đọc hiểu">
-          <div class="reading-nav-left">
-            <button type="button" class="reading-back-btn" onclick="setPrimaryTab('vocab')" title="Quay lại danh sách từ vựng">
-              <span aria-hidden="true">←</span>
-              <span>Trang chủ</span>
-            </button>
 
-            <div class="reading-brand-badge">
-              <span class="reading-brand-icon">📖</span>
-              <span class="reading-brand-title">Đọc hiểu HSK 4</span>
-              <span class="reading-brand-tag">Hanban</span>
-            </div>
+        <div class="sentence-zh-flow" id="readingZhLine">
+          ${renderCleanTokensHtml(currentEntry)}
+        </div>
 
-            <div class="reading-filter-controls">
-              <div class="reading-select-pill" title="Lọc theo Đề thi">
-                <span class="reading-pill-label">Đề:</span>
-                <select class="reading-pill-select" id="readingTestSelect" onchange="setReadingTestFilter(this.value === 'all' ? 'all' : parseInt(this.value, 10))">
-                  <option value="all" ${readingTestFilter === 'all' ? 'selected' : ''}>Tất cả đề (10 đề)</option>
-                  ${[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(t => {
-                    const count = readingAnalysisData.filter(d => d.test_id === t).length;
-                    if (!count) return '';
-                    return `<option value="${t}" ${readingTestFilter === t ? 'selected' : ''}>Đề ${t} (${count})</option>`;
-                  }).join('')}
-                </select>
-              </div>
+        ${renderSentenceTranslationsHtml(currentEntry)}
+      </div>
 
-              <div class="reading-select-pill" title="Lọc theo Dạng bài">
-                <span class="reading-pill-label">Dạng:</span>
-                <select class="reading-pill-select" id="readingCategorySelect" onchange="setReadingCategory(this.value)">
-                  <option value="all" ${readingCategory === 'all' ? 'selected' : ''}>Tất cả (${getFilteredCatCount('all')})</option>
-                  <option value="sentence_building" ${readingCategory === 'sentence_building' ? 'selected' : ''}>🧩 Xếp câu (${getFilteredCatCount('sentence_building')})</option>
-                  <option value="sentence_logic" ${readingCategory === 'sentence_logic' ? 'selected' : ''}>🔀 Logic A-B-C (${getFilteredCatCount('sentence_logic')})</option>
-                  <option value="cloze" ${readingCategory === 'cloze' ? 'selected' : ''}>📝 Điền từ (${getFilteredCatCount('cloze')})</option>
-                  <option value="paragraph" ${readingCategory === 'paragraph' ? 'selected' : ''}>📑 Đoạn văn (${getFilteredCatCount('paragraph')})</option>
-                </select>
-              </div>
+      <!-- 2. GRAMMAR POINT & EXAM TRAP NOTES -->
+      ${currentEntry.grammar_point ? `
+        <div class="sheet-card sheet-grammar-card">
+          ${renderSidebarGrammarHtml(currentEntry)}
+        </div>
+      ` : ''}
+
+      <!-- 3. WORD ORDER BREAKDOWN (SVO) -->
+      ${(currentEntry.breakdown && currentEntry.breakdown.length) ? `
+        <div class="sheet-card sheet-breakdown-card">
+          <div class="sheet-card-header">
+            <div class="sidebar-header-left">
+              <span class="sidebar-header-icon">🔬</span>
+              <span class="sidebar-header-title">Phân tách thành phần cấu trúc câu</span>
             </div>
           </div>
-
-          <div class="reading-nav-right">
-            <!-- Mode Segmented Control -->
-            <div class="reading-segmented-control" role="tablist" aria-label="Chế độ">
-              <button type="button" class="reading-segment-btn ${readingActiveMode === 'breakdown' ? 'active' : ''}" onclick="setReadingActiveMode('breakdown')" role="tab" aria-selected="${readingActiveMode === 'breakdown'}">
-                Phân tích
-              </button>
-              <button type="button" class="reading-segment-btn ${readingActiveMode === 'practice' ? 'active' : ''}" onclick="setReadingActiveMode('practice')" role="tab" aria-selected="${readingActiveMode === 'practice'}">
-                Thực chiến
-              </button>
-            </div>
-
-            <!-- Quick Display Toggles (Floating High-Contrast Pills) -->
-            <div class="reading-quick-toggles" role="group" aria-label="Tùy chọn hiển thị">
-              <button type="button" class="reading-toggle-pill ${readingPrefs.pinyin ? 'active' : ''}" onclick="toggleReadingPinyin()" title="Bật/Tắt Pinyin (P)">
-                <span class="toggle-dot" aria-hidden="true"></span>
-                <span>Py</span>
-              </button>
-              <button type="button" class="reading-toggle-pill ${readingPrefs.hanviet ? 'active' : ''}" onclick="toggleReadingHanViet()" title="Bật/Tắt Hán - Việt trên câu (H)">
-                <span class="toggle-dot" aria-hidden="true"></span>
-                <span>HV</span>
-              </button>
-              <button type="button" class="reading-toggle-pill ${readingPrefs.meaning ? 'active' : ''}" onclick="toggleReadingMeaning()" title="Bật/Tắt Dịch nghĩa (V)">
-                <span class="toggle-dot" aria-hidden="true"></span>
-                <span>Dịch</span>
-              </button>
-              <button type="button" class="reading-toggle-pill ${readingPrefs.highlight ? 'active' : ''}" onclick="toggleReadingHighlight()" title="Bật/Tắt Điểm bẫy ngữ pháp">
-                <span class="toggle-dot" aria-hidden="true"></span>
-                <span>Bẫy thi</span>
-              </button>
-            </div>
-
-            <!-- Zen Mode Toggle -->
-            <button type="button" class="reading-zen-pill ${readingPrefs.zenMode ? 'active' : ''}" onclick="toggleZenMode()" title="Chế độ tập trung Zen Mode (Z)">
-              <span aria-hidden="true">🧘</span>
-              <span class="zen-text">Zen</span>
-            </button>
+          <div class="breakdown-chips-flow">
+            ${currentEntry.breakdown.map(b => `
+              <div class="breakdown-chip">
+                <span class="b-chip-role">${b.role}</span>
+                <span class="b-chip-text">${b.text}</span>
+                ${b.desc ? `<span class="b-chip-desc">${b.desc}</span>` : ''}
+              </div>
+            `).join('')}
           </div>
-        </header>
-      `}
+        </div>
+      ` : ''}
 
-      <!-- TWO-COLUMN WORKSPACE GRID (Left 60%, Right 40%) -->
-      <div class="reading-workspace-grid">
-        <!-- LEFT COLUMN: Main Focus Area (60%) -->
-        <main class="reading-col-main" aria-label="Khu vực bài đọc chính">
-          <section class="reading-passage-card" aria-label="Nội dung bài đọc">
-            <div class="reading-card-meta-row">
-              <div class="reading-meta-left">
-                <span class="reading-source-text">${currentEntry.source || 'HSK 4 Chuẩn'}</span>
-                ${currentEntry.exam_part ? `<span class="reading-exam-tag">${currentEntry.exam_part}</span>` : ''}
-              </div>
-
-              <div class="reading-audio-controls">
-                <button type="button" class="reading-btn-speaker" id="readingPlayAudioBtn" onclick="playReadingSentenceAudio(readingFilteredList[readingCurrentIndex])" title="Nghe phát âm câu (Space)">
-                  🔊 Nghe
-                </button>
-                <button type="button" class="reading-btn-speed" id="readingSpeedBtn" onclick="toggleReadingSpeed()" title="Đổi tốc độ đọc">
-                  ${readingPrefs.speechSpeed}x
-                </button>
-                <button type="button" class="reading-btn-dictation ${readingPrefs.dictationMode ? 'active' : ''}" onclick="toggleReadingDictation()" title="Luyện chép chính tả">
-                  ✍️ Chép chính tả
-                </button>
-              </div>
+      <!-- 4. VOCABULARY IN SENTENCE -->
+      ${(currentEntry.tokens && currentEntry.tokens.length) ? `
+        <div class="sheet-card sheet-vocab-card">
+          <div class="sheet-card-header">
+            <div class="sidebar-header-left">
+              <span class="sidebar-header-icon">📚</span>
+              <span class="sidebar-header-title">Từ vựng trong câu</span>
             </div>
+            <span class="sidebar-hint-tag">Bấm vào từ để xem nghĩa và nghe phát âm</span>
+          </div>
 
-            <!-- VERTICALLY CENTERED CONTENT BODY (Eliminates bottom dead space) -->
-            <div class="reading-passage-body">
-              <!-- MAIN CHINESE SENTENCE -->
-              <div class="reading-zh-hero">
-                ${readingPrefs.dictationMode ? `
-                  <div class="reading-dictation-prompt">
-                    🎧 Chế độ chép chính tả đang bật. Hãy bấm nút <strong>Nghe</strong> và gõ lại câu vào ô bên dưới!
-                  </div>
-                ` : `
-                  <div class="reading-zh-flow" id="readingZhLine">
-                    ${renderCleanTokensHtml(currentEntry)}
-                  </div>
-                `}
-              </div>
-
-              <!-- DICTATION INPUT BOX -->
-              ${readingPrefs.dictationMode ? renderDictationBoxHtml(currentEntry) : ''}
-
-              <!-- SENTENCE TRANSLATIONS (Clear typography hierarchy) -->
-              ${!readingPrefs.dictationMode ? renderSentenceTranslationsHtml(currentEntry) : ''}
-
-              <!-- PRACTICE PANELS (When in practice mode) -->
-              ${readingActiveMode === 'practice' ? renderPracticePanelsHtml(currentEntry) : ''}
-            </div>
-          </section>
-        </main>
-
-        <!-- RIGHT COLUMN: Sidebar Study Materials (40%) -->
-        <aside class="reading-col-sidebar" aria-label="Tài liệu bổ trợ">
-          <!-- 1. VOCABULARY WORD TAGS LIST / GRID (At top of sidebar) -->
-          <div class="sidebar-study-card sidebar-vocab-card">
-            <div class="sidebar-card-header">
-              <div class="sidebar-header-left">
-                <span class="sidebar-header-icon">📚</span>
-                <span class="sidebar-header-title">Từ vựng trong câu</span>
-              </div>
-              <span class="sidebar-hint-tag">Bấm để xem chi tiết</span>
-            </div>
+          <div class="sheet-vocab-list">
             ${renderSidebarVocabGridHtml(currentEntry)}
           </div>
 
-          <!-- 2. DEDICATED DETAIL PANEL FOR SELECTED WORD (Breathing whitespace, no duplicates) -->
-          <div class="sidebar-study-card sidebar-word-detail-card" id="readingWordDetailPanel">
+          <!-- Word Detail micro-panel -->
+          <div class="sheet-word-detail-container" id="readingWordDetailPanel">
             ${renderSidebarWordDetailHtml(currentEntry)}
           </div>
+        </div>
+      ` : ''}
 
-          <!-- 3. HIGHLIGHTED CONSOLIDATED GRAMMAR & EXAM TRAPS BOX -->
-          <div class="sidebar-study-card sidebar-grammar-card">
-            ${renderSidebarGrammarHtml(currentEntry)}
-          </div>
-        </aside>
+      <!-- 5. BOTTOM NAVIGATION CTA -->
+      <div class="sheet-bottom-cta">
+        <button type="button" class="sheet-next-btn" onclick="nextReadingQuestion()">
+          <span>Tiếp tục sang câu tiếp theo</span>
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </section>
+  `;
+}
+
+function renderFooterNavHtml(currentEntry) {
+  return `
+    <footer class="reading-global-footer" role="navigation" aria-label="Điều hướng câu hỏi">
+      <button type="button" class="reading-nav-btn prev-btn" onclick="prevReadingQuestion()" ${readingCurrentIndex === 0 ? 'disabled' : ''} title="Câu trước (← hoặc K)">
+        ← Câu trước
+      </button>
+
+      <div class="reading-footer-middle">
+        <select class="reading-jump-select" aria-label="Chọn nhanh câu hỏi" onchange="jumpToReadingIndex(this.value)">
+          ${readingFilteredList.map((item, idx) => `
+            <option value="${idx}" ${idx === readingCurrentIndex ? 'selected' : ''}>
+              Câu ${idx + 1}/${readingFilteredList.length} · ${getCategoryLabel(item.category)}
+            </option>
+          `).join('')}
+        </select>
       </div>
 
-      <!-- GLOBAL FULL-WIDTH BOTTOM NAVIGATION (Anchored across full workspace) -->
-      <footer class="reading-global-footer" role="navigation" aria-label="Điều hướng câu hỏi">
-        <button type="button" class="reading-nav-btn prev-btn" onclick="prevReadingQuestion()" ${readingCurrentIndex === 0 ? 'disabled' : ''} title="Câu trước (← hoặc K)">
-          ← Câu trước
-        </button>
-
-        <div class="reading-footer-middle">
-          <select class="reading-jump-select" aria-label="Chọn nhanh câu hỏi" onchange="jumpToReadingIndex(this.value)">
-            ${readingFilteredList.map((item, idx) => `
-              <option value="${idx}" ${idx === readingCurrentIndex ? 'selected' : ''}>
-                ${idx + 1}/${readingFilteredList.length} · [${getCategoryLabel(item.category)}] ${item.title || item.zh}
-              </option>
-            `).join('')}
-          </select>
-        </div>
-
-        <button type="button" class="reading-nav-btn next-btn" onclick="nextReadingQuestion()" ${readingCurrentIndex === readingFilteredList.length - 1 ? 'disabled' : ''} title="Câu sau (→ hoặc J)">
-          Câu tiếp theo →
-        </button>
-      </footer>
-    </div>
+      <button type="button" class="reading-nav-btn next-btn" onclick="nextReadingQuestion()" ${readingCurrentIndex === readingFilteredList.length - 1 ? 'disabled' : ''} title="Câu tiếp theo (→ hoặc J)">
+        Câu tiếp theo →
+      </button>
+    </footer>
   `;
+}
+
+function getCategoryBadgeHtml(cat) {
+  switch (cat) {
+    case 'sentence_building': return '<span class="cat-pill cat-building">🧩 Xếp câu</span>';
+    case 'sentence_logic': return '<span class="cat-pill cat-logic">🔀 Logic A-B-C</span>';
+    case 'cloze': return '<span class="cat-pill cat-cloze">📝 Điền từ</span>';
+    case 'paragraph': return '<span class="cat-pill cat-para">📑 Đoạn văn</span>';
+    default: return '<span class="cat-pill">Đọc hiểu</span>';
+  }
 }
 
 function getCategoryLabel(cat) {
@@ -1187,28 +1314,68 @@ function checkPracticeBuilder() {
   const entry = readingFilteredList[readingCurrentIndex];
   if (!entry || !entry.practice || !entry.practice.target_chunks) return;
 
+  if (practiceBuilderSlots.length === 0) {
+    practiceFeedback = {
+      type: 'warning',
+      html: `
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">⚠️</span>
+          <div class="feedback-msg">
+            <strong>Chưa xếp câu:</strong> Hãy bấm chọn các khối từ để ghép câu trước khi kiểm tra!
+          </div>
+        </div>
+      `
+    };
+    renderReadingAnalysisScreen();
+    return;
+  }
+
   const userSentence = practiceBuilderSlots.join('');
   const targetSentence = entry.practice.target_chunks.join('');
 
   if (userSentence === targetSentence) {
     practiceSolved = true;
+    readingExerciseState = 'reviewed';
     practiceFeedback = {
       type: 'success',
-      html: `<span>🎉 <strong>Chính xác xuất sắc!</strong> Trật tự câu hoàn toàn chuẩn ngữ pháp tiếng Trung.</span>`
+      html: `
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">🎉</span>
+          <div class="feedback-msg">
+            <strong>Chính xác xuất sắc!</strong> Trật tự ngữ pháp hoàn toàn chuẩn xác.
+          </div>
+          <button type="button" class="feedback-cta-btn" onclick="nextReadingQuestion()">Câu tiếp theo →</button>
+        </div>
+      `
     };
     playReadingSentenceAudio(entry);
     renderReadingAnalysisScreen();
+    setTimeout(() => {
+      const sheet = document.getElementById('readingExplanationSheet');
+      if (sheet) sheet.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 120);
   } else {
     practiceSolved = false;
     practiceFeedback = {
       type: 'error',
-      html: `<span>❌ <strong>Chưa đúng thứ tự:</strong> Hãy chú ý vị trí của từ chỉ thời gian, trạng ngữ, hoặc cấu trúc ngữ pháp (把/被).</span>`
+      html: `
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">❌</span>
+          <div class="feedback-msg">
+            <strong>Chưa đúng thứ tự:</strong> Hãy đối chiếu vị trí ngữ pháp hoặc thử lại!
+          </div>
+          <div class="feedback-actions">
+            <button type="button" class="feedback-retry-btn" onclick="retryPractice()">↺ Thử lại</button>
+            <button type="button" class="feedback-reveal-btn" onclick="revealExplanationDirectly()">Xem đáp án & giải thích</button>
+          </div>
+        </div>
+      `
     };
     renderReadingAnalysisScreen();
     const slotsArea = document.getElementById('practiceSlotsArea');
     if (slotsArea) {
       slotsArea.classList.add('is-wrong');
-      setTimeout(() => slotsArea.classList.remove('is-wrong'), 400);
+      setTimeout(() => slotsArea && slotsArea.classList.remove('is-wrong'), 450);
     }
   }
 }
@@ -1217,33 +1384,69 @@ function checkPracticeLogicOrder() {
   const entry = readingFilteredList[readingCurrentIndex];
   if (!entry || !entry.practice || !entry.practice.correct_order) return;
 
+  if (practiceBuilderSlots.length === 0) {
+    practiceFeedback = {
+      type: 'warning',
+      html: `
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">⚠️</span>
+          <div class="feedback-msg">
+            <strong>Chưa chọn thứ tự:</strong> Hãy bấm chọn các câu A, B, C theo thứ tự trước khi kiểm tra!
+          </div>
+        </div>
+      `
+    };
+    renderReadingAnalysisScreen();
+    return;
+  }
+
   const userOrder = practiceBuilderSlots.map(item => item.key).join('');
   const targetOrder = entry.practice.correct_order;
 
   if (userOrder === targetOrder) {
     practiceSolved = true;
+    readingExerciseState = 'reviewed';
     practiceFeedback = {
       type: 'success',
       html: `
-        <div>
-          <div>🎉 <strong>Chính xác! Thứ tự chuẩn: ${targetOrder}</strong></div>
-          <div style="font-size:0.86rem; margin-top:4px;">${entry.practice.explanation || ''}</div>
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">🎉</span>
+          <div class="feedback-msg">
+            <strong>Chính xác! Thứ tự chuẩn: ${targetOrder}</strong>
+            <p>${entry.practice.explanation || entry.practice.hint || ''}</p>
+          </div>
+          <button type="button" class="feedback-cta-btn" onclick="nextReadingQuestion()">Câu tiếp theo →</button>
         </div>
       `
     };
     playReadingSentenceAudio(entry);
     renderReadingAnalysisScreen();
+    setTimeout(() => {
+      const sheet = document.getElementById('readingExplanationSheet');
+      if (sheet) sheet.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 120);
   } else {
     practiceSolved = false;
     practiceFeedback = {
       type: 'error',
-      html: `<span>❌ Thứ tự hiện tại chưa đúng logic phát triển của đoạn văn. Hãy kiểm tra các liên từ nối!</span>`
+      html: `
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">❌</span>
+          <div class="feedback-msg">
+            <strong>Chưa chính xác:</strong> Thứ tự "${userOrder}" chưa đúng logic của đoạn văn.
+          </div>
+          <div class="feedback-actions">
+            <button type="button" class="feedback-retry-btn" onclick="retryPractice()">↺ Thử lại</button>
+            <button type="button" class="feedback-reveal-btn" onclick="revealExplanationDirectly()">Xem đáp án & giải thích</button>
+          </div>
+        </div>
+      `
     };
     renderReadingAnalysisScreen();
     const slotsArea = document.getElementById('practiceSlotsArea');
     if (slotsArea) {
       slotsArea.classList.add('is-wrong');
-      setTimeout(() => slotsArea.classList.remove('is-wrong'), 400);
+      setTimeout(() => slotsArea && slotsArea.classList.remove('is-wrong'), 450);
     }
   }
 }
@@ -1253,34 +1456,50 @@ function selectClozeOption(word) {
   if (!entry || !entry.practice) return;
 
   practiceSelectedOption = word;
-  const isCorrect = word === entry.practice.target_word;
   const p = entry.practice;
+  const targetWord = p.target_word || p.correct_answer || '';
+  const isCorrect = (word === targetWord);
 
   if (isCorrect) {
     practiceSolved = true;
+    readingExerciseState = 'reviewed';
     practiceFeedback = {
       type: 'success',
       html: `
-        <div>
-          <div>🎉 <strong>Chính xác!</strong> Từ cần điền là <strong>${word}</strong>.</div>
-          <div style="font-size:0.85rem; margin-top:4px;">${entry.grammar_point ? entry.grammar_point.trap_note : ''}</div>
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">🎉</span>
+          <div class="feedback-msg">
+            <strong>Chính xác!</strong> Từ cần điền là <strong>${word}</strong>.
+          </div>
+          <button type="button" class="feedback-cta-btn" onclick="nextReadingQuestion()">Câu tiếp theo →</button>
         </div>
       `
     };
     playReadingSentenceAudio(entry);
+    renderReadingAnalysisScreen();
+    setTimeout(() => {
+      const sheet = document.getElementById('readingExplanationSheet');
+      if (sheet) sheet.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 120);
   } else {
     practiceSolved = false;
     practiceFeedback = {
       type: 'error',
       html: `
-        <div>
-          <div>❌ Chưa chính xác. Đáp án đúng là <strong>${p.target_word}</strong>.</div>
-          <div style="font-size:0.85rem; margin-top:4px;">${entry.grammar_point ? entry.grammar_point.trap_note : ''}</div>
+        <div class="feedback-banner-content">
+          <span class="feedback-badge-icon">❌</span>
+          <div class="feedback-msg">
+            <strong>Chưa chính xác.</strong> Đáp án đúng là <strong>${targetWord}</strong>.
+          </div>
+          <div class="feedback-actions">
+            <button type="button" class="feedback-retry-btn" onclick="retryPractice()">↺ Thử lại</button>
+            <button type="button" class="feedback-reveal-btn" onclick="revealExplanationDirectly()">Xem giải thích</button>
+          </div>
         </div>
       `
     };
+    renderReadingAnalysisScreen();
   }
-  renderReadingAnalysisScreen();
 }
 
 /**
@@ -1339,13 +1558,38 @@ if (!window._readingKeyHandlerAttached) {
     } else if (e.key === ' ' && !readingPrefs.dictationMode) {
       e.preventDefault();
       const current = readingFilteredList && readingFilteredList[readingCurrentIndex];
-      if (current) playReadingSentenceAudio(current);
-    } else if (e.key === 'Escape' && readingPrefs.zenMode) {
-      e.preventDefault();
-      toggleZenMode();
+      if (current && (readingExerciseState === 'reviewed' || readingActiveMode === 'breakdown')) {
+        playReadingSentenceAudio(current);
+      }
+    } else if (e.key === 'Escape') {
+      if (readingSettingsMenuOpen) {
+        toggleReadingSettingsMenu();
+      } else if (readingPrefs.zenMode) {
+        e.preventDefault();
+        toggleZenMode();
+      }
     }
   });
 }
+
+// Close settings popover on click outside
+document.addEventListener('click', (e) => {
+  if (readingSettingsMenuOpen) {
+    const wrapper = document.getElementById('readingSettingsWrapper');
+    if (wrapper && !wrapper.contains(e.target)) {
+      readingSettingsMenuOpen = false;
+      const menu = document.getElementById('readingSettingsMenu');
+      const btn = document.getElementById('readingSettingsBtn');
+      if (menu) menu.style.display = 'none';
+      if (btn) {
+        btn.setAttribute('aria-expanded', 'false');
+        btn.classList.remove('active');
+        const arrow = btn.querySelector('.settings-arrow');
+        if (arrow) arrow.textContent = '▾';
+      }
+    }
+  }
+});
 
 // Global Exports
 window.startReadingAnalysis = startReadingAnalysis;
@@ -1363,6 +1607,9 @@ window.toggleReadingGrammarExpand = toggleReadingGrammarExpand;
 window.toggleReadingDictation = toggleReadingDictation;
 window.toggleReadingSpeed = toggleReadingSpeed;
 window.toggleZenMode = toggleZenMode;
+window.toggleReadingSettingsMenu = toggleReadingSettingsMenu;
+window.retryPractice = retryPractice;
+window.revealExplanationDirectly = revealExplanationDirectly;
 window.playReadingSentenceAudio = playReadingSentenceAudio;
 window.selectReadingWord = selectReadingWord;
 window.inspectToken = inspectToken;
