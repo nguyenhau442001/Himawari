@@ -31,7 +31,7 @@ const PRECACHE_ASSET_URLS = [
   './assets/js/reading-analysis.js?v=' + ASSET_VERSION,
 ].map(path => (path.startsWith('http') ? path : new URL(path, self.registration.scope).href));
 // Vocabulary/audio JSON lives in its own cache so app deploys don't force every level to re-download.
-const DATA_CACHE_NAME = 'hsk-data-v5';
+const DATA_CACHE_NAME = 'hsk-data-v7';
 const DATA_PATH = new URL('./database/', self.registration.scope).pathname;
 
 self.addEventListener('install', event => {

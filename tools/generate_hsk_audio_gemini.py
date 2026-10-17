@@ -202,7 +202,7 @@ def call_gemini_tts(
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
         "contents": [
-            {"parts": [{"text": f"请用标准普通话朗读：{text}"}]}
+            {"parts": [{"text": text}]}
         ],
         "generationConfig": {
             "responseModalities": ["AUDIO"],
