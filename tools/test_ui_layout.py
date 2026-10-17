@@ -576,6 +576,18 @@ class TestFlashcardIllustrationIntegration(unittest.TestCase):
         normalized = re.sub(r'viewBox=["\']\s*0\s+0\s+240\s*["\']', 'viewBox="0 0 240 240"', malformed)
         self.assertEqual(normalized, '<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">')
 
+    def test_card_visual_col_template_has_no_hidden_attribute_blocker(self):
+        """Template for cardVisualCol and cardSupportingGroup must not contain blocking boolean hidden attribute."""
+        self.assertNotIn('id="cardVisualCol" style="display: none;" hidden', self.flashcard_js,
+                         "cardVisualCol must not have hidden attribute in template which blocks JS rendering")
+        self.assertNotIn('id="cardSupportingGroup" style="display: none;" hidden', self.flashcard_js,
+                         "cardSupportingGroup must not have hidden attribute in template which blocks JS rendering")
+
+    def test_toggle_illustration_preserves_flipped_side(self):
+        """toggleIllustration must ensure card back side is revealed so illustration is immediately visible."""
+        self.assertIn("shouldBeFlipped", self.flashcard_js)
+        self.assertIn("c.classList.add('is-flipped')", self.flashcard_js)
+
 
 def run_tests():
     suite = unittest.TestSuite()

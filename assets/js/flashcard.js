@@ -94,10 +94,10 @@ function buildCardArea() {
           </div>
 
           <!-- Khối thông tin hỗ trợ: Minh họa gợi hình + Cấu tạo chữ (Chỉ hiển thị khi có dữ liệu) -->
-          <div class="card-supporting-group" id="cardSupportingGroup" style="display: none;" hidden>
-            <div class="card-visual-col" id="cardVisualCol" style="display: none;" hidden>
+          <div class="card-supporting-group" id="cardSupportingGroup" style="display: none;">
+            <div class="card-visual-col" id="cardVisualCol" style="display: none;">
               <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
-                <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
+                <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" style="display: none;">
                 <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
               </div>
             </div>
@@ -318,8 +318,27 @@ function toggleIllustration() {
   document.body.classList.toggle('hide-illustrations', !showIllustration);
   document.documentElement.classList.toggle('hide-illustrations', !showIllustration);
   updateCardMoreMenuState();
+
+  const card = document.getElementById('card');
+  const wasFlipped = Boolean(card && card.classList.contains('is-flipped'));
+  const shouldBeFlipped = wasFlipped || showIllustration;
+
   if (typeof render === 'function') {
     render();
+    if (shouldBeFlipped) {
+      const c = document.getElementById('card');
+      const m = document.getElementById('meaning');
+      const ex = document.getElementById('exampleBox');
+      const snd = document.getElementById('soundBtn');
+      if (c) c.classList.add('is-flipped');
+      if (m) m.classList.add('show');
+      if (ex) ex.classList.add('show');
+      if (snd) snd.classList.add('show');
+      const hintEl = document.getElementById('hint');
+      if (hintEl && typeof getCardHintText === 'function') {
+        hintEl.textContent = getCardHintText(true);
+      }
+    }
   }
 }
 window.toggleIllustration = toggleIllustration;
@@ -1065,17 +1084,19 @@ function render(animate) {
     const visualCol = document.getElementById('cardVisualCol');
     const decompWrap = document.getElementById('cardDecompositionWrap');
     if (!group) return;
-    const hasVisual = Boolean(showIllustration && visualCol && visualCol.style.display !== 'none' && !visualCol.hidden);
+    const hasVisual = Boolean(showIllustration && visualCol && visualCol.style.display !== 'none');
     const radsRow = document.getElementById('cardRadicalsRow');
-    const hasDecomp = Boolean(decompWrap && decompWrap.style.display !== 'none' && !decompWrap.hidden && radsRow && radsRow.children && radsRow.children.length > 0);
+    const hasDecomp = Boolean(decompWrap && decompWrap.style.display !== 'none' && radsRow && radsRow.children && radsRow.children.length > 0);
     if (hasVisual || hasDecomp) {
       group.hidden = false;
+      group.removeAttribute('hidden');
       group.style.display = 'flex';
       group.classList.toggle('has-both', Boolean(hasVisual && hasDecomp));
       group.classList.toggle('has-only-visual', Boolean(hasVisual && !hasDecomp));
       group.classList.toggle('has-only-decomp', Boolean(!hasVisual && hasDecomp));
     } else {
       group.hidden = true;
+      group.setAttribute('hidden', '');
       group.style.display = 'none';
       group.classList.remove('has-both', 'has-only-visual', 'has-only-decomp');
     }
@@ -1254,24 +1275,38 @@ function render(animate) {
     if (imgEl && svgEl && typeof getWordIllustration === 'function' && showIllustration) {
       const illu = getWordIllustration(w);
       if (illu && !illu.isFallback && (illu.src || (illu.type === 'svg' && illu.svg))) {
-        if (visualCol) visualCol.style.display = '';
+        if (visualCol) {
+          visualCol.hidden = false;
+          visualCol.removeAttribute('hidden');
+          visualCol.style.display = 'flex';
+        }
         if (frameEl) frameEl.title = 'Minh họa gợi hình';
 
         if (illu.type === 'svg' && illu.svg) {
           svgEl.innerHTML = normalizeSvgViewBox(illu.svg);
           svgEl.hidden = false;
+          svgEl.removeAttribute('hidden');
+          svgEl.style.display = 'flex';
           imgEl.hidden = true;
+          imgEl.setAttribute('hidden', '');
+          imgEl.style.display = 'none';
           imgEl.removeAttribute('src');
           if (frameEl) frameEl.classList.remove('is-loading');
+          syncCardSupportingGroup();
         } else if (illu.src) {
           const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
           if (cachedSvg) {
             // INSTANT RENDER (0ms latency from RAM cache)
             svgEl.innerHTML = normalizeSvgViewBox(cachedSvg);
             svgEl.hidden = false;
+            svgEl.removeAttribute('hidden');
+            svgEl.style.display = 'flex';
             imgEl.hidden = true;
+            imgEl.setAttribute('hidden', '');
+            imgEl.style.display = 'none';
             imgEl.removeAttribute('src');
             if (frameEl) frameEl.classList.remove('is-loading');
+            syncCardSupportingGroup();
           } else {
             // Cache miss: show smooth shimmer without layout shift
             const curWord = w;
@@ -1279,23 +1314,41 @@ function render(animate) {
 
             if (typeof preloadIllustration === 'function') {
               preloadIllustration(illu.src, 'high').then(svgText => {
-                if (typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
+                if (typeof activeStudyWord !== 'undefined' && activeStudyWord && (activeStudyWord === curWord || activeStudyWord.hanzi === curWord.hanzi)) {
                   if (svgText) {
                     svgEl.innerHTML = normalizeSvgViewBox(svgText);
                     svgEl.hidden = false;
+                    svgEl.removeAttribute('hidden');
+                    svgEl.style.display = 'flex';
                     imgEl.hidden = true;
+                    imgEl.setAttribute('hidden', '');
+                    imgEl.style.display = 'none';
                     imgEl.removeAttribute('src');
                   } else {
                     imgEl.onerror = () => {
-                      if (visualCol) visualCol.style.display = 'none';
-                      if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
-                      if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+                      if (visualCol) {
+                        visualCol.style.display = 'none';
+                        visualCol.hidden = true;
+                        visualCol.setAttribute('hidden', '');
+                      }
+                      if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
+                      if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
                       syncCardSupportingGroup();
                     };
                     imgEl.onload = () => {
                       imgEl.hidden = false;
+                      imgEl.removeAttribute('hidden');
+                      imgEl.style.display = 'block';
                       svgEl.hidden = true;
+                      svgEl.setAttribute('hidden', '');
+                      svgEl.style.display = 'none';
                       svgEl.innerHTML = '';
+                      if (visualCol) {
+                        visualCol.hidden = false;
+                        visualCol.removeAttribute('hidden');
+                        visualCol.style.display = 'flex';
+                      }
+                      syncCardSupportingGroup();
                     };
                     imgEl.src = illu.src;
                     imgEl.alt = 'Minh họa gợi hình';
@@ -1304,37 +1357,80 @@ function render(animate) {
                   syncCardSupportingGroup();
                 }
               }).catch(() => {
-                if (visualCol) visualCol.style.display = 'none';
+                imgEl.onerror = () => {
+                  if (visualCol) {
+                    visualCol.style.display = 'none';
+                    visualCol.hidden = true;
+                    visualCol.setAttribute('hidden', '');
+                  }
+                  syncCardSupportingGroup();
+                };
+                imgEl.onload = () => {
+                  imgEl.hidden = false;
+                  imgEl.removeAttribute('hidden');
+                  imgEl.style.display = 'block';
+                  svgEl.hidden = true;
+                  svgEl.setAttribute('hidden', '');
+                  svgEl.style.display = 'none';
+                  svgEl.innerHTML = '';
+                  if (visualCol) {
+                    visualCol.hidden = false;
+                    visualCol.removeAttribute('hidden');
+                    visualCol.style.display = 'flex';
+                  }
+                  syncCardSupportingGroup();
+                };
+                imgEl.src = illu.src;
+                imgEl.alt = 'Minh họa gợi hình';
                 if (frameEl) frameEl.classList.remove('is-loading');
                 syncCardSupportingGroup();
               });
             } else {
               imgEl.onerror = () => {
-                if (visualCol) visualCol.style.display = 'none';
-                if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
-                if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+                if (visualCol) {
+                  visualCol.style.display = 'none';
+                  visualCol.hidden = true;
+                  visualCol.setAttribute('hidden', '');
+                }
                 syncCardSupportingGroup();
               };
               imgEl.onload = () => {
                 imgEl.hidden = false;
+                imgEl.removeAttribute('hidden');
+                imgEl.style.display = 'block';
                 svgEl.hidden = true;
+                svgEl.setAttribute('hidden', '');
+                svgEl.style.display = 'none';
                 svgEl.innerHTML = '';
+                if (visualCol) {
+                  visualCol.hidden = false;
+                  visualCol.removeAttribute('hidden');
+                  visualCol.style.display = 'flex';
+                }
+                syncCardSupportingGroup();
               };
               imgEl.src = illu.src;
               imgEl.alt = 'Minh họa gợi hình';
               if (frameEl) frameEl.classList.remove('is-loading');
+              syncCardSupportingGroup();
             }
           }
         }
       } else {
-        if (visualCol) visualCol.style.display = 'none';
-        if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
-        if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+        if (visualCol) {
+          visualCol.style.display = 'none';
+          visualCol.hidden = true;
+          visualCol.setAttribute('hidden', '');
+        }
+        if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
+        if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
       }
     } else if (visualCol) {
       visualCol.style.display = 'none';
-      if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
-      if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+      visualCol.hidden = true;
+      visualCol.setAttribute('hidden', '');
+      if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
+      if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
     }
     syncCardSupportingGroup();
 
