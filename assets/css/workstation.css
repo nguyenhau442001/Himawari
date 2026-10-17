@@ -46,6 +46,16 @@ body.review-view-active .quick-quiz-card,
 body.review-view-active .featured-topics,
 body.review-view-active .reading-promo-banner,
 body.review-view-active .graded-reading-promo-banner,
+body.today-reviews-focus-mode .workstation-left,
+body.today-reviews-focus-mode .workstation-right,
+body.today-reviews-focus-mode .app-header,
+body.today-reviews-focus-mode #primaryTabs,
+body.today-reviews-focus-mode #learningDashboard,
+body.today-reviews-focus-mode #continueLearningCard,
+body.today-reviews-focus-mode .dashboard-aux-column,
+body.today-reviews-focus-mode .quick-quiz-card,
+body.today-reviews-focus-mode .featured-topics,
+body.today-reviews-focus-mode .app-footer,
 body.graded-story-active #primaryTabs {
   display: none !important;
 }
@@ -69,7 +79,8 @@ body.graded-story-active #primaryTabs {
   .workstation-middle { grid-area: middle; min-width: 0; }
   body.reading-view-active .workstation,
   body.reading-zen-active .workstation,
-  body.graded-reading-active .workstation {
+  body.graded-reading-active .workstation,
+  body.today-reviews-focus-mode .workstation {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
@@ -79,7 +90,8 @@ body.graded-story-active #primaryTabs {
     grid-template-areas: none !important;
   }
   body.reading-view-active .workstation-middle,
-  body.reading-zen-active .workstation-middle {
+  body.reading-zen-active .workstation-middle,
+  body.today-reviews-focus-mode .workstation-middle {
     max-width: 960px !important;
     margin: 0 auto !important;
     width: 100% !important;
@@ -3302,7 +3314,8 @@ body.flashcard-study-mode .grammar-breakdown-panel[hidden] { display: none !impo
   }
   body.flashcard-study-mode .mobile-bottom-nav,
   body.reading-zen-active .mobile-bottom-nav,
-  body.sentence-game-focus .mobile-bottom-nav {
+  body.sentence-game-focus .mobile-bottom-nav,
+  body.today-reviews-focus-mode .mobile-bottom-nav {
     display: none !important;
   }
   .mobile-nav-item {

@@ -148,6 +148,14 @@ const SpaRouter = (function() {
     }
 
     // 2. Handle main view states
+    if (state.view !== 'todayReviews') {
+      document.body.classList.remove('today-reviews-focus-mode');
+      const todayScreen = document.getElementById('screenTodayReviews');
+      if (todayScreen && todayScreen.style.display !== 'none') {
+        todayScreen.style.display = 'none';
+      }
+    }
+
     if (state.view === 'vocab') {
       const isStudy = document.body.classList.contains('flashcard-study-mode') ||
         (typeof currentLevel !== 'undefined' && currentLevel && document.getElementById('screenCards') && document.getElementById('screenCards').style.display !== 'none');

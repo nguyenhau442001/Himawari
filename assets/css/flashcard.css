@@ -650,12 +650,683 @@
 .today-review-answer .pinyin { margin-top: 6px; }
 .daily-new-limit-message { min-height: 1.2em; margin-top: 6px; color: var(--text-secondary); font-size: 13px; }
 .due-count-badge { display: inline-grid; min-width: 1.6em; height: 1.6em; place-items: center; margin-left: 5px; padding: 0 5px; border-radius: 99px; background: var(--danger-bg); color: var(--danger-text); font-size: 0.85em; }
-.today-review-heading { margin: 16px 0; }
-.today-review-heading h2 { margin-bottom: 4px; }
-.today-review-card { max-width: 640px; margin: 0 auto; padding: 20px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--card-bg); text-align: center; }
-.today-review-level { color: var(--text-secondary); font-size: 13px; }
-.today-review-actions { margin-top: 24px; }
-.today-review-empty { padding: 32px 16px; text-align: center; color: var(--text-secondary); }
+/* ==========================================================================
+   TODAY REVIEWS / QUICK FORGOTTEN REVIEWS — ZEN FOCUS MODE
+   ========================================================================== */
+
+.today-reviews-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+}
+
+/* Top bar navigation */
+.today-review-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 2px;
+}
+
+.today-review-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-primary);
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: all 140ms ease;
+  flex-shrink: 0;
+}
+
+.today-review-back-btn:hover {
+  background: var(--surface-subtle);
+  border-color: var(--border-strong);
+  transform: translateX(-1px);
+}
+
+.today-review-title-cluster {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.today-review-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.today-review-zen-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--accent-light);
+  color: var(--accent-text);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  border: 1px solid rgba(249, 115, 22, 0.25);
+}
+
+.today-review-top-meta {
+  flex-shrink: 0;
+}
+
+.today-review-counter-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+/* Progress bar section */
+.today-review-progress-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px 18px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.today-review-progress-track {
+  width: 100%;
+  height: 8px;
+  background: var(--progress-track, var(--surface-subtle));
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.today-review-progress-bar {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent-gradient, linear-gradient(135deg, #f97316 0%, #ea580c 100%));
+  transition: width 240ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.today-review-progress-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.today-review-progress-text {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.today-review-progress-pct {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Card Arena */
+.today-review-arena {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.today-review-card {
+  width: 100%;
+  min-height: 420px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 32px 32px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 16px 36px -4px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
+  box-sizing: border-box;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.today-review-card:not(.is-revealed) {
+  cursor: pointer;
+}
+
+.today-review-card:not(.is-revealed):hover {
+  border-color: var(--accent);
+  box-shadow: 0 20px 44px -4px rgba(234, 88, 12, 0.14), 0 4px 16px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Card Header: Level Badge and Lapse Pill */
+.today-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 32px;
+}
+
+.today-level-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  border: 1px solid currentColor;
+}
+
+/* Level badge color variants */
+.today-level-badge.lvl-hsk1 { background: rgba(16, 185, 129, 0.12); color: #047857; border-color: rgba(16, 185, 129, 0.35); }
+.today-level-badge.lvl-hsk2 { background: rgba(2, 132, 199, 0.12); color: #0284c7; border-color: rgba(2, 132, 199, 0.35); }
+.today-level-badge.lvl-hsk3 { background: rgba(234, 88, 12, 0.12); color: #c2410c; border-color: rgba(234, 88, 12, 0.35); }
+.today-level-badge.lvl-hsk4 { background: rgba(124, 58, 237, 0.12); color: #7c3aed; border-color: rgba(124, 58, 237, 0.35); }
+.today-level-badge.lvl-hsk5 { background: rgba(225, 29, 72, 0.12); color: #be185d; border-color: rgba(225, 29, 72, 0.35); }
+.today-level-badge.lvl-hsk6 { background: rgba(220, 38, 38, 0.12); color: #dc2626; border-color: rgba(220, 38, 38, 0.35); }
+
+@media (prefers-color-scheme: dark) {
+  .today-level-badge.lvl-hsk1 { background: rgba(16, 185, 129, 0.2); color: #34d399; }
+  .today-level-badge.lvl-hsk2 { background: rgba(2, 132, 199, 0.2); color: #38bdf8; }
+  .today-level-badge.lvl-hsk3 { background: rgba(249, 115, 22, 0.2); color: #fb923c; }
+  .today-level-badge.lvl-hsk4 { background: rgba(139, 92, 246, 0.2); color: #a78bfa; }
+  .today-level-badge.lvl-hsk5 { background: rgba(244, 63, 94, 0.2); color: #fb7185; }
+  .today-level-badge.lvl-hsk6 { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+}
+
+:root[data-theme="dark"] .today-level-badge.lvl-hsk1 { background: rgba(16, 185, 129, 0.2); color: #34d399; }
+:root[data-theme="dark"] .today-level-badge.lvl-hsk2 { background: rgba(2, 132, 199, 0.2); color: #38bdf8; }
+:root[data-theme="dark"] .today-level-badge.lvl-hsk3 { background: rgba(249, 115, 22, 0.2); color: #fb923c; }
+:root[data-theme="dark"] .today-level-badge.lvl-hsk4 { background: rgba(139, 92, 246, 0.2); color: #a78bfa; }
+:root[data-theme="dark"] .today-level-badge.lvl-hsk5 { background: rgba(244, 63, 94, 0.2); color: #fb7185; }
+:root[data-theme="dark"] .today-level-badge.lvl-hsk6 { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+
+.today-lapse-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--warning-bg);
+  color: var(--warning-text);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+/* Center area of card */
+.today-card-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+  gap: 16px;
+  min-height: 220px;
+  text-align: center;
+}
+
+.today-card-hanzi {
+  font-size: clamp(3.5rem, 9vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+}
+
+/* Front flip affordance */
+.today-card-flip-cue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.today-flip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px dashed var(--border-strong);
+  background: var(--surface-subtle);
+  color: var(--text-secondary);
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.today-flip-btn:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent-text);
+  transform: translateY(-1px);
+}
+
+.today-flip-btn kbd {
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+/* Answer details revealed */
+.today-card-answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 540px;
+  animation: todayAnswerFadeIn 220ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+@keyframes todayAnswerFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.today-pinyin-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.today-card-pinyin {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+}
+
+.today-speak-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface-subtle);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.today-speak-btn:hover {
+  background: var(--accent-light);
+  color: var(--accent-text);
+  border-color: var(--accent);
+  transform: scale(1.06);
+}
+
+.today-speak-btn.speaking {
+  background: var(--accent-light);
+  color: var(--accent-text);
+  border-color: var(--accent);
+  animation: todayPulse 1s infinite alternate;
+}
+
+@keyframes todayPulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+.today-card-meaning {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.45;
+}
+
+.today-card-example {
+  margin-top: 6px;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.today-example-zh {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.today-example-vi {
+  margin: 5px 0 0;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+}
+
+/* Card Actions / Rating Area */
+.today-card-actions {
+  width: 100%;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.today-reveal-wrap {
+  width: 100%;
+}
+
+.today-btn-reveal {
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 14px;
+  border: none;
+  background: var(--accent-gradient, linear-gradient(135deg, #f97316 0%, #ea580c 100%));
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(234, 88, 12, 0.25);
+  transition: all 140ms ease;
+}
+
+.today-btn-reveal:hover {
+  background: var(--accent-gradient-hover, linear-gradient(135deg, #fb923c 0%, #f97316 100%));
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(234, 88, 12, 0.35);
+}
+
+.today-key-hint {
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Rating row: Ergonomic split Chưa nhớ (Left) vs Đã nhớ (Right) */
+.today-rating-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+}
+
+.today-rating-btn {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 10px 18px;
+  border-radius: 16px;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+  transition: all 140ms ease;
+  user-select: none;
+}
+
+.today-rating-btn:hover {
+  transform: translateY(-1.5px);
+}
+
+.today-rating-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.today-rating-main {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.today-rating-sub {
+  font-size: 0.78rem;
+  font-weight: 600;
+  opacity: 0.85;
+  margin-top: 2px;
+}
+
+/* Chưa nhớ (Again) styling */
+.today-rating-btn--again {
+  background: var(--danger-bg);
+  border-color: rgba(239, 68, 68, 0.35);
+  color: var(--danger-text);
+}
+
+.today-rating-btn--again:hover {
+  background: rgba(239, 68, 68, 0.18);
+  border-color: var(--danger-text);
+  box-shadow: 0 6px 18px rgba(239, 68, 68, 0.2);
+}
+
+/* Đã nhớ (Good) styling */
+.today-rating-btn--good {
+  background: var(--success-bg);
+  border-color: rgba(34, 197, 94, 0.35);
+  color: var(--success-text);
+}
+
+.today-rating-btn--good:hover {
+  background: rgba(34, 197, 94, 0.18);
+  border-color: var(--success-text);
+  box-shadow: 0 6px 18px rgba(34, 197, 94, 0.2);
+}
+
+/* Keyboard shortcuts footer on desktop */
+.today-review-footer-bar {
+  display: flex;
+  justify-content: center;
+  padding: 6px 0;
+}
+
+.today-review-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.today-review-shortcuts .shortcut-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.today-review-shortcuts kbd {
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Celebration card on review complete */
+.today-review-celebration-card {
+  width: 100%;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 16px 36px -4px rgba(15, 23, 42, 0.08);
+  animation: todayAnswerFadeIn 280ms cubic-bezier(0.2, 0, 0.2, 1);
+  box-sizing: border-box;
+}
+
+.today-celebration-icon {
+  font-size: 3.8rem;
+  line-height: 1;
+  margin-bottom: 14px;
+  animation: celebrationBounce 1s infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.today-celebration-title {
+  margin: 0 0 10px;
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.today-celebration-desc {
+  margin: 0 0 24px;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 440px;
+}
+
+.today-celebration-stat {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 18px;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  margin-bottom: 28px;
+}
+
+.today-celebration-stat .stat-number {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.today-celebration-stat .stat-label {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.today-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 26px;
+  border-radius: 14px;
+  border: none;
+  background: var(--accent-gradient, linear-gradient(135deg, #f97316 0%, #ea580c 100%));
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(234, 88, 12, 0.25);
+  transition: all 140ms ease;
+}
+
+.today-btn-primary:hover {
+  background: var(--accent-gradient-hover, linear-gradient(135deg, #fb923c 0%, #f97316 100%));
+  transform: translateY(-1px);
+}
+
+/* Loading & Error */
+.today-review-loading,
+.today-review-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  width: 100%;
+  gap: 16px;
+  text-align: center;
+}
+
+.today-loading-spinner {
+  width: 42px;
+  height: 42px;
+  border: 3.5px solid var(--surface-subtle);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: todaySpin 800ms linear infinite;
+}
+
+@keyframes todaySpin {
+  to { transform: rotate(360deg); }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 640px) {
+  .today-review-card {
+    padding: 24px 16px 20px;
+    min-height: 360px;
+    border-radius: 18px;
+  }
+  .today-card-center {
+    padding: 16px 0;
+    min-height: 180px;
+  }
+  .today-card-hanzi {
+    font-size: clamp(3rem, 16vw, 4.5rem);
+  }
+  .today-rating-row {
+    gap: 10px;
+  }
+  .today-rating-btn {
+    min-height: 52px;
+    padding: 8px 10px;
+    gap: 8px;
+  }
+  .today-rating-main {
+    font-size: 0.95rem;
+  }
+  .today-rating-sub {
+    font-size: 0.72rem;
+  }
+  .today-review-footer-bar {
+    display: none;
+  }
+}
 .memory-curve-overlay { position: fixed; z-index: 3000; inset: 0; display: grid; place-items: center; padding: 16px; background: rgb(0 0 0 / 55%); }
 .memory-curve-panel { min-width: 0; padding: 14px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--card-bg); color: var(--text-primary); }
 .memory-curve-panel h2 { margin: 0; font-size: 13px; line-height: 1.4; }

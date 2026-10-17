@@ -466,6 +466,42 @@ class TestHtmlStructureAndSemantics(unittest.TestCase):
                          f"Duplicate element IDs found in index.html: {sorted(duplicates)}")
 
 
+class TestTodayReviewZenMode(unittest.TestCase):
+    """Test Zen Focus Mode for Today's and Quick Forgotten Reviews."""
+
+    def setUp(self):
+        self.workstation_css = WORKSTATION_CSS.read_text(encoding="utf-8")
+        self.flashcard_css = FLASHCARD_CSS.read_text(encoding="utf-8")
+        self.index_html = INDEX_HTML.read_text(encoding="utf-8")
+
+    def test_today_review_zen_mode_layout_hides_distractions(self):
+        """Zen Mode must eliminate left/right sidebars and primary navigation tabs."""
+        self.assertIn("body.today-reviews-focus-mode .workstation-left", self.workstation_css)
+        self.assertIn("body.today-reviews-focus-mode .workstation-right", self.workstation_css)
+        self.assertIn("body.today-reviews-focus-mode #primaryTabs", self.workstation_css)
+        self.assertIn("body.today-reviews-focus-mode .mobile-bottom-nav", self.workstation_css)
+
+    def test_today_review_zen_mode_elements_present(self):
+        """Essential Zen review elements (progress bar, back button, arena) must exist."""
+        self.assertIn('id="todayReviewProgressBar"', self.index_html)
+        self.assertIn('id="todayReviewProgressPct"', self.index_html)
+        self.assertIn('id="todayReviewCounterPill"', self.index_html)
+        self.assertIn('class="today-review-back-btn"', self.index_html)
+
+    def test_today_review_rating_button_touch_targets(self):
+        """Ergonomic rating buttons in Zen review must have >= 50px height for finger touch."""
+        rating_h_match = re.search(r"\.today-rating-btn\s*\{[^}]*min-height:\s*(\d+)px", self.flashcard_css)
+        self.assertIsNotNone(rating_h_match, "today-rating-btn must define min-height")
+        min_h = int(rating_h_match.group(1))
+        self.assertGreaterEqual(min_h, 50, f"today-rating-btn min-height ({min_h}px) must be >= 50px")
+
+    def test_today_review_flip_affordance_present(self):
+        """Card flip prompts and reveal actions must be styled in flashcard CSS."""
+        self.assertIn(".today-flip-btn", self.flashcard_css)
+        self.assertIn(".today-btn-reveal", self.flashcard_css)
+        self.assertIn(".today-review-celebration-card", self.flashcard_css)
+
+
 def run_tests():
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
@@ -481,6 +517,7 @@ def run_tests():
     suite.addTests(loader.loadTestsFromTestCase(TestViewportMetaConfiguration))
     suite.addTests(loader.loadTestsFromTestCase(TestAssetAndPwaSynchronization))
     suite.addTests(loader.loadTestsFromTestCase(TestHtmlStructureAndSemantics))
+    suite.addTests(loader.loadTestsFromTestCase(TestTodayReviewZenMode))
 
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(suite)

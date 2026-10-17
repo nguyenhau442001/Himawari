@@ -590,13 +590,48 @@ if ('serviceWorker' in navigator) {
 
   </div>
 
-  <div id="screenTodayReviews" style="display:none">
-    <button class="back-btn" type="button" onclick="SpaRouter.navigateBack()">← Quay lại</button>
-    <div class="today-review-heading">
-      <h2 id="todayReviewTitle">📅 Ôn hôm nay</h2>
-      <p id="todayReviewProgress" role="status"></p>
+  <!-- SCREEN 2: Today reviews & quick forgotten reviews (Zen Focus Mode) -->
+  <div id="screenTodayReviews" class="today-reviews-screen" style="display:none">
+    <header class="today-review-topbar">
+      <button class="today-review-back-btn" type="button" onclick="SpaRouter.navigateBack()" aria-label="Quay lại">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        <span>Quay lại</span>
+      </button>
+
+      <div class="today-review-title-cluster">
+        <h2 id="todayReviewTitle" class="today-review-title">Ôn nhanh từ hay quên</h2>
+        <span class="today-review-zen-tag" title="Chế độ tập trung (Zen Mode)">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <span>Tập trung</span>
+        </span>
+      </div>
+
+      <div class="today-review-top-meta">
+        <span id="todayReviewCounterPill" class="today-review-counter-pill">1 / 25</span>
+      </div>
+    </header>
+
+    <div class="today-review-progress-section" aria-label="Tiến độ ôn tập">
+      <div class="today-review-progress-track">
+        <div class="today-review-progress-bar" id="todayReviewProgressBar" style="width: 0%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+      </div>
+      <div class="today-review-progress-meta">
+        <span id="todayReviewProgress" class="today-review-progress-text" role="status">Đang tải...</span>
+        <span id="todayReviewProgressPct" class="today-review-progress-pct">0%</span>
+      </div>
     </div>
-    <div id="todayReviewCardArea"></div>
+
+    <main class="today-review-arena" id="todayReviewCardArea" role="main"></main>
+
+    <footer class="today-review-footer-bar">
+      <div class="today-review-shortcuts">
+        <span class="shortcut-item"><kbd>Space</kbd> Lật thẻ</span>
+        <span class="shortcut-item"><kbd>1</kbd> / <kbd>←</kbd> Chưa nhớ</span>
+        <span class="shortcut-item"><kbd>2</kbd> / <kbd>→</kbd> Đã nhớ</span>
+        <span class="shortcut-item"><kbd>P</kbd> Phát âm</span>
+        <span class="shortcut-item"><kbd>Esc</kbd> Thoát</span>
+      </div>
+    </footer>
   </div>
 
   <!-- SCREEN 3: Radical hub -->
