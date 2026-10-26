@@ -15,6 +15,7 @@
 - Only create a commit when I explicitly ask.
 - When I ask for a commit, commit directly on `main`.
 - Keep commits small and focused.
+- Always write commit messages in English.
 
 ## Dangerous Git Commands
 
