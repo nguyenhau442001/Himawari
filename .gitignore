@@ -439,3 +439,9 @@ FodyWeavers.xsd
 
 # TTS audio review scratch files
 database/prebuilt_audio/**/review/
+
+.DS_Store
+*.DS_Store
+books/
+exam_materials/
+*.zip

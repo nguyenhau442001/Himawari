@@ -110,11 +110,8 @@ function setPrimaryTab(tab, options) {
   });
   const mobVocab = document.getElementById('mobNavVocab');
   const mobReview = document.getElementById('mobNavReview');
-  const mobProfile = document.getElementById('mobNavProfile');
   if (mobVocab) mobVocab.classList.toggle('active', tab === 'vocab');
   if (mobReview) mobReview.classList.toggle('active', tab === 'review');
-  if (mobProfile) mobProfile.classList.remove('active');
-  if (typeof closeMobileStatsSheet === 'function') closeMobileStatsSheet();
   const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz', 'reading', 'gradedReading'].includes(tab);
   const isGame = ['sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
   document.body.classList.toggle('is-game-view', isGame);
@@ -131,10 +128,6 @@ function setPrimaryTab(tab, options) {
   if (gamesMenu) {
     gamesMenu.open = false;
     gamesMenu.classList.toggle('has-active-tool', isTool);
-  }
-  const versionControls = document.getElementById('pickerVersionControls');
-  if (versionControls) {
-    versionControls.hidden = (tab !== 'vocab') || (vocabSubTab !== 'level');
   }
   const dashboard = document.getElementById('learningDashboard');
   if (dashboard) dashboard.style.display = tab === 'vocab' ? '' : 'none';
@@ -343,36 +336,3 @@ document.addEventListener('click', event => {
     menu.open = false;
   }
 });
-
-// Close primary tools & games menu on Escape and return focus to trigger
-document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' || event.key === 'Esc') {
-    const menu = document.getElementById('primaryGamesMenu');
-    if (menu && menu.open) {
-      menu.open = false;
-      const trigger = menu.querySelector('.primary-menu-trigger');
-      if (trigger) trigger.focus();
-    }
-  }
-});
-
-// Sync aria-expanded state on toggle
-(function initPrimaryMenuAria() {
-  function bindToggle() {
-    const menu = document.getElementById('primaryGamesMenu');
-    if (menu) {
-      menu.addEventListener('toggle', () => {
-        const trigger = menu.querySelector('.primary-menu-trigger');
-        if (trigger) {
-          trigger.setAttribute('aria-expanded', String(menu.open));
-        }
-      });
-    }
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', bindToggle);
-  } else {
-    bindToggle();
-  }
-})();
-

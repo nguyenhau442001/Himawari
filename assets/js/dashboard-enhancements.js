@@ -30,24 +30,24 @@ function renderDashboardEnhancements() {
   const target = summary.target;
   if (continuation) {
     if (summary.totalStudied === 0) {
-      document.getElementById('continueLearningTitle').textContent = 'Bắt đầu HSK 1';
-      document.getElementById('continueLearningProgress').textContent = '150 từ nền tảng · Flashcard thông minh';
+      document.getElementById('continueLearningTitle').textContent = 'Bắt đầu học N3 Tổng hợp';
+      document.getElementById('continueLearningProgress').textContent = 'Chinh phục 688 từ vựng cốt lõi JLPT N3 với flashcard thông minh.';
       const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
       if (ctaBtn) {
-        ctaBtn.innerHTML = `Học ngay <span aria-hidden="true">→</span>`;
+        ctaBtn.innerHTML = `Bắt đầu học ngay <span aria-hidden="true">→</span>`;
       }
-      continuation.dataset.level = 'hsk1';
+      continuation.dataset.level = 'n3_all';
     } else if (target) {
       const cfg = LEVELS[target.level];
       const ratio = `${target.known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ`;
       const pctStr = typeof formatProgressPercent === 'function'
         ? formatProgressPercent(target.known, cfg.total)
         : `${Math.round(target.known / cfg.total * 100)}%`;
-      document.getElementById('continueLearningTitle').textContent = `Học tiếp ${cfg.label}`;
+      document.getElementById('continueLearningTitle').textContent = `Tiếp tục học ${cfg.label}`;
       document.getElementById('continueLearningProgress').textContent = `${ratio} · ${pctStr} hoàn thành`;
       const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
       if (ctaBtn) {
-        ctaBtn.innerHTML = `Học ngay <span aria-hidden="true">→</span>`;
+        ctaBtn.innerHTML = `Tiếp tục bài học <span aria-hidden="true">→</span>`;
       }
       continuation.dataset.level = target.level;
     }
@@ -56,7 +56,7 @@ function renderDashboardEnhancements() {
   const activity = readStudyActivity();
   const today = localDateKey(new Date());
   const todayWords = new Set(dayWordCount(activity.days[today]) ? activity.days[today].words : []);
-  ['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'].forEach(level => {
+  (typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['n3_all', 'n3_verbs', 'n3_nouns', 'n3_adjectives', 'n3_adverbs', 'n3_katakana', 'n3_kanji_minna', 'n3_kanji_all']).forEach(level => {
     const card = document.querySelector(`.level-card[data-level="${level}"]`);
     if (!card || !LEVELS[level]) return;
     const cfg = LEVELS[level];

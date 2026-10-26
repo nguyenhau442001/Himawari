@@ -462,8 +462,7 @@ function speakCurrentSentence() {
   if (!entry || !entry.sentence_zh) return;
   const speakBtn = document.getElementById('sentenceGameSpeakBtn');
   if (typeof speakText === 'function') {
-    const rate = typeof exampleSpeechSpeed !== 'undefined' ? exampleSpeechSpeed : 0.8;
-    speakText(entry.sentence_zh, speakBtn, rate);
+    speakText(entry.sentence_zh, speakBtn, SPEECH_RATE || 0.85);
   }
 }
 

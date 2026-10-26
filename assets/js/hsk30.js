@@ -54,9 +54,9 @@ function renderHsk30Grid() {
       : (cfg.total > 0 ? `${parseFloat(rawPct.toFixed(3))}%` : '0%');
     const complete = known >= cfg.total;
     const isLearning = known > 0 && !complete;
-    const shortLabel = 'HSK' + key.replace('hsk30_', '');
-    const metaText = `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} từ`;
-    const tooltip = `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} từ (${pctStr})`;
+    const shortLabel = cfg.label;
+    const metaText = `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} mục`;
+    const tooltip = `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} mục (${pctStr})`;
 
     const statusBadge = complete
       ? '<span class="level-status-badge is-complete">✓ Hoàn thành</span>'

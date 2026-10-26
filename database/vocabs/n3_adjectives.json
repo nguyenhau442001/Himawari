@@ -1,0 +1,716 @@
+[
+  {
+    "id": 1,
+    "orig_id": "551",
+    "hanzi": "濃い",
+    "pinyin": "こい",
+    "hanviet": "NỒNG",
+    "meaning": "đậm, đặc",
+    "example_zh": "色・味・ひげ・… 薄い",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 2,
+    "orig_id": "552",
+    "hanzi": "薄い",
+    "pinyin": "うすい",
+    "hanviet": "BẠC",
+    "meaning": "nhạt, mỏng",
+    "example_zh": "厚い",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 3,
+    "orig_id": "553",
+    "hanzi": "酸っぱい",
+    "pinyin": "すっぱい",
+    "hanviet": "TOAN",
+    "meaning": "chua",
+    "example_zh": "酸っぱいにおい",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 4,
+    "orig_id": "554",
+    "hanzi": "臭い",
+    "pinyin": "くさい",
+    "hanviet": "XÚ",
+    "meaning": "thối",
+    "example_zh": "納豆は臭いから…",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 5,
+    "orig_id": "555",
+    "hanzi": "おかしい",
+    "pinyin": "おかしい",
+    "hanviet": "",
+    "meaning": "buồn cười, kỳ",
+    "example_zh": "おかしいことを言って、みんなを笑わせる パソコンの調子が おかしい (lạ, kỳ quặc) …ずっと様子が おかしい (cứ sao sao)",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 6,
+    "orig_id": "556",
+    "hanzi": "かっこいい",
+    "pinyin": "かっこいい",
+    "hanviet": "",
+    "meaning": "ngầu",
+    "example_zh": "かっこ悪い",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 7,
+    "orig_id": "557",
+    "hanzi": "うまい",
+    "pinyin": "うまい",
+    "hanviet": "",
+    "meaning": "giỏi, ngon",
+    "example_zh": "料理がうまい うまく話せて うまくいっていない (k suôn sẻ)",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 8,
+    "orig_id": "558",
+    "hanzi": "親しい",
+    "pinyin": "したしい",
+    "hanviet": "THÂN",
+    "meaning": "thân thiết",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 9,
+    "orig_id": "559",
+    "hanzi": "詳しい",
+    "pinyin": "くわしい",
+    "hanviet": "TƯỜNG",
+    "meaning": "cụ thể, chi tiết",
+    "example_zh": "詳しく説明してください",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 10,
+    "orig_id": "560",
+    "hanzi": "細かい",
+    "pinyin": "こまいかい",
+    "hanviet": "TẾ",
+    "meaning": "nhỏ, lẻ",
+    "example_zh": "こぜに",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 11,
+    "orig_id": "561",
+    "hanzi": "浅い",
+    "pinyin": "あさい",
+    "hanviet": "THIỂN",
+    "meaning": "nông",
+    "example_zh": "眠り・経験・知識・関係・付き合い ・…",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 12,
+    "orig_id": "562",
+    "hanzi": "硬い／固い",
+    "pinyin": "かたい",
+    "hanviet": "CỐ/NGẠNH",
+    "meaning": "cứng",
+    "example_zh": "頭が固い (cứng đầu) 固く禁止 (cấm tuyệt đối) 頑張れば夢は実現すると 固く信じている (tin chắc sẽ làm được) 表情／文章／内容…",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 13,
+    "orig_id": "563",
+    "hanzi": "ぬるい",
+    "pinyin": "ぬるい",
+    "hanviet": "",
+    "meaning": "nguội",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 14,
+    "orig_id": "564",
+    "hanzi": "まぶしい",
+    "pinyin": "まぶしい",
+    "hanviet": "",
+    "meaning": "chói",
+    "example_zh": "太陽がまぶしい まぶしいほど美しい (đẹp rạng rỡ)",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 15,
+    "orig_id": "565",
+    "hanzi": "蒸し暑い",
+    "pinyin": "むしあつい",
+    "hanviet": "CHƯNG THỦ",
+    "meaning": "oi bức",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 16,
+    "orig_id": "566",
+    "hanzi": "清潔な",
+    "pinyin": "せいけつな",
+    "hanviet": "THANH KHIẾT",
+    "meaning": "sạch sẽ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 17,
+    "orig_id": "567",
+    "hanzi": "新鮮な",
+    "pinyin": "しんせんな",
+    "hanviet": "TÂN TIÊN",
+    "meaning": "tươi",
+    "example_zh": "新鮮な空気 (không khí trong lành) を胸いっぱいに吸い込んだ 新鮮な気持ち",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 18,
+    "orig_id": "568",
+    "hanzi": "豊かな",
+    "pinyin": "ゆたかな",
+    "hanviet": "PHONG",
+    "meaning": "trù phú, đa dạng",
+    "example_zh": "豊かな資源／生活／心／表情／…",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 19,
+    "orig_id": "569",
+    "hanzi": "立派な",
+    "pinyin": "りっぱな",
+    "hanviet": "LẬP PHÁI",
+    "meaning": "Lập phái",
+    "example_zh": "xuất chúng, tuyệt vời 立派な大人 (người trưởng thành) いじめは、 立派な 犯罪だ (chính xác là)",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 20,
+    "orig_id": "570",
+    "hanzi": "正確な",
+    "pinyin": "せいかくな",
+    "hanviet": "CHÍNH XÁC",
+    "meaning": "chính xác",
+    "example_zh": "時間に正確",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 21,
+    "orig_id": "571",
+    "hanzi": "確かな",
+    "pinyin": "たしかめな",
+    "hanviet": "XÁC",
+    "meaning": "xác thực",
+    "example_zh": "確かな事実",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 22,
+    "orig_id": "572",
+    "hanzi": "重要な",
+    "pinyin": "じゅうような",
+    "hanviet": "TRỌNG YẾU",
+    "meaning": "quan trọng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 23,
+    "orig_id": "573",
+    "hanzi": "必要な",
+    "pinyin": "ひつような",
+    "hanviet": "TẤT YẾU",
+    "meaning": "cần thiết",
+    "example_zh": "必要がある",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 24,
+    "orig_id": "574",
+    "hanzi": "もったいな",
+    "pinyin": "もったいな",
+    "hanviet": "",
+    "meaning": "lãng phí",
+    "example_zh": "流行おくれでもまだ着られる服ウィ捨てるのは、もったいない",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 25,
+    "orig_id": "575",
+    "hanzi": "すごい",
+    "pinyin": "すごい",
+    "hanviet": "",
+    "meaning": "khủng, giỏi, tuyệt",
+    "example_zh": "すごく拍手",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 26,
+    "orig_id": "576",
+    "hanzi": "ひどい",
+    "pinyin": "ひどい",
+    "hanviet": "",
+    "meaning": "tồi tệ, khủng khiếp",
+    "example_zh": "二人の女性と同時に付き合っていたなんて、ひどい男だ ひどく悪い",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 27,
+    "orig_id": "577",
+    "hanzi": "激しい",
+    "pinyin": "はげしい",
+    "hanviet": "KÍCH",
+    "meaning": "mãnh liệt, ác liệt",
+    "example_zh": "入試に失敗して、今まで勉強しなかったことを激しく後悔した",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 28,
+    "orig_id": "578",
+    "hanzi": "そっくりな",
+    "pinyin": "そっくりな",
+    "hanviet": "",
+    "meaning": "nhìn giống",
+    "example_zh": "母親とそっきりになった 友達だと思って声をかけたら、そっきりな別人だった",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 29,
+    "orig_id": "579",
+    "hanzi": "急な",
+    "pinyin": "きゅうな",
+    "hanviet": "CẤP",
+    "meaning": "gấp, đột nhiên",
+    "example_zh": "この川は流れが急だ",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 30,
+    "orig_id": "580",
+    "hanzi": "適当な",
+    "pinyin": "てきとうな",
+    "hanviet": "THÍCH ĐƯƠNG",
+    "meaning": "thích đáng, phù hợp",
+    "example_zh": "適当な人",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 31,
+    "orig_id": "581",
+    "hanzi": "特別な",
+    "pinyin": "とくべつな",
+    "hanviet": "ĐẶC BIỆT",
+    "meaning": "đặc biệt",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 32,
+    "orig_id": "582",
+    "hanzi": "完全な",
+    "pinyin": "かんぜんな",
+    "hanviet": "HOÀN TOÀN",
+    "meaning": "hoàn toàn, tất cả",
+    "example_zh": "完全に失敗してしまった",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 33,
+    "orig_id": "583",
+    "hanzi": "盛んな",
+    "pinyin": "さかんな",
+    "hanviet": "THỊNH",
+    "meaning": "農業が盛んだ 盛んな拍手",
+    "example_zh": "thịnh vượng, lớn, thường xuyên",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 34,
+    "orig_id": "584",
+    "hanzi": "様々な",
+    "pinyin": "さまざまな",
+    "hanviet": "DẠNG",
+    "meaning": "đa dạng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 35,
+    "orig_id": "585",
+    "hanzi": "可能な",
+    "pinyin": "かのうな",
+    "hanviet": "KHẢ NĂNG",
+    "meaning": "khả thi, có thể",
+    "example_zh": "成功のためには可能な限り何でもするつもりだ",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 36,
+    "orig_id": "586",
+    "hanzi": "不可能な",
+    "pinyin": "ぶかのうな",
+    "hanviet": "BẤT KHẢ NĂNG",
+    "meaning": "không thể",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 37,
+    "orig_id": "587",
+    "hanzi": "基本的な",
+    "pinyin": "きほんてきな",
+    "hanviet": "CƠ BẢN ĐÍCH",
+    "meaning": "cơ bản",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 38,
+    "orig_id": "588",
+    "hanzi": "国際的な",
+    "pinyin": "こくさいてきな",
+    "hanviet": "QUỐC TẾ ĐÍCH",
+    "meaning": "tính quốc tế",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 39,
+    "orig_id": "589",
+    "hanzi": "ばらばらな",
+    "pinyin": "ばらばらな",
+    "hanviet": "",
+    "meaning": "chi rẽ, phân tán",
+    "example_zh": "意見がばらばらな 今は、家族がバラバラに暮らしている",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 40,
+    "orig_id": "590",
+    "hanzi": "ぼろぼろな",
+    "pinyin": "ぼろぼろな",
+    "hanviet": "",
+    "meaning": "rách nất, te tua",
+    "example_zh": "酷い目にあって身も心ボロボロになってしまった",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 41,
+    "orig_id": "",
+    "hanzi": "非常に",
+    "pinyin": "非常",
+    "hanviet": "",
+    "meaning": "",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  },
+  {
+    "id": 42,
+    "orig_id": "",
+    "hanzi": "大変な",
+    "pinyin": "大変な",
+    "hanviet": "",
+    "meaning": "vất vả, khó khăn, kinh khủng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "adj",
+      "label": "Tính từ",
+      "en": "Adjective",
+      "full": "Tính từ N3"
+    }
+  }
+]

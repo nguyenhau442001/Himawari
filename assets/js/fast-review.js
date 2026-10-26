@@ -52,14 +52,14 @@ function selectReviewLevel(level) {
 
   const labelEl = document.getElementById('reviewRangeLabel');
   if (labelEl) {
-    labelEl.textContent = n === 1 ? 'HSK 1' : `HSK 1 – HSK ${n}`;
+    labelEl.textContent = n === 1 ? 'N3 Cốt lõi' : `N3 (Phần 1 – ${n})`;
   }
 
   const subtextEl = document.getElementById('reviewScopeSubtext');
   if (subtextEl) {
     subtextEl.textContent = n === 1
-      ? 'Chỉ ôn từ vựng thuộc cấp độ HSK 1'
-      : `Ôn tập gộp từ vựng từ cấp độ HSK 1 đến HSK ${n}`;
+      ? 'Chỉ ôn từ vựng thuộc N3 Cốt lõi'
+      : `Ôn tập gộp từ vựng từ Phần 1 đến Phần ${n}`;
   }
 
   const countEl = document.getElementById('reviewRangeCount');

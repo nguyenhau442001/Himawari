@@ -95,16 +95,14 @@
   }
 
   /**
-   * Select a Chinese voice with prioritized preference:
-   * 1. zh-CN (Mandarin - Mainland China)
-   * 2. zh-TW (Mandarin - Taiwan)
-   * 3. zh-HK (Chinese - Hong Kong)
-   * 4. Any other Chinese voice (lang starts with 'zh' or 'cmn')
-   * Fallback safely if no Chinese voice exists.
+   * Select a Japanese voice with prioritized preference:
+   * 1. ja-JP (Japanese)
+   * 2. Any voice starting with 'ja'
+   * Fallback safely if no voice exists.
    * @param {SpeechSynthesisVoice[]} [providedVoices]
    * @returns {SpeechSynthesisVoice|null}
    */
-  function getChineseVoice(providedVoices) {
+  function getJapaneseVoice(providedVoices) {
     if (!isSpeechSupported()) return null;
 
     let voices = providedVoices;
@@ -113,41 +111,22 @@
     }
     if (!voices || !voices.length) return null;
 
-    // 1. Prefer zh-CN
+    // 1. Prefer ja-JP
     let voice = voices.find(v =>
-      matchesLangPrefix(v, 'zh-cn') ||
-      matchesLangPrefix(v, 'zh-hans') ||
-      matchesLangPrefix(v, 'cmn-hans') ||
-      matchesLangPrefix(v, 'cmn-cn')
+      matchesLangPrefix(v, 'ja-jp') ||
+      matchesLangPrefix(v, 'ja_jp')
     );
     if (voice) return voice;
 
-    // 2. Prefer zh-TW
+    // 2. Any voice starting with ja
     voice = voices.find(v =>
-      matchesLangPrefix(v, 'zh-tw') ||
-      matchesLangPrefix(v, 'zh-hant') ||
-      matchesLangPrefix(v, 'cmn-hant') ||
-      matchesLangPrefix(v, 'cmn-tw')
+      matchesLangPrefix(v, 'ja')
     );
     if (voice) return voice;
 
-    // 3. Prefer zh-HK
-    voice = voices.find(v =>
-      matchesLangPrefix(v, 'zh-hk') ||
-      matchesLangPrefix(v, 'yue-hk')
-    );
-    if (voice) return voice;
-
-    // 4. Any other Chinese voice starting with zh or cmn
-    voice = voices.find(v =>
-      matchesLangPrefix(v, 'zh') ||
-      matchesLangPrefix(v, 'cmn')
-    );
-    if (voice) return voice;
-
-    // Safe fallback if no Chinese voice exists
     return null;
   }
+  const getChineseVoice = getJapaneseVoice;
 
   /**
    * Stop any ongoing speech synthesis.
@@ -171,7 +150,7 @@
    *
    * @param {string} text - Text to speak.
    * @param {Object} [options]
-   * @param {number} [options.rate=0.8] - Speech rate (0.1 to 2.0).
+   * @param {number} [options.rate=1.0] - Speech rate (0.1 to 2.0).
    * @param {number} [options.pitch=1.0] - Pitch (0 to 2.0).
    * @param {number} [options.volume=1.0] - Volume (0 to 1.0).
    * @param {SpeechSynthesisVoice} [options.voice] - Explicit voice override.
@@ -200,7 +179,7 @@
     stopSpeaking();
 
     const playbackId = activePlaybackId;
-    const rate = typeof options.rate === 'number' ? Math.max(0.1, Math.min(2.0, options.rate)) : 0.8;
+    const rate = typeof options.rate === 'number' ? Math.max(0.1, Math.min(2.0, options.rate)) : 1.0;
     const pitch = typeof options.pitch === 'number' ? Math.max(0, Math.min(2.0, options.pitch)) : 1.0;
     const volume = typeof options.volume === 'number' ? Math.max(0, Math.min(1.0, options.volume)) : 1.0;
 
@@ -212,10 +191,10 @@
 
       if (voice) {
         utterance.voice = voice;
-        utterance.lang = voice.lang || 'zh-CN';
+        utterance.lang = voice.lang || 'ja-JP';
       } else {
         // Safe fallback language tag even if specific voice object was not found
-        utterance.lang = 'zh-CN';
+        utterance.lang = 'ja-JP';
       }
 
       utterance.rate = rate;

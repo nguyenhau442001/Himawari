@@ -1,74 +1,100 @@
-// Shared application configuration and in-memory state.
+// Shared application configuration and in-memory state for JLPT N3.
 const LEVELS = {
-  hsk1: {
-    label: 'HSK1',
-    dataUrl: 'database/vocabs/hsk1_vocabularies.json',
-    audioManifestUrl: 'database/prebuilt_audio/hsk1/manifest.json',
+  n3_all: {
+    label: 'N3 Tổng hợp',
+    dataUrl: 'database/vocabs/n3_all.json',
     available: true,
-    total: 150,
+    total: 688,
+    version: '2.0',
   },
-  hsk2: {
-    label: 'HSK2',
-    dataUrl: 'database/vocabs/hsk2_vocabularies.json',
-    audioManifestUrl: 'database/prebuilt_audio/hsk2/manifest.json',
+  n3_verbs: {
+    label: 'Động từ N3',
+    dataUrl: 'database/vocabs/n3_verbs.json',
     available: true,
-    total: 150,
+    total: 169,
+    version: '2.0',
   },
-  hsk3: {
-    label: 'HSK3',
-    dataUrl: 'database/vocabs/hsk3_vocabularies.json',
-    audioManifestUrl: 'database/prebuilt_audio/hsk3/manifest.json',
+  n3_nouns: {
+    label: 'Danh từ N3',
+    dataUrl: 'database/vocabs/n3_nouns.json',
     available: true,
-    total: 300,
+    total: 82,
+    version: '2.0',
   },
-  hsk4: {
-    label: 'HSK4',
-    dataUrl: 'database/vocabs/hsk4_vocabularies.json',
-    audioManifestUrl: 'database/prebuilt_audio/hsk4/manifest.json',
+  n3_adjectives: {
+    label: 'Tính từ N3',
+    dataUrl: 'database/vocabs/n3_adjectives.json',
     available: true,
-    total: 600,
+    total: 42,
+    version: '2.0',
   },
-  hsk5: { label: 'HSK5', dataUrl: 'database/vocabs/hsk5_vocabularies.json', available: true, total: 1300 },
-  hsk6: { label: 'HSK6', dataUrl: 'database/vocabs/hsk6_vocabularies.json', available: true, total: 2500 },
+  n3_adverbs: {
+    label: 'Phó từ & Liên từ',
+    dataUrl: 'database/vocabs/n3_adverbs.json',
+    available: true,
+    total: 122,
+    version: '2.0',
+  },
+  n3_katakana: {
+    label: 'Katakana N3',
+    dataUrl: 'database/vocabs/n3_katakana.json',
+    available: true,
+    total: 79,
+    version: '2.0',
+  },
+  n3_kanji_minna: {
+    label: 'Hán tự Minna',
+    dataUrl: 'database/vocabs/n3_kanji_minna.json',
+    available: true,
+    total: 225,
+    version: '2.0',
+  },
+  n3_kanji_all: {
+    label: 'Kanji & Từ ghép',
+    dataUrl: 'database/vocabs/n3_kanji_all.json',
+    available: true,
+    total: 924,
+    version: '2.0',
+  },
 };
-Object.keys(LEVELS).forEach(key => { LEVELS[key].version = '2.0'; });
 
-// HSK 3.0 levels (2025 exam syllabus): 9 exam levels in 3 bands
-// (Sơ cấp 1–3, Trung cấp 4–6, Cao cấp 7–9). Separate syllabus from 2.0 above —
-// data/progress never overlap since keys (hsk30_N) share no prefix with hsk1..hsk6.
-// Exam levels 7–9 share the same advanced vocabulary list in the syllabus;
-// separate copies preserve the app's per-level progress storage.
+// Aliases for backwards compatibility with any hardcoded references
+LEVELS.hsk1 = LEVELS.n3_all;
+LEVELS.hsk2 = LEVELS.n3_verbs;
+LEVELS.hsk3 = LEVELS.n3_nouns;
+LEVELS.hsk4 = LEVELS.n3_adjectives;
+LEVELS.hsk5 = LEVELS.n3_adverbs;
+LEVELS.hsk6 = LEVELS.n3_katakana;
+
+// JLPT N3 Grammar & Practice levels (accessible via the switch tab)
 const LEVELS_HSK30 = {
-  hsk30_1: { label: 'HSK 3.0 – 1', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level1_vocabularies.json', available: true, total: 300, version: '3.0' },
-  hsk30_2: { label: 'HSK 3.0 – 2', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level2_vocabularies.json', available: true, total: 200, version: '3.0' },
-  hsk30_3: { label: 'HSK 3.0 – 3', band: 'Sơ cấp', dataUrl: 'database/vocabs/hsk3_0/level3_vocabularies.json', available: true, total: 500, version: '3.0' },
-  hsk30_4: { label: 'HSK 3.0 – 4', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level4_vocabularies.json', available: true, total: 1000, version: '3.0' },
-  hsk30_5: { label: 'HSK 3.0 – 5', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level5_vocabularies.json', available: true, total: 1600, version: '3.0' },
-  hsk30_6: { label: 'HSK 3.0 – 6', band: 'Trung cấp', dataUrl: 'database/vocabs/hsk3_0/level6_vocabularies.json', available: true, total: 1800, version: '3.0' },
-  hsk30_7: { label: 'HSK 3.0 – 7', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level7_vocabularies.json', available: true, total: 5600, version: '3.0', sharedVocabularyGroup: '7–9' },
-  hsk30_8: { label: 'HSK 3.0 – 8', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level8_vocabularies.json', available: true, total: 5600, version: '3.0', sharedVocabularyGroup: '7–9' },
-  hsk30_9: { label: 'HSK 3.0 – 9', band: 'Cao cấp', dataUrl: 'database/vocabs/hsk3_0/level9_vocabularies.json', available: true, total: 5600, version: '3.0', sharedVocabularyGroup: '7–9' },
+  n3_grammar_skz: { label: 'NP Shinkanzen', band: 'Ngữ pháp', dataUrl: 'database/vocabs/n3_grammar_skz.json', available: true, total: 106, version: '3.0' },
+  n3_grammar_mimi: { label: 'NP 耳から覚える', band: 'Ngữ pháp', dataUrl: 'database/vocabs/n3_grammar_mimi.json', available: true, total: 139, version: '3.0' },
+  n3_grammar_minna: { label: 'NP Minna Trung cấp', band: 'Ngữ pháp', dataUrl: 'database/vocabs/n3_grammar_minna.json', available: true, total: 211, version: '3.0' },
+  n3_reading_listening: { label: 'Đọc & Nghe hiểu', band: 'Kỹ năng', dataUrl: 'database/vocabs/n3_reading_listening.json', available: true, total: 264, version: '3.0' },
+  n3_exam_practice: { label: 'Luyện đề Mondai', band: 'Luyện thi', dataUrl: 'database/vocabs/n3_exam_practice.json', available: true, total: 172, version: '3.0' },
 };
 Object.assign(LEVELS, LEVELS_HSK30);
 
 // Topic decks: same word schema as LEVELS, browsed from the "Chủ đề" tab.
-// Keys are prefixed 'topic_' and merged into LEVELS so every existing
-// LEVELS[currentLevel] lookup (speech, overview, progress, backup) works unmodified.
 const TOPICS = {
-  topic_it: { label: 'Công nghệ thông tin', icon: '💻', dataUrl: 'database/vocabs/topics/it.json', available: true, total: 60, isTopic: true },
+  topic_nouns: { label: 'Danh từ N3', icon: '📖', dataUrl: 'database/vocabs/n3_nouns.json', available: true, total: 82, isTopic: true },
+  topic_verbs: { label: 'Động từ N3', icon: '🏃', dataUrl: 'database/vocabs/n3_verbs.json', available: true, total: 169, isTopic: true },
+  topic_adjs: { label: 'Tính từ N3', icon: '✨', dataUrl: 'database/vocabs/n3_adjectives.json', available: true, total: 42, isTopic: true },
+  topic_katakana: { label: 'Katakana N3', icon: '🔤', dataUrl: 'database/vocabs/n3_katakana.json', available: true, total: 79, isTopic: true },
 };
 Object.assign(LEVELS, TOPICS);
 
 function hskLevelKeys() {
-  return Object.keys(LEVELS).filter(key => !TOPICS[key] && !LEVELS_HSK30[key]);
+  return ['n3_all', 'n3_verbs', 'n3_nouns', 'n3_adjectives', 'n3_adverbs', 'n3_katakana', 'n3_kanji_minna', 'n3_kanji_all'];
 }
 
 function hsk30LevelKeys() {
-  return Object.keys(LEVELS_HSK30);
+  return ['n3_grammar_skz', 'n3_grammar_mimi', 'n3_grammar_minna', 'n3_reading_listening', 'n3_exam_practice'];
 }
 const SPEECH_RATE = 0.85;
-const EXAMPLE_SPEECH_SPEEDS = [0.5, 0.75, 0.8, 1, 1.25, 1.5, 1.75, 2];
-const DEFAULT_EXAMPLE_SPEECH_SPEED = 0.8;
+const EXAMPLE_SPEECH_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
+const DEFAULT_EXAMPLE_SPEECH_SPEED = 1;
 
 let currentLevel = null;
 let WORDS = [];
@@ -83,14 +109,6 @@ let showPinyin = true;
 let showHanViet = (function() {
   try {
     const saved = localStorage.getItem('hsk_show_hanviet');
-    return saved !== null ? saved === 'true' : true;
-  } catch (e) {
-    return true;
-  }
-})();
-let showIllustration = (function() {
-  try {
-    const saved = localStorage.getItem('hsk_show_illustrations');
     return saved !== null ? saved === 'true' : true;
   } catch (e) {
     return true;
@@ -156,16 +174,20 @@ function setExampleSpeechSpeed(value) {
   if (speedPicker) speedPicker.open = false;
 }
 
-function pickChineseVoice() {
-  if (typeof getChineseVoice === 'function') return getChineseVoice();
-  if (typeof SpeechService !== 'undefined' && typeof SpeechService.getChineseVoice === 'function') {
-    return SpeechService.getChineseVoice();
+function pickJapaneseVoice() {
+  if (typeof getJapaneseVoice === 'function') return getJapaneseVoice();
+  if (typeof SpeechService !== 'undefined' && typeof SpeechService.getJapaneseVoice === 'function') {
+    return SpeechService.getJapaneseVoice();
   }
   if (!('speechSynthesis' in window)) return null;
   if (!cachedVoices.length) cachedVoices = speechSynthesis.getVoices();
-  return cachedVoices.find(v => v.lang === 'zh-CN')
-    || cachedVoices.find(v => v.lang && v.lang.toLowerCase().startsWith('zh'))
+  return cachedVoices.find(v => v.lang === 'ja-JP' || v.lang === 'ja_JP')
+    || cachedVoices.find(v => v.lang && v.lang.toLowerCase().startsWith('ja'))
     || null;
+}
+
+function pickChineseVoice() {
+  return pickJapaneseVoice();
 }
 if ('speechSynthesis' in window) {
   cachedVoices = speechSynthesis.getVoices();

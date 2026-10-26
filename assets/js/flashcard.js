@@ -6,9 +6,9 @@ function getCardHintText(isFlipped) {
     (navigator.maxTouchPoints > 0)
   );
   if (isTouch) {
-    return isFlipped ? 'Chạm để lật lại' : 'Chạm để lật';
+    return isFlipped ? 'Chạm vào thẻ để ẩn' : 'Chạm vào thẻ để xem nghĩa';
   }
-  return isFlipped ? 'Chạm để lật lại · Space' : 'Chạm để lật · Space';
+  return isFlipped ? 'Nhấn vào thẻ hoặc Space để ẩn' : 'Nhấn vào thẻ hoặc phím Space để xem nghĩa';
 }
 window.getCardHintText = getCardHintText;
 
@@ -16,10 +16,17 @@ function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card">
       <div class="card-header-bar" id="cardHeaderBar" onclick="event.stopPropagation()">
-        <span class="card-position-pill" id="cardPositionBadge">Từ 1 / 300</span>
-        <button type="button" class="card-star-btn" id="weakWordToggleBtn" style="display:none" hidden aria-hidden="true"></button>
+        <div class="card-header-nav">
+          <button type="button" class="card-header-nav-btn" onclick="prevCard()" aria-label="Từ trước" title="Từ trước (←)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
+          <button type="button" class="card-header-nav-btn" onclick="nextCard()" aria-label="Từ tiếp theo" title="Từ tiếp theo (→)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
         <div class="card-more-menu-wrap" id="cardMoreMenuWrap">
-          <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn thẻ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
+          <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn học từ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <circle cx="12" cy="5" r="2.2"/>
               <circle cx="12" cy="12" r="2.2"/>
@@ -47,21 +54,9 @@ function buildCardArea() {
               <span class="dropdown-item-icon">漢</span>
               <span class="dropdown-item-label" id="menuHanvietText">Âm Hán - Việt</span>
             </button>
-            <button type="button" class="card-dropdown-item" id="menuToggleIllustration" onclick="toggleIllustration(); closeCardMoreMenu();" role="menuitem">
-              <span class="dropdown-item-icon" id="menuIllustrationIcon">🖼️</span>
-              <span class="dropdown-item-label" id="menuIllustrationText">Hình minh họa</span>
-            </button>
-            <button type="button" class="card-dropdown-item" id="menuStudyHelp" onclick="openStudyHelpModal(); closeCardMoreMenu();" role="menuitem">
-              <span class="dropdown-item-icon">❓</span>
-              <span class="dropdown-item-label">Hướng dẫn &amp; phím tắt</span>
-            </button>
-            <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(true); closeCardMoreMenu();" role="menuitem">
+            <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon">💾</span>
               <span class="dropdown-item-label">Sao lưu tiến trình</span>
-            </button>
-            <button type="button" class="card-dropdown-item card-dropdown-item--danger" id="menuResetProgress" onclick="resetProgress(); closeCardMoreMenu();" role="menuitem">
-              <span class="dropdown-item-icon">↻</span>
-              <span class="dropdown-item-label">Học lại từ đầu</span>
             </button>
           </div>
         </div>
@@ -69,46 +64,32 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
-        <div class="word-hero-container" id="wordMainBlock">
-          <!-- Chữ Hán to bản ở trung tâm: vững chãi, thoáng đãng, tinh tế -->
-          <div class="hanzi-stage" id="hanziStage" onclick="event.stopPropagation(); toggleStudyWritingPanel(true);" title="Nhấn để luyện viết chữ Hán (W)">
+        <div class="word-main-block split-layout" id="wordMainBlock">
+          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic) -->
+          <div class="card-visual-col" id="cardVisualCol">
+            <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
+              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
+              <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
+            </div>
+          </div>
+
+          <!-- Cột phải: Chữ Hán, Pinyin, Từ loại & Nghĩa -->
+          <div class="card-content-col" id="cardContentCol">
             <div class="hanzi" id="hanzi"></div>
-          </div>
-
-          <!-- Pinyin + Loa phát âm -->
-          <div class="pinyin-row" id="pinyinRow">
-            <span class="pinyin" id="pinyin"></span>
-            <button class="sound-btn speech-btn" id="soundBtn" type="button"
-              onclick="event.stopPropagation(); speakWord()"
-              aria-label="Nghe phát âm" aria-live="polite" title="Nghe phát âm (A)">
-              <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-            </button>
-          </div>
-
-          <!-- Nghĩa tiếng Việt & Ngữ cảnh từ loại -->
-          <div class="meaning" id="meaning"></div>
-          <div class="meta-badges-row" id="metaBadgesRow">
-            <span class="pos-badge" id="posBadge" title="Từ loại"></span>
-            <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
-          </div>
-
-          <!-- Khối thông tin hỗ trợ: Minh họa gợi hình + Cấu tạo chữ (Chỉ hiển thị khi có dữ liệu) -->
-          <div class="card-supporting-group" id="cardSupportingGroup" style="display: none;">
-            <div class="card-visual-col" id="cardVisualCol" style="display: none;">
-              <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
-                <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" style="display: none;">
-                <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
-              </div>
+            <div class="pinyin-row" id="pinyinRow">
+              <div class="pinyin" id="pinyin"></div>
+              <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
+              <span class="pos-badge" id="posBadge" title="Từ loại"></span>
+              <button class="sound-btn speech-btn" id="soundBtn" type="button"
+                onclick="event.stopPropagation(); speakWord()"
+                aria-label="Nghe phát âm" aria-live="polite" title="Nghe phát âm (A)">
+                <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+              </button>
             </div>
-
-            <div class="card-decomposition-wrap" id="cardDecompositionWrap" style="display: none;" hidden>
-              <div class="card-decomp-title">Cấu tạo chữ</div>
-              <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
-            </div>
+            <div class="meaning" id="meaning"></div>
+            <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
           </div>
         </div>
-
-        <!-- Khối ví dụ thực tế -->
         <div class="example-box" id="exampleBox">
           <div class="ex-header-row">
             <span class="ex-label">Ví dụ</span>
@@ -127,7 +108,7 @@ function buildCardArea() {
                 <div class="example-speed-options" role="group" aria-label="Chọn tốc độ đọc câu ví dụ">
                   ${EXAMPLE_SPEECH_SPEEDS.map(speed => `
                     <button class="example-speed-option${speed === exampleSpeechSpeed ? ' selected' : ''}"
-                       type="button" data-speed="${speed}"
+                      type="button" data-speed="${speed}"
                       aria-pressed="${speed === exampleSpeechSpeed}"
                       onclick="event.preventDefault(); setExampleSpeechSpeed(this.dataset.speed)">
                       ${formatExampleSpeechSpeed(speed)}
@@ -141,47 +122,24 @@ function buildCardArea() {
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
-        <div class="card-flip-prompt" id="cardFlipPrompt" onclick="flip()" role="button" tabindex="0" aria-label="Lật thẻ">
-          <span class="card-flip-prompt-icon" aria-hidden="true">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
-            </svg>
-          </span>
-          <span class="hint card-flip-prompt-text" id="hint">${getCardHintText(false)}</span>
-        </div>
+        <div class="hint" id="hint">${getCardHintText(false)}</div>
         <div class="card-empty-state card-interactive" id="cardEmptyState" hidden></div>
       </div>
     </div>
 
-    <!-- Rating actions row: Subtle Filled Buttons with height >= 48px & keyboard shortcuts 1 and 2 -->
+    <div class="nav-row" id="studyNavRow">
+      <button type="button" class="nav-btn nav-btn--prev" onclick="prevCard()" title="Từ trước (←)">← Trước</button>
+      <span class="card-counter" id="cardCounter">0 / 0</span>
+      <button type="button" class="nav-btn nav-btn--next" onclick="nextCard()" title="Từ tiếp theo (→)">Tiếp →</button>
+    </div>
+
     <div class="rating-area" id="ratingArea">
       <div class="rating-row" id="ratingRow" hidden>
         ${ratingButtonsHtml('rateCurrentCard', 'preview-')}
       </div>
     </div>
 
-    <!-- Tactile study navigation controls: Previous, Counter, Next -->
-    <nav class="study-nav-controls" id="studyNavRow" aria-label="Điều hướng thẻ từ vựng">
-      <button type="button" class="study-nav-btn study-nav-btn--prev nav-btn nav-btn--prev" id="prevCardBtn" onclick="prevCard()" title="Từ trước (phím ←)" aria-label="Từ trước">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M19 12H5m7 7l-7-7 7-7"/>
-        </svg>
-        <span>Trước</span>
-      </button>
-      <div class="study-nav-position" id="studyNavPosition" aria-live="polite">
-        <span class="study-nav-current" id="studyNavCurrent">1</span>
-        <span class="study-nav-sep" aria-hidden="true">/</span>
-        <span class="study-nav-total" id="studyNavTotal">1</span>
-      </div>
-      <button type="button" class="study-nav-btn study-nav-btn--next nav-btn nav-btn--next" id="nextCardBtn" onclick="nextCard()" title="Từ tiếp theo (phím →)" aria-label="Từ tiếp theo">
-        <span>Tiếp</span>
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M5 12h14m-7-7l7 7-7 7"/>
-        </svg>
-      </button>
-    </nav>
-
-    <div class="action-row secondary-actions" style="display:none" hidden>
+    <div class="action-row secondary-actions">
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
         aria-controls="unknownWordsList" aria-expanded="false">
         Hiển thị từ chưa nhớ
@@ -198,64 +156,6 @@ function buildCardArea() {
   initSwipe();
 }
 
-function toggleStudyHeaderMenu(event) {
-  if (event) event.stopPropagation();
-  const dropdown = document.getElementById('studyHeaderDropdown');
-  const btn = document.getElementById('studyHeaderMoreBtn');
-  if (!dropdown || !btn) return;
-  const isHidden = dropdown.hidden;
-  if (isHidden) {
-    if (typeof closeCardMoreMenu === 'function') closeCardMoreMenu();
-    if (typeof closeCompactFilterMenu === 'function') closeCompactFilterMenu();
-    dropdown.hidden = false;
-    btn.setAttribute('aria-expanded', 'true');
-    dropdown.classList.add('is-open');
-  } else {
-    closeStudyHeaderMenu();
-  }
-}
-
-function closeStudyHeaderMenu() {
-  const dropdown = document.getElementById('studyHeaderDropdown');
-  const btn = document.getElementById('studyHeaderMoreBtn');
-  if (dropdown) {
-    dropdown.hidden = true;
-    dropdown.classList.remove('is-open');
-  }
-  if (btn) btn.setAttribute('aria-expanded', 'false');
-}
-window.toggleStudyHeaderMenu = toggleStudyHeaderMenu;
-window.closeStudyHeaderMenu = closeStudyHeaderMenu;
-
-function toggleCompactFilterMenu(event) {
-  if (event) event.stopPropagation();
-  const menu = document.getElementById('compactFilterMenu');
-  const trigger = document.getElementById('compactFilterTrigger');
-  if (!menu || !trigger) return;
-  const isHidden = menu.hidden;
-  if (isHidden) {
-    if (typeof closeStudyHeaderMenu === 'function') closeStudyHeaderMenu();
-    if (typeof closeCardMoreMenu === 'function') closeCardMoreMenu();
-    menu.hidden = false;
-    trigger.setAttribute('aria-expanded', 'true');
-    menu.classList.add('is-open');
-  } else {
-    closeCompactFilterMenu();
-  }
-}
-
-function closeCompactFilterMenu() {
-  const menu = document.getElementById('compactFilterMenu');
-  const trigger = document.getElementById('compactFilterTrigger');
-  if (menu) {
-    menu.hidden = true;
-    menu.classList.remove('is-open');
-  }
-  if (trigger) trigger.setAttribute('aria-expanded', 'false');
-}
-window.toggleCompactFilterMenu = toggleCompactFilterMenu;
-window.closeCompactFilterMenu = closeCompactFilterMenu;
-
 function toggleCardMoreMenu(event) {
   if (event) event.stopPropagation();
   const dropdown = document.getElementById('cardMoreDropdown');
@@ -263,8 +163,6 @@ function toggleCardMoreMenu(event) {
   if (!dropdown || !btn) return;
   const isHidden = dropdown.hidden;
   if (isHidden) {
-    if (typeof closeStudyHeaderMenu === 'function') closeStudyHeaderMenu();
-    if (typeof closeCompactFilterMenu === 'function') closeCompactFilterMenu();
     updateCardMoreMenuState();
     dropdown.hidden = false;
     btn.setAttribute('aria-expanded', 'true');
@@ -293,11 +191,6 @@ function updateCardMoreMenuState() {
   const hvLabel = document.getElementById('menuHanvietText');
   if (hvLabel) hvLabel.textContent = showHanViet ? 'Tắt âm Hán - Việt' : 'Bật âm Hán - Việt';
 
-  const illuLabel = document.getElementById('menuIllustrationText');
-  const illuIcon = document.getElementById('menuIllustrationIcon');
-  if (illuLabel) illuLabel.textContent = showIllustration ? 'Ẩn hình minh họa' : 'Hiện hình minh họa';
-  if (illuIcon) illuIcon.textContent = showIllustration ? '🖼️' : '🚫';
-
   const isWeak = Boolean(activeStudyWord && typeof isWeakWord === 'function' && isWeakWord(activeStudyWord.hanzi));
   const weakLabel = document.getElementById('menuWeakText');
   const weakIcon = document.getElementById('menuWeakIcon');
@@ -316,46 +209,7 @@ document.addEventListener('pointerdown', event => {
   if (wrap && !wrap.contains(event.target)) {
     closeCardMoreMenu();
   }
-  const headerWrap = document.getElementById('studyHeaderMenuWrap');
-  if (headerWrap && !headerWrap.contains(event.target)) {
-    closeStudyHeaderMenu();
-  }
-  const filterWrap = document.querySelector('.compact-filter-wrap');
-  if (filterWrap && !filterWrap.contains(event.target)) {
-    closeCompactFilterMenu();
-  }
 });
-
-function toggleIllustration() {
-  showIllustration = !showIllustration;
-  try { localStorage.setItem('hsk_show_illustrations', String(showIllustration)); } catch (e) {}
-  document.body.classList.toggle('hide-illustrations', !showIllustration);
-  document.documentElement.classList.toggle('hide-illustrations', !showIllustration);
-  updateCardMoreMenuState();
-
-  const card = document.getElementById('card');
-  const wasFlipped = Boolean(card && card.classList.contains('is-flipped'));
-  const shouldBeFlipped = wasFlipped || showIllustration;
-
-  if (typeof render === 'function') {
-    render();
-    if (shouldBeFlipped) {
-      const c = document.getElementById('card');
-      const m = document.getElementById('meaning');
-      const ex = document.getElementById('exampleBox');
-      const snd = document.getElementById('soundBtn');
-      if (c) c.classList.add('is-flipped');
-      if (m) m.classList.add('show');
-      if (ex) ex.classList.add('show');
-      if (snd) snd.classList.add('show');
-      const hintEl = document.getElementById('hint');
-      if (hintEl && typeof getCardHintText === 'function') {
-        hintEl.textContent = getCardHintText(true);
-      }
-    }
-  }
-}
-window.toggleIllustration = toggleIllustration;
 
 function toggleHanViet() {
   showHanViet = !showHanViet;
@@ -398,121 +252,39 @@ window.closeStudyFilterSheet = closeStudyFilterSheet;
 function renderFilters() {
   const row = document.getElementById('filterRow');
   if (!row) return;
-
-  const deck = typeof computeDeckProgress === 'function'
-    ? computeDeckProgress()
-    : { learned: 0, total: WORDS.length, pct: 0, known: 0, unknown: 0, unseen: 0 };
-
-  const total = deck.total || (Array.isArray(WORDS) ? WORDS.length : 0);
-  const known = deck.known || 0;
-  const unknown = deck.unknown || 0;
-  const unseen = deck.unseen || 0;
-  const learned = deck.learned || 0;
-  const learnedPct = deck.pct || 0;
-
-  const levelLabel = (typeof LEVELS !== 'undefined' && LEVELS[currentLevel]?.label)
-    ? LEVELS[currentLevel].label
-    : (typeof currentLevel === 'string' ? currentLevel.toUpperCase() : 'HSK');
-
-  const knownPctNum = total > 0 ? (known / total) * 100 : 0;
-  const unknownPctNum = total > 0 ? (unknown / total) * 100 : 0;
-  const isAllMastered = total > 0 && known === total;
-  const isAllLearned = total > 0 && learned === total;
-
-  const pctDisplay = isAllMastered
-    ? '👑 100%'
-    : isAllLearned
-    ? '🏆 100%'
-    : `${learnedPct}%`;
-
+  const known = Object.values(progress).filter(value => value === 'known').length;
+  const unknown = Object.values(progress).filter(value => value === 'unknown').length;
+  const counts = {
+    all: WORDS.length,
+    unknown,
+    known,
+    unseen: Math.max(0, WORDS.length - known - unknown),
+  };
   const filters = [
-    {
-      key: 'all',
-      label: 'Tất cả',
-      count: total,
-      iconSvg: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 3H8a2 2 0 0 0-2 2v2h12V5a2 2 0 0 0-2-2z"/></svg>`
-    },
-    {
-      key: 'known',
-      label: 'Đã nhớ',
-      count: known,
-      iconSvg: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>`
-    },
-    {
-      key: 'unknown',
-      label: 'Chưa nhớ',
-      count: unknown,
-      iconSvg: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.19"/></svg>`
-    },
-    {
-      key: 'unseen',
-      label: 'Chưa học',
-      count: unseen,
-      iconSvg: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke-dasharray="3.5 3.5"/><polyline points="12 7 12 12 15 15"/></svg>`
-    },
+    { key: 'all', label: 'Tất cả', count: counts.all, icon: '📚' },
+    { key: 'unknown', label: 'Chưa nhớ', count: counts.unknown, modifier: 'unknown', icon: '🔴' },
+    { key: 'known', label: 'Đã nhớ', count: counts.known, modifier: 'known', icon: '🟢' },
+    { key: 'unseen', label: 'Chưa học', count: counts.unseen, modifier: 'unseen', icon: '⚪' },
   ];
+  const activeF = filters.find(f => f.key === currentFilter) || filters[0];
 
   row.innerHTML = `
-    <section class="learning-progress-navigator" aria-label="Bộ điều hướng tiến độ học ${levelLabel}">
-      <div class="progress-nav-header">
-        <div class="progress-nav-summary-group">
-          <span class="progress-nav-level-tag">${levelLabel}</span>
-          <div class="progress-nav-metric-main">
-            <span class="progress-nav-metric-label">Đã học</span>
-            <span class="progress-nav-metric-val"><strong>${learned}</strong> / ${total}</span>
-            <span class="progress-nav-metric-pct${isAllLearned ? ' is-completed' : ''}"
-              ${isAllLearned ? `onclick="if (typeof showCelebration === 'function') showCelebration('${isAllMastered ? 'mastered' : 'learned'}', true);" title="Nhấn để xem lại hiệu ứng thành tựu 🎉"` : ''}>${pctDisplay}</span>
-          </div>
-        </div>
-        <div class="progress-nav-stats-breakdown" aria-label="Chú thích phân bổ ghi nhớ">
-          <span class="progress-nav-stat progress-nav-stat--known" title="Đã nhớ: ${known}/${total} từ (${Math.round(knownPctNum)}%)">
-            <span class="progress-nav-stat-dot" aria-hidden="true"></span>
-            <span class="progress-nav-stat-label">Đã nhớ</span>
-          </span>
-          <span class="progress-nav-stat progress-nav-stat--unknown" title="Cần ôn: ${unknown}/${total} từ (${Math.round(unknownPctNum)}%)">
-            <span class="progress-nav-stat-dot" aria-hidden="true"></span>
-            <span class="progress-nav-stat-label">Cần ôn</span>
-          </span>
-        </div>
-      </div>
-
-      <div class="progress-nav-bar" role="progressbar"
-           aria-label="Tiến độ học: ${known} đã nhớ, ${unknown} cần ôn, ${unseen} chưa học trên tổng số ${total} từ"
-           aria-valuenow="${learnedPct}" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-nav-track">
-          <div class="progress-nav-seg progress-nav-seg--known"
-               style="width: ${knownPctNum}%;"
-               title="Đã nhớ: ${known} từ (${Math.round(knownPctNum)}%)"></div>
-          <div class="progress-nav-seg progress-nav-seg--unknown"
-               style="width: ${unknownPctNum}%;"
-               title="Cần ôn: ${unknown} từ (${Math.round(unknownPctNum)}%)"></div>
-        </div>
-      </div>
-
-      <div class="progress-nav-cards" role="radiogroup" aria-label="Lọc danh sách thẻ từ vựng">
-        ${filters.map(f => {
-          const isSelected = currentFilter === f.key;
-          const isEmpty = f.count === 0;
-          return `
-            <button type="button"
-              class="progress-nav-card progress-nav-card--${f.key}${isSelected ? ' is-active' : ''}${isEmpty ? ' is-empty' : ''}"
-              onclick="setFilter('${f.key}')"
-              role="radio"
-              aria-checked="${isSelected}"
-              aria-label="${f.label}: ${f.count} từ${isSelected ? ', đang chọn' : ''}"
-              title="${f.label}: ${f.count} từ${isEmpty ? ' (Chưa có từ)' : ''}">
-              <div class="progress-nav-card-head">
-                <span class="progress-nav-card-icon" aria-hidden="true">${f.iconSvg}</span>
-                <span class="progress-nav-card-label">${f.label}</span>
-              </div>
-              <div class="progress-nav-card-body">
-                <span class="progress-nav-card-count">${f.count}</span>
-              </div>
-            </button>
-          `;
-        }).join('')}
-      </div>
-    </section>
+    <div class="desktop-filter-tabs" role="group" aria-label="Bộ lọc trạng thái học">
+      ${filters.map(f => `
+        <button type="button" class="filter-btn${f.modifier ? ' filter-btn--' + f.modifier : ''}${currentFilter === f.key ? ' active' : ''}"
+          onclick="setFilter('${f.key}')">
+          <span class="filter-label">${f.label}</span>
+          <span class="filter-count">(${f.count})</span>
+        </button>
+      `).join('')}
+    </div>
+    <div class="mobile-filter-bar">
+      <button type="button" class="mobile-filter-trigger-btn" onclick="openStudyFilterSheet()" aria-haspopup="dialog" aria-label="Lọc trạng thái: ${activeF.label}">
+        <span class="mobile-filter-icon">${activeF.icon}</span>
+        <span class="mobile-filter-text">Lọc: <strong>${activeF.label}</strong> <span class="mobile-filter-count">(${activeF.count})</span></span>
+        <span class="mobile-filter-chevron">▾</span>
+      </button>
+    </div>
   `;
 
   const sheetBody = document.getElementById('studyFilterSheetBody');
@@ -524,6 +296,7 @@ function renderFilters() {
             onclick="setFilter('${f.key}'); closeStudyFilterSheet();"
             role="radio" aria-checked="${currentFilter === f.key}">
             <div class="filter-sheet-option-left">
+              <span class="filter-sheet-option-icon">${f.icon}</span>
               <span class="filter-sheet-option-label">${f.label}</span>
             </div>
             <div class="filter-sheet-option-right">
@@ -537,22 +310,11 @@ function renderFilters() {
   }
 }
 function setFilter(key) {
-  const currentWordId = (filteredOrder && filteredOrder[idx] !== undefined && WORDS[filteredOrder[idx]])
-    ? WORDS[filteredOrder[idx]].id
-    : null;
-
   currentFilter = key;
   if (key === 'all') filteredOrder = order.slice();
   else if (key === 'unseen') filteredOrder = order.filter(i => !progress[WORDS[i].id]);
   else filteredOrder = order.filter(i => progress[WORDS[i].id] === key);
-
-  if (currentWordId && filteredOrder.length > 0) {
-    const newIdx = filteredOrder.findIndex(i => WORDS[i] && WORDS[i].id === currentWordId);
-    idx = newIdx !== -1 ? newIdx : 0;
-  } else {
-    idx = 0;
-  }
-
+  idx = 0;
   renderFilters();
   renderStudyWordList();
   render('fade');
@@ -578,6 +340,8 @@ const RATING_BUTTONS = [
 const RATING_KEYS = {
   '1': 'again',
   '2': 'good',
+  'ArrowLeft': 'again',
+  'ArrowRight': 'good',
 };
 
 // Shared by the level deck and "Ôn hôm nay": label with icon, no cluttered subtext.
@@ -589,7 +353,7 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
     const iconSvg = button.rating === 'again'
       ? `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
       : `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
-    const titleText = `${button.label}${intervalText ? ` (${intervalText})` : ''} • Phím [${button.key}] hoặc [${shortcutArrow}]`;
+    const titleText = `Đánh giá: ${button.label}${intervalText ? ` (${intervalText})` : ''} • Phím [${button.key}] hoặc [${shortcutArrow}]`;
     return `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
       onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}"
@@ -635,29 +399,15 @@ function isCardRevealed() {
   const meaning = document.getElementById('meaning');
   return Boolean(meaning && meaning.classList.contains('show'));
 }
-window.isCardRevealed = isCardRevealed;
-
 // Rating buttons appear only once the card is flipped/revealed.
 function syncRevealControls() {
   const revealBtn = document.getElementById('revealBtn');
   if (revealBtn) revealBtn.hidden = true;
   const ratingRow = document.getElementById('ratingRow');
-  const ratingArea = document.getElementById('ratingArea');
-  const studyNavRow = document.getElementById('studyNavRow');
-  const hasCard = Array.isArray(filteredOrder) && filteredOrder.length > 0;
+  if (!ratingRow) return;
+  const hasCard = filteredOrder.length > 0;
   const revealed = hasCard && isCardRevealed();
-  if (ratingRow) {
-    ratingRow.hidden = !revealed;
-    ratingRow.style.display = revealed ? '' : 'none';
-  }
-  if (ratingArea) {
-    ratingArea.hidden = !revealed;
-    ratingArea.style.display = revealed ? '' : 'none';
-  }
-  if (studyNavRow) {
-    studyNavRow.hidden = !hasCard;
-    studyNavRow.style.display = hasCard ? '' : 'none';
-  }
+  ratingRow.hidden = !revealed;
 }
 function computeDeckProgress() {
   if (!Array.isArray(WORDS) || WORDS.length === 0) {
@@ -679,11 +429,7 @@ function computeDeckProgress() {
 function updateProgress(current, total) {
   const deck = computeDeckProgress();
   const el = document.getElementById('progress');
-  if (el) {
-    el.innerHTML = deck.total === 0
-      ? '0 / 0'
-      : `<span class="study-progress-label">Đã học</span> <span class="study-progress-count">${deck.learned} / ${deck.total}</span>`;
-  }
+  if (el) el.textContent = deck.total === 0 ? '0 / 0' : `${deck.learned} / ${deck.total}`;
   const bar = document.getElementById('progressBar');
   if (bar) bar.style.width = deck.pct + '%';
   const pctEl = document.getElementById('progressPct');
@@ -711,33 +457,11 @@ function updateProgress(current, total) {
   if (topbar) {
     topbar.title = `Tiến độ học: ${deck.learned}/${deck.total} (${deck.pct}%) • Đã nhớ: ${deck.known}, Chưa nhớ: ${deck.unknown}`;
   }
-
-  // Also synchronize learning progress navigator in study view
-  const navSegKnown = document.querySelector('.progress-nav-seg--known');
-  const navSegUnknown = document.querySelector('.progress-nav-seg--unknown');
-  if (navSegKnown && navSegUnknown) {
-    const tot = deck.total || 1;
-    const kPct = deck.total > 0 ? (deck.known / tot) * 100 : 0;
-    const uPct = deck.total > 0 ? (deck.unknown / tot) * 100 : 0;
-    navSegKnown.style.width = kPct + '%';
-    navSegKnown.title = `Đã nhớ: ${deck.known} từ (${Math.round(kPct)}%)`;
-    navSegUnknown.style.width = uPct + '%';
-    navSegUnknown.title = `Cần ôn: ${deck.unknown} từ (${Math.round(uPct)}%)`;
-  }
-  const navBar = document.querySelector('.progress-nav-bar');
-  if (navBar) {
-    navBar.setAttribute('aria-valuenow', String(deck.pct));
-  }
 }
 
 function updateCardPosition() {
   const badge = document.getElementById('cardPositionBadge');
   const counter = document.getElementById('cardCounter');
-  const navCurrent = document.getElementById('studyNavCurrent');
-  const navTotal = document.getElementById('studyNavTotal');
-  const prevBtn = document.getElementById('prevCardBtn');
-  const nextBtn = document.getElementById('nextCardBtn');
-
   if (!filteredOrder || filteredOrder.length === 0) {
     const deck = computeDeckProgress();
     const txt = (currentFilter === 'unseen' && deck.unseen === 0 && deck.total > 0) ? 'Hoàn thành' : '0 / 0';
@@ -746,15 +470,11 @@ function updateCardPosition() {
       if (txt === 'Hoàn thành') badge.title = 'Đã học qua 100% từ vựng mới của cấp độ này';
     }
     if (counter) counter.textContent = txt;
-    if (navCurrent) navCurrent.textContent = '0';
-    if (navTotal) navTotal.textContent = '0';
-    if (prevBtn) prevBtn.disabled = true;
-    if (nextBtn) nextBtn.disabled = true;
     return;
   }
   const current = (idx % filteredOrder.length) + 1;
   const total = filteredOrder.length;
-  const posText = `Từ ${current} / ${total}`;
+  const posText = `${current} / ${total}`;
   if (badge) {
     badge.textContent = posText;
     const filterLabel = currentFilter === 'all' ? 'Tất cả'
@@ -764,12 +484,8 @@ function updateCardPosition() {
     badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
   }
   if (counter) {
-    counter.textContent = `${current} / ${total}`;
+    counter.textContent = posText;
   }
-  if (navCurrent) navCurrent.textContent = String(current);
-  if (navTotal) navTotal.textContent = String(total);
-  if (prevBtn) prevBtn.disabled = (total <= 1);
-  if (nextBtn) nextBtn.disabled = (total <= 1);
 }
 
 function renderHanziWithClarifier(el, text) {
@@ -899,7 +615,6 @@ function toggleStudyWritingPanel(forceOpen) {
 }
 
 function closeAllStudyDrawers() {
-  if (typeof closeMobileStatsSheet === 'function') closeMobileStatsSheet();
   if (typeof toggleTransferPanel === 'function') toggleTransferPanel(false);
   if (typeof toggleRadicalTransferPanel === 'function') toggleRadicalTransferPanel(false);
   const wasOpen = document.body.classList.contains('study-sidebar-open');
@@ -1159,15 +874,19 @@ function render(animate) {
       }
 
       container.innerHTML = `
-        <div class="generic-empty-card">
-          <h3 class="generic-empty-title">Không còn từ cần ôn tập</h3>
-          <p class="generic-empty-desc">
-            Tuyệt vời, bạn đã ghi nhớ hết các từ cần củng cố trong danh sách ôn tập hiện tại.
+        <div class="achievement-hero-card">
+          <div class="achievement-hero-trophy-wrap">
+            <span class="achievement-hero-trophy">🎯</span>
+          </div>
+          <div class="achievement-hero-badge">ĐÃ HOÀN THÀNH ÔN TẬP</div>
+          <h2 class="achievement-hero-title">Không còn từ tồn đọng!</h2>
+          <p class="achievement-hero-desc">
+            Tuyệt vời, bạn đã nhớ hết các từ cần củng cố trong danh sách ôn tập hiện tại.
           </p>
-          <div class="generic-empty-actions">
+          <div class="achievement-hero-actions">
             ${deck.unseen > 0 ? `
             <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('unseen')">
-              Học tiếp ${deck.unseen} từ mới
+              👉 Học tiếp ${deck.unseen} từ mới
             </button>` : ''}
             <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
               Xem tất cả từ
@@ -1180,6 +899,7 @@ function render(animate) {
     if (currentFilter === 'known') {
       container.innerHTML = `
         <div class="generic-empty-card">
+          <div class="generic-empty-icon">📖</div>
           <h3 class="generic-empty-title">Chưa có từ nào đã nhớ</h3>
           <p class="generic-empty-desc">Hãy bắt đầu ôn luyện các từ vựng để đánh dấu những từ bạn đã nhớ tốt.</p>
           <button type="button" class="empty-btn empty-btn--primary" onclick="setFilter('all')">
@@ -1191,6 +911,7 @@ function render(animate) {
 
     container.innerHTML = `
       <div class="generic-empty-card">
+        <div class="generic-empty-icon">📭</div>
         <h3 class="generic-empty-title">Không có từ trong bộ lọc này</h3>
         <p class="generic-empty-desc">Chưa có thẻ từ vựng nào thỏa mãn điều kiện lọc đã chọn.</p>
         <button type="button" class="empty-btn empty-btn--secondary" onclick="setFilter('all')">
@@ -1198,39 +919,6 @@ function render(animate) {
         </button>
       </div>`;
   }
-
-  function normalizeSvgViewBox(svgText) {
-    if (!svgText || typeof svgText !== 'string') return svgText;
-    let normalized = svgText.replace(/viewBox=["']\s*0\s+0\s+240\s*["']/gi, 'viewBox="0 0 240 240"');
-    if (!/viewBox=/i.test(normalized) && /width=["']240["']/i.test(normalized) && /height=["']240["']/i.test(normalized)) {
-      normalized = normalized.replace(/<svg\b([^>]*)>/i, '<svg$1 viewBox="0 0 240 240">');
-    }
-    return normalized;
-  }
-
-  function syncCardSupportingGroup() {
-    const group = document.getElementById('cardSupportingGroup');
-    const visualCol = document.getElementById('cardVisualCol');
-    const decompWrap = document.getElementById('cardDecompositionWrap');
-    if (!group) return;
-    const hasVisual = Boolean(showIllustration && visualCol && visualCol.style.display !== 'none');
-    const radsRow = document.getElementById('cardRadicalsRow');
-    const hasDecomp = Boolean(decompWrap && decompWrap.style.display !== 'none' && radsRow && radsRow.children && radsRow.children.length > 0);
-    if (hasVisual || hasDecomp) {
-      group.hidden = false;
-      group.removeAttribute('hidden');
-      group.style.display = 'flex';
-      group.classList.toggle('has-both', Boolean(hasVisual && hasDecomp));
-      group.classList.toggle('has-only-visual', Boolean(hasVisual && !hasDecomp));
-      group.classList.toggle('has-only-decomp', Boolean(!hasVisual && hasDecomp));
-    } else {
-      group.hidden = true;
-      group.setAttribute('hidden', '');
-      group.style.display = 'none';
-      group.classList.remove('has-both', 'has-only-visual', 'has-only-decomp');
-    }
-  }
-  window.syncCardSupportingGroup = syncCardSupportingGroup;
 
   function applyContent() {
     if (content) content.className = 'card-content';
@@ -1245,11 +933,6 @@ function render(animate) {
     const initImgEl = document.getElementById('cardIllustrationImg');
     if (initImgEl) { initImgEl.hidden = true; initImgEl.style.display = 'none'; initImgEl.removeAttribute('src'); }
     const hint = document.getElementById('hint');
-    const initSupGroup = document.getElementById('cardSupportingGroup');
-    if (initSupGroup) { initSupGroup.hidden = true; initSupGroup.style.display = 'none'; }
-    const initDecompWrap = document.getElementById('cardDecompositionWrap');
-    if (initDecompWrap) { initDecompWrap.hidden = true; initDecompWrap.style.display = 'none'; }
-
     if (filteredOrder.length === 0) {
       if (wordMainBlock) wordMainBlock.style.display = 'none';
       if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
@@ -1266,12 +949,6 @@ function render(animate) {
       if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
       const emptyPos = document.getElementById('posBadge');
       if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
-      const emptyLevel = document.getElementById('levelBadge');
-      if (emptyLevel) { emptyLevel.textContent = ''; emptyLevel.hidden = true; emptyLevel.style.display = 'none'; }
-      const emptySupporting = document.getElementById('cardSupportingGroup');
-      if (emptySupporting) { emptySupporting.hidden = true; emptySupporting.style.display = 'none'; }
-      const emptyDecompWrap = document.getElementById('cardDecompositionWrap');
-      if (emptyDecompWrap) { emptyDecompWrap.hidden = true; emptyDecompWrap.style.display = 'none'; }
       const meaningEl = document.getElementById('meaning');
       if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
       const emptyRads = document.getElementById('cardRadicalsRow');
@@ -1286,12 +963,6 @@ function render(animate) {
         renderEmptyCardState(cardEmptyState);
       }
       if (content) content.classList.add('is-empty');
-      const ratingRow = document.getElementById('ratingRow');
-      if (ratingRow) { ratingRow.hidden = true; ratingRow.style.display = 'none'; }
-      const ratingArea = document.getElementById('ratingArea');
-      if (ratingArea) { ratingArea.hidden = true; ratingArea.style.display = 'none'; }
-      const navRow = document.getElementById('studyNavRow');
-      if (navRow) { navRow.hidden = true; navRow.style.display = 'none'; }
       updateProgress();
       updateCardPosition();
       updateStats();
@@ -1326,17 +997,8 @@ function render(animate) {
       if (hv) {
         hv = hv.replace(/[（\(].*?[）\)]/g, '').replace(/\s+/g, ' ').trim();
       }
-      const cleanMeaning = String(w.meaning || '').toLowerCase().trim();
-      const cleanHv = String(hv || '').toLowerCase().trim();
-      const isDuplicateOfMeaning = cleanHv && (
-        cleanMeaning === cleanHv ||
-        cleanMeaning.split(/[,;\/]/)[0].trim() === cleanHv ||
-        cleanMeaning.startsWith(cleanHv + ',') ||
-        cleanMeaning.startsWith(cleanHv + ' ')
-      );
-      if (hv && !isDuplicateOfMeaning) {
-        hvBadge.textContent = hv;
-        hvBadge.title = `Âm Hán - Việt: ${hv}`;
+      if (hv) {
+        hvBadge.textContent = `［${hv}］`;
         hvBadge.hidden = false;
         hvBadge.style.display = showHanViet ? 'inline-flex' : 'none';
       } else {
@@ -1363,14 +1025,6 @@ function render(animate) {
       }
     }
 
-    // Cấp độ HSK không hiển thị trên thẻ flashcard để tránh dư thừa với thanh tiêu đề
-    const levelBadge = document.getElementById('levelBadge');
-    if (levelBadge) {
-      levelBadge.textContent = '';
-      levelBadge.hidden = true;
-      levelBadge.style.display = 'none';
-    }
-
     const m = document.getElementById('meaning');
     m.textContent = w.meaning;
     m.classList.remove('show');
@@ -1387,173 +1041,70 @@ function render(animate) {
     const svgEl = document.getElementById('cardIllustrationSvg');
     const frameEl = document.getElementById('cardIllustrationFrame');
 
-    if (imgEl && svgEl && typeof getWordIllustration === 'function' && showIllustration) {
+    if (imgEl && svgEl && typeof getWordIllustration === 'function') {
       const illu = getWordIllustration(w);
-      if (illu && !illu.isFallback && (illu.src || (illu.type === 'svg' && illu.svg))) {
-        if (visualCol) {
-          visualCol.hidden = false;
-          visualCol.removeAttribute('hidden');
-          visualCol.style.display = 'flex';
-        }
+      if (illu) {
+        if (visualCol) visualCol.style.display = '';
         if (frameEl) frameEl.title = 'Minh họa gợi hình';
 
         if (illu.type === 'svg' && illu.svg) {
-          svgEl.innerHTML = normalizeSvgViewBox(illu.svg);
+          svgEl.innerHTML = illu.svg;
           svgEl.hidden = false;
-          svgEl.removeAttribute('hidden');
-          svgEl.style.display = 'flex';
           imgEl.hidden = true;
-          imgEl.setAttribute('hidden', '');
-          imgEl.style.display = 'none';
           imgEl.removeAttribute('src');
           if (frameEl) frameEl.classList.remove('is-loading');
-          syncCardSupportingGroup();
-        } else if (illu.src || w.hanzi) {
-          const cachedSvg = (typeof SynapseSvgCache !== 'undefined')
-            ? (SynapseSvgCache.get(illu.src) || (w.hanzi && SynapseSvgCache.get(w.hanzi)))
-            : null;
+        } else if (illu.src) {
+          const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
           if (cachedSvg) {
             // INSTANT RENDER (0ms latency from RAM cache)
-            svgEl.innerHTML = normalizeSvgViewBox(cachedSvg);
+            svgEl.innerHTML = cachedSvg;
             svgEl.hidden = false;
-            svgEl.removeAttribute('hidden');
-            svgEl.style.display = 'flex';
             imgEl.hidden = true;
-            imgEl.setAttribute('hidden', '');
-            imgEl.style.display = 'none';
             imgEl.removeAttribute('src');
             if (frameEl) frameEl.classList.remove('is-loading');
-            syncCardSupportingGroup();
           } else {
             // Cache miss: show smooth shimmer without layout shift
             const curWord = w;
             if (frameEl) frameEl.classList.add('is-loading');
 
             if (typeof preloadIllustration === 'function') {
-              preloadIllustration(illu.src || w, 'high').then(svgText => {
-                if (typeof activeStudyWord !== 'undefined' && activeStudyWord && (activeStudyWord === curWord || activeStudyWord.hanzi === curWord.hanzi)) {
-                  const resolvedSvg = svgText || (typeof SynapseSvgCache !== 'undefined' && (SynapseSvgCache.get(illu.src) || (curWord.hanzi && SynapseSvgCache.get(curWord.hanzi))));
-                  if (resolvedSvg) {
-                    svgEl.innerHTML = normalizeSvgViewBox(resolvedSvg);
+              preloadIllustration(illu.src, 'high').then(svgText => {
+                if (typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
+                  if (svgText) {
+                    svgEl.innerHTML = svgText;
                     svgEl.hidden = false;
-                    svgEl.removeAttribute('hidden');
-                    svgEl.style.display = 'flex';
                     imgEl.hidden = true;
-                    imgEl.setAttribute('hidden', '');
-                    imgEl.style.display = 'none';
                     imgEl.removeAttribute('src');
                   } else {
-                    imgEl.onerror = () => {
-                      if (visualCol) {
-                        visualCol.style.display = 'none';
-                        visualCol.hidden = true;
-                        visualCol.setAttribute('hidden', '');
-                      }
-                      if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
-                      if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
-                      syncCardSupportingGroup();
-                    };
-                    imgEl.onload = () => {
-                      imgEl.hidden = false;
-                      imgEl.removeAttribute('hidden');
-                      imgEl.style.display = 'block';
-                      svgEl.hidden = true;
-                      svgEl.setAttribute('hidden', '');
-                      svgEl.style.display = 'none';
-                      svgEl.innerHTML = '';
-                      if (visualCol) {
-                        visualCol.hidden = false;
-                        visualCol.removeAttribute('hidden');
-                        visualCol.style.display = 'flex';
-                      }
-                      syncCardSupportingGroup();
-                    };
                     imgEl.src = illu.src;
                     imgEl.alt = 'Minh họa gợi hình';
+                    imgEl.hidden = false;
+                    svgEl.hidden = true;
+                    svgEl.innerHTML = '';
                   }
                   if (frameEl) frameEl.classList.remove('is-loading');
-                  syncCardSupportingGroup();
                 }
-              }).catch(() => {
-                imgEl.onerror = () => {
-                  if (visualCol) {
-                    visualCol.style.display = 'none';
-                    visualCol.hidden = true;
-                    visualCol.setAttribute('hidden', '');
-                  }
-                  syncCardSupportingGroup();
-                };
-                imgEl.onload = () => {
-                  imgEl.hidden = false;
-                  imgEl.removeAttribute('hidden');
-                  imgEl.style.display = 'block';
-                  svgEl.hidden = true;
-                  svgEl.setAttribute('hidden', '');
-                  svgEl.style.display = 'none';
-                  svgEl.innerHTML = '';
-                  if (visualCol) {
-                    visualCol.hidden = false;
-                    visualCol.removeAttribute('hidden');
-                    visualCol.style.display = 'flex';
-                  }
-                  syncCardSupportingGroup();
-                };
-                imgEl.src = illu.src;
-                imgEl.alt = 'Minh họa gợi hình';
-                if (frameEl) frameEl.classList.remove('is-loading');
-                syncCardSupportingGroup();
               });
             } else {
-              imgEl.onerror = () => {
-                if (visualCol) {
-                  visualCol.style.display = 'none';
-                  visualCol.hidden = true;
-                  visualCol.setAttribute('hidden', '');
-                }
-                syncCardSupportingGroup();
-              };
-              imgEl.onload = () => {
-                imgEl.hidden = false;
-                imgEl.removeAttribute('hidden');
-                imgEl.style.display = 'block';
-                svgEl.hidden = true;
-                svgEl.setAttribute('hidden', '');
-                svgEl.style.display = 'none';
-                svgEl.innerHTML = '';
-                if (visualCol) {
-                  visualCol.hidden = false;
-                  visualCol.removeAttribute('hidden');
-                  visualCol.style.display = 'flex';
-                }
-                syncCardSupportingGroup();
-              };
               imgEl.src = illu.src;
               imgEl.alt = 'Minh họa gợi hình';
-              if (frameEl) frameEl.classList.remove('is-loading');
-              syncCardSupportingGroup();
+              imgEl.hidden = false;
+              svgEl.hidden = true;
+              svgEl.innerHTML = '';
             }
           }
         }
       } else {
-        if (visualCol) {
-          visualCol.style.display = 'none';
-          visualCol.hidden = true;
-          visualCol.setAttribute('hidden', '');
-        }
-        if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
-        if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
+        if (visualCol) visualCol.style.display = 'none';
+        if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
+        if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
       }
     } else if (visualCol) {
       visualCol.style.display = 'none';
-      visualCol.hidden = true;
-      visualCol.setAttribute('hidden', '');
-      if (svgEl) { svgEl.hidden = true; svgEl.style.display = 'none'; svgEl.innerHTML = ''; }
-      if (imgEl) { imgEl.hidden = true; imgEl.style.display = 'none'; imgEl.removeAttribute('src'); }
     }
-    syncCardSupportingGroup();
 
-    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background (if enabled)
-    if (showIllustration && typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
+    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
+    if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
       preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
     }
 

@@ -1,0 +1,1396 @@
+[
+  {
+    "id": 1,
+    "orig_id": "636",
+    "hanzi": "読書",
+    "pinyin": "どくしょ",
+    "hanviet": "ĐỘC THƯ",
+    "meaning": "đọc sách",
+    "example_zh": "趣味は読書だ",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 2,
+    "orig_id": "637",
+    "hanzi": "演奏",
+    "pinyin": "えんそう",
+    "hanviet": "BIỂU DIỄN",
+    "meaning": "biểu diễn",
+    "example_zh": "演奏者 演奏会 楽器を演奏",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 3,
+    "orig_id": "638",
+    "hanzi": "芸術",
+    "pinyin": "げいじゅつ",
+    "hanviet": "NGHỆ THUẬT",
+    "meaning": "nghệ thuật",
+    "example_zh": "芸術作品 芸術家 芸術的な",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 4,
+    "orig_id": "639",
+    "hanzi": "検査",
+    "pinyin": "けんさ",
+    "hanviet": "KIỂM TRA",
+    "meaning": "kiểm tra, khám bệnh",
+    "example_zh": "検査を受ける 身体検査",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 5,
+    "orig_id": "640",
+    "hanzi": "血液",
+    "pinyin": "けつえき",
+    "hanviet": "HUYẾT DỊCH",
+    "meaning": "máu, huyết dịch",
+    "example_zh": "血液方",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 6,
+    "orig_id": "641",
+    "hanzi": "治療",
+    "pinyin": "ちりょう",
+    "hanviet": "TRỊ LIỆU",
+    "meaning": "trị liệu, chữa bệnh",
+    "example_zh": "虫歯の治療を受ける",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 7,
+    "orig_id": "642",
+    "hanzi": "症状",
+    "pinyin": "しょうじょう",
+    "hanviet": "CHỨNG TRẠNG",
+    "meaning": "triệu chứng",
+    "example_zh": "症状が軽い/重い 症状が出る",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 8,
+    "orig_id": "643",
+    "hanzi": "予防",
+    "pinyin": "よぼう",
+    "hanviet": "DỰ PHÒNG",
+    "meaning": "dự phòng, phòng ngừa",
+    "example_zh": "予防注射 予防せっしゅ",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 9,
+    "orig_id": "644",
+    "hanzi": "栄養",
+    "pinyin": "えいよう",
+    "hanviet": "VINH DƯỠNG",
+    "meaning": "dinh dưỡng",
+    "example_zh": "栄養がある 栄養を取る/つける 栄養状態",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 10,
+    "orig_id": "645",
+    "hanzi": "手術",
+    "pinyin": "しゅじゅつ",
+    "hanviet": "THỦ THUẬT",
+    "meaning": "phẫu thuật",
+    "example_zh": "手術を受ける 外科～、整形～、移植～",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 11,
+    "orig_id": "646",
+    "hanzi": "死亡",
+    "pinyin": "しぼう",
+    "hanviet": "TỬ VONG",
+    "meaning": "tử vong, qua đời",
+    "example_zh": "死亡者 死亡率",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 12,
+    "orig_id": "647",
+    "hanzi": "命",
+    "pinyin": "いのち",
+    "hanviet": "MỆNH",
+    "meaning": "sinh mạng, tính mạng",
+    "example_zh": "命は大切にしなければならない",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 13,
+    "orig_id": "648",
+    "hanzi": "一生",
+    "pinyin": "いっしょう",
+    "hanviet": "NHẤT SINH",
+    "meaning": "cả đời, một đời",
+    "example_zh": "Aの一生をしベル あなたのことは、一生忘れません",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 14,
+    "orig_id": "649",
+    "hanzi": "誤解",
+    "pinyin": "ごかい",
+    "hanviet": "NGỘ GIẢI",
+    "meaning": "hiểu lầm, ngộ nhận",
+    "example_zh": "意味を誤解する",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 15,
+    "orig_id": "650",
+    "hanzi": "後悔",
+    "pinyin": "こうかい",
+    "hanviet": "HẬU HỐI",
+    "meaning": "hối hận",
+    "example_zh": "若いころに勉強しなかったことを、とても後悔している",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 16,
+    "orig_id": "651",
+    "hanzi": "訳",
+    "pinyin": "わけ",
+    "hanviet": "DỊCH",
+    "meaning": "lý do, ý nghĩa",
+    "example_zh": "深い訳",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 17,
+    "orig_id": "652",
+    "hanzi": "態度",
+    "pinyin": "たいど",
+    "hanviet": "THÁI ĐỘ",
+    "meaning": "thái độ",
+    "example_zh": "あいまいな態度をとる あいまいな/不真面目な(ふまじめなーkhông nghiêm túc)/ きびしい (nghiêm khắc)/ 冷たい",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 18,
+    "orig_id": "653",
+    "hanzi": "癖",
+    "pinyin": "くせ",
+    "hanviet": "PHÍCH",
+    "meaning": "tật",
+    "example_zh": "癖がつく、癖になる 口癖（くちぐせ）",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 19,
+    "orig_id": "654",
+    "hanzi": "礼儀",
+    "pinyin": "れいぎ",
+    "hanviet": "LỄ NGHI",
+    "meaning": "lễ nghi, phép lịch sự",
+    "example_zh": "礼儀正しい 礼儀作法 - lễ phép 礼儀知らず(không biết lễ nghĩa)",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 20,
+    "orig_id": "655",
+    "hanzi": "文句",
+    "pinyin": "もんく",
+    "hanviet": "VĂN CÚ",
+    "meaning": "câu văn, phàn nàn",
+    "example_zh": "給料に文句がある 文句を言う/つける 歌の文句 小説の文句を引用する",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 21,
+    "orig_id": "656",
+    "hanzi": "表情",
+    "pinyin": "ひょうじょう",
+    "hanviet": "BIỂU TÌNH",
+    "meaning": "diện mạo, biểu cảm",
+    "example_zh": "顔の表情",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 22,
+    "orig_id": "657",
+    "hanzi": "表面",
+    "pinyin": "ひょうめん",
+    "hanviet": "BIỂU DIỆN",
+    "meaning": "bề mặt",
+    "example_zh": "表面的な: tính bề ngoài あのビルは表面にタイルが張ってある",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 23,
+    "orig_id": "658",
+    "hanzi": "禁煙",
+    "pinyin": "きんえん",
+    "hanviet": "CẤM YÊN",
+    "meaning": "cấm hút thuốc",
+    "example_zh": "禁煙することにした",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 24,
+    "orig_id": "659",
+    "hanzi": "禁止",
+    "pinyin": "きんし",
+    "hanviet": "CẤM CHỈ",
+    "meaning": "cấm đoán",
+    "example_zh": "駐車禁止 立ち入り禁止",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 25,
+    "orig_id": "660",
+    "hanzi": "完成",
+    "pinyin": "かんさい",
+    "hanviet": "HOÀN THÀNH",
+    "meaning": "hoàn thành",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 26,
+    "orig_id": "661",
+    "hanzi": "課題",
+    "pinyin": "かだい",
+    "hanviet": "KHÓA ĐỀ",
+    "meaning": "vấn đề, chủ đề",
+    "example_zh": "課題を出す 現代の日本には、高齢化、ごみ問題など、多くの課題がある",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 27,
+    "orig_id": "662",
+    "hanzi": "例外",
+    "pinyin": "れいがい",
+    "hanviet": "LỆ NGOẠI",
+    "meaning": "ngoại lệ",
+    "example_zh": "例外｛に・と｝する 例外を認める",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 28,
+    "orig_id": "663",
+    "hanzi": "基本",
+    "pinyin": "きほん",
+    "hanviet": "CƠ BẢN",
+    "meaning": "cơ bản, nền tảng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 29,
+    "orig_id": "664",
+    "hanzi": "記録",
+    "pinyin": "きろく",
+    "hanviet": "KÍ LỤC",
+    "meaning": "kỷ lục, ghi chép",
+    "example_zh": "記録を取る・に残る・に残す 昨日の雨量は過去最高を記録したそうだ 記録を破る",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 30,
+    "orig_id": "665",
+    "hanzi": "状態",
+    "pinyin": "じょうたい",
+    "hanviet": "TRẠNG THÁI",
+    "meaning": "Trạng thái",
+    "example_zh": "健康状態 精神状態",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 31,
+    "orig_id": "666",
+    "hanzi": "出来事",
+    "pinyin": "できごと",
+    "hanviet": "XUẤT LAI SỰ",
+    "meaning": "sự kiện",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 32,
+    "orig_id": "667",
+    "hanzi": "場面",
+    "pinyin": "ばめん",
+    "hanviet": "TRƯỜNG DIỆN",
+    "meaning": "tình huống, hiện trường, cảnh",
+    "example_zh": "名場面",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 33,
+    "orig_id": "668",
+    "hanzi": "機会",
+    "pinyin": "きかい",
+    "hanviet": "CƠ HỘI",
+    "meaning": "Cơ hội",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 34,
+    "orig_id": "669",
+    "hanzi": "距離",
+    "pinyin": "きょり",
+    "hanviet": "CỰ KY",
+    "meaning": "Cự ky",
+    "example_zh": "距離を測る 遠・近距離",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 35,
+    "orig_id": "670",
+    "hanzi": "提案",
+    "pinyin": "ていあん",
+    "hanviet": "ĐỀ ÁN",
+    "meaning": "Đề án",
+    "example_zh": "計画を提案する",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 36,
+    "orig_id": "671",
+    "hanzi": "やり取り",
+    "pinyin": "やりとり",
+    "hanviet": "THỦ",
+    "meaning": "trao đổi",
+    "example_zh": "＝交換",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 37,
+    "orig_id": "672",
+    "hanzi": "知識",
+    "pinyin": "ちしき",
+    "hanviet": "TRI THỨC",
+    "meaning": "Tri thức",
+    "example_zh": "知識を身につける ～が豊富・乏しい (nghèo nàn) ～を得る",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 38,
+    "orig_id": "673",
+    "hanzi": "実力",
+    "pinyin": "じつりょく",
+    "hanviet": "THỰC LỰC",
+    "meaning": "Thực lực",
+    "example_zh": "実力を出す 実力を発揮する（はっき）phát huy",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 39,
+    "orig_id": "674",
+    "hanzi": "手段",
+    "pinyin": "しゅだん",
+    "hanviet": "THỦ ĐOẠN",
+    "meaning": "cách thức, phương pháp",
+    "example_zh": "目的のためには手段を選ばない (không từ thủ đoạn để đạt mục đích) ｛必要な・強引な｝～をとる 交通手段 (phương tiện giao thông)",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 40,
+    "orig_id": "675",
+    "hanzi": "代表",
+    "pinyin": "だいひょう",
+    "hanviet": "ĐẠI BIỂU",
+    "meaning": "Đại biểu",
+    "example_zh": "代表作 kiệt tác クラスの代表として会議に参加する",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 41,
+    "orig_id": "676",
+    "hanzi": "影響",
+    "pinyin": "えいきょう",
+    "hanviet": "ẢNH HƯỞNG",
+    "meaning": "ảnh hưởng, tác động",
+    "example_zh": "～を与える: tạo ảnh hưởng ～を受ける: nhận ảnh hưởng ～が出る: ảnh hưởng",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 42,
+    "orig_id": "677",
+    "hanzi": "効果",
+    "pinyin": "こうｋ",
+    "hanviet": "HIỆU QUẢ",
+    "meaning": "hiệu quả, tác dụng",
+    "example_zh": "～現れる: xuất hiện hiệu quả",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 43,
+    "orig_id": "678",
+    "hanzi": "印象",
+    "pinyin": "いんしょう",
+    "hanviet": "ẤN TƯỢNG",
+    "meaning": "ấn tượng",
+    "example_zh": "～を与える: tạo ấn tượng ～を受ける: có ấn tượng ～に残す: để lại ấn tượng",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 44,
+    "orig_id": "679",
+    "hanzi": "印",
+    "pinyin": "しるし",
+    "hanviet": "ẤN",
+    "meaning": "dấu hiệu, biểu tượng",
+    "example_zh": "～をつける 愛の 印に 恋人に指輪あを送る",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 45,
+    "orig_id": "680",
+    "hanzi": "合図",
+    "pinyin": "あいず",
+    "hanviet": "HỢP ĐỒ",
+    "meaning": "ám hiệu, ra hiệu",
+    "example_zh": "～を送る: ra ám hiệu",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 46,
+    "orig_id": "681",
+    "hanzi": "共通",
+    "pinyin": "きょうつう",
+    "hanviet": "CỘNG THÔNG",
+    "meaning": "Cộng thông",
+    "example_zh": "共通点",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 47,
+    "orig_id": "682",
+    "hanzi": "強調",
+    "pinyin": "きょうちょう",
+    "hanviet": "CƯỜNG ĐIỆU",
+    "meaning": "nhấn mạnh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 48,
+    "orig_id": "683",
+    "hanzi": "省略",
+    "pinyin": "しょうりゃく",
+    "hanviet": "TỈNH LƯỢC",
+    "meaning": "lược bớt",
+    "example_zh": "＝省く",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 49,
+    "orig_id": "684",
+    "hanzi": "挑戦",
+    "pinyin": "ちょうせん",
+    "hanviet": "THIÊU CHIẾN",
+    "meaning": "Thiêu chiến",
+    "example_zh": "挑戦者",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 50,
+    "orig_id": "685",
+    "hanzi": "やる気",
+    "pinyin": "やるき",
+    "hanviet": "KHÍ",
+    "meaning": "có hứng thú, động lực",
+    "example_zh": "褒められてやる気になる ～をなくす・がなくなる ＝意欲",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 51,
+    "orig_id": "686",
+    "hanzi": "勇気",
+    "pinyin": "ゆうき",
+    "hanviet": "DŨNG KHÍ",
+    "meaning": "Dũng khí",
+    "example_zh": "～が出る・を出す 困難に立ち向かう勇気",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 52,
+    "orig_id": "687",
+    "hanzi": "資格",
+    "pinyin": "しかく",
+    "hanviet": "TƯ CÁCH",
+    "meaning": "tư cách, bằng cấp, xứng đáng",
+    "example_zh": "～を取る・を与える ～試験 「あなたも同じことをしたのだから、あなたに彼を悪く言うしか食わない」",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 53,
+    "orig_id": "688",
+    "hanzi": "申請",
+    "pinyin": "しんせい",
+    "hanviet": "THÂN THỈNH",
+    "meaning": "đăng ký, ứng tuyển",
+    "example_zh": "～書類・～書",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 54,
+    "orig_id": "689",
+    "hanzi": "本人",
+    "pinyin": "ほんにん",
+    "hanviet": "BẢN NHÂN",
+    "meaning": "chính chủ",
+    "example_zh": "～を確認",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 55,
+    "orig_id": "690",
+    "hanzi": "契約",
+    "pinyin": "けいやく",
+    "hanviet": "KHIẾT ƯỚC",
+    "meaning": "hợp đồng, giao kèo",
+    "example_zh": "～を結ぶ ～を｛取り消す/キャンセルする｝ ～が切れる/～に違反する",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 56,
+    "orig_id": "691",
+    "hanzi": "証明",
+    "pinyin": "しょうめい",
+    "hanviet": "CHỨNG MINH",
+    "meaning": "Chứng minh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 57,
+    "orig_id": "692",
+    "hanzi": "変更",
+    "pinyin": "へんこう",
+    "hanviet": "BIẾN KHAN",
+    "meaning": "Biến khan",
+    "example_zh": "予定/進路～",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 58,
+    "orig_id": "693",
+    "hanzi": "保存",
+    "pinyin": "ほぞん",
+    "hanviet": "BẢO TỒN",
+    "meaning": "Bảo tồn",
+    "example_zh": "～がきく",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 59,
+    "orig_id": "694",
+    "hanzi": "保護",
+    "pinyin": "ほご",
+    "hanviet": "BẢO HỘ",
+    "meaning": "Bảo hộ",
+    "example_zh": "自然・動物・環境～ ～者 ～生活保護を受ける",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 60,
+    "orig_id": "695",
+    "hanzi": "環境",
+    "pinyin": "かんきょう",
+    "hanviet": "HOÀN CẢNH",
+    "meaning": "Hoàn cảnh",
+    "example_zh": "～を守る",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 61,
+    "orig_id": "696",
+    "hanzi": "資源",
+    "pinyin": "しげん",
+    "hanviet": "TƯ NGUYÊN",
+    "meaning": "Tư nguyên",
+    "example_zh": "～が｛豊、豊富｝/乏し 天然～",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 62,
+    "orig_id": "697",
+    "hanzi": "不足",
+    "pinyin": "ふそく",
+    "hanviet": "BẤT TÚC",
+    "meaning": "Bất túc",
+    "example_zh": "運動・寝・睡眠",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 63,
+    "orig_id": "698",
+    "hanzi": "平均",
+    "pinyin": "へいきん",
+    "hanviet": "BÌNH QUÂN",
+    "meaning": "Bình quân",
+    "example_zh": "～寿命",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 64,
+    "orig_id": "699",
+    "hanzi": "割合",
+    "pinyin": "わりあい",
+    "hanviet": "CÁT HỢP",
+    "meaning": "Cát hợp",
+    "example_zh": "試験は 割合に 簡単だった",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 65,
+    "orig_id": "700",
+    "hanzi": "商売",
+    "pinyin": "しょうばい",
+    "hanviet": "THƯƠNG MẠI",
+    "meaning": "Thương mại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 66,
+    "orig_id": "701",
+    "hanzi": "商品",
+    "pinyin": "しょうひん",
+    "hanviet": "THƯƠNG PHẨM",
+    "meaning": "Thương phẩm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 67,
+    "orig_id": "702",
+    "hanzi": "質",
+    "pinyin": "しつ",
+    "hanviet": "CHẤT",
+    "meaning": "Chất",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 68,
+    "orig_id": "703",
+    "hanzi": "型",
+    "pinyin": "かた",
+    "hanviet": "HÌNH",
+    "meaning": "Hình",
+    "example_zh": "髪型",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 69,
+    "orig_id": "704",
+    "hanzi": "生産",
+    "pinyin": "せいさん",
+    "hanviet": "SINH SẢN",
+    "meaning": "Sinh sản",
+    "example_zh": "～高（だか） 大量～",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 70,
+    "orig_id": "705",
+    "hanzi": "消費",
+    "pinyin": "しょうひ",
+    "hanviet": "TIÊU PHÍ",
+    "meaning": "Tiêu phí",
+    "example_zh": "～者・税",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 71,
+    "orig_id": "706",
+    "hanzi": "物価",
+    "pinyin": "ぶっか",
+    "hanviet": "VẬT GIÁ",
+    "meaning": "Vật giá",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 72,
+    "orig_id": "707",
+    "hanzi": "倒産",
+    "pinyin": "とうさん",
+    "hanviet": "ĐÁO SẢN",
+    "meaning": "Đáo sản",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 73,
+    "orig_id": "708",
+    "hanzi": "携帯",
+    "pinyin": "けいたい",
+    "hanviet": "HUỀ ĐỚI",
+    "meaning": "Huề đới",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 74,
+    "orig_id": "709",
+    "hanzi": "現代",
+    "pinyin": "げんだい",
+    "hanviet": "HIỆN TẠI",
+    "meaning": "Hiện tại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 75,
+    "orig_id": "710",
+    "hanzi": "世紀",
+    "pinyin": "せいき",
+    "hanviet": "KÍ LỤC",
+    "meaning": "Kí lục",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 76,
+    "orig_id": "711",
+    "hanzi": "文化",
+    "pinyin": "ぶんか",
+    "hanviet": "VĂN HÓA",
+    "meaning": "Văn hóa",
+    "example_zh": "異文化: nền văn hóa khác nhau ～交流 ～遺産",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 77,
+    "orig_id": "712",
+    "hanzi": "都市",
+    "pinyin": "しゅと",
+    "hanviet": "THỦ ĐÔ",
+    "meaning": "Thủ đô",
+    "example_zh": "都会",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 78,
+    "orig_id": "713",
+    "hanzi": "地方",
+    "pinyin": "ちほう",
+    "hanviet": "ĐỊA PHƯƠNG",
+    "meaning": "Địa phương",
+    "example_zh": "関東地方",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 79,
+    "orig_id": "714",
+    "hanzi": "戦争",
+    "pinyin": "せんそう",
+    "hanviet": "CHIẾN TRANH",
+    "meaning": "Chiến tranh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 80,
+    "orig_id": "715",
+    "hanzi": "平和",
+    "pinyin": "へいわ",
+    "hanviet": "BÌNH HÒA",
+    "meaning": "Bình hòa",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 81,
+    "orig_id": "",
+    "hanzi": "締め切り",
+    "pinyin": "締め切り",
+    "hanviet": "",
+    "meaning": "",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  },
+  {
+    "id": 82,
+    "orig_id": "",
+    "hanzi": "節約",
+    "pinyin": "節約",
+    "hanviet": "",
+    "meaning": "tiết kiệm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Danh từ",
+      "en": "Noun",
+      "full": "Danh từ N3"
+    }
+  }
+]

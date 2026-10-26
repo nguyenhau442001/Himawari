@@ -1,0 +1,3827 @@
+[
+  {
+    "id": 1,
+    "orig_id": "1",
+    "hanzi": "部屋",
+    "pinyin": "へや",
+    "hanviet": "BỘ ỐC",
+    "meaning": "căn phòng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 2,
+    "orig_id": "2",
+    "hanzi": "全部",
+    "pinyin": "ぜんぶ",
+    "hanviet": "TOÀN BỘ",
+    "meaning": "toàn bộ, tất cả",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 3,
+    "orig_id": "3",
+    "hanzi": "最も",
+    "pinyin": "もっとも",
+    "hanviet": "TỐI",
+    "meaning": "nhất, vô cùng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 4,
+    "orig_id": "4",
+    "hanzi": "最近",
+    "pinyin": "さいきん",
+    "hanviet": "TỐI CẬN",
+    "meaning": "gần đây",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 5,
+    "orig_id": "5",
+    "hanzi": "最高",
+    "pinyin": "さいこう",
+    "hanviet": "TỐI CAO",
+    "meaning": "cao nhất, tuyệt vời",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 6,
+    "orig_id": "6",
+    "hanzi": "興味",
+    "pinyin": "きょうみ",
+    "hanviet": "HƯNG VỊ",
+    "meaning": "hứng thú, quan tâm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 7,
+    "orig_id": "7",
+    "hanzi": "畳",
+    "pinyin": "たたみ",
+    "hanviet": "ĐIỆP",
+    "meaning": "chiếu tatami",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 8,
+    "orig_id": "8",
+    "hanzi": "床",
+    "pinyin": "ゆか",
+    "hanviet": "SÀNG",
+    "meaning": "sàn nhà",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 9,
+    "orig_id": "9",
+    "hanzi": "材料",
+    "pinyin": "ざいりょう",
+    "hanviet": "TÀI LIỆU",
+    "meaning": "nguyên liệu, vật liệu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 10,
+    "orig_id": "10",
+    "hanzi": "非常に",
+    "pinyin": "ひじょうに",
+    "hanviet": "PHI THƯỜNG",
+    "meaning": "rất, cực kì",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 11,
+    "orig_id": "11",
+    "hanzi": "常識",
+    "pinyin": "じょうしき",
+    "hanviet": "THƯỜNG THỨC",
+    "meaning": "kiến thức thông thường",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 12,
+    "orig_id": "12",
+    "hanzi": "日常生活",
+    "pinyin": "にちじょうせいかつ",
+    "hanviet": "NHẬT THƯỜNG SINH HOẠT",
+    "meaning": "cuộc sống thường ngày",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 13,
+    "orig_id": "13",
+    "hanzi": "日常",
+    "pinyin": "にちじょう",
+    "hanviet": "NHẬT THƯỜNG",
+    "meaning": "thường ngày",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 14,
+    "orig_id": "14",
+    "hanzi": "珍しい",
+    "pinyin": "めずらしい",
+    "hanviet": "TRÂN",
+    "meaning": "hiếm, lạ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 15,
+    "orig_id": "15",
+    "hanzi": "文化",
+    "pinyin": "ぶんか",
+    "hanviet": "VĂN HÓA",
+    "meaning": "văn hóa",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 16,
+    "orig_id": "16",
+    "hanzi": "お化け",
+    "pinyin": "おばけ",
+    "hanviet": "HÓA",
+    "meaning": "ma quỷ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 17,
+    "orig_id": "17",
+    "hanzi": "多様化",
+    "pinyin": "たようか",
+    "hanviet": "ĐA DẠNG HÓA",
+    "meaning": "đa dạng hóa",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 18,
+    "orig_id": "18",
+    "hanzi": "代表",
+    "pinyin": "だいひょう",
+    "hanviet": "ĐẠI BIỂU",
+    "meaning": "đại biểu, đại diện",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 19,
+    "orig_id": "19",
+    "hanzi": "発表",
+    "pinyin": "はっぴょう",
+    "hanviet": "PHÁT BIỂU",
+    "meaning": "phát biểu, công bố",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 20,
+    "orig_id": "20",
+    "hanzi": "表れ",
+    "pinyin": "あらわれ",
+    "hanviet": "BIỂU",
+    "meaning": "biểu hiện",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 21,
+    "orig_id": "21",
+    "hanzi": "全体",
+    "pinyin": "ぜんたい",
+    "hanviet": "TOÀN THỂ",
+    "meaning": "toàn thể, toàn bộ thành viên",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 22,
+    "orig_id": "22",
+    "hanzi": "全く",
+    "pinyin": "まったく",
+    "hanviet": "TOÀN",
+    "meaning": "hoàn toàn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 23,
+    "orig_id": "23",
+    "hanzi": "全員",
+    "pinyin": "ぜんいん",
+    "hanviet": "TOÀN VIÊN",
+    "meaning": "toàn bộ thành viên",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 24,
+    "orig_id": "24",
+    "hanzi": "全部",
+    "pinyin": "ぜんぶ",
+    "hanviet": "TOÀN BỘ",
+    "meaning": "toàn bộ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 25,
+    "orig_id": "25",
+    "hanzi": "安全",
+    "pinyin": "あんぜん",
+    "hanviet": "AN TOÀN",
+    "meaning": "an toàn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 26,
+    "orig_id": "26",
+    "hanzi": "敷く",
+    "pinyin": "しく",
+    "hanviet": "PHU",
+    "meaning": "trải (chiếu)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 27,
+    "orig_id": "27",
+    "hanzi": "立派",
+    "pinyin": "りっぱ",
+    "hanviet": "LẬP PHÁI",
+    "meaning": "tuyệt vời, hoành tráng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 28,
+    "orig_id": "28",
+    "hanzi": "板張り",
+    "pinyin": "いたばり",
+    "hanviet": "BẢN TRƯƠNG",
+    "meaning": "sàn gỗ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 29,
+    "orig_id": "29",
+    "hanzi": "お客さん",
+    "pinyin": "おきゃくさん",
+    "hanviet": "KHÁCH",
+    "meaning": "khách hàng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 30,
+    "orig_id": "30",
+    "hanzi": "客間",
+    "pinyin": "きゃくま",
+    "hanviet": "KHÁCH GIAN",
+    "meaning": "phòng khách",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 31,
+    "orig_id": "31",
+    "hanzi": "乗客",
+    "pinyin": "じょうきゃく",
+    "hanviet": "THỪA KHÁCH",
+    "meaning": "hành khách",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 32,
+    "orig_id": "32",
+    "hanzi": "客",
+    "pinyin": "きゃく",
+    "hanviet": "KHÁCH",
+    "meaning": "khách",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 33,
+    "orig_id": "33",
+    "hanzi": "置く",
+    "pinyin": "おく",
+    "hanviet": "TRÍ",
+    "meaning": "đặt, để",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 34,
+    "orig_id": "34",
+    "hanzi": "位置",
+    "pinyin": "いち",
+    "hanviet": "VỊ TRÍ",
+    "meaning": "vị trí",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 35,
+    "orig_id": "35",
+    "hanzi": "座布団",
+    "pinyin": "ざぶとん",
+    "hanviet": "TỌA BỐ ĐOÀN",
+    "meaning": "đệm ngồi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 36,
+    "orig_id": "36",
+    "hanzi": "座談会",
+    "pinyin": "ざだんかい",
+    "hanviet": "TỌA ĐÀM HỘI",
+    "meaning": "hội nghị tọa đàm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 37,
+    "orig_id": "37",
+    "hanzi": "財布",
+    "pinyin": "さいふ",
+    "hanviet": "TÀI BỐ",
+    "meaning": "cái ví",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 38,
+    "orig_id": "38",
+    "hanzi": "枚",
+    "pinyin": "まい",
+    "hanviet": "MAI",
+    "meaning": "tờ, tấm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 39,
+    "orig_id": "39",
+    "hanzi": "自由",
+    "pinyin": "じゆう",
+    "hanviet": "TỰ DO",
+    "meaning": "tự do",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 40,
+    "orig_id": "40",
+    "hanzi": "理由",
+    "pinyin": "りゆう",
+    "hanviet": "LÝ DO",
+    "meaning": "lý do",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 41,
+    "orig_id": "41",
+    "hanzi": "家具",
+    "pinyin": "かぐ",
+    "hanviet": "GIA CỤ",
+    "meaning": "đồ nội thất",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 42,
+    "orig_id": "42",
+    "hanzi": "具体的",
+    "pinyin": "ぐたいてき",
+    "hanviet": "CỤ THỂ ĐÍCH",
+    "meaning": "tính cụ thể",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 43,
+    "orig_id": "43",
+    "hanzi": "道具",
+    "pinyin": "どうぐ",
+    "hanviet": "ĐẠO CỤ",
+    "meaning": "dụng cụ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 44,
+    "orig_id": "44",
+    "hanzi": "組み合わせる",
+    "pinyin": "くみあわせる",
+    "hanviet": "TỔ HỢP",
+    "meaning": "kết hợp, phối hợp",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 45,
+    "orig_id": "45",
+    "hanzi": "居間",
+    "pinyin": "いま",
+    "hanviet": "CƯ GIAN",
+    "meaning": "phòng khách",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 46,
+    "orig_id": "46",
+    "hanzi": "目的",
+    "pinyin": "もくてき",
+    "hanviet": "MỤC ĐÍCH",
+    "meaning": "mục đích",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 47,
+    "orig_id": "47",
+    "hanzi": "悲観的",
+    "pinyin": "ひかんてき",
+    "hanviet": "BI QUAN ĐÍCH",
+    "meaning": "tính bi quan",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 48,
+    "orig_id": "48",
+    "hanzi": "具体的",
+    "pinyin": "ぐたいてき",
+    "hanviet": "CỤ THỂ ĐÍCH",
+    "meaning": "tính cụ thể",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 49,
+    "orig_id": "49",
+    "hanzi": "乾いた",
+    "pinyin": "かわいた",
+    "hanviet": "CAN",
+    "meaning": "khô",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 50,
+    "orig_id": "50",
+    "hanzi": "呼吸",
+    "pinyin": "こきゅう",
+    "hanviet": "HÔ HẤP",
+    "meaning": "hô hấp, hít thở",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 51,
+    "orig_id": "51",
+    "hanzi": "湿気",
+    "pinyin": "しっけ",
+    "hanviet": "THẤP KHÍ",
+    "meaning": "độ ẩm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 52,
+    "orig_id": "52",
+    "hanzi": "取る",
+    "pinyin": "とる",
+    "hanviet": "THỦ",
+    "meaning": "lấy",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 53,
+    "orig_id": "53",
+    "hanzi": "取れる",
+    "pinyin": "とれる",
+    "hanviet": "THỦ",
+    "meaning": "có thể lấy được",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 54,
+    "orig_id": "54",
+    "hanzi": "取り付ける",
+    "pinyin": "とりつける",
+    "hanviet": "THỦ PHÓ",
+    "meaning": "lắp đặt",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 55,
+    "orig_id": "55",
+    "hanzi": "聞き取る",
+    "pinyin": "ききとる",
+    "hanviet": "VĂN THỦ",
+    "meaning": "nghe hiểu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 56,
+    "orig_id": "56",
+    "hanzi": "役に立つ",
+    "pinyin": "やくにたつ",
+    "hanviet": "DỊCH LẬP",
+    "meaning": "có ích",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 57,
+    "orig_id": "57",
+    "hanzi": "硬い",
+    "pinyin": "かたい",
+    "hanviet": "NGẠNH",
+    "meaning": "cứng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 58,
+    "orig_id": "58",
+    "hanzi": "柔らかい",
+    "pinyin": "やわらかい",
+    "hanviet": "NHU",
+    "meaning": "mềm mại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 59,
+    "orig_id": "59",
+    "hanzi": "素足",
+    "pinyin": "すあし",
+    "hanviet": "TỐ TÚC",
+    "meaning": "chân trần",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 60,
+    "orig_id": "60",
+    "hanzi": "素晴らしい",
+    "pinyin": "すばらしい",
+    "hanviet": "TỐ PHÁT",
+    "meaning": "tuyệt vời, giỏi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 61,
+    "orig_id": "61",
+    "hanzi": "快適",
+    "pinyin": "かいてき",
+    "hanviet": "KHOÁI THÍCH",
+    "meaning": "sảng khoái, dễ chịu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 62,
+    "orig_id": "62",
+    "hanzi": "清潔に",
+    "pinyin": "せいけつに",
+    "hanviet": "THANH KHIẾT",
+    "meaning": "sạch sẽ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 63,
+    "orig_id": "63",
+    "hanzi": "僕",
+    "pinyin": "ぼく",
+    "hanviet": "PHÓ",
+    "meaning": "tôi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 64,
+    "orig_id": "64",
+    "hanzi": "苦手",
+    "pinyin": "にがて",
+    "hanviet": "KHỔ THỦ",
+    "meaning": "kém, yếu, không thích",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 65,
+    "orig_id": "65",
+    "hanzi": "苦労",
+    "pinyin": "くろう",
+    "hanviet": "KHỔLAO",
+    "meaning": "gian khổ, vất vả",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 66,
+    "orig_id": "66",
+    "hanzi": "簡単",
+    "pinyin": "かんたん",
+    "hanviet": "GIẢN ĐƠN",
+    "meaning": "đơn giản",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 67,
+    "orig_id": "67",
+    "hanzi": "単なる",
+    "pinyin": "かんなる",
+    "hanviet": "ĐƠN",
+    "meaning": "đơn thuần, chỉ là",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 68,
+    "orig_id": "68",
+    "hanzi": "宇宙",
+    "pinyin": "うちゅう",
+    "hanviet": "VŨ TRỤ",
+    "meaning": "vũ trụ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 69,
+    "orig_id": "69",
+    "hanzi": "紛らわしい",
+    "pinyin": "まぎらわしい",
+    "hanviet": "PHÂN",
+    "meaning": "gây bối rối (confuse)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 70,
+    "orig_id": "70",
+    "hanzi": "僕自身",
+    "pinyin": "ぼくじしん",
+    "hanviet": "PHÓ TỰ THÂN",
+    "meaning": "bản thân tôi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 71,
+    "orig_id": "71",
+    "hanzi": "違い",
+    "pinyin": "ちがい",
+    "hanviet": "VI",
+    "meaning": "sự khác biệt",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 72,
+    "orig_id": "72",
+    "hanzi": "間違い",
+    "pinyin": "まちがい",
+    "hanviet": "GIAN VI",
+    "meaning": "lỗi sai",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 73,
+    "orig_id": "73",
+    "hanzi": "間違える",
+    "pinyin": "まちがえる",
+    "hanviet": "GIAN VI",
+    "meaning": "nhầm lẫn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 74,
+    "orig_id": "74",
+    "hanzi": "複雑",
+    "pinyin": "ふくざつ",
+    "hanviet": "PHỨC TẠP",
+    "meaning": "phức tạp, khó",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 75,
+    "orig_id": "75",
+    "hanzi": "雑誌",
+    "pinyin": "ざっし",
+    "hanviet": "TẠP CHÍ",
+    "meaning": "tạp chí",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 76,
+    "orig_id": "76",
+    "hanzi": "初めて",
+    "pinyin": "はじめて",
+    "hanviet": "SƠ",
+    "meaning": "lần đầu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 77,
+    "orig_id": "77",
+    "hanzi": "初めは",
+    "pinyin": "はじめは",
+    "hanviet": "SƠ",
+    "meaning": "ban đầu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 78,
+    "orig_id": "78",
+    "hanzi": "相手",
+    "pinyin": "あいて",
+    "hanviet": "TƯƠNG THỦ",
+    "meaning": "đối phương",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 79,
+    "orig_id": "79",
+    "hanzi": "例えば",
+    "pinyin": "たとえば",
+    "hanviet": "LỆ",
+    "meaning": "ví dụ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 80,
+    "orig_id": "80",
+    "hanzi": "性格",
+    "pinyin": "せいかく",
+    "hanviet": "TÍNH CÁCH",
+    "meaning": "tính cách",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 81,
+    "orig_id": "81",
+    "hanzi": "確認",
+    "pinyin": "かくにん",
+    "hanviet": "XÁC NHẬN",
+    "meaning": "xác nhận",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 82,
+    "orig_id": "82",
+    "hanzi": "反対",
+    "pinyin": "はんたい",
+    "hanviet": "PHẢN ĐỐI",
+    "meaning": "phản đối",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 83,
+    "orig_id": "83",
+    "hanzi": "絶対に",
+    "pinyin": "ぜったいに",
+    "hanviet": "TUYỆT ĐỐI",
+    "meaning": "tuyệt đối",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 84,
+    "orig_id": "84",
+    "hanzi": "対象",
+    "pinyin": "たいしょう",
+    "hanviet": "ĐỐI TƯỢNG",
+    "meaning": "đối tượng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 85,
+    "orig_id": "85",
+    "hanzi": "普通に",
+    "pinyin": "ふつうに",
+    "hanviet": "PHỔ THÔNG",
+    "meaning": "như bình thường",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 86,
+    "orig_id": "86",
+    "hanzi": "変える",
+    "pinyin": "かえる",
+    "hanviet": "BIẾN",
+    "meaning": "thay đổi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 87,
+    "orig_id": "87",
+    "hanzi": "必要",
+    "pinyin": "ひつよう",
+    "hanviet": "TẤT YẾU",
+    "meaning": "cần thiết",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 88,
+    "orig_id": "88",
+    "hanzi": "必ずしも",
+    "pinyin": "かならずしも",
+    "hanviet": "TẤT",
+    "meaning": "không hẳn là",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 89,
+    "orig_id": "90",
+    "hanzi": "瞬間",
+    "pinyin": "しゅんかん",
+    "hanviet": "THUẤN GIAN",
+    "meaning": "khoảnh khắc",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 90,
+    "orig_id": "91",
+    "hanzi": "二十歳",
+    "pinyin": "はたち",
+    "hanviet": "NHỊ THẬP TUẾ",
+    "meaning": "20 tuổi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 91,
+    "orig_id": "92",
+    "hanzi": "男性",
+    "pinyin": "だんせい",
+    "hanviet": "NAM TÍNH",
+    "meaning": "nam giới",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 92,
+    "orig_id": "93",
+    "hanzi": "女性",
+    "pinyin": "じょせい",
+    "hanviet": "NỮ TÍNH",
+    "meaning": "nữ giới",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 93,
+    "orig_id": "94",
+    "hanzi": "性別",
+    "pinyin": "せいべつ",
+    "hanviet": "TÍNH BIỆT",
+    "meaning": "giới tính",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 94,
+    "orig_id": "95",
+    "hanzi": "安全性",
+    "pinyin": "あんぜんせい",
+    "hanviet": "AN TOÀN TÍNH",
+    "meaning": "tính an toàn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 95,
+    "orig_id": "96",
+    "hanzi": "意識",
+    "pinyin": "いしき",
+    "hanviet": "Ý THỨC",
+    "meaning": "ý thức",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 96,
+    "orig_id": "97",
+    "hanzi": "常識",
+    "pinyin": "じょうしき",
+    "hanviet": "THƯỜNG THỨC",
+    "meaning": "thưởng thức",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 97,
+    "orig_id": "98",
+    "hanzi": "調査",
+    "pinyin": "ちょうさ",
+    "hanviet": "ĐIỀU TRA",
+    "meaning": "điều tra",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 98,
+    "orig_id": "99",
+    "hanzi": "調べる",
+    "pinyin": "しらべる",
+    "hanviet": "ĐIỀU",
+    "meaning": "tra cứu, tìm hiểu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 99,
+    "orig_id": "100",
+    "hanzi": "傾向",
+    "pinyin": "けいこう",
+    "hanviet": "KHUYNH HƯỚNG",
+    "meaning": "khuynh hướng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 100,
+    "orig_id": "101",
+    "hanzi": "向き合う",
+    "pinyin": "むきあう",
+    "hanviet": "HƯỚNG HỢP",
+    "meaning": "đối mặt",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 101,
+    "orig_id": "102",
+    "hanzi": "向き",
+    "pinyin": "むき",
+    "hanviet": "HƯỚNG",
+    "meaning": "hướng về, dành cho",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 102,
+    "orig_id": "103",
+    "hanzi": "失敗",
+    "pinyin": "しっぱい",
+    "hanviet": "THẤT BẠI",
+    "meaning": "thất bại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 103,
+    "orig_id": "104",
+    "hanzi": "失礼な",
+    "pinyin": "しつれいな",
+    "hanviet": "THẤT LỄ",
+    "meaning": "thất lễ, bất lịch sự",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 104,
+    "orig_id": "105",
+    "hanzi": "幸せ",
+    "pinyin": "しあわせ",
+    "hanviet": "HẠNH",
+    "meaning": "hạnh phúc",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 105,
+    "orig_id": "106",
+    "hanzi": "避ける",
+    "pinyin": "さける",
+    "hanviet": "TỊ",
+    "meaning": "tránh né",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 106,
+    "orig_id": "107",
+    "hanzi": "悲観的な",
+    "pinyin": "ひかんてきな",
+    "hanviet": "BI QUAN ĐÍCH",
+    "meaning": "tính bi quan",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 107,
+    "orig_id": "108",
+    "hanzi": "観察する",
+    "pinyin": "かんさつする",
+    "hanviet": "QUAN SÁT",
+    "meaning": "quan sát",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 108,
+    "orig_id": "109",
+    "hanzi": "一位",
+    "pinyin": "いちい",
+    "hanviet": "NHẤT VỊ",
+    "meaning": "vị trí thứ nhất",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 109,
+    "orig_id": "110",
+    "hanzi": "位置",
+    "pinyin": "いち",
+    "hanviet": "VỊ TRÍ",
+    "meaning": "vị trí",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 110,
+    "orig_id": "111",
+    "hanzi": "恋",
+    "pinyin": "こい",
+    "hanviet": "LUYẾN",
+    "meaning": "tình yêu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 111,
+    "orig_id": "112",
+    "hanzi": "恋人",
+    "pinyin": "こいびと",
+    "hanviet": "LUYẾN NHÂN",
+    "meaning": "người yêu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 112,
+    "orig_id": "113",
+    "hanzi": "季節",
+    "pinyin": "きせつ",
+    "hanviet": "QUÝ TIẾT",
+    "meaning": "mùa, tiết trời",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 113,
+    "orig_id": "114",
+    "hanzi": "成人",
+    "pinyin": "せいじん",
+    "hanviet": "THÀNH NHÂN",
+    "meaning": "người trưởng thành",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 114,
+    "orig_id": "115",
+    "hanzi": "成功",
+    "pinyin": "せいこう",
+    "hanviet": "THÀNH CÔNG",
+    "meaning": "thành công",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 115,
+    "orig_id": "116",
+    "hanzi": "完成",
+    "pinyin": "かんせい",
+    "hanviet": "HOÀN THÀNH",
+    "meaning": "hoàn thành",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 116,
+    "orig_id": "117",
+    "hanzi": "寝る",
+    "pinyin": "ねる",
+    "hanviet": "TẨM",
+    "meaning": "ngủ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 117,
+    "orig_id": "118",
+    "hanzi": "寝坊",
+    "pinyin": "ねぼう",
+    "hanviet": "TẨM PHƯỜNG",
+    "meaning": "ngủ nướng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 118,
+    "orig_id": "119",
+    "hanzi": "寝顔",
+    "pinyin": "ねがお",
+    "hanviet": "TẨM NHAN",
+    "meaning": "gương mặt khi ngủ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 119,
+    "orig_id": "120",
+    "hanzi": "感じる",
+    "pinyin": "かんじる",
+    "hanviet": "CẢM",
+    "meaning": "cảm nhận, cảm thấy",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 120,
+    "orig_id": "121",
+    "hanzi": "忙しい",
+    "pinyin": "いそがしい",
+    "hanviet": "MANG",
+    "meaning": "bận rộn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 121,
+    "orig_id": "122",
+    "hanzi": "一生懸命",
+    "pinyin": "いっしょけんめい",
+    "hanviet": "NHẤT SINH HUYỀN MỆNH",
+    "meaning": "cố gắng hết mình",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 122,
+    "orig_id": "123",
+    "hanzi": "命",
+    "pinyin": "いのち",
+    "hanviet": "MỆNH",
+    "meaning": "sinh mạng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 123,
+    "orig_id": "124",
+    "hanzi": "遅刻する",
+    "pinyin": "ちこくする",
+    "hanviet": "TRÌ KHẮC",
+    "meaning": "đi muộn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 124,
+    "orig_id": "125",
+    "hanzi": "友達",
+    "pinyin": "ともだち",
+    "hanviet": "HỮU ĐẠT",
+    "meaning": "bạn bè",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 125,
+    "orig_id": "126",
+    "hanzi": "危険",
+    "pinyin": "きけん",
+    "hanviet": "NGUY HIỂM",
+    "meaning": "nguy hiểm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 126,
+    "orig_id": "127",
+    "hanzi": "戦争",
+    "pinyin": "せんそう",
+    "hanviet": "CHIẾN TRANH",
+    "meaning": "chiến tranh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 127,
+    "orig_id": "128",
+    "hanzi": "戦国",
+    "pinyin": "せんごく",
+    "hanviet": "CHIẾN QUỐC",
+    "meaning": "chiến quốc",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 128,
+    "orig_id": "129",
+    "hanzi": "競争",
+    "pinyin": "きょうそう",
+    "hanviet": "CẠNH TRANH",
+    "meaning": "cạnh tranh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 129,
+    "orig_id": "130",
+    "hanzi": "過ごす",
+    "pinyin": "すごす",
+    "hanviet": "QUÁ",
+    "meaning": "trải qua",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 130,
+    "orig_id": "131",
+    "hanzi": "過去",
+    "pinyin": "かこ",
+    "hanviet": "QUÁ KHỨ",
+    "meaning": "quá khứ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 131,
+    "orig_id": "132",
+    "hanzi": "電話嫌い",
+    "pinyin": "でんわぎらい",
+    "hanviet": "ĐIỆN THOẠI HIỀM",
+    "meaning": "ghét điện thoại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 132,
+    "orig_id": "133",
+    "hanzi": "嫌い",
+    "pinyin": "きらい",
+    "hanviet": "HIỀM",
+    "meaning": "ghét",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 133,
+    "orig_id": "134",
+    "hanzi": "大嫌い",
+    "pinyin": "だいきらい",
+    "hanviet": "ĐẠI HIỀM",
+    "meaning": "rất ghét",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 134,
+    "orig_id": "135",
+    "hanzi": "彼",
+    "pinyin": "かれ",
+    "hanviet": "BỈ",
+    "meaning": "anh ấy",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 135,
+    "orig_id": "136",
+    "hanzi": "彼ら",
+    "pinyin": "かれら",
+    "hanviet": "BỈ",
+    "meaning": "họ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 136,
+    "orig_id": "137",
+    "hanzi": "利用する",
+    "pinyin": "りようする",
+    "hanviet": "LỢI DỤNG",
+    "meaning": "sử dụng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 137,
+    "orig_id": "138",
+    "hanzi": "便利さ",
+    "pinyin": "べんりさ",
+    "hanviet": "TIỆN LỢI",
+    "meaning": "sự tiện lợi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 138,
+    "orig_id": "139",
+    "hanzi": "便利",
+    "pinyin": "べんり",
+    "hanviet": "TIỆN LỢI",
+    "meaning": "tiện lợi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 139,
+    "orig_id": "140",
+    "hanzi": "機械",
+    "pinyin": "きかい",
+    "hanviet": "CƠ GIỚI",
+    "meaning": "máy móc",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 140,
+    "orig_id": "141",
+    "hanzi": "電話機",
+    "pinyin": "でんわき",
+    "hanviet": "ĐIỆN THOẠI CƠ",
+    "meaning": "máy điện thoại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 141,
+    "orig_id": "142",
+    "hanzi": "飛行機",
+    "pinyin": "ひこうき",
+    "hanviet": "PHI HÀNH CƠ",
+    "meaning": "máy bay",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 142,
+    "orig_id": "143",
+    "hanzi": "断る",
+    "pinyin": "ことわる",
+    "hanviet": "ĐOẠN",
+    "meaning": "từ chối",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 143,
+    "orig_id": "144",
+    "hanzi": "進める",
+    "pinyin": "すすめる",
+    "hanviet": "TIẾN",
+    "meaning": "thúc đẩy, tiến lên",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 144,
+    "orig_id": "145",
+    "hanzi": "腹を立て",
+    "pinyin": "はらをたて",
+    "hanviet": "PHÚC LẬP",
+    "meaning": "nổi giận",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 145,
+    "orig_id": "146",
+    "hanzi": "絶対に",
+    "pinyin": "ぜったいに",
+    "hanviet": "TUYỆT THỂ",
+    "meaning": "tuyệt đối",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 146,
+    "orig_id": "147",
+    "hanzi": "数日",
+    "pinyin": "すうじつ",
+    "hanviet": "SỐ NHẬT",
+    "meaning": "vài ngày",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 147,
+    "orig_id": "148",
+    "hanzi": "奇数",
+    "pinyin": "きすう",
+    "hanviet": "KÌ SỐ",
+    "meaning": "số lẻ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 148,
+    "orig_id": "149",
+    "hanzi": "偶数",
+    "pinyin": "ぐうすう",
+    "hanviet": "NGẪU SỐ",
+    "meaning": "số chẵn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 149,
+    "orig_id": "150",
+    "hanzi": "数百人",
+    "pinyin": "すうひゃくにん",
+    "hanviet": "SỐ BÁCH NHÂN",
+    "meaning": "vài trăm người",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 150,
+    "orig_id": "151",
+    "hanzi": "亡くなる",
+    "pinyin": "なくなる",
+    "hanviet": "VONG",
+    "meaning": "chết",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 151,
+    "orig_id": "152",
+    "hanzi": "届く",
+    "pinyin": "とどく",
+    "hanviet": "GIỚI",
+    "meaning": "được gửi đến",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 152,
+    "orig_id": "153",
+    "hanzi": "葬式",
+    "pinyin": "そうしき",
+    "hanviet": "TÁNG THỨC",
+    "meaning": "tang lễ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 153,
+    "orig_id": "154",
+    "hanzi": "出席する",
+    "pinyin": "しゅっせきする",
+    "hanviet": "XUẤT TỊCH",
+    "meaning": "tham dự",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 154,
+    "orig_id": "155",
+    "hanzi": "残念",
+    "pinyin": "ざんねん",
+    "hanviet": "TÀN NIỆM",
+    "meaning": "đáng tiếc",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 155,
+    "orig_id": "156",
+    "hanzi": "残らす",
+    "pinyin": "のこえあす",
+    "hanviet": "TÀN",
+    "meaning": "còn lại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 156,
+    "orig_id": "157",
+    "hanzi": "接続",
+    "pinyin": "せつぞく",
+    "hanviet": "TIẾP TỤC",
+    "meaning": "kết nối",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 157,
+    "orig_id": "158",
+    "hanzi": "続ける",
+    "pinyin": "つづける",
+    "hanviet": "TỤC",
+    "meaning": "tiếp tục",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 158,
+    "orig_id": "159",
+    "hanzi": "申し出る",
+    "pinyin": "もうしでる",
+    "hanviet": "THÂN XUẤT",
+    "meaning": "đề đạt, đề nghị",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 159,
+    "orig_id": "160",
+    "hanzi": "結局",
+    "pinyin": "けっきょく",
+    "hanviet": "KẾT CỤC",
+    "meaning": "kết cục",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 160,
+    "orig_id": "161",
+    "hanzi": "結構",
+    "pinyin": "けっこう",
+    "hanviet": "KẾT CẤU",
+    "meaning": "tạm được, đủ rồi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 161,
+    "orig_id": "162",
+    "hanzi": "結果",
+    "pinyin": "けっか",
+    "hanviet": "KẾT QUẢ",
+    "meaning": "kết quả",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 162,
+    "orig_id": "163",
+    "hanzi": "無料",
+    "pinyin": "むりょう",
+    "hanviet": "VÔ LIÊU",
+    "meaning": "miễn phí",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 163,
+    "orig_id": "164",
+    "hanzi": "無意識",
+    "pinyin": "むいしき",
+    "hanviet": "VÔ Ý THỨC",
+    "meaning": "vô thức",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 164,
+    "orig_id": "165",
+    "hanzi": "早速",
+    "pinyin": "さっそく",
+    "hanviet": "TẢO TỐC",
+    "meaning": "ngay lập tức",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 165,
+    "orig_id": "166",
+    "hanzi": "速さ",
+    "pinyin": "はやさ",
+    "hanviet": "TỐC",
+    "meaning": "tốc độ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 166,
+    "orig_id": "167",
+    "hanzi": "取り付ける",
+    "pinyin": "とりつける",
+    "hanviet": "THỦ PHÓ",
+    "meaning": "lắp đặt",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 167,
+    "orig_id": "168",
+    "hanzi": "払う",
+    "pinyin": "はらう",
+    "hanviet": "PHẤT",
+    "meaning": "trả tiền",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 168,
+    "orig_id": "169",
+    "hanzi": "教師",
+    "pinyin": "きょうし",
+    "hanviet": "GIÁO SƯ",
+    "meaning": "Giáo viên, thầy cô",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 169,
+    "orig_id": "170",
+    "hanzi": "逆らう",
+    "pinyin": "さからう",
+    "hanviet": "NGHỊCH",
+    "meaning": "Chống lại, cưỡng lại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 170,
+    "orig_id": "171",
+    "hanzi": "逆に",
+    "pinyin": "ぎゃくに",
+    "hanviet": "NGHỊCH",
+    "meaning": "Ngược lại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 171,
+    "orig_id": "172",
+    "hanzi": "留学",
+    "pinyin": "りゅうがく",
+    "hanviet": "LƯU HỌC",
+    "meaning": "Du học",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 172,
+    "orig_id": "173",
+    "hanzi": "留学生",
+    "pinyin": "りゅうがくせい",
+    "hanviet": "LƯU HỌC SINH",
+    "meaning": "Du học sinh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 173,
+    "orig_id": "174",
+    "hanzi": "観察する",
+    "pinyin": "かんさつする",
+    "hanviet": "QUAN SÁT",
+    "meaning": "Quan sát",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 174,
+    "orig_id": "175",
+    "hanzi": "面",
+    "pinyin": "めん / おもて",
+    "hanviet": "DIỆN",
+    "meaning": "Mặt, bề mặt, khía cạnh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 175,
+    "orig_id": "176",
+    "hanzi": "中央",
+    "pinyin": "ちゅうおう",
+    "hanviet": "TRUNG ƯƠNG",
+    "meaning": "Trung tâm, trung ương",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 176,
+    "orig_id": "177",
+    "hanzi": "自然",
+    "pinyin": "しぜん",
+    "hanviet": "TỰ NHIÊN",
+    "meaning": "Tự nhiên",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 177,
+    "orig_id": "178",
+    "hanzi": "南半球",
+    "pinyin": "みなみはんきゅう",
+    "hanviet": "NAM BÁN CẦU",
+    "meaning": "Nam bán cầu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 178,
+    "orig_id": "179",
+    "hanzi": "北半球",
+    "pinyin": "きたはんきゅう",
+    "hanviet": "BẮC BÁN CẦU",
+    "meaning": "Bắc bán cầu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 179,
+    "orig_id": "180",
+    "hanzi": "忘れる",
+    "pinyin": "わすれる",
+    "hanviet": "VONG",
+    "meaning": "Quên",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 180,
+    "orig_id": "181",
+    "hanzi": "忘れ物",
+    "pinyin": "わすれもの",
+    "hanviet": "VONG VẬT",
+    "meaning": "Đồ bỏ quên",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 181,
+    "orig_id": "182",
+    "hanzi": "経緯度",
+    "pinyin": "けいいど",
+    "hanviet": "KINH VĨ ĐỘ",
+    "meaning": "Kinh độ và vĩ độ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 182,
+    "orig_id": "183",
+    "hanzi": "経済",
+    "pinyin": "けいざい",
+    "hanviet": "KINH TẾ",
+    "meaning": "Kinh tế",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 183,
+    "orig_id": "184",
+    "hanzi": "習慣",
+    "pinyin": "しゅうかん",
+    "hanviet": "TẬP QUÁN",
+    "meaning": "Thói quen, tập quán",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 184,
+    "orig_id": "185",
+    "hanzi": "実は",
+    "pinyin": "じつは",
+    "hanviet": "THỰC",
+    "meaning": "Thực ra, thật ra",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 185,
+    "orig_id": "186",
+    "hanzi": "実験",
+    "pinyin": "じっけん",
+    "hanviet": "THỰC NGHIỆM",
+    "meaning": "Thí nghiệm",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 186,
+    "orig_id": "187",
+    "hanzi": "差別",
+    "pinyin": "さべつ",
+    "hanviet": "SAI BIỆT",
+    "meaning": "Phân biệt đối xử",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 187,
+    "orig_id": "188",
+    "hanzi": "文句",
+    "pinyin": "もんく",
+    "hanviet": "VĂN CÚ",
+    "meaning": "Lời phàn nàn, câu chữ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 188,
+    "orig_id": "189",
+    "hanzi": "平等",
+    "pinyin": "びょうどう",
+    "hanviet": "BÌNH ĐẲNG",
+    "meaning": "Bình đẳng",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 189,
+    "orig_id": "190",
+    "hanzi": "難しい",
+    "pinyin": "むずかしい",
+    "hanviet": "NAN",
+    "meaning": "Khó khăn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 190,
+    "orig_id": "191",
+    "hanzi": "成功",
+    "pinyin": "せいこう",
+    "hanviet": "THÀNH CÔNG",
+    "meaning": "Thành công",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 191,
+    "orig_id": "192",
+    "hanzi": "記者",
+    "pinyin": "きしゃ",
+    "hanviet": "KÝ GIẢ",
+    "meaning": "Nhà báo, phóng viên",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 192,
+    "orig_id": "193",
+    "hanzi": "記憶",
+    "pinyin": "きおく",
+    "hanviet": "KÝ ỨC",
+    "meaning": "Ký ức, ghi nhớ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 193,
+    "orig_id": "194",
+    "hanzi": "雑誌",
+    "pinyin": "ざっし",
+    "hanviet": "TẠP CHÍ",
+    "meaning": "Tạp chí",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 194,
+    "orig_id": "195",
+    "hanzi": "不思議な",
+    "pinyin": "ふしぎな",
+    "hanviet": "BẤT TƯ NGHỊ",
+    "meaning": "Kỳ lạ, bí ẩn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 195,
+    "orig_id": "196",
+    "hanzi": "迷い",
+    "pinyin": "まよい",
+    "hanviet": "MÊ",
+    "meaning": "Sự do dự, lạc đường",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 196,
+    "orig_id": "197",
+    "hanzi": "夢",
+    "pinyin": "ゆめ",
+    "hanviet": "MỘNG",
+    "meaning": "Giấc mơ, ước mơ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 197,
+    "orig_id": "198",
+    "hanzi": "静かに",
+    "pinyin": "しずかに",
+    "hanviet": "TĨNH",
+    "meaning": "Yên lặng, một cách yên tĩnh",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 198,
+    "orig_id": "199",
+    "hanzi": "静まる",
+    "pinyin": "しずまる",
+    "hanviet": "TĨNH",
+    "meaning": "Trở nên yên lặng (tự động)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 199,
+    "orig_id": "200",
+    "hanzi": "静める",
+    "pinyin": "しずめる",
+    "hanviet": "TĨNH",
+    "meaning": "Làm cho yên lặng (chủ động)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 200,
+    "orig_id": "201",
+    "hanzi": "閉じる",
+    "pinyin": "とじる",
+    "hanviet": "BẾ",
+    "meaning": "Nhắm (mắt), đóng (sách)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 201,
+    "orig_id": "202",
+    "hanzi": "閉める",
+    "pinyin": "しめる",
+    "hanviet": "BẾ",
+    "meaning": "Đóng (cửa, cửa sổ)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 202,
+    "orig_id": "203",
+    "hanzi": "理想",
+    "pinyin": "りそう",
+    "hanviet": "LÝ TƯỞNG",
+    "meaning": "Lý tưởng, hình mẫu",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 203,
+    "orig_id": "204",
+    "hanzi": "現在",
+    "pinyin": "げんざい",
+    "hanviet": "HIỆN TẠI",
+    "meaning": "Hiện tại",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 204,
+    "orig_id": "205",
+    "hanzi": "現金",
+    "pinyin": "げんきん",
+    "hanviet": "HIỆN KIM",
+    "meaning": "Tiền mặt",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 205,
+    "orig_id": "206",
+    "hanzi": "解決",
+    "pinyin": "かいけつ",
+    "hanviet": "GIẢI QUYẾT",
+    "meaning": "Giải quyết",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 206,
+    "orig_id": "207",
+    "hanzi": "決める",
+    "pinyin": "きめる",
+    "hanviet": "QUYẾT",
+    "meaning": "Quyết định",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 207,
+    "orig_id": "208",
+    "hanzi": "怖い",
+    "pinyin": "こわい",
+    "hanviet": "BỐ",
+    "meaning": "Đáng sợ, sợ hãi",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 208,
+    "orig_id": "209",
+    "hanzi": "雷",
+    "pinyin": "かみなり",
+    "hanviet": "LÔI",
+    "meaning": "Sấm sét",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 209,
+    "orig_id": "210",
+    "hanzi": "笑う",
+    "pinyin": "わらう",
+    "hanviet": "TIẾU",
+    "meaning": "Cười",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 210,
+    "orig_id": "211",
+    "hanzi": "甘い",
+    "pinyin": "あまい",
+    "hanviet": "CAM",
+    "meaning": "Ngọt; dễ dãi, nuông chiều",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 211,
+    "orig_id": "212",
+    "hanzi": "甘える",
+    "pinyin": "あまえる",
+    "hanviet": "CAM",
+    "meaning": "Nũng nịu, cậy nhờ",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 212,
+    "orig_id": "213",
+    "hanzi": "甘やかす",
+    "pinyin": "あまやかす",
+    "hanviet": "CAM",
+    "meaning": "Nuông chiều (ai đó)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 213,
+    "orig_id": "214",
+    "hanzi": "丸める",
+    "pinyin": "まるめる",
+    "hanviet": "HOÀN",
+    "meaning": "Vo tròn, làm tròn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 214,
+    "orig_id": "215",
+    "hanzi": "丸い",
+    "pinyin": "まるい",
+    "hanviet": "HOÀN",
+    "meaning": "Tròn",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 215,
+    "orig_id": "216",
+    "hanzi": "本当",
+    "pinyin": "ほんとう",
+    "hanviet": "BẢN ĐƯƠNG",
+    "meaning": "Sự thật, thật sự",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 216,
+    "orig_id": "217",
+    "hanzi": "掘り当てる",
+    "pinyin": "ほりあてる",
+    "hanviet": "QUẬT",
+    "meaning": "Đào được, tìm ra",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 217,
+    "orig_id": "218",
+    "hanzi": "本当に",
+    "pinyin": "ほんとうに",
+    "hanviet": "BẢN ĐƯƠNG",
+    "meaning": "Thật sự, thực sự",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 218,
+    "orig_id": "219",
+    "hanzi": "信じる",
+    "pinyin": "しんじる",
+    "hanviet": "TÍN",
+    "meaning": "Tin tưởng, tin vào",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 219,
+    "orig_id": "220",
+    "hanzi": "震える",
+    "pinyin": "ふるえる",
+    "hanviet": "CHẤN",
+    "meaning": "Run rẩy, rung",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 220,
+    "orig_id": "221",
+    "hanzi": "地震",
+    "pinyin": "じしん",
+    "hanviet": "ĐỊA CHẤN",
+    "meaning": "Động đất",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 221,
+    "orig_id": "222",
+    "hanzi": "助ける",
+    "pinyin": "たすける",
+    "hanviet": "TRỢ",
+    "meaning": "Giúp đỡ, cứu giúp",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 222,
+    "orig_id": "223",
+    "hanzi": "次々に",
+    "pinyin": "つぎつぎに",
+    "hanviet": "THỨ THỨ",
+    "meaning": "Lần lượt, hết cái này đến cái khác",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 223,
+    "orig_id": "224",
+    "hanzi": "次に",
+    "pinyin": "つぎに",
+    "hanviet": "THỨ",
+    "meaning": "Tiếp theo, kế tiếp",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 224,
+    "orig_id": "225",
+    "hanzi": "消す",
+    "pinyin": "けす",
+    "hanviet": "TIÊU",
+    "meaning": "Tắt, xóa, dập tắt",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  },
+  {
+    "id": 225,
+    "orig_id": "226",
+    "hanzi": "消える",
+    "pinyin": "きえる",
+    "hanviet": "TIÊU",
+    "meaning": "Biến mất, tắt (tự động)",
+    "example_zh": "",
+    "example_py": "",
+    "example_vi": "",
+    "pos": {
+      "code": "noun",
+      "label": "Kanji",
+      "en": "Kanji",
+      "full": "Hán tự Minna N3"
+    }
+  }
+]
