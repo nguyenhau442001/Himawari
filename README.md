@@ -1,97 +1,66 @@
-# ⚡ Synapse Hanzi — Cognitive Visual Workstation (HSK 1–9)
+# 🌻 Himawari — Trạm học tiếng Nhật JLPT N3 thông minh
 
-> **Trạm học từ vựng chữ Hán đa giác quan, hiện đại, tối giản và 100% Offline (PWA).**  
-> Kết hợp minh họa câu chuyện trực quan (Visual Mnemonics), thuật toán **Spaced Repetition (SRS)**, phân tích ngữ pháp đọc hiểu **HSK 4 Chuẩn Hanban**, luyện viết thứ tự nét và tra cứu âm Hán - Việt chuyên sâu.
+> **Trạm học từ vựng, chữ Hán và ngữ pháp JLPT N3 đa giác quan, hiện đại, tối giản và 100% Offline (PWA).**  
+> Kết hợp thuật toán **Lặp lại ngắt quãng (Spaced Repetition - SRS)**, kho dữ liệu phong phú (Mimi kara Oboeru, Shinkanzen Master, Minna no Nihongo), âm Hán - Việt tương ứng, phát âm tiếng Nhật tự nhiên và mini-games rèn luyện phản xạ.
 
 ---
 
 ### 🌐 Trải nghiệm trực tuyến ngay (Live Demo):
-👉 **Website chính thức:** [**https://nguyenhau442001.github.io/Synapse-Hanzi/**](https://nguyenhau442001.github.io/Synapse-Hanzi/)
+👉 **Website chính thức:** [**https://nguyenhau442001.github.io/Himawari/**](https://nguyenhau442001.github.io/Himawari/)
 
 *(Không cần cài đặt, hoạt động mượt mà trên cả máy tính & điện thoại, hỗ trợ cài làm App Offline PWA)*
 
 <p align="center">
-  <a href="https://nguyenhau442001.github.io/Synapse-Hanzi/">
-    <img src="https://img.shields.io/badge/🌐_Mở_Trực_Tuyến_Ngay-https%3A%2F%2Fnguyenhau442001.github.io%2FSynapse--Hanzi-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
+  <a href="https://nguyenhau442001.github.io/Himawari/">
+    <img src="https://img.shields.io/badge/🌐_Mở_Trực_Tuyến_Ngay-https%3A%2F%2Fnguyenhau442001.github.io%2FHimawari-FF9800?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo">
   </a>
   <img src="https://img.shields.io/badge/Chế_độ-100%25_Offline_(PWA)-22c55e?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
   <img src="https://img.shields.io/badge/Build-Zero_Config-3b82f6?style=for-the-badge&logo=javascript&logoColor=white" alt="Zero Build">
-  <img src="https://img.shields.io/badge/HSK-HSK_2.0_&_3.0_(1--9)-f59e0b?style=for-the-badge" alt="HSK 1-9">
+  <img src="https://img.shields.io/badge/Trình_độ-JLPT_N3_Full-f59e0b?style=for-the-badge&logo=target&logoColor=white" alt="JLPT N3">
 </p>
 
 ---
 
-## 📸 Giao diện ứng dụng (Visual Tour)
+## 📚 Kho tài liệu học tập toàn diện (JLPT N3 Content)
 
-### 1. 🎯 Bảng điều khiển học tập (Dashboard)
-Theo dõi mục tiêu học tập hàng ngày, chuỗi ngày học (Streak 🔥), từ vựng của ngày và biểu đồ đóng góp (Heatmap).
+Toàn bộ dữ liệu được chuẩn hóa từ các bộ giáo trình luyện thi JLPT N3 uy tín nhất:
 
-<p align="center">
-  <img src="assets/images/screenshots/01_dashboard.png" alt="Bảng điều khiển học tập Synapse Hanzi" width="95%">
-</p>
-
----
-
-### 2. 🎴 Thẻ Flashcard tối giản & Nút bấm độ tương phản cao
-Thiết kế tập trung tuyệt đối vào từ vựng (Hero Layout), thanh công cụ gom gọn trên viền thẻ, thao tác lật thẻ và chấm điểm siêu nhanh:
-- ❌ **Chưa nhớ [Phím 1 / ← / Vuốt trái]**: Đưa từ vào danh sách ôn tập ngay trong ngày.
-- ✅ **Đã nhớ [Phím 2 / → / Vuốt phải]**: Tự động tính toán chu kỳ lặp lại ngắt quãng FSRS.
-
-<p align="center">
-  <img src="assets/images/screenshots/02_flashcard_front.png" alt="Mặt trước thẻ Flashcard" width="48%">
-  <img src="assets/images/screenshots/02_flashcard_back.png" alt="Mặt sau thẻ Flashcard" width="48%">
-</p>
+### 1. 🎴 Từ vựng & Kanji N3
+| Danh mục | Số lượng | Nguồn gốc & Đặc điểm |
+| :--- | :---: | :--- |
+| **N3 Cốt lõi (Tổng hợp)** | **688 từ** | Tổng hợp từ vựng quan trọng nhất kèm âm Hán Việt, cách đọc Hiragana và câu ví dụ |
+| **Động từ N3** | **169 từ** | Trích xuất từ giáo trình *Mimi kara Oboeru N3* (kèm trợ từ が/を/に và tự/tha động từ) |
+| **Danh từ N3** | **82 từ** | Trích xuất từ giáo trình *Mimi kara Oboeru N3* kèm nghĩa mở rộng |
+| **Tính từ N3** | **42 từ** | Đầy đủ tính từ đuôi -i, đuôi -na thông dụng kèm từ trái nghĩa |
+| **Phó từ & Liên từ** | **122 từ** | Bộ phó từ chỉ mức độ, tần suất và toàn bộ các liên từ nối đoạn quan trọng |
+| **Katakana N3** | **79 từ** | Từ vựng mượn tiếng nước ngoài phổ biến trong đời sống và đề thi |
+| **Hán tự Minna N3** | **225 chữ** | Chữ Hán và từ ghép theo giáo trình *Minna no Nihongo Trung cấp* |
+| **Kanji & Từ ghép N3** | **924 từ** | Kho Hán tự tổng hợp và các từ ghép thường xuất hiện trong đề thi JLPT N3 |
 
 ---
 
-### 3. ✍️ Luyện viết chữ Hán tương tác (Hanzi Writer)
-Bảng phụ trợ (Slide-over Drawer) mô phỏng từng nét viết bút thuận bằng animation và bảng vẽ Canvas tự luyện viết trực tiếp bằng chuột hoặc cảm ứng.
-
-<p align="center">
-  <img src="assets/images/screenshots/02_flashcard_writing.png" alt="Bảng luyện viết chữ Hán và bút thuận" width="95%">
-</p>
-
----
-
-### 4. 📖 Đọc hiểu & Phân tích ngữ pháp HSK 4 (Chuẩn Hanban)
-Phân tích cấu trúc câu chuyên sâu (Chủ ngữ - Vị ngữ - Tân ngữ, liên từ), bẫy thi thường gặp, từ loại, phiên âm và âm Hán - Việt theo ngữ cảnh. Hỗ trợ **Zen Mode** tập trung cao độ.
-
-<p align="center">
-  <img src="assets/images/screenshots/03_reading_analysis.png" alt="Phân tích đọc hiểu & ngữ pháp HSK 4" width="95%">
-</p>
-
----
-
-### 5. 🧩 Phòng thực hành & Trò chơi củng cố phản xạ
-Rèn luyện cấu trúc ngữ pháp qua game **Sắp xếp từ thành câu (Sentence Game)**, Đoán từ (Guess Word) và Speed Quiz.
-
-<p align="center">
-  <img src="assets/images/screenshots/05_sentence_game.png" alt="Mini-game sắp xếp từ thành câu" width="95%">
-</p>
-
----
-
-### 6. 🀄 Trọn bộ 50 & 214 Bộ thủ Khang Hy
-Tra cứu và học bộ thủ theo số nét, ý nghĩa, ví dụ và thống kê tiến độ riêng biệt.
-
-<p align="center">
-  <img src="assets/images/screenshots/04_radicals.png" alt="Danh mục 50 và 214 bộ thủ Khang Hy" width="95%">
-</p>
+### 2. 🧠 Ngữ pháp & Kỹ năng N3
+| Danh mục | Số lượng | Đặc điểm |
+| :--- | :---: | :--- |
+| **NP Shinkanzen Master** | **106 mẫu** | Phân loại theo ngữ cảnh (Thời gian, Nguyên nhân, So sánh, Điều kiện...) kèm câu ví dụ đề thi |
+| **NP Mimi kara Oboeru** | **139 mẫu** | Cấu trúc ngữ pháp kèm chú thích phân biệt sắc thái câu |
+| **NP Minna Trung cấp** | **211 mẫu** | Ngữ pháp theo từng bài học Minna no Nihongo Chukyu |
+| **Đọc hiểu & Choukai** | **264 mẫu** | Mẫu câu giao tiếp thực tế, kỹ năng trả lời nhanh và dạng bài đọc hiểu Dokkai |
+| **Luyện đề Mondai N3** | **172 câu** | Bộ câu hỏi thực hành theo đúng định dạng các Mondai đề thi JLPT N3 |
 
 ---
 
 ## ⚡ Điểm nổi bật & Tính năng cốt lõi
 
-- **Kho từ vựng khổng lồ:**
-  - **HSK 2.0:** Đầy đủ 5.000 từ vựng cốt lõi HSK 1 đến HSK 6.
-  - **HSK 3.0 mới:** Hơn 11.000 từ vựng theo khung khảo thí quốc tế (Cấp 1–9).
-  - **Bộ thủ:** 50 bộ thủ cơ bản & 214 bộ thủ Khang Hy.
-  - **Từ vựng theo chủ đề:** Công nghệ thông tin (IT), Du lịch, Kinh doanh...
-- **Spaced Repetition tối ưu:** Thuật toán FSRS v5 tự động tính toán thời điểm ôn tập khoa học, dự đoán tỷ lệ nhớ theo đường cong Ebbinghaus.
-- **Tự động gắn âm Hán - Việt:** Giúp người Việt hiểu nghĩa gốc sâu sắc và ghi nhớ từ vựng nhanh gấp đôi.
-- **Âm thanh giọng thật & Web Speech API:** Nghe phát âm từ vựng và câu ví dụ, tùy chỉnh tốc độ đọc từ 0.25x đến 2.0x.
-- **SPA Router thông minh:** Hỗ trợ nút Back/Forward vật lý của trình duyệt và chia sẻ liên kết trực tiếp (Deep Linking) mà không tải lại trang.
-- **Offline 100% (PWA):** Cài đặt làm ứng dụng độc lập trên điện thoại (iOS, Android) và máy tính, học mọi lúc mọi nơi không cần Internet.
+- **Thuật toán Spaced Repetition (SRS FSRS v5):** Tự động tính toán chu kỳ lặp lại ngắt quãng dựa trên mức độ ghi nhớ của bạn, tối ưu hóa thời gian học và hạn chế quên lãng.
+- **Tích hợp âm Hán - Việt:** Điểm tựa vàng cho người Việt học tiếng Nhật, giúp hiểu sâu sắc ý nghĩa của từng chữ Kanji và nhớ từ ghép cực nhanh.
+- **Phát âm tiếng Nhật chuẩn (Web Speech API):** Tự động nhận diện và sử dụng giọng đọc tiếng Nhật tự nhiên (`ja-JP`) trên cả iOS, Android, macOS và Windows.
+- **Luyện viết chữ Hán & Bút thuận:** Mô phỏng từng nét viết chữ Hán và bảng vẽ tương tác giúp bạn tập viết trực tiếp.
+- **Mini-games củng cố phản xạ:**
+  - 🧩 **Xếp câu (Sentence Game):** Rèn luyện ngữ pháp và vị trí trợ từ tiếng Nhật.
+  - 🎨 **Đuổi hình bắt chữ (Guess Word):** Đoán từ vựng tiếng Nhật thông qua biểu tượng Emoji.
+  - ⚡ **Điền từ tốc độ (Speed Quiz):** Thử thách phản xạ từ vựng trong thời gian giới hạn.
+- **100% Offline (PWA):** Tải trước toàn bộ dữ liệu, hoạt động độc lập không cần kết nối mạng.
 
 ---
 
@@ -102,7 +71,7 @@ Tra cứu và học bộ thủ theo số nét, ý nghĩa, ví dụ và thống k
 | `Space` / `Enter` | **Lật thẻ** (Xem mặt sau / Ẩn mặt sau) |
 | `1` hoặc `←` | Đánh dấu **❌ Chưa nhớ** (Ôn lại hôm nay) |
 | `2` hoặc `→` | Đánh dấu **✅ Đã nhớ** (Tăng chu kỳ SRS) |
-| `A` | **Nghe phát âm** chữ Hán (Web Speech API) |
+| `A` | **Nghe phát âm** tiếng Nhật (Web Speech API) |
 | `R` | Ngẫu nhiên nhảy đến một từ bất kỳ |
 | `H` | Bật / Tắt hiển thị **âm Hán - Việt** |
 | `W` | Mở / Đóng bảng **Luyện viết chữ Hán** & Bút thuận |
@@ -112,14 +81,14 @@ Tra cứu và học bộ thủ theo số nét, ý nghĩa, ví dụ và thống k
 
 ## 💻 Hướng dẫn chạy cục bộ (Local Development)
 
-Không cần cài đặt Node.js hay npm:
+Không cần cài đặt Node.js hay build phức tạp:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/nguyenhau442001/synapse-hanzi.git
-cd synapse-hanzi
+git clone https://github.com/nguyenhau442001/Himawari.git
+cd Himawari
 
-# 2. Khởi chạy HTTP server (bằng Python 3)
+# 2. Khởi chạy HTTP server cục bộ (bằng Python 3)
 python3 -m http.server 8000
 ```
 
@@ -127,12 +96,12 @@ Mở trình duyệt truy cập: **`http://localhost:8000/`**
 
 ---
 
-## 🔒 Lưu trữ & Bản sao tiến trình
+## 🔒 Lưu trữ & Bảo toàn tiến trình học
 
-- Dữ liệu học tập được tự động lưu trong `localStorage` của trình duyệt.
-- Dễ dàng chuyển đổi giữa các thiết bị tại mục **Sao lưu và chuyển thiết bị**:
+- Toàn bộ tiến trình học và lịch sử ôn tập được tự động lưu trong `localStorage` của trình duyệt.
+- Dễ dàng sao lưu sang thiết bị khác tại mục **Sao lưu và chuyển thiết bị**:
   - **💾 Tải bản sao tiến trình:** Tải file `.json` nhẹ ~15KB.
-  - **📂 Khôi phục từ bản sao:** Chọn file `.json` để tiếp tục phiên học trên máy mới.
+  - **📂 Khôi phục từ bản sao:** Nạp file `.json` để tiếp tục học trên điện thoại hoặc máy tính mới.
 
 ---
 

@@ -1,4 +1,4 @@
-# Agent Memory - HSK Flashcards Generator
+# Agent Memory - Himawari (JLPT N3 Flashcards Generator)
 
 ## Git Workflow Rules
 
