@@ -528,25 +528,13 @@ function applyHanziLengthFit(el, text) {
     el.classList.add('is-len-1');
   }
   fitHanziToContainer(el);
-
-  if (typeof ResizeObserver !== 'undefined' && !window.__hanziResizeObserver) {
-    const parent = el.parentElement;
-    if (parent) {
-      window.__hanziResizeObserver = new ResizeObserver(() => {
-        const currentHanzi = document.getElementById('hanzi');
-        if (currentHanzi && currentHanzi.textContent) {
-          fitHanziToContainer(currentHanzi);
-        }
-      });
-      window.__hanziResizeObserver.observe(parent);
-    }
-  }
 }
 
 function fitHanziToContainer(el) {
   if (!el) return;
-  el.style.fontSize = '';
-  requestAnimationFrame(() => {
+  if (el._fitRaf) cancelAnimationFrame(el._fitRaf);
+  el._fitRaf = requestAnimationFrame(() => {
+    el._fitRaf = null;
     if (!el || !el.parentElement) return;
     const parent = el.parentElement;
     const availableWidth = parent.clientWidth - 16;
@@ -554,9 +542,9 @@ function fitHanziToContainer(el) {
     if (el.scrollWidth > availableWidth) {
       const computed = window.getComputedStyle(el);
       const currentSize = parseFloat(computed.fontSize);
-      if (currentSize > 16) {
+      if (currentSize > 18) {
         const ratio = availableWidth / el.scrollWidth;
-        const newSize = Math.max(16, Math.floor(currentSize * ratio * 0.98));
+        const newSize = Math.max(18, Math.floor(currentSize * ratio * 0.96));
         el.style.fontSize = `${newSize}px`;
       }
     }

@@ -18,9 +18,7 @@ function extractHanziCharacters(text) {
   if (!text || typeof text !== 'string') return [];
   const clean = text.replace(/[（\(].*?[）\)]/g, '').trim();
   const target = clean || text;
-  const chars = Array.from(target).filter(ch => /\p{Script=Han}/u.test(ch));
-  if (chars.length > 0) return chars;
-  return Array.from(target).filter(ch => ch.trim().length > 0 && !/[\s\p{P}]/u.test(ch));
+  return Array.from(target).filter(ch => /\p{Script=Han}/u.test(ch));
 }
 
 function getStrokeColors() {
@@ -762,7 +760,7 @@ function animateStrokeCanvas() {
     statusWrap.innerHTML = '';
   }
 
-  function stepThroughCharStrokes(charIdx, strokeIdx) {
+  function stepThroughCharStrokes(charIdx, strokeIdx, loadRetries = 0) {
     if (!isAnimatingSequential) return;
 
     if (charIdx !== activeCharIndex) {
@@ -773,8 +771,18 @@ function animateStrokeCanvas() {
 
     const charData = strokeCharDataMap[charIdx];
     if (!charData || !Array.isArray(charData.strokes) || charData.strokes.length === 0) {
+      if (loadRetries >= 8) {
+        // Character data failed or not found in library, skip to next character
+        if (charIdx < currentStrokeChars.length - 1) {
+          stepThroughCharStrokes(charIdx + 1, 0, 0);
+        } else {
+          isAnimatingSequential = false;
+          if (animateBtn) animateBtn.classList.remove('active');
+        }
+        return;
+      }
       // Wait briefly if character data is still loading
-      animationStepTimer = setTimeout(() => stepThroughCharStrokes(charIdx, strokeIdx), 150);
+      animationStepTimer = setTimeout(() => stepThroughCharStrokes(charIdx, strokeIdx, loadRetries + 1), 150);
       return;
     }
 

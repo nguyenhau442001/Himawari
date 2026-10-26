@@ -14,7 +14,7 @@
 <meta name="apple-mobile-web-app-title" content="Synapse Nihongo N3">
 <link rel="stylesheet" href="assets/flashcards.css?v=20261016-fix-hanzi-size1">
 <link rel="stylesheet" href="assets/css/fast-review-picker.css?v=20261006-ui-refinement1">
-<link rel="stylesheet" href="assets/css/workstation.css?v=20261016-fix-hanzi-size1">
+<link rel="stylesheet" href="assets/css/workstation.css?v=20261026-v2">
 <link rel="stylesheet" href="assets/css/sidebar-lab.css?v=20261015-viewport-fix-v7">
 <link rel="stylesheet" href="assets/css/home-widgets.css?v=20261015-dashboard-redesign">
 <link rel="stylesheet" href="assets/css/dashboard-enhancements.css?v=20261015-dashboard-redesign">
@@ -1024,54 +1024,43 @@ if ('serviceWorker' in navigator) {
 <script src="https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js" crossorigin="anonymous"></script>
 <script src="assets/js/srs.js?v=20261006-2tier-srs1"></script>
 <script src="assets/js/spa-router.js?v=20261014-router2"></script>
-<script src="assets/js/levels.js?v=20261010-zero-latency-illu1"></script>
-<script src="assets/js/topics.js?v=20261006-decimal-pct1"></script>
-<script src="assets/js/hsk30.js?v=20261006-decimal-pct1"></script>
-<script src="assets/js/sentence-game.js?v=20261006-sentence-ux1"></script>
-<script src="assets/js/guess-word-game.js?v=20261006-fix-chair1"></script>
-<script src="assets/js/speed-quiz-game.js?v=20261017-speedquiz-redesign1"></script>
-<script src="assets/js/vocabulary-overview.js?v=20261010-zero-latency-illu1"></script>
-<script src="assets/js/fast-review.js?v=20261016-fix-l4-review1"></script>
-<script src="assets/js/hanviet-dict.js?v=20261007-pos-visual2"></script>
-<script src="assets/js/word-illustrations.js?v=20261010-zero-latency-illu1"></script>
-<script src="assets/js/flashcard.js?v=20261016-preserve-flip1"></script>
-<script src="assets/js/card-interactions.js?v=20261016-preserve-flip1"></script>
-<script src="assets/js/speechService.js?v=20261010-speech-mvp1"></script>
-<script src="assets/js/speech.js?v=20261016-fix-hanzi-size1"></script>
-<script src="assets/js/progress.js?v=20261010-close-backup1"></script>
-<script src="assets/js/due-review.js?v=20261007-router1"></script>
-<script src="assets/js/theme.js?v=20261010-smooth-theme1"></script>
-<script src="assets/js/backup.js?v=20261010-close-backup1"></script>
-<script src="assets/js/memory-curve.js?v=20261008-fix-stroke-drawer2"></script>
-<script src="assets/js/radicals-state.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/radicals.js?v=20261015-dashboard-redesign"></script>
-<script src="assets/js/radical-card.js?v=20261010-close-backup1"></script>
-<script src="assets/js/sidebar-search.js?v=20261006-nav-fix1"></script>
-<script src="assets/js/sidebar-radicals-filter.js?v=20261003-hsk20-rich1"></script>
-<script src="assets/js/weak-words.js?v=20261008-redesign-zen-v1"></script>
-<script src="assets/js/hanzi-decomposition.js?v=20261016-fix-hanzi-size1"></script>
-<script src="assets/js/stroke-canvas.js?v=20261016-fix-hanzi-size1"></script>
-<script src="assets/js/sidebar-tabs.js?v=20261015-viewport-fix-v6"></script>
-<script src="assets/js/word-companion.js?v=20261008-fix-stroke-drawer2"></script>
-<script src="assets/js/grammar-breakdown.js?v=20261008-fix-stroke-drawer2"></script>
-<script src="assets/js/reading-analysis.js?v=20261015-mobile-ui-opt"></script>
-<script src="assets/js/graded-reading.js?v=20261014-fix-render1"></script>
-<script>
-window.addEventListener('load', function() {
-  var prefetchReading = function() {
-    if (typeof ensureReadingAnalysisLoaded === 'function') ensureReadingAnalysisLoaded();
-  };
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(prefetchReading, { timeout: 2500 });
-  } else {
-    setTimeout(prefetchReading, 400);
-  }
-});
-</script>
+<script src="assets/js/levels.js?v=20261026-v2"></script>
+<script src="assets/js/topics.js?v=20261026-v2"></script>
+<script src="assets/js/hsk30.js?v=20261026-v2"></script>
+<script src="assets/js/sentence-game.js?v=20261026-v2"></script>
+<script src="assets/js/guess-word-game.js?v=20261026-v2"></script>
+<script src="assets/js/speed-quiz-game.js?v=20261026-v2"></script>
+<script src="assets/js/vocabulary-overview.js?v=20261026-v2"></script>
+<script src="assets/js/fast-review.js?v=20261026-v2"></script>
+<script src="assets/js/hanviet-dict.js?v=20261026-v2"></script>
+<script src="assets/js/word-illustrations.js?v=20261026-v2"></script>
+<script src="assets/js/flashcard.js?v=20261026-v2"></script>
+<script src="assets/js/card-interactions.js?v=20261026-v2"></script>
+<script src="assets/js/speechService.js?v=20261026-v2"></script>
+<script src="assets/js/speech.js?v=20261026-v2"></script>
+<script src="assets/js/progress.js?v=20261026-v2"></script>
+<script src="assets/js/due-review.js?v=20261026-v2"></script>
+<script src="assets/js/theme.js?v=20261026-v2"></script>
+<script src="assets/js/backup.js?v=20261026-v2"></script>
+<script src="assets/js/memory-curve.js?v=20261026-v2"></script>
+<script src="assets/js/radicals-state.js?v=20261026-v2"></script>
+<script src="assets/js/radicals.js?v=20261026-v2"></script>
+<script src="assets/js/radical-card.js?v=20261026-v2"></script>
+<script src="assets/js/sidebar-search.js?v=20261026-v2"></script>
+<script src="assets/js/sidebar-radicals-filter.js?v=20261026-v2"></script>
+<script src="assets/js/weak-words.js?v=20261026-v2"></script>
+<script src="assets/js/hanzi-decomposition.js?v=20261026-v2"></script>
+<script src="assets/js/stroke-canvas.js?v=20261026-v2"></script>
+<script src="assets/js/sidebar-tabs.js?v=20261026-v2"></script>
+<script src="assets/js/word-companion.js?v=20261026-v2"></script>
+<script src="assets/js/grammar-breakdown.js?v=20261026-v2"></script>
+<script src="assets/js/reading-analysis.js?v=20261026-v2"></script>
+<script src="assets/js/graded-reading.js?v=20261026-v2"></script>
+
 <script src="assets/js/home-widgets.js?v=20261015-dashboard-redesign"></script>
 <script src="assets/js/dashboard-enhancements.js?v=20261015-dashboard-redesign"></script>
 <script src="assets/js/study-help-modal.js?v=20261016-help-redesign1"></script>
-<script src="assets/flashcards.js?v=20261003-hsk20-rich1"></script>
+<script src="assets/flashcards.js?v=20261026-v2"></script>
 <!-- Mobile Bottom Navigation Bar -->
 <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Điều hướng di động">
   <button type="button" class="mobile-nav-item active" id="mobNavVocab" onclick="setPrimaryTab('vocab')" aria-label="Trang chủ Từ vựng">

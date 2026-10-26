@@ -1418,7 +1418,11 @@ body.flashcard-study-mode .hanzi.is-len-long,
 body.flashcard-study-mode .hanzi[data-length="6"],
 body.flashcard-study-mode .hanzi[data-length="7"],
 body.flashcard-study-mode .hanzi[data-length="8"] {
-  font-size: clamp(34px, 3.4vw, 46px);
+  font-size: clamp(30px, 3.2vw, 44px);
+  white-space: normal;
+  text-wrap: balance;
+  word-break: break-word;
+  line-height: 1.24;
 }
 
 /* When study sidebar is open (desk space constrained), scale gracefully */
@@ -1442,7 +1446,11 @@ body.flashcard-study-mode.study-sidebar-open .hanzi.is-len-long,
 body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="6"],
 body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="7"],
 body.flashcard-study-mode.study-sidebar-open .hanzi[data-length="8"] {
-  font-size: clamp(30px, 2.7vw, 40px);
+  font-size: clamp(26px, 2.7vw, 38px);
+  white-space: normal;
+  text-wrap: balance;
+  word-break: break-word;
+  line-height: 1.22;
 }
 body.flashcard-study-mode .card-content { gap: 0; }
 body.flashcard-study-mode .pinyin-row {

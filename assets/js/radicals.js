@@ -96,6 +96,16 @@ try {
 function setPrimaryTab(tab, options) {
   const previousTab = primaryTab;
   primaryTab = tab;
+
+  if (tab !== 'vocab') {
+    document.body.classList.remove('study-mode', 'flashcard-study-mode');
+    const screenCards = document.getElementById('screenCards');
+    if (screenCards) screenCards.style.display = 'none';
+    const screenRadicalCards = document.getElementById('screenRadicalCards');
+    if (screenRadicalCards) screenRadicalCards.style.display = 'none';
+    if (typeof stopSpeech === 'function') stopSpeech();
+    if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers();
+  }
   Object.entries(PRIMARY_TAB_SCREENS).forEach(([key, { tabId, screenId }]) => {
     const isActive = key === tab;
     const tabEl = document.getElementById(tabId);
@@ -285,6 +295,16 @@ function startRadicalStudy(mode, groupIndex, options) {
   const openOverview = !!(options && options.overview);
   radicalReturnTab = mode;
   radicalGroupIndex = groupIndex;
+  if (!RADICAL_GROUPS[mode] || !RADICAL_GROUPS[mode][groupIndex]) {
+    if (!radicalDataLoaded) {
+      ensureRadicalDataLoaded().then(() => {
+        if (RADICAL_GROUPS[mode] && RADICAL_GROUPS[mode][groupIndex]) {
+          startRadicalStudy(mode, groupIndex, options);
+        }
+      });
+    }
+    return;
+  }
   radicalWords = RADICAL_GROUPS[mode][groupIndex];
   radicalOrder = Array.from({ length: radicalWords.length }, (_, i) => i);
   radicalFilteredOrder = radicalOrder.slice();

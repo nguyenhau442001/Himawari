@@ -675,6 +675,15 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   if (overlay) overlay.remove();
   const celebCanvas = document.getElementById('celebrationCanvas');
   if (celebCanvas) celebCanvas.remove();
+  if (typeof stopSpeech === 'function') stopSpeech();
+  if (typeof abandonReviewSession === 'function') abandonReviewSession();
+  if (typeof speedQuizTimerId !== 'undefined' && speedQuizTimerId) clearInterval(speedQuizTimerId);
+  const gamesMenu = document.getElementById('primaryGamesMenu');
+  if (gamesMenu) gamesMenu.open = false;
+  ['screenSentenceGame', 'screenGuessWord', 'screenSpeedQuiz', 'screenRadicalHub', 'screenRadicalCards', 'screenReviewPicker', 'screenReadingAnalysis', 'screenGradedReading'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'none';
+  });
   setActiveStudyWord(null);
   currentLevel = level;
   if (typeof SpaRouter !== 'undefined') {
