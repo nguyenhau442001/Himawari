@@ -31,8 +31,8 @@ if ('serviceWorker' in navigator) {
     banner.setAttribute('role', 'status');
     banner.setAttribute('aria-live', 'polite');
     banner.style.cssText = 'position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:99999;background:var(--card-bg, #1e293b);color:var(--text-primary, #fff);padding:10px 18px;border-radius:12px;border:1px solid var(--accent, #c05638);box-shadow:0 6px 24px rgba(0,0,0,0.28);display:flex;align-items:center;gap:12px;font-size:13px;font-weight:600;max-width:90vw;animation:welcomeToastIn 0.25s ease;';
-    banner.innerHTML = '<span>🚀 Có phiên bản Synapse Hanzi mới!</span>' +
-      '<button type="button" id="pwaReloadBtn" style="background:var(--accent, #c05638);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;">Tải lại ngay</button>' +
+    banner.innerHTML = '<span>🌻 Có phiên bản Himawari mới!</span>' +
+      '<button type="button" id="pwaReloadBtn" style="background:var(--accent, #c05638);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;">Cập nhật ngay</button>' +
       '<button type="button" id="pwaDismissBtn" aria-label="Đóng" style="background:none;border:none;color:var(--text-secondary, #94a3b8);font-size:16px;cursor:pointer;padding:0 4px;">✕</button>';
     document.body.appendChild(banner);
     document.getElementById('pwaReloadBtn').onclick = function() {
@@ -58,15 +58,9 @@ if ('serviceWorker' in navigator) {
           });
         }
       });
-      reg.update();
+    }).catch(function(err) {
+      console.warn('ServiceWorker registration error:', err);
     });
-  });
-  var refreshing = false;
-  navigator.serviceWorker.addEventListener('controllerchange', function() {
-    if (!refreshing) {
-      refreshing = true;
-      window.location.reload();
-    }
   });
 }
 </script>
@@ -198,15 +192,15 @@ if ('serviceWorker' in navigator) {
       </summary>
       <div class="primary-games-menu-panel" role="menu" aria-label="Công cụ và trò chơi học từ">
         <div class="primary-menu-section-title" role="presentation">Công cụ học</div>
-        <button id="primaryTabGradedReading" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenGradedReading" onclick="setPrimaryTab('gradedReading')" aria-label="Bài đọc phân cấp">
+        <button id="primaryTabReadingListening" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          onclick="selectLevel('n3_reading_listening')" aria-label="Đọc &amp; Nghe hiểu N3">
           <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-          <span>Bài đọc phân cấp</span>
+          <span>Đọc &amp; Nghe hiểu N3</span>
         </button>
-        <button id="primaryTabReading" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
-          aria-controls="screenReadingAnalysis" onclick="setPrimaryTab('reading')" aria-label="Đọc hiểu HSK4">
-          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
-          <span>Đọc hiểu HSK4</span>
+        <button id="primaryTabExamPractice" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
+          onclick="selectLevel('n3_exam_practice')" aria-label="Luyện đề Mondai N3">
+          <svg class="nav-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span>Luyện đề Mondai N3</span>
         </button>
         <button id="primaryTabRadicals" class="primary-tab" type="button" role="menuitem" aria-pressed="false"
           aria-controls="screenRadicalHub" onclick="setPrimaryTab('radicals')" aria-label="Bộ thủ">
@@ -690,21 +684,20 @@ if ('serviceWorker' in navigator) {
             <span class="review-count-pill" id="reviewRangeCount">150 từ</span>
           </div>
 
-          <div class="review-chip-group" id="reviewLevelChips" role="group" aria-label="Chọn cấp độ HSK cần ôn">
-            <button type="button" class="review-filter-chip active in-range" data-level="1" onclick="selectReviewLevel(1)">HSK 1</button>
-            <button type="button" class="review-filter-chip" data-level="2" onclick="selectReviewLevel(2)">HSK 2</button>
-            <button type="button" class="review-filter-chip" data-level="3" onclick="selectReviewLevel(3)">HSK 3</button>
-            <button type="button" class="review-filter-chip" data-level="4" onclick="selectReviewLevel(4)">HSK 4</button>
-            <button type="button" class="review-filter-chip" data-level="5" onclick="selectReviewLevel(5)">HSK 5</button>
-            <button type="button" class="review-filter-chip" data-level="6" onclick="selectReviewLevel(6)">HSK 6</button>
+          <div class="review-chip-group" id="reviewLevelChips" role="group" aria-label="Chọn cấp độ JLPT cần ôn">
+            <button type="button" class="review-filter-chip active in-range" data-level="1" onclick="selectReviewLevel(1)">N5</button>
+            <button type="button" class="review-filter-chip" data-level="2" onclick="selectReviewLevel(2)">N4</button>
+            <button type="button" class="review-filter-chip" data-level="3" onclick="selectReviewLevel(3)">N3</button>
+            <button type="button" class="review-filter-chip" data-level="4" onclick="selectReviewLevel(4)">N2</button>
+            <button type="button" class="review-filter-chip" data-level="5" onclick="selectReviewLevel(5)">N1</button>
           </div>
 
           <!-- Hidden input preserving backward compatibility for scripts querying reviewRangeSlider -->
           <input type="hidden" id="reviewRangeSlider" value="1">
 
           <div class="review-scope-summary">
-            <span class="review-scope-badge" id="reviewRangeLabel">HSK1</span>
-            <span class="review-scope-subtext" id="reviewScopeSubtext">Bao gồm toàn bộ từ vựng cấp độ HSK 1</span>
+            <span class="review-scope-badge" id="reviewRangeLabel">JLPT N5</span>
+            <span class="review-scope-subtext" id="reviewScopeSubtext">Chỉ ôn từ vựng thuộc JLPT N5</span>
           </div>
         </div>
 
@@ -816,24 +809,19 @@ if ('serviceWorker' in navigator) {
 
         <!-- Level selector & Scope bar -->
         <div class="sentence-game-filters" id="sentenceGameFilters">
-          <div class="sentence-level-chips" id="sentenceLevelChips" role="group" aria-label="Chọn cấp độ HSK">
-            <button type="button" class="sentence-lvl-btn active" data-level="hsk1" onclick="setSentenceGameLevel('hsk1')">HSK 1</button>
-            <button type="button" class="sentence-lvl-btn" data-level="hsk2" onclick="setSentenceGameLevel('hsk2')">HSK 2</button>
-            <button type="button" class="sentence-lvl-btn" data-level="hsk3" onclick="setSentenceGameLevel('hsk3')">HSK 3</button>
-            <button type="button" class="sentence-lvl-btn" data-level="hsk4" onclick="setSentenceGameLevel('hsk4')">HSK 4</button>
-            <button type="button" class="sentence-lvl-btn" data-level="hsk5" onclick="setSentenceGameLevel('hsk5')">HSK 5</button>
-            <button type="button" class="sentence-lvl-btn" data-level="hsk6" onclick="setSentenceGameLevel('hsk6')">HSK 6</button>
-            <button type="button" class="sentence-lvl-btn" data-level="all" onclick="setSentenceGameLevel('all')">Tất cả</button>
+          <div class="sentence-level-chips" id="sentenceLevelChips" role="group" aria-label="Chọn cấp độ">
+            <button type="button" class="sentence-lvl-btn active" data-level="all" onclick="setSentenceGameLevel('all')">Tất cả câu</button>
+            <button type="button" class="sentence-lvl-btn" data-level="jlpt_n3" onclick="setSentenceGameLevel('jlpt_n3')">JLPT N3</button>
           </div>
           <div class="sentence-scope-controls">
             <label class="sentence-scope-label" title="Phạm vi câu hỏi">
               <span>Phạm vi:</span>
               <select id="sentenceGameScopeSelect" onchange="setSentenceGameScope(this.value)" aria-label="Phạm vi câu hỏi">
-                <option value="cumulative" selected>Từ HSK 1 đến cấp độ này (Khuyên dùng)</option>
+                <option value="cumulative" selected>Tất cả câu hỏi (Khuyên dùng)</option>
                 <option value="exact">Chỉ cấp độ đã chọn</option>
               </select>
             </label>
-            <span class="sentence-pool-badge" id="sentencePoolBadge">135 câu khả dụng</span>
+            <span class="sentence-pool-badge" id="sentencePoolBadge">300 câu khả dụng</span>
           </div>
         </div>
       </header>
@@ -842,10 +830,10 @@ if ('serviceWorker' in navigator) {
       <section class="sentence-card-board" aria-label="Bàn sắp xếp câu">
         <div class="sentence-prompt">
           <div class="sentence-prompt-header">
-            <span class="sentence-prompt-title">Dịch câu sang tiếng Trung:</span>
+            <span class="sentence-prompt-title">Sắp xếp câu tiếng Nhật:</span>
             <div class="sentence-card-meta">
-              <span class="sentence-level-tag" id="sentenceLevelTag">HSK 1</span>
-              <span class="sentence-grammar-tag" id="sentenceGrammarTag">Cấu trúc S + V + O cơ bản</span>
+              <span class="sentence-level-tag" id="sentenceLevelTag">JLPT N3</span>
+              <span class="sentence-grammar-tag" id="sentenceGrammarTag">Mẫu câu tiếng Nhật</span>
               <span class="sentence-distractor-tag" id="sentenceDistractorTag" hidden>⚠️ Có từ bẫy</span>
             </div>
           </div>
@@ -900,7 +888,7 @@ if ('serviceWorker' in navigator) {
         <div class="guess-word-header-main">
           <div class="guess-word-title-group">
             <h2 class="guess-word-title">🎨 Đuổi hình bắt chữ</h2>
-            <span class="guess-word-level-badge" id="guessWordLevelBadge">HSK 1</span>
+            <span class="guess-word-level-badge" id="guessWordLevelBadge">JLPT N3</span>
           </div>
           <div class="guess-word-meta">
             <span class="guess-word-counter" id="guessWordCounter">Đang tải...</span>
@@ -1135,6 +1123,6 @@ function openMobileProfileOrStats() {
   }
 }
 </script>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4568b250a19345538a47a2da396637af"}'></script><!-- End Cloudflare Web Analytics -->
+
 </body>
 </html>

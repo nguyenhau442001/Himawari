@@ -39586,7 +39586,7 @@ function generateAestheticFallback(word) {
     type: 'svg',
     isFallback: true,
     svg: motifSvg,
-    caption: meaning || pos.label || 'Từ vựng HSK'
+    caption: meaning || pos.label || 'Từ vựng JLPT'
   };
 }
 

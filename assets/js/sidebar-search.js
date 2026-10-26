@@ -1,4 +1,4 @@
-// Global search across HSK 1-6 with instant example sentences, rich previews,
+// Global search across JLPT N5-N1 with instant example sentences, rich previews,
 // and direct one-click flashcard study navigation.
 var sidebarSearchIndex = null;
 var sidebarSearchIndexPromise = null;
@@ -35,7 +35,7 @@ function formatSearchExample(text) {
 
 function buildSidebarSearchIndex() {
   if (sidebarSearchIndexPromise) return sidebarSearchIndexPromise;
-  const levelKeys = typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'];
+  const levelKeys = typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1'];
   sidebarSearchIndexPromise = Promise.all(
     levelKeys.map(key => {
       const cfg = LEVELS[key];

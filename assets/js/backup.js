@@ -12,7 +12,7 @@ function exportProgress() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'hsk_progress_' + currentLevel + '.json';
+  a.download = 'himawari_progress_' + currentLevel + '.json';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -98,7 +98,7 @@ function exportRadicalProgress() {
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = 'hsk_radicals_progress.json';
+  link.download = 'himawari_radicals_progress.json';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

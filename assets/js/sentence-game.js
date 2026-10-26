@@ -35,15 +35,12 @@ function getSentenceGameFilteredPool() {
   if (!sentenceBankData || !sentenceBankData.length) return [];
   if (sentenceGameLevel === 'all') return sentenceBankData;
 
-  const targetLevelNum = parseInt(sentenceGameLevel.replace('hsk', ''), 10) || 1;
-  if (sentenceGameScope === 'exact') {
-    const exact = sentenceBankData.filter(item => item.level === sentenceGameLevel);
-    return exact.length ? exact : sentenceBankData;
-  }
-
-  // Cumulative: HSK 1 up to targetLevelNum
-  const cumulative = sentenceBankData.filter(item => item.level.startsWith('hsk') && (item.level_num || 1) <= targetLevelNum);
-  return cumulative.length ? cumulative : sentenceBankData;
+  const filtered = sentenceBankData.filter(item => {
+    if (item.level === sentenceGameLevel) return true;
+    if ((sentenceGameLevel === 'jlpt_n3' || sentenceGameLevel === 'hsk1') && (item.level === 'hsk1' || item.level === 'n3_all')) return true;
+    return false;
+  });
+  return filtered.length ? filtered : sentenceBankData;
 }
 
 function setSentenceGameLevel(level) {
@@ -192,7 +189,7 @@ function loadNextSentenceGameRound() {
   document.getElementById('sentenceGameMeaning').textContent = entry.meaning || '';
   const levelTag = document.getElementById('sentenceLevelTag');
   if (levelTag) {
-    levelTag.textContent = entry.level_num ? `HSK ${entry.level_num}` : (entry.level || 'HSK').toUpperCase();
+    levelTag.textContent = (entry.level || 'JLPT N3').toUpperCase().replace(/HSK\s*\d*/i, 'JLPT N3');
   }
   const grammarTag = document.getElementById('sentenceGrammarTag');
   if (grammarTag) {

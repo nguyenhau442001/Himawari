@@ -92,8 +92,8 @@ function homeHash(text) {
 }
 
 function homeShortLevelLabel(level) {
-  if (LEVELS_HSK30[level]) return 'HSK ' + level.replace('hsk30_', '') + ' (3.0)';
-  return LEVELS[level].label;
+  if (LEVELS[level]) return LEVELS[level].label;
+  return level;
 }
 
 function isHomeLearningCard(card) {
@@ -377,7 +377,7 @@ function renderActivity(snapshot) {
 function topForgottenCards(snapshot, limit = HOME_FORGOTTEN_LIMIT) {
   const items = [];
   homeLevelKeys().forEach(level => {
-    if (!level.startsWith('hsk')) return;
+    if (!LEVELS[level]) return;
     const cards = snapshot.cardsByLevel[level];
     if (cards) {
       Object.entries(cards).forEach(([id, card]) => {
@@ -519,43 +519,43 @@ function renderDiscovery() {
 
   const list = homeElement('div', 'hw-discovery-list');
 
-  // Graded Reading
+  // Đọc & Nghe hiểu JLPT N3
   const gradedItem = homeElement('div', 'hw-discovery-item');
   gradedItem.setAttribute('role', 'button');
   gradedItem.setAttribute('tabindex', '0');
-  gradedItem.setAttribute('aria-label', 'Mở Synapse Graded Reading HSK 1–9');
+  gradedItem.setAttribute('aria-label', 'Mở Đọc & Nghe hiểu JLPT N3');
   gradedItem.innerHTML = `
-    <span class="hw-discovery-icon" aria-hidden="true">📚</span>
+    <span class="hw-discovery-icon" aria-hidden="true">🎧</span>
     <div class="hw-discovery-info">
       <div class="hw-discovery-title-row">
-        <strong>Graded Reading</strong>
-        <span class="hw-discovery-pill hw-pill-amber">HSK 1–9</span>
+        <strong>Đọc &amp; Nghe hiểu</strong>
+        <span class="hw-discovery-pill hw-pill-amber">JLPT N3</span>
       </div>
-      <p class="hw-discovery-desc">Đọc hiểu phân cấp ngữ cảnh · Vòng lặp SRS</p>
+      <p class="hw-discovery-desc">Hội thoại thực tế &amp; Kỹ năng Dokkai, Choukai</p>
     </div>
     <span class="hw-discovery-cta" aria-hidden="true">→</span>
   `;
-  const launchGraded = () => { if (typeof setPrimaryTab === 'function') setPrimaryTab('gradedReading'); };
+  const launchGraded = () => { if (typeof selectLevel === 'function') selectLevel('n3_reading_listening'); };
   gradedItem.addEventListener('click', launchGraded);
   gradedItem.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); launchGraded(); } });
 
-  // Reading Analysis HSK 4
+  // Luyện đề Mondai JLPT N3
   const readingItem = homeElement('div', 'hw-discovery-item');
   readingItem.setAttribute('role', 'button');
   readingItem.setAttribute('tabindex', '0');
-  readingItem.setAttribute('aria-label', 'Mở Đọc hiểu & Phân tích ngữ pháp HSK 4');
+  readingItem.setAttribute('aria-label', 'Mở Luyện đề thi Mondai JLPT N3');
   readingItem.innerHTML = `
-    <span class="hw-discovery-icon" aria-hidden="true">📖</span>
+    <span class="hw-discovery-icon" aria-hidden="true">📝</span>
     <div class="hw-discovery-info">
       <div class="hw-discovery-title-row">
-        <strong>Đọc hiểu HSK 4</strong>
-        <span class="hw-discovery-pill hw-pill-accent">Hanban</span>
+        <strong>Luyện đề Mondai</strong>
+        <span class="hw-discovery-pill hw-pill-accent">Đề thi N3</span>
       </div>
-      <p class="hw-discovery-desc">Xếp câu, ngữ cảnh thực tế & ngữ pháp</p>
+      <p class="hw-discovery-desc">Thực hành câu hỏi trắc nghiệm chuẩn form JLPT</p>
     </div>
     <span class="hw-discovery-cta" aria-hidden="true">→</span>
   `;
-  const launchReading = () => { if (typeof setPrimaryTab === 'function') setPrimaryTab('reading'); };
+  const launchReading = () => { if (typeof selectLevel === 'function') selectLevel('n3_exam_practice'); };
   readingItem.addEventListener('click', launchReading);
   readingItem.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); launchReading(); } });
 

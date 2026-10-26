@@ -22,15 +22,15 @@ function pinyinLooseMatch(input, target) {
   return stripTonePinyin(input) === stripTonePinyin(target);
 }
 
-const REVIEW_RANGE_LEVELS = ['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'];
+const REVIEW_RANGE_LEVELS = ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1'];
 let reviewSelectedLevel = 1;
 try {
   const savedLevel = parseInt(localStorage.getItem('hsk_fast_review_level'), 10);
-  if (savedLevel >= 1 && savedLevel <= 6) reviewSelectedLevel = savedLevel;
+  if (savedLevel >= 1 && savedLevel <= 5) reviewSelectedLevel = savedLevel;
 } catch (e) {}
 
 function selectReviewLevel(level) {
-  const n = Math.max(1, Math.min(6, Number(level) || 1));
+  const n = Math.max(1, Math.min(5, Number(level) || 1));
   reviewSelectedLevel = n;
   try { localStorage.setItem('hsk_fast_review_level', String(n)); } catch (e) {}
 
@@ -49,17 +49,18 @@ function selectReviewLevel(level) {
 
   const levels = REVIEW_RANGE_LEVELS.slice(0, n);
   const totalWords = levels.reduce((sum, lvl) => sum + (LEVELS[lvl] ? LEVELS[lvl].total : 0), 0);
+  const levelNames = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
   const labelEl = document.getElementById('reviewRangeLabel');
   if (labelEl) {
-    labelEl.textContent = n === 1 ? 'N3 Cốt lõi' : `N3 (Phần 1 – ${n})`;
+    labelEl.textContent = n === 1 ? 'JLPT N5' : `JLPT N5 – ${levelNames[n - 1]}`;
   }
 
   const subtextEl = document.getElementById('reviewScopeSubtext');
   if (subtextEl) {
     subtextEl.textContent = n === 1
-      ? 'Chỉ ôn từ vựng thuộc N3 Cốt lõi'
-      : `Ôn tập gộp từ vựng từ Phần 1 đến Phần ${n}`;
+      ? 'Chỉ ôn từ vựng thuộc JLPT N5'
+      : `Ôn tập gộp từ vựng từ JLPT N5 đến ${levelNames[n - 1]}`;
   }
 
   const countEl = document.getElementById('reviewRangeCount');

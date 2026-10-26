@@ -567,20 +567,20 @@ function showWelcomeToast() {
     }
     contextualGreetings.push(
       timeGreeting(now.getHours()),
-      'Mừng bạn quay trở lại! Não bộ đã sẵn sàng nạp tiếng Trung chưa? 🧠',
+      'Mừng bạn quay trở lại! Não bộ đã sẵn sàng nạp tiếng Nhật chưa? 🧠',
     );
 
     const playfulGreetings = [
       'Không học hôm nay thì ngày mai… vẫn phải học thôi 😌',
       'Một từ cũng là học, 50 từ là hơi tham.',
-      'HSK không khó, chỉ là từ vựng hơi đông.',
+      'JLPT không khó, chỉ là từ vựng hơi đông.',
       'Bạn học đi, chiếc app này tin bạn.',
       'Não đang loading… flashcard đang hỗ trợ.',
       'Học nhẹ vài từ, flex mạnh một đời.',
       'Vuốt phải vì đã nhớ, không phải vì định mệnh.',
       'Từ này quen lắm, nhưng nghĩa là gì thì chưa chắc.',
       'Thêm một từ vào não, bớt một chút hoang mang.',
-      'Đừng để chữ Hán nhìn bạn như người xa lạ.',
+      'Đừng để Kanji nhìn bạn như người xa lạ.',
     ];
 
     const playfulGreeting = pickGreeting(playfulGreetings, previousGreeting);

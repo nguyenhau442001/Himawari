@@ -209,10 +209,10 @@
               <div class="study-info-card">
                 <div class="study-info-card-header">
                   <span class="study-info-card-icon">📚</span>
-                  <h3 class="study-info-card-title">Bài đọc phân cấp (Graded Reading)</h3>
+                  <h3 class="study-info-card-title">Đọc &amp; Nghe hiểu JLPT</h3>
                 </div>
                 <p class="study-info-card-desc">
-                  Luyện kỹ năng đọc hiểu thông qua các câu chuyện thực tế được biên soạn theo đúng chuẩn từ vựng từng cấp độ HSK. Có thể chạm vào từ để tra nhanh nghĩa, ngữ pháp và nghe phát âm.
+                  Luyện kỹ năng đọc hiểu và nghe hiểu thông qua các bài học thực tế được biên soạn theo đúng chuẩn đề thi JLPT. Có thể chạm vào từ để tra nhanh nghĩa, ngữ pháp và nghe phát âm.
                 </p>
               </div>
 
@@ -251,14 +251,14 @@
               <details class="study-faq-item">
                 <summary class="study-faq-summary">Làm sao để dùng ứng dụng khi không có mạng (Offline)?</summary>
                 <div class="study-faq-content">
-                  Synapse Hanzi được thiết kế chuẩn PWA (Progressive Web App). Trên trình duyệt Chrome, Safari hoặc Edge, bạn hãy nhấn nút <strong>"Thêm vào Màn hình chính"</strong> hoặc <strong>"Cài đặt ứng dụng"</strong> để học ngoại tuyến mọi lúc mọi nơi.
+                  Himawari được thiết kế chuẩn PWA (Progressive Web App). Trên trình duyệt Chrome, Safari hoặc Edge, bạn hãy nhấn nút <strong>"Thêm vào Màn hình chính"</strong> hoặc <strong>"Cài đặt ứng dụng"</strong> để học ngoại tuyến mọi lúc mọi nơi.
                 </div>
               </details>
 
               <details class="study-faq-item">
-                <summary class="study-faq-summary">Sự khác biệt giữa HSK 2.0 và HSK 3.0 là gì?</summary>
+                <summary class="study-faq-summary">Kho tài liệu gồm những nội dung nào?</summary>
                 <div class="study-faq-content">
-                  HSK 2.0 gồm 6 cấp độ truyền thống (phù hợp ôn thi hiện tại). HSK 3.0 là khung tiêu chuẩn mới mở rộng đến cấp 9 với khối lượng từ vựng hiện đại hơn. Bạn có thể chuyển đổi linh hoạt tại bộ chọn phiên bản ở trang chủ.
+                  Himawari bao gồm đầy đủ 5 cấp độ từ vựng chuẩn JLPT (N5, N4, N3, N2, N1) với hơn 7.200 từ, đồng thời tích hợp 13 chuyên đề chuyên sâu N3 (Ngữ pháp Shinkanzen, Mimi kara, Minna Chukyu, Đọc nghe và Luyện đề thi Mondai).
                 </div>
               </details>
 

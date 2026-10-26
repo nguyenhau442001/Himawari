@@ -28,14 +28,13 @@ function escapeWeakWordHtml(s) {
 
 function formatWeakWordLevel(levelKey) {
   if (!levelKey) return '';
+  if (typeof LEVELS !== 'undefined' && LEVELS[levelKey]) {
+    return LEVELS[levelKey].label;
+  }
   if (typeof homeShortLevelLabel === 'function') {
     return homeShortLevelLabel(levelKey);
   }
-  const match30 = String(levelKey).match(/^hsk30_([1-9])$/);
-  if (match30) return '3.0 L' + match30[1];
-  const match20 = String(levelKey).match(/^hsk([1-6])$/i);
-  if (match20) return 'HSK' + match20[1];
-  return String(levelKey).toUpperCase();
+  return String(levelKey).toUpperCase().replace('JLPT_', 'JLPT ').replace('_', ' ');
 }
 
 function toggleWeakWord(hanziOrWord, level) {
