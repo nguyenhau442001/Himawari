@@ -171,8 +171,8 @@ if ('serviceWorker' in navigator) {
   <section class="continue-learning-card" id="continueLearningCard" aria-labelledby="continueLearningTitle">
     <div class="continue-learning-copy">
       <span class="dashboard-kicker">▶ BẮT ĐẦU BÀI HỌC</span>
-      <h2 id="continueLearningTitle">Bắt đầu học N3 Tổng hợp</h2>
-      <p id="continueLearningProgress">Chinh phục 688 từ vựng cốt lõi JLPT N3 với flashcard thông minh.</p>
+      <h2 id="continueLearningTitle">Bắt đầu học JLPT N5</h2>
+      <p id="continueLearningProgress">Chinh phục 662 từ vựng sơ cấp JLPT N5 với flashcard thông minh.</p>
     </div>
     <button class="dashboard-primary-btn" type="button" onclick="quickStartLearning()">Bắt đầu học ngay <span aria-hidden="true">→</span></button>
   </section>
@@ -256,7 +256,7 @@ if ('serviceWorker' in navigator) {
         <span class="picker-version-label">Phân loại</span>
         <div class="picker-version-select-wrap">
           <select id="pickerVersionSelect" aria-label="Phân loại nội dung học" onchange="setPickerVersion(this.value)">
-            <option value="2.0" selected>Từ vựng &amp; Kanji N3</option>
+            <option value="2.0" selected>Cấp độ JLPT (N5 - N1)</option>
             <option value="3.0">Ngữ pháp &amp; Luyện đề N3</option>
           </select>
           <svg class="picker-version-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-9"/></svg>
@@ -269,195 +269,123 @@ if ('serviceWorker' in navigator) {
       </div>
 
       <div id="levelGrid20" class="level-grid">
-        <div class="level-card" data-level="n3_all">
+        <div class="level-card" data-level="jlpt_n5">
           <div class="level-card-top">
             <div class="level-card-heading">
-              <div class="lvl-num">N3 Tổng hợp</div>
+              <div class="lvl-num">JLPT N5</div>
               <span class="level-status-badge">Chưa học</span>
             </div>
             <div class="level-card-meta">
-              <span class="lvl-label">Cốt lõi</span><span aria-hidden="true">·</span><span class="lvl-count">688 từ</span>
+              <span class="lvl-label">Sơ cấp 1</span><span aria-hidden="true">·</span><span class="lvl-count">662 từ</span>
             </div>
           </div>
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_all" style="display:none"></span>
+              <span class="lvl-today-count" id="today-jlpt_n5" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_all"></div>
+              <div class="lvl-mastery-fill" id="bar-jlpt_n5"></div>
             </div>
           </div>
           <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_all">0 / 688 đã nhớ</span>
+            <span class="lvl-mastery-text" id="text-jlpt_n5">0 / 662 đã nhớ</span>
             <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
           </div>
         </div>
-        <div class="level-card" data-level="n3_verbs">
+        <div class="level-card" data-level="jlpt_n4">
           <div class="level-card-top">
             <div class="level-card-heading">
-              <div class="lvl-num">Động từ N3</div>
+              <div class="lvl-num">JLPT N4</div>
               <span class="level-status-badge">Chưa học</span>
             </div>
             <div class="level-card-meta">
-              <span class="lvl-label">Mimi kara</span><span aria-hidden="true">·</span><span class="lvl-count">169 từ</span>
+              <span class="lvl-label">Sơ cấp 2</span><span aria-hidden="true">·</span><span class="lvl-count">632 từ</span>
             </div>
           </div>
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_verbs" style="display:none"></span>
+              <span class="lvl-today-count" id="today-jlpt_n4" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_verbs"></div>
+              <div class="lvl-mastery-fill" id="bar-jlpt_n4"></div>
             </div>
           </div>
           <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_verbs">0 / 169 đã nhớ</span>
+            <span class="lvl-mastery-text" id="text-jlpt_n4">0 / 632 đã nhớ</span>
             <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
           </div>
         </div>
-        <div class="level-card" data-level="n3_nouns">
+        <div class="level-card" data-level="jlpt_n3">
           <div class="level-card-top">
             <div class="level-card-heading">
-              <div class="lvl-num">Danh từ N3</div>
+              <div class="lvl-num">JLPT N3</div>
               <span class="level-status-badge">Chưa học</span>
             </div>
             <div class="level-card-meta">
-              <span class="lvl-label">Mimi kara</span><span aria-hidden="true">·</span><span class="lvl-count">82 từ</span>
+              <span class="lvl-label">Trung cấp</span><span aria-hidden="true">·</span><span class="lvl-count">688 từ</span>
             </div>
           </div>
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_nouns" style="display:none"></span>
+              <span class="lvl-today-count" id="today-jlpt_n3" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_nouns"></div>
+              <div class="lvl-mastery-fill" id="bar-jlpt_n3"></div>
             </div>
           </div>
           <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_nouns">0 / 82 đã nhớ</span>
+            <span class="lvl-mastery-text" id="text-jlpt_n3">0 / 688 đã nhớ</span>
             <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
           </div>
         </div>
-        <div class="level-card" data-level="n3_adjectives">
+        <div class="level-card" data-level="jlpt_n2">
           <div class="level-card-top">
             <div class="level-card-heading">
-              <div class="lvl-num">Tính từ N3</div>
+              <div class="lvl-num">JLPT N2</div>
               <span class="level-status-badge">Chưa học</span>
             </div>
             <div class="level-card-meta">
-              <span class="lvl-label">Mimi kara</span><span aria-hidden="true">·</span><span class="lvl-count">42 từ</span>
+              <span class="lvl-label">Trung cao cấp</span><span aria-hidden="true">·</span><span class="lvl-count">1.831 từ</span>
             </div>
           </div>
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_adjectives" style="display:none"></span>
+              <span class="lvl-today-count" id="today-jlpt_n2" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_adjectives"></div>
+              <div class="lvl-mastery-fill" id="bar-jlpt_n2"></div>
             </div>
           </div>
           <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_adjectives">0 / 42 đã nhớ</span>
+            <span class="lvl-mastery-text" id="text-jlpt_n2">0 / 1.831 đã nhớ</span>
             <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
           </div>
         </div>
-        <div class="level-card" data-level="n3_adverbs">
+        <div class="level-card" data-level="jlpt_n1">
           <div class="level-card-top">
             <div class="level-card-heading">
-              <div class="lvl-num">Phó từ &amp; Liên từ</div>
+              <div class="lvl-num">JLPT N1</div>
               <span class="level-status-badge">Chưa học</span>
             </div>
             <div class="level-card-meta">
-              <span class="lvl-label">Mimi kara</span><span aria-hidden="true">·</span><span class="lvl-count">122 từ</span>
+              <span class="lvl-label">Cao cấp</span><span aria-hidden="true">·</span><span class="lvl-count">3.463 từ</span>
             </div>
           </div>
           <div class="level-card-progress">
             <div class="level-card-progress-heading">
               <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_adverbs" style="display:none"></span>
+              <span class="lvl-today-count" id="today-jlpt_n1" style="display:none"></span>
             </div>
             <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_adverbs"></div>
+              <div class="lvl-mastery-fill" id="bar-jlpt_n1"></div>
             </div>
           </div>
           <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_adverbs">0 / 122 đã nhớ</span>
-            <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
-          </div>
-        </div>
-        <div class="level-card" data-level="n3_katakana">
-          <div class="level-card-top">
-            <div class="level-card-heading">
-              <div class="lvl-num">Katakana N3</div>
-              <span class="level-status-badge">Chưa học</span>
-            </div>
-            <div class="level-card-meta">
-              <span class="lvl-label">Từ ngoại lai</span><span aria-hidden="true">·</span><span class="lvl-count">79 từ</span>
-            </div>
-          </div>
-          <div class="level-card-progress">
-            <div class="level-card-progress-heading">
-              <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_katakana" style="display:none"></span>
-            </div>
-            <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_katakana"></div>
-            </div>
-          </div>
-          <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_katakana">0 / 79 đã nhớ</span>
-            <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
-          </div>
-        </div>
-        <div class="level-card" data-level="n3_kanji_minna">
-          <div class="level-card-top">
-            <div class="level-card-heading">
-              <div class="lvl-num">Hán tự Minna</div>
-              <span class="level-status-badge">Chưa học</span>
-            </div>
-            <div class="level-card-meta">
-              <span class="lvl-label">Minna Chukyu</span><span aria-hidden="true">·</span><span class="lvl-count">225 từ</span>
-            </div>
-          </div>
-          <div class="level-card-progress">
-            <div class="level-card-progress-heading">
-              <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_kanji_minna" style="display:none"></span>
-            </div>
-            <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_kanji_minna"></div>
-            </div>
-          </div>
-          <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_kanji_minna">0 / 225 đã nhớ</span>
-            <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
-          </div>
-        </div>
-        <div class="level-card" data-level="n3_kanji_all">
-          <div class="level-card-top">
-            <div class="level-card-heading">
-              <div class="lvl-num">Kanji &amp; Từ ghép</div>
-              <span class="level-status-badge">Chưa học</span>
-            </div>
-            <div class="level-card-meta">
-              <span class="lvl-label">Tổng hợp N3</span><span aria-hidden="true">·</span><span class="lvl-count">924 từ</span>
-            </div>
-          </div>
-          <div class="level-card-progress">
-            <div class="level-card-progress-heading">
-              <strong class="lvl-percent-value">0%</strong>
-              <span class="lvl-today-count" id="today-n3_kanji_all" style="display:none"></span>
-            </div>
-            <div class="lvl-mastery-track">
-              <div class="lvl-mastery-fill" id="bar-n3_kanji_all"></div>
-            </div>
-          </div>
-          <div class="level-card-bottom">
-            <span class="lvl-mastery-text" id="text-n3_kanji_all">0 / 924 đã nhớ</span>
+            <span class="lvl-mastery-text" id="text-jlpt_n1">0 / 3.463 đã nhớ</span>
             <span class="lvl-action-hint">Học ngay <span aria-hidden="true">→</span></span>
           </div>
         </div>

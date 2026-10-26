@@ -1,7 +1,7 @@
-# 🌻 Himawari — Trạm học tiếng Nhật JLPT N3 thông minh
+# 🌻 Himawari — Trạm học tiếng Nhật JLPT (N5 - N1) thông minh
 
-> **Trạm học từ vựng, chữ Hán và ngữ pháp JLPT N3 đa giác quan, hiện đại, tối giản và 100% Offline (PWA).**  
-> Kết hợp thuật toán **Lặp lại ngắt quãng (Spaced Repetition - SRS)**, kho dữ liệu phong phú (Mimi kara Oboeru, Shinkanzen Master, Minna no Nihongo), âm Hán - Việt tương ứng, phát âm tiếng Nhật tự nhiên và mini-games rèn luyện phản xạ.
+> **Trạm học từ vựng, chữ Hán và ngữ pháp tiếng Nhật toàn diện 5 cấp độ JLPT (N5, N4, N3, N2, N1) đa giác quan, hiện đại, tối giản và 100% Offline (PWA).**  
+> Kết hợp thuật toán **Lặp lại ngắt quãng (Spaced Repetition - SRS)**, kho dữ liệu phong phú chuẩn hóa kèm âm Hán - Việt, phát âm tiếng Nhật tự nhiên (`ja-JP`) và mini-games rèn luyện phản xạ.
 
 ---
 
@@ -16,19 +16,27 @@
   </a>
   <img src="https://img.shields.io/badge/Chế_độ-100%25_Offline_(PWA)-22c55e?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
   <img src="https://img.shields.io/badge/Build-Zero_Config-3b82f6?style=for-the-badge&logo=javascript&logoColor=white" alt="Zero Build">
-  <img src="https://img.shields.io/badge/Trình_độ-JLPT_N3_Full-f59e0b?style=for-the-badge&logo=target&logoColor=white" alt="JLPT N3">
+  <img src="https://img.shields.io/badge/Trình_độ-JLPT_N5_đến_N1-f59e0b?style=for-the-badge&logo=target&logoColor=white" alt="JLPT N5-N1">
 </p>
 
 ---
 
-## 📚 Kho tài liệu học tập toàn diện (JLPT N3 Content)
+## 📚 Kho tài liệu học tập toàn diện (JLPT N5 - N1 Content)
 
-Toàn bộ dữ liệu được chuẩn hóa từ các bộ giáo trình luyện thi JLPT N3 uy tín nhất:
+### 1. 🎴 5 Cấp độ từ vựng JLPT chính
+| Cấp độ | Số lượng từ | Trình độ & Đặc điểm |
+| :--- | :---: | :--- |
+| **JLPT N5** | **662 từ** | Sơ cấp 1 — Từ vựng nền tảng, chào hỏi, số đếm, sinh hoạt hàng ngày kèm Hán Việt |
+| **JLPT N4** | **632 từ** | Sơ cấp 2 — Từ vựng giao tiếp căn bản, đời sống gia đình & công sở |
+| **JLPT N3** | **688 từ** | Trung cấp — Từ vựng cốt lõi thường gặp trong giao tiếp hàng ngày & đề thi JLPT N3 |
+| **JLPT N2** | **1.831 từ** | Trung cao cấp — Từ vựng báo chí, công việc chuyên môn và đời sống xã hội |
+| **JLPT N1** | **3.463 từ** | Cao cấp — Từ vựng học thuật, văn bản luận án, tin tức chuyên sâu và văn phong trang trọng |
 
-### 1. 🎴 Từ vựng & Kanji N3
+---
+
+### 2. 📖 Chuyên đề từ vựng & Kanji N3 chi tiết
 | Danh mục | Số lượng | Nguồn gốc & Đặc điểm |
 | :--- | :---: | :--- |
-| **N3 Cốt lõi (Tổng hợp)** | **688 từ** | Tổng hợp từ vựng quan trọng nhất kèm âm Hán Việt, cách đọc Hiragana và câu ví dụ |
 | **Động từ N3** | **169 từ** | Trích xuất từ giáo trình *Mimi kara Oboeru N3* (kèm trợ từ が/を/に và tự/tha động từ) |
 | **Danh từ N3** | **82 từ** | Trích xuất từ giáo trình *Mimi kara Oboeru N3* kèm nghĩa mở rộng |
 | **Tính từ N3** | **42 từ** | Đầy đủ tính từ đuôi -i, đuôi -na thông dụng kèm từ trái nghĩa |
@@ -39,7 +47,7 @@ Toàn bộ dữ liệu được chuẩn hóa từ các bộ giáo trình luyện
 
 ---
 
-### 2. 🧠 Ngữ pháp & Kỹ năng N3
+### 3. 🧠 Ngữ pháp & Luyện đề JLPT N3
 | Danh mục | Số lượng | Đặc điểm |
 | :--- | :---: | :--- |
 | **NP Shinkanzen Master** | **106 mẫu** | Phân loại theo ngữ cảnh (Thời gian, Nguyên nhân, So sánh, Điều kiện...) kèm câu ví dụ đề thi |

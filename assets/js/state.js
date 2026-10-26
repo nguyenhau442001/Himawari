@@ -1,5 +1,45 @@
-// Shared application configuration and in-memory state for JLPT N3.
+// Shared application configuration and in-memory state for JLPT (N5, N4, N3, N2, N1).
 const LEVELS = {
+  jlpt_n5: {
+    label: 'JLPT N5',
+    band: 'Sơ cấp 1',
+    dataUrl: 'database/vocabs/jlpt_n5.json',
+    available: true,
+    total: 662,
+    version: '2.0',
+  },
+  jlpt_n4: {
+    label: 'JLPT N4',
+    band: 'Sơ cấp 2',
+    dataUrl: 'database/vocabs/jlpt_n4.json',
+    available: true,
+    total: 632,
+    version: '2.0',
+  },
+  jlpt_n3: {
+    label: 'JLPT N3',
+    band: 'Trung cấp',
+    dataUrl: 'database/vocabs/jlpt_n3.json',
+    available: true,
+    total: 688,
+    version: '2.0',
+  },
+  jlpt_n2: {
+    label: 'JLPT N2',
+    band: 'Trung cao cấp',
+    dataUrl: 'database/vocabs/jlpt_n2.json',
+    available: true,
+    total: 1831,
+    version: '2.0',
+  },
+  jlpt_n1: {
+    label: 'JLPT N1',
+    band: 'Cao cấp',
+    dataUrl: 'database/vocabs/jlpt_n1.json',
+    available: true,
+    total: 3463,
+    version: '2.0',
+  },
   n3_all: {
     label: 'N3 Tổng hợp',
     dataUrl: 'database/vocabs/n3_all.json',
@@ -59,15 +99,23 @@ const LEVELS = {
 };
 
 // Aliases for backwards compatibility with any hardcoded references
-LEVELS.hsk1 = LEVELS.n3_all;
-LEVELS.hsk2 = LEVELS.n3_verbs;
-LEVELS.hsk3 = LEVELS.n3_nouns;
-LEVELS.hsk4 = LEVELS.n3_adjectives;
-LEVELS.hsk5 = LEVELS.n3_adverbs;
-LEVELS.hsk6 = LEVELS.n3_katakana;
+LEVELS.hsk1 = LEVELS.jlpt_n5;
+LEVELS.hsk2 = LEVELS.jlpt_n4;
+LEVELS.hsk3 = LEVELS.jlpt_n3;
+LEVELS.hsk4 = LEVELS.jlpt_n2;
+LEVELS.hsk5 = LEVELS.jlpt_n1;
+LEVELS.hsk6 = LEVELS.n3_all;
 
-// JLPT N3 Grammar & Practice levels (accessible via the switch tab)
+// JLPT N3 Grammar & Specialized decks (accessible via the switch tab)
 const LEVELS_HSK30 = {
+  n3_all: { label: 'N3 Tổng hợp', band: 'Từ vựng N3', dataUrl: 'database/vocabs/n3_all.json', available: true, total: 688, version: '3.0' },
+  n3_verbs: { label: 'Động từ N3', band: 'Mimi kara', dataUrl: 'database/vocabs/n3_verbs.json', available: true, total: 169, version: '3.0' },
+  n3_nouns: { label: 'Danh từ N3', band: 'Mimi kara', dataUrl: 'database/vocabs/n3_nouns.json', available: true, total: 82, version: '3.0' },
+  n3_adjectives: { label: 'Tính từ N3', band: 'Mimi kara', dataUrl: 'database/vocabs/n3_adjectives.json', available: true, total: 42, version: '3.0' },
+  n3_adverbs: { label: 'Phó từ & Liên từ', band: 'Mimi kara', dataUrl: 'database/vocabs/n3_adverbs.json', available: true, total: 122, version: '3.0' },
+  n3_katakana: { label: 'Katakana N3', band: 'Ngoại lai', dataUrl: 'database/vocabs/n3_katakana.json', available: true, total: 79, version: '3.0' },
+  n3_kanji_minna: { label: 'Hán tự Minna', band: 'Minna Chukyu', dataUrl: 'database/vocabs/n3_kanji_minna.json', available: true, total: 225, version: '3.0' },
+  n3_kanji_all: { label: 'Kanji & Từ ghép', band: 'Kanji N3', dataUrl: 'database/vocabs/n3_kanji_all.json', available: true, total: 924, version: '3.0' },
   n3_grammar_skz: { label: 'NP Shinkanzen', band: 'Ngữ pháp', dataUrl: 'database/vocabs/n3_grammar_skz.json', available: true, total: 106, version: '3.0' },
   n3_grammar_mimi: { label: 'NP 耳から覚える', band: 'Ngữ pháp', dataUrl: 'database/vocabs/n3_grammar_mimi.json', available: true, total: 139, version: '3.0' },
   n3_grammar_minna: { label: 'NP Minna Trung cấp', band: 'Ngữ pháp', dataUrl: 'database/vocabs/n3_grammar_minna.json', available: true, total: 211, version: '3.0' },
@@ -86,11 +134,14 @@ const TOPICS = {
 Object.assign(LEVELS, TOPICS);
 
 function hskLevelKeys() {
-  return ['n3_all', 'n3_verbs', 'n3_nouns', 'n3_adjectives', 'n3_adverbs', 'n3_katakana', 'n3_kanji_minna', 'n3_kanji_all'];
+  return ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1'];
 }
 
 function hsk30LevelKeys() {
-  return ['n3_grammar_skz', 'n3_grammar_mimi', 'n3_grammar_minna', 'n3_reading_listening', 'n3_exam_practice'];
+  return [
+    'n3_all', 'n3_verbs', 'n3_nouns', 'n3_adjectives', 'n3_adverbs', 'n3_katakana', 'n3_kanji_minna', 'n3_kanji_all',
+    'n3_grammar_skz', 'n3_grammar_mimi', 'n3_grammar_minna', 'n3_reading_listening', 'n3_exam_practice'
+  ];
 }
 const SPEECH_RATE = 0.85;
 const EXAMPLE_SPEECH_SPEEDS = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];

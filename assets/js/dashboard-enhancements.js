@@ -30,13 +30,13 @@ function renderDashboardEnhancements() {
   const target = summary.target;
   if (continuation) {
     if (summary.totalStudied === 0) {
-      document.getElementById('continueLearningTitle').textContent = 'Bắt đầu học N3 Tổng hợp';
-      document.getElementById('continueLearningProgress').textContent = 'Chinh phục 688 từ vựng cốt lõi JLPT N3 với flashcard thông minh.';
+      document.getElementById('continueLearningTitle').textContent = 'Bắt đầu học JLPT N5';
+      document.getElementById('continueLearningProgress').textContent = 'Chinh phục 662 từ vựng sơ cấp JLPT N5 với flashcard thông minh.';
       const ctaBtn = continuation.querySelector('.dashboard-primary-btn');
       if (ctaBtn) {
         ctaBtn.innerHTML = `Bắt đầu học ngay <span aria-hidden="true">→</span>`;
       }
-      continuation.dataset.level = 'n3_all';
+      continuation.dataset.level = 'jlpt_n5';
     } else if (target) {
       const cfg = LEVELS[target.level];
       const ratio = `${target.known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} từ`;
@@ -56,7 +56,7 @@ function renderDashboardEnhancements() {
   const activity = readStudyActivity();
   const today = localDateKey(new Date());
   const todayWords = new Set(dayWordCount(activity.days[today]) ? activity.days[today].words : []);
-  (typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['n3_all', 'n3_verbs', 'n3_nouns', 'n3_adjectives', 'n3_adverbs', 'n3_katakana', 'n3_kanji_minna', 'n3_kanji_all']).forEach(level => {
+  (typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1']).forEach(level => {
     const card = document.querySelector(`.level-card[data-level="${level}"]`);
     if (!card || !LEVELS[level]) return;
     const cfg = LEVELS[level];
