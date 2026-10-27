@@ -18,6 +18,11 @@ function initCardSwipe(options) {
       document.getElementById(options.unknownBadgeId),
     ];
   }
+  let swipeTimers = [];
+  function clearSwipeTimers() {
+    swipeTimers.forEach(id => clearTimeout(id));
+    swipeTimers = [];
+  }
   function setSwipingState(isSwiping) {
     if (isSwiping) {
       document.body.classList.add('is-card-swiping');
@@ -29,9 +34,13 @@ function initCardSwipe(options) {
     getBadges().forEach(b => { if (b) b.style.opacity = '0'; });
   }
   function resetCard() {
+    clearSwipeTimers();
     card.style.transition = '';
     card.style.transform = '';
     card.style.opacity = '';
+    committed = false;
+    active = false;
+    locked = null;
     clearBadges();
     setSwipingState(false);
   }
@@ -48,39 +57,61 @@ function initCardSwipe(options) {
   function commitSwipe(dir) {
     if (committed) return;
     committed = true;
+    clearSwipeTimers();
     try {
       if (navigator.vibrate) navigator.vibrate(10);
     } catch (_) {}
     if (prefersReduced()) {
       resetCard();
-      if (dir === 'right') options.markKnown(); else options.markUnknown();
-      committed = false;
+      try {
+        if (dir === 'right') options.markKnown(); else options.markUnknown();
+      } catch (err) {
+        console.error('Swipe action error:', err);
+      } finally {
+        resetCard();
+      }
       return;
     }
     setSwipingState(true);
     const flyX = dir === 'right' ? (window.innerWidth || 520) : -(window.innerWidth || 520);
-    card.style.transition = 'transform 220ms ease-out, opacity 220ms ease-out';
+    card.style.transition = 'transform 200ms ease-out, opacity 200ms ease-out';
     card.style.transform = `translateX(${flyX}px) rotate(${dir === 'right' ? 14 : -14}deg)`;
     card.style.opacity = '0';
-    setTimeout(() => {
+
+    const t1 = setTimeout(() => {
       card.style.transition = 'none';
       card.style.transform = '';
       card.style.opacity = '0';
       clearBadges();
-      if (dir === 'right') options.markKnown(); else options.markUnknown();
-      // Sync card fade-in with the renderers' 150ms exit-then-swap timer so new content
+      try {
+        if (dir === 'right') options.markKnown(); else options.markUnknown();
+      } catch (err) {
+        console.error('Swipe mark error:', err);
+      }
+      // Sync card fade-in with the renderers' exit-then-swap timer so new content
       // arrives as the card becomes visible — no double animation.
-      setTimeout(() => {
+      const t2 = setTimeout(() => {
         card.style.transition = 'opacity 180ms ease, transform 180ms ease';
         card.style.opacity = '';
         card.style.transform = '';
         committed = false;
-        setTimeout(() => {
+        const t3 = setTimeout(() => {
           card.style.transition = '';
           setSwipingState(false);
         }, 180);
-      }, 150);
-    }, 220);
+        swipeTimers.push(t3);
+      }, 100);
+      swipeTimers.push(t2);
+    }, 200);
+    swipeTimers.push(t1);
+
+    // Hard failsafe: guarantee card visibility and unlock state never remains stuck
+    const failsafe = setTimeout(() => {
+      if (committed || card.style.opacity === '0') {
+        resetCard();
+      }
+    }, 550);
+    swipeTimers.push(failsafe);
   }
   function springBack() {
     if (prefersReduced()) { resetCard(); return; }
@@ -132,6 +163,13 @@ function initCardSwipe(options) {
     try { if (e && e.pointerId && card.hasPointerCapture && card.hasPointerCapture(e.pointerId)) card.releasePointerCapture(e.pointerId); } catch (_) {}
     springBack();
   });
+
+  card._resetSwipe = resetCard;
+  if (options.cardId === 'card') {
+    window.__resetCardSwipe = resetCard;
+  } else if (options.cardId === 'radicalCard') {
+    window.__resetRadicalCardSwipe = resetCard;
+  }
 }
 
 function initSwipe() {

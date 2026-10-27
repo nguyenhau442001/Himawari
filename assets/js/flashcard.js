@@ -767,6 +767,21 @@ function renderStudyWordList() {
 function render(animate) {
   stopSpeech();
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
+
+  // Guarantee card element visibility and clear any stuck swipe transforms
+  const card = document.getElementById('card');
+  if (card) {
+    if (typeof card._resetSwipe === 'function') {
+      card._resetSwipe();
+    } else if (typeof window.__resetCardSwipe === 'function') {
+      window.__resetCardSwipe();
+    } else {
+      card.style.opacity = '';
+      card.style.transform = '';
+      card.style.transition = '';
+    }
+  }
+
   // Hide ratings right away so a double press cannot rate the next card during the exit animation.
   const ratingRow = document.getElementById('ratingRow');
   if (ratingRow) ratingRow.hidden = true;
@@ -909,204 +924,220 @@ function render(animate) {
   }
 
   function applyContent() {
-    if (content) content.className = 'card-content';
     const card = document.getElementById('card');
-    if (card) card.classList.remove('is-flipped');
-    const wordMainBlock = document.getElementById('wordMainBlock');
-    const cardEmptyState = document.getElementById('cardEmptyState');
-    const exBox = document.getElementById('exampleBox');
-    if (exBox) exBox.classList.remove('show');
-    const soundBtn = document.getElementById('soundBtn');
-    if (soundBtn) soundBtn.classList.remove('show');
-    const initImgEl = document.getElementById('cardIllustrationImg');
-    if (initImgEl) { initImgEl.hidden = true; initImgEl.style.display = 'none'; initImgEl.removeAttribute('src'); }
-    const hint = document.getElementById('hint');
-    if (filteredOrder.length === 0) {
-      if (wordMainBlock) wordMainBlock.style.display = 'none';
-      if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
-      if (hint) hint.style.display = 'none';
-      const emptyHanzi = document.getElementById('hanzi');
-      if (emptyHanzi) {
-        emptyHanzi.textContent = '';
-        emptyHanzi.style.fontSize = '';
-        emptyHanzi.removeAttribute('data-length');
-        emptyHanzi.className = 'hanzi';
+    if (card) {
+      card.classList.remove('is-flipped');
+      card.style.opacity = '';
+      card.style.transform = '';
+    }
+    if (content) content.className = 'card-content';
+    try {
+      const wordMainBlock = document.getElementById('wordMainBlock');
+      const cardEmptyState = document.getElementById('cardEmptyState');
+      const exBox = document.getElementById('exampleBox');
+      if (exBox) exBox.classList.remove('show');
+      const soundBtn = document.getElementById('soundBtn');
+      if (soundBtn) soundBtn.classList.remove('show');
+      const initImgEl = document.getElementById('cardIllustrationImg');
+      if (initImgEl) { initImgEl.hidden = true; initImgEl.style.display = 'none'; initImgEl.removeAttribute('src'); }
+      const hint = document.getElementById('hint');
+      if (filteredOrder.length === 0) {
+        if (wordMainBlock) wordMainBlock.style.display = 'none';
+        if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
+        if (hint) hint.style.display = 'none';
+        const emptyHanzi = document.getElementById('hanzi');
+        if (emptyHanzi) {
+          emptyHanzi.textContent = '';
+          emptyHanzi.style.fontSize = '';
+          emptyHanzi.removeAttribute('data-length');
+          emptyHanzi.className = 'hanzi';
+        }
+        document.getElementById('pinyin').textContent = '';
+        const emptyHv = document.getElementById('hanvietBadge');
+        if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
+        const emptyPos = document.getElementById('posBadge');
+        if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
+        const meaningEl = document.getElementById('meaning');
+        if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
+        const emptyRads = document.getElementById('cardRadicalsRow');
+        if (emptyRads) { emptyRads.innerHTML = ''; emptyRads.style.display = 'none'; }
+        const emptySvg = document.getElementById('cardIllustrationSvg');
+        const emptyImg = document.getElementById('cardIllustrationImg');
+        if (emptySvg) emptySvg.innerHTML = '';
+        if (emptyImg) { emptyImg.src = ''; emptyImg.hidden = true; }
+        if (cardEmptyState) {
+          cardEmptyState.hidden = false;
+          cardEmptyState.style.display = 'block';
+          renderEmptyCardState(cardEmptyState);
+        }
+        if (content) content.classList.add('is-empty');
+        updateProgress();
+        updateCardPosition();
+        updateStats();
+        setActiveStudyWord(null);
+        renderStudyWordList();
+        syncRevealControls();
+        if (typeof syncSpeechButtons === 'function') syncSpeechButtons();
+        return;
       }
-      document.getElementById('pinyin').textContent = '';
-      const emptyHv = document.getElementById('hanvietBadge');
-      if (emptyHv) { emptyHv.textContent = ''; emptyHv.style.display = 'none'; }
-      const emptyPos = document.getElementById('posBadge');
-      if (emptyPos) { emptyPos.textContent = ''; emptyPos.hidden = true; emptyPos.style.display = 'none'; }
-      const meaningEl = document.getElementById('meaning');
-      if (meaningEl) { meaningEl.textContent = ''; meaningEl.classList.remove('show'); }
-      const emptyRads = document.getElementById('cardRadicalsRow');
-      if (emptyRads) { emptyRads.innerHTML = ''; emptyRads.style.display = 'none'; }
-      const emptySvg = document.getElementById('cardIllustrationSvg');
-      const emptyImg = document.getElementById('cardIllustrationImg');
-      if (emptySvg) emptySvg.innerHTML = '';
-      if (emptyImg) { emptyImg.src = ''; emptyImg.hidden = true; }
+      if (wordMainBlock) wordMainBlock.style.display = '';
       if (cardEmptyState) {
-        cardEmptyState.hidden = false;
-        cardEmptyState.style.display = 'block';
-        renderEmptyCardState(cardEmptyState);
+        cardEmptyState.hidden = true;
+        cardEmptyState.style.display = 'none';
       }
-      if (content) content.classList.add('is-empty');
-      updateProgress();
-      updateCardPosition();
-      updateStats();
-      setActiveStudyWord(null);
+      if (hint) hint.style.display = '';
+      if (content) content.classList.remove('is-empty');
+      const wIdx = filteredOrder[idx % filteredOrder.length];
+      const w = WORDS[wIdx];
+      if (!w) return; // deck was swapped out (level change) while this render was pending
+      setActiveStudyWord(w);
+      if (typeof renderCardRadicals === 'function') renderCardRadicals(w);
       renderStudyWordList();
-      syncRevealControls();
-      if (typeof syncSpeechButtons === 'function') syncSpeechButtons();
-      return;
-    }
-    if (wordMainBlock) wordMainBlock.style.display = '';
-    if (cardEmptyState) {
-      cardEmptyState.hidden = true;
-      cardEmptyState.style.display = 'none';
-    }
-    if (hint) hint.style.display = '';
-    if (content) content.classList.remove('is-empty');
-    const wIdx = filteredOrder[idx % filteredOrder.length];
-    const w = WORDS[wIdx];
-    if (!w) return; // deck was swapped out (level change) while this render was pending
-    setActiveStudyWord(w);
-    if (typeof renderCardRadicals === 'function') renderCardRadicals(w);
-    renderStudyWordList();
-    const hanziEl = document.getElementById('hanzi');
-    if (hanziEl) {
-      renderHanziWithClarifier(hanziEl, w.hanzi);
-      applyHanziLengthFit(hanziEl, w.hanzi);
-    }
-    document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
-    const hvBadge = document.getElementById('hanvietBadge');
-    if (hvBadge) {
-      let hv = (typeof getWordHanViet === 'function' ? getWordHanViet(w) : '') || w.hanviet;
-      if (hv) {
-        hv = hv.replace(/[（\(].*?[）\)]/g, '').replace(/\s+/g, ' ').trim();
+      const hanziEl = document.getElementById('hanzi');
+      if (hanziEl) {
+        renderHanziWithClarifier(hanziEl, w.hanzi);
+        applyHanziLengthFit(hanziEl, w.hanzi);
       }
-      if (hv) {
-        hvBadge.textContent = `［${hv}］`;
-        hvBadge.hidden = false;
-        hvBadge.style.display = showHanViet ? 'inline-flex' : 'none';
-      } else {
-        hvBadge.textContent = '';
-        hvBadge.hidden = true;
-        hvBadge.style.display = 'none';
+      document.getElementById('pinyin').textContent = showPinyin ? w.pinyin : '';
+      const hvBadge = document.getElementById('hanvietBadge');
+      if (hvBadge) {
+        let hv = (typeof getWordHanViet === 'function' ? getWordHanViet(w) : '') || w.hanviet;
+        if (hv) {
+          hv = hv.replace(/[（\(].*?[）\)]/g, '').replace(/\s+/g, ' ').trim();
+        }
+        if (hv) {
+          hvBadge.textContent = `［${hv}］`;
+          hvBadge.hidden = false;
+          hvBadge.style.display = showHanViet ? 'inline-flex' : 'none';
+        } else {
+          hvBadge.textContent = '';
+          hvBadge.hidden = true;
+          hvBadge.style.display = 'none';
+        }
       }
-    }
 
-    // Cập nhật Part of Speech (Từ loại)
-    const pos = (typeof getWordPartOfSpeech === 'function') ? getWordPartOfSpeech(w) : null;
-    const posBadge = document.getElementById('posBadge');
-    if (posBadge) {
-      if (pos && pos.label) {
-        posBadge.textContent = pos.label;
-        posBadge.className = `pos-badge pos-badge--${pos.code || 'noun'}`;
-        posBadge.title = `Từ loại: ${pos.full || pos.label}`;
-        posBadge.hidden = false;
-        posBadge.style.display = 'inline-flex';
-      } else {
-        posBadge.textContent = '';
-        posBadge.hidden = true;
-        posBadge.style.display = 'none';
+      // Cập nhật Part of Speech (Từ loại)
+      const pos = (typeof getWordPartOfSpeech === 'function') ? getWordPartOfSpeech(w) : null;
+      const posBadge = document.getElementById('posBadge');
+      if (posBadge) {
+        if (pos && pos.label) {
+          posBadge.textContent = pos.label;
+          posBadge.className = `pos-badge pos-badge--${pos.code || 'noun'}`;
+          posBadge.title = `Từ loại: ${pos.full || pos.label}`;
+          posBadge.hidden = false;
+          posBadge.style.display = 'inline-flex';
+        } else {
+          posBadge.textContent = '';
+          posBadge.hidden = true;
+          posBadge.style.display = 'none';
+        }
       }
-    }
 
-    const m = document.getElementById('meaning');
-    m.textContent = w.meaning;
-    m.classList.remove('show');
-    const hasExample = Boolean(w.example_zh || w.example_py || w.example_vi);
-    const exampleBox = document.getElementById('exampleBox');
-    if (exampleBox) exampleBox.hidden = !hasExample;
-    document.getElementById('exZh').innerHTML = w.example_zh;
-    document.getElementById('exPy').innerHTML = w.example_py;
-    document.getElementById('exVi').innerHTML = w.example_vi;
+      const m = document.getElementById('meaning');
+      m.textContent = w.meaning;
+      m.classList.remove('show');
+      const hasExample = Boolean(w.example_zh || w.example_py || w.example_vi);
+      const exampleBox = document.getElementById('exampleBox');
+      if (exampleBox) exampleBox.hidden = !hasExample;
+      document.getElementById('exZh').innerHTML = w.example_zh;
+      document.getElementById('exPy').innerHTML = w.example_py;
+      document.getElementById('exVi').innerHTML = w.example_vi;
 
-    // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor)
-    const visualCol = document.getElementById('cardVisualCol');
-    const imgEl = document.getElementById('cardIllustrationImg');
-    const svgEl = document.getElementById('cardIllustrationSvg');
-    const frameEl = document.getElementById('cardIllustrationFrame');
+      // Cập nhật hình ảnh minh họa trực quan (Visual Mnemonic Anchor)
+      const visualCol = document.getElementById('cardVisualCol');
+      const imgEl = document.getElementById('cardIllustrationImg');
+      const svgEl = document.getElementById('cardIllustrationSvg');
+      const frameEl = document.getElementById('cardIllustrationFrame');
 
-    if (imgEl && svgEl && typeof getWordIllustration === 'function') {
-      const illu = getWordIllustration(w);
-      if (illu) {
-        if (visualCol) visualCol.style.display = '';
-        if (frameEl) frameEl.title = 'Minh họa gợi hình';
+      if (imgEl && svgEl && typeof getWordIllustration === 'function') {
+        const illu = getWordIllustration(w);
+        if (illu) {
+          if (visualCol) visualCol.style.display = '';
+          if (frameEl) frameEl.title = 'Minh họa gợi hình';
 
-        if (illu.type === 'svg' && illu.svg) {
-          svgEl.innerHTML = illu.svg;
-          svgEl.hidden = false;
-          imgEl.hidden = true;
-          imgEl.removeAttribute('src');
-          if (frameEl) frameEl.classList.remove('is-loading');
-        } else if (illu.src) {
-          const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
-          if (cachedSvg) {
-            // INSTANT RENDER (0ms latency from RAM cache)
-            svgEl.innerHTML = cachedSvg;
+          if (illu.type === 'svg' && illu.svg) {
+            svgEl.innerHTML = illu.svg;
             svgEl.hidden = false;
             imgEl.hidden = true;
             imgEl.removeAttribute('src');
             if (frameEl) frameEl.classList.remove('is-loading');
-          } else {
-            // Cache miss: show smooth shimmer without layout shift
-            const curWord = w;
-            if (frameEl) frameEl.classList.add('is-loading');
-
-            if (typeof preloadIllustration === 'function') {
-              preloadIllustration(illu.src, 'high').then(svgText => {
-                if (typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
-                  if (svgText) {
-                    svgEl.innerHTML = svgText;
-                    svgEl.hidden = false;
-                    imgEl.hidden = true;
-                    imgEl.removeAttribute('src');
-                  } else {
-                    imgEl.src = illu.src;
-                    imgEl.alt = 'Minh họa gợi hình';
-                    imgEl.hidden = false;
-                    svgEl.hidden = true;
-                    svgEl.innerHTML = '';
-                  }
-                  if (frameEl) frameEl.classList.remove('is-loading');
-                }
-              });
+          } else if (illu.src) {
+            const cachedSvg = (typeof SynapseSvgCache !== 'undefined') ? SynapseSvgCache.get(illu.src) : null;
+            if (cachedSvg) {
+              // INSTANT RENDER (0ms latency from RAM cache)
+              svgEl.innerHTML = cachedSvg;
+              svgEl.hidden = false;
+              imgEl.hidden = true;
+              imgEl.removeAttribute('src');
+              if (frameEl) frameEl.classList.remove('is-loading');
             } else {
-              imgEl.src = illu.src;
-              imgEl.alt = 'Minh họa gợi hình';
-              imgEl.hidden = false;
-              svgEl.hidden = true;
-              svgEl.innerHTML = '';
+              // Cache miss: show smooth shimmer without layout shift
+              const curWord = w;
+              if (frameEl) frameEl.classList.add('is-loading');
+
+              if (typeof preloadIllustration === 'function') {
+                preloadIllustration(illu.src, 'high').then(svgText => {
+                  if (typeof activeStudyWord !== 'undefined' && activeStudyWord === curWord) {
+                    if (svgText) {
+                      svgEl.innerHTML = svgText;
+                      svgEl.hidden = false;
+                      imgEl.hidden = true;
+                      imgEl.removeAttribute('src');
+                    } else {
+                      imgEl.src = illu.src;
+                      imgEl.alt = 'Minh họa gợi hình';
+                      imgEl.hidden = false;
+                      svgEl.hidden = true;
+                      svgEl.innerHTML = '';
+                    }
+                    if (frameEl) frameEl.classList.remove('is-loading');
+                  }
+                });
+              } else {
+                imgEl.src = illu.src;
+                imgEl.alt = 'Minh họa gợi hình';
+                imgEl.hidden = false;
+                svgEl.hidden = true;
+                svgEl.innerHTML = '';
+              }
             }
           }
+        } else {
+          if (visualCol) visualCol.style.display = 'none';
+          if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
+          if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
         }
-      } else {
-        if (visualCol) visualCol.style.display = 'none';
-        if (svgEl) { svgEl.hidden = true; svgEl.innerHTML = ''; }
-        if (imgEl) { imgEl.hidden = true; imgEl.removeAttribute('src'); }
+      } else if (visualCol) {
+        visualCol.style.display = 'none';
       }
-    } else if (visualCol) {
-      visualCol.style.display = 'none';
-    }
 
-    // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
-    if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
-      preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
-    }
+      // Predictive sliding-window preloader: prefetch next 15 cards and previous 5 cards in background
+      if (typeof preloadNearbyIllustrations === 'function' && Array.isArray(WORDS) && Array.isArray(filteredOrder) && filteredOrder.length > 0) {
+        preloadNearbyIllustrations(WORDS, filteredOrder, idx % filteredOrder.length, 15);
+      }
 
-    document.getElementById('hint').textContent = getCardHintText(false);
-    updateCardMoreMenuState();
-    updateProgress();
-    updateCardPosition();
-    updateStats();
-    syncRevealControls();
-    if (typeof syncSpeechButtons === 'function') syncSpeechButtons();
-    if (animate && content && !prefersReduced) {
-      if (animate === 'next') content.classList.add('enter-right');
-      else if (animate === 'prev') content.classList.add('enter-left');
-      else content.classList.add('enter-fade');
+      document.getElementById('hint').textContent = getCardHintText(false);
+      updateCardMoreMenuState();
+      updateProgress();
+      updateCardPosition();
+      updateStats();
+      syncRevealControls();
+      if (typeof syncSpeechButtons === 'function') syncSpeechButtons();
+    } catch (renderErr) {
+      console.error('Error applying card content:', renderErr);
+    } finally {
+      if (content) {
+        content.classList.remove('exit-left', 'exit-right', 'exit-fade');
+      }
+      if (card) {
+        card.style.opacity = '';
+        card.style.transform = '';
+      }
+      if (animate && content && !prefersReduced) {
+        if (animate === 'next') content.classList.add('enter-right');
+        else if (animate === 'prev') content.classList.add('enter-left');
+        else content.classList.add('enter-fade');
+      }
     }
   }
 

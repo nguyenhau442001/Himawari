@@ -272,72 +272,100 @@ function radicalRelationLabel(type) {
 }
 
 function renderRadicalCard(animate) {
+  const card = document.getElementById('radicalCard');
+  if (card) {
+    if (typeof card._resetSwipe === 'function') {
+      card._resetSwipe();
+    } else if (typeof window.__resetRadicalCardSwipe === 'function') {
+      window.__resetRadicalCardSwipe();
+    } else {
+      card.style.opacity = '';
+      card.style.transform = '';
+      card.style.transition = '';
+    }
+  }
+
   const content = document.getElementById('radicalCardContent');
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   function applyContent() {
+    if (card) {
+      card.style.opacity = '';
+      card.style.transform = '';
+    }
     if (content) content.className = 'card-content';
     const back = document.getElementById('radicalBack');
     if (back) back.classList.remove('show');
     document.getElementById('radicalHint').textContent = 'Nhấn vào thẻ để xem nghĩa và ví dụ';
 
-    if (radicalFilteredOrder.length === 0) {
-      document.getElementById('radChar').textContent = '';
-      document.getElementById('radName').textContent = '';
-      document.getElementById('radPinyin').textContent = '';
-      document.getElementById('radMeaning').textContent = 'Không có bộ thủ trong bộ lọc này';
-      document.getElementById('radDescription').hidden = true;
-      document.getElementById('radVariants').hidden = true;
-      document.getElementById('radExamples').hidden = true;
-      document.getElementById('radicalBack').classList.add('show');
-      document.getElementById('radicalHint').textContent = '';
-      updateRadicalProgress(0, 0);
+    try {
+      if (radicalFilteredOrder.length === 0) {
+        document.getElementById('radChar').textContent = '';
+        document.getElementById('radName').textContent = '';
+        document.getElementById('radPinyin').textContent = '';
+        document.getElementById('radMeaning').textContent = 'Không có bộ thủ trong bộ lọc này';
+        document.getElementById('radDescription').hidden = true;
+        document.getElementById('radVariants').hidden = true;
+        document.getElementById('radExamples').hidden = true;
+        document.getElementById('radicalBack').classList.add('show');
+        document.getElementById('radicalHint').textContent = '';
+        updateRadicalProgress(0, 0);
+        updateRadicalStats();
+        return;
+      }
+
+      const item = radicalWords[radicalFilteredOrder[radicalIdx % radicalFilteredOrder.length]];
+      document.getElementById('radChar').textContent = item.radical || '';
+      document.getElementById('radName').textContent = item.name || '';
+      document.getElementById('radPinyin').textContent = showRadicalPinyin ? (item.pinyin || '') : '';
+      document.getElementById('radMeaning').textContent = item.meaning || '';
+
+      const descNode = document.getElementById('radDescription');
+      descNode.hidden = !item.description;
+      descNode.textContent = item.description || '';
+
+      const variantsNode = document.getElementById('radVariants');
+      if (Array.isArray(item.variants) && item.variants.length) {
+        variantsNode.hidden = false;
+        variantsNode.innerHTML = '<div class="ex-label">Dị thể</div>' +
+          item.variants.map(v => `<span class="variant-chip">${v}</span>`).join('');
+      } else {
+        variantsNode.hidden = true;
+        variantsNode.innerHTML = '';
+      }
+
+      const examplesNode = document.getElementById('radExamples');
+      if (Array.isArray(item.examples) && item.examples.length) {
+        examplesNode.hidden = false;
+        examplesNode.innerHTML = '<div class="ex-label">Ví dụ</div>' + item.examples.map(ex => `
+          <div class="radical-example">
+            <div class="ex-line ex-zh">${ex.hanzi || ''}</div>
+            ${showRadicalPinyin && ex.pinyin ? `<div class="ex-line ex-py">${ex.pinyin}</div>` : ''}
+            <div class="ex-line ex-vi">${ex.meaning || ''}</div>
+            ${ex.relation ? `<div class="radical-relation"><span class="relation-badge">${radicalRelationLabel(ex.relation_type)}</span>${ex.relation}</div>` : ''}
+          </div>`).join('');
+      } else {
+        examplesNode.hidden = true;
+        examplesNode.innerHTML = '';
+      }
+
+      updateRadicalProgress(radicalIdx % radicalFilteredOrder.length + 1, radicalFilteredOrder.length);
       updateRadicalStats();
-      return;
-    }
-
-    const item = radicalWords[radicalFilteredOrder[radicalIdx % radicalFilteredOrder.length]];
-    document.getElementById('radChar').textContent = item.radical || '';
-    document.getElementById('radName').textContent = item.name || '';
-    document.getElementById('radPinyin').textContent = showRadicalPinyin ? (item.pinyin || '') : '';
-    document.getElementById('radMeaning').textContent = item.meaning || '';
-
-    const descNode = document.getElementById('radDescription');
-    descNode.hidden = !item.description;
-    descNode.textContent = item.description || '';
-
-    const variantsNode = document.getElementById('radVariants');
-    if (Array.isArray(item.variants) && item.variants.length) {
-      variantsNode.hidden = false;
-      variantsNode.innerHTML = '<div class="ex-label">Dị thể</div>' +
-        item.variants.map(v => `<span class="variant-chip">${v}</span>`).join('');
-    } else {
-      variantsNode.hidden = true;
-      variantsNode.innerHTML = '';
-    }
-
-    const examplesNode = document.getElementById('radExamples');
-    if (Array.isArray(item.examples) && item.examples.length) {
-      examplesNode.hidden = false;
-      examplesNode.innerHTML = '<div class="ex-label">Ví dụ</div>' + item.examples.map(ex => `
-        <div class="radical-example">
-          <div class="ex-line ex-zh">${ex.hanzi || ''}</div>
-          ${showRadicalPinyin && ex.pinyin ? `<div class="ex-line ex-py">${ex.pinyin}</div>` : ''}
-          <div class="ex-line ex-vi">${ex.meaning || ''}</div>
-          ${ex.relation ? `<div class="radical-relation"><span class="relation-badge">${radicalRelationLabel(ex.relation_type)}</span>${ex.relation}</div>` : ''}
-        </div>`).join('');
-    } else {
-      examplesNode.hidden = true;
-      examplesNode.innerHTML = '';
-    }
-
-    updateRadicalProgress(radicalIdx % radicalFilteredOrder.length + 1, radicalFilteredOrder.length);
-    updateRadicalStats();
-
-    if (animate && content && !prefersReduced) {
-      if (animate === 'next') content.classList.add('enter-right');
-      else if (animate === 'prev') content.classList.add('enter-left');
-      else content.classList.add('enter-fade');
+    } catch (err) {
+      console.error('Error in radical applyContent:', err);
+    } finally {
+      if (content) {
+        content.classList.remove('exit-left', 'exit-right', 'exit-fade');
+      }
+      if (card) {
+        card.style.opacity = '';
+        card.style.transform = '';
+      }
+      if (animate && content && !prefersReduced) {
+        if (animate === 'next') content.classList.add('enter-right');
+        else if (animate === 'prev') content.classList.add('enter-left');
+        else content.classList.add('enter-fade');
+      }
     }
   }
 

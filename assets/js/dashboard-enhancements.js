@@ -25,8 +25,15 @@ function openCommonRadical(character) {
 }
 
 function renderDashboardEnhancements() {
+  if (typeof learningProgressSummary !== 'function') return;
+  let summary;
+  try {
+    summary = learningProgressSummary();
+  } catch (_) {
+    return;
+  }
+  if (!summary) return;
   const continuation = document.getElementById('continueLearningCard');
-  const summary = learningProgressSummary();
   const target = summary.target;
   if (continuation) {
     if (summary.totalStudied === 0) {
@@ -53,76 +60,78 @@ function renderDashboardEnhancements() {
     }
   }
 
-  const activity = readStudyActivity();
-  const today = localDateKey(new Date());
-  const todayWords = new Set(dayWordCount(activity.days[today]) ? activity.days[today].words : []);
-  (typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1']).forEach(level => {
-    const card = document.querySelector(`.level-card[data-level="${level}"]`);
-    if (!card || !LEVELS[level]) return;
-    const cfg = LEVELS[level];
-    const statuses = Object.values(readSavedLevelProgress(level));
-    const known = statuses.filter(status => status === 'known').length;
-    const studied = statuses.filter(status => status === 'known' || status === 'unknown').length;
-    const complete = known >= cfg.total;
-    const isLearning = !complete && (studied > 0 || (target && target.level === level));
-    card.classList.toggle('is-active-level', Boolean(target && target.level === level && !complete));
-    card.classList.toggle('is-complete-level', complete);
-    card.classList.toggle('is-learning-level', isLearning);
-    let badge = card.querySelector('.level-status-badge');
-    if (!badge) {
-      badge = document.createElement('span');
-      badge.className = 'level-status-badge';
-      const heading = card.querySelector('.level-card-heading') || card;
-      heading.appendChild(badge);
-    }
-    badge.className = `level-status-badge${complete ? ' is-complete' : isLearning ? ' is-learning' : ''}`;
-    badge.textContent = complete ? 'Đã hoàn thành' : isLearning ? 'Đang học' : 'Chưa học';
-
-    let daily = card.querySelector('.lvl-today-count');
-    if (!daily) {
-      daily = document.createElement('div');
-      daily.className = 'lvl-today-count';
-      const summary = card.querySelector('.level-card-progress-heading');
-      if (summary) summary.appendChild(daily);
-      else {
-        const track = card.querySelector('.lvl-mastery-track');
-        card.insertBefore(daily, track || card.lastElementChild);
+  try {
+    const activity = readStudyActivity();
+    const today = localDateKey(new Date());
+    const todayWords = new Set(dayWordCount(activity.days[today]) ? activity.days[today].words : []);
+    (typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1']).forEach(level => {
+      const card = document.querySelector(`.level-card[data-level="${level}"]`);
+      if (!card || !LEVELS[level]) return;
+      const cfg = LEVELS[level];
+      const statuses = Object.values(readSavedLevelProgress(level));
+      const known = statuses.filter(status => status === 'known').length;
+      const studied = statuses.filter(status => status === 'known' || status === 'unknown').length;
+      const complete = known >= cfg.total;
+      const isLearning = !complete && (studied > 0 || (target && target.level === level));
+      card.classList.toggle('is-active-level', Boolean(target && target.level === level && !complete));
+      card.classList.toggle('is-complete-level', complete);
+      card.classList.toggle('is-learning-level', isLearning);
+      let badge = card.querySelector('.level-status-badge');
+      if (!badge) {
+        badge = document.createElement('span');
+        badge.className = 'level-status-badge';
+        const heading = card.querySelector('.level-card-heading') || card;
+        heading.appendChild(badge);
       }
-    }
-    const todayCount = [...todayWords].filter(key => key.startsWith(level + ':')).length;
-    if (todayCount > 0) {
-      daily.style.display = 'inline-flex';
-      daily.classList.add('has-activity');
-      daily.textContent = `+${todayCount} hôm nay`;
-    } else {
-      daily.style.display = 'none';
-      daily.classList.remove('has-activity');
-      daily.textContent = '';
-    }
-    const rawPct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
-    const pctStr = typeof formatProgressPercent === 'function'
-      ? formatProgressPercent(known, cfg.total)
-      : `${Math.round(rawPct)}%`;
-    const percentValue = card.querySelector('.lvl-percent-value');
-    if (percentValue) {
-      percentValue.textContent = known > 0 ? pctStr : '0%';
-      percentValue.style.opacity = known > 0 ? '1' : '0.6';
-    }
-    const legacyPercent = card.querySelector('.lvl-percent-complete');
-    if (legacyPercent) legacyPercent.remove();
-    const progressText = card.querySelector('.lvl-mastery-text');
-    if (progressText) {
-      progressText.textContent = known > 0
-        ? `${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`
-        : `0 / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`;
-    }
-    const bar = card.querySelector('.lvl-mastery-fill');
-    if (bar) bar.style.width = `${known > 0 ? Math.max(rawPct, 1) : 0}%`;
-    const actionHint = card.querySelector('.lvl-action-hint');
-    if (actionHint) {
-      actionHint.innerHTML = `${complete ? 'Ôn lại' : isLearning ? 'Học tiếp' : 'Học ngay'} <span aria-hidden="true">→</span>`;
-    }
-  });
+      badge.className = `level-status-badge${complete ? ' is-complete' : isLearning ? ' is-learning' : ''}`;
+      badge.textContent = complete ? 'Đã hoàn thành' : isLearning ? 'Đang học' : 'Chưa học';
+
+      let daily = card.querySelector('.lvl-today-count');
+      if (!daily) {
+        daily = document.createElement('div');
+        daily.className = 'lvl-today-count';
+        const summary = card.querySelector('.level-card-progress-heading');
+        if (summary) summary.appendChild(daily);
+        else {
+          const track = card.querySelector('.lvl-mastery-track');
+          card.insertBefore(daily, track || card.lastElementChild);
+        }
+      }
+      const todayCount = [...todayWords].filter(key => key.startsWith(level + ':')).length;
+      if (todayCount > 0) {
+        daily.style.display = 'inline-flex';
+        daily.classList.add('has-activity');
+        daily.textContent = `+${todayCount} hôm nay`;
+      } else {
+        daily.style.display = 'none';
+        daily.classList.remove('has-activity');
+        daily.textContent = '';
+      }
+      const rawPct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
+      const pctStr = typeof formatProgressPercent === 'function'
+        ? formatProgressPercent(known, cfg.total)
+        : `${Math.round(rawPct)}%`;
+      const percentValue = card.querySelector('.lvl-percent-value');
+      if (percentValue) {
+        percentValue.textContent = known > 0 ? pctStr : '0%';
+        percentValue.style.opacity = known > 0 ? '1' : '0.6';
+      }
+      const legacyPercent = card.querySelector('.lvl-percent-complete');
+      if (legacyPercent) legacyPercent.remove();
+      const progressText = card.querySelector('.lvl-mastery-text');
+      if (progressText) {
+        progressText.textContent = known > 0
+          ? `${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`
+          : `0 / ${cfg.total.toLocaleString('vi-VN')} đã nhớ`;
+      }
+      const bar = card.querySelector('.lvl-mastery-fill');
+      if (bar) bar.style.width = `${known > 0 ? Math.max(rawPct, 1) : 0}%`;
+      const actionHint = card.querySelector('.lvl-action-hint');
+      if (actionHint) {
+        actionHint.innerHTML = `${complete ? 'Ôn lại' : isLearning ? 'Học tiếp' : 'Học ngay'} <span aria-hidden="true">→</span>`;
+      }
+    });
+  } catch (_) {}
 }
 
 function initDashboardSidebar() {

@@ -34,20 +34,25 @@ window.jumpToRandomWord = jumpToRandomWord;
 window.randomWord = jumpToRandomWord;
 window.randomizeFlashcardWord = jumpToRandomWord;
 function rateCurrentCard(rating) {
-  if (filteredOrder.length === 0) return;
+  if (!Array.isArray(filteredOrder) || filteredOrder.length === 0) return;
   const wIdx = filteredOrder[idx % filteredOrder.length];
-  const word = WORDS[wIdx];
+  const word = WORDS && WORDS[wIdx];
   if (!word) return;
-  const prevDeck = typeof computeDeckProgress === 'function' ? computeDeckProgress() : null;
-  reviewSrsCard(currentLevel, word.id, rating, srsCards);
-  const limitMessage = document.getElementById('dailyNewLimitMessage');
-  if (limitMessage) limitMessage.textContent = '';
-  saveProgress();
-  recordDailyStudy(word.id, currentLevel);
-  updateStats();
-  if (currentView === 'overview') renderOverview();
-  checkCelebration(prevDeck);
-  if (currentFilter !== 'all') advanceAfterMark(wIdx); else nextCard();
+  try {
+    const prevDeck = typeof computeDeckProgress === 'function' ? computeDeckProgress() : null;
+    if (typeof reviewSrsCard === 'function') reviewSrsCard(currentLevel, word.id, rating, srsCards);
+    const limitMessage = document.getElementById('dailyNewLimitMessage');
+    if (limitMessage) limitMessage.textContent = '';
+    saveProgress();
+    if (typeof recordDailyStudy === 'function') recordDailyStudy(word.id, currentLevel);
+    updateStats();
+    if (currentView === 'overview') renderOverview();
+    if (typeof checkCelebration === 'function') checkCelebration(prevDeck);
+  } catch (err) {
+    console.error('Error in rateCurrentCard:', err);
+  } finally {
+    if (currentFilter !== 'all') advanceAfterMark(wIdx); else nextCard();
+  }
 }
 function markKnown() { rateCurrentCard('good'); }
 function markUnknown() { rateCurrentCard('again'); }
