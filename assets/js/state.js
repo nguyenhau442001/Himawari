@@ -98,13 +98,35 @@ const LEVELS = {
   },
 };
 
-// Aliases for backwards compatibility with any hardcoded references
-LEVELS.hsk1 = LEVELS.jlpt_n5;
-LEVELS.hsk2 = LEVELS.jlpt_n4;
-LEVELS.hsk3 = LEVELS.jlpt_n3;
-LEVELS.hsk4 = LEVELS.jlpt_n2;
-LEVELS.hsk5 = LEVELS.jlpt_n1;
-LEVELS.hsk6 = LEVELS.n3_all;
+// Mapping of legacy level keys to modern canonical JLPT keys
+const CANONICAL_LEVEL_MAP = {
+  hsk1: 'jlpt_n5',
+  hsk2: 'jlpt_n4',
+  hsk3: 'jlpt_n3',
+  hsk4: 'jlpt_n2',
+  hsk5: 'jlpt_n1',
+  hsk6: 'n3_all',
+};
+
+function canonicalizeLevel(level) {
+  if (!level) return level;
+  return CANONICAL_LEVEL_MAP[level] || level;
+}
+if (typeof window !== 'undefined') {
+  window.CANONICAL_LEVEL_MAP = CANONICAL_LEVEL_MAP;
+  window.canonicalizeLevel = canonicalizeLevel;
+  window.LEVELS = LEVELS;
+}
+
+// Aliases for backwards compatibility (defined as non-enumerable so Object.keys(LEVELS) stays clean)
+['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'].forEach(alias => {
+  const targetKey = CANONICAL_LEVEL_MAP[alias];
+  Object.defineProperty(LEVELS, alias, {
+    get() { return LEVELS[targetKey]; },
+    enumerable: false,
+    configurable: true,
+  });
+});
 
 // JLPT N3 Grammar & Specialized decks (accessible via the switch tab)
 const LEVELS_HSK30 = {

@@ -423,7 +423,10 @@ function learningProgressSummary() {
   });
 
   let lastLevel = null;
-  try { lastLevel = localStorage.getItem(LAST_LEVEL_KEY); } catch (e) {}
+  try {
+    lastLevel = localStorage.getItem(LAST_LEVEL_KEY);
+    if (typeof canonicalizeLevel === 'function') lastLevel = canonicalizeLevel(lastLevel);
+  } catch (e) {}
 
   let target = levels.find(item => item.level === lastLevel);
   if (target && target.known >= LEVELS[target.level].total) {
@@ -649,7 +652,7 @@ function goBackToPicker() {
   if (auxCol) auxCol.style.display = '';
   const continueCard = document.getElementById('continueLearningCard');
   if (continueCard) continueCard.style.display = '';
-  document.getElementById('appTitle').textContent = 'Synapse Hanzi';
+  document.getElementById('appTitle').textContent = 'Himawari JLPT N3';
   document.getElementById('primaryTabs').style.display = '';
   document.getElementById('pickerControls').style.display = '';
   setPrimaryTab('vocab');
@@ -669,7 +672,18 @@ function goBackToPicker() {
   }
 }
 
+let selectLevelRequestId = 0;
+
 async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false) {
+  if (typeof canonicalizeLevel === 'function') {
+    level = canonicalizeLevel(level);
+  }
+  if (!level || !LEVELS[level]) {
+    console.warn('selectLevel: invalid or unknown level', level);
+    return;
+  }
+  const reqId = ++selectLevelRequestId;
+
   celebrationShown = false;
   const overlay = document.getElementById('celebrationOverlay');
   if (overlay) overlay.remove();
@@ -698,6 +712,7 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   if (transitionTimer) { clearTimeout(transitionTimer); transitionTimer = null; }
   WORDS = [];
   filteredOrder = [];
+  order = [];
   const studyWordSearch = document.getElementById('studyWordListSearch');
   if (studyWordSearch) studyWordSearch.value = '';
   if (typeof renderStudyWordList === 'function') renderStudyWordList();
@@ -705,9 +720,20 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   overviewQuery = '';
   overviewStatus = 'all';
   try { localStorage.setItem(LAST_LEVEL_KEY, level); } catch (e) {}
-  document.getElementById('appTitle').textContent = LEVELS[level].label + ' · Synapse Hanzi';
+  document.getElementById('appTitle').textContent = LEVELS[level].label + ' · Himawari JLPT';
   const studyLevelBadge = document.getElementById('studyLevelBadge');
   if (studyLevelBadge && LEVELS[level]) studyLevelBadge.textContent = LEVELS[level].label;
+
+  // Clear previous level's progress numbers and filter buttons immediately to prevent stale mismatched counts
+  const progressEl = document.getElementById('progress');
+  if (progressEl) progressEl.textContent = '...';
+  const progressPctEl = document.getElementById('progressPct');
+  if (progressPctEl) progressPctEl.textContent = '...';
+  const progressBarEl = document.getElementById('progressBar');
+  if (progressBarEl) progressBarEl.style.width = '0%';
+  const filterRow = document.getElementById('filterRow');
+  if (filterRow) filterRow.innerHTML = '';
+
   document.getElementById('primaryTabs').style.display = 'none';
   document.getElementById('pickerControls').style.display = 'none';
   document.getElementById('learningDashboard').style.display = 'none';
@@ -739,96 +765,111 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
       <div class="skel-line skel-action-btn"></div>
     </div>`;
 
-  // Yield to the browser's paint pipeline so the skeleton renders at least one frame
-  // before the fetch begins — necessary for local file:// loads where fetch is instant.
-  await new Promise(r => requestAnimationFrame(r));
-  await new Promise(r => requestAnimationFrame(r));
-
-  // Audio manifest is optional (speech falls back to Web Speech), so it loads alongside the words
-  // instead of delaying the first card.
   loadPrebuiltAudioManifest(level);
+
+  const abortController = typeof AbortController !== 'undefined' ? new AbortController() : null;
+  const timeoutId = abortController ? setTimeout(() => {
+    try { abortController.abort(); } catch (_) {}
+  }, 10000) : null;
+
   try {
-    const res = await fetch(LEVELS[level].dataUrl);
-    if (!res.ok) throw new Error('fetch failed');
+    const fetchOptions = abortController ? { signal: abortController.signal } : {};
+    const res = await fetch(LEVELS[level].dataUrl, fetchOptions);
+    if (timeoutId) clearTimeout(timeoutId);
+    if (!res.ok) throw new Error('Fetch failed with status ' + res.status);
     const words = await res.json();
-    if (currentLevel !== level) return; // another level was picked while this one downloaded
+    if (reqId !== selectLevelRequestId || currentLevel !== level) return;
     WORDS = words;
   } catch (e) {
-    if (currentLevel !== level) return;
-    document.getElementById('cardArea').innerHTML = '<div class="error-text">Không thể tải dữ liệu. Vui lòng thử lại.</div>';
+    if (timeoutId) clearTimeout(timeoutId);
+    if (reqId !== selectLevelRequestId || currentLevel !== level) return;
+    console.error('Failed to load level data:', e);
+    document.getElementById('cardArea').innerHTML = `
+      <div class="card-load-error" style="text-align:center; padding: 48px 20px;">
+        <p style="margin-bottom: 16px; font-weight: 600; color: var(--text-secondary, #64748b);">Không thể tải dữ liệu ${LEVELS[level].label}.</p>
+        <button type="button" class="dashboard-primary-btn" onclick="selectLevel('${level}')">Thử lại ↻</button>
+      </div>`;
     return;
   }
 
-  document.getElementById('overviewTab').disabled = false;
-  order = Array.from({length: WORDS.length}, (_, i) => i);
-  progress = {};
-  showPinyin = true;
-  currentFilter = 'all';
-  idx = 0;
+  try {
+    document.getElementById('overviewTab').disabled = false;
+    order = Array.from({length: WORDS.length}, (_, i) => i);
+    progress = {};
+    showPinyin = true;
+    currentFilter = 'all';
+    idx = 0;
 
-  loadState();
+    loadState();
 
-  buildCardArea();
-  renderFilters();
+    buildCardArea();
+    renderFilters();
 
-  currentView = 'cards';
-  const studyView = document.getElementById('studyView');
-  const overviewView = document.getElementById('overviewView');
-  if (studyView) studyView.hidden = false;
-  if (overviewView) overviewView.hidden = true;
-  const flashcardTab = document.getElementById('flashcardTab');
-  const overviewTab = document.getElementById('overviewTab');
-  if (flashcardTab) {
-    flashcardTab.classList.add('active');
-    flashcardTab.setAttribute('aria-selected', 'true');
-  }
-  if (overviewTab) {
-    overviewTab.classList.remove('active');
-    overviewTab.setAttribute('aria-selected', 'false');
-  }
-
-  if (transitionTimer) {
-    clearTimeout(transitionTimer);
-    transitionTimer = null;
-  }
-
-  if (targetWordIdOrHanzi) {
-    const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
-    if (targetIdx >= 0) {
-      currentFilter = 'all';
-      filteredOrder = order.slice();
-      const pos = filteredOrder.indexOf(targetIdx);
-      idx = pos >= 0 ? pos : 0;
+    currentView = 'cards';
+    const studyView = document.getElementById('studyView');
+    const overviewView = document.getElementById('overviewView');
+    if (studyView) studyView.hidden = false;
+    if (overviewView) overviewView.hidden = true;
+    const flashcardTab = document.getElementById('flashcardTab');
+    const overviewTab = document.getElementById('overviewTab');
+    if (flashcardTab) {
+      flashcardTab.classList.add('active');
+      flashcardTab.setAttribute('aria-selected', 'true');
     }
-  } else if (filteredOrder.length > 0) {
-    // Start with a completely random word whenever entering flashcard study mode
-    idx = Math.floor(Math.random() * filteredOrder.length);
-  }
+    if (overviewTab) {
+      overviewTab.classList.remove('active');
+      overviewTab.setAttribute('aria-selected', 'false');
+    }
 
-  // Instant-Load Preloading: Trigger deck-wide progressive background preloading anchored at current idx
-  if (typeof preloadDeckIllustrations === 'function') {
-    preloadDeckIllustrations(WORDS, idx, filteredOrder);
-  } else if (typeof preloadWordsIllustrations === 'function') {
-    preloadWordsIllustrations(WORDS, 50);
-  }
+    if (transitionTimer) {
+      clearTimeout(transitionTimer);
+      transitionTimer = null;
+    }
 
-  render();
-
-  if (targetWordIdOrHanzi) {
-    const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
-    if (targetIdx >= 0) {
-      setActiveStudyWord(WORDS[targetIdx]);
-      if (autoReveal && typeof flip === 'function') {
-        const meaning = document.getElementById('meaning');
-        if (meaning && !meaning.classList.contains('show')) {
-          flip();
-        }
+    if (targetWordIdOrHanzi) {
+      const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
+      if (targetIdx >= 0) {
+        currentFilter = 'all';
+        filteredOrder = order.slice();
+        const pos = filteredOrder.indexOf(targetIdx);
+        idx = pos >= 0 ? pos : 0;
       }
-      setTimeout(() => {
-        const listBtn = document.querySelector(`.study-word-list-item[data-word-index="${targetIdx}"]`);
-        if (listBtn) listBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      }, 100);
+    } else if (filteredOrder.length > 0) {
+      idx = Math.floor(Math.random() * filteredOrder.length);
     }
+
+    if (typeof preloadDeckIllustrations === 'function') {
+      preloadDeckIllustrations(WORDS, idx, filteredOrder);
+    } else if (typeof preloadWordsIllustrations === 'function') {
+      preloadWordsIllustrations(WORDS, 50);
+    }
+
+    render();
+
+    if (targetWordIdOrHanzi) {
+      const targetIdx = WORDS.findIndex(w => (w.id && String(w.id) === String(targetWordIdOrHanzi)) || w.hanzi === targetWordIdOrHanzi);
+      if (targetIdx >= 0) {
+        setActiveStudyWord(WORDS[targetIdx]);
+        if (autoReveal && typeof flip === 'function') {
+          const meaning = document.getElementById('meaning');
+          if (meaning && !meaning.classList.contains('show')) {
+            flip();
+          }
+        }
+        setTimeout(() => {
+          const listBtn = document.querySelector(`.study-word-list-item[data-word-index="${targetIdx}"]`);
+          if (listBtn) listBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        }, 100);
+      }
+    }
+  } catch (renderError) {
+    console.error('Error initializing cards view:', renderError);
+    if (reqId !== selectLevelRequestId || currentLevel !== level) return;
+    document.getElementById('cardArea').innerHTML = `
+      <div class="card-load-error" style="text-align:center; padding: 48px 20px;">
+        <p style="margin-bottom: 16px; font-weight: 600; color: var(--text-secondary, #64748b);">Có lỗi hiển thị thẻ bài.</p>
+        <button type="button" class="dashboard-primary-btn" onclick="selectLevel('${level}')">Tải lại thẻ ↻</button>
+      </div>`;
   }
 }
 

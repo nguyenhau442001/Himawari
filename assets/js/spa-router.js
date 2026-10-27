@@ -8,7 +8,9 @@ const SpaRouter = (function() {
   function getCurrentUrlState() {
     const params = new URLSearchParams(window.location.search);
     if (params.has('level')) {
-      return { view: 'cards', level: params.get('level') };
+      const rawLevel = params.get('level');
+      const canonical = typeof canonicalizeLevel === 'function' ? canonicalizeLevel(rawLevel) : rawLevel;
+      return { view: 'cards', level: canonical };
     }
     if (params.has('tab')) {
       const tab = params.get('tab');
@@ -37,7 +39,8 @@ const SpaRouter = (function() {
       return themeParam ? `${base}?${themeParam.slice(1)}` : base;
     }
     if (state.view === 'cards' && state.level) {
-      return `${base}?level=${encodeURIComponent(state.level)}${themeParam}`;
+      const lvl = typeof canonicalizeLevel === 'function' ? canonicalizeLevel(state.level) : state.level;
+      return `${base}?level=${encodeURIComponent(lvl)}${themeParam}`;
     }
     if (state.view === 'tab' && state.tab && state.tab !== 'vocab') {
       if (state.tab === 'gradedReading' && state.story) {
@@ -161,13 +164,14 @@ const SpaRouter = (function() {
         if (typeof closeTodayReviews === 'function') closeTodayReviews();
       }
     } else if (state.view === 'cards') {
-      if (state.level) {
-        if (typeof currentLevel === 'undefined' || currentLevel !== state.level) {
-          if (typeof selectLevel === 'function') selectLevel(state.level);
+      const canonicalLvl = typeof canonicalizeLevel === 'function' ? canonicalizeLevel(state.level) : state.level;
+      if (canonicalLvl) {
+        if (typeof currentLevel === 'undefined' || currentLevel !== canonicalLvl) {
+          if (typeof selectLevel === 'function') selectLevel(canonicalLvl);
         } else {
           const screenCards = document.getElementById('screenCards');
           if (screenCards && screenCards.style.display === 'none') {
-            if (typeof selectLevel === 'function') selectLevel(state.level);
+            if (typeof selectLevel === 'function') selectLevel(canonicalLvl);
           }
         }
       }

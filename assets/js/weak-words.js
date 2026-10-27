@@ -127,7 +127,8 @@ async function enrichMissingWeakWordMetadata(list) {
         }
       }
 
-      const levelKey = w.level || (typeof currentLevel !== 'undefined' ? currentLevel : 'hsk4');
+      const rawLevel = w.level || (typeof currentLevel !== 'undefined' && currentLevel ? currentLevel : 'jlpt_n3');
+      const levelKey = typeof canonicalizeLevel === 'function' ? canonicalizeLevel(rawLevel) : rawLevel;
       const cfg = typeof LEVELS !== 'undefined' ? LEVELS[levelKey] : null;
       if (cfg && cfg.dataUrl) {
         try {

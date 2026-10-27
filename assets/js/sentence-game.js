@@ -2,7 +2,7 @@
 // Features HSK level filter, cumulative/exact scope, focus mode, smart distractors, and pinyin toggle.
 
 let sentenceBankData = null;
-let sentenceGameLevel = 'hsk1';
+let sentenceGameLevel = 'all';
 let sentenceGameScope = 'cumulative';
 let sentenceGameFocusMode = false;
 let sentenceGameShowPinyin = true;
@@ -114,7 +114,8 @@ async function startSentenceGame() {
   if (bankEl) bankEl.innerHTML = '<div class="loading-text">Đang tải ngân hàng câu hỏi...</div>';
 
   try {
-    const savedLevel = localStorage.getItem('hsk_sentence_lvl');
+    let savedLevel = localStorage.getItem('hsk_sentence_lvl');
+    if (savedLevel && savedLevel.startsWith('hsk')) savedLevel = 'jlpt_n3';
     if (savedLevel) sentenceGameLevel = savedLevel;
     const savedScope = localStorage.getItem('hsk_sentence_scope');
     if (savedScope) sentenceGameScope = savedScope;
