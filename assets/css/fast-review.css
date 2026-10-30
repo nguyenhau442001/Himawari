@@ -240,9 +240,9 @@ body.review-focus-mode #reviewResult {
 .review-streak-pill {
   font-size: 13px;
   font-weight: 800;
-  color: #ea580c;
-  background: #fff7ed;
-  border: 1px solid #fed7aa;
+  color: var(--accent);
+  background: var(--accent-light);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
   padding: 4px 10px;
   border-radius: 999px;
   display: inline-flex;
@@ -252,9 +252,9 @@ body.review-focus-mode #reviewResult {
 }
 :root[data-theme="dark"] .review-streak-pill,
 body.dark-mode .review-streak-pill {
-  background: #431407;
-  border-color: #7c2d12;
-  color: #fdba74;
+  background: rgba(244, 167, 185, 0.16);
+  border-color: rgba(244, 167, 185, 0.35);
+  color: #F4A7B9;
 }
 
 /* Gamified Hearts / Lives */

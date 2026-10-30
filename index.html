@@ -7,7 +7,7 @@
 <link rel="manifest" href="config/pwa-manifest.json">
 <link rel="icon" href="assets/images/favicon.png"> <!-- favicon: tab/bookmark, simplified for small size -->
 <link rel="apple-touch-icon" href="assets/images/icon-512.png"> <!-- iOS home screen shortcut icon -->
-<meta name="theme-color" content="#c05638">
+<meta name="theme-color" content="#0D1117">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -30,9 +30,9 @@ if ('serviceWorker' in navigator) {
     banner.id = 'pwaUpdateBanner';
     banner.setAttribute('role', 'status');
     banner.setAttribute('aria-live', 'polite');
-    banner.style.cssText = 'position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:99999;background:var(--card-bg, #1e293b);color:var(--text-primary, #fff);padding:10px 18px;border-radius:12px;border:1px solid var(--accent, #c05638);box-shadow:0 6px 24px rgba(0,0,0,0.28);display:flex;align-items:center;gap:12px;font-size:13px;font-weight:600;max-width:90vw;animation:welcomeToastIn 0.25s ease;';
-    banner.innerHTML = '<span>🌻 Có phiên bản Himawari mới!</span>' +
-      '<button type="button" id="pwaReloadBtn" style="background:var(--accent, #c05638);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;">Cập nhật ngay</button>' +
+    banner.style.cssText = 'position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:99999;background:var(--surface-elevated, #202735);color:var(--text-primary, #F8F5F4);padding:10px 18px;border-radius:12px;border:1px solid var(--accent, #F4A7B9);box-shadow:0 6px 24px rgba(0,0,0,0.38);display:flex;align-items:center;gap:12px;font-size:13px;font-weight:600;max-width:90vw;animation:welcomeToastIn 0.25s ease;';
+    banner.innerHTML = '<span>🌸 Có phiên bản Himawari mới!</span>' +
+      '<button type="button" id="pwaReloadBtn" style="background:var(--accent, #F4A7B9);color:var(--on-accent, #171D27);border:none;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;">Cập nhật ngay</button>' +
       '<button type="button" id="pwaDismissBtn" aria-label="Đóng" style="background:none;border:none;color:var(--text-secondary, #94a3b8);font-size:16px;cursor:pointer;padding:0 4px;">✕</button>';
     document.body.appendChild(banner);
     document.getElementById('pwaReloadBtn').onclick = function() {

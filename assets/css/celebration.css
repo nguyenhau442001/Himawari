@@ -207,7 +207,7 @@
   color: var(--success-text, #2f6e3e);
 }
 .celebration-stat-pill--unknown .celebration-stat-val {
-  color: var(--accent, #c05638);
+  color: var(--accent, #F4A7B9);
 }
 .celebration-stat-name {
   font-size: 11.5px;
@@ -237,9 +237,9 @@
   border: none;
 }
 .celebration-btn--primary {
-  background: var(--accent-gradient, linear-gradient(135deg, #c85e40 0%, #ad4a2f 100%));
-  color: #ffffff;
-  box-shadow: 0 4px 14px rgba(192, 86, 56, 0.35);
+  background: var(--accent-gradient, linear-gradient(135deg, #F4A7B9 0%, #D96C91 100%));
+  color: var(--on-accent, #171D27);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 35%, transparent);
 }
 .celebration-btn--primary:hover {
   filter: brightness(1.08);
@@ -404,7 +404,7 @@
   color: var(--success-text, #2f6e3e);
 }
 .hero-stat-card--unknown .hero-stat-num {
-  color: var(--accent, #c05638);
+  color: var(--accent, #F4A7B9);
 }
 .hero-stat-label {
   font-size: 12px;
@@ -436,9 +436,9 @@
   border: 1px solid transparent;
 }
 .empty-btn--primary {
-  background: var(--accent-gradient, linear-gradient(135deg, #c85e40 0%, #ad4a2f 100%));
-  color: #ffffff;
-  box-shadow: 0 4px 14px rgba(192, 86, 56, 0.3);
+  background: var(--accent-gradient, linear-gradient(135deg, #F4A7B9 0%, #D96C91 100%));
+  color: var(--on-accent, #171D27);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 30%, transparent);
 }
 .empty-btn--primary:hover {
   filter: brightness(1.08);

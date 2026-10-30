@@ -831,17 +831,17 @@ body.is-game-view .featured-topics {
   font-weight: 700;
   padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(234, 88, 12, 0.12);
-  color: #ea580c;
-  border: 1px solid rgba(234, 88, 12, 0.25);
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 :root[data-theme="dark"] .guess-word-level-badge {
-  background: rgba(251, 146, 60, 0.15);
-  color: #fb923c;
-  border-color: rgba(251, 146, 60, 0.3);
+  background: var(--accent-light);
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 35%, transparent);
 }
 
 .guess-word-counter {
@@ -1237,17 +1237,17 @@ body.is-game-view .featured-topics {
   font-weight: 700;
   padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(234, 88, 12, 0.12);
-  color: #ea580c;
-  border: 1px solid rgba(234, 88, 12, 0.25);
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 :root[data-theme="dark"] .speed-quiz-badge {
-  background: rgba(251, 146, 60, 0.15);
-  color: #fb923c;
-  border-color: rgba(251, 146, 60, 0.3);
+  background: var(--accent-light);
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 35%, transparent);
 }
 
 .speed-quiz-exit-btn {
@@ -1326,7 +1326,7 @@ body.is-game-view .featured-topics {
 .speed-quiz-timer-bar {
   height: 100%;
   width: 100%;
-  background: linear-gradient(90deg, #f97316 0%, #ea580c 100%);
+  background: var(--accent-gradient, var(--accent));
   border-radius: 999px;
   transition: width 0.1s linear, background-color 0.25s ease;
 }

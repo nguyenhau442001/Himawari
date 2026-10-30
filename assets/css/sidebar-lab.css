@@ -37,18 +37,18 @@
   align-items: center;
   font-size: 13.5px;
   font-weight: 700;
-  color: #fb923c;
-  background: rgba(249, 115, 22, 0.14);
+  color: var(--accent);
+  background: var(--accent-light);
   padding: 4px 12px;
   border-radius: 999px;
-  border: 1px solid rgba(249, 115, 22, 0.32);
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, transparent);
   white-space: nowrap;
   line-height: 1.3;
 }
 :root[data-theme="light"] .stroke-char-badge {
-  color: #ea580c;
-  background: rgba(234, 88, 12, 0.1);
-  border-color: rgba(234, 88, 12, 0.28);
+  color: var(--accent-text, var(--accent));
+  background: var(--accent-light);
+  border-color: color-mix(in srgb, var(--accent) 28%, transparent);
 }
 
 .stroke-canvas-body {
@@ -91,14 +91,14 @@
   border-color: rgba(255, 255, 255, 0.1);
 }
 .stroke-char-switch-btn:hover {
-  border-color: #f97316;
+  border-color: var(--accent);
   color: var(--text-primary);
 }
 .stroke-char-switch-btn.active {
-  background: rgba(249, 115, 22, 0.15);
-  border-color: #f97316;
+  background: var(--accent-light);
+  border-color: var(--accent);
   color: var(--text-primary);
-  box-shadow: 0 2px 10px rgba(249, 115, 22, 0.18);
+  box-shadow: 0 2px 10px color-mix(in srgb, var(--accent) 20%, transparent);
 }
 .stroke-char-switch-btn.is-done {
   border-color: var(--success);
@@ -109,10 +109,10 @@
   color: var(--text-tertiary);
 }
 .stroke-char-switch-btn.active .char-switch-num {
-  color: #fb923c;
+  color: var(--accent);
 }
 :root[data-theme="light"] .stroke-char-switch-btn.active .char-switch-num {
-  color: #ea580c;
+  color: var(--accent-text, var(--accent));
 }
 .char-switch-hanzi {
   font-size: 21px;
@@ -163,13 +163,13 @@
   user-select: none;
 }
 :root[data-theme="dark"] .stroke-canvas-grid {
-  background-color: #12141e;
-  border-color: rgba(249, 115, 22, 0.5);
+  background-color: var(--bg, #0D1117);
+  border-color: color-mix(in srgb, var(--accent) 50%, transparent);
   box-shadow: 0 12px 30px -8px rgba(0, 0, 0, 0.55);
 }
 .stroke-canvas-grid:hover {
-  border-color: #f97316;
-  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.22);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
 }
 .stroke-canvas-grid.is-quiz-mode {
   cursor: crosshair;
@@ -217,8 +217,8 @@
   fill: #334155;
 }
 .stage-stroke-active {
-  fill: #f97316;
-  filter: drop-shadow(0 0 6px rgba(249, 115, 22, 0.35));
+  fill: var(--accent);
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 35%, transparent));
 }
 
 .stroke-guide-line-halo {
@@ -253,13 +253,13 @@
 }
 
 .stroke-guide-badge-circle {
-  fill: #f97316;
+  fill: var(--accent);
   stroke: #fde047;
   stroke-width: 2.2px;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.45));
 }
 :root[data-theme="light"] .stroke-guide-badge-circle {
-  fill: #ea580c;
+  fill: var(--accent);
   stroke: #ffffff;
   stroke-width: 2.2px;
 }
@@ -304,8 +304,8 @@
   align-items: center;
   padding: 2px 10px;
   border-radius: 999px;
-  background: #f97316;
-  color: #ffffff;
+  background: var(--accent);
+  color: var(--on-accent, #171D27);
   font-size: 12.5px;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -325,14 +325,14 @@
   height: 24px;
   padding: 0 5px;
   border-radius: 6px;
-  background: rgba(249, 115, 22, 0.15);
-  border: 1px solid rgba(249, 115, 22, 0.35);
-  color: #fb923c;
+  background: var(--accent-light);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  color: var(--accent);
   font-size: 14.5px;
   font-weight: 800;
 }
 :root[data-theme="light"] .stroke-focus-symbol {
-  color: #ea580c;
+  color: var(--accent-text, var(--accent));
 }
 .stroke-focus-hint {
   font-size: 13px;
@@ -353,7 +353,7 @@
 .stroke-focus-progress-fill {
   height: 100%;
   border-radius: 999px;
-  background: linear-gradient(90deg, #f97316 0%, #fbbf24 100%);
+  background: var(--accent-gradient, var(--accent));
   transition: width 0.25s ease;
 }
 .stroke-focus-nav {
@@ -384,12 +384,12 @@
   border-color: rgba(255, 255, 255, 0.12);
 }
 .stroke-step-nav-btn:hover:not(:disabled) {
-  border-color: #f97316;
-  background: rgba(249, 115, 22, 0.14);
-  color: #fb923c;
+  border-color: var(--accent);
+  background: var(--accent-light);
+  color: var(--accent);
 }
 :root[data-theme="light"] .stroke-step-nav-btn:hover:not(:disabled) {
-  color: #ea580c;
+  color: var(--accent-text, var(--accent));
 }
 .stroke-step-nav-btn:disabled {
   opacity: 0.35;
@@ -433,16 +433,16 @@
   border-color: rgba(255, 255, 255, 0.12);
 }
 .stroke-canvas-controls .stroke-ctrl-btn:hover:not(:disabled) {
-  border-color: #f97316;
-  background: rgba(249, 115, 22, 0.14);
-  color: #fb923c;
+  border-color: var(--accent);
+  background: var(--accent-light);
+  color: var(--accent);
   transform: translateY(-1px);
 }
 .stroke-canvas-controls .stroke-ctrl-btn.active {
-  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
-  color: #ffffff;
-  border-color: #f97316;
-  box-shadow: 0 4px 14px rgba(249, 115, 22, 0.35);
+  background: var(--accent-gradient, var(--accent));
+  color: var(--on-accent, #171D27);
+  border-color: var(--accent);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 35%, transparent);
 }
 .stroke-canvas-controls .stroke-ctrl-btn:disabled {
   opacity: 0.45;
@@ -612,9 +612,9 @@
   transition: all 0.15s ease;
 }
 .companion-sound-btn:hover {
-  background: rgba(249, 115, 22, 0.14);
-  color: #fb923c;
-  border-color: #f97316;
+  background: var(--accent-light);
+  color: var(--accent);
+  border-color: var(--accent);
 }
 .companion-example-card {
   padding: 14px 16px;

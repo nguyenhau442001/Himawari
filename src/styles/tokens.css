@@ -1,38 +1,40 @@
-/* tokens.css - Core Design Tokens for Himawari JLPT */
+/* tokens.css - Core Design Tokens for Himawari JLPT (Sakura Theme) */
 :root {
   /* Surfaces */
-  --bg-canvas: #f8fafc;
-  --bg-surface: #ffffff;
-  --bg-elevated: #f1f5f9;
+  --bg-canvas: #f5f0e8;
+  --bg-surface: #fffcf7;
+  --bg-elevated: #ffffff;
 
   /* Typography Colors */
-  --text-primary: #0f172a;
-  --text-secondary: #334155;
-  --text-tertiary: #475569;
-  --text-muted: #64748b;
+  --text-primary: #292724;
+  --text-secondary: #5c5854;
+  --text-tertiary: #8c8680;
+  --text-muted: #8c8680;
 
   /* Borders & Dividers */
-  --border-subtle: #e2e8f0;
-  --border-strong: #cbd5e1;
+  --border-subtle: #e7dcce;
+  --border-strong: #d5c7b5;
 
-  /* Brand & Accent (Sunflower Gold / Warm Terracotta) */
-  --brand-primary: #d97706;
-  --brand-primary-hover: #b45309;
-  --accent: #d97706;
-  --accent-hover: #b45309;
-  --accent-light: #fffbeb;
+  /* Brand & Accent (Sakura & Wagashi) */
+  --brand-primary: #d96c91;
+  --brand-primary-hover: #c5567d;
+  --accent: #d96c91;
+  --accent-hover: #c5567d;
+  --accent-soft: #f8d7df;
+  --accent-light: #fbf0f3;
   --on-accent: #ffffff;
 
   /* Semantic Status */
-  --status-success: #16a34a;
-  --status-warning: #d97706;
+  --status-success: #5b7250;
+  --status-success-dark: #4a5f40;
+  --status-warning: #b45309;
   --status-danger: #dc2626;
-  --status-info: #2563eb;
+  --status-info: #7c5fb5;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 1px 2px -1px rgba(15, 23, 42, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
-  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 3px 0 rgba(41, 39, 36, 0.08), 0 1px 2px -1px rgba(41, 39, 36, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(41, 39, 36, 0.08), 0 2px 4px -2px rgba(41, 39, 36, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(41, 39, 36, 0.08), 0 4px 6px -4px rgba(41, 39, 36, 0.04);
 
   /* Radii */
   --radius-sm: 6px;
@@ -47,29 +49,32 @@
 }
 
 :root[data-theme="dark"] {
-  --bg-canvas: #0f172a;
-  --bg-surface: #1e293b;
-  --bg-elevated: #334155;
+  --bg-canvas: #0D1117;
+  --bg-surface: #171D27;
+  --bg-elevated: #202735;
 
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-tertiary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #F8F5F4;
+  --text-secondary: #A7A9B5;
+  --text-tertiary: #707989;
+  --text-muted: #707989;
 
-  --border-subtle: #334155;
-  --border-strong: #475569;
+  --border-subtle: #35303A;
+  --border-strong: #484250;
 
-  --brand-primary: #f59e0b;
-  --brand-primary-hover: #fbbf24;
-  --accent: #f59e0b;
-  --accent-hover: #fbbf24;
-  --accent-light: #292013;
-  --on-accent: #ffffff;
+  --brand-primary: #F4A7B9;
+  --brand-primary-hover: #E88DA8;
+  --accent: #F4A7B9;
+  --accent-hover: #E88DA8;
+  --accent-soft: #F8D7DF;
+  --accent-deep: #D96C91;
+  --accent-light: rgba(244, 167, 185, 0.14);
+  --on-accent: #171D27;
 
-  --status-success: #4ade80;
+  --status-success: #A8B89A;
+  --status-success-dark: #758B68;
   --status-warning: #fbbf24;
   --status-danger: #f87171;
-  --status-info: #60a5fa;
+  --status-info: #B8A5E3;
 
   --shadow-sm: 0 2px 6px -1px rgba(0, 0, 0, 0.35);
   --shadow-md: 0 4px 12px -2px rgba(0, 0, 0, 0.45);

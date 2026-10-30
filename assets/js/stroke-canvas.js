@@ -27,7 +27,7 @@ function getStrokeColors() {
   return {
     isDark,
     strokeColor: isDark ? '#f1f5f9' : '#1e293b',
-    radicalColor: isDark ? '#fb923c' : '#ea580c',
+    radicalColor: isDark ? '#F4A7B9' : '#D96C91',
     outlineColor: isDark ? '#2d3246' : '#e2e8f0',
   };
 }
