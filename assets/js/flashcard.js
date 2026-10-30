@@ -6,9 +6,9 @@ function getCardHintText(isFlipped) {
     (navigator.maxTouchPoints > 0)
   );
   if (isTouch) {
-    return isFlipped ? 'Chạm vào thẻ để ẩn' : 'Chạm vào thẻ để xem nghĩa';
+    return isFlipped ? 'Chạm để lật lại' : 'Chạm để lật';
   }
-  return isFlipped ? 'Nhấn vào thẻ hoặc Space để ẩn' : 'Nhấn vào thẻ hoặc phím Space để xem nghĩa';
+  return isFlipped ? 'Chạm để lật lại · Space' : 'Chạm để lật · Space';
 }
 window.getCardHintText = getCardHintText;
 
@@ -16,15 +16,8 @@ function buildCardArea() {
   document.getElementById('cardArea').innerHTML = `
     <div class="card" id="card">
       <div class="card-header-bar" id="cardHeaderBar" onclick="event.stopPropagation()">
-        <div class="card-header-nav">
-          <button type="button" class="card-header-nav-btn" onclick="prevCard()" aria-label="Từ trước" title="Từ trước (←)">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
-          </button>
-          <span class="card-position-badge" id="cardPositionBadge">0 / 0</span>
-          <button type="button" class="card-header-nav-btn" onclick="nextCard()" aria-label="Từ tiếp theo" title="Từ tiếp theo (→)">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
-          </button>
-        </div>
+        <span class="card-position-pill card-position-badge" id="cardPositionBadge">0 / 0</span>
+        <button type="button" class="card-star-btn" id="weakWordToggleBtn" style="display:none" hidden aria-hidden="true"></button>
         <div class="card-more-menu-wrap" id="cardMoreMenuWrap">
           <button type="button" class="card-more-btn" id="cardMoreBtn" onclick="toggleCardMoreMenu(event)" aria-label="Tùy chọn học từ" aria-haspopup="menu" aria-expanded="false" title="Tùy chọn khác">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -40,7 +33,7 @@ function buildCardArea() {
             </button>
             <button type="button" class="card-dropdown-item" id="menuTogglePinyin" onclick="togglePinyin(); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon" id="menuPinyinIcon">👁️</span>
-              <span class="dropdown-item-label" id="menuPinyinText">Ẩn / Hiện pinyin</span>
+              <span class="dropdown-item-label" id="menuPinyinText">Ẩn / Hiện cách đọc</span>
             </button>
             <button type="button" class="card-dropdown-item" id="menuToggleWeak" onclick="toggleWeakWord(activeStudyWord && activeStudyWord.hanzi, currentLevel); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon" id="menuWeakIcon">⭐</span>
@@ -54,9 +47,17 @@ function buildCardArea() {
               <span class="dropdown-item-icon">漢</span>
               <span class="dropdown-item-label" id="menuHanvietText">Âm Hán - Việt</span>
             </button>
-            <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(); closeCardMoreMenu();" role="menuitem">
+            <button type="button" class="card-dropdown-item" id="menuStudyHelp" onclick="if (typeof openStudyHelpModal === 'function') openStudyHelpModal(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">❓</span>
+              <span class="dropdown-item-label">Hướng dẫn &amp; phím tắt</span>
+            </button>
+            <button type="button" class="card-dropdown-item" id="menuTransfer" onclick="toggleTransferPanel(true); closeCardMoreMenu();" role="menuitem">
               <span class="dropdown-item-icon">💾</span>
               <span class="dropdown-item-label">Sao lưu tiến trình</span>
+            </button>
+            <button type="button" class="card-dropdown-item card-dropdown-item--danger" id="menuResetProgress" onclick="resetProgress(); closeCardMoreMenu();" role="menuitem">
+              <span class="dropdown-item-icon">↻</span>
+              <span class="dropdown-item-label">Học lại từ đầu</span>
             </button>
           </div>
         </div>
@@ -64,32 +65,41 @@ function buildCardArea() {
       <div class="swipe-badge swipe-badge--known" id="swipeBadgeKnown">✓ Đã nhớ</div>
       <div class="swipe-badge swipe-badge--unknown" id="swipeBadgeUnknown">✗ Chưa nhớ</div>
       <div id="cardContent" class="card-content">
-        <div class="word-main-block split-layout" id="wordMainBlock">
-          <!-- Cột trái: Hình ảnh minh họa / Neo thị giác (Visual Mnemonic) -->
-          <div class="card-visual-col" id="cardVisualCol">
+        <div class="word-hero-container" id="wordMainBlock">
+          <!-- Chữ Hán to bản ở trung tâm (Focal Point chính) -->
+          <div class="hanzi-stage" id="hanziStage" onclick="event.stopPropagation(); if (typeof toggleStudyWritingPanel === 'function') toggleStudyWritingPanel(true);" title="Nhấn để luyện viết chữ Hán (W)">
+            <div class="hanzi" id="hanzi"></div>
+          </div>
+
+          <!-- Mỏ neo gợi hình: Hiển thị ngay mặt trước khi có ảnh -->
+          <div class="card-visual-col" id="cardVisualCol" style="display: none;">
             <div class="card-illustration-frame" id="cardIllustrationFrame" title="Minh họa gợi hình">
-              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" hidden>
+              <img class="card-illustration-img" id="cardIllustrationImg" alt="Minh họa gợi hình" style="display: none;">
               <div class="card-illustration-svg" id="cardIllustrationSvg"></div>
             </div>
           </div>
 
-          <!-- Cột phải: Chữ Hán, Pinyin, Từ loại & Nghĩa -->
-          <div class="card-content-col" id="cardContentCol">
-            <div class="hanzi" id="hanzi"></div>
-            <div class="pinyin-row" id="pinyinRow">
-              <div class="pinyin" id="pinyin"></div>
-              <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
-              <span class="pos-badge" id="posBadge" title="Từ loại"></span>
-              <button class="sound-btn speech-btn" id="soundBtn" type="button"
-                onclick="event.stopPropagation(); speakWord()"
-                aria-label="Nghe phát âm" aria-live="polite" title="Nghe phát âm (A)">
-                <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-              </button>
-            </div>
-            <div class="meaning" id="meaning"></div>
-            <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
+          <!-- Cách đọc + Loa phát âm (Chỉ hiển thị sau khi lật) -->
+          <div class="pinyin-row" id="pinyinRow">
+            <span class="pinyin" id="pinyin"></span>
+            <button class="sound-btn speech-btn" id="soundBtn" type="button"
+              onclick="event.stopPropagation(); speakWord()"
+              aria-label="Nghe phát âm" aria-live="polite" title="Nghe phát âm (A)">
+              <svg class="sound-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+            </button>
           </div>
+
+          <!-- Nghĩa tiếng Việt & Ngữ cảnh từ loại / Hán Việt (Chỉ hiển thị sau khi lật) -->
+          <div class="meaning" id="meaning"></div>
+          <div class="meta-badges-row" id="metaBadgesRow">
+            <span class="pos-badge" id="posBadge" title="Từ loại"></span>
+            <span class="hanviet-badge" id="hanvietBadge" title="Âm Hán - Việt"></span>
+          </div>
+
+          <div class="card-supporting-group" id="cardSupportingGroup" style="display: none;"></div>
         </div>
+
+        <!-- Khối ví dụ thực tế (Chỉ hiển thị sau khi lật) -->
         <div class="example-box" id="exampleBox">
           <div class="ex-header-row">
             <span class="ex-label">Ví dụ</span>
@@ -122,22 +132,81 @@ function buildCardArea() {
           <div class="ex-line ex-py" id="exPy"></div>
           <div class="ex-line ex-vi" id="exVi"></div>
         </div>
-        <div class="hint" id="hint">${getCardHintText(false)}</div>
+
+        <!-- Khối mở rộng học sâu: Accordion Cấu tạo chữ (thu gọn mặc định) -->
+        <div class="card-expandable-group" id="cardExpandableGroup">
+          <details class="card-accordion" id="cardDecompAccordion" onclick="event.stopPropagation()" style="display: none;">
+            <summary class="card-accordion-summary" onclick="event.stopPropagation()">
+              <span class="accordion-left">
+                <span class="accordion-icon" aria-hidden="true">🧩</span>
+                <span class="accordion-title">Cấu tạo chữ</span>
+              </span>
+              <span class="accordion-chevron" aria-hidden="true">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </summary>
+            <div class="card-accordion-body" id="cardDecompositionWrap">
+              <div class="card-radicals-row card-interactive" id="cardRadicalsRow" onclick="event.stopPropagation()"></div>
+            </div>
+          </details>
+        </div>
+
+        <div class="card-flip-prompt" id="cardFlipPrompt" onclick="flip()" role="button" tabindex="0" aria-label="Lật thẻ">
+          <span class="card-flip-prompt-icon" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
+            </svg>
+          </span>
+          <span class="hint card-flip-prompt-text" id="hint">${getCardHintText(false)}</span>
+        </div>
         <div class="card-empty-state card-interactive" id="cardEmptyState" hidden></div>
       </div>
     </div>
 
-    <div class="nav-row" id="studyNavRow">
-      <button type="button" class="nav-btn nav-btn--prev" onclick="prevCard()" title="Từ trước (←)">← Trước</button>
-      <span class="card-counter" id="cardCounter">0 / 0</span>
-      <button type="button" class="nav-btn nav-btn--next" onclick="nextCard()" title="Từ tiếp theo (→)">Tiếp →</button>
-    </div>
-
+    <!-- Rating actions row: Subtle Filled Buttons with height >= 48px & keyboard shortcuts 1 and 2 -->
     <div class="rating-area" id="ratingArea">
       <div class="rating-row" id="ratingRow" hidden>
         ${ratingButtonsHtml('rateCurrentCard', 'preview-')}
       </div>
     </div>
+
+    <!-- Tactile study navigation controls: Previous, Counter, Next -->
+    <nav class="study-nav-controls" id="studyNavRow" aria-label="Điều hướng thẻ từ vựng">
+      <button type="button" class="study-nav-btn study-nav-btn--prev nav-btn nav-btn--prev" id="prevCardBtn" onclick="prevCard()" title="Từ trước (phím ←)" aria-label="Từ trước">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M19 12H5m7 7l-7-7 7-7"/>
+        </svg>
+        <span>Trước</span>
+      </button>
+      <div class="study-nav-position" id="studyNavPosition" aria-live="polite">
+        <span class="study-nav-current" id="studyNavCurrent">1</span>
+        <span class="study-nav-sep" aria-hidden="true">/</span>
+        <span class="study-nav-total" id="studyNavTotal">1</span>
+      </div>
+      <button type="button" class="study-nav-btn study-nav-btn--next nav-btn nav-btn--next" id="nextCardBtn" onclick="nextCard()" title="Từ tiếp theo (phím →)" aria-label="Từ tiếp theo">
+        <span>Tiếp</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14m-7-7l7 7-7 7"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div class="action-row secondary-actions" style="display:none" hidden>
+      <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
+        aria-controls="unknownWordsList" aria-expanded="false">
+        Hiển thị từ chưa nhớ
+      </button>
+      <button class="reset-progress-btn" type="button" onclick="resetProgress()">↻ Học lại từ đầu</button>
+    </div>
+    <div id="dailyNewLimitMessage" class="daily-new-limit-message" role="status"></div>
+    <div class="unknown-words-list" id="unknownWordsList"></div>
+  `;
+  updateCardMoreMenuState();
+  if (typeof updateWeakWordToggleButton === 'function') updateWeakWordToggleButton();
+  updateProgress();
+  updateCardPosition();
+  initSwipe();
+}
 
     <div class="action-row secondary-actions">
       <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
@@ -353,13 +422,18 @@ function ratingButtonsHtml(handlerName, previewIdPrefix, previews) {
     const iconSvg = button.rating === 'again'
       ? `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
       : `<svg class="rating-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
-    const titleText = `Đánh giá: ${button.label}${intervalText ? ` (${intervalText})` : ''} • Phím [${button.key}] hoặc [${shortcutArrow}]`;
+    const titleText = `${button.label}${intervalText ? ` (${intervalText})` : ''} • Phím [${button.key}] hoặc [${shortcutArrow}]`;
     return `
     <button type="button" class="rating-btn rating-btn--${button.rating}"
       onclick="${handlerName}('${button.rating}')" aria-keyshortcuts="${button.key}"
       title="${titleText}">
       <span class="rating-icon-wrap" aria-hidden="true">${iconSvg}</span>
       <span class="rating-label">${button.label}</span>
+      <span class="rating-kbd-badge" aria-hidden="true">
+        <kbd>${button.key}</kbd>
+        <span class="rating-kbd-sep">/</span>
+        <kbd>${shortcutArrow}</kbd>
+      </span>
     </button>`;
   }).join('');
 }
@@ -462,6 +536,11 @@ function updateProgress(current, total) {
 function updateCardPosition() {
   const badge = document.getElementById('cardPositionBadge');
   const counter = document.getElementById('cardCounter');
+  const navCurrent = document.getElementById('studyNavCurrent');
+  const navTotal = document.getElementById('studyNavTotal');
+  const prevBtn = document.getElementById('prevCardBtn');
+  const nextBtn = document.getElementById('nextCardBtn');
+
   if (!filteredOrder || filteredOrder.length === 0) {
     const deck = computeDeckProgress();
     const txt = (currentFilter === 'unseen' && deck.unseen === 0 && deck.total > 0) ? 'Hoàn thành' : '0 / 0';
@@ -470,11 +549,15 @@ function updateCardPosition() {
       if (txt === 'Hoàn thành') badge.title = 'Đã học qua 100% từ vựng mới của cấp độ này';
     }
     if (counter) counter.textContent = txt;
+    if (navCurrent) navCurrent.textContent = '0';
+    if (navTotal) navTotal.textContent = '0';
+    if (prevBtn) prevBtn.disabled = true;
+    if (nextBtn) nextBtn.disabled = true;
     return;
   }
   const current = (idx % filteredOrder.length) + 1;
   const total = filteredOrder.length;
-  const posText = `${current} / ${total}`;
+  const posText = `Từ ${current} / ${total}`;
   if (badge) {
     badge.textContent = posText;
     const filterLabel = currentFilter === 'all' ? 'Tất cả'
@@ -484,8 +567,12 @@ function updateCardPosition() {
     badge.title = `Thẻ ${current} / ${total} (${filterLabel})`;
   }
   if (counter) {
-    counter.textContent = posText;
+    counter.textContent = `${current} / ${total}`;
   }
+  if (navCurrent) navCurrent.textContent = String(current);
+  if (navTotal) navTotal.textContent = String(total);
+  if (prevBtn) prevBtn.disabled = total <= 1;
+  if (nextBtn) nextBtn.disabled = total <= 1;
 }
 
 function renderHanziWithClarifier(el, text) {
@@ -945,6 +1032,12 @@ function render(animate) {
         if (wordMainBlock) wordMainBlock.style.display = 'none';
         if (exBox) { exBox.classList.remove('show'); exBox.style.display = 'none'; }
         if (hint) hint.style.display = 'none';
+        const decompAcc = document.getElementById('cardDecompAccordion');
+        if (decompAcc) { decompAcc.open = false; decompAcc.hidden = true; decompAcc.style.display = 'none'; }
+        const flipPrompt = document.getElementById('cardFlipPrompt');
+        if (flipPrompt) flipPrompt.style.display = 'none';
+        const studyNavRow = document.getElementById('studyNavRow');
+        if (studyNavRow) studyNavRow.hidden = true;
         const emptyHanzi = document.getElementById('hanzi');
         if (emptyHanzi) {
           emptyHanzi.textContent = '';
@@ -986,6 +1079,12 @@ function render(animate) {
         cardEmptyState.style.display = 'none';
       }
       if (hint) hint.style.display = '';
+      const decompAcc = document.getElementById('cardDecompAccordion');
+      if (decompAcc) decompAcc.open = false;
+      const flipPrompt = document.getElementById('cardFlipPrompt');
+      if (flipPrompt) flipPrompt.style.display = '';
+      const studyNavRow = document.getElementById('studyNavRow');
+      if (studyNavRow) studyNavRow.hidden = false;
       if (content) content.classList.remove('is-empty');
       const wIdx = filteredOrder[idx % filteredOrder.length];
       const w = WORDS[wIdx];

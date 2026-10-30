@@ -142,11 +142,27 @@ function renderStrokeDecomposition(char, container) {
 // Render clean, non-intrusive radical pills on flashcard
 function renderCardRadicals(word) {
   const mount = document.getElementById('cardRadicalsRow');
+  const wrap = document.getElementById('cardDecompositionWrap');
+  const accordion = document.getElementById('cardDecompAccordion');
   if (!mount) return;
 
-  if (!word || !word.hanzi) {
+  const hideDecomp = () => {
     mount.innerHTML = '';
     mount.style.display = 'none';
+    if (wrap) {
+      wrap.hidden = true;
+      wrap.style.display = 'none';
+    }
+    if (accordion) {
+      accordion.hidden = true;
+      accordion.style.display = 'none';
+      accordion.open = false;
+    }
+  };
+
+  hideDecomp();
+
+  if (!word || !word.hanzi) {
     return;
   }
 
@@ -155,8 +171,7 @@ function renderCardRadicals(word) {
     const clean = raw.replace(/[（\(].*?[）\)]/g, '').trim() || raw;
     const chars = Array.from(clean).filter(ch => /\p{Script=Han}/u.test(ch));
     if (chars.length === 0) {
-      mount.innerHTML = '';
-      mount.style.display = 'none';
+      hideDecomp();
       return;
     }
 
@@ -182,17 +197,25 @@ function renderCardRadicals(word) {
     });
 
     if (pills.length === 0) {
-      mount.innerHTML = '';
-      mount.style.display = 'none';
+      hideDecomp();
       return;
     }
 
+    if (accordion) {
+      accordion.hidden = false;
+      accordion.style.display = 'block';
+      accordion.open = false;
+    }
+    if (wrap) {
+      wrap.hidden = false;
+      wrap.style.display = 'block';
+    }
     mount.style.display = 'flex';
     mount.innerHTML = pills.map(p => `
       <button type="button" class="card-radical-pill"
         onclick="event.stopPropagation(); jumpToStudyRadical('${p.char}', ${p.charIdx}, [${p.strokes.join(',')}])"
         title="Bộ thủ: ${p.name}">
-        <span class="card-radical-char" lang="zh-CN">${p.compChar}</span>
+        <span class="card-radical-char" lang="ja">${p.compChar}</span>
         <span class="card-radical-name">${p.name.replace('Bộ ', '')}</span>
       </button>
     `).join('');

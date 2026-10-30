@@ -549,14 +549,15 @@ document.addEventListener('keydown', event => {
     if (typeof speakWord === 'function') speakWord();
     return;
   }
-  if (event.key === ' ') {
+  const revealed = ratingsVisible();
+  if (event.key === ' ' || (!revealed && (event.key === 'Enter' || event.key === 'ArrowDown'))) {
     if (document.activeElement && document.activeElement.closest('button, summary, a, input, textarea, select')) return;
     event.preventDefault();
     flip();
     return;
   }
   const rating = RATING_KEYS[event.key];
-  if (rating && ratingsVisible()) { event.preventDefault(); rateCurrentCard(rating); return; }
+  if (rating && revealed) { event.preventDefault(); rateCurrentCard(rating); return; }
   if (event.key === 'r' || event.key === 'R') {
     event.preventDefault();
     jumpToRandomWord();
