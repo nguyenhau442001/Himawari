@@ -765,7 +765,9 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
       <div class="skel-line skel-action-btn"></div>
     </div>`;
 
-  loadPrebuiltAudioManifest(level);
+  if (typeof loadPrebuiltAudioManifest === 'function') {
+    loadPrebuiltAudioManifest(level);
+  }
 
   const abortController = typeof AbortController !== 'undefined' ? new AbortController() : null;
   const timeoutId = abortController ? setTimeout(() => {
