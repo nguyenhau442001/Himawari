@@ -246,10 +246,6 @@ function initCardSwipe(options) {
     dx = 0;
     dy = 0;
     card.style.transition = '';
-
-    try {
-      if (card.setPointerCapture) card.setPointerCapture(e.pointerId);
-    } catch (_) {}
   }
 
   function onPointerMove(e) {
@@ -262,6 +258,11 @@ function initCardSwipe(options) {
       const absDy = Math.abs(dy);
       if (absDx >= DRAG_LOCK_THRESHOLD || absDy >= DRAG_LOCK_THRESHOLD) {
         locked = absDx >= absDy ? 'h' : 'v';
+        if (locked === 'h') {
+          try {
+            if (card.setPointerCapture) card.setPointerCapture(e.pointerId);
+          } catch (_) {}
+        }
       }
     }
 

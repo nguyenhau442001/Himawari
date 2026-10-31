@@ -494,7 +494,7 @@ function renderLearningDashboard() {
   if (headerStreak) headerStreak.textContent = `${streak} ngày`;
   knownNode.textContent = summary.totalKnown;
   studiedNode.textContent = summary.totalStudied;
-  const dueTotal = countDueCardsAcrossLevels(new Date());
+  const dueTotal = typeof countDueCardsAcrossLevels === 'function' ? countDueCardsAcrossLevels(new Date()) : 0;
   if (dueCount) dueCount.textContent = String(dueTotal);
   if (todayReviewButton) todayReviewButton.hidden = dueTotal === 0;
 
@@ -804,7 +804,7 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
 
     loadState();
 
-    buildCardArea();
+    if (typeof buildCardArea === 'function') buildCardArea();
     renderFilters();
 
     currentView = 'cards';

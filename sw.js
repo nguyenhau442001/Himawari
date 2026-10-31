@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20261031-himawari-v4';
+const ASSET_VERSION = 'v1.0.0';
 const CACHE_NAME = 'himawari-app-v' + ASSET_VERSION;
 const DATA_CACHE_NAME = 'himawari-data-v1';
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
@@ -155,10 +155,10 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 4. Static assets (JS, CSS, Images, Fonts) - Cache First with Network Fallback
+  // 4. Static assets (JS, CSS, Images, Fonts) - Exact match first, Network fallback, Offline search-insensitive
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_NAME);
-    const cached = await cache.match(request, { ignoreSearch: true });
+    const cached = await cache.match(request);
     if (cached) return cached;
     try {
       const response = await fetch(request);
@@ -167,7 +167,8 @@ self.addEventListener('fetch', event => {
       }
       return response;
     } catch (err) {
-      return cached || new Response('', { status: 408 });
+      const fallback = await cache.match(request, { ignoreSearch: true });
+      return fallback || new Response('', { status: 408 });
     }
   })());
 });

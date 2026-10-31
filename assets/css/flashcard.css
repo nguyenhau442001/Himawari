@@ -229,7 +229,6 @@
 /* Silky smooth 3D flip micro-interaction */
 .card.is-flipping {
   animation: flipCard3D 0.26s cubic-bezier(0.38, 0, 0.22, 1) forwards !important;
-  pointer-events: none !important;
   transition: none !important;
 }
 
