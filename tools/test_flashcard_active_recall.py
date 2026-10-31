@@ -72,6 +72,12 @@ class TestFlashcardActiveRecall(unittest.TestCase):
         self.assertIn("<kbd>${shortcutArrow}</kbd>", self.fc_js)
         self.assertIn(".rating-kbd-badge", self.fc_css)
 
+    def test_rating_buttons_hide_keyboard_shortcuts_on_mobile(self):
+        """Keyboard shortcut badges must be hidden on mobile/touch screens in CSS."""
+        self.assertIn("@media (max-width: 768px)", self.fc_css)
+        self.assertIn(".rating-kbd-badge", self.ws_css)
+        self.assertIn("display: none !important;", self.fc_css)
+
     def test_rating_buttons_high_contrast_hover(self):
         """Rating buttons must define high-contrast hover styling in CSS."""
         self.assertIn(".rating-btn--again:hover", self.fc_css)

@@ -2411,6 +2411,10 @@ body.flashcard-study-mode .memory-curve-panel.is-empty { display: none !importan
     gap: 8px;
   }
 
+  body.flashcard-study-mode .rating-kbd-badge {
+    display: none !important;
+  }
+
   body.flashcard-study-mode .rating-btn:active {
     transform: scale(0.97);
   }

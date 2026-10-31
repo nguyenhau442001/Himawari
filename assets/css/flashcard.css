@@ -996,6 +996,13 @@
   font-size: 10px;
 }
 
+/* Hide keyboard shortcut badges on mobile and touch devices */
+@media (max-width: 768px), (hover: none), (pointer: coarse), (max-height: 500px) and (orientation: landscape) {
+  .rating-kbd-badge {
+    display: none !important;
+  }
+}
+
 /* Light Mode Defaults: Fresh, inviting, clear contrast */
 .rating-btn--again {
   background-color: #fef2f2;
