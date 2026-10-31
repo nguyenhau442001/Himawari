@@ -1,5 +1,5 @@
 const ASSET_VERSION = 'v1.0.0';
-const CACHE_NAME = 'himawari-app-v' + ASSET_VERSION;
+const CACHE_NAME = 'himawari-app-' + ASSET_VERSION;
 const DATA_CACHE_NAME = 'himawari-data-v1';
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
 
@@ -14,12 +14,16 @@ const PRECACHE_ASSET_URLS = [
   './assets/flashcards.css',
   './assets/css/level-picker.css',
   './assets/css/workstation.css',
+  './assets/css/fast-review-picker.css',
+  './assets/css/sidebar-lab.css',
   './assets/css/reading-analysis.css',
+  './assets/css/graded-reading.css',
   './assets/css/study-help-modal.css',
   './assets/css/home-widgets.css',
   './assets/css/dashboard-enhancements.css',
   './assets/js/state.js',
   './assets/js/storage.js',
+  './assets/js/vendor/ts-fsrs.umd.js',
   './assets/js/srs.js',
   './assets/js/spa-router.js',
   './assets/js/levels.js',
@@ -62,10 +66,9 @@ const DATA_PATH = new URL('./database/', self.registration.scope).pathname;
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    await Promise.allSettled([
-      ...PRECACHE_ASSET_URLS.map(url => cache.add(url).catch(() => {})),
-      cache.add(new Request(FSRS_CDN_URL, { mode: 'cors' })).catch(() => {}),
-    ]);
+    await Promise.allSettled(
+      PRECACHE_ASSET_URLS.map(url => cache.add(url).catch(() => {}))
+    );
     await self.skipWaiting();
   })());
 });
@@ -85,18 +88,24 @@ self.addEventListener('fetch', event => {
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
 
-  // 1. Navigation requests (HTML document) - Network First with Cache Fallback
+  // 1. Navigation requests (HTML document) - Network with Fast Timeout (2.5s) & Cache Fallback
   if (request.mode === 'navigate') {
     event.respondWith((async () => {
       try {
-        const response = await fetch(request);
+        const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+        const timeoutId = controller ? setTimeout(() => {
+          try { controller.abort(); } catch (_) {}
+        }, 2500) : null;
+        const fetchOptions = controller ? { signal: controller.signal } : {};
+        const response = await fetch(request, fetchOptions);
+        if (timeoutId) clearTimeout(timeoutId);
         if (response && response.ok) {
           const cache = await caches.open(CACHE_NAME);
           cache.put(request, response.clone()).catch(() => {});
           return response;
         }
       } catch (e) {
-        // Network failed or offline - fall back to cached shell
+        // Network timeout, failed or offline - fall back to cached shell
       }
       const cache = await caches.open(CACHE_NAME);
       const cached = (await cache.match(request, { ignoreSearch: true }))
@@ -111,7 +120,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 2. FSRS CDN URL
+  // 2. FSRS CDN URL (Fallback compatibility)
   if (url.href === FSRS_CDN_URL) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHE_NAME);
@@ -155,10 +164,10 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 4. Static assets (JS, CSS, Images, Fonts) - Exact match first, Network fallback, Offline search-insensitive
+  // 4. Static assets (JS, CSS, Images, Fonts) - Cache First with Network Fallback
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_NAME);
-    const cached = await cache.match(request);
+    const cached = await cache.match(request, { ignoreSearch: true });
     if (cached) return cached;
     try {
       const response = await fetch(request);
@@ -167,8 +176,7 @@ self.addEventListener('fetch', event => {
       }
       return response;
     } catch (err) {
-      const fallback = await cache.match(request, { ignoreSearch: true });
-      return fallback || new Response('', { status: 408 });
+      return new Response('', { status: 408 });
     }
   })());
 });

@@ -1,8 +1,24 @@
 // FSRS boundary. Application code should use SRS instead of ts-fsrs directly.
 const SRS = (function () {
-  const library = window.FSRS;
+  let library = window.FSRS;
   if (!library || typeof library.fsrs !== 'function') {
-    throw new Error('Không tải được ts-fsrs 5.4.1 (global FSRS không tồn tại).');
+    console.warn('[SRS] ts-fsrs library not available, initializing safe fallback scheduler.');
+    library = {
+      Rating: { Again: 1, Hard: 2, Good: 3, Easy: 4 },
+      State: { New: 0, Learning: 1, Review: 2, Relearning: 3 },
+      fsrs: () => ({
+        repeat: (card, now) => {
+          const t = (now instanceof Date ? now : new Date()).getTime();
+          return {
+            1: { card: { ...card, due: new Date(t + 60000), state: 1 }, log: { rating: 1, elapsed_days: 0, scheduled_days: 0, review: new Date(t), state: 1 } },
+            2: { card: { ...card, due: new Date(t + 120000), state: 1 }, log: { rating: 2, elapsed_days: 0, scheduled_days: 0, review: new Date(t), state: 1 } },
+            3: { card: { ...card, due: new Date(t + 86400000), state: 2 }, log: { rating: 3, elapsed_days: 0, scheduled_days: 1, review: new Date(t), state: 2 } },
+            4: { card: { ...card, due: new Date(t + 172800000), state: 2 }, log: { rating: 4, elapsed_days: 0, scheduled_days: 2, review: new Date(t), state: 2 } },
+          };
+        },
+        createEmptyCard: (now) => ({ due: now instanceof Date ? now : new Date(), state: 0 }),
+      }),
+    };
   }
 
   const RATINGS = {
