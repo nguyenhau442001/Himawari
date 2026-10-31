@@ -52,21 +52,24 @@ body.graded-story-active #primaryTabs {
 
 @media (min-width: 1280px) {
   body {
-    padding: 24px 28px 60px;
+    padding: 24px 32px 64px;
     background: var(--bg);
   }
   .workstation {
-    /* Side columns are comfortably proportioned so content has natural breathing room */
-    grid-template-columns: 280px minmax(0, 1fr) 340px;
-    grid-template-areas: "left middle right";
-    align-items: start;
-    gap: 24px;
-    max-width: 1440px;
-    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
     min-height: auto;
+    box-sizing: border-box;
   }
-  .workstation-left   { grid-area: left; position: sticky; top: 24px; }
-  .workstation-middle { grid-area: middle; min-width: 0; }
+  .workstation-middle {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    min-width: 0;
+    box-sizing: border-box;
+  }
   body.reading-view-active .workstation,
   body.reading-zen-active .workstation,
   body.graded-reading-active .workstation {
@@ -241,31 +244,46 @@ body.graded-story-active #primaryTabs {
   .word-companion-panel > .sidebar-panel-title { margin-top: 0; font-size: 14px; font-weight: 600; }
   .stroke-canvas-panel { padding-bottom: 18px; }
 
-  /* Desktop home dashboard: natural, spacious, comfortable flow */
+  /* Desktop home dashboard: clean, centered, focused single-column flow */
   body.home-screen {
     min-height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 24px 28px 60px;
+    padding: 24px 32px 64px;
+    box-sizing: border-box;
   }
-  body.home-screen .app { height: auto; max-width: 1440px; margin: 0 auto; }
+  body.home-screen .app {
+    height: auto;
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    box-sizing: border-box;
+  }
   body.home-screen .workstation {
-    height: auto; min-height: auto;
-    display: grid;
-    grid-template-columns: 310px minmax(0, 1fr);
-    grid-template-areas: "left middle";
-    align-items: start;
-    gap: 28px;
-    max-width: 1380px;
-    margin: 0 auto;
+    height: auto;
+    min-height: auto;
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    box-sizing: border-box;
   }
-  body.home-screen .workstation-left {
-    min-height: auto; height: auto; gap: 18px; position: sticky; top: 24px; overflow: visible;
-  }
+  body.home-screen .workstation-left,
   body.home-screen .workstation-right {
     display: none !important;
   }
-  body.home-screen .workstation-middle { min-height: auto; height: auto; display: flex; flex-direction: column; gap: 20px; overflow: visible; }
+  body.home-screen .workstation-middle {
+    min-height: auto;
+    height: auto;
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    overflow: visible;
+    box-sizing: border-box;
+  }
   body.home-screen .app-footer {
     grid-column: 1 / -1; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border);
     display: flex; justify-content: center; align-items: center;

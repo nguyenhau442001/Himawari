@@ -186,9 +186,7 @@ function onSidebarSearchInput(value, resultsEl) {
 }
 
 function initSidebarSearch() {
-  const mount = document.body.classList.contains('is-desktop-dock')
-    ? document.getElementById('workstationLeft')
-    : document.getElementById('mobileDockDialogBody');
+  const mount = document.getElementById('vocabSearchSlot') || document.getElementById('mobileDockDialogBody');
   if (!mount) return;
 
   if (document.getElementById('sidebarSearchWrap')) return;
@@ -204,8 +202,7 @@ function initSidebarSearch() {
     <ul id="sidebarSearchResults" class="sidebar-search-results" hidden role="listbox" aria-label="Kết quả tìm kiếm"></ul>
   `;
 
-  // Always keep search at the very top of workstationLeft
-  mount.prepend(wrap);
+  mount.appendChild(wrap);
 
   const input = wrap.querySelector('#sidebarSearchInput');
   const results = wrap.querySelector('#sidebarSearchResults');
@@ -303,21 +300,30 @@ function initMobileDockDialog() {
   const trigger = document.getElementById('headerSearchBtn');
   const dialog = document.getElementById('mobileDockDialog');
   const closeBtn = document.getElementById('mobileDockClose');
-  if (!trigger || !dialog || !closeBtn) return;
+  if (!trigger) return;
   trigger.addEventListener('click', () => {
-    dialog.showModal();
     const input = document.getElementById('sidebarSearchInput');
-    if (input) {
-      setTimeout(() => input.focus(), 80);
+    if (input && input.offsetParent !== null) {
+      input.focus();
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    if (dialog && typeof dialog.showModal === 'function') {
+      dialog.showModal();
+      if (input) {
+        setTimeout(() => input.focus(), 80);
+      }
     }
   });
-  closeBtn.addEventListener('click', () => {
-    dialog.close();
-    trigger.focus();
-  });
-  dialog.addEventListener('close', () => {
-    trigger.focus();
-  });
+  if (closeBtn && dialog) {
+    closeBtn.addEventListener('click', () => {
+      dialog.close();
+      trigger.focus();
+    });
+    dialog.addEventListener('close', () => {
+      trigger.focus();
+    });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () => {

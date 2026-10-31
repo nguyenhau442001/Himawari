@@ -223,9 +223,7 @@ function renderWeakWordsList() {
 }
 
 function initWeakWordsPanel() {
-  const mount = document.body.classList.contains('is-desktop-dock')
-    ? document.getElementById('workstationLeft')
-    : document.getElementById('mobileDockDialogBody');
+  const mount = document.getElementById('mobileDockDialogBody');
   if (!mount) return;
 
   const wrap = document.createElement('section');
