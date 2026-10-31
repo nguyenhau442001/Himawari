@@ -544,6 +544,11 @@ document.addEventListener('keydown', event => {
     if (typeof toggleHanViet === 'function') toggleHanViet();
     return;
   }
+  if (event.key === 'p' || event.key === 'P') {
+    event.preventDefault();
+    if (typeof togglePinyin === 'function') togglePinyin();
+    return;
+  }
   if (event.key === 'a' || event.key === 'A') {
     event.preventDefault();
     if (typeof speakWord === 'function') speakWord();
