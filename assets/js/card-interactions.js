@@ -144,6 +144,9 @@ function initCardSwipe(options) {
 
   function isInteractive(target) {
     if (!target) return false;
+    if (target.closest('.card-flip-prompt, #cardFlipPrompt, .hanzi-stage, #hanziStage, .hanzi')) {
+      return false;
+    }
     const selector = options.interactiveSelector || FLASHCARD_INTERACTIVE_SELECTOR;
     return !!target.closest(selector);
   }
@@ -214,7 +217,7 @@ function initCardSwipe(options) {
       setSwipingState(false);
     } else {
       setSwipingState(false);
-      if (Math.hypot(dx, dy) < 8 && dt < 450) {
+      if (Math.hypot(dx, dy) < 18 && dt < 650) {
         options.flip();
       }
     }
@@ -296,7 +299,7 @@ function initCardSwipe(options) {
       setSwipingState(false);
     } else {
       setSwipingState(false);
-      if (Math.hypot(dx, dy) < 6 && dt < 400) {
+      if (Math.hypot(dx, dy) < 16 && dt < 600) {
         options.flip();
       }
     }
@@ -324,6 +327,14 @@ function initCardSwipe(options) {
   card.addEventListener('pointermove', onPointerMove, { passive: false });
   card.addEventListener('pointerup', onPointerUp);
   card.addEventListener('pointercancel', onPointerCancel);
+
+  // Unfailing native click fallback for desktop click, pen, or keyboard click
+  card.addEventListener('click', (e) => {
+    if (!options.hasCards() || committed) return;
+    if (isInteractive(e.target)) return;
+    if (locked === 'h') return;
+    options.flip();
+  });
 
   card._resetSwipe = resetCard;
   if (options.cardId === 'card') {
@@ -359,22 +370,25 @@ function initRadicalSwipe() {
   });
 }
 
-function flip() {
-  if (filteredOrder.length === 0) return;
+let isCardFlipping = false;
+
+function applyFlipState(willShow) {
   const m = document.getElementById('meaning');
   const ex = document.getElementById('exampleBox');
   const card = document.getElementById('card');
-  const willShow = !m.classList.contains('show');
-  m.classList.toggle('show');
-  ex.classList.toggle('show', willShow);
+  if (m) m.classList.toggle('show', willShow);
+  if (ex) ex.classList.toggle('show', willShow);
   if (card) card.classList.toggle('is-flipped', willShow);
   const soundBtn = document.getElementById('soundBtn');
   if (soundBtn) soundBtn.classList.toggle('show', willShow);
   if (willShow && !showPinyin) {
     const wIdx = filteredOrder[idx % filteredOrder.length];
-    document.getElementById('pinyin').textContent = WORDS[wIdx].pinyin;
+    if (WORDS && WORDS[wIdx]) {
+      document.getElementById('pinyin').textContent = WORDS[wIdx].pinyin;
+    }
   } else if (!willShow && !showPinyin) {
-    document.getElementById('pinyin').textContent = '';
+    const pinyinEl = document.getElementById('pinyin');
+    if (pinyinEl) pinyinEl.textContent = '';
   }
   if (!willShow) {
     const decompAcc = document.getElementById('cardDecompAccordion');
@@ -385,4 +399,38 @@ function flip() {
     hintEl.textContent = typeof getCardHintText === 'function' ? getCardHintText(willShow) : (willShow ? 'Chạm để lật lại' : 'Chạm để lật');
   }
   syncRevealControls();
+}
+
+function flip(forceShow) {
+  if (!Array.isArray(filteredOrder) || filteredOrder.length === 0) return;
+  const m = document.getElementById('meaning');
+  const card = document.getElementById('card');
+  if (!m || !card) return;
+
+  const currentRevealed = m.classList.contains('show');
+  const willShow = typeof forceShow === 'boolean' ? forceShow : !currentRevealed;
+  if (willShow === currentRevealed && typeof forceShow === 'boolean') return;
+
+  const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReduced) {
+    applyFlipState(willShow);
+    return;
+  }
+
+  if (isCardFlipping) return;
+  isCardFlipping = true;
+
+  card.classList.remove('is-flipping');
+  void card.offsetWidth;
+  card.classList.add('is-flipping');
+
+  // Switch card DOM state at edge-on 90deg rotation (120ms into 260ms flip)
+  setTimeout(() => {
+    applyFlipState(willShow);
+  }, 120);
+
+  setTimeout(() => {
+    if (card) card.classList.remove('is-flipping');
+    isCardFlipping = false;
+  }, 260);
 }

@@ -192,12 +192,19 @@
   .card-toolbar { gap: 2px; }
   .card-position-badge { font-size: 11px; padding: 1px 6px; }
 }
+#cardArea,
+#radicalCardArea {
+  perspective: 1200px;
+}
+
 .card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: 20px;
   padding: 46px 24px 22px; text-align: center; cursor: pointer; min-height: 190px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0;
   user-select: none; box-shadow: var(--card-shadow); transition: box-shadow 0.18s ease, transform 0.18s ease, background 0.2s ease, border-color 0.2s ease;
   overflow: hidden; position: relative; touch-action: pan-y;
+  transform-style: preserve-3d;
+  will-change: transform, box-shadow;
 }
 :root[data-theme="dark"] .card {
   background-color: var(--card-bg);
@@ -208,9 +215,70 @@
   box-shadow: 0 8px 30px -4px rgba(0,0,0,0.08);
   transform: translateY(-1px);
 }
+.card.is-flipping:hover {
+  transform: none;
+}
 :root[data-theme="dark"] .card:hover {
   box-shadow: 0 16px 42px -4px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.08);
   transform: translateY(-1px);
+}
+:root[data-theme="dark"] .card.is-flipping:hover {
+  transform: none;
+}
+
+/* Silky smooth 3D flip micro-interaction */
+.card.is-flipping {
+  animation: flipCard3D 0.26s cubic-bezier(0.38, 0, 0.22, 1) forwards !important;
+  pointer-events: none !important;
+  transition: none !important;
+}
+
+@keyframes flipCard3D {
+  0% {
+    transform: perspective(1200px) rotateY(0deg) scale(1);
+    box-shadow: 0 16px 44px -10px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+  48% {
+    transform: perspective(1200px) rotateY(90deg) scale(0.96);
+    box-shadow: 0 4px 14px -4px rgba(0, 0, 0, 0.04);
+  }
+  52% {
+    transform: perspective(1200px) rotateY(-90deg) scale(0.96);
+    box-shadow: 0 4px 14px -4px rgba(0, 0, 0, 0.04);
+  }
+  100% {
+    transform: perspective(1200px) rotateY(0deg) scale(1);
+    box-shadow: 0 16px 44px -10px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+}
+
+:root[data-theme="dark"] .card.is-flipping {
+  animation-name: flipCard3DDark;
+}
+
+@keyframes flipCard3DDark {
+  0% {
+    transform: perspective(1200px) rotateY(0deg) scale(1);
+    box-shadow: 0 24px 64px -12px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  }
+  48% {
+    transform: perspective(1200px) rotateY(90deg) scale(0.96);
+    box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.4);
+  }
+  52% {
+    transform: perspective(1200px) rotateY(-90deg) scale(0.96);
+    box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+    transform: perspective(1200px) rotateY(0deg) scale(1);
+    box-shadow: 0 24px 64px -12px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card.is-flipping {
+    animation: none !important;
+  }
 }
 .swipe-badge {
   position: absolute; top: 46px; padding: 6px 14px; border-radius: 12px;
@@ -865,6 +933,18 @@
   max-width: 550px;
   margin: 0 auto;
   box-sizing: border-box;
+}
+.rating-row:not([hidden]) {
+  animation: ratingRowReveal 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes ratingRowReveal {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rating-row:not([hidden]) {
+    animation: none;
+  }
 }
 .reveal-btn[hidden], .rating-row[hidden], .today-review-answer[hidden] { display: none; }
 .rating-btn {

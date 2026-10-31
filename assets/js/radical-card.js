@@ -290,6 +290,8 @@ function renderRadicalCard(animate) {
 
   function applyContent() {
     if (card) {
+      card.classList.remove('is-flipping');
+      card.classList.remove('is-flipped');
       card.style.opacity = '';
       card.style.transform = '';
     }
@@ -386,12 +388,50 @@ function updateRadicalProgress(current, total) {
   if (bar) bar.style.width = (total === 0 ? 0 : (current / total * 100)) + '%';
 }
 
-function radicalFlip() {
+let isRadicalFlipping = false;
+
+function applyRadicalFlipState(willShow) {
+  const back = document.getElementById('radicalBack');
+  const card = document.getElementById('radicalCard');
+  if (back) back.classList.toggle('show', willShow);
+  if (card) card.classList.toggle('is-flipped', willShow);
+  const hint = document.getElementById('radicalHint');
+  if (hint) {
+    hint.textContent = willShow ? 'Nhấn lại để ẩn' : 'Nhấn vào thẻ để xem nghĩa và ví dụ';
+  }
+}
+
+function radicalFlip(forceShow) {
   if (radicalFilteredOrder.length === 0) return;
   const back = document.getElementById('radicalBack');
-  const willShow = !back.classList.contains('show');
-  back.classList.toggle('show', willShow);
-  document.getElementById('radicalHint').textContent = willShow ? 'Nhấn lại để ẩn' : 'Nhấn vào thẻ để xem nghĩa và ví dụ';
+  const card = document.getElementById('radicalCard');
+  if (!back || !card) return;
+
+  const currentRevealed = back.classList.contains('show');
+  const willShow = typeof forceShow === 'boolean' ? forceShow : !currentRevealed;
+  if (willShow === currentRevealed && typeof forceShow === 'boolean') return;
+
+  const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReduced) {
+    applyRadicalFlipState(willShow);
+    return;
+  }
+
+  if (isRadicalFlipping) return;
+  isRadicalFlipping = true;
+
+  card.classList.remove('is-flipping');
+  void card.offsetWidth;
+  card.classList.add('is-flipping');
+
+  setTimeout(() => {
+    applyRadicalFlipState(willShow);
+  }, 120);
+
+  setTimeout(() => {
+    if (card) card.classList.remove('is-flipping');
+    isRadicalFlipping = false;
+  }, 260);
 }
 
 function nextRadicalCard() {

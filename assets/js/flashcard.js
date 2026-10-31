@@ -67,7 +67,7 @@ function buildCardArea() {
       <div id="cardContent" class="card-content">
         <div class="word-hero-container" id="wordMainBlock">
           <!-- Chữ Hán to bản ở trung tâm (Focal Point chính) -->
-          <div class="hanzi-stage" id="hanziStage" onclick="event.stopPropagation(); if (typeof toggleStudyWritingPanel === 'function') toggleStudyWritingPanel(true);" title="Nhấn để luyện viết chữ Hán (W)">
+          <div class="hanzi-stage" id="hanziStage">
             <div class="hanzi" id="hanzi"></div>
           </div>
 
@@ -997,6 +997,7 @@ function render(animate) {
     const card = document.getElementById('card');
     if (card) {
       card.classList.remove('is-flipped');
+      card.classList.remove('is-flipping');
       card.style.opacity = '';
       card.style.transform = '';
     }

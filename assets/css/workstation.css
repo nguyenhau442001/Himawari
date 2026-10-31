@@ -964,6 +964,7 @@ body.flashcard-study-mode #cardArea {
   flex: 0 0 auto;
   overflow-x: clip;
   position: relative;
+  perspective: 1200px;
 }
 body.flashcard-study-mode #cardArea > .card {
   flex: 0 0 auto;
@@ -983,6 +984,8 @@ body.flashcard-study-mode #cardArea > .card {
   border: 1px solid var(--border);
   box-shadow: 0 16px 44px -10px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.04);
   transition: box-shadow 0.25s ease, border-color 0.25s ease;
+  transform-style: preserve-3d;
+  will-change: transform, box-shadow;
 }
 body.flashcard-study-mode #cardArea > .card::-webkit-scrollbar {
   width: 5px;
