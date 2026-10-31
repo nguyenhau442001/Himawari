@@ -208,23 +208,6 @@ function buildCardArea() {
   initSwipe();
 }
 
-    <div class="action-row secondary-actions">
-      <button class="show-unknown-btn" id="unknownWordsToggle" onclick="toggleUnknownWords()"
-        aria-controls="unknownWordsList" aria-expanded="false">
-        Hiển thị từ chưa nhớ
-      </button>
-      <button class="reset-progress-btn" type="button" onclick="resetProgress()">↻ Học lại từ đầu</button>
-    </div>
-    <div id="dailyNewLimitMessage" class="daily-new-limit-message" role="status"></div>
-    <div class="unknown-words-list" id="unknownWordsList"></div>
-  `;
-  updateCardMoreMenuState();
-  if (typeof updateWeakWordToggleButton === 'function') updateWeakWordToggleButton();
-  updateProgress();
-  updateCardPosition();
-  initSwipe();
-}
-
 function toggleCardMoreMenu(event) {
   if (event) event.stopPropagation();
   const dropdown = document.getElementById('cardMoreDropdown');
