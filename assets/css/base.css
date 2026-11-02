@@ -46,31 +46,31 @@
 /* Dark palette — Japanese Sakura Dark: Sakura Pink + Matcha Green + Midnight */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0D1117;
-    --card-bg: #171D27;
-    --bg-card: #171D27;
-    --surface-elevated: #202735;
-    --border: #35303A;
-    --border-strong: #484250;
+    --bg: #12111A;
+    --card-bg: #1A1824;
+    --bg-card: #1A1824;
+    --surface-elevated: #24202F;
+    --border: #352F3D;
+    --border-strong: #4A4254;
     --card-shadow: 0 12px 36px -4px rgba(0, 0, 0, 0.5), 0 4px 12px -2px rgba(0, 0, 0, 0.3);
     --surface-subtle: rgba(244, 167, 185, 0.05);
     --surface-chip: rgba(244, 167, 185, 0.09);
-    --progress-track: rgba(255, 255, 255, 0.08);
+    --progress-track: rgba(244, 167, 185, 0.1);
     --heatmap-empty: rgba(255, 255, 255, 0.05);
     --text-primary: #F8F5F4;
-    --text-secondary: #A7A9B5;
-    --text-tertiary: #707989;
-    --text-muted: #707989;
-    --text-progress-detail: #A7A9B5;
+    --text-secondary: #A7A4B2;
+    --text-tertiary: #757182;
+    --text-muted: #757182;
+    --text-progress-detail: #A7A4B2;
     --accent: #F4A7B9;
-    --accent-hover: #E88DA8;
-    --accent-soft: #F8D7DF;
+    --accent-hover: #F8BBD0;
+    --accent-soft: #FDE8EE;
     --accent-deep: #D96C91;
     --accent-rgb: 244, 167, 185;
     --accent-gradient: linear-gradient(135deg, #F4A7B9 0%, #D96C91 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #F8D7DF 0%, #E88DA8 100%);
+    --accent-gradient-hover: linear-gradient(135deg, #F8BBD0 0%, #E88DA8 100%);
     --accent-light: rgba(244, 167, 185, 0.14);
-    --on-accent: #171D27;
+    --on-accent: #1A1824;
     --accent-text: #F4A7B9;
     --success-bg: rgba(168, 184, 154, 0.16);
     --success-text: #A8B89A;
@@ -82,37 +82,37 @@
     --info-text: #B8A5E3;
     --warning-bg: rgba(245, 158, 11, 0.14);
     --warning-text: #fbbf24;
-    --example-bg: rgba(255, 255, 255, 0.03);
-    --example-border: rgba(255, 255, 255, 0.06);
+    --example-bg: rgba(244, 167, 185, 0.035);
+    --example-border: rgba(244, 167, 185, 0.1);
   }
 }
 /* Manual overrides — :root[data-theme] specificity (0,2,0) beats media-query :root (0,1,0) */
 :root[data-theme="dark"] {
-  --bg: #0D1117;
-  --card-bg: #171D27;
-  --bg-card: #171D27;
-  --surface-elevated: #202735;
-  --border: #35303A;
-  --border-strong: #484250;
+  --bg: #12111A;
+  --card-bg: #1A1824;
+  --bg-card: #1A1824;
+  --surface-elevated: #24202F;
+  --border: #352F3D;
+  --border-strong: #4A4254;
   --card-shadow: 0 12px 36px -4px rgba(0, 0, 0, 0.5), 0 4px 12px -2px rgba(0, 0, 0, 0.3);
   --surface-subtle: rgba(244, 167, 185, 0.05);
   --surface-chip: rgba(244, 167, 185, 0.09);
-  --progress-track: rgba(255, 255, 255, 0.08);
+  --progress-track: rgba(244, 167, 185, 0.1);
   --heatmap-empty: rgba(255, 255, 255, 0.05);
   --text-primary: #F8F5F4;
-  --text-secondary: #A7A9B5;
-  --text-tertiary: #707989;
-  --text-muted: #707989;
-  --text-progress-detail: #A7A9B5;
+  --text-secondary: #A7A4B2;
+  --text-tertiary: #757182;
+  --text-muted: #757182;
+  --text-progress-detail: #A7A4B2;
   --accent: #F4A7B9;
-  --accent-hover: #E88DA8;
-  --accent-soft: #F8D7DF;
+  --accent-hover: #F8BBD0;
+  --accent-soft: #FDE8EE;
   --accent-deep: #D96C91;
   --accent-rgb: 244, 167, 185;
   --accent-gradient: linear-gradient(135deg, #F4A7B9 0%, #D96C91 100%);
-  --accent-gradient-hover: linear-gradient(135deg, #F8D7DF 0%, #E88DA8 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #F8BBD0 0%, #E88DA8 100%);
   --accent-light: rgba(244, 167, 185, 0.14);
-  --on-accent: #171D27;
+  --on-accent: #1A1824;
   --accent-text: #F4A7B9;
   --success-bg: rgba(168, 184, 154, 0.16);
   --success-text: #A8B89A;
@@ -123,6 +123,10 @@
   --info-bg: rgba(184, 165, 227, 0.16);
   --info-text: #B8A5E3;
   --warning-bg: rgba(245, 158, 11, 0.14);
+  --warning-text: #fbbf24;
+  --example-bg: rgba(244, 167, 185, 0.035);
+  --example-border: rgba(244, 167, 185, 0.1);
+}
   --warning-text: #fbbf24;
   --example-bg: rgba(255, 255, 255, 0.03);
   --example-border: rgba(255, 255, 255, 0.06);
@@ -237,12 +241,23 @@ body {
   padding: 20px 16px 60px;
 }
 :root[data-theme="dark"] body {
-  background-image: linear-gradient(rgba(13, 17, 23, 0.88), rgba(13, 17, 23, 0.94)), url('../images/sakura-background.webp');
+  background-image: linear-gradient(rgba(18, 17, 26, 0.90), rgba(18, 17, 26, 0.95)), url('../images/sakura-background.webp');
 }
 
 /* ========================================================
-   Sakura Blossom Floating Petals Effect
+   Sakura Blossom Falling Canvas & Petals Background
    ======================================================== */
+.sakura-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
 .sakura-petals-overlay {
   position: fixed;
   top: 0;
@@ -296,6 +311,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .sakura-canvas,
   .sakura-petals-overlay {
     display: none !important;
   }

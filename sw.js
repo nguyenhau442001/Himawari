@@ -59,6 +59,7 @@ const PRECACHE_ASSET_URLS = [
   './assets/js/home-widgets.js',
   './assets/js/dashboard-enhancements.js',
   './assets/js/study-help-modal.js',
+  './assets/js/sakura-canvas.js',
   './assets/flashcards.js',
   './assets/images/sakura-background.webp',
   './assets/images/sakura-badge.png',

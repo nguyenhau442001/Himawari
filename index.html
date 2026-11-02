@@ -76,7 +76,8 @@ if ('serviceWorker' in navigator) {
   mq.addEventListener('change', applyLayoutMode);
 })();</script>
 <div class="app">
-  <div class="sakura-petals-overlay" aria-hidden="true">
+  <canvas id="sakuraCanvas" class="sakura-canvas" aria-hidden="true"></canvas>
+  <div class="sakura-petals-overlay" aria-hidden="true" style="display:none">
     <div class="sakura-petal"></div>
     <div class="sakura-petal"></div>
     <div class="sakura-petal"></div>
@@ -453,15 +454,6 @@ if ('serviceWorker' in navigator) {
   <!-- SCREEN 2: Flashcards -->
   <div id="screenCards" style="display:none">
     <div class="study-view-topbar">
-      <div class="study-brand-header">
-        <div class="study-brand-logo-wrap">
-          <img src="assets/images/sakura-badge.png" class="study-brand-logo" alt="Sakura Logo" width="38" height="38">
-        </div>
-        <div class="study-brand-info">
-          <div class="study-brand-title">汉字闪卡</div>
-          <div class="study-brand-subtitle">Hànzì Shǎnkǎ</div>
-        </div>
-      </div>
       <div class="study-view-topbar-left">
         <button class="back-btn study-back-btn" onclick="SpaRouter.navigateBack()" title="Quay lại chọn cấp độ (Esc)">
           <span class="back-arrow" aria-hidden="true">←</span>
@@ -492,16 +484,23 @@ if ('serviceWorker' in navigator) {
       </div>
 
       <div class="study-view-topbar-actions">
-        <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Luyện viết &amp; thứ tự nét (W)">
+        <button type="button" class="study-drawer-btn" id="studyWritingToggleBtn" onclick="toggleStudyWritingPanel()" title="Luyện viết &amp; thứ tự nét (W)" aria-label="Luyện viết và thứ tự nét">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
           <span class="study-drawer-btn-label">Luyện viết</span>
         </button>
-        <button type="button" class="study-drawer-btn" id="studyHelpToggleBtn" onclick="openStudyHelpModal()" title="Hướng dẫn &amp; Phím tắt (?)" aria-label="Hướng dẫn học tập và phím tắt">
+        <button type="button" class="study-drawer-btn" id="studyHistoryBtn" onclick="showHistoryModal()" title="Lịch sử học tập" aria-label="Lịch sử học tập">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <span class="study-drawer-btn-label">Trợ giúp</span>
+          <span class="study-drawer-btn-label">Lịch sử</span>
+        </button>
+        <button type="button" class="study-drawer-btn" id="studySettingsBtn" onclick="toggleTransferPanel()" title="Cài đặt &amp; Sao lưu" aria-label="Cài đặt và sao lưu">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <span class="study-drawer-btn-label">Cài đặt</span>
         </button>
         <button type="button" class="study-drawer-btn study-theme-toggle-btn" onclick="toggleTheme()" title="Đổi giao diện Sáng / Tối" aria-label="Đổi giao diện Sáng / Tối">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="3" r="3"/></svg>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.5 5.5 0 0 1-7.54-7.54A9.04 9.04 0 0 0 12 3z"/></svg>
+        </button>
+        <button type="button" class="study-drawer-btn" id="studyHelpToggleBtn" onclick="openStudyHelpModal()" title="Hướng dẫn &amp; Phím tắt (?)" aria-label="Hướng dẫn học tập và phím tắt" style="display:none" hidden>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
         </button>
       </div>
     </div>
@@ -1082,6 +1081,7 @@ if ('serviceWorker' in navigator) {
 <script src="assets/js/home-widgets.js?v=v1.0.2"></script>
 <script src="assets/js/dashboard-enhancements.js?v=v1.0.2"></script>
 <script src="assets/js/study-help-modal.js?v=v1.0.2"></script>
+<script src="assets/js/sakura-canvas.js?v=v1.0.2"></script>
 <script src="assets/js/spa-router.js?v=v1.0.2"></script>
 <script src="assets/flashcards.js?v=v1.0.2"></script>
 <!-- Mobile Bottom Navigation Bar -->

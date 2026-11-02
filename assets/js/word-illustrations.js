@@ -39482,111 +39482,121 @@ function getWordIllustration(word) {
 }
 
 /**
- * Generates an aesthetic, modern conceptual vector motif based on Part of Speech (POS).
- * Completely eliminates raw character placeholders and generic "MINH HỌA" labels.
+ * Generates an authentic Japanese Sakura watercolor illustration.
+ * Replaces 3D cubes/abstract shapes with an elegant cherry blossom branch in soft sumi-e style.
  */
+function getJapaneseSakuraIllustrationSvg() {
+  return `<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cành hoa anh đào Nhật Bản">
+    <defs>
+      <!-- Soft aura background wash (watercolour diffusion) -->
+      <radialGradient id="sakuraAura" cx="48%" cy="46%" r="52%">
+        <stop offset="0%" stop-color="#F4A7B9" stop-opacity="0.18" />
+        <stop offset="55%" stop-color="#FFCAD4" stop-opacity="0.08" />
+        <stop offset="100%" stop-color="#FFCAD4" stop-opacity="0" />
+      </radialGradient>
+      <!-- Petal watercolor gradient -->
+      <linearGradient id="petalGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFF0F3" />
+        <stop offset="60%" stop-color="#F8BBD0" />
+        <stop offset="100%" stop-color="#E87A90" />
+      </linearGradient>
+      <linearGradient id="petalGrad2" x1="10%" y1="0%" x2="90%" y2="100%">
+        <stop offset="0%" stop-color="#FFE4EC" />
+        <stop offset="65%" stop-color="#F4A7B9" />
+        <stop offset="100%" stop-color="#D96C91" />
+      </linearGradient>
+      <!-- Pistil center glow -->
+      <radialGradient id="sakuraPistil" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#FFD166" />
+        <stop offset="60%" stop-color="#E85D7F" />
+        <stop offset="100%" stop-color="#C72E54" />
+      </radialGradient>
+      <!-- Sumi-e branch texture gradient -->
+      <linearGradient id="sumiBranch" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#3A3038" />
+        <stop offset="50%" stop-color="#4E404B" />
+        <stop offset="100%" stop-color="#322830" />
+      </linearGradient>
+    </defs>
+
+    <!-- Gentle circular watercolor wash in background -->
+    <circle cx="100" cy="100" r="78" fill="url(#sakuraAura)" />
+    <circle cx="100" cy="100" r="82" stroke="#F4A7B9" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="2 4" />
+
+    <!-- Sumi-e styled cherry blossom branch -->
+    <path d="M 28 162 C 55 152 75 142 98 122 C 118 105 138 92 166 84" stroke="url(#sumiBranch)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 68 147 C 78 138 88 135 94 125" stroke="url(#sumiBranch)" stroke-width="3" stroke-linecap="round" />
+    <path d="M 98 122 C 104 108 108 96 112 80" stroke="url(#sumiBranch)" stroke-width="2.6" stroke-linecap="round" />
+    <path d="M 132 98 C 144 108 152 114 162 118" stroke="url(#sumiBranch)" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M 112 80 C 118 72 122 66 128 60" stroke="url(#sumiBranch)" stroke-width="1.8" stroke-linecap="round" />
+
+    <!-- Flower 1: Main Full Bloom Blossom (centered at branch node x=98, y=118) -->
+    <g transform="translate(98, 118)">
+      <path d="M 0 0 C -10 -14 -12 -28 -4 -34 C -1 -36 0 -33 1 -33 C 2 -33 3 -36 6 -34 C 14 -28 12 -14 0 0 Z" fill="url(#petalGrad1)" opacity="0.95" />
+      <path d="M 0 0 C 8 -12 22 -18 30 -14 C 33 -12 30 -10 31 -9 C 32 -8 35 -9 36 -7 C 36 2 26 12 0 0 Z" fill="url(#petalGrad2)" opacity="0.92" />
+      <path d="M 0 0 C 12 4 24 16 22 24 C 21 27 18 25 17 26 C 16 27 17 30 14 31 C 6 32 -2 22 0 0 Z" fill="url(#petalGrad1)" opacity="0.94" />
+      <path d="M 0 0 C -4 12 -14 24 -22 22 C -25 21 -23 18 -24 17 C -25 16 -28 17 -29 14 C -30 6 -20 -2 0 0 Z" fill="url(#petalGrad2)" opacity="0.92" />
+      <path d="M 0 0 C -12 -4 -24 -16 -22 -24 C -21 -27 -18 -25 -17 -26 C -16 -27 -17 -30 -14 -31 C -6 -32 2 -22 0 0 Z" fill="url(#petalGrad1)" opacity="0.95" />
+      <circle cx="0" cy="0" r="5.5" fill="url(#sakuraPistil)" />
+      <path d="M 0 0 L -4 -9 M 0 0 L 3 -10 M 0 0 L 8 -5 M 0 0 L 8 4 M 0 0 L 3 9 M 0 0 L -5 8 M 0 0 L -8 2 M 0 0 L -8 -5" stroke="#E85D7F" stroke-width="1.1" stroke-linecap="round" opacity="0.85" />
+      <circle cx="-4" cy="-9" r="1.3" fill="#FBD38D" />
+      <circle cx="3" cy="-10" r="1.3" fill="#FBD38D" />
+      <circle cx="8" cy="-5" r="1.3" fill="#FBD38D" />
+      <circle cx="8" cy="4" r="1.3" fill="#FBD38D" />
+      <circle cx="3" cy="9" r="1.3" fill="#FBD38D" />
+      <circle cx="-5" cy="8" r="1.3" fill="#FBD38D" />
+      <circle cx="-8" cy="2" r="1.3" fill="#FBD38D" />
+      <circle cx="-8" cy="-5" r="1.3" fill="#FBD38D" />
+    </g>
+
+    <!-- Flower 2: Side angled blossom at x=142, y=92 -->
+    <g transform="translate(142, 92) rotate(-22)">
+      <path d="M 0 0 C -6 -10 -10 -20 -3 -24 C 0 -25 2 -23 3 -24 C 9 -20 8 -10 0 0 Z" fill="url(#petalGrad1)" opacity="0.92" />
+      <path d="M 0 0 C 6 -9 17 -12 21 -8 C 22 -5 20 -4 21 -3 C 21 3 14 9 0 0 Z" fill="url(#petalGrad2)" opacity="0.90" />
+      <path d="M 0 0 C 8 3 15 11 12 16 C 9 17 8 14 7 15 C 2 17 -2 12 0 0 Z" fill="url(#petalGrad1)" opacity="0.92" />
+      <path d="M 0 0 C -5 7 -12 12 -16 8 C -16 4 -14 4 -15 3 C -15 -2 -10 -6 0 0 Z" fill="url(#petalGrad2)" opacity="0.88" />
+      <circle cx="0" cy="0" r="4" fill="url(#sakuraPistil)" />
+      <path d="M 0 0 L -2 -7 M 0 0 L 3 -7 M 0 0 L 6 -2 M 0 0 L 4 5 M 0 0 L -3 5" stroke="#E85D7F" stroke-width="1" stroke-linecap="round" />
+      <circle cx="-2" cy="-7" r="1" fill="#FBD38D" />
+      <circle cx="3" cy="-7" r="1" fill="#FBD38D" />
+      <circle cx="6" cy="-2" r="1" fill="#FBD38D" />
+    </g>
+
+    <!-- Flower 3: Small bud unfurling at upper tip x=128, y=60 -->
+    <g transform="translate(128, 60) rotate(35)">
+      <path d="M -4 8 C -2 3 0 0 2 8 Z" fill="#6B7C59" opacity="0.75" />
+      <path d="M 0 5 C -7 -2 -6 -12 0 -15 C 6 -12 7 -2 0 5 Z" fill="url(#petalGrad2)" opacity="0.92" />
+      <path d="M -3 3 C -9 -3 -5 -11 0 -13 C 2 -7 0 0 -3 3 Z" fill="url(#petalGrad1)" opacity="0.88" />
+    </g>
+
+    <!-- Flower 4: Small bud at branch fork x=62, y=144 -->
+    <g transform="translate(62, 144) rotate(-40)">
+      <path d="M -3 6 C -1 2 0 0 2 6 Z" fill="#6B7C59" opacity="0.75" />
+      <path d="M 0 4 C -5 -2 -4 -9 0 -11 C 4 -9 5 -2 0 4 Z" fill="url(#petalGrad1)" opacity="0.9" />
+    </g>
+
+    <!-- Soft Drifting Petals -->
+    <g transform="translate(155, 145) rotate(42)">
+      <path d="M 0 0 C -4 -6 -6 -13 -1 -15 C 1 -15 2 -14 3 -14 C 6 -12 6 -6 0 0 Z" fill="url(#petalGrad1)" opacity="0.78" />
+    </g>
+    <g transform="translate(52, 95) rotate(-28)">
+      <path d="M 0 0 C -3 -5 -5 -10 -1 -12 C 0 -12 1 -11 2 -11 C 5 -10 5 -5 0 0 Z" fill="url(#petalGrad2)" opacity="0.65" />
+    </g>
+    <g transform="translate(115, 168) rotate(18)">
+      <path d="M 0 0 C -2 -4 -3 -8 0 -9 C 1 -9 2 -8 3 -8 C 4 -7 3 -3 0 0 Z" fill="url(#petalGrad1)" opacity="0.55" />
+    </g>
+  </svg>`;
+}
+
 function generateAestheticFallback(word) {
   const pos = getWordPartOfSpeech(word) || POS_TYPES.noun;
-  const meaning = word.meaning || '';
-  const code = pos.code || 'noun';
-
-  let motifSvg = '';
-
-  if (code === 'adj') {
-    // Faceted Radiant Gem / Diamond (representing attributes, quality, radiance)
-    motifSvg = `<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="gemGrad" x1="50" y1="60" x2="150" y2="140" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stop-color="#34d399" />
-          <stop offset="100%" stop-color="#059669" />
-        </linearGradient>
-      </defs>
-      <circle cx="100" cy="100" r="80" fill="currentColor" fill-opacity="0.03" />
-      <circle cx="100" cy="100" r="74" stroke="#10b981" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4" />
-      <path d="M64 78L82 54H118L136 78L100 146L64 78Z" fill="url(#gemGrad)" stroke="#065f46" stroke-width="2" />
-      <path d="M82 54L100 78M118 54L100 78M64 78H136M82 78L100 146M118 78L100 146" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5" />
-      <path d="M146 56L148 62L154 64L148 66L146 72L144 66L138 64L144 62Z" fill="#fef08a" />
-      <path d="M54 124L55 128L59 129L55 130L54 134L53 130L49 129L53 128Z" fill="#fef08a" />
-    </svg>`;
-  } else if (code === 'verb') {
-    // Dynamic Kinetic Action Vortex & Flight Arrow (representing motion, action, execution)
-    motifSvg = `<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="vortexGrad" x1="45" y1="45" x2="155" y2="155" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stop-color="#fb923c" />
-          <stop offset="100%" stop-color="#ea580c" />
-        </linearGradient>
-      </defs>
-      <circle cx="100" cy="100" r="80" fill="currentColor" fill-opacity="0.03" />
-      <circle cx="100" cy="100" r="74" stroke="#f97316" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4" />
-      <path d="M52 100C52 73 73 52 100 52C124 52 144 69 147 92" stroke="url(#vortexGrad)" stroke-width="7" stroke-linecap="round" />
-      <path d="M148 100C148 127 127 148 100 148C76 148 56 131 53 108" stroke="url(#vortexGrad)" stroke-width="7" stroke-linecap="round" />
-      <path d="M138 88L148 94L156 82" fill="none" stroke="#f97316" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M62 112L52 106L44 118" fill="none" stroke="#ea580c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-      <circle cx="100" cy="100" r="16" fill="#fb923c" fill-opacity="0.25" />
-      <circle cx="100" cy="100" r="8" fill="#f97316" />
-      <circle cx="100" cy="100" r="3" fill="#ffffff" />
-    </svg>`;
-  } else if (code === 'adv') {
-    // Precision Meter Gauge / Radar (representing degree, frequency, manner)
-    motifSvg = `<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="80" fill="currentColor" fill-opacity="0.03" />
-      <circle cx="100" cy="100" r="74" stroke="#f59e0b" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4" />
-      <path d="M54 135C45 112 50 84 68 66C86 48 114 43 137 52C150 58 160 68 166 82" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" />
-      <circle cx="100" cy="115" r="10" fill="#1e293b" stroke="#f59e0b" stroke-width="3" />
-      <line x1="100" y1="115" x2="132" y2="75" stroke="#ea580c" stroke-width="4.5" stroke-linecap="round" />
-      <circle cx="100" cy="115" r="3" fill="#ffffff" />
-      <line x1="58" y1="100" x2="68" y2="100" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round" />
-      <line x1="100" y1="58" x2="100" y2="68" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round" />
-      <line x1="142" y1="100" x2="132" y2="100" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round" />
-    </svg>`;
-  } else if (code === 'measure') {
-    // Modular Stacking Measure Units / Blocks
-    motifSvg = `<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="80" fill="currentColor" fill-opacity="0.03" />
-      <circle cx="100" cy="100" r="74" stroke="#f43f5e" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4" />
-      <rect x="56" y="116" width="88" height="28" rx="6" fill="#f43f5e" />
-      <line x1="85" y1="116" x2="85" y2="144" stroke="#9f1239" stroke-width="2" stroke-dasharray="3 3" />
-      <line x1="115" y1="116" x2="115" y2="144" stroke="#9f1239" stroke-width="2" stroke-dasharray="3 3" />
-      <rect x="70" y="82" width="60" height="28" rx="6" fill="#fb7185" />
-      <line x1="100" y1="82" x2="100" y2="110" stroke="#e11d48" stroke-width="2" stroke-dasharray="3 3" />
-      <rect x="84" y="48" width="32" height="28" rx="6" fill="#fecdd3" />
-    </svg>`;
-  } else if (code === 'prep' || code === 'conj' || code === 'pron') {
-    // Interlocking Nodes / Connection Bridge
-    motifSvg = `<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="80" fill="currentColor" fill-opacity="0.03" />
-      <circle cx="100" cy="100" r="74" stroke="#14b8a6" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4" />
-      <line x1="64" y1="100" x2="136" y2="100" stroke="#14b8a6" stroke-width="5" stroke-linecap="round" />
-      <path d="M64 100C78 72 122 72 136 100" stroke="#2dd4bf" stroke-width="3" stroke-dasharray="4 4" />
-      <circle cx="64" cy="100" r="16" fill="#0d9488" stroke="#115e59" stroke-width="3" />
-      <circle cx="64" cy="100" r="6" fill="#ffffff" />
-      <circle cx="136" cy="100" r="16" fill="#14b8a6" stroke="#0f766e" stroke-width="3" />
-      <circle cx="136" cy="100" r="6" fill="#ffffff" />
-    </svg>`;
-  } else {
-    // Noun / Default: Isometric 3D Crystal Cube (representing objects, entities, concepts)
-    motifSvg = `<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="cubeTopGrad" x1="70" y1="55" x2="130" y2="90" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stop-color="#818cf8" />
-          <stop offset="100%" stop-color="#6366f1" />
-        </linearGradient>
-      </defs>
-      <circle cx="100" cy="100" r="80" fill="currentColor" fill-opacity="0.03" />
-      <circle cx="100" cy="100" r="74" stroke="#6366f1" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 4" />
-      <path d="M100 55L144 80L100 105L56 80L100 55Z" fill="url(#cubeTopGrad)" stroke="#312e81" stroke-width="2" />
-      <path d="M56 80L100 105V152L56 127V80Z" fill="#4338ca" stroke="#312e81" stroke-width="2" />
-      <path d="M100 105L144 80V127L100 152V105Z" fill="#4f46e5" stroke="#312e81" stroke-width="2" />
-      <circle cx="100" cy="105" r="4" fill="#c7d2fe" />
-    </svg>`;
-  }
+  const meaning = word ? (word.meaning || '') : '';
 
   return {
     type: 'svg',
     isFallback: true,
-    svg: motifSvg,
-    caption: meaning || pos.label || 'Từ vựng JLPT'
+    svg: getJapaneseSakuraIllustrationSvg(),
+    caption: meaning || pos.label || 'Hoa anh đào · Minh họa tiếng Nhật'
   };
 }
 
