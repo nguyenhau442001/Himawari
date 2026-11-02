@@ -1,7 +1,6 @@
-// Automatic time-based theme (6:00 - 18:00 Light, 18:00 - 6:00 Dark) with manual override.
+// Japanese Sakura Blossom theme default with manual override.
 function getTimeBasedTheme() {
-  const hour = new Date().getHours();
-  return (hour >= 6 && hour < 18) ? 'light' : 'dark';
+  return 'light';
 }
 
 function getNextPeriodExpiry() {

@@ -59,6 +59,8 @@ const PRECACHE_ASSET_URLS = [
   './assets/js/dashboard-enhancements.js',
   './assets/js/study-help-modal.js',
   './assets/flashcards.js',
+  './assets/images/sakura-background.webp',
+  './assets/images/sakura-badge.png',
 ].map(path => (path.startsWith('http') ? path : new URL(path, self.registration.scope).href));
 
 const DATA_PATH = new URL('./database/', self.registration.scope).pathname;

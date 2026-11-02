@@ -948,8 +948,8 @@
 .reveal-btn[hidden], .rating-row[hidden], .today-review-answer[hidden] { display: none; }
 .rating-btn {
   position: relative; display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 8px;
-  min-width: 0; min-height: 52px; height: 52px; padding: 0 20px; border: 1.5px solid transparent;
-  border-radius: 12px; font: inherit; cursor: pointer;
+  min-width: 0; min-height: 50px; height: 50px; padding: 0 24px; border: 1.5px solid transparent;
+  border-radius: 999px; font: inherit; cursor: pointer;
   transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, color 0.16s ease, border-color 0.16s ease;
   user-select: none;
   box-sizing: border-box;
@@ -964,7 +964,7 @@
 .rating-main-label { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
 .rating-icon-wrap { display: inline-flex; align-items: center; justify-content: center; line-height: 1; flex-shrink: 0; }
 .rating-icon { width: 18px; height: 18px; display: block; }
-.rating-label { font-size: 16px; font-weight: 700; line-height: 1; white-space: nowrap; letter-spacing: 0.01em; }
+.rating-label { font-size: 15.5px; font-weight: 700; line-height: 1; white-space: nowrap; letter-spacing: 0.01em; }
 .rating-kbd { display: none; }
 .rating-interval { display: none; }
 
@@ -973,8 +973,8 @@
   align-items: center;
   gap: 2px;
   padding: 2px 7px;
-  border-radius: 6px;
-  font-size: 11.5px;
+  border-radius: 999px;
+  font-size: 11px;
   font-weight: 700;
   line-height: 1.2;
   border: 1px solid currentColor;
@@ -988,7 +988,7 @@
 }
 .rating-kbd-badge kbd {
   font-family: inherit;
-  font-size: 11.5px;
+  font-size: 11px;
   font-weight: 700;
 }
 .rating-kbd-sep {
@@ -1003,39 +1003,41 @@
   }
 }
 
-/* Light Mode Defaults: Fresh, inviting, clear contrast */
+/* Light Mode Defaults: Fresh Sakura and Mint Pills */
 .rating-btn--again {
-  background-color: #fef2f2;
-  color: #dc2626;
-  border: 1.5px solid #fee2e2;
-  box-shadow: 0 1px 3px rgba(220, 38, 38, 0.08);
+  background-color: #FFE9ED;
+  color: #DC2626;
+  border: 1.5px solid #FCA8B8;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(252, 168, 184, 0.25);
 }
 .rating-btn--again:hover {
-  background-color: #fee2e2 !important;
-  border-color: #ef4444 !important;
-  color: #b91c1c !important;
+  background-color: #FED7DE !important;
+  border-color: #EF4444 !important;
+  color: #B91C1C !important;
   box-shadow: 0 4px 14px rgba(239, 68, 68, 0.22);
   transform: translateY(-1.5px);
 }
 .rating-btn--again:active {
-  background-color: #fca5a5 !important;
+  background-color: #FCA5A5 !important;
   transform: scale(0.98);
 }
 .rating-btn--good {
-  background-color: #ecfdf5;
-  color: #16a34a;
-  border: 1.5px solid #d1fae5;
-  box-shadow: 0 1px 3px rgba(22, 163, 74, 0.08);
+  background-color: #E8F9EF;
+  color: #059669;
+  border: 1.5px solid #8CE7B0;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(140, 231, 176, 0.25);
 }
 .rating-btn--good:hover {
-  background-color: #dcfce7 !important;
-  border-color: #10b981 !important;
-  color: #15803d !important;
+  background-color: #D1F4DE !important;
+  border-color: #10B981 !important;
+  color: #047857 !important;
   box-shadow: 0 4px 14px rgba(16, 185, 129, 0.22);
   transform: translateY(-1.5px);
 }
 .rating-btn--good:active {
-  background-color: #86efac !important;
+  background-color: #86EFAC !important;
   transform: scale(0.98);
 }
 
