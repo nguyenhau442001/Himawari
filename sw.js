@@ -1,4 +1,4 @@
-const ASSET_VERSION = 'v1.0.1';
+const ASSET_VERSION = 'v1.0.2';
 const CACHE_NAME = 'himawari-app-' + ASSET_VERSION;
 const DATA_CACHE_NAME = 'himawari-data-v1';
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';
@@ -12,6 +12,7 @@ const PRECACHE_ASSET_URLS = [
   './index.html',
   './config/pwa-manifest.json',
   './assets/flashcards.css',
+  './assets/css/base.css',
   './assets/css/level-picker.css',
   './assets/css/workstation.css',
   './assets/css/fast-review-picker.css',

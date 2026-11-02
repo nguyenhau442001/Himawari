@@ -706,7 +706,6 @@ body.flashcard-study-mode .study-back-btn:hover {
   background: rgba(255, 255, 255, 0.04);
   color: #F4A7B9;
 }
-}
 :root[data-theme="dark"] body.flashcard-study-mode .study-back-btn:hover {
   background: rgba(255, 255, 255, 0.09);
   border-color: rgba(255, 255, 255, 0.18);
@@ -978,7 +977,6 @@ body.flashcard-study-mode .filter-btn.active .filter-count {
   opacity: 1;
   color: #FFFFFF;
   font-weight: 700;
-}
 }
 
 /* --------------------------------------------------------------------------
@@ -1643,13 +1641,6 @@ body.flashcard-study-mode .meaning {
 }
 :root[data-theme="dark"] body.flashcard-study-mode .meaning {
   color: #F8F5F4;
-}
-}
-:root[data-theme="dark"] body.flashcard-study-mode .meaning {
-  color: #f8fafc;
-}
-:root[data-theme="light"] body.flashcard-study-mode .meaning {
-  color: #0f172a;
 }
 
 body.flashcard-study-mode .example-box {

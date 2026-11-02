@@ -636,39 +636,65 @@ function renderLevelProgress() {
 
 
 function goBackToPicker() {
-  stopSpeech();
-  abandonReviewSession();
-  if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers();
-  setActiveStudyWord(null);
-  document.body.classList.remove('study-mode');
-  document.body.classList.remove('flashcard-study-mode');
-  const wasTopic = currentLevel && LEVELS[currentLevel] && LEVELS[currentLevel].isTopic;
-  document.getElementById('screenCards').style.display = 'none';
-  const studyLevelBadge = document.getElementById('studyLevelBadge');
-  if (studyLevelBadge) studyLevelBadge.textContent = '';
-  const vocabHub = document.getElementById('screenVocabHub');
-  if (vocabHub) vocabHub.style.display = '';
-  const auxCol = document.querySelector('.dashboard-aux-column');
-  if (auxCol) auxCol.style.display = '';
-  const continueCard = document.getElementById('continueLearningCard');
-  if (continueCard) continueCard.style.display = '';
-  document.getElementById('appTitle').textContent = 'Himawari JLPT N3';
-  document.getElementById('primaryTabs').style.display = '';
-  document.getElementById('pickerControls').style.display = '';
-  setPrimaryTab('vocab');
-  document.getElementById('learningDashboard').style.display = wasTopic ? 'none' : '';
-  setVocabSubTab(wasTopic ? 'topic' : 'level');
-  currentLevel = null;
-  currentView = 'cards';
-  overviewQuery = '';
-  overviewStatus = 'all';
-  const overlay = document.getElementById('celebrationOverlay');
-  if (overlay) overlay.remove();
-  renderLevelProgress();
-  if (pickerVersion === '3.0') renderHsk30Grid();
-  renderLearningDashboard();
-  if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
-    SpaRouter.pushView({ view: 'vocab' });
+  try {
+    stopSpeech();
+    abandonReviewSession();
+    if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers(true);
+    setActiveStudyWord(null);
+    document.body.classList.remove(
+      'study-mode',
+      'flashcard-study-mode',
+      'study-sidebar-open',
+      'is-card-swiping',
+      'reading-view-active',
+      'review-view-active',
+      'review-focus-mode',
+      'review-sheet-open',
+      'review-modal-open'
+    );
+    const historyOverlay = document.getElementById('historyOverlay');
+    if (historyOverlay) historyOverlay.remove();
+    const filterDialog = document.getElementById('studyFilterDialog');
+    if (filterDialog && typeof filterDialog.close === 'function') filterDialog.close();
+    const helpModal = document.getElementById('studyHelpModal');
+    if (helpModal && typeof closeStudyHelpModal === 'function') closeStudyHelpModal();
+    const wasTopic = currentLevel && LEVELS[currentLevel] && LEVELS[currentLevel].isTopic;
+    const screenCards = document.getElementById('screenCards');
+    if (screenCards) screenCards.style.display = 'none';
+    const studyLevelBadge = document.getElementById('studyLevelBadge');
+    if (studyLevelBadge) studyLevelBadge.textContent = '';
+    const vocabHub = document.getElementById('screenVocabHub');
+    if (vocabHub) vocabHub.style.display = '';
+    const auxCol = document.querySelector('.dashboard-aux-column');
+    if (auxCol) auxCol.style.display = '';
+    const continueCard = document.getElementById('continueLearningCard');
+    if (continueCard) continueCard.style.display = '';
+    const appTitle = document.getElementById('appTitle');
+    if (appTitle) appTitle.textContent = 'Himawari JLPT N3';
+    const primaryTabs = document.getElementById('primaryTabs');
+    if (primaryTabs) primaryTabs.style.display = '';
+    const pickerControls = document.getElementById('pickerControls');
+    if (pickerControls) pickerControls.style.display = '';
+    if (typeof setPrimaryTab === 'function') setPrimaryTab('vocab');
+    const dashboard = document.getElementById('learningDashboard');
+    if (dashboard) dashboard.style.display = wasTopic ? 'none' : '';
+    if (typeof setVocabSubTab === 'function') setVocabSubTab(wasTopic ? 'topic' : 'level');
+    currentLevel = null;
+    currentView = 'cards';
+    overviewQuery = '';
+    overviewStatus = 'all';
+    const overlay = document.getElementById('celebrationOverlay');
+    if (overlay) overlay.remove();
+    const celebCanvas = document.getElementById('celebrationCanvas');
+    if (celebCanvas) celebCanvas.remove();
+    if (typeof renderLevelProgress === 'function') renderLevelProgress();
+    if (pickerVersion === '3.0' && typeof renderHsk30Grid === 'function') renderHsk30Grid();
+    if (typeof renderLearningDashboard === 'function') renderLearningDashboard();
+    if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+      SpaRouter.pushView({ view: 'vocab' });
+    }
+  } catch (err) {
+    console.warn('goBackToPicker cleanup encountered non-fatal error:', err);
   }
 }
 

@@ -92,6 +92,32 @@ const SpaRouter = (function() {
   }
 
   function navigateBack() {
+    const currentState = window.history.state || getCurrentUrlState();
+    if (currentState && currentState.drawerOpen) {
+      if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers(true);
+      replaceView({ ...currentState, drawerOpen: false });
+      return;
+    }
+    if (currentState && currentState.view === 'cards') {
+      if (typeof goBackToPicker === 'function') goBackToPicker();
+      pushView({ view: 'vocab' });
+      return;
+    }
+    if (currentState && currentState.view === 'todayReviews') {
+      if (typeof closeTodayReviews === 'function') closeTodayReviews();
+      pushView({ view: 'vocab' });
+      return;
+    }
+    if (currentState && currentState.view === 'radicalCards') {
+      if (typeof goBackToRadicalHub === 'function') goBackToRadicalHub();
+      pushView({ view: 'tab', tab: 'radicals' });
+      return;
+    }
+    if (currentState && currentState.view === 'tab' && currentState.tab !== 'vocab') {
+      if (typeof setPrimaryTab === 'function') setPrimaryTab('vocab');
+      pushView({ view: 'vocab' });
+      return;
+    }
     if (hasNavigatedInApp && window.history.length > 1) {
       window.history.back();
     } else {
@@ -101,29 +127,29 @@ const SpaRouter = (function() {
 
   function handleFallbackBack() {
     const currentState = window.history.state || getCurrentUrlState();
-    if (currentState.drawerOpen) {
-      if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers();
+    if (currentState && currentState.drawerOpen) {
+      if (typeof closeAllStudyDrawers === 'function') closeAllStudyDrawers(true);
       replaceView({ ...currentState, drawerOpen: false });
       return;
     }
-    if (currentState.view === 'cards') {
+    if (currentState && currentState.view === 'cards') {
       if (typeof goBackToPicker === 'function') goBackToPicker();
-      replaceView({ view: 'vocab' });
+      pushView({ view: 'vocab' });
       return;
     }
-    if (currentState.view === 'todayReviews') {
+    if (currentState && currentState.view === 'todayReviews') {
       if (typeof closeTodayReviews === 'function') closeTodayReviews();
-      replaceView({ view: 'vocab' });
+      pushView({ view: 'vocab' });
       return;
     }
-    if (currentState.view === 'radicalCards') {
+    if (currentState && currentState.view === 'radicalCards') {
       if (typeof goBackToRadicalHub === 'function') goBackToRadicalHub();
-      replaceView({ view: 'tab', tab: 'radicals' });
+      pushView({ view: 'tab', tab: 'radicals' });
       return;
     }
-    if (currentState.view === 'tab') {
+    if (currentState && currentState.view === 'tab') {
       if (typeof setPrimaryTab === 'function') setPrimaryTab('vocab');
-      replaceView({ view: 'vocab' });
+      pushView({ view: 'vocab' });
       return;
     }
   }

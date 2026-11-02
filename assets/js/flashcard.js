@@ -672,13 +672,13 @@ function toggleStudyWritingPanel(forceOpen) {
   updateStudyDrawerButtons();
 }
 
-function closeAllStudyDrawers() {
+function closeAllStudyDrawers(skipHistory = false) {
   if (typeof toggleTransferPanel === 'function') toggleTransferPanel(false);
   if (typeof toggleRadicalTransferPanel === 'function') toggleRadicalTransferPanel(false);
   const wasOpen = document.body.classList.contains('study-sidebar-open');
   document.body.classList.remove('study-sidebar-open');
   updateStudyDrawerButtons();
-  if (wasOpen && typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
+  if (!skipHistory && wasOpen && typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
     if (window.history.state && window.history.state.drawerOpen) {
       window.history.back();
     }
