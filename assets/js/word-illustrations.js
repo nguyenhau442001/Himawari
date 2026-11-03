@@ -58,6 +58,7 @@ function getWordPartOfSpeech(word) {
 }
 
 const WORD_ILLUSTRATIONS_DB = {};
+const STATIC_ILLUSTRATIONS_INDEX = {};
 
 /**
  * Returns illustration config for a word.
