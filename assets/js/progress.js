@@ -232,12 +232,14 @@ function checkCelebration(prevDeck) {
   const deck = typeof computeDeckProgress === 'function' ? computeDeckProgress() : { learned: 0, total: WORDS.length, known: 0, unknown: 0 };
 
   // Milestone 2: All words mastered (100% known)
-  const masterKey = 'hsk_' + currentLevel + '_milestone_mastered';
+  const masterKey = 'himawari_' + currentLevel + '_milestone_mastered';
   if (deck.known === deck.total && deck.total > 0) {
     let already = false;
     try { already = localStorage.getItem(masterKey) === 'true'; } catch (_) {}
     if (!already || (prevDeck && prevDeck.known < prevDeck.total)) {
-      try { localStorage.setItem(masterKey, 'true'); } catch (_) {}
+      try {
+        localStorage.setItem(masterKey, 'true');
+      } catch (_) {}
       celebrationShown = true;
       // When in 'unseen' or 'unknown' filter, the card itself transitions to the In-Card Hero and auto-fires fireworks
       if (currentFilter !== 'unseen' && currentFilter !== 'unknown') {
@@ -248,12 +250,14 @@ function checkCelebration(prevDeck) {
   }
 
   // Milestone 1: All words learned / 0 unlearned (100% learned)
-  const learnedKey = 'hsk_' + currentLevel + '_milestone_learned';
+  const learnedKey = 'himawari_' + currentLevel + '_milestone_learned';
   if (deck.learned === deck.total && deck.total > 0) {
     let already = false;
     try { already = localStorage.getItem(learnedKey) === 'true'; } catch (_) {}
     if (!already || (prevDeck && prevDeck.learned < prevDeck.total)) {
-      try { localStorage.setItem(learnedKey, 'true'); } catch (_) {}
+      try {
+        localStorage.setItem(learnedKey, 'true');
+      } catch (_) {}
       celebrationShown = true;
       if (currentFilter !== 'unseen') {
         triggerAchievementCelebration('learned');

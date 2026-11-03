@@ -1,7 +1,7 @@
-// Fill-in-the-blank quiz: a Chinese sentence is missing one word, pick the correct word before time runs out.
+// Fill-in-the-blank quiz: a sentence is missing one word, pick the correct word before time runs out.
 const SPEED_QUIZ_TIME_LIMIT = 8;
 const SPEED_QUIZ_BASE_SCORE = 100;
-const SPEED_QUIZ_STORAGE_KEY = 'hsk_speed_quiz_best';
+const SPEED_QUIZ_STORAGE_KEY = 'himawari_speed_quiz_best';
 
 let speedQuizBankData = null;
 let speedQuizOrder = [];

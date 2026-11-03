@@ -43,12 +43,6 @@ const SpaRouter = (function() {
       return `${base}?level=${encodeURIComponent(lvl)}${themeParam}`;
     }
     if (state.view === 'tab' && state.tab && state.tab !== 'vocab') {
-      if (state.tab === 'gradedReading' && state.story) {
-        return `${base}?tab=gradedReading&story=${encodeURIComponent(state.story)}${themeParam}`;
-      }
-      if (state.tab === 'reading' && state.q) {
-        return `${base}?tab=reading&q=${encodeURIComponent(state.q)}${themeParam}`;
-      }
       return `${base}?tab=${encodeURIComponent(state.tab)}${themeParam}`;
     }
     if (state.view === 'todayReviews') {
@@ -210,9 +204,6 @@ const SpaRouter = (function() {
           if (typeof goBackToPicker === 'function') goBackToPicker();
         }
         setPrimaryTab(state.tab);
-        if (state.tab === 'gradedReading' && state.story && typeof GradedReading !== 'undefined') {
-          GradedReading.openStory(state.story, false);
-        }
       }
     } else if (state.view === 'todayReviews') {
       if (typeof openTodayReviews === 'function') openTodayReviews();
@@ -237,9 +228,6 @@ const SpaRouter = (function() {
       } else if (initialState.view === 'tab' && initialState.tab && initialState.tab !== 'vocab') {
         if (typeof setPrimaryTab === 'function') {
           setPrimaryTab(initialState.tab);
-          if (initialState.tab === 'gradedReading' && initialState.story && typeof GradedReading !== 'undefined') {
-            GradedReading.openStory(initialState.story, false);
-          }
         }
       } else if (initialState.view === 'todayReviews') {
         if (typeof openTodayReviews === 'function') openTodayReviews();

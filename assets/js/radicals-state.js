@@ -29,7 +29,7 @@ function radicalProgressKey(item) {
   return String(item.kangxi_id !== undefined ? item.kangxi_id : item.id);
 }
 function radicalStorageKey(suffix) {
-  return 'hsk_radical_' + suffix + '_v1';
+  return 'himawari_radical_' + suffix + '_v1';
 }
 function loadRadicalProgress() {
   try {

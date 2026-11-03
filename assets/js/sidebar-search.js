@@ -35,7 +35,7 @@ function formatSearchExample(text) {
 
 function buildSidebarSearchIndex() {
   if (sidebarSearchIndexPromise) return sidebarSearchIndexPromise;
-  const levelKeys = typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1'];
+  const levelKeys = typeof jlptLevelKeys === 'function' ? jlptLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1'];
   sidebarSearchIndexPromise = Promise.all(
     levelKeys.map(key => {
       const cfg = LEVELS[key];

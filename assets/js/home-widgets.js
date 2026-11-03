@@ -1,7 +1,7 @@
 // Home screen widgets: word of the day, 7-day review forecast, activity heatmap, forgotten words.
 // Desktop (≥1280px) mounts them in the right sidebar; smaller screens place them in the vocab hub
 // below the level grid. Data is recomputed once per progress change, and only while home is visible.
-const HOME_WORD_OF_DAY_KEY = 'hsk_word_of_day_v1';
+const HOME_WORD_OF_DAY_KEY = 'himawari_word_of_day_v1';
 // Keep the daily suggestion stable even when older imported decks have stale translations.
 const HOME_WORD_DATA_FIXES = {
   '算法': { pinyin: 'suànfǎ', meaning: 'thuật toán' },
@@ -130,7 +130,10 @@ function collectHomeSnapshot(now) {
 async function pickWordOfDay(snapshot, forceRefresh = false) {
   const today = localDateKey(snapshot.now);
   let saved = null;
-  try { saved = JSON.parse(localStorage.getItem(HOME_WORD_OF_DAY_KEY)); } catch (e) {}
+  try {
+    const raw = localStorage.getItem(HOME_WORD_OF_DAY_KEY);
+    saved = JSON.parse(raw);
+  } catch (e) {}
   if (!forceRefresh && saved && saved.date === today && LEVELS[saved.level] && LEVELS[saved.level].available) {
     const words = await loadHomeVocab(saved.level);
     const word = words.find(item => item.id === saved.wordId);

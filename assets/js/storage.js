@@ -1,13 +1,14 @@
-// Local persistence for the currently selected HSK level.
+// Local persistence for the currently selected JLPT level.
 const SRS_SCHEMA_VERSION = 3;
-const SRS_RETENTION_KEY = 'hsk_srs_prefs_v1';
+const SRS_RETENTION_KEY = 'himawari_srs_prefs_v1';
 
-function srsCardsKey(level) { return 'hsk_' + level + '_srs_v3'; }
-function reviewLogKey(level) { return 'hsk_' + level + '_review_log_v1'; }
+function srsCardsKey(level) { return 'himawari_' + level + '_srs_v3'; }
+function reviewLogKey(level) { return 'himawari_' + level + '_review_log_v1'; }
 
 function readSrsRecord(level) {
   try {
-    const record = JSON.parse(localStorage.getItem(srsCardsKey(level)));
+    const raw = localStorage.getItem(srsCardsKey(level));
+    const record = JSON.parse(raw);
     if (record && record.schemaVersion === SRS_SCHEMA_VERSION && record.cards && typeof record.cards === 'object') return record;
   } catch (e) {}
   return null;
@@ -15,7 +16,8 @@ function readSrsRecord(level) {
 
 function readSrsReviewLog(level) {
   try {
-    const log = JSON.parse(localStorage.getItem(reviewLogKey(level)));
+    const raw = localStorage.getItem(reviewLogKey(level));
+    const log = JSON.parse(raw);
     return Array.isArray(log) ? log : [];
   } catch (e) { return []; }
 }
@@ -60,7 +62,8 @@ function appendImportedReviewLog(level, entries) {
 
 function retentionFromPrefs() {
   try {
-    const prefs = JSON.parse(localStorage.getItem(SRS_RETENTION_KEY));
+    const raw = localStorage.getItem(SRS_RETENTION_KEY);
+    const prefs = JSON.parse(raw);
     if (prefs && Number.isFinite(Number(prefs.desiredRetention))) return SRS.normalizeRetention(prefs.desiredRetention);
   } catch (e) {}
   return SRS.DEFAULT_RETENTION;
@@ -147,7 +150,7 @@ function loadSrsForLevel(level, words, legacyProgress) {
 function loadState() {
   let legacy = {};
   try {
-    const p = localStorage.getItem('hsk_' + currentLevel + '_progress_v2');
+    const p = localStorage.getItem('himawari_' + currentLevel + '_progress_v2');
     if (p) legacy = JSON.parse(p);
   } catch (e) {}
   srsCards = loadSrsForLevel(currentLevel, WORDS, legacy);
@@ -156,9 +159,9 @@ function loadState() {
   // SRS review hides pinyin on the front by default; the old showPinyin pref is ignored on purpose.
   showPinyin = false;
   try {
-    const pref = localStorage.getItem(storageKey('prefs'));
-    if (pref) {
-      const parsed = JSON.parse(pref);
+    const rawPref = localStorage.getItem(storageKey('prefs'));
+    if (rawPref) {
+      const parsed = JSON.parse(rawPref);
       if (typeof parsed.frontPinyin === 'boolean') showPinyin = parsed.frontPinyin;
       if (Array.isArray(parsed.order) && parsed.order.length === WORDS.length) order = parsed.order;
     }
@@ -179,7 +182,8 @@ function saveLevelProgress(level, progressObj) {
 
 function readSavedLevelProgressLegacy(level) {
   try {
-    const parsed = JSON.parse(localStorage.getItem('hsk_' + level + '_progress_v2'));
+    const raw = localStorage.getItem('himawari_' + level + '_progress_v2');
+    const parsed = JSON.parse(raw);
     return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
   } catch (e) { return {}; }
 }

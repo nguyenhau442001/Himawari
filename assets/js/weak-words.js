@@ -1,5 +1,5 @@
 // Left sidebar: starred/weak words list, backed by localStorage.
-const WEAK_WORDS_KEY = 'hsk_weak_words_v1';
+const WEAK_WORDS_KEY = 'himawari_weak_words_v1';
 
 function loadWeakWords() {
   try {

@@ -45,7 +45,7 @@ function loadNextGuessWordRound() {
   }
   const levelBadge = document.getElementById('guessWordLevelBadge');
   if (levelBadge) {
-    levelBadge.textContent = (entry.source || 'JLPT N3').toUpperCase().replace(/HSK\s*\d*/i, 'JLPT N3');
+    levelBadge.textContent = (entry.source || 'JLPT N3').toUpperCase();
   }
 
   const distractors = shuffleGuessWordArray(

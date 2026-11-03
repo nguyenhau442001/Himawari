@@ -25,14 +25,16 @@ function pinyinLooseMatch(input, target) {
 const REVIEW_RANGE_LEVELS = ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1'];
 let reviewSelectedLevel = 1;
 try {
-  const savedLevel = parseInt(localStorage.getItem('hsk_fast_review_level'), 10);
+  const savedLevel = parseInt(localStorage.getItem('himawari_fast_review_level'), 10);
   if (savedLevel >= 1 && savedLevel <= 5) reviewSelectedLevel = savedLevel;
 } catch (e) {}
 
 function selectReviewLevel(level) {
   const n = Math.max(1, Math.min(5, Number(level) || 1));
   reviewSelectedLevel = n;
-  try { localStorage.setItem('hsk_fast_review_level', String(n)); } catch (e) {}
+  try {
+    localStorage.setItem('himawari_fast_review_level', String(n));
+  } catch (e) {}
 
   const slider = document.getElementById('reviewRangeSlider');
   if (slider) slider.value = n;

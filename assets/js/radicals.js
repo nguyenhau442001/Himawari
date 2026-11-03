@@ -37,8 +37,6 @@ const PRIMARY_TAB_SCREENS = {
   vocab: { tabId: 'primaryTabVocab', screenId: 'screenVocabHub' },
   radicals: { tabId: 'primaryTabRadicals', screenId: 'screenRadicalHub' },
   review: { tabId: 'primaryTabReview', screenId: 'screenReviewPicker' },
-  reading: { tabId: 'primaryTabReading', screenId: 'screenReadingAnalysis' },
-  gradedReading: { tabId: 'primaryTabGradedReading', screenId: 'screenGradedReading' },
   sentenceGame: { tabId: 'primaryTabSentenceGame', screenId: 'screenSentenceGame' },
   guessWord: { tabId: 'primaryTabGuessWord', screenId: 'screenGuessWord' },
   speedQuiz: { tabId: 'primaryTabSpeedQuiz', screenId: 'screenSpeedQuiz' },
@@ -48,7 +46,7 @@ let vocabSubTab = 'level';
 
 function setVocabSubTab(tab) {
   vocabSubTab = tab;
-  try { localStorage.setItem('hsk_vocab_subtab', tab); } catch (e) {}
+  try { localStorage.setItem('himawari_vocab_subtab', tab); } catch (e) {}
   const tabLevel = document.getElementById('vocabSubTabLevel');
   const tabTopic = document.getElementById('vocabSubTabTopic');
   if (tabLevel) {
@@ -83,7 +81,7 @@ function setVocabSubTab(tab) {
 }
 
 try {
-  const savedVocabTab = localStorage.getItem('hsk_vocab_subtab');
+  const savedVocabTab = localStorage.getItem('himawari_vocab_subtab');
   if (savedVocabTab === 'topic') {
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', () => setVocabSubTab('topic'));
@@ -122,18 +120,10 @@ function setPrimaryTab(tab, options) {
   const mobReview = document.getElementById('mobNavReview');
   if (mobVocab) mobVocab.classList.toggle('active', tab === 'vocab');
   if (mobReview) mobReview.classList.toggle('active', tab === 'review');
-  const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz', 'reading', 'gradedReading'].includes(tab);
+  const isTool = ['radicals', 'sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
   const isGame = ['sentenceGame', 'guessWord', 'speedQuiz'].includes(tab);
   document.body.classList.toggle('is-game-view', isGame);
-  document.body.classList.toggle('reading-view-active', tab === 'reading');
-  document.body.classList.toggle('graded-reading-active', tab === 'gradedReading');
   document.body.classList.toggle('review-view-active', tab === 'review');
-  if (tab !== 'reading') {
-    document.body.classList.remove('reading-zen-active');
-  }
-  if (tab !== 'gradedReading') {
-    document.body.classList.remove('graded-pinyin-hidden', 'graded-translation-hidden', 'graded-story-active');
-  }
   const gamesMenu = document.getElementById('primaryGamesMenu');
   if (gamesMenu) {
     gamesMenu.open = false;
@@ -145,12 +135,6 @@ function setPrimaryTab(tab, options) {
   if (continueCard) continueCard.style.display = tab === 'vocab' ? '' : 'none';
   if (tab !== 'vocab') setActiveStudyWord(null);
   if (tab === 'radicals') ensureRadicalDataLoaded();
-  if (tab === 'reading') {
-    if (typeof startReadingAnalysis === 'function') startReadingAnalysis();
-  }
-  if (tab === 'gradedReading') {
-    if (typeof GradedReading !== 'undefined') GradedReading.init();
-  }
   if (tab === 'review') {
     if (typeof showReviewSetup === 'function') {
       showReviewSetup();

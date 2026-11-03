@@ -265,7 +265,9 @@ document.addEventListener('pointerdown', event => {
 
 function toggleHanViet() {
   showHanViet = !showHanViet;
-  try { localStorage.setItem('hsk_show_hanviet', String(showHanViet)); } catch (e) {}
+  try {
+    localStorage.setItem('himawari_show_hanviet', String(showHanViet));
+  } catch (e) {}
   document.body.classList.toggle('hide-hanviet', !showHanViet);
   document.documentElement.classList.toggle('hide-hanviet', !showHanViet);
   const badge = document.getElementById('hanvietBadge');

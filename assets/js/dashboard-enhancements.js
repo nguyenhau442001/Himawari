@@ -64,7 +64,7 @@ function renderDashboardEnhancements() {
     const activity = readStudyActivity();
     const today = localDateKey(new Date());
     const todayWords = new Set(dayWordCount(activity.days[today]) ? activity.days[today].words : []);
-    (typeof hskLevelKeys === 'function' ? hskLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1']).forEach(level => {
+    (typeof jlptLevelKeys === 'function' ? jlptLevelKeys() : ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1']).forEach(level => {
       const card = document.querySelector(`.level-card[data-level="${level}"]`);
       if (!card || !LEVELS[level]) return;
       const cfg = LEVELS[level];

@@ -1,5 +1,5 @@
 // Sentence-ordering game: drag/tap words from database/vocabs/sentence_bank.json into the right order.
-// Features HSK level filter, cumulative/exact scope, focus mode, smart distractors, and pinyin toggle.
+// Features JLPT level filter, cumulative/exact scope, focus mode, smart distractors, and reading toggle.
 
 let sentenceBankData = null;
 let sentenceGameLevel = 'all';
@@ -37,7 +37,7 @@ function getSentenceGameFilteredPool() {
 
   const filtered = sentenceBankData.filter(item => {
     if (item.level === sentenceGameLevel) return true;
-    if ((sentenceGameLevel === 'jlpt_n3' || sentenceGameLevel === 'hsk1') && (item.level === 'hsk1' || item.level === 'n3_all')) return true;
+    if (sentenceGameLevel === 'jlpt_n3' && item.level === 'n3_all') return true;
     return false;
   });
   return filtered.length ? filtered : sentenceBankData;
@@ -45,7 +45,7 @@ function getSentenceGameFilteredPool() {
 
 function setSentenceGameLevel(level) {
   sentenceGameLevel = level;
-  try { localStorage.setItem('hsk_sentence_lvl', level); } catch (e) {}
+  try { localStorage.setItem('himawari_sentence_lvl', level); } catch (e) {}
 
   document.querySelectorAll('.sentence-lvl-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.level === level);
@@ -60,7 +60,7 @@ function setSentenceGameLevel(level) {
 
 function setSentenceGameScope(scope) {
   sentenceGameScope = scope;
-  try { localStorage.setItem('hsk_sentence_scope', scope); } catch (e) {}
+  try { localStorage.setItem('himawari_sentence_scope', scope); } catch (e) {}
 
   sentenceGameFilteredPool = getSentenceGameFilteredPool();
   updateSentenceGamePoolBadge();
@@ -78,7 +78,7 @@ function updateSentenceGamePoolBadge() {
 
 function toggleSentenceGamePinyin() {
   sentenceGameShowPinyin = !sentenceGameShowPinyin;
-  try { localStorage.setItem('hsk_sentence_pinyin', String(sentenceGameShowPinyin)); } catch (e) {}
+  try { localStorage.setItem('himawari_sentence_reading', String(sentenceGameShowPinyin)); } catch (e) {}
   syncSentenceGamePinyinUI();
   renderSentenceGameBoard();
 }
@@ -88,7 +88,7 @@ function syncSentenceGamePinyinUI() {
   const label = document.getElementById('sentenceGamePinyinLabel');
   const btn = document.getElementById('sentenceGamePinyinBtn');
   if (icon) icon.textContent = sentenceGameShowPinyin ? '👁' : '🙈';
-  if (label) label.textContent = sentenceGameShowPinyin ? 'Pinyin: Bật' : 'Pinyin: Tắt';
+  if (label) label.textContent = sentenceGameShowPinyin ? 'Cách đọc: Bật' : 'Cách đọc: Tắt';
   if (btn) btn.classList.toggle('active', sentenceGameShowPinyin);
 }
 
@@ -106,7 +106,7 @@ function toggleSentenceGameFocus(force) {
       ? '<span>⛶</span> <span>Thoát tập trung</span>'
       : '<span>🎯</span> <span>Tập trung</span>';
   }
-  try { localStorage.setItem('hsk_sentence_focus', String(sentenceGameFocusMode)); } catch (e) {}
+  try { localStorage.setItem('himawari_sentence_focus', String(sentenceGameFocusMode)); } catch (e) {}
 }
 
 async function startSentenceGame() {
@@ -114,14 +114,13 @@ async function startSentenceGame() {
   if (bankEl) bankEl.innerHTML = '<div class="loading-text">Đang tải ngân hàng câu hỏi...</div>';
 
   try {
-    let savedLevel = localStorage.getItem('hsk_sentence_lvl');
-    if (savedLevel && savedLevel.startsWith('hsk')) savedLevel = 'jlpt_n3';
+    let savedLevel = localStorage.getItem('himawari_sentence_lvl');
     if (savedLevel) sentenceGameLevel = savedLevel;
-    const savedScope = localStorage.getItem('hsk_sentence_scope');
+    const savedScope = localStorage.getItem('himawari_sentence_scope');
     if (savedScope) sentenceGameScope = savedScope;
-    const savedPinyin = localStorage.getItem('hsk_sentence_pinyin');
+    const savedPinyin = localStorage.getItem('himawari_sentence_reading');
     if (savedPinyin !== null) sentenceGameShowPinyin = savedPinyin !== 'false';
-    const savedFocus = localStorage.getItem('hsk_sentence_focus');
+    const savedFocus = localStorage.getItem('himawari_sentence_focus');
     if (savedFocus !== null) sentenceGameFocusMode = savedFocus === 'true';
     else sentenceGameFocusMode = true; // default focus mode on for immersive learning
   } catch (e) {}
@@ -190,7 +189,7 @@ function loadNextSentenceGameRound() {
   document.getElementById('sentenceGameMeaning').textContent = entry.meaning || '';
   const levelTag = document.getElementById('sentenceLevelTag');
   if (levelTag) {
-    levelTag.textContent = (entry.level || 'JLPT N3').toUpperCase().replace(/HSK\s*\d*/i, 'JLPT N3');
+    levelTag.textContent = (entry.level || 'JLPT N3').toUpperCase();
   }
   const grammarTag = document.getElementById('sentenceGrammarTag');
   if (grammarTag) {

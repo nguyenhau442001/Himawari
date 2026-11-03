@@ -21,7 +21,7 @@ function initSidebarTabs() {
     mount.insertBefore(header, mount.firstChild);
   }
 
-  const saved = localStorage.getItem('hsk_sidebar_tab') || 'stroke';
+  const saved = localStorage.getItem('himawari_sidebar_tab') || 'stroke';
   const savedTab = saved === 'all' ? 'stroke' : saved;
 
   const nav = document.createElement('nav');
@@ -85,7 +85,7 @@ function initSidebarTabs() {
     }
 
     if (save) {
-      try { localStorage.setItem('hsk_sidebar_tab', active); } catch (e) {}
+      try { localStorage.setItem('himawari_sidebar_tab', active); } catch (e) {}
     }
   }
 

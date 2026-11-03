@@ -30,8 +30,8 @@ function getEffectiveTheme() {
     const urlParam = new URLSearchParams(window.location.search).get('theme');
     if (urlParam === 'dark' || urlParam === 'light') return urlParam;
   } catch (e) {}
-  const manual = localStorage.getItem('hsk_theme_manual');
-  const expiry = parseInt(localStorage.getItem('hsk_theme_manual_expiry') || '0', 10);
+  const manual = localStorage.getItem('himawari_theme_manual');
+  const expiry = parseInt(localStorage.getItem('himawari_theme_manual_expiry') || '0', 10);
   if (manual && Date.now() < expiry) {
     return manual;
   }
@@ -69,9 +69,9 @@ function applyTheme(theme, animate) {
 function toggleTheme() {
   const current = document.documentElement.dataset.theme || getEffectiveTheme();
   const next = current === 'dark' ? 'light' : 'dark';
-  localStorage.setItem('hsk_theme_manual', next);
-  localStorage.setItem('hsk_theme_manual_expiry', String(getNextPeriodExpiry()));
-  localStorage.setItem('hsk_theme', next);
+  localStorage.setItem('himawari_theme_manual', next);
+  localStorage.setItem('himawari_theme_manual_expiry', String(getNextPeriodExpiry()));
+  localStorage.setItem('himawari_theme', next);
   applyTheme(next, true);
 }
 

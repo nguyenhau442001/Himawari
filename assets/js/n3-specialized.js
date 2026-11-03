@@ -1,0 +1,95 @@
+// JLPT N3 Specialized deck picker (grammar, Mimi kara, Shinkanzen, Mondai practice).
+const PICKER_VERSION_STORAGE_KEY = 'himawari_picker_version';
+let pickerVersion = '2.0';
+
+function getInitialPickerVersion() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const paramVer = params.get('version');
+    if (paramVer === '2.0' || paramVer === '3.0') return paramVer;
+  } catch (e) {}
+  try {
+    const saved = localStorage.getItem(PICKER_VERSION_STORAGE_KEY);
+    if (saved === '2.0' || saved === '3.0') return saved;
+  } catch (e) {}
+  return '2.0';
+}
+
+function setPickerVersion(version) {
+  pickerVersion = version;
+  try {
+    localStorage.setItem(PICKER_VERSION_STORAGE_KEY, version);
+  } catch (e) {}
+  const selector = document.getElementById('pickerVersionSelect');
+  if (selector) selector.value = version;
+  const g20 = document.getElementById('levelGrid20');
+  const g30 = document.getElementById('levelGrid30');
+  if (g20) g20.style.display = version === '2.0' ? '' : 'none';
+  if (g30) g30.style.display = version === '3.0' ? '' : 'none';
+  if (version === '3.0') renderN3SpecializedGrid();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const initVer = getInitialPickerVersion();
+  if (initVer && initVer !== '2.0') {
+    setPickerVersion(initVer);
+  }
+});
+
+function n3SpecializedKnownCount(level) {
+  const data = readSavedLevelProgress(level);
+  return Object.values(data).filter(status => status === 'known').length;
+}
+
+function renderN3SpecializedGrid() {
+  const grid = document.getElementById('levelGrid30');
+  if (!grid) return;
+
+  const deckKeys = typeof n3SpecializedLevelKeys === 'function' ? n3SpecializedLevelKeys() : [];
+  const decksDb = typeof LEVELS_N3_SPECIALIZED !== 'undefined' ? LEVELS_N3_SPECIALIZED : LEVELS;
+
+  grid.innerHTML = deckKeys.map(key => {
+    const cfg = decksDb[key] || LEVELS[key];
+    if (!cfg) return '';
+    const known = n3SpecializedKnownCount(key);
+    const rawPct = cfg.total > 0 ? (known / cfg.total * 100) : 0;
+    const pctStr = typeof formatProgressPercent === 'function'
+      ? formatProgressPercent(known, cfg.total)
+      : (cfg.total > 0 ? `${parseFloat(rawPct.toFixed(3))}%` : '0%');
+    const complete = known >= cfg.total;
+    const isLearning = known > 0 && !complete;
+    const shortLabel = cfg.label;
+    const metaText = `${cfg.band} · ${cfg.total.toLocaleString('vi-VN')} mục`;
+    const tooltip = `${cfg.label} · ${cfg.band} · ${known}/${cfg.total} mục (${pctStr})`;
+
+    const statusBadge = complete
+      ? '<span class="level-status-badge is-complete">✓ Hoàn thành</span>'
+      : isLearning
+      ? '<span class="level-status-badge is-learning">● Đang học</span>'
+      : '<span class="level-status-badge">Chưa học</span>';
+
+    return `
+      <button class="level-card n3-specialized-card ${cfg.available ? '' : 'disabled'}${complete ? ' is-complete-level' : ''}${isLearning ? ' is-learning-level' : ''}"
+        type="button" data-level="${key}" title="${tooltip}" aria-label="${cfg.label}"
+        ${cfg.available ? `onclick="selectLevel('${key}')"` : 'disabled'}>
+        <div class="level-card-top">
+          <div class="level-card-heading">
+            <strong class="lvl-num">${shortLabel}</strong>
+          </div>
+          <strong class="lvl-percent-value">${pctStr}</strong>
+        </div>
+        <div class="level-card-meta">
+          <span class="lvl-label">${metaText}</span>
+        </div>
+        <div class="level-card-progress">
+          <div class="lvl-mastery-track" aria-hidden="true">
+            <div class="lvl-mastery-fill" style="width:${known > 0 ? Math.max(rawPct, 0.75) : 0}%"></div>
+          </div>
+        </div>
+        <div class="level-card-bottom">
+          <span class="lvl-mastery-text">${known.toLocaleString('vi-VN')} / ${cfg.total.toLocaleString('vi-VN')} đã nhớ</span>
+          ${statusBadge}
+        </div>
+      </button>`;
+  }).join('');
+}

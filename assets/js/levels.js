@@ -20,7 +20,7 @@ function hasSavedProgress() {
     try {
       const srs = readSrsRecord(level);
       if (srs && Object.keys(srs.cards).length > 0) return true;
-      const raw = localStorage.getItem('hsk_' + level + '_progress_v2');
+      const raw = localStorage.getItem('himawari_' + level + '_progress_v2');
       return raw && Object.keys(JSON.parse(raw)).length > 0;
     } catch (e) {
       return false;
@@ -30,15 +30,16 @@ function hasSavedProgress() {
 
 const DEFAULT_DAILY_STUDY_GOAL = 10;
 const DAILY_STUDY_GOAL_OPTIONS = [10, 20, 50];
-const DAILY_STUDY_GOAL_KEY = 'hsk_daily_study_goal_v1';
-const STUDY_ACTIVITY_KEY = 'hsk_study_activity_v1';
-const LAST_LEVEL_KEY = 'hsk_last_level_v1';
+const DAILY_STUDY_GOAL_KEY = 'himawari_daily_study_goal_v1';
+const STUDY_ACTIVITY_KEY = 'himawari_study_activity_v1';
+const LAST_LEVEL_KEY = 'himawari_last_level_v1';
 
 function readSavedLevelProgress(level) {
   const srs = readSrsRecord(level);
   if (srs) return progressFromCards(srs.cards);
   try {
-    const parsed = JSON.parse(localStorage.getItem('hsk_' + level + '_progress_v2'));
+    const raw = localStorage.getItem('himawari_' + level + '_progress_v2');
+    const parsed = JSON.parse(raw);
     return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
   } catch (e) {
     return {};
@@ -536,8 +537,8 @@ function showWelcomeToast() {
   if (!toast || !messageNode) return;
 
   try {
-    if (sessionStorage.getItem('hsk_welcome_shown_v1')) return;
-    sessionStorage.setItem('hsk_welcome_shown_v1', '1');
+    if (sessionStorage.getItem('himawari_welcome_shown_v1')) return;
+    sessionStorage.setItem('himawari_welcome_shown_v1', '1');
   } catch (e) {}
 
   const now = new Date();
@@ -546,8 +547,9 @@ function showWelcomeToast() {
   let previousGreeting = '';
 
   try {
-    history = JSON.parse(localStorage.getItem('hsk_visit_history_v1'));
-    previousGreeting = localStorage.getItem('hsk_last_greeting_v1') || '';
+    const rawHistory = localStorage.getItem('himawari_visit_history_v1');
+    history = JSON.parse(rawHistory);
+    previousGreeting = localStorage.getItem('himawari_last_greeting_v1') || '';
   } catch (e) {}
 
   let greeting;
@@ -591,8 +593,8 @@ function showWelcomeToast() {
   }
 
   try {
-    localStorage.setItem('hsk_visit_history_v1', JSON.stringify({ lastVisit: today }));
-    localStorage.setItem('hsk_last_greeting_v1', greeting);
+    localStorage.setItem('himawari_visit_history_v1', JSON.stringify({ lastVisit: today }));
+    localStorage.setItem('himawari_last_greeting_v1', greeting);
   } catch (e) {}
 
   messageNode.textContent = greeting;
@@ -688,7 +690,7 @@ function goBackToPicker() {
     const celebCanvas = document.getElementById('celebrationCanvas');
     if (celebCanvas) celebCanvas.remove();
     if (typeof renderLevelProgress === 'function') renderLevelProgress();
-    if (pickerVersion === '3.0' && typeof renderHsk30Grid === 'function') renderHsk30Grid();
+    if (pickerVersion === '3.0' && typeof renderN3SpecializedGrid === 'function') renderN3SpecializedGrid();
     if (typeof renderLearningDashboard === 'function') renderLearningDashboard();
     if (typeof SpaRouter !== 'undefined' && !SpaRouter.isNavigatingFromPopstate()) {
       SpaRouter.pushView({ view: 'vocab' });
@@ -720,7 +722,7 @@ async function selectLevel(level, targetWordIdOrHanzi = null, autoReveal = false
   if (typeof speedQuizTimerId !== 'undefined' && speedQuizTimerId) clearInterval(speedQuizTimerId);
   const gamesMenu = document.getElementById('primaryGamesMenu');
   if (gamesMenu) gamesMenu.open = false;
-  ['screenSentenceGame', 'screenGuessWord', 'screenSpeedQuiz', 'screenRadicalHub', 'screenRadicalCards', 'screenReviewPicker', 'screenReadingAnalysis', 'screenGradedReading'].forEach(id => {
+  ['screenSentenceGame', 'screenGuessWord', 'screenSpeedQuiz', 'screenRadicalHub', 'screenRadicalCards', 'screenReviewPicker'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.style.display = 'none';
   });

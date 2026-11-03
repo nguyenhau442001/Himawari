@@ -138,14 +138,13 @@ const LEVELS = {
   },
 };
 
-// Mapping of legacy level keys to modern canonical JLPT keys
+// Canonical JLPT keys
 const CANONICAL_LEVEL_MAP = {
-  hsk1: 'jlpt_n5',
-  hsk2: 'jlpt_n4',
-  hsk3: 'jlpt_n3',
-  hsk4: 'jlpt_n2',
-  hsk5: 'jlpt_n1',
-  hsk6: 'n3_all',
+  n5: 'jlpt_n5',
+  n4: 'jlpt_n4',
+  n3: 'jlpt_n3',
+  n2: 'jlpt_n2',
+  n1: 'jlpt_n1',
 };
 
 function canonicalizeLevel(level) {
@@ -158,18 +157,8 @@ if (typeof window !== 'undefined') {
   window.LEVELS = LEVELS;
 }
 
-// Aliases for backwards compatibility (defined as non-enumerable so Object.keys(LEVELS) stays clean)
-['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'].forEach(alias => {
-  const targetKey = CANONICAL_LEVEL_MAP[alias];
-  Object.defineProperty(LEVELS, alias, {
-    get() { return LEVELS[targetKey]; },
-    enumerable: false,
-    configurable: true,
-  });
-});
-
 // JLPT N3 Grammar & Specialized decks (accessible via the switch tab)
-const LEVELS_HSK30 = {
+const LEVELS_N3_SPECIALIZED = {
   n3_all: { label: 'N3 Tổng hợp', band: 'Từ vựng N3', dataUrl: 'database/vocabs/n3_all.json', available: true, total: 688, version: '3.0' },
   n3_verbs: { label: 'Động từ N3', band: 'Mimi kara', dataUrl: 'database/vocabs/n3_verbs.json', available: true, total: 169, version: '3.0' },
   n3_nouns: { label: 'Danh từ N3', band: 'Mimi kara', dataUrl: 'database/vocabs/n3_nouns.json', available: true, total: 82, version: '3.0' },
@@ -184,7 +173,7 @@ const LEVELS_HSK30 = {
   n3_reading_listening: { label: 'Đọc & Nghe hiểu', band: 'Kỹ năng', dataUrl: 'database/vocabs/n3_reading_listening.json', available: true, total: 264, version: '3.0' },
   n3_exam_practice: { label: 'Luyện đề Mondai', band: 'Luyện thi', dataUrl: 'database/vocabs/n3_exam_practice.json', available: true, total: 172, version: '3.0' },
 };
-Object.assign(LEVELS, LEVELS_HSK30);
+Object.assign(LEVELS, LEVELS_N3_SPECIALIZED);
 
 // Topic decks: same word schema as LEVELS, browsed from the "Chủ đề" tab.
 const TOPICS = {
@@ -195,11 +184,11 @@ const TOPICS = {
 };
 Object.assign(LEVELS, TOPICS);
 
-function hskLevelKeys() {
+function jlptLevelKeys() {
   return ['jlpt_n5', 'jlpt_n4', 'jlpt_n3', 'jlpt_n2', 'jlpt_n1'];
 }
 
-function hsk30LevelKeys() {
+function n3SpecializedLevelKeys() {
   return [
     'n3_all', 'n3_verbs', 'n3_nouns', 'n3_adjectives', 'n3_adverbs', 'n3_katakana', 'n3_kanji_minna', 'n3_kanji_all',
     'n3_grammar_skz', 'n3_grammar_mimi', 'n3_grammar_minna', 'n3_reading_listening', 'n3_exam_practice'
@@ -221,7 +210,7 @@ let srsRetention = 0.9;
 let showPinyin = true;
 let showHanViet = (function() {
   try {
-    const saved = localStorage.getItem('hsk_show_hanviet');
+    const saved = localStorage.getItem('himawari_show_hanviet');
     return saved !== null ? saved === 'true' : true;
   } catch (e) {
     return true;
@@ -321,7 +310,7 @@ document.addEventListener('touchstart', warmUpSpeech, { once: true, passive: tru
 document.addEventListener('click', warmUpSpeech, { once: true });
 
 function storageKey(suffix) {
-  return 'hsk_' + currentLevel + '_' + suffix + '_v2';
+  return 'himawari_' + currentLevel + '_' + suffix + '_v2';
 }
 
 let activeStudyWord = null;
