@@ -1,4 +1,4 @@
-const ASSET_VERSION = 'v1.0.4';
+const ASSET_VERSION = 'v1.0.5';
 const CACHE_NAME = 'himawari-app-' + ASSET_VERSION;
 const DATA_CACHE_NAME = 'himawari-data-v1';
 const FSRS_CDN_URL = 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.1/dist/index.umd.js';

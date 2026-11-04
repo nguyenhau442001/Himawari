@@ -127,10 +127,6 @@
   --example-bg: rgba(244, 167, 185, 0.035);
   --example-border: rgba(244, 167, 185, 0.1);
 }
-  --warning-text: #fbbf24;
-  --example-bg: rgba(255, 255, 255, 0.03);
-  --example-border: rgba(255, 255, 255, 0.06);
-}
 :root[data-theme="light"] {
   --bg: #FAF2EE;
   --card-bg: #FFFFFF;

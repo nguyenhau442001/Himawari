@@ -692,8 +692,6 @@ body.flashcard-study-mode .view-tabs {
   background: rgba(244, 167, 185, 0.05);
   border-color: rgba(244, 167, 185, 0.12);
 }
-  border-color: rgba(255, 255, 255, 0.05);
-}
 body.flashcard-study-mode .view-tab {
   display: inline-flex;
   align-items: center;
