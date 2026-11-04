@@ -12,8 +12,10 @@
 ## Commit Rules
 
 - Always commit code directly on `main` when finishing a task.
+- After committing, push to GitHub (`git push origin main`) without asking.
 - Keep commits small and focused.
 - Always write commit messages in English.
+- Do not add `Co-Authored-By` lines or any other AI/Claude attribution to commit messages. Commits must show only me as the author.
 
 ## Dangerous Git Commands
 
