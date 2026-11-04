@@ -740,9 +740,21 @@ function ensureStudyWordList() {
   return panel;
 }
 
+// Tracks the key of the last full rebuild so we can skip it on simple card advances.
+let _studyListRebuildKey = null;
+let _studyListPrevActiveIdx = -1;
+
 function renderStudyWordList() {
   const panel = ensureStudyWordList();
   if (!panel) return;
+
+  // Skip expensive full rebuild when the sidebar is not visible.
+  // On mobile the panel only shows when study-sidebar-open is set;
+  // on desktop dock (≥1280px) the right column is always visible.
+  const isSidebarOpen = document.body.classList.contains('study-sidebar-open');
+  const isDesktopDock = document.body.classList.contains('is-desktop-dock');
+  if (!isSidebarOpen && !isDesktopDock) return;
+
   const items = panel.querySelector('#studyWordListItems');
   const searchInput = panel.querySelector('#studyWordListSearch');
   const query = searchInput ? searchInput.value.trim() : '';
@@ -774,6 +786,48 @@ function renderStudyWordList() {
       activeBanner.innerHTML = '<span class="active-kicker">Chọn một từ để học</span>';
     }
   }
+
+  // Quick-update path: when the list structure has not changed (same level, filter,
+  // and search query), just move the active highlight and patch the previously-rated
+  // word's status icon instead of rebuilding all N buttons.
+  const rebuildKey = `${currentLevel}:${currentFilter}:${query}`;
+  if (rebuildKey === _studyListRebuildKey && items && items.firstChild) {
+    // Remove active from all items (safe even if _studyListPrevActiveIdx is stale
+    // e.g. when the sidebar was closed for several swipes then re-opened).
+    items.querySelectorAll('.study-word-list-item.active').forEach(el => {
+      el.classList.remove('active');
+      el.setAttribute('aria-selected', 'false');
+    });
+    // Patch the status icon of the word that was last shown as active (likely just rated)
+    const prevIdx = _studyListPrevActiveIdx;
+    if (prevIdx >= 0 && prevIdx !== currentIndex) {
+      const prevBtn = items.querySelector(`[data-word-index="${prevIdx}"]`);
+      if (prevBtn) {
+        const prevWord = WORDS[prevIdx];
+        if (prevWord) {
+          const st = progress[prevWord.id];
+          const icon = st === 'known' ? '✓' : st === 'unknown' ? '✗' : '·';
+          const cls = `study-word-status ${st === 'known' ? 'status-known' : st === 'unknown' ? 'status-unknown' : 'status-unseen'}`;
+          const sp = prevBtn.querySelector('.study-word-status');
+          if (sp) { sp.textContent = icon; sp.className = cls; }
+        }
+      }
+    }
+    if (currentIndex >= 0) {
+      const btn = items.querySelector(`[data-word-index="${currentIndex}"]`);
+      if (btn) {
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        if (!query) btn.scrollIntoView({ block: 'nearest' });
+      }
+    }
+    _studyListPrevActiveIdx = currentIndex;
+    return;
+  }
+
+  // Full rebuild — runs on first open, filter change, search query change, or level change.
+  _studyListRebuildKey = rebuildKey;
+  _studyListPrevActiveIdx = currentIndex;
 
   const filteredWords = WORDS.map((word, wordIndex) => ({ word, wordIndex }))
     .filter(({ word }) => !query || (typeof wordMatchesQuery === 'function' ? wordMatchesQuery(word, query) : `${word.hanzi} ${word.pinyin} ${word.hanviet || ''} ${word.meaning}`.toLowerCase().includes(query.toLowerCase())));

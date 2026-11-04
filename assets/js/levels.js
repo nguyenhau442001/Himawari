@@ -392,7 +392,18 @@ function recordDailyStudy(wordId, level = currentLevel) {
   activity.days[today] = { words: Array.from(learnedWords), seconds: dayEntry.seconds };
 
   try { localStorage.setItem(STUDY_ACTIVITY_KEY, JSON.stringify(activity)); } catch (e) {}
-  renderLearningDashboard();
+
+  // In study mode the learning dashboard is hidden — defer the update so it
+  // does not block the card-advance animation on the main thread.
+  if (typeof currentLevel !== 'undefined' && currentLevel) {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(renderLearningDashboard, { timeout: 5000 });
+    } else {
+      setTimeout(renderLearningDashboard, 500);
+    }
+  } else {
+    renderLearningDashboard();
+  }
 }
 
 const STUDY_HEARTBEAT_SECONDS = 15;

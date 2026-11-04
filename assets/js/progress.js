@@ -45,7 +45,8 @@ function rateCurrentCard(rating) {
     if (limitMessage) limitMessage.textContent = '';
     saveProgress();
     if (typeof recordDailyStudy === 'function') recordDailyStudy(word.id, currentLevel);
-    updateStats();
+    // updateStats() is called by render() → applyContent(); skipping here avoids
+    // rebuilding the filter row twice per swipe.
     if (currentView === 'overview') renderOverview();
     if (typeof checkCelebration === 'function') checkCelebration(prevDeck);
   } catch (err) {
