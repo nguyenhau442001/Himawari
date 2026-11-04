@@ -866,15 +866,15 @@
 :root[data-theme="dark"] .study-nav-btn,
 :root[data-theme="dark"] .nav-row button,
 :root[data-theme="dark"] .nav-btn {
-  background: #1c2128;
-  border-color: rgba(255, 255, 255, 0.08);
+  background: var(--card-bg);
+  border-color: rgba(244, 167, 185, 0.12);
   color: var(--text-secondary);
 }
 :root[data-theme="dark"] .study-nav-btn:hover:not(:disabled),
 :root[data-theme="dark"] .nav-row button:hover:not(:disabled),
 :root[data-theme="dark"] .nav-btn:hover:not(:disabled) {
-  background: #242b35;
-  border-color: rgba(255, 255, 255, 0.18);
+  background: var(--surface-elevated);
+  border-color: rgba(244, 167, 185, 0.28);
   color: var(--text-primary);
 }
 .study-nav-position,
