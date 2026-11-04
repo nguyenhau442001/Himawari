@@ -83,8 +83,10 @@ function renderStrokeDecomposition(char, container) {
 
   const decomp = getCharacterDecomposition(char);
   if (!decomp) {
-    ensureHanziDecompLoaded().then(() => {
-      if (typeof currentStrokeChars !== 'undefined' && currentStrokeChars[activeCharIndex] === char) {
+    // Retry only while the data is still loading; a char missing from loaded data
+    // (or a failed fetch) would otherwise re-render in an endless microtask loop.
+    if (!hanziDecompData) ensureHanziDecompLoaded().then(() => {
+      if (hanziDecompData && typeof currentStrokeChars !== 'undefined' && currentStrokeChars[activeCharIndex] === char) {
         renderStrokeDecomposition(char, mount);
       }
     });
